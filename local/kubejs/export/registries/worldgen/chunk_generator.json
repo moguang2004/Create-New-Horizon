@@ -1,9 +1,0 @@
-{
-	"gcyr:space": "com.mojang.serialization.MapCodec$MapCodecCodec",
-	"minecraft:noise": "com.mojang.serialization.MapCodec$MapCodecCodec",
-	"ae2:spatial_storage": "com.mojang.serialization.MapCodec$MapCodecCodec",
-	"minecraft:debug": "com.mojang.serialization.MapCodec$MapCodecCodec",
-	"minecraft:flat": "com.mojang.serialization.MapCodec$MapCodecCodec",
-	"botania:skyblock": "com.mojang.serialization.MapCodec$MapCodecCodec",
-	"twilightforest:structure_locating_wrapper": "com.mojang.serialization.MapCodec$MapCodecCodec"
-}

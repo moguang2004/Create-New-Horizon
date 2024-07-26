@@ -1,4 +1,0 @@
-{
-	"minecraft:overworld": "net.minecraft.world.level.biome.MultiNoiseBiomeSourceParameterList",
-	"minecraft:nether": "net.minecraft.world.level.biome.MultiNoiseBiomeSourceParameterList"
-}

@@ -1,7 +1,0 @@
-#60995E gtceu:diamond_indicator
-#80497A minecraft:dirt
-#3F84B7 minecraft:grass_block
-#C812FA gtceu:hv_battery_buffer_4x
-#E372B0 gtceu:hv_charger_4x
-#B0A13D gtceu:mercury_barium_calcium_cuprate_single_wire
-#8A827E gtceu:redstone_indicator

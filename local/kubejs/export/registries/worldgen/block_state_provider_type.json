@@ -1,9 +1,0 @@
-{
-	"minecraft:simple_state_provider": "net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProviderType",
-	"minecraft:weighted_state_provider": "net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProviderType",
-	"minecraft:noise_threshold_provider": "net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProviderType",
-	"minecraft:noise_provider": "net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProviderType",
-	"minecraft:dual_noise_provider": "net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProviderType",
-	"minecraft:rotated_block_provider": "net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProviderType",
-	"minecraft:randomized_int_state_provider": "net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProviderType"
-}

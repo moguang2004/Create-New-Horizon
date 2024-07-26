@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = D:/game/minecraft-PCL/PCL2/.minecraft/versions/1.20.1整合包制作/saves/新的世界
-}
-

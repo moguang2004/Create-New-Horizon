@@ -1,7 +1,0 @@
-{
-	"aether:black": "com.aetherteam.aether.api.registers.MoaType",
-	"aether:blue": "com.aetherteam.aether.api.registers.MoaType",
-	"aether:white": "com.aetherteam.aether.api.registers.MoaType",
-	"lost_aether_content:brown": "com.aetherteam.aether.api.registers.MoaType",
-	"lost_aether_content:orange": "com.aetherteam.aether.api.registers.MoaType"
-}

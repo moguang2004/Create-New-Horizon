@@ -1,9 +1,0 @@
-{
-	"minecraft:say_command": "net.minecraft.network.chat.ChatType",
-	"minecraft:emote_command": "net.minecraft.network.chat.ChatType",
-	"minecraft:team_msg_command_incoming": "net.minecraft.network.chat.ChatType",
-	"minecraft:msg_command_incoming": "net.minecraft.network.chat.ChatType",
-	"minecraft:chat": "net.minecraft.network.chat.ChatType",
-	"minecraft:msg_command_outgoing": "net.minecraft.network.chat.ChatType",
-	"minecraft:team_msg_command_outgoing": "net.minecraft.network.chat.ChatType"
-}

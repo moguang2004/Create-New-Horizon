@@ -1,8 +1,0 @@
-{
-	"minecraft:uniform": "net.minecraft.util.valueproviders.IntProviderType$$Lambda$2547/0x0000000801ae46a8",
-	"minecraft:clamped": "net.minecraft.util.valueproviders.IntProviderType$$Lambda$2547/0x0000000801ae46a8",
-	"minecraft:constant": "net.minecraft.util.valueproviders.IntProviderType$$Lambda$2547/0x0000000801ae46a8",
-	"minecraft:weighted_list": "net.minecraft.util.valueproviders.IntProviderType$$Lambda$2547/0x0000000801ae46a8",
-	"minecraft:biased_to_bottom": "net.minecraft.util.valueproviders.IntProviderType$$Lambda$2547/0x0000000801ae46a8",
-	"minecraft:clamped_normal": "net.minecraft.util.valueproviders.IntProviderType$$Lambda$2547/0x0000000801ae46a8"
-}

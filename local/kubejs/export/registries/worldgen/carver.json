@@ -1,9 +1,0 @@
-{
-	"minecraft:cave": "net.minecraft.world.level.levelgen.carver.CaveWorldCarver",
-	"minecraft:nether_cave": "net.minecraft.world.level.levelgen.carver.NetherWorldCarver",
-	"minecraft:canyon": "net.minecraft.world.level.levelgen.carver.CanyonWorldCarver",
-	"twilightforest:tf_caves": "twilightforest.world.components.TFCavesCarver",
-	"twilightforest:highland_caves": "twilightforest.world.components.TFCavesCarver",
-	"alexscaves:water_bubble_carver": "com.github.alexmodguy.alexscaves.server.level.carver.WaterBubbleCarver",
-	"biomesoplenty:origin_cave": "biomesoplenty.common.worldgen.carver.OriginCaveWorldCarver"
-}

@@ -1,2 +1,0 @@
-#3F84B7 minecraft:grass_block
-#567D27 cold_sweat:icebox

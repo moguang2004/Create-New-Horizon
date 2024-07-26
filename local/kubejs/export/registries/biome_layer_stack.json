@@ -1,4 +1,0 @@
-{
-	"twilightforest:random_forest_biomes": "twilightforest.world.components.layer.vanillalegacy.ZoomLayer$Factory",
-	"twilightforest:biomes_along_streams": "twilightforest.world.components.layer.FilteredBiomeLayer$Factory"
-}

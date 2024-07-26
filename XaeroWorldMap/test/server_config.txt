@@ -1,5 +1,0 @@
-ignoreHeightmaps:false
-playerTeleportCommandFormat:/tp @s {name}
-normalTeleportCommandFormat:/tp @s {x} {y} {z}
-dimensionTeleportCommandFormat:/execute as @s in {d} run tp {x} {y} {z}
-teleportAllowed:true

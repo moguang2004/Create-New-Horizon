@@ -1,6 +1,0 @@
-{
-	"minecraft:empty": "net.minecraft.world.entity.schedule.Schedule",
-	"minecraft:simple": "net.minecraft.world.entity.schedule.Schedule",
-	"minecraft:villager_baby": "net.minecraft.world.entity.schedule.Schedule",
-	"minecraft:villager_default": "net.minecraft.world.entity.schedule.Schedule"
-}

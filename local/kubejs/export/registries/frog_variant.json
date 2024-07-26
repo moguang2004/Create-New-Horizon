@@ -1,6 +1,0 @@
-{
-	"alexscaves:primordial": "net.minecraft.world.entity.animal.FrogVariant",
-	"minecraft:temperate": "net.minecraft.world.entity.animal.FrogVariant",
-	"minecraft:cold": "net.minecraft.world.entity.animal.FrogVariant",
-	"minecraft:warm": "net.minecraft.world.entity.animal.FrogVariant"
-}

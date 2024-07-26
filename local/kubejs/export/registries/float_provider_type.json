@@ -1,6 +1,0 @@
-{
-	"minecraft:clamped_normal": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda$2528/0x0000000801add3e0",
-	"minecraft:trapezoid": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda$2528/0x0000000801add3e0",
-	"minecraft:uniform": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda$2528/0x0000000801add3e0",
-	"minecraft:constant": "net.minecraft.util.valueproviders.FloatProviderType$$Lambda$2528/0x0000000801add3e0"
-}
