@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["C","P","P"],"key":{"C":{"item":"gtceu:tin_single_cable"},"P":{"tag":"forge:plates/battery_alloy"}},"result":{"item":"gtceu:lv_battery_hull"}}

@@ -1,0 +1,16 @@
+{
+	"random_sequence": "artifacts:entities/mimic",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "artifacts:artifact"
+				}
+			]
+		}
+	]
+}

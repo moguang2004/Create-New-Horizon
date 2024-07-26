@@ -1,0 +1,116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0C47ABD5DF78C460"
+	group: ""
+	icon: "ae2:charged_certus_quartz_crystal"
+	id: "0C47ABD5DF78C460"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"06A46967BFF56B33"
+				"0425D0789C2837CD"
+			]
+			id: "5BA988147AECFFF2"
+			subtitle: "MV电路（手搓版）"
+			tasks: [{
+				id: "73C37104C3738157"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BA988147AECFFF2"]
+			id: "6877DD0C4BACC1D7"
+			tasks: [{
+				id: "4844B41DC2C53211"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6877DD0C4BACC1D7"]
+			id: "25C927AB040FB7AB"
+			tasks: [{
+				id: "319514FFCAC9AE92"
+				item: "ae2:annihilation_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6877DD0C4BACC1D7"]
+			id: "76C330D18BC4A141"
+			tasks: [{
+				id: "0DE51D312F10E016"
+				item: "ae2:formation_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"25C927AB040FB7AB"
+				"76C330D18BC4A141"
+			]
+			id: "42A016AF546A3B29"
+			tasks: [{
+				id: "763920B1896B9EF3"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"25C927AB040FB7AB"
+				"76C330D18BC4A141"
+			]
+			id: "235D3A9B30896B51"
+			tasks: [{
+				id: "3693E1FA331E29B1"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2534B56E45BA42B0"]
+			id: "6CE2A3F2B49179E8"
+			tasks: [{
+				id: "5977BF62727197EC"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6CE2A3F2B49179E8"
+				"42A016AF546A3B29"
+				"235D3A9B30896B51"
+			]
+			id: "634FBA16A992503B"
+			subtitle: "尝试利用存储总线和抽屉做一个简单存储系统吧"
+			tasks: [{
+				id: "60059BE037BB4CEE"
+				title: "基础存储"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+	]
+	title: "应用能源"
+}

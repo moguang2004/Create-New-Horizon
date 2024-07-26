@@ -1,0 +1,7 @@
+{
+	"cataclysm:cataclysm_random_spread": "com.github.L_Ender.cataclysm.init.ModStructurePlacementType$$Lambda$20648/0x00000008037cb458",
+	"structure_gel:grid_placement": "com.legacy.structure_gel.core.registry.SGRegistry$StructurePlacementTypes$$Lambda$20647/0x00000008037cb240",
+	"minecraft:random_spread": "net.minecraft.world.level.levelgen.structure.placement.StructurePlacementType$$Lambda$3110/0x0000000801b60238",
+	"twilightforest:forced_landmark": "twilightforest.init.TFStructurePlacementTypes$$Lambda$20646/0x00000008037cb028",
+	"minecraft:concentric_rings": "net.minecraft.world.level.levelgen.structure.placement.StructurePlacementType$$Lambda$3110/0x0000000801b60238"
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "create:blocks/refined_radiance_casing",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "create:refined_radiance_casing"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

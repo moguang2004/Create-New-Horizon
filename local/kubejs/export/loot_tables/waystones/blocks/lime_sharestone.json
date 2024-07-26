@@ -1,0 +1,58 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "waystones:lime_sharestone",
+							"properties": {
+								"half": "lower"
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:silk_touch",
+												"levels": {
+													"min": 1
+												}
+											}
+										]
+									}
+								}
+							],
+							"source": "block_entity",
+							"ops": [
+								{
+									"source": "UUID",
+									"target": "UUID",
+									"op": "replace"
+								}
+							]
+						}
+					],
+					"name": "waystones:lime_sharestone"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

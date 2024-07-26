@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PSP","SAS","CSC"],"key":{"S":{"tag":"forge:gears/steel"},"P":{"tag":"gtceu:circuits/hv"},"A":{"item":"gtceu:hv_machine_hull"},"C":{"item":"gtceu:steel_large_fluid_pipe"}},"result":{"item":"gtceu:steam_large_turbine"}}

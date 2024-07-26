@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PSP","GGG","PGP"],"key":{"P":{"tag":"forge:plates/wood"},"S":{"item":"minecraft:string"},"G":{"tag":"forge:dusts/gunpowder"}},"result":{"item":"gtceu:powderbarrel"}}

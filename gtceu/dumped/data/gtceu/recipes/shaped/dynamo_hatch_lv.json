@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" V ","SHS","   "],"key":{"S":{"tag":"forge:springs/tin"},"V":{"item":"gtceu:lv_voltage_coil"},"H":{"item":"gtceu:lv_machine_hull"}},"result":{"item":"gtceu:lv_energy_output_hatch"}}

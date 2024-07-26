@@ -1,0 +1,4 @@
+{
+	"minecraft:block": "net.minecraft.world.level.gameevent.BlockPositionSource$Type",
+	"minecraft:entity": "net.minecraft.world.level.gameevent.EntityPositionSource$Type"
+}

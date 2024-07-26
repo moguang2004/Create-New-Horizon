@@ -1,0 +1,1 @@
+{"type":"gtceu:steam_boiler","duration":153600,"inputs":{"item":[{"content":{"type":"gtceu:sized","fabric:type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:coke_exquisite_gem"}},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

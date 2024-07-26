@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ShS","IWI","IdI"],"key":{"S":{"tag":"forge:screws/iron"},"I":{"tag":"forge:rods/iron"},"W":{"tag":"forge:rods/wood"},"d":{"tag":"forge:tools/screwdrivers"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:rail","count":8}}

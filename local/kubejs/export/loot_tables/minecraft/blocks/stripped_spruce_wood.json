@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/stripped_spruce_wood",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stripped_spruce_wood"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

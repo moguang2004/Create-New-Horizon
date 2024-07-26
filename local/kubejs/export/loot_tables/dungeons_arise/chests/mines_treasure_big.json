@@ -1,0 +1,330 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 16.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:diamond_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 39.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:stone_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 15.0,
+								"max": 20.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:iron_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 39.0,
+							"treasure": true
+						}
+					],
+					"name": "minecraft:golden_pickaxe"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 700
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:looting\",lvl:3s}]}"
+						}
+					],
+					"name": "minecraft:diamond_pickaxe"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 0.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 39.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 39.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 39.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 39.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_boots"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:brown_mushroom"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:slime_ball"
+				}
+			]
+		},
+		{
+			"name": "pool4",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 6.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 24.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 16.0,
+								"max": 48.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				}
+			]
+		},
+		{
+			"name": "pool5",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/abandoned_mineshaft"
+				}
+			]
+		}
+	]
+}

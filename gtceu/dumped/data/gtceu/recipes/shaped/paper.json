@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" r ","SSS"," B "],"key":{"S":{"tag":"forge:dusts/paper"},"B":{"item":"minecraft:water_bucket"},"r":{"tag":"forge:tools/mallets"}},"result":{"item":"minecraft:paper","count":2}}

@@ -1,0 +1,15 @@
+{
+	"pools": [
+		{
+			"name": "forged/plate_break",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "tetra:vent_plate"
+				}
+			]
+		}
+	]
+}

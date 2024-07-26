@@ -1,0 +1,1 @@
+{"type":"gtceu:large_boiler","duration":3,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"ars_nouveau:archwood_pressure_plate"}},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

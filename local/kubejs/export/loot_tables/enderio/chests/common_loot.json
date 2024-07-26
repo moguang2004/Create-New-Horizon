@@ -1,0 +1,106 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "enderio:chests/common_loot",
+	"pools": [
+		{
+			"name": "Ender IO",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.25
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "enderio:dark_steel_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:ender_pearl"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					],
+					"name": "enderio:wood_gear"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.15
+						}
+					],
+					"functions": [
+						{
+							"function": "enderio:set_loot_capacitor",
+							"range": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							}
+						}
+					],
+					"name": "enderio:loot_capacitor"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2000.0
+							},
+							"add": false
+						}
+					],
+					"name": "enderio:dark_steel_sword"
+				}
+			]
+		}
+	]
+}

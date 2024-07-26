@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PTP","WWW"],"key":{"P":{"tag":"forge:bolts/steel"},"T":{"item":"gtceu:glass_tube"},"W":{"item":"gtceu:copper_single_wire"}},"result":{"item":"gtceu:vacuum_tube"}}

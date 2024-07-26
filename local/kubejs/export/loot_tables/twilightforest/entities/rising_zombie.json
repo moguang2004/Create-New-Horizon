@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:entity",
+	"random_sequence": "twilightforest:entities/rising_zombie",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/zombie"
+				}
+			]
+		}
+	]
+}

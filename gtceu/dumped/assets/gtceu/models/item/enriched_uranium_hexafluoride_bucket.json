@@ -1,0 +1,1 @@
+{"parent":"forge:item/bucket_drip","loader":"forge:fluid_container","fluid":"gtceu:enriched_uranium_hexafluoride","flip_gas":true,"apply_fluid_luminosity":false}

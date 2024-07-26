@@ -1,0 +1,78 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "enderio:blocks/painted_slab",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:block_state_property",
+								"block": "enderio:painted_slab",
+								"properties": {
+									"type": "top"
+								}
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "block_entity",
+							"ops": [
+								{
+									"source": "Paint",
+									"target": "BlockEntityTag.Paint",
+									"op": "replace"
+								}
+							]
+						}
+					],
+					"name": "enderio:painted_slab"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:block_state_property",
+								"block": "enderio:painted_slab",
+								"properties": {
+									"type": "bottom"
+								}
+							}
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": "block_entity",
+							"ops": [
+								{
+									"source": "Paint2",
+									"target": "BlockEntityTag.Paint2",
+									"op": "replace"
+								}
+							]
+						}
+					],
+					"name": "enderio:painted_slab"
+				}
+			]
+		}
+	]
+}

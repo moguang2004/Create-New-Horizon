@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WPW","XGX","WPW"],"key":{"W":{"item":"gtceu:magnesium_diboride_quadruple_wire"},"P":{"tag":"forge:plates/aluminium"},"G":{"tag":"forge:gems/ender_eye"},"X":{"tag":"gtceu:circuits/mv"}},"result":{"item":"gtceu:mv_field_generator"}}

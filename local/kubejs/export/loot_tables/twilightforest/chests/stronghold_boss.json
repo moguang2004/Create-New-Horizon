@@ -1,0 +1,115 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "twilightforest:chests/stronghold_boss",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 4.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20.0,
+							"treasure": false
+						}
+					],
+					"name": "twilightforest:knightmetal_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20.0,
+							"treasure": false
+						}
+					],
+					"name": "twilightforest:knightmetal_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20.0,
+							"treasure": false
+						}
+					],
+					"name": "twilightforest:knightmetal_axe"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20.0,
+							"treasure": false
+						}
+					],
+					"name": "twilightforest:phantom_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20.0,
+							"treasure": false
+						}
+					],
+					"name": "twilightforest:phantom_chestplate"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30.0,
+							"treasure": false
+						}
+					],
+					"name": "twilightforest:phantom_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30.0,
+							"treasure": false
+						}
+					],
+					"name": "twilightforest:phantom_chestplate"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:knight_phantom_trophy"
+				}
+			]
+		}
+	]
+}

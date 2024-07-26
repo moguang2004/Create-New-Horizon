@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "artifacts:inject/chests/end_city_treasure",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "artifacts:artifact"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:crystal_heart"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:cloud_in_a_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "artifacts:helium_flamingo"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "artifacts:configurable_random_chance",
+					"default_probability": 0.3
+				}
+			]
+		}
+	]
+}

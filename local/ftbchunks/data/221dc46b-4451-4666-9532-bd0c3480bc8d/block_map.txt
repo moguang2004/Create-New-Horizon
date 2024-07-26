@@ -1,0 +1,4 @@
+#80497A minecraft:dirt
+#3F84B7 minecraft:grass_block
+#AB42CF gtceu:lapis_indicator
+#8A827E gtceu:redstone_indicator

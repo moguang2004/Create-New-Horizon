@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/decorated_pot",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:dynamic",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"tag": "minecraft:breaks_decorated_pots"
+									}
+								},
+								{
+									"condition": "minecraft:inverted",
+									"term": {
+										"condition": "minecraft:match_tool",
+										"predicate": {
+											"enchantments": [
+												{
+													"enchantment": "minecraft:silk_touch",
+													"levels": {
+														"min": 1
+													}
+												}
+											]
+										}
+									}
+								}
+							],
+							"name": "minecraft:sherds"
+						},
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": "block_entity",
+									"ops": [
+										{
+											"source": "sherds",
+											"target": "BlockEntityTag.sherds",
+											"op": "replace"
+										}
+									]
+								}
+							],
+							"name": "minecraft:decorated_pot"
+						}
+					]
+				}
+			]
+		}
+	]
+}

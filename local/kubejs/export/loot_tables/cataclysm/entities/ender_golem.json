@@ -1,0 +1,15 @@
+{
+	"pools": [
+		{
+			"name": "ender_golem",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cataclysm:void_core"
+				}
+			]
+		}
+	]
+}

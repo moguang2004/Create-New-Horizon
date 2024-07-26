@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PKP","BZG","FKH"],"key":{"Z":{"tag":"gtceu:circuits/iv"},"B":{"item":"gtceu:iv_bender"},"P":{"item":"gtceu:iv_electric_piston"},"G":{"item":"gtceu:iv_compressor"},"F":{"item":"gtceu:iv_forming_press"},"H":{"item":"gtceu:iv_forge_hammer"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_material_press"}}

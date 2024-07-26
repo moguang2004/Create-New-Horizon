@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "farmersdelight:blocks/canvas_rug",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "farmersdelight:canvas_rug"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

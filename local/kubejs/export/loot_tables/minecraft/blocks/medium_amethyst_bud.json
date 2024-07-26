@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/medium_amethyst_bud",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:medium_amethyst_bud"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:silk_touch",
+								"levels": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

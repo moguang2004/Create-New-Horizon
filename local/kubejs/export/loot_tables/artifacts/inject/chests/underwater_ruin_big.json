@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "artifacts:inject/chests/underwater_ruin_big",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "artifacts:snorkel"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "artifacts:flippers"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:superstitious_hat"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:lucky_scarf"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:fire_gauntlet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:cross_necklace"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:power_glove"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:cloud_in_a_bottle"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "artifacts:configurable_random_chance",
+					"default_probability": 0.45
+				}
+			]
+		}
+	]
+}

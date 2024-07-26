@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["SMS","CZL","EKE"],"key":{"Z":{"tag":"gtceu:circuits/iv"},"L":{"item":"gtceu:iv_lathe"},"E":{"item":"gtceu:iv_electric_motor"},"C":{"item":"gtceu:iv_cutter"},"M":{"item":"gtceu:iv_conveyor_module"},"S":{"item":"gtceu:tungsten_carbide_buzz_saw_blade"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_cutter"}}

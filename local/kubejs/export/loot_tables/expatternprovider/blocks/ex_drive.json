@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "expatternprovider:blocks/ex_drive",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "expatternprovider:ex_drive"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

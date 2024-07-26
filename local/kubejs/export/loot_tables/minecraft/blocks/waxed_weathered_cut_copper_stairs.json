@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/waxed_weathered_cut_copper_stairs",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:waxed_weathered_cut_copper_stairs"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

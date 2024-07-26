@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "06DFF7ED9E3AF570"
+	group: "203B37D7B3ACCD4B"
+	icon: "create:brass_casing"
+	id: "06DFF7ED9E3AF570"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B430B944944D2C1"]
+			id: "18E67AF8AC9EB657"
+			subtitle: "黄铜时代！！！"
+			tasks: [{
+				id: "3974CDE045E573F6"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B430B944944D2C1"]
+			id: "6D7BF84C7BACFB90"
+			tasks: [{
+				id: "50EE7A16970B2B2A"
+				item: "gtceu:brass_plate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6D7BF84C7BACFB90"
+				"50ADB201997BE734"
+			]
+			id: "002CB5A52F6BAB96"
+			tasks: [{
+				id: "61B29F50EA2F4328"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["65CCF2FE4A250B5F"]
+			id: "50ADB201997BE734"
+			tasks: [{
+				id: "2844C43F4E94B027"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7B884111DC06D7FF"
+				"628C9DDDC026FC67"
+			]
+			id: "65CCF2FE4A250B5F"
+			tasks: [{
+				id: "05BEC21ACA05E70F"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"700219157D99E263"
+				"5CC765087238C3A3"
+			]
+			id: "7B884111DC06D7FF"
+			tasks: [{
+				id: "19071A92CD397207"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "628C9DDDC026FC67"
+			subtitle: "古老但有效的方法"
+			tasks: [{
+				id: "420DA6356916CF1C"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6272A1FC85024350"
+				"002CB5A52F6BAB96"
+			]
+			id: "0097B3514E01B21E"
+			subtitle: "装配线青春版？"
+			tasks: [{
+				id: "1B3C5434C6DF617A"
+				title: "序列组装"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"50ADB201997BE734"
+				"18E67AF8AC9EB657"
+			]
+			id: "5FE3BC6A006A6D5D"
+			subtitle: "大型拓展工作台"
+			tasks: [{
+				id: "0BD061DD50986D14"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5FE3BC6A006A6D5D"]
+			id: "0E1C7C7EE22CC9CE"
+			subtitle: "终于......"
+			tasks: [{
+				id: "7FF3428E4FFB3E0A"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0097B3514E01B21E"]
+			id: "635C5F66D6D30D17"
+			subtitle: "需要装配线制作的精密部件"
+			tasks: [{
+				id: "4334C2865984FD1B"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "黄铜时代"
+}

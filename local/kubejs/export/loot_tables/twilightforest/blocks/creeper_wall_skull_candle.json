@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "twilightforest:blocks/creeper_wall_skull_candle",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:creeper_head"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

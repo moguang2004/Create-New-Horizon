@@ -1,0 +1,20 @@
+{
+	"minecraft:snout": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:silence": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:wild": "net.minecraft.world.item.armortrim.TrimPattern",
+	"alexscaves:polarity": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:raiser": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:host": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:rib": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:tide": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:eye": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:ward": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:wayfinder": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:sentry": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:spire": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:dune": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:coast": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:shaper": "net.minecraft.world.item.armortrim.TrimPattern",
+	"minecraft:vex": "net.minecraft.world.item.armortrim.TrimPattern",
+	"lost_aether_content:noble": "net.minecraft.world.item.armortrim.TrimPattern"
+}

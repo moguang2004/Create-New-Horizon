@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["VGW","PGV","CMC"],"key":{"M":{"item":"gtceu:zpm_machine_hull"},"P":{"item":"gtceu:zpm_electric_pump"},"V":{"item":"gtceu:zpm_conveyor_module"},"C":{"tag":"gtceu:circuits/zpm"},"W":{"item":"gtceu:vanadium_gallium_single_cable"},"G":{"item":"gtceu:fusion_glass"}},"result":{"item":"gtceu:zpm_chemical_bath"}}

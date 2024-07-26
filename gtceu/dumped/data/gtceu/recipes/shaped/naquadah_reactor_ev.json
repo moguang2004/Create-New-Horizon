@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EBE"],"key":{"A":{"tag":"forge:rods/uranium_235"},"B":{"tag":"gtceu:circuits/iv"},"C":{"item":"gtceu:ev_field_generator"},"D":{"item":"gtceu:ev_machine_hull"},"E":{"item":"gtceu:aluminium_quadruple_cable"}},"result":{"item":"gtnn:ev_naquadah_reactor"}}

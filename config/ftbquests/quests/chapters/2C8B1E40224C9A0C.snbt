@@ -1,0 +1,227 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2C8B1E40224C9A0C"
+	group: ""
+	icon: "minecraft:compass"
+	id: "2C8B1E40224C9A0C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["60F22A89A32E0DD5"]
+			id: "201D7F340F8ED187"
+			subtitle: "探索磁场洞穴"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: "alexscaves:telecore"
+				id: "4EFBD6F02E3100E4"
+				title: "磁力洞穴"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60F22A89A32E0DD5"]
+			id: "7A1D738315BBD040"
+			subtitle: "探索渊海陷窟"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: "alexscaves:tripodfish"
+				id: "44C166B59837027D"
+				title: "深渊"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60F22A89A32E0DD5"]
+			id: "11EDB5B9EB1B6554"
+			subtitle: "探索毒化洞穴"
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: {
+					Count: 1
+					id: "alexscaves:hazmat_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "58E7619E76BCD1FD"
+				title: "辐射之居"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["60F22A89A32E0DD5"]
+			id: "5420D60930DD31A7"
+			subtitle: "探索原始洞穴"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: "alexscaves:subterranodon_egg"
+				id: "130B42BAD56DC7F2"
+				title: "原始暴乱"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60F22A89A32E0DD5"]
+			id: "1D74C6CC8DEB6158"
+			subtitle: "探索异寂空谷"
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: "alexscaves:pure_darkness"
+				id: "2B73ED1E1D3B4239"
+				title: "异寂空谷"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12316D2A6DC56654"]
+			id: "60F22A89A32E0DD5"
+			tasks: [{
+				id: "11E87C8E711D9668"
+				title: "Alex Caves"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11EDB5B9EB1B6554"]
+			id: "79DC0E912343C094"
+			subtitle: "看似是废液，也许比你想象中更有用......"
+			tasks: [{
+				id: "26995EA872B9F0CF"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["60F22A89A32E0DD5"]
+			id: "04E2C1AE56B3C673"
+			subtitle: "这是一个在任何地方都能生成的小木屋，在这里，你可以找到关于这个模组的一切（当然百科上也可以），想办法破解石板的奥秘，找到那些神秘的群系吧！"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				id: "017EE0C971925093"
+				structure: "alexscaves:underground_cabin"
+				title: "地下小屋"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["201D7F340F8ED187"]
+			id: "698DD6984BEF36DA"
+			subtitle: "楠磁铁（bushi）"
+			tasks: [{
+				id: "361EAFF63E4D234D"
+				item: "alexscaves:azure_neodymium_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["201D7F340F8ED187"]
+			id: "1385760305EE11D6"
+			subtitle: "钕磁铁，兄弟！"
+			tasks: [{
+				id: "6D445C64F687BD9D"
+				item: "alexscaves:scarlet_neodymium_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D74C6CC8DEB6158"]
+			id: "5BA57093B05FF586"
+			subtitle: "异化的产物"
+			tasks: [{
+				id: "6D53C642894096AF"
+				item: "alexscaves:dark_tatters"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["468D840ACABE38B9"]
+			id: "47B6886F0A21A4B3"
+			subtitle: "独眼巨人号青春版"
+			tasks: [{
+				id: "6A793431EE457282"
+				item: "alexscaves:submarine"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A1D738315BBD040"]
+			id: "468D840ACABE38B9"
+			subtitle: "击败幻海妖龙吧！"
+			tasks: [{
+				id: "0C87415E2C0F77A8"
+				item: "alexscaves:enigmatic_engine"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5420D60930DD31A7"]
+			id: "33876D496195E626"
+			subtitle: "随处可见的石头，但你可能会需要他"
+			tasks: [{
+				id: "0C453A3D52229CC8"
+				item: "alexscaves:limestone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "12316D2A6DC56654"
+			size: 1.5d
+			tasks: [{
+				id: "126C851BA0B58A46"
+				title: "主世界的冒险"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12316D2A6DC56654"]
+			id: "6CF7B4F881F5C899"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "58FE2B0AF46203DE"
+				type: "dimension"
+			}]
+			title: "造访炼狱之地"
+			x: 0.5d
+			y: 4.5d
+		}
+	]
+	title: "大千世界"
+}

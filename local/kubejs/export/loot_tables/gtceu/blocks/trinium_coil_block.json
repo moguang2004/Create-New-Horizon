@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "gtceu:blocks/trinium_coil_block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "gtceu:trinium_coil_block"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

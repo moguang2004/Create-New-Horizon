@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "farmersdelight:blocks/rich_soil_farmland",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "farmersdelight:rich_soil"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

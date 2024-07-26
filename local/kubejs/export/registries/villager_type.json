@@ -1,0 +1,9 @@
+{
+	"minecraft:snow": "net.minecraft.world.entity.npc.VillagerType",
+	"minecraft:savanna": "net.minecraft.world.entity.npc.VillagerType",
+	"minecraft:desert": "net.minecraft.world.entity.npc.VillagerType",
+	"minecraft:jungle": "net.minecraft.world.entity.npc.VillagerType",
+	"minecraft:taiga": "net.minecraft.world.entity.npc.VillagerType",
+	"minecraft:swamp": "net.minecraft.world.entity.npc.VillagerType",
+	"minecraft:plains": "net.minecraft.world.entity.npc.VillagerType"
+}

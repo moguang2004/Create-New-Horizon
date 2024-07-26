@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "twilightforest:chests/troll_vault_with_lamp",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "twilightforest:chests/troll_vault"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:lamp_of_cinders"
+				}
+			]
+		}
+	]
+}

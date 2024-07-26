@@ -1,0 +1,219 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 18
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "",
+									"attribute": "minecraft:generic.knockback_resistance",
+									"operation": "addition",
+									"amount": 1.0,
+									"slot": [
+										"offhand",
+										"mainhand"
+									]
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"name": "",
+									"attribute": "minecraft:generic.attack_damage",
+									"operation": "addition",
+									"amount": {
+										"type": "minecraft:uniform",
+										"min": 3.0,
+										"max": 4.0
+									},
+									"slot": "mainhand"
+								}
+							]
+						}
+					],
+					"name": "minecraft:iron_axe"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 12.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:experience_bottle"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 15.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 15.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 15.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 15.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_boots"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 12.0,
+								"max": 24.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_block"
+				}
+			]
+		},
+		{
+			"name": "pool4",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/woodland_mansion"
+				}
+			]
+		}
+	]
+}

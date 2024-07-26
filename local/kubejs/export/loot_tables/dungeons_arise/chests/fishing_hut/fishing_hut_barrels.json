@@ -1,0 +1,144 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:luck\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 10.0
+							},
+							"treasure": false
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 200.0,
+								"max": 249.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:trident"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 70,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 15.0,
+								"max": 25.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:fishing_rod"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 60,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 30.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"name": "minecraft:water_bucket"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:tropical_fish"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 7.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:salmon"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:cod"
+				}
+			]
+		}
+	]
+}

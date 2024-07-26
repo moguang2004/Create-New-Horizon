@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "expandedstorage:blocks/vanilla_wood_mini_chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_state",
+							"block": "expandedstorage:vanilla_wood_mini_chest",
+							"properties": [
+								"sparrow"
+							]
+						}
+					],
+					"name": "expandedstorage:vanilla_wood_mini_chest"
+				}
+			]
+		}
+	]
+}

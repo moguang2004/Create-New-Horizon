@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ChC","SRf","CdC"],"key":{"C":{"tag":"forge:plates/iron"},"S":{"tag":"forge:screws/iron"},"R":{"tag":"forge:rings/iron"},"d":{"tag":"forge:tools/screwdrivers"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:iron_rotor"}}

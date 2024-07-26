@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CGC","PHP","CUC"],"key":{"C":{"tag":"gtceu:circuits/uhv"},"P":{"tag":"forge:plates/neutronium"},"U":{"item":"gtceu:uv_electric_pump"},"G":{"item":"gtceu:zpm_field_generator"},"H":{"item":"gtceu:uhv_hermetic_casing"}},"result":{"item":"gtceu:uhv_quantum_tank"}}

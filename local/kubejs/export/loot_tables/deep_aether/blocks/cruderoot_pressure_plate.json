@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "deep_aether:blocks/cruderoot_pressure_plate",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "deep_aether:cruderoot_pressure_plate"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

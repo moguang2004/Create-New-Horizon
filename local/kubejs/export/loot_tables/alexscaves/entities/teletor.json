@@ -1,0 +1,87 @@
+{
+	"pools": [
+		{
+			"name": "teletor_neodymium_drops",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 1.0
+							}
+						}
+					],
+					"name": "alexscaves:raw_azure_neodymium"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 1.0
+							}
+						}
+					],
+					"name": "alexscaves:raw_scarlet_neodymium"
+				}
+			]
+		},
+		{
+			"name": "teletor_core",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 1.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 1.0
+							}
+						}
+					],
+					"name": "alexscaves:telecore"
+				}
+			]
+		}
+	]
+}

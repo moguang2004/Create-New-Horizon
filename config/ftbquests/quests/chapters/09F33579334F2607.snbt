@@ -1,0 +1,811 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "09F33579334F2607"
+	group: "32DB92B5A6E4493B"
+	icon: "botania:pure_daisy"
+	id: "09F33579334F2607"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "78A26DEDD6AFF600"
+			subtitle: "收集野外的神秘花"
+			tasks: [{
+				count: 8L
+				id: "419787730C10AEAE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:petals"
+					}
+				}
+				title: "任意花瓣"
+				type: "item"
+			}]
+			title: "魔法的起步"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78A26DEDD6AFF600"]
+			id: "23F758E2421BF068"
+			subtitle: "有一股魔力聚集在这个台子里"
+			tasks: [{
+				id: "5B819720754431C8"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23F758E2421BF068"]
+			id: "17AE8CE55863D7D6"
+			tasks: [{
+				id: "206312D77F042785"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23F758E2421BF068"]
+			id: "29C8F8795B11936E"
+			subtitle: "水力发电机"
+			tasks: [{
+				id: "568AA36AF9A1B955"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17AE8CE55863D7D6"]
+			id: "4B6CBB1E8D1A6273"
+			tasks: [{
+				id: "1E5BF54B1FA43008"
+				item: "botania:livingwood"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17AE8CE55863D7D6"]
+			id: "0598D6FDA6319592"
+			tasks: [{
+				id: "3BEA8805B0E3B1F4"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0598D6FDA6319592"]
+			id: "257CFCFEE4F99D04"
+			tasks: [{
+				id: "2664B9D32E748860"
+				item: "botania:diluted_pool"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"29C8F8795B11936E"
+				"257CFCFEE4F99D04"
+			]
+			id: "592F9BDCCCFCCAF6"
+			subtitle: "魔力的产物"
+			tasks: [
+				{
+					id: "6771C91FEB6ACE8B"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "7274CEFB895EF5A9"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["592F9BDCCCFCCAF6"]
+			id: "4A30A1B474B1C450"
+			subtitle: "一块？电池？"
+			tasks: [{
+				id: "0E08181BB2C5D68A"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["592F9BDCCCFCCAF6"]
+			id: "6963A4242BCCBADC"
+			subtitle: "植魔科技的核心"
+			tasks: [{
+				id: "0CD07CA5A0411A8A"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6963A4242BCCBADC"]
+			id: "17B87AE00C7626AF"
+			subtitle: "蕴含水之魔力"
+			tasks: [{
+				id: "13CC5F30DC0FB2FD"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6963A4242BCCBADC"]
+			id: "20DD3B07D56B6A8D"
+			subtitle: "蕴含火之魔力"
+			tasks: [{
+				id: "22266D8EA38E20A3"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6963A4242BCCBADC"]
+			id: "7182CCA0B17CC960"
+			subtitle: "蕴含地之魔力"
+			tasks: [{
+				id: "25C4E5A716AB7F83"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6963A4242BCCBADC"]
+			id: "6755E680AD4602D5"
+			subtitle: "蕴含风之魔力"
+			tasks: [{
+				id: "44A580D64D4616F6"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"17B87AE00C7626AF"
+				"6755E680AD4602D5"
+				"20DD3B07D56B6A8D"
+				"7182CCA0B17CC960"
+			]
+			id: "012D04F8C8D62292"
+			tasks: [{
+				id: "6ACE286DBE0D1D1A"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["012D04F8C8D62292"]
+			id: "76036AE6CE23B158"
+			subtitle: "似乎是一个魔力的集合体"
+			tasks: [{
+				id: "2EE13684076752DC"
+				item: "gtceu:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["76036AE6CE23B158"]
+			id: "4AB8CE1AF271F021"
+			subtitle: "打开与精灵世界交易的大门"
+			tasks: [
+				{
+					id: "18E11B719DB17BBE"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1679E4201E9811DD"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7BE4D37EAD5B4F48"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			title: "精灵门"
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4A30A1B474B1C450"]
+			id: "25B3AF6B83955B6C"
+			tasks: [{
+				id: "032F39EF534AB8F4"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4AB8CE1AF271F021"]
+			id: "783EE6889DD2C460"
+			subtitle: "这是你交易得到的"
+			tasks: [
+				{
+					id: "2C39F093F3F3687A"
+					item: "gtceu:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "1832CA244CCC88B1"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+				{
+					id: "00CB1BD7B797A03F"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+			]
+			title: "精灵产物"
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["783EE6889DD2C460"]
+			id: "564DF031F1983954"
+			tasks: [{
+				id: "159257F62BAEDE9B"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["783EE6889DD2C460"]
+			id: "60DE45074FA207BF"
+			tasks: [{
+				id: "20E620ACA8915AB7"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["012D04F8C8D62292"]
+			id: "34535196790E1A26"
+			subtitle: "蕴含春之魔力"
+			tasks: [{
+				id: "1BAD87101F7510F3"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["012D04F8C8D62292"]
+			id: "167F0DAD7D2B97C5"
+			subtitle: "蕴含夏之魔力"
+			tasks: [{
+				id: "265E7AEAB6C9F1D9"
+				item: "botania:rune_summer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["012D04F8C8D62292"]
+			id: "7AC7D7F2444B31EC"
+			subtitle: "蕴含秋之魔力"
+			tasks: [{
+				id: "1FC1E9647E523D68"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["012D04F8C8D62292"]
+			id: "213DE50DC3B65FA3"
+			subtitle: "蕴含冬之魔力"
+			tasks: [{
+				id: "6E8C9E2BAAAAB6C3"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["60DE45074FA207BF"]
+			id: "2F98CF01C77BC29B"
+			tasks: [{
+				id: "7060B5A93878C81F"
+				item: "gtceu:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["564DF031F1983954"]
+			id: "2755F78FE5290FC2"
+			subtitle: "这可不是一个小喽啰"
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "435D630121EAAC09"
+				type: "kill"
+				value: 1L
+			}]
+			title: "击败盖亚"
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2755F78FE5290FC2"]
+			id: "3997A8293A186F50"
+			subtitle: "一种高级原材料"
+			tasks: [{
+				id: "57A9366845A0CB5A"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["20DD3B07D56B6A8D"]
+			id: "16BA40E467148F05"
+			subtitle: "火力发电机"
+			tasks: [{
+				id: "5E879811AE7F9DE5"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["167F0DAD7D2B97C5"]
+			id: "2A2F55330B0A2B24"
+			subtitle: "食物发电机"
+			tasks: [{
+				id: "7E0BDAB1371AC4AD"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2755F78FE5290FC2"]
+			id: "3A4FAB47A847C40C"
+			tasks: [{
+				id: "6548E5AA989E6466"
+				item: {
+					Count: 1
+					id: "botania:odin_ring"
+					tag: {
+						baubleUUID: [I;
+							186939343
+							-961327842
+							-1404118168
+							-735284621
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2755F78FE5290FC2"]
+			id: "0D5D6B251CC8365A"
+			tasks: [{
+				id: "03206485FB063F15"
+				item: "botania:loki_ring"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2755F78FE5290FC2"]
+			id: "5A6CF2F3FC1CF713"
+			tasks: [{
+				id: "68B8A92FA908F442"
+				item: "botania:thor_ring"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2755F78FE5290FC2"]
+			id: "263BAC17F57E2F18"
+			tasks: [{
+				id: "69F550DA8A63DAAA"
+				item: "botania:infinite_fruit"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2755F78FE5290FC2"]
+			id: "42058EDD69B335F4"
+			tasks: [{
+				id: "5B88256139C4B757"
+				item: "botania:king_key"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2755F78FE5290FC2"]
+			id: "1CD0E43742CF5C12"
+			tasks: [{
+				id: "6AA274331310889B"
+				item: "botania:flugel_eye"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["783EE6889DD2C460"]
+			id: "4EEA2B73C3ED8936"
+			subtitle: "无线物流！"
+			tasks: [{
+				id: "799641EBC0E31345"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["783EE6889DD2C460"]
+			id: "4071C8F7241FEEA2"
+			tasks: [{
+				id: "71A17356748217EB"
+				item: "botania:corporea_funnel"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4B6CBB1E8D1A6273"]
+			id: "39E84FC673BD14E7"
+			tasks: [{
+				id: "74E2E50E5FA3842B"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["39E84FC673BD14E7"]
+			id: "5B47ED8585E8715F"
+			tasks: [{
+				id: "558D96C72BEC64CD"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B47ED8585E8715F"]
+			id: "002DD1BBAD2D049F"
+			tasks: [{
+				id: "6551DE3F226A2269"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["76036AE6CE23B158"]
+			id: "5E4ECBE7D601E333"
+			tasks: [{
+				id: "55517149CC553661"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "botania:terrasteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["76036AE6CE23B158"]
+			id: "0BE4CAAC6F4421A5"
+			tasks: [{
+				id: "64AF633A3A867098"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "botania:terrasteel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["76036AE6CE23B158"]
+			id: "69E0147092482F13"
+			tasks: [{
+				id: "271A078F66C76892"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "botania:terrasteel_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["76036AE6CE23B158"]
+			id: "0871372DA763BAE7"
+			tasks: [{
+				id: "028C3AACEAACB1C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "botania:terrasteel_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2F98CF01C77BC29B"]
+			id: "6B5A41B9624D068A"
+			tasks: [{
+				id: "57D25F6242644B43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "mythicbotany:alfsteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2F98CF01C77BC29B"]
+			id: "4D015E9225CD7FA2"
+			tasks: [{
+				id: "7754BF7B701C5D2C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "mythicbotany:alfsteel_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2F98CF01C77BC29B"]
+			id: "45DF0F0A668AAE44"
+			tasks: [{
+				id: "7EC65A235605B564"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "mythicbotany:alfsteel_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2F98CF01C77BC29B"]
+			id: "73218BB1DA277AA4"
+			tasks: [{
+				id: "56BA6CC8FBB08695"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "mythicbotany:alfsteel_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"2F98CF01C77BC29B"
+				"524DFF1E4920F6DF"
+			]
+			id: "66FE0D6835F9F659"
+			tasks: [
+				{
+					id: "599A7A2A62CFD33A"
+					item: "mythicbotany:central_rune_holder"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3BBD0E957715C8EB"
+					item: { Count: 6, id: "mythicbotany:rune_holder" }
+					type: "item"
+				}
+			]
+			title: "符文仪式"
+			x: 19.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["66FE0D6835F9F659"]
+			id: "020A570A2EC3EE8B"
+			size: 2.0d
+			tasks: [{
+				id: "37F754C7A1B5B69C"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 9.5d
+		}
+		{
+			id: "524DFF1E4920F6DF"
+			tasks: [{
+				id: "7D2170D11A4C0580"
+				item: "mythicbotany:gjallar_horn_full"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["66FE0D6835F9F659"]
+			id: "741211A0D54252FF"
+			tasks: [{
+				id: "5C67F57060DC2042"
+				item: "mythicbotany:kvasir_blood"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["741211A0D54252FF"]
+			id: "657ACCF34EC60C41"
+			tasks: [{
+				id: "23ABD71DB6B3AF7A"
+				item: "mythicbotany:kvasir_mead"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["657ACCF34EC60C41"]
+			id: "5A06FBB0DE96CEE2"
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				icon: "mythicbotany:dreamwood_leaves"
+				id: "4E08D6B660D67F57"
+				title: "亚尔夫海姆"
+				type: "dimension"
+			}]
+			x: 19.5d
+			y: 3.5d
+		}
+	]
+	title: "植物魔法"
+}

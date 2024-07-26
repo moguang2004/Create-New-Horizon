@@ -1,0 +1,21 @@
+{
+    "item.kubejs.basic_mechanism": "基础构件",
+    "item.kubejs.treated_clay_ball": "处理粘土",
+    "item.kubejs.temperature_keeping_device": "体温维持器",
+    "item.kubejs.deep_diver_gear": "深渊潜游装置",
+    "kubejs.attribute.pressure_defense": "水压抗性",
+    "item.ctnh.durabilityofenergy": "剩余能量: %s / %s EU",
+    "attribute.base_temperature": "基础温度",
+    "attribute.cold_dampening": "防寒系数",
+    "attribute.cold_resistance": "寒冷抗性",
+    "attribute.heat_dampening": "防热系数",
+    "attribute.heat_resistance": "高温抗性",
+    "attribute.core_temperature_offset": "体温偏移量",
+    "attribute.burning_point": "高温耐受温度",
+    "attribute.freezing_point": "低温耐受温度",
+    "item.kubejs.steel_mechanism": "钢铁构件",
+    "item.kubejs.thermometer_case": "温度计外壳",
+    "item.kubejs.high_quality_solid_fuel": "优质固体燃料",
+    "block.kubejs.steel_casing": "钢机壳",
+    "block.kubejs.heavy_machinery_casing": "重型机械机壳"
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PCP","FHF","PCP"],"key":{"H":{"item":"gtceu:uhv_machine_hull"},"P":{"tag":"forge:plates/darmstadtium"},"C":{"tag":"gtceu:circuits/uhv"},"F":{"item":"gtceu:atomic_casing"}},"result":{"item":"gcyr:dyson_system_controller"}}

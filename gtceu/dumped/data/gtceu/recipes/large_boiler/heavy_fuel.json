@@ -1,0 +1,1 @@
+{"type":"gtceu:large_boiler","duration":30,"inputs":{"fluid":[{"content":{"amount":16,"value":[{"tag":"forge:heavy_fuel"}]},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["S S","PPP"],"key":{"S":{"item":"minecraft:string"},"P":{"item":"minecraft:paper"}},"result":{"item":"gtceu:face_mask","nbt":{"Damage":0}}}

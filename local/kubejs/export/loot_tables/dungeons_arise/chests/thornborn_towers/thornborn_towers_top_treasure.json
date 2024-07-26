@@ -1,0 +1,241 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 90
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "dungeons_arise:explorer_maps/mining_system",
+							"decoration": "red_marker",
+							"skip_existing_chunks": false
+						}
+					],
+					"name": "minecraft:map"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skeleton_skull"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rose_bush"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:phantom_membrane"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:glowstone_dust"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:bow"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 20.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:crossbow"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 12.0,
+								"max": 32.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:experience_bottle"
+				},
+				{
+					"type": "minecraft:empty"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 30.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		},
+		{
+			"name": "pool4",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 16.0,
+								"max": 48.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 14.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 12.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				}
+			]
+		},
+		{
+			"name": "pool5",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/simple_dungeon"
+				}
+			]
+		}
+	]
+}

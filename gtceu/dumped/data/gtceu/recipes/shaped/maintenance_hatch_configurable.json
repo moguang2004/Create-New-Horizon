@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["   ","CMC","VHV"],"key":{"C":{"tag":"gtceu:circuits/hv"},"M":{"item":"gtceu:maintenance_hatch"},"V":{"item":"gtceu:hv_conveyor_module"},"H":{"item":"gtceu:hv_machine_hull"}},"result":{"item":"gtceu:configurable_maintenance_hatch"}}

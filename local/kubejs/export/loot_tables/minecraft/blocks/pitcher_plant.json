@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/pitcher_plant",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "minecraft:pitcher_plant",
+							"properties": {
+								"half": "lower"
+							}
+						}
+					],
+					"name": "minecraft:pitcher_plant"
+				}
+			]
+		}
+	],
+	"functions": [
+		{
+			"function": "minecraft:explosion_decay"
+		}
+	]
+}

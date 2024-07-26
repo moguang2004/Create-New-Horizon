@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["xRR"," SR","S f"],"key":{"S":{"tag":"forge:rods/iron"},"R":{"tag":"forge:plates/rubber"},"x":{"tag":"forge:tools/wire_cutters"},"f":{"tag":"forge:tools/files"}},"result":{"item":"gtceu:iron_plunger","nbt":{"Damage":0.0}}}

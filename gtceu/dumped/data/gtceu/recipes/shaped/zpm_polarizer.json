@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ZSZ","WMW","ZSZ"],"key":{"M":{"item":"gtceu:zpm_machine_hull"},"S":{"tag":"forge:rods/vanadium_gallium"},"Z":{"item":"gtceu:vanadium_gallium_octal_wire"},"W":{"item":"gtceu:vanadium_gallium_single_cable"}},"result":{"item":"gtceu:zpm_polarizer"}}

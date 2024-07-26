@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["BSB","hSs","IPI"],"key":{"B":{"tag":"forge:bolts/wood"},"S":{"tag":"forge:rods/wood"},"I":{"tag":"forge:plates/iron"},"P":{"item":"minecraft:stone_pressure_plate"},"s":{"tag":"forge:tools/saws"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:armor_stand"}}

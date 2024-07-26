@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:entity",
+	"random_sequence": "twilightforest:entities/redcap_sapper",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "twilightforest:entities/redcap"
+				}
+			]
+		}
+	]
+}

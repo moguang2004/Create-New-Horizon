@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "tfmg:blocks/steel_distillation_controller",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "tfmg:steel_distillation_controller"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

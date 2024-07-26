@@ -1,0 +1,117 @@
+{
+	"pools": [
+		{
+			"name": "forged/crate_content",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "tetra:forged_mesh"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "tetra:forged_beam"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "tetra:chthonic_extractor"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "tetra:forged_bolt"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "tetra:random_chance_with_fortune",
+							"requiredToolLevel": -1,
+							"chance": 0.33,
+							"fortuneMultiplier": 0.05
+						}
+					],
+					"weight": 3,
+					"name": "tetra:lubricant_dispenser"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "tetra:random_chance_with_fortune",
+							"requiredToolLevel": -1,
+							"chance": 0.33,
+							"fortuneMultiplier": 0.05
+						}
+					],
+					"weight": 3,
+					"name": "tetra:combustion_chamber"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "tetra:random_chance_with_fortune",
+							"requiredToolLevel": -1,
+							"chance": 0.33,
+							"fortuneMultiplier": 0.05
+						}
+					],
+					"weight": 3,
+					"name": "tetra:planar_stabilizer"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "tetra:vent_plate"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 1.0
+							},
+							"add": false
+						}
+					],
+					"name": "tetra:thermal_cell"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "tetra:random_chance_with_fortune",
+							"requiredToolLevel": -1,
+							"chance": 0.5,
+							"fortuneMultiplier": -0.1
+						}
+					],
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:uniform_bonus_count",
+							"parameters": {
+								"bonusMultiplier": 1
+							}
+						}
+					],
+					"name": "tetra:metal_scrap"
+				}
+			]
+		}
+	]
+}

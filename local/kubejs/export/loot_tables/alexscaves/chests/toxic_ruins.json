@@ -1,0 +1,204 @@
+{
+	"pools": [
+		{
+			"name": "toxic_ruins",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 8.0,
+				"max": 10.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CaveBiome:\"alexscaves:toxic_caves\"}"
+						}
+					],
+					"name": "alexscaves:cave_tablet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:spelunkie"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:slam"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:green_soylent"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:cinder_brick"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:poisonous_potato"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:rotten_flesh"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 7,
+					"name": "alexscaves:waste_drum"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_11"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "alexscaves:uranium_rod"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:radon_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:cinder_block"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "alexscaves:hazmat_mask"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "alexscaves:hazmat_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "alexscaves:hazmat_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "alexscaves:hazmat_boots"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PFP","FHF","CFC"],"key":{"F":{"item":"gtceu:fluid_filter"},"P":{"item":"gtceu:lv_electric_pump"},"H":{"item":"gtceu:lv_machine_hull"},"C":{"tag":"gtceu:circuits/lv"}},"result":{"item":"gtceu:lv_air_scrubber"}}

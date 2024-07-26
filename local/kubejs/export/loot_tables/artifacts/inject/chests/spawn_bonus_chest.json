@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "artifacts:inject/chests/spawn_bonus_chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:whoopee_cushion"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "artifacts:configurable_random_chance",
+					"default_probability": 1.0
+				}
+			]
+		}
+	]
+}

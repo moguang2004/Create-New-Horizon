@@ -1,0 +1,10 @@
+{
+	"minecraft:seek_goat_horn": "net.minecraft.world.item.Instrument",
+	"minecraft:admire_goat_horn": "net.minecraft.world.item.Instrument",
+	"minecraft:sing_goat_horn": "net.minecraft.world.item.Instrument",
+	"minecraft:call_goat_horn": "net.minecraft.world.item.Instrument",
+	"minecraft:ponder_goat_horn": "net.minecraft.world.item.Instrument",
+	"minecraft:dream_goat_horn": "net.minecraft.world.item.Instrument",
+	"minecraft:feel_goat_horn": "net.minecraft.world.item.Instrument",
+	"minecraft:yearn_goat_horn": "net.minecraft.world.item.Instrument"
+}

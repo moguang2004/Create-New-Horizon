@@ -1,0 +1,1 @@
+{"type":"gtceu:centrifuge","duration":160,"inputs":{"fluid":[{"content":{"amount":80,"value":[{"tag":"forge:helium"}]},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{"fluid":[{"content":{"amount":5,"value":[{"fluid":"gtceu:helium_3"}]},"chance":1.0,"tierChanceBoost":0.0}]},"tickInputs":{"eu":[{"content":80,"chance":1.0,"tierChanceBoost":0.0}]},"tickOutputs":{}}

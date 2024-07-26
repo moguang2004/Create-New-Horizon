@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/composter",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					],
+					"name": "minecraft:composter"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone_meal"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "minecraft:composter",
+					"properties": {
+						"level": "8"
+					}
+				}
+			]
+		}
+	]
+}

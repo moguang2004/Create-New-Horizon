@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/dried_kelp_block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dried_kelp_block"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

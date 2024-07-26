@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:silk_touch",
+												"levels": {
+													"min": 1
+												}
+											}
+										]
+									}
+								}
+							],
+							"name": "tetra:hammer_base"
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "tetra:blocks/hammer_break"
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {},
+					"entity": "this"
+				}
+			]
+		}
+	]
+}

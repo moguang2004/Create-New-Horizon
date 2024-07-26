@@ -1,0 +1,257 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:nether_wart"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_11"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skeleton_skull"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:tnt"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:redstone"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:glowstone_dust"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:prismarine_shard"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sponge"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:chorus_fruit"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:poppy"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:blue_orchid"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "dungeons_arise:explorer_maps/shiraz_palace",
+							"decoration": "target_x",
+							"skip_existing_chunks": false
+						}
+					],
+					"name": "minecraft:map"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone"
+				}
+			]
+		}
+	]
+}

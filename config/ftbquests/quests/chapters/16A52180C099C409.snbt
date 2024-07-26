@@ -1,0 +1,278 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "16A52180C099C409"
+	group: "203B37D7B3ACCD4B"
+	icon: "create:copper_casing"
+	id: "16A52180C099C409"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["53B3B59D47455ACE"]
+			id: "1F7813B148485EC3"
+			subtitle: "流体时代！！！"
+			tasks: [{
+				id: "33796D06288EAD6A"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6DB370790E927958"]
+			id: "7959820843845731"
+			tasks: [{
+				id: "0F0C5E679E3F75E1"
+				item: "gtceu:bronze_plate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1F7813B148485EC3"
+				"7959820843845731"
+			]
+			id: "6272A1FC85024350"
+			tasks: [{
+				id: "17B8F93E18788454"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6272A1FC85024350"]
+			id: "0F0FD5A39ED435FF"
+			subtitle: "装配线青春版？"
+			tasks: [{
+				id: "0D58FE3AF954F8F7"
+				title: "序列组装"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"53B3B59D47455ACE"
+				"7959820843845731"
+			]
+			id: "6F3D47D3A8FF08F6"
+			tasks: [{
+				id: "0F520A874A7332FE"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"53B3B59D47455ACE"
+				"7959820843845731"
+			]
+			id: "209A035991A6995B"
+			subtitle: "你即将进入第一次工业革命！"
+			tasks: [{
+				id: "2C15B228CCDDE17C"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6922D967DCFF8F7D"
+				"6F3D47D3A8FF08F6"
+				"209A035991A6995B"
+				"6AE9D14B933CA74B"
+			]
+			id: "4B113ADECD26DFF2"
+			subtitle: "试着组装蒸汽机吧！"
+			tasks: [{
+				id: "142F7DBE1CC7A109"
+				title: "十万应力！"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03B30F262729DB33"]
+			id: "6922D967DCFF8F7D"
+			subtitle: "你的第一次剥削"
+			tasks: [{
+				id: "6859F77FBAB05167"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7E591C0E7278D12F"
+				"2460426DE77EF0F4"
+			]
+			id: "6AE9D14B933CA74B"
+			tasks: [{
+				id: "48C2B1D661F450A6"
+				item: "gtceu:primitive_pump"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7959820843845731"]
+			id: "775EE6EC5C0D9EF8"
+			subtitle: "汲取行星核心"
+			tasks: [{
+				id: "743C43E4DA4B951F"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["209A035991A6995B"]
+			id: "78A8738CA985908C"
+			tasks: [{
+				id: "737BAB73A06925BE"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7959820843845731"]
+			id: "39660BB15E0C78FF"
+			tasks: [{
+				id: "2284EDE4A4FB80DE"
+				item: "gtceu:bronze_brick_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39660BB15E0C78FF"]
+			id: "4D02F6C730350689"
+			tasks: [{
+				id: "1066AF4CD94C2CF0"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["39660BB15E0C78FF"]
+			id: "4C64C0C2D64BFF2D"
+			tasks: [{
+				id: "045F240B3E6501A2"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39660BB15E0C78FF"]
+			id: "1632BAD0EF0A150E"
+			tasks: [{
+				id: "34E23D3BC04ECE59"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39660BB15E0C78FF"]
+			id: "45174D3C30CB0AE8"
+			tasks: [{
+				id: "5D99A45D91BBEE5C"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["39660BB15E0C78FF"]
+			id: "44ECFF107DECD193"
+			tasks: [{
+				id: "7A4EF9CD2923C5B9"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7959820843845731"]
+			id: "2AECE895A4F876FA"
+			tasks: [{
+				id: "7D408991092E379E"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7959820843845731"]
+			id: "42D0940DF28D51A3"
+			tasks: [{
+				id: "2E8B5D3C86A5A65A"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7959820843845731"]
+			id: "71ABAC98E9CC67A9"
+			tasks: [{
+				id: "6F70329CA96985DF"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7959820843845731"]
+			id: "1B142F4B0CF620D3"
+			tasks: [{
+				id: "0BDD4BDDD250542B"
+				item: "gtceu:kinetic_steam_turbine"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["45174D3C30CB0AE8"]
+			id: "2689A25C5C7BED52"
+			tasks: [{
+				id: "416DABCD52D954CD"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+	]
+	title: "流体时代"
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EFE"],"key":{"A":{"item":"gtceu:ev_electric_piston"},"B":{"tag":"gtceu:circuits/ev"},"C":{"item":"gtceu:ev_electric_motor"},"D":{"item":"gtceu:ev_machine_hull"},"E":{"tag":"forge:gears/tungsten_steel"},"F":{"item":"gtceu:aluminium_double_cable"}},"result":{"item":"gtnn:ev_rocket_engine"}}

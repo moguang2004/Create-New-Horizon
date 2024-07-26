@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["SPS","IWI","GdG"],"key":{"S":{"tag":"forge:screws/steel"},"P":{"tag":"forge:plates/red_alloy"},"I":{"tag":"forge:rods/iron"},"W":{"tag":"forge:rods/wood"},"G":{"tag":"forge:rods/gold"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"minecraft:powered_rail","count":6}}

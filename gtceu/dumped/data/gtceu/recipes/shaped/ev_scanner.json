@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CEC","WHW","CSC"],"key":{"C":{"tag":"gtceu:circuits/iv"},"E":{"item":"gtceu:ev_emitter"},"W":{"item":"gtceu:aluminium_single_cable"},"H":{"item":"gtceu:ev_machine_hull"},"S":{"item":"gtceu:ev_sensor"}},"result":{"item":"gtceu:ev_scanner"}}

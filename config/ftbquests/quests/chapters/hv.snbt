@@ -1,0 +1,49 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hv"
+	group: "19912BEA87D24FE0"
+	icon: "gtceu:hv_machine_hull"
+	id: "1B1FC63B7AC00842"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0B95FAC22EC46105"
+				"3C1A31CEA3C10082"
+			]
+			id: "6BC928DB074E3A7A"
+			tasks: [{
+				id: "6CE794FE24078FAC"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BC928DB074E3A7A"]
+			id: "773CB6E376B56EA4"
+			tasks: [{
+				id: "0391F1C486B61BCE"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["773CB6E376B56EA4"]
+			id: "1639E940E9B78D68"
+			tasks: [{
+				id: "61EE80BF89298750"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	title: "&6HV&r时期"
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WGW","GMG","TGT"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"W":{"tag":"gtceu:circuits/hv"},"G":{"item":"gtceu:hv_electric_pump"},"T":{"item":"gtceu:stainless_steel_large_fluid_pipe"}},"result":{"item":"gtceu:hv_pump"}}

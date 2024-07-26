@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["II ","IIS","II "],"key":{"I":{"tag":"forge:ingots/iron"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:iron_hammer","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":255},"GT.Behaviours":{},"HideFlags":2}}}

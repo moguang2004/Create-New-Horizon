@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["II ","IIS","II "],"key":{"I":{"tag":"minecraft:planks"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:wood_mallet","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":127},"GT.Behaviours":{},"HideFlags":2}}}

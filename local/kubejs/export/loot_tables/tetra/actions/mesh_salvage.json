@@ -1,0 +1,101 @@
+{
+	"pools": [
+		{
+			"name": "ancient/bolt_salvage",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 10.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:uniform_bonus_count",
+							"parameters": {
+								"bonusMultiplier": 2
+							}
+						}
+					],
+					"name": "minecraft:iron_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						},
+						{
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:uniform_bonus_count",
+							"parameters": {
+								"bonusMultiplier": 1
+							}
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:tag",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						},
+						{
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:uniform_bonus_count",
+							"parameters": {
+								"bonusMultiplier": 1
+							}
+						}
+					],
+					"name": "forge:ingots/steel",
+					"expand": true
+				},
+				{
+					"type": "minecraft:tag",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 10.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:uniform_bonus_count",
+							"parameters": {
+								"bonusMultiplier": 2
+							}
+						}
+					],
+					"name": "forge:nuggets/steel",
+					"expand": true
+				}
+			]
+		}
+	]
+}

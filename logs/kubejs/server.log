@@ -1,0 +1,212 @@
+[14:20:54] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[14:20:54] [INIT] Loaded plugins:
+[14:20:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:20:54] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[14:20:54] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[14:20:54] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[14:20:54] [INIT] - argent_matter.gcyr.integration.kjs.GCyRKubeJSPlugin
+[14:20:54] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[14:20:54] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[14:20:54] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[14:20:54] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
+[14:20:54] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[14:20:54] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[14:20:54] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[14:20:54] [INFO] Loaded script server_scripts:src/ae2.js in 0.003 s
+[14:20:54] [INFO] Loaded script server_scripts:src/apothesis/spawner.js in 0.001 s
+[14:20:54] [INFO] Loaded script server_scripts:src/blood magic/alchemytable.js in 0.002 s
+[14:20:54] [INFO] Loaded script server_scripts:src/blood magic/altar.js in 0.001 s
+[14:20:54] [INFO] Loaded script server_scripts:src/blood magic/soulforge.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/botania/botania.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/botania/mythicBotany.js in 0.001 s
+[14:20:54] [INFO] Loaded script server_scripts:src/crafttable.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/create/create.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/create/tfmg.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/enderio/enderio.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/expandedstorage.js in 0.002 s
+[14:20:54] [INFO] Loaded script server_scripts:src/ftbultimine.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/gtceu/aluminumchain.js in 0.001 s
+[14:20:54] [INFO] Loaded script server_scripts:src/gtceu/biochemistry.js in 0.001 s
+[14:20:54] [INFO] Loaded script server_scripts:src/gtceu/goldchain.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/gtceu/gtceu.js in 0.001 s
+[14:20:54] [INFO] Loaded script server_scripts:src/gtceu/GTores.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/gtceu/machines.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/hurtevent.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/loot.js in 0.002 s
+[14:20:54] [INFO] Loaded script server_scripts:src/orereplace.js in 0.001 s
+[14:20:54] [INFO] Loaded script server_scripts:src/removeRecipe.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/smithing.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/sophisticatedbackpacks/sophisticatedbackpacks.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/wood.js in 0.0 s
+[14:20:54] [INFO] Loaded script server_scripts:src/create/dieselgenerator.js in 0.0 s
+[14:20:54] [INFO] Loaded 27/27 KubeJS server scripts in 0.033 s with 0 errors and 0 warnings
+[14:20:54] [INFO] Scripts loaded
+[14:20:54] [INFO] Initializing recipe event...
+[14:20:54] [INFO] Server resource reload complete!
+[14:20:55] [INFO] [minecraft:block] Found 1637 tags, added 1210 objects, removed 0 objects
+[14:20:55] [INFO] [minecraft:item] Found 5728 tags, added 25 objects, removed 0 objects
+[14:20:58] [INFO] Processing recipes...
+[14:20:58] [WARN] Failed to parse recipe 'twilightdelight:rainbow_ice_cream[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:20:58] [WARN] Failed to parse recipe 'tetranomicon:netherite_opal[minecraft:smithing_transform]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:20:58] [WARN] Failed to parse recipe 'twilightdelight:refreshing_ice_cream[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:20:58] [WARN] Failed to parse recipe 'twilightdelight:teardrop_sword[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:20:58] [WARN] Failed to parse recipe 'expandedstorage:obsidian_to_netherite_conversion_kit[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[14:20:58] [WARN] Failed to parse recipe 'twilightdelight:twilight_ice_cream[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[14:20:58] [INFO] Found 46453 recipes in 588.0 ms
+[14:21:02] [INFO] Posted recipe events in 3.377 s
+[14:21:02] [WARN] Error parsing recipe tetranichematerials:grave_steel_ingot[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[[],{"item":"gtceu:steel_ingot"}],"result":{"item":"tetranichematerials:grave_steel_ingot"}}: Item array cannot be empty, at least one item must be defined
+[14:21:02] [WARN] Error parsing recipe gtceu:shapeless/centrifuged_ore_to_dust_neutronium[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","ingredients":[{"tag":"forge:tools/hammers"},[]],"result":{"item":"gtceu:neutronium_mixture_dust"}}: Item array cannot be empty, at least one item must be defined
+[14:21:02] [WARN] com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:126)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84)
+[14:21:02] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[14:21:02] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[14:21:02] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
+[14:21:02] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[14:21:02] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+[14:21:02] [WARN] com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:126)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84)
+[14:21:02] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[14:21:02] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[14:21:02] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
+[14:21:02] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[14:21:02] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:159)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:173)
+[14:21:02] [WARN]   at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:679)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipesEventJS.lambda$post$6(RecipesEventJS.java:384)
+[14:21:02] [WARN] Error parsing recipe create:cutting/compat/biomesoplenty/stripped_cherry_log[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:stripped_cherry_log"}],"processingTime":50,"results":[{"count":6,"item":"biomesoplenty:cherry_planks"}]}: Unknown item 'biomesoplenty:stripped_cherry_log'
+[14:21:02] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_log'
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
+[14:21:02] [WARN]   at java.util.Optional.orElseThrow(Optional.java:403)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21)
+[14:21:02] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[14:21:02] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[14:21:02] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
+[14:21:02] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[14:21:02] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+[14:21:02] [WARN] Error parsing recipe create:cutting/compat/biomesoplenty/cherry_log[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:cherry_log"}],"processingTime":50,"results":[{"item":"biomesoplenty:stripped_cherry_log"}]}: Unknown item 'biomesoplenty:cherry_log'
+[14:21:02] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_log'
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
+[14:21:02] [WARN]   at java.util.Optional.orElseThrow(Optional.java:403)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21)
+[14:21:02] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[14:21:02] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[14:21:02] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
+[14:21:02] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[14:21:02] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+[14:21:02] [WARN] Error parsing recipe create:cutting/compat/biomesoplenty/cherry_wood[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:cherry_wood"}],"processingTime":50,"results":[{"item":"biomesoplenty:stripped_cherry_wood"}]}: Unknown item 'biomesoplenty:cherry_wood'
+[14:21:02] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_wood'
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
+[14:21:02] [WARN]   at java.util.Optional.orElseThrow(Optional.java:403)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21)
+[14:21:02] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[14:21:02] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[14:21:02] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
+[14:21:02] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[14:21:02] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:159)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:173)
+[14:21:02] [WARN]   at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:679)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipesEventJS.lambda$post$6(RecipesEventJS.java:384)
+[14:21:02] [WARN] Error parsing recipe create:cutting/compat/biomesoplenty/stripped_cherry_wood[create:cutting]: {"type":"create:cutting","conditions":[{"type":"forge:mod_loaded","modid":"biomesoplenty"}],"ingredients":[{"item":"biomesoplenty:stripped_cherry_wood"}],"processingTime":50,"results":[{"count":6,"item":"biomesoplenty:cherry_planks"}]}: Unknown item 'biomesoplenty:stripped_cherry_wood'
+[14:21:02] [WARN] com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:stripped_cherry_wood'
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292)
+[14:21:02] [WARN]   at java.util.Optional.orElseThrow(Optional.java:403)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219)
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27)
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154)
+[14:21:02] [WARN]   at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21)
+[14:21:02] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[14:21:02] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[14:21:02] [WARN]   at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779)
+[14:21:02] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[14:21:02] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+[14:21:02] [WARN] Error parsing recipe minecraft:kjs/create_depot[kubejs:shapeless]: {"type":"minecraft:crafting_shapeless","result":{"item":"create:depot","count":1},"ingredients":[{"item":"create:andesite_casing"},[]]}: Item array cannot be empty, at least one item must be defined
+[14:21:02] [WARN] com.google.gson.JsonSyntaxException: Item array cannot be empty, at least one item must be defined
+[14:21:02] [WARN]   at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:126)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89)
+[14:21:02] [WARN]   at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84)
+[14:21:02] [WARN]   at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
+[14:21:02] [WARN]   at …kubejs.platform.forge.RecipeForgeHelper.fromJson(RecipeForgeHelper.java:28)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipeJS.createRecipe(RecipeJS.java:515)
+[14:21:02] [WARN]   at …kubejs.recipe.RecipesEventJS.createRecipe(RecipesEventJS.java:446)
+[14:21:02] [WARN]   at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[14:21:02] [WARN]   at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+[14:21:02] [WARN]   at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[14:21:02] [WARN]   at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[14:21:02] [WARN]   at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+[14:21:03] [INFO] Added 970 recipes, removed 590 recipes, modified 2564 recipes, with 7 failed recipes in 1.736 s
+[14:21:05] [INFO] Server resource reload complete!

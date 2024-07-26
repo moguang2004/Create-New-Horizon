@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["hIw"," M "," d "],"key":{"I":{"item":"minecraft:tnt"},"M":{"item":"minecraft:minecart"},"w":{"tag":"forge:tools/wrenches"},"d":{"tag":"forge:tools/screwdrivers"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:tnt_minecart"}}

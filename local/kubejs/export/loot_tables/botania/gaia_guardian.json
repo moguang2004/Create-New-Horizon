@@ -1,0 +1,57 @@
+{
+	"pools": [
+		{
+			"name": "life_essence",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 6.0,
+							"add": false
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "botania:true_guardian_killer"
+								}
+							],
+							"count": 8.0,
+							"add": false
+						}
+					],
+					"name": "botania:life_essence"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				}
+			]
+		},
+		{
+			"name": "music_disc",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "botania:record_gaia_1"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				},
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.2
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"type":"gcyr:rocket_fuel","duration":25,"inputs":{"fluid":[{"content":{"amount":1,"value":[{"tag":"forge:gasoline"}]},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

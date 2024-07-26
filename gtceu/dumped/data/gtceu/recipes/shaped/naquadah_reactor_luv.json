@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EBE"],"key":{"A":{"tag":"forge:rods/europium"},"B":{"tag":"gtceu:circuits/zpm"},"C":{"item":"gtceu:luv_field_generator"},"D":{"item":"gtceu:luv_machine_hull"},"E":{"item":"gtceu:hssg_quadruple_cable"}},"result":{"item":"gtnn:luv_naquadah_reactor"}}

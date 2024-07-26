@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PPP","SPS","fPd"],"key":{"P":{"tag":"forge:double_plates/hsse"},"S":{"tag":"forge:screws/hsse"},"d":{"tag":"forge:tools/screwdrivers"},"f":{"tag":"forge:tools/files"}},"result":{"item":"gtceu:hsse_turbine_blade"}}

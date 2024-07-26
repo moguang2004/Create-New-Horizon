@@ -1,0 +1,11 @@
+{
+	"minecraft:tunnelers_dream": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPreset",
+	"minecraft:overworld": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPreset",
+	"minecraft:water_world": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPreset",
+	"minecraft:redstone_ready": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPreset",
+	"minecraft:bottomless_pit": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPreset",
+	"minecraft:the_void": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPreset",
+	"minecraft:classic_flat": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPreset",
+	"minecraft:snowy_kingdom": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPreset",
+	"minecraft:desert": "net.minecraft.world.level.levelgen.flat.FlatLevelGeneratorPreset"
+}

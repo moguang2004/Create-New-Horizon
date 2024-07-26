@@ -1,0 +1,120 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "farmersdelight:cooking_pot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"type": "minecraft:uniform",
+								"min": 0.15,
+								"max": 0.8
+							},
+							"add": false
+						}
+					],
+					"name": "farmersdelight:skillet"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 6
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 4.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "farmersdelight:tomato_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "farmersdelight:cabbage_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "farmersdelight:rice"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 2
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 3.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "farmersdelight:rope"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 2
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"type":"gtceu:combustion_generator","duration":6,"inputs":{"fluid":[{"content":{"amount":1,"value":[{"tag":"forge:ethanol"}]},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{"eu":[{"content":32,"chance":1.0,"tierChanceBoost":0.0}]}}

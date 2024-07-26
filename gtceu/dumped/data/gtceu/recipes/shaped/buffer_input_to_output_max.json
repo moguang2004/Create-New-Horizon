@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["d","B"],"key":{"B":{"item":"gregiceng:max_input_buffer"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"gregiceng:max_output_buffer"}}

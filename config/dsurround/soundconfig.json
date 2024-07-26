@@ -1,0 +1,53 @@
+[
+  {
+    "startup": true,
+    "soundEventId": "minecraft:ambient.underwater.exit"
+  },
+  {
+    "block": true,
+    "soundEventId": "minecraft:block.water.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.chicken.ambient"
+  },
+  {
+    "startup": true,
+    "soundEventId": "minecraft:entity.chicken.egg"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.cow.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.ender_dragon.death",
+    "volumeScale": 10
+  },
+  {
+    "startup": true,
+    "soundEventId": "minecraft:entity.experience_orb.pickup"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.llama.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.pig.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.sheep.ambient"
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.wither.death",
+    "volumeScale": 10
+  },
+  {
+    "cull": true,
+    "soundEventId": "minecraft:entity.wither.spawn",
+    "volumeScale": 10
+  }
+]

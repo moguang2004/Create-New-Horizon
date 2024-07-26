@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "botania:black_lotus"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 90
+				}
+			]
+		},
+		{
+			"name": "lexicon",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "botania:lexicon"
+				}
+			]
+		}
+	]
+}

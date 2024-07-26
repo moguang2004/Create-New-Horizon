@@ -1,0 +1,59 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "artifacts:inject/chests/desert_pyramid",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "artifacts:flame_pendant"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "artifacts:thorn_pendant"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "artifacts:whoopee_cushion"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "artifacts:charm_of_sinking"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:shock_pendant"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:umbrella"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:scarf_of_invisibility"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:universal_attractor"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:vampiric_glove"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "artifacts:configurable_random_chance",
+					"default_probability": 0.2
+				}
+			]
+		}
+	]
+}

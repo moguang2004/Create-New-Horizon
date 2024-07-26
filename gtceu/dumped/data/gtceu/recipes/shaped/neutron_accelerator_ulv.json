@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABC","DEF","ABC"],"key":{"A":{"item":"gtceu:lead_single_cable"},"B":{"tag":"forge:plates/lead"},"C":{"tag":"forge:rotors/lead"},"D":{"tag":"forge:plates/wood"},"E":{"item":"gtceu:ulv_machine_hull"},"F":{"item":"gtnn:inverter"}},"result":{"item":"gtnn:ulv_neutron_accelerator"}}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PhP"," P "," P "],"key":{"P":{"tag":"forge:plates/diamond"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:diamond_wrench","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":767},"GT.Behaviours":{"Mode":2},"HideFlags":2}}}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "create:blocks/andesite_belt_funnel",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "create:andesite_funnel"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

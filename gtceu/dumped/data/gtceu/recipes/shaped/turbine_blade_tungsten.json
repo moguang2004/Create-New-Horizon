@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PPP","SPS","fPd"],"key":{"P":{"tag":"forge:double_plates/tungsten"},"S":{"tag":"forge:screws/tungsten"},"d":{"tag":"forge:tools/screwdrivers"},"f":{"tag":"forge:tools/files"}},"result":{"item":"gtceu:tungsten_turbine_blade"}}

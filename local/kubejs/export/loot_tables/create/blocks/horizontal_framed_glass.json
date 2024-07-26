@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "create:blocks/horizontal_framed_glass",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "create:horizontal_framed_glass"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"enchantments": [
+							{
+								"enchantment": "minecraft:silk_touch",
+								"levels": {
+									"min": 1
+								}
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

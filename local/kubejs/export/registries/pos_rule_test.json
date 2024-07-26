@@ -1,0 +1,5 @@
+{
+	"minecraft:always_true": "net.minecraft.world.level.levelgen.structure.templatesystem.PosRuleTestType$$Lambda$2395/0x0000000801a8ca20",
+	"minecraft:axis_aligned_linear_pos": "net.minecraft.world.level.levelgen.structure.templatesystem.PosRuleTestType$$Lambda$2395/0x0000000801a8ca20",
+	"minecraft:linear_pos": "net.minecraft.world.level.levelgen.structure.templatesystem.PosRuleTestType$$Lambda$2395/0x0000000801a8ca20"
+}

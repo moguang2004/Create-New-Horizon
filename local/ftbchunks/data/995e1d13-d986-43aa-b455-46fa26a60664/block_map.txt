@@ -1,0 +1,17 @@
+#CC07F6 minecraft:cornflower
+#B2A2E1 minecraft:dandelion
+#60995E gtceu:diamond_indicator
+#80497A minecraft:dirt
+#4FA7D0 minecraft:dirt_path
+#3F84B7 minecraft:grass_block
+#C812FA gtceu:hv_battery_buffer_4x
+#E372B0 gtceu:hv_charger_4x
+#B0A13D gtceu:mercury_barium_calcium_cuprate_single_wire
+#E3886A minecraft:oak_planks
+#374FD3 minecraft:oak_slab
+#72BC63 minecraft:oak_stairs
+#F6678E minecraft:oxeye_daisy
+#AFAC0D minecraft:poppy
+#8A827E gtceu:redstone_indicator
+#BC20FE minecraft:white_wool
+#97FF93 minecraft:yellow_wool

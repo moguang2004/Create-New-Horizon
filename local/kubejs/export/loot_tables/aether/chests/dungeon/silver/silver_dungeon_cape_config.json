@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "aether:chests/dungeon/silver/silver_dungeon_cape_config",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "aether:config_enabled",
+							"config": "[Loot, Valkyrie Cape in loot]"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "aether:valkyrie_cape"
+				},
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "aether:config_enabled",
+							"config": "[Loot, Golden Feather in loot]"
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "aether:golden_feather"
+				}
+			]
+		}
+	]
+}

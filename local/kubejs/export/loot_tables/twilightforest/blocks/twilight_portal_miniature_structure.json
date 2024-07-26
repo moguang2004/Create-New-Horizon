@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "twilightforest:blocks/twilight_portal_miniature_structure",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:twilight_portal_miniature_structure"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

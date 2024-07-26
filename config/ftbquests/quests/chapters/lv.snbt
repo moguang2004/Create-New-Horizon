@@ -1,0 +1,522 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: "19912BEA87D24FE0"
+	icon: "gtceu:lv_machine_hull"
+	id: "4BDF4E8F33BD360D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["50ADB201997BE734"]
+			id: "1CB5BE6DA6B402AA"
+			tasks: [{
+				id: "4E83DD18E94FAEAE"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1CB5BE6DA6B402AA"
+				"42DC74BF8FB5723A"
+				"5DCAD00067C67DAC"
+				"6A5699B74B8F8449"
+			]
+			id: "79D60B601C349798"
+			tasks: [{
+				id: "45640A4EBA20752E"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "15B4D9CDC0BC1908"
+			tasks: [{
+				id: "10B69692BB947419"
+				item: "gtceu:rubber_log"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15B4D9CDC0BC1908"]
+			id: "42DC74BF8FB5723A"
+			tasks: [{
+				id: "26984B66D2243176"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "544D7F95370F9235"
+			tasks: [{
+				id: "7E3FAB1FDA39411F"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "504A762FE1057233"
+			tasks: [{
+				id: "261F23C630F0BE7D"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "7CF628053F84B8D1"
+			subtitle: "节省材料的一大杀器"
+			tasks: [{
+				id: "42A166BE2D478A86"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "488C0AB8EA50DA87"
+			subtitle: "节省材料的第二大杀器"
+			tasks: [{
+				id: "12B0799B1FBAD7BE"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "0E1BB5886DEF4D25"
+			tasks: [{
+				id: "58A17D825D598E67"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D662EFDE7A39BB8"]
+			id: "0FEAC07F1404346A"
+			subtitle: "在短时间内，你会大量使用这个机器"
+			tasks: [{
+				id: "253644418A2DE8E0"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7F992D338D4783CE"]
+			id: "06A46967BFF56B33"
+			tasks: [{
+				id: "6FDE07DCC765791F"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "1A9FAC89EC982D6D"
+			tasks: [{
+				id: "57D12F560EA433EB"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1A9FAC89EC982D6D"
+				"42DC74BF8FB5723A"
+			]
+			id: "331BEA8AF29BEFC6"
+			tasks: [{
+				id: "3586366C3A836562"
+				item: "gtceu:glue_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["250C6C8AF08C21F1"]
+			id: "7AE674329D7E7944"
+			tasks: [{
+				id: "18CD5B920A9A957E"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["331BEA8AF29BEFC6"]
+			id: "0425D0789C2837CD"
+			tasks: [
+				{
+					id: "0AFD7C4387D4D813"
+					item: "gtceu:phenolic_circuit_board"
+					type: "item"
+				}
+				{
+					id: "762C762CF11786DD"
+					item: "gtceu:phenolic_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"42DC74BF8FB5723A"
+				"2689A25C5C7BED52"
+			]
+			id: "6E67A19F1A190D4F"
+			tasks: [{
+				id: "20B4259DCFABE302"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E67A19F1A190D4F"]
+			id: "250C6C8AF08C21F1"
+			tasks: [{
+				id: "5B53C2C26DC1A0FB"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CF628053F84B8D1"]
+			id: "0E5195358476B164"
+			tasks: [{
+				id: "5D845219D7E1C433"
+				item: "gtceu:fine_copper_wire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["488C0AB8EA50DA87"]
+			id: "722E5AF3D6F3F209"
+			tasks: [{
+				id: "7FF5F46DC2482D14"
+				item: "gtceu:steel_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "44E9D92283CBF029"
+			tasks: [{
+				id: "63C11E1667B97529"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44E9D92283CBF029"]
+			id: "7F992D338D4783CE"
+			tasks: [{
+				id: "7ABC4356467197C7"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E1BB5886DEF4D25"]
+			id: "7ADE5527AD36B03F"
+			tasks: [{
+				id: "28271E734123FDFB"
+				item: "gtceu:steel_rod"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"06A46967BFF56B33"
+				"0425D0789C2837CD"
+			]
+			id: "2D662EFDE7A39BB8"
+			subtitle: "MV电路（手搓版）"
+			tasks: [{
+				id: "3D3B26CBE9800D76"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44E9D92283CBF029"]
+			id: "4487EDC96DB1390B"
+			tasks: [{
+				id: "53FB702C104CE0FE"
+				item: "gtceu:invar_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44E9D92283CBF029"]
+			id: "7345F277E135E5B9"
+			tasks: [{
+				id: "1ED08C9393610D13"
+				item: "gtceu:cupronickel_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4487EDC96DB1390B"
+				"7345F277E135E5B9"
+			]
+			description: ["这将是你第一次使用“双仓升压”的机制，当你使用两个LV能源仓供能时，由于一个LV能源仓可以接收2A的LV电，两个一起用就可以达到4ALV，也就是1AMV的电流，此时就可以实现MV电压配方的制作，这种多方块结构利用多个能源仓升压的机制将会是之后经常使用到的机制"]
+			icon: "gtceu:electric_blast_furnace"
+			id: "19869FD9D4BCCB9F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 6L
+					id: "2060430C3391B747"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					id: "56F31A6B8694D91D"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "13488A1652F47DEE"
+					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7CCF397A046B0FFE"
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "3A687C6981C8399F"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "50A59E078B0F5248"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "6793E39457F8A055"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "0348C162783DF0F2"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+			]
+			title: "电力高炉"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"19869FD9D4BCCB9F"
+				"27BD70B6974D0C78"
+			]
+			id: "11F898C7B0C925D5"
+			tasks: [{
+				id: "7133886D9DB3ED04"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42DC74BF8FB5723A"]
+			id: "5DCAD00067C67DAC"
+			tasks: [{
+				id: "6C55775960EC237C"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42DC74BF8FB5723A"]
+			id: "6A5699B74B8F8449"
+			tasks: [{
+				id: "7F07657566A08832"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0F227314EC7719F8"
+				"33C79B7B7E49940B"
+				"1F7CA0731CCA907A"
+			]
+			id: "27BD70B6974D0C78"
+			tasks: [{
+				id: "69DE50A0F6AA3F73"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			id: "0F227314EC7719F8"
+			tasks: [{
+				id: "3D8294EF7585258E"
+				item: "gtceu:alumina_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "33C79B7B7E49940B"
+			tasks: [{
+				id: "7D5FF56D85F70421"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F2A5A509F9DF84B"]
+			id: "1F7CA0731CCA907A"
+			tasks: [{
+				id: "0EE186D66FCC7F58"
+				item: "gtceu:cryolite_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "4759D176E05E3D8C"
+			tasks: [{
+				id: "07C8A228F2BEAE0F"
+				item: "gtceu:lv_laser_engraver"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4759D176E05E3D8C"]
+			id: "2301C8A867356B99"
+			tasks: [{
+				id: "54DDAA9635F9C248"
+				item: "gtceu:exquisite_diamond_gem"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2301C8A867356B99"]
+			id: "3F2A5A509F9DF84B"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "0EFF9DC2EB4DEAD5"
+				type: "dimension"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FEAC07F1404346A"]
+			id: "650D2382EDB169AF"
+			tasks: [{
+				id: "5B563F8EAA478BB2"
+				title: "更节约的电路板制作"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0FEAC07F1404346A"]
+			id: "33F6C50D00358090"
+			tasks: [{
+				id: "38E5240DB6FDA26D"
+				title: "更高级（HV级）的电路板制作"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["19869FD9D4BCCB9F"]
+			id: "7564DC3576C62D48"
+			subtitle: "此后重要的电路板原料"
+			tasks: [{
+				id: "6C9C6FAC41714B6E"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+	]
+	subtitle: ["工业起步"]
+	title: "&7LV&r时期"
+}

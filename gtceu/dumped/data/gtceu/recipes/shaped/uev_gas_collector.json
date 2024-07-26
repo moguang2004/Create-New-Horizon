@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WFW","PHP","WCW"],"key":{"W":{"item":"minecraft:iron_bars"},"F":{"item":"gtceu:fluid_filter"},"P":{"item":"gtceu:uev_electric_pump"},"H":{"item":"gtceu:uev_machine_hull"},"C":{"tag":"gtceu:circuits/uev"}},"result":{"item":"gtceu:uev_gas_collector"}}

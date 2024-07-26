@@ -1,0 +1,17 @@
+
+#General mod settings
+[general]
+	#Adjust amount of precipitation based particles, works as a multiplier
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	Precipitation_Particle_effect_rate = 0.7
+	#Adjust amount of all weather2 based particles, works as a multiplier
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	Particle_effect_rate = 1.0
+	#If true, uses vanilla rain/snow non particle precipitation
+	Particle_vanilla_precipitation = false
+	#If set to false, particles are spawned in using the vanilla particle renderer, may cause issues, performance seems worse
+	Particle_engine_weather2 = true
+	#Extra flying block particles to spawn when the tornado rips up a block
+	#Range: > -2147483648
+	Particle_Tornado_extraParticleCubes = 2
+

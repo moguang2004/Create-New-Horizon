@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PhP"," P "," P "],"key":{"P":{"tag":"forge:plates/titanium"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:titanium_wrench","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":1535},"GT.Behaviours":{"Mode":2},"HideFlags":2}}}

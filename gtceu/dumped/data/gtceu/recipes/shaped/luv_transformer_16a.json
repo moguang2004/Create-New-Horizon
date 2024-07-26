@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WCC","TH ","WCC"],"key":{"W":{"item":"gtceu:hpic_chip"},"C":{"item":"gtceu:niobium_titanium_hex_cable"},"T":{"item":"gtceu:vanadium_gallium_hex_cable"},"H":{"item":"gtceu:luv_machine_hull"}},"result":{"item":"gtceu:luv_transformer_16a"}}

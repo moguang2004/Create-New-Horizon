@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WMW","RER","CHC"],"key":{"H":{"item":"gtceu:hv_machine_hull"},"C":{"tag":"gtceu:circuits/hv"},"E":{"item":"create:shaft"},"W":{"item":"gtceu:gold_octal_cable"},"M":{"item":"gtceu:hv_electric_motor"},"R":{"tag":"forge:rotors/steel"}},"result":{"item":"gtceu:hv_electric_gear_box_16a"}}

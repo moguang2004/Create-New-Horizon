@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "farmersdelight:blocks/tomato_crate",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "farmersdelight:tomato_crate"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

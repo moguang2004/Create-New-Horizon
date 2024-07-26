@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["xCw","SUS","RIR"],"key":{"C":{"tag":"gtceu:circuits/lv"},"S":{"item":"gtceu:steel_fluid_cell"},"U":{"item":"gtceu:lv_electric_pump"},"R":{"tag":"forge:rotors/lead"},"I":{"item":"gtceu:potin_small_fluid_pipe"},"x":{"tag":"forge:tools/wire_cutters"},"w":{"tag":"forge:tools/wrenches"}},"result":{"item":"gtceu:liquid_fuel_jetpack"}}

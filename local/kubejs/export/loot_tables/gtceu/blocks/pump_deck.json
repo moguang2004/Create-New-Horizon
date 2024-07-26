@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "gtceu:blocks/pump_deck",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "gtceu:pump_deck"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+
+#General mod settings
+[general]
+	#-
+	#Range: > -2147483648
+	Particle_Reset_Frequency = 0
+	#-
+	Particle_engine_render = true
+	#-
+	Particle_engine_tick = true
+

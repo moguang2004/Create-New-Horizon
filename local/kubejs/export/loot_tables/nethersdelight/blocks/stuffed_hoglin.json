@@ -1,0 +1,49 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "nethersdelight:stuffed_hoglin"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "nethersdelight:stuffed_hoglin",
+					"properties": {
+						"servings": "11",
+						"part": "head"
+					}
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:block_state_property",
+						"block": "nethersdelight:stuffed_hoglin",
+						"properties": {
+							"servings": "11"
+						}
+					}
+				}
+			]
+		}
+	]
+}

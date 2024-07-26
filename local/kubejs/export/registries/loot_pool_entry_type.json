@@ -1,0 +1,13 @@
+{
+	"minecraft:loot_table": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType",
+	"minecraft:alternatives": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType",
+	"apotheosis:random_affix_item": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType",
+	"placebo:stack_entry": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType",
+	"minecraft:item": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType",
+	"minecraft:tag": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType",
+	"apotheosis:random_gem": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType",
+	"minecraft:group": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType",
+	"minecraft:dynamic": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType",
+	"minecraft:sequence": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType",
+	"minecraft:empty": "net.minecraft.world.level.storage.loot.entries.LootPoolEntryType"
+}

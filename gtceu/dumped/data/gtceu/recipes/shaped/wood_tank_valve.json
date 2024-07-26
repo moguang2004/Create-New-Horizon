@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" R ","rCs"," O "],"key":{"O":{"tag":"forge:rotors/lead"},"R":{"tag":"forge:rings/lead"},"C":{"item":"gtceu:wood_wall"},"r":{"tag":"forge:tools/mallets"},"s":{"tag":"forge:tools/saws"}},"result":{"item":"gtceu:wooden_tank_valve"}}

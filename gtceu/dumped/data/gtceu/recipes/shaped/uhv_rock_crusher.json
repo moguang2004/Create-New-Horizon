@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PMW","CHC","GGG"],"key":{"P":{"item":"gtceu:uhv_electric_piston"},"M":{"item":"gtceu:uhv_electric_motor"},"W":{"item":"gtceu:tungsten_grinding_head"},"C":{"item":"gtceu:europium_single_cable"},"H":{"item":"gtceu:uhv_machine_hull"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:uhv_rock_crusher"}}

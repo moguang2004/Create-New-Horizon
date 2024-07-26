@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["COC","RHR","CPC"],"key":{"C":{"tag":"gtceu:circuits/iv"},"O":{"item":"gtceu:data_orb"},"R":{"item":"gtceu:ev_robot_arm"},"P":{"item":"gtceu:stainless_steel_large_fluid_pipe"},"H":{"item":"gtceu:ev_machine_hull"}},"result":{"item":"gtceu:iv_processing_array"}}

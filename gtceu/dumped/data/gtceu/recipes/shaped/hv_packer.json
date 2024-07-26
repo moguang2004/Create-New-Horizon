@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["BCB","RMV","WCW"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"R":{"item":"gtceu:hv_robot_arm"},"V":{"item":"gtceu:hv_conveyor_module"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"},"B":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:hv_packer"}}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "twilightforest:blocks/quest_ram_trophy",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:quest_ram_trophy"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

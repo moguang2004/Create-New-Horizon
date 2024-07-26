@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ZSZ","WMW","ZSZ"],"key":{"M":{"item":"gtceu:lv_machine_hull"},"S":{"tag":"forge:rods/iron"},"Z":{"item":"gtceu:tin_double_wire"},"W":{"item":"gtceu:tin_single_cable"}},"result":{"item":"gtceu:lv_polarizer"}}

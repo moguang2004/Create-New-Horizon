@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABA","BCB","ABA"],"key":{"A":{"tag":"forge:foils/stainless_steel"},"B":{"tag":"gtceu:circuits/iv"},"C":{"item":"gtceu:solid_machine_casing"}},"result":{"item":"gtnn:clean_machine_casing"}}

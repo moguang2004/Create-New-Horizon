@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EFE"],"key":{"A":{"tag":"forge:fine_wires/red_alloy"},"B":{"tag":"gtceu:circuits/mv"},"C":{"item":"gtceu:copper_quadruple_cable"},"D":{"item":"gtceu:mv_machine_hull"},"E":{"tag":"forge:gears/steel"},"F":{"item":"gtceu:mv_robot_arm"}},"result":{"item":"gtnn:mv_dehydrator"}}

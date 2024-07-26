@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CCC","MRM","PXR"],"key":{"C":{"item":"gtceu:copper_single_cable"},"R":{"tag":"forge:rods/aluminium"},"M":{"item":"gtceu:mv_electric_motor"},"P":{"item":"gtceu:mv_electric_piston"},"X":{"tag":"gtceu:circuits/mv"}},"result":{"item":"gtceu:mv_robot_arm"}}

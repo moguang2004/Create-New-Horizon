@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "enderio:blocks/end_steel_bars",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "enderio:end_steel_bars"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

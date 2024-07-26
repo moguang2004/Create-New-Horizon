@@ -1,0 +1,1 @@
+{"parent":"forge:item/bucket_drip","loader":"forge:fluid_container","fluid":"gcyr:hot_debrominated_brine","flip_gas":false,"apply_fluid_luminosity":false}

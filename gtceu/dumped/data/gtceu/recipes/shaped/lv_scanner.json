@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CEC","WHW","CSC"],"key":{"C":{"tag":"gtceu:circuits/mv"},"E":{"item":"gtceu:lv_emitter"},"W":{"item":"gtceu:tin_single_cable"},"H":{"item":"gtceu:lv_machine_hull"},"S":{"item":"gtceu:lv_sensor"}},"result":{"item":"gtceu:lv_scanner"}}

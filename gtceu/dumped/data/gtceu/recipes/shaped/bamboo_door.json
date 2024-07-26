@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PTd","PRS","PPs"],"key":{"P":{"item":"minecraft:bamboo_planks"},"T":{"item":"minecraft:bamboo_trapdoor"},"R":{"tag":"forge:rings/iron"},"S":{"tag":"forge:screws/iron"},"s":{"tag":"forge:tools/saws"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"minecraft:bamboo_door"}}

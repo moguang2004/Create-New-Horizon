@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WPW","CMC","WAW"],"key":{"M":{"item":"gtceu:luv_machine_hull"},"P":{"item":"gtceu:luv_electric_piston"},"C":{"tag":"gtceu:circuits/luv"},"W":{"item":"gtceu:niobium_titanium_single_cable"},"A":{"item":"minecraft:anvil"}},"result":{"item":"gtceu:luv_forge_hammer"}}

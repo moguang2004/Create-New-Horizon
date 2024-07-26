@@ -1,0 +1,46 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "aether:chests/dungeon/gold/gold_dungeon_treasure",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 5.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:phoenix_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:phoenix_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:phoenix_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:phoenix_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:phoenix_gloves"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aether:life_shard"
+				}
+			]
+		}
+	]
+}

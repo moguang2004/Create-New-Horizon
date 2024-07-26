@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["II","IS"," S"],"key":{"I":{"tag":"forge:gems/flint"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:flint_axe","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":63},"GT.Behaviours":{"DisableShields":1,"TreeFelling":1},"HideFlags":2}}}

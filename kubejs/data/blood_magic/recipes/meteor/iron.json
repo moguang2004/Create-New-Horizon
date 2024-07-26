@@ -1,0 +1,108 @@
+{
+    "type": "bloodmagic:meteor",
+    "explosion": 14.0,
+    "input": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "layers": [
+        {
+          "additionalWeight": 0,
+          "fill": {
+            "block": "gtceu:venus_iron_ore"
+          },
+          "minWeight": 0,
+          "radius": 4,
+          "shell": {
+            "index": -1,
+            "tag": "forge:cobblestone"
+          },
+          "weightMap": [
+            {
+                "index": 0,
+              "tag": "forge:ores/gold",
+              "weight": 30
+            },
+            {
+              "index": 0,
+              "tag": "forge:ores/copper",
+              "weight": 200
+            },
+            {
+              "index": 0,
+              "tag": "forge:ores/tin",
+              "weight": 140
+            },
+            {
+              "index": 0,
+              "tag": "forge:ores/silver",
+              "weight": 70
+            },
+            {
+              "index": 0,
+              "tag": "forge:ores/lead",
+              "weight": 80
+            },
+            {
+                "index": 0,
+              "tag": "forge:ores/lapis",
+              "weight": 60
+            },
+            {
+                "index": 0,
+              "tag": "forge:ores/redstone",
+              "weight": 100
+            }
+          ]
+        },
+        {
+          "additionalWeight": 100,
+          "fill": {
+            "block": "minecraft:stone"
+          },
+          "minWeight": 1000,
+          "radius": 7,
+          "weightMap": [
+            {
+              "block": "gtceu:venus_iron_ore",
+              "weight": 400
+            },
+            {
+                "index": 0,
+              "tag": "forge:ores/gold",
+              "weight": 30
+            },
+            {
+              "index": 0,
+              "tag": "forge:ores/copper",
+              "weight": 200
+            },
+            {
+              "index": 0,
+              "tag": "forge:ores/tin",
+              "weight": 140
+            },
+            {
+              "index": 0,
+              "tag": "forge:ores/silver",
+              "weight": 70
+            },
+            {
+              "index": 0,
+              "tag": "forge:ores/lead",
+              "weight": 80
+            },
+            {
+                "index": 0,
+              "tag": "forge:ores/lapis",
+              "weight": 60
+            },
+            {
+                "index": 0,
+              "tag": "forge:ores/redstone",
+              "weight": 100
+            }
+          ]
+        }
+      ],
+      "syphon": 1000000
+  }

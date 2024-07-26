@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "gcyr:blocks/advanced_rocket_motor",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "gcyr:advanced_rocket_motor"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

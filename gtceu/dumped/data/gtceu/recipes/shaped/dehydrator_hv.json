@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EFE"],"key":{"A":{"tag":"forge:fine_wires/electrum"},"B":{"tag":"gtceu:circuits/hv"},"C":{"item":"gtceu:silver_quadruple_cable"},"D":{"item":"gtceu:hv_machine_hull"},"E":{"tag":"forge:gears/potin"},"F":{"item":"gtceu:hv_robot_arm"}},"result":{"item":"gtnn:hv_dehydrator"}}

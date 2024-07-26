@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["SZS","FBH","EKE"],"key":{"Z":{"tag":"gtceu:circuits/iv"},"S":{"tag":"forge:springs/molybdenum_disilicide"},"F":{"item":"gtceu:iv_fermenter"},"E":{"item":"gtceu:iv_electric_pump"},"B":{"item":"gtceu:iv_brewery"},"H":{"item":"gtceu:iv_fluid_heater"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_brewer"}}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["VGW","PGV","CMC"],"key":{"M":{"item":"gtceu:iv_machine_hull"},"P":{"item":"gtceu:iv_electric_pump"},"V":{"item":"gtceu:iv_conveyor_module"},"C":{"tag":"gtceu:circuits/iv"},"W":{"item":"gtceu:platinum_single_cable"},"G":{"item":"gtceu:laminated_glass"}},"result":{"item":"gtceu:iv_chemical_bath"}}

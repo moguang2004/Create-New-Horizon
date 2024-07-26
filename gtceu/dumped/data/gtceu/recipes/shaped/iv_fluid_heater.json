@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["OGO","PMP","WCW"],"key":{"M":{"item":"gtceu:iv_machine_hull"},"P":{"item":"gtceu:iv_electric_pump"},"O":{"item":"gtceu:tungsten_steel_quadruple_wire"},"C":{"tag":"gtceu:circuits/iv"},"W":{"item":"gtceu:platinum_single_cable"},"G":{"item":"gtceu:laminated_glass"}},"result":{"item":"gtceu:iv_fluid_heater"}}

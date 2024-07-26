@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" fS"," Sh","W  "],"key":{"S":{"tag":"forge:rods/aluminium"},"W":{"item":"minecraft:stick"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:aluminium_screwdriver","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":767},"GT.Behaviours":{},"HideFlags":2}}}

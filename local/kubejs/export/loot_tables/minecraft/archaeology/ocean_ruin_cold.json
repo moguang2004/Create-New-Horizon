@@ -1,0 +1,58 @@
+{
+	"type": "minecraft:archaeology",
+	"random_sequence": "minecraft:archaeology/ocean_ruin_cold",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blade_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:explorer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mourner_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:plenty_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_axe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:wheat"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:wooden_hoe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:gold_nugget"
+				}
+			]
+		}
+	]
+}

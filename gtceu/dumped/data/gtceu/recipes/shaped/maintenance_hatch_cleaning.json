@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CMC","RHR","WCW"],"key":{"C":{"tag":"gtceu:circuits/uv"},"M":{"item":"gtceu:auto_maintenance_hatch"},"R":{"item":"gtceu:uv_robot_arm"},"H":{"item":"gtceu:uv_machine_hull"},"W":{"item":"gtceu:yttrium_barium_cuprate_single_cable"}},"result":{"item":"gtceu:cleaning_maintenance_hatch"}}

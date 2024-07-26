@@ -1,0 +1,46 @@
+
+#General mod settings
+[general]
+	#Prevents tearing up of dirt, grass, sand and logs, overrides strength based grabbing
+	Storm_Tornado_RefinedGrabRules = true
+	#Makes weather boring! or peacefull?
+	Storm_NoTornadosOrCyclones = true
+	#Grab player or not
+	Storm_Tornado_grabPlayer = true
+	#Prevent grabbing of non players
+	Storm_Tornado_grabPlayersOnly = false
+	#Grab hostile mobs, overridden by Storm_Tornado_grabPlayersOnly
+	Storm_Tornado_grabMobs = true
+	#Grab animals, overridden by Storm_Tornado_grabPlayersOnly
+	Storm_Tornado_grabAnimals = true
+	#Grab villagers, overridden by Storm_Tornado_grabPlayersOnly
+	Storm_Tornado_grabVillagers = true
+	#Tear up blocks from the ground based on conditions defined
+	Storm_Tornado_grabBlocks = false
+	#Grab entity items, overridden by Storm_Tornado_grabPlayersOnly
+	Storm_Tornado_grabItems = false
+	#Grab blocks based on how well a diamond axe can mine the block, so mostly wooden blocks
+	Storm_Tornado_GrabCond_StrengthGrabbing = true
+	#Use a list of blocks or block tags instead of grabbing based on calculated strength of block, if true this overrides StrengthGrabbing and RefinedGrabRules
+	Storm_Tornado_GrabCond_List = false
+	#Treat block grab list as a blacklist instead of whitelist
+	Storm_Tornado_GrabListBlacklistMode = false
+	#Enable Storm_Tornado_GrabCond_List to use, add registered block names or block tags to list, for tags, indicate with #, use commas to separate values, if namespace missing, 'minecraft:' is automatically used
+	Storm_Tornado_GrabList = "#fences, #minecraft:fence_gates, #wooden_doors, #wooden_stairs, #wooden_slabs, #flowers, #planks, #wool, #wooden_trapdoors, #wooden_pressure_plates, #cave_vines, #saplings, #banners, #leaves, #small_flowers, #beds, #tall_flowers, #flowers, #candles, #wall_signs, #signs, #fire, #campfires, #replaceable_plants, #wall_post_override"
+	#Max amount of flying entity blocks allowed active, if it goes over this, it stops turning destroyed blocks into entities
+	#Range: > -2147483648
+	Storm_Tornado_maxFlyingEntityBlocks = 200
+	#-
+	#Range: > -2147483648
+	Storm_Tornado_maxBlocksGrabbedPerTick = 5
+	#Make tornados initial heading aimed towards closest player
+	Storm_Tornado_aimAtPlayerOnSpawn = true
+	#Accuracy of tornado aimed at player
+	#Range: > -2147483648
+	Storm_Tornado_aimAtPlayerAngleVariance = 5
+	#Extra bit of grab angle for the tornado, tweak for different grab shapes, higher = tigher grab, lower = wider grab, might toss them away
+	#Range: > -2147483648
+	Storm_Tornado_extraGrabAngle = 20
+	#-
+	Storm_Tornado_fallDamage = true
+

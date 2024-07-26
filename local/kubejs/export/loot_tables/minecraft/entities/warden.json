@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:entity",
+	"random_sequence": "minecraft:entities/warden",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sculk_catalyst"
+				}
+			]
+		}
+	]
+}

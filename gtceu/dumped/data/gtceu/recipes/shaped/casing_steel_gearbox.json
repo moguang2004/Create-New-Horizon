@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PhP","GFG","PwP"],"key":{"P":{"tag":"forge:plates/steel"},"F":{"tag":"forge:frames/steel"},"G":{"tag":"forge:gears/steel"},"w":{"tag":"forge:tools/wrenches"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:steel_gearbox","count":2}}

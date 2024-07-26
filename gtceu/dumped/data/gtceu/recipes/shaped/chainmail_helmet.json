@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PPP","PhP"],"key":{"P":{"tag":"forge:rings/iron"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:chainmail_helmet","nbt":{"Damage":0}}}

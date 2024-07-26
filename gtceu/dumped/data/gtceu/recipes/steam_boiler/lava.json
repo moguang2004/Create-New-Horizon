@@ -1,0 +1,1 @@
+{"type":"gtceu:steam_boiler","duration":7200,"inputs":{"fluid":[{"content":{"amount":100,"value":[{"tag":"forge:lava"}]},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

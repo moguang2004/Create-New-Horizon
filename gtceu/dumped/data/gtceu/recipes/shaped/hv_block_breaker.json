@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["MGM","CHC","WSW"],"key":{"M":{"item":"gtceu:hv_electric_motor"},"H":{"item":"gtceu:hv_machine_hull"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"},"S":{"tag":"forge:chests/wooden"},"G":{"item":"gtceu:diamond_grinding_head"}},"result":{"item":"gtceu:hv_block_breaker"}}

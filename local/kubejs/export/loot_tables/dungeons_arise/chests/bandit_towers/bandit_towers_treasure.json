@@ -1,0 +1,378 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "dungeons_arise:explorer_maps/foundry",
+							"decoration": "target_x",
+							"skip_existing_chunks": false
+						}
+					],
+					"name": "minecraft:map"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 39.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:crossbow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 25.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:bow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 39.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 39.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:iron_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 39.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:iron_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 39.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:iron_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 39.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:iron_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 15.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 15.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 15.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 15.0,
+								"max": 20.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:blaze_powder"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:ender_pearl"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 24,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 16.0,
+								"max": 32.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 32,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 64.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:rose_bush"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:blue_orchid"
+				}
+			]
+		},
+		{
+			"name": "pool4",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_desert_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_weaponsmith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/desert_pyramid"
+				}
+			]
+		}
+	]
+}

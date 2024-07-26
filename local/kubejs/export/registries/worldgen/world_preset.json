@@ -1,0 +1,8 @@
+{
+	"minecraft:single_biome_surface": "net.minecraft.world.level.levelgen.presets.WorldPreset",
+	"minecraft:debug_all_block_states": "net.minecraft.world.level.levelgen.presets.WorldPreset",
+	"minecraft:amplified": "net.minecraft.world.level.levelgen.presets.WorldPreset",
+	"minecraft:normal": "net.minecraft.world.level.levelgen.presets.WorldPreset",
+	"minecraft:large_biomes": "net.minecraft.world.level.levelgen.presets.WorldPreset",
+	"minecraft:flat": "net.minecraft.world.level.levelgen.presets.WorldPreset"
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["SPS","IWI","IdI"],"key":{"S":{"tag":"forge:screws/iron"},"P":{"item":"minecraft:redstone_torch"},"I":{"tag":"forge:rods/iron"},"W":{"tag":"forge:rods/wooden"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"minecraft:activator_rail","count":6}}

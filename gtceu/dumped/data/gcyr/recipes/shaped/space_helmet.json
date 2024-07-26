@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["SFS","FFF","SCS"],"key":{"S":{"item":"gcyr:space_fabric"},"F":{"tag":"forge:foils/gold"},"C":{"tag":"gtceu:circuits/ev"}},"result":{"item":"gcyr:space_helmet","nbt":{"Damage":0}}}

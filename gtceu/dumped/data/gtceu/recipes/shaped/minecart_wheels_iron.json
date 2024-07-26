@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" h ","RSR"," w "],"key":{"R":{"tag":"forge:rings/iron"},"S":{"tag":"forge:rods/iron"},"w":{"tag":"forge:tools/wrenches"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:iron_minecart_wheels"}}

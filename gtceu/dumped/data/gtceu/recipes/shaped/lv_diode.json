@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CDC","DHD","PDP"],"key":{"H":{"item":"gtceu:lv_machine_hull"},"D":{"item":"gtceu:diode"},"P":{"tag":"forge:plates/steel"},"C":{"item":"gtceu:tin_quadruple_cable"}},"result":{"item":"gtceu:lv_diode"}}

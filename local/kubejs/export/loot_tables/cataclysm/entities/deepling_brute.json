@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"name": "deepling_brute",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nautilus_shell"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.05
+				}
+			]
+		}
+	]
+}

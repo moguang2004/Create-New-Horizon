@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EFE"],"key":{"A":{"item":"gtceu:luv_voltage_coil"},"B":{"tag":"gtceu:circuits/luv"},"C":{"item":"gtceu:naquadah_quadruple_cable"},"D":{"item":"gtceu:luv_machine_hull"},"E":{"tag":"forge:gears/ultimet"},"F":{"item":"gtceu:luv_robot_arm"}},"result":{"item":"gtnn:luv_dehydrator"}}

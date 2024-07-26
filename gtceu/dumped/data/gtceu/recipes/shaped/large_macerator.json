@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PCP","BXB","MKM"],"key":{"C":{"tag":"gtceu:circuits/iv"},"P":{"tag":"forge:plates/tungsten_carbide"},"B":{"item":"gtceu:iv_electric_piston"},"M":{"item":"gtceu:iv_electric_motor"},"X":{"item":"gtceu:iv_macerator"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_maceration_tower"}}

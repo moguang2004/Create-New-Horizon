@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"name": "tetra_bastion_extended",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tetra:scroll"
+						}
+					],
+					"name": "tetra:scroll_rolled"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tetra:scroll"
+						}
+					],
+					"name": "tetra:scroll_rolled"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tetra:scroll"
+						}
+					],
+					"name": "tetra:scroll_rolled"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tetra:scroll"
+						}
+					],
+					"name": "tetra:scroll_rolled"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tetra:scroll"
+						}
+					],
+					"name": "tetra:scroll_rolled"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tetra:scroll"
+						}
+					],
+					"name": "tetra:scroll_rolled"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tetra:scroll"
+						}
+					],
+					"name": "tetra:scroll_rolled"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "tetra:scroll"
+						}
+					],
+					"name": "tetra:scroll_rolled"
+				}
+			]
+		}
+	]
+}

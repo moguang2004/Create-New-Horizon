@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PPP","SPS","fPd"],"key":{"P":{"tag":"forge:double_plates/titanium"},"S":{"tag":"forge:screws/titanium"},"d":{"tag":"forge:tools/screwdrivers"},"f":{"tag":"forge:tools/files"}},"result":{"item":"gtceu:titanium_turbine_blade"}}

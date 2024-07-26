@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["xRR"," SR","S f"],"key":{"S":{"tag":"forge:rods/bisalloy_400"},"R":{"tag":"forge:plates/rubber"},"x":{"tag":"forge:tools/wire_cutters"},"f":{"tag":"forge:tools/files"}},"result":{"item":"gtceu:bisalloy_400_plunger","nbt":{"Damage":0.0}}}

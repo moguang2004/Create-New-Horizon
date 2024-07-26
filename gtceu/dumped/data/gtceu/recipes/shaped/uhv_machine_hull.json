@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PLP","CHC"],"key":{"P":{"tag":"forge:plates/polybenzimidazole"},"L":{"tag":"forge:plates/neutronium"},"C":{"item":"gtceu:europium_single_cable"},"H":{"item":"gtceu:uhv_machine_casing"}},"result":{"item":"gtceu:uhv_machine_hull"}}

@@ -1,0 +1,176 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:experience_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 25.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:emerald"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:paper"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:feather"
+				}
+			]
+		}
+	]
+}

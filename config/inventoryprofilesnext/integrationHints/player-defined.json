@@ -1,0 +1,55 @@
+{
+    "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 36,
+                "bottom": -12
+            },
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": 24,
+                "bottom": -28
+            },
+            "SETTINGS": {
+                "top": -1
+            }
+        }
+    },
+    "appeng.client.gui.me.items.PatternEncodingTermScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 21
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 116
+            },
+            "SORT": {
+                "horizontalOffset": 116
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 116
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 116
+            }
+        }
+    },
+    "appeng.client.gui.me.items.CraftingTermScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 19
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 116
+            },
+            "SORT": {
+                "horizontalOffset": 116
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 116
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 116
+            }
+        }
+    }
+}

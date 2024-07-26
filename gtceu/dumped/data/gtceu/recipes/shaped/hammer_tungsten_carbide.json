@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["II ","IIS","II "],"key":{"I":{"tag":"forge:ingots/tungsten_carbide"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:tungsten_carbide_hammer","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":1023},"GT.Behaviours":{},"HideFlags":2}}}

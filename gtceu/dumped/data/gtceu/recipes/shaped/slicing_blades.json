@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PPP","UCU","UMU"],"key":{"P":{"tag":"forge:plates/tungsten_carbide"},"U":{"item":"gtceu:ultimet_gear"},"C":{"item":"gtceu:shock_proof_cutting_casing"},"M":{"item":"gtceu:iv_electric_motor"}},"result":{"item":"gtceu:slicing_blades","count":2}}

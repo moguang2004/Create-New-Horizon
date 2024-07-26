@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PPP","SPS","fPd"],"key":{"P":{"tag":"forge:double_plates/iridium"},"S":{"tag":"forge:screws/iridium"},"d":{"tag":"forge:tools/screwdrivers"},"f":{"tag":"forge:tools/files"}},"result":{"item":"gtceu:iridium_turbine_blade"}}

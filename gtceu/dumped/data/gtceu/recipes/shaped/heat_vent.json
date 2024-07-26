@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PDP","RLR","PDP"],"key":{"P":{"tag":"forge:plates/tantalum_carbide"},"D":{"item":"gtceu:double_molybdenum_disilicide_plate"},"R":{"item":"gtceu:titanium_rotor"},"L":{"item":"gtceu:long_molybdenum_disilicide_rod"}},"result":{"item":"gtceu:heat_vent","count":2}}

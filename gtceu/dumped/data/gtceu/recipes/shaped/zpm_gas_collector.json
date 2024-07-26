@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WFW","PHP","WCW"],"key":{"W":{"item":"minecraft:iron_bars"},"F":{"item":"gtceu:fluid_filter"},"P":{"item":"gtceu:zpm_electric_pump"},"H":{"item":"gtceu:zpm_machine_hull"},"C":{"tag":"gtceu:circuits/zpm"}},"result":{"item":"gtceu:zpm_gas_collector"}}

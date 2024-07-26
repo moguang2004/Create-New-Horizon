@@ -1,0 +1,7 @@
+#Sets behavior for keeping Curios items on death.
+#ON - Curios items are kept on death
+#DEFAULT - Curios items follow the keepInventory gamerule
+#OFF - Curios items are dropped on death
+#Allowed Values: ON, DEFAULT, OFF
+keepCurios = "DEFAULT"
+

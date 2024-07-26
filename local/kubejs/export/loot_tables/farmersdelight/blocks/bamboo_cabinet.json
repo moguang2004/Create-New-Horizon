@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "farmersdelight:blocks/bamboo_cabinet",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_name",
+							"source": "block_entity"
+						}
+					],
+					"name": "farmersdelight:bamboo_cabinet"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PGP","WMW","CBC"],"key":{"M":{"item":"gtceu:luv_machine_hull"},"P":{"item":"gtceu:luv_electric_pump"},"C":{"tag":"gtceu:circuits/luv"},"W":{"item":"gtceu:niobium_titanium_single_cable"},"G":{"item":"gtceu:laminated_glass"},"B":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:luv_fluid_solidifier"}}

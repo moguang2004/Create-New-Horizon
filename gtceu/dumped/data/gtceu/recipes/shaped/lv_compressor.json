@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" C ","PMP","WCW"],"key":{"M":{"item":"gtceu:lv_machine_hull"},"P":{"item":"gtceu:lv_electric_piston"},"C":{"tag":"gtceu:circuits/lv"},"W":{"item":"gtceu:tin_single_cable"}},"result":{"item":"gtceu:lv_compressor"}}

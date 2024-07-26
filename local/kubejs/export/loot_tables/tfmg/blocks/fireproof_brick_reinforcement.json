@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "tfmg:blocks/fireproof_brick_reinforcement",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "tfmg:fireproof_brick_reinforcement"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

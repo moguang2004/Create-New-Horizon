@@ -1,0 +1,158 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/pitcher_crop",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:pitcher_crop",
+									"properties": {
+										"age": "0"
+									}
+								},
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:pitcher_crop",
+									"properties": {
+										"half": "lower"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 1.0,
+									"add": false
+								}
+							],
+							"name": "minecraft:pitcher_pod"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:pitcher_crop",
+									"properties": {
+										"age": "1"
+									}
+								},
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:pitcher_crop",
+									"properties": {
+										"half": "lower"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 1.0,
+									"add": false
+								}
+							],
+							"name": "minecraft:pitcher_pod"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:pitcher_crop",
+									"properties": {
+										"age": "2"
+									}
+								},
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:pitcher_crop",
+									"properties": {
+										"half": "lower"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 1.0,
+									"add": false
+								}
+							],
+							"name": "minecraft:pitcher_pod"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:pitcher_crop",
+									"properties": {
+										"age": "3"
+									}
+								},
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:pitcher_crop",
+									"properties": {
+										"half": "lower"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 1.0,
+									"add": false
+								}
+							],
+							"name": "minecraft:pitcher_pod"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:pitcher_crop",
+									"properties": {
+										"age": "4"
+									}
+								},
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "minecraft:pitcher_crop",
+									"properties": {
+										"half": "lower"
+									}
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": 1.0,
+									"add": false
+								}
+							],
+							"name": "minecraft:pitcher_plant"
+						}
+					]
+				}
+			]
+		}
+	],
+	"functions": [
+		{
+			"function": "minecraft:explosion_decay"
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WGW","GMG","TGT"],"key":{"M":{"item":"gtceu:ev_machine_hull"},"W":{"tag":"gtceu:circuits/ev"},"G":{"item":"gtceu:ev_electric_pump"},"T":{"item":"gtceu:titanium_large_fluid_pipe"}},"result":{"item":"gtceu:ev_pump"}}

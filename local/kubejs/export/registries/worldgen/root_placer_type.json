@@ -1,0 +1,4 @@
+{
+	"deep_aether:yagroot_root_placer": "net.minecraft.world.level.levelgen.feature.rootplacers.RootPlacerType",
+	"minecraft:mangrove_root_placer": "net.minecraft.world.level.levelgen.feature.rootplacers.RootPlacerType"
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["DPD","CBC","WCW"],"key":{"W":{"item":"gtceu:copper_single_wire"},"P":{"tag":"forge:plates/steel"},"C":{"item":"gtceu:basic_electronic_circuit"},"B":{"item":"gtceu:phenolic_printed_circuit_board"},"D":{"item":"gtceu:diode"}},"result":{"item":"gtceu:good_electronic_circuit"}}

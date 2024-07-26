@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "create:blocks/scoria_pillar",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "create:scoria_pillar"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

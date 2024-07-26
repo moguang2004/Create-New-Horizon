@@ -1,0 +1,190 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "aether:chests/dungeon/silver/silver_dungeon_reward",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "aether:chests/dungeon/silver/silver_dungeon_valkyrie"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "aether:chests/dungeon/silver/silver_dungeon_treasure"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "aether:chests/dungeon/silver/silver_dungeon_gummies"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 6.0,
+				"max": 10.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "aether:lightning_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "aether:holy_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "aether:invisibility_cloak"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "aether:chests/dungeon/silver/silver_dungeon_gravitite"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "aether:enchanted_dart_shooter"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "aether:poison_dart_shooter"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:golden_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:saddle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aether:music_disc_aether_tune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aether:music_disc_ascending_dawn"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:golden_amber"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:zanite_gemstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:enchanted_berry"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:blue_berry"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:angelic_stone"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 10,
+					"name": "aether:chests/dungeon/silver/silver_dungeon_valkyrie"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "aether:regeneration_stone"
+				}
+			]
+		}
+	]
+}

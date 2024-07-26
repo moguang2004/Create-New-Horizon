@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PCP","EME","GWG"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"P":{"item":"gtceu:mv_electric_piston"},"E":{"item":"gtceu:mv_electric_motor"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"G":{"tag":"forge:gears/aluminium"}},"result":{"item":"gtceu:mv_combustion"}}

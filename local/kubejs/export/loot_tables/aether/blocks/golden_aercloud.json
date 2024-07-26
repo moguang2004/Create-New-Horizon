@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "aether:blocks/golden_aercloud",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "aether:golden_aercloud"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	],
+	"functions": [
+		{
+			"function": "aether:double_drops"
+		}
+	]
+}

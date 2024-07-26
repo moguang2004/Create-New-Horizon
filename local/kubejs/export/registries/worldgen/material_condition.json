@@ -1,0 +1,14 @@
+{
+	"minecraft:above_preliminary_surface": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:biome": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:steep": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:water": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"alexscaves:ac_simplex": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:hole": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:vertical_gradient": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:noise_threshold": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:stone_depth": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:not": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:temperature": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:y_above": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

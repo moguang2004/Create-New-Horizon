@@ -1,0 +1,45 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "farmersdelight:tomato_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "farmersdelight:cabbage_seeds"
+				}
+			]
+		}
+	]
+}

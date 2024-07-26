@@ -1,0 +1,742 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4A4420704BDBEA5D"
+	group: ""
+	id: "4A4420704BDBEA5D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1FA50E83472493FC"
+			tasks: [{
+				id: "03FE7B78B3DF2852"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "4A277370B11AEC35"
+			tasks: [{
+				id: "2DCF61C1BA8042F5"
+				item: "gtceu:helium_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "7FDBA4B03630C185"
+			tasks: [{
+				id: "6C97EADFD5378DA9"
+				item: "gtceu:lithium_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "0B49EB7D472D9D8F"
+			tasks: [{
+				id: "2267A73575E3854B"
+				item: "gtceu:beryllium_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "5FB01EC45BB54629"
+			tasks: [{
+				id: "0D00FA8AD1B6116E"
+				item: "gtceu:boron_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "35584FAB9A743E22"
+			tasks: [{
+				id: "21CB0BB238CE1964"
+				item: "gtceu:carbon_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			id: "5CF060B4B84C4662"
+			tasks: [{
+				id: "65ABDE1DEA9F5215"
+				item: "gtceu:nitrogen_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "3C2BE641B560898E"
+			tasks: [{
+				id: "1EC37226397028F4"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "3D038858F80D82B1"
+			tasks: [{
+				id: "2EA6FB07487DBAE3"
+				item: "gtceu:fluorine_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "17A1D235F9319B80"
+			tasks: [{
+				id: "2391FDFE2D535E18"
+				item: "gtceu:neon_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			id: "113FFC3D9F82AA6A"
+			tasks: [{
+				id: "33DBAA45DBB0736F"
+				item: "gtceu:sodium_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "69F9C1FCB65FC4E3"
+			tasks: [{
+				id: "6CBA4C45362DF723"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "39B4963A3EA49AFC"
+			tasks: [{
+				id: "6DAE59B98BF5FC88"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "3A2DE5211657F4BD"
+			tasks: [{
+				id: "6CBD12B4FD54E45A"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "3517B153F1753D40"
+			tasks: [{
+				id: "7C10A772D705AF59"
+				item: "gtceu:phosphorus_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "7835B00C268116DE"
+			tasks: [{
+				id: "155DD151F8EEBC37"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "4C530D01CA584E15"
+			tasks: [{
+				id: "5FFD9C7B71BFEE64"
+				item: "gtceu:chlorine_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "6D76C169470301FA"
+			tasks: [{
+				id: "46DC319A7D9526FE"
+				item: "gtceu:argon_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "0EBC2AFF5FA74CCF"
+			tasks: [{
+				id: "01F6512DAAF9AAA3"
+				item: "gtceu:potassium_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "47FEBA0668868C60"
+			tasks: [{
+				id: "3FD6C5F7B4BF33C0"
+				item: "gtceu:calcium_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "7C8CCC82B314A972"
+			tasks: [{
+				id: "5B8D572EFA8A50FD"
+				item: "gtceu:caesium_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "6A358F6ED048BA5A"
+			tasks: [{
+				id: "123F719313B5705D"
+				item: "gtceu:barium_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "385D2678B8A93B45"
+			tasks: [{
+				id: "4B41820CA6C0B070"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "13A68C1A36F32BA6"
+			tasks: [{
+				id: "5E0BF32DB84441FC"
+				item: "gtceu:antimony_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			id: "776786688A41C644"
+			tasks: [{
+				id: "7888C42B6237FFD8"
+				item: "gtceu:bismuth_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "7EFFEDC4C2261ABE"
+			tasks: [{
+				id: "1BE98EB85E85A86D"
+				item: "gtceu:bromine_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			id: "2F8F5763D41879F1"
+			tasks: [{
+				id: "69FA9F0C546FB2C8"
+				item: "gtceu:iodine_dust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			id: "3F49BF03B58E5752"
+			tasks: [{
+				id: "1B29D6B3EFEEA31C"
+				item: "gtceu:argon_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			id: "36FCAA0E51BBDFD2"
+			tasks: [{
+				id: "449D2A883E85E137"
+				item: "gtceu:krypton_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "43DC3CB6DCAD1ECB"
+			tasks: [{
+				id: "0061C71F9B38707B"
+				item: "gtceu:xenon_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			id: "1A38FB2746CAFA5B"
+			tasks: [{
+				id: "1C593006F50CBA28"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "3421E97148CA3DB5"
+			tasks: [{
+				id: "2BE838A73D0B3133"
+				item: "gtceu:zinc_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "5C0CD6921D109052"
+			tasks: [{
+				id: "3743115EDC1670E6"
+				item: "gtceu:copper_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "5D0A71A9D1BE0F1E"
+			tasks: [{
+				id: "7320714152CCFBB0"
+				item: "gtceu:nickel_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "79925A1B9AEE0A94"
+			tasks: [{
+				id: "7C52BB3D17FC9A57"
+				item: "gtceu:cobalt_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "6F061F767C8F090A"
+			tasks: [{
+				id: "139E1D47D33E57E5"
+				item: "gtceu:iron_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "0D354F2C027B9B4C"
+			tasks: [{
+				id: "51532269384DA884"
+				item: "gtceu:manganese_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "362B96717B841A28"
+			tasks: [{
+				id: "0FB94593B222968E"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "6DABFC43F12F6197"
+			tasks: [{
+				id: "23EA8C80761187C7"
+				item: "gtceu:vanadium_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "7D30986703669610"
+			tasks: [{
+				id: "1E76E2F5F4CB9EB4"
+				item: "gtceu:titanium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "31982C8E234AF353"
+			tasks: [{
+				id: "4D6F98A0E38A48C9"
+				item: "gtceu:yttrium_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "1781656ACC1C4D81"
+			tasks: [{
+				id: "225F9E419FBE14D2"
+				item: "gtceu:niobium_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "42154888031FE2C5"
+			tasks: [{
+				id: "4C7BF854B78E714D"
+				item: "gtceu:molybdenum_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "4B4549D2B8D47AA1"
+			tasks: [{
+				id: "62F81535E65EB81C"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "5E424133FBD87550"
+			tasks: [{
+				id: "6EDE7CB59837E22B"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "75A89DEB8A1D6F75"
+			tasks: [{
+				id: "46C764D9F4119F93"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "2AA964BF666DE629"
+			tasks: [{
+				id: "242912E7BABCC43A"
+				item: "gtceu:silver_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "56050A188D8C6141"
+			tasks: [{
+				id: "7D4D2F516EB0EB58"
+				item: "gtceu:cadmium_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "5412C90064C263EE"
+			tasks: [{
+				id: "3A2FED747B643C73"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "3854DA0599FE8653"
+			tasks: [{
+				id: "500F110AA931361C"
+				item: "gtceu:tin_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "190EA0E6AA566B0B"
+			tasks: [{
+				id: "76004C9FD0918684"
+				item: "gtceu:lanthanum_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "5D76B76D1C3B0ED2"
+			tasks: [{
+				id: "185CF3B323E83B9E"
+				item: "gtceu:cerium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "2F04F2118ECC2FA3"
+			tasks: [{
+				id: "05458163A885A265"
+				item: "gtceu:praseodymium_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "51047EE824A6ADF6"
+			tasks: [{
+				id: "5E9DF20F9C2217F0"
+				item: "gtceu:neodymium_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "299B40BD3518B30E"
+			tasks: [{
+				id: "62F6187A82EC1A84"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "7C4938790D41688F"
+			tasks: [{
+				id: "1FC0A90EB4E03C0A"
+				item: "gtceu:europium_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			id: "52555F351E43EAAD"
+			tasks: [{
+				id: "1A2E0EE3D8EE5E42"
+				item: "gtceu:lutetium_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			id: "47CDA003DB1FB37D"
+			tasks: [{
+				id: "590F411E8E0007AA"
+				title: "镧系"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "2016B4425A9953CD"
+			tasks: [{
+				id: "7E94E99DDE98138F"
+				item: "gtceu:tantalum_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "0E42C2300E871DCB"
+			tasks: [{
+				id: "3BAC063B76CCF072"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "1C9BCBCCA3ED1FAC"
+			tasks: [{
+				id: "4DA31602997AB223"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "05A60F0A95A4E543"
+			tasks: [{
+				id: "61E0F0896425D2EF"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "00EF68C7D426FB8B"
+			tasks: [{
+				id: "69444D80FEA82040"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "4FAB41BD6B5CA73E"
+			tasks: [{
+				id: "797170F251B3DE9A"
+				item: "gtceu:gold_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "63FD65F7E4BCDE7E"
+			tasks: [{
+				id: "41298507A8D791B5"
+				item: "gtceu:mercury_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "00CF6BED1405E2E5"
+			tasks: [{
+				id: "0677038BE8B11FA8"
+				item: "gtceu:lead_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "7FAAF7A0DBD8A173"
+			tasks: [{
+				id: "25344AC49C6D60DC"
+				item: "gtceu:thorium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "7A4EF91EC6A81D8E"
+			tasks: [{
+				id: "579C2F2AB74B8788"
+				item: "gtceu:uranium_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			id: "2D0ADC6D4EF06ED4"
+			tasks: [{
+				id: "1B9DCE5E71B32BE2"
+				item: "gtceu:plutonium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "6398CB2423A292BE"
+			tasks: [{
+				id: "745F47381BE68CBE"
+				item: "gtceu:americium_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "5FE49A43DF13038C"
+			tasks: [{
+				id: "7595D33DA5F2EC93"
+				item: "gtceu:californium_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			id: "3614CAFBE9C39EC3"
+			tasks: [{
+				id: "22E8F7204A30B780"
+				item: "gtceu:darmstadtium_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "4656D9722D4DB504"
+			tasks: [{
+				id: "4659DB071EC74DC8"
+				item: "gtceu:oganesson_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+	]
+	title: "元素周期表"
+}

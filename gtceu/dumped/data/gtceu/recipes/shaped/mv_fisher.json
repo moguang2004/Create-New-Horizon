@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WTW","PMP","TGT"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"W":{"tag":"gtceu:circuits/mv"},"G":{"item":"gtceu:mv_electric_pump"},"T":{"item":"gtceu:mv_electric_motor"},"P":{"item":"gtceu:mv_electric_piston"}},"result":{"item":"gtceu:mv_fisher"}}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CPC","SFE","CMC"],"key":{"C":{"tag":"gtceu:circuits/ev"},"P":{"item":"gtceu:hpic_chip"},"S":{"item":"gtceu:iv_sensor"},"F":{"tag":"forge:frames/tungsten_steel"},"E":{"item":"gtceu:iv_emitter"},"M":{"item":"gtceu:iv_electric_motor"}},"result":{"item":"gtceu:assembly_line_casing","count":2}}

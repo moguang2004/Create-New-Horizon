@@ -1,0 +1,300 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "dungeons_arise:bandit_towers",
+							"decoration": "target_x",
+							"skip_existing_chunks": false
+						}
+					],
+					"name": "minecraft:map"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 39.0,
+							"treasure": true
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 25.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:diamond_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 25.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:diamond_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 25.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:diamond_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 25.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:diamond_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 20.0,
+								"max": 25.0
+							},
+							"treasure": true
+						}
+					],
+					"name": "minecraft:diamond_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:ender_pearl"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 4.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:enchanted_golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 6.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:glass_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "minecraft:soul_lantern"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:glow_lichen"
+				}
+			]
+		},
+		{
+			"name": "pool4",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:azalea_leaves"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["DXD","XMX","PXP"],"key":{"M":{"item":"gtceu:bronze_machine_casing"},"X":{"item":"gtceu:bronze_small_fluid_pipe"},"P":{"tag":"forge:pistons"},"D":{"tag":"forge:gems/diamond"}},"result":{"item":"gtceu:lp_steam_macerator"}}

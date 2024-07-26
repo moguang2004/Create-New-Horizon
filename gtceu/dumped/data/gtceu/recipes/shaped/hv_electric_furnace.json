@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ECE","CMC","WCW"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"E":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"},"C":{"item":"gtceu:kanthal_double_wire"}},"result":{"item":"gtceu:hv_electric_furnace"}}

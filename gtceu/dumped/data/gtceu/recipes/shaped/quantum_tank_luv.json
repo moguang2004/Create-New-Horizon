@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CGC","PHP","CUC"],"key":{"C":{"tag":"gtceu:circuits/luv"},"P":{"tag":"forge:dense_plates/rhodium_plated_palladium"},"U":{"item":"gtceu:luv_electric_pump"},"G":{"item":"gtceu:ev_field_generator"},"H":{"item":"gtceu:luv_hermetic_casing"}},"result":{"item":"gtceu:luv_quantum_tank"}}

@@ -1,0 +1,2 @@
+caveModeType:0
+dimensionTypeId:minecraft:overworld

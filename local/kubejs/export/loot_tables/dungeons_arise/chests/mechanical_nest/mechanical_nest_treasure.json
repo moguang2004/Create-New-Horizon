@@ -1,0 +1,159 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 4.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond_block"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:emerald_block"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:netherite_scrap"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 32.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 50.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:raw_iron_block"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_block"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 14.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16777001,CustomPotionEffects:[{Amplifier:0b,Duration:1200,Id:1},{Amplifier:1b,Duration:1200,Id:5},{Amplifier:2b,Duration:1200,Id:11}],display:{Name:'{\"text\":\"Hero Potion\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				}
+			]
+		}
+	]
+}

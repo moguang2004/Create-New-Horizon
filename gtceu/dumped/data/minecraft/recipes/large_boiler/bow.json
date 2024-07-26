@@ -1,0 +1,1 @@
+{"type":"gtceu:large_boiler","duration":3,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"type":"forge:nbt","item":"minecraft:bow","count":1,"nbt":"{Damage:0}"}},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

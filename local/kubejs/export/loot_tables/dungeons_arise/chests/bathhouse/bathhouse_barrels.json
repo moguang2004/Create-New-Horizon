@@ -1,0 +1,221 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16750848,CustomPotionEffects:[{Amplifier:3b,Duration:300,Id:1},{Amplifier:3b,Duration:300,Id:3},{Amplifier:3b,Duration:300,Id:5},{Amplifier:0b,Duration:4800,Id:9},{Amplifier:3b,Duration:300,Id:11},{Amplifier:3b,Duration:300,Id:12},{Amplifier:3b,Duration:300,Id:22}],display:{Name:'{\"text\":\"Tequila\",\"italic\":false}'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:13762483,CustomPotionEffects:[{Amplifier:1b,Duration:2400,Id:5},{Amplifier:0b,Duration:4800,Id:9},{Amplifier:1b,Duration:2400,Id:11},{Amplifier:1b,Duration:120,Id:22}],display:{Name:'{\"text\":\"Absinthe\",\"italic\":false}'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16770782,CustomPotionEffects:[{Amplifier:0b,Duration:4800,Id:5},{Amplifier:0b,Duration:2400,Id:9},{Amplifier:0b,Duration:4800,Id:11}],display:{Name:'{\"text\":\"Vodka\",\"italic\":false}'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16777215,CustomPotionEffects:[{Amplifier:0b,Duration:1200,Id:9},{Amplifier:0b,Duration:5000,Id:16}],display:{Name:'{\"text\":\"Gin\",\"italic\":false}'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:1247001,CustomPotionEffects:[{Amplifier:0b,Duration:5000,Id:1},{Amplifier:0b,Duration:1200,Id:9}],display:{Name:'{\"text\":\"Fernet\",\"italic\":false}'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:2822203,CustomPotionEffects:[{Amplifier:0b,Duration:4800,Id:5},{Amplifier:0b,Duration:1200,Id:9}],display:{Name:'{\"text\":\"Wine\",\"italic\":false}'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16764300,CustomPotionEffects:[{Amplifier:0b,Duration:1200,Id:9},{Amplifier:0b,Duration:4800,Id:12}],display:{Name:'{\"text\":\"Cider\",\"italic\":false}'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:16772608,CustomPotionEffects:[{Amplifier:0b,Duration:4800,Id:3},{Amplifier:0b,Duration:1200,Id:9}],display:{Name:'{\"text\":\"Beer\",\"italic\":false}'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 3.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:water"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:pumpkin_pie"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cake"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:carrot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bread"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:mushroom_stew"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:beetroot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:apple"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:glistering_melon_slice"
+				}
+			]
+		}
+	]
+}

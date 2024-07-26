@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" M"," C"],"key":{"M":{"item":"gtceu:ulv_machine_hull"},"C":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:ulv_output_bus"}}

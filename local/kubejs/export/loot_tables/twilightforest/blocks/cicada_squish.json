@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:empty",
+	"random_sequence": "twilightforest:blocks/cicada_squish",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gray_dye"
+				}
+			]
+		}
+	]
+}

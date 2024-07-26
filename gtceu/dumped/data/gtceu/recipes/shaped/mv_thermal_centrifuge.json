@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CEC","OMO","WEW"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"E":{"item":"gtceu:mv_electric_motor"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"O":{"item":"gtceu:cupronickel_quadruple_wire"}},"result":{"item":"gtceu:mv_thermal_centrifuge"}}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CPC","PFP","CPC"],"key":{"C":{"tag":"gtceu:circuits/lv"},"P":{"tag":"forge:plates/steel"},"F":{"item":"gtceu:steel_crate"}},"result":{"item":"gtceu:lv_super_chest"}}

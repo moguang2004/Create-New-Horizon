@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WMW","RER","CHC"],"key":{"H":{"item":"gtceu:ev_machine_hull"},"C":{"tag":"gtceu:circuits/ev"},"E":{"item":"create:shaft"},"W":{"item":"gtceu:aluminium_hex_cable"},"M":{"item":"gtceu:ev_electric_motor"},"R":{"tag":"forge:rotors/stainless_steel"}},"result":{"item":"gtceu:ev_electric_gear_box_32a"}}

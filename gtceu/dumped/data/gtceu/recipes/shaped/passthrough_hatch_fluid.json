@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" C ","GHG"," S "],"key":{"C":{"item":"gtceu:hv_electric_pump"},"G":{"item":"gtceu:steel_small_fluid_pipe"},"H":{"item":"gtceu:hv_machine_hull"},"S":{"item":"gtceu:tempered_glass"}},"result":{"item":"gtceu:hv_fluid_passthrough_hatch"}}

@@ -1,0 +1,9 @@
+{
+	"twilightforest:highland_caves": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:nether_cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"biomesoplenty:origin_cave": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:canyon": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"minecraft:cave_extra_underground": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver",
+	"twilightforest:tf_caves": "net.minecraft.world.level.levelgen.carver.ConfiguredWorldCarver"
+}

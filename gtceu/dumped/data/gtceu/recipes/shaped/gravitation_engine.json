@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ESE","POP","ESE"],"key":{"E":{"item":"gtceu:luv_emitter"},"S":{"item":"gtceu:osmium_quadruple_wire"},"P":{"tag":"forge:double_plates/iridium"},"O":{"item":"gtceu:lapotronic_energy_orb"}},"result":{"item":"gtceu:gravitation_engine_unit"}}

@@ -1,0 +1,46 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 0.0,
+				"max": 1.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "alexscaves:cave_book"
+				}
+			]
+		},
+		{
+			"name": "underground_cabin_magnetic_caves",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 12.0,
+				"max": 22.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 15,
+					"name": "alexscaves:chests/underground_cabin"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CaveBiome:\"alexscaves:magnetic_caves\"}"
+						}
+					],
+					"name": "alexscaves:cave_tablet"
+				}
+			]
+		}
+	]
+}

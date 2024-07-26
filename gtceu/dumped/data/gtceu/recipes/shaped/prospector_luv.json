@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["EPS","CDC","PBP"],"key":{"E":{"item":"gtceu:luv_emitter"},"P":{"tag":"forge:plates/rhodium_plated_palladium"},"S":{"item":"gtceu:hv_sensor"},"D":{"item":"gtceu:computer_monitor_cover"},"C":{"tag":"forge:circuits/luv"},"B":{"tag":"forge:batteries/luv"}},"result":{"item":"gtceu:prospector.luv"}}

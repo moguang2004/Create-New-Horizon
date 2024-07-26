@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WTW","WMW"],"key":{"M":{"item":"gtceu:zpm_machine_hull"},"W":{"item":"gtceu:vanadium_gallium_octal_wire"},"T":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:zpm_battery_buffer_8x"}}

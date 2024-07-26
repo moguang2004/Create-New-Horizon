@@ -1,0 +1,4 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:gui.xaero_deathpoint:D:-2:111:-38:0:false:1:gui.xaero_default:false:0:1:true

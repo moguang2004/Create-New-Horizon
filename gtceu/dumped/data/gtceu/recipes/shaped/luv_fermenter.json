@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WPW","GMG","WCW"],"key":{"M":{"item":"gtceu:luv_machine_hull"},"P":{"item":"gtceu:luv_electric_pump"},"C":{"tag":"gtceu:circuits/luv"},"W":{"item":"gtceu:niobium_titanium_single_cable"},"G":{"item":"gtceu:laminated_glass"}},"result":{"item":"gtceu:luv_fermenter"}}

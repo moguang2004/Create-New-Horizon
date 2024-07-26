@@ -1,0 +1,1 @@
+{"type":"gtceu:steam_boiler","duration":1800,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"twilightforest:mangrove_slab"}},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

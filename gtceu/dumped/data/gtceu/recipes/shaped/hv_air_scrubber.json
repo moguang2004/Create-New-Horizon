@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PFP","FHF","CFC"],"key":{"F":{"item":"gtceu:fluid_filter"},"P":{"item":"gtceu:hv_electric_pump"},"H":{"item":"gtceu:hv_machine_hull"},"C":{"tag":"gtceu:circuits/hv"}},"result":{"item":"gtceu:hv_air_scrubber"}}

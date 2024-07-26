@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PEP","CMC","WCW"],"key":{"M":{"item":"gtceu:ev_machine_hull"},"E":{"item":"gtceu:ev_emitter"},"P":{"item":"gtceu:ev_electric_piston"},"C":{"tag":"gtceu:circuits/ev"},"W":{"item":"gtceu:aluminium_single_cable"}},"result":{"item":"gtceu:ev_laser_engraver"}}

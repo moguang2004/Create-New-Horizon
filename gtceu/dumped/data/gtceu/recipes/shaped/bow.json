@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["hLS","LRS","fLS"],"key":{"L":{"tag":"forge:rods/long/wood"},"S":{"item":"minecraft:string"},"R":{"tag":"forge:rings/iron"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:bow","nbt":{"Damage":0}}}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["GRG","GEG","CMC"],"key":{"M":{"item":"gtceu:uv_machine_hull"},"E":{"item":"gtceu:uv_electric_motor"},"R":{"tag":"forge:rotors/darmstadtium"},"C":{"tag":"gtceu:circuits/uv"},"G":{"item":"gtceu:fusion_glass"}},"result":{"item":"gtceu:uv_mixer"}}

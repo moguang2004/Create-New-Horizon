@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PGP","AFA","PGP"],"key":{"P":{"tag":"forge:plates/steel"},"G":{"tag":"forge:gears/ruridit"},"A":{"item":"gtceu:iv_robot_arm"},"F":{"item":"gtceu:tungsten_steel_frame"}},"result":{"item":"gtceu:assembly_line_unit","count":2}}

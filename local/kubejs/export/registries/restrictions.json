@@ -1,0 +1,11 @@
+{
+	"twilightforest:fire_swamp": "twilightforest.util.Restriction",
+	"twilightforest:highlands": "twilightforest.util.Restriction",
+	"twilightforest:snowy_forest": "twilightforest.util.Restriction",
+	"twilightforest:dark_forest": "twilightforest.util.Restriction",
+	"twilightforest:swamp": "twilightforest.util.Restriction",
+	"twilightforest:thornlands": "twilightforest.util.Restriction",
+	"twilightforest:dark_forest_center": "twilightforest.util.Restriction",
+	"twilightforest:glacier": "twilightforest.util.Restriction",
+	"twilightforest:final_plateau": "twilightforest.util.Restriction"
+}

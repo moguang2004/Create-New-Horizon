@@ -1,0 +1,1 @@
+{"type":"minecraft:blasting","ingredient":{"type":"forge:intersection","children":[{"tag":"forge:ores/soapstone"},{"tag":"forge:ores_in_ground/endstone"}]},"result":{"item":"gtceu:soapstone_dust","count":6},"experience":1.0,"cookingtime":100}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["RCR","CQC","GSG"],"key":{"R":{"tag":"forge:rings/iron"},"C":{"tag":"minecraft:stone_crafting_materials"},"Q":{"tag":"forge:plates/certus_quartz"},"G":{"tag":"forge:small_gears/iron"},"S":{"tag":"forge:rods/red_alloy"}},"result":{"item":"minecraft:observer"}}

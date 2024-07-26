@@ -1,0 +1,322 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "twilightforest:chests/aurora_cache",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 4.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "twilightforest:chests/useless"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:stick"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:arrow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:ice"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:packed_ice"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:ironwood_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 9.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:maze_wafer"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:charm_of_keeping_1"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:ironwood_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:firefly"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:aurora_block"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:arctic_fur"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:arctic_fur"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"name": "twilightforest:ice_bow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"name": "twilightforest:ender_bow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"name": "twilightforest:ice_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sharpness": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:power": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:punch": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:unbreaking": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"twilightforest:chill_aura"
+							]
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:infinity": 1.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:enchanted_book"
+				}
+			]
+		}
+	]
+}

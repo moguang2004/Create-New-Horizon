@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["   "," H "," S "],"key":{"S":{"item":"create:shaft"},"H":{"item":"gtceu:ev_machine_hull"}},"result":{"item":"gtceu:ev_kinetic_output_box"}}

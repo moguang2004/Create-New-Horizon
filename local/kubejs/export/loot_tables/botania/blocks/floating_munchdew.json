@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "botania:floating_munchdew"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:copy_nbt",
+					"source": "block_entity",
+					"ops": [
+						{
+							"source": "cooldown",
+							"target": "BlockEntityTag.cooldown",
+							"op": "replace"
+						}
+					]
+				}
+			]
+		}
+	]
+}

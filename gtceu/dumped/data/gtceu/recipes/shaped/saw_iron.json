@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PPS","fhS"],"key":{"P":{"tag":"forge:plates/iron"},"S":{"item":"minecraft:stick"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:iron_saw","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":255},"GT.Behaviours":{"HarvestIce":1},"HideFlags":2}}}

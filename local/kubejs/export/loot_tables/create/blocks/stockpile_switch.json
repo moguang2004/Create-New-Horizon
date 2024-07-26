@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "create:blocks/stockpile_switch",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "create:stockpile_switch"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

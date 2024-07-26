@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "artifacts:inject/chests/ruined_portal",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:night_vision_goggles"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:thorn_pendant"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:fire_gauntlet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:power_glove"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:universal_attractor"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:obsidian_skull"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:lucky_scarf"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "artifacts:configurable_random_chance",
+					"default_probability": 0.15
+				}
+			]
+		}
+	]
+}

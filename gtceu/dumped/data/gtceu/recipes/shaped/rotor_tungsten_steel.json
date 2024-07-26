@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ChC","SRf","CdC"],"key":{"C":{"tag":"forge:plates/tungsten_steel"},"S":{"tag":"forge:screws/tungsten_steel"},"R":{"tag":"forge:rings/tungsten_steel"},"d":{"tag":"forge:tools/screwdrivers"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:tungsten_steel_rotor"}}

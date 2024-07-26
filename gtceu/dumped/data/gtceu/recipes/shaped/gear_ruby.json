@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["RPR","PwP","RPR"],"key":{"P":{"tag":"forge:plates/ruby"},"R":{"tag":"forge:rods/ruby"},"w":{"tag":"forge:tools/wrenches"}},"result":{"item":"thermal:ruby_gear"}}

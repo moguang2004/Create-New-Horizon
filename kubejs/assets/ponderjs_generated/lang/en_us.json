@@ -1,0 +1,13 @@
+{
+  "kubejs.ponder.ritual_diviner.header": "How to use ritual diviner",
+  "kubejs.ponder.ritual_diviner.text_1": "First, you need a master ritual stone.",
+  "kubejs.ponder.rune_ritual.header": "How to finish the rune ritual",
+  "kubejs.ponder.rune_ritual.text_1": "First, place the central rune holder",
+  "kubejs.ponder.rune_ritual.text_2": "Then place other rune holder at the position you see in the jei",
+  "kubejs.ponder.rune_ritual.text_3": "Put the right item on the right position",
+  "kubejs.ponder.rune_ritual.text_4": "Then drop the catalysm of the ritual in the area",
+  "kubejs.ponder.rune_ritual.text_5": "Also, don\u0027t forget to prepare a wandering trader here for sacrifice",
+  "kubejs.ponder.rune_ritual.text_6": "Finally, make sure you have enough mana in your mana ring and just right click the central rune holder",
+  "kubejs.ponder.rune_ritual.text_7": "If you find that all items on the ground have been cleared, it means the ritual has started successfully.",
+  "kubejs.ponder.test.header": "test"
+}

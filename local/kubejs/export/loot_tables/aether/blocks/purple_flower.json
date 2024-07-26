@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "aether:blocks/purple_flower",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "aether:purple_flower"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

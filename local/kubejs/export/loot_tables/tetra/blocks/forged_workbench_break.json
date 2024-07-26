@@ -1,0 +1,40 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "forged/crate_break_content",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 10.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:apply_bonus",
+							"enchantment": "minecraft:fortune",
+							"formula": "minecraft:uniform_bonus_count",
+							"parameters": {
+								"bonusMultiplier": 1
+							}
+						}
+					],
+					"name": "tetra:metal_scrap"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_block"
+				}
+			]
+		}
+	]
+}

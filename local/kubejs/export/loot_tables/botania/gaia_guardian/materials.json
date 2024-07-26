@@ -1,0 +1,88 @@
+{
+	"pools": [
+		{
+			"name": "manasteel",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 16.0,
+								"max": 27.0
+							},
+							"add": false
+						}
+					],
+					"name": "botania:manasteel_ingot"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.9
+				}
+			]
+		},
+		{
+			"name": "mana_pearl",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 13.0
+							},
+							"add": false
+						}
+					],
+					"name": "botania:mana_pearl"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.7
+				}
+			]
+		},
+		{
+			"name": "mana_diamond",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "botania:mana_diamond"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.5
+				}
+			]
+		}
+	]
+}

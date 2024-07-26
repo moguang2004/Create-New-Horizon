@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "tfmg:blocks/cyan_concrete",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "tfmg:cyan_concrete"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "tfmg:blocks/aluminum_block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "tfmg:aluminum_block"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

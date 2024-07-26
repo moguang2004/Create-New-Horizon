@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"conditions": [
+						{
+							"condition": "minecraft:block_state_property",
+							"block": "alexscaves:curly_fern",
+							"properties": {
+								"half": "lower"
+							}
+						}
+					],
+					"name": "alexscaves:curly_fern"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

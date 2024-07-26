@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EBE"],"key":{"A":{"tag":"forge:rods/americium"},"B":{"tag":"gtceu:circuits/uv"},"C":{"item":"gtceu:zpm_field_generator"},"D":{"item":"gtceu:zpm_machine_hull"},"E":{"item":"gtceu:naquadah_quadruple_cable"}},"result":{"item":"gtnn:zpm_naquadah_reactor"}}

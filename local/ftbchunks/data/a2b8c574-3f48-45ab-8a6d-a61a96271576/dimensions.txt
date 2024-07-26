@@ -1,0 +1,6 @@
+minecraft:overworld
+minecraft:the_nether
+bloodmagic:dungeon
+aether:the_aether
+gcyr:luna
+gcyr:mars

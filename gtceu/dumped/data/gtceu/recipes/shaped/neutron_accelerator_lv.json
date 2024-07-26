@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABC","DEF","ABC"],"key":{"A":{"item":"gtceu:tin_single_cable"},"B":{"tag":"forge:double_plates/lead"},"C":{"item":"gtceu:lv_electric_motor"},"D":{"tag":"forge:plates/rubber"},"E":{"item":"gtceu:lv_machine_hull"},"F":{"item":"gtnn:inverter"}},"result":{"item":"gtnn:lv_neutron_accelerator"}}

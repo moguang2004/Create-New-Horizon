@@ -1,0 +1,1 @@
+{"type":"gtceu:macerator","duration":15,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:cyan_glass_lens"}},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{"item":[{"content":{"type":"gtceu:sized","count":3,"ingredient":{"item":"gtceu:small_glass_dust"}},"chance":1.0,"tierChanceBoost":0.0}]},"tickInputs":{},"tickOutputs":{}}

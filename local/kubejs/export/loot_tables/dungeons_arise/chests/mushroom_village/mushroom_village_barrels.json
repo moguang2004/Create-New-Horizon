@@ -1,0 +1,345 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 12.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:levitation",
+									"duration": 240.0
+								}
+							]
+						}
+					],
+					"name": "minecraft:suspicious_stew"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 15.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:chainmail_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.4
+								}
+							],
+							"levels": 5.0,
+							"treasure": false
+						}
+					],
+					"name": "minecraft:diamond_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 16.0
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:iron_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ore"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionEffects:[{Amplifier:0b,Duration:200,Id:9b},{Amplifier:3b,Duration:80,Id:10b}],display:{Name:'{\"text\":\"Fine Wine\"}'}}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:tag",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 12.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:fishes",
+					"expand": true
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_fruit"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 80,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:milk_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wet_sponge"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"name": "minecraft:golden_carrot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 50,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:mushroom_stew"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:brown_mushroom"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:red_mushroom"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 150,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 16.0,
+								"max": 32.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:honeycomb"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 100,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:honey_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 200,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:potato"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 200,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 16.0,
+								"max": 48.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:baked_potato"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 250,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 14.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bread"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_fisher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_butcher"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,235 @@
+{
+	"pools": [
+		{
+			"name": "life_essence",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 10.0,
+							"add": false
+						},
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "botania:true_guardian_killer"
+								}
+							],
+							"count": 16.0,
+							"add": false
+						}
+					],
+					"name": "botania:life_essence"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				}
+			]
+		},
+		{
+			"name": "black_lotuses",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "botania:gaia_guardian/lotuses"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				},
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.5
+				}
+			]
+		},
+		{
+			"name": "ancient_wills",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "botania:ancient_will_ahrim"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "botania:ancient_will_dharok"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "botania:ancient_will_guthan"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "botania:ancient_will_torag"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "botania:ancient_will_verac"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "botania:ancient_will_karil"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				}
+			]
+		},
+		{
+			"name": "overgrowth_seeds",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "botania:overgrowth_seed"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				},
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.25
+				}
+			]
+		},
+		{
+			"name": "materials",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "botania:gaia_guardian/materials"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				}
+			]
+		},
+		{
+			"name": "runes",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 6.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "botania:gaia_guardian/runes"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				}
+			]
+		},
+		{
+			"name": "pinkinator",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "botania:pinkinator"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				},
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.2
+				}
+			]
+		},
+		{
+			"name": "music_discs",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 14,
+					"name": "botania:record_gaia_2"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:music_disc_13"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:music_disc_wait"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				},
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.44
+				}
+			]
+		},
+		{
+			"name": "relics",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "botania:bind_uuid"
+						}
+					],
+					"name": "botania:dice"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "botania:killed_by_player"
+				},
+				{
+					"condition": "botania:enable_relics"
+				}
+			]
+		}
+	]
+}

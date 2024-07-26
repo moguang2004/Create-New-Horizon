@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PPP","PNP","xEd"],"key":{"P":{"item":"gtceu:carbon_fiber_plate"},"N":{"item":"gtceu:nightvision_goggles"},"E":{"item":"gtceu:energy_crystal"},"x":{"tag":"forge:tools/wire_cutters"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"gtceu:nanomuscle_helmet"}}

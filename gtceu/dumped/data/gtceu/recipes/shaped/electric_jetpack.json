@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["xCd","TBT","I I"],"key":{"C":{"tag":"gtceu:circuits/mv"},"T":{"item":"gtceu:power_thruster"},"B":{"item":"gtceu:mv_lithium_battery"},"I":{"item":"gtceu:annealed_copper_double_wire"},"x":{"tag":"forge:tools/wire_cutters"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"gtceu:electric_jetpack"}}

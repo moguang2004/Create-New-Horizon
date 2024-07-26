@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PSP","WMW","PPP"],"key":{"M":{"item":"gtceu:lp_steam_extractor"},"P":{"item":"gtceu:tin_alloy_small_fluid_pipe"},"S":{"tag":"forge:plates/steel"},"W":{"tag":"forge:plates/wrought_iron"}},"result":{"item":"gtceu:hp_steam_extractor"}}

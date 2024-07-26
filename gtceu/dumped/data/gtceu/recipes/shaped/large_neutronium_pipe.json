@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["XXX","w h","XXX"],"key":{"X":{"tag":"forge:plates/neutronium"},"w":{"tag":"forge:tools/wrenches"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:neutronium_large_fluid_pipe"}}

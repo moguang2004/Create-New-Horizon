@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PPP","SPS","fPd"],"key":{"P":{"tag":"forge:double_plates/magnalium"},"S":{"tag":"forge:screws/magnalium"},"d":{"tag":"forge:tools/screwdrivers"},"f":{"tag":"forge:tools/files"}},"result":{"item":"gtceu:magnalium_turbine_blade"}}

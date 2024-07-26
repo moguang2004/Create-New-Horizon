@@ -1,0 +1,1 @@
+{"type":"minecraft:smelting","ingredient":{"type":"forge:intersection","children":[{"tag":"forge:ores/chromite"},{"tag":"forge:ores_in_ground/deepslate"}]},"result":{"item":"gtceu:chromite_dust"},"experience":0.7,"cookingtime":200}

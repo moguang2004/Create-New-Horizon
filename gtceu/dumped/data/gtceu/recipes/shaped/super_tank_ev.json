@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CGC","PHP","CFC"],"key":{"C":{"tag":"gtceu:circuits/ev"},"P":{"tag":"forge:plates/titanium"},"F":{"item":"gtceu:ev_electric_pump"},"H":{"item":"gtceu:ev_hermetic_casing"},"G":{"item":"gtceu:mv_field_generator"}},"result":{"item":"gtceu:ev_super_tank"}}

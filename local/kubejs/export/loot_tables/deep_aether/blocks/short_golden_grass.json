@@ -1,0 +1,109 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "deep_aether:blocks/short_golden_grass",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"items": [
+											"minecraft:shears"
+										]
+									}
+								}
+							],
+							"name": "deep_aether:short_golden_grass"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.125
+								}
+							],
+							"functions": [
+								{
+									"function": "minecraft:apply_bonus",
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:uniform_bonus_count",
+									"parameters": {
+										"bonusMultiplier": 2
+									}
+								},
+								{
+									"function": "minecraft:explosion_decay"
+								}
+							],
+							"name": "minecraft:wheat_seeds"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "deep_aether:golden_grass_seeds"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.1
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:apply_bonus",
+					"enchantment": "minecraft:fortune",
+					"formula": "minecraft:uniform_bonus_count",
+					"parameters": {
+						"bonusMultiplier": 2
+					}
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "aether:ambrosium_shard"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.01
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:apply_bonus",
+					"enchantment": "minecraft:fortune",
+					"formula": "minecraft:uniform_bonus_count",
+					"parameters": {
+						"bonusMultiplier": 2
+					}
+				}
+			]
+		}
+	]
+}

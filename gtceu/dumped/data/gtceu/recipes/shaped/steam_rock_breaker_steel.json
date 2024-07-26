@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WSW","PMP","WWW"],"key":{"M":{"item":"gtceu:lp_steam_rock_crusher"},"W":{"tag":"forge:plates/wrought_iron"},"S":{"tag":"forge:plates/steel"},"P":{"item":"gtceu:tin_alloy_small_fluid_pipe"}},"result":{"item":"gtceu:hp_steam_rock_crusher"}}

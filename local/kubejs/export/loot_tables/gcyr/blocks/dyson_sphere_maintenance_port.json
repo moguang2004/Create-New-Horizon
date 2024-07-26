@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "gcyr:blocks/dyson_sphere_maintenance_port",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "gcyr:dyson_sphere_maintenance_port"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

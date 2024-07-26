@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["hDS","DSD","SDf"],"key":{"S":{"tag":"forge:rods/tungsten_steel"},"D":{"tag":"forge:dyes/blue"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:tungsten_steel_crowbar","nbt":{"Damage":0.0}}}

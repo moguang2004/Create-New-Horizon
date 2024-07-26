@@ -1,0 +1,177 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "aether:chests/dungeon/gold/gold_dungeon_reward",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "aether:chests/dungeon/gold/gold_dungeon_treasure"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 5.0,
+				"max": 8.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"name": "aether:iron_bubble"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"name": "aether:vampire_blade"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"name": "aether:pig_slayer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 2,
+					"name": "aether:chests/dungeon/gold/gold_dungeon_treasure"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aether:life_shard"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "aether:gravitite_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "aether:gravitite_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "aether:gravitite_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "aether:gravitite_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "aether:gravitite_gloves"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "aether:gravitite_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "aether:gravitite_axe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aether:enchanted_gravitite"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:chainmail_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:chainmail_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:chainmail_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:chainmail_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:chainmail_gloves"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "aether:ice_pendant"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "aether:ice_ring"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 4.0,
+				"max": 20.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "aether:golden_gummy_swet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "aether:healing_stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "aether:enchanted_berry"
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 0.0,
+				"max": 4.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "aether:icestone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:obsidian"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aether:aerogel"
+				}
+			]
+		}
+	]
+}

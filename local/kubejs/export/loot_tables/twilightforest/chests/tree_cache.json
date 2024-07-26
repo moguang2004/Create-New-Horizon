@@ -1,0 +1,285 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "twilightforest:chests/tree_cache",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 4.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 25,
+					"name": "twilightforest:chests/useless"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:poisonous_potato"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:wheat"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:potato"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:carrot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:melon_slice"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:melon_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"name": "minecraft:water_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"name": "minecraft:milk_bucket"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:twilight_oak_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:canopy_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:mangrove_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:darkwood_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "twilightforest:firefly"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:pumpkin_pie"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"name": "twilightforest:charm_of_keeping_1"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 75,
+					"name": "twilightforest:charm_of_life_1"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"name": "twilightforest:hollow_oak_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"name": "twilightforest:time_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"name": "twilightforest:transformation_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"name": "twilightforest:mining_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"name": "twilightforest:sorting_sapling"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"name": "twilightforest:music_disc_superstitious"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "tfmg:blocks/pumpjack_base",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "tfmg:pumpjack_base"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

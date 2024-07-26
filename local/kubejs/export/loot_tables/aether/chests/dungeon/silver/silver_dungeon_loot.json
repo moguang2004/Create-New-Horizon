@@ -1,0 +1,377 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "aether:chests/dungeon/silver/silver_dungeon_loot",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 1.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:golden_gummy_swet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "aether:zanite_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "aether:golden_dart_shooter"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "aether:enchanted_dart_shooter"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "aether:poison_dart_shooter"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "aether:white_moa_egg"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:zanite_pickaxe"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:zanite_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:name_tag"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:shield"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2.0,
+				"max": 6.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:zanite_gemstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "aether:blue_moa_egg"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:golden_amber"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aether:skyroot_remedy_bucket"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 4.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:golden_dart"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:enchanted_dart"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 5.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:poison_dart"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:golden_pendant"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:iron_pendant"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:zanite_pendant"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:zanite_ring"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:aechor_petal"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:blue_gummy_swet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:healing_stone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:enchanted_berry"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 3.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:ambrosium_shard"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:ambrosium_torch"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:flint"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:feather"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:string"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:arrow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:golden_ring"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:pillar"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:pillar_top"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aether:angelic_stone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "aether:light_angelic_stone"
+				}
+			]
+		}
+	]
+}

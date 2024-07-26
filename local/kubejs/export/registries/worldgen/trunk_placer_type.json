@@ -1,0 +1,19 @@
+{
+	"gtceu:rubber": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"aether:golden_oak_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"deep_aether:yagroot_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:bending_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:fancy_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"deep_aether:sunroot_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"twilightforest:trunk_mover_upper": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:mega_jungle_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:forking_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:straight_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"twilightforest:branching_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:cherry_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:dark_oak_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:upwards_branching_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"aether:crystal_tree_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"deep_aether:twin_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType",
+	"minecraft:giant_trunk_placer": "net.minecraft.world.level.levelgen.feature.trunkplacers.TrunkPlacerType"
+}

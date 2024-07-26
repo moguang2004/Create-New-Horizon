@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PCP","FHF","PCP"],"key":{"H":{"item":"gtceu:uiv_machine_hull"},"P":{"item":"gtceu:uiv_electric_pump"},"F":{"item":"gtceu:fluid_filter"},"C":{"tag":"gtceu:circuits/uiv"}},"result":{"item":"gcyr:uiv_oxygen_spreader"}}

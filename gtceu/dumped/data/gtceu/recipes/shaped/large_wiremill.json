@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PZP","SWS","MKM"],"key":{"Z":{"tag":"gtceu:circuits/iv"},"W":{"item":"gtceu:iv_wiremill"},"P":{"tag":"forge:plates/hsla_steel"},"S":{"tag":"forge:springs/hsla_steel"},"M":{"item":"gtceu:iv_electric_motor"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_wiremill"}}

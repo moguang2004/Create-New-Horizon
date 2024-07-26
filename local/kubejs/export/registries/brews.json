@@ -1,0 +1,23 @@
+{
+	"botania:fallback": "vazkii.botania.api.brew.Brew",
+	"botania:speed": "vazkii.botania.api.brew.Brew",
+	"botania:strength": "vazkii.botania.api.brew.Brew",
+	"botania:haste": "vazkii.botania.api.brew.Brew",
+	"botania:healing": "vazkii.botania.api.brew.Brew",
+	"botania:jump_boost": "vazkii.botania.api.brew.Brew",
+	"botania:regen": "vazkii.botania.api.brew.Brew",
+	"botania:regen_weak": "vazkii.botania.api.brew.Brew",
+	"botania:resistance": "vazkii.botania.api.brew.Brew",
+	"botania:fire_resistance": "vazkii.botania.api.brew.Brew",
+	"botania:water_breathing": "vazkii.botania.api.brew.Brew",
+	"botania:invisibility": "vazkii.botania.api.brew.Brew",
+	"botania:night_vision": "vazkii.botania.api.brew.Brew",
+	"botania:absorption": "vazkii.botania.api.brew.Brew",
+	"botania:overload": "vazkii.botania.api.brew.Brew",
+	"botania:soul_cross": "vazkii.botania.api.brew.Brew",
+	"botania:feather_feet": "vazkii.botania.api.brew.Brew",
+	"botania:emptiness": "vazkii.botania.api.brew.Brew",
+	"botania:bloodthirst": "vazkii.botania.api.brew.Brew",
+	"botania:allure": "vazkii.botania.api.brew.Brew",
+	"botania:clear": "vazkii.botania.api.brew.Brew"
+}

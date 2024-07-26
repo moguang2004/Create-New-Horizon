@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PMW","CHC","GGG"],"key":{"P":{"item":"gtceu:lv_electric_piston"},"M":{"item":"gtceu:lv_electric_motor"},"W":{"tag":"forge:gems/diamond"},"C":{"item":"gtceu:tin_single_cable"},"H":{"item":"gtceu:lv_machine_hull"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:lv_rock_crusher"}}

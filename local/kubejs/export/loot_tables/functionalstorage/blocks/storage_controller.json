@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "functionalstorage:blocks/storage_controller",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "functionalstorage:storage_controller"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

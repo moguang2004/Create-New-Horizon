@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "enderio:blocks/fused_quartz_dm_green",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "enderio:fused_quartz_dm_green"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

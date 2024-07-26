@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["IGI","IMI","CPC"],"key":{"M":{"item":"gtceu:zpm_machine_hull"},"P":{"item":"gtceu:zpm_electric_pump"},"C":{"tag":"gtceu:circuits/zpm"},"I":{"tag":"forge:plates/naquadah_alloy"},"G":{"item":"gtceu:fusion_glass"}},"result":{"item":"gtceu:zpm_autoclave"}}

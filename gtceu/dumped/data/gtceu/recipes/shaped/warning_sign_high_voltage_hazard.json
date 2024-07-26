@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["B  "," M "," Y "],"key":{"M":{"item":"gtceu:solid_machine_casing"},"Y":{"tag":"forge:dyes/yellow"},"B":{"tag":"forge:dyes/black"}},"result":{"item":"gtceu:high_voltage_hazard_sign_block"}}

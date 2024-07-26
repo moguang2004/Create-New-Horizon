@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PCP","FHF","PCP"],"key":{"H":{"item":"gtceu:luv_machine_hull"},"P":{"tag":"forge:frames/stainless_steel"},"C":{"tag":"gtceu:circuits/luv"},"F":{"item":"gtceu:plascrete"}},"result":{"item":"gcyr:space_station_packager"}}

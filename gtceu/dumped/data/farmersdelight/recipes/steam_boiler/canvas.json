@@ -1,0 +1,1 @@
+{"type":"gtceu:steam_boiler","duration":4800,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"farmersdelight:canvas"}},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

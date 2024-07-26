@@ -1,0 +1,55 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "minecraft:blocks/cobweb",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "forge:can_tool_perform_action",
+											"action": "shears_dig"
+										},
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"enchantments": [
+													{
+														"enchantment": "minecraft:silk_touch",
+														"levels": {
+															"min": 1
+														}
+													}
+												]
+											}
+										}
+									]
+								}
+							],
+							"name": "minecraft:cobweb"
+						},
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:survives_explosion"
+								}
+							],
+							"name": "minecraft:string"
+						}
+					]
+				}
+			]
+		}
+	]
+}

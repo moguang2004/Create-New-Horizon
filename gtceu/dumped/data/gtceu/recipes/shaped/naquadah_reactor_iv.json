@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EBE"],"key":{"A":{"tag":"forge:rods/plutonium_241"},"B":{"tag":"gtceu:circuits/luv"},"C":{"item":"gtceu:iv_field_generator"},"D":{"item":"gtceu:iv_machine_hull"},"E":{"item":"gtceu:tungsten_quadruple_cable"}},"result":{"item":"gtnn:iv_naquadah_reactor"}}

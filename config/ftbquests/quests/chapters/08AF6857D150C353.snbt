@@ -1,0 +1,236 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "08AF6857D150C353"
+	group: "203B37D7B3ACCD4B"
+	icon: "kubejs:steel_casing"
+	id: "08AF6857D150C353"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2534B56E45BA42B0"]
+			icon: "kubejs:steel_mechanism"
+			id: "7D76859D3E40A235"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1D632714EC01F7A6"
+				item: "kubejs:steel_mechanism"
+				type: "item"
+			}]
+			title: "钢铁构件"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D76859D3E40A235"]
+			id: "64C293C5E547D47D"
+			tasks: [{
+				id: "770486D8C25F1E31"
+				item: "createdieselgenerators:engine_piston"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"384AAEC5A353F60E"
+				"5029589F8908B0AA"
+			]
+			id: "2534B56E45BA42B0"
+			tasks: [{
+				id: "33BAE42A3FDE47CE"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0F0FD5A39ED435FF"
+				"2116B713C128D537"
+			]
+			id: "384AAEC5A353F60E"
+			tasks: [
+				{
+					id: "459FC0013109F9FF"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7C3E761F26FC14A2"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"0F0FD5A39ED435FF"
+				"2116B713C128D537"
+			]
+			id: "5029589F8908B0AA"
+			tasks: [{
+				id: "6D3AD494E78A5A1C"
+				item: "kubejs:high_quality_solid_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6272A1FC85024350"
+				"002CB5A52F6BAB96"
+			]
+			id: "2116B713C128D537"
+			subtitle: "装配线青春版？"
+			tasks: [{
+				id: "49A94CF1E8BE375E"
+				title: "序列组装"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["64C293C5E547D47D"]
+			id: "3672E16CD2C53B19"
+			tasks: [{
+				id: "0A4B118AE7FAA844"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71D83506BCD67EF2"]
+			id: "0DA7785CF55ABAAB"
+			tasks: [{
+				id: "6A94E9FE0C9AC1A0"
+				item: "createdieselgenerators:pumpjack_hole"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2534B56E45BA42B0"]
+			id: "71D83506BCD67EF2"
+			tasks: [{
+				id: "11FD7557A981B8FA"
+				item: "kubejs:steel_casing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DA7785CF55ABAAB"]
+			id: "6397FCC9081360A5"
+			tasks: [{
+				id: "184B4F030273516B"
+				item: "createdieselgenerators:crude_oil_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2534B56E45BA42B0"]
+			id: "2C6B53F9425ACB79"
+			tasks: [{
+				id: "1D13E54D6C41BBF7"
+				item: "createdieselgenerators:basin_lid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C6B53F9425ACB79"]
+			id: "26CA67F9962BFEF9"
+			tasks: [{
+				id: "359C90658F400A1E"
+				item: "createdieselgenerators:ethanol_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"26CA67F9962BFEF9"
+				"1FB06064EB732031"
+			]
+			id: "70277341C68A50DF"
+			tasks: [{
+				id: "4AF723FDA9081AF1"
+				item: "createdieselgenerators:biodiesel_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "1FB06064EB732031"
+			tasks: [{
+				id: "5E5E1EEEF4733DB0"
+				item: "createdieselgenerators:plant_oil_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6397FCC9081360A5"
+				"2D138FB6F66ED4D5"
+			]
+			id: "16DD157F1004DB40"
+			tasks: [
+				{
+					id: "3107781A0A95845C"
+					item: "createdieselgenerators:gasoline_bucket"
+					type: "item"
+				}
+				{
+					id: "50047310C8519047"
+					item: "createdieselgenerators:diesel_bucket"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "2D138FB6F66ED4D5"
+			tasks: [{
+				id: "0904C229D905D095"
+				item: "createdieselgenerators:distillation_controller"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3672E16CD2C53B19"]
+			id: "24A3BEAC1C62DFEC"
+			tasks: [{
+				id: "7BFAEFB1D5014A2B"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+	]
+	title: "钢铁时代"
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["XCX","XGX","wXh"],"key":{"X":{"tag":"forge:plates/iron"},"C":{"tag":"forge:chests/wooden"},"G":{"tag":"forge:small_gears/iron"},"w":{"tag":"forge:tools/wrenches"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:hopper"}}

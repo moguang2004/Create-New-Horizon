@@ -1,0 +1,25 @@
+[14:19:06] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[14:19:06] [INIT] Loaded plugins:
+[14:19:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:19:06] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[14:19:06] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[14:19:06] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[14:19:06] [INIT] - argent_matter.gcyr.integration.kjs.GCyRKubeJSPlugin
+[14:19:06] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[14:19:06] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[14:19:06] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[14:19:06] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
+[14:19:06] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[14:19:06] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[14:19:06] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[14:19:06] [INFO] Loaded script client_scripts:src/ban.js in 0.0 s
+[14:19:06] [INFO] src/example.js#5: Hello, World! (Loaded client scripts)
+[14:19:06] [INFO] Loaded script client_scripts:src/example.js in 0.001 s
+[14:19:06] [INFO] Loaded script client_scripts:src/ponder/ritual_diviner.js in 0.0 s
+[14:19:06] [INFO] Loaded script client_scripts:src/ponder/rune_rituals.js in 0.002 s
+[14:19:06] [INFO] Loaded script client_scripts:src/ponder/test.js in 0.0 s
+[14:19:06] [INFO] Loaded script client_scripts:src/title.js in 0.001 s
+[14:19:06] [INFO] src/tooltip.js#1: Loaded Java class 'net.minecraft.world.item.ItemStack'
+[14:19:06] [INFO] Loaded script client_scripts:src/tooltip.js in 0.002 s
+[14:19:06] [INFO] Loaded 7/7 KubeJS client scripts in 0.045 s with 0 errors and 0 warnings
+[14:19:28] [INFO] Client resource reload complete!

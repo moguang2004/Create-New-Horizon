@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "twilightforest:blocks/cicada_jar",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:cicada_jar"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

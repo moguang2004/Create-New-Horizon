@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "twilightforest:blocks/moss_patch",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:moss_patch"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:match_tool",
+					"predicate": {
+						"tag": "forge:shears"
+					}
+				}
+			]
+		}
+	]
+}

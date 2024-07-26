@@ -1,0 +1,243 @@
+{
+	"pools": [
+		{
+			"name": "caveman_house",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 8.0,
+				"max": 11.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CaveBiome:\"alexscaves:primordial_caves\"}"
+						}
+					],
+					"name": "alexscaves:cave_tablet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:bowl"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:limestone_spear"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:charcoal"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:flint"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:amber"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 21,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:tough_hide"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:dinosaur_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:footprint_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:fiddlehead"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:dinosaur_nugget"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 10.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:pine_nuts"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 9,
+					"name": "alexscaves:tree_star"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "alexscaves:primitive_club"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "alexscaves:primordial_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "alexscaves:primordial_tunic"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "alexscaves:primordial_pants"
+				}
+			]
+		}
+	]
+}

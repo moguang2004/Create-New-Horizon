@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WVW","VGV","CVC"],"key":{"W":{"item":"gtceu:naquadah_wafer"},"G":{"item":"gtceu:tempered_glass"},"C":{"tag":"gtceu:circuits/luv"},"V":{"tag":"forge:fine_wires/gold"}},"result":{"item":"gcyr:photovoltaic_cell"}}

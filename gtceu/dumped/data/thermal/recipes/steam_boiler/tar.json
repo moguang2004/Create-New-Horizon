@@ -1,0 +1,1 @@
+{"type":"gtceu:steam_boiler","duration":9600,"inputs":{"item":[{"content":{"type":"gtceu:sized","fabric:type":"gtceu:sized","count":1,"ingredient":{"item":"thermal:tar"}},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["SFS","CXC","MKM"],"key":{"C":{"tag":"gtceu:circuits/iv"},"F":{"item":"gtceu:stainless_steel_huge_fluid_pipe"},"S":{"item":"gtceu:molybdenum_disilicide_spring"},"M":{"item":"gtceu:iv_electric_motor"},"X":{"item":"gtceu:iv_centrifuge"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_centrifuge"}}

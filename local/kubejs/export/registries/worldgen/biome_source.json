@@ -1,0 +1,8 @@
+{
+	"minecraft:fixed": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"twilightforest:landmarks": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:checkerboard": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"twilightforest:twilight_biomes": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:the_end": "com.mojang.serialization.MapCodec$MapCodecCodec",
+	"minecraft:multi_noise": "com.mojang.serialization.MapCodec$MapCodecCodec"
+}

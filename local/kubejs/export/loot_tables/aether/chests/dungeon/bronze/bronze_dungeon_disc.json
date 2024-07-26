@@ -1,0 +1,95 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "aether:chests/dungeon/bronze/bronze_dungeon_disc",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 1.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:music_disc_aether_tune"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_cat"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 3.0,
+				"max": 10.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:ambrosium_shard"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "aether:ambrosium_torch"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:flint"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:zanite_gemstone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "aether:skyroot_pickaxe"
+				}
+			]
+		}
+	]
+}

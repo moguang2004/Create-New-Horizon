@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PG","CM"],"key":{"P":{"item":"gtceu:niobium_titanium_nonuple_fluid_pipe"},"M":{"item":"gtceu:luv_machine_hull"},"G":{"item":"gtceu:laminated_glass"},"C":{"tag":"forge:chests/wooden"}},"result":{"item":"gregiceng:luv_input_buffer"}}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WTW","WMW","BCB"],"key":{"M":{"item":"gtceu:uv_machine_hull"},"W":{"item":"gtceu:yttrium_barium_cuprate_quadruple_wire"},"T":{"tag":"forge:chests/wooden"},"B":{"item":"gtceu:yttrium_barium_cuprate_single_cable"},"C":{"tag":"gtceu:circuits/uv"}},"result":{"item":"gtceu:uv_charger_4x"}}

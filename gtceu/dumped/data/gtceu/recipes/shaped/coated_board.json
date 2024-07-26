@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["RRR","PPP","RRR"],"key":{"R":{"item":"gtceu:sticky_resin"},"P":{"tag":"forge:plates/wood"}},"result":{"item":"gtceu:resin_circuit_board","count":3}}

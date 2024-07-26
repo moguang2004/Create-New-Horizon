@@ -1,0 +1,45 @@
+{
+    "type": "bloodmagic:meteor",
+    "explosion": 20.0,
+    "input": {
+      "item": "gtceu:ev_emitter"
+    },
+    "layers": [
+        {
+            "additionalWeight": 0,
+            "fill": {
+                "block": "minecraft:cobblestone"
+            },
+            "minWeight": 1000,
+            "radius": 7,
+            "weightMap": [
+                {
+                    "index": 0,
+                    "tag": "forge:ores/ilmenite",
+                    "weight": 100
+                },
+                {
+                    "index": 0,
+                    "tag": "forge:ores/aluminium",
+                    "weight": 100
+                },
+                {
+                    "index": 0,
+                    "tag": "forge:ores/bauxite",
+                    "weight": 100
+                },
+                {
+                    "index": 0,
+                    "tag": "forge:ores/cooperite",
+                    "weight": 75
+                },
+                {
+                    "index": 0,
+                    "tag": "forge:ores/tetrahedrite",
+                    "weight": 200
+                }
+            ]
+        }
+    ],
+    "syphon": 1100000
+  }

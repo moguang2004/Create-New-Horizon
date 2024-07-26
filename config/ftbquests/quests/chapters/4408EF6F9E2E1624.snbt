@@ -1,0 +1,440 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4408EF6F9E2E1624"
+	group: "203B37D7B3ACCD4B"
+	icon: "create:andesite_casing"
+	id: "4408EF6F9E2E1624"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2B44A37F4E562193"
+			subtitle: "第一块合金"
+			tasks: [{
+				id: "5913AB8C24EF3AC5"
+				item: "gtceu:andesitealloy_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B44A37F4E562193"]
+			id: "60D8E1B5B8777322"
+			subtitle: "你需要绝对天马行空的想象能力来使用它"
+			tasks: [{
+				id: "18EB3B6400D105EA"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"32D9754803137E82"
+				"60D8E1B5B8777322"
+			]
+			id: "6DB370790E927958"
+			tasks: [{
+				id: "38BEFB810C42496A"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6DB370790E927958"
+				"543DF835C9FE39CC"
+			]
+			id: "1E74645D87740E1B"
+			tasks: [{
+				id: "7F6521367459E191"
+				item: "gtceu:andesitealloy_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B44A37F4E562193"]
+			id: "32D9754803137E82"
+			tasks: [{
+				id: "67F5B1C0219B671A"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6DB370790E927958"]
+			id: "3A346EA0AC1F698B"
+			tasks: [{
+				id: "2E343DA4A00A10D1"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E74645D87740E1B"]
+			id: "5697D10ED6CE81C6"
+			tasks: [{
+				id: "7381565C9306947F"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E74645D87740E1B"]
+			id: "7E5199B7F22F5DED"
+			tasks: [{
+				id: "0652930EFB9D841B"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "543DF835C9FE39CC"
+			tasks: [{
+				id: "30F4E261C4972ACC"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6DB370790E927958"]
+			id: "2460426DE77EF0F4"
+			tasks: [{
+				id: "51212E2B1DE37DEA"
+				item: "gtceu:iron_plate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E74645D87740E1B"]
+			description: ["也许你找不到金锭是从哪来的，仔细查看一下JEI吧！"]
+			id: "5E5F4837CC1F047A"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "你的第一块没有电路的电路板"
+			tasks: [{
+				id: "222114435B2A13DE"
+				item: "kubejs:basic_mechanism"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2460426DE77EF0F4"
+				"5E5F4837CC1F047A"
+			]
+			id: "700219157D99E263"
+			tasks: [{
+				id: "10269625F0B773D1"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"700219157D99E263"
+				"62F103381F2E8BD8"
+			]
+			id: "556B0E2A00D2DD97"
+			tasks: [{
+				id: "1F8C7966F2F429EA"
+				item: "gtceu:bronze_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["700219157D99E263"]
+			id: "28D6FA3341B59AA4"
+			tasks: [{
+				id: "47EF7F892D186AEF"
+				item: "gtceu:potin_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"700219157D99E263"
+				"62F103381F2E8BD8"
+			]
+			id: "5046AB1CA278B5A9"
+			tasks: [{
+				id: "403B01F9A04638A1"
+				item: "gtceu:brass_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E5F4837CC1F047A"]
+			id: "788E6B0608C95DA7"
+			subtitle: "试着去开辟农场？"
+			tasks: [{
+				id: "1FF3F5EBC8412F3E"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["556B0E2A00D2DD97"]
+			id: "53B3B59D47455ACE"
+			tasks: [{
+				count: 16L
+				id: "7EDD66D9685F95D3"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53B3B59D47455ACE"]
+			id: "6168741C8B4F4F31"
+			subtitle: "流体时代！！！"
+			tasks: [{
+				id: "4EBB397405BF419A"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5046AB1CA278B5A9"]
+			id: "2B430B944944D2C1"
+			tasks: [{
+				count: 16L
+				id: "1CC18E3E3383CD44"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2B430B944944D2C1"]
+			id: "30BE9ED9BA8D5E8C"
+			subtitle: "黄铜时代！！！"
+			tasks: [{
+				id: "3AEA778B7075BF6B"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E5F4837CC1F047A"]
+			id: "5BB3CF765E9C93D4"
+			subtitle: "比研钵更好"
+			tasks: [{
+				id: "769D434A8C5E8C0E"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7857C9428A51E9BC"]
+			id: "62F103381F2E8BD8"
+			tasks: [{
+				id: "2699CBA777762F54"
+				item: "gtceu:copper_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "7857C9428A51E9BC"
+			subtitle: "早期磨粉必备"
+			tasks: [{
+				id: "65129358E3EFF5E9"
+				item: {
+					Count: 1
+					id: "gtceu:flint_mortar"
+					tag: {
+						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2460426DE77EF0F4"]
+			id: "25CADEFA5DCB0244"
+			subtitle: "没有杂酚油，你怎么推科技？"
+			tasks: [
+				{
+					id: "42C2FEA68A9BF411"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "5048DDF6099F06AA"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25CADEFA5DCB0244"]
+			id: "125F3CADBBD2441A"
+			tasks: [{
+				id: "63644489206A8ECA"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25CADEFA5DCB0244"]
+			id: "6FDDD78D3F1CD965"
+			tasks: [{
+				id: "4CB81B2B2117E68E"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25CADEFA5DCB0244"]
+			id: "2A633C681F979398"
+			tasks: [{
+				id: "29F469C28E82D4A2"
+				item: "gtceu:creosote_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2A633C681F979398"]
+			id: "7E591C0E7278D12F"
+			subtitle: "高级的木板"
+			tasks: [{
+				id: "4BBA257738FF1D31"
+				item: "gtceu:treated_wood_planks"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2460426DE77EF0F4"]
+			id: "03B30F262729DB33"
+			tasks: [{
+				id: "2DC908B8278B74CD"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03B30F262729DB33"]
+			id: "3235EC33AE70B9A0"
+			subtitle: "你的第一次剥削"
+			tasks: [{
+				id: "236137F11A4DC73E"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7E591C0E7278D12F"
+				"2460426DE77EF0F4"
+			]
+			id: "4ABB43D13EBB512D"
+			tasks: [{
+				id: "178BF7B8042CF8C5"
+				item: "gtceu:primitive_pump"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"700219157D99E263"
+				"5CC765087238C3A3"
+				"3988470BCD80AE5A"
+			]
+			id: "7C9B89066D34939E"
+			tasks: [{
+				id: "26406CDDCC53F157"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "5CC765087238C3A3"
+			subtitle: "来点下界（划掉）主世界特产"
+			tasks: [{
+				id: "1CEC62A509B7D392"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "3988470BCD80AE5A"
+			optional: true
+			subtitle: "更方便的制造玫瑰石英的手段"
+			tasks: [{
+				id: "0F10E5D58BA32FD1"
+				item: "biomesoplenty:rose_quartz_chunk"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+	]
+	title: "安山时代"
+}

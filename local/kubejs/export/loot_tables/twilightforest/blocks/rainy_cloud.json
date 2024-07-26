@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "twilightforest:blocks/rainy_cloud",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "twilightforest:rainy_cloud"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

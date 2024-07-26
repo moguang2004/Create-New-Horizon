@@ -1,0 +1,11 @@
+{
+	"minecraft:broken": "net.minecraft.stats.StatType",
+	"minecraft:crafted": "net.minecraft.stats.StatType",
+	"minecraft:custom": "net.minecraft.stats.StatType",
+	"minecraft:dropped": "net.minecraft.stats.StatType",
+	"minecraft:killed": "net.minecraft.stats.StatType",
+	"minecraft:killed_by": "net.minecraft.stats.StatType",
+	"minecraft:mined": "net.minecraft.stats.StatType",
+	"minecraft:picked_up": "net.minecraft.stats.StatType",
+	"minecraft:used": "net.minecraft.stats.StatType"
+}

@@ -1,0 +1,238 @@
+{
+	"pools": [
+		{
+			"name": "abyssal_ruins",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 8.0,
+				"max": 10.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CaveBiome:\"alexscaves:abyssal_chasm\"}"
+						}
+					],
+					"name": "alexscaves:cave_tablet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 25,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 3.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:pearl"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:tripodfish"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:lanternfish"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:muck"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:marine_snow"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:hero_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:guardian_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "alexscaves:diving_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "alexscaves:diving_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "alexscaves:diving_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "alexscaves:diving_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "alexscaves:game_controller"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 6.0
+							},
+							"add": false
+						}
+					],
+					"name": "alexscaves:scrap_metal"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 35,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:copper_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 30.0,
+							"treasure": true
+						}
+					],
+					"name": "minecraft:book"
+				}
+			]
+		}
+	]
+}

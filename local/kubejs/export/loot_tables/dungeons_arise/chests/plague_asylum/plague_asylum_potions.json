@@ -1,0 +1,218 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 4.0,
+				"max": 6.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:7872158,CustomPotionEffects:[{Amplifier:4b,Duration:400,Id:31b}]}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:7872158,CustomPotionEffects:[{Amplifier:0b,Duration:400,Id:2b},{Amplifier:0b,Duration:400,Id:18b},{Amplifier:0b,Duration:400,Id:19b},{Amplifier:0b,Duration:400,Id:20b},{Amplifier:0b,Duration:400,Id:25b}]}"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:7872158,CustomPotionEffects:[{Amplifier:0b,Duration:1200,Id:3b},{Amplifier:0b,Duration:1200,Id:5b},{Amplifier:0b,Duration:1200,Id:8b},{Amplifier:0b,Duration:1200,Id:10b},{Amplifier:0b,Duration:1200,Id:11b},{Amplifier:0b,Duration:1200,Id:12b}]}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:7872158,CustomPotionEffects:[{Amplifier:2b,Duration:1,Id:7b},{Amplifier:2b,Duration:2400,Id:21b}]}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:7872158,CustomPotionEffects:[{Amplifier:1b,Duration:1200,Id:2b},{Amplifier:3b,Duration:4800,Id:3b}]}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:7872158,CustomPotionEffects:[{Amplifier:3b,Duration:400,Id:25b}]}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:lingering_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionEffects:[{Amplifier:2b,Duration:1200,Id:2b},{Amplifier:0b,Duration:1200,Id:5b},{Amplifier:5b,Duration:2400,Id:17b}],Potion:\"minecraft:strength\"}"
+						}
+					],
+					"name": "minecraft:potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomPotionColor:0,CustomPotionEffects:[{Amplifier:4b,Duration:800,Id:19b},{Amplifier:4b,Duration:200,Id:20b}]}"
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 2.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:splash_potion"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:strong_healing\"}"
+						}
+					],
+					"name": "minecraft:splash_potion"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:gold_ingot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 40,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:golden_carrot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0.0,
+								"max": 1.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:enchanted_golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:golden_apple"
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/nether_bridge"
+				}
+			]
+		}
+	]
+}

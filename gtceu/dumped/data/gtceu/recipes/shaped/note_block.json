@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PPP","BGB","PRP"],"key":{"P":{"tag":"forge:plates/wood"},"B":{"item":"minecraft:iron_bars"},"G":{"tag":"forge:gears/wood"},"R":{"tag":"forge:rods/red_alloy"}},"result":{"item":"minecraft:note_block"}}

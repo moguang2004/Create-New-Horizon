@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CWR","WMW","RWC"],"key":{"C":{"item":"gtceu:tungsten_double_cable"},"W":{"item":"gtceu:graphene_double_wire"},"R":{"tag":"forge:rods/tungsten_steel"},"M":{"tag":"forge:rods/magnetic_neodymium"}},"result":{"item":"gtceu:iv_electric_motor"}}

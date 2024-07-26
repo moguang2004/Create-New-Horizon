@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CGC","PHP","CUC"],"key":{"C":{"tag":"gtceu:circuits/uv"},"P":{"tag":"forge:dense_plates/darmstadtium"},"U":{"item":"gtceu:uv_electric_pump"},"G":{"item":"gtceu:luv_field_generator"},"H":{"item":"gtceu:uv_hermetic_casing"}},"result":{"item":"gtceu:uv_quantum_tank"}}

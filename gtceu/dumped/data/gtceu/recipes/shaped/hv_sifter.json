@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WFW","PMP","CFC"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"P":{"item":"gtceu:hv_electric_piston"},"F":{"item":"gtceu:item_filter"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"}},"result":{"item":"gtceu:hv_sifter"}}

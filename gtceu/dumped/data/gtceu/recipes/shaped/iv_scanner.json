@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CEC","WHW","CSC"],"key":{"C":{"tag":"gtceu:circuits/luv"},"E":{"item":"gtceu:iv_emitter"},"W":{"item":"gtceu:platinum_single_cable"},"H":{"item":"gtceu:iv_machine_hull"},"S":{"item":"gtceu:iv_sensor"}},"result":{"item":"gtceu:iv_scanner"}}

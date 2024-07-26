@@ -1,0 +1,4 @@
+{
+	"minecraft:storage": "net.minecraft.world.level.storage.loot.providers.nbt.LootNbtProviderType",
+	"minecraft:context": "net.minecraft.world.level.storage.loot.providers.nbt.LootNbtProviderType"
+}

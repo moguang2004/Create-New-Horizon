@@ -1,0 +1,117 @@
+{
+	"random_sequence": "artifacts:chests/campsite_barrel/crops",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 2.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:potato"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:carrot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:beetroot"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:wheat"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:melon_slice"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:pumpkin"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 12.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:apple"
+				}
+			]
+		}
+	]
+}

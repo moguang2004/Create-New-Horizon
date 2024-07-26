@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" V ","CHC"," P "],"key":{"C":{"item":"gtceu:copper_single_cable"},"P":{"item":"gtceu:ulpic_chip"},"V":{"item":"gtceu:mv_voltage_coil"},"H":{"item":"gtceu:mv_machine_hull"}},"result":{"item":"gtceu:mv_energy_input_hatch"}}

@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "681E3140690307AA"
+	group: ""
+	id: "681E3140690307AA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "44C7FE559ECFB2EB"
+			tasks: [{
+				id: "5CE79CE60BD5FC4D"
+				title: "欢迎"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5CE79CE60BD5FC4D"]
+			id: "7ECD6FD17CB0898D"
+			tasks: [{
+				count: 16L
+				id: "460024CDCF87CDBE"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "要致富，先撸树"
+			x: -7.0d
+			y: 2.5d
+		}
+	]
+	title: "原始人，启动！"
+}

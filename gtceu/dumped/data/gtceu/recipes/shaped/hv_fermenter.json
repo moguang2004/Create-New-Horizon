@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WPW","GMG","WCW"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"P":{"item":"gtceu:hv_electric_pump"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"},"G":{"item":"gtceu:tempered_glass"}},"result":{"item":"gtceu:hv_fermenter"}}

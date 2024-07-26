@@ -1,0 +1,1 @@
+{"type":"gcyr:oxygen_spreader","duration":100,"inputs":{"item":[{"content":{"type":"gtceu:circuit","configuration":2},"chance":0.0,"tierChanceBoost":0.0}],"fluid":[{"content":{"amount":2000,"value":[{"tag":"forge:air"}]},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

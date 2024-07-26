@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "deep_aether:blocks/cobbled_aseterite_slab",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "deep_aether:cobbled_aseterite_slab"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

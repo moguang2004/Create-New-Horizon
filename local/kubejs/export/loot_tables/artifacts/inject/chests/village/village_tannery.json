@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "artifacts:inject/chests/village/village_tannery",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "artifacts:umbrella"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "artifacts:whoopee_cushion"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:kitty_slippers"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:bunny_hoppers"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "artifacts:scarf_of_invisibility"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "artifacts:configurable_random_chance",
+					"default_probability": 0.2
+				}
+			]
+		}
+	]
+}

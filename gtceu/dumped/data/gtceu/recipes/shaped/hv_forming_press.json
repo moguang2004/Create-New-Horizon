@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WPW","CMC","WPW"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"P":{"item":"gtceu:hv_electric_piston"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"}},"result":{"item":"gtceu:hv_forming_press"}}

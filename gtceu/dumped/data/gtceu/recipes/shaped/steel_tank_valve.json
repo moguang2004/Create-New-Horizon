@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" R ","hCw"," O "],"key":{"O":{"tag":"forge:rotors/steel"},"R":{"tag":"forge:rings/steel"},"C":{"item":"gtceu:solid_machine_casing"},"w":{"tag":"forge:tools/wrenches"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:steel_tank_valve"}}

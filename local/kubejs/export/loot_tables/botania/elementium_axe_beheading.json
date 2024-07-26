@@ -1,0 +1,325 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wither_skeleton_skull"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"botania:elementium_axe"
+								]
+							}
+						}
+					},
+					"entity": "killer_player"
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"type": "minecraft:wither_skeleton"
+					},
+					"entity": "this"
+				},
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.1154,
+					"looting_multiplier": 0.0385
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skeleton_skull"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"botania:elementium_axe"
+								]
+							}
+						}
+					},
+					"entity": "killer_player"
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"type": "#minecraft:skeletons"
+					},
+					"entity": "this"
+				},
+				{
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:wither_skeleton"
+						},
+						"entity": "this"
+					}
+				},
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.1154,
+					"looting_multiplier": 0.0385
+				}
+			]
+		},
+		{
+			"name": "pool2",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:zombie_head"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"botania:elementium_axe"
+								]
+							}
+						}
+					},
+					"entity": "killer_player"
+				},
+				{
+					"condition": "minecraft:any_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:zombie"
+							},
+							"entity": "this"
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:zombie_villager"
+							},
+							"entity": "this"
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:husk"
+							},
+							"entity": "this"
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:drowned"
+							},
+							"entity": "this"
+						}
+					]
+				},
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.0769,
+					"looting_multiplier": 0.0769
+				}
+			]
+		},
+		{
+			"name": "pool3",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:piglin_head"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"botania:elementium_axe"
+								]
+							}
+						}
+					},
+					"entity": "killer_player"
+				},
+				{
+					"condition": "minecraft:any_of",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:piglin"
+							},
+							"entity": "this"
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"predicate": {
+								"type": "minecraft:piglin_brute"
+							},
+							"entity": "this"
+						}
+					]
+				},
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.0769,
+					"looting_multiplier": 0.0769
+				}
+			]
+		},
+		{
+			"name": "pool4",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:creeper_head"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"botania:elementium_axe"
+								]
+							}
+						}
+					},
+					"entity": "killer_player"
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"type": "minecraft:creeper"
+					},
+					"entity": "this"
+				},
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.0769,
+					"looting_multiplier": 0.0769
+				}
+			]
+		},
+		{
+			"name": "pool5",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"botania:elementium_axe"
+								]
+							}
+						}
+					},
+					"entity": "killer_player"
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"type": "minecraft:player"
+					},
+					"entity": "this"
+				},
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.0909,
+					"looting_multiplier": 0.0909
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:fill_player_head",
+					"entity": "this"
+				}
+			]
+		},
+		{
+			"name": "pool6",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "botania:gaia_head"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"botania:elementium_axe"
+								]
+							}
+						}
+					},
+					"entity": "killer_player"
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"predicate": {
+						"type": "botania:doppleganger"
+					},
+					"entity": "this"
+				},
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.0769,
+					"looting_multiplier": 0.0769
+				}
+			]
+		}
+	]
+}

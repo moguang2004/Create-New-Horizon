@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["BGB","BCB","BGB"],"key":{"B":{"item":"gtceu:firebrick"},"G":{"tag":"forge:dusts/gypsum"},"C":{"item":"gtceu:concrete_bucket"}},"result":{"item":"gtceu:firebricks"}}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["d","B"],"key":{"B":{"item":"gregiceng:zpm_input_buffer"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"gregiceng:zpm_output_buffer"}}

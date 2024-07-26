@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["III"," S "," S "],"key":{"I":{"tag":"forge:gems/flint"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:flint_pickaxe","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":63},"GT.Behaviours":{},"HideFlags":2}}}

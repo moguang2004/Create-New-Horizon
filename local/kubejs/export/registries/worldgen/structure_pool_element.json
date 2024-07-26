@@ -1,0 +1,8 @@
+{
+	"minecraft:list_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda$3807/0x0000000801c0d6f0",
+	"structure_gel:gel_single_pool_element": "com.legacy.structure_gel.core.registry.SGRegistry$JigsawDeserializers$$Lambda$20861/0x00000008037f3438",
+	"minecraft:legacy_single_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda$3807/0x0000000801c0d6f0",
+	"minecraft:feature_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda$3807/0x0000000801c0d6f0",
+	"minecraft:single_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda$3807/0x0000000801c0d6f0",
+	"minecraft:empty_pool_element": "net.minecraft.world.level.levelgen.structure.pools.StructurePoolElementType$$Lambda$3807/0x0000000801c0d6f0"
+}

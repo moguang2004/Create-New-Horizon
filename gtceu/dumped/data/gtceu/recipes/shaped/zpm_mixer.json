@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["GRG","GEG","CMC"],"key":{"M":{"item":"gtceu:zpm_machine_hull"},"E":{"item":"gtceu:zpm_electric_motor"},"R":{"tag":"forge:rotors/naquadah_alloy"},"C":{"tag":"gtceu:circuits/zpm"},"G":{"item":"gtceu:fusion_glass"}},"result":{"item":"gtceu:zpm_mixer"}}

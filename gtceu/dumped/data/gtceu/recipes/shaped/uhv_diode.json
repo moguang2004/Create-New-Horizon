@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CDC","DHD","PDP"],"key":{"H":{"item":"gtceu:uhv_machine_hull"},"D":{"item":"gtceu:advanced_smd_diode"},"P":{"tag":"forge:plates/neutronium"},"C":{"item":"gtceu:europium_quadruple_cable"}},"result":{"item":"gtceu:uhv_diode"}}

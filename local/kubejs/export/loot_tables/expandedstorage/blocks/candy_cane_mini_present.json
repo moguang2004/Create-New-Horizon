@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "expandedstorage:blocks/candy_cane_mini_present",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:copy_state",
+							"block": "expandedstorage:candy_cane_mini_present",
+							"properties": [
+								"sparrow"
+							]
+						}
+					],
+					"name": "expandedstorage:candy_cane_mini_present"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:smelting","ingredient":{"type":"forge:intersection","children":[{"tag":"forge:ores/scheelite"},{"tag":"forge:ores_in_ground/stone"}]},"result":{"item":"gtceu:scheelite_dust"},"experience":0.7,"cookingtime":200}

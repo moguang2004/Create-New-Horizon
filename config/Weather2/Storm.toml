@@ -1,0 +1,153 @@
+
+#General mod settings
+[general]
+	#-
+	#Range: > -2147483648
+	Storm_OddsTo1OfHighWindWaterSpout = 150
+	#-
+	Storm_FlyingBlocksHurt = true
+	#-
+	#Range: > -2147483648
+	Storm_MaxPerPlayerPerLayer = 20
+	#-
+	#Range: > -2147483648
+	Storm_Deadly_CollideDistance = 128
+	#-
+	#Range: > -2147483648
+	Storm_LightningStrikeBaseValueOddsTo1 = 200
+	#-
+	Storm_NoRainVisual = false
+	#-
+	#Range: > -2147483648
+	Storm_MaxRadius = 300
+	#-
+	#Range: > -2147483648
+	Storm_AllTypes_TickRateDelay = 60
+	#-
+	#Range: > -2147483648
+	Storm_Rain_WaterBuildUpRate = 10
+	#-
+	#Range: > -2147483648
+	Storm_Rain_WaterSpendRate = 3
+	#-
+	#Range: > -2147483648
+	Storm_Rain_WaterBuildUpOddsTo1FromSource = 15
+	#-
+	#Range: > -2147483648
+	Storm_Rain_WaterBuildUpOddsTo1FromNothing = 100
+	#-
+	#Range: > -2147483648
+	Storm_Rain_WaterBuildUpOddsTo1FromOvercastRaining = 30
+	#-
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	Storm_TemperatureAdjustRate = 0.1
+	#-
+	#Range: > -2147483648
+	Storm_HailPerTick = 10
+	#-
+	#Range: > -2147483648
+	Storm_OddsTo1OfOceanBasedStorm = 300
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_HighWind = 90
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_Hail = 80
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_F0_Tornado = 70
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_C0_Cyclone = 70
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_F1_Tornado = 50
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_C1_Cyclone = 50
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_F2_Tornado = 40
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_C2_Cyclone = 40
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_F3_Tornado = 30
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_C3_Cyclone = 30
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_F4_Tornado = 20
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_C4_Cyclone = 20
+	#-
+	#Range: > -2147483648
+	Storm_PercentChanceOf_F5_Tornado = 10
+	#Also known as full blown hurricane
+	#Range: > -2147483648
+	Storm_PercentChanceOf_C5_Cyclone = 10
+	#-
+	#Range: > -2147483648
+	Storm_ParticleSpawnDelay = 3
+	#-
+	#Range: > -2147483648
+	Player_Storm_Deadly_OddsTo1 = 30
+	#-
+	#Range: > -2147483648
+	Player_Storm_Deadly_TimeBetweenInTicks = 72000
+	#-
+	Server_Storm_Deadly_UseGlobalRate = true
+	#Used if Server_Storm_Deadly_UseGlobalRate is on, replaces use of Player_Storm_Deadly_OddsTo1
+	#Range: > -2147483648
+	Server_Storm_Deadly_OddsTo1 = 30
+	#Used if Server_Storm_Deadly_UseGlobalRate is on, replaces use of Player_Storm_Deadly_TimeBetweenInTicks
+	#Range: > -2147483648
+	Server_Storm_Deadly_TimeBetweenInTicks = 72000
+	#For areas without the right mix of hot and cold biomes
+	#Range: > -2147483648
+	Player_Storm_Deadly_OddsTo1_Land_Based = 1200
+	#For areas without the right mix of hot and cold biomes
+	#Range: > -2147483648
+	Player_Storm_Deadly_TimeBetweenInTicks_Land_Based = 240000
+	#Used if Server_Storm_Deadly_UseGlobalRate is on, for areas without the right mix of hot and cold biomes
+	#Range: > -2147483648
+	Server_Storm_Deadly_OddsTo1_Land_Based = 1200
+	#Used if Server_Storm_Deadly_UseGlobalRate is on, for areas without the right mix of hot and cold biomes
+	#Range: > -2147483648
+	Server_Storm_Deadly_TimeBetweenInTicks_Land_Based = 240000
+	#-
+	preventServerThunderstorms = true
+	#-
+	#Range: > -2147483648
+	Lightning_OddsTo1OfFire = 20
+	#-
+	#Range: > -2147483648
+	Lightning_lifetimeOfFire = 3
+	#-
+	#Range: > -2147483648
+	Lightning_DistanceToPlayerForEffects = 256
+	#-
+	Lightning_StartsFires = false
+	#-
+	#Range: > -2147483648
+	Storm_Deflector_RadiusOfStormRemoval = 150
+	#The minimum stage a storm has to be at to be removed, stages are: 0 = anything, 1 = thunder, 2 = high wind, 3 = hail, 4 = F0/C0, 5 = F1/C1, 6 = F2/C2, 7 = F3/C3, 8 = F4/C4, 9 = F5/C5
+	#Range: > -2147483648
+	Storm_Deflector_MinStageRemove = 1
+	#-
+	Storm_Deflector_RemoveRainstorms = false
+	#-
+	Storm_Deflector_RemoveSandstorms = true
+	#-
+	#Range: > -2147483648
+	Storm_Rain_Overcast_OddsTo1 = 50
+	#-
+	#Range: > -2147483648
+	Storm_Rain_OddsTo1 = 150
+	#How often in ticks, a rainstorm updates its list of entities under the rainstorm to extinguish. Extinguishes entities under rainclouds when globalOvercast is off. Set to 0 or less to disable
+	#Range: > -2147483648
+	Storm_Rain_TrackAndExtinguishEntitiesRate = 200
+

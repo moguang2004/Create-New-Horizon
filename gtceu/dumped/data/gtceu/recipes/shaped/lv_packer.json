@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["BCB","RMV","WCW"],"key":{"M":{"item":"gtceu:lv_machine_hull"},"R":{"item":"gtceu:lv_robot_arm"},"V":{"item":"gtceu:lv_conveyor_module"},"C":{"tag":"gtceu:circuits/lv"},"W":{"item":"gtceu:tin_single_cable"},"B":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:lv_packer"}}

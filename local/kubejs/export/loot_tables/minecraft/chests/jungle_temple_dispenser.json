@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "minecraft:chests/jungle_temple_dispenser",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 1.0,
+				"max": 2.0
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 30,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 7.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:arrow"
+				}
+			]
+		}
+	]
+}

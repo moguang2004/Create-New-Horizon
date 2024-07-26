@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "gtceu:blocks/steel_firebox_casing",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "gtceu:steel_firebox_casing"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

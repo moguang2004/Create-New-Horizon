@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PLP","CHC"],"key":{"P":{"tag":"forge:plates/wood"},"L":{"tag":"forge:plates/wrought_iron"},"C":{"item":"gtceu:red_alloy_single_cable"},"H":{"item":"gtceu:ulv_machine_casing"}},"result":{"item":"gtceu:ulv_machine_hull"}}

@@ -1,0 +1,66 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:silk_touch",
+												"levels": {
+													"min": 1
+												}
+											}
+										]
+									}
+								}
+							],
+							"name": "alexscaves:amber"
+						},
+						{
+							"type": "minecraft:alternatives",
+							"conditions": [
+								{
+									"condition": "minecraft:survives_explosion"
+								}
+							],
+							"children": [
+								{
+									"type": "minecraft:item",
+									"conditions": [
+										{
+											"condition": "minecraft:table_bonus",
+											"enchantment": "minecraft:fortune",
+											"chances": [
+												0.015,
+												0.025,
+												0.035,
+												0.05
+											]
+										}
+									],
+									"name": "alexscaves:amber_curiosity"
+								},
+								{
+									"type": "minecraft:item",
+									"name": "alexscaves:amber"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

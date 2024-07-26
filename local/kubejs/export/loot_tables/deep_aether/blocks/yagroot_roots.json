@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "deep_aether:blocks/yagroot_roots",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "deep_aether:yagroot_roots"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	],
+	"functions": [
+		{
+			"function": "aether:double_drops"
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["SrS","LCL","SdS"],"key":{"S":{"tag":"forge:bolts/wood"},"L":{"item":"minecraft:warped_slab"},"C":{"tag":"forge:springs/iron"},"r":{"tag":"forge:tools/mallets"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"minecraft:warped_pressure_plate","count":2}}

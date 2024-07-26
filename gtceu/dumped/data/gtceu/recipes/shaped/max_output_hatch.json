@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":[" M"," G"],"key":{"M":{"item":"gtceu:max_machine_hull"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:max_output_hatch"}}

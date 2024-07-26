@@ -1,0 +1,49 @@
+{
+	"random_sequence": "artifacts:chests/campsite_barrel/cobwebs",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 3.0,
+								"max": 8.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:cobweb"
+				}
+			]
+		},
+		{
+			"name": "pool1",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 6.0,
+								"max": 16.0
+							},
+							"add": false
+						}
+					],
+					"name": "minecraft:string"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 35,
+					"name": "botania:black_lotus"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "botania:overgrowth_seed"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 60
+				}
+			]
+		}
+	]
+}

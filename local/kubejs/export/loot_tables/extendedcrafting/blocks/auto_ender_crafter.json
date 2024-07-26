@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"name": "extendedcrafting:auto_ender_crafter",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "extendedcrafting:auto_ender_crafter"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"functions": [
+				{
+					"function": "extendedcrafting:save_recipe_storage"
+				}
+			]
+		}
+	]
+}

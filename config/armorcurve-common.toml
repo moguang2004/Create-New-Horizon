@@ -1,0 +1,11 @@
+#configure how much armor does against damage. Valid values are 'armor', 'damage', and 'toughness'. Set to "damage" to not modify damage at this step.
+"first damage reduction formula" = "damage"
+#configure sudden death protection for armor toughness. Valid values are 'armor', 'damage', and 'toughness'. Set to "damage" to not modify damage at this step.
+"second damage reduction formula" = "damage*(8/(8+armor))+((MAX(damage*(8/(8+armor)),damage-0.4*armor)-damage*(8/(8+armor)))*(MAX(damage*(8/(8+armor)),damage-0.4*armor))/((MAX(damage*(8/(8+armor)),damage-0.4*armor))+10*toughness))"
+#configure the efficiency of protection enchantments. Valid values are 'enchant' and 'damage'. Set to "damage" to not modify damage at this step.
+"enchantment damage reduction formula" = "damage*10/(10+enchant)"
+#configure how armor degrades. Valid values are 'remaining' and 'max'. Set to 1 to disable.
+"armor degradation formula" = "1.25*remaining/(remaining+0.25*MAX(max,1))"
+#Set to false to only cause the armor value to degrade. This will leave extra attributes such as toughness untouched. If using Project: War Dance, stealth will not degrade regardless of damage.
+"universal armor degradation" = true
+

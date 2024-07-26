@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["BPB","BTB","BPB"],"key":{"B":{"tag":"forge:plates/bronze"},"P":{"item":"gtceu:bronze_normal_fluid_pipe"},"T":{"item":"gtceu:bronze_drum"}},"result":{"item":"gtceu:steam_input_hatch"}}

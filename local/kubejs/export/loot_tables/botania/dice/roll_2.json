@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"name": "life_essence",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2.0,
+								"max": 4.0
+							},
+							"add": false
+						}
+					],
+					"name": "botania:life_essence"
+				}
+			]
+		},
+		{
+			"name": "overgrowth_seeds",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1.0,
+							"add": false
+						}
+					],
+					"name": "botania:overgrowth_seed"
+				}
+			]
+		}
+	]
+}

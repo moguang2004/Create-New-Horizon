@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:chest",
+	"random_sequence": "sophisticatedbackpacks:inject/chests/shipwreck_treasure",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "sophisticatedbackpacks:iron_backpack"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "sophisticatedbackpacks:gold_backpack"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "sophisticatedbackpacks:advanced_magnet_upgrade"
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 92
+				}
+			]
+		}
+	]
+}

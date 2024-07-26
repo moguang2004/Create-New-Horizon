@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["IGI","IMI","CPC"],"key":{"M":{"item":"gtceu:iv_machine_hull"},"P":{"item":"gtceu:iv_electric_pump"},"C":{"tag":"gtceu:circuits/iv"},"I":{"tag":"forge:plates/tungsten_steel"},"G":{"item":"gtceu:laminated_glass"}},"result":{"item":"gtceu:iv_autoclave"}}

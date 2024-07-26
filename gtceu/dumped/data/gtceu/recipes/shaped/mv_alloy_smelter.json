@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["ECE","CMC","WCW"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"E":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"C":{"item":"gtceu:cupronickel_quadruple_wire"}},"result":{"item":"gtceu:mv_alloy_smelter"}}

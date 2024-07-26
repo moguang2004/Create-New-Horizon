@@ -1,0 +1,14 @@
+{
+	"minecraft:empty": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:structure_starts": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:structure_references": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:biomes": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:noise": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:surface": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:carvers": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:features": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:initialize_light": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:light": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:spawn": "net.minecraft.world.level.chunk.ChunkStatus",
+	"minecraft:full": "net.minecraft.world.level.chunk.ChunkStatus"
+}

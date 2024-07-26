@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["TTT","UCU","UMU"],"key":{"T":{"tag":"forge:small_gears/tungsten_carbide"},"U":{"item":"gtceu:ultimet_gear"},"C":{"item":"gtceu:secure_maceration_casing"},"M":{"item":"gtceu:iv_electric_motor"}},"result":{"item":"gtceu:crushing_wheels","count":2}}

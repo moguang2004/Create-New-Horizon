@@ -1,0 +1,66 @@
+[14:19:05] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[14:19:05] [INIT] Loaded plugins:
+[14:19:05] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[14:19:05] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[14:19:05] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[14:19:05] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[14:19:05] [INIT] - argent_matter.gcyr.integration.kjs.GCyRKubeJSPlugin
+[14:19:05] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[14:19:05] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[14:19:05] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[14:19:05] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
+[14:19:05] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[14:19:05] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[14:19:05] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[14:19:06] [INFO] src/GTmultiblocks/Desalting_factory.js#2: Loaded Java class 'com.lowdragmc.lowdraglib.LDLib'
+[14:19:06] [INFO] src/GTmultiblocks/Desalting_factory.js#3: Loaded Java class 'com.lowdragmc.lowdraglib.utils.CycleItemStackHandler'
+[14:19:06] [INFO] src/GTmultiblocks/Desalting_factory.js#4: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine'
+[14:19:06] [INFO] src/GTmultiblocks/Desalting_factory.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.block.ICoilType'
+[14:19:06] [INFO] src/GTmultiblocks/Desalting_factory.js#6: Loaded Java class 'com.gregtechceu.gtceu.common.block.CoilBlock'
+[14:19:06] [INFO] src/GTmultiblocks/Desalting_factory.js#7: Loaded Java class 'java.util.ArrayList'
+[14:19:06] [INFO] src/GTmultiblocks/Desalting_factory.js#8: Loaded Java class 'net.minecraft.world.item.ItemStack'
+[14:19:06] [INFO] Loaded script startup_scripts:src/GTmultiblocks/Desalting_factory.js in 0.142 s
+[14:19:06] [INFO] Loaded script startup_scripts:src/item_register.js in 0.02 s
+[14:19:06] [INFO] Loaded script startup_scripts:src/armor_reset.js in 0.0 s
+[14:19:06] [INFO] src/attribute/attribute_registry.js#1: Loaded Java class 'net.minecraft.world.entity.ai.attributes.RangedAttribute'
+[14:19:06] [INFO] Loaded script startup_scripts:src/attribute/attribute_registry.js in 0.004 s
+[14:19:06] [INFO] Loaded script startup_scripts:src/create.js in 0.0 s
+[14:19:06] [INFO] src/GTmachines.js#18: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.part.RotorHolderPartMachine'
+[14:19:06] [INFO] src/GTmachines.js#19: Loaded Java class 'com.gregtechceu.gtceu.client.renderer.machine.RotorHolderMachineRenderer'
+[14:19:06] [INFO] Loaded script startup_scripts:src/GTmachines.js in 0.022 s
+[14:19:06] [INFO] src/GTmaterials.js#1: Loaded Java class 'com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty'
+[14:19:06] [INFO] Loaded script startup_scripts:src/GTmaterials.js in 0.005 s
+[14:19:06] [INFO] Loaded script startup_scripts:src/GTmultiblocks/Digestion_tank.js in 0.0 s
+[14:19:06] [INFO] src/GTmultiblocks/Fermenting_tank.js#1: Loaded Java class 'com.gregtechceu.gtceu.api.machine.MetaMachine'
+[14:19:06] [INFO] src/GTmultiblocks/Fermenting_tank.js#2: Loaded Java class 'com.gregtechceu.gtceu.api.machine.feature.multiblock.IMultiPart'
+[14:19:06] [INFO] src/GTmultiblocks/Fermenting_tank.js#3: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.MultiblockControllerMachine'
+[14:19:06] [INFO] src/GTmultiblocks/Fermenting_tank.js#4: Loaded Java class 'com.gregtechceu.gtceu.api.machine.trait.IRecipeHandlerTrait'
+[14:19:06] [INFO] src/GTmultiblocks/Fermenting_tank.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.GTRecipe'
+[14:19:06] [INFO] Loaded script startup_scripts:src/GTmultiblocks/Fermenting_tank.js in 0.008 s
+[14:19:06] [INFO] Loaded script startup_scripts:src/GTmultiblocks/greenhousetest.js in 0.0 s
+[14:19:06] [INFO] src/GTmultiblocks/Industry_primitive_blast_furnace.js#2: Loaded Java class 'com.gregtechceu.gtceu.api.machine.multiblock.WorkableMultiblockMachine'
+[14:19:06] [INFO] src/GTmultiblocks/Industry_primitive_blast_furnace.js#3: Loaded Java class 'java.time.LocalTime'
+[14:19:06] [INFO] src/GTmultiblocks/Industry_primitive_blast_furnace.js#4: Loaded Java class 'net.minecraft.server.level.TickingTracker'
+[14:19:06] [INFO] src/GTmultiblocks/Industry_primitive_blast_furnace.js#5: Loaded Java class 'net.minecraft.world.ticks.LevelTicks'
+[14:19:06] [INFO] src/GTmultiblocks/Industry_primitive_blast_furnace.js#6: Loaded Java class 'net.minecraftforge.event.entity.living.LivingEvent$LivingTickEvent'
+[14:19:06] [INFO] Loaded script startup_scripts:src/GTmultiblocks/Industry_primitive_blast_furnace.js in 0.033 s
+[14:19:06] [INFO] Loaded script startup_scripts:src/GTmultiblocks/seaweed_farm.js in 0.003 s
+[14:19:06] [INFO] src/GTmultiblocks/steam_turbine.js#4: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine'
+[14:19:06] [INFO] src/GTmultiblocks/steam_turbine.js#5: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.RecipeHelper'
+[14:19:06] [INFO] src/GTmultiblocks/steam_turbine.js#6: Loaded Java class 'com.gregtechceu.gtceu.api.capability.recipe.StressRecipeCapability'
+[14:19:06] [INFO] src/GTmultiblocks/steam_turbine.js#7: Loaded Java class 'com.gregtechceu.gtceu.api.recipe.content.ContentModifier'
+[14:19:06] [INFO] src/GTmultiblocks/steam_turbine.js#8: Loaded Java class 'com.gregtechceu.gtceu.common.machine.kinetic.IKineticMachine'
+[14:19:06] [INFO] src/GTmultiblocks/steam_turbine.js#9: Loaded Java class 'com.gregtechceu.gtceu.api.machine.feature.multiblock.IRotorHolderMachine'
+[14:19:06] [INFO] Loaded script startup_scripts:src/GTmultiblocks/steam_turbine.js in 0.016 s
+[14:19:06] [INFO] src/test.js#3: Loaded Java class 'net.minecraft.network.chat.contents.TranslatableContents'
+[14:19:06] [INFO] Loaded script startup_scripts:src/test.js in 0.005 s
+[14:19:06] [INFO] Loaded script startup_scripts:src/Worldgen/Twi_worldgen.js in 0.002 s
+[14:19:06] [INFO] Loaded script startup_scripts:src/Worldgen/worldgen.js in 0.002 s
+[14:19:06] [INFO] Loaded 16/16 KubeJS startup scripts in 1.009 s with 0 errors and 0 warnings
+[14:19:09] [INFO] src/GTmultiblocks/Desalting_factory.js#10: Loaded Java class 'com.lowdragmc.lowdraglib.utils.LocalizationUtils'
+[14:19:09] [INFO] src/GTmultiblocks/Desalting_factory.js#11: Loaded Java class 'com.gregtechceu.gtceu.utils.FormattingUtil'
+[14:19:09] [INFO] src/GTmultiblocks/Desalting_factory.js#13: Loaded Java class 'net.minecraft.client.resources.language.I18n'
+[14:19:09] [INFO] src/GTmultiblocks/Digestion_tank.js#11: Loaded Java class 'com.momosoftworks.coldsweat.api.util.Temperature'
+[14:19:09] [INFO] src/GTmultiblocks/Fermenting_tank.js#38: Loaded Java class 'com.lowdragmc.lowdraglib.side.fluid.FluidStack'
+[14:19:09] [INFO] src/GTmultiblocks/Fermenting_tank.js#39: Loaded Java class 'com.gregtechceu.gtceu.common.machine.multiblock.part.FluidHatchPartMachine'
+[14:19:09] [INFO] src/GTmultiblocks/Fermenting_tank.js#40: Loaded Java class 'com.gregtechceu.gtceu.api.capability.recipe.IO'

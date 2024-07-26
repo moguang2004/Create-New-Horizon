@@ -1,0 +1,58 @@
+
+#General mod settings
+[general]
+	#-
+	#Range: > -2147483648
+	Misc_simBoxRadiusCutoff = 1124
+	#-
+	#Range: > -2147483648
+	Misc_simBoxRadiusSpawn = 1024
+	#If true, lets server side do vanilla weather rules, weather2 will only make storms when server side says 'rain' is on
+	overcastMode = false
+	#Used if overcastMode is off, 1 = lock weather on, 0 = lock weather off, -1 = dont lock anything, let server do whatever
+	#Range: > -2147483648
+	lockServerWeatherMode = 0
+	#How many ticks between cloud particle spawning
+	#Range: > -2147483648
+	Cloud_ParticleSpawnDelay = 2
+	#Distance between cloud formations, not particles, this includes invisible cloudless formations used during partial cloud coverage
+	#Range: > -2147483648
+	Cloud_Formation_MinDistBetweenSpawned = 300
+	#For a second layer of passive non storm progressing cloudOption
+	Cloud_Layer1_Enable = false
+	#-
+	#Range: > -2147483648
+	Cloud_Layer0_Height = 264
+	#-
+	#Range: > -2147483648
+	Cloud_Layer1_Height = 414
+	#Not used at the moment
+	#Range: > -2147483648
+	Cloud_Layer2_Height = 564
+	#How much to randomly change cloud coverage % amount, performed every 10 seconds
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	Cloud_Coverage_Random_Change_Amount = 0.05
+	#Minimum percent of cloud coverage, supports negative for extended cloudless sky coverage
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	Cloud_Coverage_Min_Percent = 0.0
+	#Maximum percent of cloud coverage, supports over 100% for extended full cloud sky coverage
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	Cloud_Coverage_Max_Percent = 100.0
+	#-
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	sirenActivateDistance = 256.0
+	#-
+	Dimension_List_Weather = "minecraft:overworld, tropicraft:tropicraft"
+	#-
+	Dimension_List_Clouds = "minecraft:overworld, tropicraft:tropicraft"
+	#-
+	Dimension_List_Storms = "minecraft:overworld, tropicraft:tropicraft"
+	#-
+	Dimension_List_WindEffects = "minecraft:overworld, tropicraft:tropicraft"
+	#-
+	blockBreakingInvokesCancellableEvent = false
+	#Server and client side, Locks down the mod to only do wind, leaves, foliage shader if on, etc. No weather systems, turns overcast mode on
+	Aesthetic_Only_Mode = false
+	#Runs regardless of Aesthetic_Only_Mode, makes snowstorms possible everywhere
+	Winter_Wonderland = false
+

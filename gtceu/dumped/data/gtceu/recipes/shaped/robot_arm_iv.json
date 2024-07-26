@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CCC","MRM","PXR"],"key":{"C":{"item":"gtceu:tungsten_single_cable"},"R":{"tag":"forge:rods/tungsten_steel"},"M":{"item":"gtceu:iv_electric_motor"},"P":{"item":"gtceu:iv_electric_piston"},"X":{"tag":"gtceu:circuits/iv"}},"result":{"item":"gtceu:iv_robot_arm"}}

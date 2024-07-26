@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:block",
+	"random_sequence": "deep_aether:blocks/frosted_holystone_tiles",
+	"pools": [
+		{
+			"name": "main",
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "deep_aether:frosted_holystone_tiles"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			]
+		}
+	]
+}

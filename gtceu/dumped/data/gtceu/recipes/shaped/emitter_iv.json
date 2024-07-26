@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CRX","RGR","XRC"],"key":{"R":{"tag":"forge:rods/iridium"},"C":{"item":"gtceu:tungsten_single_cable"},"G":{"item":"gtceu:quantum_star"},"X":{"tag":"gtceu:circuits/iv"}},"result":{"item":"gtceu:iv_emitter"}}

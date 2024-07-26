@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zpm"
+	group: "19912BEA87D24FE0"
+	icon: "gtceu:zpm_machine_hull"
+	id: "6A6E52FB51E3CBA2"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "&cZPM&r时期"
+}

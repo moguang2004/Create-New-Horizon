@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["PLP","CHC"],"key":{"P":{"tag":"forge:plates/wrought_iron"},"L":{"tag":"forge:plates/aluminium"},"C":{"item":"gtceu:copper_single_cable"},"H":{"item":"gtceu:mv_machine_casing"}},"result":{"item":"gtceu:mv_machine_hull"}}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["CCE","XMP","CCE"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"X":{"item":"gtceu:hv_electric_piston"},"E":{"tag":"gtceu:circuits/hv"},"P":{"item":"gtceu:stainless_steel_normal_fluid_pipe"},"C":{"item":"gtceu:kanthal_quadruple_wire"}},"result":{"item":"gtceu:hv_extruder"}}

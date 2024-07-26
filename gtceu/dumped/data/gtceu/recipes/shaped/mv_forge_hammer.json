@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["WPW","CMC","WAW"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"P":{"item":"gtceu:mv_electric_piston"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"A":{"item":"minecraft:anvil"}},"result":{"item":"gtceu:mv_forge_hammer"}}
