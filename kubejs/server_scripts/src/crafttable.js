@@ -489,13 +489,14 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:fermenting_tank', 1),[
           "ABA",
           "CDC",
-          "EEE"
+          "EFE"
         ],{
           A: 'gtceu:mv_sensor',
           B: 'gtceu:mv_robot_arm',
           C: '#gtceu:circuits/hv',
-          D: 'gtceu:mv_machine_hull',
-          E: 'gtceu:solid_machine_casing'
+          D: 'gtceu:mv_mixer',
+          E: 'gtceu:solid_machine_casing',
+          F: 'gtceu:mv_fluid_heater'
         })
             
     event.forEachRecipe({type:'minecraft:shapeless',input:'#minecraft:logs',output:'#minecraft:planks'},recipe =>{
