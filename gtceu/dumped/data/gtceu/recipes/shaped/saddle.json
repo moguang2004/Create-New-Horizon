@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["LLL","LCL","RSR"],"key":{"L":{"item":"minecraft:leather"},"C":{"tag":"minecraft:wool_carpets"},"R":{"tag":"forge:rings/iron"},"S":{"item":"minecraft:string"}},"result":{"item":"minecraft:saddle"}}

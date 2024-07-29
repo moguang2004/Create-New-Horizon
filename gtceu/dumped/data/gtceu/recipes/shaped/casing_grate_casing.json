@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PVP","PFP","PMP"],"key":{"P":{"item":"minecraft:iron_bars"},"F":{"tag":"forge:frames/steel"},"M":{"item":"gtceu:mv_electric_motor"},"V":{"tag":"forge:rotors/steel"}},"result":{"item":"gtceu:assembly_line_grating","count":2}}

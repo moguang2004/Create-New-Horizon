@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PLP","CHC"],"key":{"P":{"tag":"forge:plates/polybenzimidazole"},"L":{"tag":"forge:plates/naquadah_alloy"},"C":{"item":"gtceu:vanadium_gallium_single_cable"},"H":{"item":"gtceu:zpm_machine_casing"}},"result":{"item":"gtceu:zpm_machine_hull"}}

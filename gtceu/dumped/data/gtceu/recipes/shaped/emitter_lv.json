@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CRX","RGR","XRC"],"key":{"R":{"tag":"forge:rods/brass"},"C":{"item":"gtceu:tin_single_cable"},"G":{"tag":"forge:gems/quartzite"},"X":{"tag":"gtceu:circuits/lv"}},"result":{"item":"gtceu:lv_emitter"}}

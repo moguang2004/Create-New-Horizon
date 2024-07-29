@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["hRS","PBR","dRS"],"key":{"R":{"tag":"forge:rods/iron"},"S":{"tag":"forge:screws/iron"},"P":{"tag":"forge:plates/iron"},"B":{"item":"gtceu:firebricks"},"d":{"tag":"forge:tools/screwdrivers"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:primitive_blast_furnace"}}

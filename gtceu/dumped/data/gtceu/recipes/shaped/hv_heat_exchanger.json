@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","DHD","PCP"],"key":{"H":{"item":"gtceu:hv_machine_hull"},"P":{"item":"gtceu:hv_electric_pump"},"D":{"item":"gtceu:hv_voltage_coil"},"C":{"tag":"gtceu:circuits/hv"}},"result":{"item":"gcyr:hv_heat_exchanger"}}

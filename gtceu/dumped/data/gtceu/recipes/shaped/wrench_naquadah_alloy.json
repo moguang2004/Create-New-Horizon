@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PhP"," P "," P "],"key":{"P":{"tag":"forge:plates/naquadah_alloy"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:naquadah_alloy_wrench","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":3071},"GT.Behaviours":{"RelocateMinedBlocks":1,"Mode":2},"HideFlags":2}}}

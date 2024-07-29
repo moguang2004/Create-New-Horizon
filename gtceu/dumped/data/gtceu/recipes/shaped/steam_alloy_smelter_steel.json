@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WSW","WMW","WPW"],"key":{"M":{"item":"gtceu:lp_steam_alloy_smelter"},"S":{"tag":"forge:plates/steel"},"W":{"tag":"forge:plates/wrought_iron"},"P":{"item":"gtceu:tin_alloy_small_fluid_pipe"}},"result":{"item":"gtceu:hp_steam_alloy_smelter"}}

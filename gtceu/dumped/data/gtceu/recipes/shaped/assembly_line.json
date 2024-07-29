@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CRC","SAS","CRC"],"key":{"A":{"item":"gtceu:iv_machine_hull"},"R":{"item":"gtceu:iv_robot_arm"},"C":{"item":"gtceu:assembly_line_casing"},"S":{"tag":"gtceu:circuits/iv"}},"result":{"item":"gtceu:assembly_line"}}

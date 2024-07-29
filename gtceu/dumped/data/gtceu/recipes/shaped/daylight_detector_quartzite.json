@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GGG","PPP","SRS"],"key":{"G":{"item":"minecraft:glass"},"P":{"tag":"forge:plates/quartzite"},"S":{"tag":"minecraft:wooden_slabs"},"R":{"tag":"forge:rods/red_alloy"}},"result":{"item":"minecraft:daylight_detector"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PGP","WMW","CBC"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"P":{"item":"gtceu:mv_electric_pump"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"G":{"tag":"forge:glass"},"B":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:mv_fluid_solidifier"}}

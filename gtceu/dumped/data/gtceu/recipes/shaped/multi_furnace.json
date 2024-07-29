@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PPP","ASA","CAC"],"key":{"P":{"item":"minecraft:furnace"},"A":{"tag":"gtceu:circuits/hv"},"S":{"item":"gtceu:heatproof_machine_casing"},"C":{"item":"gtceu:copper_single_cable"}},"result":{"item":"gtceu:multi_smelter"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SrS","SRS","ShS"],"key":{"S":{"tag":"forge:rods/wood"},"R":{"tag":"forge:bolts/wood"},"r":{"tag":"forge:tools/mallets"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:ladder","count":2}}

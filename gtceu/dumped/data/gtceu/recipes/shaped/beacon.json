@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GLG","GSG","OOO"],"key":{"G":{"item":"minecraft:glass"},"L":{"tag":"forge:lenses/nether_star"},"S":{"item":"minecraft:nether_star"},"O":{"tag":"forge:plates/obsidian"}},"result":{"item":"minecraft:beacon"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EFE"],"key":{"A":{"item":"gtceu:iv_voltage_coil"},"B":{"tag":"gtceu:circuits/iv"},"C":{"item":"gtceu:tungsten_quadruple_cable"},"D":{"item":"gtceu:iv_machine_hull"},"E":{"tag":"forge:gears/nichrome"},"F":{"item":"gtceu:iv_robot_arm"}},"result":{"item":"gtnn:iv_dehydrator"}}

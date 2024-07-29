@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ACA","VMV","WCW"],"key":{"M":{"item":"gtceu:uv_machine_hull"},"V":{"item":"gtceu:uv_conveyor_module"},"A":{"item":"gtceu:uv_robot_arm"},"C":{"tag":"gtceu:circuits/uv"},"W":{"item":"gtceu:yttrium_barium_cuprate_single_cable"}},"result":{"item":"gtceu:uv_assembler"}}

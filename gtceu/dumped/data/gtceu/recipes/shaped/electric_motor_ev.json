@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CWR","WMW","RWC"],"key":{"C":{"item":"gtceu:aluminium_double_cable"},"W":{"item":"gtceu:kanthal_double_wire"},"R":{"tag":"forge:rods/titanium"},"M":{"tag":"forge:rods/magnetic_neodymium"}},"result":{"item":"gtceu:ev_electric_motor"}}

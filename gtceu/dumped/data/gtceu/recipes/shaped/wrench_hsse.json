@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PhP"," P "," P "],"key":{"P":{"tag":"forge:plates/hsse"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:hsse_wrench","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":3071},"GT.Behaviours":{"Mode":2},"HideFlags":2}}}

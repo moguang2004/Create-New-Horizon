@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ACA","VMV","WCW"],"key":{"M":{"item":"gtceu:lv_machine_hull"},"V":{"item":"gtceu:lv_conveyor_module"},"A":{"item":"gtceu:lv_robot_arm"},"C":{"tag":"gtceu:circuits/lv"},"W":{"item":"gtceu:tin_single_cable"}},"result":{"item":"gtceu:lv_assembler"}}

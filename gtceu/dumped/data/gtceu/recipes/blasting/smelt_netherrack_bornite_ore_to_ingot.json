@@ -1,1 +1,0 @@
-{"type":"minecraft:blasting","ingredient":{"type":"forge:intersection","children":[{"tag":"forge:ores/bornite"},{"tag":"forge:ores_in_ground/netherrack"}]},"result":{"item":"minecraft:copper_ingot","count":2},"experience":1.0,"cookingtime":100}

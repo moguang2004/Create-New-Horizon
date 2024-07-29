@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CPC","PFP","CGC"],"key":{"C":{"tag":"gtceu:circuits/ev"},"P":{"tag":"forge:plates/titanium"},"F":{"item":"gtceu:titanium_crate"},"G":{"item":"gtceu:mv_field_generator"}},"result":{"item":"gtceu:ev_super_chest"}}

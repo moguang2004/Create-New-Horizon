@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CSC","RBR","LdL"],"key":{"C":{"tag":"gtceu:circuits/ulv"},"S":{"tag":"forge:screws/steel"},"R":{"tag":"forge:rings/rubber"},"B":{"item":"gtceu:lv_sodium_battery"},"L":{"tag":"forge:lenses/glass"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"gtceu:nightvision_goggles"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GBG","CMC","WPW"],"key":{"M":{"item":"gtceu:uv_machine_hull"},"P":{"item":"gtceu:uv_electric_pump"},"B":{"tag":"forge:springs/naquadah_alloy"},"C":{"tag":"gtceu:circuits/uv"},"W":{"item":"gtceu:yttrium_barium_cuprate_single_cable"},"G":{"item":"gtceu:fusion_glass"}},"result":{"item":"gtceu:uv_distillery"}}

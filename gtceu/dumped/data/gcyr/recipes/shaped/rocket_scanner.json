@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","CHC","SCS"],"key":{"H":{"item":"gtceu:ev_machine_hull"},"P":{"item":"gcyr:launch_pad"},"C":{"tag":"gtceu:circuits/ev"},"S":{"tag":"forge:plates/titanium"}},"result":{"item":"gcyr:rocket_scanner"}}

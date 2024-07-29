@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PwP","CMC","EWE"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"E":{"item":"gtceu:hv_electric_motor"},"P":{"item":"gtceu:hv_electric_piston"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"},"w":{"tag":"forge:tools/wrenches"}},"result":{"item":"gtceu:hv_bender"}}

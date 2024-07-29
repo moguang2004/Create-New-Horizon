@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" A ","ABA"," A "],"key":{"A":{"tag":"forge:dense_plates/steel"},"B":{"item":"gtnn:enriched_uranium"}},"result":{"item":"gtnn:neutron_source"}}

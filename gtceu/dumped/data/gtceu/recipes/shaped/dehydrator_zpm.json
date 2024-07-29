@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EFE"],"key":{"A":{"item":"gtceu:zpm_voltage_coil"},"B":{"tag":"gtceu:circuits/zpm"},"C":{"item":"gtceu:osmium_quadruple_cable"},"D":{"item":"gtceu:zpm_machine_hull"},"E":{"tag":"forge:gears/zeron_100"},"F":{"item":"gtceu:zpm_robot_arm"}},"result":{"item":"gtnn:zpm_dehydrator"}}

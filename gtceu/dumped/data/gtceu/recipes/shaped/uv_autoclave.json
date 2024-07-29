@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["IGI","IMI","CPC"],"key":{"M":{"item":"gtceu:uv_machine_hull"},"P":{"item":"gtceu:uv_electric_pump"},"C":{"tag":"gtceu:circuits/uv"},"I":{"tag":"forge:plates/darmstadtium"},"G":{"item":"gtceu:fusion_glass"}},"result":{"item":"gtceu:uv_autoclave"}}

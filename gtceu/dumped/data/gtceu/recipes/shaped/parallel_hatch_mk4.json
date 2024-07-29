@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SZE","ZHZ","CZC"],"key":{"S":{"item":"gtceu:uv_sensor"},"E":{"item":"gtceu:uv_emitter"},"Z":{"tag":"gtceu:circuits/uhv"},"H":{"item":"gtceu:uv_machine_hull"},"C":{"item":"gtceu:yttrium_barium_cuprate_double_cable"}},"result":{"item":"gtceu:uv_parallel_hatch"}}

@@ -1,1 +1,0 @@
-{"type":"gtceu:combustion_generator","duration":5,"inputs":{"fluid":[{"content":{"amount":32,"value":[{"tag":"forge:oil_light"}]},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{"eu":[{"content":32,"chance":1.0,"tierChanceBoost":0.0}]}}

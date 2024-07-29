@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EBE"],"key":{"A":{"tag":"forge:rods/naquadah_alloy"},"B":{"tag":"gtceu:circuits/uhv"},"C":{"item":"gtceu:uv_field_generator"},"D":{"item":"gtceu:uv_machine_hull"},"E":[]},"result":{"item":"gtnn:uv_naquadah_reactor"}}

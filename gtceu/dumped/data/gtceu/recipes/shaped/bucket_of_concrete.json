@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CBS","CWQ"," L "],"key":{"C":{"tag":"forge:dusts/calcite"},"S":{"tag":"forge:dusts/stone"},"W":{"item":"minecraft:water_bucket"},"Q":{"tag":"forge:dusts/quartz_sand"},"L":{"tag":"forge:dusts/clay"},"B":{"item":"minecraft:bucket"}},"result":{"item":"gtceu:concrete_bucket"}}

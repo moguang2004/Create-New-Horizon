@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CBC","FMF","CBC"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"B":{"item":"gtceu:stainless_steel_large_fluid_pipe"},"C":{"tag":"gtceu:circuits/ev"},"F":{"item":"gtceu:hv_electric_pump"}},"result":{"item":"gtceu:distillation_tower"}}

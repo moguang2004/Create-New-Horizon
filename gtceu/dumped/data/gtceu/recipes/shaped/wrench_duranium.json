@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PhP"," P "," P "],"key":{"P":{"tag":"forge:plates/duranium"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:duranium_wrench","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":8191},"GT.Behaviours":{"RelocateMinedBlocks":1,"Mode":2},"HideFlags":2}}}

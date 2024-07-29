@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["hDS","DSD","SDf"],"key":{"S":{"tag":"forge:rods/bronze"},"D":{"tag":"forge:dyes/light_gray"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:bronze_crowbar","nbt":{"DisallowContainerItem":0,"GT.Tool":{"TintColor":13882323,"Damage":0,"MaxDamage":191},"GT.Behaviours":{},"HideFlags":2}}}

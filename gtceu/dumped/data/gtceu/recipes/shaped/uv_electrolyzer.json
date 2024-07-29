@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["IGI","IMI","CWC"],"key":{"M":{"item":"gtceu:uv_machine_hull"},"C":{"tag":"gtceu:circuits/uv"},"W":{"item":"gtceu:yttrium_barium_cuprate_single_cable"},"I":{"item":"gtceu:osmium_single_wire"},"G":{"item":"gtceu:fusion_glass"}},"result":{"item":"gtceu:uv_electrolyzer"}}

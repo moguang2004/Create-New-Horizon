@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["EPS","CDC","PBP"],"key":{"E":{"item":"gtceu:lv_emitter"},"P":{"tag":"forge:plates/steel"},"S":{"item":"gtceu:lv_sensor"},"D":{"tag":"forge:plates/glass"},"C":{"tag":"forge:circuits/lv"},"B":{"tag":"forge:batteries/lv"}},"result":{"item":"gtceu:prospector.lv"}}

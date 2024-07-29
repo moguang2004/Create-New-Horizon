@@ -1,1 +1,0 @@
-{"type":"gtceu:distillation_tower","duration":16,"inputs":{"fluid":[{"content":{"amount":24,"value":[{"tag":"forge:seed_oil"}]},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{"fluid":[{"content":{"amount":12,"value":[{"fluid":"gtceu:lubricant"}]},"chance":1.0,"tierChanceBoost":0.0}]},"tickInputs":{"eu":[{"content":96,"chance":1.0,"tierChanceBoost":0.0}]},"tickOutputs":{}}

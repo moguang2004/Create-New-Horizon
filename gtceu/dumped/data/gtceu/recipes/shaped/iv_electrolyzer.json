@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["IGI","IMI","CWC"],"key":{"M":{"item":"gtceu:iv_machine_hull"},"C":{"tag":"gtceu:circuits/iv"},"W":{"item":"gtceu:platinum_single_cable"},"I":{"item":"gtceu:osmium_single_wire"},"G":{"item":"gtceu:laminated_glass"}},"result":{"item":"gtceu:iv_electrolyzer"}}

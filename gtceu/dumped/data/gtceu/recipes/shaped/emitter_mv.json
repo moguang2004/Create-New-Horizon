@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CRX","RGR","XRC"],"key":{"R":{"tag":"forge:rods/electrum"},"C":{"item":"gtceu:copper_single_cable"},"G":{"tag":"forge:flawless_gems/emerald"},"X":{"tag":"gtceu:circuits/mv"}},"result":{"item":"gtceu:mv_emitter"}}

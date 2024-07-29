@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PTd","PRS","PPs"],"key":{"P":{"item":"minecraft:oak_planks"},"T":{"item":"minecraft:oak_trapdoor"},"R":{"tag":"forge:rings/iron"},"S":{"tag":"forge:screws/iron"},"s":{"tag":"forge:tools/saws"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"minecraft:oak_door"}}

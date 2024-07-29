@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SPS","WCW"," P "],"key":{"P":{"item":"minecraft:paper"},"S":{"item":"gtceu:sticky_resin"},"W":{"item":"gtceu:copper_single_wire"},"C":{"tag":"forge:dusts/coal"}},"result":{"item":"gtceu:resistor","count":2}}

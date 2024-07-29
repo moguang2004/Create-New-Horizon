@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["IRI","SRS"," S "],"key":{"I":{"tag":"forge:rings/iron"},"R":{"tag":"forge:rods/wood"},"S":{"item":"minecraft:string"}},"result":{"item":"minecraft:tripwire_hook"}}

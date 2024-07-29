@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["B","S"],"key":{"B":{"item":"minecraft:stone_button"},"S":{"tag":"forge:rods/wood"}},"result":{"item":"minecraft:lever"}}

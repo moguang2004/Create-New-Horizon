@@ -1,1 +1,0 @@
-{"type":"gcyr:dyson_controller","duration":200,"inputs":{},"outputs":{},"tickInputs":{},"tickOutputs":{"eu":[{"content":2097152,"chance":1.0,"tierChanceBoost":0.0}]},"recipeConditions":[{"type":"dyson_sphere","data":{}},{"type":"orbit","data":{"reverse":true}}]}

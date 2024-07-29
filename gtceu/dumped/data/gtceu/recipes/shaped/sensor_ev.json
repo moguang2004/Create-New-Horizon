@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["P G","PR ","XPP"],"key":{"P":{"tag":"forge:plates/titanium"},"R":{"tag":"forge:rods/platinum"},"G":{"item":"gtceu:quantum_eye"},"X":{"tag":"gtceu:circuits/ev"}},"result":{"item":"gtceu:ev_sensor"}}

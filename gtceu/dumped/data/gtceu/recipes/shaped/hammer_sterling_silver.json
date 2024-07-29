@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["II ","IIS","II "],"key":{"I":{"tag":"forge:ingots/sterling_silver"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:sterling_silver_hammer","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":767},"GT.Behaviours":{},"HideFlags":2}}}

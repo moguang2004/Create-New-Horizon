@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PPP","PGP","PRP"],"key":{"P":{"item":"minecraft:glass_pane"},"G":{"item":"minecraft:glowstone"},"R":{"tag":"forge:rods/red_alloy"}},"result":{"item":"minecraft:redstone_lamp"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" WW","RMC"," WW"],"key":{"C":{"tag":"gtceu:circuits/ev"},"M":{"item":"gtceu:ev_machine_hull"},"W":{"item":"gtceu:aluminium_quadruple_cable"},"R":{"item":"gtceu:red_alloy_quadruple_cable"}},"result":{"item":"gtceu:ev_4a_energy_converter"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WCW","EMD","CWP"],"key":{"M":{"item":"gtceu:iv_machine_hull"},"E":{"item":"gtceu:iv_electric_motor"},"P":{"item":"gtceu:iv_electric_piston"},"C":{"tag":"gtceu:circuits/iv"},"W":{"item":"gtceu:platinum_single_cable"},"D":{"item":"gtceu:tungsten_grinding_head"}},"result":{"item":"gtceu:iv_lathe"}}

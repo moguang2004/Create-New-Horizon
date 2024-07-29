@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GRG","GEG","CMC"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"R":{"tag":"forge:rotors/bronze"},"C":{"item":"create:precision_mechanism"},"G":{"tag":"forge:glass"},"E":{"item":"create:shaft"}},"result":{"item":"gtceu:mv_kinetic_mixer"}}

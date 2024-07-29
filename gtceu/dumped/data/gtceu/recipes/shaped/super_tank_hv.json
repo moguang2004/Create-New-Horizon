@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CGC","PHP","CFC"],"key":{"C":{"tag":"gtceu:circuits/hv"},"P":{"tag":"forge:plates/stainless_steel"},"F":{"item":"gtceu:hv_electric_pump"},"H":{"item":"gtceu:hv_hermetic_casing"},"G":{"item":"gtceu:lv_field_generator"}},"result":{"item":"gtceu:hv_super_tank"}}

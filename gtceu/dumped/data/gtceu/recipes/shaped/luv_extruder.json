@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CCE","XMP","CCE"],"key":{"M":{"item":"gtceu:luv_machine_hull"},"X":{"item":"gtceu:luv_electric_piston"},"E":{"tag":"gtceu:circuits/luv"},"P":{"item":"gtceu:niobium_titanium_normal_fluid_pipe"},"C":{"item":"gtceu:hssg_quadruple_wire"}},"result":{"item":"gtceu:luv_extruder"}}

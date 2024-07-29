@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PEG","WWM","CCW"],"key":{"M":{"item":"gtceu:ev_machine_hull"},"E":{"item":"gtceu:ev_electric_motor"},"P":{"item":"gtceu:ev_electric_piston"},"C":{"tag":"gtceu:circuits/ev"},"W":{"item":"gtceu:aluminium_single_cable"},"G":{"item":"gtceu:diamond_grinding_head"}},"result":{"item":"gtceu:ev_macerator"}}

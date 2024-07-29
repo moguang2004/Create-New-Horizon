@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PEP","CMC","WCW"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"E":{"item":"gtceu:hv_emitter"},"P":{"item":"gtceu:hv_electric_piston"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"}},"result":{"item":"gtceu:hv_laser_engraver"}}

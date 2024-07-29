@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GCG","EMP","WCW"],"key":{"M":{"item":"gtceu:uv_machine_hull"},"E":{"item":"gtceu:uv_electric_piston"},"P":{"item":"gtceu:uv_electric_pump"},"C":{"tag":"gtceu:circuits/uv"},"W":{"item":"gtceu:yttrium_barium_cuprate_single_cable"},"G":{"item":"gtceu:fusion_glass"}},"result":{"item":"gtceu:uv_extractor"}}

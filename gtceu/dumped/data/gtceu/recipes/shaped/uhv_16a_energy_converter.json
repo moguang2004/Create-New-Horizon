@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" WW","RMC"," WW"],"key":{"C":{"tag":"gtceu:circuits/uhv"},"M":{"item":"gtceu:uhv_machine_hull"},"W":{"item":"gtceu:europium_hex_cable"},"R":{"item":"gtceu:red_alloy_hex_cable"}},"result":{"item":"gtceu:uhv_16a_energy_converter"}}

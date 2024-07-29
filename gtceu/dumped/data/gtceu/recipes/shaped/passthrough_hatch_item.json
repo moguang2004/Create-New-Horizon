@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" C ","GHG"," S "],"key":{"C":{"item":"gtceu:hv_conveyor_module"},"G":{"tag":"forge:small_gears/steel"},"H":{"item":"gtceu:hv_machine_hull"},"S":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:hv_item_passthrough_hatch"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" P "," P "," S "],"key":{"P":{"tag":"forge:plates/red_steel"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:red_steel_file","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":2559},"GT.Behaviours":{},"HideFlags":2}}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SPS","GRG","CPK"],"key":{"S":{"tag":"forge:screws/tungsten_carbide"},"P":{"tag":"forge:plates/tungsten_carbide"},"G":{"item":"gtceu:laminated_glass"},"R":{"tag":"forge:springs/europium"},"C":{"tag":"gtceu:circuits/iv"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:blacklight"}}

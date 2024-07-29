@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SDS","dPw"," E "],"key":{"S":{"tag":"forge:screws/steel"},"D":{"item":"gtceu:item_detector_cover"},"P":{"item":"gtceu:brass_normal_item_pipe"},"E":{"item":"minecraft:ender_pearl"},"w":{"tag":"forge:tools/wrenches"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"gtceu:item_voiding_cover"}}

@@ -47,7 +47,6 @@ WorldgenEvents.remove(event =>{
     "ad_astra:mars_iron_ore",
     "ad_astra:mars_ostrum_ore"])
 })
-
 GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
   event.create('all_layer')
       .targets('#minecraft:stone_ore_replaceables',

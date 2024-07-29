@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PZP","ESE","PKP"],"key":{"Z":{"tag":"gtceu:circuits/iv"},"S":{"item":"gtceu:iv_fluid_solidifier"},"E":{"item":"gtceu:iv_electric_pump"},"P":{"item":"gtceu:polyethylene_normal_fluid_pipe"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_solidifier"}}

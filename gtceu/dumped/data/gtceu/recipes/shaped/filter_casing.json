@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["BBB","III","MFR"],"key":{"B":{"item":"minecraft:iron_bars"},"I":{"item":"gtceu:item_filter"},"M":{"item":"gtceu:mv_electric_motor"},"F":{"tag":"forge:frames/steel"},"R":{"tag":"forge:rotors/steel"}},"result":{"item":"gtceu:filter_casing"}}

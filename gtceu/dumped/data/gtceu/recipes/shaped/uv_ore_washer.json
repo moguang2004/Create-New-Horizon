@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["RGR","CEC","WMW"],"key":{"M":{"item":"gtceu:uv_machine_hull"},"R":{"tag":"forge:rotors/darmstadtium"},"E":{"item":"gtceu:uv_electric_motor"},"C":{"tag":"gtceu:circuits/uv"},"W":{"item":"gtceu:yttrium_barium_cuprate_single_cable"},"G":{"item":"gtceu:fusion_glass"}},"result":{"item":"gtceu:uv_ore_washer"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WGW","CAC","P P"],"key":{"W":{"item":"gtceu:naquadah_wafer"},"G":{"item":"gtceu:tempered_glass"},"C":{"tag":"gtceu:circuits/luv"},"P":{"item":"gtceu:indium_gallium_phosphide_plate"},"A":{"item":"gtceu:graphene_hex_wire"}},"result":{"item":"gtceu:lv_solar_panel"}}

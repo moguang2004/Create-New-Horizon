@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CMC","RHR","CMC"],"key":{"C":{"tag":"gtceu:circuits/hv"},"M":{"item":"gtceu:maintenance_hatch"},"R":{"item":"gtceu:hv_robot_arm"},"H":{"item":"gtceu:hv_machine_hull"}},"result":{"item":"gtceu:auto_maintenance_hatch"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GRG","WEW","CMC"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"R":{"tag":"forge:rotors/steel"},"E":{"item":"gtceu:hv_electric_motor"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"},"G":{"item":"gtceu:polyethylene_normal_fluid_pipe"}},"result":{"item":"gtceu:hv_chemical_reactor"}}

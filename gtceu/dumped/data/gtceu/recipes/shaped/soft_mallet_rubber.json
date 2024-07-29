@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["II ","IIS","II "],"key":{"I":{"tag":"forge:ingots/rubber"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:rubber_mallet","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":255},"GT.Behaviours":{},"HideFlags":2}}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["VGW","PGV","CMC"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"P":{"item":"gtceu:mv_electric_pump"},"V":{"item":"gtceu:mv_conveyor_module"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:mv_chemical_bath"}}

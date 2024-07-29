@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" P "," P "," S "],"key":{"P":{"tag":"forge:plates/naquadah_alloy"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:naquadah_alloy_file","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":3071},"GT.Behaviours":{"RelocateMinedBlocks":1},"HideFlags":2}}}

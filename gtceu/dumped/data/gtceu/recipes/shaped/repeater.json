@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["S S","TdT","PRP"],"key":{"S":{"tag":"forge:screws/iron"},"T":{"item":"minecraft:redstone_torch"},"P":{"item":"minecraft:stone_pressure_plate"},"R":{"tag":"forge:rods/red_alloy"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"minecraft:repeater"}}

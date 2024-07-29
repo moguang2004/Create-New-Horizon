@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WWW","GFG","CRC"],"key":{"W":{"tag":"minecraft:planks"},"C":{"tag":"minecraft:stone_crafting_materials"},"R":{"tag":"forge:plates/red_alloy"},"G":{"tag":"forge:small_gears/iron"},"F":{"tag":"minecraft:wooden_fences"}},"result":{"item":"minecraft:piston"}}

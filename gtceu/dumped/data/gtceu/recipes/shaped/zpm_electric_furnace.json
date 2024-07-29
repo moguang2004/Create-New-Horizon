@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ECE","CMC","WCW"],"key":{"M":{"item":"gtceu:zpm_machine_hull"},"E":{"tag":"gtceu:circuits/zpm"},"W":{"item":"gtceu:vanadium_gallium_single_cable"},"C":{"item":"gtceu:naquadah_double_wire"}},"result":{"item":"gtceu:zpm_electric_furnace"}}

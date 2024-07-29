@@ -89,7 +89,7 @@ ServerEvents.recipes(event =>{
     .duration(100)
     .itemInputs("5x gtceu:green_sapphire_dust")
     .itemOutputs('5x gtceu:alumina_dust')
-    .chancedOutput('gtceu:beryllium_tiny_dust',500,0)
+    .chancedOutput('gtceu:tiny_beryllium_dust',500,0)
     event.recipes.gtceu.centrifuge('electrolyzing_sapphire')//蓝宝石
     .EUt(30)
     .duration(100)

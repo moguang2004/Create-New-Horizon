@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["   ","YMB","   "],"key":{"M":{"item":"gtceu:solid_machine_casing"},"Y":{"tag":"forge:dyes/yellow"},"B":{"tag":"forge:dyes/black"}},"result":{"item":"gtceu:mob_infestation_hazard_sign_block"}}

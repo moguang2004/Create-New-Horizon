@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SRS","TCT","TTT"],"key":{"S":{"item":"minecraft:string"},"R":{"tag":"forge:rings/iron"},"T":{"tag":"forge:rods/wood"},"C":{"tag":"minecraft:wool_carpets"}},"result":{"item":"minecraft:painting"}}

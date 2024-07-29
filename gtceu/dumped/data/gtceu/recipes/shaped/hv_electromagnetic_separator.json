@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["VWZ","WMS","CWZ"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"S":{"tag":"forge:rods/steel"},"Z":{"item":"gtceu:silver_double_wire"},"V":{"item":"gtceu:hv_conveyor_module"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"}},"result":{"item":"gtceu:hv_electromagnetic_separator"}}

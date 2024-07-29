@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" fS"," Sh","W  "],"key":{"S":{"tag":"forge:rods/bisalloy_400"},"W":{"item":"minecraft:stick"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gcyr:bisalloy_400_screwdriver","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":1295},"GT.Behaviours":{},"HideFlags":2}}}

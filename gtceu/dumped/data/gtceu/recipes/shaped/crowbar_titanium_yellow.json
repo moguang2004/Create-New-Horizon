@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["hDS","DSD","SDf"],"key":{"S":{"tag":"forge:rods/titanium"},"D":{"tag":"forge:dyes/yellow"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:titanium_crowbar","nbt":{"DisallowContainerItem":0,"GT.Tool":{"TintColor":16776960,"Damage":0,"MaxDamage":1535},"GT.Behaviours":{},"HideFlags":2}}}

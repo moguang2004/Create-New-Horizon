@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ACA","VMV","WCW"],"key":{"M":{"item":"gtceu:luv_machine_hull"},"V":{"item":"gtceu:luv_conveyor_module"},"A":{"item":"gtceu:luv_robot_arm"},"C":{"tag":"gtceu:circuits/luv"},"W":{"item":"gtceu:niobium_titanium_single_cable"}},"result":{"item":"gtceu:luv_assembler"}}

@@ -170,7 +170,18 @@ ServerEvents.recipes(event =>{
      .inputFluids(Fluid.of('gtceu:oxygen',2000))
      .EUt(30)
      .duration(100)
+//NaIO4 + C3H6O -> NaIO3 + CH2O + C2H4O
+     ctnh.chemical_reactor('acetaldehyde',1000)
+     .itemInputs('6x gtceu:sodium_periodate_dust')
+     .itemOutputs('5x gtceu:sodium_iodate_dust')
+     .notConsumable('gtceu:osmium_tetroxide_dust')
+     .inputFluids(Fluid.of('gtceu:acetone',1000))
+     .outputFluids(Fluid.of('gtceu:acetaldehyde',1000))
+     .outputFluids(Fluid.of('gtceu:formaldehyde',1000))
+     .duration(220)
+     .EUt(7680)
 
+     
 //CH3CHO + O -> (CHO)2 + H2O
      ctnh.chemical_reactor('glyoxal')
      .inputFluids(Fluid.of('gtceu:acetaldehyde',1000))

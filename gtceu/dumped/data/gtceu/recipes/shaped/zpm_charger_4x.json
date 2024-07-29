@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WTW","WMW","BCB"],"key":{"M":{"item":"gtceu:zpm_machine_hull"},"W":{"item":"gtceu:vanadium_gallium_quadruple_wire"},"T":{"tag":"forge:chests/wooden"},"B":{"item":"gtceu:vanadium_gallium_single_cable"},"C":{"tag":"gtceu:circuits/zpm"}},"result":{"item":"gtceu:zpm_charger_4x"}}

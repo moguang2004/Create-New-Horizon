@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["hIw"," M "," d "],"key":{"I":{"item":"minecraft:furnace"},"M":{"item":"minecraft:minecart"},"w":{"tag":"forge:tools/wrenches"},"d":{"tag":"forge:tools/screwdrivers"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:furnace_minecart"}}

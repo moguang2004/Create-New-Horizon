@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PhP"," P "," P "],"key":{"P":{"tag":"forge:plates/wrought_iron"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:wrought_iron_wrench","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":383},"GT.Behaviours":{"Mode":2},"HideFlags":2}}}

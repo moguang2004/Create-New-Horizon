@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PPP","PwP","BFB"],"key":{"F":{"item":"minecraft:furnace"},"P":{"tag":"forge:plates/steel"},"B":{"item":"minecraft:bricks"},"w":{"tag":"forge:tools/wrenches"}},"result":{"item":"gtceu:hp_steam_solid_boiler"}}

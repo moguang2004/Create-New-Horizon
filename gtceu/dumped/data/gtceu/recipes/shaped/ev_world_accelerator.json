@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["FSF","EHE","FSF"],"key":{"F":{"item":"gtceu:ev_field_generator"},"S":{"item":"gtceu:ev_sensor"},"E":{"item":"gtceu:ev_emitter"},"H":{"item":"gtceu:ev_machine_hull"}},"result":{"item":"gtceu:ev_world_accelerator"}}

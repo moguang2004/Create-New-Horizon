@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CWR","WMW","RWC"],"key":{"C":{"item":"gtceu:tin_single_cable"},"W":{"item":"gtceu:copper_single_wire"},"R":{"tag":"forge:rods/iron"},"M":{"tag":"forge:rods/magnetic_iron"}},"result":{"item":"gtceu:lv_electric_motor"}}

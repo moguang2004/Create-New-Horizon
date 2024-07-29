@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ECE","CMC","WCW"],"key":{"M":{"item":"gtceu:iv_machine_hull"},"E":{"tag":"gtceu:circuits/iv"},"W":{"item":"gtceu:platinum_single_cable"},"C":{"item":"gtceu:tungsten_steel_quadruple_wire"}},"result":{"item":"gtceu:iv_alloy_smelter"}}

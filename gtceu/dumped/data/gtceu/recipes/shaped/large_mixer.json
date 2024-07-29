@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["FCF","RXR","MKM"],"key":{"C":{"tag":"gtceu:circuits/iv"},"F":{"item":"gtceu:polybenzimidazole_normal_fluid_pipe"},"R":{"item":"gtceu:osmiridium_rotor"},"M":{"item":"gtceu:iv_electric_motor"},"X":{"item":"gtceu:iv_mixer"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_mixer"}}

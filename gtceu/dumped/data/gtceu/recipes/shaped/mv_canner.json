@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WPW","CMC","GGG"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"P":{"item":"gtceu:mv_electric_pump"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:mv_canner"}}

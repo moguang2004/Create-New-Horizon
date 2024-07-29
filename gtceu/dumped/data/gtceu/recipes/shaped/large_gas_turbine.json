@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PSP","SAS","CSC"],"key":{"S":{"tag":"forge:gears/stainless_steel"},"P":{"tag":"gtceu:circuits/ev"},"A":{"item":"gtceu:ev_machine_hull"},"C":{"item":"gtceu:stainless_steel_large_fluid_pipe"}},"result":{"item":"gtceu:gas_large_turbine"}}

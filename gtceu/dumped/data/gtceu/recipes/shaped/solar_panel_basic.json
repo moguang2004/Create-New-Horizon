@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WGW","CPC"],"key":{"W":{"item":"gtceu:silicon_wafer"},"G":{"item":"minecraft:glass_pane"},"C":{"tag":"gtceu:circuits/lv"},"P":{"item":"gtceu:carbon_fiber_plate"}},"result":{"item":"gtceu:solar_panel"}}

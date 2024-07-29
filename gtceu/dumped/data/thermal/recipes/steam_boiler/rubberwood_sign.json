@@ -1,1 +1,0 @@
-{"type":"gtceu:steam_boiler","duration":2400,"inputs":{"item":[{"content":{"type":"gtceu:sized","fabric:type":"gtceu:sized","count":1,"ingredient":{"item":"thermal:rubberwood_sign"}},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

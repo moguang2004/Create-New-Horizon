@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PLP","CHC"],"key":{"P":{"tag":"forge:plates/polyethylene"},"L":{"tag":"forge:plates/stainless_steel"},"C":{"item":"gtceu:gold_single_cable"},"H":{"item":"gtceu:hv_machine_casing"}},"result":{"item":"gtceu:hv_machine_hull"}}

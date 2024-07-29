@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CRC","STS","GAG"],"key":{"C":{"tag":"minecraft:stone_crafting_materials"},"R":{"tag":"forge:rings/iron"},"S":{"tag":"forge:springs/iron"},"T":{"item":"minecraft:string"},"G":{"tag":"forge:small_gears/iron"},"A":{"tag":"forge:rods/red_alloy"}},"result":{"item":"minecraft:dispenser"}}

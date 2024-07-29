@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SRd","PLP","CRC"],"key":{"S":{"tag":"forge:screws/iron"},"R":{"tag":"forge:rings/iron"},"P":{"item":"gtceu:treated_wood_planks"},"L":{"item":"gtceu:wood_large_fluid_pipe"},"C":{"item":"minecraft:cobblestone_slab"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"gtceu:pump_hatch"}}

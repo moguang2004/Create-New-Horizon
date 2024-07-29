@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PGP","WMW","CBC"],"key":{"M":{"item":"gtceu:uv_machine_hull"},"P":{"item":"gtceu:uv_electric_pump"},"C":{"tag":"gtceu:circuits/uv"},"W":{"item":"gtceu:yttrium_barium_cuprate_single_cable"},"G":{"item":"gtceu:fusion_glass"},"B":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:uv_fluid_solidifier"}}

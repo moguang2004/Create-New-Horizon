@@ -16,7 +16,7 @@
 	#Applies an offset to the temperature of a biome
 	"Biome Temperature Offsets" = []
 	#Defines the temperature of a biome, overriding existing biome temperatures & offsets.
-	"Biome Temperatures" = []
+	"Biome Temperatures" = [["minecraft:ice_spikes", -18, -10, "C"], ["minecraft:jagged_peaks", -18, -10, "C"], ["minecraft:snowy_taiga", -18, -10, "C"], ["minecraft:snowy_slopes", -19, -9, "C"], ["minecraft:frozen_river", -16, -12, "C"], ["minecraft:frozen_ocean", -16, -12, "C"], ["minecraft:snowy_plains", -19, -9, "C"], ["minecraft:ice_spikes", -18, -10, "C"], ["minecraft:snowy_beach", -17, -11, "C"], ["minecraft:windswept_gravelly_hills", -16, -6, "C"], ["minecraft:windswept_forest", -15, -7, "C"], ["minecraft:windswept_hills", -16, -6, "C"], ["minecraft:stony_shore", -16, -6, "C"], ["minecraft:old_growth_spruce_taiga", -8, 0, "C"], ["minecraft:taiga", -8, 0, "C"], ["old_growth_pine_taiga", -8, 0, "C"], ["minecraft:meadow", -2, 8, "C"], ["minecraft:warm_ocean", 14, 16, "C"], ["minecraft:lukewarm_ocean", 14, 16, "C"], ["minecraft:ocean", 14, 16, "C"], ["minecraft:cold_ocean", 14, 16, "C"], ["minecraft:river", 12, 18, "C"], ["minecraft:birch_forest", 6, 14, "C"], ["minecraft:old_growth_birch_forest", 6, 14, "C"], ["minecraft:forest", 6, 14, "C"], ["minecraft:dark_forest", 6, 14, "C"], ["minecraft:flower_forest", 6, 14, "C"], ["minecraft:mangrove_swamp", 6, 14, "C"], ["minecraft:swamp", 6, 14, "C"], ["minecraft:plains", 6, 14, "C"], ["minecraft:beach", 6, 14, "C"], ["minecraft:mushroom_fields", 11, 19, "C"], ["minecraft:jungle", 13, 19, "C"], ["minecraft:bamboo_jungle", 13, 19, "C"], ["minecraft:sparse_jungle", 12, 20, "C"], ["minecraft:stony_peaks", 12, 22, "C"], ["minecraft:desert", 16, 32, "C"], ["minecraft:savanna", 20, 28, "C"], ["minecraft:savanna_plateau", 20, 28, "C"], ["minecraft:windswept_savanna", 20, 28, "C"], ["minecraft:badlands", 20, 28, "C"], ["minecraft:wooded_badlands", 20, 28, "C"], ["minecraft:eroded_badlands", 20, 28, "C"], ["minecraft:deep_lukewarm_ocean", 14, 16, "C"], ["minecraft:deep_ocean", 14, 16, "C"], ["minecraft:deep_cold_ocean", 14, 16, "C"], ["minecraft:deep_frozen_ocean", 14, 16, "C"], ["minecraft:deep_frozen_ocean", 14, 16, "C"], ["minecraft:lush_caves", 14, 16, "C"], ["minecraft:dripstone_caves", 14, 16, "C"]]
 
 [Misc]
 	#The amount of temperature normalization from being deep underground
@@ -29,7 +29,7 @@
 	"Structure Temperatures" = [["minecraft:igloo", 65.0, "F"]]
 	#List of blocks that will allow the player to sleep on them, regardless of the "Prevent Sleep When in Danger" setting
 	#Use this list if the player is not getting the temperature effect from sleeping on particular blocks
-	"Sleep Check Override Blocks" = []
+	"Sleep Check Override Blocks" = ["minecraft:campfire", "minecraft:soul_campfire"]
 	#Converts damage dealt by Soul Fire to cold damage (default: true)
 	#Does not affect the block's temperature
 	"Cold Soul Fire" = true
@@ -38,7 +38,7 @@
 	#Offsets the world temperature when the player is within this structure
 	#Format: [["structure_1", offset1, *units], ["structure_2", offset2, *units]... etc]
 	#(* = optional)
-	"Structure Temperature Offsets" = []
+	"Structure Temperature Offsets" = [["minecraft:bastion_remnant", -0.4, "MC"], ["minecraft:fortress", -0.2, "MC"]]
 
 [Hearth]
 	#How effective the hearth is at normalizing temperature
@@ -54,10 +54,10 @@
 #Format: [season-start, season-mid, season-end]
 #Applied as an offset to the world's temperature
 ["Season Temperatures"]
-	Summer = [0.4, 0.6, 0.4]
-	Autumn = [0.2, 0, -0.2]
-	Winter = [-0.4, -0.6, -0.4]
-	Spring = [-0.2, 0, 0.2]
+	Summer = [0.44, 0.6, 0.6]
+	Autumn = [0.44, 0.16, -0.16]
+	Winter = [-0.44, -0.6, -0.6]
+	Spring = [-0.44, -0.16, 0.16]
 
 [Blocks]
 	#Allows for adding simple BlockTemps without the use of Java mods

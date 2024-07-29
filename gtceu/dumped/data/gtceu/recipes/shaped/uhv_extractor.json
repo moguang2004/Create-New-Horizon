@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GCG","EMP","WCW"],"key":{"M":{"item":"gtceu:uhv_machine_hull"},"E":{"item":"gtceu:uhv_electric_piston"},"P":{"item":"gtceu:uhv_electric_pump"},"C":{"tag":"gtceu:circuits/uhv"},"W":{"item":"gtceu:europium_single_cable"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:uhv_extractor"}}

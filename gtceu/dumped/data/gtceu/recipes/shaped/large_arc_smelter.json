@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["KDK","CXC","PPP"],"key":{"C":{"tag":"gtceu:circuits/iv"},"P":{"tag":"forge:plates/tantalum_carbide"},"X":{"item":"gtceu:iv_arc_furnace"},"D":{"tag":"forge:dusts/graphite"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_arc_smelter"}}

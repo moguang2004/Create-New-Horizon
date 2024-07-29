@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ShS","LCL","SdS"],"key":{"S":{"tag":"forge:screws/steel"},"L":{"tag":"forge:plates/gold"},"C":{"tag":"forge:springs/steel"},"d":{"tag":"forge:tools/screwdrivers"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:light_weighted_pressure_plate"}}

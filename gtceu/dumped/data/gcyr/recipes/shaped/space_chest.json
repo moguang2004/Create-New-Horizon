@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["STS","SCS","SCS"],"key":{"S":{"item":"gcyr:space_fabric"},"T":{"item":"gtceu:tungstensteel_fluid_cell"},"C":{"tag":"gtceu:circuits/ev"}},"result":{"item":"gcyr:space_chestplate","nbt":{"Damage":0}}}

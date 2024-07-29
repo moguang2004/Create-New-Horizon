@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PhP"," P "," P "],"key":{"P":{"tag":"forge:plates/cobalt_brass"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:cobalt_brass_wrench","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":1023},"GT.Behaviours":{"Mode":2},"HideFlags":2}}}

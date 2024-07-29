@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["RCR","PXP","KPK"],"key":{"C":{"tag":"gtceu:circuits/ev"},"P":{"tag":"forge:plates/hsla_steel"},"R":{"item":"gtceu:hv_robot_arm"},"K":{"item":"gtceu:hv_conveyor_module"},"X":{"item":"gtceu:hv_packer"}},"result":{"item":"gtceu:large_packer"}}

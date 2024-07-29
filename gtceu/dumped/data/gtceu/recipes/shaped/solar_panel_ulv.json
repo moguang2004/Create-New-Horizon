@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WGW","CAC","P P"],"key":{"W":{"item":"gtceu:phosphorus_wafer"},"G":{"tag":"forge:glass_panes"},"C":{"tag":"gtceu:circuits/hv"},"P":{"item":"gtceu:gallium_arsenide_plate"},"A":{"item":"gtceu:graphene_quadruple_wire"}},"result":{"item":"gtceu:ulv_solar_panel"}}

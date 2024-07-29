@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" WW","RMC"," WW"],"key":{"C":{"tag":"gtceu:circuits/ulv"},"M":{"item":"gtceu:ulv_machine_hull"},"W":{"item":"gtceu:red_alloy_octal_cable"},"R":{"item":"gtceu:red_alloy_octal_cable"}},"result":{"item":"gtceu:ulv_8a_energy_converter"}}

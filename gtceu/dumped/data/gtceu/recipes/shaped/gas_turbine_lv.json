@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CRC","RMR","EWE"],"key":{"M":{"item":"gtceu:lv_machine_hull"},"E":{"item":"gtceu:lv_electric_motor"},"R":{"tag":"forge:rotors/tin"},"C":{"tag":"gtceu:circuits/lv"},"W":{"item":"gtceu:tin_single_cable"}},"result":{"item":"gtceu:lv_gas_turbine"}}

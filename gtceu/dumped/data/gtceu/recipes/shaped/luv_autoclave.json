@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["IGI","IMI","CPC"],"key":{"M":{"item":"gtceu:luv_machine_hull"},"P":{"item":"gtceu:luv_electric_pump"},"C":{"tag":"gtceu:circuits/luv"},"I":{"tag":"forge:plates/rhodium_plated_palladium"},"G":{"item":"gtceu:laminated_glass"}},"result":{"item":"gtceu:luv_autoclave"}}

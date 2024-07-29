@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GCG","EMP","WCW"],"key":{"M":{"item":"gtceu:zpm_machine_hull"},"E":{"item":"gtceu:zpm_electric_piston"},"P":{"item":"gtceu:zpm_electric_pump"},"C":{"tag":"gtceu:circuits/zpm"},"W":{"item":"gtceu:vanadium_gallium_single_cable"},"G":{"item":"gtceu:fusion_glass"}},"result":{"item":"gtceu:zpm_extractor"}}

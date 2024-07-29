@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CDC","DHD","PDP"],"key":{"H":{"item":"gtceu:ev_machine_hull"},"D":{"item":"gtceu:smd_diode"},"P":{"tag":"forge:plates/titanium"},"C":{"item":"gtceu:aluminium_quadruple_cable"}},"result":{"item":"gtceu:ev_diode"}}

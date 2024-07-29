@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CEC","OMO","WEW"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"E":{"item":"gtceu:hv_electric_motor"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"},"O":{"item":"gtceu:kanthal_quadruple_wire"}},"result":{"item":"gtceu:hv_thermal_centrifuge"}}

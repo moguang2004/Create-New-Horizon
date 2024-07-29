@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WFW","PMP","CFC"],"key":{"M":{"item":"gtceu:ev_machine_hull"},"P":{"item":"gtceu:ev_electric_piston"},"F":{"item":"gtceu:item_filter"},"C":{"tag":"gtceu:circuits/ev"},"W":{"item":"gtceu:aluminium_single_cable"}},"result":{"item":"gtceu:ev_sifter"}}

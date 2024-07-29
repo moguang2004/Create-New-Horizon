@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SGS","PBP","PWP"],"key":{"S":{"tag":"forge:screws/wrought_iron"},"G":{"tag":"forge:glass_panes"},"B":{"item":"minecraft:book"},"P":{"tag":"forge:plates/wrought_iron"},"W":{"item":"gtceu:red_alloy_single_wire"}},"result":{"item":"gtceu:terminal"}}

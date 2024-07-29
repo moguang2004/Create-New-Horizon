@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","DHD","PCP"],"key":{"H":{"item":"gtceu:ev_machine_hull"},"P":{"item":"gtceu:ev_electric_pump"},"D":{"item":"gtceu:ev_voltage_coil"},"C":{"tag":"gtceu:circuits/ev"}},"result":{"item":"gcyr:ev_heat_exchanger"}}

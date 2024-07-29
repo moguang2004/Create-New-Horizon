@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" I ","SIS","SSS"],"key":{"I":{"tag":"forge:ingots/cobalt_brass"},"S":{"item":"minecraft:stone"}},"result":{"item":"gtceu:cobalt_brass_mortar","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":1023},"GT.Behaviours":{},"HideFlags":2}}}

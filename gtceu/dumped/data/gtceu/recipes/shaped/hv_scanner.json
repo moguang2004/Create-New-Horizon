@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CEC","WHW","CSC"],"key":{"C":{"tag":"gtceu:circuits/ev"},"E":{"item":"gtceu:hv_emitter"},"W":{"item":"gtceu:gold_single_cable"},"H":{"item":"gtceu:hv_machine_hull"},"S":{"item":"gtceu:hv_sensor"}},"result":{"item":"gtceu:hv_scanner"}}

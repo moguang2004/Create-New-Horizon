@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PhP"," P "," P "],"key":{"P":{"tag":"forge:plates/neutronium"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:neutronium_wrench","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":65534},"GT.Behaviours":{"RelocateMinedBlocks":1,"Mode":2},"Unbreakable":1,"HideFlags":2}}}

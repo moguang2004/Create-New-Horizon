@@ -1,1 +1,0 @@
-{"type":"gtceu:rocket_engine","duration":6,"inputs":{"fluid":[{"content":{"amount":1,"value":[{"tag":"forge:udmh_rocket_fuel"}]},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{"eu":[{"content":2048,"chance":1.0,"tierChanceBoost":0.0}]}}

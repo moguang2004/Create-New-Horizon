@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["MMM","WHW","CSC"],"key":{"M":{"item":"gtceu:lv_electric_motor"},"W":{"item":"gtceu:tin_single_cable"},"H":{"item":"gtceu:lv_machine_hull"},"C":{"tag":"gtceu:circuits/lv"},"S":{"item":"gtceu:lv_sensor"}},"result":{"item":"gtceu:lv_miner"}}

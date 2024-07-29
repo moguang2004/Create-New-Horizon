@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WWW","WCW","ZKZ"],"key":{"W":{"item":"gtceu:platinum_double_wire"},"Z":{"tag":"gtceu:circuits/iv"},"C":{"item":"gtceu:nonconducting_casing"},"K":{"item":"gtceu:tungsten_single_cable"}},"result":{"item":"gtceu:electrolytic_cell","count":2}}

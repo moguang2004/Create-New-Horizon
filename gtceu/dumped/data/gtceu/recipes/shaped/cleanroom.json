@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["FFF","RHR","MCM"],"key":{"F":{"item":"gtceu:item_filter"},"R":{"tag":"forge:rotors/stainless_steel"},"H":{"item":"gtceu:hv_machine_hull"},"M":{"item":"gtceu:hv_electric_motor"},"C":{"tag":"gtceu:circuits/hv"}},"result":{"item":"gtceu:cleanroom"}}

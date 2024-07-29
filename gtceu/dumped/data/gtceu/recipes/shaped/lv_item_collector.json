@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["MRM","RHR","CWC"],"key":{"M":{"item":"gtceu:lv_electric_motor"},"R":{"tag":"forge:rotors/tin"},"H":{"item":"gtceu:lv_machine_hull"},"C":{"tag":"gtceu:circuits/lv"},"W":{"item":"gtceu:tin_single_cable"}},"result":{"item":"gtceu:lv_item_collector"}}

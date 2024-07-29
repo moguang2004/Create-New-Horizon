@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","FHF","PCP"],"key":{"H":{"item":"gtceu:luv_machine_hull"},"P":{"item":"gtceu:luv_electric_pump"},"F":{"item":"gtceu:fluid_filter"},"C":{"tag":"gtceu:circuits/luv"}},"result":{"item":"gcyr:luv_oxygen_spreader"}}

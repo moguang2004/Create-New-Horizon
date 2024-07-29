@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["hDS","DSD","SDf"],"key":{"S":{"tag":"forge:rods/hsse"},"D":{"tag":"forge:dyes/yellow"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:hsse_crowbar","nbt":{"DisallowContainerItem":0,"GT.Tool":{"TintColor":16776960,"Damage":0,"MaxDamage":3071},"GT.Behaviours":{},"HideFlags":2}}}

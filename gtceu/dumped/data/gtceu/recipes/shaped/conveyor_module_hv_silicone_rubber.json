@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["RRR","MCM","RRR"],"key":{"R":{"tag":"forge:plates/silicone_rubber"},"C":{"item":"gtceu:gold_single_cable"},"M":{"item":"gtceu:hv_electric_motor"}},"result":{"item":"gtceu:hv_conveyor_module"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","PAP","BKB"],"key":{"C":{"tag":"gtceu:circuits/iv"},"A":{"item":"gtceu:iv_autoclave"},"P":{"tag":"forge:double_plates/hsla_steel"},"B":{"item":"gtceu:iv_electric_pump"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_autoclave"}}

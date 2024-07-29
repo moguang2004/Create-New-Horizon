@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["RPR","VBV","CCC"],"key":{"R":{"item":"gtceu:resistor"},"P":{"tag":"forge:plates/steel"},"V":{"item":"gtceu:vacuum_tube"},"B":{"item":"gtceu:resin_printed_circuit_board"},"C":{"item":"gtceu:red_alloy_single_cable"}},"result":{"item":"gtceu:basic_electronic_circuit"}}

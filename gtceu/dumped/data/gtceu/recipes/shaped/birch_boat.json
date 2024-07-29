@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PHP","PkP","SSS"],"key":{"P":{"item":"minecraft:birch_planks"},"S":{"item":"minecraft:birch_slab"},"H":{"tag":"minecraft:shovels"},"k":{"tag":"forge:tools/knives"}},"result":{"item":"minecraft:birch_boat"}}

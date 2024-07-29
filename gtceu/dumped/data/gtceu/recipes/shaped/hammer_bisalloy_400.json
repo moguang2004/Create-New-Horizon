@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["II ","IIS","II "],"key":{"I":{"tag":"forge:ingots/bisalloy_400"},"S":{"item":"minecraft:stick"}},"result":{"item":"gcyr:bisalloy_400_hammer","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":1295},"GT.Behaviours":{},"HideFlags":2}}}

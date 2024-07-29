@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["G","F","S"],"key":{"G":{"tag":"forge:small_gears/steel"},"F":{"item":"minecraft:flint"},"S":{"tag":"forge:small_springs/steel"}},"result":{"item":"minecraft:flint_and_steel","nbt":{"Damage":0}}}

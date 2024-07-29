@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CRX","RGR","XRC"],"key":{"R":{"tag":"forge:rods/platinum"},"C":{"item":"gtceu:aluminium_single_cable"},"G":{"item":"gtceu:quantum_eye"},"X":{"tag":"gtceu:circuits/ev"}},"result":{"item":"gtceu:ev_emitter"}}

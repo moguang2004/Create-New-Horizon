@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WCW","EMD","CWP"],"key":{"M":{"item":"gtceu:lv_machine_hull"},"E":{"item":"gtceu:lv_electric_motor"},"P":{"item":"gtceu:lv_electric_piston"},"C":{"tag":"gtceu:circuits/lv"},"W":{"item":"gtceu:tin_single_cable"},"D":{"tag":"forge:gems/diamond"}},"result":{"item":"gtceu:lv_lathe"}}

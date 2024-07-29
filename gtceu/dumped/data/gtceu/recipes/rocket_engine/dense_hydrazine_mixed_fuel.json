@@ -1,1 +1,0 @@
-{"type":"gtceu:rocket_engine","duration":3,"inputs":{"fluid":[{"content":{"amount":2,"value":[{"tag":"forge:dense_hydrazine_mixed_fuel"}]},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{"eu":[{"content":2048,"chance":1.0,"tierChanceBoost":0.0}]}}

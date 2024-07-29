@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CGC","FMF","CGC"],"key":{"F":{"item":"gtceu:bronze_firebox_casing"},"C":{"item":"gtceu:steam_machine_casing"},"M":{"item":"gtceu:lp_steam_furnace"},"G":{"tag":"forge:gears/invar"}},"result":{"item":"gtceu:steam_oven"}}

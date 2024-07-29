@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","EME","GWG"],"key":{"M":{"item":"gtceu:lv_machine_hull"},"P":{"item":"gtceu:lv_electric_piston"},"E":{"item":"gtceu:lv_electric_motor"},"C":{"tag":"gtceu:circuits/lv"},"W":{"item":"gtceu:tin_single_cable"},"G":{"tag":"forge:gears/steel"}},"result":{"item":"gtceu:lv_combustion"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WPW","XGX","WPW"],"key":{"W":{"item":"gtceu:mercury_barium_calcium_cuprate_quadruple_wire"},"P":{"tag":"forge:plates/stainless_steel"},"G":{"item":"gtceu:quantum_eye"},"X":{"tag":"gtceu:circuits/hv"}},"result":{"item":"gtceu:hv_field_generator"}}

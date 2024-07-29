@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PLP","CHC"],"key":{"P":{"tag":"forge:plates/polytetrafluoroethylene"},"L":{"tag":"forge:plates/rhodium_plated_palladium"},"C":{"item":"gtceu:niobium_titanium_single_cable"},"H":{"item":"gtceu:luv_machine_casing"}},"result":{"item":"gtceu:luv_machine_hull"}}

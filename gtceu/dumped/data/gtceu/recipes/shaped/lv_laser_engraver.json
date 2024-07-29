@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PEP","CMC","WCW"],"key":{"M":{"item":"gtceu:lv_machine_hull"},"E":{"item":"gtceu:lv_emitter"},"P":{"item":"gtceu:lv_electric_piston"},"C":{"tag":"gtceu:circuits/lv"},"W":{"item":"gtceu:tin_single_cable"}},"result":{"item":"gtceu:lv_laser_engraver"}}

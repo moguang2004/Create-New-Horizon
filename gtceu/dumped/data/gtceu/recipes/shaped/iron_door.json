@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PTh","PRS","PPd"],"key":{"P":{"tag":"forge:plates/iron"},"T":{"item":"minecraft:iron_bars"},"R":{"tag":"forge:rings/steel"},"S":{"tag":"forge:screws/steel"},"d":{"tag":"forge:tools/screwdrivers"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:iron_door"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" I ","SIS","SSS"],"key":{"I":{"tag":"forge:ingots/damascus_steel"},"S":{"item":"minecraft:stone"}},"result":{"item":"gtceu:damascus_steel_mortar","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":1023},"GT.Behaviours":{},"HideFlags":2}}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["VGW","PGV","CMC"],"key":{"M":{"item":"gtceu:uhv_machine_hull"},"P":{"item":"gtceu:uhv_electric_pump"},"V":{"item":"gtceu:uhv_conveyor_module"},"C":{"tag":"gtceu:circuits/uhv"},"W":{"item":"gtceu:europium_single_cable"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:uhv_chemical_bath"}}

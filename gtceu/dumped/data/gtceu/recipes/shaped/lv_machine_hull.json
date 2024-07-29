@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PLP","CHC"],"key":{"P":{"tag":"forge:plates/wrought_iron"},"L":{"tag":"forge:plates/steel"},"C":{"item":"gtceu:tin_single_cable"},"H":{"item":"gtceu:lv_machine_casing"}},"result":{"item":"gtceu:lv_machine_hull"}}

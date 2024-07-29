@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["hAf","ABA","dBs"],"key":{"A":{"tag":"forge:plates/copper"},"B":{"tag":"forge:rods/long/copper"},"s":{"tag":"forge:tools/saws"},"d":{"tag":"forge:tools/screwdrivers"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:lightning_rod"}}

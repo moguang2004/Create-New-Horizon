@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["fPh"," S "," S "],"key":{"P":{"tag":"forge:plates/tungsten_steel"},"S":{"item":"minecraft:stick"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:tungsten_steel_shovel","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":2047},"GT.Behaviours":{},"HideFlags":2}}}

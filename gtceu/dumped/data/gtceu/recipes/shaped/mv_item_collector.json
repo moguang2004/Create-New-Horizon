@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["MRM","RHR","CWC"],"key":{"M":{"item":"gtceu:mv_electric_motor"},"R":{"tag":"forge:rotors/bronze"},"H":{"item":"gtceu:mv_machine_hull"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"}},"result":{"item":"gtceu:mv_item_collector"}}

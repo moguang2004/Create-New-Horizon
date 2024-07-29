@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","EME","GWG"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"P":{"item":"gtceu:hv_electric_piston"},"E":{"item":"gtceu:hv_electric_motor"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"},"G":{"tag":"forge:gears/stainless_steel"}},"result":{"item":"gtceu:hv_combustion"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["XSX","PMP","XXX"],"key":{"M":{"item":"gtceu:lp_steam_furnace"},"X":{"item":"gtceu:tin_alloy_small_fluid_pipe"},"S":{"tag":"forge:plates/steel"},"P":{"tag":"forge:plates/wrought_iron"}},"result":{"item":"gtceu:hp_steam_furnace"}}

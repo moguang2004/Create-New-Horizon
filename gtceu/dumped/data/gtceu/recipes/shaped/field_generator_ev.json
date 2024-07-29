@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WPW","XGX","WPW"],"key":{"W":{"item":"gtceu:uranium_triplatinum_quadruple_wire"},"P":{"tag":"forge:double_plates/titanium"},"G":{"tag":"forge:gems/nether_star"},"X":{"tag":"gtceu:circuits/ev"}},"result":{"item":"gtceu:ev_field_generator"}}

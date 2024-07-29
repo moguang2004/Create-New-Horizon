@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PPP","CRR","CMG"],"key":{"P":{"tag":"forge:plates/stainless_steel"},"C":{"item":"gtceu:gold_single_cable"},"R":{"tag":"forge:rods/stainless_steel"},"G":{"tag":"forge:small_gears/stainless_steel"},"M":{"item":"gtceu:hv_electric_motor"}},"result":{"item":"gtceu:hv_electric_piston"}}

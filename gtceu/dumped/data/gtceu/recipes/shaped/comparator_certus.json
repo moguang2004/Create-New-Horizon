@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["STS","TQT","PdP"],"key":{"S":{"tag":"forge:screws/iron"},"T":{"item":"minecraft:redstone_torch"},"Q":{"tag":"forge:plates/certus_quartz"},"P":{"item":"minecraft:stone_pressure_plate"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"minecraft:comparator"}}

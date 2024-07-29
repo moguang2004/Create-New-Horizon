@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WMW","RER","CHC"],"key":{"H":{"item":"gtceu:lv_machine_hull"},"C":{"tag":"gtceu:circuits/lv"},"E":{"item":"create:shaft"},"W":{"item":"gtceu:tin_hex_cable"},"M":{"item":"gtceu:lv_electric_motor"},"R":{"tag":"forge:rotors/tin"}},"result":{"item":"gtceu:lv_electric_gear_box_32a"}}

@@ -45,7 +45,7 @@ ServerEvents.recipes(event =>{
               
               E:  "minecraft:redstone",
               
-              F: 'gtceu:aluminium_plate',
+              F: 'gtceu:steel_plate',
               
               G: "minecraft:iron_bars",
               

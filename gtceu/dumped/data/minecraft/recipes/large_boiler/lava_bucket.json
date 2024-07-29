@@ -1,1 +1,0 @@
-{"type":"gtceu:large_boiler","duration":250,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"minecraft:lava_bucket"}},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}

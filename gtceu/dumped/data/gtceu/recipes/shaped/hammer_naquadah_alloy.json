@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["II ","IIS","II "],"key":{"I":{"tag":"forge:ingots/naquadah_alloy"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:naquadah_alloy_hammer","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":3071},"GT.Behaviours":{"RelocateMinedBlocks":1},"HideFlags":2}}}

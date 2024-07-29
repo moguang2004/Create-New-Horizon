@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GRG","GEG","CMC"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"E":{"item":"gtceu:mv_electric_motor"},"R":{"tag":"forge:rotors/bronze"},"C":{"tag":"gtceu:circuits/mv"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:mv_mixer"}}

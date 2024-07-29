@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["RGR","CEC","WMW"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"R":{"tag":"forge:rotors/steel"},"E":{"item":"gtceu:hv_electric_motor"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"},"G":{"item":"gtceu:tempered_glass"}},"result":{"item":"gtceu:hv_ore_washer"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","EME","GWG"],"key":{"M":{"item":"gtceu:iv_machine_hull"},"P":{"item":"gtceu:iv_electric_piston"},"E":{"item":"gtceu:iv_electric_motor"},"C":{"tag":"gtceu:circuits/luv"},"W":{"item":"gtceu:hssg_single_cable"},"G":{"tag":"forge:gears/tungsten_steel"}},"result":{"item":"gtceu:extreme_combustion_engine"}}

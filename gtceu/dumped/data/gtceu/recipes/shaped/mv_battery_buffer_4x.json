@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WTW","WMW"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"W":{"item":"gtceu:copper_quadruple_wire"},"T":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:mv_battery_buffer_4x"}}

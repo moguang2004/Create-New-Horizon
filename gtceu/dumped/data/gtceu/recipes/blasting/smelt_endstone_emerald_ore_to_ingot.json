@@ -1,1 +1,0 @@
-{"type":"minecraft:blasting","ingredient":{"type":"forge:intersection","children":[{"tag":"forge:ores/emerald"},{"tag":"forge:ores_in_ground/endstone"}]},"result":{"item":"minecraft:emerald","count":4},"experience":1.0,"cookingtime":100}

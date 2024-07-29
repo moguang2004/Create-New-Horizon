@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PhP","RFR","PwP"],"key":{"R":{"tag":"forge:rotors/titanium"},"F":{"item":"gtceu:stable_machine_casing"},"P":{"item":"gtceu:titanium_normal_fluid_pipe"},"w":{"tag":"forge:tools/wrenches"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:engine_intake_casing","count":2}}

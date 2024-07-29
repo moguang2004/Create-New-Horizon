@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WFW","PMP","CFC"],"key":{"M":{"item":"gtceu:luv_machine_hull"},"P":{"item":"gtceu:luv_electric_piston"},"F":{"item":"gtceu:item_filter"},"C":{"tag":"gtceu:circuits/luv"},"W":{"item":"gtceu:niobium_titanium_single_cable"}},"result":{"item":"gtceu:luv_sifter"}}

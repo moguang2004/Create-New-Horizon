@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PG","CM"],"key":{"P":{"item":"gtceu:neutronium_nonuple_fluid_pipe"},"M":{"item":"gtceu:uev_machine_hull"},"G":{"tag":"forge:glass"},"C":{"tag":"forge:chests/wooden"}},"result":{"item":"gregiceng:uev_input_buffer"}}

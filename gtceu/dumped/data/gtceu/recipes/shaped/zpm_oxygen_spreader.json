@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","FHF","PCP"],"key":{"H":{"item":"gtceu:zpm_machine_hull"},"P":{"item":"gtceu:zpm_electric_pump"},"F":{"item":"gtceu:fluid_filter"},"C":{"tag":"gtceu:circuits/zpm"}},"result":{"item":"gcyr:zpm_oxygen_spreader"}}

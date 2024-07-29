@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" WW","RMC"," WW"],"key":{"C":{"tag":"gtceu:circuits/uv"},"M":{"item":"gtceu:uv_machine_hull"},"W":{"item":"gtceu:yttrium_barium_cuprate_single_cable"},"R":{"item":"gtceu:red_alloy_single_cable"}},"result":{"item":"gtceu:uv_1a_energy_converter"}}

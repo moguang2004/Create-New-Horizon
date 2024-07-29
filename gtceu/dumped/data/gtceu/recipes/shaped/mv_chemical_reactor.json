@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GRG","WEW","CMC"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"R":{"tag":"forge:rotors/bronze"},"E":{"item":"gtceu:mv_electric_motor"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"G":{"item":"minecraft:glass"}},"result":{"item":"gtceu:mv_chemical_reactor"}}

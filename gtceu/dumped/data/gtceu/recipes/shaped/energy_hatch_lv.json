@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" V ","CHC","   "],"key":{"C":{"item":"gtceu:tin_single_cable"},"V":{"item":"gtceu:lv_voltage_coil"},"H":{"item":"gtceu:lv_machine_hull"}},"result":{"item":"gtceu:lv_energy_input_hatch"}}

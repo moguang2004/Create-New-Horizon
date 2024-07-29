@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WCW","EMD","CWP"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"E":{"item":"gtceu:mv_electric_motor"},"P":{"item":"gtceu:mv_electric_piston"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"D":{"tag":"forge:gems/diamond"}},"result":{"item":"gtceu:mv_lathe"}}

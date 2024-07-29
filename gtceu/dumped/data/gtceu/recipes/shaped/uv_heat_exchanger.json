@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","DHD","PCP"],"key":{"H":{"item":"gtceu:uv_machine_hull"},"P":{"item":"gtceu:uv_electric_pump"},"D":{"item":"gtceu:uv_voltage_coil"},"C":{"tag":"gtceu:circuits/uv"}},"result":{"item":"gcyr:uv_heat_exchanger"}}

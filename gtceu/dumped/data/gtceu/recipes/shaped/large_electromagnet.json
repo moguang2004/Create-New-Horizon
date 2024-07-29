@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PWP","CXC","PKP"],"key":{"C":{"tag":"gtceu:circuits/iv"},"P":{"tag":"forge:plates/blue_steel"},"W":{"item":"gtceu:osmium_quadruple_wire"},"X":{"item":"gtceu:iv_electromagnetic_separator"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_electromagnet"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["RCR","SPE","HNH"],"key":{"R":{"item":"gtceu:luv_robot_arm"},"C":{"tag":"gtceu:circuits/zpm"},"S":{"item":"gtceu:luv_sensor"},"P":{"item":"gtceu:iv_processing_array"},"E":{"item":"gtceu:luv_emitter"},"H":{"tag":"forge:plates/hsse"},"N":{"item":"gtceu:naquadah_large_fluid_pipe"}},"result":{"item":"gtceu:luv_processing_array"}}

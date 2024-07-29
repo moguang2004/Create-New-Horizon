@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["IGI","IMI","CWC"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"C":{"tag":"gtceu:circuits/hv"},"W":{"item":"gtceu:gold_single_cable"},"I":{"item":"gtceu:electrum_single_wire"},"G":{"item":"gtceu:tempered_glass"}},"result":{"item":"gtceu:hv_electrolyzer"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ACA","VMV","WCW"],"key":{"M":{"item":"gtceu:zpm_machine_hull"},"V":{"item":"gtceu:zpm_conveyor_module"},"A":{"item":"gtceu:zpm_robot_arm"},"C":{"tag":"gtceu:circuits/zpm"},"W":{"item":"gtceu:vanadium_gallium_single_cable"}},"result":{"item":"gtceu:zpm_assembler"}}

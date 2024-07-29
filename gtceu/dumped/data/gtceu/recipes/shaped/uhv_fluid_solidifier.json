@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PGP","WMW","CBC"],"key":{"M":{"item":"gtceu:uhv_machine_hull"},"P":{"item":"gtceu:uhv_electric_pump"},"C":{"tag":"gtceu:circuits/uhv"},"W":{"item":"gtceu:europium_single_cable"},"G":{"tag":"forge:glass"},"B":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:uhv_fluid_solidifier"}}

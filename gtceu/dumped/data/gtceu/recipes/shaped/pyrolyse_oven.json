@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WEP","EME","WCP"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"W":{"item":"gtceu:mv_electric_piston"},"P":{"item":"gtceu:cupronickel_quadruple_wire"},"E":{"tag":"gtceu:circuits/mv"},"C":{"item":"gtceu:mv_electric_pump"}},"result":{"item":"gtceu:pyrolyse_oven"}}

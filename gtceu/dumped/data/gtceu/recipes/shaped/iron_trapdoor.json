@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SPS","PTP","sPd"],"key":{"S":{"tag":"forge:screws/iron"},"P":{"tag":"forge:plates/iron"},"T":{"tag":"minecraft:wooden_trapdoors"},"s":{"tag":"forge:tools/saws"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"minecraft:iron_trapdoor"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WPW","XGX","WPW"],"key":{"W":{"item":"gtceu:samarium_iron_arsenic_oxide_quadruple_wire"},"P":{"tag":"forge:double_plates/tungsten_steel"},"G":{"item":"gtceu:quantum_star"},"X":{"tag":"gtceu:circuits/iv"}},"result":{"item":"gtceu:iv_field_generator"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CWR","WMW","RWC"],"key":{"C":{"item":"gtceu:silver_double_cable"},"W":{"item":"gtceu:electrum_double_wire"},"R":{"tag":"forge:rods/stainless_steel"},"M":{"tag":"forge:rods/magnetic_steel"}},"result":{"item":"gtceu:hv_electric_motor"}}

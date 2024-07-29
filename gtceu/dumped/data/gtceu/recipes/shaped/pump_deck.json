@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SWS","dCh"],"key":{"S":{"tag":"forge:screws/iron"},"W":{"item":"gtceu:treated_wood_planks"},"C":{"item":"minecraft:cobblestone_slab"},"d":{"tag":"forge:tools/screwdrivers"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:pump_deck","count":2}}

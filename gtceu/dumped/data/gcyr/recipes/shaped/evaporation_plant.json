@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CBC","FMF","CBC"],"key":{"M":{"item":"gtceu:hv_machine_hull"},"B":{"item":"gtceu:kanthal_double_wire"},"C":{"tag":"gtceu:circuits/hv"},"F":{"item":"gtceu:hv_electric_pump"}},"result":{"item":"gcyr:evaporation_plant"}}

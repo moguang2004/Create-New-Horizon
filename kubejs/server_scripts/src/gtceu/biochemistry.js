@@ -135,7 +135,7 @@ ServerEvents.recipes(event =>{
         event.recipes.gtceu.digesting(food.toString() + '_digestion2')
         .EUt(120)
         .itemInputs(food.asIngredient().getItemIds())
-        .itemOutputs('gtceu:fertilizer')
+        .chancedOutput('gtceu:escherichia_coli_dust',500*Math.floor(nutrition + saturation/2),500)
         .inputFluids(Fluid.of('minecraft:water',75*Math.floor(nutrition + saturation/2)))
         .outputFluids(Fluid.of('gtceu:fermented_biomass',75*Math.floor(nutrition + saturation/2)))
         .circuit(1)

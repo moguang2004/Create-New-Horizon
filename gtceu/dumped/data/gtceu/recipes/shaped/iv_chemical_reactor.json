@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GRG","WEW","CMC"],"key":{"M":{"item":"gtceu:iv_machine_hull"},"R":{"tag":"forge:rotors/tungsten_steel"},"E":{"item":"gtceu:iv_electric_motor"},"C":{"tag":"gtceu:circuits/iv"},"W":{"item":"gtceu:platinum_single_cable"},"G":{"item":"gtceu:polyethylene_huge_fluid_pipe"}},"result":{"item":"gtceu:iv_chemical_reactor"}}

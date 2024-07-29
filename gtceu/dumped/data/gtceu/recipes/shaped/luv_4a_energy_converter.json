@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" WW","RMC"," WW"],"key":{"C":{"tag":"gtceu:circuits/luv"},"M":{"item":"gtceu:luv_machine_hull"},"W":{"item":"gtceu:niobium_titanium_quadruple_cable"},"R":{"item":"gtceu:red_alloy_quadruple_cable"}},"result":{"item":"gtceu:luv_4a_energy_converter"}}

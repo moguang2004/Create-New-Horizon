@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GBG","CMC","WPW"],"key":{"M":{"item":"gtceu:lv_machine_hull"},"P":{"item":"gtceu:lv_electric_pump"},"B":{"tag":"forge:springs/copper"},"C":{"tag":"gtceu:circuits/lv"},"W":{"item":"gtceu:tin_single_cable"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:lv_distillery"}}

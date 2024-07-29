@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GCG","EMP","WCW"],"key":{"M":{"item":"gtceu:lv_machine_hull"},"E":{"item":"gtceu:lv_electric_piston"},"P":{"item":"gtceu:lv_electric_pump"},"C":{"tag":"gtceu:circuits/lv"},"W":{"item":"gtceu:tin_single_cable"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:lv_extractor"}}

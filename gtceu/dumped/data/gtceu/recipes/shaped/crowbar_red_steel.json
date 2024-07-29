@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["hDS","DSD","SDf"],"key":{"S":{"tag":"forge:rods/red_steel"},"D":{"tag":"forge:dyes/blue"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:red_steel_crowbar","nbt":{"Damage":0.0}}}

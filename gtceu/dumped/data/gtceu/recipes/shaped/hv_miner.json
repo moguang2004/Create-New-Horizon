@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["MMM","WHW","CSC"],"key":{"M":{"item":"gtceu:hv_electric_motor"},"W":{"item":"gtceu:gold_single_cable"},"H":{"item":"gtceu:hv_machine_hull"},"C":{"tag":"gtceu:circuits/hv"},"S":{"item":"gtceu:hv_sensor"}},"result":{"item":"gtceu:hv_miner"}}

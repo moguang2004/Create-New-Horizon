@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CEC","PHP","CEC"],"key":{"C":{"item":"gtceu:cupronickel_coil_block"},"E":{"item":"gtceu:hv_electric_pump"},"P":{"tag":"gtceu:circuits/hv"},"H":{"item":"gtceu:hv_machine_hull"}},"result":{"item":"gtceu:cracker"}}

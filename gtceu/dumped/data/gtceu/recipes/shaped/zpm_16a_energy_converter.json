@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" WW","RMC"," WW"],"key":{"C":{"tag":"gtceu:circuits/zpm"},"M":{"item":"gtceu:zpm_machine_hull"},"W":{"item":"gtceu:vanadium_gallium_hex_cable"},"R":{"item":"gtceu:red_alloy_hex_cable"}},"result":{"item":"gtceu:zpm_16a_energy_converter"}}

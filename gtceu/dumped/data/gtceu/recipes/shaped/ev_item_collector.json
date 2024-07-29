@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["MRM","RHR","CWC"],"key":{"M":{"item":"gtceu:ev_electric_motor"},"R":{"tag":"forge:rotors/stainless_steel"},"H":{"item":"gtceu:ev_machine_hull"},"C":{"tag":"gtceu:circuits/ev"},"W":{"item":"gtceu:aluminium_single_cable"}},"result":{"item":"gtceu:ev_item_collector"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PSP","SAS","CSC"],"key":{"S":{"tag":"forge:gears/tungsten_steel"},"P":{"tag":"gtceu:circuits/luv"},"A":{"item":"gtceu:luv_machine_hull"},"C":{"item":"gtceu:tungsten_steel_large_fluid_pipe"}},"result":{"item":"gtceu:plasma_large_turbine"}}

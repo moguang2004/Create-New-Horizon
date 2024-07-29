@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["EPS","CDC","PBP"],"key":{"E":{"item":"gtceu:hv_emitter"},"P":{"tag":"forge:plates/stainless_steel"},"S":{"item":"gtceu:hv_sensor"},"D":{"item":"gtceu:computer_monitor_cover"},"C":{"tag":"forge:circuits/hv"},"B":{"tag":"forge:batteries/hv"}},"result":{"item":"gtceu:prospector.hv"}}

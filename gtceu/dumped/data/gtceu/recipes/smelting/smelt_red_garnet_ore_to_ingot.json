@@ -1,1 +1,0 @@
-{"type":"minecraft:smelting","ingredient":{"type":"forge:intersection","children":[{"tag":"forge:ores/red_garnet"},{"tag":"forge:ores_in_ground/stone"}]},"result":{"item":"gtceu:red_garnet_gem","count":4},"experience":0.7,"cookingtime":200}

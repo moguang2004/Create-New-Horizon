@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["I","I","S"],"key":{"I":{"tag":"forge:gems/flint"},"S":{"item":"minecraft:stick"}},"result":{"item":"gtceu:flint_sword","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":63},"GT.Behaviours":{},"HideFlags":2,"Enchantments":[{"lvl":2,"id":"minecraft:fire_aspect"}]}}}

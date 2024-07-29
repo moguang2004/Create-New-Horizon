@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" WW","RMC"," WW"],"key":{"C":{"tag":"gtceu:circuits/hv"},"M":{"item":"gtceu:hv_machine_hull"},"W":{"item":"gtceu:gold_quadruple_cable"},"R":{"item":"gtceu:red_alloy_quadruple_cable"}},"result":{"item":"gtceu:hv_4a_energy_converter"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["BBB","SBS","PBP"],"key":{"B":{"tag":"forge:storage_blocks/iron"},"S":{"tag":"forge:screws/iron"},"P":{"tag":"forge:plates/iron"}},"result":{"item":"minecraft:anvil"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" V ","CHC","   "],"key":{"C":{"item":"gtceu:red_alloy_single_cable"},"V":{"item":"gtceu:ulv_voltage_coil"},"H":{"item":"gtceu:ulv_machine_hull"}},"result":{"item":"gtceu:ulv_energy_input_hatch"}}

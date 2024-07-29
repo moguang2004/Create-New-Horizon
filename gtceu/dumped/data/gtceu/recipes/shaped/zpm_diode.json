@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["CDC","DHD","PDP"],"key":{"H":{"item":"gtceu:zpm_machine_hull"},"D":{"item":"gtceu:advanced_smd_diode"},"P":{"tag":"forge:plates/naquadah_alloy"},"C":{"item":"gtceu:vanadium_gallium_quadruple_cable"}},"result":{"item":"gtceu:zpm_diode"}}

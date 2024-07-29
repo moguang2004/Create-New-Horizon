@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WTW","WMW","BCB"],"key":{"M":{"item":"gtceu:ev_machine_hull"},"W":{"item":"gtceu:aluminium_quadruple_wire"},"T":{"tag":"forge:chests/wooden"},"B":{"item":"gtceu:aluminium_single_cable"},"C":{"tag":"gtceu:circuits/ev"}},"result":{"item":"gtceu:ev_charger_4x"}}

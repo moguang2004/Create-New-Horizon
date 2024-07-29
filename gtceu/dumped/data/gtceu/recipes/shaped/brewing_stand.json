@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["RBR","ABA","SCS"],"key":{"R":{"tag":"forge:rings/aluminium"},"B":{"tag":"forge:rods/blaze"},"A":{"tag":"forge:rods/aluminium"},"S":{"tag":"forge:screws/aluminium"},"C":{"item":"minecraft:cauldron"}},"result":{"item":"minecraft:brewing_stand"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","DHD","PCP"],"key":{"H":{"item":"gtceu:zpm_machine_hull"},"P":{"item":"gtceu:zpm_electric_pump"},"D":{"item":"gtceu:zpm_voltage_coil"},"C":{"tag":"gtceu:circuits/zpm"}},"result":{"item":"gcyr:zpm_heat_exchanger"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["d","B"],"key":{"B":{"item":"gregiceng:uev_input_buffer"},"d":{"tag":"forge:tools/screwdrivers"}},"result":{"item":"gregiceng:uev_output_buffer"}}

@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["P G","PR ","XPP"],"key":{"P":{"tag":"forge:plates/steel"},"R":{"tag":"forge:rods/brass"},"G":{"tag":"forge:gems/quartzite"},"X":{"tag":"gtceu:circuits/lv"}},"result":{"item":"gtceu:lv_sensor"}}

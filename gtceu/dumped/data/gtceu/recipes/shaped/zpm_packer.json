@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["BCB","RMV","WCW"],"key":{"M":{"item":"gtceu:zpm_machine_hull"},"R":{"item":"gtceu:zpm_robot_arm"},"V":{"item":"gtceu:zpm_conveyor_module"},"C":{"tag":"gtceu:circuits/zpm"},"W":{"item":"gtceu:vanadium_gallium_single_cable"},"B":{"tag":"forge:chests/wooden"}},"result":{"item":"gtceu:zpm_packer"}}

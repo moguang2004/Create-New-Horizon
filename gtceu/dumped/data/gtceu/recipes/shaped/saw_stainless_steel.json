@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PPS","fhS"],"key":{"P":{"tag":"forge:plates/stainless_steel"},"S":{"item":"minecraft:stick"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:stainless_steel_saw","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":1023},"GT.Behaviours":{"HarvestIce":1},"HideFlags":2}}}

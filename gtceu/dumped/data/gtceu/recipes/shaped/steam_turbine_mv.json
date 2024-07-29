@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","RMR","EWE"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"E":{"item":"gtceu:mv_electric_motor"},"R":{"tag":"forge:rotors/bronze"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"P":{"item":"gtceu:steel_normal_fluid_pipe"}},"result":{"item":"gtceu:mv_steam_turbine"}}

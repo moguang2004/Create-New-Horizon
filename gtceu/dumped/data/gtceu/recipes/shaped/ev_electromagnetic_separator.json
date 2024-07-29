@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["VWZ","WMS","CWZ"],"key":{"M":{"item":"gtceu:ev_machine_hull"},"S":{"tag":"forge:rods/neodymium"},"Z":{"item":"gtceu:steel_quadruple_wire"},"V":{"item":"gtceu:ev_conveyor_module"},"C":{"tag":"gtceu:circuits/ev"},"W":{"item":"gtceu:aluminium_single_cable"}},"result":{"item":"gtceu:ev_electromagnetic_separator"}}

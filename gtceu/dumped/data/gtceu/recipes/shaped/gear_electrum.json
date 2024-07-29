@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["RPR","PwP","RPR"],"key":{"P":{"tag":"forge:plates/electrum"},"R":{"tag":"forge:rods/electrum"},"w":{"tag":"forge:tools/wrenches"}},"result":{"item":"thermal:electrum_gear"}}

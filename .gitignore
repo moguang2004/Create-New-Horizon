@@ -27,4 +27,8 @@
 /rhino.local.properties
 /patchouli_data.json
 /patchouli_books/
-/config/fabric/indigo-renderer.properties
+/config/fabric/
+/.vscode/
+/TrashSlotSaveState.json
+/config/sound_physics_remastered/
+/gtceu/

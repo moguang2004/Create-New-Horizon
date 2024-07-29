@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","EME","GWG"],"key":{"M":{"item":"gtceu:ev_machine_hull"},"P":{"item":"gtceu:ev_electric_piston"},"E":{"item":"gtceu:ev_electric_motor"},"C":{"tag":"gtceu:circuits/iv"},"W":{"item":"gtceu:aluminium_single_cable"},"G":{"tag":"forge:gears/titanium"}},"result":{"item":"gtceu:large_combustion_engine"}}

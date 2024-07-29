@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["WCG","VMB","CWE"],"key":{"M":{"item":"gtceu:uhv_machine_hull"},"E":{"item":"gtceu:uhv_electric_motor"},"V":{"item":"gtceu:uhv_conveyor_module"},"C":{"tag":"gtceu:circuits/uhv"},"W":{"item":"gtceu:europium_single_cable"},"G":{"tag":"forge:glass"},"B":{"item":"gtceu:duranium_buzz_saw_blade"}},"result":{"item":"gtceu:uhv_cutter"}}

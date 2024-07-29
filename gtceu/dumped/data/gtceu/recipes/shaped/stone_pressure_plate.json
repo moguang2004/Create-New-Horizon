@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ShS","LCL","SdS"],"key":{"S":{"tag":"forge:screws/iron"},"L":{"item":"minecraft:stone_slab"},"C":{"tag":"forge:springs/iron"},"d":{"tag":"forge:tools/screwdrivers"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"minecraft:stone_pressure_plate","count":2}}

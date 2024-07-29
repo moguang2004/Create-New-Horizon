@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["GGG","SSS","PMP"],"key":{"M":{"item":"gtceu:steel_brick_casing"},"P":{"item":"gtceu:steel_small_fluid_pipe"},"S":{"tag":"forge:double_plates/silver"},"G":{"item":"minecraft:glass"}},"result":{"item":"gtceu:hp_steam_solar_boiler"}}

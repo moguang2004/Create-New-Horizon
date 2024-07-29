@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":[" V ","SHS"," P "],"key":{"P":{"item":"gtceu:ulpic_chip"},"S":{"tag":"forge:springs/copper"},"V":{"item":"gtceu:mv_voltage_coil"},"H":{"item":"gtceu:mv_machine_hull"}},"result":{"item":"gtceu:mv_energy_output_hatch"}}

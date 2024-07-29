@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ECE","CMC","WCW"],"key":{"M":{"item":"gtceu:ev_machine_hull"},"E":{"tag":"gtceu:circuits/ev"},"W":{"item":"gtceu:aluminium_single_cable"},"C":{"item":"gtceu:nichrome_double_wire"}},"result":{"item":"gtceu:ev_electric_furnace"}}

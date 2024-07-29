@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["OGO","PMP","WCW"],"key":{"M":{"item":"gtceu:mv_machine_hull"},"P":{"item":"gtceu:mv_electric_pump"},"O":{"item":"gtceu:cupronickel_quadruple_wire"},"C":{"tag":"gtceu:circuits/mv"},"W":{"item":"gtceu:copper_single_cable"},"G":{"tag":"forge:glass"}},"result":{"item":"gtceu:mv_fluid_heater"}}

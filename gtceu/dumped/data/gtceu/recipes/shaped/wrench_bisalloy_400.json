@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PhP"," P "," P "],"key":{"P":{"tag":"forge:plates/bisalloy_400"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gcyr:bisalloy_400_wrench","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":1295},"GT.Behaviours":{"Mode":2},"HideFlags":2}}}

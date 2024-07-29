@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SZE","ZHZ","CZC"],"key":{"S":{"item":"gtceu:iv_sensor"},"E":{"item":"gtceu:iv_emitter"},"Z":{"tag":"gtceu:circuits/luv"},"H":{"item":"gtceu:iv_machine_hull"},"C":{"item":"gtceu:platinum_double_cable"}},"result":{"item":"gtceu:iv_parallel_hatch"}}

@@ -1,1 +1,0 @@
-{"type":"gtceu:strict_shaped_recipe_serializer","pattern":["   "," S "," x "],"key":{"S":{"item":"gtceu:empty_mold"},"x":{"tag":"forge:tools/wire_cutters"}},"result":{"item":"gtceu:ring_extruder_mold"}}

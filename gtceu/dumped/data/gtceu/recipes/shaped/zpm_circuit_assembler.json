@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["RIE","CHC","WIW"],"key":{"R":{"item":"gtceu:zpm_robot_arm"},"I":{"tag":"gtceu:circuits/uv"},"E":{"item":"gtceu:zpm_emitter"},"C":{"item":"gtceu:zpm_conveyor_module"},"H":{"item":"gtceu:zpm_machine_hull"},"W":{"item":"gtceu:vanadium_gallium_single_cable"}},"result":{"item":"gtceu:zpm_circuit_assembler"}}

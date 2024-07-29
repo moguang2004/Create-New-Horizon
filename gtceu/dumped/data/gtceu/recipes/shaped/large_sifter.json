@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PCP","EXE","PKP"],"key":{"C":{"tag":"gtceu:circuits/iv"},"P":{"tag":"forge:plates/hsla_steel"},"E":{"item":"gtceu:iv_electric_piston"},"X":{"item":"gtceu:iv_sifter"},"K":{"item":"gtceu:platinum_single_cable"}},"result":{"item":"gtceu:large_sifting_funnel"}}

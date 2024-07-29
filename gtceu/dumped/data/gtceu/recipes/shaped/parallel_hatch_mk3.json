@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["SZE","ZHZ","CZC"],"key":{"S":{"item":"gtceu:zpm_sensor"},"E":{"item":"gtceu:zpm_emitter"},"Z":{"tag":"gtceu:circuits/uv"},"H":{"item":"gtceu:zpm_machine_hull"},"C":{"item":"gtceu:vanadium_gallium_double_cable"}},"result":{"item":"gtceu:zpm_parallel_hatch"}}

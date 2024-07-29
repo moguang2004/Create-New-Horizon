@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["ABA","CDC","EFE"],"key":{"A":{"item":"gtceu:luv_electric_piston"},"B":{"tag":"gtceu:circuits/luv"},"C":{"item":"gtceu:luv_electric_motor"},"D":{"item":"gtceu:luv_machine_hull"},"E":{"tag":"forge:gears/zeron_100"},"F":{"item":"gtceu:tungsten_double_cable"}},"result":{"item":"gtnn:luv_rocket_engine"}}

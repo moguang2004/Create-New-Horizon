@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["hDS","DSD","SDf"],"key":{"S":{"tag":"forge:rods/red_steel"},"D":{"tag":"forge:dyes/purple"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:red_steel_crowbar","nbt":{"DisallowContainerItem":0,"GT.Tool":{"TintColor":10494192,"Damage":0,"MaxDamage":2559},"GT.Behaviours":{},"HideFlags":2}}}

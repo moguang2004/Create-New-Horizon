@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["LBL","NRN","LGL"],"key":{"L":{"tag":"minecraft:logs"},"B":{"tag":"forge:bolts/diamond"},"N":{"item":"minecraft:note_block"},"R":{"tag":"forge:rings/iron"},"G":{"tag":"forge:gears/iron"}},"result":{"item":"minecraft:jukebox"}}

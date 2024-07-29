@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["PIh","fS "," S "],"key":{"P":{"tag":"forge:plates/steel"},"I":{"tag":"forge:ingots/steel"},"S":{"item":"minecraft:stick"},"f":{"tag":"forge:tools/files"},"h":{"tag":"forge:tools/hammers"}},"result":{"item":"gtceu:steel_hoe","nbt":{"DisallowContainerItem":0,"GT.Tool":{"Damage":0,"MaxDamage":511},"GT.Behaviours":{},"HideFlags":2}}}

@@ -1,1 +1,0 @@
-{"type":"gtceu:steam_boiler","duration":3600,"inputs":{"item":[{"content":{"type":"gtceu:sized","count":1,"ingredient":{"item":"gtceu:treated_wood_pressure_plate"}},"chance":1.0,"tierChanceBoost":0.0}]},"outputs":{},"tickInputs":{},"tickOutputs":{}}
