@@ -120,6 +120,11 @@ ServerEvents.recipes(event =>{
         .itemInputs('betterend:small_amaranita_mushroom')
         .itemOutputs('2x gtceu:end_yeast_dust')
         .duration(40)
+    event.recipes.gtceu.macerator('end_yeast_from_mossy_glowshroom')
+        .EUt(120)
+        .itemInputs('betterend:mossy_glowshroom_cap')
+        .itemOutputs('4x gtceu:end_yeast_dust')
+        .duration(80)
     Ingredient.of('#forge:foods').getItemTypes().forEach(food =>{
         let nutrition = food.getFoodProperties().getNutrition()
         let saturation = food.getFoodProperties().getSaturationModifier()

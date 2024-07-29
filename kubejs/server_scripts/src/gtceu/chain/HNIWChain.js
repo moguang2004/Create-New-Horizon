@@ -171,7 +171,7 @@ ServerEvents.recipes(event =>{
      .EUt(30)
      .duration(100)
 //NaIO4 + C3H6O -> NaIO3 + CH2O + C2H4O
-     ctnh.chemical_reactor('acetaldehyde',1000)
+     ctnh.chemical_reactor('acetaldehyde')
      .itemInputs('6x gtceu:sodium_periodate_dust')
      .itemOutputs('5x gtceu:sodium_iodate_dust')
      .notConsumable('gtceu:osmium_tetroxide_dust')
