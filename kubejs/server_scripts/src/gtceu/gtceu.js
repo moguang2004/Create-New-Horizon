@@ -169,4 +169,6 @@ ServerEvents.recipes(event =>{
     .inputFluids(Fluid.of('gtceu:ancient_debris_leach',2000))
     .outputFluids(Fluid.of('gtceu:rare_earth_chloride_solution',2000))
     .itemOutputs('gtceu:netherite_dust')
+    .EUt(120)
+    .duration(100)
 })
