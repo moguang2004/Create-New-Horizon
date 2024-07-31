@@ -9,9 +9,9 @@
 	#Description for the Advancements
 	description = "Obtain a %item%"
 	#Comma seperated list of items that when crafted unlock the corresponding dimension
-	craftitems = "minecraft:flint_and_steel,minecraft:ender_eye,gtceu:exquisite_diamond_gem,botania:flight_tiara"
+	craftitems = "minecraft:flint_and_steel,minecraft:ender_eye,botania:flight_tiara"
 	#Comma seperated list of Dimension Resource Names
-	dimresname = "minecraft:the_nether,minecraft:the_end,twilightforest:twilight_forest,aether:the_aether"
+	dimresname = "minecraft:the_nether,minecraft:the_end,aether:the_aether"
 	#Comma seperated list of Dimension Display Names
-	dimnames = "Nether,End,Twilightforest,Aether"
+	dimnames = "Nether,End,Aether"
 

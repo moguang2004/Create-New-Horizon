@@ -86,6 +86,32 @@ StartupEvents.registry("block", event =>{
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/bio_reactor_casing") })
+    const registercoils = [
+        ["abyssalalloy", "12600", "16", "8"],
+        ["titansteel", "14400", "32", "8"],
+        ["pikyonium", "16200", "32", "9"],
+        ["black_titanium", "18900", "64", "9"],
+        ["starmetal", "21600", "64", "9"],
+        ["infinity", "36000", "128", "9"]
+        //["hypogen", "62000", "256", "9"],
+        //["eternity", "96000", "512", "9"]
+    ]
+    registercoils.forEach(coil => {
+        event.create(coil[0] + "_coil_block", "gtceu:coil")
+            .texture("kubejs:block/" + coil[0] + "_coil_block")
+            .temperature(coil[1])
+            .energyDiscount(8)
+            .level(coil[2])
+            .tier(coil[3])
+            .coilMaterial(() => GTMaterials.get(coil[0]))
+            .tagBlock("mineable/pickaxe")
+            .tagBlock("forge:mineable/wrench")
+            .hardness(5)
+            .requiresTool(true)
+            .soundType("metal")
+            .mapColor("metal")
+            .noValidSpawns(true)
+    })
 })
 
 
