@@ -180,6 +180,7 @@
     "block.gtceu.uiv_kinetic_output_box": "§2UIV§r应力输出仓",
     "block.gtceu.uxv_kinetic_output_box": "§1UXV§r应力输出仓",
     "block.gtceu.opv_kinetic_output_box": "§9§lOpV§r应力输出仓",
+    "block.gtceu.blaze_blast_furnace": "炽焰高炉",
     "kinetic_output": "一个输出应力的机器",
     "shift": "按住§eShift§r查看更多信息",
     "rotor_holder_upgrade": "转子支架每升高一级,涡轮效率增加§610%§r",

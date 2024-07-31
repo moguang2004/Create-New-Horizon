@@ -17,5 +17,7 @@
     "item.kubejs.thermometer_case": "温度计外壳",
     "item.kubejs.high_quality_solid_fuel": "优质固体燃料",
     "block.kubejs.steel_casing": "钢机壳",
-    "block.kubejs.heavy_machinery_casing": "重型机械机壳"
+    "block.kubejs.heavy_machinery_casing": "重型机械机壳",
+    "block.kubejs.blaze_blast_furnace_casing": "炽焰高炉外壳",
+    "block.kubejs.bio_reactor_casing": "生物反应器外壳"
 }

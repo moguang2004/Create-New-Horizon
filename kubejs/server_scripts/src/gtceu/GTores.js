@@ -95,6 +95,12 @@ GTCEuServerEvents.oreVeins(event => {
                 .layer(l => l.weight(1).mat(GTMaterials.Lead).size(1, 1))
             )
         )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Chromite)
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
     })
     event.add('ctnh:cryolite_vein',vein =>{
         vein.weight(120)
@@ -111,6 +117,12 @@ GTCEuServerEvents.oreVeins(event => {
                 .layer(l => l.weight(1).mat(GTMaterials.Mica).size(1, 1))
                 .layer(l => l.weight(1).mat(GTMaterials.Lead).size(1, 1))
             )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get('cryolite'))
+            .placement("above")
+            .density(0.4)
+            .radius(5)
         )
     })
 })
