@@ -381,7 +381,7 @@ LootJS.modifiers(event =>{
         pool.rolls([2,4])
         pool.addAlternativesLoot(steam)
     })
-    event.enableLogging()
+    //event.enableLogging()
     
 
     event.addBlockLootModifier('ae2:flawless_budding_quartz')
@@ -394,4 +394,11 @@ LootJS.modifiers(event =>{
     .replaceLoot('ae2:certus_quartz_dust','gtceu:certus_quartz_dust')
     event.addBlockLootModifier('ae2:small_quartz_bud')
     .replaceLoot('ae2:certus_quartz_dust','gtceu:certus_quartz_dust')*/
+
+    event.addEntityLootModifier('minecraft:zombie')
+    .apply(context =>{
+        context.forEachLoot(item =>{
+            console.info(item)
+        })
+    })
 })

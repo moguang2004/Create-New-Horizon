@@ -171,4 +171,8 @@ ServerEvents.recipes(event =>{
     .itemOutputs('gtceu:netherite_dust')
     .EUt(120)
     .duration(100)
+    event.recipes.gtceu.slaughter_house('kill')
+    .EUt(480)
+    .duration(20)
+    .inputFluids(Fluid.of('gtceu:lubricant',2))
 })

@@ -1,3 +1,6 @@
+const { $RegistrateEntityLootTables } = require("packages/com/tterrag/registrate/providers/loot/$RegistrateEntityLootTables")
+const { $EntityLootEventJS } = require("packages/dev/latvian/mods/kubejs/loot/$EntityLootEventJS")
+
 GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
     event.create('bio_reactor')
         .setEUIO('in')
@@ -38,6 +41,3 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
         // })
         .workableCasingRenderer('kubejs:block/bio_reactor_casing', 'gtceu:block/multiblock/implosion_compressor', false)
 })
-
-
-

@@ -1,5 +1,6 @@
 
 ServerEvents.recipes(event =>{
+  event.remove({id:'enderio:iron_gear'})
     event.custom(
         {
             "type": "enderio:alloy_smelting",
