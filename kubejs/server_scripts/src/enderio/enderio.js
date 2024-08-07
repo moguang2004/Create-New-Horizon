@@ -212,7 +212,7 @@ ServerEvents.recipes(event =>{
               }
             ],
             "result": {
-              "item": "gtceu:solarium_ingot"
+              "item": "gtceu:soularium_ingot"
             }
           }
     )

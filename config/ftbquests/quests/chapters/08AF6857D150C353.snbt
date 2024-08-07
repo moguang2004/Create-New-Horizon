@@ -231,6 +231,26 @@
 			x: -1.5d
 			y: 5.0d
 		}
+		{
+			id: "71A9608CA253CF87"
+			tasks: [{
+				id: "1D7A5F7EF5D7D7FD"
+				item: "gtceu:firebrick"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "6EB3A6246124AA84"
+			tasks: [{
+				id: "245741A3BE70E32D"
+				item: "gtceu:fireclay_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
 	]
 	title: "钢铁时代"
 }

@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/shielded_reactor_casing_ctm"
+    }
+}

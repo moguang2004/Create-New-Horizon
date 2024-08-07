@@ -11,6 +11,7 @@ LootJS.modifiers(event =>{
     .replaceLoot('minecraft:gold_nugget','gtceu:precious_alloy_nugget',true)
     .replaceLoot('minecraft:raw_gold','gtceu:raw_precious_alloy',true)
     .replaceLoot('botania:manasteel_ingot','gtceu:manasteel_ingot',true)
+    .replaceLoot('minecraft:netherite_ingot','gtceu:netherite_nigot',true)
     .removeLoot('bloodmagic:strong_tau')
     //event.addLootTableModifier('dun')
     const gtceulv =[LootEntry.of('gtceu:lv_electric_motor',1).when(c=> {c.randomChance(0.2)}),

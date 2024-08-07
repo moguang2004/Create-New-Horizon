@@ -1,5 +1,5 @@
 ServerEvents.recipes( event => { 
-	let ingots = ['tin','silver','lead','nickel','vibrant_alloy','energetic_alloy','pulsalting_alloy','dark_steel','end_steel','conductive_alloy','redstone_alloy','copper_alloy','soularium'
+	let ingots = ['tin','silver','lead','nickel','vibrant_alloy','energetic_alloy','pulsalting_alloy','dark_steel','end_steel','conductive_alloy','redstone_alloy','copper_alloy','soularium',
 	'uranium','osmium','zinc','cobalt','iridium','brass','constantan','electrum','steel','sulfur','ender_pearl','elementium','manasteel',
     'terrasteel','calorite','desh','ostrum']   
 	let mod = 'gtceu'

@@ -173,6 +173,6 @@ ServerEvents.recipes(event =>{
     .duration(100)
     event.recipes.gtceu.slaughter_house('kill')
     .EUt(480)
-    .duration(20)
+    .duration(60)
     .inputFluids(Fluid.of('gtceu:lubricant',2))
 })

@@ -86,6 +86,14 @@ StartupEvents.registry("block", event =>{
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/bio_reactor_casing") })
+    event.create('shielded_reactor_casing','gtceu:renderer')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+        .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/shielded_reactor_casing") })
     const registercoils = [
         ["abyssalalloy", "12600", "16", "8"],
         ["titansteel", "14400", "32", "8"],

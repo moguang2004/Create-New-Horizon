@@ -27,7 +27,7 @@ const ItemRecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capabilit
 GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
     event.create('slaughter_house')
         .setEUIO('in')
-        .setMaxIOSize(4, 4, 2, 2)
+        .setMaxIOSize(1, 1, 1, 1)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.CHEMICAL)
@@ -40,10 +40,10 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
         .recipeType('slaughter_house')
         .recipeModifier((machine,recipe) =>{
             let newrecipe = recipe.copy()
-            newrecipe.duration = 20
+            newrecipe.duration = 60
             return newrecipe
         })
-        .appearanceBlock('gtceu:solid_machine_casing')
+        .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("ABBBA", "ABBBA", "CCCCC", "CCCCC", "CCCCC", "CCCCC", "ABBBA") 
             .aisle("BAAAB", "BDDDB", "CDDDC", "CDDDC", "CDDDC", "CDDDC", "BAAAB") 
@@ -63,7 +63,7 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
             .build()
         )
         .onWorking((/**@type {$WorkableElectricMultiblockMachine_}*/ machine) =>{
-            if(machine.getRecipeLogic().getProgress() == 10){
+            if(machine.getRecipeLogic().getProgress() == 1){
             let key = machine.getHolder().self().persistentData.getAllKeys()
             let /** */moblist = machine.getHolder().self().persistentData.get(key.toArray()[0])
             moblist.forEach(mob =>{
