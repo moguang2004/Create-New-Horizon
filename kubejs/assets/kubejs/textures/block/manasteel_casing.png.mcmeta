@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/manasteel_casing_ctm"
+    }
+}

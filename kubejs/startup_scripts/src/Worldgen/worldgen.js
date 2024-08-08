@@ -19,6 +19,10 @@ WorldgenEvents.remove(event =>{
     props.blocks = 'tfmg:bauxite'
     props.blocks = 'create_new_age:thorium_ore'
     props.blocks = 'minecraft:nether_gold_ore'
+    props.blocks = 'mythicbotany:elementium_ore'
+    props.blocks = 'mythicbotany:elementium_ore'
+    props.blocks = 'mythicbotany:dragonstone_ore'
+    props.blocks = 'mythicbotany:gold_ore'
   })
   event.removeFeatureById('raw_generation', [   
     'ad_astra:moon_iron_ore',
@@ -80,6 +84,18 @@ GTCEuStartupEvents.registry('gtceu:tag_prefix', event => {
   event.create('mossy_holystone', 'ore') // 
       .stateSupplier(() => Block.getBlock('aether:mossy_holystone').defaultBlockState()) // 
       .baseModelLocation('aether:block/mossy_holystone') // 
+      .unificationEnabled(true)
+      .materialIconType(GTMaterialIconType.ore)
+      .generationCondition(ItemGenerationCondition.hasOreProperty)
+  event.create('livingrock', 'ore') // 
+      .stateSupplier(() => Block.getBlock('botania:livingrock').defaultBlockState()) // 
+      .baseModelLocation('botania:block/livingrock') // 
+      .unificationEnabled(true)
+      .materialIconType(GTMaterialIconType.ore)
+      .generationCondition(ItemGenerationCondition.hasOreProperty)
+  event.create('jupiter_stone', 'ore') // 
+      .stateSupplier(() => Block.getBlock('adastra:jupiter_stone').defaultBlockState()) // 
+      .baseModelLocation('ad_extendra:block/jupiter_stone') // 
       .unificationEnabled(true)
       .materialIconType(GTMaterialIconType.ore)
       .generationCondition(ItemGenerationCondition.hasOreProperty)

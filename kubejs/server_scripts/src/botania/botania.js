@@ -287,7 +287,7 @@ ServerEvents.recipes(event =>{
       ],
       "output": [
         {
-          "item": "gtceu:elementium_ingot"
+          "item": "gtceu:elementium_steel_ingot"
         }
       ]
     })
@@ -303,7 +303,7 @@ ServerEvents.recipes(event =>{
       ],
       "output": [
         {
-          "item": "gtceu:elementium_block"
+          "item": "gtceu:elementium_steel_block"
         }
       ]
     })

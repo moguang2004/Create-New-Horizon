@@ -498,7 +498,58 @@ ServerEvents.recipes(event =>{
           E: 'gtceu:solid_machine_casing',
           F: 'gtceu:mv_fluid_heater'
         })
-            
+    event.shaped(
+        Item.of('gtceu:mana_generator_turbine_tier1', 1),[
+          "ABA",
+          "CDC",
+          "EFE"
+        ],{
+          A: 'gtceu:lv_sensor',
+          B: 'gtceu:lv_electric_pump',
+          C: 'kubejs:manasteel_casing',
+          D: '#gtceu:circuits/lv',
+          E: 'gtceu:steel_gear',
+          F: 'gtceu:lv_conveyor_module'
+        })
+    event.shaped(
+        Item.of('gtceu:mana_generator_turbine_tier2', 1),[
+          "ABA",
+          "CDC",
+          "EFE"
+        ],{
+          A: 'gtceu:mv_sensor',
+          B: 'gtceu:mv_electric_pump',
+          C: 'kubejs:elementium_steel_casing',
+          D: '#gtceu:circuits/mv',
+          E: 'gtceu:aluminium_gear',
+          F: 'gtceu:mv_conveyor_module'
+        })
+    event.shaped(
+        Item.of('gtceu:mana_generator_turbine_tier3', 1),[
+          "ABA",
+          "CDC",
+          "EFE"
+        ],{
+          A: 'gtceu:hv_sensor',
+          B: 'gtceu:hv_electric_pump',
+          C: 'kubejs:terrasteel_casing',
+          D: '#gtceu:circuits/hv',
+          E: 'gtceu:stainless_steel_gear',
+          F: 'gtceu:hv_conveyor_module'
+        })
+    event.shaped(
+        Item.of('gtceu:mana_generator_turbine_tier4', 1),[
+          "ABA",
+          "CDC",
+          "EFE"
+        ],{
+          A: 'gtceu:ev_sensor',
+          B: 'gtceu:ev_electric_pump',
+          C: 'kubejs:alfsteel_casing',
+          D: '#gtceu:circuits/ev',
+          E: 'gtceu:titanium_gear',
+          F: 'gtceu:ev_conveyor_module'
+        })            
     event.forEachRecipe({type:'minecraft:shapeless',input:'#minecraft:logs',output:'#minecraft:planks'},recipe =>{
       let {originalRecipeIngredients,originalRecipeResult} = recipe
       event.custom({

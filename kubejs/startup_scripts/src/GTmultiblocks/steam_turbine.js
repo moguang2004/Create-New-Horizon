@@ -1,7 +1,7 @@
 const { $MetaMachine } = require("packages/com/gregtechceu/gtceu/api/machine/$MetaMachine")
 const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe")
 
-const LargeTurbineMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine")
+
 const RecipeHelper = Java.loadClass("com.gregtechceu.gtceu.api.recipe.RecipeHelper")
 const StressRecipeCapability = Java.loadClass("com.gregtechceu.gtceu.api.capability.recipe.StressRecipeCapability")
 const ContentModifier = Java.loadClass("com.gregtechceu.gtceu.api.recipe.content.ContentModifier")
@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
         .category('ctnh')
         .setMaxIOSize(0, 0, 1, 1)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
-        //.setProgressBar(GuiTextures.TURBINE_OVERLAY, FillDirection.LEFT_TO_RIGHT)
+        .setProgressBar(GuiTextures.TURBINE_OVERLAY, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.TURBINE)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event =>{

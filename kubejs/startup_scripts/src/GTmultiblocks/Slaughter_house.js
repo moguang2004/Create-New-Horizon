@@ -55,7 +55,7 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE)).setMinGlobalLimited(1)
         )
-            .where("#", Predicates.air())   
+            .where("#", Predicates.any())   
             .where("C", Predicates.blocks("gtceu:tempered_glass"))
             .where("D", Predicates.blocks("enderio:dark_steel_bars"))
             .where("E", Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
@@ -88,7 +88,7 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
                     let index = Math.random() * moblist.length;
                     level.runCommandSilent("execute in " + level.getDimension().toString() + " run summon " + moblist[Math.floor(index)] + " " + itempos.getX() + " " +(itempos.getY() + 1) + " " + itempos.getZ());
                 }
-            let damagetype = level.registryAccess().registryOrThrow($Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC_KILL)//new $Holder.direct(new $DamageType("slaughter",0))
+            let damagetype = level.registryAccess().registryOrThrow($Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.PLAYER_ATTACK)//new $Holder.direct(new $DamageType("slaughter",0))
             level.getEntitiesWithin(AABB.ofBlocks(itempos.offset(-2,-1,-2),itempos.offset(2,3,2))).forEach(entity =>{
                 if(!entity.isPlayer()){
                     if(entity instanceof $LivingEntity){

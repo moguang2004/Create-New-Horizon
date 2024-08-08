@@ -1,6 +1,6 @@
 ServerEvents.recipes( event => { 
 	let ingots = ['tin','silver','lead','nickel','vibrant_alloy','energetic_alloy','pulsalting_alloy','dark_steel','end_steel','conductive_alloy','redstone_alloy','copper_alloy','soularium',
-	'uranium','osmium','zinc','cobalt','iridium','brass','constantan','electrum','steel','sulfur','ender_pearl','elementium','manasteel',
+	'uranium','osmium','zinc','cobalt','iridium','brass','constantan','electrum','steel','sulfur','ender_pearl','manasteel',
     'terrasteel','calorite','desh','ostrum']   
 	let mod = 'gtceu'
 
@@ -129,7 +129,7 @@ ServerEvents.recipes( event =>{
     event.replaceOutput({},'botania:manasteel_ingot','gtceu:manasteel_ingot')
     event.replaceInput({},'botania:terrasteel_ingot','gtceu:terrasteel_ingot')
     event.replaceOutput({},'botania:terrasteel_ingot','gtceu:terrasteel_ingot')
-    event.replaceInput({},'botania:elementium_ingot','gtceu:elementium_ingot')
+    event.replaceInput({},'botania:elementium_ingot','gtceu:elementium_steel_ingot')
 
     event.replaceInput({},'tetranichematerials:red_gold_ingot','gtceu:rose_gold_ingot')
     event.replaceInput({},'tetranichematerials:bronnum_ingot','gtceu:bronze_ingot')

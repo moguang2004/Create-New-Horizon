@@ -212,10 +212,10 @@ ServerEvents.recipes(event =>{
   event.recipes.create.sequenced_assembly([
 		'kubejs:high_quality_solid_fuel'
 	], 'gtceu:coke_dust', [
-		event.recipes.createCutting(transitional),
+		event.recipes.createCutting(transitional,[transitional]),
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:lignin_dust']),
     event.recipes.createFilling(transitional,[transitional,Fluid.of('gtceu:creosote',250)]),
-    event.recipes.createPressing(transitional),
+    event.recipes.createPressing(transitional,[transitional]),
 	]).transitionalItem(transitional)
 		.loops(1)
 })

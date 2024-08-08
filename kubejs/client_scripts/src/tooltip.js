@@ -107,4 +107,24 @@ ItemEvents.tooltip(event =>{
         text.add(2,Text.translate('ctnh.digestion_tank.bio_growth_mechanism').green())
         text.add(3,Text.translate('ctnh.digestion_tank.bio_growth_temperature'))
     })
+    event.addAdvanced('gtceu:mana_generator_turbine_tier1',(item,advanced,text)=>{
+        text.add(1,Text.translate('mana_generator_turbine_tier1'))
+        text.add(2,Text.translate('ctnh.mana_generator_turbine_tier1.basic_power'))
+        text.add(3,Text.translate('ctnh.mana_generator_turbine_tier1.restriction'))
+    })
+    event.addAdvanced('gtceu:mana_generator_turbine_tier2',(item,advanced,text)=>{
+        text.add(1,Text.translate('mana_generator_turbine_tier2'))
+        text.add(2,Text.translate('ctnh.mana_generator_turbine_tier2.basic_power'))
+        text.add(3,Text.translate('ctnh.mana_generator_turbine_tier2.restriction'))
+    })
+    event.addAdvanced('gtceu:mana_generator_turbine_tier3',(item,advanced,text)=>{
+        text.add(1,Text.translate('mana_generator_turbine_tier3'))
+        text.add(2,Text.translate('ctnh.mana_generator_turbine_tier3.basic_power'))
+        text.add(3,Text.translate('ctnh.mana_generator_turbine_tier3.restriction'))
+    })
+    event.addAdvanced('gtceu:mana_generator_turbine_tier3',(item,advanced,text)=>{
+        text.add(1,Text.translate('mana_generator_turbine_tier3'))
+        text.add(2,Text.translate('ctnh.mana_generator_turbine_tier3.basic_power'))
+        text.add(3,Text.translate('ctnh.mana_generator_turbine_tier3.restriction'))
+    })
 })
