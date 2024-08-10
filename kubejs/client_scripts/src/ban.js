@@ -92,6 +92,9 @@ JEIEvents.hideItems(event =>{
     event.hide('gtceu:andesite_alloy_nugget')
     event.hide('gtceu:tiny_andesite_alloy_dust')
     event.hide('gtceu:small_andesite_alloy_dust')
+    event.hide('gtceu:lv_steam_turbine')
+    event.hide('gtceu:mv_steam_turbine')
+    event.hide('gtceu:hv_steam_turbine')
 })
 
 JEIEvents.hideFluids(event =>{

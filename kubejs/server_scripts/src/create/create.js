@@ -225,3 +225,11 @@ ServerEvents.recipes(event =>{
   event.recipes.create.filling('cold_sweat:thermometer',['kubejs:thermometer_case',Fluid.of('gtceu:mercury',1000)])
   event.remove({output:'cold_sweat:thermometer'})
 })
+
+ServerEvents.recipes(event =>{
+  event.recipes.create.crushing('gtceu:clay_dust','minecraft:clay_ball')
+  event.recipes.create.crushing('4x gtceu:clay_dust','minecraft:clay')
+  event.recipes.create.crushing('gtceu:brick_dust','minecraft:brick')
+  event.recipes.create.crushing('4x gtceu:brick_dust','minecraft:bricks')
+  event.recipes.create.crushing('gtceu:ender_pearl_dust','minecraft:ender_pearl')
+})

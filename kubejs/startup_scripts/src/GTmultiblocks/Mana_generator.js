@@ -6,7 +6,7 @@ const LargeTurbineMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine
 GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
     event.create('mana_generator')
         .category('ctnh')
-        .setMaxIOSize(1, 0, 1, 1)
+        .setMaxIOSize(2, 0, 1, 1)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.TURBINE_OVERLAY, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.TURBINE)

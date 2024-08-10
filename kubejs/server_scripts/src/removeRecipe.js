@@ -68,6 +68,8 @@ ServerEvents.recipes(event => {
     event.remove({id:'enderio:alloy_smelting/dark_steel_ingot'})
     event.remove({id:'enderio:alloy_smelting/conductive_alloy_ingot'})
     event.remove({id:'tetranichematerials:red_gold_powder'})
+    event.remove({id:'gtceu:shaped/steam_turbine_mv'})
+    event.remove({id:'gtceu:shaped/steam_turbine_hv'})
 
     event.remove({output:'#forge:chipped_gems',type:'minecraft:crafting_shapeless'})
     event.remove({output:'#forge:flawed_gems',type:'minecraft:crafting_shapeless'})

@@ -52,6 +52,7 @@
 			dependencies: [
 				"0F0FD5A39ED435FF"
 				"2116B713C128D537"
+				"71A9608CA253CF87"
 			]
 			id: "384AAEC5A353F60E"
 			tasks: [
@@ -74,6 +75,7 @@
 			dependencies: [
 				"0F0FD5A39ED435FF"
 				"2116B713C128D537"
+				"649DB4832335BB50"
 			]
 			id: "5029589F8908B0AA"
 			tasks: [{
@@ -232,6 +234,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["6EB3A6246124AA84"]
 			id: "71A9608CA253CF87"
 			tasks: [{
 				id: "1D7A5F7EF5D7D7FD"
@@ -242,6 +245,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["0E1C7C7EE22CC9CE"]
 			id: "6EB3A6246124AA84"
 			tasks: [{
 				id: "245741A3BE70E32D"
@@ -249,6 +253,28 @@
 				type: "item"
 			}]
 			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4C8960EE1EF18C6F"]
+			id: "649DB4832335BB50"
+			tasks: [{
+				id: "2163FFAA7AA1CE69"
+				item: "gtceu:coke_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["25CADEFA5DCB0244"]
+			id: "4C8960EE1EF18C6F"
+			tasks: [{
+				id: "381EB9F9B643C860"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			x: 1.5d
 			y: -8.0d
 		}
 	]

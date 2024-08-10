@@ -702,6 +702,72 @@
 			x: 2.5d
 			y: -7.5d
 		}
+		{
+			dependencies: ["782FC87177E2D956"]
+			id: "10FDD39B7290BDB8"
+			tasks: [{
+				id: "36B40146230AC755"
+				item: "kubejs:abyssalalloy_coil_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["30C9903317B38115"]
+			id: "05044C19A693FD73"
+			tasks: [{
+				id: "1FE60493411E7047"
+				item: "kubejs:titansteel_coil_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["36C188D11A832412"]
+			id: "370168D6CCE10CCA"
+			tasks: [{
+				id: "682399D4E65D612A"
+				item: "kubejs:pikyonium_coil_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6D5447AB7E30D153"]
+			id: "0FABF6CC70566836"
+			tasks: [{
+				id: "251C849F187308E4"
+				item: "kubejs:black_titanium_coil_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["196AB1F4D3FCBC99"]
+			id: "10C696DEE9A9F179"
+			tasks: [{
+				id: "61645C4DF3BF2EBE"
+				item: "kubejs:starmetal_coil_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4ADCC7D26AE8FB74"]
+			id: "79B2585295E4F8E9"
+			tasks: [{
+				id: "27BC3A101EB0F39E"
+				item: "kubejs:infinity_coil_block"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 16.5d
+		}
 	]
 	title: "电路板全家福"
 }

@@ -2,10 +2,14 @@ const { $WorkableElectricMultiblockMachine } = require("packages/com/gregtechceu
 const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe")
 const { $GTRecipeType } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipeType")
 const { $Content } = require("packages/com/gregtechceu/gtceu/api/recipe/content/$Content")
+const { $FluidIngredient } = require("packages/com/gregtechceu/gtceu/api/recipe/ingredient/$FluidIngredient")
 const { $List } = require("packages/java/util/$List")
 const { $Map } = require("packages/java/util/$Map")
-const $FluidRecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.FluidRecipeCapability')
+const { $Fluid } = require("packages/net/minecraft/world/level/material/$Fluid")
+
 GTCEuStartupEvents.registry('gtceu:machine',event =>{
+    const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
+    const $FluidRecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.FluidRecipeCapability')
     event.create('blaze_blast_furnace','multiblock',(holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('electric_blast_furnace')
@@ -30,21 +34,18 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
             .build()
         )
         .additionalDisplay((machine,l) => {
-            /*const coilmachine = machine.getParts().find(part => part instanceof $CoilWorkableElectricMultiblockMachine)
-            let temperature = coilmachine.getCoilType().getCoilTemperature() + 100 * Math.max(0, coilmachine.getTier() - GTValues.MV)
-            console.info(temperature)
-            l.add(l.size(),Text.translate('kubejs.coilmachine_temperature',temperature))*/
             if (machine.isFormed()) {
                 l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(machine.getCoilType().getCoilTemperature() + "K").red()))
             }
         })
         // .onWorking(machine =>{
         //     if (machine.getOffsetTimer() % 20 == 0){
-        //         let contents = $Map.of($FluidRecipeCapability.CAP,new $List.of(new $Content(Fluid.of('gtceu:cryotheum',Math.pow(2,machine.self().getTier() - 2)*10,1,0,null,null))))
+        //         let contents = $Map.of($FluidRecipeCapability.CAP,new $List.of(new $Content($FluidIngredient.of(Math.pow(2,machine.self().getTier() - 2)*10,Fluid.of('gtceu:cryotheum').getFluid()),1,0,null,null)))
         //         let tmp = new $GTRecipe(new $GTRecipeType(new ResourceLocation("gt_machine_io"), "gt"),
         //                 new ResourceLocation("___recipe_test_ids__"), contents, null, null,
         //                 null, null, $List.of(), null, 0, false)
         //         if(tmp.matchRecipeContents(IO.IN, machine, contents).isSuccess()){
+        //             console.info(tmp)
         //             tmp.handleRecipe(IO.IN, machine, contents)
         //             return true
         //         }
@@ -55,7 +56,7 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
         //     return true
         // })
         // .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine,recipe)=>{
-        //     let contents = $Map.of($FluidRecipeCapability.CAP,new $List.of(new $Content(Fluid.of('gtceu:cryotheum',Math.pow(2,machine.self().getTier() - 2)*10,1,0,null,null))))
+        //     let contents = $Map.of($FluidRecipeCapability.CAP,new $List.of(new $Content(Fluid.of('gtceu:cryotheum',Math.pow(2,machine.self().getTier() - 2)*10),1,0,null,null)))
         //     let tmp = new $GTRecipe(new $GTRecipeType(new ResourceLocation("gt_machine_io"), "gt"),
         //                 new ResourceLocation("___recipe_test_ids__"), contents, null, null,
         //                 null, null, $List.of(), null, 0, false)

@@ -67,35 +67,18 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
                     temperature = 300
                 }
                 if (machine.isFormed()) {
-                    if(!machine.getRecipeLogic().isWorking()){
-                        if(machine.getOffsetTimer()% 2 == 0){
-                            temperature = Math.max(300,temperature - 1)
-                        }
-                        machine.getHolder().self().persistentData.putInt('furnace_temperature',temperature)
-                    }
-                    if(temperature < 600){
-                        parallel = 1
-                    }
-                    else if(temperature >= 600 && temperature < 1000){
-                        parallel = 2
-                    }
-                    else if(temperature >= 1000 && temperature < 1500){
-                        parallel = 4
-                    }
-                    else{
-                        parallel = 8
-                    }
                     l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(temperature + "K").red()))
                     l.add(l.size(),Text.translate('ctnh.industrial_primitive_blast_furnace.parallel_count',parallel))
                 }
         })
-        .onWorking(/**@type {$MetaMachine}*/ machine =>{
+        .onWorking((/**@type {$WorkableMultiblockMachine}*/ machine) =>{
             if(machine.getOffsetTimer() % 20 == 0){
-                let temperature = machine.getHolder().self().persistentData.getInt('furnace_temperature')
-                if(temperature == null || temperature < 300){
-                    temperature = 300
-                }
-                machine.getHolder().self().persistentData.putInt('furnace_temperature',Math.min(1800,temperature + 2))
+                // let temperature = machine.getHolder().self().persistentData.getInt('furnace_temperature')
+                // if(temperature == null || temperature < 300){
+                //     temperature = 300
+                // }
+                let temperature = machine.getRecipeLogic().getTotalContinuousRunningTime() + 300
+                machine.getHolder().self().persistentData.putInt('furnace_temperature',Math.min(1800,temperature))
             }
             return true
         })

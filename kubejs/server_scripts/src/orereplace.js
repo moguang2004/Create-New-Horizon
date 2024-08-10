@@ -140,4 +140,5 @@ ServerEvents.recipes( event =>{
     event.replaceInput({},'#forge:ethanol','gtceu:ethanol')
     event.replaceInput({},'#forge:ingots/soularium','gtceu:soularium_ingot')
     event.replaceOutput({},'#forge:ingots/soularium','gtceu:soularium_ingot')
+    event.replaceInput({},'enderio:powdered_quartz','gtceu:nether_quartz_dust')
  })
