@@ -38,33 +38,19 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
                 l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(machine.getCoilType().getCoilTemperature() + "K").red()))
             }
         })
-        // .onWorking(machine =>{
-        //     if (machine.getOffsetTimer() % 20 == 0){
-        //         let contents = $Map.of($FluidRecipeCapability.CAP,new $List.of(new $Content($FluidIngredient.of(Math.pow(2,machine.self().getTier() - 2)*10,Fluid.of('gtceu:cryotheum').getFluid()),1,0,null,null)))
-        //         let tmp = new $GTRecipe(new $GTRecipeType(new ResourceLocation("gt_machine_io"), "gt"),
-        //                 new ResourceLocation("___recipe_test_ids__"), contents, null, null,
-        //                 null, null, $List.of(), null, 0, false)
-        //         if(tmp.matchRecipeContents(IO.IN, machine, contents).isSuccess()){
-        //             console.info(tmp)
-        //             tmp.handleRecipe(IO.IN, machine, contents)
-        //             return true
-        //         }
-        //         else{
-        //             machine.getRecipeLogic().setProgress(0)
-        //         }
-        //     }
-        //     return true
-        // })
-        // .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine,recipe)=>{
-        //     let contents = $Map.of($FluidRecipeCapability.CAP,new $List.of(new $Content(Fluid.of('gtceu:cryotheum',Math.pow(2,machine.self().getTier() - 2)*10),1,0,null,null)))
-        //     let tmp = new $GTRecipe(new $GTRecipeType(new ResourceLocation("gt_machine_io"), "gt"),
-        //                 new ResourceLocation("___recipe_test_ids__"), contents, null, null,
-        //                 null, null, $List.of(), null, 0, false)
-        //     if(tmp.matchRecipeContents(IO.IN, machine, contents).isSuccess()){
-        //         return true
-        //     }
-        //     machine.getRecipeLogic().interruptRecipe()
-        //     return false
-        // })
+        .onWorking(machine =>{
+            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:cryotheum " + (2 ** (machine.self().getTier() - 2)) * 10).build()).isSuccess()) {
+                return true
+            }
+            machine.getRecipeLogic().interruptRecipe()
+            return false
+        })
+        .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine,recipe)=>{
+            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:cryotheum " + (2 ** (machine.self().getTier() - 2)) * 10).build()).isSuccess()) {
+                return true
+            }
+            machine.getRecipeLogic().interruptRecipe()
+            return false
+        })
         .workableCasingRenderer('kubejs:block/blaze_blast_furnace_casing', 'gtceu:block/multiblock/implosion_compressor', false)
 })

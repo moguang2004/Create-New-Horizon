@@ -713,6 +713,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .flags(GTMaterialFlags.GENERATE_FRAME)
     .cableProperties(GTValues.V[GTValues.MAX], 8192, 0, true)
     event.create('combustible_ice')
+    .gem()
     .iconSet(GTMaterialIconSet.LIGNITE)
     .color(0xebfbfc)
     .burnTime(6000)

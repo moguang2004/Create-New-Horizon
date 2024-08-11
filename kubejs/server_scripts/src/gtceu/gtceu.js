@@ -244,4 +244,8 @@ ServerEvents.recipes(event =>{
     .itemOutputs('2x gtceu:cryotheum_dust')
     .EUt(480)
     .duration(40)
+    event.recipes.gtceu.water_power('water_power')
+    .inputFluids(Fluid.of('gtceu:lubricant',2))
+    .duration(20)
+    .EUt(-32)
 })
