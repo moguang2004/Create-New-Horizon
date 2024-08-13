@@ -153,8 +153,8 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
                                 .getRandomItems(lootparams)
                 loottable.forEach(itemStack => {
                     let contents = new $Map.of(ItemRecipeCapability.CAP,new $List.of(new $Content(SizedIngredient.create(itemStack.asIngredient(),itemStack.count),1,0,null,null)))
-                        let tmp = new $GTRecipe(new $GTRecipeType(new ResourceLocation("gt_machine_io"), "gt"),
-                        new ResourceLocation("___recipe_test_ids__"), null, contents, null,
+                        let tmp = new $GTRecipe(new $GTRecipeType(new ResourceLocation("gt_machine_io_1"), "gt"),
+                        new ResourceLocation("___recipe_test_ids1__"), null, contents, null,
                         null, null, $List.of(), null, 0, false)
                         if(tmp.matchRecipeContents(IO.OUT, machine, contents).isSuccess()){
                             tmp.handleRecipe(IO.OUT, machine, contents)

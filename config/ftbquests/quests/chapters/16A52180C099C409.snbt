@@ -221,6 +221,7 @@
 		{
 			dependencies: ["7959820843845731"]
 			id: "2AECE895A4F876FA"
+			subtitle: "千万不要错过"
 			tasks: [{
 				id: "7D408991092E379E"
 				item: "gtceu:steam_oven"
@@ -232,6 +233,7 @@
 		{
 			dependencies: ["7959820843845731"]
 			id: "42D0940DF28D51A3"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
 			tasks: [{
 				id: "2E8B5D3C86A5A65A"
 				item: "gtceu:steam_grinder"

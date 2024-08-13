@@ -188,8 +188,8 @@
 				item: "createdieselgenerators:plant_oil_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -276,6 +276,19 @@
 			}]
 			x: 1.5d
 			y: -8.0d
+		}
+		{
+			dependencies: ["2534B56E45BA42B0"]
+			hide_dependency_lines: true
+			id: "470B9D39E23E01F2"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "39382193B16E173D"
+				title: "访问下界"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 3.0d
 		}
 	]
 	title: "钢铁时代"

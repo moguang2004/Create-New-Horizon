@@ -10,13 +10,14 @@ const { $Fluid } = require("packages/net/minecraft/world/level/material/$Fluid")
 GTCEuStartupEvents.registry('gtceu:machine',event =>{
     const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
     const $FluidRecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.FluidRecipeCapability')
+    const FluidStack = Java.loadClass('com.lowdragmc.lowdraglib.side.fluid.FluidStack')
     event.create('blaze_blast_furnace','multiblock',(holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('electric_blast_furnace')
         .recipeModifier((machine,recipe) =>{
-            let newrecipe = GTRecipeModifiers.ebfOverclock(machine,recipe)
             let parallel = 8
-            return GTRecipeModifiers.accurateParallel(machine,newrecipe,parallel,false).getFirst()
+            let newrecipe = GTRecipeModifiers.accurateParallel(machine,newrecipe,parallel,false).getFirst()
+            return GTRecipeModifiers.ebfOverclock(machine,recipe)
         })
         //.appearanceBlock('kubejs:blaze_blast_frunace_casing')
         .pattern(definition => FactoryBlockPattern.start()
@@ -34,19 +35,38 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
             .build()
         )
         .additionalDisplay((machine,l) => {
+            let current = 0
+            machine.getParts().forEach((/** @type {$IMultiPart} */part) =>{
+                part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) =>{
+                    if(trait.getHandlerIO() == IO.IN){
+                        trait.getContents().forEach((contents )=>{
+                            if(contents instanceof FluidStack){
+                                if(contents.getFluid() == 'gtceu:pyrotheum'){
+                                    current += contents.getAmount()
+                                }
+                            }
+                        })
+                    }
+                })
+        })
             if (machine.isFormed()) {
                 l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(machine.getCoilType().getCoilTemperature() + "K").red()))
+                l.add(l.size(),Text.translate('ctnh.blaze_blast_furnace.cryotheum',current))
             }
         })
         .onWorking(machine =>{
-            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:cryotheum " + (2 ** (machine.self().getTier() - 2)) * 10).build()).isSuccess()) {
-                return true
+            if (machine.getOffsetTimer() % 20 == 0){
+                let tier = machine.self().getTier()
+                if (machine.input(true, machine.getContentBuilder().fluid("gtceu:pyrotheum " + (2 ** (tier - 2)) * 10).build()).isSuccess()) {
+                    machine.input(false, machine.getContentBuilder().fluid("gtceu:pyrotheum " + (2 ** (tier - 2)) * 10).build())
+                    return true
+                }
+                machine.getRecipeLogic().setProgress(0)
             }
-            machine.getRecipeLogic().interruptRecipe()
-            return false
+            return true
         })
         .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine,recipe)=>{
-            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:cryotheum " + (2 ** (machine.self().getTier() - 2)) * 10).build()).isSuccess()) {
+            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:pyrotheum " + (2 ** (machine.self().getTier() - 2)) * 10).build()).isSuccess()) {
                 return true
             }
             machine.getRecipeLogic().interruptRecipe()

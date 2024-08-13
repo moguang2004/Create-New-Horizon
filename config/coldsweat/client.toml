@@ -3,7 +3,7 @@
 	#Sets all temperatures to be displayed in Celsius
 	Celsius = true
 	#Visually offsets the world temperature to better match the user's definition of "hot" and "cold"
-	#Range: > 0
+	#Range: > -2147483647
 	"Temperature Offset" = 0
 	#The amount of smoothing applied to gauges in the UI
 	#A value of 1 has no smoothing

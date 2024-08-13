@@ -9,18 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2B44A37F4E562193"
-			subtitle: "第一块合金"
-			tasks: [{
-				id: "5913AB8C24EF3AC5"
-				item: "gtceu:andesitealloy_ingot"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["2B44A37F4E562193"]
+			dependencies: ["2886265224D0FBAA"]
 			id: "60D8E1B5B8777322"
 			subtitle: "你需要绝对天马行空的想象能力来使用它"
 			tasks: [{
@@ -60,7 +49,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2B44A37F4E562193"]
+			dependencies: ["2886265224D0FBAA"]
 			id: "32D9754803137E82"
 			tasks: [{
 				id: "67F5B1C0219B671A"
@@ -434,6 +423,18 @@
 			}]
 			x: 2.5d
 			y: 7.0d
+		}
+		{
+			dependencies: ["5BA86B01337A91D5"]
+			id: "2886265224D0FBAA"
+			subtitle: "第一块合金"
+			tasks: [{
+				id: "5C74200AB86E8BC5"
+				item: "gtceu:andesitealloy_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
 		}
 	]
 	title: "安山时代"

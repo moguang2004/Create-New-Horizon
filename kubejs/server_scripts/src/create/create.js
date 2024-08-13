@@ -7,7 +7,7 @@ ServerEvents.recipes(e =>{
     e.recipes.create.mixing(Fluid.of(`gtceu:${i}`, 144), `2x gtceu:${i}_dust`).heated()
 	e.recipes.create.crushing(`gtceu:${i}_dust`, `gtceu:${i}_ingot`)
 }
-  let crushingot =['andesite_alloy','magnetic_iron']
+  let crushingot =['andesitealloy','magnetic_iron']
   for(let i of crushingot){
     e.recipes.create.crushing(`gtceu:${i}_dust`,`gtceu:${i}_ingot`)
   }
@@ -22,7 +22,7 @@ ServerEvents.recipes(e =>{
 )
 //切割
 ServerEvents.recipes(event =>{
-    event.recipes.create.cutting('2x create:shaft','gtceu:andesite_alloy_ingot')
+    event.recipes.create.cutting('2x create:shaft','gtceu:andesitealloy_ingot')
 })
 
 //动力合成
@@ -81,7 +81,7 @@ ServerEvents.recipes(event =>{
     {
       A:"create_new_age:copper_wire",
 
-      B:  "gtceu:andesite_alloy_plate",
+      B:  "gtceu:andesitealloy_plate",
 
       C: "create_new_age:copper_circuit",
 
@@ -94,7 +94,7 @@ ServerEvents.recipes(event =>{
 //动力辊压机
 ServerEvents.recipes(event =>{
     event.recipes.create.compacting('minecraft:paper','2x gtceu:paper_dust')
-    let ingot =['iron','copper','gold','zinc','brass','wrought_iron','steel','rubber','red_alloy','andesite_alloy']
+    let ingot =['iron','copper','gold','zinc','brass','wrought_iron','steel','rubber','red_alloy','andesitealloy']
     for(let i of ingot){
       event.recipes.create.compacting(`gtceu:${i}_plate`,`2x #forge:ingots/${i}`)
     }
@@ -125,7 +125,7 @@ ServerEvents.recipes(event =>{
   event.recipes.create.sequenced_assembly([
 		'kubejs:basic_mechanism'
 	], '#minecraft:wooden_slabs', [
-		event.recipes.createDeploying(transitional, [transitional, 'gtceu:andesite_alloy_ingot']),
+		event.recipes.createDeploying(transitional, [transitional, 'gtceu:andesitealloy_ingot']),
 		event.recipes.createDeploying(transitional, [transitional, 'gtceu:iron_plate']),
 		event.recipes.createCutting(transitional, transitional)
 	]).transitionalItem(transitional)

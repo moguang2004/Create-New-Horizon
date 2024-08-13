@@ -3,12 +3,14 @@
 	default_quest_shape: ""
 	filename: "681E3140690307AA"
 	group: ""
+	icon: "minecraft:oak_log"
 	id: "681E3140690307AA"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			id: "44C7FE559ECFB2EB"
+			subtitle: "本整合包目前处于内测状态，许多机制未完善，请酌情游玩，如有建议欢迎提出"
 			tasks: [{
 				id: "5CE79CE60BD5FC4D"
 				title: "欢迎"
@@ -27,7 +29,7 @@
 				type: "item"
 			}]
 			title: "要致富，先撸树"
-			x: -7.0d
+			x: -6.5d
 			y: 2.5d
 		}
 		{
@@ -41,6 +43,324 @@
 			}]
 			x: -9.0d
 			y: 0.0d
+		}
+		{
+			icon: "gtceu:gregification_hazard_sign_block"
+			id: "6709D9DF2EA0432B"
+			subtitle: "格雷科技是本整合包的主线科技，也许你曾听说过它的大名，但是不要担心，只要一步一步遵循任务线进行，一定能给你带来一个良好的游戏体验！"
+			tasks: [{
+				id: "0159C516B579DCAF"
+				title: "格雷科技"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: "create:wrench"
+			id: "6E097A8CDC0BF608"
+			subtitle: "没错，就是它"
+			tasks: [{
+				id: "09D536FDA05E00B8"
+				title: "机械动力"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			icon: "botania:livingrock"
+			id: "39CA84C1EBF5FF02"
+			subtitle: "一个很棒的魔法模组，会融入主线之中"
+			tasks: [{
+				id: "3779765761C83EA7"
+				title: "植物魔法"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			icon: "bloodmagic:daggerofsacrifice"
+			id: "021CE5551CB203F9"
+			subtitle: "同样是很棒的模组，也会融入主线之中"
+			tasks: [{
+				id: "5573A2DD9A403E16"
+				title: "血魔法"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			id: "4B11E32ACA7BC6FA"
+			subtitle: "慢慢地探索吧"
+			tasks: [{
+				id: "6344812C1EC2C585"
+				title: "还有更多"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09C344717F4BAD6C"]
+			id: "6F405D2508EED283"
+			tasks: [{
+				count: 16L
+				id: "737374C23974ABF8"
+				item: { Count: 16, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F405D2508EED283"]
+			id: "611BCC64F1F511AA"
+			rewards: [
+				{
+					id: "38900AA3B17D11BB"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AD1847BC349708E"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BA9DB98DB8DDD0D"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3734736264B0B488"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "你需要一些保护"
+			tasks: [{
+				count: 4L
+				id: "2B699EAFD14FE1D7"
+				item: { Count: 4, id: "minecraft:leather" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F405D2508EED283"]
+			description: ["格雷修改了原版的所有矿物生成，&4贸然的下矿会让你一无所获&r。使用探矿仪，找到含有铁、铜、锡等前期金属的矿脉，在对应区块寻找矿物，效率会高很多。有时候你会在地面上找到一些&a矿石标记物&r，别犹豫，下面也许就是大片的矿石！"]
+			id: "1B4FFE71B4C66E14"
+			rewards: [{
+				id: "041A24BFFAF6E5F1"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			subtitle: "别随便下矿洞！"
+			tasks: [{
+				id: "02CB7B2250363B17"
+				title: "下矿"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F405D2508EED283"]
+			id: "4157A965AA4E18D2"
+			rewards: [
+				{
+					count: 16
+					id: "429080A5C2A4BE82"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4EB177EA54EF6910"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "67A631D40E83AEF4"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			subtitle: "建议你早点考虑吃喝，生活调味料给你补充的红心会让你舒服不少"
+			tasks: [{
+				count: 16L
+				id: "6ACD95E8150EA4EC"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B4FFE71B4C66E14"]
+			icon: "gtceu:raw_magnetite"
+			id: "6639C6A3A5807AED"
+			subtitle: "一些前期需要的矿石"
+			tasks: [
+				{
+					count: 16L
+					id: "572CAD4F00EDE86F"
+					item: { Count: 16, id: "gtceu:raw_pyrite" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "44D72C7C2A7340A3"
+					item: { Count: 16, id: "gtceu:raw_chalcopyrite" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "40CB9F4CCC5676E3"
+					item: { Count: 16, id: "gtceu:raw_cassiterite" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "44084C15D291F6BC"
+					item: { Count: 16, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0252284CC227D88B"
+					item: { Count: 16, id: "gtceu:raw_malachite" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3427782A2B758FA8"
+					item: "gtceu:raw_magnetite"
+					type: "item"
+				}
+			]
+			title: "矿物"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B4FFE71B4C66E14"]
+			icon: "minecraft:iron_ingot"
+			id: "5BA86B01337A91D5"
+			subtitle: "整合包里最没用的一些东西"
+			tasks: [
+				{
+					count: 16L
+					id: "22D98D01343215B0"
+					item: { Count: 16, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7FA9438D1DF9D76E"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "矿物锭"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7ECD6FD17CB0898D"
+				"27C30CC438658E3E"
+			]
+			id: "09C344717F4BAD6C"
+			subtitle: "做这东西花了我老半天"
+			tasks: [{
+				id: "58CDFF594C3E0249"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			hide_dependency_lines: true
+			id: "27C30CC438658E3E"
+			tasks: [{
+				count: 4L
+				id: "4F80DC03536AE638"
+				item: { Count: 4, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["611BCC64F1F511AA"]
+			id: "04FBFEEE00051A74"
+			subtitle: "不可或缺！"
+			tasks: [{
+				id: "07D5CEBED4CFDED0"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							-622505515
+							-1505932704
+							-1919148795
+							590335821
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5BA86B01337A91D5"]
+			id: "7FA90252C6CC19F0"
+			size: 1.5d
+			subtitle: "第一块合金"
+			tasks: [{
+				id: "19245BF7A4D48BFB"
+				item: "gtceu:andesitealloy_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
 		}
 	]
 	title: "原始人，启动！"

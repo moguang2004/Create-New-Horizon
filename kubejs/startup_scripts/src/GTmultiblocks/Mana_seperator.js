@@ -30,5 +30,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
                     .or(Predicates.autoAbilities(definition.getRecipeTypes())))
             .build()
         )
-        .workableCasingRenderer('botania:block/polished_living_rock',  'gtceu:block/multiblock/generator/large_steam_turbine', false)
+        .workableCasingRenderer('botania:block/polished_livingrock',  'gtceu:block/multiblock/generator/large_steam_turbine', false)
 })

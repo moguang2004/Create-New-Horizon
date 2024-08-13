@@ -1,0 +1,341 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "62876F01654DC6E9"
+	group: ""
+	icon: "buildinggadgets2:gadget_building"
+	id: "62876F01654DC6E9"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7310599945A8C3F8"
+			subtitle: "机械动力的好帮手"
+			tasks: [{
+				id: "5C86A90F9A053934"
+				item: "create:brown_toolbox"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "155071A992CAE0F3"
+			rewards: [
+				{
+					id: "74C38FE1FFE4F61A"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0DBD4412625BA481"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "64737F9637E922B9"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C31C7C82C437B2D"
+					item: "buildinggadgets2:gadget_destruction"
+					type: "item"
+				}
+			]
+			subtitle: "全家福"
+			tasks: [{
+				id: "0B7E013844217853"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_building"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "1336EB25FD132321"
+			tasks: [{
+				id: "08183870A5D0158F"
+				item: "angelblockrenewed:angel_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "2FAFE8CAC3B0C958"
+			rewards: [
+				{
+					id: "1C9DF6BB356391B5"
+					item: {
+						Count: 1
+						id: "functionalstorage:linking_tool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "22C1EDAA286F41A5"
+					item: "functionalstorage:configuration_tool"
+					type: "item"
+				}
+			]
+			subtitle: "史诗级的存储工具"
+			tasks: [{
+				id: "61EC645BB32B1B3C"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "179BF80EB480ED73"
+			tasks: [{
+				id: "37E8105C5EA28920"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "4D1AEA264246FA2B"
+			subtitle: "慎用，但是真好用"
+			tasks: [{
+				id: "2EC5D75B93A25C5C"
+				item: "functionalstorage:fluid_1"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "02266C52DC0FAF30"
+			subtitle: "是个好东西"
+			tasks: [{
+				id: "6179386C5B4BFD71"
+				item: "gtceu:prospector.hv"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "3B338C89D309368D"
+			subtitle: "怕你不知道"
+			tasks: [{
+				id: "1FC1D6CFB981C46C"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "67E66A346ABEC31F"
+			subtitle: "丐版合成终端"
+			tasks: [{
+				id: "1560CEE45107FEE1"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "504BA82ADEF39214"
+			subtitle: "神器"
+			tasks: [{
+				id: "44CBB437F443384B"
+				item: "botania:magnet_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "48D15253D73D7DF9"
+			subtitle: "自定义！"
+			tasks: [{
+				id: "143C4136E7627814"
+				item: "functionalstorage:framed_1"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "010893752981D290"
+			subtitle: "提升游戏体验的一大利器"
+			tasks: [{
+				id: "6778C5AF001D6E14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "gtceu:nightvision_goggles"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "1D6900B1EF6B2D74"
+			subtitle: "和平？伪和平？"
+			tasks: [{
+				id: "5A0650214CD831DE"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "3A2655C3FED42A7F"
+			subtitle: "用起来很难受，但是。。。"
+			tasks: [{
+				id: "665237487F74FCEF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "gtceu:liquid_fuel_jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "52F49800A4AC4497"
+			subtitle: "这个模组添加了许多有意思的饰品"
+			tasks: [{
+				id: "6C6E2BB3058E8CF8"
+				title: "Artifacts"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52F49800A4AC4497"]
+			id: "0CF1BA78424ABB95"
+			subtitle: "吃喝不愁"
+			tasks: [{
+				id: "1168E28614CD1CFD"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52F49800A4AC4497"]
+			id: "1D90541157679351"
+			subtitle: "建筑党狂喜"
+			tasks: [{
+				id: "300082A534DE1410"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52F49800A4AC4497"]
+			id: "5A47F68ACCA13512"
+			subtitle: "泰拉，启动！"
+			tasks: [{
+				id: "44A31FCD91F90EE0"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52F49800A4AC4497"]
+			id: "2D26AF9CD120CC20"
+			subtitle: "伟大，无需多言"
+			tasks: [{
+				id: "6D62C8FC30E194F1"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52F49800A4AC4497"]
+			id: "0A8799058C0D5787"
+			subtitle: "赶路必备"
+			tasks: [{
+				id: "262C40F1D8F49568"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52F49800A4AC4497"]
+			id: "31A28C5AB0C2641D"
+			subtitle: "你也是钓鱼佬？"
+			tasks: [{
+				id: "7F26943F8D8DED74"
+				item: "artifacts:anglers_hat"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52F49800A4AC4497"]
+			id: "521C7F3709BC1A92"
+			subtitle: "颜色不错，幸运的感觉"
+			tasks: [
+				{
+					id: "63A260C7CFCB57AC"
+					item: "artifacts:lucky_scarf"
+					type: "item"
+				}
+				{
+					id: "60B89D3BF7F4A417"
+					item: "artifacts:superstitious_hat"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 4.0d
+		}
+	]
+	title: "实用小工具"
+}

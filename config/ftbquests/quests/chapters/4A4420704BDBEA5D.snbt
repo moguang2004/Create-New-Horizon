@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "4A4420704BDBEA5D"
 	group: ""
+	icon: "gtceu:iron_dust"
 	id: "4A4420704BDBEA5D"
 	images: [{
 		height: 12.5d

@@ -2,7 +2,7 @@
     "type": "bloodmagic:meteor",
     "explosion": 20.0,
     "input": {
-      "item": "gtceu:ev_emitter"
+        "item": "gtceu:hv_emitter"
     },
     "layers": [
         {
@@ -11,7 +11,7 @@
                 "block": "minecraft:cobblestone"
             },
             "minWeight": 1000,
-            "radius": 7,
+            "radius": 9,
             "weightMap": [
                 {
                     "index": 0,
@@ -42,4 +42,4 @@
         }
     ],
     "syphon": 1100000
-  }
+}

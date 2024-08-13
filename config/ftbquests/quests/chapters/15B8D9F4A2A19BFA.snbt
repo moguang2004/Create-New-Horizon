@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "15B8D9F4A2A19BFA"
+	group: "5509A6EB57619098"
+	icon: {
+		Count: 1
+		id: "gtceu:turbine_rotor"
+		tag: {
+			GT.PartStats: {
+				Material: "gtceu:aluminium"
+			}
+		}
+	}
+	id: "15B8D9F4A2A19BFA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2393E591D8CEE84B"]
+			id: "65F13C0C2212FC05"
+			tasks: [{
+				id: "1055D7FCC33FEE5A"
+				item: "gtceu:kinetic_steam_turbine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "21FEA920DE844E5C"
+			tasks: [{
+				id: "5C4F99B24D97D71B"
+				item: "gtceu:mana_generator_turbine_tier1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "4103567A8D3A9B46"
+			tasks: [{
+				id: "565AD9B1D06DA31D"
+				item: "gtceu:mana_generator_turbine_tier2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "02AE26871BBA0CCF"
+			tasks: [{
+				id: "4398844790CB30FB"
+				item: "gtceu:mana_generator_turbine_tier3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "2032BDD3A8B16E3C"
+			tasks: [{
+				id: "068BD67372FB34AA"
+				item: "gtceu:mana_generator_turbine_tier4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "3C15632B9697C37D"
+			tasks: [{
+				id: "64A12577E02E56F8"
+				title: "LV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "4D4791E27E18C9FD"
+			tasks: [{
+				id: "1AD6402466922586"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "3F133879B1E396A7"
+			tasks: [{
+				id: "4CF994857BAF8A84"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "69AC0D0827452C2D"
+			tasks: [{
+				id: "7169D6987794A151"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "06B866E1C6CD3EA6"
+			tasks: [{
+				id: "670FDB885917F891"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "23A5F19648872C41"
+			tasks: [{
+				id: "3744D8131F3EB864"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "11C6946EF64B81B2"
+			tasks: [{
+				id: "22E6B5F2E3731F2E"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "1908C4EE91BEA90F"
+			tasks: [{
+				id: "52BFA11C5897B13B"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "3E09D8895D1823C6"
+			tasks: [{
+				id: "2EF04253A191134C"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "6D59DA342DC7DDAF"
+			tasks: [{
+				id: "59D9F4FBE06A294A"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "21742989261776EF"
+			tasks: [{
+				id: "4A866FC012AACA73"
+				item: "gtceu:water_power_station"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "3095F206B9060B06"
+			tasks: [{
+				id: "22339B8ED87E4BE1"
+				item: "gtnn:ev_rocket_engine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "4071A5059EDE9C0B"
+			tasks: [{
+				id: "2D37AAD5450ED924"
+				item: "gtnn:iv_rocket_engine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			id: "0DF5120026A61AB9"
+			tasks: [{
+				id: "183DE8019D88E6BC"
+				item: "gtnn:luv_rocket_engine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "335E38A11EE1269B"
+			tasks: [{
+				id: "6559C6AF806AF26E"
+				item: "gtnn:iv_naquadah_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "566474383668316E"
+			tasks: [{
+				id: "253CF47EA78058F3"
+				item: "gtnn:luv_naquadah_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "276895EC6427C435"
+			tasks: [{
+				id: "7DE01BAF8C645A63"
+				item: "gtnn:zpm_naquadah_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			id: "6A5982BF9A0692C5"
+			tasks: [{
+				id: "32BFB382EA697960"
+				item: "gtnn:uv_naquadah_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "11A0E2B79648F8A8"
+			tasks: [{
+				id: "29F805ADF527DEFE"
+				item: "gtnn:large_naquadah_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "14D70CD81A9B77A0"
+			tasks: [{
+				id: "5F20F56A4D3A3D86"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+	]
+	title: "如何发电"
+}

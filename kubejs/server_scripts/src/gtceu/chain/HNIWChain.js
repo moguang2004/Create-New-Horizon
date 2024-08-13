@@ -159,7 +159,7 @@ ServerEvents.recipes(event =>{
     .inputFluids(Fluid.of('gtceu:acetic_anhydride',1000))
     .outputFluids(Fluid.of('gtceu:acetic_acid',1000))
     .notConsumableFluid(Fluid.of('gtceu:triethylamine',1000))
-    .notConsumableFluid(Fluid.of('Tetrahydrofuran',1000))
+    .notConsumableFluid(Fluid.of('gtceu:tetrahydrofuran',1000))
     .EUt(1920)
     .duration(200)
 
@@ -275,11 +275,34 @@ ServerEvents.recipes(event =>{
      .outputFluids(Fluid.of('gtceu:toluene',4000))
      .outputFluids(Fluid.of('gtceu:oxygen',4000))
      .notConsumable('gtceu:palladium_on_carbon_dust')
-     .notConsumableFluid(Fluid.of('gtceu:ethyl_benzene',1000))
+     .notConsumableFluid(Fluid.of('gtceu:ethylbenzene',1000))
      .notConsumableFluid(Fluid.of('gtceu:hydrobromic_acid',1000))
      //.notConsumable(Fluid.of('gtceu:dimethylformamide',1000))
      .EUt(30720)
      .duration(100)
+
+     ctnh.chemical_reactor('hydrobromic_acid')
+     .inputFluids(Fluid.of('gtceu:bromine',1000))
+     .inputFluids(Fluid.of('gtceu:hydrogen',1000))
+     .outputFluids(Fluid.of('gtceu:hydrobromic_acid',1000))
+     .EUt(120)
+     .duration(100)
+//2H3BO3 + B -> B2O3
+     ctnh.dehydrator('boron_oxide')
+     .itemInputs('gtceu:boron_dust')
+     .inputFluids(Fluid.of('gtceu:boric_acid',2000))
+     .itemOutputs('5x gtceu:boron_oxide_dust')
+     .EUt(120)
+     .duration(100)
+
+//B2O3 + 6HF -> 3H2O + 2BF3
+     ctnh.chemical_reactor('boron_fluoride')
+     .itemInputs('5x gtceu:boron_oxide_dust')
+     .inputFluids(Fluid.of('gtceu:hydrofluoric_acid',6000))
+     .outputFluids(Fluid.of('minecraft:water',3000))
+     .outputFluids(Fluid.of('gtceu:boron_fluoride',2000))
+     .EUt(120)
+     .duration(160)
 
 //BF3 + HF + HNO3 -> NO2BF4 + H2O
      ctnh.chemical_reactor('nitronium_tetrafluoroborate')

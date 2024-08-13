@@ -76,7 +76,7 @@ ServerEvents.recipes(event =>{
   .duration(100)
   .itemInputs(['gtceu:dark_steel_dust','gtceu:obsidian_dust','gtceu:endstone_dust'])
   .itemOutputs('3x gtceu:end_steel_dust')
-  event.replaceInput({id:'enderio:ensouled_chassis'},'minecraft:nether_quartz','enderio:void_chassis')
+  event.replaceInput({id:'enderio:ensouled_chassis'},'minecraft:quartz','enderio:void_chassis')
   // event.remove({id:'enderio:kjs/e447tb35ps8jdu9tf2ijyxjaf'})
   // event.remove({id:'enderio:kjs/27zokrmagcin1mlx9cyixdwzl'})
   // event.remove({id:''})

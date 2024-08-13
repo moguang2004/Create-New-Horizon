@@ -64,12 +64,14 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
             return true
         })
         .additionalDisplay((machine,l) =>{
+            if(machine.isForm()){
             let water = machine.getHolder().self().persistentData.getInt('water')
             let outputEnergy = machine.getHolder().self().persistentData.getFloat('energy')
             let voltageName = GTValues.VNF[$GTUtil.getTierByVoltage(outputEnergy)]
 			l.add(l.size(), Text.translate("multiblock.ctnh.water_power_station1",water.toFixed()))
 			l.add(l.size(), Text.translate("multiblock.ctnh.water_power_station2",$FormattingUtil.formatNumbers(outputEnergy), voltageName))
-		})
+            }
+        })
         // .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine,recipe) =>{
         //     const rotorHolder = machine.getParts().find(part => part instanceof IRotorHolderMachine)
         //     if (!rotorHolder || !rotorHolder.hasRotor()) {

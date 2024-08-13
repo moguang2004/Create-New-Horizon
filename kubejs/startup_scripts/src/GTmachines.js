@@ -16,6 +16,8 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
         .workableTieredHullRenderer(GTCEu.id("block/machines/rocket_engine"))
 })*/
 
+const { $DimensionMarker } = require("packages/com/gregtechceu/gtceu/api/data/$DimensionMarker")
+
 GTCEuStartupEvents.registry('gtceu:machine',event =>{
     const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
     const rotorholdermachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.RotorHolderPartMachine')

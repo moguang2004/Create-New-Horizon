@@ -733,6 +733,13 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             .temperature(20)
             .customStill())
     .color(0x34daf7)
+    event.create('hydrobromic_acid')
+    .fluid()
+    .color(0xd1593e)
+    event.create('boron_oxide')
+    .dust()
+    .color(0x87cfed)
+    .components('2x boron','3x oxygen')
 })
 StartupEvents.postInit(event =>{
     GTMaterials.get('cryolite').setFormula('Na3AlF6')

@@ -194,6 +194,7 @@
 			dependencies: [
 				"42DC74BF8FB5723A"
 				"2689A25C5C7BED52"
+				"77853271AECF4F7C"
 			]
 			id: "6E67A19F1A190D4F"
 			tasks: [{
@@ -515,6 +516,30 @@
 			}]
 			x: 9.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["7416F6FF316F0FBD"]
+			id: "77853271AECF4F7C"
+			tasks: [{
+				id: "7BE7E22F90BC0E6D"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2534B56E45BA42B0"]
+			hide_dependency_lines: true
+			id: "7416F6FF316F0FBD"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "52C7E520627FA413"
+				title: "访问下界"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 4.5d
 		}
 	]
 	subtitle: ["工业起步"]

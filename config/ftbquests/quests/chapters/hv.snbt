@@ -44,6 +44,274 @@
 			x: -2.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["6BC928DB074E3A7A"]
+			id: "22E945CD59D8AF3D"
+			tasks: [{
+				id: "22BD8F5243B4CBD0"
+				item: "gtceu:hv_electric_pump"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22E945CD59D8AF3D"]
+			id: "17F0388258A83E1F"
+			tasks: [{
+				id: "268FD380F51A8636"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"17F0388258A83E1F"
+				"2FFC9C35347833E2"
+			]
+			id: "2EF159130FB7645A"
+			tasks: [{
+				id: "4B9F18AFB97510D4"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EF159130FB7645A"]
+			id: "2740F44657C0CF5A"
+			tasks: [{
+				id: "33B0355D4F3F7B0B"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1639E940E9B78D68"]
+			id: "4D2FAC9783965D60"
+			tasks: [{
+				id: "7CCB2A5C53D2CDFE"
+				title: "深度石化"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"773CB6E376B56EA4"
+				"30A047CA07E56044"
+			]
+			id: "613BDF61BD8CAD08"
+			tasks: [{
+				id: "6FD9026EFF3CC78B"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["699743A94DF7E0B8"]
+			id: "680DAB5A1CC342A9"
+			tasks: [{
+				id: "232B33A0B04EB0EE"
+				item: "gtceu:fluorine_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["680DAB5A1CC342A9"]
+			id: "30A047CA07E56044"
+			tasks: [{
+				id: "649A69B8F47729B6"
+				item: "gtceu:polytetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2758CA5AD758482C"]
+			id: "7433DD6519C5D9E9"
+			subtitle: "铂系产线的起点"
+			tasks: [{
+				count: 16L
+				id: "028B52BC54F18916"
+				item: { Count: 16, id: "gtceu:raw_cooperite" }
+				type: "item"
+			}]
+			title: "谢尔顿矿"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6BC928DB074E3A7A"]
+			id: "0FE31211C32BF813"
+			tasks: [{
+				id: "3098296863DC6A3E"
+				item: "gtceu:slaughter_house"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7433DD6519C5D9E9"]
+			id: "252739AF54D430F1"
+			tasks: [{
+				id: "5BBD12AD739833B5"
+				item: "gtceu:concentrated_platinum_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"252739AF54D430F1"
+				"613BDF61BD8CAD08"
+			]
+			id: "75D2EDFB44469AA3"
+			tasks: [{
+				id: "15653816F3199CEB"
+				item: "gtceu:platinum_raw_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75D2EDFB44469AA3"]
+			id: "711DB49F2C74338E"
+			tasks: [{
+				id: "64534BF5FD291ED2"
+				item: "gtceu:platinum_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["711DB49F2C74338E"]
+			id: "7DBD4E3F9C69B8B9"
+			tasks: [{
+				id: "1C9645915DC7C96B"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67553CBF5BACA32D"]
+			id: "082ABAF36B6EC7DC"
+			tasks: [{
+				id: "512BF405101980E3"
+				item: "gtnn:heavy_plate_t1"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["082ABAF36B6EC7DC"]
+			id: "1330F4F7A3E4C61C"
+			tasks: [{
+				id: "1DAA2AAE86D784F1"
+				item: "gtnn:t1_chip"
+				type: "item"
+			}]
+			x: 6.261904761904773d
+			y: 1.1190476190476133d
+		}
+		{
+			description: ["    仔细观察发现，要想获得铂锭，铂系处理需要以谢尔顿矿开始，而谢尔顿矿只存在于外太空中，这样就产生了一个矛盾：&4造火箭需要上太空，上太空需要造火箭&r。这时，机智的你产生了一个想法，&a向外太空发射信号，向天祈求携带着外太空矿石的陨石落下&r，不就解决了这一问题吗？"]
+			id: "2758CA5AD758482C"
+			tasks: [{
+				id: "7B231156184BDCBE"
+				item: "gtceu:hv_emitter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "1E21F35AB1E1A7ED"
+			subtitle: "一堆板板"
+			tasks: [
+				{
+					id: "5228260E088B98CA"
+					item: "gtceu:dense_aluminium_plate"
+					type: "item"
+				}
+				{
+					id: "20417B4A2D6F8C41"
+					item: "gtceu:dense_brass_plate"
+					type: "item"
+				}
+				{
+					id: "50CDED88A721DD5D"
+					item: "gtceu:dense_steel_plate"
+					type: "item"
+				}
+			]
+			title: "强化材料"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E21F35AB1E1A7ED"]
+			id: "67553CBF5BACA32D"
+			tasks: [{
+				id: "26702E655DA734BF"
+				item: "gtnn:heavy_ingot_t1"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"082ABAF36B6EC7DC"
+				"1330F4F7A3E4C61C"
+			]
+			id: "66E49577299CA3D6"
+			tasks: [{
+				id: "263B08C2AA57FB8C"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7DBD4E3F9C69B8B9"
+				"66E49577299CA3D6"
+			]
+			id: "3123CD3DCE3598C8"
+			subtitle: "这是ad的一小步，却是你的一大步"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "74AC1AB43328B3C5"
+				title: "访问月球"
+				type: "dimension"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
 	]
 	title: "&6HV&r时期"
 }
