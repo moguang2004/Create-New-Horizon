@@ -159,4 +159,26 @@ ItemEvents.tooltip(event =>{
         //text.add(2,Text.translate('ctnh.bio_reactor.basic_power'))
         //text.add(3,Text.translate('ctnh.bio_reactor.restriction'))
     })
+    event.addAdvanced('gtceu:photovoltaic_power_station_energetic',(item,advanced,text)=>{
+        text.add(1,Text.translate('photovoltaic_power_station_energetic').gray())
+        text.add(2,Text.translate('photovoltaic_power_station_energetic_basic'))
+        text.add(3,Text.translate('photovoltaic_power_station_info'))
+    })
+    event.addAdvanced('gtceu:photovoltaic_power_station_pulsating',(item,advanced,text)=>{
+        text.add(1,Text.translate('photovoltaic_power_station_pulsating').gray())
+        text.add(2,Text.translate('photovoltaic_power_station_pulsating_basic'))
+        text.add(3,Text.translate('photovoltaic_power_station_info'))
+    })
+    event.addAdvanced('gtceu:photovoltaic_power_station_vibrant',(item,advanced,text)=>{
+        text.add(1,Text.translate('photovoltaic_power_station_vibrant').gray())
+        text.add(2,Text.translate('photovoltaic_power_station_vibrant_basic'))
+        text.add(3,Text.translate('photovoltaic_power_station_info'))
+    })
+    event.addAdvanced('gtceu:nuclear_reactor',(item,advanced,text)=>{
+        text.add(1,Text.translate('nuclear_reactor').gray())
+        text.add(2,Text.translate('ctnh.nuclear_reactor.basic'))
+        text.add(3,Text.translate('ctnh.nuclear_reactor.coolant'))
+        text.add(4,Text.translate('ctnh.nuclear_reactor.overclock'))
+        text.add(5,Text,translate('ctnh.nuclear_reactor.safe'))
+    })
 })

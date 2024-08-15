@@ -16,22 +16,22 @@
                 {
                     "index": 0,
                     "tag": "forge:ores/ilmenite",
-                    "weight": 100
+                    "weight": 125
                 },
                 {
                     "index": 0,
                     "tag": "forge:ores/aluminium",
-                    "weight": 100
+                    "weight": 150
                 },
                 {
                     "index": 0,
                     "tag": "forge:ores/bauxite",
-                    "weight": 100
+                    "weight": 200
                 },
                 {
                     "index": 0,
                     "tag": "forge:ores/cooperite",
-                    "weight": 75
+                    "weight": 100
                 },
                 {
                     "index": 0,

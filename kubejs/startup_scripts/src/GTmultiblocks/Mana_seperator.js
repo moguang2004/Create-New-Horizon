@@ -2,6 +2,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
     event.create('mana_seperator')
         .category('ctnh')
         .setMaxIOSize(2, 6, 2, 2)
+        .setEUIO('in')
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.CENTRIFUGE)

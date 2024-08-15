@@ -16,8 +16,8 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
         .recipeType('electric_blast_furnace')
         .recipeModifier((machine,recipe) =>{
             let parallel = 8
-            let newrecipe = GTRecipeModifiers.accurateParallel(machine,newrecipe,parallel,false).getFirst()
-            return GTRecipeModifiers.ebfOverclock(machine,recipe)
+            let newrecipe = GTRecipeModifiers.accurateParallel(machine,recipe.copy(),parallel,false).getFirst()
+            return GTRecipeModifiers.ebfOverclock(machine,newrecipe)
         })
         //.appearanceBlock('kubejs:blaze_blast_frunace_casing')
         .pattern(definition => FactoryBlockPattern.start()
@@ -41,17 +41,17 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
                     if(trait.getHandlerIO() == IO.IN){
                         trait.getContents().forEach((contents )=>{
                             if(contents instanceof FluidStack){
-                                if(contents.getFluid() == 'gtceu:pyrotheum'){
+                                if(contents.getFluid().isSame(Fluid.of('gtceu:pyrotheum').getFluid())){
                                     current += contents.getAmount()
                                 }
                             }
                         })
                     }
                 })
-        })
+            })
             if (machine.isFormed()) {
                 l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(machine.getCoilType().getCoilTemperature() + "K").red()))
-                l.add(l.size(),Text.translate('ctnh.blaze_blast_furnace.cryotheum',current))
+                l.add(l.size(),Text.translate('ctnh.blaze_blast_furnace.pyrotheum',current))
             }
         })
         .onWorking(machine =>{

@@ -125,7 +125,18 @@ StartupEvents.registry("block", event =>{
         .tagBlock("mineable/pickaxe")
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
-        .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/elementium_steel_casing") })    
+        .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/elementium_steel_casing") }) 
+    event.create('reflect_light_casing','gtceu:renderer')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+        .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/reflect_light_casing") })
+    event.create('energetic_photovoltaic_block')
+    event.create('pulsating_photovoltaic_block')
+    event.create('vibrant_photovoltaic_block')
     const registercoils = [
         ["abyssalalloy", "12600", "16", "8"],
         ["titansteel", "14400", "32", "8"],

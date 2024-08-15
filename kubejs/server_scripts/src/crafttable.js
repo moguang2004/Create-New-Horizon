@@ -596,8 +596,43 @@ ServerEvents.recipes(event =>{
           C: 'gtceu:hv_centrifuge',
           D: 'gtceu:hv_electric_pump',
           E: '#gtceu:circuits/hv'
-        }) 
-          
+        })
+    event.shaped(
+        Item.of('gtceu:photovoltaic_power_station_energetic', 1),[
+          "AAA",
+          "BCB",
+          "DED"
+        ],{
+          A: 'minecraft:gold_ingot',
+          B: 'gtceu:lv_electric_motor',
+          C: 'kubejs:reflect_light_casing',
+          D: 'enderio:basic_capacitor',
+          E: '#gtceu:circuits/lv'
+        })
+    event.shaped(
+        Item.of('gtceu:photovoltaic_power_station_pulsating', 1),[
+          "AAA",
+          "BCB",
+          "DED"
+        ],{
+          A: 'gtceu:pulsating_alloy_plate',
+          B: 'gtceu:mv_electric_motor',
+          C: 'kubejs:reflect_light_casing',
+          D: 'enderio:double_layer_capacitor',
+          E: '#gtceu:circuits/mv'
+        })
+    event.shaped(
+        Item.of('gtceu:photovoltaic_power_station_vibrant', 1),[
+          "AAA",
+          "BCB",
+          "DED"
+        ],{
+          A: 'gtceu:vibrant_alloy_plate',
+          B: 'gtceu:hv_electric_motor',
+          C: 'kubejs:reflect_light_casing',
+          D: 'enderio:octadic_capacitor',
+          E: '#gtceu:circuits/hv'
+        })   
     event.forEachRecipe({type:'minecraft:shapeless',input:'#minecraft:logs',output:'#minecraft:planks'},recipe =>{
       let {originalRecipeIngredients,originalRecipeResult} = recipe
       event.custom({

@@ -230,6 +230,23 @@
 			x: 5.5d
 			y: 1.0d
 		}
+		{
+			id: "03AEB26BDE2DBF3B"
+			subtitle: "最终杀器"
+			tasks: [{
+				id: "1453A46534C9C4E6"
+				item: {
+					Count: 1
+					id: "kubejs:temperature_keeping_device"
+					tag: {
+						energyStored: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
 	]
 	title: "冷汗"
 }

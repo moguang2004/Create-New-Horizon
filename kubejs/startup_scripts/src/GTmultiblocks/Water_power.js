@@ -72,16 +72,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
 			l.add(l.size(), Text.translate("multiblock.ctnh.water_power_station2",$FormattingUtil.formatNumbers(outputEnergy), voltageName))
             }
         })
-        // .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine,recipe) =>{
-        //     const rotorHolder = machine.getParts().find(part => part instanceof IRotorHolderMachine)
-        //     if (!rotorHolder || !rotorHolder.hasRotor()) {
-        //         return false;
-        //     }
-        //     if(rotorHolder.getTier() > GTValues.MV){
-        //         machine.getRecipeLogic().interruptRecipe()
-        //         return false
-        //     }
-        //     return true
-        // })
         .workableCasingRenderer('kubejs:block/manasteel_casing',  'gtceu:block/multiblock/generator/large_steam_turbine', false)
 })

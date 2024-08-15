@@ -222,6 +222,9 @@ GTCEuServerEvents.oreVeins(event => {
     event.modify('gtceu:naquadah_vein',vein =>{
         vein.dimensions(['ad_astra:mercury','ad_extendra:jupiter'])
     })
+    event.modify('gtceu:monazite_vein',vein =>{
+        vein.dimensions('ad_astra:jupiter')
+    })
 })
 GTCEuServerEvents.fluidVeins(event => {
 

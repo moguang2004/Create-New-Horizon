@@ -192,3 +192,4 @@ ServerEvents.recipes(event =>{
     .chancedOutput('gtceu:lignin_dust',5000,250)
     .duration(40)
 })
+let meat = ['nethersdelight:hoglin_loin','twilightforest:raw_meef','twilightforest:raw_venison','alexscaves:dinosaur_chop','twilightdelight:raw_insect']

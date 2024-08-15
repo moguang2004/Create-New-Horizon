@@ -11,6 +11,27 @@ let nuclear =
     {name: 'einsteinium_253',color: 0xb58b01},{name: 'einsteinium_255',color: 0xa67f00},{name: 'einsteinium_257',color: 0x9c7700},
     {name: 'fermium_257',color: 0xbb90d9},{name: 'fermium_258',color: 0xae84cc},{name: 'fermium_259',color: 0xa47ac2},{name: 'fermium_262',color: 0x9d73ba},{name: 'fermium_263',color: 0x9067ad},
     {name: 'mendelevium_259',color: 0x1845bf},{name: 'mendelevium_261',color: 0x153eb0},{name: 'mendelevium_263',color: 0x123aa6}]
+let nuclear2 = 
+    [{name: 'thorium',color: 0x323528},
+    {name: 'protactinium',color: 0xA78B6D},
+    {name: 'uranium',color: 0x1d891d},
+    {name: 'neptunium', color: 0x284D7B},
+    {name: 'plutonium', color: 0xba2727},
+    {name: 'americium', color: 0x287869},
+    {name: 'curium', color: 0x7B544E},
+    {name: 'berkelium', color: 0x645A88},
+    {name: 'californium', color: 0xA85A12},
+    {name: 'einsteinium', color: 0xCE9F00},
+    {name: 'fermium', color: 0xc99fe7},
+    {name: 'mendelevium',color: 0x1D4ACF}]
+let nuclear3 =
+    [
+        {name: 'thorium_232', color: 0x1a8f2a},
+        {name: 'uranium_238', color: 0x1d891d},
+        {name: 'uranium_235', color: 0x46FA46},
+        {name: 'plutonium_239', color: 0xba2727},
+        {name: 'plutonium_241', color: 0xfa7272}
+    ]
 GTCEuStartupEvents.registry('gtceu:element',event =>{
     event.create("Thorium-233",90, 143, -1, null,  "Th-233", true)
     event.create('Protactinium-233',91, 142, -1, null,'Pa-233',true)
@@ -71,28 +92,109 @@ GTCEuStartupEvents.registry('gtceu:material',event =>{
         event.create('nitride_' + material.name)
         .dust()
         .color(material.color - 20)
+        event.create('fuel_' + material.name)
+        .dust()
+        .color(material.color + 5)
         event.create('fuel_carbide_' + material.name)
-        .gem()
-        .iconSet(GTMaterialIconSet.OPAL)
+        .dust()
+        .iconSet(GTMaterialIconSet.LIGNITE)
         .color(material.color + 20)
         event.create('fuel_triso_' + material.name)
-        .gem()
-        .iconSet(GTMaterialIconSet.GEM_HORIZONTAL)
+        .dust()
+        .iconSet(GTMaterialIconSet.LIGNITE)
         .color(material.color + 20)
         event.create('fuel_oxide_' + material.name)
-        .gem()
+        .dust()
         .color(material.color)
-        .iconSet(GTMaterialIconSet.GEM_HORIZONTAL)
+        .iconSet(GTMaterialIconSet.LIGNITE)
         event.create('fuel_nitride_' + material.name)
-        .gem()
+        .dust()
         .color(material.color - 20)
-        .iconSet(GTMaterialIconSet.GEM_HORIZONTAL)
+        .iconSet(GTMaterialIconSet.LIGNITE)
         event.create('zirconium_alloy_'+ material.name)
         .dust()
         .color(material.color + 30)
         event.create('fuel_zirconium_alloy_'+ material.name)
-        .gem()
-        .iconSet(GTMaterialIconSet.GEM_HORIZONTAL)
+        .dust()
+        .iconSet(GTMaterialIconSet.LIGNITE)
         .color(material.color + 30)
+        event.create('depleted_fuel_triso_' + material.name)
+        .dust()
+        .color(material.color - 0x040404 + 20)
+        event.create('depleted_fuel_oxide_' + material.name)
+        .dust()
+        .color(material.color - 0x040404)
+        event.create('depleted_fuel_nitride_' + material.name)
+        .dust()
+        .color(material.color - 0x040404 - 20)
+        event.create('depleted_fuel_zirconium_alloy_' + material.name)
+        .dust()
+        .color(material.color - 0x040404 + 30)
+        event.create('depleted_fuel_' + material.name)
+        .dust()
+        .color(material.color - 0x040404 - 40)
+        event.create('depleted_fuel_nitrate_solution_' + material.name)
+        .fluid()
+        .color(material.color - 0x040404 - 20)
+    })
+    nuclear2.forEach(material =>{
+        event.create(material.name + '_waste')
+        .dust()
+        .color(material.color)
+    })
+    nuclear3.forEach(material =>{
+        event.create('oxide_'+material.name)
+        .dust()
+        .color(material.color)
+        event.create('carbide_' + material.name)
+        .dust()
+        .color(material.color + 20)
+        event.create('nitride_' + material.name)
+        .dust()
+        .color(material.color - 20)
+        event.create('fuel_' + material.name)
+        .dust()
+        .color(material.color + 5)
+        event.create('fuel_carbide_' + material.name)
+        .dust()
+        .iconSet(GTMaterialIconSet.LIGNITE)
+        .color(material.color + 20)
+        event.create('fuel_triso_' + material.name)
+        .dust()
+        .iconSet(GTMaterialIconSet.LIGNITE)
+        .color(material.color + 20)
+        event.create('fuel_oxide_' + material.name)
+        .dust()
+        .color(material.color)
+        .iconSet(GTMaterialIconSet.LIGNITE)
+        event.create('fuel_nitride_' + material.name)
+        .dust()
+        .color(material.color - 20)
+        .iconSet(GTMaterialIconSet.LIGNITE)
+        event.create('zirconium_alloy_'+ material.name)
+        .dust()
+        .color(material.color + 30)
+        event.create('fuel_zirconium_alloy_'+ material.name)
+        .dust()
+        .iconSet(GTMaterialIconSet.LIGNITE)
+        .color(material.color + 30)
+        event.create('depleted_fuel_triso_' + material.name)
+        .dust()
+        .color(material.color - 0x040404 + 20)
+        event.create('depleted_fuel_oxide_' + material.name)
+        .dust()
+        .color(material.color - 0x040404)
+        event.create('depleted_fuel_nitride_' + material.name)
+        .dust()
+        .color(material.color - 0x040404 - 20)
+        event.create('depleted_fuel_zirconium_alloy_' + material.name)
+        .dust()
+        .color(material.color - 0x040404 + 30)
+        event.create('depleted_fuel_' + material.name)
+        .dust()
+        .color(material.color - 0x040404 - 40)
+        event.create('depleted_fuel_nitrate_solution_' + material.name)
+        .fluid()
+        .color(material.color - 0x040404 - 20)
     })
 })

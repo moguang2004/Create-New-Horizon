@@ -1,6 +1,7 @@
 
 ServerEvents.recipes(event =>{
   event.remove({id:'enderio:iron_gear'})
+  event.remove({id:'enderio:alloy_smelting/energetic_alloy_ingot'})
   event.recipes.gtceu.alloy_smelter('conductive_alloy_ingot')
   .EUt(30)
   .duration(40)

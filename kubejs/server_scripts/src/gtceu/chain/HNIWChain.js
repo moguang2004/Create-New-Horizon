@@ -1,3 +1,5 @@
+//const PlantCasingCondition = Java.loadClass('org.arbor.gtnn.api.recipe.PlantCasingCondition')
+//const PlantCasingBlock = Java.loadClass('org.arbor.gtnn.block.PlantCasingBlock')
 ServerEvents.recipes(event =>{
      // 2NH3 + H2SO4 -> (NH4)2SO4
     let ctnh = event.recipes.gtceu
@@ -277,6 +279,7 @@ ServerEvents.recipes(event =>{
      .notConsumable('gtceu:palladium_on_carbon_dust')
      .notConsumableFluid(Fluid.of('gtceu:ethylbenzene',1000))
      .notConsumableFluid(Fluid.of('gtceu:hydrobromic_acid',1000))
+     //.addCondition(new PlantCasingCondition(PlantCasingBlock.STAINLESS))
      //.notConsumable(Fluid.of('gtceu:dimethylformamide',1000))
      .EUt(30720)
      .duration(100)

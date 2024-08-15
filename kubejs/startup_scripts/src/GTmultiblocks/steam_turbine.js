@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
         .category('ctnh')
         .setMaxIOSize(0, 0, 1, 1)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
-        .setProgressBar(GuiTextures.TURBINE_OVERLAY, FillDirection.LEFT_TO_RIGHT)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_GAS_COLLECTOR, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.TURBINE)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event =>{

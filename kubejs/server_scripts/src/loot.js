@@ -12,6 +12,8 @@ LootJS.modifiers(event =>{
     .replaceLoot('minecraft:raw_gold','gtceu:raw_precious_alloy',true)
     .replaceLoot('botania:manasteel_ingot','gtceu:manasteel_ingot',true)
     .replaceLoot('minecraft:netherite_ingot','gtceu:netherite_ingot',true)
+    .replaceLoot('ad_astra:desh_ingot','gtceu:desh_ingot',true)
+    .replaceLoot('ad_astra:raw_desh','gtceu:raw_desh',true)
     .removeLoot('bloodmagic:strong_tau')
     //event.addLootTableModifier('dun')
     const gtceulv =[LootEntry.of('gtceu:lv_electric_motor',1).when(c=> {c.randomChance(0.2)}),
@@ -30,6 +32,18 @@ LootJS.modifiers(event =>{
                     LootEntry.of('gtceu:red_alloy_single_wire',2).when(c=>{c.randomChance(0.4)}),
                     LootEntry.of('gtceu:vacuum_tube',1).when(c=>{c.randomChance(0.3)}),
                     LootEntry.of('create:andesite_casing',1).when(c=>{c.randomChance(0.5)})]
+
+    const gtceuhv = [LootEntry.of('gtceu:hv_electric_motor',1).when(c => {c.randomChance(0.2)}),
+                    LootEntry.of('gtceu:electrum_single_wire',2).when(c=> {c.randomChance(0.4)}),
+                    LootEntry.of('gtceu:stainless_steel_ingot',3).when(c=> {c.randomChance(0.5)}),
+                    LootEntry.of('gtceu:hv_machine_hull',1).when(c=> {c.randomChance(0.1)}),
+                    LootEntry.of('gtceu:stainless_steel_frame',2).when(c=> {c.randomChance(0.3)}),
+                    LootEntry.of('gtceu:micro_processor_assembly',1).when(c=> {c.randomChance(0.3)}),
+                    LootEntry.of('gtceu:plastic_printed_circuit_board',1).when(c=> {c.randomChance(0.2)}),
+                    LootEntry.of('botania:rune_summer',1).when(c => {c.randomChance(0.2)}),
+                    LootEntry.of('botania:rune_spring',1).when(c => {c.randomChance(0.2)}),
+                    LootEntry.of('botania:rune_autumn',1).when(c => {c.randomChance(0.2)}),
+                    LootEntry.of('botania:rune_winter',1).when(c => {c.randomChance(0.2)})]
 
     const ore = [   LootEntry.of('gtceu:raw_galena',4).when(c=>{c.randomChance(0.2)}),
                     LootEntry.of('gtceu:raw_precious_alloy',3).when(c=>{c.randomChance(0.4)}),
@@ -382,7 +396,35 @@ LootJS.modifiers(event =>{
         pool.rolls([2,4])
         pool.addAlternativesLoot(steam)
     })
-    //event.enableLogging()
+    event.addLootTableModifier('ad_astra:chests/village/moon/blacksmith')
+    .pool(pool=>{
+        pool.rolls([1,3])
+        pool.addAlternativesLoot(gtceuhv)
+    })
+    event.addLootTableModifier('ad_astra:chests/village/moon/house')
+    .pool(pool=>{
+        pool.rolls([1,3])
+        pool.addAlternativesLoot(gtceuhv)
+    })
+    event.addLootTableModifier('ad_astra:chests/dungeon/moon/dungeon_chest')
+    .removeLoot('ad_astra:ice_shard')
+    .pool(pool=>{
+        pool.rolls([1,4])
+        pool.addAlternativesLoot(gtceuhv)
+    })
+    event.addLootTableModifier('ad_astra:chests/dungeon/moon/large_dungeon_chest')
+    .removeLoot('ad_astra:ice_shard')
+    .pool(pool=>{
+        pool.rolls([3,5])
+        pool.addAlternativesLoot(gtceuhv)
+    })
+    event.addLootTableModifier('ad_astra:chests/temple/mars/temple')
+    .removeLoot('ad_astra:ice_shard')
+    .pool(pool=>{
+        pool.rolls([2,4])
+        pool.addAlternativesLoot(gtceuhv)
+    })
+    event.enableLogging()
     
 
     event.addBlockLootModifier('ae2:flawless_budding_quartz')
@@ -421,4 +463,20 @@ LootJS.modifiers(event =>{
     .matchMainHand('#forge:tools/butchery_knives')
     .killedByPlayer()
     .addLoot('minecraft:wither_skeleton_head')
+})
+
+ServerEvents.entityLootTables(event => {
+    event.addEntity("ad_astra:glacian_ram", l => {
+        l.addPool(p => {
+            p.addItem("cold_sweat:fur").weight(1)
+            p.addItem("ad_astra:ice_shard").weight(9)
+        })
+    })
+    event.addEntity("ad_astra:mogler", l => {
+        l.addPool(p => {
+            p.addItem('gtceu:pyrotheum_dust').weight(10).randomChanceWithLooting(0.15,0.05)
+            p.addItem('cold_sweat:hoglin_hide').weight(3)
+            p.addItem('nethersdelight:hoglin_loin').weight(6).count(2)
+        })
+    })
 })
