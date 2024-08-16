@@ -1,0 +1,219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "046724C96F783FC2"
+	group: ""
+	icon: {
+		Count: 1
+		id: "apotheosis:gem"
+		tag: {
+			affix_data: {
+				rarity: "apotheosis:rare"
+			}
+			gem: "apotheosis:the_nether/inferno"
+		}
+	}
+	id: "046724C96F783FC2"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1338FE50BBDCF412"
+			rewards: [{
+				id: "15B1C81A88811320"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "这是你上手本模组最好的工具"
+			tasks: [{
+				id: "59F24DF7703134AE"
+				title: "阴影编年史"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "47E83B3FF8355CCC"
+			tasks: [{
+				id: "2C5A6C971F246BB2"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47E83B3FF8355CCC"]
+			id: "2A9C751134DC1A4E"
+			subtitle: "下界系列书架"
+			tasks: [{
+				id: "211B992781C85A51"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "5AC4BE02BC41744B"
+			tasks: [{
+				id: "2E5B24B1F56E73DC"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47E83B3FF8355CCC"]
+			id: "6746637E7BE5AA2D"
+			subtitle: "海洋系列书架"
+			tasks: [{
+				id: "4DBC50D6EDC94BE2"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43831A18BD0D336A"]
+			id: "15F5B37127D13699"
+			tasks: [{
+				id: "37EFCCB784A7BCAF"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6746637E7BE5AA2D"
+				"2A9C751134DC1A4E"
+				"5AC4BE02BC41744B"
+			]
+			id: "6104F4DF3C6E3B4E"
+			subtitle: "附魔等级到达60以后，通过灌注附魔升级获得"
+			tasks: [{
+				id: "14A11634C17D43D8"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"296E09A46FD91251"
+				"5B3F00585481E1B2"
+			]
+			id: "43831A18BD0D336A"
+			tasks: [{
+				id: "6895F2B58722A6D1"
+				item: "apotheosis:infused_breath"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6104F4DF3C6E3B4E"]
+			id: "5B3F00585481E1B2"
+			tasks: [{
+				id: "198D9509D4946B77"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6104F4DF3C6E3B4E"]
+			id: "296E09A46FD91251"
+			tasks: [{
+				id: "5E97D28775DE6832"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6746637E7BE5AA2D"]
+			id: "5DD578BD6488D38A"
+			tasks: [{
+				id: "25A0F4AA0E4932D3"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6104F4DF3C6E3B4E"]
+			id: "47943132CDE90414"
+			tasks: [{
+				id: "0EBD7ACE2D76F97F"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6104F4DF3C6E3B4E"]
+			id: "59FE3A2954F3D59B"
+			tasks: [{
+				id: "0E8148A987C1DD37"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AE229F558CEE98E"]
+			id: "29EDF9E9F07B041C"
+			tasks: [{
+				id: "7EA027615DFC388A"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15F5B37127D13699"]
+			id: "2AE229F558CEE98E"
+			tasks: [{
+				id: "369037BE82A9258C"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AE229F558CEE98E"]
+			description: ["    想要通过附魔台获得此魔咒，首先需要使最大附魔等级大于140（&e位阶&rx2x（1+&c量子化&r））,其次需要&5阿卡那&r尽可能的高，同时，还需要奥术宝藏深暗书架以解锁宝藏附魔。"]
+			id: "5BFDF39A4B861556"
+			subtitle: "有了这个附魔。你就可以随意驰骋于宇宙之中了"
+			tasks: [{
+				id: "68233A92F4015C0B"
+				title: "真空密封！"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: -3.0d
+		}
+	]
+	title: "神化"
+}

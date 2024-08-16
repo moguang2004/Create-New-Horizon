@@ -336,6 +336,360 @@
 			x: 9.5d
 			y: 4.0d
 		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			hide_dependency_lines: true
+			id: "7CC747DEA87811DA"
+			tasks: [{
+				count: 4L
+				id: "23CE92086120A374"
+				item: { Count: 4, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B4FFE71B4C66E14"]
+			icon: "minecraft:iron_ingot"
+			id: "3573A946D77EBA28"
+			subtitle: "整合包里最没用的一些东西"
+			tasks: [
+				{
+					count: 16L
+					id: "46B4622E08BBBF18"
+					item: { Count: 16, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6683587CAC9B6F7D"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "矿物锭"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6DB370790E927958"]
+			id: "1EE2CF3221C467D7"
+			tasks: [{
+				id: "0D0EDC340FAF5F3F"
+				item: "gtceu:iron_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"42DC74BF8FB5723A"
+				"2689A25C5C7BED52"
+				"77853271AECF4F7C"
+			]
+			id: "25186BB3512C8E11"
+			tasks: [{
+				id: "64D11F35A392FE6F"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"3573A946D77EBA28"
+				"7CC747DEA87811DA"
+			]
+			description: ["这是你前期可以制作的基础工具，其中研钵可以用来研磨一些基础的粉末，锤的作用目前只能用来使机器静音"]
+			id: "4E487D122BC2C2F4"
+			subtitle: "基础工具"
+			tasks: [
+				{
+					id: "2D087D484E9C50E3"
+					item: {
+						Count: 1
+						id: "gtceu:flint_mortar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 63
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E3080A269D6526C"
+					item: {
+						Count: 1
+						id: "gtceu:iron_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1EE2CF3221C467D7"]
+			description: [
+				"锉用来生产杆。"
+				"螺丝刀用来生产螺丝，同时也可以调整机器的输入输出。"
+				"扳手是用途最广的机器，可以旋转机器调整输入输出口，还可以用来合成。"
+				"剪线钳用来处理线缆之间的连接。"
+				"锯子可以砍树，也可以用来参与合成。"
+			]
+			id: "4BA3B5C8E5A96E51"
+			subtitle: "进阶工具"
+			tasks: [
+				{
+					id: "42D8F532F8F1A4AD"
+					item: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "726E5E9003D1F204"
+					item: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70D40D8A9116A676"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4244BD7733729506"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2277321C0BDD97AD"
+					item: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["25186BB3512C8E11"]
+			description: [
+				"可以用来控制机器的运行与停止。"
+				"&4（当你全家机器跳电的时候就知道怎么用了）&r"
+			]
+			id: "77DF7C0A366D69B4"
+			subtitle: "最有用的一集"
+			tasks: [{
+				id: "40FEFBAD0C7D0514"
+				item: {
+					Count: 1
+					id: "gtceu:rubber_mallet"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 255
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			id: "079E580DEBE59896"
+			subtitle: "挖矿的好帮手"
+			tasks: [{
+				id: "5FCACE65A799400B"
+				item: {
+					Count: 1
+					id: "gtceu:iron_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 767
+							ToolSpeed: 4.8f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			id: "01FF1DC87906AE75"
+			subtitle: "采矿锤升级版"
+			tasks: [{
+				id: "302453A94A2C608E"
+				item: {
+					Count: 1
+					id: "gtceu:lv_iron_drill"
+					tag: {
+						Charge: 2147483647L
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 767
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+						MaxCharge: 2147483647L
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			id: "0A86E1B3B2AF9DEA"
+			subtitle: "一用一辈子"
+			tasks: [{
+				id: "5033C8A80BEFDE1F"
+				item: {
+					Count: 1
+					id: "gtceu:lv_iron_wrench"
+					tag: {
+						Charge: 2147483647L
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							Mode: 2b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 8.0f
+						}
+						HideFlags: 2
+						MaxCharge: 2147483647L
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			id: "74578688D5974E8A"
+			subtitle: "没有这东西你活得下去？"
+			tasks: [{
+				id: "3ABBFEF5ACC587F5"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
 	]
 	title: "实用小工具"
 }

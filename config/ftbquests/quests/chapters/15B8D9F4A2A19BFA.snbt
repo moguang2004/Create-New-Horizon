@@ -267,6 +267,126 @@
 			x: 8.0d
 			y: 5.5d
 		}
+		{
+			id: "3D882DE9ACFD43EA"
+			tasks: [{
+				id: "536B45B8404BE1CB"
+				title: "MV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "772551A724F97069"
+			tasks: [{
+				id: "6A0A6B2BC679BEB1"
+				title: "HV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "5275FB66FC08D1A1"
+			tasks: [{
+				id: "48139C25B960D001"
+				title: "EV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "6AAC4D8C7C7147AB"
+			tasks: [{
+				id: "34068A0143E04F57"
+				title: "IV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "187E4ADFF4648D64"
+			tasks: [{
+				id: "32EE4FBEE51C583A"
+				title: "LuV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "3363C23E39C4AD1C"
+			tasks: [{
+				id: "2A8B911352BA8C2F"
+				title: "ZPM阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			id: "65EBA2AFB63D9C39"
+			tasks: [{
+				id: "2D85FD0B8C9499FE"
+				title: "UV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			id: "037FDD26FC9E9788"
+			tasks: [{
+				id: "304D93636CA5DA20"
+				title: "ULV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "5E9C58D5439EF42D"
+			tasks: [{
+				id: "3CDA34D2FC699A61"
+				item: "gtceu:photovoltaic_power_station_energetic"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "06335DDDA4AEA30C"
+			tasks: [{
+				id: "12E9CB2E088A7B5A"
+				item: "gtceu:photovoltaic_power_station_pulsating"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "76B4460F735B7901"
+			tasks: [{
+				id: "0BA4B86CC330167F"
+				item: "gtceu:photovoltaic_power_station_vibrant"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "598C9A5068C7F9C7"
+			tasks: [{
+				id: "5952955F070A5F37"
+				item: "gtceu:hot_coolant_turbine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
 	]
 	title: "如何发电"
 }

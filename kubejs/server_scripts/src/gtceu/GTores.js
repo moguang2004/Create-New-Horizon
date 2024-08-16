@@ -225,6 +225,16 @@ GTCEuServerEvents.oreVeins(event => {
     event.modify('gtceu:monazite_vein',vein =>{
         vein.dimensions('ad_astra:jupiter')
     })
+    event.modify('gtceu:mica_vein',vein =>{
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Kyanite).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Mica).size(1, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.Aluminium).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Pollucite).size(1, 1))
+            )
+        )
+    })
 })
 GTCEuServerEvents.fluidVeins(event => {
 

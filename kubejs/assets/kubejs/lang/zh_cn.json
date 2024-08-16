@@ -5,6 +5,8 @@
     "item.kubejs.deep_diver_gear": "深渊潜游装置",
     "kubejs.attribute.pressure_defense": "水压抗性",
     "item.ctnh.durabilityofenergy": "剩余能量: %s / %s EU",
+    "enchantment.kubejs.vacuum_seal": "真空密封",
+    "enchantment.kubejs.vacuum_seal.desc": "使你不再受到真空的伤害。注：必须所有装备均拥有该附魔",
     "attribute.base_temperature": "基础温度",
     "attribute.cold_dampening": "防寒系数",
     "attribute.cold_resistance": "寒冷抗性",
@@ -34,5 +36,7 @@
     "block.kubejs.pikyonium_coil_block": "皮卡优线圈",
     "block.kubejs.black_titanium_coil_block": "黑钛合金线圈",
     "block.kubejs.starmetal_coil_block": "星辉线圈",
-    "block.kubejs.infinity_coil_block": "无尽线圈"
+    "block.kubejs.infinity_coil_block": "无尽线圈",
+    "ctnh.blood_magic_gregtech_hv": "在坠星位标仪式中使用此物品作为祭品可以召唤陨石",
+    "ctnh.mana_generation": "利用魔力发射器朝向机械动力流体储罐发射魔力以转化液态魔力，每100魔力转化为2mB液态魔力"
 }

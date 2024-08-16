@@ -12,6 +12,56 @@ GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.COOLING)
 })
+function isValid(machine) {
+    if(machine.level.dayTime() > 12000){
+        return false
+    }
+    let facing = machine.frontFacing
+    let pos = machine.self().holder.pos()
+    
+    if(facing.equals(Direction.WEST)){
+        for(let x = 1; x < 6; x++){
+            for(let z = -2; z < 2; z++){
+                if(!machine.level.getBlock(pos.offset(x,1,z)).canSeeSky){
+                    machine.getHolder().self().persistentData.putBoolean('valid',false)
+                    return false
+                }
+            }
+        }
+    }
+    else if(facing.equals(Direction.EAST)){
+        for(let x = -5; x < 0; x++){
+            for(let z = -2; z < 2; z++){
+                if(!machine.level.getBlock(pos.offset(x,1,z)).canSeeSky){
+                    machine.getHolder().self().persistentData.putBoolean('valid',false)
+                    return false
+                }
+            }
+        }
+    }
+    else if(facing.equals(Direction.NORTH)){
+        for(let x = -2; x < 2; x++){
+            for(let z = 1; z < 6; z++){
+                if(!machine.level.getBlock(pos.offset(x,1,z)).canSeeSky){
+                    machine.getHolder().self().persistentData.putBoolean('valid',false)
+                    return false
+                }
+            }
+        }
+    }
+    else{
+        for(let x = -2; x < 2; x++){
+            for(let z = -5; z < 0; z++){
+                if(!machine.level.getBlock(pos.offset(x,1,z)).canSeeSky){
+                    machine.getHolder().self().persistentData.putBoolean('valid',false)
+                    return false
+                }
+            }
+        }
+    }
+    machine.getHolder().self().persistentData.putBoolean('valid',true)
+    return true
+}
 GTCEuStartupEvents.registry('gtceu:machine', event =>{
     const EURecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.EURecipeCapability')
     const $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
@@ -21,7 +71,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
         .recipeModifier((/**@type {$WorkableElectricMultiblockMachine}*/machine, /**@type {$GTRecipe}*/recipe) => {
             let level = machine.level
             let time = machine.level.dayTime()
-            let rate = Math.sin(time/12000 * Math.PI)
+            let rate = Math.sin(time/12000 * 3.14)
             let basic_rate = 1
             if(level.dimension == 'minecraft:overworld' || level.dimension == 'twilightforest:twilight_forest' || level.dimension == 'mythicbotany:alfheim'){
                 rate *= 1
@@ -29,7 +79,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
             else if(level.dimension == 'aether:the_aether'){
                 rate *= 2
             }
-            else if(level.dimension == 'ad_astra:moon' || level.dimension == 'ad_astra:moon_orbit'){
+            else if(level.dimension == 'ad_astra:moon' || level.dimension == 'ad_astra:moon_orbit' || level.dimension == "ad_astra:earth_orbit"){
                 rate *= 4
             }
             else if(level.dimension == 'ad_astra:venus' || level.dimension == 'ad_astra:venus_orbit'){
@@ -43,6 +93,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
             }
             else if(level.dimension == 'ad_astra:glacio' || level.dimension == 'ad_astra:glacio_orbit'){
                 rate *= 32
+            }
+            else{
+                rate = 0
             }
             let newrecipe = recipe.copy()
             newrecipe.tickOutputs.put(EURecipeCapability.CAP,newrecipe.copyContents(newrecipe.tickOutputs,ContentModifier.of(rate*basic_rate,0)).get(EURecipeCapability.CAP))
@@ -65,61 +118,26 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
             .build()
         )
         .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine,recipe)=>{
-            if(machine.level.dayTime() > 12000){
-                machine.recipeLogic.interruptRecipe()
-                return false
-            }
-            let facing = machine.frontFacing
-            let pos = machine.self().holder.pos()
-            
-            if(facing.equals(Direction.WEST)){
-                for(let x = 1; x < 6; x++){
-                    for(let z = -2; z < 2; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
-            }
-            else if(facing.equals(Direction.EAST)){
-                for(let x = -5; x < 0; x++){
-                    for(let z = -2; z < 2; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
-            }
-            else if(facing.equals(Direction.NORTH)){
-                for(let x = -2; x < 2; x++){
-                    for(let z = 1; z < 6; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
+            if(isValid(machine)){
+                return true
             }
             else{
-                for(let x = -2; x < 2; x++){
-                    for(let z = -5; z < 0; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
+                machine.getRecipeLogic().interruptRecipe()
+                return false
             }
-            return true
+        })
+        .onWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine) =>{
+            if(isValid(machine)){
+                machine.getRecipeLogic().setWorkingEnabled(true)
+                return true
+            }
+            else{
+                machine.getRecipeLogic().setWorkingEnabled(false)
+                return true
+            }
         })
         .additionalDisplay((machine,l) =>{
-            if(machine.isForm()){
+            if(machine.isFormed()){
                 let valid = machine.getHolder().self().persistentData.getBoolean('valid')
                 if(valid == null){
                     valid = true
@@ -132,7 +150,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
                 if(!valid){
                     l.add(l.size(), Text.translate("multiblock.ctnh.photovoltaic_power_station_invalid").red())
                 }
-                l.add(l.size(), Text.translate("multiblock.ctnh.photovoltaic_power_station1",(outputEnergy/512).toFixed(1)))
+                l.add(l.size(), Text.translate("multiblock.ctnh.photovoltaic_power_station1",(outputEnergy/512*100).toFixed(1)))
                 l.add(l.size(), Text.translate("multiblock.ctnh.photovoltaic_power_station2",$FormattingUtil.formatNumbers(outputEnergy), voltageName))
             }
         })
@@ -148,7 +166,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
         .recipeModifier((/**@type {$WorkableElectricMultiblockMachine}*/machine, /**@type {$GTRecipe}*/recipe) => {
             let level = machine.level
             let time = machine.level.dayTime()
-            let rate = Math.sin(time/12000 * Math.PI)
+            let rate = Math.sin(time/12000 * 3.14)
             let basic_rate = 4
             if(level.dimension == 'minecraft:overworld' || level.dimension == 'twilightforest:twilight_forest' || level.dimension == 'mythicbotany:alfheim'){
                 rate *= 1
@@ -192,61 +210,26 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
             .build()
         )
         .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine,recipe)=>{
-            if(machine.level.dayTime() > 12000){
-                machine.recipeLogic.interruptRecipe()
-                return false
-            }
-            let facing = machine.frontFacing
-            let pos = machine.self().holder.pos()
-            
-            if(facing.equals(Direction.WEST)){
-                for(let x = 1; x < 6; x++){
-                    for(let z = -2; z < 2; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
-            }
-            else if(facing.equals(Direction.EAST)){
-                for(let x = -5; x < 0; x++){
-                    for(let z = -2; z < 2; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
-            }
-            else if(facing.equals(Direction.NORTH)){
-                for(let x = -2; x < 2; x++){
-                    for(let z = 1; z < 6; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
+            if(isValid(machine)){
+                return true
             }
             else{
-                for(let x = -2; x < 2; x++){
-                    for(let z = -5; z < 0; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
+                machine.getRecipeLogic().interruptRecipe()
+                return false
             }
-            return true
+        })
+        .onWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine) =>{
+            if(isValid(machine)){
+                machine.getRecipeLogic().setWorkingEnabled(true)
+                return true
+            }
+            else{
+                machine.getRecipeLogic().setWorkingEnabled(false)
+                return true
+            }
         })
         .additionalDisplay((machine,l) =>{
-            if(machine.isForm()){
+            if(machine.isFormed()){
             let valid = machine.getHolder().self().persistentData.getBoolean('valid')
             if(valid == null){
                 valid = true
@@ -275,7 +258,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
         .recipeModifier((/**@type {$WorkableElectricMultiblockMachine}*/machine, /**@type {$GTRecipe}*/recipe) => {
             let level = machine.level
             let time = machine.level.dayTime()
-            let rate = Math.sin(time/12000 * Math.PI)
+            let rate = Math.sin(time/12000 * 3.14)
             let basic_rate = 16
             if(level.dimension == 'minecraft:overworld' || level.dimension == 'twilightforest:twilight_forest' || level.dimension == 'mythicbotany:alfheim'){
                 rate *= 1
@@ -319,61 +302,26 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
             .build()
         )
         .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine,recipe)=>{
-            if(machine.level.dayTime() > 12000){
-                machine.recipeLogic.interruptRecipe()
-                return false
-            }
-            let facing = machine.frontFacing
-            let pos = machine.self().holder.pos()
-            
-            if(facing.equals(Direction.WEST)){
-                for(let x = 1; x < 6; x++){
-                    for(let z = -2; z < 2; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
-            }
-            else if(facing.equals(Direction.EAST)){
-                for(let x = -5; x < 0; x++){
-                    for(let z = -2; z < 2; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
-            }
-            else if(facing.equals(Direction.NORTH)){
-                for(let x = -2; x < 2; x++){
-                    for(let z = 1; z < 6; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
+            if(isValid(machine)){
+                return true
             }
             else{
-                for(let x = -2; x < 2; x++){
-                    for(let z = -5; z < 0; z++){
-                        if(!machine.level.getBlock(pos.offset(x,0,z)).canSeeSky()){
-                            machine.recipeLogic.interruptRecipe()
-                            machine.getHolder().self().persistentData.putBoolean('valid',false)
-                            return false
-                        }
-                    }
-                }
+                machine.getRecipeLogic().interruptRecipe()
+                return false
             }
-            return true
+        })
+        .onWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine) =>{
+            if(isValid(machine)){
+                machine.getRecipeLogic().setWorkingEnabled(true)
+                return true
+            }
+            else{
+                machine.getRecipeLogic().setWorkingEnabled(false)
+                return true
+            }
         })
         .additionalDisplay((machine,l) =>{
-            if(machine.isForm()){
+            if(machine.isFormed()){
             let valid = machine.getHolder().self().persistentData.getBoolean('valid')
             if(valid == null){
                 valid = true

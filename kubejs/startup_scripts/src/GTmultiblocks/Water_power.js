@@ -64,7 +64,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
             return true
         })
         .additionalDisplay((machine,l) =>{
-            if(machine.isForm()){
+            if(machine.isFormed()){
             let water = machine.getHolder().self().persistentData.getInt('water')
             let outputEnergy = machine.getHolder().self().persistentData.getFloat('energy')
             let voltageName = GTValues.VNF[$GTUtil.getTierByVoltage(outputEnergy)]

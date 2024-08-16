@@ -15,12 +15,15 @@ GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
         })
 })
 GTCEuStartupEvents.registry('gtceu:machine', event =>{
+    const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
+    const FluidStack = Java.loadClass('com.lowdragmc.lowdraglib.side.fluid.FluidStack')
     event.create('nuclear_reactor','multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('nuclear_reactor')
         .recipeModifier((machine,/**@type {$GTRecipe}*/recipe) =>{
             let heat = recipe.data.get('heat')
             machine.getHolder().self().persistentData.putInt('heat',heat)
+            return recipe
         })
         //.appearanceBlock(GTBlocks.get('kubejs:manasteel_casing'))
         .pattern(definition => FactoryBlockPattern.start()
@@ -36,21 +39,21 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
             .build()
         )
         .onWorking((/**@type {$WorkableElectricMultiblockMachine} */machine) =>{
-            let coolant = ['gtceu:steam','gtceu:deuterium','gtceu:sodium','gtceu:sodium_potassium_alloy']
             let heat = machine.getHolder().self().persistentData.getInt('heat')
+            console.info(heat)
             if(machine.getOffsetTimer() %20 == 0){
                 machine.getParts().forEach((/** @type {$IMultiPart} */part) =>{
                     part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) =>{
                         if(trait.getHandlerIO() == IO.IN){
                             trait.getContents().forEach((contents )=>{
                                 if(contents instanceof FluidStack){
-                                    if(contents.getFluid().isSame(Fluid.of('gtceu:sodium_potassium_alloy').getFluid())){
+                                    if(contents.getFluid().isSame(Fluid.of('gtceu:sodium_potassium').getFluid())){
                                         if(contents.getAmount() >= heat*16.6){
-                                            machine.getHolder().self().persistentData.putString('coolant','gtceu:sodium_potassium_alloy')
+                                            machine.getHolder().self().persistentData.putString('coolant','gtceu:sodium_potassium')
                                             machine.getHolder().self().persistentData.putFloat('coolant_amount',contents.getAmount())
-                                            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:sodium_potassium_alloy " + heat*16.6).build()).isSuccess() && machine.output(true,machine.getContentBuilder().fluid("gtceu:hot_sodium_potassium_alloy " + heat*16.6).build()).isSuccess()) {
-                                                machine.input(false, machine.getContentBuilder().fluid("gtceu:sodium_potassium_alloy " + heat*16.6).build())
-                                                machine.output(false,machine.getContentBuilder().fluid("gtceu:hot_sodium_potassium_alloy " + heat*16.6).build())
+                                            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:sodium_potassium " + heat*16.6).build()).isSuccess() && machine.output(true,machine.getContentBuilder().fluid("gtceu:hot_sodium_potassium_alloy " + heat*16.6).build()).isSuccess()) {
+                                                machine.input(false, machine.getContentBuilder().fluid("gtceu:sodium_potassium " + heat*16.6).build())
+                                                machine.output(false,machine.getContentBuilder().fluid("gtceu:hot_sodium_potassium " + heat*16.6).build())
                                                 machine.recipeLogic.setProgress(machine.getProgress() + 20)
                                                 return true
                                             }
@@ -58,6 +61,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
                                     }
                                     else if(contents.getFluid().isSame(Fluid.of('gtceu:sodium').getFluid())){
                                         if(contents.getAmount() >= heat*18.75){
+                                            console.info('here')
                                             machine.getHolder().self().persistentData.putString('coolant','gtceu:sodium')
                                             machine.getHolder().self().persistentData.putFloat('coolant_amount',contents.getAmount())
                                             if (machine.input(true, machine.getContentBuilder().fluid("gtceu:sodium " + heat*18.75).build()).isSuccess() && machine.output(true, machine.getContentBuilder().fluid("gtceu:hot_sodium " + heat*18.75).build()).isSuccess()) {

@@ -478,6 +478,8 @@
 				"3C1A31CEA3C10082"
 			]
 			id: "36968F23015BC87A"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "19B8A8E266098D32"
 				item: "gtceu:stainless_steel_ingot"

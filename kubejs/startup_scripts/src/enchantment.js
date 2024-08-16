@@ -1,0 +1,10 @@
+StartupEvents.registry('enchantment',event =>{
+    event.create('vacuum_seal')
+    .armor()
+    .maxLevel(1)
+    .minLevel(1)
+    .veryRare()
+    .untradeable()
+    .maxCost((level) => 200)
+    .minCost((level) => 165)
+})

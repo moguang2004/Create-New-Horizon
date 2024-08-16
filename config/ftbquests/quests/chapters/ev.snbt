@@ -7,6 +7,67 @@
 	id: "6729EFF9916E0F53"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2740F44657C0CF5A"
+				"1EF69C314E045882"
+			]
+			id: "3606238409076DE9"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5728AD5C91CA313C"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3606238409076DE9"]
+			id: "799C99EA04D07344"
+			tasks: [{
+				id: "3B32397F6057B4DC"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["799C99EA04D07344"]
+			id: "375C2E3997D94721"
+			tasks: [{
+				id: "0E4B2E423B92D9B5"
+				item: "gtceu:ev_chemical_bath"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["375C2E3997D94721"]
+			id: "631DFE485708C698"
+			tasks: [{
+				id: "61EA5E6B76B14AB1"
+				item: "gtceu:tungstic_acid_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["631DFE485708C698"]
+			id: "1E3636A4FFDDC155"
+			tasks: [{
+				id: "47E46E57098960AC"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+	]
 	title: "&5EV&r时期"
 }

@@ -30,5 +30,6 @@ ServerEvents.recipes(event =>{
     event.remove({id:'ad_astra:ostrum_tank'})
     event.remove({id:'ad_astra:gas_tank'})
     event.remove({id:'ad_astra:oxygen_loader'})
+    event.remove({id:'ad_astra:iron_rod'})
     event.replaceInput({id:'ad_astra:launch_pad'},'gtceu:steel_rod','gtceu:platinum_rod')
 })

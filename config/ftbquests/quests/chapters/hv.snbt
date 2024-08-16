@@ -42,7 +42,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6BC928DB074E3A7A"]
@@ -77,8 +77,8 @@
 				item: "gtceu:kanthal_ingot"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2EF159130FB7645A"]
@@ -88,8 +88,8 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1639E940E9B78D68"]
@@ -99,8 +99,8 @@
 				title: "深度石化"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -233,7 +233,9 @@
 			y: 1.1190476190476133d
 		}
 		{
+			dependencies: ["6BC928DB074E3A7A"]
 			description: ["    仔细观察发现，要想获得铂锭，铂系处理需要以谢尔顿矿开始，而谢尔顿矿只存在于外太空中，这样就产生了一个矛盾：&4造火箭需要上太空，上太空需要造火箭&r。这时，机智的你产生了一个想法，&a向外太空发射信号，向天祈求携带着外太空矿石的陨石落下&r，不就解决了这一问题吗？"]
+			hide_dependency_lines: true
 			id: "2758CA5AD758482C"
 			tasks: [{
 				id: "7B231156184BDCBE"
@@ -300,8 +302,12 @@
 			dependencies: [
 				"7DBD4E3F9C69B8B9"
 				"66E49577299CA3D6"
+				"1157261D1C6FA682"
+				"16243C6CC9C1CD8A"
 			]
 			id: "3123CD3DCE3598C8"
+			shape: "gear"
+			size: 1.5d
 			subtitle: "这是ad的一小步，却是你的一大步"
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -311,6 +317,403 @@
 			}]
 			x: 9.5d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"609BE0CAB05D3EA6"
+				"458DB8BA0CA5475B"
+			]
+			id: "1157261D1C6FA682"
+			tasks: [{
+				id: "1609294E625640DE"
+				item: "gtceu:rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"560511CB8F74B3C0"
+				"3BE768A7EC37EDED"
+			]
+			id: "609BE0CAB05D3EA6"
+			tasks: [{
+				id: "7F4685A43D7F431A"
+				item: "gtceu:dimethylhydrazine_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7AC13D95BBD8B6BD"]
+			id: "458DB8BA0CA5475B"
+			tasks: [{
+				id: "6BD2C9E30A8023B5"
+				item: "gtceu:dinitrogen_tetroxide_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D2FAC9783965D60"]
+			id: "560511CB8F74B3C0"
+			tasks: [{
+				id: "4798B2F78C81692C"
+				item: "gtceu:methanol_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4D2FAC9783965D60"]
+			id: "3BE768A7EC37EDED"
+			tasks: [{
+				id: "204A3D30ABE0B81B"
+				item: "gtceu:hypochlorous_acid_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29C2D8D206649CE5"]
+			id: "7AC13D95BBD8B6BD"
+			tasks: [{
+				id: "693571CD6F530B8C"
+				item: "gtceu:nitrogen_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1639E940E9B78D68"
+				"17F0388258A83E1F"
+			]
+			id: "29C2D8D206649CE5"
+			tasks: [{
+				id: "4357D0B40FF23BAF"
+				item: "gtceu:liquid_air_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "16243C6CC9C1CD8A"
+			tasks: [
+				{
+					id: "1535BCEA15D7660A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43BF84A53EEDD934"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68C9E3F045424409"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48CC090EDE3AA1E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2740F44657C0CF5A"]
+			id: "294B6A72EA589606"
+			tasks: [{
+				id: "17201AA4DF8EE5ED"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["294B6A72EA589606"]
+			id: "5CF841D44D3A2035"
+			tasks: [{
+				id: "09F1B396D3B9E97B"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2740F44657C0CF5A"
+				"1EF69C314E045882"
+			]
+			id: "27EF0EE87260585F"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "45D0761160D1DB1D"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["054DC65B4D479B15"]
+			id: "1EF69C314E045882"
+			tasks: [{
+				id: "34B1816F1D7BF64E"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["424772830FBFDBB7"]
+			id: "054DC65B4D479B15"
+			tasks: [{
+				id: "3FDF09458955286B"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4DCA7E4E57817E0A"]
+			icon: "gtceu:raw_bauxite"
+			id: "424772830FBFDBB7"
+			tasks: [
+				{
+					count: 16L
+					id: "2B1FA54B7A24075E"
+					item: { Count: 16, id: "gtceu:raw_bauxite" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1B064681E25AA75D"
+					item: { Count: 16, id: "gtceu:raw_ilmenite" }
+					type: "item"
+				}
+			]
+			title: "钛的来源"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["773CB6E376B56EA4"]
+			id: "1AF8205ECB9C3737"
+			tasks: [{
+				id: "0AE81F4C7DA4D736"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42552E404237FB96"]
+			id: "1327BF0797F9200E"
+			tasks: [{
+				id: "0EC0460E5F53A868"
+				item: "gtceu:mv_circuit_assembler"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1327BF0797F9200E"
+				"1AF8205ECB9C3737"
+			]
+			id: "607209201C6B08C3"
+			subtitle: "有了这个才可以做EV阶段的机器"
+			tasks: [{
+				id: "528033D7775227C1"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["252739AF54D430F1"]
+			id: "68ACBAE19E62780E"
+			tasks: [{
+				id: "1D6916FA0D29A51C"
+				item: "gtceu:palladium_rich_ammonia_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68ACBAE19E62780E"]
+			id: "51AE7A401FA7C4E4"
+			tasks: [{
+				id: "63229CAAFE44E343"
+				item: "gtceu:palladium_salt_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51AE7A401FA7C4E4"]
+			id: "7B455761B190CE9C"
+			tasks: [{
+				id: "0F89204DC551F0F0"
+				item: "gtceu:palladium_metal_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F34AA0DBB79E313"]
+			id: "504C916C6A71A1E4"
+			tasks: [{
+				id: "49C039875921920F"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B455761B190CE9C"]
+			id: "7F34AA0DBB79E313"
+			tasks: [{
+				id: "1DD386A52F89F304"
+				item: "gtceu:palladium_raw_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["252739AF54D430F1"]
+			id: "4CD18247F1C3467B"
+			tasks: [{
+				id: "11C1CBA5A6716796"
+				item: "gtceu:platinum_slag_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CD18247F1C3467B"]
+			id: "57E7077A02539989"
+			tasks: [{
+				id: "512B606D88C52B38"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57E7077A02539989"]
+			id: "46209F2394262EEC"
+			tasks: [{
+				id: "539DEC1506E323F4"
+				item: "gtceu:sodium_rutheniate_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46209F2394262EEC"]
+			id: "0B3C5D524F3DD34A"
+			tasks: [{
+				id: "7693CD97E5C2524A"
+				item: "gtceu:ruthenium_tetroxide_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B3C5D524F3DD34A"]
+			id: "1DFF0FB3681AA9BA"
+			tasks: [{
+				id: "492F807AF0714198"
+				item: "gtceu:ruthenium_tetroxide_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DFF0FB3681AA9BA"]
+			id: "5E6E9A02C455FDB7"
+			tasks: [{
+				id: "5AA1DCBB554AE1A8"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
 		}
 	]
 	title: "&6HV&r时期"

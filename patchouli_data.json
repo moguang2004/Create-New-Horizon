@@ -34,7 +34,11 @@
         "apotheosis:adventure/attributes/movement_speed",
         "apotheosis:adventure/attributes/life_steal",
         "apotheosis:adventure/attributes/cold_damage",
-        "apotheosis:adventure/attributes/fire_damage"
+        "apotheosis:adventure/attributes/fire_damage",
+        "apotheosis:enchanting/progression/levels80_100",
+        "apotheosis:enchanting/table/power",
+        "apotheosis:enchanting/table/seed",
+        "apotheosis:enchanting/table/stats"
       ],
       "bookmarks": [],
       "completedManualQuests": []
