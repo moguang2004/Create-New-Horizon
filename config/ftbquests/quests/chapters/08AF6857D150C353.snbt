@@ -281,6 +281,7 @@
 			dependencies: ["2534B56E45BA42B0"]
 			hide_dependency_lines: true
 			id: "470B9D39E23E01F2"
+			subtitle: "最好在冬天去"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "39382193B16E173D"

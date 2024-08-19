@@ -559,6 +559,12 @@
 		}
 		{
 			dependencies: ["773CB6E376B56EA4"]
+			description: [
+				"    超净间是HV阶段往后大部分电路板合成所不可或缺的环境，所以尽可能做一个大的超净间吧。"
+				""
+				"&a二极管&r：允许电流通过"
+				"&a机械方块&r：允许AE2的频道通过"
+			]
 			id: "1AF8205ECB9C3737"
 			tasks: [{
 				id: "0AE81F4C7DA4D736"
@@ -714,6 +720,50 @@
 			}]
 			x: 11.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["4CD18247F1C3467B"]
+			id: "76B28AE888846A6D"
+			tasks: [{
+				id: "6A30A12CC5BB170C"
+				item: "gtceu:rhodium_sulfate_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["57E7077A02539989"]
+			id: "58DF32A680986279"
+			tasks: [{
+				id: "4A6C7ADE5C30A6A3"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58DF32A680986279"]
+			id: "60F1F78FB2B30FD2"
+			tasks: [{
+				id: "30E3F3F1F9A8B7BB"
+				item: "gtceu:acidic_osmium_solution_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58DF32A680986279"]
+			id: "5E1597F46B29ED41"
+			tasks: [{
+				id: "1D4DF6B22D2EEC0E"
+				item: "gtceu:iridium_metal_residue_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
 		}
 	]
 	title: "&6HV&r时期"

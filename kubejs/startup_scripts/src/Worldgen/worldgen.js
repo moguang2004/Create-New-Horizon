@@ -20,7 +20,6 @@ WorldgenEvents.remove(event =>{
     props.blocks = 'create_new_age:thorium_ore'
     props.blocks = 'minecraft:nether_gold_ore'
     props.blocks = 'mythicbotany:elementium_ore'
-    props.blocks = 'mythicbotany:elementium_ore'
     props.blocks = 'mythicbotany:dragonstone_ore'
     props.blocks = 'mythicbotany:gold_ore'
   })

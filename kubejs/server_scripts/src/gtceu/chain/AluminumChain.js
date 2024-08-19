@@ -85,18 +85,18 @@ ServerEvents.recipes(event =>{
     ]},'gtceu:aluminium_dust','gtceu:alumina_dust')
     //宝石粉处理
     event.recipes.gtceu.centrifuge('electrolyzing_green_sapphire')//绿色蓝宝石
-    .EUt(30)
+    .EUt(480)
     .duration(100)
     .itemInputs("5x gtceu:green_sapphire_dust")
     .itemOutputs('5x gtceu:alumina_dust')
     .chancedOutput('gtceu:tiny_beryllium_dust',500,0)
     event.recipes.gtceu.centrifuge('electrolyzing_sapphire')//蓝宝石
-    .EUt(30)
+    .EUt(480)
     .duration(100)
     .itemInputs("5x gtceu:sapphire_dust")
     .itemOutputs('5x gtceu:alumina_dust')
     event.recipes.gtceu.centrifuge('electrolyzing_ruby')//红宝石
-    .EUt(30)
+    .EUt(480)
     .duration(100)
     .itemInputs("6x gtceu:ruby_dust")
     .itemOutputs('5x gtceu:alumina_dust')

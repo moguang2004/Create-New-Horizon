@@ -32,6 +32,9 @@
 	#How long (in game ticks) between watcher possession attempts.
 	#Range: 20 ~ 24000
 	watcher_possession_cooldown = 300
+	#Chance that blocks destroyed by luxtructosaurus attacks drop themselves, if mob griefing is enabled.
+	#Range: 0.0 ~ 1.0
+	luxtructosaurus_block_drop_chance = 0.75
 
 [block-behavior]
 	#How long (in game ticks) it usually takes for an amber monolith to spawn an animal.

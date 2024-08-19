@@ -235,6 +235,28 @@ GTCEuServerEvents.oreVeins(event => {
             )
         )
     })
+    event.add('ctnh:mana_fused_vein',vein =>{
+        vein.weight(80)
+        vein.clusterSize(40)
+        vein.density(0.25)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer('all_layer')
+        vein.dimensions('mythicbotany:alfheim')
+        vein.heightRangeUniform(20, 40)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('mana_fused')).size(2, 4))
+                .layer(l => l.weight(2).block(() => Block.getBlock('mythicbotany:gold_ore')).size(1, 1))
+                .layer(l => l.weight(1).block(() => Block.getBlock('mythicbotany:dragonstone_ore')).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Gold)
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
+    })
 })
 GTCEuServerEvents.fluidVeins(event => {
 

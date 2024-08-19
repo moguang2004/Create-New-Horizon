@@ -48,12 +48,13 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
                             trait.getContents().forEach((contents )=>{
                                 if(contents instanceof FluidStack){
                                     if(contents.getFluid().isSame(Fluid.of('gtceu:sodium_potassium').getFluid())){
-                                        if(contents.getAmount() >= heat*16.6){
+                                        if(contents.getAmount() >= heat*50/3){
                                             machine.getHolder().self().persistentData.putString('coolant','gtceu:sodium_potassium')
                                             machine.getHolder().self().persistentData.putFloat('coolant_amount',contents.getAmount())
-                                            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:sodium_potassium " + heat*16.6).build()).isSuccess() && machine.output(true,machine.getContentBuilder().fluid("gtceu:hot_sodium_potassium_alloy " + heat*16.6).build()).isSuccess()) {
-                                                machine.input(false, machine.getContentBuilder().fluid("gtceu:sodium_potassium " + heat*16.6).build())
-                                                machine.output(false,machine.getContentBuilder().fluid("gtceu:hot_sodium_potassium " + heat*16.6).build())
+                                            machine.getHolder().self().persistentData.putFloat('consume_amount',heat*50/3)
+                                            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:sodium_potassium " + heat*50/3).build()).isSuccess() && machine.output(true,machine.getContentBuilder().fluid("gtceu:hot_sodium_potassium_alloy " + heat*16.6).build()).isSuccess()) {
+                                                machine.input(false, machine.getContentBuilder().fluid("gtceu:sodium_potassium " + heat*50/3).build())
+                                                machine.output(false,machine.getContentBuilder().fluid("gtceu:hot_sodium_potassium " + heat*50/3).build())
                                                 machine.recipeLogic.setProgress(machine.getProgress() + 20)
                                                 return true
                                             }
@@ -61,9 +62,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
                                     }
                                     else if(contents.getFluid().isSame(Fluid.of('gtceu:sodium').getFluid())){
                                         if(contents.getAmount() >= heat*18.75){
-                                            console.info('here')
                                             machine.getHolder().self().persistentData.putString('coolant','gtceu:sodium')
                                             machine.getHolder().self().persistentData.putFloat('coolant_amount',contents.getAmount())
+                                            machine.getHolder().self().persistentData.putFloat('consume_amount',heat*18.75)
                                             if (machine.input(true, machine.getContentBuilder().fluid("gtceu:sodium " + heat*18.75).build()).isSuccess() && machine.output(true, machine.getContentBuilder().fluid("gtceu:hot_sodium " + heat*18.75).build()).isSuccess()) {
                                                 machine.input(false, machine.getContentBuilder().fluid("gtceu:sodium " + heat*18.75).build())
                                                 machine.output(false, machine.getContentBuilder().fluid("gtceu:hot_sodium " + heat*18.75).build())
@@ -73,12 +74,13 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
                                         }
                                     }
                                     else if(contents.getFluid().isSame(Fluid.of('gtceu:deuterium').getFluid())){
-                                        if(contents.getAmount() >= heat*33.3){
+                                        if(contents.getAmount() >= heat*100/3){
                                             machine.getHolder().self().persistentData.putString('coolant','gtceu:deuterium')
                                             machine.getHolder().self().persistentData.putFloat('coolant_amount',contents.getAmount())
-                                            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:deuterium " + heat*33.3).build()).isSuccess() && machine.output(true, machine.getContentBuilder().fluid("gtceu:hot_deuterium " + heat*33.3).build()).isSuccess()) {
-                                                machine.input(false, machine.getContentBuilder().fluid("gtceu:deuterium " + heat*33.3).build())
-                                                machine.output(false, machine.getContentBuilder().fluid("gtceu:hot_deuterium " + heat*33.3).build())
+                                            machine.getHolder().self().persistentData.putFloat('consume_amount',heat*100/3)
+                                            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:deuterium " + heat*100/3).build()).isSuccess() && machine.output(true, machine.getContentBuilder().fluid("gtceu:hot_deuterium " + heat*33.3).build()).isSuccess()) {
+                                                machine.input(false, machine.getContentBuilder().fluid("gtceu:deuterium " + heat*100/3).build())
+                                                machine.output(false, machine.getContentBuilder().fluid("gtceu:hot_deuterium " + heat*100/3).build())
                                                 machine.recipeLogic.setProgress(machine.getProgress() + 20)
                                                 return true
                                             }
@@ -88,6 +90,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
                                         if(contents.getAmount() >= heat*100){
                                             machine.getHolder().self().persistentData.putString('coolant','gtceu:steam')
                                             machine.getHolder().self().persistentData.putFloat('coolant_amount',contents.getAmount())
+                                            machine.getHolder().self().persistentData.putFloat('consume_amount',heat*100)
                                             if (machine.input(true, machine.getContentBuilder().fluid("gtceu:steam " + heat*100).build()).isSuccess() &&  machine.output(true, machine.getContentBuilder().fluid("gtceu:hot_steam " + heat*100).build()).isSuccess()) {
                                                 machine.input(false, machine.getContentBuilder().fluid("gtceu:steam " + heat*100).build())
                                                 machine.output(false, machine.getContentBuilder().fluid("gtceu:hot_steam " + heat*100).build())
@@ -103,6 +106,26 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
                 })
             }
             return true
+        })
+        .additionalDisplay((machine,l) =>{
+            if(machine.isFormed()){
+                // let coolant = Fluid.of(machine.getHolder().self().persistentData.getString('coolant')).getFluidStack().getName().getString()
+                // console.info(coolant)
+                // if(coolant == null){
+                //     coolant = 'none'
+                // }
+                let coolant_amount = machine.getHolder().self().persistentData.getFloat('coolant_amount')
+                if(coolant_amount == null){
+                    coolant_amount = 0
+                }
+                let consume_amount = machine.getHolder().self().persistentData.getFloat('consume_amount')
+                if(consume_amount == null){
+                    consume_amount = 0
+                }
+                //l.add(l.size(), Text.of("冷却液：" + coolant))
+                l.add(l.size(), Text.translate("multiblock.ctnh.nuclear_reactor.coolant_amount",coolant_amount.toFixed(1)))
+                l.add(l.size(), Text.translate("multiblock.ctnh.nuclear_reactor.consume_amount",consume_amount.toFixed(1)))
+            }
         })
         .workableCasingRenderer('kubejs:block/shielded_reactor_casing',  'gtceu:block/multiblock/generator/large_steam_turbine', false)
 })

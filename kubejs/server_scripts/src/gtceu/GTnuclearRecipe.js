@@ -40,6 +40,17 @@ ServerEvents.recipes(event =>{
         {name: 'fermium_258',fertile: [{key:'fermium_259', value:9000}]},
         {name: 'fermium_262',fertile: [{key:'fermium_263', value:1000},{key:'mendelevium_263', value:9000}]}
     ]
+    let nuclear_composition = 
+    [
+    {name: 'neptunium',complexity:115, composition: [{key:'neptunium_235',value:2000},{key:'neptunium_237',value:5000},{key:'neptunium_239',value:3000}]},
+    {name: 'plutonium',complexity:120, composition: [{key:'plutonium_244',value:9890},{key:'plutonium_245',value:100},{key:'plutonium_240',value:10}]},
+    {name: 'americium',complexity:135, composition: [{key:'americium_241',value:2000},{key:'americium_243',value:5000},{key:'americium_245',value:3000}]},
+    {name: 'curium',complexity:145, composition: [{key:'curium_250',value:9890},{key:'curium_247',value:100},{key:'curium_246',value:10}]},
+    {name: 'berkelium',complexity:150, composition: [{key:'berkelium_247',value:2000},{key:'berkelium_249',value:5000},{key:'berkelium_251',value:3000}]},
+    {name: 'californium',complexity:160, composition: [{key:'californium_252',value:9890},{key:'californium_253',value:100},{key:'californium_256',value:10}]},
+    {name: 'einsteinium',complexity:170, composition: [{key:'einsteinium_253',value:2000},{key:'einsteinium_255',value:5000},{key:'einsteinium_257',value:3000}]},
+    {name: 'fermium',complexity:185, composition: [{key:'fermium_258',value:9890},{key:'fermium_259',value:100},{key:'fermium_262',value:10}]},
+    {name: 'mendelevium',complexity:200,composition: [{key:'mendelevium_259',value:2000},{key:'mendelevium_261',value:5000},{key:'mendelevium_263',value:3000}]}]
     ctnh.electric_blast_furnace('silicon_carbide')
     .itemInputs(['gtceu:silicon_dust','gtceu:carbon_dust'])
     .inputFluids(Fluid.of('gtceu:argon',1000))
@@ -324,4 +335,134 @@ ServerEvents.recipes(event =>{
     })
     
     //addData()
+    ctnh.thermal_centrifuge('protactinium_waste')
+    .itemInputs('gtceu:protactinium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',560,0)
+    .chancedOutput('gtceu:tiny_protactinium_233_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_thorium_dust',8000,200)
+    .duration(300).EUt(30)
+
+    ctnh.thermal_centrifuge('thorium_waste')
+    .itemInputs('gtceu:thorium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',560,0)
+    .chancedOutput('gtceu:tiny_protactinium_233_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_uranium_dust',8000,200)
+    .duration(300).EUt(30)
+
+    ctnh.thermal_centrifuge('uranium_waste')
+    .itemInputs('gtceu:uranium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',760,0)
+    .chancedOutput('gtceu:tiny_uranium_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_neptunium_dust',8000,200)
+    .duration(300).EUt(60)
+
+    ctnh.thermal_centrifuge('neptunium_waste')
+    .itemInputs('gtceu:neptunium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',760,0)
+    .chancedOutput('gtceu:tiny_neptunium_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_plutonium_dust',8000,200)
+    .duration(300).EUt(120)
+
+    ctnh.thermal_centrifuge('plutonium_waste')
+    .itemInputs('gtceu:plutonium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',1330,0)
+    .chancedOutput('gtceu:tiny_plutonium_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_americium_dust',8000,200)
+    .duration(300).EUt(240)
+
+    ctnh.thermal_centrifuge('americium_waste')
+    .itemInputs('gtceu:americium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',1780,0)
+    .chancedOutput('gtceu:tiny_americium_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_curium_dust',8000,200)
+    .duration(300).EUt(480)
+
+    ctnh.thermal_centrifuge('curium_waste')
+    .itemInputs('gtceu:curium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',2370,0)
+    .chancedOutput('gtceu:tiny_curium_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_berkelium_dust',8000,200)
+    .duration(300).EUt(960)
+
+    ctnh.thermal_centrifuge('berkelium_waste')
+    .itemInputs('gtceu:berkelium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',3160,0)
+    .chancedOutput('gtceu:tiny_berkelium_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_californium_dust',8000,200)
+    .duration(300).EUt(1920)
+
+    ctnh.thermal_centrifuge('californium_waste')
+    .itemInputs('gtceu:californium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',4220,0)
+    .chancedOutput('gtceu:tiny_californium_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_einsteinium_dust',8000,200)
+    .duration(300).EUt(3840)
+
+    ctnh.thermal_centrifuge('einsteinium_waste')
+    .itemInputs('gtceu:einsteinium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',5630,0)
+    .chancedOutput('gtceu:tiny_einsteinium_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_fermium_dust',8000,200)
+    .duration(300).EUt(7680)
+
+    ctnh.thermal_centrifuge('fermium_waste')
+    .itemInputs('gtceu:fermium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',7500,0)
+    .chancedOutput('gtceu:tiny_fermium_dust',8000,200)
+    .chancedOutput('3x gtceu:tiny_mendelevium_dust',8000,200)
+    .duration(300).EUt(15360)
+
+    ctnh.thermal_centrifuge('mendelevium_waste')
+    .itemInputs('gtceu:mendelevium_waste_dust')
+    .chancedOutput('gtceu:nuclear_waste_dust',10000,0)
+    .chancedOutput('gtceu:tiny_mendelevium_dust',8000,200)
+    .duration(300).EUt(30720)
+    
+    nuclear_composition.forEach(n =>{
+    // [Mat + 6Cl] + 6HF = 6HCl + [Mat + 6F]
+        ctnh.chemical_reactor(n.name + '_hexafluoride')
+        .itemInputs('gtceu:' + n.name + '_dust')
+        .inputFluids(Fluid.of('gtceu:fluorine',6000))
+        .outputFluids(Fluid.of('gtceu:' + n.name + '_hexafluoride',1000))
+        .EUt(120)
+        .duration(200*n.complexity/100)
+
+        let builder = ctnh.gas_centrifuge(n.name)
+        .duration(500*n.complexity/100)
+        .EUt(960)
+        .inputFluids(Fluid.of('gtceu:' + n.name + '_hexafluoride',20000))
+
+        n.composition.forEach(m =>{
+            builder.outputFluids(Fluid.of('gtceu:' + m.key + '_hexafluoride', m.value*2))
+            // [Mat + F6] + 3H2O -> [Mat + F6 + 3H2O]
+            ctnh.cracker(m.key + 'steam_cracked')
+            .inputFluids(Fluid.of('gtceu:' + m.key + '_hexafluoride', 1000))
+            .inputFluids(Fluid.of('gtceu:steam',3000))
+            .outputFluids(Fluid.of('gtceu:' + m.key + '_hexafluoride_steam_cracked',1000))
+            .duration(40 * n.complexity / 100).EUt(120)
+            // [Mat + F6 + 3H2O] -> [Mat + 2O] + 6HF + O (O lost)
+            ctnh.electric_blast_furnace(m.key + '_oxide')
+            .circuit(0)
+            .inputFluids(Fluid.of('gtceu:' + m.key + '_hexafluoride_steam_cracked',1000))
+            .itemOutputs('gtceu:oxide_' + m.key + '_dust')
+            .outputFluids(Fluid.of('gtceu:hydrofluoric_acid',6000))
+            .blastFurnaceTemp(600)
+            .duration(600 * n.complexity / 100)
+            .EUt(120)
+        })        
+    })
+    ctnh.gas_centrifuge('uranium')
+        .duration(500)
+        .EUt(960)
+        .inputFluids(Fluid.of('gtceu:uranium_hexafluoride',20000))
+        .outputFluids(Fluid.of('gtceu:uranium_234_hexafluoride',20))
+        .outputFluids(Fluid.of('gtceu:enriched_uranium_hexafluoride',2000))
+        .outputFluids(Fluid.of('gtceu:depleted_uranium_hexafluoride',17980))
+    ctnh.chemical_reactor('uraninite')
+    .itemInputs('3x gtceu:uraninite_dust')
+    .inputFluids(Fluid.of('gtceu:fluorine',6000))
+    .inputFluids(Fluid.of('gtceu:oxygen',2000))
+    .outputFluids(Fluid.of('gtceu:uranium_hexafluoride',1000))
+    .EUt(480)
+    .duration(40)
 })
