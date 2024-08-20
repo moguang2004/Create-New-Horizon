@@ -1,6 +1,6 @@
 {
     "type": "bloodmagic:meteor",
-    "explosion": 20.0,
+    "explosion": 25.0,
     "input": {
         "item": "gtceu:hv_emitter"
     },
@@ -8,34 +8,29 @@
         {
             "additionalWeight": 0,
             "fill": {
-                "block": "minecraft:cobblestone"
+                "block": "ad_astra:moon_stone"
             },
             "minWeight": 1000,
-            "radius": 9,
+            "radius": 11,
             "weightMap": [
                 {
-                    "index": 0,
-                    "tag": "forge:ores/ilmenite",
+                    "block": "gtceu:moon_stone_ilmenite_ore",
                     "weight": 125
                 },
                 {
-                    "index": 0,
-                    "tag": "forge:ores/aluminium",
+                    "block": "gtceu:moon_stone_aluminium_ore",
                     "weight": 150
                 },
                 {
-                    "index": 0,
-                    "tag": "forge:ores/bauxite",
+                    "block": "gtceu:moon_stone_bauxite_ore",
                     "weight": 200
                 },
                 {
-                    "index": 0,
-                    "tag": "forge:ores/cooperite",
+                    "block": "gtceu:moon_stone_cooperite_ore",
                     "weight": 100
                 },
                 {
-                    "index": 0,
-                    "tag": "forge:ores/tetrahedrite",
+                    "block": "gtceu:moon_stone_tetrahedrite_ore",
                     "weight": 200
                 }
             ]

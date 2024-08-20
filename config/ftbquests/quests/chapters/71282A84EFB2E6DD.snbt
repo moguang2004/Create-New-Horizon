@@ -488,6 +488,7 @@
 		}
 		{
 			dependencies: ["23347233C6B3121C"]
+			description: ["    要想获得饱满血命果，需要先种植血命果，并在血命果&2生长成熟的过程中让一个生物在其上方&r，这样就可以让血命果吸取生物的血液，从而成长为饱满血命果"]
 			id: "0CF5D8B837116811"
 			tasks: [{
 				id: "36564FC236803231"
@@ -567,7 +568,7 @@
 		}
 		{
 			dependencies: ["78C75CD9990F3C59"]
-			description: ["这个仪式会生成一个前往另一个维度的传送门，在那个维度，你需要找到&a铁钥匙&r以开启周边的地牢（也可以自己制作），随后找到其中的&4血命果&r，那是建造下一级祭坛的&4关键物品&r。"]
+			description: ["    这个仪式会生成一个前往另一个维度的传送门，在那个维度，你需要找到&a铁钥匙&r以开启周边的地牢（也可以自己制作），随后找到其中的&4血命果&r，那是建造下一级祭坛的&4关键物品&r。"]
 			icon: "bloodmagic:upgradetome"
 			id: "2E0983CC5E00B72D"
 			subtitle: " 前往恶魔的领域"
@@ -595,12 +596,13 @@
 			dependencies: ["11B6FE0A5C38B474"]
 			icon: "bloodmagic:upgradetome"
 			id: "7F596517F8E1795A"
-			subtitle: "来自星星的你"
+			subtitle: "来自星星的你(不多说，开坠）"
 			tasks: [{
 				id: "724ECC0E66F3958A"
 				title: "坠星位标"
 				type: "checkmark"
 			}]
+			title: "Mark of the Falling tower"
 			x: 7.0d
 			y: 8.0d
 		}

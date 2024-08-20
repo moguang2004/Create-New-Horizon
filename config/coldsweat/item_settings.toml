@@ -68,4 +68,16 @@
 	#Defines the items that provide insulation when worn in a curio slot
 	#See Insulation Ingredients for formatting
 	"Insulating Curios" = []
+	#Defines the effectiveness of insulating items in protecting against temperature
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Insulation Strength" = 1.0
+
+[Misc]
+	#Defines items that affect the player's temperature when in the inventory
+	#Format: [["item_id", temperature, strict_type, trait, *nbt], ["item_id", temperature, strict_type, trait, *nbt], ...etc]
+	#temperature: The temperature change the item will apply to the entity. For core temperature, this is applied every tick
+	#strict_type: Either "inventory", "hotbar", or "hand". Defines what slots the item must be in to apply to the entity
+	#trait: The temperature trait to apply the effect to. Typical values are "core" for body temperature or "world" for ambient temperature. More on the mod documentation page.
+	#nbt: Optional. The NBT data the item must have to apply to the entity.
+	"Carried Item Temperatures" = []
 

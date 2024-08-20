@@ -253,4 +253,17 @@ ServerEvents.recipes(event=>{
         },
         "upgradeLevel": 3
       })
+      event.custom({
+        "type": "bloodmagic:altar",
+        "altarSyphon": 4000,
+        "consumptionRate": 40,
+        "drainRate": 5,
+        "input": {
+          "item": "bloodmagic:weak_tau"
+        },
+        "output": {
+          "item": "bloodmagic:strong_tau"
+        },
+        "upgradeLevel": 4
+      })
 })
