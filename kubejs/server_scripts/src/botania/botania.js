@@ -568,7 +568,7 @@ ServerEvents.recipes(event =>{
             "item": "twilightforest:arctic_fur"
           },
           {
-            "item": "cataclysm_delight:void_candy"
+            "item": "gtceu:ice_dust"
           }
         ],
         "mana": 10000,

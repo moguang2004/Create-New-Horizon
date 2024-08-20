@@ -232,4 +232,5 @@ ServerEvents.recipes(event =>{
   event.recipes.create.crushing('gtceu:brick_dust','minecraft:brick')
   event.recipes.create.crushing('4x gtceu:brick_dust','minecraft:bricks')
   event.recipes.create.crushing('gtceu:ender_pearl_dust','minecraft:ender_pearl')
+  event.replaceInput({id:'minecraft:kjs/create_mechanical_press'},'minecraft:anvil','minecraft:iron_block')
 })

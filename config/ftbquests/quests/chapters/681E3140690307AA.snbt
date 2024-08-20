@@ -181,7 +181,13 @@
 			id: "1B4FFE71B4C66E14"
 			rewards: [{
 				id: "041A24BFFAF6E5F1"
-				item: "gtceu:prospector.lv"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.lv"
+					tag: {
+						Charge: 100000
+					}
+				}
 				type: "item"
 			}]
 			subtitle: "别随便下矿洞！"

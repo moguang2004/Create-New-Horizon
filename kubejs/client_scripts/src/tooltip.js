@@ -179,6 +179,6 @@ ItemEvents.tooltip(event =>{
         text.add(2,Text.translate('ctnh.nuclear_reactor.basic'))
         text.add(3,Text.translate('ctnh.nuclear_reactor.coolant'))
         text.add(4,Text.translate('ctnh.nuclear_reactor.overclock'))
-        text.add(5,Text,translate('ctnh.nuclear_reactor.safe'))
+        text.add(5,Text.translate('ctnh.nuclear_reactor.safe'))
     })
 })
