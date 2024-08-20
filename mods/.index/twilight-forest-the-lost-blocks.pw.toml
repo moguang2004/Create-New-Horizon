@@ -1,0 +1,13 @@
+filename = 'TF_Lost_Blocks-1.20.1-1.5.0.jar'
+name = 'Twilight Forest: The Lost Blocks'
+side = 'both'
+
+[download]
+hash = '15a5c6a211948d8bf4ef149c412ad348db24d0a6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5033783
+project-id = 639723

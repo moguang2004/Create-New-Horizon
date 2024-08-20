@@ -1,0 +1,13 @@
+filename = 'ecologics-forge-1.20.1-2.2.0.jar'
+name = 'Ecologics'
+side = 'both'
+
+[download]
+hash = 'c21e42b7a2cc36d0b1ac28034da7b49619ebe261'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4857272
+project-id = 570463

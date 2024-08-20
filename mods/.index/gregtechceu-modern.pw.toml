@@ -1,0 +1,13 @@
+filename = 'gtceu-1.20.1-1.4.0.jar'
+name = 'GregTech'
+side = 'both'
+
+[download]
+hash = '815b6d512cb603b4d89cc4b9f77b52feb266d8c1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5641637
+project-id = 890405

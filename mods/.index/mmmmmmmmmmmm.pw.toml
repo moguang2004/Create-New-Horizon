@@ -1,0 +1,13 @@
+filename = 'dummmmmmy-1.20-1.8.19.jar'
+name = 'MmmMmmMmmmmm'
+side = 'both'
+
+[download]
+hash = 'b5c1756281d437db03ff9ae6e9ce4f12264ab1ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5594972
+project-id = 225738

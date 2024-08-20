@@ -1,0 +1,13 @@
+filename = 'aetheric_tetranomicon-1.1.2-1.20.1.jar'
+name = 'Aetheric Tetranomicon'
+side = 'both'
+
+[download]
+hash = '05c005a27cee8471459573bb66f6ec5c3eaaa86e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5241644
+project-id = 966902

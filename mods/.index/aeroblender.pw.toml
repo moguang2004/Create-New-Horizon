@@ -1,0 +1,13 @@
+filename = 'aeroblender-1.20.1-1.0.1-neoforge.jar'
+name = 'AeroBlender'
+side = 'both'
+
+[download]
+hash = '98e6a2a4c312f2aae0eb674ea5a923037378c7da'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4789008
+project-id = 879879

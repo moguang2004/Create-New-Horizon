@@ -1,0 +1,13 @@
+filename = 'explorations-forge-1.20.1-1.5.2.jar'
+name = 'Explorations'
+side = 'both'
+
+[download]
+hash = 'cd1d742577c2143bc6c30c57800b0f80d4887980'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4649651
+project-id = 550247

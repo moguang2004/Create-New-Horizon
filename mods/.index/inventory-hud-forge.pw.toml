@@ -1,0 +1,13 @@
+filename = 'inventoryhud.forge.1.20.1-3.4.26.jar'
+name = 'Inventory HUD+'
+side = 'both'
+
+[download]
+hash = 'f0adda10a3d6549e6dfdffd41e72270c61c8a302'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5639966
+project-id = 357540

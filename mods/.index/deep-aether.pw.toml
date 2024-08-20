@@ -1,0 +1,13 @@
+filename = 'deep_aether-1.20.1-1.0.4.jar'
+name = 'Deep Aether'
+side = 'both'
+
+[download]
+hash = 'cfb0a2bbbb1c0c1f240acf4de7eb282ad2574b4f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5441091
+project-id = 852465

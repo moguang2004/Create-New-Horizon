@@ -1,0 +1,13 @@
+filename = 'ars_artifice-1.20.1-2.0.4.jar'
+name = 'Ars Artifice'
+side = 'both'
+
+[download]
+hash = 'ff7a0837e2d75ba1faa1cda0fac94bd6a64af639'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4950376
+project-id = 854169

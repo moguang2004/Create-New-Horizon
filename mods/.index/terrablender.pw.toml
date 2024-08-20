@@ -1,0 +1,13 @@
+filename = 'TerraBlender-forge-1.20.1-3.0.1.7.jar'
+name = 'TerraBlender'
+side = 'both'
+
+[download]
+hash = '6fe8b495c37bb3da158d461d5613f3a5414b77693c98ade3b5930a28d4b0f26c654ca9fd9eca96d98b7bce27f0e5c6a1a908bec74b58c03d30cb92503f22f446'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kkmrDlKT/versions/HI0iCUpi/TerraBlender-forge-1.20.1-3.0.1.7.jar'
+
+[update.modrinth]
+mod-id = 'kkmrDlKT'
+version = 'HI0iCUpi'
