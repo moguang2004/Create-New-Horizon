@@ -221,7 +221,7 @@ ServerEvents.recipes(event =>{
                 .circuit(count)
                 .itemInputs(count + 'x gtceu:fuel_triso_' + n.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_triso_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count*2)
+                .addData("heat", (n.heat+count)*count*2)
     
             ctnh.nuclear_reactor('fuel_oxide_' + n.name + count)
                 .duration(8000)
@@ -229,7 +229,7 @@ ServerEvents.recipes(event =>{
                 .circuit(count)
                 .itemInputs(count + 'x gtceu:fuel_oxide_' + n.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_oxide_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count*2)
+                .addData("heat", (n.heat+count)*count*2)
     
             ctnh.nuclear_reactor('fuel_nitride_' + n.name + count)
                 .duration(10000)
@@ -237,7 +237,7 @@ ServerEvents.recipes(event =>{
                 .circuit(count)
                 .itemInputs(count + 'x gtceu:fuel_nitride_' + n.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_nitride_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count*2)    
+                .addData("heat", (n.heat+count)*count*2)    
     
             ctnh.nuclear_reactor('fuel_zirconium_alloy_' + n.name + count)
                 .duration(15000)
@@ -245,7 +245,7 @@ ServerEvents.recipes(event =>{
                 .circuit(count)
                 .itemInputs(count + 'x gtceu:fuel_zirconium_alloy_' + n.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_zirconium_alloy_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count*2) 
+                .addData("heat", (n.heat+count)*count*2) 
             
             nuclear_fertile.forEach(m =>{
                 ctnh.nuclear_reactor('fertile_fuel_triso_' + n.name + count + '_' + m.name)
@@ -256,7 +256,7 @@ ServerEvents.recipes(event =>{
                 .itemInputs('9x gtceu:fuel_' + m.name + '_dust')
                 .itemOutputs('9x gtceu:depleted_fuel_' + m.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_triso_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count)
+                .addData("heat", (n.heat+count)*count)
     
                 ctnh.nuclear_reactor('fertile_fuel_oxide_' + n.name + count + '_' + m.name)
                 .duration(16000)
@@ -266,7 +266,7 @@ ServerEvents.recipes(event =>{
                 .itemInputs('9x gtceu:fuel_' + m.name + '_dust')
                 .itemOutputs('9x gtceu:depleted_fuel_' + m.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_oxide_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count)
+                .addData("heat", (n.heat+count)*count)
     
                 ctnh.nuclear_reactor('fertile_fuel_nitride_' + n.name + count + '_' + m.name)
                 .duration(20000)
@@ -276,7 +276,7 @@ ServerEvents.recipes(event =>{
                 .itemInputs('9x gtceu:fuel_' + m.name + '_dust')
                 .itemOutputs('9x gtceu:depleted_fuel_' + m.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_nitride_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count)    
+                .addData("heat", (n.heat+count)*count)    
     
                 ctnh.nuclear_reactor('fertile_fuel_zirconium_alloy_' + n.name + count + '_' + m.name)
                 .duration(30000)
@@ -286,7 +286,7 @@ ServerEvents.recipes(event =>{
                 .itemInputs('9x gtceu:fuel_' + m.name + '_dust')
                 .itemOutputs('9x gtceu:depleted_fuel_' + m.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_zirconium_alloy_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count) 
+                .addData("heat", (n.heat+count)*count) 
 
                 let builder1 = ctnh.nuclear_reactor('fertile_fuel_triso_' + n.name + count + '_' + m.name + '_decay')
                 .duration(10000)
@@ -295,7 +295,7 @@ ServerEvents.recipes(event =>{
                 .itemInputs(count + 'x gtceu:fuel_triso_' + n.name + '_dust')
                 .itemInputs('9x gtceu:fuel_' + m.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_triso_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count/5)
+                .addData("heat", (n.heat+count)*count/5)
 
                 let builder2 = ctnh.nuclear_reactor('fertile_fuel_oxide_' + n.name + count + '_' + m.name + '_decay')
                 .duration(4000)
@@ -304,7 +304,7 @@ ServerEvents.recipes(event =>{
                 .itemInputs(count + 'x gtceu:fuel_oxide_' + n.name + '_dust')
                 .itemInputs('9x gtceu:fuel_' + m.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_oxide_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count/5)
+                .addData("heat", (n.heat+count)*count/5)
 
                 let builder3 = ctnh.nuclear_reactor('fertile_fuel_nitride_' + n.name + count + '_' + m.name + '_decay')
                 .duration(5000)
@@ -313,7 +313,7 @@ ServerEvents.recipes(event =>{
                 .itemInputs(count + 'x gtceu:fuel_nitride_' + n.name + '_dust')
                 .itemInputs('9x gtceu:fuel_' + m.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_nitride_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count/5)  
+                .addData("heat", (n.heat+count)*count/5)  
 
                 let builder4 = ctnh.nuclear_reactor('fertile_fuel_zirconium_alloy_' + n.name + count + '_' + m.name + '_decay')
                 .duration(7500)
@@ -322,7 +322,7 @@ ServerEvents.recipes(event =>{
                 .itemInputs(count + 'x gtceu:fuel_zirconium_alloy_' + n.name + '_dust')
                 .itemInputs('9x gtceu:fuel_' + m.name + '_dust')
                 .itemOutputs(count + 'x gtceu:depleted_fuel_zirconium_alloy_' + n.name + '_dust')
-                ["addData(java.lang.String,int)"]("heat", (n.heat+count)*count/5)
+                .addData("heat", (n.heat+count)*count/5)
 
                 m.fertile.forEach(l =>{
                     builder1.chancedOutput('9x gtceu:depleted_fuel_' + l.key + '_dust',l.value,100)
