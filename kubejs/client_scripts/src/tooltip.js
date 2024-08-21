@@ -66,20 +66,19 @@ ItemEvents.tooltip(event =>{
         text.add(3,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.1'))
         text.add(4,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.2'))
     })
-    event.addAdvanced('gtceu:lv_rotor_holder1',(item,advanced,text)=>{
-        text.add(1,Text.translate('gtceu.machine.muffler_hatch.tooltip.0'))
-        text.add(2,Text.translate('gtceu.machine.muffler_hatch.tooltip.1'))
-        text.add(3,Text.translate('gtceu.universal.disabled'))
+    let rotor_holder = ['ulv','lv','mv','uhv','uev','uiv','uxv','opv','max']
+    rotor_holder.forEach((holder,index) =>{
+        event.addAdvanced(`gtceu:${holder}_rotor_holder${index}`,(item,advanced,text)=>{
+            text.add(1,Text.translate('gtceu.machine.rotor_holder.tooltip.0'))
+            text.add(2,Text.translate('gtceu.machine.rotor_holder.tooltip.1'))
+            text.add(3,Text.translate('gtceu.universal.disabled'))
+        })
     })
-    event.addAdvanced('gtceu:ulv_rotor_holder0',(item,advanced,text)=>{
-        text.add(1,Text.translate('gtceu.machine.muffler_hatch.tooltip.0'))
-        text.add(2,Text.translate('gtceu.machine.muffler_hatch.tooltip.1'))
-        text.add(3,Text.translate('gtceu.universal.disabled'))
-    })
-    event.addAdvanced('gtceu:mv_rotor_holder2',(item,advanced,text)=>{
-        text.add(1,Text.translate('gtceu.machine.muffler_hatch.tooltip.0'))
-        text.add(2,Text.translate('gtceu.machine.muffler_hatch.tooltip.1'))
-        text.add(3,Text.translate('gtceu.universal.disabled'))
+    let energy_output_hatch_4a = ['lv','mv','hv']
+    energy_output_hatch_4a.forEach((holder,index) =>{
+        event.addAdvanced(`gtceu:${holder}_rotor_holder${index}`,(item,advanced,text)=>{
+            text.add(1,Text.translate('gtceu.machine.energy_hatch.output_hi_amp.tooltip'))
+        })
     })
     event.addAdvanced('gtceu:fermenting_tank',(item,advanced,text)=>{
         text.add(1,Text.translate('fermenting_introduction').gray())

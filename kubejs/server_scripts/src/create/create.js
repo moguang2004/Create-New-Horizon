@@ -139,7 +139,7 @@ ServerEvents.recipes(event =>{
 		event.recipes.createDeploying(transitional, [transitional, 'gtceu:brass_plate']),
 		event.recipes.createDeploying(transitional, [transitional, 'create:cogwheel']),
     event.recipes.createDeploying(transitional, [transitional, 'create:large_cogwheel']),
-		event.recipes.createFilling(transitional, [transitional,Fluid.of('alexscaves:acid',1000)])
+		event.recipes.createFilling(transitional, [transitional,Fluid.of('alexscaves:acid',500)])
 	]).transitionalItem(transitional)
 		.loops(1)
 })

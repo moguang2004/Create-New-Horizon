@@ -264,6 +264,6 @@ ServerEvents.recipes(event=>{
         "output": {
           "item": "bloodmagic:strong_tau"
         },
-        "upgradeLevel": 4
+        "upgradeLevel": 3
       })
 })

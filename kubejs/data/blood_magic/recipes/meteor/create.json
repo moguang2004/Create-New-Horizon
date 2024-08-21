@@ -22,15 +22,15 @@
             "minWeight": 0,
             "weightMap": [
               {
-                "block": "gtceu:copper_ore",
+                "block": "gtceu:andesite_copper_ore",
                 "weight": 100
               },
               {
-                "block": "gtceu:sphalerite_ore",
+                "block": "gtceu:andesite_sphalerite_ore",
                 "weight": 100
               },
               {
-                "block": "gtceu:iron_ore",
+                "block": "gtceu:andesite_iron_ore",
                 "weight": 50
               }
             ],

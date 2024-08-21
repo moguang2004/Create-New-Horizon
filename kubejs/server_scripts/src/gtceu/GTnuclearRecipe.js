@@ -97,7 +97,7 @@ ServerEvents.recipes(event =>{
     // [Fuel + NO3 + H2O] + N2H4 + RP1 + C12H27O4P = Fuel2N3 + Red Oil [N2H4 + RP1 + C12H27O4P]
     ctnh.large_chemical_reactor('depleted_fuel_nitride_'+ n.name)
         .notConsumableFluid(Fluid.of('gtceu:hydrazine',1000))
-        .notConsumableFluid(Fluid.of('gtceu:rp1_mixed_fuel',1000))
+        .notConsumableFluid(Fluid.of('gtceu:rp_1_mixed_fuel',1000))
         //.notConsumable(Fluid.of('')TributylPhosphate.getFluid(1000))
         .notConsumable('gtceu:ferrite_mixture_dust')
         .inputFluids(Fluid.of('gtceu:depleted_fuel_nitrate_solution_' + n.name,1000))
@@ -108,7 +108,7 @@ ServerEvents.recipes(event =>{
         
     // Fuel2N3 = Waste + 3N
     ctnh.electrolyzer('waste_' + n.name)
-        .itemInputs('gtceu:depleted_fuel_nitride' + n.name + '_dust')
+        .itemInputs('gtceu:depleted_fuel_nitride_' + n.name + '_dust')
         .itemOutputs('gtceu:' + n.name.substring(0,n.name.search('_')) + '_waste_dust')
         .outputFluids(Fluid.of('gtceu:nitrogen',3000))
         .EUt(30)
@@ -118,7 +118,7 @@ ServerEvents.recipes(event =>{
     // Fuel + Zr = [Fuel + Zr]
     ctnh.alloy_smelter('zirconium_alloy_' + n.name)
         .itemInputs('gtceu:' + n.name + '_ingot')
-        .itemInputs('gtceu:zirconium_ingot')
+        .itemInputs('gtceu:zirconium_dust')
         .itemOutputs('gtceu:zirconium_alloy_' + n.name + '_dust')
         .EUt(30).duration(300)
 
@@ -458,11 +458,11 @@ ServerEvents.recipes(event =>{
         .outputFluids(Fluid.of('gtceu:uranium_234_hexafluoride',20))
         .outputFluids(Fluid.of('gtceu:enriched_uranium_hexafluoride',2000))
         .outputFluids(Fluid.of('gtceu:depleted_uranium_hexafluoride',17980))
-    ctnh.chemical_reactor('uraninite')
-    .itemInputs('3x gtceu:uraninite_dust')
-    .inputFluids(Fluid.of('gtceu:fluorine',6000))
-    .inputFluids(Fluid.of('gtceu:oxygen',2000))
-    .outputFluids(Fluid.of('gtceu:uranium_hexafluoride',1000))
-    .EUt(480)
-    .duration(40)
+    // ctnh.chemical_reactor('uraninite')
+    // .itemInputs('3x gtceu:uraninite_dust')
+    // .inputFluids(Fluid.of('gtceu:fluorine',6000))
+    // .inputFluids(Fluid.of('gtceu:oxygen',2000))
+    // .outputFluids(Fluid.of('gtceu:uranium_hexafluoride',1000))
+    // .EUt(480)
+    // .duration(40)
 })

@@ -223,7 +223,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.dimensions(['ad_astra:mercury','ad_extendra:jupiter'])
     })
     event.modify('gtceu:monazite_vein',vein =>{
-        vein.dimensions('ad_astra:jupiter')
+        vein.dimensions('ad_extendra:jupiter')
     })
     event.modify('gtceu:mica_vein',vein =>{
         vein.layeredVeinGenerator(generator => generator
@@ -252,6 +252,52 @@ GTCEuServerEvents.oreVeins(event => {
         )
         vein.surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.Gold)
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
+    })
+    event.add('ctnh:zircon_vein',vein =>{
+        vein.weight(120)
+        vein.clusterSize(40)
+        vein.density(0.35)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer('all_layer')
+        vein.dimensions(['twilightforest:twilight_forest','aether:the_aether','minecraft:the_end'])
+        vein.heightRangeUniform(10, 40)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('zircon')).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Cobalt).size(1, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.Lead).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Uranium).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get('zircon'))
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
+    })
+    event.add('ctnh:zirkelite_vein',vein =>{
+        vein.weight(150)
+        vein.clusterSize(40)
+        vein.density(0.25)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer('all_layer')
+        vein.dimensions(['ad_astra:mars','ad_astra:venus','ad_astra:mercury'])
+        vein.heightRangeUniform(10, 40)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('zirkelite')).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Thorium).size(1, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.get('zircon')).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Ilmenite).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get('zirkelite'))
             .placement("above")
             .density(0.4)
             .radius(5)

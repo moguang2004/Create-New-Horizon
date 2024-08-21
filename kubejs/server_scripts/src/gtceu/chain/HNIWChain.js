@@ -258,6 +258,14 @@ ServerEvents.recipes(event =>{
      .EUt(7680)
      .duration(100)
 
+     ctnh.chemical_reactor('palladium_chloride')
+     .itemInputs('gtceu:palladium_dust')
+     .inputFluids(Fluid.of('gtceu:chlorine',2000))
+     .itemOutputs('3x gtceu:palladium_chloride_dust')
+     .EUt(30)
+     .duration(320)
+
+     event.remove({id:'gtceu:mixer/palladium_on_carbon'})
      ctnh.chemical_reactor('palladium_on_carbon')
      .itemInputs('gtceu:palladium_chloride_dust')
      .itemInputs('gtceu:carbon_dust')
