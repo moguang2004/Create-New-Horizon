@@ -270,7 +270,7 @@ GTCEuServerEvents.oreVeins(event => {
                 .layer(l => l.weight(3).mat(GTMaterials.get('zircon')).size(2, 4))
                 .layer(l => l.weight(2).mat(GTMaterials.Cobalt).size(1, 1))
                 .layer(l => l.weight(2).mat(GTMaterials.Lead).size(1, 1))
-                .layer(l => l.weight(1).mat(GTMaterials.Uranium).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Uranium238).size(1, 1))
             )
         )
         vein.surfaceIndicatorGenerator(indicator => indicator

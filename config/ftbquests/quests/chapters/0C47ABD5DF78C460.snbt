@@ -111,6 +111,222 @@
 			x: 5.5d
 			y: -1.5d
 		}
+		{
+			dependencies: [
+				"08302778401395AA"
+				"4D79E10947CC121F"
+				"3BBEFDC7CD5D688B"
+			]
+			id: "753C05B19EFE934A"
+			tasks: [{
+				id: "63C15D424E4BE002"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["753C05B19EFE934A"]
+			id: "464C0023D5694795"
+			tasks: [{
+				id: "2A79F44CB17F20C4"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["753C05B19EFE934A"]
+			id: "0F2A14132F65CC87"
+			tasks: [{
+				id: "1D3754CFB0C64937"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"16E7BEF9BF8BED31"
+				"0F2A14132F65CC87"
+			]
+			id: "74D12F583D5D463E"
+			tasks: [{
+				id: "2A45034916326902"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["753C05B19EFE934A"]
+			id: "16E7BEF9BF8BED31"
+			tasks: [{
+				id: "71C69087C5EF429D"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0F2A14132F65CC87"]
+			id: "0480B82E224C29AD"
+			tasks: [{
+				id: "3D5E358E01EF9EFA"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["464C0023D5694795"]
+			id: "1448AEF4D6BFCC81"
+			tasks: [{
+				id: "0B20A58508A7E244"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["753C05B19EFE934A"]
+			hide_dependency_lines: true
+			id: "5DB0EF9FCAE148D0"
+			tasks: [{
+				id: "4EFAE16CE46DE264"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["753C05B19EFE934A"]
+			hide_dependency_lines: true
+			id: "5FFDF6904602D2ED"
+			tasks: [{
+				id: "6C86801CABE79079"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["753C05B19EFE934A"]
+			hide_dependency_lines: true
+			id: "31D26891C562EAF1"
+			tasks: [{
+				id: "679561724600834E"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["753C05B19EFE934A"]
+			hide_dependency_lines: true
+			id: "492DD4B6BCCDA32A"
+			tasks: [{
+				id: "545C7AE77A90BFB8"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FFDF6904602D2ED"]
+			id: "7500362E80FFD727"
+			tasks: [{
+				id: "323025A5ED1A1A22"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31D26891C562EAF1"]
+			id: "5939EFD978B9B8F7"
+			tasks: [{
+				id: "71BF2F32D0262B73"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["492DD4B6BCCDA32A"]
+			id: "2EB49B7E5B2A4B13"
+			tasks: [{
+				id: "491B540999FB04EE"
+				item: "ae2wtlib:wireless_pattern_access_terminal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2EB49B7E5B2A4B13"
+				"7500362E80FFD727"
+				"5939EFD978B9B8F7"
+			]
+			id: "48A59AB89061D87A"
+			tasks: [{
+				id: "40311B3D054582C9"
+				item: "ae2wtlib:wireless_universal_terminal"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48A59AB89061D87A"]
+			hide_dependency_lines: true
+			id: "5F797872C23AA5F3"
+			tasks: [{
+				id: "00AC5CFE56C2F2EB"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48A59AB89061D87A"]
+			hide_dependency_lines: true
+			id: "72F26AA9CDAFA982"
+			tasks: [{
+				id: "5CE9CF3B19DCA6A7"
+				item: "ae2wtlib:magnet_card"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["753C05B19EFE934A"]
+			hide_dependency_lines: true
+			id: "4ED66E120F019062"
+			tasks: [{
+				id: "2B9D954489DEA205"
+				item: "expatternprovider:ex_pattern_access_part"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
 	]
 	title: "应用能源"
 }

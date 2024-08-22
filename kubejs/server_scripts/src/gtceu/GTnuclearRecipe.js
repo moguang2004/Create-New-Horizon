@@ -2,11 +2,11 @@
 ServerEvents.recipes(event =>{
     let ctnh = event.recipes.gtceu
     let nuclear = 
-    [{name : 'thorium_233',color: 0x474242},
+    [{name : 'thorium_233',color: 0x474242},{name: 'thorium_232',color: 0},
     {name: 'protactinium_233',color: 0xa18566},
-    {name: 'uranium_233',color: 0x209620},{name: 'uranium_234',color: 0x1d9c1d},{name: 'uranium_239',color: 0x0d820d},
+    {name: 'uranium_233',color: 0x209620},{name: 'uranium_234',color: 0x1d9c1d},{name: 'uranium_239',color: 0x0d820d},{name:'uranium_238',color:0},{name:'uranium_235',color:0},
     {name: 'neptunium_235',color: 0x2b5487},{name: 'neptunium_237',color: 0x255085},{name: 'neptunium_239',color: 0x1f4b80},
-    {name: 'plutonium_240',color: 0xa11e1e},{name: 'plutonium_244',color: 0x941818},{name: 'plutonium_245',color: 0x9c1515},
+    {name: 'plutonium_240',color: 0xa11e1e},{name: 'plutonium_244',color: 0x941818},{name: 'plutonium_245',color: 0x9c1515},{name:'plutonium_239',color:0},{name:'plutonium_241',color:0},
     {name: 'americium_241',color: 0x267d6c},{name: 'americium_243',color: 0x237d6b},{name: 'americium_245',color: 0x1e7866},
     {name: 'curium_245',color: 0x6e4742},{name: 'curium_246',color: 0x6b433e},{name: 'curium_247',color: 0x613c37},{name: 'curium_250',color: 0x5c3732},{name: 'curium_251',color: 0x4f2d29},
     {name: 'berkelium_247',color: 0x554c78},{name: 'berkelium_249',color: 0x504673},{name: 'berkelium_251',color: 0x4a406e},
@@ -142,7 +142,7 @@ ServerEvents.recipes(event =>{
     .itemInputs('gtceu:oxide_' + n.name + '_dust')
     .itemInputs('2x gtce:carbon_dust')
     .itemOutputs('gtceu:carbide_' + n.name + '_dust')
-    .outputFluids(Fluid.of('gtceu:carbon_monoxde',1000))
+    .outputFluids(Fluid.of('gtceu:carbon_monoxide',1000))
     .EUt(30).duration(300)
 
     // [Fuel + C] + 4O = CO2 + [Fuel + 2O]
@@ -158,7 +158,7 @@ ServerEvents.recipes(event =>{
     .itemInputs(['gtceu:carbide_' + n.name + '_dust','gtceu:oxide_' + n.name + '_dust'])
     .inputFluids(Fluid.of('gtceu:nitrogen',3000))
     .itemOutputs('gtceu:nitride_' + n.name + '_dust')
-    .outputFluids(Fluid.of('gtceu:carbon_monoxde',1000))
+    .outputFluids(Fluid.of('gtceu:carbon_monoxide',1000))
     .EUt(30).duration(300)
 
     // Fuel2N3 + 4H2O + 3O = 2[Fuel + 2O] + H2O + NO2 + 2NH3

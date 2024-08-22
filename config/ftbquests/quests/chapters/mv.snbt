@@ -663,6 +663,18 @@
 			x: 14.5d
 			y: -6.0d
 		}
+		{
+			dependencies: ["42552E404237FB96"]
+			id: "4616A64D47AFBFF9"
+			subtitle: "赶紧用起来吧，不然你会很难受的"
+			tasks: [{
+				id: "0F7E19A36C1CE5FC"
+				title: "AE2"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
 	]
 	title: "&bMV&r时期"
 }

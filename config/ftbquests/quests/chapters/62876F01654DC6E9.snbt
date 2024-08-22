@@ -690,6 +690,23 @@
 			x: 11.5d
 			y: -0.5d
 		}
+		{
+			id: "01345F4AD0D11E47"
+			subtitle: "代弓！"
+			tasks: [{
+				id: "6E8FFEA558CE97F6"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
 	]
 	title: "实用小工具"
 }

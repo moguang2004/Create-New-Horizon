@@ -68,6 +68,19 @@
 			x: 4.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["1E3636A4FFDDC155"]
+			id: "1CECBF50A30F23B0"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4FF48202A50F0FF5"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
 	]
 	title: "&5EV&r时期"
 }
