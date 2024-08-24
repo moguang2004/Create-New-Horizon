@@ -46,7 +46,13 @@
     "botania:lexicon": {
       "viewedEntries": [
         "botania:mythic_botany/mimir",
-        "botania:mythic_botany/rune_rituals"
+        "botania:mythic_botany/rune_rituals",
+        "botania:mythic_botany/pylons",
+        "botania:basics/lexicon",
+        "botania:misc/dispenser_tweaks",
+        "botania:alfhomancy/gaia_ritual",
+        "botania:devices/mana_conjuration",
+        "botania:ender/luminizer_transport"
       ],
       "bookmarks": [],
       "completedManualQuests": []
@@ -89,7 +95,8 @@
         "bloodmagic:alchemy_table/anointments/looting_anointment",
         "bloodmagic:demon_will/will_manipulation/aura",
         "bloodmagic:alchemy_array/functional_arrays/time_arrays",
-        "bloodmagic:altar/slates"
+        "bloodmagic:altar/slates",
+        "bloodmagic:utility/life_essence_bucket"
       ],
       "bookmarks": [],
       "completedManualQuests": []

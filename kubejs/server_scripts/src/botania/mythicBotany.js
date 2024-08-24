@@ -52,6 +52,291 @@ ServerEvents.recipes(event=>{
         },
         "toColor": 16750080
       }).id('mythicbotany:mythicbotany_infusion/alfsteel_ingot')
+    event.custom({
+      "type": "mythicbotany:rune_ritual",
+      "center": {
+        "item": "botania:gaia_ingot"
+      },
+      "group": "rune_rituals",
+      "inputs": [
+        {
+          "item": "mythicbotany:vanaheim_rune"
+        },
+        {
+          "item": "mythicbotany:alfheim_rune"
+        },
+        {
+          "item": "mythicbotany:niflheim_rune"
+        }
+      ],
+      "mana": 1000000,
+      "outputs": [
+        {
+          "count": 1,
+          "item": "mythicbotany:mana_collector"
+        }
+      ],
+      "runes": [
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:dragonstone"
+          },
+          "x": 2,
+          "z": 2
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:dragonstone"
+          },
+          "x": 2,
+          "z": -2
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:dragonstone"
+          },
+          "x": -2,
+          "z": 2
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:dragonstone"
+          },
+          "x": -2,
+          "z": -2
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": 1,
+          "z": 4
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": 1,
+          "z": -4
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": -1,
+          "z": 4
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": -1,
+          "z": -4
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": 4,
+          "z": 0
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": 4,
+          "z": 1
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": 4,
+          "z": -1
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": -4,
+          "z": 0
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": -4,
+          "z": 1
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": -4,
+          "z": -1
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": 0,
+          "z": 4
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:glimmering_dreamwood"
+          },
+          "x": 0,
+          "z": -4
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:pixie_dust"
+          },
+          "x": 2,
+          "z": 3
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:pixie_dust"
+          },
+          "x": 3,
+          "z": 2
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:pixie_dust"
+          },
+          "x": 3,
+          "z": -2
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:pixie_dust"
+          },
+          "x": 2,
+          "z": -3
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:pixie_dust"
+          },
+          "x": -3,
+          "z": -2
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:pixie_dust"
+          },
+          "x": -2,
+          "z": -3
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:pixie_dust"
+          },
+          "x": -3,
+          "z": 2
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:pixie_dust"
+          },
+          "x": -2,
+          "z": 3
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "bloodmagic:reagentmagnetism"
+          },
+          "x": 4,
+          "z": 4
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "bloodmagic:reagentmagnetism"
+          },
+          "x": 4,
+          "z": -4
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "bloodmagic:reagentmagnetism"
+          },
+          "x": -4,
+          "z": 4
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "bloodmagic:reagentmagnetism"
+          },
+          "x": -4,
+          "z": -4
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:spark"
+          },
+          "x": 5,
+          "z": 0
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:spark"
+          },
+          "x": -5,
+          "z": 0
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:light_relay"
+          },
+          "x": 0,
+          "z": 5
+        },
+        {
+          "consume": true,
+          "rune": {
+            "item": "botania:light_relay"
+          },
+          "x": 0,
+          "z": -5
+        }
+      ],
+      "ticks": 200
+    })
+    .id('mythicbotany:mana_collector')
     event.replaceInput({},'mythicbotany:alfsteel_ingot','gtceu:alfsteel_ingot')
     event.replaceOutput({},'mythicbotany:alfsteel_ingot','gtceu:alfsteel_ingot')
 })

@@ -35,7 +35,7 @@ ServerEvents.recipes(event =>{
         ],{
           A: '#minecraft:wooden_slabs',
           B: 'minecraft:stone',
-          C: 'gtceu:andesitealloy_plate',
+          C: 'kubejs:basic_mechanism',
           D: 'create:shaft'
         })
     event.shaped(
@@ -133,7 +133,7 @@ ServerEvents.recipes(event =>{
         ],{
           A: 'create:polished_rose_quartz',
           B: 'gtceu:andesitealloy_plate',
-          C: 'gtceu:iron_small_gear',
+          C: 'gtceu:small_iron_gear',
         })
     event.shaped(
         Item.of('create:deployer', 1), [
@@ -352,7 +352,7 @@ ServerEvents.recipes(event =>{
           A: 'gtceu:certus_quartz_plate',
           B: 'minecraft:redstone',
           C: 'minecraft:hopper',
-          D: 'gtceu:aluminium_small_gear'
+          D: 'gtceu:small_aluminium_gear'
         })
     event.shaped(
         Item.of('ae2:energy_acceptor', 1),[
@@ -586,7 +586,7 @@ ServerEvents.recipes(event =>{
           D: 'gtceu:diamond_grinding_head'
         })    
     event.shaped(
-        Item.of('gtceu:mana_macerator', 1),[
+        Item.of('gtceu:mana_seperator', 1),[
           "AAA",
           "BCB",
           "DED"

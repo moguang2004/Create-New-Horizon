@@ -81,6 +81,313 @@
 			x: 6.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["24C0894F1B36BBD2"]
+			id: "1FC11FF9B668D855"
+			tasks: [{
+				id: "3668250EE11CCF31"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CECBF50A30F23B0"]
+			id: "24C0894F1B36BBD2"
+			tasks: [{
+				id: "10452395FD8F0B84"
+				item: "gtceu:fine_tungsten_steel_wire"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1FC11FF9B668D855"
+				"0D8F0D06D79D182F"
+			]
+			id: "6525B3E4F6052069"
+			tasks: [{
+				id: "2975D65642409D89"
+				item: "gtceu:radon_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DCA7E4E57817E0A"]
+			id: "0D8F0D06D79D182F"
+			tasks: [{
+				id: "492191A65E88AF18"
+				item: "gtceu:ender_air_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6525B3E4F6052069"]
+			id: "11CEB762BEC88A67"
+			tasks: [{
+				id: "701C5DE7D6FB47E4"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4DA5ABB79AABADE8"
+				"11CEB762BEC88A67"
+			]
+			id: "4A7B2A7EF0E9D0D0"
+			tasks: [{
+				id: "70CB278C9DAACC11"
+				item: "gtceu:nuclear_reactor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "4DA5ABB79AABADE8"
+			tasks: [{
+				id: "36F32AAAA96C37A1"
+				item: "kubejs:shielded_reactor_casing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A7B2A7EF0E9D0D0"]
+			hide_dependency_lines: true
+			id: "0AEBC43C2EA4E190"
+			subtitle: "耗能*2.1 耗时400s"
+			tasks: [{
+				id: "4E17BDC99B8D09CB"
+				title: "氧化燃料"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A7B2A7EF0E9D0D0"]
+			hide_dependency_lines: true
+			id: "4E9FB13BA754C376"
+			subtitle: "耗能*2.2 耗时500s"
+			tasks: [{
+				id: "5C0ADB9BDA74CA7E"
+				title: "硝化燃料"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A7B2A7EF0E9D0D0"]
+			hide_dependency_lines: true
+			id: "38B3EDAFED11EC22"
+			subtitle: "耗能*1.6 耗时1000s"
+			tasks: [{
+				id: "07D3DF8E64BEA8BB"
+				title: "TRISO燃料"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"65B4C0ACC44374EB"
+				"4A7B2A7EF0E9D0D0"
+			]
+			hide_dependency_lines: true
+			id: "6D99A9917E0D8636"
+			subtitle: "耗能*2.4 耗时750s"
+			tasks: [{
+				id: "0FF291B04510FC84"
+				title: "锆合金燃料"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A7B2A7EF0E9D0D0"]
+			hide_dependency_lines: true
+			id: "1A4BF7BE5F6591F6"
+			subtitle: "最普通的燃料形式"
+			tasks: [{
+				id: "7F84E8F8FCE98B8F"
+				title: "纯净燃料"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["16A5EAB4E168E528"]
+			id: "65B4C0ACC44374EB"
+			tasks: [{
+				id: "01A97540E1B82C01"
+				item: "gtceu:zirconium_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3123CD3DCE3598C8"]
+			id: "4B60F576F83BA93A"
+			tasks: [{
+				count: 16L
+				id: "5E1CA8DB63EC2ECE"
+				item: { Count: 16, id: "gtceu:raw_zircon" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AC98FC52B65EF90"]
+			id: "16A5EAB4E168E528"
+			tasks: [{
+				id: "4DC693C4F1889884"
+				item: "gtceu:cubic_zirconia_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B60F576F83BA93A"]
+			id: "3AC98FC52B65EF90"
+			tasks: [{
+				id: "766CD48C0208115F"
+				item: "gtceu:zr_hf_chloride_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A7B2A7EF0E9D0D0"]
+			id: "2E634A7C9D204BD4"
+			tasks: [{
+				id: "1F9E605C84B618EB"
+				item: "gtceu:thorium_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E634A7C9D204BD4"]
+			id: "48D6359F760B2D34"
+			tasks: [{
+				id: "20FED3F78DE196DC"
+				item: "gtceu:thorium_232_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["48D6359F760B2D34"]
+			id: "363FBA5394375898"
+			tasks: [{
+				id: "725AFF843F3E522A"
+				item: "gtceu:thorium_waste_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["363FBA5394375898"]
+			id: "0621330C575C99E3"
+			tasks: [{
+				id: "43EF4ADA3C5DF4AA"
+				item: "gtceu:protactinium_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4D6F042D3D3DA8A2"]
+			id: "72524950D9CC9C75"
+			tasks: [{
+				id: "6E9D26454A544458"
+				item: "gtceu:uranium_waste_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2D624DC9A3946E74"
+				"4A7B2A7EF0E9D0D0"
+			]
+			id: "699B1B52D3F58BEE"
+			tasks: [{
+				id: "4D38A7D9971D042F"
+				item: "gtceu:uranium_hexafluoride_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "2D624DC9A3946E74"
+			tasks: [{
+				id: "143113D27A22A2DD"
+				item: "gtceu:uranium_dioxide_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["699B1B52D3F58BEE"]
+			id: "4D6F042D3D3DA8A2"
+			tasks: [{
+				id: "28E4CB3336D08A32"
+				item: "gtceu:uranium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["72524950D9CC9C75"]
+			id: "4E40B0EBEEB50C79"
+			tasks: [{
+				id: "42627AE089355D74"
+				item: "gtceu:neptunium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "6DB4F7FB9C1CD641"
+			subtitle: "把核反应堆产生的热用来发电"
+			tasks: [{
+				id: "51708CB337F80C11"
+				item: "gtceu:hot_coolant_turbine"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
 	]
 	title: "&5EV&r时期"
 }

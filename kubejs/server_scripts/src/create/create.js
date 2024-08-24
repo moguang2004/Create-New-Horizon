@@ -6,10 +6,12 @@ ServerEvents.recipes(e =>{
   for(let i of ingot) {
     e.recipes.create.mixing(Fluid.of(`gtceu:${i}`, 144), `2x gtceu:${i}_dust`).heated()
 	e.recipes.create.crushing(`gtceu:${i}_dust`, `gtceu:${i}_ingot`)
+  e.recipes.create.milling(`gtceu:${i}_dust`, `gtceu:${i}_ingot`)
 }
   let crushingot =['andesitealloy','magnetic_iron']
   for(let i of crushingot){
     e.recipes.create.crushing(`gtceu:${i}_dust`,`gtceu:${i}_ingot`)
+    e.recipes.create.milling(`gtceu:${i}_dust`, `gtceu:${i}_ingot`)
   }
 })
 ServerEvents.recipes(e =>{
@@ -17,6 +19,7 @@ ServerEvents.recipes(e =>{
   for(let i of ingot) {
     e.recipes.create.mixing(Fluid.of(`gtceu:${i}`, 144), `2x gtceu:${i}_dust`).heated()
 	e.recipes.create.crushing(`gtceu:${i}_dust`, `minecraft:${i}_ingot`)
+  e.recipes.create.milling(`gtceu:${i}_dust`, `minecraft:${i}_ingot`)
 
 }}
 )
@@ -117,6 +120,7 @@ ServerEvents.recipes(event =>{
   event.recipes.create.mixing('create:rose_quartz',['minecraft:quartz','4x minecraft:redstone']).heated()
   event.recipes.create.mixing('create:rose_quartz',['2x biomesoplenty:rose_quartz_chunk','minecraft:redstone']).heated()
   event.recipes.create.mixing(Fluid.of('gtceu_concrete',/** @type {number} */1000),['gtceu:stone_dust','gtceu:quartz_sand_dust','gtceu:clay_dust','2x gtceu:calcite_dust',Fluid.of('minecraft:water',1000)]).heated()
+  event.recipes.create.mixing('2x gtceu:andesitealloy_dust',[Fluid.of('gtceu:iron',144),'2x gtceu:andesite_dust'])
 })
 
 //序列组装

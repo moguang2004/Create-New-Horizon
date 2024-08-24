@@ -623,4 +623,87 @@ ServerEvents.recipes(event =>{
       }
     })
     .id('botania:petal_apothecary/pure_daisy')
+//vanaheim_rune
+    event.custom({
+      "type": "botania:runic_altar",
+      "ingredients": [
+        {
+          "item": "botania:rune_spring"
+        },
+        {
+          "item": "botania:rune_earth"
+        },
+        {
+          "item": "botania:rune_pride"
+        },
+        {
+          "item": "botania:alfheim_portal"
+        },
+        {
+          "item": "gtceu:terrasteel_ingot"
+        }
+      ],
+      "mana": 20000,
+      "output": {
+        "item": "mythicbotany:vanaheim_rune",
+        "count": 1
+      }
+    })
+    .id('mythicbotany:vanaheim_rune_runic_altar')
+
+//alfheim_rune
+  event.custom({
+      "type": "botania:runic_altar",
+      "ingredients": [
+        {
+          "item": "botania:rune_air"
+        },
+        {
+          "item": "botania:rune_summer"
+        },
+        {
+          "item": "botania:rune_lust"
+        },
+        {
+          "tag": "minecraft:leaves"
+        },
+        {
+          "item": "gtceu:elementium_steel_ingot"
+        }
+      ],
+      "mana": 20000,
+      "output": {
+        "item": "mythicbotany:alfheim_rune",
+        "count": 1
+      }
+    })
+    .id('mythicbotany:alfheim_rune_runic_altar')
+
+//midgard_rune
+    event.custom({
+      "type": "botania:runic_altar",
+      "ingredients": [
+        {
+          "item": "botania:rune_earth"
+        },
+        {
+          "item": "botania:rune_spring"
+        },
+        {
+          "item": "botania:rune_greed"
+        },
+        {
+          "item": "minecraft:grass_block"
+        },
+        {
+          "item": "gtceu:manasteel_ingot"
+        }
+      ],
+      "mana": 20000,
+      "output": {
+        "item": "mythicbotany:midgard_rune",
+        "count": 1
+      }
+    })
+    .id('mythicbotany:midgard_rune_runic_altar')
 })

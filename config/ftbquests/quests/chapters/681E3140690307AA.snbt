@@ -25,7 +25,14 @@
 			tasks: [{
 				count: 16L
 				id: "460024CDCF87CDBE"
-				item: "minecraft:oak_log"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
 				type: "item"
 			}]
 			title: "要致富，先撸树"

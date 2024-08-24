@@ -31,6 +31,12 @@ ServerEvents.recipes(event =>{
     .duration(40)
     .EUt(100)
 
+    ctnh.vacuum_freezer('liquid_fluorine')
+    .inputFluids(Fluid.of('gtceu:fluorine',1000))
+    .outputFluids(Fluid.of('gtceu:liquid_fluorine',1000))
+    .EUt(1920)
+    .duration(240)
+    
     ctnh.chemical_reactor('dioxygendifluoride')
     .inputFluids(Fluid.of('gtceu:liquid_oxygen',2000))
     .inputFluids(Fluid.of('gtceu:liquid_fluorine',2000))

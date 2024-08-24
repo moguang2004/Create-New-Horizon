@@ -1,6 +1,5 @@
 ServerEvents.recipes(event =>{
-    // Pitchblende Processing was removed to save 2 steps
-        // and was simplified to just electrolysis into Uraninite.
+        event.remove({id:'gtceu:large_chemical_reactor/uranium_hexafluoride'})
     let ctnh = event.recipes.gtceu
         // UO2 + 2 Cl + H2O -> [UO2Cl2 + H2O + ?]
         ctnh.chemical_reactor('uranyl_chloride_solution')
@@ -46,14 +45,6 @@ ServerEvents.recipes(event =>{
         .outputFluids(Fluid.of('gtceu:nitric_acid',2000))
         .outputFluids(Fluid.of('gtceu:carbon_monoxide',8000))
         .duration(140).EUt(120)
-
-        // CO2 + 2KOH -> K2CO3 + H2O
-        // CHEMICAL_RECIPES.recipeBuilder().duration(90).EUt(30)
-        //         .fluidInputs(PotassiumHydroxide.getFluid(2000))
-        //         .fluidInputs(CarbonDioxide.getFluid(1000))
-        //         .outputs(PotassiumCarbonate.getItemStack(6))
-        //         .fluidOutputs(Water.getFluid(1000))
-        //         .buildAndRegister();
 
         // (NH4)2U2O7 + 2K2CO3 -> 2UO2(CO3) + 2K2O + 2NH3 + H2O
         ctnh.large_chemical_reactor('potassium_uranyl_tricarbonate_dust')
@@ -185,4 +176,13 @@ ServerEvents.recipes(event =>{
         .outputFluids(Fluid.of('uranium_refinement_waste_solution',1000))
         .outputFluids(Fluid.of('thorium_nitrate_solution',1000))
         .EUt(7680).duration(864)
+
+        ctnh.chemical_reactor('uranium_hexafluoride')
+        .itemInputs('3x gtceu:uranium_dioxide_dust')
+        .inputFluids(Fluid.of('gtceu:fluorine',2000))
+        .inputFluids(Fluid.of('gtceu:hydrofluoric_acid',4000))
+        .outputFluids(Fluid.of('gtceu:uranium_hexafluoride',1000))
+        .outputFluids(Fluid.of('minecraft:water',2000))
+        .EUt(480)
+        .duration(40)
 })

@@ -42,7 +42,7 @@ function sendMsg(event, data) {
 }
 // Mainhand for pos1
 BlockEvents.broken((event) => {
-	if (event.player.mainHandItem.id === "minecraft:stone_axe") {
+	if (event.player.mainHandItem.id === "kubejs:multiblock_helper") {
 		pos1 = { x: event.block.x, y: event.block.y, z: event.block.z };
 
 		event.player.sendSystemMessage(
@@ -56,7 +56,7 @@ BlockEvents.broken((event) => {
 
 // Offhand for pos2
 BlockEvents.broken((event) => {
-	if (event.player.offHandItem.id === "minecraft:stone_axe") {
+	if (event.player.offHandItem.id === "kubejs:multiblock_helper") {
 		pos2 = { x: event.block.x, y: event.block.y, z: event.block.z };
 
 		event.player.sendSystemMessage(

@@ -55,6 +55,7 @@ StartupEvents.registry("item", event =>{
     event.create('high_quality_solid_fuel').burnTime(4800)//.burntime(16000)
     event.create('steel_mechanism')
     event.create('unfinished_steel_mechanism')
+    event.create('multiblock_helper')
 })
 StartupEvents.registry("block", event =>{
     event.create('steel_casing')
