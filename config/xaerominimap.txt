@@ -118,7 +118,7 @@ infoDisplay:chunk_coords:false:15:-1
 infoDisplay:angles:false:15:-1
 infoDisplay:dimension:false:15:-1
 infoDisplay:biome:false:15:-1
-infoDisplay:weather:false:15:-1
+infoDisplay:weather:true:15:-1
 infoDisplay:light_level:0:15:-1
 infoDisplay:time:0:15:-1
 infoDisplay:real_time:0:15:-1
@@ -127,4 +127,4 @@ infoDisplay:light_overlay_indicator:true:15:-1
 infoDisplay:manual_cave_mode_indicator:true:15:-1
 infoDisplay:custom_sub_world:true:15:-1
 infoDisplay:season:true:15:-1
-module;id=xaerominimap:minimap;active=true;x=79;y=1;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;fromOldSystem=true;
+module;id=xaerominimap:minimap;active=true;x=-19;y=1;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;

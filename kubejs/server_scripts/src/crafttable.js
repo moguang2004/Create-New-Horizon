@@ -25,7 +25,7 @@ ServerEvents.recipes(event =>{
           A: "minecraft:iron_ingot",
           B: "create:shaft",
           C:"create:andesite_casing",
-          D:"minecraft:anvil"
+          D:"minecraft:iron_block"
         })
     event.shaped(
         Item.of('create:windmill_bearing', 1),[ 
