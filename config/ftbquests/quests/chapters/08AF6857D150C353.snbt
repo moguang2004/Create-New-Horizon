@@ -104,6 +104,7 @@
 		{
 			dependencies: ["64C293C5E547D47D"]
 			id: "3672E16CD2C53B19"
+			subtitle: "用这个产应力挺好的"
 			tasks: [{
 				id: "0A4B118AE7FAA844"
 				item: "createdieselgenerators:diesel_engine"
@@ -225,6 +226,7 @@
 		{
 			dependencies: ["3672E16CD2C53B19"]
 			id: "24A3BEAC1C62DFEC"
+			subtitle: "更大更专业"
 			tasks: [{
 				id: "7BFAEFB1D5014A2B"
 				item: "createdieselgenerators:large_diesel_engine"

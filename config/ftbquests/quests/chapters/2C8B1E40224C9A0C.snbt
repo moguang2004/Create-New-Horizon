@@ -197,7 +197,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			id: "12316D2A6DC56654"
@@ -429,6 +429,69 @@
 			}]
 			x: 0.5d
 			y: 15.5d
+		}
+		{
+			dependencies: ["78B3859F84F3AA0A"]
+			id: "36962504F695FCFC"
+			tasks: [{
+				id: "70A91D0815711CB3"
+				item: "alexscaves:tremorsaurus_egg"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5420D60930DD31A7"]
+			id: "235CDBD3C87F0A42"
+			tasks: [{
+				id: "7B88100C83CFC53F"
+				item: {
+					Count: 1
+					id: "alexscaves:primitive_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["235CDBD3C87F0A42"]
+			id: "78B3859F84F3AA0A"
+			subtitle: "用原始大棒击晕撼地龙后，使用幽静沙拉驯服"
+			tasks: [{
+				id: "434D4ED2459FCE5B"
+				title: "驯服撼地龙"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36962504F695FCFC"]
+			id: "120B034131B4B115"
+			tasks: [{
+				id: "3D9FADC99F274CFC"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["120B034131B4B115"]
+			id: "21F2C28308352E7A"
+			subtitle: "在撼地斯拉蛋旁边点燃核弹"
+			tasks: [{
+				id: "41AC51FE3145C03F"
+				title: "孵化撼地斯拉"
+				type: "checkmark"
+			}]
+			x: -14.0d
+			y: 4.5d
 		}
 	]
 	title: "大千世界"

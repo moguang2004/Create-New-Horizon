@@ -97,16 +97,18 @@ ServerEvents.recipes(event =>{
 //动力辊压机
 ServerEvents.recipes(event =>{
     event.recipes.create.compacting('minecraft:paper','2x gtceu:paper_dust')
-    let ingot =['iron','copper','gold','zinc','brass','wrought_iron','steel','rubber','red_alloy','andesitealloy']
+    let ingot =['iron','copper','gold','zinc','brass','wrought_iron','steel','rubber','red_alloy','andesitealloy','bronze','potin','nickel','tin','manasteel']
     for(let i of ingot){
       event.recipes.create.compacting(`gtceu:${i}_plate`,`2x #forge:ingots/${i}`)
     }
-    event.recipes.create.compacting('gtceu:copper_plate','2x minecraft:copper_ingot')
+    event.recipes.create.compacting('gtceu:diamond_plate','2x minecraft:diamond')
+    event.recipes.create.compacting('gtceu:emerald_plate','2x minecraft:emerald')
+    event.recipes.create.compacting('gtceu:nether_quartz_plate','2x minecraft:nether_quartz')
+    event.recipes.create.compacting('gtceu:lapis_plate','2x minecraft:lapis')
     event.recipes.create.compacting('minecraft:glass','2x gtceu:glass_dust').heated()
     /*Ingredient.of("#forge:ingots").itemIds.forEach((id) =>{
       id
     })*/
-
     event.remove({id:'create:pressing/copper_ingot'})
     event.remove({id:'create:pressing/brass_ingot'})
     event.remove({id:'create:pressing/gold_ingot'})
@@ -119,7 +121,7 @@ ServerEvents.recipes(event =>{
   event.recipes.create.mixing('8x gtceu:potin_dust',['6x gtceu:copper_dust','2x gtceu:tin_dust','gtceu:lead_dust']).heated()
   event.recipes.create.mixing('create:rose_quartz',['minecraft:quartz','4x minecraft:redstone']).heated()
   event.recipes.create.mixing('create:rose_quartz',['2x biomesoplenty:rose_quartz_chunk','minecraft:redstone']).heated()
-  event.recipes.create.mixing(Fluid.of('gtceu_concrete',/** @type {number} */1000),['gtceu:stone_dust','gtceu:quartz_sand_dust','gtceu:clay_dust','2x gtceu:calcite_dust',Fluid.of('minecraft:water',1000)]).heated()
+  event.recipes.create.mixing(Fluid.of('gtceu:concrete',/** @type {number} */1000),['gtceu:stone_dust','gtceu:quartz_sand_dust','gtceu:clay_dust','2x gtceu:calcite_dust',Fluid.of('minecraft:water',1000)]).heated()
   event.recipes.create.mixing('2x gtceu:andesitealloy_dust',[Fluid.of('gtceu:iron',144),'2x gtceu:andesite_dust'])
 })
 
@@ -236,4 +238,11 @@ ServerEvents.recipes(event =>{
   event.recipes.create.crushing('gtceu:brick_dust','minecraft:brick')
   event.recipes.create.crushing('4x gtceu:brick_dust','minecraft:bricks')
   event.recipes.create.crushing('gtceu:ender_pearl_dust','minecraft:ender_pearl')
+})
+
+ServerEvents.recipes(event =>{
+  event.recipes.create.item_application('create:shadow_steel_casing',['minecraft:obsidian','gtceu:shadow_steel_plate'])
+  event.recipes.create.mixing('createutilities:void_steel_ingot',['create:shadow_steel','gtceu:ender_pearl_dust']).superheated()
+  event.remove({id:'createutilities:mixing/void_steel_ingot'})
+  event.recipes.create.mixing('4x create:chromatic_compound',[Fluid.of('minecraft:lava',500),'gtceu:netherite_dust','gtceu:andesitealloy_ingot','create:polished_rose_quartz'])
 })

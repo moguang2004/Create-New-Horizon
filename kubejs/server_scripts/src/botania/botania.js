@@ -468,7 +468,7 @@ ServerEvents.recipes(event =>{
             "item": "minecraft:melon_slice"
           },
           {
-            "tag": "forge:hot_ingots"
+            "item": "cold_sweat:hoglin_hide"
           }
         ],
         "mana": 10000,

@@ -7,6 +7,41 @@
 	id: "6A50F0290F3D7CC7"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["1E3636A4FFDDC155"]
+			id: "79D3902C2E886F59"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "763B87238ABBB0C2"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["79D3902C2E886F59"]
+			id: "0B92B29E066D2E88"
+			tasks: [{
+				id: "3C760154E6980F5A"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "25D924B587ABCF41"
+			tasks: [{
+				id: "713E09D457F3D461"
+				item: "gtceu:large_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+	]
 	title: "&9IV&r时期"
 }

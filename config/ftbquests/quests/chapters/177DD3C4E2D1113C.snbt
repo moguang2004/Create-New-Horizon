@@ -732,16 +732,18 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["4CBA91EC3301336B"]
 			id: "2E2CF14437897C39"
 			tasks: [{
 				id: "389D30D0C2F349E4"
 				item: "gtceu:caesium_dust"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.0d
 			y: 9.5d
 		}
 		{
+			dependencies: ["4CBA91EC3301336B"]
 			id: "2A1EFF745F570421"
 			tasks: [{
 				id: "1CABD3E4D00B2790"
@@ -752,6 +754,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["4CBA91EC3301336B"]
 			id: "2B70ED028A6ACD03"
 			tasks: [{
 				id: "48E11F955633AD00"

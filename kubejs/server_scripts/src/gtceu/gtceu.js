@@ -3,6 +3,8 @@
         .itemOutputs('物品id')
         .duration(时间)
         .EUt(功率)*/
+//const PlantCasingCondition = Java.loadClass('org.arbor.gtnn.api.recipe.PlantCasingCondition')
+//const PlantCasingBlock = Java.loadClass('org.arbor.gtnn.block.PlantCasingBlock')
 ServerEvents.recipes(event =>{
     event.recipes.gtceu.create_mixer('rose_quartz')
     .itemInputs('minecraft:quartz','4x minecraft:redstone')
@@ -276,7 +278,7 @@ ServerEvents.recipes(event =>{
     .outputFluids(Fluid.of('gtceu:rp_1_mixed_fuel',1000))
     .inputFluids(Fluid.of('gtceu:oxygen',2000))
     .circuit(1)
-     //.addCondition(new PlantCasingCondition(PlantCasingBlock.STAINLESS))
+    //.addCondition(new PlantCasingCondition(PlantCasingBlock.STAINLESS))
     .EUt(480)
     .duration(300)
     event.recipes.gtceu.photovoltaic_power('photovoltaic_power')
@@ -386,4 +388,19 @@ ServerEvents.recipes(event =>{
     .itemInputs(['4x botania:gaia_ingot','4x gtceu:solid_machine_casing','2x gtceu:mv_emitter','2x botania:mana_diamond','2x gtceu:terrasteel_screw'])
     .inputFluids(Fluid.of('gtceu:polyethylene',288))
     .itemOutputs('gtceu:gaia_reactor')
+
+    event.remove({id:'gtceu:assembler/cover_ender_fluid_link'})
+    event.recipes.gtceu.assembler('cover_ender_fluid_link')
+    .EUt(480)
+    .duration(320)
+    .itemInputs(['2x gtceu:ender_pearl_plate','gtceu:hv_sensor', 'gtceu:double_stainless_steel_plate', 'gtceu:hv_emitter', 'gtceu:hv_electric_pump'])
+    .inputFluids(Fluid.of('gtceu:polyethylene',288))
+    .itemOutputs('gtceu:ender_fluid_link_cover')
+
+    event.recipes.gtceu.macerator('tiny_uranium_dust')
+    .itemInputs('alexscaves:uranium_shard')
+    .itemOutputs('gtceu:tiny_uranium_dust')
+    .chancedOutput('gtceu:tiny_uranium_dust',2000,150)
+    .duration(20)
+    .EUt(30)
 })

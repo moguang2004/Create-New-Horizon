@@ -30,3 +30,13 @@ profile Saved activate HOT7
 	FEET
 		"minecraft:netherite_boots"
 
+profile Saved activate HOT6
+	HEAD
+		"minecraft:netherite_helmet"
+	CHEST
+		"minecraft:netherite_chestplate"
+	LEGS
+		"minecraft:netherite_leggings"
+	FEET
+		"minecraft:netherite_boots"
+

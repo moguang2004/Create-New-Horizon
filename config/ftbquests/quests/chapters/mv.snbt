@@ -273,6 +273,7 @@
 		{
 			dependencies: ["187230C4BEE7160C"]
 			id: "14C4BA500BF6C81B"
+			subtitle: "不用手搓的LV电路板"
 			tasks: [{
 				id: "7922D59D58FE7E58"
 				item: "gtceu:basic_integrated_circuit"
@@ -674,6 +675,29 @@
 			}]
 			x: 8.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["42C489E6E3651DDC"]
+			id: "234CB64EED695D42"
+			subtitle: "更合理的HV电路板"
+			tasks: [{
+				id: "581053911CDBC4E2"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4DCA7E4E57817E0A"]
+			id: "08CB75F59F452DE7"
+			tasks: [{
+				id: "493C08A31BD229CE"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.0d
 		}
 	]
 	title: "&bMV&r时期"

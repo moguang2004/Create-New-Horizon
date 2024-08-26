@@ -123,12 +123,30 @@ ServerEvents.recipes(event =>{
         .EUt(30).duration(300)
 
     // [Fuel + Zr] + 4Cl = Fuel + ZrCl4
-    ctnh.large_chemical_reactor(n.name)
+    if(n.name == 'uranium_238'){
+        ctnh.large_chemical_reactor(n.name)
+        .itemInputs('gtceu:zirconium_alloy_' + n.name + '_dust')
+        .itemOutputs('gtceu:uranium_ingot')
+        .itemOutputs('5x gtceu:zirconium_tetrachloride_dust')
+        .inputFluids(Fluid.of('gtceu:chlorine',3000))
+        .EUt(30).duration(300)
+    }
+    else if(n.name == 'plutonium_239'){
+        ctnh.large_chemical_reactor(n.name)
+        .itemInputs('gtceu:zirconium_alloy_' + n.name + '_dust')
+        .itemOutputs('gtceu:plutonium_ingot')
+        .itemOutputs('5x gtceu:zirconium_tetrachloride_dust')
+        .inputFluids(Fluid.of('gtceu:chlorine',3000))
+        .EUt(30).duration(300)
+    }
+    else{
+        ctnh.large_chemical_reactor(n.name)
         .itemInputs('gtceu:zirconium_alloy_' + n.name + '_dust')
         .itemOutputs('gtceu:' + n.name + '_ingot')
         .itemOutputs('5x gtceu:zirconium_tetrachloride_dust')
         .inputFluids(Fluid.of('gtceu:chlorine',3000))
         .EUt(30).duration(300)
+    }
 
     // Fuel + O = [Fuel + O]
     ctnh.chemical_reactor('oxide_' + n.name)

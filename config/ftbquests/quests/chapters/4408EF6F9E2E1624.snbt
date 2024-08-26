@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2886265224D0FBAA"]
+			dependencies: ["6D9003172EF921C9"]
 			id: "60D8E1B5B8777322"
 			subtitle: "你需要绝对天马行空的想象能力来使用它"
 			tasks: [{
@@ -49,7 +49,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2886265224D0FBAA"]
+			dependencies: ["6D9003172EF921C9"]
 			id: "32D9754803137E82"
 			tasks: [{
 				id: "67F5B1C0219B671A"
@@ -73,6 +73,12 @@
 		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "5697D10ED6CE81C6"
+			rewards: [{
+				count: 8
+				id: "13C72EC91DD7A1CD"
+				item: "create:white_sail"
+				type: "item"
+			}]
 			subtitle: "环保动力2号"
 			tasks: [{
 				id: "7381565C9306947F"
@@ -85,6 +91,11 @@
 		{
 			dependencies: ["1E74645D87740E1B"]
 			id: "7E5199B7F22F5DED"
+			rewards: [{
+				id: "3CF74CD75421697C"
+				item: "create:water_wheel"
+				type: "item"
+			}]
 			subtitle: "环保动力1号"
 			tasks: [{
 				id: "0652930EFB9D841B"
@@ -107,6 +118,12 @@
 		{
 			dependencies: ["6DB370790E927958"]
 			id: "2460426DE77EF0F4"
+			rewards: [{
+				count: 4
+				id: "231B636B2463F918"
+				item: "gtceu:iron_plate"
+				type: "item"
+			}]
 			tasks: [{
 				id: "51212E2B1DE37DEA"
 				item: "gtceu:iron_plate"
@@ -304,7 +321,7 @@
 					type: "item"
 				}
 				{
-					count: 26L
+					count: 25L
 					id: "5048DDF6099F06AA"
 					item: "gtceu:coke_oven_bricks"
 					type: "item"
@@ -361,6 +378,11 @@
 		{
 			dependencies: ["2460426DE77EF0F4"]
 			id: "03B30F262729DB33"
+			rewards: [{
+				id: "453306A499AB90EB"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DC908B8278B74CD"
 				item: "create:empty_blaze_burner"
@@ -370,7 +392,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["03B30F262729DB33"]
+			dependencies: [
+				"03B30F262729DB33"
+				"29EDBE0D432B1D62"
+			]
 			id: "3235EC33AE70B9A0"
 			subtitle: "你的第一次剥削"
 			tasks: [{
@@ -434,11 +459,50 @@
 			y: 7.0d
 		}
 		{
+			icon: "minecraft:blaze_rod"
+			id: "29EDBE0D432B1D62"
+			subtitle: "这是不进入下界获得烈焰人的唯一办法"
+			tasks: [
+				{
+					id: "5DB7481C8CF586CC"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "51E2D775FC8D7522"
+					item: { Count: 2, id: "minecraft:iron_bars" }
+					type: "item"
+				}
+			]
+			title: "烈焰人召唤"
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["28D6FA3341B59AA4"]
+			id: "1454540D8B7CCBF4"
+			tasks: [{
+				id: "2E4145AB5AAD7F40"
+				item: "gtceu:potin_gear"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
 			dependencies: ["5BA86B01337A91D5"]
-			id: "2886265224D0FBAA"
+			id: "6D9003172EF921C9"
+			rewards: [{
+				count: 16
+				id: "6947235FD465275D"
+				item: "gtceu:andesitealloy_ingot"
+				type: "item"
+			}]
+			size: 1.5d
 			subtitle: "第一块合金"
 			tasks: [{
-				id: "5C74200AB86E8BC5"
+				id: "2432B1FD7CD5EFE3"
 				item: "gtceu:andesitealloy_ingot"
 				type: "item"
 			}]

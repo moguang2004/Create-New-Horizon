@@ -15,6 +15,7 @@ const { $DamageSource } = require("packages/net/minecraft/world/damagesource/$Da
 const { $DamageType } = require("packages/net/minecraft/world/damagesource/$DamageType")
 const { $Entity } = require("packages/net/minecraft/world/entity/$Entity")
 const { $EntityType } = require("packages/net/minecraft/world/entity/$EntityType")
+const { $LivingEntity } = require("packages/net/minecraft/world/entity/$LivingEntity")
 const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
 const { $LootParams$Builder } = require("packages/net/minecraft/world/level/storage/loot/$LootParams$Builder")
 const { $LootContextParamSet$Builder } = require("packages/net/minecraft/world/level/storage/loot/parameters/$LootContextParamSet$Builder")
@@ -46,7 +47,11 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
         .recipeType('slaughter_house')
         .recipeModifier((machine,recipe) =>{
             let newrecipe = recipe.copy()
-            newrecipe.duration = 20
+            let timecost = machine.getHolder().self().persistentData.getFloat('timecost')
+            if(timecost == null){
+                timecost = 1
+            }
+            newrecipe.duration = 40 * timecost
             return newrecipe
         })
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
@@ -136,9 +141,20 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
         // else{
             //战利品模式
             let lootparams = new $LootParams$Builder(level).withParameter(LootContextParams.LAST_DAMAGE_PLAYER,new $FakePlayer(level,new $GameProfile(uuid1,"slaughter"))).create(new $LootContextParamSet$Builder().build())
+            let totalhealth = 0
             for (let oc = 0; oc <= machine.getTier() * 4; oc++) {
                 let index = Math.random() * moblist.length;
                 let /**@type {String}*/mob = moblist[Math.floor(index)]
+                let mobentity = $EntityType.byString(mob).get().create(level)
+                if(mobentity instanceof $LivingEntity){
+                    if(mobentity.armorValue != 0){
+                        let armor = mobentity.armorValue
+                        totalhealth += mobentity.maxHealth/(20/(armor + 20))
+                    }
+                    else{
+                        totalhealth += mobentity.maxHealth
+                    }
+                }
                 let loottable = level.getServer()
                                 .getLootData()
                                 .getLootTable(new ResourceLocation(mob.split(':')[0]+ ":entities/" + mob.split(':')[1]))
@@ -150,6 +166,8 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
                         }
                 });
             }
+            let timecost = totalhealth/(20*machine.getTier()*4)
+            machine.getHolder().self().persistentData.putFloat('timecost',timecost)
         }
         // }
             return true

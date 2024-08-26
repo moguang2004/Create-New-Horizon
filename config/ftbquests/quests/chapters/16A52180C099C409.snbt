@@ -231,7 +231,10 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["7959820843845731"]
+			dependencies: [
+				"7959820843845731"
+				"1454540D8B7CCBF4"
+			]
 			id: "42D0940DF28D51A3"
 			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
 			tasks: [{

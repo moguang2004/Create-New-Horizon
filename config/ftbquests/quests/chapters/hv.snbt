@@ -219,6 +219,7 @@
 			y: 1.1190476190476133d
 		}
 		{
+			dependencies: ["17508AC52A73A6CF"]
 			description: ["    仔细观察发现，要想获得铂锭，铂系处理需要以谢尔顿矿开始，而谢尔顿矿只存在于外太空中，这样就产生了一个矛盾：&4造火箭需要上太空，上太空需要造火箭&r。这时，机智的你产生了一个想法，&a向外太空发射信号，向天祈求携带着外太空矿石的陨石落下&r，不就解决了这一问题吗？"]
 			hide_dependency_lines: true
 			id: "2758CA5AD758482C"
@@ -556,7 +557,7 @@
 				item: "gtceu:cleanroom"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -567,7 +568,7 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: -2.0d
 		}
 		{
@@ -582,7 +583,7 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: -4.0d
 		}
 		{
@@ -765,6 +766,95 @@
 			}]
 			x: -3.971428571428561d
 			y: 0.016156462585037445d
+		}
+		{
+			dependencies: ["711DB49F2C74338E"]
+			id: "7054D8D420646745"
+			tasks: [{
+				id: "2C61C9E702A21231"
+				item: "gtceu:fine_platinum_wire"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7054D8D420646745"]
+			id: "4BDA2D9EAB17A8C6"
+			tasks: [{
+				id: "3620FFC6DF9F9843"
+				item: "gtceu:smd_diode"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["773CB6E376B56EA4"]
+			id: "071A728A18E21B3C"
+			tasks: [{
+				id: "1A0C4B23A4D6B05C"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["071A728A18E21B3C"]
+			id: "1511963A19F70BC2"
+			subtitle: "更加方便的贴片材料"
+			tasks: [
+				{
+					id: "510E93BFBA890CF9"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+				{
+					id: "0278C5019DB666FD"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "421BA64F674A00AE"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "30BADC9DE1AE145C"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+			]
+			title: "贴片！"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17508AC52A73A6CF"]
+			id: "2F8F679EAC693ACE"
+			tasks: [{
+				id: "7C4BB2BEF666E930"
+				item: "gtceu:hv_sensor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"22E945CD59D8AF3D"
+				"2F8F679EAC693ACE"
+			]
+			id: "23822AE831A41F5D"
+			subtitle: "远程传输神器"
+			tasks: [{
+				id: "2053627AA2187C74"
+				item: "gtceu:ender_fluid_link_cover"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
 		}
 	]
 	title: "&6HV&r时期"

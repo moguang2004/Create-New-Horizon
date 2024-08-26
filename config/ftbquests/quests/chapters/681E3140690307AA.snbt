@@ -60,6 +60,7 @@
 				title: "格雷科技"
 				type: "checkmark"
 			}]
+			title: "格雷科技（GT）"
 			x: -9.0d
 			y: 5.0d
 		}
@@ -114,6 +115,12 @@
 		{
 			dependencies: ["09C344717F4BAD6C"]
 			id: "6F405D2508EED283"
+			rewards: [{
+				count: 64
+				id: "3DAAAA2A3D113E16"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
 			tasks: [{
 				count: 16L
 				id: "737374C23974ABF8"
@@ -186,17 +193,50 @@
 			dependencies: ["6F405D2508EED283"]
 			description: ["格雷修改了原版的所有矿物生成，&4贸然的下矿会让你一无所获&r。使用探矿仪，找到含有铁、铜、锡等前期金属的矿脉，在对应区块寻找矿物，效率会高很多。有时候你会在地面上找到一些&a矿石标记物&r，别犹豫，下面也许就是大片的矿石！"]
 			id: "1B4FFE71B4C66E14"
-			rewards: [{
-				id: "041A24BFFAF6E5F1"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.lv"
-					tag: {
-						Charge: 100000
+			rewards: [
+				{
+					id: "041A24BFFAF6E5F1"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.lv"
+						tag: {
+							Charge: 100000
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "63706A0B750DCFD1"
+					item: {
+						Count: 1
+						id: "gtceu:rose_gold_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}]
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 2303
+								ToolSpeed: 8.8f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "别随便下矿洞！"
 			tasks: [{
 				id: "02CB7B2250363B17"
@@ -365,6 +405,12 @@
 		{
 			dependencies: ["5BA86B01337A91D5"]
 			id: "7FA90252C6CC19F0"
+			rewards: [{
+				count: 16
+				id: "3531E484EFE0DA86"
+				item: "gtceu:andesitealloy_ingot"
+				type: "item"
+			}]
 			size: 1.5d
 			subtitle: "第一块合金"
 			tasks: [{

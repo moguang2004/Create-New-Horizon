@@ -32,7 +32,7 @@ ServerEvents.recipes(event =>{
             temperature: 2200,
             eu: 480,
             duration: 200,
-            output: [Fluid.of('gtceu:ethylene',500),Fluid.of('gtceu:phenol',100),Fluid.of('gtceu:enthanol', 150), Fluid.of('gtceu:propene',250)]
+            output: [Fluid.of('gtceu:ethylene',500),Fluid.of('gtceu:phenol',100),Fluid.of('gtceu:ethanol', 150), Fluid.of('gtceu:propene',250)]
         },
         {
             name: 'fluorescence',

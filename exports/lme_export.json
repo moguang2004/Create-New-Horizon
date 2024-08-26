@@ -170,6 +170,11 @@
     "version": "1.11.2+1.20.1"
   },
   {
+    "modid": "structure_gel",
+    "name": "Structure Gel API",
+    "version": "2.16.2"
+  },
+  {
     "modid": "explorations",
     "name": "Explorations+",
     "version": "1.20.1-1.5.2"
@@ -475,6 +480,11 @@
     "version": "2.2.0"
   },
   {
+    "modid": "xaerominimap",
+    "name": "Xaero\u0027s Minimap",
+    "version": "24.3.0"
+  },
+  {
     "modid": "gravestone",
     "name": "Gravestone Mod",
     "version": "1.20.1-1.0.21"
@@ -650,6 +660,11 @@
     "version": "1.20.1-1.4.2-neoforge"
   },
   {
+    "modid": "lost_aether_content",
+    "name": "Aether: Lost Content",
+    "version": "1.2.3"
+  },
+  {
     "modid": "deep_aether",
     "name": "Deep Aether",
     "version": "1.20.1-1.0.4"
@@ -673,6 +688,11 @@
     "modid": "nanhealthfixer",
     "name": "NaNHealthFixer",
     "version": "1.20.1-0.0.1"
+  },
+  {
+    "modid": "xaeroworldmap",
+    "name": "Xaero\u0027s World Map",
+    "version": "1.38.8"
   },
   {
     "modid": "controlling",

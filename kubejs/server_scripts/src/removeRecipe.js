@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
     event.remove({id:'tetranichematerials:gold_ingot_from_powder_blasting'})
     event.remove({id:'tetranichematerials:steel_ingot_from_powder_blasting'})
     event.remove({id:'tetranichematerials:steel_powder'})
-    event.remove({id:''})
+    event.remove({id:'bclib:tag_bucket'})
     event.remove({id:''})
     event.remove({id:''})
 

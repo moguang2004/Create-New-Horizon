@@ -391,6 +391,8 @@ ServerEvents.recipes(event =>{
     }
 
     let removebyid = [
+    'expatternprovider:ex_inscriber',
+    'expatternprovider:ex_charger',
     'ae2:network/cells/item_storage_cell_1k',
     'ae2:network/cells/item_storage_cell_4k',
     'ae2:network/cells/item_storage_cell_16k',

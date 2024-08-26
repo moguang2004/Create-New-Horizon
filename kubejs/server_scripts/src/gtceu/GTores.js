@@ -303,6 +303,29 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
+    event.add('ctnh:ancient_debris_vein',vein =>{
+        vein.weight(40)
+        vein.clusterSize(40)
+        vein.density(0.45)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer('all_layer')
+        vein.dimensions('minecraft:the_nether')
+        vein.heightRangeUniform(0, 25)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).block(() => Block.getBlock('minecraft:ancient_debris')).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Sulfur).size(1, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.get('precious_alloy')).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Oilsands).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get('precious_alloy'))
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
+    })
 })
 GTCEuServerEvents.fluidVeins(event => {
 

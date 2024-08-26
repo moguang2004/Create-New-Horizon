@@ -199,6 +199,7 @@
 			dependencies: ["753C05B19EFE934A"]
 			hide_dependency_lines: true
 			id: "5DB0EF9FCAE148D0"
+			subtitle: "用于工作台的合成"
 			tasks: [{
 				id: "4EFAE16CE46DE264"
 				item: "ae2:molecular_assembler"
@@ -326,6 +327,118 @@
 			}]
 			x: 3.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["40E2D3E042EC7608"]
+			hide_dependency_lines: true
+			id: "22A0E1EC2295780A"
+			tasks: [{
+				id: "1F1ACEF9E9156609"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["40E2D3E042EC7608"]
+			hide_dependency_lines: true
+			id: "10961DB3B07533AA"
+			tasks: [{
+				id: "50E29C7EF0631784"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["40E2D3E042EC7608"]
+			hide_dependency_lines: true
+			id: "7865E7BB786E65FD"
+			tasks: [{
+				id: "2881F83B41DE8E97"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F2A14132F65CC87"]
+			hide_dependency_lines: true
+			id: "52D78E53A576F7B5"
+			tasks: [{
+				id: "02FA7EE49806BECD"
+				item: "expatternprovider:ingredient_buffer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F2A14132F65CC87"]
+			hide_dependency_lines: true
+			id: "6D41CEB280A25D1C"
+			tasks: [{
+				id: "20C744E30394AEFC"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40E2D3E042EC7608"]
+			hide_dependency_lines: true
+			id: "0DF62E2FF6E60C3C"
+			tasks: [{
+				id: "6537B9FF32855226"
+				item: "expatternprovider:ex_export_bus_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["40E2D3E042EC7608"]
+			hide_dependency_lines: true
+			id: "5343C92781666C20"
+			tasks: [{
+				id: "0F4C2A726A613D29"
+				item: "expatternprovider:ex_import_bus_part"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["40E2D3E042EC7608"]
+			hide_dependency_lines: true
+			id: "793CE9A81EC3528F"
+			tasks: [{
+				id: "6C77E15901743E44"
+				item: "expatternprovider:precise_export_bus"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2740F44657C0CF5A"
+				"1EF69C314E045882"
+			]
+			id: "40E2D3E042EC7608"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "540CB45E51FA1299"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
 		}
 	]
 	title: "应用能源"

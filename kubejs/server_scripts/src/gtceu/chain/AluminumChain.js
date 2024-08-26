@@ -462,6 +462,6 @@ ServerEvents.recipes(event =>{
     event.recipes.gtceu.centrifuge('bauxite_dust')
     .itemInputs('gtceu:bauxite_dust')
     .itemOutputs('gtceu:alumina_dust')
-    .chancedOutputs('gtceu:tiny_gallium_dust',2500,250)
-    .chancedOutputs('gtceu:tiny_rutile_dust',3000,300)
+    .chancedOutput('gtceu:tiny_gallium_dust',2500,250)
+    .chancedOutput('gtceu:tiny_rutile_dust',3000,300)
 })
