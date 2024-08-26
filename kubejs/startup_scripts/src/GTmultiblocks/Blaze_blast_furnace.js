@@ -1,22 +1,20 @@
 const { $WorkableElectricMultiblockMachine } = require("packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine")
 const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe")
-const { $GTRecipeType } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipeType")
-const { $Content } = require("packages/com/gregtechceu/gtceu/api/recipe/content/$Content")
-const { $FluidIngredient } = require("packages/com/gregtechceu/gtceu/api/recipe/ingredient/$FluidIngredient")
-const { $List } = require("packages/java/util/$List")
-const { $Map } = require("packages/java/util/$Map")
-const { $Fluid } = require("packages/net/minecraft/world/level/material/$Fluid")
+const { $ContentModifier } = require("packages/com/gregtechceu/gtceu/api/recipe/content/$ContentModifier")
 
 GTCEuStartupEvents.registry('gtceu:machine',event =>{
     const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
-    const $FluidRecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.FluidRecipeCapability')
     const FluidStack = Java.loadClass('com.lowdragmc.lowdraglib.side.fluid.FluidStack')
+    const GTRecipeBuilder = Java.loadClass('com.gregtechceu.gtceu.data.recipe.builder.GTRecipeBuilder')
+    const EURecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.EURecipeCapability')
     event.create('blaze_blast_furnace','multiblock',(holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('electric_blast_furnace')
-        .recipeModifier((machine,recipe) =>{
+        .recipeModifier((machine,/**@type {$GTRecipe}*/recipe) =>{
             let parallel = 8
-            let newrecipe = GTRecipeModifiers.accurateParallel(machine,recipe.copy(),parallel,false).getFirst()
+            let newrecipe = recipe.copy()
+            newrecipe.tickInputs.put(EURecipeCapability.CAP,newrecipe.copyContents(newrecipe.tickInputs,$ContentModifier.of(0.75,0)).get(EURecipeCapability.CAP))
+            newrecipe = GTRecipeModifiers.accurateParallel(machine,newrecipe,parallel,false).getFirst()
             return GTRecipeModifiers.ebfOverclock(machine,newrecipe)
         })
         //.appearanceBlock('kubejs:blaze_blast_frunace_casing')
@@ -57,8 +55,9 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
         .onWorking(machine =>{
             if (machine.getOffsetTimer() % 20 == 0){
                 let tier = machine.self().getTier()
-                if (machine.input(true, machine.getContentBuilder().fluid("gtceu:pyrotheum " + (2 ** (tier - 2)) * 10).build()).isSuccess()) {
-                    machine.input(false, machine.getContentBuilder().fluid("gtceu:pyrotheum " + (2 ** (tier - 2)) * 10).build())
+                let recipe = GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:pyrotheum " + Math.pow(2,(tier - 2)) * 10).buildRawRecipe()
+                if (recipe.matchRecipe(machine).isSuccess()) {
+                    recipe.handleRecipeIO(IO.IN, machine, machine.recipeLogic.getChanceCaches())
                     return true
                 }
                 machine.getRecipeLogic().setProgress(0)
@@ -66,7 +65,9 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
             return true
         })
         .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine,recipe)=>{
-            if (machine.input(true, machine.getContentBuilder().fluid("gtceu:pyrotheum " + (2 ** (machine.self().getTier() - 2)) * 10).build()).isSuccess()) {
+            let tier = machine.self().getTier()
+            let recipe1 = GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:pyrotheum " + Math.pow(2,(tier - 2)) * 10).buildRawRecipe()
+                if (recipe1.matchRecipe(machine).isSuccess()) {
                 return true
             }
             machine.getRecipeLogic().interruptRecipe()

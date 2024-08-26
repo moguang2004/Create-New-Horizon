@@ -1,5 +1,8 @@
 ServerEvents.recipes(event =>{
         event.remove({id:'gtceu:large_chemical_reactor/uranium_hexafluoride'})
+        event.remove({id:'alexscaves:furnace/uranium_from_radrock_ore_smelting'})
+        event.remove({id:'alexscaves:furnace/uranium_from_radrock_ore_blasting'})
+        event.remove({id:'alexscaves:uranium_from_shard'})
     let ctnh = event.recipes.gtceu
         // UO2 + 2 Cl + H2O -> [UO2Cl2 + H2O + ?]
         ctnh.chemical_reactor('uranyl_chloride_solution')
@@ -77,11 +80,11 @@ ServerEvents.recipes(event =>{
         .outputFluids(Fluid.of('gtceu:sulfuric_acid',2000))
         .itemOutputs('3x gtceu:caesium_hydroxide_dust')
         .itemOutputs('4x gtceu:molybdenum_trioxide_dust')
-        .itemOutputs('7x gtceu:vanadium_oxide_dust')
+        .itemOutputs('7x gtceu:vanadium_pentoxide_dust')
         .duration(200).EUt(1920)
 
         ctnh.electric_blast_furnace('vanadium_dust')
-        .itemInputs('7x gtceu:vanadium_oxide_dust')
+        .itemInputs('7x gtceu:vanadium_pentoxide_dust')
         .itemInputs('gtceu:carbon_dust')
         .itemInputs('2x gtceu:aluminium_dust')
         .itemOutputs('gtceu:vanadium_dust')
@@ -90,6 +93,8 @@ ServerEvents.recipes(event =>{
         .EUt(120)
         .duration(200)
         .blastFurnaceTemp(1200)
+
+        event.remove({id:'gtceu:electrolyzer/decomposition_electrolyzing_vanadium_pentoxide'})
 
         // [UO3•H2O2 + ThO2] -> [UO2 + ThO2] + H2O + 2O
         ctnh.electrolyzer('uranium_thorium_oxide_dust')
@@ -184,5 +189,13 @@ ServerEvents.recipes(event =>{
         .outputFluids(Fluid.of('gtceu:uranium_hexafluoride',1000))
         .outputFluids(Fluid.of('minecraft:water',2000))
         .EUt(480)
+        .duration(40)
+
+        ctnh.macerator('radrock_uranium_ore')
+        .itemInputs('alexscaves:radrock_uranium_ore')
+        .itemOutputs('3x gtceu:uraninite_dust')
+        .itemOutputs('1x gtceu:thorium_dust')
+        .chancedOutput('2x gtceu:tiny_uranium_dust',5000,500)
+        .EUt(120)
         .duration(40)
 })

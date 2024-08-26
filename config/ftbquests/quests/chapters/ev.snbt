@@ -346,6 +346,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["5B9CD67AE97E7F3D"]
 			id: "2D624DC9A3946E74"
 			tasks: [{
 				id: "143113D27A22A2DD"
@@ -387,6 +388,28 @@
 			}]
 			x: -6.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["5DE73169DED11A0D"]
+			id: "5B9CD67AE97E7F3D"
+			tasks: [{
+				id: "33E97CB6369EF8BE"
+				item: "gtceu:uraninite_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "5DE73169DED11A0D"
+			tasks: [{
+				count: 16L
+				id: "607F1D2AAD371EA0"
+				item: { Count: 16, id: "gtceu:raw_uraninite" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
 		}
 	]
 	title: "&5EV&r时期"

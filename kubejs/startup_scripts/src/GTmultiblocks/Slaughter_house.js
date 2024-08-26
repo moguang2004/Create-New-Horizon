@@ -7,23 +7,16 @@ const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTReci
 const { $GTRecipeType } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipeType")
 const { $Content } = require("packages/com/gregtechceu/gtceu/api/recipe/content/$Content")
 const { $GameProfile } = require("packages/com/mojang/authlib/$GameProfile")
-const { $RegistryInfo } = require("packages/dev/latvian/mods/kubejs/registry/$RegistryInfo")
-const { $List } = require("packages/java/util/$List")
-const { $Map } = require("packages/java/util/$Map")
 const { $UUID } = require("packages/java/util/$UUID")
+const { EntityType } = require("packages/moe/wolfgirl/probejs/generated/registry/minecraft/EntityType")
 const { $Holder } = require("packages/net/minecraft/core/$Holder")
 const { $StringTag } = require("packages/net/minecraft/nbt/$StringTag")
 const { $DamageSource } = require("packages/net/minecraft/world/damagesource/$DamageSource")
 const { $DamageType } = require("packages/net/minecraft/world/damagesource/$DamageType")
 const { $Entity } = require("packages/net/minecraft/world/entity/$Entity")
-const { $LivingEntity } = require("packages/net/minecraft/world/entity/$LivingEntity")
-const { $ItemEntity } = require("packages/net/minecraft/world/entity/item/$ItemEntity")
-const { $Monster } = require("packages/net/minecraft/world/entity/monster/$Monster")
+const { $EntityType } = require("packages/net/minecraft/world/entity/$EntityType")
 const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
-const { $LootParams } = require("packages/net/minecraft/world/level/storage/loot/$LootParams")
 const { $LootParams$Builder } = require("packages/net/minecraft/world/level/storage/loot/$LootParams$Builder")
-const { $LootContextParam } = require("packages/net/minecraft/world/level/storage/loot/parameters/$LootContextParam")
-const { $LootContextParamSet } = require("packages/net/minecraft/world/level/storage/loot/parameters/$LootContextParamSet")
 const { $LootContextParamSet$Builder } = require("packages/net/minecraft/world/level/storage/loot/parameters/$LootContextParamSet$Builder")
 const { $FakePlayer } = require("packages/net/minecraftforge/common/util/$FakePlayer")
 
@@ -44,6 +37,7 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
     const ItemRecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.ItemRecipeCapability')
     const ComponentPanelWidget = Java.loadClass('com.lowdragmc.lowdraglib.gui.widget.ComponentPanelWidget')
     const LootContextParams = Java.loadClass('net.minecraft.world.level.storage.loot.parameters.LootContextParams')
+    const GTRecipeBuilder = Java.loadClass('com.gregtechceu.gtceu.data.recipe.builder.GTRecipeBuilder')
     const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
             let uuid1 = $UUID.randomUUID()
             let uuid2 = $UUID.randomUUID()
@@ -81,7 +75,6 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
             // moblist.forEach(mob =>{
             //     console.info(mob)
             // })
-
             let position = machine.pos
             let level = machine.level
             let facing = machine.frontFacing
@@ -146,18 +139,14 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
             for (let oc = 0; oc <= machine.getTier() * 4; oc++) {
                 let index = Math.random() * moblist.length;
                 let /**@type {String}*/mob = moblist[Math.floor(index)]
-                //console.info(mob.split(':')[0]+ ":entities/" + mob.split(':')[1])
                 let loottable = level.getServer()
                                 .getLootData()
                                 .getLootTable(new ResourceLocation(mob.split(':')[0]+ ":entities/" + mob.split(':')[1]))
                                 .getRandomItems(lootparams)
                 loottable.forEach(itemStack => {
-                    let contents = new $Map.of(ItemRecipeCapability.CAP,new $List.of(new $Content(SizedIngredient.create(itemStack.asIngredient(),itemStack.count),1,0,null,null)))
-                        let tmp = new $GTRecipe(new $GTRecipeType(new ResourceLocation("gt_machine_io_1"), "gt"),
-                        new ResourceLocation("___recipe_test_ids1__"), null, contents, null,
-                        null, null, $List.of(), null, 0, false)
-                        if(tmp.matchRecipeContents(IO.OUT, machine, contents).isSuccess()){
-                            tmp.handleRecipe(IO.OUT, machine, contents)
+                        let /**@type {$GTRecipe}*/ tmp = GTRecipeBuilder.ofRaw()["outputItems(net.minecraft.world.item.ItemStack)"](itemStack).buildRawRecipe()
+                        if(tmp.matchRecipe(machine).isSuccess()){
+                            tmp.handleRecipeIO(IO.OUT, machine, machine.recipeLogic.getChanceCaches())
                         }
                 });
             }
