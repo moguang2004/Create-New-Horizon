@@ -373,6 +373,7 @@
     "ctnh.water_power_station.random": "发电量随机在0.6至1的倍率间波动",
     "ctnh.slaughter_house.mechanism": "输入总线放入电动刷怪笼后，机器会自动输出对应怪物的战利品，可放入多个电动刷怪笼",
     "ctnh.slaughter_house.parallel": "电压每升高1级，虚拟刷怪量会增加4（ULV为0）",
+    "ctnh.slaughter_house.health": "§a怪物血量和护甲值越高，配方运行所需时间越长§r",
     "ctnh.blaze_blast_furnace.consume": "每秒基础消耗§a20mB§r烈焰之炽焱，电压每超过§6HV§r一级，消耗量变为原来的两倍",
     "ctnh.blaze_blast_furnace.parallel": "允许一次性处理8个配方",
     "water_power_station": "环保能源！",

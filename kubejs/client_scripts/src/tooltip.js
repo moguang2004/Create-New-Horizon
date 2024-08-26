@@ -143,6 +143,7 @@ ItemEvents.tooltip(event =>{
         text.add(1,Text.translate('slaughter_house').gray())
         text.add(2,Text.translate('ctnh.slaughter_house.mechanism'))
         text.add(3,Text.translate('ctnh.slaughter_house.parallel'))
+        text.add(4,Text.translate('ctnh.slaughter_house.health'))
     })
     event.addAdvanced('gtceu:blaze_blast_furnace',(item,advanced,text)=>{
         text.add(1,Text.translate('blaze_blast_furnace').gray())
