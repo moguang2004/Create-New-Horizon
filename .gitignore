@@ -21,6 +21,7 @@
 /shaderpacks/
 /PCL/
 *-natives/
+natives-*/
 /.probe/
 /hs_err_pid16740.log
 /options.txt
@@ -32,3 +33,8 @@
 /TrashSlotSaveState.json
 /config/sound_physics_remastered/
 /gtceu/
+/*.jar
+/*.json
+/${quickPlayPath}
+*.log
+/log4j2.xml
