@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
     C: 'gtceu:steel_plate',
     D: 'minecraft:clock'
   }).id('createdieselgenerators:crafting/basin_lid')
-  event.replaceInput({ id: 'createdieselgenerators:mechanical_crafting/pumpjack_crank' }, 'gtceu:andesitealloy_ingot', 'gtceu:andesitealloy_plate')
+  event.replaceInput({ id: 'createdieselgenerators:mechanical_crafting/pumpjack_crank' }, 'gtceu:andesite_alloy_ingot', 'gtceu:andesite_alloy_plate')
   event.replaceInput({ id: 'createdieselgenerators:mechanical_crafting/pumpjack_crank' }, 'gtceu:iron_plate', 'gtceu:steel_plate')
   event.replaceInput({ id: 'createdieselgenerators:mechanical_crafting/pumpjack_crank' }, 'gtceu:zinc_ingot', 'gtceu:zinc_plate')
   event.remove({ id: 'createdieselgenerators:crafting/engine_piston_from_rods' })

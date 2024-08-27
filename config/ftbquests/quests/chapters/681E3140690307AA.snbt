@@ -408,14 +408,14 @@
 			rewards: [{
 				count: 16
 				id: "3531E484EFE0DA86"
-				item: "gtceu:andesitealloy_ingot"
+				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
 			size: 1.5d
 			subtitle: "第一块合金"
 			tasks: [{
 				id: "19245BF7A4D48BFB"
-				item: "gtceu:andesitealloy_ingot"
+				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
 			x: 5.5d

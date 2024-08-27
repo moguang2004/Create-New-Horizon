@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
     "type": "botania:runic_altar",
     "ingredients": [
       {
-        "item": "gtceu:andesitealloy_ingot"
+        "item": "gtceu:andesite_alloy_ingot"
       },
       {
         "item": "gtceu:calcite_dust"
