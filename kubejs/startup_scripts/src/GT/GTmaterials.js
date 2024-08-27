@@ -919,7 +919,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .liquid()
     .color(0x40ed57)
     .components('2x hydrogen','1x silicon','6x fluorine')
-    .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
     event.create('uncommon_residues')
     .dust()
     .color(0x4f86c9)

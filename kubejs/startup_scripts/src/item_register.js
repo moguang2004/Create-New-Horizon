@@ -1,3 +1,5 @@
+const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
+
 //priority 10
 Platform.getInfo('kubejs').name = 'Create: New Horizon'
 
@@ -50,6 +52,15 @@ StartupEvents.registry("item", event =>{
         let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
         return Math.floor(energy.energyStored / energy.maxEnergyStored * 13)
     })
+    event.create('broken_temperature_keeping_device').maxDamage(12000).tag('curios:body')
+    .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+                .curioTick((/**@type {$ItemStack}*/ itemstack,slotcontext)=>{
+                    itemstack.damageValue -= 1
+                    return true
+                })
+                .modifyAttribute('cold_sweat:cold_dampening','kubejscolddampening',1,'addition')
+                .modifyAttribute('cold_sweat:heat_dampening','kubejsheatdampening',1,'addition')
+            )
     event.create('deep_diver_gear').tag('curios:belt')
     event.create('thermometer_case')
     event.create('high_quality_solid_fuel').burnTime(4800)//.burntime(16000)

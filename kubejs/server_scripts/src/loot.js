@@ -14,7 +14,14 @@ LootJS.modifiers(event =>{
     .replaceLoot('minecraft:netherite_ingot','gtceu:netherite_ingot',true)
     .replaceLoot('ad_astra:desh_ingot','gtceu:desh_ingot',true)
     .replaceLoot('ad_astra:raw_desh','gtceu:raw_desh',true)
+    .replaceLoot('enderio:dark_steel_ingot','gtceu:dark_steel_ingot',true)
+    .replaceLoot('enderio:wood_gear','gtceu:wood_gear',true)
+    .replaceLoot('enderio:copper_alloy_ingot','gtceu:copper_alloy_ingot',true)
+    .replaceLoot('enderio:redstone_alloy_ingot','gtceu:redstone_alloy_ingot',true)
+    .replaceLoot('enderio:pulsating_alloy_ingot','gtceu:pulsating_alloy_ingot',true)
+    .replaceLoot('enderio:vibrant_alloy_ingot','gtceu:vibrant_alloy_ingot',true)
     .removeLoot('bloodmagic:strong_tau')
+    .removeLoot('minecraft:flint_and_steel')
     //event.addLootTableModifier('dun')
     const gtceulv =[LootEntry.of('gtceu:lv_electric_motor',1).when(c=> {c.randomChance(0.2)}),
                     LootEntry.of('gtceu:tin_single_wire',2).when(c=> {c.randomChance(0.4)}),

@@ -41,7 +41,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
         )
         .onWorking((/**@type {$WorkableElectricMultiblockMachine} */machine) =>{
             let heat = machine.getHolder().self().persistentData.getFloat('heat')
-            console.info(heat)
             if(machine.getOffsetTimer() %20 == 0){
                 machine.getParts().forEach((/** @type {$IMultiPart} */part) =>{
                     part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) =>{

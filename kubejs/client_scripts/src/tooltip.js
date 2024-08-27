@@ -181,4 +181,6 @@ ItemEvents.tooltip(event =>{
         text.add(4,Text.translate('ctnh.nuclear_reactor.overclock'))
         text.add(5,Text.translate('ctnh.nuclear_reactor.safe'))
     })
+
+    event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
 })
