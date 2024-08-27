@@ -1,4 +1,7 @@
 ServerEvents.recipes(event => {
+  event.remove({ id: 'deep_aether:skyroot_crafting_table' })
+  event.remove({ id: 'aether:skyroot_crafting_table' })
+  event.remove({ output: /betterend:(.*)_crafting_table/ })
   event.shaped(
     Item.of('gtceu:andesite_alloy_ingot', 4), [
     'ABA',
