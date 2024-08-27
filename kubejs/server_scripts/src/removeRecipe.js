@@ -88,8 +88,8 @@ ServerEvents.recipes(event => {
     event.remove({id:'tetranichematerials:steel_ingot_from_powder_blasting'})
     event.remove({id:'tetranichematerials:steel_powder'})
     event.remove({id:'bclib:tag_bucket'})
-    event.remove({id:''})
-    event.remove({id:''})
+    event.remove({id:'extendedcrafting:handheld_table'})
+    event.remove({id:'create_new_age:shaped/layered_magnet'})
 
     event.remove({output:'#forge:chipped_gems',type:'minecraft:crafting_shapeless'})
     event.remove({output:'#forge:flawed_gems',type:'minecraft:crafting_shapeless'})

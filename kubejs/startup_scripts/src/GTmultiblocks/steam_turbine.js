@@ -21,14 +21,13 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('kinetic_steam_turbine')
         .recipeModifier((/**@type {$MetaMachine}*/ machine,/**@type {$GTRecipe}*/recipe) => {
+            let tier = 1
             const modifiedByKinetic = recipe => {
                 const kineticMachine = machine.getParts().find(part => part instanceof IKineticMachine)
                 if (kineticMachine === null) {
                     return null;
                 }
-                if(kineticMachine.getTier() > GTValues.HV){
-                    lossrate = Math.min(0.5,1-0.1*(kineticMachine.getTier()-GTValues.HV))
-                }
+                tier = kineticMachine.self().definition.tier
                 const parallelResult = GTRecipeModifiers.fastParallel(machine, recipe, GTValues.VH[kineticMachine.getTier()]/4, false);
                 return parallelResult.getFirst() === recipe ? recipe.copy() : parallelResult.getFirst();
             }
@@ -42,7 +41,11 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
                 }
                 const holderEfficiency = rotorHolder.getTotalEfficiency() / 100.0;
                 const boostRate = rotorHolder.getRotorSpeed() < rotorHolder.getMaxRotorHolderSpeed() ? rotorHolder.getRotorSpeed() / rotorHolder.getMaxRotorHolderSpeed() : 1.0;
-                const lossrate = Math.max(0.5,1-(Math.max(machine.definition.tier,rotorHolder.self().definition.tier)-GTValues.HV)*0.1)
+                tier = Math.max(tier,rotorHolder.self().definition.tier)
+                let lossrate = 1
+                if(tier > GTValues.HV){
+                    lossrate = Math.max(0.5,1-(tier-GTValues.HV)*0.1)
+                }
                 machine.getHolder().self().persistentData.putFloat('lossrate',lossrate)
                 const contentModifier = ContentModifier.of(holderEfficiency * boostRate * boostRate*lossrate, 0);
                 const copyRecipe = recipe.copy();

@@ -74,3 +74,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
         })
         .workableCasingRenderer('kubejs:block/manasteel_casing',  'gtceu:block/multiblock/generator/large_steam_turbine', false)
 })
+
+//本多方块的创意来源于GTQT整合包，对其中的部分内容做了修改

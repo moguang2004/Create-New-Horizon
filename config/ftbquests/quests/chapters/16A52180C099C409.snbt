@@ -258,12 +258,26 @@
 		}
 		{
 			dependencies: ["7959820843845731"]
+			description: [
+				"机械涡轮的基础应力输出量为&a8192su&r（ULV），应力输出仓每提升一级，最大并行数x4。"
+				"应力输出还与转子和转子支架有关，转子支架每升一级，支架效率提升10%（ULV为100%），转子的效率取决于转子的材料。"
+				"最终涡轮的总效率为 &a支架效率x转子的涡轮效率x（1 - 电压高于HV后损失的百分比）&r"
+			]
+			icon: "gtceu:kinetic_steam_turbine"
 			id: "1B142F4B0CF620D3"
-			tasks: [{
-				id: "0BDD4BDDD250542B"
-				item: "gtceu:kinetic_steam_turbine"
-				type: "item"
-			}]
+			subtitle: "一个好的涡轮转子，能够让你的涡轮发挥出最好的效果"
+			tasks: [
+				{
+					id: "0BDD4BDDD250542B"
+					item: "gtceu:kinetic_steam_turbine"
+					type: "item"
+				}
+				{
+					id: "0924C50639BD390A"
+					item: "gtceu:ulv_rotor_holder0"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -5.0d
 		}

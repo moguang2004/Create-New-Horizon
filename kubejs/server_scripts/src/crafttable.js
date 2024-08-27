@@ -632,7 +632,91 @@ ServerEvents.recipes(event =>{
           C: 'kubejs:reflect_light_casing',
           D: 'enderio:octadic_capacitor',
           E: '#gtceu:circuits/hv'
+        })
+    event.shaped(
+      Item.of('gtceu:turbine_rotor',1, '{GT.PartStats:{Material:"gtceu:steel"}}'),[
+          "AAA",
+          "ABA",
+          "AAA"
+        ],{
+          A: 'gtceu:steel_turbine_blade',
+          B: 'gtceu:long_steel_rod'
+        })
+    event.shaped(
+      Item.of('gtceu:turbine_rotor',1, '{GT.PartStats:{Material:"gtceu:wrought_iron"}}'),[
+          "AAA",
+          "ABA",
+          "AAA"
+        ],{
+          A: 'gtceu:wrought_iron_turbine_blade',
+          B: 'gtceu:long_wrought_iron_rod'
+        })
+    event.shaped(
+      Item.of('gtceu:turbine_rotor',1, '{GT.PartStats:{Material:"gtceu:iron"}}'),[
+          "AAA",
+          "ABA",
+          "AAA"
+        ],{
+          A: 'gtceu:iron_turbine_blade',
+          B: 'gtceu:long_iron_rod'
+        })
+    event.shaped(
+      Item.of('gtceu:turbine_rotor',1, '{GT.PartStats:{Material:"gtceu:brass"}}'),[
+          "AAA",
+          "ABA",
+          "AAA"
+        ],{
+          A: 'gtceu:brass_turbine_blade',
+          B: 'gtceu:long_brass_rod'
         })   
+    event.shaped(
+      Item.of('gtceu:turbine_rotor',1, '{GT.PartStats:{Material:"gtceu:bronze"}}'),[
+          "AAA",
+          "ABA",
+          "AAA"
+        ],{
+          A: 'gtceu:bronze_turbine_blade',
+          B: 'gtceu:long_bronze_rod'
+        })
+    event.shaped(
+      Item.of('gtceu:turbine_rotor',1, '{GT.PartStats:{Material:"gtceu:aluminium"}}'),[
+          "AAA",
+          "ABA",
+          "AAA"
+        ],{
+          A: 'gtceu:aluminium_turbine_blade',
+          B: 'gtceu:long_aluminium_rod'
+        })
+    event.shaped(
+      Item.of('gtceu:ulv_rotor_holder0',1),[
+        "ABA",
+        "BCB",
+        "ABA"
+      ],{
+          A: 'gtceu:small_brass_gear',
+          B: 'gtceu:bronze_gear',
+          C: 'gtceu:ulv_machine_hull'
+        })    
+    event.shaped(
+      Item.of('gtceu:lv_rotor_holder1',1),[
+        "ABA",
+        "BCB",
+        "ABA"
+      ],{
+          A: 'gtceu:small_steel_gear',
+          B: 'gtceu:wrought_iron_gear',
+          C: 'gtceu:lv_machine_hull'
+        })
+    event.shaped(
+      Item.of('gtceu:mv_rotor_holder2',1),[
+        "ABA",
+        "BCB",
+        "ABA"
+      ],{
+          A: 'gtceu:small_aluminium_gear',
+          B: 'gtceu:magnalium_gear',
+          C: 'gtceu:mv_machine_hull'
+        })
     event.forEachRecipe({type:'minecraft:shapeless',input:'#minecraft:logs',output:'#minecraft:planks'},recipe =>{
       let {originalRecipeIngredients,originalRecipeResult} = recipe
       event.custom({

@@ -6,6 +6,7 @@ GTCEuStartupEvents.registry('gtceu:element',event =>{
     event.create("taranium", 121, 140, -1, null, "Tn", false)
     event.create("infinity", 114514, 1919810, -1, null, "∞", false)
     event.create('helium_3',2,1,-1,null,"He-3",true)
+    event.create('super_mana',169,169,-1,null,"Ma",false)
 })
 GTCEuStartupEvents.registry('gtceu:material', event => {
     const $DustProperty = Java.loadClass("com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty")
@@ -15,6 +16,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         return new HazardProperty(HazardProperty.HazardTrigger.ANY,
             GTMedicalConditions.CARCINOGEN, multiplier, true)
     }
+    GTMaterials.Brass.addFlags(GTMaterialFlags.GENERATE_SMALL_GEAR,GTMaterialFlags.GENERATE_GEAR)
+    GTMaterials.Magnalium.addFlags(GTMaterialFlags.GENERATE_GEAR)
     GTMaterials.Silver.addFlags(GTMaterialFlags.GENERATE_FRAME)
     GTMaterials.StainlessSteel.addFlags(GTMaterialFlags.GENERATE_DENSE)
     GTMaterials.VanadiumSteel.addFlags(GTMaterialFlags.GENERATE_DENSE)
@@ -989,6 +992,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     .color(0x26a4e8)
     .components('1x fluorine')
     .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
+    event.create('super_mana')
+    .ingot()
+    .color(0x4ac6e6)
+    .cableProperties(GTValues.V[GTValues.IV],6,1,false)
+    .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD,GTMaterialFlags.GENERATE_GEAR,GTMaterialFlags.GENERATE_SMALL_GEAR,GTMaterialFlags.GENERATE_BOLT_SCREW,GTMaterialFlags.GENERATE_FOIL,GTMaterialFlags.GENERATE_FRAME,GTMaterialFlags.GENERATE_RING)
+    .element(GTElements.get('super_mana'))
 })
 StartupEvents.postInit(event =>{
     GTMaterials.get('cryolite').setFormula('Na3AlF6')

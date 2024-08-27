@@ -23,6 +23,8 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
     const rotorholdermachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.RotorHolderPartMachine')
     const machinerender = Java.loadClass('com.gregtechceu.gtceu.client.renderer.machine.RotorHolderMachineRenderer')
     const EnergyHatchPartMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.EnergyHatchPartMachine')
+    const KineticPartMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.KineticPartMachine')
+    const SplitShaftTieredHullMachineRenderer = Java.loadClass('com.gregtechceu.gtceu.client.renderer.machine.SplitShaftTieredHullMachineRenderer')
     event.create(
         "rotor_holder0",
         "custom",

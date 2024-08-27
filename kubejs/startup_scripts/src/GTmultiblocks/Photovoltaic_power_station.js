@@ -340,3 +340,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event =>{
         })
         .workableCasingRenderer('kubejs:block/reflect_light_casing',  'gtceu:block/multiblock/generator/large_steam_turbine', false)
 })
+
+//本多方块结构的外型来源于GTQT整合包
