@@ -4,12 +4,12 @@ const { $MultiblockControllerMachine } = require("packages/com/gregtechceu/gtceu
 const { $IRecipeHandlerTrait } = require("packages/com/gregtechceu/gtceu/api/machine/trait/$IRecipeHandlerTrait")
 const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe")
 
-GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
+GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     const FormattingUtil = Java.loadClass('com.gregtechceu.gtceu.utils.FormattingUtil')
     const $ICoilType = Java.loadClass("com.gregtechceu.gtceu.api.block.ICoilType")
     const $I18n = LDLib.isClient() ? Java.loadClass("net.minecraft.client.resources.language.I18n") : null
-    GTRecipeTypes.register('fermenting','multiblock')
+    GTRecipeTypes.register('fermenting', 'multiblock')
         //.category('ctnh')
         .setEUIO('in')
         .setMaxIOSize(4, 4, 1, 1)
@@ -17,7 +17,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.CHEMICAL)
         .addDataInfo(data => {
-            return LocalizationUtils.format("gtceu.recipe.temperature",FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
+            return LocalizationUtils.format("gtceu.recipe.temperature", FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
         })
         .addDataInfo(data => {
             let requiredCoil = $ICoilType.getMinRequiredType(data.getInt("ebf_temp"))
@@ -29,76 +29,76 @@ GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
         .setUiBuilder((recipe, widgetGroup) => {
             /**@param {$List_} items*/
             let temp = recipe.data.getInt("ebf_temp");
-            let items = new $ArrayList() 
+            let items = new $ArrayList()
             items.add(GTCEuAPI.HEATING_COILS.entrySet().stream().filter(coil => coil.getKey().getCoilTemperature() >= temp).map(coil => new $ItemStack(coil.getValue().get())).toList());
             widgetGroup.addWidget(new SlotWidget(new CycleItemStackHandler(items), 0, widgetGroup.getSize().width - 25, widgetGroup.getSize().height - 32, false, false));
         })
 })
-GTCEuStartupEvents.registry('gtceu:machine',event =>{
+GTCEuStartupEvents.registry('gtceu:machine', event => {
     const FluidStack = Java.loadClass('com.lowdragmc.lowdraglib.side.fluid.FluidStack')
     const FluidHatchPart = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.FluidHatchPartMachine')
     const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
     const Temperature = Java.loadClass('com.momosoftworks.coldsweat.api.util.Temperature')
-    event.create('fermenting_tank','multiblock',(holder) => new $CoilWorkableElectricMultiblockMachine(holder))
+    event.create('fermenting_tank', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fermenting')
-        .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe) =>{
+        .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe) => {
             let efficiency = 1
-            machine.getParts().forEach((/** @type {$IMultiPart} */part) =>{
-                    part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) =>{
-                        if(trait.getHandlerIO() == IO.IN){
-                            trait.getContents().forEach((contents )=>{
-                                if(contents instanceof FluidStack){
-                                    let current = contents.getAmount()
-                                    let total = part.getTankCapacity(part.INITIAL_TANK_CAPACITY_1X,part.self().definition.tier)
-                                    let density = current/total
-                                    let logistic = density - Math.pow(density,2)
-                                    efficiency *= logistic*8
-                                }
-                            })
-                        }
-                    })
+            machine.getParts().forEach((/** @type {$IMultiPart} */part) => {
+                part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) => {
+                    if (trait.getHandlerIO() == IO.IN) {
+                        trait.getContents().forEach((contents) => {
+                            if (contents instanceof FluidStack) {
+                                let current = contents.getAmount()
+                                let total = part.getTankCapacity(part.INITIAL_TANK_CAPACITY_1X, part.self().definition.tier)
+                                let density = current / total
+                                let logistic = density - Math.pow(density, 2)
+                                efficiency *= logistic * 8
+                            }
+                        })
+                    }
+                })
             })
-            let temperature = Temperature.getTemperatureAt(machine.pos,machine.getLevel())*25
+            let temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
             let newrecipe = recipe.copy()
-            if(temperature >= 36 && temperature <= 38){
+            if (temperature >= 36 && temperature <= 38) {
                 efficiency *= 1.2
             }
-            else{
-                efficiency /= Math.min(3,Math.pow(Math.max(36-temperature,temperature - 38),2)/10 + 1)
+            else {
+                efficiency /= Math.min(3, Math.pow(Math.max(36 - temperature, temperature - 38), 2) / 10 + 1)
             }
             newrecipe.duration /= efficiency
-            machine.getHolder().self().persistentData.putFloat('growth_efficiency',efficiency)
-            return GTRecipeModifiers.ebfOverclock(machine,newrecipe)
+            machine.getHolder().self().persistentData.putFloat('growth_efficiency', efficiency)
+            return GTRecipeModifiers.ebfOverclock(machine, newrecipe)
         })
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
-            .aisle('C   C', 'C   C','CCCCC', 'H   H', 'H   H','H   H','DAAAD')
-            .aisle('     ', ' GGG ','CGGGC', ' MMM ', ' GGG ',' GGG ','AAAAA')
-            .aisle('     ', ' GGG ','CG GC', ' M M ', ' G G ',' G G ','AABAA')
-            .aisle('     ', ' GGG ','CGGGC', ' MMM ', ' GGG ',' GGG ','AAAAA')
-            .aisle('C   C', 'CAKAC','CAAAC', 'H   H', 'H   H','H   H','DAAAD')
-            .where('C',Predicates.blocks('gtceu:steel_frame'))
-            .where('H',Predicates.blocks('create:metal_girder'))
-            .where('K',Predicates.controller(Predicates.blocks(definition.get())))
-            .where('M',Predicates.heatingCoils())
-            .where('D',Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get()))
-            .where('B',Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
-            .where('A',Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get()).setMinGlobalLimited(15)
+            .aisle('C   C', 'C   C', 'CCCCC', 'H   H', 'H   H', 'H   H', 'DAAAD')
+            .aisle('     ', ' GGG ', 'CGGGC', ' MMM ', ' GGG ', ' GGG ', 'AAAAA')
+            .aisle('     ', ' GGG ', 'CG GC', ' M M ', ' G G ', ' G G ', 'AABAA')
+            .aisle('     ', ' GGG ', 'CGGGC', ' MMM ', ' GGG ', ' GGG ', 'AAAAA')
+            .aisle('C   C', 'CAKAC', 'CAAAC', 'H   H', 'H   H', 'H   H', 'DAAAD')
+            .where('C', Predicates.blocks('gtceu:steel_frame'))
+            .where('H', Predicates.blocks('create:metal_girder'))
+            .where('K', Predicates.controller(Predicates.blocks(definition.get())))
+            .where('M', Predicates.heatingCoils())
+            .where('D', Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get()))
+            .where('B', Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
+            .where('A', Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get()).setMinGlobalLimited(15)
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE)).setMinGlobalLimited(1)
-                )
-            .where('G',Predicates.blocks(GTBlocks.CASING_TEMPERED_GLASS.get()))
-            .where(' ',Predicates.air())
+            )
+            .where('G', Predicates.blocks(GTBlocks.CASING_TEMPERED_GLASS.get()))
+            .where(' ', Predicates.air())
             .build()
         )
-        .additionalDisplay((/** @type {$MetaMachine}*/machine,l) => {
+        .additionalDisplay((/** @type {$MetaMachine}*/machine, l) => {
             if (machine.isFormed()) {
-                let temperature = Temperature.getTemperatureAt(machine.pos,machine.getLevel())*25
+                let temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
                 let efficiency = machine.getHolder().self().persistentData.getFloat('growth_efficiency')
                 l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(machine.getCoilType().getCoilTemperature() + "K").red()))
-                l.add(l.size(),Text.translate('ctnh.fermenting_tank.growing_temperature',temperature.toFixed(1)).green())
-                l.add(l.size(),Text.translate('ctnh.fermenting_tank.growth_efficiency',(efficiency*100).toFixed(1)))
+                l.add(l.size(), Text.translate('ctnh.fermenting_tank.growing_temperature', temperature.toFixed(1)).green())
+                l.add(l.size(), Text.translate('ctnh.fermenting_tank.growth_efficiency', (efficiency * 100).toFixed(1)))
             }
         })
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_solid_steel', 'gtceu:block/multiblock/implosion_compressor', false)

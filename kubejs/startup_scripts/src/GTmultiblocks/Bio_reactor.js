@@ -1,7 +1,7 @@
 const { $RegistrateEntityLootTables } = require("packages/com/tterrag/registrate/providers/loot/$RegistrateEntityLootTables")
 const { $EntityLootEventJS } = require("packages/dev/latvian/mods/kubejs/loot/$EntityLootEventJS")
 
-GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
+GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('bio_reactor')
         .setEUIO('in')
         .setMaxIOSize(4, 4, 2, 2)
@@ -10,18 +10,18 @@ GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
         .setSound(GTSoundEntries.CHEMICAL)
 })
 
-GTCEuStartupEvents.registry('gtceu:machine',event =>{
-    event.create('bio_reactor','multiblock')
+GTCEuStartupEvents.registry('gtceu:machine', event => {
+    event.create('bio_reactor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('bio_reactor')
         //.recipeModifier()
         //.appearanceBlock('kubejs:blaze_blast_frunace_casing')
         .pattern(definition => FactoryBlockPattern.start()
-            .aisle("AAAAA", "ABBBA", "ABBBA", "ABBBA", "AAAAA") 
-            .aisle("AAAAA", "B###B", "B###B", "B###B", "AAAAA") 
-            .aisle("AAAAA", "B###B", "B###B", "B###B", "AAAAA") 
-            .aisle("AAAAA", "B###B", "B###B", "B###B", "AAAAA") 
-            .aisle("AA@AA", "ABBBA", "ABBBA", "ABBBA", "AAAAA") 
+            .aisle("AAAAA", "ABBBA", "ABBBA", "ABBBA", "AAAAA")
+            .aisle("AAAAA", "B###B", "B###B", "B###B", "AAAAA")
+            .aisle("AAAAA", "B###B", "B###B", "B###B", "AAAAA")
+            .aisle("AAAAA", "B###B", "B###B", "B###B", "AAAAA")
+            .aisle("AA@AA", "ABBBA", "ABBBA", "ABBBA", "AAAAA")
             .where("A", Predicates.blocks("kubejs:bio_reactor_casing").setMinGlobalLimited(35)
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE)).setMinGlobalLimited(1))

@@ -6,12 +6,12 @@ const { $ICoilType } = require("packages/com/gregtechceu/gtceu/api/block/$ICoilT
 const { $CoilBlock } = require("packages/com/gregtechceu/gtceu/common/block/$CoilBlock")
 const { $ArrayList } = require("packages/java/util/$ArrayList")
 const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
-GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
+GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     const FormattingUtil = Java.loadClass('com.gregtechceu.gtceu.utils.FormattingUtil')
     const $ICoilType = Java.loadClass("com.gregtechceu.gtceu.api.block.ICoilType")
     const $I18n = LDLib.isClient() ? Java.loadClass("net.minecraft.client.resources.language.I18n") : null
-    GTRecipeTypes.register('desalting','multiblock')
+    GTRecipeTypes.register('desalting', 'multiblock')
         //.category('ctnh')
         .setEUIO('in')
         .setMaxIOSize(1, 4, 1, 1)
@@ -19,7 +19,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ELECTROLYZER)
         .addDataInfo(data => {
-            return LocalizationUtils.format("gtceu.recipe.temperature",FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
+            return LocalizationUtils.format("gtceu.recipe.temperature", FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
         })
         .addDataInfo(data => {
             let requiredCoil = $ICoilType.getMinRequiredType(data.getInt("ebf_temp"))
@@ -31,22 +31,22 @@ GTCEuStartupEvents.registry('gtceu:recipe_type',event =>{
         .setUiBuilder((recipe, widgetGroup) => {
             /**@param {$List_} items*/
             let temp = recipe.data.getInt("ebf_temp");
-            let items = new $ArrayList() 
+            let items = new $ArrayList()
             items.add(GTCEuAPI.HEATING_COILS.entrySet().stream().filter(coil => coil.getKey().getCoilTemperature() >= temp).map(coil => new $ItemStack(coil.getValue().get())).toList());
             widgetGroup.addWidget(new SlotWidget(new CycleItemStackHandler(items), 0, widgetGroup.getSize().width - 25, widgetGroup.getSize().height - 32, false, false));
         })
 })
-GTCEuStartupEvents.registry('gtceu:machine',event =>{
-    event.create('seawater_desalting_factory','multiblock',(holder) => new $CoilWorkableElectricMultiblockMachine(holder))
+GTCEuStartupEvents.registry('gtceu:machine', event => {
+    event.create('seawater_desalting_factory', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('desalting')
-        .recipeModifier((machine,recipe) =>{
-            let newrecipe = GTRecipeModifiers.ebfOverclock(machine,recipe)
+        .recipeModifier((machine, recipe) => {
+            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe)
             let parallel = 1
-            if(newrecipe.duration < 1){
-                parallel = 1/newrecipe.duration
+            if (newrecipe.duration < 1) {
+                parallel = 1 / newrecipe.duration
             }
-            return GTRecipeModifiers.accurateParallel(machine,newrecipe,parallel,false).getFirst()
+            return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
         })
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
@@ -55,19 +55,19 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
             .aisle('     ', '     ', 'GMBMG', 'G###G')
             .aisle('     ', '     ', 'GMMMG', 'G###G')
             .aisle('C   C', 'C   C', 'CGKGC', ' GGG ')
-            .where('C',Predicates.blocks('gtceu:steel_frame'))
-            .where('K',Predicates.controller(Predicates.blocks(definition.get())))
-            .where('M',Predicates.heatingCoils())
-            .where('B',Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
-            .where('G',Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get()).setMinGlobalLimited(15)
+            .where('C', Predicates.blocks('gtceu:steel_frame'))
+            .where('K', Predicates.controller(Predicates.blocks(definition.get())))
+            .where('M', Predicates.heatingCoils())
+            .where('B', Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
+            .where('G', Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get()).setMinGlobalLimited(15)
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE)).setMinGlobalLimited(1)
-                )
-            .where('#',Predicates.blocks('minecraft:water'))
-            .where(' ',Predicates.any())
+            )
+            .where('#', Predicates.blocks('minecraft:water'))
+            .where(' ', Predicates.any())
             .build()
         )
-        .additionalDisplay((machine,l) => {
+        .additionalDisplay((machine, l) => {
             /*const coilmachine = machine.getParts().find(part => part instanceof $CoilWorkableElectricMultiblockMachine)
             let temperature = coilmachine.getCoilType().getCoilTemperature() + 100 * Math.max(0, coilmachine.getTier() - GTValues.MV)
             console.info(temperature)

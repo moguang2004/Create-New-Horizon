@@ -58,7 +58,7 @@ function unitChanger(number) {
             break
         }
     }
-    return { newNumber: newNumber*1000, unitName: unit }
+    return { newNumber: newNumber * 1000, unitName: unit }
 }
 
 //以下为物品注册

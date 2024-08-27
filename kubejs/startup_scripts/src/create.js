@@ -3,7 +3,7 @@ CapabilityEvents.blockEntity(event => {
 		BotaniaCapabilityBuilder.MANA.blockEntity()
 			.receiveMana((be, amount) => {
 				let fluid = be.getCapability(ForgeCapabilities.FLUID_HANDLER).orElse(null)
-				fluid.fill(Fluid.of('gtceu:mana',0.02*amount),'execute')
+				fluid.fill(Fluid.of('gtceu:mana', 0.02 * amount), 'execute')
 			})
 			.getCurrentMana(be => {
 				let fluid = be.getCapability(ForgeCapabilities.FLUID_HANDLER).orElse(null)
