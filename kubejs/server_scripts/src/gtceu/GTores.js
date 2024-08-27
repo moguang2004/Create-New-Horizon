@@ -10,7 +10,7 @@ GTCEuServerEvents.oreVeins(event => {
         )*/
         vein.veinedVeinGenerator(generator => generator
             .oreBlock(GTMaterials.Magnetite, 3) // 
-            .rareBlock(GTMaterials.VanadiumMagnetite,2)
+            .rareBlock(GTMaterials.VanadiumMagnetite, 2)
             .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
             .rareBlockChance(0.25)
             .veininessThreshold(0.1)
@@ -21,10 +21,10 @@ GTCEuServerEvents.oreVeins(event => {
             .maxEdgeRoundoff(0.2) // 
         )
     })
-    event.modify("gtceu:magnetite_vein_end",vein =>{
+    event.modify("gtceu:magnetite_vein_end", vein => {
         vein.veinedVeinGenerator(generator => generator
             .oreBlock(GTMaterials.Magnetite, 3) // 
-            .rareBlock(GTMaterials.VanadiumMagnetite,2)
+            .rareBlock(GTMaterials.VanadiumMagnetite, 2)
             .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
             .rareBlockChance(0.25)
             .veininessThreshold(0.1)
@@ -35,11 +35,11 @@ GTCEuServerEvents.oreVeins(event => {
             .maxEdgeRoundoff(0.2) // 
         )
     })
-    event.modify("gtceu:banded_iron_vein",vein =>{
+    event.modify("gtceu:banded_iron_vein", vein => {
         vein.veinedVeinGenerator(generator => generator
             .oreBlock(GTMaterials.Goethite, 3) // 
-            .rareBlock(GTMaterials.YellowLimonite,2)
-            .rareBlock(GTMaterials.Hematite,2)
+            .rareBlock(GTMaterials.YellowLimonite, 2)
+            .rareBlock(GTMaterials.Hematite, 2)
             .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
             .rareBlockChance(0.25)
             .veininessThreshold(0.1)
@@ -50,36 +50,36 @@ GTCEuServerEvents.oreVeins(event => {
             .maxEdgeRoundoff(0.2) // 
         )
     })
-    event.modify('gtnn:gold_vein_tf',vein =>{
+    event.modify('gtnn:gold_vein_tf', vein => {
         vein.veinedVeinGenerator(generator => generator
-        .oreBlock(GTMaterials.Magnetite, 3) // 
-        .rareBlock(GTMaterials.VanadiumMagnetite,2)
-        .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
-        .rareBlockChance(0.25)
-        .veininessThreshold(0.1)
-        .maxRichnessThreshold(0.3)
-        .minRichness(0.3)
-        .maxRichness(0.5)
-        .edgeRoundoffBegin(10) // 
-        .maxEdgeRoundoff(0.2)
+            .oreBlock(GTMaterials.Magnetite, 3) // 
+            .rareBlock(GTMaterials.VanadiumMagnetite, 2)
+            .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
+            .rareBlockChance(0.25)
+            .veininessThreshold(0.1)
+            .maxRichnessThreshold(0.3)
+            .minRichness(0.3)
+            .maxRichness(0.5)
+            .edgeRoundoffBegin(10) // 
+            .maxEdgeRoundoff(0.2)
         )
     })
-    event.modify('gtceu:nether_quartz_vein',vein =>{
+    event.modify('gtceu:nether_quartz_vein', vein => {
         vein.dimensions('minecraft:overworld')
     })
-    event.modify('gtceu:nickel_vein',vein =>{
+    event.modify('gtceu:nickel_vein', vein => {
         vein.dimensions('minecraft:the_nether')
     })
     event.remove('gtceu:manganese_vein_ow')
     /*event.modify('gtceu:manganese_vein',vein=>{
         vein.veinedVeinGenerator(generator => generator.rareBlock(GTMaterials.Spessartine,2))
     })*/
-    event.modify('gtceu:mica_vein',vein=>{
+    event.modify('gtceu:mica_vein', vein => {
         vein.dimensions('minecraft:the_nether')
-        vein.heightRangeUniform(0,25)
+        vein.heightRangeUniform(0, 25)
     })
     event.remove('gtceu:galena_vein')
-    event.add('ctnh:chromite_vein',vein =>{
+    event.add('ctnh:chromite_vein', vein => {
         vein.weight(100)
         vein.clusterSize(40)
         vein.density(0.25)
@@ -102,7 +102,7 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.add('ctnh:cryolite_vein',vein =>{
+    event.add('ctnh:cryolite_vein', vein => {
         vein.weight(120)
         vein.clusterSize(40)
         vein.density(0.25)
@@ -125,7 +125,7 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.add('ctnh:cryolite_vein_aether',vein =>{
+    event.add('ctnh:cryolite_vein_aether', vein => {
         vein.weight(100)
         vein.clusterSize(40)
         vein.density(0.45)
@@ -148,7 +148,7 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.add('ctnh:combustible_ice_vein_aether',vein =>{
+    event.add('ctnh:combustible_ice_vein_aether', vein => {
         vein.weight(120)
         vein.clusterSize(40)
         vein.density(0.3)
@@ -171,7 +171,7 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.add('ctnh:bauxite_vein_aether',vein =>{
+    event.add('ctnh:bauxite_vein_aether', vein => {
         vein.weight(120)
         vein.clusterSize(40)
         vein.density(0.3)
@@ -193,7 +193,7 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.add('ctnh:scheelite_vein_aether',vein =>{
+    event.add('ctnh:scheelite_vein_aether', vein => {
         vein.weight(80)
         vein.clusterSize(40)
         vein.density(0.25)
@@ -215,17 +215,17 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.modify('gtceu:sheldonite_vein',vein =>{
+    event.modify('gtceu:sheldonite_vein', vein => {
         vein.dimensions('ad_astra:moon')
         vein.weight(80)
     })
-    event.modify('gtceu:naquadah_vein',vein =>{
-        vein.dimensions(['ad_astra:mercury','ad_extendra:jupiter'])
+    event.modify('gtceu:naquadah_vein', vein => {
+        vein.dimensions(['ad_astra:mercury', 'ad_extendra:jupiter'])
     })
-    event.modify('gtceu:monazite_vein',vein =>{
+    event.modify('gtceu:monazite_vein', vein => {
         vein.dimensions('ad_extendra:jupiter')
     })
-    event.modify('gtceu:mica_vein',vein =>{
+    event.modify('gtceu:mica_vein', vein => {
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(3).mat(GTMaterials.Kyanite).size(2, 4))
@@ -235,7 +235,7 @@ GTCEuServerEvents.oreVeins(event => {
             )
         )
     })
-    event.add('ctnh:mana_fused_vein',vein =>{
+    event.add('ctnh:mana_fused_vein', vein => {
         vein.weight(80)
         vein.clusterSize(40)
         vein.density(0.25)
@@ -257,13 +257,13 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.add('ctnh:zircon_vein',vein =>{
+    event.add('ctnh:zircon_vein', vein => {
         vein.weight(120)
         vein.clusterSize(40)
         vein.density(0.35)
         vein.discardChanceOnAirExposure(0)
         vein.layer('all_layer')
-        vein.dimensions(['twilightforest:twilight_forest','aether:the_aether','minecraft:the_end'])
+        vein.dimensions(['twilightforest:twilight_forest', 'aether:the_aether', 'minecraft:the_end'])
         vein.heightRangeUniform(10, 40)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -280,13 +280,13 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.add('ctnh:zirkelite_vein',vein =>{
+    event.add('ctnh:zirkelite_vein', vein => {
         vein.weight(150)
         vein.clusterSize(40)
         vein.density(0.25)
         vein.discardChanceOnAirExposure(0)
         vein.layer('all_layer')
-        vein.dimensions(['ad_astra:mars','ad_astra:venus','ad_astra:mercury'])
+        vein.dimensions(['ad_astra:mars', 'ad_astra:venus', 'ad_astra:mercury'])
         vein.heightRangeUniform(10, 40)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -303,7 +303,7 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.add('ctnh:ancient_debris_vein',vein =>{
+    event.add('ctnh:ancient_debris_vein', vein => {
         vein.weight(40)
         vein.clusterSize(40)
         vein.density(0.45)

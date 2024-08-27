@@ -49,16 +49,16 @@
 ServerEvents.recipes(event =>{
   let transitional = 'tfmg:unfinished_turbine_engine'
   event.recipes.create.sequenced_assembly([
-		'tfmg:turbine_engine'
-	], 'tfmg:engine_base', [
-		event.recipes.createDeploying(transitional, [transitional, 'gtceu:steel_plate']),
-		event.recipes.createDeploying(transitional, [transitional, 'gtceu:steel_plate']),
+    'tfmg:turbine_engine'
+  ], 'tfmg:engine_base', [
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:steel_plate']),
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:steel_plate']),
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:steel_screw']),
     event.recipes.createDeploying(transitional, [transitional, 'tfmg:steel_mechanism']),
     event.recipes.createDeploying(transitional, [transitional, 'tfmg:turbine_blade']),
     event.recipes.createFilling(transitional,[transitional,Fluid.of('gtceu:lubricant',1000)])
-	]).transitionalItem(transitional)
-		.loops(1)
+  ]).transitionalItem(transitional)
+    .loops(1)
 })
 
 

@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({id:'create:pressing/iron_ingot'})
+    event.remove({ id: 'create:pressing/iron_ingot' })
     //event.remove({output:'create:iron_sheet'})
     event.remove({type:'twilightforest:uncrafting_table'})
     event.remove({id:'create:crafting/materials/andesite_alloy_from_zinc'})
@@ -94,15 +94,15 @@ ServerEvents.recipes(event => {
     event.remove({id:'enderio:wood_gear'})
     event.remove({id:'enderio:wood_gear_corner'})
 
-    event.remove({output:'#forge:chipped_gems',type:'minecraft:crafting_shapeless'})
-    event.remove({output:'#forge:flawed_gems',type:'minecraft:crafting_shapeless'})
-    event.remove({output:/gtceu:(.*)_gem/,type:'minecraft:crafting_shapeless',input:/gtceu:flawless_(.*)_gem/})
-    event.remove({output:'#forge:flawless_gems',type:'minecraft:crafting_shapeless'})
-    event.remove({output:'#forge:exquisite_gems',type:'minecraft:crafting_shapeless'})
-    
-    let removeoutput = ['create:cart_assembler','create:portable_storage_interface','create:rotation_speed_controller','create:belt_connector','angelblockrenewed:angel_block','create:goggles','tetranichematerials:lockwood_ingot']
-    for(let i of removeoutput){
-        event.remove({output: `${i}`})
+    event.remove({ output: '#forge:chipped_gems', type: 'minecraft:crafting_shapeless' })
+    event.remove({ output: '#forge:flawed_gems', type: 'minecraft:crafting_shapeless' })
+    event.remove({ output: /gtceu:(.*)_gem/, type: 'minecraft:crafting_shapeless', input: /gtceu:flawless_(.*)_gem/ })
+    event.remove({ output: '#forge:flawless_gems', type: 'minecraft:crafting_shapeless' })
+    event.remove({ output: '#forge:exquisite_gems', type: 'minecraft:crafting_shapeless' })
+
+    let removeoutput = ['create:cart_assembler', 'create:portable_storage_interface', 'create:rotation_speed_controller', 'create:belt_connector', 'angelblockrenewed:angel_block', 'create:goggles', 'tetranichematerials:lockwood_ingot']
+    for (let i of removeoutput) {
+        event.remove({ output: `${i}` })
     }
 })
 

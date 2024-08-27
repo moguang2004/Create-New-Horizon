@@ -15,13 +15,13 @@ const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
         entity.hurtArmor(source,damage1)
     }
 })*/
-EntityEvents.hurt(event =>{
-    if(event.entity.isPlayer()){
+EntityEvents.hurt(event => {
+    if (event.entity.isPlayer()) {
         //console.info(event.source.getType())
-        if(event.source.getType() == 'drown' || event.source.getType() == 'oxygen' || event.source.getType() == 'freeze'){
-            event.entity.armorSlots.forEach((/**@type {$ItemStack}*/armor) =>{
-                if(armor.getEnchantments().get('vaccum_seal') == null){
-                    return 
+        if (event.source.getType() == 'drown' || event.source.getType() == 'oxygen' || event.source.getType() == 'freeze') {
+            event.entity.armorSlots.forEach((/**@type {$ItemStack}*/armor) => {
+                if (armor.getEnchantments().get('vaccum_seal') == null) {
+                    return
                 }
             })
             event.cancel()
