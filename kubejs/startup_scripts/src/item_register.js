@@ -1,3 +1,5 @@
+const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
+
 //priority 10
 Platform.getInfo('kubejs').name = 'Create: New Horizon'
 
@@ -19,37 +21,46 @@ StartupEvents.registry("item", event => {
             .getMaxEnergyStored(i => MAX_ENERGY)
             .receiveEnergy((/**@type {Internal.ItemStack}*/ item, i, receive) => {
                     /** @type {Internal.IEnergyStorage} */ let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-                let received = Math.min(energy.maxEnergyStored - energy.energyStored, i)
-                if (!receive && energy.energyStored <= energy.maxEnergyStored) {
-                    item.nbt.putInt('energyStored', energy.energyStored + received)
-                }
-                return received
-            })
-        )
-        //.tooltip('showenergy')
-        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
-            .curioTick((/**@type {Internal.ItemStack}*/ itemstack, slotcontext) => {
-                let energy = itemstack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-                let { energyStored, maxEnergyStored } = energy
-                if (energyStored > 0) {
-                    let energyConsumed = Math.min(energyStored, 600)
-                    itemstack.nbt.putInt('energyStored', energyStored - energyConsumed)
+                    let received = Math.min(energy.maxEnergyStored-energy.energyStored, i)
+                    if(!receive && energy.energyStored <= energy.maxEnergyStored){
+                        item.nbt.putInt('energyStored',energy.energyStored + received)
+                    }
+                    return received
+                })
+    )
+    //.tooltip('showenergy')
+    .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+                .curioTick((/**@type {Internal.ItemStack}*/ itemstack,slotcontext)=>{
+                    let energy = itemstack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
+                    let {energyStored , maxEnergyStored} = energy
+                    if(energyStored > 0){
+                        let energyConsumed = Math.min(energyStored , 600)
+                        itemstack.nbt.putInt('energyStored',energyStored - energyConsumed)
+                        return true
+                    }
+                })
+                .dynamicAttribute(attribute =>{
+                    let energy = attribute.stack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
+                    let {energyStored, maxEnergyStored} = energy
+                    if(energyStored > 0){
+                        attribute.modify('cold_sweat:cold_dampening','kubejscolddampening',1,'addition')
+                        attribute.modify('cold_sweat:heat_dampening','kubejsheatdampening',1,'addition')
+                    }
+                })
+            )
+    .barWidth(/**@type {Internal.ItemStack}*/item =>{
+        let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
+        return Math.floor(energy.energyStored / energy.maxEnergyStored * 13)
+    })
+    event.create('broken_temperature_keeping_device').maxDamage(12000).tag('curios:body')
+    .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+                .curioTick((/**@type {$ItemStack}*/ itemstack,slotcontext)=>{
+                    itemstack.damageValue -= 1
                     return true
-                }
-            })
-            .dynamicAttribute(attribute => {
-                let energy = attribute.stack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-                let { energyStored, maxEnergyStored } = energy
-                if (energyStored > 0) {
-                    attribute.modify('cold_sweat:cold_dampening', 'kubejscolddampening', 1, 'addition')
-                    attribute.modify('cold_sweat:heat_dampening', 'kubejsheatdampening', 1, 'addition')
-                }
-            })
-        )
-        .barWidth(/**@type {Internal.ItemStack}*/item => {
-            let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-            return Math.floor(energy.energyStored / energy.maxEnergyStored * 13)
-        })
+                })
+                .modifyAttribute('cold_sweat:cold_dampening','kubejscolddampening',1,'addition')
+                .modifyAttribute('cold_sweat:heat_dampening','kubejsheatdampening',1,'addition')
+            )
     event.create('deep_diver_gear').tag('curios:belt')
     event.create('thermometer_case')
     event.create('high_quality_solid_fuel').burnTime(4800)//.burntime(16000)
