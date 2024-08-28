@@ -1,5 +1,19 @@
 ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
+//催化剂配方
+    ctnh.centrifuge('catalyst')
+    .itemInputs('60x gtceu:stone_dust')
+    .notConsumable('kubejs:stone_process_catalyst')
+    .itemOutputs('gtceu:tiny_inert_residues_dust')
+    .itemOutputs('2x gtceu:small_oxidized_residues_dust')
+    .itemOutputs('2x gtceu:small_heavy_oxidized_residues_dust')
+    .itemOutputs('gtceu:small_magnetite_dust')
+    .inputFluids(Fluid.of('gtceu:hydrofluoric_acid',12000))
+    .outputFluids(Fluid.of('gtceu:red_mud',75))
+    .outputFluids(Fluid.of('gtceu:fluorosilicic_acid',2000))
+    .EUt(480)
+    .duration(200)
+//产线配方   
     ctnh.mixer('dirty_hexafluorosilicic_acid')
         .itemInputs('24x gtceu:stone_dust')
         .inputFluids(Fluid.of('gtceu:hydrofluoric_acid', 6000))

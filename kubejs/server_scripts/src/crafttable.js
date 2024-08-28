@@ -720,6 +720,7 @@ ServerEvents.recipes(event => {
     B: 'gtceu:magnalium_gear',
     C: 'gtceu:mv_machine_hull'
   })
+  event.shapeless('kubejs:platinum_metal_catalyst',['kubejs:platinum_metal_catalyst_shard1','kubejs:platinum_metal_catalyst_shard2'])
   event.forEachRecipe({ type: 'minecraft:shapeless', input: '#minecraft:logs', output: '#minecraft:planks' }, recipe => {
     let { originalRecipeIngredients, originalRecipeResult } = recipe
     event.custom({

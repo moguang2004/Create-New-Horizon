@@ -856,6 +856,53 @@
 			x: -6.5d
 			y: 4.0d
 		}
+		{
+			dependencies: [
+				"6F12F4AE6F3F9007"
+				"35205D5CBE5A1498"
+			]
+			id: "3A77F81F2F6E792A"
+			subtitle: "神！"
+			tasks: [{
+				id: "3E805DF6AD913252"
+				item: "kubejs:platinum_metal_catalyst"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			id: "35205D5CBE5A1498"
+			tasks: [{
+				id: "52D95AAD5D2A429D"
+				item: "kubejs:platinum_metal_catalyst_shard1"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			id: "6F12F4AE6F3F9007"
+			tasks: [{
+				id: "4E5D92FC91DF2EF4"
+				item: "kubejs:platinum_metal_catalyst_shard2"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["773CB6E376B56EA4"]
+			hide_dependency_lines: true
+			id: "2693AB1D8C40E181"
+			tasks: [{
+				id: "1CAD59C11FB75991"
+				item: "gtceu:mana_seperator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
 	]
 	title: "&6HV&r时期"
 }

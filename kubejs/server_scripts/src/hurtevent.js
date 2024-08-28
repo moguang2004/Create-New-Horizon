@@ -22,12 +22,15 @@ EntityEvents.hurt(event => {
     if (event.entity.isPlayer()) {
         //console.info(event.source.getType())
         if (event.source.getType() == 'drown' || event.source.getType() == 'oxygen' || event.source.getType() == 'freeze') {
+            let enchant = true
             event.entity.armorSlots.forEach((/**@type {$ItemStack}*/armor) => {
                 if (armor.getEnchantments().get('vaccum_seal') == null) {
-                    return
+                    enchant = false
                 }
             })
-            event.cancel()
+            if(enchant == true){
+                event.cancel()
+            }
         }
     }
 })

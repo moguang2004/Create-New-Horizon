@@ -46,5 +46,10 @@
     "block.kubejs.infinity_coil_block": "无尽线圈",
     "ctnh.blood_magic_gregtech_hv": "在坠星位标仪式中使用此物品作为祭品可以召唤陨石",
     "ctnh.mana_generation": "利用魔力发射器朝向机械动力流体储罐发射魔力以转化液态魔力，每100魔力转化为2mB液态魔力",
-    "ctnh.broken_temperature_keeping_device": "只能使用十分钟，尽快去找到一个适宜的环境吧！"
+    "ctnh.broken_temperature_keeping_device": "只能使用十分钟，尽快去找到一个适宜的环境吧！",
+    "ctnh.stone_process_catalyst": "村庄里的石匠掌握这个技术，成为村庄英雄后他就会给你",
+    "ctnh.metallurgical_catalyst": "地狱的猪灵掌握这个技术，尝试与他们交易吧",
+    "ctnh.bauxite_process_catalyst": "村庄里的图书管理员掌握这个技术，成为村庄英雄后他就会给你",
+    "ctnh.platinum_metal_catalyst_shard1": "久远的时间使他们变成了水里的宝藏，通过钓鱼获得",
+    "ctnh.platinum_metal_catalyst_shard2": "深渊里的深潜一组掌握这个技术，尝试与他们交易吧"
 }

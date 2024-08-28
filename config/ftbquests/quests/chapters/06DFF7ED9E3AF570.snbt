@@ -144,7 +144,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0097B3514E01B21E"]
+			dependencies: [
+				"0097B3514E01B21E"
+				"1D588967555748D9"
+			]
 			id: "635C5F66D6D30D17"
 			subtitle: "需要装配线制作的精密部件"
 			tasks: [{
@@ -153,6 +156,18 @@
 				type: "item"
 			}]
 			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11EDB5B9EB1B6554"]
+			id: "1D588967555748D9"
+			subtitle: "看似是废液，也许比你想象中更有用......"
+			tasks: [{
+				id: "52279AF0FEE1041B"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			x: -0.5d
 			y: 1.5d
 		}
 	]
