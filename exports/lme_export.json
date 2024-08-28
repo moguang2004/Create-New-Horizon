@@ -230,6 +230,11 @@
     "version": "1.0.3"
   },
   {
+    "modid": "gamephase",
+    "name": "Game Phase",
+    "version": "1.0.2"
+  },
+  {
     "modid": "yungsextras",
     "name": "YUNG\u0027s Extras",
     "version": "1.20-Forge-4.0.3"
@@ -382,7 +387,7 @@
   {
     "modid": "forge",
     "name": "Forge",
-    "version": "47.3.0"
+    "version": "47.3.7"
   },
   {
     "modid": "dsurround",
@@ -633,11 +638,6 @@
     "modid": "embeddiumplus",
     "name": "Embeddium++",
     "version": "1.2.13"
-  },
-  {
-    "modid": "restrictedportals",
-    "name": "Restricted Portals",
-    "version": "1.5.0"
   },
   {
     "modid": "geckolib",

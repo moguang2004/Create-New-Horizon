@@ -407,6 +407,12 @@
 				"22A82D3281551181"
 			]
 			id: "5A55D491F0E9F389"
+			rewards: [{
+				command: "/gamephase add @p end"
+				id: "1BF2998667643C68"
+				title: "前往末地"
+				type: "command"
+			}]
 			tasks: [{
 				id: "7BAD7E832FEF40F0"
 				item: "minecraft:ender_eye"
@@ -626,6 +632,12 @@
 		{
 			dependencies: ["35FC625257013116"]
 			id: "415AF3F977F4C3F9"
+			rewards: [{
+				command: "/gamephase add @p aether"
+				id: "77BF31525552C266"
+				title: "前往天境"
+				type: "command"
+			}]
 			tasks: [{
 				id: "0C901293ECFB769A"
 				item: {
