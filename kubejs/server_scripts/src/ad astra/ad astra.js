@@ -40,9 +40,6 @@ ServerEvents.recipes(event => {
         "ad_astra:fuel_refinery",
         "ad_astra:cryo_freezer",
     ])
-    remove_recipes_type(event, [
-        "ad_astra:alloying",
-    ])
 
     event.replaceInput({ id: "ad_astra:launch_pad" }, "gtceu:steel_rod", "gtceu:platinum_rod")
 })
