@@ -175,7 +175,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			id: "3095F206B9060B06"
@@ -214,7 +214,7 @@
 				item: "gtnn:iv_naquadah_reactor"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 8.0d
 			y: 5.5d
 		}
 		{
@@ -224,7 +224,7 @@
 				item: "gtnn:luv_naquadah_reactor"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 8.0d
 			y: 7.0d
 		}
 		{
@@ -234,7 +234,7 @@
 				item: "gtnn:zpm_naquadah_reactor"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 8.0d
 			y: 8.5d
 		}
 		{
@@ -244,7 +244,7 @@
 				item: "gtnn:uv_naquadah_reactor"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 8.0d
 			y: 10.0d
 		}
 		{
@@ -254,7 +254,7 @@
 				item: "gtnn:large_naquadah_reactor"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 8.0d
 			y: 11.5d
 		}
 		{
@@ -264,7 +264,7 @@
 				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 5.5d
 		}
 		{
@@ -354,7 +354,7 @@
 				item: "gtceu:photovoltaic_power_station_energetic"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -364,7 +364,7 @@
 				item: "gtceu:photovoltaic_power_station_pulsating"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 1.0d
 		}
 		{
@@ -374,7 +374,7 @@
 				item: "gtceu:photovoltaic_power_station_vibrant"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 2.5d
 		}
 		{
@@ -382,6 +382,16 @@
 			tasks: [{
 				id: "5952955F070A5F37"
 				item: "gtceu:hot_coolant_turbine"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			id: "676107235021E96F"
+			tasks: [{
+				id: "5285D731555F76E0"
+				item: "gtnn:ev_naquadah_reactor"
 				type: "item"
 			}]
 			x: 8.0d

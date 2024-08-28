@@ -174,6 +174,7 @@
 		}
 		{
 			dependencies: ["331BEA8AF29BEFC6"]
+			icon: "gtceu:phenolic_printed_circuit_board"
 			id: "0425D0789C2837CD"
 			tasks: [
 				{
@@ -456,8 +457,8 @@
 			dependencies: ["7AE674329D7E7944"]
 			id: "4759D176E05E3D8C"
 			tasks: [{
-				id: "07C8A228F2BEAE0F"
-				item: "gtceu:lv_laser_engraver"
+				id: "5EAEBD2DF3276922"
+				item: "gtceu:lv_sifter"
 				type: "item"
 			}]
 			x: 6.0d
@@ -466,6 +467,12 @@
 		{
 			dependencies: ["4759D176E05E3D8C"]
 			id: "2301C8A867356B99"
+			rewards: [{
+				command: "/gamephase add @p twilightforest"
+				id: "4F3B927EBC2B0E50"
+				title: "前往暮色森林"
+				type: "command"
+			}]
 			tasks: [{
 				id: "54DDAA9635F9C248"
 				item: "gtceu:exquisite_diamond_gem"
