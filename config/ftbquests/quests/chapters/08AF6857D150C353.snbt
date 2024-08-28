@@ -280,8 +280,8 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["2534B56E45BA42B0"]
-			hide_dependency_lines: true
+			dependencies: ["1E11A492F4576DBA"]
+			hide_dependency_lines: false
 			id: "470B9D39E23E01F2"
 			subtitle: "最好在冬天去"
 			tasks: [{
@@ -291,7 +291,30 @@
 				type: "dimension"
 			}]
 			x: 3.5d
-			y: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2534B56E45BA42B0"]
+			id: "1E11A492F4576DBA"
+			rewards: [{
+				command: "/gamephase add @p nether"
+				id: "73102DDDEA76B9E4"
+				title: "前往下界"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1BF05068C4319343"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
 		}
 	]
 	title: "钢铁时代"

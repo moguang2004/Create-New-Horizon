@@ -230,6 +230,11 @@
     "version": "1.0.3"
   },
   {
+    "modid": "gamephase",
+    "name": "Game Phase",
+    "version": "1.0.2"
+  },
+  {
     "modid": "yungsextras",
     "name": "YUNG\u0027s Extras",
     "version": "1.20-Forge-4.0.3"
@@ -315,11 +320,6 @@
     "version": "1.0.3+6274ab9d77"
   },
   {
-    "modid": "jei",
-    "name": "Just Enough Items",
-    "version": "15.12.3.54"
-  },
-  {
     "modid": "attributefix",
     "name": "AttributeFix",
     "version": "21.0.4"
@@ -387,7 +387,7 @@
   {
     "modid": "forge",
     "name": "Forge",
-    "version": "47.3.0"
+    "version": "47.3.7"
   },
   {
     "modid": "dsurround",
@@ -493,6 +493,16 @@
     "modid": "fabric_item_group_api_v1",
     "name": "Fabric Item Group API (v1)",
     "version": "4.0.12+c9161c2d77"
+  },
+  {
+    "modid": "almostunified",
+    "name": "AlmostUnified",
+    "version": "1.20.1-0.9.4"
+  },
+  {
+    "modid": "jei",
+    "name": "Just Enough Items",
+    "version": "15.12.3.54"
   },
   {
     "modid": "entityculling",
@@ -628,11 +638,6 @@
     "modid": "embeddiumplus",
     "name": "Embeddium++",
     "version": "1.2.13"
-  },
-  {
-    "modid": "restrictedportals",
-    "name": "Restricted Portals",
-    "version": "1.5.0"
   },
   {
     "modid": "geckolib",
