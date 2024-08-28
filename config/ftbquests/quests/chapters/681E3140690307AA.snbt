@@ -247,6 +247,19 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2
+					id: "3D2861D84C925025"
+					item: {
+						Count: 1
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:night_vision"
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "别随便下矿洞！"
 			tasks: [{

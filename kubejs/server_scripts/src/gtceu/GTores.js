@@ -1,68 +1,53 @@
 const WorldGenLayers = Java.loadClass('com.gregtechceu.gtceu.api.data.worldgen.WorldGenLayers')
 GTCEuServerEvents.oreVeins(event => {
     event.modify("gtceu:magnetite_vein_ow", vein => {
-        /*vein.layeredVeinGenerator(generator => generator
+        vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
-                .layer(l => l.weight(3).mat(GTMaterials.Silver).size(2, 4))
-                .layer(l => l.weight(2).mat(GTMaterials.Gold).size(1, 1))
-                .layer(l => l.weight(1).block(Block.getBlock('minecraft:oak_log')).size(1, 1))
-                .layer(l => l.weight(1).state(Block.getBlock('minecraft:oak_planks').defaultBlockState()).size(1, 1))
+                .layer(l => l.weight(3).mat(GTMaterials.Magnetite).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.VanadiumMagnetite).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.get('precious_alloy')).size(1, 1))
             )
-        )*/
-        vein.veinedVeinGenerator(generator => generator
-            .oreBlock(GTMaterials.Magnetite, 3) // 
-            .rareBlock(GTMaterials.VanadiumMagnetite, 2)
-            .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
-            .rareBlockChance(0.25)
-            .veininessThreshold(0.1)
-            .maxRichnessThreshold(0.3)
-            .minRichness(0.3)
-            .maxRichness(0.5)
-            .edgeRoundoffBegin(10) // 
-            .maxEdgeRoundoff(0.2) // 
         )
     })
     event.modify("gtceu:magnetite_vein_end", vein => {
-        vein.veinedVeinGenerator(generator => generator
-            .oreBlock(GTMaterials.Magnetite, 3) // 
-            .rareBlock(GTMaterials.VanadiumMagnetite, 2)
-            .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
-            .rareBlockChance(0.25)
-            .veininessThreshold(0.1)
-            .maxRichnessThreshold(0.3)
-            .minRichness(0.3)
-            .maxRichness(0.5)
-            .edgeRoundoffBegin(10) // 
-            .maxEdgeRoundoff(0.2) // 
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Magnetite).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.VanadiumMagnetite).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.get('precious_alloy')).size(1, 1))
+            )
         )
     })
     event.modify("gtceu:banded_iron_vein", vein => {
-        vein.veinedVeinGenerator(generator => generator
-            .oreBlock(GTMaterials.Goethite, 3) // 
-            .rareBlock(GTMaterials.YellowLimonite, 2)
-            .rareBlock(GTMaterials.Hematite, 2)
-            .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
-            .rareBlockChance(0.25)
-            .veininessThreshold(0.1)
-            .maxRichnessThreshold(0.3)
-            .minRichness(0.3)
-            .maxRichness(0.5)
-            .edgeRoundoffBegin(10) // 
-            .maxEdgeRoundoff(0.2) // 
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Goethite).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.YellowLimonite).size(2, 2))
+                .layer(l => l.weight(2).mat(GTMaterials.Hematite).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.get('precious_alloy')).size(1, 1))
+            )
         )
+        // vein.veinedVeinGenerator(generator => generator
+        //     .oreBlock(GTMaterials.Goethite, 3) // 
+        //     .rareBlock(GTMaterials.YellowLimonite, 2)
+        //     .rareBlock(GTMaterials.Hematite, 2)
+        //     .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
+        //     .rareBlockChance(0.075)
+        //     .veininessThreshold(0.01)
+        //     .maxRichnessThreshold(0.175)
+        //     .minRichness(0.7)
+        //     .maxRichness(1.0)
+        //     .edgeRoundoffBegin(3) // 
+        //     .maxEdgeRoundoff(0.1) // 
+        // )
     })
     event.modify('gtnn:gold_vein_tf', vein => {
-        vein.veinedVeinGenerator(generator => generator
-            .oreBlock(GTMaterials.Magnetite, 3) // 
-            .rareBlock(GTMaterials.VanadiumMagnetite, 2)
-            .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
-            .rareBlockChance(0.25)
-            .veininessThreshold(0.1)
-            .maxRichnessThreshold(0.3)
-            .minRichness(0.3)
-            .maxRichness(0.5)
-            .edgeRoundoffBegin(10) // 
-            .maxEdgeRoundoff(0.2)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Magnetite).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.VanadiumMagnetite).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.get('precious_alloy')).size(1, 1))
+            )
         )
     })
     event.modify('gtceu:nether_quartz_vein', vein => {
@@ -307,23 +292,31 @@ GTCEuServerEvents.oreVeins(event => {
     event.add('ctnh:ancient_debris_vein', vein => {
         vein.weight(5)
         vein.clusterSize(40)
-        vein.density(0.25)
+        vein.density(0.35)
         vein.discardChanceOnAirExposure(0)
         vein.layer(WorldGenLayers.NETHERRACK)
         vein.dimensions('minecraft:the_nether')
         vein.heightRangeUniform(0, 25)
-        vein.veinedVeinGenerator(generator => generator
-            .oreBlock(GTMaterials.get('precious_alloy'), 5) // 
-            .oreBlock(GTMaterials.Sulfur, 3)
-            ["rareBlock(net.minecraft.world.level.block.state.BlockState,int)"](Block.getBlock('minecraft:ancient_debris').getBlockStates().get(0), 2) 
-            .rareBlockChance(0.25)
-            .veininessThreshold(0.1)
-            .maxRichnessThreshold(0.3)
-            .minRichness(0.3)
-            .maxRichness(1.0)
-            .edgeRoundoffBegin(3) // 
-            .maxEdgeRoundoff(0.2)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('precious_alloy')).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Sulfur).size(2, 2))
+                .layer(l => l.weight(1).block(() => Block.getBlock('minecraft:ancient_debris')).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.NetherQuartz).size(1, 1))
+            )
         )
+        // vein.veinedVeinGenerator(generator => generator
+        //     .oreBlock(GTMaterials.get('precious_alloy'), 5) // 
+        //     .oreBlock(GTMaterials.Sulfur, 3)
+        //     ["rareBlock(net.minecraft.world.level.block.state.BlockState,int)"](Block.getBlock('minecraft:ancient_debris').getBlockStates().get(0), 2) 
+        //     .rareBlockChance(0.25)
+        //     .veininessThreshold(0.1)
+        //     .maxRichnessThreshold(0.3)
+        //     .minRichness(0.3)
+        //     .maxRichness(1.0)
+        //     .edgeRoundoffBegin(3) // 
+        //     .maxEdgeRoundoff(0.2)
+        // )
         vein.surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.get('precious_alloy'))
             .placement("above")
