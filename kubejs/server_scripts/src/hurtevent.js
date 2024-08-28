@@ -15,6 +15,9 @@ const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
         entity.hurtArmor(source,damage1)
     }
 })*/
+// PlayerEvents.loggedIn(event =>{
+//     event.server.runCommandSilent('reload')
+// })
 EntityEvents.hurt(event => {
     if (event.entity.isPlayer()) {
         //console.info(event.source.getType())

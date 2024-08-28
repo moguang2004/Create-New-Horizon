@@ -104,8 +104,8 @@ ServerEvents.recipes(event => {
   }
   event.recipes.create.compacting('gtceu:diamond_plate', '2x minecraft:diamond')
   event.recipes.create.compacting('gtceu:emerald_plate', '2x minecraft:emerald')
-  event.recipes.create.compacting('gtceu:nether_quartz_plate', '2x minecraft:nether_quartz')
-  event.recipes.create.compacting('gtceu:lapis_plate', '2x minecraft:lapis')
+  event.recipes.create.compacting('gtceu:nether_quartz_plate', '2x minecraft:quartz')
+  event.recipes.create.compacting('gtceu:lapis_plate', '2x minecraft:lapis_lazuli')
   event.recipes.create.compacting('minecraft:glass', '2x gtceu:glass_dust').heated()
   /*Ingredient.of("#forge:ingots").itemIds.forEach((id) =>{
     id
