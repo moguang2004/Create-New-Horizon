@@ -33,14 +33,122 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["63F5094821C731CA"]
 			id: "25D924B587ABCF41"
 			tasks: [{
 				id: "713E09D457F3D461"
 				item: "gtceu:large_assembler"
 				type: "item"
 			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0B92B29E066D2E88"]
+			id: "63F5094821C731CA"
+			tasks: [{
+				id: "268301BDF1F3BF0C"
+				item: "gtceu:iv_assembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63F5094821C731CA"]
+			id: "0BEC16413DB8A078"
+			tasks: [{
+				id: "2295B0FBC44A28AF"
+				item: "gtnn:t3_chip"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["63F5094821C731CA"]
+			id: "07968A97D7CE73D4"
+			tasks: [{
+				id: "3213CA97CED11B43"
+				item: "gtnn:heavy_ingot_t3"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"07968A97D7CE73D4"
+				"0BEC16413DB8A078"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "45FF43F43BAC87F0"
+			tasks: [
+				{
+					id: "1B487EB02C3B9D33"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_3_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "35FDF8451154B2C8"
+					item: "gtceu:dense_hydrazine_mixed_fuel_bucket"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["45FF43F43BAC87F0"]
+			id: "40AA9B96695831CF"
+			tasks: [
+				{
+					dimension: "ad_astra:venus"
+					icon: "ad_astra:venus_globe"
+					id: "15D87EEEA7218F96"
+					title: "访问金星"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:mercury"
+					icon: "ad_astra:mercury_globe"
+					id: "12B42FC3CB70FB75"
+					title: "访问水星"
+					type: "dimension"
+				}
+			]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B92B29E066D2E88"]
+			id: "5830A3F662F18CB5"
+			tasks: [{
+				id: "0476814271491E5A"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
 			x: -1.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["5830A3F662F18CB5"]
+			id: "028B2C12ED867AB0"
+			tasks: [{
+				id: "7CB7DF3BECC9F482"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
 		}
 	]
 	title: "&9IV&r时期"

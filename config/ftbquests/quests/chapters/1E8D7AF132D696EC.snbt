@@ -89,13 +89,14 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["4F06E8BCC90828AD"]
 			id: "436B0D26BF3A6575"
 			tasks: [{
 				id: "3D4316737F545A4D"
 				item: "gtceu:nand_chip"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: -4.5d
 		}
 		{
