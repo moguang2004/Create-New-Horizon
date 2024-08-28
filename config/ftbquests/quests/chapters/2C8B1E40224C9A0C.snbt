@@ -493,6 +493,18 @@
 			x: -14.0d
 			y: 4.5d
 		}
+		{
+			dependencies: ["7A1D738315BBD040"]
+			id: "3AB02AF64026B96B"
+			subtitle: "可以与深潜者交易，除此之外，所有的精致宝石均可以和他们交易"
+			tasks: [{
+				id: "703008396574629F"
+				item: "alexscaves:pearl"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
 	]
 	title: "大千世界"
 }

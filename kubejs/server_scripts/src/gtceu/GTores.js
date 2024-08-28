@@ -331,6 +331,29 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
+    event.add('ctnh:zinc_vein', vein => {
+        vein.weight(60)
+        vein.clusterSize(40)
+        vein.density(0.25)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer('all_layer')
+        vein.dimensions('minecraft:overworld')
+        vein.heightRangeUniform(20, 50)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Zinc).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Copper).size(1, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.YellowLimonite).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Hematite).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Zinc)
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
+    })
 })
 GTCEuServerEvents.fluidVeins(event => {
 

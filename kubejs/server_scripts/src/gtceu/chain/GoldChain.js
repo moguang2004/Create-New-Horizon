@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.smelting('minecraft:gold_nugget', 'gtceu:precious_alloy_ingot')
+    event.smelting('2x minecraft:gold_nugget', 'gtceu:precious_alloy_ingot')
     event.replaceOutput({ id: 'gtceu:centrifuge/centrifuge_magnetite_pure_dust_to_dust' }, 'gtceu:tiny_gold_dust', 'gtceu:tiny_precious_alloy_dust')
     event.replaceOutput({ id: 'gtceu:centrifuge/centrifuge_copper_pure_dust_to_dust' }, 'gtceu:tiny_gold_dust', 'gtceu:tiny_precious_alloy_dust')
     event.replaceOutput({ id: 'gtceu:centrifuge/netherrack_separation' }, 'gtceu:tiny_gold_dust', 'gtceu:tiny_precious_alloy_dust')
@@ -96,4 +96,7 @@ ServerEvents.recipes(event => {
         .itemInputs('2x gtceu:sulfur_dust')
         .inputFluids('gtceu:oxygen 5000')
         .itemOutputs('9x gtceu:potassium_metabi_sulfite_dust')
+
+    //gold catalyst
+    event.recipes.create.mixing(['minecraft:gold_ingot','kubejs:metallurgical_catalyst'],['gtceu:precious_alloy_ingot','kubejs:metallurgical_catalyst']).heated()
 })

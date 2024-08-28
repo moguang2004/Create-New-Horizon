@@ -1,3 +1,5 @@
+const { $OreProperty } = require("packages/com/gregtechceu/gtceu/api/data/chemical/material/properties/$OreProperty")
+
 const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty')
 const FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuilder')
 GTCEuStartupEvents.registry('gtceu:element', event => {
@@ -16,6 +18,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         return new HazardProperty(HazardProperty.HazardTrigger.ANY,
             GTMedicalConditions.CARCINOGEN, multiplier, true)
     }
+    GTMaterials.Zinc.setProperty(PropertyKey.ORE,new $OreProperty())
     GTMaterials.Brass.addFlags(GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_GEAR)
     GTMaterials.Magnalium.addFlags(GTMaterialFlags.GENERATE_GEAR)
     GTMaterials.Silver.addFlags(GTMaterialFlags.GENERATE_FRAME)

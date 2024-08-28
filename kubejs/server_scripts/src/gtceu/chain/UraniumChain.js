@@ -174,12 +174,12 @@ ServerEvents.recipes(event => {
 
     //化工厂
     ctnh.chemical_plant('uranium_dust_chemical_plant')
-        .itemInputs('3x gtceu:uranite_dust')
+        .itemInputs('3x gtceu:uraninite_dust')
         .itemOutputs('3x gtceu:uranium_dust')
         .inputFluids(Fluid.of('gtceu:nitration_mixture', 4000))
-        .outputFluids(Fluid.of('uranium_sulfate_waste_solution', 1000))
-        .outputFluids(Fluid.of('uranium_refinement_waste_solution', 1000))
-        .outputFluids(Fluid.of('thorium_nitrate_solution', 1000))
+        .outputFluids(Fluid.of('gtceu:uranium_sulfate_waste_solution', 1000))
+        .outputFluids(Fluid.of('gtceu:uranium_refinement_waste_solution', 1000))
+        .outputFluids(Fluid.of('gtceu:thorium_nitrate_solution', 1000))
         .EUt(7680).duration(864)
 
     ctnh.chemical_reactor('uranium_hexafluoride')

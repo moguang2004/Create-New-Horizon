@@ -764,6 +764,42 @@
 			x: 22.0d
 			y: 9.5d
 		}
+		{
+			id: "59C36EC491E966BA"
+			subtitle: "如果能获得这个......"
+			tasks: [{
+				id: "09D0FCBE066C70D8"
+				item: "kubejs:metallurgical_catalyst"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"59C36EC491E966BA"
+				"360D9DDE6BCD1674"
+			]
+			id: "7661A6BF71F9A01F"
+			tasks: [{
+				id: "5CBC7642199B4CF4"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "365A011D0AC7D4EF"
+			subtitle: "可以帮你节省不少步骤"
+			tasks: [{
+				id: "26329176D90B327A"
+				item: "kubejs:bauxite_process_catalyst"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
 	]
 	title: "矿物处理"
 }
