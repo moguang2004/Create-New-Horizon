@@ -159,4 +159,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .rotationState(RotationState.ALL)
         .abilities(PartAbility.OUTPUT_ENERGY)
         .overlayTieredHullRenderer("energy_hatch.output_4a")
+    event.create("inscriber", "simple",
+        GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV)
+        .recipeType("inscriber", true, true)
+        .tankScalingFunction(tier => tier * 4800)
+        .workableTieredHullRenderer("gtceu:block/machines/inscriber")
 })
