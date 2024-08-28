@@ -96,8 +96,7 @@ ServerEvents.recipes(event => {
     }
 })
 ServerEvents.recipes(event => {
-    event.replaceInput({}, 'create:andesite_alloy', 'gtceu:andesitealloy_ingot')
-    event.replaceInput({}, 'gtceu:andesite_alloy_ingot', 'gtceu:andesitealloy_ingot')
+    event.replaceInput({}, 'create:andesite_alloy', 'gtceu:andesite_alloy_ingot')
     event.replaceInput({}, '#forge:silicon', 'gtceu:silicon_ingot')
     event.replaceInput({}, '#forge:ingots/pulsating_alloy', 'gtceu:pulsating_alloy_ingot')
     event.replaceOutput({ not: { mod: 'gtceu' } }, '#forge:ingots/pulsating_alloy', 'gtceu:pulsating_alloy_ingot')

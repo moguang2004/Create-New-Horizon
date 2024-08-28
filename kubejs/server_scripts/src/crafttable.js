@@ -1,6 +1,9 @@
 ServerEvents.recipes(event => {
+  event.remove({ id: 'deep_aether:skyroot_crafting_table' })
+  event.remove({ id: 'aether:skyroot_crafting_table' })
+  event.remove({ output: /betterend:(.*)_crafting_table/ })
   event.shaped(
-    Item.of('gtceu:andesitealloy_ingot', 4), [
+    Item.of('gtceu:andesite_alloy_ingot', 4), [
     'ABA',
     'BAB',
     'ABA'
@@ -14,7 +17,7 @@ ServerEvents.recipes(event => {
     'A',
     'A'
   ], {
-    A: 'gtceu:andesitealloy_ingot',
+    A: 'gtceu:andesite_alloy_ingot',
   })
   event.shaped(
     Item.of('create:mechanical_press', 1), [
@@ -46,11 +49,11 @@ ServerEvents.recipes(event => {
   ], {
     A: '#minecraft:wooden_slabs',
     B: '#minecraft:planks',
-    C: 'gtceu:andesitealloy_plate',
+    C: 'gtceu:andesite_alloy_plate',
     D: 'create:shaft'
   })
   event.shapeless('create:depot', [
-    'create:andesite_casing', 'gtceu:andesitealloy_plate'
+    'create:andesite_casing', 'gtceu:andesite_alloy_plate'
   ])
   event.shaped(
     Item.of('create:cogwheel', 4), [
@@ -59,7 +62,7 @@ ServerEvents.recipes(event => {
     ' A '
   ], {
     A: '#minecraft:planks',
-    B: 'gtceu:small_andesitealloy_gear',
+    B: 'gtceu:small_andesite_alloy_gear',
   })
   event.shaped(
     Item.of('create:large_cogwheel', 4), [
@@ -68,7 +71,7 @@ ServerEvents.recipes(event => {
     ' A '
   ], {
     A: 'gtceu:treated_wood_planks',
-    B: 'gtceu:andesitealloy_gear',
+    B: 'gtceu:andesite_alloy_gear',
   })
   event.shaped(
     Item.of('create:water_wheel', 1), [
@@ -96,7 +99,7 @@ ServerEvents.recipes(event => {
   ], {
     A: 'create:andesite_casing',
     B: 'create:shaft',
-    C: 'gtceu:andesitealloy_ingot',
+    C: 'gtceu:andesite_alloy_ingot',
     D: 'gtceu:iron_drill_head'
   })
   event.shaped(
@@ -118,10 +121,10 @@ ServerEvents.recipes(event => {
     "GGG"
   ], {
     A: '#forge:tools/saws',
-    B: 'gtceu:andesitealloy_rod',
+    B: 'gtceu:andesite_alloy_rod',
     C: 'gtceu:gold_plate',
-    D: 'gtceu:andesitealloy_plate',
-    E: 'gtceu:andesitealloy_gear',
+    D: 'gtceu:andesite_alloy_plate',
+    E: 'gtceu:andesite_alloy_gear',
     F: 'gtceu:iron_rod',
     G: '#minecraft:planks'
   })
@@ -132,7 +135,7 @@ ServerEvents.recipes(event => {
     " B "
   ], {
     A: 'create:polished_rose_quartz',
-    B: 'gtceu:andesitealloy_plate',
+    B: 'gtceu:andesite_alloy_plate',
     C: 'gtceu:small_iron_gear',
   })
   event.shaped(
@@ -176,7 +179,7 @@ ServerEvents.recipes(event => {
     "ABA"
   ], {
     A: 'gtceu:iron_rod',
-    B: 'gtceu:andesitealloy_plate',
+    B: 'gtceu:andesite_alloy_plate',
     C: 'gtceu:coke_dust',
     D: 'create:shaft',
   })
@@ -282,7 +285,7 @@ ServerEvents.recipes(event => {
     A: 'minecraft:slime_ball',
     B: 'create:powered_latch',
     C: 'create:andesite_casing',
-    D: 'gtceu:andesitealloy_plate',
+    D: 'gtceu:andesite_alloy_plate',
     E: 'kubejs:basic_mechanism'
   })
   event.shaped(

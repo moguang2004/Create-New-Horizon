@@ -37,16 +37,9 @@
     event.hide('create:crushed_raw_aluminum')
     event.hide('minecraft:netherite_ingot')
     event.hide('minecraft:netherite_block')
-    event.hide('gtceu:andesite_alloy_ingot')
-    event.hide('gtceu:andesite_alloy_dust')
-    event.hide('gtceu:andesite_alloy_block')
-    event.hide('gtceu:andesite_alloy')
-    event.hide('gtceu:andesite_alloy_nugget')
-    event.hide('gtceu:tiny_andesite_alloy_dust')
-    event.hide('gtceu:small_andesite_alloy_dust')
 })*/
 
-JEIEvents.hideItems(event =>{
+JEIEvents.hideItems(event => {
     event.hide('twilightforest:uncrafting_table')
     event.hide('create:andesite_alloy')
     event.hide('create:andesite_alloy_block')
@@ -86,20 +79,11 @@ JEIEvents.hideItems(event =>{
     event.hide('create:crushed_raw_aluminum')
     event.hide('minecraft:netherite_ingot')
     event.hide('minecraft:netherite_block')
-    event.hide("gtceu:andesite_alloy_ingot")
-    event.hide('gtceu:andesite_alloy_dust')
-    event.hide('gtceu:andesite_alloy_block')
-    event.hide('gtceu:andesite_alloy_nugget')
-    event.hide('gtceu:tiny_andesite_alloy_dust')
-    event.hide('gtceu:small_andesite_alloy_dust')
     event.hide('gtceu:lv_steam_turbine')
     event.hide('gtceu:mv_steam_turbine')
     event.hide('gtceu:hv_steam_turbine')
 })
 
-JEIEvents.hideFluids(event =>{
-    event.hide('gtceu:andesite_alloy')
-})
 /*REIEvents.information(event => {
     event.addItem('example:ingredient', 'Title', ['Line 1', 'Line 2'])
   })*/

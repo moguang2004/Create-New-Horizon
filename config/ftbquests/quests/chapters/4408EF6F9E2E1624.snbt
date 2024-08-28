@@ -43,7 +43,7 @@
 			subtitle: "必须在盆里压"
 			tasks: [{
 				id: "7F6521367459E191"
-				item: "gtceu:andesitealloy_plate"
+				item: "gtceu:andesite_alloy_plate"
 				type: "item"
 			}]
 			x: 0.0d
@@ -502,14 +502,14 @@
 			rewards: [{
 				count: 16
 				id: "6947235FD465275D"
-				item: "gtceu:andesitealloy_ingot"
+				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
 			size: 1.5d
 			subtitle: "第一块合金"
 			tasks: [{
 				id: "2432B1FD7CD5EFE3"
-				item: "gtceu:andesitealloy_ingot"
+				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
 			x: -6.5d
