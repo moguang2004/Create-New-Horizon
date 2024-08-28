@@ -67,6 +67,12 @@ StartupEvents.registry("item", event => {
     event.create('steel_mechanism')
     event.create('unfinished_steel_mechanism')
     event.create('multiblock_helper')
+    event.create('metallurgical_catalyst')
+    event.create('platinum_metal_catalyst_shard1')
+    event.create('platinum_metal_catalyst_shard2')
+    event.create('platinum_metal_catalyst')
+    event.create('stone_process_catalyst')
+    event.create('bauxite_process_catalyst')
 })
 StartupEvents.registry("block", event => {
     event.create('steel_casing')

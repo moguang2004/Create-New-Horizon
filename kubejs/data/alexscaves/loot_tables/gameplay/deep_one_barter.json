@@ -1,0 +1,216 @@
+{
+  "pools": [
+    {
+      "name": "sea_pig_digestion",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:kelp",
+          "weight": 70,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:fishing_rod",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "minecraft:water_bucket",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "kubejs:platinum_metal_catalyst_shard2",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "gtceu:crystal_processor",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sponge",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "alexscaves:ping_pong_sponge",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "alexscaves:dusk_anemone",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "alexscaves:twilight_anemone",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "alexscaves:midnight_anemone",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "alexscaves:mussel",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "alexscaves:abyssmarine",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ink_sac",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:glow_ink_sac",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "alexscaves:ink_bomb",
+          "weight": 35,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:clay_ball",
+          "weight": 60
+        },
+        {
+          "type": "item",
+          "name": "alexscaves:gazing_pearl",
+          "weight": 26
+        },
+        {
+          "type": "item",
+          "name": "alexscaves:rusty_barrel",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:glass_bottle",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "minecraft:prismarine_shard",
+          "weight": 80,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cod",
+          "weight": 80,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:salmon",
+          "weight": 80,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pufferfish",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "alexscaves:sea_glass_shards",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

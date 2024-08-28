@@ -39,3 +39,4 @@ natives-*/
 *.log
 /log4j2.xml
 /resourcepacks/Minecraft-Mod-Language-Modpack-Converted-*.zip
+/icon.png
