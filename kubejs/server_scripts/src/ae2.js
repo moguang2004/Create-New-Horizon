@@ -355,7 +355,7 @@ ServerEvents.recipes(event => {
         "expatternprovider:pattern_terminal_upgrade", "expatternprovider:ex_drive", "expatternprovider:drive_upgrade", "merequester:requester", "ae2:storage_bus", "ae2:blank_pattern",
         "ae2:pattern_encoding_terminal", "expatternprovider:tag_storage_bus", "expatternprovider:tag_export_bus", "expatternprovider:ex_molecular_assembler", "expatternprovider:ingredient_buffer",
         "ae2:molecular_assembler", "ae2:basic_card", "ae2:advanced_card", "ae2:printed_silicon", "ae2:ender_dust", "ae2:certus_quartz_dust", "ae2:crafting_unit", "ae2additions:disk_item_256k",
-        "ae2:item_cell_housing", "ae2:fluid_cell_housing", "ae2things:disk_housing", "ae2additions:disk_fluid_housing", "ae2additions:super_cell_housing", "ae2:wireless_booster"
+        "ae2:item_cell_housing", "ae2:fluid_cell_housing", "ae2things:disk_housing", "ae2additions:disk_fluid_housing", "ae2additions:super_cell_housing", "ae2:wireless_booster", "ae2:quartz_glass",
     ])
     remove_recipes_id(event, [
         "expatternprovider:ex_inscriber",
@@ -449,4 +449,10 @@ ServerEvents.recipes(event => {
         .itemOutputs("ae2:sky_dust")
         .EUt(2)
         .duration(80)
+    event.recipes.gtceu.alloy_smelter("gtceu:quartz_glass")
+        .itemInputs("gtceu:quartz_glass_dust")
+        .notConsumable("gtceu:block_casting_mold")
+        .itemOutputs("ae2:quartz_glass")
+        .EUt(16)
+        .duration(100)
 })
