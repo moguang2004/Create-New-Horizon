@@ -1,36 +1,48 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: 'ad_astra:rocket_nose_cone' })
-    event.remove({ id: 'ad_astra:steel_tank' })
-    event.remove({ id: 'ad_astra:rocket_fin' })
-    event.remove({ id: 'ad_astra:steel_engine' })
-    event.remove({ id: 'ad_astra:desh_engine' })
-    event.remove({ id: 'ad_astra:ostrum_engine' })
-    event.remove({ id: 'ad_astra:calorite_engine' })
-    event.remove({ id: 'ad_astra:jet_suit' })
-    event.remove({ id: 'ad_astra:netherite_space_suit' })
-    event.remove({ id: 'ad_astra:space_suit' })
-    event.remove({ id: 'ad_astra:oxygen_gear' })
-    event.remove({ id: 'ad_astra:netherite_space_helmet' })
-    event.remove({ id: 'ad_astra:netherite_space_pants' })
-    event.remove({ id: 'ad_astra:netherite_space_boots' })
-    event.remove({ id: 'ad_astra:jet_suit_helmet' })
-    event.remove({ id: 'ad_astra:jet_suit_pants' })
-    event.remove({ id: 'ad_astra:jet_suit_boots' })
-    event.remove({ id: 'ad_astra:space_helmet' })
-    event.remove({ id: 'ad_astra:space_pants' })
-    event.remove({ id: 'ad_astra:space_boots' })
-    event.remove({ id: 'create:pressing/desh_ingot' })
-    event.remove({ id: 'create:pressing/ostrum_ingot' })
-    event.remove({ id: 'create:pressing/steel_ingot' })
-    event.remove({ id: 'create:pressing/calorite_ingot' })
-    event.remove({ id: 'ad_astra:blasting/desh_ingot_from_blasting_raw_desh' })
-    event.remove({ id: 'ad_astra:blasting/ostrum_ingot_from_blasting_raw_ostrum' })
-    event.remove({ id: 'ad_astra:blasting/calorite_ingot_from_blasting_raw_calorite' })
-    event.remove({ id: 'ad_astra:fan' })
-    event.remove({ id: 'ad_astra:ostrum_tank' })
-    event.remove({ id: 'ad_astra:gas_tank' })
-    event.remove({ id: 'ad_astra:oxygen_loader' })
-    event.remove({ id: 'ad_astra:iron_rod' })
+    remove_recipes_id(event, [
+        "ad_astra:rocket_nose_cone",
+        "ad_astra:steel_tank",
+        "ad_astra:rocket_fin",
+        "ad_astra:steel_engine",
+        "ad_astra:desh_engine",
+        "ad_astra:ostrum_engine",
+        "ad_astra:calorite_engine",
+        "ad_astra:jet_suit",
+        "ad_astra:netherite_space_suit",
+        "ad_astra:space_suit",
+        "ad_astra:oxygen_gear",
+        "ad_astra:netherite_space_helmet",
+        "ad_astra:netherite_space_pants",
+        "ad_astra:netherite_space_boots",
+        "ad_astra:jet_suit_helmet",
+        "ad_astra:jet_suit_pants",
+        "ad_astra:jet_suit_boots",
+        "ad_astra:space_helmet",
+        "ad_astra:space_pants",
+        "ad_astra:space_boots",
+        "create:pressing/desh_ingot",
+        "create:pressing/ostrum_ingot",
+        "create:pressing/steel_ingot",
+        "create:pressing/calorite_ingot",
+        "ad_astra:blasting/desh_ingot_from_blasting_raw_desh",
+        "ad_astra:blasting/ostrum_ingot_from_blasting_raw_ostrum",
+        "ad_astra:blasting/calorite_ingot_from_blasting_raw_calorite",
+        "ad_astra:fan",
+        "ad_astra:ostrum_tank",
+        "ad_astra:gas_tank",
+        "ad_astra:oxygen_loader",
+        "ad_astra:iron_rod",
+        "ad_astra:coal_generator",
+        "ad_astra:compressor",
+        "ad_astra:etrionic_blast_furnace",
+        "ad_astra:photovoltaic_etrium_cell",
+        "ad_astra:solar_panel",
+        "ad_astra:fuel_refinery",
+        "ad_astra:cryo_freezer",
+    ])
+    remove_recipes_type(event, [
+        "ad_astra:alloying",
+    ])
 
-    event.replaceInput({ id: 'ad_astra:launch_pad' }, 'gtceu:steel_rod', 'gtceu:platinum_rod')
+    event.replaceInput({ id: "ad_astra:launch_pad" }, "gtceu:steel_rod", "gtceu:platinum_rod")
 })
