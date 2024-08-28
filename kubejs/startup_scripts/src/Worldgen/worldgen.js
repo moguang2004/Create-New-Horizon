@@ -1,5 +1,5 @@
 let ingots = ['copper', 'bronze', 'tin', 'steel', 'iron', 'gold', 'diamond', 'brass', 'zinc', 'golden', 'lead', 'silver', 'sulfur', 'cinnabar', 'niter', 'apatite', 'niter', 'nickel']
-let mods = ['industrialforegoing', 'ad_astra', 'magistuarmory', 'create', 'eidolon', 'occultism', 'thermal']
+let mods = [ 'ad_astra', 'create']
 let components = ['deep', 'raw', 'deepslate']
 
 WorldgenEvents.remove(event => {
@@ -18,6 +18,7 @@ WorldgenEvents.remove(event => {
   event.removeOres(props => {
     props.blocks = 'tfmg:bauxite'
     props.blocks = 'create_new_age:thorium_ore'
+    props.blocks = 'create_new_age:magnetite_block'
     props.blocks = 'minecraft:nether_gold_ore'
     props.blocks = 'mythicbotany:elementium_ore'
     props.blocks = 'mythicbotany:dragonstone_ore'

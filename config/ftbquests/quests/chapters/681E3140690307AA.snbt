@@ -43,6 +43,17 @@
 			description: ["在本整合包中，添加了冷汗模组，温度会随着&a群系、季节、维度、周围的方块&r变化而变化。&4过高和过低的温度都会导致危险&r，所以请时刻注意自身的温度情况，别忘了制作温度计哦。更多信息请前往“冷汗”章节。"]
 			icon: "cold_sweat:thermometer"
 			id: "5C2320A3B3E10E11"
+			rewards: [{
+				id: "118E14A8F73D99ED"
+				item: {
+					Count: 1
+					id: "kubejs:broken_temperature_keeping_device"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1769E6600040B278"
 				title: "冷汗"
@@ -368,10 +379,16 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			hide_dependency_lines: true
 			id: "27C30CC438658E3E"
+			rewards: [{
+				count: 4
+				id: "18328F48D1E17C33"
+				item: "minecraft:flint"
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "4F80DC03536AE638"
-				item: { Count: 4, id: "minecraft:flint" }
+				item: "minecraft:flint"
 				type: "item"
 			}]
 			x: -5.0d

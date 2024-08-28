@@ -40,6 +40,7 @@
 				"543DF835C9FE39CC"
 			]
 			id: "1E74645D87740E1B"
+			subtitle: "必须在盆里压"
 			tasks: [{
 				id: "7F6521367459E191"
 				item: "gtceu:andesitealloy_plate"
@@ -313,6 +314,11 @@
 		{
 			dependencies: ["2460426DE77EF0F4"]
 			id: "25CADEFA5DCB0244"
+			rewards: [{
+				id: "727037DA4625C8DF"
+				item: "gtceu:exquisite_coke_gem"
+				type: "item"
+			}]
 			subtitle: "没有杂酚油，你怎么推科技？"
 			tasks: [
 				{

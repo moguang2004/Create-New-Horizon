@@ -55,7 +55,7 @@ StartupEvents.registry("item", event => {
     event.create('broken_temperature_keeping_device').maxDamage(12000).tag('curios:body')
     .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
                 .curioTick((/**@type {$ItemStack}*/ itemstack,slotcontext)=>{
-                    itemstack.damageValue -= 1
+                    itemstack.setDamageValue(itemstack.damageValue + 1)
                     return true
                 })
                 .modifyAttribute('cold_sweat:cold_dampening','kubejscolddampening',1,'addition')
