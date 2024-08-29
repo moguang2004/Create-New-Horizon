@@ -129,6 +129,11 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, 'botania:terrasteel_ingot', 'gtceu:terrasteel_ingot')
     event.replaceOutput({}, 'botania:terrasteel_ingot', 'gtceu:terrasteel_ingot')
     event.replaceInput({}, 'botania:elementium_ingot', 'gtceu:elementium_steel_ingot')
+    event.replaceOutput({}, 'botania:elementium_ingot', 'gtceu:elementium_steel_ingot')
+    event.replaceInput({}, 'gtceu:elementium_ingot', 'gtceu:elementium_steel_ingot')
+    event.replaceOutput({}, 'gtceu:elementium_ingot', 'gtceu:elementium_steel_ingot')
+    event.replaceInput({}, 'gtceu:elementium_block', 'gtceu:elementium_steel_block')
+    event.replaceOutput({}, 'gtceu:elementium_block', 'gtceu:elementium_steel_block')
 
     event.replaceInput({}, 'tetranichematerials:red_gold_ingot', 'gtceu:rose_gold_ingot')
     event.replaceInput({}, 'tetranichematerials:bronnum_ingot', 'gtceu:bronze_ingot')

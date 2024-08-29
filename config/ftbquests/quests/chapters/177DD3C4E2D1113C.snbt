@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "177DD3C4E2D1113C"
-	group: ""
+	group: "71414D2BDE140EDA"
 	icon: {
 		Count: 1
 		id: "gtceu:iron_mining_hammer"
@@ -26,7 +26,7 @@
 		}
 	}
 	id: "177DD3C4E2D1113C"
-	order_index: 8
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

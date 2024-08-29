@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1E8D7AF132D696EC"
-	group: ""
+	group: "71414D2BDE140EDA"
 	icon: "gtceu:microchip_processor"
 	id: "1E8D7AF132D696EC"
-	order_index: 2
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
