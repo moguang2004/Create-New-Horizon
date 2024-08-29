@@ -26,7 +26,8 @@
 ["Temperature Effects"]
 
 	["Temperature Effects".Hot]
-		#When set to true, the player's view distance will decrease when they are too hot
+		#Defines the distance at which the player's vision is obscured by heatstroke fog
+		#Set to a value above 64 to disable the effect
 		#Range: 0.0 ~ Infinity
 		"Heatstroke Fog" = 6.0
 
@@ -49,7 +50,7 @@
 		"Chilled Mining Speed Reduction" = 0.5
 
 ["Grace Period"]
-	#The number of ticks after the player spawns during which they are immune to temperature effects
+	#The amount of time (in ticks) after the player spawns during which they are immune to temperature effects
 	#Range: > 0
 	"Grace Period Length" = 2400
 	#Enables the grace period
@@ -59,5 +60,5 @@
 [Builtin]
 	#Range: 0 ~ 4
 	Difficulty = 2
-	Version = "2.3.1"
+	Version = "2.3.3"
 

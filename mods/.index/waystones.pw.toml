@@ -1,13 +1,13 @@
-filename = 'waystones-forge-1.20-14.1.4.jar'
+filename = 'waystones-forge-1.20-14.1.5.jar'
 name = 'Waystones'
 side = 'both'
 
 [download]
-hash = 'baeb982796f0170db8bd8284225044cb3046a97f'
+hash = 'b0fe1cc86273344960aad4fd43efa1be31aa1172'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5500759
+file-id = 5661122
 project-id = 245755

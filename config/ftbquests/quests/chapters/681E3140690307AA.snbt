@@ -260,6 +260,24 @@
 					}
 					type: "item"
 				}
+				{
+					id: "336B11DEECD4272E"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:gold_backpack"
+						tag: {
+							contentsUuid: [I;
+								-1444686764
+								-1362801821
+								-1275114530
+								841294634
+							]
+							inventorySlots: 81
+							upgradeSlots: 3
+						}
+					}
+					type: "item"
+				}
 			]
 			subtitle: "别随便下矿洞！"
 			tasks: [{

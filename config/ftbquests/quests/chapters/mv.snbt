@@ -599,6 +599,7 @@
 		{
 			dependencies: ["3EDD18FAB29CBC8D"]
 			id: "291D02E808F55209"
+			subtitle: "铬粉需要经过几步处理，请仔细查阅jei"
 			tasks: [{
 				id: "439069F6CBE169E1"
 				item: "gtceu:chromium_dust"
@@ -710,6 +711,22 @@
 			}]
 			x: 9.5d
 			y: -10.0d
+		}
+		{
+			dependencies: [
+				"1327BF0797F9200E"
+				"1AF8205ECB9C3737"
+				"234CB64EED695D42"
+			]
+			id: "44F16C0CA0BF8AF0"
+			subtitle: "有了这个才可以做EV阶段的机器"
+			tasks: [{
+				id: "5E983D86BAEBF127"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
 		}
 	]
 	title: "&bMV&r时期"

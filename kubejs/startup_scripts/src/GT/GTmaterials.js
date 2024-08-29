@@ -1015,7 +1015,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('chromium_oxide')
         .dust()
         .color(0x3dc34d).iconSet(GTMaterialIconSet.DULL)
-        .components('2x chromite','3x oxygen')
+        .components('2x chromium','3x oxygen')
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
 })
 StartupEvents.postInit(event => {

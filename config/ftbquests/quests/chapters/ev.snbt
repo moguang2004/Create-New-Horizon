@@ -838,6 +838,28 @@
 			x: 2.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["3F9F778AB07809D0"]
+			id: "5B1C049A7712479A"
+			tasks: [{
+				id: "7AF83525B18DCE36"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5B1C049A7712479A"]
+			id: "534D927B52EC5F63"
+			tasks: [{
+				id: "22E3934505BEF43B"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -11.0d
+		}
 	]
 	title: "&5EV&r时期"
 }

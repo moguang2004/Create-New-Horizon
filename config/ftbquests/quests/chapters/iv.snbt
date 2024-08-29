@@ -35,6 +35,7 @@
 		{
 			dependencies: ["63F5094821C731CA"]
 			id: "25D924B587ABCF41"
+			subtitle: "赶紧把大机器用起来吧"
 			tasks: [{
 				id: "713E09D457F3D461"
 				item: "gtceu:large_assembler"
@@ -140,7 +141,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["5830A3F662F18CB5"]
+			dependencies: [
+				"5830A3F662F18CB5"
+				"13B2AA07FDC88361"
+			]
 			id: "028B2C12ED867AB0"
 			tasks: [{
 				id: "7CB7DF3BECC9F482"
@@ -148,6 +152,60 @@
 				type: "item"
 			}]
 			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["25D924B587ABCF41"]
+			id: "15228E5BA4B65879"
+			tasks: [{
+				id: "0F2B66762F42FC64"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2813BC7AC57AFF93"]
+			id: "13B2AA07FDC88361"
+			tasks: [{
+				id: "081AFB08D06013EA"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			id: "56B007C038EED6ED"
+			tasks: [{
+				id: "7CB84D34F8886105"
+				item: "gtceu:carbon_fibers"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["145F2710B4DEA996"]
+			id: "2813BC7AC57AFF93"
+			tasks: [{
+				id: "7A34CA9BAA70B40D"
+				item: "gtceu:fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["56B007C038EED6ED"]
+			id: "145F2710B4DEA996"
+			tasks: [{
+				id: "1F06660CBD38A318"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				type: "item"
+			}]
+			x: -7.5d
 			y: -6.5d
 		}
 	]

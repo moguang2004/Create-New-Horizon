@@ -52,7 +52,7 @@
   {
     "modid": "modernfix",
     "name": "ModernFix",
-    "version": "5.19.1+mc1.20.1"
+    "version": "5.19.3+mc1.20.1"
   },
   {
     "modid": "fabric_command_api_v1",
@@ -382,7 +382,7 @@
   {
     "modid": "forge",
     "name": "Forge",
-    "version": "47.3.0"
+    "version": "47.3.6"
   },
   {
     "modid": "dsurround",
@@ -432,7 +432,7 @@
   {
     "modid": "justenoughbreeding",
     "name": "Just Enough Breeding",
-    "version": "1.3.0"
+    "version": "1.3.1"
   },
   {
     "modid": "createutilities",
@@ -497,7 +497,7 @@
   {
     "modid": "jei",
     "name": "Just Enough Items",
-    "version": "15.12.3.54"
+    "version": "15.14.0.64"
   },
   {
     "modid": "entityculling",
@@ -512,7 +512,7 @@
   {
     "modid": "immediatelyfast",
     "name": "ImmediatelyFast",
-    "version": "1.2.20+1.20.4"
+    "version": "1.2.21+1.20.4"
   },
   {
     "modid": "fastfurnace",
@@ -547,7 +547,7 @@
   {
     "modid": "biomemusic",
     "name": "biomemusic mod",
-    "version": "1.20.1-2.4"
+    "version": "1.20.1-2.5"
   },
   {
     "modid": "modernui",
@@ -557,12 +557,12 @@
   {
     "modid": "puzzleslib",
     "name": "Puzzles Lib",
-    "version": "8.1.21"
+    "version": "8.1.22"
   },
   {
     "modid": "cold_sweat",
     "name": "Cold Sweat",
-    "version": "2.3.1"
+    "version": "2.3.3"
   },
   {
     "modid": "fabric_sound_api_v1",
@@ -682,7 +682,7 @@
   {
     "modid": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "0.6.22.611"
+    "version": "0.6.25.632"
   },
   {
     "modid": "nanhealthfixer",
@@ -692,7 +692,7 @@
   {
     "modid": "xaeroworldmap",
     "name": "Xaero\u0027s World Map",
-    "version": "1.38.8"
+    "version": "1.39.0"
   },
   {
     "modid": "controlling",
@@ -727,7 +727,7 @@
   {
     "modid": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.20.5.1044"
+    "version": "3.20.6.1064"
   },
   {
     "modid": "achiopt",
@@ -852,7 +852,7 @@
   {
     "modid": "gtnn",
     "name": "GT--",
-    "version": "1.0.9"
+    "version": "1.1.0a"
   },
   {
     "modid": "elevatorid",
@@ -882,7 +882,7 @@
   {
     "modid": "resourcefullib",
     "name": "Resourceful Lib",
-    "version": "2.1.28"
+    "version": "2.1.29"
   },
   {
     "modid": "twilightdelight",
@@ -892,7 +892,7 @@
   {
     "modid": "seasonhud",
     "name": "SeasonHUD",
-    "version": "1.9.8"
+    "version": "1.10.1"
   },
   {
     "modid": "lootjs",
@@ -982,7 +982,7 @@
   {
     "modid": "rhino",
     "name": "Rhino",
-    "version": "2001.2.2-build.18"
+    "version": "2001.2.3-build.6"
   },
   {
     "modid": "kubejs",
@@ -1047,7 +1047,7 @@
   {
     "modid": "waystones",
     "name": "Waystones",
-    "version": "14.1.4"
+    "version": "14.1.5"
   },
   {
     "modid": "fastsuite",
@@ -1142,7 +1142,7 @@
   {
     "modid": "moonlight",
     "name": "Moonlight Library",
-    "version": "1.20-2.12.14"
+    "version": "1.20-2.12.17"
   },
   {
     "modid": "configuration",
@@ -1177,7 +1177,7 @@
   {
     "modid": "jade",
     "name": "Jade",
-    "version": "11.10.1+forge"
+    "version": "11.11.1+forge"
   },
   {
     "modid": "ae2",
@@ -1282,7 +1282,7 @@
   {
     "modid": "functionalstorage",
     "name": "Functional Storage",
-    "version": "1.20.1-1.2.11"
+    "version": "1.20.1-1.2.12"
   },
   {
     "modid": "expandability",

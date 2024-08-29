@@ -5,6 +5,7 @@
         .EUt(功率)*/
 //const PlantCasingCondition = Java.loadClass('org.arbor.gtnn.api.recipe.PlantCasingCondition')
 //const PlantCasingBlock = Java.loadClass('org.arbor.gtnn.block.PlantCasingBlock')
+//const GTNNRecipes = Java.loadClass('dev.arbor.gtnn.data.GTNNRecipes')
 ServerEvents.recipes(event => {
   event.recipes.gtceu.create_mixer('rose_quartz')
     .itemInputs('minecraft:quartz', '4x minecraft:redstone')
@@ -278,6 +279,7 @@ ServerEvents.recipes(event => {
     .outputFluids(Fluid.of('gtceu:rp_1_mixed_fuel', 1000))
     .inputFluids(Fluid.of('gtceu:oxygen', 2000))
     .circuit(1)
+    //.addCondition(GTNNRecipes.setPlantCasing(5))
     //.addCondition(new PlantCasingCondition(PlantCasingBlock.STAINLESS))
     .EUt(480)
     .duration(300)

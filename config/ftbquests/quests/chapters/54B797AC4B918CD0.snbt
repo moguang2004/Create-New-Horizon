@@ -63,7 +63,7 @@
 					id: "5A9B88CE09D7E6C4"
 					item: {
 						Count: 1
-						id: "cold_sweat:fur_cap"
+						id: "cold_sweat:goat_fur_cap"
 						tag: {
 							Damage: 0
 						}
@@ -74,7 +74,7 @@
 					id: "0F828A20FA64ECA5"
 					item: {
 						Count: 1
-						id: "cold_sweat:fur_parka"
+						id: "cold_sweat:goat_fur_parka"
 						tag: {
 							Damage: 0
 						}
@@ -85,7 +85,7 @@
 					id: "32871539171678F2"
 					item: {
 						Count: 1
-						id: "cold_sweat:fur_pants"
+						id: "cold_sweat:goat_fur_pants"
 						tag: {
 							Damage: 0
 						}
@@ -96,7 +96,7 @@
 					id: "02DFDDCA93A69683"
 					item: {
 						Count: 1
-						id: "cold_sweat:fur_boots"
+						id: "cold_sweat:goat_fur_boots"
 						tag: {
 							Damage: 0
 						}

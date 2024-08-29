@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         .duration(120)
         .EUt(GTValues.VA[GTValues.MV]);
 
-    event.recipes.gtceu.dehydrator('sodium_dichromate_from_sodium_chromate')
+    event.recipes.gtceu.chemical_reactor('sodium_dichromate_from_sodium_chromate')
         .inputFluids('gtceu:sulfuric_acid 1000')
         .inputFluids('gtceu:sodium_chromate_solution 2000')
         .itemOutputs('7x gtceu:sodium_sulfate_dust')
