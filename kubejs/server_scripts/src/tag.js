@@ -4,6 +4,6 @@ ServerEvents.tags('item',event =>{
     })
 })
 ServerEvents.tags('fluid',event =>{
-    event.add('createdieselgenerators:pumpjack_output','gtceu:oil_medium')
+    event.add('createdieselgenerators:pumpjack_output','gtceu:impure_oil')
     event.remove('createdieselgenerators:pumpjack_output','createdieselgenerators:crude_oil')
 })

@@ -1,0 +1,19 @@
+{
+  "fluid": "gtceu:gasoline",
+  "sound_speed": 1,
+  "normal": {
+    "speed": 128.0,
+    "strength": 108000.0,
+    "burn_rate": 1
+  },
+  "modular": {
+    "speed": 192.0,
+    "strength": 128000.0,
+    "burn_rate": 1
+  },
+  "huge": {
+    "speed": 256.0,
+    "strength": 200000.0,
+    "burn_rate": 1
+  }
+}

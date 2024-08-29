@@ -470,6 +470,14 @@ LootJS.modifiers(event => {
         .matchMainHand('#forge:tools/butchery_knives')
         .killedByPlayer()
         .addLoot('minecraft:wither_skeleton_head')
+    let animal = ['minecraft:pig','minecraft:cow','minecraft:horse']
+    animal.forEach(animal =>{
+        event.addEntityLootModifier(animal)
+        .randomChanceWithEnchantment('minecraft:looting', [0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6])
+        .matchMainHand('#forge:tools/butchery_knives')
+        .killedByPlayer()
+        .addLoot('minecraft:wither_skeleton_head')
+    })
 })
 
 ServerEvents.entityLootTables(event => {
@@ -486,4 +494,12 @@ ServerEvents.entityLootTables(event => {
             p.addItem('nethersdelight:hoglin_loin').weight(6).count(2)
         })
     })
+    // let animal = ['minecraft:pig','minecraft:cow','minecraft:horse']
+    // event.addEntity(animal, l =>{
+    //     l.addPool(p =>{
+    //         p.addItem('kubejs:tallow').count(2).randomChance(0.5)
+    //         .addConditio
+    //         .killedByPlayer()
+    //     })
+    // })
 })

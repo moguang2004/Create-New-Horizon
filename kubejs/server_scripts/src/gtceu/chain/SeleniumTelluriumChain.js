@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('6x gtceu:sodium_tellurite_dust')
         .itemOutputs('3x gtceu:selenium_dioxide_dust')
         .itemOutputs('2x gtceu:silver_ingot')
-        .outputFluids(Fluid.of('carbon_dioxide', 1000))
+        .outputFluids(Fluid.of('gtceu:carbon_dioxide', 1000))
     // Na2TeO3 + H2O -> TeO2 + 2NaOH
     ctnh.electrolyzer('tellurium_recycle1')
         .EUt(GTValues.VA[GTValues.MV])
