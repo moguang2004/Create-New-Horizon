@@ -1,12 +1,7 @@
 ServerEvents.recipes(event => {
     let ingots = ['tin', 'silver', 'lead', 'nickel', 'vibrant_alloy', 'energetic_alloy', 'pulsalting_alloy', 'dark_steel', 'end_steel', 'conductive_alloy', 'redstone_alloy', 'copper_alloy', 'soularium',
-<<<<<<< HEAD
-        'uranium', 'osmium', 'zinc', 'cobalt', 'iridium', 'brass', 'bronze' ,'constantan', 'electrum', 'steel', 'sulfur', 'ender_pearl', 'manasteel',
-        'terrasteel', 'calorite', 'desh', 'ostrum']
-=======
-        'uranium', 'osmium', 'zinc', 'cobalt', 'iridium', 'brass', 'constantan', 'electrum', 'steel', 'sulfur', 'ender_pearl',
+        'uranium', 'osmium', 'zinc', 'cobalt', 'iridium', 'brass', 'bronze' ,'constantan', 'electrum', 'steel', 'sulfur', 'ender_pearl',
         'calorite', 'desh', 'ostrum']
->>>>>>> d38128494aa34e0126aa6148b29b072164034745
     let mod = 'gtceu'
 
     for (let i of ingots) {
