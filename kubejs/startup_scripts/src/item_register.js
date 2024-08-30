@@ -21,46 +21,46 @@ StartupEvents.registry("item", event => {
             .getMaxEnergyStored(i => MAX_ENERGY)
             .receiveEnergy((/**@type {Internal.ItemStack}*/ item, i, receive) => {
                     /** @type {Internal.IEnergyStorage} */ let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-                    let received = Math.min(energy.maxEnergyStored-energy.energyStored, i)
-                    if(!receive && energy.energyStored <= energy.maxEnergyStored){
-                        item.nbt.putInt('energyStored',energy.energyStored + received)
-                    }
-                    return received
-                })
-    )
-    //.tooltip('showenergy')
-    .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
-                .curioTick((/**@type {Internal.ItemStack}*/ itemstack,slotcontext)=>{
-                    let energy = itemstack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-                    let {energyStored , maxEnergyStored} = energy
-                    if(energyStored > 0){
-                        let energyConsumed = Math.min(energyStored , 600)
-                        itemstack.nbt.putInt('energyStored',energyStored - energyConsumed)
-                        return true
-                    }
-                })
-                .dynamicAttribute(attribute =>{
-                    let energy = attribute.stack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-                    let {energyStored, maxEnergyStored} = energy
-                    if(energyStored > 0){
-                        attribute.modify('cold_sweat:cold_dampening','kubejscolddampening',1,'addition')
-                        attribute.modify('cold_sweat:heat_dampening','kubejsheatdampening',1,'addition')
-                    }
-                })
-            )
-    .barWidth(/**@type {Internal.ItemStack}*/item =>{
-        let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-        return Math.floor(energy.energyStored / energy.maxEnergyStored * 13)
-    })
-    event.create('broken_temperature_keeping_device').maxDamage(12000).tag('curios:body')
-    .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
-                .curioTick((/**@type {$ItemStack}*/ itemstack,slotcontext)=>{
-                    itemstack.setDamageValue(itemstack.damageValue + 1)
+                let received = Math.min(energy.maxEnergyStored - energy.energyStored, i)
+                if (!receive && energy.energyStored <= energy.maxEnergyStored) {
+                    item.nbt.putInt('energyStored', energy.energyStored + received)
+                }
+                return received
+            })
+        )
+        //.tooltip('showenergy')
+        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+            .curioTick((/**@type {Internal.ItemStack}*/ itemstack, slotcontext) => {
+                let energy = itemstack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
+                let { energyStored, maxEnergyStored } = energy
+                if (energyStored > 0) {
+                    let energyConsumed = Math.min(energyStored, 600)
+                    itemstack.nbt.putInt('energyStored', energyStored - energyConsumed)
                     return true
-                })
-                .modifyAttribute('cold_sweat:cold_dampening','kubejscolddampening',1,'addition')
-                .modifyAttribute('cold_sweat:heat_dampening','kubejsheatdampening',1,'addition')
-            )
+                }
+            })
+            .dynamicAttribute(attribute => {
+                let energy = attribute.stack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
+                let { energyStored, maxEnergyStored } = energy
+                if (energyStored > 0) {
+                    attribute.modify('cold_sweat:cold_dampening', 'kubejscolddampening', 1, 'addition')
+                    attribute.modify('cold_sweat:heat_dampening', 'kubejsheatdampening', 1, 'addition')
+                }
+            })
+        )
+        .barWidth(/**@type {Internal.ItemStack}*/item => {
+            let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
+            return Math.floor(energy.energyStored / energy.maxEnergyStored * 13)
+        })
+    event.create('broken_temperature_keeping_device').maxDamage(12000).tag('curios:body')
+        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
+            .curioTick((/**@type {$ItemStack}*/ itemstack, slotcontext) => {
+                itemstack.setDamageValue(itemstack.damageValue + 1)
+                return true
+            })
+            .modifyAttribute('cold_sweat:cold_dampening', 'kubejscolddampening', 1, 'addition')
+            .modifyAttribute('cold_sweat:heat_dampening', 'kubejsheatdampening', 1, 'addition')
+        )
     event.create('deep_diver_gear').tag('curios:belt')
     event.create('thermometer_case')
     event.create('high_quality_solid_fuel').burnTime(4800)//.burntime(16000)
@@ -112,22 +112,22 @@ StartupEvents.registry("block", event => {
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/shielded_reactor_casing") })
-    event.create('manasteel_casing', 'gtceu:renderer')
+    event.create('mana_steel_casing', 'gtceu:renderer')
         .noValidSpawns(true)
         .soundType("metal")
         .mapColor("metal")
         .tagBlock("mineable/pickaxe")
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
-        .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/manasteel_casing") })
-    event.create('terrasteel_casing', 'gtceu:renderer')
+        .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/mana_steel_casing") })
+    event.create('terra_steel_casing', 'gtceu:renderer')
         .noValidSpawns(true)
         .soundType("metal")
         .mapColor("metal")
         .tagBlock("mineable/pickaxe")
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
-        .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/terrasteel_casing") })
+        .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/terra_steel_casing") })
     event.create('alfsteel_casing', 'gtceu:renderer')
         .noValidSpawns(true)
         .soundType("metal")
@@ -136,14 +136,14 @@ StartupEvents.registry("block", event => {
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/alfsteel_casing") })
-    event.create('elementium_steel_casing', 'gtceu:renderer')
+    event.create('elementium_casing', 'gtceu:renderer')
         .noValidSpawns(true)
         .soundType("metal")
         .mapColor("metal")
         .tagBlock("mineable/pickaxe")
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
-        .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/elementium_steel_casing") })
+        .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/elementium_casing") })
     event.create('reflect_light_casing', 'gtceu:renderer')
         .noValidSpawns(true)
         .soundType("metal")

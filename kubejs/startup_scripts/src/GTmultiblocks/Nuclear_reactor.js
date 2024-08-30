@@ -26,7 +26,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             machine.getHolder().self().persistentData.putFloat('heat', heat)
             return recipe
         })
-        //.appearanceBlock(GTBlocks.get('kubejs:manasteel_casing'))
+        //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("DDD", "ABA", "ABA", "ABA", "ABA", "ABA", "ABA", "ABA", "DDD")
             .aisle("DDD", "BCB", "BCB", "BCB", "BCB", "BCB", "BCB", "BCB", "DDD")
@@ -41,19 +41,19 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
         .onWorking((/**@type {$WorkableElectricMultiblockMachine} */machine) => {
             let heat = machine.getHolder().self().persistentData.getFloat('heat')
-            if(machine.getOffsetTimer() %20 == 0){
-                machine.getParts().forEach((/** @type {$IMultiPart} */part) =>{
-                    part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) =>{
-                        if(trait.getHandlerIO() == IO.IN){
-                            trait.getContents().forEach((contents )=>{
-                                if(contents instanceof FluidStack){
-                                    if(contents.getFluid().isSame(Fluid.of('gtceu:sodium_potassium').getFluid())){
-                                        if(contents.getAmount() >= heat*50/3){
-                                            machine.getHolder().self().persistentData.putString('coolant','gtceu:sodium_potassium')
-                                            machine.getHolder().self().persistentData.putFloat('coolant_amount',contents.getAmount())
-                                            machine.getHolder().self().persistentData.putFloat('consume_amount',heat*50/3)
-                                            let recipeIn = GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:sodium_potassium " + Number((heat*50/3).toFixed(0))).buildRawRecipe()
-                                            let recipeOut = GTRecipeBuilder.ofRaw()["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:hot_sodium_potassium " + Number((heat*50/3).toFixed(0))).buildRawRecipe()
+            if (machine.getOffsetTimer() % 20 == 0) {
+                machine.getParts().forEach((/** @type {$IMultiPart} */part) => {
+                    part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) => {
+                        if (trait.getHandlerIO() == IO.IN) {
+                            trait.getContents().forEach((contents) => {
+                                if (contents instanceof FluidStack) {
+                                    if (contents.getFluid().isSame(Fluid.of('gtceu:sodium_potassium').getFluid())) {
+                                        if (contents.getAmount() >= heat * 50 / 3) {
+                                            machine.getHolder().self().persistentData.putString('coolant', 'gtceu:sodium_potassium')
+                                            machine.getHolder().self().persistentData.putFloat('coolant_amount', contents.getAmount())
+                                            machine.getHolder().self().persistentData.putFloat('consume_amount', heat * 50 / 3)
+                                            let recipeIn = GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:sodium_potassium " + Number((heat * 50 / 3).toFixed(0))).buildRawRecipe()
+                                            let recipeOut = GTRecipeBuilder.ofRaw()["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:hot_sodium_potassium " + Number((heat * 50 / 3).toFixed(0))).buildRawRecipe()
                                             if (recipeIn.matchRecipe(machine).isSuccess() && recipeOut.matchRecipe(machine).isSuccess()) {
                                                 recipeIn.handleRecipeIO(IO.IN, machine, machine.recipeLogic.getChanceCaches())
                                                 recipeOut.handleRecipeIO(IO.OUT, machine, machine.recipeLogic.getChanceCaches())

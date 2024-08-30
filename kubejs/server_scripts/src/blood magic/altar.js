@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
     C: 'botania:red_quartz',
     D: 'gtceu:aluminium_spring',
     E: 'botania:polished_livingrock',
-    F: 'gtceu:small_terrasteel_gear',
+    F: 'gtceu:small_terra_steel_gear',
     G: 'botania:rune_gluttony'
   })
   //weakbloodorb
@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
     "consumptionRate": 5,
     "drainRate": 1,
     "input": {
-      "item": "gtceu:terrasteel_ingot"
+      "item": "gtceu:terra_steel_ingot"
     },
     "output": {
       "item": "bloodmagic:weakbloodorb"

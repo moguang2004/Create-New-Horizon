@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
     E: 'gtceu:iron_rod',
     F: 'botania:rune_pride',
     G: 'gtceu:dark_steel_block',
-    H: 'gtceu:small_terrasteel_gear',
+    H: 'gtceu:small_terra_steel_gear',
     I: 'botania:rune_greed'
   })
   //water

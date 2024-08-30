@@ -511,7 +511,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:lv_sensor",
         B: "gtceu:lv_electric_pump",
-        C: "kubejs:manasteel_casing",
+        C: "kubejs:mana_steel_casing",
         D: "#gtceu:circuits/lv",
         E: "gtceu:steel_gear",
         F: "gtceu:lv_conveyor_module"
@@ -524,7 +524,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:mv_sensor",
         B: "gtceu:mv_electric_pump",
-        C: "kubejs:elementium_steel_casing",
+        C: "kubejs:elementium_casing",
         D: "#gtceu:circuits/mv",
         E: "gtceu:aluminium_gear",
         F: "gtceu:mv_conveyor_module"
@@ -537,7 +537,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:hv_sensor",
         B: "gtceu:hv_electric_pump",
-        C: "kubejs:terrasteel_casing",
+        C: "kubejs:terra_steel_casing",
         D: "#gtceu:circuits/hv",
         E: "gtceu:stainless_steel_gear",
         F: "gtceu:hv_conveyor_module"
@@ -573,7 +573,7 @@ ServerEvents.recipes(event => {
         "BCB",
         "DED"
     ], {
-        A: "kubejs:manasteel_casing",
+        A: "kubejs:mana_steel_casing",
         B: "create:large_water_wheel",
         C: "gtceu:mv_machine_hull",
         D: "gtceu:mv_electric_pump",

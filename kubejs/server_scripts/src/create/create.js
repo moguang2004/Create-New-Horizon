@@ -98,7 +98,7 @@ ServerEvents.recipes(event => {
 //动力辊压机
 ServerEvents.recipes(event => {
   event.recipes.create.compacting('minecraft:paper', '2x gtceu:paper_dust')
-  let ingot = ['iron', 'copper', 'gold', 'zinc', 'brass', 'wrought_iron', 'steel', 'rubber', 'red_alloy', 'andesite_alloy', 'bronze', 'potin', 'nickel', 'tin', 'manasteel']
+  let ingot = ['iron', 'copper', 'gold', 'zinc', 'brass', 'wrought_iron', 'steel', 'rubber', 'red_alloy', 'andesite_alloy', 'bronze', 'potin', 'nickel', 'tin', 'mana_steel']
   for (let i of ingot) {
     event.recipes.create.compacting(`gtceu:${i}_plate`, `2x #forge:ingots/${i}`)
   }

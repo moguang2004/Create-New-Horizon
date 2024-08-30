@@ -181,7 +181,7 @@ ServerEvents.recipes(event => {
   event.recipes.gtceu.forming_press('central_rune_holder')
     .EUt(30)
     .duration(100)
-    .itemInputs(['gtceu:terrasteel_plate', '2x gtceu:terrasteel_screw'])
+    .itemInputs(['gtceu:terra_steel_plate', '2x gtceu:terra_steel_screw'])
     .itemOutputs('mythicbotany:central_rune_holder')
   event.recipes.gtceu.forming_press('rune_holder')
     .EUt(30)
@@ -197,7 +197,7 @@ ServerEvents.recipes(event => {
     },
     "mana": 3000,
     "output": {
-      "item": "gtceu:manasteel_ingot"
+      "item": "gtceu:mana_steel_ingot"
     }
   })
   event.custom({
@@ -207,15 +207,15 @@ ServerEvents.recipes(event => {
     },
     "mana": 27000,
     "output": {
-      "item": "gtceu:manasteel_block"
+      "item": "gtceu:mana_steel_block"
     }
   })
-  //terrasteel
+  //terra_steel
   event.custom({
     "type": "botania:terra_plate",
     "ingredients": [
       {
-        "item": "gtceu:manasteel_ingot"
+        "item": "gtceu:mana_steel_ingot"
       },
       {
         "item": "botania:mana_pearl"
@@ -229,7 +229,7 @@ ServerEvents.recipes(event => {
     ],
     "mana": 500000,
     "result": {
-      "item": "gtceu:terrasteel_ingot"
+      "item": "gtceu:terra_steel_ingot"
     }
   })
   //manarune
@@ -279,15 +279,15 @@ ServerEvents.recipes(event => {
     "type": "botania:elven_trade",
     "ingredients": [
       {
-        "item": "gtceu:manasteel_ingot"
+        "item": "gtceu:mana_steel_ingot"
       },
       {
-        "item": "gtceu:manasteel_ingot"
+        "item": "gtceu:mana_steel_ingot"
       }
     ],
     "output": [
       {
-        "item": "gtceu:elementium_steel_ingot"
+        "item": "gtceu:elementium_ingot"
       }
     ]
   })
@@ -295,15 +295,15 @@ ServerEvents.recipes(event => {
     "type": "botania:elven_trade",
     "ingredients": [
       {
-        "item": "gtceu:manasteel_block"
+        "item": "gtceu:mana_steel_block"
       },
       {
-        "item": "gtceu:manasteel_block"
+        "item": "gtceu:mana_steel_block"
       }
     ],
     "output": [
       {
-        "item": "gtceu:elementium_steel_block"
+        "item": "gtceu:elementium_block"
       }
     ]
   })
@@ -315,11 +315,11 @@ ServerEvents.recipes(event => {
     "CFG"
   ], {
     A: 'botania:mana_tablet',
-    B: 'gtceu:manasteel_screw',
-    C: 'gtceu:manasteel_rod',
-    D: 'gtceu:manasteel_plate',
-    E: 'gtceu:manasteel_ring',
-    F: 'gtceu:manasteel_bolt',
+    B: 'gtceu:mana_steel_screw',
+    C: 'gtceu:mana_steel_rod',
+    D: 'gtceu:mana_steel_plate',
+    E: 'gtceu:mana_steel_ring',
+    F: 'gtceu:mana_steel_bolt',
     G: '#forge:tools/hammers'
   })
   //manaringgreater
@@ -330,11 +330,11 @@ ServerEvents.recipes(event => {
     "CFG"
   ], {
     A: 'botania:mana_ring',
-    B: 'gtceu:terrasteel_screw',
-    C: 'gtceu:terrasteel_rod',
-    D: 'gtceu:terrasteel_plate',
-    E: 'gtceu:terrasteel_ring',
-    F: 'gtceu:terrasteel_bolt',
+    B: 'gtceu:terra_steel_screw',
+    C: 'gtceu:terra_steel_rod',
+    D: 'gtceu:terra_steel_plate',
+    E: 'gtceu:terra_steel_ring',
+    F: 'gtceu:terra_steel_bolt',
     G: '#forge:tools/hammers'
   })
   event.shaped(
@@ -343,7 +343,7 @@ ServerEvents.recipes(event => {
     "ACA",
     " D "
   ], {
-    A: 'gtceu:terrasteel_plate',
+    A: 'gtceu:terra_steel_plate',
     B: 'botania:manasteel_pick',
     C: 'botania:mana_tablet',
     D: 'botania:livingwood_twig',
@@ -355,10 +355,10 @@ ServerEvents.recipes(event => {
     "EDE"
   ], {
     A: 'botania:livingwood_twig',
-    B: 'gtceu:terrasteel_plate',
+    B: 'gtceu:terra_steel_plate',
     C: 'botania:manasteel_helmet',
     D: 'botania:rune_spring',
-    E: 'gtceu:terrasteel_foil'
+    E: 'gtceu:terra_steel_foil'
   })
   event.shaped(
     Item.of('botania:terrasteel_chestplate', 1), [
@@ -368,10 +368,10 @@ ServerEvents.recipes(event => {
   ], {
     A: 'botania:livingwood_twig',
     B: 'botania:rune_summer',
-    C: 'gtceu:double_terrasteel_plate',
+    C: 'gtceu:double_terra_steel_plate',
     D: 'botania:manasteel_chestplate',
-    E: 'gtceu:terrasteel_screw',
-    F: 'gtceu:small_terrasteel_gear'
+    E: 'gtceu:terra_steel_screw',
+    F: 'gtceu:small_terra_steel_gear'
   })
   event.shaped(
     Item.of('botania:terrasteel_leggings', 1), [
@@ -379,12 +379,12 @@ ServerEvents.recipes(event => {
     "CDC",
     "EFE"
   ], {
-    A: 'gtceu:terrasteel_rod',
+    A: 'gtceu:terra_steel_rod',
     B: 'botania:manasteel_leggings',
-    C: 'gtceu:terrasteel_plate',
+    C: 'gtceu:terra_steel_plate',
     D: 'botania:rune_autumn',
-    E: 'gtceu:terrasteel_foil',
-    F: 'gtceu:terrasteel_ring'
+    E: 'gtceu:terra_steel_foil',
+    F: 'gtceu:terra_steel_ring'
   })
   event.shaped(
     Item.of('botania:terrasteel_boots', 1), [
@@ -393,9 +393,9 @@ ServerEvents.recipes(event => {
     "DED"
   ], {
     A: 'botania:livingwood_twig',
-    B: 'gtceu:terrasteel_rod',
+    B: 'gtceu:terra_steel_rod',
     C: 'botania:manasteel_boots',
-    D: 'gtceu:terrasteel_foil',
+    D: 'gtceu:terra_steel_foil',
     E: 'botania:rune_winter',
   })
   //spring
@@ -640,7 +640,7 @@ ServerEvents.recipes(event => {
         "item": "botania:alfheim_portal"
       },
       {
-        "item": "gtceu:terrasteel_ingot"
+        "item": "gtceu:terra_steel_ingot"
       }
     ],
     "mana": 20000,
@@ -668,7 +668,7 @@ ServerEvents.recipes(event => {
         "tag": "minecraft:leaves"
       },
       {
-        "item": "gtceu:elementium_steel_ingot"
+        "item": "gtceu:elementium_ingot"
       }
     ],
     "mana": 20000,
@@ -696,7 +696,7 @@ ServerEvents.recipes(event => {
         "item": "minecraft:grass_block"
       },
       {
-        "item": "gtceu:manasteel_ingot"
+        "item": "gtceu:mana_steel_ingot"
       }
     ],
     "mana": 20000,

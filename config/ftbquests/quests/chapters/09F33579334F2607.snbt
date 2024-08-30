@@ -212,7 +212,7 @@
 			subtitle: "似乎是一个魔力的集合体"
 			tasks: [{
 				id: "2EE13684076752DC"
-				item: "gtceu:terrasteel_ingot"
+				item: "gtceu:terra_steel_ingot"
 				type: "item"
 			}]
 			x: 7.0d
@@ -263,7 +263,7 @@
 			tasks: [
 				{
 					id: "2C39F093F3F3687A"
-					item: "gtceu:elementium_steel_ingot"
+					item: "gtceu:elementium_ingot"
 					type: "item"
 				}
 				{
