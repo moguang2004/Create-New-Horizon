@@ -102,7 +102,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             machine.getHolder().self().persistentData.putFloat('energy', rate * basic_rate * 512)
             return newrecipe
         })
-        //.appearanceBlock(GTBlocks.get('kubejs:manasteel_casing'))
+        //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("AAAAAAA")
             .aisle("ABBBBBA")
@@ -194,7 +194,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             machine.getHolder().self().persistentData.putFloat('energy', rate * basic_rate * 512)
             return newrecipe
         })
-        //.appearanceBlock(GTBlocks.get('kubejs:manasteel_casing'))
+        //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("AAAAAAA")
             .aisle("ABBBBBA")
@@ -286,7 +286,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             machine.getHolder().self().persistentData.putFloat('energy', rate * basic_rate * 512)
             return newrecipe
         })
-        //.appearanceBlock(GTBlocks.get('kubejs:manasteel_casing'))
+        //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("AAAAAAA")
             .aisle("ABBBBBA")

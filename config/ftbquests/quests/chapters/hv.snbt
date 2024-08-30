@@ -232,6 +232,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["11F898C7B0C925D5"]
 			id: "1E21F35AB1E1A7ED"
 			subtitle: "一堆板板"
 			tasks: [
@@ -391,6 +392,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["082ABAF36B6EC7DC"]
 			id: "16243C6CC9C1CD8A"
 			tasks: [
 				{
@@ -458,8 +460,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 4.0d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2740F44657C0CF5A"]

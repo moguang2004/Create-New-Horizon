@@ -1,7 +1,12 @@
 ServerEvents.recipes(event => {
     let ingots = ['tin', 'silver', 'lead', 'nickel', 'vibrant_alloy', 'energetic_alloy', 'pulsalting_alloy', 'dark_steel', 'end_steel', 'conductive_alloy', 'redstone_alloy', 'copper_alloy', 'soularium',
+<<<<<<< HEAD
         'uranium', 'osmium', 'zinc', 'cobalt', 'iridium', 'brass', 'bronze' ,'constantan', 'electrum', 'steel', 'sulfur', 'ender_pearl', 'manasteel',
         'terrasteel', 'calorite', 'desh', 'ostrum']
+=======
+        'uranium', 'osmium', 'zinc', 'cobalt', 'iridium', 'brass', 'constantan', 'electrum', 'steel', 'sulfur', 'ender_pearl',
+        'calorite', 'desh', 'ostrum']
+>>>>>>> d38128494aa34e0126aa6148b29b072164034745
     let mod = 'gtceu'
 
     for (let i of ingots) {
@@ -124,16 +129,27 @@ ServerEvents.recipes(event => {
     event.replaceOutput({}, 'create:powered_obsidian', 'gtceu:obsidian_dust')
     event.replaceInput({}, 'create:powered_obsidian', 'gtceu:obsidian_dust')
 
-    event.replaceInput({}, 'botania:manasteel_ingot', 'gtceu:manasteel_ingot')
-    event.replaceOutput({}, 'botania:manasteel_ingot', 'gtceu:manasteel_ingot')
-    event.replaceInput({}, 'botania:terrasteel_ingot', 'gtceu:terrasteel_ingot')
-    event.replaceOutput({}, 'botania:terrasteel_ingot', 'gtceu:terrasteel_ingot')
-    event.replaceInput({}, 'botania:elementium_ingot', 'gtceu:elementium_steel_ingot')
-    event.replaceOutput({}, 'botania:elementium_ingot', 'gtceu:elementium_steel_ingot')
-    event.replaceInput({}, 'gtceu:elementium_ingot', 'gtceu:elementium_steel_ingot')
-    event.replaceOutput({}, 'gtceu:elementium_ingot', 'gtceu:elementium_steel_ingot')
-    event.replaceInput({}, 'gtceu:elementium_block', 'gtceu:elementium_steel_block')
-    event.replaceOutput({}, 'gtceu:elementium_block', 'gtceu:elementium_steel_block')
+    const bot_materials = [
+        ["manasteel", "mana_steel"],
+        ["terrasteel", "terra_steel"],
+        ["elementium", "elementium"],
+    ]
+    bot_materials.forEach(material => {
+        remove_recipes_id(event, [
+            `botania:conversions/${material[0]}_from_nugget`,
+            `botania:conversions/${material[0]}_to_nugget`,
+            `botania:conversions/${material[0]}_from_nuggets`,
+            `botania:conversions/${material[0]}_to_nuggets`,
+            `botania:${material[0]}_block`,
+            `botania:conversions/${material[0]}_block_deconstruct`,
+        ])
+        event.replaceInput({}, `botania:${material[0]}_ingot`, `gtceu:${material[1]}_ingot`)
+        event.replaceOutput({}, `botania:${material[0]}_ingot`, `gtceu:${material[1]}_ingot`)
+        event.replaceInput({}, `botania:${material[0]}_nugget`, `gtceu:${material[1]}_nugget`)
+        event.replaceOutput({}, `botania:${material[0]}_nugget`, `gtceu:${material[1]}_nugget`)
+        event.replaceInput({}, `botania:${material[0]}_block`, `gtceu:${material[1]}_block`)
+        event.replaceOutput({}, `botania:${material[0]}_block`, `gtceu:${material[1]}_block`)
+    })
 
     event.replaceInput({}, 'tetranichematerials:red_gold_ingot', 'gtceu:rose_gold_ingot')
     event.replaceInput({}, 'tetranichematerials:bronnum_ingot', 'gtceu:bronze_ingot')

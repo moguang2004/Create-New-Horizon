@@ -109,9 +109,11 @@ ServerEvents.recipes(event => {
         "create:millstone",
         "enderio:soularium_ingot",
         "enderio:energetic_alloy_ingot",
+        "betterend:ender_block",
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot",
+        "betterend:ender_block",
     ])
 
     event.remove({ id: /thermal:parts(.*)_gear/ })

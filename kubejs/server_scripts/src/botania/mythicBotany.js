@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     "group": "infuser",
     "ingredients": [
       {
-        "item": "gtceu:manasteel_ingot"
+        "item": "gtceu:mana_steel_ingot"
       },
       {
         "item": "botania:mana_pearl"
@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
     "mana": 500000,
     "output": {
       "count": 1,
-      "item": "gtceu:terrasteel_ingot"
+      "item": "gtceu:terra_steel_ingot"
     },
     "toColor": 65280
   }).id('mythicbotany:mythicbotany_infusion/terrasteel_ingot')

@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('mana_macerator', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('macerator')
-        //.appearanceBlock(GTBlocks.get('kubejs:manasteel_casing'))
+        //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
         .recipeModifier((machine, recipe) => {
             let newrecipe = recipe.copy()
             newrecipe = GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK).apply(machine, newrecipe)
@@ -16,7 +16,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle("ABBA", "A@DA", "ABBA")
             .where("A", Predicates.blocks("botania:polished_livingrock")
                 .or(Predicates.autoAbilities(definition.getRecipeTypes())))
-            .where("B", Predicates.blocks("kubejs:manasteel_casing"))
+            .where("B", Predicates.blocks("kubejs:mana_steel_casing"))
             .where("C", Predicates.blocks("gtceu:steel_gearbox"))
             .where("D", Predicates.abilities(PartAbility.IMPORT_FLUIDS))
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))

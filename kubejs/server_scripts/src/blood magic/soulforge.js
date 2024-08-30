@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
     C: 'gtceu:dark_steel_block',
     D: 'bloodmagic:blankslate',
     E: 'botania:elf_glass_pane',
-    F: 'gtceu:small_terrasteel_gear',
+    F: 'gtceu:small_terra_steel_gear',
     G: 'gtceu:dark_steel_gear',
     H: 'gtceu:dark_steel_rod',
     I: 'botania:rune_fire'
