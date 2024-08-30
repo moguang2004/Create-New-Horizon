@@ -20,6 +20,7 @@ LootJS.modifiers(event => {
         .replaceLoot('enderio:redstone_alloy_ingot', 'gtceu:redstone_alloy_ingot', true)
         .replaceLoot('enderio:pulsating_alloy_ingot', 'gtceu:pulsating_alloy_ingot', true)
         .replaceLoot('enderio:vibrant_alloy_ingot', 'gtceu:vibrant_alloy_ingot', true)
+        .replaceLoot('minecraft:gold_ore','gtceu:precious_alloy_ore')
         .removeLoot('bloodmagic:strong_tau')
         .removeLoot('minecraft:flint_and_steel')
     //event.addLootTableModifier('dun')

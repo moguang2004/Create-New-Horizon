@@ -5,7 +5,7 @@
 	group: "71414D2BDE140EDA"
 	icon: "cold_sweat:thermometer"
 	id: "54B797AC4B918CD0"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

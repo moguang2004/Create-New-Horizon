@@ -5,7 +5,7 @@
 	group: "71414D2BDE140EDA"
 	icon: "ae2:charged_certus_quartz_crystal"
 	id: "0C47ABD5DF78C460"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

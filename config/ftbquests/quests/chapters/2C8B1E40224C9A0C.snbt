@@ -5,7 +5,7 @@
 	group: "71414D2BDE140EDA"
 	icon: "minecraft:compass"
 	id: "2C8B1E40224C9A0C"
-	order_index: 7
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -87,6 +87,17 @@
 		{
 			dependencies: ["12316D2A6DC56654"]
 			id: "60F22A89A32E0DD5"
+			rewards: [{
+				id: "56F072EA6315139A"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_map"
+					tag: {
+						StructureTargetResourceKey: "alexscaves:underground_cabin"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "11E87C8E711D9668"
 				title: "Alex Caves"

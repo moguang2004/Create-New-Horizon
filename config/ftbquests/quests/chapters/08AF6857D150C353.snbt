@@ -35,10 +35,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"384AAEC5A353F60E"
-				"5029589F8908B0AA"
-			]
+			dependencies: ["384AAEC5A353F60E"]
 			id: "2534B56E45BA42B0"
 			tasks: [{
 				id: "33BAE42A3FDE47CE"
@@ -76,8 +73,10 @@
 				"0F0FD5A39ED435FF"
 				"2116B713C128D537"
 				"649DB4832335BB50"
+				"2534B56E45BA42B0"
 			]
 			id: "5029589F8908B0AA"
+			subtitle: "比焦煤更好"
 			tasks: [{
 				id: "6D3AD494E78A5A1C"
 				item: "kubejs:high_quality_solid_fuel"

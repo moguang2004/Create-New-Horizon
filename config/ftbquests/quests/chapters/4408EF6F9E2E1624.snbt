@@ -293,6 +293,7 @@
 		}
 		{
 			id: "7857C9428A51E9BC"
+			optional: true
 			subtitle: "早期磨粉必备"
 			tasks: [{
 				id: "65129358E3EFF5E9"
@@ -514,6 +515,18 @@
 			}]
 			x: -6.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["25CADEFA5DCB0244"]
+			id: "0829FFD7D670E5DE"
+			subtitle: "方便自动化输入输出"
+			tasks: [{
+				id: "243E9517B1B097A2"
+				item: "gtceu:coke_oven_hatch"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
 		}
 	]
 	title: "安山时代"

@@ -1,5 +1,11 @@
+const { $Registry } = require("packages/net/minecraft/core/$Registry")
+const { $ServerLevel } = require("packages/net/minecraft/server/level/$ServerLevel")
+const { $TagKey } = require("packages/net/minecraft/tags/$TagKey")
+const { $EyeOfEnder } = require("packages/net/minecraft/world/entity/projectile/$EyeOfEnder")
 const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
-
+// const $EyeofEnder = Java.loadClass('net.minecraft.world.entity.projectile.EyeOfEnder')
+// const $Registry = Java.loadClass('net.minecraft.core.Registry')
+// const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')
 //priority 10
 Platform.getInfo('kubejs').name = 'Create: New Horizon'
 
@@ -74,6 +80,26 @@ StartupEvents.registry("item", event => {
     event.create('stone_process_catalyst')
     event.create('bauxite_process_catalyst')
     event.create('tallow').burnTime('1600')
+    event.create('eye_of_underground_cabin')
+    .use((/**@type {$ServerLevel}*/level,player,interactionhand) =>{
+        let item = player.getHeldItem(interactionhand)
+        player.startUsingItem(interactionhand)
+        if(!level.isClientSide){
+            let pos = level.findNearestMapStructure($TagKey.create($Registry.STRUCTURE_REGISTRY, 'alexscaves:underground_cabin'),player.blockPosition,100,false)
+            if(pos){
+                let eye = new $EyeOfEnder(level, player.getX(), player.getY(0.5), player.getZ())
+                eye.setItem(item)
+                eye.signalTo(pos)
+                player.swing()
+                eye.spawn()
+                item.shrink(1)
+                level.playSound(null, player.x, player.y, player.z, 'entity.ender_eye.launch', player.getSoundSource(), 0.5, 0.5)
+                player.swing(interactionhand)
+                return true
+            }
+        }
+        return false
+    })
 })
 StartupEvents.registry("block", event => {
     event.create('steel_casing')

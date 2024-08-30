@@ -5,7 +5,7 @@
 	group: "71414D2BDE140EDA"
 	icon: "buildinggadgets2:gadget_building"
 	id: "62876F01654DC6E9"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

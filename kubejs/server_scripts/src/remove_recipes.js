@@ -80,7 +80,10 @@ ServerEvents.recipes(event => {
         "enderio:stick",
         "enderio:wood_gear",
         "enderio:wood_gear_corner",
-        "enderio:stirling_generator"
+        "enderio:stirling_generator",
+        "minecraft:iron_trapdoor",
+        "betterend:thallasium_trapdoor",
+        "create:mixing/brass_ingot"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

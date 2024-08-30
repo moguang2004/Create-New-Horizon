@@ -287,10 +287,10 @@ ServerEvents.recipes(event => {
           .notConsumable('gtceu:palladium_on_carbon_dust')
           .notConsumableFluid(Fluid.of('gtceu:ethylbenzene', 1000))
           .notConsumableFluid(Fluid.of('gtceu:hydrobromic_acid', 1000))
-          //.addCondition(new PlantCasingCondition(PlantCasingBlock.STAINLESS))
           //.notConsumable(Fluid.of('gtceu:dimethylformamide',1000))
           .EUt(30720)
           .duration(100)
+          .addCondition(GTNNRecipes.INSTANCE.setPlantCasing(6))
 
      ctnh.chemical_reactor('hydrobromic_acid')
           .inputFluids(Fluid.of('gtceu:bromine', 1000))
