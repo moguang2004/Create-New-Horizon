@@ -115,12 +115,54 @@
 		}
 		{
 			dependencies: ["71D83506BCD67EF2"]
+			description: [
+				"&a以下是搭建一台抽油机的基本顺序&r："
+				""
+				"在离地 3 格（若稍后使用大号的抽油机曲柄则为 4 格）的位置放置一个抽油机轴承，作为抽油机臂的转轴；"
+				""
+				"搭建前臂，从抽油机轴承的具有粘性的一段水平延伸数格&4（至少1格）&r，在末端放置一个抽油机驴头；"
+				""
+				"在抽油机驴头正下方放置深至基岩层的竖直流体管道柱，在流体管道的上方放置抽油机油泵，在这一步中要确保抽油机油泵以及流体管道位于含油区块；"
+				""
+				"搭建后臂，即将前臂反向延长数格&4（至少4格）&r，在末端放置一个抽油机轴承；"
+				""
+				"使用扳手右击上一步放置的抽油机轴承，以转换其外观，并在其下方放置一个抽油机曲柄；"
+				""
+				"使用强力胶黏合从抽油机臂一端的抽油机驴头到另一端的抽油机轴承；"
+				""
+				"空手右击作为转轴的抽油机轴承，组装完成，输入旋转力并使用流体管道从抽油机油泵抽出原油即可。"
+				"{@pagebreak}"
+				"原油输出的速度和几个因素有关："
+				""
+				"1.输入的转速越高，抽取越快（注意转速到达一定数值之后，抽油机的转速不会再上升）"
+				"2.抽油机前臂：后臂的比值越大，抽取速度越快"
+				"3.大号抽油机比小号抽油机抽取速度快"
+			]
 			id: "0DA7785CF55ABAAB"
-			tasks: [{
-				id: "6A94E9FE0C9AC1A0"
-				item: "createdieselgenerators:pumpjack_hole"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6A94E9FE0C9AC1A0"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3C426FAD847BF672"
+					item: { Count: 2, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "44995081187636C5"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "01F00B505A8C928C"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+			]
+			title: "原油抽取"
 			x: -4.0d
 			y: -1.0d
 		}
@@ -139,8 +181,8 @@
 			dependencies: ["0DA7785CF55ABAAB"]
 			id: "6397FCC9081360A5"
 			tasks: [{
-				id: "184B4F030273516B"
-				item: "createdieselgenerators:crude_oil_bucket"
+				id: "251E1F73C6A9AAC8"
+				item: "gtceu:impure_oil_bucket"
 				type: "item"
 			}]
 			x: -4.0d
@@ -156,62 +198,6 @@
 			}]
 			x: 1.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["2C6B53F9425ACB79"]
-			id: "26CA67F9962BFEF9"
-			tasks: [{
-				id: "359C90658F400A1E"
-				item: "createdieselgenerators:ethanol_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"26CA67F9962BFEF9"
-				"1FB06064EB732031"
-			]
-			id: "70277341C68A50DF"
-			tasks: [{
-				id: "4AF723FDA9081AF1"
-				item: "createdieselgenerators:biodiesel_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			id: "1FB06064EB732031"
-			tasks: [{
-				id: "5E5E1EEEF4733DB0"
-				item: "createdieselgenerators:plant_oil_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"6397FCC9081360A5"
-				"2D138FB6F66ED4D5"
-			]
-			id: "16DD157F1004DB40"
-			tasks: [
-				{
-					id: "3107781A0A95845C"
-					item: "createdieselgenerators:gasoline_bucket"
-					type: "item"
-				}
-				{
-					id: "50047310C8519047"
-					item: "createdieselgenerators:diesel_bucket"
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: 3.0d
 		}
 		{
 			id: "2D138FB6F66ED4D5"
@@ -290,8 +276,8 @@
 				title: "访问下界"
 				type: "dimension"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2534B56E45BA42B0"]
@@ -315,6 +301,303 @@
 			}]
 			x: 3.5d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6397FCC9081360A5"
+				"2D138FB6F66ED4D5"
+			]
+			id: "01225A51A3963F11"
+			tasks: [{
+				id: "4045D78252AD026A"
+				item: "gtceu:bitumen_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EF838EF4607A41D"]
+			id: "0AE0727C431D39A5"
+			subtitle: "留到MV进行处理"
+			tasks: [{
+				id: "4819ADF162A3E004"
+				item: "gtceu:oil_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6397FCC9081360A5"]
+			id: "31105ADA8A75BD01"
+			subtitle: "可以烧，也可以留到MV后续处理"
+			tasks: [{
+				id: "00F4CFFD57E04AFB"
+				item: "gtceu:sulfuric_naphtha_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6397FCC9081360A5"]
+			id: "327A7C4C3C7404CC"
+			subtitle: "可以烧，也可以留到MV后续处理"
+			tasks: [{
+				id: "423F14BBB55CD067"
+				item: "gtceu:sulfuric_heavy_fuel_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78C907D8AEA05A18"]
+			id: "501574CAF685828A"
+			tasks: [{
+				id: "3AFEA4B9DFA82D54"
+				item: "gtceu:emulsified_bitumen_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"25373674A1A9932C"
+				"2FC92689C24682AA"
+			]
+			id: "7AA11BFF6F7D4D48"
+			tasks: [{
+				id: "4153CD7E2BD5C1D8"
+				item: "gtceu:simple_emulgator_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"01225A51A3963F11"
+				"7AA11BFF6F7D4D48"
+			]
+			id: "78C907D8AEA05A18"
+			tasks: [{
+				id: "6C0225E8BD53EEFD"
+				item: "gtceu:emulsified_bitumen_slurry_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["08C88706F994E458"]
+			id: "2FC92689C24682AA"
+			tasks: [{
+				id: "17D4CC6BA58BE028"
+				item: "gtceu:soda_ash_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			id: "25373674A1A9932C"
+			subtitle: "屠刀杀部分动物获得"
+			tasks: [{
+				id: "4149619485BBB7D2"
+				item: "kubejs:tallow"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "08C88706F994E458"
+			tasks: [{
+				id: "5694B31384C8BB1A"
+				item: "gtceu:raw_trona"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"501574CAF685828A"
+				"3F8458C2BA5156BF"
+			]
+			id: "7EF838EF4607A41D"
+			tasks: [{
+				id: "5B553B9B0975C1E3"
+				item: "gtceu:pure_bitumen_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"360FC758DC80E8B5"
+				"2FC92689C24682AA"
+			]
+			id: "3F8458C2BA5156BF"
+			tasks: [{
+				id: "1B9FB0543F9BF0F2"
+				item: "gtceu:simple_demulsifier_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D588967555748D9"]
+			id: "360FC758DC80E8B5"
+			tasks: [{
+				id: "72B1D28E697C9AC6"
+				item: "gtceu:diluted_sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EF838EF4607A41D"]
+			id: "56BA200ABCEABC7A"
+			tasks: [{
+				id: "5D9DA2A1F623728D"
+				item: "gtceu:petroleum_coke_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["56BA200ABCEABC7A"]
+			id: "0858CB89E07BC65D"
+			tasks: [{
+				id: "1ECEDD3402CE53B9"
+				item: "gtceu:petroleum_coke_gem"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"2C6B53F9425ACB79"
+				"30733F339E6E47CE"
+			]
+			id: "06B1BB32F96710A2"
+			tasks: [{
+				id: "0D042241D5CFECD7"
+				item: "gtceu:ethanol_mixture_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06B1BB32F96710A2"]
+			id: "3C2319F21ED52FAE"
+			tasks: [{
+				id: "42AF2D6F2387F79A"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06B1BB32F96710A2"]
+			id: "2C18C2C4CA54D968"
+			tasks: [{
+				id: "2365A1402342CBDF"
+				item: "gtceu:fermented_biomass_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41BB77968B763B18"]
+			id: "30733F339E6E47CE"
+			tasks: [{
+				id: "229516F116F7AD2D"
+				item: "gtceu:rich_soil_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["189EA0629CFAD1AB"]
+			id: "41BB77968B763B18"
+			subtitle: "耐心等待收获的降临"
+			tasks: [{
+				id: "7F90E118B46EDCFA"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "189EA0629CFAD1AB"
+			tasks: [{
+				id: "620BF10408A855C5"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6DB370790E927958"
+				"712E77CB55012649"
+			]
+			id: "4A20A744ACDB0ABF"
+			tasks: [{
+				id: "27A801A962148FFC"
+				item: "gtceu:seed_oil_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4A20A744ACDB0ABF"
+				"3C2319F21ED52FAE"
+			]
+			id: "0FBB6BA03487D67F"
+			tasks: [{
+				id: "2D6D506C4E94FF0D"
+				item: "gtceu:raw_bio_diesel_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "712E77CB55012649"
+			tasks: [{
+				id: "0DDAD40EFABDDB77"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				title: "Any #forge:seeds"
+				type: "item"
+			}]
+			title: "种子"
+			x: 1.0d
+			y: 7.0d
 		}
 	]
 	title: "钢铁时代"

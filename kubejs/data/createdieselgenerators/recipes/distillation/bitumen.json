@@ -1,0 +1,25 @@
+{
+    "type": "createdieselgenerators:distillation",
+    "ingredients": [
+        {
+            "fluid": "gtceu:pure_bitumen",
+            "amount": 100
+        }
+    ],
+    "heatRequirement": "heated",
+    "processingTime": 200,
+    "results": [
+        {
+            "fluid": "gtceu:petroleum_coke",
+            "amount": 54
+        },
+        {
+            "fluid": "gtceu:oil",
+            "amount": 30
+        },
+        {
+            "fluid": "gtceu:sulfuric_heavy_fuel",
+            "amount": 20
+        }
+    ]
+}

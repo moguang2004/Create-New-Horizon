@@ -73,6 +73,7 @@ StartupEvents.registry("item", event => {
     event.create('platinum_metal_catalyst')
     event.create('stone_process_catalyst')
     event.create('bauxite_process_catalyst')
+    event.create('tallow').burnTime('1600')
 })
 StartupEvents.registry("block", event => {
     event.create('steel_casing')

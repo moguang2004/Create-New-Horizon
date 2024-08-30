@@ -107,6 +107,24 @@
 				"002CB5A52F6BAB96"
 			]
 			id: "0097B3514E01B21E"
+			rewards: [
+				{
+					id: "3258ECCFBCA4C562"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:toxic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7688A7F3B78C930F"
+					item: "gtceu:steel_drum"
+					type: "item"
+				}
+			]
 			subtitle: "装配线青春版？"
 			tasks: [{
 				id: "1B3C5434C6DF617A"

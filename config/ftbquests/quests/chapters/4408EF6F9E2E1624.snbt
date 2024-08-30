@@ -135,7 +135,7 @@
 		}
 		{
 			dependencies: ["1E74645D87740E1B"]
-			description: ["也许你找不到金锭是从哪来的，仔细查看一下JEI吧！"]
+			description: ["也许你找不到金锭是从哪来的，仔细查看一下JEI吧！请查看&a矿物处理&r章节"]
 			id: "5E5F4837CC1F047A"
 			shape: "gear"
 			size: 2.0d
