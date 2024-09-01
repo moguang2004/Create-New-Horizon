@@ -1,7 +1,7 @@
-const { $WorkableElectricMultiblockMachine } = require("packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine")
-const { $RecipeLogic } = require("packages/com/gregtechceu/gtceu/api/machine/trait/$RecipeLogic")
-const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe")
-const { $FormattingUtil } = require("packages/com/gregtechceu/gtceu/utils/$FormattingUtil")
+import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
+import { $RecipeLogic } from "packages/com/gregtechceu/gtceu/api/machine/trait/$RecipeLogic"
+import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
+import { $FormattingUtil } from "packages/com/gregtechceu/gtceu/utils/$FormattingUtil"
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('photovoltaic_power')

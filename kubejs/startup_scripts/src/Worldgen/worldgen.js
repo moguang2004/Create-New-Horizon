@@ -35,8 +35,7 @@ WorldgenEvents.remove(event => {
     "ad_astra:mars_iron_ore",
     "ad_astra:mars_ostrum_ore"
   ])
-  event.removeFeatureById('underground_ores', [
-    //FOR SOME REASON ADASTRA GENERATES ORES AT THIS GENERATION STEP      
+  event.removeFeatureById('underground_ores', [     
     'aether:gravitite_ore',
     'aether:gravitite_ore_buried',
     'aether:ambrosium_ore',

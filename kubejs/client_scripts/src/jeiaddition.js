@@ -1,4 +1,4 @@
-// const { $IRecipeLayoutBuilder } = require("packages/mezz/jei/api/gui/builder/$IRecipeLayoutBuilder");
+// import { $IRecipeLayoutBuilder } from "packages/mezz/jei/api/gui/builder/$IRecipeLayoutBuilder";
 
 // JEIAddedEvents.registerCategories((event) => {
 //     // Register a new CustomCategory with the id "kubejsadditions:painful_blocks".

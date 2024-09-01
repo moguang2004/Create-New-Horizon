@@ -2,10 +2,10 @@
 const LDLib = Java.loadClass("com.lowdragmc.lowdraglib.LDLib")
 const CycleItemStackHandler = Java.loadClass('com.lowdragmc.lowdraglib.utils.CycleItemStackHandler')
 const $CoilWorkableElectricMultiblockMachine = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine")
-const { $ICoilType } = require("packages/com/gregtechceu/gtceu/api/block/$ICoilType")
-const { $CoilBlock } = require("packages/com/gregtechceu/gtceu/common/block/$CoilBlock")
-const { $ArrayList } = require("packages/java/util/$ArrayList")
-const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
+import { $ICoilType } from "packages/com/gregtechceu/gtceu/api/block/$ICoilType"
+import { $CoilBlock } from "packages/com/gregtechceu/gtceu/common/block/$CoilBlock"
+import { $ArrayList } from "packages/java/util/$ArrayList"
+import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     const FormattingUtil = Java.loadClass('com.gregtechceu.gtceu.utils.FormattingUtil')

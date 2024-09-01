@@ -1,5 +1,5 @@
-const { $RegistrateEntityLootTables } = require("packages/com/tterrag/registrate/providers/loot/$RegistrateEntityLootTables")
-const { $EntityLootEventJS } = require("packages/dev/latvian/mods/kubejs/loot/$EntityLootEventJS")
+import { $RegistrateEntityLootTables } from "packages/com/tterrag/registrate/providers/loot/$RegistrateEntityLootTables"
+import { $EntityLootEventJS } from "packages/dev/latvian/mods/kubejs/loot/$EntityLootEventJS"
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('bio_reactor')

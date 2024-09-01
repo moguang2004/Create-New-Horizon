@@ -1,6 +1,6 @@
-const { $MetaMachine } = require("packages/com/gregtechceu/gtceu/api/machine/$MetaMachine")
-const { $WorkableElectricMultiblockMachine } = require("packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine")
-const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe")
+import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
+import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
+import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
 const LargeTurbineMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine")
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {

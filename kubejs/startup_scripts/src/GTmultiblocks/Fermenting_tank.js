@@ -1,8 +1,8 @@
-const { $MetaMachine } = require("packages/com/gregtechceu/gtceu/api/machine/$MetaMachine")
-const { $IMultiPart } = require("packages/com/gregtechceu/gtceu/api/machine/feature/multiblock/$IMultiPart")
-const { $MultiblockControllerMachine } = require("packages/com/gregtechceu/gtceu/api/machine/multiblock/$MultiblockControllerMachine")
-const { $IRecipeHandlerTrait } = require("packages/com/gregtechceu/gtceu/api/machine/trait/$IRecipeHandlerTrait")
-const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe")
+import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
+import { $IMultiPart } from "packages/com/gregtechceu/gtceu/api/machine/feature/multiblock/$IMultiPart"
+import { $MultiblockControllerMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$MultiblockControllerMachine"
+import { $IRecipeHandlerTrait } from "packages/com/gregtechceu/gtceu/api/machine/trait/$IRecipeHandlerTrait"
+import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')

@@ -1,4 +1,4 @@
-const { $RecipeJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipeJS")
+import { $RecipeJS } from "packages/dev/latvian/mods/kubejs/recipe/$RecipeJS"
 
 ServerEvents.recipes(event => {
   Ingredient.of('#minecraft:logs').getItemIds().forEach(e => {

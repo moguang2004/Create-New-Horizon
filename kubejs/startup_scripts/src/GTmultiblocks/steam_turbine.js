@@ -1,5 +1,5 @@
-const { $MetaMachine } = require("packages/com/gregtechceu/gtceu/api/machine/$MetaMachine")
-const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe")
+import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
+import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
 
 
 const RecipeHelper = Java.loadClass("com.gregtechceu.gtceu.api.recipe.RecipeHelper")

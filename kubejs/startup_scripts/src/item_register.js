@@ -1,8 +1,8 @@
-const { $Registry } = require("packages/net/minecraft/core/$Registry")
-const { $ServerLevel } = require("packages/net/minecraft/server/level/$ServerLevel")
-const { $TagKey } = require("packages/net/minecraft/tags/$TagKey")
-const { $EyeOfEnder } = require("packages/net/minecraft/world/entity/projectile/$EyeOfEnder")
-const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
+import { $Registry } from "packages/net/minecraft/core/$Registry"
+import { $ServerLevel } from "packages/net/minecraft/server/level/$ServerLevel"
+import { $TagKey } from "packages/net/minecraft/tags/$TagKey"
+import { $EyeOfEnder } from "packages/net/minecraft/world/entity/projectile/$EyeOfEnder"
+import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"
 // const $EyeofEnder = Java.loadClass('net.minecraft.world.entity.projectile.EyeOfEnder')
 // const $Registry = Java.loadClass('net.minecraft.core.Registry')
 // const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')
@@ -61,6 +61,9 @@ StartupEvents.registry("item", event => {
     event.create('broken_temperature_keeping_device').maxDamage(12000).tag('curios:body')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
             .curioTick((/**@type {$ItemStack}*/ itemstack, slotcontext) => {
+                if(itemstack.damageValue == 12000){
+                    itemstack.shrink(1)
+                }
                 itemstack.setDamageValue(itemstack.damageValue + 1)
                 return true
             })

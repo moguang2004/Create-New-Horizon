@@ -1,26 +1,38 @@
-const { $MetaMachine } = require("packages/com/gregtechceu/gtceu/api/machine/$MetaMachine")
-const { $IMultiPart } = require("packages/com/gregtechceu/gtceu/api/machine/feature/multiblock/$IMultiPart")
-const { $MultiblockControllerMachine } = require("packages/com/gregtechceu/gtceu/api/machine/multiblock/$MultiblockControllerMachine")
-const { $WorkableElectricMultiblockMachine } = require("packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine")
-const { $IRecipeHandlerTrait } = require("packages/com/gregtechceu/gtceu/api/machine/trait/$IRecipeHandlerTrait")
-const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe")
-const { $GTRecipeType } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipeType")
-const { $Content } = require("packages/com/gregtechceu/gtceu/api/recipe/content/$Content")
-const { $GameProfile } = require("packages/com/mojang/authlib/$GameProfile")
-const { $UUID } = require("packages/java/util/$UUID")
-const { EntityType } = require("packages/moe/wolfgirl/probejs/generated/registry/minecraft/EntityType")
-const { $Holder } = require("packages/net/minecraft/core/$Holder")
-const { $StringTag } = require("packages/net/minecraft/nbt/$StringTag")
-const { $DamageSource } = require("packages/net/minecraft/world/damagesource/$DamageSource")
-const { $DamageType } = require("packages/net/minecraft/world/damagesource/$DamageType")
-const { $Entity } = require("packages/net/minecraft/world/entity/$Entity")
-const { $EntityType } = require("packages/net/minecraft/world/entity/$EntityType")
-const { $LivingEntity } = require("packages/net/minecraft/world/entity/$LivingEntity")
-const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
-const { $LootParams$Builder } = require("packages/net/minecraft/world/level/storage/loot/$LootParams$Builder")
-const { $LootContextParamSet$Builder } = require("packages/net/minecraft/world/level/storage/loot/parameters/$LootContextParamSet$Builder")
-const { $FakePlayer } = require("packages/net/minecraftforge/common/util/$FakePlayer")
+import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
+import { $IMultiPart } from "packages/com/gregtechceu/gtceu/api/machine/feature/multiblock/$IMultiPart"
+import { $MultiblockControllerMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$MultiblockControllerMachine"
+import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
+import { $IRecipeHandlerTrait } from "packages/com/gregtechceu/gtceu/api/machine/trait/$IRecipeHandlerTrait"
+import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
+import { $GTRecipeType } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipeType"
+import { $Content } from "packages/com/gregtechceu/gtceu/api/recipe/content/$Content"
+import { $GameProfile } from "packages/com/mojang/authlib/$GameProfile"
+import { $UUID } from "packages/java/util/$UUID"
+import { EntityType } from "packages/moe/wolfgirl/probejs/generated/registry/minecraft/EntityType"
+import { $Holder } from "packages/net/minecraft/core/$Holder"
+import { $StringTag } from "packages/net/minecraft/nbt/$StringTag"
+import { $DamageSource } from "packages/net/minecraft/world/damagesource/$DamageSource"
+import { $DamageType } from "packages/net/minecraft/world/damagesource/$DamageType"
+import { $Entity } from "packages/net/minecraft/world/entity/$Entity"
+import { $EntityType } from "packages/net/minecraft/world/entity/$EntityType"
+import { $LivingEntity } from "packages/net/minecraft/world/entity/$LivingEntity"
+import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"
+import { $LootParams$Builder } from "packages/net/minecraft/world/level/storage/loot/$LootParams$Builder"
+import { $LootContextParamSet$Builder } from "packages/net/minecraft/world/level/storage/loot/parameters/$LootContextParamSet$Builder"
+import { $FakePlayer } from "packages/net/minecraftforge/common/util/$FakePlayer"
 
+function randomString(len) {
+    if (len === undefined) {
+        len = 32;
+    }
+    let strVals = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';
+    let maxLen = strVals.length;
+    let randomStr = '';
+    for (var i = 0; i < len; i++) {
+        randomStr += strVals.charAt(Math.floor(Math.random() * maxLen));
+    }
+    return randomStr;
+}
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('slaughter_house')
@@ -40,8 +52,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     const LootContextParams = Java.loadClass('net.minecraft.world.level.storage.loot.parameters.LootContextParams')
     const GTRecipeBuilder = Java.loadClass('com.gregtechceu.gtceu.data.recipe.builder.GTRecipeBuilder')
     const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
-    let uuid1 = $UUID.randomUUID()
-    let uuid2 = $UUID.randomUUID()
+    let uuid1 = randomString(16)
+    let uuid2 = randomString(16)
     event.create('slaughter_house', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('slaughter_house')

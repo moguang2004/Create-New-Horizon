@@ -432,7 +432,7 @@ LootJS.modifiers(event => {
             pool.rolls([2, 4])
             pool.addAlternativesLoot(gtceuhv)
         })
-    event.enableLogging()
+    //event.enableLogging()
 
 
     event.addBlockLootModifier('ae2:flawless_budding_quartz')

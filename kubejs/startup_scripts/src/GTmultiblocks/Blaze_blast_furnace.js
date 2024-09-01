@@ -1,6 +1,6 @@
-const { $WorkableElectricMultiblockMachine } = require("packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine")
-const { $GTRecipe } = require("packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe")
-const { $ContentModifier } = require("packages/com/gregtechceu/gtceu/api/recipe/content/$ContentModifier")
+import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
+import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
+import { $ContentModifier } from "packages/com/gregtechceu/gtceu/api/recipe/content/$ContentModifier"
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')

@@ -1,4 +1,4 @@
-const { $ItemStack } = require("packages/net/minecraft/world/item/$ItemStack")
+import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"
 
 ItemEvents.tooltip(tooltip =>{
     
