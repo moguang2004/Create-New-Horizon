@@ -10,7 +10,7 @@ LootJS.modifiers(event => {
         .replaceLoot('minecraft:gold_block', 'gtceu:precious_alloy_block', true)
         .replaceLoot('minecraft:gold_nugget', 'gtceu:precious_alloy_nugget', true)
         .replaceLoot('minecraft:raw_gold', 'gtceu:raw_precious_alloy', true)
-        .replaceLoot('botania:mana_steel_ingot', 'gtceu:mana_steel_ingot', true)
+        .replaceLoot('botania:manasteel_ingot', 'gtceu:mana_steel_ingot', true)
         .replaceLoot('minecraft:netherite_ingot', 'gtceu:netherite_ingot', true)
         .replaceLoot('ad_astra:desh_ingot', 'gtceu:desh_ingot', true)
         .replaceLoot('ad_astra:raw_desh', 'gtceu:raw_desh', true)

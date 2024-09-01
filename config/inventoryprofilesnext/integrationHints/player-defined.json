@@ -3,14 +3,23 @@
         "buttonHints": {
             "MOVE_TO_CONTAINER": {
                 "horizontalOffset": 36,
-                "bottom": -12
+                "bottom": 55
             },
             "CONTINUOUS_CRAFTING": {
                 "horizontalOffset": 24,
-                "bottom": -28
+                "bottom": 39
             },
             "SETTINGS": {
                 "top": -1
+            },
+            "SORT": {
+                "bottom": 67
+            },
+            "SORT_COLUMNS": {
+                "bottom": 67
+            },
+            "SORT_ROWS": {
+                "bottom": 67
             }
         }
     },

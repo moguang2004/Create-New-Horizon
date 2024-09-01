@@ -53,7 +53,7 @@
 				"367AD91A6445F6ED"
 				"708167FA2FF846B1"
 				"2CB2897505181D0F"
-				"1839C4ECCBB0643A"
+				"3D74B0DFDA2D20E0"
 			]
 			id: "614B88F2D27D2726"
 			subtitle: "磁生电"
@@ -115,26 +115,71 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["36093784D0910D2C"]
-			id: "1839C4ECCBB0643A"
-			optional: true
+			dependencies: ["71D83506BCD67EF2"]
+			description: [
+				"&a以下是搭建一台抽油机的基本顺序&r："
+				""
+				"在离地 3 格（若稍后使用大号的抽油机曲柄则为 4 格）的位置放置一个抽油机轴承，作为抽油机臂的转轴；"
+				""
+				"搭建前臂，从抽油机轴承的具有粘性的一段水平延伸数格&4（至少1格）&r，在末端放置一个抽油机驴头；"
+				""
+				"在抽油机驴头正下方放置深至基岩层的竖直流体管道柱，在流体管道的上方放置抽油机油泵，在这一步中要确保抽油机油泵以及流体管道位于含油区块；"
+				""
+				"搭建后臂，即将前臂反向延长数格&4（至少4格）&r，在末端放置一个抽油机轴承；"
+				""
+				"使用扳手右击上一步放置的抽油机轴承，以转换其外观，并在其下方放置一个抽油机曲柄；"
+				""
+				"使用强力胶黏合从抽油机臂一端的抽油机驴头到另一端的抽油机轴承；"
+				""
+				"空手右击作为转轴的抽油机轴承，组装完成，输入旋转力并使用流体管道从抽油机油泵抽出原油即可。"
+				"{@pagebreak}"
+				"原油输出的速度和几个因素有关："
+				""
+				"1.输入的转速越高，抽取越快（注意转速到达一定数值之后，抽油机的转速不会再上升）"
+				"2.抽油机前臂：后臂的比值越大，抽取速度越快"
+				"3.大号抽油机比小号抽油机抽取速度快"
+			]
+			id: "332E31C00C2602D9"
+			tasks: [
+				{
+					id: "4E4A5017C4164958"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "28DDA28B09A75C25"
+					item: { Count: 2, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "68662D975910ABE0"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "2FC1EA8D67B7E8EC"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+			]
+			title: "原油抽取"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"64C293C5E547D47D"
+				"332E31C00C2602D9"
+			]
+			id: "3D74B0DFDA2D20E0"
+			subtitle: "用这个产应力挺好的"
 			tasks: [{
-				id: "4F5D8564B4A0F9AC"
+				id: "29845EBC74E3DF38"
 				item: "createdieselgenerators:diesel_engine"
 				type: "item"
 			}]
 			x: -4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["71D83506BCD67EF2"]
-			id: "36093784D0910D2C"
-			tasks: [{
-				id: "4184D969C51D1A77"
-				item: "createdieselgenerators:pumpjack_hole"
-				type: "item"
-			}]
-			x: -6.5d
 			y: 1.5d
 		}
 	]

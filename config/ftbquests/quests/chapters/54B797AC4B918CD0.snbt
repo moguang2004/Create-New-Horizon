@@ -247,6 +247,101 @@
 			x: 8.0d
 			y: 1.0d
 		}
+		{
+			can_repeat: true
+			icon: "botania:rune_spring"
+			id: "5BC6B1FAD3D95941"
+			rewards: [{
+				auto: "enabled"
+				command: "/season set EARLY_SPRING"
+				exclude_from_claim_all: true
+				id: "71B3A289690DD023"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "如果你实在待不下去了......"
+			tasks: [{
+				id: "59A3F94D271FD2AF"
+				title: "跳至春天"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: "botania:rune_summer"
+			id: "44256EC9BCEDF250"
+			rewards: [{
+				auto: "enabled"
+				command: "/season set EARLY_SUMMER"
+				exclude_from_claim_all: true
+				id: "125448E3144D3265"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "如果你实在待不下去了......"
+			tasks: [{
+				id: "434DE86227485E57"
+				title: "跳至夏天"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: "botania:rune_autumn"
+			id: "2AD62536353E1C1F"
+			rewards: [{
+				auto: "enabled"
+				command: "/season set EARLY_AUTUMN"
+				exclude_from_claim_all: true
+				id: "255DD03BE65ABF1A"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "如果你实在待不下去了......"
+			tasks: [{
+				id: "765812B8F8D59766"
+				title: "跳至秋天"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: "botania:rune_winter"
+			id: "7006FE0B5D06F592"
+			rewards: [{
+				auto: "enabled"
+				command: "/season set EARLY_WINTER"
+				exclude_from_claim_all: true
+				id: "612FDE08153EAF1D"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "如果你实在待不下去了......"
+			tasks: [{
+				id: "0F8D556A99ED0738"
+				title: "跳至冬天"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			id: "3C238FF110A851ED"
+			subtitle: "可能会导致一些小bug，不过如果实在太难受的话，follow your heart"
+			tasks: [{
+				id: "4EFD7BAE7063D6A2"
+				title: "季节跳跃慎用"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
 	]
 	title: "冷汗"
 }

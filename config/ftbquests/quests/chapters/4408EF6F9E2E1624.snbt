@@ -315,11 +315,18 @@
 		{
 			dependencies: ["2460426DE77EF0F4"]
 			id: "25CADEFA5DCB0244"
-			rewards: [{
-				id: "727037DA4625C8DF"
-				item: "gtceu:exquisite_coke_gem"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "727037DA4625C8DF"
+					item: "gtceu:exquisite_coke_gem"
+					type: "item"
+				}
+				{
+					id: "6B76E5F6F6F0CC49"
+					item: "gtceu:terminal"
+					type: "item"
+				}
+			]
 			subtitle: "没有杂酚油，你怎么推科技？"
 			tasks: [
 				{
@@ -466,6 +473,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["摆放成雪傀儡的样子"]
 			icon: "minecraft:blaze_rod"
 			id: "29EDBE0D432B1D62"
 			subtitle: "这是不进入下界获得烈焰人的唯一办法"
@@ -526,7 +534,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 2.0d
+			y: 1.5d
 		}
 	]
 	title: "安山时代"

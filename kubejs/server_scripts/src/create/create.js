@@ -129,6 +129,7 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing('2x gtceu:andesite_alloy_dust', [Fluid.of('gtceu:iron', 144), '2x gtceu:andesite_dust'])
   event.recipes.create.mixing(Fluid.of('gtceu:bronze',576),[Fluid.of('gtceu:copper',432),Fluid.of('gtceu:tin',144)])
   event.recipes.create.mixing(Fluid.of('gtceu:brass',576),[Fluid.of('gtceu:copper',432),Fluid.of('gtceu:zinc',144)])
+  event.recipes.create.mixing(Fluid.of('gtceu:rubber',144),'gtceu:rubber_ingot').heated()
 })
 
 //序列组装

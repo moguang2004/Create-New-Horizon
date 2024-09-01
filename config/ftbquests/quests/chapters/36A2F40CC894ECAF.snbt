@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "36A2F40CC894ECAF"
+	group: "71414D2BDE140EDA"
+	icon: "minecraft:zombie_head"
+	id: "36A2F40CC894ECAF"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "70EEEE7E5F39EDCC"
+			subtitle: "利用精准采集II的工具可以采集获得"
+			tasks: [{
+				id: "2616D43437FC37B5"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "6FE01122768E1589"
+			subtitle: "直接破坏刷怪笼只能获得这个"
+			tasks: [{
+				id: "4AE8AC74093BE52E"
+				item: {
+					Count: 1
+					id: "enderio:broken_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6FE01122768E1589"]
+			id: "70775BD37338408D"
+			subtitle: "先将破损的刷怪笼绑定好某一种生物后，再合成电动刷怪笼"
+			tasks: [{
+				id: "3F32EA5E2AFEEC1A"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["70775BD37338408D"]
+			id: "61B334D440F18D22"
+			subtitle: "这个可快了 "
+			tasks: [{
+				id: "75AC944FC1381813"
+				item: "gtceu:slaughter_house"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+	]
+	title: "怪物资源"
+}
