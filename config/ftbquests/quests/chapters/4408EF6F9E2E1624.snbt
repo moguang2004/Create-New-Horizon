@@ -438,7 +438,6 @@
 			dependencies: [
 				"700219157D99E263"
 				"5CC765087238C3A3"
-				"3988470BCD80AE5A"
 			]
 			id: "7C9B89066D34939E"
 			tasks: [{
@@ -461,6 +460,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["7C9B89066D34939E"]
 			id: "3988470BCD80AE5A"
 			optional: true
 			subtitle: "更方便的制造玫瑰石英的手段"

@@ -111,7 +111,7 @@ GTCEuServerEvents.oreVeins(event => {
     })
     event.remove('gtceu:galena_vein')
     event.add('ctnh:chromite_vein', vein => {
-        vein.weight(100)
+        vein.weight(60)
         vein.clusterSize(40)
         vein.density(0.25)
         vein.discardChanceOnAirExposure(0)
@@ -134,13 +134,13 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.add('ctnh:cryolite_vein', vein => {
-        vein.weight(120)
+        vein.weight(90)
         vein.clusterSize(40)
         vein.density(0.25)
         vein.discardChanceOnAirExposure(0)
         vein.layer('twilightforest_layer')
         vein.dimensions('twilightforest:twilight_forest')
-        vein.heightRangeUniform(0, 40)
+        vein.heightRangeUniform(-30, 0)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(3).mat(GTMaterials.get('cryolite')).size(2, 4))
@@ -157,7 +157,7 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.add('ctnh:cryolite_vein_aether', vein => {
-        vein.weight(100)
+        vein.weight(40)
         vein.clusterSize(40)
         vein.density(0.45)
         vein.discardChanceOnAirExposure(0)
@@ -180,9 +180,9 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.add('ctnh:combustible_ice_vein_aether', vein => {
-        vein.weight(120)
-        vein.clusterSize(40)
-        vein.density(0.35)
+        vein.weight(80)
+        vein.clusterSize(30)
+        vein.density(0.55)
         vein.discardChanceOnAirExposure(0)
         vein.layer('aether')
         vein.dimensions('aether:the_aether')
@@ -203,7 +203,7 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.add('ctnh:bauxite_vein_aether', vein => {
-        vein.weight(120)
+        vein.weight(60)
         vein.clusterSize(40)
         vein.density(0.35)
         vein.discardChanceOnAirExposure(0)
@@ -225,9 +225,9 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.add('ctnh:scheelite_vein_aether', vein => {
-        vein.weight(80)
-        vein.clusterSize(40)
-        vein.density(0.25)
+        vein.weight(50)
+        vein.clusterSize(45)
+        vein.density(0.45)
         vein.discardChanceOnAirExposure(0)
         vein.layer('aether')
         vein.dimensions('aether:the_aether')
@@ -292,13 +292,36 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.add('ctnh:zircon_vein', vein => {
-        vein.weight(120)
+        vein.weight(40)
         vein.clusterSize(40)
         vein.density(0.35)
         vein.discardChanceOnAirExposure(0)
         vein.layer('all_layer')
-        vein.dimensions(['twilightforest:twilight_forest', 'minecraft:the_end'])
-        vein.heightRangeUniform(10, 30)
+        vein.dimensions('minecraft:the_end')
+        vein.heightRangeUniform(10, 50)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('zircon')).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Cobalt).size(1, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.Lead).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Uranium238).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get('zircon'))
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
+    })
+    event.add('ctnh:zircon_vein_tw', vein => {
+        vein.weight(80)
+        vein.clusterSize(40)
+        vein.density(0.35)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer('all_layer')
+        vein.dimensions('twilightforest:twilight_forest')
+        vein.heightRangeUniform(-30, 0)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(3).mat(GTMaterials.get('zircon')).size(2, 4))
@@ -315,8 +338,8 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.add('ctnh:zircon_vein_ae', vein => {
-        vein.weight(120)
-        vein.clusterSize(40)
+        vein.weight(80)
+        vein.clusterSize(50)
         vein.density(0.35)
         vein.discardChanceOnAirExposure(0)
         vein.layer('aether')
@@ -338,13 +361,13 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.add('ctnh:zirkelite_vein', vein => {
-        vein.weight(150)
-        vein.clusterSize(40)
+        vein.weight(60)
+        vein.clusterSize(50)
         vein.density(0.25)
         vein.discardChanceOnAirExposure(0)
         vein.layer('all_layer')
         vein.dimensions(['ad_astra:mars', 'ad_astra:venus', 'ad_astra:mercury'])
-        vein.heightRangeUniform(10, 40)
+        vein.heightRangeUniform(30, 80)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(3).mat(GTMaterials.get('zirkelite')).size(2, 4))
@@ -362,8 +385,8 @@ GTCEuServerEvents.oreVeins(event => {
     })
     event.add('ctnh:ancient_debris_vein', vein => {
         vein.weight(5)
-        vein.clusterSize(40)
-        vein.density(0.35)
+        vein.clusterSize(35)
+        vein.density(0.4)
         vein.discardChanceOnAirExposure(0)
         vein.layer(WorldGenLayers.NETHERRACK)
         vein.dimensions('minecraft:the_nether')

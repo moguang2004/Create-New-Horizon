@@ -84,7 +84,8 @@ ServerEvents.recipes(event => {
         "minecraft:iron_trapdoor",
         "betterend:thallasium_trapdoor",
         "create:mixing/brass_ingot",
-        "ad_astra:wrench"
+        "ad_astra:wrench",
+        "gtceu:combustion_generator/raw_oil"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

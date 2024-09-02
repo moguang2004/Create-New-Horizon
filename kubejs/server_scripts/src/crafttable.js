@@ -85,15 +85,6 @@ ServerEvents.recipes(event => {
         B: "create:large_cogwheel",
     })
     event.shaped(
-        Item.of("create:large_water_wheel", 1), [
-        "AAA",
-        "ABA",
-        "AAA"
-    ], {
-        A: "gtceu:treated_wood_planks",
-        B: "create:water_wheel",
-    })
-    event.shaped(
         Item.of("create:mechanical_drill", 1), [
         " D ",
         "CBC",

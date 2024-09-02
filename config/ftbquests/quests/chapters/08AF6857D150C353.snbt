@@ -599,6 +599,18 @@
 			x: 1.0d
 			y: 7.0d
 		}
+		{
+			dependencies: ["2534B56E45BA42B0"]
+			id: "4EF75F713E2D4357"
+			subtitle: "大型离心机"
+			tasks: [{
+				id: "18BF2572F42D3CF8"
+				item: "steamadditions:steam_separator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
 	]
 	title: "钢铁时代"
 }

@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     let pos2 = e.lastIndexOf('_')
     if(pos2 != -1 && !e.includes('stripped') && !e.includes('ars_nouveau') && !e.includes('botania') && !e.includes('ironwood') && !e.includes('golden_oak')){
       let result2 = e.substring(0, pos + 1) + e.substring(pos + 1, pos2 + 1) + 'planks'
-      console.info(result2)
+      //console.info(result2)
       event.shaped(
         Item.of(result2, 4), [
         "B",
