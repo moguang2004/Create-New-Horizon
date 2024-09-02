@@ -83,7 +83,8 @@ ServerEvents.recipes(event => {
         "enderio:stirling_generator",
         "minecraft:iron_trapdoor",
         "betterend:thallasium_trapdoor",
-        "create:mixing/brass_ingot"
+        "create:mixing/brass_ingot",
+        "ad_astra:wrench"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

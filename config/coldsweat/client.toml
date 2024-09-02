@@ -17,7 +17,7 @@
 	#Controls whether UI elements will shake when in critical conditions
 	"Icon Bobbing" = true
 	#The position of the body temperature icon relative to default
-	"Body Temperature Icon Offset" = [0, -11]
+	"Body Temperature Icon Offset" = [0, -3]
 	#Enables the body temperature icon above the hotbar
 	"Show Body Temperature Icon" = true
 	#The position of the body temperature readout relative to default

@@ -385,21 +385,6 @@
 		}
 		{
 			dependencies: [
-				"42DC74BF8FB5723A"
-				"2689A25C5C7BED52"
-				"77853271AECF4F7C"
-			]
-			id: "25186BB3512C8E11"
-			tasks: [{
-				id: "64D11F35A392FE6F"
-				item: "gtceu:rubber_ingot"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 7.0d
-		}
-		{
-			dependencies: [
 				"3573A946D77EBA28"
 				"7CC747DEA87811DA"
 			]
@@ -557,7 +542,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["25186BB3512C8E11"]
+			dependencies: ["1E7D3578400F9AE7"]
 			description: [
 				"可以用来控制机器的运行与停止。"
 				"&4（当你全家机器跳电的时候就知道怎么用了）&r"
@@ -568,13 +553,13 @@
 				id: "40FEFBAD0C7D0514"
 				item: {
 					Count: 1
-					id: "gtceu:rubber_mallet"
+					id: "gtceu:wood_mallet"
 					tag: {
 						DisallowContainerItem: 0b
 						GT.Behaviours: { }
 						GT.Tool: {
 							Damage: 0
-							MaxDamage: 255
+							MaxDamage: 127
 						}
 						HideFlags: 2
 					}
@@ -706,6 +691,26 @@
 			}]
 			x: 11.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["5CE79CE60BD5FC4D"]
+			id: "1E7D3578400F9AE7"
+			tasks: [{
+				count: 16L
+				id: "4D1B996D817E6D74"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "要致富，先撸树"
+			x: 3.5d
+			y: 7.0d
 		}
 	]
 	title: "实用小工具"

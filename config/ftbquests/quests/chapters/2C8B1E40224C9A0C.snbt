@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["60F22A89A32E0DD5"]
+			dependencies: ["04E2C1AE56B3C673"]
 			id: "201D7F340F8ED187"
 			subtitle: "探索磁场洞穴"
 			tasks: [{
@@ -19,11 +19,11 @@
 				title: "磁力洞穴"
 				type: "biome"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: -0.5d
 		}
 		{
-			dependencies: ["60F22A89A32E0DD5"]
+			dependencies: ["04E2C1AE56B3C673"]
 			id: "7A1D738315BBD040"
 			subtitle: "探索渊海陷窟"
 			tasks: [{
@@ -33,11 +33,11 @@
 				title: "深渊"
 				type: "biome"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["60F22A89A32E0DD5"]
+			dependencies: ["04E2C1AE56B3C673"]
 			id: "11EDB5B9EB1B6554"
 			subtitle: "探索毒化洞穴"
 			tasks: [{
@@ -53,11 +53,11 @@
 				title: "辐射之居"
 				type: "biome"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["60F22A89A32E0DD5"]
+			dependencies: ["04E2C1AE56B3C673"]
 			id: "5420D60930DD31A7"
 			subtitle: "探索原始洞穴"
 			tasks: [{
@@ -67,11 +67,11 @@
 				title: "原始暴乱"
 				type: "biome"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["60F22A89A32E0DD5"]
+			dependencies: ["04E2C1AE56B3C673"]
 			id: "1D74C6CC8DEB6158"
 			subtitle: "探索异寂空谷"
 			tasks: [{
@@ -81,23 +81,22 @@
 				title: "异寂空谷"
 				type: "biome"
 			}]
-			x: -4.0d
+			x: -6.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["12316D2A6DC56654"]
 			id: "60F22A89A32E0DD5"
 			rewards: [{
-				id: "56F072EA6315139A"
+				id: "0464156D5866E120"
 				item: {
 					Count: 1
-					id: "alexscaves:cave_map"
-					tag: {
-						StructureTargetResourceKey: "alexscaves:underground_cabin"
-					}
+					id: "explorerscompass:explorerscompass"
+					tag: { }
 				}
 				type: "item"
 			}]
+			subtitle: "用这个去找洞穴小屋，别想着偷懒去找那几个洞穴"
 			tasks: [{
 				id: "11E87C8E711D9668"
 				title: "Alex Caves"
@@ -115,7 +114,7 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: 2.5d
 		}
 		{
@@ -135,8 +134,8 @@
 				title: "地下小屋"
 				type: "structure"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["201D7F340F8ED187"]
@@ -147,7 +146,7 @@
 				item: "alexscaves:azure_neodymium_ingot"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: -1.0d
 		}
 		{
@@ -159,7 +158,7 @@
 				item: "alexscaves:scarlet_neodymium_ingot"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -171,7 +170,7 @@
 				item: "alexscaves:dark_tatters"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: 5.5d
 		}
 		{
@@ -183,7 +182,7 @@
 				item: "alexscaves:submarine"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -10.0d
 			y: 1.0d
 		}
 		{
@@ -195,7 +194,7 @@
 				item: "alexscaves:enigmatic_engine"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: 1.0d
 		}
 		{
@@ -207,7 +206,7 @@
 				item: "alexscaves:limestone"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: 3.5d
 		}
 		{
@@ -449,7 +448,7 @@
 				item: "alexscaves:tremorsaurus_egg"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -12.0d
 			y: 4.5d
 		}
 		{
@@ -466,7 +465,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -8.0d
 			y: 4.5d
 		}
 		{
@@ -478,7 +477,7 @@
 				title: "驯服撼地龙"
 				type: "checkmark"
 			}]
-			x: -8.0d
+			x: -10.0d
 			y: 4.5d
 		}
 		{
@@ -489,7 +488,7 @@
 				item: "alexscaves:tremorzilla_egg"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -14.0d
 			y: 4.5d
 		}
 		{
@@ -501,7 +500,7 @@
 				title: "孵化撼地斯拉"
 				type: "checkmark"
 			}]
-			x: -14.0d
+			x: -16.0d
 			y: 4.5d
 		}
 		{
@@ -513,7 +512,7 @@
 				item: "alexscaves:pearl"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -12.0d
 			y: 1.0d
 		}
 	]

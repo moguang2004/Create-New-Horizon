@@ -20,27 +20,27 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.modify("gtceu:banded_iron_vein", vein => {
-        vein.layeredVeinGenerator(generator => generator
-            .buildLayerPattern(pattern => pattern
-                .layer(l => l.weight(3).mat(GTMaterials.Goethite).size(2, 4))
-                .layer(l => l.weight(2).mat(GTMaterials.YellowLimonite).size(2, 2))
-                .layer(l => l.weight(2).mat(GTMaterials.Hematite).size(1, 1))
-                .layer(l => l.weight(1).mat(GTMaterials.get('precious_alloy')).size(1, 1))
-            )
-        )
-        // vein.veinedVeinGenerator(generator => generator
-        //     .oreBlock(GTMaterials.Goethite, 3) // 
-        //     .rareBlock(GTMaterials.YellowLimonite, 2)
-        //     .rareBlock(GTMaterials.Hematite, 2)
-        //     .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
-        //     .rareBlockChance(0.075)
-        //     .veininessThreshold(0.01)
-        //     .maxRichnessThreshold(0.175)
-        //     .minRichness(0.7)
-        //     .maxRichness(1.0)
-        //     .edgeRoundoffBegin(3) // 
-        //     .maxEdgeRoundoff(0.1) // 
+        // vein.layeredVeinGenerator(generator => generator
+        //     .buildLayerPattern(pattern => pattern
+        //         .layer(l => l.weight(3).mat(GTMaterials.Goethite).size(2, 4))
+        //         .layer(l => l.weight(2).mat(GTMaterials.YellowLimonite).size(2, 2))
+        //         .layer(l => l.weight(2).mat(GTMaterials.Hematite).size(1, 1))
+        //         .layer(l => l.weight(1).mat(GTMaterials.get('precious_alloy')).size(1, 1))
+        //     )
         // )
+        vein.veinedVeinGenerator(generator => generator
+            .oreBlock(GTMaterials.Goethite, 3) // 
+            .rareBlock(GTMaterials.YellowLimonite, 2)
+            .rareBlock(GTMaterials.Hematite, 2)
+            .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
+            .rareBlockChance(0.075)
+            .veininessThreshold(0.01)
+            .maxRichnessThreshold(0.175)
+            .minRichness(0.7)
+            .maxRichness(1.0)
+            .edgeRoundoffBegin(3) // 
+            .maxEdgeRoundoff(0.1) // 
+        )
     })
     event.modify('gtnn:gold_vein_tf', vein => {
         vein.layeredVeinGenerator(generator => generator
@@ -409,6 +409,30 @@ GTCEuServerEvents.oreVeins(event => {
                 .layer(l => l.weight(2).mat(GTMaterials.Copper).size(1, 1))
                 .layer(l => l.weight(2).mat(GTMaterials.YellowLimonite).size(1, 1))
                 .layer(l => l.weight(1).mat(GTMaterials.Hematite).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Zinc)
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
+    })
+
+    event.add('ctnh:precious_alloy_vein', vein =>{
+        vein.weight(60)
+        vein.clusterSize(40)
+        vein.density(0.35)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer('all_layer')
+        vein.dimensions('minecraft:overworld')
+        vein.heightRangeUniform(-20, 30)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('precious_alloy')).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Silver).size(2, 3))
+                .layer(l => l.weight(2).mat(GTMaterials.Tin).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Copper).size(1, 1))
             )
         )
         vein.surfaceIndicatorGenerator(indicator => indicator

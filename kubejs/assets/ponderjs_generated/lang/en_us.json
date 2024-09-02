@@ -1,4 +1,9 @@
 {
+  "kubejs.ponder.multiblock_building.header": "How to build a gregtech multiblock",
+  "kubejs.ponder.multiblock_building.text_1": "First, you need a multiblock main block.(Use a coke oven block as an example)",
+  "kubejs.ponder.multiblock_building.text_2": "Then the whole sturcture will be placed as you have enough blocks",
+  "kubejs.ponder.multiblock_building.text_3": "You can replace any block in the structure with a coke oven hatch",
+  "kubejs.ponder.multiblock_building.text_4": "So that you can export the fluid and item through it with pipes",
   "kubejs.ponder.ritual_diviner.header": "How to use ritual diviner",
   "kubejs.ponder.ritual_diviner.text_1": "First, you need a master ritual stone.",
   "kubejs.ponder.rune_ritual.header": "How to finish the rune ritual",

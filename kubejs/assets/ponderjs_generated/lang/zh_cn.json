@@ -4,5 +4,10 @@
     "kubejs.ponder.rune_ritual.header": "如何完成符文仪式",
     "kubejs.ponder.rune_ritual.text_1": "首先，放下一个大师符文支架",
     "kubejs.ponder.rune_ritual.text_2": "然后按照jei中显示的相对位置摆放好其余的符文支架",
-    "kubejs.ponder.rune_ritual.text_3": "在正确的位置上放上正确的物品"
+    "kubejs.ponder.rune_ritual.text_3": "在正确的位置上放上正确的物品",
+    "kubejs.ponder.multiblock_building.header": "如何搭建格雷科技的多方块",
+    "kubejs.ponder.multiblock_building.text_1": "首先你需要摆放一个控制器.(这里以焦炉为例)",
+    "kubejs.ponder.multiblock_building.text_2": "只要你手上有足够的对应方块，结构就会自动成型",
+    "kubejs.ponder.multiblock_building.text_3": "你可以将结构中的任意方块替换为焦炉仓",
+    "kubejs.ponder.multiblock_building.text_4": "这样你就可以通过它输出焦炉里的流体和物品了"
 }
