@@ -110,22 +110,13 @@
 		{
 			dependencies: ["45FF43F43BAC87F0"]
 			id: "40AA9B96695831CF"
-			tasks: [
-				{
-					dimension: "ad_astra:venus"
-					icon: "ad_astra:venus_globe"
-					id: "15D87EEEA7218F96"
-					title: "访问金星"
-					type: "dimension"
-				}
-				{
-					dimension: "ad_astra:mercury"
-					icon: "ad_astra:mercury_globe"
-					id: "12B42FC3CB70FB75"
-					title: "访问水星"
-					type: "dimension"
-				}
-			]
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "15D87EEEA7218F96"
+				title: "访问金星"
+				type: "dimension"
+			}]
 			x: 6.5d
 			y: -4.5d
 		}
@@ -206,6 +197,19 @@
 				type: "item"
 			}]
 			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["45FF43F43BAC87F0"]
+			id: "687AF4CCD52B0FE6"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "3068BBEAE1544360"
+				title: "访问水星"
+				type: "dimension"
+			}]
+			x: 6.5d
 			y: -6.5d
 		}
 	]

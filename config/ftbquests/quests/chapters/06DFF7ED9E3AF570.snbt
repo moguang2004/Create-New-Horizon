@@ -85,6 +85,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["3A346EA0AC1F698B"]
 			id: "628C9DDDC026FC67"
 			subtitle: "古老但有效的方法"
 			tasks: [{
