@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
         .duration(80)
         .EUt(100)
 
-    ctnh.centrifuge('oxidized_Residual_solution')
+    ctnh.centrifuge('oxidized_residual_solution')
         .itemInputs('10x gtceu:partially_oxidized_residues_dust')
         .itemOutputs('gtceu:inert_residues_dust')
         .inputFluids(Fluid.of('gtceu:distilled_water', 10000))

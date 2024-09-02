@@ -403,21 +403,21 @@ ServerEvents.recipes(event => {
     .duration(20)
     .EUt(30)
 
-  event.recipes.gtceu.assembler('lv_energy_output_hatch_4A')
+  event.recipes.gtceu.assembler('lv_energy_output_hatch_4a')
     .itemInputs(['gtceu:lv_energy_output_hatch', '2x gtceu:tin_quadruple_wire', '2x gtceu:steel_plate'])
-    .itemOutputs('gtceu:lv_energy_output_hatch_4A0')
+    .itemOutputs('gtceu:lv_energy_output_hatch_4a0')
     .EUt(7)
     .duration(100)
 
-  event.recipes.gtceu.assembler('mv_energy_output_hatch_4A')
+  event.recipes.gtceu.assembler('mv_energy_output_hatch_4a')
     .itemInputs(['gtceu:mv_energy_output_hatch', '2x gtceu:cupronickel_quadruple_wire', '2x gtceu:aluminium_plate'])
-    .itemOutputs('gtceu:mv_energy_output_hatch_4A1')
+    .itemOutputs('gtceu:mv_energy_output_hatch_4a1')
     .EUt(30)
     .duration(100)
 
-  event.recipes.gtceu.assembler('hv_energy_output_hatch_4A')
+  event.recipes.gtceu.assembler('hv_energy_output_hatch_4a')
     .itemInputs(['gtceu:hv_energy_output_hatch', '2x gtceu:silver_quadruple_wire', '2x gtceu:stainless_steel_plate'])
-    .itemOutputs('gtceu:hv_energy_output_hatch_4A2')
+    .itemOutputs('gtceu:hv_energy_output_hatch_4a2')
     .EUt(120)
     .duration(100)
 

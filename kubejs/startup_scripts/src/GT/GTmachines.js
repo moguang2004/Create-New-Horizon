@@ -127,7 +127,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 
 
     event.create(
-        'energy_output_hatch_4A0',
+        'energy_output_hatch_4a0',
         'custom',
         (holder, tier) => {
             return new EnergyHatchPartMachine(holder, tier, IO.OUT, 4)
@@ -138,7 +138,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .abilities(PartAbility.OUTPUT_ENERGY)
         .overlayTieredHullRenderer("energy_hatch.output_4a")
     event.create(
-        'energy_output_hatch_4A1',
+        'energy_output_hatch_4a1',
         'custom',
         (holder, tier) => {
             return new EnergyHatchPartMachine(holder, tier, IO.OUT, 4)
@@ -149,7 +149,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .abilities(PartAbility.OUTPUT_ENERGY)
         .overlayTieredHullRenderer("energy_hatch.output_4a")
     event.create(
-        'energy_output_hatch_4A2',
+        'energy_output_hatch_4a2',
         'custom',
         (holder, tier) => {
             return new EnergyHatchPartMachine(holder, tier, IO.OUT, 4)

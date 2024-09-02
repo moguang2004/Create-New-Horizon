@@ -1,5 +1,4 @@
-import { $OreProperty } from "packages/com/gregtechceu/gtceu/api/data/chemical/material/properties/$OreProperty"
-
+const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty')
 const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty')
 const FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuilder')
 GTCEuStartupEvents.registry('gtceu:element', event => {
