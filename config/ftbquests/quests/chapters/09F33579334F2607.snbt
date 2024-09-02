@@ -198,6 +198,7 @@
 				"7182CCA0B17CC960"
 			]
 			id: "012D04F8C8D62292"
+			subtitle: "请使用火花传输魔力"
 			tasks: [{
 				id: "6ACE286DBE0D1D1A"
 				item: "botania:terra_plate"
@@ -728,6 +729,7 @@
 				"524DFF1E4920F6DF"
 			]
 			id: "66FE0D6835F9F659"
+			subtitle: "按住W开始思索"
 			tasks: [
 				{
 					id: "599A7A2A62CFD33A"
@@ -827,6 +829,16 @@
 				type: "item"
 			}]
 			x: 21.0d
+			y: 8.0d
+		}
+		{
+			id: "2283BC646D1B4A65"
+			tasks: [{
+				id: "6F373384A883A06E"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: 1.0d
 			y: 8.0d
 		}
 	]

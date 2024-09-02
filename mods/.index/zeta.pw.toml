@@ -1,0 +1,13 @@
+filename = 'Zeta-1.0-24.jar'
+name = 'Zeta'
+side = 'both'
+
+[download]
+hash = 'e261d5550bb66cd6802597b1b33462470e3b8dae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5597406
+project-id = 968868

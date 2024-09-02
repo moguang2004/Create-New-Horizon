@@ -1,6 +1,3 @@
-const { $LevelAccessor } = require("packages/net/minecraft/world/level/$LevelAccessor");
-const { $Rotation } = require("packages/net/minecraft/world/level/block/$Rotation");
-
 Ponder.registry(event=>{
     event.create('gtceu:coke_oven')
     .scene("multiblock_building",

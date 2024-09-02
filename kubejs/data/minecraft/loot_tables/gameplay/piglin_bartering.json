@@ -114,7 +114,7 @@
             }
           ],
           "name": "kubejs:metallurgical_catalyst",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -129,7 +129,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "coldsweat:soulspring_lamp",
+          "name": "cold_sweat:soulspring_lamp",
           "weight": 10
         },
         {

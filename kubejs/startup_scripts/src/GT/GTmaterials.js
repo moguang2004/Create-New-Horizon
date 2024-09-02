@@ -19,6 +19,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         return new HazardProperty(HazardProperty.HazardTrigger.ANY,
             GTMedicalConditions.CARCINOGEN, multiplier, true)
     }
+    GTMaterials.TreatedWood.addFlags(GTMaterialFlags.GENERATE_BOLT_SCREW,GTMaterialFlags.GENERATE_RING)
     GTMaterials.Zinc.setProperty(PropertyKey.ORE, new $OreProperty())
     GTMaterials.Brass.addFlags(GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_GEAR)
     GTMaterials.Magnalium.addFlags(GTMaterialFlags.GENERATE_GEAR)

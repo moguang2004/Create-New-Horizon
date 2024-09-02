@@ -13,42 +13,63 @@ WorldgenEvents.remove(event => {
 		}
 	}
 })
+WorldgenEvents.add(event =>{
+  event.addOre(ore => {
+    ore.id = "kubejs:venus_ochrum" // (optional, but recommended) custom id for the feature
+    ore.biomes = {id:"ad_astra:venus_wastelands"}
+    ore.addTarget("ad_astra:venus_stone", "create:ochrum") // replace anything in the vanilla stone_ore_replaceables tag with Glowstone
 
+    ore.count([15, 40])             
+      .squared()                    
+      .triangleHeight(				      
+        anchors.aboveBottom(15),    
+        anchors.absolute(64)	      
+      )								             
+
+    ore.size = 9                           
+    ore.noSurface = 0                     
+    ore.worldgenLayer = "underground_ores"  
+    ore.chance = 0							            
+  })
+})
 WorldgenEvents.remove(event => {
-	event.removeOres(props => {
-		props.blocks = "tfmg:bauxite"
-		props.blocks = "create_new_age:thorium_ore"
-		props.blocks = "create_new_age:magnetite_block"
-		props.blocks = "minecraft:nether_gold_ore"
-		props.blocks = "mythicbotany:elementium_ore"
-		props.blocks = "mythicbotany:dragonstone_ore"
-		props.blocks = "mythicbotany:gold_ore"
-	})
-	event.removeFeatureById("raw_generation", [
-		"ad_astra:moon_iron_ore",
-		"ad_astra:deepslate_desh_ore",
-		"ad_astra:moon_desh_ore",
-		"ad_astra:moon_cheese_ore",
-		"ad_astra:moon_ice_shard_ore",
-		"ad_astra:mars_diamond_ore",
-		"ad_astra:mars_ice_shard_ore",
-		"ad_astra:mars_iron_ore",
-		"ad_astra:mars_ostrum_ore"
-	])
-	event.removeFeatureById("underground_ores", [
-		"aether:gravitite_ore",
-		"aether:gravitite_ore_buried",
-		"aether:ambrosium_ore",
-		"aether:zanite_ore",
-		"ad_astra:moon_iron_ore",
-		"ad_astra:deepslate_desh_ore",
-		"ad_astra:moon_desh_ore",
-		"ad_astra:moon_cheese_ore",
-		"ad_astra:moon_ice_shard_ore",
-		"ad_astra:mars_diamond_ore",
-		"ad_astra:mars_ice_shard_ore",
-		"ad_astra:mars_iron_ore",
-		"ad_astra:mars_ostrum_ore"])
+  event.printFeatures("", "minecraft:plains")
+  event.removeOres(props => {
+    props.blocks = "tfmg:bauxite"
+    props.blocks = "minecraft:nether_gold_ore"
+    props.blocks = "mythicbotany:elementium_ore"
+    props.blocks = "mythicbotany:dragonstone_ore"
+    props.blocks = "mythicbotany:gold_ore"
+    props.blocks = "create:ochrum"
+  })
+  event.removeFeatureById("raw_generation", [
+    "ad_astra:moon_iron_ore",
+    "ad_astra:deepslate_desh_ore",
+    "ad_astra:moon_desh_ore",
+    "ad_astra:moon_cheese_ore",
+    "ad_astra:moon_ice_shard_ore",
+    "ad_astra:mars_diamond_ore",
+    "ad_astra:mars_ice_shard_ore",
+    "ad_astra:mars_iron_ore",
+    "ad_astra:mars_ostrum_ore"
+  ])
+  event.removeFeatureById("underground_ores", [     
+    "aether:gravitite_ore",
+    "aether:gravitite_ore_buried",
+    "aether:ambrosium_ore",
+    "aether:zanite_ore",
+    "aether:gravitite_ore_buried",
+    "create_new_age:magnetite",
+    "create_new_age:ore_thorium",
+    "ad_astra:moon_iron_ore",
+    "ad_astra:deepslate_desh_ore",
+    "ad_astra:moon_desh_ore",
+    "ad_astra:moon_cheese_ore",
+    "ad_astra:moon_ice_shard_ore",
+    "ad_astra:mars_diamond_ore",
+    "ad_astra:mars_ice_shard_ore",
+    "ad_astra:mars_iron_ore",
+    "ad_astra:mars_ostrum_ore"])
 })
 GTCEuStartupEvents.registry("gtceu:world_gen_layer", event => {
 	event.create("all_layer")
