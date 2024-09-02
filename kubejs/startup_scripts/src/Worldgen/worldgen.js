@@ -13,25 +13,25 @@ WorldgenEvents.remove(event => {
 		}
 	}
 })
-WorldgenEvents.add(event =>{
-  event.addOre(ore => {
-    ore.id = "kubejs:venus_ochrum" // (optional, but recommended) custom id for the feature
-    ore.biomes = {id:"ad_astra:venus_wastelands"}
-    ore.addTarget("ad_astra:venus_stone", "create:ochrum") // replace anything in the vanilla stone_ore_replaceables tag with Glowstone
+// WorldgenEvents.add(event =>{
+//   event.addOre(ore => {
+//     ore.id = "kubejs:venus_ochrum" // (optional, but recommended) custom id for the feature
+//     ore.biomes = {id:"ad_astra:venus_wastelands"}
+//     ore.addTarget("ad_astra:venus_stone", "create:ochrum") // replace anything in the vanilla stone_ore_replaceables tag with Glowstone
 
-    ore.count([15, 40])             
-      .squared()                    
-      .triangleHeight(				      
-        anchors.aboveBottom(15),    
-        anchors.absolute(64)	      
-      )								             
+//     ore.count([15, 40])             
+//       .squared()                    
+//       .triangleHeight(				      
+//         anchors.aboveBottom(15),    
+//         anchors.absolute(64)	      
+//       )								             
 
-    ore.size = 9                           
-    ore.noSurface = 0                     
-    ore.worldgenLayer = "underground_ores"  
-    ore.chance = 0							            
-  })
-})
+//     ore.size = 9                           
+//     ore.noSurface = 0                     
+//     ore.worldgenLayer = "underground_ores"  
+//     ore.chance = 0							            
+//   })
+// })
 WorldgenEvents.remove(event => {
   event.printFeatures("", "minecraft:plains")
   event.removeOres(props => {
