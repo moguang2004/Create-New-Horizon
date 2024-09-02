@@ -126,4 +126,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: "#forge:flawed_gems", type: "minecraft:crafting_shapeless" })
     event.remove({ output: "#forge:flawless_gems", type: "minecraft:crafting_shapeless" })
     event.remove({ output: "#forge:exquisite_gems", type: "minecraft:crafting_shapeless" })
+    event.remove({ mod: "ad_astra", tyoe: "minecraft:smelting", output: "#forge:ingots" })
+    event.remove({ mod: "ad_astra", tyoe: "minecraft:smelting", output: "#forge:gems" })
+    event.remove({ mod: "ad_extendra", tyoe: "minecraft:smelting", output: "#forge:ingots" })
+    event.remove({ mod: "ad_extendra", tyoe: "minecraft:smelting", output: "#forge:gems" })
 })
