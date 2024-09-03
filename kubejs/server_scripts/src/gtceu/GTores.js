@@ -459,7 +459,7 @@ GTCEuServerEvents.oreVeins(event => {
             )
         )
         vein.surfaceIndicatorGenerator(indicator => indicator
-            .surfaceRock(GTMaterials.Zinc)
+            .surfaceRock(GTMaterials.get('precious_alloy'))
             .placement("above")
             .density(0.4)
             .radius(5)

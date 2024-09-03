@@ -85,7 +85,8 @@ ServerEvents.recipes(event => {
         "betterend:thallasium_trapdoor",
         "create:mixing/brass_ingot",
         "ad_astra:wrench",
-        "gtceu:combustion_generator/raw_oil"
+        "gtceu:combustion_generator/raw_oil",
+        "createdieselgenerators:basin_fermenting/fermented_spider_eye"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

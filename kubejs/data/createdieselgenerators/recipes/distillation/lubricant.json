@@ -1,0 +1,21 @@
+{
+    "type": "createdieselgenerators:distillation",
+    "ingredients": [
+        {
+            "fluid": "gtceu:seed_oil",
+            "amount": 100
+        }
+    ],
+    "heatRequirement": "heated",
+    "processingTime": 200,
+    "results": [
+        {
+            "fluid": "gtceu:lubricant",
+            "amount": 50
+        },
+        {
+            "fluid": "minecraft:water",
+            "amount": 50
+        }
+    ]
+}

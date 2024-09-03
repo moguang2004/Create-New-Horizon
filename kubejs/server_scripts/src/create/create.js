@@ -217,7 +217,7 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:long_steel_rod']),
     event.recipes.createDeploying(transitional, [transitional, 'kubejs:steel_mechanism']),
     event.recipes.createPressing(transitional, [transitional]),
-    event.recipes.createFilling(transitional, [transitional, Fluid.of('createdieselgenerators:gasoline', 250)])
+    event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:lubricant', 250)])
   ]).transitionalItem(transitional)
     .loops(3)
   event.remove({ output: 'create:steam_engine' })

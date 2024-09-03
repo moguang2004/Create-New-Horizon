@@ -314,6 +314,10 @@
 		}
 		{
 			dependencies: ["2460426DE77EF0F4"]
+			description: [
+				"对焦炉按W开始思索"
+				"终端shift右键多方块结构的主方块可以自动搭建"
+			]
 			id: "25CADEFA5DCB0244"
 			rewards: [
 				{

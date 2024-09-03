@@ -26,7 +26,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             machine.getHolder().self().persistentData.putFloat('heat', heat)
             return recipe
         })
-        //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
+        .appearanceBlock(() => Block.getBlock('kubejs:shielded_reactor_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("DDD", "ABA", "ABA", "ABA", "ABA", "ABA", "ABA", "ABA", "DDD")
             .aisle("DDD", "BCB", "BCB", "BCB", "BCB", "BCB", "BCB", "BCB", "DDD")

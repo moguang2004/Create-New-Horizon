@@ -611,6 +611,17 @@
 			x: -6.0d
 			y: -3.0d
 		}
+		{
+			id: "10E9DB3C92C8B969"
+			subtitle: "用这个去寻找地底的石油"
+			tasks: [{
+				id: "242E7A295BA60586"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
 	]
 	title: "钢铁时代"
 }
