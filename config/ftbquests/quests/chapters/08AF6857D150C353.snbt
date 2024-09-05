@@ -284,6 +284,7 @@
 			id: "1E11A492F4576DBA"
 			rewards: [{
 				command: "/gamephase add @p nether"
+				elevate_perms: true
 				id: "73102DDDEA76B9E4"
 				title: "前往下界"
 				type: "command"
