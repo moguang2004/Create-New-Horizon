@@ -1,0 +1,13 @@
+filename = 'createmetallurgy-0.0.5-1.20.1.jar'
+name = 'Create: Metallurgy'
+side = 'both'
+
+[download]
+hash = 'a5a387e853d7802682a979f27cbeb172fd4e7432'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5526101
+project-id = 1007404

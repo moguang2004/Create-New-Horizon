@@ -105,6 +105,8 @@ ServerEvents.recipes(event => {
     .duration(200)
     .itemInputs(['2x gtceu:vibrant_alloy_plate', '2x enderio:photovoltaic_plate', 'kubejs:pulsating_photovoltaic_block', '2x gtceu:tempered_glass'])
     .itemOutputs('kubejs:vibrant_photovoltaic_block')
+
+  event.replaceInput({id:'enderio:fluid_conduit'},'#enderio:clear_glass','minecraft:glass')
   /*event.custom(
       {
           "type": "enderio:alloy_smelting",

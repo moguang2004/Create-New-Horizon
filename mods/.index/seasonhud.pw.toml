@@ -1,13 +1,13 @@
-filename = 'seasonhud-forge-1.20.1-1.10.1.jar'
+filename = 'seasonhud-forge-1.20.1-1.10.2.jar'
 name = 'SeasonHUD'
 side = 'both'
 
 [download]
-hash = '2d2daea9c71906ad4cb01b3c7e20041421bb58e9'
+hash = 'a95841ef7639acfc3bd1bf1f0fad5e504ebb4bfc'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5669845
+file-id = 5679068
 project-id = 690971

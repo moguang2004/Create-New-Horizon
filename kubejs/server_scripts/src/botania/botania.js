@@ -189,6 +189,16 @@ ServerEvents.recipes(event => {
     .itemInputs(['gtceu:steel_plate', '2x gtceu:steel_screw'])
     .itemOutputs('mythicbotany:rune_holder')
   event.replaceInput({ id: 'botania:mana_spreader' }, 'minecraft:copper_ingot', 'minecraft:dispenser')
+  event.custom({
+    "type": "botania:mana_infusion",
+    "input": {
+      "tag": "minecraft:wool"
+    },
+    "mana": 3000,
+    "output": {
+      "item": "cold_sweat:fur"
+    }
+  })
   //manasteel
   event.custom({
     "type": "botania:mana_infusion",

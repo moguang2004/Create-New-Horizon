@@ -23,6 +23,7 @@
     "attribute.burning_point": "高温耐受温度",
     "attribute.freezing_point": "低温耐受温度",
     "item.kubejs.steel_mechanism": "钢铁构件",
+    "item.kubejs.unfinished_steel_mechanism": "未完成的钢铁构件",
     "item.kubejs.thermometer_case": "温度计外壳",
     "item.kubejs.high_quality_solid_fuel": "优质固体燃料",
     "item.kubejs.tallow": "油脂",
@@ -66,5 +67,14 @@
     "ctnh.nether_quartz_vein": "石英矿脉",
     "ctnh.salt_vein": "盐矿脉",
     "ctnh.coal_vein": "煤矿脉",
-    "ctnh.lapis_vein": "青金石矿脉"
+    "ctnh.lapis_vein": "青金石矿脉",
+    "ctnh.beryllium_vein": "铍矿脉",
+    "ctnh.molybdenum_vein": "钼矿脉",
+    "ctnh.topaz_vein": "黄玉矿脉",
+    "ctnh.sulfur_vein": "硫矿脉",
+    "ctnh.nickel_vein": "镍矿脉",
+    "ctnh.saltpeter_vein": "硝石矿脉",
+    "ctnh.pyrolusite_vein": "锰矿脉",
+    "ctnh.certus_vein": "赛特斯石英矿脉",
+    "ctnh.ancient_debris_vein": "远古残骸矿脉"
 }

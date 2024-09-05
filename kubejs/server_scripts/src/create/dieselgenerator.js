@@ -59,6 +59,9 @@ ServerEvents.recipes(event => {
   event.recipes.create.compacting('gtceu:petroleum_coke_gem',Fluid.of('gtceu:petroleum_coke',144))
 
   event.replaceOutput({id:'createdieselgenerators:compacting/plant_oil'},Fluid.of('createdieselgenerators:plant_oil'),Fluid.of('gtceu:seed_oil'))
+  event.remove({id:'createdieselgenerators:mixing/asphalt_block'})
+  event.recipes.create.mixing('4x createdieselgenerators:asphalt_block',['minecraft:sand','minecraft:gravel',Fluid.of('gtceu:pure_bitumen',100)]).heated()
+  event.remove({id:'createdieselgenerators:crafting/asphalt_block'})
   event.remove({id:'createdieselgenerators:mixing/biodiesel'})
   event.recipes.create.mixing(Fluid.of('gtceu:raw_bio_diesel',200),[Fluid.of('gtceu:ethanol',100),Fluid.of('gtceu:seed_oil',100)])
   event.custom({

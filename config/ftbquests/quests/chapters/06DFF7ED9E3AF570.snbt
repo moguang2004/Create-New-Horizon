@@ -133,7 +133,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -159,7 +159,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.5d
 			y: 1.5d
 		}
 		{
@@ -175,7 +175,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["11EDB5B9EB1B6554"]
@@ -187,7 +187,247 @@
 				type: "item"
 			}]
 			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0E1C7C7EE22CC9CE"]
+			id: "47436DF677CAD87F"
+			subtitle: "小幅增产"
+			tasks: [{
+				count: 8L
+				id: "1256542753CFA614"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crushed_ores"
+					}
+				}
+				title: "Any #forge:crushed_ores"
+				type: "item"
+			}]
+			title: "粉碎矿物"
+			x: 7.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["47436DF677CAD87F"]
+			id: "6E14A24D9EAEDB57"
+			subtitle: "再次小幅增产"
+			tasks: [{
+				count: 8L
+				id: "50A15426CAFB365A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:impure_dusts"
+					}
+				}
+				title: "Any #forge:impure_dusts"
+				type: "item"
+			}]
+			title: "再次粉碎的矿物"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2534B56E45BA42B0"]
+			id: "42D1ECBB9F630284"
+			tasks: [{
+				id: "68C530695924A8E6"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"47436DF677CAD87F"
+				"42D1ECBB9F630284"
+			]
+			id: "591C728C2E4B8DC9"
+			tasks: [{
+				count: 8L
+				id: "054D84A9F87A52CD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:purified_ores"
+					}
+				}
+				title: "Any #forge:purified_ores"
+				type: "item"
+			}]
+			title: "洗净的碎矿"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"6E14A24D9EAEDB57"
+				"42D1ECBB9F630284"
+			]
+			id: "583EDDA47231C4CF"
+			tasks: [{
+				id: "2EA0603A43127711"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts"
+					}
+				}
+				title: "Any #forge:dusts"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["591C728C2E4B8DC9"]
+			id: "79182AD3F97ACCC7"
+			tasks: [{
+				id: "400F8C1B3B4A46F3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:flawless_gems"
+					}
+				}
+				title: "Any #forge:flawless_gems"
+				type: "item"
+			}]
+			title: "宝石矿物处理"
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["591C728C2E4B8DC9"]
+			id: "042FE5BBB03B33A5"
+			tasks: [{
+				id: "60768CF98235A661"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:nuggets"
+					}
+				}
+				title: "Any #forge:nuggets"
+				type: "item"
+			}]
+			title: "锭矿物处理"
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5FE3BC6A006A6D5D"]
+			id: "27E4AB5A93A68376"
+			subtitle: "放下面"
+			tasks: [{
+				id: "1BADF5BDF20430EA"
+				item: "createmetallurgy:foundry_basin"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FE3BC6A006A6D5D"]
+			id: "33AFB19ADAB3F8ED"
+			subtitle: "放上面"
+			tasks: [{
+				id: "43957BE8A62731BC"
+				item: "createmetallurgy:foundry_lid"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FE3BC6A006A6D5D"]
+			description: ["    放在地上，在上面放一个充满气的铜背罐即可开始工作。"]
+			id: "76371EF3A7FD1C3B"
+			subtitle: "矿脉采样器"
+			tasks: [{
+				id: "00AA078C0D0D4818"
+				item: "createoreexcavation:sample_drill"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5FE3BC6A006A6D5D"
+				"36687E87D174DEA1"
+			]
+			id: "62903FA54AB59998"
+			tasks: [{
+				id: "21CEA5EC51E10F21"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "36687E87D174DEA1"
+			subtitle: "用这个来探测矿脉"
+			tasks: [{
+				id: "15207D9E7916110B"
+				item: "createoreexcavation:vein_finder"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"33AFB19ADAB3F8ED"
+				"27E4AB5A93A68376"
+			]
+			id: "7344EF28BE7775C8"
+			subtitle: "碎矿都可以丢进来煮"
+			tasks: [{
+				id: "1A0109829F006B01"
+				title: "矿物熔炼"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7344EF28BE7775C8"]
+			id: "6483DB98B44EFBF0"
+			subtitle: "用于合金的搅拌机"
+			tasks: [{
+				id: "661B9A7EA9C88190"
+				item: "createmetallurgy:foundry_mixer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["62903FA54AB59998"]
+			description: [
+				"此矿脉为虚拟的基岩矿脉，只能通过探矿仪或者采样器来探测得知，在有矿脉的区块布置矿物采掘器，可以源源不断地获得矿物。"
+				"&4当然，这种矿脉也不是取之不尽用之不竭的。&r"
+			]
+			id: "5790CA59970B7F09"
+			subtitle: "不同于格雷矿脉"
+			tasks: [{
+				id: "3AE9953249860F5B"
+				title: "矿脉"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.5d
 		}
 	]
 	title: "黄铜时代"

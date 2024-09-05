@@ -86,7 +86,8 @@ ServerEvents.recipes(event => {
         "create:mixing/brass_ingot",
         "ad_astra:wrench",
         "gtceu:combustion_generator/raw_oil",
-        "createdieselgenerators:basin_fermenting/fermented_spider_eye"
+        "createdieselgenerators:basin_fermenting/fermented_spider_eye",
+        "createoreexcavation:vein_finder"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -128,8 +129,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: "#forge:flawed_gems", type: "minecraft:crafting_shapeless" })
     event.remove({ output: "#forge:flawless_gems", type: "minecraft:crafting_shapeless" })
     event.remove({ output: "#forge:exquisite_gems", type: "minecraft:crafting_shapeless" })
-    event.remove({ mod: "ad_astra", tyoe: "minecraft:smelting", output: "#forge:ingots" })
-    event.remove({ mod: "ad_astra", tyoe: "minecraft:smelting", output: "#forge:gems" })
-    event.remove({ mod: "ad_extendra", tyoe: "minecraft:smelting", output: "#forge:ingots" })
-    event.remove({ mod: "ad_extendra", tyoe: "minecraft:smelting", output: "#forge:gems" })
+    event.remove({ mod: "ad_astra", type: "minecraft:smelting", output: "#forge:ingots" })
+    event.remove({ mod: "ad_astra", type: "minecraft:smelting", output: "#forge:gems" })
+    event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:ingots" })
+    event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:gems" })
+    event.remove({mod: "createmetallurgy", not: {type: "createmetallurgy:belt_grinder"}})
 })

@@ -41,6 +41,7 @@ WorldgenEvents.remove(event => {
     props.blocks = "mythicbotany:dragonstone_ore"
     props.blocks = "mythicbotany:gold_ore"
     props.blocks = "create:ochrum"
+	props.blocks = "createmetallurgy:wolframite_ore"
   })
   event.removeFeatureById("raw_generation", [
     "ad_astra:moon_iron_ore",

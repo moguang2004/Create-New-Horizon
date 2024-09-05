@@ -4,11 +4,10 @@
 ServerEvents.recipes(e => {
   let ingot = ['tin', 'bronze', 'zinc', 'brass', 'nickel', 'lead']
   for (let i of ingot) {
-    e.recipes.create.mixing(Fluid.of(`gtceu:${i}`, 144), `2x gtceu:${i}_dust`).superheated()
     e.recipes.create.crushing(`gtceu:${i}_dust`, `gtceu:${i}_ingot`)
     e.recipes.create.milling(`gtceu:${i}_dust`, `gtceu:${i}_ingot`)
   }
-  let crushingot = ['andesite_alloy', 'magnetic_iron']
+  let crushingot = ['andesite_alloy']
   for (let i of crushingot) {
     e.recipes.create.crushing(`gtceu:${i}_dust`, `gtceu:${i}_ingot`)
     e.recipes.create.milling(`gtceu:${i}_dust`, `gtceu:${i}_ingot`)
@@ -17,7 +16,6 @@ ServerEvents.recipes(e => {
 ServerEvents.recipes(e => {
   let ingot = ['copper', 'iron', 'gold']
   for (let i of ingot) {
-    e.recipes.create.mixing(Fluid.of(`gtceu:${i}`, 144), `2x gtceu:${i}_dust`).superheated()
     e.recipes.create.crushing(`gtceu:${i}_dust`, `minecraft:${i}_ingot`)
     e.recipes.create.milling(`gtceu:${i}_dust`, `minecraft:${i}_ingot`)
 
@@ -145,9 +143,6 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing('create:rose_quartz', ['2x biomesoplenty:rose_quartz_chunk', 'minecraft:redstone']).heated()
   event.recipes.create.mixing(Fluid.of('gtceu:concrete',/** @type {number} */1000), ['gtceu:stone_dust', 'gtceu:quartz_sand_dust', 'gtceu:clay_dust', '2x gtceu:calcite_dust', Fluid.of('minecraft:water', 1000)]).heated()
   event.recipes.create.mixing('2x gtceu:andesite_alloy_dust', [Fluid.of('gtceu:iron', 144), '2x gtceu:andesite_dust'])
-  event.recipes.create.mixing(Fluid.of('gtceu:bronze',576),[Fluid.of('gtceu:copper',432),Fluid.of('gtceu:tin',144)])
-  event.recipes.create.mixing(Fluid.of('gtceu:brass',576),[Fluid.of('gtceu:copper',432),Fluid.of('gtceu:zinc',144)])
-  event.recipes.create.mixing(Fluid.of('gtceu:rubber',144),'gtceu:rubber_ingot').heated()
   event.recipes.create.mixing('2x gtceu:treated_wood_planks',[Fluid.of('gtceu:creosote',250),'2x #minecraft:planks'])
 })
 

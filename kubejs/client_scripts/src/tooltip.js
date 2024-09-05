@@ -1,3 +1,4 @@
+import { $EventHandlerImplCommon$LevelEventAttachment } from "packages/dev/architectury/event/forge/$EventHandlerImplCommon$LevelEventAttachment"
 import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"
 
 ItemEvents.tooltip(tooltip =>{
@@ -183,4 +184,10 @@ ItemEvents.tooltip(event =>{
     })
 
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
+    event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))
+    event.add('enderio:enhanced_energy_conduit',Text.translate('ctnh.enhanced_energy_conduit'))
+    event.add('enderio:vibrant_energy_conduit',Text.translate('ctnh.vibrant_energy_conduit'))
+    event.add('enderio:ender_energy_conduit',Text.translate('ctnh.ender_energy_conduit'))
+    event.add('enderio:melodic_energy_conduit',Text.translate('ctnh.melodic_energy_conduit'))
+    event.add('enderio:stellar_energy_conduit',Text.translate('ctnh.stellar_energy_conduit'))
 })

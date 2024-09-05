@@ -61,7 +61,7 @@ StartupEvents.registry("item", event => {
     event.create('broken_temperature_keeping_device').maxDamage(12000).tag('curios:body')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
             .curioTick((/**@type {$ItemStack}*/ itemstack, slotcontext) => {
-                if(itemstack.damageValue == 12000){
+                if(itemstack.damageValue >= 12000){
                     itemstack.shrink(1)
                 }
                 itemstack.setDamageValue(itemstack.damageValue + 1)

@@ -35,17 +35,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["384AAEC5A353F60E"]
-			id: "2534B56E45BA42B0"
-			tasks: [{
-				id: "33BAE42A3FDE47CE"
-				item: "gtceu:steel_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
 			dependencies: [
 				"0F0FD5A39ED435FF"
 				"2116B713C128D537"
@@ -621,6 +610,17 @@
 			}]
 			x: -6.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["384AAEC5A353F60E"]
+			id: "2534B56E45BA42B0"
+			tasks: [{
+				id: "33BAE42A3FDE47CE"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
 		}
 	]
 	title: "钢铁时代"

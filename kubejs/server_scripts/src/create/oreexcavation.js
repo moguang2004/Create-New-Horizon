@@ -1,6 +1,6 @@
 ServerEvents.recipes(event =>{
     event.remove({id:/createoreexcavation:ore_vein_type(.*)/})
-    event.remove({id:/createoreexcavation:drilling(.*)/})
+    event.remove({id:/createoreexcavation:drilling\/(.*)/})
     event.shaped(
         Item.of('createoreexcavation:vein_finder', 1), [
             " AB",
@@ -24,6 +24,16 @@ ServerEvents.recipes(event =>{
     event.recipes.createoreexcavation.vein(Text.translate('ctnh.diamond_vein'),'gtceu:raw_diamond').placement(128,8,1715514).id('kubejs:diamond_vein').alwaysFinite().veinSize(2.5, 8.5).biomeWhitelist('minecraft:is_overworld')
     event.recipes.createoreexcavation.vein(Text.translate('ctnh.salt_vein'),'gtceu:raw_salt').placement(64,8,168784).id('kubejs:salt_vein').alwaysFinite().veinSize(2.5, 6.5).biomeWhitelist('minecraft:is_overworld')
     event.recipes.createoreexcavation.vein(Text.translate('ctnh.magnetite_vein'),'gtceu:raw_magnetite').placement(64,8,264664).id('kubejs:magnetite_vein').alwaysFinite().veinSize(3, 10).biomeWhitelist('minecraft:is_overworld')
+
+    event.recipes.createoreexcavation.vein(Text.translate('ctnh.beryllium_vein'),'gtceu:raw_beryllium').placement(144,8,6889134).id('kubejs:beryllium_vein').alwaysFinite().veinSize(2, 8).biomeWhitelist('minecraft:is_nether')
+    event.recipes.createoreexcavation.vein(Text.translate('ctnh.molybdenum_vein'),'gtceu:raw_molybdenum').placement(256,8,7739134).id('kubejs:molybdenum_vein').alwaysFinite().veinSize(3, 6).biomeWhitelist('minecraft:is_nether')
+    event.recipes.createoreexcavation.vein(Text.translate('ctnh.topaz_vein'),'gtceu:raw_topaz').placement(64,8,667734).id('kubejs:topaz_vein').alwaysFinite().veinSize(3, 6.5).biomeWhitelist('minecraft:is_nether')
+    event.recipes.createoreexcavation.vein(Text.translate('ctnh.sulfur_vein'),'gtceu:raw_sulfur').placement(60,8,7984516).id('kubejs:sulfur_vein').alwaysFinite().veinSize(4, 10).biomeWhitelist('minecraft:is_nether')
+    event.recipes.createoreexcavation.vein(Text.translate('ctnh.nickel_vein'),'gtceu:raw_nickel').placement(128,8,2649365).id('kubejs:nickel_vein').alwaysFinite().veinSize(2, 6).biomeWhitelist('minecraft:is_nether')
+    event.recipes.createoreexcavation.vein(Text.translate('ctnh.saltpeter_vein'),'gtceu:raw_saltpeter').placement(128,8,689495).id('kubejs:saltpeter_vein').alwaysFinite().veinSize(2, 7).biomeWhitelist('minecraft:is_nether')
+    event.recipes.createoreexcavation.vein(Text.translate('ctnh.pyrolusite_vein'),'gtceu:raw_pyrolusite').placement(192,8,7789695).id('kubejs:pyrolusite_vein').alwaysFinite().veinSize(2, 7).biomeWhitelist('minecraft:is_nether')
+    event.recipes.createoreexcavation.vein(Text.translate('ctnh.certus_vein'),'gtceu:raw_certus_quartz').placement(128,8,7964355).id('kubejs:certus_vein').alwaysFinite().veinSize(3, 8).biomeWhitelist('minecraft:is_nether')
+    event.recipes.createoreexcavation.vein(Text.translate('ctnh.ancient_debris_vein'),'minecraft:ancient_debris').placement(256,8,9984655).id('kubejs:ancient_debris_vein').alwaysFinite().veinSize(2, 4.5).biomeWhitelist('minecraft:is_nether')
 
     event.recipes.createoreexcavation.drilling(
         [Item.of('gtceu:raw_goethite').withChance(0.5),
@@ -103,7 +113,7 @@ ServerEvents.recipes(event =>{
 
         event.recipes.createoreexcavation.drilling(
         [Item.of('gtceu:raw_tin').withChance(0.7),
-        Item.of('gtceu:raw_cassiterite').withChance(0.3)], 'kubejs:nether_quartz_vein', 600)
+        Item.of('gtceu:raw_cassiterite').withChance(0.3)], 'kubejs:tin_vein', 600)
         .id("kubejs:tin_vein1")
         .fluid('gtceu:lubricant 300')
         .stress(192)
@@ -129,8 +139,93 @@ ServerEvents.recipes(event =>{
         [Item.of('gtceu:raw_rock_salt').withChance(0.3),
         Item.of('gtceu:raw_salt').withChance(0.3),
         Item.of('gtceu:raw_lepidolite').withChance(0.2),
-        Item.of('gtceu:spodumene').withChance(0.2)], 'kubejs:magnetite_vein', 600)
+        Item.of('gtceu:raw_spodumene').withChance(0.2)], 'kubejs:salt_vein', 600)
         .id("kubejs:salt_vein1")
         .fluid('gtceu:lubricant 300')
         .stress(192)
+
+        event.recipes.createoreexcavation.drilling(
+        [Item.of('gtceu:raw_beryllium').withChance(0.6),
+        Item.of('gtceu:raw_emerald').withChance(0.4)], 'kubejs:beryllium_vein', 400)
+        .id("kubejs:beryllium_vein1")
+        .fluid('gtceu:lubricant 300')
+        .drill('createoreexcavation:diamond_drill') 
+        .stress(288)
+
+        event.recipes.createoreexcavation.drilling(
+        [Item.of('gtceu:raw_molybdenum').withChance(0.2),
+        Item.of('gtceu:raw_wulfenite').withChance(0.5),
+        Item.of('gtceu:raw_molybdenite').withChance(0.2),
+        Item.of('gtceu:raw_powellite').withChance(0.1)], 'kubejs:molybdenum_vein', 600)
+        .id("kubejs:molybdenum_vein1")
+        .fluid('gtceu:lubricant 300')
+        .drill('createoreexcavation:diamond_drill') 
+        .stress(512)
+
+        event.recipes.createoreexcavation.drilling(
+        [Item.of('gtceu:raw_nickel').withChance(0.3),
+        Item.of('gtceu:raw_garnierite').withChance(0.4),
+        Item.of('gtceu:raw_cobaltite').withChance(0.2),
+        Item.of('gtceu:raw_pentlandite').withChance(0.1)], 'kubejs:nickel_vein', 500)
+        .id("kubejs:nickel_vein1")
+        .fluid('gtceu:lubricant 300')
+        .drill('createoreexcavation:diamond_drill') 
+        .stress(512)
+
+        event.recipes.createoreexcavation.drilling(
+        [Item.of('gtceu:raw_topaz').withChance(0.3),
+        Item.of('gtceu:raw_blue_topaz').withChance(0.3),
+        Item.of('gtceu:raw_chalcocite').withChance(0.2),
+        Item.of('gtceu:raw_bornite').withChance(0.2)], 'kubejs:topaz_vein', 800)
+        .id("kubejs:topaz_vein1")
+        .fluid('gtceu:lubricant 300')
+        .drill('createoreexcavation:netherite_drill') 
+        .stress(512)
+
+        event.recipes.createoreexcavation.drilling(
+        [Item.of('gtceu:raw_sulfur').withChance(0.6),
+        Item.of('gtceu:raw_pyrite').withChance(0.15),
+        Item.of('gtceu:raw_sphalerite').withChance(0.25)], 'kubejs:sulfur_vein', 400)
+        .id("kubejs:sulfur_vein1")
+        .fluid('gtceu:lubricant 300')
+        .drill('createoreexcavation:diamond_drill') 
+        .stress(288)
+
+        event.recipes.createoreexcavation.drilling(
+        [Item.of('gtceu:raw_saltpeter').withChance(0.3),
+        Item.of('gtceu:raw_diatomite').withChance(0.3),
+        Item.of('gtceu:raw_electrotine').withChance(0.2),
+        Item.of('gtceu:raw_alunite').withChance(0.2)], 'kubejs:saltpeter_vein', 600)
+        .id("kubejs:saltpeter_vein1")
+        .fluid('gtceu:lubricant 300')
+        .drill('createoreexcavation:diamond_drill') 
+        .stress(512)
+
+        event.recipes.createoreexcavation.drilling(
+        [Item.of('gtceu:raw_pyrolusite').withChance(0.3),
+        Item.of('gtceu:raw_grossular').withChance(0.4),
+        Item.of('gtceu:raw_tantalite').withChance(0.3)], 'kubejs:pyrolusite_vein', 600)
+        .id("kubejs:pyrolusite_vein1")
+        .fluid('gtceu:lubricant 300')
+        .drill('createoreexcavation:netherite_drill') 
+        .stress(768)
+
+        event.recipes.createoreexcavation.drilling(
+        [Item.of('gtceu:raw_certus_quartz').withChance(0.45),
+        Item.of('gtceu:raw_quartzite').withChance(0.25),
+        Item.of('gtceu:raw_barite').withChance(0.3)], 'kubejs:certus_vein', 600)
+        .id("kubejs:certus_vein1")
+        .fluid('gtceu:lubricant 300')
+        .drill('createoreexcavation:diamond_drill') 
+        .stress(512)
+
+        event.recipes.createoreexcavation.drilling(
+        [Item.of('minecraft:ancient_debris').withChance(0.1),
+        Item.of('gtceu:raw_sulfur').withChance(0.35),
+        Item.of('gtceu:raw_precious_alloy').withChance(0.3),
+        Item.of('gtceu:raw_nether_quartz').withChance(0.25)], 'kubejs:ancient_debris_vein', 800)
+        .id("kubejs:ancient_debris_vein1")
+        .fluid('gtceu:lubricant 300')
+        .drill('createoreexcavation:netherite_drill') 
+        .stress(1024)
 })

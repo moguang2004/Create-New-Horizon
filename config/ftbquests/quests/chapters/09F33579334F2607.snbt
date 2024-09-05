@@ -68,7 +68,7 @@
 			id: "4B6CBB1E8D1A6273"
 			tasks: [{
 				id: "1E5BF54B1FA43008"
-				item: "botania:livingwood"
+				item: "botania:livingwood_log"
 				type: "item"
 			}]
 			x: 2.5d

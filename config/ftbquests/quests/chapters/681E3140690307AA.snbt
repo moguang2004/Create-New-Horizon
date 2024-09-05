@@ -416,6 +416,7 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
+			subtitle: "有很多你熟悉的东西需要燧石来合成"
 			tasks: [{
 				count: 4L
 				id: "4F80DC03536AE638"

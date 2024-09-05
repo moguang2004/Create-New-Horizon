@@ -5,7 +5,9 @@
  * @param { Internal.ItemStack[] } items
  */
 function remove_recipes_output(event, items) {
-    event.remove({ output: items })
+    items.forEach(item =>{
+        event.remove({ output: item })
+    })
 }
 /**
  * @param { Internal.RecipesEventJS } event 
