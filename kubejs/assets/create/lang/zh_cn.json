@@ -1684,7 +1684,6 @@
 	"create.ponder.hand_crank.text_1": "玩家可以使用手摇曲柄来手动产生旋转力",
 	"create.ponder.hand_crank.text_2": "按住右键可以逆时针旋转它",
 	"create.ponder.hand_crank.text_3": "潜行右击可使它顺时针旋转",
-	"create.ponder.hold_to_ponder": "按住 [] 开始思索",
 	"create.ponder.hose_pulley.header": "使用软管滑轮抽取或排放流体",
 	"create.ponder.hose_pulley.text_1": "软管滑轮可以用于方便地对一个较大区域进行抽取流体或填满流体的操作",
 	"create.ponder.hose_pulley.text_2": "通过输入动力可以调节软管末端的高度",

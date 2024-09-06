@@ -152,6 +152,7 @@
 		}
 		{
 			dependencies: ["5FE3BC6A006A6D5D"]
+			description: ["&4并非所有的矿物都可以粉碎&r，别怪我没提醒你！"]
 			id: "0E1C7C7EE22CC9CE"
 			subtitle: "终于......"
 			tasks: [{
@@ -428,6 +429,30 @@
 			}]
 			x: 1.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["5790CA59970B7F09"]
+			id: "467FC678F487ADD1"
+			subtitle: "钻机运行需要输入润滑油，可通过石油化工获得"
+			tasks: [{
+				id: "32082C1C06FF3FE4"
+				title: "液体输入"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5790CA59970B7F09"]
+			id: "12A616FBB4F4B99F"
+			subtitle: "机器运行需要大量应力，应力量与开采的矿脉和你希望开采的速度有关"
+			tasks: [{
+				id: "513FF55E337B27D1"
+				title: "应力输入"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 5.5d
 		}
 	]
 	title: "黄铜时代"

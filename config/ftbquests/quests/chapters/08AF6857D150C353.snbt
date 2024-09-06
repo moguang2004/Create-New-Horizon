@@ -102,7 +102,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["71D83506BCD67EF2"]
+			dependencies: [
+				"71D83506BCD67EF2"
+				"10E9DB3C92C8B969"
+			]
 			description: [
 				"&a以下是搭建一台抽油机的基本顺序&r："
 				""
@@ -273,7 +276,6 @@
 			id: "1E11A492F4576DBA"
 			rewards: [{
 				command: "/gamephase add @p nether"
-				elevate_perms: true
 				id: "73102DDDEA76B9E4"
 				title: "前往下界"
 				type: "command"

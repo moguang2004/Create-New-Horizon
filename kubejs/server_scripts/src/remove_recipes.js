@@ -87,7 +87,10 @@ ServerEvents.recipes(event => {
         "ad_astra:wrench",
         "gtceu:combustion_generator/raw_oil",
         "createdieselgenerators:basin_fermenting/fermented_spider_eye",
-        "createoreexcavation:vein_finder"
+        "createoreexcavation:vein_finder",
+        "functionalstorage:oak_drawer_alternate_x1",
+        "functionalstorage:oak_drawer_alternate_x2",
+        "functionalstorage:oak_drawer_alternate_x4"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

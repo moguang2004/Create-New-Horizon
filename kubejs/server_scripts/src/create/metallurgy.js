@@ -131,18 +131,31 @@ ServerEvents.recipes(event =>{
     let materials = ['hematite','magnetite','precious_alloy','copper','diamond','tin','silver','vanadium_magnetite',
                 'spodumene','rock_salt','salt','lepidolite','lazurite','lapis','sodalite','calcite','graphite','coal','zinc','gold',
                 'cassiterite','chalcopyrite','pyrite','iron','yellow_limonite','malachite','oilsands','goethite','nether_quartz',
-                'quartzite','opal','redstone','ruby','cinnabar','nickel','lead','pentlandite','realgar','yellow_garnet','red_garnet','basltic_mineral_sand','granitic_mineral_sand']
-    let materials2 = ['nether_quartz','quartzite','coal','cassiterite','salt','rock_salt','lepidolite']
+                'quartzite','opal','redstone','ruby','cinnabar','nickel','lead','pentlandite','realgar','yellow_garnet','red_garnet',
+                'basaltic_mineral_sand','granitic_mineral_sand','beryllium','molybdenum','molybdenite','garnierite','pentlandite','cobaltite',
+                'topaz','blue_topaz','sulfur','chalcocite','bornite','sphalerite','sulfur','saltpeter','diatomite','electrotine','alunite',
+                'grossular','pyrolusite','tantalite','certus_quartz','barite']
+    let materials2 = ['nether_quartz','quartzite','coal','cassiterite','salt','rock_salt','lepidolite','blue_topaz','saltpeter','certus_quartz','emerald']
+    let materials3 = ['alunite','grossular']
     let materials4 = ['yellow_garnet','red_garnet']
     let materials6 = ['lazurite','lapis','sodalite']
-    let materials5 = ['redstone']
-    let ingots = ['iron','copper','precious_alloy','tin','silver','zinc','nickel','lead','gold']
-    let gems = ['salt','rock_salt','lazurite','ruby','cinnabar','opal','quartzite','realgar']
-    let iron = ['hematite','magnetite','yellow_limonite','pyrite','goethite','basltic_mineral_sand','granitic_mineral_sand']
-    let copper = ['chalcopyrite','malachite']
+    let materials5 = ['redstone','electrotine']
+    let ingots = ['precious_alloy','tin','silver','zinc','nickel','lead','beryllium','molybdenum']
+    let minecraftIngots = ['iron','copper','gold']
+    let gems = ['salt','rock_salt','lazurite','ruby','cinnabar','opal','quartzite','realgar','topaz','blue_topaz','grossular','certus_quartz']
+    let iron = ['hematite','magnetite','yellow_limonite','pyrite','goethite','basaltic_mineral_sand','granitic_mineral_sand']
+    let copper = ['chalcopyrite','malachite','chalcocite','bornite']
+    let zinc = ['sphalerite']
+    let molybdenum = ['molybdenite']
+    let nickel = ['garnierite','pentlandite']
+    let cobalt = ['cobaltite']
+    let manganese = ['pyrolusite']
     materials.forEach(material =>{
         if(materials2.includes(material)){
             event.recipes.create.crushing([`2x gtceu:crushed_${material}_ore`,Item.of(`gtceu:crushed_${material}_ore`).withChance(0.6)],`gtceu:raw_${material}`)
+        }
+        else if(materials3.includes(material)){
+            event.recipes.create.crushing([`3x gtceu:crushed_${material}_ore`,Item.of(`gtceu:crushed_${material}_ore`).withChance(0.9)],`gtceu:raw_${material}`)
         }
         else if(materials5.includes(material)){
             event.recipes.create.crushing([`6x gtceu:crushed_${material}_ore`,Item.of(`gtceu:crushed_${material}_ore`).withChance(0.5)],`gtceu:raw_${material}`)
@@ -153,7 +166,7 @@ ServerEvents.recipes(event =>{
         else if(materials4.includes(material)){
             event.recipes.create.crushing([`5x gtceu:crushed_${material}_ore`,Item.of(`gtceu:crushed_${material}_ore`).withChance(0.2)],`gtceu:raw_${material}`)
         }
-        else if(material == 'iron' || material == 'copper'){
+        else if(material == 'iron' || material == 'copper' || material == 'gold'){
             event.recipes.create.crushing([`gtceu:crushed_${material}_ore`,Item.of(`gtceu:crushed_${material}_ore`).withChance(0.3)],`minecraft:raw_${material}`)
         }
         else{
@@ -243,13 +256,89 @@ ServerEvents.recipes(event =>{
             "heatRequirement": "superheated"
         })
     })
+    minecraftIngots.forEach(material =>{
+        event.recipes.create.splashing([`11x minecraft:${material}_nugget`,Item.of(`minecraft:${material}_nugget`,2).withChance(0.4)],`gtceu:purified_${material}_ore`)
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:crushed_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:${material}`,
+                "amount": 108
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 100
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:purified_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:${material}`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:impure_${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:${material}`,
+                "amount": 144
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 50
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:${material}`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+    })
     gems.forEach(material =>{
         event.recipes.create.splashing([Item.of(`gtceu:flawless_${material}_gem`).withChance(0.2),Item.of(`gtceu:${material}_gem`).withChance(0.4),Item.of(`gtceu:flawed_${material}_gem`).withChance(0.4)],`gtceu:purified_${material}_ore`)
     })
     event.recipes.create.splashing([Item.of(`gtceu:flawless_diamond_gem`).withChance(0.2),Item.of(`minecraft:diamond`).withChance(0.4),Item.of(`gtceu:flawed_diamond_gem`).withChance(0.4)],`gtceu:purified_diamond_ore`)
     event.recipes.create.splashing([Item.of(`gtceu:flawless_coal_gem`).withChance(0.2),Item.of(`minecraft:coal`).withChance(0.4),Item.of(`gtceu:flawed_coal_gem`).withChance(0.4)],`gtceu:purified_coal_ore`)
-    event.recipes.create.splashing([Item.of(`gtceu:flawless_lapis_gem`).withChance(0.2),Item.of(`minecraft:lapis_lazuli`).withChance(0.4),Item.of(`gtceu:flawed_lapis_gem`).withChance(0.4)],`gtceu:purified_l_ore`)
+    event.recipes.create.splashing([Item.of(`gtceu:flawless_lapis_gem`).withChance(0.2),Item.of(`minecraft:lapis_lazuli`).withChance(0.4),Item.of(`gtceu:flawed_lapis_gem`).withChance(0.4)],`gtceu:purified_lapis_ore`)
     event.recipes.create.splashing([Item.of(`gtceu:flawless_nether_quartz_gem`).withChance(0.2),Item.of(`minecraft:nether_quartz`).withChance(0.4),Item.of(`gtceu:flawed_nether_quartz_gem`).withChance(0.4)],`gtceu:purified_nether_quartz_ore`)
+    event.recipes.create.splashing([Item.of(`gtceu:flawless_emerald_gem`).withChance(0.2),Item.of(`minecraft:emerald`).withChance(0.4),Item.of(`gtceu:flawed_emerald_gem`).withChance(0.4)],`gtceu:purified_emerald_ore`)
     //Iron
     iron.forEach(material => {
         event.custom({
@@ -394,6 +483,376 @@ ServerEvents.recipes(event =>{
             "results": [
             {
                 "fluid": `gtceu:copper`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+    })
+    zinc.forEach(material =>{
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:crushed_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:zinc`,
+                "amount": 108
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 125
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:purified_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:zinc`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:impure_${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:zinc`,
+                "amount": 144
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 75
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:zinc`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+    })
+    molybdenum.forEach(material =>{
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:crushed_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:molybdenum`,
+                "amount": 108
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 125
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:purified_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:molybdenum`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:impure_${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:molybdenum`,
+                "amount": 144
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 75
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:molybdenum`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+    })
+    nickel.forEach(material =>{
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:crushed_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:nickel`,
+                "amount": 108
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 125
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:purified_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:nickel`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:impure_${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:nickel`,
+                "amount": 144
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 75
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:nickel`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+    })
+    cobalt.forEach(material =>{
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:crushed_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:cobalt`,
+                "amount": 108
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 125
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:purified_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:cobalt`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:impure_${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:cobalt`,
+                "amount": 144
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 75
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:cobalt`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+    })
+    manganese.forEach(material =>{
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:crushed_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:manganese`,
+                "amount": 108
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 125
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:purified_${material}_ore`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:manganese`,
+                "amount": 144
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:impure_${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:manganese`,
+                "amount": 144
+            },
+            {
+                "fluid": "gtceu:slag",
+                "amount": 75
+            }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+            {
+                "item": `gtceu:${material}_dust`
+            }
+            ],
+            "processingTime": 40,
+            "results": [
+            {
+                "fluid": `gtceu:manganese`,
                 "amount": 144
             }
             ],

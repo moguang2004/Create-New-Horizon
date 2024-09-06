@@ -469,7 +469,6 @@
 			id: "2301C8A867356B99"
 			rewards: [{
 				command: "/gamephase add @p twilightforest"
-				elevate_perms: true
 				id: "4F3B927EBC2B0E50"
 				title: "前往暮色森林"
 				type: "command"
