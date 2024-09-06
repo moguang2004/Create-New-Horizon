@@ -154,6 +154,7 @@
 		}
 		{
 			dependencies: ["7959820843845731"]
+			description: ["    恭喜你进入格雷蒸汽时代！本整合包大幅削减了蒸汽时代的流程，基本上，你只需要做提取机和合金炉即可跨过此阶段，但是更多的蒸汽大机器可以提高你的游戏体验，请多多尝试！&c别忘了给你的机器输入蒸汽！&r"]
 			id: "39660BB15E0C78FF"
 			tasks: [{
 				id: "2284EDE4A4FB80DE"
@@ -166,6 +167,7 @@
 		{
 			dependencies: ["39660BB15E0C78FF"]
 			id: "4D02F6C730350689"
+			subtitle: "利用煤炭生产蒸汽"
 			tasks: [{
 				id: "1066AF4CD94C2CF0"
 				item: "gtceu:lp_steam_solid_boiler"
@@ -177,6 +179,7 @@
 		{
 			dependencies: ["39660BB15E0C78FF"]
 			id: "4C64C0C2D64BFF2D"
+			subtitle: "利用杂酚油生产蒸汽"
 			tasks: [{
 				id: "045F240B3E6501A2"
 				item: "gtceu:lp_steam_liquid_boiler"
@@ -188,6 +191,7 @@
 		{
 			dependencies: ["39660BB15E0C78FF"]
 			id: "1632BAD0EF0A150E"
+			subtitle: "凭空生产蒸汽（bushi）"
 			tasks: [{
 				id: "34E23D3BC04ECE59"
 				item: "gtceu:lp_steam_solar_boiler"

@@ -1,8 +1,8 @@
 // priority: 96
 const LDLib = Java.loadClass("com.lowdragmc.lowdraglib.LDLib")
 const CycleItemStackHandler = Java.loadClass('com.lowdragmc.lowdraglib.utils.CycleItemStackHandler')
-const $CoilWorkableElectricMultiblockMachine = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine")
 import { $ICoilType } from "packages/com/gregtechceu/gtceu/api/block/$ICoilType"
+import { $CoilWorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$CoilWorkableElectricMultiblockMachine"
 import { $CoilBlock } from "packages/com/gregtechceu/gtceu/common/block/$CoilBlock"
 import { $ArrayList } from "packages/java/util/$ArrayList"
 import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"

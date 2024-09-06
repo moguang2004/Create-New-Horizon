@@ -1,3 +1,4 @@
+import { $CoilWorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$CoilWorkableElectricMultiblockMachine"
 import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
 import { $RecipeLogic } from "packages/com/gregtechceu/gtceu/api/machine/trait/$RecipeLogic"
 import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
@@ -14,18 +15,20 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     const $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
-    event.create("kinetic_generator", "multiblock")
+    event.create("kinetic_generator", "multiblock", holder => new $CoilWorkableElectricMultiblockMachine(holder))
             .rotationState(RotationState.NON_Y_AXIS)
             .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
             .recipeType("kinetic_generator")
             .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-            .recipeModifier((machine, recipe) => {
+            .recipeModifier((/**@type {$CoilWorkableElectricMultiblockMachine}*/machine, recipe) => {
                 const kinetic = machine.getParts().find(part => part instanceof IKineticMachine);
                 if (!kinetic) {
                     return null;
                 }
-                let energyoutput = Math.abs(kinetic.getKineticHolder().getSpeed()) * kinetic.getKineticDefinition().torque / 160
+                let efficiency = 0.9 + 0.1 * machine.getCoilTier()
+                let energyoutput = Math.abs(kinetic.getKineticHolder().getSpeed()) * kinetic.getKineticDefinition().torque * efficiency / 160
                 machine.getHolder().self().persistentData.putFloat('energyoutput', energyoutput)
+                machine.getHolder().self().persistentData.putFloat('efficiency', efficiency)
                 const modifiedRecipe = recipe.copy();
                 RecipeHelper.setOutputEUt(modifiedRecipe, Math.floor(energyoutput));
                 return modifiedRecipe;
@@ -51,11 +54,13 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .additionalDisplay((machine, l) => {
                 if (machine.isFormed()) {
                     let outputEnergy = machine.getHolder().self().persistentData.getFloat('energyoutput')
+                    let efficiency = machine.getHolder().self().persistentData.getFloat('efficiency')
                     if (outputEnergy == null) {
                         outputEnergy = 0
                     }
                     let voltageName = GTValues.VNF[$GTUtil.getTierByVoltage(outputEnergy)]
                     l.add(l.size(), Text.translate("multiblock.ctnh.kinetic_generator", $FormattingUtil.formatNumbers(outputEnergy), voltageName))
+                    l.add(l.size(), Text.translate('multiblock.ctnh.kinetic_generator.efficiency', (efficiency*100).toFixed(0)))
                 }
             })
             .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_solid_steel","gtceu:block/multiblock/generator/large_steam_turbine", false)

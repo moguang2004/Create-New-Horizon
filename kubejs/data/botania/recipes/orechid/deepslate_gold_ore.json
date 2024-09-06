@@ -6,7 +6,7 @@
   },
   "output": {
     "type": "block",
-    "block": "gtceu:deepslate_gold_ore"
+    "block": "gtceu:deepslate_precious_alloy_ore"
   },
   "weight": 125
 }

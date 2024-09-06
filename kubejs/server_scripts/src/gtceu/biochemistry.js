@@ -126,6 +126,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('4x gtceu:end_yeast_dust')
         .duration(80)
     Ingredient.of('#forge:foods').getItemTypes().forEach(food => {
+        if(food.toString() != 'pumpkin_pie'){
         let nutrition = food.getFoodProperties().getNutrition()
         let saturation = food.getFoodProperties().getSaturationModifier()
         //console.info(food.toString())
@@ -145,6 +146,7 @@ ServerEvents.recipes(event => {
             .outputFluids(Fluid.of('gtceu:fermented_biomass', 75 * Math.floor(nutrition + saturation / 2)))
             .circuit(1)
             .duration(100)
+        }
     })
     event.recipes.gtceu.digesting('bio_chaff_digestion')
         .EUt(30)

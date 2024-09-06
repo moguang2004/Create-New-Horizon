@@ -237,6 +237,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .liquid()
         .color(0xc576ed)
         .blastTemp(3000, 'low', 480, 260)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR)
         event.create("melodic_alloy")
         .ingot()
         .liquid()

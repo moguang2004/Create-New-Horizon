@@ -36,7 +36,7 @@ ServerEvents.recipes(event =>{
     
         B: "createmetallurgy:refractory_mortar",
     
-        C: "create:basin"
+        C: "kubejs:steel_casing"
         }
     )
     event.recipes.create.mechanical_crafting('createmetallurgy:foundry_lid',[

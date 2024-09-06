@@ -238,7 +238,7 @@ ServerEvents.recipes(event => {
         A: "minecraft:iron_ingot",
         B: "alexscaves:scarlet_magnet",
         C: "alexscaves:azure_magnet"
-    })
+    }).keepIngredient({item:["alexscaves:scarlet_magnet","alexscaves:azure_magnet"]})
     event.shaped(
         Item.of("create_new_age:magnetite_block", 5), [
         "ABA",
@@ -712,6 +712,26 @@ ServerEvents.recipes(event => {
         A: "gtceu:small_aluminium_gear",
         B: "gtceu:magnalium_gear",
         C: "gtceu:mv_machine_hull"
+    })
+    event.shaped(
+        Item.of("enderio:item_conduit", 4), [
+        "AAA",
+        "BBB",
+        "AAA"
+    ], {
+        A: "enderio:conduit_binder",
+        B: "gtceu:pulsating_alloy_ingot"
+    }).id('enderio:item_conduit')
+    event.shaped(
+        Item.of("gtceu:kinetic_generator", 1), [
+            "ABA",
+            "CDC",
+            "ABA"
+        ], {
+        A: "kubejs:heavy_machinery_casing",
+        B: "gtceu:solid_machine_casing",
+        C: "#gtceu:circuits/mv",
+        D: "create_new_age:generator_coil"
     })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.forEachRecipe({ type: "minecraft:shapeless", input: "#minecraft:logs", output: "#minecraft:planks" }, recipe => {

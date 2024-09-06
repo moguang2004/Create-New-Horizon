@@ -31,6 +31,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["2D662EFDE7A39BB8"]
 			id: "689E197D320A0477"
 			subtitle: "一种可持续性的产盐设备"
 			tasks: [
@@ -616,8 +617,8 @@
 				item: "gtceu:kanthal_dust"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -6.0d
+			x: 14.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -627,8 +628,8 @@
 				item: "botania:ender_air_bottle"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -8.0d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["35FC625257013116"]
@@ -650,8 +651,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: -8.0d
+			x: 14.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["415AF3F977F4C3F9"]
@@ -663,8 +664,8 @@
 				type: "dimension"
 			}]
 			title: "访问天境"
-			x: 14.5d
-			y: -8.0d
+			x: 17.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["699743A94DF7E0B8"]
@@ -674,8 +675,8 @@
 				item: "gtceu:fluorine_bucket"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -6.0d
+			x: 17.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["42552E404237FB96"]
@@ -702,15 +703,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4DCA7E4E57817E0A"]
+			dependencies: ["0B9A6D518B6797C0"]
 			id: "08CB75F59F452DE7"
 			tasks: [{
 				id: "493C08A31BD229CE"
 				item: "createutilities:void_tank"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -10.0d
+			x: 14.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -727,6 +728,28 @@
 			}]
 			x: 14.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["4DCA7E4E57817E0A"]
+			id: "47477F45269D6DB4"
+			tasks: [{
+				id: "26892DF7590726FB"
+				item: "create:shadow_steel"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["47477F45269D6DB4"]
+			id: "0B9A6D518B6797C0"
+			tasks: [{
+				id: "71D9D6A64F7AEB9A"
+				item: "createutilities:void_steel_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
 		}
 	]
 	title: "&bMV&r时期"

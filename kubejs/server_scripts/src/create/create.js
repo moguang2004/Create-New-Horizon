@@ -109,6 +109,25 @@ ServerEvents.recipes(event => {
       D: 'create:water_wheel'
     }
   )
+
+  event.recipes.create.mechanical_crafting('javd:portal_block',[
+    "AAAAA",
+    "ABCBA",
+    "ACDCA",
+    "ABCBA",
+    "AAAAA"
+  ],
+    {
+      A: "gtceu:double_shadow_steel_plate",
+
+      B: "#gtceu:circuits/hv",
+
+      C: "createutilities:void_steel_sheet",
+
+      D: 'gtceu:hv_machine_casing'
+    }
+  )
+  
 })
 
 //动力辊压机

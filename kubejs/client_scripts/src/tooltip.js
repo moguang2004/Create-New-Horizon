@@ -182,6 +182,18 @@ ItemEvents.tooltip(event =>{
         text.add(4,Text.translate('ctnh.nuclear_reactor.overclock'))
         text.add(5,Text.translate('ctnh.nuclear_reactor.safe'))
     })
+    event.addAdvanced('gtceu:kinetic_generator',(item,advanced,text)=>{
+        text.add(1,Text.translate('kinetic_generator').gray())
+        text.add(2,Text.translate('ctnh.kinetic_generator.basic'))
+        text.add(3,Text.translate('ctnh.kinetic_generator.extrict'))
+        text.add(4,Text.translate('ctnh.kinetic_generator.upgrade'))
+    })
+    event.addAdvanced('gtceu:underfloor_heating_system',(item,advanced,text)=>{
+        text.add(1,Text.translate('underfloor_heating_system').gray())
+        text.add(2,Text.translate('ctnh.underfloor_heating_system.temperature'))
+        text.add(3,Text.translate('ctnh.underfloor_heating_system.mechanism'))
+        text.add(4,Text.translate('ctnh.underfloor_heating_system.rate'))
+    })
 
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))

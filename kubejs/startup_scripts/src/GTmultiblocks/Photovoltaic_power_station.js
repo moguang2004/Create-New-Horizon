@@ -94,6 +94,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             else if (level.dimension == 'ad_astra:glacio' || level.dimension == 'ad_astra:glacio_orbit') {
                 rate *= 32
             }
+            else if (level.dimension == 'javd:void'){
+                rate *= 0.5
+            }
             else {
                 rate = 0
             }

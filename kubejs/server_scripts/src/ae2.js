@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
     let metal = ["gtceu:steel_plate", "gtceu:aluminium_plate", "gtceu:stainless_steel_plate", "gtceu:titanium_plate", "gtceu:tungsten_steel_plate", "gtceu:rhodium_plated_palladium_plate", "gtceu:naquadah_alloy_plate", "gtceu:darmstadtium_plate"]
     let glass = ["ae2:quartz_glass", "ae2:quartz_vibrant_glass", "botania:mana_glass", "botania:elf_glass"]
     let dust = ["minecraft:redstone", "minecraft:glowstone_dust", "gtceu:certus_quartz_dust", "ae2:sky_dust", "gtceu:silicon_dust", "gtceu:electrotine_dust", "ae2:fluix_dust", "botania:mana_powder"]
+    let parallel = ['ae2:crafting_accelerator','bigger_ae2:4_core_crafting_accelerator','bigger_ae2:16_core_crafting_accelerator','bigger_ae2:64_core_crafting_accelerator','bigger_ae2:256_core_crafting_accelerator','bigger_ae2:1024_core_crafting_accelerator']
     remove_recipes_output(event, cell_component)
 
     for (let i = 0; i < 8; i++) {
@@ -18,6 +19,18 @@ ServerEvents.recipes(event => {
             D: circuits[i],
             E: metal[i]
         })
+        if(i > 2){
+            event.shaped(Item.of(parallel[i - 2], 1), [
+                "EDE",
+                "ACA",
+                "EAE"
+            ], {
+                A: parallel[i - 3],
+                C: glass[(i / 2) | 0],
+                D: circuits[i],
+                E: metal[i]
+            })
+        }
     }
     event.shaped(Item.of("ae2:cell_component_1k", 1), [
         "BDB",
@@ -65,6 +78,8 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: "ae2:network/blocks/storage_drive" }, "minecraft:iron_ingot", "gtceu:stainless_steel_plate")
     event.replaceInput({ id: "ae2:network/parts/import_bus" }, "minecraft:iron_ingot", "gtceu:steel_plate")
     event.replaceInput({ id: "ae2:network/parts/export_bus" }, "minecraft:iron_ingot", "gtceu:steel_plate")
+    event.replaceInput({id:'bigger_ae2:quantum_cell_component'},'ae2:engineering_processor','#gtceu:circuits/iv')
+    event.replaceInput({id:'bigger_ae2:digital_singularity_cell_component'},'ae2:engineering_processor','#gtceu:circuits/luv')
     event.recipes.gtceu.wiremill("quartz_fiber")
         .EUt(120)
         .duration(60)
@@ -191,6 +206,18 @@ ServerEvents.recipes(event => {
         .duration(100)
         .itemInputs(["2x gtceu:steel_plate", "ae2:calculation_processor", "ae2:fluix_dust"])
         .itemOutputs("ae2:wireless_booster")
+
+    event.recipes.gtceu.assembler('advanced_cell_item_housing')
+        .EUt(1920)
+        .duration(100)
+        .itemInputs(['3x gtceu:end_steel_plate', '2x gtceu:tungsten_steel_screw', '2x gtceu:polyphenylene_sulfide_foil', '2x gtceu:tempered_glass'])
+        .itemOutputs('bigger_ae2:advanced_item_cell_housing')
+
+    event.recipes.gtceu.assembler('advanced_cell_fluid_housing')
+        .EUt(1920)
+        .duration(100)
+        .itemInputs(['3x gtceu:chorusite_alloy_plate', '2x gtceu:tungsten_steel_screw', '2x gtceu:polyphenylene_sulfide_foil', '2x gtceu:tempered_glass'])
+        .itemOutputs('bigger_ae2:advanced_fluid_cell_housing')
 
     event.shaped(
         Item.of("expatternprovider:ex_interface", 1), [
@@ -403,7 +430,18 @@ ServerEvents.recipes(event => {
         "ae2additions:cells/super/1024k",
         "ae2additions:cells/super/4096k",
         "ae2additions:cells/super/16384k",
-        "ae2additions:cells/super/65536k"
+        "ae2additions:cells/super/65536k",
+        "bigger_ae2:4_core_crafting_accelerator",
+        "bigger_ae2:16_core_crafting_accelerator",
+        "bigger_ae2:64_core_crafting_accelerator",
+        "bigger_ae2:256_core_crafting_accelerator",
+        "bigger_ae2:1024_core_crafting_accelerator",
+        "bigger_ae2:advanced_item_cell_housing",
+        "bigger_ae2:advanced_fluid_cell_housing",
+        "",
+        "",
+        "",
+        "",
     ])
 
     function press_recipe(name, color, ingredient, circuit) {

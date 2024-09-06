@@ -1,4 +1,7 @@
 {
+  "gtmthings": {
+    "wireless_energy_hatch_provider": true
+  },
   "extendedcrafting": {
     "elite_auto_table": true,
     "ender_crafter": true,

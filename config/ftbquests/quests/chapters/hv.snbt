@@ -571,7 +571,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -585,7 +585,7 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: -4.0d
 		}
 		{
@@ -904,6 +904,18 @@
 			}]
 			x: 10.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["17508AC52A73A6CF"]
+			id: "25DAE6D032C050D7"
+			subtitle: "是时候缓解主世界工业区的帧数压力了"
+			tasks: [{
+				id: "20A0E9B6A5B2D2F0"
+				item: "javd:portal_block"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
 		}
 	]
 	title: "&6HV&r时期"

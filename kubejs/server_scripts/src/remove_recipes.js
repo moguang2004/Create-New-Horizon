@@ -90,7 +90,8 @@ ServerEvents.recipes(event => {
         "createoreexcavation:vein_finder",
         "functionalstorage:oak_drawer_alternate_x1",
         "functionalstorage:oak_drawer_alternate_x2",
-        "functionalstorage:oak_drawer_alternate_x4"
+        "functionalstorage:oak_drawer_alternate_x4",
+        "javd:portal_block"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

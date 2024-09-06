@@ -1,3 +1,4 @@
+import { $CoilWorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$CoilWorkableElectricMultiblockMachine"
 import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
 import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
 import { $FormattingUtil } from "packages/com/gregtechceu/gtceu/utils/$FormattingUtil"
@@ -13,18 +14,20 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     const EURecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.EURecipeCapability')
     const $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
-    event.create('water_power_station', 'multiblock')
+    event.create('water_power_station', 'multiblock', holder => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('water_power')
         .recipeModifier((machine, /**@type {$GTRecipe}*/recipe) => {
             let random = Math.random() * 0.4 + 0.6
+            let efficiency = 1 + 0.1 * machine.getCoilTier()
             let water = machine.getHolder().self().persistentData.getInt('water')
             if (water == null) {
                 water = 0
             }
             let newrecipe = recipe.copy()
-            newrecipe.tickOutputs.put(EURecipeCapability.CAP, newrecipe.copyContents(newrecipe.tickOutputs, ContentModifier.of(water * random / 100, 0)).get(EURecipeCapability.CAP))
+            newrecipe.tickOutputs.put(EURecipeCapability.CAP, newrecipe.copyContents(newrecipe.tickOutputs, ContentModifier.of(water * random * efficiency / 100, 0)).get(EURecipeCapability.CAP))
             machine.getHolder().self().persistentData.putFloat('energy', water * random * 32 / 100)
+            machine.getHolder().self().persistentData.putFloat('efficiency', efficiency)
             return newrecipe
         })
         //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
@@ -67,8 +70,10 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             if (machine.isFormed()) {
                 let water = machine.getHolder().self().persistentData.getInt('water')
                 let outputEnergy = machine.getHolder().self().persistentData.getFloat('energy')
+                let efficiency = machine.getHolder().self().persistentData.getFloat('efficiency')
                 let voltageName = GTValues.VNF[$GTUtil.getTierByVoltage(outputEnergy)]
                 l.add(l.size(), Text.translate("multiblock.ctnh.water_power_station1", water.toFixed()))
+                l.add(l.size(), Text.translate('multiblock.ctnh.water_power_station.efficiency', (efficiency*100).toFixed(0)))
                 l.add(l.size(), Text.translate("multiblock.ctnh.water_power_station2", $FormattingUtil.formatNumbers(outputEnergy), voltageName))
             }
         })

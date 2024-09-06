@@ -125,6 +125,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "create:powered_obsidian", "gtceu:obsidian_dust")
     event.replaceOutput({id:"create:splashing/red_sand"},"minecraft:gold_nugget","gtceu:precious_alloy_nugget")
     event.replaceOutput({id:"create:splashing/soul_sand"},"minecraft:gold_nugget","gtceu:precious_alloy_nugget")
+    event.replaceOutput({id:'tetranichematerials:bronnum_block'},'tetranichematerials:bronnum_block','gtceu:bronze_block')
 
     const bot_materials = [
         ["manasteel", "mana_steel"],

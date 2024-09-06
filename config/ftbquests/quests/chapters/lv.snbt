@@ -76,7 +76,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
@@ -314,7 +314,7 @@
 				"4487EDC96DB1390B"
 				"7345F277E135E5B9"
 			]
-			description: ["这将是你第一次使用“双仓升压”的机制，当你使用两个LV能源仓供能时，由于一个LV能源仓可以接收2A的LV电，两个一起用就可以达到4ALV，也就是1AMV的电流，此时就可以实现MV电压配方的制作，这种多方块结构利用多个能源仓升压的机制将会是之后经常使用到的机制"]
+			description: ["    这将是你第一次使用“双仓升压”的机制，当你使用两个LV能源仓供能时，由于&a一个LV能源仓可以接收2A的LV电&r，两个一起用就可以达到&a4ALV，也就是1AMV的电流&r，此时就可以&a实现MV电压配方&r的制作，这种多方块结构利用多个能源仓升压的机制将会是之后经常使用到的机制"]
 			icon: "gtceu:electric_blast_furnace"
 			id: "19869FD9D4BCCB9F"
 			shape: "gear"
@@ -617,6 +617,51 @@
 			}]
 			x: -3.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "38EA7D1DD910DBF5"
+			tasks: [{
+				id: "716ECE6F74511EC0"
+				item: "gtceu:lv_alloy_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["38EA7D1DD910DBF5"]
+			id: "39E54D32FF4C6CAF"
+			subtitle: "这会是你前期的物品传输好帮手"
+			tasks: [{
+				id: "015416DBE1A33261"
+				item: "enderio:item_conduit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F2A5A509F9DF84B"]
+			id: "5F7FAA87FCF5B725"
+			tasks: [{
+				id: "77A3BA5D59E7513E"
+				item: "gtceu:twilightforest_air_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F7FAA87FCF5B725"]
+			id: "7950F5A5BA9B36C5"
+			tasks: [{
+				id: "701ACB09C26C3CBC"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["工业起步"]
