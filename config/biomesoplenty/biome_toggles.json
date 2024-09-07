@@ -50,7 +50,7 @@
   "snowy_coniferous_forest_enabled": true,
   "snowy_fir_clearing_enabled": true,
   "snowy_maple_woods_enabled": true,
-  "spider_nest_enabled": true,
+  "spider_nest_enabled": false,
   "tropics_enabled": true,
   "tundra_enabled": true,
   "undergrowth_enabled": true,

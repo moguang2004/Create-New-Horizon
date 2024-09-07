@@ -23,6 +23,8 @@ LootJS.modifiers(event => {
         .replaceLoot('minecraft:gold_ore','gtceu:precious_alloy_ore')
         .removeLoot('bloodmagic:strong_tau')
         .removeLoot('minecraft:flint_and_steel')
+    event.addLootTableModifier(LootType.ENTITY)
+    .replaceLoot('minecraft:gold_nugget','gtceu:precious_alloy_nugget')
     //event.addLootTableModifier('dun')
     const gtceulv = [LootEntry.of('gtceu:lv_electric_motor', 1).when(c => { c.randomChance(0.2) }),
     LootEntry.of('gtceu:tin_single_wire', 2).when(c => { c.randomChance(0.4) }),
