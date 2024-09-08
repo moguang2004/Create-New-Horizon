@@ -41,7 +41,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_hematite').withChance(0.15),
         Item.of('gtceu:raw_malachite').withChance(0.1)], 'kubejs:iron_vein', 600)
         .id("kubejs:iron_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .stress(192)
     
         event.recipes.createoreexcavation.drilling(
@@ -50,7 +50,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_pyrite').withChance(0.25),
         Item.of('minecraft:raw_copper').withChance(0.2)], 'kubejs:copper_vein', 600)
         .id("kubejs:copper_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .stress(192)
 
         event.recipes.createoreexcavation.drilling(
@@ -59,7 +59,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_yellow_limonite').withChance(0.1),
         Item.of('gtceu:raw_malachite').withChance(0.1)], 'kubejs:zinc_vein', 600)
         .id("kubejs:zinc_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:diamond_drill') 
         .stress(256)
 
@@ -68,13 +68,13 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_ruby').withChance(0.3),
         Item.of('gtceu:raw_cinnabar').withChance(0.3)], 'kubejs:redstone_vein', 800)
         .id("kubejs:redstone_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .stress(192)
 
         event.recipes.createoreexcavation.drilling(
         [Item.of('gtceu:raw_coal').withChance(1)], 'kubejs:coal_vein', 200)
         .id("kubejs:coal_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .stress(192)
 
         event.recipes.createoreexcavation.drilling(
@@ -83,13 +83,13 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_lapis').withChance(0.1),
         Item.of('gtceu:raw_calcite').withChance(0.1)], 'kubejs:lapis_vein', 800)
         .id("kubejs:lapis_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .stress(256)
 
         event.recipes.createoreexcavation.drilling(
         [Item.of('gtceu:raw_oilsands').withChance(1)], 'kubejs:oilsands_vein', 600)
         .id("kubejs:oilsands_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .stress(192)
 
         event.recipes.createoreexcavation.drilling(
@@ -99,7 +99,7 @@ ServerEvents.recipes(event =>{
         Item.of('minecraft:raw_copper').withChance(0.2)], 'kubejs:precious_alloy_vein', 800)
         .id("kubejs:precious_alloy_vein1")
         .drill('createoreexcavation:diamond_drill') 
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .stress(512)
 
         event.recipes.createoreexcavation.drilling(
@@ -107,7 +107,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_quartzite').withChance(0.4),
         Item.of('gtceu:raw_opal').withChance(0.1)], 'kubejs:nether_quartz_vein', 800)
         .id("kubejs:nether_quartz_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:diamond_drill') 
         .stress(512)
 
@@ -115,7 +115,7 @@ ServerEvents.recipes(event =>{
         [Item.of('gtceu:raw_tin').withChance(0.7),
         Item.of('gtceu:raw_cassiterite').withChance(0.3)], 'kubejs:tin_vein', 600)
         .id("kubejs:tin_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .stress(192)
 
         event.recipes.createoreexcavation.drilling(
@@ -123,7 +123,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_graphite').withChance(0.4),
         Item.of('gtceu:raw_coal').withChance(0.2)], 'kubejs:diamond_vein', 800)
         .id("kubejs:diamond_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:diamond_drill') 
         .stress(512)
 
@@ -132,7 +132,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_vanadium_magnetite').withChance(0.2),
         Item.of('gtceu:raw_precious_alloy').withChance(0.2)], 'kubejs:magnetite_vein', 600)
         .id("kubejs:magnetite_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .stress(256)
 
         event.recipes.createoreexcavation.drilling(
@@ -141,14 +141,14 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_lepidolite').withChance(0.2),
         Item.of('gtceu:raw_spodumene').withChance(0.2)], 'kubejs:salt_vein', 600)
         .id("kubejs:salt_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .stress(192)
 
         event.recipes.createoreexcavation.drilling(
         [Item.of('gtceu:raw_beryllium').withChance(0.6),
         Item.of('gtceu:raw_emerald').withChance(0.4)], 'kubejs:beryllium_vein', 400)
         .id("kubejs:beryllium_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:diamond_drill') 
         .stress(288)
 
@@ -158,7 +158,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_molybdenite').withChance(0.2),
         Item.of('gtceu:raw_powellite').withChance(0.1)], 'kubejs:molybdenum_vein', 600)
         .id("kubejs:molybdenum_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:diamond_drill') 
         .stress(512)
 
@@ -168,7 +168,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_cobaltite').withChance(0.2),
         Item.of('gtceu:raw_pentlandite').withChance(0.1)], 'kubejs:nickel_vein', 500)
         .id("kubejs:nickel_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:diamond_drill') 
         .stress(512)
 
@@ -178,7 +178,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_chalcocite').withChance(0.2),
         Item.of('gtceu:raw_bornite').withChance(0.2)], 'kubejs:topaz_vein', 800)
         .id("kubejs:topaz_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:netherite_drill') 
         .stress(512)
 
@@ -187,7 +187,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_pyrite').withChance(0.15),
         Item.of('gtceu:raw_sphalerite').withChance(0.25)], 'kubejs:sulfur_vein', 400)
         .id("kubejs:sulfur_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:diamond_drill') 
         .stress(288)
 
@@ -197,7 +197,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_electrotine').withChance(0.2),
         Item.of('gtceu:raw_alunite').withChance(0.2)], 'kubejs:saltpeter_vein', 600)
         .id("kubejs:saltpeter_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:diamond_drill') 
         .stress(512)
 
@@ -206,7 +206,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_grossular').withChance(0.4),
         Item.of('gtceu:raw_tantalite').withChance(0.3)], 'kubejs:pyrolusite_vein', 600)
         .id("kubejs:pyrolusite_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:netherite_drill') 
         .stress(768)
 
@@ -215,7 +215,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_quartzite').withChance(0.25),
         Item.of('gtceu:raw_barite').withChance(0.3)], 'kubejs:certus_vein', 600)
         .id("kubejs:certus_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:diamond_drill') 
         .stress(512)
 
@@ -225,7 +225,7 @@ ServerEvents.recipes(event =>{
         Item.of('gtceu:raw_precious_alloy').withChance(0.3),
         Item.of('gtceu:raw_nether_quartz').withChance(0.25)], 'kubejs:ancient_debris_vein', 800)
         .id("kubejs:ancient_debris_vein1")
-        .fluid('gtceu:lubricant 300')
+        .fluid('gtceu:lubricant 50')
         .drill('createoreexcavation:netherite_drill') 
         .stress(1024)
 })

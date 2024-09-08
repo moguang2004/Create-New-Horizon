@@ -1,0 +1,13 @@
+filename = 'configuration-forge-1.20.1-2.2.1.jar'
+name = 'Configuration'
+side = 'both'
+
+[download]
+hash = '19b29369f320a0dda267159761f82dd5c908a0c5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4710266
+project-id = 444699

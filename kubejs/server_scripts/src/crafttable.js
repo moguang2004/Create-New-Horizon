@@ -733,6 +733,17 @@ ServerEvents.recipes(event => {
         C: "#gtceu:circuits/mv",
         D: "create_new_age:generator_coil"
     })
+    event.shaped(
+        Item.of("gtceu:big_dam", 1), [
+            "ABA",
+            "CDC",
+            "AAA"
+        ], {
+        A: "minecraft:stone_bricks",
+        B: "kubejs:basic_mechanism",
+        C: "create:shaft",
+        D: "create:large_water_wheel"
+    })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.forEachRecipe({ type: "minecraft:shapeless", input: "#minecraft:logs", output: "#minecraft:planks" }, recipe => {
         let { originalRecipeIngredients, originalRecipeResult } = recipe

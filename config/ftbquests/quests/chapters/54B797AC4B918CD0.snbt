@@ -56,6 +56,7 @@
 			y: 1.0d
 		}
 		{
+			description: ["除此之外的抗寒材料还有羊毛，皮革，暮色森林的雪怪皮革等"]
 			id: "582F848D10F2C757"
 			subtitle: "早期的防寒手段"
 			tasks: [
@@ -341,6 +342,18 @@
 			}]
 			x: 1.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["7959820843845731"]
+			id: "1B0A2296006D38FA"
+			subtitle: "输入蒸汽即可供暖！"
+			tasks: [{
+				id: "4A2FC9EFCC18142E"
+				item: "ctnhcore:underfloor_heating_system"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
 		}
 	]
 	title: "冷汗"

@@ -712,6 +712,21 @@
 			x: 3.5d
 			y: 7.0d
 		}
+		{
+			id: "087D0FA645D19AC2"
+			subtitle: "可以存储你不用的时间（别给gt机器加速）"
+			tasks: [{
+				id: "3AEE005942EA6B63"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
 	]
 	title: "实用小工具"
 }

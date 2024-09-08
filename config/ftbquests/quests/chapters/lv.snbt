@@ -122,8 +122,8 @@
 				item: "gtceu:lv_circuit_assembler"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.5d
+			x: 0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7F992D338D4783CE"]
@@ -502,7 +502,7 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0FEAC07F1404346A"]
@@ -512,8 +512,8 @@
 				title: "更高级（HV级）的电路板制作"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: 5.5d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["19869FD9D4BCCB9F"]
@@ -662,6 +662,42 @@
 			}]
 			x: 9.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["2D662EFDE7A39BB8"]
+			id: "4D79591C84BD1AE5"
+			subtitle: "用这个可以直接发电"
+			tasks: [
+				{
+					id: "6E7479AFB1BFFAA5"
+					item: "gtceu:kinetic_generator"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "78F905F5C27ED906"
+					item: { Count: 8, id: "gtceu:cupronickel_coil_block" }
+					type: "item"
+				}
+				{
+					id: "615FFF5D1E164F79"
+					item: "gtceu:lv_rotor_holder1"
+					type: "item"
+				}
+				{
+					id: "31434FFB8799FEE6"
+					item: "gtceu:steel_gearbox"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "3DAECEEDFD3BCB2F"
+					item: { Count: 17, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
 		}
 	]
 	subtitle: ["工业起步"]

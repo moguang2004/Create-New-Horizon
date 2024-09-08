@@ -188,7 +188,7 @@ ItemEvents.tooltip(event =>{
         text.add(3,Text.translate('ctnh.kinetic_generator.extrict'))
         text.add(4,Text.translate('ctnh.kinetic_generator.upgrade'))
     })
-    event.addAdvanced('gtceu:underfloor_heating_system',(item,advanced,text)=>{
+    event.addAdvanced('ctnhcore:underfloor_heating_system',(item,advanced,text)=>{
         text.add(1,Text.translate('underfloor_heating_system').gray())
         text.add(2,Text.translate('ctnh.underfloor_heating_system.temperature'))
         text.add(3,Text.translate('ctnh.underfloor_heating_system.mechanism'))

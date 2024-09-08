@@ -430,11 +430,30 @@
 				"2460426DE77EF0F4"
 			]
 			id: "4ABB43D13EBB512D"
-			tasks: [{
-				id: "178BF7B8042CF8C5"
-				item: "gtceu:primitive_pump"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "178BF7B8042CF8C5"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4C2278B5EAB1AED4"
+					item: { Count: 10, id: "gtceu:pump_deck" }
+					type: "item"
+				}
+				{
+					id: "5BCAC6137CBDB6AF"
+					item: { Count: 10, id: "gtceu:pump_hatch" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3A95F47B87404F50"
+					item: { Count: 10, id: "gtceu:treated_wood_frame" }
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 7.5d
 		}
@@ -539,6 +558,18 @@
 			}]
 			x: -4.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["5E5F4837CC1F047A"]
+			id: "62C8A0B668137AD3"
+			subtitle: "有足够的材料再造，但是可以给你带来巨量的应力"
+			tasks: [{
+				id: "73BCB4C58FAE733A"
+				item: "gtceu:big_dam"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
 		}
 	]
 	title: "安山时代"

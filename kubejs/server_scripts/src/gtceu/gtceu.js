@@ -569,4 +569,9 @@ ServerEvents.recipes(event => {
     .itemOutputs('4x gtceu:chorusite_alloy_dust')
     .EUt(120)
     .duration(200)
+
+  event.recipes.gtceu.big_dam('big_dam')
+    .inputFluids(Fluid.of('gtceu:lubricant',50))
+    .outputStress(1048576)
+    .duration(200)
 })

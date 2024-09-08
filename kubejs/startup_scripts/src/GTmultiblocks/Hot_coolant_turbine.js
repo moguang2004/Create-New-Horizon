@@ -1,3 +1,4 @@
+const LargeTurbineMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine')
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('hot_coolant_turbine')
         .category('ctnh')

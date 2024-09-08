@@ -284,6 +284,18 @@
 			x: -8.0d
 			y: -7.0d
 		}
+		{
+			dependencies: ["7959820843845731"]
+			id: "73D6D71F897EB1B9"
+			subtitle: "输入蒸汽即可供暖！"
+			tasks: [{
+				id: "2E9B4838EB9ED0EE"
+				item: "ctnhcore:underfloor_heating_system"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.0d
+		}
 	]
 	title: "流体时代"
 }
