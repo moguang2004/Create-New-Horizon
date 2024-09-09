@@ -20,11 +20,11 @@ LootJS.modifiers(event => {
         .replaceLoot('enderio:redstone_alloy_ingot', 'gtceu:redstone_alloy_ingot', true)
         .replaceLoot('enderio:pulsating_alloy_ingot', 'gtceu:pulsating_alloy_ingot', true)
         .replaceLoot('enderio:vibrant_alloy_ingot', 'gtceu:vibrant_alloy_ingot', true)
-        .replaceLoot('minecraft:gold_ore','gtceu:precious_alloy_ore')
+        .replaceLoot('minecraft:gold_ore', 'gtceu:precious_alloy_ore')
         .removeLoot('bloodmagic:strong_tau')
         .removeLoot('minecraft:flint_and_steel')
     event.addLootTableModifier(LootType.ENTITY)
-    .replaceLoot('minecraft:gold_nugget','gtceu:precious_alloy_nugget')
+        .replaceLoot('minecraft:gold_nugget', 'gtceu:precious_alloy_nugget')
     //event.addLootTableModifier('dun')
     const gtceulv = [LootEntry.of('gtceu:lv_electric_motor', 1).when(c => { c.randomChance(0.2) }),
     LootEntry.of('gtceu:tin_single_wire', 2).when(c => { c.randomChance(0.4) }),
@@ -473,20 +473,20 @@ LootJS.modifiers(event => {
         .matchMainHand('#forge:tools/butchery_knives')
         .killedByPlayer()
         .addLoot('minecraft:wither_skeleton_head')
-    let animal = ['minecraft:pig','minecraft:cow','minecraft:horse']
-    animal.forEach(animal =>{
+    let animal = ['minecraft:pig', 'minecraft:cow', 'minecraft:horse']
+    animal.forEach(animal => {
         event.addEntityLootModifier(animal)
-        .randomChanceWithEnchantment('minecraft:looting', [0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6])
-        .matchMainHand('#forge:tools/butchery_knives')
-        .killedByPlayer()
-        .addLoot('minecraft:wither_skeleton_head')
+            .randomChanceWithEnchantment('minecraft:looting', [0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6])
+            .matchMainHand('#forge:tools/butchery_knives')
+            .killedByPlayer()
+            .addLoot('minecraft:wither_skeleton_head')
     })
 })
 
 ServerEvents.entityLootTables(event => {
     event.addEntity("ad_astra:glacian_ram", l => {
         l.addPool(p => {
-            p.addItem("cold_sweat:fur").weight(1)
+            p.addItem("cold_sweat:goat_fur").weight(1)
             p.addItem("ad_astra:ice_shard").weight(9)
         })
     })

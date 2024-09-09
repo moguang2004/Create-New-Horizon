@@ -196,7 +196,7 @@ ServerEvents.recipes(event => {
     },
     "mana": 3000,
     "output": {
-      "item": "cold_sweat:fur"
+      "item": "cold_sweat:goat_fur"
     }
   })
   //manasteel
