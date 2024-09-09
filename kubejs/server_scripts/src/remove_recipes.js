@@ -44,7 +44,6 @@ ServerEvents.recipes(event => {
         "alexscaves:azure_neodymium_ingot",
         "alexscaves:scarlet_neodymium_ingot",
         "create:crafting/kinetics/mechanical_bearing",
-        "aether:skyroot_piston",
         "sophisticatedbackpacks:netherite_backpack",
         "expandedstorage:obsidian_to_netherite_conversion_kit",
         "bclib:tag_piston",
@@ -140,4 +139,5 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:ingots" })
     event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:gems" })
     event.remove({ mod: "createmetallurgy", not: { type: "createmetallurgy:belt_grinder" } })
+    event.remove({ mod: "aether", type: "minecraft:crafting_shaped", id: /aether:skyroot_(.*)/ })
 })
