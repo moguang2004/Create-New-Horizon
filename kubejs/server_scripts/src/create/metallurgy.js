@@ -257,7 +257,10 @@ ServerEvents.recipes(event => {
         })
     })
     minecraftIngots.forEach(material => {
-        event.recipes.create.splashing([`11x minecraft:${material}_nugget`, Item.of(`minecraft:${material}_nugget`, 2).withChance(0.4)], `gtceu:purified_${material}_ore`)
+        if (material != 'copper') {
+            event.recipes.create.splashing([`11x minecraft:${material}_nugget`, Item.of(`minecraft:${material}_nugget`, 2).withChance(0.4)], `gtceu:purified_${material}_ore`)
+        }
+        event.recipes.create.splashing([`11x gtceu:copper_nugget`, Item.of(`gtceu:copper_nugget`, 2).withChance(0.4)], `gtceu:purified_copper_ore`)
         event.custom({
             "type": "createmetallurgy:melting",
             "ingredients": [

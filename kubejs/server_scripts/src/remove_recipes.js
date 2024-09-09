@@ -22,6 +22,7 @@ ServerEvents.recipes(event => {
         "create:crafting/kinetics/mechanical_mixer",
         "create:crafting/materials/rose_quartz",
         "create:crafting/materials/electron_tube",
+        "create:crafting/materials/copper_ingot",
         "create:crafting/kinetics/deployer",
         "create:crafting/kinetics/contraption_controls",
         "create:crafting/appliances/slime_ball",
@@ -91,7 +92,8 @@ ServerEvents.recipes(event => {
         "functionalstorage:oak_drawer_alternate_x1",
         "functionalstorage:oak_drawer_alternate_x2",
         "functionalstorage:oak_drawer_alternate_x4",
-        "javd:portal_block"
+        "javd:portal_block",
+        "tetranichematerials:grave_steel_ingot",
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -137,5 +139,5 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "ad_astra", type: "minecraft:smelting", output: "#forge:gems" })
     event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:ingots" })
     event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:gems" })
-    event.remove({mod: "createmetallurgy", not: {type: "createmetallurgy:belt_grinder"}})
+    event.remove({ mod: "createmetallurgy", not: { type: "createmetallurgy:belt_grinder" } })
 })

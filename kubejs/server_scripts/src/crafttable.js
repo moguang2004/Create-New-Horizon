@@ -238,7 +238,8 @@ ServerEvents.recipes(event => {
         A: "minecraft:iron_ingot",
         B: "alexscaves:scarlet_magnet",
         C: "alexscaves:azure_magnet"
-    }).keepIngredient({item:["alexscaves:scarlet_magnet","alexscaves:azure_magnet"]})
+    }).keepIngredient("alexscaves:scarlet_magnet")
+        .keepIngredient("alexscaves:azure_magnet")
     event.shaped(
         Item.of("create_new_age:magnetite_block", 5), [
         "ABA",
@@ -724,10 +725,10 @@ ServerEvents.recipes(event => {
     }).id('enderio:item_conduit')
     event.shaped(
         Item.of("gtceu:kinetic_generator", 1), [
-            "ABA",
-            "CDC",
-            "ABA"
-        ], {
+        "ABA",
+        "CDC",
+        "ABA"
+    ], {
         A: "kubejs:heavy_machinery_casing",
         B: "gtceu:solid_machine_casing",
         C: "#gtceu:circuits/mv",
@@ -735,10 +736,10 @@ ServerEvents.recipes(event => {
     })
     event.shaped(
         Item.of("gtceu:big_dam", 1), [
-            "ABA",
-            "CDC",
-            "AAA"
-        ], {
+        "ABA",
+        "CDC",
+        "AAA"
+    ], {
         A: "minecraft:stone_bricks",
         B: "kubejs:basic_mechanism",
         C: "create:shaft",
