@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
     "consumptionRate": 5,
     "drainRate": 1,
     "input": {
-      "item": "gtceu:terra_steel_ingot"
+      "item": "botania:terrasteel_ingot"
     },
     "output": {
       "item": "bloodmagic:weakbloodorb"

@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     "group": "infuser",
     "ingredients": [
       {
-        "item": "gtceu:mana_steel_ingot"
+        "item": "botania:manasteel_ingot"
       },
       {
         "item": "botania:mana_pearl"
@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
     "mana": 500000,
     "output": {
       "count": 1,
-      "item": "gtceu:terra_steel_ingot"
+      "item": "botania:terrasteel_ingot"
     },
     "toColor": 65280
   }).id('mythicbotany:mythicbotany_infusion/terrasteel_ingot')
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
     "group": "infuser",
     "ingredients": [
       {
-        "item": "gtceu:elementium_ingot"
+        "item": "botania:elementium_ingot"
       },
       {
         "tag": "botania:dragonstone_gems"
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
     "mana": 1500000,
     "output": {
       "count": 1,
-      "item": "gtceu:alfsteel_ingot"
+      "item": "mythicbotany:alfsteel_ingot"
     },
     "toColor": 16750080
   }).id('mythicbotany:mythicbotany_infusion/alfsteel_ingot')
@@ -337,6 +337,6 @@ ServerEvents.recipes(event => {
     "ticks": 200
   })
     .id('mythicbotany:mana_collector')
-  event.replaceInput({}, 'mythicbotany:alfsteel_ingot', 'gtceu:alfsteel_ingot')
-  event.replaceOutput({}, 'mythicbotany:alfsteel_ingot', 'gtceu:alfsteel_ingot')
+  event.replaceInput({}, 'mythicbotany:alfsteel_ingot', 'mythicbotany:alfsteel_ingot')
+  event.replaceOutput({}, 'mythicbotany:alfsteel_ingot', 'mythicbotany:alfsteel_ingot')
 })

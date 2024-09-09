@@ -100,8 +100,8 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "#forge:silicon", "gtceu:silicon_ingot")
     event.replaceInput({}, "#forge:ingots/pulsating_alloy", "gtceu:pulsating_alloy_ingot")
     event.replaceOutput({ not: { mod: "gtceu" } }, "#forge:ingots/pulsating_alloy", "gtceu:pulsating_alloy_ingot")
-    event.replaceInput({ mod: "create", not: { or: [{type: "create:mixing"}, {type: "create:compacting"}, {type: "create:cutting"}, {type: "create:mechanical_crafting"}, {id: "create:crafting/materials/copper_nugget"} ]} }, "minecraft:copper_ingot", "gtceu:bronze_ingot")
-    event.replaceInput({ mod: "create", not: { or: [{type: "create:mixing"}, {type: "create:compacting"}, {type: "create:cutting"}, {type: "create:mechanical_crafting"}] } }, "gtceu:copper_plate", "gtceu:bronze_plate")
+    event.replaceInput({ mod: "create", not: { or: [{ type: "create:mixing" }, { type: "create:compacting" }, { type: "create:cutting" }, { type: "create:mechanical_crafting" }, { id: "create:crafting/materials/copper_nugget" }] } }, "minecraft:copper_ingot", "gtceu:bronze_ingot")
+    event.replaceInput({ mod: "create", not: { or: [{ type: "create:mixing" }, { type: "create:compacting" }, { type: "create:cutting" }, { type: "create:mechanical_crafting" }] } }, "gtceu:copper_plate", "gtceu:bronze_plate")
     event.replaceInput({ id: "create:crafting/kinetics/steam_engine" }, "minecraft:copper_block", "gtceu:bronze_block")
     event.replaceOutput({ id: "create:milling/andesite" }, "minecraft:cobblestone", "gtceu:andesite_dust")
     event.replaceInput({ id: "create:crafting/logistics/andesite_funnel" }, "gtceu:andesite_alloy_ingot", "gtceu:andesite_alloy_plate")
@@ -123,31 +123,9 @@ ServerEvents.recipes(event => {
     event.replaceOutput({}, "minecraft:netherite_block", "gtceu:netherite_block")
     event.replaceOutput({}, "create:powered_obsidian", "gtceu:obsidian_dust")
     event.replaceInput({}, "create:powered_obsidian", "gtceu:obsidian_dust")
-    event.replaceOutput({id:"create:splashing/red_sand"},"minecraft:gold_nugget","gtceu:precious_alloy_nugget")
-    event.replaceOutput({id:"create:splashing/soul_sand"},"minecraft:gold_nugget","gtceu:precious_alloy_nugget")
-    event.replaceOutput({id:'tetranichematerials:bronnum_block'},'tetranichematerials:bronnum_block','gtceu:bronze_block')
-
-    const bot_materials = [
-        ["manasteel", "mana_steel"],
-        ["terrasteel", "terra_steel"],
-        ["elementium", "elementium"],
-    ]
-    bot_materials.forEach(material => {
-        remove_recipes_id(event, [
-            `botania:conversions/${material[0]}_from_nugget`,
-            `botania:conversions/${material[0]}_to_nugget`,
-            `botania:conversions/${material[0]}_from_nuggets`,
-            `botania:conversions/${material[0]}_to_nuggets`,
-            `botania:${material[0]}_block`,
-            `botania:conversions/${material[0]}_block_deconstruct`,
-        ])
-        event.replaceInput({}, `botania:${material[0]}_ingot`, `gtceu:${material[1]}_ingot`)
-        event.replaceOutput({}, `botania:${material[0]}_ingot`, `gtceu:${material[1]}_ingot`)
-        event.replaceInput({}, `botania:${material[0]}_nugget`, `gtceu:${material[1]}_nugget`)
-        event.replaceOutput({}, `botania:${material[0]}_nugget`, `gtceu:${material[1]}_nugget`)
-        event.replaceInput({}, `botania:${material[0]}_block`, `gtceu:${material[1]}_block`)
-        event.replaceOutput({}, `botania:${material[0]}_block`, `gtceu:${material[1]}_block`)
-    })
+    event.replaceOutput({ id: "create:splashing/red_sand" }, "minecraft:gold_nugget", "gtceu:precious_alloy_nugget")
+    event.replaceOutput({ id: "create:splashing/soul_sand" }, "minecraft:gold_nugget", "gtceu:precious_alloy_nugget")
+    event.replaceOutput({ id: "tetranichematerials:bronnum_block" }, "tetranichematerials:bronnum_block", "gtceu:bronze_block")
 
     event.replaceInput({}, "tetranichematerials:red_gold_ingot", "gtceu:rose_gold_ingot")
     event.replaceInput({}, "tetranichematerials:bronnum_ingot", "gtceu:bronze_ingot")
@@ -159,6 +137,6 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "#forge:ingots/soularium", "gtceu:soularium_ingot")
     event.replaceOutput({}, "#forge:ingots/soularium", "gtceu:soularium_ingot")
     event.replaceInput({}, "enderio:powdered_quartz", "gtceu:nether_quartz_dust")
-    event.replaceInput({}, "gtceu:refined_radiance_ingot","create:refined_radiance")
-    event.replaceInput({}, "gtceu:shadow_steel_ingot","create:shadow_steel")
+    event.replaceInput({}, "gtceu:refined_radiance_ingot", "create:refined_radiance")
+    event.replaceInput({}, "gtceu:shadow_steel_ingot", "create:shadow_steel")
 })

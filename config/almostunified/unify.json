@@ -3,6 +3,8 @@
     "minecraft",
     "kubejs",
     "crafttweaker",
+    "botania",
+    "mythicbotany",
     "gtceu",
     "create"
   ],
@@ -32,6 +34,7 @@
   ],
   "materials": [
     "aeternium",
+    "alfsteel",
     "aluminum",
     "amber",
     "antesite_alloy",
@@ -65,6 +68,7 @@
     "lapis",
     "lead",
     "lumium",
+    "mana_steel",
     "mithril",
     "netherite",
     "nickel",
@@ -80,6 +84,7 @@
     "silver",
     "steel",
     "sulfur",
+    "terra_steel",
     "tin",
     "tungsten",
     "uranium",
