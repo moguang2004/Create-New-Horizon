@@ -119,6 +119,9 @@ ServerEvents.recipes(event => {
         "enderio:soularium_ingot",
         "enderio:energetic_alloy_ingot",
         "betterend:ender_block",
+        "ad_astra:desh_fluid_pipe",
+        "ad_astra:ostrum_fluid_pipe",
+        "ad_astra:fluid_pipe_duct",
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot",
