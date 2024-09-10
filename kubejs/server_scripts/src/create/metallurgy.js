@@ -150,6 +150,7 @@ ServerEvents.recipes(event => {
     let nickel = ['garnierite', 'pentlandite']
     let cobalt = ['cobaltite']
     let manganese = ['pyrolusite']
+    let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium', 'molybdenum','brass','gold','iron','bronze','copper','cobalt','manganese']
     materials.forEach(material => {
         if (materials2.includes(material)) {
             event.recipes.create.crushing([`2x gtceu:crushed_${material}_ore`, Item.of(`gtceu:crushed_${material}_ore`).withChance(0.6)], `gtceu:raw_${material}`)
@@ -260,7 +261,9 @@ ServerEvents.recipes(event => {
         if (material != 'copper') {
             event.recipes.create.splashing([`11x minecraft:${material}_nugget`, Item.of(`minecraft:${material}_nugget`, 2).withChance(0.4)], `gtceu:purified_${material}_ore`)
         }
-        event.recipes.create.splashing([`11x gtceu:copper_nugget`, Item.of(`gtceu:copper_nugget`, 2).withChance(0.4)], `gtceu:purified_copper_ore`)
+        else{
+            event.recipes.create.splashing([`11x gtceu:copper_nugget`, Item.of(`gtceu:copper_nugget`, 2).withChance(0.4)], `gtceu:purified_copper_ore`)
+        }
         event.custom({
             "type": "createmetallurgy:melting",
             "ingredients": [
@@ -941,6 +944,129 @@ ServerEvents.recipes(event => {
             }
         ],
         "heatRequirement": "superheated"
+    })
+    fluidmaterials.forEach(fluidmaterial =>{
+        if(fluidmaterial == 'iron' || fluidmaterial == 'copper' || fluidmaterial == 'gold'){
+            event.custom({
+                "type": "createmetallurgy:casting_in_table",
+                "ingredients": [
+                {
+                    "item": "createmetallurgy:graphite_ingot_mold"
+                },
+                {
+                    "fluid": `gtceu:${fluidmaterial}`,
+                    "amount": 144
+                }
+                ],
+                "processingTime": 80,
+                "mold_consumed": false,
+                "result": {
+                "item": `gtceu:${fluidmaterial}_ingot`
+                }
+            })
+            event.custom({
+                "type": "createmetallurgy:casting_in_table",
+                "ingredients": [
+                {
+                    "item": "createmetallurgy:graphite_nugget_mold"
+                },
+                {
+                    "fluid": `gtceu:${fluidmaterial}`,
+                    "amount": 16
+                }
+                ],
+                "processingTime": 40,
+                "mold_consumed": false,
+                "result": {
+                "item": `gtceu:${fluidmaterial}_nugget`
+                }
+            })
+            event.custom({
+                "type": "createmetallurgy:casting_in_basin",
+                "ingredients": [
+                {
+                    "fluid": `gtceu:${fluidmaterial}`,
+                    "amount": 1296
+                }
+                ],
+                "processingTime": 150,
+                "mold_consumed": false,
+                "result": {
+                "item": `gtceu:${fluidmaterial}_block`
+                }
+            })
+        }
+        else{
+            event.custom({
+                "type": "createmetallurgy:casting_in_table",
+                "ingredients": [
+                {
+                    "item": "createmetallurgy:graphite_ingot_mold"
+                },
+                {
+                    "fluid": `gtceu:${fluidmaterial}`,
+                    "amount": 144
+                }
+                ],
+                "processingTime": 80,
+                "mold_consumed": false,
+                "result": {
+                "item": `minecraft:${fluidmaterial}_ingot`
+                }
+            })
+            if(fluidmaterial == 'copper'){
+                event.custom({
+                    "type": "createmetallurgy:casting_in_table",
+                    "ingredients": [
+                    {
+                        "item": "createmetallurgy:graphite_nugget_mold"
+                    },
+                    {
+                        "fluid": `gtceu:${fluidmaterial}`,
+                        "amount": 16
+                    }
+                    ],
+                    "processingTime": 40,
+                    "mold_consumed": false,
+                    "result": {
+                    "item": `gtceu:${fluidmaterial}_nugget`
+                    }
+                })
+            }
+            else{
+                event.custom({
+                    "type": "createmetallurgy:casting_in_table",
+                    "ingredients": [
+                    {
+                        "item": "createmetallurgy:graphite_nugget_mold"
+                    },
+                    {
+                        "fluid": `gtceu:${fluidmaterial}`,
+                        "amount": 16
+                    }
+                    ],
+                    "processingTime": 40,
+                    "mold_consumed": false,
+                    "result": {
+                    "item": `minecraft:${fluidmaterial}_nugget`
+                    }
+                })
+            }
+            event.custom({
+                "type": "createmetallurgy:casting_in_basin",
+                "ingredients": [
+                {
+                    "fluid": `gtceu:${fluidmaterial}`,
+                    "amount": 1296
+                }
+                ],
+                "processingTime": 150,
+                "mold_consumed": false,
+                "result": {
+                "item": `minecraft:${fluidmaterial}_block`
+                }
+            })
+        }
     })
     remove_recipes_id(event, [
         'create:crushing/raw_copper'

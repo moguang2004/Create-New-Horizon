@@ -278,6 +278,10 @@ ServerEvents.recipes(event => {
   event.recipes.create.crushing('gtceu:brick_dust', 'minecraft:brick')
   event.recipes.create.crushing('4x gtceu:brick_dust', 'minecraft:bricks')
   event.recipes.create.crushing('gtceu:ender_pearl_dust', 'minecraft:ender_pearl')
+  event.recipes.create.crushing('gtceu:flint_dust', 'minecraft:flint')
+  event.recipes.create.crushing('gtceu:quartz_sand_dust', 'minecraft:sand')
+  event.recipes.create.milling('gtceu:flint_dust', 'minecraft:flint')
+  event.recipes.create.milling('gtceu:quartz_sand_dust', 'minecraft:sand')
 })
 
 ServerEvents.recipes(event => {

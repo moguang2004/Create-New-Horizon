@@ -593,6 +593,7 @@
 		}
 		{
 			dependencies: ["2534B56E45BA42B0"]
+			description: ["注：HV等级以下的离心机&c不能产出副产物&r，所以不要再尝试用大型蒸汽离心机获得一些珍惜的资源了。"]
 			id: "4EF75F713E2D4357"
 			subtitle: "大型离心机"
 			tasks: [{

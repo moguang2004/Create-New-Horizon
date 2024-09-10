@@ -472,12 +472,12 @@
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
-			description: ["完成任务后，运行/reload或者重进游戏以生效"]
+			description: ["请前往config文件夹里找到ctnhcore，打开后将连锁从true改为false即可"]
 			id: "20E2F2AFF63F306C"
 			subtitle: "本整合包默认关闭了对于格雷矿物的连锁"
 			tasks: [{
 				id: "4140387102155C06"
-				title: "点此打开"
+				title: "连锁开关"
 				type: "checkmark"
 			}]
 			title: "FTB连锁"

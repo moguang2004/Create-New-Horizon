@@ -127,9 +127,9 @@ ServerEvents.recipes(event => {
         .duration(80)
     Ingredient.of('#forge:foods').getItemTypes().forEach(food => {
         if(food.toString() != 'pumpkin_pie'){
+            console.info(food.toString())
         let nutrition = food.getFoodProperties().getNutrition()
         let saturation = food.getFoodProperties().getSaturationModifier()
-        //console.info(food.toString())
         //console.info(food.getFoodProperties().getNutrition())
         event.recipes.gtceu.digesting(food.toString() + '_digestion')
             .EUt(30)

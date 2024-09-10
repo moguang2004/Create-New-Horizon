@@ -20,17 +20,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["2393E591D8CEE84B"]
-			id: "367AD91A6445F6ED"
-			tasks: [{
-				id: "01F5CF2D68F23209"
-				item: "gtceu:kinetic_steam_turbine"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 0.0d
-		}
-		{
 			dependencies: [
 				"6922D967DCFF8F7D"
 				"6F3D47D3A8FF08F6"
@@ -50,10 +39,10 @@
 		}
 		{
 			dependencies: [
-				"367AD91A6445F6ED"
 				"708167FA2FF846B1"
 				"2CB2897505181D0F"
 				"3D74B0DFDA2D20E0"
+				"0A62BB9151C02B02"
 			]
 			id: "614B88F2D27D2726"
 			subtitle: "磁生电"
@@ -181,6 +170,64 @@
 			}]
 			x: -4.5d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"79D60B601C349798"
+				"2393E591D8CEE84B"
+			]
+			description: [
+				"    机械涡轮的基础应力输出量为&a8192su&r（ULV应力输出仓），应力输出仓每提升一级，最大并行数x4。"
+				"    应力输出还与转子和转子支架有关，转子支架每升一级，支架效率提升10%（ULV为100%），转子的效率取决于转子的材料。"
+				"最终涡轮的总效率为 &a支架效率x转子的涡轮效率x（1 - 电压高于HV后损失的百分比）&r"
+			]
+			icon: "gtceu:kinetic_steam_turbine"
+			id: "0A62BB9151C02B02"
+			subtitle: "一个好的涡轮转子，能够让你的涡轮发挥出最好的效果"
+			tasks: [
+				{
+					id: "02ECAE0786173E1E"
+					item: "gtceu:kinetic_steam_turbine"
+					type: "item"
+				}
+				{
+					id: "1CCF830129D33CA2"
+					item: "gtceu:ulv_rotor_holder0"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "7DAFDCF1FC884739"
+					item: { Count: 27, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "2C5CF6D99B480F19"
+					item: {
+						Count: 1
+						id: "gtceu:turbine_rotor"
+						tag: {
+							GT.PartStats: {
+								Material: "gtceu:steel"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7B13D8017A81F487"
+					item: { Count: 2, id: "gtceu:bronze_gearbox" }
+					type: "item"
+				}
+				{
+					id: "758A36603A071AC8"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 	title: "蒸汽驱动"

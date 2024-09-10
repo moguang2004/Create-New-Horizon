@@ -602,6 +602,36 @@
 					item: "gtceu:ulv_rotor_holder0"
 					type: "item"
 				}
+				{
+					count: 27L
+					id: "60F1290EC3954152"
+					item: { Count: 27, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "453648686183214C"
+					item: {
+						Count: 1
+						id: "gtceu:turbine_rotor"
+						tag: {
+							GT.PartStats: {
+								Material: "gtceu:steel"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "590F66F39B247BA7"
+					item: { Count: 2, id: "gtceu:bronze_gearbox" }
+					type: "item"
+				}
+				{
+					id: "509127F4BD4A96C2"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
 			]
 			x: -3.5d
 			y: -3.5d
@@ -680,11 +710,6 @@
 					type: "item"
 				}
 				{
-					id: "615FFF5D1E164F79"
-					item: "gtceu:lv_rotor_holder1"
-					type: "item"
-				}
-				{
 					id: "31434FFB8799FEE6"
 					item: "gtceu:steel_gearbox"
 					type: "item"
@@ -693,6 +718,16 @@
 					count: 17L
 					id: "3DAECEEDFD3BCB2F"
 					item: { Count: 17, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "1E10F1C7929C0FC5"
+					item: "gtceu:lv_kinetic_input_box"
+					type: "item"
+				}
+				{
+					id: "796ED421C097B163"
+					item: "gtceu:lv_energy_output_hatch"
 					type: "item"
 				}
 			]

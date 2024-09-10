@@ -140,4 +140,5 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:ingots" })
     event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:gems" })
     event.remove({ mod: "createmetallurgy", not: { type: "createmetallurgy:belt_grinder" } })
+    event.remove({ input: "gtceu:treated_wood_planks", output: "gtceu:wood_large_fluid_pipe"})
 })
