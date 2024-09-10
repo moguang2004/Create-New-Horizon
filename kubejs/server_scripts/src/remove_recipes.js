@@ -44,7 +44,6 @@ ServerEvents.recipes(event => {
         "alexscaves:azure_neodymium_ingot",
         "alexscaves:scarlet_neodymium_ingot",
         "create:crafting/kinetics/mechanical_bearing",
-        "aether:skyroot_piston",
         "sophisticatedbackpacks:netherite_backpack",
         "expandedstorage:obsidian_to_netherite_conversion_kit",
         "bclib:tag_piston",
@@ -120,6 +119,9 @@ ServerEvents.recipes(event => {
         "enderio:soularium_ingot",
         "enderio:energetic_alloy_ingot",
         "betterend:ender_block",
+        "ad_astra:desh_fluid_pipe",
+        "ad_astra:ostrum_fluid_pipe",
+        "ad_astra:fluid_pipe_duct",
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot",
@@ -141,4 +143,5 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:gems" })
     event.remove({ mod: "createmetallurgy", not: { type: "createmetallurgy:belt_grinder" } })
     event.remove({ input: "gtceu:treated_wood_planks", output: "gtceu:wood_large_fluid_pipe"})
+    event.remove({ mod: "aether", type: "minecraft:crafting_shaped", id: /aether:skyroot_(.*)/ })
 })

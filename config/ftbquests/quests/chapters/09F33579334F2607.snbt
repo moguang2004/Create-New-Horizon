@@ -213,7 +213,7 @@
 			subtitle: "似乎是一个魔力的集合体"
 			tasks: [{
 				id: "2EE13684076752DC"
-				item: "gtceu:terra_steel_ingot"
+				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
 			x: 7.0d
@@ -264,7 +264,7 @@
 			tasks: [
 				{
 					id: "2C39F093F3F3687A"
-					item: "gtceu:elementium_ingot"
+					item: "botania:elementium_ingot"
 					type: "item"
 				}
 				{
@@ -357,7 +357,7 @@
 			id: "2F98CF01C77BC29B"
 			tasks: [{
 				id: "7060B5A93878C81F"
-				item: "gtceu:alfsteel_ingot"
+				item: "mythicbotany:alfsteel_ingot"
 				type: "item"
 			}]
 			x: 17.0d

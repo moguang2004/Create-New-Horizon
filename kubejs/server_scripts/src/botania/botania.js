@@ -207,7 +207,7 @@ ServerEvents.recipes(event => {
     },
     "mana": 3000,
     "output": {
-      "item": "gtceu:mana_steel_ingot"
+      "item": "botania:manasteel_ingot"
     }
   })
   event.custom({
@@ -217,7 +217,7 @@ ServerEvents.recipes(event => {
     },
     "mana": 27000,
     "output": {
-      "item": "gtceu:mana_steel_block"
+      "item": "botania:manasteel_block"
     }
   })
   //terra_steel
@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
     "type": "botania:terra_plate",
     "ingredients": [
       {
-        "item": "gtceu:mana_steel_ingot"
+        "item": "botania:manasteel_ingot"
       },
       {
         "item": "botania:mana_pearl"
@@ -239,7 +239,7 @@ ServerEvents.recipes(event => {
     ],
     "mana": 500000,
     "result": {
-      "item": "gtceu:terra_steel_ingot"
+      "item": "botania:terrasteel_ingot"
     }
   })
   //manarune
@@ -289,15 +289,15 @@ ServerEvents.recipes(event => {
     "type": "botania:elven_trade",
     "ingredients": [
       {
-        "item": "gtceu:mana_steel_ingot"
+        "item": "botania:manasteel_ingot"
       },
       {
-        "item": "gtceu:mana_steel_ingot"
+        "item": "botania:manasteel_ingot"
       }
     ],
     "output": [
       {
-        "item": "gtceu:elementium_ingot"
+        "item": "botania:elementium_ingot"
       }
     ]
   })
@@ -305,15 +305,15 @@ ServerEvents.recipes(event => {
     "type": "botania:elven_trade",
     "ingredients": [
       {
-        "item": "gtceu:mana_steel_block"
+        "item": "botania:manasteel_block"
       },
       {
-        "item": "gtceu:mana_steel_block"
+        "item": "botania:manasteel_block"
       }
     ],
     "output": [
       {
-        "item": "gtceu:elementium_block"
+        "item": "botania:elementium_block"
       }
     ]
   })
@@ -650,7 +650,7 @@ ServerEvents.recipes(event => {
         "item": "botania:alfheim_portal"
       },
       {
-        "item": "gtceu:terra_steel_ingot"
+        "item": "botania:terrasteel_ingot"
       }
     ],
     "mana": 20000,
@@ -678,7 +678,7 @@ ServerEvents.recipes(event => {
         "tag": "minecraft:leaves"
       },
       {
-        "item": "gtceu:elementium_ingot"
+        "item": "botania:elementium_ingot"
       }
     ],
     "mana": 20000,
@@ -706,7 +706,7 @@ ServerEvents.recipes(event => {
         "item": "minecraft:grass_block"
       },
       {
-        "item": "gtceu:mana_steel_ingot"
+        "item": "botania:manasteel_ingot"
       }
     ],
     "mana": 20000,
