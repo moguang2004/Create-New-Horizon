@@ -282,6 +282,14 @@ ServerEvents.recipes(event => {
   event.recipes.create.crushing('gtceu:quartz_sand_dust', 'minecraft:sand')
   event.recipes.create.milling('gtceu:flint_dust', 'minecraft:flint')
   event.recipes.create.milling('gtceu:quartz_sand_dust', 'minecraft:sand')
+  event.recipes.create.crushing('gtceu:asurine_dust','create:asurine')
+  event.recipes.create.crushing('gtceu:crimsite_dust','create:crimsite')
+  event.recipes.create.crushing('gtceu:ochrum_dust','create:ochrum')
+  event.recipes.create.crushing('gtceu:veridium_dust','create:veridium')
+  event.recipes.create.splashing(['gtceu:silicon_dioxide_dust',Item.of('4x gtceu:zinc_nugget').withChance(0.5)],'gtceu:asurine_dust')
+  event.recipes.create.splashing(['gtceu:silicon_dioxide_dust',Item.of('4x minecraft:iron_nugget').withChance(0.5)],'gtceu:crimsite_dust')
+  event.recipes.create.splashing(['gtceu:silicon_dioxide_dust',Item.of('4x gtceu:precious_alloy_nugget').withChance(0.5)],'gtceu:ochrum_dust')
+  event.recipes.create.splashing(['gtceu:silicon_dioxide_dust',Item.of('4x gtceu:copper_nugget').withChance(0.5)],'gtceu:veridium_dust')
 })
 
 ServerEvents.recipes(event => {

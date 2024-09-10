@@ -150,7 +150,7 @@ ServerEvents.recipes(event => {
     let nickel = ['garnierite', 'pentlandite']
     let cobalt = ['cobaltite']
     let manganese = ['pyrolusite']
-    let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium', 'molybdenum','brass','gold','iron','bronze','copper','cobalt','manganese']
+    let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium', 'molybdenum','brass','gold','iron','bronze','copper','cobalt','manganese', 'slag']
     materials.forEach(material => {
         if (materials2.includes(material)) {
             event.recipes.create.crushing([`2x gtceu:crushed_${material}_ore`, Item.of(`gtceu:crushed_${material}_ore`).withChance(0.6)], `gtceu:raw_${material}`)

@@ -193,5 +193,11 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:cellulose_dust')
         .chancedOutput('gtceu:lignin_dust', 5000, 250)
         .duration(40)
+    event.recipes.gtceu.macerator('podzol')
+        .EUt(30)
+        .duration(40)
+        .itemInputs('minecraft:podzol')
+        .itemOutputs('4x gtceu:dirt_dust')
+        .chancedOutput('gtceu:rhizobium_dust',500,250)
 })
 let meat = ['nethersdelight:hoglin_loin', 'twilightforest:raw_meef', 'twilightforest:raw_venison', 'alexscaves:dinosaur_chop', 'twilightdelight:raw_insect']

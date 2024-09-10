@@ -574,4 +574,218 @@ ServerEvents.recipes(event => {
     .inputFluids(Fluid.of("gtceu:lubricant", 50))
     .outputStress(1048576)
     .duration(200)
+
+  event.recipes.gtceu.centrifuge('slag')
+    .itemInputs('8x gtceu:slag_dust')
+    .itemOutputs('3x gtceu:alumina_dust')
+    .itemOutputs('3x gtceu:silicon_dioxide_dust')
+    .itemOutputs('2x gtceu:magnesia_dust')
+    .chancedOutput('gtceu:calcium_sulfide_dust',2500,500)
+    .chancedOutput('gtceu:sodium_sulfide_dust',1500,500)
+    .EUt(30)
+    .duration(288)
+  let stones = ['asurine','crimsite','ochrum','veridium']
+  stones.forEach(stone =>{
+    event.recipes.gtceu.macerator(stone+'_macerator')
+      .itemInputs('create:' + stone)
+      .itemOutputs('gtceu:' + stone + '_dust')
+      .chancedOutput('gtceu:' + stone + '_dust',1500,500)
+      .EUt(30)
+      .duration(100)
+    event.recipes.gtceu.mixer(stone + "_slurry")
+      .itemInputs('gtceu:' + stone + '_dust')
+      .inputFluids(Fluid.of('gtceu:aqua_regia',3000))
+      .outputFluids(Fluid.of('gtceu:' + stone + '_slurry',3000))
+      .EUt(480)
+      .duration(100)
+  })
+  event.recipes.gtceu.centrifuge('asurine_dust')
+    .itemInputs('gtceu:asurine_dust')
+    .itemOutputs('gtceu:silicon_dioxide_dust')
+    .itemOutputs('gtceu:small_zinc_dust')
+    .chancedOutput('gtceu:small_gallium_dust',1500,250)
+    .EUt(30)
+    .duration(60)
+  event.recipes.gtceu.centrifuge('crimsite_dust')
+    .itemInputs('gtceu:crimsite_dust')
+    .itemOutputs('gtceu:silicon_dioxide_dust')
+    .itemOutputs('gtceu:small_iron_dust')
+    .chancedOutput('gtceu:small_cobalt_dust',1500,250)
+    .EUt(30)
+    .duration(60)
+  event.recipes.gtceu.centrifuge('ochrum_dust')
+    .itemInputs('gtceu:ochrum_dust')
+    .itemOutputs('gtceu:silicon_dioxide_dust')
+    .itemOutputs('gtceu:small_precious_alloy_dust')
+    .chancedOutput('gtceu:small_silver_dust',1500,250)
+    .EUt(30)
+    .duration(60)
+  event.recipes.gtceu.centrifuge('veridium_dust')
+    .itemInputs('gtceu:veridium_dust')
+    .itemOutputs('gtceu:silicon_dioxide_dust')
+    .itemOutputs('gtceu:small_copper_dust')
+    .chancedOutput('gtceu:small_nickel_dust',1500,250)
+    .EUt(30)
+    .duration(60)
+  event.recipes.gtceu.centrifuge('asurine_slurry')
+    .inputFluids(Fluid.of('gtceu:asurine_slurry',3000))
+    .outputFluids(Fluid.of('gtceu:diluted_hydrochloric_acid',2000))
+    .itemOutputs('2x gtceu:small_silicon_dust')
+    .itemOutputs('gtceu:zinc_dust')
+    .chancedOutput('gtceu:gallium_dust',1000,500)
+    .chancedOutput('gtceu:aluminium_dust',1000,250)
+    .EUt(480)
+    .duration(200)
+  event.recipes.gtceu.centrifuge('crimsite_slurry')
+    .inputFluids(Fluid.of('gtceu:crimsite_slurry',3000))
+    .outputFluids(Fluid.of('gtceu:diluted_hydrochloric_acid',2000))
+    .itemOutputs('2x gtceu:small_silicon_dust')
+    .itemOutputs('gtceu:iron_dust')
+    .chancedOutput('gtceu:cobalt_dust',1000,500)
+    .chancedOutput('gtceu:chromium_dust',500,250)
+    .EUt(480)
+    .duration(200)
+  event.recipes.gtceu.centrifuge('ochrum_slurry')
+    .inputFluids(Fluid.of('gtceu:ochrum_slurry',3000))
+    .outputFluids(Fluid.of('gtceu:diluted_hydrochloric_acid',1000))
+    .itemOutputs('2x gtceu:small_silicon_dust')
+    .outputFluids(Fluid.of('gtceu:chloroauric_acid',500))
+    .chancedOutput('gtceu:silver_dust',1000,500)
+    .chancedOutput(Fluid.of('gtceu:mercury'),1000,250)
+    .EUt(480)
+    .duration(200)
+  event.recipes.gtceu.centrifuge('veridium_slurry')
+    .inputFluids(Fluid.of('gtceu:veridium_slurry',3000))
+    .outputFluids(Fluid.of('gtceu:diluted_hydrochloric_acid',2000))
+    .itemOutputs('2x gtceu:small_silicon_dust')
+    .itemOutputs('gtceu:copper_dust')
+    .chancedOutput('gtceu:nickel_dust',1000,500)
+    .chancedOutput('gtceu:tin_dust',1000,250)
+    .EUt(480)
+    .duration(200)
+  function Greenhouse(id, input, fluid, output, boosted) {
+        if (boosted) {
+            event.recipes.gtceu.greenhouse(id)
+                .circuit(2)
+                .notConsumable(InputItem.of(input))
+                .itemInputs('4x gtceu:fertilizer')
+                .inputFluids(Fluid.of('minecraft:water', fluid))
+                .itemOutputs(output)
+                .duration(320)
+                .EUt(120)
+        } else {
+            event.recipes.gtceu.greenhouse(id)
+                .circuit(1)
+                .notConsumable(InputItem.of(input))
+                .inputFluids(Fluid.of('minecraft:water', fluid))
+                .itemOutputs(output)
+                .duration(640)
+                .EUt(120)
+        }
+    }
+  // Rubber
+  Greenhouse('rubber_sapling', 'gtceu:rubber_sapling', 1000, ['32x gtceu:rubber_log', '8x gtceu:sticky_resin', '4x gtceu:rubber_sapling'], false)
+  Greenhouse('rubber_sapling_boosted', 'gtceu:rubber_sapling', 1000, ['64x gtceu:rubber_log', '16x gtceu:sticky_resin', '4x gtceu:rubber_sapling'], true)
+
+  // Oak
+  Greenhouse('oak_sapling', 'minecraft:oak_sapling', 1000, ['64x minecraft:oak_log', '4x minecraft:oak_sapling'], false)
+  Greenhouse('oak_sapling_boosted', 'minecraft:oak_sapling', 1000, ['64x minecraft:oak_log', '64x minecraft:oak_log', '4x minecraft:oak_sapling'], true)
+
+  // Dark Oak
+  Greenhouse('dark_oak_sapling', 'minecraft:dark_oak_sapling', 1000, ['64x minecraft:dark_oak_log', '4x minecraft:dark_oak_sapling'], false)
+  Greenhouse('dark_oak_sapling_boosted', 'minecraft:dark_oak_sapling', 1000, ['64x minecraft:dark_oak_log', '64x minecraft:dark_oak_log', '4x minecraft:dark_oak_sapling'], true)
+
+  // Spruce
+  Greenhouse('spruce_sapling', 'minecraft:spruce_sapling', 1000, ['64x minecraft:spruce_log', '4x minecraft:spruce_sapling'], false)
+  Greenhouse('spruce_sapling_boosted', 'minecraft:spruce_sapling', 1000, ['64x minecraft:spruce_log', '64x minecraft:spruce_log', '4x minecraft:spruce_sapling'], true)
+
+  // Birch
+  Greenhouse('birch_sapling', 'minecraft:birch_sapling', 1000, ['64x minecraft:birch_log', '4x minecraft:birch_sapling'], false)
+  Greenhouse('birch_sapling_boosted', 'minecraft:birch_sapling', 1000, ['64x minecraft:birch_log', '64x minecraft:birch_log', '4x minecraft:birch_sapling'], true)
+
+  // Acacia
+  Greenhouse('acacia_sapling', 'minecraft:acacia_sapling', 1000, ['64x minecraft:acacia_log', '4x minecraft:acacia_sapling'], false)
+  Greenhouse('acacia_sapling_boosted', 'minecraft:acacia_sapling', 1000, ['64x minecraft:acacia_log', '64x minecraft:acacia_log', '4x minecraft:acacia_sapling'], true)
+
+  // Jungle
+  Greenhouse('jungle_sapling', 'minecraft:jungle_sapling', 1000, ['64x minecraft:jungle_log', '4x minecraft:jungle_sapling'], false)
+  Greenhouse('jungle_sapling_boosted', 'minecraft:jungle_sapling', 1000, ['64x minecraft:jungle_log', '64x minecraft:jungle_log', '4x minecraft:jungle_sapling'], true)
+
+  // Azalea
+  Greenhouse('azalea_sapling', 'minecraft:azalea', 1000, ['64x minecraft:oak_log', '4x minecraft:azalea'], false)
+  Greenhouse('azalea_boosted', 'minecraft:azalea', 1000, ['64x minecraft:oak_log', '64x minecraft:oak_log', '4x minecraft:azalea'], true)
+
+  // Flowering Azalea
+  Greenhouse('flowering_azalea', 'minecraft:flowering_azalea', 1000, ['64x minecraft:oak_log', '4x minecraft:flowering_azalea'], false)
+  Greenhouse('flowering_azalea_boosted', 'minecraft:flowering_azalea', 1000, ['64x minecraft:oak_log', '64x minecraft:oak_log', '4x minecraft:flowering_azalea'], true)
+
+  // Mangrove
+  Greenhouse('mangrove_propagule', 'minecraft:mangrove_propagule', 1000, ['64x minecraft:mangrove_log', '4x minecraft:mangrove_propagule'], false)
+  Greenhouse('mangrove_propagule_boosted', 'minecraft:mangrove_propagule', 1000, ['64x minecraft:mangrove_log', '64x minecraft:mangrove_log', '4x minecraft:mangrove_propagule'], true)
+
+  ////// Crops //////
+
+  // Sugarcane
+  Greenhouse('sugar_cane', 'minecraft:sugar_cane', 1000, '24x minecraft:sugar_cane', false)
+  Greenhouse('sugar_cane_boosted', 'minecraft:sugar_cane', 1000, '48x minecraft:sugar_cane', true)
+
+  // Kelp
+  Greenhouse('kelp', 'minecraft:kelp', 2000, '24x minecraft:kelp', false)
+  Greenhouse('kelp_boosted', 'minecraft:kelp', 2000, '48x minecraft:kelp', true)
+
+  // Bamboo
+  Greenhouse('bamboo', 'minecraft:bamboo', 1000, '24x minecraft:bamboo', false)
+  Greenhouse('bamboo_boosted', 'minecraft:bamboo', 1000, '48x minecraft:bamboo', true)
+
+  // Cactus
+  Greenhouse('cactus', 'minecraft:cactus', 1000, '24x minecraft:cactus', false)
+  Greenhouse('cactus_boosted', 'minecraft:cactus', 1000, '48x minecraft:cactus', true)
+
+  // Wheat
+  Greenhouse('wheat', 'minecraft:wheat_seeds', 1000, '24x minecraft:wheat', false)
+  Greenhouse('wheat_boosted', 'minecraft:wheat_seeds', 1000, '48x minecraft:wheat', true)
+
+  // Carrot
+  Greenhouse('carrot', 'minecraft:carrot', 1000, '24x minecraft:carrot', false)
+  Greenhouse('carrot_boosted', 'minecraft:carrot', 1000, '48x minecraft:carrot', true)
+
+  // Potato
+  Greenhouse('potato', 'minecraft:potato', 1000, '24x minecraft:potato', false)
+  Greenhouse('potato_boosted', 'minecraft:potato', 1000, '48x minecraft:potato', true)
+
+  // Beetroot
+  Greenhouse('beetroot', 'minecraft:beetroot_seeds', 1000, '24x minecraft:beetroot', false)
+  Greenhouse('beetroot_boosted', 'minecraft:beetroot_seeds', 1000, '48x minecraft:beetroot', true)
+
+  // Mellon
+  Greenhouse('melon', 'minecraft:melon_seeds', 1000, '12x minecraft:melon', false)
+  Greenhouse('melon_boosted', 'minecraft:melon_seeds', 1000, '24x minecraft:melon', true)
+
+  // Pumpkin
+  Greenhouse('pumpkin', 'minecraft:pumpkin_seeds', 1000, '12x minecraft:pumpkin', false)
+  Greenhouse('pumpkin_boosted', 'minecraft:pumpkin_seeds', 1000, '24x minecraft:pumpkin', true)
+
+  // Nether Wart
+  Greenhouse('nether_wart', 'minecraft:nether_wart', 1000, '12x minecraft:nether_wart', false)
+  Greenhouse('nether_wart_boosted', 'minecraft:nether_wart', 1000, '24x minecraft:nether_wart', true)
+
+  // Red Mushroom
+  Greenhouse('red_mushroom', 'minecraft:red_mushroom', 1000, '12x minecraft:red_mushroom', false)
+  Greenhouse('red_mushroom_boosted', 'minecraft:red_mushroom', 1000, '24x minecraft:red_mushroom', true)
+
+  // Brown Mushroom
+  Greenhouse('brown_mushroom', 'minecraft:brown_mushroom', 1000, '12x minecraft:brown_mushroom', false)
+  Greenhouse('brown_mushroom_boosted', 'minecraft:brown_mushroom', 1000, '24x minecraft:brown_mushroom', true)
+
+  event.recipes.gtceu.greenhouse('rhizobium')
+    .circuit(3)
+    .duration(640)
+    .EUt(120)
+    .notConsumable('minecraft:spruce_sapling')
+    .itemInputs('4x gtceu:rhizobium_dust')
+    .inputFluids(Fluid.of('minecraft:water',1000))
+    .itemInputs('4x gtceu:fertilizer')
+    .itemOutputs('32x minecraft:spruce_log')
+    .itemOutputs('8x gtceu:rhizobium_dust')
+    .itemOutputs('50x gtceu:sodium_nitrate_dust')
 })
