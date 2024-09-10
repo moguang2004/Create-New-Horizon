@@ -466,14 +466,14 @@ LootJS.modifiers(event => {
         .randomChanceWithEnchantment("minecraft:looting", [0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6])
         .matchMainHand("#forge:tools/butchery_knives")
         .killedByPlayer()
-        .addLoot("minecraft:wither_skeleton_head")
-    let animal = ["minecraft:pig", "minecraft:cow", "minecraft:horse"]
+        .addLoot("minecraft:wither_skeleton_skull")
+    let animal = ["minecraft:pig", "minecraft:cow", "minecraft:horse", "minecraft:sheep"]
     animal.forEach(animal => {
         event.addEntityLootModifier(animal)
             .randomChanceWithEnchantment("minecraft:looting", [0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6])
             .matchMainHand("#forge:tools/butchery_knives")
             .killedByPlayer()
-            .addLoot("minecraft:wither_skeleton_head")
+            .addWeightedLoot([1,3],"kubejs:tallow")
     })
 })
 

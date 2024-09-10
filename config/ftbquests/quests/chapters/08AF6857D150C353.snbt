@@ -395,6 +395,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["猪牛羊马"]
 			id: "25373674A1A9932C"
 			subtitle: "屠刀杀部分动物获得"
 			tasks: [{
