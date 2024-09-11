@@ -24,7 +24,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle("AA@AA", "ABBBA", "ABBBA", "ABBBA", "AAAAA")
             .where("A", Predicates.blocks("kubejs:bio_reactor_casing").setMinGlobalLimited(35)
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                .or(Predicates.abilities(PartAbility.MAINTENANCE)).setMinGlobalLimited(1))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setMinGlobalLimited(1)))
             .where("B", Predicates.blocks("gtceu:cleanroom_glass"))
             .where("#", Predicates.air())
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))

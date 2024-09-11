@@ -50,7 +50,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('C', Predicates.blocks('create:andesite_casing'))
             .where('N', Predicates.blocks('create:andesite_casing')
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                .or(Predicates.abilities(PartAbility.MAINTENANCE)).setMinGlobalLimited(1))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setMinGlobalLimited(1)))
             .where('K', Predicates.controller(Predicates.blocks(definition.get())))
             .where('D', Predicates.blocks('create:andesite_casing'))
             .where('E', Predicates.abilities(PartAbility.INPUT_KINETIC).setExactLimit(1)

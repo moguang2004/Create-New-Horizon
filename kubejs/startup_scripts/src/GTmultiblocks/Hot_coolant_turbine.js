@@ -24,7 +24,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("C", Predicates.blocks(GTBlocks.CASING_TITANIUM_GEARBOX.get()))
             .where('S', Predicates.blocks(GTBlocks.CASING_TITANIUM_TURBINE.get())
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                .or(Predicates.abilities(PartAbility.MAINTENANCE)).setMinGlobalLimited(1)
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setMinGlobalLimited(1))
                 .or(Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1)))
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
             .build()

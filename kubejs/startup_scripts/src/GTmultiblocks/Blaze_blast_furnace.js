@@ -27,7 +27,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('B', Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
             .where('G', Predicates.blocks('kubejs:blaze_blast_furnace_casing').setMinGlobalLimited(4)
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                .or(Predicates.abilities(PartAbility.MAINTENANCE)).setMinGlobalLimited(1)
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setMinGlobalLimited(1))
             )
             .where(' ', Predicates.air())
             .build()

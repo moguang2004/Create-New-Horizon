@@ -76,7 +76,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("A", Predicates.blocks("gtceu:solid_machine_casing"))
             .where("B", Predicates.blocks("gtceu:solid_machine_casing").setMinGlobalLimited(15)
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                .or(Predicates.abilities(PartAbility.MAINTENANCE)).setMinGlobalLimited(1)
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setMinGlobalLimited(1))
             )
             .where("#", Predicates.any())
             .where("C", Predicates.blocks("gtceu:tempered_glass"))
