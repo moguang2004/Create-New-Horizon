@@ -39,7 +39,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 .aisle("CCTP", "CSTP", "  TP")
                 .where("S", Predicates.controller(Predicates.blocks(definition.get())))
                 .where("G", Predicates.blocks('gtceu:steel_gearbox'))
-                .where("A", Predicates.blocks('gtceu:graphene_block'))
+                .where("A", Predicates.blocks('gtceu:coke_block'))
                 .where("C", Predicates.blocks('gtceu:solid_machine_casing')
                     .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
                 )
