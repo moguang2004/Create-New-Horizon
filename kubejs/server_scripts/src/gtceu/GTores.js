@@ -443,7 +443,7 @@ GTCEuServerEvents.oreVeins(event => {
     })
 
     event.add('ctnh:precious_alloy_vein', vein =>{
-        vein.weight(60)
+        vein.weight(40)
         vein.clusterSize(40)
         vein.density(0.35)
         vein.discardChanceOnAirExposure(0)
@@ -453,7 +453,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(3).mat(GTMaterials.get('precious_alloy')).size(2, 4))
-                .layer(l => l.weight(2).mat(GTMaterials.Silver).size(2, 3))
+                .layer(l => l.weight(2).mat(GTMaterials.Silver).size(1, 3))
                 .layer(l => l.weight(2).mat(GTMaterials.Tin).size(1, 1))
                 .layer(l => l.weight(1).mat(GTMaterials.Copper).size(1, 1))
             )

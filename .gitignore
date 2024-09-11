@@ -43,3 +43,7 @@ natives-*/
 /icon.png
 /config/sound_physics_remastered/
 hmclversion.cfg
+/config/jei/ingredient-list-mod-sort-order.ini
+/config/oculus.properties
+/config/xaerominimap_entities.json
+/config/embeddium-fingerprint.json
