@@ -39,7 +39,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     const FluidHatchPart = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.FluidHatchPartMachine')
     const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
     const Temperature = Java.loadClass('com.momosoftworks.coldsweat.api.util.Temperature')
-    event.create('fermenting_tank', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
+    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
+    event.create('fermenting_tank', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fermenting')
         .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe) => {

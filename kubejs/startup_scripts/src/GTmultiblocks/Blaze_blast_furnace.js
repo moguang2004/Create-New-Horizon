@@ -7,7 +7,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     const FluidStack = Java.loadClass('com.lowdragmc.lowdraglib.side.fluid.FluidStack')
     const GTRecipeBuilder = Java.loadClass('com.gregtechceu.gtceu.data.recipe.builder.GTRecipeBuilder')
     const EURecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.EURecipeCapability')
-    event.create('blaze_blast_furnace', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
+    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
+    event.create('blaze_blast_furnace', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('electric_blast_furnace')
         .recipeModifier((machine,/**@type {$GTRecipe}*/recipe) => {

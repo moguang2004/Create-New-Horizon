@@ -30,14 +30,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
             .build()
         )
-        // .additionalDisplay((machine,l) => {
-        //     /*const coilmachine = machine.getParts().find(part => part instanceof $CoilWorkableElectricMultiblockMachine)
-        //     let temperature = coilmachine.getCoilType().getCoilTemperature() + 100 * Math.max(0, coilmachine.getTier() - GTValues.MV)
-        //     console.info(temperature)
-        //     l.add(l.size(),Text.translate('kubejs.coilmachine_temperature',temperature))*/
-        //     if (machine.isFormed()) {
-        //         l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(machine.getCoilType().getCoilTemperature() + "K").red()))
-        //     }
-        // })
         .workableCasingRenderer('kubejs:block/bio_reactor_casing', 'gtceu:block/multiblock/implosion_compressor', false)
 })

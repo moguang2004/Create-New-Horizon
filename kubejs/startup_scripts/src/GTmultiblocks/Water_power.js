@@ -1,4 +1,3 @@
-import { $CoilWorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$CoilWorkableElectricMultiblockMachine"
 import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
 import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
 import { $FormattingUtil } from "packages/com/gregtechceu/gtceu/utils/$FormattingUtil"
@@ -14,7 +13,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     const EURecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.EURecipeCapability')
     const $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
-    event.create('water_power_station', 'multiblock', holder => new $CoilWorkableElectricMultiblockMachine(holder))
+    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
+    event.create('water_power_station', 'multiblock', holder => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('water_power')
         .recipeModifier((machine, /**@type {$GTRecipe}*/recipe) => {
