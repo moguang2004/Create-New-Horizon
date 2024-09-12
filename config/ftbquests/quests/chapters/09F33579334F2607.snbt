@@ -43,6 +43,7 @@
 		{
 			dependencies: ["23F758E2421BF068"]
 			id: "17AE8CE55863D7D6"
+			subtitle: "记住，最后扔蕨完成合成"
 			tasks: [{
 				id: "206312D77F042785"
 				item: "botania:pure_daisy"
@@ -53,6 +54,7 @@
 		}
 		{
 			dependencies: ["23F758E2421BF068"]
+			description: ["    在3*3的范围内的相同高度上有水源方块的话，水绣球就会自动产生少量的魔力，&a别忘了将它和一个魔力发射器绑定起来&r。"]
 			id: "29C8F8795B11936E"
 			subtitle: "水力发电机"
 			tasks: [{
@@ -77,6 +79,7 @@
 		{
 			dependencies: ["17AE8CE55863D7D6"]
 			id: "0598D6FDA6319592"
+			subtitle: "在白雏菊周围围一圈"
 			tasks: [{
 				id: "3BEA8805B0E3B1F4"
 				item: "botania:livingrock"
@@ -88,6 +91,7 @@
 		{
 			dependencies: ["0598D6FDA6319592"]
 			id: "257CFCFEE4F99D04"
+			subtitle: "前期你只能用这个"
 			tasks: [{
 				id: "2664B9D32E748860"
 				item: "botania:diluted_pool"
@@ -516,7 +520,12 @@
 		}
 		{
 			dependencies: ["4B6CBB1E8D1A6273"]
+			description: [
+				"    先放魔力发射器，再放产能花，&a产能花会自动绑定到魔力发射器上&r，如果没有自动绑定，请利用森林法杖的绑定模式链接产能花和魔力发射器。"
+				"    先对魔力发射器右键，随后右键你想让它指向的方块，魔力发射器就会转向对应的方向，所以要想让魔力发射器向魔力池内发射魔力，需要右键魔力发射器和魔力池，使得魔力发射器对准魔力池。"
+			]
 			id: "39E84FC673BD14E7"
+			subtitle: "传输魔力的手段"
 			tasks: [{
 				id: "74E2E50E5FA3842B"
 				item: "botania:mana_spreader"
@@ -840,6 +849,40 @@
 			}]
 			x: 1.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["4B6CBB1E8D1A6273"]
+			id: "58381072DABDC825"
+			subtitle: "植物魔法的扳手"
+			tasks: [{
+				id: "78EAB28C61D7CA6E"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "森林法杖"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			description: ["遇到不懂的问题可以好好看看这本书"]
+			id: "42CCBE8C1535F61C"
+			subtitle: "植物魔法教科书"
+			tasks: [{
+				id: "06C6CA8458F20210"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
 		}
 	]
 	title: "植物魔法"

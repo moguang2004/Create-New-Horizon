@@ -9,12 +9,15 @@ const IKineticMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.kin
 const IRotorHolderMachine = Java.loadClass("com.gregtechceu.gtceu.api.machine.feature.multiblock.IRotorHolderMachine")
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('kinetic_steam_turbine')
-        .category('ctnh')
+    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
+    GTRecipeTypes.register('kinetic_steam_turbine','multiblock')
         .setMaxIOSize(0, 0, 1, 1)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_GAS_COLLECTOR, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.TURBINE)
+        .addDataInfo(data => {
+            return LocalizationUtils.format('ctnh.stress_output', (data.getFloat('output_stress')).toFixed(1))
+        })
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('kinetic_steam_turbine', 'multiblock')
@@ -63,6 +66,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
          */
         .additionalDisplay((machine, l) => {
             const rotorHolder = machine.getParts().find(part => part instanceof IRotorHolderMachine)
+            if (!rotorHolder || !rotorHolder.hasRotor()) {
+                return;
+            }
             let _holderEfficiency = rotorHolder.getTotalEfficiency() / 100.0
             if (_holderEfficiency < 0) {
                 _holderEfficiency = 0

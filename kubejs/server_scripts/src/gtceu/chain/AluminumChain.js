@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
         .duration(100)
         .itemInputs("6x gtceu:ruby_dust")
         .itemOutputs('5x gtceu:alumina_dust')
-        .itemOutputs('gtceu:chromium_dust')
+        .itemOutputs('gtceu:chromium_oxide_dust')
     event.recipes.gtceu.electrolyzer('electrolyzing_pyrope')//镁铝榴石
         .EUt(120)
         .duration(200)

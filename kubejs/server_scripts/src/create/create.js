@@ -290,6 +290,10 @@ ServerEvents.recipes(event => {
   event.recipes.create.splashing(['gtceu:silicon_dioxide_dust',Item.of('4x minecraft:iron_nugget').withChance(0.5)],'gtceu:crimsite_dust')
   event.recipes.create.splashing(['gtceu:silicon_dioxide_dust',Item.of('4x gtceu:precious_alloy_nugget').withChance(0.5)],'gtceu:ochrum_dust')
   event.recipes.create.splashing(['gtceu:silicon_dioxide_dust',Item.of('4x gtceu:copper_nugget').withChance(0.5)],'gtceu:veridium_dust')
+  event.recipes.create.splashing(['gtceu:stone_dust',Item.of('minecraft:diamond').withChance(0.05),Item.of('minecraft:gold_nugget').withChance(0.05),Item.of('minecraft:iron_nugget').withChance(0.1),Item.of('gtceu:copper_nugget').withChance(0.08),Item.of('gtceu:zinc_nugget').withChance(0.05),Item.of('gtceu:platinum_nugget').withChance(0.01),Item.of('gtceu:manganese_nugget').withChance(0.04),Item.of('gtceu:chromium_nugget').withChance(0.02)],'gtceu:deepslate_dust')
+  event.recipes.create.crushing(['gtceu:deepslate_dust',Item.of('gtceu:flint_dust').withChance(0.25)],'minecraft:tuff')
+  event.remove({id:'create:crushing/tuff'})
+  event.remove({id:'create:crushing/tuff_recycling'})
 })
 
 ServerEvents.recipes(event => {

@@ -1,5 +1,6 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('differential_centrifuge')
+        .setEUIO("in")
         .setMaxIOSize(6, 6, 6, 6)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_EXTRACT, FillDirection.LEFT_TO_RIGHT)

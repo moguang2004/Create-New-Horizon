@@ -58,6 +58,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     if (outputEnergy == null) {
                         outputEnergy = 0
                     }
+                    if (efficiency == null) {
+                        efficiency = 0.9 + 0.1 * machine.getCoilTier()
+                    }
                     let voltageName = GTValues.VNF[$GTUtil.getTierByVoltage(outputEnergy)]
                     l.add(l.size(), Text.translate("multiblock.ctnh.kinetic_generator", $FormattingUtil.formatNumbers(outputEnergy), voltageName))
                     l.add(l.size(), Text.translate('multiblock.ctnh.kinetic_generator.efficiency', (efficiency*100).toFixed(0)))

@@ -62,6 +62,66 @@
 			x: 2.5d
 			y: -4.0d
 		}
+		{
+			dependencies: ["179E506375B19B66"]
+			id: "68DFFB39CC7CEB6C"
+			tasks: [{
+				id: "57F28CEA58D28E36"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "22D529C3C7916152"
+			subtitle: "从荒野猎手身上获得"
+			tasks: [{
+				id: "055DD47287274E3E"
+				item: "ars_nouveau:wilden_horn"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22D529C3C7916152"]
+			description: ["将荒野之角扔给它们，它们就会变为碎片。"]
+			id: "179E506375B19B66"
+			subtitle: "去森林里找到这种小家伙"
+			tasks: [{
+				id: "105B12B42E2BE41A"
+				item: "ars_nouveau:drygmy_shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"68DFFB39CC7CEB6C"
+				"2E48E824DE4E530B"
+			]
+			id: "466E245F021E7FFE"
+			subtitle: "阅读新生魔艺的指南，打造一个高效刷怪场吧！"
+			tasks: [{
+				id: "6D79914F4BB39979"
+				title: "德格米牧场"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "2E48E824DE4E530B"
+			tasks: [{
+				id: "60ED99C820ACF885"
+				item: "ars_nouveau:mob_jar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
 	]
 	title: "怪物资源"
 }

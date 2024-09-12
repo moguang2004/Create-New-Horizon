@@ -113,6 +113,7 @@ ServerEvents.recipes(event => {
     .inputFluids(Fluid.of("gtceu:steam", 640))
     .outputFluids(Fluid.of("gtceu:distilled_water", 4))
     .outputStress(8192)
+    .addData('output_stress',8192)
     .duration(10)
   event.recipes.gtceu.seaweed_farm("seaweed")
     .itemInputs("gtceu:fertilizer")
@@ -573,6 +574,7 @@ ServerEvents.recipes(event => {
   event.recipes.gtceu.big_dam("big_dam")
     .inputFluids(Fluid.of("gtceu:lubricant", 50))
     .outputStress(1048576)
+    .addData('output_stress',1048576)
     .duration(200)
 
   event.recipes.gtceu.centrifuge('slag')
