@@ -1,4 +1,3 @@
-import { $CoilWorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$CoilWorkableElectricMultiblockMachine"
 import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
 import { $RecipeLogic } from "packages/com/gregtechceu/gtceu/api/machine/trait/$RecipeLogic"
 import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
@@ -15,7 +14,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     const $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
-    event.create("kinetic_generator", "multiblock", holder => new $CoilWorkableElectricMultiblockMachine(holder))
+    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
+    event.create("kinetic_generator", "multiblock", holder => new CoilWorkableElectricMultiblockMachine(holder))
             .rotationState(RotationState.NON_Y_AXIS)
             .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
             .recipeType("kinetic_generator")

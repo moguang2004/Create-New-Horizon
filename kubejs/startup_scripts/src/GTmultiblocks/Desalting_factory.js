@@ -2,7 +2,6 @@
 const LDLib = Java.loadClass("com.lowdragmc.lowdraglib.LDLib")
 const CycleItemStackHandler = Java.loadClass('com.lowdragmc.lowdraglib.utils.CycleItemStackHandler')
 import { $ICoilType } from "packages/com/gregtechceu/gtceu/api/block/$ICoilType"
-import { $CoilWorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$CoilWorkableElectricMultiblockMachine"
 import { $CoilBlock } from "packages/com/gregtechceu/gtceu/common/block/$CoilBlock"
 import { $ArrayList } from "packages/java/util/$ArrayList"
 import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"
@@ -37,7 +36,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         })
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('seawater_desalting_factory', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
+    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
+    event.create('seawater_desalting_factory', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('desalting')
         .recipeModifier((machine, recipe) => {
@@ -68,10 +68,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build()
         )
         .additionalDisplay((machine, l) => {
-            /*const coilmachine = machine.getParts().find(part => part instanceof $CoilWorkableElectricMultiblockMachine)
-            let temperature = coilmachine.getCoilType().getCoilTemperature() + 100 * Math.max(0, coilmachine.getTier() - GTValues.MV)
-            console.info(temperature)
-            l.add(l.size(),Text.translate('kubejs.coilmachine_temperature',temperature))*/
             if (machine.isFormed()) {
                 l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(machine.getCoilType().getCoilTemperature() + "K").red()))
             }
