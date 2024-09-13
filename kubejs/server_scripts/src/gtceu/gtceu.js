@@ -574,4 +574,38 @@ ServerEvents.recipes(event => {
     .inputFluids(Fluid.of("gtceu:lubricant", 50))
     .outputStress(1048576)
     .duration(200)
+
+  event.shaped(
+    "gtceu:treated_wood_small_fluid_pipe",
+    [
+      "S",
+      "P",
+      "M",
+    ], {
+    'P': "#forge:treated_wood",
+    'M': "#forge:tools/mallets",
+    'S': "#forge:tools/saws",
+  })
+  event.shaped(
+    "gtceu:treated_wood_normal_fluid_pipe",
+    [
+      "PS",
+      "P ",
+      "PM",
+    ], {
+    'P': "#forge:treated_wood",
+    'M': "#forge:tools/mallets",
+    'S': "#forge:tools/saws",
+  })
+  event.shaped(
+    "gtceu:treated_wood_large_fluid_pipe",
+    [
+      "PSP",
+      "P P",
+      "PMP",
+    ], {
+    'P': "#forge:treated_wood",
+    'M': "#forge:tools/mallets",
+    'S': "#forge:tools/saws",
+  })
 })
