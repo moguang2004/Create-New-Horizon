@@ -128,22 +128,22 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 return true
             }
             else {
-                machine.getRecipeLogic().interruptRecipe()
+                //machine.getRecipeLogic().interruptRecipe()
                 return false
             }
         })
-        .onWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine) => {
-            console.info('isworking')
-            if (isValid(machine)) {
-                machine.getRecipeLogic().setWorkingEnabled(true)
-                return true
-            }
-            return true
-            // else {
-            //     machine.getRecipeLogic().setWaiting(Text.translate("multiblock.ctnh.photovoltaic_power_station_invalid").red())
-            //     return true
-            // }
-        })
+        // .onWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine) => {
+        //     console.info('isworking')
+        //     if (isValid(machine)) {
+        //         machine.getRecipeLogic().setWorkingEnabled(true)
+        //         return true
+        //     }
+        //     return true
+        //     else {
+        //         machine.getRecipeLogic().setWaiting(Text.translate("multiblock.ctnh.photovoltaic_power_station_invalid").red())
+        //         return true
+        //     }
+        // })
         // .onWaiting(machine =>{
         //     recipe.tickOutputs.put(EURecipeCapability.CAP, recipe.copyContents(recipe.tickOutputs, ContentModifier.of(0, 0)).get(EURecipeCapability.CAP))
         //     if(isValid(machine)){

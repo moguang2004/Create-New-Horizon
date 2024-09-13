@@ -88,7 +88,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('C', Predicates.blocks('gtceu:steam_machine_casing'))
             .where('S', Predicates.blocks('gtceu:steam_machine_casing')
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                .or(Predicates.abilities(PartAbility.MAINTENANCE).setMinGlobalLimited(1))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
                 .or(Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1)))
             .where('K', Predicates.controller(Predicates.blocks(definition.get())))
             .where('T', Predicates.abilities(PartAbility.OUTPUT_KINETIC).setExactLimit(1)

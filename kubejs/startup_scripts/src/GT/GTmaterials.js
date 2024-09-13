@@ -1183,6 +1183,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_RING)
         .components('9x uranium','titanium')
         .blastTemp(3450, "mid", 7680, 300)
+    event.create("magneto_resonatic")
+        .gem()
+        .color(0xFF97FF)
+        .iconSet(GTMaterialIconSet.MAGNETIC)
+        .components('zanite','ambrosium','skyjade','cubic_zirconia','magnetic_steel')
 })
 
 StartupEvents.postInit(event => {

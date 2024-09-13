@@ -8,7 +8,7 @@
 		fpsDisplay = "SIMPLE"
 		#Shows GPU and memory usage onto FPS display
 		#Allowed Values: OFF, ON, GPU, RAM
-		fpsDisplaySystem = "ON"
+		fpsDisplaySystem = "RAM"
 		#Set Fullscreen mode
 		#Borderless let you change between screens more faster and move your mouse across monitors
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN

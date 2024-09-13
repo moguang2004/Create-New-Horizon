@@ -107,6 +107,8 @@ StartupEvents.registry("item", event => {
     tiers.forEach(tier =>{
         event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
     })
+    event.create('imprinted_resonatic_circuit_board')
+    event.create('raw_imprinted_resonatic_circuit_board')
 })
 StartupEvents.registry("block", event => {
     event.create('steel_casing')

@@ -54,7 +54,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             //.where('B',Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
             .where('A', Predicates.blocks('gtceu:firebricks')
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                .or(Predicates.abilities(PartAbility.MAINTENANCE).setMinGlobalLimited(1))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
             )
             .where('B', Predicates.blocks(GTBlocks.FIREBOX_BRONZE.get()))
             .where(' ', Predicates.any())

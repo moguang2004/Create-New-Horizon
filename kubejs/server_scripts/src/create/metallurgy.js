@@ -256,6 +256,22 @@ ServerEvents.recipes(event => {
             ],
             "heatRequirement": "superheated"
         })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+                {
+                    "item": `gtceu:${material}_ingot`
+                }
+            ],
+            "processingTime": 80,
+            "results": [
+                {
+                    "fluid": `gtceu:${material}`,
+                    "amount": 144
+                }
+            ],
+            "heatRequirement": "superheated"
+        })
     })
     minecraftIngots.forEach(material => {
         if (material != 'copper') {
@@ -316,6 +332,22 @@ ServerEvents.recipes(event => {
                 {
                     "fluid": "gtceu:slag",
                     "amount": 50
+                }
+            ],
+            "heatRequirement": "superheated"
+        })
+        event.custom({
+            "type": "createmetallurgy:melting",
+            "ingredients": [
+                {
+                    "item": `minecraft:${material}_ingot`
+                }
+            ],
+            "processingTime": 80,
+            "results": [
+                {
+                    "fluid": `gtceu:${material}`,
+                    "amount": 144
                 }
             ],
             "heatRequirement": "superheated"
