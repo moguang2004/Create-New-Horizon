@@ -72,6 +72,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             let level = machine.level
             let time = machine.level.dayTime()
             let rate = Math.sin(time / 12000 * 3.14)
+            if(rate < 0){
+                rate = 0
+            }
             let basic_rate = 1
             if (level.dimension == 'minecraft:overworld' || level.dimension == 'twilightforest:twilight_forest' || level.dimension == 'mythicbotany:alfheim') {
                 rate *= 1
@@ -130,15 +133,23 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             }
         })
         .onWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine) => {
+            console.info('isworking')
             if (isValid(machine)) {
                 machine.getRecipeLogic().setWorkingEnabled(true)
                 return true
             }
-            else {
-                machine.getRecipeLogic().setWorkingEnabled(false)
-                return true
-            }
+            return true
+            // else {
+            //     machine.getRecipeLogic().setWaiting(Text.translate("multiblock.ctnh.photovoltaic_power_station_invalid").red())
+            //     return true
+            // }
         })
+        // .onWaiting(machine =>{
+        //     recipe.tickOutputs.put(EURecipeCapability.CAP, recipe.copyContents(recipe.tickOutputs, ContentModifier.of(0, 0)).get(EURecipeCapability.CAP))
+        //     if(isValid(machine)){
+        //         machine.getRecipeLogic().setWorkingEnabled(true)
+        //     }
+        // })
         .additionalDisplay((machine, l) => {
             if (machine.isFormed()) {
                 let valid = machine.getHolder().self().persistentData.getBoolean('valid')

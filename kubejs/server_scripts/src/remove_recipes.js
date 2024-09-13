@@ -93,6 +93,7 @@ ServerEvents.recipes(event => {
         "functionalstorage:oak_drawer_alternate_x4",
         "javd:portal_block",
         "tetranichematerials:grave_steel_ingot",
+        "minecraft:chest"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -121,7 +122,7 @@ ServerEvents.recipes(event => {
         "betterend:ender_block",
         "ad_astra:desh_fluid_pipe",
         "ad_astra:ostrum_fluid_pipe",
-        "ad_astra:fluid_pipe_duct",
+        "ad_astra:fluid_pipe_duct"
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot",

@@ -561,7 +561,7 @@
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
-			description: ["记得摆满16个应力输出仓才能将所有应力全部输出"]
+			description: ["记得摆满16个Lv应力输出仓才能将所有应力全部输出"]
 			id: "62C8A0B668137AD3"
 			subtitle: "有足够的材料再造，但是可以给你带来巨量的应力"
 			tasks: [{

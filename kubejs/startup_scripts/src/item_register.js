@@ -103,6 +103,10 @@ StartupEvents.registry("item", event => {
         }
         return false
     })
+    let tiers = ['ulv','lv','mv','hv','ev','iv','luv','zpm','uv','uhv','uev','uiv']
+    tiers.forEach(tier =>{
+        event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
+    })
 })
 StartupEvents.registry("block", event => {
     event.create('steel_casing')

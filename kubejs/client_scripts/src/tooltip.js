@@ -149,10 +149,11 @@ ItemEvents.tooltip(event =>{
     event.addAdvanced('gtceu:blaze_blast_furnace',(item,advanced,text)=>{
         text.add(1,Text.translate('blaze_blast_furnace').gray())
         text.add(2,Text.translate('ctnh.blaze_blast_furnace.consume'))
-        text.add(3,Text.translate('ctnh.blaze_blast_furnace.parallel').darkGreen())
-        text.add(4,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.0'))
-        text.add(5,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.1'))
-        text.add(6,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.2'))
+        text.add(3,Text.translate('ctnh.blaze_blast_furnace.energy'))
+        text.add(4,Text.translate('ctnh.blaze_blast_furnace.parallel').darkGreen())
+        text.add(5,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.0'))
+        text.add(6,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.1'))
+        text.add(7,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.2'))
         //text.add(4,Text.translate('ctnh.perfect_overclock'))
     })
     event.addAdvanced('gtceu:bio_reactor',(item,advanced,text)=>{
