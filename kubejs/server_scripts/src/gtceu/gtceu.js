@@ -790,4 +790,10 @@ ServerEvents.recipes(event => {
     .itemOutputs('32x minecraft:spruce_log')
     .itemOutputs('8x gtceu:rhizobium_dust')
     .itemOutputs('50x gtceu:sodium_nitrate_dust')
+  
+  event.recipes.gtceu.mixer('magneto_resonatic')
+    .itemInputs(['gtceu:zanite_dust','gtceu:ambrosium_dust','gtceu:skyjade_dust','gtceu:magnetic_steel_dust','gtceu:cubic_zirconia_dust'])
+    .itemOutputs('5x gtceu:magneto_resonatic_dust')
+    .EUt(480)
+    .duration(200)
 })

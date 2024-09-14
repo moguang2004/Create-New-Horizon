@@ -61,7 +61,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('B', Predicates.abilities(PartAbility.MUFFLER).setExactLimit(1))
             .where('G', Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get()).setMinGlobalLimited(15)
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                .or(Predicates.abilities(PartAbility.MAINTENANCE).setMinGlobalLimited(1))
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
             )
             .where('#', Predicates.blocks('minecraft:water'))
             .where(' ', Predicates.any())

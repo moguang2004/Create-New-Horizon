@@ -172,6 +172,7 @@
 		}
 		{
 			dependencies: ["6963A4242BCCBADC"]
+			description: ["记得使用Alexs’ caves的石灰岩"]
 			id: "7182CCA0B17CC960"
 			subtitle: "蕴含地之魔力"
 			tasks: [{
