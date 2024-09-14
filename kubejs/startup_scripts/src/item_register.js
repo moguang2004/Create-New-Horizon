@@ -61,7 +61,7 @@ StartupEvents.registry("item", event => {
     event.create('broken_temperature_keeping_device').maxDamage(12000).tag('curios:body')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
             .curioTick((/**@type {$ItemStack}*/ itemstack, slotcontext) => {
-                if(itemstack.damageValue >= 12000){
+                if (itemstack.damageValue >= 12000) {
                     itemstack.shrink(1)
                 }
                 itemstack.setDamageValue(itemstack.damageValue + 1)
@@ -84,27 +84,27 @@ StartupEvents.registry("item", event => {
     event.create('bauxite_process_catalyst')
     event.create('tallow').burnTime('1600')
     event.create('eye_of_underground_cabin')
-    .use((/**@type {$ServerLevel}*/level,player,interactionhand) =>{
-        let item = player.getHeldItem(interactionhand)
-        player.startUsingItem(interactionhand)
-        if(!level.isClientSide){
-            let pos = level.findNearestMapStructure($TagKey.create($Registry.STRUCTURE_REGISTRY, 'alexscaves:underground_cabin'),player.blockPosition,100,false)
-            if(pos){
-                let eye = new $EyeOfEnder(level, player.getX(), player.getY(0.5), player.getZ())
-                eye.setItem(item)
-                eye.signalTo(pos)
-                player.swing()
-                eye.spawn()
-                item.shrink(1)
-                level.playSound(null, player.x, player.y, player.z, 'entity.ender_eye.launch', player.getSoundSource(), 0.5, 0.5)
-                player.swing(interactionhand)
-                return true
+        .use((/**@type {$ServerLevel}*/level, player, interactionhand) => {
+            let item = player.getHeldItem(interactionhand)
+            player.startUsingItem(interactionhand)
+            if (!level.isClientSide) {
+                let pos = level.findNearestMapStructure($TagKey.create($Registry.STRUCTURE_REGISTRY, 'alexscaves:underground_cabin'), player.blockPosition, 100, false)
+                if (pos) {
+                    let eye = new $EyeOfEnder(level, player.getX(), player.getY(0.5), player.getZ())
+                    eye.setItem(item)
+                    eye.signalTo(pos)
+                    player.swing()
+                    eye.spawn()
+                    item.shrink(1)
+                    level.playSound(null, player.x, player.y, player.z, 'entity.ender_eye.launch', player.getSoundSource(), 0.5, 0.5)
+                    player.swing(interactionhand)
+                    return true
+                }
             }
-        }
-        return false
-    })
-    let tiers = ['ulv','lv','mv','hv','ev','iv','luv','zpm','uv','uhv','uev','uiv']
-    tiers.forEach(tier =>{
+            return false
+        })
+    let tiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv']
+    tiers.forEach(tier => {
         event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
     })
 })
@@ -194,9 +194,6 @@ StartupEvents.registry("block", event => {
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureOverrideRenderer("minecraft:block/cube_all", { "all": new ResourceLocation("kubejs", "block/osmiridium_casing") })
-    event.create('energetic_photovoltaic_block')
-    event.create('pulsating_photovoltaic_block')
-    event.create('vibrant_photovoltaic_block')
     const registercoils = [
         ["abyssalalloy", "12600", "16", "8"],
         ["titansteel", "14400", "32", "8"],
