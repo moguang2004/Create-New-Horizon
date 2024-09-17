@@ -6,7 +6,26 @@
 	icon: "create_new_age:carbon_brushes"
 	id: "6579F7C0C699546A"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "0AD59D6DDC256710"
+			linked_quest: "1B142F4B0CF620D3"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "5DAF1502E49A3DBC"
+			linked_quest: "0DA7785CF55ABAAB"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "0A18FD8A7E5B34CD"
+			linked_quest: "3672E16CD2C53B19"
+			x: -4.5d
+			y: 1.5d
+		}
+	]
 	quests: [
 		{
 			id: "2393E591D8CEE84B"
@@ -24,7 +43,6 @@
 				"6922D967DCFF8F7D"
 				"6F3D47D3A8FF08F6"
 				"209A035991A6995B"
-				"6AE9D14B933CA74B"
 				"2393E591D8CEE84B"
 			]
 			id: "708167FA2FF846B1"
@@ -41,9 +59,10 @@
 			dependencies: [
 				"708167FA2FF846B1"
 				"2CB2897505181D0F"
-				"3D74B0DFDA2D20E0"
-				"0A62BB9151C02B02"
+				"1B142F4B0CF620D3"
+				"3672E16CD2C53B19"
 			]
+			description: ["    越高级的磁铁发电的效率越高（也就是相同应力转化为RF的电量更多）"]
 			id: "614B88F2D27D2726"
 			subtitle: "磁生电"
 			tasks: [
@@ -95,6 +114,7 @@
 				"1385760305EE11D6"
 			]
 			id: "635FE1072A717355"
+			subtitle: "通过磁场洞穴中的青钕和赤钕，或者是植物魔法的磁化透镜磁化获得"
 			tasks: [{
 				id: "527E27E50FAB99F4"
 				item: "gtceu:magnetic_iron_ingot"
@@ -102,132 +122,6 @@
 			}]
 			x: 1.5d
 			y: 1.5d
-		}
-		{
-			dependencies: ["71D83506BCD67EF2"]
-			description: [
-				"&a以下是搭建一台抽油机的基本顺序&r："
-				""
-				"在离地 3 格（若稍后使用大号的抽油机曲柄则为 4 格）的位置放置一个抽油机轴承，作为抽油机臂的转轴；"
-				""
-				"搭建前臂，从抽油机轴承的具有粘性的一段水平延伸数格&4（至少1格）&r，在末端放置一个抽油机驴头；"
-				""
-				"在抽油机驴头正下方放置深至基岩层的竖直流体管道柱，在流体管道的上方放置抽油机油泵，在这一步中要确保抽油机油泵以及流体管道位于含油区块；"
-				""
-				"搭建后臂，即将前臂反向延长数格&4（至少4格）&r，在末端放置一个抽油机轴承；"
-				""
-				"使用扳手右击上一步放置的抽油机轴承，以转换其外观，并在其下方放置一个抽油机曲柄；"
-				""
-				"使用强力胶黏合从抽油机臂一端的抽油机驴头到另一端的抽油机轴承；"
-				""
-				"空手右击作为转轴的抽油机轴承，组装完成，输入旋转力并使用流体管道从抽油机油泵抽出原油即可。"
-				"{@pagebreak}"
-				"原油输出的速度和几个因素有关："
-				""
-				"1.输入的转速越高，抽取越快（注意转速到达一定数值之后，抽油机的转速不会再上升）"
-				"2.抽油机前臂：后臂的比值越大，抽取速度越快"
-				"3.大号抽油机比小号抽油机抽取速度快"
-			]
-			id: "332E31C00C2602D9"
-			tasks: [
-				{
-					id: "4E4A5017C4164958"
-					item: "createdieselgenerators:pumpjack_hole"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "28DDA28B09A75C25"
-					item: { Count: 2, id: "createdieselgenerators:pumpjack_bearing" }
-					type: "item"
-				}
-				{
-					id: "68662D975910ABE0"
-					item: "createdieselgenerators:pumpjack_crank"
-					type: "item"
-				}
-				{
-					id: "2FC1EA8D67B7E8EC"
-					item: "createdieselgenerators:pumpjack_head"
-					type: "item"
-				}
-			]
-			title: "原油抽取"
-			x: -6.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"64C293C5E547D47D"
-				"332E31C00C2602D9"
-			]
-			id: "3D74B0DFDA2D20E0"
-			subtitle: "用这个产应力挺好的"
-			tasks: [{
-				id: "29845EBC74E3DF38"
-				item: "createdieselgenerators:diesel_engine"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"79D60B601C349798"
-				"2393E591D8CEE84B"
-			]
-			description: [
-				"    机械涡轮的基础应力输出量为&a8192su&r（ULV应力输出仓），应力输出仓每提升一级，最大并行数x4。"
-				"    应力输出还与转子和转子支架有关，转子支架每升一级，支架效率提升10%（ULV为100%），转子的效率取决于转子的材料。"
-				"最终涡轮的总效率为 &a支架效率x转子的涡轮效率x（1 - 电压高于HV后损失的百分比）&r"
-			]
-			icon: "gtceu:kinetic_steam_turbine"
-			id: "0A62BB9151C02B02"
-			subtitle: "一个好的涡轮转子，能够让你的涡轮发挥出最好的效果"
-			tasks: [
-				{
-					id: "02ECAE0786173E1E"
-					item: "gtceu:kinetic_steam_turbine"
-					type: "item"
-				}
-				{
-					id: "1CCF830129D33CA2"
-					item: "gtceu:ulv_rotor_holder0"
-					type: "item"
-				}
-				{
-					count: 27L
-					id: "7DAFDCF1FC884739"
-					item: { Count: 27, id: "gtceu:steam_machine_casing" }
-					type: "item"
-				}
-				{
-					id: "2C5CF6D99B480F19"
-					item: {
-						Count: 1
-						id: "gtceu:turbine_rotor"
-						tag: {
-							GT.PartStats: {
-								Material: "gtceu:steel"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "7B13D8017A81F487"
-					item: { Count: 2, id: "gtceu:bronze_gearbox" }
-					type: "item"
-				}
-				{
-					id: "758A36603A071AC8"
-					item: "gtceu:maintenance_hatch"
-					type: "item"
-				}
-			]
-			x: -3.5d
-			y: 0.0d
 		}
 	]
 	title: "蒸汽驱动"

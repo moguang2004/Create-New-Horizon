@@ -102,6 +102,7 @@ ServerEvents.recipes(event => {
     event.replaceOutput({ not: { mod: "gtceu" } }, "#forge:ingots/pulsating_alloy", "gtceu:pulsating_alloy_ingot")
     event.replaceInput({ mod: "create", not: { or: [{ type: "create:mixing" }, { type: "create:compacting" }, { type: "create:cutting" }, { type: "create:mechanical_crafting" }, { id: "create:crafting/materials/copper_nugget" }] } }, "minecraft:copper_ingot", "gtceu:bronze_ingot")
     event.replaceInput({ mod: "create", not: { or: [{ type: "create:mixing" }, { type: "create:compacting" }, { type: "create:cutting" }, { type: "create:mechanical_crafting" }] } }, "gtceu:copper_plate", "gtceu:bronze_plate")
+    event.replaceInput({id:'create_connected:crafting/kinetics/fluid_vessel'},"gtceu:copper_plate", "gtceu:bronze_plate")
     event.replaceInput({ id: "create:crafting/kinetics/steam_engine" }, "minecraft:copper_block", "gtceu:bronze_block")
     event.replaceOutput({ id: "create:milling/andesite" }, "minecraft:cobblestone", "gtceu:andesite_dust")
     event.replaceInput({ id: "create:crafting/logistics/andesite_funnel" }, "gtceu:andesite_alloy_ingot", "gtceu:andesite_alloy_plate")

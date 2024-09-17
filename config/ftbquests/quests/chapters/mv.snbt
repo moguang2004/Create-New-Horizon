@@ -6,21 +6,15 @@
 	icon: "gtceu:mv_machine_hull"
 	id: "7647DBDFA1F452A1"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "320AB306C4AEB3A6"
+		linked_quest: "11F898C7B0C925D5"
+		x: -4.5d
+		y: -1.0d
+	}]
 	quests: [
 		{
-			dependencies: ["19869FD9D4BCCB9F"]
-			id: "78FE0154DC3F3F50"
-			tasks: [{
-				id: "0A52BC7BB17EF45A"
-				item: "gtceu:aluminium_ingot"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["78FE0154DC3F3F50"]
+			dependencies: ["11F898C7B0C925D5"]
 			id: "1FBD86C0CF681427"
 			tasks: [{
 				id: "24CB9175692BADFD"
@@ -556,11 +550,20 @@
 			dependencies: ["1FBD86C0CF681427"]
 			hide_dependency_lines: true
 			id: "1A760D451E9D23B0"
-			tasks: [{
-				id: "71D1D2D5063F35CB"
-				item: "gtceu:mv_mixer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "71D1D2D5063F35CB"
+					item: "gtceu:mv_mixer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11FBF952B815DF35"
+					item: "gtceu:mv_kinetic_mixer"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 14.5d
 			y: -1.0d
 		}

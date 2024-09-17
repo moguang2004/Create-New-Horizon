@@ -6,26 +6,17 @@
 	icon: "gtceu:ev_machine_hull"
 	id: "6729EFF9916E0F53"
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "4819096481C03459"
+		linked_quest: "27EF0EE87260585F"
+		shape: "rsquare"
+		size: 1.5d
+		x: -3.9642857142857153d
+		y: -0.9642857142857153d
+	}]
 	quests: [
 		{
-			dependencies: [
-				"2740F44657C0CF5A"
-				"1EF69C314E045882"
-			]
-			id: "3606238409076DE9"
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "5728AD5C91CA313C"
-				item: "gtceu:titanium_ingot"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["3606238409076DE9"]
+			dependencies: ["27EF0EE87260585F"]
 			id: "799C99EA04D07344"
 			tasks: [{
 				id: "3B32397F6057B4DC"

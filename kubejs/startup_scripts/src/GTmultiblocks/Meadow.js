@@ -23,7 +23,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle("BEEBFFFBHHB", "C########IC", "###########", "###########", "###########", "###########") 
             .aisle("BBBBB@BBBBB", "CCCCCCCCCCC", "###########", "###########", "###########", "###########") 
             .where("B", Predicates.blocks("minecraft:dirt")
-                        .or("minecraft:grass_block"))
+                        .or(Predicates.blocks("minecraft:grass_block")))
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
             .where("C", Predicates.blocks("minecraft:oak_fence"))
             .where("#", Predicates.any())

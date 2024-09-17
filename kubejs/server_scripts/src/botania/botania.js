@@ -716,4 +716,27 @@ ServerEvents.recipes(event => {
     }
   })
     .id('mythicbotany:midgard_rune_runic_altar')
+
+  event.shaped(
+        Item.of("botania:natura_pylon", 1), [
+          "ADA",
+          "ABA",
+          "CDC"
+        ], {
+        A: "gtceu:terra_steel_foil",
+        B: "botania:mana_pylon",
+        C: "gtceu:terra_steel_ring",
+        D: "botania:mana_pearl"
+    }).id('botania:natura_pylon')
+  
+  event.custom({
+    "type": "botania:mana_infusion",
+    "input": {
+      "item": "gtceu:good_electronic_circuit"
+    },
+    "mana": 20000,
+    "output": {
+      "item": "kubejs:mana_electronic_circuit"
+    }
+  })
 })

@@ -6,10 +6,17 @@
 	icon: "gtceu:hv_machine_hull"
 	id: "1B1FC63B7AC00842"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "35D41EE540BF5F64"
+		linked_quest: "36968F23015BC87A"
+		shape: "rsquare"
+		size: 1.5d
+		x: -3.999999999999993d
+		y: 0.0714285714285694d
+	}]
 	quests: [
 		{
-			dependencies: ["17508AC52A73A6CF"]
+			dependencies: ["36968F23015BC87A"]
 			id: "773CB6E376B56EA4"
 			tasks: [{
 				id: "0391F1C486B61BCE"
@@ -31,7 +38,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["17508AC52A73A6CF"]
+			dependencies: ["36968F23015BC87A"]
 			id: "22E945CD59D8AF3D"
 			tasks: [{
 				id: "22BD8F5243B4CBD0"
@@ -139,7 +146,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["17508AC52A73A6CF"]
+			dependencies: ["36968F23015BC87A"]
 			id: "0FE31211C32BF813"
 			tasks: [{
 				id: "3098296863DC6A3E"
@@ -219,7 +226,6 @@
 			y: 1.1190476190476133d
 		}
 		{
-			dependencies: ["17508AC52A73A6CF"]
 			description: ["    仔细观察发现，要想获得铂锭，铂系处理需要以谢尔顿矿开始，而谢尔顿矿只存在于外太空中，这样就产生了一个矛盾：&4造火箭需要上太空，上太空需要造火箭&r。这时，机智的你产生了一个想法，&a向外太空发射信号，向天祈求携带着外太空矿石的陨石落下&r，不就解决了这一问题吗？"]
 			hide_dependency_lines: true
 			id: "2758CA5AD758482C"
@@ -754,22 +760,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"0B95FAC22EC46105"
-				"3C1A31CEA3C10082"
-			]
-			id: "17508AC52A73A6CF"
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [{
-				id: "3E2E3AF2DCD6F39F"
-				item: "gtceu:stainless_steel_ingot"
-				type: "item"
-			}]
-			x: -3.971428571428561d
-			y: 0.016156462585037445d
-		}
-		{
 			dependencies: ["711DB49F2C74338E"]
 			id: "7054D8D420646745"
 			tasks: [{
@@ -833,7 +823,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["17508AC52A73A6CF"]
+			dependencies: ["36968F23015BC87A"]
 			id: "2F8F679EAC693ACE"
 			tasks: [{
 				id: "7C4BB2BEF666E930"
@@ -906,7 +896,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["17508AC52A73A6CF"]
+			dependencies: ["36968F23015BC87A"]
 			id: "25DAE6D032C050D7"
 			subtitle: "是时候缓解主世界工业区的帧数压力了"
 			tasks: [{

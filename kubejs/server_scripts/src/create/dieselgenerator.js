@@ -87,6 +87,10 @@ ServerEvents.recipes(event => {
       {
         "item": "gtceu:normal_yeast_dust",
         "chance": 0.1
+      },
+      {
+        "item": "gtceu:small_rich_soil_dust",
+        "chance": 0.8
       }
     ]
   }).id('createdieselgenerators:basin_fermenting/fermentable')

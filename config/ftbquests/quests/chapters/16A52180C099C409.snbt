@@ -6,20 +6,21 @@
 	icon: "create:copper_casing"
 	id: "16A52180C099C409"
 	order_index: 1
-	quest_links: [ ]
-	quests: [
+	quest_links: [
 		{
-			dependencies: ["53B3B59D47455ACE"]
-			id: "1F7813B148485EC3"
-			subtitle: "流体时代！！！"
-			tasks: [{
-				id: "33796D06288EAD6A"
-				item: "create:copper_casing"
-				type: "item"
-			}]
+			id: "28814EBC5418F413"
+			linked_quest: "6168741C8B4F4F31"
 			x: -7.5d
 			y: -4.0d
 		}
+		{
+			id: "5B62C5F1DB4C593A"
+			linked_quest: "4ABB43D13EBB512D"
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	quests: [
 		{
 			dependencies: ["6DB370790E927958"]
 			id: "7959820843845731"
@@ -33,8 +34,8 @@
 		}
 		{
 			dependencies: [
-				"1F7813B148485EC3"
 				"7959820843845731"
+				"6168741C8B4F4F31"
 			]
 			id: "6272A1FC85024350"
 			tasks: [{
@@ -92,7 +93,7 @@
 				"6922D967DCFF8F7D"
 				"6F3D47D3A8FF08F6"
 				"209A035991A6995B"
-				"6AE9D14B933CA74B"
+				"4ABB43D13EBB512D"
 			]
 			id: "4B113ADECD26DFF2"
 			subtitle: "试着组装蒸汽机吧！"
@@ -114,20 +115,6 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"7E591C0E7278D12F"
-				"2460426DE77EF0F4"
-			]
-			id: "6AE9D14B933CA74B"
-			tasks: [{
-				id: "48C2B1D661F450A6"
-				item: "gtceu:primitive_pump"
-				type: "item"
-			}]
-			x: -3.0d
 			y: 0.0d
 		}
 		{

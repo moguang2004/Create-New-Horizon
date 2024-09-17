@@ -6,7 +6,40 @@
 	icon: "minecraft:compass"
 	id: "2C8B1E40224C9A0C"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "68D2466F72098A30"
+			linked_quest: "470B9D39E23E01F2"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "797E2E6DBDE8F61A"
+			linked_quest: "3F2A5A509F9DF84B"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			id: "260559B80CBCB8CB"
+			linked_quest: "4DCA7E4E57817E0A"
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			id: "1BC0D7E79DFD147D"
+			linked_quest: "699743A94DF7E0B8"
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			id: "73DE5C12F0317677"
+			linked_quest: "3123CD3DCE3598C8"
+			shape: "gear"
+			size: 1.5d
+			x: 0.4523809523809561d
+			y: 15.547619047619051d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["04E2C1AE56B3C673"]
@@ -233,61 +266,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"12316D2A6DC56654"
-				"1E11A492F4576DBA"
-			]
-			hide_dependency_lines: false
-			id: "64D90A4CADCD500B"
-			subtitle: "最好在冬天去"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "123CCE94CF476C59"
-				title: "访问下界"
-				type: "dimension"
-			}]
-			x: 0.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["5A55D491F0E9F389"]
-			id: "0F521DF094A9476C"
-			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "29B4CF3F2160C3DA"
-				title: "前往末地"
-				type: "dimension"
-			}]
-			x: 0.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["2301C8A867356B99"]
-			id: "53840F2AC6D11F02"
-			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "00B4A4A7B5147A4E"
-				type: "dimension"
-			}]
-			title: "造访暮色森林"
-			x: 0.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["415AF3F977F4C3F9"]
-			id: "480FAB7370DA1EAE"
-			tasks: [{
-				dimension: "minecraft:the_end"
-				id: "0935033DA9954C98"
-				title: "访问天境"
-				type: "dimension"
-			}]
-			title: "访问天境"
-			x: 0.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["53840F2AC6D11F02"]
+			dependencies: ["3F2A5A509F9DF84B"]
 			id: "238828C65F7A855D"
 			tasks: [{
 				id: "0255FFF565F2424B"
@@ -375,7 +354,7 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["0F521DF094A9476C"]
+			dependencies: ["4DCA7E4E57817E0A"]
 			id: "46A17DDE5D1A4130"
 			subtitle: "这里风景很漂亮，逛一逛吧"
 			tasks: [{
@@ -388,7 +367,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["480FAB7370DA1EAE"]
+			dependencies: ["699743A94DF7E0B8"]
 			id: "6C03C11D175B2B3D"
 			tasks: [{
 				id: "1792125504A804F9"
@@ -399,7 +378,7 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["480FAB7370DA1EAE"]
+			dependencies: ["699743A94DF7E0B8"]
 			id: "663D2E6A96084EEF"
 			tasks: [{
 				id: "146ECF44145C3AB2"
@@ -410,7 +389,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["480FAB7370DA1EAE"]
+			dependencies: ["699743A94DF7E0B8"]
 			id: "2E0A7083F7B737AF"
 			tasks: [{
 				id: "54AE1AC41C15F42E"
@@ -419,26 +398,6 @@
 			}]
 			x: 3.0d
 			y: 14.5d
-		}
-		{
-			dependencies: [
-				"7DBD4E3F9C69B8B9"
-				"66E49577299CA3D6"
-				"1157261D1C6FA682"
-				"16243C6CC9C1CD8A"
-			]
-			id: "18C15355A521B268"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "这是ad的一小步，却是你的一大步"
-			tasks: [{
-				dimension: "ad_astra:moon"
-				id: "0AF852060D7A0623"
-				title: "访问月球"
-				type: "dimension"
-			}]
-			x: 0.5d
-			y: 15.5d
 		}
 		{
 			dependencies: ["78B3859F84F3AA0A"]
@@ -516,7 +475,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["53840F2AC6D11F02"]
+			dependencies: ["3F2A5A509F9DF84B"]
 			id: "109D9B13DA0712EA"
 			subtitle: "在树上找找"
 			tasks: [{

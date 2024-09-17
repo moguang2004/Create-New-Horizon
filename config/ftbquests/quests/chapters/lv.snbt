@@ -573,16 +573,64 @@
 				"79D60B601C349798"
 			]
 			id: "71ABAC98E9CC67A9"
-			tasks: [{
-				id: "6F70329CA96985DF"
-				item: "gtceu:bronze_large_boiler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6F70329CA96985DF"
+					item: "gtceu:bronze_large_boiler"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "747F6135974B7C31"
+					item: { Count: 5, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "79C4BC6B5DF5E03B"
+					item: { Count: 2, id: "gtceu:bronze_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "751EB859528A5F11"
+					item: { Count: 23, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "1DA1F1E71EF67A54"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "3D641FF457D73DCC"
+					item: "gtceu:ulv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "32F121D3394830BF"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0D8C6BA728457E82"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "7B508E6A080AAE49"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -4.5d
 		}
 		{
-			dependencies: ["79D60B601C349798"]
+			dependencies: [
+				"79D60B601C349798"
+				"2393E591D8CEE84B"
+			]
 			description: [
 				"机械涡轮的基础应力输出量为&a8192su&r（ULV），应力输出仓每提升一级，最大并行数x4。"
 				"应力输出还与转子和转子支架有关，转子支架每升一级，支架效率提升10%（ULV为100%），转子的效率取决于转子的材料。"
@@ -632,19 +680,70 @@
 					item: "gtceu:maintenance_hatch"
 					type: "item"
 				}
+				{
+					id: "4606DDA780AE38DE"
+					item: "gtceu:lv_kinetic_output_box"
+					type: "item"
+				}
+				{
+					id: "7C82A539FC2DA099"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "4EC0CAC48A0EF862"
+					item: "gtceu:ulv_output_hatch"
+					type: "item"
+				}
 			]
 			x: -3.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["79D60B601C349798"]
+			icon: "gtceu:industrial_primitive_blast_furnace"
 			id: "15ED273EAE156E49"
 			subtitle: "更快地炼钢"
-			tasks: [{
-				id: "28B4B5B5A143CB87"
-				item: "gtceu:industrial_primitive_blast_furnace"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "28B4B5B5A143CB87"
+					item: "gtceu:industrial_primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "22D452CE8A236A2B"
+					item: { Count: 4, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3BEC2D70F4907598"
+					item: { Count: 6, id: "gtceu:bronze_frame" }
+					type: "item"
+				}
+				{
+					count: 54L
+					id: "6F12208B7E0522CB"
+					item: { Count: 54, id: "gtceu:firebricks" }
+					type: "item"
+				}
+				{
+					id: "3108A007FB4CFBA9"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "69C8833033DCC138"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "757066304FA4386D"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -4.5d
 		}

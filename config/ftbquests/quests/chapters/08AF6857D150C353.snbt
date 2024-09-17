@@ -90,7 +90,10 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["64C293C5E547D47D"]
+			dependencies: [
+				"64C293C5E547D47D"
+				"0DA7785CF55ABAAB"
+			]
 			id: "3672E16CD2C53B19"
 			subtitle: "用这个产应力挺好的"
 			tasks: [{
@@ -191,7 +194,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6D9003172EF921C9"]
 			id: "2D138FB6F66ED4D5"
 			tasks: [{
 				id: "0904C229D905D095"
@@ -258,7 +260,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["1E11A492F4576DBA"]
+			dependencies: [
+				"1E11A492F4576DBA"
+				"12316D2A6DC56654"
+			]
 			hide_dependency_lines: false
 			id: "470B9D39E23E01F2"
 			subtitle: "最好在冬天去"
@@ -595,13 +600,37 @@
 		{
 			dependencies: ["2534B56E45BA42B0"]
 			description: ["注：HV等级以下的离心机&c不能产出副产物&r，所以不要再尝试用大型蒸汽离心机获得一些珍惜的资源了。"]
+			icon: "steamadditions:steam_separator"
 			id: "4EF75F713E2D4357"
 			subtitle: "大型离心机"
-			tasks: [{
-				id: "18BF2572F42D3CF8"
-				item: "steamadditions:steam_separator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "18BF2572F42D3CF8"
+					item: "steamadditions:steam_separator"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "30B6A3D8920F6C85"
+					item: { Count: 18, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "49FC3E1C705BEFC4"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+				{
+					id: "1CAA7E4E8F2BC379"
+					item: "gtceu:ulv_output_bus"
+					type: "item"
+				}
+				{
+					id: "19A7DD8E6ABC4FBA"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: -3.0d
 		}
@@ -626,6 +655,17 @@
 			}]
 			x: -1.5d
 			y: -3.0d
+		}
+		{
+			id: "718C110032C7D661"
+			subtitle: "石油、乙醇、粗制生物柴油、种子油可供烈焰人燃烧室直接燃烧"
+			tasks: [{
+				id: "534A8A46FDC194A4"
+				title: "烈焰人燃烧室的液体燃料"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 9.0d
 		}
 	]
 	title: "钢铁时代"

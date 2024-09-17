@@ -6,20 +6,13 @@
 	icon: "create:brass_casing"
 	id: "06DFF7ED9E3AF570"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "48E5DA3B1BDF6995"
+		linked_quest: "30BE9ED9BA8D5E8C"
+		x: 5.5d
+		y: -0.5d
+	}]
 	quests: [
-		{
-			dependencies: ["2B430B944944D2C1"]
-			id: "18E67AF8AC9EB657"
-			subtitle: "黄铜时代！！！"
-			tasks: [{
-				id: "3974CDE045E573F6"
-				item: "create:brass_casing"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -0.5d
-		}
 		{
 			dependencies: ["2B430B944944D2C1"]
 			id: "6D7BF84C7BACFB90"
@@ -138,7 +131,7 @@
 		{
 			dependencies: [
 				"50ADB201997BE734"
-				"18E67AF8AC9EB657"
+				"30BE9ED9BA8D5E8C"
 			]
 			id: "5FE3BC6A006A6D5D"
 			subtitle: "大型拓展工作台"

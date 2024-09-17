@@ -6,10 +6,16 @@
 	icon: "create:andesite_casing"
 	id: "4408EF6F9E2E1624"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "57ECDEEEDE9D41FD"
+		linked_quest: "7FA90252C6CC19F0"
+		size: 1.5d
+		x: -6.511904761904759d
+		y: -0.9285714285714306d
+	}]
 	quests: [
 		{
-			dependencies: ["6D9003172EF921C9"]
+			dependencies: ["7FA90252C6CC19F0"]
 			id: "60D8E1B5B8777322"
 			subtitle: "你需要绝对天马行空的想象能力来使用它"
 			tasks: [{
@@ -50,7 +56,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["6D9003172EF921C9"]
+			dependencies: ["7FA90252C6CC19F0"]
 			id: "32D9754803137E82"
 			tasks: [{
 				id: "67F5B1C0219B671A"
@@ -429,7 +435,9 @@
 				"7E591C0E7278D12F"
 				"2460426DE77EF0F4"
 			]
+			description: ["放置在世界中，即可自动生产液态水"]
 			id: "4ABB43D13EBB512D"
+			subtitle: "多方块结构"
 			tasks: [
 				{
 					id: "178BF7B8042CF8C5"
@@ -527,25 +535,6 @@
 			}]
 			x: 1.0d
 			y: 5.0d
-		}
-		{
-			dependencies: ["5BA86B01337A91D5"]
-			id: "6D9003172EF921C9"
-			rewards: [{
-				count: 16
-				id: "6947235FD465275D"
-				item: "gtceu:andesite_alloy_ingot"
-				type: "item"
-			}]
-			size: 1.5d
-			subtitle: "第一块合金"
-			tasks: [{
-				id: "2432B1FD7CD5EFE3"
-				item: "gtceu:andesite_alloy_ingot"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -1.0d
 		}
 		{
 			dependencies: ["25CADEFA5DCB0244"]

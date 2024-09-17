@@ -6,7 +6,21 @@
 	icon: "bloodmagic:altar"
 	id: "71282A84EFB2E6DD"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "201E8191E9CFE196"
+			linked_quest: "020A570A2EC3EE8B"
+			size: 2.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "0F6EC6D1884C72A0"
+			linked_quest: "0598D6FDA6319592"
+			x: -4.5d
+			y: -2.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["76036AE6CE23B158"]
@@ -23,8 +37,8 @@
 		{
 			dependencies: [
 				"4CA3E4766B67C12B"
-				"1A14E8B36A5BB81F"
-				"1841BFE1F3952733"
+				"020A570A2EC3EE8B"
+				"0598D6FDA6319592"
 			]
 			id: "0609BF460D2F4A65"
 			tasks: [{
@@ -891,33 +905,6 @@
 			}]
 			x: 7.5d
 			y: 12.5d
-		}
-		{
-			dependencies: ["66FE0D6835F9F659"]
-			id: "1A14E8B36A5BB81F"
-			size: 2.0d
-			tasks: [{
-				id: "27E1E72DC856FB31"
-				item: {
-					Count: 1
-					id: "bloodmagic:sacrificialdagger"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["17AE8CE55863D7D6"]
-			id: "1841BFE1F3952733"
-			tasks: [{
-				id: "48AA4466F0C14E48"
-				item: "botania:livingrock"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -2.0d
 		}
 	]
 	title: "血魔法"

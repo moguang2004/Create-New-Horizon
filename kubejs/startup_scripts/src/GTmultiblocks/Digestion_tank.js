@@ -30,6 +30,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 return GTrecipemodifier.getFirst()
             }
             machine.getHolder().self().persistentData.putFloat('growth_efficiency', efficiency)
+            machine.getHolder().self().persistentData.putFloat('temperature',temperature)
             return newrecipe
         })
         //.appearanceBlock(Block.getBlock('minecraft:bricks'))
@@ -51,7 +52,15 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
         .additionalDisplay((/** @type {$MetaMachine}*/machine, l) => {
             if (machine.isFormed()) {
-                let temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
+                let temperature = machine.getHolder().self().persistentData.putFloat('temperature',temperature)
+                if(temperature == null){
+                    temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
+                }
+                else{
+                    if(machine.getOffsetTimer() % 20 == 0){
+                        temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
+                    }
+                }
                 let efficiency = machine.getHolder().self().persistentData.getFloat('growth_efficiency')
                 //l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(machine.getCoilType().getCoilTemperature() + "K").red()))
                 l.add(l.size(), Text.translate('ctnh.digestion_tank.growing_temperature', temperature.toFixed(1)).green())
