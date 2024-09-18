@@ -595,7 +595,7 @@ ServerEvents.recipes(event => {
         E: "#gtceu:circuits/hv"
     })
     event.shaped(
-        Item.of("gtceu:photovoltaic_power_station_energetic", 1), [
+        Item.of("ctnhcore:photovoltaic_power_station_energetic", 1), [
         "AAA",
         "BCB",
         "DED"
@@ -607,7 +607,7 @@ ServerEvents.recipes(event => {
         E: "#gtceu:circuits/lv"
     })
     event.shaped(
-        Item.of("gtceu:photovoltaic_power_station_pulsating", 1), [
+        Item.of("ctnhcore:photovoltaic_power_station_pulsating", 1), [
         "AAA",
         "BCB",
         "DED"
@@ -619,7 +619,7 @@ ServerEvents.recipes(event => {
         E: "#gtceu:circuits/mv"
     })
     event.shaped(
-        Item.of("gtceu:photovoltaic_power_station_vibrant", 1), [
+        Item.of("ctnhcore:photovoltaic_power_station_vibrant", 1), [
         "AAA",
         "BCB",
         "DED"

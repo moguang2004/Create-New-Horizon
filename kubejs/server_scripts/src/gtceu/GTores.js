@@ -99,7 +99,7 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.remove('gtceu:manganese_vein_ow')
+    //event.remove('gtceu:manganese_vein_ow')
     /*event.modify('gtceu:manganese_vein',vein=>{
         vein.veinedVeinGenerator(generator => generator.rareBlock(GTMaterials.Spessartine,2))
     })*/

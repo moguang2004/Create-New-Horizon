@@ -134,15 +134,15 @@ ServerEvents.recipes(event => {
         'quartzite', 'opal', 'redstone', 'ruby', 'cinnabar', 'nickel', 'lead', 'pentlandite', 'realgar', 'yellow_garnet', 'red_garnet',
         'basaltic_mineral_sand', 'granitic_mineral_sand', 'beryllium', 'molybdenum', 'molybdenite', 'garnierite', 'pentlandite', 'cobaltite',
         'topaz', 'blue_topaz', 'sulfur', 'chalcocite', 'bornite', 'sphalerite', 'sulfur', 'saltpeter', 'diatomite', 'electrotine', 'alunite',
-        'grossular', 'pyrolusite', 'tantalite', 'certus_quartz', 'barite']
+        'grossular', 'pyrolusite', 'tantalite', 'certus_quartz', 'barite','spessartine']
     let materials2 = ['nether_quartz', 'quartzite', 'coal', 'cassiterite', 'salt', 'rock_salt', 'lepidolite', 'blue_topaz', 'saltpeter', 'certus_quartz', 'emerald']
-    let materials3 = ['alunite', 'grossular']
+    let materials3 = ['alunite', 'grossular','spessartine']
     let materials4 = ['yellow_garnet', 'red_garnet']
     let materials6 = ['lazurite', 'lapis', 'sodalite']
     let materials5 = ['redstone', 'electrotine']
     let ingots = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium', 'molybdenum']
     let minecraftIngots = ['iron', 'copper', 'gold']
-    let gems = ['salt', 'rock_salt', 'lazurite', 'ruby', 'cinnabar', 'opal', 'quartzite', 'realgar', 'topaz', 'blue_topaz', 'grossular', 'certus_quartz']
+    let gems = ['salt', 'rock_salt', 'lazurite', 'ruby', 'cinnabar', 'opal', 'quartzite', 'realgar', 'topaz', 'blue_topaz', 'grossular', 'certus_quartz','spessartine']
     let iron = ['hematite', 'magnetite', 'yellow_limonite', 'pyrite', 'goethite', 'basaltic_mineral_sand', 'granitic_mineral_sand']
     let copper = ['chalcopyrite', 'malachite', 'chalcocite', 'bornite']
     let zinc = ['sphalerite']

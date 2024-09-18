@@ -20,12 +20,22 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
             .recipeType("kinetic_generator")
             .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-            .recipeModifier((/**@type {$CoilWorkableElectricMultiblockMachine}*/machine, recipe) => {
+            .recipeModifier((/**@type {$WorkableElectricMultiblockMachine}*/machine, recipe) => {
                 const kinetic = machine.getParts().find(part => part instanceof IKineticMachine);
                 if (!kinetic) {
                     return null;
                 }
+                let pos = machine.pos
+                switch(machine.frontFacing){
+                    case NORTH: pos = pos.offset(0,0,1)
+                    case SOUTH: pos = pos.offset(0,0,-1)
+                    case WEST: pos = pos.offset(1,0,0)
+                    case EAST: pos = pos.offset(-1,0,0)
+                }
                 let efficiency = 0.9 + 0.1 * machine.getCoilTier()
+                if(machine.level.getBlock(pos) == 'gtceu:graphene_block'){
+                    efficiency += 0.1
+                }
                 let energyoutput = Math.abs(kinetic.getKineticHolder().getSpeed()) * kinetic.getKineticDefinition().torque * efficiency / 160
                 machine.getHolder().self().persistentData.putFloat('energyoutput', energyoutput)
                 machine.getHolder().self().persistentData.putFloat('efficiency', efficiency)
@@ -39,7 +49,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 .aisle("CCTP", "CSTP", "  TP")
                 .where("S", Predicates.controller(Predicates.blocks(definition.get())))
                 .where("G", Predicates.blocks('gtceu:steel_gearbox'))
-                .where("A", Predicates.blocks('gtceu:coke_block'))
+                .where("A", Predicates.blocks('gtceu:coke_block')
+                            .or(Predicates.blocks('gtceu:graphene_block')))
                 .where("C", Predicates.blocks('gtceu:solid_machine_casing')
                     .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
                 )

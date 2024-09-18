@@ -6,12 +6,26 @@
 	icon: "gtceu:mv_machine_hull"
 	id: "7647DBDFA1F452A1"
 	order_index: 1
-	quest_links: [{
-		id: "320AB306C4AEB3A6"
-		linked_quest: "11F898C7B0C925D5"
-		x: -4.5d
-		y: -1.0d
-	}]
+	quest_links: [
+		{
+			id: "320AB306C4AEB3A6"
+			linked_quest: "11F898C7B0C925D5"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "0F6670FE370D0AB1"
+			linked_quest: "7564DC3576C62D48"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "0ABE587879C3FC6C"
+			linked_quest: "0FDEA5690076FB16"
+			x: 7.5d
+			y: -2.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["11F898C7B0C925D5"]
@@ -207,18 +221,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["19869FD9D4BCCB9F"]
-			id: "0B90121BB71598DD"
-			subtitle: "此后重要的电路板原料"
-			tasks: [{
-				id: "4252FAA765FCEC15"
-				item: "gtceu:silicon_boule"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -2.5d
-		}
-		{
 			dependencies: ["1FBD86C0CF681427"]
 			id: "10FA0AB1DB0672F9"
 			tasks: [{
@@ -232,7 +234,7 @@
 		{
 			dependencies: [
 				"10FA0AB1DB0672F9"
-				"0B90121BB71598DD"
+				"7564DC3576C62D48"
 			]
 			id: "27675B2A83F65B2E"
 			tasks: [{
@@ -344,7 +346,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["42552E404237FB96"]
+			dependencies: ["0FDEA5690076FB16"]
 			id: "661BD82A33904F28"
 			tasks: [{
 				id: "0A5342F38734ACAE"
@@ -385,7 +387,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["42552E404237FB96"]
+			dependencies: ["0FDEA5690076FB16"]
 			id: "063155FDDF799750"
 			tasks: [{
 				id: "7312ABE98EF4BE13"
@@ -682,7 +684,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["42552E404237FB96"]
+			dependencies: ["0FDEA5690076FB16"]
 			id: "4616A64D47AFBFF9"
 			subtitle: "赶紧用起来吧，不然你会很难受的"
 			tasks: [{
@@ -690,7 +692,7 @@
 				title: "AE2"
 				type: "checkmark"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: -2.0d
 		}
 		{

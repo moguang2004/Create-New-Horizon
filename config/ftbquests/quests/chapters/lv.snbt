@@ -830,6 +830,17 @@
 					type: "item"
 				}
 			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2D662EFDE7A39BB8"]
+			id: "0FDEA5690076FB16"
+			tasks: [{
+				id: "1ADBC7860D6973EB"
+				item: "kubejs:mana_electronic_circuit"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 5.0d
 		}

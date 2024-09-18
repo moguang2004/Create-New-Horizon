@@ -52,7 +52,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
         .additionalDisplay((/** @type {$MetaMachine}*/machine, l) => {
             if (machine.isFormed()) {
-                let temperature = machine.getHolder().self().persistentData.putFloat('temperature',temperature)
+                let temperature = machine.getHolder().self().persistentData.getFloat('temperature')
                 if(temperature == null){
                     temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
                 }

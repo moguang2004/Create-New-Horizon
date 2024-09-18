@@ -769,6 +769,49 @@
 			x: -11.0d
 			y: 16.5d
 		}
+		{
+			id: "07F277A1BEE0CF64"
+			tasks: [{
+				id: "23BEA380EB0592D1"
+				item: "kubejs:echo_processor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["07F277A1BEE0CF64"]
+			id: "50E1CA5A29A824BC"
+			tasks: [{
+				id: "302B6F97CEA70D96"
+				item: "kubejs:echo_processor_assembly"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["50E1CA5A29A824BC"]
+			id: "141FB06AFC6756F2"
+			tasks: [{
+				id: "3CA4CE514178E007"
+				item: "kubejs:echo_processor_computer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["141FB06AFC6756F2"]
+			id: "0D1B86D943D871EB"
+			tasks: [{
+				id: "78FD2680B907A20D"
+				item: "kubejs:echo_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
 	]
 	title: "电路板全家福"
 }

@@ -53,6 +53,28 @@ ServerEvents.recipes(event => {
     "toColor": 16750080
   }).id('mythicbotany:mythicbotany_infusion/alfsteel_ingot')
   event.custom({
+    "type": "mythicbotany:infuser",
+    "fromColor": 16711821,
+    "group": "infuser",
+    "ingredients": [
+      {
+        "item": "botania:elementium_ingot"
+      },
+      {
+        "item": "botania:terrasteel_ingot"
+      },
+      {
+        "item": "mythicbotany:alfsteel_ingot"
+      }
+    ],
+    "mana": 2000000,
+    "output": {
+      "count": 1,
+      "item": "mythicbotany:alfsteel_ingot"
+    },
+    "toColor": 16750080
+  })
+  event.custom({
     "type": "mythicbotany:rune_ritual",
     "center": {
       "item": "botania:gaia_ingot"

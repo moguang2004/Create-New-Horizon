@@ -739,4 +739,39 @@ ServerEvents.recipes(event => {
       "item": "kubejs:mana_electronic_circuit"
     }
   })
+  event.custom({
+    "type": "botania:petal_apothecary",
+    "ingredients": [
+      {
+        "item": "alexscaves:primal_magma"
+      },
+      {
+        "tag": "botania:petals/red"
+      },
+      {
+        "tag": "botania:petals/gray"
+      },
+      {
+        "tag": "botania:petals/gray"
+      },
+      {
+        "item": "gtceu:industrial_tnt"
+      },
+      {
+        "item": "gtceu:super_mana_ingot"
+      },
+      {
+        "item": "botania:rune_wrath"
+      },
+      {
+        "item": "botania:rune_fire"
+      }
+    ],
+    "output": {
+      "item": "botania:entropinnyum"
+    },
+    "reagent": {
+      "tag": "botania:seed_apothecary_reagent"
+    }
+  }).id('botania:petal_apothecary/entropinnyum')
 })

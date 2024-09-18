@@ -159,7 +159,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.electrolyzer('electrolyzing_spessartine')//锰铝榴石粉
         .EUt(120)
         .duration(220)
-        .itemInputs('20x gtceu:spodumene_dust')
+        .itemInputs('20x gtceu:spessartine_dust')
         .itemOutputs('5x gtceu:alumina_dust')
         .itemOutputs('9x gtceu:silicon_dioxide_dust')
         .itemOutputs('3x gtceu:manganese_dust')
