@@ -25,6 +25,10 @@ ServerEvents.recipes(e => {
 //切割
 ServerEvents.recipes(event => {
   event.recipes.create.cutting('2x create:shaft', 'gtceu:andesite_alloy_ingot')
+  let plates = ['copper','iron','gold','lead','nickel','tin','silver','annealed_copper','cupronickel','steel','red_alloy','mana_steel','conductive_alloy']
+  plates.forEach(plate => {
+    event.recipes.create.cutting(`2x gtceu:${plate}_single_wire`,`gtceu:${plate}_plate`)
+  })
 })
 
 //动力合成
@@ -235,6 +239,280 @@ ServerEvents.recipes(event => {
   ]).transitionalItem(transitional)
     .loops(3)
   event.remove({ output: 'create:steam_engine' })
+})
+ServerEvents.recipes(event => {
+  let transitional = 'minecraft:paper'
+  event.recipes.create.sequenced_assembly([
+    '2x gtceu:resistor'
+  ], 'minecraft:paper', [
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:copper_single_wire']),
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:coal_dust']),
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:sticky_resin']),
+    event.recipes.createPressing(transitional, [transitional]),
+  ]).transitionalItem(transitional)
+    .loops(1)
+})
+ServerEvents.recipes(event => {
+  let transitional = 'gtceu:small_gallium_arsenide_dust'
+  event.recipes.create.sequenced_assembly([
+    '2x gtceu:diode'
+  ], 'gtceu:small_gallium_arsenide_dust', [
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:copper_single_wire']),
+    event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:tin',144)]),
+    event.recipes.createPressing(transitional, [transitional]),
+  ]).transitionalItem(transitional)
+    .loops(1)
+})
+
+ServerEvents.recipes(event =>{
+  event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": 'gtceu:resin_circuit_board'
+    },
+    "loops": 1,
+    "results": {
+        "item": "gtceu:basic_electronic_circuit"
+      },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          },
+          {
+            "item": "gtceu:copper_quadruple_wire"
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          },
+          {
+            "item": "gtceu:red_alloy_double_wire"
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          },
+          {
+            "item": 'gtceu:vacuum_tube'
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          },
+          {
+            "item": 'gtceu:resistor'
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          },
+          {
+            "amount": 288,
+            "fluid": 'gtceu:rubber'
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create_new_age:energising",
+        "energy_needed": 10000,
+        "ingredients": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:basic_electronic_circuit"
+          }
+        ]
+      }      
+    ],
+    "transitionalItem": {
+      "item": "gtceu:basic_electronic_circuit"
+    }
+  })
+})
+ServerEvents.recipes(event =>{
+  event.custom({
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": 'gtceu:phenolic_circuit_board'
+    },
+    "loops": 2,
+    "results": {
+        "item": "gtceu:good_electronic_circuit"
+      },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          },
+          {
+            "item": "gtceu:silver_double_wire"
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          },
+          {
+            "item": "gtceu:copper_single_wire"
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          },
+          {
+            "item": 'gtceu:basic_electronic_circuit'
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          },
+          {
+            "item": 'gtceu:diode'
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          },
+          {
+            "amount": 144,
+            "fluid": 'gtceu:tin'
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          }
+        ]
+      },
+      {
+        "type": "create_new_age:energising",
+        "energy_needed": 10000,
+        "ingredients": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          }
+        ],
+        "results": [
+          {
+            "item": "gtceu:good_electronic_circuit"
+          }
+        ]
+      }      
+    ],
+    "transitionalItem": {
+      "item": "gtceu:good_electronic_circuit"
+    }
+  })
 })
 
 

@@ -570,6 +570,7 @@
 		}
 		{
 			dependencies: ["42552E404237FB96"]
+			hide_dependency_lines: true
 			id: "1327BF0797F9200E"
 			tasks: [{
 				id: "0EC0460E5F53A868"
@@ -906,6 +907,47 @@
 			}]
 			x: -6.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6A93AEE55399519D"
+				"4B36BF3CD5329728"
+			]
+			id: "4D79E10947CC121F"
+			tasks: [{
+				id: "6C7ED169ACEA6489"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"08302778401395AA"
+				"4D79E10947CC121F"
+				"3BBEFDC7CD5D688B"
+			]
+			id: "42552E404237FB96"
+			subtitle: "第二种HV电路板"
+			tasks: [{
+				id: "6DE0530CFDC5398C"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2740F44657C0CF5A"]
+			id: "4B36BF3CD5329728"
+			tasks: [{
+				id: "5A90127EBC417131"
+				item: "gtceu:hot_silicon_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
 		}
 	]
 	title: "&6HV&r时期"

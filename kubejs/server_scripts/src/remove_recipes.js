@@ -93,7 +93,14 @@ ServerEvents.recipes(event => {
         "functionalstorage:oak_drawer_alternate_x4",
         "javd:portal_block",
         "tetranichematerials:grave_steel_ingot",
-        "minecraft:chest"
+        "minecraft:chest",
+        "betterend:thallasium_block",
+        "betterend:thallasium_door",
+        "betterend:thallasium_bars",
+        "betterend:thallasium_pressure_plate",
+        "betterend:thallasium_anvil",
+        "create_new_age:shaped/netherite_magnet",
+        "create_new_age:shaped/fluxuated_magnetite"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

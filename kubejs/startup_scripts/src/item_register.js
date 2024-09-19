@@ -1,3 +1,4 @@
+import { $FoodEatenEventJS } from "packages/dev/latvian/mods/kubejs/item/$FoodEatenEventJS"
 import { $Registry } from "packages/net/minecraft/core/$Registry"
 import { $ServerLevel } from "packages/net/minecraft/server/level/$ServerLevel"
 import { $TagKey } from "packages/net/minecraft/tags/$TagKey"
@@ -232,6 +233,13 @@ StartupEvents.registry("block", event => {
 
 
 ItemEvents.modification(event => {
+    event.modify('farmersdelight:rice',item => {
+        item.food(food =>{
+            food.eaten((/**@type {$FoodEatenEventJS}*/eat) =>{
+                eat.player.giveInHand('kubejs:crashed_rice')
+            })
+        })
+    })
     event.modify('tomeofblood:living_mage_hood', item => {
         item.setArmorProtection(4)
         item.setArmorToughness(3)

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "stalactites": [
+    "twilightforest:diamond_ore_stalactite",
+    "twilightforest:emerald_ore_stalactite",
+    "twilightforest:lapis_ore_stalactite",
+    "twilightforest:gold_ore_raw_gold_block_stalactite",
+    "twilightforest:redstone_ore_stalactite",
+    "twilightforest:coal_ore_stalactite",
+    "twilightforest:copper_ore_raw_copper_block_stalactite",
+    "twilightforest:glowstone_stalactite",
+    "twilightforest:iron_ore_raw_iron_block_stalactite"
+  ]
+}

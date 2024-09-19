@@ -725,6 +725,12 @@ ServerEvents.recipes(event => {
   Greenhouse('mangrove_propagule', 'minecraft:mangrove_propagule', 1000, ['64x minecraft:mangrove_log', '4x minecraft:mangrove_propagule'], false)
   Greenhouse('mangrove_propagule_boosted', 'minecraft:mangrove_propagule', 1000, ['64x minecraft:mangrove_log', '64x minecraft:mangrove_log', '4x minecraft:mangrove_propagule'], true)
 
+  Greenhouse('cherry_sapling', 'minecraft:cherry_sapling',1000,['64x minecraft:cherry_log', '4x miencraft:cherry_sapling'],false)
+  Greenhouse('cherry_sapling_boosted', 'minecraft:cherry_sapling',1000,['64x minecraft:cherry_log', '64x minecraft:cherry_log','4x miencraft:cherry_sapling'],true)
+
+  Greenhouse('hollow_oak_sapling', 'twilightforest:hollow_oak_sapling',1000,['64x twilightforest:twilight_oak_log', '4x twilightforest:hollow_oak_sapling'],false)
+  Greenhouse('hollow_oak_sapling_boosted', 'twilightforest:hollow_oak_sapling',1000,['64x twilightforest:twilight_oak_log', '64x twilightforest:twilight_oak_log','4x twilightforest:hollow_oak_sapling'],true)
+
   ////// Crops //////
 
   // Sugarcane
@@ -809,4 +815,15 @@ ServerEvents.recipes(event => {
     .itemOutputs('4x gtceu:circuit_resonatic_lv')
     .EUt(120)
     .duration(75)
+  event.recipes.gtceu.chemical_bath('netherite_magnet')
+    .itemInputs('create_new_age:fluxuated_magnetite')
+    .inputFluids(Fluid.of('gtceu:ancient_debris_leach',8000))
+    .itemOutputs('create_new_age:netherite_magnet')
+    .EUt(120)
+    .duration(60)
+  event.recipes.gtceu.assembler('fluxuated_magnetite')
+    .itemInputs(['create_new_age:layered_magnet','2x botania:mana_diamond','2x gtceu:diamond_screw'])
+    .itemOutputs('create_new_age:fluxuated_magnetite')
+    .EUt(30)
+    .duration(60)
 })

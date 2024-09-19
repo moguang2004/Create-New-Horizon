@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
     "group": "infuser",
     "ingredients": [
       {
-        "item": "botania:elementium_ingot"
+        "item": "botania:gaia_ingot"
       },
       {
         "item": "botania:terrasteel_ingot"
@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
     "mana": 2000000,
     "output": {
       "count": 1,
-      "item": "mythicbotany:alfsteel_ingot"
+      "item": "gtceu:super_mana_ingot"
     },
     "toColor": 16750080
   })

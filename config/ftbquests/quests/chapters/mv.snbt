@@ -206,8 +206,8 @@
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -257,17 +257,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["6A93AEE55399519D"]
-			id: "4D79E10947CC121F"
-			tasks: [{
-				id: "6C7ED169ACEA6489"
-				item: "gtceu:transistor"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 1.0d
-		}
-		{
 			dependencies: ["187230C4BEE7160C"]
 			id: "14C4BA500BF6C81B"
 			subtitle: "不用手搓的LV电路板"
@@ -293,6 +282,7 @@
 		{
 			dependencies: ["14C4BA500BF6C81B"]
 			id: "3BBEFDC7CD5D688B"
+			subtitle: "不用手搓的MV电路板"
 			tasks: [{
 				id: "01A02BC001EC7E29"
 				item: "gtceu:good_integrated_circuit"
@@ -302,23 +292,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"08302778401395AA"
-				"4D79E10947CC121F"
-				"3BBEFDC7CD5D688B"
-			]
-			id: "42552E404237FB96"
-			tasks: [{
-				id: "6DE0530CFDC5398C"
-				item: "gtceu:advanced_integrated_circuit"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["5A460876CA0EC216"]
 			id: "6A93AEE55399519D"
+			subtitle: "你得在MV把这个产线做好"
 			tasks: [{
 				id: "3FAAF27C803FB471"
 				item: "gtceu:polyethylene_bucket"
@@ -353,8 +329,8 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -1.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -368,7 +344,7 @@
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -383,8 +359,8 @@
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0FDEA5690076FB16"]
@@ -704,7 +680,7 @@
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 9.5d
 			y: 3.0d
 		}
 		{
@@ -731,7 +707,7 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
