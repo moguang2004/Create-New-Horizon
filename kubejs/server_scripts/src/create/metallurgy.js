@@ -142,7 +142,7 @@ ServerEvents.recipes(event => {
     let materials5 = ['redstone', 'electrotine']
     let ingots = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium', 'molybdenum']
     let minecraftIngots = ['iron', 'copper', 'gold']
-    let gems = ['salt', 'rock_salt', 'lazurite', 'ruby', 'cinnabar', 'opal', 'quartzite', 'realgar', 'topaz', 'blue_topaz', 'grossular', 'certus_quartz']
+    let gems = ['salt', 'rock_salt', 'lazurite', 'ruby', 'cinnabar', 'opal', 'quartzite', 'realgar', 'topaz', 'blue_topaz', 'grossular']
     let iron = ['hematite', 'magnetite', 'yellow_limonite', 'pyrite', 'goethite', 'basaltic_mineral_sand', 'granitic_mineral_sand']
     let copper = ['chalcopyrite', 'malachite', 'chalcocite', 'bornite']
     let zinc = ['sphalerite']
@@ -345,6 +345,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.splashing([Item.of(`gtceu:flawless_coal_gem`).withChance(0.2), Item.of(`minecraft:coal`).withChance(0.4), Item.of(`gtceu:flawed_coal_gem`).withChance(0.4)], `gtceu:purified_coal_ore`)
     event.recipes.create.splashing([Item.of(`gtceu:flawless_lapis_gem`).withChance(0.2), Item.of(`minecraft:lapis_lazuli`).withChance(0.4), Item.of(`gtceu:flawed_lapis_gem`).withChance(0.4)], `gtceu:purified_lapis_ore`)
     event.recipes.create.splashing([Item.of(`gtceu:flawless_emerald_gem`).withChance(0.2), Item.of(`minecraft:emerald`).withChance(0.4), Item.of(`gtceu:flawed_emerald_gem`).withChance(0.4)], `gtceu:purified_emerald_ore`)
+    event.recipes.create.splashing([Item.of(`gtceu:flawless_certus_quartz_gem`).withChance(0.2), Item.of(`ae2:certus_quartz_crystal`).withChance(0.4), Item.of(`gtceu:flawed_certus_quartz_gem`).withChance(0.4)], `gtceu:purified_certus_quartz_ore`)
     //Iron
     iron.forEach(material => {
         event.custom({

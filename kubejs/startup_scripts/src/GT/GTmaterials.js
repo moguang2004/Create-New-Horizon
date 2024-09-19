@@ -1118,6 +1118,10 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .dust()
         .components("calcium", "sulfur")
         .color(0xffffdc)
+    event.create("quartz_glass")
+        .dust()
+        .components("glass","certus_quartz")
+        .color(0xd1f1fa)
 })
 
 StartupEvents.postInit(event => {
@@ -1158,4 +1162,6 @@ StartupEvents.postInit(event => {
     TagPrefix.ingot.setIgnored(GTMaterials.get("alfsteel"), "mythicbotany:alfsteel_ingot")
     TagPrefix.nugget.setIgnored(GTMaterials.get("alfsteel"), "mythicbotany:alfsteel_nugget")
     TagPrefix.block.setIgnored(GTMaterials.get("alfsteel"), "mythicbotany:alfsteel_block")
+    TagPrefix.gem.setIgnored(GTMaterials.CertusQuartz,'ae2:certus_quartz_crystal')
+    TagPrefix.block.setIgnored(GTMaterials.CertusQuartz,'ae2:quartz_block')
 })

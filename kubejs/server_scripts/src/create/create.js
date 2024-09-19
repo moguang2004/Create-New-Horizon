@@ -12,6 +12,8 @@ ServerEvents.recipes(e => {
     e.recipes.create.crushing(`gtceu:${i}_dust`, `gtceu:${i}_ingot`)
     e.recipes.create.milling(`gtceu:${i}_dust`, `gtceu:${i}_ingot`)
   }
+  e.recipes.craete.crushing('gtceu:coke_dust','gtceu:coke_gem')
+  e.recipes.craete.milling('gtceu:coke_dust','gtceu:coke_gem')
 })
 ServerEvents.recipes(e => {
   let ingot = ['copper', 'iron', 'gold']

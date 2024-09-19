@@ -268,7 +268,7 @@ ServerEvents.recipes(event => {
   event.recipes.gtceu.chemical_reactor("titaniumtetrachloride")
     .itemInputs(["gtceu:rutile_dust", "2x gtceu:carbon_dust"])
     .inputFluids(Fluid.of("gtceu:chlorine", 4000))
-    .outputFluids([Fluid.of("gtceu:titanium_tetrachloride", 1000), Fluid.of("gtceu:carbon_monoxite", 2000)])
+    .outputFluids([Fluid.of("gtceu:titanium_tetrachloride", 1000), Fluid.of("gtceu:carbon_monoxide", 2000)])
     .EUt(480)
     .duration(500)
   event.recipes.gtceu.chemical_plant("rp_1_mixed_fuel")
@@ -608,4 +608,13 @@ ServerEvents.recipes(event => {
     'M': "#forge:tools/mallets",
     'S': "#forge:tools/saws",
   })
+
+  event.remove({id:'gtceu:assembler/space_helmet'})
+  event.recipes.gtceu.assembler('space_helmet')
+    .itemInputs('gtceu:glass_plate','minecraft:chainmail_helmet')
+    .inputFluids(Fluid.of('gtceu:glue',72))
+    .itemOutputs('ad_astra:space_helmet')
+    .EUt(120)
+    .duration(400)
+  
 })
