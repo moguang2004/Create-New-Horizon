@@ -269,7 +269,7 @@ ServerEvents.recipes(event => {
   event.recipes.gtceu.chemical_reactor("titaniumtetrachloride")
     .itemInputs(["gtceu:rutile_dust", "2x gtceu:carbon_dust"])
     .inputFluids(Fluid.of("gtceu:chlorine", 4000))
-    .outputFluids([Fluid.of("gtceu:titanium_tetrachloride", 1000), Fluid.of("gtceu:carbon_monoxite", 2000)])
+    .outputFluids([Fluid.of("gtceu:titanium_tetrachloride", 1000), Fluid.of("gtceu:carbon_monoxide", 2000)])
     .EUt(480)
     .duration(500)
   event.recipes.gtceu.chemical_plant("rp_1_mixed_fuel")
@@ -577,6 +577,7 @@ ServerEvents.recipes(event => {
     .addData('output_stress',1048576)
     .duration(200)
 
+<<<<<<< HEAD
   event.recipes.gtceu.centrifuge('slag')
     .itemInputs('8x gtceu:slag_dust')
     .itemOutputs('3x gtceu:alumina_dust')
@@ -826,4 +827,48 @@ ServerEvents.recipes(event => {
     .itemOutputs('create_new_age:fluxuated_magnetite')
     .EUt(30)
     .duration(60)
+=======
+  event.shaped(
+    "gtceu:treated_wood_small_fluid_pipe",
+    [
+      "S",
+      "P",
+      "M",
+    ], {
+    'P': "#forge:treated_wood",
+    'M': "#forge:tools/mallets",
+    'S': "#forge:tools/saws",
+  })
+  event.shaped(
+    "gtceu:treated_wood_normal_fluid_pipe",
+    [
+      "PS",
+      "P ",
+      "PM",
+    ], {
+    'P': "#forge:treated_wood",
+    'M': "#forge:tools/mallets",
+    'S': "#forge:tools/saws",
+  })
+  event.shaped(
+    "gtceu:treated_wood_large_fluid_pipe",
+    [
+      "PSP",
+      "P P",
+      "PMP",
+    ], {
+    'P': "#forge:treated_wood",
+    'M': "#forge:tools/mallets",
+    'S': "#forge:tools/saws",
+  })
+
+  event.remove({id:'gtceu:assembler/space_helmet'})
+  event.recipes.gtceu.assembler('space_helmet')
+    .itemInputs('gtceu:glass_plate','minecraft:chainmail_helmet')
+    .inputFluids(Fluid.of('gtceu:glue',72))
+    .itemOutputs('ad_astra:space_helmet')
+    .EUt(120)
+    .duration(400)
+  
+>>>>>>> bugfix
 })

@@ -24,7 +24,7 @@ EntityEvents.hurt(event => {
         if (event.source.getType() == 'drown' || event.source.getType() == 'oxygen' || event.source.getType() == 'freeze') {
             let enchant = true
             event.entity.armorSlots.forEach((/**@type {$ItemStack}*/armor) => {
-                if (armor.getEnchantments().get('vaccum_seal') == null) {
+                if (armor.getEnchantments().get('kubejs:vacuum_seal') == null) {
                     enchant = false
                 }
             })

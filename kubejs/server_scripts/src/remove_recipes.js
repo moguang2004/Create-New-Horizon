@@ -93,7 +93,6 @@ ServerEvents.recipes(event => {
         "functionalstorage:oak_drawer_alternate_x4",
         "javd:portal_block",
         "tetranichematerials:grave_steel_ingot",
-        "minecraft:chest",
         "betterend:thallasium_block",
         "betterend:thallasium_door",
         "betterend:thallasium_bars",
@@ -101,6 +100,17 @@ ServerEvents.recipes(event => {
         "betterend:thallasium_anvil",
         "create_new_age:shaped/netherite_magnet",
         "create_new_age:shaped/fluxuated_magnetite"
+        "gtceu:assembler/oak_stairs",
+        "gtceu:assembler/spruce_stairs",
+        "gtceu:assembler/birch_stairs",
+        "gtceu:assembler/jungle_stairs",
+        "gtceu:assembler/acacia_stairs",
+        "gtceu:assembler/dark_oak_stairs",
+        "gtceu:assembler/mangrove_stairs",
+        "gtceu:assembler/cherry_stairs",
+        "gtceu:assembler/bamboo_stairs",
+        "gtceu:assembler/crimson_stairs",
+        "gtceu:assembler/warped_stairs"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -150,6 +160,6 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:ingots" })
     event.remove({ mod: "ad_extendra", type: "minecraft:smelting", output: "#forge:gems" })
     event.remove({ mod: "createmetallurgy", not: { type: "createmetallurgy:belt_grinder" } })
-    event.remove({ input: "gtceu:treated_wood_planks", output: "gtceu:wood_large_fluid_pipe"})
     event.remove({ mod: "aether", type: "minecraft:crafting_shaped", id: /aether:skyroot_(.*)/ })
+    event.remove({ id: "gtceu:large_chemical_reactor/raw_palladium_separation"})
 })
