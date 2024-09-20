@@ -6,7 +6,12 @@
 	icon: "gtceu:lv_machine_hull"
 	id: "4BDF4E8F33BD360D"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "241C27E30A82FB9D"
+		linked_quest: "70775BD37338408D"
+		x: 9.5d
+		y: 5.0d
+	}]
 	quests: [
 		{
 			dependencies: ["50ADB201997BE734"]
@@ -524,7 +529,7 @@
 				item: "gtceu:silicon_boule"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.5d
 			y: 3.5d
 		}
 		{
@@ -767,7 +772,7 @@
 				item: "enderio:item_conduit"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -4.0d
 		}
 		{
@@ -843,6 +848,155 @@
 			}]
 			x: 2.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["2D662EFDE7A39BB8"]
+			id: "1EF5DF764DD76807"
+			tasks: [{
+				id: "7CC8692CF3BEB9A9"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1EF5DF764DD76807"]
+			id: "5E3068790236B278"
+			tasks: [{
+				id: "3BF5F16A6F775FD1"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1EF5DF764DD76807"]
+			id: "3A2DC567647FEEE5"
+			tasks: [{
+				id: "44D26AE61C567622"
+				item: "enderio:impulse_hopper"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1EF5DF764DD76807"]
+			id: "6321F32BF9FC42C1"
+			tasks: [{
+				id: "26CE24BBC87DBB49"
+				item: "enderio:wired_charger"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1EF5DF764DD76807"]
+			id: "22AACE3151B247DB"
+			tasks: [{
+				id: "5570F2D1FF1F1AFE"
+				item: "enderio:drain"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E3068790236B278"]
+			id: "0EB79546AFDE3E3A"
+			tasks: [{
+				id: "1C5C76AEC17ECA0B"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			id: "36A049171B5DC415"
+			subtitle: "怪物头颅请使用屠刀杀死怪物获得，抢夺会增加获得头颅的概率"
+			tasks: [{
+				id: "1661CC410A70B29C"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0EB79546AFDE3E3A"
+				"36A049171B5DC415"
+			]
+			id: "26B0EF3280579568"
+			tasks: [{
+				id: "5CDC96B466821D3D"
+				item: "enderio:z_logic_controller"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["243693A3F58DDAE0"]
+			id: "47212D95414CF02E"
+			subtitle: "用这个存经验"
+			tasks: [{
+				id: "743D149C34E1AB5A"
+				item: "enderio:experience_rod"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19869FD9D4BCCB9F"]
+			id: "243693A3F58DDAE0"
+			tasks: [{
+				id: "13F1914FA3785B5C"
+				item: "gtceu:energetic_alloy_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["243693A3F58DDAE0"]
+			id: "6365F1A783980B49"
+			subtitle: "MV超导！"
+			tasks: [{
+				id: "1ECD7DC0579CDCC6"
+				item: "gtceu:energetic_alloy_single_wire"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38EA7D1DD910DBF5"]
+			id: "5195A2A51062423F"
+			tasks: [{
+				id: "1445B5EA88C71D2F"
+				item: "gtceu:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5195A2A51062423F"]
+			id: "72E89F24D4FDA433"
+			subtitle: "LV超导！"
+			tasks: [{
+				id: "7F88338B547CDB08"
+				item: "gtceu:conductive_alloy_single_wire"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
 		}
 	]
 	subtitle: ["工业起步"]

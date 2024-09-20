@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/blood_casing_ctm"
+    }
+}

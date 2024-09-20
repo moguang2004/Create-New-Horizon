@@ -109,6 +109,7 @@ StartupEvents.registry("item", event => {
         event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
     })
     event.create('crashed_rice')
+    event.create('space_fabric')
     event.create('imprinted_resonatic_circuit_board')
     event.create('raw_imprinted_resonatic_circuit_board')
     event.create('mana_electronic_circuit').tag('gtceu:circuits/hv')
@@ -203,6 +204,22 @@ StartupEvents.registry("block", event => {
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureAll("kubejs:block/osmiridium_casing")
+    event.create('blood_casing', 'basic')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+        .textureAll("kubejs:block/blood_casing")
+    event.create('force_field_casing', 'basic')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+        .textureAll("kubejs:block/force_field_casing")
     const registercoils = [
         ["abyssalalloy", "12600", "16", "8"],
         ["titansteel", "14400", "32", "8"],
@@ -215,7 +232,7 @@ StartupEvents.registry("block", event => {
     ]
     registercoils.forEach(coil => {
         event.create(coil[0] + "_coil_block", "gtceu:coil")
-            .texture("kubejs:block/" + coil[0] + "_coil_block")
+            .textureAll("kubejs:block/" + coil[0] + "_coil_block")
             .temperature(coil[1])
             .energyDiscount(8)
             .level(coil[2])
@@ -234,9 +251,12 @@ StartupEvents.registry("block", event => {
 
 ItemEvents.modification(event => {
     event.modify('farmersdelight:rice',item => {
-        item.food(food =>{
+        item.setFoodProperties(food =>{
             food.eaten((/**@type {$FoodEatenEventJS}*/eat) =>{
-                eat.player.giveInHand('kubejs:crashed_rice')
+                if(eat.entity.isPlayer()){
+                    console.info('eat!')
+                    eat.player.addItem('kubejs:crashed_rice')
+                }
             })
         })
     })

@@ -949,6 +949,29 @@
 			x: -4.0d
 			y: 10.0d
 		}
+		{
+			dependencies: ["2740F44657C0CF5A"]
+			id: "5A2F926E96285C19"
+			tasks: [{
+				id: "39220F849FED77C5"
+				item: "gtceu:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5A2F926E96285C19"]
+			id: "13CEE58082C19317"
+			subtitle: "HV超导！"
+			tasks: [{
+				id: "33BDB2210CF91C9C"
+				item: "gtceu:vibrant_alloy_single_wire"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.0d
+		}
 	]
 	title: "&6HV&r时期"
 }

@@ -140,4 +140,5 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "enderio:powdered_quartz", "gtceu:nether_quartz_dust")
     event.replaceInput({}, "gtceu:refined_radiance_ingot", "create:refined_radiance")
     event.replaceInput({}, "gtceu:shadow_steel_ingot", "create:shadow_steel")
+    event.replaceInput({}, "#forge:dusts/quartz",'gtceu:nether_quartz_dust')
 })

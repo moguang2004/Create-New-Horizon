@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
   event.recipes.gtceu.mixer('energetic_alloy')
     .EUt(30)
     .duration(100)
-    .itemInputs(['minecraft:redstone', 'minecraft:glowstone', '2x gtceu:gold_dust'])
+    .itemInputs(['minecraft:redstone', 'minecraft:glowstone_dust', '2x gtceu:gold_dust'])
     .itemOutputs('2x gtceu:energetic_alloy_dust')
   event.recipes.gtceu.mixer('vibrant_alloy')
     .EUt(120)

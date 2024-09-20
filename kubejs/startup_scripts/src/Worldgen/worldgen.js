@@ -33,7 +33,7 @@ WorldgenEvents.remove(event => {
 //   })
 // })
 WorldgenEvents.remove(event => {
-  event.printFeatures("", "minecraft:plains")
+  //event.printFeatures("", "minecraft:plains")
   event.removeOres(props => {
     props.blocks = "tfmg:bauxite"
     props.blocks = "minecraft:nether_gold_ore"

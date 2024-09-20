@@ -484,7 +484,19 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F2A5A509F9DF84B"]
+			id: "665F5649CC81E199"
+			subtitle: "位于幽魂森林群系的地面上"
+			tasks: [{
+				id: "2F0C781E6A8E96B5"
+				item: "twilightforest:fallen_leaves"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
 		}
 	]
 	title: "大千世界"

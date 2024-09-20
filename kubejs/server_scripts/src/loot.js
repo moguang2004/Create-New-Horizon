@@ -37,6 +37,15 @@ LootJS.modifiers(event => {
     LootEntry.of("gtceu:vacuum_tube", 1).when(c => { c.randomChance(0.3) }),
     LootEntry.of("create:andesite_casing", 1).when(c => { c.randomChance(0.5) })]
 
+    const gtceumv = [LootEntry.of("gtceu:mv_electric_motor", 1).when(c => { c.randomChance(0.2) }),
+        LootEntry.of("gtceu:silver_single_wire", 2).when(c => { c.randomChance(0.4) }),
+        LootEntry.of("gtceu:aluminium_ingot", 3).when(c => { c.randomChance(0.5) }),
+        LootEntry.of("gtceu:mv_machine_hull", 1).when(c => { c.randomChance(0.1) }),
+        LootEntry.of("gtceu:aluminium_frame", 2).when(c => { c.randomChance(0.3) }),
+        LootEntry.of("gtceu:good_electronic_circuit", 1).when(c => { c.randomChance(0.3) }),
+        LootEntry.of("gtceu:phenolic_printed_circuit_board", 1).when(c => { c.randomChance(0.2) }),
+        LootEntry.of("botania:terrasteel_ingot", 1).when(c => { c.randomChance(0.2) })]
+
     const gtceuhv = [LootEntry.of("gtceu:hv_electric_motor", 1).when(c => { c.randomChance(0.2) }),
     LootEntry.of("gtceu:electrum_single_wire", 2).when(c => { c.randomChance(0.4) }),
     LootEntry.of("gtceu:stainless_steel_ingot", 3).when(c => { c.randomChance(0.5) }),
@@ -428,6 +437,42 @@ LootJS.modifiers(event => {
             pool.rolls([2, 4])
             pool.addAlternativesLoot(gtceuhv)
         })
+
+    event.addLootTableModifier("minecraft:chests/end_city_treasure")
+        .pool(pool => {
+            pool.rolls([2, 4])
+            pool.addAlternativesLoot(gtceumv)
+        })
+    event.addLootTableModifier("minecraft:chests/bastion_treasure")
+    .pool(pool => {
+        pool.rolls([3, 4])
+        pool.addAlternativesLoot(gtceulv)
+    })
+    event.addLootTableModifier("minecraft:chests/jungle_temple")
+    .pool(pool => {
+        pool.rolls([1, 2])
+        pool.addAlternativesLoot(steam)
+    })
+    event.addLootTableModifier("minecraft:chests/desert_pyramid")
+    .pool(pool => {
+        pool.rolls([1, 3])
+        pool.addAlternativesLoot(steam)
+    })
+    event.addLootTableModifier("aether:chests/ruined_portal")
+    .pool(pool => {
+        pool.rolls([0, 1])
+        pool.addAlternativesLoot(gtceumv)
+    })
+    event.addLootTableModifier(["aether:chests/dungeon/gold/gold_dungeon_treasure","aether:chests/dungeon/gold/gold_dungeon_reward"])
+    .pool(pool => {
+        pool.rolls([1, 3])
+        pool.addAlternativesLoot(gtceumv)
+    })
+    event.addLootTableModifier("aether:chests/dungeon/silver/silver_dungeon")
+    .pool(pool => {
+        pool.rolls([1, 3])
+        pool.addAlternativesLoot(gtceulv)
+    })
     //event.enableLogging()
 
 

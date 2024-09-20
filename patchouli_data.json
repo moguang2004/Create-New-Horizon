@@ -96,7 +96,8 @@
         "bloodmagic:demon_will/will_manipulation/aura",
         "bloodmagic:alchemy_array/functional_arrays/time_arrays",
         "bloodmagic:altar/slates",
-        "bloodmagic:utility/life_essence_bucket"
+        "bloodmagic:utility/life_essence_bucket",
+        "bloodmagic:altar/redstone_automation"
       ],
       "bookmarks": [],
       "completedManualQuests": []

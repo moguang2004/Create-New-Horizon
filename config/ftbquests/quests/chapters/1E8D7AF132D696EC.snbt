@@ -812,6 +812,17 @@
 			x: 4.0d
 			y: 10.5d
 		}
+		{
+			dependencies: ["0DF45EB0B462FB4F"]
+			id: "508B368BA6ED1300"
+			tasks: [{
+				id: "3CD222FDE0FF4793"
+				item: "kubejs:mana_electronic_circuit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
 	]
 	title: "电路板全家福"
 }

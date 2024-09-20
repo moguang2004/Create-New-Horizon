@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
         "betterend:thallasium_pressure_plate",
         "betterend:thallasium_anvil",
         "create_new_age:shaped/netherite_magnet",
-        "create_new_age:shaped/fluxuated_magnetite"
+        "create_new_age:shaped/fluxuated_magnetite",
         "gtceu:assembler/oak_stairs",
         "gtceu:assembler/spruce_stairs",
         "gtceu:assembler/birch_stairs",
@@ -110,7 +110,8 @@ ServerEvents.recipes(event => {
         "gtceu:assembler/cherry_stairs",
         "gtceu:assembler/bamboo_stairs",
         "gtceu:assembler/crimson_stairs",
-        "gtceu:assembler/warped_stairs"
+        "gtceu:assembler/warped_stairs",
+        "enderio:void_chassis"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

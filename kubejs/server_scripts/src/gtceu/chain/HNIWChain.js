@@ -292,12 +292,6 @@ ServerEvents.recipes(event => {
           .duration(100)
           .addCondition(GTNNRecipes.INSTANCE.setPlantCasing(6))
 
-     ctnh.chemical_reactor('hydrobromic_acid')
-          .inputFluids(Fluid.of('gtceu:bromine', 1000))
-          .inputFluids(Fluid.of('gtceu:hydrogen', 1000))
-          .outputFluids(Fluid.of('gtceu:hydrobromic_acid', 1000))
-          .EUt(120)
-          .duration(100)
      //2H3BO3 + B -> B2O3
      ctnh.dehydrator('boron_oxide')
           .itemInputs('gtceu:boron_dust')

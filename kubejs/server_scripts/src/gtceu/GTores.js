@@ -134,7 +134,7 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.add('ctnh:cryolite_vein', vein => {
-        vein.weight(90)
+        vein.weight(70)
         vein.clusterSize(40)
         vein.density(0.25)
         vein.discardChanceOnAirExposure(0)
@@ -246,6 +246,28 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
+    event.add('ctnh:zanite_vein_aether', vein => {
+        vein.weight(40)
+        vein.clusterSize(45)
+        vein.density(0.25)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer('aether')
+        vein.dimensions('aether:the_aether')
+        vein.heightRangeUniform(10, 60)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('zanite')).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.get('ambrosium')).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.get('skyjade')).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get('zanite'))
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
+    })
     event.modify('gtceu:sheldonite_vein', vein => {
         vein.layer('all_layer')
         vein.dimensions('ad_astra:moon')
@@ -315,7 +337,7 @@ GTCEuServerEvents.oreVeins(event => {
         )
     })
     event.add('ctnh:zircon_vein_tw', vein => {
-        vein.weight(80)
+        vein.weight(40)
         vein.clusterSize(40)
         vein.density(0.35)
         vein.discardChanceOnAirExposure(0)
@@ -460,6 +482,30 @@ GTCEuServerEvents.oreVeins(event => {
         )
         vein.surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.get('precious_alloy'))
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
+    })
+
+    event.add('ctnh:arsenic_vein', vein =>{
+        vein.weight(10)
+        vein.clusterSize(40)
+        vein.density(0.25)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer('all_layer')
+        vein.dimensions('twilightforest:twilight_forest')
+        vein.heightRangeUniform(-30, 0)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('nickeline')).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.get('arsenic_trioxide')).size(1, 3))
+                .layer(l => l.weight(2).mat(GTMaterials.Pentlandite).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Realgar).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get('nickeline'))
             .placement("above")
             .density(0.4)
             .radius(5)
