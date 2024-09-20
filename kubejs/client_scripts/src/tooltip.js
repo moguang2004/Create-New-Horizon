@@ -196,6 +196,15 @@ ItemEvents.tooltip(event =>{
         text.add(3,Text.translate('ctnh.underfloor_heating_system.mechanism'))
         text.add(4,Text.translate('ctnh.underfloor_heating_system.rate'))
     })
+    event.addAdvanced('gtceu:zpm_large_miner',(item,advanced,tooltip) =>{
+        tooltip.add(1,Text.translate('gtceu.machine.large_miner.zpm.tooltip'))
+        tooltip.add(2,Text.translatable("gtceu.machine.miner.multi.description"))
+        tooltip.add(3,Text.translatable("gtceu.machine.miner.multi.modes"))
+        tooltip.add(4,Text.translatable("gtceu.machine.miner.multi.production"))
+        tooltip.add(5,Text.translatable("gtceu.machine.miner.fluid_usage", 6,GTMaterials.DrillingFluid.getLocalizedName()))
+        tooltip.add(6,Text.translatable("gtceu.universal.tooltip.working_area_chunks",18, 18))
+        tooltip.add(7,Text.translatable("gtceu.universal.tooltip.energy_tier_range",GTValues.VNF[7], GTValues.VNF[7 + 1]))
+    })
 
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))

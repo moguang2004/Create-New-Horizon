@@ -382,6 +382,7 @@
 			id: "5A55D491F0E9F389"
 			rewards: [{
 				command: "/gamephase add @p end"
+				elevate_perms: true
 				id: "1BF2998667643C68"
 				title: "前往末地"
 				type: "command"
@@ -617,6 +618,7 @@
 			id: "415AF3F977F4C3F9"
 			rewards: [{
 				command: "/gamephase add @p aether"
+				elevate_perms: true
 				id: "77BF31525552C266"
 				title: "前往天境"
 				type: "command"

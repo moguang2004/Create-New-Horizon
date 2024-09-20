@@ -857,6 +857,24 @@ ServerEvents.recipes(event => {
     .itemOutputs('4x kubejs:circuit_resonatic_uv')
     .EUt(GTValues.VA[GTValues.UHV])
     .duration(75)
+  event.recipes.gtceu.circuit_assembler('circuit_resonatic_uhv')
+    .itemInputs(['4x gtceu:exquisite_magneto_resonatic_gem','kubejs:imprinted_resonatic_circuit_board','kubejs:circuit_resonatic_uv','4x gtceu:advanced_smd_inductor','4x gtceu:advanced_smd_transistor','64x gtceu:ram_chip'])
+    .inputFluids(Fluid.of('gtceu:soldering_alloy',5760))
+    .itemOutputs('4x kubejs:circuit_resonatic_uhv')
+    .EUt(GTValues.VA[GTValues.UEV])
+    .duration(75)
+  event.recipes.gtceu.circuit_assembler('circuit_resonatic_uev')
+    .itemInputs(['8x gtceu:exquisite_magneto_resonatic_gem','kubejs:imprinted_resonatic_circuit_board','kubejs:circuit_resonatic_uhv','4x gtceu:advanced_smd_inductor','4x gtceu:advanced_smd_transistor','64x gtceu:ram_chip'])
+    .inputFluids(Fluid.of('gtceu:soldering_alloy',9216))
+    .itemOutputs('4x kubejs:circuit_resonatic_uev')
+    .EUt(GTValues.VA[GTValues.UIV])
+    .duration(75)
+  event.recipes.gtceu.circuit_assembler('circuit_resonatic_uiv')
+    .itemInputs(['8x gtceu:exquisite_magneto_resonatic_gem','kubejs:imprinted_resonatic_circuit_board','kubejs:circuit_resonatic_uev','4x gtceu:advanced_smd_inductor','4x gtceu:advanced_smd_transistor','64x gtceu:ram_chip'])
+    .inputFluids(Fluid.of('gtceu:soldering_alloy',13824))
+    .itemOutputs('4x kubejs:circuit_resonatic_uiv')
+    .EUt(GTValues.VA[GTValues.UXV])
+    .duration(75)
   event.recipes.gtceu.chemical_bath('netherite_magnet')
     .itemInputs('create_new_age:fluxuated_magnetite')
     .inputFluids(Fluid.of('gtceu:ancient_debris_leach',8000))
@@ -915,4 +933,140 @@ ServerEvents.recipes(event => {
     .inputFluids(Fluid.of('gtceu:soldering_alloy',432))
     .EUt(1920)
     .duration(300)
+  event.recipes.gtceu.assembler('force_field_casing')
+    .itemInputs(['2x kubejs:blood_casing','2x gtceu:titanium_plate','4x bloodmagic:defaultcrystal','bloodmagic:weakbloodshard'])
+    .itemOutputs('2x kubejs:force_field_casing')
+    .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',2000))
+    .EUt(1920)
+    .duration(300)
+
+  event.recipes.gtceu.assembler('meteor_capturer')
+    .itemInputs(['2x #gtceu:circuits/luv','2x gtceu:tungsten_steel_frame','gtceu:ev_field_generator','4x gtceu:tungsten_steel_plate','4x bloodmagic:largebloodstonebrick','kubejs:endslate'])
+    .inputFluids(Fluid.of('gtceu:epoxy',576))
+    .itemOutputs('gtceu:meteor_capturer')
+    .EUt(7680)
+    .duration(100)
+      event.recipes.gtceu.mark_of_falling_tower('stone_iron')
+        .itemInputs('minecraft:iron_block')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',128000))
+        .itemOutputs('256x gtceu:iron_ore','64x gtceu:hematite_ore','64x gtceu:yellow_limonite_ore',
+            '64x gtceu:pyrite_ore','64x gtceu:magnetite_ore','64x gtceu:goethite_ore'
+        )
+        .addData('radius',6)
+        .addData('rock','minecraft:stone')
+        .EUt(1920)
+        .duration(400);
+
+    event.recipes.gtceu.mark_of_falling_tower('stone_copper')
+        .itemInputs('minecraft:copper_block')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',128000))
+        .itemOutputs('256x gtceu:copper_ore','64x gtceu:chalcopyrite_ore','64x gtceu:tetrahedrite_ore','64x gtceu:bornite_ore','64x gtceu:chalcocite_ore')
+        .addData('radius',5)
+        .addData('rock','minecraft:stone')
+        .EUt(1920)
+        .duration(400);
+
+    event.recipes.gtceu.mark_of_falling_tower('stone_gems_red')
+        .itemInputs('gtceu:exquisite_ruby_gem')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',192000))
+        .itemOutputs('64x gtceu:ruby_ore','64x gtceu:almandine_ore','64x gtceu:cinnabar_ore',
+            '64x gtceu:pyrope_ore','64x gtceu:realgar_ore','64x gtceu:red_garnet_ore'
+        )
+        .addData('radius',6)
+        .addData('rock','minecraft:stone')
+        .EUt(1920)
+        .duration(400);
+
+    event.recipes.gtceu.mark_of_falling_tower('stone_gems_blue')
+        .itemInputs('gtceu:exquisite_sapphire_gem')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',192000))
+        .itemOutputs('64x gtceu:blue_topaz_ore','64x gtceu:diamond_ore','64x gtceu:lazurite_ore',
+            '64x gtceu:sodalite_ore','64x gtceu:sapphire_ore','64x gtceu:lapis_ore','64x gtceu:apatite_ore'
+        )
+        .addData('radius',6)
+        .addData('rock','minecraft:stone')
+        .EUt(1920)
+        .duration(400);
+
+    event.recipes.gtceu.mark_of_falling_tower('stone_gems_green')
+        .itemInputs('gtceu:exquisite_green_sapphire_gem')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',192000))
+        .itemOutputs('64x minecraft:emerald_ore','64x gtceu:green_sapphire_ore','64x gtceu:malachite_ore',
+            '64x gtceu:olivine_ore','64x gtceu:monazite_ore'
+        )
+        .addData('radius',6)
+        .addData('rock','minecraft:stone')
+        .EUt(1920)
+        .duration(400);
+      
+    event.recipes.gtceu.mark_of_falling_tower('andesite')
+        .itemInputs('gtceu:andesite_alloy_block')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',128000))
+        .itemOutputs('64x minecraft:andesite','64x gtceu:zinc_ore','64x gtceu:copper_ore',
+            '64x gtceu:tin_ore','256x gtceu:iron_ore'
+        )
+        .addData('radius',6)
+        .addData('rock','minecraft:andesite')
+        .EUt(1920)
+        .duration(400);
+    
+    event.recipes.gtceu.mark_of_falling_tower('end_al')
+        .itemInputs('gtceu:mv_emitter')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',256000))
+        .itemOutputs('256x gtceu:endstone_aluminium_ore','256x gtceu:endstone_bauxite_ore','256x gtceu:endstone_cryolite_ore')
+        .addData('radius',8)
+        .addData('rock','minecraft:endstone')
+        .EUt(1920)
+        .duration(400); 
+    
+    event.recipes.gtceu.mark_of_falling_tower('end_w')
+        .itemInputs('gtceu:tungsten_block')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',1024000))
+        .itemOutputs('512x gtceu:endstone_scheelite_ore','512x gtceu:endstone_tungstate_ore')
+        .addData('radius',8)
+        .addData('rock','minecraft:endstone')
+        .EUt(7680)
+        .duration(400);
+    event.recipes.gtceu.mark_of_falling_tower('moon_pt')
+        .itemInputs('gtceu:hv_emitter')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',1024000))
+        .itemOutputs('64x gtceu:moon_stone_palladium_ore','256x gtceu:moon_stone_platinum_ore','128x gtceu:moon_stone_cooperite_ore',
+            '64x gtceu:moon_stone_pentlandite_ore','64x gtceu:moon_stone_tetrahedrite_ore'
+        )
+        .addData('radius',8)
+        .addData('rock','ad_astra:moon_stone')
+        .EUt(7680)
+        .duration(400);
+
+    event.recipes.gtceu.mark_of_falling_tower('mars_pt')
+        .itemInputs('gtceu:luv_assembler')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',1024000))
+        .itemOutputs('64x gtceu:mars_stone_palladium_ore','256x gtceu:mars_stone_platinum_ore','64x gtceu:mars_stone_cooperite_ore',
+            '64x gtceu:mars_stone_iridium_ore','64x gtceu:mars_stone_osmium_ore','64x gtceu:mars_stone_copper_ore'
+        )
+        .addData('radius',6)
+        .addData('rock','ad_astra:mars_stone')
+        .EUt(30720)
+        .duration(400);
+
+    event.recipes.gtceu.mark_of_falling_tower('mars_radioactive')
+        .itemInputs('gtceu:naquadria_block')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',4096000))
+        .itemOutputs('2048x gtceu:mars_stone_naquadah_ore','1024x gtceu:mars_stone_uranium_ore','1024x gtceu:mars_stone_plutonium_ore')
+        .addData('radius',12)
+        .addData('rock','ad_astra:mars_stone')
+        .EUt(122880)
+        .duration(800);
+
+
+    event.recipes.gtceu.mark_of_falling_tower('sandstone_oil')
+        .itemInputs('gtceu:oil_bucket')
+        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',256000))
+        .itemOutputs('1024x gtceu:sand_oilsands_ore')
+        .addData('radius',9)
+        .addData('rock','minecraft:sandstone')
+        .EUt(7680)
+        .duration(800);
+
+    event.replaceInput({id:'gtceu:shaped/hv_diode'},'gtceu:smd_diode','#gtceu:diodes')
 })

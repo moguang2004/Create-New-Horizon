@@ -266,4 +266,30 @@ ServerEvents.recipes(event => {
     },
     "upgradeLevel": 3
   })
+  event.custom({
+    "type": "bloodmagic:altar",
+    "altarSyphon": 10000,
+    "consumptionRate": 100,
+    "drainRate": 10,
+    "input": {
+      "item": "gtceu:solid_machine_casing"
+    },
+    "output": {
+      "item": "kubejs:blood_casing"
+    },
+    "upgradeLevel": 3
+  })
+  event.custom({
+    "type": "bloodmagic:altar",
+    "altarSyphon": 50000,
+    "consumptionRate": 1000,
+    "drainRate": 150,
+    "input": {
+      "item": "bloodmagic:etherealslate"
+    },
+    "output": {
+      "item": "kubejs:endslate"
+    },
+    "upgradeLevel": 5
+  })
 })

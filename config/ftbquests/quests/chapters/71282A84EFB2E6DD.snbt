@@ -906,6 +906,56 @@
 			x: 7.5d
 			y: 12.5d
 		}
+		{
+			dependencies: ["42F7EB2A3B7E87B4"]
+			description: ["    在5级祭坛的基础上，继续向外延伸3格，向下一格，每一边共19个符文，角落是石砖柱，最顶端是虚空石，虚空石的高度要高于血之祭坛三格。"]
+			icon: "bloodmagic:altar"
+			id: "0379412BFDFE99FE"
+			size: 2.0d
+			tasks: [{
+				id: "1618820DC099898D"
+				title: "6级血之祭坛"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"7CC2B2A2B70CCD83"
+				"0379412BFDFE99FE"
+			]
+			id: "68506B3372A8677F"
+			tasks: [{
+				id: "0BDA0EB279AFADAC"
+				item: "kubejs:endslate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["68506B3372A8677F"]
+			id: "210C1FB94A0AA2B0"
+			tasks: [{
+				id: "3D44922C0B951214"
+				item: "gtceu:meteor_capturer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			id: "42F7EB2A3B7E87B4"
+			subtitle: "在末地的废弃城堡中"
+			tasks: [{
+				id: "27699E7170426E7C"
+				item: "cataclysm:void_stone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.0d
+		}
 	]
 	title: "血魔法"
 }

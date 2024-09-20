@@ -21,7 +21,7 @@ function powerBasedParallel(basic, addition) {
             }catch(error){
             }
         });
-        console.log(hatch);
+        //console.log(hatch);
         
         var bonus=0-$RecipeHelper.getRecipeEUtTier(recipe)+Number(machine.getTier());
         if(bonus>0) {

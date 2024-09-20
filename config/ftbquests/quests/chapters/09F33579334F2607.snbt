@@ -797,6 +797,7 @@
 		{
 			dependencies: ["741211A0D54252FF"]
 			id: "657ACCF34EC60C41"
+			subtitle: "喝下这个，就能穿过精灵门，来到亚尔夫海姆的世界"
 			tasks: [{
 				id: "23ABD71DB6B3AF7A"
 				item: "mythicbotany:kvasir_mead"

@@ -110,6 +110,7 @@ StartupEvents.registry("item", event => {
     })
     event.create('crashed_rice')
     event.create('space_fabric')
+    event.create('endslate')
     event.create('imprinted_resonatic_circuit_board')
     event.create('raw_imprinted_resonatic_circuit_board')
     event.create('mana_electronic_circuit').tag('gtceu:circuits/hv')
@@ -117,6 +118,7 @@ StartupEvents.registry("item", event => {
     event.create('echo_processor_assembly').tag('gtceu:circuits/uv')
     event.create('echo_processor_computer').tag('gtceu:circuits/uhv')
     event.create('echo_processor_mainframe').tag('gtceu:circuits/uev')
+    event.create('echo_circuit_board')
 })
 StartupEvents.registry("block", event => {
     event.create('steel_casing')
