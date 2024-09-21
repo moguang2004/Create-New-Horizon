@@ -746,6 +746,11 @@ ServerEvents.recipes(event => {
         D: "create:large_water_wheel"
     })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
+    event.shapeless(Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:primordial_caves"}'),Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:magnetic_caves"}'))
+    event.shapeless(Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:toxic_caves"}'),Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:primordial_caves"}'))
+    event.shapeless(Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:abyssal_chasm"}'),Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:toxic_caves"}'))
+    event.shapeless(Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:forlorn_hollows"}'),Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:abyssal_chasm"}'))
+    event.shapeless(Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:magnetic_caves"}'),Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:forlorn_hollows"}'))
     event.forEachRecipe({ type: "minecraft:shapeless", input: "#minecraft:logs", output: "#minecraft:planks" }, recipe => {
         let { originalRecipeIngredients, originalRecipeResult } = recipe
         event.custom({

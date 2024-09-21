@@ -5,7 +5,7 @@
 	cave_biome_mean_width = 300.0
 	#Average separation (in blocks) between each Alex's Caves cave biome.
 	#Range: > 50
-	cave_biome_mean_separation = 900
+	cave_biome_mean_separation = 500
 	#How irregularly shaped Alex's Caves cave biomes can generate. 0 = all biomes nearly circular. 1 = biomes completely squiggly in shape.
 	#Range: 0.0 ~ 1.0
 	cave_biome_width_randomness = 0.15

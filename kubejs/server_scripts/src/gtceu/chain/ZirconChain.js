@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
     // SiCl4? = SiCl4 + Co + RareEarth
     ctnh.chemical_reactor('silicon_chloride')
         .inputFluids(Fluid.of('gtceu:zircon_chlorinating_residue', 1000))
-        .outputFluids(Fluid.of('gtceu:silicon_chloride', 1000))
+        .outputFluids(Fluid.of('gtceu:silicon_chloride', 500))
         .chancedOutput('gtceu:cobalt_dust', 7500, 450)
         .chancedOutput('gtceu:rare_earth_dust', 200, 20)
         .duration(140).EUt(120)
