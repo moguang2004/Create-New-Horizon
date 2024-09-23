@@ -1,74 +1,71 @@
 ServerEvents.recipes(event => {
-    event.recipes.create.compacting('createmetallurgy:graphite_blank_mold', '2x gtceu:graphite_dust')
-    event.shaped(
-        Item.of("createmetallurgy:graphite_ingot_mold", 1), [
-        "B",
-        "A"
-    ], {
-        A: "#forge:tools/hammers",
-        B: "createmetallurgy:graphite_blank_mold"
-    })
-    event.shaped(
-        Item.of("createmetallurgy:graphite_plate_mold", 1), [
-        "A",
-        "B"
-    ], {
-        A: "#forge:tools/hammers",
-        B: "createmetallurgy:graphite_blank_mold"
-    })
-    event.shaped(
-        Item.of("createmetallurgy:graphite_nugget_mold", 1), [
-        "B A"
-    ], {
-        A: "#forge:tools/hammers",
-        B: "createmetallurgy:graphite_blank_mold"
-    })
-    event.recipes.create.mixing('4x createmetallurgy:refractory_mortar', ['2x gtceu:fireclay_dust', 'minecraft:sand', 'minecraft:gravel'])
-    event.recipes.create.mechanical_crafting('createmetallurgy:foundry_basin', [
-        "A   A",
-        "AB BA",
-        "ABCBA",
-        "ABBBA",
-        "AAAAA"
-    ],
-        {
-            A: "gtceu:andesite_alloy_plate",
+    event.recipes.create.compacting('createmetallurgy:graphite_blank_mold', '2x gtceu:graphite_dust') // 石墨坯模
+    Object.entries ({ // 三种铸模
+        "createmetallurgy:graphite_ingot_mold" : ["B","A"],
+        "createmetallurgy:graphite_plate_mold" : ["A","B"],
+        "createmetallurgy:graphite_nugget_mold": ["B A"]
+    }).forEach(([result, recipe]) => {
+        event.shaped(Item.of(result, 1), recipe, {
+            A: "#forge:tools/hammers",
+            B: "createmetallurgy:graphite_blank_mold"
+        })
+    });
 
-            B: "createmetallurgy:refractory_mortar",
+    event.recipes.create.mixing('4x createmetallurgy:refractory_mortar', 
+                                ['2x gtceu:fireclay_dust', 'minecraft:sand', 'minecraft:gravel'])
+    for (var rcp of [['createmetallurgy:foundry_basin', ["A   A","AB BA","ABCBA","ABBBA","AAAAA"], {C: "kubejs:steel_casing"}],
+        ['createmetallurgy:foundry_lid', ["AA AA","ABCBA","ABBBA","A   A"], {C: "kubejs:basic_mechanism"}],
+        ['createmetallurgy:glassed_foundry_lid', ["AA AA","DBCBD","ABBBA","A   A"], {C: "kubejs:basic_mechanism",D: "minecraft:glass"}]]) {
+        var result = rcp[0],
+            recipe = rcp[1],
+            target = {A: "gtceu:andesite_alloy_plate", B: "createmetallurgy:refractory_mortar"}
+        Object.assign(target, rcp[2]);
+        event.recipes.create.mechanical_crafting(result, recipe, target);
+    }
+    
+    // [['createmetallurgy:foundry_basin', ["A   A","AB BA","ABCBA","ABBBA","AAAAA"], {C: "kubejs:steel_casing"}],
+    //  ['createmetallurgy:foundry_lid', ["AA AA","ABCBA","ABBBA","A   A"], {C: "kubejs:basic_mechanism"}],
+    //  ['createmetallurgy:glassed_foundry_lid', ["AA AA","DBCBD","ABBBA","A   A"], {C: "kubejs:basic_mechanism",D: "minecraft:glass"}]]
+    //  .forEach((rcp) => {
+    //     // var result = rcp[0],
+    //     //     recipe = rcp[1],
+    //     //     target = {A: "gtceu:andesite_alloy_plate", B: "createmetallurgy:refractory_mortar"}
+    //     // Object.assign(target, rcp[2]);
+    //     // event.recipes.create.mechanical_crafting(result, recipe, target);
+    // })
+    // event.recipes.create.mechanical_crafting('createmetallurgy:foundry_basin', [
+    //     "A   A",
+    //     "AB BA",
+    //     "ABCBA",
+    //     "ABBBA",
+    //     "AAAAA"
+    // ], {
+    //     A: "gtceu:andesite_alloy_plate",
+    //     B: "createmetallurgy:refractory_mortar",
+    //     C: "kubejs:steel_casing"
+    // })
+    // event.recipes.create.mechanical_crafting('createmetallurgy:foundry_lid', [
+    //     "AA AA",
+    //     "ABCBA",
+    //     "ABBBA",
+    //     "A   A"
+    // ], {
+    //     A: "gtceu:andesite_alloy_plate",
+    //     B: "createmetallurgy:refractory_mortar",
+    //     C: "kubejs:basic_mechanism"
+    // })
+    // event.recipes.create.mechanical_crafting('createmetallurgy:glassed_foundry_lid', [
+    //     "AA AA",
+    //     "DBCBD",
+    //     "ABBBA",
+    //     "A   A"
+    // ], {
+    //     A: "gtceu:andesite_alloy_plate",
+    //     B: "createmetallurgy:refractory_mortar",
+    //     C: "kubejs:basic_mechanism",
+    //     D: "minecraft:glass"
+    // })
 
-            C: "kubejs:steel_casing"
-        }
-    )
-    event.recipes.create.mechanical_crafting('createmetallurgy:foundry_lid', [
-        "AA AA",
-        "ABCBA",
-        "ABBBA",
-        "A   A"
-    ],
-        {
-            A: "gtceu:andesite_alloy_plate",
-
-            B: "createmetallurgy:refractory_mortar",
-
-            C: "kubejs:basic_mechanism"
-        }
-    )
-    event.recipes.create.mechanical_crafting('createmetallurgy:glassed_foundry_lid', [
-        "AA AA",
-        "DBCBD",
-        "ABBBA",
-        "A   A"
-    ],
-        {
-            A: "gtceu:andesite_alloy_plate",
-
-            B: "createmetallurgy:refractory_mortar",
-
-            C: "kubejs:basic_mechanism",
-
-            D: "minecraft:glass"
-        }
-    )
     event.shaped(
         Item.of("createmetallurgy:casting_basin", 1), [
         "A A",
