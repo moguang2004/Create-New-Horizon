@@ -1261,6 +1261,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .liquid()
         .color(0xe0fffc)
         .flags(GTMaterialFlags.GENERATE_FINE_WIRE)
+    event.create('snow_steel')
+        .ingot()
+        .liquid()
+        .color(0x00ffff)
+        .flags(GTMaterialFlags.GENERATE_PLATE,GTMaterialFlags.GENERATE_FOIL,GTMaterialFlags.GENERATE_ROD,GTMaterialFlags.GENERATE_GEAR,GTMaterialFlags.GENERATE_BOLT_SCREW)
 })
 
 StartupEvents.postInit(event => {
@@ -1289,6 +1294,7 @@ StartupEvents.postInit(event => {
     GTMaterials.get("lignin").setFormula("(CH2ON?S?)n")
     GTMaterials.get("combustible_ice").setFormula("(CH4)(H2O)")
     GTMaterials.get("ammonium_sulfate").setFormula("(NH4)2SO4")
+    GTMaterials.get("snow_steel").setFormula("SNOWCITY")
     TagPrefix.ingot.setIgnored(GTMaterials.get("mana_steel"), "botania:manasteel_ingot")
     TagPrefix.nugget.setIgnored(GTMaterials.get("mana_steel"), "botania:manasteel_nugget")
     TagPrefix.block.setIgnored(GTMaterials.get("mana_steel"), "botania:manasteel_block")
