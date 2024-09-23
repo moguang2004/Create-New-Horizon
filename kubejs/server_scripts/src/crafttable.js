@@ -602,7 +602,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "minecraft:gold_ingot",
         B: "gtceu:lv_electric_motor",
-        C: "kubejs:reflect_light_casing",
+        C: "ctnhcore:reflect_light_casing",
         D: "enderio:basic_capacitor",
         E: "#gtceu:circuits/lv"
     })
@@ -614,7 +614,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:pulsating_alloy_plate",
         B: "gtceu:mv_electric_motor",
-        C: "kubejs:reflect_light_casing",
+        C: "ctnhcore:reflect_light_casing",
         D: "enderio:double_layer_capacitor",
         E: "#gtceu:circuits/mv"
     })
@@ -626,7 +626,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:vibrant_alloy_plate",
         B: "gtceu:hv_electric_motor",
-        C: "kubejs:reflect_light_casing",
+        C: "ctnhcore:reflect_light_casing",
         D: "enderio:octadic_capacitor",
         E: "#gtceu:circuits/hv"
     })

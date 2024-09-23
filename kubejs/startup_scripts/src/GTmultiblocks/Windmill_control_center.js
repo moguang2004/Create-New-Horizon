@@ -1,5 +1,4 @@
-const { $WorkableMultiblockMachine } = require("packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableMultiblockMachine")
-const { $WindmillBearingBlockEntity } = require("packages/com/simibubi/create/content/contraptions/bearing/$WindmillBearingBlockEntity")
+import { $WindmillBearingBlockEntity } from "packages/com/simibubi/create/content/contraptions/bearing/$WindmillBearingBlockEntity"
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
