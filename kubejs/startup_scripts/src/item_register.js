@@ -216,6 +216,14 @@ StartupEvents.registry("block", event => {
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureAll("kubejs:block/force_field_casing")
+    event.create('twisted_fusion_casing', 'basic')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+        .textureAll("kubejs:block/twisted_fusion_casing")
     const registercoils = [
         ["abyssalalloy", "12600", "16", "8"],
         ["titansteel", "14400", "32", "8"],
