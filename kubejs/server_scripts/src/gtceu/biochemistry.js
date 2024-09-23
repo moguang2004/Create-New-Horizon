@@ -49,6 +49,14 @@ ServerEvents.recipes(event => {
             eu: 1920,
             duration: 200,
             output: [Fluid.of('gtceu:bisphenol_a', 100), Fluid.of('gtceu:octane', 250), Fluid.of('gtceu:phenol', 250), Fluid.of('gtceu:amino_acid', 400)]
+        },
+        {
+            name: 'radiation_mutated',
+            raw_material: null,
+            temperature: 4500,
+            eu: 7680,
+            duration: 140,
+            output: [Fluid.of('gtceu:bisphenol_a', 100), Fluid.of('gtceu:octane', 250), Fluid.of('gtceu:phenol', 250), Fluid.of('gtceu:amino_acid', 400)]
         }]
     let nutritions = ['minecraft:sugar', '3x gtceu:lignin_dust']
     yeast.forEach(y => {
@@ -104,11 +112,13 @@ ServerEvents.recipes(event => {
             .inputFluids(Fluid.of('gtceu:' + y.name + '_yeast_extract_liquid', 1000))
             .outputFluids(y.output)
             .duration(100)
-        event.recipes.gtceu.macerator(y.name + '_yeast6')
-            .EUt(120)
-            .itemInputs(y.raw_material)
-            .itemOutputs('2x gtceu:' + y.name + '_yeast_dust')
-            .duration(40)
+            if(y.raw_material != null){
+                event.recipes.gtceu.macerator(y.name + '_yeast6')
+                .EUt(120)
+                .itemInputs(y.raw_material)
+                .itemOutputs('2x gtceu:' + y.name + '_yeast_dust')
+                .duration(40)
+            }
     })
     event.recipes.gtceu.macerator('normal_yeast_from_red_mushroom')
         .EUt(120)
@@ -250,5 +260,11 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of('gtceu:ammonia',10000))
         .EUt(1920)
         .duration(160)
+    event.recipes.gtceu.mixer('radiation_mutated_yeast')
+        .itemInputs(['gtceu:polluted_fluoresence_yeast_dust','gtceu:mendelevium_259_dust'])
+        .inputFluids(Fluid.of('gtceu:uranium_hexafluoride',1000))
+        .chancedOutput('gtceu:radiation_mutated_yeast_dust')
+        .EUt(1920)
+        .duration(300)
 })
 let meat = ['nethersdelight:hoglin_loin', 'twilightforest:raw_meef', 'twilightforest:raw_venison', 'alexscaves:dinosaur_chop', 'twilightdelight:raw_insect']
