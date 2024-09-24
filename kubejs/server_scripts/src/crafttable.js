@@ -745,6 +745,32 @@ ServerEvents.recipes(event => {
         C: "create:shaft",
         D: "create:large_water_wheel"
     })
+    event.shaped(
+        Item.of("gtceu:windmill_control_center", 1), [
+        " A ",
+        "BCB",
+        "DED"
+    ], {
+        A: "create:redstone_link",
+        B: "create:precision_mechanism",
+        C: "create:linked_controller",
+        D: "create:brass_casing",
+        E: "create:shaft"
+    })
+    event.shaped(
+        Item.of("gtceu:wind_power_array", 1), [
+        "ABA",
+        "BCB",
+        "DED"
+    ], {
+        A: "gtceu:steel_rod",
+        B: "gtceu:solid_machine_casing",
+        C: "create:windmill_bearing",
+        D: "gtceu:lv_electric_motor",
+        E: "gtceu:basic_integrated_circuit"
+    })
+
+    
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}'),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}'))
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}'),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}'))

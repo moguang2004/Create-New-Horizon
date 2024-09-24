@@ -916,6 +916,10 @@ ServerEvents.recipes(event => {
     'S': "#forge:tools/saws",
   })
 
+  event.recipes.gtceu.windmill_control_center('windmill_control')
+    .inputFluids(Fluid.of("gtceu:lubricant", 25))
+    .duration(200)
+    .outputStress(512)
   event.remove({id:'gtceu:assembler/space_helmet'})
   event.recipes.gtceu.assembler('space_helmet')
     .itemInputs('gtceu:glass_plate','minecraft:chainmail_helmet')

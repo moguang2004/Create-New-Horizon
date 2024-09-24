@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('gas_centrifuge_machine', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('gas_centrifuge')
-        //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
+        .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("#CCC#", "#CCC#", "#####", "#####", "#####", "#####", "#####")
             .aisle("CBBBC", "CBBBC", "#DED#", "#D#D#", "#D#D#", "#D#D#", "#D#D#")

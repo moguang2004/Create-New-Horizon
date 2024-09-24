@@ -261,10 +261,19 @@ ServerEvents.recipes(event => {
         .EUt(1920)
         .duration(160)
     event.recipes.gtceu.mixer('radiation_mutated_yeast')
-        .itemInputs(['gtceu:polluted_fluoresence_yeast_dust','gtceu:mendelevium_259_dust'])
+        .itemInputs(['gtceu:polluted_fluorescence_yeast_dust','gtceu:mendelevium_259_dust'])
         .inputFluids(Fluid.of('gtceu:uranium_hexafluoride',1000))
         .chancedOutput('gtceu:radiation_mutated_yeast_dust',200,50)
         .EUt(1920)
         .duration(300)
+    let transitional = 'gtceu:fluorescence_yeast_dust'
+    event.recipes.create.sequenced_assembly([
+    'gtceu:polluted_fluorescence_yeast_dust'
+    ], 'gtceu:fluorescence_yeast_dust', [
+    event.recipes.createFilling(transitional, [transitional, Fluid.of('alexscaves:acid',1000)]),
+    event.recipes.createFilling(transitional, [transitional, Fluid.of('deep_aether:poison_fluid', 1000)]),
+    event.recipes.createPressing(transitional, [transitional]),
+    ]).transitionalItem(transitional)
+    .loops(1)
 })
 let meat = ['nethersdelight:hoglin_loin', 'twilightforest:raw_meef', 'twilightforest:raw_venison', 'alexscaves:dinosaur_chop', 'twilightdelight:raw_insect']

@@ -40,7 +40,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             }
             return newrecipe
         })
-        //.appearanceBlock(() => Block.getBlock('create:andesite_casing'))
+        .appearanceBlock(() => Block.getBlock('create:andesite_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CNNNNNC', 'CGGGGGC', 'CGGGGGC', 'CGGGGGC', 'CNNNNNC')
             .aisle('DSSSSSD', 'G#####G', 'G#####G', 'GFFFFFG', 'DBBBBBD')
