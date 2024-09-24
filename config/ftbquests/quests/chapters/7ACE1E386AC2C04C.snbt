@@ -1,0 +1,516 @@
+{
+	always_invisible: true
+	autofocus_id: "1A6EF6F0BB3E7CCA"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7ACE1E386AC2C04C"
+	group: "71414D2BDE140EDA"
+	icon: "mynethersdelight:plate_of_stuffed_hoglin_snout"
+	id: "7ACE1E386AC2C04C"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			id: "48FB1CDFA05A0952"
+			tasks: [{
+				id: "468C4577D0B48439"
+				item: "kubejs:gold_certificate"
+				type: "item"
+			}]
+			title: "开启第四章"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "1FEA2D0BCCF4B686"
+			tasks: [{
+				id: "157AE514997C5C5E"
+				item: "kubejs:diamond_certificate"
+				type: "item"
+			}]
+			title: "开启第五章"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48FB1CDFA05A0952"]
+			description: [
+				"需要注意，凡家物语的村民不会主动寻找工作方块"
+				"必须右键->互动->位置->工作区域"
+				"以此绑定工作方块。"
+			]
+			id: "1A6EF6F0BB3E7CCA"
+			tasks: [{
+				id: "5EFF2477EC96F151"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "向牧师购买异界的作物和动物！"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "2D1255FE43C53890"
+			rewards: [{
+				count: 8
+				id: "3937DE3486D01526"
+				item: "mynethersdelight:strider_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C0084491F19BC97"
+				item: "mynethersdelight:strider_egg"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "5160F4DA2220725A"
+			rewards: [{
+				count: 8
+				id: "3F8A4EB23E306BE2"
+				item: "mynethersdelight:minced_strider"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C45CB76A19E15B0"
+				item: "mynethersdelight:minced_strider"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "7D8B99FC5FD8FF9F"
+			rewards: [{
+				count: 8
+				id: "0B7FE7177CF3B660"
+				item: "kubejs:smoked_crimson_fungus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E8DD15A282849A5"
+				item: "kubejs:smoked_crimson_fungus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "7182BA081427EA32"
+			rewards: [{
+				count: 8
+				id: "47EBC6C846405EE2"
+				item: "kubejs:smoked_warped_fungus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1174C856FE38738F"
+				item: "kubejs:smoked_warped_fungus"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "74C569429F21AD00"
+			rewards: [{
+				count: 8
+				id: "3B0FCCA93528AC98"
+				item: "mynethersdelight:roasted_sausage"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56161737ED961765"
+				item: "mynethersdelight:roasted_sausage"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "67F1B78461ED97EC"
+			rewards: [{
+				count: 8
+				id: "5C525DCCED9D8926"
+				item: "mynethersdelight:cooked_loin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "047F7D1F9441DA5F"
+				item: "mynethersdelight:cooked_loin"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "0C41A165FF1D842F"
+			rewards: [{
+				count: 8
+				id: "70E73F3FE53CF21F"
+				item: "kubejs:blaze_sauce"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3355CE381C555A85"
+				item: "kubejs:blaze_sauce"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "48F0C36E9D9D640D"
+			rewards: [{
+				count: 8
+				id: "55DA0F1DCCBB4416"
+				item: "ends_delight:chorus_fruit_grain"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58212549BCB5E8FC"
+				item: "ends_delight:chorus_fruit_grain"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "75E4E912B1F8AB87"
+			rewards: [{
+				count: 8
+				id: "303D8011C80406D4"
+				item: "kubejs:sliced_succulent"
+				type: "item"
+			}]
+			tasks: [{
+				id: "693D0E5B586B93F3"
+				item: "kubejs:sliced_succulent"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "6F6D208BF5579D88"
+			rewards: [{
+				count: 8
+				id: "66443422260C0FB5"
+				item: "ends_delight:ender_sauce"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72465FB853B18771"
+				item: "ends_delight:ender_sauce"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "45DC53011B2F7B0B"
+			rewards: [{
+				count: 8
+				id: "13DCBF6673B8FB39"
+				item: "kubejs:pomegranate_sauce"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61900A233D0350A1"
+				item: "kubejs:pomegranate_sauce"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			description: ["必须种在末地石上。"]
+			id: "7FD23CED49D4BB44"
+			subtitle: "可以用骨粉增生。"
+			tasks: [{
+				id: "43CD63380FA09476"
+				item: "ends_delight:chorus_succulent"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "211C5F04BC6406CC"
+			subtitle: "需要用小刀收割辣椒。"
+			tasks: [{
+				id: "5EC35C05A78073DC"
+				item: "mynethersdelight:powder_cannon"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			description: [
+				"通过魔改，疣猪兽在主世界不会僵尸化。"
+				"但是在非和平模式下，疣猪兽还是会打人的，而且很痛。"
+			]
+			id: "6C97F67F98FE0D7F"
+			subtitle: "使用绯红菌繁殖。"
+			tasks: [{
+				id: "74EE7D97150CB543"
+				item: "minecraft:hoglin_spawn_egg"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			description: [
+				"炽足兽会受到水的伤害。"
+				"因此，如果你的炽足兽养殖场位于会下雨的群系，记得封顶。"
+			]
+			id: "3ED9E79A063CCBD8"
+			subtitle: "使用诡异菌繁殖。"
+			tasks: [{
+				id: "1FA85B4A6D44D732"
+				item: "minecraft:strider_spawn_egg"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48FB1CDFA05A0952"]
+			id: "392443C804DD269F"
+			rewards: [{
+				count: 8
+				id: "6F8916C7582885C0"
+				item: "mynethersdelight:spicy_skewer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "072BABB787DC4DFA"
+				item: "mynethersdelight:spicy_skewer"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48FB1CDFA05A0952"]
+			id: "4336C509F3842B4A"
+			rewards: [{
+				count: 8
+				id: "46C3EF96A0324623"
+				item: "ends_delight:end_mixed_salad"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15FFDD225ACFF773"
+				item: "ends_delight:end_mixed_salad"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["48FB1CDFA05A0952"]
+			id: "247E28D20299ABE6"
+			rewards: [{
+				count: 8
+				id: "460C8AD0DFA002C5"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DAD63A6105E4A3F"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48FB1CDFA05A0952"]
+			id: "158FE24F3EBE41DE"
+			rewards: [{
+				count: 8
+				id: "786210C95281E5E3"
+				item: "mynethersdelight:hot_cream_cone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62D4ADFDB27E15BE"
+				item: "mynethersdelight:hot_cream_cone"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48FB1CDFA05A0952"]
+			id: "2573CB252E3D3B87"
+			rewards: [{
+				count: 8
+				id: "763E2AD2451B1A23"
+				item: "collectorsreap:pomegranate_custard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46C7917BAC3AE97A"
+				item: "collectorsreap:pomegranate_custard"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["48FB1CDFA05A0952"]
+			id: "08B4AA3F29B30B50"
+			rewards: [{
+				count: 8
+				id: "421FAE2BFC849F46"
+				item: "ends_delight:chorus_fruit_milk_tea"
+				type: "item"
+			}]
+			tasks: [{
+				id: "447A95695A22C711"
+				item: "ends_delight:chorus_fruit_milk_tea"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "5A6DA61CEE3A494F"
+			rewards: [{
+				count: 8
+				id: "56D805A6C1B3875F"
+				item: "kubejs:blaze_burger_bottom"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57CD7F042CC6DDDC"
+				item: "kubejs:blaze_burger_bottom"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "4E29E442847ED441"
+			rewards: [{
+				count: 8
+				id: "016C7B2E15FB523E"
+				item: "kubejs:blaze_burger_top"
+				type: "item"
+			}]
+			tasks: [{
+				id: "553C00A5E7662029"
+				item: "kubejs:blaze_burger_top"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A6EF6F0BB3E7CCA"]
+			id: "72CFA73ADF03F74B"
+			rewards: [{
+				count: 8
+				id: "43F887A501C071BB"
+				item: "kubejs:pizza_sauce_blaze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DAE1D517E87AE89"
+				item: "kubejs:pizza_sauce_blaze"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["211C5F04BC6406CC"]
+			id: "21C0DF6FB1E39E6B"
+			subtitle: "烟药竹长成后，小刀右键收割爆弹椒"
+			tasks: [{
+				id: "125BD522CD722D4C"
+				item: "mynethersdelight:bullet_pepper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21C0DF6FB1E39E6B"]
+			id: "03A4B5CC37A2B7C6"
+			subtitle: "爆弹椒砧板上切成烈焰粉"
+			tasks: [{
+				id: "2FB71FADDA0D8DF7"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["03A4B5CC37A2B7C6"]
+			id: "7905263655EF3C3E"
+			subtitle: "烈焰粉压制成烈焰棒"
+			tasks: [{
+				id: "50CDFA2139A1B2FA"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48FB1CDFA05A0952"]
+			id: "0DE501E045EA3109"
+			rewards: [{
+				count: 8
+				id: "6E5D23483506DF71"
+				item: "kubejs:soda_pomegranate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35BED952969AD695"
+				item: "kubejs:soda_pomegranate"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48FB1CDFA05A0952"]
+			id: "61E1BB106222D950"
+			tasks: [{
+				id: "6CB2961DB1B13FB9"
+				item: "kubejs:gold_contract"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+	]
+	title: "第四章：异界美味"
+}

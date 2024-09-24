@@ -1,5 +1,5 @@
 ServerEvents.tags('item',event =>{
-    event.remove('twilightforest:portal/activator','minecraft:diamond')
+    event.remove('twilightforest:portal/activator','#forge:gems/diamonds')
     Ingredient.of("#forge:exquisite_gems").itemIds.forEach((id) =>{
         event.add('alexscaves:deep_one_barters',id)
     })

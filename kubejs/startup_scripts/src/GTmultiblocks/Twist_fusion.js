@@ -15,10 +15,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     builder.rotationState(RotationState.NON_Y_AXIS)
         .recipeModifier(
             (machine,/** @type {Internal.GTRecipe} */ recipe, params, result)=>{
-				console.log(recipe.getType().toString());
                 if(recipe.getType().toString()=='gtceu:fusion_reactor'){
 					var startEU=recipe.data.getLong('eu_to_start');
-					console.log(startEU);
 					if(startEU<=160000000){
 						recipe=GTRecipeModifiers.accurateParallel(machine,recipe,64,false).getFirst();
 					}else if(startEU<=320000000){

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "15B8D9F4A2A19BFA"
-	group: "5509A6EB57619098"
+	group: "71414D2BDE140EDA"
 	icon: {
 		Count: 1
 		id: "gtceu:turbine_rotor"
@@ -13,11 +13,10 @@
 		}
 	}
 	id: "15B8D9F4A2A19BFA"
-	order_index: 1
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2393E591D8CEE84B"]
 			id: "65F13C0C2212FC05"
 			tasks: [{
 				id: "1055D7FCC33FEE5A"

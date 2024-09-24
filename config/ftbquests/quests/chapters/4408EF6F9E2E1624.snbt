@@ -33,7 +33,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -541,8 +541,8 @@
 				item: "gtceu:big_dam"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -8.5d
+			x: 4.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["5BB3CF765E9C93D4"]
@@ -617,7 +617,7 @@
 				type: "checkmark"
 			}]
 			title: "格雷小课堂：蒸汽机器"
-			x: -12.0d
+			x: -12.5d
 			y: 4.5d
 		}
 		{
@@ -628,7 +628,7 @@
 				item: "gtceu:bronze_plate"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -12.5d
 			y: -1.5d
 		}
 		{
@@ -643,7 +643,7 @@
 				item: "gtceu:bronze_brick_casing"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -12.5d
 			y: 1.0d
 		}
 		{
@@ -655,7 +655,7 @@
 				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.0d
 			y: 3.0d
 		}
 		{
@@ -667,7 +667,7 @@
 				item: "gtceu:lp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -12.5d
 			y: 2.5d
 		}
 		{
@@ -680,7 +680,7 @@
 				item: "gtceu:lp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.0d
 			y: 3.0d
 		}
 		{
@@ -691,7 +691,7 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: 7.0d
 		}
 		{
@@ -702,7 +702,7 @@
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -8.5d
 			y: 7.0d
 		}
 		{
@@ -713,7 +713,7 @@
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: 9.0d
 		}
 		{
@@ -725,7 +725,7 @@
 				item: "ctnhcore:underfloor_heating_system"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: 4.5d
 		}
 		{
@@ -748,7 +748,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 14.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -783,7 +783,7 @@
 				item: "minecraft:bricks"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.0d
 			y: 1.0d
 		}
 		{
@@ -807,8 +807,8 @@
 				}
 			]
 			title: "制砖"
-			x: -13.5d
-			y: -0.5d
+			x: -14.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5CF2A3DF0B2E6729"]
@@ -818,7 +818,7 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -14.5d
 			y: 7.0d
 		}
 		{
@@ -830,7 +830,7 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -12.5d
 			y: 7.0d
 		}
 		{
@@ -886,7 +886,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 19.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["156B500126054BC2"]
@@ -902,7 +902,7 @@
 				type: "checkmark"
 			}]
 			x: -2.5d
-			y: 20.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6EADC71354FF9E80"]
@@ -914,7 +914,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: 22.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["6EADC71354FF9E80"]
@@ -926,7 +926,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: 22.0d
+			y: 20.5d
 		}
 		{
 			id: "10B1EE4638BC3203"
@@ -937,7 +937,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 22.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -949,7 +949,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 19.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["2237A624EA40A81C"]
@@ -961,7 +961,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 20.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["04069333A19D2DB3"]
@@ -973,7 +973,7 @@
 				type: "checkmark"
 			}]
 			x: -4.5d
-			y: 22.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["16AD634049BD4112"]
@@ -985,7 +985,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 23.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -998,7 +998,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 19.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["4EAE423454479E42"]
@@ -1019,7 +1019,7 @@
 			}]
 			title: "粉碎矿物"
 			x: -0.5d
-			y: 20.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["3035A92235772F73"]
@@ -1040,7 +1040,7 @@
 			}]
 			title: "再次粉碎的矿物"
 			x: -0.5d
-			y: 22.0d
+			y: 20.5d
 		}
 		{
 			dependencies: [
@@ -1061,7 +1061,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 24.0d
+			y: 22.0d
 		}
 		{
 			dependencies: [
@@ -1084,7 +1084,7 @@
 			}]
 			title: "洗净的碎矿"
 			x: 1.5d
-			y: 22.0d
+			y: 20.5d
 		}
 		{
 			dependencies: [
@@ -1098,7 +1098,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 19.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["3AE55A55A5EBBA5A"]
@@ -1117,7 +1117,7 @@
 			}]
 			title: "宝石矿物处理"
 			x: 1.5d
-			y: 24.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["3AE55A55A5EBBA5A"]
@@ -1136,7 +1136,7 @@
 			}]
 			title: "锭矿物处理"
 			x: 2.5d
-			y: 24.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["5CF2A3DF0B2E6729"]
@@ -1146,7 +1146,7 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -16.5d
 			y: 7.0d
 		}
 		{
@@ -1201,7 +1201,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 23.5d
+			y: 22.0d
 		}
 		{
 			dependencies: [
@@ -1215,9 +1215,100 @@
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: 11.0d
 		}
+		{
+			dependencies: [
+				"3CEE67AB21E05293"
+				"39C2B774D392AA8F"
+			]
+			id: "58A8E868AAAFD916"
+			tasks: [{
+				id: "2F35CE556FDA2B3B"
+				item: "gtceu:fireclay_dust"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"58A8E868AAAFD916"
+				"3D8EB8D17BDB05C3"
+			]
+			id: "37BD0BB07046E310"
+			tasks: [{
+				id: "76E31E35504063CE"
+				item: "gtceu:firebrick"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["37BD0BB07046E310"]
+			id: "00172F657F4BAB7A"
+			tasks: [
+				{
+					id: "63AE0E4AF99B81FE"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "57967D330805BEBE"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6FDDD78D3F1CD965"]
+			id: "5A0A0CEC3053CC8E"
+			tasks: [{
+				id: "311C45CE21038447"
+				item: "gtceu:coke_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["00172F657F4BAB7A"]
+			id: "1162E347E7C00175"
+			tasks: [{
+				id: "6436E6490E808D9A"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5E5F4837CC1F047A"]
+			id: "713CA44106751CCA"
+			tasks: [{
+				id: "5D1BAF9CE51E4E1A"
+				item: "createmetallurgy:mechanical_belt_grinder"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "563D74DC666F2A57"
+			subtitle: "石油、乙醇、粗制生物柴油、种子油可供烈焰人燃烧室直接燃烧"
+			tasks: [{
+				id: "665D099AB64C3841"
+				title: "烈焰人燃烧室的液体燃料"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
 	]
-	title: "蒸汽动力"
+	title: "蒸汽时代"
 }
