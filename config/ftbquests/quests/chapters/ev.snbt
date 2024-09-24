@@ -7,12 +7,12 @@
 	id: "6729EFF9916E0F53"
 	order_index: 3
 	quest_links: [{
-		id: "4819096481C03459"
+		id: "02C656A82600B380"
 		linked_quest: "27EF0EE87260585F"
 		shape: "rsquare"
 		size: 1.5d
-		x: -3.9642857142857153d
-		y: -0.9642857142857153d
+		x: -4.0d
+		y: -1.0d
 	}]
 	quests: [
 		{
@@ -64,6 +64,7 @@
 			id: "1CECBF50A30F23B0"
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "IV时代的重要材料"
 			tasks: [{
 				id: "4FF48202A50F0FF5"
 				item: "gtceu:tungsten_steel_ingot"
@@ -194,10 +195,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"65B4C0ACC44374EB"
-				"4A7B2A7EF0E9D0D0"
-			]
+			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "6D99A9917E0D8636"
 			subtitle: "耗能*2.4 耗时750s"
@@ -221,51 +219,6 @@
 			}]
 			x: -4.0d
 			y: 7.0d
-		}
-		{
-			dependencies: ["16A5EAB4E168E528"]
-			id: "65B4C0ACC44374EB"
-			tasks: [{
-				id: "01A97540E1B82C01"
-				item: "gtceu:zirconium_dust"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3123CD3DCE3598C8"]
-			id: "4B60F576F83BA93A"
-			tasks: [{
-				count: 16L
-				id: "5E1CA8DB63EC2ECE"
-				item: { Count: 16, id: "gtceu:raw_zircon" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["3AC98FC52B65EF90"]
-			id: "16A5EAB4E168E528"
-			tasks: [{
-				id: "4DC693C4F1889884"
-				item: "gtceu:cubic_zirconia_dust"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4B60F576F83BA93A"]
-			id: "3AC98FC52B65EF90"
-			tasks: [{
-				id: "766CD48C0208115F"
-				item: "gtceu:zr_hf_chloride_bucket"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["4A7B2A7EF0E9D0D0"]
@@ -351,7 +304,9 @@
 			dependencies: [
 				"699B1B52D3F58BEE"
 				"659495FD6AB169E3"
+				"3A48040562E6B4D0"
 			]
+			dependency_requirement: "one_completed"
 			id: "4D6F042D3D3DA8A2"
 			tasks: [{
 				id: "28E4CB3336D08A32"
@@ -380,8 +335,8 @@
 				item: "gtceu:hot_coolant_turbine"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.0d
+			x: -4.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5DE73169DED11A0D"]
@@ -409,6 +364,7 @@
 			dependencies: [
 				"7951D4BC59BDAA1A"
 				"0F854F1F4CA05158"
+				"75CFD6720163E3ED"
 			]
 			id: "3B3EF261BDFE1F46"
 			tasks: [{
@@ -453,7 +409,11 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["520063634DC19E7D"]
+			dependencies: [
+				"520063634DC19E7D"
+				"3A7EF62D9745F2D6"
+			]
+			dependency_requirement: "one_completed"
 			id: "55CE92DB78123043"
 			tasks: [{
 				id: "5DFE2E6E0977F41C"
@@ -480,9 +440,11 @@
 		{
 			dependencies: [
 				"3F64B8ADC6941CAF"
-				"4CE7EDCC1FD1ABD1"
+				"48261AFD7844E219"
 			]
+			dependency_requirement: "one_completed"
 			id: "1AEE2FEB6874EE82"
+			subtitle: "生物线或者石化线，自己选择吧"
 			tasks: [{
 				id: "3302819044573A82"
 				item: "gtceu:epichlorohydrin_bucket"
@@ -497,6 +459,7 @@
 				"21C9916BDE650D3A"
 			]
 			id: "3121647B8CB1E5BF"
+			subtitle: "看看大型化学反应釜的配方"
 			tasks: [{
 				id: "12F063B61038384E"
 				item: "gtceu:bisphenol_a_bucket"
@@ -516,16 +479,6 @@
 			y: -7.0d
 		}
 		{
-			id: "4CE7EDCC1FD1ABD1"
-			tasks: [{
-				id: "3AB06F6F26079E76"
-				item: "gtceu:hydrochloric_acid_bucket"
-				type: "item"
-			}]
-			x: -12.0d
-			y: -5.5d
-		}
-		{
 			id: "13433A6B336541E8"
 			tasks: [{
 				id: "384AFA0E7674D3D1"
@@ -533,7 +486,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			id: "21C9916BDE650D3A"
@@ -542,11 +495,14 @@
 				item: "gtceu:acetone_bucket"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -2.0d
+			x: -12.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["11CEB762BEC88A67"]
+			dependencies: [
+				"11CEB762BEC88A67"
+				"7B95329450AC6EA5"
+			]
 			id: "30C3F85CEC6E0542"
 			tasks: [{
 				id: "01B3CABBC2BEDEDC"
@@ -827,7 +783,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3F9F778AB07809D0"]
@@ -850,6 +806,437 @@
 			}]
 			x: -2.0d
 			y: -11.0d
+		}
+		{
+			id: "3A48040562E6B4D0"
+			subtitle: "还记得软管滑轮吗？"
+			tasks: [{
+				id: "35FE06601CF9902F"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "3A7EF62D9745F2D6"
+			invisible: true
+			subtitle: "跳过任务线"
+			tasks: [{
+				count: 64L
+				id: "1992F6A776A09444"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["72524950D9CC9C75"]
+			id: "54E111D20B6D7893"
+			subtitle: "会有用的，但不是现在"
+			tasks: [{
+				count: 64L
+				id: "570295622CA11843"
+				item: { Count: 64, id: "gtceu:nuclear_waste_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5CC2A3C37EB99ED3"]
+			id: "75CFD6720163E3ED"
+			tasks: [
+				{
+					id: "2D8C76F6749E5CDE"
+					item: "gtceu:nano_cpu_wafer"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "294E2702C849D276"
+					item: "gtceu:nano_cpu_chip"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["799C99EA04D07344"]
+			id: "734982C31DFC1821"
+			tasks: [{
+				id: "5A228E48EE9B484E"
+				item: "gtceu:ev_laser_engraver"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["734982C31DFC1821"]
+			id: "5A8AE6B8EBFC49BE"
+			subtitle: "你会用到的两种晶圆"
+			tasks: [
+				{
+					id: "3D9CB29FE3E85462"
+					item: "gtceu:nand_memory_wafer"
+					type: "item"
+				}
+				{
+					id: "472D9F1D5DDE2BD8"
+					item: "gtceu:nor_memory_wafer"
+					type: "item"
+				}
+			]
+			title: "存储器晶圆"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["734982C31DFC1821"]
+			id: "169C88ED88B3883B"
+			subtitle: "省材料！"
+			tasks: [
+				{
+					id: "750540F6596AC75E"
+					item: "gtceu:simple_soc_wafer"
+					type: "item"
+				}
+				{
+					id: "506DBC20A9D8FEBC"
+					item: "gtceu:soc_wafer"
+					type: "item"
+				}
+			]
+			title: "SOC"
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27EF0EE87260585F"]
+			id: "332007D978CB3C6C"
+			subtitle: "你可以开始制作高速钢了"
+			tasks: [{
+				id: "6586F61697BFF631"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["332007D978CB3C6C"]
+			id: "6F1B38C420BEF79B"
+			tasks: [{
+				id: "04D76E38355F76A5"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6F1B38C420BEF79B"
+				"34A4C92A23DA3682"
+			]
+			id: "38941407A9F43B7E"
+			shape: "pentagon"
+			tasks: [{
+				count: 16L
+				id: "0A720031E493F57D"
+				item: { Count: 16, id: "gtceu:hssg_coil_block" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["332007D978CB3C6C"]
+			id: "34A4C92A23DA3682"
+			tasks: [{
+				id: "3585EC285E5917FE"
+				item: "gtceu:tungsten_carbide_dust"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "48261AFD7844E219"
+			tasks: [{
+				id: "0A7F9D8F9272D90B"
+				item: "gtceu:glycerol_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			id: "0DA6F0E8CADCCF30"
+			tasks: [{
+				count: 16L
+				id: "56559BA731DD3FAB"
+				item: { Count: 16, id: "gtceu:raw_zircon" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0DA6F0E8CADCCF30"]
+			id: "733EB93565304647"
+			tasks: [{
+				id: "19D5261792EF4A65"
+				item: "gtceu:zr_hf_chloride_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["733EB93565304647"]
+			id: "0455B6876AA894D4"
+			tasks: [{
+				id: "22D083B9293DAD30"
+				item: "gtceu:zr_hf_oxy_chloride_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0455B6876AA894D4"
+				"6B42DDFCF2BCACF1"
+			]
+			dependency_requirement: "one_completed"
+			id: "6C89FED370C5B2E8"
+			tasks: [{
+				id: "62EB7BB683D58167"
+				item: "gtceu:cubic_zirconia_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C89FED370C5B2E8"]
+			id: "249FF096F8BC83EA"
+			tasks: [{
+				id: "34D808E3B7FA3BAB"
+				item: "gtceu:zirconium_tetrachloride_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"249FF096F8BC83EA"
+				"5D1450926BCF288B"
+			]
+			dependency_requirement: "one_completed"
+			id: "4F0985AF7092A609"
+			tasks: [{
+				id: "1AB745DF6DC28F3E"
+				item: "gtceu:zirconium_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1ED352B272339266"]
+			id: "6A61EF807432B96B"
+			tasks: [{
+				id: "53A5888DF2B04D6F"
+				item: "gtceu:anthracene_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"702514667DE21D74"
+				"5357B5D3CF9CA99B"
+				"6A61EF807432B96B"
+			]
+			id: "127C09CE25750566"
+			tasks: [{
+				id: "2E6026C628A426E5"
+				item: "gtceu:ethyl_anthra_hydro_quinone_bucket"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"49E73B48FF7B32B2"
+				"5B74755F01EAA98C"
+			]
+			id: "5357B5D3CF9CA99B"
+			tasks: [{
+				id: "7ABD108CE255F66B"
+				item: "gtceu:ethyl_anthra_quinone_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5FB6AF2ED472FDE3"]
+			id: "49E73B48FF7B32B2"
+			tasks: [{
+				id: "390369970A0E1E80"
+				item: "gtceu:phthalic_anhydride_dust"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			id: "5FB6AF2ED472FDE3"
+			tasks: [{
+				id: "74C842C66C571758"
+				item: "gtceu:vanadium_pentoxide_dust"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			id: "702514667DE21D74"
+			tasks: [{
+				id: "32DE4A687636EFC6"
+				item: "gtceu:orange_metal_catalyst_dust"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["141227BD0FDD68EE"]
+			id: "5B74755F01EAA98C"
+			tasks: [{
+				id: "03B272914489AF88"
+				item: "gtceu:ethylbenzene_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"127C09CE25750566"
+				"287D7ADB01D8D58F"
+			]
+			dependency_requirement: "one_completed"
+			id: "6B42DDFCF2BCACF1"
+			tasks: [{
+				id: "248B52C6304891C2"
+				item: "gtceu:hydrogen_peroxide_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			id: "287D7ADB01D8D58F"
+			subtitle: "总之也有大用处"
+			tasks: [{
+				id: "0775F71F199C0333"
+				title: "只要你做出来就行"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			id: "5D1450926BCF288B"
+			subtitle: "跳过任务线"
+			tasks: [{
+				id: "2EFE7AC41D56E14C"
+				item: "gtceu:zirconium_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D8F0D06D79D182F"]
+			id: "1C4CAA911CF39967"
+			tasks: [{
+				id: "2D934FDEF25F2114"
+				item: "gtceu:xenon_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["332007D978CB3C6C"]
+			id: "67232BC7E785AD4F"
+			subtitle: "用处很大"
+			tasks: [{
+				id: "4055C9091467ECC7"
+				item: "gtceu:graphene_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"17292FB8D4DD36BA"
+				"46B421171FE2DEE9"
+			]
+			id: "18539988644418C9"
+			subtitle: "开始布置你的电网吧"
+			tasks: [{
+				id: "7308BC4380FE1F12"
+				item: "gtceu:power_substation"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			id: "46B421171FE2DEE9"
+			tasks: [{
+				id: "400827C1C8FD3A6C"
+				item: "gtceu:lapotron_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4D6F042D3D3DA8A2"]
+			id: "0AAAFAD6405A0E26"
+			subtitle: "EV超导"
+			tasks: [{
+				id: "26BC91CA36F799F1"
+				item: "gtceu:uranium_triplatinum_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0AAAFAD6405A0E26"]
+			id: "2D30354CDA91122C"
+			tasks: [{
+				id: "0033C940031F089A"
+				item: "gtceu:ev_field_generator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
 		}
 	]
 	title: "&5EV&r时期"

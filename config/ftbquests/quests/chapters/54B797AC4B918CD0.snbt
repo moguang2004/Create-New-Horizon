@@ -6,12 +6,7 @@
 	icon: "cold_sweat:thermometer"
 	id: "54B797AC4B918CD0"
 	order_index: 2
-	quest_links: [{
-		id: "02449ED48C6289D5"
-		linked_quest: "73D6D71F897EB1B9"
-		x: 0.0d
-		y: 3.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			id: "30E1EA70F0313CC7"

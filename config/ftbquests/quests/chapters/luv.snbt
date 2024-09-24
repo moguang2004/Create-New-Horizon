@@ -4,9 +4,16 @@
 	filename: "luv"
 	group: "19912BEA87D24FE0"
 	icon: "gtceu:luv_machine_hull"
-	id: "4A86DEAB612B61A1"
+	id: "42952A10FFCE402D"
 	order_index: 5
-	quest_links: [ ]
+	quest_links: [{
+		id: "2D8E067BA5CDB23A"
+		linked_quest: "17292FB8D4DD36BA"
+		shape: "rsquare"
+		size: 1.5d
+		x: -15.5d
+		y: 0.0d
+	}]
 	quests: [ ]
 	title: "&dLuV&r时期"
 }

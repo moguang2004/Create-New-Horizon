@@ -7,12 +7,12 @@
 	id: "1B1FC63B7AC00842"
 	order_index: 2
 	quest_links: [{
-		id: "35D41EE540BF5F64"
+		id: "134D3EB79F57BED1"
 		linked_quest: "36968F23015BC87A"
 		shape: "rsquare"
 		size: 1.5d
-		x: -3.999999999999993d
-		y: 0.0714285714285694d
+		x: -4.0d
+		y: 0.0d
 	}]
 	quests: [
 		{
@@ -60,31 +60,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"17F0388258A83E1F"
-				"2FFC9C35347833E2"
-			]
-			id: "2EF159130FB7645A"
-			tasks: [{
-				id: "4B9F18AFB97510D4"
-				item: "gtceu:kanthal_ingot"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["2EF159130FB7645A"]
-			id: "2740F44657C0CF5A"
-			tasks: [{
-				id: "33B0355D4F3F7B0B"
-				item: "gtceu:kanthal_coil_block"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 8.0d
-		}
-		{
 			dependencies: ["1639E940E9B78D68"]
 			id: "4D2FAC9783965D60"
 			tasks: [{
@@ -101,6 +76,7 @@
 				"30A047CA07E56044"
 			]
 			id: "613BDF61BD8CAD08"
+			subtitle: "无损超频！"
 			tasks: [{
 				id: "6FD9026EFF3CC78B"
 				item: "gtceu:large_chemical_reactor"
@@ -110,18 +86,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["699743A94DF7E0B8"]
-			id: "680DAB5A1CC342A9"
-			tasks: [{
-				id: "232B33A0B04EB0EE"
-				item: "gtceu:fluorine_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["680DAB5A1CC342A9"]
 			id: "30A047CA07E56044"
 			tasks: [{
 				id: "649A69B8F47729B6"
@@ -182,7 +146,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["75D2EDFB44469AA3"]
+			dependencies: [
+				"75D2EDFB44469AA3"
+				"3A0D1B6A8BB681C8"
+			]
+			dependency_requirement: "one_completed"
 			id: "711DB49F2C74338E"
 			tasks: [{
 				id: "64534BF5FD291ED2"
@@ -222,13 +190,14 @@
 				item: "gtnn:t1_chip"
 				type: "item"
 			}]
-			x: 6.261904761904773d
-			y: 1.1190476190476133d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			description: ["    仔细观察发现，要想获得铂锭，铂系处理需要以谢尔顿矿开始，而谢尔顿矿只存在于外太空中，这样就产生了一个矛盾：&4造火箭需要上太空，上太空需要造火箭&r。这时，机智的你产生了一个想法，&a向外太空发射信号，向天祈求携带着外太空矿石的陨石落下&r，不就解决了这一问题吗？"]
 			hide_dependency_lines: true
 			id: "2758CA5AD758482C"
+			subtitle: "坠星仪式！"
 			tasks: [{
 				id: "7B231156184BDCBE"
 				item: "gtceu:hv_emitter"
@@ -317,6 +286,7 @@
 				"458DB8BA0CA5475B"
 			]
 			id: "1157261D1C6FA682"
+			subtitle: "可以拿来喂内燃)"
 			tasks: [{
 				id: "1609294E625640DE"
 				item: "gtceu:rocket_fuel_bucket"
@@ -340,7 +310,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["7AC13D95BBD8B6BD"]
 			id: "458DB8BA0CA5475B"
 			tasks: [{
 				id: "6BD2C9E30A8023B5"
@@ -373,33 +342,24 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["29C2D8D206649CE5"]
-			id: "7AC13D95BBD8B6BD"
-			tasks: [{
-				id: "693571CD6F530B8C"
-				item: "gtceu:nitrogen_bucket"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 6.0d
-		}
-		{
 			dependencies: [
 				"1639E940E9B78D68"
 				"17F0388258A83E1F"
 			]
 			id: "29C2D8D206649CE5"
+			subtitle: "你可以更高效的获取稀有气体了"
 			tasks: [{
 				id: "4357D0B40FF23BAF"
 				item: "gtceu:liquid_air_bucket"
 				type: "item"
 			}]
 			x: -2.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["082ABAF36B6EC7DC"]
 			id: "16243C6CC9C1CD8A"
+			subtitle: "可以直接用宇航服左键机器里的氧气"
 			tasks: [
 				{
 					id: "1535BCEA15D7660A"
@@ -467,22 +427,23 @@
 				}
 			]
 			x: 7.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["2740F44657C0CF5A"]
+			dependencies: ["17F0388258A83E1F"]
 			id: "294B6A72EA589606"
 			tasks: [{
 				id: "17201AA4DF8EE5ED"
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 8.0d
+			x: -4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["294B6A72EA589606"]
 			id: "5CF841D44D3A2035"
+			shape: "pentagon"
 			tasks: [{
 				id: "09F1B396D3B9E97B"
 				item: "gtceu:nichrome_coil_block"
@@ -493,19 +454,21 @@
 		}
 		{
 			dependencies: [
-				"2740F44657C0CF5A"
 				"1EF69C314E045882"
+				"17F0388258A83E1F"
+				"2B5737AFD88F1BA5"
 			]
 			id: "27EF0EE87260585F"
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "EV时代的重要材料"
 			tasks: [{
 				id: "45D0761160D1DB1D"
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: -4.0d
+			y: 8.05357142857143d
 		}
 		{
 			dependencies: ["054DC65B4D479B15"]
@@ -515,7 +478,7 @@
 				item: "gtceu:titanium_tetrachloride_bucket"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 8.0d
 		}
 		{
@@ -526,7 +489,7 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: 8.0d
 		}
 		{
@@ -548,7 +511,7 @@
 				}
 			]
 			title: "钛的来源"
-			x: 5.0d
+			x: 2.5d
 			y: 8.0d
 		}
 		{
@@ -570,14 +533,13 @@
 		}
 		{
 			dependencies: ["42552E404237FB96"]
-			hide_dependency_lines: true
 			id: "1327BF0797F9200E"
 			tasks: [{
 				id: "0EC0460E5F53A868"
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: -4.0d
 		}
 		{
@@ -629,7 +591,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["7F34AA0DBB79E313"]
+			dependencies: [
+				"7F34AA0DBB79E313"
+				"2D0E2C949FAD45B3"
+			]
+			dependency_requirement: "one_completed"
 			id: "504C916C6A71A1E4"
 			tasks: [{
 				id: "49C039875921920F"
@@ -706,7 +672,11 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["1DFF0FB3681AA9BA"]
+			dependencies: [
+				"1DFF0FB3681AA9BA"
+				"2CF0374F90D4B470"
+			]
+			dependency_requirement: "one_completed"
 			id: "5E6E9A02C455FDB7"
 			tasks: [{
 				id: "5AA1DCBB554AE1A8"
@@ -761,28 +731,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["711DB49F2C74338E"]
-			id: "7054D8D420646745"
-			tasks: [{
-				id: "2C61C9E702A21231"
-				item: "gtceu:fine_platinum_wire"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7054D8D420646745"]
-			id: "4BDA2D9EAB17A8C6"
-			tasks: [{
-				id: "3620FFC6DF9F9843"
-				item: "gtceu:smd_diode"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["773CB6E376B56EA4"]
 			id: "071A728A18E21B3C"
 			tasks: [{
@@ -795,6 +743,7 @@
 		}
 		{
 			dependencies: ["071A728A18E21B3C"]
+			description: ["贴片二极管需要在获得铂之后才能制作"]
 			id: "1511963A19F70BC2"
 			subtitle: "更加方便的贴片材料"
 			tasks: [
@@ -818,6 +767,11 @@
 					item: "gtceu:smd_transistor"
 					type: "item"
 				}
+				{
+					id: "3F13D26DE4991A94"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
 			]
 			title: "贴片！"
 			x: -2.0d
@@ -826,11 +780,18 @@
 		{
 			dependencies: ["36968F23015BC87A"]
 			id: "2F8F679EAC693ACE"
-			tasks: [{
-				id: "7C4BB2BEF666E930"
-				item: "gtceu:hv_sensor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7C4BB2BEF666E930"
+					item: "gtceu:hv_sensor"
+					type: "item"
+				}
+				{
+					id: "2FEDA0BE75EDB5F9"
+					item: "gtceu:hv_emitter"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 2.0d
 		}
@@ -888,6 +849,7 @@
 			dependencies: ["773CB6E376B56EA4"]
 			hide_dependency_lines: true
 			id: "2693AB1D8C40E181"
+			subtitle: "有了这机器，你的催化剂才有用"
 			tasks: [{
 				id: "1CAD59C11FB75991"
 				item: "gtceu:mana_seperator"
@@ -905,72 +867,405 @@
 				item: "javd:portal_block"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"6A93AEE55399519D"
-				"4B36BF3CD5329728"
-			]
-			id: "4D79E10947CC121F"
+			id: "3A0D1B6A8BB681C8"
+			invisible: true
+			subtitle: "跳过任务线"
 			tasks: [{
-				id: "6C7ED169ACEA6489"
-				item: "gtceu:transistor"
+				count: 64L
+				id: "4E2EAEAFAAF5306A"
+				item: "gtceu:platinum_dust"
 				type: "item"
 			}]
+			title: "铂的任务"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "2D0E2C949FAD45B3"
+			invisible: true
+			subtitle: "跳过任务线"
+			tasks: [{
+				count: 64L
+				id: "5F3870CF15D508F8"
+				item: { Count: 64, id: "gtceu:palladium_dust" }
+				type: "item"
+			}]
+			title: "钯的任务"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "2CF0374F90D4B470"
+			invisible: true
+			subtitle: "跳过任务线"
+			tasks: [{
+				count: 64L
+				id: "660223EB3F113A6E"
+				item: { Count: 64, id: "gtceu:ruthenium_dust" }
+				type: "item"
+			}]
+			title: "钌的任务"
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76B28AE888846A6D"]
+			id: "620105BA92638E7F"
+			tasks: [{
+				id: "6DF051A140DC5B62"
+				item: "gtceu:roughly_rhodium_metal_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["620105BA92638E7F"]
+			id: "1CF6C93AA8763E6F"
+			tasks: [{
+				id: "6261500D6BC773F1"
+				item: "gtceu:rhodium_salt_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1CF6C93AA8763E6F"]
+			id: "7C6C4AAF05BA4C32"
+			tasks: [{
+				id: "55E4C75B0EF4A201"
+				item: "gtceu:rhodium_salt_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			id: "6C00521117DF2F34"
+			tasks: [
+				{
+					id: "7D3C94E8656C6949"
+					item: "gtceu:raw_tantalite"
+					type: "item"
+				}
+				{
+					id: "3F7228301F016CEE"
+					item: "gtceu:raw_pyrochlore"
+					type: "item"
+				}
+			]
+			title: "计划中的两种矿处理产线？"
 			x: -2.0d
-			y: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C6C4AAF05BA4C32"]
+			id: "7D43208EB21CE1EB"
+			tasks: [{
+				id: "1799CD7280FFA2CC"
+				item: "gtceu:rhodium_nitrate_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7D43208EB21CE1EB"]
+			id: "1E8FCEBCD0B9052C"
+			tasks: [{
+				id: "4319479FACE89CA9"
+				item: "gtceu:rhodium_filter_cake_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1E8FCEBCD0B9052C"]
+			id: "29DEADCF9B660111"
+			tasks: [{
+				id: "3F083119A6A3279F"
+				item: "gtceu:rhodium_filter_cake_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["29DEADCF9B660111"]
+			id: "3E387FE21BE8CB34"
+			tasks: [{
+				id: "5CC0403C9B1B7CA4"
+				item: "gtceu:reprecipitated_rhodium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
-				"08302778401395AA"
-				"4D79E10947CC121F"
-				"3BBEFDC7CD5D688B"
+				"3E387FE21BE8CB34"
+				"06D3380949C950AB"
 			]
-			id: "42552E404237FB96"
-			subtitle: "第二种HV电路板"
+			dependency_requirement: "one_completed"
+			id: "4FA7ECD35E694D1C"
 			tasks: [{
-				id: "6DE0530CFDC5398C"
-				item: "gtceu:advanced_integrated_circuit"
+				id: "73823B8F7C95F40E"
+				item: "gtceu:rhodium_dust"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 4.0d
+			y: -10.5d
 		}
 		{
-			dependencies: ["2740F44657C0CF5A"]
-			id: "4B36BF3CD5329728"
+			id: "06D3380949C950AB"
+			invisible: true
+			subtitle: "跳过任务线"
 			tasks: [{
-				id: "5A90127EBC417131"
-				item: "gtceu:hot_silicon_ingot"
+				count: 64L
+				id: "45CC34EA60CF9DB9"
+				item: { Count: 64, id: "gtceu:rhodium_dust" }
+				type: "item"
+			}]
+			title: "铑的任务"
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["60F1F78FB2B30FD2"]
+			id: "192D6140DE51D498"
+			tasks: [{
+				id: "404CA996D36E68A0"
+				item: "gtceu:osmium_tetroxide_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"192D6140DE51D498"
+				"7CD360494125BA99"
+			]
+			dependency_requirement: "one_completed"
+			id: "4A412A967394C59E"
+			tasks: [{
+				id: "229568711AA50343"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5E1597F46B29ED41"]
+			id: "4952DF3543D61F75"
+			tasks: [{
+				id: "5D5B9C56EE231127"
+				item: "gtceu:iridium_dioxide_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4952DF3543D61F75"]
+			id: "53CB72F3D1CFC988"
+			tasks: [{
+				id: "0819BE20ABD3B68C"
+				item: "gtceu:acidic_iridium_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["53CB72F3D1CFC988"]
+			id: "10485A3F097F8879"
+			tasks: [{
+				id: "24D1DF3F77D16937"
+				item: "gtceu:iridium_chloride_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"10485A3F097F8879"
+				"68D549689E87C106"
+			]
+			dependency_requirement: "one_completed"
+			id: "401CC51AA97A3DD2"
+			tasks: [{
+				id: "0BCC999357AC989F"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			id: "68D549689E87C106"
+			invisible: true
+			subtitle: "跳过任务线"
+			tasks: [{
+				count: 16L
+				id: "59AB4F7BD08AC5CA"
+				item: { Count: 16, id: "gtceu:iridium_dust" }
+				type: "item"
+			}]
+			title: "铱的任务"
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			id: "2B5737AFD88F1BA5"
+			tasks: [{
+				id: "6C8CC7F6A0FE5E49"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["607209201C6B08C3"]
+			id: "41633F254B076032"
+			tasks: [{
+				id: "4447FA222C6D9EFA"
+				item: "gtceu:hv_circuit_assembler"
 				type: "item"
 			}]
 			x: -4.0d
-			y: 10.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["2740F44657C0CF5A"]
-			id: "5A2F926E96285C19"
+			dependencies: ["41633F254B076032"]
+			id: "216D57DF2B38AB9D"
+			subtitle: "你的第一种IV电路！"
 			tasks: [{
-				id: "39220F849FED77C5"
-				item: "gtceu:vibrant_alloy_ingot"
+				id: "18213736BD2BD5B2"
+				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
 			x: -6.5d
-			y: 10.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["5A2F926E96285C19"]
-			id: "13CEE58082C19317"
-			subtitle: "HV超导！"
+			dependencies: [
+				"2758CA5AD758482C"
+				"773CB6E376B56EA4"
+			]
+			id: "0EDC06CD857700E0"
+			subtitle: "更快！"
 			tasks: [{
-				id: "33BDB2210CF91C9C"
-				item: "gtceu:vibrant_alloy_single_wire"
+				id: "651C46324F640F54"
+				item: "gtceu:hv_laser_engraver"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 12.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A760D451E9D23B0"]
+			id: "2BDF8762C9C51323"
+			tasks: [{
+				id: "02689251EA9A927F"
+				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BDF8762C9C51323"]
+			id: "7B95329450AC6EA5"
+			tasks: [{
+				id: "3616E655B0889CB3"
+				item: "gtceu:hv_field_generator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0EDC06CD857700E0"
+				"6960D8238C5B49EB"
+				"147567E48E8786C3"
+			]
+			id: "399A7EA8DD295894"
+			tasks: [{
+				id: "7989E57F45477E1D"
+				item: "gtceu:mpic_wafer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "7CD360494125BA99"
+			invisible: true
+			subtitle: "跳过任务线"
+			tasks: [{
+				count: 16L
+				id: "48299A65BAD100EC"
+				item: { Count: 16, id: "gtceu:osmium_dust" }
+				type: "item"
+			}]
+			title: "锇的任务"
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["399A7EA8DD295894"]
+			id: "00497F96E769342D"
+			tasks: [{
+				id: "1316DBC3BF0665E6"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["29C2D8D206649CE5"]
+			id: "1AC10AB1A12AC305"
+			tasks: [{
+				id: "3E7767296FC43638"
+				item: "gtceu:helium_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["29C2D8D206649CE5"]
+			id: "1C78C76493D97559"
+			tasks: [{
+				id: "788EF6AF08D5D7FB"
+				item: "gtceu:argon_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["773CB6E376B56EA4"]
+			id: "147567E48E8786C3"
+			tasks: [{
+				id: "0D3F5432587823A0"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
 		}
 	]
 	title: "&6HV&r时期"

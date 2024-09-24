@@ -7,12 +7,12 @@
 	id: "6A50F0290F3D7CC7"
 	order_index: 4
 	quest_links: [{
-		id: "573594B57461FC6D"
+		id: "5D162E9699779EE3"
 		linked_quest: "1CECBF50A30F23B0"
 		shape: "rsquare"
 		size: 1.5d
-		x: -3.761904761904759d
-		y: -2.452380952380949d
+		x: -3.5d
+		y: -2.5d
 	}]
 	quests: [
 		{
@@ -28,6 +28,7 @@
 		}
 		{
 			dependencies: ["63F5094821C731CA"]
+			description: ["但是接下来的每个阶段你都得合成一个小的组装机来合成对应阶段的能源仓"]
 			id: "25D924B587ABCF41"
 			subtitle: "赶紧把大机器用起来吧"
 			tasks: [{
@@ -115,7 +116,12 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0B92B29E066D2E88"]
+			dependencies: [
+				"0B92B29E066D2E88"
+				"79738CBC10C83919"
+				"0CB7F4685CAF107A"
+				"2C5808ACA11F77FD"
+			]
 			id: "5830A3F662F18CB5"
 			tasks: [{
 				id: "0476814271491E5A"
@@ -129,6 +135,7 @@
 			dependencies: [
 				"5830A3F662F18CB5"
 				"13B2AA07FDC88361"
+				"4B171F4BF14703D9"
 			]
 			id: "028B2C12ED867AB0"
 			tasks: [{
@@ -142,6 +149,7 @@
 		{
 			dependencies: ["25D924B587ABCF41"]
 			id: "15228E5BA4B65879"
+			subtitle: "4并行，但是有点贵（"
 			tasks: [{
 				id: "0F2B66762F42FC64"
 				item: "gtceu:iv_parallel_hatch"
@@ -205,6 +213,816 @@
 			}]
 			x: 6.5d
 			y: -6.5d
+		}
+		{
+			dependencies: ["1CECBF50A30F23B0"]
+			id: "1F8943CB91E24427"
+			tasks: [{
+				id: "4287CBE615335DAC"
+				item: "gtceu:iv_electric_motor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1F8943CB91E24427"]
+			id: "6696960FE7A93F76"
+			tasks: [{
+				id: "74643D7AE1DBC6EB"
+				item: "gtceu:iv_electric_piston"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F8943CB91E24427"]
+			id: "143E34B62F13B248"
+			tasks: [{
+				id: "0FFA5D60B11F454E"
+				item: "gtceu:iv_electric_pump"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1F8943CB91E24427"
+				"6696960FE7A93F76"
+			]
+			hide_dependent_lines: true
+			id: "2C5808ACA11F77FD"
+			tasks: [{
+				id: "0D8B3B260399D153"
+				item: "gtceu:iv_robot_arm"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F8943CB91E24427"]
+			hide_dependent_lines: true
+			id: "79738CBC10C83919"
+			tasks: [{
+				id: "6E8FD30865F1590F"
+				item: "gtceu:iv_conveyor_module"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3EE20D3AB81673F0"
+				"401CC51AA97A3DD2"
+			]
+			id: "0CB7F4685CAF107A"
+			tasks: [{
+				id: "00962930FC942B51"
+				item: "gtceu:iv_emitter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3EE20D3AB81673F0"
+				"401CC51AA97A3DD2"
+			]
+			id: "24E10449A4A11554"
+			tasks: [{
+				id: "74596E7779954210"
+				item: "gtceu:iv_sensor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6525B3E4F6052069"
+				"503EFF0F1F7B72CB"
+				"375C2E3997D94721"
+			]
+			id: "3EE20D3AB81673F0"
+			tasks: [{
+				id: "260E11876E04D8E9"
+				item: "gtceu:quantum_star"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FC11FF9B668D855"]
+			id: "54D959569D7F0BD9"
+			subtitle: "快去制作对应小机器的大机器吧！"
+			tasks: [{
+				id: "55261C111E61BB45"
+				title: "大机器时代"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08428BDD673EEC5A"]
+			id: "1CE031B193FB03C6"
+			tasks: [{
+				id: "7784198671D40168"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["028B2C12ED867AB0"]
+			id: "7CBC37154BDED793"
+			tasks: [{
+				id: "58B6B7362CEFE580"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7CBC37154BDED793"]
+			id: "2674BCD150D5DFAD"
+			tasks: [{
+				id: "1206623BC16CB1BF"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2674BCD150D5DFAD"]
+			id: "0D88A5F86881FB3B"
+			tasks: [{
+				id: "39324AD517C3F569"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2A6527B0F4AC3E2E"]
+			id: "2E7C183CC818424B"
+			subtitle: "更好的材料"
+			tasks: [
+				{
+					id: "1DA0467955C095D1"
+					item: "gtceu:hsse_ingot"
+					type: "item"
+				}
+				{
+					id: "398A5FE49973FBE5"
+					item: "gtceu:hsss_ingot"
+					type: "item"
+				}
+			]
+			title: "另外两种高速钢"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2E7C183CC818424B"
+				"5184E21A63FCDD12"
+			]
+			id: "0E7F2FF17D112EA2"
+			subtitle: "更好的贴片"
+			tasks: [
+				{
+					id: "40E6A52A4805A66F"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "2C8EA9C5F48FD332"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "15FF46EE361F2EAF"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "78678611C4319167"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "0CD190DE33D6DC32"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			title: "高级贴片"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B92B29E066D2E88"]
+			id: "2A6527B0F4AC3E2E"
+			subtitle: "可以搓大型搅拌"
+			tasks: [{
+				id: "18F66388FB38E25C"
+				item: "gtceu:iv_mixer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A6527B0F4AC3E2E"]
+			id: "5184E21A63FCDD12"
+			tasks: [{
+				id: "5AA5E77EAFA07A42"
+				item: "gtceu:niobium_titanium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1ED352B272339266"
+				"114C14B4DBCEF015"
+			]
+			id: "55F51D261FC8E78B"
+			subtitle: "推荐你使用萘来合成它"
+			tasks: [{
+				id: "7A5CDC5E8B2DB22B"
+				item: "gtceu:phthalic_acid_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["55F51D261FC8E78B"]
+			id: "65FEB5DC7415B136"
+			tasks: [{
+				id: "298134AE2A12D17B"
+				item: "gtceu:diphenyl_isophthalate_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["07968A97D7CE73D4"]
+			id: "337CD691039A1E83"
+			subtitle: "你必须拥有它，不然你在金星会死"
+			tasks: [
+				{
+					id: "341D76F512FCFE3F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24C0A64638F12EFE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "120454E68D6D503D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55868300D1FAF931"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			id: "114C14B4DBCEF015"
+			subtitle: "PBI产线"
+			tasks: [{
+				id: "3C7BD88EE03CEDD0"
+				type: "checkmark"
+			}]
+			title: "聚苯并咪唑"
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["114C14B4DBCEF015"]
+			id: "43B20673D75D06E6"
+			tasks: [{
+				id: "6500EC7BFC70ADDA"
+				item: "gtceu:chlorobenzene_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["43B20673D75D06E6"]
+			id: "0C37AE7B071B9BCB"
+			tasks: [{
+				id: "395E90BB934A43E4"
+				item: "gtceu:nitrochlorobenzene_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0C37AE7B071B9BCB"]
+			id: "00FF6F56069347A8"
+			tasks: [{
+				id: "345B6369C583F79E"
+				item: "gtceu:dichlorobenzidine_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["00FF6F56069347A8"]
+			id: "2942DE9FDFC74391"
+			tasks: [{
+				id: "527576D62F70E6DF"
+				item: "gtceu:diaminobenzidine_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"2942DE9FDFC74391"
+				"1E676C9E66582185"
+				"65FEB5DC7415B136"
+			]
+			dependency_requirement: "one_completed"
+			id: "2474EA3E5B6C1C66"
+			tasks: [{
+				id: "61DEE7A0339B665E"
+				item: "gtceu:polybenzimidazole_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			id: "1E676C9E66582185"
+			invisible: true
+			tasks: [{
+				count: 16L
+				id: "4A738142AF803FF9"
+				item: "gtceu:polybenzimidazole_plate"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["43B20673D75D06E6"]
+			id: "67B1DCF33DA1537D"
+			tasks: [{
+				id: "041C979A41757455"
+				title: "PSS产线"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			id: "16FCF4B8CA8DE1BE"
+			tasks: [{
+				id: "6A17E5CE216B1611"
+				item: "gtceu:sodium_sulfide_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"16FCF4B8CA8DE1BE"
+				"67B1DCF33DA1537D"
+			]
+			id: "617BED396688514E"
+			tasks: [{
+				id: "7EA79BE155FBFE83"
+				item: "gtceu:polyphenylene_sulfide_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4D6F042D3D3DA8A2"]
+			id: "20275C95E03C7514"
+			tasks: [{
+				id: "4896F1B7AD258883"
+				item: "gtnn:neutron_source"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"25D924B587ABCF41"
+				"08741BE5B2EE74A7"
+				"11CEB762BEC88A67"
+			]
+			id: "7CF8AB9126F11C19"
+			tasks: [{
+				id: "12773E325CB750EF"
+				item: "gtnn:quark_core"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["42BA70F3031EB46B"]
+			hide_dependent_lines: true
+			id: "08741BE5B2EE74A7"
+			tasks: [
+				{
+					id: "711E504FFAEE94F6"
+					item: "gtceu:styrene_butadiene_rubber_bucket"
+					type: "item"
+				}
+				{
+					id: "67E60E8B58AC5FFA"
+					item: "gtceu:silicone_rubber_bucket"
+					type: "item"
+				}
+			]
+			title: "新的橡胶"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "42BA70F3031EB46B"
+			tasks: [{
+				id: "75EBDFEBF3875A93"
+				title: "你需要用到这两种新的橡胶"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"20275C95E03C7514"
+				"7CF8AB9126F11C19"
+			]
+			id: "49534975B8942923"
+			subtitle: "硅岩产线的开始"
+			tasks: [{
+				id: "325A7FFA6546DE1E"
+				item: "gtnn:neutron_activator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["49534975B8942923"]
+			description: ["处理详情见矿物处理章节"]
+			id: "3024C689060DBB33"
+			subtitle: "初步的硅岩处理"
+			tasks: [{
+				id: "6F3E1BDF97B9A711"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"3024C689060DBB33"
+				"4A412A967394C59E"
+			]
+			id: "258BBAE74ED9B2CE"
+			shape: "pentagon"
+			tasks: [{
+				count: 16L
+				id: "11E3E547D593FC67"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3024C689060DBB33"]
+			id: "007D76C1032C8544"
+			subtitle: "ZPM的重要材料"
+			tasks: [{
+				id: "195043829173C0E7"
+				item: "gtceu:naquadah_alloy_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3024C689060DBB33"]
+			id: "2CF209AAA8501F95"
+			subtitle: "ZPM超导"
+			tasks: [{
+				id: "11309F2FDDC557B1"
+				item: "gtceu:uranium_rhodium_dinaquadide_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2A6527B0F4AC3E2E"]
+			id: "17292FB8D4DD36BA"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "LUV的开始"
+			tasks: [{
+				id: "3D6C6ADBFE307348"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B778B5E697A84C2"]
+			id: "3B966B84827FDF0C"
+			tasks: [{
+				id: "55FC128E9FAABD12"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B966B84827FDF0C"]
+			hide_dependent_lines: true
+			id: "6180732138C4222B"
+			tasks: [{
+				id: "2418AB775E169617"
+				item: "gtceu:indium_gallium_phosphide_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "2B778B5E697A84C2"
+			tasks: [{
+				id: "61284484A2A8B60D"
+				item: "gtceu:indium_concentrate_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6180732138C4222B"]
+			id: "08428BDD673EEC5A"
+			tasks: [{
+				id: "475B40BD81A553A5"
+				item: "gtceu:hpic_wafer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6180732138C4222B"]
+			hide_dependent_lines: true
+			id: "4B171F4BF14703D9"
+			tasks: [{
+				id: "11B2EDC1DF615341"
+				item: "gtceu:qbit_cpu_wafer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0B92B29E066D2E88"
+				"2C5808ACA11F77FD"
+				"69C0EA16863038E7"
+				"31057AC4F85B71CE"
+				"0C56A770E0AA5FE2"
+			]
+			description: ["装配线自动化在高版本很简单，只需要用AE的主网接子网即可实现,实在不会可以使用B站搜索"]
+			icon: "gtceu:assembly_line"
+			id: "38B6939B719B9C30"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "只能用ULV输入总线！"
+			tasks: [
+				{
+					id: "3984BE87EE600303"
+					item: "gtceu:assembly_line"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "2C41F6A8F70F477B"
+					item: "gtceu:assembly_line_unit"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "57C5A22D8F29FCE5"
+					item: "gtceu:assembly_line_casing"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "75084C2F82FBDF28"
+					item: "gtceu:laminated_glass"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "412E395C9EFE8478"
+					item: "gtceu:assembly_line_grating"
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "71C6404F2F110BF6"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["50E59136344B029F"]
+			id: "69C0EA16863038E7"
+			subtitle: "将闪存或数据球塞进去"
+			tasks: [{
+				id: "349BEA93B1897763"
+				item: "gtceu:data_access_hatch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50E59136344B029F"]
+			id: "31057AC4F85B71CE"
+			subtitle: "有了它你的闪存才有用"
+			tasks: [{
+				id: "77B9AD21052554D0"
+				item: "gtceu:iv_scanner"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A8AE6B8EBFC49BE"]
+			id: "50E59136344B029F"
+			tasks: [{
+				id: "044AD4F464FC5ADC"
+				item: {
+					Count: 1
+					id: "gtceu:data_stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["007D76C1032C8544"]
+			id: "29086C6A9A5FA58E"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "ZPM的开始"
+			tasks: [{
+				id: "480035A6DEFB0C2A"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -14.5d
+		}
+		{
+			description: [
+				"运行装配线配方时，必须有序输入"
+				"装配线可以双仓升压"
+				"装配线只能装一个数据访问仓，所以你得尽快做出数据库"
+			]
+			id: "28C5FFD22F9B4FEF"
+			subtitle: "装配线"
+			tasks: [{
+				id: "507A01A0F2C8276C"
+				title: "装配线注意事项"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5E6E9A02C455FDB7"
+				"401CC51AA97A3DD2"
+			]
+			id: "0C56A770E0AA5FE2"
+			tasks: [{
+				id: "1E01BFAA13B2358E"
+				item: "gtceu:ruridit_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3024C689060DBB33"]
+			id: "3409E0910FCB61B9"
+			tasks: [{
+				id: "41927386805769E4"
+				title: "做出硅岩后，试试硅岩发电"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2D30354CDA91122C"]
+			id: "5421945223C45651"
+			tasks: [{
+				id: "1767BC1C07B81A81"
+				item: "gtceu:meteor_capturer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
 		}
 	]
 	title: "&9IV&r时期"
