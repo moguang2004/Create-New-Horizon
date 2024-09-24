@@ -205,6 +205,16 @@ ItemEvents.tooltip(event =>{
         tooltip.add(6,Text.translatable("gtceu.universal.tooltip.working_area_chunks",18, 18))
         tooltip.add(7,Text.translatable("gtceu.universal.tooltip.energy_tier_range",GTValues.VNF[7], GTValues.VNF[7 + 1]))
     })
+    event.addAdvanced('gtceu:windmill_control_center',(item,advanced,text)=>{
+        text.add(1,Text.translate('windmill_control_center').gray())
+        text.add(2,Text.translate('ctnh.windmill_control_center.mechanism'))
+        text.add(3,Text.translate('ctnh.windmill_control_center.output').red())
+    })
+    event.addAdvanced('ctnhcore:wind_power_array',(item,advanced,text)=>{
+        text.add(1,Text.translate('wind_power_array').gray())
+        text.add(2,Text.translate('ctnh.wind_power_array.mechanism'))
+        text.add(3,Text.translate('ctnh.wind_power_array.altitude'))
+    })
 
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))
