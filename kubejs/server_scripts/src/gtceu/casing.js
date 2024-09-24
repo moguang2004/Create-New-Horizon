@@ -23,11 +23,11 @@ ServerEvents.recipes(event => {
   ctnh.assembler('reflect_light_casing')
     .itemInputs(['6x gtceu:silver_plate', 'gtceu:silver_frame'])
     .circuit(6)
-    .itemOutputs('2x kubejs:reflect_light_casing')
+    .itemOutputs('2x ctnhcore:reflect_light_casing')
     .EUt(16)
     .duration(50)
   event.shaped(
-    Item.of('kubejs:reflect_light_casing', 2), [
+    Item.of('ctnhcore:reflect_light_casing', 2), [
     "ABA",
     "ADA",
     "ACA"

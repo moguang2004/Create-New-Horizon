@@ -47,6 +47,7 @@ hmclversion.cfg
 /config/oculus.properties
 /config/xaerominimap_entities.json
 /config/embeddium-fingerprint.json
+/config/embeddium-options.json
 /config/jei/world/local/bookmarks.ini
 /mods/.connector
 /mods/.index
