@@ -5,12 +5,13 @@
 	group: "203B37D7B3ACCD4B"
 	icon: "kubejs:steel_casing"
 	id: "08AF6857D150C353"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["2534B56E45BA42B0"]
 			icon: "kubejs:steel_mechanism"
+			icon_scale: 1.3d
 			id: "7D76859D3E40A235"
 			shape: "gear"
 			size: 1.5d
@@ -21,7 +22,7 @@
 			}]
 			title: "钢铁构件"
 			x: -1.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7D76859D3E40A235"]
@@ -31,69 +32,11 @@
 				item: "createdieselgenerators:engine_piston"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"0F0FD5A39ED435FF"
-				"2116B713C128D537"
-				"71A9608CA253CF87"
-			]
-			id: "384AAEC5A353F60E"
-			tasks: [
-				{
-					id: "459FC0013109F9FF"
-					item: "gtceu:primitive_blast_furnace"
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "7C3E761F26FC14A2"
-					item: "gtceu:firebricks"
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"0F0FD5A39ED435FF"
-				"2116B713C128D537"
-				"649DB4832335BB50"
-				"2534B56E45BA42B0"
-			]
-			id: "5029589F8908B0AA"
-			subtitle: "比焦煤更好"
-			tasks: [{
-				id: "6D3AD494E78A5A1C"
-				item: "kubejs:high_quality_solid_fuel"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"6272A1FC85024350"
-				"002CB5A52F6BAB96"
-			]
-			id: "2116B713C128D537"
-			subtitle: "装配线青春版？"
-			tasks: [{
-				id: "49A94CF1E8BE375E"
-				title: "序列组装"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -6.5d
-		}
-		{
-			dependencies: [
-				"64C293C5E547D47D"
-				"0DA7785CF55ABAAB"
-			]
+			dependencies: ["64C293C5E547D47D"]
 			id: "3672E16CD2C53B19"
 			subtitle: "用这个产应力挺好的"
 			tasks: [{
@@ -101,8 +44,8 @@
 				item: "createdieselgenerators:diesel_engine"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -157,8 +100,8 @@
 				}
 			]
 			title: "原油抽取"
-			x: -4.0d
-			y: -1.0d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2534B56E45BA42B0"]
@@ -168,19 +111,22 @@
 				item: "kubejs:steel_casing"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["0DA7785CF55ABAAB"]
+			dependencies: [
+				"2D138FB6F66ED4D5"
+				"0DA7785CF55ABAAB"
+			]
 			id: "6397FCC9081360A5"
 			tasks: [{
 				id: "251E1F73C6A9AAC8"
 				item: "gtceu:impure_oil_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2534B56E45BA42B0"]
@@ -190,8 +136,8 @@
 				item: "createdieselgenerators:basin_lid"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			id: "2D138FB6F66ED4D5"
@@ -200,8 +146,8 @@
 				item: "createdieselgenerators:distillation_controller"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3672E16CD2C53B19"]
@@ -212,52 +158,8 @@
 				item: "createdieselgenerators:large_diesel_engine"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 5.0d
-		}
-		{
-			dependencies: ["6EB3A6246124AA84"]
-			id: "71A9608CA253CF87"
-			tasks: [{
-				id: "1D7A5F7EF5D7D7FD"
-				item: "gtceu:firebrick"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["0E1C7C7EE22CC9CE"]
-			id: "6EB3A6246124AA84"
-			tasks: [{
-				id: "245741A3BE70E32D"
-				item: "gtceu:fireclay_dust"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["4C8960EE1EF18C6F"]
-			id: "649DB4832335BB50"
-			tasks: [{
-				id: "2163FFAA7AA1CE69"
-				item: "gtceu:coke_dust"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["25CADEFA5DCB0244"]
-			id: "4C8960EE1EF18C6F"
-			tasks: [{
-				id: "381EB9F9B643C860"
-				item: "gtceu:coke_gem"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -273,8 +175,8 @@
 				title: "访问下界"
 				type: "dimension"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2534B56E45BA42B0"]
@@ -297,22 +199,19 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
-			dependencies: [
-				"6397FCC9081360A5"
-				"2D138FB6F66ED4D5"
-			]
+			dependencies: ["6397FCC9081360A5"]
 			id: "01225A51A3963F11"
 			tasks: [{
 				id: "4045D78252AD026A"
 				item: "gtceu:bitumen_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7EF838EF4607A41D"]
@@ -323,8 +222,8 @@
 				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 11.0d
+			x: 2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["6397FCC9081360A5"]
@@ -335,8 +234,8 @@
 				item: "gtceu:sulfuric_naphtha_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.5d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6397FCC9081360A5"]
@@ -347,8 +246,8 @@
 				item: "gtceu:sulfuric_heavy_fuel_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 1.5d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["78C907D8AEA05A18"]
@@ -358,8 +257,8 @@
 				item: "gtceu:emulsified_bitumen_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 7.0d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -372,8 +271,8 @@
 				item: "gtceu:simple_emulgator_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.0d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -386,8 +285,8 @@
 				item: "gtceu:emulsified_bitumen_slurry_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.0d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["08C88706F994E458"]
@@ -397,8 +296,8 @@
 				item: "gtceu:soda_ash_dust"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 7.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			description: ["猪牛羊马"]
@@ -409,7 +308,7 @@
 				item: "kubejs:tallow"
 				type: "item"
 			}]
-			x: -8.0d
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -419,8 +318,8 @@
 				item: "gtceu:raw_trona"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 7.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -433,8 +332,8 @@
 				item: "gtceu:pure_bitumen_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 9.0d
+			x: 2.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -447,19 +346,19 @@
 				item: "gtceu:simple_demulsifier_bucket"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 9.0d
+			x: 2.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["1D588967555748D9"]
+			dependencies: ["1209F38D296109C7"]
 			id: "360FC758DC80E8B5"
 			tasks: [{
 				id: "72B1D28E697C9AC6"
 				item: "gtceu:diluted_sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 9.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7EF838EF4607A41D"]
@@ -469,8 +368,8 @@
 				item: "gtceu:petroleum_coke_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 11.0d
+			x: 3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["56BA200ABCEABC7A"]
@@ -480,8 +379,8 @@
 				item: "gtceu:petroleum_coke_gem"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 13.0d
+			x: 3.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -494,8 +393,8 @@
 				item: "gtceu:ethanol_mixture_bucket"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["06B1BB32F96710A2"]
@@ -505,8 +404,8 @@
 				item: "gtceu:ethanol_bucket"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["06B1BB32F96710A2"]
@@ -516,8 +415,8 @@
 				item: "gtceu:fermented_biomass_bucket"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: -5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["41BB77968B763B18"]
@@ -527,8 +426,8 @@
 				item: "gtceu:rich_soil_dust"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["189EA0629CFAD1AB"]
@@ -539,8 +438,8 @@
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: -5.5d
+			y: 0.0d
 		}
 		{
 			id: "189EA0629CFAD1AB"
@@ -549,13 +448,13 @@
 				item: "farmersdelight:organic_compost"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
-				"6DB370790E927958"
 				"712E77CB55012649"
+				"2D138FB6F66ED4D5"
 			]
 			id: "4A20A744ACDB0ABF"
 			tasks: [{
@@ -563,22 +462,19 @@
 				item: "gtceu:seed_oil_bucket"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4A20A744ACDB0ABF"
-				"3C2319F21ED52FAE"
-			]
+			dependencies: ["3C2319F21ED52FAE"]
 			id: "0FBB6BA03487D67F"
 			tasks: [{
 				id: "2D6D506C4E94FF0D"
 				item: "gtceu:raw_bio_diesel_bucket"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			id: "712E77CB55012649"
@@ -595,45 +491,8 @@
 				type: "item"
 			}]
 			title: "种子"
-			x: 1.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["2534B56E45BA42B0"]
-			description: ["注：HV等级以下的离心机&c不能产出副产物&r，所以不要再尝试用大型蒸汽离心机获得一些珍惜的资源了。"]
-			icon: "steamadditions:steam_separator"
-			id: "4EF75F713E2D4357"
-			subtitle: "大型离心机"
-			tasks: [
-				{
-					id: "18BF2572F42D3CF8"
-					item: "steamadditions:steam_separator"
-					type: "item"
-				}
-				{
-					count: 18L
-					id: "30B6A3D8920F6C85"
-					item: { Count: 18, id: "gtceu:steam_machine_casing" }
-					type: "item"
-				}
-				{
-					id: "49FC3E1C705BEFC4"
-					item: "gtceu:ulv_input_bus"
-					type: "item"
-				}
-				{
-					id: "1CAA7E4E8F2BC379"
-					item: "gtceu:ulv_output_bus"
-					type: "item"
-				}
-				{
-					id: "19A7DD8E6ABC4FBA"
-					item: "gtceu:steam_input_hatch"
-					type: "item"
-				}
-			]
-			x: -6.0d
-			y: -3.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			id: "10E9DB3C92C8B969"
@@ -643,11 +502,10 @@
 				item: "createdieselgenerators:oil_scanner"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.0d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["384AAEC5A353F60E"]
 			id: "2534B56E45BA42B0"
 			tasks: [{
 				id: "33BAE42A3FDE47CE"
@@ -655,18 +513,327 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
-			id: "718C110032C7D661"
-			subtitle: "石油、乙醇、粗制生物柴油、种子油可供烈焰人燃烧室直接燃烧"
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"77EA82987E62F815"
+			]
+			id: "4C41E2C3B187A1D5"
 			tasks: [{
-				id: "534A8A46FDC194A4"
-				title: "烈焰人燃烧室的液体燃料"
+				id: "0C5FEB618C9B0FEF"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"77EA82987E62F815"
+			]
+			id: "0798C9DDF9DCB4C0"
+			tasks: [{
+				id: "0FA1878D0384D287"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"77EA82987E62F815"
+			]
+			id: "57D8025474402FA3"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
+			tasks: [{
+				id: "0EAEDC8B3E19022F"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"77EA82987E62F815"
+			]
+			id: "59EF684DC6C23CE5"
+			tasks: [{
+				id: "29F0BA2723DA118A"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"77EA82987E62F815"
+			]
+			id: "6C2A870EFAAABF9B"
+			tasks: [{
+				id: "4CD06C3F64880925"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"4C41E2C3B187A1D5"
+			]
+			id: "608236882ED0C524"
+			tasks: [{
+				id: "394703E8CFC2565E"
+				item: "gtceu:hp_steam_furnace"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"0798C9DDF9DCB4C0"
+			]
+			id: "785B8CB483BA2BAC"
+			tasks: [{
+				id: "1F527387600B8EBD"
+				item: "gtceu:hp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"57D8025474402FA3"
+			]
+			id: "72BEE751463CEE51"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
+			tasks: [{
+				id: "641BE3DB323A8223"
+				item: "gtceu:hp_steam_macerator"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"59EF684DC6C23CE5"
+			]
+			id: "45A2BCD00F3342B9"
+			tasks: [{
+				id: "3535D41BF93A66E0"
+				item: "gtceu:hp_steam_extractor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"6C2A870EFAAABF9B"
+			]
+			id: "09E192FB67DEECE0"
+			tasks: [{
+				id: "6809D06F509661B3"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2534B56E45BA42B0"]
+			description: ["但是效率孰高孰低呢？"]
+			id: "77EA82987E62F815"
+			subtitle: "有些机器可以用多方块结构形式进行“升级”"
+			tasks: [{
+				id: "0810C4B258493E40"
+				title: "机器升级 "
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 9.0d
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"57D8025474402FA3"
+			]
+			id: "6139B36AAB4D0E0D"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
+			tasks: [{
+				id: "43BF76A3183AC1AE"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"4C41E2C3B187A1D5"
+			]
+			id: "447EFFB0159F9391"
+			tasks: [{
+				id: "28B7EB6A2A7E51C6"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7D76859D3E40A235"
+				"64694E06DCC27AE1"
+			]
+			description: ["    给蒸汽引擎供水时，最好使用gt或者enderio的管道，以免在睡觉加速时间时引发供水不足的bug"]
+			id: "680EE95FED0F46F5"
+			subtitle: "你即将进入第一次工业革命！"
+			tasks: [{
+				id: "0FE3911E3029D145"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A20A744ACDB0ABF"]
+			id: "64694E06DCC27AE1"
+			tasks: [{
+				id: "2326298605B44801"
+				item: "gtceu:lubricant_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"11EDB5B9EB1B6554"
+				"31BA6652FDB500C3"
+				"2D138FB6F66ED4D5"
+			]
+			description: ["来自毒化洞穴，那是粗心人的致命之地"]
+			id: "1209F38D296109C7"
+			subtitle: "看似是废液，也许比你想象中更有用......"
+			tasks: [{
+				id: "4B1114D3CEBC9420"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"698DD6984BEF36DA"
+				"1385760305EE11D6"
+			]
+			id: "62BAC5BC588E4CAA"
+			subtitle: "通过磁场洞穴中的青钕和赤钕，或者是植物魔法的磁化透镜磁化获得"
+			tasks: [{
+				id: "3CD9D89EFFFDDA64"
+				item: "gtceu:magnetic_iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["62BAC5BC588E4CAA"]
+			id: "5330148B0417ED4E"
+			tasks: [{
+				id: "7145EBACDBA0A47F"
+				item: "gtceu:magnetic_iron_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1B142F4B0CF620D3"
+				"5330148B0417ED4E"
+				"680EE95FED0F46F5"
+				"24A3BEAC1C62DFEC"
+			]
+			description: ["    越高级的磁铁发电的效率越高（也就是相同应力转化为RF的电量更多）"]
+			id: "2D9F762371DEDF70"
+			subtitle: "磁生电"
+			tasks: [
+				{
+					id: "18762930299222CA"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "749B8BF92428076A"
+					item: "create_new_age:magnetite_block"
+					type: "item"
+				}
+				{
+					id: "008DFC823DF82662"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2D9F762371DEDF70"]
+			id: "54A0B48F51F12647"
+			subtitle: "GT，启动！"
+			tasks: [{
+				id: "3F5BE8B5242E5FC9"
+				item: "gtceu:lv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"4FAA88CA15F02159"
+				"470B9D39E23E01F2"
+			]
+			description: ["不带会热到晕厥（撅撅你的）"]
+			id: "5A14A8CA4E662202"
+			subtitle: "下界探险必备"
+			tasks: [{
+				id: "1559585F30AAE988"
+				item: {
+					Count: 1
+					id: "cold_sweat:soulspring_lamp"
+					tag: {
+						Fuel: 64.0d
+						Lit: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
 		}
 	]
 	title: "钢铁时代"

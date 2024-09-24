@@ -373,7 +373,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["6DB370790E927958"]
 			id: "1EE2CF3221C467D7"
 			tasks: [{
 				id: "0D0EDC340FAF5F3F"
