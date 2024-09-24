@@ -758,7 +758,7 @@ ServerEvents.recipes(event => {
         E: "create:shaft"
     })
     event.shaped(
-        Item.of("gtceu:wind_power_array", 1), [
+        Item.of("ctnhcore:wind_power_array", 1), [
         "ABA",
         "BCB",
         "DED"

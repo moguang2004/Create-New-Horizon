@@ -5,7 +5,7 @@
 	group: "203B37D7B3ACCD4B"
 	icon: "create:copper_casing"
 	id: "16A52180C099C409"
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "28814EBC5418F413"

@@ -1,22 +1,4 @@
 {
-  "gtmthings": {
-    "wireless_energy_hatch_provider": true
-  },
-  "extendedcrafting": {
-    "elite_auto_table": true,
-    "ender_crafter": true,
-    "basic_auto_table": true,
-    "flux_crafter": true,
-    "advanced_table": true,
-    "auto_ender_crafter": true,
-    "ultimate_table": true,
-    "ultimate_auto_table": true,
-    "elite_table": true,
-    "basic_table": true,
-    "crafting_core": true,
-    "advanced_auto_table": true,
-    "compressor": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -69,8 +51,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
+  "crockpot": {
+    "birdcage": true,
+    "crock_pot": true
   },
   "gtceu": {
     "primitive_pump": true,
@@ -92,9 +75,6 @@
     "cable_info": true,
     "parallel_info": true
   },
-  "twilightforest": {
-    "quest_ram_wool": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -112,12 +92,6 @@
     "ench": true,
     "spawner": true
   },
-  "waystones": {
-    "waystone": true
-  },
-  "gravestone": {
-    "grave": true
-  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -129,5 +103,35 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "gtmthings": {
+    "wireless_energy_hatch_provider": true
+  },
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "gravestone": {
+    "grave": true
   }
 }

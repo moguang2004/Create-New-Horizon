@@ -503,6 +503,7 @@
     "ctnh.circuit_resonatic_uev": "§dUEV级电路§r",
     "ctnh.circuit_resonatic_uiv": "§dUIV级电路§r",
     "ctnh.circuit_mana_hv": "§sHV级电路板§r",
+    "ctnh.circuit_mana_ev": "§4EV级电路板§r",
     "ctnh.circuit_echo_zpm": "ZPM级电路板",
     "ctnh.circuit_echo_uv": "UV级电路板",
     "ctnh.circuit_echo_uhv": "UHV级电路板",
