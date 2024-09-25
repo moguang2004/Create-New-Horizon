@@ -1284,7 +1284,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .dust()
         .color(0x46A3FF)
         .components("2x tantalum", "5x oxygen")
-    event.create("tantalite_Fluorine")
+    event.create("tantalite_fluorine")
         .liquid()
         .color(0x46A3AA)
     event.create("potassium_fluoride")
