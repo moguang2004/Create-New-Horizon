@@ -212,8 +212,21 @@ ItemEvents.tooltip(event =>{
     })
     event.addAdvanced('ctnhcore:wind_power_array',(item,advanced,text)=>{
         text.add(1,Text.translate('wind_power_array').gray())
-        text.add(2,Text.translate('ctnh.wind_power_array.mechanism'))
-        text.add(3,Text.translate('ctnh.wind_power_array.altitude'))
+        text.add(2,Text.translate('ctnh.wind_power_array.basic'))
+        text.add(3,Text.translate('ctnh.wind_power_array.mechanism'))
+        text.add(4,Text.translate('ctnh.wind_power_array.altitude'))
+    })
+    event.addAdvanced('ctnhcore:advanced_wind_power_array',(item,advanced,text)=>{
+        text.add(1,Text.translate('wind_power_array').gray())
+        text.add(2,Text.translate('ctnh.advanced_wind_power_array.basic'))
+        text.add(3,Text.translate('ctnh.wind_power_array.mechanism'))
+        text.add(4,Text.translate('ctnh.wind_power_array.altitude'))
+    })
+    event.addAdvanced('ctnhcore:super_wind_power_array',(item,advanced,text)=>{
+        text.add(1,Text.translate('wind_power_array').gray())
+        text.add(2,Text.translate('ctnh.super_wind_power_array.basic'))
+        text.add(3,Text.translate('ctnh.wind_power_array.mechanism'))
+        text.add(4,Text.translate('ctnh.wind_power_array.altitude'))
     })
 
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))

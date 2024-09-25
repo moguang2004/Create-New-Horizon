@@ -1,7 +1,7 @@
 import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
 import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
 import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
-const ManaLargeTurbineMachine = Java.loadClass("io.github.cpearl0.ctnhcore.common.machine.multiblock.part.ManaLargeTurbineMachine")
+const ManaLargeTurbineMachine = Java.loadClass("io.github.cpearl0.ctnhcore.common.machine.multiblock.ManaLargeTurbineMachine")
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('mana_generator')

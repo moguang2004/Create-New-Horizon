@@ -108,6 +108,8 @@ StartupEvents.registry("item", event => {
     tiers.forEach(tier => {
         event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
     })
+    event.create('animal_excreta')
+    event.create('tumor')
     event.create('crashed_rice')
     event.create('space_fabric')
     event.create('endslate')
@@ -254,16 +256,16 @@ StartupEvents.registry("block", event => {
 
 
 ItemEvents.modification(event => {
-    event.modify('farmersdelight:rice',item => {
-        item.setFoodProperties(food =>{
-            food.eaten((/**@type {$FoodEatenEventJS}*/eat) =>{
-                if(eat.entity.isPlayer()){
-                    console.info('eat!')
-                    eat.player.addItem('kubejs:crashed_rice')
-                }
-            })
-        })
-    })
+    // event.modify('farmersdelight:rice',item => {
+    //     item.setFoodProperties(food =>{
+    //         food.eaten((/**@type {$FoodEatenEventJS}*/eat) =>{
+    //             if(eat.entity.isPlayer()){
+    //                 console.info('eat!')
+    //                 eat.player.addItem('kubejs:crashed_rice')
+    //             }
+    //         })
+    //     })
+    // })
     event.modify('tomeofblood:living_mage_hood', item => {
         item.setArmorProtection(4)
         item.setArmorToughness(3)

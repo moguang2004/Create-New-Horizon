@@ -86,6 +86,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         event.create('oxide_' + material.name)
             .dust()
             .color(material.color)
+            .components(`${material.name}`,'oxygen')
         event.create('carbide_' + material.name)
             .dust()
             .color(material.color + 20)
