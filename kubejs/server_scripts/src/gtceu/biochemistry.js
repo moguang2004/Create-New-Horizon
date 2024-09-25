@@ -261,7 +261,7 @@ ServerEvents.recipes(event => {
         .EUt(1920)
         .duration(160)
     event.recipes.gtceu.mixer('radiation_mutated_yeast')
-        .itemInputs(['gtceu:polluted_fluorescence_yeast_dust','gtceu:mendelevium_259_dust'])
+        .itemInputs(['gtceu:polluted_fluorescence_yeast_dust','gtceu:mendelevium_dust'])
         .inputFluids(Fluid.of('gtceu:uranium_hexafluoride',1000))
         .chancedOutput('gtceu:radiation_mutated_yeast_dust',200,50)
         .EUt(1920)

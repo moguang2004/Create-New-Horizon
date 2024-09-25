@@ -25,7 +25,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .onWorking(machine => {
             if (machine.getOffsetTimer() % 20 == 0) {
                 let tier = machine.self().getTier()
-                let recipe = GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:mana " + Math.pow(2, tier) * 10).buildRawRecipe()
+                let recipe = GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:mana " + Math.pow(2, tier) * 5).buildRawRecipe()
                 if (recipe.matchRecipe(machine).isSuccess()) {
                     recipe.handleRecipeIO(IO.IN, machine, machine.recipeLogic.getChanceCaches())
                     return true

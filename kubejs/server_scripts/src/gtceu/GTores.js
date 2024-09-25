@@ -268,17 +268,44 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.modify('gtceu:sheldonite_vein', vein => {
-        vein.layer('all_layer')
-        vein.dimensions('ad_astra:moon')
+    let ADASTRA = ['ad_astra:lunar_wastelands','ad_astra:glacio_ice_peaks','ad_astra:glacio_snowny_barrens',
+        'ad_astra:inferno_venus_barrens','ad_astra:martian_canyon_creek','ad_astra:martian_polar_caps',
+        'ad_astra:martian_wastelands','ad_astra:mercury_deltas','ad_astra:venus_wastelands','ad_extendra:cosmic_gaslands',
+        'ad_extendra:intriguing_wastelands']
+    event.add('ctnh:sheldonite_vein_moon',vein =>{
+        vein.clusterSize(29)
+        vein.density(0.2)
         vein.weight(80)
+        vein.layer('all_layer')
+        vein.heightRangeUniform(5, 50)
+        vein.dimensions('ad_astra:moon')
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Bornite).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Cooperite).size(1, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.Platinum).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Palladium).size(1, 1))
+                        ))
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Platinum)
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
     })
+    event.remove('gtceu:sheldonite_vein')
     event.modify('gtceu:naquadah_vein', vein => {
         vein.layer('all_layer')
+        ADASTRA.forEach(biome =>{
+            vein.biomes(biome)
+        })
         vein.dimensions(['ad_astra:mercury', 'ad_extendra:jupiter'])
     })
     event.modify('gtceu:monazite_vein', vein => {
         vein.layer('all_layer')
+        ADASTRA.forEach(biome =>{
+            vein.biomes(biome)
+        })
         vein.dimensions('ad_extendra:jupiter')
     })
     event.modify('gtceu:mica_vein', vein => {
