@@ -347,10 +347,20 @@
 			y: -2.0d
 		}
 		{
+			description: [
+				"在不同的维度里，光伏发电的基础发电功率是不同的："
+				"    主世界、暮色森林、亚尔夫海姆：1x"
+				"    天境、火星及其轨道：2x"
+				"    月球及其轨道：4x"
+				"    金星及其轨道：6x"
+				"    水星及其轨道：16x"
+				"    霜原星及其轨道：32x"
+			]
 			id: "5E9C58D5439EF42D"
+			subtitle: "来看说明"
 			tasks: [{
-				id: "3CDA34D2FC699A61"
-				item: "gtceu:photovoltaic_power_station_energetic"
+				id: "53158C408FB3D0E5"
+				item: "ctnhcore:photovoltaic_power_station_energetic"
 				type: "item"
 			}]
 			x: 10.0d
@@ -359,8 +369,8 @@
 		{
 			id: "06335DDDA4AEA30C"
 			tasks: [{
-				id: "12E9CB2E088A7B5A"
-				item: "gtceu:photovoltaic_power_station_pulsating"
+				id: "5E1524F7B308DECF"
+				item: "ctnhcore:photovoltaic_power_station_pulsating"
 				type: "item"
 			}]
 			x: 10.0d
@@ -369,8 +379,8 @@
 		{
 			id: "76B4460F735B7901"
 			tasks: [{
-				id: "0BA4B86CC330167F"
-				item: "gtceu:photovoltaic_power_station_vibrant"
+				id: "59B3C6D5493FC9E8"
+				item: "ctnhcore:photovoltaic_power_station_vibrant"
 				type: "item"
 			}]
 			x: 10.0d
@@ -395,6 +405,36 @@
 			}]
 			x: 8.0d
 			y: 4.0d
+		}
+		{
+			id: "73409534B2EB6BAD"
+			tasks: [{
+				id: "206922990FD52766"
+				item: "ctnhcore:wind_power_array"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			id: "759374E8F831436A"
+			tasks: [{
+				id: "66CF15A076ECCB9B"
+				item: "ctnhcore:advanced_wind_power_array"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			id: "1267F0A92E7AEC13"
+			tasks: [{
+				id: "68EF7102F64A4418"
+				item: "ctnhcore:super_wind_power_array"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.5d
 		}
 	]
 	title: "如何发电"

@@ -7,25 +7,25 @@
 	icon: "gtceu:mv_machine_hull"
 	id: "7647DBDFA1F452A1"
 	order_index: 1
-	quest_links: [{
-		id: "5C80269B121E9ADC"
-		linked_quest: "2C6FBF2A814BB60D"
-		x: 8.5d
-		y: 2.0d
-	}]
-	quests: [
+	quest_links: [
 		{
-			dependencies: ["19869FD9D4BCCB9F"]
-			id: "06D48F5EE21CB5C7"
-			tasks: [{
-				id: "4963BD3238361DD5"
-				item: "gtceu:aluminium_ingot"
-				type: "item"
-			}]
+			id: "5C80269B121E9ADC"
+			linked_quest: "2C6FBF2A814BB60D"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			id: "7499099A0B832604"
+			linked_quest: "11F898C7B0C925D5"
+			shape: "rsquare"
+			size: 1.5d
 			x: -4.5d
 			y: -1.0d
 		}
+	]
+	quests: [
 		{
+			dependencies: ["11F898C7B0C925D5"]
 			id: "1FBD86C0CF681427"
 			tasks: [{
 				id: "24CB9175692BADFD"
@@ -841,6 +841,7 @@
 				"11F898C7B0C925D5"
 				"7BE6A468603F70A6"
 			]
+			hide_dependency_lines: true
 			id: "01377F6FDB479DC4"
 			tasks: [
 				{
