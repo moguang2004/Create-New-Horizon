@@ -46,7 +46,6 @@ ServerEvents.recipes(event => {
         "create:crafting/kinetics/mechanical_bearing",
         "sophisticatedbackpacks:netherite_backpack",
         "expandedstorage:obsidian_to_netherite_conversion_kit",
-        "bclib:tag_piston",
         "enderio:alloy_smelting/pulsating_alloy_ingot",
         "enderio:alloy_smelting/vibrant_alloy_ingot",
         "enderio:alloy_smelting/copper_alloy_ingot",
@@ -74,7 +73,6 @@ ServerEvents.recipes(event => {
         "tetranichematerials:gold_ingot_from_powder_blasting",
         "tetranichematerials:steel_ingot_from_powder_blasting",
         "tetranichematerials:steel_powder",
-        "bclib:tag_bucket",
         "extendedcrafting:handheld_table",
         "create_new_age:shaped/layered_magnet",
         "enderio:stick",
@@ -82,7 +80,6 @@ ServerEvents.recipes(event => {
         "enderio:wood_gear_corner",
         "enderio:stirling_generator",
         "minecraft:iron_trapdoor",
-        "betterend:thallasium_trapdoor",
         "create:mixing/brass_ingot",
         "ad_astra:wrench",
         "gtceu:combustion_generator/raw_oil",
@@ -93,11 +90,6 @@ ServerEvents.recipes(event => {
         "functionalstorage:oak_drawer_alternate_x4",
         "javd:portal_block",
         "tetranichematerials:grave_steel_ingot",
-        "betterend:thallasium_block",
-        "betterend:thallasium_door",
-        "betterend:thallasium_bars",
-        "betterend:thallasium_pressure_plate",
-        "betterend:thallasium_anvil",
         "create_new_age:shaped/netherite_magnet",
         "create_new_age:shaped/fluxuated_magnetite",
         "gtceu:assembler/oak_stairs",
@@ -137,14 +129,12 @@ ServerEvents.recipes(event => {
         "create:millstone",
         "enderio:soularium_ingot",
         "enderio:energetic_alloy_ingot",
-        "betterend:ender_block",
         "ad_astra:desh_fluid_pipe",
         "ad_astra:ostrum_fluid_pipe",
         "ad_astra:fluid_pipe_duct"
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot",
-        "betterend:ender_block",
     ])
 
     event.remove({ id: /thermal:parts(.*)_gear/ })
@@ -166,5 +156,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_pyrochlore" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_tantalite" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_niobium_oxide" })
-    event.remove({ id:"gtceu:electrolyzer/decomposition_electrolyzing_tantalite_oxide"})
+    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_tantalite_oxide" })
 })
