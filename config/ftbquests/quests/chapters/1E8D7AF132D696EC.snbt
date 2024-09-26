@@ -834,6 +834,147 @@
 			x: -5.0d
 			y: 1.5d
 		}
+		{
+			id: "3CC670A11D3D534A"
+			tasks: [{
+				id: "67301C7B0A957CD4"
+				item: "kubejs:echo_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			id: "5A298315DDA95EBA"
+			tasks: [{
+				id: "08AA9977F6FE0A60"
+				item: "kubejs:circuit_resonatic_ulv"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A298315DDA95EBA"]
+			id: "71C42E2C094613E2"
+			tasks: [{
+				id: "4CD5879FDE19065B"
+				item: "kubejs:circuit_resonatic_lv"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71C42E2C094613E2"]
+			id: "7817E93B902F32DD"
+			tasks: [{
+				id: "4C49472ADD7BF747"
+				item: "kubejs:circuit_resonatic_mv"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7817E93B902F32DD"]
+			id: "7D27C200C5E6AAF1"
+			tasks: [{
+				id: "3D750ED2FAEE299A"
+				item: "kubejs:circuit_resonatic_hv"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D27C200C5E6AAF1"]
+			id: "5B9276CC659104A9"
+			tasks: [{
+				id: "04AF20A69CACB8D1"
+				item: "kubejs:circuit_resonatic_ev"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B9276CC659104A9"]
+			id: "4CC8748F44F840FB"
+			tasks: [{
+				id: "41EB804EBFF10A96"
+				item: "kubejs:circuit_resonatic_iv"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CC8748F44F840FB"]
+			id: "5E8E9776EF7B8483"
+			tasks: [{
+				id: "4D6B66D77EE39A1B"
+				item: "kubejs:circuit_resonatic_luv"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E8E9776EF7B8483"]
+			id: "31C2EDC8AB13D99B"
+			tasks: [{
+				id: "49E26B4CE4053F85"
+				item: "kubejs:circuit_resonatic_zpm"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31C2EDC8AB13D99B"]
+			id: "6250BE6DDAD14744"
+			tasks: [{
+				id: "22CDF9330BAAF471"
+				item: "kubejs:circuit_resonatic_uv"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6250BE6DDAD14744"]
+			id: "1C46FF66CCF459CF"
+			tasks: [{
+				id: "4C8620F0F16C925D"
+				item: "kubejs:circuit_resonatic_uhv"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1C46FF66CCF459CF"]
+			id: "430918CC14E2DA0B"
+			tasks: [{
+				id: "67617A4FC2AD5C08"
+				item: "kubejs:circuit_resonatic_uev"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["430918CC14E2DA0B"]
+			id: "572ADD9A4C7B6F37"
+			tasks: [{
+				id: "4D62505B67B0F04C"
+				item: "kubejs:circuit_resonatic_uiv"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 12.0d
+		}
 	]
 	title: "电路板全家福"
 }

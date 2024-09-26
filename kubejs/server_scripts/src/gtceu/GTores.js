@@ -275,7 +275,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add('ctnh:sheldonite_vein_moon',vein =>{
         vein.clusterSize(29)
         vein.density(0.2)
-        vein.weight(80)
+        vein.weight(40)
         vein.layer('all_layer')
         vein.heightRangeUniform(5, 50)
         vein.dimensions('ad_astra:moon')
@@ -581,4 +581,24 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletionChance(1)
         vein.depletedYield(50)
     });
+    event.add('gtceu:mars_mystery_fluid', vein =>{
+        vein.dimensions('ad_astra:mars')
+        vein.fluid(() => Fluid.of('gtceu:mystery_fluid').fluid)
+        vein.weight(100)
+        vein.minimumYield(120)
+        vein.maximumYield(600)
+        vein.depletionAmount(2)
+        vein.depletionChance(1)
+        vein.depletedYield(50)
+    })
+    event.add('gtceu:mars_mystery_fluid', vein =>{
+        vein.dimensions('ad_astra:mars')
+        vein.fluid(() => Fluid.of('gtceu:distilled_water').fluid)
+        vein.weight(800)
+        vein.minimumYield(120)
+        vein.maximumYield(600)
+        vein.depletionAmount(2)
+        vein.depletionChance(1)
+        vein.depletedYield(50)
+    })
 })
