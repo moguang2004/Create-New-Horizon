@@ -41,6 +41,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["591C04018820A1E3"]
 			id: "1FC5D2A60578FB55"
 			subtitle: "熔炼可以从大量的贵金属中提取出一些珍惜的金元素"
 			tasks: [{
@@ -52,6 +53,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["7BF6145D39DCD926"]
 			id: "591C04018820A1E3"
 			tasks: [{
 				id: "546D6814E85D21DE"
@@ -62,6 +64,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["591C04018820A1E3"]
 			id: "7FD64849E74532D1"
 			tasks: [{
 				id: "2D851946C689066A"
@@ -72,6 +75,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["7FD64849E74532D1"]
 			id: "188AC9C2BFA0D221"
 			tasks: [{
 				id: "69E5CD6035C41564"
@@ -82,6 +86,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["188AC9C2BFA0D221"]
 			id: "01622A02A8887530"
 			subtitle: "经过处理后，可以提炼出更多的金"
 			tasks: [{
@@ -93,6 +98,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["188AC9C2BFA0D221"]
 			id: "21D904DC5BD2D857"
 			subtitle: "可以回收铜，以及获得一些副产物"
 			tasks: [{
@@ -104,6 +110,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["188AC9C2BFA0D221"]
 			id: "4009858927F160B3"
 			subtitle: "提取出全部的金"
 			tasks: [{
@@ -115,6 +122,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["4009858927F160B3"]
 			id: "5D89595C7C76ABA3"
 			tasks: [{
 				id: "284E05F53588FDA5"
@@ -136,6 +144,10 @@
 			y: -4.5d
 		}
 		{
+			dependencies: [
+				"0C52DB44DF9EE06F"
+				"5211BE1C25953D4A"
+			]
 			id: "32032DEB11135FEF"
 			subtitle: "经过二者电解，可以降低铝粉制取所需要的电压"
 			tasks: [{
@@ -147,6 +159,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["681DC7A75791D7E2"]
 			id: "5211BE1C25953D4A"
 			tasks: [{
 				id: "2C77ED3A3A5EF31A"
@@ -157,6 +170,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["32032DEB11135FEF"]
 			id: "71F48712315B25E1"
 			tasks: [{
 				id: "0FF1B563A0B8AD1F"
@@ -188,6 +202,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["692E8C5A4D30B8C3"]
 			id: "53314CF3EED532FE"
 			tasks: [{
 				id: "241312D489129531"
@@ -198,6 +213,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["53314CF3EED532FE"]
 			id: "689BE30CCFFF7850"
 			subtitle: "铝土矿中含有少量金红石"
 			tasks: [{
@@ -209,6 +225,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["53314CF3EED532FE"]
 			id: "0790DA91AB13BE3C"
 			tasks: [{
 				id: "52CC5B3C7610C890"
@@ -219,6 +236,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["0790DA91AB13BE3C"]
 			id: "27E122BB40B8033B"
 			tasks: [{
 				id: "2111C3CCA691CBFE"
@@ -229,6 +247,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["27E122BB40B8033B"]
 			id: "1059716CA13CA10E"
 			subtitle: "副产物"
 			tasks: [{
@@ -240,6 +259,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["7E7D5E681C498055"]
 			id: "59E759B719D5A1A6"
 			tasks: [{
 				id: "0A92BA54A61BDEF2"
@@ -250,6 +270,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["59E759B719D5A1A6"]
 			id: "1C994AA2C77B0911"
 			tasks: [{
 				id: "61FE402E5316054D"
@@ -260,6 +281,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["27E122BB40B8033B"]
 			id: "7E7D5E681C498055"
 			subtitle: "铝元素提取"
 			tasks: [{
@@ -271,6 +293,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["7E7D5E681C498055"]
 			id: "4E3F96D91F921735"
 			subtitle: "在电力高炉内熔炼成氧化铝"
 			tasks: [{
@@ -282,6 +305,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["1C994AA2C77B0911"]
 			id: "38593C46A52F4829"
 			tasks: [{
 				id: "1AE29838F9537F06"
@@ -292,6 +316,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["38593C46A52F4829"]
 			id: "485C1D0AC5D7CD84"
 			tasks: [{
 				id: "2F06905AF836762C"
@@ -302,6 +327,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["1C994AA2C77B0911"]
 			id: "6F241247AD71D256"
 			tasks: [{
 				id: "71E40B1F58A12C18"
@@ -322,6 +348,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["7B39D1E05DC86052"]
 			id: "2C1A8A066B26C7E8"
 			tasks: [{
 				id: "1B3B1DBAA3D3C1C7"
@@ -332,6 +359,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["2C1A8A066B26C7E8"]
 			id: "1D68822FC0FF9397"
 			tasks: [{
 				id: "7F401E9AFEA18947"
@@ -342,6 +370,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["2C1A8A066B26C7E8"]
 			id: "40334FD9CA5BE3F6"
 			tasks: [{
 				id: "5FD4592618496645"
@@ -352,6 +381,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["1D68822FC0FF9397"]
 			id: "28A51B00DA790080"
 			tasks: [{
 				id: "42DA4AE38BED7CF3"
@@ -362,6 +392,10 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"28A51B00DA790080"
+				"4DBD8EB3AD4FDE77"
+			]
 			id: "13C1D1A5B0F556DE"
 			tasks: [{
 				id: "57C2415398EB42CE"
@@ -372,6 +406,10 @@
 			y: 3.5d
 		}
 		{
+			dependencies: [
+				"28A51B00DA790080"
+				"4DBD8EB3AD4FDE77"
+			]
 			id: "536030AA750A8B7A"
 			tasks: [{
 				id: "49368CD3C5D3A03E"
@@ -382,6 +420,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["536030AA750A8B7A"]
 			id: "587B19D74EBD471D"
 			tasks: [{
 				id: "4A28F8BA8AE03C82"
@@ -392,6 +431,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["13C1D1A5B0F556DE"]
 			id: "47485BAEA018AEEE"
 			tasks: [{
 				id: "63E5D6CA1485E3A5"
@@ -402,6 +442,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["587B19D74EBD471D"]
 			id: "0748D4238B254FDE"
 			tasks: [{
 				id: "5B7B7AE2D69BFF7B"
@@ -412,6 +453,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["47485BAEA018AEEE"]
 			id: "460F39860B714E4B"
 			tasks: [{
 				id: "56F9C02F5095A8AC"
@@ -422,6 +464,10 @@
 			y: 7.5d
 		}
 		{
+			dependencies: [
+				"5FC9C2D0BA80EDF9"
+				"7F55A71CEDF3B60E"
+			]
 			id: "4DBD8EB3AD4FDE77"
 			tasks: [{
 				id: "6788F86F8C5BFCC0"
@@ -442,6 +488,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["0158BA7AC2658C5E"]
 			id: "7F55A71CEDF3B60E"
 			tasks: [{
 				id: "430BDEA138CA9BC4"
@@ -482,6 +529,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["186D58AA50878D70"]
 			id: "7A75307AD2B9C3A2"
 			tasks: [{
 				id: "1A4E05FBE5B825EB"
@@ -492,6 +540,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["51650710102C8CBB"]
 			id: "2D50C8242E31A3FB"
 			tasks: [{
 				id: "35D18A85235F137B"
@@ -502,6 +551,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["7A75307AD2B9C3A2"]
 			id: "73E81DAE5413E833"
 			tasks: [{
 				id: "4CD9B4325C8F0D90"
@@ -512,6 +562,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["73E81DAE5413E833"]
 			id: "5AA3292EEBDBA8F2"
 			tasks: [{
 				id: "371E5CC1B838678A"
@@ -522,6 +573,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["5AA3292EEBDBA8F2"]
 			id: "41CDA2667B97AA0F"
 			tasks: [{
 				id: "40BE3BDB539E3D0B"
@@ -532,6 +584,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["5AA3292EEBDBA8F2"]
 			id: "0BF484D18E7353B0"
 			tasks: [{
 				id: "46220601DC69287E"
@@ -542,6 +595,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["41CDA2667B97AA0F"]
 			id: "7DD310879DD21C57"
 			tasks: [{
 				id: "47C16D60B2BE8BD9"
@@ -552,6 +606,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["7DD310879DD21C57"]
 			id: "61A8483B8C77C58F"
 			tasks: [{
 				id: "7D9EE06EC920B534"
@@ -562,6 +617,10 @@
 			y: 7.5d
 		}
 		{
+			dependencies: [
+				"66E2BAFB5203941F"
+				"61A8483B8C77C58F"
+			]
 			id: "30F5F4B7C3DF1DF6"
 			tasks: [{
 				id: "1F31E9F7054C215D"
@@ -572,6 +631,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["61A8483B8C77C58F"]
 			id: "52B6406C4AD72B9D"
 			tasks: [{
 				id: "3193406A1EC04FB4"
@@ -582,6 +642,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["52B6406C4AD72B9D"]
 			id: "75F1447FC04E7A81"
 			tasks: [{
 				id: "21250A18AA0AAF33"
@@ -592,6 +653,7 @@
 			y: 11.5d
 		}
 		{
+			dependencies: ["75F1447FC04E7A81"]
 			id: "5E23B6C857BE5268"
 			tasks: [{
 				id: "7CD12753B2457B37"
@@ -602,6 +664,7 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["5E23B6C857BE5268"]
 			id: "3BB61A35FA438477"
 			tasks: [{
 				id: "0E20EDA87916A488"
@@ -612,6 +675,7 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["3BB61A35FA438477"]
 			id: "6FB3718CE0E61678"
 			tasks: [{
 				id: "0F55B216DC2ABA74"
@@ -632,6 +696,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["0BF484D18E7353B0"]
 			id: "02AEF0939FC70EBC"
 			tasks: [{
 				id: "29A100920ED24A6F"
@@ -642,6 +707,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["0BF484D18E7353B0"]
 			id: "7F14A8D40CB96DBF"
 			tasks: [{
 				id: "2020267F30E93D47"
@@ -652,6 +718,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["0BF484D18E7353B0"]
 			id: "7573ED92DBDB8814"
 			tasks: [{
 				id: "2E2F02A759D76E4A"
@@ -662,6 +729,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["30F5F4B7C3DF1DF6"]
 			id: "00AAE2E229C346B4"
 			tasks: [{
 				id: "632B4304A3976A8E"
@@ -672,6 +740,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["30F5F4B7C3DF1DF6"]
 			id: "7E7C77C22332D092"
 			tasks: [{
 				id: "666BCDFB05F61A17"
@@ -682,6 +751,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["30F5F4B7C3DF1DF6"]
 			id: "0F51578F1B16E723"
 			tasks: [{
 				id: "1B9085B351E17467"
@@ -703,6 +773,10 @@
 			y: -4.5d
 		}
 		{
+			dependencies: [
+				"591C04018820A1E3"
+				"211AA05F2154A9FD"
+			]
 			id: "1C43AC1622B80AD6"
 			tasks: [{
 				id: "58AFDD38257D33B0"
