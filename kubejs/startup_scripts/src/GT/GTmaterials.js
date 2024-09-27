@@ -1313,7 +1313,21 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("ammonium_fluoride")
         .liquid()
         .color(0xFFCCCC)
-    
+    event.create("dibismuthhydroborat")
+        .dust()
+        .color(0x0ed138)
+        .components('boron','hydrogen','2x bismuth')
+    event.create("bismuth_tellurite")
+        .dust()
+        .color(0x95eb88)
+        .components('2x bismuth','3x tellurium')
+    event.create("circuit_compound")
+        .dust()
+        .color(0x4a4a4a)
+        .components('3x dibismuthhydroborat','2x bismuth_tellurite','indium_gallium_phosphide')
+    event.create("mystery_fluid")
+        .liquid()
+        .color(0x4ded1c)
 })
 
 StartupEvents.postInit(event => {

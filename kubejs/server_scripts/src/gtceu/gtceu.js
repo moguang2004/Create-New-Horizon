@@ -3,6 +3,24 @@
         .itemOutputs("物品id")
         .duration(时间)
         .EUt(功率)*/
+ServerEvents.recipes(event => {
+    event.forEachRecipe({ mod: 'gtceu' , type: 'gtceu:electric_blast_furnace'}, recipe => {
+        try {
+            var newDuration = recipe.get("duration");
+            recipe.set("duration", newDuration * 3/4>=1?newDuration * 3/4:1);
+            
+        } catch (err) {
+        }
+    })
+    event.forEachRecipe({ mod: 'gtceu' , type: 'gtceu:alloy_blast_smelter'}, recipe => {
+      try {
+          var newDuration = recipe.get("duration");
+          recipe.set("duration", newDuration * 3/4>=1?newDuration * 3/4:1);
+          
+      } catch (err) {
+      }
+  })
+})
 const GTNNRecipes = Java.loadClass("dev.arbor.gtnn.data.GTNNRecipes")
 ServerEvents.recipes(event => {
   event.recipes.gtceu.create_mixer("rose_quartz")
@@ -123,6 +141,7 @@ ServerEvents.recipes(event => {
     .chancedOutput("2x minecraft:kelp", 2000, 500)
     .chancedOutput("1x minecraft:kelp", 500, 500)
     .inputStress(512)
+    .addData('inputStress',512)
   event.recipes.gtceu.chemical_reactor("fix")
     .inputFluids(Fluid.of("gtceu:dilute_iodine_solution", 1000))
     .inputFluids(Fluid.of("gtceu:chlorine", 2000))
@@ -920,11 +939,35 @@ ServerEvents.recipes(event => {
     .inputFluids(Fluid.of("gtceu:lubricant", 25))
     .duration(200)
     .outputStress(512)
+  event.recipes.gtceu.chemical_bath('fiber_glass')
+    .itemInputs('gtceu:cellulose_dust')
+    .inputFluids(Fluid.of('gtceu:glass',288))
+    .outputFluids(Fluid.of('gtceu:fiber_glass',288))
+    .EUt(30)
+    .duration(120)
   event.remove({id:'gtceu:assembler/space_helmet'})
+  event.remove({id:'gtceu:shaped/space_suit'})
+  event.remove({id:'gtceu:shaped/space_pants'})
+  event.remove({id:'gtceu:shaped/space_boots'})
   event.recipes.gtceu.assembler('space_helmet')
-    .itemInputs('gtceu:glass_plate','minecraft:chainmail_helmet')
+    .itemInputs('gtceu:glass_plate','4x kubejs:space_fabric')
     .inputFluids(Fluid.of('gtceu:glue',72))
     .itemOutputs('ad_astra:space_helmet')
+    .EUt(120)
+    .duration(400)
+  event.recipes.gtceu.assembler('space_suit')
+    .itemInputs(['ad_astra:oxygen_gear', '2x ad_astra:gas_tank', '4x gtnn:heavy_plate_t1', '2x gtceu:stainless_steel_screw', '4x kubejs:space_fabric'])
+    .itemOutputs('ad_astra:space_suit')
+    .EUt(120)
+    .duration(400)
+  event.recipes.gtceu.assembler('space_pants')
+    .itemInputs(['5x gtnn:heavy_plate_t1','3x kubejs:space_fabric'])
+    .itemOutputs('ad_astra:space_pants')
+    .EUt(120)
+    .duration(400)
+  event.recipes.gtceu.assembler('space_boots')
+    .itemInputs(['4x gtnn:heavy_plate_t1','2x kubejs:space_fabric'])
+    .itemOutputs('ad_astra:space_boots')
     .EUt(120)
     .duration(400)
   event.recipes.gtceu.autoclave('imprinted_resonatic_circuit_board')
@@ -1114,4 +1157,38 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of('gtceu:neutronium',144),Fluid.of('gtceu:phosphorus',144))
         .EUt(491520)
         .duration(16);
+    event.recipes.gtceu.meadow('meadow')
+        .circuit(0)
+        .inputStress(1024)
+        .duration(100)
+        .addData('inputStress',1024)
+    event.recipes.gtceu.mixer('dibismuthhydroborat')
+        .itemInputs(['2x gtceu:bismuth_dust','gtceu:boron_dust'])
+        .inputFluids(Fluid.of('gtceu:hydrogen',1000))
+        .itemOutputs('4x gtceu:dibismuthhydroborat_dust')
+        .EUt(120)
+        .duration(590)
+    event.recipes.gtceu.mixer('bismuth_tellurite')
+        .itemInputs(['2x gtceu:bismuth_dust','3x gtceu:tellurium_dust'])
+        .itemOutputs('5x gtceu:bismuth_tellurite_dust')
+        .EUt(80)
+        .duration(162)
+    event.recipes.gtceu.mixer('circuit_compound')
+        .itemInputs(['3x gtceu:dibismuthhydroborat_dust','2x gtceu:bismuth_tellurite_dust','gtceu:indium_gallium_phosphide_dust'])
+        .itemOutputs('6x gtceu:circuit_compound_dust')
+        .duration(982)
+        .EUt(15)
+    event.recipes.gtceu.forming_press('pressed_circuit')
+        .itemInputs(['4x gtceu:circuit_compound_dust','gtceu:magneto_resonatic_dust'])
+        .itemOutputs('kubejs:raw_imprinted_resonatic_circuit_board')
+        .duration(300)
+        .EUt(480)
+    event.recipes.gtceu.electric_blast_furnace('titanium')
+        .itemInputs(['10x gtceu:ilmenite_dust','2x gtceu:carbon_dust'])
+        .itemOutputs(['2x gtceu:wrought_iron_ingot','2x gtceu:rutile_dust'])
+        .outputFluids(Fluid.of('gtceu:carbon_monoxide',2000))
+        .duration(800)
+        .EUt(480)
+        .blastFurnaceTemp(1700)
+    event.remove({id:'gtceu:electric_blast_furnace/rutile_from_ilmenite'})
 })

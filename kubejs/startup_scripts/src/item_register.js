@@ -13,7 +13,7 @@ Platform.getInfo('kubejs').name = 'Create: New Horizon'
 StartupEvents.registry("item", event => {
     event.create('treated_clay_ball')
     event.create('basic_mechanism')
-    let MAX_ENERGY = 100000000
+    let MAX_ENERGY = 10000000
     event.create('temperature_keeping_device').tag('curios:body')
         .attachCapability(CapabilityBuilder.ENERGY.customItemStack()
             .canReceive(i => true)
@@ -41,7 +41,7 @@ StartupEvents.registry("item", event => {
                 let energy = itemstack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
                 let { energyStored, maxEnergyStored } = energy
                 if (energyStored > 0) {
-                    let energyConsumed = Math.min(energyStored, 600)
+                    let energyConsumed = Math.min(energyStored, 60)
                     itemstack.nbt.putInt('energyStored', energyStored - energyConsumed)
                     return true
                 }

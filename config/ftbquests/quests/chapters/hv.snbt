@@ -357,7 +357,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["082ABAF36B6EC7DC"]
+			dependencies: [
+				"082ABAF36B6EC7DC"
+				"446AA42EB8DCE6EB"
+			]
 			id: "16243C6CC9C1CD8A"
 			subtitle: "可以直接用宇航服左键机器里的氧气"
 			tasks: [
@@ -1266,6 +1269,220 @@
 			}]
 			x: 0.0d
 			y: -6.0d
+		}
+		{
+			dependencies: [
+				"11091A0414B528CC"
+				"27BE8B7164A2DA98"
+				"3786456D98520C42"
+				"04CED50A5D7434CE"
+			]
+			id: "446AA42EB8DCE6EB"
+			tasks: [{
+				id: "3E81E8A2C38E6E7E"
+				item: "kubejs:space_fabric"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"521AD580276AA163"
+				"08AE2ABB1248EB22"
+			]
+			id: "3786456D98520C42"
+			tasks: [{
+				id: "22AC674057BF66B0"
+				item: "gtceu:polyphenylene_sulfide_foil"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"103CE9721B2403ED"
+				"4621D3570BFF6D64"
+			]
+			id: "04CED50A5D7434CE"
+			tasks: [{
+				id: "5562405A7AECDC91"
+				item: "gtceu:para_aramid_foil"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30A047CA07E56044"]
+			hide_dependency_lines: true
+			id: "11091A0414B528CC"
+			tasks: [{
+				id: "2374F1C8986BC29E"
+				item: "gtceu:polytetrafluoroethylene_foil"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5E4D6306680A9D9A"
+				"2ABB6571FA2367C6"
+			]
+			id: "27BE8B7164A2DA98"
+			tasks: [{
+				id: "3D2FCC1351DDBFC9"
+				item: "gtceu:fiber_glass_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			id: "521AD580276AA163"
+			tasks: [{
+				id: "1419637BB2F4FB56"
+				item: "gtceu:sodium_sulfide_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["312CE58D48ED99C9"]
+			id: "08AE2ABB1248EB22"
+			tasks: [{
+				id: "1895E959568ECA8B"
+				item: "gtceu:dichlorobenzene_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			id: "312CE58D48ED99C9"
+			tasks: [{
+				id: "27DF26BB2BF7CBC5"
+				item: "gtceu:chlorobenzene_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["312CE58D48ED99C9"]
+			id: "33C93E0396AC7FB8"
+			tasks: [{
+				id: "3B558202A4D425C6"
+				item: "gtceu:nitrochlorobenzene_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33C93E0396AC7FB8"]
+			id: "0A4C17D588D4AF75"
+			tasks: [{
+				id: "42111C45478AFC03"
+				item: "gtceu:nitroaniline_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A4C17D588D4AF75"]
+			id: "4621D3570BFF6D64"
+			tasks: [{
+				id: "61EC0F1DE9649A04"
+				item: "gtceu:para_phenylenediamine_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"47200B176AC31800"
+				"02A401319503567F"
+			]
+			id: "103CE9721B2403ED"
+			tasks: [{
+				id: "6582754DFDF4A52C"
+				item: "gtceu:terephthaloyl_chloride_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6A2ECBA15C3DCCCF"
+				"5D6BCE252E30AFF0"
+			]
+			id: "02A401319503567F"
+			tasks: [{
+				id: "65E25262DBF3EF41"
+				item: "gtceu:terephthalic_acid_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5D6BCE252E30AFF0"]
+			id: "47200B176AC31800"
+			tasks: [{
+				id: "46F27DFA61DD6729"
+				item: "gtceu:bis_trichloromethyl_benzene_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			id: "5D6BCE252E30AFF0"
+			tasks: [{
+				id: "11F441A732DE47A7"
+				item: "gtceu:dimethylbenzene_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			id: "6A2ECBA15C3DCCCF"
+			subtitle: "不需要很多"
+			tasks: [{
+				id: "7EE96913B6D55662"
+				item: "gtceu:co_mn_br_catalyst_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.5d
+		}
+		{
+			id: "5E4D6306680A9D9A"
+			tasks: [{
+				id: "7D7742F002F95B4B"
+				item: "gtceu:glass_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			id: "2ABB6571FA2367C6"
+			tasks: [{
+				id: "3243B547769F4204"
+				item: "gtceu:cellulose_dust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.5d
 		}
 	]
 	title: "&6HV&r时期"

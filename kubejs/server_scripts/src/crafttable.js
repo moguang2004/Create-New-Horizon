@@ -2,8 +2,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "deep_aether:skyroot_crafting_table" })
     event.remove({ id: "aether:skyroot_crafting_table" })
     event.remove({ id: "aether:skyroot_chest" })
-    event.remove({ output: /betterend:(.*)_crafting_table/ })
-    event.remove({ output: /betterend:(.*)_chest/ })
     event.shaped(
         Item.of("gtceu:andesite_alloy_ingot", 4), [
         "ABA",
@@ -767,9 +765,44 @@ ServerEvents.recipes(event => {
         B: "gtceu:solid_machine_casing",
         C: "create:windmill_bearing",
         D: "gtceu:lv_electric_motor",
-        E: "gtceu:basic_integrated_circuit"
+        E: "#gtceu:circuits/lv"
     })
-
+    event.shaped(
+        Item.of("ctnhcore:advanced_wind_power_array", 1), [
+        "ABA",
+        "BCB",
+        "DED"
+    ], {
+        A: "gtceu:stainless_steel_rod",
+        B: "gtceu:clean_machine_casing",
+        C: "ctnhcore:wind_power_array",
+        D: "gtceu:hv_electric_motor",
+        E: "#gtceu:circuits/hv"
+    })
+    event.shaped(
+        Item.of("ctnhcore:super_wind_power_array", 1), [
+        "ABA",
+        "BCB",
+        "DED"
+    ], {
+        A: "gtceu:tungsten_steel_rod",
+        B: "gtceu:robust_machine_casing",
+        C: "ctnhcore:advanced_wind_power_array",
+        D: "gtceu:iv_electric_motor",
+        E: "#gtceu:circuits/iv"
+    })
+    event.shaped(
+        Item.of("gtceu:meadow", 1), [
+        "ABA",
+        "CAC",
+        "DED"
+    ], {
+        A: "kubejs:basic_mechanism",
+        B: "minecraft:wheat_seeds",
+        C: "minecraft:wheat",
+        D: "create:shaft",
+        E: "create:belt_connector"
+    })
     
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}'),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}'))
@@ -777,45 +810,45 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}'),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:toxic_caves"}'))
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}'),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}'))
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}'),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:forlorn_hollows"}'))
-    event.forEachRecipe({ type: "minecraft:shapeless", input: "#minecraft:logs", output: "#minecraft:planks" }, recipe => {
-        let { originalRecipeIngredients, originalRecipeResult } = recipe
-        event.custom({
-            "type": "farmersdelight:cutting",
-            "ingredients": [
-                {
-                    "item": originalRecipeIngredients
-                }
-            ],
-            "result": originalRecipeResult.withCount(2).toJson(),
-            "tool": {
-                "type": "farmersdelight:tool_action",
-                "action": "pickaxe_dig"
-            }
-        })
+    // event.forEachRecipe({ type: "minecraft:shapeless", input: "#minecraft:logs", output: "#minecraft:planks" }, recipe => {
+    //     let { originalRecipeIngredients, originalRecipeResult } = recipe
+    //     event.custom({
+    //         "type": "farmersdelight:cutting",
+    //         "ingredients": [
+    //             {
+    //                 "item": originalRecipeIngredients
+    //             }
+    //         ],
+    //         "result": originalRecipeResult.withCount(2).toJson(),
+    //         "tool": {
+    //             "type": "farmersdelight:tool_action",
+    //             "action": "pickaxe_dig"
+    //         }
+    //     })
 
-    })
-    Ingredient.of("#minecraft:logs").getItemIds().forEach(e => {
-        let pos = e.indexOf(":")
-        let result = e.substring(0, pos + 1) + "stripped_" + e.substring(pos + 1)
-        event.custom({
-            "type": "farmersdelight:cutting",
-            "ingredients": [
-                {
-                    "item": e
-                }
-            ],
-            "result": [
-                {
-                    "item": result
-                },
-                {
-                    "item": "farmersdelight:tree_bark"
-                }
-            ],
-            "tool": {
-                "type": "farmersdelight:tool_action",
-                "action": "pickaxe_dig"
-            }
-        })
-    })
+    // })
+    // Ingredient.of("#minecraft:logs").getItemIds().forEach(e => {
+    //     let pos = e.indexOf(":")
+    //     let result = e.substring(0, pos + 1) + "stripped_" + e.substring(pos + 1)
+    //     event.custom({
+    //         "type": "farmersdelight:cutting",
+    //         "ingredients": [
+    //             {
+    //                 "item": e
+    //             }
+    //         ],
+    //         "result": [
+    //             {
+    //                 "item": result
+    //             },
+    //             {
+    //                 "item": "farmersdelight:tree_bark"
+    //             }
+    //         ],
+    //         "tool": {
+    //             "type": "farmersdelight:tool_action",
+    //             "action": "pickaxe_dig"
+    //         }
+    //     })
+    // })
 })

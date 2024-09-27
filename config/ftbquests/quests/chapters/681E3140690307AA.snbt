@@ -23,7 +23,10 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["在本整合包中，添加了冷汗模组，温度会随着&a群系、季节、维度、周围的方块&r变化而变化。&4过高和过低的温度都会导致危险&r，所以请时刻注意自身的温度情况，别忘了制作温度计哦。更多信息请前往“冷汗”章节。"]
+			description: [
+				"    在本整合包中，添加了冷汗模组，温度会随着&a群系、季节、维度、周围的方块&r变化而变化。&4过高和过低的温度都会导致危险&r，所以请时刻注意自身的温度情况，别忘了制作温度计哦。更多信息请前往“冷汗”章节。"
+				"    别怪我没提醒你，冬天会很冷的。"
+			]
 			icon: "cold_sweat:thermometer"
 			id: "5C2320A3B3E10E11"
 			rewards: [{
@@ -37,6 +40,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "重要！！！"
 			tasks: [{
 				id: "1769E6600040B278"
 				title: "冷汗"
@@ -259,12 +263,7 @@
 						Count: 1
 						id: "sophisticatedbackpacks:gold_backpack"
 						tag: {
-							contentsUuid: [I;
-								-1444686764
-								-1362801821
-								-1275114530
-								841294634
-							]
+							contentsUuid: [ ]
 							inventorySlots: 81
 							upgradeSlots: 3
 						}

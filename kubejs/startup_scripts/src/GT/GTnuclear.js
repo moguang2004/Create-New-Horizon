@@ -74,7 +74,7 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
 })
 GTCEuStartupEvents.registry('gtceu:material', event => {
     function transform(/**@type {String}*/name) {
-        let newname = name.substring(0, 1).toUpperCase() + name.substring(1, name.length)
+        let newname = name//.substring(0, 1).toUpperCase() + name.substring(1, name.length)
         return newname.replace('_', '-')
     }
     nuclear.forEach(material => {
@@ -83,6 +83,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             .color(material.color)
             .element(transform(material.name))
             .iconSet(GTMaterialIconSet.RADIOACTIVE)
+            .radioactiveHazard(1)
         event.create('oxide_' + material.name)
             .dust()
             .color(material.color)
@@ -148,6 +149,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         event.create(material.name + '_waste')
             .dust()
             .color(material.color)
+            .radioactiveHazard(1.5)
         event.create(material.name + '_hexafluoride')
             .liquid()
             .color(material.color)

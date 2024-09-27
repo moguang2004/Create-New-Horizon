@@ -228,6 +228,11 @@ ItemEvents.tooltip(event =>{
         text.add(3,Text.translate('ctnh.wind_power_array.mechanism'))
         text.add(4,Text.translate('ctnh.wind_power_array.altitude'))
     })
+    event.addAdvanced('gtceu:meadow',(item,advanced,text)=>{
+        text.add(1,Text.translate('meadow').gray())
+        text.add(2,Text.translate('ctnh.meadow.basic'))
+        text.add(3,Text.translate('ctnh.meadow.mechanism'))
+    })
 
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))
