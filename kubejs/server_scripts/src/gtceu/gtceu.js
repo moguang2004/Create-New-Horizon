@@ -20,6 +20,10 @@ ServerEvents.recipes(event => {
       } catch (err) {
       }
   })
+    event.forEachRecipe({id:'gtceu:large_chemical_reactor/ethylene_from_ethanol'}, recipe =>{
+      let newduration = recipe.get('duration')
+      recipe.set('duration',newduration/3)
+    })
 })
 const GTNNRecipes = Java.loadClass("dev.arbor.gtnn.data.GTNNRecipes")
 ServerEvents.recipes(event => {
@@ -1034,7 +1038,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.mark_of_falling_tower('stone_gems_green')
         .itemInputs('gtceu:exquisite_green_sapphire_gem')
         .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',192000))
-        .itemOutputs('64x minecraft:emerald_ore','64x gtceu:green_sapphire_ore','64x gtceu:malachite_ore',
+        .itemOutputs('64x gtceu:emerald_ore','64x gtceu:green_sapphire_ore','64x gtceu:malachite_ore',
             '64x gtceu:olivine_ore','64x gtceu:monazite_ore'
         )
         .addData('radius',6)
