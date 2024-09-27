@@ -27,6 +27,14 @@ ServerEvents.recipes(event => {
             output: [Fluid.of('gtceu:ethane', 250), Fluid.of('gtceu:acetone', 500), Fluid.of('gtceu:butane', 250)]
         },
         {
+            name: 'end',
+            raw_material: 'minecraft:chorus_fruit',
+            temperature: 2200,
+            eu: 480,
+            duration: 200,
+            output: [Fluid.of('gtceu:ethylene', 500), Fluid.of('gtceu:phenol', 100), Fluid.of('gtceu:ethanol', 150), Fluid.of('gtceu:propene', 250)]
+        },
+        {
             name: 'fluorescence',
             raw_material: 'twilightforest:mushgloom',
             temperature: 2500,
@@ -117,16 +125,6 @@ ServerEvents.recipes(event => {
         .itemInputs('minecraft:red_mushroom')
         .itemOutputs('2x gtceu:normal_yeast_dust')
         .duration(40)
-    event.recipes.gtceu.macerator('end_yeast_from_amaranita_mushroom')
-        .EUt(120)
-        .itemInputs('betterend:small_amaranita_mushroom')
-        .itemOutputs('2x gtceu:end_yeast_dust')
-        .duration(40)
-    event.recipes.gtceu.macerator('end_yeast_from_mossy_glowshroom')
-        .EUt(120)
-        .itemInputs('betterend:mossy_glowshroom_cap')
-        .itemOutputs('4x gtceu:end_yeast_dust')
-        .duration(80)
     Ingredient.of('#forge:foods').getItemTypes().forEach(food => {
         if (food.toString() != 'pumpkin_pie') {
             //console.info(food.toString())
