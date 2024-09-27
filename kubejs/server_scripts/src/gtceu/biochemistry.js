@@ -27,14 +27,6 @@ ServerEvents.recipes(event => {
             output: [Fluid.of('gtceu:ethane', 250), Fluid.of('gtceu:acetone', 500), Fluid.of('gtceu:butane', 250)]
         },
         {
-            name: 'end',
-            raw_material: 'betterend:globulagus',
-            temperature: 2200,
-            eu: 480,
-            duration: 200,
-            output: [Fluid.of('gtceu:ethylene', 500), Fluid.of('gtceu:phenol', 100), Fluid.of('gtceu:ethanol', 150), Fluid.of('gtceu:propene', 250)]
-        },
-        {
             name: 'fluorescence',
             raw_material: 'twilightforest:mushgloom',
             temperature: 2500,
@@ -112,13 +104,13 @@ ServerEvents.recipes(event => {
             .inputFluids(Fluid.of('gtceu:' + y.name + '_yeast_extract_liquid', 1000))
             .outputFluids(y.output)
             .duration(100)
-            if(y.raw_material != null){
-                event.recipes.gtceu.macerator(y.name + '_yeast6')
+        if (y.raw_material != null) {
+            event.recipes.gtceu.macerator(y.name + '_yeast6')
                 .EUt(120)
                 .itemInputs(y.raw_material)
                 .itemOutputs('2x gtceu:' + y.name + '_yeast_dust')
                 .duration(40)
-            }
+        }
     })
     event.recipes.gtceu.macerator('normal_yeast_from_red_mushroom')
         .EUt(120)
@@ -136,26 +128,26 @@ ServerEvents.recipes(event => {
         .itemOutputs('4x gtceu:end_yeast_dust')
         .duration(80)
     Ingredient.of('#forge:foods').getItemTypes().forEach(food => {
-        if(food.toString() != 'pumpkin_pie'){
+        if (food.toString() != 'pumpkin_pie') {
             //console.info(food.toString())
-        let nutrition = food.getFoodProperties().getNutrition()
-        let saturation = food.getFoodProperties().getSaturationModifier()
-        //console.info(food.getFoodProperties().getNutrition())
-        event.recipes.gtceu.digesting(food.toString() + '_digestion')
-            .EUt(30)
-            .itemInputs(food.asIngredient().getItemIds())
-            .inputFluids(Fluid.of('minecraft:water', 100 * Math.floor(nutrition + saturation / 2)))
-            .outputFluids(Fluid.of('gtceu:biomass', 100 * Math.floor(nutrition + saturation / 2)))
-            .circuit(0)
-            .duration(100)
-        event.recipes.gtceu.digesting(food.toString() + '_digestion2')
-            .EUt(120)
-            .itemInputs(food.asIngredient().getItemIds())
-            .chancedOutput('gtceu:escherichia_coli_dust', 500 * Math.floor(nutrition + saturation / 2), 500)
-            .inputFluids(Fluid.of('minecraft:water', 75 * Math.floor(nutrition + saturation / 2)))
-            .outputFluids(Fluid.of('gtceu:fermented_biomass', 75 * Math.floor(nutrition + saturation / 2)))
-            .circuit(1)
-            .duration(100)
+            let nutrition = food.getFoodProperties().getNutrition()
+            let saturation = food.getFoodProperties().getSaturationModifier()
+            //console.info(food.getFoodProperties().getNutrition())
+            event.recipes.gtceu.digesting(food.toString() + '_digestion')
+                .EUt(30)
+                .itemInputs(food.asIngredient().getItemIds())
+                .inputFluids(Fluid.of('minecraft:water', 100 * Math.floor(nutrition + saturation / 2)))
+                .outputFluids(Fluid.of('gtceu:biomass', 100 * Math.floor(nutrition + saturation / 2)))
+                .circuit(0)
+                .duration(100)
+            event.recipes.gtceu.digesting(food.toString() + '_digestion2')
+                .EUt(120)
+                .itemInputs(food.asIngredient().getItemIds())
+                .chancedOutput('gtceu:escherichia_coli_dust', 500 * Math.floor(nutrition + saturation / 2), 500)
+                .inputFluids(Fluid.of('minecraft:water', 75 * Math.floor(nutrition + saturation / 2)))
+                .outputFluids(Fluid.of('gtceu:fermented_biomass', 75 * Math.floor(nutrition + saturation / 2)))
+                .circuit(1)
+                .duration(100)
         }
     })
     event.recipes.gtceu.digesting('bio_chaff_digestion')
@@ -208,72 +200,72 @@ ServerEvents.recipes(event => {
         .duration(40)
         .itemInputs('minecraft:podzol')
         .itemOutputs('4x gtceu:dirt_dust')
-        .chancedOutput('gtceu:rhizobium_dust',500,250)
+        .chancedOutput('gtceu:rhizobium_dust', 500, 250)
     event.recipes.gtceu.chemical_reactor('trisodium_phosphate')
-        .itemInputs(['5x gtceu:tricalcium_phosphate_dust','12x gtceu:salt_dust'])
-        .itemOutputs(['9x gtceu:calcium_chloride_dust','8x gtceu:trisodium_phosphate_dust'])
+        .itemInputs(['5x gtceu:tricalcium_phosphate_dust', '12x gtceu:salt_dust'])
+        .itemOutputs(['9x gtceu:calcium_chloride_dust', '8x gtceu:trisodium_phosphate_dust'])
         .EUt(30)
         .duration(60)
     event.recipes.gtceu.chemical_reactor('sodium_dihydrogen_phosphate_dust')
         .itemInputs('4x gtceu:trisodium_phosphate_dust')
-        .inputFluids(Fluid.of('minecraft:water',2000))
-        .itemOutputs(['4x gtceu:sodium_dihydrogen_phosphate_dust','12x gtceu:sodium_bicarbonate_dust'])
+        .inputFluids(Fluid.of('minecraft:water', 2000))
+        .itemOutputs(['4x gtceu:sodium_dihydrogen_phosphate_dust', '12x gtceu:sodium_bicarbonate_dust'])
         .circuit(0)
         .EUt(30)
         .duration(100)
     event.recipes.gtceu.chemical_reactor('dibasic_sodium_phosphate_dust')
         .itemInputs('4x gtceu:trisodium_phosphate_dust')
-        .inputFluids(Fluid.of('minecraft:water',1000))
-        .itemOutputs(['4x gtceu:dibasic_sodium_phosphate_dust','3x gtceu:sodium_hydroxide_dust'])
+        .inputFluids(Fluid.of('minecraft:water', 1000))
+        .itemOutputs(['4x gtceu:dibasic_sodium_phosphate_dust', '3x gtceu:sodium_hydroxide_dust'])
         .circuit(1)
         .EUt(30)
         .duration(100)
     event.recipes.gtceu.mixer('carbonate_buffer')
         .EUt(30)
         .duration(120)
-        .itemInputs(['6x gtceu:soda_ash_dust','12x gtceu:sodium_bicarbonate_dust'])
-        .inputFluids(Fluid.of('minecraft:water',2000))
-        .outputFluids(Fluid.of('gtceu:carbonate_buffer',2000))
+        .itemInputs(['6x gtceu:soda_ash_dust', '12x gtceu:sodium_bicarbonate_dust'])
+        .inputFluids(Fluid.of('minecraft:water', 2000))
+        .outputFluids(Fluid.of('gtceu:carbonate_buffer', 2000))
     event.recipes.gtceu.mixer('phosphate_buffer')
         .EUt(30)
         .duration(120)
-        .itemInputs(['9x gtceu:sodium_dihydrogen_phosphate_dust','9x gtceu:dibasic_sodium_phosphate_dust'])
-        .inputFluids(Fluid.of('minecraft:water',2000))
-        .outputFluids(Fluid.of('gtceu:phosphate_buffer',2000))
+        .itemInputs(['9x gtceu:sodium_dihydrogen_phosphate_dust', '9x gtceu:dibasic_sodium_phosphate_dust'])
+        .inputFluids(Fluid.of('minecraft:water', 2000))
+        .outputFluids(Fluid.of('gtceu:phosphate_buffer', 2000))
     event.recipes.gtceu.ultrasonication('rhizobium')
         .itemInputs('gtceu:rhizobium_dust')
-        .inputFluids(Fluid.of('gtceu:carbonate_buffer',1000))
-        .outputFluids(Fluid.of('gtceu:rhizobium_extract',1000))
+        .inputFluids(Fluid.of('gtceu:carbonate_buffer', 1000))
+        .outputFluids(Fluid.of('gtceu:rhizobium_extract', 1000))
         .EUt(480)
         .duration(400)
-    event.recipes.gtceu.differential_centrifuge('azotase') 
-        .inputFluids(Fluid.of('gtceu:rhizobium_extract',1000))
+    event.recipes.gtceu.differential_centrifuge('azotase')
+        .inputFluids(Fluid.of('gtceu:rhizobium_extract', 1000))
         .itemOutputs('gtceu:azotase_dust')
-        .outputFluids(Fluid.of('gtceu:amino_acid',1000))
+        .outputFluids(Fluid.of('gtceu:amino_acid', 1000))
         .EUt(1920)
         .duration(400)
     event.recipes.gtceu.bio_reactor('ammonia')
         .itemInputs('gtceu:azotase_dust')
         .itemInputs('gtceu:small_molybdenum_dust')
-        .inputFluids(Fluid.of('gtceu:nitrogen',10000))
-        .inputFluids(Fluid.of('gtceu:hydrogen',30000))
-        .outputFluids(Fluid.of('gtceu:ammonia',10000))
+        .inputFluids(Fluid.of('gtceu:nitrogen', 10000))
+        .inputFluids(Fluid.of('gtceu:hydrogen', 30000))
+        .outputFluids(Fluid.of('gtceu:ammonia', 10000))
         .EUt(1920)
         .duration(160)
     event.recipes.gtceu.mixer('radiation_mutated_yeast')
-        .itemInputs(['gtceu:polluted_fluorescence_yeast_dust','gtceu:mendelevium_dust'])
-        .inputFluids(Fluid.of('gtceu:uranium_hexafluoride',1000))
-        .chancedOutput('gtceu:radiation_mutated_yeast_dust',200,50)
+        .itemInputs(['gtceu:polluted_fluorescence_yeast_dust', 'gtceu:mendelevium_dust'])
+        .inputFluids(Fluid.of('gtceu:uranium_hexafluoride', 1000))
+        .chancedOutput('gtceu:radiation_mutated_yeast_dust', 200, 50)
         .EUt(1920)
         .duration(300)
     let transitional = 'gtceu:fluorescence_yeast_dust'
     event.recipes.create.sequenced_assembly([
-    'gtceu:polluted_fluorescence_yeast_dust'
+        'gtceu:polluted_fluorescence_yeast_dust'
     ], 'gtceu:fluorescence_yeast_dust', [
-    event.recipes.createFilling(transitional, [transitional, Fluid.of('alexscaves:acid',1000)]),
-    event.recipes.createFilling(transitional, [transitional, Fluid.of('deep_aether:poison_fluid', 1000)]),
-    event.recipes.createPressing(transitional, [transitional]),
+        event.recipes.createFilling(transitional, [transitional, Fluid.of('alexscaves:acid', 1000)]),
+        event.recipes.createFilling(transitional, [transitional, Fluid.of('deep_aether:poison_fluid', 1000)]),
+        event.recipes.createPressing(transitional, [transitional]),
     ]).transitionalItem(transitional)
-    .loops(1)
+        .loops(1)
 })
 let meat = ['nethersdelight:hoglin_loin', 'twilightforest:raw_meef', 'twilightforest:raw_venison', 'alexscaves:dinosaur_chop', 'twilightdelight:raw_insect']
