@@ -1220,6 +1220,9 @@ ServerEvents.recipes(event => {
       .addDataNumber('minimumDrain',1000)
       .addDataNumber('drain',200);
 
+      event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
+        console.info(recipe.json.get('output'))
+      })
   // var counter=1;
   // event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
   //   console.info(recipe.getAllValueMap())
@@ -1262,7 +1265,7 @@ ServerEvents.recipes(event => {
   function addModel(event, entity, voltage, outputValue){
     event.recipes.gtceu.digital_well_of_suffer('dwos_'+entity)
         .outputFluids(Fluid.of('bloodmagic:life_essence_fluid',outputValue))
-        .notConsumable(Item.of('gtceu:data_stick', `{mobs:{${entity}}}`).strongNBT())
+        .notConsumable(Item.of('gtceu:data_stick', `{mobs:${entity}}`).strongNBT())
         .EUt(voltage)
         .duration(20);
   }
