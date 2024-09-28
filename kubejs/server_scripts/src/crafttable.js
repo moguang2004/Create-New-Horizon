@@ -846,11 +846,34 @@ ServerEvents.recipes(event => {
         D: "gtceu:long_bronze_rod"
     })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}'),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}'))
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}'),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}'))
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}'),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:toxic_caves"}'))
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}'),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}'))
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}'),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:forlorn_hollows"}'))
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:toxic_caves"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT())
+
+    
+    function add_data(event,entity,item){
+        event.shaped(Item.of('gtceu:data_stick',`{mobs:${entity}}`).strongNBT(), [
+            "BBB",
+            "BAB",
+            "BBB"
+        ], {
+            A: Item.of("gtceu:data_stick").strongNBT(),
+            B: item,
+        })
+    }
+    add_data(event,'zombie','minecraft:rotten_flesh')
+    add_data(event,'skeleton','minecraft:bone')
+    add_data(event,'enderman','minecraft:ender_pearl')
+    add_data(event,'creeper','minecraft:gunpowder')
+    add_data(event,'blaze','minecraft:blaze_rod')
+    add_data(event,'slime','minecraft:slime_ball')
+    add_data(event,'chicken','minecraft:chicken')
+    add_data(event,'cow','minecraft:beef')
+    add_data(event,'sheep','minecraft:mutton')
+    add_data(event,'pig','minecraft:porkchop')
+    add_data(event,'rabbit','minecraft:rabbit_foot')
     // event.forEachRecipe({ type: "minecraft:shapeless", input: "#minecraft:logs", output: "#minecraft:planks" }, recipe => {
     //     let { originalRecipeIngredients, originalRecipeResult } = recipe
     //     event.custom({

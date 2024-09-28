@@ -822,6 +822,7 @@
 		{
 			dependencies: ["2D662EFDE7A39BB8"]
 			id: "2C6FBF2A814BB60D"
+			subtitle: "要先去推植物魔法"
 			tasks: [{
 				id: "621BD7226FA2140E"
 				item: "kubejs:mana_electronic_circuit"

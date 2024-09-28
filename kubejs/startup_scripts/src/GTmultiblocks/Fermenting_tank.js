@@ -1,3 +1,4 @@
+import { $FluidRecipeCapability } from "packages/com/gregtechceu/gtceu/api/capability/recipe/$FluidRecipeCapability"
 import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
 import { $IMultiPart } from "packages/com/gregtechceu/gtceu/api/machine/feature/multiblock/$IMultiPart"
 import { $MultiblockControllerMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$MultiblockControllerMachine"
@@ -47,7 +48,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             let efficiency = 1
             machine.getParts().forEach((/** @type {$IMultiPart} */part) => {
                 part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) => {
-                    if (trait.getHandlerIO() == IO.IN) {
+                    if (trait.getHandlerIO() == IO.IN && trait.getCapability() == $FluidRecipeCapability.CAP) {
                         trait.getContents().forEach((contents) => {
                             if (contents instanceof FluidStack) {
                                 let current = contents.getAmount()
