@@ -1503,8 +1503,8 @@
     "block.gtceu.iv_digital_well_of_suffer": "§9精英数字化苦难之井§r",
     "block.gtceu.luv_digital_well_of_suffer": "§d精英数字化苦难之井 II§r",
     "block.gtceu.zpm_digital_well_of_suffer": "§c数字化猩红深渊§r",
-    "block.gtceu.uv_digital_well_of_suffer": "§3数字化猩红深渊 II§r"
-    "material.gtceu.rare_earth_fe_one": "含铁稀土",
+    "block.gtceu.uv_digital_well_of_suffer": "§3数字化猩红深渊 II§r",
+    "material.gtceu.rare_earth_fe_one":"含铁稀土",
     "material.gtceu.rare_earth_fe_two": "含铁精磨稀土",
     "material.gtceu.rare_earth_intensive_research": "精磨稀土",
     "material.gtceu.rare_earth_mixture": "稀土元素混合物",
