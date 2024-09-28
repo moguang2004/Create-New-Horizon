@@ -1,353 +1,160 @@
-// ServerEvents.recipes(event =>{
-//         // 3NaCl(H2O) + 2Cl + H2SO4 -> H2SO4(NaCl)3(H2O)3Cl2
-//         // Formula above multiplied up for simplicity
-//         CHEMICAL_RECIPES.recipeBuilder()
-//                 .fluidInputs(SaltWater.getFluid(1500))
-//                 .fluidInputs(Chlorine.getFluid(1000))
-//                 .fluidInputs(SulfuricAcid.getFluid(500))
-//                 .fluidOutputs(AcidicSaltWater.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(180)
-//                 .buildAndRegister();
-
-//         // H2SO4(NaCl)3(H2O)3Cl2 -> 3NaCl + H2SO4Br(H2O)Cl2 + 2H2O
-//         CENTRIFUGE_RECIPES.recipeBuilder()
-//                 .fluidInputs(AcidicSaltWater.getFluid(6000))
-//                 .output(dust, Salt, 6)
-//                 .fluidOutputs(SulfuricBromineSolution.getFluid(2000))
-//                 .fluidOutputs(DebrominatedWater.getFluid(2000))
-//                 .EUt(480)
-//                 .duration(180)
-//                 .buildAndRegister();
-
-//         // H2SO4Br(H2O)Cl2 + H2O -> H2SO4Br(H2O)2Cl2
-//         CHEMICAL_RECIPES.recipeBuilder()
-//                 .fluidInputs(SulfuricBromineSolution.getFluid(2000))
-//                 .fluidInputs(Steam.getFluid(1000))
-//                 .fluidOutputs(HotVapourMixture.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(150)
-//                 .buildAndRegister();
-
-//         // H2SO4Br(H2O)2Cl2 -> H2SO4 + H2O + 2Cl + Br(H2O)
-//         CENTRIFUGE_RECIPES.recipeBuilder()
-//                 .fluidInputs(HotVapourMixture.getFluid(3000))
-//                 .fluidOutputs(SulfuricAcid.getFluid(1000))
-//                 .fluidOutputs(DebrominatedWater.getFluid(1000))
-//                 .fluidOutputs(Chlorine.getFluid(2000))
-//                 .fluidOutputs(DampBromine.getFluid(1000))
-//                 .EUt(480)
-//                 .duration(180)
-//                 .buildAndRegister();
-
-//         // Br(H2O) -> Br
-//         CHEMICAL_DEHYDRATOR_RECIPES.recipeBuilder()
-//                 .fluidInputs(DampBromine.getFluid(1000))
-//                 .fluidOutputs(Bromine.getFluid(1000))
-//                 .EUt(480)
-//                 .duration(400)
-//                 .buildAndRegister();
-
-//         // CO + C3H6 + 2H -> C4H8O
-//         CHEMICAL_RECIPES.recipeBuilder()
-//                 .fluidInputs(CarbonMonoxde.getFluid(1000))
-//                 .fluidInputs(Propene.getFluid(1000))
-//                 .fluidInputs(Hydrogen.getFluid(2000))
-//                 .fluidOutputs(Butyraldehyde.getFluid(1000))
-//                 .EUt(480)
-//                 .duration(200)
-//                 .buildAndRegister();
-
-//         // 2C4H8O + 4H -> C8H18O + H2O
-//         CHEMICAL_RECIPES.recipeBuilder()
-//                 .fluidInputs(Butyraldehyde.getFluid(2000))
-//                 .fluidInputs(Hydrogen.getFluid(4000))
-//                 .fluidOutputs(Ethylhexanol.getFluid(3000))
-//                 .fluidOutputs(Water.getFluid(1000))
-//                 .EUt(480)
-//                 .duration(200)
-//                 .buildAndRegister();
-
-//         // 5C8H18O + 0.5P4O10 -> 2C16H35O4P + 2C4H10O
-//         CHEMICAL_RECIPES.recipeBuilder()
-//                 .fluidInputs(Ethylhexanol.getFluid(5000))
-//                 .input(dust, PhosphorousPentoxide, 7)
-//                 .fluidOutputs(DiethylhexylPhosphoricAcid.getFluid(2000))
-//                 .fluidOutputs(Butanol.getFluid(2000))
-//                 .EUt(480)
-//                 .duration(200)
-//                 .buildAndRegister();
-
-//         // [REE] + 3 [NaOH + H2O] + 3 H2O -> [REE(OH)3 + 3 NaOH + 3 H2O] + 3 H
-//         CHEMICAL_RECIPES.recipeBuilder()
-//                 .input(dust, RareEarth)
-//                 .fluidInputs(SodiumHydroxideSolution.getFluid(3000))
-//                 .fluidInputs(Water.getFluid(3000))
-//                 .fluidOutputs(RareEarthHydroxidesSolution.getFluid(1000))
-//                 .fluidOutputs(Hydrogen.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(200)
-//                 .buildAndRegister();
-
-//         // 3 HCl + [REE(OH)3 + 3 NaOH] -> ThU + [REECl3 + 3 H2O] + 3 [NaOH + H2O]
-//         CHEMICAL_RECIPES.recipeBuilder()
-//                 .fluidInputs(HydrochloricAcid.getFluid(3000))
-//                 .fluidInputs(RareEarthHydroxidesSolution.getFluid(1000))
-//                 .fluidOutputs(RareEarthChloridesSolution.getFluid(3000))
-//                 .fluidOutputs(SodiumHydroxideSolution.getFluid(3000))
-//                 .outputs(ThUSludge.getItemStack(2))
-//                 .EUt(480)
-//                 .duration(200)
-//                 .buildAndRegister();
-
-//         CENTRIFUGE_RECIPES.recipeBuilder().duration(100).EUt(30)
-//                 .fluidInputs(SodiumHydroxideSolution.getFluid(1000))
-//                 .fluidOutputs(Water.getFluid(1000))
-//                 .output(dust, SodiumHydroxide, 3)
-//                 .buildAndRegister();
-
-
-//         // 2 [REECl3 + 3 H2O] + C16H35O4P(cat.) -> [REE2O3](sep.) + 6 HCl + 3 H2O
-//         LARGE_CENTRIFUGE_RECIPES.recipeBuilder()
-//                 .fluidInputs(RareEarthChloridesSolution.getFluid(6000))
-//                 .notConsumable(DiethylhexylPhosphoricAcid.getFluid(0))
-//                 .fluidOutputs(LaNdOxidesSolution.getFluid(250))
-//                 .fluidOutputs(SmGdOxidesSolution.getFluid(250))
-//                 .fluidOutputs(TbHoOxidesSolution.getFluid(250))
-//                 .fluidOutputs(ErLuOxidesSolution.getFluid(250))
-//                 .fluidOutputs(HydrochloricAcid.getFluid(6000))
-//                 .EUt(480)
-//                 .duration(600)
-//                 .buildAndRegister();
-
-//         // 4LaPrNdCeOx -> La2O3 + Pr2O3 + Nd2O3 + Ce2O3 (each 43% +2.75%)
-//         CENTRIFUGE_RECIPES.recipeBuilder()
-//                 .fluidInputs(LaNdOxidesSolution.getFluid(4000))
-//                 .chancedOutput(LanthanumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(PraseodymiumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(NeodymiumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(CeriumOxide.getItemStack(5), 4300, 275)
-//                 .EUt(480)
-//                 .duration(220)
-//                 .buildAndRegister();
-
-//         // 4ScEuGdSmOx -> Sc2O3 + Eu2O3 + Gd2O3 + Sm2O3 (each 43% +2.75%)
-//         CENTRIFUGE_RECIPES.recipeBuilder()
-//                 .fluidInputs(SmGdOxidesSolution.getFluid(4000))
-//                 .chancedOutput(ScandiumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(EuropiumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(GadoliniumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(SamariumOxide.getItemStack(5), 4300, 275)
-//                 .EUt(480)
-//                 .duration(220)
-//                 .buildAndRegister();
-
-//         // 4YTbDyHoOx -> Y2O3 + Tb2O3 + Dy2O3 + Ho2O3 (each 43% +2.75%)
-//         CENTRIFUGE_RECIPES.recipeBuilder()
-//                 .fluidInputs(TbHoOxidesSolution.getFluid(4000))
-//                 .chancedOutput(OreDictUnifier.get(dust, YttriumOxide, 5), 4300, 275)
-//                 .chancedOutput(TerbiumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(DysprosiumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(HolmiumOxide.getItemStack(5), 4300, 275)
-//                 .EUt(480)
-//                 .duration(220)
-//                 .buildAndRegister();
-
-//         // 4ErTmYtLuOx -> Er2O3 + Tm2O3 + Yt2O3 + Lu2O3 (each 43% +2.75%)
-//         CENTRIFUGE_RECIPES.recipeBuilder()
-//                 .fluidInputs(ErLuOxidesSolution.getFluid(4000))
-//                 .chancedOutput(ErbiumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(ThuliumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(YtterbiumOxide.getItemStack(5), 4300, 275)
-//                 .chancedOutput(LutetiumOxide.getItemStack(5), 4300, 275)
-//                 .EUt(480)
-//                 .duration(220)
-//                 .buildAndRegister();
-
-//         // 3C + 2La2O3 -> 4La + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon, 3)
-//                 .inputs(LanthanumOxide.getItemStack(10))
-//                 .output(dust, Lanthanum,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Pr2O3 -> 4Pr + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon, 3)
-//                 .inputs(PraseodymiumOxide.getItemStack(10))
-//                 .output(dust, Praseodymium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Nd2O3 -> 4Nd + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon, 3)
-//                 .inputs(NeodymiumOxide.getItemStack(10))
-//                 .output(dust, Neodymium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Ce2O3 -> 4Ce + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon, 3)
-//                 .inputs(CeriumOxide.getItemStack(10))
-//                 .output(dust, Cerium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Sc2O3 -> 4Sc + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon, 3)
-//                 .inputs(ScandiumOxide.getItemStack(10))
-//                 .output(dust, Scandium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Eu2O3 -> 4Eu + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon, 3)
-//                 .inputs(EuropiumOxide.getItemStack(10))
-//                 .output(dust, Europium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Gd2O3 -> 4Gd + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon, 3)
-//                 .inputs(GadoliniumOxide.getItemStack(10))
-//                 .output(dust, Gadolinium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Sm2O3 -> 4Sm + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon, 3)
-//                 .inputs(SamariumOxide.getItemStack(10))
-//                 .output(dust, Samarium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Y2O3 -> 4Y + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon,3)
-//                 .input(dust, YttriumOxide,10)
-//                 .output(dust, Yttrium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Tb2O3 -> 4Tb + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon,3)
-//                 .inputs(TerbiumOxide.getItemStack(10))
-//                 .output(dust, Terbium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Dy2O3 -> 4Dy + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon,3)
-//                 .inputs(DysprosiumOxide.getItemStack(10))
-//                 .output(dust, Dysprosium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Ho2O3 -> 4Ho + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon,3)
-//                 .inputs(HolmiumOxide.getItemStack(10))
-//                 .output(dust, Holmium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Er2O3 -> 4Er + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon,3)
-//                 .inputs(ErbiumOxide.getItemStack(10))
-//                 .output(dust, Erbium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Tm2O3 -> 4Tm + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon,3)
-//                 .inputs(ThuliumOxide.getItemStack(10))
-//                 .output(dust, Thulium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + Yt2O3 -> 4Yt + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon,3)
-//                 .inputs(YtterbiumOxide.getItemStack(10))
-//                 .output(dust, Ytterbium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 3C + 2Lu2O3 -> 4Lu + 3CO2
-//         BLAST_RECIPES.recipeBuilder()
-//                 .blastFurnaceTemp(2500)
-//                 .input(dust, Carbon,3)
-//                 .inputs(LutetiumOxide.getItemStack(10))
-//                 .output(dust, Lutetium,4)
-//                 .fluidOutputs(CarbonDioxide.getFluid(3000))
-//                 .EUt(480)
-//                 .duration(100)
-//                 .buildAndRegister();
-
-//         // 2ThU + O -> 0.5ThO + Th(20%) + U(20%)
-//         CENTRIFUGE_RECIPES.recipeBuilder()
-//                 .inputs(ThUSludge.getItemStack(4))
-//                 .fluidInputs(Oxygen.getFluid(500))
-//                 .chancedOutput(OreDictUnifier.get(dustTiny, Thorium), 2000, 150)
-//                 .chancedOutput(OreDictUnifier.get(dustTiny, UraniumRadioactive.getMaterial()), 2000, 150)
-//                 .output(oxide, Thorium)
-//                 .EUt(480)
-//                 .duration(250)
-//                 .buildAndRegister();
-// })
+ServerEvents.recipes(event => {
+    let ctnh = event.recipes.gtceu
+    ctnh.macerator("rare_earth_fe_one")
+        .itemInputs('32x gtceu:rare_earth_dust')
+        .itemOutputs('32x gtceu:rare_earth_fe_one_dust',"12x gtceu:stone_dust")
+        .EUt(480)
+        .duration(60)
+    ctnh.electromagnetic_separator("rare_earth_fe_two")
+        .itemInputs("32x gtceu:rare_earth_fe_one_dust")
+        .itemOutputs("16x gtceu:rare_earth_fe_two_dust","32x gtceu:magnetic_iron_dust")
+        .EUt(480)
+        .duration(240)
+    ctnh.chemical_bath("rare_earth_intensive_research")
+        .itemInputs("16x gtceu:rare_earth_fe_two_dust")
+        .inputFluids(Fluid.of("gtceu:hydrochloric_acid", 9000))
+        .itemOutputs("8x gtceu:rare_earth_intensive_research_dust") 
+        .outputFluids(Fluid.of('gtceu:iron_iii_chloride', 3000))
+    ctnh.mixer("rare_earth_mixture")
+        .itemInputs("1x gtceu:rare_earth_intensive_research_dust", "1x gtceu:bastnasite_dust", "1x gtceu:monazite_dust")
+        .itemOutputs("gtceu:rare_earth_mixture_dust")
+        .EUt(480)
+        .duration(360)
+    ctnh.mixer("rare_earth_mixture_oh")
+        .itemInputs("4x gtceu:rare_earth_mixture_dust", "4x gtceu:sodium_hydroxide_dust")
+        .inputFluids(Fluid.of("minecraft:water", 4000))
+        .outputFluids(Fluid.of("gtceu:rare_earth_mixture_oh", 1000))
+        .EUt(480)
+        .duration(480)
+    ctnh.chemical_reactor("rare_earth_chloride_solution")
+        .inputFluids(Fluid.of("gtceu:rare_earth_mixture_oh", 1000))
+        .inputFluids(Fluid.of("gtceu:hydrochloric_acid", 6000))
+        .outputFluids(Fluid.of("gtceu:rare_earth_chloride_solution", 6000))
+        .itemOutputs("8x gtceu:salt_dust")
+        .EUt(480)
+        .duration(120)
+    ctnh.fluid_heater("rare_earth_chloride_boil")
+        .inputFluids(Fluid.of("gtceu:rare_earth_chloride_solution", 3000))
+        .outputFluids(Fluid.of("gtceu:rare_earth_chloride_boil", 3000))
+        .EUt(1920)
+        .duration(240)
+    ctnh.crystallizer("rare_earth_crystals")
+        .inputFluids(Fluid.of("gtceu:rare_earth_chloride_boil", 3000))
+        .itemOutputs("4x gtceu:rare_earth_crystals_dust")
+        .EUt(1920)
+        .duration(480).blastFurnaceTemp(4500)
+    //离子交换机配方，上面还有2B Cl
+    ctnh.ion_exchanger("rare_earth_high_affinity")
+        .itemInputs("1x gtceu:rare_earth_crystals_dust")
+        .inputFluids(Fluid.of("gtceu:hydrochloric_acid", 1500))
+        .outputFluids(Fluid.of("gtceu:rare_earth_high_affinity", 1000))
+        .outputFluids(Fluid.of("gtceu:rare_earth_low_affinty", 1000))
+        .outputFluids(Fluid.of("gtceu:diluted_hydrochloric_acid", 4000))
+        .EUt(1920)
+        .duration(960)
+    //离心稀土
+    ctnh.centrifuge("rare_earth_low")
+        .inputFluids(Fluid.of("gtceu:rare_earth_low_affinty"))
+        .itemOutputs("4x gtceu:rare_earth_low_dust","2x gtceu:rare_earth_middle_dust")
+        .EUt(480)
+        .duration(800)
+    ctnh.centrifuge("rare_earth_high")
+        .inputFluids(Fluid.of("gtceu:rare_earth_high_affinity"))
+        .itemOutputs("4x gtceu:rare_earth_middle_dust", "2x gtceu:rare_earth_high_dust")
+        .EUt(1920)
+        .duration(800)
+    //重中轻稀土处理
+    ctnh.chemical_bath("rare_earth_high_fluoride")
+        .itemInputs("1x gtceu:rare_earth_high_dust")
+        .inputFluids(Fluid.of("gtceu:hydrofluoric_acid", 4000))
+        .outputFluids(Fluid.of("gtceu:rare_earth_high_fluoride", 1000))
+        .EUt(6144)
+        .duration(60)
+    ctnh.chemical_bath("rare_earth_middle_fluoride")
+        .itemInputs("1x gtceu:rare_earth_middle_dust")
+        .inputFluids(Fluid.of("gtceu:hydrofluoric_acid", 4000))
+        .outputFluids(Fluid.of("gtceu:rare_earth_middle_fluoride", 1000))
+        .EUt(1920)
+        .duration(60)
+    ctnh.chemical_bath("rare_earth_low_fluoride")
+        .itemInputs("1x gtceu:rare_earth_low_dust")
+        .inputFluids(Fluid.of("gtceu:hydrofluoric_acid", 4000))
+        .outputFluids(Fluid.of("gtceu:rare_earth_low_fluoride", 1000))
+        .EUt(480)
+        .duration(60)
+    ctnh.vacuum_sintering("rare_earth_low_fluoride_steam")
+        .inputFluids(Fluid.of("gtceu:rare_earth_low_fluoride", 1000))
+        .outputFluids(Fluid.of("gtceu:rare_earth_low_fluoride_steam", 1000))
+        .outputFluids(Fluid.of("gtceu:fluorine", 4000))
+        .EUt(480)
+        .duration(60).blastFurnaceTemp(4500)
+    ctnh.vacuum_sintering("rare_earth_high_fluoride_steam")
+        .inputFluids(Fluid.of("gtceu:rare_earth_high_fluoride", 1000))
+        .outputFluids(Fluid.of("gtceu:rare_earth_high_fluoride_steam", 1000))
+        .outputFluids(Fluid.of("gtceu:fluorine", 4000))
+        .EUt(6144)
+        .duration(60).blastFurnaceTemp(4500)
+    ctnh.vacuum_sintering("rare_earth_middle_fluoride_steam")
+        .inputFluids(Fluid.of("gtceu:rare_earth_middle_fluoride", 1000))
+        .outputFluids(Fluid.of("gtceu:rare_earth_middle_fluoride_steam", 1000))
+        .outputFluids(Fluid.of("gtceu:fluorine", 4000))
+        .EUt(1920)
+        .duration(60).blastFurnaceTemp(4500)
+    ctnh.condensate_separator("lanthanum_cerium_praseodymium_neodymium_oxygen_mixture")
+        .inputFluids(Fluid.of("gtceu:rare_earth_low_fluoride_steam"))
+        .itemOutputs("16x gtceu:lanthanum_cerium_praseodymium_neodymium_oxygen_mixture_dust", "8x gtceu:europium_gadolinium_terbium_dysprosium_oxygen_mixture_dust", "4x gtceu:yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture_dust")
+        .EUt(6144)
+        .duration(240)
+    ctnh.condensate_separator("europium_gadolinium_terbium_dysprosium_oxygen_mixture")
+        .inputFluids(Fluid.of("gtceu:rare_earth_middle_fluoride_steam"))
+        .itemOutputs("4x gtceu:lanthanum_cerium_praseodymium_neodymium_oxygen_mixture_dust", "16x gtceu:europium_gadolinium_terbium_dysprosium_oxygen_mixture_dust", "8x gtceu:yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture_dust")
+        .EUt(6144)
+        .duration(240)
+    ctnh.condensate_separator("yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture")
+        .inputFluids(Fluid.of("gtceu:rare_earth_high_fluoride_steam"))
+        .itemOutputs("4x gtceu:lanthanum_cerium_praseodymium_neodymium_oxygen_mixture_dust", "8x gtceu:europium_gadolinium_terbium_dysprosium_oxygen_mixture_dust", "16x gtceu:yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture_dust")
+        .EUt(6144)
+        .duration(240)
+    ctnh.chemical_reactor("lan_cer_pra_neo_chloride")
+        .itemInputs("5x gtceu:lanthanum_cerium_praseodymium_neodymium_oxygen_mixture_dust")
+        .inputFluids(Fluid.of("gtceu:hydrochloric_acid", 20000))
+        .outputFluids(Fluid.of("minecraft:water", 10000))
+        .itemOutputs("5x gtceu:lan_cer_pra_neo_chloride_dust")
+        .EUt(6144)
+        .duration(120)
+    ctnh.chemical_reactor("ytt_hol_erb_thu_ytt_chloride")
+        .itemInputs("5x gtceu:yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture_dust")
+        .inputFluids(Fluid.of("gtceu:hydrochloric_acid", 24000))
+        .outputFluids(Fluid.of("minecraft:water", 12000))
+        .itemOutputs("5x gtceu:ytt_hol_erb_thu_ytt_chloride_dust")
+        .EUt(6144)
+        .duration(480)
+    ctnh.chemical_reactor("eur_gado_ter_dyspr_chloride")
+        .itemInputs("5x gtceu:europium_gadolinium_terbium_dysprosium_oxygen_mixture_dust")
+        .inputFluids(Fluid.of("gtceu:hydrochloric_acid", 24000))
+        .outputFluids(Fluid.of("minecraft:water", 12000))
+        .itemOutputs("5x gtceu:eur_gado_ter_dyspr_chloride_dust")
+        .EUt(6144)
+        .duration(240)
+    ctnh.vacuum_sintering("lanthanum_dust")
+        .itemInputs("5x gtceu:lan_cer_pra_neo_chloride_dust")
+        .itemOutputs("4x gtceu:lanthanum_dust", "4x gtceu:cerium_dust", "4x gtceu:praseodymium_dust", "4x gtceu:neodymium_dust", "4x gtceu:promethium_dust")
+        .outputFluids(Fluid.of("gtceu:chlorine", 24000))
+        .EUt(6144)
+        .duration(120).blastFurnaceTemp(6500)
+    ctnh.vacuum_sintering("samarium_dust")
+        .itemInputs("5x gtceu:eur_gado_ter_dyspr_chloride_dust")
+        .itemOutputs("4x gtceu:samarium_dust", "4x gtceu:europium_dust", "4x gtceu:gadolinium_dust", "4x gtceu:terbium_dust", "4x gtceu:dysprosium_dust","4x gtceu:holmium_dust")
+        .outputFluids(Fluid.of("gtceu:chlorine", 24000))
+        .EUt(6144)
+        .duration(120).blastFurnaceTemp(6500)
+    ctnh.vacuum_sintering("holmium_dust")
+        .itemInputs("5x gtceu:ytt_hol_erb_thu_ytt_chloride_dust")
+        .itemOutputs("4x gtceu:erbium_dust", "4x gtceu:thulium_dust", "4x gtceu:ytterbium_dust", "4x gtceu:lutetium_dust", "4x gtceu:scandium_dust","4x gtceu:yttrium_dust")
+        .outputFluids(Fluid.of("gtceu:chlorine", 24000))
+        .EUt(6144)
+        .duration(120).blastFurnaceTemp(6500)
+    
+    
+    
+})
