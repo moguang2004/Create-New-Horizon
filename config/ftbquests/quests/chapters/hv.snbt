@@ -1484,6 +1484,21 @@
 			x: 13.0d
 			y: 6.5d
 		}
+		{
+			dependencies: [
+				"08302778401395AA"
+				"4D79E10947CC121F"
+				"3BBEFDC7CD5D688B"
+			]
+			id: "42552E404237FB96"
+			tasks: [{
+				id: "6DE0530CFDC5398C"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
 	]
 	title: "&6HV&r时期"
 }

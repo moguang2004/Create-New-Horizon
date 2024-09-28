@@ -803,7 +803,48 @@ ServerEvents.recipes(event => {
         D: "create:shaft",
         E: "create:belt_connector"
     })
-    
+    event.shaped("gtceu:steam_piston_hammer", [
+        "BCB",
+        "DAD",
+        "BEB"
+    ], {
+        A: "gtceu:lp_steam_forge_hammer",
+        B: "gtceu:bronze_plate",
+        C: "gtceu:wrought_iron_ring",
+        D: "gtceu:iron_spring",
+        E: "gtceu:double_wrought_iron_plate"
+    })
+    event.shaped("gtceu:steam_pressor", [
+        "BCB",
+        "DAD",
+        "BEB"
+    ], {
+        A: "gtceu:lp_steam_compressor",
+        B: "gtceu:bronze_plate",
+        C: "gtceu:small_bronze_gear",
+        D: "gtceu:small_iron_spring",
+        E: "gtceu:wrought_iron_gear"
+    })
+    event.shaped("gtceu:steam_foundry", [
+        "BCB",
+        "DAD",
+        "BCB"
+    ], {
+        A: "gtceu:lp_steam_alloy_smelter",
+        B: "gtceu:bronze_plate",
+        C: "gtceu:potin_plate",
+        D: "gtceu:long_tin_alloy_rod"
+    })
+    event.shaped("gtceu:steam_centrifuge", [
+        "BCB",
+        "DAD",
+        "BCB"
+    ], {
+        A: "gtceu:bronze_rotor",
+        B: "gtceu:bronze_plate",
+        C: "gtceu:wrought_iron_gear",
+        D: "gtceu:long_bronze_rod"
+    })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}'),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}'))
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}'),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}'))

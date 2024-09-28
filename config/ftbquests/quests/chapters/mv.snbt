@@ -11,8 +11,8 @@
 		{
 			id: "5C80269B121E9ADC"
 			linked_quest: "2C6FBF2A814BB60D"
-			x: 8.5d
-			y: 2.0d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			id: "7499099A0B832604"
@@ -157,6 +157,7 @@
 				"64F3856504BEA9F2"
 				"36B9FCEC9579E090"
 			]
+			dependency_requirement: "one_completed"
 			id: "552458CB71BFFED9"
 			tasks: [{
 				id: "03741219A8943CDD"
@@ -318,21 +319,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"08302778401395AA"
-				"4D79E10947CC121F"
-				"3BBEFDC7CD5D688B"
-			]
-			id: "42552E404237FB96"
-			tasks: [{
-				id: "6DE0530CFDC5398C"
-				item: "gtceu:advanced_integrated_circuit"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["5A460876CA0EC216"]
 			id: "6A93AEE55399519D"
 			tasks: [{
@@ -362,7 +348,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["42552E404237FB96"]
+			dependencies: ["2C6FBF2A814BB60D"]
 			id: "661BD82A33904F28"
 			tasks: [{
 				id: "0A5342F38734ACAE"
@@ -370,7 +356,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -404,7 +390,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["42552E404237FB96"]
+			dependencies: ["2C6FBF2A814BB60D"]
 			id: "063155FDDF799750"
 			tasks: [{
 				id: "7312ABE98EF4BE13"
@@ -563,11 +549,21 @@
 			dependencies: ["1FBD86C0CF681427"]
 			hide_dependency_lines: true
 			id: "1A760D451E9D23B0"
-			tasks: [{
-				id: "71D1D2D5063F35CB"
-				item: "gtceu:mv_mixer"
-				type: "item"
-			}]
+			subtitle: "二选一"
+			tasks: [
+				{
+					id: "71D1D2D5063F35CB"
+					item: "gtceu:mv_mixer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24975BF93AE83232"
+					item: "gtceu:mv_kinetic_mixer"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 14.5d
 			y: -1.0d
 		}
@@ -585,6 +581,7 @@
 		{
 			dependencies: ["64F3856504BEA9F2"]
 			id: "36B9FCEC9579E090"
+			optional: true
 			tasks: [{
 				id: "3558C26A9A6B1B4C"
 				item: "gtceu:fermenting_tank"
@@ -692,7 +689,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["42552E404237FB96"]
+			dependencies: ["2C6FBF2A814BB60D"]
 			id: "4616A64D47AFBFF9"
 			subtitle: "赶紧用起来吧，不然你会很难受的"
 			tasks: [{
@@ -700,8 +697,8 @@
 				title: "AE2"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["42C489E6E3651DDC"]

@@ -135,5 +135,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 l.add(l.size(), Text.translate("multiblock.ctnh.nuclear_reactor.consume_amount", consume_amount.toFixed(1)))
             }
         })
-        .workableCasingRenderer('kubejs:block/shielded_reactor_casing', 'gtceu:block/multiblock/generator/large_steam_turbine', false)
+        .workableCasingRenderer('kubejs:block/shielded_reactor_casing', 'gtceu:block/machines/nuclear_reactor', false)
 })
