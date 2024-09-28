@@ -886,6 +886,30 @@
 			x: -1.0d
 			y: 2.5d
 		}
+		{
+			dependencies: ["257CFCFEE4F99D04"]
+			id: "3F7321AAB8DE3079"
+			subtitle: "注魔系列元件"
+			tasks: [{
+				id: "4768030EFF5870E2"
+				item: "kubejs:mana_resistor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4AB8CE1AF271F021"]
+			id: "353D5BC83F0AC9ED"
+			subtitle: "高级注魔系列元件"
+			tasks: [{
+				id: "503E1C04803B8AE4"
+				item: "kubejs:advanced_mana_transistor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
 	]
 	title: "植物魔法"
 }
