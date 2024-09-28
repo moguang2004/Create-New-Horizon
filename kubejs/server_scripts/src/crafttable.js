@@ -840,7 +840,7 @@ ServerEvents.recipes(event => {
         "DAD",
         "BCB"
     ], {
-        A: "gtceu:lp_steam_centrifuge",
+        A: "gtceu:bronze_rotor",
         B: "gtceu:bronze_plate",
         C: "gtceu:wrought_iron_gear",
         D: "gtceu:long_bronze_rod"

@@ -84,6 +84,7 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
                 .or(Predicates.abilities(PartAbility.STEAM).setExactLimit(1))
                 .or(Predicates.abilities(PartAbility.STEAM_IMPORT_ITEMS))
                 .or(Predicates.abilities(PartAbility.STEAM_EXPORT_ITEMS)))
+            .where("B", Predicates.blocks("gtceu:steam_machine_casing"))
             .where("#", Predicates.any())
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
             .build())

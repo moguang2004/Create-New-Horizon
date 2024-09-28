@@ -477,7 +477,7 @@ ServerEvents.recipes(event => {
     .itemInputs("nethersdelight:rich_soul_soil")
     .itemOutputs("4x gtceu:rich_soul_soil_dust")
     .chancedOutput("gtceu:crimson_yeast_dust", 1500, 150)
-    .chancedOutput("gtceu:wraped_yeast_dust", 1500, 150)
+    .chancedOutput("gtceu:warped_yeast_dust", 1500, 150)
     .EUt(30)
     .duration(20)
 

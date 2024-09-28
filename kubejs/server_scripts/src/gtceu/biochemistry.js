@@ -19,8 +19,8 @@ ServerEvents.recipes(event => {
             output: [Fluid.of('gtceu:ethane', 250), Fluid.of('gtceu:benzene', 500), Fluid.of('gtceu:butane', 250)]
         },
         {
-            name: 'wraped',
-            raw_material: 'minecraft:wraped_fungus',
+            name: 'warped',
+            raw_material: 'minecraft:warped_fungus',
             temperature: 1500,
             eu: 480,
             duration: 200,

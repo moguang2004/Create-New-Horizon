@@ -354,19 +354,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["4DCA7E4E57817E0A"]
-			id: "46A17DDE5D1A4130"
-			subtitle: "这里风景很漂亮，逛一逛吧"
-			tasks: [{
-				id: "0545714093956FAA"
-				title: "better_end"
-				type: "checkmark"
-			}]
-			title: "更好的末地"
-			x: -1.5d
-			y: 10.5d
-		}
-		{
 			dependencies: ["699743A94DF7E0B8"]
 			id: "6C03C11D175B2B3D"
 			tasks: [{
@@ -497,6 +484,17 @@
 			}]
 			x: -1.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["4DCA7E4E57817E0A"]
+			id: "3751A4C1DF0C7161"
+			tasks: [{
+				id: "6AEB73DDDFFF2242"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
 		}
 	]
 	title: "大千世界"

@@ -1,6 +1,6 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     let builder=event.create('twisted_fusion')
-    .category('thunion')
+    .category('ctnh')
     .setMaxIOSize(0, 0, 2, 2)
     .setEUIO('in')
     .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
      * @type {Internal.CustomMultiblockBuilder}
      */
     let builder=event.create('twisted_fusion_mk1', 'multiblock')
-    
+    for(let i=0;i<=9;i++) builder.tooltips(Component.translatable(`ctnh.${builder.id}.${i}`));
     builder.rotationState(RotationState.NON_Y_AXIS)
         .recipeModifier(
             (machine,/** @type {Internal.GTRecipe} */ recipe, params, result)=>{

@@ -37,7 +37,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
      * @type {Internal.CustomMultiblockBuilder}
      */
     let builder=event.create('meteor_capturer', 'multiblock')
-    
+    for(let i=0;i<=5;i++) builder.tooltips(Component.translatable(`ctnh.${builder.id}.${i}`));
     builder.rotationState(RotationState.NON_Y_AXIS)
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .noRecipeModifier()
