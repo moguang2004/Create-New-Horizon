@@ -37,3 +37,33 @@ ServerEvents.tags('fluid',event =>{
     event.add('createdieselgenerators:pumpjack_output','gtceu:impure_oil')
     event.remove('createdieselgenerators:pumpjack_output','createdieselgenerators:crude_oil')
 })
+
+ServerEvents.tags("entity_type", event => {
+    let AllBosses = ['twilightforest:swarm_spider',
+        'twilightforest:hedge_spider',
+        'minecraft:wither',
+        'minecraft:ender_dragon',
+        'alexscaves:luxtructosaurus',
+        'alexscaves:tremorzilla',
+        'ars_nouveau:wilden_boss',
+        'artifacts:mimic',
+        'cataclysm:ender_guardian',
+        'cataclysm:ignis',
+        'cataclysm:netherite_monstrosity',
+        'cataclysm:the_harbinger',
+        'cataclysm:the_leviathan',
+        'cataclysm:ancient_remnant',
+        'twilightforest:naga',
+        'twilightforest:lich',
+        'twilightforest:minoshroom',
+        'twilightforest:hydra',
+        'twilightforest:knight_phantom',
+        'twilightforest:ur_ghast',
+        'twilightforest:yeti_alpha',
+        'twilightforest:snow_queen']
+    AllBosses.forEach(boss => {
+            event.add("ars_nouveau:drygmy_blacklist", boss)
+            event.add("ars_nouveau:jar_blacklist", boss)
+            event.add("ars_nouveau:jar_release_blacklist", boss)
+    })
+})

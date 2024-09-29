@@ -15,8 +15,8 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -516,7 +516,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2534B56E45BA42B0"]
 			hide_dependency_lines: true
 			id: "7416F6FF316F0FBD"
 			tasks: [{
@@ -615,11 +614,46 @@
 			description: ["更快的炼钢，记得安排上较好的输入总线和输出总线(LV级）"]
 			id: "15ED273EAE156E49"
 			subtitle: "更快地炼钢"
-			tasks: [{
-				id: "28B4B5B5A143CB87"
-				item: "gtceu:industrial_primitive_blast_furnace"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "28B4B5B5A143CB87"
+					item: "gtceu:industrial_primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "0BCE1F8D5D6854D5"
+					item: { Count: 6, id: "gtceu:bronze_frame" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "76EEECA8CF912816"
+					item: { Count: 4, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 54L
+					id: "2936B23517509DEC"
+					item: { Count: 54, id: "gtceu:firebricks" }
+					type: "item"
+				}
+				{
+					id: "1A3360CED5514F11"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "211DBCBEBF3A41D0"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "26681E57D44589BB"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -4.5d
 		}
@@ -822,6 +856,7 @@
 		{
 			dependencies: ["2D662EFDE7A39BB8"]
 			id: "2C6FBF2A814BB60D"
+			subtitle: "要先去推植物魔法"
 			tasks: [{
 				id: "621BD7226FA2140E"
 				item: "kubejs:mana_electronic_circuit"
@@ -981,6 +1016,18 @@
 			}]
 			x: 2.5d
 			y: 8.0d
+		}
+		{
+			dependencies: ["79D60B601C349798"]
+			id: "22C86649AA801204"
+			subtitle: "这玩意要建就多建一些"
+			tasks: [{
+				id: "598FCB84BB66BF6E"
+				item: "ctnhcore:wind_power_array"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["工业起步"]

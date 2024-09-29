@@ -1,3 +1,6 @@
+const { $RecipeJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipeJS");
+const { $RecipesEventJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipesEventJS");
+
 /*event.recipes.gtceu.配方类型("id")            
         .itemInputs("物品id","物品id",....)
         .itemOutputs("物品id")
@@ -1195,4 +1198,125 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .blastFurnaceTemp(1700)
     event.remove({id:'gtceu:electric_blast_furnace/rutile_from_ilmenite'})
+    event.shaped(
+      'gtceu:hellforge',
+      [
+          'ICI',
+          'SHS',
+          'IFI'
+      ], {
+      C: '#gtceu:circuits/luv',
+      H: 'gtceu:iv_machine_hull',
+      I: 'bloodmagic:ingot_hellforged',
+      S: 'bloodmagic:etherealslate',
+      F: 'bloodmagic:soulforge'
+  })
+
+  event.recipes.gtceu.hellforge('hellpart')
+      .itemInputs('bloodmagic:hellforgedparts','minecraft:diamond','minecraft:netherite_scrap','bloodmagic:defaultcrystal')
+      .itemOutputs('2x bloodmagic:hellforgedparts')
+      .EUt(4000)
+      .duration(200)
+      .addDataNumber('minimumDrain',1000)
+      .addDataNumber('drain',200);
+
+      event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
+        console.info(recipe.json.get('output'))
+      })
+  // var counter=1;
+  // event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
+  //   console.info(recipe.getAllValueMap())
+  //     let input0 =recipe.get('input0');
+  //     let input1 =recipe.get('input1');
+  //     let input2 =recipe.get('input2');
+  //     let input3 =recipe.get('input3');
+  //     let output =recipe.get('output');
+  //     if(input2===null) console.log("NULL");
+  //     var drain=recipe.get('drain');
+  //     var minimumDrain=recipe.get('minimumDrain');
+      
+  //     var builder=event.recipes.gtceu.hellforge(counter+'_hellforge');
+  //     [input0,input1,input2,input3].forEach(input=>{
+  //         if(input!==null) builder.itemInputs(input);
+  //     })
+  //     builder.itemOutputs(output)
+  //     .EUt(minimumDrain===0?30:minimumDrain*20)
+  //     .duration(200)
+  //     .addDataNumber('minimumDrain',minimumDrain)
+  //     .addDataNumber('drain',drain);
+  //     counter++;
+  // })
+
+  function dwos_crafting_recipe(event,voltage) {
+    event.shaped(
+        `gtceu:${voltage}_digital_well_of_suffer`,
+        [
+            'PCP',
+            'SHS',
+            'PCP'
+        ], {
+        P: `gtceu:${voltage}_electric_pump`,
+        C: `#gtceu:circuits/${voltage}`,
+        H: `gtceu:${voltage}_machine_hull`,
+        ShaderTexture: 'bloodmagic:sacrificerune'
+    })
+  }
+  ['lv','mv','hv','ev','iv','luv','zpm','uv'].forEach(voltage=>dwos_crafting_recipe(event,voltage));
+  function addModel(event, entity, voltage, outputValue){
+    event.recipes.gtceu.digital_well_of_suffer('dwos_'+entity)
+        .outputFluids(Fluid.of('bloodmagic:life_essence_fluid',outputValue))
+        .notConsumable(Item.of('gtceu:data_stick', `{mobs:${entity}}`).strongNBT())
+        .EUt(voltage)
+        .duration(20);
+  }
+      ['chicken','cod','cow','glow_squid','mooshroom','pig','rabbit','polar_bear','squid','snow_golem','sheep'].forEach(entity=>
+        addModel(event, entity, 30, 100)
+    );
+    
+    // ['ars_nouveau_wilden_mobs','blaze','creeper','drowned','ghast','guardian','hoglin','magma_cube','phantom','skeleton','slime',
+    //     'spider','twilightforest_death_tomb','twilightforest_deer','twilightforest_raven','twilight_forest_stable_ice_core','witch','zombie','zombified_piglin'
+    // ].forEach(entity=>
+    //     addModel(event, entity, 120, 400)
+    // );
+    
+    // ['elder_guardian','enderman','evoker','iron_golem','shulker','twilightforest_giant','twilightforest_kobold','twilightforest_goblin',
+    //     'wither_skeleton','twilightforest_winter_wolf','twilightforest_redcap','twilightforest_helmet_crab','twilightforest_troll',
+    //     'twilightforest_naga','twilightforest_minotaur','twilightforest_fire_beetle','twilightforest_carminite_golem','twilightforest_towerwood_borer',
+    //     'vindicator','twilightforest_lich','twilightforest_yeti','twilightforest_wraith','twilightforest_skeleton_druid'
+    // ].forEach(entity=>
+    //     addModel(event, entity, 480, 1600)
+    // );
+
+    // ['artifacts_mimic','wither','ender_dragon','warden','twilightforest_snow_queen','twilightforest_hydra','twilightforest_minoshroom','twilightforest_alpha_yeti'
+    // ].forEach(entity=>
+    //     addModel(event, entity, 1920, 6400)
+    // );
+
+    // ['twilightforest_ur_ghast','allthemodium_piglich'
+    // ].forEach(entity=>
+    //     addModel(event, entity, 7680, 25600)
+    // );
+
+  event.recipes.gtceu.assembly_line('eternalwos')
+  .itemInputs(
+      'bloodmagic:largebloodstonebrick',
+      '2x gtceu:luv_electric_pump',
+      '4x bloodmagic:rawdemoncrystal',
+      '4x bloodmagic:corrosivedemoncrystal',
+      '4x bloodmagic:destructivedemoncrystal',
+      '4x bloodmagic:steadfastdemoncrystal',
+      '4x bloodmagic:vengefuldemoncrystal',
+      '64x hostilenetworks:prediction_matrix'
+  )
+  .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',1024000))
+  .itemOutputs('gtceu:eternal_well_of_suffer')
+  .duration(4800)
+  .EUt(32000)
+  ["scannerResearch(java.util.function.UnaryOperator)"](b => b.researchStack(Item.of('gtceu:luv_digital_well_of_suffer')).EUt(120).duration(9600)) // (1)
+
+  event.recipes.gtceu.dehydrator('ammonium_chloride')
+    .inputFluids(Fluid.of('gtceu:ammonium_chloride',144))
+    .itemOutputs('gtceu:ammonium_chloride_dust')
+    .EUt(30)
+    .duration(40)
 })
