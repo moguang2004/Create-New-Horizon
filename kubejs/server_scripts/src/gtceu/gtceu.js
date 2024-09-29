@@ -1,3 +1,4 @@
+// priority 10
 const { $RecipeJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipeJS");
 const { $RecipesEventJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipesEventJS");
 
@@ -1220,32 +1221,31 @@ ServerEvents.recipes(event => {
       .addDataNumber('minimumDrain',1000)
       .addDataNumber('drain',200);
 
-      event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
-        console.info(recipe.json.get('output'))
-      })
-  // var counter=1;
-  // event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
-  //   console.info(recipe.getAllValueMap())
-  //     let input0 =recipe.get('input0');
-  //     let input1 =recipe.get('input1');
-  //     let input2 =recipe.get('input2');
-  //     let input3 =recipe.get('input3');
-  //     let output =recipe.get('output');
-  //     if(input2===null) console.log("NULL");
-  //     var drain=recipe.get('drain');
-  //     var minimumDrain=recipe.get('minimumDrain');
+      // event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
+      //   console.info(recipe.json.get('drain'))
+      // })
+  var counter=1;
+  event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
+      let input0 = Item.of(recipe.json.get('input0'));
+      let input1 = Item.of(recipe.json.get('input1'));
+      let input2 = Item.of(recipe.json.get('input2'));
+      let input3 = Item.of(recipe.json.get('input3'));
+      let output = Item.of(recipe.json.get('output'));
+      let inputs = [input0,input1,input2,input3]
+      var drain=recipe.json.get('drain');
+      var minimumDrain=recipe.json.get('minimumDrain');
       
-  //     var builder=event.recipes.gtceu.hellforge(counter+'_hellforge');
-  //     [input0,input1,input2,input3].forEach(input=>{
-  //         if(input!==null) builder.itemInputs(input);
-  //     })
-  //     builder.itemOutputs(output)
-  //     .EUt(minimumDrain===0?30:minimumDrain*20)
-  //     .duration(200)
-  //     .addDataNumber('minimumDrain',minimumDrain)
-  //     .addDataNumber('drain',drain);
-  //     counter++;
-  // })
+      var builder=event.recipes.gtceu.hellforge(counter+'_hellforge');
+      inputs.forEach(input=>{
+          if(input!==null) builder.itemInputs(input);
+      })
+      builder.itemOutputs(output)
+      .EUt(minimumDrain===0?30:minimumDrain*20)
+      .duration(200)
+      .addDataNumber('minimumDrain',minimumDrain)
+      .addDataNumber('drain',drain);
+      counter++;
+  })
 
   function dwos_crafting_recipe(event,voltage) {
     event.shaped(
@@ -1262,40 +1262,49 @@ ServerEvents.recipes(event => {
     })
   }
   ['lv','mv','hv','ev','iv','luv','zpm','uv'].forEach(voltage=>dwos_crafting_recipe(event,voltage));
+  // function addModel(event, entity, voltage, outputValue){
+  //   event.recipes.gtceu.digital_well_of_suffer('dwos_'+entity)
+  //       .outputFluids(Fluid.of('bloodmagic:life_essence_fluid',outputValue))
+  //       .notConsumable(Item.of('gtceu:data_stick', `{mobs:${entity}}`).strongNBT())
+  //       .EUt(voltage)
+  //       .duration(20);
+  // }
   function addModel(event, entity, voltage, outputValue){
     event.recipes.gtceu.digital_well_of_suffer('dwos_'+entity)
         .outputFluids(Fluid.of('bloodmagic:life_essence_fluid',outputValue))
-        .notConsumable(Item.of('gtceu:data_stick', `{mobs:${entity}}`).strongNBT())
+        .notConsumable(Item.of('hostilenetworks:data_model', {data_model:{id:'hostilenetworks:'+entity}}).weakNBT())
         .EUt(voltage)
         .duration(20);
-  }
-      ['chicken','cod','cow','glow_squid','mooshroom','pig','rabbit','polar_bear','squid','snow_golem','sheep'].forEach(entity=>
-        addModel(event, entity, 30, 100)
+}
+
+  let low = ['chicken','cod','cow','glow_squid','mooshroom','pig','rabbit','polar_bear','squid','snow_golem','sheep']
+  let mid = ['ars_nouveau/wilden_mobs','blaze','creeper','drowned','ghast','guardian','hoglin','magma_cube','phantom','skeleton','slime','twilightforste/death_tome','twilightforste/stable_ice_core',
+    'spider','twilightforest/death_tomb','twilightforest/deer','twilightforest/raven','twilight_forest/stable_ice_core','witch','zombie','zombified_piglin']
+  let high = ['elder_guardian','enderman','evoker','iron_golem','shulker','twilightforest/giant','twilightforest/kobold','twilightforest/goblin',
+    'wither_skeleton','twilightforest/winter_wolf','twilightforest/redcap','twilightforest/helmet_crab','twilightforest/troll',
+    'twilightforest/naga','twilightforest/minotaur','twilightforest/fire_beetle','twilightforest/carminite_golem','twilightforest/towerwood_borer',
+    'vindicator','twilightforest/lich','twilightforest/yeti','twilightforest/wraith','twilightforest/skeleton_druid']
+  let supers = ['artifacts/mimic','wither','ender_dragon','warden','twilightforest/snow_queen','twilightforest/hydra','twilightforest/minoshroom','twilightforest/alpha_yeti']
+  let boss =['twilightforest/ur_ghast']
+    low.forEach(entity=>
+      addModel(event, entity, 30, 100)
     );
     
-    // ['ars_nouveau_wilden_mobs','blaze','creeper','drowned','ghast','guardian','hoglin','magma_cube','phantom','skeleton','slime',
-    //     'spider','twilightforest_death_tomb','twilightforest_deer','twilightforest_raven','twilight_forest_stable_ice_core','witch','zombie','zombified_piglin'
-    // ].forEach(entity=>
-    //     addModel(event, entity, 120, 400)
-    // );
+    mid.forEach(entity=>
+      addModel(event, entity, 120, 400)
+    );
     
-    // ['elder_guardian','enderman','evoker','iron_golem','shulker','twilightforest_giant','twilightforest_kobold','twilightforest_goblin',
-    //     'wither_skeleton','twilightforest_winter_wolf','twilightforest_redcap','twilightforest_helmet_crab','twilightforest_troll',
-    //     'twilightforest_naga','twilightforest_minotaur','twilightforest_fire_beetle','twilightforest_carminite_golem','twilightforest_towerwood_borer',
-    //     'vindicator','twilightforest_lich','twilightforest_yeti','twilightforest_wraith','twilightforest_skeleton_druid'
-    // ].forEach(entity=>
-    //     addModel(event, entity, 480, 1600)
-    // );
+    high.forEach(entity=>
+        addModel(event, entity, 480, 1600)
+    );
 
-    // ['artifacts_mimic','wither','ender_dragon','warden','twilightforest_snow_queen','twilightforest_hydra','twilightforest_minoshroom','twilightforest_alpha_yeti'
-    // ].forEach(entity=>
-    //     addModel(event, entity, 1920, 6400)
-    // );
+    supers.forEach(entity=>
+        addModel(event, entity, 1920, 6400)
+    );
 
-    // ['twilightforest_ur_ghast','allthemodium_piglich'
-    // ].forEach(entity=>
-    //     addModel(event, entity, 7680, 25600)
-    // );
+    boss.forEach(entity=>
+        addModel(event, entity, 7680, 25600)
+    );
 
   event.recipes.gtceu.assembly_line('eternalwos')
   .itemInputs(
@@ -1319,4 +1328,14 @@ ServerEvents.recipes(event => {
     .itemOutputs('gtceu:ammonium_chloride_dust')
     .EUt(30)
     .duration(40)
+  event.recipes.gtceu.forming_press('blank_data_model')
+    .itemInputs(['2x gtceu:ender_pearl_plate', '2x gtceu:stainless_steel_plate', '2x gtceu:fine_platinum_wire', 'minecraft:smooth_stone'])
+    .itemOutputs('hostilenetworks:blank_data_model')
+    .duration(200)
+    .EUt(480)
+  event.recipes.gtceu.assembler('deep_learner')
+    .itemInputs(['gtceu:computer_monitor_cover', '2x gtceu:double_black_steel_plate', '2x gtceu:black_steel_plate', 'gtceu:black_steel_gear', '#gtceu:circuits/ev'])
+    .itemOutputs('hostilenetworks:deep_learner')
+    .duration(200)
+    .EUt(480)
 })
