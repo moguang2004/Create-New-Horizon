@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "lost_base": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "minecraft:plains",
+                        "structures": "snowstructures:lost_base",
+                        "dimension": "minecraft:overworld"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "item": "minecraft:apple"
+         },
+         "title": {
+             "translate": "正在开发..."
+         },
+         "description": {
+             "translate": "敬请期待..."
+         },
+         "frame": "task",    
+         "announce_to_chat": true,      
+         "hidden": false,    
+         "show_toast": true    
+    },
+    "parent": "snowstructures:begining",
+    "requirements": [  
+        ["lost_base"]
+    ],
+    "rewards": {   
+    }
+}
