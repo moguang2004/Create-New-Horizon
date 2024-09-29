@@ -654,18 +654,4 @@ ServerEvents.recipes(event => {
       "tag": "botania:seed_apothecary_reagent"
     }
   }).id('botania:petal_apothecary/entropinnyum')
-
-  event.custom({
-    "type": "botania:elven_trade",
-    "ingredients": [
-      {
-        "item": "gtceu:advanced_integrated_circuit"
-      }
-    ],
-    "output": [
-      {
-        "item": "kubejs:mana_integrated_circuit"
-      }
-    ]
-  })
 })

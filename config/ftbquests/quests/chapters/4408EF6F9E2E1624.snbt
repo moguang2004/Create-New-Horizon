@@ -1087,14 +1087,7 @@
 			y: 20.5d
 		}
 		{
-<<<<<<< HEAD
-			dependencies: [
-				"2534B56E45BA42B0"
-				"106DC15191737D98"
-			]
-=======
 			dependencies: ["106DC15191737D98"]
->>>>>>> upstream/dev
 			id: "2D25ECAC3AC7C22C"
 			tasks: [{
 				id: "5CE1B7D9315320A8"

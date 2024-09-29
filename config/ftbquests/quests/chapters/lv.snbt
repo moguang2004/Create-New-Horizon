@@ -480,17 +480,10 @@
 			dependencies: ["4759D176E05E3D8C"]
 			id: "2301C8A867356B99"
 			rewards: [{
-<<<<<<< HEAD
-				command: "/gamephase add @p twilightforest"
-				id: "4F3B927EBC2B0E50"
-				title: "前往暮色森林"
-				type: "command"
-=======
 				exclude_from_claim_all: true
 				id: "5CF2F747B973C1C9"
 				table_id: 601634794626000726L
 				type: "random"
->>>>>>> upstream/dev
 			}]
 			subtitle: "概率！"
 			tasks: [{
@@ -601,15 +594,12 @@
 		{
 			dependencies: ["79D60B601C349798"]
 			id: "71ABAC98E9CC67A9"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4DAFDEF90273B4D5"
 				table_id: 601634794626000726L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "6F70329CA96985DF"
 				item: "gtceu:bronze_large_boiler"
@@ -690,13 +680,6 @@
 				type: "random"
 			}]
 			subtitle: "更快地炼钢"
-<<<<<<< HEAD
-			tasks: [{
-				id: "28B4B5B5A143CB87"
-				item: "gtceu:industrial_primitive_blast_furnace"
-				type: "item"
-			}]
-=======
 			tasks: [
 				{
 					id: "28B4B5B5A143CB87"
@@ -737,7 +720,6 @@
 					type: "item"
 				}
 			]
->>>>>>> upstream/dev
 			x: -3.5d
 			y: -4.5d
 		}
@@ -896,14 +878,6 @@
 		{
 			dependencies: ["7416F6FF316F0FBD"]
 			id: "503EFF0F1F7B72CB"
-<<<<<<< HEAD
-			rewards: [{
-				id: "2936ACEEFAF76401"
-				item: "minecraft:nether_star"
-				type: "item"
-			}]
-=======
->>>>>>> upstream/dev
 			subtitle: "再送你一颗！"
 			tasks: [{
 				id: "77BE1A311A61D5B7"
@@ -916,15 +890,12 @@
 		{
 			dependencies: ["4759D176E05E3D8C"]
 			id: "7BE6A468603F70A6"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3A5895E46F109C35"
 				table_id: 601634794626000726L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "5F05C68014960F04"
 				item: "gtceu:flawless_emerald_gem"
@@ -958,8 +929,6 @@
 		{
 			dependencies: ["2D662EFDE7A39BB8"]
 			id: "2C6FBF2A814BB60D"
-<<<<<<< HEAD
-=======
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -974,7 +943,6 @@
 					type: "random"
 				}
 			]
->>>>>>> upstream/dev
 			subtitle: "要先去推植物魔法"
 			tasks: [{
 				id: "621BD7226FA2140E"
@@ -1135,8 +1103,6 @@
 			}]
 			x: 2.5d
 			y: 8.0d
-<<<<<<< HEAD
-=======
 		}
 		{
 			dependencies: ["79D60B601C349798"]
@@ -1155,7 +1121,6 @@
 			}]
 			x: -1.5d
 			y: -4.5d
->>>>>>> upstream/dev
 		}
 	]
 	subtitle: ["工业起步"]

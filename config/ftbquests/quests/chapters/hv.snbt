@@ -94,15 +94,12 @@
 				"30A047CA07E56044"
 			]
 			id: "613BDF61BD8CAD08"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "47F544AA5EB90851"
 				table_id: 723892772024061161L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "无损超频！"
 			tasks: [{
 				id: "6FD9026EFF3CC78B"
@@ -413,15 +410,12 @@
 				"446AA42EB8DCE6EB"
 			]
 			id: "16243C6CC9C1CD8A"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "481E663093C8AEBA"
 				table_id: 723892772024061161L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "可以直接用宇航服左键机器里的氧气"
 			tasks: [
 				{
@@ -506,15 +500,12 @@
 		{
 			dependencies: ["294B6A72EA589606"]
 			id: "5CF841D44D3A2035"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1FF2A8D26D78D7C7"
 				table_id: 723892772024061161L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			shape: "pentagon"
 			tasks: [{
 				id: "09F1B396D3B9E97B"
@@ -1048,27 +1039,6 @@
 			y: -7.5d
 		}
 		{
-<<<<<<< HEAD
-			id: "6C00521117DF2F34"
-			tasks: [
-				{
-					id: "7D3C94E8656C6949"
-					item: "gtceu:raw_tantalite"
-					type: "item"
-				}
-				{
-					id: "3F7228301F016CEE"
-					item: "gtceu:raw_pyrochlore"
-					type: "item"
-				}
-			]
-			title: "计划中的两种矿处理产线？"
-			x: -2.0d
-			y: -6.0d
-		}
-		{
-=======
->>>>>>> upstream/dev
 			dependencies: ["7C6C4AAF05BA4C32"]
 			id: "7D43208EB21CE1EB"
 			tasks: [{
@@ -1268,15 +1238,12 @@
 				"773CB6E376B56EA4"
 			]
 			id: "0EDC06CD857700E0"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "42867B53F0955106"
 				table_id: 723892772024061161L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "更快！"
 			tasks: [{
 				id: "651C46324F640F54"
@@ -1373,15 +1340,12 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			id: "147567E48E8786C3"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0F3A69CDF2D313BC"
 				table_id: 723892772024061161L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "0D3F5432587823A0"
 				item: "gtceu:hv_cutter"
@@ -1398,15 +1362,12 @@
 				"04CED50A5D7434CE"
 			]
 			id: "446AA42EB8DCE6EB"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "18F8AACA68D7802D"
 				table_id: 723892772024061161L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "3E81E8A2C38E6E7E"
 				item: "kubejs:space_fabric"

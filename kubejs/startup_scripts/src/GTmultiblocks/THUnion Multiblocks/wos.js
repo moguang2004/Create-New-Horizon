@@ -5,11 +5,7 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 
     let builder=event.create('digital_well_of_suffer')
-<<<<<<< HEAD
-    .category('thunion')
-=======
     .category('ctnh')
->>>>>>> upstream/dev
     .setMaxIOSize(1,0,0,1)
     .setEUIO('in')
     .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)

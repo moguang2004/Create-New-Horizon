@@ -6,16 +6,6 @@
 	icon: "gtceu:iv_machine_hull"
 	id: "6A50F0290F3D7CC7"
 	order_index: 4
-<<<<<<< HEAD
-	quest_links: [{
-		id: "5D162E9699779EE3"
-		linked_quest: "1CECBF50A30F23B0"
-		shape: "rsquare"
-		size: 1.5d
-		x: -3.5d
-		y: -2.5d
-	}]
-=======
 	quest_links: [
 		{
 			id: "5D162E9699779EE3"
@@ -32,7 +22,6 @@
 			y: 8.5d
 		}
 	]
->>>>>>> upstream/dev
 	quests: [
 		{
 			dependencies: ["1CECBF50A30F23B0"]
@@ -210,15 +199,12 @@
 		{
 			dependencies: ["25D924B587ABCF41"]
 			id: "15228E5BA4B65879"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5EC2F00D4890D573"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "4并行，但是有点贵（"
 			tasks: [{
 				id: "0F2B66762F42FC64"
@@ -336,15 +322,12 @@
 			]
 			hide_dependent_lines: true
 			id: "2C5808ACA11F77FD"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0B2928BD850D3BEB"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "0D8B3B260399D153"
 				item: "gtceu:iv_robot_arm"
@@ -400,15 +383,12 @@
 				"375C2E3997D94721"
 			]
 			id: "3EE20D3AB81673F0"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2A8827050F3550E2"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "260E11876E04D8E9"
 				item: "gtceu:quantum_star"
@@ -418,14 +398,10 @@
 			y: -4.5d
 		}
 		{
-<<<<<<< HEAD
-			dependencies: ["1FC11FF9B668D855"]
-=======
 			dependencies: [
 				"1FC11FF9B668D855"
 				"46E271DD7E3544D9"
 			]
->>>>>>> upstream/dev
 			id: "54D959569D7F0BD9"
 			subtitle: "快去制作对应小机器的大机器吧！"
 			tasks: [{
@@ -433,36 +409,24 @@
 				title: "大机器时代"
 				type: "checkmark"
 			}]
-<<<<<<< HEAD
-			x: 2.5d
-			y: -1.0d
-=======
 			x: 0.5d
 			y: 0.5d
->>>>>>> upstream/dev
 		}
 		{
 			dependencies: ["08428BDD673EEC5A"]
 			id: "1CE031B193FB03C6"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "415DF3EED0FF4702"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "7784198671D40168"
 				item: "gtceu:iv_energy_input_hatch"
 				type: "item"
 			}]
-<<<<<<< HEAD
-			x: 4.5d
-=======
 			x: 8.5d
->>>>>>> upstream/dev
 			y: -1.0d
 		}
 		{
@@ -490,8 +454,6 @@
 		{
 			dependencies: ["2674BCD150D5DFAD"]
 			id: "0D88A5F86881FB3B"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "034E5516FF00FA03"
@@ -499,7 +461,6 @@
 				type: "random"
 			}]
 			subtitle: "第一个ZPM电路！"
->>>>>>> upstream/dev
 			tasks: [{
 				id: "39324AD517C3F569"
 				item: "gtceu:quantum_processor_mainframe"
@@ -534,15 +495,12 @@
 				"5184E21A63FCDD12"
 			]
 			id: "0E7F2FF17D112EA2"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "14EC69DEE08DEF1A"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "更好的贴片"
 			tasks: [
 				{
@@ -627,15 +585,12 @@
 		{
 			dependencies: ["07968A97D7CE73D4"]
 			id: "337CD691039A1E83"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3B6DFCC2E86F6C95"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "你必须拥有它，不然你在金星会死"
 			tasks: [
 				{
@@ -769,15 +724,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2474EA3E5B6C1C66"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "613E4F21C27089AF"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "61DEE7A0339B665E"
 				item: "gtceu:polybenzimidazole_bucket"
@@ -825,15 +777,12 @@
 				"67B1DCF33DA1537D"
 			]
 			id: "617BED396688514E"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "52E062425B5BB0B8"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "7EA79BE155FBFE83"
 				item: "gtceu:polyphenylene_sulfide_bucket"
@@ -860,15 +809,12 @@
 				"11CEB762BEC88A67"
 			]
 			id: "7CF8AB9126F11C19"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "00A812A25ADCB8AB"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "12773E325CB750EF"
 				item: "gtnn:quark_core"
@@ -913,15 +859,12 @@
 				"7CF8AB9126F11C19"
 			]
 			id: "49534975B8942923"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "765E1FB8B5BFBEA1"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "硅岩产线的开始"
 			tasks: [{
 				id: "325A7FFA6546DE1E"
@@ -935,15 +878,12 @@
 			dependencies: ["49534975B8942923"]
 			description: ["处理详情见矿物处理章节"]
 			id: "3024C689060DBB33"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6DB19642A40DB697"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "初步的硅岩处理"
 			tasks: [{
 				id: "6F3E1BDF97B9A711"
@@ -959,15 +899,12 @@
 				"4A412A967394C59E"
 			]
 			id: "258BBAE74ED9B2CE"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1694B592DA16F342"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			shape: "pentagon"
 			tasks: [{
 				count: 16L
@@ -981,15 +918,12 @@
 		{
 			dependencies: ["3024C689060DBB33"]
 			id: "007D76C1032C8544"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "07E19F4C83F25131"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "ZPM的重要材料"
 			tasks: [{
 				id: "195043829173C0E7"
@@ -1002,15 +936,12 @@
 		{
 			dependencies: ["3024C689060DBB33"]
 			id: "2CF209AAA8501F95"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "47ECD247D9674774"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "ZPM超导"
 			tasks: [{
 				id: "11309F2FDDC557B1"
@@ -1023,15 +954,12 @@
 		{
 			dependencies: ["2A6527B0F4AC3E2E"]
 			id: "17292FB8D4DD36BA"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5E08C2F133CF954C"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "LUV的开始"
@@ -1040,13 +968,8 @@
 				item: "gtceu:rhodium_plated_palladium_ingot"
 				type: "item"
 			}]
-<<<<<<< HEAD
-			x: 0.5d
-			y: 0.5d
-=======
 			x: 2.452380952380956d
 			y: -0.9345238095238173d
->>>>>>> upstream/dev
 		}
 		{
 			dependencies: ["2B778B5E697A84C2"]
@@ -1078,11 +1001,7 @@
 				item: "gtceu:indium_concentrate_bucket"
 				type: "item"
 			}]
-<<<<<<< HEAD
-			x: 6.5d
-=======
 			x: 8.5d
->>>>>>> upstream/dev
 			y: 0.5d
 		}
 		{
@@ -1093,11 +1012,7 @@
 				item: "gtceu:hpic_wafer"
 				type: "item"
 			}]
-<<<<<<< HEAD
-			x: 6.5d
-=======
 			x: 4.5d
->>>>>>> upstream/dev
 			y: -1.0d
 		}
 		{
@@ -1123,15 +1038,12 @@
 			description: ["装配线自动化在高版本很简单，只需要用AE的主网接子网即可实现,实在不会可以使用B站搜索"]
 			icon: "gtceu:assembly_line"
 			id: "38B6939B719B9C30"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "36E57FBBF9F30A89"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "只能用ULV输入总线！"
@@ -1217,15 +1129,12 @@
 		{
 			dependencies: ["007D76C1032C8544"]
 			id: "29086C6A9A5FA58E"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5AB53449C9E02B4A"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "ZPM的开始"
@@ -1281,25 +1190,18 @@
 		{
 			dependencies: ["2D30354CDA91122C"]
 			id: "5421945223C45651"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3AD6DBB71C80D60A"
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "1767BC1C07B81A81"
 				item: "gtceu:meteor_capturer"
 				type: "item"
 			}]
 			x: -1.5d
-<<<<<<< HEAD
-			y: 2.5d
-		}
-=======
 			y: 12.5d
 		}
 		{
@@ -2005,7 +1907,6 @@
 			x: -3.5d
 			y: 6.5d
 		}
->>>>>>> upstream/dev
 	]
 	title: "&9IV&r时期"
 }

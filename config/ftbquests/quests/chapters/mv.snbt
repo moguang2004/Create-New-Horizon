@@ -432,17 +432,10 @@
 			]
 			id: "5A55D491F0E9F389"
 			rewards: [{
-<<<<<<< HEAD
-				command: "/gamephase add @p end"
-				id: "1BF2998667643C68"
-				title: "前往末地"
-				type: "command"
-=======
 				exclude_from_claim_all: true
 				id: "1939DA6E776D1004"
 				table_id: 5863108397808417557L
 				type: "random"
->>>>>>> upstream/dev
 			}]
 			tasks: [{
 				id: "7BAD7E832FEF40F0"
@@ -704,15 +697,6 @@
 		{
 			dependencies: ["35FC625257013116"]
 			id: "415AF3F977F4C3F9"
-<<<<<<< HEAD
-			rewards: [{
-				command: "/gamephase add @p aether"
-				id: "77BF31525552C266"
-				title: "前往天境"
-				type: "command"
-			}]
-=======
->>>>>>> upstream/dev
 			tasks: [{
 				id: "0C901293ECFB769A"
 				item: {
@@ -888,15 +872,12 @@
 		{
 			dependencies: ["707A41CB0EED30D3"]
 			id: "667964AF2027E5BD"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "5686EE9C9A3823B5"
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			shape: "pentagon"
 			tasks: [{
 				count: 16L
@@ -925,15 +906,12 @@
 			]
 			hide_dependency_lines: true
 			id: "01377F6FDB479DC4"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3EE67097A2302787"
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [
 				{
 					id: "330E788B29689786"
@@ -974,15 +952,12 @@
 				"0B406575E6CDCC2D"
 			]
 			id: "40CBECB09DB2EEE7"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2E748F1E8B6F3431"
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "571D09AB2742E15B"
 				item: "gtceu:industrial_tnt"
@@ -1073,15 +1048,12 @@
 		{
 			dependencies: ["3C1A31CEA3C10082"]
 			id: "6960D8238C5B49EB"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1B85BDB70F2F5A1C"
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "07DF63569B78C55A"
 				item: "gtceu:phosphorus_boule"
@@ -1097,15 +1069,12 @@
 				"3BBEFDC7CD5D688B"
 			]
 			id: "42552E404237FB96"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2B275A71EEB5D692"
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			tasks: [{
 				id: "6DE0530CFDC5398C"
 				item: "gtceu:advanced_integrated_circuit"
@@ -1117,15 +1086,12 @@
 		{
 			dependencies: ["42552E404237FB96"]
 			id: "378D31F3F0D064F8"
-<<<<<<< HEAD
-=======
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7065B72C4E5210CF"
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
->>>>>>> upstream/dev
 			subtitle: "高阶植物魔法"
 			tasks: [{
 				id: "7D626479721BEE0F"

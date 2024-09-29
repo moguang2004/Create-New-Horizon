@@ -6,17 +6,6 @@
 	icon: "gtceu:luv_machine_hull"
 	id: "42952A10FFCE402D"
 	order_index: 5
-<<<<<<< HEAD
-	quest_links: [{
-		id: "2D8E067BA5CDB23A"
-		linked_quest: "17292FB8D4DD36BA"
-		shape: "rsquare"
-		size: 1.5d
-		x: -15.5d
-		y: 0.0d
-	}]
-	quests: [ ]
-=======
 	quest_links: [
 		{
 			id: "2D8E067BA5CDB23A"
@@ -430,6 +419,5 @@
 			y: -5.5d
 		}
 	]
->>>>>>> upstream/dev
 	title: "&dLuV&r时期"
 }

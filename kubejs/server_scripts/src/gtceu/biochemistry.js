@@ -265,8 +265,6 @@ ServerEvents.recipes(event => {
         event.recipes.createPressing(transitional, [transitional]),
     ]).transitionalItem(transitional)
         .loops(1)
-<<<<<<< HEAD
-=======
     event.recipes.gtceu.differential_centrifuge('thermoduric_bacteria')
         .inputFluids(Fluid.of('gtceu:mystery_fluid',1000))
         .itemOutputs('gtceu:thermoduric_bacteria_dust')
@@ -303,6 +301,5 @@ ServerEvents.recipes(event => {
         .itemOutputs('4x minecraft:sugar')
         .EUt(120)
         .duration(80)
->>>>>>> upstream/dev
 })
 let meat = ['nethersdelight:hoglin_loin', 'twilightforest:raw_meef', 'twilightforest:raw_venison', 'alexscaves:dinosaur_chop', 'twilightdelight:raw_insect']

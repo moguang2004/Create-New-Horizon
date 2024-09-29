@@ -263,10 +263,6 @@
 						Count: 1
 						id: "sophisticatedbackpacks:gold_backpack"
 						tag: {
-<<<<<<< HEAD
-							contentsUuid: [ ]
-=======
->>>>>>> upstream/dev
 							inventorySlots: 81
 							upgradeSlots: 3
 						}

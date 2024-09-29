@@ -823,10 +823,7 @@
 			y: -4.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["1B42116566009D69"]
->>>>>>> upstream/dev
 			id: "311E3575421537D5"
 			tasks: [{
 				id: "6ECEC2FB84261514"
@@ -837,10 +834,7 @@
 			y: -2.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["3BBF96E8CFC2B837"]
->>>>>>> upstream/dev
 			id: "6CB97E1AD7A6E668"
 			tasks: [{
 				id: "520DD82A1D1FEEB0"
@@ -861,10 +855,7 @@
 			y: -4.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["067C5E010500E27A"]
->>>>>>> upstream/dev
 			id: "456C0E6B96A1FA08"
 			tasks: [{
 				id: "53C093BE2447AE95"
@@ -875,10 +866,7 @@
 			y: -2.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["311E3575421537D5"]
->>>>>>> upstream/dev
 			id: "3105F1034CE396DE"
 			tasks: [{
 				id: "377E590B415EC4DA"
@@ -889,21 +877,6 @@
 			y: -0.5d
 		}
 		{
-<<<<<<< HEAD
-			id: "0DDCA34CA9EE8352"
-			tasks: [
-				{
-					id: "6D4F5CF659DEEFD8"
-					item: "gtceu:impure_enriched_naquadah_solution_bucket"
-					type: "item"
-				}
-				{
-					id: "75EEEEBAE623E450"
-					item: "gtceu:impure_naquadria_solution_bucket"
-					type: "item"
-				}
-			]
-=======
 			dependencies: [
 				"6CB97E1AD7A6E668"
 				"3105F1034CE396DE"
@@ -915,7 +888,6 @@
 				item: "gtceu:impure_enriched_naquadah_solution_bucket"
 				type: "item"
 			}]
->>>>>>> upstream/dev
 			x: 29.5d
 			y: -0.5d
 		}
@@ -930,14 +902,11 @@
 			y: 1.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: [
 				"3105F1034CE396DE"
 				"0DDCA34CA9EE8352"
 			]
 			dependency_requirement: "one_completed"
->>>>>>> upstream/dev
 			id: "3020D6D5BA6748B8"
 			tasks: [{
 				id: "3F1265354646B23B"
@@ -948,13 +917,10 @@
 			y: 1.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: [
 				"51DA4093C8BA8D61"
 				"292693CDD6C146A4"
 			]
->>>>>>> upstream/dev
 			id: "0459A15C78E34DFF"
 			tasks: [{
 				id: "30816EFA438F57A2"
@@ -965,10 +931,7 @@
 			y: 1.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["3020D6D5BA6748B8"]
->>>>>>> upstream/dev
 			id: "44DF62D8F87E1E98"
 			tasks: [{
 				id: "68B4CC9FEFC53CA6"
@@ -979,10 +942,7 @@
 			y: 3.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["44DF62D8F87E1E98"]
->>>>>>> upstream/dev
 			id: "6C3126410D93801D"
 			tasks: [{
 				id: "2305C67C14E84DC1"
@@ -993,10 +953,7 @@
 			y: 5.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["6C3126410D93801D"]
->>>>>>> upstream/dev
 			id: "0D20629FA261446E"
 			tasks: [{
 				id: "3C030314D585A1A0"
@@ -1007,10 +964,7 @@
 			y: 7.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["0D20629FA261446E"]
->>>>>>> upstream/dev
 			id: "5A941BB7E8160424"
 			tasks: [{
 				id: "3AE92F3A81A20813"
@@ -1021,13 +975,10 @@
 			y: 9.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: [
 				"2B9B3F5FB6BAACA2"
 				"0459A15C78E34DFF"
 			]
->>>>>>> upstream/dev
 			id: "3DA61E6A0C90CA6F"
 			tasks: [{
 				id: "37FBC744941BF8C5"
@@ -1038,13 +989,10 @@
 			y: 3.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: [
 				"3F2400EB1CD5A860"
 				"3DA61E6A0C90CA6F"
 			]
->>>>>>> upstream/dev
 			id: "5A69B2E18A793DDD"
 			tasks: [{
 				id: "112082BB32E6F673"
@@ -1055,10 +1003,7 @@
 			y: 5.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["5A69B2E18A793DDD"]
->>>>>>> upstream/dev
 			id: "79B8857F83BEE080"
 			tasks: [{
 				id: "1A636196CAE8B93C"
@@ -1069,10 +1014,7 @@
 			y: 7.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["79B8857F83BEE080"]
->>>>>>> upstream/dev
 			id: "5AAAB678E3FE0422"
 			tasks: [{
 				id: "10255CC7729BE8D8"
@@ -1083,10 +1025,7 @@
 			y: 9.5d
 		}
 		{
-<<<<<<< HEAD
-=======
 			dependencies: ["5AAAB678E3FE0422"]
->>>>>>> upstream/dev
 			id: "7BF2670153067B67"
 			tasks: [{
 				id: "6B8F3DFB98C6F147"
@@ -1118,20 +1057,12 @@
 		}
 		{
 			id: "0F974358320FEC16"
-<<<<<<< HEAD
-=======
 			subtitle: "推荐用富集硅岩"
->>>>>>> upstream/dev
 			tasks: [{
 				id: "04D6DF59C6B92247"
 				title: "可以看看硅岩发电"
 				type: "checkmark"
 			}]
-<<<<<<< HEAD
-			x: 31.5d
-			y: -0.5d
-		}
-=======
 			x: 34.0d
 			y: -0.5d
 		}
@@ -1261,7 +1192,6 @@
 			x: 0.5d
 			y: 9.5d
 		}
->>>>>>> upstream/dev
 	]
 	title: "矿物处理"
 }
