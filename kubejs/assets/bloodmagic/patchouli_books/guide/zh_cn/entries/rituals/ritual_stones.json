@@ -1,0 +1,23 @@
+{
+  "name": "儀式石",
+  "icon": "bloodmagic:waterritualstone",
+  "category": "bloodmagic:rituals",
+  "extra_recipe_mappings": {
+    "bloodmagic:airritualstone": 0,
+    "bloodmagic:fireritualstone": 0,
+    "bloodmagic:waterritualstone": 0,
+    "bloodmagic:earthritualstone": 0,
+    "bloodmagic:duskritualstone": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)儀式石$()是讓你在上面繪製$(item)儀式$()的畫布。它們看起來相當別緻，可以用各種$(l:bloodmagic:rituals/ritual_diviner)元素銘文工具$()刻上符文。$(br2)請注意，銘文工具以前是有耐久度的，但現在可以永遠使用!歡呼吧!你可以盡情使用$(fire)火儀式石$()裝飾你的基地。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_stone_blank",
+      "recipe2": "bloodmagic:ritual_stone_master"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "惡魔意志",
+  "icon": "bloodmagic:basemonstersoul",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:basemonstersoul": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "一但你擁有了$(l:bloodmagic:altar/blood_altar)血祭壇$()，你真的需要蒐集一些$(item)惡魔意志$()。有兩條路可以獲得惡魔意志:$(br)$(li)使用$(l:bloodmagic:demon_will/will_manipulation/soul_snare)靈魂掠奪者$(/l)並在出現白色粒子效果後擊殺生物。$(li)透過$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知之劍$()擊殺敵對生物。$(br)由於你才剛開始，你還沒有$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知之劍$()，"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "因此需要$(l:bloodmagic:demon_will/will_manipulation/soul_snare)靈魂掠奪者$()。 $(br2)$(item)惡魔意志$()是在$(blood)Blood Magic$()中非常常用的資源，並同時用於$(l:bloodmagic:demon_will/will_manipulation/soul_forge)獄火鍛造爐$()。$(br2)在$(blood)Blood Magic$()的傳說中，$(raw)惡魔意志$()是惡魔將其意志灌輸到死者或其他生物的身體時所殘留的效果。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["bloodmagic:images/entries/demon_will/demon_will.png"],
+      "title": "惡魔意志",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "一但你有了一些$(raw)意志$()，你可以在$(l:bloodmagic:demon_will/will_manipulation/soul_forge)獄火鍛造爐$()製作有用的工具。如果你發現它們在背包中雜亂無章，也許$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()可以提供幫助。"
+    }
+  ]
+}

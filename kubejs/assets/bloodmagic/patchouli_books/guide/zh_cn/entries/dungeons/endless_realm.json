@@ -1,0 +1,29 @@
+{
+  "name": "無盡之路",
+  "icon": "bloodmagic:special_dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:special_dungeon_seal": 0,
+    "bloodmagic:hellforgedparts": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "就跟他的兄弟$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)隱域儀式一樣，你也能透過$(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)無盡之路儀式$()前往$(thing)魔域$()。你會再次看到$(thing)反轉之柱$()。跟之前在$(thing)前廳$()時一樣，你會找到一個簡單的寶箱，由一個粗心的惡魔(或不太走運的鍊金術士)留下，四周有一些門，還有另外一根反轉之柱讓你回家。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "這些地城的房間將充滿你在前廳時發現更加可怕的敵人，並有相應的戰利品。一定要留意觀察任何的$(thing)空間扭曲$()，以及罕見的$(l:bloodmagic:dungeons/keys)鑰匙$()，例如$(item)領班鑰匙$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "領班鑰匙將能夠讓你進入$(thing)礦坑$()，這提升了難度及獎勵。這裡有$(l:bloodmagic:dungeons/demonite)惡魔合金礦$()，對要前往更高階級$(l:bloodmagic:alchemy_table/potions)鍊金藥製作$()以及$(l:bloodmagic:altar/blood_altar)階級5血祭壇$()和附帶的$(l:bloodmagic:altar/soul_network)寶珠$()的人必不可少，你也會找到更多平凡的戰利品，附魔的武器和工具，藥劑，藥水，以及更多。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:hellforgedparts",
+      "title": "精密獄火鍛造組件",
+      "text": "經過足夠多的探索，你可能幸運地發現$(item)精密獄火鍛造組件$()，能夠用它加倍$(item)符文$()的力量。就像有兩個$(blood)血祭壇$()合而為一!"
+    }
+  ]
+}

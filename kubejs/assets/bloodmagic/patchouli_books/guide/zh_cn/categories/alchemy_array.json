@@ -1,0 +1,6 @@
+{
+  "name": "鍊金陣",
+  "description": "鍊金陣是一個簡易練成陣，來自在地面上使用$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奧術灰燼$(/l)繪製的圓圈。建構很簡單，並且在遊戲初期及後期都能發揮作用。",
+  "icon": "bloodmagic:arcaneashes",
+  "sortnum": 2
+}

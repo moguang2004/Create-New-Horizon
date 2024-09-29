@@ -1,0 +1,56 @@
+{
+  "name": "惡魔意志靈氣",
+  "icon": "bloodmagic:demoncrucible",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "正如我們所$(l:bloodmagic:demon_will/will_manipulation/demon_will)推測的一樣$()，$(raw)惡魔意志$()會凝聚在生物周圍，並以邪惡的力量影響他們。然而，這並不是$(raw)意志$()唯一可以存在的地方。透過在$(item)惡魔坩鍋$()燃燒$(raw)意志$()，我們將有可能使其釋放到$(thing)靈氣$()中，來達到強大而迷人的效果。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "惡魔坩鍋",
+      "recipe": "bloodmagic:soulforge/demon_crucible",
+      "text": "將充能完成的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()或任何類型的$(item)惡魔意志$()或$(item)惡魔水晶$()放入使其運作。$(item)水晶$()會在區塊中$(raw)意志$()降到50之後消耗，而$(raw)惡魔意志$()(以物品形式或從$(item)地獄魂石$())將會根據所需消耗。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_crucible.png"
+      ],
+      "title": "惡魔坩鍋",
+      "border": true,
+      "text": "$(item)惡魔坩鍋$()，其中有一個$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "現在我們周圍飄散著$(raw)原始意志$()。很好，然後呢? $(br2)一些$(thing)儀式$()$(l:bloodmagic:rituals/ritual_tinkerer)受益於$()$(raw)原始意志$()，但主要的好處是精煉$(item)惡魔意志水晶$()並將其$(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)分割$()為各種$(l:bloodmagic:demon_will/will_manipulation/aspected_will)類型$()。 $(br2)當你有了$(item)類型意志水晶$()，你可以再次使用$(item)坩鍋$()燃燒它們並將其釋放到$(thing)靈氣$()使儀式得到效果。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "值得一提的是$(thing)靈氣$()以區塊為單位。也就是說，任何你所燃燒的$(raw)意志$()種類都將飄散在你燃燒的區塊，每種類型的總上限為100。你可以使用$(l:bloodmagic:demon_will/will_manipulation/aura_gauge)惡魔意志測量器$()進行測量。 $(br2)想要移動惡魔意志，你只需要在相鄰區塊中放置$(item)惡魔塔$()，$(raw)意志$()就會被吸引過去。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "惡魔塔",
+      "recipe": "bloodmagic:soulforge/demon_pylon",
+      "text": "這座塔會吸引各種來自相鄰區塊的意志(不包含對角的區塊)。多座塔可以連接再一起，以便使意志傳輸更遠。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "如果你把一個$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()，放入$(l:bloodmagic:demon_will/will_manipulation/soul_forge)獄火鍛造爐$()裡，會使其迅速吸收所在區塊中的$(raw)意志$()。$(br2)如果該區塊中有某類型的$(raw)意志$()例如，$(raw)原始意志$()或$(corrosive)腐蝕$()的，以及任何空的$(item)地獄魂石$()，那麼就能夠用這些來填充魂石。 $(br2)這能讓你可以修改$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$()以及$(l:bloodmagic:demon_will/demonic_items/sentient_sword)劍$()的效果。效果的定義在$(l:bloodmagic:demon_will/will_manipulation/aspected_will#sentient_aspects)這裡$()。"
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "相關連結",
+      "entries": [
+        "bloodmagic:rituals/ritual_tinkerer",
+        "bloodmagic:demon_will/will_manipulation/crystallized_will",
+        "bloodmagic:demon_will/will_manipulation/aspected_will",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_split",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
+      ],
+      "text": "我能做到更多,我能感覺到..."
+    }
+  ]
+}

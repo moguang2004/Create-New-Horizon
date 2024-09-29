@@ -1,0 +1,37 @@
+{
+  "name": "修復劑",
+  "icon": "bloodmagic:weapon_repair_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "修復劑",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment",
+      "text": "每次使用工具時，修復1點耐久。 $(br2)有效物品:工具，劍。$(br2)套用: 定期維修I (256 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "修復劑 L",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 定期維修I (1024 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "修復劑 II",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_2",
+      "text": "這種升級版的藥劑可以使修復的耐久度提升為2點。如果工具會損壞則不會發動。 $(br2)套用: 定期維修II (256 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "修復劑 XL",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 定期維修I (4096 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "修復劑 III",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_3",
+      "text": "這種升級版的藥劑可以使修復的耐久度提升為3點。如果工具會損壞則不會發動。 $(br2)套用: 定期維修III (256 方塊)"
+    }
+  ]
+}
