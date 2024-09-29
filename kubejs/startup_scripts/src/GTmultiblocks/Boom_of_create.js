@@ -1,4 +1,4 @@
-
+//1
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 	event.create('boom_of_create')
 		.category('ctnh')

@@ -149,10 +149,11 @@ ItemEvents.tooltip(event =>{
     event.addAdvanced('gtceu:blaze_blast_furnace',(item,advanced,text)=>{
         text.add(1,Text.translate('blaze_blast_furnace').gray())
         text.add(2,Text.translate('ctnh.blaze_blast_furnace.consume'))
-        text.add(3,Text.translate('ctnh.blaze_blast_furnace.parallel').darkGreen())
-        text.add(4,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.0'))
-        text.add(5,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.1'))
-        text.add(6,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.2'))
+        text.add(3,Text.translate('ctnh.blaze_blast_furnace.energy'))
+        text.add(4,Text.translate('ctnh.blaze_blast_furnace.parallel').darkGreen())
+        text.add(5,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.0'))
+        text.add(6,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.1'))
+        text.add(7,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.2'))
         //text.add(4,Text.translate('ctnh.perfect_overclock'))
     })
     event.addAdvanced('gtceu:bio_reactor',(item,advanced,text)=>{
@@ -160,17 +161,17 @@ ItemEvents.tooltip(event =>{
         //text.add(2,Text.translate('ctnh.bio_reactor.basic_power'))
         //text.add(3,Text.translate('ctnh.bio_reactor.restriction'))
     })
-    event.addAdvanced('gtceu:photovoltaic_power_station_energetic',(item,advanced,text)=>{
+    event.addAdvanced('ctnhcore:photovoltaic_power_station_energetic',(item,advanced,text)=>{
         text.add(1,Text.translate('photovoltaic_power_station_energetic').gray())
         text.add(2,Text.translate('photovoltaic_power_station_energetic_basic'))
         text.add(3,Text.translate('photovoltaic_power_station_info'))
     })
-    event.addAdvanced('gtceu:photovoltaic_power_station_pulsating',(item,advanced,text)=>{
+    event.addAdvanced('ctnhcore:photovoltaic_power_station_pulsating',(item,advanced,text)=>{
         text.add(1,Text.translate('photovoltaic_power_station_pulsating').gray())
         text.add(2,Text.translate('photovoltaic_power_station_pulsating_basic'))
         text.add(3,Text.translate('photovoltaic_power_station_info'))
     })
-    event.addAdvanced('gtceu:photovoltaic_power_station_vibrant',(item,advanced,text)=>{
+    event.addAdvanced('ctnhcore:photovoltaic_power_station_vibrant',(item,advanced,text)=>{
         text.add(1,Text.translate('photovoltaic_power_station_vibrant').gray())
         text.add(2,Text.translate('photovoltaic_power_station_vibrant_basic'))
         text.add(3,Text.translate('photovoltaic_power_station_info'))
@@ -187,6 +188,7 @@ ItemEvents.tooltip(event =>{
         text.add(2,Text.translate('ctnh.kinetic_generator.basic'))
         text.add(3,Text.translate('ctnh.kinetic_generator.extrict'))
         text.add(4,Text.translate('ctnh.kinetic_generator.upgrade'))
+        text.add(5,Text.translate('ctnh.kinetic_generator.core'))
     })
     event.addAdvanced('ctnhcore:underfloor_heating_system',(item,advanced,text)=>{
         text.add(1,Text.translate('underfloor_heating_system').gray())
@@ -194,7 +196,43 @@ ItemEvents.tooltip(event =>{
         text.add(3,Text.translate('ctnh.underfloor_heating_system.mechanism'))
         text.add(4,Text.translate('ctnh.underfloor_heating_system.rate'))
     })
-
+    event.addAdvanced('gtceu:zpm_large_miner',(item,advanced,tooltip) =>{
+        tooltip.add(1,Text.translate('gtceu.machine.large_miner.zpm.tooltip'))
+        tooltip.add(2,Text.translatable("gtceu.machine.miner.multi.description"))
+        tooltip.add(3,Text.translatable("gtceu.machine.miner.multi.modes"))
+        tooltip.add(4,Text.translatable("gtceu.machine.miner.multi.production"))
+        tooltip.add(5,Text.translatable("gtceu.machine.miner.fluid_usage", 6,GTMaterials.DrillingFluid.getLocalizedName()))
+        tooltip.add(6,Text.translatable("gtceu.universal.tooltip.working_area_chunks",18, 18))
+        tooltip.add(7,Text.translatable("gtceu.universal.tooltip.energy_tier_range",GTValues.VNF[7], GTValues.VNF[7 + 1]))
+    })
+    event.addAdvanced('gtceu:windmill_control_center',(item,advanced,text)=>{
+        text.add(1,Text.translate('windmill_control_center').gray())
+        text.add(2,Text.translate('ctnh.windmill_control_center.mechanism'))
+        text.add(3,Text.translate('ctnh.windmill_control_center.output').red())
+    })
+    event.addAdvanced('ctnhcore:wind_power_array',(item,advanced,text)=>{
+        text.add(1,Text.translate('wind_power_array').gray())
+        text.add(2,Text.translate('ctnh.wind_power_array.basic'))
+        text.add(3,Text.translate('ctnh.wind_power_array.mechanism'))
+        text.add(4,Text.translate('ctnh.wind_power_array.altitude'))
+    })
+    event.addAdvanced('ctnhcore:advanced_wind_power_array',(item,advanced,text)=>{
+        text.add(1,Text.translate('wind_power_array').gray())
+        text.add(2,Text.translate('ctnh.advanced_wind_power_array.basic'))
+        text.add(3,Text.translate('ctnh.wind_power_array.mechanism'))
+        text.add(4,Text.translate('ctnh.wind_power_array.altitude'))
+    })
+    event.addAdvanced('ctnhcore:super_wind_power_array',(item,advanced,text)=>{
+        text.add(1,Text.translate('wind_power_array').gray())
+        text.add(2,Text.translate('ctnh.super_wind_power_array.basic'))
+        text.add(3,Text.translate('ctnh.wind_power_array.mechanism'))
+        text.add(4,Text.translate('ctnh.wind_power_array.altitude'))
+    })
+    event.addAdvanced('gtceu:meadow',(item,advanced,text)=>{
+        text.add(1,Text.translate('meadow').gray())
+        text.add(2,Text.translate('ctnh.meadow.basic'))
+        text.add(3,Text.translate('ctnh.meadow.mechanism'))
+    })
     event.addAdvanced('gtceu:boom_of_create',(item,advanced,text)=>{
         text.add(1,Text.translate('boom_of_create').gray())
         text.add(2,Text.translate('ctnh.boom_of_create.basic'))
@@ -209,4 +247,22 @@ ItemEvents.tooltip(event =>{
     event.add('enderio:ender_energy_conduit',Text.translate('ctnh.ender_energy_conduit'))
     event.add('enderio:melodic_energy_conduit',Text.translate('ctnh.melodic_energy_conduit'))
     event.add('enderio:stellar_energy_conduit',Text.translate('ctnh.stellar_energy_conduit'))
+    event.add('kubejs:circuit_resonatic_ulv',Text.translate('ctnh.circuit_resonatic_ulv'))
+    event.add('kubejs:circuit_resonatic_lv',Text.translate('ctnh.circuit_resonatic_lv'))
+    event.add('kubejs:circuit_resonatic_mv',Text.translate('ctnh.circuit_resonatic_mv'))
+    event.add('kubejs:circuit_resonatic_hv',Text.translate('ctnh.circuit_resonatic_hv'))
+    event.add('kubejs:circuit_resonatic_ev',Text.translate('ctnh.circuit_resonatic_ev'))
+    event.add('kubejs:circuit_resonatic_iv',Text.translate('ctnh.circuit_resonatic_iv'))
+    event.add('kubejs:circuit_resonatic_luv',Text.translate('ctnh.circuit_resonatic_luv'))
+    event.add('kubejs:circuit_resonatic_zpm',Text.translate('ctnh.circuit_resonatic_zpm'))
+    event.add('kubejs:circuit_resonatic_uv',Text.translate('ctnh.circuit_resonatic_uv'))
+    event.add('kubejs:circuit_resonatic_uhv',Text.translate('ctnh.circuit_resonatic_uhv'))
+    event.add('kubejs:circuit_resonatic_uev',Text.translate('ctnh.circuit_resonatic_uev'))
+    event.add('kubejs:circuit_resonatic_uiv',Text.translate('ctnh.circuit_resonatic_uiv'))
+    event.add('kubejs:mana_electronic_circuit',Text.translate('ctnh.circuit_mana_hv').red())
+    event.add('kubejs:mana_integrated_circuit',Text.translate('ctnh.circuit_mana_ev'))
+    event.add('kubejs:echo_processor',Text.translate('ctnh.circuit_echo_zpm').darkAqua())
+    event.add('kubejs:echo_processor_assembly',Text.translate('ctnh.circuit_echo_uv').darkAqua())
+    event.add('kubejs:echo_processor_computer',Text.translate('ctnh.circuit_echo_uhv').darkAqua())
+    event.add('kubejs:echo_processor_mainframe',Text.translate('ctnh.circuit_echo_uev').darkAqua())
 })
