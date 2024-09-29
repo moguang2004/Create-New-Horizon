@@ -284,14 +284,11 @@
     "material.gtceu.bismuth_tellurite": "亚碲酸铋",
     "material.gtceu.circuit_compound": "电路板化合物",
     "material.gtceu.mystery_fluid": "神秘液体",
-<<<<<<< HEAD
-=======
     "material.gtceu.thermoduric_bacteria": "耐热菌",
     "material.gtceu.taq_enzyme": "Taq扩增酶",
     "material.gtceu.thermoduric_bacteria_extract": "耐热菌裂解液",
     "material.gtceu.escherichia_coli_extract": "大肠杆菌裂解液",
     "material.gtceu.cellulase": "纤维素酶",
->>>>>>> upstream/dev
     "multiblock.ctnh.kinetic_steam_turbine1": "转子效率：%d%%",
     "multiblock.ctnh.kinetic_steam_turbine2": "转子速度：%d/%dRPM",
     "multiblock.ctnh.kinetic_steam_turbine3": "涡轮总效率：%d%%",
@@ -387,10 +384,7 @@
     "gtceu.crystallizer": "结晶",
     "gtceu.ion_exchanger": "离子交换",
     "gtceu.condensate_separator": "冷凝分离",
-<<<<<<< HEAD
-=======
     "gtceu.hellforge": "狱火锻炉",
->>>>>>> upstream/dev
     "block.gtceu.lv_kinetic_mixer": "§7基础动力搅拌机§r",
     "block.gtceu.mv_kinetic_mixer": "§b进阶动力搅拌机§r",
     "block.gtceu.hv_kinetic_mixer": "§6进阶动力搅拌机 II§r",
@@ -527,14 +521,11 @@
     "meadow": "自动化放牧",
     "ctnh.meadow.basic": "只能养鸡牛羊，牛会产生皮革和牛奶，羊会产生羊毛，鸡会产生鸡蛋",
     "ctnh.meadow.mechanism": "牧场里每多一只动物，产生的排泄物数量就会提升，养的动物越多，产物越多",
-<<<<<<< HEAD
-=======
     "boom_of_create":"艺术就是爆炸！",
     "ctnh.boom_of_create.basic":"大型聚爆应力厂使用爆炸物以及一小部分电力运行，以此产生大量应力",
     "ctnh.boom_of_create.coolant":"持续运行时会逐渐减少电力消耗，最低可为0",
     "ctnh.boom_of_create.overclock":"与三峡大坝一样，必须有足够的应力输出口才会开始工作",
     "ctnh.boom_of_create.safe":"§a应力飞升之路§r",
->>>>>>> upstream/dev
     "ctnh.circuit_resonatic_ulv": "§dULV级电路§r",
     "ctnh.circuit_resonatic_lv": "§dLV级电路§r",
     "ctnh.circuit_resonatic_mv": "§dMV级电路§r",
@@ -1470,10 +1461,7 @@
     "material.gtceu.einsteinium_hexafluoride": "六氟化锿",
     "material.gtceu.fermium_hexafluoride": "六氟化镄",
     "material.gtceu.mendelevium_hexafluoride": "六氟化钔",
-<<<<<<< HEAD
     "material.gtceu.snow_steel": "雪城钢",
-=======
->>>>>>> upstream/dev
     "material.gtceu.tantalum_alkaline_mixture": "碱性铌钽混合物",
     "material.gtceu.tantalite_oxide": "五氧化二钽",
     "material.gtceu.tantalite_fluorine": "铌钽复合氟化物",
@@ -1529,11 +1517,7 @@
     "block.gtceu.iv_digital_well_of_suffer": "§9精英数字化苦难之井§r",
     "block.gtceu.luv_digital_well_of_suffer": "§d精英数字化苦难之井 II§r",
     "block.gtceu.zpm_digital_well_of_suffer": "§c数字化猩红深渊§r",
-<<<<<<< HEAD
-    "block.gtceu.uv_digital_well_of_suffer": "§3数字化猩红深渊 II§r"
-=======
     "block.gtceu.uv_digital_well_of_suffer": "§3数字化猩红深渊 II§r",
->>>>>>> upstream/dev
     "material.gtceu.rare_earth_fe_one": "含铁稀土",
     "material.gtceu.rare_earth_fe_two": "含铁精磨稀土",
     "material.gtceu.rare_earth_intensive_research": "精磨稀土",
