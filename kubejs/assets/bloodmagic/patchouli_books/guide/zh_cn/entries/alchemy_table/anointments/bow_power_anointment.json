@@ -1,0 +1,37 @@
+{
+  "name": "鐵尖",
+  "icon": "bloodmagic:bow_power_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "鐵尖",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment",
+      "text": "使射出的箭傷害提高25%，也可以與原本的附魔疊加。$(br2)有效物品:弓，弩。$(br2)套用: 重砲I (256 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "鐵尖L",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 重砲I (1024 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "鐵尖II",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_2",
+      "text": "這種升級版的藥劑可以增加50%傷害。 $(br2)套用: 重砲II (256 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "鐵尖XL",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 重砲I (4096 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "鐵尖III",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_3",
+      "text": "這種升級版的藥劑可以增加75%傷害。 $(br2)套用: 重砲III (256 射擊)"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "迅捷溶劑",
+  "icon": "bloodmagic:quick_draw_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "迅捷溶劑",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment",
+      "text": "使弓和弩的裝填時間減少33%。 $(br2)有效物品:弓，弩。$(br2)套用: 靈巧之手I (256 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "迅捷溶劑 L",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 靈巧之手I (1024 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "迅捷溶劑 II",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_2",
+      "text": "這種升級版的藥劑使弓和弩的裝填時間減少50%。 $(br2)套用: 靈巧之手II (256 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "迅捷溶劑 XL",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 靈巧之手I (4096 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "迅捷溶劑 III",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_3",
+      "text": "這種升級版的藥劑使弓和弩的裝填時間減少67%。 $(br2)套用: 靈巧之手III (256 射擊)"
+    }
+  ]
+}

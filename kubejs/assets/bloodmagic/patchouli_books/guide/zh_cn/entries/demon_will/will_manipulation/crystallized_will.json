@@ -1,0 +1,27 @@
+{
+  "name": "結晶化意志",
+  "icon": "bloodmagic:defaultcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:demoncrucible": 1,
+    "bloodmagic:demoncrystallizer": 1,
+    "bloodmagic:rawdemoncrystal": 1,
+    "bloodmagic:defaultcrystal": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "現在你的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()充滿著$(l:bloodmagic:demon_will/will_manipulation/demon_will)惡魔意志$()，現在是時候實驗當你把它釋放到世界上會發生什麼事了。 $(br2)首先你需要將$(raw)意志$()釋放到$(l:bloodmagic:demon_will/will_manipulation/aura)靈氣$()中。接著，你需要製作$(thing)惡魔結晶祭壇$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "惡魔結晶祭壇",
+      "recipe": "bloodmagic:soulforge/demon_crystallizer",
+      "text": "將會從$(l:bloodmagic:demon_will/will_manipulation/aura)靈氣$()中緩慢消耗$(l:bloodmagic:demon_will/will_manipulation/demon_will)惡魔意志$()製作$(item)意志水晶$()。第一個結晶需要100$(raw)意志$()，之後每一個結晶需要40，但可以使用$(item)惡魔坩鍋$()用50意志燃燒，獲得10的收益。每一個$(item)晶簇$()最多可以有7個結晶。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "如果你擁有超過512的$(raw)意志$()在背包中(包含任何$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()以及其他任何形式)，你可以在空手的情況下右鍵點擊結晶收穫。這將移除除了中央的所有結晶。$(br2)然而，當你沒有足夠的$(raw)意志$()，$(italic)或是$()你真的急需要中央的水晶，你可以用鎬收穫所有的結晶。"
+    }
+  ]
+}

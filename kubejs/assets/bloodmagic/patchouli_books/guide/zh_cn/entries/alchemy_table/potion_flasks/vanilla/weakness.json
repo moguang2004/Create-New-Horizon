@@ -1,0 +1,32 @@
+{
+  "name": "虛弱",
+  "icon": "minecraft:fermented_spider_eye",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)虛弱$()每級降低目標的傷害4點。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "虛弱 (3:00)",
+      "a.recipe": "bloodmagic:flask/weakness",
+      "b.heading": "虛弱 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_weakness",
+      "c.heading": "虛弱 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_weakness"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "添加$(l:bloodmagic:alchemy_table/potions#average_potions)標準催化劑$()可以更進一步提升效果。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "虛弱 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_weakness",
+      "b.heading": "虛弱 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_weakness"
+    }
+
+  ]
+}
