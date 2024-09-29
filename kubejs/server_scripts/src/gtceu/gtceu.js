@@ -1,4 +1,4 @@
-// priority 10
+// priority -10
 const { $RecipeJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipeJS");
 const { $RecipesEventJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipesEventJS");
 
