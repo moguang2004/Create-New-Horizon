@@ -13,6 +13,37 @@
 		{ item: "gtceu:phosphorus_boule" }
 		{ item: "gtceu:mv_super_chest", weight: 0.1f }
 		{ item: "gtceu:mv_super_tank", weight: 0.1f }
+		{ count: 5, item: "candlelight:khinkali" }
+		{
+			count: 5
+			item: {
+				Count: 1
+				id: "candlelight:roasted_lamb_with_lettuce"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{
+			count: 5
+			item: {
+				Count: 1
+				id: "candlelight:roastbeef_with_glazed_carrots"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{
+			count: 5
+			item: {
+				Count: 1
+				id: "candlelight:tropical_fish_supreme"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
 	]
 	title: "HV奖励"
 }
