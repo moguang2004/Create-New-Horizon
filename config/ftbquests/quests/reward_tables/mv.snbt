@@ -1,0 +1,18 @@
+{
+	id: "0A0BC8A40BF78CE9"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 2, item: "gtceu:hv_electric_motor" }
+		{ count: 6, item: "gtceu:stainless_steel_ingot" }
+		{ count: 16, item: "gtceu:gold_single_cable" }
+		{ count: 2, item: "gtceu:advanced_integrated_circuit" }
+		{ item: "gtceu:hv_machine_hull" }
+		{ count: 16, item: "gtceu:rutile_dust" }
+		{ count: 8, item: "gtceu:aluminium_fluid_cell" }
+		{ item: "gtceu:phosphorus_boule" }
+		{ item: "gtceu:mv_super_chest", weight: 0.1f }
+		{ item: "gtceu:mv_super_tank", weight: 0.1f }
+	]
+	title: "HV奖励"
+}

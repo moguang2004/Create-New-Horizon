@@ -1,0 +1,16 @@
+{
+	id: "69BA6B210D66CBEB"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 4, item: "gtceu:graphene_dust" }
+		{ count: 4, item: "gtceu:tungsten_steel_ingot" }
+		{ count: 4, item: "gtceu:phosphorus_boule" }
+		{ item: "gtceu:iv_electric_motor" }
+		{ count: 4, item: "gtceu:tungsten_double_cable" }
+		{ count: 2, item: "gtceu:tungsten_steel_plate" }
+		{ item: "gtceu:ev_super_tank", weight: 0.2f }
+		{ item: "gtceu:ev_super_chest", weight: 0.1f }
+	]
+	title: "IV奖励"
+}

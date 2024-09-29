@@ -18,6 +18,12 @@
 		{
 			dependencies: ["27EF0EE87260585F"]
 			id: "799C99EA04D07344"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33756E82F24F8A60"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3B32397F6057B4DC"
 				item: "gtceu:ev_machine_hull"
@@ -29,6 +35,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "375C2E3997D94721"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F0A3E764076FD4A"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0E4B2E423B92D9B5"
 				item: "gtceu:ev_chemical_bath"
@@ -40,6 +52,12 @@
 		{
 			dependencies: ["375C2E3997D94721"]
 			id: "631DFE485708C698"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "414A9FAE51830DA9"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "61EA5E6B76B14AB1"
 				item: "gtceu:tungstic_acid_dust"
@@ -51,6 +69,12 @@
 		{
 			dependencies: ["631DFE485708C698"]
 			id: "1E3636A4FFDDC155"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4889AACD1BB11E50"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "47E46E57098960AC"
 				item: "gtceu:tungsten_dust"
@@ -62,6 +86,20 @@
 		{
 			dependencies: ["1E3636A4FFDDC155"]
 			id: "1CECBF50A30F23B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A1612A5556055B9"
+					table_id: 971429564947815603L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FF7B92CC70C81F2"
+					table_id: 7618519509353548779L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "IV时代的重要材料"
@@ -76,6 +114,12 @@
 		{
 			dependencies: ["24C0894F1B36BBD2"]
 			id: "1FC11FF9B668D855"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1256BB7DB296EFFB"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3668250EE11CCF31"
 				item: "gtceu:ev_energy_input_hatch"
@@ -87,6 +131,12 @@
 		{
 			dependencies: ["1CECBF50A30F23B0"]
 			id: "24C0894F1B36BBD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C623B508C5E5A9A"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "10452395FD8F0B84"
 				item: "gtceu:fine_tungsten_steel_wire"
@@ -101,6 +151,12 @@
 				"0D8F0D06D79D182F"
 			]
 			id: "6525B3E4F6052069"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1483FCA4040ED0CA"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2975D65642409D89"
 				item: "gtceu:radon_bucket"
@@ -112,6 +168,12 @@
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
 			id: "0D8F0D06D79D182F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FE4EBAEAAF3CDE4"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "492191A65E88AF18"
 				item: "gtceu:ender_air_bucket"
@@ -123,6 +185,12 @@
 		{
 			dependencies: ["6525B3E4F6052069"]
 			id: "11CEB762BEC88A67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30477753E7C96A3F"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "701C5DE7D6FB47E4"
 				item: "gtceu:quantum_eye"
@@ -137,6 +205,12 @@
 				"11CEB762BEC88A67"
 			]
 			id: "4A7B2A7EF0E9D0D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78EED117930713BF"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "70CB278C9DAACC11"
 				item: "gtceu:nuclear_reactor"
@@ -147,6 +221,12 @@
 		}
 		{
 			id: "4DA5ABB79AABADE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C3E68E0AAFA0003"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "36F32AAAA96C37A1"
 				item: "kubejs:shielded_reactor_casing"
@@ -159,6 +239,12 @@
 			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "0AEBC43C2EA4E190"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27FF6E98887D6382"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "耗能*2.1 耗时400s"
 			tasks: [{
 				id: "4E17BDC99B8D09CB"
@@ -172,6 +258,12 @@
 			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "4E9FB13BA754C376"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DFED1F6DD5DB3DD"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "耗能*2.2 耗时500s"
 			tasks: [{
 				id: "5C0ADB9BDA74CA7E"
@@ -185,6 +277,12 @@
 			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "38B3EDAFED11EC22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10861FC536F7602C"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "耗能*1.6 耗时1000s"
 			tasks: [{
 				id: "07D3DF8E64BEA8BB"
@@ -198,6 +296,12 @@
 			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "6D99A9917E0D8636"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20C3183C84A37A18"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "耗能*2.4 耗时750s"
 			tasks: [{
 				id: "0FF291B04510FC84"
@@ -211,6 +315,12 @@
 			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "1A4BF7BE5F6591F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27AAD4F90781D0F4"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "最普通的燃料形式"
 			tasks: [{
 				id: "7F84E8F8FCE98B8F"
@@ -223,6 +333,12 @@
 		{
 			dependencies: ["4A7B2A7EF0E9D0D0"]
 			id: "2E634A7C9D204BD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "683B2D45E0BE8310"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1F9E605C84B618EB"
 				item: "gtceu:thorium_dust"
@@ -234,6 +350,12 @@
 		{
 			dependencies: ["2E634A7C9D204BD4"]
 			id: "48D6359F760B2D34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3238FEFAE5425325"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "20FED3F78DE196DC"
 				item: "gtceu:thorium_232_dust"
@@ -245,6 +367,12 @@
 		{
 			dependencies: ["48D6359F760B2D34"]
 			id: "363FBA5394375898"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DF2461C1EB1EE4D"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "725AFF843F3E522A"
 				item: "gtceu:thorium_waste_dust"
@@ -256,6 +384,12 @@
 		{
 			dependencies: ["363FBA5394375898"]
 			id: "0621330C575C99E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B40321629F471A5"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "43EF4ADA3C5DF4AA"
 				item: "gtceu:protactinium_dust"
@@ -267,6 +401,12 @@
 		{
 			dependencies: ["4D6F042D3D3DA8A2"]
 			id: "72524950D9CC9C75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43870A53C26509EE"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6E9D26454A544458"
 				item: "gtceu:uranium_waste_dust"
@@ -281,6 +421,12 @@
 				"4A7B2A7EF0E9D0D0"
 			]
 			id: "699B1B52D3F58BEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76645A833F033FC4"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4D38A7D9971D042F"
 				item: "gtceu:uranium_hexafluoride_bucket"
@@ -292,6 +438,12 @@
 		{
 			dependencies: ["5B9CD67AE97E7F3D"]
 			id: "2D624DC9A3946E74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A1956821943D5C8"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "143113D27A22A2DD"
 				item: "gtceu:uranium_dioxide_dust"
@@ -308,6 +460,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "4D6F042D3D3DA8A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7789B5EA3AFB3393"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "28E4CB3336D08A32"
 				item: "gtceu:uranium_dust"
@@ -319,6 +477,12 @@
 		{
 			dependencies: ["72524950D9CC9C75"]
 			id: "4E40B0EBEEB50C79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13E09167C4F6C7DF"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "42627AE089355D74"
 				item: "gtceu:neptunium_dust"
@@ -329,6 +493,12 @@
 		}
 		{
 			id: "6DB4F7FB9C1CD641"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3943DD9985658A23"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "把核反应堆产生的热用来发电"
 			tasks: [{
 				id: "51708CB337F80C11"
@@ -341,6 +511,12 @@
 		{
 			dependencies: ["5DE73169DED11A0D"]
 			id: "5B9CD67AE97E7F3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "477C625142610B67"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "33E97CB6369EF8BE"
 				item: "gtceu:uraninite_dust"
@@ -351,6 +527,12 @@
 		}
 		{
 			id: "5DE73169DED11A0D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7176A742F801B60E"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				count: 16L
 				id: "607F1D2AAD371EA0"
@@ -367,6 +549,12 @@
 				"75CFD6720163E3ED"
 			]
 			id: "3B3EF261BDFE1F46"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A04A3B22252AC3F"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4A6E73A3618ACBAE"
 				item: "gtceu:nano_processor"
@@ -378,6 +566,12 @@
 		{
 			dependencies: ["3B3EF261BDFE1F46"]
 			id: "3F9F778AB07809D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EFC087D28DF93B9"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4A81A05469C3FD09"
 				item: "gtceu:nano_processor_assembly"
@@ -389,6 +583,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "7951D4BC59BDAA1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "465A60C14C8265B5"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7BDAB4A27CD55384"
 				item: "gtceu:ev_circuit_assembler"
@@ -400,6 +600,12 @@
 		{
 			dependencies: ["55CE92DB78123043"]
 			id: "0F854F1F4CA05158"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F45B4CB1E0C51F0"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2B24EE171AA1D303"
 				item: "gtceu:epoxy_printed_circuit_board"
@@ -415,6 +621,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "55CE92DB78123043"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78BF915BD68D435D"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5DFE2E6E0977F41C"
 				item: "gtceu:epoxy_plate"
@@ -429,6 +641,12 @@
 				"3121647B8CB1E5BF"
 			]
 			id: "520063634DC19E7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C417921D617247E"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6839D28AC04E0F57"
 				item: "gtceu:epoxy_bucket"
@@ -444,6 +662,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "1AEE2FEB6874EE82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E3F9EE1657D6A0B"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "生物线或者石化线，自己选择吧"
 			tasks: [{
 				id: "3302819044573A82"
@@ -459,6 +683,12 @@
 				"21C9916BDE650D3A"
 			]
 			id: "3121647B8CB1E5BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "531CA27915AD911A"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "看看大型化学反应釜的配方"
 			tasks: [{
 				id: "12F063B61038384E"
@@ -470,6 +700,12 @@
 		}
 		{
 			id: "3F64B8ADC6941CAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42E33C0CD80158CE"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2CF2111EDE12A79E"
 				item: "gtceu:propene_bucket"
@@ -480,6 +716,12 @@
 		}
 		{
 			id: "13433A6B336541E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34492D5BF7F18C06"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "384AFA0E7674D3D1"
 				item: "gtceu:phenol_bucket"
@@ -490,6 +732,12 @@
 		}
 		{
 			id: "21C9916BDE650D3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BA672B13F4C005C"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "67F84C8300014E3D"
 				item: "gtceu:acetone_bucket"
@@ -504,6 +752,12 @@
 				"7B95329450AC6EA5"
 			]
 			id: "30C3F85CEC6E0542"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D39B7C82CD2DD71"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "01B3CABBC2BEDEDC"
 				item: "gtceu:blaze_blast_furnace"
@@ -518,6 +772,12 @@
 				"6650F75EC46022A1"
 			]
 			id: "58817BE32D620EA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DF347D4E844E2E7"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "48CDC60DCC14D927"
 				item: "gtceu:plutonium_dust"
@@ -529,6 +789,12 @@
 		{
 			dependencies: ["28852D1BF6248452"]
 			id: "374EBC4CDD959673"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "166DA58CC2010E95"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "09D04BB07E4ECA91"
 				item: "gtceu:berkelium_dust"
@@ -540,6 +806,12 @@
 		{
 			dependencies: ["2B1CBFF64D5B0293"]
 			id: "2AB3347CCAA42598"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "661ECB9693ACC904"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7A8C8BB8B8506A76"
 				item: "gtceu:americium_dust"
@@ -551,6 +823,12 @@
 		{
 			dependencies: ["41107076AF28EAFC"]
 			id: "3C8301A2B866F880"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FBAC8EFF41F8DB9"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "47D7C37D41F94AD2"
 				item: "gtceu:curium_dust"
@@ -562,6 +840,12 @@
 		{
 			dependencies: ["4B77208D1A7E2597"]
 			id: "69AD12A73BD27FBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BBF15EA583C4AD9"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5A30B63D701A77E1"
 				item: "gtceu:californium_dust"
@@ -573,6 +857,12 @@
 		{
 			dependencies: ["6C04245BB5E8DB50"]
 			id: "762082594B87A676"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53B95CADEF1AA499"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "210CF984CB31D6AD"
 				item: "gtceu:einsteinium_dust"
@@ -584,6 +874,12 @@
 		{
 			dependencies: ["48624B3DBD937311"]
 			id: "727B9C4520877A69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3011F4917C5DEC37"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "207BDC2B489BA719"
 				item: "gtceu:fermium_dust"
@@ -595,6 +891,12 @@
 		{
 			dependencies: ["5F628AF1A7A9BACD"]
 			id: "433CA5427BF76C2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A1D613154E802C8"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "75D33E7D1638E606"
 				item: "gtceu:mendelevium_dust"
@@ -606,6 +908,12 @@
 		{
 			dependencies: ["4E40B0EBEEB50C79"]
 			id: "4C1CFD3DC2A5EDE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE8D1D3A97069B4"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6B26CC21608B46A3"
 				item: "gtceu:neptunium_waste_dust"
@@ -617,6 +925,12 @@
 		{
 			dependencies: ["58817BE32D620EA6"]
 			id: "2B1CBFF64D5B0293"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03B92E6CEC153F50"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "36DF21693B1279D8"
 				item: "gtceu:plutonium_waste_dust"
@@ -628,6 +942,12 @@
 		{
 			dependencies: ["2AB3347CCAA42598"]
 			id: "41107076AF28EAFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F93B401E39B112D"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "497BB8A372E9B016"
 				item: "gtceu:americium_waste_dust"
@@ -639,6 +959,12 @@
 		{
 			dependencies: ["3C8301A2B866F880"]
 			id: "28852D1BF6248452"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "180CAA5584D7F15C"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "38C10BC67812F0B8"
 				item: "gtceu:curium_waste_dust"
@@ -650,6 +976,12 @@
 		{
 			dependencies: ["374EBC4CDD959673"]
 			id: "4B77208D1A7E2597"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77EC8686AB6897D0"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "352B2E8B17891B77"
 				item: "gtceu:berkelium_waste_dust"
@@ -661,6 +993,12 @@
 		{
 			dependencies: ["69AD12A73BD27FBF"]
 			id: "6C04245BB5E8DB50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3274B0C9CDFFEEE4"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "237C9478221781C1"
 				item: "gtceu:californium_waste_dust"
@@ -672,6 +1010,12 @@
 		{
 			dependencies: ["762082594B87A676"]
 			id: "48624B3DBD937311"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "023841887EAC67FE"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3310080F418F58F5"
 				item: "gtceu:einsteinium_waste_dust"
@@ -683,6 +1027,12 @@
 		{
 			dependencies: ["727B9C4520877A69"]
 			id: "5F628AF1A7A9BACD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13A59C9FC1E2BF2F"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2C918307CFBA0D95"
 				item: "gtceu:fermium_waste_dust"
@@ -694,6 +1044,12 @@
 		{
 			id: "6650F75EC46022A1"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D23117528523EC5"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2F2EC3C01837D592"
 				item: "gtceu:raw_plutonium"
@@ -705,6 +1061,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "2B4A57C7F61E03A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38234AB068EF58A0"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7B61C508405AE48C"
 				item: "gtceu:ev_assembler"
@@ -716,6 +1078,12 @@
 		{
 			dependencies: ["2B4A57C7F61E03A8"]
 			id: "2C20BD5832059B12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "090661405C86F819"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2BE1E172B3A6B318"
 				item: "gtnn:t2_chip"
@@ -727,6 +1095,12 @@
 		{
 			dependencies: ["2B4A57C7F61E03A8"]
 			id: "56DC080E3FC4D9B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C3E8E46E60F79E0"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "039101F617832C52"
 				item: "gtnn:heavy_ingot_t2"
@@ -741,6 +1115,12 @@
 				"2C20BD5832059B12"
 			]
 			id: "39C4AFD7B0736FD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15FBFCED3E245566"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "159CF1C113A1CDE6"
@@ -763,6 +1143,12 @@
 		{
 			dependencies: ["39C4AFD7B0736FD6"]
 			id: "277F8827A9281E7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "520550BCB30CE687"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
@@ -776,6 +1162,12 @@
 		{
 			id: "659495FD6AB169E3"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BC04CBC0003D34B"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "这是更方便的来源"
 			tasks: [{
 				id: "1C8E2E06D5C1A5B1"
@@ -788,27 +1180,46 @@
 		{
 			dependencies: ["3F9F778AB07809D0"]
 			id: "5B1C049A7712479A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06C612BF14DF76BE"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7AF83525B18DCE36"
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -9.0d
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5B1C049A7712479A"]
 			id: "534D927B52EC5F63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "409EEEC25AFE11FF"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "第一个LUV电路！"
 			tasks: [{
 				id: "22E3934505BEF43B"
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -11.0d
+			x: 2.0d
+			y: -7.0d
 		}
 		{
 			id: "3A48040562E6B4D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6587E7061C407307"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "还记得软管滑轮吗？"
 			tasks: [{
 				id: "35FE06601CF9902F"
@@ -821,6 +1232,12 @@
 		{
 			id: "3A7EF62D9745F2D6"
 			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BAC789627CF734A"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "跳过任务线"
 			tasks: [{
 				count: 64L
@@ -834,6 +1251,12 @@
 		{
 			dependencies: ["72524950D9CC9C75"]
 			id: "54E111D20B6D7893"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "681722C0B86E2A56"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "会有用的，但不是现在"
 			tasks: [{
 				count: 64L
@@ -847,6 +1270,12 @@
 		{
 			dependencies: ["5CC2A3C37EB99ED3"]
 			id: "75CFD6720163E3ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2438D3DFBA89D919"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "2D8C76F6749E5CDE"
@@ -866,6 +1295,12 @@
 		{
 			dependencies: ["799C99EA04D07344"]
 			id: "734982C31DFC1821"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B36200AB4F0EADB"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5A228E48EE9B484E"
 				item: "gtceu:ev_laser_engraver"
@@ -877,6 +1312,12 @@
 		{
 			dependencies: ["734982C31DFC1821"]
 			id: "5A8AE6B8EBFC49BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A764B2B7D627FEB"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "你会用到的两种晶圆"
 			tasks: [
 				{
@@ -897,6 +1338,12 @@
 		{
 			dependencies: ["734982C31DFC1821"]
 			id: "169C88ED88B3883B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "776C69541B76B0B5"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "省材料！"
 			tasks: [
 				{
@@ -917,6 +1364,12 @@
 		{
 			dependencies: ["27EF0EE87260585F"]
 			id: "332007D978CB3C6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E9A3DD0ED0F9912"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "你可以开始制作高速钢了"
 			tasks: [{
 				id: "6586F61697BFF631"
@@ -929,6 +1382,12 @@
 		{
 			dependencies: ["332007D978CB3C6C"]
 			id: "6F1B38C420BEF79B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DCE407F1DBE67AA"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "04D76E38355F76A5"
 				item: "gtceu:hssg_ingot"
@@ -943,6 +1402,12 @@
 				"34A4C92A23DA3682"
 			]
 			id: "38941407A9F43B7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07BE6B28401B627F"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				count: 16L
@@ -956,6 +1421,12 @@
 		{
 			dependencies: ["332007D978CB3C6C"]
 			id: "34A4C92A23DA3682"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E90BF90F74E6CC4"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3585EC285E5917FE"
 				item: "gtceu:tungsten_carbide_dust"
@@ -966,6 +1437,12 @@
 		}
 		{
 			id: "48261AFD7844E219"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A12E41DB86EE02C"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0A7F9D8F9272D90B"
 				item: "gtceu:glycerol_bucket"
@@ -976,6 +1453,12 @@
 		}
 		{
 			id: "0DA6F0E8CADCCF30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C9F04FE63931AF9"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				count: 16L
 				id: "56559BA731DD3FAB"
@@ -988,6 +1471,12 @@
 		{
 			dependencies: ["0DA6F0E8CADCCF30"]
 			id: "733EB93565304647"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B1D7A3DF33A344C"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "19D5261792EF4A65"
 				item: "gtceu:zr_hf_chloride_bucket"
@@ -999,6 +1488,12 @@
 		{
 			dependencies: ["733EB93565304647"]
 			id: "0455B6876AA894D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E6B5C7AE81A9FB3"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "22D083B9293DAD30"
 				item: "gtceu:zr_hf_oxy_chloride_bucket"
@@ -1014,6 +1509,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "6C89FED370C5B2E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FDCA34B1974C6AD"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "62EB7BB683D58167"
 				item: "gtceu:cubic_zirconia_dust"
@@ -1025,6 +1526,12 @@
 		{
 			dependencies: ["6C89FED370C5B2E8"]
 			id: "249FF096F8BC83EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D1A9CEA46A82752"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "34D808E3B7FA3BAB"
 				item: "gtceu:zirconium_tetrachloride_dust"
@@ -1040,6 +1547,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "4F0985AF7092A609"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AB8EBFF2D848A39"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1AB745DF6DC28F3E"
 				item: "gtceu:zirconium_dust"
@@ -1051,6 +1564,12 @@
 		{
 			dependencies: ["1ED352B272339266"]
 			id: "6A61EF807432B96B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FAEF2A00A5C0CFE"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "53A5888DF2B04D6F"
 				item: "gtceu:anthracene_bucket"
@@ -1066,6 +1585,12 @@
 				"6A61EF807432B96B"
 			]
 			id: "127C09CE25750566"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16143F189A065738"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2E6026C628A426E5"
 				item: "gtceu:ethyl_anthra_hydro_quinone_bucket"
@@ -1080,6 +1605,12 @@
 				"5B74755F01EAA98C"
 			]
 			id: "5357B5D3CF9CA99B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "348EB46F53C2037F"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7ABD108CE255F66B"
 				item: "gtceu:ethyl_anthra_quinone_bucket"
@@ -1091,6 +1622,12 @@
 		{
 			dependencies: ["5FB6AF2ED472FDE3"]
 			id: "49E73B48FF7B32B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35187E86950D3CF4"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "390369970A0E1E80"
 				item: "gtceu:phthalic_anhydride_dust"
@@ -1101,6 +1638,12 @@
 		}
 		{
 			id: "5FB6AF2ED472FDE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04B0A6604580FE2F"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "74C842C66C571758"
 				item: "gtceu:vanadium_pentoxide_dust"
@@ -1111,6 +1654,12 @@
 		}
 		{
 			id: "702514667DE21D74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DD6E51A79D203C1"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "32DE4A687636EFC6"
 				item: "gtceu:orange_metal_catalyst_dust"
@@ -1122,6 +1671,12 @@
 		{
 			dependencies: ["141227BD0FDD68EE"]
 			id: "5B74755F01EAA98C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F82CD4D477EBCFB"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "03B272914489AF88"
 				item: "gtceu:ethylbenzene_bucket"
@@ -1137,6 +1692,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "6B42DDFCF2BCACF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C4E7664EA732E6"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "248B52C6304891C2"
 				item: "gtceu:hydrogen_peroxide_bucket"
@@ -1158,6 +1719,13 @@
 		}
 		{
 			id: "5D1450926BCF288B"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09AF2B50E2379DC8"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "跳过任务线"
 			tasks: [{
 				id: "2EFE7AC41D56E14C"
@@ -1170,6 +1738,12 @@
 		{
 			dependencies: ["0D8F0D06D79D182F"]
 			id: "1C4CAA911CF39967"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "467904A616C0C428"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2D934FDEF25F2114"
 				item: "gtceu:xenon_bucket"
@@ -1181,6 +1755,12 @@
 		{
 			dependencies: ["332007D978CB3C6C"]
 			id: "67232BC7E785AD4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AE7A058C71B3EF7"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "用处很大"
 			tasks: [{
 				id: "4055C9091467ECC7"
@@ -1196,6 +1776,12 @@
 				"46B421171FE2DEE9"
 			]
 			id: "18539988644418C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76DAD152BFF45FD5"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "开始布置你的电网吧"
 			tasks: [{
 				id: "7308BC4380FE1F12"
@@ -1207,6 +1793,12 @@
 		}
 		{
 			id: "46B421171FE2DEE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FA1AAB9177D3633"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "400827C1C8FD3A6C"
 				item: "gtceu:lapotron_crystal"
@@ -1218,6 +1810,12 @@
 		{
 			dependencies: ["4D6F042D3D3DA8A2"]
 			id: "0AAAFAD6405A0E26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F761523BB4D8162"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			subtitle: "EV超导"
 			tasks: [{
 				id: "26BC91CA36F799F1"
@@ -1230,6 +1828,12 @@
 		{
 			dependencies: ["0AAAFAD6405A0E26"]
 			id: "2D30354CDA91122C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EA38140E4F346B5"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0033C940031F089A"
 				item: "gtceu:ev_field_generator"
@@ -1237,6 +1841,93 @@
 			}]
 			x: 6.0d
 			y: 5.0d
+		}
+		{
+			id: "6F3903CF77D69F99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0910F87B18BAA742"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C23AEB7E7F7CDB3"
+				item: "gtceu:vinyl_acetate_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6F3903CF77D69F99"]
+			id: "5431D777A2512DFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "307EF4A0953A37C5"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5BF9CE8902E6DF17"
+				item: "gtceu:polyvinyl_acetate_bucket"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.5d
+		}
+		{
+			id: "297AE1B13BD33FAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5449817D2BD01D4B"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D0661E15FACC34F"
+				item: "gtceu:butyraldehyde_bucket"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5431D777A2512DFF"
+				"297AE1B13BD33FAE"
+			]
+			id: "31042D5BC7848EB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "602655A94F7743E5"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DCBA92F293FF48C"
+				item: "gtceu:polyvinyl_butyral_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31042D5BC7848EB1"]
+			id: "0D02E73EE9CEE252"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CC6672FA6BABDE1"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "IV时代的玻璃"
+			tasks: [{
+				id: "03F3BE418102880E"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
 		}
 	]
 	title: "&5EV&r时期"
