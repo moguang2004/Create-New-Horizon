@@ -1415,6 +1415,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("ytt_hol_erb_thu_ytt_chloride")
         .dust()
         .color(0x3f5d18)
+    event.create('snow_steel')
+        .ingot()
+        .liquid()
+        .color(0x00ffff)
+        .flags(GTMaterialFlags.GENERATE_PLATE,GTMaterialFlags.GENERATE_FOIL,GTMaterialFlags.GENERATE_ROD,GTMaterialFlags.GENERATE_GEAR,GTMaterialFlags.GENERATE_BOLT_SCREW)
 })
 
 StartupEvents.postInit(event => {
@@ -1453,6 +1458,7 @@ StartupEvents.postInit(event => {
     GTMaterials.get("rare_earth_high").setFormula("GdTbDyHoErTmYbLuY?")
     GTMaterials.get("rare_earth_low").setFormula("LaCePrNd?")
     GTMaterials.get("rare_earth_middle").setFormula("PmEuSm?")
+    GTMaterials.get("snow_steel").setFormula("SNOWCITY")
     TagPrefix.ingot.setIgnored(GTMaterials.get("mana_steel"), "botania:manasteel_ingot")
     TagPrefix.nugget.setIgnored(GTMaterials.get("mana_steel"), "botania:manasteel_nugget")
     TagPrefix.block.setIgnored(GTMaterials.get("mana_steel"), "botania:manasteel_block")
