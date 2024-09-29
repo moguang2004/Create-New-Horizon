@@ -344,8 +344,8 @@ ServerEvents.recipes(event => {
     //         .buildAndRegister();
 
     // VACUUM_RECIPES.recipeBuilder().duration(30).EUt(480)
-    //         .fluidInputs(Fluorine.getFluid(1000))
-    //         .fluidOutputs(LiquidFluorine.getFluid(1000))
+    //         .fluidInputs(fluorine.getFluid(1000))
+    //         .fluidOutputs(Liquidfluorine.getFluid(1000))
     //         .buildAndRegister();
 
     // VACUUM_RECIPES.recipeBuilder().duration(30).EUt(480)

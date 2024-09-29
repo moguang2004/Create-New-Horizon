@@ -3,12 +3,15 @@ import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
 //const IKineticMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.kinetic.IKineticMachine")
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('seaweed_farm')
-        .category('ctnh')
+    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
+    GTRecipeTypes.register('seaweed_farm','ctnh')
         .setMaxIOSize(2, 4, 0, 1)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.BATH)
+        .addDataInfo(data => {
+            return LocalizationUtils.format('ctnh.stress_input', (data.getFloat('input_stress')).toFixed(1))
+        })
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
@@ -40,7 +43,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             }
             return newrecipe
         })
-        //.appearanceBlock(() => Block.getBlock('create:andesite_casing'))
+        .appearanceBlock(() => Block.getBlock('create:andesite_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CNNNNNC', 'CGGGGGC', 'CGGGGGC', 'CGGGGGC', 'CNNNNNC')
             .aisle('DSSSSSD', 'G#####G', 'G#####G', 'GFFFFFG', 'DBBBBBD')

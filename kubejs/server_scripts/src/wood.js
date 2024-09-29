@@ -3,9 +3,8 @@ ServerEvents.recipes(event => {
         let pos = e.indexOf(":")
         let result = e.substring(0, pos + 1) + "stripped_" + e.substring(pos + 1)
         let pos2 = e.lastIndexOf("_")
-        if (pos2 != -1 && !e.includes("stripped") && !e.includes("ars_nouveau") && !e.includes("botania") && !e.includes("ironwood") && !e.includes("golden_oak")) {
+        if (pos2 != -1 && !e.includes("stripped") && !e.includes("ars_nouveau") && !e.includes("botania") && !e.includes("ironwood") && !e.includes("golden_oak") && !e.includes("magic_vine") && !e.includes("avocado") && !e.includes("fig")&& !e.includes("wolfberry")) {
             let result2 = e.substring(0, pos + 1) + e.substring(pos + 1, pos2 + 1) + "planks"
-            //console.info(result2)
             event.shaped(
                 Item.of(result2, 4), [
                 "B",
@@ -16,27 +15,27 @@ ServerEvents.recipes(event => {
             })
             event.shapeless("2x " + result2, e)
             event.remove({ id: result2 })
+            event.custom({
+                "type": "farmersdelight:cutting",
+                "ingredients": [
+                    {
+                        "item": e
+                    }
+                ],
+                "result": [
+                    {
+                        "item": result
+                    },
+                    {
+                        "item": "farmersdelight:tree_bark"
+                    }
+                ],
+                "tool": {
+                    "type": "farmersdelight:tool_action",
+                    "action": "pickaxe_dig"
+                }
+            })
         }
-        event.custom({
-            "type": "farmersdelight:cutting",
-            "ingredients": [
-                {
-                    "item": e
-                }
-            ],
-            "result": [
-                {
-                    "item": result
-                },
-                {
-                    "item": "farmersdelight:tree_bark"
-                }
-            ],
-            "tool": {
-                "type": "farmersdelight:tool_action",
-                "action": "pickaxe_dig"
-            }
-        })
     })
     event.shaped(
         Item.of("ars_nouveau:archwood_planks", 4), [

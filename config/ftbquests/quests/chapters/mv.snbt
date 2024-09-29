@@ -1,4 +1,5 @@
 {
+	autofocus_id: "1FBD86C0CF681427"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mv"
@@ -8,22 +9,18 @@
 	order_index: 1
 	quest_links: [
 		{
-			id: "320AB306C4AEB3A6"
-			linked_quest: "11F898C7B0C925D5"
-			x: -4.5d
+			id: "5C80269B121E9ADC"
+			linked_quest: "2C6FBF2A814BB60D"
+			x: 7.5d
 			y: -1.0d
 		}
 		{
-			id: "0F6670FE370D0AB1"
-			linked_quest: "7564DC3576C62D48"
-			x: 1.5d
-			y: -2.5d
-		}
-		{
-			id: "0ABE587879C3FC6C"
-			linked_quest: "0FDEA5690076FB16"
-			x: 7.5d
-			y: -2.0d
+			id: "7499099A0B832604"
+			linked_quest: "11F898C7B0C925D5"
+			shape: "rsquare"
+			size: 1.5d
+			x: -4.5d
+			y: -1.0d
 		}
 	]
 	quests: [
@@ -51,12 +48,12 @@
 				{
 					count: 8L
 					id: "0543F1778B152935"
-					item: { Count: 8, id: "gtceu:cupronickel_coil_block" }
+					item: "gtceu:cupronickel_coil_block"
 					type: "item"
 				}
 			]
 			x: -4.5d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["689E197D320A0477"]
@@ -67,7 +64,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["45D2C63F76606DE2"]
@@ -122,7 +119,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["577C0EA40EC89B14"]
@@ -142,7 +139,7 @@
 			]
 			title: "氯碱产物"
 			x: -4.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -160,6 +157,7 @@
 				"64F3856504BEA9F2"
 				"36B9FCEC9579E090"
 			]
+			dependency_requirement: "one_completed"
 			id: "552458CB71BFFED9"
 			tasks: [{
 				id: "03741219A8943CDD"
@@ -206,8 +204,8 @@
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
@@ -221,7 +219,22 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1FBD86C0CF681427"]
+			dependencies: ["19869FD9D4BCCB9F"]
+			id: "0B90121BB71598DD"
+			subtitle: "此后重要的电路板原料"
+			tasks: [{
+				id: "4252FAA765FCEC15"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1FBD86C0CF681427"
+				"5FCD87E61592F357"
+			]
 			id: "10FA0AB1DB0672F9"
 			tasks: [{
 				id: "4669D530ED93FCDE"
@@ -233,8 +246,9 @@
 		}
 		{
 			dependencies: [
+				"0B90121BB71598DD"
 				"10FA0AB1DB0672F9"
-				"7564DC3576C62D48"
+				"7142680A93861DB2"
 			]
 			id: "27675B2A83F65B2E"
 			tasks: [{
@@ -255,6 +269,20 @@
 			}]
 			x: 3.0d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6A93AEE55399519D"
+				"6D2CFD7C56F6A2B3"
+			]
+			id: "4D79E10947CC121F"
+			tasks: [{
+				id: "6C7ED169ACEA6489"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["187230C4BEE7160C"]
@@ -282,7 +310,6 @@
 		{
 			dependencies: ["14C4BA500BF6C81B"]
 			id: "3BBEFDC7CD5D688B"
-			subtitle: "不用手搓的MV电路板"
 			tasks: [{
 				id: "01A02BC001EC7E29"
 				item: "gtceu:good_integrated_circuit"
@@ -294,7 +321,6 @@
 		{
 			dependencies: ["5A460876CA0EC216"]
 			id: "6A93AEE55399519D"
-			subtitle: "你得在MV把这个产线做好"
 			tasks: [{
 				id: "3FAAF27C803FB471"
 				item: "gtceu:polyethylene_bucket"
@@ -322,20 +348,21 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0FDEA5690076FB16"]
+			dependencies: ["2C6FBF2A814BB60D"]
 			id: "661BD82A33904F28"
 			tasks: [{
 				id: "0A5342F38734ACAE"
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"07345C8D36117F69"
 				"661BD82A33904F28"
+				"5CC2A3C37EB99ED3"
 			]
 			id: "42C489E6E3651DDC"
 			subtitle: "最高阶的MV电路板"
@@ -344,7 +371,7 @@
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.5d
 			y: 3.0d
 		}
 		{
@@ -359,11 +386,11 @@
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["0FDEA5690076FB16"]
+			dependencies: ["2C6FBF2A814BB60D"]
 			id: "063155FDDF799750"
 			tasks: [{
 				id: "7312ABE98EF4BE13"
@@ -382,7 +409,6 @@
 			id: "5A55D491F0E9F389"
 			rewards: [{
 				command: "/gamephase add @p end"
-				elevate_perms: true
 				id: "1BF2998667643C68"
 				title: "前往末地"
 				type: "command"
@@ -429,17 +455,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["4DCA7E4E57817E0A"]
-			id: "3EDD18FAB29CBC8D"
-			tasks: [{
-				id: "2E8E11FB5092CADE"
-				item: "gtceu:raw_chromite"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -3.5d
-		}
-		{
 			dependencies: [
 				"1A760D451E9D23B0"
 				"291D02E808F55209"
@@ -461,6 +476,7 @@
 			id: "36968F23015BC87A"
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "HV时代的重要材料"
 			tasks: [{
 				id: "19B8A8E266098D32"
 				item: "gtceu:stainless_steel_ingot"
@@ -470,7 +486,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1FBD86C0CF681427"]
+			dependencies: [
+				"1FBD86C0CF681427"
+				"4C152AA55BCD6945"
+			]
 			hide_dependency_lines: true
 			id: "3C1A31CEA3C10082"
 			tasks: [{
@@ -517,6 +536,7 @@
 		}
 		{
 			id: "61F3A1C4B771E811"
+			subtitle: "硫粉处理后的产物"
 			tasks: [{
 				id: "74B53DE6E60BEE3B"
 				item: "gtceu:sulfuric_acid_bucket"
@@ -529,6 +549,7 @@
 			dependencies: ["1FBD86C0CF681427"]
 			hide_dependency_lines: true
 			id: "1A760D451E9D23B0"
+			subtitle: "二选一"
 			tasks: [
 				{
 					id: "71D1D2D5063F35CB"
@@ -537,7 +558,7 @@
 					type: "item"
 				}
 				{
-					id: "11FBF952B815DF35"
+					id: "24975BF93AE83232"
 					item: "gtceu:mv_kinetic_mixer"
 					optional_task: true
 					type: "item"
@@ -560,6 +581,7 @@
 		{
 			dependencies: ["64F3856504BEA9F2"]
 			id: "36B9FCEC9579E090"
+			optional: true
 			tasks: [{
 				id: "3558C26A9A6B1B4C"
 				item: "gtceu:fermenting_tank"
@@ -580,7 +602,12 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3EDD18FAB29CBC8D"]
+			dependencies: [
+				"221F9C128CA48DAA"
+				"43C8834337DEBC97"
+			]
+			dependency_requirement: "one_completed"
+			description: ["你也可以看看红宝石的几种副产"]
 			id: "291D02E808F55209"
 			subtitle: "铬粉需要经过几步处理，请仔细查阅jei"
 			tasks: [{
@@ -592,15 +619,15 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["291D02E808F55209"]
+			dependencies: ["1A760D451E9D23B0"]
 			id: "2FFC9C35347833E2"
 			tasks: [{
 				id: "29641A72CC84053A"
 				item: "gtceu:kanthal_dust"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -3.5d
+			x: 17.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -618,7 +645,6 @@
 			id: "415AF3F977F4C3F9"
 			rewards: [{
 				command: "/gamephase add @p aether"
-				elevate_perms: true
 				id: "77BF31525552C266"
 				title: "前往天境"
 				type: "command"
@@ -653,6 +679,7 @@
 		{
 			dependencies: ["699743A94DF7E0B8"]
 			id: "689EA8B026306D08"
+			subtitle: "ps:天境空气还挺致命的（"
 			tasks: [{
 				id: "7069C294EA4BCFD9"
 				item: "gtceu:fluorine_bucket"
@@ -662,7 +689,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["0FDEA5690076FB16"]
+			dependencies: ["2C6FBF2A814BB60D"]
 			id: "4616A64D47AFBFF9"
 			subtitle: "赶紧用起来吧，不然你会很难受的"
 			tasks: [{
@@ -671,7 +698,7 @@
 				type: "checkmark"
 			}]
 			x: 9.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["42C489E6E3651DDC"]
@@ -682,7 +709,7 @@
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: 3.0d
 		}
 		{
@@ -709,8 +736,8 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.0d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -733,6 +760,250 @@
 			}]
 			x: 12.0d
 			y: -8.0d
+		}
+		{
+			dependencies: ["4DCA7E4E57817E0A"]
+			id: "221F9C128CA48DAA"
+			tasks: [{
+				id: "1AD776B0230E018D"
+				item: "gtceu:raw_chromite"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			id: "43C8834337DEBC97"
+			tasks: [{
+				id: "4E77B2B656C12EFF"
+				item: "gtceu:raw_ruby"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2FFC9C35347833E2"
+				"05DE915B25451CF1"
+			]
+			id: "707A41CB0EED30D3"
+			subtitle: "升级你的线圈！"
+			tasks: [{
+				id: "6F1536BDC8E4DB42"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FBD86C0CF681427"]
+			hide_dependency_lines: true
+			id: "05DE915B25451CF1"
+			tasks: [{
+				id: "6C3C5441702781F5"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["707A41CB0EED30D3"]
+			id: "667964AF2027E5BD"
+			shape: "pentagon"
+			tasks: [{
+				count: 16L
+				id: "0D5766F5AC12A7F6"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["01377F6FDB479DC4"]
+			id: "7142680A93861DB2"
+			tasks: [{
+				id: "10A74E679FA94C6B"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"11F898C7B0C925D5"
+				"7BE6A468603F70A6"
+			]
+			hide_dependency_lines: true
+			id: "01377F6FDB479DC4"
+			tasks: [
+				{
+					id: "330E788B29689786"
+					item: "gtceu:mv_sensor"
+					type: "item"
+				}
+				{
+					id: "0F0D71674538A7E5"
+					item: "gtceu:mv_emitter"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7142680A93861DB2"]
+			id: "5CC2A3C37EB99ED3"
+			tasks: [
+				{
+					id: "69FFC6301EF6DA40"
+					item: "gtceu:cpu_wafer"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2A5ADEDB0AAF84DA"
+					item: "gtceu:cpu_chip"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"56D33C26893B29C5"
+				"0B406575E6CDCC2D"
+			]
+			id: "40CBECB09DB2EEE7"
+			tasks: [{
+				id: "571D09AB2742E15B"
+				item: "gtceu:industrial_tnt"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			id: "0B406575E6CDCC2D"
+			tasks: [{
+				id: "32BB109EF0F59B3F"
+				item: "gtceu:nitration_mixture_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["05DE915B25451CF1"]
+			hide_dependent_lines: true
+			id: "6D2CFD7C56F6A2B3"
+			tasks: [{
+				id: "19B0A02601FB3654"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19869FD9D4BCCB9F"]
+			id: "5FCD87E61592F357"
+			tasks: [{
+				id: "42DFAF361A5675C7"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18053F8D68450C52"]
+			id: "141227BD0FDD68EE"
+			subtitle: "它也有大作用"
+			tasks: [{
+				id: "761640BF02698B68"
+				item: "gtceu:coal_gas_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C1A31CEA3C10082"]
+			id: "477E8A2397016E0B"
+			tasks: [{
+				id: "37A9D48964CF8180"
+				item: "gtceu:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["477E8A2397016E0B"]
+			id: "65C365115468BF4D"
+			subtitle: "HV超导"
+			tasks: [{
+				id: "5819C06388775C03"
+				item: "gtceu:vibrant_alloy_single_wire"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27675B2A83F65B2E"]
+			id: "4C152AA55BCD6945"
+			tasks: [{
+				id: "42F107B09EE02C3E"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3C1A31CEA3C10082"]
+			id: "6960D8238C5B49EB"
+			tasks: [{
+				id: "07DF63569B78C55A"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"08302778401395AA"
+				"4D79E10947CC121F"
+				"3BBEFDC7CD5D688B"
+			]
+			id: "42552E404237FB96"
+			tasks: [{
+				id: "6DE0530CFDC5398C"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42552E404237FB96"]
+			id: "378D31F3F0D064F8"
+			subtitle: "高阶植物魔法"
+			tasks: [{
+				id: "7D626479721BEE0F"
+				item: "kubejs:mana_integrated_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
 		}
 	]
 	title: "&bMV&r时期"

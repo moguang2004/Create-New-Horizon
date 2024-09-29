@@ -1,8 +1,33 @@
+const { $RecipeJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipeJS");
+const { $RecipesEventJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipesEventJS");
+
 /*event.recipes.gtceu.配方类型("id")            
         .itemInputs("物品id","物品id",....)
         .itemOutputs("物品id")
         .duration(时间)
         .EUt(功率)*/
+ServerEvents.recipes(event => {
+    event.forEachRecipe({ mod: 'gtceu' , type: 'gtceu:electric_blast_furnace'}, recipe => {
+        try {
+            var newDuration = recipe.get("duration");
+            recipe.set("duration", newDuration * 3/4>=1?newDuration * 3/4:1);
+            
+        } catch (err) {
+        }
+    })
+    event.forEachRecipe({ mod: 'gtceu' , type: 'gtceu:alloy_blast_smelter'}, recipe => {
+      try {
+          var newDuration = recipe.get("duration");
+          recipe.set("duration", newDuration * 3/4>=1?newDuration * 3/4:1);
+          
+      } catch (err) {
+      }
+  })
+    event.forEachRecipe({id:'gtceu:large_chemical_reactor/ethylene_from_ethanol'}, recipe =>{
+      let newduration = recipe.get('duration')
+      recipe.set('duration',newduration/3)
+    })
+})
 const GTNNRecipes = Java.loadClass("dev.arbor.gtnn.data.GTNNRecipes")
 ServerEvents.recipes(event => {
   event.recipes.gtceu.create_mixer("rose_quartz")
@@ -123,6 +148,7 @@ ServerEvents.recipes(event => {
     .chancedOutput("2x minecraft:kelp", 2000, 500)
     .chancedOutput("1x minecraft:kelp", 500, 500)
     .inputStress(512)
+    .addData('inputStress',512)
   event.recipes.gtceu.chemical_reactor("fix")
     .inputFluids(Fluid.of("gtceu:dilute_iodine_solution", 1000))
     .inputFluids(Fluid.of("gtceu:chlorine", 2000))
@@ -454,7 +480,7 @@ ServerEvents.recipes(event => {
     .itemInputs("nethersdelight:rich_soul_soil")
     .itemOutputs("4x gtceu:rich_soul_soil_dust")
     .chancedOutput("gtceu:crimson_yeast_dust", 1500, 150)
-    .chancedOutput("gtceu:wraped_yeast_dust", 1500, 150)
+    .chancedOutput("gtceu:warped_yeast_dust", 1500, 150)
     .EUt(30)
     .duration(20)
 
@@ -916,11 +942,39 @@ ServerEvents.recipes(event => {
     'S': "#forge:tools/saws",
   })
 
+  event.recipes.gtceu.windmill_control_center('windmill_control')
+    .inputFluids(Fluid.of("gtceu:lubricant", 25))
+    .duration(200)
+    .outputStress(512)
+  event.recipes.gtceu.chemical_bath('fiber_glass')
+    .itemInputs('gtceu:cellulose_dust')
+    .inputFluids(Fluid.of('gtceu:glass',288))
+    .outputFluids(Fluid.of('gtceu:fiber_glass',288))
+    .EUt(30)
+    .duration(120)
   event.remove({id:'gtceu:assembler/space_helmet'})
+  event.remove({id:'gtceu:shaped/space_suit'})
+  event.remove({id:'gtceu:shaped/space_pants'})
+  event.remove({id:'gtceu:shaped/space_boots'})
   event.recipes.gtceu.assembler('space_helmet')
-    .itemInputs('gtceu:glass_plate','minecraft:chainmail_helmet')
+    .itemInputs('gtceu:glass_plate','4x kubejs:space_fabric')
     .inputFluids(Fluid.of('gtceu:glue',72))
     .itemOutputs('ad_astra:space_helmet')
+    .EUt(120)
+    .duration(400)
+  event.recipes.gtceu.assembler('space_suit')
+    .itemInputs(['ad_astra:oxygen_gear', '2x ad_astra:gas_tank', '4x gtnn:heavy_plate_t1', '2x gtceu:stainless_steel_screw', '4x kubejs:space_fabric'])
+    .itemOutputs('ad_astra:space_suit')
+    .EUt(120)
+    .duration(400)
+  event.recipes.gtceu.assembler('space_pants')
+    .itemInputs(['5x gtnn:heavy_plate_t1','3x kubejs:space_fabric'])
+    .itemOutputs('ad_astra:space_pants')
+    .EUt(120)
+    .duration(400)
+  event.recipes.gtceu.assembler('space_boots')
+    .itemInputs(['4x gtnn:heavy_plate_t1','2x kubejs:space_fabric'])
+    .itemOutputs('ad_astra:space_boots')
     .EUt(120)
     .duration(400)
   event.recipes.gtceu.autoclave('imprinted_resonatic_circuit_board')
@@ -987,7 +1041,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.mark_of_falling_tower('stone_gems_green')
         .itemInputs('gtceu:exquisite_green_sapphire_gem')
         .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',192000))
-        .itemOutputs('64x minecraft:emerald_ore','64x gtceu:green_sapphire_ore','64x gtceu:malachite_ore',
+        .itemOutputs('64x gtceu:emerald_ore','64x gtceu:green_sapphire_ore','64x gtceu:malachite_ore',
             '64x gtceu:olivine_ore','64x gtceu:monazite_ore'
         )
         .addData('radius',6)
@@ -1110,4 +1164,156 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of('gtceu:neutronium',144),Fluid.of('gtceu:phosphorus',144))
         .EUt(491520)
         .duration(16);
+    event.recipes.gtceu.meadow('meadow')
+        .circuit(0)
+        .inputStress(1024)
+        .duration(100)
+        .addData('inputStress',1024)
+    event.recipes.gtceu.mixer('dibismuthhydroborat')
+        .itemInputs(['2x gtceu:bismuth_dust','gtceu:boron_dust'])
+        .inputFluids(Fluid.of('gtceu:hydrogen',1000))
+        .itemOutputs('4x gtceu:dibismuthhydroborat_dust')
+        .EUt(120)
+        .duration(590)
+    event.recipes.gtceu.mixer('bismuth_tellurite')
+        .itemInputs(['2x gtceu:bismuth_dust','3x gtceu:tellurium_dust'])
+        .itemOutputs('5x gtceu:bismuth_tellurite_dust')
+        .EUt(80)
+        .duration(162)
+    event.recipes.gtceu.mixer('circuit_compound')
+        .itemInputs(['3x gtceu:dibismuthhydroborat_dust','2x gtceu:bismuth_tellurite_dust','gtceu:indium_gallium_phosphide_dust'])
+        .itemOutputs('6x gtceu:circuit_compound_dust')
+        .duration(982)
+        .EUt(15)
+    event.recipes.gtceu.forming_press('pressed_circuit')
+        .itemInputs(['4x gtceu:circuit_compound_dust','gtceu:magneto_resonatic_dust'])
+        .itemOutputs('kubejs:raw_imprinted_resonatic_circuit_board')
+        .duration(300)
+        .EUt(480)
+    event.recipes.gtceu.electric_blast_furnace('titanium')
+        .itemInputs(['10x gtceu:ilmenite_dust','2x gtceu:carbon_dust'])
+        .itemOutputs(['2x gtceu:wrought_iron_ingot','2x gtceu:rutile_dust'])
+        .outputFluids(Fluid.of('gtceu:carbon_monoxide',2000))
+        .duration(800)
+        .EUt(480)
+        .blastFurnaceTemp(1700)
+    event.remove({id:'gtceu:electric_blast_furnace/rutile_from_ilmenite'})
+    event.shaped(
+      'gtceu:hellforge',
+      [
+          'ICI',
+          'SHS',
+          'IFI'
+      ], {
+      C: '#gtceu:circuits/luv',
+      H: 'gtceu:iv_machine_hull',
+      I: 'bloodmagic:ingot_hellforged',
+      S: 'bloodmagic:etherealslate',
+      F: 'bloodmagic:soulforge'
+  })
+
+  event.recipes.gtceu.hellforge('hellpart')
+      .itemInputs('bloodmagic:hellforgedparts','minecraft:diamond','minecraft:netherite_scrap','bloodmagic:defaultcrystal')
+      .itemOutputs('2x bloodmagic:hellforgedparts')
+      .EUt(4000)
+      .duration(200)
+      .addDataNumber('minimumDrain',1000)
+      .addDataNumber('drain',200);
+
+  // var counter=1;
+  // event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
+  //   console.info(recipe.getAllValueMap())
+  //     let input0 =recipe.get('input0');
+  //     let input1 =recipe.get('input1');
+  //     let input2 =recipe.get('input2');
+  //     let input3 =recipe.get('input3');
+  //     let output =recipe.get('output');
+  //     if(input2===null) console.log("NULL");
+  //     var drain=recipe.get('drain');
+  //     var minimumDrain=recipe.get('minimumDrain');
+      
+  //     var builder=event.recipes.gtceu.hellforge(counter+'_hellforge');
+  //     [input0,input1,input2,input3].forEach(input=>{
+  //         if(input!==null) builder.itemInputs(input);
+  //     })
+  //     builder.itemOutputs(output)
+  //     .EUt(minimumDrain===0?30:minimumDrain*20)
+  //     .duration(200)
+  //     .addDataNumber('minimumDrain',minimumDrain)
+  //     .addDataNumber('drain',drain);
+  //     counter++;
+  // })
+
+  function dwos_crafting_recipe(event,voltage) {
+    event.shaped(
+        `gtceu:${voltage}_digital_well_of_suffer`,
+        [
+            'PCP',
+            'SHS',
+            'PCP'
+        ], {
+        P: `gtceu:${voltage}_electric_pump`,
+        C: `#gtceu:circuits/${voltage}`,
+        H: `gtceu:${voltage}_machine_hull`,
+        ShaderTexture: 'bloodmagic:sacrificerune'
+    })
+  }
+  ['lv','mv','hv','ev','iv','luv','zpm','uv'].forEach(voltage=>dwos_crafting_recipe(event,voltage));
+  function addModel(event, entity, voltage, outputValue){
+    event.recipes.gtceu.digital_well_of_suffer('dwos_'+entity)
+        .outputFluids(Fluid.of('bloodmagic:life_essence_fluid',outputValue))
+        .notConsumable(Item.of('gtceu:data_stick', `{mobs:{${entity}}}`).strongNBT())
+        .EUt(voltage)
+        .duration(20);
+  }
+      ['chicken','cod','cow','glow_squid','mooshroom','pig','rabbit','polar_bear','squid','snow_golem','sheep'].forEach(entity=>
+        addModel(event, entity, 30, 100)
+    );
+    
+    // ['ars_nouveau_wilden_mobs','blaze','creeper','drowned','ghast','guardian','hoglin','magma_cube','phantom','skeleton','slime',
+    //     'spider','twilightforest_death_tomb','twilightforest_deer','twilightforest_raven','twilight_forest_stable_ice_core','witch','zombie','zombified_piglin'
+    // ].forEach(entity=>
+    //     addModel(event, entity, 120, 400)
+    // );
+    
+    // ['elder_guardian','enderman','evoker','iron_golem','shulker','twilightforest_giant','twilightforest_kobold','twilightforest_goblin',
+    //     'wither_skeleton','twilightforest_winter_wolf','twilightforest_redcap','twilightforest_helmet_crab','twilightforest_troll',
+    //     'twilightforest_naga','twilightforest_minotaur','twilightforest_fire_beetle','twilightforest_carminite_golem','twilightforest_towerwood_borer',
+    //     'vindicator','twilightforest_lich','twilightforest_yeti','twilightforest_wraith','twilightforest_skeleton_druid'
+    // ].forEach(entity=>
+    //     addModel(event, entity, 480, 1600)
+    // );
+
+    // ['artifacts_mimic','wither','ender_dragon','warden','twilightforest_snow_queen','twilightforest_hydra','twilightforest_minoshroom','twilightforest_alpha_yeti'
+    // ].forEach(entity=>
+    //     addModel(event, entity, 1920, 6400)
+    // );
+
+    // ['twilightforest_ur_ghast','allthemodium_piglich'
+    // ].forEach(entity=>
+    //     addModel(event, entity, 7680, 25600)
+    // );
+
+  event.recipes.gtceu.assembly_line('eternalwos')
+  .itemInputs(
+      'bloodmagic:largebloodstonebrick',
+      '2x gtceu:luv_electric_pump',
+      '4x bloodmagic:rawdemoncrystal',
+      '4x bloodmagic:corrosivedemoncrystal',
+      '4x bloodmagic:destructivedemoncrystal',
+      '4x bloodmagic:steadfastdemoncrystal',
+      '4x bloodmagic:vengefuldemoncrystal',
+      '64x hostilenetworks:prediction_matrix'
+  )
+  .inputFluids(Fluid.of('bloodmagic:life_essence_fluid',1024000))
+  .itemOutputs('gtceu:eternal_well_of_suffer')
+  .duration(4800)
+  .EUt(32000)
+  ["scannerResearch(java.util.function.UnaryOperator)"](b => b.researchStack(Item.of('gtceu:luv_digital_well_of_suffer')).EUt(120).duration(9600)) // (1)
+
+  event.recipes.gtceu.dehydrator('ammonium_chloride')
+    .inputFluids(Fluid.of('gtceu:ammonium_chloride',144))
+    .itemOutputs('gtceu:ammonium_chloride_dust')
+    .EUt(30)
+    .duration(40)
 })

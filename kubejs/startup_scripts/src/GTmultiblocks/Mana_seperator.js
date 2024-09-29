@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('mana_seperator', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('mana_seperator')
-        //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
+        .appearanceBlock(() => Block.getBlock('kubejs:mana_steel_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("A###A", "A###A", "ABBBA", "CHHHC", "#####", "#####", "#####", "#####")
             .aisle("#####", "#####", "BCCCB", "HDEDH", "#DED#", "#DED#", "#DFD#", "##G##")

@@ -19,6 +19,8 @@ LootJS.modifiers(event => {
     event.addEntityLootModifier("minecraft:zombified_piglin", "twilightforest:kobold")
         .replaceLoot("minecraft:gold_nugget", "gtceu:precious_alloy_nugget", true)
         .replaceLoot("minecraft:gold_ingot", "gtceu:precious_alloy_ingot", true)
+    event.addLootTableModifier(LootType.ENTITY)
+        .replaceLoot('minecraft:netherite_ingot','gtceu:netherite_ingot',true)
     //event.addLootTableModifier("dun")
     const gtceulv = [LootEntry.of("gtceu:lv_electric_motor", 1).when(c => { c.randomChance(0.2) }),
     LootEntry.of("gtceu:tin_single_wire", 2).when(c => { c.randomChance(0.4) }),

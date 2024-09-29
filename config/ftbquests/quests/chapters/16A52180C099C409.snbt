@@ -5,7 +5,7 @@
 	group: "203B37D7B3ACCD4B"
 	icon: "create:copper_casing"
 	id: "16A52180C099C409"
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "28814EBC5418F413"
@@ -265,8 +265,8 @@
 			id: "79769BDD732ED3B4"
 			subtitle: "大型合金窑"
 			tasks: [{
-				id: "1111111B072EF9D4"
-				item: "steamadditions:steam_foundry"
+				id: "74B2F171E30B858F"
+				item: "gtceu:steam_foundry"
 				type: "item"
 			}]
 			x: -8.0d

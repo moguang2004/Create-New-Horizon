@@ -13,7 +13,7 @@ Platform.getInfo('kubejs').name = 'Create: New Horizon'
 StartupEvents.registry("item", event => {
     event.create('treated_clay_ball')
     event.create('basic_mechanism')
-    let MAX_ENERGY = 100000000
+    let MAX_ENERGY = 10000000
     event.create('temperature_keeping_device').tag('curios:body')
         .attachCapability(CapabilityBuilder.ENERGY.customItemStack()
             .canReceive(i => true)
@@ -41,7 +41,7 @@ StartupEvents.registry("item", event => {
                 let energy = itemstack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
                 let { energyStored, maxEnergyStored } = energy
                 if (energyStored > 0) {
-                    let energyConsumed = Math.min(energyStored, 600)
+                    let energyConsumed = Math.min(energyStored, 60)
                     itemstack.nbt.putInt('energyStored', energyStored - energyConsumed)
                     return true
                 }
@@ -108,6 +108,8 @@ StartupEvents.registry("item", event => {
     tiers.forEach(tier => {
         event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
     })
+    event.create('animal_excreta')
+    event.create('tumor')
     event.create('crashed_rice')
     event.create('space_fabric')
     event.create('endslate')
@@ -120,6 +122,16 @@ StartupEvents.registry("item", event => {
     event.create('echo_processor_computer').tag('gtceu:circuits/uhv')
     event.create('echo_processor_mainframe').tag('gtceu:circuits/uev')
     event.create('echo_circuit_board')
+    event.create('mana_resistor')
+    event.create('advanced_mana_resistor')
+    event.create('mana_diode')
+    event.create('advanced_mana_diode')
+    event.create('mana_transistor')
+    event.create('advanced_mana_transistor')
+    event.create('mana_capacitor')
+    event.create('advanced_mana_capacitor')
+    event.create('mana_inductor')
+    event.create('advanced_mana_inductor')
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')
@@ -254,16 +266,16 @@ StartupEvents.registry("block", event => {
 
 
 ItemEvents.modification(event => {
-    event.modify('farmersdelight:rice',item => {
-        item.setFoodProperties(food =>{
-            food.eaten((/**@type {$FoodEatenEventJS}*/eat) =>{
-                if(eat.entity.isPlayer()){
-                    console.info('eat!')
-                    eat.player.addItem('kubejs:crashed_rice')
-                }
-            })
-        })
-    })
+    // event.modify('farmersdelight:rice',item => {
+    //     item.setFoodProperties(food =>{
+    //         food.eaten((/**@type {$FoodEatenEventJS}*/eat) =>{
+    //             if(eat.entity.isPlayer()){
+    //                 console.info('eat!')
+    //                 eat.player.addItem('kubejs:crashed_rice')
+    //             }
+    //         })
+    //     })
+    // })
     event.modify('tomeofblood:living_mage_hood', item => {
         item.setArmorProtection(4)
         item.setArmorToughness(3)

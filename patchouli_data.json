@@ -132,7 +132,8 @@
         "ars_nouveau:mod_news/mod_news",
         "ars_nouveau:mod_news/support_mod",
         "ars_nouveau:feather_falling",
-        "ars_nouveau:tomeofblood/armor"
+        "ars_nouveau:tomeofblood/armor",
+        "ars_nouveau:rituals/ritual_containment"
       ],
       "bookmarks": [],
       "completedManualQuests": []

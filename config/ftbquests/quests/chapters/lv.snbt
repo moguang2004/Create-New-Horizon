@@ -6,15 +6,9 @@
 	icon: "gtceu:lv_machine_hull"
 	id: "4BDF4E8F33BD360D"
 	order_index: 0
-	quest_links: [{
-		id: "241C27E30A82FB9D"
-		linked_quest: "70775BD37338408D"
-		x: 9.5d
-		y: 5.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["50ADB201997BE734"]
 			id: "1CB5BE6DA6B402AA"
 			tasks: [{
 				id: "4E83DD18E94FAEAE"
@@ -41,6 +35,7 @@
 			y: -2.5d
 		}
 		{
+			description: ["挺不错的树，建议搭配机械动力树场使用"]
 			id: "15B4D9CDC0BC1908"
 			tasks: [{
 				id: "10B69692BB947419"
@@ -64,6 +59,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "544D7F95370F9235"
+			subtitle: "更好的合成液态橡胶了，不是吗？"
 			tasks: [{
 				id: "7E3FAB1FDA39411F"
 				item: "gtceu:lv_chemical_reactor"
@@ -75,6 +71,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "504A762FE1057233"
+			subtitle: "节省材料和你的肝硬化程度"
 			tasks: [{
 				id: "261F23C630F0BE7D"
 				item: "gtceu:lv_assembler"
@@ -110,13 +107,14 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "0E1BB5886DEF4D25"
+			subtitle: "节省材料的第三大大杀器！"
 			tasks: [{
 				id: "58A17D825D598E67"
 				item: "gtceu:lv_lathe"
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2D662EFDE7A39BB8"]
@@ -144,6 +142,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "1A9FAC89EC982D6D"
+			subtitle: "你可以拿它来获取胶水"
 			tasks: [{
 				id: "57D12F560EA433EB"
 				item: "gtceu:lv_centrifuge"
@@ -199,7 +198,6 @@
 		{
 			dependencies: [
 				"42DC74BF8FB5723A"
-				"2689A25C5C7BED52"
 				"77853271AECF4F7C"
 			]
 			id: "6E67A19F1A190D4F"
@@ -223,28 +221,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["7CF628053F84B8D1"]
-			id: "0E5195358476B164"
-			tasks: [{
-				id: "5D845219D7E1C433"
-				item: "gtceu:fine_copper_wire"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["488C0AB8EA50DA87"]
-			id: "722E5AF3D6F3F209"
-			tasks: [{
-				id: "7FF5F46DC2482D14"
-				item: "gtceu:steel_plate"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "44E9D92283CBF029"
 			tasks: [{
@@ -256,7 +232,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["44E9D92283CBF029"]
+			dependencies: [
+				"44E9D92283CBF029"
+				"0F5DE5970F41E7B3"
+				"471F881828CFF6A6"
+			]
 			id: "7F992D338D4783CE"
 			tasks: [{
 				id: "7ABC4356467197C7"
@@ -265,17 +245,6 @@
 			}]
 			x: 4.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["0E1BB5886DEF4D25"]
-			id: "7ADE5527AD36B03F"
-			tasks: [{
-				id: "28271E734123FDFB"
-				item: "gtceu:steel_rod"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -339,13 +308,13 @@
 				{
 					count: 16L
 					id: "13488A1652F47DEE"
-					item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+					item: "gtceu:cupronickel_coil_block"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "7CCF397A046B0FFE"
-					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+					item: "gtceu:lv_energy_input_hatch"
 					type: "item"
 				}
 				{
@@ -381,6 +350,7 @@
 			id: "11F898C7B0C925D5"
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "MV时代的主要材料"
 			tasks: [{
 				id: "7133886D9DB3ED04"
 				item: "gtceu:aluminium_ingot"
@@ -444,12 +414,13 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
 			id: "1F7CA0731CCA907A"
+			subtitle: "产铝和氟的好帮手"
 			tasks: [{
 				id: "0EE186D66FCC7F58"
 				item: "gtceu:cryolite_dust"
@@ -467,18 +438,18 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4759D176E05E3D8C"]
 			id: "2301C8A867356B99"
 			rewards: [{
 				command: "/gamephase add @p twilightforest"
-				elevate_perms: true
 				id: "4F3B927EBC2B0E50"
 				title: "前往暮色森林"
 				type: "command"
 			}]
+			subtitle: "概率！"
 			tasks: [{
 				id: "54DDAA9635F9C248"
 				item: "gtceu:exquisite_diamond_gem"
@@ -574,69 +545,18 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"7959820843845731"
-				"79D60B601C349798"
-			]
+			dependencies: ["79D60B601C349798"]
 			id: "71ABAC98E9CC67A9"
-			tasks: [
-				{
-					id: "6F70329CA96985DF"
-					item: "gtceu:bronze_large_boiler"
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "747F6135974B7C31"
-					item: { Count: 5, id: "gtceu:bronze_firebox_casing" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "79C4BC6B5DF5E03B"
-					item: { Count: 2, id: "gtceu:bronze_pipe_casing" }
-					type: "item"
-				}
-				{
-					count: 23L
-					id: "751EB859528A5F11"
-					item: { Count: 23, id: "gtceu:steam_machine_casing" }
-					type: "item"
-				}
-				{
-					id: "1DA1F1E71EF67A54"
-					item: "gtceu:lv_input_bus"
-					type: "item"
-				}
-				{
-					id: "3D641FF457D73DCC"
-					item: "gtceu:ulv_output_hatch"
-					type: "item"
-				}
-				{
-					id: "32F121D3394830BF"
-					item: "gtceu:ulv_input_hatch"
-					type: "item"
-				}
-				{
-					id: "0D8C6BA728457E82"
-					item: "gtceu:lv_muffler_hatch"
-					type: "item"
-				}
-				{
-					id: "7B508E6A080AAE49"
-					item: "gtceu:maintenance_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6F70329CA96985DF"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
 			x: -2.5d
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"79D60B601C349798"
-				"2393E591D8CEE84B"
-			]
+			dependencies: ["79D60B601C349798"]
 			description: [
 				"机械涡轮的基础应力输出量为&a8192su&r（ULV），应力输出仓每提升一级，最大并行数x4。"
 				"应力输出还与转子和转子支架有关，转子支架每升一级，支架效率提升10%（ULV为100%），转子的效率取决于转子的材料。"
@@ -659,7 +579,7 @@
 				{
 					count: 27L
 					id: "60F1290EC3954152"
-					item: { Count: 27, id: "gtceu:steam_machine_casing" }
+					item: "gtceu:steam_machine_casing"
 					type: "item"
 				}
 				{
@@ -678,27 +598,12 @@
 				{
 					count: 2L
 					id: "590F66F39B247BA7"
-					item: { Count: 2, id: "gtceu:bronze_gearbox" }
+					item: "gtceu:bronze_gearbox"
 					type: "item"
 				}
 				{
 					id: "509127F4BD4A96C2"
 					item: "gtceu:maintenance_hatch"
-					type: "item"
-				}
-				{
-					id: "4606DDA780AE38DE"
-					item: "gtceu:lv_kinetic_output_box"
-					type: "item"
-				}
-				{
-					id: "7C82A539FC2DA099"
-					item: "gtceu:ulv_input_hatch"
-					type: "item"
-				}
-				{
-					id: "4EC0CAC48A0EF862"
-					item: "gtceu:ulv_output_hatch"
 					type: "item"
 				}
 			]
@@ -707,55 +612,22 @@
 		}
 		{
 			dependencies: ["79D60B601C349798"]
-			icon: "gtceu:industrial_primitive_blast_furnace"
+			description: ["更快的炼钢，记得安排上较好的输入总线和输出总线(LV级）"]
 			id: "15ED273EAE156E49"
 			subtitle: "更快地炼钢"
-			tasks: [
-				{
-					id: "28B4B5B5A143CB87"
-					item: "gtceu:industrial_primitive_blast_furnace"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "22D452CE8A236A2B"
-					item: { Count: 4, id: "gtceu:bronze_firebox_casing" }
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "3BEC2D70F4907598"
-					item: { Count: 6, id: "gtceu:bronze_frame" }
-					type: "item"
-				}
-				{
-					count: 54L
-					id: "6F12208B7E0522CB"
-					item: { Count: 54, id: "gtceu:firebricks" }
-					type: "item"
-				}
-				{
-					id: "3108A007FB4CFBA9"
-					item: "gtceu:lv_input_bus"
-					type: "item"
-				}
-				{
-					id: "69C8833033DCC138"
-					item: "gtceu:lv_output_bus"
-					type: "item"
-				}
-				{
-					id: "757066304FA4386D"
-					item: "gtceu:maintenance_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "28B4B5B5A143CB87"
+				item: "gtceu:industrial_primitive_blast_furnace"
+				type: "item"
+			}]
 			x: -3.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
+			description: ["你会做的,对吧"]
 			id: "38EA7D1DD910DBF5"
+			subtitle: "大型蒸汽合金炉更能满足你对速度的需求！"
 			tasks: [{
 				id: "716ECE6F74511EC0"
 				item: "gtceu:lv_alloy_smelter"
@@ -765,7 +637,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["38EA7D1DD910DBF5"]
+			dependencies: ["4917074451DC7A27"]
 			id: "39E54D32FF4C6CAF"
 			subtitle: "这会是你前期的物品传输好帮手"
 			tasks: [{
@@ -773,7 +645,7 @@
 				item: "enderio:item_conduit"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -4.0d
 		}
 		{
@@ -788,18 +660,9 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["5F7FAA87FCF5B725"]
-			id: "7950F5A5BA9B36C5"
-			tasks: [{
-				id: "701ACB09C26C3CBC"
-				item: "gtceu:oxygen_bucket"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["2D662EFDE7A39BB8"]
+			description: [""]
+			icon: "gtceu:kinetic_generator"
 			id: "4D79591C84BD1AE5"
 			subtitle: "用这个可以直接发电"
 			tasks: [
@@ -811,7 +674,7 @@
 				{
 					count: 8L
 					id: "78F905F5C27ED906"
-					item: { Count: 8, id: "gtceu:cupronickel_coil_block" }
+					item: "gtceu:cupronickel_coil_block"
 					type: "item"
 				}
 				{
@@ -822,7 +685,7 @@
 				{
 					count: 17L
 					id: "3DAECEEDFD3BCB2F"
-					item: { Count: 17, id: "gtceu:solid_machine_casing" }
+					item: "gtceu:solid_machine_casing"
 					type: "item"
 				}
 				{
@@ -840,124 +703,139 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2D662EFDE7A39BB8"]
-			id: "0FDEA5690076FB16"
+			description: ["闪锌副产"]
+			id: "0F5DE5970F41E7B3"
 			tasks: [{
-				id: "1ADBC7860D6973EB"
+				id: "0620DEC582086F00"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			description: ["砷粉你不必使用雄黄来获取，试试辉钴矿在高炉里的配方吧！"]
+			id: "471F881828CFF6A6"
+			tasks: [{
+				id: "058016E76E3EEE36"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			description: ["你会用到的"]
+			id: "694839D0D1DCEF9A"
+			subtitle: "多看看他们的处理方式"
+			tasks: [
+				{
+					id: "20F48C51E90DF26B"
+					item: "gtceu:raw_cobaltite"
+					type: "item"
+				}
+				{
+					id: "4446B9B891B071A2"
+					item: "gtceu:raw_sphalerite"
+					type: "item"
+				}
+			]
+			title: "让你更加方便获取镓和砷的方法"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			description: ["应力使它变的强大"]
+			id: "13FE0DE58BECC609"
+			subtitle: "让5s的配方变成2.5s"
+			tasks: [{
+				id: "2721F12A855EDEF3"
+				item: "gtceu:lv_kinetic_mixer"
+				type: "item"
+			}]
+			title: "更快的搅拌机"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "4917074451DC7A27"
+			tasks: [{
+				id: "55D1263DC99F6B08"
+				item: "gtceu:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7416F6FF316F0FBD"]
+			id: "503EFF0F1F7B72CB"
+			rewards: [{
+				id: "2936ACEEFAF76401"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			subtitle: "再送你一颗！"
+			tasks: [{
+				id: "77BE1A311A61D5B7"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4759D176E05E3D8C"]
+			id: "7BE6A468603F70A6"
+			tasks: [{
+				id: "5F05C68014960F04"
+				item: "gtceu:flawless_emerald_gem"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "2304A186EDD07CE0"
+			tasks: [{
+				id: "13CE04785BEBD1EE"
+				item: "gtceu:conductive_alloy_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2304A186EDD07CE0"]
+			id: "58E94DF9B0FE8012"
+			subtitle: "LV超导"
+			tasks: [{
+				id: "06FD3C65BAAD729D"
+				item: "gtceu:conductive_alloy_single_wire"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D662EFDE7A39BB8"]
+			id: "2C6FBF2A814BB60D"
+			subtitle: "要先去推植物魔法"
+			tasks: [{
+				id: "621BD7226FA2140E"
 				item: "kubejs:mana_electronic_circuit"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -0.5d
 			y: 5.0d
-		}
-		{
-			dependencies: ["2D662EFDE7A39BB8"]
-			id: "1EF5DF764DD76807"
-			tasks: [{
-				id: "7CC8692CF3BEB9A9"
-				item: "enderio:void_chassis"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1EF5DF764DD76807"]
-			id: "5E3068790236B278"
-			tasks: [{
-				id: "3BF5F16A6F775FD1"
-				item: "enderio:ensouled_chassis"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1EF5DF764DD76807"]
-			id: "3A2DC567647FEEE5"
-			tasks: [{
-				id: "44D26AE61C567622"
-				item: "enderio:impulse_hopper"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1EF5DF764DD76807"]
-			id: "6321F32BF9FC42C1"
-			tasks: [{
-				id: "26CE24BBC87DBB49"
-				item: "enderio:wired_charger"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1EF5DF764DD76807"]
-			id: "22AACE3151B247DB"
-			tasks: [{
-				id: "5570F2D1FF1F1AFE"
-				item: "enderio:drain"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["5E3068790236B278"]
-			id: "0EB79546AFDE3E3A"
-			tasks: [{
-				id: "1C5C76AEC17ECA0B"
-				item: "enderio:slice_and_splice"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.5d
-		}
-		{
-			id: "36A049171B5DC415"
-			subtitle: "怪物头颅请使用屠刀杀死怪物获得，抢夺会增加获得头颅的概率"
-			tasks: [{
-				id: "1661CC410A70B29C"
-				item: "minecraft:zombie_head"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 6.5d
-		}
-		{
-			dependencies: [
-				"0EB79546AFDE3E3A"
-				"36A049171B5DC415"
-			]
-			id: "26B0EF3280579568"
-			tasks: [{
-				id: "5CDC96B466821D3D"
-				item: "enderio:z_logic_controller"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["243693A3F58DDAE0"]
-			id: "47212D95414CF02E"
-			subtitle: "用这个存经验"
-			tasks: [{
-				id: "743D149C34E1AB5A"
-				item: "enderio:experience_rod"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["19869FD9D4BCCB9F"]
-			id: "243693A3F58DDAE0"
+			id: "64FAD8ABEFEF6286"
 			tasks: [{
-				id: "13F1914FA3785B5C"
+				id: "15DED97E76145488"
 				item: "gtceu:energetic_alloy_ingot"
 				type: "item"
 			}]
@@ -965,39 +843,145 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["243693A3F58DDAE0"]
-			id: "6365F1A783980B49"
-			subtitle: "MV超导！"
+			dependencies: ["64FAD8ABEFEF6286"]
+			id: "51175A3A3FCAE14C"
+			subtitle: "MV超导"
 			tasks: [{
-				id: "1ECD7DC0579CDCC6"
+				id: "73ECACAFEEA8918C"
 				item: "gtceu:energetic_alloy_single_wire"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.0d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["38EA7D1DD910DBF5"]
-			id: "5195A2A51062423F"
+			dependencies: ["64FAD8ABEFEF6286"]
+			id: "7FC1C2695C47E314"
 			tasks: [{
-				id: "1445B5EA88C71D2F"
-				item: "gtceu:conductive_alloy_ingot"
+				id: "7C8BAC4F9D3CFEC1"
+				item: "enderio:experience_rod"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.0d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["5195A2A51062423F"]
-			id: "72E89F24D4FDA433"
-			subtitle: "LV超导！"
+			dependencies: ["2D662EFDE7A39BB8"]
+			id: "1F14A82831F5C61B"
 			tasks: [{
-				id: "7F88338B547CDB08"
-				item: "gtceu:conductive_alloy_single_wire"
+				id: "4B73FBB0F178614C"
+				item: "enderio:void_chassis"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.5d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F14A82831F5C61B"]
+			id: "5C8282F7EA8391A8"
+			tasks: [{
+				id: "3ACC5A709A38B258"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1F14A82831F5C61B"]
+			id: "7CEB8E116E3E1F7A"
+			tasks: [{
+				id: "5F349BEC82051FEE"
+				item: "enderio:sag_mill"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"1F14A82831F5C61B"
+				"1CD250F70B566174"
+			]
+			id: "199C34FF316CDB5D"
+			tasks: [{
+				id: "5DBAB9B5128F3AE7"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			id: "1CD250F70B566174"
+			tasks: [{
+				id: "7A77BF39C11C0BF6"
+				item: "gtceu:soularium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["199C34FF316CDB5D"]
+			id: "2072672E99455E02"
+			tasks: [{
+				id: "77DEABF1AD07241C"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["199C34FF316CDB5D"]
+			id: "25F0981E1E4A0E7F"
+			tasks: [{
+				id: "716733C9922E17A0"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["199C34FF316CDB5D"]
+			id: "6908B97B403240A1"
+			tasks: [{
+				id: "612A3FCED08C1E67"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			id: "64B9355875C126ED"
+			tasks: [{
+				id: "56B2EE6B74321BB0"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"64B9355875C126ED"
+				"2072672E99455E02"
+			]
+			id: "66B4B300D2082B7D"
+			tasks: [{
+				id: "4FD1D6871386C5D8"
+				item: "enderio:frank_n_zombie"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
 		}
 	]
 	subtitle: ["工业起步"]

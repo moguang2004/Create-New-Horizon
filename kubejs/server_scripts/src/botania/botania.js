@@ -1,4 +1,78 @@
 ServerEvents.recipes(event => {
+  function mana_infusion(event,input,output,mana){
+    event.custom({
+      "type": "botania:mana_infusion",
+      "input": {
+        "item": input
+      },
+      "mana": mana,
+      "output": {
+        "item": output
+      }
+    })
+  }
+  event.custom({
+    "type": "botania:mana_infusion",
+    "input": {
+      "tag": 'minecraft:wool'
+    },
+    "mana": 3000,
+    "output": {
+      "item": 'cold_sweat:goat_fur'
+    }
+  })
+  //manasteel
+  mana_infusion(event,'minecraft:iron_ingot','botania:manasteel_ingot',3000)
+  mana_infusion(event,'minecraft:iron_block','botania:manasteel_block',27000)
+  mana_infusion(event,'gtceu:resistor','kubejs:mana_resistor',3000)
+  mana_infusion(event,'gtceu:capacitor','kubejs:mana_capacitor',3000)
+  mana_infusion(event,'gtceu:diode','kubejs:mana_diode',4000)
+  mana_infusion(event,'gtceu:transistor','kubejs:mana_transistor',4000)
+  mana_infusion(event,'gtceu:inductor','kubejs:mana_inductor',5000)
+
+  function runic_altar(event,input,output,mana){
+    event.custom({
+      "type": "botania:runic_altar",
+      "ingredients": input.map(item =>{
+        return Item.of(item).toJson()
+      }),
+      "mana": mana,
+      "output": output
+    })
+  }
+  function elven_trade(event,input,output){
+    event.custom({
+      "type": "botania:elven_trade",
+      "ingredients": input.map(item =>{
+        return Item.of(item).toJson()
+      }),
+      "output": Item.of(output).toJson()
+    })
+  }
+  //elvenquartz
+  elven_trade(event,['botania:quartz_mana'],'botania:quartz_elven')
+  //elementiumingot
+  elven_trade(event,['botania:manasteel_ingot','botania:manasteel_ingot'],'botania:elementium_ingot')
+  elven_trade(event,['botania:manasteel_block','botania:manasteel_block'],'botania:elementium_block')
+  elven_trade(event,['kubejs:mana_resistor','kubejs:mana_resistor'],'kubejs:advanced_mana_resistor')
+  elven_trade(event,['kubejs:mana_inductor','kubejs:mana_inductor'],'kubejs:advanced_mana_inductor')
+  elven_trade(event,['kubejs:mana_capacitor','kubejs:mana_capacitor'],'kubejs:advanced_mana_capacitor')
+  elven_trade(event,['kubejs:mana_transistor','kubejs:mana_transistor'],'kubejs:advanced_mana_transistor')
+  elven_trade(event,['kubejs:mana_diode','kubejs:mana_diode'],'kubejs:advanced_mana_diode')
+
+  function terra_plate(event,input,output,mana){
+    event.custom({
+      "type": "botania:terra_plate",
+      "ingredients": input.map(item =>{
+        return Item.of(item).toJson()
+      }),
+      "mana": mana,
+      "result": Item.of(output).toJson()
+    })
+  }
+  //terra_steel
+  terra_plate(event,['botania:manasteel_ingot','botania:mana_pearl','botania:mana_diamond','botania:rune_mana'],'botania:terrasteel_ingot',500000)
+  terra_plate(event,['kubejs:mana_resistor','kubejs:mana_capacitor','kubejs:mana_diode','gtceu:good_electronic_circuit'],'kubejs:mana_electronic_circuit',100000)
   event.custom({
     "type": "botania:runic_altar",
     "ingredients": [
@@ -189,59 +263,6 @@ ServerEvents.recipes(event => {
     .itemInputs(['gtceu:steel_plate', '2x gtceu:steel_screw'])
     .itemOutputs('mythicbotany:rune_holder')
   event.replaceInput({ id: 'botania:mana_spreader' }, 'minecraft:copper_ingot', 'minecraft:dispenser')
-  event.custom({
-    "type": "botania:mana_infusion",
-    "input": {
-      "tag": "minecraft:wool"
-    },
-    "mana": 3000,
-    "output": {
-      "item": "cold_sweat:goat_fur"
-    }
-  })
-  //manasteel
-  event.custom({
-    "type": "botania:mana_infusion",
-    "input": {
-      "item": "minecraft:iron_ingot"
-    },
-    "mana": 3000,
-    "output": {
-      "item": "botania:manasteel_ingot"
-    }
-  })
-  event.custom({
-    "type": "botania:mana_infusion",
-    "input": {
-      "item": "minecraft:iron_block"
-    },
-    "mana": 27000,
-    "output": {
-      "item": "botania:manasteel_block"
-    }
-  })
-  //terra_steel
-  event.custom({
-    "type": "botania:terra_plate",
-    "ingredients": [
-      {
-        "item": "botania:manasteel_ingot"
-      },
-      {
-        "item": "botania:mana_pearl"
-      },
-      {
-        "item": "botania:mana_diamond"
-      },
-      {
-        "item": "botania:rune_mana"
-      }
-    ],
-    "mana": 500000,
-    "result": {
-      "item": "botania:terrasteel_ingot"
-    }
-  })
   //manarune
   event.custom({
     "type": "botania:runic_altar",
@@ -269,53 +290,6 @@ ServerEvents.recipes(event => {
     "output": {
       "item": "botania:rune_mana"
     }
-  })
-  //elvenquartz
-  event.custom({
-    "type": "botania:elven_trade",
-    "ingredients": [
-      {
-        "item": "botania:quartz_mana"
-      }
-    ],
-    "output": [
-      {
-        "item": "botania:quartz_elven"
-      }
-    ]
-  })
-  //elementiumingot
-  event.custom({
-    "type": "botania:elven_trade",
-    "ingredients": [
-      {
-        "item": "botania:manasteel_ingot"
-      },
-      {
-        "item": "botania:manasteel_ingot"
-      }
-    ],
-    "output": [
-      {
-        "item": "botania:elementium_ingot"
-      }
-    ]
-  })
-  event.custom({
-    "type": "botania:elven_trade",
-    "ingredients": [
-      {
-        "item": "botania:manasteel_block"
-      },
-      {
-        "item": "botania:manasteel_block"
-      }
-    ],
-    "output": [
-      {
-        "item": "botania:elementium_block"
-      }
-    ]
   })
   //manaring
   event.shaped(
@@ -728,17 +702,6 @@ ServerEvents.recipes(event => {
         C: "gtceu:terra_steel_ring",
         D: "botania:mana_pearl"
     }).id('botania:natura_pylon')
-  
-  event.custom({
-    "type": "botania:mana_infusion",
-    "input": {
-      "item": "gtceu:good_electronic_circuit"
-    },
-    "mana": 20000,
-    "output": {
-      "item": "kubejs:mana_electronic_circuit"
-    }
-  })
   event.custom({
     "type": "botania:petal_apothecary",
     "ingredients": [
@@ -774,4 +737,18 @@ ServerEvents.recipes(event => {
       "tag": "botania:seed_apothecary_reagent"
     }
   }).id('botania:petal_apothecary/entropinnyum')
+
+  event.custom({
+    "type": "botania:elven_trade",
+    "ingredients": [
+      {
+        "item": "gtceu:advanced_integrated_circuit"
+      }
+    ],
+    "output": [
+      {
+        "item": "kubejs:mana_integrated_circuit"
+      }
+    ]
+  })
 })
