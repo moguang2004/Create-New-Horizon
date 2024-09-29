@@ -1,0 +1,47 @@
+{
+  "name": "感知工具",
+  "icon": "bloodmagic:soulpickaxe",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "事實證明$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知之劍$()是一次巨大的成功。你希望知道其他工具對類似的情況表現如何... $(br2)請注意，這些工具如$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知之劍$()，能夠在鐵砧上使用$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)意志結晶$()進行修復。 $(br2)我們是否有提過感知工具和武器是非常有魅力的?"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "感知之鎬",
+      "recipe": "bloodmagic:soulforge/sentientpickaxe",
+      "text": "這把鎬在意志越高的情況下可以輕鬆地破壞石頭。但在沒有意志的情況下也比$(item)鐵鎬$()略好。然而，只要有足夠的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()，你甚至能夠讓它超越$(item)獄髓鎬$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": " $(item)感知之鐮$()是一種與對應的鐵製工具不太相同的工具。用意志注入它,使它成為一把恐怖的武器，雖然速度緩慢，威力也不如其他武器，但它強大的範圍能使你掌握敵群。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "感知之鐮",
+      "recipe": "bloodmagic:soulforge/sentientscythe",
+      "text": "跟鎬一樣，在沒有意志的情況下也比$(item)鐵鋤$()略好;然而，只要有足夠的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()，你能預見它成為一把毀滅性的工具。$(br)我們有提到它仍然能當鋤頭用嗎?"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "就像$(item)感知之鎬$()，$(item)感知之斧$()與鐵製工具相比有了明顯的改進。此外，它的傷害也得到了顯著的提升，使其成為那些不介意其笨重性質的人的可怕武器。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "感知之斧",
+      "recipe": "bloodmagic:soulforge/sentientaxe",
+      "text": "跟鎬一樣,在沒有意志的情況下也比$(item)鐵斧$()略好;然而，只要有足夠的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()，你甚至能夠讓它超越$(item)獄髓斧$()。"
+    },
+        {
+      "type": "patchouli:text",
+      "text": "就像$(item)感知之鎬$()，$(item)感知之鏟$()與鐵製工具相比有了明顯的改進，就算沒有足夠的$(l:bloodmagic:demon_will/will_manipulation/demon_will)惡魔意志$()提供力量也是。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "感知之鏟",
+      "recipe": "bloodmagic:soulforge/sentientshovel",
+      "text": "跟鎬一樣，在沒有意志的情況下也比$(item)鐵鏟$()略好;然而，只要有足夠的$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()，你甚至能夠讓它超越$(item)獄髓鏟$()。"
+    }
+  ]
+}

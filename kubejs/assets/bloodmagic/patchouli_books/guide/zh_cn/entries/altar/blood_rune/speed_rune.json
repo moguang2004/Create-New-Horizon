@@ -1,0 +1,25 @@
+{
+  "name": "速度符文",
+  "icon": "bloodmagic:speedrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)速度符文$()能增加血祭壇的所有速度。每一個符文都會讓製作速度(以及沒有製作進度時遺失的速度)+20%。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_speed"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_speed_2",
+      "text":"有了一些$(item)遠古遺骸$()和一點從$(l:bloodmagic:dungeons/endless_realm)魔域$()掠奪來的$(item)精密獄火鍛造組件$()，將能夠讓$(item)速度符文$()的能力加倍，每一顆速度符文能夠使速度+40%。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/speed",
+      "text":"如果你改變主意，你可以在鍊金術反應室改變配方。"
+    }
+  ]
+}

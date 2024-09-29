@@ -1,0 +1,21 @@
+{
+  "name": "無盡之路儀式",
+  "icon": "bloodmagic:ingot_hellforged",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "無盡之路儀式",
+      "multiblock_id": "bloodmagic:standard_dungeon",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "standard_dungeon",
+      "text_overrides": [
+        ["Demon Realm", "thing"]
+      ],
+      "text": "請注意，魔域非常危險，請做好萬全準備!"
+    }
+  ]
+}

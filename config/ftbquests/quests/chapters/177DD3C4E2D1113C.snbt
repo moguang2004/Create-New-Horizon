@@ -1106,6 +1106,92 @@
 			x: 30.5d
 			y: 13.5d
 		}
+		{
+			id: "7F792DFB09F432B1"
+			tasks: [
+				{
+					id: "2876022138DC677C"
+					item: "gtceu:tantalite_dust"
+					type: "item"
+				}
+				{
+					id: "4DBB5E3A17BF569D"
+					item: "gtceu:pyrochlore_dust"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7F792DFB09F432B1"]
+			id: "14AB9B14017BC352"
+			tasks: [{
+				id: "5340B3C132875263"
+				item: "gtceu:tantalum_alkaline_mixture_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14AB9B14017BC352"]
+			id: "4B10FB0B906EDFE9"
+			tasks: [{
+				id: "1CBFAFD0D09DC62D"
+				item: "gtceu:tantalite_fluorine_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4B10FB0B906EDFE9"]
+			id: "590B0F868A6CFD1C"
+			tasks: [{
+				id: "55976D68DFD74315"
+				item: "gtceu:niobium_tantalite_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["590B0F868A6CFD1C"]
+			id: "05BF29239D618900"
+			tasks: [
+				{
+					id: "517DAEB54CF44E41"
+					item: "gtceu:tantalite_oxide_dust"
+					type: "item"
+				}
+				{
+					id: "1A2D2564ADC6005B"
+					item: "gtceu:niobium_oxide_dust"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["05BF29239D618900"]
+			id: "02E4E9FEAC444B34"
+			tasks: [
+				{
+					id: "55E40F4B4C2B1DAB"
+					item: "gtceu:tantalum_dust"
+					type: "item"
+				}
+				{
+					id: "4D6E3AAC1B6F8759"
+					item: "gtceu:niobium_dust"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 9.5d
+		}
 	]
 	title: "矿物处理"
 }
