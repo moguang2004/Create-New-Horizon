@@ -18,6 +18,12 @@
 		{
 			dependencies: ["36968F23015BC87A"]
 			id: "773CB6E376B56EA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FB23E8F8AD8B63F"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0391F1C486B61BCE"
 				item: "gtceu:hv_machine_hull"
@@ -29,6 +35,12 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			id: "1639E940E9B78D68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5064B6C3E4B9B2DF"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "61EE80BF89298750"
 				item: "gtceu:distillation_tower"
@@ -40,6 +52,12 @@
 		{
 			dependencies: ["36968F23015BC87A"]
 			id: "22E945CD59D8AF3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "679D3590D31AE709"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "22BD8F5243B4CBD0"
 				item: "gtceu:hv_electric_pump"
@@ -51,6 +69,12 @@
 		{
 			dependencies: ["22E945CD59D8AF3D"]
 			id: "17F0388258A83E1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C2FE31A0B138D3F"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "268FD380F51A8636"
 				item: "gtceu:vacuum_freezer"
@@ -62,6 +86,12 @@
 		{
 			dependencies: ["1639E940E9B78D68"]
 			id: "4D2FAC9783965D60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "498FB260FE645AD1"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7CCB2A5C53D2CDFE"
 				title: "深度石化"
@@ -76,6 +106,12 @@
 				"30A047CA07E56044"
 			]
 			id: "613BDF61BD8CAD08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B142E37830DF423"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "无损超频！"
 			tasks: [{
 				id: "6FD9026EFF3CC78B"
@@ -87,6 +123,12 @@
 		}
 		{
 			id: "30A047CA07E56044"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07C05258B67A0977"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "649A69B8F47729B6"
 				item: "gtceu:polytetrafluoroethylene_bucket"
@@ -98,6 +140,12 @@
 		{
 			dependencies: ["2758CA5AD758482C"]
 			id: "7433DD6519C5D9E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "144A5C038DCEF15E"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "铂系产线的起点"
 			tasks: [{
 				count: 16L
@@ -112,6 +160,12 @@
 		{
 			dependencies: ["36968F23015BC87A"]
 			id: "0FE31211C32BF813"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "140C66398C2C88D0"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3098296863DC6A3E"
 				item: "gtceu:slaughter_house"
@@ -123,6 +177,12 @@
 		{
 			dependencies: ["7433DD6519C5D9E9"]
 			id: "252739AF54D430F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B83B40A7415A9AA"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5BBD12AD739833B5"
 				item: "gtceu:concentrated_platinum_bucket"
@@ -137,6 +197,12 @@
 				"613BDF61BD8CAD08"
 			]
 			id: "75D2EDFB44469AA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AEE85CDB224D16B"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "15653816F3199CEB"
 				item: "gtceu:platinum_raw_dust"
@@ -152,6 +218,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "711DB49F2C74338E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C8DFAFA87EEEC4F"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "64534BF5FD291ED2"
 				item: "gtceu:platinum_ingot"
@@ -163,6 +235,12 @@
 		{
 			dependencies: ["711DB49F2C74338E"]
 			id: "7DBD4E3F9C69B8B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AB365F7A9FE5141"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1C9645915DC7C96B"
 				item: "ad_astra:launch_pad"
@@ -174,6 +252,12 @@
 		{
 			dependencies: ["67553CBF5BACA32D"]
 			id: "082ABAF36B6EC7DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "792CDB7A3BCFB565"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "512BF405101980E3"
 				item: "gtnn:heavy_plate_t1"
@@ -185,6 +269,12 @@
 		{
 			dependencies: ["082ABAF36B6EC7DC"]
 			id: "1330F4F7A3E4C61C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "564ECA74A5816260"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1DAA2AAE86D784F1"
 				item: "gtnn:t1_chip"
@@ -197,6 +287,12 @@
 			description: ["    仔细观察发现，要想获得铂锭，铂系处理需要以谢尔顿矿开始，而谢尔顿矿只存在于外太空中，这样就产生了一个矛盾：&4造火箭需要上太空，上太空需要造火箭&r。这时，机智的你产生了一个想法，&a向外太空发射信号，向天祈求携带着外太空矿石的陨石落下&r，不就解决了这一问题吗？"]
 			hide_dependency_lines: true
 			id: "2758CA5AD758482C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E0AAF4B79B284B1"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "坠星仪式！"
 			tasks: [{
 				id: "7B231156184BDCBE"
@@ -209,6 +305,12 @@
 		{
 			dependencies: ["11F898C7B0C925D5"]
 			id: "1E21F35AB1E1A7ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "275EFC955E0B69D7"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "一堆板板"
 			tasks: [
 				{
@@ -234,6 +336,12 @@
 		{
 			dependencies: ["1E21F35AB1E1A7ED"]
 			id: "67553CBF5BACA32D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7616359F1FF86E4C"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "26702E655DA734BF"
 				item: "gtnn:heavy_ingot_t1"
@@ -248,6 +356,12 @@
 				"1330F4F7A3E4C61C"
 			]
 			id: "66E49577299CA3D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E3FB75D2C75BD5E"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "263B08C2AA57FB8C"
 				item: {
@@ -268,6 +382,12 @@
 				"16243C6CC9C1CD8A"
 			]
 			id: "3123CD3DCE3598C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "376F195B325F19C8"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "这是ad的一小步，却是你的一大步"
@@ -286,6 +406,12 @@
 				"458DB8BA0CA5475B"
 			]
 			id: "1157261D1C6FA682"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08E9A482EABA09FD"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "可以拿来喂内燃)"
 			tasks: [{
 				id: "1609294E625640DE"
@@ -301,6 +427,12 @@
 				"3BE768A7EC37EDED"
 			]
 			id: "609BE0CAB05D3EA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57E1026587CD9F38"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7F4685A43D7F431A"
 				item: "gtceu:dimethylhydrazine_bucket"
@@ -311,6 +443,12 @@
 		}
 		{
 			id: "458DB8BA0CA5475B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05F95BE4CD0D2208"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6BD2C9E30A8023B5"
 				item: "gtceu:dinitrogen_tetroxide_bucket"
@@ -322,6 +460,12 @@
 		{
 			dependencies: ["4D2FAC9783965D60"]
 			id: "560511CB8F74B3C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "301883607EE627EC"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4798B2F78C81692C"
 				item: "gtceu:methanol_bucket"
@@ -333,6 +477,12 @@
 		{
 			dependencies: ["4D2FAC9783965D60"]
 			id: "3BE768A7EC37EDED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C43F650D09F973B"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "204A3D30ABE0B81B"
 				item: "gtceu:hypochlorous_acid_bucket"
@@ -347,6 +497,12 @@
 				"17F0388258A83E1F"
 			]
 			id: "29C2D8D206649CE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75452EB60E2DA3A5"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "你可以更高效的获取稀有气体了"
 			tasks: [{
 				id: "4357D0B40FF23BAF"
@@ -362,6 +518,12 @@
 				"446AA42EB8DCE6EB"
 			]
 			id: "16243C6CC9C1CD8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11101145862F260D"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "可以直接用宇航服左键机器里的氧气"
 			tasks: [
 				{
@@ -435,6 +597,12 @@
 		{
 			dependencies: ["17F0388258A83E1F"]
 			id: "294B6A72EA589606"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "187098C2C741B57C"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "17201AA4DF8EE5ED"
 				item: "gtceu:nichrome_ingot"
@@ -446,6 +614,12 @@
 		{
 			dependencies: ["294B6A72EA589606"]
 			id: "5CF841D44D3A2035"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71BB91E0CC164D51"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "09F1B396D3B9E97B"
@@ -462,6 +636,20 @@
 				"2B5737AFD88F1BA5"
 			]
 			id: "27EF0EE87260585F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A2CD5D177212FD7"
+					table_id: 723892772024061161L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "679E32F96A6CC28C"
+					table_id: 971429564947815603L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "EV时代的重要材料"
@@ -476,6 +664,12 @@
 		{
 			dependencies: ["054DC65B4D479B15"]
 			id: "1EF69C314E045882"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FE9FC079070BF56"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "34B1816F1D7BF64E"
 				item: "gtceu:titanium_tetrachloride_bucket"
@@ -487,6 +681,12 @@
 		{
 			dependencies: ["424772830FBFDBB7"]
 			id: "054DC65B4D479B15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F61E1FA19450BD9"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3FDF09458955286B"
 				item: "gtceu:rutile_dust"
@@ -499,6 +699,12 @@
 			dependencies: ["4DCA7E4E57817E0A"]
 			icon: "gtceu:raw_bauxite"
 			id: "424772830FBFDBB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E7C16D3E8A36447"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [
 				{
 					count: 16L
@@ -526,6 +732,12 @@
 				"&a机械方块&r：允许AE2的频道通过"
 			]
 			id: "1AF8205ECB9C3737"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "337D3529619D0B7C"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0AE81F4C7DA4D736"
 				item: "gtceu:cleanroom"
@@ -537,6 +749,12 @@
 		{
 			dependencies: ["42552E404237FB96"]
 			id: "1327BF0797F9200E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F8C9F9B6D6B5722"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0EC0460E5F53A868"
 				item: "gtceu:mv_circuit_assembler"
@@ -551,6 +769,12 @@
 				"1AF8205ECB9C3737"
 			]
 			id: "607209201C6B08C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E5631CBCC70A984"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "有了这个才可以做EV阶段的机器"
 			tasks: [{
 				id: "528033D7775227C1"
@@ -563,6 +787,12 @@
 		{
 			dependencies: ["252739AF54D430F1"]
 			id: "68ACBAE19E62780E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CA3D0052C0DC45C"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1D6916FA0D29A51C"
 				item: "gtceu:palladium_rich_ammonia_bucket"
@@ -574,6 +804,12 @@
 		{
 			dependencies: ["68ACBAE19E62780E"]
 			id: "51AE7A401FA7C4E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7904909ADBA9C109"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "63229CAAFE44E343"
 				item: "gtceu:palladium_salt_dust"
@@ -585,6 +821,12 @@
 		{
 			dependencies: ["51AE7A401FA7C4E4"]
 			id: "7B455761B190CE9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C5F9728A9B9261E"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0F89204DC551F0F0"
 				item: "gtceu:palladium_metal_dust"
@@ -600,6 +842,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "504C916C6A71A1E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "023019DA2875BA39"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "49C039875921920F"
 				item: "gtceu:palladium_dust"
@@ -611,6 +859,12 @@
 		{
 			dependencies: ["7B455761B190CE9C"]
 			id: "7F34AA0DBB79E313"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F68000CF7059686"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1DD386A52F89F304"
 				item: "gtceu:palladium_raw_dust"
@@ -622,6 +876,12 @@
 		{
 			dependencies: ["252739AF54D430F1"]
 			id: "4CD18247F1C3467B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "038E76FB246F1273"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "11C1CBA5A6716796"
 				item: "gtceu:platinum_slag_dust"
@@ -633,6 +893,12 @@
 		{
 			dependencies: ["4CD18247F1C3467B"]
 			id: "57E7077A02539989"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7135D764805F7626"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "512B606D88C52B38"
 				item: "gtceu:inert_metal_mixture_dust"
@@ -644,6 +910,12 @@
 		{
 			dependencies: ["57E7077A02539989"]
 			id: "46209F2394262EEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D2880C378666187"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "539DEC1506E323F4"
 				item: "gtceu:sodium_rutheniate_dust"
@@ -655,6 +927,12 @@
 		{
 			dependencies: ["46209F2394262EEC"]
 			id: "0B3C5D524F3DD34A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F3C5A0D5740FAF7"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7693CD97E5C2524A"
 				item: "gtceu:ruthenium_tetroxide_bucket"
@@ -666,6 +944,12 @@
 		{
 			dependencies: ["0B3C5D524F3DD34A"]
 			id: "1DFF0FB3681AA9BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C0B5F8DC07243E1"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "492F807AF0714198"
 				item: "gtceu:ruthenium_tetroxide_dust"
@@ -681,6 +965,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "5E6E9A02C455FDB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "256DF0867E5B04BF"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5AA1DCBB554AE1A8"
 				item: "gtceu:ruthenium_dust"
@@ -692,6 +982,12 @@
 		{
 			dependencies: ["4CD18247F1C3467B"]
 			id: "76B28AE888846A6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BA834E2080A0D25"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6A30A12CC5BB170C"
 				item: "gtceu:rhodium_sulfate_bucket"
@@ -703,6 +999,12 @@
 		{
 			dependencies: ["57E7077A02539989"]
 			id: "58DF32A680986279"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6340856C92415FCE"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4A6C7ADE5C30A6A3"
 				item: "gtceu:rarest_metal_mixture_dust"
@@ -714,6 +1016,12 @@
 		{
 			dependencies: ["58DF32A680986279"]
 			id: "60F1F78FB2B30FD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3399302A6B69FF5B"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "30E3F3F1F9A8B7BB"
 				item: "gtceu:acidic_osmium_solution_bucket"
@@ -725,6 +1033,12 @@
 		{
 			dependencies: ["58DF32A680986279"]
 			id: "5E1597F46B29ED41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A060E61918059BB"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1D4DF6B22D2EEC0E"
 				item: "gtceu:iridium_metal_residue_dust"
@@ -736,6 +1050,12 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			id: "071A728A18E21B3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D1DCEEBD5884037"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1A0C4B23A4D6B05C"
 				item: "gtceu:hv_assembler"
@@ -748,6 +1068,12 @@
 			dependencies: ["071A728A18E21B3C"]
 			description: ["贴片二极管需要在获得铂之后才能制作"]
 			id: "1511963A19F70BC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B4017CBA005D352"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "更加方便的贴片材料"
 			tasks: [
 				{
@@ -783,6 +1109,12 @@
 		{
 			dependencies: ["36968F23015BC87A"]
 			id: "2F8F679EAC693ACE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FEBAF5AAB583EFC"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7C4BB2BEF666E930"
@@ -804,6 +1136,12 @@
 				"2F8F679EAC693ACE"
 			]
 			id: "23822AE831A41F5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EED1C832EA7D8D1"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "远程传输神器"
 			tasks: [{
 				id: "2053627AA2187C74"
@@ -819,6 +1157,12 @@
 				"35205D5CBE5A1498"
 			]
 			id: "3A77F81F2F6E792A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65005DB5047BE08D"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "神！"
 			tasks: [{
 				id: "3E805DF6AD913252"
@@ -830,6 +1174,12 @@
 		}
 		{
 			id: "35205D5CBE5A1498"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CCCCC6433882754"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "52D95AAD5D2A429D"
 				item: "kubejs:platinum_metal_catalyst_shard1"
@@ -840,6 +1190,12 @@
 		}
 		{
 			id: "6F12F4AE6F3F9007"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5426445F05DAB0CC"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4E5D92FC91DF2EF4"
 				item: "kubejs:platinum_metal_catalyst_shard2"
@@ -852,6 +1208,12 @@
 			dependencies: ["773CB6E376B56EA4"]
 			hide_dependency_lines: true
 			id: "2693AB1D8C40E181"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19CD9EED59B8DB42"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "有了这机器，你的催化剂才有用"
 			tasks: [{
 				id: "1CAD59C11FB75991"
@@ -864,6 +1226,12 @@
 		{
 			dependencies: ["36968F23015BC87A"]
 			id: "25DAE6D032C050D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60DC0411E75A3FA1"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "是时候缓解主世界工业区的帧数压力了"
 			tasks: [{
 				id: "20A0E9B6A5B2D2F0"
@@ -876,6 +1244,12 @@
 		{
 			id: "3A0D1B6A8BB681C8"
 			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38D2ADD4A94121A8"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "跳过任务线"
 			tasks: [{
 				count: 64L
@@ -890,6 +1264,12 @@
 		{
 			id: "2D0E2C949FAD45B3"
 			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "558D42DA70EBBB95"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "跳过任务线"
 			tasks: [{
 				count: 64L
@@ -904,6 +1284,12 @@
 		{
 			id: "2CF0374F90D4B470"
 			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FFAB8C282FBA461"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "跳过任务线"
 			tasks: [{
 				count: 64L
@@ -918,6 +1304,12 @@
 		{
 			dependencies: ["76B28AE888846A6D"]
 			id: "620105BA92638E7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18CE4DB069BAFA51"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6DF051A140DC5B62"
 				item: "gtceu:roughly_rhodium_metal_dust"
@@ -929,6 +1321,12 @@
 		{
 			dependencies: ["620105BA92638E7F"]
 			id: "1CF6C93AA8763E6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20702CB03647FE8A"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6261500D6BC773F1"
 				item: "gtceu:rhodium_salt_dust"
@@ -940,6 +1338,12 @@
 		{
 			dependencies: ["1CF6C93AA8763E6F"]
 			id: "7C6C4AAF05BA4C32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10E9D291F65F95D4"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "55E4C75B0EF4A201"
 				item: "gtceu:rhodium_salt_bucket"
@@ -950,6 +1354,12 @@
 		}
 		{
 			id: "6C00521117DF2F34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49B379623DAC7E89"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7D3C94E8656C6949"
@@ -969,6 +1379,12 @@
 		{
 			dependencies: ["7C6C4AAF05BA4C32"]
 			id: "7D43208EB21CE1EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5414A004C4C545A8"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1799CD7280FFA2CC"
 				item: "gtceu:rhodium_nitrate_dust"
@@ -980,6 +1396,12 @@
 		{
 			dependencies: ["7D43208EB21CE1EB"]
 			id: "1E8FCEBCD0B9052C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E9F101ED58A71B0"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4319479FACE89CA9"
 				item: "gtceu:rhodium_filter_cake_dust"
@@ -991,6 +1413,12 @@
 		{
 			dependencies: ["1E8FCEBCD0B9052C"]
 			id: "29DEADCF9B660111"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B383074A3A83290"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3F083119A6A3279F"
 				item: "gtceu:rhodium_filter_cake_bucket"
@@ -1002,6 +1430,12 @@
 		{
 			dependencies: ["29DEADCF9B660111"]
 			id: "3E387FE21BE8CB34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75ACEFA382266120"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5CC0403C9B1B7CA4"
 				item: "gtceu:reprecipitated_rhodium_dust"
@@ -1017,6 +1451,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "4FA7ECD35E694D1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11DD8E89B4749AC3"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "73823B8F7C95F40E"
 				item: "gtceu:rhodium_dust"
@@ -1028,6 +1468,12 @@
 		{
 			id: "06D3380949C950AB"
 			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "520A2B25ED36E937"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "跳过任务线"
 			tasks: [{
 				count: 64L
@@ -1042,6 +1488,12 @@
 		{
 			dependencies: ["60F1F78FB2B30FD2"]
 			id: "192D6140DE51D498"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53A3A78963833E7E"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "404CA996D36E68A0"
 				item: "gtceu:osmium_tetroxide_bucket"
@@ -1057,6 +1509,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "4A412A967394C59E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35AC855E9F5CEA24"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "229568711AA50343"
 				item: "gtceu:osmium_dust"
@@ -1068,6 +1526,12 @@
 		{
 			dependencies: ["5E1597F46B29ED41"]
 			id: "4952DF3543D61F75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28AAEC66A7693BAC"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5D5B9C56EE231127"
 				item: "gtceu:iridium_dioxide_dust"
@@ -1079,6 +1543,12 @@
 		{
 			dependencies: ["4952DF3543D61F75"]
 			id: "53CB72F3D1CFC988"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51F5EF4092773D50"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0819BE20ABD3B68C"
 				item: "gtceu:acidic_iridium_bucket"
@@ -1090,6 +1560,12 @@
 		{
 			dependencies: ["53CB72F3D1CFC988"]
 			id: "10485A3F097F8879"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22CF6A4E51BB37AC"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "24D1DF3F77D16937"
 				item: "gtceu:iridium_chloride_dust"
@@ -1105,6 +1581,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "401CC51AA97A3DD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12E3D57C68412003"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0BCC999357AC989F"
 				item: "gtceu:iridium_dust"
@@ -1116,6 +1598,12 @@
 		{
 			id: "68D549689E87C106"
 			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C7DD78FDDDB7363"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "跳过任务线"
 			tasks: [{
 				count: 16L
@@ -1129,6 +1617,12 @@
 		}
 		{
 			id: "2B5737AFD88F1BA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D35BAF9C1A3CCA1"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6C8CC7F6A0FE5E49"
 				item: "gtceu:magnesium_dust"
@@ -1140,6 +1634,12 @@
 		{
 			dependencies: ["607209201C6B08C3"]
 			id: "41633F254B076032"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "534094A42CC24298"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4447FA222C6D9EFA"
 				item: "gtceu:hv_circuit_assembler"
@@ -1151,6 +1651,12 @@
 		{
 			dependencies: ["41633F254B076032"]
 			id: "216D57DF2B38AB9D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27981331DC69E52B"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "你的第一种IV电路！"
 			tasks: [{
 				id: "18213736BD2BD5B2"
@@ -1166,6 +1672,12 @@
 				"773CB6E376B56EA4"
 			]
 			id: "0EDC06CD857700E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29274682F5288B1C"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "更快！"
 			tasks: [{
 				id: "651C46324F640F54"
@@ -1178,6 +1690,12 @@
 		{
 			dependencies: ["1A760D451E9D23B0"]
 			id: "2BDF8762C9C51323"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EB89604CFB96FB8"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "02689251EA9A927F"
 				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
@@ -1189,6 +1707,12 @@
 		{
 			dependencies: ["2BDF8762C9C51323"]
 			id: "7B95329450AC6EA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ECBF32706E803F8"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3616E655B0889CB3"
 				item: "gtceu:hv_field_generator"
@@ -1204,6 +1728,12 @@
 				"147567E48E8786C3"
 			]
 			id: "399A7EA8DD295894"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "522BA9588AF401C7"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7989E57F45477E1D"
 				item: "gtceu:mpic_wafer"
@@ -1215,6 +1745,12 @@
 		{
 			id: "7CD360494125BA99"
 			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33009A6EA048A2B2"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "跳过任务线"
 			tasks: [{
 				count: 16L
@@ -1229,6 +1765,12 @@
 		{
 			dependencies: ["399A7EA8DD295894"]
 			id: "00497F96E769342D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "665C3962BECE27A1"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1316DBC3BF0665E6"
 				item: "gtceu:hv_energy_input_hatch"
@@ -1240,6 +1782,12 @@
 		{
 			dependencies: ["29C2D8D206649CE5"]
 			id: "1AC10AB1A12AC305"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F1697A39603B7C2"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3E7767296FC43638"
 				item: "gtceu:helium_bucket"
@@ -1251,6 +1799,12 @@
 		{
 			dependencies: ["29C2D8D206649CE5"]
 			id: "1C78C76493D97559"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A77F67237EBA979"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "788EF6AF08D5D7FB"
 				item: "gtceu:argon_bucket"
@@ -1262,6 +1816,12 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			id: "147567E48E8786C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E5FF0DAB124150B"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0D3F5432587823A0"
 				item: "gtceu:hv_cutter"
@@ -1278,6 +1838,12 @@
 				"04CED50A5D7434CE"
 			]
 			id: "446AA42EB8DCE6EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "461FADF84E7D369B"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3E81E8A2C38E6E7E"
 				item: "kubejs:space_fabric"
@@ -1292,6 +1858,12 @@
 				"08AE2ABB1248EB22"
 			]
 			id: "3786456D98520C42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00945A045EE9D79A"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "22AC674057BF66B0"
 				item: "gtceu:polyphenylene_sulfide_foil"
@@ -1306,6 +1878,12 @@
 				"4621D3570BFF6D64"
 			]
 			id: "04CED50A5D7434CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68B154A01F933155"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5562405A7AECDC91"
 				item: "gtceu:para_aramid_foil"
@@ -1318,6 +1896,12 @@
 			dependencies: ["30A047CA07E56044"]
 			hide_dependency_lines: true
 			id: "11091A0414B528CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "395995C8A5989028"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2374F1C8986BC29E"
 				item: "gtceu:polytetrafluoroethylene_foil"
@@ -1332,6 +1916,12 @@
 				"2ABB6571FA2367C6"
 			]
 			id: "27BE8B7164A2DA98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21F599E781812F2B"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3D2FCC1351DDBFC9"
 				item: "gtceu:fiber_glass_dust"
@@ -1342,6 +1932,12 @@
 		}
 		{
 			id: "521AD580276AA163"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AD9D4592CAAF7B7"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1419637BB2F4FB56"
 				item: "gtceu:sodium_sulfide_dust"
@@ -1353,6 +1949,12 @@
 		{
 			dependencies: ["312CE58D48ED99C9"]
 			id: "08AE2ABB1248EB22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "434135F1C0DF67C5"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1895E959568ECA8B"
 				item: "gtceu:dichlorobenzene_bucket"
@@ -1363,6 +1965,12 @@
 		}
 		{
 			id: "312CE58D48ED99C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61C00E2FC3664826"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "27DF26BB2BF7CBC5"
 				item: "gtceu:chlorobenzene_bucket"
@@ -1374,6 +1982,12 @@
 		{
 			dependencies: ["312CE58D48ED99C9"]
 			id: "33C93E0396AC7FB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BB995EB309B8A41"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3B558202A4D425C6"
 				item: "gtceu:nitrochlorobenzene_bucket"
@@ -1385,6 +1999,12 @@
 		{
 			dependencies: ["33C93E0396AC7FB8"]
 			id: "0A4C17D588D4AF75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04551F73927F3AEE"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "42111C45478AFC03"
 				item: "gtceu:nitroaniline_bucket"
@@ -1396,6 +2016,12 @@
 		{
 			dependencies: ["0A4C17D588D4AF75"]
 			id: "4621D3570BFF6D64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04CF6129DC6F1BBD"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "61EC0F1DE9649A04"
 				item: "gtceu:para_phenylenediamine_bucket"
@@ -1410,6 +2036,12 @@
 				"02A401319503567F"
 			]
 			id: "103CE9721B2403ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3688D0F37C13132D"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6582754DFDF4A52C"
 				item: "gtceu:terephthaloyl_chloride_bucket"
@@ -1424,6 +2056,12 @@
 				"5D6BCE252E30AFF0"
 			]
 			id: "02A401319503567F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F83C420996D405A"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "65E25262DBF3EF41"
 				item: "gtceu:terephthalic_acid_bucket"
@@ -1435,6 +2073,12 @@
 		{
 			dependencies: ["5D6BCE252E30AFF0"]
 			id: "47200B176AC31800"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12E5AA185821C830"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "46F27DFA61DD6729"
 				item: "gtceu:bis_trichloromethyl_benzene_bucket"
@@ -1445,6 +2089,12 @@
 		}
 		{
 			id: "5D6BCE252E30AFF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "554DC88996F74263"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "11F441A732DE47A7"
 				item: "gtceu:dimethylbenzene_bucket"
@@ -1455,6 +2105,12 @@
 		}
 		{
 			id: "6A2ECBA15C3DCCCF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04E4D34C359CF406"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "不需要很多"
 			tasks: [{
 				id: "7EE96913B6D55662"
@@ -1466,6 +2122,12 @@
 		}
 		{
 			id: "5E4D6306680A9D9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EE931E9E90BC8CB"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7D7742F002F95B4B"
 				item: "gtceu:glass_bucket"
@@ -1476,6 +2138,12 @@
 		}
 		{
 			id: "2ABB6571FA2367C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18946CB2C8F0A76A"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3243B547769F4204"
 				item: "gtceu:cellulose_dust"
