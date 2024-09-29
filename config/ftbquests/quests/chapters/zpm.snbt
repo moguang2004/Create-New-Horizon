@@ -6,7 +6,26 @@
 	icon: "gtceu:zpm_machine_hull"
 	id: "0D2BCB08A8E3B485"
 	order_index: 6
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [{
+		id: "2AB47F025A168891"
+		linked_quest: "29086C6A9A5FA58E"
+		shape: "rsquare"
+		size: 1.5d
+		x: -4.0d
+		y: 0.5d
+	}]
+	quests: [{
+		dependencies: ["29086C6A9A5FA58E"]
+		id: "07D0FD2AC4C767B2"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "6B9EF7A18ADE73D7"
+			item: "gtceu:zpm_machine_hull"
+			type: "item"
+		}]
+		x: -0.5d
+		y: 0.5d
+	}]
 	title: "&cZPM&r时期"
 }

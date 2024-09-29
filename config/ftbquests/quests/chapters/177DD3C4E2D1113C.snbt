@@ -27,7 +27,12 @@
 	}
 	id: "07118DAC24E83AB7"
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "42CACCBAE0D1508D"
+		linked_quest: "7F8E09E8CB718C64"
+		x: 28.5d
+		y: 11.5d
+	}]
 	quests: [
 		{
 			id: "7BF6145D39DCD926"
@@ -818,6 +823,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["1B42116566009D69"]
 			id: "311E3575421537D5"
 			tasks: [{
 				id: "6ECEC2FB84261514"
@@ -828,6 +834,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["3BBF96E8CFC2B837"]
 			id: "6CB97E1AD7A6E668"
 			tasks: [{
 				id: "520DD82A1D1FEEB0"
@@ -848,6 +855,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["067C5E010500E27A"]
 			id: "456C0E6B96A1FA08"
 			tasks: [{
 				id: "53C093BE2447AE95"
@@ -858,6 +866,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["311E3575421537D5"]
 			id: "3105F1034CE396DE"
 			tasks: [{
 				id: "377E590B415EC4DA"
@@ -868,19 +877,17 @@
 			y: -0.5d
 		}
 		{
-			id: "0DDCA34CA9EE8352"
-			tasks: [
-				{
-					id: "6D4F5CF659DEEFD8"
-					item: "gtceu:impure_enriched_naquadah_solution_bucket"
-					type: "item"
-				}
-				{
-					id: "75EEEEBAE623E450"
-					item: "gtceu:impure_naquadria_solution_bucket"
-					type: "item"
-				}
+			dependencies: [
+				"6CB97E1AD7A6E668"
+				"3105F1034CE396DE"
 			]
+			dependency_requirement: "one_completed"
+			id: "0DDCA34CA9EE8352"
+			tasks: [{
+				id: "6D4F5CF659DEEFD8"
+				item: "gtceu:impure_enriched_naquadah_solution_bucket"
+				type: "item"
+			}]
 			x: 29.5d
 			y: -0.5d
 		}
@@ -895,6 +902,11 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"3105F1034CE396DE"
+				"0DDCA34CA9EE8352"
+			]
+			dependency_requirement: "one_completed"
 			id: "3020D6D5BA6748B8"
 			tasks: [{
 				id: "3F1265354646B23B"
@@ -905,6 +917,10 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"51DA4093C8BA8D61"
+				"292693CDD6C146A4"
+			]
 			id: "0459A15C78E34DFF"
 			tasks: [{
 				id: "30816EFA438F57A2"
@@ -915,6 +931,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["3020D6D5BA6748B8"]
 			id: "44DF62D8F87E1E98"
 			tasks: [{
 				id: "68B4CC9FEFC53CA6"
@@ -925,6 +942,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["44DF62D8F87E1E98"]
 			id: "6C3126410D93801D"
 			tasks: [{
 				id: "2305C67C14E84DC1"
@@ -935,6 +953,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["6C3126410D93801D"]
 			id: "0D20629FA261446E"
 			tasks: [{
 				id: "3C030314D585A1A0"
@@ -945,6 +964,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["0D20629FA261446E"]
 			id: "5A941BB7E8160424"
 			tasks: [{
 				id: "3AE92F3A81A20813"
@@ -955,6 +975,10 @@
 			y: 9.5d
 		}
 		{
+			dependencies: [
+				"2B9B3F5FB6BAACA2"
+				"0459A15C78E34DFF"
+			]
 			id: "3DA61E6A0C90CA6F"
 			tasks: [{
 				id: "37FBC744941BF8C5"
@@ -965,6 +989,10 @@
 			y: 3.5d
 		}
 		{
+			dependencies: [
+				"3F2400EB1CD5A860"
+				"3DA61E6A0C90CA6F"
+			]
 			id: "5A69B2E18A793DDD"
 			tasks: [{
 				id: "112082BB32E6F673"
@@ -975,6 +1003,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["5A69B2E18A793DDD"]
 			id: "79B8857F83BEE080"
 			tasks: [{
 				id: "1A636196CAE8B93C"
@@ -985,6 +1014,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["79B8857F83BEE080"]
 			id: "5AAAB678E3FE0422"
 			tasks: [{
 				id: "10255CC7729BE8D8"
@@ -995,6 +1025,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["5AAAB678E3FE0422"]
 			id: "7BF2670153067B67"
 			tasks: [{
 				id: "6B8F3DFB98C6F147"
@@ -1026,13 +1057,54 @@
 		}
 		{
 			id: "0F974358320FEC16"
+			subtitle: "推荐用富集硅岩"
 			tasks: [{
 				id: "04D6DF59C6B92247"
 				title: "可以看看硅岩发电"
 				type: "checkmark"
 			}]
+			x: 34.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"456C0E6B96A1FA08"
+				"3105F1034CE396DE"
+			]
+			dependency_requirement: "one_completed"
+			id: "292693CDD6C146A4"
+			tasks: [{
+				id: "2C6E7389FC030183"
+				item: "gtceu:impure_naquadria_solution_bucket"
+				type: "item"
+			}]
 			x: 31.5d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"44DF62D8F87E1E98"
+				"0DA6DBCC41828D80"
+			]
+			id: "1F24CDB4B265DAE8"
+			tasks: [{
+				id: "7E6DA58B61134C92"
+				item: "gtceu:trinium_sulfide_dust"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BF2670153067B67"]
+			id: "17C2021BD6930162"
+			tasks: [{
+				id: "551E275A1D543EBA"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 13.5d
 		}
 	]
 	title: "矿物处理"
