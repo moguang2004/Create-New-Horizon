@@ -6,10 +6,15 @@
 	icon: "kubejs:steel_casing"
 	id: "08AF6857D150C353"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "793AA9FA1B76D96F"
+		linked_quest: "1162E347E7C00175"
+		x: -1.5d
+		y: -4.5d
+	}]
 	quests: [
 		{
-			dependencies: ["2534B56E45BA42B0"]
+			dependencies: ["1162E347E7C00175"]
 			icon: "kubejs:steel_mechanism"
 			icon_scale: 1.3d
 			id: "7D76859D3E40A235"
@@ -104,7 +109,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2534B56E45BA42B0"]
+			dependencies: ["1162E347E7C00175"]
 			id: "71D83506BCD67EF2"
 			tasks: [{
 				id: "11FD7557A981B8FA"
@@ -129,7 +134,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2534B56E45BA42B0"]
+			dependencies: ["1162E347E7C00175"]
 			id: "2C6B53F9425ACB79"
 			tasks: [{
 				id: "1D13E54D6C41BBF7"
@@ -179,7 +184,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["2534B56E45BA42B0"]
+			dependencies: ["1162E347E7C00175"]
 			id: "1E11A492F4576DBA"
 			rewards: [{
 				command: "/gamephase add @p nether"
@@ -506,16 +511,6 @@
 			y: 0.0d
 		}
 		{
-			id: "2534B56E45BA42B0"
-			tasks: [{
-				id: "33BAE42A3FDE47CE"
-				item: "gtceu:steel_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -4.5d
-		}
-		{
 			dependencies: [
 				"5CF2A3DF0B2E6729"
 				"77EA82987E62F815"
@@ -583,7 +578,7 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: -2.0d
 		}
 		{
@@ -658,7 +653,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2534B56E45BA42B0"]
+			dependencies: ["1162E347E7C00175"]
 			description: ["但是效率孰高孰低呢？"]
 			id: "77EA82987E62F815"
 			subtitle: "有些机器可以用多方块结构形式进行“升级”"
@@ -776,6 +771,7 @@
 				"680EE95FED0F46F5"
 				"24A3BEAC1C62DFEC"
 			]
+			dependency_requirement: "one_completed"
 			description: ["    越高级的磁铁发电的效率越高（也就是相同应力转化为RF的电量更多）"]
 			id: "2D9F762371DEDF70"
 			subtitle: "磁生电"
@@ -834,6 +830,28 @@
 			}]
 			x: 5.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["6C2A870EFAAABF9B"]
+			id: "3CE44C92D46BC8B7"
+			tasks: [{
+				id: "456E7121C0BC8ECC"
+				item: "gtceu:steam_pressor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0798C9DDF9DCB4C0"]
+			id: "1D3AA038D2B96869"
+			tasks: [{
+				id: "724399AE6BA8F11C"
+				item: "gtceu:steam_foundry"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
 		}
 	]
 	title: "钢铁时代"

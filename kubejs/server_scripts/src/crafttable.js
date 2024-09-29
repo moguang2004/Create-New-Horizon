@@ -906,7 +906,7 @@ ServerEvents.recipes(event => {
             "BAB",
             "BBB"
         ], {
-            A: Item.of("gtceu:data_stick").strongNBT(),
+            A: "gtceu:data_stick",
             B: item,
         })
     }
