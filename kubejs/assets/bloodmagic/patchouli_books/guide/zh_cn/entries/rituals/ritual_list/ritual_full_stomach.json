@@ -1,0 +1,27 @@
+{
+  "name": "飽足儀式",
+  "icon": "minecraft:cake",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "飽足儀式",
+      "multiblock_id": "bloodmagic:full_stomach",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "full_stomach"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "full_stomach",
+      "page_type": "fillRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "full_stomach",
+      "page_type": "chest"
+    }
+  ]
+}

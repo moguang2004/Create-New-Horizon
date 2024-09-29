@@ -1,4 +1,6 @@
 {
+    "message.kubejs.debug": "§4验证开发者用户信息中§r\n§a身份正确§r\n§4欢迎回来!%s§r",
+    "message.kubejs.conventcommand": "§6潜行+右键§r获取物品ID\n输入§6-kli§r删除所有掉落物\n输入§6-efg§r获得[夜视 力量 抗性]buff\n输入§6-efc§r清除自身所有buff",
     "item.kubejs.basic_mechanism": "基础构件",
     "item.kubejs.treated_clay_ball": "处理粘土",
     "item.kubejs.temperature_keeping_device": "体温维持器",

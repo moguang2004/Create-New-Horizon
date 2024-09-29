@@ -2,6 +2,14 @@
   "bookGuiScale": 0,
   "clickedVisualize": true,
   "bookData": {
+    "betterend:guidebook": {
+      "viewedEntries": [
+        "betterend:rituals/eternal_ritual",
+        "betterend:rituals/infusion_ritual"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "apotheosis:apoth_chronicle": {
       "viewedEntries": [
         "apotheosis:adventure/attributes/armor",
@@ -96,7 +104,10 @@
         "bloodmagic:demon_will/will_manipulation/aura",
         "bloodmagic:alchemy_array/functional_arrays/time_arrays",
         "bloodmagic:altar/slates",
-        "bloodmagic:utility/life_essence_bucket"
+        "bloodmagic:utility/life_essence_bucket",
+        "bloodmagic:altar/blood_rune/sacrifice_rune",
+        "bloodmagic:altar/redstone_automation",
+        "bloodmagic:alchemy_array/functional_arrays/movement_arrays"
       ],
       "bookmarks": [],
       "completedManualQuests": []

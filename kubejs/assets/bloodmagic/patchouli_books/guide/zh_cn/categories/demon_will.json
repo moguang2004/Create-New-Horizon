@@ -1,0 +1,6 @@
+{
+  "name": "惡魔意志",
+  "description": "$(item)惡魔意志$()你可以使用$(blood)Blood Magic 3$()來創造的第一批物品之一。當你使用$(l:bloodmagic:demon_will/will_manipulation/soul_snare)靈魂掠奪者$()蒐集了一些，你就能夠製作$(l:bloodmagic:demon_will/will_manipulation/soul_gem)微小地獄魂石$()和$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知之劍$(/l)$()。",
+  "icon": "bloodmagic:basemonstersoul",
+  "sortnum": 3
+}

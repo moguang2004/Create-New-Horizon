@@ -1,0 +1,24 @@
+{
+  "name": "儀式調整器",
+  "icon": "bloodmagic:ritualtinkerer",
+  "category": "bloodmagic:rituals",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)儀式調整器$()是每個想從$(thing)儀式$()得到所有一切的高階鍊金術士的必備工具。有三種主要用途，如下所述。你可以透過按下[$(k:sneak)]以及[$(k:use)]循環切換。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:ritual_reader"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)資訊:描述了$(thing)儀式$()的功能，類似於$(l:bloodmagic:rituals/ritual_diviner)儀式占卜杖$()。$(li)設定消耗意志:告訴$(thing)儀式$()消耗哪種任何來自$(l:bloodmagic:demon_will/will_manipulation/aura)靈氣$()中的$(raw)惡魔意志$()(如果有)。在快捷欄上擺上$(item)惡魔意志水晶$()，最好戴上你想讓$(thing)儀式$()所使用的每種$(raw)意志$()類型。更多關於在$(thing)儀式$()上消耗$(raw)惡魔意志$()的資訊可以在本書中的$(thing)儀式$()類別中找到。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)定義範圍:指定$(thing)儀式$()應該作用的範圍，並顯示當前區域。如果需要指定多個區域，對著$(item)主儀式石$()按下[$(k:sneak)]以及[$(k:use)]循環切換。某些$(thing)儀式$()可以擴展到遠遠超越預設區域，但請注意，這將會增加消耗的$(blood)LP$()..."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "岩漿水晶",
+  "icon": "bloodmagic:lavacrystal",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)岩漿水晶$()是良好的岩漿來源。使用你的$(l:bloodmagic:altar/soul_network)靈魂網路$()製造$(fire)岩漿$()，你有信心，它永遠不會熄滅。$(br2)當你看像任何方塊並按下[$(k:use)]將會消耗100LP，並點燃方塊。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:lava_crystal",
+      "text": "$(br)此外，你能夠將它放入$(item)熔爐$()，透過消耗50LP燃燒10秒，或足夠長的時間來燃燒一件物品，作為永無止境的$(thing)燃料來源$()。"
+    }
+  ]
+}

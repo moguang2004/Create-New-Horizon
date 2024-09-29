@@ -1,0 +1,16 @@
+{
+  "name": "束靈裝備升級",
+  "icon": "bloodmagic:upgradetome",
+  "priority": true,
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在穿著這套鎧甲時，你已經感受得到它在成長，試圖協助你完成它所看到的任何任物。 $(br2)它似乎能在某些領域發揮作用，但它的增長是有限的，而且試圖做所有事情是相當沒有意義的。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "也許有許多專用的套裝是個好注意?當然，如果你想得到的不是半斤八量的能力，你就必續好好訓練它。$(br2)幸運的是，你已經設計出了一種$(l:rituals/ritual_list/ritual_upgrade_remove)儀式$()協助進行訓練，以及$(l:rituals/ritual_list/ritual_armour_evolve)另一個$()將會使你的鎧甲具有更強大的成長能力。"
+    }
+  ]
+}

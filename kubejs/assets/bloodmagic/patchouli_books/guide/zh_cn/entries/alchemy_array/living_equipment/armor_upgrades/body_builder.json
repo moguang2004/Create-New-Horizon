@@ -1,0 +1,15 @@
+{
+  "name": "建築工身軀",
+  "icon": "minecraft:cooked_beef",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果:給予抗擊打能力和額外的生命值。上限為100%的抵抗力和10顆半心。 $(br2)訓練:食用食物。$(br2)最高等級: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:knockback_resist"
+    }
+  ]
+}

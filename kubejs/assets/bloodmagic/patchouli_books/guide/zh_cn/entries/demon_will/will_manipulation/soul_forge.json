@@ -1,0 +1,15 @@
+{
+  "name": "獄火鍛造爐",
+  "icon": "bloodmagic:soulforge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)獄火鍛造爐$()是$(blood)Blood Magic$()的核心製作設備之一，與$(l:bloodmagic:altar/blood_altar)血祭壇$(/l)地位相同。在此，你能夠使用從生物中獲得的$(l:bloodmagic:demon_will/will_manipulation/demon_will)惡魔意志$()使其運作，以便讓你鍛造$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$()，包含$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知之劍$()， $(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()，各類$(item)試劑$()，$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奧術灰燼$()，以及諸多物品。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:soul_forge"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "風之印記",
+  "icon": "bloodmagic:airsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "將你拋向你所面對的方向，代價為每次使用$(blood)50 LP$()。請注意這並沒有提供任何輕盈效果，所以著陸時請小心!這是一個快速移動的好方法，盡管有一定的風險。許多術士都是因為用完了$(l:bloodmagic:altar/soul_network)靈魂網路$()中的$(blood)LP$()而他們正好飛在村莊上空時墜落。"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "風之試劑",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_air",
+      "array.heading": "風之印記",
+      "array.recipe": "bloodmagic:array/airsigil",
+      "array.text": "$(italic)我感覺很輕鬆...$()"
+    }
+  ]
+}

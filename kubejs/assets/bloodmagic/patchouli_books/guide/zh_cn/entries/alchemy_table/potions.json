@@ -1,0 +1,106 @@
+{
+  "name": "藥水製作",
+  "icon": "bloodmagic:alchemy_flask",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)藥水製作$()的基礎知識，在這片土地上，所有的人都知道。即使是普通的神父，巫師都能夠掌握釀造的基礎知識 - 拿著一些稀有的素材，以正確的比例混合，然後將產物吃掉(如果需要可以捏著鼻子)，或者將它扔向你的敵人。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "添加$(blood)生命精華$() 以及一些血腥的物品可以使你加速過程，然而。 $(br2)透過你的力量進行灌注 $(item)玻璃瓶$()， 你可以容納的液體不只一瓶，並且可以使用各種 $(item)催化劑$() 你可以組合出任何你想要的效果在一個瓶中，它們並不會因為這樣混合而抵銷效果。"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "鍊金瓶",
+      "recipe": "bloodmagic:altar/alchemy_flask",
+      "text": "一個堅固的瓶子，其容量遠遠超越普通的瓶子!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "當然，作為一個瓶子，無論多麼先進，如果沒有東西填滿它，都是沒有任何用處的。 $(br2)除了所有綜所皆知的$(thing)效果$()例如$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/water_breathing)水中呼吸$()，$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/regeneration)再生$()，或是$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)夜視$()，我們還擁有其他各種更專業的配方，例如$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)飛行$()，$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)黑曜石斗篷$()，或者甚至是$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)被動$()這些藥水以及更多資訊都記載在書中。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:alchemy_flask",
+      "text": "一但你使用完了任何一種鍊金瓶，你只需要將其洗過，並重新加水，就能夠得到跟全新一樣的瓶子。 $(br2)鍊金瓶也有對應的$(thing)飛濺$()或是$(thing)滯留藥水$()。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "飛濺鍊金瓶",
+      "a.recipe": "bloodmagic:flask/flask_splash",
+      "b.heading": "滯留鍊金瓶",
+      "b.recipe": "bloodmagic:flask/flask_lingering",
+      "text": "$(br2)鍊金瓶也有對應的$(thing)飛濺$()或是$(thing)滯留藥水$()，如上圖所示。 "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你可能還記得我提到過，能夠使多種$(thing)效果$()混合在單一$(item)鍊金瓶$()中。幸運的是，這個過程非常簡單。只需要釀造其中一種藥水，並在第二次釀造時，用鍊金瓶代替玻璃瓶即可。例如，如果你做了一個$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)彈性$()鍊金瓶，然後拿著它並將它作為成分混合到$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)夜視$()的釀造過程中，你最終將會得到一個8次劑量的鍊金瓶，並且每喝一口將為你帶來$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)彈性$()及$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)夜視$()效果!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "接下來，我們有$(item)催化劑$()。有幾種催化劑，各有不同的效果，所以讓我們從最簡單的三個開始 - $(item)簡易催化劑$()，$(item)小型增強催化劑$()，以及$(item)小型延長催化劑$()。其中，第一個是最直接的 - 它為所有的鍊金藥提供基底，就像$(item)地獄疙瘩$()為藥水做的一樣。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "簡易催化劑",
+      "recipe": "bloodmagic:alchemytable/simple_catalyst",
+      "text": "幾乎是任何效果的良好基礎，做好量產準備，你會需要很多這樣的物品。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "小型增強催化劑",
+      "recipe": "bloodmagic:alchemytable/mundane_power",
+      "text": "增強催化劑加強了最上層的效果，同時也減少了持續時間。類似於$(item)螢光粉$()對藥水做的一樣。如果最上層的效果不能使用催化劑，將依序往下嘗試。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "小型延長催化劑",
+      "recipe": "bloodmagic:alchemytable/mundane_lengthening",
+      "text": "延長催化劑可以增加最上層的效果時間。類似於$(item)紅石粉$()對藥水做的一樣。如果最上層的效果不能使用催化劑，將依序往下嘗試。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "混合式催化劑",
+      "recipe": "bloodmagic:alchemytable/combinational",
+      "text": "$(item)混合式催化劑$()是一種比較特別的催化劑-能夠使兩種效果混合為第三種效果。例如，當你擁有$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)懸浮$()及$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)漂浮$()效果藥水，然後用這種催化劑釀造時，將成為1劑量的$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)飛行$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "微弱填充劑",
+      "recipe": "bloodmagic:alchemytable/weak_filling",
+      "text": "填充劑可以用來補充藥水，但是將會減低它的效果-微弱填充劑只能用來補充最上層的效果，如果你想保留不同的效果，請考慮使用$(item)簡易循環催化劑$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "簡易循環催化劑",
+      "recipe": "bloodmagic:alchemytable/cycling_catalyst",
+      "text": "循環催化劑可以用來變更藥水的最上層效果，從而改變哪種效果會被另外一種催化劑或藥水所影響"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "進階藥水製作",
+      "anchor": "average_potions",
+      "text": "如果到目前為止的藥水效果並不能讓你滿足，那麼也許你需要做些實驗?加上一些$(item)螢光莓$()，一些$(item)深板岩碎石$()再灑上一點$(l:bloodmagic:dungeons/demonite)獄火鍛造沙$()，就能夠大大的提升藥水的效果及持續時間。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "增強催化劑",
+      "recipe": "bloodmagic:alchemytable/strengthened_catalyst",
+      "text": "比基礎催化劑更好的催化劑。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "標準延長催化劑",
+      "recipe": "bloodmagic:alchemytable/average_lengthening",
+      "text": "標準延長催化劑可以將最上層的效果持續時間從3:00延長到21:20。並且乘上每瓶8劑量，這將會是非常長的持續時間!"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "標準增強催化劑",
+      "recipe": "bloodmagic:alchemytable/average_power",
+      "text": "標準增強催化劑是小型增強催化劑的增強版，讓你能夠得到等級III藥水效果的鍊金藥，但每瓶持續時間減少至45秒。"
+    }
+  ]
+}
