@@ -6,67 +6,34 @@ ServerEvents.recipes(event => {
   removeid.forEach(r => {
     event.remove({ id: r })
   })
-  event.custom({
-    "type": "bloodmagic:soulforge",
-    "drain": 100.0,
-    "input0": {
-      "item": "minecraft:cauldron"
-    },
-    "input1": {
-      "item": "bloodmagic:reagentvoid"
-    },
-    "input2": {
-      "item": "bloodmagic:reagentsight"
-    },
-    "input3": {
-      "item": "bloodmagic:reinforcedslate"
-    },
-    "minimumDrain": 400.0,
-    "output": {
-      "item": "bloodmagic:demoncrucible"
-    }
-  })
-  event.custom({
-    "type": "bloodmagic:soulforge",
-    "drain": 100.0,
-    "input0": {
-      "item": "bloodmagic:soulforge"
-    },
-    "input1": {
-      "item": "bloodmagic:reagentmagnetism"
-    },
-    "input2": {
-      "item": "bloodmagic:reagentbloodlight"
-    },
-    "input3": {
-      "item": "botania:mana_glass"
-    },
-    "minimumDrain": 500.0,
-    "output": {
-      "item": "bloodmagic:demoncrystallizer"
-    }
-  })
-  event.custom({
-    "type": "bloodmagic:soulforge",
-    "drain": 50.0,
-    "input0":
-    {
-      "item": "bloodmagic:reagentsuppression"
-    },
-    "input1": {
-      "item": "bloodmagic:reagentteleposition"
-    },
-    "input2": {
-      "item": "bloodmagic:demoncrucible"
-    },
-    "input3": {
-      "item": "bloodmagic:demoncrystallizer"
-    },
-    "minimumDrain": 400.0,
-    "output": {
-      "item": "bloodmagic:demonpylon"
-    }
-  })
+  function soulforge(event,input,output,drain,mindrain){
+    event.custom({
+      "type": "bloodmagic:soulforge",
+      "drain": drain,
+      "input0": Item.of(input[0]).toJson(),
+      "input1": Item.of(input[1]).toJson(),
+      "input2": Item.of(input[2]).toJson(),
+      "input3": Item.of(input[3]).toJson(),
+      "minimumDrain": mindrain,
+      "output": {
+        "item": output
+      }
+    })
+    event.recipes.gtceu.hellforge(output)
+    .itemInputs(input)
+    .itemOutputs(output)
+    .EUt(mindrain===0?30:mindrain*20)
+    .duration(200)
+    .addDataNumber('minimumDrain',mindrain)
+    .addDataNumber('drain',drain)
+  }
+  soulforge(event,['minecraft:cauldron','bloodmagic:reagentvoid','bloodmagic:reagentsight','bloodmagic:reinforcedslate'],'bloodmagic:demoncrucible',100,400)
+  soulforge(event,['bloodmagic:soulforge','bloodmagic:reagentmagnetism','bloodmagic:reagentbloodlight','botania:mana_glass'],'bloodmagic:demoncrystallizer',100,500)
+  soulforge(event,['bloodmagic:reagentsuppression','bloodmagic:reagentteleposition','bloodmagic:demoncrucible','bloodmagic:demoncrystallizer'],'bloodmagic:demonpylon',50,400)
+  soulforge(event,['botania:rune_water','botania:rune_fire','minecraft:wheat_seeds','minecraft:cherry_sapling'],'botania:rune_spring',50,200)
+  soulforge(event,['botania:rune_earth','botania:rune_air','farmersdelight:melon_popsicle','gtceu:ice_dust'],'botania:rune_summer',50,200)
+  soulforge(event,['botania:rune_fire','botania:rune_air','minecraft:apple','minecraft:honey_bottle'],'botania:rune_autumn',50,200)
+  soulforge(event,['botania:rune_water','botania:rune_earth','minecraft:snow_block','minecraft:packed_ice'],'botania:rune_winter',50,200)
   event.recipes.extendedcrafting.shaped_table('bloodmagic:soulforge', [
     "     ",
     "A   A",

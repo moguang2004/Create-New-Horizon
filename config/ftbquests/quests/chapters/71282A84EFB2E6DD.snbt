@@ -956,6 +956,39 @@
 			x: 1.5d
 			y: 14.0d
 		}
+		{
+			dependencies: ["63C1CDADDBC77ABD"]
+			id: "22358DD22D6EFD96"
+			subtitle: "更方便的生产生命源质"
+			tasks: [{
+				id: "032280B55C336F91"
+				item: "gtceu:mv_digital_well_of_suffer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "30CC358858667494"
+			tasks: [{
+				id: "215018922C41BB79"
+				item: "gtceu:eternal_well_of_suffer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7CC2B2A2B70CCD83"]
+			id: "3B3555FC7C4E71D3"
+			tasks: [{
+				id: "0D2CB8263CB4D1A9"
+				item: "gtceu:hellforge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
 	]
 	title: "血魔法"
 }

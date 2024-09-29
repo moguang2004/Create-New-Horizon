@@ -411,27 +411,7 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   })
-  event.custom({
-    "type": "bloodmagic:soulforge",
-    "drain": 50.0,
-    "input0":
-    {
-      "item": "botania:rune_water"
-    },
-    "input1": {
-      "item": "botania:rune_fire"
-    },
-    "input2": {
-      "item": "minecraft:wheat_seeds"
-    },
-    "input3": {
-      "item": "minecraft:cherry_sapling"
-    },
-    "minimumDrain": 200.0,
-    "output": {
-      "item": "botania:rune_spring"
-    }
-  })
+
   //summer
   event.custom({
     "type": "botania:runic_altar",
@@ -459,27 +439,6 @@ ServerEvents.recipes(event => {
     "output": {
       "item": "botania:rune_summer",
       "count": 1
-    }
-  })
-  event.custom({
-    "type": "bloodmagic:soulforge",
-    "drain": 50.0,
-    "input0":
-    {
-      "item": "botania:rune_earth"
-    },
-    "input1": {
-      "item": "botania:rune_air"
-    },
-    "input2": {
-      "item": "farmersdelight:melon_popsicle"
-    },
-    "input3": {
-      "item": "gtceu:ice_dust"
-    },
-    "minimumDrain": 200.0,
-    "output": {
-      "item": "botania:rune_summer"
     }
   })
   //autumn
@@ -511,27 +470,6 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   })
-  event.custom({
-    "type": "bloodmagic:soulforge",
-    "drain": 50.0,
-    "input0":
-    {
-      "item": "botania:rune_fire"
-    },
-    "input1": {
-      "item": "botania:rune_air"
-    },
-    "input2": {
-      "item": "minecraft:apple"
-    },
-    "input3": {
-      "item": "minecraft:honey_bottle"
-    },
-    "minimumDrain": 200.0,
-    "output": {
-      "item": "botania:rune_autumn"
-    }
-  })
   //winter
   event.custom({
     "type": "botania:runic_altar",
@@ -559,27 +497,6 @@ ServerEvents.recipes(event => {
     "output": {
       "item": "botania:rune_winter",
       "count": 1
-    }
-  })
-  event.custom({
-    "type": "bloodmagic:soulforge",
-    "drain": 50.0,
-    "input0":
-    {
-      "item": "botania:rune_water"
-    },
-    "input1": {
-      "item": "botania:rune_earth"
-    },
-    "input2": {
-      "item": "minecraft:snow_block"
-    },
-    "input3": {
-      "item": "minecraft:packed_ice"
-    },
-    "minimumDrain": 200.0,
-    "output": {
-      "item": "botania:rune_winter"
     }
   })
   //pure daisy
@@ -737,18 +654,4 @@ ServerEvents.recipes(event => {
       "tag": "botania:seed_apothecary_reagent"
     }
   }).id('botania:petal_apothecary/entropinnyum')
-
-  event.custom({
-    "type": "botania:elven_trade",
-    "ingredients": [
-      {
-        "item": "gtceu:advanced_integrated_circuit"
-      }
-    ],
-    "output": [
-      {
-        "item": "kubejs:mana_integrated_circuit"
-      }
-    ]
-  })
 })

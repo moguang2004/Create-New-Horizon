@@ -103,7 +103,11 @@ ServerEvents.recipes(event => {
         "gtceu:assembler/bamboo_stairs",
         "gtceu:assembler/crimson_stairs",
         "gtceu:assembler/warped_stairs",
-        "enderio:void_chassis"
+        "enderio:void_chassis",
+        "hostilenetworks:sim_chamber",
+        "hostilenetworks:loot_fabricator",
+        "hostilenetworks:deep_learner",
+        "hostilenetworks:framework"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
