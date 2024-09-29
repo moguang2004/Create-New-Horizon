@@ -1,0 +1,58 @@
+{
+	id: "0D7B360ADF06DCB3"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 4, item: "gtceu:titanium_ingot" }
+		{ count: 32, item: "gtceu:rutile_dust" }
+		{ count: 16, item: "gtceu:aluminium_single_cable" }
+		{ count: 4, item: "gtceu:ev_machine_hull" }
+		{ count: 4, item: "gtceu:phosphorus_boule" }
+		{ count: 2, item: "gtceu:tungsten_dust" }
+		{ count: 8, item: "gtceu:stainless_steel_fluid_cell" }
+		{ item: "gtceu:ev_electric_motor" }
+		{ item: "gtceu:hv_super_chest", weight: 0.1f }
+		{ item: "gtceu:hv_super_tank", weight: 0.1f }
+		{
+			count: 5
+			item: {
+				Count: 1
+				id: "candlelight:salmon_on_white_wine"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "candlelight:fillet_steak"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{
+			count: 7
+			item: {
+				Count: 1
+				id: "candlelight:chicken_alfredo"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "candlelight:lasagne"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+	]
+	title: "EV奖励"
+}

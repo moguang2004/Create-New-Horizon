@@ -6,6 +6,7 @@
 	icon: "gtceu:luv_machine_hull"
 	id: "42952A10FFCE402D"
 	order_index: 5
+<<<<<<< HEAD
 	quest_links: [{
 		id: "2D8E067BA5CDB23A"
 		linked_quest: "17292FB8D4DD36BA"
@@ -15,5 +16,420 @@
 		y: 0.0d
 	}]
 	quests: [ ]
+=======
+	quest_links: [
+		{
+			id: "2D8E067BA5CDB23A"
+			linked_quest: "17292FB8D4DD36BA"
+			shape: "rsquare"
+			size: 1.5d
+			x: -21.0d
+			y: 0.0d
+		}
+		{
+			id: "7771623F63D63FEA"
+			linked_quest: "754CF2D0D96359C3"
+			x: -18.5d
+			y: -3.5d
+		}
+		{
+			id: "716D1262FDD7F70C"
+			linked_quest: "209FAC261240DA4E"
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			id: "236921A346C5AB53"
+			linked_quest: "3409699C4612D368"
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			id: "6A9D16337B5BEA10"
+			linked_quest: "1F24CDB4B265DAE8"
+			x: -16.0d
+			y: 2.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["17292FB8D4DD36BA"]
+			description: [""]
+			id: "0DA6DBCC41828D80"
+			shape: "gear"
+			size: 4.0d
+			subtitle: "你已经达到LUV啦！"
+			tasks: [{
+				id: "2AB09D6B46C98218"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B08CB9E24BDF006"]
+			dependency_requirement: "one_completed"
+			id: "544B143B7159968A"
+			tasks: [{
+				id: "6E9361A934605F29"
+				item: "gtceu:luv_electric_motor"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["544B143B7159968A"]
+			id: "6D997B6ECEE712BB"
+			tasks: [{
+				id: "03A8E25CC90A7F13"
+				item: "gtceu:luv_electric_pump"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["544B143B7159968A"]
+			id: "7F00562BC80D2C1F"
+			tasks: [{
+				id: "7F29F93BEF0379AB"
+				item: "gtceu:luv_conveyor_module"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["544B143B7159968A"]
+			id: "39D42A922CBA0109"
+			tasks: [{
+				id: "038CC9F2ED3B5682"
+				item: "gtceu:luv_electric_piston"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["544B143B7159968A"]
+			id: "09B87190236E3F3B"
+			tasks: [{
+				id: "5C8AFB390608A950"
+				item: "gtceu:luv_robot_arm"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["544B143B7159968A"]
+			id: "5A10711E91899771"
+			tasks: [{
+				id: "725DD6BC5FD02C22"
+				item: "gtceu:luv_emitter"
+				type: "item"
+			}]
+			x: -23.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["544B143B7159968A"]
+			id: "0408D82BF03701E8"
+			tasks: [{
+				id: "7617C1BBFC81F4EA"
+				item: "gtceu:luv_sensor"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0DA6DBCC41828D80"
+				"14C08D2A44860C08"
+			]
+			icon: "gtceu:large_circuit_assembler"
+			id: "55B8C88C78AFF283"
+			subtitle: "给大电路组装换个LUV能源仓"
+			tasks: [{
+				id: "536DA5ED8AFE8329"
+				title: "LUV电路组装机"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"754CF2D0D96359C3"
+				"1FAD6F20F9148820"
+			]
+			id: "645725D581DA525A"
+			tasks: [{
+				id: "503B792796F84570"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2813BC7AC57AFF93"]
+			id: "78FB6D2EBEC04944"
+			tasks: [{
+				id: "03B65C67E3A53ABB"
+				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78FB6D2EBEC04944"]
+			id: "1FAD6F20F9148820"
+			tasks: [{
+				id: "5CD511869B75170E"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["645725D581DA525A"]
+			id: "77E66A5569F9845B"
+			tasks: [{
+				id: "7FA5EEC024B75229"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["77E66A5569F9845B"]
+			id: "34820874A85286FC"
+			tasks: [{
+				id: "683FE1E64CB7BB18"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["34820874A85286FC"]
+			id: "019F2136970CA2E1"
+			subtitle: "第一个UV电路！"
+			tasks: [{
+				id: "4DBEF1F18227075A"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0DA6DBCC41828D80"
+				"5CC5C11D0C18144E"
+				"422A69585A4BD605"
+			]
+			id: "14C08D2A44860C08"
+			subtitle: "该给大机器们升压了"
+			tasks: [{
+				id: "2E07CD045DAB8CC0"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1B08CB9E24BDF006"
+				"401CC51AA97A3DD2"
+				"4A412A967394C59E"
+			]
+			id: "5CC5C11D0C18144E"
+			tasks: [{
+				id: "304ED9E1CDBEAD83"
+				item: "gtceu:luv_voltage_coil"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			icon: "gtceu:large_assembler"
+			id: "422A69585A4BD605"
+			tasks: [{
+				id: "1037307307EFD46D"
+				title: "组装机也要升压，但在这之前你还要做个小的"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["209FAC261240DA4E"]
+			id: "1543DE3AB9FD7598"
+			tasks: [{
+				id: "49AC49ABFC4B89BA"
+				item: "gtceu:superconducting_coil"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C56A770E0AA5FE2"]
+			id: "2F7AFC0FA8A4C543"
+			tasks: [{
+				id: "32D9B848EB759B06"
+				item: "gtceu:neutron_reflector"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1543DE3AB9FD7598"
+				"2F7AFC0FA8A4C543"
+				"3409699C4612D368"
+			]
+			id: "4C039D7366BE1BD4"
+			tasks: [
+				{
+					id: "2ABD7A3CA362878D"
+					item: "gtceu:fusion_casing"
+					type: "item"
+				}
+				{
+					id: "7D426240EBC86CA1"
+					item: "gtceu:fusion_glass"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4C039D7366BE1BD4"
+				"3F84B7E91E4A1926"
+				"14C08D2A44860C08"
+			]
+			id: "174B639A9AAA2B4C"
+			subtitle: "中间那一层可以换成聚变玻璃"
+			tasks: [{
+				id: "64DF7150FCA7AA06"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			title: "聚变时代"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			id: "3F84B7E91E4A1926"
+			tasks: [{
+				id: "04239D81911F91D2"
+				title: "输入输出仓可以任意等级"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["174B639A9AAA2B4C"]
+			id: "7623D2206370CA76"
+			tasks: [{
+				id: "3FFEBE68D44A0E8B"
+				item: "gtceu:duranium_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1F24CDB4B265DAE8"]
+			id: "04C6FD9012340E33"
+			tasks: [{
+				id: "597DA792939CAB0A"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["04C6FD9012340E33"]
+			id: "47D1E2F257A78CC8"
+			shape: "pentagon"
+			tasks: [{
+				count: 16L
+				id: "7148FED2E30E7170"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["47D1E2F257A78CC8"]
+			id: "2C5AAAE7171632CA"
+			subtitle: "ZPM超导"
+			tasks: [{
+				id: "6698C7007931B007"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["73A9B8C2B2142E54"]
+			id: "637D202FC567B932"
+			tasks: [{
+				id: "3C7C6EF260BFFAEE"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C5AAAE7171632CA"]
+			id: "73A9B8C2B2142E54"
+			tasks: [{
+				id: "08719BA2977C0E6C"
+				item: "gtceu:luv_field_generator"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"174B639A9AAA2B4C"
+				"1B08CB9E24BDF006"
+			]
+			dependency_requirement: "one_completed"
+			id: "355ACD2C8F4E6257"
+			subtitle: "现在有bug，你只能通过稀土来获得铕"
+			tasks: [{
+				id: "749D46EA3EC36EA1"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+	]
+>>>>>>> upstream/dev
 	title: "&dLuV&r时期"
 }

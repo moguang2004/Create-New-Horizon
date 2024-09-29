@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// priority 10
+>>>>>>> upstream/dev
 const { $RecipeJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipeJS");
 const { $RecipesEventJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipesEventJS");
 
@@ -1220,6 +1224,7 @@ ServerEvents.recipes(event => {
       .addDataNumber('minimumDrain',1000)
       .addDataNumber('drain',200);
 
+<<<<<<< HEAD
   // var counter=1;
   // event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
   //   console.info(recipe.getAllValueMap())
@@ -1243,6 +1248,33 @@ ServerEvents.recipes(event => {
   //     .addDataNumber('drain',drain);
   //     counter++;
   // })
+=======
+      // event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
+      //   console.info(recipe.json.get('drain'))
+      // })
+  var counter=1;
+  event.forEachRecipe({type:'bloodmagic:soulforge'},(/**@type {$RecipeJS}*/recipe)=>{
+      let input0 = Item.of(recipe.json.get('input0'));
+      let input1 = Item.of(recipe.json.get('input1'));
+      let input2 = Item.of(recipe.json.get('input2'));
+      let input3 = Item.of(recipe.json.get('input3'));
+      let output = Item.of(recipe.json.get('output'));
+      let inputs = [input0,input1,input2,input3]
+      var drain=recipe.json.get('drain');
+      var minimumDrain=recipe.json.get('minimumDrain');
+      
+      var builder=event.recipes.gtceu.hellforge(counter+'_hellforge');
+      inputs.forEach(input=>{
+          if(input!==null) builder.itemInputs(input);
+      })
+      builder.itemOutputs(output)
+      .EUt(minimumDrain===0?30:minimumDrain*20)
+      .duration(200)
+      .addDataNumber('minimumDrain',minimumDrain)
+      .addDataNumber('drain',drain);
+      counter++;
+  })
+>>>>>>> upstream/dev
 
   function dwos_crafting_recipe(event,voltage) {
     event.shaped(
@@ -1259,6 +1291,7 @@ ServerEvents.recipes(event => {
     })
   }
   ['lv','mv','hv','ev','iv','luv','zpm','uv'].forEach(voltage=>dwos_crafting_recipe(event,voltage));
+<<<<<<< HEAD
   function addModel(event, entity, voltage, outputValue){
     event.recipes.gtceu.digital_well_of_suffer('dwos_'+entity)
         .outputFluids(Fluid.of('bloodmagic:life_essence_fluid',outputValue))
@@ -1293,6 +1326,51 @@ ServerEvents.recipes(event => {
     // ].forEach(entity=>
     //     addModel(event, entity, 7680, 25600)
     // );
+=======
+  // function addModel(event, entity, voltage, outputValue){
+  //   event.recipes.gtceu.digital_well_of_suffer('dwos_'+entity)
+  //       .outputFluids(Fluid.of('bloodmagic:life_essence_fluid',outputValue))
+  //       .notConsumable(Item.of('gtceu:data_stick', `{mobs:${entity}}`).strongNBT())
+  //       .EUt(voltage)
+  //       .duration(20);
+  // }
+  function addModel(event, entity, voltage, outputValue){
+    event.recipes.gtceu.digital_well_of_suffer('dwos_'+entity)
+        .outputFluids(Fluid.of('bloodmagic:life_essence_fluid',outputValue))
+        .notConsumable(Item.of('hostilenetworks:data_model', {data_model:{id:'hostilenetworks:'+entity}}).weakNBT())
+        .EUt(voltage)
+        .duration(20);
+}
+
+  let low = ['chicken','cod','cow','glow_squid','mooshroom','pig','rabbit','polar_bear','squid','snow_golem','sheep']
+  let mid = ['ars_nouveau/wilden_mobs','blaze','creeper','drowned','ghast','guardian','hoglin','magma_cube','phantom','skeleton','slime','twilightforste/death_tome','twilightforste/stable_ice_core',
+    'spider','twilightforest/death_tomb','twilightforest/deer','twilightforest/raven','twilight_forest/stable_ice_core','witch','zombie','zombified_piglin']
+  let high = ['elder_guardian','enderman','evoker','iron_golem','shulker','twilightforest/giant','twilightforest/kobold','twilightforest/goblin',
+    'wither_skeleton','twilightforest/winter_wolf','twilightforest/redcap','twilightforest/helmet_crab','twilightforest/troll',
+    'twilightforest/naga','twilightforest/minotaur','twilightforest/fire_beetle','twilightforest/carminite_golem','twilightforest/towerwood_borer',
+    'vindicator','twilightforest/lich','twilightforest/yeti','twilightforest/wraith','twilightforest/skeleton_druid']
+  let supers = ['artifacts/mimic','wither','ender_dragon','warden','twilightforest/snow_queen','twilightforest/hydra','twilightforest/minoshroom','twilightforest/alpha_yeti']
+  let boss =['twilightforest/ur_ghast']
+    low.forEach(entity=>
+      addModel(event, entity, 30, 100)
+    );
+    
+    mid.forEach(entity=>
+      addModel(event, entity, 120, 400)
+    );
+    
+    high.forEach(entity=>
+        addModel(event, entity, 480, 1600)
+    );
+
+    supers.forEach(entity=>
+        addModel(event, entity, 1920, 6400)
+    );
+
+    boss.forEach(entity=>
+        addModel(event, entity, 7680, 25600)
+    );
+>>>>>>> upstream/dev
 
   event.recipes.gtceu.assembly_line('eternalwos')
   .itemInputs(
@@ -1316,4 +1394,41 @@ ServerEvents.recipes(event => {
     .itemOutputs('gtceu:ammonium_chloride_dust')
     .EUt(30)
     .duration(40)
+<<<<<<< HEAD
+=======
+  event.recipes.gtceu.forming_press('blank_data_model')
+    .itemInputs(['2x gtceu:ender_pearl_plate', '2x gtceu:stainless_steel_plate', '2x gtceu:fine_platinum_wire', 'minecraft:smooth_stone'])
+    .itemOutputs('hostilenetworks:blank_data_model')
+    .duration(200)
+    .EUt(480)
+  event.recipes.gtceu.assembler('deep_learner')
+    .itemInputs(['gtceu:computer_monitor_cover', '2x gtceu:double_black_steel_plate', '2x gtceu:black_steel_plate', 'gtceu:black_steel_gear', '#gtceu:circuits/ev'])
+    .itemOutputs('hostilenetworks:deep_learner')
+    .duration(200)
+    .EUt(480)
+  
+  event.recipes.gtceu.boom_of_create("boom_of_create1")
+    .itemInputs(["gtceu:industrial_tnt"])
+    .inputFluids(Fluid.of("gtceu:pcb_coolant", 50))
+    .outputStress(16777216)
+    .duration(160)
+
+  event.recipes.gtceu.boom_of_create("boom_of_create2")
+    .itemInputs(["4x minecraft:tnt"])
+    .inputFluids(Fluid.of("gtceu:pcb_coolant", 50))
+    .outputStress(16777216)
+    .duration(160)
+
+  event.recipes.gtceu.boom_of_create("boom_of_create3")
+    .itemInputs(["2x gtceu:dynamite"])
+    .inputFluids(Fluid.of("gtceu:pcb_coolant", 50))
+    .outputStress(16777216)
+    .duration(160)
+
+  event.recipes.gtceu.boom_of_create("boom_of_create4")
+    .itemInputs(["8x gtceu:powderbarrel"])
+    .inputFluids(Fluid.of("gtceu:pcb_coolant", 50))
+    .outputStress(16777216)
+    .duration(160)
+>>>>>>> upstream/dev
 })

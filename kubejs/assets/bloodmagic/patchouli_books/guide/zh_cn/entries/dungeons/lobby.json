@@ -1,0 +1,56 @@
+{
+  "name": "前廳",
+  "icon": "bloodmagic:dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:inversion_pillar": 0,
+    "bloodmagic:dungeon_seal": 0,
+    "bloodmagic:dungeon_controller": 0,
+    "bloodmagic:inversion_pillar_cap": 0,
+    "bloodmagic:dungeon_brick3": 1,
+    "bloodmagic:dungeon_brick2": 1,
+    "bloodmagic:dungeon_brick1": 1,
+    "bloodmagic:dungeon_brick_assorted": 1,
+    "bloodmagic:dungeon_stone": 1,
+    "bloodmagic:dungeon_eye": 1,
+    "bloodmagic:dungeon_polished": 1,
+    "bloodmagic:dungeon_tile": 1,
+    "bloodmagic:dungeon_tilespecial": 1,
+    "bloodmagic:dungeon_smallbrick": 1,
+    "bloodmagic:dungeon_brick_stairs": 1,
+    "bloodmagic:dungeon_polished_stairs": 1,
+    "bloodmagic:dungeon_pillar_center": 1,
+    "bloodmagic:dungeon_pillar_special": 1,
+    "bloodmagic:dungeon_pillar_cap": 1,
+    "bloodmagic:dungeon_brick_wall": 1,
+    "bloodmagic:dungeon_polished_wall": 1,
+    "bloodmagic:dungeon_brick_gate": 1,
+    "bloodmagic:dungeon_polished_gate": 1,
+    "bloodmagic:dungeon_brick_slab": 1,
+    "bloodmagic:dungeon_tile_slab": 1,
+    "bloodmagic:dungeon_regular_cracked_brick1": 1,
+    "bloodmagic:dungeon_cracked_brick1": 1,
+    "bloodmagic:dungeon_emitter": 1,
+    "bloodmagic:dungeon_alternator": 1,
+    "bloodmagic:spikes": 1,
+    "bloodmagic:dungeon_spike_trap": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在活化$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)隱域儀式$()後，你會發現自己看到一根$(thing)反轉之柱$()。右鍵點擊柱子，你就會傳送到前廳，這就是你在$(thing)魔域$()的起點。$(br)在這房間有幾件事情值得注意: $(li)一個包含基本戰利品的寶箱，如果你運氣好還會有幾把$(l:bloodmagic:dungeons/keys)鐵鑰匙$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)其次，有一些$(thing)門$()，都被$(thing)地城的力量封鎖著$()，可以使用$(item)鑰匙$()來解鎖房間。$(li)最後，$(item)反轉之柱$()，在之前的柱子前鏡像被召喚出現。按下[$(k:use)]返回你的世界。$(br2)這裡還有大量的裝飾性方塊，如果你認為你的基地需要一些裝飾。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你打開的所有其他房間都會包含一些戰利品，怪物，陷阱，和可能沒有活化的儀式。保持警惕! $(br2)你可能會發現的戰利品例子: $(li)附魔書$(li)附魔武器及裝甲$(li)$(l:bloodmagic:alchemy_table/anointments)各類藥劑$() $(li)$(l:bloodmagic:demon_will/will_manipulation/demon_will)惡魔意志$() $(li)藥水原料"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)血命果$(li)飽滿血命果$(li)血命油$(br2)因此開始狩獵吧，並留意寶藏和陷阱!"
+    }
+  ]
+}

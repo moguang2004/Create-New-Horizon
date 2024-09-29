@@ -266,6 +266,7 @@ StartupEvents.registry("block", event => {
 
 
 ItemEvents.modification(event => {
+<<<<<<< HEAD
     // event.modify('farmersdelight:rice',item => {
     //     item.setFoodProperties(food =>{
     //         food.eaten((/**@type {$FoodEatenEventJS}*/eat) =>{
@@ -276,6 +277,19 @@ ItemEvents.modification(event => {
     //         })
     //     })
     // })
+=======
+    event.modify('farmersdelight:rice',item => {
+        item.setFoodProperties(food =>{
+            food.eaten((/**@type {$FoodEatenEventJS}*/eat) =>{
+                // if(eat.entity.isPlayer()){
+                //     console.info('eat!')
+                //     eat.player.addItem('kubejs:crashed_rice')
+                // }
+                return true
+            })
+        })
+    })
+>>>>>>> upstream/dev
     event.modify('tomeofblood:living_mage_hood', item => {
         item.setArmorProtection(4)
         item.setArmorToughness(3)

@@ -1,0 +1,29 @@
+{
+  "name": "立即傷害",
+  "icon": "minecraft:iron_sword",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)立即傷害$()對目標造成每級6點$(thing)魔法傷害$()。如果目標為$(thing)不死生物$()，則會恢復6點生命。$(br2)由$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/instant_health)立即治療$()或$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/poison)中毒$()效果藥水所製作。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "傷害 來自 治癒",
+      "a.recipe": "bloodmagic:flask/health_to_harm",
+      "b.heading": "傷害 來自 中毒",
+      "b.recipe": "bloodmagic:flask/poison_to_harm",
+      "c.heading": "立即傷害 II",
+      "c.recipe": "bloodmagic:flask/potency_harm"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "添加$(l:bloodmagic:alchemy_table/potions#average_potions)標準催化劑$()可以更進一步提升效果。"
+    },
+    {
+      "type": "bloodmagic:crafting_flask",
+      "heading": "立即傷害 III",
+      "recipe": "bloodmagic:flask/potency_average_harm"
+    }
+  ]
+}

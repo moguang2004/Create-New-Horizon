@@ -1,0 +1,18 @@
+{
+  "name": "活化水晶",
+  "icon": "bloodmagic:activationcrystalweak",
+  "category": "bloodmagic:rituals",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "你的儀式需要的不僅是方塊和印記的正確組合。還要打開從靈魂網路到儀式的通道，$(item)活化水晶$()能使你完成這件事。"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "微弱活化水晶",
+      "recipe": "bloodmagic:weak_activation_crystal",
+      "text": "按下[$(k:use)]使活化水晶活化主儀式石 - 如果組合是正確的。",
+      "anchor": "weak"
+    }
+  ]
+}

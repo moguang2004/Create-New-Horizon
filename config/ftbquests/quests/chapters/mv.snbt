@@ -27,6 +27,12 @@
 		{
 			dependencies: ["11F898C7B0C925D5"]
 			id: "1FBD86C0CF681427"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AC92764B12A26D7"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "24CB9175692BADFD"
 				item: "gtceu:mv_machine_hull"
@@ -38,6 +44,12 @@
 		{
 			dependencies: ["2D662EFDE7A39BB8"]
 			id: "689E197D320A0477"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D59F64539E4B727"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			subtitle: "一种可持续性的产盐设备"
 			tasks: [
 				{
@@ -236,6 +248,12 @@
 				"5FCD87E61592F357"
 			]
 			id: "10FA0AB1DB0672F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B656249FE7EF1A9"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4669D530ED93FCDE"
 				item: "gtceu:mv_cutter"
@@ -392,6 +410,12 @@
 		{
 			dependencies: ["2C6FBF2A814BB60D"]
 			id: "063155FDDF799750"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7283BCCE05FF703B"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7312ABE98EF4BE13"
 				item: "gtceu:implosion_compressor"
@@ -408,10 +432,17 @@
 			]
 			id: "5A55D491F0E9F389"
 			rewards: [{
+<<<<<<< HEAD
 				command: "/gamephase add @p end"
 				id: "1BF2998667643C68"
 				title: "前往末地"
 				type: "command"
+=======
+				exclude_from_claim_all: true
+				id: "1939DA6E776D1004"
+				table_id: 5863108397808417557L
+				type: "random"
+>>>>>>> upstream/dev
 			}]
 			tasks: [{
 				id: "7BAD7E832FEF40F0"
@@ -445,6 +476,12 @@
 		{
 			dependencies: ["5A55D491F0E9F389"]
 			id: "4DCA7E4E57817E0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A8E7C6484AE0439"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "36924FA5E1528AB2"
@@ -474,6 +511,12 @@
 				"3C1A31CEA3C10082"
 			]
 			id: "36968F23015BC87A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72FC4B69AF16AD64"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "HV时代的重要材料"
@@ -503,6 +546,12 @@
 		{
 			dependencies: ["56D33C26893B29C5"]
 			id: "22A82D3281551181"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "270584549501C03E"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "179D733C738A1283"
 				item: "minecraft:tnt"
@@ -526,6 +575,12 @@
 			dependencies: ["1FBD86C0CF681427"]
 			hide_dependency_lines: true
 			id: "45B113F1D8B0C756"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "441BADDE77B7325E"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6068AFAB3B93FDA1"
 				item: "gtceu:mv_distillery"
@@ -609,6 +664,12 @@
 			dependency_requirement: "one_completed"
 			description: ["你也可以看看红宝石的几种副产"]
 			id: "291D02E808F55209"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FFDFD18FCE09799"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			subtitle: "铬粉需要经过几步处理，请仔细查阅jei"
 			tasks: [{
 				id: "439069F6CBE169E1"
@@ -643,12 +704,15 @@
 		{
 			dependencies: ["35FC625257013116"]
 			id: "415AF3F977F4C3F9"
+<<<<<<< HEAD
 			rewards: [{
 				command: "/gamephase add @p aether"
 				id: "77BF31525552C266"
 				title: "前往天境"
 				type: "command"
 			}]
+=======
+>>>>>>> upstream/dev
 			tasks: [{
 				id: "0C901293ECFB769A"
 				item: {
@@ -666,6 +730,12 @@
 		{
 			dependencies: ["415AF3F977F4C3F9"]
 			id: "699743A94DF7E0B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D5BFE27E4226B07"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "115FCE926E206B92"
@@ -730,6 +800,12 @@
 				"234CB64EED695D42"
 			]
 			id: "44F16C0CA0BF8AF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73834786739B8167"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
 			subtitle: "有了这个才可以做EV阶段的机器"
 			tasks: [{
 				id: "5E983D86BAEBF127"
@@ -812,6 +888,15 @@
 		{
 			dependencies: ["707A41CB0EED30D3"]
 			id: "667964AF2027E5BD"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5686EE9C9A3823B5"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			shape: "pentagon"
 			tasks: [{
 				count: 16L
@@ -840,6 +925,15 @@
 			]
 			hide_dependency_lines: true
 			id: "01377F6FDB479DC4"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EE67097A2302787"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			tasks: [
 				{
 					id: "330E788B29689786"
@@ -880,6 +974,15 @@
 				"0B406575E6CDCC2D"
 			]
 			id: "40CBECB09DB2EEE7"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E748F1E8B6F3431"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			tasks: [{
 				id: "571D09AB2742E15B"
 				item: "gtceu:industrial_tnt"
@@ -970,6 +1073,15 @@
 		{
 			dependencies: ["3C1A31CEA3C10082"]
 			id: "6960D8238C5B49EB"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B85BDB70F2F5A1C"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			tasks: [{
 				id: "07DF63569B78C55A"
 				item: "gtceu:phosphorus_boule"
@@ -985,6 +1097,15 @@
 				"3BBEFDC7CD5D688B"
 			]
 			id: "42552E404237FB96"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B275A71EEB5D692"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			tasks: [{
 				id: "6DE0530CFDC5398C"
 				item: "gtceu:advanced_integrated_circuit"
@@ -996,6 +1117,15 @@
 		{
 			dependencies: ["42552E404237FB96"]
 			id: "378D31F3F0D064F8"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7065B72C4E5210CF"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			subtitle: "高阶植物魔法"
 			tasks: [{
 				id: "7D626479721BEE0F"

@@ -1,0 +1,20 @@
+{
+	id: "08596FA87A32A756"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 4, item: "gtceu:lv_electric_motor" }
+		{ count: 16, item: "gtceu:steel_ingot" }
+		{ count: 32, item: "gtceu:aluminium_dust" }
+		{ count: 48, item: "gtceu:rubber_ingot" }
+		{ count: 32, item: "gtceu:tin_single_cable" }
+		{ count: 4, item: "gtceu:basic_electronic_circuit" }
+		{ count: 8, item: "gtceu:tin_rotor" }
+		{ count: 32, item: "gtceu:fluid_cell" }
+		{ count: 4, item: "bakery:sandwich" }
+		{ count: 4, item: "bakery:vegetable_sandwich" }
+		{ count: 4, item: "bakery:bread_with_jam" }
+		{ count: 4, item: "bakery:grilled_bacon_sandwich" }
+	]
+	title: "LV奖励"
+}

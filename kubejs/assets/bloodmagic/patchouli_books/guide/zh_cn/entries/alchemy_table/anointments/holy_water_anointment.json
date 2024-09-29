@@ -1,0 +1,37 @@
+{
+  "name": "聖水",
+  "icon": "bloodmagic:holy_water_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "聖水",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment",
+      "text": "暫時提高5點對不死生物的近戰傷害。 $(br2)有效物品:工具，劍。$(br2)套用: 聖光I (256 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "聖水L",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 聖光I (1024 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "聖水II",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_2",
+      "text": "這種升級版藥劑可以使追加傷害增加為+10。 $(br2)套用: 聖光II (256 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "聖水XL",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 聖光I (4096 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "聖水III",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_3",
+      "text": "這種升級版藥劑可以使追加傷害增加為+15。 $(br2)套用: 聖光III (256 擊中)"
+    }
+  ]
+}

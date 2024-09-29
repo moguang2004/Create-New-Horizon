@@ -27,7 +27,12 @@
 	}
 	id: "07118DAC24E83AB7"
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "42CACCBAE0D1508D"
+		linked_quest: "7F8E09E8CB718C64"
+		x: 28.5d
+		y: 11.5d
+	}]
 	quests: [
 		{
 			id: "7BF6145D39DCD926"
@@ -818,6 +823,10 @@
 			y: -4.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["1B42116566009D69"]
+>>>>>>> upstream/dev
 			id: "311E3575421537D5"
 			tasks: [{
 				id: "6ECEC2FB84261514"
@@ -828,6 +837,10 @@
 			y: -2.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["3BBF96E8CFC2B837"]
+>>>>>>> upstream/dev
 			id: "6CB97E1AD7A6E668"
 			tasks: [{
 				id: "520DD82A1D1FEEB0"
@@ -848,6 +861,10 @@
 			y: -4.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["067C5E010500E27A"]
+>>>>>>> upstream/dev
 			id: "456C0E6B96A1FA08"
 			tasks: [{
 				id: "53C093BE2447AE95"
@@ -858,6 +875,10 @@
 			y: -2.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["311E3575421537D5"]
+>>>>>>> upstream/dev
 			id: "3105F1034CE396DE"
 			tasks: [{
 				id: "377E590B415EC4DA"
@@ -868,6 +889,7 @@
 			y: -0.5d
 		}
 		{
+<<<<<<< HEAD
 			id: "0DDCA34CA9EE8352"
 			tasks: [
 				{
@@ -881,6 +903,19 @@
 					type: "item"
 				}
 			]
+=======
+			dependencies: [
+				"6CB97E1AD7A6E668"
+				"3105F1034CE396DE"
+			]
+			dependency_requirement: "one_completed"
+			id: "0DDCA34CA9EE8352"
+			tasks: [{
+				id: "6D4F5CF659DEEFD8"
+				item: "gtceu:impure_enriched_naquadah_solution_bucket"
+				type: "item"
+			}]
+>>>>>>> upstream/dev
 			x: 29.5d
 			y: -0.5d
 		}
@@ -895,6 +930,14 @@
 			y: 1.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: [
+				"3105F1034CE396DE"
+				"0DDCA34CA9EE8352"
+			]
+			dependency_requirement: "one_completed"
+>>>>>>> upstream/dev
 			id: "3020D6D5BA6748B8"
 			tasks: [{
 				id: "3F1265354646B23B"
@@ -905,6 +948,13 @@
 			y: 1.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: [
+				"51DA4093C8BA8D61"
+				"292693CDD6C146A4"
+			]
+>>>>>>> upstream/dev
 			id: "0459A15C78E34DFF"
 			tasks: [{
 				id: "30816EFA438F57A2"
@@ -915,6 +965,10 @@
 			y: 1.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["3020D6D5BA6748B8"]
+>>>>>>> upstream/dev
 			id: "44DF62D8F87E1E98"
 			tasks: [{
 				id: "68B4CC9FEFC53CA6"
@@ -925,6 +979,10 @@
 			y: 3.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["44DF62D8F87E1E98"]
+>>>>>>> upstream/dev
 			id: "6C3126410D93801D"
 			tasks: [{
 				id: "2305C67C14E84DC1"
@@ -935,6 +993,10 @@
 			y: 5.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["6C3126410D93801D"]
+>>>>>>> upstream/dev
 			id: "0D20629FA261446E"
 			tasks: [{
 				id: "3C030314D585A1A0"
@@ -945,6 +1007,10 @@
 			y: 7.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["0D20629FA261446E"]
+>>>>>>> upstream/dev
 			id: "5A941BB7E8160424"
 			tasks: [{
 				id: "3AE92F3A81A20813"
@@ -955,6 +1021,13 @@
 			y: 9.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: [
+				"2B9B3F5FB6BAACA2"
+				"0459A15C78E34DFF"
+			]
+>>>>>>> upstream/dev
 			id: "3DA61E6A0C90CA6F"
 			tasks: [{
 				id: "37FBC744941BF8C5"
@@ -965,6 +1038,13 @@
 			y: 3.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: [
+				"3F2400EB1CD5A860"
+				"3DA61E6A0C90CA6F"
+			]
+>>>>>>> upstream/dev
 			id: "5A69B2E18A793DDD"
 			tasks: [{
 				id: "112082BB32E6F673"
@@ -975,6 +1055,10 @@
 			y: 5.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["5A69B2E18A793DDD"]
+>>>>>>> upstream/dev
 			id: "79B8857F83BEE080"
 			tasks: [{
 				id: "1A636196CAE8B93C"
@@ -985,6 +1069,10 @@
 			y: 7.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["79B8857F83BEE080"]
+>>>>>>> upstream/dev
 			id: "5AAAB678E3FE0422"
 			tasks: [{
 				id: "10255CC7729BE8D8"
@@ -995,6 +1083,10 @@
 			y: 9.5d
 		}
 		{
+<<<<<<< HEAD
+=======
+			dependencies: ["5AAAB678E3FE0422"]
+>>>>>>> upstream/dev
 			id: "7BF2670153067B67"
 			tasks: [{
 				id: "6B8F3DFB98C6F147"
@@ -1026,14 +1118,150 @@
 		}
 		{
 			id: "0F974358320FEC16"
+<<<<<<< HEAD
+=======
+			subtitle: "推荐用富集硅岩"
+>>>>>>> upstream/dev
 			tasks: [{
 				id: "04D6DF59C6B92247"
 				title: "可以看看硅岩发电"
 				type: "checkmark"
 			}]
+<<<<<<< HEAD
 			x: 31.5d
 			y: -0.5d
 		}
+=======
+			x: 34.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"456C0E6B96A1FA08"
+				"3105F1034CE396DE"
+			]
+			dependency_requirement: "one_completed"
+			id: "292693CDD6C146A4"
+			tasks: [{
+				id: "2C6E7389FC030183"
+				item: "gtceu:impure_naquadria_solution_bucket"
+				type: "item"
+			}]
+			x: 31.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"44DF62D8F87E1E98"
+				"0DA6DBCC41828D80"
+			]
+			id: "1F24CDB4B265DAE8"
+			tasks: [{
+				id: "7E6DA58B61134C92"
+				item: "gtceu:trinium_sulfide_dust"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BF2670153067B67"]
+			id: "17C2021BD6930162"
+			tasks: [{
+				id: "551E275A1D543EBA"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 13.5d
+		}
+		{
+			id: "7F792DFB09F432B1"
+			tasks: [
+				{
+					id: "2876022138DC677C"
+					item: "gtceu:tantalite_dust"
+					type: "item"
+				}
+				{
+					id: "4DBB5E3A17BF569D"
+					item: "gtceu:pyrochlore_dust"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7F792DFB09F432B1"]
+			id: "14AB9B14017BC352"
+			tasks: [{
+				id: "5340B3C132875263"
+				item: "gtceu:tantalum_alkaline_mixture_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14AB9B14017BC352"]
+			id: "4B10FB0B906EDFE9"
+			tasks: [{
+				id: "1CBFAFD0D09DC62D"
+				item: "gtceu:tantalite_fluorine_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4B10FB0B906EDFE9"]
+			id: "590B0F868A6CFD1C"
+			tasks: [{
+				id: "55976D68DFD74315"
+				item: "gtceu:niobium_tantalite_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["590B0F868A6CFD1C"]
+			id: "05BF29239D618900"
+			tasks: [
+				{
+					id: "517DAEB54CF44E41"
+					item: "gtceu:tantalite_oxide_dust"
+					type: "item"
+				}
+				{
+					id: "1A2D2564ADC6005B"
+					item: "gtceu:niobium_oxide_dust"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["05BF29239D618900"]
+			id: "02E4E9FEAC444B34"
+			tasks: [
+				{
+					id: "55E40F4B4C2B1DAB"
+					item: "gtceu:tantalum_dust"
+					type: "item"
+				}
+				{
+					id: "4D6E3AAC1B6F8759"
+					item: "gtceu:niobium_dust"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 9.5d
+		}
+>>>>>>> upstream/dev
 	]
 	title: "矿物处理"
 }

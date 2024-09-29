@@ -49,12 +49,20 @@ ServerEvents.recipes(event => {
     //五氧化二铌处理 
     ctnh.electric_blast_furnace("niobium_dust")
         .itemInputs("21x gtceu:niobium_oxide_dust", "5x gtceu:hematite_dust", "30x gtceu:aluminium_dust")
+<<<<<<< HEAD
         .itemOutputs("6x gtceu:niobium_dust", "2x gtceu:iron_dust", "6x gtceu:alumina_dust")
+=======
+        .itemOutputs("6x gtceu:niobium_dust", "2x gtceu:iron_dust", "30x gtceu:alumina_dust")
+>>>>>>> upstream/dev
         .duration(840).EUt(1920).blastFurnaceTemp(2500)
     //五氧化二钽处理
     ctnh.electric_blast_furnace("tantalum_dust")
         .itemInputs("21x gtceu:tantalite_oxide_dust", "5x gtceu:hematite_dust", "12x gtceu:aluminium_dust")
+<<<<<<< HEAD
         .itemOutputs("6x gtceu:tantalum_dust", "2x gtceu:iron_dust", "6x gtceu:alumina_dust")
+=======
+        .itemOutputs("6x gtceu:tantalum_dust", "2x gtceu:iron_dust", "30x gtceu:alumina_dust")
+>>>>>>> upstream/dev
         .duration(840).EUt(1920).blastFurnaceTemp(2500)
     //氟化铵处理
     ctnh.electrolyzer("ammonia")

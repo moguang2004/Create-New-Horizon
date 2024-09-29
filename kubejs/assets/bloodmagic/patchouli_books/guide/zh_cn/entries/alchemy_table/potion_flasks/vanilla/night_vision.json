@@ -1,0 +1,20 @@
+{
+  "name": "夜視",
+  "icon": "minecraft:golden_carrot",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)夜視$()增加目標在黑暗及水中的觀察能力。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "夜視 (3:00)",
+      "a.recipe": "bloodmagic:flask/night_vision",
+      "b.heading": "夜視 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_night_vision",
+      "c.heading": "夜視 (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_night_vision"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "name": "炸藥",
+  "icon": "bloodmagic:shaped_charge",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "採礦和伐木對於那些拒絕做大事的人來說很好，但哪個自尊心強的鍊金術士會屈服於此? $(br2)考慮到了這一點，你已經設計了一些有用的裝置。只需要將它們扔向討厭的樹木，石頭，或其他你不希望它存在的東西，然後等待爆炸。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "不僅如此，你還能夠透過以下方式改良它們，塗抹一些$(item)藥劑$()再加上一點$(raw)意志$()，如後面條目所述。$(br2)目前可用的藥劑如下: $(li)吉運- 遭破壞的方塊受到$(thing)吉運$()影響。 $(li)加熱工具 - 遭破壞的方塊被$(thing)冶煉$()。 $(li)柔軟覆層- 遭破壞的方塊適用於$(thing)絲綢之觸$()。 $(li)虛無- 方塊將會直接被銷毀。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "方形炸藥",
+      "recipe": "bloodmagic:soulforge/shaped_charge",
+	  "anchor":"shaped_charge",
+	  "text": "$(item)方形炸藥$()將會破壞範圍為5*5*5的方形區域，無論它掉在哪個面，都會掉落所有的掉落物，就像親手挖掘的一樣。甚至對黑曜石有效，並在這樣做的同時提供令人滿意的$(o)KABOOM$()。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "虛無",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_voiding",
+      "b.heading": "加熱工具",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_smelting",
+      "c.heading": "柔軟覆層",
+      "c.recipe": "bloodmagic:soulforge/shaped_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "吉運",
+      "recipe": "bloodmagic:soulforge/shaped_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "增強方形炸藥",
+      "recipe": "bloodmagic:soulforge/aug_shaped_charge",
+      "anchor":"shaped_charge_2",
+      "text": "$(item)增強方形炸藥$()是方形炸藥的升級版。將會破壞範圍為7*7*7的方形區域，無論它掉在哪個面，都會掉落所有的掉落物，就像親手挖掘的一樣。同時能用利用藥劑賦予$(thing)吉運 II$()。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "虛無",
+      "a.recipe": "bloodmagic:soulforge/aug_shaped_charge_voiding",
+      "b.heading": "加熱工具",
+      "b.recipe": "bloodmagic:soulforge/aug_shaped_charge_smelting_l",
+      "c.heading": "柔軟覆層",
+      "c.recipe": "bloodmagic:soulforge/aug_shaped_charge_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "吉運",
+      "a.recipe": "bloodmagic:soulforge/aug_shaped_charge_fortune_1_l",
+      "b.heading": "吉運II",
+      "b.recipe": "bloodmagic:soulforge/aug_shaped_charge_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "隧道型方形炸藥",
+      "recipe": "bloodmagic:soulforge/shaped_charge",
+      "anchor":"shaped_charge",
+      "text": "$(item)隧道型方形炸藥$()將會破壞範圍為5*5*20的隧道形區域，無論它掉在哪個面，都會掉落所有的掉落物，就像親手挖掘的一樣。適合用於採礦。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "虛無",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_deep_voiding",
+      "b.heading": "加熱工具",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_deep_smelting_l",
+      "c.heading": "柔軟覆層",
+      "c.recipe": "bloodmagic:soulforge/shaped_charge_deep_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "吉運",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_deep_fortune_1_l",
+      "b.heading": "吉運II",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_deep_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "採伐者炸藥",
+      "recipe": "bloodmagic:soulforge/deforester_charge",
+	  "anchor":"deforester_charge",
+	  "text": "$(item)採伐者炸藥$()是用來伐木的，能夠使用在樹木，樹葉上，除了最強大的樹幹外，也能夠砍倒所有的木頭，一次最多可以破壞$(item)2堆原木$()(並在這個過程完美的除去樹葉!)即使是叢林巨木也會在幾秒內倒下。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "虛無",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_voiding",
+      "b.heading": "加熱工具",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_smelting",
+      "c.heading": "柔軟覆層",
+      "c.recipe": "bloodmagic:soulforge/deforester_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "吉運",
+      "recipe": "bloodmagic:soulforge/deforester_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "採伐者炸藥 II",
+      "recipe": "bloodmagic:soulforge/deforester_charge_2",
+      "anchor":"deforester_charge_2",
+      "text": "$(item)採伐者炸藥 II$()，是採伐者炸藥的升級版。用於破壞樹木。它能夠砍斷8*64的原木，清除所有連接的樹葉。在任何你可能碰到喜歡的黑橡木林，或叢林中為自己創造一片空曠的空地非常好用。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "虛無",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_voiding",
+      "b.heading": "加熱工具",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_2_smelting_l",
+      "c.heading": "柔軟覆層",
+      "c.recipe": "bloodmagic:soulforge/deforester_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "吉運",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_2_fortune_1_l",
+      "b.heading": "吉運II",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_2_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "可控炸藥",
+      "recipe": "bloodmagic:soulforge/vein_charge",
+      "anchor":"controlled_charge",
+      "text": "$(item)可控炸藥$()只會破壞與它所在區域$(thing)相同的方塊$()。它可以最多摧毀3堆方塊，並追蹤至起點，如同其他炸藥一樣，所有被破壞的方塊將會有掉落物。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "虛無",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_voiding",
+      "b.heading": "加熱工具",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_smelting",
+      "c.heading": "柔軟覆層",
+      "c.recipe": "bloodmagic:soulforge/vein_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "吉運",
+      "recipe": "bloodmagic:soulforge/vein_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "可控炸藥 II",
+      "recipe": "bloodmagic:soulforge/vein_charge_2",
+      "anchor":"controlled_charge_2",
+      "text": "$(item)可控炸藥 II$()的作用與$(item)可控炸藥$()相同，但是它最多可以同時破壞8堆方塊。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "虛無",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_2_voiding",
+      "b.heading": "加熱工具",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_2_smelting_l",
+      "c.heading": "柔軟覆層",
+      "c.recipe": "bloodmagic:soulforge/vein_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "吉運",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_2_fortune_1_l",
+      "b.heading": "吉運II",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_2_fortune_2_l"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "真菌炸藥",
+      "recipe": "bloodmagic:soulforge/fungal_charge",
+      "anchor":"fungal_charge",
+      "text": "$(item)真菌炸藥$()用於砍下巨大蘑菇，無論在主世界或是地獄。雖然你是否能在一次爆破中達到這個數字令人懷疑，但他一次能夠破壞$(item)3堆方塊$()。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "虛無",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_voiding",
+      "b.heading": "加熱工具",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_smelting",
+      "c.heading": "柔軟覆層",
+      "c.recipe": "bloodmagic:soulforge/fungal_charge_silk_touch"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "吉運",
+      "recipe": "bloodmagic:soulforge/fungal_charge_fortune_1"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "真菌炸藥 II",
+      "recipe": "bloodmagic:soulforge/fungal_charge",
+      "anchor":"fungal_charge_2",
+      "text": "$(item)真菌炸藥 II$()用於砍下巨大蘑菇，無論在主世界或是地獄。一次爆破可以破壞8堆方塊。$(br2)你真的需要這東西?"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "虛無",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_2_voiding",
+      "b.heading": "加熱工具",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_2_smelting_l",
+      "c.heading": "柔軟覆層",
+      "c.recipe": "bloodmagic:soulforge/fungal_charge_2_silk_touch_l"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "吉運",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_2_fortune_1_l",
+      "b.heading": "吉運II",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_2_fortune_2_l"
+    }
+  ]
+}

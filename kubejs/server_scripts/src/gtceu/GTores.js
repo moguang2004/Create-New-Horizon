@@ -538,6 +538,29 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
+
+    event.add('ctnh:phosphate_vein', vein =>{
+        vein.weight(40)
+        vein.clusterSize(30)
+        vein.density(0.30)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer('all_layer')
+        vein.dimensions('ad_astra:moon')
+        vein.heightRangeUniform(-20, 50)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.Apatite).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.TricalciumPhosphate).size(1, 3))
+                .layer(l => l.weight(2).mat(GTMaterials.get('trisodium_phosphate')).size(1, 2))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.get('trisodium_phosphate'))
+            .placement("above")
+            .density(0.4)
+            .radius(5)
+        )
+    })
 })
 GTCEuServerEvents.fluidVeins(event => {
 

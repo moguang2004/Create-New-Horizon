@@ -18,6 +18,12 @@
 		{
 			dependencies: ["36968F23015BC87A"]
 			id: "773CB6E376B56EA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "371E5E800AF6101D"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0391F1C486B61BCE"
 				item: "gtceu:hv_machine_hull"
@@ -29,6 +35,12 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			id: "1639E940E9B78D68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5926DDC1DB98704D"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "61EE80BF89298750"
 				item: "gtceu:distillation_tower"
@@ -51,6 +63,12 @@
 		{
 			dependencies: ["22E945CD59D8AF3D"]
 			id: "17F0388258A83E1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FD50578B104782B"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "268FD380F51A8636"
 				item: "gtceu:vacuum_freezer"
@@ -76,6 +94,15 @@
 				"30A047CA07E56044"
 			]
 			id: "613BDF61BD8CAD08"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47F544AA5EB90851"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			subtitle: "无损超频！"
 			tasks: [{
 				id: "6FD9026EFF3CC78B"
@@ -112,6 +139,12 @@
 		{
 			dependencies: ["36968F23015BC87A"]
 			id: "0FE31211C32BF813"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "564A1254B4B18C13"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3098296863DC6A3E"
 				item: "gtceu:slaughter_house"
@@ -174,6 +207,12 @@
 		{
 			dependencies: ["67553CBF5BACA32D"]
 			id: "082ABAF36B6EC7DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CB5F63E37896E6A"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "512BF405101980E3"
 				item: "gtnn:heavy_plate_t1"
@@ -185,6 +224,12 @@
 		{
 			dependencies: ["082ABAF36B6EC7DC"]
 			id: "1330F4F7A3E4C61C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AAAD051578E3992"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1DAA2AAE86D784F1"
 				item: "gtnn:t1_chip"
@@ -248,6 +293,12 @@
 				"1330F4F7A3E4C61C"
 			]
 			id: "66E49577299CA3D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10B19764F6D6C661"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "263B08C2AA57FB8C"
 				item: {
@@ -362,6 +413,15 @@
 				"446AA42EB8DCE6EB"
 			]
 			id: "16243C6CC9C1CD8A"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "481E663093C8AEBA"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			subtitle: "可以直接用宇航服左键机器里的氧气"
 			tasks: [
 				{
@@ -446,6 +506,15 @@
 		{
 			dependencies: ["294B6A72EA589606"]
 			id: "5CF841D44D3A2035"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FF2A8D26D78D7C7"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			shape: "pentagon"
 			tasks: [{
 				id: "09F1B396D3B9E97B"
@@ -462,6 +531,12 @@
 				"2B5737AFD88F1BA5"
 			]
 			id: "27EF0EE87260585F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43A653474391B0E1"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "EV时代的重要材料"
@@ -526,6 +601,12 @@
 				"&a机械方块&r：允许AE2的频道通过"
 			]
 			id: "1AF8205ECB9C3737"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0289E35836C47B30"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0AE81F4C7DA4D736"
 				item: "gtceu:cleanroom"
@@ -537,6 +618,12 @@
 		{
 			dependencies: ["42552E404237FB96"]
 			id: "1327BF0797F9200E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "290890666FB8B133"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0EC0460E5F53A868"
 				item: "gtceu:mv_circuit_assembler"
@@ -736,6 +823,12 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			id: "071A728A18E21B3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25E73F43164C5A3C"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1A0C4B23A4D6B05C"
 				item: "gtceu:hv_assembler"
@@ -864,6 +957,12 @@
 		{
 			dependencies: ["36968F23015BC87A"]
 			id: "25DAE6D032C050D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41EBEE1B4862BDD4"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			subtitle: "是时候缓解主世界工业区的帧数压力了"
 			tasks: [{
 				id: "20A0E9B6A5B2D2F0"
@@ -949,6 +1048,7 @@
 			y: -7.5d
 		}
 		{
+<<<<<<< HEAD
 			id: "6C00521117DF2F34"
 			tasks: [
 				{
@@ -967,6 +1067,8 @@
 			y: -6.0d
 		}
 		{
+=======
+>>>>>>> upstream/dev
 			dependencies: ["7C6C4AAF05BA4C32"]
 			id: "7D43208EB21CE1EB"
 			tasks: [{
@@ -1166,6 +1268,15 @@
 				"773CB6E376B56EA4"
 			]
 			id: "0EDC06CD857700E0"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42867B53F0955106"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			subtitle: "更快！"
 			tasks: [{
 				id: "651C46324F640F54"
@@ -1262,6 +1373,15 @@
 		{
 			dependencies: ["773CB6E376B56EA4"]
 			id: "147567E48E8786C3"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F3A69CDF2D313BC"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			tasks: [{
 				id: "0D3F5432587823A0"
 				item: "gtceu:hv_cutter"
@@ -1278,6 +1398,15 @@
 				"04CED50A5D7434CE"
 			]
 			id: "446AA42EB8DCE6EB"
+<<<<<<< HEAD
+=======
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18F8AACA68D7802D"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+>>>>>>> upstream/dev
 			tasks: [{
 				id: "3E81E8A2C38E6E7E"
 				item: "kubejs:space_fabric"

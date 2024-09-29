@@ -1,0 +1,67 @@
+{
+	id: "69BA6B210D66CBEB"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 4, item: "gtceu:graphene_dust" }
+		{ count: 4, item: "gtceu:tungsten_steel_ingot" }
+		{ count: 4, item: "gtceu:phosphorus_boule" }
+		{ item: "gtceu:iv_electric_motor" }
+		{ count: 4, item: "gtceu:tungsten_double_cable" }
+		{ count: 2, item: "gtceu:tungsten_steel_plate" }
+		{ item: "gtceu:ev_super_tank", weight: 0.2f }
+		{ item: "gtceu:ev_super_chest", weight: 0.1f }
+		{
+			count: 10
+			item: {
+				Count: 1
+				id: "candlelight:beef_wellington"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "candlelight:tomato_soup"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "candlelight:pasta_with_mozzarella"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{ count: 8, item: "candlelight:tomato_mozzarella_salad" }
+		{
+			count: 13
+			item: {
+				Count: 1
+				id: "candlelight:pork_ribs"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "candlelight:chicken_alfredo"
+				tag: {
+					StoredEffects: [ ]
+				}
+			}
+		}
+	]
+	title: "IV奖励"
+}

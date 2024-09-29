@@ -1,0 +1,37 @@
+{
+  "name": "磨刀油",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "磨刀油",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment",
+      "text": "暫時增加3點近戰傷害。 $(br2)有效物品:工具，劍。$(br2)套用: 砥石 I (256 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "磨刀油 L",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 砥石I (1024 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "磨刀油 II",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_2",
+      "text": "這種升級版藥劑可以使追加傷害增加為+6。 $(br2)套用: 砥石II (256 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "磨刀油 XL",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 砥石I (4096 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "磨刀油 III",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_3",
+      "text": "這種升級版藥劑可以使追加傷害增加為+9。 $(br2)套用: 砥石III (256 擊中)"
+    }
+  ]
+}
