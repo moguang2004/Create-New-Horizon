@@ -1,0 +1,15 @@
+{
+  "name": "矮人之力",
+  "icon": "minecraft:diamond_pickaxe",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果: 在採集相同的礦物時提高採集速度，有一些機率在打破方塊後獲得挖掘加速。$(br2)訓練: 挖掘。 $(br2)最高等級: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:digging"
+    }
+  ]
+}

@@ -409,6 +409,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "355ACD2C8F4E6257"
+			subtitle: "现在有bug，你只能通过稀土来获得铕"
 			tasks: [{
 				id: "749D46EA3EC36EA1"
 				item: "gtceu:europium_ingot"

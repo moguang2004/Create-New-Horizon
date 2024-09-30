@@ -1,0 +1,29 @@
+{
+  "name": "複合物品過濾器",
+  "icon": "bloodmagic:itemrouterfiltercomposite",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "$(item)複合物品過濾器$() 本身沒有任何作用，但當與另一種$(item)過濾器$()結合時，能將該過濾器的規則套用到此。 $(br2)這代表你可以，例如使用附魔過濾器的任何附魔，和標籤過濾器的＂Forge:swords＂標籤允許有附魔的劍通過。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "就像$(l:bloodmagic:demon_will/item_routing/standard_item_filter)標準物品過濾器$()，擁有一個數量選擇器，和允許/拒絕的功能。將數量留空，預設為＂全部＂。當你把它跟其他過濾器結合時，GUI會出現其他按鈕。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "複合物品過濾器",
+      "a.recipe": "bloodmagic:alchemytable/composite_router_filter",
+      "b.heading": "添加一個A標籤過濾器",
+      "b.recipe": "bloodmagic:alchemytable/filter/composite_tag_filter"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "添加一個附魔過濾器",
+      "a.recipe": "bloodmagic:alchemytable/filter/composite_enchant_filter",
+      "b.heading": "添加一個模組過濾器",
+      "b.recipe": "bloodmagic:alchemytable/filter/composite_mod_filter"
+    }
+  ]
+}

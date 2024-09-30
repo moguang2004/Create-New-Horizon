@@ -1,0 +1,20 @@
+{
+  "name": "被動",
+  "icon": "minecraft:honeycomb",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)被動$()阻止受影響的目標主動攻擊，然而玩家並不會被影響。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "被動 (3:00)",
+      "a.recipe": "bloodmagic:flask/passivity",
+      "b.heading": "被動 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_passivity",
+      "c.heading": "被動 (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_passivity"
+    }
+  ]
+}
