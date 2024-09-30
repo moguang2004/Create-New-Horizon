@@ -1,4 +1,4 @@
-// priority 10
+// priority -10
 const { $RecipeJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipeJS");
 const { $RecipesEventJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipesEventJS");
 
@@ -478,7 +478,7 @@ ServerEvents.recipes(event => {
     .duration(20)
 
   event.recipes.gtceu.macerator("rich_soul_soil")
-    .itemInputs("nethersdelight:rich_soul_soil")
+    .itemInputs('mynethersdelight:resurgent_soil')
     .itemOutputs("4x gtceu:rich_soul_soil_dust")
     .chancedOutput("gtceu:crimson_yeast_dust", 1500, 150)
     .chancedOutput("gtceu:warped_yeast_dust", 1500, 150)

@@ -28,6 +28,7 @@
 		}
 		{
 			id: "21FEA920DE844E5C"
+			subtitle: "请使用0号电路板发电"
 			tasks: [{
 				id: "5C4F99B24D97D71B"
 				item: "gtceu:mana_generator_turbine_tier1"
@@ -38,6 +39,7 @@
 		}
 		{
 			id: "4103567A8D3A9B46"
+			subtitle: "请使用0号电路板发电"
 			tasks: [{
 				id: "565AD9B1D06DA31D"
 				item: "gtceu:mana_generator_turbine_tier2"
@@ -48,6 +50,7 @@
 		}
 		{
 			id: "02AE26871BBA0CCF"
+			subtitle: "请使用0号电路板发电"
 			tasks: [{
 				id: "4398844790CB30FB"
 				item: "gtceu:mana_generator_turbine_tier3"
@@ -58,6 +61,7 @@
 		}
 		{
 			id: "2032BDD3A8B16E3C"
+			subtitle: "请使用0号电路板发电"
 			tasks: [{
 				id: "068BD67372FB34AA"
 				item: "gtceu:mana_generator_turbine_tier4"
