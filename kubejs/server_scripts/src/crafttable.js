@@ -546,7 +546,7 @@ ServerEvents.recipes(event => {
         F: "gtceu:ev_conveyor_module"
     })
     event.shaped(
-        Item.of("gtceu:slaughter_house", 1), [
+        Item.of("ctnhcore:slaughter_house", 1), [
         "ABA",
         "BCB",
         "DED"

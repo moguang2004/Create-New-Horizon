@@ -55,8 +55,8 @@
 			id: "61B334D440F18D22"
 			subtitle: "这个可快了 "
 			tasks: [{
-				id: "75AC944FC1381813"
-				item: "gtceu:slaughter_house"
+				id: "75465FA6FC7030ED"
+				item: "ctnhcore:slaughter_house"
 				type: "item"
 			}]
 			x: 2.5d

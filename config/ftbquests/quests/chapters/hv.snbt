@@ -143,8 +143,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "3098296863DC6A3E"
-				item: "gtceu:slaughter_house"
+				id: "4A05AB255004737D"
+				item: "ctnhcore:slaughter_house"
 				type: "item"
 			}]
 			x: -6.5d
