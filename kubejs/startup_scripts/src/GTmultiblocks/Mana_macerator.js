@@ -5,9 +5,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('macerator')
         //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
-        .recipeModifier((machine, recipe) => {
+        .recipeModifier((machine, recipe,params,result) => {
             let newrecipe = recipe.copy()
-            newrecipe = GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK).apply(machine, newrecipe)
+            newrecipe = GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK).apply(machine, newrecipe,params,result)
             return GTRecipeModifiers.accurateParallel(machine, newrecipe, 4, false).getFirst()
         })
         .pattern(definition => FactoryBlockPattern.start()
