@@ -56,11 +56,11 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('vacuum_sintering_tower', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('vacuum_sintering')
-        .recipeModifier((machine, recipe) => {
-            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe)
-            let parallel = 1
+        .recipeModifier((machine, recipe, params, result) => {
+            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
+            let parallel = 16
             if (newrecipe.duration < 1) {
-                parallel = 1 / newrecipe.duration
+                parallel = 16 / newrecipe.duration
             }
             return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
         })
@@ -98,11 +98,11 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('crystallizer', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('crystallizer')
-        .recipeModifier((machine, recipe) => {
-            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe)
-            let parallel = 1
+        .recipeModifier((machine, recipe, params, result) => {
+            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
+            let parallel = 16
             if (newrecipe.duration < 1) {
-                parallel = 1 / newrecipe.duration
+                parallel = 16 / newrecipe.duration
             }
             return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
         })

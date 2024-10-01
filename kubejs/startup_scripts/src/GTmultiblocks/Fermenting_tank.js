@@ -44,7 +44,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('fermenting_tank', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fermenting')
-        .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe) => {
+        .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe, params, result) => {
             let efficiency = 1
             machine.getParts().forEach((/** @type {$IMultiPart} */part) => {
                 part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) => {
@@ -71,7 +71,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             }
             newrecipe.duration /= efficiency
             machine.getHolder().self().persistentData.putFloat('growth_efficiency', efficiency)
-            return GTRecipeModifiers.ebfOverclock(machine, newrecipe)
+            return GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
         })
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
