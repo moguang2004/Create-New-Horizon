@@ -27,10 +27,10 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 }
                 let pos = machine.pos
                 switch(machine.frontFacing){
-                    case NORTH: pos = pos.offset(0,0,1)
-                    case SOUTH: pos = pos.offset(0,0,-1)
-                    case WEST: pos = pos.offset(1,0,0)
-                    case EAST: pos = pos.offset(-1,0,0)
+                    case Direction.NORTH: pos = pos.offset(0,0,1)
+                    case Direction.SOUTH: pos = pos.offset(0,0,-1)
+                    case Direction.WEST: pos = pos.offset(1,0,0)
+                    case Direction.EAST: pos = pos.offset(-1,0,0)
                 }
                 let efficiency = 0.9 + 0.1 * machine.getCoilTier()
                 if(machine.level.getBlock(pos) == 'gtceu:graphene_block'){
