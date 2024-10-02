@@ -11,12 +11,20 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('blaze_blast_furnace', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('electric_blast_furnace')
-        .recipeModifier((machine,/**@type {$GTRecipe}*/recipe) => {
+        .recipeModifier((machine,/**@type {$GTRecipe}*/recipe, params, result) => {
             let parallel = 8
             let newrecipe = recipe.copy()
             newrecipe.tickInputs.put(EURecipeCapability.CAP, newrecipe.copyContents(newrecipe.tickInputs, $ContentModifier.of(0.75, 0)).get(EURecipeCapability.CAP))
             newrecipe = GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
-            return GTRecipeModifiers.ebfOverclock(machine, newrecipe)
+            return GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
+        })
+        .recipeModifier((machine, recipe, params, result) => {
+            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
+            let parallel = 8
+            if (newrecipe.duration < 1) {
+                parallel = 8 / newrecipe.duration
+            }
+            return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
         })
         //.appearanceBlock('kubejs:blaze_blast_frunace_casing')
         .pattern(definition => FactoryBlockPattern.start()

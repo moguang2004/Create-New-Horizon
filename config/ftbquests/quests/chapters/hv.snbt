@@ -1574,6 +1574,19 @@
 			x: 13.0d
 			y: 6.5d
 		}
+		{
+			id: "05305E873C1C92B5"
+			shape: "rsquare"
+			size: 4.0d
+			subtitle: "如果你的钢多的用不完"
+			tasks: [{
+				id: "559B2DB8804016D0"
+				item: "gtceu:fuel_refining_factory_mk1"
+				type: "item"
+			}]
+			x: 14.785714285714285d
+			y: -1.5267857142857153d
+		}
 	]
 	title: "&6HV&r时期"
 }
