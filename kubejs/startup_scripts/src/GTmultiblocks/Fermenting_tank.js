@@ -71,7 +71,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             }
             newrecipe.duration /= efficiency
             machine.getHolder().self().persistentData.putFloat('growth_efficiency', efficiency)
-            return GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
+            return GTRecipeModifiers.ebfOverclock(machine, newrecipe, params, result)
         })
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
