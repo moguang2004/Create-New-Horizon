@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "minecraft:iron_bars",
         B: "gtceu:steel_plate",
-        C: "#gtceu:circuit/mv",
+        C:"#gtceu:circuits/mv",
     })
     event.shaped(
         Item.of("create:spout", 1), [
