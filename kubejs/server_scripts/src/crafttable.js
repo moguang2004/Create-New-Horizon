@@ -897,13 +897,14 @@ ServerEvents.recipes(event => {
         "DED",
         "ACA",
         "BAB"
-      ], {
+    ], {
         A: 'gtceu:iv_conveyor_module',
         B: 'gtceu:crystal_processor',
         C: 'gtceu:iv_machine_hull',
         D: 'gtceu:iv_electric_pump',
         E: 'gtceu:big_dam'
-      })
+    })
+    
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
