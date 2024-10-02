@@ -159,3 +159,92 @@ function blast_and_smelting(event, input, output, xp, time) {
     event.recipes.minecraft.blasting(output, input, xp, time).id(`createdelight:blasting/${output.split(":")[1]}_from_blasting_${input.split(":")[1]}`)
     event.recipes.minecraft.smelting(output, input, xp, 2 * time).id(`createdelight:smelting/${output.split(":")[1]}_from_melting_${input.split(":")[1]}`)
 }
+
+/**
+ * @param { Internal.RecipesEventJS } event 
+ * @param { InputItem_ } input
+ * @param { number } time
+ * @param { OutputItem_ } output 
+ * @param { String } heat
+*/
+function metallurgy(event, input, time, output, heat) {
+    event.custom({
+        "type": "createmetallurgy:melting",
+        "ingredients": [{ "item": input }],
+        "processingTime": time,
+        "results": output,
+        "heatRequirement": heat
+    })
+}
+
+/**
+ * @param { Internal.RecipesEventJS } event 
+ * @param { InputItem_ } input
+ * @param { number } time
+ * @param { OutputItem_ } output 
+ * @param { String } heat
+*/
+function alloy(event, input, time, output, heat) {
+    event.custom({
+        "type": "createmetallurgy:alloying",
+        "ingredients": input,
+        "processingTime": time,
+        "results": output,
+        "heatRequirement": heat
+    })
+}
+
+/**
+ * @param { Internal.RecipesEventJS } event 
+ * @param { InputItem_ } input
+ * @param { number } time
+ * @param { OutputItem_ } output 
+ * @param { String } mold 
+*/
+function casting_table(event, input, time, output, mold) {
+    event.custom({
+        "type": "createmetallurgy:casting_in_table",
+        "ingredients": [
+            {"item": mold},
+            input
+        ],
+        "processingTime": time,
+        "mold_consumed": false,
+        "result": {
+            "item": output
+        }
+    })
+}
+
+/**
+ * @param { Internal.RecipesEventJS } event 
+ * @param { InputItem_ } input
+ * @param { number } time
+ * @param { OutputItem_ } output
+*/
+function casting_basin(event, input, time, output) {
+    event.custom({
+        "type": "createmetallurgy:casting_in_basin",
+        "ingredients": [input],
+        "processingTime": time,
+        "mold_consumed": false,
+        "result": {
+            "item": output
+        }
+    })
+}
+
+function casting_all(event, item) {
+    if (['iron', 'gold', `copper`].includes(item)) {
+        if (item == 'copper')
+            casting_table(event, {fluid: `gtceu:${item}`, amount: 16}, 10, `gtceu:copper_nugget`, "createmetallurgy:graphite_nugget_mold")
+        else
+            casting_table(event, {fluid: `gtceu:${item}`, amount: 16}, 10, `minecraft:${item}_nugget`, "createmetallurgy:graphite_nugget_mold")
+        casting_table(event, {fluid: `gtceu:${item}`, amount: 144}, 90, `minecraft:${item}_ingot`, "createmetallurgy:graphite_ingot_mold")
+        casting_basin(event, {fluid: `gtceu:${item}`, amount: 1296}, 810, `minecraft:${item}_block`)
+    } else {
+        casting_table(event, {fluid: `gtceu:${item}`, amount: 16}, 10, `gtceu:${item}_nugget`, "createmetallurgy:graphite_nugget_mold")
+        casting_table(event, {fluid: `gtceu:${item}`, amount: 144}, 90, `gtceu:${item}_ingot`, "createmetallurgy:graphite_ingot_mold")
+        casting_basin(event, {fluid: `gtceu:${item}`, amount: 1296}, 810, `gtceu:${item}_block`)
+    }
+}
