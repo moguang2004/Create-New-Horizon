@@ -154,6 +154,14 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of("gtceu:chlorine", 24000))
         .EUt(6144)
         .duration(120).blastFurnaceTemp(6500)
+    ctnh.fusion_reactor("europium")
+        .inputFluids(Fluid.of('gtceu:neodymium', 16))
+        .inputFluids(Fluid.of('gtceu:hydrogen', 375))
+        .outputFluids(Fluid.of("gtceu:europium", 16))
+        .EUt(24576)
+        .duration(64)
+        
+        
     
     
     
