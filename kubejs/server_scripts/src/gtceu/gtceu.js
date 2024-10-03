@@ -1362,4 +1362,10 @@ ServerEvents.recipes(event => {
     .inputFluids(Fluid.of("gtceu:pcb_coolant", 50))
     .outputStress(16777216)
     .duration(160)
+  event.recipes.gtceu.assembler('fuel_refining_factory_mk1')
+    .itemInputs(['8x gtceu:large_chemical_reactor', '4x gtceu:distillation_tower', '4x gtceu:cracker', '16x gtceu:nichrome_coil_block', '32x gtceu:dense_steel_plate', '32x gtceu:black_steel_frame', '16x #gtceu:circuits/iv'])
+    .itemOutputs('gtceu:fuel_refining_factory_mk1')
+    .duration(24000)
+    .EUt(480)
+  
 })
