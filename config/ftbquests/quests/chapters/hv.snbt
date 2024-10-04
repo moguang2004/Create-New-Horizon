@@ -1576,6 +1576,12 @@
 		}
 		{
 			id: "05305E873C1C92B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "137AA366BCBE3CB8"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 4.0d
 			subtitle: "如果你的钢多的用不完"
@@ -1586,6 +1592,16 @@
 			}]
 			x: 14.785714285714285d
 			y: -1.5267857142857153d
+		}
+		{
+			id: "43DCA5278B555E39"
+			tasks: [{
+				id: "123036F8278EBAE3"
+				title: "第一个巨构"
+				type: "checkmark"
+			}]
+			x: 14.749999999999993d
+			y: -4.741071428571416d
 		}
 	]
 	title: "&6HV&r时期"

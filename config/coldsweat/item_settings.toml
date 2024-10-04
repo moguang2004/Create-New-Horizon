@@ -9,6 +9,10 @@
 	#Defines how much a waterskin will change the player's body temperature by when used
 	#Range: > 0
 	"Waterskin Strength" = 50
+	#Determines the strength of the Soulspring Lamp's effect before it is overwhelmed
+	#A value of 1 means it will never be overwhelmed
+	#Range: 0.0 ~ 1.0
+	"Soulspring Lamp Strength" = 0.6
 
 ["Fuel Items"]
 	#Defines items that can be used as fuel
