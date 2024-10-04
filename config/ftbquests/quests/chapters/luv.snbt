@@ -434,6 +434,18 @@
 			x: -8.5d
 			y: -7.5d
 		}
+		{
+			dependencies: ["174B639A9AAA2B4C"]
+			id: "6B61A32A2688A834"
+			subtitle: "还没做完"
+			tasks: [{
+				id: "7DBC45B020DD3ECC"
+				item: "gtceu:fusion_reactor_zip_mk1"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
 	]
 	title: "&dLuV&r时期"
 }
