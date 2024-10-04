@@ -1,6 +1,18 @@
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('fusion_reactor_zip_mk1', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
+        .recipeModifier(
+            (machine,/** @type {Internal.GTRecipe} */ recipe, params, result) => {
+                if (recipe.getType().toString() == 'gtceu:fusion_reactor') {
+                    var startEU = recipe.data.getLong('eu_to_start');
+                    if (startEU <= 160000000) {
+                        recipe = GTRecipeModifiers.accurateParallel(machine, recipe, 256, false).getFirst();
+                    }
+                }
+                recipe = GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK).apply(machine, recipe, params, result);
+                return recipe;
+            }
+        )
         .recipeType('fusion_reactor')
         .appearanceBlock(() => Block.getBlock('gtceu:fusion_casing'))
         .pattern(definition => FactoryBlockPattern.start()
@@ -52,7 +64,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle("###############################################", "####################ABCCCBA####################", "###################BB#####BB###################", "###################BB#####BB###################", "###################BB#####BB###################", "####################ABCCCBA####################", "###############################################")
             .aisle("###############################################", "###############################################", "####################ABBBBBA####################", "####################ABCCCBA####################", "####################ABBBBBA####################", "###############################################", "###############################################")
             .where("#", Predicates.any())
-            .where("A", Predicates.blocks("gtceu:stainless_steel_frame"))
+            .where("A", Predicates.blocks("gtceu:hssg_frame"))
             .where("B", Predicates.blocks("gtceu:fusion_casing"))
             .where("C", Predicates.blocks("gtceu:fusion_glass"))
             .where("D", Predicates.blocks("gtceu:superconducting_coil"))
