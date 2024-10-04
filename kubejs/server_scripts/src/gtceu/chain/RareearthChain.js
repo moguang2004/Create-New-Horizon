@@ -154,6 +154,7 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of("gtceu:chlorine", 24000))
         .EUt(6144)
         .duration(120).blastFurnaceTemp(6500)
+    
         
     
     
