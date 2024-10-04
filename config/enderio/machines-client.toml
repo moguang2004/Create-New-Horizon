@@ -8,6 +8,8 @@
 	poweredSpawnerRangeColor = "FF0000"
 	#The color of the range box of the Drain
 	drainRangeColor = "FFA500"
+	#The color of the range box of the Aversion Obelisk
+	aversionRangeColor = "8B0000"
 
 [ioconfig]
 	#Neighbour Transparency [0-1]

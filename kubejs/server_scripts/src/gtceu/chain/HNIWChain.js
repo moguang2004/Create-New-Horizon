@@ -1,5 +1,3 @@
-//const PlantCasingCondition = Java.loadClass('org.arbor.gtnn.api.recipe.PlantCasingCondition')
-//const PlantCasingBlock = Java.loadClass('org.arbor.gtnn.block.PlantCasingBlock')
 ServerEvents.recipes(event => {
      // 2NH3 + H2SO4 -> (NH4)2SO4
      let ctnh = event.recipes.gtceu
@@ -290,7 +288,7 @@ ServerEvents.recipes(event => {
           //.notConsumable(Fluid.of('gtceu:dimethylformamide',1000))
           .EUt(30720)
           .duration(100)
-          .addCondition(GTNNRecipes.setPlantCasing(6))
+          .addCondition($GTNNRecipes.setPlantCasing(6))
 
      //2H3BO3 + B -> B2O3
      ctnh.dehydrator('boron_oxide')
