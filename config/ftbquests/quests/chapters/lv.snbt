@@ -479,12 +479,19 @@
 		{
 			dependencies: ["4759D176E05E3D8C"]
 			id: "2301C8A867356B99"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5CF2F747B973C1C9"
-				table_id: 601634794626000726L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CF2F747B973C1C9"
+					table_id: 601634794626000726L
+					type: "random"
+				}
+				{
+					command: "/gamephase add @p twilightforest"
+					id: "57D8F0400C68D005"
+					type: "command"
+				}
+			]
 			subtitle: "概率！"
 			tasks: [{
 				id: "54DDAA9635F9C248"
@@ -1121,6 +1128,24 @@
 			}]
 			x: -1.5d
 			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2301C8A867356B99"]
+			id: "642E8922514A9401"
+			rewards: [{
+				command: "/gamephase add @p twilightforest"
+				id: "6327FB5648EBADFF"
+				type: "command"
+			}]
+			subtitle: "概率！"
+			tasks: [{
+				id: "69E09F137B84413E"
+				item: "gtceu:exquisite_diamond_gem"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
 		}
 	]
 	subtitle: ["工业起步"]

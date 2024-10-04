@@ -60,5 +60,5 @@
 [Builtin]
 	#Range: 0 ~ 4
 	Difficulty = 2
-	Version = "2.3.4"
+	Version = "2.3.5"
 
