@@ -1363,9 +1363,9 @@ ServerEvents.recipes(event => {
     .outputStress(16777216)
     .duration(160)
   event.recipes.gtceu.assembler('fuel_refining_factory_mk1')
-    .itemInputs(['8x gtceu:large_chemical_reactor', '4x gtceu:distillation_tower', '4x gtceu:cracker', '16x gtceu:nichrome_coil_block', '32x gtceu:dense_steel_plate', '32x gtceu:black_steel_frame', '16x #gtceu:circuits/iv'])
+    .itemInputs(['16x gtceu:large_chemical_reactor', '8x gtceu:distillation_tower', '8x gtceu:cracker', '64x gtceu:nichrome_coil_block', '64x gtceu:dense_steel_plate', '64x gtceu:black_steel_frame', '32x #gtceu:circuits/iv'])
     .itemOutputs('gtceu:fuel_refining_factory_mk1')
-    .duration(24000)
+    .duration(48000)
     .EUt(480)
   
 })
