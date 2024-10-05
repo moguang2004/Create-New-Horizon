@@ -1,3 +1,16 @@
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//老登，写下聚变机制，我整不来.
+//给你留托大的
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('fusion_reactor_zip_mk1', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)

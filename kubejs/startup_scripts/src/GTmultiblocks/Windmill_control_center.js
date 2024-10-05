@@ -1,4 +1,4 @@
-import { $WindmillBearingBlockEntity } from "packages/com/simibubi/create/content/contraptions/bearing/$WindmillBearingBlockEntity"
+const $WindmillBearingBlockEntity = Java.loadClass('com.simibubi.create.content.contraptions.bearing.WindmillBearingBlockEntity')
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
