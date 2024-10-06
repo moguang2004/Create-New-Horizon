@@ -10,7 +10,7 @@
 		id: "793AA9FA1B76D96F"
 		linked_quest: "1162E347E7C00175"
 		x: -1.5d
-		y: -4.5d
+		y: -5.0d
 	}]
 	quests: [
 		{
@@ -38,7 +38,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["64C293C5E547D47D"]
@@ -50,7 +50,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -90,7 +90,7 @@
 				{
 					count: 2L
 					id: "3C426FAD847BF672"
-					item: { Count: 2, id: "createdieselgenerators:pumpjack_bearing" }
+					item: "createdieselgenerators:pumpjack_bearing"
 					type: "item"
 				}
 				{
@@ -131,7 +131,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1162E347E7C00175"]
@@ -164,7 +164,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -180,10 +180,11 @@
 				title: "访问下界"
 				type: "dimension"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 5.0d
+			y: -5.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["1162E347E7C00175"]
 			id: "1E11A492F4576DBA"
 			rewards: [{
@@ -204,8 +205,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6397FCC9081360A5"]
@@ -216,7 +217,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7EF838EF4607A41D"]
@@ -228,7 +229,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6397FCC9081360A5"]
@@ -240,7 +241,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6397FCC9081360A5"]
@@ -252,7 +253,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["78C907D8AEA05A18"]
@@ -263,7 +264,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -277,7 +278,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -291,7 +292,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["08C88706F994E458"]
@@ -302,7 +303,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			description: ["猪牛羊马"]
@@ -314,7 +315,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			id: "08C88706F994E458"
@@ -324,7 +325,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -338,7 +339,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -352,7 +353,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1209F38D296109C7"]
@@ -363,7 +364,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7EF838EF4607A41D"]
@@ -374,7 +375,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["56BA200ABCEABC7A"]
@@ -385,7 +386,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -399,7 +400,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["06B1BB32F96710A2"]
@@ -410,18 +411,19 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["06B1BB32F96710A2"]
 			id: "2C18C2C4CA54D968"
+			subtitle: "MV阶段用得上"
 			tasks: [{
 				id: "2365A1402342CBDF"
 				item: "gtceu:fermented_biomass_bucket"
 				type: "item"
 			}]
 			x: -5.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["41BB77968B763B18"]
@@ -432,7 +434,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["189EA0629CFAD1AB"]
@@ -454,7 +456,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -468,7 +470,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3C2319F21ED52FAE"]
@@ -479,7 +481,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			id: "712E77CB55012649"
@@ -497,7 +499,7 @@
 			}]
 			title: "种子"
 			x: 0.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "10E9DB3C92C8B969"
@@ -521,8 +523,8 @@
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -2.0d
+			x: -12.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -535,8 +537,8 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -2.0d
+			x: -10.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -550,8 +552,8 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -2.0d
+			x: -12.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -564,8 +566,8 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -2.0d
+			x: -11.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -578,8 +580,8 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -10.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -592,8 +594,8 @@
 				item: "gtceu:hp_steam_furnace"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -1.0d
+			x: -13.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -606,8 +608,8 @@
 				item: "gtceu:hp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -1.0d
+			x: -10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -621,8 +623,8 @@
 				item: "gtceu:hp_steam_macerator"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.0d
+			x: -13.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -635,8 +637,8 @@
 				item: "gtceu:hp_steam_extractor"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.0d
+			x: -11.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -649,11 +651,11 @@
 				item: "gtceu:hp_steam_compressor"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.0d
+			x: -9.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["1162E347E7C00175"]
+			dependencies: ["5CF2A3DF0B2E6729"]
 			description: ["但是效率孰高孰低呢？"]
 			id: "77EA82987E62F815"
 			subtitle: "有些机器可以用多方块结构形式进行“升级”"
@@ -662,8 +664,8 @@
 				title: "机器升级 "
 				type: "checkmark"
 			}]
-			x: -10.0d
-			y: -4.5d
+			x: -11.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -677,8 +679,8 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.0d
+			x: -12.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -692,7 +694,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: -1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -708,7 +710,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4A20A744ACDB0ABF"]
@@ -719,7 +721,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -736,7 +738,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -751,7 +753,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["62BAC5BC588E4CAA"]
@@ -762,7 +764,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -794,19 +796,19 @@
 				}
 			]
 			x: -2.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["2D9F762371DEDF70"]
+			dependencies: ["41E48BCAEAD9D47E"]
 			id: "54A0B48F51F12647"
-			subtitle: "GT，启动！"
+			subtitle: "电气时代的基石"
 			tasks: [{
 				id: "3F5BE8B5242E5FC9"
 				item: "gtceu:lv_1a_energy_converter"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 11.0d
+			x: -4.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -829,7 +831,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6C2A870EFAAABF9B"]
@@ -839,8 +841,8 @@
 				item: "gtceu:steam_pressor"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.0d
+			x: -9.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0798C9DDF9DCB4C0"]
@@ -850,34 +852,212 @@
 				item: "gtceu:steam_foundry"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["1162E347E7C00175"]
-			id: "0D7E0A6600B1783B"
-			rewards: [{
-				command: "/gamephase add @p nether"
-				elevate_perms: true
-				id: "2793A5582E3F56D1"
-				title: "前往下界"
-				type: "command"
-			}]
-			tasks: [{
-				id: "2422B04C6C65854D"
-				item: {
-					Count: 1
-					id: "minecraft:flint_and_steel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
+			x: -11.0d
 			y: -7.0d
 		}
+		{
+			id: "3A2D6EEBA8A75B83"
+			subtitle: "总不能拿手刻吧"
+			tasks: [{
+				id: "45DE9D326C667C29"
+				item: "vintageimprovements:laser"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C2E8CF9DF1A76F4"]
+			id: "589F78888F04CA35"
+			tasks: [{
+				id: "52E4279EC9482BD3"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77EA82987E62F815"]
+			id: "5C2E8CF9DF1A76F4"
+			tasks: [{
+				id: "4497AC8154819CF0"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2067458624653B8F"]
+			id: "5899C0841A9A178B"
+			tasks: [{
+				id: "5E4A49BA9AFCF4F2"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77EA82987E62F815"]
+			id: "2067458624653B8F"
+			tasks: [{
+				id: "621CD47CE14621E0"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			id: "23FD399F5B59DA53"
+			tasks: [{
+				id: "305EC3B3A83A2EDE"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"46D539BDB8CECDE1"
+				"4B90C12A9AD3F488"
+				"3A2D6EEBA8A75B83"
+			]
+			id: "2CB9C64B6AD4B61B"
+			tasks: [{
+				id: "572C7F73420A622C"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23FD399F5B59DA53"]
+			id: "0B8D27D4FAA175B9"
+			tasks: [{
+				id: "7DDBFF0CEF22DC71"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			id: "3AFD46E811ED67AD"
+			tasks: [{
+				id: "75367300CC5F4995"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2CB9C64B6AD4B61B"
+				"3A2D6EEBA8A75B83"
+				"0B8D27D4FAA175B9"
+				"2866385471094DB9"
+			]
+			id: "41E48BCAEAD9D47E"
+			tasks: [{
+				id: "4642660A4797E594"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["470B9D39E23E01F2"]
+			id: "23EB2E3C95D020C6"
+			tasks: [{
+				id: "64FF21111F96EC3F"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"23FD399F5B59DA53"
+				"2F3BF4CBC85691E8"
+			]
+			id: "46D539BDB8CECDE1"
+			tasks: [{
+				id: "6F1666173DF37898"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			id: "67EA5AED4C89F28E"
+			tasks: [{
+				id: "7466B7660A4991D8"
+				item: "vintageimprovements:helve_hammer"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67EA5AED4C89F28E"]
+			id: "4B90C12A9AD3F488"
+			tasks: [{
+				id: "1407C9F660BC9038"
+				item: "gtceu:copper_foil"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2D9F762371DEDF70"
+				"3AFD46E811ED67AD"
+			]
+			id: "2866385471094DB9"
+			tasks: [{
+				id: "1494ABEC12B465FD"
+				item: "gtceu:ulv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"    在格雷科技中，用电安全尤为重要，否则会引起严重的后果（指爆炸），造成人员和财产的损失。所以这里需要普及几个概念，首先是功率，单位为EU/t，其次是电流，单位为A，最后是电压，单位为EU/t/A，但是我们常常用1A每t的EU值代指电压，如LV电压（即32EU/t/A）。"
+				"    存在用电危险的情况主要发生于将用电器与导线连接之时，必须时刻注意：&4不要尝试将高电压的导线连接于低电压的机器上&r，这样做不一定会爆炸，但一定会存在隐患。在导线连接发电机时，&4尽量避免使导线的额定电压小于发电机动力仓的电压，或是导线的额定电流小于动力仓的最大输出电流。&r"
+				"    只要时刻保障以上几点，基本上可以避免大部分的危机。"
+			]
+			id: "3942AF99CAFEF32C"
+			tasks: [{
+				id: "0F07A6703A44723A"
+				title: "用电安全"
+				type: "checkmark"
+			}]
+			title: "格雷小课堂：用电安全"
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			id: "2F3BF4CBC85691E8"
+			tasks: [{
+				id: "7BEE6E79883683DC"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
 	]
-	title: "钢铁时代"
+	title: "钢铁雄心"
 }
