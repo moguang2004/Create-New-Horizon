@@ -37,4 +37,21 @@ ServerEvents.recipes(event => {
     C: '#forge:tools/wrenches',
     D: 'gtceu:silver_frame'
   })
+  ctnh.assembler('bio_reactor_casing')
+    .itemInputs(['6x gtceu:staballoy_plate', 'gtceu:staballoy_frame'])
+    .circuit(6)
+    .itemOutputs('2x kubejs:bio_reactor_casing')
+    .EUt(16)
+    .duration(50)
+  event.shaped(
+    Item.of('kubejs:bio_reactor_casing', 2), [
+    "ABA",
+    "ADA",
+    "ACA"
+  ], {
+    A: 'gtceu:staballoy_plate',
+    B: '#forge:tools/hammers',
+    C: '#forge:tools/wrenches',
+    D: 'gtceu:staballoy_frame'
+  })
 })

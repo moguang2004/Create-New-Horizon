@@ -162,4 +162,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_niobium_oxide" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_tantalite_oxide" })
     event.remove({ id: "gtceu:centrifuge/rare_earth_separation" })
+    
 })

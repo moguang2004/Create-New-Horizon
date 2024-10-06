@@ -1,6 +1,6 @@
 // priority -10
-const { $RecipeJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipeJS");
-const { $RecipesEventJS } = require("packages/dev/latvian/mods/kubejs/recipe/$RecipesEventJS");
+const $RecipeJS = Java.loadClass("dev.latvian.mods.kubejs.recipe.RecipeJS");
+const $RecipesEventJS = Java.loadClass("dev.latvian.mods.kubejs.recipe.RecipesEventJS");
 
 /*event.recipes.gtceu.配方类型("id")            
         .itemInputs("物品id","物品id",....)
@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
       recipe.set('duration',newduration/3)
     })
 })
-const GTNNRecipes = Java.loadClass("dev.arbor.gtnn.data.GTNNRecipes")
+const $GTNNRecipes = Java.loadClass("dev.arbor.gtnn.data.GTNNRecipes")
 ServerEvents.recipes(event => {
   event.recipes.gtceu.create_mixer("rose_quartz")
     .itemInputs("minecraft:quartz", "4x minecraft:redstone")
@@ -305,7 +305,7 @@ ServerEvents.recipes(event => {
     .outputFluids(Fluid.of("gtceu:rp_1_mixed_fuel", 1000))
     .inputFluids(Fluid.of("gtceu:oxygen", 2000))
     .circuit(1)
-    .addCondition(GTNNRecipes.INSTANCE.setPlantCasing(5))
+    .addCondition($GTNNRecipes.setPlantCasing(5))
     .EUt(480)
     .duration(300)
   event.recipes.gtceu.hot_coolant_turbine("steam")
@@ -1363,9 +1363,9 @@ ServerEvents.recipes(event => {
     .outputStress(16777216)
     .duration(160)
   event.recipes.gtceu.assembler('fuel_refining_factory_mk1')
-    .itemInputs(['8x gtceu:large_chemical_reactor', '4x gtceu:distillation_tower', '4x gtceu:cracker', '16x gtceu:nichrome_coil_block', '32x gtceu:dense_steel_plate', '32x gtceu:black_steel_frame', '16x #gtceu:circuits/iv'])
+    .itemInputs(['16x gtceu:large_chemical_reactor', '8x gtceu:distillation_tower', '8x gtceu:cracker', '64x gtceu:nichrome_coil_block', '64x gtceu:dense_steel_plate', '64x gtceu:black_steel_frame', '32x #gtceu:circuits/iv'])
     .itemOutputs('gtceu:fuel_refining_factory_mk1')
-    .duration(24000)
+    .duration(48000)
     .EUt(480)
   
 })

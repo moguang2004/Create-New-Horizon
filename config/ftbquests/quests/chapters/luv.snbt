@@ -313,7 +313,7 @@
 				"14C08D2A44860C08"
 			]
 			id: "174B639A9AAA2B4C"
-			subtitle: "中间那一层可以换成聚变玻璃"
+			subtitle: "中间那一层的聚变方块可以换成聚变玻璃"
 			tasks: [{
 				id: "64DF7150FCA7AA06"
 				item: "gtceu:luv_fusion_reactor"
@@ -408,8 +408,9 @@
 				"1B08CB9E24BDF006"
 			]
 			dependency_requirement: "one_completed"
+			description: ["ZPM需要大量的铕，所以你必须搭起你的稀土产线"]
 			id: "355ACD2C8F4E6257"
-			subtitle: "现在有bug，你只能通过稀土来获得铕"
+			subtitle: "最慢的产铕方式"
 			tasks: [{
 				id: "749D46EA3EC36EA1"
 				item: "gtceu:europium_ingot"
@@ -417,6 +418,33 @@
 			}]
 			x: -7.5d
 			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7623D2206370CA76"
+				"355ACD2C8F4E6257"
+			]
+			id: "2ED0A22CE5AE310C"
+			subtitle: "UV时代的超导"
+			tasks: [{
+				id: "29CC53D5854D570D"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["174B639A9AAA2B4C"]
+			id: "6B61A32A2688A834"
+			subtitle: "还没做完"
+			tasks: [{
+				id: "7DBC45B020DD3ECC"
+				item: "gtceu:fusion_reactor_zip_mk1"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
 		}
 	]
 	title: "&dLuV&r时期"
