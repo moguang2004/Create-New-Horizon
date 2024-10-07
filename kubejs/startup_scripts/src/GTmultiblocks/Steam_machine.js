@@ -1,5 +1,3 @@
-const $SteamParallelMultiblockMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.steam.SteamParallelMultiblockMachine")
-const $ItemRecipeCapability = Java.loadClass("com.gregtechceu.gtceu.api.capability.recipe.ItemRecipeCapability")
 GTCEuStartupEvents.registry('gtceu:machine',event =>{
     event.create("steam_piston_hammer", "multiblock", (holder) => new $SteamParallelMultiblockMachine(holder))
         .rotationState(RotationState.ALL)

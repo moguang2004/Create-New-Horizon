@@ -1,7 +1,3 @@
-import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
-import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
-//const IKineticMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.kinetic.IKineticMachine")
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     GTRecipeTypes.register('seaweed_farm','ctnh')
@@ -19,7 +15,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('seaweed_farm')
         .recipeModifier((/**@type {$MetaMachine}*/ machine,/**@type {$GTRecipe}*/ recipe) => {
-            const kineticMachine = machine.getParts().find(part => part instanceof IKineticMachine)
+            const kineticMachine = machine.getParts().find(part => part instanceof $IKineticMachine)
             if (kineticMachine === null) {
                 return null;
             }

@@ -1,6 +1,3 @@
-import { $RegistrateEntityLootTables } from "packages/com/tterrag/registrate/providers/loot/$RegistrateEntityLootTables"
-import { $EntityLootEventJS } from "packages/dev/latvian/mods/kubejs/loot/$EntityLootEventJS"
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('bio_reactor')
         .setEUIO('in')

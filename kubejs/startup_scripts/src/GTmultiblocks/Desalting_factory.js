@@ -1,15 +1,5 @@
 // priority: 96
-const LDLib = Java.loadClass("com.lowdragmc.lowdraglib.LDLib")
-const CycleItemStackHandler = Java.loadClass('com.lowdragmc.lowdraglib.utils.CycleItemStackHandler')
-import { $ICoilType } from "packages/com/gregtechceu/gtceu/api/block/$ICoilType"
-import { $CoilBlock } from "packages/com/gregtechceu/gtceu/common/block/$CoilBlock"
-import { $ArrayList } from "packages/java/util/$ArrayList"
-import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
-    const FormattingUtil = Java.loadClass('com.gregtechceu.gtceu.utils.FormattingUtil')
-    const $ICoilType = Java.loadClass("com.gregtechceu.gtceu.api.block.ICoilType")
-    const $I18n = LDLib.isClient() ? Java.loadClass("net.minecraft.client.resources.language.I18n") : null
     GTRecipeTypes.register('desalting', 'multiblock')
         //.category('ctnh')
         .setEUIO('in')
@@ -22,7 +12,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         })
         .addDataInfo(data => {
             let requiredCoil = $ICoilType.getMinRequiredType(data.getInt("ebf_temp"))
-            if (LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
+            if ($LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
                 return LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
             }
             return ""

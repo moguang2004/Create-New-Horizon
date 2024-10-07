@@ -1,8 +1,6 @@
-let RangedAttribute = Java.loadClass("net.minecraft.world.entity.ai.attributes.RangedAttribute")
-
 StartupEvents.registry('attribute', event => {
     event.createCustom('kubejs:pressure_defense', () => {
-        return new RangedAttribute('kubejs.attribute.pressure_defense', 0, 0, 10).setSyncable(true)
+        return new $RangedAttribute('kubejs.attribute.pressure_defense', 0, 0, 10).setSyncable(true)
     })
 })
 
