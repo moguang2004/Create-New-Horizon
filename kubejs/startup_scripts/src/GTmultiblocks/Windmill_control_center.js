@@ -1,3 +1,5 @@
+const $WindmillBearingBlockEntity = Java.loadClass('com.simibubi.create.content.contraptions.bearing.WindmillBearingBlockEntity')
+
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     GTRecipeTypes.register('windmill_control_center','multiblock')
         .setMaxIOSize(0, 0, 1, 0)

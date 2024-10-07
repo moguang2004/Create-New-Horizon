@@ -1367,5 +1367,9 @@ ServerEvents.recipes(event => {
     .itemOutputs('gtceu:fuel_refining_factory_mk1')
     .duration(48000)
     .EUt(480)
-  
+  event.recipes.gtceu.electric_blast_furnace("guiyanli")
+    .itemInputs(['4x gtceu:naquadah_oxide_mixture_dust'])
+    .itemOutputs(['3x gtceu:naquadah_nugget'])
+    .EUt(6144)
+    .duration(320)
 })
