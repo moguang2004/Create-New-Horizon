@@ -1,13 +1,3 @@
-import { $FoodEatenEventJS } from "packages/dev/latvian/mods/kubejs/item/$FoodEatenEventJS"
-import { $Registry } from "packages/net/minecraft/core/$Registry"
-import { $ServerLevel } from "packages/net/minecraft/server/level/$ServerLevel"
-import { $TagKey } from "packages/net/minecraft/tags/$TagKey"
-import { $EyeOfEnder } from "packages/net/minecraft/world/entity/projectile/$EyeOfEnder"
-import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"
-// const $EyeofEnder = Java.loadClass('net.minecraft.world.entity.projectile.EyeOfEnder')
-// const $Registry = Java.loadClass('net.minecraft.core.Registry')
-// const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')
-//priority 10
 Platform.getInfo('kubejs').name = 'Create: New Horizon'
 
 StartupEvents.registry("item", event => {

@@ -2,7 +2,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     const FormattingUtil = Java.loadClass('com.gregtechceu.gtceu.utils.FormattingUtil')
     const $ICoilType = Java.loadClass("com.gregtechceu.gtceu.api.block.ICoilType")
-    const $I18n = LDLib.isClient() ? Java.loadClass("net.minecraft.client.resources.language.I18n") : null
+    const $I18n = $LDLib.isClient() ? Java.loadClass("net.minecraft.client.resources.language.I18n") : null
     GTRecipeTypes.register('vacuum_sintering', 'multiblock')
         .setEUIO('in')
         .setMaxIOSize(6, 6, 6, 6)
@@ -14,7 +14,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         })
         .addDataInfo(data => {
             let requiredCoil = $ICoilType.getMinRequiredType(data.getInt("ebf_temp"))
-            if (LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
+            if ($LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
                 return LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
             }
             return ""
@@ -37,7 +37,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         })
         .addDataInfo(data => {
             let requiredCoil = $ICoilType.getMinRequiredType(data.getInt("ebf_temp"))
-            if (LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
+            if ($LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
                 return LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
             }
             return ""

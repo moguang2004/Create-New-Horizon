@@ -1,22 +1,11 @@
-import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
-import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
-
-
-const RecipeHelper = Java.loadClass("com.gregtechceu.gtceu.api.recipe.RecipeHelper")
-const StressRecipeCapability = Java.loadClass("com.gregtechceu.gtceu.api.capability.recipe.StressRecipeCapability")
-const ContentModifier = Java.loadClass("com.gregtechceu.gtceu.api.recipe.content.ContentModifier")
-const IKineticMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.kinetic.IKineticMachine")
-const IRotorHolderMachine = Java.loadClass("com.gregtechceu.gtceu.api.machine.feature.multiblock.IRotorHolderMachine")
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     GTRecipeTypes.register('kinetic_steam_turbine','multiblock')
         .setMaxIOSize(0, 0, 1, 1)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_GAS_COLLECTOR, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.TURBINE)
         .addDataInfo(data => {
-            return LocalizationUtils.format('ctnh.stress_output', (data.getFloat('output_stress')).toFixed(1))
+            return $LocalizationUtils.format('ctnh.stress_output', (data.getFloat('output_stress')).toFixed(1))
         })
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
@@ -26,7 +15,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeModifier((/**@type {$MetaMachine}*/ machine,/**@type {$GTRecipe}*/recipe) => {
             let tier = 1
             const modifiedByKinetic = recipe => {
-                const kineticMachine = machine.getParts().find(part => part instanceof IKineticMachine)
+                const kineticMachine = machine.getParts().find(part => part instanceof $IKineticMachine)
                 if (kineticMachine === null) {
                     return null;
                 }
@@ -38,7 +27,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 if (recipe === null) {
                     return null;
                 }
-                const rotorHolder = machine.getParts().find(part => part instanceof IRotorHolderMachine);
+                const rotorHolder = machine.getParts().find(part => part instanceof $IRotorHolderMachine);
                 if (!rotorHolder || !rotorHolder.hasRotor()) {
                     return null;
                 }
@@ -50,12 +39,12 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     lossrate = Math.max(0.5, 1 - (tier - GTValues.HV) * 0.1)
                 }
                 machine.getHolder().self().persistentData.putFloat('lossrate', lossrate)
-                const contentModifier = ContentModifier.of(holderEfficiency * boostRate * boostRate * lossrate, 0);
+                const contentModifier = $ContentModifier.of(holderEfficiency * boostRate * boostRate * lossrate, 0);
                 const copyRecipe = recipe.copy();
-                copyRecipe.outputs.put(StressRecipeCapability.CAP, copyRecipe.copyContents(copyRecipe.outputs, contentModifier).get(StressRecipeCapability.CAP));
+                copyRecipe.outputs.put($StressRecipeCapability.CAP, copyRecipe.copyContents(copyRecipe.outputs, contentModifier).get($StressRecipeCapability.CAP));
                 return copyRecipe;
             }
-            const rotorHolder = machine.getParts().find(part => part instanceof IRotorHolderMachine);
+            const rotorHolder = machine.getParts().find(part => part instanceof $IRotorHolderMachine);
             if (!rotorHolder || !rotorHolder.hasRotor()) {
                 return null;
             }
@@ -65,7 +54,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
          *  @param {Internal.List<Internal.Component>} l
          */
         .additionalDisplay((machine, l) => {
-            const rotorHolder = machine.getParts().find(part => part instanceof IRotorHolderMachine)
+            const rotorHolder = machine.getParts().find(part => part instanceof $IRotorHolderMachine)
             if (!rotorHolder || !rotorHolder.hasRotor()) {
                 return;
             }

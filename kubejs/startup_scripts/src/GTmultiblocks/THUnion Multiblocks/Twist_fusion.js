@@ -6,6 +6,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
     .setSound(GTSoundEntries.TURBINE);
 })
+
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     /**
      * @type {Internal.CustomMultiblockBuilder}

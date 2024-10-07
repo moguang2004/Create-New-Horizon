@@ -1,10 +1,4 @@
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    
-
-	const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
-	const $GTRecipeCapabilities=Java.loadClass('com.gregtechceu.gtceu.common.data.GTRecipeCapabilities');
-    const $ContentModifier=Java.loadClass('com.gregtechceu.gtceu.api.recipe.content.ContentModifier');
-
 	/**
      * @type {Internal.CustomMultiblockBuilder}
      */

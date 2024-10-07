@@ -1,8 +1,3 @@
-import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
-import { $RecipeLogic } from "packages/com/gregtechceu/gtceu/api/machine/trait/$RecipeLogic"
-import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
-import { $FormattingUtil } from "packages/com/gregtechceu/gtceu/utils/$FormattingUtil"
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 	event.create("kinetic_generator")
 		.category("kinetic_generator")
@@ -21,7 +16,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .recipeType("kinetic_generator")
             .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
             .recipeModifier((/**@type {$WorkableElectricMultiblockMachine}*/machine, recipe) => {
-                const kinetic = machine.getParts().find(part => part instanceof IKineticMachine);
+                const kinetic = machine.getParts().find(part => part instanceof $IKineticMachine);
                 if (!kinetic) {
                     return null;
                 }
@@ -40,7 +35,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 machine.getHolder().self().persistentData.putFloat('energyoutput', energyoutput)
                 machine.getHolder().self().persistentData.putFloat('efficiency', efficiency)
                 const modifiedRecipe = recipe.copy();
-                RecipeHelper.setOutputEUt(modifiedRecipe, Math.floor(energyoutput));
+                $RecipeHelper.setOutputEUt(modifiedRecipe, Math.floor(energyoutput));
                 return modifiedRecipe;
             }, true)
             .pattern(definition => FactoryBlockPattern.start()

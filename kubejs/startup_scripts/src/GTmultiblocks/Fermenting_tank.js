@@ -1,29 +1,17 @@
-import { $FluidRecipeCapability } from "packages/com/gregtechceu/gtceu/api/capability/recipe/$FluidRecipeCapability"
-import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
-import { $IMultiPart } from "packages/com/gregtechceu/gtceu/api/machine/feature/multiblock/$IMultiPart"
-import { $MultiblockControllerMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$MultiblockControllerMachine"
-import { $IRecipeHandlerTrait } from "packages/com/gregtechceu/gtceu/api/machine/trait/$IRecipeHandlerTrait"
-import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
-    const FormattingUtil = Java.loadClass('com.gregtechceu.gtceu.utils.FormattingUtil')
-    const $ICoilType = Java.loadClass("com.gregtechceu.gtceu.api.block.ICoilType")
-    const $I18n = LDLib.isClient() ? Java.loadClass("net.minecraft.client.resources.language.I18n") : null
     GTRecipeTypes.register('fermenting', 'multiblock')
-        //.category('ctnh')
         .setEUIO('in')
         .setMaxIOSize(4, 4, 1, 1)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.CHEMICAL)
         .addDataInfo(data => {
-            return LocalizationUtils.format("gtceu.recipe.temperature", FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
+            return $LocalizationUtils.format("gtceu.recipe.temperature", $FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
         })
         .addDataInfo(data => {
             let requiredCoil = $ICoilType.getMinRequiredType(data.getInt("ebf_temp"))
-            if (LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
-                return LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
+            if ($LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
+                return $LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
             }
             return ""
         })
@@ -36,21 +24,16 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         })
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const FluidStack = Java.loadClass('com.lowdragmc.lowdraglib.side.fluid.FluidStack')
-    const FluidHatchPart = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.FluidHatchPartMachine')
-    const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
-    const Temperature = Java.loadClass('com.momosoftworks.coldsweat.api.util.Temperature')
-    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
-    event.create('fermenting_tank', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
+    event.create('fermenting_tank', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fermenting')
         .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe, params, result) => {
             let efficiency = 1
             machine.getParts().forEach((/** @type {$IMultiPart} */part) => {
                 part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) => {
-                    if (trait.getHandlerIO() == IO.IN && trait.getCapability() == $FluidRecipeCapability.CAP) {
+                    if (trait.getHandlerIO() == $IO.IN && trait.getCapability() == $FluidRecipeCapability.CAP) {
                         trait.getContents().forEach((contents) => {
-                            if (contents instanceof FluidStack) {
+                            if (contents instanceof $FluidStack) {
                                 let current = contents.getAmount()
                                 let total = part.getTankCapacity(part.INITIAL_TANK_CAPACITY_1X, part.self().definition.tier)
                                 let density = current / total
@@ -61,7 +44,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     }
                 })
             })
-            let temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
+            let temperature = $Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
             let newrecipe = recipe.copy()
             if (temperature >= 36 && temperature <= 38) {
                 efficiency *= 1.2

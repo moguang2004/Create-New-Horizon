@@ -7,8 +7,6 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
     .setSound(GTSoundEntries.MINER);
 })
-const $RecipeHelper=Java.loadClass('com.gregtechceu.gtceu.api.recipe.RecipeHelper');
-const $GTUtil=Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil');
 function powerBasedParallel(basic, addition) {
     return (machine, recipe, params, result) =>
     {

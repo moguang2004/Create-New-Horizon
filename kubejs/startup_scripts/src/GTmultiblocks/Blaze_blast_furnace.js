@@ -1,7 +1,3 @@
-import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
-import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
-import { $ContentModifier } from "packages/com/gregtechceu/gtceu/api/recipe/content/$ContentModifier"
-
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
     const FluidStack = Java.loadClass('com.lowdragmc.lowdraglib.side.fluid.FluidStack')
