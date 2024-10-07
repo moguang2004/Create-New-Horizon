@@ -1,13 +1,3 @@
-import { $FoodEatenEventJS } from "packages/dev/latvian/mods/kubejs/item/$FoodEatenEventJS"
-import { $Registry } from "packages/net/minecraft/core/$Registry"
-import { $ServerLevel } from "packages/net/minecraft/server/level/$ServerLevel"
-import { $TagKey } from "packages/net/minecraft/tags/$TagKey"
-import { $EyeOfEnder } from "packages/net/minecraft/world/entity/projectile/$EyeOfEnder"
-import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"
-// const $EyeofEnder = Java.loadClass('net.minecraft.world.entity.projectile.EyeOfEnder')
-// const $Registry = Java.loadClass('net.minecraft.core.Registry')
-// const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')
-//priority 10
 Platform.getInfo('kubejs').name = 'Create: New Horizon'
 
 StartupEvents.registry("item", event => {
@@ -212,6 +202,14 @@ StartupEvents.registry("block", event => {
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureAll("kubejs:block/osmiridium_casing")
+    event.create('iridium_casing', 'basic')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+        .textureAll("kubejs:block/iridium_casing")
     event.create('blood_casing', 'basic')
         .noValidSpawns(true)
         .soundType("metal")

@@ -899,10 +899,67 @@ ServerEvents.recipes(event => {
         "BAB"
     ], {
         A: 'gtceu:iv_conveyor_module',
-        B: 'gtceu:crystal_processor',
+        B: '#gtceu:circuits/iv',
         C: 'gtceu:iv_machine_hull',
         D: 'gtceu:iv_electric_pump',
         E: 'gtceu:big_dam'
+    })
+    event.shaped(
+        Item.of('gtceu:greenhouse', 1), [
+        "DED",
+        "ACA",
+        "BAB"
+    ], {
+        A: 'gtceu:double_steel_plate',
+        B: 'gtceu:mv_electric_pump',
+        C: 'gtceu:mv_machine_hull',
+        D: '#gtceu:circuits/mv',
+        E: 'minecraft:glowstone'
+    })
+    event.shaped(
+        Item.of('gtceu:ultrasonic_apparatus', 1), [
+        "ABA",
+        "BCB",
+        "DED"
+    ], {
+        A: 'gtceu:stainless_steel_gear',
+        B: '#gtceu:circuits/hv',
+        C: 'gtceu:hv_machine_hull',
+        D: 'gtceu:hv_electric_pump',
+        E: 'gtceu:stainless_steel_rotor'
+    })
+    event.shaped(
+        Item.of('gtceu:super_centrifuge', 1), [
+        "ABC",
+        "CDE",
+        "ABC"
+    ], {
+        A: 'gtceu:ev_electric_pump',
+        B: 'gtceu:stainless_steel_rotor',
+        C: '#gtceu:circuits/ev',
+        D: 'gtceu:ev_machine_hull',
+        E: 'gtceu:double_titanium_plate'
+    })
+    event.shaped(
+        Item.of('gtceu:bio_reactor', 1), [
+        "ABE",
+        "CDE",
+        "ABE"
+    ], {
+        A: 'gtceu:ev_robot_arm',
+        B: 'gtceu:titanium_rotor',
+        C: '#gtceu:circuits/iv',
+        D: 'kubejs:bio_reactor_casing',
+        E: 'gtceu:uranium_triplatinum_ingot'
+    })
+    event.shaped(
+        Item.of('minecraft:diamond_sword', 1), [
+        "A",
+        "A",
+        "B"
+    ], {
+        A: 'minecraft:diamond',
+        B: 'minecraft:stick'
     })
     
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])

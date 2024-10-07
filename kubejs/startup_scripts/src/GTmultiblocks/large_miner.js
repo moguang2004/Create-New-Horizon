@@ -1,6 +1,5 @@
-const LargeMinerMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.electric.LargeMinerMachine')
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('zpm_large_miner', 'multiblock', holder => LargeMinerMachine(holder, GTValues.ZPM, 64/GTValues.ZPM, 2*GTValues.ZPM - 5,7,6))
+    event.create('zpm_large_miner', 'multiblock', holder => $LargeMinerMachine(holder, GTValues.ZPM, 64/GTValues.ZPM, 2*GTValues.ZPM - 5,7,6))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('macerator')
         //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))

@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "4408EF6F9E2E1624"
 	group: "203B37D7B3ACCD4B"
-	icon: "gtceu:steam_machine_casing"
+	icon: "vintageimprovements:centrifuge"
 	id: "4408EF6F9E2E1624"
 	order_index: 0
 	quest_links: [ ]
@@ -18,8 +18,8 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.5d
+			x: -4.0d
+			y: -2.892857142857153d
 		}
 		{
 			dependencies: [
@@ -32,8 +32,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.0d
+			x: -5.5d
+			y: -1.392857142857153d
 		}
 		{
 			dependencies: [
@@ -41,14 +41,14 @@
 				"543DF835C9FE39CC"
 			]
 			id: "1E74645D87740E1B"
-			subtitle: "必须在盆里压"
+			subtitle: "必须在盆里压。。？"
 			tasks: [{
 				id: "7F6521367459E191"
 				item: "gtceu:andesite_alloy_plate"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6D9003172EF921C9"]
@@ -59,7 +59,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -4.5d
+			y: -2.892857142857153d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
@@ -77,7 +77,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7E591C0E7278D12F"]
@@ -104,8 +104,8 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.5d
+			x: -5.5d
+			y: -2.892857142857153d
 		}
 		{
 			dependencies: ["6DB370790E927958"]
@@ -122,7 +122,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1E74645D87740E1B"]
@@ -136,14 +136,14 @@
 				item: "kubejs:basic_mechanism"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: -5.499999999999993d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "700219157D99E263"
 			rewards: [{
-				count: 4
+				count: 32
 				id: "7781113257352BCC"
 				item: "gtceu:lead_dust"
 				type: "item"
@@ -154,8 +154,8 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -168,7 +168,7 @@
 				item: "gtceu:bronze_dust"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 9.5d
 		}
 		{
@@ -180,7 +180,7 @@
 				item: "gtceu:potin_dust"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.5d
 			y: 9.5d
 		}
 		{
@@ -194,7 +194,7 @@
 				item: "gtceu:brass_dust"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.5d
 			y: 9.5d
 		}
 		{
@@ -207,7 +207,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["556B0E2A00D2DD97"]
@@ -218,7 +218,7 @@
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 11.0d
 		}
 		{
@@ -230,7 +230,7 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 12.5d
 		}
 		{
@@ -242,7 +242,7 @@
 				item: "gtceu:brass_ingot"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.5d
 			y: 11.0d
 		}
 		{
@@ -254,8 +254,8 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 14.0d
+			x: -4.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
@@ -267,7 +267,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7857C9428A51E9BC"]
@@ -277,7 +277,7 @@
 				item: "gtceu:copper_dust"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 8.5d
 		}
 		{
@@ -298,7 +298,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 7.0d
 		}
 		{
@@ -335,7 +335,7 @@
 				}
 			]
 			x: 4.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["25CADEFA5DCB0244"]
@@ -396,7 +396,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -425,18 +425,18 @@
 				{
 					count: 10L
 					id: "4C2278B5EAB1AED4"
-					item: { Count: 10, id: "gtceu:pump_deck" }
+					item: "gtceu:pump_deck"
 					type: "item"
 				}
 				{
 					id: "5BCAC6137CBDB6AF"
-					item: { Count: 10, id: "gtceu:pump_hatch" }
+					item: "gtceu:pump_hatch"
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "3A95F47B87404F50"
-					item: { Count: 10, id: "gtceu:treated_wood_frame" }
+					item: "gtceu:treated_wood_frame"
 					type: "item"
 				}
 			]
@@ -482,13 +482,13 @@
 				{
 					count: 2L
 					id: "51E2D775FC8D7522"
-					item: { Count: 2, id: "minecraft:iron_bars" }
+					item: "minecraft:iron_bars"
 					type: "item"
 				}
 			]
 			title: "烈焰人召唤"
 			x: 8.5d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["28D6FA3341B59AA4"]
@@ -498,8 +498,8 @@
 				item: "gtceu:potin_gear"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 11.0d
+			x: -10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
@@ -517,8 +517,8 @@
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -6.0d
+			x: -5.499999999999993d
+			y: -5.0d
 		}
 		{
 			dependencies: ["25CADEFA5DCB0244"]
@@ -530,7 +530,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			description: ["记得摆满16个LV应力输出仓才能将所有应力全部输出"]
@@ -542,7 +542,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 15.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5BB3CF765E9C93D4"]
@@ -604,11 +604,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"6971EC4F31A1F469"
-				"62EF732FB4F858C8"
-				"4BCCA322FC238071"
-			]
+			dependencies: ["2601533658029CE8"]
 			description: ["    蒸汽小机器每运行一次，都会需要进行一次排气。&4每个机器都有一个排气孔&r，如果你堵住了这个排气孔，那么机器运行一次配方后就会中止，此时&a你需要找到这个排气孔，用扳手调整它的位置&r，才能让机器正常运行下去。"]
 			id: "5CF2A3DF0B2E6729"
 			tasks: [{
@@ -617,8 +613,8 @@
 				type: "checkmark"
 			}]
 			title: "格雷小课堂：蒸汽机器"
-			x: -12.5d
-			y: 4.5d
+			x: -6.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["6DB370790E927958"]
@@ -628,8 +624,8 @@
 				item: "gtceu:bronze_plate"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -1.5d
+			x: -15.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -643,8 +639,8 @@
 				item: "gtceu:bronze_brick_casing"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 1.0d
+			x: -15.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["3CEE67AB21E05293"]
@@ -655,8 +651,8 @@
 				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 3.0d
+			x: -17.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["3C308B7405CFD88F"]
@@ -667,8 +663,8 @@
 				item: "gtceu:lp_steam_liquid_boiler"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 2.5d
+			x: -16.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["3C308B7405CFD88F"]
@@ -680,8 +676,8 @@
 				item: "gtceu:lp_steam_solar_boiler"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 3.0d
+			x: -15.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["5CF2A3DF0B2E6729"]
@@ -691,8 +687,8 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 7.0d
+			x: -7.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["5CF2A3DF0B2E6729"]
@@ -703,10 +699,13 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 7.0d
+			y: 24.5d
 		}
 		{
-			dependencies: ["7256DB5E60516156"]
+			dependencies: [
+				"2BCE6D5336CADE73"
+				"497999198D773D40"
+			]
 			id: "49B597AA5C08DC1E"
 			tasks: [{
 				id: "2D390AB894B7C98C"
@@ -714,10 +713,11 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 9.0d
+			y: 18.0d
 		}
 		{
-			dependencies: ["5CF2A3DF0B2E6729"]
+			dependencies: ["4127654B8D3A73BC"]
+			description: ["不爬线的话，蒸汽也就取暖用了"]
 			id: "14FF729916CDD0DA"
 			subtitle: "输入蒸汽即可供暖！"
 			tasks: [{
@@ -725,8 +725,8 @@
 				item: "ctnhcore:underfloor_heating_system"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 4.5d
+			x: -18.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["7C9B89066D34939E"]
@@ -761,8 +761,8 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 16.0d
+			x: -4.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2B430B944944D2C1"]
@@ -772,7 +772,7 @@
 				item: "gtceu:brass_plate"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.5d
 			y: 12.5d
 		}
 		{
@@ -783,8 +783,8 @@
 				item: "minecraft:bricks"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 1.0d
+			x: -17.0d
+			y: 18.0d
 		}
 		{
 			id: "39C2B774D392AA8F"
@@ -807,8 +807,8 @@
 				}
 			]
 			title: "制砖"
-			x: -14.0d
-			y: -1.5d
+			x: -17.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["5CF2A3DF0B2E6729"]
@@ -818,8 +818,8 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 7.0d
+			x: -5.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["5CF2A3DF0B2E6729"]
@@ -830,8 +830,8 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 7.0d
+			x: -4.5d
+			y: 24.5d
 		}
 		{
 			dependencies: [
@@ -846,8 +846,8 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 16.0d
+			x: -6.5d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -862,8 +862,8 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 16.0d
+			x: -8.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["57B6D6BFE7577AFA"]
@@ -875,18 +875,21 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 16.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["106DC15191737D98"]
+			dependencies: [
+				"6CDD36A3C742B7F2"
+				"106DC15191737D98"
+			]
 			id: "156B500126054BC2"
 			tasks: [{
 				id: "12FCB62B90907890"
 				item: "createoreexcavation:drilling_machine"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 17.5d
+			x: -4.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["156B500126054BC2"]
@@ -901,8 +904,8 @@
 				title: "矿脉"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: 19.0d
+			x: -4.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["6EADC71354FF9E80"]
@@ -913,8 +916,8 @@
 				title: "液体输入"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: 20.5d
+			x: -5.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["6EADC71354FF9E80"]
@@ -925,8 +928,8 @@
 				title: "应力输入"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 20.5d
+			x: -3.5d
+			y: 20.0d
 		}
 		{
 			id: "10B1EE4638BC3203"
@@ -936,11 +939,11 @@
 				item: "createoreexcavation:vein_finder"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 20.5d
+			x: -4.5d
+			y: 20.0d
 		}
 		{
-			dependencies: ["106DC15191737D98"]
+			dependencies: ["6CDD36A3C742B7F2"]
 			id: "2237A624EA40A81C"
 			subtitle: "放下面"
 			tasks: [{
@@ -948,8 +951,8 @@
 				item: "createmetallurgy:foundry_basin"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 17.5d
+			x: -8.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2237A624EA40A81C"]
@@ -960,23 +963,11 @@
 				item: "createmetallurgy:foundry_lid"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 19.0d
+			x: -8.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["04069333A19D2DB3"]
-			id: "16AD634049BD4112"
-			subtitle: "碎矿都可以丢进来煮"
-			tasks: [{
-				id: "2955ABF47516E81E"
-				title: "矿物熔炼"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 20.5d
-		}
-		{
-			dependencies: ["16AD634049BD4112"]
 			id: "5EA4B56083875D56"
 			subtitle: "用于合金的搅拌机"
 			tasks: [{
@@ -984,8 +975,8 @@
 				item: "createmetallurgy:foundry_mixer"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 22.0d
+			x: -8.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -997,8 +988,8 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 17.5d
+			x: -2.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["4EAE423454479E42"]
@@ -1018,8 +1009,8 @@
 				type: "item"
 			}]
 			title: "粉碎矿物"
-			x: -0.5d
-			y: 19.0d
+			x: -2.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["3035A92235772F73"]
@@ -1039,8 +1030,8 @@
 				type: "item"
 			}]
 			title: "再次粉碎的矿物"
-			x: -0.5d
-			y: 20.5d
+			x: -2.5d
+			y: 20.0d
 		}
 		{
 			dependencies: [
@@ -1060,7 +1051,7 @@
 				title: "Any #forge:dusts"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.5d
 			y: 22.0d
 		}
 		{
@@ -1083,8 +1074,8 @@
 				type: "item"
 			}]
 			title: "洗净的碎矿"
-			x: 1.5d
-			y: 20.5d
+			x: -0.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -1094,8 +1085,8 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 17.5d
+			x: -0.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["3AE55A55A5EBBA5A"]
@@ -1113,7 +1104,7 @@
 				type: "item"
 			}]
 			title: "宝石矿物处理"
-			x: 1.5d
+			x: -0.5d
 			y: 22.0d
 		}
 		{
@@ -1132,7 +1123,7 @@
 				type: "item"
 			}]
 			title: "锭矿物处理"
-			x: 2.5d
+			x: 1.5d
 			y: 22.0d
 		}
 		{
@@ -1143,8 +1134,8 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: -16.5d
-			y: 7.0d
+			x: -6.5d
+			y: 24.5d
 		}
 		{
 			description: [
@@ -1181,8 +1172,8 @@
 				type: "item"
 			}]
 			title: "前往毒穴"
-			x: -9.5d
-			y: 16.0d
+			x: -8.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1197,14 +1188,13 @@
 				item: "createoreexcavation:sample_drill"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -4.5d
 			y: 22.0d
 		}
 		{
 			dependencies: [
-				"42DC74BF8FB5723A"
-				"77853271AECF4F7C"
 				"49B597AA5C08DC1E"
+				"5EA4B56083875D56"
 			]
 			id: "6F4DA29DA86EAFCD"
 			tasks: [{
@@ -1213,35 +1203,18 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 11.0d
+			y: 20.0d
 		}
 		{
-			dependencies: [
-				"3CEE67AB21E05293"
-				"39C2B774D392AA8F"
-			]
-			id: "58A8E868AAAFD916"
-			tasks: [{
-				id: "2F35CE556FDA2B3B"
-				item: "gtceu:fireclay_dust"
-				type: "item"
-			}]
-			x: -18.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"58A8E868AAAFD916"
-				"3D8EB8D17BDB05C3"
-			]
+			dependencies: ["1BDD550BE6C77C28"]
 			id: "37BD0BB07046E310"
 			tasks: [{
-				id: "76E31E35504063CE"
-				item: "gtceu:firebrick"
+				id: "055B89C3A9C6A200"
+				item: "gtceu:compressed_fireclay"
 				type: "item"
 			}]
-			x: -18.5d
-			y: 7.0d
+			x: -12.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["37BD0BB07046E310"]
@@ -1259,8 +1232,8 @@
 					type: "item"
 				}
 			]
-			x: -18.5d
-			y: 9.0d
+			x: -12.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["6FDDD78D3F1CD965"]
@@ -1281,19 +1254,26 @@
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: -18.5d
-			y: 11.0d
+			x: -12.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "713CA44106751CCA"
-			tasks: [{
-				id: "5D1BAF9CE51E4E1A"
-				item: "createmetallurgy:mechanical_belt_grinder"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 4.5d
+			tasks: [
+				{
+					id: "5D1BAF9CE51E4E1A"
+					item: "createmetallurgy:mechanical_belt_grinder"
+					type: "item"
+				}
+				{
+					id: "0C7935C9EFEC7860"
+					item: "vintageimprovements:belt_grinder"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 5.0d
 		}
 		{
 			id: "563D74DC666F2A57"
@@ -1306,6 +1286,220 @@
 			x: 7.5d
 			y: 10.5d
 		}
+		{
+			dependencies: ["5E5F4837CC1F047A"]
+			id: "6A9845F85704E2D4"
+			tasks: [{
+				id: "1F36789281D83E9C"
+				item: "vintageimprovements:spring_coiling_machine"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"06C3AF2D5D8F694A"
+				"1454540D8B7CCBF4"
+			]
+			description: ["毕竟用的盆"]
+			id: "2BCE6D5336CADE73"
+			subtitle: "只能离心固体材料"
+			tasks: [{
+				id: "3C9A794EF37BA853"
+				item: "vintageimprovements:centrifuge"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["06C3AF2D5D8F694A"]
+			id: "01CC0041CF5F9033"
+			tasks: [{
+				id: "7B6EF3315A316D5F"
+				item: "vintageimprovements:vibrating_table"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6CDD36A3C742B7F2"]
+			id: "5B9EBE5F72944F67"
+			tasks: [{
+				id: "38330AE664405CCF"
+				item: "vintageimprovements:lathe"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["06C3AF2D5D8F694A"]
+			id: "1BDD550BE6C77C28"
+			tasks: [{
+				id: "0C354596F30588B4"
+				item: "vintageimprovements:vacuum_chamber"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 16.5d
+		}
+		{
+			id: "1355E39685C1D869"
+			tasks: [
+				{
+					id: "4256BEE90FBF79E1"
+					item: "ratatouille:oven"
+					type: "item"
+				}
+				{
+					id: "2A6AB7F6D6AC22CF"
+					item: "ratatouille:oven_fan"
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 10.0d
+		}
+		{
+			id: "0C60E3BA1869A7FE"
+			tasks: [{
+				id: "6474B6F5F0E56B85"
+				item: "ratatouille:thresher"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 10.0d
+		}
+		{
+			id: "57B8F75CDB950EEF"
+			tasks: [{
+				id: "7F42007943E593B7"
+				item: "ratatouille:mechanical_demolder"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 9.0d
+		}
+		{
+			id: "4A15A32553C1CA0F"
+			tasks: [{
+				id: "2AAA570BF4C3FA8F"
+				item: "ratatouille:squeeze_basin"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 11.0d
+		}
+		{
+			id: "39A2C42321199166"
+			tasks: [{
+				id: "4677AE7B8F8A0B7B"
+				item: "ratatouille:irrigation_tower"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 9.0d
+		}
+		{
+			id: "62BE5C74A1DA431D"
+			tasks: [{
+				id: "3814AC465FB8FE72"
+				item: "ratatouille:spreader"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			id: "71CE884BE8472BE3"
+			tasks: [{
+				id: "428AF84CD4235CB5"
+				item: "ratatouille:frozen_block"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["53172FDEC289671A"]
+			id: "2601533658029CE8"
+			tasks: [{
+				id: "2F675F714AF56F2D"
+				item: "gtceu:bronze_small_fluid_pipe"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["6A9845F85704E2D4"]
+			id: "06C3AF2D5D8F694A"
+			tasks: [{
+				id: "2C0193BAFB8F66BA"
+				item: "vintageimprovements:iron_spring"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"62EF732FB4F858C8"
+				"6971EC4F31A1F469"
+				"4BCCA322FC238071"
+			]
+			description: [
+				"锅炉需要水和燃料，在温度上升以后产出蒸汽。"
+				"&4切忌向高温无水锅炉泵入水，否则将会爆炸&r，"
+				"&a你可以通过各种管道实现自动化，试试看吧&r。"
+			]
+			id: "4127654B8D3A73BC"
+			tasks: [{
+				id: "398D21EC1AB4A0B4"
+				title: "蒸汽发生器"
+				type: "checkmark"
+			}]
+			title: "关于蒸汽锅炉"
+			x: -16.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5E5F4837CC1F047A"]
+			id: "66616CA6C0C95B0B"
+			subtitle: "臭臭的"
+			tasks: [{
+				id: "767215D7A25C05EF"
+				item: "gtceu:meadow"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B9EBE5F72944F67"]
+			id: "53172FDEC289671A"
+			tasks: [{
+				id: "2A57A8B1C9D6AC6F"
+				item: "vintageimprovements:curving_press"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["06C3AF2D5D8F694A"]
+			id: "497999198D773D40"
+			tasks: [{
+				id: "13D66DE408F1EA39"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 18.0d
+		}
 	]
-	title: "蒸汽时代"
+	title: "齿轮力量"
 }

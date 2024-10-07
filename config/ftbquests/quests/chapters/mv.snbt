@@ -431,12 +431,19 @@
 				"22A82D3281551181"
 			]
 			id: "5A55D491F0E9F389"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1939DA6E776D1004"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1939DA6E776D1004"
+					table_id: 5863108397808417557L
+					type: "random"
+				}
+				{
+					command: "/gamephase add @p end"
+					id: "345886DE08824767"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "7BAD7E832FEF40F0"
 				item: "minecraft:ender_eye"
@@ -697,6 +704,11 @@
 		{
 			dependencies: ["35FC625257013116"]
 			id: "415AF3F977F4C3F9"
+			rewards: [{
+				command: "/gamephase add @p aether"
+				id: "47B4C1C8E27B98A0"
+				type: "command"
+			}]
 			tasks: [{
 				id: "0C901293ECFB769A"
 				item: {
@@ -1100,6 +1112,46 @@
 			}]
 			x: 6.0d
 			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5A55D491F0E9F389"]
+			id: "05969156583DEA39"
+			rewards: [{
+				command: "/gamephase add @p end"
+				id: "185A75163AB07083"
+				type: "command"
+			}]
+			tasks: [{
+				id: "044C977207158306"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["415AF3F977F4C3F9"]
+			id: "4117277DAB11C148"
+			rewards: [{
+				command: "/gamephase add @p aether"
+				id: "41EA21F13F114E42"
+				type: "command"
+			}]
+			tasks: [{
+				id: "68ACC3C744E483E7"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.5d
 		}
 	]
 	title: "&bMV&r时期"

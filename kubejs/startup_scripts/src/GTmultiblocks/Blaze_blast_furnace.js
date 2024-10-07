@@ -1,7 +1,3 @@
-import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
-import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
-import { $ContentModifier } from "packages/com/gregtechceu/gtceu/api/recipe/content/$ContentModifier"
-
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
     const FluidStack = Java.loadClass('com.lowdragmc.lowdraglib.side.fluid.FluidStack')
@@ -16,15 +12,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             let newrecipe = recipe.copy()
             newrecipe.tickInputs.put(EURecipeCapability.CAP, newrecipe.copyContents(newrecipe.tickInputs, $ContentModifier.of(0.75, 0)).get(EURecipeCapability.CAP))
             newrecipe = GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
-            return GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
-        })
-        .recipeModifier((machine, recipe, params, result) => {
-            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
-            let parallel = 8
-            if (newrecipe.duration < 1) {
-                parallel = 8 / newrecipe.duration
-            }
-            return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
+            return GTRecipeModifiers.ebfOverclock(machine, newrecipe, params, result)
         })
         //.appearanceBlock('kubejs:blaze_blast_frunace_casing')
         .pattern(definition => FactoryBlockPattern.start()

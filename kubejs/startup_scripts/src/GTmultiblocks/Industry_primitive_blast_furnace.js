@@ -1,10 +1,3 @@
-import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
-import { $WorkableMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableMultiblockMachine"
-import { $LocalTime } from "packages/java/time/$LocalTime"
-import { $TickingTracker } from "packages/net/minecraft/server/level/$TickingTracker"
-import { $LevelTicks } from "packages/net/minecraft/world/ticks/$LevelTicks"
-import { $LivingEvent$LivingTickEvent } from "packages/net/minecraftforge/event/entity/living/$LivingEvent$LivingTickEvent"
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('industrial_primitive_blast_furnace')
         .setEUIO('in')
