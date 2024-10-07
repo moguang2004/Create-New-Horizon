@@ -8,9 +8,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
-    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
-    event.create("kinetic_generator", "multiblock", holder => new CoilWorkableElectricMultiblockMachine(holder))
+    event.create("kinetic_generator", "multiblock", holder => new $CoilWorkableElectricMultiblockMachine(holder))
             .rotationState(RotationState.NON_Y_AXIS)
             .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
             .recipeType("kinetic_generator")

@@ -8,13 +8,12 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const Temperature = Java.loadClass('com.momosoftworks.coldsweat.api.util.Temperature')
     event.create('digestion_tank', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('digesting')
         .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe) => {
             let efficiency = 1
-            let temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
+            let temperature = $Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
             let newrecipe = recipe.copy()
             if (temperature >= 36 && temperature <= 38) {
                 efficiency *= 1.2
@@ -54,11 +53,11 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             if (machine.isFormed()) {
                 let temperature = machine.getHolder().self().persistentData.getFloat('temperature')
                 if(temperature == null){
-                    temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
+                    temperature = $Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
                 }
                 else{
                     if(machine.getOffsetTimer() % 20 == 0){
-                        temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
+                        temperature = $Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
                     }
                 }
                 let efficiency = machine.getHolder().self().persistentData.getFloat('growth_efficiency')

@@ -1,12 +1,11 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     GTRecipeTypes.register('seaweed_farm','ctnh')
         .setMaxIOSize(2, 4, 0, 1)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.BATH)
         .addDataInfo(data => {
-            return LocalizationUtils.format('ctnh.stress_input', (data.getFloat('input_stress')).toFixed(1))
+            return $LocalizationUtils.format('ctnh.stress_input', (data.getFloat('input_stress')).toFixed(1))
         })
 })
 

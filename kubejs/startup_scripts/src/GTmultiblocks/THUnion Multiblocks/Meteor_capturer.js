@@ -29,7 +29,7 @@ function powerBasedParallel(basic, addition) {
         }    
     }
 } 
-const $RecipeModifierList=Java.loadClass('com.gregtechceu.gtceu.api.recipe.modifier.RecipeModifierList');
+
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     /**
      * @type {Internal.CustomMultiblockBuilder}

@@ -7,7 +7,6 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.FURNACE)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const Temperature = Java.loadClass('com.momosoftworks.coldsweat.api.util.Temperature')
     event.create('industrial_primitive_blast_furnace', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('primitive_blast_furnace')

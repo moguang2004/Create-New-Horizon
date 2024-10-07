@@ -1,5 +1,3 @@
-const $WindmillBearingBlockEntity = Java.loadClass('com.simibubi.create.content.contraptions.bearing.WindmillBearingBlockEntity')
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     GTRecipeTypes.register('windmill_control_center','multiblock')
         .setMaxIOSize(0, 0, 1, 0)
@@ -7,7 +5,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_GAS_COLLECTOR, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.TURBINE)
         .addDataInfo(data => {
-            return LocalizationUtils.format('ctnh.stress_output', (data.getFloat('output_stress')).toFixed(1))
+            return $LocalizationUtils.format('ctnh.stress_output', (data.getFloat('output_stress')).toFixed(1))
         })
 })
 

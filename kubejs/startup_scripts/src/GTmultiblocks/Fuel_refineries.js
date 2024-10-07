@@ -1,8 +1,4 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
-    const FormattingUtil = Java.loadClass('com.gregtechceu.gtceu.utils.FormattingUtil')
-    const $ICoilType = Java.loadClass("com.gregtechceu.gtceu.api.block.ICoilType")
-    const $I18n = LDLib.isClient() ? Java.loadClass("net.minecraft.client.resources.language.I18n") : null
     GTRecipeTypes.register('fuel_refining_mk1', 'multiblock')
         //.category('ctnh')
         .setEUIO('in')
@@ -11,12 +7,12 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ELECTROLYZER)
         .addDataInfo(data => {
-            return LocalizationUtils.format("gtceu.recipe.temperature", FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
+            return $LocalizationUtils.format("gtceu.recipe.temperature", $FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
         })
         .addDataInfo(data => {
             let requiredCoil = $ICoilType.getMinRequiredType(data.getInt("ebf_temp"))
             if (LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
-                return LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
+                return $LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
             }
             return ""
         })
@@ -29,8 +25,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         })
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
-    event.create('fuel_refining_factory_mk1', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
+    event.create('fuel_refining_factory_mk1', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fuel_refining_mk1')
         .recipeModifier((machine, recipe, params, result) => {
@@ -82,10 +77,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_solid_steel', 'gtceu:block/multiblock/fusion_reactor', false)
 })
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
-    const FormattingUtil = Java.loadClass('com.gregtechceu.gtceu.utils.FormattingUtil')
-    const $ICoilType = Java.loadClass("com.gregtechceu.gtceu.api.block.ICoilType")
-    const $I18n = LDLib.isClient() ? Java.loadClass("net.minecraft.client.resources.language.I18n") : null
     GTRecipeTypes.register('fuel_refining_mk2', 'multiblock')
         //.category('ctnh')
         .setEUIO('in')
@@ -94,12 +85,12 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ELECTROLYZER)
         .addDataInfo(data => {
-            return LocalizationUtils.format("gtceu.recipe.temperature", FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
+            return $LocalizationUtils.format("gtceu.recipe.temperature", $FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
         })
         .addDataInfo(data => {
             let requiredCoil = $ICoilType.getMinRequiredType(data.getInt("ebf_temp"))
             if (LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
-                return LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
+                return $LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
             }
             return ""
         })
@@ -112,8 +103,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         })
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
-    event.create('fuel_refining_factory_mk2', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
+    event.create('fuel_refining_factory_mk2', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fuel_refining_mk1')
         .recipeType('fuel_refining_mk2')
