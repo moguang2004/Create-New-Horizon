@@ -14,11 +14,6 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    
-    const $SimpleTieredMachine=Java.loadClass("com.gregtechceu.gtceu.api.machine.SimpleTieredMachine")
-    const $GTRecipeCapabilities=Java.loadClass('com.gregtechceu.gtceu.common.data.GTRecipeCapabilities');
-    const $WorkableTieredMachine=Java.loadClass('com.gregtechceu.gtceu.api.machine.WorkableTieredMachine');
-    const $ContentModifier=Java.loadClass('com.gregtechceu.gtceu.api.recipe.content.ContentModifier');
     /**
      * @type {Internal.MachineBuilder}
      */
