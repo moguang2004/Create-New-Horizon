@@ -184,8 +184,10 @@ ServerEvents.recipes(event => {
         'gtceu:shaped/basic_circuit_board',
         'gtceu:shaped/good_circuit_board'
     ])
+  })
 
 //激光加工机序列制造覆膜印刷&酚醛树脂印刷电路基板配方
+ServerEvents.recipes(event => {
     let transitional = 'gtceu:wood_plate'
     event.recipes.create.sequenced_assembly([
         'gtceu:resin_printed_circuit_board'
@@ -204,9 +206,9 @@ ServerEvents.recipes(event => {
         'gtceu:resin_printed_circuit_board'
         ], 'gtceu:resin_circuit_board', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:copper_foil']),
-    event.recipes.vintageimprovementsLaserCutting(transitional, transitional),
+    event.recipes.vintageimprovementsLaserCutting(transitional,[transitional]).energyCost(10000).maxChargeRate(5000),
     event.recipes.createPressing(transitional, [transitional]),
-        ]).transitionalItem(transitional)
+        ]).transitionalItem('gtceu:resin_circuit_board')
         .loops(4)
 })
 
@@ -242,7 +244,6 @@ ServerEvents.recipes(event => {
         "create:kjs/c5uad6px9c5uby4p7uol43ts4",
         ])
 //替代为↓（从源文件复制修改的）
-ServerEvents.recipes(event =>{
     event.custom({
       "type": "create:sequenced_assembly",
       "ingredient": {
@@ -379,7 +380,7 @@ ServerEvents.recipes(event =>{
         "item": "gtceu:good_electronic_circuit"
       }
     })
-  })
+
 //粉碎轮出木浆
     event.recipes.create.crushing([Item.of('gtceu:wood_dust').withChance(0.8)], '#minecraft:logs')
     event.recipes.create.crushing([Item.of('gtceu:wood_dust').withChance(0.4)], '#minecraft:planks')
