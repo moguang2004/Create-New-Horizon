@@ -54,4 +54,21 @@ ServerEvents.recipes(event => {
     C: '#forge:tools/wrenches',
     D: 'gtceu:staballoy_frame'
   })
+  event.shaped(
+    Item.of('gtceu:sturdy_machine_casing', 2), [
+    "ABA",
+    "ADA",
+    "ACA"
+  ], {
+    A: 'gtceu:hsss_plate',
+    B: '#forge:tools/hammers',
+    C: '#forge:tools/wrenches',
+    D: 'gtceu:tungsten_carbide_frame'
+  })
+  ctnh.assembler('gtceu:sturdy_machine_casing')
+    .itemInputs(['6x gtceu:hsss_plate', 'gtceu:tungsten_carbide_frame'])
+    .circuit(6)
+    .itemOutputs('2x gtceu:sturdy_machine_casing')
+    .EUt(16)
+    .duration(50)
 })

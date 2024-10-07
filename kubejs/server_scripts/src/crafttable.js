@@ -952,6 +952,15 @@ ServerEvents.recipes(event => {
         D: 'kubejs:bio_reactor_casing',
         E: 'gtceu:uranium_triplatinum_ingot'
     })
+    event.shaped(
+        Item.of('minecraft:diamond_sword', 1), [
+        "A",
+        "A",
+        "B"
+    ], {
+        A: 'minecraft:diamond',
+        B: 'minecraft:stick'
+    })
 
     
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
