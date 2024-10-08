@@ -604,16 +604,12 @@
 			y: 14.0d
 		}
 		{
-<<<<<<< HEAD
-			dependencies: ["2601533658029CE8"]
-=======
 			dependencies: [
 				"6971EC4F31A1F469"
 				"62EF732FB4F858C8"
 				"4BCCA322FC238071"
 			]
 			dependency_requirement: "one_completed"
->>>>>>> 0812293885869e6e0598902b805c063ccc553ee7
 			description: ["    蒸汽小机器每运行一次，都会需要进行一次排气。&4每个机器都有一个排气孔&r，如果你堵住了这个排气孔，那么机器运行一次配方后就会中止，此时&a你需要找到这个排气孔，用扳手调整它的位置&r，才能让机器正常运行下去。"]
 			id: "5CF2A3DF0B2E6729"
 			tasks: [{
