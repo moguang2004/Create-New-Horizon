@@ -1,8 +1,3 @@
-import { $MetaMachine } from "packages/com/gregtechceu/gtceu/api/machine/$MetaMachine"
-import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
-import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
-const ManaLargeTurbineMachine = Java.loadClass("io.github.cpearl0.ctnhcore.common.machine.multiblock.ManaLargeTurbineMachine")
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('mana_generator')
         .category('ctnh')
@@ -12,10 +7,10 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.TURBINE)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('mana_generator_turbine_tier1', 'multiblock', holder => new ManaLargeTurbineMachine(holder,256,GTValues.MV))
+    event.create('mana_generator_turbine_tier1', 'multiblock', holder => new $ManaLargeTurbineMachine(holder,256,GTValues.MV))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('mana_generator')
-        .recipeModifier((machine, recipe) => ManaLargeTurbineMachine.recipeModifier(machine, recipe), true)
+        .recipeModifier((machine, recipe) => $ManaLargeTurbineMachine.recipeModifier(machine, recipe), true)
         .appearanceBlock(() => Block.getBlock('kubejs:mana_steel_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("AAAA", "ASSA", "AAAA")
@@ -33,7 +28,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build()
         )
         .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine, recipe) => {
-            const rotorHolder = machine.getParts().find(part => part instanceof IRotorHolderMachine)
+            const rotorHolder = machine.getParts().find(part => part instanceof $IRotorHolderMachine)
             if (!rotorHolder || !rotorHolder.hasRotor()) {
                 return false;
             }
@@ -46,10 +41,10 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer('kubejs:block/mana_steel_casing', 'gtceu:block/multiblock/generator/large_steam_turbine', false)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('mana_generator_turbine_tier2', 'multiblock', holder => new ManaLargeTurbineMachine(holder, 512 ,GTValues.MV))
+    event.create('mana_generator_turbine_tier2', 'multiblock', holder => new $ManaLargeTurbineMachine(holder, 512 ,GTValues.MV))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('mana_generator')
-        .recipeModifier((machine, recipe) => ManaLargeTurbineMachine.recipeModifier(machine, recipe), true)
+        .recipeModifier((machine, recipe) => $ManaLargeTurbineMachine.recipeModifier(machine, recipe), true)
         .appearanceBlock(() => Block.getBlock('kubejs:elementium_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("AAAA", "ASSA", "AAAA")
@@ -67,7 +62,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build()
         )
         .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine, recipe) => {
-            const rotorHolder = machine.getParts().find(part => part instanceof IRotorHolderMachine)
+            const rotorHolder = machine.getParts().find(part => part instanceof $IRotorHolderMachine)
             if (!rotorHolder || !rotorHolder.hasRotor()) {
                 return false;
             }
@@ -80,10 +75,10 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer('kubejs:block/elementium_casing', 'gtceu:block/multiblock/generator/large_steam_turbine', false)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('mana_generator_turbine_tier3', 'multiblock', holder => new ManaLargeTurbineMachine(holder,2048 ,GTValues.HV))
+    event.create('mana_generator_turbine_tier3', 'multiblock', holder => new $ManaLargeTurbineMachine(holder,2048 ,GTValues.HV))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('mana_generator')
-        .recipeModifier((machine, recipe) => ManaLargeTurbineMachine.recipeModifier(machine, recipe), true)
+        .recipeModifier((machine, recipe) => $ManaLargeTurbineMachine.recipeModifier(machine, recipe), true)
         .appearanceBlock(() => Block.getBlock('kubejs:terra_steel_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("AAAA", "ASSA", "AAAA")
@@ -101,7 +96,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build()
         )
         .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine, recipe) => {
-            const rotorHolder = machine.getParts().find(part => part instanceof IRotorHolderMachine)
+            const rotorHolder = machine.getParts().find(part => part instanceof $IRotorHolderMachine)
             if (!rotorHolder || !rotorHolder.hasRotor()) {
                 return false;
             }
@@ -114,10 +109,10 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer('kubejs:block/terra_steel_casing', 'gtceu:block/multiblock/generator/large_steam_turbine', false)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('mana_generator_turbine_tier4', 'multiblock', holder => new ManaLargeTurbineMachine(holder,8192 ,GTValues.EV))
+    event.create('mana_generator_turbine_tier4', 'multiblock', holder => new $ManaLargeTurbineMachine(holder,8192 ,GTValues.EV))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('mana_generator')
-        .recipeModifier((machine, recipe) => ManaLargeTurbineMachine.recipeModifier(machine, recipe), true)
+        .recipeModifier((machine, recipe) => $ManaLargeTurbineMachine.recipeModifier(machine, recipe), true)
         .appearanceBlock(() => Block.getBlock('kubejs:alfsteel_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("AAAA", "ASSA", "AAAA")
@@ -135,7 +130,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build()
         )
         .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine, recipe) => {
-            const rotorHolder = machine.getParts().find(part => part instanceof IRotorHolderMachine)
+            const rotorHolder = machine.getParts().find(part => part instanceof $IRotorHolderMachine)
             if (!rotorHolder || !rotorHolder.hasRotor()) {
                 return false;
             }

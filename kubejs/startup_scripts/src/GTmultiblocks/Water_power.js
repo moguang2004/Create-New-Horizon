@@ -1,7 +1,3 @@
-import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
-import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
-import { $FormattingUtil } from "packages/com/gregtechceu/gtceu/utils/$FormattingUtil"
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('water_power')
         .category('ctnh')
@@ -11,10 +7,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.COOLING)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const EURecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.EURecipeCapability')
-    const $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
-    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
-    event.create('water_power_station', 'multiblock', holder => new CoilWorkableElectricMultiblockMachine(holder))
+    event.create('water_power_station', 'multiblock', holder => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('water_power')
         .recipeModifier((machine, /**@type {$GTRecipe}*/recipe) => {
@@ -25,7 +18,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 water = 0
             }
             let newrecipe = recipe.copy()
-            newrecipe.tickOutputs.put(EURecipeCapability.CAP, newrecipe.copyContents(newrecipe.tickOutputs, ContentModifier.of(water * random * efficiency / 100, 0)).get(EURecipeCapability.CAP))
+            newrecipe.tickOutputs.put($EURecipeCapability.CAP, newrecipe.copyContents(newrecipe.tickOutputs, $ContentModifier.of(water * random * efficiency / 100, 0)).get($EURecipeCapability.CAP))
             machine.getHolder().self().persistentData.putFloat('energy', water * random * 32 / 100)
             machine.getHolder().self().persistentData.putFloat('efficiency', efficiency)
             return newrecipe

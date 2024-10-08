@@ -8,8 +8,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
-    event.create('ultrasonic_apparatus', 'multiblock',holder => new CoilWorkableElectricMultiblockMachine(holder))
+    event.create('ultrasonic_apparatus', 'multiblock',holder => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('ultrasonication')
         .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
@@ -25,7 +24,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("F",Predicates.blocks("gtceu:clean_machine_casing")
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1)))
-            .where("@", Predicates.controller(Predicates.blocks(definition.get())))
+            .where("@", Predicates.controller(Predicates.blocks(definition.get()))) 
             .build()
         )
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_clean_stainless_steel', 'gtceu:block/multiblock/implosion_compressor', false)

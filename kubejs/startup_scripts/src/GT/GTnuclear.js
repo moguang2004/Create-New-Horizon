@@ -150,9 +150,11 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             .dust()
             .color(material.color)
             .radioactiveHazard(1.5)
-        event.create(material.name + '_hexafluoride')
-            .liquid()
-            .color(material.color)
+        if (material.name != "uranium") {
+            event.create(material.name + '_hexafluoride')
+                .liquid()
+                .color(material.color)
+        }
     })
     nuclear3.forEach(material => {
         event.create('oxide_' + material.name)

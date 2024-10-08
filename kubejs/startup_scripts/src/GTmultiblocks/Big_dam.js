@@ -1,12 +1,11 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     GTRecipeTypes.register('big_dam','multiblock')
         .setMaxIOSize(0, 0, 1, 0)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.COOLING)
         .addDataInfo(data => {
-            return LocalizationUtils.format('ctnh.stress_output', (data.getFloat('output_stress')).toFixed(1))
+            return $LocalizationUtils.format('ctnh.stress_output', (data.getFloat('output_stress')).toFixed(1))
         })
 })
 

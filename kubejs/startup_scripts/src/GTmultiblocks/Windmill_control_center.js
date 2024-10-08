@@ -1,14 +1,11 @@
-import { $WindmillBearingBlockEntity } from "packages/com/simibubi/create/content/contraptions/bearing/$WindmillBearingBlockEntity"
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     GTRecipeTypes.register('windmill_control_center','multiblock')
         .setMaxIOSize(0, 0, 1, 0)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_GAS_COLLECTOR, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.TURBINE)
         .addDataInfo(data => {
-            return LocalizationUtils.format('ctnh.stress_output', (data.getFloat('output_stress')).toFixed(1))
+            return $LocalizationUtils.format('ctnh.stress_output', (data.getFloat('output_stress')).toFixed(1))
         })
 })
 
@@ -20,8 +17,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             let kineticoutput = machine.getHolder().self().getPersistentData().getFloat("totaloutput")
             let efficiency = machine.getHolder().self().getPersistentData().getFloat("efficiency")
             let copyRecipe = recipe.copy()
-            copyRecipe.outputs.put(StressRecipeCapability.CAP, copyRecipe.copyContents(copyRecipe.outputs, ContentModifier.of(1,kineticoutput)).get(StressRecipeCapability.CAP))
-            copyRecipe.outputs.put(StressRecipeCapability.CAP, copyRecipe.copyContents(copyRecipe.outputs, ContentModifier.of(efficiency,0)).get(StressRecipeCapability.CAP))
+            copyRecipe.outputs.put($StressRecipeCapability.CAP, copyRecipe.copyContents(copyRecipe.outputs, $ContentModifier.of(1,kineticoutput)).get($StressRecipeCapability.CAP))
+            copyRecipe.outputs.put($StressRecipeCapability.CAP, copyRecipe.copyContents(copyRecipe.outputs, $ContentModifier.of(efficiency,0)).get($StressRecipeCapability.CAP))
             return copyRecipe
         })
         .appearanceBlock(() => Block.getBlock('create:brass_casing'))
