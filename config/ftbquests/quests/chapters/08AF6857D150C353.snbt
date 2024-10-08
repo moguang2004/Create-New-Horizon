@@ -1058,6 +1058,31 @@
 			x: -8.5d
 			y: -1.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["1162E347E7C00175"]
+			id: "0D7E0A6600B1783B"
+			rewards: [{
+				command: "/gamephase add @p nether"
+				elevate_perms: true
+				id: "2793A5582E3F56D1"
+				title: "前往下界"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2422B04C6C65854D"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
 	]
 	title: "钢铁雄心"
 }

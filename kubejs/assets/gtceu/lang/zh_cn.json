@@ -350,15 +350,11 @@
     "block.gtceu.crystallizer": "结晶器",
     "block.gtceu.ion_exchanger": "离子交换机",
     "block.gtceu.condensate_separator": "冷凝分离塔",
-<<<<<<< HEAD
     "block.gtceu.fuel_refining_factory_mk1": "燃料精炼厂MK-I",
     "block.gtceu.fuel_refining_factory_mk2": "燃料精炼厂MK-II",
     "block.gtceu.fusion_reactor_zip_mk1": "压缩核聚变反应堆控制电脑MK-I",
     "block.gtceu.fusion_reactor_zip_mk2": "压缩核聚变反应堆控制电脑MK-II",
     "block.gtceu.fusion_reactor_zip_mk3": "压缩核聚变反应堆控制电脑MK-III",
-=======
-    "block.gtceu.fuel_refining_factory_mk1": "燃料精炼厂 MK1",
->>>>>>> e70e0f19262ffc931e78fedcd2d53c4669785784
     "block.gtceu.meadow": "牧场",
     "gtceu.inscriber": "压印器",
     "gtceu.desalting": "脱盐",
