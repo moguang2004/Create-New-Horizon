@@ -22,7 +22,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
             let temp = recipe.data.getInt("ebf_temp");
             let items = new $ArrayList()
             items.add(GTCEuAPI.HEATING_COILS.entrySet().stream().filter(coil => coil.getKey().getCoilTemperature() >= temp).map(coil => new $ItemStack(coil.getValue().get())).toList());
-            widgetGroup.addWidget(new SlotWidget(new CycleItemStackHandler(items), 0, widgetGroup.getSize().width - 25, widgetGroup.getSize().height - 32, false, false));
+            widgetGroup.addWidget(new SlotWidget(new $CycleItemStackHandler(items), 0, widgetGroup.getSize().width - 25, widgetGroup.getSize().height - 32, false, false));
         })
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
