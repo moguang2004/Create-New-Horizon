@@ -200,10 +200,6 @@ ServerEvents.recipes(event => {
     .itemOutputs("gtceu:netherite_dust")
     .EUt(120)
     .duration(100)
-  event.recipes.gtceu.slaughter_house("kill")
-    .EUt(480)
-    .duration(60)
-    .inputFluids(Fluid.of("gtceu:lubricant", 2))
   event.recipes.gtceu.assembler("blaze_blast_furnace_casing")
     .itemInputs(["4x gtceu:stainless_steel_plate", "2x gtceu:stainless_steel_frame", "botania:blaze_block"])
     .inputFluids(Fluid.of("gtceu:polyvinyl_chloride", 288))
@@ -592,12 +588,6 @@ ServerEvents.recipes(event => {
     .itemInputs(["gtceu:andesite_alloy_dust", "2x minecraft:popped_chorus_fruit", "minecraft:dragon_breath"])
     .itemOutputs("4x gtceu:chorusite_alloy_dust")
     .EUt(120)
-    .duration(200)
-
-  event.recipes.gtceu.big_dam("big_dam")
-    .inputFluids(Fluid.of("gtceu:lubricant", 50))
-    .outputStress(1048576)
-    .addData('output_stress',1048576)
     .duration(200)
 
   event.recipes.gtceu.centrifuge('slag')
