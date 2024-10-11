@@ -538,7 +538,7 @@
 			subtitle: "有足够的材料再造，但是可以给你带来巨量的应力"
 			tasks: [{
 				id: "73BCB4C58FAE733A"
-				item: "gtceu:big_dam"
+				item: "ctnhcore:big_dam"
 				type: "item"
 			}]
 			x: 4.0d

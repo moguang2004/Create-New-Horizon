@@ -733,7 +733,7 @@ ServerEvents.recipes(event => {
         D: "create_new_age:generator_coil"
     })
     event.shaped(
-        Item.of("gtceu:big_dam", 1), [
+        Item.of("ctnhcore:big_dam", 1), [
         "ABA",
         "CDC",
         "AAA"
@@ -902,7 +902,7 @@ ServerEvents.recipes(event => {
         B: '#gtceu:circuits/iv',
         C: 'gtceu:iv_machine_hull',
         D: 'gtceu:iv_electric_pump',
-        E: 'gtceu:big_dam'
+        E: 'ctnhcore:big_dam'
     })
     event.shaped(
         Item.of('gtceu:greenhouse', 1), [
