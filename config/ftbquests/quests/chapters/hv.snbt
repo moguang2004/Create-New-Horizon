@@ -1283,8 +1283,8 @@
 			]
 			id: "399A7EA8DD295894"
 			tasks: [{
-				id: "7989E57F45477E1D"
-				item: "gtceu:mpic_wafer"
+				id: "6A8755E6049000EC"
+				item: "gtceu:lpic_wafer"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1575,6 +1575,7 @@
 			y: 6.5d
 		}
 		{
+			description: ["建议使用shift+右键先查看全部结构，jei丢方块了"]
 			id: "05305E873C1C92B5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1587,7 +1588,7 @@
 			subtitle: "如果你的钢多的用不完"
 			tasks: [{
 				id: "559B2DB8804016D0"
-				item: "gtceu:fuel_refining_factory_mk1"
+				item: "gtceu:fuel_refining_factory"
 				type: "item"
 			}]
 			x: 14.785714285714285d

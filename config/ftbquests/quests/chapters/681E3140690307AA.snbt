@@ -105,7 +105,7 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["如果你想要GT连锁，你可以在目录找到config，并修改ctnhcore文件，将false改成true就可以进行格雷矿物的连锁了"]
+			description: ["如果你想要GT连锁，你可以在目录找到config，并修改ctnhcore文件，将true改成false就可以进行格雷矿物的连锁了"]
 			id: "4B11E32ACA7BC6FA"
 			subtitle: "慢慢地探索吧"
 			tasks: [{

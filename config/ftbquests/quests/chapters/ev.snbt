@@ -100,7 +100,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["24C0894F1B36BBD2"]
+			dependencies: [
+				"24C0894F1B36BBD2"
+				"6856BD5A220261CD"
+			]
 			id: "1FC11FF9B668D855"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1454,6 +1457,18 @@
 			}]
 			x: -8.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["734982C31DFC1821"]
+			hide_dependent_lines: true
+			id: "6856BD5A220261CD"
+			tasks: [{
+				id: "1633F998AACEFD53"
+				item: "gtceu:mpic_wafer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
 		}
 	]
 	title: "&5EV&r时期"
