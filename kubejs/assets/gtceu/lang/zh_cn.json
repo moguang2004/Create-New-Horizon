@@ -534,7 +534,7 @@
     "ion_exchanger": "离子交换",
     "condensate_separator": "冷凝分离",
     "greenhouse": "室内种植",
-    "super_centrifuge": "差速离心",
+    "super_centrifuge": "超速离心",
     "ultrasonic_apparatus": "超声破碎",
     "ctnh.circuit_resonatic_ulv": "§dULV级电路§r",
     "ctnh.circuit_resonatic_lv": "§dLV级电路§r",
@@ -1551,5 +1551,8 @@
     "material.gtceu.lan_cer_pra_neo_chloride": "轻稀土单质氯化混合物",
     "material.gtceu.eur_gado_ter_dyspr_chloride": "中稀土单质氯化混合物",
     "material.gtceu.ytt_hol_erb_thu_ytt_chloride": "重稀土单质氯化混合物",
-    "material.gtceu.snow_steel": "雪城钢"
+    "material.gtceu.snow_steel": "雪城钢",
+    "material.gtceu.refining_titanium_tetrachloride": "高纯四氯化钛",
+    "material.gtceu.aluminium_chloride": "氯化铝",
+    "material.gtceu.titanium_tetrachloride_V": "含钒四氯化钛"
 }
