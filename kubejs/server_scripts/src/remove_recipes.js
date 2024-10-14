@@ -167,4 +167,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:shaped/diamond_sword" })
     event.remove({ id: "gtceu:electric_blast_furnace/titanium_from_tetrachloride" })
     event.remove({ id: "gtceu:chemical_reactor/titaniumtetrachloride" })
+    event.remove({ id: "gtceu:electrolyzer/tungstic_acid_electrolysis" })
 })

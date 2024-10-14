@@ -1405,6 +1405,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("titanium_tetrachloride_V")
         .liquid()
         .color(0x024789)
+    event.create("tungsten_trioxide")
+        .dust()
+        .color(0x474444)
 })
 
 StartupEvents.postInit(event => {
@@ -1468,4 +1471,5 @@ StartupEvents.postInit(event => {
     setFormula("refining_titanium_tetrachloride", "Re-TiCl4")
     setFormula("aluminium_chloride", "AlCl3")
     setFormula("titanium_tetrachloride_V", "V-TiCl4")
+    setFormula("tungsten_trioxide", "WO3")
 })
