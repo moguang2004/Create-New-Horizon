@@ -51,7 +51,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             if(controller.isFormed()){
                 var will=controller.getHolder().self().persistentData.getInt('will');
                 if(will===null) will=0;
-                list.add(Component.translatable('desc.gtceu.hellforge.will',will));
+                list.add(Component.translatable('ctnh.gtceu.hellforge.will',will));
             }
         })
         .pattern(definition => FactoryBlockPattern.start()
