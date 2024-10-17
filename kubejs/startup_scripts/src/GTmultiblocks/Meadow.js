@@ -69,7 +69,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("B", Predicates.blocks("minecraft:dirt")
                         .or(Predicates.blocks("minecraft:grass_block"))
                         .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                        .or(Predicates.abilities(PartAbility.OUTPUT_KINETIC)))
+                        .or(Predicates.abilities(PartAbility.INPUT_KINETIC)))
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
             .where("C", Predicates.blocks("minecraft:oak_fence"))
             .where("#", Predicates.any())

@@ -76,5 +76,23 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 	.where("@", Predicates.controller(Predicates.blocks(definition.get())))
 	.build());
 });
+function modifyRecipe(/** @type {Internal.GTRecipe} */recipe, /** @type {Internal.GTRecipeCapabilities} */capability, modifier, /** @type {Boolean} */isInput,/** @type {Boolean} */ isTick){
+    var newRecipe=recipe.copy();
+    
+    if(isInput){
+        if(isTick){
 
+        }else{
+            newRecipe.inputs.replace(capability, newRecipe.copyContents(newRecipe.inputs, modifier).get(capability));
+        }
+    }else{
+        if(isTick){
+
+        }else{
+            newRecipe.outputs.replace(capability, newRecipe.copyContents(newRecipe.outputs, modifier).get(capability));
+        }
+    }
+    return newRecipe;
+
+}
 //This multiblock comes from the modpack THUnion自制整合包vol.2, and is made by Sigmit64

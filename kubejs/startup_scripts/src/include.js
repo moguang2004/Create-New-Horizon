@@ -45,7 +45,9 @@ const $EURecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability
 const $Temperature = Java.loadClass("com.momosoftworks.coldsweat.api.util.Temperature")
 const $WindmillBearingBlockEntity = Java.loadClass("com.simibubi.create.content.contraptions.bearing.WindmillBearingBlockEntity")
 const $BloodMagicAPI = Java.loadClass("wayoftime.bloodmagic.impl.BloodMagicAPI")
-
+const $FermentingTankMachine = Java.loadClass("io.github.cpearl0.ctnhcore.common.machine.multiblock.FermentingTankMachine")
+const $DigestionTankMachine = Java.loadClass("io.github.cpearl0.ctnhcore.common.machine.multiblock.DigestionTankMachine")
+//const $CTNHRecipeTypes = Java.loadClass("io.github.cpearl0.ctnhcore.registry.CTNHRecipeTypes")
 const $FoodEatenEventJS = Java.loadClass("dev.latvian.mods.kubejs.item.FoodEatenEventJS")
 const $RangedAttribute = Java.loadClass("net.minecraft.world.entity.ai.attributes.RangedAttribute")
 const $Registry = Java.loadClass("net.minecraft.core.Registry")

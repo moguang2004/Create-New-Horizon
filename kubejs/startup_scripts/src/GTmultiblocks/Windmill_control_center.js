@@ -60,6 +60,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     }
                 }
                 let Efficency = WindMillAround.length;
+                Efficency = Math.min(Efficency,16)
                 machine.getHolder().self().getPersistentData().putFloat("totaloutput",TotalOutput)
                 machine.getHolder().self().getPersistentData().putFloat("efficiency",Efficency)
             }
