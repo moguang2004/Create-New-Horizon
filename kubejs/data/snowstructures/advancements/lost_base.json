@@ -1,15 +1,19 @@
 {
     "criteria": {
-        "lost_base": {
+        "lostbase": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": {
+                "player": [
+                    {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
                     "location": {
-                        "biomes": "minecraft:plains",
-                        "structures": "snowstructures:lost_base",
-                        "dimension": "minecraft:overworld"
+                        "structure": "snowstructures:lost_base"
+                        }
                     }
-                }
+                    }
+                ]
             }
         }
     },
@@ -18,10 +22,10 @@
             "item": "minecraft:apple"
          },
          "title": {
-             "translate": "正在开发..."
+             "translate": "昔人已去..."
          },
          "description": {
-             "translate": "敬请期待..."
+             "translate": "竟然还有曾经迫降过的人！但愿他能留下什么好东西..."
          },
          "frame": "task",    
          "announce_to_chat": true,      
@@ -30,8 +34,9 @@
     },
     "parent": "snowstructures:begining",
     "requirements": [  
-        ["lost_base"]
+        ["lostbase"]
     ],
     "rewards": {   
+        "function": "snowstructures:lost_base"
     }
 }
