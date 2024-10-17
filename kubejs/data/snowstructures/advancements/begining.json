@@ -3,11 +3,17 @@
         "wakeup": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": {
+                "player": [
+                    {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
                     "location": {
-                        "dimension": "minecraft:overworld"
+                        "dimension":"minecraft:overworld"
+                        }
                     }
-                }
+                    }
+                ]
             }
         }
     },
@@ -23,7 +29,7 @@
          },
          "frame": "task",    
          "announce_to_chat": true,    
-         "background": "snowstructures:pictures/background",    
+         "background": "kubejs:textures/block/alfsteel_casing.png",    
          "hidden": false,    
          "show_toast": true    
     },
