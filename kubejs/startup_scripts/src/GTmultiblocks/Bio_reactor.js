@@ -1,6 +1,3 @@
-import { $RegistrateEntityLootTables } from "packages/com/tterrag/registrate/providers/loot/$RegistrateEntityLootTables"
-import { $EntityLootEventJS } from "packages/dev/latvian/mods/kubejs/loot/$EntityLootEventJS"
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('bio_reactor')
         .setEUIO('in')
@@ -11,13 +8,12 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const Temperature = Java.loadClass('com.momosoftworks.coldsweat.api.util.Temperature')
     event.create('bio_reactor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('bio_reactor')
         .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe) => {
             let efficiency = 1
-            let temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
+            let temperature = $Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
             let newrecipe = recipe.copy()
             if (temperature >= 36 && temperature <= 38) {
                 efficiency *= 1.2
@@ -53,7 +49,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer('kubejs:block/bio_reactor_casing', 'gtceu:block/multiblock/implosion_compressor', false)
         .additionalDisplay((/** @type {$MetaMachine}*/machine, l) => {
             if (machine.isFormed()) {
-                let temperature = Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
+                let temperature = $Temperature.getTemperatureAt(machine.pos, machine.getLevel()) * 25
                 let efficiency = machine.getHolder().self().persistentData.getFloat('react_efficiency')
                 //l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(machine.getCoilType().getCoilTemperature() + "K").red()))
                 l.add(l.size(), Text.translate('ctnh.bio_reactor.growing_temperature', temperature.toFixed(1)).green())

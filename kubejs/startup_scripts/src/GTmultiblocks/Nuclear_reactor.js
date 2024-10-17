@@ -1,8 +1,4 @@
-import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
-import { $GTRecipe } from "packages/com/gregtechceu/gtceu/api/recipe/$GTRecipe"
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     GTRecipeTypes.register('nuclear_reactor', 'multiblock')
         //.category('ctnh')
         .setEUIO('in')
@@ -11,13 +7,10 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.CHEMICAL)
         .addDataInfo(data => {
-            return LocalizationUtils.format('ctnh.nuclear_reactor_heat', (data.getFloat('heat')).toFixed(1))
+            return $LocalizationUtils.format('ctnh.nuclear_reactor_heat', (data.getFloat('heat')).toFixed(1))
         })
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const IO = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.IO')
-    const FluidStack = Java.loadClass('com.lowdragmc.lowdraglib.side.fluid.FluidStack')
-    const GTRecipeBuilder = Java.loadClass('com.gregtechceu.gtceu.data.recipe.builder.GTRecipeBuilder')
     event.create('nuclear_reactor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('nuclear_reactor')
@@ -46,14 +39,14 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     part.getRecipeHandlers().forEach((/** @type {$IRecipeHandlerTrait} */trait) => {
                         if (trait.getHandlerIO() == IO.IN) {
                             trait.getContents().forEach((contents) => {
-                                if (contents instanceof FluidStack) {
+                                if (contents instanceof $FluidStack) {
                                     if (contents.getFluid().isSame(Fluid.of('gtceu:sodium_potassium').getFluid())) {
                                         if (contents.getAmount() >= heat * 50 / 3) {
                                             machine.getHolder().self().persistentData.putString('coolant', 'gtceu:sodium_potassium')
                                             machine.getHolder().self().persistentData.putFloat('coolant_amount', contents.getAmount())
                                             machine.getHolder().self().persistentData.putFloat('consume_amount', heat * 50 / 3)
-                                            let recipeIn = GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:sodium_potassium " + Number((heat * 50 / 3).toFixed(0))).buildRawRecipe()
-                                            let recipeOut = GTRecipeBuilder.ofRaw()["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:hot_sodium_potassium " + Number((heat * 50 / 3).toFixed(0))).buildRawRecipe()
+                                            let recipeIn = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:sodium_potassium " + Number((heat * 50 / 3).toFixed(0))).buildRawRecipe()
+                                            let recipeOut = $GTRecipeBuilder.ofRaw()["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:hot_sodium_potassium " + Number((heat * 50 / 3).toFixed(0))).buildRawRecipe()
                                             if (recipeIn.matchRecipe(machine).isSuccess() && recipeOut.matchRecipe(machine).isSuccess()) {
                                                 recipeIn.handleRecipeIO(IO.IN, machine, machine.recipeLogic.getChanceCaches())
                                                 recipeOut.handleRecipeIO(IO.OUT, machine, machine.recipeLogic.getChanceCaches())
@@ -67,8 +60,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                                             machine.getHolder().self().persistentData.putString('coolant', 'gtceu:sodium')
                                             machine.getHolder().self().persistentData.putFloat('coolant_amount', contents.getAmount())
                                             machine.getHolder().self().persistentData.putFloat('consume_amount', heat * 18.75)
-                                            let recipeIn = GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:sodium " + Number((heat * 18.75).toFixed(0))).buildRawRecipe()
-                                            let recipeOut = GTRecipeBuilder.ofRaw()["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:hot_sodium " + Number((heat * 18.75).toFixed(0))).buildRawRecipe()
+                                            let recipeIn = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:sodium " + Number((heat * 18.75).toFixed(0))).buildRawRecipe()
+                                            let recipeOut = $GTRecipeBuilder.ofRaw()["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:hot_sodium " + Number((heat * 18.75).toFixed(0))).buildRawRecipe()
                                             if (recipeIn.matchRecipe(machine).isSuccess() && recipeOut.matchRecipe(machine).isSuccess()) {
                                                 recipeIn.handleRecipeIO(IO.IN, machine, machine.recipeLogic.getChanceCaches())
                                                 recipeOut.handleRecipeIO(IO.OUT, machine, machine.recipeLogic.getChanceCaches())
@@ -82,8 +75,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                                             machine.getHolder().self().persistentData.putString('coolant', 'gtceu:deuterium')
                                             machine.getHolder().self().persistentData.putFloat('coolant_amount', contents.getAmount())
                                             machine.getHolder().self().persistentData.putFloat('consume_amount', heat * 100 / 3)
-                                            let recipeIn = GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:deuterium " + Number((heat * 100 / 3).toFixed(0))).buildRawRecipe()
-                                            let recipeOut = GTRecipeBuilder.ofRaw()["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:hot_deuterium " + Number((heat * 100 / 3).toFixed(0))).buildRawRecipe()
+                                            let recipeIn = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:deuterium " + Number((heat * 100 / 3).toFixed(0))).buildRawRecipe()
+                                            let recipeOut = $GTRecipeBuilder.ofRaw()["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:hot_deuterium " + Number((heat * 100 / 3).toFixed(0))).buildRawRecipe()
                                             if (recipeIn.matchRecipe(machine).isSuccess() && recipeOut.matchRecipe(machine).isSuccess()) {
                                                 recipeIn.handleRecipeIO(IO.IN, machine, machine.recipeLogic.getChanceCaches())
                                                 recipeOut.handleRecipeIO(IO.OUT, machine, machine.recipeLogic.getChanceCaches())
@@ -97,8 +90,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                                             machine.getHolder().self().persistentData.putString('coolant', 'gtceu:steam')
                                             machine.getHolder().self().persistentData.putFloat('coolant_amount', contents.getAmount())
                                             machine.getHolder().self().persistentData.putFloat('consume_amount', heat * 100)
-                                            let recipeIn = GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:steam " + Number((heat * 100 / 3).toFixed(0))).buildRawRecipe()
-                                            let recipeOut = GTRecipeBuilder.ofRaw()["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:hot_steam " + Number((heat * 100 / 3).toFixed(0))).buildRawRecipe()
+                                            let recipeIn = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:steam " + Number((heat * 100 / 3).toFixed(0))).buildRawRecipe()
+                                            let recipeOut = $GTRecipeBuilder.ofRaw()["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:hot_steam " + Number((heat * 100 / 3).toFixed(0))).buildRawRecipe()
                                             if (recipeIn.matchRecipe(machine).isSuccess() && recipeOut.matchRecipe(machine).isSuccess()) {
                                                 recipeIn.handleRecipeIO(IO.IN, machine, machine.recipeLogic.getChanceCaches())
                                                 recipeOut.handleRecipeIO(IO.OUT, machine, machine.recipeLogic.getChanceCaches())

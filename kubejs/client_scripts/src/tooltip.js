@@ -240,6 +240,31 @@ ItemEvents.tooltip(event =>{
         text.add(4,Text.translate('ctnh.boom_of_create.overclock'))
         text.add(5,Text.translate('ctnh.boom_of_create.safe'))
     })
+    event.addAdvanced('gtceu:crystallizer', (item, advanced, text) => {
+        text.add(1, Text.translate('crystallizer').gray())
+        text.add(2, Text.translate('ctnh.crystallizer.basic'))
+        text.add(3, Text.translate('ctnh.crystallizer.coolant'))
+        text.add(4, Text.translate('ctnh.crystallizer.overclock'))
+        text.add(5, Text.translate('ctnh.crystallizer.safe'))
+    })
+    event.addAdvanced("gtceu:vacuum_sintering_tower", (item, advanced, text) => { 
+        text.add(1, Text.translate('vacuum_sintering_tower').gray())
+    })
+    event.addAdvanced("gtceu:ion_exchanger", (item, advanced, text) => {
+        text.add(1, Text.translate('ion_exchanger').gray())
+    })
+    event.addAdvanced("gtceu:condensate_separator", (item, advanced, text) => {
+        text.add(1, Text.translate('condensate_separator').gray())
+    })
+    event.addAdvanced("gtceu:greenhouse", (item, advanced, text) => {
+        text.add(1, Text.translate('greenhouse').gray())
+    })
+    event.addAdvanced('gtceu:super_centrifuge', (item, advanced, text) => {
+        text.add(1, Text.translate('super_centrifuge').gray())
+    })
+    event.addAdvanced('gtceu:ultrasonic_apparatus', (item, advanced, text) => {
+        text.add(1, Text.translate('ultrasonic_apparatus').gray())
+    })
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))
     event.add('enderio:enhanced_energy_conduit',Text.translate('ctnh.enhanced_energy_conduit'))

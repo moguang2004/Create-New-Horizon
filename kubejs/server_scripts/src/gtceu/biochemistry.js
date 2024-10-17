@@ -302,4 +302,4 @@ ServerEvents.recipes(event => {
         .EUt(120)
         .duration(80)
 })
-let meat = ['nethersdelight:hoglin_loin', 'twilightforest:raw_meef', 'twilightforest:raw_venison', 'alexscaves:dinosaur_chop', 'twilightdelight:raw_insect']
+let meat = ['mynethersdelight:hoglin_loin', 'twilightforest:raw_meef', 'twilightforest:raw_venison', 'alexscaves:dinosaur_chop', 'twilightdelight:raw_insect']

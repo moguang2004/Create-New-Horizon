@@ -1,8 +1,4 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
-    const FormattingUtil = Java.loadClass('com.gregtechceu.gtceu.utils.FormattingUtil')
-    const $ICoilType = Java.loadClass("com.gregtechceu.gtceu.api.block.ICoilType")
-    const $I18n = LDLib.isClient() ? Java.loadClass("net.minecraft.client.resources.language.I18n") : null
     GTRecipeTypes.register('vacuum_sintering', 'multiblock')
         .setEUIO('in')
         .setMaxIOSize(6, 6, 6, 6)
@@ -10,12 +6,12 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ELECTROLYZER)
         .addDataInfo(data => {
-            return LocalizationUtils.format("gtceu.recipe.temperature", FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
+            return $LocalizationUtils.format("gtceu.recipe.temperature", $FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
         })
         .addDataInfo(data => {
             let requiredCoil = $ICoilType.getMinRequiredType(data.getInt("ebf_temp"))
-            if (LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
-                return LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
+            if ($LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
+                return $LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
             }
             return ""
         })
@@ -24,7 +20,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
             let temp = recipe.data.getInt("ebf_temp");
             let items = new $ArrayList()
             items.add(GTCEuAPI.HEATING_COILS.entrySet().stream().filter(coil => coil.getKey().getCoilTemperature() >= temp).map(coil => new $ItemStack(coil.getValue().get())).toList());
-            widgetGroup.addWidget(new SlotWidget(new CycleItemStackHandler(items), 0, widgetGroup.getSize().width - 25, widgetGroup.getSize().height - 32, false, false));
+            widgetGroup.addWidget(new SlotWidget(new $CycleItemStackHandler(items), 0, widgetGroup.getSize().width - 25, widgetGroup.getSize().height - 32, false, false));
         })
     GTRecipeTypes.register('crystallizer', 'multiblock')
         .setEUIO('in')
@@ -33,12 +29,12 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_CRYSTALLIZATION, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.CHEMICAL)
         .addDataInfo(data => {
-            return LocalizationUtils.format("gtceu.recipe.temperature", FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
+            return $LocalizationUtils.format("gtceu.recipe.temperature", $FormattingUtil.formatNumbers(data.getInt("ebf_temp")))
         })
         .addDataInfo(data => {
             let requiredCoil = $ICoilType.getMinRequiredType(data.getInt("ebf_temp"))
-            if (LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
-                return LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
+            if ($LDLib.isClient() && requiredCoil != null && requiredCoil.getMaterial() != null) {
+                return $LocalizationUtils.format("gtceu.recipe.coil.tier", $I18n.get(requiredCoil.getMaterial().getUnlocalizedName()))
             }
             return ""
         })
@@ -47,20 +43,19 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
             let temp = recipe.data.getInt("ebf_temp");
             let items = new $ArrayList()
             items.add(GTCEuAPI.HEATING_COILS.entrySet().stream().filter(coil => coil.getKey().getCoilTemperature() >= temp).map(coil => new $ItemStack(coil.getValue().get())).toList());
-            widgetGroup.addWidget(new SlotWidget(new CycleItemStackHandler(items), 0, widgetGroup.getSize().width - 25, widgetGroup.getSize().height - 32, false, false));
+            widgetGroup.addWidget(new SlotWidget(new $CycleItemStackHandler(items), 0, widgetGroup.getSize().width - 25, widgetGroup.getSize().height - 32, false, false));
         })
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    const CoilWorkableElectricMultiblockMachine = Java.loadClass('com.gregtechceu.gtceu.api.machine.multiblock.CoilWorkableElectricMultiblockMachine')
-    event.create('vacuum_sintering_tower', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
+    event.create('vacuum_sintering_tower', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('vacuum_sintering')
-        .recipeModifier((machine, recipe) => {
-            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe)
-            let parallel = 1
+        .recipeModifier((machine, recipe, params, result) => {
+            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
+            let parallel = 16
             if (newrecipe.duration < 1) {
-                parallel = 1 / newrecipe.duration
+                parallel = 16 / newrecipe.duration
             }
             return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
         })
@@ -95,14 +90,14 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         })
         .workableCasingRenderer('gtceu:block/casings/gcym/high_temperature_smelting_casing', 'gtceu:block/multiblock/implosion_compressor', false)
 
-    event.create('crystallizer', 'multiblock', (holder) => new CoilWorkableElectricMultiblockMachine(holder))
+    event.create('crystallizer', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('crystallizer')
-        .recipeModifier((machine, recipe) => {
-            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe)
-            let parallel = 1
+        .recipeModifier((machine, recipe, params, result) => {
+            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
+            let parallel = 16
             if (newrecipe.duration < 1) {
-                parallel = 1 / newrecipe.duration
+                parallel = 16 / newrecipe.duration
             }
             return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
         })

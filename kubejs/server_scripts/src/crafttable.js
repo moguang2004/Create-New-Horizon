@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "minecraft:iron_bars",
         B: "gtceu:steel_plate",
-        C: "#gtceu:circuit/mv",
+        C:"#gtceu:circuits/mv",
     })
     event.shaped(
         Item.of("create:spout", 1), [
@@ -546,7 +546,7 @@ ServerEvents.recipes(event => {
         F: "gtceu:ev_conveyor_module"
     })
     event.shaped(
-        Item.of("gtceu:slaughter_house", 1), [
+        Item.of("ctnhcore:slaughter_house", 1), [
         "ABA",
         "BCB",
         "DED"
@@ -733,7 +733,7 @@ ServerEvents.recipes(event => {
         D: "create_new_age:generator_coil"
     })
     event.shaped(
-        Item.of("gtceu:big_dam", 1), [
+        Item.of("ctnhcore:big_dam", 1), [
         "ABA",
         "CDC",
         "AAA"
@@ -897,13 +897,71 @@ ServerEvents.recipes(event => {
         "DED",
         "ACA",
         "BAB"
-      ], {
+    ], {
         A: 'gtceu:iv_conveyor_module',
-        B: 'gtceu:crystal_processor',
+        B: '#gtceu:circuits/iv',
         C: 'gtceu:iv_machine_hull',
         D: 'gtceu:iv_electric_pump',
-        E: 'gtceu:big_dam'
-      })
+        E: 'ctnhcore:big_dam'
+    })
+    event.shaped(
+        Item.of('gtceu:greenhouse', 1), [
+        "DED",
+        "ACA",
+        "BAB"
+    ], {
+        A: 'gtceu:double_steel_plate',
+        B: 'gtceu:mv_electric_pump',
+        C: 'gtceu:mv_machine_hull',
+        D: '#gtceu:circuits/mv',
+        E: 'minecraft:glowstone'
+    })
+    event.shaped(
+        Item.of('gtceu:ultrasonic_apparatus', 1), [
+        "ABA",
+        "BCB",
+        "DED"
+    ], {
+        A: 'gtceu:stainless_steel_gear',
+        B: '#gtceu:circuits/hv',
+        C: 'gtceu:hv_machine_hull',
+        D: 'gtceu:hv_electric_pump',
+        E: 'gtceu:stainless_steel_rotor'
+    })
+    event.shaped(
+        Item.of('gtceu:super_centrifuge', 1), [
+        "ABC",
+        "CDE",
+        "ABC"
+    ], {
+        A: 'gtceu:ev_electric_pump',
+        B: 'gtceu:stainless_steel_rotor',
+        C: '#gtceu:circuits/ev',
+        D: 'gtceu:ev_machine_hull',
+        E: 'gtceu:double_titanium_plate'
+    })
+    event.shaped(
+        Item.of('gtceu:bio_reactor', 1), [
+        "ABE",
+        "CDE",
+        "ABE"
+    ], {
+        A: 'gtceu:ev_robot_arm',
+        B: 'gtceu:titanium_rotor',
+        C: '#gtceu:circuits/iv',
+        D: 'kubejs:bio_reactor_casing',
+        E: 'gtceu:uranium_triplatinum_ingot'
+    })
+    event.shaped(
+        Item.of('minecraft:diamond_sword', 1), [
+        "A",
+        "A",
+        "B"
+    ], {
+        A: 'minecraft:diamond',
+        B: 'minecraft:stick'
+    })
+    
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

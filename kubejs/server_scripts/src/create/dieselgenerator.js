@@ -121,5 +121,5 @@ ServerEvents.recipes(event => {
     ]
 })
   event.recipes.create.crushing(['3x gtceu:rich_soil_dust'],'farmersdelight:rich_soil')
-  event.recipes.create.crushing(['3x gtceu:rich_soul_soil_dust'],'nethersdelight:rich_soul_soil')
+  event.recipes.create.crushing(['3x gtceu:rich_soul_soil_dust'],'mynethersdelight:resurgent_soil')
 })

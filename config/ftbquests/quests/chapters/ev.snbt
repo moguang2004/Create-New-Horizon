@@ -6,14 +6,22 @@
 	icon: "gtceu:ev_machine_hull"
 	id: "6729EFF9916E0F53"
 	order_index: 3
-	quest_links: [{
-		id: "02C656A82600B380"
-		linked_quest: "27EF0EE87260585F"
-		shape: "rsquare"
-		size: 1.5d
-		x: -4.0d
-		y: -1.0d
-	}]
+	quest_links: [
+		{
+			id: "02C656A82600B380"
+			linked_quest: "27EF0EE87260585F"
+			shape: "rsquare"
+			size: 1.5d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "244F16AD34351771"
+			linked_quest: "46E271DD7E3544D9"
+			x: -6.0d
+			y: 7.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["27EF0EE87260585F"]
@@ -92,7 +100,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["24C0894F1B36BBD2"]
+			dependencies: [
+				"24C0894F1B36BBD2"
+				"6856BD5A220261CD"
+			]
 			id: "1FC11FF9B668D855"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1446,6 +1457,18 @@
 			}]
 			x: -8.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["734982C31DFC1821"]
+			hide_dependent_lines: true
+			id: "6856BD5A220261CD"
+			tasks: [{
+				id: "1633F998AACEFD53"
+				item: "gtceu:mpic_wafer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
 		}
 	]
 	title: "&5EV&r时期"

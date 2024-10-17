@@ -1,4 +1,3 @@
-const LargeTurbineMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine')
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('hot_coolant_turbine')
         .category('ctnh')
@@ -7,12 +6,12 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_GAS_COLLECTOR, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.TURBINE)
 })
-//GTMachines.registerLargeTurbine('hot_coolant_turbine',GTValues.EV,'hot_coolant_turbine',GTBlocks.CASING_TITANIUM_SOLID,GTBlocks.CASING_TITANIUM_GEARBOX,'gtceu:block/casings/solid/machine_casing_solid_titanium',  'gtceu:block/multiblock/generator/large_steam_turbine')
+
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('hot_coolant_turbine', 'multiblock', holder => new LargeTurbineMachine(holder, GTValues.EV))
+    event.create('hot_coolant_turbine', 'multiblock', holder => new $LargeTurbineMachine(holder, GTValues.EV))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('hot_coolant_turbine')
-        .recipeModifier((machine, recipe) => LargeTurbineMachine.recipeModifier(machine, recipe), true)
+        .recipeModifier((machine, recipe) => $LargeTurbineMachine.recipeModifier(machine, recipe), true)
         .appearanceBlock(GTBlocks.CASING_TITANIUM_TURBINE)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("AAAA", "ASSA", "AAAA")

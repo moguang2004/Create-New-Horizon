@@ -1,17 +1,11 @@
-import { $IO } from "packages/com/gregtechceu/gtceu/api/capability/recipe/$IO"
-import { $WorkableElectricMultiblockMachine } from "packages/com/gregtechceu/gtceu/api/machine/multiblock/$WorkableElectricMultiblockMachine"
-import { $GTRecipeBuilder } from "packages/com/gregtechceu/gtceu/data/recipe/builder/$GTRecipeBuilder"
-import { $Entity } from "packages/net/minecraft/world/entity/$Entity"
-
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    const LocalizationUtils = Java.loadClass('com.lowdragmc.lowdraglib.utils.LocalizationUtils')
     GTRecipeTypes.register('meadow','multiblock')
         .setMaxIOSize(3, 3, 3, 3)
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.BATH)
         .addDataInfo(data => {
-            return LocalizationUtils.format('ctnh.stress_input', (data.getFloat('input_stress')).toFixed(1))
+            return $LocalizationUtils.format('ctnh.stress_input', (data.getFloat('input_stress')).toFixed(1))
         })
 })
 
@@ -75,7 +69,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("B", Predicates.blocks("minecraft:dirt")
                         .or(Predicates.blocks("minecraft:grass_block"))
                         .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                        .or(Predicates.abilities(PartAbility.OUTPUT_KINETIC)))
+                        .or(Predicates.abilities(PartAbility.INPUT_KINETIC)))
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
             .where("C", Predicates.blocks("minecraft:oak_fence"))
             .where("#", Predicates.any())

@@ -12,7 +12,6 @@ ServerEvents.recipes(event => {
         .EUt(60)
         .duration(100)
         .inputFluids(Fluid.of('gtceu:blue_vitriol_solution', 1000))
-        .inputFluids(Fluid.of('minecraft:water', 1000))
         .outputFluids(Fluid.of('gtceu:sulfuric_acid', 1000))
         .outputFluids(Fluid.of('gtceu:oxygen', 1000))
         .itemOutputs('gtceu:copper_dust')

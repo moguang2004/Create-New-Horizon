@@ -143,8 +143,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "3098296863DC6A3E"
-				item: "gtceu:slaughter_house"
+				id: "4A05AB255004737D"
+				item: "ctnhcore:slaughter_house"
 				type: "item"
 			}]
 			x: -6.5d
@@ -1283,8 +1283,8 @@
 			]
 			id: "399A7EA8DD295894"
 			tasks: [{
-				id: "7989E57F45477E1D"
-				item: "gtceu:mpic_wafer"
+				id: "6A8755E6049000EC"
+				item: "gtceu:lpic_wafer"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1573,6 +1573,36 @@
 			}]
 			x: 13.0d
 			y: 6.5d
+		}
+		{
+			description: ["建议使用shift+右键先查看全部结构，jei丢方块了"]
+			id: "05305E873C1C92B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "137AA366BCBE3CB8"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 4.0d
+			subtitle: "如果你的钢多的用不完"
+			tasks: [{
+				id: "559B2DB8804016D0"
+				item: "gtceu:fuel_refining_factory"
+				type: "item"
+			}]
+			x: 14.785714285714285d
+			y: -1.5267857142857153d
+		}
+		{
+			id: "43DCA5278B555E39"
+			tasks: [{
+				id: "123036F8278EBAE3"
+				title: "第一个巨构"
+				type: "checkmark"
+			}]
+			x: 14.749999999999993d
+			y: -4.741071428571416d
 		}
 	]
 	title: "&6HV&r时期"
