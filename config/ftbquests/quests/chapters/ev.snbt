@@ -1493,6 +1493,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["6F6CE9819AC46724"]
 			id: "314803CD653E6206"
 			tasks: [{
 				id: "26417814FABC3952"
@@ -1540,6 +1541,17 @@
 			}]
 			x: 13.0d
 			y: 5.0d
+		}
+		{
+			id: "6F6CE9819AC46724"
+			subtitle: "胶带石墨烯"
+			tasks: [{
+				id: "2DAF50E69DEC315D"
+				item: "gtceu:small_graphene_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
 		}
 	]
 	title: "&5EV&r时期"

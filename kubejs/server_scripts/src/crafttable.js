@@ -980,12 +980,25 @@ ServerEvents.recipes(event => {
         "CBD",
         " E "
     ], {
-            A: 'tetra:pristine_diamond',
-            B: 'minecraft:book',
-            C: 'tetra:pristine_emerald',
-            D: 'tetra:pristine_lapis',
-            E: 'botania:manasteel_ingot'
+        A: 'tetra:pristine_diamond',
+        B: 'minecraft:book',
+        C: 'tetra:pristine_emerald',
+        D: 'tetra:pristine_lapis',
+        E: 'botania:manasteel_ingot'
     })
+    event.shaped(
+        Item.of('ctnhcore:coke_oven', 1), [
+        "GAG",
+        "DBD",
+        "GEG"
+    ], {
+        A: 'ctnhcore:coke_oven',
+        B: 'gtceu:iv_machine_hull',
+        D: 'gtceu:iv_electric_pump',
+        E: 'gtceu:dense_tungsten_steel_plate',
+        G: '#gtceu:circuits/luv'
+    })
+
     
     
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
