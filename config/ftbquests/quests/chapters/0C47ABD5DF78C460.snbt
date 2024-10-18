@@ -424,7 +424,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["1EF69C314E045882"]
 			id: "40E2D3E042EC7608"
 			shape: "rsquare"
 			size: 1.5d

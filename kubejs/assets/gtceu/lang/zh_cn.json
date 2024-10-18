@@ -345,6 +345,7 @@
     "block.gtceu.steam_piston_hammer": "大型蒸汽锻造锤",
     "block.gtceu.vacuum_sintering_tower": "真空烧结厂",
     "block.gtceu.crystallizer": "结晶器",
+    "block.gtceu.cvd_factory": "化学气相沉积工厂",
     "block.gtceu.ion_exchanger": "离子交换机",
     "block.gtceu.condensate_separator": "冷凝分离塔",
     "block.gtceu.fuel_refining_factory": "燃料精炼厂",
@@ -380,6 +381,7 @@
     "gtceu.crystallizer": "结晶",
     "gtceu.ion_exchanger": "离子交换",
     "gtceu.condensate_separator": "冷凝分离",
+    "gtceu.cvd": "化学气相沉积",
     "gtceu.hellforge": "狱火锻炉",
     "gtceu.boom_of_create": "聚爆应力厂",
     "gtceu.fuel_refining": "燃料精炼",
@@ -1555,5 +1557,7 @@
     "material.gtceu.refining_titanium_tetrachloride": "高纯四氯化钛",
     "material.gtceu.aluminium_chloride": "氯化铝",
     "material.gtceu.titanium_tetrachloride_V": "含钒四氯化钛",
+    "material.gtceu.graphite_steam": "石墨气",
+    "material.gtceu.graphite_buxiugang_plate": "覆石墨烯不锈钢板",
     "material.gtceu.tungsten_trioxide": "三氧化钨"
 }

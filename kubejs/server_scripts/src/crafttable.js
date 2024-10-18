@@ -961,6 +961,32 @@ ServerEvents.recipes(event => {
         A: 'minecraft:diamond',
         B: 'minecraft:stick'
     })
+    event.shaped(
+        Item.of('gtceu:cvd_factory', 1), [
+        "ABA",
+        "CDE",
+        "VVV"
+    ], {
+        A: '#gtceu:circuits/ev',
+        B: 'gtceu:polytetrafluoroethylene_huge_fluid_pipe',
+        C: 'gtceu:ev_conveyor_module',
+        E: 'gtceu:ev_electric_pump',
+        D: 'gtceu:ev_machine_hull',
+        V: 'gtceu:dense_stainless_steel_plate'
+    })
+    event.shaped(
+        Item.of('ars_nouveau:novice_spell_book', 1), [
+        " A ",
+        "CBD",
+        " E "
+    ], {
+            A: 'tetra:pristine_diamond',
+            B: 'minecraft:book',
+            C: 'tetra:pristine_emerald',
+            D: 'tetra:pristine_lapis',
+            E: 'botania:manasteel_ingot'
+    })
+    
     
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())

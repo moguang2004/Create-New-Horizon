@@ -93,6 +93,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('crystallizer', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('crystallizer')
+        .recipeType('cvd')
         .recipeModifier((machine, recipe, params, result) => {
             let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
             let parallel = 16

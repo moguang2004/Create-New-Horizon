@@ -1408,6 +1408,13 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("tungsten_trioxide")
         .dust()
         .color(0x474444)
+    event.create("graphite_steam")
+        .liquid()
+        .color(0x000000)
+    event.create("graphite_buxiugang_plate")
+        .ingot()
+        .color(0x000000)
+        .flags(GTMaterialFlags.GENERATE_PLATE)
 })
 
 StartupEvents.postInit(event => {

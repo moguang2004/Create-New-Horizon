@@ -168,4 +168,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:electric_blast_furnace/titanium_from_tetrachloride" })
     event.remove({ id: "gtceu:chemical_reactor/titaniumtetrachloride" })
     event.remove({ id: "gtceu:electrolyzer/tungstic_acid_electrolysis" })
+    event.remove({ id: "gtceu:mixer/graphene" })
+    event.remove({ id: "gtceu:create_mixer/graphene" })
+    event.remove({ id: "ars_nouveau:novice_spell_book" })
 })
