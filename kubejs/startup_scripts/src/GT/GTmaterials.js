@@ -1402,7 +1402,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("aluminium_chloride")
         .dust()
         .color(0x045681)
-    event.create("titanium_tetrachloride_V")
+    event.create("titanium_tetrachloride_v")
         .liquid()
         .color(0x024789)
     event.create("tungsten_trioxide")
