@@ -383,6 +383,7 @@
 		{
 			dependencies: ["73A9B8C2B2142E54"]
 			id: "637D202FC567B932"
+			subtitle: "输出算力，记得整除算力最高的摆法"
 			tasks: [{
 				id: "3C7C6EF260BFFAEE"
 				item: "gtceu:high_performance_computation_array"

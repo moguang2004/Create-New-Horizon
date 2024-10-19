@@ -604,21 +604,13 @@
 			dependencies: ["1FBD86C0CF681427"]
 			hide_dependency_lines: true
 			id: "1A760D451E9D23B0"
-			subtitle: "二选一"
-			tasks: [
-				{
-					id: "71D1D2D5063F35CB"
-					item: "gtceu:mv_mixer"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "24975BF93AE83232"
-					item: "gtceu:mv_kinetic_mixer"
-					optional_task: true
-					type: "item"
-				}
-			]
+			subtitle: "你也可以合成动力版的搅拌机"
+			tasks: [{
+				id: "71D1D2D5063F35CB"
+				item: "gtceu:mv_mixer"
+				optional_task: true
+				type: "item"
+			}]
 			x: 14.5d
 			y: -1.0d
 		}
