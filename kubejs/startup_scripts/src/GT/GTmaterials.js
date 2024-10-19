@@ -1411,7 +1411,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("graphite_steam")
         .liquid()
         .color(0x000000)
-    event.create("graphite_buxiugang_plate")
+    event.create("graphite_ir_plate")
         .ingot()
         .color(0x000000)
         .flags(GTMaterialFlags.GENERATE_PLATE)

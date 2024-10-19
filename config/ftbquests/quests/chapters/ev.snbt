@@ -1489,7 +1489,7 @@
 				item: "gtceu:graphite_dust"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -1504,7 +1504,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6B0754AD3F1AF0C2"]
+			dependencies: [
+				"6B0754AD3F1AF0C2"
+				"646A046E3DBA0C52"
+			]
+			dependency_requirement: "one_completed"
 			id: "7700B734FF94AB31"
 			tasks: [{
 				id: "301E6463A4453721"
@@ -1522,7 +1526,7 @@
 			id: "4FFD51BF444957C6"
 			tasks: [{
 				id: "56B79B019AB31E8A"
-				item: "gtceu:graphite_buxiugang_plate_plate"
+				item: "gtceu:graphite_ir_plate_plate"
 				type: "item"
 			}]
 			x: 10.5d
@@ -1552,6 +1556,18 @@
 			}]
 			x: 10.5d
 			y: 1.0d
+		}
+		{
+			id: "646A046E3DBA0C52"
+			subtitle: "消耗量大，但是更快"
+			tasks: [{
+				id: "7F0475C3113799A2"
+				item: "gtceu:methane_bucket"
+				type: "item"
+			}]
+			title: "热解甲烷"
+			x: 8.5d
+			y: 3.0d
 		}
 	]
 	title: "&5EV&r时期"
