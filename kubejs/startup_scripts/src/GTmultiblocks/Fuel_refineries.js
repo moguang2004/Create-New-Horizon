@@ -63,7 +63,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("N", Predicates.blocks("gtceu:solid_machine_casing")
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
                 .or(Predicates.autoAbilities(definition.getRecipeTypes())))
-            .where("O", Predicates.blocks('minecraft:magma_block'))
+            .where("O", Predicates.blocks('tetranichematerials:burning_steel_block'))
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
             .build()
         )

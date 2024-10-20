@@ -63,7 +63,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["631DFE485708C698"]
+			dependencies: ["7A9BD969C765366A"]
 			id: "1E3636A4FFDDC155"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -76,7 +76,7 @@
 				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -96,8 +96,8 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 7.885714285714279d
+			y: -0.04285714285714448d
 		}
 		{
 			dependencies: [
@@ -1469,6 +1469,105 @@
 			}]
 			x: -4.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["631DFE485708C698"]
+			id: "7A9BD969C765366A"
+			tasks: [{
+				id: "13ABC52B6D49EFB6"
+				item: "gtceu:tungsten_trioxide_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "6B0754AD3F1AF0C2"
+			subtitle: "到达IV前，你需要石墨烯"
+			tasks: [{
+				id: "4FA8E83E02A43D80"
+				item: "gtceu:graphite_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F6CE9819AC46724"]
+			id: "314803CD653E6206"
+			tasks: [{
+				id: "26417814FABC3952"
+				item: "gtceu:cvd_factory"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6B0754AD3F1AF0C2"
+				"646A046E3DBA0C52"
+			]
+			dependency_requirement: "one_completed"
+			id: "7700B734FF94AB31"
+			tasks: [{
+				id: "301E6463A4453721"
+				item: "gtceu:graphite_steam_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"314803CD653E6206"
+				"7700B734FF94AB31"
+			]
+			id: "4FFD51BF444957C6"
+			tasks: [{
+				id: "56B79B019AB31E8A"
+				item: "gtceu:graphite_ir_plate_plate"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4FFD51BF444957C6"]
+			id: "33CDE1381B278481"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "IV马达的主要材料"
+			tasks: [{
+				id: "02A4BA814D8951A0"
+				item: "gtceu:graphene_dust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			id: "6F6CE9819AC46724"
+			subtitle: "胶带石墨烯"
+			tasks: [{
+				id: "2DAF50E69DEC315D"
+				item: "gtceu:small_graphene_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			id: "646A046E3DBA0C52"
+			subtitle: "消耗量大，但是更快"
+			tasks: [{
+				id: "7F0475C3113799A2"
+				item: "gtceu:methane_bucket"
+				type: "item"
+			}]
+			title: "热解甲烷"
+			x: 8.5d
+			y: 3.0d
 		}
 	]
 	title: "&5EV&r时期"

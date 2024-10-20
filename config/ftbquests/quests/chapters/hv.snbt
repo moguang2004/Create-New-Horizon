@@ -517,9 +517,9 @@
 		}
 		{
 			dependencies: [
-				"1EF69C314E045882"
 				"17F0388258A83E1F"
 				"2B5737AFD88F1BA5"
+				"1B795CD06F89FD31"
 			]
 			id: "27EF0EE87260585F"
 			rewards: [{
@@ -537,18 +537,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 8.05357142857143d
-		}
-		{
-			dependencies: ["054DC65B4D479B15"]
-			id: "1EF69C314E045882"
-			tasks: [{
-				id: "34B1816F1D7BF64E"
-				item: "gtceu:titanium_tetrachloride_bucket"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 8.0d
+			y: 8.044642857142868d
 		}
 		{
 			dependencies: ["424772830FBFDBB7"]
@@ -558,7 +547,7 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.5d
 			y: 8.0d
 		}
 		{
@@ -581,7 +570,7 @@
 			]
 			title: "钛的来源"
 			x: 2.5d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["773CB6E376B56EA4"]
@@ -1334,7 +1323,7 @@
 				item: "gtceu:argon_bucket"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 6.0d
 		}
 		{
@@ -1603,6 +1592,39 @@
 			}]
 			x: 14.749999999999993d
 			y: -4.741071428571416d
+		}
+		{
+			dependencies: ["054DC65B4D479B15"]
+			id: "1483311F032C96CB"
+			tasks: [{
+				id: "1D6ED8214F7DB6D2"
+				item: "gtceu:titanium_tetrachloride_v_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1483311F032C96CB"]
+			id: "2652B1546EB07C91"
+			tasks: [{
+				id: "0CDE455887127383"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2652B1546EB07C91"]
+			id: "1B795CD06F89FD31"
+			tasks: [{
+				id: "41517B29A39EA311"
+				item: "gtceu:refining_titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
 		}
 	]
 	title: "&6HV&r时期"
