@@ -28,14 +28,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('fuel_refining_factory', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fuel_refining')
-        .recipeModifier((machine, recipe, params, result) => {
-            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
-            let parallel = 1
-            if (newrecipe.duration < 400) {
-                parallel = 4 / newrecipe.duration
-            }
-            return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
-        })
+        .recipeModifier((machine, recipe, params, result) => GTRecipeModifiers.ebfOverclock(machine, recipe, params, result))
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("#####ABBBA#####", "#####BCCCB#####", "#####BCCCB#####", "#####BCCCB#####", "#####ABBBA#####", "###############", "###############", "###############", "###############", "###############", "###############", "###############", "###############", "###############", "###############", "###############", "###############", "###############", "###############")

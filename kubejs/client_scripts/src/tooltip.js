@@ -131,10 +131,36 @@ ItemEvents.tooltip(event =>{
         text.add(1,Text.translate('mana_machine').gray())
     })
     event.addAdvanced('gtceu:mana_macerator',(item,advanced,text)=>{
-        text.add(1,Text.translate('mana_machine').gray())
-        text.add(2,Text.translate('ctnh.mana_macerator.mana_consume'))
-        text.add(3,Text.translate('ctnh.perfect_overclock'))
+        text.add(1,Text.translate('ctnh.mana_macerator'))
+        text.add(2,Text.translate('mana_machine').gray())
+        text.add(3,Text.translate('ctnh.basic_mana_machine.mana_consume'))
+        text.add(4,Text.translate('ctnh.perfect_overclock'))
     })
+    event.addAdvanced('gtceu:mana_bender',(item,advanced,text)=>{
+        text.add(1,Text.translate('ctnh.mana_bender'))
+        text.add(2,Text.translate('mana_machine').gray())
+        text.add(3,Text.translate('ctnh.basic_mana_machine.mana_consume'))
+        text.add(4,Text.translate('ctnh.perfect_overclock'))
+    })
+    event.addAdvanced('gtceu:mana_lathe',(item,advanced,text)=>{
+        text.add(1,Text.translate('ctnh.mana_lathe'))
+        text.add(2,Text.translate('mana_machine').gray())
+        text.add(3,Text.translate('ctnh.basic_mana_machine.mana_consume'))
+        text.add(4,Text.translate('ctnh.perfect_overclock'))
+    })
+    event.addAdvanced('gtceu:mana_wiremill',(item,advanced,text)=>{
+        text.add(1,Text.translate('ctnh.mana_wiremill'))
+        text.add(2,Text.translate('mana_machine').gray())
+        text.add(3,Text.translate('ctnh.basic_mana_machine.mana_consume'))
+        text.add(4,Text.translate('ctnh.perfect_overclock'))
+    })
+    event.addAdvanced('gtceu:mana_assembler',(item,advanced,text)=>{
+        text.add(1,Text.translate('ctnh.mana_assembler'))
+        text.add(2,Text.translate('mana_machine').gray())
+        text.add(3,Text.translate('ctnh.advanced_mana_machine.mana_consume'))
+        text.add(4,Text.translate('ctnh.perfect_overclock'))
+    })
+
     event.addAdvanced('gtceu:water_power_station',(item,advanced,text)=>{
         text.add(1,Text.translate('water_power_station').gray())
         text.add(2,Text.translate('ctnh.water_power_station.mechanism'))

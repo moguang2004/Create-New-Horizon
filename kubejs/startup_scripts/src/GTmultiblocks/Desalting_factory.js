@@ -29,14 +29,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('seawater_desalting_factory', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('desalting')
-        .recipeModifier((machine, recipe, params, result) => {
-            let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
-            let parallel = 1
-            if (newrecipe.duration < 1) {
-                parallel = 1 / newrecipe.duration
-            }
-            return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
-        })
+        .recipeModifier((machine, recipe, params, result) => GTRecipeModifiers.ebfOverclock(machine, recipe, params, result))
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('C   C', 'C   C', 'CGGGC', ' GGG ')

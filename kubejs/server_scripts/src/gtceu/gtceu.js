@@ -210,43 +210,42 @@ ServerEvents.recipes(event => {
     .inputFluids(Fluid.of("gtceu:mana", 4))
     .duration(60)
     .EUt(-32)
-    .circuit(0)
-  let tier1 = ["water", "fire", "earth", "air"]
-  let tier2 = ["spring", "summer", "autumn", "winter", "mana"]
-  let tier3 = ["lust", "gluttony", "greed", "sloth", "wrath", "envy", "pride"]
-  let tier4 = ["asgard", "vanaheim", "alfheim", "midgard", "joetunheim", "muspelheim", "niflheim", "nidavellir", "helheim"]
-  tier1.forEach(rune => {
-    event.recipes.gtceu.mana_generator("mana_generator_rune_" + rune)
-      .inputFluids(Fluid.of("gtceu:mana", 4))
-      .chancedInput("botania:rune_" + rune, 500, 0)
-      .duration(80)
-      .EUt(-32)
-      .circuit(1)
-  })
-  tier2.forEach(rune => {
-    event.recipes.gtceu.mana_generator("mana_generator_rune_" + rune)
-      .inputFluids(Fluid.of("gtceu:mana", 4))
-      .chancedInput("botania:rune_" + rune, 250, 0)
-      .duration(100)
-      .EUt(-32)
-      .circuit(1)
-  })
-  tier3.forEach(rune => {
-    event.recipes.gtceu.mana_generator("mana_generator_rune_" + rune)
-      .inputFluids(Fluid.of("gtceu:mana", 4))
-      .chancedInput("botania:rune_" + rune, 125, 0)
-      .duration(100)
-      .EUt(-48)
-      .circuit(1)
-  })
-  tier4.forEach(rune => {
-    event.recipes.gtceu.mana_generator("mana_generator_rune_" + rune)
-      .inputFluids(Fluid.of("gtceu:mana", 4))
-      .notConsumable("mythicbotany:" + rune + "_rune")
-      .duration(120)
-      .EUt(-48)
-      .circuit(1)
-  })
+  // let tier1 = ["water", "fire", "earth", "air"]
+  // let tier2 = ["spring", "summer", "autumn", "winter", "mana"]
+  // let tier3 = ["lust", "gluttony", "greed", "sloth", "wrath", "envy", "pride"]
+  // let tier4 = ["asgard", "vanaheim", "alfheim", "midgard", "joetunheim", "muspelheim", "niflheim", "nidavellir", "helheim"]
+  // tier1.forEach(rune => {
+  //   event.recipes.gtceu.mana_generator("mana_generator_rune_" + rune)
+  //     .inputFluids(Fluid.of("gtceu:mana", 4))
+  //     .chancedInput("botania:rune_" + rune, 500, 0)
+  //     .duration(80)
+  //     .EUt(-32)
+  //     .circuit(1)
+  // })
+  // tier2.forEach(rune => {
+  //   event.recipes.gtceu.mana_generator("mana_generator_rune_" + rune)
+  //     .inputFluids(Fluid.of("gtceu:mana", 4))
+  //     .chancedInput("botania:rune_" + rune, 250, 0)
+  //     .duration(100)
+  //     .EUt(-32)
+  //     .circuit(1)
+  // })
+  // tier3.forEach(rune => {
+  //   event.recipes.gtceu.mana_generator("mana_generator_rune_" + rune)
+  //     .inputFluids(Fluid.of("gtceu:mana", 4))
+  //     .chancedInput("botania:rune_" + rune, 125, 0)
+  //     .duration(100)
+  //     .EUt(-48)
+  //     .circuit(1)
+  // })
+  // tier4.forEach(rune => {
+  //   event.recipes.gtceu.mana_generator("mana_generator_rune_" + rune)
+  //     .inputFluids(Fluid.of("gtceu:mana", 4))
+  //     .notConsumable("mythicbotany:" + rune + "_rune")
+  //     .duration(120)
+  //     .EUt(-48)
+  //     .circuit(1)
+  // })
   event.recipes.gtceu.assembler("blaze_blast_furnace")
     .itemInputs(["4x gtceu:nano_processor_assembly", "4x kubejs:blaze_blast_furnace_casing", "2x gtceu:pyrotheum_dust", "2x gtceu:hv_sensor", "gtceu:hv_field_generator"])
     .inputFluids(Fluid.of("gtceu:polyvinyl_chloride", 288))

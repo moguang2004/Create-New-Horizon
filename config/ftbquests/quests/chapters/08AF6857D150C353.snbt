@@ -984,10 +984,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"23FD399F5B59DA53"
-				"2F3BF4CBC85691E8"
-			]
+			dependencies: ["23FD399F5B59DA53"]
 			id: "46D539BDB8CECDE1"
 			tasks: [{
 				id: "6F1666173DF37898"
@@ -1047,16 +1044,6 @@
 			title: "格雷小课堂：用电安全"
 			x: -4.0d
 			y: 11.5d
-		}
-		{
-			id: "2F3BF4CBC85691E8"
-			tasks: [{
-				id: "7BEE6E79883683DC"
-				item: "sliceanddice:slicer"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -1.5d
 		}
 		{
 			can_repeat: true
