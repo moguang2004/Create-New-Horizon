@@ -1493,6 +1493,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("adamantiteliquid")
         .liquid()
         .color(0x125555)
+    event.create("simple_growth_medium")
+        .liquid()
+        .color(0xeef295)
 })
 
 StartupEvents.postInit(event => {

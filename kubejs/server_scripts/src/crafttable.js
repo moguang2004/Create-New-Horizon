@@ -999,8 +999,88 @@ ServerEvents.recipes(event => {
         G: '#gtceu:circuits/luv'
     })
 
+    event.shaped(
+        Item.of('jackseconomy:empty_exporter_manifest', 1), [
+          "ABA",
+          "CCC",
+          "CDC"
+        ], {
+        A: 'minecraft:red_carpet',
+        B: '#forge:chests',
+        C: 'minecraft:string',
+        D: 'minecraft:feather'
+    })
+
+    event.shaped(
+        Item.of('jackseconomy:empty_importer_manifest', 1), [
+          "CDC",
+          "CCC",
+          "ABA"
+        ], {
+        A: 'minecraft:red_carpet',
+        B: '#forge:chests',
+        C: 'minecraft:string',
+        D: 'minecraft:feather'
+    })
+
+    event.shaped(
+        Item.of('jackseconomy:golden_exporter_manifest', 1), [
+          "AAA",
+          "ABA",
+          "AAA"
+        ], {
+        A: 'gtceu:gold_foil',
+        B: 'jackseconomy:empty_exporter_manifest'
+    })
     
-    
+    event.shaped(
+        Item.of('jackseconomy:mechanical_importer', 1), [
+          "ABA",
+          "BCB",
+          "ADA"
+        ], {
+        A: 'gtceu:gold_foil',
+        B: 'gtceu:steel_plate',
+        C: 'kubejs:heavy_machinery_casing',
+        D: 'create:cogwheel'
+    })
+
+    event.shaped(
+        Item.of('jackseconomy:mechanical_exporter', 1), [
+          "ADA",
+          "BCB",
+          "ABA"
+        ], {
+        A: 'gtceu:gold_foil',
+        B: 'gtceu:steel_plate',
+        C: 'kubejs:heavy_machinery_casing',
+        D: 'create:cogwheel'
+    })
+
+    event.shaped(
+        Item.of('jackseconomy:importer', 1), [
+          "ABA",
+          "BCB",
+          "ADA"
+        ], {
+        A: 'gtceu:gold_foil',
+        B: 'gtceu:steel_plate',
+        C: 'kubejs:heavy_machinery_casing',
+        D: 'gtceu:red_alloy_single_wire'
+    })
+
+    event.shaped(
+        Item.of('jackseconomy:exporter', 1), [
+          "ADA",
+          "BCB",
+          "ABA"
+        ], {
+        A: 'gtceu:gold_foil',
+        B: 'gtceu:steel_plate',
+        C: 'kubejs:heavy_machinery_casing',
+        D: 'gtceu:red_alloy_single_wire'
+    })
+
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

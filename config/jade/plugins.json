@@ -125,6 +125,10 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
+  },
   "twilightforest": {
     "quest_ram_wool": true
   },
