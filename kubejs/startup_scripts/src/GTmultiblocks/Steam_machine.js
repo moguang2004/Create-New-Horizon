@@ -44,7 +44,7 @@ GTCEuStartupEvents.registry('gtceu:machine',event =>{
             .where("#", Predicates.air())
             .where(" ", Predicates.any())
             .build())
-        .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_bronze_plated_bricks", "gtceu:block/steam_pressor")
+        .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_bronze_plated_bricks", "gtceu:block/machines/compressor")
 
     event.create("steam_foundry", "multiblock", (holder) => new $SteamParallelMultiblockMachine(holder))
         .rotationState(RotationState.ALL)
