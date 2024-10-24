@@ -73,6 +73,68 @@ ServerEvents.recipes(event => {
   //terra_steel
   terra_plate(event,['botania:manasteel_ingot','botania:mana_pearl','botania:mana_diamond','botania:rune_mana'],'botania:terrasteel_ingot',500000)
   terra_plate(event,['kubejs:mana_resistor','kubejs:mana_capacitor','kubejs:mana_diode','gtceu:good_electronic_circuit'],'kubejs:mana_electronic_circuit',100000)
+  
+  //mana_reactor
+  event.recipes.gtceu.mana_reactor('hydroangeas')
+  .itemInputs('botania:hydroangeas')
+  .inputFluids(Fluid.of('minecraft:water',8000))
+  .outputFluids(Fluid.of('gtceu:mana',800))
+  .duration(600)
+  .EUt(7)
+  event.recipes.gtceu.mana_reactor('kekimurus')
+  .notConsumable('botania:kekimurus')
+  .itemInputs('minecraft:cake')
+  .outputFluids(Fluid.of('gtceu:mana',280))
+  .duration(500)
+  .EUt(7)
+  event.recipes.gtceu.mana_reactor('munchdew')
+  .notConsumable('botania:munchdew')
+  .itemInputs('16x #forge:leaves')
+  .outputFluids(Fluid.of('gtceu:mana',64))
+  .duration(80)
+  .EUt(7)
+  event.recipes.gtceu.mana_reactor('rosa_arcana')
+  .notConsumable('botania:rosa_arcana')
+  .inputFluids(Fluid.of('enderio:xp_juice',2000))
+  .outputFluids(Fluid.of('gtceu:mana',150))
+  .duration(100)
+  .EUt(7)
+//热爆花
+  event.recipes.gtceu.mana_reactor('entropinnyum')
+  .notConsumable('botania:entropinnyum')
+  .itemInputs('minecraft:tnt')
+  .outputFluids(Fluid.of('gtceu:mana',180))
+  .duration(100)
+  .EUt(7)
+//粘球草
+  event.recipes.gtceu.mana_reactor('narslimmus')
+  .notConsumable('botania:narslimmus')
+  .itemInputs('64x minecraft:slime_ball')
+  .outputFluids(Fluid.of('gtceu:mana',240))
+  .duration(250)
+  .EUt(7)
+//炽玫瑰
+  event.recipes.gtceu.mana_reactor('thermalily')
+  .notConsumable('botania:thermalily')
+  .inputFluids(Fluid.of('minecraft:lava',10000))
+  .outputFluids(Fluid.of('gtceu:mana',480))
+  .duration(900)
+  .EUt(7)
+  Ingredient.of('#forge:foods').getItemTypes().forEach(food => {
+    if (food.toString() != 'pumpkin_pie') {
+        let nutrition = food.getFoodProperties().getNutrition()
+        let saturation = food.getFoodProperties().getSaturationModifier()
+        let rate = nutrition + saturation / 2
+        event.recipes.gtceu.mana_reactor(food.toString() + '_gourmaryllis')
+            .EUt(7)
+            .itemInputs(food.asIngredient().getItemIds())
+            .notConsumable('botania:gourmaryllis')
+            .outputFluids(Fluid.of('gtceu:mana', 3 * Math.floor(Math.pow(rate,2))))
+            .duration(30*rate/2)
+    }
+})
+
+  //custom
   event.custom({
     "type": "botania:runic_altar",
     "ingredients": [

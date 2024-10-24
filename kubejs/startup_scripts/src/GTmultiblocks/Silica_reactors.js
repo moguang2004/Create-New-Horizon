@@ -15,9 +15,12 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.TURBINE)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('naq_mk1_machine', 'multiblock')
+    event.create('naq_mk1_machine', 'multiblock',holder => $NaqReactorMachine(holder,1))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('naq_mk1')
+        .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe, params, result) => {
+            return $NaqReactorMachine.recipeModifier(machine,recipe,params,result)
+        })
         .appearanceBlock(() => Block.getBlock("kubejs:naquadah_casing"))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("##AAA##", "##BBB##", "##BBB##", "##BBB##", "##BBB##", "##BBB##", "##AAA##")
@@ -34,13 +37,20 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
             .build()
         )
+        .tooltips(
+            Component.translatable("gtceu.universal.tooltip.base_production_eut", GTValues.V[GTValues.UV]),
+            Component.translatable("gtceu.universal.tooltip.uses_per_hour_lubricant",1000),
+            Component.translatable("ctnh.machine.naq_reactor_machine.tooltip.boost_mk1",GTValues.V[GTValues.UV] * 8))
         .workableCasingRenderer('kubejs:block/na_casing', 'gtceu:block/multiblock/fusion_reactor', false)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('naq_mk2_machine', 'multiblock')
+    event.create('naq_mk2_machine', 'multiblock',holder => $NaqReactorMachine(holder,2))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('naq_mk1')
         .recipeType('naq_mk2')
+        .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe, params, result) => {
+            return $NaqReactorMachine.recipeModifier(machine,recipe,params,result)
+        })
         .appearanceBlock(() => Block.getBlock("kubejs:naquadah_alloy_casing"))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("###############", "###############", "######AAA######", "###############", "###############")
@@ -69,5 +79,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("@", Predicates.controller(Predicates.blocks(definition.get())))
             .build()
         )
+        .tooltips(
+            Component.translatable("gtceu.universal.tooltip.base_production_eut", GTValues.V[GTValues.UHV]),
+            Component.translatable("gtceu.universal.tooltip.uses_per_hour_lubricant",1000),
+            Component.translatable("ctnh.machine.naq_reactor_machine.tooltip.boost_mk2",GTValues.V[GTValues.UHV] * 16))
         .workableCasingRenderer('kubejs:block/nqhejing_casing', 'gtceu:block/multiblock/fusion_reactor', false)
 })
