@@ -576,6 +576,11 @@ ServerEvents.recipes(event => {
     .inputStress(512)
     .duration(40)
     .EUt(-32)
+  
+  event.recipes.gtceu.naq_mk1("generator1")
+    .inputFluids(Fluid.of("gtceu:superfuelmk1", 1))
+    .duration(100)
+    .EUt(-32768)
 
   event.recipes.gtceu.mixer("chorusite_alloy_dust")
     .itemInputs(["gtceu:andesite_alloy_dust", "2x minecraft:popped_chorus_fruit", "minecraft:dragon_breath"])
