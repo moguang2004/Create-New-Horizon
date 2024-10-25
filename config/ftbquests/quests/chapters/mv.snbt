@@ -440,6 +440,7 @@
 				}
 				{
 					command: "/gamephase add @p end"
+					elevate_perms: true
 					id: "345886DE08824767"
 					type: "command"
 				}
@@ -698,6 +699,7 @@
 			id: "415AF3F977F4C3F9"
 			rewards: [{
 				command: "/gamephase add @p aether"
+				elevate_perms: true
 				id: "47B4C1C8E27B98A0"
 				type: "command"
 			}]
@@ -1111,6 +1113,7 @@
 			id: "05969156583DEA39"
 			rewards: [{
 				command: "/gamephase add @p end"
+				elevate_perms: true
 				id: "185A75163AB07083"
 				type: "command"
 			}]
@@ -1128,6 +1131,7 @@
 			id: "4117277DAB11C148"
 			rewards: [{
 				command: "/gamephase add @p aether"
+				elevate_perms: true
 				id: "41EA21F13F114E42"
 				type: "command"
 			}]
