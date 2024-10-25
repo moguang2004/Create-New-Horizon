@@ -488,6 +488,7 @@
 				}
 				{
 					command: "/gamephase add @p twilightforest"
+					elevate_perms: true
 					id: "57D8F0400C68D005"
 					type: "command"
 				}
@@ -1135,6 +1136,7 @@
 			id: "642E8922514A9401"
 			rewards: [{
 				command: "/gamephase add @p twilightforest"
+				elevate_perms: true
 				id: "6327FB5648EBADFF"
 				type: "command"
 			}]

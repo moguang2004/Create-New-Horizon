@@ -172,6 +172,7 @@
 		}
 		{
 			id: "21742989261776EF"
+			subtitle: "吉祥物"
 			tasks: [{
 				id: "4A866FC012AACA73"
 				item: "gtceu:water_power_station"
@@ -439,6 +440,16 @@
 			}]
 			x: 12.0d
 			y: 5.5d
+		}
+		{
+			id: "546A9B695CDD5334"
+			tasks: [{
+				id: "5FCD3A506DEC003A"
+				title: "去你妈的火箭燃料"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 8.5d
 		}
 	]
 	title: "如何发电"
