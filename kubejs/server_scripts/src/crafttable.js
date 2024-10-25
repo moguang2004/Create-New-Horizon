@@ -1081,6 +1081,24 @@ ServerEvents.recipes(event => {
         D: 'gtceu:red_alloy_single_wire'
     })
 
+    event.shaped(
+        Item.of('gtmthings:ulv_huge_item_import_bus', 1), [
+          "A",
+          "B"
+        ], {
+        A: 'gtceu:ulv_input_bus',
+        B: 'expandedstorage:diamond_chest'
+    })
+
+    event.shaped(
+        Item.of('gtmthings:ulv_huge_item_export_bus', 1), [
+          "A",
+          "B"
+        ], {
+        A: 'gtceu:ulv_output_bus',
+        B: 'expandedstorage:diamond_chest'
+    })
+
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
