@@ -1099,6 +1099,75 @@ ServerEvents.recipes(event => {
         B: 'expandedstorage:diamond_chest'
     })
 
+    event.shaped(
+        Item.of('gtceu:mana_bender', 1), [
+          "AAA",
+          "BCB",
+          "DEF"
+        ], {
+        A: 'botania:polished_livingrock',
+        B: 'gtceu:mv_electric_motor',
+        C: 'gtceu:mv_bender',
+        D: 'gtceu:mv_electric_piston',
+        E: 'gtceu:mv_robot_arm',
+        F: '#gtceu:circuits/mv'
+    })
+    
+    event.shaped(
+        Item.of('gtceu:mana_lathe', 1), [
+          "AAA",
+          "BCB",
+          "DEF"
+        ], {
+        A: 'botania:polished_livingrock',
+        B: 'gtceu:mv_electric_piston',
+        C: 'gtceu:mv_lathe',
+        D: '#gtceu:circuits/mv',
+        E: 'gtceu:mv_robot_arm',
+        F: 'gtceu:aluminium_buzz_saw_blade'
+    })
+
+    event.shaped(
+        Item.of('gtceu:mana_assembler', 1), [
+          "AAA",
+          "BCD",
+          "EFG"
+        ], {
+        A: 'botania:polished_livingrock',
+        B: 'gtceu:hv_sensor',
+        C: 'gtceu:hv_assembler',
+        D: 'gtceu:hv_fluid_regulator',
+        E: '#gtceu:circuits/hv',
+        F: 'gtceu:hv_robot_arm',
+        G: 'gtceu:hv_field_generator'
+    })
+
+    event.shaped(
+        Item.of('gtceu:mana_wiremill', 1), [
+          "AAA",
+          "BCB",
+          "DED"
+        ], {
+        A: 'botania:polished_livingrock',
+        B: 'gtceu:mv_electric_motor',
+        C: 'gtceu:mv_wiremill',
+        D: 'gtceu:copper_single_cable',
+        E: '#gtceu:circuits/mv'
+    })
+
+    event.shaped(
+        Item.of('gtceu:mana_wiremill', 1), [
+          "AAA",
+          "BCB",
+          "DED"
+        ], {
+        A: 'botania:polished_livingrock',
+        B: '#gtceu:circuits/ev',
+        C: 'gtceu:mv_wiremill',
+        D: 'botania:gaia_spreader',
+        E: 'botania:fabulous_pool'
+    })
+
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

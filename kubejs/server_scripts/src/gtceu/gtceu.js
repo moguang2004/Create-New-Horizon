@@ -1453,7 +1453,7 @@ ServerEvents.recipes(event => {
     .EUt(480)
     .blastFurnaceTemp(2273)
   event.recipes.gtceu.assembler("large_fermenting")
-    .itemInputs(['4x gtceu:fermenting_tank', '4x gtceu:titanium_plate', '2x gtceu:crystal_processor', '2x gtceu:iv_robot_arm', '4x gtceu:tempered_glass'])
+    .itemInputs(['4x gtceu:fermenting_tank', '4x gtceu:titanium_plate', '2x #gtceu:circuits/iv', '2x gtceu:iv_robot_arm', '4x gtceu:tempered_glass'])
     .itemOutputs('gtceu:large_fermenting_tank')
     .inputFluids(Fluid.of('gtceu:biomass',1000))
     .duration(400)
