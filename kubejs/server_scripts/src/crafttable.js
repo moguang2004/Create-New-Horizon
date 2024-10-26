@@ -1156,14 +1156,14 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('gtceu:mana_wiremill', 1), [
+        Item.of('gtceu:mana_reactor', 1), [
           "AAA",
           "BCB",
           "DED"
         ], {
         A: 'botania:polished_livingrock',
         B: '#gtceu:circuits/ev',
-        C: 'gtceu:mv_wiremill',
+        C: 'gtceu:alfsteel_gear',
         D: 'botania:gaia_spreader',
         E: 'botania:fabulous_pool'
     })

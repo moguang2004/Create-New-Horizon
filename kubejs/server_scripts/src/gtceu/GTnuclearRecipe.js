@@ -149,11 +149,27 @@ ServerEvents.recipes(event => {
         }
 
         // Fuel + O = [Fuel + O]
-        ctnh.chemical_reactor('oxide_' + n.name)
+        if(n.name == 'uranium_238'){
+            ctnh.chemical_reactor('oxide_' + n.name)
+            .itemInputs('gtceu:uranium_ingot')
+            .inputFluids(Fluid.of('gtceu:oxygen', 1000))
+            .itemOutputs('gtceu:oxide_' + n.name + '_dust')
+            .EUt(30).duration(300)
+        }
+        else if (n.name == 'plutonium_239') {
+            ctnh.chemical_reactor('oxide_' + n.name)
+            .itemInputs('gtceu:plutonium_ingot')
+            .inputFluids(Fluid.of('gtceu:oxygen', 1000))
+            .itemOutputs('gtceu:oxide_' + n.name + '_dust')
+            .EUt(30).duration(300)
+        }
+        else{
+            ctnh.chemical_reactor('oxide_' + n.name)
             .itemInputs('gtceu:' + n.name + '_ingot')
             .inputFluids(Fluid.of('gtceu:oxygen', 1000))
             .itemOutputs('gtceu:oxide_' + n.name + '_dust')
             .EUt(30).duration(300)
+        }
 
         // [Fuel + O] + 2C = [Fuel + C] + CO
         ctnh.chemical_reactor('carbide_' + n.name)

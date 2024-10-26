@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('hot_coolant_turbine', 'multiblock', holder => new $LargeTurbineMachine(holder, GTValues.EV))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('hot_coolant_turbine')
-        .recipeModifier((machine, recipe) => $LargeTurbineMachine.recipeModifier(machine, recipe), true)
+        .recipeModifier((machine, recipe,params,results) => $LargeTurbineMachine.recipeModifier(machine, recipe,params,results), true)
         .appearanceBlock(GTBlocks.CASING_TITANIUM_TURBINE)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("AAAA", "ASSA", "AAAA")
