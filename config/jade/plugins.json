@@ -92,6 +92,9 @@
     "ench": true,
     "spawner": true
   },
+  "lootr": {
+    "info": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -125,12 +128,26 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
   "touhou_little_maid": {
     "maid": true,
     "shrine_lamp": true
   },
   "twilightforest": {
     "quest_ram_wool": true
+  },
+  "create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "goggles.detailed": false,
+    "placard": true
   },
   "waystones": {
     "waystone": true

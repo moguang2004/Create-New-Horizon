@@ -1149,6 +1149,18 @@
 			x: 7.5d
 			y: -6.0d
 		}
+		{
+			dependencies: ["39E54D32FF4C6CAF"]
+			description: ["用末影接口的管道连接新生魔艺的书龙讲台可能会导致游戏TPS极度上升，请小心使用！"]
+			id: "76ECC0512CB1CEF4"
+			tasks: [{
+				id: "35245DB3FC44D355"
+				title: "不要把新生魔艺和末影接口一起使用！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
 	]
 	subtitle: ["工业起步"]
 	title: "&7LV&r时期"

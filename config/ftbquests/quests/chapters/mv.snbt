@@ -617,6 +617,7 @@
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
+			description: ["如果出现内存泄漏的问题，试着挖掉化粪池的主方块"]
 			id: "64F3856504BEA9F2"
 			tasks: [{
 				id: "43A049323FEB918E"
@@ -628,6 +629,7 @@
 		}
 		{
 			dependencies: ["64F3856504BEA9F2"]
+			description: ["如果出现内存泄漏的问题，试着挖掉发酵罐的主方块"]
 			id: "36B9FCEC9579E090"
 			optional: true
 			tasks: [{
