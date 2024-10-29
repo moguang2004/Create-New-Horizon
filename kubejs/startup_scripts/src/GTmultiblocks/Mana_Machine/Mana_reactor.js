@@ -1,7 +1,7 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('mana_reactor')
         .category('ctnh')
-        .setMaxIOSize(3, 6, 3, 2)
+        .setMaxIOSize(6, 6, 3, 3)
         .setEUIO('in')
         .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
