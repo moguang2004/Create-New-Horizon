@@ -71,4 +71,40 @@ ServerEvents.recipes(event => {
     .itemOutputs('2x gtceu:sturdy_machine_casing')
     .EUt(16)
     .duration(50)
+  event.shaped(
+    Item.of('ctnhcore:naquadah_casing_block', 2), [
+    "ABA",
+    "EDE",
+    "ACA"
+  ], {
+    A: 'gtceu:double_naquadah_plate',
+    B: '#forge:tools/hammers',
+    C: '#forge:tools/wrenches',
+    D: 'gtceu:duranium_frame',
+    E: 'gtceu:double_europium_plate'
+  })
+  ctnh.assembler('ctnhcore:naquadah_casing_block')
+    .itemInputs(['4x gtceu:double_naquadah_plate', '2x gtceu:double_europium_plate', 'gtceu:duranium_frame'])
+    .circuit(6)
+    .itemOutputs('2x ctnhcore:naquadah_casing_block')
+    .EUt(16)
+    .duration(50)
+  event.shaped(
+    Item.of('ctnhcore:naquadah_alloy_casing_block', 2), [
+    "ABA",
+    "EDE",
+    "ACA"
+  ], {
+    A: 'gtceu:double_naquadah_alloy_plate',
+    B: '#forge:tools/hammers',
+    C: '#forge:tools/wrenches',
+    D: 'gtceu:tritanium_frame',
+    E: 'gtceu:double_neutronium_plate'
+  })
+  ctnh.assembler('ctnhcore:naquadah_alloy_casing_block')
+    .itemInputs(['4x gtceu:double_naquadah_alloy_plate', '2x gtceu:double_neutronium_plate', 'gtceu:tritanium_frame'])
+    .circuit(6)
+    .itemOutputs('2x ctnhcore:naquadah_alloy_casing_block')
+    .EUt(16)
+    .duration(50)
 })
