@@ -406,3 +406,10 @@ ServerEvents.recipes(event => {
   function toOutput(content){
       return OutputItem.of(content.content.ingredient).withCount(content.content.count).withChance(content.chance>10000?1:content.chance/10000.0);
   }
+
+
+ //Melting -> Diamond into 200mb Molten Gold in 90 ticks with Heated condition.
+    ServerEvents.recipes(event =>{
+	event.recipes.create.mixing('kubejs:rubber_powder', ['gtceu:sulfur_dust','3x gtceu:raw_rubber_dust']).heated()
+    event.recipes.createmetallurgy.melting(Fluid.of('gtceu:rubber', 144), 'kubejs:rubber_powder', 90, 'heated')
+	})
