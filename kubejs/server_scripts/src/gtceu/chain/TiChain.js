@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(400)
     //合成含钒四氯化钛42B氯
-    ctnh.chemical_reactor("tiCl4")
+    ctnh.chemical_reactor("ticl4")
         .inputFluids("gtceu:chlorine 48000")
         .itemInputs("6x gtceu:rutile_dust")
         .itemInputs('12x gtceu:carbon_dust')
