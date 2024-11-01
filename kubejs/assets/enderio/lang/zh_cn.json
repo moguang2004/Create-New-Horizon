@@ -5,9 +5,9 @@
     "item.enderio.ender_energy_conduit": "末影能量导管",
     "item.enderio.melodic_energy_conduit": "旋律能量导管",
     "item.enderio.stellar_energy_conduit": "恒星能量导管",
-    "ctnh.basic_energy_conduit": "传输速率：320 RF/t",
-    "ctnh.enhanced_energy_conduit": "传输速率：1280 RF/t",
-    "ctnh.vibrant_energy_conduit": "传输速率：5120 RF/t",
+    "ctnh.basic_energy_conduit": "传输速率：640 RF/t",
+    "ctnh.enhanced_energy_conduit": "传输速率：2560 RF/t",
+    "ctnh.vibrant_energy_conduit": "传输速率：10240 RF/t",
     "ctnh.ender_energy_conduit": "传输速率：20480 RF/t",
     "ctnh.melodic_energy_conduit": "传输速率：81920 RF/t",
     "ctnh.stellar_energy_conduit": "传输速率：327680 RF/t"
