@@ -692,7 +692,7 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -20.0d
 			y: 23.5d
 		}
 		{
@@ -969,19 +969,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 18.0d
-		}
-		{
-			dependencies: ["04069333A19D2DB3"]
-			id: "5EA4B56083875D56"
-			subtitle: "用于合金的搅拌机"
-			tasks: [{
-				id: "5E8A8D259A988D24"
-				item: "createmetallurgy:foundry_mixer"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 20.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -1197,18 +1185,15 @@
 			y: 22.0d
 		}
 		{
-			dependencies: [
-				"49B597AA5C08DC1E"
-				"5EA4B56083875D56"
-			]
+			dependencies: ["1CCE6AFED399CADF"]
 			id: "6F4DA29DA86EAFCD"
 			tasks: [{
 				id: "11D46D61E3278B77"
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 20.0d
+			x: -9.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["1BDD550BE6C77C28"]
@@ -1443,8 +1428,8 @@
 			dependencies: ["6A9845F85704E2D4"]
 			id: "06C3AF2D5D8F694A"
 			tasks: [{
-				id: "2C0193BAFB8F66BA"
-				item: "vintageimprovements:iron_spring"
+				id: "06DC5E54CC23C978"
+				item: "gtceu:iron_spring"
 				type: "item"
 			}]
 			x: -11.5d
@@ -1594,7 +1579,7 @@
 				item: "gtceu:hp_steam_extractor"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -20.0d
 			y: 25.0d
 		}
 		{
@@ -1642,6 +1627,57 @@
 			}]
 			x: -15.0d
 			y: 23.5d
+		}
+		{
+			dependencies: ["49B597AA5C08DC1E"]
+			id: "351809CC7F8F9D7B"
+			tasks: [{
+				id: "2A5F413D7ECC1951"
+				item: "kubejs:rubber_powder"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 19.0d
+		}
+		{
+			id: "3509D7B8E361DF68"
+			tasks: [{
+				id: "309762CDFF82C6E6"
+				item: "createmetallurgy:casting_basin"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"3509D7B8E361DF68"
+				"3AB5FDB74D7FA100"
+			]
+			id: "1CCE6AFED399CADF"
+			tasks: [{
+				id: "1419B44977CA9077"
+				item: "gtceu:rubber_block"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"04069333A19D2DB3"
+				"351809CC7F8F9D7B"
+			]
+			id: "3AB5FDB74D7FA100"
+			optional: true
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:rubber"
+				id: "10CAE946BEBE79A0"
+				type: "fluid"
+			}]
+			x: -9.5d
+			y: 20.0d
 		}
 	]
 	title: "齿轮力量"
