@@ -122,6 +122,7 @@ StartupEvents.registry("item", event => {
     event.create('advanced_mana_capacitor')
     event.create('mana_inductor')
     event.create('advanced_mana_inductor')
+	event.create('rubber_powder')
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')

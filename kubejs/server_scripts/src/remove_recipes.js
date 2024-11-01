@@ -108,7 +108,9 @@ ServerEvents.recipes(event => {
         "hostilenetworks:sim_chamber",
         "hostilenetworks:loot_fabricator",
         "hostilenetworks:deep_learner",
-        "hostilenetworks:framework"
+        "hostilenetworks:framework",
+        "ae2things:cells/disk_drive_1k",
+        "aether:aether_saddle"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
