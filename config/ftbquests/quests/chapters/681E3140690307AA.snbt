@@ -493,12 +493,12 @@
 			description: ["每一个伟大的梦想，都起源于一个微不足道的开始"]
 			id: "337BC9186C014A06"
 			tasks: [{
-				id: "1105E35AC2175382"
+				id: "53BD9501D90EA729"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "minecraft:oak_logs"
+						value: "minecraft:logs"
 					}
 				}
 				title: "Any #minecraft:logs"
