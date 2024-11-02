@@ -29,22 +29,23 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     case Direction.SOUTH: aabb = AABB.ofBlocks(pos.offset(-5,0,0),pos.offset(5,2,-10))
                 }
                 level.getEntitiesWithin(aabb).forEach((/**@type {$Entity}*/entity) =>{
-                    if(entity.name.toString == "minecraft:cow"){
+                    console.info(entity)
+                    if(entity.getEntityType().toString() == "entity.minecraft.cow"){
                         cowcount ++
                     }
-                    else if(entity.name.toString == "minecraft:sheep"){
+                    else if(entity.getEntityType().toString() == "entity.minecraft.sheep"){
                         sheepcount ++
                     }
-                    else if(entity.name.toString == "minecraft:chicken"){
+                    else if(entity.getEntityType().toString() == "entity.minecraft.chicken"){
                         chickencount ++
                     }
                 })
                 let recipe = $GTRecipeBuilder.ofRaw()
-                    // .outputItems(Item.of('minecraft:leather',cowcount))
-                    // .outputItems(Item.of('minecraft:white_wool',sheepcount)
-                    // .outputItems(Item.of('minecraft:egg',chickencount)))
-                    // .outputItems(Item.of('kubejs:animal_excreta',cowcount + sheepcount + chickencount))
-                    // .outputFluids(Fluid.of('minecraft:milk', 250 * cowcount))
+                ["outputItems(net.minecraft.world.item.ItemStack)"](Item.of('minecraft:leather',cowcount))
+                ["outputItems(net.minecraft.world.item.ItemStack)"](Item.of('minecraft:white_wool',sheepcount))
+                ["outputItems(net.minecraft.world.item.ItemStack)"](Item.of('minecraft:egg',chickencount))
+                ["outputItems(net.minecraft.world.item.ItemStack)"](Item.of('kubejs:animal_excreta',cowcount + sheepcount + chickencount))
+                ["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:milk " + 250 * cowcount)
                     .buildRawRecipe()
                 if (recipe.matchRecipe(machine).isSuccess()) {
                     recipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches())

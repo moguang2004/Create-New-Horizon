@@ -305,7 +305,7 @@ ServerEvents.recipes(event => {
         'gtceu:resin_printed_circuit_board'
         ], 'gtceu:wood_plate', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:copper_foil']),
-    event.recipes.vintageimprovementsLaserCutting(transitional, transitional),
+    event.recipes.vintageimprovementsLaserCutting(transitional, transitional).energyCost(10000).maxChargeRate(5000),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:glue', 25)]),
     event.recipes.createPressing(transitional, [transitional]),
         ]).transitionalItem(transitional)
