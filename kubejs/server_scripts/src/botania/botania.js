@@ -215,16 +215,16 @@ ServerEvents.recipes(event => {
     .duration(20)
     .circuit(0)
   }
-  event.custom({
-    "type": "botania:mana_infusion",
-    "input": {
-      "tag": 'minecraft:wool'
-    },
-    "mana": 3000,
-    "output": {
-      "item": 'cold_sweat:goat_fur'
-    }
-  })
+  // event.custom({
+  //   "type": "botania:mana_infusion",
+  //   "input": {
+  //     "tag": 'minecraft:wool'
+  //   },
+  //   "mana": 3000,
+  //   "output": {
+  //     "item": 'cold_sweat:goat_fur'
+  //   }
+  // })
   //manasteel
   mana_infusion(event,'minecraft:iron_ingot','botania:manasteel_ingot',3000)
   mana_infusion(event,'minecraft:iron_block','botania:manasteel_block',27000)
@@ -402,7 +402,7 @@ ServerEvents.recipes(event => {
   runic_altar(event,['minecraft:dandelion','create:white_sail','ars_nouveau:purple_archwood_log','create:propeller','minecraft:feather','minecraft:string'],"2x botania:rune_air",6000)
   runic_altar(event,['botania:quartz_mana','botania:mana_powder','botania:manaweave_cloth','botania:mana_bottle','botania:mana_glass','botania:mana_cookie'],"botania:rune_mana",8000)
   runic_altar(event,['botania:rune_water','botania:rune_fire','twilightforest:root','minecraft:moss_block','minecraft:cherry_sapling','twilightforest:hollow_oak_sapling'],"botania:rune_spring",10000)
-  runic_altar(event,['botania:rune_earth','botania:rune_air','twilightforest:cicada','create:propeller','minecraft:melon_slice','cold_sweat:hoglin_hide'],"botania:rune_summer",10000)
+  runic_altar(event,['botania:rune_earth','botania:rune_air','twilightforest:cicada','create:propeller','minecraft:melon_slice','minecraft:lilac'],"botania:rune_summer",10000)
   runic_altar(event,['botania:rune_fire','botania:rune_air','twilightforest:fallen_leaves','minecraft:wheat','biomesoplenty:maple_sapling','farmersdelight:straw'],"botania:rune_autumn",10000)
   runic_altar(event,['botania:rune_water','botania:rune_earth','#minecraft:wool','minecraft:snow_block','twilightforest:arctic_fur','gtceu:ice_dust'],"botania:rune_winter",10000)
   runic_altar(event,['botania:rune_spring','botania:rune_earth','botania:rune_pride','botania:alfheim_portal','botania:terrasteel_ingot'],"mythicbotany:vanaheim_rune",20000)

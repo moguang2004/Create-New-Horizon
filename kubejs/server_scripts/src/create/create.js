@@ -422,8 +422,8 @@ ServerEvents.recipes(event => {
 
 //注液器
 ServerEvents.recipes(event => {
-  event.recipes.create.filling('cold_sweat:thermometer', ['kubejs:thermometer_case', Fluid.of('gtceu:mercury', 1000)])
-  event.remove({ output: 'cold_sweat:thermometer' })
+  event.recipes.create.filling('legendarysurvivaloverhaul:thermometer', ['kubejs:thermometer_case', Fluid.of('gtceu:mercury', 1000)])
+  event.remove({ output: 'legendarysurvivaloverhaul:thermometer' })
 })
 
 ServerEvents.recipes(event => {

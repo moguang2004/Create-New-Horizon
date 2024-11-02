@@ -42,7 +42,6 @@ const $SimpleTieredMachine=Java.loadClass("com.gregtechceu.gtceu.api.machine.Sim
 const $GTRecipeCapabilities=Java.loadClass('com.gregtechceu.gtceu.common.data.GTRecipeCapabilities')
 const $WorkableTieredMachine=Java.loadClass('com.gregtechceu.gtceu.api.machine.WorkableTieredMachine')
 const $EURecipeCapability = Java.loadClass('com.gregtechceu.gtceu.api.capability.recipe.EURecipeCapability')
-const $Temperature = Java.loadClass("com.momosoftworks.coldsweat.api.util.Temperature")
 const $WindmillBearingBlockEntity = Java.loadClass("com.simibubi.create.content.contraptions.bearing.WindmillBearingBlockEntity")
 const $BloodMagicAPI = Java.loadClass("wayoftime.bloodmagic.impl.BloodMagicAPI")
 const $FermentingTankMachine = Java.loadClass("io.github.cpearl0.ctnhcore.common.machine.multiblock.FermentingTankMachine")
