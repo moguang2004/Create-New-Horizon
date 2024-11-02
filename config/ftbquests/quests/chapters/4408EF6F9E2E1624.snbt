@@ -618,7 +618,7 @@
 				type: "checkmark"
 			}]
 			title: "格雷小课堂：蒸汽机器"
-			x: -6.5d
+			x: -15.0d
 			y: 22.0d
 		}
 		{
@@ -692,8 +692,8 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 24.5d
+			x: -20.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["5CF2A3DF0B2E6729"]
@@ -703,8 +703,8 @@
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 24.5d
+			x: -18.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -823,8 +823,8 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 24.5d
+			x: -14.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["5CF2A3DF0B2E6729"]
@@ -835,8 +835,8 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 24.5d
+			x: -12.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -969,19 +969,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 18.0d
-		}
-		{
-			dependencies: ["04069333A19D2DB3"]
-			id: "5EA4B56083875D56"
-			subtitle: "用于合金的搅拌机"
-			tasks: [{
-				id: "5E8A8D259A988D24"
-				item: "createmetallurgy:foundry_mixer"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 20.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -1139,8 +1127,8 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 24.5d
+			x: -16.0d
+			y: 23.5d
 		}
 		{
 			description: [
@@ -1197,18 +1185,15 @@
 			y: 22.0d
 		}
 		{
-			dependencies: [
-				"49B597AA5C08DC1E"
-				"5EA4B56083875D56"
-			]
+			dependencies: ["1CCE6AFED399CADF"]
 			id: "6F4DA29DA86EAFCD"
 			tasks: [{
 				id: "11D46D61E3278B77"
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 20.0d
+			x: -9.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["1BDD550BE6C77C28"]
@@ -1443,8 +1428,8 @@
 			dependencies: ["6A9845F85704E2D4"]
 			id: "06C3AF2D5D8F694A"
 			tasks: [{
-				id: "2C0193BAFB8F66BA"
-				item: "vintageimprovements:iron_spring"
+				id: "06DC5E54CC23C978"
+				item: "gtceu:iron_spring"
 				type: "item"
 			}]
 			x: -11.5d
@@ -1468,7 +1453,7 @@
 				type: "checkmark"
 			}]
 			title: "关于蒸汽锅炉"
-			x: -16.0d
+			x: -17.0d
 			y: 22.0d
 		}
 		{
@@ -1504,6 +1489,194 @@
 			}]
 			x: -11.5d
 			y: 18.0d
+		}
+		{
+			dependencies: ["1CE1218562D7323C"]
+			id: "31EF6EC8AE9E82E9"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
+			tasks: [{
+				id: "72787FCF0A5BF942"
+				item: "gtceu:hp_steam_macerator"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["1CE1218562D7323C"]
+			id: "52FCEA9E4B5D2E7E"
+			subtitle: "输入输出请使用蒸汽总线"
+			tasks: [{
+				id: "3615C1D06B09EF13"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["51CF4432B8957152"]
+			id: "33FD35C631AF3430"
+			subtitle: "输入输出请使用蒸汽总线"
+			tasks: [{
+				id: "6CDC0EC02E408CA7"
+				item: "gtceu:steam_foundry"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["51CF4432B8957152"]
+			id: "2C83EBCA51CEA24E"
+			tasks: [{
+				id: "4DFF7950D414CDC5"
+				item: "gtceu:hp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3D8EB8D17BDB05C3"]
+			id: "50C2F8B5A199E2C2"
+			tasks: [{
+				id: "321F6949CB5664B0"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3D8EB8D17BDB05C3"]
+			id: "5D6E62A853031740"
+			subtitle: "输入输出请使用蒸汽总线"
+			tasks: [{
+				id: "70D181C487E4F4BB"
+				item: "gtceu:steam_pressor"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["6971EC4F31A1F469"]
+			id: "7864AD2B4541E53C"
+			tasks: [{
+				id: "5079D539F2B60474"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7256DB5E60516156"]
+			id: "0C02319430A9B4A0"
+			tasks: [{
+				id: "4BEE8F0F2F930DB4"
+				item: "gtceu:hp_steam_extractor"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["4BCCA322FC238071"]
+			id: "7E91BBFDF577B69F"
+			tasks: [{
+				id: "1114A71EEE6780C2"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["36ABEA2C247D3E71"]
+			id: "7709BE728B7F61F6"
+			tasks: [{
+				id: "40EA5A7755A9A445"
+				item: "gtceu:hp_steam_furnace"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["36ABEA2C247D3E71"]
+			id: "717155F612FC68E2"
+			subtitle: "输入输出请使用蒸汽总线"
+			tasks: [{
+				id: "64FAC794D27DCB0D"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 25.0d
+		}
+		{
+			description: ["但是效率孰高孰低呢？"]
+			id: "598B081A2D704793"
+			subtitle: "有些机器可以用多方块结构形式进行“升级”"
+			tasks: [{
+				id: "343E5DDC6A875DEC"
+				title: "机器升级 "
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["49B597AA5C08DC1E"]
+			id: "351809CC7F8F9D7B"
+			tasks: [{
+				id: "2A5F413D7ECC1951"
+				item: "kubejs:rubber_powder"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 19.0d
+		}
+		{
+			id: "3509D7B8E361DF68"
+			tasks: [{
+				id: "309762CDFF82C6E6"
+				item: "createmetallurgy:casting_basin"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"3509D7B8E361DF68"
+				"3AB5FDB74D7FA100"
+			]
+			id: "1CCE6AFED399CADF"
+			tasks: [{
+				id: "1419B44977CA9077"
+				item: "gtceu:rubber_block"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"04069333A19D2DB3"
+				"351809CC7F8F9D7B"
+			]
+			id: "3AB5FDB74D7FA100"
+			optional: true
+			tasks: [{
+				id: "485E3710F0F9A6F6"
+				item: "gtceu:rubber_bucket"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 20.0d
 		}
 	]
 	title: "齿轮力量"

@@ -811,29 +811,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"4FAA88CA15F02159"
-				"470B9D39E23E01F2"
-			]
-			description: ["不带会热到晕厥（撅撅你的）"]
-			id: "5A14A8CA4E662202"
-			subtitle: "下界探险必备"
-			tasks: [{
-				id: "1559585F30AAE988"
-				item: {
-					Count: 1
-					id: "cold_sweat:soulspring_lamp"
-					tag: {
-						Fuel: 64.0d
-						Lit: 1b
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["6C2A870EFAAABF9B"]
 			id: "3CE44C92D46BC8B7"
 			tasks: [{

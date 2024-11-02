@@ -128,6 +128,9 @@
 				"4831A750BE325D1A"
 			]
 			id: "0921AD39C8509CE9"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "不是菜鸟证明？"
 			tasks: [{
 				id: "2DBAEE5289A003FC"
 				item: "gtceu:my_infinity_dust"
@@ -135,19 +138,6 @@
 			}]
 			x: -1.0d
 			y: -13.0d
-		}
-		{
-			dependencies: ["0921AD39C8509CE9"]
-			id: "097EEC1614265DEC"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "4B78E5072E2A80BC"
-				item: "gtceu:my_infinity_ingot"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -16.0d
 		}
 	]
 	title: "&4UHV&r时期"
