@@ -514,6 +514,190 @@
 		}
 		{
 			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"77EA82987E62F815"
+			]
+			id: "4C41E2C3B187A1D5"
+			tasks: [{
+				id: "0C5FEB618C9B0FEF"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"77EA82987E62F815"
+			]
+			id: "0798C9DDF9DCB4C0"
+			tasks: [{
+				id: "0FA1878D0384D287"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"77EA82987E62F815"
+			]
+			id: "57D8025474402FA3"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
+			tasks: [{
+				id: "0EAEDC8B3E19022F"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"77EA82987E62F815"
+			]
+			id: "59EF684DC6C23CE5"
+			tasks: [{
+				id: "29F0BA2723DA118A"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"77EA82987E62F815"
+			]
+			id: "6C2A870EFAAABF9B"
+			tasks: [{
+				id: "4CD06C3F64880925"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"4C41E2C3B187A1D5"
+			]
+			id: "608236882ED0C524"
+			tasks: [{
+				id: "394703E8CFC2565E"
+				item: "gtceu:hp_steam_furnace"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"0798C9DDF9DCB4C0"
+			]
+			id: "785B8CB483BA2BAC"
+			tasks: [{
+				id: "1F527387600B8EBD"
+				item: "gtceu:hp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"57D8025474402FA3"
+			]
+			id: "72BEE751463CEE51"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
+			tasks: [{
+				id: "641BE3DB323A8223"
+				item: "gtceu:hp_steam_macerator"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"59EF684DC6C23CE5"
+			]
+			id: "45A2BCD00F3342B9"
+			tasks: [{
+				id: "3535D41BF93A66E0"
+				item: "gtceu:hp_steam_extractor"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"6C2A870EFAAABF9B"
+			]
+			id: "09E192FB67DEECE0"
+			tasks: [{
+				id: "6809D06F509661B3"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5CF2A3DF0B2E6729"]
+			description: ["但是效率孰高孰低呢？"]
+			id: "77EA82987E62F815"
+			subtitle: "有些机器可以用多方块结构形式进行“升级”"
+			tasks: [{
+				id: "0810C4B258493E40"
+				title: "机器升级 "
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"57D8025474402FA3"
+			]
+			id: "6139B36AAB4D0E0D"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
+			tasks: [{
+				id: "43BF76A3183AC1AE"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5CF2A3DF0B2E6729"
+				"4C41E2C3B187A1D5"
+			]
+			id: "447EFFB0159F9391"
+			tasks: [{
+				id: "28B7EB6A2A7E51C6"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
 				"7D76859D3E40A235"
 				"64694E06DCC27AE1"
 			]
@@ -650,6 +834,28 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["6C2A870EFAAABF9B"]
+			id: "3CE44C92D46BC8B7"
+			tasks: [{
+				id: "456E7121C0BC8ECC"
+				item: "gtceu:steam_pressor"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0798C9DDF9DCB4C0"]
+			id: "1D3AA038D2B96869"
+			tasks: [{
+				id: "724399AE6BA8F11C"
+				item: "gtceu:steam_foundry"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
+		{
 			id: "3A2D6EEBA8A75B83"
 			subtitle: "总不能拿手刻吧"
 			tasks: [{
@@ -659,6 +865,50 @@
 			}]
 			x: -4.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["5C2E8CF9DF1A76F4"]
+			id: "589F78888F04CA35"
+			tasks: [{
+				id: "52E4279EC9482BD3"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77EA82987E62F815"]
+			id: "5C2E8CF9DF1A76F4"
+			tasks: [{
+				id: "4497AC8154819CF0"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2067458624653B8F"]
+			id: "5899C0841A9A178B"
+			tasks: [{
+				id: "5E4A49BA9AFCF4F2"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77EA82987E62F815"]
+			id: "2067458624653B8F"
+			tasks: [{
+				id: "621CD47CE14621E0"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
 		}
 		{
 			id: "23FD399F5B59DA53"

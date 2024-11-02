@@ -185,4 +185,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:chemical_reactor/raw_platinum_separation" })
     event.remove({ id: "gtceu:electric_blast_furnace/refined_platinum_salt_dust_ebf" })
     event.remove({ id: "gtceu:electric_blast_furnace/iridium_metal_residue_process" })
+    event.remove({ id: "gtceu:centrifuge/platinum_group_sludge_dust" })
+    event.remove({ id: "gtceu:smelting/smelt_dust_bedrock_dust_to_ingot" })
+    event.remove({ id: "gtceu:arc_furnace/arc_bedrock_dust_dust" })
+    event.remove({ id: "vintageimprovements:curving/iron_sheet" })
 })

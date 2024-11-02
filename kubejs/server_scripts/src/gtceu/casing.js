@@ -107,4 +107,22 @@ ServerEvents.recipes(event => {
     .itemOutputs('2x ctnhcore:naquadah_alloy_casing_block')
     .EUt(16)
     .duration(50)
+  event.shaped(
+    Item.of('ctnhcore:tungstencu_diamond_plating_casing', 2), [
+    "ABA",
+    "EDE",
+    "ACA"
+  ], {
+    E: 'gtceu:tungstencu_diamond_plating_plate',
+    B: '#forge:tools/hammers',
+    C: '#forge:tools/wrenches',
+    D: 'gtceu:tungstencu_diamond_plating_frame',
+    A: 'gtceu:dense_naquadah_alloy_plate'
+  })
+  ctnh.assembler('ctnhcore:tungstencu_diamond_plating_casing')
+    .itemInputs(['2x gtceu:tungstencu_diamond_plating_plate', '4x gtceu:dense_naquadah_alloy_plate', 'gtceu:tungstencu_diamond_plating_frame'])
+    .circuit(6)
+    .itemOutputs('2x ctnhcore:tungstencu_diamond_plating_casing')
+    .EUt(16)
+    .duration(50)
 })

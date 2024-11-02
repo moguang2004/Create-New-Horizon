@@ -1005,8 +1005,8 @@
 				}
 			]
 			title: "存储器晶圆"
-			x: -6.0d
-			y: -3.0d
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["734982C31DFC1821"]
@@ -1031,7 +1031,7 @@
 				}
 			]
 			title: "SOC"
-			x: -8.0d
+			x: -5.5d
 			y: -3.0d
 		}
 		{
@@ -1060,7 +1060,7 @@
 				item: "gtceu:hssg_ingot"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -8.0d
 			y: -2.0d
 		}
 		{
@@ -1082,7 +1082,7 @@
 				item: { Count: 16, id: "gtceu:hssg_coil_block" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -10.0d
 			y: -1.0d
 		}
 		{
@@ -1093,7 +1093,7 @@
 				item: "gtceu:tungsten_carbide_dust"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -1318,18 +1318,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["332007D978CB3C6C"]
-			id: "67232BC7E785AD4F"
-			subtitle: "用处很大"
-			tasks: [{
-				id: "4055C9091467ECC7"
-				item: "gtceu:graphene_dust"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -1.0d
-		}
-		{
 			dependencies: [
 				"17292FB8D4DD36BA"
 				"46B421171FE2DEE9"
@@ -1375,7 +1363,7 @@
 				item: "gtceu:uranium_triplatinum_dust"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 1.5d
 			y: 5.0d
 		}
 		{
@@ -1392,7 +1380,7 @@
 				item: "gtceu:ev_field_generator"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.0d
 			y: 5.0d
 		}
 		{
@@ -1467,7 +1455,7 @@
 				item: "gtceu:mpic_wafer"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.5d
 			y: -4.0d
 		}
 		{
@@ -1548,6 +1536,8 @@
 		}
 		{
 			id: "6F6CE9819AC46724"
+			shape: "heart"
+			size: 1.0d
 			subtitle: "胶带石墨烯"
 			tasks: [{
 				id: "2DAF50E69DEC315D"

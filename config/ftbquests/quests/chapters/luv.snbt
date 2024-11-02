@@ -12,14 +12,14 @@
 			linked_quest: "17292FB8D4DD36BA"
 			shape: "rsquare"
 			size: 1.5d
-			x: -21.0d
-			y: 0.0d
+			x: -15.928571428571438d
+			y: -2.285714285714249d
 		}
 		{
 			id: "7771623F63D63FEA"
 			linked_quest: "754CF2D0D96359C3"
-			x: -18.5d
-			y: -3.5d
+			x: -26.5d
+			y: 0.0d
 		}
 		{
 			id: "716D1262FDD7F70C"
@@ -46,7 +46,7 @@
 			description: [""]
 			id: "0DA6DBCC41828D80"
 			shape: "gear"
-			size: 4.0d
+			size: 3.0d
 			subtitle: "你已经达到LUV啦！"
 			tasks: [{
 				id: "2AB09D6B46C98218"
@@ -65,8 +65,8 @@
 				item: "gtceu:luv_electric_motor"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 2.5d
+			x: -16.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -76,8 +76,8 @@
 				item: "gtceu:luv_electric_pump"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 4.0d
+			x: -16.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -87,8 +87,8 @@
 				item: "gtceu:luv_conveyor_module"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 4.0d
+			x: -14.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -98,8 +98,8 @@
 				item: "gtceu:luv_electric_piston"
 				type: "item"
 			}]
-			x: -23.0d
-			y: 4.0d
+			x: -18.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -109,8 +109,8 @@
 				item: "gtceu:luv_robot_arm"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 5.5d
+			x: -14.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -120,8 +120,8 @@
 				item: "gtceu:luv_emitter"
 				type: "item"
 			}]
-			x: -23.0d
-			y: 5.5d
+			x: -18.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -131,14 +131,11 @@
 				item: "gtceu:luv_sensor"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 5.5d
+			x: -16.0d
+			y: -7.0d
 		}
 		{
-			dependencies: [
-				"0DA6DBCC41828D80"
-				"14C08D2A44860C08"
-			]
+			dependencies: ["006528E474CE82DE"]
 			icon: "gtceu:large_circuit_assembler"
 			id: "55B8C88C78AFF283"
 			subtitle: "给大电路组装换个LUV能源仓"
@@ -147,8 +144,8 @@
 				title: "LUV电路组装机"
 				type: "checkmark"
 			}]
-			x: -16.0d
-			y: -3.5d
+			x: -26.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -161,19 +158,22 @@
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
-			x: -18.5d
-			y: -5.5d
+			x: -25.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["2813BC7AC57AFF93"]
+			dependencies: [
+				"2813BC7AC57AFF93"
+				"006528E474CE82DE"
+			]
 			id: "78FB6D2EBEC04944"
 			tasks: [{
 				id: "03B65C67E3A53ABB"
 				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
 				type: "item"
 			}]
-			x: -21.0d
-			y: -3.5d
+			x: -23.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["78FB6D2EBEC04944"]
@@ -183,8 +183,8 @@
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: -21.0d
-			y: -5.5d
+			x: -23.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["645725D581DA525A"]
@@ -194,8 +194,8 @@
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -5.5d
+			x: -25.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["77E66A5569F9845B"]
@@ -205,8 +205,8 @@
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -5.5d
+			x: -25.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["34820874A85286FC"]
@@ -217,14 +217,13 @@
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -5.5d
+			x: -25.0d
+			y: -9.5d
 		}
 		{
 			dependencies: [
 				"0DA6DBCC41828D80"
-				"5CC5C11D0C18144E"
-				"422A69585A4BD605"
+				"48DD8F1CA4521491"
 			]
 			id: "14C08D2A44860C08"
 			subtitle: "该给大机器们升压了"
@@ -237,21 +236,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"1B08CB9E24BDF006"
-				"401CC51AA97A3DD2"
-				"4A412A967394C59E"
-			]
-			id: "5CC5C11D0C18144E"
-			tasks: [{
-				id: "304ED9E1CDBEAD83"
-				item: "gtceu:luv_voltage_coil"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -3.5d
-		}
-		{
 			icon: "gtceu:large_assembler"
 			id: "422A69585A4BD605"
 			tasks: [{
@@ -259,8 +243,8 @@
 				title: "组装机也要升压，但在这之前你还要做个小的"
 				type: "checkmark"
 			}]
-			x: -13.5d
-			y: -3.5d
+			x: -16.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["209FAC261240DA4E"]
@@ -342,7 +326,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1F24CDB4B265DAE8"]
@@ -353,7 +337,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["04C6FD9012340E33"]
@@ -366,7 +350,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["47D1E2F257A78CC8"]
@@ -377,8 +361,8 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 5.5d
+			x: -16.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["73A9B8C2B2142E54"]
@@ -389,8 +373,8 @@
 				item: "gtceu:high_performance_computation_array"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 2.5d
+			x: -16.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2C5AAAE7171632CA"]
@@ -400,8 +384,8 @@
 				item: "gtceu:luv_field_generator"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 4.0d
+			x: -16.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -418,7 +402,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -433,19 +417,93 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -7.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["174B639A9AAA2B4C"]
+			dependencies: [
+				"7623D2206370CA76"
+				"355ACD2C8F4E6257"
+				"4B85DFF240A03E9E"
+			]
 			id: "6B61A32A2688A834"
-			subtitle: "还没做完"
+			subtitle: "不仅无损超频，而且还可以无电压功率上限"
 			tasks: [{
-				id: "7DBC45B020DD3ECC"
-				item: "gtceu:fusion_reactor_zip_mk1"
+				id: "1A30057D21C7EEB0"
+				item: "ctnhcore:luv_compressed_fusion_reactor"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.5d
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			id: "4B85DFF240A03E9E"
+			tasks: [{
+				id: "0CDFE2699DE3122A"
+				title: "可以用并行仓，建议做一个"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"0DA6DBCC41828D80"
+				"48DD8F1CA4521491"
+			]
+			id: "4BA59C23FB4625B9"
+			subtitle: "升级你的发电"
+			tasks: [{
+				id: "7D568142383C1846"
+				item: "gtceu:luv_energy_output_hatch"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["422A69585A4BD605"]
+			id: "48DD8F1CA4521491"
+			tasks: [{
+				id: "6C0F9C0CAA10559A"
+				item: "gtceu:luv_voltage_coil"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.5d
+		}
+		{
+			id: "006528E474CE82DE"
+			subtitle: "所以多来几条装配线吧）"
+			tasks: [{
+				id: "769EA6C19BD809A8"
+				title: "注意，从LUV开始部分电路需要装配线制作"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4BA59C23FB4625B9"]
+			id: "4089D6C868A2D08A"
+			subtitle: "他可以承包你在LUV-ZPM时期的发电"
+			tasks: [{
+				id: "1D67A2915C631403"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14C08D2A44860C08"]
+			id: "4F8A3B3DFEE2B87E"
+			tasks: [{
+				id: "4EF75DA5B4777331"
+				item: "gtceu:uhpic_wafer"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
 		}
 	]
 	title: "&dLuV&r时期"

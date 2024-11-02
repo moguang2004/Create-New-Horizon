@@ -129,7 +129,7 @@
     "material.gtceu.pikyonium": "皮卡优",
     "material.gtceu.black_titanium": "黑钛",
     "material.gtceu.starmetal": "星辉",
-    "material.gtceu.my_infinity": "无尽",
+    "material.gtceu.my_infinity": "无限",
     "material.gtceu.inconel_625": "镍铬基合金-625",
     "material.gtceu.eglin_alloy": "埃格林合金",
     "material.gtceu.jasper": "碧玉",
@@ -1611,5 +1611,14 @@
     "material.gtceu.taranliquidfuel_m": "中等塔兰基岩燃料",
     "material.gtceu.taranliquidfuel_h": "重塔兰基岩燃料",
     "material.gtceu.adamantiteliquid": "精金溶液",
-    "material.gtceu.tungstencu_diamond_plating": "W-Cu镀层金刚石"
+    "material.gtceu.tungstencu_diamond_plating": "W-Cu镀层金刚石",
+    "material.gtceu.adamantite": "精金",
+    "material.gtceu.bedrock_soot_solution": "基岩烟灰溶液",
+    "material.gtceu.bedrock_dust_solution": "基岩尘灰溶液",
+    "material.gtceu.bedrock_dust": "基岩",
+    "material.gtceu.taranmix": "塔兰类金属混合物",
+    "material.gtceu.f_bedrock_smoke_re": "氟裂化基岩烟",
+    "material.gtceu.dr_bedrock_gas_re": "氡裂化基岩气",
+    "material.gtceu.ax_jiyanqi": "放射性基岩气",
+    "material.gtceu.radioactive_metals_mix": "放射性金属混合物"
 }

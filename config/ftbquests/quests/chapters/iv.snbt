@@ -403,6 +403,8 @@
 				"46E271DD7E3544D9"
 			]
 			id: "54D959569D7F0BD9"
+			shape: "gear"
+			size: 2.0d
 			subtitle: "快去制作对应小机器的大机器吧！"
 			tasks: [{
 				id: "55261C111E61BB45"
@@ -1265,18 +1267,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["08428BDD673EEC5A"]
-			id: "0E12C0B3D9F7C34D"
-			subtitle: "UHV材料"
-			tasks: [{
-				id: "1843711AD3D37DCE"
-				item: "gtceu:uhpic_wafer"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -1.0d
-		}
-		{
 			dependencies: [
 				"258BBAE74ED9B2CE"
 				"5A941BB7E8160424"
@@ -1923,6 +1913,18 @@
 			}]
 			x: 4.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["1B08CB9E24BDF006"]
+			id: "43A67D7528B8D846"
+			subtitle: "LUV的开始"
+			tasks: [{
+				id: "1EF8508BC90B5785"
+				item: "gtceu:samarium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.5d
 		}
 	]
 	title: "&9IV&r时期"
