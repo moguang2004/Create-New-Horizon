@@ -999,8 +999,175 @@ ServerEvents.recipes(event => {
         G: '#gtceu:circuits/luv'
     })
 
+    event.shaped(
+        Item.of('jackseconomy:empty_exporter_manifest', 1), [
+          "ABA",
+          "CCC",
+          "CDC"
+        ], {
+        A: 'minecraft:red_carpet',
+        B: '#forge:chests',
+        C: 'minecraft:string',
+        D: 'minecraft:feather'
+    })
+
+    event.shaped(
+        Item.of('jackseconomy:empty_importer_manifest', 1), [
+          "CDC",
+          "CCC",
+          "ABA"
+        ], {
+        A: 'minecraft:red_carpet',
+        B: '#forge:chests',
+        C: 'minecraft:string',
+        D: 'minecraft:feather'
+    })
+
+    event.shaped(
+        Item.of('jackseconomy:golden_exporter_manifest', 1), [
+          "AAA",
+          "ABA",
+          "AAA"
+        ], {
+        A: 'gtceu:gold_foil',
+        B: 'jackseconomy:empty_exporter_manifest'
+    })
     
+    event.shaped(
+        Item.of('jackseconomy:mechanical_importer', 1), [
+          "ABA",
+          "BCB",
+          "ADA"
+        ], {
+        A: 'gtceu:gold_foil',
+        B: 'gtceu:steel_plate',
+        C: 'kubejs:heavy_machinery_casing',
+        D: 'create:cogwheel'
+    })
+
+    event.shaped(
+        Item.of('jackseconomy:mechanical_exporter', 1), [
+          "ADA",
+          "BCB",
+          "ABA"
+        ], {
+        A: 'gtceu:gold_foil',
+        B: 'gtceu:steel_plate',
+        C: 'kubejs:heavy_machinery_casing',
+        D: 'create:cogwheel'
+    })
+
+    event.shaped(
+        Item.of('jackseconomy:importer', 1), [
+          "ABA",
+          "BCB",
+          "ADA"
+        ], {
+        A: 'gtceu:gold_foil',
+        B: 'gtceu:steel_plate',
+        C: 'kubejs:heavy_machinery_casing',
+        D: 'gtceu:red_alloy_single_wire'
+    })
+
+    event.shaped(
+        Item.of('jackseconomy:exporter', 1), [
+          "ADA",
+          "BCB",
+          "ABA"
+        ], {
+        A: 'gtceu:gold_foil',
+        B: 'gtceu:steel_plate',
+        C: 'kubejs:heavy_machinery_casing',
+        D: 'gtceu:red_alloy_single_wire'
+    })
+
+    event.shaped(
+        Item.of('gtmthings:ulv_huge_item_import_bus', 1), [
+          "A",
+          "B"
+        ], {
+        A: 'gtceu:ulv_input_bus',
+        B: 'expandedstorage:diamond_chest'
+    })
+
+    event.shaped(
+        Item.of('gtmthings:ulv_huge_item_export_bus', 1), [
+          "A",
+          "B"
+        ], {
+        A: 'gtceu:ulv_output_bus',
+        B: 'expandedstorage:diamond_chest'
+    })
+
+    event.shaped(
+        Item.of('gtceu:mana_bender', 1), [
+          "AAA",
+          "BCB",
+          "DEF"
+        ], {
+        A: 'botania:polished_livingrock',
+        B: 'gtceu:mv_electric_motor',
+        C: 'gtceu:mv_bender',
+        D: 'gtceu:mv_electric_piston',
+        E: 'gtceu:mv_robot_arm',
+        F: '#gtceu:circuits/mv'
+    })
     
+    event.shaped(
+        Item.of('gtceu:mana_lathe', 1), [
+          "AAA",
+          "BCB",
+          "DEF"
+        ], {
+        A: 'botania:polished_livingrock',
+        B: 'gtceu:mv_electric_piston',
+        C: 'gtceu:mv_lathe',
+        D: '#gtceu:circuits/mv',
+        E: 'gtceu:mv_robot_arm',
+        F: 'gtceu:aluminium_buzz_saw_blade'
+    })
+
+    event.shaped(
+        Item.of('gtceu:mana_assembler', 1), [
+          "AAA",
+          "BCD",
+          "EFG"
+        ], {
+        A: 'botania:polished_livingrock',
+        B: 'gtceu:hv_sensor',
+        C: 'gtceu:hv_assembler',
+        D: 'gtceu:hv_fluid_regulator',
+        E: '#gtceu:circuits/hv',
+        F: 'gtceu:hv_robot_arm',
+        G: 'gtceu:hv_field_generator'
+    })
+
+    event.shaped(
+        Item.of('gtceu:mana_wiremill', 1), [
+          "AAA",
+          "BCB",
+          "DED"
+        ], {
+        A: 'botania:polished_livingrock',
+        B: 'gtceu:mv_electric_motor',
+        C: 'gtceu:mv_wiremill',
+        D: 'gtceu:copper_single_cable',
+        E: '#gtceu:circuits/mv'
+    })
+
+    event.shaped(
+        Item.of('gtceu:mana_reactor', 1), [
+          "AAA",
+          "BCB",
+          "DED"
+        ], {
+        A: 'botania:polished_livingrock',
+        B: '#gtceu:circuits/ev',
+        C: 'gtceu:alfsteel_gear',
+        D: 'botania:gaia_spreader',
+        E: 'botania:fabulous_pool'
+    })
+
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

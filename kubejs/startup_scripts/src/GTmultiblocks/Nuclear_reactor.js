@@ -12,7 +12,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('nuclear_reactor', 'multiblock')
-        .rotationState(RotationState.NON_Y_AXIS)
+        .rotationState(RotationState.ALL)
         .recipeType('nuclear_reactor')
         .recipeModifier((machine,/**@type {$GTRecipe}*/recipe) => {
             let heat = recipe.data.getFloat('heat')

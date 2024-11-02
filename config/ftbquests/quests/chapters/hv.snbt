@@ -120,20 +120,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2758CA5AD758482C"]
-			id: "7433DD6519C5D9E9"
-			subtitle: "铂系产线的起点"
-			tasks: [{
-				count: 16L
-				id: "028B52BC54F18916"
-				item: { Count: 16, id: "gtceu:raw_cooperite" }
-				type: "item"
-			}]
-			title: "谢尔顿矿"
-			x: 2.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["36968F23015BC87A"]
 			id: "0FE31211C32BF813"
 			rewards: [{
@@ -151,7 +137,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7433DD6519C5D9E9"]
+			dependencies: ["67FD8ABB15A41C68"]
 			id: "252739AF54D430F1"
 			tasks: [{
 				id: "5BBD12AD739833B5"
@@ -245,7 +231,7 @@
 				item: "gtceu:hv_emitter"
 				type: "item"
 			}]
-			x: 2.5d
+			x: -2.0d
 			y: -6.0d
 		}
 		{
@@ -332,6 +318,11 @@
 			dependencies: [
 				"609BE0CAB05D3EA6"
 				"458DB8BA0CA5475B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"你想要大型火箭燃料引擎吗？"
+				"算了吧，这包里的火箭燃料合成方式就是屎。"
 			]
 			id: "1157261D1C6FA682"
 			subtitle: "可以拿来喂内燃)"
@@ -517,10 +508,13 @@
 		}
 		{
 			dependencies: [
-				"17F0388258A83E1F"
 				"2B5737AFD88F1BA5"
 				"1B795CD06F89FD31"
+				"2A96D56A1C253D7A"
+				"17F0388258A83E1F"
+				"3763A1DEB0424140"
 			]
+			dependency_requirement: "one_completed"
 			id: "27EF0EE87260585F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -536,8 +530,8 @@
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 8.044642857142868d
+			x: -3.9642857142857153d
+			y: 7.928571428571431d
 		}
 		{
 			dependencies: ["424772830FBFDBB7"]
@@ -547,7 +541,7 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: 8.0d
 		}
 		{
@@ -569,8 +563,8 @@
 				}
 			]
 			title: "钛的来源"
-			x: 2.5d
-			y: 6.0d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["773CB6E376B56EA4"]
@@ -596,7 +590,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["42552E404237FB96"]
+			dependencies: ["3AE584B3EBC63A09"]
 			id: "1327BF0797F9200E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -609,13 +603,13 @@
 				item: "gtceu:mv_circuit_assembler"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.0d
+			x: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
-				"1327BF0797F9200E"
 				"1AF8205ECB9C3737"
+				"36B5DCFEE8A73F25"
 			]
 			id: "607209201C6B08C3"
 			subtitle: "有了这个才可以做EV阶段的机器"
@@ -814,7 +808,7 @@
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -850,7 +844,7 @@
 				}
 			]
 			title: "贴片！"
-			x: -2.0d
+			x: -3.0d
 			y: -4.0d
 		}
 		{
@@ -1210,7 +1204,10 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["41633F254B076032"]
+			dependencies: [
+				"41633F254B076032"
+				"1511963A19F70BC2"
+			]
 			id: "216D57DF2B38AB9D"
 			subtitle: "你的第一种IV电路！"
 			tasks: [{
@@ -1218,40 +1215,22 @@
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: [
-				"2758CA5AD758482C"
-				"773CB6E376B56EA4"
+				"1A760D451E9D23B0"
+				"5CF841D44D3A2035"
 			]
-			id: "0EDC06CD857700E0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "42867B53F0955106"
-				table_id: 723892772024061161L
-				type: "random"
-			}]
-			subtitle: "更快！"
-			tasks: [{
-				id: "651C46324F640F54"
-				item: "gtceu:hv_laser_engraver"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1A760D451E9D23B0"]
 			id: "2BDF8762C9C51323"
 			tasks: [{
 				id: "02689251EA9A927F"
 				item: "gtceu:mercury_barium_calcium_cuprate_ingot"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.0d
+			x: -8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2BDF8762C9C51323"]
@@ -1261,23 +1240,8 @@
 				item: "gtceu:hv_field_generator"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"0EDC06CD857700E0"
-				"6960D8238C5B49EB"
-				"147567E48E8786C3"
-			]
-			id: "399A7EA8DD295894"
-			tasks: [{
-				id: "6A8755E6049000EC"
-				item: "gtceu:lpic_wafer"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -8.0d
+			x: -8.5d
+			y: 4.0d
 		}
 		{
 			id: "7CD360494125BA99"
@@ -1294,17 +1258,6 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["399A7EA8DD295894"]
-			id: "00497F96E769342D"
-			tasks: [{
-				id: "1316DBC3BF0665E6"
-				item: "gtceu:hv_energy_input_hatch"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -8.0d
-		}
-		{
 			dependencies: ["29C2D8D206649CE5"]
 			id: "1AC10AB1A12AC305"
 			tasks: [{
@@ -1312,7 +1265,7 @@
 				item: "gtceu:helium_bucket"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 6.0d
 		}
 		{
@@ -1323,25 +1276,8 @@
 				item: "gtceu:argon_bucket"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.5d
 			y: 6.0d
-		}
-		{
-			dependencies: ["773CB6E376B56EA4"]
-			id: "147567E48E8786C3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F3A69CDF2D313BC"
-				table_id: 723892772024061161L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0D3F5432587823A0"
-				item: "gtceu:hv_cutter"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1369,6 +1305,7 @@
 			dependencies: [
 				"521AD580276AA163"
 				"08AE2ABB1248EB22"
+				"01C6E42C3A2CD71B"
 			]
 			id: "3786456D98520C42"
 			tasks: [{
@@ -1383,6 +1320,7 @@
 			dependencies: [
 				"103CE9721B2403ED"
 				"4621D3570BFF6D64"
+				"5E26659E0AAF852A"
 			]
 			id: "04CED50A5D7434CE"
 			tasks: [{
@@ -1394,7 +1332,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["30A047CA07E56044"]
+			dependencies: [
+				"30A047CA07E56044"
+				"36707EABE35EE4A1"
+			]
 			hide_dependency_lines: true
 			id: "11091A0414B528CC"
 			tasks: [{
@@ -1409,6 +1350,7 @@
 			dependencies: [
 				"5E4D6306680A9D9A"
 				"2ABB6571FA2367C6"
+				"7A5FD21873050AFA"
 			]
 			id: "27BE8B7164A2DA98"
 			tasks: [{
@@ -1601,7 +1543,7 @@
 				item: "gtceu:titanium_tetrachloride_v_bucket"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: 8.0d
 		}
 		{
@@ -1612,7 +1554,7 @@
 				item: "gtceu:titanium_tetrachloride_bucket"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.5d
 			y: 8.0d
 		}
 		{
@@ -1623,8 +1565,176 @@
 				item: "gtceu:refining_titanium_tetrachloride_bucket"
 				type: "item"
 			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["773CB6E376B56EA4"]
+			id: "5F9A3ADA66BADAAB"
+			tasks: [{
+				id: "7305CCE440010B2E"
+				item: "gtceu:hv_laser_engraver"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["773CB6E376B56EA4"]
+			id: "5B59982256D4FE43"
+			tasks: [{
+				id: "3024D861534B3444"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F9A3ADA66BADAAB"]
+			id: "73C47A52287562AD"
+			tasks: [{
+				id: "6B8AFBDA2154C906"
+				item: "gtceu:lpic_wafer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5B59982256D4FE43"
+				"73C47A52287562AD"
+			]
+			id: "43FD6E0F20509E3B"
+			tasks: [{
+				id: "3F691723233B4718"
+				item: "gtceu:lpic_chip"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43FD6E0F20509E3B"]
+			hide_dependent_lines: true
+			id: "3763A1DEB0424140"
+			tasks: [{
+				id: "7C1C9A367760EB96"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "01C6E42C3A2CD71B"
+			invisible: true
+			tasks: [{
+				id: "528579830DAF60EC"
+				item: "gtceu:polyphenylene_sulfide_foil"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "5E26659E0AAF852A"
+			invisible: true
+			tasks: [{
+				id: "5610E9ED9C07C5A5"
+				item: "gtceu:para_aramid_foil"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "36707EABE35EE4A1"
+			invisible: true
+			tasks: [{
+				id: "3BE6374E7D829ECE"
+				item: "gtceu:polytetrafluoroethylene_foil"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "7A5FD21873050AFA"
+			invisible: true
+			tasks: [{
+				id: "6ED8EC939335234E"
+				item: "gtceu:fiber_glass_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "2A96D56A1C253D7A"
+			invisible: true
+			tasks: [{
+				id: "67A3C12A135B6D89"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
 			x: -4.0d
-			y: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"1327BF0797F9200E"
+				"5CC2A3C37EB99ED3"
+				"279ED2DAD4CC60CD"
+			]
+			id: "7DD9B2E6104FFD7C"
+			tasks: [{
+				id: "2AC0B5451D1B0B08"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7DD9B2E6104FFD7C"]
+			id: "36B5DCFEE8A73F25"
+			tasks: [{
+				id: "5FBDB0BF33493CD8"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "4FEF1435F8379246"
+			subtitle: "汞洗"
+			tasks: [{
+				id: "694AEBE488F9A480"
+				item: "gtceu:crushed_nickel_ore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4FEF1435F8379246"]
+			id: "67FD8ABB15A41C68"
+			tasks: [{
+				id: "31455B940096D11C"
+				item: "gtceu:platinum_metal_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
 		}
 	]
 	title: "&6HV&r时期"

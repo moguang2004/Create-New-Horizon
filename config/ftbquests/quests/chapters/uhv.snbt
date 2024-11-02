@@ -1,0 +1,154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uhv"
+	group: "19912BEA87D24FE0"
+	icon: "gtceu:uhv_machine_hull"
+	id: "3AF23E79C8470AB1"
+	order_index: 8
+	quest_links: [
+		{
+			id: "15A84DF0C2ABEFF0"
+			linked_quest: "18E2A4593690B3D1"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "24175305E331840C"
+			linked_quest: "62C818606820AC3A"
+			x: -1.0d
+			y: -6.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["18E2A4593690B3D1"]
+			id: "6D8963683034165D"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "恭喜，你玩到了现在的最终阶段"
+			tasks: [{
+				id: "3BBDFB9C77C2C530"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D8963683034165D"]
+			id: "511D5305BC579F35"
+			tasks: [{
+				id: "76F20F9C740129D0"
+				item: "gtceu:uhv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"62C818606820AC3A"
+				"511D5305BC579F35"
+			]
+			id: "77D30F6C38DB4B83"
+			tasks: [{
+				id: "3F27EE864D308F20"
+				item: "gtceu:bedrock_gas_re_l_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"62C818606820AC3A"
+				"511D5305BC579F35"
+			]
+			id: "7DED10B400A33933"
+			tasks: [{
+				id: "12196CF4359AC0E9"
+				item: "gtceu:bedrock_gas_re_m_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"62C818606820AC3A"
+				"511D5305BC579F35"
+			]
+			id: "4831A750BE325D1A"
+			tasks: [{
+				id: "788C116B64A27D12"
+				item: "gtceu:bedrock_gas_re_h_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["77D30F6C38DB4B83"]
+			id: "08A97EFE678E2419"
+			tasks: [{
+				id: "0EB4069F3C3845BD"
+				item: "gtceu:taranliquidfuel_l_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7DED10B400A33933"]
+			id: "6EBC3B65C9660015"
+			tasks: [{
+				id: "2E0A38A1DD8E0AF6"
+				item: "gtceu:taranliquidfuel_m_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4831A750BE325D1A"]
+			id: "48C925CF7AA58864"
+			tasks: [{
+				id: "75707B66D9856C15"
+				item: "gtceu:taranliquidfuel_h_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"77D30F6C38DB4B83"
+				"7DED10B400A33933"
+				"4831A750BE325D1A"
+			]
+			id: "0921AD39C8509CE9"
+			tasks: [{
+				id: "2DBAEE5289A003FC"
+				item: "gtceu:my_infinity_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0921AD39C8509CE9"]
+			id: "097EEC1614265DEC"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4B78E5072E2A80BC"
+				item: "gtceu:my_infinity_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -16.0d
+		}
+	]
+	title: "&4UHV&r时期"
+}

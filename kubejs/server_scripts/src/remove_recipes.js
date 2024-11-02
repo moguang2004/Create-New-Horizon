@@ -44,7 +44,8 @@ ServerEvents.recipes(event => {
         "alexscaves:azure_neodymium_ingot",
         "alexscaves:scarlet_neodymium_ingot",
         "create:crafting/kinetics/mechanical_bearing",
-        "sophisticatedbackpacks:netherite_backpack",
+        "biomesoplenty:tnt_from_bop_sand",
+        "mynethersdelight:tnt_alt",
         "expandedstorage:obsidian_to_netherite_conversion_kit",
         "enderio:alloy_smelting/pulsating_alloy_ingot",
         "enderio:alloy_smelting/vibrant_alloy_ingot",
@@ -107,7 +108,9 @@ ServerEvents.recipes(event => {
         "hostilenetworks:sim_chamber",
         "hostilenetworks:loot_fabricator",
         "hostilenetworks:deep_learner",
-        "hostilenetworks:framework"
+        "hostilenetworks:framework",
+        "ae2things:cells/disk_drive_1k",
+        "aether:aether_saddle"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -171,4 +174,19 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:mixer/graphene" })
     event.remove({ id: "gtceu:create_mixer/graphene" })
     event.remove({ id: "ars_nouveau:novice_spell_book" })
+    event.remove({ id: "gtceu:neutron_activator/naquadah" })
+    event.remove({ id: "gtceu:large_chemical_reactor/iridium_chloride" })
+    event.remove({ id: "gtceu:large_chemical_reactor/iridium_dioxide_dissolving" })
+    event.remove({ id: "gtceu:electric_blast_furnace/iridium_metal_residue_processh" })
+    event.remove({ id: "gtceu:centrifuge/iridium_metal_residue_separation" })
+    event.remove({ id: "gtceu:chemical_reactor/iridium_chloride" })
+    event.remove({ id: "gtceu:large_chemical_reactor/iridium_chloride_separation" })
+    event.remove({ id: "gtceu:large_chemical_reactor/raw_platinum_separation" })
+    event.remove({ id: "gtceu:chemical_reactor/raw_platinum_separation" })
+    event.remove({ id: "gtceu:electric_blast_furnace/refined_platinum_salt_dust_ebf" })
+    event.remove({ id: "gtceu:electric_blast_furnace/iridium_metal_residue_process" })
+    event.remove({ id: "gtceu:centrifuge/platinum_group_sludge_dust" })
+    event.remove({ id: "gtceu:smelting/smelt_dust_bedrock_dust_to_ingot" })
+    event.remove({ id: "gtceu:arc_furnace/arc_bedrock_dust_dust" })
+    event.remove({ id: "vintageimprovements:curving/iron_sheet" })
 })

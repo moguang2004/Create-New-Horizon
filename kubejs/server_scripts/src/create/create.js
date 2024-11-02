@@ -281,7 +281,7 @@ ServerEvents.recipes(event =>{
         "type": "create:deploying",
         "ingredients": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           },
           {
             "item": "gtceu:copper_quadruple_wire"
@@ -289,7 +289,7 @@ ServerEvents.recipes(event =>{
         ],
         "results": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           }
         ]
       },
@@ -297,7 +297,7 @@ ServerEvents.recipes(event =>{
         "type": "create:deploying",
         "ingredients": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           },
           {
             "item": "gtceu:red_alloy_double_wire"
@@ -305,7 +305,7 @@ ServerEvents.recipes(event =>{
         ],
         "results": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           }
         ]
       },
@@ -313,7 +313,7 @@ ServerEvents.recipes(event =>{
         "type": "create:deploying",
         "ingredients": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           },
           {
             "item": 'gtceu:vacuum_tube'
@@ -321,7 +321,7 @@ ServerEvents.recipes(event =>{
         ],
         "results": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           }
         ]
       },
@@ -329,7 +329,7 @@ ServerEvents.recipes(event =>{
         "type": "create:deploying",
         "ingredients": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           },
           {
             "item": 'gtceu:resistor'
@@ -337,7 +337,7 @@ ServerEvents.recipes(event =>{
         ],
         "results": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           }
         ]
       },
@@ -345,7 +345,7 @@ ServerEvents.recipes(event =>{
         "type": "create:filling",
         "ingredients": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           },
           {
             "amount": 288,
@@ -354,7 +354,7 @@ ServerEvents.recipes(event =>{
         ],
         "results": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           }
         ]
       },
@@ -362,12 +362,12 @@ ServerEvents.recipes(event =>{
         "type": "create:pressing",
         "ingredients": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           }
         ],
         "results": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           }
         ]
       },
@@ -376,18 +376,18 @@ ServerEvents.recipes(event =>{
         "energy_needed": 10000,
         "ingredients": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           }
         ],
         "results": [
           {
-            "item": "gtceu:basic_electronic_circuit"
+            "item": "gtceu:resin_circuit_board"
           }
         ]
       }      
     ],
     "transitionalItem": {
-      "item": "gtceu:basic_electronic_circuit"
+      "item": "gtceu:resin_circuit_board"
     }
   })
 })
@@ -422,8 +422,8 @@ ServerEvents.recipes(event => {
 
 //注液器
 ServerEvents.recipes(event => {
-  event.recipes.create.filling('cold_sweat:thermometer', ['kubejs:thermometer_case', Fluid.of('gtceu:mercury', 1000)])
-  event.remove({ output: 'cold_sweat:thermometer' })
+  event.recipes.create.filling('legendarysurvivaloverhaul:thermometer', ['kubejs:thermometer_case', Fluid.of('gtceu:mercury', 1000)])
+  event.remove({ output: 'legendarysurvivaloverhaul:thermometer' })
 })
 
 ServerEvents.recipes(event => {

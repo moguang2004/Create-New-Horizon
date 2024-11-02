@@ -527,14 +527,14 @@ LootJS.modifiers(event => {
 ServerEvents.entityLootTables(event => {
     event.addEntity("ad_astra:glacian_ram", l => {
         l.addPool(p => {
-            p.addItem("cold_sweat:goat_fur").weight(1)
+            //p.addItem("cold_sweat:goat_fur").weight(1)
             p.addItem("ad_astra:ice_shard").weight(9)
         })
     })
     event.addEntity("ad_astra:mogler", l => {
         l.addPool(p => {
             p.addItem("gtceu:pyrotheum_dust").weight(10).randomChanceWithLooting(0.15, 0.05)
-            p.addItem("cold_sweat:hoglin_hide").weight(3)
+            //p.addItem("cold_sweat:hoglin_hide").weight(3)
             p.addItem("nethersdelight:hoglin_loin").weight(6).count(2)
         })
     })

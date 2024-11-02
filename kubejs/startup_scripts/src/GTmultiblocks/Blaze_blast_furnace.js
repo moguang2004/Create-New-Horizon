@@ -47,7 +47,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .onWorking(machine => {
             if (machine.getOffsetTimer() % 20 == 0) {
                 let tier = machine.self().getTier()
-                let recipe = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:pyrotheum " + Math.pow(2, (tier - 2)) * 10).buildRawRecipe()
+                let recipe = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:pyrotheum " + Math.pow(2, (tier - 2)) * 5).buildRawRecipe()
                 if (recipe.matchRecipe(machine).isSuccess()) {
                     recipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches())
                     return true
@@ -58,7 +58,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         })
         .beforeWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine, recipe) => {
             let tier = machine.self().getTier()
-            let recipe1 = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:pyrotheum " + Math.pow(2, (tier - 2)) * 10).buildRawRecipe()
+            let recipe1 = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:pyrotheum " + Math.pow(2, (tier - 2)) * 5).buildRawRecipe()
             if (recipe1.matchRecipe(machine).isSuccess()) {
                 return true
             }

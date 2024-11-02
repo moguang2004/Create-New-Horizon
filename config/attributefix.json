@@ -11,6 +11,17 @@
         "value": 512
       }
     },
+    "legendarysurvivaloverhaul:thermal_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "attributeslib:ghost_health": {
       "enabled": false,
       "min": {
@@ -88,17 +99,6 @@
         "value": 8
       }
     },
-    "cold_sweat:base_temperature": {
-      "enabled": false,
-      "min": {
-        "default": NaN,
-        "value": NaN
-      },
-      "max": {
-        "default": Infinity,
-        "value": Infinity
-      }
-    },
     "tetra:ability_damage": {
       "enabled": false,
       "min": {
@@ -108,6 +108,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "cold_sweat:base_temperature": {
+      "enabled": false,
+      "min": {
+        "default": NaN,
+        "value": NaN
+      },
+      "max": {
+        "default": Infinity,
+        "value": Infinity
       }
     },
     "attributeslib:armor_pierce": {
@@ -319,6 +330,17 @@
         "value": 1000000
       }
     },
+    "legendarysurvivaloverhaul:heating_temperature": {
+      "enabled": false,
+      "min": {
+        "default": -10000,
+        "value": -10000
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "tetra:draw_speed": {
       "enabled": false,
       "min": {
@@ -440,6 +462,17 @@
         "value": 4
       }
     },
+    "legendarysurvivaloverhaul:cold_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "ars_nouveau:ars_nouveau.perk.feather": {
       "enabled": false,
       "min": {
@@ -449,6 +482,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "legendarysurvivaloverhaul:heat_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "cold_sweat:world_temperature": {
@@ -471,6 +515,17 @@
       "max": {
         "default": 200,
         "value": 1000000
+      }
+    },
+    "legendarysurvivaloverhaul:cooling_temperature": {
+      "enabled": false,
+      "min": {
+        "default": -10000,
+        "value": -10000
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "attributeslib:prot_pierce": {

@@ -40,11 +40,11 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     }
                 })
                 let recipe = $GTRecipeBuilder.ofRaw()
-                    .outputItems(Item.of('minecraft:leather',cowcount))
-                    .outputItems(Item.of('minecraft:white_wool',sheepcount)
-                    .outputItems(Item.of('minecraft:egg',chickencount)))
-                    .outputItems(Item.of('kubejs:animal_excreta',cowcount + sheepcount + chickencount))
-                    .outputFluids(Fluid.of('minecraft:milk', 250 * cowcount))
+                    // .outputItems(Item.of('minecraft:leather',cowcount))
+                    // .outputItems(Item.of('minecraft:white_wool',sheepcount)
+                    // .outputItems(Item.of('minecraft:egg',chickencount)))
+                    // .outputItems(Item.of('kubejs:animal_excreta',cowcount + sheepcount + chickencount))
+                    // .outputFluids(Fluid.of('minecraft:milk', 250 * cowcount))
                     .buildRawRecipe()
                 if (recipe.matchRecipe(machine).isSuccess()) {
                     recipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches())

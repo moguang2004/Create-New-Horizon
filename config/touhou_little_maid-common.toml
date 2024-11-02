@@ -1,0 +1,116 @@
+
+[maid]
+	#The item that can tamed maid
+	#Use the registered name of the item directly or write tag name with # as prefix
+	MaidTamedItem = "minecraft:cake"
+	#The item that can temptation maid
+	#Use the registered name of the item directly or write tag name with # as prefix
+	MaidTemptationItem = "minecraft:cake"
+	#The item that can NTR maid
+	#Use the registered name of the item directly or write tag name with # as prefix
+	MaidNtrItem = "minecraft:structure_void"
+	#The max range of maid work mode
+	#Range: 3 ~ 64
+	MaidWorkRange = 12
+	#The max range of maid idle mode
+	#Range: 3 ~ 32
+	MaidIdleRange = 6
+	#The max range of maid sleep mode
+	#Range: 3 ~ 32
+	MaidSleepRange = 6
+	#The max range of maid's Non-Home mode
+	#Range: 3 ~ 32
+	MaidNonHomeRange = 8
+	#The max number of animals around when the maid breeds animals
+	#Range: 6 ~ 65536
+	FeedAnimalMaxNumber = 50
+	#Maid can switch models freely
+	MaidChangeModel = true
+	#Maid can only play gomoku with her owner
+	MaidGomokuOwnerLimit = true
+	#The maximum number of maids the player own
+	#Range: > 0
+	OwnerMaxMaidNum = 2147483647
+	#These items cannot be placed in the maid backpack
+	MaidBackpackBlackList = []
+	#The entity that the maid will not recognize as targets for attack
+	MaidAttackIgnore = []
+	#The entity that the maid will not hurt when in ranged attack
+	MaidRangedAttackIgnore = []
+	#Percentage chance of replace Allays spawn in pillager outposts with Maids
+	#Range: 0.0 ~ 1.0
+	ReplaceAllayPercent = 0.2
+	#These items cannot be used as a maid's work meals
+	MaidWorkMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:chorus_fruit"]
+	#These items cannot be used as a maid's home meals
+	MaidHomeMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:chorus_fruit"]
+	#These items cannot be used as a maid's heal meals
+	MaidHealMealsBlockList = ["minecraft:pufferfish", "minecraft:poisonous_potato", "minecraft:rotten_flesh", "minecraft:spider_eye"]
+	#These items cannot be used as a maid's work meals which match the regex
+	MaidWorkMealsBlockListRegEx = []
+	#These items cannot be used as a maid's home meals which match the regex
+	MaidHomeMealsBlockListRegEx = []
+	#These items cannot be used as a maid's heal meals which match the regex
+	MaidHealMealsBlockListRegEx = []
+	#These entries configure the container returned after a maid has eaten
+	#Eg: ["minecraft:beetroot_soup", "minecraft:bowl"]
+	MaidEatenReturnContainerList = []
+	#Recognition distance of a maid under the gun task, Suitable for sniper rifles
+	#Range: 0 ~ 512
+	MaidGunLongDistance = 64
+	#Recognition distance of a maid under the gun task, Suitable for most types
+	#Range: 0 ~ 512
+	MaidGunMediumDistance = 48
+	#Recognition distance of a maid under the gun task, Suitable for pistols and shotguns
+	#Range: 0 ~ 512
+	MaidGunNearDistance = 32
+
+[chair]
+	#Chair can switch models freely
+	ChairChangeModel = true
+	#Chair can be destroyed by anyone
+	ChairCanDestroyedByAnyone = true
+
+[misc]
+	#Maid fairy's power point
+	#Range: 0.0 ~ 5.0
+	MaidFairyPowerPoint = 0.16
+	#Maid fairy's spawn probability (zombie is 100, enderman is 10)
+	#Range: > 0
+	MaidFairySpawnProbability = 70
+	#The following dimension do not spawn maid fairy
+	MaidFairyBlacklistDimension = ["minecraft:the_nether", "minecraft:the_end", "twilightforest:twilight_forest"]
+	#Loss power point after player death
+	#Range: 0.0 ~ 5.0
+	PlayerDeathLossPowerPoint = 1.0
+	#Give a soul spell item for player first join
+	GiveSoulSpell = true
+	#Give the Memorizable Gensokyo book item for player first join
+	GivePatchouliBook = true
+	#Shrine Lamp Effect Cost (Power Point/Per Hour)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	ShrineLampEffectCost = 0.9
+	#Shrine Lamp Max Storage Power Point
+	#Range: 0.0 ~ 1.7976931348623157E308
+	ShrineLampMaxStorage = 100.0
+	#Shrine Lamp Max Range Of Absorb Power Point
+	#Range: > 0
+	ShrineLampMaxRange = 6
+	#Whether to turn off the Optifine warning
+	CloseOptifineWarning = false
+	#The range of the scarecrow to prevent the fairy maid from spawning
+	#Range: > 0
+	ScarecrowRange = 48
+	#Whether to use the new version of the Fairy Maid model
+	UseNewMaidFairyModel = true
+
+[vanilla]
+	#Whether to replace the vanilla slime model with the yukkuri.
+	ReplaceSlimeModel = true
+	#Whether to replace the vanilla xp orb texture with the point items.
+	ReplaceXPTexture = true
+	#Whether to replace the vanilla totem texture with the life point.
+	ReplaceTotemTexture = true
+	#Whether to replace the vanilla bottle of xp texture with the point items.
+	ReplaceXPBottleTexture = true
+

@@ -173,7 +173,7 @@ event.custom({
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         },
         {
           "item": "gtceu:silver_double_wire"
@@ -181,7 +181,7 @@ event.custom({
       ],
       "results": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         }
       ]
     },
@@ -189,7 +189,7 @@ event.custom({
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         },
         {
           "item": "gtceu:copper_single_wire"
@@ -197,7 +197,7 @@ event.custom({
       ],
       "results": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         }
       ]
     },
@@ -205,7 +205,7 @@ event.custom({
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         },
         {
           "item": 'gtceu:basic_electronic_circuit'
@@ -213,7 +213,7 @@ event.custom({
       ],
       "results": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         }
       ]
     },
@@ -221,7 +221,7 @@ event.custom({
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         },
         {
           "item": 'gtceu:diode'
@@ -229,7 +229,7 @@ event.custom({
       ],
       "results": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         }
       ]
     },
@@ -237,7 +237,7 @@ event.custom({
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         },
         {
           "amount": 144,
@@ -246,7 +246,7 @@ event.custom({
       ],
       "results": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         }
       ]
     },
@@ -254,12 +254,12 @@ event.custom({
         "type": "vintageimprovements:laser_cutting",
         "ingredients": [
           {
-            "item": "gtceu:good_electronic_circuit"
+            "item": "gtceu:phenolic_circuit_board"
           }
         ],
         "results": [
           {
-            "item": "gtceu:good_electronic_circuit"
+            "item": "gtceu:phenolic_circuit_board"
           }
         ],
         "energy": 10000,
@@ -270,18 +270,18 @@ event.custom({
       "energy_needed": 10000,
       "ingredients": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         }
       ],
       "results": [
         {
-          "item": "gtceu:good_electronic_circuit"
+          "item": "gtceu:phenolic_circuit_board"
         }
       ]
     }      
   ],
   "transitionalItem": {
-    "item": "gtceu:good_electronic_circuit"
+    "item": "gtceu:phenolic_circuit_board"
   }
 })
 
@@ -406,3 +406,10 @@ ServerEvents.recipes(event => {
   function toOutput(content){
       return OutputItem.of(content.content.ingredient).withCount(content.content.count).withChance(content.chance>10000?1:content.chance/10000.0);
   }
+
+
+ //Melting -> Diamond into 200mb Molten Gold in 90 ticks with Heated condition.
+    ServerEvents.recipes(event =>{
+	event.recipes.create.mixing('kubejs:rubber_powder', ['gtceu:sulfur_dust','3x gtceu:raw_rubber_dust']).heated()
+    event.recipes.createmetallurgy.melting(Fluid.of('gtceu:rubber', 144), 'kubejs:rubber_powder', 90, 'heated')
+	})

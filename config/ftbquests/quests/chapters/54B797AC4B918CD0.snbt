@@ -332,6 +332,7 @@
 			y: -5.5d
 		}
 		{
+			description: ["要开作弊！"]
 			id: "3C238FF110A851ED"
 			subtitle: "可能会导致一些小bug，不过如果实在太难受的话，follow your heart"
 			tasks: [{

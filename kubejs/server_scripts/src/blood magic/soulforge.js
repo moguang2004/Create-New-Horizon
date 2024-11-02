@@ -34,6 +34,24 @@ ServerEvents.recipes(event => {
   soulforge(event,['botania:rune_earth','botania:rune_air','farmersdelight:melon_popsicle','gtceu:ice_dust'],'botania:rune_summer',50,200)
   soulforge(event,['botania:rune_fire','botania:rune_air','minecraft:apple','minecraft:honey_bottle'],'botania:rune_autumn',50,200)
   soulforge(event,['botania:rune_water','botania:rune_earth','minecraft:snow_block','minecraft:packed_ice'],'botania:rune_winter',50,200)
+
+  event.custom({
+    "type": "bloodmagic:soulforge",
+    "drain": 150,
+    "input0": Item.of('enderio:empty_soul_vial').toJson(),
+    "input1": Item.of('gtceu:nether_star_block').toJson(),
+    "input2": Item.of('bloodmagic:reagentbloodlight').toJson(),
+    "input3": Item.of('bloodmagic:reagentbinding').toJson(),
+    "minimumDrain": 400,
+    "output": Item.of('enderio:filled_soul_vial', '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:wither"}}}}').toJson()
+  })
+  event.recipes.gtceu.hellforge('filled_soul_vial')
+    .itemInputs(['enderio:empty_soul_vial','gtceu:nether_star_block','bloodmagic:reagentbloodlight','bloodmagic:reagentbinding'])
+    .itemOutputs(Item.of('enderio:filled_soul_vial', '{BlockEntityTag:{EntityStorage:{Entity:{id:"minecraft:wither"}}}}'))
+    .EUt(8000)
+    .duration(200)
+    .addDataNumber('minimumDrain',400)
+    .addDataNumber('drain',150)
   event.recipes.extendedcrafting.shaped_table('bloodmagic:soulforge', [
     "     ",
     "A   A",

@@ -444,7 +444,7 @@ ServerEvents.recipes(event => {
         .inputFluids('minecraft:water 3000')
         .itemOutputs('5x gtceu:alumina_dust')
         .outputFluids('gtceu:hydrofluoric_acid 6000')
-    event.recipes.gtceu.chemical_reactor('fluorine_from_naf')
+    event.recipes.gtceu.electrolyzer('fluorine_from_naf')
         .duration(160)
         .EUt(120)
         .itemInputs('2x gtceu:sodium_fluoride_dust')

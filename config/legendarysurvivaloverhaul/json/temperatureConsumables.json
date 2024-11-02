@@ -1,0 +1,280 @@
+{
+  "farmersdelight:fish_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "legendarysurvivaloverhaul:melon_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:veg_stinger": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:bone_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 3,
+      "duration": 2400
+    }
+  ],
+  "crockpot:turkey_dinner": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:chicken_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:vegetable_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "crockpot:meat_balls": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "minecraft:melon_slice": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:california_roll": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:moqueca": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1800
+    }
+  ],
+  "crockpot:kabobs": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:hot_cocoa": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 3600
+    }
+  ],
+  "crockpot:hot_cocoa": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 2400
+    }
+  ],
+  "crockpot:salsa": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -2,
+      "duration": 2400
+    }
+  ],
+  "farmersdelight:beef_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "crockpot:asparagus_soup": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 2,
+      "duration": 1200
+    }
+  ],
+  "crockpot:ice_cream": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -3,
+      "duration": 1200
+    }
+  ],
+  "crockpot:watermelon_icle": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -4,
+      "duration": 1800
+    }
+  ],
+  "crockpot:gazpacho": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 2400
+    }
+  ],
+  "crockpot:plain_omelette": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:bone_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 1800
+    }
+  ],
+  "crockpot:pepper_popper": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 3,
+      "duration": 6000
+    }
+  ],
+  "minecraft:rabbit_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 1200
+    }
+  ],
+  "crockpot:flower_salad": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -3,
+      "duration": 6000
+    }
+  ],
+  "crockpot:ratatouille": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 3,
+      "duration": 6000
+    }
+  ],
+  "minecraft:suspicious_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:bacon_eggs": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "farmersdelight:baked_cod_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "crockpot:iced_tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 4800
+    }
+  ],
+  "crockpot:fruit_medley": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:pierogi": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 1200
+    }
+  ],
+  "minecraft:mushroom_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    },
+    {
+      "group": "DRINK",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "farmersdelight:pumpkin_soup": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "legendarysurvivaloverhaul:glistering_melon_juice": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": -2,
+      "duration": 3600
+    }
+  ],
+  "crockpot:tea": [
+    {
+      "group": "DRINK",
+      "temperatureLevel": 3,
+      "duration": 4800
+    }
+  ],
+  "crockpot:bunny_stew": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 1,
+      "duration": 1200
+    }
+  ],
+  "crockpot:hot_chili": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": 2,
+      "duration": 2400
+    }
+  ],
+  "crockpot:salmon_sushi": [
+    {
+      "group": "FOOD",
+      "temperatureLevel": -1,
+      "duration": 1800
+    }
+  ]
+}

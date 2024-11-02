@@ -40,8 +40,7 @@ StartupEvents.registry("item", event => {
                 let energy = attribute.stack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
                 let { energyStored, maxEnergyStored } = energy
                 if (energyStored > 0) {
-                    attribute.modify('cold_sweat:cold_dampening', 'kubejscolddampening', 1, 'addition')
-                    attribute.modify('cold_sweat:heat_dampening', 'kubejsheatdampening', 1, 'addition')
+                    attribute.modify('legendarysurvivaloverhaul:thermal_resistance', 'kubejsthermal_resistance', 20, 'addition')
                 }
             })
         )
@@ -58,8 +57,7 @@ StartupEvents.registry("item", event => {
                 itemstack.setDamageValue(itemstack.damageValue + 1)
                 return true
             })
-            .modifyAttribute('cold_sweat:cold_dampening', 'kubejscolddampening', 1, 'addition')
-            .modifyAttribute('cold_sweat:heat_dampening', 'kubejsheatdampening', 1, 'addition')
+            .modifyAttribute('legendarysurvivaloverhaul:thermal_resistance', 'kubejsthermal_resistance', 20, 'addition')
         )
     event.create('deep_diver_gear').tag('curios:belt')
     event.create('thermometer_case')
@@ -122,24 +120,11 @@ StartupEvents.registry("item", event => {
     event.create('advanced_mana_capacitor')
     event.create('mana_inductor')
     event.create('advanced_mana_inductor')
+	event.create('rubber_powder')
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')
     event.create('steel_casing')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("creat:casing")
-        .requiresTool(true)
-    event.create('annihilate_core')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("creat:casing")
-        .requiresTool(true)
-    event.create('annihilate_core1')
         .noValidSpawns(true)
         .soundType("metal")
         .mapColor("metal")
@@ -248,22 +233,6 @@ StartupEvents.registry("block", event => {
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureAll("kubejs:block/twisted_fusion_casing")
-    event.create('naquadah_casing', 'basic')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("forge:mineable/wrench")
-        .requiresTool(true)
-        .textureAll("kubejs:block/nq_casing")
-    event.create('naquadah_alloy_casing', 'basic')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("forge:mineable/wrench")
-        .requiresTool(true)
-        .textureAll("kubejs:block/nqhejing_casing")
     const registercoils = [
         ["abyssalalloy", "12600", "16", "8"],
         ["titansteel", "14400", "32", "8"],
@@ -404,7 +373,7 @@ ItemEvents.modification(event => {
     })
     event.modify('tetranichematerials:burning_steel_armor_helmet', item => {
         item.setArmorProtection(4)
-        item.addAttribute('cold_sweat:cold_dampening',
+        item.addAttribute('legendarysurvivaloverhaul:cold_resistance',
             '98d68242-a5bc-40a2-8b3a-cbaa87cc27c9',
             'kubejscolddampening',
             0.1,
@@ -417,7 +386,7 @@ ItemEvents.modification(event => {
             'kubejsfiredamage',
             2,
             'addition')
-        item.addAttribute('cold_sweat:cold_dampening',
+        item.addAttribute('legendarysurvivaloverhaul:cold_resistance',
             '683cbb1f-eb71-45e8-941e-a01805c9d773',
             'kubejscolddampening',
             0.1,
@@ -425,7 +394,7 @@ ItemEvents.modification(event => {
     })
     event.modify('tetranichematerials:burning_steel_armor_legs', item => {
         item.setArmorProtection(6)
-        item.addAttribute('cold_sweat:cold_dampening',
+        item.addAttribute('legendarysurvivaloverhaul:cold_resistance',
             'e6988b1d-b44c-4b49-8ab4-3a6df3bfd4ee',
             'kubejscolddampening',
             0.1,
@@ -433,7 +402,7 @@ ItemEvents.modification(event => {
     })
     event.modify('tetranichematerials:burning_steel_armor_feet', item => {
         item.setArmorProtection(4)
-        item.addAttribute('cold_sweat:cold_dampening',
+        item.addAttribute('legendarysurvivaloverhaul:cold_resistance',
             '3470aaa2-397d-4f18-83ad-98c1bc2019e6',
             'kubejscolddampening',
             0.1,

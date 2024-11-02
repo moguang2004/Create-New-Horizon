@@ -21,6 +21,7 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(360)
     ctnh.mixer("rare_earth_mixture_oh")
+        .circuit(1)
         .itemInputs("4x gtceu:rare_earth_mixture_dust", "4x gtceu:sodium_hydroxide_dust")
         .inputFluids(Fluid.of("minecraft:water", 4000))
         .outputFluids(Fluid.of("gtceu:rare_earth_mixture_oh", 1000))
