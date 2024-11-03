@@ -1,0 +1,1410 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2CEAD5605C416218"
+	group: "4CD84F8DB1FF8B7E"
+	icon: "gtceu:oil_medium_bucket"
+	id: "2CEAD5605C416218"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "gtceu:oil_medium_bucket"
+			id: "475A6C3B67F4D31C"
+			subtitle: "来自Snow_city的笔记！"
+			tasks: [{
+				id: "731CCACD685E2B96"
+				title: "欢迎来到石油化工！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&l&b可以的话去看一下&nSnow_city&r&l&b写的石化简略教程！"
+				"https://www.mcmod.cn/post/4364.html"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1878141411
+							540102149
+							-1492416550
+							-2028171038
+						]
+						Name: "Snow_city"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMDYxMzY3Nzc0MywKICAicHJvZmlsZUlkIiA6ICI2ZmYyMjllMzIwMzE0ZTA1YTcwYjg3ZGE4NzFjOTBlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbm93X2NpdHkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU4MDE5Yjc5NTM3MmFhNmEzYmU4ZGZkMjEzMThhM2U1MTZiYTYxNmIyNDI3NDE0NjNjM2ZlNTY2MmNjMTEzNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOWQ4MmFiMTdmZDkyMDIyZGJkNGE4NmNkZTRjMzgyYTc1NDBlMTE3ZmFlN2I5YTI4NTM2NTg1MDVhODA2MjUiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+			id: "4ADEDBFAAE364473"
+			subtitle: "&o知识即为万物尺度，定将穷尽真理，根除谬误。"
+			tasks: [{
+				id: "786AC43ACCC0C0BE"
+				title: "我已出舱，感觉良好！"
+				type: "checkmark"
+			}]
+			title: "哦，瞧瞧那黑色的黄金！"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&l&0你能得到："
+				"&b&l成堆的各种有机物"
+				"&b&l够你烧到Luv的燃料"
+				"&b&l一种石油化工的宏伟成就感"
+			]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "39A2B69213538581"
+			subtitle: "又臭又长，一看就是条史线！"
+			tasks: [{
+				id: "58329466B8F858C7"
+				title: "原来如此！"
+				type: "checkmark"
+			}]
+			title: "我能得到什么？"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			icon: "gtceu:lv_machine_hull"
+			id: "228C7E019750CFF1"
+			size: 2.0d
+			tasks: [{
+				id: "29414775BE90922F"
+				title: "内燃机的时代！"
+				type: "checkmark"
+			}]
+			title: "LV时期"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["228C7E019750CFF1"]
+			description: ["    在野外，你随处可见这种喷出来的油井。用泵或者软管滑轮将他们痛痛快快的抽出来吧！"]
+			icon: "gtceu:oil_medium_bucket"
+			id: "618C3E4E348D7A4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "443543776D1BFBDB"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "一切的开始"
+			tasks: [{
+				id: "15F4BBF99560B0AF"
+				item: "gtceu:oil_medium_bucket"
+				type: "item"
+			}]
+			title: "化工之源！"
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["618C3E4E348D7A4B"]
+			description: ["     你需要这种机器将你得到的石油进行最初步的处理。有四种不同的产物，你可以按需选择自己喜欢的。"]
+			icon: "gtceu:lv_distillery"
+			id: "4510585A6279877F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26D1ECA37053B2B0"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "最初级的处理"
+			tasks: [{
+				id: "6F2AAB2D0B181CE3"
+				item: "gtceu:lv_distillery"
+				type: "item"
+			}]
+			title: "蒸！"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			id: "5C009C0F6F33E9CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37B0C7F6A7752EAE"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "可用作内燃机燃料"
+			tasks: [{
+				id: "5896B3E4B735A9CD"
+				item: "gtceu:sulfuric_light_fuel_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			id: "3F1DF409FEA8345E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CC980D0760F1C3C"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "不能烧，因为太粘稠了"
+			tasks: [{
+				id: "3D679307B9AC424B"
+				item: "gtceu:sulfuric_heavy_fuel_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			id: "1236337116794E31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20BD7A820E4C500F"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "可用作燃气轮机燃料"
+			tasks: [{
+				id: "4F24EC3D220FEFFD"
+				item: "gtceu:sulfuric_naphtha_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			id: "123379D3A36CD01E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "696BEDA2F6AA5B72"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "可用作燃气轮机燃料"
+			tasks: [{
+				id: "1BF8BD75F4D0F91C"
+				item: "gtceu:sulfuric_gas_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			description: ["    对着内燃机按U可查看各种燃料及其燃值！"]
+			id: "02DB7FB27F963B96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "118574B947CA54D8"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "通过烧油的方式输出电！"
+			tasks: [{
+				id: "089524861B98D023"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4510585A6279877F"]
+			description: ["    对着燃气轮机按U即可查看各种燃气及其燃值！"]
+			id: "4616AC2631FDDE37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E8099A4D1FEEE91"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "通过燃烧气体的方式发电！"
+			tasks: [{
+				id: "4A5B582B12D88B1C"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"02DB7FB27F963B96"
+				"4616AC2631FDDE37"
+			]
+			dependency_requirement: "one_completed"
+			description: ["    通过氢气与燃料内的硫反应形成硫化氢，从而实现燃料的脱硫。"]
+			id: "332BF376BDAB27DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1985A41E0C5E2A11"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "我们不需要硫"
+			tasks: [{
+				id: "6CACA63A911242FC"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			title: "我爱化学"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["332BF376BDAB27DA"]
+			id: "4AC6548D09A12203"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FCAB8655BDB1670"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "不是废液"
+			tasks: [{
+				id: "56D1A0EC50CBE6CC"
+				item: "gtceu:hydrogen_sulfide_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AC6548D09A12203"]
+			description: ["    强大的电解机可以把硫化氢电解成硫粉和氢气，从而实现氢气的回收。"]
+			id: "79F44C472D79151F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AE1D3754F618047"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "化学键，给我断！"
+			tasks: [{
+				id: "0A65F39BDDB64241"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["79F44C472D79151F"]
+			description: [
+				"    这样便实现了一个简单的氢循环，从而不需要输入额外的氢气。"
+				"    你问我一开始的氢气从哪来？给我电解水！"
+			]
+			id: "23FA40EA2E54603E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "101E247C46A1C70A"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "嗨嗨嗨，我又回来了"
+			tasks: [{
+				id: "10C32448D622EF93"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["332BF376BDAB27DA"]
+			id: "0AAEE2288B0637AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "571A03ECEC7BB142"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "一般的内燃机燃料"
+			tasks: [{
+				id: "10C522331E766862"
+				item: "gtceu:light_fuel_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["332BF376BDAB27DA"]
+			id: "65BCEDFA60486750"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A326122264EC46C"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "还是不能烧，因为太粘稠了"
+			tasks: [{
+				id: "44B01AC3FA242AF5"
+				item: "gtceu:heavy_fuel_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["332BF376BDAB27DA"]
+			id: "5D22A8B33C8B7C20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "067AAFBBE8ACCF2A"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "一般的内燃机燃料"
+			tasks: [{
+				id: "018F258E7B148C75"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["332BF376BDAB27DA"]
+			id: "1421D16E540993B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FE36C4B34DE40C1"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "一般的燃气轮机燃料"
+			tasks: [{
+				id: "2C2E70C3DA3F42E5"
+				item: "gtceu:refinery_gas_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:mv_machine_hull"
+			id: "04EFD393B5990E72"
+			size: 2.0d
+			tasks: [{
+				id: "71DB850D53782BB8"
+				title: "虚空油田，小子！"
+				type: "checkmark"
+			}]
+			title: "MV时期"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04EFD393B5990E72"]
+			description: ["    到了MV时期，用电需求增加的你会觉得轻燃油之类的太不耐烧了！为此，你需要搅拌出柴油，你的第一种混合燃料！但是你需要MV电压的搅拌机才能打搅，挑自己喜欢的做吧。"]
+			id: "1CC3B42FE86A4743"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40A1FD22127563FD"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "提升燃值！"
+			tasks: [
+				{
+					id: "0E8DF40A39FEE802"
+					item: "gtceu:mv_mixer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "670FB78805FFA78D"
+					item: "gtceu:mv_kinetic_mixer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "开始打搅！"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CC3B42FE86A4743"]
+			id: "0E72AEAF23C24D5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B1AF8869FD39E99"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "燃值翻0.5倍！"
+			tasks: [{
+				id: "3DA85AFE249DA5D3"
+				item: "gtceu:diesel_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04EFD393B5990E72"]
+			id: "7F15BB71576900CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B1F21DA6CB9E00D"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "你的第二种内燃机"
+			tasks: [{
+				id: "01F65F3A729FFEB3"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04EFD393B5990E72"]
+			description: ["    想必你就会发现光是开采地表的油田太麻烦且产量低，不用担心！这台机器能从基岩之下采集源源不断的油，满足你的大量需求！"]
+			id: "62F220389305D060"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F0040707D6392A8"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "基岩下面有什么？"
+			tasks: [
+				{
+					id: "3C218F4B8794DC63"
+					item: "gtceu:mv_fluid_drilling_rig"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "551B0F7DF281A170"
+					item: { Count: 15, id: "gtceu:steel_frame" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6F680776B704445A"
+					item: { Count: 9, id: "gtceu:solid_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "035E81213237E09C"
+					item: "gtceu:mv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62F220389305D060"]
+			description: [
+				"    如果你按照JEI上的多方块搭建提示来，会发现它需要两个能源仓。"
+				"    其实这不是必要需求，只是单纯可以像电力高炉一样双仓升压而已，所以我只设成了需求一个。"
+				"    &l&b但是若是你摆了两个能源仓，则两个能源仓分别都要通上2A的电！因为加了两个能源仓的多方快机器基础电压会提升一级，必须要供应升压所需的足够电量，否则机器将不会工作！"
+			]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "644C47F8314F0DBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE46F3EE3B60C44"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "请仔细阅读！别光顾着拿奖励..."
+			tasks: [{
+				id: "36D28FA2F621CC2B"
+				title: "俺知道了"
+				type: "checkmark"
+			}]
+			title: "关于进阶流体钻机的搭建"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["644C47F8314F0DBC"]
+			description: ["    诶，这抽出来的油不对啊！恭喜！你会发现有四种油：轻油，重油，石油和原油（天然气纯纯废物）。这四种油蒸出不同产物的比例都不一样，详细请查阅JEI。如果你是个柴油6：1狂热拥护者，就抽原油吧。轻重燃油产出刚好6：1。"]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "4594C3CB08FB0A4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C9A16301D947484"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "请仔细阅读！别光顾着拿奖励..."
+			tasks: [{
+				id: "36FD1A5427DD04EF"
+				title: "俺知道了"
+				type: "checkmark"
+			}]
+			title: "关于采出的油"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			id: "7D6EC424FC1E9163"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E8BEFEEDD23E0AA"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "四天王之一"
+			tasks: [{
+				id: "5EA09EC7F57F8E9B"
+				item: "gtceu:oil_heavy_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			id: "66B3F0D108699D28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E00803CDF12CB37"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "四天王之一"
+			tasks: [{
+				id: "492E7C59270856E7"
+				item: "gtceu:oil_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			id: "4EED06125B908AF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FF5FD1188B4862D"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "四天王之一"
+			tasks: [{
+				id: "2A2EBA49242E2CCE"
+				item: "gtceu:oil_medium_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			id: "56008EF6CEB69CBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E6B5FBF9219A35B"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "四天王之一"
+			tasks: [{
+				id: "009C156DFF3085B3"
+				item: "gtceu:oil_light_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			id: "4BDB6985BCA2E59B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03DE9EA710FECD39"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "你是什么东西，也配和四天王一起玩？"
+			tasks: [{
+				id: "17514DF9D5931A82"
+				item: "gtceu:natural_gas_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7F15BB71576900CD"]
+			id: "3166E9A46BC303F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "136B18C1EDA77026"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "你还在用这个？祝君好运"
+			tasks: [{
+				id: "6A558713FDCA6611"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:hv_machine_hull"
+			id: "1EDA02396B328A49"
+			size: 2.0d
+			tasks: [{
+				id: "215D02C397CABDA2"
+				title: "我们的蒸馏塔正在蒸蒸日上哦！"
+				type: "checkmark"
+			}]
+			title: "HV时期"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			description: [
+				"    我怎么知道这个区块的油田是什么油呢？鉴于你现在无法做出HV探矿仪探测基岩流体，建议是在尝试的区块把钻机摆好，当它结构形成时会显示当前区块的油种类和数量。如果不是想要的就拆了，换个区块试。"
+				"    &l&b你嫌麻烦？&n你都玩GT了，还嫌麻烦？"
+			]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "2B3A126F8C590A55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6673AC955BFFD3A7"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "笨方法！"
+			tasks: [{
+				id: "3B8FB6DD99CA612A"
+				title: "俺知道了"
+				type: "checkmark"
+			}]
+			title: "MV时期确认油种类和数量的方式"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4594C3CB08FB0A4E"]
+			description: [
+				"    如果你想要的油距离你十万八千里...我们可以用无线流体传输覆盖板！这是gtmthings所提供的超大福利！造几个出来随便贴，再也不用拉着各种麻烦的线了！"
+				"    不过一个GT容器只能贴一个该板，或许你能想出一些间接介质来进行分流传输单液体？"
+			]
+			icon: "gtmthings:wireless_fluid_transfer_cover"
+			id: "47D645D2CF6F4696"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04965CDA3AF1BDCE"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "末影科技，小子！"
+			tasks: [{
+				id: "65408B9B64EB958A"
+				item: "gtmthings:wireless_fluid_transfer_cover"
+				type: "item"
+			}]
+			title: "远距离/跨纬度传输流体的方法之一"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1EDA02396B328A49"]
+			description: [
+				"    它可以将石油同时进行四项蒸馏处理并&l&b没有任何损失&r！用它来积攒大量的四种初级处理油吧！"
+				"    &l&b注意！蒸馏塔处理配方产物有n个就需要盖n+1层，除第一层外每层都有且只能有一个输出仓！"
+			]
+			id: "117CC578D19D6CB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B807AFA0529ED72"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "我们的整合包正在蒸蒸日上哦！"
+			tasks: [{
+				id: "35ECDC9B95FE0CC8"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			title: "蒸蒸日上！"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EDA02396B328A49"]
+			description: ["    更好的脱硫！不想搞四台小化反？大化反，启动！利用大化反能填充一堆输入输出仓的特性，来想好你的连线结构，搞出一个四脱硫合一的脱硫装置吧！相信你也能设计出对应的氢循环！"]
+			id: "60F804F953AB347A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70F35DCD5F786620"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "谁需要一堆小化反"
+			tasks: [{
+				id: "0CB6F0E3570A9536"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			title: "我很爱化学"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EDA02396B328A49"]
+			id: "3303E8052878B7CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27AF928932FC54C6"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "偷窥一下基岩下面有什么"
+			tasks: [{
+				id: "00654C7916B861B7"
+				item: "gtceu:prospector.hv"
+				type: "item"
+			}]
+			title: "让我看看！"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EDA02396B328A49"]
+			id: "04F5AA140E3E62DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C5C1E86D7F6EFC4"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "柴油线重要原料"
+			tasks: [{
+				id: "4000C555F2D19DD2"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04F5AA140E3E62DB"]
+			id: "3086208ED2590430"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53B3A77FDE8901F1"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "还差一步！"
+			tasks: [{
+				id: "391AD2AD6BBD8B53"
+				item: "gtceu:tetranitromethane_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3086208ED2590430"]
+			id: "5425DE0071BA18F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "016CA76BF1EC1F05"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "再次提升燃值！"
+			tasks: [
+				{
+					id: "7986355C842E2C15"
+					item: "gtceu:hv_mixer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "431A51F9A5F7DE49"
+					item: "gtceu:hv_kinetic_mixer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "再次打搅！"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5425DE0071BA18F9"]
+			description: ["    这就是柴油系燃料的终点了。如果你想要最强燃料，只能推翻你所有的柴油系产线，从而追求汽油这种燃料..."]
+			id: "3D0B085FB6082A3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5638CE29A340566F"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "燃值翻0.5倍！"
+			tasks: [{
+				id: "60DA06A2C0D6F006"
+				item: "gtceu:cetane_boosted_diesel_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["117CC578D19D6CB0"]
+			description: ["    此时你可以造出石油裂化机来将石油脑进行轻度或重度（你自己觉得缺什么就怎么处理）蒸汽裂化，再在一台12层高的蒸馏塔来获得大量的化工原料！"]
+			id: "5B5DFEB9DE345B10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "272EC06851ABCFA3"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "裂，给我裂！"
+			tasks: [{
+				id: "3F5C1C6A386784CF"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B5DFEB9DE345B10"]
+			description: ["    裂解蒸馏石油脑让你得到了各式各样的副产！这些有机物中有些会影响到你的一些化工生产，可谓超有价值！想必你再也不会为甲苯或乙烯之类的有机物发愁了吧？"]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "48A4A24B6CF5971A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57CE2EB4C7EFED13"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "有机物在手，天下我有"
+			tasks: [{
+				id: "1E724717F806DDBB"
+				title: "俺知道了"
+				type: "checkmark"
+			}]
+			title: "关于石化副产"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1EDA02396B328A49"]
+			id: "13424B848195B90D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "368483C64EB27488"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "你的最后一种小内燃机"
+			tasks: [{
+				id: "5A32A66BA3C75CCB"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13424B848195B90D"]
+			id: "15594488383C6578"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "767C3997DADF4100"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			subtitle: "你去跟小孩吃一桌"
+			tasks: [{
+				id: "74B0DF686C7C3484"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			icon: "gtceu:ev_machine_hull"
+			id: "3D80BAEC0FF08BDD"
+			size: 2.0d
+			tasks: [{
+				id: "5AD80B6DF8A5239A"
+				title: "不，这不该是石化的极限！"
+				type: "checkmark"
+			}]
+			title: "EV时期"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D80BAEC0FF08BDD"]
+			id: "7438639FFA61F7C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59F464E12CA0EF7D"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "超级加倍！"
+			tasks: [{
+				id: "6355DC86741BE21D"
+				item: "gtceu:hv_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D80BAEC0FF08BDD"]
+			id: "5F4AA868BBD57C56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D6887E11DD6204E"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "更好的布线！"
+			tasks: [
+				{
+					id: "5579937E6ABDE147"
+					item: "gtceu:ev_input_hatch_4x"
+					type: "item"
+				}
+				{
+					id: "4426850699B74CEC"
+					item: "gtceu:ev_output_hatch_4x"
+					type: "item"
+				}
+			]
+			title: "四重仓"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D80BAEC0FF08BDD"]
+			description: ["    恭喜！能走到这你已经算个合格的石化人了，那么还有没有比高十六烷值柴油更高级的燃料呢？答案是当然！高辛烷值汽油，拥有着1桶3200000的恐怖燃值！但是它的制造不属于柴油系，你要把你的柴油产线通通推倒！"]
+			id: "211F0DB44621458D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75D321517609B9AD"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "准备好了吗孩子们？"
+			tasks: [{
+				id: "51C4207B1CE58024"
+				title: "俺知道了"
+				type: "checkmark"
+			}]
+			title: "高辛烷，启动！"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			id: "4F4324CDDD5D7E0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D5BF463AB0A4D33"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "粗汽油原料"
+			tasks: [{
+				id: "2E0555D66D7377B5"
+				item: "gtceu:methanol_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			id: "0F9593BC9A52CB10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C8596057A9E8E5F"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "粗汽油原料"
+			tasks: [{
+				id: "4E9C7E50E782699F"
+				item: "gtceu:acetone_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			id: "37348865059DFEF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42AB9498E5931940"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "粗汽油原料"
+			tasks: [{
+				id: "597E7B965787262C"
+				item: "gtceu:naphtha_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			id: "50C05C85D150D60E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "111C8559B41AC805"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "粗汽油原料"
+			tasks: [{
+				id: "5B9CB12DD9D76C09"
+				item: "gtceu:refinery_gas_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F4324CDDD5D7E0B"
+				"0F9593BC9A52CB10"
+				"37348865059DFEF9"
+				"50C05C85D150D60E"
+			]
+			id: "25A50FC881AF20CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "518969DC25F85D4D"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50E5B430F8BA9985"
+				item: "gtceu:raw_gasoline_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			hide_dependency_lines: true
+			id: "6E8824B2FA2132FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CFFDEC2E9765AA0"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "汽油及高辛烷值汽油原料"
+			tasks: [{
+				id: "635BE8148B4175E3"
+				item: "gtceu:toluene_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6E8824B2FA2132FF"
+				"25A50FC881AF20CB"
+			]
+			id: "50CD01D7A08E9546"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "394DB3564AF8F93F"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "高辛烷值汽油原料"
+			tasks: [{
+				id: "0A23CC5D2F013564"
+				item: "gtceu:gasoline_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			hide_dependency_lines: true
+			id: "22BA32A56B16DF34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DCFFD5BB7296D7E"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "高辛烷值汽油原料"
+			tasks: [{
+				id: "10185F70E40F97D5"
+				item: "gtceu:octane_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			hide_dependency_lines: true
+			id: "11954B230147F3B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "587F3E0D932E4199"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "高辛烷值汽油原料"
+			tasks: [{
+				id: "71EBD702FE11E876"
+				item: "gtceu:nitrous_oxide_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["211F0DB44621458D"]
+			hide_dependency_lines: true
+			id: "35C879A01DB933A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01CEEB12FEE77CF0"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "高辛烷值汽油原料"
+			tasks: [{
+				id: "6ABC493A9F66D177"
+				item: "gtceu:ethyl_tertbutyl_ether_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"50CD01D7A08E9546"
+				"35C879A01DB933A3"
+				"11954B230147F3B8"
+				"6E8824B2FA2132FF"
+				"22BA32A56B16DF34"
+			]
+			id: "481C3D09737918E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62B66339E38A73FB"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72E1B7AF9BA2540E"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "665CC29EC9AD4953"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E4B5CFCC357CE79"
+					table_id: 971429564947815603L
+					type: "choice"
+				}
+			]
+			subtitle: "恭喜！你已经是个合格的石化人了！"
+			tasks: [{
+				id: "5B43A3C938AA3D26"
+				item: "gtceu:high_octane_gasoline_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3D80BAEC0FF08BDD"]
+			description: ["    一台完全释放你油燃值的大机器！仅需一点点润滑油和充足的氧气，你可以消耗两倍的燃料产生三倍的燃值，相当于一桶燃料提升了一半燃值！合理的布线并运用你的电池箱，看着几千桶高辛烷，享受石油大亨的快感吧！"]
+			hide_dependency_lines: true
+			id: "321CEC3FB96A2E1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FA7B190A350E6EB"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			subtitle: "让燃料充分燃烧！"
+			tasks: [{
+				id: "7F88D1EBAE8F1BC5"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["481C3D09737918E8"]
+			hide: true
+			id: "1756E4E4880B8FD4"
+			rewards: [
+				{
+					count: 64
+					id: "6C0892544ABC1E37"
+					item: "gtceu:titanium_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6761F64F931FCAFD"
+					item: "gtceu:stainless_steel_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1F7279F7B843B88A"
+					item: "gtceu:tungsten_steel_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "076305E93D75935E"
+					item: "gtceu:polytetrafluoroethylene_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "372D349DE6AF0E8D"
+					item: "gtceu:nano_processor_assembly"
+					type: "item"
+				}
+				{
+					id: "2A9CF9C79B2B8831"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1878141411
+									540102149
+									-1492416550
+									-2028171038
+								]
+								Name: "Snow_city"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMDYxMzY3Nzc0MywKICAicHJvZmlsZUlkIiA6ICI2ZmYyMjllMzIwMzE0ZTA1YTcwYjg3ZGE4NzFjOTBlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbm93X2NpdHkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU4MDE5Yjc5NTM3MmFhNmEzYmU4ZGZkMjEzMThhM2U1MTZiYTYxNmIyNDI3NDE0NjNjM2ZlNTY2MmNjMTEzNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOWQ4MmFiMTdmZDkyMDIyZGJkNGE4NmNkZTRjMzgyYTc1NDBlMTE3ZmFlN2I5YTI4NTM2NTg1MDVhODA2MjUiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "给石化人的福利！"
+			tasks: [{
+				id: "2C8FEE06D731310A"
+				title: "Snow_city被你感动了，偷偷给你塞了点奖励，别说出去"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:iv_machine_hull"
+			id: "1318AF9D80910268"
+			size: 2.0d
+			tasks: [{
+				id: "5A8E8F7FD742E5F1"
+				title: "一刻也没有为高辛烷值汽油的退役而悲伤，接下来出场的是..."
+				type: "checkmark"
+			}]
+			title: "IV时期"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1318AF9D80910268"]
+			description: ["    极限内燃引擎，这是最后的内燃机了（不包括火箭燃料）。"]
+			id: "33BBD29D7E3DDB68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "398CD090CE44659B"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			subtitle: "让燃料极限燃烧！"
+			tasks: [{
+				id: "3B11A471541EE181"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33BBD29D7E3DDB68"]
+			description: [
+				"    随着时代的快速飞升，高辛烷值汽油或许能保你到LuV，但不能保你一辈子。总会有更先进的能源获取方式的。"
+				"    但是，看着你曾经搭过的石油重工，多少会有点自豪吧！不必灰心，人总是要向前看的。"
+				"    也许你走的是不同的路，有各种各样的逃课方式，觉得走石化的这辈子有了，但是总会有人选择走的。无论你做什么选择，以后大概率都会后悔，因为得不到的才是最好的。所以，如果选了这条路，无论是主动还是被动，都请好好走下去吧，每个人都有无限的可能和光明的未来。"
+			]
+			hide: true
+			id: "4EA7875B6E1341B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0061AEF527256FC1"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			subtitle: "献给做石化的你"
+			tasks: [{
+				id: "4E6D066D90F49F58"
+				title: "俺知道了"
+				type: "checkmark"
+			}]
+			title: "Snow_city的话"
+			x: 9.0d
+			y: 2.0d
+		}
+	]
+	title: "石油化工"
+}

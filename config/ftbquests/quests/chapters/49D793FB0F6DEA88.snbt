@@ -6,7 +6,7 @@
 	group: "71414D2BDE140EDA"
 	icon: "farm_and_charm:farmers_breakfast"
 	id: "49D793FB0F6DEA88"
-	order_index: 12
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
