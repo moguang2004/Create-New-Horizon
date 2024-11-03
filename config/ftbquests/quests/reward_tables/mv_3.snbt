@@ -37,5 +37,5 @@
 		{ count: 4, item: "casualness_delight:bowl_of_sweet_rice" }
 		{ count: 4, item: "casualness_delight:bowl_of_fried_dumpling" }
 	]
-	title: "MV奖励"
+	title: "{ftbquests.loot_table.title3}"
 }

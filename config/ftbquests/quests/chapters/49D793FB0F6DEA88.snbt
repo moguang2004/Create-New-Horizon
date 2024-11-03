@@ -11,10 +11,10 @@
 	quests: [
 		{
 			description: [
-				"相信你很早就想问了：为什么我只有5颗心捏？"
-				"那是因为"
-				"我们的身体被神秘的力量所束缚，变得贫弱."
-				"用食物来解开枷锁吧！"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest1.description1}"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest1.description2}"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest1.description3}"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest1.description4}"
 			]
 			id: "54109329B92D1550"
 			rewards: [{
@@ -22,25 +22,25 @@
 				item: "solcarrot:food_book"
 				type: "item"
 			}]
-			subtitle: "一切的开始"
+			subtitle: "{ftbquests.chapter.49D793FB0F6DEA88.quest1.subtitle}"
 			tasks: [{
 				id: "5A912176229B733E"
-				title: "好饿，我好像玩了饿鬼传说"
+				title: "{ftbquests.chapter.49D793FB0F6DEA88.quest1.task.title1}"
 				type: "checkmark"
 			}]
-			title: "炫炫炫，我踏马炫炫炫"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest1.title}"
 			x: -12.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["54109329B92D1550"]
 			description: [
-				"首先，改善饮食习惯。"
-				"其次，规律生活作息。"
-				"最后，适当的户外活动。"
-				"只要坚持这三点，就可以锻炼出强健的体魄！"
-				"                                                "
-				"尝试不同的食物可以增加生命值上限"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest2.description1}"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest2.description2}"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest2.description3}"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest2.description4}"
+				""
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest2.description5}"
 			]
 			id: "5FF76726F421E169"
 			rewards: [{
@@ -48,19 +48,19 @@
 				type: "xp"
 				xp: 3
 			}]
-			subtitle: "曾经有人说过"
+			subtitle: "{ftbquests.chapter.49D793FB0F6DEA88.quest2.subtitle}"
 			tasks: [{
 				id: "730FB61D68BB0D0E"
 				item: "solcarrot:food_book"
 				type: "item"
 			}]
-			title: "变强的秘诀"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest2.title}"
 			x: -10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5FF76726F421E169"]
-			description: ["在大自然中我们总能找到点什么。"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest3.description1}"]
 			icon: "minecraft:apple"
 			id: "4CBAA657EFE475AE"
 			rewards: [{
@@ -68,10 +68,10 @@
 				type: "xp"
 				xp: 3
 			}]
-			subtitle: "大自然的馈赠！"
+			subtitle: "{ftbquests.chapter.49D793FB0F6DEA88.quest3.subtitle}"
 			tasks: [{
 				id: "3222611132F1321B"
-				title: "自然美味"
+				title: "{ftbquests.chapter.49D793FB0F6DEA88.quest3.task.title1}"
 				type: "checkmark"
 			}]
 			x: -10.0d
@@ -123,7 +123,7 @@
 			y: 11.0d
 		}
 		{
-			description: ["我家鸽鸽的肉"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest7.description1}"]
 			id: "0937E4F699575E92"
 			rewards: [{
 				id: "175D0A9507BA5919"
@@ -187,9 +187,9 @@
 			dependencies: ["5FF76726F421E169"]
 			dependency_requirement: "one_completed"
 			description: [
-				"鲲之大，一锅煮不下"
-				"烹饪菜肴需要热源的热源，灶炉刚好完美符合。"
-				"&c注: 放在灶炉上面就行！！！&r"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest11.description1}"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest11.description2}"
+				"{ftbquests.chapter.49D793FB0F6DEA88.quest11.description3}"
 			]
 			id: "088FC347D25DA766"
 			rewards: [{
@@ -198,7 +198,7 @@
 				item: "minecraft:egg"
 				type: "item"
 			}]
-			subtitle: "煮还是炒，我全都要"
+			subtitle: "{ftbquests.chapter.49D793FB0F6DEA88.quest11.subtitle}"
 			tasks: [
 				{
 					id: "1C9440678C9CA2B1"
@@ -217,14 +217,14 @@
 					type: "item"
 				}
 			]
-			title: "厨具"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest11.title}"
 			x: -11.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5FF76726F421E169"]
 			dependency_requirement: "one_completed"
-			description: ["灶炉与他的小伙伴们"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest12.description1}"]
 			icon: "farmersdelight:stove"
 			id: "42610453B716030A"
 			rewards: [{
@@ -232,7 +232,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "灶之魔神"
+			subtitle: "{ftbquests.chapter.49D793FB0F6DEA88.quest12.subtitle}"
 			tasks: [
 				{
 					id: "041FFAF4A1D6FA88"
@@ -346,12 +346,12 @@
 				item: "minecraft:beef"
 				type: "item"
 			}]
-			title: "肉类"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest14.title}"
 			x: -8.0d
 			y: 6.5d
 		}
 		{
-			description: ["一天一苹果，医生远离我"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest15.description1}"]
 			id: "3470C0EF279C0D37"
 			rewards: [{
 				id: "7F7E2B0ADE3D32BE"
@@ -367,7 +367,7 @@
 			y: 6.5d
 		}
 		{
-			description: ["吃了可能奔周会发光"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest16.description1}"]
 			id: "724C2186E5B982B9"
 			rewards: [{
 				id: "7AEC4DE2A575BC51"
@@ -398,7 +398,7 @@
 			y: 12.5d
 		}
 		{
-			description: ["这瓜保熟"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest18.description1}"]
 			id: "33E7B052CACE94D3"
 			rewards: [{
 				id: "671151D2487D5D76"
@@ -414,7 +414,7 @@
 			y: 6.5d
 		}
 		{
-			description: ["这是什么啊？"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest19.description1}"]
 			id: "28C2F555FF097483"
 			rewards: [{
 				id: "6C0C44A52F587E6C"
@@ -430,7 +430,7 @@
 			y: 9.5d
 		}
 		{
-			description: ["胡萝北！"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest20.description1}"]
 			id: "3FC978E72773645C"
 			rewards: [{
 				id: "62D6C39084C415A7"
@@ -446,7 +446,7 @@
 			y: 8.0d
 		}
 		{
-			description: ["刀哥"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest21.description1}"]
 			id: "50223CD7DA371A27"
 			rewards: [{
 				id: "585FB956AA849365"
@@ -492,7 +492,7 @@
 			y: 9.5d
 		}
 		{
-			description: ["食用要小心"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest24.description1}"]
 			id: "6871DBF86F2B1F49"
 			rewards: [{
 				id: "10698C5E5FF49B42"
@@ -1966,7 +1966,7 @@
 			y: 6.5d
 		}
 		{
-			description: ["每种果酱都可以制作果酱面包"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest121.description1}"]
 			id: "4BBA1046355C360B"
 			rewards: [{
 				id: "3E470DF905CC2239"
@@ -2096,12 +2096,12 @@
 					type: "item"
 				}
 			]
-			title: "果酱与面包"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest121.title}"
 			x: -7.0d
 			y: -15.5d
 		}
 		{
-			description: ["果酱都做了果冻也顺便做了吧"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest122.description1}"]
 			id: "0FE09B18DBBF4D6D"
 			rewards: [{
 				id: "09A598836E3B89E3"
@@ -2220,7 +2220,7 @@
 					type: "item"
 				}
 			]
-			title: "果冻"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest122.title}"
 			x: -6.0d
 			y: -15.5d
 		}
@@ -2233,7 +2233,7 @@
 			}]
 			tasks: [{
 				id: "2583DB3F44784626"
-				title: "小挑战"
+				title: "{ftbquests.chapter.49D793FB0F6DEA88.quest123.task.title1}"
 				type: "checkmark"
 			}]
 			x: -9.0d
@@ -2328,7 +2328,7 @@
 					type: "item"
 				}
 			]
-			title: "果汁好喝"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest124.title}"
 			x: -8.0d
 			y: -15.5d
 		}
@@ -3501,7 +3501,7 @@
 					type: "item"
 				}
 			]
-			title: "过个节日吧"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest199.title}"
 			x: -5.0d
 			y: -15.5d
 		}
@@ -5069,7 +5069,7 @@
 					type: "item"
 				}
 			]
-			title: "瓶瓶"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest301.title}"
 			x: -4.0d
 			y: -15.5d
 		}
@@ -5152,23 +5152,23 @@
 					type: "item"
 				}
 			]
-			title: "罐罐"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest304.title}"
 			x: -3.0d
 			y: -15.5d
 		}
 		{
-			description: ["在整合包中，每个作物都有自己的生长季节，可以通过日历来查看。"]
+			description: ["{ftbquests.chapter.49D793FB0F6DEA88.quest305.description1}"]
 			icon: "sereneseasons:calendar"
 			id: "637719A55F1213D1"
 			tasks: [{
 				id: "7E6298DDB9A76615"
-				title: "注意"
+				title: "{ftbquests.chapter.49D793FB0F6DEA88.quest305.task.title1}"
 				type: "checkmark"
 			}]
-			title: "你需要一个日历"
+			title: "{ftbquests.chapter.49D793FB0F6DEA88.quest305.title}"
 			x: -4.0d
 			y: -1.0d
 		}
 	]
-	title: "我吃吃吃"
+	title: "{ftbquests.chapter.49D793FB0F6DEA88.title}"
 }

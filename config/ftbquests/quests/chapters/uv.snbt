@@ -87,7 +87,7 @@
 			id: "674C9A48676C71F5"
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "很好的发电机,只消耗超能燃料"
+			subtitle: "{ftbquests.chapter.uv.quest5.subtitle}"
 			tasks: [{
 				id: "45B10996F96EC19D"
 				item: "ctnhcore:naq_reactor_mk1"
@@ -165,7 +165,7 @@
 			id: "7A71908F8897D99E"
 			tasks: [{
 				id: "474F6A8335C66DF3"
-				title: "老生常谈，建议做一个"
+				title: "{ftbquests.chapter.uv.quest11.task.title1}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -177,10 +177,10 @@
 				"619F43DB0B07651E"
 			]
 			id: "628F4826B5F6AC41"
-			subtitle: "亦或是催化剂？"
+			subtitle: "{ftbquests.chapter.uv.quest12.subtitle}"
 			tasks: [{
 				id: "3BBE2FA962B1B2F2"
-				title: "更好的等离子燃料"
+				title: "{ftbquests.chapter.uv.quest12.task.title1}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -304,7 +304,7 @@
 		{
 			dependencies: ["4E5E3B834FAA8C67"]
 			id: "62C818606820AC3A"
-			subtitle: "UHV阶段可以处理"
+			subtitle: "{ftbquests.chapter.uv.quest23.subtitle}"
 			tasks: [{
 				id: "65A07E985B66B699"
 				item: "gtceu:dr_bedrock_gas_re_bucket"
@@ -314,5 +314,5 @@
 			y: -13.0d
 		}
 	]
-	title: "&3UV&r时期"
+	title: "{ftbquests.chapter.uv.title}"
 }
