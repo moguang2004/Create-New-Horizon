@@ -17,6 +17,6 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "欢迎来到CTNH"
+	title: "{ftbquests.chapter.title}"
 	version: 13
 }

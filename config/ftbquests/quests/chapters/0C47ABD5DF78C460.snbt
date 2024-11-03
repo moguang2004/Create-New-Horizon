@@ -14,7 +14,7 @@
 				"0425D0789C2837CD"
 			]
 			id: "5BA988147AECFFF2"
-			subtitle: "MV电路（手搓版）"
+			subtitle: "{ftbquests.chapter.0C47ABD5DF78C460.quest1.subtitle}"
 			tasks: [{
 				id: "73C37104C3738157"
 				item: "gtceu:good_electronic_circuit"
@@ -101,10 +101,10 @@
 				"235D3A9B30896B51"
 			]
 			id: "634FBA16A992503B"
-			subtitle: "尝试利用存储总线和抽屉做一个简单存储系统吧"
+			subtitle: "{ftbquests.chapter.0C47ABD5DF78C460.quest8.subtitle}"
 			tasks: [{
 				id: "60059BE037BB4CEE"
-				title: "基础存储"
+				title: "{ftbquests.chapter.0C47ABD5DF78C460.quest8.task.title1}"
 				type: "checkmark"
 			}]
 			x: 5.5d
@@ -197,7 +197,7 @@
 			dependencies: ["753C05B19EFE934A"]
 			hide_dependency_lines: true
 			id: "5DB0EF9FCAE148D0"
-			subtitle: "用于工作台的合成"
+			subtitle: "{ftbquests.chapter.0C47ABD5DF78C460.quest16.subtitle}"
 			tasks: [{
 				id: "4EFAE16CE46DE264"
 				item: "ae2:molecular_assembler"
@@ -435,5 +435,5 @@
 			y: 8.0d
 		}
 	]
-	title: "应用能源"
+	title: "{ftbquests.chapter.0C47ABD5DF78C460.title}"
 }

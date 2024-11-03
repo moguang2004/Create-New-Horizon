@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "7310599945A8C3F8"
-			subtitle: "机械动力的好帮手"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest1.subtitle}"
 			tasks: [{
 				id: "5C86A90F9A053934"
 				item: "create:brown_toolbox"
@@ -57,7 +57,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "全家福"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest2.subtitle}"
 			tasks: [{
 				id: "0B7E013844217853"
 				item: {
@@ -98,7 +98,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "史诗级的存储工具"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest4.subtitle}"
 			tasks: [{
 				id: "61EC645BB32B1B3C"
 				item: "functionalstorage:oak_1"
@@ -119,7 +119,7 @@
 		}
 		{
 			id: "4D1AEA264246FA2B"
-			subtitle: "慎用，但是真好用"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest6.subtitle}"
 			tasks: [{
 				id: "2EC5D75B93A25C5C"
 				item: "functionalstorage:fluid_1"
@@ -130,7 +130,7 @@
 		}
 		{
 			id: "02266C52DC0FAF30"
-			subtitle: "是个好东西"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest7.subtitle}"
 			tasks: [{
 				id: "6179386C5B4BFD71"
 				item: "gtceu:prospector.hv"
@@ -141,7 +141,7 @@
 		}
 		{
 			id: "3B338C89D309368D"
-			subtitle: "怕你不知道"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest8.subtitle}"
 			tasks: [{
 				id: "1FC1D6CFB981C46C"
 				item: "botania:flower_bag"
@@ -152,7 +152,7 @@
 		}
 		{
 			id: "67E66A346ABEC31F"
-			subtitle: "丐版合成终端"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest9.subtitle}"
 			tasks: [{
 				id: "1560CEE45107FEE1"
 				item: "crafting_on_a_stick:crafting_table"
@@ -163,7 +163,7 @@
 		}
 		{
 			id: "504BA82ADEF39214"
-			subtitle: "神器"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest10.subtitle}"
 			tasks: [{
 				id: "44CBB437F443384B"
 				item: "botania:magnet_ring"
@@ -174,7 +174,7 @@
 		}
 		{
 			id: "48D15253D73D7DF9"
-			subtitle: "自定义！"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest11.subtitle}"
 			tasks: [{
 				id: "143C4136E7627814"
 				item: "functionalstorage:framed_1"
@@ -185,7 +185,7 @@
 		}
 		{
 			id: "010893752981D290"
-			subtitle: "提升游戏体验的一大利器"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest12.subtitle}"
 			tasks: [{
 				id: "6778C5AF001D6E14"
 				item: {
@@ -205,7 +205,7 @@
 		}
 		{
 			id: "1D6900B1EF6B2D74"
-			subtitle: "和平？伪和平？"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest13.subtitle}"
 			tasks: [{
 				id: "5A0650214CD831DE"
 				item: "torchmaster:megatorch"
@@ -216,7 +216,7 @@
 		}
 		{
 			id: "3A2655C3FED42A7F"
-			subtitle: "用起来很难受，但是。。。"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest14.subtitle}"
 			tasks: [{
 				id: "665237487F74FCEF"
 				item: {
@@ -236,10 +236,10 @@
 		}
 		{
 			id: "52F49800A4AC4497"
-			subtitle: "这个模组添加了许多有意思的饰品"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest15.subtitle}"
 			tasks: [{
 				id: "6C6E2BB3058E8CF8"
-				title: "Artifacts"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest15.task.title1}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -248,7 +248,7 @@
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "0CF1BA78424ABB95"
-			subtitle: "吃喝不愁"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest16.subtitle}"
 			tasks: [{
 				id: "1168E28614CD1CFD"
 				item: "artifacts:eternal_steak"
@@ -260,7 +260,7 @@
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "1D90541157679351"
-			subtitle: "建筑党狂喜"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest17.subtitle}"
 			tasks: [{
 				id: "300082A534DE1410"
 				item: "artifacts:digging_claws"
@@ -272,7 +272,7 @@
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "5A47F68ACCA13512"
-			subtitle: "泰拉，启动！"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest18.subtitle}"
 			tasks: [{
 				id: "44A31FCD91F90EE0"
 				item: "artifacts:cloud_in_a_bottle"
@@ -284,7 +284,7 @@
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "2D26AF9CD120CC20"
-			subtitle: "伟大，无需多言"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest19.subtitle}"
 			tasks: [{
 				id: "6D62C8FC30E194F1"
 				item: "artifacts:kitty_slippers"
@@ -296,7 +296,7 @@
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "0A8799058C0D5787"
-			subtitle: "赶路必备"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest20.subtitle}"
 			tasks: [{
 				id: "262C40F1D8F49568"
 				item: "artifacts:running_shoes"
@@ -308,7 +308,7 @@
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "31A28C5AB0C2641D"
-			subtitle: "你也是钓鱼佬？"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest21.subtitle}"
 			tasks: [{
 				id: "7F26943F8D8DED74"
 				item: "artifacts:anglers_hat"
@@ -320,7 +320,7 @@
 		{
 			dependencies: ["52F49800A4AC4497"]
 			id: "521C7F3709BC1A92"
-			subtitle: "颜色不错，幸运的感觉"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest22.subtitle}"
 			tasks: [
 				{
 					id: "63A260C7CFCB57AC"
@@ -353,7 +353,7 @@
 			dependencies: ["1B4FFE71B4C66E14"]
 			icon: "minecraft:iron_ingot"
 			id: "3573A946D77EBA28"
-			subtitle: "整合包里最没用的一些东西"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest24.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -368,7 +368,7 @@
 					type: "item"
 				}
 			]
-			title: "矿物锭"
+			title: "{ftbquests.chapter.62876F01654DC6E9.quest24.title}"
 			x: -0.5d
 			y: 7.0d
 		}
@@ -387,9 +387,9 @@
 				"3573A946D77EBA28"
 				"7CC747DEA87811DA"
 			]
-			description: ["这是你前期可以制作的基础工具，其中研钵可以用来研磨一些基础的粉末，锤的作用目前只能用来使机器静音（合成时请使用格雷科技的锤）"]
+			description: ["{ftbquests.chapter.62876F01654DC6E9.quest26.description1}"]
 			id: "4E487D122BC2C2F4"
-			subtitle: "基础工具"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest26.subtitle}"
 			tasks: [
 				{
 					id: "2D087D484E9C50E3"
@@ -434,14 +434,14 @@
 		{
 			dependencies: ["1EE2CF3221C467D7"]
 			description: [
-				"锉用来生产杆。"
-				"螺丝刀用来生产螺丝，同时也可以调整机器的输入输出。"
-				"扳手是用途最广的机器，可以旋转机器调整输入输出口，还可以用来合成。"
-				"剪线钳用来处理线缆之间的连接。"
-				"锯子可以砍树，也可以用来参与合成。"
+				"{ftbquests.chapter.62876F01654DC6E9.quest27.description1}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest27.description2}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest27.description3}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest27.description4}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest27.description5}"
 			]
 			id: "4BA3B5C8E5A96E51"
-			subtitle: "进阶工具"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest27.subtitle}"
 			tasks: [
 				{
 					id: "42D8F532F8F1A4AD"
@@ -543,11 +543,11 @@
 		{
 			dependencies: ["1E7D3578400F9AE7"]
 			description: [
-				"可以用来控制机器的运行与停止。"
-				"&4（当你全家机器跳电的时候就知道怎么用了）&r"
+				"{ftbquests.chapter.62876F01654DC6E9.quest28.description1}"
+				"{ftbquests.chapter.62876F01654DC6E9.quest28.description2}"
 			]
 			id: "77DF7C0A366D69B4"
-			subtitle: "最有用的一集"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest28.subtitle}"
 			tasks: [{
 				id: "40FEFBAD0C7D0514"
 				item: {
@@ -570,7 +570,7 @@
 		}
 		{
 			id: "079E580DEBE59896"
-			subtitle: "挖矿的好帮手"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest29.subtitle}"
 			tasks: [{
 				id: "5FCACE65A799400B"
 				item: {
@@ -602,7 +602,7 @@
 		}
 		{
 			id: "01FF1DC87906AE75"
-			subtitle: "采矿锤升级版"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest30.subtitle}"
 			tasks: [{
 				id: "302453A94A2C608E"
 				item: {
@@ -636,7 +636,7 @@
 		}
 		{
 			id: "0A86E1B3B2AF9DEA"
-			subtitle: "一用一辈子"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest31.subtitle}"
 			tasks: [{
 				id: "5033C8A80BEFDE1F"
 				item: {
@@ -665,7 +665,7 @@
 		}
 		{
 			id: "74578688D5974E8A"
-			subtitle: "没有这东西你活得下去？"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest32.subtitle}"
 			tasks: [{
 				id: "3ABBFEF5ACC587F5"
 				item: "create:goggles"
@@ -676,7 +676,7 @@
 		}
 		{
 			id: "01345F4AD0D11E47"
-			subtitle: "代弓！"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest33.subtitle}"
 			tasks: [{
 				id: "6E8FFEA558CE97F6"
 				item: {
@@ -704,16 +704,16 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Any #minecraft:logs"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest34.task.title1}"
 				type: "item"
 			}]
-			title: "要致富，先撸树"
+			title: "{ftbquests.chapter.62876F01654DC6E9.quest34.title}"
 			x: 3.5d
 			y: 7.0d
 		}
 		{
 			id: "087D0FA645D19AC2"
-			subtitle: "可以存储你不用的时间（别给gt机器加速）"
+			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest35.subtitle}"
 			tasks: [{
 				id: "3AEE005942EA6B63"
 				item: {
@@ -727,5 +727,5 @@
 			y: -0.5d
 		}
 	]
-	title: "实用小工具"
+	title: "{ftbquests.chapter.62876F01654DC6E9.title}"
 }

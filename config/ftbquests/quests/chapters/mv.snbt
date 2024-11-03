@@ -50,7 +50,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "一种可持续性的产盐设备"
+			subtitle: "{ftbquests.chapter.mv.quest2.subtitle}"
 			tasks: [
 				{
 					id: "16548D422CB417B8"
@@ -136,7 +136,7 @@
 		{
 			dependencies: ["577C0EA40EC89B14"]
 			id: "0C12A7FDA05C7439"
-			subtitle: "重要的化工原料"
+			subtitle: "{ftbquests.chapter.mv.quest9.subtitle}"
 			tasks: [
 				{
 					id: "4F0D06BA40466127"
@@ -149,7 +149,7 @@
 					type: "item"
 				}
 			]
-			title: "氯碱产物"
+			title: "{ftbquests.chapter.mv.quest9.title}"
 			x: -2.5d
 			y: -10.0d
 		}
@@ -182,7 +182,7 @@
 		{
 			dependencies: ["18053F8D68450C52"]
 			id: "1ED352B272339266"
-			subtitle: "将来有大用处"
+			subtitle: "{ftbquests.chapter.mv.quest12.subtitle}"
 			tasks: [{
 				id: "4057EBBFB0E3EF5F"
 				item: "gtceu:coal_tar_bucket"
@@ -198,7 +198,7 @@
 				"5F393B970A71BEF2"
 			]
 			dependency_requirement: "one_completed"
-			description: ["乙烯的生产可以来源于生物和石油化工，在本整合包中增强了生物产线，不妨可以尝试一下"]
+			description: ["{ftbquests.chapter.mv.quest13.description1}"]
 			id: "5A460876CA0EC216"
 			tasks: [{
 				id: "54DEEDC89FC0497E"
@@ -233,7 +233,7 @@
 		{
 			dependencies: ["19869FD9D4BCCB9F"]
 			id: "0B90121BB71598DD"
-			subtitle: "此后重要的电路板原料"
+			subtitle: "{ftbquests.chapter.mv.quest16.subtitle}"
 			tasks: [{
 				id: "4252FAA765FCEC15"
 				item: "gtceu:silicon_boule"
@@ -402,7 +402,7 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "36924FA5E1528AB2"
-				title: "前往末地"
+				title: "{ftbquests.chapter.mv.quest27.task.title1}"
 				type: "dimension"
 			}]
 			x: 14.5d
@@ -436,7 +436,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "HV时代的重要材料"
+			subtitle: "{ftbquests.chapter.mv.quest29.subtitle}"
 			tasks: [{
 				id: "19B8A8E266098D32"
 				item: "gtceu:stainless_steel_ingot"
@@ -504,7 +504,7 @@
 		}
 		{
 			id: "61F3A1C4B771E811"
-			subtitle: "硫粉处理后的产物"
+			subtitle: "{ftbquests.chapter.mv.quest34.subtitle}"
 			tasks: [{
 				id: "74B53DE6E60BEE3B"
 				item: "gtceu:sulfuric_acid_bucket"
@@ -517,7 +517,7 @@
 			dependencies: ["1FBD86C0CF681427"]
 			hide_dependency_lines: true
 			id: "1A760D451E9D23B0"
-			subtitle: "你也可以合成动力版的搅拌机"
+			subtitle: "{ftbquests.chapter.mv.quest35.subtitle}"
 			tasks: [{
 				id: "71D1D2D5063F35CB"
 				item: "gtceu:mv_mixer"
@@ -570,7 +570,7 @@
 				"43C8834337DEBC97"
 			]
 			dependency_requirement: "one_completed"
-			description: ["你也可以看看红宝石的几种副产"]
+			description: ["{ftbquests.chapter.mv.quest39.description1}"]
 			id: "291D02E808F55209"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -578,7 +578,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "铬粉需要经过几步处理，请仔细查阅jei"
+			subtitle: "{ftbquests.chapter.mv.quest39.subtitle}"
 			tasks: [{
 				id: "439069F6CBE169E1"
 				item: "gtceu:chromium_dust"
@@ -644,17 +644,17 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "115FCE926E206B92"
-				title: "访问天境"
+				title: "{ftbquests.chapter.mv.quest43.task.title1}"
 				type: "dimension"
 			}]
-			title: "访问天境"
+			title: "{ftbquests.chapter.mv.quest43.title}"
 			x: 20.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["699743A94DF7E0B8"]
 			id: "689EA8B026306D08"
-			subtitle: "ps:天境空气还挺致命的（"
+			subtitle: "{ftbquests.chapter.mv.quest44.subtitle}"
 			tasks: [{
 				id: "7069C294EA4BCFD9"
 				item: "gtceu:fluorine_bucket"
@@ -666,10 +666,10 @@
 		{
 			dependencies: ["2C6FBF2A814BB60D"]
 			id: "4616A64D47AFBFF9"
-			subtitle: "赶紧用起来吧，不然你会很难受的"
+			subtitle: "{ftbquests.chapter.mv.quest45.subtitle}"
 			tasks: [{
 				id: "0F7E19A36C1CE5FC"
-				title: "AE2"
+				title: "{ftbquests.chapter.mv.quest45.task.title1}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -734,7 +734,7 @@
 				"05DE915B25451CF1"
 			]
 			id: "707A41CB0EED30D3"
-			subtitle: "升级你的线圈！"
+			subtitle: "{ftbquests.chapter.mv.quest51.subtitle}"
 			tasks: [{
 				id: "6F1536BDC8E4DB42"
 				item: "gtceu:kanthal_ingot"
@@ -886,7 +886,7 @@
 		{
 			dependencies: ["18053F8D68450C52"]
 			id: "141227BD0FDD68EE"
-			subtitle: "它也有大作用"
+			subtitle: "{ftbquests.chapter.mv.quest61.subtitle}"
 			tasks: [{
 				id: "761640BF02698B68"
 				item: "gtceu:coal_gas_bucket"
@@ -909,7 +909,7 @@
 		{
 			dependencies: ["477E8A2397016E0B"]
 			id: "65C365115468BF4D"
-			subtitle: "HV超导"
+			subtitle: "{ftbquests.chapter.mv.quest63.subtitle}"
 			tasks: [{
 				id: "5819C06388775C03"
 				item: "gtceu:vibrant_alloy_single_wire"
@@ -1047,5 +1047,5 @@
 			y: 0.0d
 		}
 	]
-	title: "&bMV&r时期"
+	title: "{ftbquests.chapter.mv.title}"
 }

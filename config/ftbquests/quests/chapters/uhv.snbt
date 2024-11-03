@@ -26,7 +26,7 @@
 			id: "6D8963683034165D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "恭喜，你玩到了现在的最终阶段"
+			subtitle: "{ftbquests.chapter.uhv.quest1.subtitle}"
 			tasks: [{
 				id: "3BBDFB9C77C2C530"
 				item: "gtceu:uhv_machine_hull"
@@ -130,7 +130,7 @@
 			id: "0921AD39C8509CE9"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "不是菜鸟证明？"
+			subtitle: "{ftbquests.chapter.uhv.quest9.subtitle}"
 			tasks: [{
 				id: "2DBAEE5289A003FC"
 				item: "gtceu:my_infinity_dust"
@@ -140,5 +140,5 @@
 			y: -13.0d
 		}
 	]
-	title: "&4UHV&r时期"
+	title: "{ftbquests.chapter.uhv.title}"
 }
