@@ -27,7 +27,15 @@
 				"{ftbquests.chapter.681E3140690307AA.quest2.description1}"
 				"{ftbquests.chapter.681E3140690307AA.quest2.description2}"
 			]
-			icon: "cold_sweat:thermometer"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						temperature: 24.1f
+					}
+				}
+				id: "legendarysurvivaloverhaul:thermometer"
+			}
 			id: "5C2320A3B3E10E11"
 			rewards: [{
 				id: "118E14A8F73D99ED"
@@ -46,6 +54,7 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest2.task.title1}"
 				type: "checkmark"
 			}]
+			title: "传说生存"
 			x: -9.0d
 			y: 0.5d
 		}
