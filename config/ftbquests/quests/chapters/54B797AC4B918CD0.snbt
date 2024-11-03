@@ -10,7 +10,7 @@
 	quests: [
 		{
 			id: "30E1EA70F0313CC7"
-			subtitle: "装水之后可以保暖用"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest1.subtitle}"
 			tasks: [{
 				id: "05207F160B76BE39"
 				item: "cold_sweat:waterskin"
@@ -21,7 +21,7 @@
 		}
 		{
 			id: "5848E5BCFC82F1F2"
-			subtitle: "游戏的早期也许难以制作，但这一定是你生存的重要法宝"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest2.subtitle}"
 			tasks: [{
 				id: "0CDA5D72F17B2957"
 				item: "cold_sweat:thermometer"
@@ -32,33 +32,33 @@
 		}
 		{
 			description: [
-				"    冷汗模组中，有两个很重要的概念，体温和室温（环境温度），其中室温在正常游戏难度下是&a不可见的&r，除非调至和平模式或者拥有温度计，而&a体温可以在经验条上方的状态栏中观察得到&r。正常情况下，体温会维持在正常范围内，一旦环境过热或者过冷，状态栏上面的小人周围就会显示出来，而保持过热或过冷状态太久，就会导致小人的颜色逐渐变红（蓝），当小人开始颤抖时，往往会伴随很多其他现象，如&4视线模糊，走不动路&r等等，此时如果还不及时回到正常温度下，就会&4迅速开始掉血直至死亡&r。"
-				"    每次复活之后，会有两分钟的恩典期，在此时间内不会过热或者过冷。"
+				"{ftbquests.chapter.54B797AC4B918CD0.quest3.description1}"
+				"{ftbquests.chapter.54B797AC4B918CD0.quest3.description2}"
 			]
 			id: "47FC645F7F4E8D7D"
 			tasks: [{
 				id: "50C6D68E12DE9E71"
-				title: "体温和环境温度"
+				title: "{ftbquests.chapter.54B797AC4B918CD0.quest3.task.title1}"
 				type: "checkmark"
 			}]
 			x: -5.5d
 			y: -1.5d
 		}
 		{
-			description: ["    防寒系数和防热系数是冷汗模组中的两种属性，它们都是以1为单位，当防寒系数达到1时，&a即使室温低于最适生存温度，体温也不会下降&r（若小于1，则只会减慢体温下降的速度）。同理，防热系数也是如此。"]
+			description: ["{ftbquests.chapter.54B797AC4B918CD0.quest4.description1}"]
 			id: "09C0895D851BDF0A"
 			tasks: [{
 				id: "16480E07CC16C963"
-				title: "防寒系数和防热系数"
+				title: "{ftbquests.chapter.54B797AC4B918CD0.quest4.task.title1}"
 				type: "checkmark"
 			}]
 			x: -5.5d
 			y: 1.0d
 		}
 		{
-			description: ["除此之外的抗寒材料还有羊毛，皮革，暮色森林的雪怪皮革等"]
+			description: ["{ftbquests.chapter.54B797AC4B918CD0.quest5.description1}"]
 			id: "582F848D10F2C757"
-			subtitle: "早期的防寒手段"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest5.subtitle}"
 			tasks: [
 				{
 					id: "5A9B88CE09D7E6C4"
@@ -109,11 +109,11 @@
 			y: -1.5d
 		}
 		{
-			description: ["可以观察到，部分护甲或者材料有着一个独特的属性，其中&b蓝色的条&r表示装备的抗寒属性，会减缓体温降低的速度，&c红色的条&r表示抗热属性，会减缓体温升高的速度，&5紫色的条&r表示抗寒抗热属性，同时减缓体温下降和上升，但是效果不如正常抗寒或者抗热的属性，&a绿色的条&r是变色龙皮独特的性质，在高温情况下，装备会逐渐提升抗热属性，在低温情况下，则会逐渐提升抗寒属性。而想要把材料的属性添加到装备上，则需要缝纫台的作用。"]
+			description: ["{ftbquests.chapter.54B797AC4B918CD0.quest6.description1}"]
 			id: "0488C343AC722B56"
 			tasks: [{
 				id: "4532A672E9654CE7"
-				title: "装备抗寒（热）"
+				title: "{ftbquests.chapter.54B797AC4B918CD0.quest6.task.title1}"
 				type: "checkmark"
 			}]
 			x: -5.5d
@@ -121,7 +121,7 @@
 		}
 		{
 			id: "2A1F9DB01B210648"
-			subtitle: "用剪刀可以把材料移除"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest7.subtitle}"
 			tasks: [{
 				id: "7F7B87DA068D8643"
 				item: "cold_sweat:sewing_table"
@@ -143,7 +143,7 @@
 		{
 			dependencies: ["30E1EA70F0313CC7"]
 			id: "3DD8F00ED091D46B"
-			subtitle: "烧水用"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest9.subtitle}"
 			tasks: [{
 				id: "2F71BC686DDA07CC"
 				item: "cold_sweat:boiler"
@@ -155,7 +155,7 @@
 		{
 			dependencies: ["30E1EA70F0313CC7"]
 			id: "0C549AE9E9C29CCD"
-			subtitle: "冻水用"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest10.subtitle}"
 			tasks: [{
 				id: "55D70C08DF0E6E83"
 				item: "cold_sweat:icebox"
@@ -167,7 +167,7 @@
 		{
 			dependencies: ["4FAA88CA15F02159"]
 			id: "0EC80C606A67D9EB"
-			subtitle: "下界探险必备"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest11.subtitle}"
 			tasks: [{
 				id: "7239B06C19159AFD"
 				item: {
@@ -203,7 +203,7 @@
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "6D752DF49BC24719"
-				title: "访问下界"
+				title: "{ftbquests.chapter.54B797AC4B918CD0.quest13.task.title1}"
 				type: "dimension"
 			}]
 			x: 8.0d
@@ -211,7 +211,7 @@
 		}
 		{
 			id: "2138C6782104528F"
-			subtitle: "可以在一个范围内创造出合适的温度"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest14.subtitle}"
 			tasks: [{
 				id: "77BDD8ECB236F2F6"
 				item: "cold_sweat:hearth"
@@ -232,7 +232,7 @@
 		}
 		{
 			id: "03AEB26BDE2DBF3B"
-			subtitle: "最终杀器"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest16.subtitle}"
 			tasks: [{
 				id: "1453A46534C9C4E6"
 				item: {
@@ -259,10 +259,10 @@
 				type: "command"
 			}]
 			shape: "gear"
-			subtitle: "如果你实在待不下去了......"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest17.subtitle}"
 			tasks: [{
 				id: "59A3F94D271FD2AF"
-				title: "跳至春天"
+				title: "{ftbquests.chapter.54B797AC4B918CD0.quest17.task.title1}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -280,10 +280,10 @@
 				type: "command"
 			}]
 			shape: "gear"
-			subtitle: "如果你实在待不下去了......"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest18.subtitle}"
 			tasks: [{
 				id: "434DE86227485E57"
-				title: "跳至夏天"
+				title: "{ftbquests.chapter.54B797AC4B918CD0.quest18.task.title1}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -301,10 +301,10 @@
 				type: "command"
 			}]
 			shape: "gear"
-			subtitle: "如果你实在待不下去了......"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest19.subtitle}"
 			tasks: [{
 				id: "765812B8F8D59766"
-				title: "跳至秋天"
+				title: "{ftbquests.chapter.54B797AC4B918CD0.quest19.task.title1}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -322,26 +322,27 @@
 				type: "command"
 			}]
 			shape: "gear"
-			subtitle: "如果你实在待不下去了......"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest20.subtitle}"
 			tasks: [{
 				id: "0F8D556A99ED0738"
-				title: "跳至冬天"
+				title: "{ftbquests.chapter.54B797AC4B918CD0.quest20.task.title1}"
 				type: "checkmark"
 			}]
 			x: 3.0d
 			y: -5.5d
 		}
 		{
+			description: ["{ftbquests.chapter.54B797AC4B918CD0.quest21.description1}"]
 			id: "3C238FF110A851ED"
-			subtitle: "可能会导致一些小bug，不过如果实在太难受的话，follow your heart"
+			subtitle: "{ftbquests.chapter.54B797AC4B918CD0.quest21.subtitle}"
 			tasks: [{
 				id: "4EFD7BAE7063D6A2"
-				title: "季节跳跃慎用"
+				title: "{ftbquests.chapter.54B797AC4B918CD0.quest21.task.title1}"
 				type: "checkmark"
 			}]
 			x: 1.5d
 			y: -4.5d
 		}
 	]
-	title: "冷汗"
+	title: "{ftbquests.chapter.54B797AC4B918CD0.title}"
 }

@@ -5,16 +5,16 @@
 	enableFpsReducer = true
 	#Waiting time(sec) before reducing the FPS. (0:OFF)
 	#Range: 0 ~ 86400
-	waitingTime = 0
+	waitingTime = 600
 	#Max frame rate when there is no operation for the specified period of time.
 	#Range: 1 ~ 60
 	idleFps = 10
 	#Max frame rate during GUI screen(Inventory/Menu) is opened. (0:OFF)
 	#Range: 0 ~ 60
-	guiScreenFps = 0
+	guiScreenFps = 60
 	#Max frame rate when the character is stationary. (0:OFF)
 	#Range: 0 ~ 260
-	noActFps = 0
+	noActFps = 60
 	#Detect movement of player position. (0:OFF, 1:Riding/Flying, 2:Always)
 	#Range: 0 ~ 2
 	detectMoving = 1
@@ -30,7 +30,7 @@
 	#Range: 0 ~ 100
 	suppressedVolume = 20
 	#Enable HUD.
-	hudEnabled = false
+	hudEnabled = true
 	#Reference position of HUD.
 	#Range: 1 ~ 8
 	hudReferencePos = 3
@@ -45,7 +45,7 @@
 	hudInfo = 4
 	#Profile (0:custom, 1:modest-eco, 2:eco, 3:cooling-low, 4:cooling-high)
 	#Range: 0 ~ 4
-	profile = 1
+	profile = 3
 
 #HUD offsets from reference positions at the screen edge.
 [hud_offset]

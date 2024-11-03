@@ -84,7 +84,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "5155AC0F564C7DA5"
-				title: "2级血之祭坛"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest5.task.title1}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -97,7 +97,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "43E044AE5E9EC789"
-				title: "3级血之祭坛"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest6.task.title1}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -113,7 +113,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "0CCA6628275004E2"
-				title: "4级血之祭坛"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest7.task.title1}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -129,7 +129,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "647C516FB78EF9CA"
-				title: "5级血之祭坛"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest8.task.title1}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -181,7 +181,7 @@
 			dependencies: ["33F3CD3FB3033DE3"]
 			description: [""]
 			id: "4ADCAEB3CD34CF1F"
-			subtitle: "你最好学学怎么自动化这玩意"
+			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest12.subtitle}"
 			tasks: [{
 				id: "65A1880075AC0EE7"
 				item: "bloodmagic:alchemytable"
@@ -503,7 +503,7 @@
 		}
 		{
 			dependencies: ["23347233C6B3121C"]
-			description: ["    要想获得饱满血命果，需要先种植血命果，并在血命果&2生长成熟的过程中让一个生物在其上方&r，这样就可以让血命果吸取生物的血液，从而成长为饱满血命果"]
+			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest41.description1}"]
 			id: "0CF5D8B837116811"
 			tasks: [{
 				id: "36564FC236803231"
@@ -583,16 +583,16 @@
 		}
 		{
 			dependencies: ["78C75CD9990F3C59"]
-			description: ["    这个仪式会生成一个前往另一个维度的传送门，在那个维度，你需要找到&a铁钥匙&r以开启周边的地牢（也可以自己制作），随后找到其中的&4血命果&r，那是建造下一级祭坛的&4关键物品&r。"]
+			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest48.description1}"]
 			icon: "bloodmagic:upgradetome"
 			id: "2E0983CC5E00B72D"
-			subtitle: " 前往恶魔的领域"
+			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest48.subtitle}"
 			tasks: [{
 				id: "36942910CD8A6BAE"
-				title: "隐缘之域"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest48.task.title1}"
 				type: "checkmark"
 			}]
-			title: "隐域之缘"
+			title: "{ftbquests.chapter.71282A84EFB2E6DD.quest48.title}"
 			x: 7.0d
 			y: 3.5d
 		}
@@ -611,25 +611,25 @@
 			dependencies: ["11B6FE0A5C38B474"]
 			icon: "bloodmagic:upgradetome"
 			id: "7F596517F8E1795A"
-			subtitle: "来自星星的你(不多说，开坠）"
+			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest50.subtitle}"
 			tasks: [{
 				id: "724ECC0E66F3958A"
-				title: "坠星位标"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest50.task.title1}"
 				type: "checkmark"
 			}]
-			title: "Mark of the Falling tower"
+			title: "{ftbquests.chapter.71282A84EFB2E6DD.quest50.title}"
 			x: 7.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
-			description: ["该仪式用于自动将催化剂使用在特定范围内的晶簇上，加速晶簇的生长（具体范围用仪式调整器查看和调整）"]
+			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest51.description1}"]
 			icon: "bloodmagic:upgradetome"
 			id: "48A9F36EEDFFD6A3"
-			subtitle: "不是你想象的那样"
+			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest51.subtitle}"
 			tasks: [{
 				id: "0CDC7E4FC8C829CF"
-				title: "孤魂集会"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest51.task.title1}"
 				type: "checkmark"
 			}]
 			x: 8.0d
@@ -637,13 +637,13 @@
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
-			description: ["该仪式用来自动碎裂范围内的多于一簇的恶魔晶簇"]
+			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest52.description1}"]
 			icon: "bloodmagic:upgradetome"
 			id: "4AD5A96E1B5C2BAD"
-			subtitle: "就是你想的那样"
+			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest52.subtitle}"
 			tasks: [{
 				id: "31E1AE59E53353A6"
-				title: "碎晶裂纹"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest52.task.title1}"
 				type: "checkmark"
 			}]
 			x: 8.0d
@@ -651,12 +651,12 @@
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
-			description: ["该仪式用于产生四种恶魔晶体变形，位于该仪式中心的恶魔结晶台上的原始恶魔晶簇生长到一定程度时，会自动向周围分裂出四种恶魔晶体变体"]
+			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest53.description1}"]
 			icon: "bloodmagic:upgradetome"
 			id: "4CAF15A55CACB620"
 			tasks: [{
 				id: "1C08019A45E961AE"
-				title: "结晶共鸣"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest53.task.title1}"
 				type: "checkmark"
 			}]
 			x: 9.0d
@@ -706,7 +706,7 @@
 			id: "25407232A00F2AF1"
 			tasks: [{
 				id: "4C3599D32045D55E"
-				title: "Pathway to the endless realm"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest57.task.title1}"
 				type: "checkmark"
 			}]
 			x: 7.0d
@@ -728,7 +728,7 @@
 			id: "644281CF6FC3F315"
 			tasks: [{
 				id: "36272F4E99C3CE66"
-				title: "2阶试剂"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest59.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -739,7 +739,7 @@
 			id: "3189BA8348AE4F06"
 			tasks: [{
 				id: "168B3332D0787EAA"
-				title: "3阶试剂"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest60.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -750,7 +750,7 @@
 			id: "702FDB7F8E805AAF"
 			tasks: [{
 				id: "58189D7341B24CD5"
-				title: "4阶试剂"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest61.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -895,9 +895,9 @@
 		}
 		{
 			dependencies: ["6D683CDE5D679C32"]
-			description: ["所有强化过后的符文都会产生原有符文的&4两倍效果&r，但这也意味着更加昂贵的材料"]
+			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest73.description1}"]
 			id: "6430BFEF00052C43"
-			subtitle: "强化版的符文"
+			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest73.subtitle}"
 			tasks: [{
 				id: "34A9AEA301847B4B"
 				item: "bloodmagic:speedrune2"
@@ -908,13 +908,13 @@
 		}
 		{
 			dependencies: ["42F7EB2A3B7E87B4"]
-			description: ["    在5级祭坛的基础上，继续向外延伸3格，向下一格，每一边共19个符文，角落是石砖柱，最顶端是虚空石，虚空石的高度要高于血之祭坛三格。"]
+			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest74.description1}"]
 			icon: "bloodmagic:altar"
 			id: "0379412BFDFE99FE"
 			size: 2.0d
 			tasks: [{
 				id: "1618820DC099898D"
-				title: "6级血之祭坛"
+				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest74.task.title1}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -947,7 +947,7 @@
 		}
 		{
 			id: "42F7EB2A3B7E87B4"
-			subtitle: "在末地的废弃城堡中"
+			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest77.subtitle}"
 			tasks: [{
 				id: "27699E7170426E7C"
 				item: "cataclysm:void_stone"
@@ -957,5 +957,5 @@
 			y: 14.0d
 		}
 	]
-	title: "血魔法"
+	title: "{ftbquests.chapter.71282A84EFB2E6DD.title}"
 }

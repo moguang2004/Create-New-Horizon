@@ -54,9 +54,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeModifier((machine, recipe, params, result) => {
             let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
             let parallel = 16
-            if (newrecipe.duration < 1) {
-                parallel = 16 / newrecipe.duration
-            }
             return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
         })
         .appearanceBlock(GCyMBlocks.CASING_HIGH_TEMPERATURE_SMELTING)
@@ -93,12 +90,10 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('crystallizer', 'multiblock', (holder) => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('crystallizer')
+        .recipeType('cvd')
         .recipeModifier((machine, recipe, params, result) => {
             let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
             let parallel = 16
-            if (newrecipe.duration < 1) {
-                parallel = 16 / newrecipe.duration
-            }
             return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
         })
         .appearanceBlock(GCyMBlocks.CASING_HIGH_TEMPERATURE_SMELTING)

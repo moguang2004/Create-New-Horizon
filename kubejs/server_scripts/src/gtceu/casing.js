@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
   let ctnh = event.recipes.gtceu
-  let material = ['mana_steel', 'terra_steel', 'elementium', 'alfsteel', 'osmiridium']
+  let material = ['mana_steel', 'terra_steel', 'elementium', 'alfsteel', 'osmiridium', 'iridium']
   material.forEach(m => {
     ctnh.assembler(m + '_casing')
       .itemInputs(['6x gtceu:' + m + '_plate', 'gtceu:' + m + '_frame'])
@@ -69,6 +69,60 @@ ServerEvents.recipes(event => {
     .itemInputs(['6x gtceu:hsss_plate', 'gtceu:tungsten_carbide_frame'])
     .circuit(6)
     .itemOutputs('2x gtceu:sturdy_machine_casing')
+    .EUt(16)
+    .duration(50)
+  event.shaped(
+    Item.of('ctnhcore:naquadah_casing_block', 2), [
+    "ABA",
+    "EDE",
+    "ACA"
+  ], {
+    A: 'gtceu:double_naquadah_plate',
+    B: '#forge:tools/hammers',
+    C: '#forge:tools/wrenches',
+    D: 'gtceu:duranium_frame',
+    E: 'gtceu:double_europium_plate'
+  })
+  ctnh.assembler('ctnhcore:naquadah_casing_block')
+    .itemInputs(['4x gtceu:double_naquadah_plate', '2x gtceu:double_europium_plate', 'gtceu:duranium_frame'])
+    .circuit(6)
+    .itemOutputs('2x ctnhcore:naquadah_casing_block')
+    .EUt(16)
+    .duration(50)
+  event.shaped(
+    Item.of('ctnhcore:naquadah_alloy_casing_block', 2), [
+    "ABA",
+    "EDE",
+    "ACA"
+  ], {
+    A: 'gtceu:double_naquadah_alloy_plate',
+    B: '#forge:tools/hammers',
+    C: '#forge:tools/wrenches',
+    D: 'gtceu:tritanium_frame',
+    E: 'gtceu:double_neutronium_plate'
+  })
+  ctnh.assembler('ctnhcore:naquadah_alloy_casing_block')
+    .itemInputs(['4x gtceu:double_naquadah_alloy_plate', '2x gtceu:double_neutronium_plate', 'gtceu:tritanium_frame'])
+    .circuit(6)
+    .itemOutputs('2x ctnhcore:naquadah_alloy_casing_block')
+    .EUt(16)
+    .duration(50)
+  event.shaped(
+    Item.of('ctnhcore:tungstencu_diamond_plating_casing', 2), [
+    "ABA",
+    "EDE",
+    "ACA"
+  ], {
+    E: 'gtceu:tungstencu_diamond_plating_plate',
+    B: '#forge:tools/hammers',
+    C: '#forge:tools/wrenches',
+    D: 'gtceu:tungstencu_diamond_plating_frame',
+    A: 'gtceu:dense_naquadah_alloy_plate'
+  })
+  ctnh.assembler('ctnhcore:tungstencu_diamond_plating_casing')
+    .itemInputs(['2x gtceu:tungstencu_diamond_plating_plate', '4x gtceu:dense_naquadah_alloy_plate', 'gtceu:tungstencu_diamond_plating_frame'])
+    .circuit(6)
+    .itemOutputs('2x ctnhcore:tungstencu_diamond_plating_casing')
     .EUt(16)
     .duration(50)
 })

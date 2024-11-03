@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
         .duration(480)
     //五氧化二铌处理 
     ctnh.electric_blast_furnace("niobium_dust")
-        .itemInputs("21x gtceu:niobium_oxide_dust", "5x gtceu:hematite_dust", "30x gtceu:aluminium_dust")
+        .itemInputs("21x gtceu:niobium_oxide_dust", "5x gtceu:hematite_dust", "12x gtceu:aluminium_dust")
         .itemOutputs("6x gtceu:niobium_dust", "2x gtceu:iron_dust", "30x gtceu:alumina_dust")
         .duration(840).EUt(480).blastFurnaceTemp(2500)
     //五氧化二钽处理

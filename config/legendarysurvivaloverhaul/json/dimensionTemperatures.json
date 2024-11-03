@@ -1,0 +1,17 @@
+{
+  "minecraft:overworld": {
+    "temperature": 20.0
+  },
+  "minecraft:the_nether": {
+    "temperature": 37.5
+  },
+  "minecraft:the_end": {
+    "temperature": 15.0
+  },
+  "twlightforest:twilight_forest": {
+    "temperature": 25.0
+  },
+  "aether:the_aether": {
+    "temperature": 2.5
+  }
+}

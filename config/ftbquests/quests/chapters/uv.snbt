@@ -6,7 +6,313 @@
 	icon: "gtceu:uv_machine_hull"
 	id: "4648FB3FBB9F74B3"
 	order_index: 7
-	quest_links: [ ]
-	quests: [ ]
-	title: "&3UV&r时期"
+	quest_links: [
+		{
+			id: "30A476A362D84487"
+			linked_quest: "7FD9B0E41358497D"
+			shape: "gear"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "1E89B8AB6D106F05"
+			linked_quest: "7F0C67AE534020B1"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "00B5D11AA16DE9D2"
+			linked_quest: "74E26D593C100718"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "056A00C408ADC615"
+			linked_quest: "7D527B8CCB41E418"
+			x: 4.0d
+			y: -5.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"7FD9B0E41358497D"
+				"2F0AFEF0F176A92F"
+			]
+			id: "38559FFEC45C6B03"
+			tasks: [{
+				id: "14ADC48FAE170E25"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			id: "2F0AFEF0F176A92F"
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "602F32A0018A2640"
+				item: "gtceu:yttrium_barium_cuprate_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38559FFEC45C6B03"]
+			id: "0C3AB83D2762EC3D"
+			tasks: [{
+				id: "182F2580D81C384D"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38559FFEC45C6B03"]
+			id: "4A1F708FDEEA50D2"
+			tasks: [{
+				id: "557D1FEA727BC42A"
+				item: "gtceu:uv_energy_output_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A1F708FDEEA50D2"]
+			id: "674C9A48676C71F5"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.uv.quest5.subtitle}"
+			tasks: [{
+				id: "45B10996F96EC19D"
+				item: "ctnhcore:naq_reactor_mk1"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0C3AB83D2762EC3D"
+				"7F0C67AE534020B1"
+				"74E26D593C100718"
+				"7D527B8CCB41E418"
+			]
+			id: "633B6EC62B49755E"
+			tasks: [{
+				id: "07D4BEA216765482"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"1833231DA6DC3D77"
+				"18E2A4593690B3D1"
+				"619F43DB0B07651E"
+				"7A71908F8897D99E"
+			]
+			id: "69967649B8FB901C"
+			tasks: [{
+				id: "49CE237B12E3E1C4"
+				item: "ctnhcore:uv_compressed_fusion_reactor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["633B6EC62B49755E"]
+			id: "619F43DB0B07651E"
+			tasks: [{
+				id: "3BABFD3517052E8F"
+				item: "gtceu:iron_plasma_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["633B6EC62B49755E"]
+			id: "1833231DA6DC3D77"
+			tasks: [{
+				id: "3F8FA4F5CAC512CA"
+				item: "gtceu:nickel_plasma_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["633B6EC62B49755E"]
+			id: "18E2A4593690B3D1"
+			tasks: [{
+				id: "30EE8C597E5C02CB"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.5d
+		}
+		{
+			id: "7A71908F8897D99E"
+			tasks: [{
+				id: "474F6A8335C66DF3"
+				title: "{ftbquests.chapter.uv.quest11.task.title1}"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"1833231DA6DC3D77"
+				"619F43DB0B07651E"
+			]
+			id: "628F4826B5F6AC41"
+			subtitle: "{ftbquests.chapter.uv.quest12.subtitle}"
+			tasks: [{
+				id: "3BBE2FA962B1B2F2"
+				title: "{ftbquests.chapter.uv.quest12.task.title1}"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			id: "04A3089CEEAE9986"
+			tasks: [{
+				id: "1D00BB5907DAA0E4"
+				item: "gtceu:bedrock_smoke_re_l_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -13.0d
+		}
+		{
+			id: "237F84ED2C5EF2EF"
+			tasks: [{
+				id: "5360029A6EE07FE0"
+				item: "gtceu:bedrock_smoke_re_m_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.5d
+		}
+		{
+			id: "04FD8D001617E691"
+			tasks: [{
+				id: "6E0F60CA942AE3D3"
+				item: "gtceu:bedrock_smoke_re_h_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["04A3089CEEAE9986"]
+			id: "2F9F236DB91E21EB"
+			tasks: [{
+				id: "59165C9CFE776A45"
+				item: "gtceu:nq_fuelmk1_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["237F84ED2C5EF2EF"]
+			id: "34F957A3E8E7D3FF"
+			tasks: [{
+				id: "360AFAE7891B1424"
+				item: "gtceu:nq_fuelmk2_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["04FD8D001617E691"]
+			id: "45A565804AFD4ABD"
+			tasks: [{
+				id: "25061AA1FB7F446E"
+				item: "gtceu:nq_fuelmk3_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"237F84ED2C5EF2EF"
+				"04A3089CEEAE9986"
+				"04FD8D001617E691"
+			]
+			id: "71CEB2AFBDDE7B31"
+			tasks: [{
+				id: "709E7379F28B1AB9"
+				item: "gtceu:ax_jiyanqi_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["71CEB2AFBDDE7B31"]
+			id: "0C8A3A38C8A69F95"
+			tasks: [{
+				id: "5C7AEB6CCAB8FBF8"
+				item: "gtceu:bedrock_gas_bucket"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"71CEB2AFBDDE7B31"
+				"4E5E3B834FAA8C67"
+			]
+			dependency_requirement: "one_completed"
+			id: "736613239A0FDD32"
+			tasks: [{
+				id: "7373079B4D3DB9E6"
+				item: "gtceu:radioactive_metals_mix_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0C8A3A38C8A69F95"]
+			id: "4E5E3B834FAA8C67"
+			tasks: [{
+				id: "698BB6EEFE70088E"
+				item: "gtceu:bedrock_gas_re_bucket"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4E5E3B834FAA8C67"]
+			id: "62C818606820AC3A"
+			subtitle: "{ftbquests.chapter.uv.quest23.subtitle}"
+			tasks: [{
+				id: "65A07E985B66B699"
+				item: "gtceu:dr_bedrock_gas_re_bucket"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -13.0d
+		}
+	]
+	title: "{ftbquests.chapter.uv.title}"
 }

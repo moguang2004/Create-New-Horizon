@@ -9,8 +9,8 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(200)
     //进一步除钒Al+3TiCl4---->AlCl3+3TiCl3
-    ctnh.chemical_reactor("titanium_VX")
-        .inputFluids("gtceu:titanium_tetrachloride_V 6000")//24B+18B+6B
+    ctnh.chemical_reactor("titanium_vx")
+        .inputFluids("gtceu:titanium_tetrachloride_v 6000")//24B+18B+6B
         .inputFluids("minecraft:water 9000")
         .itemInputs('2x gtceu:aluminium_dust')
         .itemOutputs('8x gtceu:aluminium_chloride_dust')//6B
@@ -20,12 +20,12 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(400)
     //合成含钒四氯化钛42B氯
-    ctnh.chemical_reactor("tiCl4")
+    ctnh.chemical_reactor("ticl4")
         .inputFluids("gtceu:chlorine 48000")
         .itemInputs("6x gtceu:rutile_dust")
         .itemInputs('12x gtceu:carbon_dust')
         .outputFluids("gtceu:carbon_monoxide 12000")
-        .outputFluids("gtceu:titanium_tetrachloride_V 6000")
+        .outputFluids("gtceu:titanium_tetrachloride_v 6000")
         .EUt(480)
         .duration(200)
     //高纯四氯化钛转变为钛锭

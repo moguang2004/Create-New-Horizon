@@ -1,0 +1,656 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "028AB66FF504A9BC"
+	group: "71414D2BDE140EDA"
+	icon: "gtceu:electric_blast_furnace"
+	id: "028AB66FF504A9BC"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "633A8CA9F2CAFBB0"
+			tasks: [{
+				id: "21A13DBF3A59A052"
+				item: "gtceu:primitive_pump"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "3AAAA8A7DD762F73"
+			tasks: [{
+				id: "7388631F0A002F7C"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "2ED184EBECD67C23"
+			tasks: [{
+				id: "33CC064F9511EF13"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B7439F730B988EF"]
+			id: "52FA231BBD1ACFA0"
+			tasks: [{
+				id: "3B496902707C7984"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "2D7E7F0FC6E871A5"
+			tasks: [{
+				id: "1568CC2D8F1BB306"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "32DEFCAAD5F6F98F"
+			tasks: [{
+				id: "600934D70632664D"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "23C46CE3A90B8F29"
+			tasks: [{
+				id: "1D5AC647848DA2CB"
+				item: "gtceu:steam_foundry"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "2D33488C6C9C7D53"
+			tasks: [{
+				id: "6B30AD1F7512CA4F"
+				item: "gtceu:steam_centrifuge"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "4C75833E79AE4584"
+			tasks: [{
+				id: "4BA62BE5BE263955"
+				item: "gtceu:steam_piston_hammer"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "40B4C8F0D46BC62B"
+			tasks: [{
+				id: "2AED95E064A46FDE"
+				item: "gtceu:steam_pressor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B7439F730B988EF"]
+			id: "0D046F778BBF92DF"
+			tasks: [{
+				id: "7744086787E769B7"
+				item: "gtceu:kinetic_steam_turbine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "144A09EC75B60D68"
+			tasks: [{
+				id: "0341C2EDA12C3D1A"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest12.task.title1}"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B7439F730B988EF"]
+			id: "416E003103BC807C"
+			tasks: [{
+				id: "45BB4FB08DC18E1E"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "1B7439F730B988EF"
+			tasks: [{
+				id: "4385F4CD3CE54571"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest14.task.title1}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B7439F730B988EF"]
+			id: "0724FC12031BCA34"
+			tasks: [{
+				id: "4423B177953A7E45"
+				item: "gtceu:industrial_primitive_blast_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "370C6D93067B1646"
+			tasks: [{
+				id: "3824B47839242078"
+				item: "gtceu:wooden_multiblock_tank"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["370C6D93067B1646"]
+			id: "46E3032B6F4C2D3C"
+			tasks: [{
+				id: "7B0531380E9DD457"
+				item: "gtceu:steel_multiblock_tank"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B7439F730B988EF"]
+			id: "329FAFF1FBA3D5A9"
+			tasks: [{
+				id: "3061CCD61FA8A84C"
+				item: "gtceu:water_power_station"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B7439F730B988EF"]
+			id: "5934EA1BC0835B5C"
+			tasks: [{
+				id: "77BD5AB0683F4775"
+				item: "gtceu:kinetic_generator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "6A45C4808C875299"
+			subtitle: "{ftbquests.chapter.028AB66FF504A9BC.quest20.subtitle}"
+			tasks: [{
+				id: "4E659FB98E288D81"
+				item: "gtceu:charcoal_pile_igniter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03CF3E3907C153E0"]
+			id: "725E945382ADA450"
+			tasks: [{
+				id: "74A6866294BDD634"
+				item: "gtceu:meadow"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			id: "03CF3E3907C153E0"
+			tasks: [{
+				id: "5F11DC70504FBF29"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest22.task.title1}"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03CF3E3907C153E0"]
+			id: "20F5B6B9BECC9ED9"
+			tasks: [{
+				id: "50332E17B591C11C"
+				item: "gtceu:seaweed_farm"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03CF3E3907C153E0"]
+			id: "63A59CD44341F4CC"
+			tasks: [{
+				id: "0916DD3E317545DC"
+				item: "ctnhcore:big_dam"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03CF3E3907C153E0"]
+			id: "461F0488D2740EFB"
+			tasks: [{
+				id: "176F515AFA6F552A"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03CF3E3907C153E0"]
+			id: "44AC0BF46FB3F948"
+			tasks: [{
+				id: "3D75B3A876214069"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03CF3E3907C153E0"]
+			id: "4510F270E15D5961"
+			tasks: [{
+				id: "4499E9FA8D48864E"
+				item: "gtceu:windmill_control_center"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["144A09EC75B60D68"]
+			id: "76F963A42FEAD27A"
+			tasks: [{
+				id: "29AEB32C43613223"
+				item: "ctnhcore:underfloor_heating_system"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			id: "18C1668BA11D77A8"
+			tasks: [{
+				id: "76C87089D1F759EE"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest29.task.title1}"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "0F1A7E5B5CBC49F5"
+			tasks: [{
+				id: "37933EDA83F11803"
+				item: "gtceu:greenhouse"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "2FAF4740B28E30E8"
+			tasks: [{
+				id: "53C670E057DB2162"
+				item: "gtceu:steel_large_boiler"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "23677E4942416671"
+			tasks: [{
+				id: "256D3F6B2E0A97B3"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "6F2B632B24C6EF46"
+			tasks: [{
+				id: "79A32E979AF28476"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "05E0A3D4B7B4F01A"
+			tasks: [{
+				id: "02F36031386552B1"
+				item: "gtceu:multi_smelter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "2260799110FE2A99"
+			tasks: [{
+				id: "1E60A66DE6C3A415"
+				item: "gtceu:mv_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "0D9FF50C101B1FAC"
+			tasks: [{
+				id: "6E81E7A0ACE7C8A6"
+				item: "gtceu:cleanroom"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "7CEA462990546334"
+			tasks: [{
+				id: "25932D90AF96A40B"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest37.task.title1}"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CEA462990546334"]
+			id: "78AF34E95D8E7269"
+			tasks: [{
+				id: "6DB7232BA2EAEADA"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "203D2C85D89E8170"
+			tasks: [{
+				id: "340D80E810D77142"
+				item: "gtceu:seawater_desalting_factory"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "3CF2CEAA24C4E56E"
+			tasks: [{
+				id: "116CC93699E3D3D7"
+				item: "gtceu:fermenting_tank"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "3FD1AAB09C522599"
+			tasks: [{
+				id: "4B062F37E4989EE2"
+				item: "gtceu:digestion_tank"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18C1668BA11D77A8"]
+			id: "5950043A1BF1DF1A"
+			tasks: [{
+				id: "7DE9F17CB1D27028"
+				item: "gtnn:exxonmobil_chemical_plant"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CEA462990546334"]
+			id: "7D04F3815403666A"
+			tasks: [{
+				id: "60316F4300580E0E"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CEA462990546334"]
+			id: "3F120DE8A4EED63F"
+			tasks: [{
+				id: "2D9C2950FB0734E1"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CEA462990546334"]
+			id: "6718AD6B23A1187C"
+			tasks: [{
+				id: "3A40CBA480926D0F"
+				item: "ctnhcore:slaughter_house"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CEA462990546334"]
+			id: "2A5FAC5B3E495254"
+			tasks: [{
+				id: "04097B2408592FBC"
+				item: "gtceu:ultrasonic_apparatus"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CEA462990546334"]
+			id: "5669D55D1AF4466B"
+			tasks: [{
+				id: "1860A2094CC4ECDA"
+				item: "gtceu:evaporation_plant"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CEA462990546334"]
+			id: "36E2948051CB0116"
+			tasks: [{
+				id: "6FBA1B2774537BE1"
+				item: "gtceu:fuel_refining_factory"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CEA462990546334"]
+			id: "7B17EF15A67D472F"
+			tasks: [{
+				id: "54567D8094B65517"
+				item: "gtceu:gas_centrifuge_machine"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			id: "5F1BD456BFB49435"
+			tasks: [{
+				id: "29E078FC94CBD4DB"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest50.task.title1}"
+				type: "checkmark"
+			}]
+			x: 29.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F1BD456BFB49435"]
+			id: "2A12784B88F2783E"
+			tasks: [{
+				id: "5055BAC42276660B"
+				item: "gtceu:nuclear_reactor"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F1BD456BFB49435"]
+			id: "421DBE316DD837C7"
+			tasks: [{
+				id: "2A031D6BD8F9D676"
+				item: "gtceu:titanium_large_boiler"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F1BD456BFB49435"]
+			id: "060CCB27C15EDACD"
+			tasks: [{
+				id: "6DBA22E3576F730E"
+				item: "gtceu:hv_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F1BD456BFB49435"]
+			id: "4EC066F913BE135C"
+			tasks: [{
+				id: "259295ADEFF4E21B"
+				item: "gtceu:large_fermenting_tank"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F1BD456BFB49435"]
+			id: "4B82788AE391FE63"
+			tasks: [{
+				id: "1BCAF9053D52E4EB"
+				item: "gtceu:large_bottle"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F1BD456BFB49435"]
+			id: "72A2F84333B23443"
+			tasks: [{
+				id: "46945E0233A74EE1"
+				item: "gtceu:cvd_factory"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F1BD456BFB49435"]
+			id: "7CB8AB8CC6294AD0"
+			tasks: [{
+				id: "560E3C08434D6083"
+				item: "gtceu:blaze_blast_furnace"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F1BD456BFB49435"]
+			id: "277DB91044053620"
+			tasks: [{
+				id: "7FA4FF5B4257815A"
+				item: "gtceu:bio_reactor"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 1.0d
+		}
+		{
+			id: "3FAC0EBCE35BE621"
+			tasks: [{
+				id: "4E88437462C0FCAE"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest59.task.title1}"
+				type: "checkmark"
+			}]
+			x: 39.5d
+			y: -2.0d
+		}
+	]
+	title: "{ftbquests.chapter.028AB66FF504A9BC.title}"
+}
