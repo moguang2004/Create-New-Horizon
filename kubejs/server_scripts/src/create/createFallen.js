@@ -251,21 +251,21 @@ event.custom({
         }
       ]
     },
-    {
-        "type": "vintageimprovements:laser_cutting",
-        "ingredients": [
-          {
-            "item": "gtceu:phenolic_circuit_board"
-          }
-        ],
-        "results": [
-          {
-            "item": "gtceu:phenolic_circuit_board"
-          }
-        ],
-        "energy": 10000,
-        "maxChargeRate": 500
-      },
+    // {
+    //     "type": "vintageimprovements:laser_cutting",
+    //     "ingredients": [
+    //       {
+    //         "item": "gtceu:phenolic_circuit_board"
+    //       }
+    //     ],
+    //     "results": [
+    //       {
+    //         "item": "gtceu:phenolic_circuit_board"
+    //       }
+    //     ],
+    //     "energy": 10000,
+    //     "maxChargeRate": 500
+    //   },
     {
       "type": "create_new_age:energising",
       "energy_needed": 10000,
@@ -306,7 +306,7 @@ ServerEvents.recipes(event => {
         'gtceu:resin_printed_circuit_board'
         ], 'gtceu:wood_plate', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:copper_foil']),
-    event.recipes.vintageimprovementsLaserCutting(transitional, transitional).energyCost(10000).maxChargeRate(5000),
+    //event.recipes.vintageimprovementsLaserCutting(transitional, transitional).energyCost(10000).maxChargeRate(5000),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:glue', 25)]),
     event.recipes.createPressing(transitional, [transitional]),
         ]).transitionalItem(transitional)
@@ -319,7 +319,7 @@ ServerEvents.recipes(event => {
         'gtceu:resin_printed_circuit_board'
         ], 'gtceu:resin_circuit_board', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:copper_foil']),
-    event.recipes.vintageimprovementsLaserCutting(transitional,[transitional]).energyCost(10000).maxChargeRate(5000),
+    //event.recipes.vintageimprovementsLaserCutting(transitional,[transitional]).energyCost(10000).maxChargeRate(5000),
     event.recipes.createPressing(transitional, [transitional]),
         ]).transitionalItem('gtceu:resin_circuit_board')
         .loops(4)
@@ -331,7 +331,7 @@ ServerEvents.recipes(event => {
         'gtceu:phenolic_printed_circuit_board'
         ], 'gtceu:phenolic_circuit_board', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:silver_foil']),
-    event.recipes.vintageimprovementsLaserCutting(transitional, transitional),
+    //event.recipes.vintageimprovementsLaserCutting(transitional, transitional),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:sodium_persulfate', 50)]),
     event.recipes.createPressing(transitional, [transitional]),
         ]).transitionalItem(transitional)
@@ -344,7 +344,7 @@ ServerEvents.recipes(event => {
         'gtceu:phenolic_printed_circuit_board'
         ], 'gtceu:phenolic_circuit_board', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:silver_foil']),
-    event.recipes.vintageimprovementsLaserCutting(transitional, transitional),
+    //event.recipes.vintageimprovementsLaserCutting(transitional, transitional),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:iron_iii_chloride', 25)]),
     event.recipes.createPressing(transitional, [transitional]),
         ]).transitionalItem(transitional)

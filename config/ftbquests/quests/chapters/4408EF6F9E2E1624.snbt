@@ -1671,10 +1671,9 @@
 			id: "3AB5FDB74D7FA100"
 			optional: true
 			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:rubber"
-				id: "10CAE946BEBE79A0"
-				type: "fluid"
+				id: "4D563E61D578D0B0"
+				item: "gtceu:rubber_bucket"
+				type: "item"
 			}]
 			x: -9.5d
 			y: 20.0d

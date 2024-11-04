@@ -540,7 +540,7 @@
     "ctnh.wind_power_array.mechanism": "相距十六格内的工作中的风力发电阵列会组成一个风力发电网络，网络里的机器每多一台，所有风力发电的输出会提升§a10%§r",
     "ctnh.wind_power_array.altitude": "海拔越高，风力发电的输出越高，最高256格输出电量为基础产能的2倍",
     "meadow": "自动化放牧",
-    "ctnh.meadow.basic": "只能养鸡牛羊，牛会产生皮革和牛奶，羊会产生羊毛，鸡会产生鸡蛋",
+    "ctnh.meadow.basic": "只能养鸡牛羊，牛会产生皮革，羊会产生羊毛，鸡会产生鸡蛋",
     "ctnh.meadow.mechanism": "牧场里每多一只动物，产生的排泄物数量就会提升，养的动物越多，产物越多",
     "boom_of_create": "艺术就是爆炸！",
     "ctnh.boom_of_create.basic": "大型聚爆应力厂使用爆炸物以及一小部分电力运行，以此产生大量应力",
