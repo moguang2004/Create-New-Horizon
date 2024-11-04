@@ -141,4 +141,5 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "gtceu:refined_radiance_ingot", "create:refined_radiance")
     event.replaceInput({}, "gtceu:shadow_steel_ingot", "create:shadow_steel")
     event.replaceInput({}, "#forge:dusts/quartz",'gtceu:nether_quartz_dust')
+    event.replaceInput({id: 'create_new_age:cutting/copper_sheet'}, "gtceu:copper_plate",'gtceu:double_copper_plate')
 })

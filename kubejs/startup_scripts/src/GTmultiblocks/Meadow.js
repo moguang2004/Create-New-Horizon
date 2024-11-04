@@ -13,8 +13,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('meadow', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('meadow')
-        .onWorking((/**@type {$WorkableElectricMultiblockMachine}*/machine) => {
-            if(machine.getOffsetTimer() % 100 == 0){
+        .recipeModifier((machine,/**@type {Internal.GTRecipe}*/recipe) =>{
                 let level = machine.level
                 let pos = machine.pos
                 let facing = machine.frontFacing
@@ -29,30 +28,37 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     case Direction.SOUTH: aabb = AABB.ofBlocks(pos.offset(-5,0,0),pos.offset(5,2,-10))
                 }
                 level.getEntitiesWithin(aabb).forEach((/**@type {$Entity}*/entity) =>{
-                    if(entity.name.toString == "minecraft:cow"){
+                    if(entity.getEntityType().toString() == "entity.minecraft.cow"){
                         cowcount ++
                     }
-                    else if(entity.name.toString == "minecraft:sheep"){
+                    else if(entity.getEntityType().toString() == "entity.minecraft.sheep"){
                         sheepcount ++
                     }
-                    else if(entity.name.toString == "minecraft:chicken"){
+                    else if(entity.getEntityType().toString() == "entity.minecraft.chicken"){
                         chickencount ++
                     }
                 })
-                let recipe = $GTRecipeBuilder.ofRaw()
-                    // .outputItems(Item.of('minecraft:leather',cowcount))
-                    // .outputItems(Item.of('minecraft:white_wool',sheepcount)
-                    // .outputItems(Item.of('minecraft:egg',chickencount)))
-                    // .outputItems(Item.of('kubejs:animal_excreta',cowcount + sheepcount + chickencount))
-                    // .outputFluids(Fluid.of('minecraft:milk', 250 * cowcount))
-                    .buildRawRecipe()
-                if (recipe.matchRecipe(machine).isSuccess()) {
-                    recipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches())
-                    return true
+                if(cowcount === 0 && sheepcount === 0 && chickencount === 0){
+                    return recipe
                 }
-                machine.getRecipeLogic().setProgress(0)
-            }
-            return true
+                // let itemList = new Internal.ArrayList();
+                //     itemList.add(new Internal.Content(Internal.SizedIngredient.create(Item.of('minecraft:leather',cowcount)), 1, 1, 0, null, null));
+                //     itemList.add(new Internal.Content(Internal.SizedIngredient.create(Item.of('minecraft:white_wool',sheepcount)), 1, 1, 0, null, null));
+                //     itemList.add(new Internal.Content(Internal.SizedIngredient.create(Item.of('minecraft:egg',chickencount)), 1, 1, 0, null, null));
+                //     itemList.add(new Internal.Content(Internal.SizedIngredient.create(Item.of('kubejs:animal_excreta',cowcount + sheepcount + chickencount)), 1, 1, 0, null, null));
+                //     recipe.outputs.put($ItemRecipeCapability.CAP,itemList)
+                //     recipe.outputs.put($FluidRecipeCapability.CAP, Internal.ArrayList.of(new Internal.Content(Internal.FluidIngredient.of(Internal.FluidStack("gtceu:milk", 250 * cowcount)), 1, 1, 0, null, null)));
+                let newrecipe = $GTRecipeBuilder.ofRaw()
+                ["outputItems(net.minecraft.world.item.ItemStack)"](Item.of('minecraft:leather',cowcount))
+                ["outputItems(net.minecraft.world.item.ItemStack)"](Item.of('minecraft:white_wool',sheepcount))
+                ["outputItems(net.minecraft.world.item.ItemStack)"](Item.of('minecraft:egg',chickencount))
+                ["outputItems(net.minecraft.world.item.ItemStack)"](Item.of('kubejs:animal_excreta',cowcount + sheepcount + chickencount))
+                //["outputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:milk " + 250 * cowcount)
+                    .buildRawRecipe()
+                if (newrecipe.matchRecipe(machine).isSuccess()) {
+                    return newrecipe
+                }
+            return recipe
         })
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("BBBBBBBBBBB", "JCCCJCCCCCC", "J###J######", "JJJJJD#####", "EEEEE######", "###########") 

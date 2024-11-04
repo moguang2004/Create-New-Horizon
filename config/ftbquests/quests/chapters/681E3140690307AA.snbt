@@ -502,12 +502,12 @@
 			description: ["{ftbquests.chapter.681E3140690307AA.quest18.description1}"]
 			id: "337BC9186C014A06"
 			tasks: [{
-				id: "1105E35AC2175382"
+				id: "53BD9501D90EA729"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "minecraft:oak_logs"
+						value: "minecraft:logs"
 					}
 				}
 				title: "{ftbquests.chapter.681E3140690307AA.quest18.task.title1}"
