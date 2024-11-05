@@ -312,6 +312,18 @@ ItemEvents.tooltip(event =>{
         text.add(2, Text.translate('ctnh.large_bottle.basic'))
         text.add(3, Text.translate('ctnh.large_bottle.consume'))
     })
+    event.addAdvanced('gtceu:eye_homo', (item, advanced, text) => {
+        text.add(1, Text.translate('eye_homo').gray())
+        text.add(2, Text.translate('ctnh.eye_homo.tooltip.0'))
+        text.add(3, Text.translate('ctnh.eye_homo.tooltip.1'))
+        text.add(4, Text.translate('ctnh.eye_homo.tooltip.2'))
+    })
+    event.addAdvanced('gtceu:wood_particle_collider', (item, advanced, text) => {
+        text.add(1, Text.translate('wood_particle_collider').gray())
+        text.add(2, Text.translate('ctnh.wood_particle_collider.tooltip.0'))
+        text.add(3, Text.translate('ctnh.wood_particle_collider.tooltip.1'))
+        text.add(4, Text.translate('ctnh.wood_particle_collider.tooltip.2'))
+    })
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))
     event.add('enderio:enhanced_energy_conduit',Text.translate('ctnh.enhanced_energy_conduit'))

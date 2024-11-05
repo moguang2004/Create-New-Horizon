@@ -992,7 +992,7 @@ ServerEvents.recipes(event => {
         "DBD",
         "GEG"
     ], {
-        A: 'ctnhcore:coke_oven',
+        A: 'gtceu:pyrolyse_oven',
         B: 'gtceu:iv_machine_hull',
         D: 'gtceu:iv_electric_pump',
         E: 'gtceu:dense_tungsten_steel_plate',
