@@ -141,4 +141,14 @@ ServerEvents.recipes(event => {
     //     B: "#forge:tools/saws"
     // })
     // })
+    let createWoods = ['gtceu:rubber','biomesoplenty:pine','biomesoplenty:maple','biomesoplenty:empyreal', 'deep_aether:roseroot', 'deep_aether:yagroot', 'deep_aether:cruderoot', 'deep_aether:conberry', 'deep_aether:sunroot','aether:skyroot']
+    createWoods.forEach(wood => {
+        let stripped_wood = wood.split(':')[0] + 'stripped_' + wood.split(':')[1] + '_wood'
+        let stripped_log = wood.split(':')[0] + 'stripped_' + wood.split(':')[1] + '_log'
+        let log = wood + '_log'
+        let planks = '6x ' + wood + '_planks'
+        event.recipes.create.cutting(stripped_log,log)
+        event.recipes.create.cutting(planks,stripped_log)
+        event.recipes.create.cutting(planks,stripped_wood)
+    })
 })

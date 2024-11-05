@@ -32,6 +32,7 @@ ServerEvents.tags('item',event =>{
     foods.forEach(food =>{
         event.add('forge:foods',food)
     })
+    event.add('forge:stripped_logs','gtceu:stripped_rubber_log')
 })
 ServerEvents.tags('fluid',event =>{
     event.add('createdieselgenerators:pumpjack_output','gtceu:impure_oil')
