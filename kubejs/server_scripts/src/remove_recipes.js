@@ -189,4 +189,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:smelting/smelt_dust_bedrock_dust_to_ingot" })
     event.remove({ id: "gtceu:arc_furnace/arc_bedrock_dust_dust" })
     event.remove({ id: "vintageimprovements:curving/iron_sheet" })
+    event.remove({ id: "gtceu:chemical_reactor/indium_concentrate_separation" })
+    event.remove({ id: "gtceu:chemical_reactor/indium_concentrate_separation_4x" })
+    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_aluminium_sulfite" })
 })
