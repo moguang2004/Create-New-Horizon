@@ -56,7 +56,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('G', Predicates.blocks('minecraft:chiseled_stone_bricks'))
             .where(" ", Predicates.any())
             .build())
-        .workableCasingRenderer("block/casings/solid/machine_casing_bronze_plated_bricks", 'gtceu:block/multiblock/fusion_reactor')
+        .workableCasingRenderer("gtceu:block/casings/solid/machine_casing_bronze_plated_bricks", 'gtceu:block/multiblock/fusion_reactor')
 })
 
 //我爱tst
