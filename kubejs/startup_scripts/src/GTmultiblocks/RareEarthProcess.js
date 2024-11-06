@@ -53,6 +53,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeType('vacuum_sintering')
         .recipeModifier((machine, recipe, params, result) => {
             let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
+            if(newrecipe == null){
+                return null
+            }
             let parallel = 16
             return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
         })
@@ -93,6 +96,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeType('cvd')
         .recipeModifier((machine, recipe, params, result) => {
             let newrecipe = GTRecipeModifiers.ebfOverclock(machine, recipe, params, result)
+            if(newrecipe == null){
+                return null
+            }
             let parallel = 16
             return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
         })
