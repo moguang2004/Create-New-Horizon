@@ -110,6 +110,22 @@ ServerEvents.recipes(event => {
         "hostilenetworks:deep_learner",
         "hostilenetworks:framework",
         "ae2things:cells/disk_drive_1k",
+        "vintageimprovements:pressing/cobalt_ingot",
+        "vintageimprovements:pressing/rhodium_ingot",
+        "vintageimprovements:pressing/uranium_ingot",
+        "vintageimprovements:pressing/rose_gold_ingot",
+        "vintageimprovements:pressing/vanadium_ingot",
+        "vintageimprovements:pressing/invar_ingot",
+        "vintageimprovements:pressing/lead_ingot",
+        "vintageimprovements:pressing/tin_ingot",
+        "vintageimprovements:pressing/andesite_alloy",
+        "vintageimprovements:pressing/bronze_ingot",
+        "vintageimprovements:pressing/silver_ingot",
+        "vintageimprovements:pressing/platinum_ingot",
+        "vintageimprovements:pressing/palladium_ingot",
+        "vintageimprovements:pressing/zinc_ingot",
+        "vintageimprovements:pressing/nickel_ingot",
+        "vintageimprovements:pressing/osmium_ingot",
         "aether:aether_saddle"
     ])
     remove_recipes_output(event, [
@@ -189,4 +205,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:smelting/smelt_dust_bedrock_dust_to_ingot" })
     event.remove({ id: "gtceu:arc_furnace/arc_bedrock_dust_dust" })
     event.remove({ id: "vintageimprovements:curving/iron_sheet" })
+    event.remove({ id: "gtceu:chemical_reactor/indium_concentrate_separation" })
+    event.remove({ id: "gtceu:chemical_reactor/indium_concentrate_separation_4x" })
+    event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
+    event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
+    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_aluminium_sulfite" })
 })
