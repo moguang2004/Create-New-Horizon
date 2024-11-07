@@ -10,6 +10,12 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('cvd_factory', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('cvd')
+        .recipeModifier((machine,/**@type {$GTRecipe}*/recipe, params, result) => {
+            let parallel = 64
+            let newrecipe = recipe.copy()
+            newrecipe = GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK).apply(machine, newrecipe, params, result)
+            return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
+        })
         .appearanceBlock(() => Block.getBlock('gtceu:solid_machine_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("AAAAAAA", "AAABBBA", "AAABBBA")

@@ -1168,6 +1168,44 @@ ServerEvents.recipes(event => {
         E: 'botania:fabulous_pool'
     })
 
+    event.shaped(
+        Item.of('gtceu:large_gas_collection_chamber', 1), [
+        "AAA",
+        "BCB",
+        "DED"
+    ], {
+        A: 'gtceu:fluid_tag_filter',
+        B: '#gtceu:circuits/hv',
+        C: 'gtceu:filter_casing',
+        D: 'gtceu:hv_electric_pump',
+        E: 'gtceu:cleanroom'
+    })
+
+    event.shaped(
+        Item.of('gtceu:large_steel_furnaces', 1), [
+        "DAD",
+        "BCB",
+        "DAD"
+    ], {
+            A: 'gtceu:copper_spring',
+            B: '#gtceu:circuits/lv',
+            C: 'gtceu:steam_oven',
+            D: 'gtceu:firebricks',
+    })
+
+    event.shaped(
+        Item.of('gtceu:large_steel_alloy_furnace', 1), [
+        "DAD",
+        "BCB",
+        "DAD"
+    ], {
+        A: 'gtceu:copper_spring',
+        B: '#gtceu:circuits/lv',
+        C: 'gtceu:steam_foundry',
+        D: 'gtceu:firebricks',
+    })
+
+
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

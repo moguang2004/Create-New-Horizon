@@ -1149,6 +1149,30 @@
 			x: 7.5d
 			y: -6.0d
 		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "21CD0FCABBCFB765"
+			subtitle: "我觉得你不太会做小的电熔炉"
+			tasks: [{
+				id: "5452B5E481EB9ABD"
+				item: "gtceu:large_steel_furnaces"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7AE674329D7E7944"]
+			id: "4B7A35D369A217E2"
+			subtitle: "我觉得你不太会做小的合金炉"
+			tasks: [{
+				id: "6DA1C9E5D81DBECB"
+				item: "gtceu:large_steel_alloy_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.lv.subtitle}"]
 	title: "{ftbquests.chapter.lv.title}"
