@@ -1527,6 +1527,7 @@
 		}
 		{
 			id: "43DCA5278B555E39"
+			subtitle: "要用腾炎块"
 			tasks: [{
 				id: "123036F8278EBAE3"
 				title: "{ftbquests.chapter.hv.quest105.task.title1}"

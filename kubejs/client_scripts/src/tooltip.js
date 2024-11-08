@@ -317,6 +317,7 @@ ItemEvents.tooltip(event =>{
         text.add(2, Text.translate('ctnh.eye_homo.tooltip.0'))
         text.add(3, Text.translate('ctnh.eye_homo.tooltip.1'))
         text.add(4, Text.translate('ctnh.eye_homo.tooltip.2'))
+        text.add(5, Text.translate('ctnh.eye_homo.tooltip.3'))
     })
     event.addAdvanced('gtceu:wood_particle_collider', (item, advanced, text) => {
         text.add(1, Text.translate('wood_particle_collider').gray())

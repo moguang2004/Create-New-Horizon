@@ -1047,6 +1047,21 @@
 			x: 1.0d
 			y: -7.0d
 		}
+		{
+			dependencies: ["77EA82987E62F815"]
+			description: ["可以用蒸汽输入仓和输入总线输出总线，且蒸汽级输出总线最多10个"]
+			id: "4E153836BC53CDD1"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "原始人的第一个巨构"
+			tasks: [{
+				id: "2C454A9B147379F9"
+				item: "gtceu:eye_homo"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
 	]
 	title: "{ftbquests.chapter.08AF6857D150C353.title}"
 }
