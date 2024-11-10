@@ -60,6 +60,10 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
+			description: [
+				"注意，有些格雷任务是隐藏的，需要你自己去探索。"
+				"但我还是想告诉你每个产物都有隐藏任务"
+			]
 			icon: "gtceu:gregification_hazard_sign_block"
 			id: "6709D9DF2EA0432B"
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3.subtitle}"

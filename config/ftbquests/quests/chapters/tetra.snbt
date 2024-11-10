@@ -1,0 +1,462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tetra"
+	group: ""
+	icon: "tetra:basic_workbench"
+	id: "1C74C871FF8892C6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["72A10FB317A6D183"]
+			id: "2FB20A6A0C2938F4"
+			subtitle: "拿它右键工作台就可以将工作台转化为Tetra模组中组装DIY工具的加工台"
+			tasks: [{
+				id: "46BCB9EA2BAF39F7"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "c0352c44-63b6-418e-9a8b-5abbdabf5b98"
+					}
+				}
+				type: "item"
+			}]
+			title: "Tetra的开始"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FB20A6A0C2938F4"]
+			icon: "tetra:basic_workbench"
+			id: "3BF72E41C1203551"
+			subtitle: "已经在木锤的任务里告诉你了"
+			tasks: [{
+				id: "5356F6870A086F6E"
+				title: "我是加工台"
+				type: "checkmark"
+			}]
+			title: "加工台"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "72A10FB317A6D183"
+			subtitle: "用两个木棍和两个木板制作一个木锤。制作并摆放一个原版工作台。用木锤右击工作台，将其升级为 Tetra 的加工台。制作一个原版武器、工具、盾牌或弓弩，并将其放置在加工台上。"
+			tasks: [{
+				id: "56E8A1453A1ED100"
+				title: "开始你的Tetra之旅"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Tetra 允许你使用不同类型、种类与材料的零件替换物品的零件，有些零件还可以被改良。"
+				""
+				"你可以使用的零件数量受物品自身的容量，这被称作“完整度”。"
+				""
+				"有些零件可以增加物品的完整度，而有些零件则消耗完整度，多多使用工具会使部件获得“稳固”效果，这也会提升工具完整度上限（工具头部与弓臂上限一级，手柄或弓弦上限二级）。"
+				""
+				"不同零件需要不同等级或类型的工具来制作。一件工具不能修改自己，所以你升级锤子时需要两把锤子"
+				""
+				"而tetra工具具有很强的成长潜力，在工具被使用时会积累经验，也就是“打磨值”（通过对装备按住shift可以查看打磨值的积累），当打磨值积累到一定程度便可以进行强化，这就是“打磨”。"
+				""
+				"打磨能为工具带来攻击力，挖掘速度，耐久等提升，但这需要消耗完整度（而该工具的耐久与占用的完整度越多，打磨需要的打磨值也更多）。"
+				""
+				"在地牢探险、与村民或猪灵交易时你会获得一些卷轴，它们颜色各异，对应着不同的效果，在以加工台为中心5*5*5范围放置对应卷轴即可使用（唯一特例是“镀金”卷轴，它必须被放置在加工台上面）。"
+				"黄色卷轴可以在锻造部件时减少材料消耗或附加少量强化（即“高品质”效果，提升工具5%攻击力与挖掘速度）。"
+				"蓝色卷轴可以解锁特殊部件（在修改工具时这些特殊部件会以橙色显示，它们不会出现在全息球里）。"
+				"与猪灵交易获得的棕色卷轴可以为tetra的非战斗工具赋予特殊的强化，这被称作战争铸造。消耗二完整度并降低一级工具等级可以为工具赋予一个技能，长按右键松开释放。这些技能效果各异，即使作用于不同位置的同一种部件也会导致不同的效果（你可以手持卷轴shift+右键查询描述）。这些技能偏向PVP或高难度作战，因为它们大多是高额的穿甲，流血效果"
+				""
+				"而在地狱堡垒中获得的棕色卷轴能解锁“镀金”打磨（提高少量魔力容量）。通常只能获得一级卷轴，即你只能进行一次“镀金”打磨，将两个同级别卷轴合成可以获得高级卷轴，最高五级。"
+				"在获得某些特殊道具时，部件中会出现一个橙色选项，进行改改造后你的工具会获得特殊的效果（例如“快卸鞘”装在弓弦上能让你的弓变成全自动）。"
+				""
+				"在1.19的遗迹中增加了一种新的“古代图纸”，它是一种多方块结构生成在新版锻造遗迹内，你可以通过用羊角锤右键其背部提示位置将其完整破坏。它由多个类似拼图的方块组成，在背包里用鼠标指着它或者拿在手上观察准星右侧都会有位置提示，按照提示在加工台旁完成拼图可以解锁自定义古代部件（切石器劈石剑、凿地器穿地矛、提取器匠魂锤）也可以使用螺栓和回响碎片进行强化解锁调整功能以控制其破坏范围"
+				""
+				"自定义切石器有一个特性是装了紫水晶镶嵌后一刀能劈掉好几个区块的石头"
+				""
+				"有时会出现完整度不足以完成全部打磨或升级，所以做好取舍与计划，毕竟进行完打磨后就没有办法回退了。"
+				"本模组为工具赋予了新的附魔机制。你可以正常的使用附魔台附魔，但也可以将带有附魔的附魔书在改造的“附魔”选项中给予对应部件。这会消耗“魔力容量”，越高级的附魔消耗的越多，而这个值能达到负数。在“魔力容量”为负时，任何修改工具的行为都有可能导致“闹鬼”，这可能会使附魔失效或者在使用该工具时生成一只拿着你的工具的恼鬼幸好这些恼鬼不会用弓，使用青金石与经验可以暂时祛除（在以后你修复或修改时仍然可能闹鬼）。"
+			]
+			id: "6BEC85EE1DE68454"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "0E9B0C29269E31EB"
+				title: "MC百科的教程"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BF72E41C1203551"]
+			id: "6B4CCB317BD73826"
+			subtitle: "放在加工台上用锤子砸"
+			tasks: [{
+				id: "04588F49E37FD29B"
+				item: "tetra:geode"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6B4CCB317BD73826"
+				"2332D134B96A8627"
+			]
+			id: "28439DE48483AC8A"
+			tasks: [{
+				id: "5DD102F9EE3900EF"
+				item: "tetra:pristine_lapis"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6B4CCB317BD73826"
+				"2332D134B96A8627"
+			]
+			id: "6A09AD492D8B1017"
+			tasks: [{
+				id: "466E05BD5FF2D39A"
+				item: "tetra:pristine_emerald"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6B4CCB317BD73826"
+				"2332D134B96A8627"
+			]
+			id: "39C153AF6CBE1C83"
+			tasks: [{
+				id: "5BA6E9A1B63586C9"
+				item: "tetra:pristine_diamond"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "2332D134B96A8627"
+			subtitle: "当然普通的宝石也是可以的"
+			tasks: [{
+				id: "5B8A5BDECFF3AC38"
+				title: "这种无瑕宝石能镶嵌在你的tetra工具上"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3BF72E41C1203551"
+				"1574C6C4E9FE38DF"
+			]
+			id: "60B34B3BFFC955B6"
+			subtitle: "制作高级锤子用到的材料需要用低级锤子加工，所以需要准备两个锤子。左脚踩右脚..."
+			tasks: [{
+				id: "56E4A8C2B91AA611"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60B34B3BFFC955B6"]
+			id: "1E1177D7503A793D"
+			tasks: [{
+				id: "790BD2401B861A59"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E1177D7503A793D"]
+			id: "35A850AFAF012C22"
+			tasks: [{
+				id: "6976C67D4BD3B72C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35A850AFAF012C22"]
+			id: "66E67E080A64007F"
+			tasks: [{
+				id: "42C29E33330A828B"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0957E307997B3D33"]
+			id: "049AD572CA837A94"
+			tasks: [{
+				id: "2C0A14B0C065C683"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			description: ["比如2个木头锤头能让木锤变为1级，两个圆石锤头能变2级，两个铁锤头能变3级，两个黑石锤头能变4级,以次类推."]
+			id: "1574C6C4E9FE38DF"
+			subtitle: "当双头工具一样时会提升一个工具等级"
+			tasks: [{
+				id: "382D915F144FE191"
+				title: "注意"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"66E67E080A64007F"
+				"3B75FECDA06E51FB"
+				"4EFA9FA6A94ED6FC"
+			]
+			description: [
+				"更加先进的加工台和锤子."
+				"如果你想把它带回家，则需要3级精准采集的黑石锤子"
+			]
+			icon: "tetra:hammer_base"
+			id: "0957E307997B3D33"
+			subtitle: "在黑石锤和黑曜石锤之间的5级锤"
+			tasks: [
+				{
+					id: "66AA92B75E0E3B8F"
+					item: "tetra:hammer_base"
+					type: "item"
+				}
+				{
+					id: "10261834469F3BDE"
+					item: "tetra:forged_workbench"
+					type: "item"
+				}
+			]
+			title: "锻造遗迹"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BEC85EE1DE68454"]
+			description: [
+				"完整度:是一个工具可进行加工次数的体现，大多数部件都会占用完整度。打磨和部件改进也会占用完整度。一般来说工具的完整度上限由手柄提供，弓和弩则是由弓弦提供。如果镶嵌了宝石，宝石还会额外提供1点完整度。"
+				""
+				"打磨：消耗完整度来增强部件属性，2级打磨和4级打磨分别占用1点完整度，改进升级则在3级占用1点完整度。随着工具每次使用会增加打磨值，小圆盾和装了宽护手的剑受到攻击时也会增加打磨值。打磨值到一定量之后会播放一段音效提示可以打磨。打磨只能对工具的主要部件进行打磨，主要部件一般为工具部件中没有移除组件选项的部件。打磨的选项有：速度（增加工具的攻速，挖掘速度。弓弩为减少拉弓耗时，盾为减少冷却时间）最高5级，伤害(这就没必要多讲了吧）最高5级，改进升级（增加部件的切口之钩，锯齿，回火提供的属性）。挖掘等级打磨：提升1级挖掘等级，最高1级。"
+				""
+				"魔法容量：部件上的附魔会占用魔法容量，魔法容量超出上限时会为该部件带来一些负面效果，如修复该部件时需要经验。（1.16的时候还会有降低附魔等级和闹鬼，新版本不知道为什么移除了）"
+				""
+				"稳固度：只有主要部件会拥有稳固度，与打磨值比较相似，也是随着工具使用增加。但稳固度是每个部件单独计算的，稳固度达到一定值时会播放音效提示某部件更稳固了。此时该部件会额外提供1点完整度，稳固度等级是有上限的，且该部件提供的耐久值越高，该部件稳固等级升级需要的稳固度也越高。（稳固等级提供的完整度需要对工具进行一次任意加工后才会正常显示）"
+				""
+				"关于材料：组件一般都有其对应的材料，不属于某组件的材料就不能用于制作该组件。所有材料都有其优缺点，下界合金固然很强，但也不是能用下界合金的就无脑下界合金。材料的优缺点具体体现在材料的三个主要属性：硬度，密度，韧性。硬度通常影响的是部件的伤害，完整度。密度大多数情况下是负面效果，会减慢工具的速度。韧性通常会影响工具的速度，用于弓材还会影响弓弩的伤害。"
+			]
+			id: "677AAB77C64E722A"
+			tasks: [{
+				id: "30018731C49962B0"
+				title: "MC百科的教程2"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0957E307997B3D33"]
+			id: "33A9EA4B13BF82A9"
+			tasks: [{
+				id: "77F5F2FAB5A43467"
+				item: "tetra:vent_plate"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			id: "4F38C6AD04D13750"
+			tasks: [{
+				id: "65C5652A567728C0"
+				item: "tetra:stonecutter"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0957E307997B3D33"]
+			id: "07475F09F88D9016"
+			tasks: [{
+				id: "4722F18F1D32FBEA"
+				item: "tetra:combustion_chamber"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			id: "016A59247254E21F"
+			tasks: [{
+				id: "2D6058E1CF92913E"
+				item: "tetra:earthpiercer"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0957E307997B3D33"]
+			id: "1ED376B4568D9342"
+			tasks: [{
+				id: "277783800546E99B"
+				item: "tetra:planar_stabilizer"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0957E307997B3D33"]
+			id: "61E69BA2661E2A0A"
+			tasks: [{
+				id: "0CDBCDEDA0DC7E53"
+				item: "tetra:lubricant_dispenser"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			id: "5077F8D9394C4E23"
+			tasks: [{
+				id: "2E001DA8CD42E03C"
+				item: "tetra:quick_latch"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2FB20A6A0C2938F4"]
+			icon: {
+				Count: 1
+				id: "tetra:holo"
+				tag: {
+					"holo/core": "holo/core"
+					"holo/core_material": "frame/dim"
+					"holo/frame": "holo/frame"
+					"holo/frame_material": "core/ancient"
+					"holo/repo": "holo/repo"
+					"holo/repo_material": "repo/default"
+					"holo/scanner": "holo/scanner"
+					"holo/scanner_material": "scanner/default"
+				}
+			}
+			id: "3301606D1F925E64"
+			subtitle: "他可以看任何材料的数值"
+			tasks: [{
+				id: "09F47605F12B8E47"
+				title: "全息球"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "3B75FECDA06E51FB"
+			tasks: [{
+				id: "093FA5E8A350EED8"
+				title: "全息球的升级"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "4EFA9FA6A94ED6FC"
+			tasks: [{
+				id: "6F658FF3A052D0A1"
+				item: {
+					Count: 1
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["049AD572CA837A94"]
+			id: "56951FE92E2C9DF9"
+			tasks: [{
+				id: "2090486C507A670F"
+				title: "下界合金锤?"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BF72E41C1203551"]
+			description: ["可以自行DIY他的功能"]
+			id: "2D7FE3BAA95EA7A4"
+			subtitle: "一种挺好的腰带？"
+			tasks: [{
+				id: "64D26D52517FB199"
+				item: {
+					Count: 1
+					id: "tetra:modular_toolbelt"
+					tag: {
+						id: "56090a66-f2c7-482e-9455-29565687775a"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2332D134B96A8627"]
+			id: "01748B06B2F3C19F"
+			tasks: [{
+				id: "503A67DC7855EB15"
+				item: "tetra:pristine_amethyst"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+	]
+	title: "Tetra工具"
+}

@@ -1527,6 +1527,7 @@
 		}
 		{
 			id: "43DCA5278B555E39"
+			subtitle: "要用腾炎块"
 			tasks: [{
 				id: "123036F8278EBAE3"
 				title: "{ftbquests.chapter.hv.quest105.task.title1}"
@@ -1735,6 +1736,20 @@
 			}]
 			x: 2.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["36968F23015BC87A"]
+			id: "5871572C3F0A1CAB"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "最伟大的机器"
+			tasks: [{
+				id: "3E72DDEEAD18B789"
+				item: "gtceu:large_gas_collection_chamber"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
 		}
 	]
 	title: "{ftbquests.chapter.hv.title}"
