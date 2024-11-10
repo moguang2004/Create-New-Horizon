@@ -50,8 +50,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             var level=machine.self().getLevel();
             var progress=machine.getProgress();
             var maxprogress=machine.getMaxProgress();
-            var radius=machine.getRecipeLogic().lastOriginRecipe.data.getInt('radius');
-            var rock=machine.getRecipeLogic().lastOriginRecipe.data.getString('rock');
+            var recipe = machine.getRecipeLogic().lastOriginRecipe
+            var radius= recipe == null ? 8 : recipe.data.getInt('radius');
+            var rock= recipe == null ? 'minecraft:stone' : recipe.data.getString('rock');
             var block;
             try{
                 block=Block.getBlock(rock).getBlockStates()[0];

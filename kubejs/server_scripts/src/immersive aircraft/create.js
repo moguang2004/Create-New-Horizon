@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    let transitional = 'minecraft:blackstone_slab'//中间产物
+    let transitional = 'minecraft:polished_blackstone_slab'//中间产物
     event.recipes.create.sequenced_assembly([
       'immersive_aircraft:engine'
     ], 'minecraft:polished_blackstone_slab', [
@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
       .loops(1)
   })
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:andesite_alloy_plate'
+    let transitional = 'immersive_aircraft:hull'
     event.recipes.create.sequenced_assembly([
       'immersive_aircraft:hull_reinforcement'
     ], 'immersive_aircraft:hull', [
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
       .loops(3)
   })
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:andesite_alloy_plate'
+    let transitional = 'immersive_aircraft:engine'
     event.recipes.create.sequenced_assembly([
       'immersive_aircraft:eco_engine'
     ], 'immersive_aircraft:engine', [
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
       .loops(1)
    })
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:andesite_alloy_plate'
+    let transitional = 'immersive_aircraft:engine'
     event.recipes.create.sequenced_assembly([
       'immersive_aircraft:nether_engine'
     ], 'immersive_aircraft:engine', [
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
       .loops(1)
    })
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:andesite_alloy_plate'
+    let transitional = 'gtceu:double_copper_plate'
     event.recipes.create.sequenced_assembly([
       'immersive_aircraft:rotary_cannon'
     ], 'gtceu:double_copper_plate', [
@@ -61,10 +61,10 @@ ServerEvents.recipes(event => {
       .loops(1)
    })
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:copper_plate'
+    let transitional = 'gtceu:double_iron_plate'
     event.recipes.create.sequenced_assembly([
       'immersive_aircraft:telescope'
-    ], 'gtceu:double_copper_plate', [
+    ], 'gtceu:double_iron_plate', [
       event.recipes.createDeploying(transitional, [transitional, 'immersive_aircraft:industrial_gears']),
       event.recipes.createDeploying(transitional, [transitional, 'create:precision_mechanism']),
       event.recipes.createDeploying(transitional, [transitional, 'minecraft:glass']),

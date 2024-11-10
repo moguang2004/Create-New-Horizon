@@ -1064,7 +1064,7 @@ ServerEvents.recipes(event => {
     .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 256000))
     .itemOutputs('256x gtceu:endstone_aluminium_ore', '256x gtceu:endstone_bauxite_ore', '256x gtceu:endstone_cryolite_ore', '64x gtceu:endstone_ilmenite_ore')
     .addData('radius', 8)
-    .addData('rock', 'minecraft:endstone')
+    .addData('rock', 'minecraft:end_stone')
     .EUt(1920)
     .duration(400);
     
@@ -1073,7 +1073,7 @@ ServerEvents.recipes(event => {
     .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 1024000))
     .itemOutputs('512x gtceu:endstone_scheelite_ore', '512x gtceu:endstone_tungstate_ore')
     .addData('radius', 8)
-    .addData('rock', 'minecraft:endstone')
+    .addData('rock', 'minecraft:end_stone')
     .EUt(7680)
     .duration(400);
   event.recipes.gtceu.mark_of_falling_tower('moon_pt')
