@@ -132,12 +132,35 @@
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.uhv.quest9.subtitle}"
 			tasks: [{
-				id: "2DBAEE5289A003FC"
-				item: "gtceu:my_infinity_dust"
+				id: "27C8F2426A80B994"
+				item: "gtceu:boundless_dust"
 				type: "item"
 			}]
 			x: -1.0d
 			y: -13.0d
+		}
+		{
+			dependencies: ["18E2A4593690B3D1"]
+			id: "4F639E4C01239DA8"
+			tasks: [{
+				id: "1C54D845386B5385"
+				item: "gtceu:neutronium_boule"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F639E4C01239DA8"]
+			id: "777F1D3EB722D4B7"
+			subtitle: "超好的SOC芯片"
+			tasks: [{
+				id: "02F0CB1D2A182125"
+				item: "gtceu:highly_advanced_soc_wafer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
 		}
 	]
 	title: "{ftbquests.chapter.uhv.title}"

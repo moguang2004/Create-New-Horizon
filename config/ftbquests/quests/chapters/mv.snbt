@@ -22,6 +22,12 @@
 			x: 2.5d
 			y: -4.0d
 		}
+		{
+			id: "359E958586D6232F"
+			linked_quest: "2C6FBF2A814BB60D"
+			x: 11.5d
+			y: -1.0d
+		}
 	]
 	quests: [
 		{
@@ -324,7 +330,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3AE584B3EBC63A09"]
+			dependencies: [
+				"3AE584B3EBC63A09"
+				"2C6FBF2A814BB60D"
+			]
+			dependency_requirement: "one_completed"
 			id: "063155FDDF799750"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -337,13 +347,12 @@
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 8.0d
 			y: -1.0d
 		}
 		{
 			dependencies: [
 				"44D70AFBA18CA0E4"
-				"063155FDDF799750"
 				"22A82D3281551181"
 			]
 			id: "5A55D491F0E9F389"
@@ -366,8 +375,8 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -4.5d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["61306F7E5202C387"]
@@ -377,8 +386,8 @@
 				item: "gtceu:ender_eye_dust"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.5d
+			x: 9.5d
+			y: -5.0d
 		}
 		{
 			id: "61306F7E5202C387"
@@ -387,8 +396,8 @@
 				item: "gtceu:ender_pearl_dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -4.5d
+			x: 11.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5A55D491F0E9F389"]
@@ -405,8 +414,8 @@
 				title: "{ftbquests.chapter.mv.quest27.task.title1}"
 				type: "dimension"
 			}]
-			x: 14.5d
-			y: -4.5d
+			x: 6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -470,7 +479,7 @@
 				item: "minecraft:tnt"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 9.5d
 			y: -6.0d
 		}
 		{
@@ -481,7 +490,7 @@
 				item: "gtceu:toluene_bucket"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: -6.0d
 		}
 		{
@@ -499,8 +508,8 @@
 				item: "gtceu:mv_distillery"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -6.0d
+			x: 11.5d
+			y: -7.5d
 		}
 		{
 			id: "61F3A1C4B771E811"
@@ -565,10 +574,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"221F9C128CA48DAA"
-				"43C8834337DEBC97"
-			]
+			dependencies: ["221F9C128CA48DAA"]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.mv.quest39.description1}"]
 			id: "291D02E808F55209"
@@ -606,8 +612,8 @@
 				item: "botania:ender_air_bottle"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -4.5d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["35FC625257013116"]
@@ -629,8 +635,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: -4.5d
+			x: 9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["415AF3F977F4C3F9"]
@@ -648,8 +654,8 @@
 				type: "dimension"
 			}]
 			title: "{ftbquests.chapter.mv.quest43.title}"
-			x: 20.5d
-			y: -4.5d
+			x: 11.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["699743A94DF7E0B8"]
@@ -660,11 +666,10 @@
 				item: "gtceu:fluorine_bucket"
 				type: "item"
 			}]
-			x: 20.5d
-			y: -6.0d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["2C6FBF2A814BB60D"]
 			id: "4616A64D47AFBFF9"
 			subtitle: "{ftbquests.chapter.mv.quest45.subtitle}"
 			tasks: [{
@@ -683,8 +688,8 @@
 				item: "createutilities:void_tank"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -6.0d
+			x: 9.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -694,8 +699,8 @@
 				item: "create:shadow_steel"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -6.0d
+			x: 6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["47477F45269D6DB4"]
@@ -705,10 +710,11 @@
 				item: "createutilities:void_steel_ingot"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -6.0d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["4DCA7E4E57817E0A"]
 			id: "221F9C128CA48DAA"
 			tasks: [{
 				id: "1AD776B0230E018D"
@@ -716,17 +722,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -7.5d
-		}
-		{
-			id: "43C8834337DEBC97"
-			tasks: [{
-				id: "4E77B2B656C12EFF"
-				item: "gtceu:raw_ruby"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -4.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -752,7 +748,7 @@
 				item: "gtceu:mv_chemical_bath"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -771,7 +767,7 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -845,8 +841,8 @@
 				item: "gtceu:industrial_tnt"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -8.0d
+			x: 9.5d
+			y: -7.5d
 		}
 		{
 			id: "0B406575E6CDCC2D"
@@ -855,8 +851,8 @@
 				item: "gtceu:nitration_mixture_bucket"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -8.0d
+			x: 8.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -961,8 +957,8 @@
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -2.5d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			can_repeat: true
@@ -985,8 +981,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -2.5d
+			x: 10.499999999999986d
+			y: -2.642857142857146d
 		}
 		{
 			dependencies: ["0FEAC07F1404346A"]

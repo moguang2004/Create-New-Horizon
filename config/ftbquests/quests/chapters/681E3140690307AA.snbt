@@ -550,6 +550,31 @@
 			x: -9.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["09C344717F4BAD6C"]
+			description: ["方便你前期不会被摔死）"]
+			id: "38F0B3A80DCBCCAB"
+			subtitle: "钩爪，可以升级"
+			tasks: [{
+				id: "30F5D34763CCF5B5"
+				item: "rehooked:wood_hook"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5BA86B01337A91D5"]
+			id: "34606BB00D3B0E3D"
+			subtitle: "更多熔炉能让你前期烧矿的速度显著提升"
+			tasks: [{
+				id: "4881B53598E8D5CE"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
 	]
 	title: "{ftbquests.chapter.681E3140690307AA.title}"
 }

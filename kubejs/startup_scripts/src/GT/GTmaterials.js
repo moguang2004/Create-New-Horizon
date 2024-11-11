@@ -1462,6 +1462,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("radioactive_metals_mix")
         .dust()
         .color(0x66adad)
+    event.create("boundless")
+        .ingot()
+        .dust()
+        .liquid()
+        .color(0xFFFFFF)
 })
 
 StartupEvents.postInit(event => {
@@ -1527,4 +1532,5 @@ StartupEvents.postInit(event => {
     setFormula("titanium_tetrachloride_v", "V-TiCl4")
     setFormula("tungsten_trioxide", "WO3")
     setFormula("adamantite", "Ad")
+    setFormula("boundless", "∞")
 })

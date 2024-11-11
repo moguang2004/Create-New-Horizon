@@ -897,8 +897,8 @@
 		}
 		{
 			dependencies: [
-				"3024C689060DBB33"
 				"4A412A967394C59E"
+				"75B002E120AA161D"
 			]
 			id: "258BBAE74ED9B2CE"
 			rewards: [{
@@ -914,7 +914,7 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -10.5d
 		}
 		{
@@ -1286,7 +1286,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -10.5d
+			y: -8.5d
 		}
 		{
 			description: ["{ftbquests.chapter.iv.quest74.description1}"]
@@ -1925,6 +1925,40 @@
 			}]
 			x: 8.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["3024C689060DBB33"]
+			id: "75B002E120AA161D"
+			tasks: [{
+				id: "032CDA03214DF852"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["75B002E120AA161D"]
+			id: "4E9CD9836B42D55D"
+			tasks: [{
+				id: "0D35D50BA50B2195"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4E9CD9836B42D55D"]
+			id: "5607D261213C3EC2"
+			subtitle: "更好的SOC芯片"
+			tasks: [{
+				id: "06C8E144BDF5FD0C"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.5d
 		}
 	]
 	title: "{ftbquests.chapter.iv.title}"

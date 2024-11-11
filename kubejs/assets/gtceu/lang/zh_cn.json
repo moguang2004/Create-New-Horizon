@@ -1646,5 +1646,6 @@
     "material.gtceu.f_bedrock_smoke_re": "氟裂化基岩烟",
     "material.gtceu.dr_bedrock_gas_re": "氡裂化基岩气",
     "material.gtceu.ax_jiyanqi": "放射性基岩气",
-    "material.gtceu.radioactive_metals_mix": "放射性金属混合物"
+    "material.gtceu.radioactive_metals_mix": "放射性金属混合物",
+    "material.gtceu.boundless": "无限"
 }
