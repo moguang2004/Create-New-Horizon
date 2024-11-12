@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1731381645630
+  last_edited_time = 1731407819598
   is_enabled = true
   randommode = true
   randomgroup = 10
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = New Horizon
-  [loading_requirement_container_meta:5036310a-754d-43a2-9147-e282a8d9be36-1731381204352] = [groups:][instances:]
+  [loading_requirement_container_meta:eef79a3c-f433-407e-8e7f-2506e405e3e2-1731407712612] = [groups:][instances:]
 }
 
 menu_background {

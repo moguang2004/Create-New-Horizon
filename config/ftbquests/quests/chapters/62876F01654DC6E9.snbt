@@ -726,6 +726,783 @@
 			x: 13.5d
 			y: -0.5d
 		}
+		{
+			description: ["{ftbquests.chapter.73C02AD6350A32CA.quest2.description1}"]
+			id: "279A1E4B92095342"
+			subtitle: "{ftbquests.chapter.73C02AD6350A32CA.quest2.subtitle}"
+			tasks: [{
+				id: "5AC43C704F438EDB"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["279A1E4B92095342"]
+			description: ["{ftbquests.chapter.73C02AD6350A32CA.quest3.description1}"]
+			id: "54905BF233504288"
+			subtitle: "{ftbquests.chapter.73C02AD6350A32CA.quest3.subtitle}"
+			tasks: [{
+				id: "263F6EEA59B30231"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["279A1E4B92095342"]
+			description: ["{ftbquests.chapter.73C02AD6350A32CA.quest7.description1}"]
+			id: "0781523864DA0E6F"
+			rewards: [{
+				id: "74D0D0F825D7E269"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.73C02AD6350A32CA.quest7.subtitle}"
+			tasks: [{
+				id: "1BC427876BADB717"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["0781523864DA0E6F"]
+			id: "3735FCA33E41C02D"
+			tasks: [{
+				id: "19DD7B9333240B22"
+				title: "{ftbquests.chapter.73C02AD6350A32CA.quest9.task.title1}"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "5CE850CEA4AC3BC2"
+			tasks: [{
+				id: "17598288021511FE"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "73309E9FC999FA05"
+			tasks: [{
+				id: "7F599503D300C09C"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "322D437C62E4EDCA"
+			tasks: [{
+				id: "3A0E04F93199D8A1"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "145F6AE5468D39F8"
+			tasks: [{
+				id: "19B0CD0D52755E4B"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "133D33113384A8B3"
+			tasks: [{
+				id: "58A57D97B21D9513"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "3DAD07199A1266ED"
+			tasks: [{
+				id: "2F889473233146BB"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 9.738095238095262d
+			y: 16.3761904761905d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "78DC63D0B0C48AF4"
+			tasks: [{
+				id: "2B6A38DD26606B60"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "6640BE34BBB8E4F0"
+			tasks: [
+				{
+					id: "31A19946CDCDC466"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "75DC0E4C1FE1E824"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "3F36805B6987E82B"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					type: "item"
+				}
+				{
+					id: "5933BE549AF0B37D"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "700781EA563F1AEC"
+			tasks: [{
+				id: "2851CDD24F029A65"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 5.27380952380954d
+			y: 16.30476190476194d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "21F666016C822401"
+			tasks: [{
+				id: "017F9419C13C0F04"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "77DF15F23373A8A0"
+			tasks: [{
+				id: "33D1ADDE89F0B38C"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "234CCA57E87316E1"
+			tasks: [{
+				id: "32C14EE90EF55D40"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: 5.238095238095248d
+			y: 18.661904761904786d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "5FCBB17A5459F08D"
+			tasks: [{
+				id: "0E581DCF0AE0C274"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "496C5CB5174938A1"
+			tasks: [{
+				id: "4B34FC93495A32FD"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: 9.702380952380963d
+			y: 18.554761904761925d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "7646D252162E83B9"
+			tasks: [{
+				id: "1F4E6FE5D7056F2F"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -1.3095238095238102d
+			y: 20.5d
+		}
+		{
+			dependencies: ["0781523864DA0E6F"]
+			id: "33C54DD646437EEE"
+			tasks: [{
+				id: "61D5802D4311F02B"
+				title: "{ftbquests.chapter.73C02AD6350A32CA.quest8.task.title1}"
+				type: "checkmark"
+			}]
+			x: -0.8095238095238102d
+			y: 17.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "68C8F7F1E87014F2"
+			tasks: [{
+				id: "613536456D4AE2CE"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -2.4285714285714235d
+			y: 20.226190476190503d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "6D1026F364562E8D"
+			tasks: [{
+				id: "2A2BC587BE8BE4A0"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -1.3095238095238102d
+			y: 14.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "2AB1AB0565F3A848"
+			tasks: [{
+				id: "0ACAC752D58736F9"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -2.4642857142857153d
+			y: 14.726190476190517d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "76133CA093EA9FC5"
+			tasks: [{
+				id: "7F1BEC3DC6385DF1"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: -0.3095238095238102d
+			y: 20.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "15A384F3AD04B1F0"
+			tasks: [{
+				id: "2F8F9BFB62C9B10F"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: 0.6904761904761898d
+			y: 20.0d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "73A1536531164747"
+			tasks: [{
+				id: "0F1464A94688DDFA"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 1.3571428571428612d
+			y: 19.40476190476194d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "59F543F66DDC8E17"
+			tasks: [{
+				id: "206AE2485B236BFA"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: 0.6904761904761898d
+			y: 15.0d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "2CE0147874EA13B0"
+			tasks: [{
+				id: "7898D9DD671DDF31"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: -3.80952380952381d
+			y: 16.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "6ADC6250C92382E4"
+			tasks: [{
+				id: "1D2CB3790BA11D27"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: -3.30952380952381d
+			y: 15.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "1CD81B3B7F12A299"
+			tasks: [{
+				id: "0E8772B252575E83"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: 1.3571428571428612d
+			y: 15.654761904761934d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "1DC84BCE02739860"
+			tasks: [{
+				id: "6338843FBFD647CA"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -0.3095238095238102d
+			y: 14.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "04CEA7F790D97C11"
+			tasks: [{
+				id: "001C60A4FD6F29FF"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "7D1E6DC7A8976AB2"
+			tasks: [{
+				id: "7D2BD1F48B9D8D66"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 1.892857142857153d
+			y: 16.47619047619051d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "3C73F3EEBA9A30B0"
+			tasks: [{
+				id: "1A48465644DD0503"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -3.80952380952381d
+			y: 18.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "2A1F314C5BD05E53"
+			tasks: [{
+				id: "2E81B781803A0616"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: -3.30952380952381d
+			y: 19.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "22377C98D43044D5"
+			tasks: [{
+				id: "49FDC94EE7DE7F25"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 17.547619047619087d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "38E960B889B6BB8B"
+			tasks: [{
+				id: "2A01FC894C57524E"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: 1.8404761904762168d
+			y: 18.523809523809554d
+		}
+		{
+			dependencies: ["1A3BB6F4D606EF15"]
+			description: [
+				"{ftbquests.chapter.73C02AD6350A32CA.quest6.description1}"
+				"{ftbquests.chapter.73C02AD6350A32CA.quest6.description2}"
+				"{ftbquests.chapter.73C02AD6350A32CA.quest6.description3}"
+			]
+			id: "012DF22FC3551C63"
+			subtitle: "{ftbquests.chapter.73C02AD6350A32CA.quest6.subtitle}"
+			tasks: [{
+				id: "024B3F6216FF2B74"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5B16C247EC0CDF9C"]
+			description: ["{ftbquests.chapter.73C02AD6350A32CA.quest5.description1}"]
+			id: "1A3BB6F4D606EF15"
+			subtitle: "{ftbquests.chapter.73C02AD6350A32CA.quest5.subtitle}"
+			tasks: [{
+				id: "5B38A8592D0882AC"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["54905BF233504288"]
+			description: ["{ftbquests.chapter.73C02AD6350A32CA.quest4.description1}"]
+			id: "5B16C247EC0CDF9C"
+			subtitle: "{ftbquests.chapter.73C02AD6350A32CA.quest4.subtitle}"
+			tasks: [{
+				id: "2AB607858ABB8C4A"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.73C02AD6350A32CA.quest43.description1}"
+				"{ftbquests.chapter.73C02AD6350A32CA.quest43.description2}"
+				"{ftbquests.chapter.73C02AD6350A32CA.quest43.description3}"
+				"{ftbquests.chapter.73C02AD6350A32CA.quest43.description4}"
+				"{ftbquests.chapter.73C02AD6350A32CA.quest43.description5}"
+				"{ftbquests.chapter.73C02AD6350A32CA.quest43.description6}"
+				"{ftbquests.chapter.73C02AD6350A32CA.quest43.description7}"
+			]
+			id: "7C74E83D14A52B40"
+			rewards: [{
+				id: "4EE5AE4D16B85076"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.73C02AD6350A32CA.quest43.subtitle}"
+			tasks: [
+				{
+					id: "559BFF84C52D8921"
+					item: "immersive_aircraft:hull"
+					type: "item"
+				}
+				{
+					id: "7EE9324AAD93AA35"
+					item: "immersive_aircraft:engine"
+					type: "item"
+				}
+				{
+					id: "3CDEA71A6F751973"
+					item: "immersive_aircraft:sail"
+					type: "item"
+				}
+				{
+					id: "55FBBFE93F0E3E9D"
+					item: "immersive_aircraft:propeller"
+					type: "item"
+				}
+				{
+					id: "3DB74316CAE571A8"
+					item: "immersive_aircraft:boiler"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.73C02AD6350A32CA.quest43.title}"
+			x: -1.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "1195530C11BDBA9C"
+			rewards: [{
+				id: "63F747E0A1650F13"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "36FC1E1C81EEE772"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "47D8DB6B75CAC55C"
+			rewards: [{
+				id: "63556B09F7B55B1D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "46A2D509708329EE"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "019DCAFB7E26F21B"
+			rewards: [{
+				id: "49EE58028AB4DC45"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "112B2A881DC211E4"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "7C7A294F3BCB741E"
+			rewards: [{
+				id: "786D82AFD644C6DD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "711CDEA242874856"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "6448A932953D1761"
+			rewards: [{
+				id: "1C4583D0B886C699"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "070AC8B181893FAE"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 27.5d
+		}
+		{
+			description: ["{ftbquests.chapter.73C02AD6350A32CA.quest49.description1}"]
+			id: "55F6F664DE4B1689"
+			rewards: [{
+				id: "51256E170F866A0B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "{ftbquests.chapter.73C02AD6350A32CA.quest49.subtitle}"
+			tasks: [{
+				id: "3ED539F4E191F910"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "06FAB7A7B470A946"
+			subtitle: "{ftbquests.chapter.73C02AD6350A32CA.quest50.subtitle}"
+			tasks: [{
+				id: "6DCCEE8C8B46D79D"
+				title: "{ftbquests.chapter.73C02AD6350A32CA.quest50.task.title1}"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "55F7B4818DB8AD4C"
+			rewards: [{
+				id: "2C1B3CD7C0EECEFE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "32B744F4468FF25A"
+				item: "immersive_aircraft:eco_engine"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "7168689CF5DD060A"
+			rewards: [{
+				id: "0FC8C566922E618F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "664FCCFCB5855185"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			description: [
+				"{ftbquests.chapter.73C02AD6350A32CA.quest53.description1}"
+				"{ftbquests.chapter.73C02AD6350A32CA.quest53.description2}"
+			]
+			id: "3A2AFCBCF688BA0E"
+			rewards: [{
+				id: "09F5D90690F20775"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "01610B19EAC71266"
+				item: "immersive_aircraft:enhanced_propeller"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "1976C34E49EBCDEF"
+			rewards: [{
+				id: "21B9092B98F33E2E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "505D4C32E3909C12"
+				item: "immersive_aircraft:steel_boiler"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "53C861B8F44662AC"
+			rewards: [{
+				id: "62088454A1F2F6FA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "73072BF932172DA6"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "5BBCA1C1E7F50A9C"
+			rewards: [{
+				id: "56A9AB36989F7717"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3A00BA80B047B416"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "702F9A38209635D6"
+			rewards: [{
+				id: "2789EBD3707E2455"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1F00D5729F08AF4D"
+				item: "immersive_aircraft:gyroscope"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "7B5373B44AA60E51"
+			rewards: [{
+				id: "70EE22A7542BDCEC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "39B11504960ACF24"
+				item: "immersive_aircraft:hull_reinforcement"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "081AB73C4A19392E"
+			tasks: [{
+				id: "5DB0C23687F16C27"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 27.5d
+		}
 	]
 	title: "{ftbquests.chapter.62876F01654DC6E9.title}"
 }

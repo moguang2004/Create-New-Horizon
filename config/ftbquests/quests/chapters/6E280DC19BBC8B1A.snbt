@@ -6,7 +6,7 @@
 	group: "71414D2BDE140EDA"
 	icon: "minecraft:dragon_egg"
 	id: "6E280DC19BBC8B1A"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
