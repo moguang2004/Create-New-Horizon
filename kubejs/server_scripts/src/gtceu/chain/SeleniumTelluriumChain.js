@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('6x gtceu:sodium_hydroxide_dust')
         .circuit(2)
     // TeO2 + 2SO2 + H2O -> Te + H2SO4 + SO3
-    ctnh.electrolyzer('tellurium_recycle2')
+    ctnh.chemical_reactor('tellurium_recycle2')
         .EUt(GTValues.VA[GTValues.EV])
         .duration(300)
         .itemInputs('3x gtceu:tellurium_dioxide_dust')
