@@ -976,14 +976,12 @@ ServerEvents.recipes(event => {
     })
     event.shaped(
         Item.of('ars_nouveau:novice_spell_book', 1), [
-        " A ",
-        "CBD",
-        " E "
+        "AAA",
+        "ABA",
+        "AEA"
     ], {
-        A: 'tetra:pristine_diamond',
+        A: 'ars_nouveau:magebloom_fiber',
         B: 'minecraft:book',
-        C: 'tetra:pristine_emerald',
-        D: 'tetra:pristine_lapis',
         E: 'botania:manasteel_ingot'
     })
     event.shaped(
