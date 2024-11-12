@@ -118,6 +118,11 @@
 					item: "botania:mana_diamond"
 					type: "item"
 				}
+				{
+					id: "0F3C02F82A131D61"
+					item: "botania:mana_glass"
+					type: "item"
+				}
 			]
 			x: 4.5d
 			y: 1.5d
@@ -282,6 +287,11 @@
 					item: "botania:pixie_dust"
 					type: "item"
 				}
+				{
+					id: "4FF1D446E36EEEE1"
+					item: "botania:elf_glass"
+					type: "item"
+				}
 			]
 			title: "{ftbquests.chapter.09F33579334F2607.quest19.title}"
 			x: 12.0d
@@ -385,6 +395,7 @@
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
+			hide_dependent_lines: true
 			id: "3997A8293A186F50"
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest28.subtitle}"
 			tasks: [{
@@ -392,8 +403,8 @@
 				item: "botania:life_essence"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 7.5d
+			x: 17.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["20DD3B07D56B6A8D"]
@@ -547,7 +558,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["5B47ED8585E8715F"]
+			dependencies: [
+				"5B47ED8585E8715F"
+				"3997A8293A186F50"
+			]
 			id: "002DD1BBAD2D049F"
 			tasks: [{
 				id: "6551DE3F226A2269"
@@ -909,6 +923,17 @@
 			}]
 			x: 9.5d
 			y: 10.5d
+		}
+		{
+			dependencies: ["002DD1BBAD2D049F"]
+			id: "29A976DE3BC32AD2"
+			tasks: [{
+				id: "377CC6C13700A490"
+				item: "gtceu:mana_reactor"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
 		}
 	]
 	title: "{ftbquests.chapter.09F33579334F2607.title}"

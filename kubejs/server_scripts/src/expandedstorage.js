@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
                 "BBB"
             ], {
                 A: 'minecraft:diamond',
-                B: `gtceu:obsidianss_plate`
+                B: `gtceu:obsidian_plate`
             })
         }
     }

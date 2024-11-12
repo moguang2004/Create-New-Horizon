@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0AD950C34ED565A4"
+	group: "71414D2BDE140EDA"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				temperature: 25.6f
+			}
+		}
+		id: "legendarysurvivaloverhaul:thermometer"
+	}
+	id: "0AD950C34ED565A4"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1559383C30926214"
+			tasks: [{
+				id: "2060F90A899AE198"
+				item: "legendarysurvivaloverhaul:cooling_coat_1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "0697046CBEB2EEE9"
+			tasks: [{
+				id: "03D52215105060C3"
+				item: "legendarysurvivaloverhaul:heating_coat_1"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "10CC4F18FCD666F7"
+			tasks: [{
+				id: "18C35939ECACEDE6"
+				item: "legendarysurvivaloverhaul:thermal_coat_1"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: ["传说生存模组中，有两个很重要的概念，体温和室温（环境温度），其中室温在正常游戏难度下是&a不可见的&r，除非调至和平模式或者拥有温度计，而&a体温可以在经验条上方的状态栏中观察得到&r。正常情况下，体温会维持在正常范围内，一旦环境过热或者过冷，状态栏上面的小球周围就会显示出来，而保持过热或过冷状态太久，就会导致小球的颜色逐渐变红（蓝），当图标发生改变时，往往会伴随很多其他现象，如&4视线模糊，走不动路&r等等，此时如果还不及时回到正常温度下，就会&4迅速开始掉血直至死亡&r。"]
+			id: "3DEACC2059BBDB47"
+			subtitle: "体温part"
+			tasks: [{
+				id: "3A403EB9C65CA260"
+				title: "须知"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: ["传说生存中的温度会受很多因素影响，如维度、海拔、群系、晨昏、干湿、季节等。"]
+			id: "35C275383AEEE23D"
+			subtitle: "外界温度part"
+			tasks: [{
+				id: "533FDBC115480B2E"
+				title: "须知"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+	]
+	title: "传说生存"
+}

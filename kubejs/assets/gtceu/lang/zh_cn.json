@@ -484,6 +484,7 @@
     "ctnh.digestion_tank.bio_growth_temperature": "当化粪池温度处于§236§r至§238§r度之间时为最适生长温度，配方获得1.2倍效率，越偏离最适生长温度，配方效率越低，最低为三分之一",
     "kubejs.coilmachine_temperature": "热容:§4%sK§r",
     "desalting_introduction": "从海水中烘干出盐，很环保不是吗？",
+    "ctnh.mana_generator_turbine_rune": "在机器内放入符文可以提升发电效率：\n  一级符文：发电量x1.5，消耗量x0.9\n  二级符文：发电量x2，消耗量x0.75\n  三级符文：发电量x3，消耗量x0.6\n  四级符文：发电量x4，消耗量x0.4",
     "mana_generator_turbine_tier1": "简易魔力转换器",
     "ctnh.mana_generator_turbine_tier1.basic_power": "§e基础产能功率：§r256 EU/t",
     "ctnh.mana_generator_turbine_tier1.restriction": "转子支架等级不能超过§bMV§r",
