@@ -156,7 +156,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle("ABBBBBA", "ABB@BBA", "ABBBBBA", "ACCCCCA", "AAAAAAA") 
             .where("A", Predicates.blocks("gtceu:alfsteel_frame"))
             .where("B", Predicates.blocks("botania:polished_livingrock")
-                .or(Predicates.autoAbilities([GTRecipeTypes.ASSEMBLER_RECIPES],false,false,true,true,true,true))
+                .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setExactLimit(1))
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS)))
             .where("C", Predicates.blocks("botania:mana_glass"))
             .where("D", Predicates.blocks("kubejs:elementium_casing"))

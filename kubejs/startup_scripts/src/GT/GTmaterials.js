@@ -1406,7 +1406,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("adamantite")
         .ingot()
         .dust()
-        .color(0xCE1B1B)
+        .color(0xCE1B1B).iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FOIL)
     event.create("taranmix")
         .dust()
@@ -1427,7 +1427,8 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .ingot()
         .dust()
         .liquid()
-        .color(0xFFFFFF)
+        .color(0xFFFFFF).iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FOIL)
 })
 
 StartupEvents.postInit(event => {

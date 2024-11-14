@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/machine_casing_robust_tungstensteel_ctm"
+    }
+}
