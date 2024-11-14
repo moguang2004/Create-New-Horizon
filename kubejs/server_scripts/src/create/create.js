@@ -403,7 +403,7 @@ ServerEvents.recipes(event => {
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:gypsum_dust']),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:concrete', 250)])
   ]).transitionalItem(transitional)
-    .loops(4)
+    .loops(2)
   event.remove({ output: 'gtceu:firebricks' })
 })
 

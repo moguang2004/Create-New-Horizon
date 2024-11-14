@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
      * @type {Internal.CustomMultiblockBuilder}
      */
     let builder=event.create('eternal_well_of_suffer', 'multiblock')
-    for(let i=0;i<=7;i++) builder.tooltips(Component.translatable(`ctnh.${builder.id}.${i}`));
+    for(let i=0;i<=8;i++) builder.tooltips(Component.translatable(`ctnh.${builder.id}.${i}`));
     builder.rotationState(RotationState.NON_Y_AXIS)
 
         .recipeTypes([GTRecipeTypes.get('digital_well_of_suffer')])

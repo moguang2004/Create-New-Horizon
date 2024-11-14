@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
         'quartzite', 'opal', 'redstone', 'ruby', 'cinnabar', 'nickel', 'lead', 'pentlandite', 'realgar', 'yellow_garnet', 'red_garnet',
         'basaltic_mineral_sand', 'granitic_mineral_sand', 'beryllium', 'molybdenum', 'molybdenite', 'garnierite', 'pentlandite', 'cobaltite',
         'topaz', 'blue_topaz', 'sulfur', 'chalcocite', 'bornite', 'sphalerite', 'sulfur', 'saltpeter', 'diatomite', 'electrotine', 'alunite',
-        'grossular', 'pyrolusite', 'tantalite', 'certus_quartz', 'barite','spessartine']
+        'grossular', 'pyrolusite', 'tantalite', 'certus_quartz', 'barite','spessartine','gypsum']
     let materials2 = ['nether_quartz', 'quartzite', 'coal', 'cassiterite', 'salt', 'rock_salt', 'lepidolite', 'blue_topaz', 'saltpeter', 'certus_quartz', 'emerald']
     let materials3 = ['alunite', 'grossular','spessartine']
     let materials4 = ['yellow_garnet', 'red_garnet']

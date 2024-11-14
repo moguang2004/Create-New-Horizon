@@ -41,22 +41,24 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build()
         )
         .onWorking((/**@type {$WorkableElectricMultiblockMachine} */machine) => {
-            let level = machine.level
-            let length = machine.getParts().size() + 2
-            let pos = machine.getPos()
-            let water = 0
-            for (let xoffset = -length + 1; xoffset < length; xoffset++) {
-                for (let zoffset = -length + 1; zoffset < length; zoffset++) {
-                    for (let yoffset = 0; yoffset > -4; yoffset--) {
-                        if (Math.sqrt(Math.pow(xoffset, 2) + Math.pow(zoffset, 2)) <= length) {
-                            if (level.getBlockState(pos.offset(xoffset, yoffset, zoffset)) == Blocks.WATER.defaultBlockState()) {
-                                water++
+            if(machine.getOffsetTimer() % 20 == 0){
+                let level = machine.level
+                let length = machine.getParts().size() + 2
+                let pos = machine.getPos()
+                let water = 0
+                for (let xoffset = -length + 1; xoffset < length; xoffset++) {
+                    for (let zoffset = -length + 1; zoffset < length; zoffset++) {
+                        for (let yoffset = 0; yoffset > -4; yoffset--) {
+                            if (Math.sqrt(Math.pow(xoffset, 2) + Math.pow(zoffset, 2)) <= length) {
+                                if (level.getBlockState(pos.offset(xoffset, yoffset, zoffset)) == Blocks.WATER.defaultBlockState()) {
+                                    water++
+                                }
                             }
                         }
                     }
                 }
+                machine.getHolder().self().persistentData.putInt('water', water)
             }
-            machine.getHolder().self().persistentData.putInt('water', water)
             return true
         })
         .additionalDisplay((machine, l) => {
