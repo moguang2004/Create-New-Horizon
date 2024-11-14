@@ -1203,6 +1203,28 @@ ServerEvents.recipes(event => {
         D: 'gtceu:firebricks',
     })
 
+    event.shaped(
+        Item.of('ctnhcore:testing_terminal', 1), [
+        "BBB",
+        "BAB",
+        "BBB"
+    ], {
+        A: 'gtceu:terminal',
+        B: 'minecraft:redstone'
+    })
+
+    event.shaped(
+        Item.of('ctnhcore:sweat_shop', 1), [
+        "BBB",
+        "CAC",
+        "EDE"
+    ], {
+        A: 'create:precision_mechanism',
+        B: 'gtceu:solid_machine_casing',
+        C: 'gtceu:lv_electric_motor',
+        D: 'gtceu:lv_assembler',
+        E: 'gtceu:lv_emitter'
+    })
 
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
@@ -1210,27 +1232,4 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:toxic_caves"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT())
-
-    
-    // function add_data(event,entity,item){
-    //     event.shaped(Item.of('gtceu:data_stick',`{mobs:${entity}}`).strongNBT(), [
-    //         "BBB",
-    //         "BAB",
-    //         "BBB"
-    //     ], {
-    //         A: "gtceu:data_stick",
-    //         B: item,
-    //     })
-    // }
-    // add_data(event,'zombie','minecraft:rotten_flesh')
-    // add_data(event,'skeleton','minecraft:bone')
-    // add_data(event,'enderman','minecraft:ender_pearl')
-    // add_data(event,'creeper','minecraft:gunpowder')
-    // add_data(event,'blaze','minecraft:blaze_rod')
-    // add_data(event,'slime','minecraft:slime_ball')
-    // add_data(event,'chicken','minecraft:chicken')
-    // add_data(event,'cow','minecraft:beef')
-    // add_data(event,'sheep','minecraft:mutton')
-    // add_data(event,'pig','minecraft:porkchop')
-    // add_data(event,'rabbit','minecraft:rabbit_foot')
 })
