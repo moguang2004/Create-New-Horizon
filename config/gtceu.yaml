@@ -199,7 +199,7 @@ machines:
   # Whether multiblocks should ignore all cleanroom requirements.
   # This does nothing if enableCleanroom is false.
   # Default: false
-  cleanMultiblocks: true
+  cleanMultiblocks: false
 
   # Block to replace mined ores with in the miner and multiblock miner.
   # Default: minecraft:cobblestone
