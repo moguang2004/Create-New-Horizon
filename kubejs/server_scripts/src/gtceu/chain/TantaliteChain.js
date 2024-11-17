@@ -41,10 +41,8 @@ ServerEvents.recipes(event => {
         .duration(80)
     //铌钽氧化物分离
     ctnh.centrifuge("tantalite_oxide_dust")
-        .inputFluids(Fluid.of("gtceu:niobium_tantalite", 1000))
-        .itemOutputs("64x gtceu:tantalite_oxide_dust", "48x gtceu:tantalite_oxide_dust","64x gtceu:niobium_oxide_dust", "62x gtceu:niobium_oxide_dust")
-        .outputFluids(Fluid.of("minecraft:water", 16000))
-        .outputFluids(Fluid.of("minecraft:water", 16000))
+        .inputFluids(Fluid.of("gtceu:niobium_tantalite", 2000))
+        .itemOutputs("56x gtceu:tantalite_oxide_dust", "63x gtceu:niobium_oxide_dust")
         .outputFluids(Fluid.of("minecraft:water", 16000))
         .outputFluids(Fluid.of("minecraft:water", 16000))
         .EUt(480)
