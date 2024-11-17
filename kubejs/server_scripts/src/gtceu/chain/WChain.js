@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         .itemOutputs("1x gtceu:tungsten_dust")
         .outputFluids("minecraft:water 3000")
         .circuit(2)
-        .EUt(1920)
+        .EUt(480)
         .duration(60)
         .blastFurnaceTemp(3500)
     ctnh.electric_blast_furnace("wuding")
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
         .itemInputs('3x gtceu:carbon_dust')
         .itemOutputs('2x gtceu:hot_tungsten_ingot')
         .outputFluids('gtceu:carbon_dioxide 3000')
-        .EUt(1920)
+        .EUt(480)
         .duration(1000)
         .blastFurnaceTemp(3500)
     

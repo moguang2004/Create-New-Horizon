@@ -450,12 +450,6 @@ ServerEvents.recipes(event => {
         .itemInputs('2x gtceu:sodium_fluoride_dust')
         .itemOutputs('gtceu:sodium_dust')
         .outputFluids('gtceu:fluorine 1000')
-    event.recipes.gtceu.large_chemical_reactor('fluorine_from_naf')
-        .duration(160)
-        .EUt(120)
-        .itemInputs('2x gtceu:sodium_fluoride_dust')
-        .itemOutputs('gtceu:sodium_dust')
-        .outputFluids('gtceu:fluorine 1000')
     //氟化钠合成
     event.recipes.gtceu.chemical_reactor('naf_from_sodium')
         .duration(160)

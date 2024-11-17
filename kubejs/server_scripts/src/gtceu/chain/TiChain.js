@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(200)
     //进一步除钒Al+3TiCl4---->AlCl3+3TiCl3
-    ctnh.chemical_reactor("titanium_vx")
+    ctnh.large_chemical_reactor("titanium_vx")
         .inputFluids("gtceu:titanium_tetrachloride_v 6000")//24B+18B+6B
         .inputFluids("minecraft:water 9000")
         .itemInputs('2x gtceu:aluminium_dust')
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('21x gtceu:vanadium_pentoxide_dust')
         .outputFluids("gtceu:hydrochloric_acid 18000")//18B
         .outputFluids("gtceu:titanium_tetrachloride 6000")
-        .EUt(480)
+        .EUt(120)
         .duration(400)
     //合成含钒四氯化钛42B氯
     ctnh.large_chemical_reactor("ticl4")
@@ -34,15 +34,15 @@ ServerEvents.recipes(event => {
         .itemInputs('10x gtceu:magnesium_dust')//6-4 30-20  2-6 10-30
         .itemOutputs('5x gtceu:hot_titanium_ingot')
         .itemOutputs('30x gtceu:magnesium_chloride_dust')
-        .EUt(1920)
-        .duration(250)
-        .blastFurnaceTemp(2500)
+        .EUt(480)
+        .duration(150)
+        .blastFurnaceTemp(2200)
     //氯化铝电解
     ctnh.electrolyzer("al")
         .itemInputs('4x gtceu:aluminium_chloride_dust')
         .itemOutputs('gtceu:aluminium_dust')
         .outputFluids("gtceu:chlorine 3000")
-        .EUt(1920)
+        .EUt(96)
         .duration(10)
 
 
