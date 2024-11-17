@@ -26,6 +26,8 @@
 	subterranodon_indicator_y = 6
 	#whether to cave maps are visible when held by players from the third-person perspective.
 	cave_maps_visible_in_third_person = true
+	#true if sugar rush makes the world more saturated. May conflict with shaders.
+	sugar_rush_saturation_effect = true
 
 [audio]
 	#whether nuclear explosions briefly muffle other sounds.

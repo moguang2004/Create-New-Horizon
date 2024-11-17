@@ -1281,7 +1281,7 @@
 		}
 		{
 			dependencies: ["481C3D09737918E8"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1756E4E4880B8FD4"
 			rewards: [
 				{
@@ -1387,7 +1387,7 @@
 				"    但是，看着你曾经搭过的石油重工，多少会有点自豪吧！不必灰心，人总是要向前看的。"
 				"    也许你走的是不同的路，有各种各样的逃课方式，觉得走石化的这辈子有了，但是总会有人选择走的。无论你做什么选择，以后大概率都会后悔，因为得不到的才是最好的。所以，如果选了这条路，无论是主动还是被动，都请好好走下去吧，每个人都有无限的可能和光明的未来。"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4EA7875B6E1341B4"
 			rewards: [{
 				exclude_from_claim_all: true

@@ -1056,18 +1056,6 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('jackseconomy:importer', 1), [
-          "ABA",
-          "BCB",
-          "ADA"
-        ], {
-        A: 'gtceu:gold_foil',
-        B: 'gtceu:steel_plate',
-        C: 'kubejs:heavy_machinery_casing',
-        D: 'gtceu:red_alloy_single_wire'
-    })
-
-    event.shaped(
         Item.of('jackseconomy:exporter', 1), [
           "ADA",
           "BCB",

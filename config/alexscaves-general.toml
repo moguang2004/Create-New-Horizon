@@ -98,9 +98,21 @@
 	wandering_traders_sell_cabin_maps = true
 	#Whether the Enchantments added by AC appear in vanilla loot tables.
 	enchantments_in_loot = false
+	#percent chance of witch hut chest having a cave tablet for candy cavity in its loot table:
+	#Range: 0.0 ~ 1.0
+	candy_cavity_loot_chance = 0.9
+	#Whether a loot chest is added to vanilla's witch huts. This is included to provide another place to find candy cavity biome cave tablets.
+	loot_chest_in_witch_huts = true
 
 [mob-spawning]
 	#Cave Creatures (All dinosaurs, raycats, etc) spawn at this frequency. Their cap is calculated by multiplying this number with the default mob cap for surface animals.
 	#Range: 0.0 ~ 10.0
 	cave_creature_spawn_count_modifier = 1.75
+	#The percent chance that drowned have to spawn wearing diving gear in the Abyssal Chasm. 0 = no diving gear wearing drowned will spawn
+	#Range: 0.0 ~ 1.0
+	drowned_diving_gear_spawn_chance = 0.2
+
+[potion-behavior]
+	#Whether the Sugar Rush changes the tick rate of the game in the area of affected players.
+	sugar_rush_slows_time = true
 

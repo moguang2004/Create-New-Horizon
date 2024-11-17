@@ -1,0 +1,453 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4EE5451097565A1A"
+	group: "71414D2BDE140EDA"
+	icon: "gtceu:neutronium_credit"
+	id: "4EE5451097565A1A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:iron_ingot"
+			id: "2D629AE957D81663"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:iron_ingot\"}]}"
+				elevate_perms: true
+				icon: "minecraft:iron_ingot"
+				id: "2E9EFC15A51DD85A"
+				title: "获取铁锭进口清单"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2F57CE68FB752EF4"
+				title: "铁锭"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:copper_ingot"
+			id: "0C6A5C27AD28AAC3"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:copper_ingot\"}]}"
+				elevate_perms: true
+				icon: "minecraft:copper_ingot"
+				id: "78E99FE894D1D315"
+				title: "获取铜锭进口清单"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6697A33D7EF89AC1"
+				title: "铜锭"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:gold_ingot"
+			id: "602579A896CC72A7"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:gold_ingot\"}]}"
+				elevate_perms: true
+				icon: "minecraft:gold_ingot"
+				id: "4FC82A09C2AEE1D8"
+				title: "获取金锭进口清单"
+				type: "command"
+			}]
+			tasks: [{
+				id: "288E72B28FBE1C95"
+				title: "金锭"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "gtceu:tin_ingot"
+			id: "32605A7F439AB570"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:tin_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:tin_ingot"
+				id: "70708B2BF697E27A"
+				title: "获取锡锭进口清单"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4DA6D68FE7F68FFC"
+				title: "锡锭"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "gtceu:zinc_ingot"
+			id: "6A30D5C2A3EDF450"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:zinc_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:zinc_ingot"
+				id: "56A801E383F3F2F0"
+				title: "获取锌锭进口清单"
+				type: "command"
+			}]
+			tasks: [{
+				id: "10A6845657D139F7"
+				title: "锌锭"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:ender_pearl"
+			id: "0B45896214F13658"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:ender_pearl\"}]}"
+				elevate_perms: true
+				icon: "minecraft:ender_pearl"
+				id: "206247FCD42EA645"
+				title: "末影珍珠"
+				type: "command"
+			}]
+			tasks: [{
+				id: "58B069BDAAEA2AF7"
+				title: "末影珍珠"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "3C7F3285E424B55B"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:wrought_iron_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:wrought_iron_ingot"
+				id: "666D6EFEBAF48D70"
+				title: "锻铁锭"
+				type: "command"
+			}]
+			tasks: [{
+				id: "69CF2D0D3FD64B97"
+				title: "锻铁锭"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:redstone"
+			id: "742758F8B0253B78"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:wrought_iron_ingot\"}]}"
+				elevate_perms: true
+				icon: "minecraft:redstone"
+				id: "18BDBC8320A45766"
+				title: "红石"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7E5B4FBDD76E3820"
+				title: "红石"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1162E347E7C00175"]
+			icon: "gtceu:steel_ingot"
+			id: "232568A83855DB3F"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:steel_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:steel_ingot"
+				id: "35E93981060C5CAF"
+				title: "钢锭"
+				type: "command"
+			}]
+			tasks: [{
+				id: "55AA53054D84BD16"
+				title: "钢锭"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6D9003172EF921C9"]
+			icon: "gtceu:andesite_alloy_ingot"
+			id: "21EAC6922F7AD1D3"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:andesite_alloy_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:andesite_alloy_ingot"
+				id: "283EB62DE35352D5"
+				title: "安山合金锭"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7A5A97AB1BB3689E"
+				title: "安山合金锭"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["700219157D99E263"]
+			icon: "gtceu:bronze_ingot"
+			id: "7F5291B0CD3AFA62"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:bronze_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:bronze_ingot"
+				id: "4454AEABA5988E05"
+				title: "青铜锭"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2DA9B3A0BBAD0259"
+				title: "青铜锭"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["700219157D99E263"]
+			icon: "gtceu:brass_ingot"
+			id: "0950C79A6AAC4B8A"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:brass_ingot\"}]}"
+				elevate_perms: true
+				icon: "gtceu:brass_ingot"
+				id: "57B6DD330EAC015E"
+				title: "黄铜锭"
+				type: "command"
+			}]
+			tasks: [{
+				id: "49241705B9BBA45E"
+				title: "黄铜锭"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7E591C0E7278D12F"]
+			icon: "gtceu:treated_wood_planks"
+			id: "587F5DD7CFFEBD6C"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:treated_wood_planks\"}]}"
+				elevate_perms: true
+				icon: "gtceu:treated_wood_planks"
+				id: "4F27C83FC51A9B5F"
+				title: "防腐木板"
+				type: "command"
+			}]
+			tasks: [{
+				id: "41077F5E87BD109D"
+				title: "防腐木板"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6FDDD78D3F1CD965"]
+			icon: "gtceu:coke_gem"
+			id: "07221568FA9F69B4"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:coke_gem\"}]}"
+				elevate_perms: true
+				icon: "gtceu:coke_gem"
+				id: "763E6AC1F358378B"
+				title: "焦煤"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5700F7FB552F9273"
+				title: "焦煤"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:diamond"
+			id: "1E0B75DA1DBFB761"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:diamond\"}]}"
+				elevate_perms: true
+				icon: "minecraft:diamond"
+				id: "410F2BE3773F3293"
+				title: "钻石"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7CCD6181C62D45E7"
+				title: "钻石"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BA86B01337A91D5"]
+			icon: "minecraft:coal"
+			id: "213B14E3D0F81D33"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:coal\"}]}"
+				elevate_perms: true
+				icon: "minecraft:coal"
+				id: "0102924B42DD66B9"
+				title: "煤炭"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0517C478A5A52099"
+				title: "煤炭"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["012D04F8C8D62292"]
+			icon: "botania:rune_water"
+			id: "267B3ED5B4C140A3"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"botania:rune_water\"}]}"
+				elevate_perms: true
+				icon: "botania:rune_water"
+				id: "775EDE035BFDD52F"
+				title: "水之符文"
+				type: "command"
+			}]
+			tasks: [{
+				id: "607BD27AEF3590CA"
+				title: "水之符文"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["012D04F8C8D62292"]
+			icon: "botania:rune_fire"
+			id: "5F4FB9C28C2B9AA9"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"botania:rune_fire\"}]}"
+				elevate_perms: true
+				icon: "botania:rune_fire"
+				id: "0CC80426C24AC393"
+				title: "火之符文"
+				type: "command"
+			}]
+			tasks: [{
+				id: "28452AEF89217804"
+				title: "火之符文"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["012D04F8C8D62292"]
+			icon: "botania:rune_earth"
+			id: "2D865622C976F3C0"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"botania:rune_earth\"}]}"
+				elevate_perms: true
+				icon: "botania:rune_earth"
+				id: "3DC636D43D453438"
+				title: "地之符文"
+				type: "command"
+			}]
+			tasks: [{
+				id: "48402B8A57B25694"
+				title: "地之符文"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["012D04F8C8D62292"]
+			icon: "botania:rune_air"
+			id: "7D622DAE1C128D65"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"botania:rune_air\"}]}"
+				elevate_perms: true
+				icon: "botania:rune_air"
+				id: "569650102B343070"
+				title: "风之符文"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6C391EC8C667D5DC"
+				title: "风之符文"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+	]
+	title: "小市场"
+}

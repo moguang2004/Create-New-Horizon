@@ -19,6 +19,7 @@
   "repairSpeed": 0.025,
   "repairExhaustion": 0.5,
   "collisionDamage": true,
+  "collisionDamageMultiplier": 40.0,
   "burnFuelInCreative": false,
   "acceptVanillaFuel": true,
   "useCustomKeybindSystem": true,
