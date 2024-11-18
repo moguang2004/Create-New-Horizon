@@ -41,16 +41,13 @@ StartupEvents.registry("block",event=>{
     event.create("machine_casing_sturdy_hsse_green_fence","fence")//我也不知道是啥   
 })
 
-StartupEvents.registry("item", event => {
-    event.create("snow_city_sword", "pickaxe")
-        .speedBaseline(17.0)
-        .speed(20.0)
+StartupEvents.registry('item', event => {
+    event.create('snow_city_sword','pickaxe')
+        .speedBaseline(1.0)//4的基础加减
+        .attackDamageBaseline(17)//5的基础加减
+        .rarity('rare')
         .maxDamage(114514)
-        .attackDamageBaseline(5.0)
-        .tier("incorrect_for_netherite_tool")
-        .displayName("雪城的大保健")
-        .texture("snow_city_sword.png")
-        .rarity("rare")
-        
-
+        .displayName('雪城的大保健')
+        .speed(100)
+        .tier('netherite')//下届合金
 })
