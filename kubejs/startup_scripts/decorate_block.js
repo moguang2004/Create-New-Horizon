@@ -40,3 +40,18 @@ StartupEvents.registry("block",event=>{
     event.create("machine_casing_sturdy_hsse_green_stairs","stairs")
     event.create("machine_casing_sturdy_hsse_green_fence","fence")//我也不知道是啥   
 })
+
+StartupEvents.registry("item", event => {
+    event.create("snow_city_sword", "pickaxe")
+        .speedBaseline(17.0)
+        .speed(20.0)
+        .maxDamage(114514)
+        .attackDamageBaseline(5.0)
+        .level(4)
+        .tier("incorrect_for_netherite_tool")
+        .displayName("雪城的大保健")
+        .texture("snow_city_sword.png")
+        .rarity("rare")
+        
+
+})
