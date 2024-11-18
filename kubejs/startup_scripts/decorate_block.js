@@ -47,7 +47,6 @@ StartupEvents.registry("item", event => {
         .speed(20.0)
         .maxDamage(114514)
         .attackDamageBaseline(5.0)
-        .level(4)
         .tier("incorrect_for_netherite_tool")
         .displayName("雪城的大保健")
         .texture("snow_city_sword.png")
