@@ -210,4 +210,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
     event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_aluminium_sulfite" })
+    event.remove({ id: "ironfurnaces:augments/augment_generator" })
+    event.remove({ id: "ironfurnaces:rainbow_plating" })
+    event.remove({ id: "gtceu:large_chemical_reactor/phosphoric_acid_from_pentoxide" })
 })

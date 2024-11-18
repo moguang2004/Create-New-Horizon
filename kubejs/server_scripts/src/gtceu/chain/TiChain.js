@@ -2,12 +2,13 @@ ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
     //四氯化钛处理
     ctnh.distillation_tower('refining_titanium_tetrachloride_bucket')
-        .inputFluids('gtceu:titanium_tetrachloride 3000')//12B
-        .outputFluids('gtceu:iron_iii_chloride 1000')//3B
-        .outputFluids('gtceu:titanium_tetrachloride 1000')//4B
-        .outputFluids('gtceu:refining_titanium_tetrachloride 1250')//5B
-        .EUt(480)
-        .duration(200)
+        .inputFluids('gtceu:titanium_tetrachloride 3000')//12B  24B
+        .itemOutputs('3x gtceu:gallium_dust')
+        .outputFluids('gtceu:iron_iii_chloride 1000')//3B   6B
+        .outputFluids('gtceu:titanium_tetrachloride 1000')//4B   8B
+        .outputFluids('gtceu:refining_titanium_tetrachloride 1250')//5B    10B
+        .EUt(120)
+        .duration(100)
     //进一步除钒Al+3TiCl4---->AlCl3+3TiCl3
     ctnh.large_chemical_reactor("titanium_vx")
         .inputFluids("gtceu:titanium_tetrachloride_v 6000")//24B+18B+6B
@@ -18,7 +19,7 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:hydrochloric_acid 18000")//18B
         .outputFluids("gtceu:titanium_tetrachloride 6000")
         .EUt(120)
-        .duration(400)
+        .duration(150)
     //合成含钒四氯化钛42B氯
     ctnh.large_chemical_reactor("ticl4")
         .inputFluids("gtceu:chlorine 48000")
@@ -27,7 +28,7 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:carbon_monoxide 12000")
         .outputFluids("gtceu:titanium_tetrachloride_v 6000")
         .EUt(480)
-        .duration(200)
+        .duration(120)
     //高纯四氯化钛转变为钛锭
     ctnh.electric_blast_furnace("taiding")
         .inputFluids('gtceu:refining_titanium_tetrachloride 5000')//20B
@@ -43,7 +44,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:aluminium_dust')
         .outputFluids("gtceu:chlorine 3000")
         .EUt(96)
-        .duration(10)
+        .duration(40)
 
 
 

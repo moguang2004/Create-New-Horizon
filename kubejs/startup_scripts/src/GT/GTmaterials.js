@@ -1469,34 +1469,82 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FOIL)
     event.create("taranium_dirty_helium3")
         .gas()
-        .color(0xFF5733); // 污浊氦-3
+        .color(0xFF5733) // 污浊氦-3
     event.create("taranium_enriched_liquid_helium3")
         .liquid()
-        .color(0x33FF57); // 富塔兰金属的液氦-3
+        .color(0x33FF57) // 富塔兰金属的液氦-3
     event.create("taranium_half_life_liquid_helium3")
         .liquid()
-        .color(0x3357FF); // 半衰塔兰金属的液氦-3
+        .color(0x3357FF) // 半衰塔兰金属的液氦-3
     event.create("taranium_depleted_liquid_helium3")
         .liquid()
-        .color(0xFF3333); // 枯竭塔兰金属的液氦-3
+        .color(0xFF3333) // 枯竭塔兰金属的液氦-3
     event.create("taranium_enriched_dirty_helium_plasma")
         .plasma()
-        .color(0x33FFFF); // 富塔兰金属的污浊氦等离子体
+        .color(0x33FFFF) // 富塔兰金属的污浊氦等离子体
     event.create("taranium_enriched_helium4_plasma")
         .plasma()
-        .color(0x5733FF); // 富塔兰金属的氦-4等离子体
+        .color(0x5733FF) // 富塔兰金属的氦-4等离子体
     event.create("taranium_depleted_helium_plasma")
         .plasma()
-        .color(0xFF33FF); // 枯竭塔兰金属的氦等离子体
+        .color(0xFF33FF) // 枯竭塔兰金属的氦等离子体
     event.create("taranium_enriched_liquid_helium4")
         .liquid()
-        .color(0x33FF33); // 富塔兰金属的液氦-4
+        .color(0x33FF33) // 富塔兰金属的液氦-4
     event.create("taranium_powder")
         .dust()
-        .color(0xFFFF33); // 塔兰粉
+        .ingot()
+        .liquid()
+        .color(0xFFFF33) // 塔兰粉
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FOIL)
     event.create("taranium_depleted_liquid_helium")
         .liquid()
-        .color(0x33FF33); // 塔兰金属贫瘠的液氦
+        .color(0x33FF33) // 塔兰金属贫瘠的液氦
+    // 精金泥，一种稀有金属粉末，可用于高级合金的制造
+    event.create("adamant_mud")
+        .dust()
+        .color(0xFFCC33)
+    // P507萃取剂，用于稀土元素和有色金属的萃取分离
+    event.create("p507_extractant")
+        .liquid()
+        .color(0x33FF57)
+    // 二(2-乙基己基)亚磷酸酯，用于合成P507萃取剂
+    event.create("di_2_ethylhexyl_phosphite")
+        .liquid()
+        .color(0x33AADD)
+    // 氯代2-乙基己烷，用于合成P507萃取剂
+    event.create("1_chloro_2_ethylhexane")
+        .liquid()
+        .color(0x33FF57)
+    // 膦酸酯，一种重要的化工原料，具有多种应用
+    event.create("phosphonate")
+        .liquid()
+        .color(0x3333FF)
+    // 氯代环己烷，用于合成氯代2-乙基己烷
+    event.create("chlorocyclohexane")
+        .liquid()
+        .color(0x33AADD)
+    // β-氨基膦酸酯，用于合成膦酸酯
+    event.create("beta_aminophosphonate")
+        .liquid()
+        .color(0xFFCC33)
+    // 亚磷酸二甲酯，用于合成二(2-乙基己基)亚磷酸酯
+    event.create("dimethyl_phosphite")
+        .liquid()
+        .color(0x33AADD)
+    // 2-乙基己醇，用于合成二(2-乙基己基)亚磷酸酯
+    event.create("2_ethylhexanol")
+        .liquid()
+        .color(0x33FF57)
+    // 铜-铬催化剂，一种用于有机合成中的加氢催化剂，具有高耐腐蚀和金属催化的性能
+    event.create("copper_chromium_catalyst")
+        .dust()
+        .color(0x33FF57)
+    // 亚磷酸，一种二元酸，具有强还原性，用于制造亚磷酸盐和有机磷农药的原料
+    event.create("phosphorous_acid")
+        .liquid()
+        .color(0xFF5733)
 })
 
 StartupEvents.postInit(event => {
@@ -1561,4 +1609,5 @@ StartupEvents.postInit(event => {
     setFormula("adamantite", "Ad")
     setFormula("boundless", "∞")
     setFormula("xuanlvjin", "Xg")
+    setFormula("phosphorous_acid", "H3PO3")
 })

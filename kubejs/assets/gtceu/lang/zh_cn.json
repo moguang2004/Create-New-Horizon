@@ -1660,6 +1660,17 @@
     "material.gtceu.taranium_enriched_helium4_plasma": "富塔兰金属的氦-4",
     "material.gtceu.taranium_depleted_helium_plasma": "枯竭塔兰金属的氦",
     "material.gtceu.taranium_enriched_liquid_helium4": "富塔兰金属的液氦-4",
-    "material.gtceu.taranium_powder": "塔兰粉",
-    "material.gtceu.taranium_depleted_liquid_helium": "塔兰金属贫瘠的液氦"
+    "material.gtceu.taranium_powder": "塔兰",
+    "material.gtceu.taranium_depleted_liquid_helium": "塔兰金属贫瘠的液氦",
+    "material.gtceu.adamant_mud": "精金泥",
+    "material.gtceu.p507_extractant": "P507萃取剂",
+    "material.gtceu.di_2_ethylhexyl_phosphite": "二(2-乙基己基)亚磷酸酯",
+    "material.gtceu.1_chloro_2_ethylhexane": "氯代2-乙基己烷",
+    "material.gtceu.phosphonate": "膦酸酯",
+    "material.gtceu.chlorocyclohexane": "氯代环己烷",
+    "material.gtceu.beta_aminophosphonate": "β-氨基膦酸酯",
+    "material.gtceu.dimethyl_phosphite": "亚磷酸二甲酯",
+    "material.gtceu.2_ethylhexanol": "2-乙基己醇",
+    "material.gtceu.copper_chromium_catalyst": "铜-铬催化剂",
+    "material.gtceu.phosphorous_acid": "亚磷酸"
 }
