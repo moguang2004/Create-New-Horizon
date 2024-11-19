@@ -181,9 +181,9 @@
 				icon: "ars_nouveau:wilden_spike"
 				id: "04FFE12823944FD6"
 				structure: "ars_nouveau:guardian_wilden_den"
-				title: "小心尖刺！"
 				type: "structure"
 			}]
+			title: "小心尖刺！"
 			x: 0.5d
 			y: 2.75d
 		}
