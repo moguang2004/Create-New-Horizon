@@ -195,7 +195,7 @@
 				type: "item"
 			}]
 			x: -25.0d
-			y: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["77E66A5569F9845B"]
@@ -206,7 +206,7 @@
 				type: "item"
 			}]
 			x: -25.0d
-			y: -7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["34820874A85286FC"]
@@ -218,7 +218,7 @@
 				type: "item"
 			}]
 			x: -25.0d
-			y: -9.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -349,7 +349,7 @@
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -18.0d
 			y: 6.5d
 		}
 		{
@@ -361,8 +361,8 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 8.5d
+			x: -14.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["73A9B8C2B2142E54"]
@@ -373,8 +373,8 @@
 				item: "gtceu:high_performance_computation_array"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 12.5d
+			x: -18.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2C5AAAE7171632CA"]
@@ -385,7 +385,7 @@
 				type: "item"
 			}]
 			x: -16.0d
-			y: 10.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -504,6 +504,159 @@
 			}]
 			x: -13.0d
 			y: 2.5d
+		}
+		{
+			id: "2E045E885DAC322B"
+			tasks: [{
+				id: "592C93A84EBA755B"
+				title: "你要开始制作萃取剂了！"
+				type: "checkmark"
+			}]
+			x: -25.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2E045E885DAC322B"]
+			id: "1EF248C7C4AFAC3C"
+			tasks: [{
+				id: "03D2BE9778D1D369"
+				item: "gtceu:diesel_bucket"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2E045E885DAC322B"]
+			id: "10AB5F3B4A44543A"
+			tasks: [{
+				id: "69FE384B39844D82"
+				item: "gtceu:seed_oil_bucket"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2E045E885DAC322B"]
+			id: "0BE8489EB8CC678E"
+			tasks: [{
+				id: "21B1EF938B317B79"
+				item: "gtceu:cyclohexane_bucket"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BE8489EB8CC678E"]
+			id: "7F85C79A9CAA8803"
+			tasks: [{
+				id: "74D60C1B2CE2CA15"
+				item: "gtceu:chlorocyclohexane_bucket"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1EF248C7C4AFAC3C"
+				"10AB5F3B4A44543A"
+				"7F85C79A9CAA8803"
+				"1E45E7181CD0D438"
+			]
+			dependency_requirement: "one_completed"
+			id: "5D8E94C6F6D2F7D9"
+			tasks: [{
+				id: "1DF2D089FF3E981B"
+				item: "gtceu:2_ethylhexanol_bucket"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -9.0d
+		}
+		{
+			id: "1E45E7181CD0D438"
+			tasks: [{
+				id: "7E5042205B8D4EF0"
+				item: "gtceu:copper_chromium_catalyst_dust"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5D8E94C6F6D2F7D9"]
+			id: "26E81F59BB42665E"
+			tasks: [{
+				id: "4E6255B159EA254C"
+				item: "gtceu:1_chloro_2_ethylhexane_bucket"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -9.0d
+		}
+		{
+			id: "7D43F59BAF678FEB"
+			tasks: [{
+				id: "125C68F1B5B0D92E"
+				item: "gtceu:phosphorous_acid_bucket"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7D43F59BAF678FEB"]
+			id: "140A7AE677F8123C"
+			tasks: [{
+				id: "05AC8BF312B8950F"
+				item: "gtceu:dimethyl_phosphite_bucket"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5D8E94C6F6D2F7D9"
+				"140A7AE677F8123C"
+			]
+			id: "3A75FD124FD6CDC3"
+			tasks: [{
+				id: "7D235EEB023B745A"
+				item: "gtceu:di_2_ethylhexyl_phosphite_bucket"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"3A75FD124FD6CDC3"
+				"26E81F59BB42665E"
+			]
+			id: "6298036843D1531E"
+			tasks: [{
+				id: "7095883AF04D5B1A"
+				item: "gtceu:phosphonate_bucket"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6298036843D1531E"]
+			id: "42CDDB06AA6D0A68"
+			subtitle: "终点"
+			tasks: [{
+				id: "51EFF9533E43EB0B"
+				item: "gtceu:p507_extractant_bucket"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -7.5d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"

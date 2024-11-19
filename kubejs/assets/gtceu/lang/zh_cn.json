@@ -129,7 +129,7 @@
     "material.gtceu.pikyonium": "皮卡优",
     "material.gtceu.black_titanium": "黑钛",
     "material.gtceu.starmetal": "星辉",
-    "material.gtceu.my_infinity": "无限",
+    "material.gtceu.my_infinity": "无限钢",
     "material.gtceu.inconel_625": "镍铬基合金-625",
     "material.gtceu.eglin_alloy": "埃格林合金",
     "material.gtceu.jasper": "碧玉",
@@ -1672,5 +1672,7 @@
     "material.gtceu.dimethyl_phosphite": "亚磷酸二甲酯",
     "material.gtceu.2_ethylhexanol": "2-乙基己醇",
     "material.gtceu.copper_chromium_catalyst": "铜-铬催化剂",
-    "material.gtceu.phosphorous_acid": "亚磷酸"
+    "material.gtceu.phosphorous_acid": "亚磷酸",
+    "material.gtceu.ad_aq": "富集精金溶液",
+    "material.gtceu.ad_aq_low": "精金废液"
 }

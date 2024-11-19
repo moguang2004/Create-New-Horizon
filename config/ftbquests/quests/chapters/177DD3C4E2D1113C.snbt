@@ -1087,6 +1087,7 @@
 				"0DA6DBCC41828D80"
 			]
 			id: "1F24CDB4B265DAE8"
+			subtitle: "你想要凯金处理产线吗？"
 			tasks: [{
 				id: "7E6DA58B61134C92"
 				item: "gtceu:trinium_sulfide_dust"

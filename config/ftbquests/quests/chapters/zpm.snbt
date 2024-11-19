@@ -591,6 +591,7 @@
 		{
 			dependencies: ["56D0FDB6842D38C2"]
 			id: "52156F99511B7A7E"
+			subtitle: "开始你的传奇产线布置吧"
 			tasks: [{
 				id: "4F96B6D82E030080"
 				item: "ctnhcore:bedrock_drilling_rigs"
@@ -857,7 +858,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			id: "72697B8BAFAD3052"
@@ -869,6 +870,271 @@
 			}]
 			x: 2.0d
 			y: -5.5d
+		}
+		{
+			id: "6A6BBE540A631C28"
+			tasks: [{
+				id: "50024080885BB4AC"
+				item: "gtceu:helium_3_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6A6BBE540A631C28"
+				"5604BB8175576E0C"
+			]
+			id: "4B63F560AED06615"
+			tasks: [{
+				id: "5708264978E37912"
+				item: "gtceu:taranium_dirty_helium3_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B63F560AED06615"]
+			id: "62609CF4F1F38684"
+			tasks: [{
+				id: "686DC51463826630"
+				item: "gtceu:taranium_enriched_liquid_helium3_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B63F560AED06615"]
+			id: "1BEC6EF7F134246C"
+			subtitle: "继续分离来增产另外两种塔兰金属液体"
+			tasks: [{
+				id: "42E1C3E073E2B567"
+				item: "gtceu:taranium_half_life_liquid_helium3_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B63F560AED06615"]
+			id: "6BA4CB553EC55C19"
+			tasks: [{
+				id: "3B590D09B38EC12A"
+				item: "gtceu:taranium_depleted_liquid_helium3_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62609CF4F1F38684"]
+			id: "54E333E8246FEB61"
+			tasks: [{
+				id: "670B69EF1A4A059C"
+				item: "gtceu:taranium_enriched_dirty_helium_plasma_plasma_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			id: "46D6EADF05BA41A6"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "更快冷凝你的等离子体"
+			tasks: [{
+				id: "30E70EF8D3C1BB40"
+				item: "ctnhcore:plasma_condenser"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54E333E8246FEB61"]
+			id: "3ACE869B39F2C474"
+			tasks: [{
+				id: "7D511A9A8587886A"
+				item: "gtceu:taranium_enriched_helium4_plasma_plasma_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54E333E8246FEB61"]
+			id: "61DA0BA84F78E0BE"
+			tasks: [{
+				id: "5A4D46C9CB2DB3F8"
+				item: "gtceu:taranium_depleted_helium_plasma_plasma_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3ACE869B39F2C474"
+				"46D6EADF05BA41A6"
+			]
+			id: "32D42F3CA03A58C3"
+			tasks: [{
+				id: "5C00048BF77F7086"
+				item: "gtceu:taranium_enriched_liquid_helium4_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"61DA0BA84F78E0BE"
+				"3D8452059DA66415"
+			]
+			dependency_requirement: "one_completed"
+			id: "219E9B48DE93781A"
+			subtitle: "很快就能出精金了！"
+			tasks: [{
+				id: "0BC89185D02D603B"
+				item: "gtceu:adamant_mud_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["32D42F3CA03A58C3"]
+			id: "7FB819E46B3F2404"
+			subtitle: "UEV的时候再处理吧"
+			tasks: [{
+				id: "156369CEF2DBB2DA"
+				item: "gtceu:taranium_powder_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["32D42F3CA03A58C3"]
+			id: "3D8452059DA66415"
+			tasks: [{
+				id: "037013F70928C027"
+				item: "gtceu:taranium_depleted_liquid_helium_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			id: "2EB87027F157815D"
+			subtitle: "稀土的萃取剂，也可以萃取精金"
+			tasks: [{
+				id: "3D229CD3DB82C461"
+				item: "gtceu:p507_extractant_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2EB87027F157815D"
+				"219E9B48DE93781A"
+			]
+			id: "73FEBDBA63D96DDA"
+			subtitle: "无损P507"
+			tasks: [{
+				id: "1DA28993B0247EA8"
+				item: "gtceu:adamantiteliquid_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["73FEBDBA63D96DDA"]
+			id: "2D51C78311A72F33"
+			tasks: [{
+				id: "09B45306B6EA84C5"
+				item: "gtceu:chalcogen_anode_mud_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["73FEBDBA63D96DDA"]
+			id: "7A49E5931F2C7453"
+			tasks: [{
+				id: "23CD1B4EFBEBD016"
+				item: "gtceu:ad_aq_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7A49E5931F2C7453"]
+			id: "3B20DB28F8A96FC0"
+			subtitle: "UHV的重要材料"
+			tasks: [{
+				id: "01CF780BB688157C"
+				item: "gtceu:adamantite_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3B20DB28F8A96FC0"]
+			id: "5E6B17A680E8AD50"
+			tasks: [{
+				id: "7D401634BB90D2D8"
+				item: "gtceu:adamantite_plasma_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"5E6B17A680E8AD50"
+				"14F59E43D9ADE48A"
+			]
+			id: "5DF0169DBCDEFE61"
+			subtitle: "UHV线缆的主要材料"
+			tasks: [{
+				id: "7C005989A82F0622"
+				item: "gtceu:adamantite_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			id: "14F59E43D9ADE48A"
+			subtitle: "你得先造个这个"
+			tasks: [{
+				id: "1E0FBF3A7C3CADE6"
+				item: "gtceu:ingot_casting_mold"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5DF0169DBCDEFE61"]
+			id: "45362F4DEFA95BE6"
+			tasks: [{
+				id: "43361CA151B31FEC"
+				title: "UHV需要很多精金!"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 9.5d
 		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"

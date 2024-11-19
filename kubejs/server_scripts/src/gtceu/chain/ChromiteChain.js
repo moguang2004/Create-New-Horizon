@@ -9,6 +9,7 @@ ServerEvents.recipes(event => {
     event.replaceOutput({id: 'gtceu:centrifuge/centrifuge_ruby_dirty_dust_to_dust'},'gtceu:chromium_dust','gtceu:chromite_dust')
 
     event.recipes.gtceu.mixer('sodium_carbonate_solution')
+        .circuit(1)
         .itemInputs('6x gtceu:soda_ash_dust')
         .inputFluids('water 1000')
         .outputFluids('gtceu:sodium_carbonate_solution 1000')
