@@ -419,7 +419,7 @@
 				id: "75AE5D99301D8B61"
 				observe_type: 0
 				timer: 0L
-				to_observe: ""ars_nouveau:drygmy_stone"
+				to_observe: "block.ars_nouveau.drygmy_stone"
 				type: "observation"
 			}]
 			title: "德格米石阵！"
