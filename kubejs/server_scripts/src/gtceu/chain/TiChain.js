@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         .EUt(120)
         .duration(100)
     //进一步除钒Al+3TiCl4---->AlCl3+3TiCl3
-    ctnh.large_chemical_reactor("titanium_vx")
+    ctnh.large_chemical_reactor("vanadium_pentoxide_dust")
         .inputFluids("gtceu:titanium_tetrachloride_v 6000")//24B+18B+6B
         .inputFluids("minecraft:water 9000")
         .itemInputs('2x gtceu:aluminium_dust')
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(120)
     //高纯四氯化钛转变为钛锭
-    ctnh.electric_blast_furnace("taiding")
+    ctnh.electric_blast_furnace("titanium_ingot")
         .inputFluids('gtceu:refining_titanium_tetrachloride 5000')//20B
         .itemInputs('10x gtceu:magnesium_dust')//6-4 30-20  2-6 10-30
         .itemOutputs('5x gtceu:hot_titanium_ingot')
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         .duration(150)
         .blastFurnaceTemp(2200)
     //氯化铝电解
-    ctnh.electrolyzer("al")
+    ctnh.electrolyzer("aluminium_process1s")
         .itemInputs('4x gtceu:aluminium_chloride_dust')
         .itemOutputs('gtceu:aluminium_dust')
         .outputFluids("gtceu:chlorine 3000")

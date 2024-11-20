@@ -1674,8 +1674,8 @@
     "material.gtceu.2_ethylhexanol": "2-乙基己醇",
     "material.gtceu.copper_chromium_catalyst": "铜-铬催化剂",
     "material.gtceu.phosphorous_acid": "亚磷酸",
-    "material.gtceu.ad_aq": "富集精金溶液",
-    "material.gtceu.ad_aq_low": "精金废液",
+    "material.gtceu.refined_gold_aq": "富集精金溶液",
+    "material.gtceu.refined_gold_aq_low": "精金废液",
     "material.gtceu.samarium_dysprosium_terbium_permanent_magnet_alloy": "未磁化钐镝铽合金",
     "material.gtceu.samarium_dysprosium_terbium_permanent_magnet_alloy_magnetic": "磁化钐镝铽合金"
 }
