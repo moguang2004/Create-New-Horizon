@@ -1213,6 +1213,14 @@ ServerEvents.recipes(event => {
         D: 'gtceu:lv_assembler',
         E: 'gtceu:lv_emitter'
     })
+    event.shaped(
+        Item.of('biomesoplenty:rose_quartz_chunk', 4), [
+        "   ",
+        " A ",
+        "   "
+    ], {
+        A: "biomesoplenty:rose_quartz_block",
+    })
 
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())

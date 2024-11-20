@@ -32,6 +32,8 @@ ServerEvents.recipes(event => {
         .inputFluids("gtceu:hydrochloric_acid 12000")
         .outputFluids("gtceu:hydrogen 12000")
         .itemOutputs('4x gtceu:iridium_chloride_dust', "4x gtceu:graphene_dust")
+        .duration(100)
+        .EUt(1920)
     ctnh.assembler("shimoxi")
         .itemInputs(['8x gtceu:graphite_dust', '1x gtceu:duct_tape'])
         .itemOutputs(['6x gtceu:small_graphene_dust'])

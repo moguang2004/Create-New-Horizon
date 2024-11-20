@@ -611,6 +611,7 @@
     "ctnh.circuit_echo_uv": "UV级电路板",
     "ctnh.circuit_echo_uhv": "UHV级电路板",
     "ctnh.circuit_echo_uev": "UEV级电路板",
+    "ctnh.uhv_voltage_coil": "究极线圈",
     "gtceu.machine.large_miner.zpm.tooltip": "贯穿整个星球",
     "block.gtceu.ev_rocket_engine": "基础火箭引擎",
     "block.gtceu.iv_rocket_engine": "进阶火箭引擎",
@@ -1674,5 +1675,7 @@
     "material.gtceu.copper_chromium_catalyst": "铜-铬催化剂",
     "material.gtceu.phosphorous_acid": "亚磷酸",
     "material.gtceu.ad_aq": "富集精金溶液",
-    "material.gtceu.ad_aq_low": "精金废液"
+    "material.gtceu.ad_aq_low": "精金废液",
+    "material.gtceu.samarium_dysprosium_terbium_permanent_magnet_alloy": "未磁化钐镝铽合金",
+    "material.gtceu.samarium_dysprosium_terbium_permanent_magnet_alloy_magnetic": "磁化钐镝铽合金"
 }

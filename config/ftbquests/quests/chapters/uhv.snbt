@@ -163,6 +163,17 @@
 			x: -1.0d
 			y: 4.0d
 		}
+		{
+			id: "63A4FC58057C9E7D"
+			subtitle: "真正的终点"
+			tasks: [{
+				id: "1228D5231465172A"
+				title: "基岩处理④"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -15.0d
+		}
 	]
 	title: "{ftbquests.chapter.uhv.title}"
 }

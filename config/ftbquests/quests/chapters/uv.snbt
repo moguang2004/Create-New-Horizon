@@ -481,6 +481,29 @@
 			x: 10.0d
 			y: -5.0d
 		}
+		{
+			id: "1BC96CF2C5DB3D12"
+			shape: "square"
+			size: 1.5d
+			subtitle: "准备好，它可是你在UHV-UEV主要的磁化材料"
+			tasks: [{
+				id: "3DFC72E59BBA99F7"
+				item: "gtceu:samarium_dysprosium_terbium_permanent_magnet_alloy_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "2F06653DB4F277D8"
+			tasks: [{
+				id: "29984565570288D2"
+				title: "基岩处理③"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: -12.5d
+		}
 	]
 	title: "{ftbquests.chapter.uv.title}"
 }

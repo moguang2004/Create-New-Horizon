@@ -1136,6 +1136,17 @@
 			x: 16.0d
 			y: 9.5d
 		}
+		{
+			id: "77FDE31270BAA38F"
+			tasks: [{
+				id: "24C290A3D447A904"
+				title: "{ftbquests.chapter.zpm.quest59.task.title1}"
+				type: "checkmark"
+			}]
+			title: "基岩处理②"
+			x: 15.0d
+			y: -4.5d
+		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"
 }

@@ -213,4 +213,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "ironfurnaces:augments/augment_generator" })
     event.remove({ id: "ironfurnaces:rainbow_plating" })
     event.remove({ id: "gtceu:large_chemical_reactor/phosphoric_acid_from_pentoxide" })
+    event.remove({ id: "gtceu:bender/bend_graphite_ir_plate_ingot_to_double_plate" })
+    event.remove({ id: "gtceu:bender/bend_graphite_ir_plate_ingot_to_double_plate" })
 })
