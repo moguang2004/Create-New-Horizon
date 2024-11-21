@@ -328,6 +328,7 @@ ServerEvents.recipes(event => {
         .itemInputs('13x gtceu:bauxite_dust')
         .outputFluids('gtceu:sodium_hydroxide_bauxite 8000')
     event.recipes.gtceu.mixer('sodium_hydroxide_solution')
+        .circuit(0)
         .duration(200)
         .EUt(120)
         .itemInputs('3x gtceu:sodium_hydroxide_dust')

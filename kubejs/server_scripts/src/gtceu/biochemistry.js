@@ -219,6 +219,7 @@ ServerEvents.recipes(event => {
         .EUt(30)
         .duration(100)
     event.recipes.gtceu.mixer('carbonate_buffer')
+        .circuit(0)
         .EUt(30)
         .duration(120)
         .itemInputs(['6x gtceu:soda_ash_dust', '12x gtceu:sodium_bicarbonate_dust'])

@@ -313,6 +313,197 @@
 			x: 16.0d
 			y: -13.0d
 		}
+		{
+			id: "79FF9CC1122C2362"
+			tasks: [{
+				id: "018B8D85B70D5E4C"
+				item: "gtceu:nuclear_waste_dust"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"79FF9CC1122C2362"
+				"736613239A0FDD32"
+			]
+			id: "20538FF9D09E4A55"
+			tasks: [{
+				id: "17066A5D717349AA"
+				item: "gtceu:enrich_radioactive_waste_dust"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["20538FF9D09E4A55"]
+			id: "799170F56DEEA43F"
+			tasks: [{
+				id: "618902A3F5A047AF"
+				item: "gtceu:radioactive_ion_solution_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["799170F56DEEA43F"]
+			id: "109A8810A3C205AB"
+			tasks: [{
+				id: "62FB5785B1C372E4"
+				item: "gtceu:neutron_irradiation_of_radioactive_waste_bucket"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["109A8810A3C205AB"]
+			id: "7565AACEF5040B8D"
+			tasks: [{
+				id: "0FE2F8513460444D"
+				item: "gtceu:radiation_dust_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7565AACEF5040B8D"
+				"21768F83603146C0"
+			]
+			id: "6286B016F7A21B39"
+			subtitle: "你需要衰变罐"
+			tasks: [{
+				id: "15A68F85CEBA29F9"
+				item: "gtceu:radioactive_metal_ingot_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6286B016F7A21B39"]
+			id: "516FF6C64567223F"
+			tasks: [{
+				id: "6B5B2ED54030D4B0"
+				item: "gtceu:low_level_radioactive_dust_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6286B016F7A21B39"]
+			id: "6A6ABE5772951DB4"
+			tasks: [{
+				id: "60AC5FD1474505E7"
+				item: "gtceu:high_level_radioactive_dust_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["516FF6C64567223F"]
+			id: "239256DEE547E22D"
+			tasks: [{
+				id: "1A3432EA34CA16B5"
+				item: "gtceu:concentrated_low_level_radioactive_dust_bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A6ABE5772951DB4"]
+			id: "49E9D581D9A44DCF"
+			tasks: [{
+				id: "5EDB13733579DF02"
+				item: "gtceu:concentrated_high_level_radioactive_dust_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"49E9D581D9A44DCF"
+				"239256DEE547E22D"
+			]
+			description: ["你也可以拿来发电"]
+			id: "331F72B7D40A7538"
+			subtitle: "等离子冷凝来加速产出以太的产出速率"
+			tasks: [{
+				id: "040D2994DEAAE849"
+				item: "gtceu:aether_plasma_bucket"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["331F72B7D40A7538"]
+			id: "782DCCEF9924E406"
+			tasks: [{
+				id: "73F5679696102B8F"
+				item: "gtceu:aether_bucket"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["782DCCEF9924E406"]
+			id: "7F81295FE18741A6"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "UEV的主要材料"
+			tasks: [{
+				id: "6505A75DAEE23A90"
+				item: "gtceu:aether_ingot"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			id: "21768F83603146C0"
+			subtitle: "加速放射性物质的衰变"
+			tasks: [{
+				id: "045B63C91F2AB7C5"
+				item: "gtceu:decay_pools_machine"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			id: "1BC96CF2C5DB3D12"
+			shape: "square"
+			size: 1.5d
+			subtitle: "准备好，它可是你在UHV-UEV主要的磁化材料"
+			tasks: [{
+				id: "3DFC72E59BBA99F7"
+				item: "gtceu:samarium_dysprosium_terbium_permanent_magnet_alloy_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "2F06653DB4F277D8"
+			tasks: [{
+				id: "29984565570288D2"
+				title: "基岩处理③"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: -12.5d
+		}
 	]
 	title: "{ftbquests.chapter.uv.title}"
 }
