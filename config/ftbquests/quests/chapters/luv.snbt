@@ -244,7 +244,7 @@
 				type: "checkmark"
 			}]
 			x: -16.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["209FAC261240DA4E"]
@@ -657,6 +657,19 @@
 			}]
 			x: -29.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["17292FB8D4DD36BA"]
+			description: ["而且无线能源仓越造越便宜！"]
+			icon: "gtmthings:luv_2a_wireless_energy_input_hatch"
+			id: "227C6AEB777B7E14"
+			tasks: [{
+				id: "0E554503F61713BB"
+				title: "从LUV开始，你可以使用无线能源仓啦！"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -3.5d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"

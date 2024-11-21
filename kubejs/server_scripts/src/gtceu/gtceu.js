@@ -1839,5 +1839,10 @@ ServerEvents.recipes(event => {
     .itemOutputs('kubejs:uhv_voltage_coil')
     .EUt(1964080)
     .duration(200)
-    
+  event.recipes.gtceu.assembler('abyssalalloy_coil_block')
+    .itemInputs('8x gtceu:abyssalalloy_double_wire', '8x gtceu:trinium_foil')
+    .inputFluids('gtceu:tritanium 144')
+    .itemOutputs('ctnhcore:abyssalalloy_coil_block')
+    .EUt(1966080)
+    .duration(900)
 })
