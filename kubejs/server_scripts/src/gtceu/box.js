@@ -86,3 +86,28 @@ ServerEvents.recipes(event => {
             .duration(60)
     })
 })
+//马达
+ServerEvents.recipes(event => {
+    let ctnh = event.recipes.gtceu
+    let motor = [
+        ['uhv', 'gtceu:long_samarium_dysprosium_terbium_permanent_magnet_alloy_magnetic_rod', 'adamantite', '64x gtceu:fine_ruthenium_trinium_americium_neutronate_wire', '2x gtceu:europium_single_cable', 'gtceu:soldering_alloy', 'gtceu:lubricant', 'gtceu:neutronium']
+    ]
+    motor.forEach(m => {
+        ctnh.assembly_line(m[0] + 'motor')
+            .itemInputs(m[1], '4x gtceu:long_' + m[2] + '_rod', '4x gtceu:' + m[2] + '_ring', '8x gtceu:' + m[2] + '_round', m[3], m[3], m[4])
+            .inputFluids(m[5] + ' 576', m[6] + ' 2000', m[7] + ' 576')
+            .itemOutputs('gtceu:uhv_electric_motor')
+            .EUt(388000)
+            .duration(600)
+            .stationResearch(b => b.researchStack(Item.of('gtceu:zpm_electric_motor'))
+                .dataStack(Item.of("gtceu:data_orb"))
+                .EUt(GTValues.VA[GTValues.ZPM])
+                .CWUt(32))
+
+
+
+    })
+
+
+
+})
