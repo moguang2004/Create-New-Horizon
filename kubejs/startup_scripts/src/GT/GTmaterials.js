@@ -6,6 +6,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         return new HazardProperty(HazardProperty.HazardTrigger.ANY,
             GTMedicalConditions.CARCINOGEN, multiplier, true)
     }
+    GTMaterials.Sulfur.setProperty(PropertyKey.FLUID, new $FluidProperty(GTFluidStorageKeys.LIQUID, new $FluidBuilder()))
     GTMaterials.Iodine.setProperty(PropertyKey.FLUID, new $FluidProperty(GTFluidStorageKeys.LIQUID, new $FluidBuilder()))
     GTMaterials.Osmiridium.addFlags(GTMaterialFlags.GENERATE_FRAME)
     GTMaterials.TreatedWood.addFlags(GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_RING)
@@ -921,9 +922,6 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0x3dc34d).iconSet(GTMaterialIconSet.DULL)
         .components("2x chromium", "3x oxygen")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
-    event.create("impure_oil")
-        .liquid()
-        .color(0x171717)
     event.create("bitumen")
         .liquid()
         .color(0x51524a)

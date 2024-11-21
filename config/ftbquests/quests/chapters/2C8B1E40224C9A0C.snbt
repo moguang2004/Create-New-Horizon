@@ -496,6 +496,20 @@
 			x: -1.5d
 			y: 10.5d
 		}
+		{
+			dependencies: ["04E2C1AE56B3C673"]
+			id: "320660FB6EEB854B"
+			subtitle: "探索糖果龋洞"
+			tasks: [{
+				biome: "alexscaves:candy_cavity"
+				icon: "alexscaves:gelatin_red"
+				id: "3F08B5065D745D0D"
+				title: "糖果美梦"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
 	]
 	title: "{ftbquests.chapter.2C8B1E40224C9A0C.title}"
 }

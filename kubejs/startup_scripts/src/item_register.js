@@ -280,59 +280,59 @@ ItemEvents.modification(event => {
         item.setArmorProtection(3)
         item.setArmorToughness(1)
     })
-    event.modify('tetranichematerials:bronnum_armor_helmet', item => {
-        item.setArmorProtection(2)
-        item.setArmorKnockbackResistance(0.05)
-    })
-    event.modify('tetranichematerials:bronnum_armor_chest', item => {
-        item.setArmorProtection(5)
-        item.setArmorKnockbackResistance(0.05)
-    })
-    event.modify('tetranichematerials:bronnum_armor_legs', item => {
-        item.setArmorProtection(4)
-        item.setArmorKnockbackResistance(0.05)
-    })
-    event.modify('tetranichematerials:bronnum_armor_feet', item => {
-        item.setArmorProtection(2)
-        item.setArmorKnockbackResistance(0.05)
-    })
-    event.modify('tetranichematerials:blurine_armor_helmet', item => {
-        item.setArmorProtection(3)
-        item.setArmorToughness(1)
-    })
-    event.modify('tetranichematerials:blurine_armor_chest', item => {
-        item.setArmorProtection(6)
-        item.setArmorToughness(1)
-        item.addAttribute('attributeslib:cold_damage',
-            '70195e7a-005a-471a-bd26-3fd6d331676d',
-            'kubejscolddamage',
-            2,
-            'addition')
-    })
-    event.modify('tetranichematerials:blurine_armor_legs', item => {
-        item.setArmorProtection(4)
-        item.setArmorToughness(1)
-    })
-    event.modify('tetranichematerials:blurine_armor_feet', item => {
-        item.setArmorProtection(2)
-        item.setArmorToughness(1)
-    })
-    event.modify('tetranichematerials:lockwood_armor_chest', item => {
-        item.setArmorProtection(7)
-        item.addAttribute('minecraft:generic.max_health',
-            '03B9249B-929A-42AE-84F2-AD0DEBDCB3AB',
-            'kubejsmaxhealth',
-            4,
-            'addition')
-    })
-    event.modify('tetranichematerials:lockwood_armor_legs', item => {
-        item.setArmorProtection(5)
-        item.addAttribute('forge:swim_speed',
-            'c6953671-9091-479f-a9ef-cc528e7af16f',
-            'kubejsswimspeed',
-            0.5,
-            'addition')
-    })
+    // event.modify('tetranichematerials:bronnum_armor_helmet', item => {
+    //     item.setArmorProtection(2)
+    //     item.setArmorKnockbackResistance(0.05)
+    // })
+    // event.modify('tetranichematerials:bronnum_armor_chest', item => {
+    //     item.setArmorProtection(5)
+    //     item.setArmorKnockbackResistance(0.05)
+    // })
+    // event.modify('tetranichematerials:bronnum_armor_legs', item => {
+    //     item.setArmorProtection(4)
+    //     item.setArmorKnockbackResistance(0.05)
+    // })
+    // event.modify('tetranichematerials:bronnum_armor_feet', item => {
+    //     item.setArmorProtection(2)
+    //     item.setArmorKnockbackResistance(0.05)
+    // })
+    // event.modify('tetranichematerials:blurine_armor_helmet', item => {
+    //     item.setArmorProtection(3)
+    //     item.setArmorToughness(1)
+    // })
+    // event.modify('tetranichematerials:blurine_armor_chest', item => {
+    //     item.setArmorProtection(6)
+    //     item.setArmorToughness(1)
+    //     item.addAttribute('attributeslib:cold_damage',
+    //         '70195e7a-005a-471a-bd26-3fd6d331676d',
+    //         'kubejscolddamage',
+    //         2,
+    //         'addition')
+    // })
+    // event.modify('tetranichematerials:blurine_armor_legs', item => {
+    //     item.setArmorProtection(4)
+    //     item.setArmorToughness(1)
+    // })
+    // event.modify('tetranichematerials:blurine_armor_feet', item => {
+    //     item.setArmorProtection(2)
+    //     item.setArmorToughness(1)
+    // })
+    // event.modify('tetranichematerials:lockwood_armor_chest', item => {
+    //     item.setArmorProtection(7)
+    //     item.addAttribute('minecraft:generic.max_health',
+    //         '03B9249B-929A-42AE-84F2-AD0DEBDCB3AB',
+    //         'kubejsmaxhealth',
+    //         4,
+    //         'addition')
+    // })
+    // event.modify('tetranichematerials:lockwood_armor_legs', item => {
+    //     item.setArmorProtection(5)
+    //     item.addAttribute('forge:swim_speed',
+    //         'c6953671-9091-479f-a9ef-cc528e7af16f',
+    //         'kubejsswimspeed',
+    //         0.5,
+    //         'addition')
+    // })
     event.modify('twilightforest:fiery_helmet', item => {
         item.setArmorProtection(3)
     })
