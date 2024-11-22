@@ -345,6 +345,12 @@ ItemEvents.tooltip(event =>{
         text.add(3, Text.translate('ctnh.large_gas_collection_chamber.tooltip.1'))
         text.add(4, Text.translate('ctnh.large_gas_collection_chamber.tooltip.2'))
     })
+    event.addAdvanced('gtceu:decay_pools_machine', (item, advanced, text) => {
+        text.add(1, Text.translate('decay_pools_machine').gray())
+        text.add(2, Text.translate('ctnh.decay_pools_machine.tooltip.0'))
+        text.add(3, Text.translate('ctnh.decay_pools_machine.tooltip.1'))
+        text.add(4, Text.translate('ctnh.decay_pools_machine.tooltip.2'))
+    })
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))
     event.add('enderio:enhanced_energy_conduit',Text.translate('ctnh.enhanced_energy_conduit'))

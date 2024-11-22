@@ -647,7 +647,11 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["6298036843D1531E"]
+			dependencies: [
+				"6298036843D1531E"
+				"59C320A0944927A3"
+			]
+			dependency_requirement: "one_completed"
 			id: "42CDDB06AA6D0A68"
 			subtitle: "终点"
 			tasks: [{
@@ -670,6 +674,17 @@
 			}]
 			x: -16.0d
 			y: -3.5d
+		}
+		{
+			id: "59C320A0944927A3"
+			invisible: true
+			tasks: [{
+				id: "12C91C16AFB15D3D"
+				item: "gtceu:p507_extractant_bucket"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -6.5d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"

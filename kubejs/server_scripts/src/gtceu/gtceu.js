@@ -1020,7 +1020,13 @@ ServerEvents.recipes(event => {
     .addData('rock', 'minecraft:stone')
     .EUt(1920)
     .duration(400);
-
+  
+  event.recipes.gtceu.chemical_reactor('gtceu:soda_ash_dust')
+    .itemInputs('6x gtceu:sodium_hydroxide_dust')
+    .inputFluids('gtceu:carbon_dioxide 1000')
+    .itemOutputs('6x gtceu:soda_ash_dust')
+    .EUt(20)
+    .duration(50)
   event.recipes.gtceu.mark_of_falling_tower('stone_gems_green')
     .itemInputs('gtceu:exquisite_green_sapphire_gem')
     .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 192000))

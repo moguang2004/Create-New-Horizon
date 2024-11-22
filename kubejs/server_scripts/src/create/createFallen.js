@@ -123,9 +123,9 @@ ServerEvents.recipes(event => {
     })
 
 //杠杆锤青铜，铜，银板制造金属箔配方
-    event.recipes.vintageimprovementsHammering(Item.of('gtceu:bronze_foil'),'#forge:plates/bronze',3)
-    event.recipes.vintageimprovementsHammering(Item.of('gtceu:copper_foil'),'#forge:plates/copper',3)
-    event.recipes.vintageimprovementsHammering(Item.of('gtceu:silver_foil'),'#forge:plates/silver',3)
+    event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:bronze_foil'),'#forge:plates/bronze',3)
+    event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:copper_foil'),'#forge:plates/copper',3)
+    event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:silver_foil'),'#forge:plates/silver',3)
 //激光加工机需要钢铁构件合成修改
     event.shaped('vintageimprovements:laser',[
         ['create:cogwheel','minecraft:redstone_block','create:cogwheel'],

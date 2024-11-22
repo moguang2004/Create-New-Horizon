@@ -276,6 +276,32 @@
 			x: -1.0d
 			y: 5.0d
 		}
+		{
+			dependencies: [
+				"198BA53EC65DB859"
+				"0CE3AC41F7D98F39"
+				"75D522A6289E42CF"
+				"0ADAA3D94273B1B5"
+				"0B24BC1112AA1BD4"
+				"5409D4773E7C8529"
+				"6429ECAF0856240D"
+				"26DE6B2D5D93022F"
+			]
+			icon: { Count: 64, id: "kubejs:ender_light" }
+			id: "15BD44DB26748FA3"
+			rewards: [{
+				count: 64
+				id: "721688FBD91340B6"
+				item: "kubejs:ender_light"
+				type: "item"
+			}]
+			shape: "square"
+			size: 4.0d
+			subtitle: "不是菜鸟证明！"
+			title: "UHV阶段毕业礼物"
+			x: -1.0d
+			y: 9.0d
+		}
 	]
 	title: "{ftbquests.chapter.uhv.title}"
 }

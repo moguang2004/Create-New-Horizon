@@ -554,7 +554,7 @@
 			dependencies: ["09C344717F4BAD6C"]
 			description: ["方便你前期不会被摔死）"]
 			id: "38F0B3A80DCBCCAB"
-			subtitle: "钩爪，可以升级"
+			subtitle: "钩爪，可以升级,按C使用"
 			tasks: [{
 				id: "30F5D34763CCF5B5"
 				item: "rehooked:wood_hook"

@@ -26,7 +26,7 @@
 			id: "359E958586D6232F"
 			linked_quest: "2C6FBF2A814BB60D"
 			x: 11.0d
-			y: -1.0d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -347,7 +347,7 @@
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -390,6 +390,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["063155FDDF799750"]
 			id: "61306F7E5202C387"
 			tasks: [{
 				id: "6FD335E7DFD138B9"
@@ -638,8 +639,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -3.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["415AF3F977F4C3F9"]
@@ -657,7 +658,7 @@
 				type: "dimension"
 			}]
 			title: "{ftbquests.chapter.mv.quest43.title}"
-			x: 11.0d
+			x: 9.5d
 			y: -3.5d
 		}
 		{
@@ -669,7 +670,7 @@
 				item: "gtceu:fluorine_bucket"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -922,48 +923,6 @@
 			}]
 			x: -1.0d
 			y: -6.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["5A55D491F0E9F389"]
-			id: "05969156583DEA39"
-			rewards: [{
-				command: "/gamephase add @p end"
-				elevate_perms: true
-				id: "185A75163AB07083"
-				type: "command"
-			}]
-			tasks: [{
-				id: "044C977207158306"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -6.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["415AF3F977F4C3F9"]
-			id: "4117277DAB11C148"
-			rewards: [{
-				command: "/gamephase add @p aether"
-				elevate_perms: true
-				id: "41EA21F13F114E42"
-				type: "command"
-			}]
-			tasks: [{
-				id: "68ACC3C744E483E7"
-				item: {
-					Count: 1
-					id: "botania:flight_tiara"
-					tag: {
-						variant: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: -2.0d
 		}
 		{
 			dependencies: ["0FEAC07F1404346A"]
