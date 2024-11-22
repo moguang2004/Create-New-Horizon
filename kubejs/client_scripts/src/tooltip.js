@@ -369,5 +369,6 @@ ItemEvents.tooltip(event =>{
     event.add('kubejs:echo_processor',Text.translate('ctnh.circuit_echo_zpm').darkAqua())
     event.add('kubejs:echo_processor_assembly',Text.translate('ctnh.circuit_echo_uv').darkAqua())
     event.add('kubejs:echo_processor_computer',Text.translate('ctnh.circuit_echo_uhv').darkAqua())
-    event.add('kubejs:echo_processor_mainframe',Text.translate('ctnh.circuit_echo_uev').darkAqua())
+    event.add('kubejs:echo_processor_mainframe', Text.translate('ctnh.circuit_echo_uev').darkAqua())
+    event.add('kubejs:uhv_voltage_coil', Text.translate('ctnh.uhv_voltage_coil').white())
 })

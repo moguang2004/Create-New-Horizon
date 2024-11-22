@@ -591,7 +591,10 @@
 			}]
 			tasks: [{
 				id: "6765C0305C1B5A6F"
-				item: { Count: 64, id: "casualness_delight:stargazy_pie_slice" }
+				item: {
+					Count: 64
+					id: "casualness_delight:stargazy_pie_slice"
+				}
 				type: "item"
 			}]
 			x: -7.0d
@@ -606,7 +609,10 @@
 			}]
 			tasks: [{
 				id: "045571C02FE0D2C6"
-				item: { Count: 64, id: "casualness_delight:quiche_lorraine_slice" }
+				item: {
+					Count: 64
+					id: "casualness_delight:quiche_lorraine_slice"
+				}
 				type: "item"
 			}]
 			x: -7.0d

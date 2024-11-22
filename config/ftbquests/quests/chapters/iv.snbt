@@ -1485,25 +1485,25 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["46DE226BC1554369"]
+			dependencies: ["2D9A92A48E5B7EED"]
 			id: "08F6ED9546D2B275"
 			tasks: [{
 				id: "0736D1383971505C"
 				item: "gtceu:rare_earth_middle_fluoride_steam_bucket"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.5d
 			y: 12.5d
 		}
 		{
-			dependencies: ["2D9A92A48E5B7EED"]
+			dependencies: ["46DE226BC1554369"]
 			id: "09A053412B602BAF"
 			tasks: [{
 				id: "39C601FC6BC51EF0"
 				item: "gtceu:rare_earth_high_fluoride_steam_bucket"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.5d
 			y: 12.5d
 		}
 		{

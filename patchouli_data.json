@@ -102,6 +102,16 @@
       "bookmarks": [],
       "completedManualQuests": []
     },
+    "nuclearcraft:nuclearcraft": {
+      "viewedEntries": [
+        "nuclearcraft:machines/processors",
+        "nuclearcraft:fission/general",
+        "nuclearcraft:fusion/general",
+        "nuclearcraft:machines/generators"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "ars_nouveau:worn_notebook": {
       "viewedEntries": [
         "ars_nouveau:armor/armor",

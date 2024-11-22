@@ -110,17 +110,6 @@
         "value": 2048
       }
     },
-    "cold_sweat:base_temperature": {
-      "enabled": false,
-      "min": {
-        "default": NaN,
-        "value": NaN
-      },
-      "max": {
-        "default": Infinity,
-        "value": Infinity
-      }
-    },
     "attributeslib:armor_pierce": {
       "enabled": false,
       "min": {
@@ -130,17 +119,6 @@
       "max": {
         "default": 1000,
         "value": 1000
-      }
-    },
-    "cold_sweat:heat_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
       }
     },
     "attributeslib:cold_damage": {
@@ -198,17 +176,6 @@
         "value": 10000
       }
     },
-    "cold_sweat:cold_dampening": {
-      "enabled": false,
-      "min": {
-        "default": -Infinity,
-        "value": -Infinity
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "tetra:draw_strength": {
       "enabled": false,
       "min": {
@@ -218,17 +185,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "cold_sweat:heat_dampening": {
-      "enabled": false,
-      "min": {
-        "default": -Infinity,
-        "value": -Infinity
-      },
-      "max": {
-        "default": 1,
-        "value": 1
       }
     },
     "attributeslib:dodge_chance": {
@@ -284,17 +240,6 @@
       "max": {
         "default": 10,
         "value": 10
-      }
-    },
-    "cold_sweat:freezing_point": {
-      "enabled": false,
-      "min": {
-        "default": -Infinity,
-        "value": -Infinity
-      },
-      "max": {
-        "default": Infinity,
-        "value": Infinity
       }
     },
     "forge:swim_speed": {
@@ -495,17 +440,6 @@
         "value": 10000
       }
     },
-    "cold_sweat:world_temperature": {
-      "enabled": false,
-      "min": {
-        "default": NaN,
-        "value": NaN
-      },
-      "max": {
-        "default": Infinity,
-        "value": Infinity
-      }
-    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -605,17 +539,6 @@
         "value": 10
       }
     },
-    "cold_sweat:cold_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "botania:pixie_spawn_chance": {
       "enabled": false,
       "min": {
@@ -636,17 +559,6 @@
       "max": {
         "default": 1024,
         "value": 1000000
-      }
-    },
-    "cold_sweat:burning_point": {
-      "enabled": false,
-      "min": {
-        "default": -Infinity,
-        "value": -Infinity
-      },
-      "max": {
-        "default": Infinity,
-        "value": Infinity
       }
     },
     "attributeslib:arrow_damage": {

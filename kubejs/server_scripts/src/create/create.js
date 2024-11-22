@@ -128,7 +128,7 @@ ServerEvents.recipes(event => {
 
       B: "#gtceu:circuits/hv",
 
-      C: "createutilities:void_steel_sheet",
+      C: "gtceu:double_black_steel_plate",
 
       D: 'gtceu:hv_machine_casing'
     }
@@ -452,7 +452,5 @@ ServerEvents.recipes(event => {
 
 ServerEvents.recipes(event => {
   event.recipes.create.item_application('create:shadow_steel_casing', ['minecraft:obsidian', 'gtceu:shadow_steel_plate'])
-  event.recipes.create.mixing('createutilities:void_steel_ingot', ['create:shadow_steel', 'gtceu:ender_pearl_dust']).superheated()
-  event.remove({ id: 'createutilities:mixing/void_steel_ingot' })
   event.recipes.create.mixing('4x create:chromatic_compound', [Fluid.of('minecraft:lava', 500), 'gtceu:netherite_dust', 'gtceu:andesite_alloy_ingot', 'create:polished_rose_quartz'])
 })
