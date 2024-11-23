@@ -1231,6 +1231,25 @@ ServerEvents.recipes(event => {
         B: "gtceu:lead_single_cable",
         C: "#gtceu:circuits/ulv"
     })
+    event.shaped(
+        Item.of('ctnhcore:high_strength_concrete', 1), [
+        " C ",
+        "CAC",
+        " C "
+    ], {
+        A: 'gtceu:coke_oven_bricks',
+        C: 'gtceu:steel_plate'
+    })
+    event.shaped(
+        Item.of('gtceu:advanced_blast_furnace', 1), [
+        "BCB",
+        "CAC",
+        "BCB"
+    ], {
+        A: 'gtceu:coke_oven',
+        B: 'ctnhcore:high_strength_concrete',
+        C: 'gtceu:steel_plate'
+    })
 
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())

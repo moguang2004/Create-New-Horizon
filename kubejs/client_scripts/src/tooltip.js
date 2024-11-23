@@ -351,6 +351,13 @@ ItemEvents.tooltip(event =>{
         text.add(3, Text.translate('ctnh.decay_pools_machine.tooltip.1'))
         text.add(4, Text.translate('ctnh.decay_pools_machine.tooltip.2'))
     })
+    event.addAdvanced('gtceu:advanced_blast_furnace', (item, advanced, text) => {
+        text.add(1, Text.translate('advanced_blast_furnace').gray())
+        text.add(2, Text.translate('ctnh.advanced_blast_furnace.tooltip.0'))
+        text.add(3, Text.translate('ctnh.advanced_blast_furnace.tooltip.1'))
+        text.add(4, Text.translate('ctnh.advanced_blast_furnace.tooltip.2'))
+        text.add(5, Text.translate('ctnh.advanced_blast_furnace.tooltip.3'))
+    })
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))
     event.add('enderio:enhanced_energy_conduit',Text.translate('ctnh.enhanced_energy_conduit'))

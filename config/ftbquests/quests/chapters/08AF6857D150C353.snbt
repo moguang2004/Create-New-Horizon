@@ -1107,6 +1107,18 @@
 			x: -3.0d
 			y: 9.0d
 		}
+		{
+			dependencies: ["1162E347E7C00175"]
+			id: "4ADE322F099F1C88"
+			subtitle: "如果你已经被普通焦炉的速度搞的头昏脑涨，请试试高级焦炉"
+			tasks: [{
+				id: "7ED1ABAE538B0BC5"
+				item: "gtceu:advanced_blast_furnace"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
 	]
 	title: "{ftbquests.chapter.08AF6857D150C353.title}"
 }
