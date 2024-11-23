@@ -67,4 +67,19 @@ ServerEvents.recipes(event => {
         ]
     ).heated()
 
+    // 耐火粘土砖块配方
+    event.remove({ output: 'gtceu:firebricks' })
+    event.shaped(
+        'gtceu:firebricks',
+        [
+            'BBB',
+            'BCB',
+            'BBB'
+        ],
+        {
+            'B': 'gtceu:firebrick',
+            'C': 'gtceu:cement_bucket'
+        }
+    ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
+
 })
