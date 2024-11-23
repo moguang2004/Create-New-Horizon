@@ -621,6 +621,7 @@
 		{
 			description: ["你会需要它的"]
 			id: "09003848305E9286"
+			subtitle: "大大滴用"
 			tasks: [{
 				id: "4B6A5C3307287E5E"
 				item: "bloodmagic:alchemicalreactionchamber"
