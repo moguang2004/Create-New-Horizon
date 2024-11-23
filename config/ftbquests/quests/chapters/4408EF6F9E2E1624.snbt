@@ -18,8 +18,8 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -27,6 +27,7 @@
 				"60D8E1B5B8777322"
 			]
 			id: "6DB370790E927958"
+			size: 1.75d
 			tasks: [{
 				id: "38BEFB810C42496A"
 				item: "create:mechanical_press"
@@ -58,7 +59,7 @@
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: -3.0d
 		}
 		{
@@ -105,7 +106,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6DB370790E927958"]
@@ -148,6 +149,7 @@
 				item: "gtceu:lead_dust"
 				type: "item"
 			}]
+			size: 1.75d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest10.subtitle}"
 			tasks: [{
 				id: "10269625F0B773D1"
@@ -180,7 +182,7 @@
 				item: "gtceu:potin_dust"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.5d
 			y: 5.0d
 		}
 		{
@@ -230,8 +232,8 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 9.0d
+			x: -4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5046AB1CA278B5A9"]
@@ -254,8 +256,8 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 9.0d
+			x: -7.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
@@ -283,7 +285,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			id: "7857C9428A51E9BC"
@@ -303,7 +305,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 4.0d
 		}
 		{
@@ -350,8 +352,8 @@
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["25CADEFA5DCB0244"]
@@ -362,7 +364,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["25CADEFA5DCB0244"]
@@ -373,7 +375,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2A633C681F979398"]
@@ -384,8 +386,8 @@
 				item: "gtceu:treated_wood_planks"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2460426DE77EF0F4"]
@@ -445,8 +447,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 5.0d
+			x: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -460,7 +462,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			id: "5CC765087238C3A3"
@@ -470,7 +472,7 @@
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -11.5d
 			y: 6.0d
 		}
 		{
@@ -503,7 +505,7 @@
 				item: "gtceu:potin_gear"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -11.5d
 			y: 5.0d
 		}
 		{
@@ -522,8 +524,8 @@
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.0d
+			x: -3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["25CADEFA5DCB0244"]
@@ -535,7 +537,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["33452CB4AAC5EE5F"]
@@ -562,7 +564,7 @@
 				item: "gtceu:flint_dust"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 5.0d
 		}
 		{
@@ -584,6 +586,7 @@
 			dependencies: [
 				"546FAD59DF12C1D5"
 				"18CF49ADA7DF9EB7"
+				"700219157D99E263"
 			]
 			id: "1C0BF959DCF3A9F5"
 			tasks: [{
@@ -591,8 +594,8 @@
 				item: "gtceu:glass_dust"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1C0BF959DCF3A9F5"]
@@ -602,8 +605,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3E42FD564295C649"]
@@ -614,8 +617,8 @@
 				item: "enderio:fluid_conduit"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -632,8 +635,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest42.title}"
-			x: 1.0d
-			y: 12.0d
+			x: 1.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["53B3B59D47455ACE"]
@@ -706,7 +709,7 @@
 				item: "gtceu:lp_steam_extractor"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 14.0d
 		}
 		{
@@ -717,7 +720,7 @@
 				item: "gtceu:lp_steam_furnace"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 14.0d
 		}
 		{
@@ -731,7 +734,7 @@
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -14.0d
 			y: 7.0d
 		}
 		{
@@ -744,8 +747,8 @@
 				item: "ctnhcore:underfloor_heating_system"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 12.0d
+			x: -4.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7C9B89066D34939E"]
@@ -756,7 +759,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1BA3FA0F7BFCF9D8"]
@@ -767,7 +770,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["57B6D6BFE7577AFA"]
@@ -777,8 +780,8 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 10.0d
+			x: -8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2B430B944944D2C1"]
@@ -834,7 +837,7 @@
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 14.0d
 		}
 		{
@@ -846,7 +849,7 @@
 				item: "gtceu:lp_steam_macerator"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 14.0d
 		}
 		{
@@ -856,6 +859,8 @@
 				"4202B676480913ED"
 			]
 			id: "6CDD36A3C742B7F2"
+			shape: "gear"
+			size: 1.75d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest60.subtitle}"
 			tasks: [{
 				id: "43CD7225D0D21331"
@@ -878,11 +883,11 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 9.0d
 		}
 		{
-			dependencies: ["57B6D6BFE7577AFA"]
+			dependencies: ["30BE9ED9BA8D5E8C"]
 			id: "106DC15191737D98"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest62.subtitle}"
 			tasks: [{
@@ -890,8 +895,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 10.0d
+			x: -7.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -904,8 +909,8 @@
 				item: "createoreexcavation:drilling_machine"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 12.0d
+			x: -10.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["156B500126054BC2"]
@@ -920,8 +925,8 @@
 				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest64.task.title1}"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: 14.0d
+			x: -10.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["6EADC71354FF9E80"]
@@ -932,8 +937,8 @@
 				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest65.task.title1}"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: 15.5d
+			x: -11.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["6EADC71354FF9E80"]
@@ -944,8 +949,8 @@
 				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest66.task.title1}"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: 14.0d
+			x: -9.0d
+			y: 17.0d
 		}
 		{
 			id: "10B1EE4638BC3203"
@@ -955,8 +960,8 @@
 				item: "createoreexcavation:vein_finder"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 14.0d
+			x: -10.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["6CDD36A3C742B7F2"]
@@ -967,8 +972,8 @@
 				item: "createmetallurgy:foundry_basin"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 9.0d
+			x: -12.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["2237A624EA40A81C"]
@@ -979,7 +984,7 @@
 				item: "createmetallurgy:foundry_lid"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -13.0d
 			y: 11.0d
 		}
 		{
@@ -993,7 +998,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 12.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4EAE423454479E42"]
@@ -1013,8 +1018,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest71.title}"
-			x: -6.0d
-			y: 12.5d
+			x: -8.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["3035A92235772F73"]
@@ -1034,8 +1039,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest72.title}"
-			x: -4.0d
-			y: 12.5d
+			x: -8.0d
+			y: 18.5d
 		}
 		{
 			dependencies: [
@@ -1055,8 +1060,8 @@
 				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest73.task.title1}"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 11.0d
+			x: -6.0d
+			y: 18.5d
 		}
 		{
 			dependencies: [
@@ -1079,7 +1084,7 @@
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest74.title}"
 			x: -6.0d
-			y: 11.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -1090,7 +1095,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 10.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["3AE55A55A5EBBA5A"]
@@ -1109,7 +1114,7 @@
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest76.title}"
 			x: -5.0d
-			y: 11.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["3AE55A55A5EBBA5A"]
@@ -1128,7 +1133,7 @@
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest77.title}"
 			x: -5.0d
-			y: 10.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["5CF2A3DF0B2E6729"]
@@ -1138,7 +1143,7 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 14.0d
 		}
 		{
@@ -1176,7 +1181,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest79.title}"
-			x: -10.0d
+			x: -11.5d
 			y: 7.0d
 		}
 		{
@@ -1192,8 +1197,8 @@
 				item: "createoreexcavation:sample_drill"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 15.5d
+			x: -10.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["1CCE6AFED399CADF"]
@@ -1203,7 +1208,7 @@
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -14.0d
 			y: 15.5d
 		}
 		{
@@ -1214,8 +1219,8 @@
 				item: "gtceu:compressed_fireclay"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 7.0d
+			x: -17.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["37BD0BB07046E310"]
@@ -1233,8 +1238,8 @@
 					type: "item"
 				}
 			]
-			x: -14.0d
-			y: 9.0d
+			x: -17.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6FDDD78D3F1CD965"]
@@ -1244,19 +1249,21 @@
 				item: "gtceu:coke_dust"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["00172F657F4BAB7A"]
 			id: "1162E347E7C00175"
+			shape: "gear"
+			size: 2.5d
 			tasks: [{
 				id: "6436E6490E808D9A"
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 11.0d
+			x: -17.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
@@ -1285,17 +1292,18 @@
 				type: "checkmark"
 			}]
 			x: 3.5d
-			y: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "6A9845F85704E2D4"
+			size: 1.75d
 			tasks: [{
 				id: "1F36789281D83E9C"
 				item: "vintageimprovements:spring_coiling_machine"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: 2.5d
 		}
 		{
@@ -1311,7 +1319,7 @@
 				item: "vintageimprovements:centrifuge"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -14.0d
 			y: 5.0d
 		}
 		{
@@ -1322,7 +1330,7 @@
 				item: "vintageimprovements:vibrating_table"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -15.5d
 			y: 4.0d
 		}
 		{
@@ -1333,7 +1341,7 @@
 				item: "vintageimprovements:lathe"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 12.5d
 		}
 		{
@@ -1344,8 +1352,8 @@
 				item: "vintageimprovements:vacuum_chamber"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 4.0d
+			x: -17.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["53172FDEC289671A"]
@@ -1355,7 +1363,7 @@
 				item: "gtceu:bronze_small_fluid_pipe"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 15.5d
 		}
 		{
@@ -1366,7 +1374,7 @@
 				item: "gtceu:iron_spring"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -14.0d
 			y: 2.5d
 		}
 		{
@@ -1388,8 +1396,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest102.title}"
-			x: 0.0d
-			y: 12.0d
+			x: -0.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
@@ -1411,7 +1419,7 @@
 				item: "vintageimprovements:curving_press"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 14.0d
 		}
 		{
@@ -1422,7 +1430,7 @@
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -15.5d
 			y: 7.0d
 		}
 		{
@@ -1434,7 +1442,7 @@
 				item: "gtceu:hp_steam_macerator"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 15.5d
 		}
 		{
@@ -1446,7 +1454,7 @@
 				item: "gtceu:steam_grinder"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 15.5d
 		}
 		{
@@ -1458,7 +1466,7 @@
 				item: "gtceu:steam_foundry"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 15.5d
 		}
 		{
@@ -1469,7 +1477,7 @@
 				item: "gtceu:hp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 15.5d
 		}
 		{
@@ -1480,7 +1488,7 @@
 				item: "gtceu:hp_steam_compressor"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 15.5d
 		}
 		{
@@ -1492,7 +1500,7 @@
 				item: "gtceu:steam_pressor"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 15.5d
 		}
 		{
@@ -1514,7 +1522,7 @@
 				item: "gtceu:hp_steam_extractor"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 15.5d
 		}
 		{
@@ -1536,7 +1544,7 @@
 				item: "gtceu:hp_steam_furnace"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 15.5d
 		}
 		{
@@ -1548,7 +1556,7 @@
 				item: "gtceu:steam_oven"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 15.5d
 		}
 		{
@@ -1561,8 +1569,8 @@
 				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest117.task.title1}"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 12.0d
+			x: 5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["49B597AA5C08DC1E"]
@@ -1572,7 +1580,7 @@
 				item: "kubejs:rubber_powder"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -14.0d
 			y: 9.0d
 		}
 		{
@@ -1582,7 +1590,7 @@
 				item: "createmetallurgy:casting_basin"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -13.0d
 			y: 13.0d
 		}
 		{
@@ -1596,7 +1604,7 @@
 				item: "gtceu:rubber_block"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -14.0d
 			y: 13.0d
 		}
 		{
@@ -1611,7 +1619,7 @@
 				item: "gtceu:rubber_bucket"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -14.0d
 			y: 11.0d
 		}
 		{
