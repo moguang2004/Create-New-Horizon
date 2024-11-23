@@ -184,7 +184,6 @@
 			y: -5.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["1162E347E7C00175"]
 			id: "1E11A492F4576DBA"
 			rewards: [{
@@ -768,7 +767,6 @@
 		}
 		{
 			dependencies: [
-				"1B142F4B0CF620D3"
 				"5330148B0417ED4E"
 				"680EE95FED0F46F5"
 				"24A3BEAC1C62DFEC"
@@ -795,7 +793,7 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: -1.5d
 			y: 6.0d
 		}
 		{
@@ -1003,7 +1001,7 @@
 				item: "gtceu:ulv_1a_energy_converter"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 8.0d
 		}
 		{
@@ -1023,31 +1021,6 @@
 			y: 11.5d
 		}
 		{
-			can_repeat: true
-			dependencies: ["1162E347E7C00175"]
-			id: "0D7E0A6600B1783B"
-			rewards: [{
-				command: "/gamephase add @p nether"
-				elevate_perms: true
-				id: "2793A5582E3F56D1"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest75.reward.title1}"
-				type: "command"
-			}]
-			tasks: [{
-				id: "2422B04C6C65854D"
-				item: {
-					Count: 1
-					id: "minecraft:flint_and_steel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: -7.0d
-		}
-		{
 			dependencies: ["77EA82987E62F815"]
 			description: ["可以用蒸汽输入仓和输入总线输出总线，且蒸汽级输出总线最多10个"]
 			id: "4E153836BC53CDD1"
@@ -1061,6 +1034,78 @@
 			}]
 			x: -11.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["3AFD46E811ED67AD"]
+			id: "10E46AEB034C47B6"
+			tasks: [{
+				id: "799C276593ADC318"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41E48BCAEAD9D47E"]
+			description: [
+				"{ftbquests.chapter.lv.quest41.description1}"
+				"{ftbquests.chapter.lv.quest41.description2}"
+				"{ftbquests.chapter.lv.quest41.description3}"
+			]
+			icon: "gtceu:kinetic_steam_turbine"
+			id: "11CBD66BE7CCCAED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "162551D8AEA3417B"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.lv.quest41.subtitle}"
+			tasks: [
+				{
+					id: "4C40156588431040"
+					item: "gtceu:kinetic_steam_turbine"
+					type: "item"
+				}
+				{
+					id: "6568B8AD8477E056"
+					item: "gtceu:ulv_rotor_holder0"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "21D1AE83E2EEC142"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					id: "6A5577F1BAF07D40"
+					item: {
+						Count: 1
+						id: "gtceu:turbine_rotor"
+						tag: {
+							GT.PartStats: {
+								Material: "gtceu:steel"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2D944EAAD01B6494"
+					item: "gtceu:bronze_gearbox"
+					type: "item"
+				}
+				{
+					id: "0B0A337F7CA2BDAF"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 9.0d
 		}
 	]
 	title: "{ftbquests.chapter.08AF6857D150C353.title}"

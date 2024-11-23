@@ -244,7 +244,7 @@
 				type: "checkmark"
 			}]
 			x: -16.0d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["209FAC261240DA4E"]
@@ -647,7 +647,11 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["6298036843D1531E"]
+			dependencies: [
+				"6298036843D1531E"
+				"59C320A0944927A3"
+			]
+			dependency_requirement: "one_completed"
 			id: "42CDDB06AA6D0A68"
 			subtitle: "终点"
 			tasks: [{
@@ -657,6 +661,30 @@
 			}]
 			x: -29.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["17292FB8D4DD36BA"]
+			description: ["而且无线能源仓越造越便宜！"]
+			icon: "gtmthings:luv_2a_wireless_energy_input_hatch"
+			id: "227C6AEB777B7E14"
+			tasks: [{
+				id: "0E554503F61713BB"
+				title: "从LUV开始，你可以使用无线能源仓啦！"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			id: "59C320A0944927A3"
+			invisible: true
+			tasks: [{
+				id: "12C91C16AFB15D3D"
+				item: "gtceu:p507_extractant_bucket"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -6.5d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"

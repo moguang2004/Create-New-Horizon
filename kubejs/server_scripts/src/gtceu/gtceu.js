@@ -1020,7 +1020,13 @@ ServerEvents.recipes(event => {
     .addData('rock', 'minecraft:stone')
     .EUt(1920)
     .duration(400);
-
+  
+  event.recipes.gtceu.chemical_reactor('gtceu:soda_ash_dust')
+    .itemInputs('6x gtceu:sodium_hydroxide_dust')
+    .inputFluids('gtceu:carbon_dioxide 1000')
+    .itemOutputs('6x gtceu:soda_ash_dust')
+    .EUt(20)
+    .duration(50)
   event.recipes.gtceu.mark_of_falling_tower('stone_gems_green')
     .itemInputs('gtceu:exquisite_green_sapphire_gem')
     .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 192000))
@@ -1839,5 +1845,10 @@ ServerEvents.recipes(event => {
     .itemOutputs('kubejs:uhv_voltage_coil')
     .EUt(1964080)
     .duration(200)
-    
+  event.recipes.gtceu.assembler('abyssalalloy_coil_block')
+    .itemInputs('8x gtceu:abyssalalloy_double_wire', '8x gtceu:trinium_foil')
+    .inputFluids('gtceu:tritanium 144')
+    .itemOutputs('ctnhcore:abyssalalloy_coil_block')
+    .EUt(1966080)
+    .duration(900)
 })

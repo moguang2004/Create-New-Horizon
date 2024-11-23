@@ -46,7 +46,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			id: "2F0AFEF0F176A92F"
@@ -482,16 +482,17 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["0C3AB83D2762EC3D"]
 			id: "1BC96CF2C5DB3D12"
-			shape: "square"
-			size: 1.5d
+			shape: "circle"
+			size: 2.0d
 			subtitle: "准备好，它可是你在UHV-UEV主要的磁化材料"
 			tasks: [{
 				id: "3DFC72E59BBA99F7"
 				item: "gtceu:samarium_dysprosium_terbium_permanent_magnet_alloy_ingot"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -503,6 +504,34 @@
 			}]
 			x: 14.5d
 			y: -12.5d
+		}
+		{
+			dependencies: ["0C3AB83D2762EC3D"]
+			id: "2DBA5445319926BE"
+			shape: "circle"
+			size: 2.0d
+			subtitle: "还没锗线，所以你搓不了（"
+			tasks: [{
+				id: "25A8BD7CF4103101"
+				item: "gtceu:abyssalalloy_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2DBA5445319926BE"]
+			id: "0C5E045DBD9D132E"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "新的线圈！"
+			tasks: [{
+				id: "7FDBB66A6463D160"
+				item: "ctnhcore:abyssalalloy_coil_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
 		}
 	]
 	title: "{ftbquests.chapter.uv.title}"
