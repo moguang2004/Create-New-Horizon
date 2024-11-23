@@ -45,8 +45,9 @@
 				"020A570A2EC3EE8B"
 				"0598D6FDA6319592"
 			]
-			description: ["套娃基本"]
+			description: [""]
 			id: "0609BF460D2F4A65"
+			subtitle: "套娃基本"
 			tasks: [{
 				id: "7B0C59E3F6216868"
 				item: "bloodmagic:blankslate"
@@ -62,6 +63,7 @@
 			]
 			description: ["套娃1号"]
 			id: "771C2EE93ADC202F"
+			subtitle: "套娃1号"
 			tasks: [{
 				id: "4E8A4C6E756DDB32"
 				item: "bloodmagic:reinforcedslate"
@@ -140,6 +142,7 @@
 				"6D319978414D13A6"
 				"53E11BE9F17DB54E"
 			]
+			description: ["5级祭坛的角是1个恶魔金属块"]
 			icon: "bloodmagic:altar"
 			id: "513CDE2822C27E26"
 			size: 2.0d
@@ -159,6 +162,7 @@
 			]
 			description: ["套娃二号"]
 			id: "53B9F9C945B0BB33"
+			subtitle: "套娃二号"
 			tasks: [{
 				id: "4BE3A1A1A590FA9F"
 				item: "bloodmagic:infusedslate"
@@ -174,6 +178,7 @@
 			]
 			description: ["套娃3号"]
 			id: "40BDB3844BF38B0D"
+			subtitle: "套娃3号"
 			tasks: [{
 				id: "2A34F44DC257DDA9"
 				item: "bloodmagic:demonslate"
@@ -189,6 +194,7 @@
 			]
 			description: ["快结束了"]
 			id: "7CC2B2A2B70CCD83"
+			subtitle: "快结束了"
 			tasks: [{
 				id: "7CF1238782A1310F"
 				item: "bloodmagic:etherealslate"
@@ -443,6 +449,7 @@
 		{
 			dependencies: ["0609BF460D2F4A65"]
 			id: "3F5F735510035B28"
+			subtitle: "你不得不塞这玩意"
 			tasks: [{
 				id: "00CA1AF1D0C08825"
 				item: "bloodmagic:speedrune"
@@ -455,6 +462,7 @@
 			dependencies: ["771C2EE93ADC202F"]
 			description: ["你不需要这个，你有数字苦难井"]
 			id: "63C1CDADDBC77ABD"
+			subtitle: "为什么不用数字苦难呢？"
 			tasks: [{
 				id: "28E2AB710E63B93F"
 				item: "bloodmagic:sacrificerune"
@@ -467,6 +475,7 @@
 			dependencies: ["771C2EE93ADC202F"]
 			description: ["你也不需要这个，你还是有数字苦难井"]
 			id: "64CC61B395F72B7D"
+			subtitle: "为什么不用数字苦难呢？"
 			tasks: [{
 				id: "04BFB89BCF76F79C"
 				item: "bloodmagic:selfsacrificerune"
@@ -478,6 +487,7 @@
 		{
 			dependencies: ["53B9F9C945B0BB33"]
 			id: "2205E2EAF55B52F7"
+			subtitle: "加快源质输入输出速度"
 			tasks: [{
 				id: "2DE9831146737186"
 				item: "bloodmagic:dislocationrune"
@@ -489,6 +499,7 @@
 		{
 			dependencies: ["53B9F9C945B0BB33"]
 			id: "1F377D5E29181294"
+			subtitle: "增加上限"
 			tasks: [{
 				id: "03B9AC1DDFC3532E"
 				item: "bloodmagic:altarcapacityrune"
@@ -503,6 +514,7 @@
 				"1F377D5E29181294"
 			]
 			id: "79EC7AFE794818C4"
+			subtitle: "配合增容"
 			tasks: [{
 				id: "410245C09FCC150B"
 				item: "bloodmagic:bettercapacityrune"
@@ -537,6 +549,7 @@
 		{
 			dependencies: ["7CC2B2A2B70CCD83"]
 			id: "292C8244FE241F15"
+			subtitle: "这个可以消耗存储在内部的源质瞬间合成"
 			tasks: [{
 				id: "19A9252F89C2F526"
 				item: "bloodmagic:chargingrune"
@@ -731,10 +744,11 @@
 			dependencies: ["11B6FE0A5C38B474"]
 			description: [
 				"{ftbquests.chapter.71282A84EFB2E6DD.quest53.description1}"
-				"感觉不如直接在无尽领域里面翻箱子快"
+				""
 			]
 			icon: "bloodmagic:upgradetome"
 			id: "4CAF15A55CACB620"
+			subtitle: "感觉不如直接在无尽领域里面翻箱子快"
 			tasks: [{
 				id: "1C08019A45E961AE"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest53.task.title1}"
@@ -763,6 +777,7 @@
 		{
 			dependencies: ["73C6CFF093C3D1FF"]
 			id: "11B6FE0A5C38B474"
+			subtitle: "升级版"
 			tasks: [{
 				id: "63EA8A40C1805FE9"
 				item: "bloodmagic:ritualdivinerdusk"
@@ -788,6 +803,7 @@
 			description: ["无尽领域！"]
 			icon: "bloodmagic:upgradetome"
 			id: "25407232A00F2AF1"
+			subtitle: "无尽领域！"
 			tasks: [{
 				id: "4C3599D32045D55E"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest57.task.title1}"
@@ -1013,7 +1029,7 @@
 				"{ftbquests.chapter.71282A84EFB2E6DD.quest74.description1}"
 				"如果想要凋灵刷怪笼，请做出结构锻炉"
 				"结构锻炉的半砖只能在无尽领域的蜘蛛刷怪笼的房间找到"
-				"DDDD"
+				"空两格，在第三格放符文&4"
 			]
 			icon: "bloodmagic:altar"
 			id: "0379412BFDFE99FE"
@@ -1034,6 +1050,7 @@
 			]
 			description: ["终点了"]
 			id: "68506B3372A8677F"
+			subtitle: "终点了"
 			tasks: [{
 				id: "0BDA0EB279AFADAC"
 				item: "kubejs:endslate"
