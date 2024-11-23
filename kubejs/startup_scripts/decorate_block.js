@@ -58,7 +58,7 @@ StartupEvents.registry("item", event => {
         .displayName('老灯的蜜汁小汉堡')
         .tooltip('老灯的馈赠:在用完前做出庇护所吧!')
         .food(add=>{
-            add.hunger(10) //设置恢复5个“鸡腿”
+            add.hunger(20) //设置恢复5个“鸡腿”
             add.saturation(0.5) // 饱和度设置为10*0.5 = 5
             add.meat() // 设置食物属性为肉，可以被狗食用
             add.alwaysEdible() //设置为无需消耗饱食度即可使用
