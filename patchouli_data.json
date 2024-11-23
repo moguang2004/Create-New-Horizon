@@ -97,7 +97,19 @@
         "bloodmagic:alchemy_array/functional_arrays/time_arrays",
         "bloodmagic:altar/slates",
         "bloodmagic:utility/life_essence_bucket",
-        "bloodmagic:altar/redstone_automation"
+        "bloodmagic:altar/redstone_automation",
+        "bloodmagic:rituals/activation_crystals",
+        "bloodmagic:rituals/ritual_tinkerer"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "nuclearcraft:nuclearcraft": {
+      "viewedEntries": [
+        "nuclearcraft:machines/processors",
+        "nuclearcraft:fission/general",
+        "nuclearcraft:fusion/general",
+        "nuclearcraft:machines/generators"
       ],
       "bookmarks": [],
       "completedManualQuests": []

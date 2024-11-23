@@ -294,6 +294,18 @@ ServerEvents.recipes(event => {
         A: 'gtceu:bronze_rod'
     });
 
+	event.shaped('kubejs:ender_light', [
+		'DDD',
+		'ABC',
+		'EEE'
+	], {
+		D: 'legendarysurvivaloverhaul:sun_fern',
+        A: 'legendarysurvivaloverhaul:glistering_melon_juice',
+		B: 'legendarysurvivaloverhaul:golden_apple_juice',
+		C: 'legendarysurvivaloverhaul:golden_carrot_juice',
+		E: 'legendarysurvivaloverhaul:ice_fern'
+    });
+
 
 
 

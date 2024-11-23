@@ -102,7 +102,7 @@
 	[temperature.biomes]
 		# How much a biome's temperature effects are multiplied.
 		#Range: 0.0 ~ 1000.0
-		"Biome Temperature Multiplier" = 16.0
+		"Biome Temperature Multiplier" = 12.0
 		# Whether biomes will have an effect on a player's temperature.
 		"Biomes affect Temperature" = true
 		# How much hot biome's dryness will make nights really cold.
@@ -116,7 +116,7 @@
 	[temperature.underground]
 		# How much a biomes temperature effects are multiplied when player is underground
 		#Range: 0.0 ~ 1000.0
-		"Underground Biome Temperature Multiplier" = 0.8
+		"Underground Biome Temperature Multiplier" = 0.4
 		# Distance to the World Surface where underground effect will start to be applied.
 		# Smaller distance, no underground effect are applied.
 		#Range: 0 ~ 400
@@ -124,7 +124,7 @@
 		# Distance to the World Surface where underground effect will be maximal.
 		# Bigger distance, the underground effect is maximal. Between the Start and End Distance, the increase of underground effect is linear.
 		#Range: 0 ~ 400
-		"End Distance To World Surface For Underground Effect" = 16
+		"End Distance To World Surface For Underground Effect" = 50
 
 	[temperature.weather]
 		# How much of an effect rain has on temperature.
@@ -164,29 +164,29 @@
 		# Add an adaptive heating effect on armors.
 		[temperature.coat.heating]
 			#Range: 0.0 ~ 1000.0
-			"Heating Coat I" = 2.0
+			"Heating Coat I" = 4.0
 			#Range: 0.0 ~ 1000.0
-			"Heating Coat II" = 4.0
+			"Heating Coat II" = 8.0
 			#Range: 0.0 ~ 1000.0
-			"Heating Coat III" = 8.0
+			"Heating Coat III" = 12.0
 
 		# Add an adaptive cooling effect on armors.
 		[temperature.coat.cooling]
 			#Range: 0.0 ~ 1000.0
-			"Cooling Coat I" = 2.0
+			"Cooling Coat I" = 4.0
 			#Range: 0.0 ~ 1000.0
-			"Cooling Coat II" = 4.0
+			"Cooling Coat II" = 8.0
 			#Range: 0.0 ~ 1000.0
-			"Cooling Coat III" = 8.0
+			"Cooling Coat III" = 12.0
 
 		# Add an adaptive temperature effect on armors that can both heat and cool the player.
 		[temperature.coat.thermal]
 			#Range: 0.0 ~ 1000.0
-			"Thermal Coat I" = 2.0
+			"Thermal Coat I" = 4.0
 			#Range: 0.0 ~ 1000.0
-			"Thermal Coat II" = 4.0
+			"Thermal Coat II" = 8.0
 			#Range: 0.0 ~ 1000.0
-			"Thermal Coat III" = 8.0
+			"Thermal Coat III" = 12.0
 
 	[temperature.advanced]
 		# Maximum influence distance, in blocks, where thermal sources will have an effect on temperature.
