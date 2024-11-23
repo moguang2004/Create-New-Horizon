@@ -25,7 +25,7 @@
 		{
 			id: "359E958586D6232F"
 			linked_quest: "2C6FBF2A814BB60D"
-			x: 11.5d
+			x: 11.0d
 			y: -1.0d
 		}
 	]
@@ -396,7 +396,7 @@
 				item: "gtceu:ender_pearl_dust"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: -5.0d
 		}
 		{
@@ -490,7 +490,7 @@
 				item: "gtceu:toluene_bucket"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: -6.0d
 		}
 		{
@@ -508,8 +508,8 @@
 				item: "gtceu:mv_distillery"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -7.5d
+			x: 11.0d
+			y: -7.0d
 		}
 		{
 			id: "61F3A1C4B771E811"
@@ -574,9 +574,12 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["221F9C128CA48DAA"]
+			dependencies: [
+				"221F9C128CA48DAA"
+				"1C203FA12C28D5D2"
+			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.mv.quest39.description1}"]
+			description: [""]
 			id: "291D02E808F55209"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -654,7 +657,7 @@
 				type: "dimension"
 			}]
 			title: "{ftbquests.chapter.mv.quest43.title}"
-			x: 11.5d
+			x: 11.0d
 			y: -3.5d
 		}
 		{
@@ -666,7 +669,7 @@
 				item: "gtceu:fluorine_bucket"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -681,17 +684,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0B9A6D518B6797C0"]
-			id: "08CB75F59F452DE7"
-			tasks: [{
-				id: "493C08A31BD229CE"
-				item: "createutilities:void_tank"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -2.0d
-		}
-		{
 			dependencies: ["4DCA7E4E57817E0A"]
 			id: "47477F45269D6DB4"
 			tasks: [{
@@ -703,17 +695,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["47477F45269D6DB4"]
-			id: "0B9A6D518B6797C0"
-			tasks: [{
-				id: "71D9D6A64F7AEB9A"
-				item: "createutilities:void_steel_ingot"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["4DCA7E4E57817E0A"]
 			id: "221F9C128CA48DAA"
 			tasks: [{
@@ -722,7 +703,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -842,7 +823,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			id: "0B406575E6CDCC2D"
@@ -852,7 +833,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -981,8 +962,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.499999999999986d
-			y: -2.642857142857146d
+			x: 9.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0FEAC07F1404346A"]
@@ -1041,6 +1022,17 @@
 			}]
 			x: 2.5d
 			y: 0.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "1C203FA12C28D5D2"
+			tasks: [{
+				id: "1C1BFFEBB2C0FC24"
+				title: "洗深板岩粉也有概率出铬粉"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -5.0d
 		}
 	]
 	title: "{ftbquests.chapter.mv.title}"

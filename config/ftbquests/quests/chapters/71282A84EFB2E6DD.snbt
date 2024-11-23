@@ -24,8 +24,13 @@
 	quests: [
 		{
 			dependencies: ["76036AE6CE23B158"]
+			description: [
+				"建议配合魔艺的治疗食用"
+				"血魔法，启动！"
+			]
 			id: "4CA3E4766B67C12B"
 			size: 2.0d
+			subtitle: "放血疗法"
 			tasks: [{
 				id: "636758F719B61C26"
 				item: "bloodmagic:altar"
@@ -40,7 +45,9 @@
 				"020A570A2EC3EE8B"
 				"0598D6FDA6319592"
 			]
+			description: [""]
 			id: "0609BF460D2F4A65"
+			subtitle: "套娃基本"
 			tasks: [{
 				id: "7B0C59E3F6216868"
 				item: "bloodmagic:blankslate"
@@ -54,7 +61,9 @@
 				"33F3CD3FB3033DE3"
 				"0609BF460D2F4A65"
 			]
+			description: ["套娃1号"]
 			id: "771C2EE93ADC202F"
+			subtitle: "套娃1号"
 			tasks: [{
 				id: "4E8A4C6E756DDB32"
 				item: "bloodmagic:reinforcedslate"
@@ -65,7 +74,9 @@
 		}
 		{
 			dependencies: ["0609BF460D2F4A65"]
+			description: ["准备好大量的玄钢了吗？"]
 			id: "4640BD2CE48A302B"
+			subtitle: "玄钢在燃烧！"
 			tasks: [{
 				id: "0C5EB961A5255D13"
 				item: "bloodmagic:blankrune"
@@ -82,6 +93,7 @@
 			icon: "bloodmagic:altar"
 			id: "33F3CD3FB3033DE3"
 			size: 2.0d
+			subtitle: "要被榨干惹"
 			tasks: [{
 				id: "5155AC0F564C7DA5"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest5.task.title1}"
@@ -95,6 +107,7 @@
 			icon: "bloodmagic:altar"
 			id: "698470A3BFEFBCD4"
 			size: 2.0d
+			subtitle: "一滴不剩惹"
 			tasks: [{
 				id: "43E044AE5E9EC789"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest6.task.title1}"
@@ -108,9 +121,14 @@
 				"0F512DA4AB819FDA"
 				"698470A3BFEFBCD4"
 			]
+			description: [
+				"是时候请出数字化苦难井了！"
+				"数字苦难井需要至少基础的模型，等级越高源质越多(我知道你在想什么)"
+			]
 			icon: "bloodmagic:altar"
 			id: "6D319978414D13A6"
 			size: 2.0d
+			subtitle: "继续加油！"
 			tasks: [{
 				id: "0CCA6628275004E2"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest7.task.title1}"
@@ -124,9 +142,11 @@
 				"6D319978414D13A6"
 				"53E11BE9F17DB54E"
 			]
+			description: ["5级祭坛的角是1个恶魔金属块"]
 			icon: "bloodmagic:altar"
 			id: "513CDE2822C27E26"
 			size: 2.0d
+			subtitle: "还差一点！"
 			tasks: [{
 				id: "647C516FB78EF9CA"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest8.task.title1}"
@@ -140,7 +160,9 @@
 				"698470A3BFEFBCD4"
 				"771C2EE93ADC202F"
 			]
+			description: ["套娃二号"]
 			id: "53B9F9C945B0BB33"
+			subtitle: "套娃二号"
 			tasks: [{
 				id: "4BE3A1A1A590FA9F"
 				item: "bloodmagic:infusedslate"
@@ -154,7 +176,9 @@
 				"6D319978414D13A6"
 				"53B9F9C945B0BB33"
 			]
+			description: ["套娃3号"]
 			id: "40BDB3844BF38B0D"
+			subtitle: "套娃3号"
 			tasks: [{
 				id: "2A34F44DC257DDA9"
 				item: "bloodmagic:demonslate"
@@ -168,7 +192,9 @@
 				"40BDB3844BF38B0D"
 				"513CDE2822C27E26"
 			]
+			description: ["快结束了"]
 			id: "7CC2B2A2B70CCD83"
+			subtitle: "快结束了"
 			tasks: [{
 				id: "7CF1238782A1310F"
 				item: "bloodmagic:etherealslate"
@@ -179,7 +205,10 @@
 		}
 		{
 			dependencies: ["33F3CD3FB3033DE3"]
-			description: [""]
+			description: [
+				""
+				"其实需要也不需要"
+			]
 			id: "4ADCAEB3CD34CF1F"
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest12.subtitle}"
 			tasks: [{
@@ -194,8 +223,14 @@
 			dependencies: ["4ADCAEB3CD34CF1F"]
 			id: "27F2B1C2A9AB7929"
 			tasks: [{
-				id: "37D642E0873C1055"
-				item: "bloodmagic:reagentwater"
+				id: "4145373177562F52"
+				item: {
+					Count: 1
+					id: "bloodmagic:airscribetool"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -205,8 +240,14 @@
 			dependencies: ["4ADCAEB3CD34CF1F"]
 			id: "26EEDB26AB749683"
 			tasks: [{
-				id: "53A1455D450EE5F5"
-				item: "bloodmagic:reagentlava"
+				id: "3BCAB671F828C024"
+				item: {
+					Count: 1
+					id: "bloodmagic:firescribetool"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -238,8 +279,14 @@
 			dependencies: ["4ADCAEB3CD34CF1F"]
 			id: "73653053B61A734E"
 			tasks: [{
-				id: "3DD719B429DC08CD"
-				item: "bloodmagic:reagentfastminer"
+				id: "3BD8A4E6BEC6AE2F"
+				item: {
+					Count: 1
+					id: "bloodmagic:waterscribetool"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -260,8 +307,14 @@
 			dependencies: ["4ADCAEB3CD34CF1F"]
 			id: "0BB0AB4EF7A4346F"
 			tasks: [{
-				id: "1BE58B589AC6EA78"
-				item: "bloodmagic:reagentair"
+				id: "7DB7CDBA330A0F9E"
+				item: {
+					Count: 1
+					id: "bloodmagic:earthscribetool"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -336,6 +389,7 @@
 		{
 			dependencies: ["4CA3E4766B67C12B"]
 			id: "4F4D4933EAC497E7"
+			subtitle: "小学"
 			tasks: [{
 				id: "12BEE27A00BFCBE3"
 				item: "bloodmagic:weakbloodorb"
@@ -347,6 +401,7 @@
 		{
 			dependencies: ["33F3CD3FB3033DE3"]
 			id: "2E12DCC31E3E0626"
+			subtitle: "初中"
 			tasks: [{
 				id: "59807DDE44DBC5B5"
 				item: "bloodmagic:apprenticebloodorb"
@@ -358,6 +413,7 @@
 		{
 			dependencies: ["698470A3BFEFBCD4"]
 			id: "2040B219B1AAF893"
+			subtitle: "高中"
 			tasks: [{
 				id: "4D87401DC0DD0EE2"
 				item: "bloodmagic:magicianbloodorb"
@@ -369,6 +425,7 @@
 		{
 			dependencies: ["6D319978414D13A6"]
 			id: "4CF90E6B56618511"
+			subtitle: "大学"
 			tasks: [{
 				id: "3556C60FA39E90EF"
 				item: "bloodmagic:masterbloodorb"
@@ -380,6 +437,7 @@
 		{
 			dependencies: ["513CDE2822C27E26"]
 			id: "2A5B367B62F87075"
+			subtitle: "社畜"
 			tasks: [{
 				id: "127E7D9712060F28"
 				item: "bloodmagic:archmagebloodorb"
@@ -391,6 +449,7 @@
 		{
 			dependencies: ["0609BF460D2F4A65"]
 			id: "3F5F735510035B28"
+			subtitle: "你不得不塞这玩意"
 			tasks: [{
 				id: "00CA1AF1D0C08825"
 				item: "bloodmagic:speedrune"
@@ -401,7 +460,9 @@
 		}
 		{
 			dependencies: ["771C2EE93ADC202F"]
+			description: ["你不需要这个，你有数字苦难井"]
 			id: "63C1CDADDBC77ABD"
+			subtitle: "为什么不用数字苦难呢？"
 			tasks: [{
 				id: "28E2AB710E63B93F"
 				item: "bloodmagic:sacrificerune"
@@ -412,7 +473,9 @@
 		}
 		{
 			dependencies: ["771C2EE93ADC202F"]
+			description: ["你也不需要这个，你还是有数字苦难井"]
 			id: "64CC61B395F72B7D"
+			subtitle: "为什么不用数字苦难呢？"
 			tasks: [{
 				id: "04BFB89BCF76F79C"
 				item: "bloodmagic:selfsacrificerune"
@@ -424,6 +487,7 @@
 		{
 			dependencies: ["53B9F9C945B0BB33"]
 			id: "2205E2EAF55B52F7"
+			subtitle: "加快源质输入输出速度"
 			tasks: [{
 				id: "2DE9831146737186"
 				item: "bloodmagic:dislocationrune"
@@ -435,6 +499,7 @@
 		{
 			dependencies: ["53B9F9C945B0BB33"]
 			id: "1F377D5E29181294"
+			subtitle: "增加上限"
 			tasks: [{
 				id: "03B9AC1DDFC3532E"
 				item: "bloodmagic:altarcapacityrune"
@@ -449,6 +514,7 @@
 				"1F377D5E29181294"
 			]
 			id: "79EC7AFE794818C4"
+			subtitle: "配合增容"
 			tasks: [{
 				id: "410245C09FCC150B"
 				item: "bloodmagic:bettercapacityrune"
@@ -471,6 +537,7 @@
 		{
 			dependencies: ["40BDB3844BF38B0D"]
 			id: "5A159C110F6955CA"
+			subtitle: "最多塞19个"
 			tasks: [{
 				id: "006B5459A17F1A6C"
 				item: "bloodmagic:accelerationrune"
@@ -482,6 +549,7 @@
 		{
 			dependencies: ["7CC2B2A2B70CCD83"]
 			id: "292C8244FE241F15"
+			subtitle: "这个可以消耗存储在内部的源质瞬间合成"
 			tasks: [{
 				id: "19A9252F89C2F526"
 				item: "bloodmagic:chargingrune"
@@ -492,6 +560,10 @@
 		}
 		{
 			dependencies: ["2E0983CC5E00B72D"]
+			description: [
+				"只需要一颗就能种"
+				"这个地牢也就拿了这个就能跑了"
+			]
 			id: "23347233C6B3121C"
 			tasks: [{
 				id: "67E08F57D7B83D02"
@@ -503,7 +575,11 @@
 		}
 		{
 			dependencies: ["23347233C6B3121C"]
-			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest41.description1}"]
+			description: [
+				"{ftbquests.chapter.71282A84EFB2E6DD.quest41.description1}"
+				"？"
+				"省时间：自己站在上面，使用魔艺的生长魔符可催熟成饱满,它有4个阶段要吸4次血"
+			]
 			id: "0CF5D8B837116811"
 			tasks: [{
 				id: "36564FC236803231"
@@ -529,6 +605,10 @@
 				"09003848305E9286"
 				"0CF5D8B837116811"
 			]
+			description: [
+				"可以用时间之瓶加速"
+				"催化剂还能附魔更耐用"
+			]
 			id: "354B0216A8912589"
 			tasks: [{
 				id: "729DEB21C3B9774C"
@@ -539,7 +619,9 @@
 			y: 8.0d
 		}
 		{
+			description: ["你会需要它的"]
 			id: "09003848305E9286"
+			subtitle: "大大滴用"
 			tasks: [{
 				id: "4B6A5C3307287E5E"
 				item: "bloodmagic:alchemicalreactionchamber"
@@ -573,6 +655,7 @@
 		{
 			dependencies: ["6F2B10DEE6CC1CEB"]
 			id: "5F3B3A2F7384596D"
+			subtitle: "用来打开矿井的门"
 			tasks: [{
 				id: "21A5D957E7906631"
 				item: "bloodmagic:minekey"
@@ -598,6 +681,7 @@
 		}
 		{
 			dependencies: ["698470A3BFEFBCD4"]
+			description: ["所有仪式都可以用它激活，大概()"]
 			id: "7BC686B06AAB5A90"
 			tasks: [{
 				id: "48C173F631861EEC"
@@ -609,6 +693,11 @@
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
+			description: [
+				"使用坠星的配方；"
+				"注意自己网络的源质和自己的宝珠等级"
+				"引物丢在主仪式石上面，再激活仪式"
+			]
 			icon: "bloodmagic:upgradetome"
 			id: "7F596517F8E1795A"
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest50.subtitle}"
@@ -623,7 +712,10 @@
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
-			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest51.description1}"]
+			description: [
+				"{ftbquests.chapter.71282A84EFB2E6DD.quest51.description1}"
+				"有点用但不多，要结晶快点就用"
+			]
 			icon: "bloodmagic:upgradetome"
 			id: "48A9F36EEDFFD6A3"
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest51.subtitle}"
@@ -651,9 +743,13 @@
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
-			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest53.description1}"]
+			description: [
+				"{ftbquests.chapter.71282A84EFB2E6DD.quest53.description1}"
+				""
+			]
 			icon: "bloodmagic:upgradetome"
 			id: "4CAF15A55CACB620"
+			subtitle: "感觉不如直接在无尽领域里面翻箱子快"
 			tasks: [{
 				id: "1C08019A45E961AE"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest53.task.title1}"
@@ -669,6 +765,7 @@
 				"0BB0AB4EF7A4346F"
 				"26EEDB26AB749683"
 			]
+			description: ["对着主仪式石可以快速搭仪式，但是你得准备对应数量的仪式石"]
 			id: "78C75CD9990F3C59"
 			tasks: [{
 				id: "59372BB16AA6AC48"
@@ -681,6 +778,7 @@
 		{
 			dependencies: ["73C6CFF093C3D1FF"]
 			id: "11B6FE0A5C38B474"
+			subtitle: "升级版"
 			tasks: [{
 				id: "63EA8A40C1805FE9"
 				item: "bloodmagic:ritualdivinerdusk"
@@ -692,6 +790,7 @@
 		{
 			dependencies: ["698470A3BFEFBCD4"]
 			id: "24B8C72A417B4C2F"
+			subtitle: "队友祭天，法力无边！"
 			tasks: [{
 				id: "1D220FF7F322C72D"
 				item: "bloodmagic:daggerofsacrifice"
@@ -702,8 +801,10 @@
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
+			description: ["无尽领域！"]
 			icon: "bloodmagic:upgradetome"
 			id: "25407232A00F2AF1"
+			subtitle: "无尽领域！"
 			tasks: [{
 				id: "4C3599D32045D55E"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest57.task.title1}"
@@ -714,7 +815,12 @@
 		}
 		{
 			dependencies: ["25407232A00F2AF1"]
+			description: [
+				"每个无尽领域仅有一个矿井和一个钥匙房间"
+				"进入到特殊房间会提示：你感到这个房间很诡异"
+			]
 			id: "6F2B10DEE6CC1CEB"
+			subtitle: "用来打开矿井的大门"
 			tasks: [{
 				id: "2A50A39493D6B914"
 				item: "bloodmagic:mineentrancekey"
@@ -775,6 +881,7 @@
 		}
 		{
 			dependencies: ["73B77D941D38C88C"]
+			description: ["刷意志建议用感知剑，配合神化附魔，建小黑塔或使用满配刷怪笼"]
 			id: "62A2223CE93E4513"
 			tasks: [{
 				id: "71293CB0DDFB2AC6"
@@ -845,6 +952,7 @@
 				"7533CEF4D917083F"
 			]
 			id: "0A81CFBAA57DCC85"
+			subtitle: "必做"
 			tasks: [{
 				id: "0AA889869BA9FAD4"
 				item: "bloodmagic:demoncrucible"
@@ -858,7 +966,9 @@
 				"6D319978414D13A6"
 				"7533CEF4D917083F"
 			]
+			description: ["你得做一个，后面可以在无尽领域找到"]
 			id: "73B77D941D38C88C"
+			subtitle: "刷恶魔意志建议做小黑塔或使用满配神化刷怪笼"
 			tasks: [{
 				id: "3166ABF04CB92657"
 				item: "bloodmagic:demoncrystallizer"
@@ -873,6 +983,7 @@
 				"0A81CFBAA57DCC85"
 				"513CDE2822C27E26"
 			]
+			description: ["在领域找到，不想做的话"]
 			id: "6709ADE1310AAB9F"
 			tasks: [{
 				id: "5EEC84D7F9A7C35E"
@@ -884,6 +995,10 @@
 		}
 		{
 			dependencies: ["6F2B10DEE6CC1CEB"]
+			description: [
+				"矿井里面开箱抽卡"
+				"找到一个也可以用结构锻炉来复制"
+			]
 			id: "6D683CDE5D679C32"
 			tasks: [{
 				id: "5B73CC6733DFC0E0"
@@ -895,7 +1010,10 @@
 		}
 		{
 			dependencies: ["6D683CDE5D679C32"]
-			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest73.description1}"]
+			description: [
+				"{ftbquests.chapter.71282A84EFB2E6DD.quest73.description1}"
+				"芜湖：起飞！"
+			]
 			id: "6430BFEF00052C43"
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest73.subtitle}"
 			tasks: [{
@@ -908,10 +1026,16 @@
 		}
 		{
 			dependencies: ["42F7EB2A3B7E87B4"]
-			description: ["{ftbquests.chapter.71282A84EFB2E6DD.quest74.description1}"]
+			description: [
+				"{ftbquests.chapter.71282A84EFB2E6DD.quest74.description1}"
+				"如果想要凋灵刷怪笼，请做出结构锻炉"
+				"结构锻炉的半砖只能在无尽领域的蜘蛛刷怪笼的房间找到"
+				"空两格，在第三格放符文&4"
+			]
 			icon: "bloodmagic:altar"
 			id: "0379412BFDFE99FE"
 			size: 2.0d
+			subtitle: "结束了"
 			tasks: [{
 				id: "1618820DC099898D"
 				title: "{ftbquests.chapter.71282A84EFB2E6DD.quest74.task.title1}"
@@ -925,7 +1049,9 @@
 				"7CC2B2A2B70CCD83"
 				"0379412BFDFE99FE"
 			]
+			description: ["终点了"]
 			id: "68506B3372A8677F"
+			subtitle: "终点了"
 			tasks: [{
 				id: "0BDA0EB279AFADAC"
 				item: "kubejs:endslate"
@@ -936,7 +1062,9 @@
 		}
 		{
 			dependencies: ["68506B3372A8677F"]
+			description: ["开坠！"]
 			id: "210C1FB94A0AA2B0"
+			subtitle: "地爆天星！(才怪)"
 			tasks: [{
 				id: "3D44922C0B951214"
 				item: "gtceu:meteor_capturer"
