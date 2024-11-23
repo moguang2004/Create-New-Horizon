@@ -1,0 +1,25 @@
+GTCEuStartupEvents.registry('gtceu:machine', event => {
+    event.create("advanced_blast_furnace", "multiblock")
+        .rotationState(RotationState.ALL)
+        .recipeType(GTRecipeTypes.COKE_OVEN_RECIPES)
+        .recipeModifier((machine,/**@type {$GTRecipe}*/recipe, params, result) => {
+            let parallel = 32
+            let newrecipe = recipe.copy()
+            newrecipe.duration = 300
+            return GTRecipeModifiers.accurateParallel(machine, newrecipe, parallel, false).getFirst()
+        })
+        .appearanceBlock(() => Block.getBlock('gtceu:firebricks'))
+        .pattern(definition => FactoryBlockPattern.start()
+            .aisle("BBB", "BBB", "BBB")
+            .aisle("BBB", "B#B", "BBB")
+            .aisle("BBB", "B@B", "BBB")
+            .where("B", Predicates.blocks('ctnhcore:high_strength_concrete')
+                .or(Predicates.autoAbilities(definition.getRecipeTypes()))
+                .or(Predicates.abilities(PartAbility.EXPORT_ITEMS))
+                .or(Predicates.abilities(PartAbility.STEAM_EXPORT_ITEMS).setPreviewCount(9))
+                .or(Predicates.abilities(PartAbility.STEAM_IMPORT_ITEMS).setPreviewCount(9)))
+            .where("#", Predicates.any())
+            .where("@", Predicates.controller(Predicates.blocks(definition.get())))
+            .build())
+        .workableCasingRenderer('ctnhcore:block/high_grade_coke_oven_bricks', 'gtceu:block/machines/arc_furnace', false)
+})

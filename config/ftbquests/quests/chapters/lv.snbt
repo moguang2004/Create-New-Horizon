@@ -647,6 +647,7 @@
 		{
 			description: ["{ftbquests.chapter.lv.quest48.description1}"]
 			id: "471F881828CFF6A6"
+			subtitle: "辉钴矿粉在高炉中反应可以得到三氧化二砷和氧化钴"
 			tasks: [{
 				id: "058016E76E3EEE36"
 				item: "gtceu:arsenic_dust"

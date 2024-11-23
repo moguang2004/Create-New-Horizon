@@ -342,6 +342,7 @@
     "block.gtceu.mana_generator_turbine_tier2": "魔力涡轮发电机MK2",
     "block.gtceu.mana_generator_turbine_tier3": "魔力涡轮发电机MK3",
     "block.gtceu.mana_generator_turbine_tier4": "魔力涡轮发电机MK4",
+    "block.gtceu.advanced_blast_furnace": "高级焦炉",
     "block.gtceu.gas_centrifuge_machine": "气体离心机",
     "block.gtceu.gaia_reactor": "盖亚反应器",
     "block.gtceu.kinetic_generator": "应力发电机",
@@ -581,6 +582,11 @@
     "ctnh.decay_pools_machine.tooltip.0": "当电路板为0时为不通电状态---不启用世界加速",
     "ctnh.decay_pools_machine.tooltip.1": "当电路板为1时为通电状态---启用世界加速",
     "ctnh.decay_pools_machine.tooltip.2": "加速衰变过程",
+    "advanced_blast_furnace": "高级焦炉",
+    "ctnh.advanced_blast_furnace.tooltip.0": "§6§l自带32并行",
+    "ctnh.advanced_blast_furnace.tooltip.1": "只可运行焦炉配方,且运行配方时间固定为15s",
+    "ctnh.advanced_blast_furnace.tooltip.2": "产生大量的焦化产物与杂酚油",
+    "ctnh.advanced_blast_furnace.tooltip.3": "§c§l不能使用焦炉仓",
     "large_gas_collection_chamber": "全维度集气",
     "ctnh.large_gas_collection_chamber.tooltip.0": "这台机器可以收集任意维度的气体",
     "ctnh.large_gas_collection_chamber.tooltip.1": "由于它的产量较大，建议你用ME输出总成来收集产物",
@@ -1682,4 +1688,5 @@
     "material.gtceu.refined_gold_aq_low": "精金废液",
     "material.gtceu.samarium_dysprosium_terbium_permanent_magnet_alloy": "未磁化钐镝铽合金",
     "material.gtceu.samarium_dysprosium_terbium_permanent_magnet_alloy_magnetic": "磁化钐镝铽合金"
+
 }
