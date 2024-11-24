@@ -172,5 +172,5 @@
 			#Only affects darkness effect
 			enableBlockLightOnly = false
 			#Toggle Darkness on Overworld dimension
-			enableOnOverworld = true
+			enableOnOverworld = false
 
