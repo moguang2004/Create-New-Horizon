@@ -109,8 +109,7 @@ ServerEvents.recipes(event => {
 //车床冲压机半圆模板合成配方(改用W头了)
 //冲压机W头青铜锭制造半管配方
     vintageimprovements.curving('gtceu:bronze_small_fluid_pipe', [
-    '2x #forge:plates/bronze'
-    ]).head('vintageimprovements:w_shaped_curving_head')
+    '2x #forge:plates/bronze']).mode(3)
 
     event.shaped('gtceu:bronze_small_fluid_pipe', [
     '   ',
