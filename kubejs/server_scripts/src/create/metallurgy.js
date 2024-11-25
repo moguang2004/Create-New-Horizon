@@ -215,6 +215,11 @@ ServerEvents.recipes(event => {
                   {"fluid": "gtceu:lead", "amount": 72}], 400, [{"fluid": "gtceu:potin", "amount": 648}], "heated")
     alloy(event, [{"fluid": "gtceu:iron", "amount": 144},
                   {"fluid": "gtceu:tin", "amount": 144}], 100, [{"fluid": "gtceu:tin_alloy", "amount": 288}], "heated")
+    //对安山合金粉的处理
+    event.recipes.createmetallurgy.melting(Fluid.of('gtceu:andesite_alloy', 144), 'gtceu:andesite_alloy_dust', 90, 'heated')
+    event.recipes.createmetallurgy.melting(Fluid.of('gtceu:andesite_alloy', 144), 'gtceu:andesite_alloy_ingot', 90, 'superheated')
+    event.recipes.createmetallurgy.casting_in_table('gtceu:andesite_alloy_ingot', [Fluid.of('gtceu:andesite_alloy', 144), 'createmetallurgy:graphite_ingot_mold'], 90)
+    event.recipes.createmetallurgy.casting_in_basin('gtceu:andesite_alloy_block', Fluid.of('gtceu:andesite_alloy', 1296), 120)
     
     let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium',
                           'molybdenum','brass','gold','iron','bronze','copper','cobalt','manganese', 'slag']
