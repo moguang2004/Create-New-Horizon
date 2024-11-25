@@ -2,9 +2,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('fermenting_tank', 'multiblock', (holder) => new $FermentingTankMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType("fermenting")
-        .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe, params, result) => {
+        .recipeModifiers([(/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe, params, result) => {
             return $FermentingTankMachine.recipeModifier(machine,recipe,params,result)
-        })
+        },GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('C   C', 'C   C', 'CCCCC', 'H   H', 'H   H', 'H   H', 'DAAAD')

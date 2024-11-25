@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
     .itemOutputs('15x gtceu:palladium_dust')
     .itemOutputs('20x gtceu:platinum_dust')
     .itemOutputs('14x gtceu:ruthenium_dust')
-    .itemOutputs('60x gtceu:rhodium_dust')
+    .itemOutputs('4x gtceu:rhodium_dust')
     .EUt(1920)
     .duration(600)
     .circuit(1)

@@ -11,9 +11,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('digestion_tank', 'multiblock', holder => $DigestionTankMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('digesting')
-        .recipeModifier((/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe,params,result) => {
+        .recipeModifiers([(/**@type {$MultiblockControllerMachine}*/machine,/**@type {$GTRecipe}*/recipe,params,result) => {
             return $DigestionTankMachine.recipeModifier(machine,recipe,params,result)
-        })
+        },GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
         //.appearanceBlock(Block.getBlock('minecraft:bricks'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CCCCC', 'CAAAC', 'CCCCC')
