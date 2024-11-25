@@ -1580,6 +1580,12 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .liquid()
         .color(0xD2B48C);
         
+    event.create('fefarite')
+        .ore()
+        .gem()
+        .dust()
+        .color(0x046ed7)
+        .iconSet(GTMaterialIconSet.LIGNITE)
 })
 
 StartupEvents.postInit(event => {
@@ -1647,4 +1653,5 @@ StartupEvents.postInit(event => {
     setFormula("phosphorous_acid", "H3PO3")
     setFormula("gtceu:adamantiteliquid", "P-507-Ad")
     setFormula("refined_gold_aq", "Ad?*Nq*?")
+    setFormula('fefarite', "KeF")
 })
