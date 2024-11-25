@@ -158,6 +158,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.get("andesite_alloy").addFlags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR)
     GTMaterials.get("andesite_alloy").setMaterialARGB(0xA7AD9F)
     GTMaterials.get("andesite_alloy").setMaterialIconSet(GTMaterialIconSet.DULL)
+    GTMaterials.get("darmstadtium").addFlags(GTMaterialFlags.GENERATE_GEAR)
 
     GTMaterials.get("mana_steel").addFlags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_RING)
     GTMaterials.get("mana_steel").setMaterialARGB(0x438FFE)
@@ -1413,8 +1414,10 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .rotorStats(500, 450, 10, 1000000)
         .blastTemp(18900)
         .cableProperties(GTValues.V[GTValues.UHV], 16, 1)
-        .color(0x8A2020).iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_ROUND, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_RING)
+        .color(0xFF2828)
+        .secondaryColor(0x8A2020)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FINE_WIRE, GTMaterialFlags.GENERATE_ROUND, GTMaterialFlags.GENERATE_LONG_ROD, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_SMALL_GEAR)
     event.create("taranmix")
         .dust()
         .color(0x463030)
@@ -1572,6 +1575,17 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components('samarium', 'dysprosium', 'terbium')
         .color(0x148072)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_LONG_ROD)
+
+    event.create("cement")
+        .liquid()
+        .color(0xD2B48C);
+        
+    event.create('fefarite')
+        .ore()
+        .gem()
+        .dust()
+        .color(0x046ed7)
+        .iconSet(GTMaterialIconSet.LIGNITE)
 })
 
 StartupEvents.postInit(event => {
@@ -1639,4 +1653,5 @@ StartupEvents.postInit(event => {
     setFormula("phosphorous_acid", "H3PO3")
     setFormula("gtceu:adamantiteliquid", "P-507-Ad")
     setFormula("refined_gold_aq", "Ad?*Nq*?")
+    setFormula('fefarite', "KeF")
 })

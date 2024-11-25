@@ -35,6 +35,25 @@ ServerEvents.recipes(event => {
     H: 'gtceu:small_terra_steel_gear',
     I: 'botania:rune_greed'
   })
+
+
+  event.recipes.extendedcrafting.shaped_table(
+    Item.of('kubejs:snow_city_sword', 1), [
+      "      AA ",
+      "      A A",
+      "     AAAA",
+      "    ABAAA",
+      "   ABA   ",
+      "AAABA    ",
+      "AAAA     ",
+      "A A      ",
+      " AA      "
+  ], {
+    A: 'gtceu:snow_steel_ingot',
+    B: '#gtceu:circuits/luv'
+  })
+
+
   //water
   event.custom({
     "type": "bloodmagic:alchemytable",

@@ -345,6 +345,19 @@ ItemEvents.tooltip(event =>{
         text.add(3, Text.translate('ctnh.large_gas_collection_chamber.tooltip.1'))
         text.add(4, Text.translate('ctnh.large_gas_collection_chamber.tooltip.2'))
     })
+    event.addAdvanced('gtceu:decay_pools_machine', (item, advanced, text) => {
+        text.add(1, Text.translate('decay_pools_machine').gray())
+        text.add(2, Text.translate('ctnh.decay_pools_machine.tooltip.0'))
+        text.add(3, Text.translate('ctnh.decay_pools_machine.tooltip.1'))
+        text.add(4, Text.translate('ctnh.decay_pools_machine.tooltip.2'))
+    })
+    event.addAdvanced('gtceu:advanced_blast_furnace', (item, advanced, text) => {
+        text.add(1, Text.translate('advanced_blast_furnace').gray())
+        text.add(2, Text.translate('ctnh.advanced_blast_furnace.tooltip.0'))
+        text.add(3, Text.translate('ctnh.advanced_blast_furnace.tooltip.1'))
+        text.add(4, Text.translate('ctnh.advanced_blast_furnace.tooltip.2'))
+        text.add(5, Text.translate('ctnh.advanced_blast_furnace.tooltip.3'))
+    })
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))
     event.add('enderio:enhanced_energy_conduit',Text.translate('ctnh.enhanced_energy_conduit'))
@@ -371,4 +384,10 @@ ItemEvents.tooltip(event =>{
     event.add('kubejs:echo_processor_computer',Text.translate('ctnh.circuit_echo_uhv').darkAqua())
     event.add('kubejs:echo_processor_mainframe', Text.translate('ctnh.circuit_echo_uev').darkAqua())
     event.add('kubejs:uhv_voltage_coil', Text.translate('ctnh.uhv_voltage_coil').white())
+
+    //Snow_city's cautions:
+    event.add('gtceu:ender_fluid_link_cover', '§4暂未实装')
+    event.add(['gtceu:item_tag_filter', 'gtceu:fluid_tag_filter'], Text.red("非语句 [!] 不可用"))
+    event.add('gtceu:nightvision_goggles', '§7用Gregtech的 [Armor Mode Switch] 键开启.')
+    event.add(['gtceu:lp_steam_macerator', 'gtceu:hp_steam_macerator', 'gtceu:steam_grinder', 'gtceu:lv_macerator', 'gtceu:mv_macerator'], '§4研磨副产物只能通过HV及以上的电压获得！')
 })

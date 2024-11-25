@@ -109,8 +109,7 @@ ServerEvents.recipes(event => {
 //车床冲压机半圆模板合成配方(改用W头了)
 //冲压机W头青铜锭制造半管配方
     vintageimprovements.curving('gtceu:bronze_small_fluid_pipe', [
-    '2x #forge:plates/bronze'
-    ]).head('vintageimprovements:w_shaped_curving_head')
+    '2x #forge:plates/bronze']).mode(3)
 
     event.shaped('gtceu:bronze_small_fluid_pipe', [
     '   ',
@@ -123,9 +122,9 @@ ServerEvents.recipes(event => {
     })
 
 //杠杆锤青铜，铜，银板制造金属箔配方
-    event.recipes.vintageimprovementsHammering(Item.of('gtceu:bronze_foil'),'#forge:plates/bronze',3)
-    event.recipes.vintageimprovementsHammering(Item.of('gtceu:copper_foil'),'#forge:plates/copper',3)
-    event.recipes.vintageimprovementsHammering(Item.of('gtceu:silver_foil'),'#forge:plates/silver',3)
+    event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:bronze_foil'),'#forge:plates/bronze',3)
+    event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:copper_foil'),'#forge:plates/copper',3)
+    event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:silver_foil'),'#forge:plates/silver',3)
 //激光加工机需要钢铁构件合成修改
     event.shaped('vintageimprovements:laser',[
         ['create:cogwheel','minecraft:redstone_block','create:cogwheel'],
@@ -410,7 +409,11 @@ ServerEvents.recipes(event => {
 
 
  //Melting -> Diamond into 200mb Molten Gold in 90 ticks with Heated condition.
+ //这个是橡胶的相关配方
     ServerEvents.recipes(event =>{
 	event.recipes.create.mixing('kubejs:rubber_powder', ['gtceu:sulfur_dust','3x gtceu:raw_rubber_dust']).heated()
     event.recipes.createmetallurgy.melting(Fluid.of('gtceu:rubber', 144), 'kubejs:rubber_powder', 90, 'heated')
+  //这里是橡胶铸造配方
+   event.recipes.createmetallurgy.casting_in_table('gtceu:rubber_ingot', [Fluid.of('gtceu:rubber', 144), 'createmetallurgy:graphite_ingot_mold'], 90, false)
+   event.recipes.createmetallurgy.casting_in_basin('gtceu:rubber_block', Fluid.of('gtceu:rubber', 1296), 120)
 	})

@@ -90,9 +90,9 @@ ServerEvents.recipes(event => {
         metallurgy(event, `gtceu:${material}_dust`, 40, [{"fluid": `gtceu:${material}`, "amount": 144}], "superheated")
         metallurgy(event, `gtceu:${material}_ingot`, 80, [{"fluid": `gtceu:${material}`, "amount": 144}], "superheated")
     })
-
-    // Copper/Iron/Gold Ingot 一般矿物的统一处理
-    let minecraftIngots = ['iron', 'copper', 'gold','tin','zinc']
+    //一般矿物的统一处理
+    // Copper/Iron/Gold Ingot
+    let minecraftIngots = ['iron', 'copper', 'gold',]
     minecraftIngots.forEach(material => {
         if (material != 'copper') 
             event.recipes.create.splashing([`11x minecraft:${material}_nugget`, Item.of(`minecraft:${material}_nugget`, 2).withChance(0.4)], `gtceu:purified_${material}_ore`)
@@ -104,6 +104,17 @@ ServerEvents.recipes(event => {
         metallurgy(event, `gtceu:impure_${material}_dust`, 40, [{"fluid": `gtceu:${material}`, "amount": 144},
                                                           {"fluid": "gtceu:slag", "amount": 50}],"heated")
         metallurgy(event, `minecraft:${material}_ingot`, 80, [{"fluid": `gtceu:${material}`,"amount": 144}],"heated")
+        metallurgy(event, `gtceu:${material}_dust`, 40, [{"fluid": `gtceu:${material}`,"amount": 144}],"heated")
+    })
+    let gtceuIngots = ['tin','zinc']
+    gtceuIngots.forEach(material => {
+        event.recipes.create.splashing([`11x gtceu:${material}_nugget`, Item.of(`gtceu:${material}_nugget`, 2).withChance(0.4)], `gtceu:purified_${material}_ore`)
+        metallurgy(event, `gtceu:crushed_${material}_ore`, 40, [{"fluid": `gtceu:${material}`, "amount": 108},
+                                                         {"fluid": "gtceu:slag", "amount": 100}], "heated")
+        metallurgy(event, `gtceu:purified_${material}_ore`, 40, [{"fluid": `gtceu:${material}`, "amount": 144}],"heated")
+        metallurgy(event, `gtceu:impure_${material}_dust`, 40, [{"fluid": `gtceu:${material}`, "amount": 144},
+                                                          {"fluid": "gtceu:slag", "amount": 50}],"heated")
+        metallurgy(event, `gtceu:${material}_ingot`, 80, [{"fluid": `gtceu:${material}`,"amount": 144}],"heated")
         metallurgy(event, `gtceu:${material}_dust`, 40, [{"fluid": `gtceu:${material}`,"amount": 144}],"heated")
     })
 
@@ -205,7 +216,7 @@ ServerEvents.recipes(event => {
     alloy(event, [{"fluid": "gtceu:iron", "amount": 144},
                   {"fluid": "gtceu:tin", "amount": 144}], 100, [{"fluid": "gtceu:tin_alloy", "amount": 288}], "heated")
     
-    let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium', 
+    let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium',
                           'molybdenum','brass','gold','iron','bronze','copper','cobalt','manganese', 'slag']
     fluidmaterials.forEach(fluidmaterial =>{
         casting_all(event, fluidmaterial)

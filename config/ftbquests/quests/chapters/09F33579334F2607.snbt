@@ -79,7 +79,7 @@
 		{
 			dependencies: ["17AE8CE55863D7D6"]
 			id: "0598D6FDA6319592"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6.subtitle}"
+			subtitle: "艾尔夫海姆有大量活石"
 			tasks: [{
 				id: "3BEA8805B0E3B1F4"
 				item: "botania:livingrock"
@@ -310,7 +310,9 @@
 		}
 		{
 			dependencies: ["783EE6889DD2C460"]
+			description: ["自动化使用供应器的产物返回模式"]
 			id: "60DE45074FA207BF"
+			subtitle: "请在上面放火花和火花聚集"
 			tasks: [{
 				id: "20E620ACA8915AB7"
 				item: "mythicbotany:mana_infuser"
@@ -322,7 +324,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "34535196790E1A26"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest22.subtitle}"
+			subtitle: "暮色高大橡树在暮色的废弃结构和安德鲁房子概率大些"
 			tasks: [{
 				id: "1BAD87101F7510F3"
 				item: "botania:rune_spring"
@@ -432,7 +434,12 @@
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
+			description: [
+				"免疫窒息.饥饿.灼烧.摔落伤害"
+				"添加20滴血，免疫热锭灼烧"
+			]
 			id: "3A4FAB47A847C40C"
+			subtitle: "伟大！无需多言！"
 			tasks: [{
 				id: "6548E5AA989E6466"
 				item: {
@@ -466,6 +473,7 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "5A6CF2F3FC1CF713"
+			subtitle: "我是雷神托尔！为了北方神的荣耀！"
 			tasks: [{
 				id: "68B8A92FA908F442"
 				item: "botania:thor_ring"
@@ -477,6 +485,7 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "263BAC17F57E2F18"
+			subtitle: "感觉不如永恒牛排塞背包，无冷却食用"
 			tasks: [{
 				id: "69F550DA8A63DAAA"
 				item: "botania:infinite_fruit"
@@ -488,6 +497,7 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "42058EDD69B335F4"
+			subtitle: "削的真惨"
 			tasks: [{
 				id: "5B88256139C4B757"
 				item: "botania:king_key"
@@ -773,8 +783,13 @@
 		}
 		{
 			dependencies: ["66FE0D6835F9F659"]
+			description: [
+				"在发展血魔法前，你还需要做出盖亚反应器，你会需要它的"
+				"找到alex的所有洞穴"
+			]
 			id: "020A570A2EC3EE8B"
 			size: 2.0d
+			subtitle: "这是一把匕首，用来自尽（不是）"
 			tasks: [{
 				id: "37F754C7A1B5B69C"
 				item: {
@@ -800,6 +815,7 @@
 		{
 			dependencies: ["66FE0D6835F9F659"]
 			id: "741211A0D54252FF"
+			subtitle: "榨干奸商"
 			tasks: [{
 				id: "5C67F57060DC2042"
 				item: "mythicbotany:kvasir_blood"
@@ -934,6 +950,27 @@
 			}]
 			x: 12.0d
 			y: -2.5d
+		}
+		{
+			id: "77961965EA86D0BF"
+			tasks: [{
+				id: "18B2B859195A4B79"
+				title: "精灵模板在艾尔夫海姆使用源质钢剑杀女巫获得"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 11.5d
+		}
+		{
+			id: "0E0DFA3E505CDB54"
+			subtitle: "已被加强10倍魔力存储量！"
+			tasks: [{
+				id: "312AEDB38E3EC3F9"
+				item: "botania:fabulous_pool"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
 		}
 	]
 	title: "{ftbquests.chapter.09F33579334F2607.title}"

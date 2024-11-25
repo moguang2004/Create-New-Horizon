@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:oxygen 7000')
         .inputFluids('gtceu:sodium_carbonate_solution 2000')
         .itemOutputs('7x gtceu:magnetite_dust')
-        .outputFluids('gtceu:carbon_dioxide 4000')
+        .outputFluids('gtceu:carbon_dioxide 2000')
         .outputFluids('gtceu:sodium_chromate_solution 2000')
         .duration(120)
         .EUt(GTValues.VA[GTValues.MV]);

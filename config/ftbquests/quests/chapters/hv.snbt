@@ -301,6 +301,7 @@
 				"1157261D1C6FA682"
 				"16243C6CC9C1CD8A"
 			]
+			dependency_requirement: "one_completed"
 			id: "3123CD3DCE3598C8"
 			shape: "gear"
 			size: 1.5d
