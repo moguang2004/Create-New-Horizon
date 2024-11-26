@@ -22,11 +22,14 @@
 				type: "checkmark"
 			}]
 			title: "不熟悉吗？这是些个人建议"
-			x: -1.5d
-			y: -4.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["57A04137E648CACD"]
+			dependencies: [
+				"57A04137E648CACD"
+				"62B9FB13D5EF2F2D"
+			]
 			description: ["你得到了这本书，但是怎么这么空？"]
 			id: "7283E47497436229"
 			shape: "rsquare"
@@ -36,8 +39,8 @@
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: -4.1d
+			y: -0.1499999999999999d
 		}
 		{
 			dependencies: ["31FB1C1E64284389"]
@@ -47,7 +50,7 @@
 			]
 			hide_dependency_lines: false
 			id: "57A04137E648CACD"
-			shape: "hexagon"
+			shape: "gear"
 			size: 2.0d
 			subtitle: "梦开始的地方！一定要保护好它"
 			tasks: [{
@@ -55,8 +58,8 @@
 				item: "ars_nouveau:worn_notebook"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
@@ -76,8 +79,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -1.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1372577346448371"]
@@ -103,8 +106,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: -3.0d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["492943506CC5F01A"]
@@ -117,8 +120,8 @@
 				item: "ars_nouveau:mundane_belt"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["492943506CC5F01A"]
@@ -131,8 +134,8 @@
 				item: "ars_nouveau:ring_of_potential"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["492943506CC5F01A"]
@@ -145,8 +148,8 @@
 				item: "ars_nouveau:dull_trinket"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.5d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["684C275A7140AE9D"]
@@ -158,8 +161,8 @@
 				type: "structure"
 			}]
 			title: "“友好”访问"
-			x: -0.5d
-			y: 1.75d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["684C275A7140AE9D"]
@@ -171,8 +174,8 @@
 				type: "structure"
 			}]
 			title: "不如幻翼"
-			x: -0.5d
-			y: 2.75d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["684C275A7140AE9D"]
@@ -184,14 +187,13 @@
 				type: "structure"
 			}]
 			title: "小心尖刺！"
-			x: 0.5d
-			y: 2.75d
+			x: -4.1d
+			y: 4.5d
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
 			id: "684C275A7140AE9D"
-			shape: "pentagon"
-			size: 1.25d
+			size: 1.0d
 			subtitle: "其实不重要"
 			tasks: [{
 				id: "1CA8FC0C2787A957"
@@ -199,8 +201,8 @@
 				type: "checkmark"
 			}]
 			title: "神秘结构？"
-			x: 0.625d
-			y: 1.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["492943506CC5F01A"]
@@ -212,8 +214,8 @@
 				item: "ars_nouveau:magebloom_crop"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["542557CBAB6F5C75"]
@@ -225,21 +227,21 @@
 				item: "ars_nouveau:magebloom_fiber"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: -4.1d
+			y: -1.5d
 		}
 		{
 			dependencies: ["49B0B12549BE9575"]
 			description: ["根据个人需求选择更好的魔源获取方式哦！"]
 			id: "3BCD91430DDB9FF6"
-			subtitle: "自动化？它是好手！"
+			subtitle: "最简单的魔源装置"
 			tasks: [{
 				id: "3F5745009157F2B6"
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.75d
+			x: -1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
@@ -247,14 +249,14 @@
 			id: "49B0B12549BE9575"
 			shape: "pentagon"
 			size: 1.25d
-			subtitle: "自动化魔源的第一步"
+			subtitle: "自动化的第一步"
 			tasks: [{
 				id: "3E916AE82C47E517"
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["49B0B12549BE9575"]
@@ -265,8 +267,8 @@
 				item: "ars_nouveau:basic_spell_turret"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.75d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4577953534E40102"]
@@ -277,8 +279,8 @@
 				item: "ars_nouveau:timer_spell_turret"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.75d
+			x: -3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["49B0B12549BE9575"]
@@ -290,11 +292,11 @@
 				item: "ars_nouveau:relay"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.75d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["62B9FB13D5EF2F2D"]
+			dependencies: ["69E5FC6BA4241143"]
 			id: "03481B4E3F73BFB9"
 			subtitle: "改改衣服更适合自己"
 			tasks: [{
@@ -302,8 +304,8 @@
 				item: "ars_nouveau:alteration_table"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: -7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7283E47497436229"]
@@ -316,25 +318,27 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: -5.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["57A04137E648CACD"]
-			description: ["其他的友好生物也有碎片哦"]
+			dependencies: ["4C73E3BA1AD3E0A5"]
+			description: [""]
 			id: "21D441CD4FF09657"
+			size: 1.2d
 			subtitle: "友谊的象征！"
 			tasks: [{
 				id: "309F41BC509D1E8A"
 				item: "ars_nouveau:drygmy_shard"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21D441CD4FF09657"]
 			id: "01326423CB3560EA"
+			size: 1.1d
 			subtitle: "德格米的精致手办"
 			tasks: [
 				{
@@ -348,26 +352,25 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -0.5d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
 			id: "15FD6C3C504D6DFF"
+			shape: "hexagon"
+			size: 1.3d
 			subtitle: "做法之事，书中自有详解"
 			tasks: [{
 				id: "67FAFBD3E61C4A3F"
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.0d
+			x: -5.15d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"62B9FB13D5EF2F2D"
-				"69E5FC6BA4241143"
-			]
+			dependencies: ["62B9FB13D5EF2F2D"]
 			id: "19A600CF4DFAAABC"
 			subtitle: "看书吧"
 			tasks: [{
@@ -375,8 +378,8 @@
 				item: "ars_nouveau:blank_parchment"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.0d
+			x: -4.1d
+			y: -3.0d
 		}
 		{
 			dependencies: ["19A600CF4DFAAABC"]
@@ -391,46 +394,48 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["21D441CD4FF09657"]
 			id: "7330DFCA691A419E"
+			size: 1.1d
 			subtitle: "我来助你！"
 			tasks: [{
 				id: "1E8BB40367F3BEB5"
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"01326423CB3560EA"
 				"7330DFCA691A419E"
 			]
+			dependency_requirement: "one_completed"
 			description: ["只要把收容罐/生物放到他附近&4（10格半径）&r，它便能根据生物战利品表向附近的存储装置生产战利品！"]
 			id: "353F9E39669D6651"
+			shape: "rsquare"
+			size: 1.2d
 			subtitle: "道爷我成啦！"
 			tasks: [{
 				icon: "ars_nouveau:drygmy_stone"
 				id: "75AE5D99301D8B61"
 				observe_type: 0
 				timer: 0L
-				to_observe: "block.ars_nouveau.drygmy_stone"
+				to_observe: "ars_nouveau:drygmy_stone"
 				type: "observation"
 			}]
 			title: "德格米石阵！"
-			x: 5.5d
-			y: 0.0d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["57A04137E648CACD"]
+			dependencies: ["432B63898EB4DBC2"]
 			description: ["给它&4&m画饼&r&r前面放置金块应力产出更大"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
 			id: "21E0FFCAAB295C8F"
 			subtitle: "不是哥们？"
 			tasks: [{
@@ -438,8 +443,8 @@
 				item: "ars_creo:starbuncle_wheel"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["15FD6C3C504D6DFF"]
@@ -450,11 +455,12 @@
 				item: "ars_nouveau:ritual_flight"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: -7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["15FD6C3C504D6DFF"]
+			hide_dependent_lines: true
 			id: "096B44A2B2FAC6B9"
 			subtitle: "刷战利品/大boss用"
 			tasks: [{
@@ -462,8 +468,8 @@
 				item: "ars_nouveau:ritual_wilden_summon"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -479,8 +485,241 @@
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			x: -0.55d
-			y: -1.1d
+			x: -5.5d
+			y: -0.15000000000000036d
+		}
+		{
+			dependencies: ["31FB1C1E64284389"]
+			description: [
+				"常见的魔法生物（新生魔艺）有:&a星宝石兽&r、&c德格米&r、风转草。"
+				"比较特殊的：薇克精,&c书龙&r，树/紫水晶傀儡."
+				"[ \"更详细？看\", { \"text\": \"书\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"57A04137E648CACD\" } }, \"！\" ]"
+			]
+			icon: "ars_nouveau:drygmy_shard"
+			id: "4C73E3BA1AD3E0A5"
+			min_width: 230
+			shape: "gear"
+			size: 2.0d
+			subtitle: "小小的也很可爱~"
+			tasks: [{
+				id: "4E26186C16172564"
+				title: "你需要认识一下的"
+				type: "checkmark"
+			}]
+			title: "魔法生物！"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C73E3BA1AD3E0A5"]
+			id: "4F0DD37CC88A8918"
+			subtitle: "是有钱人，合它胃口"
+			tasks: [{
+				id: "736E1A0C395B062E"
+				item: "ars_nouveau:starbuncle_shards"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.3d
+		}
+		{
+			dependencies: ["49B0B12549BE9575"]
+			id: "7CDCF7297160337B"
+			subtitle: "为什么不让你的魔法小伙伴们帮忙呢"
+			tasks: [{
+				id: "2225751D33986858"
+				title: "我和我的动物朋友"
+				type: "checkmark"
+			}]
+			title: "自动化的一些建议"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4F0DD37CC88A8918"]
+			description: ["[ \"建议搭配物品卷轴（由\", { \"text\": \"空白羊皮纸\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19A600CF4DFAAABC\" } }, \"合成）实现运输自动化\" ]"]
+			id: "432B63898EB4DBC2"
+			subtitle: "会自动导航的运输机"
+			tasks: [{
+				id: "0C17229B81D9DCE6"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["03481B4E3F73BFB9"]
+			id: "3F01E6F7C41E2231"
+			subtitle: "你总得知道用什么改"
+			tasks: [{
+				id: "3C365B4CEE8B7E7C"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C73E3BA1AD3E0A5"]
+			id: "74CCAA3EFE10AF43"
+			subtitle: "是的，它很复杂"
+			tasks: [{
+				id: "41A15DFD10373B9E"
+				item: "ars_nouveau:wixie_shards"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.2999999999999998d
+		}
+		{
+			dependencies: ["74CCAA3EFE10AF43"]
+			id: "092A33444A187075"
+			subtitle: "自动合成/酿造小帮手（只能是原版类配方）"
+			tasks: [{
+				id: "7F59C872B5FE850E"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F0DD37CC88A8918"]
+			id: "02C6F7DBFB72081C"
+			subtitle: "帽子不错"
+			tasks: [{
+				id: "1B342CE9192A1059"
+				item: "ars_nouveau:wixie_hat"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C73E3BA1AD3E0A5"]
+			id: "26D2332315757194"
+			subtitle: "会飞的书（误）"
+			tasks: [{
+				id: "7B6FDA7F5A3B44E4"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C73E3BA1AD3E0A5"]
+			id: "6C828C4D3DC5352E"
+			subtitle: "会有用的"
+			tasks: [{
+				id: "4C1DA11B6FDC7BFC"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 5.699999999999999d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"26D2332315757194"
+				"3FF74491A0FB5FAE"
+			]
+			dependency_requirement: "one_completed"
+			id: "1B9B8061F2CED8FB"
+			tasks: [
+				{
+					id: "5B2B907583F351D6"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+				{
+					id: "5DD2D15C326026A6"
+					item: "ars_nouveau:repository"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31FB1C1E64284389"]
+			id: "5EC0E140D4915E31"
+			subtitle: "魔艺的“扳手”"
+			tasks: [{
+				id: "7A8F2FEB7FC821CB"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31FB1C1E64284389"]
+			id: "3FF74491A0FB5FAE"
+			subtitle: "后者能通过前者施法，能碰撞出什么火花？"
+			tasks: [
+				{
+					id: "1E9E79B4508B1120"
+					item: "ars_nouveau:scryers_crystal"
+					type: "item"
+				}
+				{
+					id: "7253EF9CFD6173E6"
+					item: {
+						Count: 1
+						id: "ars_nouveau:enchanters_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C73E3BA1AD3E0A5"]
+			id: "7F49CF8B3E9122E7"
+			subtitle: "你是？"
+			tasks: [{
+				id: "5F0E0DB91B93DAEE"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 5.699999999999999d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15FD6C3C504D6DFF"]
+			id: "259A978C21F77862"
+			subtitle: "书龙也要用这个！"
+			tasks: [{
+				id: "6FE50A14634B9ABE"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F0DD37CC88A8918"]
+			id: "1EB19516042262AF"
+			subtitle: "酷哥们"
+			tasks: [{
+				id: "4437DBDC35BBA230"
+				item: "ars_nouveau:starbuncle_shades"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
 		}
 	]
 	title: "新生魔艺"
