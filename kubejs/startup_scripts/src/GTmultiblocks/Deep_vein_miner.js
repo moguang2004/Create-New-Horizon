@@ -111,7 +111,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             }
         })
         .onWorking((/** @type {$WorkableElectricMultiblockMachine} */ machine) => {
-            const fluidAmount = 1000; // 每次运行需要消耗的流体量
+            const fluidAmount = 10; // 每次消耗的流体量（调整为1mB）
 
             // 获取当前温度
             let temperature = machine.getHolder().self().persistentData.getInt('furnace_temperature');
@@ -126,7 +126,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 let cryotheumRecipe = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:cryotheum " + fluidAmount).buildRawRecipe();
                 if (cryotheumRecipe.matchRecipe(machine).isSuccess()) {
                     cryotheumRecipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches());
-                    temperature = Math.max(300, temperature - 100); // 每消耗 1000mB 极寒之凌冰降温 100K
+                    temperature = Math.max(300, temperature - 3); // 每消耗 10mB 极寒之凌冰降温 100K
                     machine.getHolder().self().persistentData.putInt('furnace_temperature', temperature);
 
                     // 如果温度已经降到 300K，退出强制降温模式
@@ -153,15 +153,15 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             // 只有烈焰之赤炎才能启动机器
             if (pyrotheumRecipe.matchRecipe(machine).isSuccess()) {
                 pyrotheumRecipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches());
-                temperature = Math.min(25000, temperature + 100); // 每消耗烈焰之赤炎增加 100K
+                temperature = Math.min(25000, temperature + 10); // 每消耗烈焰之赤炎增加 100K
                 machine.getHolder().self().persistentData.putInt('furnace_temperature', temperature);
-                return true; // 成功消耗烈焰之赤炎，机器继续运行
+                return true; // 成功消耗烈焰之赤炎
             }
 
             // 极寒之凌冰只能在温度不为300K时运行
             if (cryotheumRecipe.matchRecipe(machine).isSuccess() && temperature > 300) {
                 cryotheumRecipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches());
-                temperature = Math.max(300, temperature - 70); // 每消耗极寒之凌冰降低 70K
+                temperature = Math.max(300, temperature - 6); // 每消耗极寒之凌冰降低 70K
                 machine.getHolder().self().persistentData.putInt('furnace_temperature', temperature);
                 return true; // 成功消耗极寒之凌冰
             }
@@ -170,9 +170,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             machine.getRecipeLogic().setProgress(0);
             return false;
         })
-
         .beforeWorking((/** @type {$WorkableElectricMultiblockMachine} */ machine, recipe) => {
-            const fluidAmount = 500; // 每次消耗的流体量
+            const fluidAmount = 10; // 每次消耗的流体量（调整为10mB）
 
             // 获取当前温度
             let temperature = machine.getHolder().self().persistentData.getInt('furnace_temperature');
@@ -191,10 +190,12 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 // 只允许通过极寒之凌冰降温
                 if (cryotheumRecipe.matchRecipe(machine).isSuccess()) {
                     cryotheumRecipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches());
-                    temperature = Math.max(300, temperature - 100); // 每消耗 500mB 极寒之凌冰降温 100K
+                    temperature = Math.max(300, temperature - 3); // 每消耗 1mB 极寒之凌冰降温 100K
                     machine.getHolder().self().persistentData.putInt('furnace_temperature', temperature);
 
-                    // 如果温度降到 300K，退出强制降温模式
+                    // 在强制降温模式下中断当前配方，防止产物生成
+                    machine.getRecipeLogic().interruptRecipe();
+                    // 如果温度降到 300K，允许恢复原配方
                     if (temperature <= 300) {
                         machine.getHolder().self().persistentData.putBoolean('is_cooling_down', false);
                         return true; // 恢复配方
