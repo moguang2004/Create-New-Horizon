@@ -14,6 +14,34 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('void_miner', 'multiblock', holder => new $WorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS) // 不允许绕 Y 轴旋转
         .recipeType('void_miner_processing') // 定义配方类型
+        .recipeModifier((/**@type {$MultiblockControllerMachine}*/ machine,/**@type {$GTRecipe}*/ recipe) => {
+            let temperature = machine.getHolder().self().persistentData.getInt('furnace_temperature');
+
+            // 设置默认温度为 300K，确保不会为 null 或小于300
+            if (temperature == null || temperature < 300) {
+                machine.getHolder().self().persistentData.putInt('furnace_temperature', 300);
+                temperature = 300;
+            }
+
+            // 初始化 newrecipe
+            let newrecipe = recipe.copy();
+
+            // 根据温度区间设置时长
+            if (temperature >= 20000) {
+                newrecipe.duration = 100;  // 温度达到 20000K 时，时长为 100
+            } else if (temperature >= 15000) {
+                newrecipe.duration = 300;  // 温度达到 15000K 时，时长为 300
+            } else if (temperature >= 10000) {
+                newrecipe.duration = 600;  // 温度达到 10000K 时，时长为 600
+            } else if (temperature >= 5000) {
+                newrecipe.duration = 1200;  // 温度达到 5000K 时，时长为 1200
+            } else {
+                newrecipe.duration = recipe.duration; // 如果温度低于 5000K，保持原配方时长
+            }
+
+            // 返回修改后的配方
+            return newrecipe;
+        })
         .appearanceBlock(GTBlocks.CASING_TUNGSTENSTEEL_ROBUST)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("CCCCCCC", "XF   FX", "XF   FX", "XXXXXXX", "XF   FX", "XF   FX", "XF   FX", " F   F ", "       ", "       ", "       ", "       ")
@@ -38,30 +66,29 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     )
         .additionalDisplay((/** @type {$MetaMachine} */machine, l) => {
             try {
-                // 获取持久数据中的温度和并行计数
+                // 获取温度和并行计数的持久数据
                 let temperature = machine.getHolder().self().persistentData.getInt('furnace_temperature');
                 let parallel = machine.getHolder().self().persistentData.getInt('parallel_count');
 
-                // 默认温度为300K，如果为null或小于300，则设为300
-                if (temperature == null || temperature < 300) {
-                    temperature = 301;
+                // 如果温度为null或小于300，设为默认值
+                if (temperature === null || temperature < 300) {
+                    temperature = 300;
                 }
 
-                // 获取流体数据，类似于之前的代码
+                // 初始化流体计量
                 let pyrotheumAmount = 0;
                 let cryotheumAmount = 0;
 
-                // 遍历机器的所有部件
+                // 遍历机器部件以计算流体数量
                 machine.getParts().forEach(part => {
                     if (!part || !part.getRecipeHandlers) return;
 
-                    // 遍历每个部件的配方处理器
                     part.getRecipeHandlers().forEach(handler => {
-                        if (handler.getHandlerIO() === $IO.IN) { // 检查输入流体
+                        if (handler.getHandlerIO() === $IO.IN) { // 检查输入
                             handler.getContents().forEach(content => {
                                 if (content instanceof $FluidStack) {
                                     const fluid = content.getFluid();
-                                    // 累加流体数量
+                                    // 统计流体
                                     if (fluid.isSame(Fluid.of('gtceu:pyrotheum').getFluid())) {
                                         pyrotheumAmount += content.getAmount();
                                     } else if (fluid.isSame(Fluid.of('gtceu:cryotheum').getFluid())) {
@@ -73,125 +100,120 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     });
                 });
 
-                // 显示温度和流体数据到 GUI
-                l.add(Component.translatable("void_miner.max_temperature", Text.of(temperature + "K").red())); // 温度显示
+                // 在 GUI 中显示温度、流体数量
+                l.add(Component.translatable("gtceu.multiblock.blast_furnace.max_temperature", Text.of(temperature + "K").red())); // 温度显示
                 l.add(l.size(), Text.translate('ctnh.industrial_primitive_blast_furnace.parallel_count', parallel)); // 并行计数显示
-                l.add(l.size(), Text.translate("void_miner.pyrotheum", pyrotheumAmount + " mB")); // pyrotheum 流体显示
-                l.add(l.size(), Text.translate("void_miner.cryotheum", cryotheumAmount + " mB")); // cryotheum 流体显示
+                l.add(l.size(), Text.translate("ctnh.blaze_blast_furnace.pyrotheum", `${pyrotheumAmount} mB`)); // 烈焰之赤炎
+                l.add(l.size(), Text.translate("ctnh.blaze_blast_furnace.cryotheum", `${cryotheumAmount} mB`)); // 极寒之凌冰
 
             } catch (error) {
                 console.error("Error in additionalDisplay:", error); // 捕获并打印错误
             }
         })
-        .onWorking((machine) => {
-            try {
-                // 检查并设置默认温度为 301K（如果没有设置过）
-                const persistentData = machine.getHolder().self().persistentData;
-                if (!persistentData.containsKey('furnace_temperature')) {
-                    persistentData.putInt('furnace_temperature', 301); // 默认温度
-                }
-                if (!persistentData.containsKey('parallel_count')) {
-                    persistentData.putInt('parallel_count', 1); // 默认并行度
-                }
+        .onWorking((/** @type {$WorkableElectricMultiblockMachine} */ machine) => {
+            const fluidAmount = 1000; // 每次运行需要消耗的流体量
 
-                // 获取当前的温度和并行度
-                let temperature = persistentData.getInt('furnace_temperature');
-                let parallel = persistentData.getInt('parallel_count') || 1; // 防止为 0
-                let fluidAmount = 1000; // 每次运行消耗 1000mB 流体
+            // 获取当前温度
+            let temperature = machine.getHolder().self().persistentData.getInt('furnace_temperature');
+            if (temperature === null || temperature < 300) {
+                temperature = 300; // 初始化温度为 300K
+            }
 
-                // 初始化流体计量
-                let pyrotheumAmount = 0;
-                let cryotheumAmount = 0;
+            // 检查是否处于强制降温模式
+            let isCoolingDown = machine.getHolder().self().persistentData.getBoolean('is_cooling_down');
+            if (isCoolingDown) {
+                // 只允许通过极寒之凌冰降温
+                let cryotheumRecipe = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:cryotheum " + fluidAmount).buildRawRecipe();
+                if (cryotheumRecipe.matchRecipe(machine).isSuccess()) {
+                    cryotheumRecipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches());
+                    temperature = Math.max(300, temperature - 100); // 每消耗 1000mB 极寒之凌冰降温 100K
+                    machine.getHolder().self().persistentData.putInt('furnace_temperature', temperature);
 
-                // 获取流体输入
-                const parts = machine.getParts();
-                if (parts) {
-                    parts.forEach(part => {
-                        const handlers = part.getRecipeHandlers();
-                        if (handlers) {
-                            handlers.forEach(handler => {
-                                if (handler.getHandlerIO() === $IO.IN) {
-                                    const contents = handler.getContents();
-                                    if (contents) {
-                                        contents.forEach(content => {
-                                            if (content instanceof $FluidStack) {
-                                                const fluid = content.getFluid();
-                                                if (fluid && fluid.isSame(Fluid.of('gtceu:pyrotheum').getFluid())) {
-                                                    pyrotheumAmount += content.getAmount();
-                                                } else if (fluid && fluid.isSame(Fluid.of('gtceu:cryotheum').getFluid())) {
-                                                    cryotheumAmount += content.getAmount();
-                                                }
-                                            }
-                                        });
-                                    }
-                                }
-                            });
-                        }
-                    });
-                }
+                    // 如果温度已经降到 300K，退出强制降温模式
+                    if (temperature <= 300) {
+                        machine.getHolder().self().persistentData.putBoolean('is_cooling_down', false); // 停止降温
+                        return true; // 恢复配方运行
+                    }
 
-                // 尝试消耗流体并调整温度
-                if (pyrotheumAmount >= fluidAmount) {
-                    // 提高温度
-                    temperature = Math.min(temperature + Math.floor(fluidAmount / 100), 25000); // 最大温度限制为 25000K
-                    pyrotheumAmount -= fluidAmount; // 消耗 pyrotheum
-                } else if (cryotheumAmount >= fluidAmount) {
-                    // 降低温度
-                    temperature = Math.max(temperature - Math.floor(fluidAmount / 100), 0); // 最低温度限制为 0K
-                    cryotheumAmount -= fluidAmount; // 消耗 cryotheum
+                    // 如果温度未达到 300K，继续降温
+                    machine.getRecipeLogic().interruptRecipe();
+                    return true; // 保持降温状态
                 } else {
-                    console.warn("Not enough fluid to operate machine!");
-                    return false; // 没有足够的流体，不让机器运行
+                    // 如果极寒之凌冰不足，停止机器运行
+                    machine.getRecipeLogic().setProgress(0);
+                    machine.getRecipeLogic().interruptRecipe();
+                    return false; // 暂停运行
                 }
-
-                // 存储更新后的温度和并行数
-                persistentData.putInt('furnace_temperature', temperature);
-                persistentData.putInt('parallel_count', 1); // 并行度固定为 1
-
-                // 输出日志
-                console.log(`Machine running. Temperature: ${temperature}K, Pyrotheum: ${pyrotheumAmount}mB, Cryotheum: ${cryotheumAmount}mB`);
-
-                // 返回 true 表示机器继续运行
-                return true;
-            } catch (error) {
-                console.error("Error during .onWorking execution:", error);
-                return false; // 发生错误时安全地停止运行
             }
+
+            // 正常配方运行逻辑（不在强制降温模式时）
+            let pyrotheumRecipe = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:pyrotheum " + fluidAmount).buildRawRecipe();
+            let cryotheumRecipe = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:cryotheum " + fluidAmount).buildRawRecipe();
+
+            // 只有烈焰之赤炎才能启动机器
+            if (pyrotheumRecipe.matchRecipe(machine).isSuccess()) {
+                pyrotheumRecipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches());
+                temperature = Math.min(25000, temperature + 100); // 每消耗烈焰之赤炎增加 100K
+                machine.getHolder().self().persistentData.putInt('furnace_temperature', temperature);
+                return true; // 成功消耗烈焰之赤炎，机器继续运行
+            }
+
+            // 极寒之凌冰只能在温度不为300K时运行
+            if (cryotheumRecipe.matchRecipe(machine).isSuccess() && temperature > 300) {
+                cryotheumRecipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches());
+                temperature = Math.max(300, temperature - 70); // 每消耗极寒之凌冰降低 70K
+                machine.getHolder().self().persistentData.putInt('furnace_temperature', temperature);
+                return true; // 成功消耗极寒之凌冰
+            }
+
+            // 如果没有足够的流体，停止机器运行
+            machine.getRecipeLogic().setProgress(0);
+            return false;
         })
-        .beforeWorking((machine, recipe) => {
-            try {
-                // 检查并设置默认温度为 301K（如果没有设置过）
-                const persistentData = machine.getHolder().self().persistentData;
-                if (!persistentData.containsKey('furnace_temperature')) {
-                    persistentData.putInt('furnace_temperature', 301); // 默认温度
-                }
-                if (!persistentData.containsKey('parallel_count')) {
-                    persistentData.putInt('parallel_count', 1); // 默认并行度
-                }
 
-                // 获取当前的温度和并行度
-                let temperature = persistentData.getInt('furnace_temperature');
-                let parallel = persistentData.getInt('parallel_count') || 1; // 防止为 0
-                let fluidAmount = 1000; // 每次运行消耗 1000mB 流体
+        .beforeWorking((/** @type {$WorkableElectricMultiblockMachine} */ machine, recipe) => {
+            const fluidAmount = 500; // 每次消耗的流体量
 
-                // 确保温度达到最低值才能开始工作
-                if (temperature < 300) {
-                    console.warn("Machine temperature too low to start work!");
-                    return false; // 如果温度不足，不允许工作
-                }
-
-                // 确保并行度大于 0
-                if (parallel < 1) {
-                    console.warn("Parallel count too low to start work!");
-                    return false; // 如果并行度太低，不允许工作
-                }
-
-                // 假设流体充足，这里不做额外检查（在 .onWorking() 中已检查）
-                return true; // 返回 true 表示可以开始工作
-            } catch (error) {
-                console.error("Error during .beforeWorking execution:", error);
-                return false; // 发生错误时阻止机器工作
+            // 获取当前温度
+            let temperature = machine.getHolder().self().persistentData.getInt('furnace_temperature');
+            if (temperature === null || temperature < 300) {
+                temperature = 300; // 初始化温度为 300K
             }
+
+            // 强制降温模式逻辑
+            let isCoolingDown = machine.getHolder().self().persistentData.getBoolean('is_cooling_down');
+            if (temperature >= 25000 || isCoolingDown) {
+                machine.getHolder().self().persistentData.putBoolean('is_cooling_down', true); // 开启强制降温模式
+
+                // 构建极寒之凌冰配方
+                let cryotheumRecipe = $GTRecipeBuilder.ofRaw()["inputFluids(com.lowdragmc.lowdraglib.side.fluid.FluidStack)"]("gtceu:cryotheum " + fluidAmount).buildRawRecipe();
+
+                // 只允许通过极寒之凌冰降温
+                if (cryotheumRecipe.matchRecipe(machine).isSuccess()) {
+                    cryotheumRecipe.handleRecipeIO($IO.IN, machine, machine.recipeLogic.getChanceCaches());
+                    temperature = Math.max(300, temperature - 100); // 每消耗 500mB 极寒之凌冰降温 100K
+                    machine.getHolder().self().persistentData.putInt('furnace_temperature', temperature);
+
+                    // 如果温度降到 300K，退出强制降温模式
+                    if (temperature <= 300) {
+                        machine.getHolder().self().persistentData.putBoolean('is_cooling_down', false);
+                        return true; // 恢复配方
+                    }
+                    return false; // 暂停运行配方
+                }
+
+                // 如果极寒之凌冰不足，停止机器运行
+                machine.getRecipeLogic().setProgress(0);
+                machine.getRecipeLogic().interruptRecipe();
+                return false; // 暂停运行
+            }
+
+            // 烈焰之赤炎逻辑仅在非强制降温模式时允许
+            if (recipe === 'pyrotheum' && isCoolingDown) {
+                return false; // 禁止烈焰之赤炎在降温时运行
+            }
+
+            return true; // 正常运行其他配方
         })
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_robust_tungstensteel', 'gtceu:block/multiblock/large_chemical_reactor', false);
 

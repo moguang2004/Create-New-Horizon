@@ -1854,6 +1854,6 @@ ServerEvents.recipes(event => {
   event.recipes.gtceu.void_miner_processing('ceshi')
     .circuit(0)
     .itemOutputs('10x gtceu:void_miner')
-    .EUt(1966080)
-    .duration(20)
+    .EUt(1145141919810)
+    .duration(20000)
 })
