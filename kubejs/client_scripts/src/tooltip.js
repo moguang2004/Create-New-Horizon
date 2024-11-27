@@ -81,31 +81,11 @@ ItemEvents.tooltip(event =>{
             text.add(1,Text.translate('gtceu.machine.energy_hatch.output_hi_amp.tooltip'))
         })
     })
-    event.addAdvanced('gtceu:fermenting_tank',(item,advanced,text)=>{
-        text.add(1,Text.translate('fermenting_introduction').gray())
-        if(event.isShift()){
-            text.add(2,Text.translate('ctnh.fermenting_tank.bio_growth_mechanism').green())
-            text.add(3,Text.translate('ctnh.fermenting_tank.bio_growth_temperature'))
-            text.add(4,Text.translate('ctnh.fermenting_tank.bio_growth'))
-        }
-        else{
-            text.add(2,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.0'))
-            text.add(3,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.1'))
-            text.add(4,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.2'))
-            text.add(5,Text.translate('subtick_overclock').yellow())
-            text.add(6,Text.translate('shift'))
-        }
-    })
     event.addAdvanced('gtceu:industrial_primitive_blast_furnace',(item,advanced,text)=>{
         text.add(1,Text.translate('industrial_primitive_blast_furnace_introduction').gray())
         text.add(2,Text.translate('ctnh.industrial_primitive_blast_furnace.temperature'))
         text.add(3,Text.translate('ctnh.industrial_primitive_blast_furnace.parallel').green())
         text.add(4,Text.translate('ctnh.industrial_primitive_blast_furnace.efficiency').green())
-    })
-    event.addAdvanced('gtceu:digestion_tank',(item,advanced,text)=>{
-        text.add(1,Text.translate('digestion_tank_introduction').gray())
-        text.add(2,Text.translate('ctnh.digestion_tank.bio_growth_mechanism').green())
-        text.add(3,Text.translate('ctnh.digestion_tank.bio_growth_temperature'))
     })
     event.addAdvanced('gtceu:mana_generator_turbine_tier1',(item,advanced,text)=>{
         text.add(1,Text.translate('mana_generator_turbine_tier1').gray())
@@ -131,36 +111,6 @@ ItemEvents.tooltip(event =>{
     event.addAdvanced('gtceu:mana_seperator',(item,advanced,text)=>{
         text.add(1,Text.translate('mana_machine').gray())
     })
-    event.addAdvanced('gtceu:mana_macerator',(item,advanced,text)=>{
-        text.add(1,Text.translate('ctnh.mana_macerator'))
-        text.add(2,Text.translate('mana_machine').gray())
-        text.add(3,Text.translate('ctnh.basic_mana_machine.mana_consume'))
-        text.add(4,Text.translate('ctnh.perfect_overclock'))
-    })
-    event.addAdvanced('gtceu:mana_bender',(item,advanced,text)=>{
-        text.add(1,Text.translate('ctnh.mana_bender'))
-        text.add(2,Text.translate('mana_machine').gray())
-        text.add(3,Text.translate('ctnh.basic_mana_machine.mana_consume'))
-        text.add(4,Text.translate('ctnh.perfect_overclock'))
-    })
-    event.addAdvanced('gtceu:mana_lathe',(item,advanced,text)=>{
-        text.add(1,Text.translate('ctnh.mana_lathe'))
-        text.add(2,Text.translate('mana_machine').gray())
-        text.add(3,Text.translate('ctnh.basic_mana_machine.mana_consume'))
-        text.add(4,Text.translate('ctnh.perfect_overclock'))
-    })
-    event.addAdvanced('gtceu:mana_wiremill',(item,advanced,text)=>{
-        text.add(1,Text.translate('ctnh.mana_wiremill'))
-        text.add(2,Text.translate('mana_machine').gray())
-        text.add(3,Text.translate('ctnh.basic_mana_machine.mana_consume'))
-        text.add(4,Text.translate('ctnh.perfect_overclock'))
-    })
-    event.addAdvanced('gtceu:mana_assembler',(item,advanced,text)=>{
-        text.add(1,Text.translate('ctnh.mana_assembler'))
-        text.add(2,Text.translate('mana_machine').gray())
-        text.add(3,Text.translate('ctnh.advanced_mana_machine.mana_consume'))
-        text.add(4,Text.translate('ctnh.perfect_overclock'))
-    })
 
     event.addAdvanced('gtceu:water_power_station',(item,advanced,text)=>{
         text.add(1,Text.translate('water_power_station').gray())
@@ -172,16 +122,6 @@ ItemEvents.tooltip(event =>{
         text.add(2,Text.translate('ctnh.slaughter_house.mechanism'))
         text.add(3,Text.translate('ctnh.slaughter_house.parallel'))
         text.add(4,Text.translate('ctnh.slaughter_house.health'))
-    })
-    event.addAdvanced('gtceu:blaze_blast_furnace',(item,advanced,text)=>{
-        text.add(1,Text.translate('blaze_blast_furnace').gray())
-        text.add(2,Text.translate('ctnh.blaze_blast_furnace.consume'))
-        text.add(3,Text.translate('ctnh.blaze_blast_furnace.energy'))
-        text.add(4,Text.translate('ctnh.blaze_blast_furnace.parallel').darkGreen())
-        text.add(5,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.0'))
-        text.add(6,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.1'))
-        text.add(7,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.2'))
-        //text.add(4,Text.translate('ctnh.perfect_overclock'))
     })
     event.addAdvanced('gtceu:bio_reactor',(item,advanced,text)=>{
         text.add(1,Text.translate('bio_reactor').gray())
@@ -255,11 +195,6 @@ ItemEvents.tooltip(event =>{
         text.add(3,Text.translate('ctnh.wind_power_array.mechanism'))
         text.add(4,Text.translate('ctnh.wind_power_array.altitude'))
     })
-    event.addAdvanced('gtceu:meadow',(item,advanced,text)=>{
-        text.add(1,Text.translate('meadow').gray())
-        text.add(2,Text.translate('ctnh.meadow.basic'))
-        text.add(3,Text.translate('ctnh.meadow.mechanism'))
-    })
     event.addAdvanced('gtceu:boom_of_create',(item,advanced,text)=>{
         text.add(1,Text.translate('boom_of_create').gray())
         text.add(2,Text.translate('ctnh.boom_of_create.basic'))
@@ -291,22 +226,6 @@ ItemEvents.tooltip(event =>{
     })
     event.addAdvanced('gtceu:ultrasonic_apparatus', (item, advanced, text) => {
         text.add(1, Text.translate('ultrasonic_apparatus').gray())
-    })
-    event.addAdvanced('gtceu:large_fermenting_tank', (item, advanced, text) => {
-        text.add(1, Text.translate('large_fermenting_tank').gray())
-        if(event.isShift()){
-            text.add(2,Text.translate('ctnh.fermenting_tank.bio_growth_mechanism').green())
-            text.add(3,Text.translate('ctnh.fermenting_tank.bio_growth_temperature'))
-            text.add(4,Text.translate('ctnh.fermenting_tank.bio_growth'))
-            text.add(5,Text.translate('ctnh.large_fermenting_tank.bio_growth'))
-        }
-        else{
-            text.add(2,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.0'))
-            text.add(3,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.1'))
-            text.add(4,Text.translate('gtceu.machine.electric_blast_furnace.tooltip.2'))
-            text.add(5,Text.translate('subtick_overclock').yellow())
-            text.add(6,Text.translate('shift'))
-        }
     })
     event.addAdvanced('gtceu:large_bottle', (item, advanced, text) => {
         text.add(1, Text.translate('large_bottle').gray())

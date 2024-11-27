@@ -420,7 +420,7 @@ ServerEvents.recipes(event => {
         C: "gtceu:steel_plate"
     })
     event.shaped(
-        Item.of("gtceu:digestion_tank", 1), [
+        Item.of("ctnhcore:digestion_tank", 1), [
         "ABC",
         "BDB",
         "EBE"
@@ -481,7 +481,7 @@ ServerEvents.recipes(event => {
         D: "gtceu:firebricks"
     })
     event.shaped(
-        Item.of("gtceu:fermenting_tank", 1), [
+        Item.of("ctnhcore:fermenting_tank", 1), [
         "ABA",
         "CDC",
         "EFE"
@@ -501,7 +501,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:lv_sensor",
         B: "gtceu:lv_electric_pump",
-        C: "kubejs:mana_steel_casing",
+        C: "ctnhcore:mana_steel_casing",
         D: "#gtceu:circuits/lv",
         E: "gtceu:steel_gear",
         F: "gtceu:lv_conveyor_module"
@@ -514,7 +514,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:mv_sensor",
         B: "gtceu:mv_electric_pump",
-        C: "kubejs:elementium_casing",
+        C: "ctnhcore:elementium_casing",
         D: "#gtceu:circuits/mv",
         E: "gtceu:aluminium_gear",
         F: "gtceu:mv_conveyor_module"
@@ -527,7 +527,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:hv_sensor",
         B: "gtceu:hv_electric_pump",
-        C: "kubejs:terra_steel_casing",
+        C: "ctnhcore:terra_steel_casing",
         D: "#gtceu:circuits/hv",
         E: "gtceu:stainless_steel_gear",
         F: "gtceu:hv_conveyor_module"
@@ -540,7 +540,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:ev_sensor",
         B: "gtceu:ev_electric_pump",
-        C: "kubejs:alfsteel_casing",
+        C: "ctnhcore:alfsteel_casing",
         D: "#gtceu:circuits/ev",
         E: "gtceu:titanium_gear",
         F: "gtceu:ev_conveyor_module"
@@ -563,14 +563,14 @@ ServerEvents.recipes(event => {
         "BCB",
         "DED"
     ], {
-        A: "kubejs:mana_steel_casing",
+        A: "ctnhcore:mana_steel_casing",
         B: "create:large_water_wheel",
         C: "gtceu:mv_machine_hull",
         D: "gtceu:mv_electric_pump",
         E: "#gtceu:circuits/mv"
     })
     event.shaped(
-        Item.of("gtceu:mana_macerator", 1), [
+        Item.of("ctnhcore:mana_macerator", 1), [
         "AAA",
         "BCB",
         "DDD"
@@ -1086,7 +1086,7 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('gtceu:mana_bender', 1), [
+        Item.of('ctnhcore:mana_bender', 1), [
           "AAA",
           "BCB",
           "DEF"
@@ -1100,7 +1100,7 @@ ServerEvents.recipes(event => {
     })
     
     event.shaped(
-        Item.of('gtceu:mana_lathe', 1), [
+        Item.of('ctnhcore:mana_lathe', 1), [
           "AAA",
           "BCB",
           "DEF"
@@ -1114,7 +1114,7 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('gtceu:mana_assembler', 1), [
+        Item.of('ctnhcore:mana_assembler', 1), [
           "AAA",
           "BCD",
           "EFG"
@@ -1129,7 +1129,7 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('gtceu:mana_wiremill', 1), [
+        Item.of('ctnhcore:mana_wiremill', 1), [
           "AAA",
           "BCB",
           "DED"

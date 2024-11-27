@@ -23,14 +23,13 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             machine.getHolder().self().persistentData.putFloat('efficiency', efficiency)
             return newrecipe
         })
-        //.appearanceBlock(GTBlocks.get('kubejs:mana_steel_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("#BCB#", "#BCB#", "BBBBB", "#BBB#")
             .aisle("#B#B#", "#BDB#", "BEFEB", "#BGB#").setRepeatable(1, 15)
             .aisle("#C#C#", "#CDC#", "BEFEB", "#BCB#")
             .aisle("#CCC#", "#CCC#", "BBHBB", "#B@B#")
             .where("B", Predicates.blocks("gtceu:mana_steel_frame"))
-            .where("C", Predicates.blocks("kubejs:mana_steel_casing"))
+            .where("C", Predicates.blocks("ctnhcore:mana_steel_casing"))
             .where("#", Predicates.any())
             .where("D", Predicates.heatingCoils())
             .where("E", Predicates.blocks("gtceu:steel_pipe_casing"))
@@ -72,7 +71,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 l.add(l.size(), Text.translate("multiblock.ctnh.water_power_station2", $FormattingUtil.formatNumbers(outputEnergy), voltageName))
             }
         })
-        .workableCasingRenderer('kubejs:block/mana_steel_casing', 'gtceu:block/multiblock/generator/large_steam_turbine', false)
+        .workableCasingRenderer('ctnhcore:block/mana_steel_casing', 'gtceu:block/multiblock/generator/large_steam_turbine', false)
 })
 
 //本多方块的创意来源于GTQT整合包，对其中的部分内容做了修改

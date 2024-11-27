@@ -583,7 +583,7 @@
 			}]
 			tasks: [{
 				id: "01B3CABBC2BEDEDC"
-				item: "gtceu:blaze_blast_furnace"
+				item: "ctnhcore:blaze_blast_furnace"
 				type: "item"
 			}]
 			x: 0.0d

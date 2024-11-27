@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
   let ctnh = event.recipes.gtceu
-  let material = ['mana_steel', 'terra_steel', 'elementium', 'alfsteel', 'osmiridium', 'iridium']
+  let material = ['osmiridium', 'iridium']
   material.forEach(m => {
     ctnh.assembler(m + '_casing')
       .itemInputs(['6x gtceu:' + m + '_plate', 'gtceu:' + m + '_frame'])
@@ -10,6 +10,26 @@ ServerEvents.recipes(event => {
       .duration(50)
     event.shaped(
       Item.of('kubejs:' + m + '_casing', 2), [
+      "ABA",
+      "ADA",
+      "ACA"
+    ], {
+      A: 'gtceu:' + m + '_plate',
+      B: '#forge:tools/hammers',
+      C: '#forge:tools/wrenches',
+      D: 'gtceu:' + m + '_frame'
+    })
+  })
+  let material2 = ['mana_steel', 'terra_steel', 'elementium', 'alfsteel']
+  material2.forEach(m => {
+    ctnh.assembler(m + '_casing')
+      .itemInputs(['6x gtceu:' + m + '_plate', 'gtceu:' + m + '_frame'])
+      .circuit(6)
+      .itemOutputs('2x ctnhcore:' + m + '_casing')
+      .EUt(16)
+      .duration(50)
+    event.shaped(
+      Item.of('ctnhcore:' + m + '_casing', 2), [
       "ABA",
       "ADA",
       "ACA"

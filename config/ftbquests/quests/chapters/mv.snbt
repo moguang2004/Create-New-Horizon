@@ -542,7 +542,7 @@
 			id: "64F3856504BEA9F2"
 			tasks: [{
 				id: "43A049323FEB918E"
-				item: "gtceu:digestion_tank"
+				item: "ctnhcore:digestion_tank"
 				type: "item"
 			}]
 			x: -2.5d
@@ -557,7 +557,7 @@
 			optional: true
 			tasks: [{
 				id: "3558C26A9A6B1B4C"
-				item: "gtceu:fermenting_tank"
+				item: "ctnhcore:fermenting_tank"
 				type: "item"
 			}]
 			x: -2.5d

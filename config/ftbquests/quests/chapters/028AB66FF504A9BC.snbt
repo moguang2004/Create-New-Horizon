@@ -438,7 +438,7 @@
 			id: "3CF2CEAA24C4E56E"
 			tasks: [{
 				id: "116CC93699E3D3D7"
-				item: "gtceu:fermenting_tank"
+				item: "ctnhcore:fermenting_tank"
 				type: "item"
 			}]
 			x: 8.0d
@@ -449,7 +449,7 @@
 			id: "3FD1AAB09C522599"
 			tasks: [{
 				id: "4B062F37E4989EE2"
-				item: "gtceu:digestion_tank"
+				item: "ctnhcore:digestion_tank"
 				type: "item"
 			}]
 			x: 12.0d
@@ -591,7 +591,7 @@
 			id: "4EC066F913BE135C"
 			tasks: [{
 				id: "259295ADEFF4E21B"
-				item: "gtceu:large_fermenting_tank"
+				item: "ctnhcore:large_fermenting_tank"
 				type: "item"
 			}]
 			x: -0.5d
@@ -624,7 +624,7 @@
 			id: "7CB8AB8CC6294AD0"
 			tasks: [{
 				id: "560E3C08434D6083"
-				item: "gtceu:blaze_blast_furnace"
+				item: "ctnhcore:blaze_blast_furnace"
 				type: "item"
 			}]
 			x: 1.5d

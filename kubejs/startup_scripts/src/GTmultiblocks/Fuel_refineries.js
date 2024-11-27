@@ -58,7 +58,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where("I", Predicates.blocks("gtceu:red_steel_block"))
             .where("J", Predicates.blocks("gtceu:blue_steel_block"))
             .where("K", Predicates.blocks("gtceu:hv_hermetic_casing"))
-            .where("L", Predicates.blocks("kubejs:blaze_blast_furnace_casing"))
+            .where("L", Predicates.blocks("ctnhcore:blaze_blast_furnace_casing"))
             .where("M", Predicates.abilities(PartAbility.MUFFLER).setExactLimit(9))
             .where("N", Predicates.blocks("gtceu:solid_machine_casing")
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
