@@ -30,7 +30,6 @@ const $WorkableElectricMultiblockMachine = Java.loadClass("com.gregtechceu.gtceu
 const $ContentModifier = Java.loadClass("com.gregtechceu.gtceu.api.recipe.content.ContentModifier")
 const $LargeTurbineMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.generator.LargeTurbineMachine")
 const $LargeMinerMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.electric.LargeMinerMachine")
-const $ManaLargeTurbineMachine = Java.loadClass("io.github.cpearl0.ctnhcore.common.machine.multiblock.ManaLargeTurbineMachine")
 const $RecipeHelper = Java.loadClass("com.gregtechceu.gtceu.api.recipe.RecipeHelper")
 const $GTUtil = Java.loadClass("com.gregtechceu.gtceu.utils.GTUtil")
 const $SteamParallelMultiblockMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.steam.SteamParallelMultiblockMachine")

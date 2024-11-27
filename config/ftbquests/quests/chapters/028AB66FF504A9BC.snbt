@@ -232,7 +232,7 @@
 			id: "725E945382ADA450"
 			tasks: [{
 				id: "74A6866294BDD634"
-				item: "gtceu:meadow"
+				item: "ctnhcore:meadow"
 				type: "item"
 			}]
 			x: -16.0d

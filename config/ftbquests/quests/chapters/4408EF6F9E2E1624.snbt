@@ -1405,7 +1405,7 @@
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest103.subtitle}"
 			tasks: [{
 				id: "767215D7A25C05EF"
-				item: "gtceu:meadow"
+				item: "ctnhcore:meadow"
 				type: "item"
 			}]
 			x: -7.5d

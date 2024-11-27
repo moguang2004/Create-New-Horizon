@@ -494,7 +494,7 @@ ServerEvents.recipes(event => {
         F: "gtceu:mv_fluid_heater"
     })
     event.shaped(
-        Item.of("gtceu:mana_generator_turbine_tier1", 1), [
+        Item.of("ctnhcore:mana_generator_turbine_tier1", 1), [
         "ABA",
         "CDC",
         "EFE"
@@ -507,7 +507,7 @@ ServerEvents.recipes(event => {
         F: "gtceu:lv_conveyor_module"
     })
     event.shaped(
-        Item.of("gtceu:mana_generator_turbine_tier2", 1), [
+        Item.of("ctnhcore:mana_generator_turbine_tier2", 1), [
         "ABA",
         "CDC",
         "EFE"
@@ -520,7 +520,7 @@ ServerEvents.recipes(event => {
         F: "gtceu:mv_conveyor_module"
     })
     event.shaped(
-        Item.of("gtceu:mana_generator_turbine_tier3", 1), [
+        Item.of("ctnhcore:mana_generator_turbine_tier3", 1), [
         "ABA",
         "CDC",
         "EFE"
@@ -533,7 +533,7 @@ ServerEvents.recipes(event => {
         F: "gtceu:hv_conveyor_module"
     })
     event.shaped(
-        Item.of("gtceu:mana_generator_turbine_tier4", 1), [
+        Item.of("ctnhcore:mana_generator_turbine_tier4", 1), [
         "ABA",
         "CDC",
         "EFE"
@@ -792,7 +792,7 @@ ServerEvents.recipes(event => {
         E: "#gtceu:circuits/iv"
     })
     event.shaped(
-        Item.of("gtceu:meadow", 1), [
+        Item.of("ctnhcore:meadow", 1), [
         "ABA",
         "CAC",
         "DED"

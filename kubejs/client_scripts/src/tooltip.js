@@ -87,27 +87,6 @@ ItemEvents.tooltip(event =>{
         text.add(3,Text.translate('ctnh.industrial_primitive_blast_furnace.parallel').green())
         text.add(4,Text.translate('ctnh.industrial_primitive_blast_furnace.efficiency').green())
     })
-    event.addAdvanced('gtceu:mana_generator_turbine_tier1',(item,advanced,text)=>{
-        text.add(1,Text.translate('mana_generator_turbine_tier1').gray())
-        text.add(2,Text.translate('ctnh.mana_generator_turbine_tier1.basic_power'))
-        text.add(3,Text.translate('ctnh.mana_generator_turbine_tier1.restriction'))
-        text.add(4,Text.translate('ctnh.mana_generator_turbine_rune'))
-    })
-    event.addAdvanced('gtceu:mana_generator_turbine_tier2',(item,advanced,text)=>{
-        text.add(1,Text.translate('mana_generator_turbine_tier2').gray())
-        text.add(2,Text.translate('ctnh.mana_generator_turbine_tier2.basic_power'))
-        text.add(3,Text.translate('ctnh.mana_generator_turbine_tier2.restriction'))
-    })
-    event.addAdvanced('gtceu:mana_generator_turbine_tier3',(item,advanced,text)=>{
-        text.add(1,Text.translate('mana_generator_turbine_tier3').gray())
-        text.add(2,Text.translate('ctnh.mana_generator_turbine_tier3.basic_power'))
-        text.add(3,Text.translate('ctnh.mana_generator_turbine_tier3.restriction'))
-    })
-    event.addAdvanced('gtceu:mana_generator_turbine_tier4',(item,advanced,text)=>{
-        text.add(1,Text.translate('mana_generator_turbine_tier4').gray())
-        text.add(2,Text.translate('ctnh.mana_generator_turbine_tier4.basic_power'))
-        text.add(3,Text.translate('ctnh.mana_generator_turbine_tier4.restriction'))
-    })
     event.addAdvanced('gtceu:mana_seperator',(item,advanced,text)=>{
         text.add(1,Text.translate('mana_machine').gray())
     })
@@ -226,11 +205,6 @@ ItemEvents.tooltip(event =>{
     })
     event.addAdvanced('gtceu:ultrasonic_apparatus', (item, advanced, text) => {
         text.add(1, Text.translate('ultrasonic_apparatus').gray())
-    })
-    event.addAdvanced('gtceu:large_bottle', (item, advanced, text) => {
-        text.add(1, Text.translate('large_bottle').gray())
-        text.add(2, Text.translate('ctnh.large_bottle.basic'))
-        text.add(3, Text.translate('ctnh.large_bottle.consume'))
     })
     event.addAdvanced('gtceu:eye_homo', (item, advanced, text) => {
         text.add(1, Text.translate('eye_homo').gray())
