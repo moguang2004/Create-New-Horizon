@@ -424,6 +424,7 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
   event.recipes.create.filling('legendarysurvivaloverhaul:thermometer', ['kubejs:thermometer_case', Fluid.of('gtceu:mercury', 1000)])
   event.remove({ output: 'legendarysurvivaloverhaul:thermometer' })
+  event.recipes.create.filling('2x ctnhcore:simple_nutritious_meal',['minecraft:paper',Fluid.of('gtceu:biomass',500)])
 })
 
 ServerEvents.recipes(event => {
