@@ -165,7 +165,7 @@
 			id: "0724FC12031BCA34"
 			tasks: [{
 				id: "4423B177953A7E45"
-				item: "gtceu:industrial_primitive_blast_furnace"
+				item: "ctnhcore:industrial_primitive_blast_furnace"
 				type: "item"
 			}]
 			x: -0.5d

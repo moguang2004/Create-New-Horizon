@@ -470,7 +470,7 @@ ServerEvents.recipes(event => {
         F: "gtceu:bronze_gear"
     })
     event.shaped(
-        Item.of("gtceu:industrial_primitive_blast_furnace", 1), [
+        Item.of("ctnhcore:industrial_primitive_blast_furnace", 1), [
         "ABA",
         "BCB",
         "DBD"

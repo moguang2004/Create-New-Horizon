@@ -81,12 +81,6 @@ ItemEvents.tooltip(event =>{
             text.add(1,Text.translate('gtceu.machine.energy_hatch.output_hi_amp.tooltip'))
         })
     })
-    event.addAdvanced('gtceu:industrial_primitive_blast_furnace',(item,advanced,text)=>{
-        text.add(1,Text.translate('industrial_primitive_blast_furnace_introduction').gray())
-        text.add(2,Text.translate('ctnh.industrial_primitive_blast_furnace.temperature'))
-        text.add(3,Text.translate('ctnh.industrial_primitive_blast_furnace.parallel').green())
-        text.add(4,Text.translate('ctnh.industrial_primitive_blast_furnace.efficiency').green())
-    })
     event.addAdvanced('gtceu:mana_seperator',(item,advanced,text)=>{
         text.add(1,Text.translate('mana_machine').gray())
     })

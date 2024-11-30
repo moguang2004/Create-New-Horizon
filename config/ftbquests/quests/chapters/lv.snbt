@@ -508,7 +508,7 @@
 			tasks: [
 				{
 					id: "28B4B5B5A143CB87"
-					item: "gtceu:industrial_primitive_blast_furnace"
+					item: "ctnhcore:industrial_primitive_blast_furnace"
 					type: "item"
 				}
 				{
