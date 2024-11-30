@@ -96,12 +96,6 @@ ItemEvents.tooltip(event =>{
         text.add(2,Text.translate('ctnh.water_power_station.mechanism'))
         text.add(3,Text.translate('ctnh.water_power_station.random').green())
     })
-    event.addAdvanced('gtceu:slaughter_house',(item,advanced,text)=>{
-        text.add(1,Text.translate('slaughter_house').gray())
-        text.add(2,Text.translate('ctnh.slaughter_house.mechanism'))
-        text.add(3,Text.translate('ctnh.slaughter_house.parallel'))
-        text.add(4,Text.translate('ctnh.slaughter_house.health'))
-    })
     event.addAdvanced('gtceu:bio_reactor',(item,advanced,text)=>{
         text.add(1,Text.translate('bio_reactor').gray())
         //text.add(2,Text.translate('ctnh.bio_reactor.basic_power'))

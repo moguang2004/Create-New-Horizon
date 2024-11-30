@@ -28,7 +28,6 @@
 		}
 		{
 			id: "21FEA920DE844E5C"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2.subtitle}"
 			tasks: [{
 				id: "5C4F99B24D97D71B"
 				item: "gtceu:mana_generator_turbine_tier1"
@@ -39,7 +38,6 @@
 		}
 		{
 			id: "4103567A8D3A9B46"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3.subtitle}"
 			tasks: [{
 				id: "565AD9B1D06DA31D"
 				item: "gtceu:mana_generator_turbine_tier2"
@@ -50,7 +48,6 @@
 		}
 		{
 			id: "02AE26871BBA0CCF"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4.subtitle}"
 			tasks: [{
 				id: "4398844790CB30FB"
 				item: "gtceu:mana_generator_turbine_tier3"
@@ -61,7 +58,6 @@
 		}
 		{
 			id: "2032BDD3A8B16E3C"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5.subtitle}"
 			tasks: [{
 				id: "068BD67372FB34AA"
 				item: "gtceu:mana_generator_turbine_tier4"
@@ -450,6 +446,36 @@
 			}]
 			x: 6.0d
 			y: 8.5d
+		}
+		{
+			id: "7EB04CCA9FB7750B"
+			tasks: [{
+				id: "654ABF1CE3B06D5D"
+				item: "ctnhcore:ev_chemical_generator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			id: "1EAD3D157774B08C"
+			tasks: [{
+				id: "305720CF61A2B320"
+				item: "ctnhcore:iv_chemical_generator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 5.5d
+		}
+		{
+			id: "5A5E55025E8FB148"
+			tasks: [{
+				id: "3DDE43D6D1A7185D"
+				item: "ctnhcore:demon_will_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
 		}
 	]
 	title: "{ftbquests.chapter.15B8D9F4A2A19BFA.title}"

@@ -960,6 +960,21 @@
 			x: 3.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["504A762FE1057233"]
+			description: ["九合一青春版"]
+			id: "6FE708CED56870AA"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "这个真的快"
+			tasks: [{
+				id: "11CBB5569D584A09"
+				item: "ctnhcore:sweat_shop"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.lv.subtitle}"]
 	title: "{ftbquests.chapter.lv.title}"

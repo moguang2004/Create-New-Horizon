@@ -448,6 +448,55 @@
 			x: -4.0d
 			y: 10.5d
 		}
+		{
+			description: ["    当完成一个标记任务之后，会自动给你一个该物品的“进货清单”，使用此清单就可以在一个购买机里用货币不断换取对应物品。（对应物品的清单只可在该任务页面换取，不可合成）"]
+			id: "5C473AF6636D2D32"
+			tasks: [{
+				id: "568646AEFBC65CF0"
+				title: "使用须知"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "348ECD9B91536A8F"
+			tasks: [
+				{
+					id: "347F728BF1391A7B"
+					item: "jackseconomy:importer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7781ED3B2FE98CAA"
+					item: "jackseconomy:mechanical_importer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			id: "1A71927DA2692D34"
+			tasks: [
+				{
+					id: "18CFA4A6FB83B4EA"
+					item: "jackseconomy:exporter"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53CD7DA019E1BE02"
+					item: "jackseconomy:mechanical_exporter"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 0.0d
+		}
 	]
 	title: "小市场"
 }

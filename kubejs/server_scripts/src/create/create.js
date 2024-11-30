@@ -393,19 +393,19 @@ ServerEvents.recipes(event =>{
 })
 
 
-// ServerEvents.recipes(event => {
-//   let transitional = 'gtceu:coke_oven_bricks'
-//   event.recipes.create.sequenced_assembly([
-//     '2x gtceu:firebricks'
-//   ], 'gtceu:coke_oven_bricks', [
-//     event.recipes.createDeploying(transitional, [transitional, 'gtceu:firebrick']),
-//     event.recipes.createDeploying(transitional, [transitional, 'gtceu:firebrick']),
-//     event.recipes.createDeploying(transitional, [transitional, 'gtceu:gypsum_dust']),
-//     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:concrete', 250)])
-//   ]).transitionalItem(transitional)
-//     .loops(2)
-//   event.remove({ output: 'gtceu:firebricks' })
-// })
+ServerEvents.recipes(event => {
+  let transitional = 'gtceu:coke_oven_bricks'
+  event.recipes.create.sequenced_assembly([
+    '2x gtceu:firebricks'
+  ], 'gtceu:coke_oven_bricks', [
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:firebrick']),
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:firebrick']),
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:gypsum_dust']),
+    event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:concrete', 250)])
+  ]).transitionalItem(transitional)
+    .loops(2)
+  event.remove({ output: 'gtceu:firebricks' })
+})
 
 ServerEvents.recipes(event => {
   let transitional = 'gtceu:coke_dust'

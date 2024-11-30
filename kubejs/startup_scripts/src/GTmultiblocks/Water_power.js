@@ -71,7 +71,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 l.add(l.size(), Text.translate("multiblock.ctnh.water_power_station2", $FormattingUtil.formatNumbers(outputEnergy), voltageName))
             }
         })
-        .workableCasingRenderer('ctnhcore:block/mana_steel_casing', 'gtceu:block/multiblock/generator/large_steam_turbine', false)
+        .workableCasingRenderer('ctnhcore:block/casings/mana_steel_casing', 'gtceu:block/multiblock/generator/large_steam_turbine', false)
 })
 
 //本多方块的创意来源于GTQT整合包，对其中的部分内容做了修改
