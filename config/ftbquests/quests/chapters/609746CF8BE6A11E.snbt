@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "609746CF8BE6A11E"
-	group: "32DB92B5A6E4493B"
+	group: ""
 	icon: "ars_nouveau:archmage_spell_book"
 	id: "609746CF8BE6A11E"
-	order_index: 2
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

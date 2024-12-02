@@ -25,7 +25,7 @@
 				item: "kubejs:steel_mechanism"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest1.title}"
+			title: "钢铁构件"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -43,7 +43,7 @@
 		{
 			dependencies: ["64C293C5E547D47D"]
 			id: "3672E16CD2C53B19"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest3.subtitle}"
+			subtitle: "用这个产应力挺好的"
 			tasks: [{
 				id: "0A4B118AE7FAA844"
 				item: "createdieselgenerators:diesel_engine"
@@ -58,27 +58,27 @@
 				"10E9DB3C92C8B969"
 			]
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description1}"
+				"&a以下是搭建一台抽油机的基本顺序&r："
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description2}"
+				"在离地 3 格（若稍后使用大号的抽油机曲柄则为 4 格）的位置放置一个抽油机轴承，作为抽油机臂的转轴；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description3}"
+				"搭建前臂，从抽油机轴承的具有粘性的一段水平延伸数格&4（至少1格）&r，在末端放置一个抽油机驴头；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description4}"
+				"在抽油机驴头正下方放置深至基岩层的竖直流体管道柱，在流体管道的上方放置抽油机油泵，在这一步中要确保抽油机油泵以及流体管道位于含油区块；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description5}"
+				"搭建后臂，即将前臂反向延长数格&4（至少4格）&r，在末端放置一个抽油机轴承；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description6}"
+				"使用扳手右击上一步放置的抽油机轴承，以转换其外观，并在其下方放置一个抽油机曲柄；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description7}"
+				"使用强力胶黏合从抽油机臂一端的抽油机驴头到另一端的抽油机轴承；"
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description8}"
+				"空手右击作为转轴的抽油机轴承，组装完成，输入旋转力并使用流体管道从抽油机油泵抽出原油即可。"
 				"{@pagebreak}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description9}"
+				"原油输出的速度和几个因素有关："
 				""
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description10}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description11}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4.description12}"
+				"1.输入的转速越高，抽取越快（注意转速到达一定数值之后，抽油机的转速不会再上升）"
+				"2.抽油机前臂：后臂的比值越大，抽取速度越快"
+				"3.大号抽油机比小号抽油机抽取速度快"
 			]
 			id: "0DA7785CF55ABAAB"
 			tasks: [
@@ -104,9 +104,9 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest4.title}"
-			x: 2.0d
-			y: -4.0d
+			title: "原油抽取"
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1162E347E7C00175"]
@@ -157,7 +157,7 @@
 		{
 			dependencies: ["3672E16CD2C53B19"]
 			id: "24A3BEAC1C62DFEC"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest9.subtitle}"
+			subtitle: "更大更专业"
 			tasks: [{
 				id: "7BFAEFB1D5014A2B"
 				item: "createdieselgenerators:large_diesel_engine"
@@ -173,11 +173,11 @@
 			]
 			hide_dependency_lines: false
 			id: "470B9D39E23E01F2"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest10.subtitle}"
+			subtitle: "最好在冬天去"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "39382193B16E173D"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest10.task.title1}"
+				title: "访问下界"
 				type: "dimension"
 			}]
 			x: 2.0d
@@ -190,7 +190,7 @@
 				command: "/gamephase add @p nether"
 				elevate_perms: true
 				id: "73102DDDEA76B9E4"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest11.reward.title1}"
+				title: "前往下界"
 				type: "command"
 			}]
 			tasks: [{
@@ -221,7 +221,7 @@
 		{
 			dependencies: ["7EF838EF4607A41D"]
 			id: "0AE0727C431D39A5"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest13.subtitle}"
+			subtitle: "留到MV进行处理"
 			tasks: [{
 				id: "4819ADF162A3E004"
 				item: "gtceu:oil_bucket"
@@ -233,7 +233,7 @@
 		{
 			dependencies: ["6397FCC9081360A5"]
 			id: "31105ADA8A75BD01"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest14.subtitle}"
+			subtitle: "可以烧，也可以留到MV后续处理"
 			tasks: [{
 				id: "00F4CFFD57E04AFB"
 				item: "gtceu:sulfuric_naphtha_bucket"
@@ -245,7 +245,7 @@
 		{
 			dependencies: ["6397FCC9081360A5"]
 			id: "327A7C4C3C7404CC"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest15.subtitle}"
+			subtitle: "可以烧，也可以留到MV后续处理"
 			tasks: [{
 				id: "423F14BBB55CD067"
 				item: "gtceu:sulfuric_heavy_fuel_bucket"
@@ -305,9 +305,9 @@
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest20.description1}"]
+			description: ["猪牛羊马"]
 			id: "25373674A1A9932C"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest20.subtitle}"
+			subtitle: "屠刀杀部分动物获得"
 			tasks: [{
 				id: "4149619485BBB7D2"
 				item: "kubejs:tallow"
@@ -415,7 +415,7 @@
 		{
 			dependencies: ["06B1BB32F96710A2"]
 			id: "2C18C2C4CA54D968"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest29.subtitle}"
+			subtitle: "MV阶段用得上"
 			tasks: [{
 				id: "2365A1402342CBDF"
 				item: "gtceu:fermented_biomass_bucket"
@@ -438,7 +438,7 @@
 		{
 			dependencies: ["189EA0629CFAD1AB"]
 			id: "41BB77968B763B18"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest31.subtitle}"
+			subtitle: "耐心等待收获的降临"
 			tasks: [{
 				id: "7F90E118B46EDCFA"
 				item: "farmersdelight:rich_soil"
@@ -493,16 +493,16 @@
 						value: "forge:seeds"
 					}
 				}
-				title: "{ftbquests.chapter.08AF6857D150C353.quest35.task.title1}"
+				title: "Any #forge:seeds"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest35.title}"
+			title: "种子"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			id: "10E9DB3C92C8B969"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest36.subtitle}"
+			subtitle: "用这个去寻找地底的石油"
 			tasks: [{
 				id: "242E7A295BA60586"
 				item: "createdieselgenerators:oil_scanner"
@@ -545,7 +545,7 @@
 				"77EA82987E62F815"
 			]
 			id: "57D8025474402FA3"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest39.subtitle}"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
 			tasks: [{
 				id: "0EAEDC8B3E19022F"
 				item: "gtceu:lp_steam_macerator"
@@ -616,7 +616,7 @@
 				"57D8025474402FA3"
 			]
 			id: "72BEE751463CEE51"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest44.subtitle}"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
 			tasks: [{
 				id: "641BE3DB323A8223"
 				item: "gtceu:hp_steam_macerator"
@@ -655,12 +655,12 @@
 		}
 		{
 			dependencies: ["5CF2A3DF0B2E6729"]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest47.description1}"]
+			description: ["但是效率孰高孰低呢？"]
 			id: "77EA82987E62F815"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest47.subtitle}"
+			subtitle: "有些机器可以用多方块结构形式进行“升级”"
 			tasks: [{
 				id: "0810C4B258493E40"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest47.task.title1}"
+				title: "机器升级 "
 				type: "checkmark"
 			}]
 			x: -11.5d
@@ -672,7 +672,7 @@
 				"57D8025474402FA3"
 			]
 			id: "6139B36AAB4D0E0D"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest48.subtitle}"
+			subtitle: "早期的大型蒸汽机器是你最好的伙伴！"
 			tasks: [{
 				id: "43BF76A3183AC1AE"
 				item: "gtceu:steam_grinder"
@@ -700,9 +700,9 @@
 				"7D76859D3E40A235"
 				"64694E06DCC27AE1"
 			]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest50.description1}"]
+			description: ["    给蒸汽引擎供水时，最好使用gt或者enderio的管道，以免在睡觉加速时间时引发供水不足的bug"]
 			id: "680EE95FED0F46F5"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest50.subtitle}"
+			subtitle: "你即将进入第一次工业革命！"
 			tasks: [{
 				id: "0FE3911E3029D145"
 				item: "create:steam_engine"
@@ -728,9 +728,9 @@
 				"31BA6652FDB500C3"
 				"2D138FB6F66ED4D5"
 			]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest52.description1}"]
+			description: ["来自毒化洞穴，那是粗心人的致命之地"]
 			id: "1209F38D296109C7"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest52.subtitle}"
+			subtitle: "看似是废液，也许比你想象中更有用......"
 			tasks: [{
 				id: "4B1114D3CEBC9420"
 				item: "alexscaves:acid_bucket"
@@ -745,7 +745,7 @@
 				"1385760305EE11D6"
 			]
 			id: "62BAC5BC588E4CAA"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest53.subtitle}"
+			subtitle: "通过磁场洞穴中的青钕和赤钕，或者是植物魔法的磁化透镜磁化获得"
 			tasks: [{
 				id: "3CD9D89EFFFDDA64"
 				item: "gtceu:magnetic_iron_ingot"
@@ -772,9 +772,9 @@
 				"24A3BEAC1C62DFEC"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest55.description1}"]
+			description: ["    越高级的磁铁发电的效率越高（也就是相同应力转化为RF的电量更多）"]
 			id: "2D9F762371DEDF70"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest55.subtitle}"
+			subtitle: "磁生电"
 			tasks: [
 				{
 					id: "18762930299222CA"
@@ -799,7 +799,7 @@
 		{
 			dependencies: ["41E48BCAEAD9D47E"]
 			id: "54A0B48F51F12647"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest56.subtitle}"
+			subtitle: "电气时代的基石"
 			tasks: [{
 				id: "3F5BE8B5242E5FC9"
 				item: "gtceu:lv_1a_energy_converter"
@@ -832,7 +832,7 @@
 		}
 		{
 			id: "3A2D6EEBA8A75B83"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest59.subtitle}"
+			subtitle: "总不能拿手刻吧"
 			tasks: [{
 				id: "45DE9D326C667C29"
 				item: "vintageimprovements:laser"
@@ -1006,14 +1006,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest74.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest74.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest74.description3}"
+				"    在格雷科技中，用电安全尤为重要，否则会引起严重的后果（指爆炸），造成人员和财产的损失。所以这里需要普及几个概念，首先是功率，单位为EU/t，其次是电流，单位为A，最后是电压，单位为EU/t/A，但是我们常常用1A每t的EU值代指电压，如LV电压（即32EU/t/A）。"
+				"    存在用电危险的情况主要发生于将用电器与导线连接之时，必须时刻注意：&4不要尝试将高电压的导线连接于低电压的机器上&r，这样做不一定会爆炸，但一定会存在隐患。在导线连接发电机时，&4尽量避免使导线的额定电压小于发电机动力仓的电压，或是导线的额定电流小于动力仓的最大输出电流。&r"
+				"    只要时刻保障以上几点，基本上可以避免大部分的危机。"
 			]
 			id: "3942AF99CAFEF32C"
 			tasks: [{
 				id: "0F07A6703A44723A"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest74.task.title1}"
+				title: "用电安全"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.08AF6857D150C353.quest74.title}"
@@ -1027,6 +1027,21 @@
 			shape: "gear"
 			size: 3.0d
 			subtitle: "原始人的第一个巨构"
+			title: "格雷小课堂：用电安全"
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1162E347E7C00175"]
+			id: "0D7E0A6600B1783B"
+			rewards: [{
+				command: "/gamephase add @p nether"
+				elevate_perms: true
+				id: "2793A5582E3F56D1"
+				title: "前往下界"
+				type: "command"
+			}]
 			tasks: [{
 				id: "2C454A9B147379F9"
 				item: "gtceu:eye_homo"
@@ -1120,5 +1135,5 @@
 			y: -5.0d
 		}
 	]
-	title: "{ftbquests.chapter.08AF6857D150C353.title}"
+	title: "钢铁雄心"
 }

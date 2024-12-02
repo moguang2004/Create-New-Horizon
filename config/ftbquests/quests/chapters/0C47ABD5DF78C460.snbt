@@ -2,19 +2,15 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0C47ABD5DF78C460"
-	group: "4CD84F8DB1FF8B7E"
+	group: ""
 	icon: "ae2:charged_certus_quartz_crystal"
 	id: "0C47ABD5DF78C460"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"06A46967BFF56B33"
-				"0425D0789C2837CD"
-			]
 			id: "5BA988147AECFFF2"
-			subtitle: "{ftbquests.chapter.0C47ABD5DF78C460.quest1.subtitle}"
+			subtitle: "MV电路（手搓版）"
 			tasks: [{
 				id: "73C37104C3738157"
 				item: "gtceu:good_electronic_circuit"
@@ -101,20 +97,16 @@
 				"235D3A9B30896B51"
 			]
 			id: "634FBA16A992503B"
-			subtitle: "{ftbquests.chapter.0C47ABD5DF78C460.quest8.subtitle}"
+			subtitle: "尝试利用存储总线和抽屉做一个简单存储系统吧"
 			tasks: [{
 				id: "60059BE037BB4CEE"
-				title: "{ftbquests.chapter.0C47ABD5DF78C460.quest8.task.title1}"
+				title: "基础存储"
 				type: "checkmark"
 			}]
 			x: 5.5d
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"08302778401395AA"
-				"4D79E10947CC121F"
-			]
 			id: "753C05B19EFE934A"
 			tasks: [{
 				id: "63C15D424E4BE002"
@@ -197,7 +189,7 @@
 			dependencies: ["753C05B19EFE934A"]
 			hide_dependency_lines: true
 			id: "5DB0EF9FCAE148D0"
-			subtitle: "{ftbquests.chapter.0C47ABD5DF78C460.quest16.subtitle}"
+			subtitle: "用于工作台的合成"
 			tasks: [{
 				id: "4EFAE16CE46DE264"
 				item: "ae2:molecular_assembler"
@@ -435,5 +427,5 @@
 			y: 8.0d
 		}
 	]
-	title: "{ftbquests.chapter.0C47ABD5DF78C460.title}"
+	title: "应用能源"
 }

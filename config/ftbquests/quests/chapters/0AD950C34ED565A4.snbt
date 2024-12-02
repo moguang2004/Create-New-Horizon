@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0AD950C34ED565A4"
-	group: "71414D2BDE140EDA"
+	group: ""
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -13,7 +13,7 @@
 		id: "legendarysurvivaloverhaul:thermometer"
 	}
 	id: "0AD950C34ED565A4"
-	order_index: 5
+	order_index: 18
 	quest_links: [ ]
 	quests: [
 		{

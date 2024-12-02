@@ -2,15 +2,15 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "36A2F40CC894ECAF"
-	group: "71414D2BDE140EDA"
+	group: ""
 	icon: "minecraft:zombie_head"
 	id: "36A2F40CC894ECAF"
-	order_index: 4
+	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{
 			id: "70EEEE7E5F39EDCC"
-			subtitle: "{ftbquests.chapter.36A2F40CC894ECAF.quest1.subtitle}"
+			subtitle: "利用精准采集II的工具可以采集获得"
 			tasks: [{
 				id: "2616D43437FC37B5"
 				item: "minecraft:spawner"
@@ -21,7 +21,7 @@
 		}
 		{
 			id: "6FE01122768E1589"
-			subtitle: "{ftbquests.chapter.36A2F40CC894ECAF.quest2.subtitle}"
+			subtitle: "直接破坏刷怪笼只能获得这个"
 			tasks: [{
 				id: "4AE8AC74093BE52E"
 				item: {
@@ -37,7 +37,7 @@
 		{
 			dependencies: ["6FE01122768E1589"]
 			id: "70775BD37338408D"
-			subtitle: "{ftbquests.chapter.36A2F40CC894ECAF.quest3.subtitle}"
+			subtitle: "先将破损的刷怪笼绑定好某一种生物后，再合成电动刷怪笼"
 			tasks: [{
 				id: "3F32EA5E2AFEEC1A"
 				item: {
@@ -53,7 +53,7 @@
 		{
 			dependencies: ["70775BD37338408D"]
 			id: "61B334D440F18D22"
-			subtitle: "{ftbquests.chapter.36A2F40CC894ECAF.quest4.subtitle}"
+			subtitle: "这个可快了 "
 			tasks: [{
 				id: "75465FA6FC7030ED"
 				item: "ctnhcore:slaughter_house"
@@ -75,7 +75,7 @@
 		}
 		{
 			id: "22D529C3C7916152"
-			subtitle: "{ftbquests.chapter.36A2F40CC894ECAF.quest6.subtitle}"
+			subtitle: "从荒野猎手身上获得"
 			tasks: [{
 				id: "055DD47287274E3E"
 				item: "ars_nouveau:wilden_horn"
@@ -86,9 +86,9 @@
 		}
 		{
 			dependencies: ["22D529C3C7916152"]
-			description: ["{ftbquests.chapter.36A2F40CC894ECAF.quest7.description1}"]
+			description: ["将荒野之角扔给它们，它们就会变为碎片。"]
 			id: "179E506375B19B66"
-			subtitle: "{ftbquests.chapter.36A2F40CC894ECAF.quest7.subtitle}"
+			subtitle: "去森林里找到这种小家伙"
 			tasks: [{
 				id: "105B12B42E2BE41A"
 				item: "ars_nouveau:drygmy_shard"
@@ -103,10 +103,10 @@
 				"2E48E824DE4E530B"
 			]
 			id: "466E245F021E7FFE"
-			subtitle: "{ftbquests.chapter.36A2F40CC894ECAF.quest8.subtitle}"
+			subtitle: "阅读新生魔艺的指南，打造一个高效刷怪场吧！"
 			tasks: [{
 				id: "6D79914F4BB39979"
-				title: "{ftbquests.chapter.36A2F40CC894ECAF.quest8.task.title1}"
+				title: "德格米牧场"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -123,5 +123,5 @@
 			y: 2.0d
 		}
 	]
-	title: "{ftbquests.chapter.36A2F40CC894ECAF.title}"
+	title: "怪物资源"
 }

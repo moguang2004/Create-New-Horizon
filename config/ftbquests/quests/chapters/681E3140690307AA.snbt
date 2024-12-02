@@ -5,17 +5,17 @@
 	group: ""
 	icon: "minecraft:oak_log"
 	id: "681E3140690307AA"
-	order_index: 0
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			id: "44C7FE559ECFB2EB"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest1.subtitle}"
+			subtitle: "本整合包目前处于内测状态，许多机制未完善，请酌情游玩，如有建议欢迎提出"
 			tasks: [{
 				id: "5CE79CE60BD5FC4D"
-				title: "{ftbquests.chapter.681E3140690307AA.quest1.task.title1}"
+				title: "欢迎"
 				type: "checkmark"
 			}]
 			x: -9.0d
@@ -24,8 +24,8 @@
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest2.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest2.description2}"
+				"    在本整合包中，添加了冷汗模组，温度会随着&a群系、季节、维度、周围的方块&r变化而变化。&4过高和过低的温度都会导致危险&r，所以请时刻注意自身的温度情况，别忘了制作温度计哦。更多信息请前往“冷汗”章节。"
+				"    别怪我没提醒你，冬天会很冷的。"
 			]
 			icon: {
 				Count: 1
@@ -48,10 +48,10 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest2.subtitle}"
+			subtitle: "重要！！！"
 			tasks: [{
 				id: "1769E6600040B278"
-				title: "{ftbquests.chapter.681E3140690307AA.quest2.task.title1}"
+				title: "冷汗"
 				type: "checkmark"
 			}]
 			title: "传说生存"
@@ -66,13 +66,13 @@
 			]
 			icon: "gtceu:gregification_hazard_sign_block"
 			id: "6709D9DF2EA0432B"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3.subtitle}"
+			subtitle: "格雷科技是本整合包的主线科技，也许你曾听说过它的大名，但是不要担心，只要一步一步遵循任务线进行，一定能给你带来一个良好的游戏体验！"
 			tasks: [{
 				id: "0159C516B579DCAF"
-				title: "{ftbquests.chapter.681E3140690307AA.quest3.task.title1}"
+				title: "格雷科技"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest3.title}"
+			title: "格雷科技（GT）"
 			x: -10.5d
 			y: 4.0d
 		}
@@ -81,10 +81,10 @@
 			hide_dependency_lines: false
 			icon: "create:wrench"
 			id: "6E097A8CDC0BF608"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4.subtitle}"
+			subtitle: "没错，就是它"
 			tasks: [{
 				id: "09D536FDA05E00B8"
-				title: "{ftbquests.chapter.681E3140690307AA.quest4.task.title1}"
+				title: "机械动力"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -94,10 +94,10 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			icon: "botania:livingrock"
 			id: "39CA84C1EBF5FF02"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest5.subtitle}"
+			subtitle: "一个很棒的魔法模组，会融入主线之中"
 			tasks: [{
 				id: "3779765761C83EA7"
-				title: "{ftbquests.chapter.681E3140690307AA.quest5.task.title1}"
+				title: "植物魔法"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -107,10 +107,10 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			icon: "bloodmagic:daggerofsacrifice"
 			id: "021CE5551CB203F9"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6.subtitle}"
+			subtitle: "同样是很棒的模组，也会融入主线之中"
 			tasks: [{
 				id: "5573A2DD9A403E16"
-				title: "{ftbquests.chapter.681E3140690307AA.quest6.task.title1}"
+				title: "血魔法"
 				type: "checkmark"
 			}]
 			x: -10.5d
@@ -118,12 +118,12 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest7.description1}"]
+			description: ["如果你想要GT连锁，你可以在目录找到config，并修改ctnhcore文件，将true改成false就可以进行格雷矿物的连锁了"]
 			id: "4B11E32ACA7BC6FA"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7.subtitle}"
+			subtitle: "慢慢地探索吧"
 			tasks: [{
 				id: "6344812C1EC2C585"
-				title: "{ftbquests.chapter.681E3140690307AA.quest7.task.title1}"
+				title: "还有更多"
 				type: "checkmark"
 			}]
 			x: -9.0d
@@ -150,8 +150,8 @@
 		{
 			dependencies: ["6F405D2508EED283"]
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest9.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest9.description2}"
+				"晚上会特别的冷，建议你提前搞点皮革"
+				"由于加入了冷汗mod，皮革套装现在变得非常有用"
 			]
 			id: "611BCC64F1F511AA"
 			optional: true
@@ -201,7 +201,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest9.subtitle}"
+			subtitle: "你需要一些保护"
 			tasks: [{
 				count: 4L
 				id: "2B699EAFD14FE1D7"
@@ -213,7 +213,7 @@
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest10.description1}"]
+			description: ["格雷修改了原版的所有矿物生成，&4贸然的下矿会让你一无所获&r。使用探矿仪，找到含有铁、铜、锡等前期金属的矿脉，探矿仪中的数值表示该区块内含有这种矿物的总数量，&a而矿物生成的y轴请查看jei&r。在对应区块寻找矿物，效率会高很多。有时候你会在地面上找到一些&a矿石标记物&r，别犹豫，下面也许就是大片的矿石！"]
 			id: "1B4FFE71B4C66E14"
 			rewards: [
 				{
@@ -284,10 +284,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest10.subtitle}"
+			subtitle: "别随便下矿洞！"
 			tasks: [{
 				id: "02CB7B2250363B17"
-				title: "{ftbquests.chapter.681E3140690307AA.quest10.task.title1}"
+				title: "下矿"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -296,8 +296,8 @@
 		{
 			dependencies: ["6F405D2508EED283"]
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest11.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest11.description2}"
+				"建议你早点考虑吃喝，生活调味料给你补充的红心会让你舒服不少"
+				"早点弄一下农夫乐事，一直吃低饱和度的食物没有意义"
 			]
 			id: "4157A965AA4E18D2"
 			rewards: [
@@ -326,17 +326,17 @@
 				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest11.title}"
+			title: "种田"
 			x: -2.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest12.description1}"]
+			description: ["不一定非要挖相同的矿石，此任务仅起到指示作用"]
 			icon: "gtceu:raw_magnetite"
 			id: "6639C6A3A5807AED"
 			optional: true
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest12.subtitle}"
+			subtitle: "一些前期需要的矿石"
 			tasks: [
 				{
 					count: 16L
@@ -375,7 +375,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.681E3140690307AA.quest12.title}"
+			title: "矿物"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -383,7 +383,7 @@
 			dependencies: ["1B4FFE71B4C66E14"]
 			icon: "minecraft:iron_ingot"
 			id: "5BA86B01337A91D5"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest13.subtitle}"
+			subtitle: "整合包里最没用的一些东西"
 			tasks: [
 				{
 					count: 16L
@@ -398,7 +398,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.681E3140690307AA.quest13.title}"
+			title: "矿物锭"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -408,7 +408,7 @@
 				"337BC9186C014A06"
 			]
 			id: "09C344717F4BAD6C"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest14.subtitle}"
+			subtitle: "做这东西花了我老半天"
 			tasks: [{
 				id: "58CDFF594C3E0249"
 				item: "minecraft:crafting_table"
@@ -426,7 +426,7 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest15.subtitle}"
+			subtitle: "有很多你熟悉的东西需要燧石来合成"
 			tasks: [{
 				count: 4L
 				id: "4F80DC03536AE638"
@@ -460,7 +460,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest16.subtitle}"
+			subtitle: "不可或缺！"
 			tasks: [{
 				id: "123796D65339C390"
 				item: {
@@ -470,18 +470,18 @@
 						value: "curios:back"
 					}
 				}
-				title: "{ftbquests.chapter.681E3140690307AA.quest16.task.title1}"
+				title: "Any #curios:back"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest16.title}"
+			title: "挖矿必备！"
 			x: 0.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest17.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest17.description2}"
+				"早期安山合金的合成很昂贵，可以省着使用，后面会有更便宜的制作方式，注意查看jei."
+				"&a你的第一块合金，同时也是开启机械动力的钥匙&r"
 			]
 			id: "7FA90252C6CC19F0"
 			rewards: [{
@@ -492,7 +492,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest17.subtitle}"
+			subtitle: "第一块合金"
 			tasks: [{
 				id: "19245BF7A4D48BFB"
 				item: "gtceu:andesite_alloy_ingot"
@@ -503,7 +503,7 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest18.description1}"]
+			description: ["每一个伟大的梦想，都起源于一个微不足道的开始"]
 			id: "337BC9186C014A06"
 			tasks: [{
 				id: "53BD9501D90EA729"
@@ -514,20 +514,20 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "{ftbquests.chapter.681E3140690307AA.quest18.task.title1}"
+				title: "Any #minecraft:logs"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest18.title}"
+			title: "要致富，先撸树"
 			x: -7.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest19.description1}"]
+			description: ["许多物品的配方可能与原版发生了一些变动，请大家在游玩时注意多查看jei。同时，对于科技包的新手，每一个任务的描述都是十分重要的，可以&a帮助你更快理解游戏的基本玩法和流程&r，也请大家多多关注！"]
 			id: "1FB23D66088398BC"
 			tasks: [{
 				id: "519EA59FDB4B479F"
-				title: "{ftbquests.chapter.681E3140690307AA.quest19.task.title1}"
+				title: "多查看JEI"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -535,16 +535,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest20.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest20.description2}"
-				"{ftbquests.chapter.681E3140690307AA.quest20.description3}"
+				"    如你所见，目前整合包的内容&c还有相当多不完整的地方&r，目前的开发组主力只有两位在校大学生，平时时间也不会太多，而且大量的时间花在新机制、新多方块、新产线的设计上，这也导致&c整合包的任务、美工、建筑等方面的不足&r。"
+				"    如果你有一定的美术天赋，或者对哪些物品的材质有想法或者不满意，可以加群或者联系作者提供你的作品。如果你对整合包流程十分熟悉，觉得作者现在写的任务不合理，也可以使用github提供你的修改（&a任务的编辑是可视化的界面，简单易上手，相信你一定能够做好&r）。"
+				"    最后，哪怕你啥也不会，但是有很多新奇的点子，也随时欢迎你加群和大家交流或者提供给作者，每个人的创意都是独一无二的，相信你的创意也可以得到大家的支持。如果你对这些都没有兴趣，那么，请尽情享受本整合包吧！"
 			]
 			id: "5F126DE1A7F425DA"
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "686C86F01CDB3AD7"
-				title: "{ftbquests.chapter.681E3140690307AA.quest20.task.title1}"
+				title: "欢迎加入共创计划！"
 				type: "checkmark"
 			}]
 			x: -9.0d
@@ -576,5 +576,5 @@
 			y: 2.5d
 		}
 	]
-	title: "{ftbquests.chapter.681E3140690307AA.title}"
+	title: "原始人，起洞！！"
 }

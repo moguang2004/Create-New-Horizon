@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "046724C96F783FC2"
-	group: "71414D2BDE140EDA"
+	group: ""
 	icon: {
 		Count: 1
 		id: "apotheosis:gem"
@@ -14,7 +14,7 @@
 		}
 	}
 	id: "046724C96F783FC2"
-	order_index: 3
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
@@ -30,10 +30,10 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest1.subtitle}"
+			subtitle: "这是你上手本模组最好的工具"
 			tasks: [{
 				id: "59F24DF7703134AE"
-				title: "{ftbquests.chapter.046724C96F783FC2.quest1.task.title1}"
+				title: "阴影编年史"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -52,7 +52,7 @@
 		{
 			dependencies: ["47E83B3FF8355CCC"]
 			id: "2A9C751134DC1A4E"
-			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest3.subtitle}"
+			subtitle: "下界系列书架"
 			tasks: [{
 				id: "211B992781C85A51"
 				item: "apotheosis:hellshelf"
@@ -74,7 +74,7 @@
 		{
 			dependencies: ["47E83B3FF8355CCC"]
 			id: "6746637E7BE5AA2D"
-			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest5.subtitle}"
+			subtitle: "海洋系列书架"
 			tasks: [{
 				id: "4DBC50D6EDC94BE2"
 				item: "apotheosis:seashelf"
@@ -101,7 +101,7 @@
 				"5AC4BE02BC41744B"
 			]
 			id: "6104F4DF3C6E3B4E"
-			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest7.subtitle}"
+			subtitle: "附魔等级到达60以后，通过灌注附魔升级获得"
 			tasks: [{
 				id: "14A11634C17D43D8"
 				item: "apotheosis:deepshelf"
@@ -203,17 +203,17 @@
 		}
 		{
 			dependencies: ["2AE229F558CEE98E"]
-			description: ["{ftbquests.chapter.046724C96F783FC2.quest16.description1}"]
+			description: ["    想要通过附魔台获得此魔咒，首先需要使最大附魔等级大于140（&e位阶&rx2x（1+&c量子化&r））,其次需要&5阿卡那&r尽可能的高，同时，还需要奥术宝藏深暗书架以解锁宝藏附魔。"]
 			id: "5BFDF39A4B861556"
-			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest16.subtitle}"
+			subtitle: "有了这个附魔。你就可以随意驰骋于宇宙之中了"
 			tasks: [{
 				id: "68233A92F4015C0B"
-				title: "{ftbquests.chapter.046724C96F783FC2.quest16.task.title1}"
+				title: "真空密封！"
 				type: "checkmark"
 			}]
 			x: 15.5d
 			y: -3.0d
 		}
 	]
-	title: "{ftbquests.chapter.046724C96F783FC2.title}"
+	title: "神化"
 }
