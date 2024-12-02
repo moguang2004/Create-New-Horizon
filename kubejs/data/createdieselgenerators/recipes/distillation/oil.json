@@ -1,0 +1,29 @@
+{
+    "type": "createdieselgenerators:distillation",
+    "ingredients": [
+        {
+            "fluid": "gtceu:oil",
+            "amount": 100
+        }
+    ],
+    "heatRequirement": "superheated",
+    "processingTime": 400,
+    "results": [
+        {
+            "fluid": "gtceu:sulfuric_heavy_fuel",
+            "amount": 60
+        },
+        {
+            "fluid": "gtceu:sulfuric_naphtha",
+            "amount": 30
+        },
+        {
+            "fluid": "gtceu:sulfuric_light_fuel",
+            "amount": 10
+        },
+        {
+            "fluid": "gtceu:sulfuric_gas",
+            "amount": 100
+        }
+    ]
+}

@@ -13,7 +13,7 @@
   },
   "huge": {
     "speed": 256.0,
-    "strength": 200000.0,
+    "strength": 196000.0,
     "burn_rate": 1
   }
 }
