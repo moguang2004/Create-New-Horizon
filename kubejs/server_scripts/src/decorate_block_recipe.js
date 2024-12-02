@@ -1,3 +1,16 @@
+ServerEvents.recipes(event => {//临时放在这里的水泥桶配方
+	event.recipes.shaped(
+		  Item.of('gtceu:cement_bucket', 1), [
+	  "DED",
+	  "CAC",
+	  "CBC"
+  ], {
+	  A:'minecraft:water_bucket',
+	  B:'gtceu:clay_dust',
+	  C:'gtceu:calcite_dust',
+	  D:'gtceu:tiny_iron_dust',
+	  E:'minecraft:bucket'})
+  })
 ServerEvents.recipes(event => {
     //这个是台阶
     event.shaped('6x kubejs:machine_casing_bronze_plated_bricks_slab', [
