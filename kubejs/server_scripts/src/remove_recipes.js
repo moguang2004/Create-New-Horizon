@@ -216,5 +216,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:bender/bend_graphite_ir_plate_ingot_to_double_plate" })
     event.remove({ id: "gtceu:shaped/large_bronze_boiler" })
     event.remove({ id: "gtceu:chemical_reactor/soda_ash_from_carbon_dioxide" })
-
+    event.remove({ id: "gtceu:electric_blast_furnace/blast_adamantite" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_to_plate" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_gear" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_block" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_to_ingot" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_small_gear" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_to_nugget" })
 })

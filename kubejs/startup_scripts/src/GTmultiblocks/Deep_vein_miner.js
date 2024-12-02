@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('void_miner_processing')
         //.category('void_miner_processing')
         .setEUIO('in')
-        .setMaxIOSize(3, 24, 3, 0)
+        .setMaxIOSize(3, 36, 3, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MINER);
 });

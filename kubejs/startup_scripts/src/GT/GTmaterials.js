@@ -1551,17 +1551,20 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components('samarium', 'dysprosium', 'terbium')
         .color(0x148072)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_LONG_ROD)
-
     event.create("cement")
         .liquid()
         .color(0xD2B48C);
-        
     event.create('fefarite')
         .ore()
         .gem()
         .dust()
         .color(0x046ed7)
         .iconSet(GTMaterialIconSet.LIGNITE)
+    event.create('nether_essence_crystal_fluid')
+        .liquid()
+        .color(0x046ed7)
+        .iconSet(GTMaterialIconSet.LIGNITE)
+
 })
 
 StartupEvents.postInit(event => {
