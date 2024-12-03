@@ -9,6 +9,22 @@ ServerEvents.recipes(event => {
             Fluid.of("minecraft:water", 1000)
         ]
     ).heated()
+    
+     //水泥桶配方
+    event.recipes.shaped(
+        Item.of('gtceu:cement_bucket', 1), [
+          "DED",
+          "CAC",
+          "CBC"
+        ],
+        {
+          A:'minecraft:water_bucket',
+          B:'gtceu:clay_dust',
+          C:'gtceu:calcite_dust',
+          D:'gtceu:tiny_iron_dust',
+          E:'minecraft:bucket'
+        }
+    )
 
     // 压缩黏土配方
     event.remove({'output': 'gtceu:compressed_clay'});
