@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "177DD3C4E2D1113C"
-	group: ""
+	group: "4CD84F8DB1FF8B7E"
 	icon: {
 		Count: 1
 		id: "gtceu:iron_mining_hammer"
@@ -26,7 +26,7 @@
 		}
 	}
 	id: "07118DAC24E83AB7"
-	order_index: 7
+	order_index: 2
 	quest_links: [{
 		id: "42CACCBAE0D1508D"
 		linked_quest: "7F8E09E8CB718C64"
@@ -48,7 +48,7 @@
 		{
 			dependencies: ["591C04018820A1E3"]
 			id: "1FC5D2A60578FB55"
-			subtitle: "熔炼可以从大量的贵金属中提取出一些珍惜的金元素"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest2.subtitle}"
 			tasks: [{
 				id: "72C6F20C922B2859"
 				item: "minecraft:gold_nugget"
@@ -93,7 +93,7 @@
 		{
 			dependencies: ["188AC9C2BFA0D221"]
 			id: "01622A02A8887530"
-			subtitle: "经过处理后，可以提炼出更多的金"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest6.subtitle}"
 			tasks: [{
 				id: "2D42FEBF44F781A1"
 				item: "gtceu:tiny_gold_dust"
@@ -105,7 +105,7 @@
 		{
 			dependencies: ["188AC9C2BFA0D221"]
 			id: "21D904DC5BD2D857"
-			subtitle: "可以回收铜，以及获得一些副产物"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest7.subtitle}"
 			tasks: [{
 				id: "426B548E21DBDC21"
 				item: "gtceu:copper_leach_dust"
@@ -117,7 +117,7 @@
 		{
 			dependencies: ["188AC9C2BFA0D221"]
 			id: "4009858927F160B3"
-			subtitle: "提取出全部的金"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest8.subtitle}"
 			tasks: [{
 				id: "1167A4A08BE4673C"
 				item: "gtceu:chloroauric_acid_bucket"
@@ -139,7 +139,7 @@
 		}
 		{
 			id: "0C52DB44DF9EE06F"
-			subtitle: "氧化铝来源广泛，可以副产于许多种矿物"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest10.subtitle}"
 			tasks: [{
 				id: "1A9A6FC700D18F86"
 				item: "gtceu:alumina_dust"
@@ -154,7 +154,7 @@
 				"5211BE1C25953D4A"
 			]
 			id: "32032DEB11135FEF"
-			subtitle: "经过二者电解，可以降低铝粉制取所需要的电压"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest11.subtitle}"
 			tasks: [{
 				id: "11100205C8DEFAAE"
 				item: "gtceu:aluminium_dust"
@@ -187,7 +187,7 @@
 		}
 		{
 			id: "681DC7A75791D7E2"
-			subtitle: "一种含铝和氟的石头，来自暮色森林"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest14.subtitle}"
 			tasks: [{
 				id: "10BFE625088691A7"
 				item: "gtceu:cryolite_dust"
@@ -220,7 +220,7 @@
 		{
 			dependencies: ["53314CF3EED532FE"]
 			id: "689BE30CCFFF7850"
-			subtitle: "铝土矿中含有少量金红石"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest17.subtitle}"
 			tasks: [{
 				id: "290B69816AF28B31"
 				item: "gtceu:tiny_rutile_dust"
@@ -254,7 +254,7 @@
 		{
 			dependencies: ["27E122BB40B8033B"]
 			id: "1059716CA13CA10E"
-			subtitle: "副产物"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest20.subtitle}"
 			tasks: [{
 				id: "7291A77099CE5DEF"
 				item: "gtceu:red_mud_bucket"
@@ -288,7 +288,7 @@
 		{
 			dependencies: ["27E122BB40B8033B"]
 			id: "7E7D5E681C498055"
-			subtitle: "铝元素提取"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest23.subtitle}"
 			tasks: [{
 				id: "270C7721F12B81FA"
 				item: "gtceu:pure_aluminium_hydroxide_solution_bucket"
@@ -300,7 +300,7 @@
 		{
 			dependencies: ["7E7D5E681C498055"]
 			id: "4E3F96D91F921735"
-			subtitle: "在电力高炉内熔炼成氧化铝"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest24.subtitle}"
 			tasks: [{
 				id: "6208BF50F1AA52FF"
 				item: "gtceu:aluminium_hydroxide_dust"
@@ -768,7 +768,7 @@
 		}
 		{
 			id: "211AA05F2154A9FD"
-			subtitle: "如果能获得这个......"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest66.subtitle}"
 			tasks: [{
 				id: "6E9203FCEAA5EE03"
 				item: "kubejs:metallurgical_catalyst"
@@ -793,7 +793,7 @@
 		}
 		{
 			id: "384D3729A3308C4F"
-			subtitle: "可以帮你节省不少步骤"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest68.subtitle}"
 			tasks: [{
 				id: "26B53A05CB0F86A5"
 				item: "kubejs:bauxite_process_catalyst"
@@ -1057,10 +1057,10 @@
 		}
 		{
 			id: "0F974358320FEC16"
-			subtitle: "推荐用富集硅岩"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest91.subtitle}"
 			tasks: [{
 				id: "04D6DF59C6B92247"
-				title: "可以看看硅岩发电"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest91.task.title1}"
 				type: "checkmark"
 			}]
 			x: 34.0d
@@ -1087,7 +1087,7 @@
 				"0DA6DBCC41828D80"
 			]
 			id: "1F24CDB4B265DAE8"
-			subtitle: "你想要凯金处理产线吗？"
+			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest93.subtitle}"
 			tasks: [{
 				id: "7E6DA58B61134C92"
 				item: "gtceu:trinium_sulfide_dust"
@@ -1194,5 +1194,5 @@
 			y: 9.5d
 		}
 	]
-	title: "矿物处理"
+	title: "{ftbquests.chapter.177DD3C4E2D1113C.title}"
 }

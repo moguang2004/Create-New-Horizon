@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1E8D7AF132D696EC"
-	group: ""
+	group: "4CD84F8DB1FF8B7E"
 	icon: "gtceu:microchip_processor"
 	id: "1E8D7AF132D696EC"
-	order_index: 14
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -976,5 +976,5 @@
 			y: 12.0d
 		}
 	]
-	title: "电路板全家福"
+	title: "{ftbquests.chapter.1E8D7AF132D696EC.title}"
 }

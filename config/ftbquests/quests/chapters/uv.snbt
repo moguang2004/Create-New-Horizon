@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "uv"
-	group: ""
+	group: "19912BEA87D24FE0"
 	icon: "gtceu:uv_machine_hull"
 	id: "4648FB3FBB9F74B3"
-	order_index: 23
+	order_index: 7
 	quest_links: [
 		{
 			id: "30A476A362D84487"
@@ -87,7 +87,7 @@
 			id: "674C9A48676C71F5"
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "很好的发电机,只消耗超能燃料"
+			subtitle: "{ftbquests.chapter.uv.quest5.subtitle}"
 			tasks: [{
 				id: "45B10996F96EC19D"
 				item: "ctnhcore:naq_reactor_mk1"
@@ -165,7 +165,7 @@
 			id: "7A71908F8897D99E"
 			tasks: [{
 				id: "474F6A8335C66DF3"
-				title: "老生常谈，建议做一个"
+				title: "{ftbquests.chapter.uv.quest11.task.title1}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -177,10 +177,10 @@
 				"619F43DB0B07651E"
 			]
 			id: "628F4826B5F6AC41"
-			subtitle: "亦或是催化剂？"
+			subtitle: "{ftbquests.chapter.uv.quest12.subtitle}"
 			tasks: [{
 				id: "3BBE2FA962B1B2F2"
-				title: "更好的等离子燃料"
+				title: "{ftbquests.chapter.uv.quest12.task.title1}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -304,7 +304,7 @@
 		{
 			dependencies: ["4E5E3B834FAA8C67"]
 			id: "62C818606820AC3A"
-			subtitle: "UHV阶段可以处理"
+			subtitle: "{ftbquests.chapter.uv.quest23.subtitle}"
 			tasks: [{
 				id: "65A07E985B66B699"
 				item: "gtceu:dr_bedrock_gas_re_bucket"
@@ -376,7 +376,7 @@
 				"21768F83603146C0"
 			]
 			id: "6286B016F7A21B39"
-			subtitle: "你需要衰变罐"
+			subtitle: "{ftbquests.chapter.uv.quest29.subtitle}"
 			tasks: [{
 				id: "15A68F85CEBA29F9"
 				item: "gtceu:radioactive_metal_ingot_ingot"
@@ -434,9 +434,9 @@
 				"49E9D581D9A44DCF"
 				"239256DEE547E22D"
 			]
-			description: ["你也可以拿来发电"]
+			description: ["{ftbquests.chapter.uv.quest34.description1}"]
 			id: "331F72B7D40A7538"
-			subtitle: "等离子冷凝来加速产出以太的产出速率"
+			subtitle: "{ftbquests.chapter.uv.quest34.subtitle}"
 			tasks: [{
 				id: "040D2994DEAAE849"
 				item: "gtceu:aether_plasma_bucket"
@@ -461,7 +461,7 @@
 			id: "7F81295FE18741A6"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "UEV的主要材料"
+			subtitle: "{ftbquests.chapter.uv.quest36.subtitle}"
 			tasks: [{
 				id: "6505A75DAEE23A90"
 				item: "gtceu:aether_ingot"
@@ -472,7 +472,7 @@
 		}
 		{
 			id: "21768F83603146C0"
-			subtitle: "加速放射性物质的衰变"
+			subtitle: "{ftbquests.chapter.uv.quest37.subtitle}"
 			tasks: [{
 				id: "045B63C91F2AB7C5"
 				item: "gtceu:decay_pools_machine"
@@ -486,7 +486,7 @@
 			id: "1BC96CF2C5DB3D12"
 			shape: "circle"
 			size: 2.0d
-			subtitle: "准备好，它可是你在UHV-UEV主要的磁化材料"
+			subtitle: "{ftbquests.chapter.uv.quest38.subtitle}"
 			tasks: [{
 				id: "3DFC72E59BBA99F7"
 				item: "gtceu:samarium_dysprosium_terbium_permanent_magnet_alloy_ingot"
@@ -499,7 +499,7 @@
 			id: "2F06653DB4F277D8"
 			tasks: [{
 				id: "29984565570288D2"
-				title: "基岩处理③"
+				title: "{ftbquests.chapter.uv.quest39.task.title1}"
 				type: "checkmark"
 			}]
 			x: 14.5d
@@ -510,7 +510,7 @@
 			id: "2DBA5445319926BE"
 			shape: "circle"
 			size: 2.0d
-			subtitle: "还没锗线，所以你搓不了（"
+			subtitle: "{ftbquests.chapter.uv.quest40.subtitle}"
 			tasks: [{
 				id: "25A8BD7CF4103101"
 				item: "gtceu:abyssalalloy_ingot"
@@ -524,7 +524,7 @@
 			id: "0C5E045DBD9D132E"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "新的线圈！"
+			subtitle: "{ftbquests.chapter.uv.quest41.subtitle}"
 			tasks: [{
 				id: "7FDBB66A6463D160"
 				item: "ctnhcore:abyssalalloy_coil_block"
@@ -534,5 +534,5 @@
 			y: -2.0d
 		}
 	]
-	title: "&3UV&r时期"
+	title: "{ftbquests.chapter.uv.title}"
 }

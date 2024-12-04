@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "313A123C6979D02B"
-	group: ""
+	group: "71414D2BDE140EDA"
 	icon: "ratatouille:thresher"
 	id: "313A123C6979D02B"
-	order_index: 26
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -68,7 +68,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "啃玉米"
+			subtitle: "{ftbquests.chapter.313A123C6979D02B.quest3.subtitle}"
 			tasks: [{
 				id: "0EFC33E436114A34"
 				item: "culturaldelights:corn_cob"
@@ -102,7 +102,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "开始和面！"
+			subtitle: "{ftbquests.chapter.313A123C6979D02B.quest5.subtitle}"
 			tasks: [{
 				id: "6F73693B91CEAF56"
 				item: "create:wheat_flour"
@@ -128,10 +128,10 @@
 						value: "forge:dough"
 					}
 				}
-				title: "软软的圆圆的白白的"
+				title: "{ftbquests.chapter.313A123C6979D02B.quest6.task.title1}"
 				type: "item"
 			}]
-			title: "揉一揉！搓一搓！"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest6.title}"
 			x: -1.0d
 			y: -2.5d
 		}
@@ -143,7 +143,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "The cake is a lie ！！！But &ehappy birthday&r！！！"
+			subtitle: "{ftbquests.chapter.313A123C6979D02B.quest7.subtitle}"
 			tasks: [{
 				id: "572D19AAB14773BB"
 				item: "minecraft:cake"
@@ -269,7 +269,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "&m扭一扭，泡一泡，你是我的好玩伴&r"
+			subtitle: "{ftbquests.chapter.313A123C6979D02B.quest13.subtitle}"
 			tasks: [{
 				id: "133D02BFB4FAA88A"
 				item: "createcafe:oreo"
@@ -380,7 +380,7 @@
 				item: "ratatouille:thresher"
 				type: "item"
 			}]
-			title: "精加工！"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest19.title}"
 			x: 3.5d
 			y: -1.0d
 		}
@@ -423,7 +423,7 @@
 					type: "item"
 				}
 			]
-			title: "&ePOPCORN！"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest21.title}"
 			x: 6.523809523809497d
 			y: 3.559523809523803d
 		}
@@ -515,13 +515,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "简单一撮盐，清水白煮蛋，世间美味"
+			subtitle: "{ftbquests.chapter.313A123C6979D02B.quest27.subtitle}"
 			tasks: [{
 				id: "520FA83192676B63"
 				item: "createdelight:vermicelli"
 				type: "item"
 			}]
-			title: "美味的挂面"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest27.title}"
 			x: -6.0d
 			y: -0.5d
 		}
@@ -554,7 +554,7 @@
 				item: "casualness_delight:beef_noodles"
 				type: "item"
 			}]
-			title: "正宗~安徽~牛又~板面喽~"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest29.title}"
 			x: -7.5d
 			y: -2.5d
 		}
@@ -692,7 +692,7 @@
 					type: "item"
 				}
 			]
-			title: "可~带劲了！"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest36.title}"
 			x: 0.5d
 			y: -4.0d
 		}
@@ -704,7 +704,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "可以吃派了！！"
+			subtitle: "{ftbquests.chapter.313A123C6979D02B.quest37.subtitle}"
 			tasks: [{
 				id: "4FF7C9D269627CC2"
 				item: "farmersdelight:pie_crust"
@@ -726,7 +726,7 @@
 				item: "casualness_delight:stargazy_pie"
 				type: "item"
 			}]
-			title: "&e死不瞑目"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest38.title}"
 			x: -6.5d
 			y: 3.0d
 		}
@@ -750,7 +750,7 @@
 					type: "item"
 				}
 			]
-			title: "浆果芝士派！"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest39.title}"
 			x: -8.5d
 			y: 2.0d
 		}
@@ -903,7 +903,7 @@
 					type: "item"
 				}
 			]
-			title: "挞！挞！挞！"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest47.title}"
 			x: -7.5d
 			y: 3.5d
 		}
@@ -938,7 +938,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "巧克力的主要成分"
+			subtitle: "{ftbquests.chapter.313A123C6979D02B.quest49.subtitle}"
 			tasks: [
 				{
 					id: "1AAB9D66CE12192C"
@@ -1083,10 +1083,10 @@
 						value: "forge:bars/chocolate"
 					}
 				}
-				title: "任意巧克力"
+				title: "{ftbquests.chapter.313A123C6979D02B.quest54.task.title1}"
 				type: "item"
 			}]
-			title: "朱古力！"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest54.title}"
 			x: 14.0d
 			y: -1.0d
 		}
@@ -1257,10 +1257,10 @@
 						value: "forge:cookie_dough"
 					}
 				}
-				title: "Any #forge:cookie_dough"
+				title: "{ftbquests.chapter.313A123C6979D02B.quest64.task.title1}"
 				type: "item"
 			}]
-			title: "曲奇面团"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest64.title}"
 			x: -1.0d
 			y: 0.5d
 		}
@@ -1275,7 +1275,7 @@
 			}]
 			tasks: [{
 				id: "7CF660B45B157431"
-				title: "曲奇小人~"
+				title: "{ftbquests.chapter.313A123C6979D02B.quest65.task.title1}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -1369,7 +1369,7 @@
 					type: "item"
 				}
 			]
-			title: "&e曲奇收藏家！"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest67.title}"
 			x: 0.5d
 			y: 3.5d
 		}
@@ -1406,7 +1406,7 @@
 			}]
 			tasks: [{
 				id: "4ED45D2BAC221002"
-				title: "野生玉米！"
+				title: "{ftbquests.chapter.313A123C6979D02B.quest69.task.title1}"
 				type: "custom"
 			}]
 			x: 3.0d
@@ -1528,20 +1528,20 @@
 				"1FC0F9A8F53A97AF"
 				"6E548E73843D4F9A"
 			]
-			description: ["使用脱模机进行脱模(&4不用抹油!&r)"]
+			description: ["{ftbquests.chapter.313A123C6979D02B.quest77.description1}"]
 			id: "5F28D0293B01B5D3"
 			rewards: [{
 				id: "747914B0093CC820"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "一定一定记得抹油(bushi)"
+			subtitle: "{ftbquests.chapter.313A123C6979D02B.quest77.subtitle}"
 			tasks: [{
 				id: "1B6AA25756ABF0E1"
 				item: "ratatouille:chocolate_mold_solid"
 				type: "item"
 			}]
-			title: "脱模！"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest77.title}"
 			x: 12.5d
 			y: -1.0d
 		}
@@ -1563,7 +1563,7 @@
 			]
 			shape: "square"
 			size: 3.0d
-			subtitle: "这龙息不会有毒吧？穿山甲？"
+			subtitle: "{ftbquests.chapter.313A123C6979D02B.quest78.subtitle}"
 			tasks: [
 				{
 					id: "59190E9B6A440C34"
@@ -1581,7 +1581,7 @@
 					type: "item"
 				}
 			]
-			title: "&e龙的力量！"
+			title: "{ftbquests.chapter.313A123C6979D02B.quest78.title}"
 			x: 11.809523809523789d
 			y: -3.3690476190476275d
 		}
@@ -1613,5 +1613,5 @@
 			y: 0.5d
 		}
 	]
-	title: "&e精加工！"
+	title: "{ftbquests.chapter.313A123C6979D02B.title}"
 }

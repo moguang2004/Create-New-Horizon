@@ -5,13 +5,13 @@
 	group: ""
 	icon: "tetra:basic_workbench"
 	id: "1C74C871FF8892C6"
-	order_index: 6
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["72A10FB317A6D183"]
 			id: "2FB20A6A0C2938F4"
-			subtitle: "拿它右键工作台就可以将工作台转化为Tetra模组中组装DIY工具的加工台"
+			subtitle: "{ftbquests.chapter.tetra.quest1.subtitle}"
 			tasks: [{
 				id: "46BCB9EA2BAF39F7"
 				item: {
@@ -30,7 +30,7 @@
 				}
 				type: "item"
 			}]
-			title: "Tetra的开始"
+			title: "{ftbquests.chapter.tetra.quest1.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -38,22 +38,22 @@
 			dependencies: ["2FB20A6A0C2938F4"]
 			icon: "tetra:basic_workbench"
 			id: "3BF72E41C1203551"
-			subtitle: "已经在木锤的任务里告诉你了"
+			subtitle: "{ftbquests.chapter.tetra.quest2.subtitle}"
 			tasks: [{
 				id: "5356F6870A086F6E"
-				title: "我是加工台"
+				title: "{ftbquests.chapter.tetra.quest2.task.title1}"
 				type: "checkmark"
 			}]
-			title: "加工台"
+			title: "{ftbquests.chapter.tetra.quest2.title}"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			id: "72A10FB317A6D183"
-			subtitle: "用两个木棍和两个木板制作一个木锤。制作并摆放一个原版工作台。用木锤右击工作台，将其升级为 Tetra 的加工台。制作一个原版武器、工具、盾牌或弓弩，并将其放置在加工台上。"
+			subtitle: "{ftbquests.chapter.tetra.quest3.subtitle}"
 			tasks: [{
 				id: "56E8A1453A1ED100"
-				title: "开始你的Tetra之旅"
+				title: "{ftbquests.chapter.tetra.quest3.task.title1}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -62,7 +62,7 @@
 		{
 			dependencies: ["3BF72E41C1203551"]
 			id: "6B4CCB317BD73826"
-			subtitle: "放在加工台上用锤子砸"
+			subtitle: "{ftbquests.chapter.tetra.quest4.subtitle}"
 			tasks: [{
 				id: "04588F49E37FD29B"
 				item: "tetra:geode"
@@ -115,10 +115,10 @@
 		}
 		{
 			id: "2332D134B96A8627"
-			subtitle: "当然普通的宝石也是可以的"
+			subtitle: "{ftbquests.chapter.tetra.quest8.subtitle}"
 			tasks: [{
 				id: "5B8A5BDECFF3AC38"
-				title: "这种无瑕宝石能镶嵌在你的tetra工具上"
+				title: "{ftbquests.chapter.tetra.quest8.task.title1}"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -130,7 +130,7 @@
 				"1574C6C4E9FE38DF"
 			]
 			id: "60B34B3BFFC955B6"
-			subtitle: "制作高级锤子用到的材料需要用低级锤子加工，所以需要准备两个锤子。左脚踩右脚..."
+			subtitle: "{ftbquests.chapter.tetra.quest9.subtitle}"
 			tasks: [{
 				id: "56E4A8C2B91AA611"
 				item: "minecraft:oak_planks"
@@ -184,12 +184,12 @@
 			y: 0.0d
 		}
 		{
-			description: ["比如2个木头锤头能让木锤变为1级，两个圆石锤头能变2级，两个铁锤头能变3级，两个黑石锤头能变4级,以次类推."]
+			description: ["{ftbquests.chapter.tetra.quest14.description1}"]
 			id: "1574C6C4E9FE38DF"
-			subtitle: "当双头工具一样时会提升一个工具等级"
+			subtitle: "{ftbquests.chapter.tetra.quest14.subtitle}"
 			tasks: [{
 				id: "382D915F144FE191"
-				title: "注意"
+				title: "{ftbquests.chapter.tetra.quest14.task.title1}"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -202,12 +202,12 @@
 				"4EFA9FA6A94ED6FC"
 			]
 			description: [
-				"更加先进的加工台和锤子."
-				"如果你想把它带回家，则需要3级精准采集的黑石锤子"
+				"{ftbquests.chapter.tetra.quest15.description1}"
+				"{ftbquests.chapter.tetra.quest15.description2}"
 			]
 			icon: "tetra:hammer_base"
 			id: "0957E307997B3D33"
-			subtitle: "在黑石锤和黑曜石锤之间的5级锤"
+			subtitle: "{ftbquests.chapter.tetra.quest15.subtitle}"
 			tasks: [
 				{
 					id: "66AA92B75E0E3B8F"
@@ -220,7 +220,7 @@
 					type: "item"
 				}
 			]
-			title: "锻造遗迹"
+			title: "{ftbquests.chapter.tetra.quest15.title}"
 			x: 15.0d
 			y: 0.0d
 		}
@@ -315,10 +315,10 @@
 				}
 			}
 			id: "3301606D1F925E64"
-			subtitle: "他可以看任何材料的数值"
+			subtitle: "{ftbquests.chapter.tetra.quest23.subtitle}"
 			tasks: [{
 				id: "09F47605F12B8E47"
-				title: "全息球"
+				title: "{ftbquests.chapter.tetra.quest23.task.title1}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -328,7 +328,7 @@
 			id: "3B75FECDA06E51FB"
 			tasks: [{
 				id: "093FA5E8A350EED8"
-				title: "全息球的升级"
+				title: "{ftbquests.chapter.tetra.quest24.task.title1}"
 				type: "checkmark"
 			}]
 			x: 14.0d
@@ -355,7 +355,7 @@
 			id: "56951FE92E2C9DF9"
 			tasks: [{
 				id: "2090486C507A670F"
-				title: "下界合金锤?"
+				title: "{ftbquests.chapter.tetra.quest26.task.title1}"
 				type: "checkmark"
 			}]
 			x: 20.0d
@@ -363,9 +363,9 @@
 		}
 		{
 			dependencies: ["3BF72E41C1203551"]
-			description: ["可以自行DIY他的功能"]
+			description: ["{ftbquests.chapter.tetra.quest27.description1}"]
 			id: "2D7FE3BAA95EA7A4"
-			subtitle: "一种挺好的腰带？"
+			subtitle: "{ftbquests.chapter.tetra.quest27.subtitle}"
 			tasks: [{
 				id: "64D26D52517FB199"
 				item: {
@@ -396,5 +396,5 @@
 			y: -9.0d
 		}
 	]
-	title: "Tetra工具"
+	title: "{ftbquests.chapter.tetra.title}"
 }

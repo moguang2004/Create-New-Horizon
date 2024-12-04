@@ -16,7 +16,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "544D7F95370F9235"
-			subtitle: "更好的合成液态橡胶了，不是吗？"
+			subtitle: "{ftbquests.chapter.lv.quest1.subtitle}"
 			tasks: [{
 				id: "7E3FAB1FDA39411F"
 				item: "gtceu:lv_chemical_reactor"
@@ -28,7 +28,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "504A762FE1057233"
-			subtitle: "节省材料和你的肝硬化程度"
+			subtitle: "{ftbquests.chapter.lv.quest2.subtitle}"
 			tasks: [{
 				id: "261F23C630F0BE7D"
 				item: "gtceu:lv_assembler"
@@ -40,7 +40,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "7CF628053F84B8D1"
-			subtitle: "节省材料的一大杀器"
+			subtitle: "{ftbquests.chapter.lv.quest3.subtitle}"
 			tasks: [{
 				id: "42A166BE2D478A86"
 				item: "gtceu:lv_wiremill"
@@ -52,7 +52,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "488C0AB8EA50DA87"
-			subtitle: "节省材料的第二大杀器"
+			subtitle: "{ftbquests.chapter.lv.quest4.subtitle}"
 			tasks: [{
 				id: "12B0799B1FBAD7BE"
 				item: "gtceu:lv_bender"
@@ -64,7 +64,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "0E1BB5886DEF4D25"
-			subtitle: "节省材料的第三大大杀器！"
+			subtitle: "{ftbquests.chapter.lv.quest5.subtitle}"
 			tasks: [{
 				id: "58A17D825D598E67"
 				item: "gtceu:lv_lathe"
@@ -82,7 +82,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "在短时间内，你会大量使用这个机器"
+			subtitle: "{ftbquests.chapter.lv.quest6.subtitle}"
 			tasks: [{
 				id: "253644418A2DE8E0"
 				item: "gtceu:lv_circuit_assembler"
@@ -105,7 +105,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "1A9FAC89EC982D6D"
-			subtitle: "你可以拿它来获取胶水"
+			subtitle: "{ftbquests.chapter.lv.quest8.subtitle}"
 			tasks: [{
 				id: "57D12F560EA433EB"
 				item: "gtceu:lv_centrifuge"
@@ -216,7 +216,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "MV电路（手搓版）"
+			subtitle: "{ftbquests.chapter.lv.quest15.subtitle}"
 			tasks: [{
 				id: "3D3B26CBE9800D76"
 				item: "gtceu:good_electronic_circuit"
@@ -252,7 +252,7 @@
 				"4487EDC96DB1390B"
 				"7345F277E135E5B9"
 			]
-			description: ["    这将是你第一次使用“双仓升压”的机制，当你使用两个LV能源仓供能时，由于&a一个LV能源仓可以接收2A的LV电&r，两个一起用就可以达到&a4ALV，也就是1AMV的电流&r，此时就可以&a实现MV电压配方&r的制作，这种多方块结构利用多个能源仓升压的机制将会是之后经常使用到的机制"]
+			description: ["{ftbquests.chapter.lv.quest18.description1}"]
 			icon: "gtceu:electric_blast_furnace"
 			id: "19869FD9D4BCCB9F"
 			rewards: [{
@@ -308,7 +308,7 @@
 					type: "item"
 				}
 			]
-			title: "电力高炉"
+			title: "{ftbquests.chapter.lv.quest18.title}"
 			x: 7.5d
 			y: 2.0d
 		}
@@ -326,7 +326,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "MV时代的主要材料"
+			subtitle: "{ftbquests.chapter.lv.quest19.subtitle}"
 			tasks: [{
 				id: "7133886D9DB3ED04"
 				item: "gtceu:aluminium_ingot"
@@ -374,7 +374,7 @@
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
 			id: "1F7CA0731CCA907A"
-			subtitle: "产铝和氟的好帮手"
+			subtitle: "{ftbquests.chapter.lv.quest23.subtitle}"
 			tasks: [{
 				id: "0EE186D66FCC7F58"
 				item: "gtceu:cryolite_dust"
@@ -411,7 +411,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "概率！"
+			subtitle: "{ftbquests.chapter.lv.quest25.subtitle}"
 			tasks: [{
 				id: "54DDAA9635F9C248"
 				item: "gtceu:exquisite_diamond_gem"
@@ -434,7 +434,7 @@
 				id: "0EFF9DC2EB4DEAD5"
 				type: "dimension"
 			}]
-			title: "造访暮色森林"
+			title: "{ftbquests.chapter.lv.quest26.title}"
 			x: 7.5d
 			y: -2.5d
 		}
@@ -443,7 +443,7 @@
 			id: "650D2382EDB169AF"
 			tasks: [{
 				id: "5B563F8EAA478BB2"
-				title: "更节约的电路板制作"
+				title: "{ftbquests.chapter.lv.quest27.task.title1}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -454,7 +454,7 @@
 			id: "33F6C50D00358090"
 			tasks: [{
 				id: "38E5240DB6FDA26D"
-				title: "更高级（HV级）的电路板制作"
+				title: "{ftbquests.chapter.lv.quest28.task.title1}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -469,7 +469,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "此后重要的电路板原料"
+			subtitle: "{ftbquests.chapter.lv.quest29.subtitle}"
 			tasks: [{
 				id: "6C9C6FAC41714B6E"
 				item: "gtceu:silicon_boule"
@@ -480,23 +480,23 @@
 		}
 		{
 			description: [
-				"    在格雷科技中，用电安全尤为重要，否则会引起严重的后果（指爆炸），造成人员和财产的损失。所以这里需要普及几个概念，首先是功率，单位为EU/t，其次是电流，单位为A，最后是电压，单位为EU/t/A，但是我们常常用1A每t的EU值代指电压，如LV电压（即32EU/t/A）。"
-				"    存在用电危险的情况主要发生于将用电器与导线连接之时，必须时刻注意：&4不要尝试将高电压的导线连接于低电压的机器上&r，这样做不一定会爆炸，但一定会存在隐患。在导线连接发电机时，&4尽量避免使导线的额定电压小于发电机动力仓的电压，或是导线的额定电流小于动力仓的最大输出电流。&r"
-				"    只要时刻保障以上几点，基本上可以避免大部分的危机。"
+				"{ftbquests.chapter.lv.quest30.description1}"
+				"{ftbquests.chapter.lv.quest30.description2}"
+				"{ftbquests.chapter.lv.quest30.description3}"
 			]
 			id: "7FC7714BD50388EC"
 			tasks: [{
 				id: "7D464D8C24E2F3AF"
-				title: "用电安全"
+				title: "{ftbquests.chapter.lv.quest30.task.title1}"
 				type: "checkmark"
 			}]
-			title: "格雷小课堂：用电安全"
+			title: "{ftbquests.chapter.lv.quest30.title}"
 			x: -6.5d
 			y: 0.5d
 		}
 		{
-			dependencies: ["79D60B601C349798"]
-			description: ["更快的炼钢，记得安排上较好的输入总线和输出总线(LV级）"]
+			dependencies: ["41E48BCAEAD9D47E"]
+			description: ["{ftbquests.chapter.lv.quest31.description1}"]
 			id: "15ED273EAE156E49"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -504,11 +504,11 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "更快地炼钢"
+			subtitle: "{ftbquests.chapter.lv.quest31.subtitle}"
 			tasks: [
 				{
 					id: "28B4B5B5A143CB87"
-					item: "ctnhcore:industrial_primitive_blast_furnace"
+					item: "gtceu:industrial_primitive_blast_furnace"
 					type: "item"
 				}
 				{
@@ -550,9 +550,9 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
-			description: ["你会做的,对吧"]
+			description: ["{ftbquests.chapter.lv.quest32.description1}"]
 			id: "38EA7D1DD910DBF5"
-			subtitle: "大型蒸汽合金炉更能满足你对速度的需求！"
+			subtitle: "{ftbquests.chapter.lv.quest32.subtitle}"
 			tasks: [{
 				id: "716ECE6F74511EC0"
 				item: "gtceu:lv_alloy_smelter"
@@ -564,7 +564,7 @@
 		{
 			dependencies: ["4917074451DC7A27"]
 			id: "39E54D32FF4C6CAF"
-			subtitle: "这会是你前期的物品传输好帮手"
+			subtitle: "{ftbquests.chapter.lv.quest33.subtitle}"
 			tasks: [{
 				id: "015416DBE1A33261"
 				item: "enderio:item_conduit"
@@ -595,7 +595,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "用这个可以直接发电"
+			subtitle: "{ftbquests.chapter.lv.quest35.subtitle}"
 			tasks: [
 				{
 					id: "6E7479AFB1BFFAA5"
@@ -634,7 +634,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["闪锌副产"]
+			description: ["{ftbquests.chapter.lv.quest36.description1}"]
 			id: "0F5DE5970F41E7B3"
 			tasks: [{
 				id: "0620DEC582086F00"
@@ -645,9 +645,9 @@
 			y: 5.0d
 		}
 		{
-			description: ["砷粉你不必使用雄黄来获取，试试辉钴矿在高炉里的配方吧！"]
+			description: ["{ftbquests.chapter.lv.quest37.description1}"]
 			id: "471F881828CFF6A6"
-			subtitle: "辉钴矿粉在高炉中反应可以得到三氧化二砷和氧化钴"
+			subtitle: "{ftbquests.chapter.lv.quest37.subtitle}"
 			tasks: [{
 				id: "058016E76E3EEE36"
 				item: "gtceu:arsenic_dust"
@@ -657,9 +657,9 @@
 			y: 5.0d
 		}
 		{
-			description: ["你会用到的"]
+			description: ["{ftbquests.chapter.lv.quest38.description1}"]
 			id: "694839D0D1DCEF9A"
-			subtitle: "多看看他们的处理方式"
+			subtitle: "{ftbquests.chapter.lv.quest38.subtitle}"
 			tasks: [
 				{
 					id: "20F48C51E90DF26B"
@@ -672,21 +672,21 @@
 					type: "item"
 				}
 			]
-			title: "让你更加方便获取镓和砷的方法"
+			title: "{ftbquests.chapter.lv.quest38.title}"
 			x: 9.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
-			description: ["应力使它变的强大"]
+			description: ["{ftbquests.chapter.lv.quest39.description1}"]
 			id: "13FE0DE58BECC609"
-			subtitle: "让5s的配方变成2.5s"
+			subtitle: "{ftbquests.chapter.lv.quest39.subtitle}"
 			tasks: [{
 				id: "2721F12A855EDEF3"
 				item: "gtceu:lv_kinetic_mixer"
 				type: "item"
 			}]
-			title: "更快的搅拌机"
+			title: "{ftbquests.chapter.lv.quest39.title}"
 			x: 6.0d
 			y: -1.0d
 		}
@@ -731,7 +731,7 @@
 		{
 			dependencies: ["2304A186EDD07CE0"]
 			id: "58E94DF9B0FE8012"
-			subtitle: "LV超导"
+			subtitle: "{ftbquests.chapter.lv.quest43.subtitle}"
 			tasks: [{
 				id: "06FD3C65BAAD729D"
 				item: "gtceu:conductive_alloy_single_wire"
@@ -757,7 +757,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "要先去推植物魔法"
+			subtitle: "{ftbquests.chapter.lv.quest44.subtitle}"
 			tasks: [{
 				id: "621BD7226FA2140E"
 				item: "kubejs:mana_electronic_circuit"
@@ -780,7 +780,7 @@
 		{
 			dependencies: ["64FAD8ABEFEF6286"]
 			id: "51175A3A3FCAE14C"
-			subtitle: "MV超导"
+			subtitle: "{ftbquests.chapter.lv.quest46.subtitle}"
 			tasks: [{
 				id: "73ECACAFEEA8918C"
 				item: "gtceu:energetic_alloy_single_wire"
@@ -927,7 +927,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "这玩意要建就多建一些"
+			subtitle: "{ftbquests.chapter.lv.quest58.subtitle}"
 			tasks: [{
 				id: "598FCB84BB66BF6E"
 				item: "ctnhcore:wind_power_array"
@@ -939,7 +939,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "21CD0FCABBCFB765"
-			subtitle: "我觉得你不太会做小的电熔炉"
+			subtitle: "{ftbquests.chapter.lv.quest59.subtitle}"
 			tasks: [{
 				id: "5452B5E481EB9ABD"
 				item: "gtceu:large_steel_furnaces"
@@ -951,7 +951,7 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "4B7A35D369A217E2"
-			subtitle: "我觉得你不太会做小的合金炉"
+			subtitle: "{ftbquests.chapter.lv.quest60.subtitle}"
 			tasks: [{
 				id: "6DA1C9E5D81DBECB"
 				item: "gtceu:large_steel_alloy_furnace"
@@ -960,22 +960,7 @@
 			x: 3.0d
 			y: 2.0d
 		}
-		{
-			dependencies: ["504A762FE1057233"]
-			description: ["九合一青春版"]
-			id: "6FE708CED56870AA"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "这个真的快"
-			tasks: [{
-				id: "11CBB5569D584A09"
-				item: "ctnhcore:sweat_shop"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.0d
-		}
 	]
-	subtitle: ["工业起步"]
-	title: "&7LV&r时期"
+	subtitle: ["{ftbquests.chapter.lv.subtitle}"]
+	title: "{ftbquests.chapter.lv.title}"
 }

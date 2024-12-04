@@ -7,7 +7,7 @@
 	group: ""
 	icon: "mynethersdelight:plate_of_stuffed_hoglin_snout"
 	id: "7ACE1E386AC2C04C"
-	order_index: 29
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,7 +17,7 @@
 				item: "kubejs:gold_certificate"
 				type: "item"
 			}]
-			title: "开启第四章"
+			title: "{ftbquests.chapter.7ACE1E386AC2C04C.quest1.title}"
 			x: -7.0d
 			y: 0.0d
 		}
@@ -29,16 +29,16 @@
 				item: "kubejs:diamond_certificate"
 				type: "item"
 			}]
-			title: "开启第五章"
+			title: "{ftbquests.chapter.7ACE1E386AC2C04C.quest2.title}"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["48FB1CDFA05A0952"]
 			description: [
-				"需要注意，凡家物语的村民不会主动寻找工作方块"
-				"必须右键->互动->位置->工作区域"
-				"以此绑定工作方块。"
+				"{ftbquests.chapter.7ACE1E386AC2C04C.quest3.description1}"
+				"{ftbquests.chapter.7ACE1E386AC2C04C.quest3.description2}"
+				"{ftbquests.chapter.7ACE1E386AC2C04C.quest3.description3}"
 			]
 			id: "1A6EF6F0BB3E7CCA"
 			tasks: [{
@@ -46,7 +46,7 @@
 				item: "minecraft:brewing_stand"
 				type: "item"
 			}]
-			title: "向牧师购买异界的作物和动物！"
+			title: "{ftbquests.chapter.7ACE1E386AC2C04C.quest3.title}"
 			x: -4.5d
 			y: 0.0d
 		}
@@ -239,9 +239,9 @@
 		}
 		{
 			dependencies: ["1A6EF6F0BB3E7CCA"]
-			description: ["必须种在末地石上。"]
+			description: ["{ftbquests.chapter.7ACE1E386AC2C04C.quest15.description1}"]
 			id: "7FD23CED49D4BB44"
-			subtitle: "可以用骨粉增生。"
+			subtitle: "{ftbquests.chapter.7ACE1E386AC2C04C.quest15.subtitle}"
 			tasks: [{
 				id: "43CD63380FA09476"
 				item: "ends_delight:chorus_succulent"
@@ -253,7 +253,7 @@
 		{
 			dependencies: ["1A6EF6F0BB3E7CCA"]
 			id: "211C5F04BC6406CC"
-			subtitle: "需要用小刀收割辣椒。"
+			subtitle: "{ftbquests.chapter.7ACE1E386AC2C04C.quest16.subtitle}"
 			tasks: [{
 				id: "5EC35C05A78073DC"
 				item: "mynethersdelight:powder_cannon"
@@ -265,11 +265,11 @@
 		{
 			dependencies: ["1A6EF6F0BB3E7CCA"]
 			description: [
-				"通过魔改，疣猪兽在主世界不会僵尸化。"
-				"但是在非和平模式下，疣猪兽还是会打人的，而且很痛。"
+				"{ftbquests.chapter.7ACE1E386AC2C04C.quest17.description1}"
+				"{ftbquests.chapter.7ACE1E386AC2C04C.quest17.description2}"
 			]
 			id: "6C97F67F98FE0D7F"
-			subtitle: "使用绯红菌繁殖。"
+			subtitle: "{ftbquests.chapter.7ACE1E386AC2C04C.quest17.subtitle}"
 			tasks: [{
 				id: "74EE7D97150CB543"
 				item: "minecraft:hoglin_spawn_egg"
@@ -281,11 +281,11 @@
 		{
 			dependencies: ["1A6EF6F0BB3E7CCA"]
 			description: [
-				"炽足兽会受到水的伤害。"
-				"因此，如果你的炽足兽养殖场位于会下雨的群系，记得封顶。"
+				"{ftbquests.chapter.7ACE1E386AC2C04C.quest18.description1}"
+				"{ftbquests.chapter.7ACE1E386AC2C04C.quest18.description2}"
 			]
 			id: "3ED9E79A063CCBD8"
-			subtitle: "使用诡异菌繁殖。"
+			subtitle: "{ftbquests.chapter.7ACE1E386AC2C04C.quest18.subtitle}"
 			tasks: [{
 				id: "1FA85B4A6D44D732"
 				item: "minecraft:strider_spawn_egg"
@@ -450,7 +450,7 @@
 		{
 			dependencies: ["211C5F04BC6406CC"]
 			id: "21C0DF6FB1E39E6B"
-			subtitle: "烟药竹长成后，小刀右键收割爆弹椒"
+			subtitle: "{ftbquests.chapter.7ACE1E386AC2C04C.quest28.subtitle}"
 			tasks: [{
 				id: "125BD522CD722D4C"
 				item: "mynethersdelight:bullet_pepper"
@@ -462,7 +462,7 @@
 		{
 			dependencies: ["21C0DF6FB1E39E6B"]
 			id: "03A4B5CC37A2B7C6"
-			subtitle: "爆弹椒砧板上切成烈焰粉"
+			subtitle: "{ftbquests.chapter.7ACE1E386AC2C04C.quest29.subtitle}"
 			tasks: [{
 				id: "2FB71FADDA0D8DF7"
 				item: "minecraft:blaze_powder"
@@ -474,7 +474,7 @@
 		{
 			dependencies: ["03A4B5CC37A2B7C6"]
 			id: "7905263655EF3C3E"
-			subtitle: "烈焰粉压制成烈焰棒"
+			subtitle: "{ftbquests.chapter.7ACE1E386AC2C04C.quest30.subtitle}"
 			tasks: [{
 				id: "50CDFA2139A1B2FA"
 				item: "minecraft:blaze_rod"
@@ -512,5 +512,5 @@
 			y: 1.5d
 		}
 	]
-	title: "第四章：异界美味"
+	title: "{ftbquests.chapter.7ACE1E386AC2C04C.title}"
 }

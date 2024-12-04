@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "028AB66FF504A9BC"
-	group: ""
+	group: "4CD84F8DB1FF8B7E"
 	icon: "gtceu:electric_blast_furnace"
 	id: "028AB66FF504A9BC"
-	order_index: 17
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -133,7 +133,7 @@
 			id: "144A09EC75B60D68"
 			tasks: [{
 				id: "0341C2EDA12C3D1A"
-				title: "蒸汽时代"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest12.task.title1}"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -154,7 +154,7 @@
 			id: "1B7439F730B988EF"
 			tasks: [{
 				id: "4385F4CD3CE54571"
-				title: "LV时期"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest14.task.title1}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -165,7 +165,7 @@
 			id: "0724FC12031BCA34"
 			tasks: [{
 				id: "4423B177953A7E45"
-				item: "ctnhcore:industrial_primitive_blast_furnace"
+				item: "gtceu:industrial_primitive_blast_furnace"
 				type: "item"
 			}]
 			x: -0.5d
@@ -218,7 +218,7 @@
 		{
 			dependencies: ["144A09EC75B60D68"]
 			id: "6A45C4808C875299"
-			subtitle: "没用"
+			subtitle: "{ftbquests.chapter.028AB66FF504A9BC.quest20.subtitle}"
 			tasks: [{
 				id: "4E659FB98E288D81"
 				item: "gtceu:charcoal_pile_igniter"
@@ -232,7 +232,7 @@
 			id: "725E945382ADA450"
 			tasks: [{
 				id: "74A6866294BDD634"
-				item: "ctnhcore:meadow"
+				item: "gtceu:meadow"
 				type: "item"
 			}]
 			x: -16.0d
@@ -242,7 +242,7 @@
 			id: "03CF3E3907C153E0"
 			tasks: [{
 				id: "5F11DC70504FBF29"
-				title: "动力时代"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest22.task.title1}"
 				type: "checkmark"
 			}]
 			x: -16.0d
@@ -318,7 +318,7 @@
 			id: "18C1668BA11D77A8"
 			tasks: [{
 				id: "76C87089D1F759EE"
-				title: "MV时代"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest29.task.title1}"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -405,7 +405,7 @@
 			id: "7CEA462990546334"
 			tasks: [{
 				id: "25932D90AF96A40B"
-				title: "HV时代"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest37.task.title1}"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -438,7 +438,7 @@
 			id: "3CF2CEAA24C4E56E"
 			tasks: [{
 				id: "116CC93699E3D3D7"
-				item: "ctnhcore:fermenting_tank"
+				item: "gtceu:fermenting_tank"
 				type: "item"
 			}]
 			x: 8.0d
@@ -449,7 +449,7 @@
 			id: "3FD1AAB09C522599"
 			tasks: [{
 				id: "4B062F37E4989EE2"
-				item: "ctnhcore:digestion_tank"
+				item: "gtceu:digestion_tank"
 				type: "item"
 			}]
 			x: 12.0d
@@ -547,7 +547,7 @@
 			id: "5F1BD456BFB49435"
 			tasks: [{
 				id: "29E078FC94CBD4DB"
-				title: "EV时代"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest50.task.title1}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -591,7 +591,7 @@
 			id: "4EC066F913BE135C"
 			tasks: [{
 				id: "259295ADEFF4E21B"
-				item: "ctnhcore:large_fermenting_tank"
+				item: "gtceu:large_fermenting_tank"
 				type: "item"
 			}]
 			x: -0.5d
@@ -624,7 +624,7 @@
 			id: "7CB8AB8CC6294AD0"
 			tasks: [{
 				id: "560E3C08434D6083"
-				item: "ctnhcore:blaze_blast_furnace"
+				item: "gtceu:blaze_blast_furnace"
 				type: "item"
 			}]
 			x: 1.5d
@@ -643,10 +643,10 @@
 		}
 		{
 			id: "3FAC0EBCE35BE621"
-			subtitle: "巨量的大机器！"
+			subtitle: "{ftbquests.chapter.028AB66FF504A9BC.quest59.subtitle}"
 			tasks: [{
 				id: "4E88437462C0FCAE"
-				title: "IV时代"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest59.task.title1}"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -943,5 +943,5 @@
 			y: 25.0d
 		}
 	]
-	title: "多方块结构"
+	title: "{ftbquests.chapter.028AB66FF504A9BC.title}"
 }

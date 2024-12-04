@@ -16,5 +16,5 @@
 		{ count: 4, item: "bakery:bread_with_jam" }
 		{ count: 4, item: "bakery:grilled_bacon_sandwich" }
 	]
-	title: "LV奖励"
+	title: "{ftbquests.loot_table.title1}"
 }

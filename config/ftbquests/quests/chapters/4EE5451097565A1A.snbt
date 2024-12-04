@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "4EE5451097565A1A"
-	group: ""
+	group: "71414D2BDE140EDA"
 	icon: "gtceu:neutronium_credit"
 	id: "4EE5451097565A1A"
-	order_index: 8
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -19,12 +19,12 @@
 				elevate_perms: true
 				icon: "minecraft:iron_ingot"
 				id: "2E9EFC15A51DD85A"
-				title: "获取铁锭进口清单"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest1.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "2F57CE68FB752EF4"
-				title: "铁锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest1.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -41,12 +41,12 @@
 				elevate_perms: true
 				icon: "minecraft:copper_ingot"
 				id: "78E99FE894D1D315"
-				title: "获取铜锭进口清单"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest2.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "6697A33D7EF89AC1"
-				title: "铜锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest2.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -63,12 +63,12 @@
 				elevate_perms: true
 				icon: "minecraft:gold_ingot"
 				id: "4FC82A09C2AEE1D8"
-				title: "获取金锭进口清单"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest3.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "288E72B28FBE1C95"
-				title: "金锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest3.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -85,12 +85,12 @@
 				elevate_perms: true
 				icon: "gtceu:tin_ingot"
 				id: "70708B2BF697E27A"
-				title: "获取锡锭进口清单"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest4.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "4DA6D68FE7F68FFC"
-				title: "锡锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest4.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -107,12 +107,12 @@
 				elevate_perms: true
 				icon: "gtceu:zinc_ingot"
 				id: "56A801E383F3F2F0"
-				title: "获取锌锭进口清单"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest5.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "10A6845657D139F7"
-				title: "锌锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest5.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -129,12 +129,12 @@
 				elevate_perms: true
 				icon: "minecraft:ender_pearl"
 				id: "206247FCD42EA645"
-				title: "末影珍珠"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest6.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "58B069BDAAEA2AF7"
-				title: "末影珍珠"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest6.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -151,12 +151,12 @@
 				elevate_perms: true
 				icon: "gtceu:wrought_iron_ingot"
 				id: "666D6EFEBAF48D70"
-				title: "锻铁锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest7.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "69CF2D0D3FD64B97"
-				title: "锻铁锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest7.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -173,12 +173,12 @@
 				elevate_perms: true
 				icon: "minecraft:redstone"
 				id: "18BDBC8320A45766"
-				title: "红石"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest8.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "7E5B4FBDD76E3820"
-				title: "红石"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest8.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -186,6 +186,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["1162E347E7C00175"]
 			icon: "gtceu:steel_ingot"
 			id: "232568A83855DB3F"
 			rewards: [{
@@ -194,12 +195,12 @@
 				elevate_perms: true
 				icon: "gtceu:steel_ingot"
 				id: "35E93981060C5CAF"
-				title: "钢锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest9.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "55AA53054D84BD16"
-				title: "钢锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest9.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -207,6 +208,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["6D9003172EF921C9"]
 			icon: "gtceu:andesite_alloy_ingot"
 			id: "21EAC6922F7AD1D3"
 			rewards: [{
@@ -215,12 +217,12 @@
 				elevate_perms: true
 				icon: "gtceu:andesite_alloy_ingot"
 				id: "283EB62DE35352D5"
-				title: "安山合金锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest10.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "7A5A97AB1BB3689E"
-				title: "安山合金锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest10.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -228,6 +230,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["700219157D99E263"]
 			icon: "gtceu:bronze_ingot"
 			id: "7F5291B0CD3AFA62"
 			rewards: [{
@@ -236,12 +239,12 @@
 				elevate_perms: true
 				icon: "gtceu:bronze_ingot"
 				id: "4454AEABA5988E05"
-				title: "青铜锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest11.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "2DA9B3A0BBAD0259"
-				title: "青铜锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest11.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -249,6 +252,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["700219157D99E263"]
 			icon: "gtceu:brass_ingot"
 			id: "0950C79A6AAC4B8A"
 			rewards: [{
@@ -257,12 +261,12 @@
 				elevate_perms: true
 				icon: "gtceu:brass_ingot"
 				id: "57B6DD330EAC015E"
-				title: "黄铜锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest12.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "49241705B9BBA45E"
-				title: "黄铜锭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest12.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -270,6 +274,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["7E591C0E7278D12F"]
 			icon: "gtceu:treated_wood_planks"
 			id: "587F5DD7CFFEBD6C"
 			rewards: [{
@@ -278,12 +283,12 @@
 				elevate_perms: true
 				icon: "gtceu:treated_wood_planks"
 				id: "4F27C83FC51A9B5F"
-				title: "防腐木板"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest13.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "41077F5E87BD109D"
-				title: "防腐木板"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest13.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -291,6 +296,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["6FDDD78D3F1CD965"]
 			icon: "gtceu:coke_gem"
 			id: "07221568FA9F69B4"
 			rewards: [{
@@ -299,12 +305,12 @@
 				elevate_perms: true
 				icon: "gtceu:coke_gem"
 				id: "763E6AC1F358378B"
-				title: "焦煤"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest14.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "5700F7FB552F9273"
-				title: "焦煤"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest14.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -321,12 +327,12 @@
 				elevate_perms: true
 				icon: "minecraft:diamond"
 				id: "410F2BE3773F3293"
-				title: "钻石"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest15.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "7CCD6181C62D45E7"
-				title: "钻石"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest15.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -343,12 +349,12 @@
 				elevate_perms: true
 				icon: "minecraft:coal"
 				id: "0102924B42DD66B9"
-				title: "煤炭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest16.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "0517C478A5A52099"
-				title: "煤炭"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest16.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -365,12 +371,12 @@
 				elevate_perms: true
 				icon: "botania:rune_water"
 				id: "775EDE035BFDD52F"
-				title: "水之符文"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest17.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "607BD27AEF3590CA"
-				title: "水之符文"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest17.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -387,12 +393,12 @@
 				elevate_perms: true
 				icon: "botania:rune_fire"
 				id: "0CC80426C24AC393"
-				title: "火之符文"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest18.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "28452AEF89217804"
-				title: "火之符文"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest18.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -409,12 +415,12 @@
 				elevate_perms: true
 				icon: "botania:rune_earth"
 				id: "3DC636D43D453438"
-				title: "地之符文"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest19.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "48402B8A57B25694"
-				title: "地之符文"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest19.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -431,66 +437,17 @@
 				elevate_perms: true
 				icon: "botania:rune_air"
 				id: "569650102B343070"
-				title: "风之符文"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest20.reward.title1}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "6C391EC8C667D5DC"
-				title: "风之符文"
+				title: "{ftbquests.chapter.4EE5451097565A1A.quest20.task.title1}"
 				type: "checkmark"
 			}]
 			x: -4.0d
 			y: 10.5d
 		}
-		{
-			description: ["    当完成一个标记任务之后，会自动给你一个该物品的“进货清单”，使用此清单就可以在一个购买机里用货币不断换取对应物品。（对应物品的清单只可在该任务页面换取，不可合成）"]
-			id: "5C473AF6636D2D32"
-			tasks: [{
-				id: "568646AEFBC65CF0"
-				title: "使用须知"
-				type: "checkmark"
-			}]
-			x: -9.0d
-			y: -3.0d
-		}
-		{
-			id: "348ECD9B91536A8F"
-			tasks: [
-				{
-					id: "347F728BF1391A7B"
-					item: "jackseconomy:importer"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7781ED3B2FE98CAA"
-					item: "jackseconomy:mechanical_importer"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: -1.5d
-		}
-		{
-			id: "1A71927DA2692D34"
-			tasks: [
-				{
-					id: "18CFA4A6FB83B4EA"
-					item: "jackseconomy:exporter"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "53CD7DA019E1BE02"
-					item: "jackseconomy:mechanical_exporter"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -9.0d
-			y: 0.0d
-		}
 	]
-	title: "小市场"
+	title: "{ftbquests.chapter.4EE5451097565A1A.title}"
 }

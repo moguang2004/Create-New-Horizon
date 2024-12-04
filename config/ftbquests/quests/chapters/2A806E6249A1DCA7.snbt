@@ -6,7 +6,7 @@
 	group: ""
 	icon: "fruitsdelight:pineapple"
 	id: "2A806E6249A1DCA7"
-	order_index: 30
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -18,21 +18,21 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "果栈丰盈"
+			subtitle: "{ftbquests.chapter.2A806E6249A1DCA7.quest1.subtitle}"
 			tasks: [{
 				id: "024FD0EC5D519DB8"
-				title: "果栈丰盈"
+				title: "{ftbquests.chapter.2A806E6249A1DCA7.quest1.task.title1}"
 				type: "checkmark"
 			}]
-			title: "超多超多水果"
+			title: "{ftbquests.chapter.2A806E6249A1DCA7.quest1.title}"
 			x: -5.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"破坏苹果树叶有几率获得。苹果树自然生成于&e森林与繁花森林群系&r。"
-				"在&4秋季&r收获。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest2.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest2.description2}"
 			]
 			id: "43D20AFE4D13389F"
 			rewards: [{
@@ -51,9 +51,9 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"食用后恢复饥饿值3点（）和饱和度1点（）。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest3.description1}"
 				""
-				"是烹饪冰糖雪梨、梨汁、梨子果酱和烤梨的原料之一。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest3.description2}"
 			]
 			id: "60A76054159A37F7"
 			rewards: [{
@@ -72,8 +72,8 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"破坏山楂树叶有几率获得。山楂树自然生成于&e针叶林、原始云杉针叶林和原始松木针叶林群系&r。"
-				"在&4冬季&r收获。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest4.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest4.description2}"
 			]
 			id: "0063494FD35EF1DE"
 			rewards: [{
@@ -92,8 +92,8 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"破坏芒果树叶有几率获得。芒果树自然生成于&e丛林和竹林群系&r。"
-				"在&4夏季&r收获。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest5.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest5.description2}"
 			]
 			id: "1F65F7E3A19CA174"
 			rewards: [{
@@ -112,8 +112,8 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"破坏柿子树叶有几率获得。柿子树自然生成于&e积雪的针叶林和雪林群系&r。"
-				"在&4冬季&r收获。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest6.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest6.description2}"
 			]
 			id: "3848C15C02538184"
 			rewards: [{
@@ -132,8 +132,8 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"破坏水蜜桃树叶有几率获得。水蜜桃树自然生成于&e稀疏的丛林群系&r。"
-				"在&4春季&r收获。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest7.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest7.description2}"
 			]
 			id: "07886F18ABB7C8D1"
 			rewards: [{
@@ -152,8 +152,8 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"破坏橘子树叶有几率获得。橘子树自然生成于&e森林和繁花森林群系&r。"
-				"在&4秋季&r收获。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest8.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest8.description2}"
 			]
 			id: "7EE6074FA3805A00"
 			rewards: [{
@@ -172,8 +172,8 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"破坏山竹树叶有几率获得。山竹树自然生成于&e丛林、沼泽和红树林沼泽群系&r。"
-				"在&4夏季&r收获。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest9.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest9.description2}"
 			]
 			id: "1CD404F45F375D7E"
 			rewards: [{
@@ -192,8 +192,8 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"蔓越莓丛自然生成于&e丛林、沼泽、红树林沼泽和黑森林群系&r。"
-				"在&4秋季&r收获"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest10.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest10.description2}"
 			]
 			id: "25C77A4F65494D2A"
 			rewards: [{
@@ -212,11 +212,11 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"自然生成于&e针叶林、原始云杉针叶林、原始松木针叶林、积雪的针叶林、雪林、沼泽、红树林沼泽、风袭丘陵、风袭森林群系&r。"
-				"可用骨粉催熟结果。结果后右击获得若干蓝莓。"
-				"附有精准采集的工具可采集本体。"
-				"也可用蓝莓直接在地面或耕地种植，有三个生长阶段。"
-				"在&4春季&r收获。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest11.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest11.description2}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest11.description3}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest11.description4}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest11.description5}"
 			]
 			id: "0127B9E281D268BF"
 			rewards: [{
@@ -235,8 +235,8 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"自然生成于&e沙漠群系&r，破坏后获得若干哈密瓜片。"
-				"在&4夏季&r收获"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest12.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest12.description2}"
 			]
 			id: "2532FCB37BA9E159"
 			rewards: [{
@@ -271,10 +271,10 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"自然生成于&e沙滩群系&r，破坏后获得一个菠萝。"
-				"不可直接食用。别想了，不能喂狼"
-				"是烹饪菠萝饭的原料之一。"
-				"在&4夏季&r收获"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest14.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest14.description2}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest14.description3}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest14.description4}"
 			]
 			id: "59A6B34D8607FD6A"
 			rewards: [{
@@ -293,9 +293,9 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"自然生成于&e平原群系&r，可用骨粉对其催熟结果。结果后右击获得若干黄柠檬。"
-				"破坏后无掉落物。附有精准采集的工具可采集本体。"
-				"在&4夏季&r收获。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest15.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest15.description2}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest15.description3}"
 			]
 			id: "0D00E629D80816CF"
 			rewards: [{
@@ -314,8 +314,8 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"破坏荔枝树叶有几率获得。荔枝树自然生成于&e丛林和竹林群系&r。"
-				"在&4夏季&r收获。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest16.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest16.description2}"
 			]
 			id: "6CB6E1848E1C721A"
 			rewards: [{
@@ -350,11 +350,11 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"利用糖、黄柠檬片和若干对应水果，在厨锅中进行烹煮获得。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest18.description1}"
 				""
-				"食用后恢复饥饿值6点和饱和度3点，并获得对应Buff效果。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest18.description2}"
 				""
-				"任何果酱均可与面包、果丹皮、芒果合成果酱面包、果丹卷和生拌芒果，同时保留原材料果酱的Buff效果。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest18.description3}"
 			]
 			id: "58B030E19968924C"
 			rewards: [{
@@ -371,16 +371,16 @@
 						value: "fruitsdelight:jelly"
 					}
 				}
-				title: "任意果酱"
+				title: "{ftbquests.chapter.2A806E6249A1DCA7.quest18.task.title1}"
 				type: "item"
 			}]
-			title: "果酱"
+			title: "{ftbquests.chapter.2A806E6249A1DCA7.quest18.title}"
 			x: -2.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
-			description: ["将果酱放在加热的炼药锅（下面放热源方块）内，用粘液球点击将其转化为对应的果冻"]
+			description: ["{ftbquests.chapter.2A806E6249A1DCA7.quest19.description1}"]
 			id: "077CC191544E19C9"
 			rewards: [{
 				id: "46587BE46FA97934"
@@ -396,7 +396,7 @@
 						value: "fruitsdelight:jello"
 					}
 				}
-				title: "任意果冻~"
+				title: "{ftbquests.chapter.2A806E6249A1DCA7.quest19.task.title1}"
 				type: "item"
 			}]
 			x: -2.0d
@@ -405,8 +405,8 @@
 		{
 			dependencies: ["08FD4AD67AD3D19E"]
 			description: [
-				"不可直接食用。如同铁砧一样会受到重力影响。"
-				"有三种生长阶段，到达第三阶段时会从树叶上掉落。若撞击到了生物，则生物会受到伤害。"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest20.description1}"
+				"{ftbquests.chapter.2A806E6249A1DCA7.quest20.description2}"
 			]
 			id: "1C4EA0FC584EFC28"
 			rewards: [{
@@ -414,7 +414,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "非常非常非常难找"
+			subtitle: "{ftbquests.chapter.2A806E6249A1DCA7.quest20.subtitle}"
 			tasks: [{
 				id: "29B15EDEB93F3CCC"
 				item: "fruitsdelight:durian"
@@ -436,7 +436,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "68F7E59CF979626E"
-				title: "实在找不到榴莲可以看这里"
+				title: "{ftbquests.chapter.2A806E6249A1DCA7.quest21.task.title1}"
 				type: "checkmark"
 			}]
 			x: -10.0d
@@ -459,7 +459,7 @@
 						value: "fruitsdelight:juice"
 					}
 				}
-				title: "任意果汁"
+				title: "{ftbquests.chapter.2A806E6249A1DCA7.quest22.task.title1}"
 				type: "item"
 			}]
 			x: -2.0d
@@ -495,7 +495,7 @@
 					type: "item"
 				}
 			]
-			title: "美味曲奇！"
+			title: "{ftbquests.chapter.2A806E6249A1DCA7.quest23.title}"
 			x: -2.0d
 			y: -3.0d
 		}
@@ -516,7 +516,7 @@
 			}]
 			tasks: [{
 				id: "2E7F84CC4BF594E3"
-				title: "任意果酱面包"
+				title: "{ftbquests.chapter.2A806E6249A1DCA7.quest24.task.title1}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -533,7 +533,7 @@
 			}]
 			tasks: [{
 				id: "0F48545B224D5A97"
-				title: "任意果冻块"
+				title: "{ftbquests.chapter.2A806E6249A1DCA7.quest25.task.title1}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -972,5 +972,5 @@
 			y: -2.0d
 		}
 	]
-	title: "&e水果大亨"
+	title: "{ftbquests.chapter.2A806E6249A1DCA7.title}"
 }

@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "luv"
-	group: ""
+	group: "19912BEA87D24FE0"
 	icon: "gtceu:luv_machine_hull"
 	id: "42952A10FFCE402D"
-	order_index: 19
+	order_index: 5
 	quest_links: [
 		{
 			id: "2D8E067BA5CDB23A"
@@ -47,7 +47,7 @@
 			id: "0DA6DBCC41828D80"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "你已经达到LUV啦！"
+			subtitle: "{ftbquests.chapter.luv.quest1.subtitle}"
 			tasks: [{
 				id: "2AB09D6B46C98218"
 				item: "gtceu:luv_machine_hull"
@@ -138,10 +138,10 @@
 			dependencies: ["006528E474CE82DE"]
 			icon: "gtceu:large_circuit_assembler"
 			id: "55B8C88C78AFF283"
-			subtitle: "给大电路组装换个LUV能源仓"
+			subtitle: "{ftbquests.chapter.luv.quest9.subtitle}"
 			tasks: [{
 				id: "536DA5ED8AFE8329"
-				title: "LUV电路组装机"
+				title: "{ftbquests.chapter.luv.quest9.task.title1}"
 				type: "checkmark"
 			}]
 			x: -26.5d
@@ -211,7 +211,7 @@
 		{
 			dependencies: ["34820874A85286FC"]
 			id: "019F2136970CA2E1"
-			subtitle: "第一个UV电路！"
+			subtitle: "{ftbquests.chapter.luv.quest15.subtitle}"
 			tasks: [{
 				id: "4DBEF1F18227075A"
 				item: "gtceu:crystal_processor_mainframe"
@@ -226,7 +226,7 @@
 				"48DD8F1CA4521491"
 			]
 			id: "14C08D2A44860C08"
-			subtitle: "该给大机器们升压了"
+			subtitle: "{ftbquests.chapter.luv.quest16.subtitle}"
 			tasks: [{
 				id: "2E07CD045DAB8CC0"
 				item: "gtceu:luv_energy_input_hatch"
@@ -240,7 +240,7 @@
 			id: "422A69585A4BD605"
 			tasks: [{
 				id: "1037307307EFD46D"
-				title: "组装机也要升压，但在这之前你还要做个小的"
+				title: "{ftbquests.chapter.luv.quest17.task.title1}"
 				type: "checkmark"
 			}]
 			x: -16.0d
@@ -297,13 +297,13 @@
 				"14C08D2A44860C08"
 			]
 			id: "174B639A9AAA2B4C"
-			subtitle: "中间那一层的聚变方块可以换成聚变玻璃"
+			subtitle: "{ftbquests.chapter.luv.quest21.subtitle}"
 			tasks: [{
 				id: "64DF7150FCA7AA06"
 				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]
-			title: "聚变时代"
+			title: "{ftbquests.chapter.luv.quest21.title}"
 			x: -8.5d
 			y: -3.5d
 		}
@@ -311,7 +311,7 @@
 			id: "3F84B7E91E4A1926"
 			tasks: [{
 				id: "04239D81911F91D2"
-				title: "输入输出仓可以任意等级"
+				title: "{ftbquests.chapter.luv.quest22.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -355,7 +355,7 @@
 		{
 			dependencies: ["47D1E2F257A78CC8"]
 			id: "2C5AAAE7171632CA"
-			subtitle: "ZPM超导"
+			subtitle: "{ftbquests.chapter.luv.quest26.subtitle}"
 			tasks: [{
 				id: "6698C7007931B007"
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
@@ -367,7 +367,7 @@
 		{
 			dependencies: ["73A9B8C2B2142E54"]
 			id: "637D202FC567B932"
-			subtitle: "输出算力，记得整除算力最高的摆法"
+			subtitle: "{ftbquests.chapter.luv.quest27.subtitle}"
 			tasks: [{
 				id: "3C7C6EF260BFFAEE"
 				item: "gtceu:high_performance_computation_array"
@@ -393,9 +393,9 @@
 				"1B08CB9E24BDF006"
 			]
 			dependency_requirement: "one_completed"
-			description: ["ZPM需要大量的铕，所以你必须搭起你的稀土产线"]
+			description: ["{ftbquests.chapter.luv.quest29.description1}"]
 			id: "355ACD2C8F4E6257"
-			subtitle: "最慢的产铕方式"
+			subtitle: "{ftbquests.chapter.luv.quest29.subtitle}"
 			tasks: [{
 				id: "749D46EA3EC36EA1"
 				item: "gtceu:europium_ingot"
@@ -410,7 +410,7 @@
 				"355ACD2C8F4E6257"
 			]
 			id: "2ED0A22CE5AE310C"
-			subtitle: "UV时代的超导"
+			subtitle: "{ftbquests.chapter.luv.quest30.subtitle}"
 			tasks: [{
 				id: "29CC53D5854D570D"
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
@@ -426,7 +426,7 @@
 				"4B85DFF240A03E9E"
 			]
 			id: "6B61A32A2688A834"
-			subtitle: "不仅无损超频，而且还可以无电压功率上限"
+			subtitle: "{ftbquests.chapter.luv.quest31.subtitle}"
 			tasks: [{
 				id: "1A30057D21C7EEB0"
 				item: "ctnhcore:luv_compressed_fusion_reactor"
@@ -439,7 +439,7 @@
 			id: "4B85DFF240A03E9E"
 			tasks: [{
 				id: "0CDFE2699DE3122A"
-				title: "可以用并行仓，建议做一个"
+				title: "{ftbquests.chapter.luv.quest32.task.title1}"
 				type: "checkmark"
 			}]
 			x: -8.5d
@@ -451,7 +451,7 @@
 				"48DD8F1CA4521491"
 			]
 			id: "4BA59C23FB4625B9"
-			subtitle: "升级你的发电"
+			subtitle: "{ftbquests.chapter.luv.quest33.subtitle}"
 			tasks: [{
 				id: "7D568142383C1846"
 				item: "gtceu:luv_energy_output_hatch"
@@ -473,10 +473,10 @@
 		}
 		{
 			id: "006528E474CE82DE"
-			subtitle: "所以多来几条装配线吧）"
+			subtitle: "{ftbquests.chapter.luv.quest35.subtitle}"
 			tasks: [{
 				id: "769EA6C19BD809A8"
-				title: "注意，从LUV开始部分电路需要装配线制作"
+				title: "{ftbquests.chapter.luv.quest35.task.title1}"
 				type: "checkmark"
 			}]
 			x: -25.0d
@@ -485,7 +485,7 @@
 		{
 			dependencies: ["4BA59C23FB4625B9"]
 			id: "4089D6C868A2D08A"
-			subtitle: "他可以承包你在LUV-ZPM时期的发电"
+			subtitle: "{ftbquests.chapter.luv.quest36.subtitle}"
 			tasks: [{
 				id: "1D67A2915C631403"
 				item: "gtceu:plasma_large_turbine"
@@ -509,7 +509,7 @@
 			id: "2E045E885DAC322B"
 			tasks: [{
 				id: "592C93A84EBA755B"
-				title: "你要开始制作萃取剂了！"
+				title: "{ftbquests.chapter.luv.quest38.task.title1}"
 				type: "checkmark"
 			}]
 			x: -25.0d
@@ -653,7 +653,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "42CDDB06AA6D0A68"
-			subtitle: "终点"
+			subtitle: "{ftbquests.chapter.luv.quest50.subtitle}"
 			tasks: [{
 				id: "51EFF9533E43EB0B"
 				item: "gtceu:p507_extractant_bucket"
@@ -664,12 +664,12 @@
 		}
 		{
 			dependencies: ["17292FB8D4DD36BA"]
-			description: ["而且无线能源仓越造越便宜！"]
+			description: ["{ftbquests.chapter.luv.quest51.description1}"]
 			icon: "gtmthings:luv_2a_wireless_energy_input_hatch"
 			id: "227C6AEB777B7E14"
 			tasks: [{
 				id: "0E554503F61713BB"
-				title: "从LUV开始，你可以使用无线能源仓啦！"
+				title: "{ftbquests.chapter.luv.quest51.task.title1}"
 				type: "checkmark"
 			}]
 			x: -16.0d
@@ -687,5 +687,5 @@
 			y: -6.5d
 		}
 	]
-	title: "&dLuV&r时期"
+	title: "{ftbquests.chapter.luv.title}"
 }

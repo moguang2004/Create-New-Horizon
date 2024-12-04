@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "uhv"
-	group: ""
+	group: "19912BEA87D24FE0"
 	icon: "gtceu:uhv_machine_hull"
 	id: "3AF23E79C8470AB1"
-	order_index: 25
+	order_index: 8
 	quest_links: [
 		{
 			id: "15A84DF0C2ABEFF0"
@@ -26,7 +26,7 @@
 			id: "6D8963683034165D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "恭喜，你玩到了现在的最终阶段"
+			subtitle: "{ftbquests.chapter.uhv.quest1.subtitle}"
 			tasks: [{
 				id: "3BBDFB9C77C2C530"
 				item: "gtceu:uhv_machine_hull"
@@ -127,11 +127,11 @@
 				"7DED10B400A33933"
 				"4831A750BE325D1A"
 			]
-			description: ["基岩处理的终点"]
+			description: ["{ftbquests.chapter.uhv.quest9.description1}"]
 			id: "0921AD39C8509CE9"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "不是菜鸟证明？"
+			subtitle: "{ftbquests.chapter.uhv.quest9.subtitle}"
 			tasks: [{
 				id: "27C8F2426A80B994"
 				item: "gtceu:boundless_dust"
@@ -157,7 +157,7 @@
 				"18E2A4593690B3D1"
 			]
 			id: "777F1D3EB722D4B7"
-			subtitle: "超好的SOC芯片"
+			subtitle: "{ftbquests.chapter.uhv.quest11.subtitle}"
 			tasks: [{
 				id: "02F0CB1D2A182125"
 				item: "gtceu:highly_advanced_soc_wafer"
@@ -168,10 +168,10 @@
 		}
 		{
 			id: "63A4FC58057C9E7D"
-			subtitle: "真正的终点"
+			subtitle: "{ftbquests.chapter.uhv.quest12.subtitle}"
 			tasks: [{
 				id: "1228D5231465172A"
-				title: "基岩处理④"
+				title: "{ftbquests.chapter.uhv.quest12.task.title1}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -270,7 +270,7 @@
 			id: "6931CCEEE2282117"
 			tasks: [{
 				id: "28F2EC5F159FE317"
-				title: "老朋友们"
+				title: "{ftbquests.chapter.uhv.quest21.task.title1}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -297,11 +297,11 @@
 			}]
 			shape: "square"
 			size: 4.0d
-			subtitle: "不是菜鸟证明！"
-			title: "UHV阶段毕业礼物"
+			subtitle: "{ftbquests.chapter.uhv.quest22.subtitle}"
+			title: "{ftbquests.chapter.uhv.quest22.title}"
 			x: -1.0d
 			y: 9.0d
 		}
 	]
-	title: "&4UHV&r时期"
+	title: "{ftbquests.chapter.uhv.title}"
 }
