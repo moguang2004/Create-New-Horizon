@@ -390,6 +390,12 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:adamantite_ingot')
         .EUt(1920152)
         .duration(150)
+    event.recipes.gtceu.electric_blast_furnace("liquid_platinum")
+        .itemInputs('gtceu:adamantite_dust', 'gtceu:saltpeter_dust')
+        .outputFluids('gtceu:adamantite 144')
+        .blastFurnaceTemp(10800)
+        .EUt(491520)
+        .duration(100)
         
     
         
