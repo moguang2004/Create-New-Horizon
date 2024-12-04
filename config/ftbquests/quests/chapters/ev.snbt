@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ev"
-	group: ""
+	group: "053C322CC5204F23"
 	icon: "gtceu:ev_machine_hull"
 	id: "6729EFF9916E0F53"
-	order_index: 13
+	order_index: 6
 	quest_links: [{
 		id: "244F16AD34351771"
 		linked_quest: "46E271DD7E3544D9"
@@ -401,7 +401,7 @@
 			tasks: [{
 				count: 16L
 				id: "607F1D2AAD371EA0"
-				item: { Count: 16, id: "gtceu:raw_uraninite" }
+				item: "gtceu:raw_uraninite"
 				type: "item"
 			}]
 			x: 6.0d
@@ -931,7 +931,7 @@
 			tasks: [{
 				count: 64L
 				id: "570295622CA11843"
-				item: { Count: 64, id: "gtceu:nuclear_waste_dust" }
+				item: "gtceu:nuclear_waste_dust"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1062,7 +1062,7 @@
 			tasks: [{
 				count: 16L
 				id: "0A720031E493F57D"
-				item: { Count: 16, id: "gtceu:hssg_coil_block" }
+				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
 			x: -10.0d
@@ -1094,7 +1094,7 @@
 			tasks: [{
 				count: 16L
 				id: "56559BA731DD3FAB"
-				item: { Count: 16, id: "gtceu:raw_zircon" }
+				item: "gtceu:raw_zircon"
 				type: "item"
 			}]
 			x: -8.0d
@@ -1233,7 +1233,7 @@
 			id: "702514667DE21D74"
 			tasks: [{
 				id: "32DE4A687636EFC6"
-				item: "gtceu:orange_metal_catalyst_dust"
+				item: "gtnn:orange_metal_catalyst"
 				type: "item"
 			}]
 			x: -11.5d

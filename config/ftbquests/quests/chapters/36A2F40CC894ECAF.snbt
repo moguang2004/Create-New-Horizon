@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "36A2F40CC894ECAF"
-	group: ""
+	group: "2F2BB9E7B166BDF1"
 	icon: "minecraft:zombie_head"
 	id: "36A2F40CC894ECAF"
-	order_index: 15
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

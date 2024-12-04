@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "iv"
-	group: ""
+	group: "053C322CC5204F23"
 	icon: "gtceu:iv_machine_hull"
 	id: "6A50F0290F3D7CC7"
-	order_index: 16
+	order_index: 7
 	quest_links: [
 		{
 			id: "5D162E9699779EE3"

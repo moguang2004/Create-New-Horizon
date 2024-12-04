@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0C47ABD5DF78C460"
-	group: ""
+	group: "0877EB49416BCCF0"
 	icon: "ae2:charged_certus_quartz_crystal"
 	id: "0C47ABD5DF78C460"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

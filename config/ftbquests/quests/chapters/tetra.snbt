@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tetra"
-	group: ""
+	group: "0877EB49416BCCF0"
 	icon: "tetra:basic_workbench"
 	id: "1C74C871FF8892C6"
-	order_index: 6
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

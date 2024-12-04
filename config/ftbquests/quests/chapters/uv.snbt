@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "uv"
-	group: ""
+	group: "053C322CC5204F23"
 	icon: "gtceu:uv_machine_hull"
 	id: "4648FB3FBB9F74B3"
-	order_index: 23
+	order_index: 10
 	quest_links: [
 		{
 			id: "30A476A362D84487"

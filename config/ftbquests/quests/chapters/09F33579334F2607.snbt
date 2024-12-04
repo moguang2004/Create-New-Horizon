@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "09F33579334F2607"
-	group: ""
+	group: "76F63DC58B252B0E"
 	icon: "botania:pure_daisy"
 	id: "09F33579334F2607"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -773,7 +773,7 @@
 				{
 					count: 6L
 					id: "3BBD0E957715C8EB"
-					item: { Count: 6, id: "mythicbotany:rune_holder" }
+					item: "mythicbotany:rune_holder"
 					type: "item"
 				}
 			]

@@ -1,11 +1,12 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "54B797AC4B918CD0"
 	group: ""
 	icon: "cold_sweat:thermometer"
 	id: "54B797AC4B918CD0"
-	order_index: 9
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

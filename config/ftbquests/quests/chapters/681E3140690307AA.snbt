@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:oak_log"
 	id: "681E3140690307AA"
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,7 +31,7 @@
 				Count: 1
 				ForgeCaps: {
 					Parent: {
-						temperature: 24.1f
+						temperature: 17.3f
 					}
 				}
 				id: "legendarysurvivaloverhaul:thermometer"
@@ -141,7 +141,7 @@
 			tasks: [{
 				count: 16L
 				id: "737374C23974ABF8"
-				item: { Count: 16, id: "minecraft:cobblestone" }
+				item: "minecraft:cobblestone"
 				type: "item"
 			}]
 			x: -3.5d
@@ -205,7 +205,7 @@
 			tasks: [{
 				count: 4L
 				id: "2B699EAFD14FE1D7"
-				item: { Count: 4, id: "minecraft:leather" }
+				item: "minecraft:leather"
 				type: "item"
 			}]
 			x: -2.0d
@@ -341,31 +341,31 @@
 				{
 					count: 16L
 					id: "572CAD4F00EDE86F"
-					item: { Count: 16, id: "gtceu:raw_pyrite" }
+					item: "gtceu:raw_pyrite"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "44D72C7C2A7340A3"
-					item: { Count: 16, id: "gtceu:raw_chalcopyrite" }
+					item: "gtceu:raw_chalcopyrite"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "40CB9F4CCC5676E3"
-					item: { Count: 16, id: "gtceu:raw_cassiterite" }
+					item: "gtceu:raw_cassiterite"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "44084C15D291F6BC"
-					item: { Count: 16, id: "minecraft:raw_iron" }
+					item: "minecraft:raw_iron"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "0252284CC227D88B"
-					item: { Count: 16, id: "gtceu:raw_malachite" }
+					item: "gtceu:raw_malachite"
 					type: "item"
 				}
 				{
@@ -388,7 +388,7 @@
 				{
 					count: 16L
 					id: "22D98D01343215B0"
-					item: { Count: 16, id: "minecraft:iron_ingot" }
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 				{

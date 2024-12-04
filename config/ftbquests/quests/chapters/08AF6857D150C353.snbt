@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "08AF6857D150C353"
-	group: "203B37D7B3ACCD4B"
+	group: "0B57409322EA06FB"
 	icon: "kubejs:steel_casing"
 	id: "08AF6857D150C353"
 	order_index: 1
@@ -1027,28 +1027,14 @@
 			shape: "gear"
 			size: 3.0d
 			subtitle: "原始人的第一个巨构"
-			title: "格雷小课堂：用电安全"
-			x: -4.0d
-			y: 11.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["1162E347E7C00175"]
-			id: "0D7E0A6600B1783B"
-			rewards: [{
-				command: "/gamephase add @p nether"
-				elevate_perms: true
-				id: "2793A5582E3F56D1"
-				title: "前往下界"
-				type: "command"
-			}]
 			tasks: [{
-				id: "2C454A9B147379F9"
+				id: "3B3D6E2EACC3192C"
 				item: "gtceu:eye_homo"
 				type: "item"
 			}]
+			title: "武德之眼"
 			x: -11.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3AFD46E811ED67AD"]

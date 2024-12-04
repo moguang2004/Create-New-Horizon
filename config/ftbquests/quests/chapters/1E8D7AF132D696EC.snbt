@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1E8D7AF132D696EC"
-	group: ""
+	group: "053C322CC5204F23"
 	icon: "gtceu:microchip_processor"
 	id: "1E8D7AF132D696EC"
-	order_index: 14
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -708,7 +708,7 @@
 			id: "10FDD39B7290BDB8"
 			tasks: [{
 				id: "36B40146230AC755"
-				item: "kubejs:abyssalalloy_coil_block"
+				item: "ctnhcore:abyssalalloy_coil_block"
 				type: "item"
 			}]
 			x: -11.0d
@@ -719,7 +719,7 @@
 			id: "05044C19A693FD73"
 			tasks: [{
 				id: "1FE60493411E7047"
-				item: "kubejs:titansteel_coil_block"
+				item: "ctnhcore:titansteel_coil_block"
 				type: "item"
 			}]
 			x: -11.0d
@@ -730,7 +730,7 @@
 			id: "370168D6CCE10CCA"
 			tasks: [{
 				id: "682399D4E65D612A"
-				item: "kubejs:pikyonium_coil_block"
+				item: "ctnhcore:pikyonium_coil_block"
 				type: "item"
 			}]
 			x: -11.0d
@@ -741,7 +741,7 @@
 			id: "0FABF6CC70566836"
 			tasks: [{
 				id: "251C849F187308E4"
-				item: "kubejs:black_titanium_coil_block"
+				item: "ctnhcore:black_titanium_coil_block"
 				type: "item"
 			}]
 			x: -11.0d
@@ -752,7 +752,7 @@
 			id: "10C696DEE9A9F179"
 			tasks: [{
 				id: "61645C4DF3BF2EBE"
-				item: "kubejs:starmetal_coil_block"
+				item: "ctnhcore:starmetal_coil_block"
 				type: "item"
 			}]
 			x: -11.0d
@@ -763,7 +763,7 @@
 			id: "79B2585295E4F8E9"
 			tasks: [{
 				id: "27BC3A101EB0F39E"
-				item: "kubejs:infinity_coil_block"
+				item: "ctnhcore:infinity_coil_block"
 				type: "item"
 			}]
 			x: -11.0d

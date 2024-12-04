@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mv"
-	group: "19912BEA87D24FE0"
+	group: "053C322CC5204F23"
 	icon: "gtceu:mv_machine_hull"
 	id: "7647DBDFA1F452A1"
-	order_index: 1
+	order_index: 4
 	quest_links: [
 		{
 			id: "7499099A0B832604"

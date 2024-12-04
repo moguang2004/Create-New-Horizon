@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "2CEAD5605C416218"
-	group: ""
+	group: "0877EB49416BCCF0"
 	icon: "gtceu:oil_medium_bucket"
 	id: "2CEAD5605C416218"
 	order_index: 2
@@ -493,13 +493,13 @@
 				{
 					count: 15L
 					id: "551B0F7DF281A170"
-					item: { Count: 15, id: "gtceu:steel_frame" }
+					item: "gtceu:steel_frame"
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "6F680776B704445A"
-					item: { Count: 9, id: "gtceu:solid_machine_casing" }
+					item: "gtceu:solid_machine_casing"
 					type: "item"
 				}
 				{

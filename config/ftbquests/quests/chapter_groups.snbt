@@ -1,3 +1,9 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "0B57409322EA06FB", title: "齿轮雄心" }
+		{ id: "053C322CC5204F23", title: "科技跃迁" }
+		{ id: "76F63DC58B252B0E", title: "做个科学的魔法师" }
+		{ id: "0877EB49416BCCF0", title: "奇异机巧" }
+		{ id: "2F2BB9E7B166BDF1", title: "远旅同行" }
+	]
 }

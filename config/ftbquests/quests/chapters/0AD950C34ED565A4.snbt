@@ -2,18 +2,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0AD950C34ED565A4"
-	group: ""
+	group: "2F2BB9E7B166BDF1"
 	icon: {
 		Count: 1
 		ForgeCaps: {
 			Parent: {
-				temperature: 25.6f
+				temperature: 25.5f
 			}
 		}
 		id: "legendarysurvivaloverhaul:thermometer"
 	}
 	id: "0AD950C34ED565A4"
-	order_index: 18
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

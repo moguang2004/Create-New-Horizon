@@ -6,7 +6,7 @@
 	group: ""
 	icon: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
 	id: "73C02AD6350A32CA"
-	order_index: 28
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

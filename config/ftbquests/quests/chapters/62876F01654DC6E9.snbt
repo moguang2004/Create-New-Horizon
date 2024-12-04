@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "62876F01654DC6E9"
-	group: ""
+	group: "0877EB49416BCCF0"
 	icon: "buildinggadgets2:gadget_building"
 	id: "62876F01654DC6E9"
 	order_index: 5
@@ -343,7 +343,7 @@
 			tasks: [{
 				count: 4L
 				id: "23CE92086120A374"
-				item: { Count: 4, id: "minecraft:flint" }
+				item: "minecraft:flint"
 				type: "item"
 			}]
 			x: -2.5d
@@ -358,7 +358,7 @@
 				{
 					count: 16L
 					id: "46B4622E08BBBF18"
-					item: { Count: 16, id: "minecraft:iron_ingot" }
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 				{

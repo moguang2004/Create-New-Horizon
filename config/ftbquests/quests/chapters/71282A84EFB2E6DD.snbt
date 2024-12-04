@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "71282A84EFB2E6DD"
-	group: "32DB92B5A6E4493B"
+	group: "76F63DC58B252B0E"
 	icon: "bloodmagic:altar"
 	id: "71282A84EFB2E6DD"
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "201E8191E9CFE196"
@@ -715,7 +715,7 @@
 			description: [
 				"该仪式用于自动将催化剂使用在特定范围内的晶簇上，加速晶簇的生长（具体范围用仪式调整器查看和调整）"
 				"有点用但不多，要结晶快点就用"
-				]
+			]
 			icon: "bloodmagic:upgradetome"
 			id: "48A9F36EEDFFD6A3"
 			subtitle: "不是你想象的那样"
@@ -1028,7 +1028,7 @@
 				"如果想要凋灵刷怪笼，请做出结构锻炉"
 				"结构锻炉的半砖只能在无尽领域的蜘蛛刷怪笼的房间找到"
 				"空两格，在第三格放符文&4"
-				]
+			]
 			icon: "bloodmagic:altar"
 			id: "0379412BFDFE99FE"
 			size: 2.0d
