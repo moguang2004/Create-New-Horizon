@@ -542,6 +542,8 @@
     "ctnh.large_gas_collection_chamber.tooltip.0": "这台机器可以收集任意维度的气体",
     "ctnh.large_gas_collection_chamber.tooltip.1": "由于它的产量较大，建议你用ME输出总成来收集产物",
     "ctnh.large_gas_collection_chamber.tooltip.2": "无损超频",
+    "ctnh.meteor.syphon": "源质消耗：%s",
+    "ctnh.meteor.radius": "直径：%s",
     "large_steel_alloy_furnace": "钢质合金炉",
     "vacuum_sintering_tower": "真空烧结",
     "ion_exchanger": "离子交换",
