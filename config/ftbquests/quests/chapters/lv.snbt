@@ -27,6 +27,7 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
+			description: ["    通过对&l&3&m复仇者&r各种原料进行Assemble来组装物品！好好看看一些元件的配方，用了组装机会使他们制作更简单！"]
 			id: "504A762FE1057233"
 			subtitle: "{ftbquests.chapter.lv.quest2.subtitle}"
 			tasks: [{
@@ -39,6 +40,7 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
+			description: ["    将一锭札成2根导线或8根细导线，不用再担心对材料的浪费了！"]
 			id: "7CF628053F84B8D1"
 			subtitle: "{ftbquests.chapter.lv.quest3.subtitle}"
 			tasks: [{
@@ -51,6 +53,7 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
+			description: ["    将一锭卷成一板，告别火耗！"]
 			id: "488C0AB8EA50DA87"
 			subtitle: "{ftbquests.chapter.lv.quest4.subtitle}"
 			tasks: [{
@@ -63,6 +66,7 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
+			description: ["    将一锭车成2杆，谁还需要傻乎乎的用锉来锉杆？"]
 			id: "0E1BB5886DEF4D25"
 			subtitle: "{ftbquests.chapter.lv.quest5.subtitle}"
 			tasks: [{
@@ -104,8 +108,9 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
+			description: ["    用它可以对含杂粉进行离心处理，或是用它来从树脂中榨取胶水？"]
 			id: "1A9FAC89EC982D6D"
-			subtitle: "{ftbquests.chapter.lv.quest8.subtitle}"
+			subtitle: "离心力，哇奥！"
 			tasks: [{
 				id: "57D12F560EA433EB"
 				item: "gtceu:lv_centrifuge"
@@ -127,6 +132,7 @@
 		}
 		{
 			dependencies: ["250C6C8AF08C21F1"]
+			description: ["    一切LV机器的基础，代表着无穷的可能性。相信你已经准备好了迎接你的新机器伙伴们！"]
 			id: "7AE674329D7E7944"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -134,6 +140,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
+			subtitle: "发挥你天马行空的想象力！"
 			tasks: [{
 				id: "18CD5B920A9A957E"
 				item: "gtceu:lv_machine_hull"
@@ -174,6 +181,7 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
+			description: ["    让粉与粉之间进行亲密的友好接触，从而合体！"]
 			id: "44E9D92283CBF029"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -181,6 +189,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
+			subtitle: "开始打搅！"
 			tasks: [{
 				id: "63C11E1667B97529"
 				item: "gtceu:lv_mixer"
@@ -227,7 +236,9 @@
 		}
 		{
 			dependencies: ["44E9D92283CBF029"]
+			description: ["    毫无疑问，你的电力高炉在加热时要防止自己被热融化掉，所以需要这种耐热合金来做外壳。"]
 			id: "4487EDC96DB1390B"
+			subtitle: "耐烧王"
 			tasks: [{
 				id: "53FB702C104CE0FE"
 				item: "gtceu:invar_dust"
@@ -317,6 +328,7 @@
 				"19869FD9D4BCCB9F"
 				"27BD70B6974D0C78"
 			]
+			description: ["    恭喜你！你已经对格雷的各种电力机器和多方块结构有了最基本的认识，现在你已步入了MV时代！"]
 			id: "11F898C7B0C925D5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -341,7 +353,9 @@
 				"33C79B7B7E49940B"
 				"1F7CA0731CCA907A"
 			]
+			description: ["    下界的缺氧环境让其不易被氧化，你或许能去下界探探运气？"]
 			id: "27BD70B6974D0C78"
+			subtitle: "氧气退散"
 			tasks: [{
 				id: "69DE50A0F6AA3F73"
 				item: "gtceu:aluminium_dust"
@@ -362,7 +376,9 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
+			description: ["    通过强大的电流来劈开化合物间的化学键！但是LV的功能不尽人意，很多配方需要MV以上才能电解。"]
 			id: "33C79B7B7E49940B"
+			subtitle: "化学键，给我断！"
 			tasks: [{
 				id: "7D5FF56D85F70421"
 				item: "gtceu:lv_electrolyzer"
@@ -385,7 +401,9 @@
 		}
 		{
 			dependencies: ["7AE674329D7E7944"]
+			description: ["    筛选机通过浮选方式对纯净矿石进行筛选。也就是说，你还得要洗一下矿！"]
 			id: "4759D176E05E3D8C"
+			subtitle: "能过滤矿渣，过滤不了人渣"
 			tasks: [{
 				id: "5EAEBD2DF3276922"
 				item: "gtceu:lv_sifter"
@@ -508,7 +526,7 @@
 			tasks: [
 				{
 					id: "28B4B5B5A143CB87"
-					item: "gtceu:industrial_primitive_blast_furnace"
+					item: "ctnhcore:industrial_primitive_blast_furnace"
 					type: "item"
 				}
 				{
@@ -634,8 +652,9 @@
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.lv.quest36.description1}"]
+			description: ["    通过对闪锌矿进行副产物处理得知，详细请查阅JEI。"]
 			id: "0F5DE5970F41E7B3"
+			subtitle: "藏在闪锌矿里"
 			tasks: [{
 				id: "0620DEC582086F00"
 				item: "gtceu:gallium_dust"
@@ -669,6 +688,11 @@
 				{
 					id: "4446B9B891B071A2"
 					item: "gtceu:raw_sphalerite"
+					type: "item"
+				}
+				{
+					id: "4A52BBE7B5B43173"
+					item: "gtceu:raw_realgar"
 					type: "item"
 				}
 			]

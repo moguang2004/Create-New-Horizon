@@ -938,7 +938,9 @@
 				"0B8D27D4FAA175B9"
 				"2866385471094DB9"
 			]
+			description: ["    很酷，是吧？造出电路板的你终于可以迈入电力时代，感受科技的魅力吧！"]
 			id: "41E48BCAEAD9D47E"
+			subtitle: "可以用来玩ctnh"
 			tasks: [{
 				id: "4642660A4797E594"
 				item: "gtceu:basic_electronic_circuit"
