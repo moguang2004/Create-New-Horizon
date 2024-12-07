@@ -1,4 +1,5 @@
 {
+  "ftbquests.chapter.title":"欢迎来到CTNH",
   "ftbquests.chapter.028AB66FF504A9BC.quest12.task.title1": "蒸汽时代",
   "ftbquests.chapter.028AB66FF504A9BC.quest14.task.title1": "LV时期",
   "ftbquests.chapter.028AB66FF504A9BC.quest20.subtitle": "没用",
@@ -1314,7 +1315,7 @@
   "ftbquests.chapter.lv.quest6.subtitle": "在短时间内，你会大量使用这个机器",
   "ftbquests.chapter.lv.quest60.subtitle": "我觉得你不太会做小的合金炉",
   "ftbquests.chapter.lv.quest8.subtitle": "你可以拿它来获取胶水",
-  "ftbquests.chapter.lv.subtitle": "{ftbquests.chapter.lv.subtitle}",
+  "ftbquests.chapter.lv.subtitle": "工业起步",
   "ftbquests.chapter.lv.title": "\u00267LV\u0026r时期",
   "ftbquests.chapter.mv.quest12.subtitle": "将来有大用处",
   "ftbquests.chapter.mv.quest13.description1": "乙烯的生产可以来源于生物和石油化工，在本整合包中增强了生物产线，不妨可以尝试一下",
