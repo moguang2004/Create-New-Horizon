@@ -30,8 +30,8 @@
 			id: "21FEA920DE844E5C"
 			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2.subtitle}"
 			tasks: [{
-				id: "5C4F99B24D97D71B"
-				item: "gtceu:mana_generator_turbine_tier1"
+				id: "4878830137B81FDD"
+				item: "ctnhcore:mana_generator_turbine_tier1"
 				type: "item"
 			}]
 			x: 0.0d
@@ -42,7 +42,7 @@
 			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3.subtitle}"
 			tasks: [{
 				id: "565AD9B1D06DA31D"
-				item: "gtceu:mana_generator_turbine_tier2"
+				item: "ctnhcore:mana_generator_turbine_tier2"
 				type: "item"
 			}]
 			x: 0.0d
@@ -53,7 +53,7 @@
 			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4.subtitle}"
 			tasks: [{
 				id: "4398844790CB30FB"
-				item: "gtceu:mana_generator_turbine_tier3"
+				item: "ctnhcore:mana_generator_turbine_tier3"
 				type: "item"
 			}]
 			x: 0.0d
@@ -64,7 +64,7 @@
 			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5.subtitle}"
 			tasks: [{
 				id: "068BD67372FB34AA"
-				item: "gtceu:mana_generator_turbine_tier4"
+				item: "ctnhcore:mana_generator_turbine_tier4"
 				type: "item"
 			}]
 			x: 0.0d
@@ -450,6 +450,16 @@
 			}]
 			x: 6.0d
 			y: 8.5d
+		}
+		{
+			id: "49B4D45640289A0C"
+			tasks: [{
+				id: "58998BC9C2DC022B"
+				item: "ctnhcore:naq_reactor_mk1"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
 		}
 	]
 	title: "{ftbquests.chapter.15B8D9F4A2A19BFA.title}"

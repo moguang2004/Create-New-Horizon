@@ -582,8 +582,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "01B3CABBC2BEDEDC"
-				item: "gtceu:blaze_blast_furnace"
+				id: "156B357D156776E1"
+				item: "ctnhcore:blaze_blast_furnace"
 				type: "item"
 			}]
 			x: 0.0d

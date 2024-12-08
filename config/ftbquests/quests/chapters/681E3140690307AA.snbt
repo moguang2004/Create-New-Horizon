@@ -149,10 +149,7 @@
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
-			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest9.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest9.description2}"
-			]
+			description: [""]
 			id: "611BCC64F1F511AA"
 			optional: true
 			rewards: [

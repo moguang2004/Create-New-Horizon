@@ -491,7 +491,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.lv.quest30.title}"
-			x: -6.5d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
@@ -506,11 +506,6 @@
 			}]
 			subtitle: "{ftbquests.chapter.lv.quest31.subtitle}"
 			tasks: [
-				{
-					id: "28B4B5B5A143CB87"
-					item: "gtceu:industrial_primitive_blast_furnace"
-					type: "item"
-				}
 				{
 					count: 6L
 					id: "0BCE1F8D5D6854D5"
@@ -542,6 +537,11 @@
 				{
 					id: "26681E57D44589BB"
 					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "215968164D40043E"
+					item: "ctnhcore:industrial_primitive_blast_furnace"
 					type: "item"
 				}
 			]
@@ -648,11 +648,18 @@
 			description: ["{ftbquests.chapter.lv.quest37.description1}"]
 			id: "471F881828CFF6A6"
 			subtitle: "{ftbquests.chapter.lv.quest37.subtitle}"
-			tasks: [{
-				id: "058016E76E3EEE36"
-				item: "gtceu:arsenic_dust"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "058016E76E3EEE36"
+					item: "gtceu:arsenic_dust"
+					type: "item"
+				}
+				{
+					id: "3EF6AC6F6CDB1FCE"
+					item: "gtceu:arsenic_trioxide_dust"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 5.0d
 		}
