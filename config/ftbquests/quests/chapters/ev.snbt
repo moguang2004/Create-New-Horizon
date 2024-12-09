@@ -1251,7 +1251,7 @@
 			id: "702514667DE21D74"
 			tasks: [{
 				id: "32DE4A687636EFC6"
-				item: "gtceu:orange_metal_catalyst_dust"
+				item: "gtnn:orange_metal_catalyst"
 				type: "item"
 			}]
 			x: -11.5d
