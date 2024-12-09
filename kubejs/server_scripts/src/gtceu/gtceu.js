@@ -1972,7 +1972,7 @@ ServerEvents.recipes(event => {
     .EUt(491020)
     .duration(3000)
   event.recipes.gtceu.assembly_line('void_miner_create')
-    .itemInputs('gtceu:zpm_machine_hull', '4x gtceu:adamantite_frame', '4x #gtceu:circuits/uv', '4x gtceu:adamantite_gear', '4x gtceu:uv_electric_motor', '4x gtceu:uv_conveyor_module', '4x gtceu:uv_electric_piston', 'gtceu:ev_large_miner', 'gtceu:iv_large_miner', 'gtceu:luv_large_miner')
+    .itemInputs('gtceu:zpm_machine_hull', '4x gtceu:adamantite_frame', '4x #gtceu:circuits/uv', '4x gtceu:adamantite_gear', '4x gtceu:aether_gear', '4x gtceu:uv_electric_motor', '4x gtceu:uv_conveyor_module', '4x gtceu:uv_electric_piston', 'gtceu:ev_large_miner', 'gtceu:iv_large_miner', 'gtceu:luv_large_miner')
     .inputFluids(Fluid.of('gtceu:soldering_alloy', 16000))
     .inputFluids(Fluid.of('gtceu:tungsten', 4000))
     .itemOutputs('ctnhcore:void_miner')

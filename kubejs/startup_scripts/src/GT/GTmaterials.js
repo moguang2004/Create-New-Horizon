@@ -1560,11 +1560,15 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .dust()
         .color(0x046ed7)
         .iconSet(GTMaterialIconSet.LIGNITE)
+    event.create('fefarite_intermediate_body')
+        .liquid()
+        .color(0x28358A)
     event.create('nether_essence_crystal_fluid')
         .liquid()
         .color(0x046ed7)
-        .iconSet(GTMaterialIconSet.LIGNITE)
-
+    event.create('kevlar_stone_growth_liquid')
+        .liquid()
+        .color(0xAAAAAA)
 })
 
 StartupEvents.postInit(event => {

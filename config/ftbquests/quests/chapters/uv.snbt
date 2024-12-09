@@ -533,6 +533,24 @@
 			x: -2.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["7F81295FE18741A6"]
+			description: [
+				"需要交替输入烈焰之炽焱和极寒之凛冰"
+				"且温度在25000K时会强制停机，会消耗大量的极寒之凛冰来降温且没有产物。"
+			]
+			id: "50B3C9E6ECB749A2"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "凭空产生，梦里才会有的东西吧？"
+			tasks: [{
+				id: "5C64C7AB92A674C4"
+				item: "ctnhcore:void_miner"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.0d
+		}
 	]
 	title: "{ftbquests.chapter.uv.title}"
 }

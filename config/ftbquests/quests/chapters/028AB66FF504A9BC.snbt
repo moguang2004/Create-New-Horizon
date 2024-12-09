@@ -164,7 +164,7 @@
 			dependencies: ["1B7439F730B988EF"]
 			id: "0724FC12031BCA34"
 			tasks: [{
-				id: "4423B177953A7E45"
+				id: "1979E3B46C928130"
 				item: "ctnhcore:industrial_primitive_blast_furnace"
 				type: "item"
 			}]
@@ -231,7 +231,7 @@
 			dependencies: ["03CF3E3907C153E0"]
 			id: "725E945382ADA450"
 			tasks: [{
-				id: "74A6866294BDD634"
+				id: "5AC31F1B33C403C1"
 				item: "ctnhcore:meadow"
 				type: "item"
 			}]
@@ -437,7 +437,7 @@
 			dependencies: ["18C1668BA11D77A8"]
 			id: "3CF2CEAA24C4E56E"
 			tasks: [{
-				id: "116CC93699E3D3D7"
+				id: "7684C3445DF7ADCB"
 				item: "ctnhcore:fermenting_tank"
 				type: "item"
 			}]
@@ -448,7 +448,7 @@
 			dependencies: ["18C1668BA11D77A8"]
 			id: "3FD1AAB09C522599"
 			tasks: [{
-				id: "4B062F37E4989EE2"
+				id: "594B6F13F2FA3E6D"
 				item: "ctnhcore:digestion_tank"
 				type: "item"
 			}]
@@ -590,7 +590,7 @@
 			dependencies: ["5F1BD456BFB49435"]
 			id: "4EC066F913BE135C"
 			tasks: [{
-				id: "259295ADEFF4E21B"
+				id: "2BC3DFC43C371A08"
 				item: "ctnhcore:large_fermenting_tank"
 				type: "item"
 			}]
@@ -601,7 +601,7 @@
 			dependencies: ["5F1BD456BFB49435"]
 			id: "4B82788AE391FE63"
 			tasks: [{
-				id: "1BCAF9053D52E4EB"
+				id: "747EAA55A245C846"
 				item: "ctnhcore:large_bottle"
 				type: "item"
 			}]
@@ -623,7 +623,7 @@
 			dependencies: ["5F1BD456BFB49435"]
 			id: "7CB8AB8CC6294AD0"
 			tasks: [{
-				id: "560E3C08434D6083"
+				id: "4CDAA2F39DD7876F"
 				item: "ctnhcore:blaze_blast_furnace"
 				type: "item"
 			}]
@@ -940,6 +940,17 @@
 				type: "item"
 			}]
 			x: 12.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3FAC0EBCE35BE621"]
+			id: "4F522063B20AA73A"
+			tasks: [{
+				id: "71FD55302C5F16ED"
+				item: "ctnhcore:coke_oven"
+				type: "item"
+			}]
+			x: 10.0d
 			y: 25.0d
 		}
 	]

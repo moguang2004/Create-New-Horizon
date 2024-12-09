@@ -541,7 +541,7 @@
 			dependencies: ["1FBD86C0CF681427"]
 			id: "64F3856504BEA9F2"
 			tasks: [{
-				id: "43A049323FEB918E"
+				id: "3D318027CEAAF7BA"
 				item: "ctnhcore:digestion_tank"
 				type: "item"
 			}]
@@ -556,7 +556,7 @@
 			id: "36B9FCEC9579E090"
 			optional: true
 			tasks: [{
-				id: "3558C26A9A6B1B4C"
+				id: "0B16B111E31DE41D"
 				item: "ctnhcore:fermenting_tank"
 				type: "item"
 			}]
