@@ -126,7 +126,8 @@ ServerEvents.recipes(event => {
         "vintageimprovements:pressing/zinc_ingot",
         "vintageimprovements:pressing/nickel_ingot",
         "vintageimprovements:pressing/osmium_ingot",
-        "aether:aether_saddle"
+        "aether:aether_saddle",
+        "gtceu:extruder/nan_certificate"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

@@ -22,13 +22,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest1.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "2F57CE68FB752EF4"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest1.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -44,13 +45,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest2.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "6697A33D7EF89AC1"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest2.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -66,13 +68,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest3.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "288E72B28FBE1C95"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest3.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -88,6 +91,7 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest4.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "4DA6D68FE7F68FFC"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest4.task.title1}"
@@ -110,13 +114,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest5.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "10A6845657D139F7"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest5.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -132,13 +137,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest6.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "58B069BDAAEA2AF7"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest6.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -154,13 +160,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest7.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "69CF2D0D3FD64B97"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest7.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			can_repeat: true
@@ -176,13 +183,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest8.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "7E5B4FBDD76E3820"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest8.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: 7.5d
+			y: 5.5d
 		}
 		{
 			can_repeat: true
@@ -198,13 +206,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest9.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "55AA53054D84BD16"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest9.task.title1}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
@@ -220,13 +229,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest10.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "7A5A97AB1BB3689E"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest10.task.title1}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: -1.5d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -242,13 +252,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest11.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "2DA9B3A0BBAD0259"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest11.task.title1}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -264,12 +275,13 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest12.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "49241705B9BBA45E"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest12.task.title1}"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
@@ -286,13 +298,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest13.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "41077F5E87BD109D"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest13.task.title1}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 3.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			can_repeat: true
@@ -308,13 +321,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest14.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "5700F7FB552F9273"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest14.task.title1}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 4.5d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
 			can_repeat: true
@@ -330,13 +344,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest15.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "7CCD6181C62D45E7"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest15.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: 9.0d
+			y: 6.5d
 		}
 		{
 			can_repeat: true
@@ -352,13 +367,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest16.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "0517C478A5A52099"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest16.task.title1}"
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: 10.5d
+			y: 7.5d
 		}
 		{
 			can_repeat: true
@@ -374,13 +390,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest17.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "607BD27AEF3590CA"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest17.task.title1}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 6.0d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			can_repeat: true
@@ -396,13 +413,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest18.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "28452AEF89217804"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest18.task.title1}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 7.5d
+			x: -5.0d
+			y: 5.5d
 		}
 		{
 			can_repeat: true
@@ -418,13 +436,14 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest19.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "48402B8A57B25694"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest19.task.title1}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 9.0d
+			x: -5.0d
+			y: 6.5d
 		}
 		{
 			can_repeat: true
@@ -440,13 +459,396 @@
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest20.reward.title1}"
 				type: "command"
 			}]
+			shape: "square"
 			tasks: [{
 				id: "6C391EC8C667D5DC"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest20.task.title1}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 10.5d
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0FEAC07F1404346A"]
+			icon: "gtceu:basic_electronic_circuit"
+			id: "0E9EAF937AE1B376"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:basic_electronic_circuit\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "gtceu:basic_electronic_circuit"
+				id: "16D7C02FB7CC0003"
+				title: "基础电子电路"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1C66C276FF74F641"
+				title: "基础电子电路"
+				type: "checkmark"
+			}]
+			title: "基础电子电路"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7142680A93861DB2"]
+			icon: "gtceu:good_electronic_circuit"
+			id: "34347BA3B894CF01"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:good_electronic_circuit\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "gtceu:good_electronic_circuit"
+				id: "26F2191AB61359E9"
+				title: "优质电子电路"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "76ACB90D245912C2"
+				title: "电子电路"
+				type: "checkmark"
+			}]
+			title: "优质电子电路"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3AE584B3EBC63A09"]
+			icon: "gtceu:basic_integrated_circuit"
+			id: "6D45A49BE59F6AEA"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:basic_integrated_circuit\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "gtceu:basic_integrated_circuit"
+				id: "2B141941DA7D971F"
+				title: "基础集成电路"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "53DEC3128DBBCB8F"
+				title: "基础集成电路"
+				type: "checkmark"
+			}]
+			title: "基础集成电路"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			description: ["    这里每一个任务都会在完成了对应的前置任务后解锁（即达到一定的发展水平），&a解锁后任务可以无限次完成&r，任务奖励是对应物品的进货清单，将清单放入购买机里，并且提供足够的资金，就会自动进行购买，购买物品。依据进购买机的种类不同，有应力驱动和电力驱动的两种不同的购买机器。"]
+			id: "1C3C3C4744816CE8"
+			tasks: [{
+				id: "27E7AE2167CB7FBA"
+				title: "使用说明"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C3C3C4744816CE8"]
+			id: "37312E850B5CC7D7"
+			tasks: [
+				{
+					id: "7FB4E481CA7713DE"
+					item: "jackseconomy:importer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "05B55B1A7F4B7C99"
+					item: "jackseconomy:mechanical_importer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "gtceu:rose_gold_mining_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					Enchantments: [{
+						id: "minecraft:fortune"
+						lvl: 2s
+					}]
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 0
+						MaxAoERow: 1
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 2303
+						ToolSpeed: 8.8f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "472FEB1301D00DA4"
+			rewards: [{
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:rose_gold_mining_hammer\",nbt:{DisallowContainerItem:0b,Enchantments:[{id:\"minecraft:fortune\",lvl:2s}],GT.Behaviours:{AoEColumn:1,AoELayer:0,AoERow:1,MaxAoEColumn:1,MaxAoELayer:0,MaxAoERow:1,TorchPlacing:1b},GT.Tool:{AttackDamage:3.5f,AttackSpeed:-3.2f,Damage:0,HarvestLevel:2,MaxDamage:2303,ToolSpeed:8.8f},HideFlags:2}}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "gtceu:rose_gold_mining_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 2s
+						}]
+						GT.Behaviours: {
+							AoEColumn: 1
+							AoELayer: 0
+							AoERow: 1
+							MaxAoEColumn: 1
+							MaxAoELayer: 0
+							MaxAoERow: 1
+							TorchPlacing: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 2303
+							ToolSpeed: 8.8f
+						}
+						HideFlags: 2
+					}
+				}
+				id: "2C872C54F5AF6A72"
+				title: "玫瑰金采矿锤"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "440FD5A96B0DF23D"
+				title: "玫瑰金采矿锤"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6CDD36A3C742B7F2"]
+			icon: "kubejs:basic_mechanism"
+			id: "21F87196C3E7DF8A"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:basic_mechanism\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:basic_mechanism"
+				id: "3472625E788BE23C"
+				title: "基础构件"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "70C579FCC8D07B66"
+				title: "基础构件"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7D76859D3E40A235"]
+			icon: "create:precision_mechanism"
+			id: "45E35DCAA656C4F5"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"create:precision_mechanism\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "create:precision_mechanism"
+				id: "0C507109DC64680E"
+				title: "精密构件"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5EBD7EB07F576D60"
+				title: "精密构件"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["41E48BCAEAD9D47E"]
+			icon: "kubejs:steel_mechanism"
+			id: "187611E1082EC8E1"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:steel_mechanism\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:steel_mechanism"
+				id: "5D95DF852960F661"
+				title: "钢铁构件"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "64B1AF9334CE5D7E"
+				title: "钢铁构件"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5E5F4837CC1F047A"]
+			icon: "create:cogwheel"
+			id: "68FF825294F5F1F7"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"create:cogwheel\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "create:cogwheel"
+				id: "157802B441B40DDE"
+				title: "齿轮"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "24F0C2A832DB70B3"
+				title: "小齿轮"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["33452CB4AAC5EE5F"]
+			icon: "create:large_cogwheel"
+			id: "1D1A98A1BB440FD5"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"create:large_cogwheel\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "create:large_cogwheel"
+				id: "24CC8DB5079FBACB"
+				title: "大齿轮"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7D2EED24BEC795CC"
+				title: "大齿轮"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "kubejs:broken_temperature_keeping_device"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "78A53D83556FC26B"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:broken_temperature_keeping_device\",nbt:{Damage:0}}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "kubejs:broken_temperature_keeping_device"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60A0B8E8ED0033CF"
+				title: "损坏的体温维持器"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "56C5802444F84C2B"
+				title: "损坏的体温调节器"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:bread"
+			id: "2601E4DB1C67209B"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:bread\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "minecraft:bread"
+				id: "5A04251B4FE561D9"
+				title: "面包"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "58C68065EE4B3434"
+				title: "五十万马克的面包"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["773CB6E376B56EA4"]
+			icon: "gtceu:chromium_dust"
+			id: "2C3AA089B3CF8E44"
+			rewards: [{
+				auto: "enabled"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:chromium_dust\"}]}"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "gtceu:chromium_dust"
+				id: "0D2B3DC12B456C90"
+				title: "铬粉"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4C91B7B75CF14638"
+				title: "铬粉"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 6.5d
 		}
 	]
 	title: "{ftbquests.chapter.4EE5451097565A1A.title}"

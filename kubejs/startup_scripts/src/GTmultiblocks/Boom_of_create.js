@@ -1,12 +1,14 @@
 //1
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-	event.create('boom_of_create')
-		.category('ctnh')
+	GTRecipeTypes.register('boom_of_create','ctnh')
 		.setMaxIOSize(1, 0, 1, 0)
 		.setEUIO('in')
 		.setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
 		.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
 		.setSound(GTSoundEntries.COOLING)
+		.addDataInfo(data =>{
+			return $LocalizationUtils.format('ctnh.stress_output', (data.getFloat('stress')).toFixed(1))
+		})
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {

@@ -687,6 +687,7 @@
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
 			id: "47477F45269D6DB4"
+			subtitle: "将异彩化合物扔入虚空得到"
 			tasks: [{
 				id: "26892DF7590726FB"
 				item: "create:shadow_steel"

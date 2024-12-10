@@ -287,7 +287,7 @@
 				"6429ECAF0856240D"
 				"26DE6B2D5D93022F"
 			]
-			icon: { Count: 64, id: "kubejs:ender_light" }
+			icon: "gtceu:nan_certificate"
 			id: "15BD44DB26748FA3"
 			rewards: [{
 				count: 64
@@ -298,6 +298,11 @@
 			shape: "square"
 			size: 4.0d
 			subtitle: "{ftbquests.chapter.uhv.quest22.subtitle}"
+			tasks: [{
+				id: "7BE6B053802692B5"
+				item: "gtceu:nan_certificate"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.uhv.quest22.title}"
 			x: -1.0d
 			y: 9.0d

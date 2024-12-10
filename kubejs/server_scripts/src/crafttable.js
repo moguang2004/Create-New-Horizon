@@ -1010,18 +1010,6 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('jackseconomy:empty_importer_manifest', 1), [
-          "CDC",
-          "CCC",
-          "ABA"
-        ], {
-        A: 'minecraft:red_carpet',
-        B: '#forge:chests',
-        C: 'minecraft:string',
-        D: 'minecraft:feather'
-    })
-
-    event.shaped(
         Item.of('jackseconomy:golden_exporter_manifest', 1), [
           "AAA",
           "ABA",
@@ -1249,6 +1237,22 @@ ServerEvents.recipes(event => {
         A: 'gtceu:coke_oven',
         B: 'ctnhcore:high_strength_concrete',
         C: 'gtceu:steel_plate'
+    })
+    event.shaped(
+        Item.of('gtceu:ulv_input_bus', 1), [
+          "A",
+          "B"
+        ], {
+        A: 'gtceu:ulv_machine_hull',
+        B: '#forge:chests/wooden'
+    })
+    event.shaped(
+        Item.of('gtceu:ulv_output_bus', 1), [
+          "B",
+          "A"
+        ], {
+        A: 'gtceu:ulv_machine_hull',
+        B: '#forge:chests/wooden'
     })
 
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
