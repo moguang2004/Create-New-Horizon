@@ -297,7 +297,29 @@ ServerEvents.recipes(event => {
   ]).transitionalItem(transitional)
     .loops(1)
 })
-
+ServerEvents.recipes(event => {
+  let transitional = 'ctnhcore:high_strength_concrete'
+  event.recipes.create.sequenced_assembly([
+    'ctnhcore:sintering_kiln'
+  ], 'gtceu:steel_firebox_casing', [
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:steel_block']),
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:advanced_blast_furnace']),
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:primitive_blast_furnace']),
+    event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:creosote', 1000)])
+  ]).transitionalItem(transitional)
+    .loops(1)
+})
+ServerEvents.recipes(event => {
+  let transitional = 'minecraft:orange_stained_glass'
+  event.recipes.create.sequenced_assembly([
+    'ctnhcore:bronze_framed_glass'
+  ], 'minecraft:glass', [
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:bronze_tiny_fluid_pipe']),
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:bronze_rod']),
+    event.recipes.createDeploying(transitional, [transitional, 'gtceu:long_bronze_rod']),
+  ]).transitionalItem(transitional)
+    .loops(2)
+})
 ServerEvents.recipes(event =>{
   event.custom({
     "type": "create:sequenced_assembly",
