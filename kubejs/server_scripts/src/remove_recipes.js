@@ -177,8 +177,6 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "createmetallurgy", not: { type: "createmetallurgy:belt_grinder" } })
     event.remove({ mod: "aether", type: "minecraft:crafting_shaped", id: /aether:skyroot_(.*)/ })
     event.remove({ id: "gtceu:large_chemical_reactor/raw_palladium_separation" })
-    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_pyrochlore" })
-    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_tantalite" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_niobium_oxide" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_tantalite_oxide" })
     event.remove({ id: "gtceu:centrifuge/rare_earth_separation" })
