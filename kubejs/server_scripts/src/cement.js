@@ -55,7 +55,20 @@ ServerEvents.recipes(event => {
             'C': 'gtceu:cement_bucket'
         }
     ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
-
+    
+    event.shaped(
+        '2x minecraft:bricks',
+        [
+            'AC ',
+            'BBB',
+            'BBB'
+        ],
+        {   'A': '#forge:tools/spades',
+            'B': 'minecraft:brick',
+            'C': 'gtceu:cement_bucket'
+        }    
+    ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')    
+    
     // 焦炉砖块配方
     event.remove({'output': 'gtceu:coke_oven_bricks'})
     event.shaped(
@@ -70,7 +83,20 @@ ServerEvents.recipes(event => {
             'C': 'gtceu:cement_bucket'
         }
     ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
-
+    
+    event.shaped(
+        '2x gtceu:coke_oven_bricks',
+        [
+            'AC ',
+            'BBB',
+            'BBB'
+        ],
+        {   'A': '#forge:tools/spades',
+            'B': 'gtceu:coke_oven_brick',
+            'C': 'gtceu:cement_bucket'
+        }    
+    ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
+    
     // 耐火粘土粉配方
     event.remove({'output': 'gtceu:fireclay_dust', 'input': 'gtceu:clay_dust'});
     event.recipes.create.mixing(
