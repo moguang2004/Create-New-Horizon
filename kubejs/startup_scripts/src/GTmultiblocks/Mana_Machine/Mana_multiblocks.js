@@ -10,7 +10,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .pattern(definition => FactoryBlockPattern.start()
             .aisle("#EEE#", "#EEE#", "#EEE#", "#EEE#", "#EEE#", "##B##") 
             .aisle("EEEEE", "E#A#E", "E###E", "E#A#E", "E###E", "##B##") 
-            .aisle("EEEEE", "EAAAE", "E###E", "EAAAE", "E#C#E", "BBCBB") 
+            .aisle("EEEEE", "EAAAE", "E#A#E", "EAAAE", "E#C#E", "BBCBB") 
             .aisle("EEEEE", "E#A#E", "E###E", "E#A#E", "E###E", "##B##") 
             .aisle("#EEE#", "#E@E#", "#EEE#", "#EEE#", "#EEE#", "##B##") 
             .where("A", Predicates.blocks("kubejs:elementium_pipe_casing"))
