@@ -252,6 +252,12 @@ ItemEvents.tooltip(event =>{
         text.add(10, Text.translate('ctnh.void_miner.tooltip.8'))
         text.add(11, Text.translate('ctnh.void_miner.tooltip.9'))
     })
+    event.addAdvanced('gtceu:mana_mixer',(item,advanced,text)=>{
+        text.add(1,Text.translate('ctnh.mana_mixer'))
+        text.add(2,Text.translate('mana_machine').gray())
+        text.add(3,Text.translate('ctnh.advanced_mana_machine.mana_consume'))
+        text.add(4,Text.translate('ctnh.perfect_overclock'))
+    })
     event.add('kubejs:broken_temperature_keeping_device',Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit',Text.translate('ctnh.basic_energy_conduit'))
     event.add('enderio:enhanced_energy_conduit',Text.translate('ctnh.enhanced_energy_conduit'))

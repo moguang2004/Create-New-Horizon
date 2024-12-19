@@ -326,6 +326,8 @@
     "block.gtceu.mana_assembler": "§b魔力组装机§r",
     "block.gtceu.mana_wiremill": "§b魔力线材轧机§r",
     "block.gtceu.mana_seperator": "§b魔力分选器§r",
+    "block.gtceu.mana_mixer": "§b魔力搅拌机§r",
+    "ctnh.mana_mixer": "机器类型：§e搅拌机§r",
     "block.gtceu.nuclear_reactor": "核反应堆",
     "block.gtceu.hot_coolant_turbine": "热冷却液涡轮",
     "block.gtceu.bio_reactor": "生物反应器",
