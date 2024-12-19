@@ -1,5 +1,4 @@
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    
         event.create('mana_mixer', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('mixer')
