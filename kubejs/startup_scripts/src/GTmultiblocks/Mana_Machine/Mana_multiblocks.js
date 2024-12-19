@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle("#EEE#", "#E@E#", "#EEE#", "#EEE#", "#EEE#", "##B##") 
             .where("A", Predicates.blocks("kubejs:elementium_pipe_casing"))
             .where("B", Predicates.blocks("gtceu:mana_steel_frame"))
-            .where("C", Predicates.blocks("kubejs:mana_steel_tungstensteel_gearbox_casing"))
+            .where("C", Predicates.blocks("kubejs:mana_steel_gearbox_casing"))
             .where("D", Predicates.blocks("kubejs:mana_steel_casing"))
             .where("#", Predicates.any())
             .where("E",Predicates.blocks("kubejs:mana_steel_casing")
