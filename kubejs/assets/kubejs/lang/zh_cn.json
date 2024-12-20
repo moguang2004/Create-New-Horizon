@@ -80,6 +80,8 @@
     "block.kubejs.osmiridium_casing": "铱锇合金机械方块",
     "block.kubejs.iridium_casing": "铱制机械方块",
     "block.kubejs.twisted_fusion_casing": "扭曲聚变机械方块",
+    "block.kubejs.mana_steel_gearbox_casing": "魔力钢齿轮箱机械方块",
+    "block.kubejs.elementium_pipe_casing": "源质钢管道机械方块",
     "block.kubejs.machine_casing_bronze_plated_bricks_slab": "青铜台阶",
     "block.kubejs.machine_casing_bronze_plated_bricks_wall": "青铜墙",
     "block.kubejs.machine_casing_bronze_plated_bricks_stairs": "青铜楼梯",
