@@ -160,5 +160,7 @@
     "item.kubejs.mana_cpu_chip": "魔力CPU芯片",
     "item.kubejs.mana_cpu_wafer": "魔力CPU晶圆",
     "item.kubejs.elementium_cpu_chip": "精灵CPU芯片",
-    "item.kubejs.elementium_cpu_wafer": "精灵CPU晶圆"
+    "item.kubejs.elementium_cpu_wafer": "精灵CPU晶圆",
+    "item.kubejs.mana_lens": "§3魔力透镜§3",
+    "item.kubejs.elementium_lens": "§d源质透镜§d"
 }
