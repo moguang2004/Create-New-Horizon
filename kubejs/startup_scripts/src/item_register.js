@@ -126,6 +126,8 @@ StartupEvents.registry("item", event => {
     event.create('mana_cpu_wafer')
     event.create('elementium_cpu_chip')
     event.create('elementium_cpu_wafer')
+    event.create('mana_lens')
+    event.create('elementium_lens')
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')
