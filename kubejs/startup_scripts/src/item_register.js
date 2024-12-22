@@ -122,6 +122,12 @@ StartupEvents.registry("item", event => {
     event.create('uhv_voltage_coil')
     event.create('blooded_micro_processor_mainframe').tag('gtceu:circuits/luv')
     event.create('will_nano_processor_mainframe').tag('gtceu:circuits/zpm')
+    event.create('mana_cpu_chip')
+    event.create('mana_cpu_wafer')
+    event.create('elementium_cpu_chip')
+    event.create('elementium_cpu_wafer')
+    event.create('mana_lens')
+    event.create('elementium_lens')
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')
