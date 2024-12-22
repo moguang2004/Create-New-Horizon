@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
     let voltage = ['lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv']
     voltage.forEach(v => {
         ctnh.assembler(v + 'coverwuxian')
-            .itemInputs(['2x gtceu:' + v + '_voltage_coil', '4x gtceu:duranium_frame', '4x gtceu:long_magnetic_samarium_rod', 'gtceu:molybdenum_disilicide_spring', 'gtceu:small_niobium_titanium_spring', '3x gtceu:dense_rhodium_plated_palladium_plate', '#gtceu:circuits/' + v + '', 'gtceu:'+ v + '_sensor'])
+            .itemInputs(['2x gtceu:' + v + '_voltage_coil', '4x gtceu:duranium_frame', '4x gtceu:long_magnetic_samarium_rod', 'gtceu:molybdenum_disilicide_spring', 'gtceu:small_niobium_titanium_spring', '3x gtceu:dense_rhodium_plated_palladium_plate', '#gtceu:circuits/' + v + '', 'gtceu:' + v + '_sensor'])
             .circuit(20)
             .itemOutputs('gtmthings:' + v + '_wireless_energy_receive_cover')
             .EUt(24347)
@@ -49,15 +49,15 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
     let fouramps = [
-        ["gtceu:manganese_phosphide_quadruple_wire","lv"],
-        ["gtceu:magnesium_diboride_quadruple_wire","mv"],
-        ["gtceu:mercury_barium_calcium_cuprate_quadruple_wire","hv"],
-        ["gtceu:uranium_triplatinum_quadruple_wire","ev"],
-        ["gtceu:samarium_iron_arsenic_oxide_quadruple_wire","iv"],
-        ["gtceu:indium_tin_barium_titanium_cuprate_quadruple_wire","luv"],
-        ["gtceu:uranium_rhodium_dinaquadide_quadruple_wire","zpm"],
-        ["gtceu:enriched_naquadah_trinium_europium_duranide_quadruple_wire","uv"],
-        ["gtceu:ruthenium_trinium_americium_neutronate_quadruple_wire","uhv"]
+        ["gtceu:manganese_phosphide_quadruple_wire", "lv"],
+        ["gtceu:magnesium_diboride_quadruple_wire", "mv"],
+        ["gtceu:mercury_barium_calcium_cuprate_quadruple_wire", "hv"],
+        ["gtceu:uranium_triplatinum_quadruple_wire", "ev"],
+        ["gtceu:samarium_iron_arsenic_oxide_quadruple_wire", "iv"],
+        ["gtceu:indium_tin_barium_titanium_cuprate_quadruple_wire", "luv"],
+        ["gtceu:uranium_rhodium_dinaquadide_quadruple_wire", "zpm"],
+        ["gtceu:enriched_naquadah_trinium_europium_duranide_quadruple_wire", "uv"],
+        ["gtceu:ruthenium_trinium_americium_neutronate_quadruple_wire", "uhv"]
     ]
     fouramps.forEach(f => {
         ctnh.assembler(f[0] + 'coverwuxian_granary_four')
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
             .itemOutputs('gtmthings:' + f[1] + '_16a_wireless_energy_input_hatch')
             .EUt(24347)
             .duration(60)
-            ctnh.assembler(f[0] + 'coverwuxian_granary_four_output')
+        ctnh.assembler(f[0] + 'coverwuxian_granary_four_output')
             .itemInputs(f[0], 'gtmthings:' + f[1] + '_2a_wireless_energy_output_hatch', '2x #gtceu:circuits/' + f[1] + '')
             .circuit(21)
             .itemOutputs('gtmthings:' + f[1] + '_4a_wireless_energy_output_hatch')
@@ -95,10 +95,10 @@ ServerEvents.recipes(event => {
         ctnh.assembly_line(m[0] + 'motor')
             .itemInputs('gtceu:long_' + m[1] + '_rod', '4x gtceu:long_' + m[2] + '_rod', '4x gtceu:' + m[2] + '_ring', '8x gtceu:' + m[2] + '_round', '64x gtceu:fine_' + m[3] + '_wire', '64x gtceu:fine_' + m[3] + '_wire', '2x gtceu:' + m[4] + '_single_cable')
             .inputFluids(m[5] + ' 576', m[6] + ' 2000', m[7] + ' 576')
-            .itemOutputs('gtceu:'+ m[0] + '_electric_motor')
+            .itemOutputs('gtceu:' + m[0] + '_electric_motor')
             .EUt(m[9])
             .duration(600)
-            .stationResearch(b => b.researchStack(Item.of('gtceu:'+ m[10] + '_electric_motor'))
+            .stationResearch(b => b.researchStack(Item.of('gtceu:' + m[10] + '_electric_motor'))
                 .dataStack(Item.of("gtceu:data_orb"))
                 .EUt(m[11])
                 .CWUt(m[8]))
@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
     conveyorbelt.forEach(c => {
         ctnh.assembly_line(c[0] + 'conveyorbelt')
             .itemInputs('gtceu:' + c[0] + '_electric_motor', '2x gtceu:' + c[1] + '_plate', '4x gtceu:' + c[1] + '_ring', '16x gtceu:' + c[1] + '_round', '4x gtceu:' + c[1] + '_screw', '2x gtceu:' + c[2] + '_single_cable')
-            .inputFluids(c[3] + ' 576', c[4] + ' 2000', c[10] ,c[5] + ' 576')
+            .inputFluids(c[3] + ' 576', c[4] + ' 2000', c[10], c[5] + ' 576')
             .itemOutputs('gtceu:' + c[0] + '_conveyor_module')
             .EUt(c[7])
             .duration(600)
@@ -227,4 +227,3 @@ ServerEvents.recipes(event => {
 
 
 })
-
