@@ -316,7 +316,7 @@ ServerEvents.recipes(event => {
     }
     //terra_steel
     terra_plate(event, ['botania:manasteel_ingot', 'botania:mana_pearl', 'botania:mana_diamond', 'botania:rune_mana'], 'botania:terrasteel_ingot', 500000)
-    terra_plate(event, ['kubejs:mana_resistor', 'kubejs:mana_capacitor', 'kubejs:mana_diode', 'gtceu:good_electronic_circuit'], 'kubejs:mana_electronic_circuit', 100000)
+    terra_plate(event, ['kubejs:mana_resistor', 'kubejs:mana_capacitor', 'kubejs:mana_diode', 'gtceu:good_electronic_circuit','kubejs:mana_cpu_chip'], 'kubejs:mana_electronic_circuit', 100000)
     terra_plate(event, ['biomesoplenty:blood_bucket', 'biomesoplenty:eyebulb', 'botania:rune_fire'], 'bloodmagic:life_essence_bucket', 50000)
 
     event.recipes.gtceu.mana_reactor('life_essence')
