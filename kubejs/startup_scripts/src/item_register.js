@@ -132,7 +132,7 @@ StartupEvents.registry("item", event => {
     event.create('mana_soc')
     event.create('zenith_soc')
     event.create('zenith_wafer')
-    event.create('mana_waer')
+    event.create('mana_wafer')
     event.create("elf_catalyst")
     event.create("terria_catalyst")
 })
