@@ -14,14 +14,14 @@ ServerEvents.recipes(event => {
             var newDuration = recipe.get("duration");
             recipe.set("duration", newDuration * 3 / 4 >= 1 ? newDuration * 3 / 4 : 1);
 
-        } catch (err) {}
+        } catch (err) { }
     })
     event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:alloy_blast_smelter' }, recipe => {
         try {
             var newDuration = recipe.get("duration");
             recipe.set("duration", newDuration * 3 / 4 >= 1 ? newDuration * 3 / 4 : 1);
 
-        } catch (err) {}
+        } catch (err) { }
     })
     event.forEachRecipe({ id: 'gtceu:large_chemical_reactor/ethylene_from_ethanol' }, recipe => {
         let newduration = recipe.get('duration')
@@ -115,10 +115,10 @@ ServerEvents.recipes(event => {
         .itemInputs("9x gtceu:obsidian_dust")
         .circuit(9)
         .itemOutputs("gtceu:dense_obsidian_plate")
-        /*event.recipes.gtceu.rocket_engine("rocket_fuel")
-        .outputEU(25600)
-        .duration(25)
-        .inputFluids("gtceu:rocket_fuel 16")*/
+    /*event.recipes.gtceu.rocket_engine("rocket_fuel")
+    .outputEU(25600)
+    .duration(25)
+    .inputFluids("gtceu:rocket_fuel 16")*/
     event.recipes.gtceu.alloy_smelter("dark_steel")
         .EUt(120)
         .duration(150)
@@ -155,13 +155,13 @@ ServerEvents.recipes(event => {
         .circuit(1)
         .EUt(1920)
         .duration(664)
-        // event.recipes.gtceu.electric_blast_furnace("aeternium_ingot")
-        // .itemInputs("gtceu:aeternium_dust")
-        // .itemOutputs("betterend:aeternium_ingot")
-        // .InputFluids(Fluid.of("gtceu:nitrogen",1000))
-        // .circuit(1)
-        // .EUt(1920)
-        // .duration(664)
+    // event.recipes.gtceu.electric_blast_furnace("aeternium_ingot")
+    // .itemInputs("gtceu:aeternium_dust")
+    // .itemOutputs("betterend:aeternium_ingot")
+    // .InputFluids(Fluid.of("gtceu:nitrogen",1000))
+    // .circuit(1)
+    // .EUt(1920)
+    // .duration(664)
     event.recipes.gtceu.chemical_reactor("ancient_debris_leach")
         .itemInputs("3x gtceu:ancient_debris_dust")
         .inputFluids(Fluid.of("gtceu:aqua_regia", 3000))
@@ -786,18 +786,18 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of("gtceu:helium", 1000))
         .EUt(120)
         .duration(800)
-        // event.recipes.gtceu.distillation_tower("liquid_aether_air")
-        //   .inputFluids(Fluid.of("gtceu:aether_air",100000))
-        //   .itemOutputs("botania:mana_powder")
-        //   .outputFluids(Fluid.of("gtceu:mana",40000))
-        //   .outputFluids(Fluid.of("gtceu:oxygen",25000))
-        //   .outputFluids(Fluid.of("gtceu:steam",12000))
-        //   .outputFluids(Fluid.of("gtceu:neon",10000))
-        //   .outputFluids(Fluid.of("gtceu:carbon_dioxide",5000))
-        //   .outputFluids(Fluid.of("gtceu:helium",5000))
-        //   .outputFluids(Fluid.of("gtceu:argon",3000))
-        //   .EUt(480)
-        //   .duration(2000)
+    // event.recipes.gtceu.distillation_tower("liquid_aether_air")
+    //   .inputFluids(Fluid.of("gtceu:aether_air",100000))
+    //   .itemOutputs("botania:mana_powder")
+    //   .outputFluids(Fluid.of("gtceu:mana",40000))
+    //   .outputFluids(Fluid.of("gtceu:oxygen",25000))
+    //   .outputFluids(Fluid.of("gtceu:steam",12000))
+    //   .outputFluids(Fluid.of("gtceu:neon",10000))
+    //   .outputFluids(Fluid.of("gtceu:carbon_dioxide",5000))
+    //   .outputFluids(Fluid.of("gtceu:helium",5000))
+    //   .outputFluids(Fluid.of("gtceu:argon",3000))
+    //   .EUt(480)
+    //   .duration(2000)
     event.recipes.gtceu.assembler("barrel")
         .itemInputs("7x #minecraft:planks")
         .itemOutputs("minecraft:barrel")
@@ -1172,34 +1172,34 @@ ServerEvents.recipes(event => {
         .duration(60)
     event.shaped(
         "gtceu:treated_wood_small_fluid_pipe", [
-            "S",
-            "P",
-            "M",
-        ], {
-            'P': "#forge:treated_wood",
-            'M': "#forge:tools/mallets",
-            'S': "#forge:tools/saws",
-        })
+        "S",
+        "P",
+        "M",
+    ], {
+        'P': "#forge:treated_wood",
+        'M': "#forge:tools/mallets",
+        'S': "#forge:tools/saws",
+    })
     event.shaped(
         "gtceu:treated_wood_normal_fluid_pipe", [
-            "PS",
-            "P ",
-            "PM",
-        ], {
-            'P': "#forge:treated_wood",
-            'M': "#forge:tools/mallets",
-            'S': "#forge:tools/saws",
-        })
+        "PS",
+        "P ",
+        "PM",
+    ], {
+        'P': "#forge:treated_wood",
+        'M': "#forge:tools/mallets",
+        'S': "#forge:tools/saws",
+    })
     event.shaped(
         "gtceu:treated_wood_large_fluid_pipe", [
-            "PSP",
-            "P P",
-            "PMP",
-        ], {
-            'P': "#forge:treated_wood",
-            'M': "#forge:tools/mallets",
-            'S': "#forge:tools/saws",
-        })
+        "PSP",
+        "P P",
+        "PMP",
+    ], {
+        'P': "#forge:treated_wood",
+        'M': "#forge:tools/mallets",
+        'S': "#forge:tools/saws",
+    })
 
     event.recipes.gtceu.windmill_control_center('windmill_control')
         .inputFluids(Fluid.of("gtceu:lubricant", 25))
@@ -1476,16 +1476,16 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:electric_blast_furnace/rutile_from_ilmenite' })
     event.shaped(
         'gtceu:hellforge', [
-            'ICI',
-            'SHS',
-            'IFI'
-        ], {
-            C: '#gtceu:circuits/luv',
-            H: 'gtceu:iv_machine_hull',
-            I: 'bloodmagic:ingot_hellforged',
-            S: 'bloodmagic:etherealslate',
-            F: 'bloodmagic:soulforge'
-        })
+        'ICI',
+        'SHS',
+        'IFI'
+    ], {
+        C: '#gtceu:circuits/luv',
+        H: 'gtceu:iv_machine_hull',
+        I: 'bloodmagic:ingot_hellforged',
+        S: 'bloodmagic:etherealslate',
+        F: 'bloodmagic:soulforge'
+    })
 
     event.recipes.gtceu.hellforge('hellpart')
         .itemInputs('bloodmagic:hellforgedparts', 'minecraft:diamond', 'minecraft:netherite_scrap', 'bloodmagic:defaultcrystal')
@@ -1524,15 +1524,15 @@ ServerEvents.recipes(event => {
     function dwos_crafting_recipe(event, voltage) {
         event.shaped(
             `gtceu:${voltage}_digital_well_of_suffer`, [
-                'PCP',
-                'SHS',
-                'PCP'
-            ], {
-                P: `gtceu:${voltage}_electric_pump`,
-                C: `#gtceu:circuits/${voltage}`,
-                H: `gtceu:${voltage}_machine_hull`,
-                ShaderTexture: 'bloodmagic:sacrificerune'
-            })
+            'PCP',
+            'SHS',
+            'PCP'
+        ], {
+            P: `gtceu:${voltage}_electric_pump`,
+            C: `#gtceu:circuits/${voltage}`,
+            H: `gtceu:${voltage}_machine_hull`,
+            ShaderTexture: 'bloodmagic:sacrificerune'
+        })
     }
     ['lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv'].forEach(voltage => dwos_crafting_recipe(event, voltage));
     // function addModel(event, entity, voltage, outputValue){
@@ -1788,7 +1788,7 @@ ServerEvents.recipes(event => {
             .dataStack(Item.of("gtceu:data_module"))
             .EUt(GTValues.VA[GTValues.ZPM])
             .CWUt(32))
-    event.recipes.gtceu.cvd("w-cdimod")
+    event.recipes.gtceu.chemical_vapor_deposition("w-cdimod")
         .itemInputs('gtceu:flawless_diamond_gem', '16x gtceu:copper_foil')
         .inputFluids("gtceu:tungsten 144")
         .itemOutputs('gtceu:flawless_tungstencu_diamond_plating_gem')
@@ -1808,7 +1808,7 @@ ServerEvents.recipes(event => {
         .circuit(2)
         .duration(1200)
         .EUt(122880)
-    event.recipes.gtceu.eye_homo("ore_production_1")
+    event.recipes.gtceu.martial_morality_eye("ore_production_1")
         .itemInputs('64x minecraft:cobblestone', '4x minecraft:gold_ingot')
         .inputFluids("gtceu:steam 64000")
         .chancedOutput('64x gtceu:raw_trona', 2500, 0)
@@ -1839,7 +1839,7 @@ ServerEvents.recipes(event => {
         .chancedOutput('gtceu:raw_infinity', 1, 0)
         .chancedOutput('gtceu:raw_space_neutronium', 1, 0)
         .duration(600)
-    event.recipes.gtceu.eye_homo("ore_production_2")
+    event.recipes.gtceu.martial_morality_eye("ore_production_2")
         .itemInputs('64x minecraft:stone')
         .chancedInput('4x minecraft:diamond_block', 750, -100)
         .inputFluids("gtceu:creosote 16000")
@@ -1874,7 +1874,7 @@ ServerEvents.recipes(event => {
         .chancedOutput('64x gtceu:raw_antimony', 1000, 500)
         .EUt(96)
         .duration(600);
-    event.recipes.gtceu.eye_homo("ore_production_3")
+    event.recipes.gtceu.martial_morality_eye("ore_production_3")
         .itemInputs('64x minecraft:stone')
         .chancedInput('4x gtceu:gallium_arsenide_block', 550, -100)
         .inputFluids("gtceu:rocket_fuel 4000")
@@ -1910,9 +1910,9 @@ ServerEvents.recipes(event => {
         .chancedOutput('64x gtceu:raw_tetrahedrite', 1000, 500)
         .EUt(480)
         .duration(1200);
-    event.recipes.gtceu.compressor("eye_homo")
+    event.recipes.gtceu.compressor("martial_morality_eye")
         .itemInputs('64x gtceu:lp_steam_rock_crusher')
-        .itemOutputs('gtceu:eye_homo')
+        .itemOutputs('gtceu:martial_morality_eye')
         .duration(1200)
         .EUt(7)
     event.recipes.gtceu.compressor("wood_particle_collider")
@@ -1947,78 +1947,78 @@ ServerEvents.recipes(event => {
         .outputFluids('gtceu:oxygen 9000')
         .duration(280)
         .EUt(60)
-    event.recipes.gtceu.gas_collection_h("main_world_air1")
+    event.recipes.gtceu.dimensional_gas_collection("main_world_air1")
         .circuit(0)
         .outputFluids("gtceu:air 1000000")
         .EUt(480)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("main_world_air2")
+    event.recipes.gtceu.dimensional_gas_collection("main_world_air2")
         .circuit(1)
         .notConsumable('gtceu:vacuum_freezer')
         .outputFluids("gtceu:liquid_air 1000000")
         .EUt(1920)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("nether_1")
+    event.recipes.gtceu.dimensional_gas_collection("nether_1")
         .circuit(2)
         .outputFluids("gtceu:nether_air 1000000")
         .EUt(480)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("nether_2")
+    event.recipes.gtceu.dimensional_gas_collection("nether_2")
         .circuit(3)
         .notConsumable('gtceu:vacuum_freezer')
         .outputFluids("gtceu:liquid_nether_air 1000000")
         .EUt(1920)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("the_end_1")
+    event.recipes.gtceu.dimensional_gas_collection("the_end_1")
         .circuit(4)
         .outputFluids("gtceu:ender_air 1000000")
         .EUt(480)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("the_end_2")
+    event.recipes.gtceu.dimensional_gas_collection("the_end_2")
         .circuit(5)
         .notConsumable('gtceu:vacuum_freezer')
         .outputFluids("gtceu:liquid_ender_air 1000000")
         .EUt(1920)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("sky_dimension_1")
+    event.recipes.gtceu.dimensional_gas_collection("sky_dimension_1")
         .circuit(6)
         .outputFluids("gtceu:aether_air 1000000")
         .EUt(480)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("sky_dimension_2")
+    event.recipes.gtceu.dimensional_gas_collection("sky_dimension_2")
         .circuit(7)
         .notConsumable('gtceu:vacuum_freezer')
         .outputFluids("gtceu:liquid_aether_air 1000000")
         .EUt(1920)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("mana_1")
+    event.recipes.gtceu.dimensional_gas_collection("mana_1")
         .circuit(8)
         .outputFluids("gtceu:alfheim_air 1000000")
         .EUt(480)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("mana_2")
+    event.recipes.gtceu.dimensional_gas_collection("mana_2")
         .circuit(9)
         .notConsumable('gtceu:vacuum_freezer')
         .outputFluids("gtceu:liquid_alfheim_air 1000000")
         .EUt(1920)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("twilight_air1")
+    event.recipes.gtceu.dimensional_gas_collection("twilight_air1")
         .circuit(10)
         .outputFluids("gtceu:twilightforest_air 1000000")
         .EUt(480)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("twilight_air2")
+    event.recipes.gtceu.dimensional_gas_collection("twilight_air2")
         .circuit(11)
         .notConsumable('gtceu:vacuum_freezer')
         .outputFluids("gtceu:liquid_twilightforest_air 1000000")
         .EUt(1920)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("venus_air1")
+    event.recipes.gtceu.dimensional_gas_collection("venus_air1")
         .circuit(12)
         .outputFluids("gtceu:venus_air 1000000")
         .EUt(480)
         .duration(200)
-    event.recipes.gtceu.gas_collection_h("venus_air2")
+    event.recipes.gtceu.dimensional_gas_collection("venus_air2")
         .circuit(13)
         .notConsumable('gtceu:vacuum_freezer')
         .outputFluids("gtceu:liquid_venus_air 1000000")

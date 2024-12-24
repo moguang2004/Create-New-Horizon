@@ -1764,7 +1764,7 @@
 			}]
 			tasks: [{
 				id: "4257922294CF0356"
-				item: "gtceu:condensate_separator"
+				item: "gtceu:condensing_discrete"
 				type: "item"
 			}]
 			x: -1.5d

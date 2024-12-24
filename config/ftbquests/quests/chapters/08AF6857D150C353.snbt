@@ -1031,7 +1031,7 @@
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest75.subtitle}"
 			tasks: [{
 				id: "2C454A9B147379F9"
-				item: "gtceu:eye_homo"
+				item: "gtceu:martial_morality_eye"
 				type: "item"
 			}]
 			x: -11.5d

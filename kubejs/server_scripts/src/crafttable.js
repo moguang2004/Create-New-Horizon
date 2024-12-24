@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "minecraft:iron_bars",
         B: "gtceu:steel_plate",
-        C:"#gtceu:circuits/mv",
+        C: "#gtceu:circuits/mv",
     })
     event.shaped(
         Item.of("create:spout", 1), [
@@ -879,7 +879,7 @@ ServerEvents.recipes(event => {
         S: "gtceu:hssg_spring",
         V: "gtceu:iv_alloy_smelter"
     })
-    event.shaped("gtceu:condensate_separator", [
+    event.shaped("gtceu:condensing_discrete", [
         "BCB",
         "DAG",
         "SVS"
@@ -962,7 +962,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:stick'
     })
     event.shaped(
-        Item.of('gtceu:cvd_factory', 1), [
+        Item.of('ctnh:chemical_vapor_deposition_machine', 1), [
         "ABA",
         "CDE",
         "VVV"
@@ -999,10 +999,10 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('jackseconomy:empty_exporter_manifest', 1), [
-          "ABA",
-          "CCC",
-          "CDC"
-        ], {
+        "ABA",
+        "CCC",
+        "CDC"
+    ], {
         A: 'minecraft:red_carpet',
         B: '#forge:chests',
         C: 'minecraft:string',
@@ -1011,20 +1011,20 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('jackseconomy:golden_exporter_manifest', 1), [
-          "AAA",
-          "ABA",
-          "AAA"
-        ], {
+        "AAA",
+        "ABA",
+        "AAA"
+    ], {
         A: 'gtceu:gold_foil',
         B: 'jackseconomy:empty_exporter_manifest'
     })
-    
+
     event.shaped(
         Item.of('jackseconomy:mechanical_importer', 1), [
-          "ABA",
-          "BCB",
-          "ADA"
-        ], {
+        "ABA",
+        "BCB",
+        "ADA"
+    ], {
         A: 'gtceu:gold_foil',
         B: 'gtceu:steel_plate',
         C: 'kubejs:heavy_machinery_casing',
@@ -1033,10 +1033,10 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('jackseconomy:mechanical_exporter', 1), [
-          "ADA",
-          "BCB",
-          "ABA"
-        ], {
+        "ADA",
+        "BCB",
+        "ABA"
+    ], {
         A: 'gtceu:gold_foil',
         B: 'gtceu:steel_plate',
         C: 'kubejs:heavy_machinery_casing',
@@ -1045,10 +1045,10 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('jackseconomy:exporter', 1), [
-          "ADA",
-          "BCB",
-          "ABA"
-        ], {
+        "ADA",
+        "BCB",
+        "ABA"
+    ], {
         A: 'gtceu:gold_foil',
         B: 'gtceu:steel_plate',
         C: 'kubejs:heavy_machinery_casing',
@@ -1057,28 +1057,28 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('gtmthings:ulv_huge_item_import_bus', 1), [
-          "A",
-          "B"
-        ], {
+        "A",
+        "B"
+    ], {
         A: 'gtceu:ulv_input_bus',
         B: 'expandedstorage:diamond_chest'
     })
 
     event.shaped(
         Item.of('gtmthings:ulv_huge_item_export_bus', 1), [
-          "A",
-          "B"
-        ], {
+        "A",
+        "B"
+    ], {
         A: 'gtceu:ulv_output_bus',
         B: 'expandedstorage:diamond_chest'
     })
 
     event.shaped(
         Item.of('ctnhcore:mana_bender', 1), [
-          "AAA",
-          "BCB",
-          "DEF"
-        ], {
+        "AAA",
+        "BCB",
+        "DEF"
+    ], {
         A: 'botania:polished_livingrock',
         B: 'gtceu:mv_electric_motor',
         C: 'gtceu:mv_bender',
@@ -1086,13 +1086,13 @@ ServerEvents.recipes(event => {
         E: 'gtceu:mv_robot_arm',
         F: '#gtceu:circuits/mv'
     })
-    
+
     event.shaped(
         Item.of('ctnhcore:mana_lathe', 1), [
-          "AAA",
-          "BCB",
-          "DEF"
-        ], {
+        "AAA",
+        "BCB",
+        "DEF"
+    ], {
         A: 'botania:polished_livingrock',
         B: 'gtceu:mv_electric_piston',
         C: 'gtceu:mv_lathe',
@@ -1103,10 +1103,10 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('ctnhcore:mana_assembler', 1), [
-          "AAA",
-          "BCD",
-          "EFG"
-        ], {
+        "AAA",
+        "BCD",
+        "EFG"
+    ], {
         A: 'botania:polished_livingrock',
         B: 'gtceu:hv_sensor',
         C: 'gtceu:hv_assembler',
@@ -1118,10 +1118,10 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('ctnhcore:mana_wiremill', 1), [
-          "AAA",
-          "BCB",
-          "DED"
-        ], {
+        "AAA",
+        "BCB",
+        "DED"
+    ], {
         A: 'botania:polished_livingrock',
         B: 'gtceu:mv_electric_motor',
         C: 'gtceu:mv_wiremill',
@@ -1131,10 +1131,10 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('gtceu:mana_reactor', 1), [
-          "AAA",
-          "BCB",
-          "DED"
-        ], {
+        "AAA",
+        "BCB",
+        "DED"
+    ], {
         A: 'botania:polished_livingrock',
         B: '#gtceu:circuits/ev',
         C: 'gtceu:alfsteel_gear',
@@ -1161,10 +1161,10 @@ ServerEvents.recipes(event => {
         "BCB",
         "DAD"
     ], {
-            A: 'gtceu:copper_spring',
-            B: '#gtceu:circuits/lv',
-            C: 'gtceu:steam_oven',
-            D: 'gtceu:firebricks',
+        A: 'gtceu:copper_spring',
+        B: '#gtceu:circuits/lv',
+        C: 'gtceu:steam_oven',
+        D: 'gtceu:firebricks',
     })
 
     event.shaped(
@@ -1240,17 +1240,17 @@ ServerEvents.recipes(event => {
     })
     event.shaped(
         Item.of('gtceu:ulv_input_bus', 1), [
-          "A",
-          "B"
-        ], {
+        "A",
+        "B"
+    ], {
         A: 'gtceu:ulv_machine_hull',
         B: '#forge:chests/wooden'
     })
     event.shaped(
         Item.of('gtceu:ulv_output_bus', 1), [
-          "B",
-          "A"
-        ], {
+        "B",
+        "A"
+    ], {
         A: 'gtceu:ulv_machine_hull',
         B: '#forge:chests/wooden'
     })
@@ -1286,10 +1286,10 @@ ServerEvents.recipes(event => {
     })
 
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:toxic_caves"}').strongNBT())
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT())
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT())
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
 })
