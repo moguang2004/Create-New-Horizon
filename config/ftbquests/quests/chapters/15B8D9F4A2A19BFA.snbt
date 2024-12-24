@@ -20,7 +20,7 @@
 			id: "65F13C0C2212FC05"
 			tasks: [{
 				id: "1055D7FCC33FEE5A"
-				item: "gtceu:kinetic_steam_turbine"
+				item: "ctpp:kinetic_steam_turbine"
 				type: "item"
 			}]
 			x: 0.0d

@@ -610,7 +610,7 @@
 		{
 			dependencies: ["2D662EFDE7A39BB8"]
 			description: [""]
-			icon: "gtceu:kinetic_generator"
+			icon: "ctpp:kinetic_generator"
 			id: "4D79591C84BD1AE5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -622,7 +622,7 @@
 			tasks: [
 				{
 					id: "6E7479AFB1BFFAA5"
-					item: "gtceu:kinetic_generator"
+					item: "ctpp:kinetic_generator"
 					type: "item"
 				}
 				{

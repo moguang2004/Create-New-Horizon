@@ -52,11 +52,6 @@ function unitChanger(number) {
 }
 
 ItemEvents.tooltip(event =>{
-    event.addAdvanced('gtceu:kinetic_steam_turbine',(item,advanced,text)=>{
-        text.add(1,Text.translate('kinetic_output'))
-        text.add(2,Text.translate('rotor_holder_upgrade'))
-        text.add(3,Text.translate('steam_up_hv_loss').red())
-    })
     event.addAdvanced('gtceu:seaweed_farm',(item,advanced,text)=>{
         text.add(1,Text.translate('kinetic_overclock'))
         text.add(2,Text.translate('subtick_overclock').yellow())
@@ -116,13 +111,6 @@ ItemEvents.tooltip(event =>{
         text.add(3,Text.translate('ctnh.nuclear_reactor.coolant'))
         text.add(4,Text.translate('ctnh.nuclear_reactor.overclock'))
         text.add(5,Text.translate('ctnh.nuclear_reactor.safe'))
-    })
-    event.addAdvanced('gtceu:kinetic_generator',(item,advanced,text)=>{
-        text.add(1,Text.translate('kinetic_generator').gray())
-        text.add(2,Text.translate('ctnh.kinetic_generator.basic'))
-        text.add(3,Text.translate('ctnh.kinetic_generator.extrict'))
-        text.add(4,Text.translate('ctnh.kinetic_generator.upgrade'))
-        text.add(5,Text.translate('ctnh.kinetic_generator.core'))
     })
     event.addAdvanced('ctnhcore:underfloor_heating_system',(item,advanced,text)=>{
         text.add(1,Text.translate('underfloor_heating_system').gray())

@@ -1055,7 +1055,7 @@
 				"{ftbquests.chapter.08AF6857D150C353.quest77.description2}"
 				"{ftbquests.chapter.08AF6857D150C353.quest77.description3}"
 			]
-			icon: "gtceu:kinetic_steam_turbine"
+			icon: "ctpp:kinetic_steam_turbine"
 			id: "11CBD66BE7CCCAED"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1067,7 +1067,7 @@
 			tasks: [
 				{
 					id: "4C40156588431040"
-					item: "gtceu:kinetic_steam_turbine"
+					item: "ctpp:kinetic_steam_turbine"
 					type: "item"
 				}
 				{

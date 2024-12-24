@@ -445,7 +445,7 @@ ServerEvents.recipes(event => {
         F: "gtceu:lv_electric_motor"
     })
     event.shaped(
-        Item.of("gtceu:kinetic_steam_turbine", 1), [
+        Item.of("ctpp:kinetic_steam_turbine", 1), [
         "ABA",
         "CDC",
         "AEA"
@@ -722,7 +722,7 @@ ServerEvents.recipes(event => {
         B: "gtceu:pulsating_alloy_ingot"
     }).id('enderio:item_conduit')
     event.shaped(
-        Item.of("gtceu:kinetic_generator", 1), [
+        Item.of("ctpp:kinetic_generator", 1), [
         "ABA",
         "CDC",
         "ABA"

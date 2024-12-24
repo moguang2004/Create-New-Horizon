@@ -123,7 +123,7 @@
 			id: "0D046F778BBF92DF"
 			tasks: [{
 				id: "7744086787E769B7"
-				item: "gtceu:kinetic_steam_turbine"
+				item: "ctpp:kinetic_steam_turbine"
 				type: "item"
 			}]
 			x: 1.5d
@@ -209,7 +209,7 @@
 			id: "5934EA1BC0835B5C"
 			tasks: [{
 				id: "77BD5AB0683F4775"
-				item: "gtceu:kinetic_generator"
+				item: "ctpp:kinetic_generator"
 				type: "item"
 			}]
 			x: 1.5d
