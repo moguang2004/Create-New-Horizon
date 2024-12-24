@@ -31,6 +31,10 @@
     "material.gtceu.rare_earth_chloride_solution": "稀土氯化物",
     "material.gtceu.ferric_ree_chloride": "含稀土氯化铁溶液",
     "material.gtceu.mana_fused": "蕴魔",
+    "material.gtceu.mana_fused_mixed1": "分选蕴魔",
+    "material.gtceu.mana_fused_mixed_lp": "源质提纯蕴魔",
+    "material.gtceu.mana_fused_mixed_demon": "恶魔意识筛选蕴魔",
+    "material.gtceu.mana_plus": "富集魔力",
     "material.gtceu.normal_yeast": "酵母",
     "material.gtceu.normal_yeast_seed_liquid": "酵母种子液",
     "material.gtceu.normal_yeast_liquid": "酵母原液",
@@ -615,6 +619,7 @@
     "gtceu.jei.ore_vein.zircon_vein": "锆石矿脉",
     "gtceu.jei.ore_vein.zirkelite_vein": "钛锆钍石矿脉",
     "gtceu.jei.ore_vein.mana_fused_vein": "蕴魔矿脉",
+
     "gtceu.jei.ore_vein.ancient_debris_vein": "远古残骸矿脉",
     "gtceu.jei.ore_vein.zinc_vein": "锌矿脉",
     "gtceu.jei.ore_vein.nether_quartz_vein_ow": "主世界石英矿脉",

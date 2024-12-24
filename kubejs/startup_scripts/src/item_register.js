@@ -7,7 +7,7 @@ StartupEvents.registry("item", event => {
     event.create('temperature_keeping_device').tag('curios:body')
         .attachCapability(CapabilityBuilder.ENERGY.customItemStack()
             .canReceive(i => true)
-            .getEnergyStored(/**@type {Internal.ItemStack}*/itemStack => {
+            .getEnergyStored( /**@type {Internal.ItemStack}*/ itemStack => {
                 if (itemStack.getOrCreateTag().contains("energyStored")) {
                     return itemStack.nbt.getInt("energyStored")
                 } else {
@@ -16,8 +16,9 @@ StartupEvents.registry("item", event => {
                 }
             })
             .getMaxEnergyStored(i => MAX_ENERGY)
-            .receiveEnergy((/**@type {Internal.ItemStack}*/ item, i, receive) => {
-                    /** @type {Internal.IEnergyStorage} */ let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
+            .receiveEnergy(( /**@type {Internal.ItemStack}*/ item, i, receive) => {
+                /** @type {Internal.IEnergyStorage} */
+                let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
                 let received = Math.min(energy.maxEnergyStored - energy.energyStored, i)
                 if (!receive && energy.energyStored <= energy.maxEnergyStored) {
                     item.nbt.putInt('energyStored', energy.energyStored + received)
@@ -27,7 +28,7 @@ StartupEvents.registry("item", event => {
         )
         //.tooltip('showenergy')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
-            .curioTick((/**@type {Internal.ItemStack}*/ itemstack, slotcontext) => {
+            .curioTick(( /**@type {Internal.ItemStack}*/ itemstack, slotcontext) => {
                 let energy = itemstack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
                 let { energyStored, maxEnergyStored } = energy
                 if (energyStored > 0) {
@@ -44,13 +45,13 @@ StartupEvents.registry("item", event => {
                 }
             })
         )
-        .barWidth(/**@type {Internal.ItemStack}*/item => {
+        .barWidth( /**@type {Internal.ItemStack}*/ item => {
             let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
             return Math.floor(energy.energyStored / energy.maxEnergyStored * 13)
         })
     event.create('broken_temperature_keeping_device').maxDamage(12000).tag('curios:body')
         .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
-            .curioTick((/**@type {$ItemStack}*/ itemstack, slotcontext) => {
+            .curioTick(( /**@type {$ItemStack}*/ itemstack, slotcontext) => {
                 if (itemstack.damageValue >= 12000) {
                     itemstack.shrink(1)
                 }
@@ -61,7 +62,7 @@ StartupEvents.registry("item", event => {
         )
     event.create('deep_diver_gear').tag('curios:belt')
     event.create('thermometer_case')
-    event.create('high_quality_solid_fuel').burnTime(4800)//.burntime(16000)
+    event.create('high_quality_solid_fuel').burnTime(4800) //.burntime(16000)
     event.create('steel_mechanism')
     event.create('unfinished_steel_mechanism')
     event.create('multiblock_helper')
@@ -73,7 +74,7 @@ StartupEvents.registry("item", event => {
     event.create('bauxite_process_catalyst')
     event.create('tallow').burnTime('1600')
     event.create('eye_of_underground_cabin')
-        .use((/**@type {$ServerLevel}*/level, player, interactionhand) => {
+        .use(( /**@type {$ServerLevel}*/ level, player, interactionhand) => {
             let item = player.getHeldItem(interactionhand)
             player.startUsingItem(interactionhand)
             if (!level.isClientSide) {
@@ -122,6 +123,18 @@ StartupEvents.registry("item", event => {
     event.create('uhv_voltage_coil')
     event.create('blooded_micro_processor_mainframe').tag('gtceu:circuits/luv')
     event.create('will_nano_processor_mainframe').tag('gtceu:circuits/zpm')
+    event.create('mana_cpu_chip')
+    event.create('mana_cpu_wafer')
+    event.create('elementium_cpu_chip')
+    event.create('elementium_cpu_wafer')
+    event.create('mana_lens')
+    event.create('elementium_lens')
+    event.create('mana_soc')
+    event.create('zenith_soc')
+    event.create('zenith_wafer')
+    event.create('mana_wafer')
+    event.create("elf_catalyst")
+    event.create("terria_catalyst")
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')
@@ -195,13 +208,45 @@ StartupEvents.registry("block", event => {
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureAll("kubejs:block/twisted_fusion_casing")
+    event.create('elementium_pipe_casing', 'basic')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+        .textureAll("kubejs:block/elementium_pipe_casing")
+    event.create('mana_steel_tungstensteel_gearbox_casing', 'basic')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+        .textureAll("kubejs:block/mana_steel_tungstensteel_gearbox_casing")
+    event.create('elementium_normal_fluid_pipe', 'basic')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+        .textureAll("kubejs:block/elementium_normal_fluid_pipe")
+    event.create('mana_steel_gearbox_casing', 'basic')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+        .textureAll("kubejs:block/mana_steel_gearbox_casing")
 })
 
 
 ItemEvents.modification(event => {
-    event.modify('farmersdelight:rice',item => {
-        item.setFoodProperties(food =>{
-            food.eaten((/**@type {$FoodEatenEventJS}*/eat) =>{
+    event.modify('farmersdelight:rice', item => {
+        item.setFoodProperties(food => {
+            food.eaten(( /**@type {$FoodEatenEventJS}*/ eat) => {
                 // if(eat.entity.isPlayer()){
                 //     console.info('eat!')
                 //     eat.player.addItem('kubejs:crashed_rice')
@@ -239,62 +284,62 @@ ItemEvents.modification(event => {
         item.setArmorToughness(1)
     })
     event.modify('bloodmagic:livinghboots', item => {
-        item.setArmorProtection(3)
-        item.setArmorToughness(1)
-    })
-    // event.modify('tetranichematerials:bronnum_armor_helmet', item => {
-    //     item.setArmorProtection(2)
-    //     item.setArmorKnockbackResistance(0.05)
-    // })
-    // event.modify('tetranichematerials:bronnum_armor_chest', item => {
-    //     item.setArmorProtection(5)
-    //     item.setArmorKnockbackResistance(0.05)
-    // })
-    // event.modify('tetranichematerials:bronnum_armor_legs', item => {
-    //     item.setArmorProtection(4)
-    //     item.setArmorKnockbackResistance(0.05)
-    // })
-    // event.modify('tetranichematerials:bronnum_armor_feet', item => {
-    //     item.setArmorProtection(2)
-    //     item.setArmorKnockbackResistance(0.05)
-    // })
-    // event.modify('tetranichematerials:blurine_armor_helmet', item => {
-    //     item.setArmorProtection(3)
-    //     item.setArmorToughness(1)
-    // })
-    // event.modify('tetranichematerials:blurine_armor_chest', item => {
-    //     item.setArmorProtection(6)
-    //     item.setArmorToughness(1)
-    //     item.addAttribute('attributeslib:cold_damage',
-    //         '70195e7a-005a-471a-bd26-3fd6d331676d',
-    //         'kubejscolddamage',
-    //         2,
-    //         'addition')
-    // })
-    // event.modify('tetranichematerials:blurine_armor_legs', item => {
-    //     item.setArmorProtection(4)
-    //     item.setArmorToughness(1)
-    // })
-    // event.modify('tetranichematerials:blurine_armor_feet', item => {
-    //     item.setArmorProtection(2)
-    //     item.setArmorToughness(1)
-    // })
-    // event.modify('tetranichematerials:lockwood_armor_chest', item => {
-    //     item.setArmorProtection(7)
-    //     item.addAttribute('minecraft:generic.max_health',
-    //         '03B9249B-929A-42AE-84F2-AD0DEBDCB3AB',
-    //         'kubejsmaxhealth',
-    //         4,
-    //         'addition')
-    // })
-    // event.modify('tetranichematerials:lockwood_armor_legs', item => {
-    //     item.setArmorProtection(5)
-    //     item.addAttribute('forge:swim_speed',
-    //         'c6953671-9091-479f-a9ef-cc528e7af16f',
-    //         'kubejsswimspeed',
-    //         0.5,
-    //         'addition')
-    // })
+            item.setArmorProtection(3)
+            item.setArmorToughness(1)
+        })
+        // event.modify('tetranichematerials:bronnum_armor_helmet', item => {
+        //     item.setArmorProtection(2)
+        //     item.setArmorKnockbackResistance(0.05)
+        // })
+        // event.modify('tetranichematerials:bronnum_armor_chest', item => {
+        //     item.setArmorProtection(5)
+        //     item.setArmorKnockbackResistance(0.05)
+        // })
+        // event.modify('tetranichematerials:bronnum_armor_legs', item => {
+        //     item.setArmorProtection(4)
+        //     item.setArmorKnockbackResistance(0.05)
+        // })
+        // event.modify('tetranichematerials:bronnum_armor_feet', item => {
+        //     item.setArmorProtection(2)
+        //     item.setArmorKnockbackResistance(0.05)
+        // })
+        // event.modify('tetranichematerials:blurine_armor_helmet', item => {
+        //     item.setArmorProtection(3)
+        //     item.setArmorToughness(1)
+        // })
+        // event.modify('tetranichematerials:blurine_armor_chest', item => {
+        //     item.setArmorProtection(6)
+        //     item.setArmorToughness(1)
+        //     item.addAttribute('attributeslib:cold_damage',
+        //         '70195e7a-005a-471a-bd26-3fd6d331676d',
+        //         'kubejscolddamage',
+        //         2,
+        //         'addition')
+        // })
+        // event.modify('tetranichematerials:blurine_armor_legs', item => {
+        //     item.setArmorProtection(4)
+        //     item.setArmorToughness(1)
+        // })
+        // event.modify('tetranichematerials:blurine_armor_feet', item => {
+        //     item.setArmorProtection(2)
+        //     item.setArmorToughness(1)
+        // })
+        // event.modify('tetranichematerials:lockwood_armor_chest', item => {
+        //     item.setArmorProtection(7)
+        //     item.addAttribute('minecraft:generic.max_health',
+        //         '03B9249B-929A-42AE-84F2-AD0DEBDCB3AB',
+        //         'kubejsmaxhealth',
+        //         4,
+        //         'addition')
+        // })
+        // event.modify('tetranichematerials:lockwood_armor_legs', item => {
+        //     item.setArmorProtection(5)
+        //     item.addAttribute('forge:swim_speed',
+        //         'c6953671-9091-479f-a9ef-cc528e7af16f',
+        //         'kubejsswimspeed',
+        //         0.5,
+        //         'addition')
+        // })
     event.modify('twilightforest:fiery_helmet', item => {
         item.setArmorProtection(3)
     })
