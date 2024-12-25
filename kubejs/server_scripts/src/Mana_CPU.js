@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.cutter('mana_cpu_wafer_cut')            
     .itemInputs("kubejs:mana_cpu_wafer")
-    .inputFluids(Fluid.of('gtceu:mana', 1000))
+    .inputFluids(Fluid.of('gtceu:mana', 4000))
     .itemOutputs("8x kubejs:mana_cpu_chip")
     .duration(900)
     .EUt(512)
