@@ -49,3 +49,4 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer('botania:block/polished_livingrock', 'gtceu:block/multiblock/generator/large_steam_turbine', false)
 
 })
+//魔力搅拌机
