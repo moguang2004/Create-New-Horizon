@@ -253,7 +253,7 @@
 			id: "20F5B6B9BECC9ED9"
 			tasks: [{
 				id: "50332E17B591C11C"
-				item: "gtceu:seaweed_farm"
+				item: "ctpp:seaweed_farm"
 				type: "item"
 			}]
 			x: -16.0d
@@ -297,7 +297,7 @@
 			id: "4510F270E15D5961"
 			tasks: [{
 				id: "4499E9FA8D48864E"
-				item: "gtceu:windmill_control_center"
+				item: "ctpp:windmill_control_center"
 				type: "item"
 			}]
 			x: -16.0d
@@ -427,7 +427,7 @@
 			id: "203D2C85D89E8170"
 			tasks: [{
 				id: "340D80E810D77142"
-				item: "gtceu:seawater_desalting_factory"
+				item: "ctnhcore:seawater_desalting_factory"
 				type: "item"
 			}]
 			x: 10.0d
@@ -526,7 +526,7 @@
 			id: "36E2948051CB0116"
 			tasks: [{
 				id: "6FBA1B2774537BE1"
-				item: "gtceu:fuel_refining_factory"
+				item: "ctnhcore:fuel_refining_factory"
 				type: "item"
 			}]
 			x: -7.0d

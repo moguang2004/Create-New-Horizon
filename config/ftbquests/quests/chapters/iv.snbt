@@ -1716,7 +1716,7 @@
 			}]
 			tasks: [{
 				id: "20A5FE7B29CB18C3"
-				item: "gtceu:crystallizer"
+				item: "ctnhcore:crystallizer"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1748,7 +1748,7 @@
 			}]
 			tasks: [{
 				id: "0F96A52A870B351C"
-				item: "gtceu:vacuum_sintering_tower"
+				item: "ctnhcore:vacuum_sintering_tower"
 				type: "item"
 			}]
 			x: -1.5d

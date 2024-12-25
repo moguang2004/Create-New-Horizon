@@ -60,7 +60,7 @@
 			tasks: [
 				{
 					id: "16548D422CB417B8"
-					item: "gtceu:seawater_desalting_factory"
+					item: "ctnhcore:seawater_desalting_factory"
 					type: "item"
 				}
 				{

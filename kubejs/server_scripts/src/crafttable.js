@@ -432,7 +432,7 @@ ServerEvents.recipes(event => {
         E: "minecraft:bricks"
     })
     event.shaped(
-        Item.of("gtceu:seawater_desalting_factory", 1), [
+        Item.of("ctnhcore:seawater_desalting_factory", 1), [
         "ABC",
         "DED",
         "FBF"
@@ -457,7 +457,7 @@ ServerEvents.recipes(event => {
         E: "create:shaft"
     })
     event.shaped(
-        Item.of("gtceu:seaweed_farm", 1), [
+        Item.of("ctpp:seaweed_farm", 1), [
         "ABA",
         "CDC",
         "EFE"
@@ -744,7 +744,7 @@ ServerEvents.recipes(event => {
         D: "create:large_water_wheel"
     })
     event.shaped(
-        Item.of("gtceu:windmill_control_center", 1), [
+        Item.of("ctpp:windmill_control_center", 1), [
         " A ",
         "BCB",
         "DED"
@@ -855,7 +855,7 @@ ServerEvents.recipes(event => {
         C: "gtceu:iv_electric_pump",
         D: "gtceu:fluid_filter"
     })
-    event.shaped("gtceu:crystallizer", [
+    event.shaped("ctnhcore:crystallizer", [
         "SCS",
         "DAD",
         "BVB"
@@ -867,7 +867,7 @@ ServerEvents.recipes(event => {
         S: "gtceu:hssg_spring",
         V: "gtceu:hsse_frame"
     })
-    event.shaped("gtceu:vacuum_sintering_tower", [
+    event.shaped("ctnhcore:vacuum_sintering_tower", [
         "BCB",
         "DAD",
         "SVS"
@@ -893,7 +893,7 @@ ServerEvents.recipes(event => {
         G: "gtceu:fluid_filter"
     })
     event.shaped(
-        Item.of('gtceu:boom_of_create', 1), [
+        Item.of('ctpp:boom_of_create', 1), [
         "DED",
         "ACA",
         "BAB"

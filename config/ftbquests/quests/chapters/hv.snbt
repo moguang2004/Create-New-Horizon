@@ -1498,7 +1498,7 @@
 			subtitle: "{ftbquests.chapter.hv.quest102.subtitle}"
 			tasks: [{
 				id: "559B2DB8804016D0"
-				item: "gtceu:fuel_refining_factory"
+				item: "ctnhcore:fuel_refining_factory"
 				type: "item"
 			}]
 			x: 14.785714285714285d

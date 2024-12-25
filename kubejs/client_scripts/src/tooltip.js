@@ -52,16 +52,6 @@ function unitChanger(number) {
 }
 
 ItemEvents.tooltip(event => {
-    event.addAdvanced('gtceu:seaweed_farm', (item, advanced, text) => {
-        text.add(1, Text.translate('kinetic_overclock'))
-        text.add(2, Text.translate('subtick_overclock').yellow())
-    })
-    event.addAdvanced('gtceu:seawater_desalting_factory', (item, advanced, text) => {
-        text.add(1, Text.translate('desalting_introduction'))
-        text.add(2, Text.translate('gtceu.machine.electric_blast_furnace.tooltip.0'))
-        text.add(3, Text.translate('gtceu.machine.electric_blast_furnace.tooltip.1'))
-        text.add(4, Text.translate('gtceu.machine.electric_blast_furnace.tooltip.2'))
-    })
     let rotor_holder = ['ulv', 'lv', 'mv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
     rotor_holder.forEach((holder, index) => {
         event.addAdvanced(`gtceu:${holder}_rotor_holder${index}`, (item, advanced, text) => {
@@ -118,20 +108,6 @@ ItemEvents.tooltip(event => {
         text.add(3, Text.translate('ctnh.underfloor_heating_system.mechanism'))
         text.add(4, Text.translate('ctnh.underfloor_heating_system.rate'))
     })
-    event.addAdvanced('gtceu:zpm_large_miner', (item, advanced, tooltip) => {
-        tooltip.add(1, Text.translate('gtceu.machine.large_miner.zpm.tooltip'))
-        tooltip.add(2, Text.translatable("gtceu.machine.miner.multi.description"))
-        tooltip.add(3, Text.translatable("gtceu.machine.miner.multi.modes"))
-        tooltip.add(4, Text.translatable("gtceu.machine.miner.multi.production"))
-        tooltip.add(5, Text.translatable("gtceu.machine.miner.fluid_usage", 6, GTMaterials.DrillingFluid.getLocalizedName()))
-        tooltip.add(6, Text.translatable("gtceu.universal.tooltip.working_area_chunks", 18, 18))
-        tooltip.add(7, Text.translatable("gtceu.universal.tooltip.energy_tier_range", GTValues.VNF[7], GTValues.VNF[7 + 1]))
-    })
-    event.addAdvanced('gtceu:windmill_control_center', (item, advanced, text) => {
-        text.add(1, Text.translate('windmill_control_center').gray())
-        text.add(2, Text.translate('ctnh.windmill_control_center.mechanism'))
-        text.add(3, Text.translate('ctnh.windmill_control_center.output').red())
-    })
     event.addAdvanced('ctnhcore:wind_power_array', (item, advanced, text) => {
         text.add(1, Text.translate('wind_power_array').gray())
         text.add(2, Text.translate('ctnh.wind_power_array.basic'))
@@ -149,23 +125,6 @@ ItemEvents.tooltip(event => {
         text.add(2, Text.translate('ctnh.super_wind_power_array.basic'))
         text.add(3, Text.translate('ctnh.wind_power_array.mechanism'))
         text.add(4, Text.translate('ctnh.wind_power_array.altitude'))
-    })
-    event.addAdvanced('gtceu:boom_of_create', (item, advanced, text) => {
-        text.add(1, Text.translate('boom_of_create').gray())
-        text.add(2, Text.translate('ctnh.boom_of_create.basic'))
-        text.add(3, Text.translate('ctnh.boom_of_create.coolant'))
-        text.add(4, Text.translate('ctnh.boom_of_create.overclock'))
-        text.add(5, Text.translate('ctnh.boom_of_create.safe'))
-    })
-    event.addAdvanced('gtceu:crystallizer', (item, advanced, text) => {
-        text.add(1, Text.translate('crystallizer').gray())
-        text.add(2, Text.translate('ctnh.crystallizer.basic'))
-        text.add(3, Text.translate('ctnh.crystallizer.coolant'))
-        text.add(4, Text.translate('ctnh.crystallizer.overclock'))
-        text.add(5, Text.translate('ctnh.crystallizer.safe'))
-    })
-    event.addAdvanced("gtceu:vacuum_sintering_tower", (item, advanced, text) => {
-        text.add(1, Text.translate('vacuum_sintering_tower').gray())
     })
     event.addAdvanced("gtceu:ion_exchanger", (item, advanced, text) => {
         text.add(1, Text.translate('ion_exchanger').gray())
@@ -213,12 +172,6 @@ ItemEvents.tooltip(event => {
         text.add(2, Text.translate('ctnh.large_gas_collection_chamber.tooltip.0'))
         text.add(3, Text.translate('ctnh.large_gas_collection_chamber.tooltip.1'))
         text.add(4, Text.translate('ctnh.large_gas_collection_chamber.tooltip.2'))
-    })
-    event.addAdvanced('gtceu:decay_pools_machine', (item, advanced, text) => {
-        text.add(1, Text.translate('decay_pools_machine').gray())
-        text.add(2, Text.translate('ctnh.decay_pools_machine.tooltip.0'))
-        text.add(3, Text.translate('ctnh.decay_pools_machine.tooltip.1'))
-        text.add(4, Text.translate('ctnh.decay_pools_machine.tooltip.2'))
     })
     event.addAdvanced('gtceu:advanced_blast_furnace', (item, advanced, text) => {
         text.add(1, Text.translate('advanced_blast_furnace').gray())
