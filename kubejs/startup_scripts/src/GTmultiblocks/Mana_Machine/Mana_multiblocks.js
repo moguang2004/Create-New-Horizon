@@ -13,12 +13,12 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .aisle("EEEEE", "EAAAE", "E#A#E", "EAAAE", "E#C#E", "BBCBB") 
             .aisle("EEEEE", "E#A#E", "E###E", "E#A#E", "E###E", "##B##") 
             .aisle("#EEE#", "#E@E#", "#EEE#", "#EEE#", "#EEE#", "##B##") 
-            .where("A", Predicates.blocks("kubejs:elementium_pipe_casing"))
+            .where("A", Predicates.blocks("ctnhcore:elementium_pipe_casing"))
             .where("B", Predicates.blocks("gtceu:mana_steel_frame"))
-            .where("C", Predicates.blocks("kubejs:mana_steel_gearbox_casing"))
-            .where("D", Predicates.blocks("kubejs:mana_steel_casing"))
+            .where("C", Predicates.blocks("ctnhcore:mana_steel_gearbox_casing"))
+            .where("D", Predicates.blocks("ctnhcore:mana_steel_casing"))
             .where("#", Predicates.any())
-            .where("E",Predicates.blocks("kubejs:mana_steel_casing")
+            .where("E",Predicates.blocks("ctnhcore:mana_steel_casing")
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS)))
             .where("F", Predicates.blocks("gtceu:steel_gearbox"))
@@ -49,3 +49,4 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer('botania:block/polished_livingrock', 'gtceu:block/multiblock/generator/large_steam_turbine', false)
 
 })
+//魔力搅拌机
