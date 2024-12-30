@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             false
         )
 		.recipeModifiers([
-			(/** @type {Internal.IMultiController} */ machine,/** @type {Internal.GTRecipe} */ recipe,params,result)=>{
+			(/** @type {Internal.IMultiController} */ machine,/** @type {Internal.GTRecipe} */ recipe)=>{
 				recipe=GTRecipeModifiers.accurateParallel(machine, recipe, 2147483647, false).getFirst();
 
 				var multiplier=1;
@@ -50,7 +50,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 
 
 				
-				return modifyRecipe(recipe,$GTRecipeCapabilities.FLUID, $ContentModifier.multiplier(multiplier),false,false);
+				return (recipe) => modifyRecipe(recipe,$GTRecipeCapabilities.FLUID, $ContentModifier.multiplier(multiplier),false,false);
             }
 		])
 		

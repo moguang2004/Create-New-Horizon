@@ -17,8 +17,10 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     /**
      * @type {Internal.MachineBuilder}
      */
-    let builder=event.create('digital_well_of_suffer', 'simple', GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV) 
-    builder.recipeType(GTRecipeTypes.get('digital_well_of_suffer'))
+    event.create('digital_well_of_suffer', 'simple')
+    .tiers( GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV)
+    .definition((tier, builder) =>{
+        builder.recipeType(GTRecipeTypes.get('digital_well_of_suffer'))
     
         .editableUI($SimpleTieredMachine.EDITABLE_UI_CREATOR.apply(GTCEu.id('digital_well_of_suffer'),GTRecipeTypes.get('digital_well_of_suffer')))
         .rotationState(RotationState.NON_Y_AXIS)
@@ -35,15 +37,12 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                 else if(count<300) multiplier=1.5;
                 else if(count<900) multiplier=2;
                 else multiplier=3;
-                return modifyRecipe(recipe, $GTRecipeCapabilities.FLUID, $ContentModifier.multiplier(multiplier), false, false);
+                return recipe => modifyRecipe(recipe, $GTRecipeCapabilities.FLUID, $ContentModifier.multiplier(multiplier), false, false);
             }catch(error){}
-            return recipe;
+            return recipe => recipe;
             })
-        .tankScalingFunction(tier => tier * 32000)
-        
-        
-    
-    
+    })
+    .tankScalingFunction(tier => tier * 32000)
 })
 
 //This machine comes from the modpack THUnion自制整合包vol.2, and is made by Sigmit64

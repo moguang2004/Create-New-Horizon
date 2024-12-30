@@ -198,7 +198,7 @@
 			id: "329FAFF1FBA3D5A9"
 			tasks: [{
 				id: "3061CCD61FA8A84C"
-				item: "gtceu:water_power_station"
+				item: "ctnhcore:water_power_station"
 				type: "item"
 			}]
 			x: 3.5d
@@ -635,7 +635,7 @@
 			id: "277DB91044053620"
 			tasks: [{
 				id: "7FA4FF5B4257815A"
-				item: "gtceu:bio_reactor"
+				item: "ctnhcore:bio_reactor"
 				type: "item"
 			}]
 			x: 3.5d

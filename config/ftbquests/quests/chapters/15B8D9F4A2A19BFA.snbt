@@ -175,7 +175,7 @@
 			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest16.subtitle}"
 			tasks: [{
 				id: "4A866FC012AACA73"
-				item: "gtceu:water_power_station"
+				item: "ctnhcore:water_power_station"
 				type: "item"
 			}]
 			x: 6.0d

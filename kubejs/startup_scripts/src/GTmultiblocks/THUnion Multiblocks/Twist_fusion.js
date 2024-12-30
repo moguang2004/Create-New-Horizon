@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     for(let i=0;i<=9;i++) builder.tooltips(Component.translatable(`ctnh.${builder.id}.${i}`));
     builder.rotationState(RotationState.NON_Y_AXIS)
         .recipeModifier(
-            (machine,/** @type {Internal.GTRecipe} */ recipe, params, result)=>{
+            (machine,/** @type {Internal.GTRecipe} */ recipe)=>{
                 if(recipe.getType().toString()=='gtceu:fusion_reactor'){
 					var startEU=recipe.data.getLong('eu_to_start');
 					if(startEU<=160000000){
@@ -26,8 +26,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 						recipe=GTRecipeModifiers.accurateParallel(machine,recipe,4,false).getFirst();
 					}
 				}
-				recipe=GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK).apply(machine,recipe,params,result);
-				return recipe;
+				let newrecipe=GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK).apply(machine,recipe,params,result);
+				return (recipe) => newrecipe;
             }
         )
         .recipeTypes([GTRecipeTypes.FUSION_RECIPES,GTRecipeTypes.get('twisted_fusion')])

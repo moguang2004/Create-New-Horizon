@@ -558,7 +558,7 @@ ServerEvents.recipes(event => {
         E: "#gtceu:circuits/hv"
     })
     event.shaped(
-        Item.of("gtceu:water_power_station", 1), [
+        Item.of("ctnhcore:water_power_station", 1), [
         "AAA",
         "BCB",
         "DED"
@@ -682,18 +682,18 @@ ServerEvents.recipes(event => {
         A: "gtceu:aluminium_turbine_blade",
         B: "gtceu:long_aluminium_rod"
     })
+    // event.shaped(
+    //     Item.of("ctnhcore:ulv_rotor_holder", 1), [
+    //     "ABA",
+    //     "BCB",
+    //     "ABA"
+    // ], {
+    //     A: "gtceu:small_brass_gear",
+    //     B: "gtceu:bronze_gear",
+    //     C: "gtceu:ulv_machine_hull"
+    // })
     event.shaped(
-        Item.of("gtceu:ulv_rotor_holder0", 1), [
-        "ABA",
-        "BCB",
-        "ABA"
-    ], {
-        A: "gtceu:small_brass_gear",
-        B: "gtceu:bronze_gear",
-        C: "gtceu:ulv_machine_hull"
-    })
-    event.shaped(
-        Item.of("gtceu:lv_rotor_holder1", 1), [
+        Item.of("ctnhcore:lv_rotor_holder", 1), [
         "ABA",
         "BCB",
         "ABA"
@@ -703,7 +703,7 @@ ServerEvents.recipes(event => {
         C: "gtceu:lv_machine_hull"
     })
     event.shaped(
-        Item.of("gtceu:mv_rotor_holder2", 1), [
+        Item.of("ctnhcore:mv_rotor_holder", 1), [
         "ABA",
         "BCB",
         "ABA"
@@ -845,7 +845,7 @@ ServerEvents.recipes(event => {
         C: "gtceu:wrought_iron_gear",
         D: "gtceu:long_bronze_rod"
     })
-    event.shaped("gtceu:ion_exchanger", [
+    event.shaped("ctnhcore:ion_exchanger", [
         "BCB",
         "DAD",
         "BCB"
@@ -879,7 +879,7 @@ ServerEvents.recipes(event => {
         S: "gtceu:hssg_spring",
         V: "gtceu:iv_alloy_smelter"
     })
-    event.shaped("gtceu:condensing_discrete", [
+    event.shaped("ctnhcore:condensing_discrete", [
         "BCB",
         "DAG",
         "SVS"
@@ -941,7 +941,7 @@ ServerEvents.recipes(event => {
         E: 'gtceu:double_titanium_plate'
     })
     event.shaped(
-        Item.of('gtceu:bio_reactor', 1), [
+        Item.of('ctnhcore:bio_reactor', 1), [
         "ABE",
         "CDE",
         "ABE"
@@ -949,7 +949,7 @@ ServerEvents.recipes(event => {
         A: 'gtceu:ev_robot_arm',
         B: 'gtceu:titanium_rotor',
         C: '#gtceu:circuits/iv',
-        D: 'kubejs:bio_reactor_casing',
+        D: 'ctnhcore:bio_reactor_casing',
         E: 'gtceu:uranium_triplatinum_ingot'
     })
     event.shaped(
@@ -962,7 +962,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:stick'
     })
     event.shaped(
-        Item.of('ctnh:chemical_vapor_deposition_machine', 1), [
+        Item.of('ctnhcore:chemical_vapor_deposition_machine', 1), [
         "ABA",
         "CDE",
         "VVV"
@@ -1143,7 +1143,7 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('gtceu:large_gas_collection_chamber', 1), [
+        Item.of('ctnhcore:dimensional_gas_collection_chamber', 1), [
         "AAA",
         "BCB",
         "DED"
@@ -1156,7 +1156,7 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('gtceu:large_steel_furnaces', 1), [
+        Item.of('ctnhcore:large_steel_furnace', 1), [
         "DAD",
         "BCB",
         "DAD"
@@ -1168,7 +1168,7 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('gtceu:large_steel_alloy_furnace', 1), [
+        Item.of('ctnhcore:large_steel_alloy_furnace', 1), [
         "DAD",
         "BCB",
         "DAD"
@@ -1229,7 +1229,7 @@ ServerEvents.recipes(event => {
         C: 'gtceu:steel_plate'
     })
     event.shaped(
-        Item.of('gtceu:advanced_blast_furnace', 1), [
+        Item.of('ctnhcore:advanced_coke_oven', 1), [
         "BCB",
         "CAC",
         "BCB"
@@ -1255,7 +1255,7 @@ ServerEvents.recipes(event => {
         B: '#forge:chests/wooden'
     })
     event.shaped(
-        Item.of("kubejs:elementium_normal_fluid_pipe", 2), [
+        Item.of("ctnhcore:elementium_normal_fluid_pipe", 2), [
         "A A",
         "A A",
         "A A"
@@ -1263,17 +1263,17 @@ ServerEvents.recipes(event => {
         A: "gtceu:elementium_plate"
     })
     event.shaped(
-        Item.of("kubejs:elementium_pipe_casing", 1), [
+        Item.of("ctnhcore:elementium_pipe_casing", 1), [
         "CAC",
         "ABA",
         "CAC"
     ], {
-        A: "kubejs:elementium_normal_fluid_pipe",
+        A: "ctnhcore:elementium_normal_fluid_pipe",
         B: "gtceu:elementium_frame",
         C: "gtceu:elementium_plate"
     })
     event.shaped(
-        Item.of("kubejs:mana_steel_gearbox_casing", 2), [
+        Item.of("ctnhcore:mana_steel_gearbox_casing", 2), [
         "ADA",
         "CBC",
         "AFA"

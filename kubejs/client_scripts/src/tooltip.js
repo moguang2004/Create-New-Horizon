@@ -69,17 +69,6 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('gtceu:mana_seperator', (item, advanced, text) => {
         text.add(1, Text.translate('mana_machine').gray())
     })
-
-    event.addAdvanced('gtceu:water_power_station', (item, advanced, text) => {
-        text.add(1, Text.translate('water_power_station').gray())
-        text.add(2, Text.translate('ctnh.water_power_station.mechanism'))
-        text.add(3, Text.translate('ctnh.water_power_station.random').green())
-    })
-    event.addAdvanced('gtceu:bio_reactor', (item, advanced, text) => {
-        text.add(1, Text.translate('bio_reactor').gray())
-        //text.add(2,Text.translate('ctnh.bio_reactor.basic_power'))
-        //text.add(3,Text.translate('ctnh.bio_reactor.restriction'))
-    })
     event.addAdvanced('ctnhcore:photovoltaic_power_station_energetic', (item, advanced, text) => {
         text.add(1, Text.translate('photovoltaic_power_station_energetic').gray())
         text.add(2, Text.translate('photovoltaic_power_station_energetic_basic'))
@@ -192,12 +181,6 @@ ItemEvents.tooltip(event => {
         text.add(9, Text.translate('ctnh.void_miner.tooltip.7'))
         text.add(10, Text.translate('ctnh.void_miner.tooltip.8'))
         text.add(11, Text.translate('ctnh.void_miner.tooltip.9'))
-    })
-    event.addAdvanced('gtceu:mana_mixer', (item, advanced, text) => {
-        text.add(1, Text.translate('ctnh.mana_mixer'))
-        text.add(2, Text.translate('mana_machine').gray())
-        text.add(3, Text.translate('ctnh.advanced_mana_machine.mana_consume'))
-        text.add(4, Text.translate('ctnh.perfect_overclock'))
     })
     event.add('kubejs:broken_temperature_keeping_device', Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit', Text.translate('ctnh.basic_energy_conduit'))

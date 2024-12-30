@@ -5,32 +5,6 @@
       "name": "mo_guang",
       "uniqueId": "047706db-288c-43d5-976b-ac2e8ef4a62f"
     },
-    "time": 1729133520445,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/S3UEIxyLbJ"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "mo_guang",
-      "uniqueId": "047706db-288c-43d5-976b-ac2e8ef4a62f"
-    },
-    "time": 1729058749318,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/2PUMPL9qwT"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "mo_guang",
-      "uniqueId": "047706db-288c-43d5-976b-ac2e8ef4a62f"
-    },
     "time": 1725952808820,
     "type": "Profiler",
     "data": {

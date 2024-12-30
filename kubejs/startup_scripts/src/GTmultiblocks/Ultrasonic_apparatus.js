@@ -8,7 +8,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('ultrasonic_apparatus', 'multiblock',holder => new $CoilWorkableElectricMultiblockMachine(holder))
+    event.create('ultrasonic_apparatus', 'multiblock').machine(holder => new $CoilWorkableElectricMultiblockMachine(holder))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('ultrasonication')
         .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)

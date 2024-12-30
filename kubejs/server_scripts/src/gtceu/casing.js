@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
   let ctnh = event.recipes.gtceu
-  let material = ['osmiridium', 'iridium']
+  let material = ['iridium']
   material.forEach(m => {
     ctnh.assembler(m + '_casing')
       .itemInputs(['6x gtceu:' + m + '_plate', 'gtceu:' + m + '_frame'])
@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
       D: 'gtceu:' + m + '_frame'
     })
   })
-  let material2 = ['mana_steel', 'terra_steel', 'elementium', 'alfsteel']
+  let material2 = ['osmiridium', 'mana_steel', 'terra_steel', 'elementium', 'alfsteel']
   material2.forEach(m => {
     ctnh.assembler(m + '_casing')
       .itemInputs(['6x gtceu:' + m + '_plate', 'gtceu:' + m + '_frame'])
@@ -60,11 +60,11 @@ ServerEvents.recipes(event => {
   ctnh.assembler('bio_reactor_casing')
     .itemInputs(['6x gtceu:staballoy_plate', 'gtceu:staballoy_frame'])
     .circuit(6)
-    .itemOutputs('2x kubejs:bio_reactor_casing')
+    .itemOutputs('2x ctnhcore:bio_reactor_casing')
     .EUt(16)
     .duration(50)
   event.shaped(
-    Item.of('kubejs:bio_reactor_casing', 2), [
+    Item.of('ctnhcore:bio_reactor_casing', 2), [
     "ABA",
     "ADA",
     "ACA"

@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         .circuit(1)
         .inputFluids("gtceu:drilling_fluid 500")
         .itemOutputs('gtceu:bedrock_dust_dust')
-        .outputFluids('gtceu:bedrock_fog', 1000)
+        .outputFluids(Fluid.of('gtceu:bedrock_fog', 1000))
         .EUt(491520)
         .duration(100)
     ctnh.chemical_vapor_deposition("dust_gas_separation")

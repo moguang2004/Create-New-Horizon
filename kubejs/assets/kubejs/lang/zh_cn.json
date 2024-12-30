@@ -71,7 +71,6 @@
     "item.kubejs.elf_catalyst": "精灵催化剂",
     "item.kubejs.terria_catalyst": "§a泰拉催化剂",
     "block.kubejs.heavy_machinery_casing": "重型机械机壳",
-    "block.kubejs.bio_reactor_casing": "生物反应器外壳",
     "block.kubejs.shielded_reactor_casing": "覆层核反应堆外壳",
     "block.kubejs.reflect_light_casing": "反光机械外壳",
     "block.kubejs.energetic_photovoltaic_block": "充能光伏方块",
@@ -171,4 +170,3 @@
     "item.kubejs.mana_lens": "§3魔力透镜§3",
     "item.kubejs.elementium_lens": "§d源质透镜§d"
 }
-

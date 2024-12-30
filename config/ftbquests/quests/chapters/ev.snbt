@@ -946,7 +946,10 @@
 			tasks: [{
 				count: 64L
 				id: "570295622CA11843"
-				item: { Count: 64, id: "gtceu:nuclear_waste_dust" }
+				item: {
+					Count: 64
+					id: "gtceu:nuclear_waste_dust"
+				}
 				type: "item"
 			}]
 			x: 0.0d
