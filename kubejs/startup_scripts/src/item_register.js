@@ -135,6 +135,7 @@ StartupEvents.registry("item", event => {
     event.create('mana_wafer')
     event.create("elf_catalyst")
     event.create("terria_catalyst")
+    event.create("encapsulated_twist_mana")
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')

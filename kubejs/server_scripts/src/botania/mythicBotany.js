@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
         })
     }
     infuser(event, ['botania:manasteel_ingot', 'botania:mana_pearl', 'botania:mana_diamond', 'botania:rune_mana'], 'botania:terrasteel_ingot', 500000)
-    infuser(event, ['kubejs:advanced_mana_transistor', 'kubejs:advanced_mana_capacitor', 'kubejs:advanced_mana_inductor', 'gtceu:advanced_integrated_circuit','kubejs:elementium_cpu_chip'], 'kubejs:mana_integrated_circuit', 250000)
+    infuser(event, ['kubejs:advanced_mana_transistor', 'kubejs:advanced_mana_capacitor', 'kubejs:advanced_mana_inductor', 'gtceu:advanced_integrated_circuit', 'kubejs:elementium_cpu_chip'], 'kubejs:mana_integrated_circuit', 250000)
     infuser(event, ['gtceu:simple_soc', 'botania:mana_diamond', 'botania:rune_mana'], 'kubejs:mana_soc', 50000)
     event.custom({
         "type": "mythicbotany:infuser",
@@ -66,27 +66,6 @@ ServerEvents.recipes(event => {
         },
         "toColor": 16750080
     }).id('mythicbotany:mythicbotany_infusion/alfsteel_ingot')
-    event.custom({
-        "type": "mythicbotany:infuser",
-        "fromColor": 16711821,
-        "group": "infuser",
-        "ingredients": [{
-                "item": "botania:gaia_ingot"
-            },
-            {
-                "item": "botania:terrasteel_ingot"
-            },
-            {
-                "item": "mythicbotany:alfsteel_ingot"
-            }
-        ],
-        "mana": 2000000,
-        "output": {
-            "count": 1,
-            "item": "gtceu:super_mana_ingot"
-        },
-        "toColor": 16750080
-    })
     event.custom({
             "type": "mythicbotany:rune_ritual",
             "center": {
