@@ -136,6 +136,7 @@ StartupEvents.registry("item", event => {
     event.create("elf_catalyst")
     event.create("terria_catalyst")
     event.create("encapsulated_twist_mana")
+    event.create('SCP-500')
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')
