@@ -136,7 +136,15 @@ StartupEvents.registry("item", event => {
     event.create("elf_catalyst")
     event.create("terria_catalyst")
     event.create("encapsulated_twist_mana")
-    event.create('SCP-500')
+})
+StartupEvents.registry("item",event =>{
+    event.create("scp_500","basic").food(food=>{
+        food.alwaysEdible(true)
+        food.effect("minecraft:regeneration",300,10,1)
+        food.eaten(ctx =>{
+            Utils.server.runCommandSilent('title @p title {"text":"你的所有疾病已被治愈，在短时间内你将获得强大的恢复能力","color":"red"}');
+        })
+    })
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')
