@@ -143,6 +143,7 @@ StartupEvents.registry("item",event =>{
         food.effect("minecraft:regeneration",300,10,1)
         food.effect("minecraft:resistance",300,5,1)
         food.eaten(ctx =>{
+            Utils.server.runCommandSilent('medical_condition clear @p');
             Utils.server.runCommandSilent('title @p title {"text":"你的所有疾病已被治愈，在短时间内你将获得强大的恢复能力","color":"red"}');
         })
     })
