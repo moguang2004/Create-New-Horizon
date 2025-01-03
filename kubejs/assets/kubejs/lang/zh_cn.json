@@ -169,5 +169,8 @@
     "item.kubejs.elementium_cpu_wafer": "精灵CPU晶圆",
     "item.kubejs.mana_lens": "§3魔力透镜§3",
     "item.kubejs.elementium_lens": "§d源质透镜§d",
-    "item.kubejs.encapsulated_twist_mana": "封装扭曲魔力"
+    "item.kubejs.encapsulated_twist_mana": "封装扭曲魔力",
+    "kubejs.scp_500": "SCP-500",
+    "kubejs.scp_500.0": "万能药",
+    "kubejs.scp_500.1": "§4可用于治疗所有疾病§4"
 }
