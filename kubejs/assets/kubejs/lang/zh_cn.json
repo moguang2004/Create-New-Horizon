@@ -140,6 +140,7 @@
     "ctnh.bauxite_process_catalyst": "村庄里的图书管理员掌握这个古老的技术，成为村庄英雄后他就会传授给你",
     "ctnh.platinum_metal_catalyst_shard1": "久远的时间使他们变成了水里的宝藏，通过钓鱼获得",
     "ctnh.platinum_metal_catalyst_shard2": "深渊里的深潜一组掌握这个技术，尝试与他们交易吧",
+    "btnh.ark_of_homo": "§m你的旅程的物理的顶点，拥有着能使homo分崩离析的力量§r\n§c左键进行一次五连斩，斩击以掷出剑刃结束。掷出的剑刃会跟随你的光标。在剑刃掷出时松开左键会释放爆炸剪击\n§r§e右键用剑刃向前方剪出剑刃。击中敌人时会进行招架，并使你短暂无敌你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少160点。格挡后会获得15层充能，充能会强化普通攻击\n§9当处于强化状态时，按住上并点击右键会引起时空之中的大撕裂，并一次性释放所有充能。若释放的充能超过5层，保持按住上键将允许你冲过撕裂\n\n这里是工业包，所以其实他根本就是一把普通的剪刀\n哈哈\nHave Fun!(NOT)",
     "ctnh.iron_vein": "铁矿脉",
     "ctnh.copper_vein": "铜矿脉",
     "ctnh.zinc_vein": "锌矿脉",
@@ -170,7 +171,6 @@
     "item.kubejs.mana_lens": "§3魔力透镜§3",
     "item.kubejs.elementium_lens": "§d源质透镜§d",
     "item.kubejs.encapsulated_twist_mana": "封装扭曲魔力",
-    "kubejs.scp_500": "SCP-500",
-    "kubejs.scp_500.0": "万能药",
-    "kubejs.scp_500.1": "§4可用于治疗所有疾病§4"
+    "item.kubejs.yharim": "§6圣金源锭"
+
 }
