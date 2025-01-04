@@ -136,18 +136,7 @@ StartupEvents.registry("item", event => {
     event.create("elf_catalyst")
     event.create("terria_catalyst")
     event.create("encapsulated_twist_mana")
-})
-StartupEvents.registry("item",event =>{
-    event.create("scp_500","basic").food(food=>{
-        food.alwaysEdible(true)
-        food.effect("minecraft:regeneration",999,10,1)
-        food.effect("minecraft:resistance",999,3,1)
-        food.fastToEat(true)
-        food.eaten(ctx =>{
-            Utils.server.runCommandSilent('medical_condition clear @p');
-            Utils.server.runCommandSilent('title @p title {"text":"你的所有疾病已被治愈，在短时间内你将获得强大的恢复能力","color":"red"}');
-        })
-    })
+    event.create("yharim").tooltip('你必须§6爱护蜜蜂§r才能激发这个锭的真正力量，哦你已经爱过蜜蜂了')
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')
@@ -213,6 +202,7 @@ StartupEvents.registry("block", event => {
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureAll("kubejs:block/mana_steel_tungstensteel_gearbox_casing")
+
 })
 
 
