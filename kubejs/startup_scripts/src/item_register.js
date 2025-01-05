@@ -137,6 +137,11 @@ StartupEvents.registry("item", event => {
     event.create("terria_catalyst")
     event.create("encapsulated_twist_mana")
     event.create("yharim").tooltip('你必须§6爱护蜜蜂§r才能激发这个锭的真正力量，哦你已经爱过蜜蜂了')
+    event.create("sculk_energycore")
+    event.create("sculk_energycluster")
+    event.create("sculk_tentacle")
+    event.create("sculk_brain")
+    event.create("sculk_heart")
 })
 StartupEvents.registry("item",event =>{
     event.create("scp_500","basic").food(food=>{
