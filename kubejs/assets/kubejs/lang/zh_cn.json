@@ -172,12 +172,12 @@
     "item.kubejs.elementium_lens": "§d源质透镜§d",
     "item.kubejs.encapsulated_twist_mana": "封装扭曲魔力",
     "item.kubejs.yharim": "§6圣金源锭",
-    "kubejs.scp_500": "SCP-500",
+    "item.kubejs.scp_500": "SCP-500",
     "kubejs.scp_500.0": "万能药",
     "kubejs.scp_500.1": "§4可用于治疗所有疾病§4",
-    "kubejs.sculk_energycore": "幽匿能量核心",
-    "kubejs.sculk_energycluster": "幽匿能量簇",
-    "kubejs.sculk_tentacle": "幽匿触手",
-    "kubejs.sculk_brain": "幽匿大脑",
-    "kubejs.sculk_heart": "幽匿心脏"
+    "item.kubejs.sculk_energycore": "幽匿能量核心",
+    "item.kubejs.sculk_energycluster": "幽匿能量簇",
+    "item.kubejs.sculk_tentacle": "幽匿触手",
+    "item.kubejs.sculk_brain": "幽匿大脑",
+    "item.kubejs.sculk_heart": "幽匿心脏"
 }
