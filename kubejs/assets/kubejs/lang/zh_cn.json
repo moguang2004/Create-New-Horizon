@@ -179,5 +179,6 @@
     "item.kubejs.sculk_energycluster": "幽匿能量簇",
     "item.kubejs.sculk_tentacle": "幽匿触手",
     "item.kubejs.sculk_brain": "幽匿大脑",
-    "item.kubejs.sculk_heart": "幽匿心脏"
+    "item.kubejs.sculk_heart": "幽匿心脏",
+    "block.kubejs.sculk_casing": "幽匿机械方块"
 }

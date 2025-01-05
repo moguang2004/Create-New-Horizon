@@ -219,6 +219,13 @@ StartupEvents.registry("block", event => {
         .tagBlock("forge:mineable/wrench")
         .requiresTool(true)
         .textureAll("kubejs:block/mana_steel_tungstensteel_gearbox_casing")
+    event.create('sculk_casing')
+        .noValidSpawns(true)
+        .soundType("metal")
+        .mapColor("metal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("creat:casing")
+        .requiresTool(true)
 
 })
 
