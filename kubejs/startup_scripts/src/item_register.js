@@ -153,7 +153,7 @@ StartupEvents.registry("item",event =>{
             Utils.server.runCommandSilent('medical_condition clear @p');
             Utils.server.runCommandSilent('title @p title {"text":"你的所有疾病已被治愈，在短时间内你将获得强大的恢复能力","color":"red"}');
         })
-    }
+    })
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')
