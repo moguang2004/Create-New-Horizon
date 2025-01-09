@@ -316,7 +316,7 @@ ServerEvents.recipes(event => {
     }
     //terra_steel
     terra_plate(event, ['botania:manasteel_ingot', 'botania:mana_pearl', 'botania:mana_diamond', 'botania:rune_mana'], 'botania:terrasteel_ingot', 500000)
-    terra_plate(event, ['kubejs:mana_resistor', 'kubejs:mana_capacitor', 'kubejs:mana_diode', 'gtceu:good_electronic_circuit','kubejs:mana_cpu_chip'], 'kubejs:mana_electronic_circuit', 100000)
+    terra_plate(event, ['kubejs:mana_resistor', 'kubejs:mana_capacitor', 'kubejs:mana_diode', 'gtceu:good_electronic_circuit', 'kubejs:mana_cpu_chip'], 'kubejs:mana_electronic_circuit', 100000)
     terra_plate(event, ['biomesoplenty:blood_bucket', 'biomesoplenty:eyebulb', 'botania:rune_fire'], 'bloodmagic:life_essence_bucket', 50000)
 
     event.recipes.gtceu.mana_reactor('life_essence')
@@ -413,7 +413,7 @@ ServerEvents.recipes(event => {
     runic_altar(event, ['botania:quartz_mana', 'botania:mana_powder', 'botania:manaweave_cloth', 'botania:mana_bottle', 'botania:mana_glass', 'botania:mana_cookie'], "botania:rune_mana", 8000)
     runic_altar(event, ['botania:rune_water', 'botania:rune_fire', 'twilightforest:root', 'minecraft:moss_block', 'minecraft:cherry_sapling', 'twilightforest:hollow_oak_sapling'], "botania:rune_spring", 10000)
     runic_altar(event, ['botania:rune_earth', 'botania:rune_air', 'twilightforest:cicada', 'create:propeller', 'minecraft:melon_slice', 'minecraft:lilac'], "botania:rune_summer", 10000)
-    runic_altar(event, ['botania:rune_fire', 'botania:rune_air', 'twilightforest:fallen_leaves', 'minecraft:wheat', 'biomesoplenty:maple_sapling', 'farmersdelight:straw'], "botania:rune_autumn", 10000)
+    runic_altar(event, ['botania:rune_fire', 'botania:rune_air', 'twilightforest:fallen_leaves', 'minecraft:wheat', 'farmersdelight:straw'], "botania:rune_autumn", 10000)
     runic_altar(event, ['botania:rune_water', 'botania:rune_earth', '#minecraft:wool', 'minecraft:snow_block', 'twilightforest:arctic_fur', 'gtceu:ice_dust'], "botania:rune_winter", 10000)
     runic_altar(event, ['botania:rune_spring', 'botania:rune_earth', 'botania:rune_pride', 'botania:alfheim_portal', 'botania:terrasteel_ingot'], "mythicbotany:vanaheim_rune", 20000)
     runic_altar(event, ['botania:rune_air', 'botania:rune_summer', 'botania:rune_lust', '#minecraft:leaves', 'botania:elementium_ingot'], "mythicbotany:alfheim_rune", 20000)
@@ -448,7 +448,7 @@ ServerEvents.recipes(event => {
                 "item": "gtceu:industrial_tnt"
             },
             {
-                "item": "gtceu:super_mana_ingot"
+                "item": "gtceu:ultra_mana_ingot"
             },
             {
                 "item": "botania:rune_wrath"

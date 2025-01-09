@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
     infuser(event, ['botania:manasteel_ingot', 'botania:mana_pearl', 'botania:mana_diamond', 'botania:rune_mana'], 'botania:terrasteel_ingot', 500000)
     infuser(event, ['kubejs:advanced_mana_transistor', 'kubejs:advanced_mana_capacitor', 'kubejs:advanced_mana_inductor', 'gtceu:advanced_integrated_circuit', 'kubejs:elementium_cpu_chip'], 'kubejs:mana_integrated_circuit', 250000)
     infuser(event, ['gtceu:simple_soc', 'botania:mana_diamond', 'botania:rune_mana'], 'kubejs:mana_soc', 50000)
+    infuser(event, ['gtceu:mana_unstable_plus_dust', 'botania:rune_mana', 'mythicbotany:asgard_rune', ], 'gtceu:mana_infused_plus_dust', 50000)
     event.custom({
         "type": "mythicbotany:infuser",
         "fromColor": 255,
@@ -66,6 +67,7 @@ ServerEvents.recipes(event => {
         },
         "toColor": 16750080
     }).id('mythicbotany:mythicbotany_infusion/alfsteel_ingot')
+
     event.custom({
             "type": "mythicbotany:rune_ritual",
             "center": {
@@ -347,6 +349,266 @@ ServerEvents.recipes(event => {
             "ticks": 200
         })
         .id('mythicbotany:mana_collector')
+    event.custom({
+            type: "mythicbotany:rune_ritual",
+            "center": {
+                "item": 'mythicbotany:midgard_rune'
+            },
+            "group": "rune_rituals",
+            "inputs": [{
+                    "item": 'gtceu:zenith_essence_bucket'
+                },
+                {
+                    "item": 'gtceu:zenith_essence_bucket'
+                },
+                {
+                    "item": 'gtceu:zenith_essence_bucket'
+                }
+            ],
+            "mana": 500000,
+            "outputs": [{
+                "count": 1,
+                "item": 'ctnhcore:horizen_rune'
+            }],
+            "runes": [{
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": 5,
+                    "z": 0
+
+                }, {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": 5,
+                    "z": 1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": 5,
+                    "z": -1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": -5,
+                    "z": 0
+
+                }, {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": -5,
+                    "z": 1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": -5,
+                    "z": -1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": 5,
+                    "z": -1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": 0,
+                    "z": 4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": 1,
+                    "z": 4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": -1,
+                    "z": 4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": -1,
+                    "z": -4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": 0,
+                    "z": -4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": 1,
+                    "z": -4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_eye'
+                    },
+                    "x": -1,
+                    "z": 4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:mana_plus_ingot'
+                    },
+                    "x": 2,
+                    "z": 3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:mana_plus_ingot'
+                    },
+                    "x": 2,
+                    "z": -3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:mana_plus_ingot'
+                    },
+                    "x": -2,
+                    "z": 3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:mana_plus_ingot'
+                    },
+                    "x": -2,
+                    "z": -3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'botania:rune_pride'
+                    },
+                    "x": 3,
+                    "z": 2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'botania:rune_pride'
+                    },
+                    "x": 4,
+                    "z": 2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'mythicbotany:niflheim_rune'
+                    },
+                    "x": 3,
+                    "z": -2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'mythicbotany:niflheim_rune'
+                    },
+                    "x": 4,
+                    "z": -2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'botania:rune_lust'
+                    },
+                    "x": -4,
+                    "z": 2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'botania:rune_lust'
+                    },
+                    "x": -3,
+                    "z": 2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'mythicbotany:muspelheim_rune'
+                    },
+                    "x": -3,
+                    "z": -2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'mythicbotany:muspelheim_rune'
+                    },
+                    "x": -4,
+                    "z": -2
+
+                },
+            ],
+            "ticks": 200
+        }
+
+    ).id('ctnh:horizen_rune')
+
+
     event.replaceInput({}, 'mythicbotany:alfsteel_ingot', 'mythicbotany:alfsteel_ingot')
     event.replaceOutput({}, 'mythicbotany:alfsteel_ingot', 'mythicbotany:alfsteel_ingot')
 })
