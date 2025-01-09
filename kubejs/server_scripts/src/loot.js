@@ -11,7 +11,7 @@ LootJS.modifiers(event => {
         .replaceLoot("enderio:wood_gear", "gtceu:wood_gear", true)
         .replaceLoot("enderio:copper_alloy_ingot", "gtceu:copper_alloy_ingot", true)
         .replaceLoot("enderio:redstone_alloy_ingot", "gtceu:redstone_alloy_ingot", true)
-        .replaceLoot("enderio:pulsating_alloy_ingot", "gtceu:pulsating_alloy_ingot", true)
+        .replaceLoot("enderio:_ingot", "gtceu:pulsating_alloy_ingot", true)
         .replaceLoot("enderio:vibrant_alloy_ingot", "gtceu:vibrant_alloy_ingot", true)
         .replaceLoot("minecraft:gold_ore", "gtceu:precious_alloy_ore")
         .removeLoot("bloodmagic:strong_tau")
@@ -20,24 +20,26 @@ LootJS.modifiers(event => {
         .replaceLoot("minecraft:gold_nugget", "gtceu:precious_alloy_nugget", true)
         .replaceLoot("minecraft:gold_ingot", "gtceu:precious_alloy_ingot", true)
     event.addLootTypeModifier(LootType.ENTITY)
-        .replaceLoot('minecraft:netherite_ingot','gtceu:netherite_ingot',true)
-    //event.addLootTableModifier("dun")
+        .replaceLoot('minecraft:netherite_ingot', 'gtceu:netherite_ingot', true)
+        //event.addLootTableModifier("dun")
     const gtceulv = [LootEntry.of("gtceu:lv_electric_motor", 1).when(c => { c.randomChance(0.2) }),
-    LootEntry.of("gtceu:tin_single_wire", 2).when(c => { c.randomChance(0.4) }),
-    LootEntry.of("gtceu:steel_ingot", 3).when(c => { c.randomChance(0.5) }),
-    LootEntry.of("gtceu:lv_machine_hull", 1).when(c => { c.randomChance(0.1) }),
-    LootEntry.of("gtceu:steel_frame", 2).when(c => { c.randomChance(0.3) }),
-    LootEntry.of("gtceu:basic_electronic_circuit", 1).when(c => { c.randomChance(0.3) }),
-    LootEntry.of("gtceu:phenolic_printed_circuit_board", 1).when(c => { c.randomChance(0.2) })]
+        LootEntry.of("gtceu:tin_single_wire", 2).when(c => { c.randomChance(0.4) }),
+        LootEntry.of("gtceu:steel_ingot", 3).when(c => { c.randomChance(0.5) }),
+        LootEntry.of("gtceu:lv_machine_hull", 1).when(c => { c.randomChance(0.1) }),
+        LootEntry.of("gtceu:steel_frame", 2).when(c => { c.randomChance(0.3) }),
+        LootEntry.of("gtceu:basic_electronic_circuit", 1).when(c => { c.randomChance(0.3) }),
+        LootEntry.of("gtceu:phenolic_printed_circuit_board", 1).when(c => { c.randomChance(0.2) })
+    ]
 
     const steam = [LootEntry.of("gtceu:bronze_brick_casing").when(c => { c.randomChance(0.1) }),
-    LootEntry.of("gtceu:bronze_plate", 2).when(c => { c.randomChance(0.3) }),
-    LootEntry.of("kubejs:basic_mechanism", 1).when(c => { c.randomChance(0.5) }),
-    LootEntry.of("gtceu:andesite_alloy_ingot", 3).when(c => { c.randomChance(0.6) }),
-    LootEntry.of("gtceu:andesite_alloy_gear").when(c => { c.randomChance(0.2) }),
-    LootEntry.of("gtceu:red_alloy_single_wire", 2).when(c => { c.randomChance(0.4) }),
-    LootEntry.of("gtceu:vacuum_tube", 1).when(c => { c.randomChance(0.3) }),
-    LootEntry.of("create:andesite_casing", 1).when(c => { c.randomChance(0.5) })]
+        LootEntry.of("gtceu:bronze_plate", 2).when(c => { c.randomChance(0.3) }),
+        LootEntry.of("kubejs:basic_mechanism", 1).when(c => { c.randomChance(0.5) }),
+        LootEntry.of("gtceu:andesite_alloy_ingot", 3).when(c => { c.randomChance(0.6) }),
+        LootEntry.of("gtceu:andesite_alloy_gear").when(c => { c.randomChance(0.2) }),
+        LootEntry.of("gtceu:red_alloy_single_wire", 2).when(c => { c.randomChance(0.4) }),
+        LootEntry.of("gtceu:vacuum_tube", 1).when(c => { c.randomChance(0.3) }),
+        LootEntry.of("create:andesite_casing", 1).when(c => { c.randomChance(0.5) })
+    ]
 
     const gtceumv = [LootEntry.of("gtceu:mv_electric_motor", 1).when(c => { c.randomChance(0.2) }),
         LootEntry.of("gtceu:silver_single_wire", 2).when(c => { c.randomChance(0.4) }),
@@ -46,26 +48,29 @@ LootJS.modifiers(event => {
         LootEntry.of("gtceu:aluminium_frame", 2).when(c => { c.randomChance(0.3) }),
         LootEntry.of("gtceu:good_electronic_circuit", 1).when(c => { c.randomChance(0.3) }),
         LootEntry.of("gtceu:phenolic_printed_circuit_board", 1).when(c => { c.randomChance(0.2) }),
-        LootEntry.of("botania:terrasteel_ingot", 1).when(c => { c.randomChance(0.2) })]
+        LootEntry.of("botania:terrasteel_ingot", 1).when(c => { c.randomChance(0.2) })
+    ]
 
     const gtceuhv = [LootEntry.of("gtceu:hv_electric_motor", 1).when(c => { c.randomChance(0.2) }),
-    LootEntry.of("gtceu:electrum_single_wire", 2).when(c => { c.randomChance(0.4) }),
-    LootEntry.of("gtceu:stainless_steel_ingot", 3).when(c => { c.randomChance(0.5) }),
-    LootEntry.of("gtceu:hv_machine_hull", 1).when(c => { c.randomChance(0.1) }),
-    LootEntry.of("gtceu:stainless_steel_frame", 2).when(c => { c.randomChance(0.3) }),
-    LootEntry.of("gtceu:micro_processor_assembly", 1).when(c => { c.randomChance(0.3) }),
-    LootEntry.of("gtceu:plastic_printed_circuit_board", 1).when(c => { c.randomChance(0.2) }),
-    LootEntry.of("botania:rune_summer", 1).when(c => { c.randomChance(0.2) }),
-    LootEntry.of("botania:rune_spring", 1).when(c => { c.randomChance(0.2) }),
-    LootEntry.of("botania:rune_autumn", 1).when(c => { c.randomChance(0.2) }),
-    LootEntry.of("botania:rune_winter", 1).when(c => { c.randomChance(0.2) })]
+        LootEntry.of("gtceu:electrum_single_wire", 2).when(c => { c.randomChance(0.4) }),
+        LootEntry.of("gtceu:stainless_steel_ingot", 3).when(c => { c.randomChance(0.5) }),
+        LootEntry.of("gtceu:hv_machine_hull", 1).when(c => { c.randomChance(0.1) }),
+        LootEntry.of("gtceu:stainless_steel_frame", 2).when(c => { c.randomChance(0.3) }),
+        LootEntry.of("gtceu:micro_processor_assembly", 1).when(c => { c.randomChance(0.3) }),
+        LootEntry.of("gtceu:plastic_printed_circuit_board", 1).when(c => { c.randomChance(0.2) }),
+        LootEntry.of("botania:rune_summer", 1).when(c => { c.randomChance(0.2) }),
+        LootEntry.of("botania:rune_spring", 1).when(c => { c.randomChance(0.2) }),
+        LootEntry.of("botania:rune_autumn", 1).when(c => { c.randomChance(0.2) }),
+        LootEntry.of("botania:rune_winter", 1).when(c => { c.randomChance(0.2) })
+    ]
 
     const ore = [LootEntry.of("gtceu:raw_galena", 4).when(c => { c.randomChance(0.2) }),
-    LootEntry.of("gtceu:raw_precious_alloy", 3).when(c => { c.randomChance(0.4) }),
-    LootEntry.of("gtceu:raw_coal", 6).when(c => { c.randomChance(0.6) }),
-    LootEntry.of("gtceu:raw_redstone", 3).when(c => { c.randomChance(0.3) }),
-    LootEntry.of("gtceu:raw_chalcopyrite", 5).when(c => { c.randomChance(0.5) }),
-    LootEntry.of("gtceu:raw_realgar", 2).when(c => { c.randomChance(0.1) })]
+        LootEntry.of("gtceu:raw_precious_alloy", 3).when(c => { c.randomChance(0.4) }),
+        LootEntry.of("gtceu:raw_coal", 6).when(c => { c.randomChance(0.6) }),
+        LootEntry.of("gtceu:raw_redstone", 3).when(c => { c.randomChance(0.3) }),
+        LootEntry.of("gtceu:raw_chalcopyrite", 5).when(c => { c.randomChance(0.5) }),
+        LootEntry.of("gtceu:raw_realgar", 2).when(c => { c.randomChance(0.1) })
+    ]
     event.addLootTableModifier("dungeons_arise:chests/abandoned_temple/abandoned_temple_entrance")
         .pool(pool => {
             pool.rolls([2, 4])
@@ -446,48 +451,48 @@ LootJS.modifiers(event => {
             pool.addAlternativesLoot(gtceumv)
         })
     event.addLootTableModifier("minecraft:chests/bastion_treasure")
-    .pool(pool => {
-        pool.rolls([3, 4])
-        pool.addAlternativesLoot(gtceulv)
-    })
+        .pool(pool => {
+            pool.rolls([3, 4])
+            pool.addAlternativesLoot(gtceulv)
+        })
     event.addLootTableModifier("minecraft:chests/jungle_temple")
-    .pool(pool => {
-        pool.rolls([1, 2])
-        pool.addAlternativesLoot(steam)
-    })
+        .pool(pool => {
+            pool.rolls([1, 2])
+            pool.addAlternativesLoot(steam)
+        })
     event.addLootTableModifier("minecraft:chests/desert_pyramid")
-    .pool(pool => {
-        pool.rolls([1, 3])
-        pool.addAlternativesLoot(steam)
-    })
+        .pool(pool => {
+            pool.rolls([1, 3])
+            pool.addAlternativesLoot(steam)
+        })
     event.addLootTableModifier("aether:chests/ruined_portal")
-    .pool(pool => {
-        pool.rolls([0, 1])
-        pool.addAlternativesLoot(gtceumv)
-    })
-    event.addLootTableModifier(["aether:chests/dungeon/gold/gold_dungeon_treasure","aether:chests/dungeon/gold/gold_dungeon_reward"])
-    .pool(pool => {
-        pool.rolls([1, 3])
-        pool.addAlternativesLoot(gtceumv)
-    })
+        .pool(pool => {
+            pool.rolls([0, 1])
+            pool.addAlternativesLoot(gtceumv)
+        })
+    event.addLootTableModifier(["aether:chests/dungeon/gold/gold_dungeon_treasure", "aether:chests/dungeon/gold/gold_dungeon_reward"])
+        .pool(pool => {
+            pool.rolls([1, 3])
+            pool.addAlternativesLoot(gtceumv)
+        })
     event.addLootTableModifier("aether:chests/dungeon/silver/silver_dungeon")
-    .pool(pool => {
-        pool.rolls([1, 3])
-        pool.addAlternativesLoot(gtceulv)
-    })
-    //event.enableLogging()
+        .pool(pool => {
+            pool.rolls([1, 3])
+            pool.addAlternativesLoot(gtceulv)
+        })
+        //event.enableLogging()
 
 
     event.addBlockLootModifier("ae2:flawless_budding_quartz")
         .matchMainHand(ItemFilter.PICKAXE.hasEnchantment("minecraft:silk_touch", 2, 2))
         .removeLoot("ae2:flawed_budding_quartz")
         .addLoot("ae2:flawless_budding_quartz")
-    /*event.addBlockLootModifier("ae2:large_quartz_bud")
-    .replaceLoot("ae2:certus_quartz_dust","gtceu:certus_quartz_dust")
-    event.addBlockLootModifier("ae2:medium_quartz_bud")
-    .replaceLoot("ae2:certus_quartz_dust","gtceu:certus_quartz_dust")
-    event.addBlockLootModifier("ae2:small_quartz_bud")
-    .replaceLoot("ae2:certus_quartz_dust","gtceu:certus_quartz_dust")*/
+        /*event.addBlockLootModifier("ae2:large_quartz_bud")
+        .replaceLoot("ae2:certus_quartz_dust","gtceu:certus_quartz_dust")
+        event.addBlockLootModifier("ae2:medium_quartz_bud")
+        .replaceLoot("ae2:certus_quartz_dust","gtceu:certus_quartz_dust")
+        event.addBlockLootModifier("ae2:small_quartz_bud")
+        .replaceLoot("ae2:certus_quartz_dust","gtceu:certus_quartz_dust")*/
 
     event.addEntityLootModifier("minecraft:zombie")
         .randomChanceWithEnchantment("minecraft:looting", [0.5, 0.51, 0.52, 0.53, 0.54, 0.55, 0.56, 0.57, 0.58])
@@ -520,7 +525,7 @@ LootJS.modifiers(event => {
             .randomChanceWithEnchantment("minecraft:looting", [0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6])
             .matchMainHand("#forge:tools/butchery_knives")
             .killedByPlayer()
-            .addWeightedLoot([1,3],"kubejs:tallow")
+            .addWeightedLoot([1, 3], "kubejs:tallow")
     })
 })
 
@@ -532,17 +537,17 @@ ServerEvents.entityLootTables(event => {
         })
     })
     event.addEntity("ad_astra:mogler", l => {
-        l.addPool(p => {
-            p.addItem("gtceu:pyrotheum_dust").weight(10).randomChanceWithLooting(0.15, 0.05)
-            //p.addItem("cold_sweat:hoglin_hide").weight(3)
-            p.addItem("nethersdelight:hoglin_loin").weight(6).count(2)
+            l.addPool(p => {
+                p.addItem("gtceu:pyrotheum_dust").weight(10).randomChanceWithLooting(0.15, 0.05)
+                    //p.addItem("cold_sweat:hoglin_hide").weight(3)
+                p.addItem("nethersdelight:hoglin_loin").weight(6).count(2)
+            })
         })
-    })
-    // let animal = ["minecraft:pig","minecraft:cow","minecraft:horse"]
-    // event.addEntity(animal, l =>{
-    //     l.addPool(p =>{
-    //         p.addItem("kubejs:tallow").count(2).randomChance(0.5)
-    //         .killedByPlayer()
-    //     })
-    // })
+        // let animal = ["minecraft:pig","minecraft:cow","minecraft:horse"]
+        // event.addEntity(animal, l =>{
+        //     l.addPool(p =>{
+        //         p.addItem("kubejs:tallow").count(2).randomChance(0.5)
+        //         .killedByPlayer()
+        //     })
+        // })
 })
