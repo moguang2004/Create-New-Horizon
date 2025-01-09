@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of("gtceu:tantalite_fluorine", 4000))
         .itemOutputs("24x gtceu:potassium_hydroxide_dust","2x gtceu:chromium_dust")
         .outputFluids(Fluid.of('gtceu:ammonium_fluoride', 8000))
-        .outputFluids(Fluid.of("gtceu:niobium_tantalite", 2000))
+        .outputFluids(Fluid.of("gtceu:niobium_tantalite", 8000))
         .EUt(480)
         .duration(360)
     //一水合氨合成
@@ -41,21 +41,22 @@ ServerEvents.recipes(event => {
         .duration(80)
     //铌钽氧化物分离
     ctnh.centrifuge("tantalite_oxide_dust")
-        .inputFluids(Fluid.of("gtceu:niobium_tantalite", 8000))
+        .inputFluids(Fluid.of("gtceu:niobium_tantalite", 2000))
         .itemOutputs("56x gtceu:tantalite_oxide_dust", "63x gtceu:niobium_oxide_dust")
+        .outputFluids(Fluid.of("minecraft:water", 16000))
         .outputFluids(Fluid.of("minecraft:water", 16000))
         .EUt(480)
         .duration(480)
     //五氧化二铌处理 
     ctnh.electric_blast_furnace("niobium_dust")
-        .itemInputs("21x gtceu:niobium_oxide_dust", "5x gtceu:hematite_dust", "30x gtceu:aluminium_dust")
+        .itemInputs("21x gtceu:niobium_oxide_dust", "5x gtceu:hematite_dust", "12x gtceu:aluminium_dust")
         .itemOutputs("6x gtceu:niobium_dust", "2x gtceu:iron_dust", "30x gtceu:alumina_dust")
-        .duration(840).EUt(480).blastFurnaceTemp(2500)
+        .duration(200).EUt(480).blastFurnaceTemp(2500)
     //五氧化二钽处理
     ctnh.electric_blast_furnace("tantalum_dust")
         .itemInputs("21x gtceu:tantalite_oxide_dust", "5x gtceu:hematite_dust", "12x gtceu:aluminium_dust")
         .itemOutputs("6x gtceu:tantalum_dust", "2x gtceu:iron_dust", "30x gtceu:alumina_dust")
-        .duration(840).EUt(480).blastFurnaceTemp(2500)
+        .duration(200).EUt(480).blastFurnaceTemp(2500)
     //氟化铵处理
     ctnh.electrolyzer("ammonia")
         .inputFluids(Fluid.of("gtceu:ammonium_fluoride", 1000))

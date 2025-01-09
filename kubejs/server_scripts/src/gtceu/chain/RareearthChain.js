@@ -2,18 +2,18 @@ ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
     ctnh.macerator("rare_earth_fe_one")
         .itemInputs('32x gtceu:rare_earth_dust')
-        .itemOutputs('32x gtceu:rare_earth_fe_one_dust',"12x gtceu:stone_dust")
+        .itemOutputs('32x gtceu:rare_earth_fe_one_dust', "12x gtceu:stone_dust")
         .EUt(480)
         .duration(60)
     ctnh.electromagnetic_separator("rare_earth_fe_two")
         .itemInputs("32x gtceu:rare_earth_fe_one_dust")
-        .itemOutputs("16x gtceu:rare_earth_fe_two_dust","32x gtceu:magnetic_iron_dust")
+        .itemOutputs("16x gtceu:rare_earth_fe_two_dust", "32x gtceu:magnetic_iron_dust")
         .EUt(480)
         .duration(240)
     ctnh.chemical_bath("rare_earth_intensive_research")
         .itemInputs("16x gtceu:rare_earth_fe_two_dust")
         .inputFluids(Fluid.of("gtceu:hydrochloric_acid", 9000))
-        .itemOutputs("12x gtceu:rare_earth_intensive_research_dust") 
+        .itemOutputs("12x gtceu:rare_earth_intensive_research_dust")
         .outputFluids(Fluid.of('gtceu:iron_iii_chloride', 3000))
     ctnh.mixer("rare_earth_mixture")
         .itemInputs("1x gtceu:rare_earth_intensive_research_dust", "1x gtceu:bastnasite_dust", "1x gtceu:monazite_dust")
@@ -21,6 +21,7 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(360)
     ctnh.mixer("rare_earth_mixture_oh")
+        .circuit(1)
         .itemInputs("4x gtceu:rare_earth_mixture_dust", "4x gtceu:sodium_hydroxide_dust")
         .inputFluids(Fluid.of("minecraft:water", 4000))
         .outputFluids(Fluid.of("gtceu:rare_earth_mixture_oh", 1000))
@@ -36,8 +37,8 @@ ServerEvents.recipes(event => {
     ctnh.fluid_heater("rare_earth_chloride_boil")
         .inputFluids(Fluid.of("gtceu:rare_earth_chloride_solution", 3000))
         .outputFluids(Fluid.of("gtceu:rare_earth_chloride_boil", 3000))
-        .EUt(1920)
-        .duration(240)
+        .EUt(120)
+        .duration(200)
     ctnh.crystallizer("rare_earth_crystals")
         .inputFluids(Fluid.of("gtceu:rare_earth_chloride_boil", 3000))
         .itemOutputs("4x gtceu:rare_earth_crystals_dust")
@@ -57,7 +58,7 @@ ServerEvents.recipes(event => {
     //离心稀土
     ctnh.centrifuge("rare_earth_low")
         .inputFluids(Fluid.of("gtceu:rare_earth_low_affinty"))
-        .itemOutputs("4x gtceu:rare_earth_low_dust","2x gtceu:rare_earth_middle_dust")
+        .itemOutputs("4x gtceu:rare_earth_low_dust", "2x gtceu:rare_earth_middle_dust")
         .EUt(480)
         .duration(800)
     ctnh.centrifuge("rare_earth_high")
@@ -105,17 +106,17 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of("gtceu:fluorine", 4000))
         .EUt(1920)
         .duration(60).blastFurnaceTemp(4500)
-    ctnh.condensate_separator("lanthanum_cerium_praseodymium_neodymium_oxygen_mixture")
+    ctnh.condensing_discrete("lanthanum_cerium_praseodymium_neodymium_oxygen_mixture")
         .inputFluids(Fluid.of("gtceu:rare_earth_low_fluoride_steam"))
         .itemOutputs("8x gtceu:lanthanum_cerium_praseodymium_neodymium_oxygen_mixture_dust", "4x gtceu:europium_gadolinium_terbium_dysprosium_oxygen_mixture_dust", "2x gtceu:yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture_dust")
         .EUt(6144)
         .duration(240)
-    ctnh.condensate_separator("europium_gadolinium_terbium_dysprosium_oxygen_mixture")
+    ctnh.condensing_discrete("europium_gadolinium_terbium_dysprosium_oxygen_mixture")
         .inputFluids(Fluid.of("gtceu:rare_earth_middle_fluoride_steam"))
         .itemOutputs("2x gtceu:lanthanum_cerium_praseodymium_neodymium_oxygen_mixture_dust", "8x gtceu:europium_gadolinium_terbium_dysprosium_oxygen_mixture_dust", "4x gtceu:yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture_dust")
         .EUt(6144)
         .duration(240)
-    ctnh.condensate_separator("yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture")
+    ctnh.condensing_discrete("yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture")
         .inputFluids(Fluid.of("gtceu:rare_earth_high_fluoride_steam"))
         .itemOutputs("2x gtceu:lanthanum_cerium_praseodymium_neodymium_oxygen_mixture_dust", "4x gtceu:europium_gadolinium_terbium_dysprosium_oxygen_mixture_dust", "8x gtceu:yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture_dust")
         .EUt(6144)
@@ -141,29 +142,29 @@ ServerEvents.recipes(event => {
         .itemOutputs("5x gtceu:eur_gado_ter_dyspr_chloride_dust")
         .EUt(6144)
         .duration(240)
-    ctnh.vacuum_sintering("lanthanum_dust")
+    ctnh.centrifuge("lanthanum_dust")
         .itemInputs("5x gtceu:lan_cer_pra_neo_chloride_dust")
         .itemOutputs("1x gtceu:lanthanum_dust", "1x gtceu:cerium_dust", "1x gtceu:praseodymium_dust", "1x gtceu:neodymium_dust", "1x gtceu:promethium_dust")
         .outputFluids(Fluid.of("gtceu:chlorine", 24000))
         .EUt(6144)
         .duration(120).blastFurnaceTemp(5200)
-    ctnh.vacuum_sintering("samarium_dust")
+    ctnh.centrifuge("samarium_dust")
         .itemInputs("5x gtceu:eur_gado_ter_dyspr_chloride_dust")
-        .itemOutputs("1x gtceu:samarium_dust", "1x gtceu:europium_dust", "1x gtceu:gadolinium_dust", "1x gtceu:terbium_dust", "1x gtceu:dysprosium_dust","1x gtceu:holmium_dust")
+        .itemOutputs("1x gtceu:samarium_dust", "1x gtceu:europium_dust", "1x gtceu:gadolinium_dust", "1x gtceu:terbium_dust", "1x gtceu:dysprosium_dust", "1x gtceu:holmium_dust")
         .outputFluids(Fluid.of("gtceu:chlorine", 24000))
         .EUt(6144)
         .duration(120).blastFurnaceTemp(5200)
-    ctnh.vacuum_sintering("holmium_dust")
+    ctnh.centrifuge("holmium_dust")
         .itemInputs("5x gtceu:ytt_hol_erb_thu_ytt_chloride_dust")
-        .itemOutputs("1x gtceu:erbium_dust", "1x gtceu:thulium_dust", "1x gtceu:ytterbium_dust", "1x gtceu:lutetium_dust", "1x gtceu:scandium_dust","1x gtceu:yttrium_dust")
+        .itemOutputs("1x gtceu:erbium_dust", "1x gtceu:thulium_dust", "1x gtceu:ytterbium_dust", "1x gtceu:lutetium_dust", "1x gtceu:scandium_dust", "1x gtceu:yttrium_dust")
         .outputFluids(Fluid.of("gtceu:chlorine", 24000))
         .EUt(6144)
         .duration(120).blastFurnaceTemp(5200)
-    
-        
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
 })

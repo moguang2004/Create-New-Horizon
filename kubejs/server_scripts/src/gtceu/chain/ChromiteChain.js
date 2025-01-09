@@ -9,6 +9,7 @@ ServerEvents.recipes(event => {
     event.replaceOutput({id: 'gtceu:centrifuge/centrifuge_ruby_dirty_dust_to_dust'},'gtceu:chromium_dust','gtceu:chromite_dust')
 
     event.recipes.gtceu.mixer('sodium_carbonate_solution')
+        .circuit(1)
         .itemInputs('6x gtceu:soda_ash_dust')
         .inputFluids('water 1000')
         .outputFluids('gtceu:sodium_carbonate_solution 1000')
@@ -18,10 +19,10 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.chemical_reactor('sodium_chromate_from_sodium_carbonate')
         .itemInputs('14x gtceu:chromite_dust')
         .inputFluids('gtceu:oxygen 7000')
-        .inputFluids('gtceu:sodium_carbonate_solution 4000')
+        .inputFluids('gtceu:sodium_carbonate_solution 2000')
         .itemOutputs('7x gtceu:magnetite_dust')
-        .outputFluids('gtceu:carbon_dioxide 4000')
-        .outputFluids('gtceu:sodium_chromate_solution 4000')
+        .outputFluids('gtceu:carbon_dioxide 2000')
+        .outputFluids('gtceu:sodium_chromate_solution 2000')
         .duration(120)
         .EUt(GTValues.VA[GTValues.MV]);
 

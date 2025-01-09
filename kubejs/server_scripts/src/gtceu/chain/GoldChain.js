@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         .EUt(30)
     event.recipes.gtceu.electrolyzer('tier2_gold_processing')
         .itemInputs('4x gtceu:gold_leach_dust')
-        .inputFluids('gtceu:hydrogen', 1000)
+        .inputFluids(Fluid.of('gtceu:hydrogen', 1000))
         .outputFluids(Fluid.of('minecraft:water', 1000))
         .itemOutputs('3x gtceu:copper_dust')
         .itemOutputs('8x gtceu:tiny_gold_dust')

@@ -110,7 +110,24 @@ ServerEvents.recipes(event => {
         "hostilenetworks:deep_learner",
         "hostilenetworks:framework",
         "ae2things:cells/disk_drive_1k",
-        "aether:aether_saddle"
+        "vintageimprovements:pressing/cobalt_ingot",
+        "vintageimprovements:pressing/rhodium_ingot",
+        "vintageimprovements:pressing/uranium_ingot",
+        "vintageimprovements:pressing/rose_gold_ingot",
+        "vintageimprovements:pressing/vanadium_ingot",
+        "vintageimprovements:pressing/invar_ingot",
+        "vintageimprovements:pressing/lead_ingot",
+        "vintageimprovements:pressing/tin_ingot",
+        "vintageimprovements:pressing/andesite_alloy",
+        "vintageimprovements:pressing/bronze_ingot",
+        "vintageimprovements:pressing/silver_ingot",
+        "vintageimprovements:pressing/platinum_ingot",
+        "vintageimprovements:pressing/palladium_ingot",
+        "vintageimprovements:pressing/zinc_ingot",
+        "vintageimprovements:pressing/nickel_ingot",
+        "vintageimprovements:pressing/osmium_ingot",
+        "aether:aether_saddle",
+        "gtceu:extruder/nan_certificate"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -160,8 +177,6 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "createmetallurgy", not: { type: "createmetallurgy:belt_grinder" } })
     event.remove({ mod: "aether", type: "minecraft:crafting_shaped", id: /aether:skyroot_(.*)/ })
     event.remove({ id: "gtceu:large_chemical_reactor/raw_palladium_separation" })
-    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_pyrochlore" })
-    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_tantalite" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_niobium_oxide" })
     event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_tantalite_oxide" })
     event.remove({ id: "gtceu:centrifuge/rare_earth_separation" })
@@ -185,4 +200,28 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:chemical_reactor/raw_platinum_separation" })
     event.remove({ id: "gtceu:electric_blast_furnace/refined_platinum_salt_dust_ebf" })
     event.remove({ id: "gtceu:electric_blast_furnace/iridium_metal_residue_process" })
+    event.remove({ id: "gtceu:centrifuge/platinum_group_sludge_dust" })
+    event.remove({ id: "gtceu:smelting/smelt_dust_bedrock_dust_to_ingot" })
+    event.remove({ id: "gtceu:arc_furnace/arc_bedrock_dust_dust" })
+    event.remove({ id: "vintageimprovements:curving/iron_sheet" })
+    event.remove({ id: "gtceu:chemical_reactor/indium_concentrate_separation" })
+    event.remove({ id: "gtceu:chemical_reactor/indium_concentrate_separation_4x" })
+    event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
+    event.remove({ id: "gtceu:large_chemical_reactor/indium_concentrate_separation_4x" })
+    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_aluminium_sulfite" })
+    event.remove({ id: "ironfurnaces:augments/augment_generator" })
+    event.remove({ id: "ironfurnaces:rainbow_plating" })
+    event.remove({ id: "gtceu:large_chemical_reactor/phosphoric_acid_from_pentoxide" })
+    event.remove({ id: "gtceu:bender/bend_graphite_ir_plate_ingot_to_double_plate" })
+    event.remove({ id: "gtceu:shaped/large_bronze_boiler" })
+    event.remove({ id: "gtceu:chemical_reactor/soda_ash_from_carbon_dioxide" })
+    event.remove({ id: "gtceu:electric_blast_furnace/blast_adamantite" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_to_plate" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_gear" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_block" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_to_ingot" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_small_gear" })
+    event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_to_nugget" })
+    event.remove({ id: "gtceu:bender/bend_graphite_ir_plate_plate_to_double_plate" })
+    event.remove({ id: "gtceu:shaped/plate_double_graphite_ir_plate" })
 })

@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of("gtceu:gasoline", 20000))
         .outputFluids(Fluid.of("gtceu:high_octane_gasoline", 56000))
         .EUt(1920)
-        .duration(80).blastFurnaceTemp(7200)
+        .duration(80).blastFurnaceTemp(5200)
     //高十六烷值柴油
     ctnh.fuel_refining("cetane_boosted_diesel1")
         .inputFluids(Fluid.of("gtceu:bio_diesel", 12000))
@@ -72,7 +72,7 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of("gtceu:nitrogen", 1000))
         .outputFluids(Fluid.of("gtceu:high_octane_gasoline", 4000))
         .EUt(6144)
-        .duration(15).blastFurnaceTemp(10800)
+        .duration(15).blastFurnaceTemp(7200)
     ctnh.fuel_refining("high_octane_gasoline2")
         .circuit(2)
         .inputFluids(Fluid.of("gtceu:oil", 15000))
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of("gtceu:nitrogen", 1000))
         .outputFluids(Fluid.of("gtceu:high_octane_gasoline", 8000))
         .EUt(6144)
-        .duration(15).blastFurnaceTemp(10800)
+        .duration(15).blastFurnaceTemp(7200)
     ctnh.fuel_refining("high_octane_gasoline3")
         .circuit(3)
         .inputFluids(Fluid.of("gtceu:oil_medium", 15000))
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of("gtceu:nitrogen", 2000))
         .outputFluids(Fluid.of("gtceu:high_octane_gasoline", 16000))
         .EUt(24567)
-        .duration(80).blastFurnaceTemp(10800)
+        .duration(80).blastFurnaceTemp(7200)
     ctnh.fuel_refining("high_octane_gasoline4")
         .circuit(4)
         .inputFluids(Fluid.of("gtceu:oil_heavy", 15000))
@@ -96,46 +96,35 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of("gtceu:nitrogen", 4000))
         .outputFluids(Fluid.of("gtceu:high_octane_gasoline", 24000))
         .EUt(24567)
-        .duration(80).blastFurnaceTemp(10800)
-
-
-
-    
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        .duration(80).blastFurnaceTemp(7200)
+    //硅岩燃料的精炼
+    ctnh.fuel_refining("naq1")
+        .inputFluids('gtceu:naquadah_based_liquid_fuel_excited 1000', 'gtceu:helium_plasma 100')
+        .itemInputs('8x gtceu:naquadah_dust', '4x gtceu:palladium_dust')
+        .outputFluids('gtceu:nq_fuelmk1 1000')
+        .EUt(393216)
+        .duration(300)
+        .blastFurnaceTemp(10800)
+    ctnh.fuel_refining("naq2")
+        .inputFluids('gtceu:nq_fuelmk1 1000', 'gtceu:oxygen_plasma 100')
+        .itemInputs('8x gtceu:enriched_naquadah_dust', '4x gtceu:ruthenium_dust')
+        .outputFluids('gtceu:nq_fuelmk2 1000')
+        .EUt(393216)
+        .duration(450)
+        .blastFurnaceTemp(10800)
+    ctnh.fuel_refining("naq3")
+        .inputFluids('gtceu:nq_fuelmk2 1000', 'gtceu:argon_plasma 100')
+        .itemInputs('8x gtceu:naquadria_dust', '4x gtceu:osmium_dust')
+        .outputFluids('gtceu:nq_fuelmk3 1000')
+        .EUt(393216)
+        .duration(600)
+        .blastFurnaceTemp(10800)
+    //超能燃料的精炼
+    ctnh.fuel_refining("super1")
+        .inputFluids('gtceu:nq_fuelmk3 1000', 'gtceu:taranliquidfuel_l 1000', 'gtceu:argon_plasma 500')
+        .itemInputs('4x gtceu:tritanium_dust')
+        .outputFluids('gtceu:superfuelmk1 1000')
+        .EUt(2097152)
+        .duration(800)
+        .blastFurnaceTemp(12600)
 })

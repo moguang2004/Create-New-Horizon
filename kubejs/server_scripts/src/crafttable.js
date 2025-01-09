@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "minecraft:iron_bars",
         B: "gtceu:steel_plate",
-        C:"#gtceu:circuits/mv",
+        C: "#gtceu:circuits/mv",
     })
     event.shaped(
         Item.of("create:spout", 1), [
@@ -420,7 +420,7 @@ ServerEvents.recipes(event => {
         C: "gtceu:steel_plate"
     })
     event.shaped(
-        Item.of("gtceu:digestion_tank", 1), [
+        Item.of("ctnhcore:digestion_tank", 1), [
         "ABC",
         "BDB",
         "EBE"
@@ -432,7 +432,7 @@ ServerEvents.recipes(event => {
         E: "minecraft:bricks"
     })
     event.shaped(
-        Item.of("gtceu:seawater_desalting_factory", 1), [
+        Item.of("ctnhcore:seawater_desalting_factory", 1), [
         "ABC",
         "DED",
         "FBF"
@@ -445,7 +445,7 @@ ServerEvents.recipes(event => {
         F: "gtceu:lv_electric_motor"
     })
     event.shaped(
-        Item.of("gtceu:kinetic_steam_turbine", 1), [
+        Item.of("ctpp:kinetic_steam_turbine", 1), [
         "ABA",
         "CDC",
         "AEA"
@@ -457,7 +457,7 @@ ServerEvents.recipes(event => {
         E: "create:shaft"
     })
     event.shaped(
-        Item.of("gtceu:seaweed_farm", 1), [
+        Item.of("ctpp:seaweed_farm", 1), [
         "ABA",
         "CDC",
         "EFE"
@@ -470,7 +470,7 @@ ServerEvents.recipes(event => {
         F: "gtceu:bronze_gear"
     })
     event.shaped(
-        Item.of("gtceu:industrial_primitive_blast_furnace", 1), [
+        Item.of("ctnhcore:industrial_primitive_blast_furnace", 1), [
         "ABA",
         "BCB",
         "DBD"
@@ -481,7 +481,7 @@ ServerEvents.recipes(event => {
         D: "gtceu:firebricks"
     })
     event.shaped(
-        Item.of("gtceu:fermenting_tank", 1), [
+        Item.of("ctnhcore:fermenting_tank", 1), [
         "ABA",
         "CDC",
         "EFE"
@@ -494,53 +494,53 @@ ServerEvents.recipes(event => {
         F: "gtceu:mv_fluid_heater"
     })
     event.shaped(
-        Item.of("gtceu:mana_generator_turbine_tier1", 1), [
+        Item.of("ctnhcore:mana_generator_turbine_tier1", 1), [
         "ABA",
         "CDC",
         "EFE"
     ], {
         A: "gtceu:lv_sensor",
         B: "gtceu:lv_electric_pump",
-        C: "kubejs:mana_steel_casing",
+        C: "ctnhcore:mana_steel_casing",
         D: "#gtceu:circuits/lv",
         E: "gtceu:steel_gear",
         F: "gtceu:lv_conveyor_module"
     })
     event.shaped(
-        Item.of("gtceu:mana_generator_turbine_tier2", 1), [
+        Item.of("ctnhcore:mana_generator_turbine_tier2", 1), [
         "ABA",
         "CDC",
         "EFE"
     ], {
         A: "gtceu:mv_sensor",
         B: "gtceu:mv_electric_pump",
-        C: "kubejs:elementium_casing",
+        C: "ctnhcore:elementium_casing",
         D: "#gtceu:circuits/mv",
         E: "gtceu:aluminium_gear",
         F: "gtceu:mv_conveyor_module"
     })
     event.shaped(
-        Item.of("gtceu:mana_generator_turbine_tier3", 1), [
+        Item.of("ctnhcore:mana_generator_turbine_tier3", 1), [
         "ABA",
         "CDC",
         "EFE"
     ], {
         A: "gtceu:hv_sensor",
         B: "gtceu:hv_electric_pump",
-        C: "kubejs:terra_steel_casing",
+        C: "ctnhcore:terra_steel_casing",
         D: "#gtceu:circuits/hv",
         E: "gtceu:stainless_steel_gear",
         F: "gtceu:hv_conveyor_module"
     })
     event.shaped(
-        Item.of("gtceu:mana_generator_turbine_tier4", 1), [
+        Item.of("ctnhcore:mana_generator_turbine_tier4", 1), [
         "ABA",
         "CDC",
         "EFE"
     ], {
         A: "gtceu:ev_sensor",
         B: "gtceu:ev_electric_pump",
-        C: "kubejs:alfsteel_casing",
+        C: "ctnhcore:alfsteel_casing",
         D: "#gtceu:circuits/ev",
         E: "gtceu:titanium_gear",
         F: "gtceu:ev_conveyor_module"
@@ -558,19 +558,19 @@ ServerEvents.recipes(event => {
         E: "#gtceu:circuits/hv"
     })
     event.shaped(
-        Item.of("gtceu:water_power_station", 1), [
+        Item.of("ctnhcore:water_power_station", 1), [
         "AAA",
         "BCB",
         "DED"
     ], {
-        A: "kubejs:mana_steel_casing",
+        A: "ctnhcore:mana_steel_casing",
         B: "create:large_water_wheel",
         C: "gtceu:mv_machine_hull",
         D: "gtceu:mv_electric_pump",
         E: "#gtceu:circuits/mv"
     })
     event.shaped(
-        Item.of("gtceu:mana_macerator", 1), [
+        Item.of("ctnhcore:mana_macerator", 1), [
         "AAA",
         "BCB",
         "DDD"
@@ -682,18 +682,18 @@ ServerEvents.recipes(event => {
         A: "gtceu:aluminium_turbine_blade",
         B: "gtceu:long_aluminium_rod"
     })
+    // event.shaped(
+    //     Item.of("ctnhcore:ulv_rotor_holder", 1), [
+    //     "ABA",
+    //     "BCB",
+    //     "ABA"
+    // ], {
+    //     A: "gtceu:small_brass_gear",
+    //     B: "gtceu:bronze_gear",
+    //     C: "gtceu:ulv_machine_hull"
+    // })
     event.shaped(
-        Item.of("gtceu:ulv_rotor_holder0", 1), [
-        "ABA",
-        "BCB",
-        "ABA"
-    ], {
-        A: "gtceu:small_brass_gear",
-        B: "gtceu:bronze_gear",
-        C: "gtceu:ulv_machine_hull"
-    })
-    event.shaped(
-        Item.of("gtceu:lv_rotor_holder1", 1), [
+        Item.of("ctnhcore:lv_rotor_holder", 1), [
         "ABA",
         "BCB",
         "ABA"
@@ -703,7 +703,7 @@ ServerEvents.recipes(event => {
         C: "gtceu:lv_machine_hull"
     })
     event.shaped(
-        Item.of("gtceu:mv_rotor_holder2", 1), [
+        Item.of("ctnhcore:mv_rotor_holder", 1), [
         "ABA",
         "BCB",
         "ABA"
@@ -722,7 +722,7 @@ ServerEvents.recipes(event => {
         B: "gtceu:pulsating_alloy_ingot"
     }).id('enderio:item_conduit')
     event.shaped(
-        Item.of("gtceu:kinetic_generator", 1), [
+        Item.of("ctpp:kinetic_generator", 1), [
         "ABA",
         "CDC",
         "ABA"
@@ -744,7 +744,7 @@ ServerEvents.recipes(event => {
         D: "create:large_water_wheel"
     })
     event.shaped(
-        Item.of("gtceu:windmill_control_center", 1), [
+        Item.of("ctpp:windmill_control_center", 1), [
         " A ",
         "BCB",
         "DED"
@@ -792,7 +792,7 @@ ServerEvents.recipes(event => {
         E: "#gtceu:circuits/iv"
     })
     event.shaped(
-        Item.of("gtceu:meadow", 1), [
+        Item.of("ctnhcore:meadow", 1), [
         "ABA",
         "CAC",
         "DED"
@@ -845,7 +845,7 @@ ServerEvents.recipes(event => {
         C: "gtceu:wrought_iron_gear",
         D: "gtceu:long_bronze_rod"
     })
-    event.shaped("gtceu:ion_exchanger", [
+    event.shaped("ctnhcore:ion_exchanger", [
         "BCB",
         "DAD",
         "BCB"
@@ -855,7 +855,7 @@ ServerEvents.recipes(event => {
         C: "gtceu:iv_electric_pump",
         D: "gtceu:fluid_filter"
     })
-    event.shaped("gtceu:crystallizer", [
+    event.shaped("ctnhcore:crystallizer", [
         "SCS",
         "DAD",
         "BVB"
@@ -867,7 +867,7 @@ ServerEvents.recipes(event => {
         S: "gtceu:hssg_spring",
         V: "gtceu:hsse_frame"
     })
-    event.shaped("gtceu:vacuum_sintering_tower", [
+    event.shaped("ctnhcore:vacuum_sintering_tower", [
         "BCB",
         "DAD",
         "SVS"
@@ -879,7 +879,7 @@ ServerEvents.recipes(event => {
         S: "gtceu:hssg_spring",
         V: "gtceu:iv_alloy_smelter"
     })
-    event.shaped("gtceu:condensate_separator", [
+    event.shaped("ctnhcore:condensing_discrete", [
         "BCB",
         "DAG",
         "SVS"
@@ -893,7 +893,7 @@ ServerEvents.recipes(event => {
         G: "gtceu:fluid_filter"
     })
     event.shaped(
-        Item.of('gtceu:boom_of_create', 1), [
+        Item.of('ctpp:boom_of_create', 1), [
         "DED",
         "ACA",
         "BAB"
@@ -941,7 +941,7 @@ ServerEvents.recipes(event => {
         E: 'gtceu:double_titanium_plate'
     })
     event.shaped(
-        Item.of('gtceu:bio_reactor', 1), [
+        Item.of('ctnhcore:bio_reactor', 1), [
         "ABE",
         "CDE",
         "ABE"
@@ -949,7 +949,7 @@ ServerEvents.recipes(event => {
         A: 'gtceu:ev_robot_arm',
         B: 'gtceu:titanium_rotor',
         C: '#gtceu:circuits/iv',
-        D: 'kubejs:bio_reactor_casing',
+        D: 'ctnhcore:bio_reactor_casing',
         E: 'gtceu:uranium_triplatinum_ingot'
     })
     event.shaped(
@@ -962,7 +962,7 @@ ServerEvents.recipes(event => {
         B: 'minecraft:stick'
     })
     event.shaped(
-        Item.of('gtceu:cvd_factory', 1), [
+        Item.of('ctnhcore:chemical_vapor_deposition_machine', 1), [
         "ABA",
         "CDE",
         "VVV"
@@ -990,7 +990,7 @@ ServerEvents.recipes(event => {
         "DBD",
         "GEG"
     ], {
-        A: 'ctnhcore:coke_oven',
+        A: 'gtceu:pyrolyse_oven',
         B: 'gtceu:iv_machine_hull',
         D: 'gtceu:iv_electric_pump',
         E: 'gtceu:dense_tungsten_steel_plate',
@@ -999,22 +999,10 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('jackseconomy:empty_exporter_manifest', 1), [
-          "ABA",
-          "CCC",
-          "CDC"
-        ], {
-        A: 'minecraft:red_carpet',
-        B: '#forge:chests',
-        C: 'minecraft:string',
-        D: 'minecraft:feather'
-    })
-
-    event.shaped(
-        Item.of('jackseconomy:empty_importer_manifest', 1), [
-          "CDC",
-          "CCC",
-          "ABA"
-        ], {
+        "ABA",
+        "CCC",
+        "CDC"
+    ], {
         A: 'minecraft:red_carpet',
         B: '#forge:chests',
         C: 'minecraft:string',
@@ -1023,20 +1011,20 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('jackseconomy:golden_exporter_manifest', 1), [
-          "AAA",
-          "ABA",
-          "AAA"
-        ], {
+        "AAA",
+        "ABA",
+        "AAA"
+    ], {
         A: 'gtceu:gold_foil',
         B: 'jackseconomy:empty_exporter_manifest'
     })
-    
+
     event.shaped(
         Item.of('jackseconomy:mechanical_importer', 1), [
-          "ABA",
-          "BCB",
-          "ADA"
-        ], {
+        "ABA",
+        "BCB",
+        "ADA"
+    ], {
         A: 'gtceu:gold_foil',
         B: 'gtceu:steel_plate',
         C: 'kubejs:heavy_machinery_casing',
@@ -1045,10 +1033,10 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('jackseconomy:mechanical_exporter', 1), [
-          "ADA",
-          "BCB",
-          "ABA"
-        ], {
+        "ADA",
+        "BCB",
+        "ABA"
+    ], {
         A: 'gtceu:gold_foil',
         B: 'gtceu:steel_plate',
         C: 'kubejs:heavy_machinery_casing',
@@ -1056,23 +1044,11 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('jackseconomy:importer', 1), [
-          "ABA",
-          "BCB",
-          "ADA"
-        ], {
-        A: 'gtceu:gold_foil',
-        B: 'gtceu:steel_plate',
-        C: 'kubejs:heavy_machinery_casing',
-        D: 'gtceu:red_alloy_single_wire'
-    })
-
-    event.shaped(
         Item.of('jackseconomy:exporter', 1), [
-          "ADA",
-          "BCB",
-          "ABA"
-        ], {
+        "ADA",
+        "BCB",
+        "ABA"
+    ], {
         A: 'gtceu:gold_foil',
         B: 'gtceu:steel_plate',
         C: 'kubejs:heavy_machinery_casing',
@@ -1081,28 +1057,28 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('gtmthings:ulv_huge_item_import_bus', 1), [
-          "A",
-          "B"
-        ], {
+        "A",
+        "B"
+    ], {
         A: 'gtceu:ulv_input_bus',
         B: 'expandedstorage:diamond_chest'
     })
 
     event.shaped(
         Item.of('gtmthings:ulv_huge_item_export_bus', 1), [
-          "A",
-          "B"
-        ], {
+        "A",
+        "B"
+    ], {
         A: 'gtceu:ulv_output_bus',
         B: 'expandedstorage:diamond_chest'
     })
 
     event.shaped(
-        Item.of('gtceu:mana_bender', 1), [
-          "AAA",
-          "BCB",
-          "DEF"
-        ], {
+        Item.of('ctnhcore:mana_bender', 1), [
+        "AAA",
+        "BCB",
+        "DEF"
+    ], {
         A: 'botania:polished_livingrock',
         B: 'gtceu:mv_electric_motor',
         C: 'gtceu:mv_bender',
@@ -1110,13 +1086,13 @@ ServerEvents.recipes(event => {
         E: 'gtceu:mv_robot_arm',
         F: '#gtceu:circuits/mv'
     })
-    
+
     event.shaped(
-        Item.of('gtceu:mana_lathe', 1), [
-          "AAA",
-          "BCB",
-          "DEF"
-        ], {
+        Item.of('ctnhcore:mana_lathe', 1), [
+        "AAA",
+        "BCB",
+        "DEF"
+    ], {
         A: 'botania:polished_livingrock',
         B: 'gtceu:mv_electric_piston',
         C: 'gtceu:mv_lathe',
@@ -1126,11 +1102,11 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('gtceu:mana_assembler', 1), [
-          "AAA",
-          "BCD",
-          "EFG"
-        ], {
+        Item.of('ctnhcore:mana_assembler', 1), [
+        "AAA",
+        "BCD",
+        "EFG"
+    ], {
         A: 'botania:polished_livingrock',
         B: 'gtceu:hv_sensor',
         C: 'gtceu:hv_assembler',
@@ -1141,11 +1117,11 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
-        Item.of('gtceu:mana_wiremill', 1), [
-          "AAA",
-          "BCB",
-          "DED"
-        ], {
+        Item.of('ctnhcore:mana_wiremill', 1), [
+        "AAA",
+        "BCB",
+        "DED"
+    ], {
         A: 'botania:polished_livingrock',
         B: 'gtceu:mv_electric_motor',
         C: 'gtceu:mv_wiremill',
@@ -1155,10 +1131,10 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('gtceu:mana_reactor', 1), [
-          "AAA",
-          "BCB",
-          "DED"
-        ], {
+        "AAA",
+        "BCB",
+        "DED"
+    ], {
         A: 'botania:polished_livingrock',
         B: '#gtceu:circuits/ev',
         C: 'gtceu:alfsteel_gear',
@@ -1166,33 +1142,154 @@ ServerEvents.recipes(event => {
         E: 'botania:fabulous_pool'
     })
 
-    event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:toxic_caves"}').strongNBT())
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT())
-    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT(),Item.of('alexscaves:cave_tablet', 1,'{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT())
+    event.shaped(
+        Item.of('ctnhcore:dimensional_gas_collection_chamber', 1), [
+        "AAA",
+        "BCB",
+        "DED"
+    ], {
+        A: 'gtceu:fluid_tag_filter',
+        B: '#gtceu:circuits/hv',
+        C: 'gtceu:filter_casing',
+        D: 'gtceu:hv_electric_pump',
+        E: 'gtceu:cleanroom'
+    })
 
-    
-    // function add_data(event,entity,item){
-    //     event.shaped(Item.of('gtceu:data_stick',`{mobs:${entity}}`).strongNBT(), [
-    //         "BBB",
-    //         "BAB",
-    //         "BBB"
-    //     ], {
-    //         A: "gtceu:data_stick",
-    //         B: item,
-    //     })
-    // }
-    // add_data(event,'zombie','minecraft:rotten_flesh')
-    // add_data(event,'skeleton','minecraft:bone')
-    // add_data(event,'enderman','minecraft:ender_pearl')
-    // add_data(event,'creeper','minecraft:gunpowder')
-    // add_data(event,'blaze','minecraft:blaze_rod')
-    // add_data(event,'slime','minecraft:slime_ball')
-    // add_data(event,'chicken','minecraft:chicken')
-    // add_data(event,'cow','minecraft:beef')
-    // add_data(event,'sheep','minecraft:mutton')
-    // add_data(event,'pig','minecraft:porkchop')
-    // add_data(event,'rabbit','minecraft:rabbit_foot')
+    event.shaped(
+        Item.of('ctnhcore:large_steel_furnace', 1), [
+        "DAD",
+        "BCB",
+        "DAD"
+    ], {
+        A: 'gtceu:copper_spring',
+        B: '#gtceu:circuits/lv',
+        C: 'gtceu:steam_oven',
+        D: 'gtceu:firebricks',
+    })
+
+    event.shaped(
+        Item.of('ctnhcore:large_steel_alloy_furnace', 1), [
+        "DAD",
+        "BCB",
+        "DAD"
+    ], {
+        A: 'gtceu:copper_spring',
+        B: '#gtceu:circuits/lv',
+        C: 'gtceu:steam_foundry',
+        D: 'gtceu:firebricks',
+    })
+
+    event.shaped(
+        Item.of('ctnhcore:testing_terminal', 1), [
+        "BBB",
+        "BAB",
+        "BBB"
+    ], {
+        A: 'gtceu:terminal',
+        B: 'minecraft:redstone'
+    })
+
+    event.shaped(
+        Item.of('ctnhcore:sweat_shop', 1), [
+        "BBB",
+        "CAC",
+        "EDE"
+    ], {
+        A: 'create:precision_mechanism',
+        B: 'gtceu:solid_machine_casing',
+        C: 'gtceu:lv_electric_motor',
+        D: 'gtceu:lv_assembler',
+        E: 'gtceu:lv_emitter'
+    })
+    event.shaped(
+        Item.of('biomesoplenty:rose_quartz_chunk', 4), [
+        "   ",
+        " A ",
+        "   "
+    ], {
+        A: "biomesoplenty:rose_quartz_block",
+    })
+    event.shaped(
+        Item.of('gtceu:bronze_large_boiler', 1), [
+        "BCB",
+        "CAC",
+        "BCB"
+    ], {
+        A: "gtceu:bronze_firebox_casing",
+        B: "gtceu:lead_single_cable",
+        C: "#gtceu:circuits/ulv"
+    })
+    event.shaped(
+        Item.of('ctnhcore:high_strength_concrete', 1), [
+        " C ",
+        "CAC",
+        " C "
+    ], {
+        A: 'gtceu:coke_oven_bricks',
+        C: 'gtceu:steel_plate'
+    })
+    event.shaped(
+        Item.of('ctnhcore:advanced_coke_oven', 1), [
+        "BCB",
+        "CAC",
+        "BCB"
+    ], {
+        A: 'gtceu:coke_oven',
+        B: 'ctnhcore:high_strength_concrete',
+        C: 'gtceu:steel_plate'
+    })
+    event.shaped(
+        Item.of('gtceu:ulv_input_bus', 1), [
+        "A",
+        "B"
+    ], {
+        A: 'gtceu:ulv_machine_hull',
+        B: '#forge:chests/wooden'
+    })
+    event.shaped(
+        Item.of('gtceu:ulv_output_bus', 1), [
+        "B",
+        "A"
+    ], {
+        A: 'gtceu:ulv_machine_hull',
+        B: '#forge:chests/wooden'
+    })
+    event.shaped(
+        Item.of("ctnhcore:elementium_normal_fluid_pipe", 2), [
+        "A A",
+        "A A",
+        "A A"
+    ], {
+        A: "gtceu:elementium_plate"
+    })
+    event.shaped(
+        Item.of("ctnhcore:elementium_pipe_casing", 1), [
+        "CAC",
+        "ABA",
+        "CAC"
+    ], {
+        A: "ctnhcore:elementium_normal_fluid_pipe",
+        B: "gtceu:elementium_frame",
+        C: "gtceu:elementium_plate"
+    })
+    event.shaped(
+        Item.of("ctnhcore:mana_steel_gearbox_casing", 2), [
+        "ADA",
+        "CBC",
+        "AFA"
+    ], {
+        A: "gtceu:mana_steel_plate",
+        B: "gtceu:mana_steel_frame",
+        C: "gtceu:mana_steel_gear",
+        D: "#forge:tools/hammers",
+        F: "#forge:tools/wrenches"
+    })
+
+    event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:abyssal_chasm"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:forlorn_hollows"}').strongNBT())
+    event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:magnetic_caves"}').strongNBT())
 })
