@@ -739,7 +739,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0x26a4e8)
         .components("1x fluorine")
         .flags(GTMaterialFlags.DISABLE_DECOMPOSITION)
-    event.create("super_mana")
+    event.create("ultra_mana")
         .ingot()
         .color(0x4ac6e6)
         .blastTemp(7200, "highest", 122222, 1000)
@@ -1483,6 +1483,12 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create('mana_radiation_mixture')
         .liquid()
         .color(0xFF14)
+    event.create('elf_fuel')
+        .liquid()
+        .color((0x28358A))
+    event.create('mana_stable_cooldown')
+        .liquid()
+        .color((0x28358A))
 })
 
 StartupEvents.postInit(event => {
@@ -1557,4 +1563,5 @@ StartupEvents.postInit(event => {
     setFormula('twist_mana', "(.*?)Ma(.*?)")
     setFormula('twist_power_mana', "M?????A")
     setFormula('mana_radiation_mixture', "ThUPuRnNqMa??")
+    setFormula('elf_fuel', "ArNeC2O4Ma")
 })
