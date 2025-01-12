@@ -139,8 +139,9 @@ ServerEvents.recipes(event => {
         .duration(500)
     //放射性处理产线---基岩支线
     ctnh.mixer("enrichment_of_radioactive_materials")
-        .itemInputs('gtceu:nuclear_waste_dust', 'gtceu:radioactive_metals_mix_dust')
-        .itemOutputs('2x gtceu:enrich_radioactive_waste_dust')
+        .itemInputs('gtceu:plutonium_241_dust', 'gtceu:radioactive_metals_mix_dust', 'gtceu:uranium_235_dust')
+        .inputFluids("gtceu:nitration_mixture 4000")
+        .itemOutputs('6x gtceu:enrich_radioactive_waste_dust')
         .EUt(491020)
         .duration(100)
     ctnh.large_chemical_reactor("radioactive_particles")
