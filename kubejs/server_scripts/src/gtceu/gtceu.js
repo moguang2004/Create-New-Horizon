@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
         .duration(60)
         .EUt(-32)
     event.recipes.gtceu.assembler("blaze_blast_furnace")
-        .itemInputs(["4x gtceu:nano_processor_assembly", "4x ctnhcore:blaze_blast_furnace_casing", "2x gtceu:pyrotheum_dust", "2x gtceu:hv_sensor", "gtceu:hv_field_generator"])
+        .itemInputs(["4x #gtceu:circuits/ev", "4x ctnhcore:blaze_blast_furnace_casing", "2x gtceu:pyrotheum_dust", "2x gtceu:hv_sensor", "gtceu:hv_field_generator"])
         .inputFluids(Fluid.of("gtceu:polyvinyl_chloride", 288))
         .EUt(480)
         .duration(200)
