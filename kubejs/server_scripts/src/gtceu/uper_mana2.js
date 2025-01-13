@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
         .notConsumable('bloodmagic:etherealslate')
         .itemOutputs('12x gtceu:mana_fused_demon_mixed_dust')
         .addDataNumber('minimumDrain', 2000)
-        .addDataNumber('drain', 200)
+        .addDataNumber('drain', 400)
         .duration(200)
         .EUt(666)
     event.recipes.gtceu.mana_reactor('ma_plus')
@@ -94,7 +94,6 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of("gtceu:mana", 5000))
         .inputFluids(Fluid.of("gtceu:carbon_dioxide", 2000))
         .inputFluids(Fluid.of("gtceu:argon", 1000))
-        .inputFluids(Fluid.of("gtceu:neon", 1000))
         .outputFluids(Fluid.of("gtceu:elf_fuel", 5000))
         .duration(500)
         .EUt(760)
@@ -115,4 +114,46 @@ ServerEvents.recipes(event => {
         .addData('rock', 'botania:livingrock')
         .EUt(1920)
         .duration(400);
+    event.recipes.gtceu.mana_seperator('platinum_catalyst2')
+        .itemInputs('30x gtceu:platinum_metal_dust')
+        .inputFluids(Fluid.of("gtceu:sulfuric_acid", 500))
+        .notConsumable('kubejs:terria_catalyst')
+        .itemOutputs('10x gtceu:palladium_dust')
+        .itemOutputs('12x gtceu:platinum_dust')
+        .itemOutputs('9x gtceu:ruthenium_dust')
+        .itemOutputs('3x gtceu:rhodium_dust')
+        .itemOutputs('4x gtceu:osmium_dust')
+        .itemOutputs('3x gtceu:iridium_dust')
+        .EUt(30720)
+        .duration(1000)
+        .circuit(2);
+    event.shaped(
+        Item.of('ctnhcore:season_reacter', 1), [
+            "ACA",
+            "DBE",
+            "AFA"
+        ], {
+            A: 'gtceu:mana_steel_gear',
+            B: 'botania:mana_pylon',
+            C: 'botania:rune_spring',
+            D: 'botania:rune_summer',
+            E: 'botania:rune_autumn',
+            F: 'botania:rune_winter',
+        })
+    event.recipes.gtceu.hellforge("stable")
+        .itemInputs('8x kubejs:force_field_casing')
+        .itemInputs('8x gtceu:tungsten_steel_gear')
+        .itemInputs('kubejs:endslate')
+        .itemOutputs('4x ctnhcore:depth_force_field_stabilizing_casing')
+        .addDataNumber('minimumDrain', 2000)
+        .addDataNumber('drain', 1000)
+        .EUt(10000)
+        .duration(600)
+    event.recipes.gtceu.gaia_reactor("mana_produce_1")
+        .itemInputs('gtceu:mana_super_plus_block')
+        .inputFluids(Fluid.of('gtceu:mana', 14400))
+        .itemOutputs('64x gtceu:mana_plus_ingot')
+        .EUt(12222)
+        .duration(1200)
+
 })
