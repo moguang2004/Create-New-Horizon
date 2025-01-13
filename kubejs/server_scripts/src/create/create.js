@@ -303,7 +303,7 @@ ServerEvents.recipes(event => {
     'ctnhcore:sintering_kiln'
   ], 'gtceu:steel_firebox_casing', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:steel_block']),
-    event.recipes.createDeploying(transitional, [transitional, 'gtceu:advanced_blast_furnace']),
+    event.recipes.createDeploying(transitional, [transitional, 'ctnhcore:advanced_coke_oven']),
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:primitive_blast_furnace']),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:creosote', 1000)])
   ]).transitionalItem(transitional)

@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gtceu:neutronium_ingot',
             B: 'gtceu:aether_ingot',
-            C: 'gtceu:super_mana_ingot',
+            C: 'gtceu:ultra_mana_ingot',
             D: 'gtceu:infinity_ingot',
             E: 'minecraft:honeycomb',
             F: 'minecraft:bee_nest',
@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gtceu:neutronium_ingot',
             B: 'gtceu:aether_ingot',
-            C: 'gtceu:super_mana_ingot',
+            C: 'gtceu:ultra_mana_ingot',
             D: 'gtceu:infinity_ingot',
             G: 'kubejs:yharim'
 

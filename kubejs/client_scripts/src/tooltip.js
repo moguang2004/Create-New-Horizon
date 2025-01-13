@@ -52,20 +52,6 @@ function unitChanger(number) {
 }
 
 ItemEvents.tooltip(event => {
-    let rotor_holder = ['ulv', 'lv', 'mv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
-    rotor_holder.forEach((holder, index) => {
-        event.addAdvanced(`gtceu:${holder}_rotor_holder${index}`, (item, advanced, text) => {
-            text.add(1, Text.translate('gtceu.machine.rotor_holder.tooltip.0'))
-            text.add(2, Text.translate('gtceu.machine.rotor_holder.tooltip.1'))
-            text.add(3, Text.translate('gtceu.universal.disabled'))
-        })
-    })
-    let energy_output_hatch_4a = ['lv', 'mv', 'hv']
-    energy_output_hatch_4a.forEach((holder, index) => {
-        event.addAdvanced(`gtceu:${holder}_rotor_holder${index}`, (item, advanced, text) => {
-            text.add(1, Text.translate('gtceu.machine.energy_hatch.output_hi_amp.tooltip'))
-        })
-    })
     event.addAdvanced('gtceu:mana_seperator', (item, advanced, text) => {
         text.add(1, Text.translate('mana_machine').gray())
     })
@@ -115,10 +101,10 @@ ItemEvents.tooltip(event => {
         text.add(3, Text.translate('ctnh.wind_power_array.mechanism'))
         text.add(4, Text.translate('ctnh.wind_power_array.altitude'))
     })
-    event.addAdvanced("gtceu:ion_exchanger", (item, advanced, text) => {
+    event.addAdvanced("ctnhcore:ion_exchanger", (item, advanced, text) => {
         text.add(1, Text.translate('ion_exchanger').gray())
     })
-    event.addAdvanced("gtceu:condensing_discrete", (item, advanced, text) => {
+    event.addAdvanced("ctnhcore:condensing_discrete", (item, advanced, text) => {
         text.add(1, Text.translate('condensing_discrete').gray())
     })
     event.addAdvanced("gtceu:greenhouse", (item, advanced, text) => {
@@ -129,14 +115,6 @@ ItemEvents.tooltip(event => {
     })
     event.addAdvanced('gtceu:ultrasonic_apparatus', (item, advanced, text) => {
         text.add(1, Text.translate('ultrasonic_apparatus').gray())
-    })
-    event.addAdvanced('gtceu:martial_morality_eye', (item, advanced, text) => {
-        text.add(1, Text.translate('martial_morality_eye').gray())
-        text.add(2, Text.translate('ctnh.martial_morality_eye.tooltip.0'))
-        text.add(3, Text.translate('ctnh.martial_morality_eye.tooltip.1'))
-        text.add(4, Text.translate('ctnh.martial_morality_eye.tooltip.2'))
-        text.add(5, Text.translate('ctnh.martial_morality_eye.tooltip.3'))
-        text.add(6, Text.translate('ctnh.martial_morality_eye.tooltip.4'))
     })
     event.addAdvanced('gtceu:wood_particle_collider', (item, advanced, text) => {
         text.add(1, Text.translate('wood_particle_collider').gray())
@@ -156,31 +134,12 @@ ItemEvents.tooltip(event => {
         text.add(3, Text.translate('ctnh.large_steel_furnaces.tooltip.1'))
         text.add(4, Text.translate('ctnh.large_steel_furnaces.tooltip.2'))
     })
-    event.addAdvanced('gtceu:large_gas_collection_chamber', (item, advanced, text) => {
-        text.add(1, Text.translate('large_gas_collection_chamber').gray())
-        text.add(2, Text.translate('ctnh.large_gas_collection_chamber.tooltip.0'))
-        text.add(3, Text.translate('ctnh.large_gas_collection_chamber.tooltip.1'))
-        text.add(4, Text.translate('ctnh.large_gas_collection_chamber.tooltip.2'))
-    })
     event.addAdvanced('gtceu:advanced_blast_furnace', (item, advanced, text) => {
         text.add(1, Text.translate('advanced_blast_furnace').gray())
         text.add(2, Text.translate('ctnh.advanced_blast_furnace.tooltip.0'))
         text.add(3, Text.translate('ctnh.advanced_blast_furnace.tooltip.1'))
         text.add(4, Text.translate('ctnh.advanced_blast_furnace.tooltip.2'))
         text.add(5, Text.translate('ctnh.advanced_blast_furnace.tooltip.3'))
-    })
-    event.addAdvanced('gtceu:void_miner', (item, advanced, text) => {
-        text.add(1, Text.translate('void_miner').gray())
-        text.add(2, Text.translate('ctnh.void_miner.tooltip.0'))
-        text.add(3, Text.translate('ctnh.void_miner.tooltip.1'))
-        text.add(4, Text.translate('ctnh.void_miner.tooltip.2'))
-        text.add(5, Text.translate('ctnh.void_miner.tooltip.3'))
-        text.add(6, Text.translate('ctnh.void_miner.tooltip.4'))
-        text.add(7, Text.translate('ctnh.void_miner.tooltip.5'))
-        text.add(8, Text.translate('ctnh.void_miner.tooltip.6'))
-        text.add(9, Text.translate('ctnh.void_miner.tooltip.7'))
-        text.add(10, Text.translate('ctnh.void_miner.tooltip.8'))
-        text.add(11, Text.translate('ctnh.void_miner.tooltip.9'))
     })
     event.addAdvanced('kubejs:scp_500', (item, advanced, text) => {
         text.add(1, Text.translate('kubejs.scp_500.0'))

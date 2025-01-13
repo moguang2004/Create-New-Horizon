@@ -475,7 +475,7 @@
 			subtitle: "{ftbquests.chapter.uv.quest37.subtitle}"
 			tasks: [{
 				id: "045B63C91F2AB7C5"
-				item: "gtceu:decay_pools_machine"
+				item: "ctnhcore:decay_pools_machine"
 				type: "item"
 			}]
 			x: 10.0d

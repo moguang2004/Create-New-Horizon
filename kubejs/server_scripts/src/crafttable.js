@@ -682,16 +682,16 @@ ServerEvents.recipes(event => {
         A: "gtceu:aluminium_turbine_blade",
         B: "gtceu:long_aluminium_rod"
     })
-    // event.shaped(
-    //     Item.of("ctnhcore:ulv_rotor_holder", 1), [
-    //     "ABA",
-    //     "BCB",
-    //     "ABA"
-    // ], {
-    //     A: "gtceu:small_brass_gear",
-    //     B: "gtceu:bronze_gear",
-    //     C: "gtceu:ulv_machine_hull"
-    // })
+    event.shaped(
+        Item.of("ctnhcore:ulv_rotor_holder", 1), [
+        "ABA",
+        "BCB",
+        "ABA"
+    ], {
+        A: "gtceu:small_brass_gear",
+        B: "gtceu:bronze_gear",
+        C: "gtceu:ulv_machine_hull"
+    })
     event.shaped(
         Item.of("ctnhcore:lv_rotor_holder", 1), [
         "ABA",
@@ -1284,7 +1284,31 @@ ServerEvents.recipes(event => {
         D: "#forge:tools/hammers",
         F: "#forge:tools/wrenches"
     })
-
+    event.shaped(
+        Item.of("ctnhcore:ev_chemical_generator", 1), [
+            "ABA",
+            "CDC",
+            "EBE"
+          ], {
+        A: "gtceu:titanium_rotor",
+        B: "gtceu:titanium_turbine_casing",
+        C: "gtceu:nichrome_coil_block",
+        D: "gtceu:aluminium_single_cable",
+        E: "gtceu:ev_electric_motor"
+    })
+    event.shaped(
+        Item.of("ctnhcore:iv_chemical_generator", 1), [
+            "ABA",
+            "CDC",
+            "EBE"
+          ], {
+        A: "gtceu:tungsten_steel_rotor",
+        B: "gtceu:tungstensteel_turbine_casing",
+        C: "gtceu:rtm_alloy_coil_block",
+        D: "gtceu:platinum_single_cable",
+        E: "gtceu:iv_electric_motor"
+    })
+    
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

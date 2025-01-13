@@ -1724,7 +1724,7 @@
 			subtitle: "{ftbquests.chapter.hv.quest121.subtitle}"
 			tasks: [{
 				id: "3E72DDEEAD18B789"
-				item: "gtceu:large_gas_collection_chamber"
+				item: "ctnhcore:dimensional_gas_collection_chamber"
 				type: "item"
 			}]
 			x: -8.5d

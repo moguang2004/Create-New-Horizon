@@ -167,26 +167,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"4DA5ABB79AABADE8"
-				"11CEB762BEC88A67"
-			]
-			id: "4A7B2A7EF0E9D0D0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2F5D359340F4D3CB"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
-			tasks: [{
-				id: "70CB278C9DAACC11"
-				item: "gtceu:nuclear_reactor"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
 			id: "4DA5ABB79AABADE8"
 			tasks: [{
 				id: "36F32AAAA96C37A1"
@@ -197,7 +177,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "0AEBC43C2EA4E190"
 			subtitle: "{ftbquests.chapter.ev.quest13.subtitle}"
@@ -210,7 +189,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "4E9FB13BA754C376"
 			subtitle: "{ftbquests.chapter.ev.quest14.subtitle}"
@@ -223,7 +201,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "38B3EDAFED11EC22"
 			subtitle: "{ftbquests.chapter.ev.quest15.subtitle}"
@@ -236,7 +213,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "6D99A9917E0D8636"
 			subtitle: "{ftbquests.chapter.ev.quest16.subtitle}"
@@ -249,7 +225,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4A7B2A7EF0E9D0D0"]
 			hide_dependency_lines: true
 			id: "1A4BF7BE5F6591F6"
 			subtitle: "{ftbquests.chapter.ev.quest17.subtitle}"
@@ -262,7 +237,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["4A7B2A7EF0E9D0D0"]
+			dependencies: ["104511D23BA0B12A"]
 			id: "2E634A7C9D204BD4"
 			tasks: [{
 				id: "1F9E605C84B618EB"
@@ -284,18 +259,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["48D6359F760B2D34"]
-			id: "363FBA5394375898"
-			tasks: [{
-				id: "725AFF843F3E522A"
-				item: "gtceu:thorium_waste_dust"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["363FBA5394375898"]
 			id: "0621330C575C99E3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -312,20 +275,9 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["4D6F042D3D3DA8A2"]
-			id: "72524950D9CC9C75"
-			tasks: [{
-				id: "6E9D26454A544458"
-				item: "gtceu:uranium_waste_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.0d
-		}
-		{
 			dependencies: [
 				"2D624DC9A3946E74"
-				"4A7B2A7EF0E9D0D0"
+				"104511D23BA0B12A"
 			]
 			id: "699B1B52D3F58BEE"
 			tasks: [{
@@ -370,7 +322,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["72524950D9CC9C75"]
 			id: "4E40B0EBEEB50C79"
 			tasks: [{
 				id: "42627AE089355D74"
@@ -379,23 +330,6 @@
 			}]
 			x: 0.0d
 			y: 9.0d
-		}
-		{
-			id: "6DB4F7FB9C1CD641"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "748FAC17E711B032"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.ev.quest27.subtitle}"
-			tasks: [{
-				id: "51708CB337F80C11"
-				item: "gtceu:hot_coolant_turbine"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 8.5d
 		}
 		{
 			dependencies: ["5DE73169DED11A0D"]
@@ -590,10 +524,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4C1CFD3DC2A5EDE7"
-				"6650F75EC46022A1"
-			]
+			dependencies: ["6650F75EC46022A1"]
 			id: "58817BE32D620EA6"
 			tasks: [{
 				id: "48CDC60DCC14D927"
@@ -604,7 +535,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["28852D1BF6248452"]
 			id: "374EBC4CDD959673"
 			tasks: [{
 				id: "09D04BB07E4ECA91"
@@ -615,7 +545,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["2B1CBFF64D5B0293"]
 			id: "2AB3347CCAA42598"
 			tasks: [{
 				id: "7A8C8BB8B8506A76"
@@ -626,7 +555,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["41107076AF28EAFC"]
 			id: "3C8301A2B866F880"
 			tasks: [{
 				id: "47D7C37D41F94AD2"
@@ -637,7 +565,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["4B77208D1A7E2597"]
 			id: "69AD12A73BD27FBF"
 			tasks: [{
 				id: "5A30B63D701A77E1"
@@ -648,7 +575,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6C04245BB5E8DB50"]
 			id: "762082594B87A676"
 			tasks: [{
 				id: "210CF984CB31D6AD"
@@ -659,7 +585,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["48624B3DBD937311"]
 			id: "727B9C4520877A69"
 			tasks: [{
 				id: "207BDC2B489BA719"
@@ -670,7 +595,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["5F628AF1A7A9BACD"]
 			id: "433CA5427BF76C2A"
 			tasks: [{
 				id: "75D33E7D1638E606"
@@ -679,94 +603,6 @@
 			}]
 			x: 16.0d
 			y: 9.0d
-		}
-		{
-			dependencies: ["4E40B0EBEEB50C79"]
-			id: "4C1CFD3DC2A5EDE7"
-			tasks: [{
-				id: "6B26CC21608B46A3"
-				item: "gtceu:neptunium_waste_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["58817BE32D620EA6"]
-			id: "2B1CBFF64D5B0293"
-			tasks: [{
-				id: "36DF21693B1279D8"
-				item: "gtceu:plutonium_waste_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["2AB3347CCAA42598"]
-			id: "41107076AF28EAFC"
-			tasks: [{
-				id: "497BB8A372E9B016"
-				item: "gtceu:americium_waste_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["3C8301A2B866F880"]
-			id: "28852D1BF6248452"
-			tasks: [{
-				id: "38C10BC67812F0B8"
-				item: "gtceu:curium_waste_dust"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["374EBC4CDD959673"]
-			id: "4B77208D1A7E2597"
-			tasks: [{
-				id: "352B2E8B17891B77"
-				item: "gtceu:berkelium_waste_dust"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["69AD12A73BD27FBF"]
-			id: "6C04245BB5E8DB50"
-			tasks: [{
-				id: "237C9478221781C1"
-				item: "gtceu:californium_waste_dust"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["762082594B87A676"]
-			id: "48624B3DBD937311"
-			tasks: [{
-				id: "3310080F418F58F5"
-				item: "gtceu:einsteinium_waste_dust"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["727B9C4520877A69"]
-			id: "5F628AF1A7A9BACD"
-			tasks: [{
-				id: "2C918307CFBA0D95"
-				item: "gtceu:fermium_waste_dust"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 7.0d
 		}
 		{
 			id: "6650F75EC46022A1"
@@ -938,22 +774,6 @@
 			}]
 			x: -6.0d
 			y: -6.0d
-		}
-		{
-			dependencies: ["72524950D9CC9C75"]
-			id: "54E111D20B6D7893"
-			subtitle: "{ftbquests.chapter.ev.quest69.subtitle}"
-			tasks: [{
-				count: 64L
-				id: "570295622CA11843"
-				item: {
-					Count: 64
-					id: "gtceu:nuclear_waste_dust"
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: 11.0d
 		}
 		{
 			dependencies: ["5CC2A3C37EB99ED3"]
@@ -1488,7 +1308,7 @@
 			id: "314803CD653E6206"
 			tasks: [{
 				id: "26417814FABC3952"
-				item: "gtceu:cvd_factory"
+				item: "ctnhcore:chemical_vapor_deposition_machine"
 				type: "item"
 			}]
 			x: 10.5d
@@ -1561,6 +1381,21 @@
 			title: "{ftbquests.chapter.ev.quest113.title}"
 			x: 8.5d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4DA5ABB79AABADE8"
+				"11CEB762BEC88A67"
+			]
+			id: "104511D23BA0B12A"
+			subtitle: "核电线锐意重置中"
+			tasks: [{
+				id: "6348C18E6134F96F"
+				title: "核电"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.0d
 		}
 	]
 	title: "{ftbquests.chapter.ev.title}"
