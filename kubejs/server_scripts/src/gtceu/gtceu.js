@@ -1820,7 +1820,7 @@ ServerEvents.recipes(event => {
         .duration(1200);
     event.recipes.gtceu.compressor("martial_morality_eye")
         .itemInputs('64x gtceu:lp_steam_rock_crusher')
-        .itemOutputs('gtceu:martial_morality_eye')
+        .itemOutputs('ctnhcore:martial_morality_eye')
         .duration(1200)
         .EUt(7)
     event.recipes.gtceu.compressor("wood_particle_collider")

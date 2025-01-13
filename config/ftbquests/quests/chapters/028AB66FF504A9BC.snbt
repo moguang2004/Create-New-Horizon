@@ -672,7 +672,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "501597E16C17CB6D"
-				item: "gtceu:martial_morality_eye"
+				item: "ctnhcore:martial_morality_eye"
 				type: "item"
 			}]
 			x: -9.0d

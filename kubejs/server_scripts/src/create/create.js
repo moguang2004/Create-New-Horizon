@@ -159,7 +159,7 @@ ServerEvents.recipes(event => {
       K: "cataclysm:cursium_ingot",
       L: "bigger_ae2:quantum_item_storage_cell",
       M: "cataclysm:ignitium_ingot",
-      N: "gtceu:super_mana_frame",
+      N: "gtceu:ultra_mana_frame",
       O: "gtceu:max_battery",
       P: "gtceu:uhv_field_generator",
       Q: "bigger_ae2:quantum_fluid_storage_cell",

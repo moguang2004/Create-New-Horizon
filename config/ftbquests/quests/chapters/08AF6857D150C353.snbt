@@ -142,7 +142,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			id: "2D138FB6F66ED4D5"
@@ -1031,7 +1031,7 @@
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest75.subtitle}"
 			tasks: [{
 				id: "2C454A9B147379F9"
-				item: "gtceu:martial_morality_eye"
+				item: "ctnhcore:martial_morality_eye"
 				type: "item"
 			}]
 			x: -11.5d
@@ -1115,7 +1115,7 @@
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest78.subtitle}"
 			tasks: [{
 				id: "7ED1ABAE538B0BC5"
-				item: "gtceu:advanced_blast_furnace"
+				item: "ctnhcore:advanced_coke_oven"
 				type: "item"
 			}]
 			x: -4.0d
