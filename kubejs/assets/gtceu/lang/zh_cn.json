@@ -210,7 +210,7 @@
     "material.gtceu.helium3_hydride": "氢化氦-3",
     "material.gtceu.ultraacidic_residue_solution": "超酸性残渣溶液",
     "material.gtceu.liquid_fluorine": "液态氟",
-    "material.gtceu.super_mana": "究极魔力",
+    "material.gtceu.ultra_mana": "究极魔力",
     "material.gtceu.unknown_super_mana": "混沌态临界魔力",
     "material.gtceu.twist_mana": "扭曲放射态临界魔力",
     "material.gtceu.twist_power_mana": "极端扭曲放射态临界魔力",
@@ -1575,5 +1575,7 @@
     "material.gtceu.fefarite": "凯弗石",
     "material.gtceu.nether_essence_crystal_fluid": "下界精华培养液",
     "material.gtceu.kevlar_stone_growth_liquid": "凯弗石生长液",
-    "material.gtceu.fefarite_intermediate_body'": "氟化凯金络合物"
+    "material.gtceu.fefarite_intermediate_body'": "氟化凯金络合物",
+    "material.gtceu.elf_fuel": "精灵稳定燃料",
+    "material.gtceu.mana_stable_cooldown": "魔力稳定剂"
 }
