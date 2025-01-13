@@ -119,12 +119,4 @@ ServerEvents.recipes(event => {
         .EUt(393216)
         .duration(600)
         .blastFurnaceTemp(10800)
-    //超能燃料的精炼
-    ctnh.fuel_refining("super1")
-        .inputFluids('gtceu:nq_fuelmk3 1000', 'gtceu:taranliquidfuel_l 1000', 'gtceu:argon_plasma 500')
-        .itemInputs('4x gtceu:tritanium_dust')
-        .outputFluids('gtceu:superfuelmk1 1000')
-        .EUt(2097152)
-        .duration(800)
-        .blastFurnaceTemp(12600)
 })

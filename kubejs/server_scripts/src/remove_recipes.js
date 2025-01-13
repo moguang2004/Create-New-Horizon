@@ -224,4 +224,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:fluid_solidifier/solidify_adamantite_to_nugget" })
     event.remove({ id: "gtceu:bender/bend_graphite_ir_plate_plate_to_double_plate" })
     event.remove({ id: "gtceu:shaped/plate_double_graphite_ir_plate" })
+    event.remove({ id: "gtceu:chemical_reactor/iridium_dioxide_dissolving" })
+    event.remove({ id: "gtceu:chemical_reactor/iridium_chloride_separation" })
 })
