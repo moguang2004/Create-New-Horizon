@@ -315,11 +315,19 @@
 		}
 		{
 			id: "79FF9CC1122C2362"
-			tasks: [{
-				id: "018B8D85B70D5E4C"
-				item: "gtceu:nuclear_waste_dust"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1143DB72F6754EC9"
+					item: "gtceu:uranium_235_dust"
+					type: "item"
+				}
+				{
+					id: "470ED1315DB370DF"
+					item: "gtceu:plutonium_241_dust"
+					type: "item"
+				}
+			]
+			title: "放射性物质"
 			x: 13.0d
 			y: -10.0d
 		}
@@ -550,6 +558,21 @@
 			}]
 			x: 20.0d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"34F957A3E8E7D3FF"
+				"45A565804AFD4ABD"
+				"2F9F236DB91E21EB"
+			]
+			id: "59F93AD126E45FED"
+			tasks: [{
+				id: "377628159C116ECD"
+				title: "开始你的硅岩燃料吧"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -11.5d
 		}
 	]
 	title: "{ftbquests.chapter.uv.title}"

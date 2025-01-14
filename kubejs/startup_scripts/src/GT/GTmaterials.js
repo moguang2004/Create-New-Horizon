@@ -1507,6 +1507,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create('charged_silica_rock_based_fluid_fuel_mk_iii')
         .liquid()
         .color(0x55555)
+    event.create("high_energy_fuel")
+        .liquid()
+        .color(0x351aa)
 })
 
 StartupEvents.postInit(event => {

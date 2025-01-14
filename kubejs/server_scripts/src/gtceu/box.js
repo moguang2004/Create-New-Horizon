@@ -138,7 +138,7 @@ ServerEvents.recipes(event => {
     ]
     conveyorbelt.forEach(c => {
         ctnh.assembly_line(c[0] + 'conveyorbelt')
-            .itemInputs('gtceu:' + c[0] + '_electric_motor', '2x gtceu:' + c[1] + '_plate', '4x gtceu:' + c[1] + '_ring', '16x gtceu:' + c[1] + '_round', '4x gtceu:' + c[1] + '_screw', '2x gtceu:' + c[2] + '_single_cable')
+            .itemInputs('2x gtceu:' + c[0] + '_electric_motor', '2x gtceu:' + c[1] + '_plate', '4x gtceu:' + c[1] + '_ring', '16x gtceu:' + c[1] + '_round', '4x gtceu:' + c[1] + '_screw', '2x gtceu:' + c[2] + '_single_cable')
             .inputFluids(c[3] + ' 576', c[4] + ' 2000', c[10], c[5] + ' 576')
             .itemOutputs('gtceu:' + c[0] + '_conveyor_module')
             .EUt(c[7])

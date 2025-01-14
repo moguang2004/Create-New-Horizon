@@ -226,4 +226,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:shaped/plate_double_graphite_ir_plate" })
     event.remove({ id: "gtceu:chemical_reactor/iridium_dioxide_dissolving" })
     event.remove({ id: "gtceu:chemical_reactor/iridium_chloride_separation" })
+    event.remove({ id: "gtceu:dehydrator/xenoauric_fluoroantimonic_acid" })
 })
