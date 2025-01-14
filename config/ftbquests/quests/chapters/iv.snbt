@@ -1732,7 +1732,7 @@
 			}]
 			tasks: [{
 				id: "69692022DA0E282C"
-				item: "gtceu:ion_exchanger"
+				item: "ctnhcore:ion_exchanger"
 				type: "item"
 			}]
 			x: -1.5d
