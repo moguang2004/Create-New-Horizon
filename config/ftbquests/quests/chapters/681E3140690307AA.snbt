@@ -500,7 +500,10 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest18.description1}"]
+			description: [
+				"{ftbquests.chapter.681E3140690307AA.quest18.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest18.description2}"
+			]
 			id: "337BC9186C014A06"
 			tasks: [{
 				id: "53BD9501D90EA729"
