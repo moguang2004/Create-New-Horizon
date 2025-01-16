@@ -123,5 +123,13 @@ ServerEvents.recipes(event => {
             'C': 'gtceu:cement_bucket'
         }
     ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
-
+    //我要占用一下你的砖.js了！
+    event.recipes.create.mixing(
+        Fluid.of("gtceu:aqua_regia", 500),
+        [
+            Fluid.of("gtceu:hydrochloric_acid", 500),
+            Fluid.of("gtceu:nitrogen_dioxide", 250),
+            Fluid.of("minecraft:water", 1000)
+        ]
+    )
 })

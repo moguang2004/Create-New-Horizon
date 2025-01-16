@@ -1510,6 +1510,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("high_energy_fuel")
         .liquid()
         .color(0x351aa)
+    event.create("acid_garbage")
+        .liquid()
+        .color(0x44444)
 })
 
 StartupEvents.postInit(event => {

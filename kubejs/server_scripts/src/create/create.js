@@ -508,4 +508,5 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
   event.recipes.create.item_application('create:shadow_steel_casing', ['minecraft:obsidian', 'gtceu:shadow_steel_plate'])
   event.recipes.create.mixing('4x create:chromatic_compound', [Fluid.of('minecraft:lava', 500), 'gtceu:netherite_dust', 'gtceu:andesite_alloy_ingot', 'create:polished_rose_quartz'])
+  event.recipes.create.mixing('5x minecraft:gold_nugget', [Fluid.of("gtceu:aqua_regia", 500), '2x gtceu:ochrum_dust'])
 })

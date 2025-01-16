@@ -227,4 +227,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:chemical_reactor/iridium_dioxide_dissolving" })
     event.remove({ id: "gtceu:chemical_reactor/iridium_chloride_separation" })
     event.remove({ id: "gtceu:dehydrator/xenoauric_fluoroantimonic_acid" })
+    event.remove({ id: "createdieselgenerators:distillation/acid" })
 })
