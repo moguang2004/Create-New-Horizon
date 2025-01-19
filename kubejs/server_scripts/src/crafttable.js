@@ -1044,6 +1044,18 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped(
+        Item.of('jackseconomy:importer', 1), [
+        "ABA",
+        "BCB",
+        "ADA"
+    ], {
+        A: 'gtceu:gold_foil',
+        B: 'gtceu:steel_plate',
+        C: 'kubejs:heavy_machinery_casing',
+        D: 'gtceu:red_alloy_single_wire'
+    })
+
+    event.shaped(
         Item.of('jackseconomy:exporter', 1), [
         "ADA",
         "BCB",
@@ -1308,7 +1320,192 @@ ServerEvents.recipes(event => {
         D: "gtceu:platinum_single_cable",
         E: "gtceu:iv_electric_motor"
     })
-    
+    event.shaped(
+        Item.of("ctnhcore:corrosive_core", 1), [
+            "ABA",
+            "CDC",
+            "AEA"
+          ], {
+        A: "bloodmagic:corrosivecrystal",
+        B: "botania:life_essence",
+        C: "bloodmagic:reagentgrowth",
+        D: "botania:rune_greed",
+        E: "botania:lens_mine"
+    })
+    event.shaped(
+        Item.of("ctnhcore:vengeful_core", 1), [
+            "ABA",
+            "CDC",
+            "AEA"
+          ], {
+        A: "bloodmagic:vengefulcrystal",
+        B: "botania:life_essence",
+        C: "bloodmagic:reagentsight",
+        D: "botania:rune_wrath",
+        E: "botania:lens_damage"
+    })
+    event.shaped(
+        Item.of("ctnhcore:destructive_core", 1), [
+            "ABA",
+            "CDC",
+            "AEA"
+          ], {
+        A: "bloodmagic:destructivecrystal",
+        B: "botania:life_essence",
+        C: "bloodmagic:reagentholding",
+        D: "botania:rune_sloth",
+        E: "botania:lens_influence"
+    })
+    event.shaped(
+        Item.of("ctnhcore:steadfast_core", 1), [
+            "ABA",
+            "CDC",
+            "AEA"
+          ], {
+        A: "bloodmagic:steadfastcrystal",
+        B: "botania:life_essence",
+        C: "bloodmagic:reagentvoid",
+        D: "botania:rune_envy",
+        E: "botania:lens_warp"
+    })
+    let tiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv','uxv','opv','max']
+    tiers.forEach(tier =>{
+        event.shaped(
+            Item.of("ctpp:" + tier + "_kinetic_input_box", 1), [
+                "A",
+                "B"
+              ], {
+            A: "create:shaft",
+            B: "gtceu:" + tier + "_machine_hull"
+        })
+        event.shaped(
+            Item.of("ctpp:" + tier + "_kinetic_output_box", 1), [
+                "B",
+                "A"
+              ], {
+            A: "create:shaft",
+            B: "gtceu:" + tier + "_machine_hull"
+        })
+        event.shaped(
+            Item.of("ctpp:" + tier + "_kinetic_input_box", 1), [
+                "A",
+                "B"
+              ], {
+            A: "#forge:tools/wrench",
+            B: "ctpp:" + tier + "_kinetic_output_box"
+        })
+        event.shaped(
+            Item.of("ctpp:" + tier + "_kinetic_output_box", 1), [
+                "A",
+                "B"
+              ], {
+            A: "#forge:tools/wrench",
+            B: "ctpp:" + tier + "_kinetic_input_box"
+        })
+    })
+    tiers = ['lv', 'mv', 'hv', 'ev']
+    tiers.forEach(tier =>{
+        event.shaped(
+            Item.of("ctpp:" + tier + "_electric_gear_box_2a", 1), [
+                "   ",
+                "ABC",
+                "   "
+              ], {
+            A: "create:cogwheel",
+            B: "gtceu:" + tier + "_machine_hull",
+            C: "gtceu:" + tier + "_voltage_coil"
+        })
+        event.shaped(
+            Item.of("ctpp:" + tier + "_electric_gear_box_8a", 1), [
+                "  C",
+                "AB ",
+                "  C"
+              ], {
+            A: "create:cogwheel",
+            B: "gtceu:" + tier + "_machine_hull",
+            C: "gtceu:" + tier + "_voltage_coil"
+        })
+        event.shaped(
+            Item.of("ctpp:" + tier + "_electric_gear_box_16a", 1), [
+                " CC",
+                "AB ",
+                " CC"
+              ], {
+            A: "create:cogwheel",
+            B: "gtceu:" + tier + "_machine_hull",
+            C: "gtceu:" + tier + "_voltage_coil"
+        })
+        event.shaped(
+            Item.of("ctpp:" + tier + "_electric_gear_box_32a", 1), [
+                "CCC",
+                "ABC",
+                "CCC"
+              ], {
+            A: "create:cogwheel",
+            B: "gtceu:" + tier + "_machine_hull",
+            C: "gtceu:" + tier + "_voltage_coil"
+        })
+    })
+    event.shaped(
+        Item.of("ctpp:lv_kinetic_mixer", 1), [
+            "ABA",
+            "ACA",
+            "DED"
+          ], {
+        A: "create:shaft",
+        B: "gtceu:tin_rotor",
+        C: "gtceu:lv_electric_motor",
+        D: "#gtceu:circuits/lv",
+        E: "gtceu:lv_machine_hull"
+    })
+    event.shaped(
+        Item.of("ctpp:mv_kinetic_mixer", 1), [
+            "ABA",
+            "ACA",
+            "DED"
+          ], {
+        A: "create:shaft",
+        B: "gtceu:bronze_rotor",
+        C: "gtceu:mv_electric_motor",
+        D: "#gtceu:circuits/mv",
+        E: "gtceu:mv_machine_hull"
+    })
+    event.shaped(
+        Item.of("ctpp:hv_kinetic_mixer", 1), [
+            "ABA",
+            "ACA",
+            "DED"
+          ], {
+        A: "create:shaft",
+        B: "gtceu:steel_rotor",
+        C: "gtceu:hv_electric_motor",
+        D: "#gtceu:circuits/hv",
+        E: "gtceu:hv_machine_hull"
+    })
+    event.shaped(
+        Item.of("ctpp:ev_kinetic_mixer", 1), [
+            "ABA",
+            "ACA",
+            "DED"
+          ], {
+        A: "create:shaft",
+        B: "gtceu:stainless_steel_rotor",
+        C: "gtceu:ev_electric_motor",
+        D: "#gtceu:circuits/ev",
+        E: "gtceu:ev_machine_hull"
+    })
+    event.shaped(
+        Item.of("ctpp:smashing_factory", 1), [
+            "ABA",
+            "BCB",
+            "DED"
+          ], {
+        A: "create:crushing_wheel",
+        B: "gtceu:bronze_gear",
+        C: "kubejs:basic_mechanism",
+        D: "create:andesite_casing",
+        E: "#gtceu:circuits/ulv"
+    })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

@@ -127,7 +127,12 @@ ServerEvents.recipes(event => {
         "vintageimprovements:pressing/nickel_ingot",
         "vintageimprovements:pressing/osmium_ingot",
         "aether:aether_saddle",
-        "gtceu:extruder/nan_certificate"
+        "gtceu:extruder/nan_certificate",
+        "vintageimprovements:pressurizing/sulfuric_acid",
+        "vintageimprovements:pressurizing/sulfur_trioxide_alt",
+        "vintageimprovements:pressurizing/sulfur_trioxide",
+        "vintageimprovements:pressurizing/sulfur_dioxide",
+        "vintageimprovements:craft/sulfur_items_to_block",
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -155,7 +160,10 @@ ServerEvents.recipes(event => {
         "enderio:energetic_alloy_ingot",
         "ad_astra:desh_fluid_pipe",
         "ad_astra:ostrum_fluid_pipe",
-        "ad_astra:fluid_pipe_duct"
+        "ad_astra:fluid_pipe_duct",
+        /vintageimprovements:(.*)_sheet/,
+        /vintageimprovements:(.*)_rod/,
+        /vintageimprovements:(.*)_wire/
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot",

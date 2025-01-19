@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
         A: "gtceu:certus_quartz_plate",
         B: "minecraft:redstone",
         C: "gtceu:tempered_glass",
-        D: "gtceu:vacuum_tube",
+        D: "#gtceu:circuits/ulv",
         E: "gtceu:iron_plate",
     })
     event.custom({

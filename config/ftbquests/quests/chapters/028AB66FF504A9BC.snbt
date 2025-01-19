@@ -555,17 +555,6 @@
 		}
 		{
 			dependencies: ["5F1BD456BFB49435"]
-			id: "2A12784B88F2783E"
-			tasks: [{
-				id: "5055BAC42276660B"
-				item: "gtceu:nuclear_reactor"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["5F1BD456BFB49435"]
 			id: "421DBE316DD837C7"
 			tasks: [{
 				id: "2A031D6BD8F9D676"
@@ -613,7 +602,7 @@
 			id: "72A2F84333B23443"
 			tasks: [{
 				id: "46945E0233A74EE1"
-				item: "gtceu:cvd_factory"
+				item: "ctnhcore:chemical_vapor_deposition_machine"
 				type: "item"
 			}]
 			x: -0.5d
@@ -651,19 +640,6 @@
 			}]
 			x: 10.0d
 			y: 9.0d
-		}
-		{
-			dependencies: ["144A09EC75B60D68"]
-			id: "3750BE16C30A22D8"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "3650AB75D9796BE7"
-				item: "gtceu:wood_particle_collider"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 5.0d
 		}
 		{
 			dependencies: ["144A09EC75B60D68"]

@@ -488,7 +488,7 @@ compat:
 
     # Enable GTEU to FE (and vice versa) Converters.
     # Default: false
-    enableFEConverters: false
+    enableFEConverters: true
 
     # Forge Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.
@@ -498,7 +498,7 @@ compat:
     # GTEU to Forge Energy ratio for converting EU to FE.
     # Affects native conversion and Converters.
     # Default: 4 FE == 1 EU
-    euToFeRatio: 4
+    euToFeRatio: 3.8
 
   # Config options regarding GTCEu compatibility with AE2
   ae2:

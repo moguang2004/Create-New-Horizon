@@ -392,16 +392,6 @@
 			y: 2.5d
 		}
 		{
-			id: "598C9A5068C7F9C7"
-			tasks: [{
-				id: "5952955F070A5F37"
-				item: "gtceu:hot_coolant_turbine"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 4.0d
-		}
-		{
 			id: "676107235021E96F"
 			tasks: [{
 				id: "5285D731555F76E0"

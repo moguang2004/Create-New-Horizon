@@ -11,6 +11,8 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(240)
     ctnh.chemical_bath("rare_earth_intensive_research")
+        .duration(200)
+        .EUt(480)
         .itemInputs("16x gtceu:rare_earth_fe_two_dust")
         .inputFluids(Fluid.of("gtceu:hydrochloric_acid", 9000))
         .itemOutputs("12x gtceu:rare_earth_intensive_research_dust")

@@ -114,14 +114,6 @@ ServerEvents.recipes(event => {
     event.replaceOutput({}, "#forge:dusts/sulfur", "gtceu:sulfur_dust")
     event.replaceOutput({}, "bloodmagic:sulfur", "gtceu:sulfur_dust")
     event.replaceInput({}, "biomesoplenty:cherry_wood", "minecraft:cherry_wood")
-    // event.replaceInput({}, "gtceu:certus_quartz_gem", "ae2:certus_quartz_crystal")
-    // event.replaceOutput({}, "gtceu:certus_quartz_gem", "ae2:certus_quartz_crystal")
-    //event.replaceInput({}, "#forge:dusts/certus_quartz", "gtceu:certus_quartz_dust")
-    //event.replaceOutput({}, "#forge:dusts/certus_quartz", "gtceu:certus_quartz_dust")
-    event.replaceInput({}, "minecraft:netherite_ingot", "gtceu:netherite_ingot")
-    event.replaceOutput({}, "minecraft:netherite_ingot", "gtceu:netherite_ingot")
-    event.replaceInput({}, "minecraft:netherite_block", "gtceu:netherite_block")
-    event.replaceOutput({}, "minecraft:netherite_block", "gtceu:netherite_block")
     event.replaceOutput({}, "create:powered_obsidian", "gtceu:obsidian_dust")
     event.replaceInput({}, "create:powered_obsidian", "gtceu:obsidian_dust")
     event.replaceOutput({ id: "create:splashing/red_sand" }, "minecraft:gold_nugget", "gtceu:precious_alloy_nugget")
@@ -140,7 +132,7 @@ ServerEvents.recipes(event => {
                                     'bloodmagic:blood_rune_displacement_2','bloodmagic:blood_rune_capacity_2','bloodmagic:blood_rune_aug_capacity_2',
                                     'bloodmagic:blood_rune_orb_2','bloodmagic:blood_rune_acceleration_2','bloodmagic:blood_rune_charging_2']
     bloodMagicRune.forEach(runeid => {
-        event.replaceInput({id:runeid},'minecraft:netherite_scrap','gtceu:netherite_ingot')
+        event.replaceInput({id:runeid},'minecraft:netherite_scrap','minecraft:netherite_ingot')
         event.replaceInput({id:runeid},'bloodmagic:etherealslate','kubejs:endslate')
     })
 })
