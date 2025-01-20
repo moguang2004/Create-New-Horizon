@@ -141,7 +141,7 @@
 			subtitle: "{ftbquests.chapter.luv.quest9.subtitle}"
 			tasks: [{
 				id: "536DA5ED8AFE8329"
-				title: "{ftbquests.chapter.luv.quest9.task.title1}"
+				title: "{ftbquests.chapter.luv.quest9.task_+6011643517267247913.title}"
 				type: "checkmark"
 			}]
 			x: -26.5d
@@ -240,7 +240,7 @@
 			id: "422A69585A4BD605"
 			tasks: [{
 				id: "1037307307EFD46D"
-				title: "{ftbquests.chapter.luv.quest17.task.title1}"
+				title: "{ftbquests.chapter.luv.quest17.task_+1168455898938463341.title}"
 				type: "checkmark"
 			}]
 			x: -16.0d
@@ -311,7 +311,7 @@
 			id: "3F84B7E91E4A1926"
 			tasks: [{
 				id: "04239D81911F91D2"
-				title: "{ftbquests.chapter.luv.quest22.task.title1}"
+				title: "{ftbquests.chapter.luv.quest22.task_+298255180147691986.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -439,7 +439,7 @@
 			id: "4B85DFF240A03E9E"
 			tasks: [{
 				id: "0CDFE2699DE3122A"
-				title: "{ftbquests.chapter.luv.quest32.task.title1}"
+				title: "{ftbquests.chapter.luv.quest32.task_+927708991509959210.title}"
 				type: "checkmark"
 			}]
 			x: -8.5d
@@ -476,7 +476,7 @@
 			subtitle: "{ftbquests.chapter.luv.quest35.subtitle}"
 			tasks: [{
 				id: "769EA6C19BD809A8"
-				title: "{ftbquests.chapter.luv.quest35.task.title1}"
+				title: "{ftbquests.chapter.luv.quest35.task_+8547452493269305768.title}"
 				type: "checkmark"
 			}]
 			x: -25.0d
@@ -509,7 +509,7 @@
 			id: "2E045E885DAC322B"
 			tasks: [{
 				id: "592C93A84EBA755B"
-				title: "{ftbquests.chapter.luv.quest38.task.title1}"
+				title: "{ftbquests.chapter.luv.quest38.task_+6425673119435486555.title}"
 				type: "checkmark"
 			}]
 			x: -25.0d
@@ -669,7 +669,7 @@
 			id: "227C6AEB777B7E14"
 			tasks: [{
 				id: "0E554503F61713BB"
-				title: "{ftbquests.chapter.luv.quest51.task.title1}"
+				title: "{ftbquests.chapter.luv.quest51.task_+1032807572867322811.title}"
 				type: "checkmark"
 			}]
 			x: -16.0d

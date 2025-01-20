@@ -1060,7 +1060,7 @@
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest91.subtitle}"
 			tasks: [{
 				id: "04D6DF59C6B92247"
-				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest91.task.title1}"
+				title: "{ftbquests.chapter.177DD3C4E2D1113C.quest91.task_+348711597846897223.title}"
 				type: "checkmark"
 			}]
 			x: 34.0d

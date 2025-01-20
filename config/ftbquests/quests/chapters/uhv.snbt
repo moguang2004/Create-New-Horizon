@@ -171,7 +171,7 @@
 			subtitle: "{ftbquests.chapter.uhv.quest12.subtitle}"
 			tasks: [{
 				id: "1228D5231465172A"
-				title: "{ftbquests.chapter.uhv.quest12.task.title1}"
+				title: "{ftbquests.chapter.uhv.quest12.task_+1308530038393870122.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -270,7 +270,7 @@
 			id: "6931CCEEE2282117"
 			tasks: [{
 				id: "28F2EC5F159FE317"
-				title: "{ftbquests.chapter.uhv.quest21.task.title1}"
+				title: "{ftbquests.chapter.uhv.quest21.task_+2950680599009944343.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d

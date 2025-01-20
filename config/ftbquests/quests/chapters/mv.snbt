@@ -412,7 +412,7 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "36924FA5E1528AB2"
-				title: "{ftbquests.chapter.mv.quest27.task.title1}"
+				title: "{ftbquests.chapter.mv.quest27.task_+3932292998516345522.title}"
 				type: "dimension"
 			}]
 			x: 6.5d
@@ -654,7 +654,7 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "115FCE926E206B92"
-				title: "{ftbquests.chapter.mv.quest43.task.title1}"
+				title: "{ftbquests.chapter.mv.quest43.task_+1251946349740452754.title}"
 				type: "dimension"
 			}]
 			title: "{ftbquests.chapter.mv.quest43.title}"
@@ -678,7 +678,7 @@
 			subtitle: "{ftbquests.chapter.mv.quest45.subtitle}"
 			tasks: [{
 				id: "0F7E19A36C1CE5FC"
-				title: "{ftbquests.chapter.mv.quest45.task.title1}"
+				title: "{ftbquests.chapter.mv.quest45.task_+1116357947318658556.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -687,7 +687,7 @@
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
 			id: "47477F45269D6DB4"
-			subtitle: "将异彩化合物扔入虚空得到"
+			subtitle: "{ftbquests.chapter.mv.quest46.subtitle}"
 			tasks: [{
 				id: "26892DF7590726FB"
 				item: "create:shadow_steel"
@@ -988,7 +988,7 @@
 			id: "1C203FA12C28D5D2"
 			tasks: [{
 				id: "1C1BFFEBB2C0FC24"
-				title: "{ftbquests.chapter.mv.quest68.task.title1}"
+				title: "{ftbquests.chapter.mv.quest68.task_+2025493845214559268.title}"
 				type: "checkmark"
 			}]
 			x: 5.5d

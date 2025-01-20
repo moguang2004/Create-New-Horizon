@@ -52,7 +52,7 @@
 			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest4.subtitle}"
 			tasks: [{
 				id: "3A403EB9C65CA260"
-				title: "{ftbquests.chapter.0AD950C34ED565A4.quest4.task.title1}"
+				title: "{ftbquests.chapter.0AD950C34ED565A4.quest4.task_+4197423820327133792.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -64,7 +64,7 @@
 			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest5.subtitle}"
 			tasks: [{
 				id: "533FDBC115480B2E"
-				title: "{ftbquests.chapter.0AD950C34ED565A4.quest5.task.title1}"
+				title: "{ftbquests.chapter.0AD950C34ED565A4.quest5.task_+5998754851013004078.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d

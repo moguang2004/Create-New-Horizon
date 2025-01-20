@@ -15,7 +15,7 @@
 				item: "gtceu:mana_fused_dust"
 				type: "item"
 			}]
-			title: "折磨的开始"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest1.title}"
 			x: -5.0d
 			y: -0.5d
 		}
@@ -62,7 +62,7 @@
 				item: "gtceu:mana_fused_dust"
 				type: "item"
 			}]
-			subtitle: "恭喜，但你只完成了第一步！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest5.subtitle}"
 			tasks: [{
 				id: "3E127A4B3C054D74"
 				item: "gtceu:mana_plus_ingot"
@@ -113,7 +113,7 @@
 				item: "gtceu:mana_plus_ingot"
 				type: "item"
 			}]
-			subtitle: "这只是一个中间过程"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest9.subtitle}"
 			tasks: [{
 				id: "7C61B5C4AD17B8CC"
 				item: "gtceu:mana_super_plus_ingot"
@@ -168,9 +168,9 @@
 		}
 		{
 			dependencies: ["130A19F7C214261C"]
-			description: ["你终极魔力飞升的开始......"]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest14.description1}"]
 			id: "505115AA8810BBE5"
-			subtitle: "结束了？"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest14.subtitle}"
 			tasks: [{
 				id: "595FDC11A1BB3987"
 				item: "gtceu:ultra_mana_ingot"
@@ -182,13 +182,13 @@
 		{
 			dependencies: ["505115AA8810BBE5"]
 			id: "398E09D8112F81E1"
-			subtitle: "试试扭曲聚变吧！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest15.subtitle}"
 			tasks: [{
 				id: "65F53323DD4FB014"
 				item: "gtceu:mana_radiation_mixture_bucket"
 				type: "item"
 			}]
-			title: "快捷产究极魔力方法"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest15.title}"
 			x: 3.0d
 			y: 9.5d
 		}
@@ -196,23 +196,23 @@
 			id: "2946049E78C9A182"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "植物魔法，血魔法，新生魔艺，神话"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest16.subtitle}"
 			tasks: [{
 				id: "45AD3D942D22D283"
 				item: "gtceu:zenith_essence_bucket"
 				type: "item"
 			}]
-			title: "飞升的开始"
+			title: "{ftbquests.chapter.1FD18D8B41761626.quest16.title}"
 			x: 10.5d
 			y: 4.5d
 		}
 		{
-			description: ["克隆机器大军("]
+			description: ["{ftbquests.chapter.1FD18D8B41761626.quest17.description1}"]
 			id: "4EB22F4303905933"
-			subtitle: "这些魔力机器有着强大的力量"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest17.subtitle}"
 			tasks: [{
 				id: "75E3FB315244236C"
-				title: "魔力机器"
+				title: "{ftbquests.chapter.1FD18D8B41761626.quest17.task_+8494909511403053932.title}"
 				type: "checkmark"
 			}]
 			x: 10.5d
@@ -298,7 +298,7 @@
 		{
 			dependencies: ["4EB22F4303905933"]
 			id: "0A25C69120526E17"
-			subtitle: "神！"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest25.subtitle}"
 			tasks: [{
 				id: "31D7CF2BEBA624B6"
 				item: "gtceu:gaia_reactor"
@@ -310,7 +310,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "0E07CCCC8051A885"
-			subtitle: "天顶系列机器"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest26.subtitle}"
 			tasks: [
 				{
 					id: "7A4E0EBD21BE9025"
@@ -345,7 +345,7 @@
 		{
 			dependencies: ["0E07CCCC8051A885"]
 			id: "34A8E22A0CD93C60"
-			subtitle: "共振电路配方以后会改"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest28.subtitle}"
 			tasks: [{
 				id: "0C9DC9D9C114D98A"
 				item: "ctnhcore:zenith_circult_assembler"
@@ -371,7 +371,7 @@
 				"1DB62462965DB935"
 			]
 			id: "4E733F3B974C3CE4"
-			subtitle: "只能用反相蚀刻产"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest30.subtitle}"
 			tasks: [{
 				id: "44F1C2E7F49BE177"
 				item: "kubejs:zenith_wafer"
@@ -383,7 +383,7 @@
 		{
 			dependencies: ["1729FDC8B1C12F41"]
 			id: "1DB62462965DB935"
-			subtitle: "升级版"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest31.subtitle}"
 			tasks: [{
 				id: "405CFABF35AF5DBD"
 				item: "kubejs:zenith_soc"
@@ -394,7 +394,7 @@
 		}
 		{
 			id: "1729FDC8B1C12F41"
-			subtitle: "魔力便宜电路方案"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest32.subtitle}"
 			tasks: [{
 				id: "435D53E2D721F52E"
 				item: "kubejs:mana_soc"
@@ -406,7 +406,7 @@
 		{
 			dependencies: ["505115AA8810BBE5"]
 			id: "0FBBCA604978BE1C"
-			subtitle: "这个真的牛"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest33.subtitle}"
 			tasks: [{
 				id: "078E8177E722D0E6"
 				item: "gtceu:twisted_fusion_mk1"
@@ -418,7 +418,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "138EAB42F677E309"
-			subtitle: "BoTania:New Horizen"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest34.subtitle}"
 			tasks: [{
 				id: "4337258D7941F9EC"
 				item: "ctnhcore:horizen_rune"
@@ -432,7 +432,7 @@
 			id: "57764C81944AA161"
 			tasks: [{
 				id: "0C543C526F69BD10"
-				title: "盖亚反应器可以产富集魔力锭"
+				title: "{ftbquests.chapter.1FD18D8B41761626.quest35.task_+888401351253015824.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -441,7 +441,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "4F195BAE507ADF5D"
-			subtitle: "Per aspera ad astra"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest36.subtitle}"
 			tasks: [{
 				id: "146D2DB4D6834D17"
 				item: "ctnhcore:starlight_rune"
@@ -453,7 +453,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "4A9C29237B3606F7"
-			subtitle: "速度与人性的扭曲"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest37.subtitle}"
 			tasks: [{
 				id: "7330E5DED9726568"
 				item: "ctnhcore:twist_rune"
@@ -465,7 +465,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "25F5C44403382FC0"
-			subtitle: "生物和金融最原初的渴望"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest38.subtitle}"
 			tasks: [{
 				id: "282801EBD39A0BB4"
 				item: "ctnhcore:proliferation_rune"
@@ -482,7 +482,7 @@
 				"138EAB42F677E309"
 			]
 			id: "5D378302AE200883"
-			subtitle: "毁灭即为创造"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest39.subtitle}"
 			tasks: [{
 				id: "7BE68D46F0E9BDDB"
 				item: "ctnhcore:quasar_rune"
@@ -494,7 +494,7 @@
 		{
 			dependencies: ["2946049E78C9A182"]
 			id: "6205780525A93130"
-			subtitle: "比硅岩线圈好"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest40.subtitle}"
 			tasks: [{
 				id: "47AE21F787CD1C48"
 				item: "ctnhcore:ulta_mana_coil_block"
@@ -509,7 +509,7 @@
 				"5D378302AE200883"
 			]
 			id: "77E6CC05EB28D0ED"
-			subtitle: "究极魔力发电"
+			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest41.subtitle}"
 			tasks: [{
 				id: "6E047BF6E84B92CC"
 				item: "ctnhcore:eye_of_quasar"
@@ -519,5 +519,5 @@
 			y: -3.0d
 		}
 	]
-	title: "魔力飞升"
+	title: "{ftbquests.chapter.1FD18D8B41761626.title}"
 }

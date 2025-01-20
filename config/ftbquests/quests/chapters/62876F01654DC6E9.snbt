@@ -239,7 +239,7 @@
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest15.subtitle}"
 			tasks: [{
 				id: "6C6E2BB3058E8CF8"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest15.task.title1}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest15.task_+7813230451426757880.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -704,7 +704,7 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest34.task.title1}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest34.task_+5556203260894670196.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.62876F01654DC6E9.quest34.title}"
@@ -774,7 +774,7 @@
 			id: "3735FCA33E41C02D"
 			tasks: [{
 				id: "19DD7B9333240B22"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest39.task.title1}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest39.task_+1863781692949662498.title}"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -967,7 +967,7 @@
 			id: "33C54DD646437EEE"
 			tasks: [{
 				id: "61D5802D4311F02B"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest55.task.title1}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest55.task_+7049681723605512235.title}"
 				type: "checkmark"
 			}]
 			x: -0.8095238095238102d
@@ -1354,7 +1354,7 @@
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest83.subtitle}"
 			tasks: [{
 				id: "6DCCEE8C8B46D79D"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest83.task.title1}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest83.task_+7911960932782626717.title}"
 				type: "checkmark"
 			}]
 			x: 8.0d
