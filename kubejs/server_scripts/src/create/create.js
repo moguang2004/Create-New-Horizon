@@ -166,6 +166,29 @@ ServerEvents.recipes(event => {
       R: "apotheosis:infused_breath"
     }
   )
+
+  event.recipes.create.mechanical_crafting('ctnhcore:martial_morality_eye', [
+    "ABCCCBA",
+    "BADCDAB",
+    "BADCDAB",
+    "BAAEAAB",
+    "BADCDAB",
+    "BADCDAB",
+    "ABCCCBA"
+  ],
+    {
+      A: 'gtceu:lp_steam_rock_crusher',
+
+      B: 'kubejs:heavy_machinery_casing',
+
+      C: 'create:mechanical_drill',
+
+      D: 'createoreexcavation:drilling_machine',
+
+      E: 'gtceu:hp_steam_rock_crusher'
+    }
+  )
+
 })
 
 //动力辊压机
