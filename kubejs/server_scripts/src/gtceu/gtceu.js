@@ -2035,7 +2035,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('ctnhcore:abyssalalloy_coil_block')
         .EUt(1966080)
         .duration(900)
-    event.recipes.gtceu.assembler("demonWill")
+    event.recipes.gtceu.assembler("demonwill")
         .itemInputs(['2x #gtceu:circuits/luv', '2x bloodmagic:dungeon_metal', 'bloodmagic:reagentteleposition', 'bloodmagic:reagentsuppression', 'bloodmagic:demonwillgauge', '2x gtceu:tungsten_steel_screw'])
         .itemOutputs("ctnhcore:demon_will_generator")
         .inputFluids(Fluid.of("bloodmagic:life_essence_fluid", 4000))
