@@ -1,0 +1,523 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1FD18D8B41761626"
+	group: "32DB92B5A6E4493B"
+	icon: "ctnhcore:horizen_rune"
+	id: "1FD18D8B41761626"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "022460FFCA763E96"
+			tasks: [{
+				id: "3DDAF18E5E827A2D"
+				item: "gtceu:mana_fused_dust"
+				type: "item"
+			}]
+			title: "折磨的开始"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["022460FFCA763E96"]
+			id: "643B14A93A2A1547"
+			tasks: [{
+				id: "127DC2988244C401"
+				item: "gtceu:mana_fused_mixed_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["643B14A93A2A1547"]
+			id: "0E01AD0627C7DC87"
+			tasks: [{
+				id: "43B6D94DAD297509"
+				item: "gtceu:mana_fused_lp_mixed_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0E01AD0627C7DC87"]
+			dependency_requirement: "one_completed"
+			id: "2D580EC0F98308F5"
+			tasks: [{
+				id: "0140A66B88A010BA"
+				item: "gtceu:mana_fused_demon_mixed_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2D580EC0F98308F5"]
+			id: "793A043D3C7D1DD3"
+			rewards: [{
+				count: 32
+				id: "11FE94DA4337582A"
+				item: "gtceu:mana_fused_dust"
+				type: "item"
+			}]
+			subtitle: "恭喜，但你只完成了第一步！"
+			tasks: [{
+				id: "3E127A4B3C054D74"
+				item: "gtceu:mana_plus_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["793A043D3C7D1DD3"]
+			id: "11E7A04526A80439"
+			tasks: [{
+				id: "21CB1691B4D53C82"
+				item: "gtceu:mana_unstable_plus_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11E7A04526A80439"]
+			id: "57CEAE5D84402572"
+			tasks: [{
+				id: "18A170147B873D26"
+				item: "gtceu:mana_infused_plus_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57CEAE5D84402572"]
+			id: "0B1DD6CF9FC1B153"
+			tasks: [{
+				id: "128136843E1A6DF4"
+				item: "gtceu:mana_stable_plus_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B1DD6CF9FC1B153"]
+			id: "3A4E1D5E4E17F9E6"
+			rewards: [{
+				count: 8
+				id: "4EA600D65C3AAD0B"
+				item: "gtceu:mana_plus_ingot"
+				type: "item"
+			}]
+			subtitle: "这只是一个中间过程"
+			tasks: [{
+				id: "7C61B5C4AD17B8CC"
+				item: "gtceu:mana_super_plus_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3A4E1D5E4E17F9E6"]
+			id: "3E4085419CE0ADB1"
+			tasks: [{
+				id: "6D46D146C4A512FC"
+				item: "gtceu:unknown_super_mana_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E4085419CE0ADB1"]
+			id: "349F87134F6B153F"
+			tasks: [{
+				id: "328AE3DDC08D9528"
+				item: "gtceu:twist_mana_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["349F87134F6B153F"]
+			id: "11BB717A9D64F679"
+			tasks: [{
+				id: "3C8A23A61FA2FC3B"
+				item: "gtceu:twist_power_mana_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11BB717A9D64F679"]
+			id: "130A19F7C214261C"
+			tasks: [{
+				id: "362E7CEA9551D3F8"
+				item: "kubejs:encapsulated_twist_mana"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["130A19F7C214261C"]
+			description: ["你终极魔力飞升的开始......"]
+			id: "505115AA8810BBE5"
+			subtitle: "结束了？"
+			tasks: [{
+				id: "595FDC11A1BB3987"
+				item: "gtceu:ultra_mana_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["505115AA8810BBE5"]
+			id: "398E09D8112F81E1"
+			subtitle: "试试扭曲聚变吧！"
+			tasks: [{
+				id: "65F53323DD4FB014"
+				item: "gtceu:mana_radiation_mixture_bucket"
+				type: "item"
+			}]
+			title: "快捷产究极魔力方法"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			id: "2946049E78C9A182"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "植物魔法，血魔法，新生魔艺，神话"
+			tasks: [{
+				id: "45AD3D942D22D283"
+				item: "gtceu:zenith_essence_bucket"
+				type: "item"
+			}]
+			title: "飞升的开始"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			description: ["克隆机器大军("]
+			id: "4EB22F4303905933"
+			subtitle: "这些魔力机器有着强大的力量"
+			tasks: [{
+				id: "75E3FB315244236C"
+				title: "魔力机器"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4EB22F4303905933"]
+			id: "0AC8A4B8C64F0E08"
+			tasks: [{
+				id: "030331803921B18F"
+				item: "ctnhcore:mana_macerator"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4EB22F4303905933"]
+			id: "259AB57A14C5B387"
+			tasks: [{
+				id: "3F3F4774D01A20D8"
+				item: "ctnhcore:mana_bender"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4EB22F4303905933"]
+			id: "00E7394BE4198828"
+			tasks: [{
+				id: "595682B6D4BFFA9C"
+				item: "ctnhcore:mana_wiremill"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4EB22F4303905933"]
+			id: "288D33951C846373"
+			tasks: [{
+				id: "08F5C5BC237195C9"
+				item: "ctnhcore:mana_lathe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4EB22F4303905933"]
+			id: "364899413019C976"
+			tasks: [{
+				id: "2918967A89513F6D"
+				item: "ctnhcore:mana_assembler"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4EB22F4303905933"]
+			id: "1E7DF9DC2888C466"
+			tasks: [{
+				id: "0354CE8929E5FEFF"
+				item: "ctnhcore:mana_mixer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4EB22F4303905933"]
+			id: "26E70B3C0BD8F04B"
+			tasks: [{
+				id: "67FA4C04E5ABB8A7"
+				item: "gtceu:mana_seperator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4EB22F4303905933"]
+			id: "0A25C69120526E17"
+			subtitle: "神！"
+			tasks: [{
+				id: "31D7CF2BEBA624B6"
+				item: "gtceu:gaia_reactor"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2946049E78C9A182"]
+			id: "0E07CCCC8051A885"
+			subtitle: "天顶系列机器"
+			tasks: [
+				{
+					id: "7A4E0EBD21BE9025"
+					item: "ctnhcore:zenith_casing"
+					type: "item"
+				}
+				{
+					id: "7F7C519DA1F3FC31"
+					item: "ctnhcore:zenith_casing_gearbox"
+					type: "item"
+				}
+				{
+					id: "1F3AB48830DFE46E"
+					item: "ctnhcore:zenith_eye"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E07CCCC8051A885"]
+			id: "0C4B09732AFAF20D"
+			tasks: [{
+				id: "33BDF223BF1EF5E9"
+				item: "ctnhcore:zenith_laser"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E07CCCC8051A885"]
+			id: "34A8E22A0CD93C60"
+			subtitle: "共振电路配方以后会改"
+			tasks: [{
+				id: "0C9DC9D9C114D98A"
+				item: "ctnhcore:zenith_circult_assembler"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E07CCCC8051A885"]
+			id: "51A0173E1316C919"
+			tasks: [{
+				id: "6F00D5F4C551490A"
+				item: "ctnhcore:zenith_distillation_tower"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0C4B09732AFAF20D"
+				"1DB62462965DB935"
+			]
+			id: "4E733F3B974C3CE4"
+			subtitle: "只能用反相蚀刻产"
+			tasks: [{
+				id: "44F1C2E7F49BE177"
+				item: "kubejs:zenith_wafer"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1729FDC8B1C12F41"]
+			id: "1DB62462965DB935"
+			subtitle: "升级版"
+			tasks: [{
+				id: "405CFABF35AF5DBD"
+				item: "kubejs:zenith_soc"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			id: "1729FDC8B1C12F41"
+			subtitle: "魔力便宜电路方案"
+			tasks: [{
+				id: "435D53E2D721F52E"
+				item: "kubejs:mana_soc"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["505115AA8810BBE5"]
+			id: "0FBBCA604978BE1C"
+			subtitle: "这个真的牛"
+			tasks: [{
+				id: "078E8177E722D0E6"
+				item: "gtceu:twisted_fusion_mk1"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2946049E78C9A182"]
+			id: "138EAB42F677E309"
+			subtitle: "BoTania:New Horizen"
+			tasks: [{
+				id: "4337258D7941F9EC"
+				item: "ctnhcore:horizen_rune"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A4E1D5E4E17F9E6"]
+			id: "57764C81944AA161"
+			tasks: [{
+				id: "0C543C526F69BD10"
+				title: "盖亚反应器可以产富集魔力锭"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2946049E78C9A182"]
+			id: "4F195BAE507ADF5D"
+			subtitle: "Per aspera ad astra"
+			tasks: [{
+				id: "146D2DB4D6834D17"
+				item: "ctnhcore:starlight_rune"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2946049E78C9A182"]
+			id: "4A9C29237B3606F7"
+			subtitle: "速度与人性的扭曲"
+			tasks: [{
+				id: "7330E5DED9726568"
+				item: "ctnhcore:twist_rune"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2946049E78C9A182"]
+			id: "25F5C44403382FC0"
+			subtitle: "生物和金融最原初的渴望"
+			tasks: [{
+				id: "282801EBD39A0BB4"
+				item: "ctnhcore:proliferation_rune"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4A9C29237B3606F7"
+				"4F195BAE507ADF5D"
+				"25F5C44403382FC0"
+				"138EAB42F677E309"
+			]
+			id: "5D378302AE200883"
+			subtitle: "毁灭即为创造"
+			tasks: [{
+				id: "7BE68D46F0E9BDDB"
+				item: "ctnhcore:quasar_rune"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2946049E78C9A182"]
+			id: "6205780525A93130"
+			subtitle: "比硅岩线圈好"
+			tasks: [{
+				id: "47AE21F787CD1C48"
+				item: "ctnhcore:ulta_mana_coil_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6205780525A93130"
+				"5D378302AE200883"
+			]
+			id: "77E6CC05EB28D0ED"
+			subtitle: "究极魔力发电"
+			tasks: [{
+				id: "6E047BF6E84B92CC"
+				item: "ctnhcore:eye_of_quasar"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+	]
+	title: "魔力飞升"
+}
