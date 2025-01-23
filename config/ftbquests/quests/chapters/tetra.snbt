@@ -41,7 +41,7 @@
 			subtitle: "{ftbquests.chapter.tetra.quest2.subtitle}"
 			tasks: [{
 				id: "5356F6870A086F6E"
-				title: "{ftbquests.chapter.tetra.quest2.task.title1}"
+				title: "{ftbquests.chapter.tetra.quest2.task_+6005258212994477934.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.tetra.quest2.title}"
@@ -53,7 +53,7 @@
 			subtitle: "{ftbquests.chapter.tetra.quest3.subtitle}"
 			tasks: [{
 				id: "56E8A1453A1ED100"
-				title: "{ftbquests.chapter.tetra.quest3.task.title1}"
+				title: "{ftbquests.chapter.tetra.quest3.task_+6262432600558588160.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -118,7 +118,7 @@
 			subtitle: "{ftbquests.chapter.tetra.quest8.subtitle}"
 			tasks: [{
 				id: "5B8A5BDECFF3AC38"
-				title: "{ftbquests.chapter.tetra.quest8.task.title1}"
+				title: "{ftbquests.chapter.tetra.quest8.task_+6596185616767233080.title}"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -189,7 +189,7 @@
 			subtitle: "{ftbquests.chapter.tetra.quest14.subtitle}"
 			tasks: [{
 				id: "382D915F144FE191"
-				title: "{ftbquests.chapter.tetra.quest14.task.title1}"
+				title: "{ftbquests.chapter.tetra.quest14.task_+4048051477624643985.title}"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -318,7 +318,7 @@
 			subtitle: "{ftbquests.chapter.tetra.quest23.subtitle}"
 			tasks: [{
 				id: "09F47605F12B8E47"
-				title: "{ftbquests.chapter.tetra.quest23.task.title1}"
+				title: "{ftbquests.chapter.tetra.quest23.task_+717328008551829063.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -328,7 +328,7 @@
 			id: "3B75FECDA06E51FB"
 			tasks: [{
 				id: "093FA5E8A350EED8"
-				title: "{ftbquests.chapter.tetra.quest24.task.title1}"
+				title: "{ftbquests.chapter.tetra.quest24.task_+666433688465108696.title}"
 				type: "checkmark"
 			}]
 			x: 14.0d
@@ -355,7 +355,7 @@
 			id: "56951FE92E2C9DF9"
 			tasks: [{
 				id: "2090486C507A670F"
-				title: "{ftbquests.chapter.tetra.quest26.task.title1}"
+				title: "{ftbquests.chapter.tetra.quest26.task_+2346455035903895311.title}"
 				type: "checkmark"
 			}]
 			x: 20.0d

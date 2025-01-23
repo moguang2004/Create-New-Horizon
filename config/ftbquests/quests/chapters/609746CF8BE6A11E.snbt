@@ -18,7 +18,7 @@
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest1.subtitle}"
 			tasks: [{
 				id: "438EA574FBB2C751"
-				title: "{ftbquests.chapter.609746CF8BE6A11E.quest1.task.title1}"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest1.task_+4868010169091671889.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest1.title}"
@@ -197,7 +197,7 @@
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest12.subtitle}"
 			tasks: [{
 				id: "1CA8FC0C2787A957"
-				title: "{ftbquests.chapter.609746CF8BE6A11E.quest12.task.title1}"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest12.task_+2065177558282381655.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest12.title}"
@@ -493,7 +493,7 @@
 			description: [
 				"{ftbquests.chapter.609746CF8BE6A11E.quest33.description1}"
 				"{ftbquests.chapter.609746CF8BE6A11E.quest33.description2}"
-				"[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"57A04137E648CACD\"}},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description3\"}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description1\"},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"57A04137E648CACD\"}},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description3\"}]"
 			]
 			icon: "ars_nouveau:drygmy_shard"
 			id: "4C73E3BA1AD3E0A5"
@@ -503,7 +503,7 @@
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest33.subtitle}"
 			tasks: [{
 				id: "4E26186C16172564"
-				title: "{ftbquests.chapter.609746CF8BE6A11E.quest33.task.title1}"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest33.task_+5631215236579534180.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest33.title}"
@@ -528,7 +528,7 @@
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest35.subtitle}"
 			tasks: [{
 				id: "2225751D33986858"
-				title: "{ftbquests.chapter.609746CF8BE6A11E.quest35.task.title1}"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest35.task_+2460501539707971672.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest35.title}"
@@ -537,7 +537,7 @@
 		}
 		{
 			dependencies: ["4F0DD37CC88A8918"]
-			description: ["[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"19A600CF4DFAAABC\"}},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description3\"}]"]
+			description: ["[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description1\"},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"19A600CF4DFAAABC\"}},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description3\"}]"]
 			id: "432B63898EB4DBC2"
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest36.subtitle}"
 			tasks: [{

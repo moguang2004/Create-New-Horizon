@@ -33,7 +33,7 @@
 			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest1.subtitle}"
 			tasks: [{
 				id: "59F24DF7703134AE"
-				title: "{ftbquests.chapter.046724C96F783FC2.quest1.task.title1}"
+				title: "{ftbquests.chapter.046724C96F783FC2.quest1.task_+6481328538874098862.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -208,7 +208,7 @@
 			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest16.subtitle}"
 			tasks: [{
 				id: "68233A92F4015C0B"
-				title: "{ftbquests.chapter.046724C96F783FC2.quest16.task.title1}"
+				title: "{ftbquests.chapter.046724C96F783FC2.quest16.task_+7503905806962744331.title}"
 				type: "checkmark"
 			}]
 			x: 15.5d

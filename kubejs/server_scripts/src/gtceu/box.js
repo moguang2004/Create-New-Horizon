@@ -208,6 +208,36 @@ ServerEvents.recipes(event => {
                 .EUt(f[9])
                 .CWUt(f[7]))
     })
+    let voltagee = [
+        ['uhv', 'europium', 'uhpic', 'sodium_potassium', 'soldering_alloy', '12000', '5760', 1966080, '491520', '128', 1000, 'uv']
+    ]
+    voltagee.forEach(v => {
+        ctnh.assembly_line(v[0] + '_energy_input_hatch')
+            .itemInputs(['gtceu:' + v[0] + '_machine_hull', '4x gtceu:' + v[1] + '_single_cable', '2x gtceu:' + v[2] + '_chip', '#gtceu:circuits/' + v[0] + '', '2x kubejs:' + v[0] + '_voltage_coil'])
+            .inputFluids('gtceu:' + v[3] + ' ' + v[5] + '', 'gtceu:' + v[4] + ' ' + v[6] + '')
+            .itemOutputs('gtceu:' + v[0] + '_energy_input_hatch')
+            .EUt(v[7])
+            .duration(v[10])
+            .stationResearch(b => b.researchStack(Item.of('gtceu:' + v[11] + '_energy_input_hatch'))
+                .dataStack(Item.of("gtceu:data_module"))
+                .EUt(v[8])
+                .CWUt(v[9]))
+    })
+    let voltageee = [
+        ['uhv', 'europium', 'uhpic', 'sodium_potassium', 'soldering_alloy', '12000', '5760', 1966080, '491520', '128', 1000, 'uv']
+    ]
+    voltageee.forEach(v => {
+        ctnh.assembly_line(v[0] + '_energy_output_hatch')
+            .itemInputs(['gtceu:' + v[0] + '_machine_hull', '4x gtceu:' + v[1] + '_spring', '2x gtceu:' + v[2] + '_chip', '#gtceu:circuits/' + v[0] + '', '2x kubejs:' + v[0] + '_voltage_coil'])
+            .inputFluids('gtceu:' + v[3] + ' ' + v[5] + '', 'gtceu:' + v[4] + ' ' + v[6] + '')
+            .itemOutputs('gtceu:' + v[0] + '_energy_output_hatch')
+            .EUt(v[7])
+            .duration(v[10])
+            .stationResearch(b => b.researchStack(Item.of('gtceu:' + v[11] + '_energy_output_hatch'))
+                .dataStack(Item.of("gtceu:data_module"))
+                .EUt(v[8])
+                .CWUt(v[9]))
+    })
     let calibration = [
         ['uhv']
     ]

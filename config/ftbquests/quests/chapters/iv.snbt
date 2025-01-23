@@ -153,7 +153,7 @@
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
 				id: "15D87EEEA7218F96"
-				title: "{ftbquests.chapter.iv.quest7.task.title1}"
+				title: "{ftbquests.chapter.iv.quest7.task_+1574147633237299094.title}"
 				type: "dimension"
 			}]
 			x: 6.5d
@@ -276,7 +276,7 @@
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
 				id: "3068BBEAE1544360"
-				title: "{ftbquests.chapter.iv.quest15.task.title1}"
+				title: "{ftbquests.chapter.iv.quest15.task_+3488244528875586400.title}"
 				type: "dimension"
 			}]
 			x: 6.5d
@@ -407,7 +407,7 @@
 			subtitle: "{ftbquests.chapter.iv.quest24.subtitle}"
 			tasks: [{
 				id: "55261C111E61BB45"
-				title: "{ftbquests.chapter.iv.quest24.task.title1}"
+				title: "{ftbquests.chapter.iv.quest24.task_+6135622402188622661.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -756,7 +756,7 @@
 			id: "67B1DCF33DA1537D"
 			tasks: [{
 				id: "041C979A41757455"
-				title: "{ftbquests.chapter.iv.quest43.task.title1}"
+				title: "{ftbquests.chapter.iv.quest43.task_+296278364278584405.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -848,7 +848,7 @@
 			id: "42BA70F3031EB46B"
 			tasks: [{
 				id: "75EBDFEBF3875A93"
-				title: "{ftbquests.chapter.iv.quest49.task.title1}"
+				title: "{ftbquests.chapter.iv.quest49.task_+8497131326460615315.title}"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -1157,7 +1157,7 @@
 			subtitle: "{ftbquests.chapter.iv.quest66.subtitle}"
 			tasks: [{
 				id: "507A01A0F2C8276C"
-				title: "{ftbquests.chapter.iv.quest66.task.title1}"
+				title: "{ftbquests.chapter.iv.quest66.task_+5798949260972533612.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -1182,7 +1182,7 @@
 			id: "3409E0910FCB61B9"
 			tasks: [{
 				id: "41927386805769E4"
-				title: "{ftbquests.chapter.iv.quest68.task.title1}"
+				title: "{ftbquests.chapter.iv.quest68.task_+4724965980581095908.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -1561,7 +1561,7 @@
 			subtitle: "{ftbquests.chapter.iv.quest95.subtitle}"
 			tasks: [{
 				id: "42ECF3A7680057D3"
-				title: "{ftbquests.chapter.iv.quest95.task.title1}"
+				title: "{ftbquests.chapter.iv.quest95.task_+4822497201336899539.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -1907,7 +1907,7 @@
 			id: "350ED47A651E9298"
 			tasks: [{
 				id: "706418CF350C03A8"
-				title: "{ftbquests.chapter.iv.quest111.task.title1}"
+				title: "{ftbquests.chapter.iv.quest111.task_+8098625308146271144.title}"
 				type: "checkmark"
 			}]
 			x: 4.5d

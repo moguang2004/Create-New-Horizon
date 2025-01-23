@@ -236,4 +236,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:chemical_reactor/iridium_chloride_separation" })
     event.remove({ id: "gtceu:dehydrator/xenoauric_fluoroantimonic_acid" })
     event.remove({ id: "createdieselgenerators:distillation/acid" })
+    event.remove({ id: "gtceu:assembly_line/energy_hatch_uhv" })
+    event.remove({ id: "gtceu:assembly_line/dynamo_hatch_uhv"})
 })

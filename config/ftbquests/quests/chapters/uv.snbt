@@ -165,7 +165,7 @@
 			id: "7A71908F8897D99E"
 			tasks: [{
 				id: "474F6A8335C66DF3"
-				title: "{ftbquests.chapter.uv.quest11.task.title1}"
+				title: "{ftbquests.chapter.uv.quest11.task_+5138442811628482035.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -180,7 +180,7 @@
 			subtitle: "{ftbquests.chapter.uv.quest12.subtitle}"
 			tasks: [{
 				id: "3BBE2FA962B1B2F2"
-				title: "{ftbquests.chapter.uv.quest12.task.title1}"
+				title: "{ftbquests.chapter.uv.quest12.task_+4304930698364564210.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -327,7 +327,7 @@
 					type: "item"
 				}
 			]
-			title: "放射性物质"
+			title: "{ftbquests.chapter.uv.quest24.title}"
 			x: 13.0d
 			y: -10.0d
 		}
@@ -507,7 +507,7 @@
 			id: "2F06653DB4F277D8"
 			tasks: [{
 				id: "29984565570288D2"
-				title: "{ftbquests.chapter.uv.quest39.task.title1}"
+				title: "{ftbquests.chapter.uv.quest39.task_+2997221853568862418.title}"
 				type: "checkmark"
 			}]
 			x: 14.5d
@@ -544,13 +544,13 @@
 		{
 			dependencies: ["7F81295FE18741A6"]
 			description: [
-				"需要交替输入烈焰之炽焱和极寒之凛冰"
-				"且温度在25000K时会强制停机，会消耗大量的极寒之凛冰来降温且没有产物。"
+				"{ftbquests.chapter.uv.quest42.description1}"
+				"{ftbquests.chapter.uv.quest42.description2}"
 			]
 			id: "50B3C9E6ECB749A2"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "凭空产生，梦里才会有的东西吧？"
+			subtitle: "{ftbquests.chapter.uv.quest42.subtitle}"
 			tasks: [{
 				id: "5C64C7AB92A674C4"
 				item: "ctnhcore:void_miner"
@@ -568,7 +568,7 @@
 			id: "59F93AD126E45FED"
 			tasks: [{
 				id: "377628159C116ECD"
-				title: "开始你的硅岩燃料吧"
+				title: "{ftbquests.chapter.uv.quest43.task_+3996425792615706317.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
