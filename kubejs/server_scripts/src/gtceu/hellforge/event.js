@@ -4,10 +4,11 @@ EntityEvents.death(event=>{
             if(event.getEntity().isMonster() && event.getEntity().isInFluidType(Fluid.of('bloodmagic:life_essence_fluid').fluid.fluidType)){
                 var level=event.getLevel();
                 BlockPos.withinManhattan(event.entity.position(),8,8,8).forEach(pos=>{
-                    if(level.getBlock(pos).id=='gtceu:hellforge' && level.getBlockEntity(pos)!=null){
-                        var will=level.getBlockEntity(pos).persistentData.getInt('will');
-                        will+=(event.getEntity().getMaxHealth()/20);
-                        level.getBlockEntity(pos).persistentData.putInt('will',will);
+                    if(level.getBlock(pos).id=='ctnhcore:hellforge' && level.getBlockEntity(pos)!=null){
+                        var machine = $MetaMachine.getMachine(level,pos)
+                        if(machine instanceof $HellForgeMachine){
+                            machine.will += (event.getEntity().getMaxHealth()/20)
+                        }
                         throw Error();
                     }
                 })
@@ -23,10 +24,11 @@ ItemEvents.dropped(event=>{
             if(soul!=0){
                 var level=event.level;
                 BlockPos.withinManhattan(event.getItemEntity().position(),3,3,3).forEach(pos=>{
-                    if(level.getBlock(pos).id=='gtceu:hellforge' && level.getBlockEntity(pos)!=null){
-                        var will=level.getBlockEntity(pos).persistentData.getInt('will');
-                        will+=soul;
-                        level.getBlockEntity(pos).persistentData.putInt('will',will);
+                    if(level.getBlock(pos).id=='ctnhcore:hellforge' && level.getBlockEntity(pos)!=null){
+                        var machine = $MetaMachine.getMachine(level,pos)
+                        if(machine instanceof $HellForgeMachine){
+                            machine.will += soul;
+                        }
                         event.itemEntity.getItem().nbt.putDouble('souls',0);
                         throw Error();
                     }

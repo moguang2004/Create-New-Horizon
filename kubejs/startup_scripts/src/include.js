@@ -51,5 +51,6 @@ const $TagKey = Java.loadClass("net.minecraft.tags.TagKey")
 const $EyeOfEnder = Java.loadClass("net.minecraft.world.entity.projectile.EyeOfEnder")
 const $ItemStack = Java.loadClass("net.minecraft.world.item.ItemStack")
 const $Entity = Java.loadClass("net.minecraft.world.entity.Entity")
+const $HellForgeMachine = Java.loadClass("io.github.cpearl0.ctnhcore.common.machine.multiblock.magic.HellForgeMachine")
 
 const $ArrayList = Java.loadClass("java.util.ArrayList")
