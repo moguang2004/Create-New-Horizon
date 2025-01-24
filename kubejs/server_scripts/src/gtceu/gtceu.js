@@ -2097,7 +2097,7 @@ ServerEvents.recipes(event => {
         .addData("radius", 7)
     event.recipes.gtceu.assembler("twist_frame")
         .itemInputs(['1x gtceu:ultra_mana_plate', '3x gtceu:mana_super_plus_plate', '2x gtceu:double_rhodium_plated_palladium_plate', 'gtceu:osmiridium_frame', 'bloodmagic:defaultcrystal'])
-        .itemOutputs('2x kubejs:twisted_fusion_casing')
+        .itemOutputs('2x ctnhcore:twisted_fusion_casing')
         .inputFluids(Fluid.of('gtceu:mana', 500))
         .EUt(30720)
         .duration(200)

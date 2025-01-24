@@ -409,7 +409,7 @@
 			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest33.subtitle}"
 			tasks: [{
 				id: "078E8177E722D0E6"
-				item: "gtceu:twisted_fusion_mk1"
+				item: "ctnhcore:twisted_fusion_mk1"
 				type: "item"
 			}]
 			x: 1.0d

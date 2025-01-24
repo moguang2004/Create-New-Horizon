@@ -2,14 +2,12 @@ EntityEvents.death(event=>{
     try{
         if(event.getSource().getPlayer().getHeldItem("main_hand").id==='bloodmagic:soulsword'){
             if(event.getEntity().isMonster() && event.getEntity().isInFluidType(Fluid.of('bloodmagic:life_essence_fluid').fluid.fluidType)){
+                console.info("here")
                 var level=event.getLevel();
                 BlockPos.withinManhattan(event.entity.position(),8,8,8).forEach(pos=>{
                     if(level.getBlock(pos).id=='ctnhcore:hellforge' && level.getBlockEntity(pos)!=null){
-                        var machine = $MetaMachine.getMachine(level,pos)
-                        if(machine instanceof $HellForgeMachine){
-                            machine.will += (event.getEntity().getMaxHealth()/20)
-                        }
-                        throw Error();
+                        var machine = level.getBlockEntity(pos).getMetaMachine()
+                        machine.will += (event.getEntity().getMaxHealth()/20)
                     }
                 })
             }
@@ -25,10 +23,8 @@ ItemEvents.dropped(event=>{
                 var level=event.level;
                 BlockPos.withinManhattan(event.getItemEntity().position(),3,3,3).forEach(pos=>{
                     if(level.getBlock(pos).id=='ctnhcore:hellforge' && level.getBlockEntity(pos)!=null){
-                        var machine = $MetaMachine.getMachine(level,pos)
-                        if(machine instanceof $HellForgeMachine){
-                            machine.will += soul;
-                        }
+                        var machine = level.getBlockEntity(pos).getMetaMachine()
+                        machine.will += soul
                         event.itemEntity.getItem().nbt.putDouble('souls',0);
                         throw Error();
                     }
