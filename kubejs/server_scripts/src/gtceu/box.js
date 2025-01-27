@@ -249,8 +249,21 @@ ServerEvents.recipes(event => {
             .EUt(1966080)
             .duration(50)
     })
-
-
+    let holder = [
+        ['gtceu:adamantite_gear', 'gtceu:small_neutronium_gear', 'gtceu:uhv_machine_hull',"uhv"]
+    ]
+    holder.forEach(h => {
+        event.shaped(
+            Item.of("gtceu:"+ h[3] +"_rotor_holder", 1), [
+            "ABA",
+            "BCB",
+            "ABA"
+        ], {
+            A: h[1],
+            B: h[0],
+            C: h[2]
+        })
+    })
 
 
 
