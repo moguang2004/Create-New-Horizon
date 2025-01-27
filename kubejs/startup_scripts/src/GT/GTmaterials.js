@@ -17,7 +17,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     GTMaterials.get("andesite_alloy").setMaterialARGB(0xA7AD9F)
     GTMaterials.get("andesite_alloy").setMaterialIconSet(GTMaterialIconSet.DULL)
     GTMaterials.get("darmstadtium").addFlags(GTMaterialFlags.GENERATE_GEAR)
-
+    GTMaterials.get('neutronium').addFlags(GTMaterialFlags.GENERATE_SMALL_GEAR)
     GTMaterials.get("mana_steel").addFlags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_RING)
     GTMaterials.get("mana_steel").setMaterialARGB(0x438FFE)
     GTMaterials.get("mana_steel").setMaterialSecondaryARGB(0x3962D7)
