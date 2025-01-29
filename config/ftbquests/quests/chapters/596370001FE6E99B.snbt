@@ -24,6 +24,14 @@
 		}
 	}
 	id: "596370001FE6E99B"
+	images: [{
+		height: 9.0d
+		image: "ftbquests:textures/snow_city.png"
+		rotation: 0.0d
+		width: 9.185567010309278d
+		x: -2.0d
+		y: 0.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
