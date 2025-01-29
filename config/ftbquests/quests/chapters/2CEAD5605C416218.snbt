@@ -428,7 +428,7 @@
 				}
 				{
 					id: "670FB78805FFA78D"
-					item: "gtceu:mv_kinetic_mixer"
+					item: "ctpp:mv_kinetic_mixer"
 					optional_task: true
 					type: "item"
 				}
@@ -843,7 +843,7 @@
 				}
 				{
 					id: "431A51F9A5F7DE49"
-					item: "gtceu:hv_kinetic_mixer"
+					item: "ctpp:hv_kinetic_mixer"
 					optional_task: true
 					type: "item"
 				}

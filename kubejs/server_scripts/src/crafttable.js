@@ -245,7 +245,7 @@ ServerEvents.recipes(event => {
         "ABA"
     ], {
         A: "minecraft:stone",
-        B: "gtceu:magnetic_iron_dust",
+        B: "gtceu:magnetic_iron_ingot",
     })
     event.shaped(
         Item.of("create:rotation_speed_controller", 1), [

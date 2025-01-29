@@ -262,9 +262,9 @@ event.custom({
     //         "item": "gtceu:phenolic_circuit_board"
     //       }
     //     ],
-    //     "energy": 10000,
-    //     "maxChargeRate": 500
-    //   },
+    //     "energy": 1000,
+    //     "maxChargeRate": 5000
+    //   }
     {
       "type": "create_new_age:energising",
       "energy_needed": 10000,
@@ -313,22 +313,10 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:resin_circuit_board'
+    let transitional = 'gtceu:wood_dust'
     event.recipes.create.sequenced_assembly([
-        'gtceu:resin_printed_circuit_board'
-        ], 'gtceu:resin_circuit_board', [
-    event.recipes.createDeploying(transitional, [transitional, 'gtceu:copper_foil']),
-    //event.recipes.vintageimprovementsLaserCutting(transitional,[transitional]).energyCost(10000).maxChargeRate(5000),
-    event.recipes.createPressing(transitional, [transitional]),
-        ]).transitionalItem('gtceu:resin_circuit_board')
-        .loops(4)
-})
-
-ServerEvents.recipes(event => {
-    let transitional = 'gtceu:phenolic_circuit_board'
-    event.recipes.create.sequenced_assembly([
-        'gtceu:phenolic_printed_circuit_board'
-        ], 'gtceu:phenolic_circuit_board', [
+        'gtceu:wood_dust'
+        ], 'gtceu:wood_dust', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:silver_foil']),
     //event.recipes.vintageimprovementsLaserCutting(transitional, transitional),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:sodium_persulfate', 50)]),
@@ -338,10 +326,10 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:phenolic_circuit_board'
+    let transitional = 'gtceu:wood_dust'
     event.recipes.create.sequenced_assembly([
-        'gtceu:phenolic_printed_circuit_board'
-        ], 'gtceu:phenolic_circuit_board', [
+        'gtceu:wood_dust'
+        ], 'gtceu:wood_dust', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:silver_foil']),
     //event.recipes.vintageimprovementsLaserCutting(transitional, transitional),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:iron_iii_chloride', 25)]),
@@ -354,7 +342,7 @@ ServerEvents.recipes(event => {
   //批量添加离心机和压缩机配方(ULV以下)
   const $GTRecipeCapabilities=Java.loadClass('com.gregtechceu.gtceu.common.data.GTRecipeCapabilities');
   ServerEvents.recipes(event =>{
-      event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:centrifuge' }, recipe => { 
+      event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:centrifuge', not:{id:'gtceu:centrifuge/sticky_resin_separation'}}, recipe => { 
           if(EUt(recipe)>8){ return; }
           try { 
               var input = allInputs(recipe);

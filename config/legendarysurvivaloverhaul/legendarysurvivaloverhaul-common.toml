@@ -9,7 +9,7 @@
 	# Whether body members receive localized damages.
 	"Localized Body Damage Enabled" = false
 	# Whether the overhaul health system is enabled.
-	"Health Overhaul Enabled" = true
+	"Health Overhaul Enabled" = false
 
 	[core.advanced]
 		# How often player temperature is regularly synced between the client and server, in ticks.
@@ -274,35 +274,35 @@
 
 				[temperature.integration.seasons.temperate.spring]
 					#Range: -1000.0 ~ 1000.0
-					"Early Spring Modifier" = -10.5
+					"Early Spring Modifier" = -15.5
 					#Range: -1000.0 ~ 1000.0
-					"Mid Spring Modifier" = -4.0
+					"Mid Spring Modifier" = -9.0
 					#Range: -1000.0 ~ 1000.0
-					"Late Spring Modifier" = 4.0
+					"Late Spring Modifier" = -1.0
 
 				[temperature.integration.seasons.temperate.summer]
 					#Range: -1000.0 ~ 1000.0
-					"Early Summer Modifier" = 8.0
+					"Early Summer Modifier" = 3.0
 					#Range: -1000.0 ~ 1000.0
-					"Mid Summer Modifier" = 12.5
+					"Mid Summer Modifier" = 7.5
 					#Range: -1000.0 ~ 1000.0
-					"Late Summer Modifier" = 12.5
+					"Late Summer Modifier" = 7.5
 
 				[temperature.integration.seasons.temperate.autumn]
 					#Range: -1000.0 ~ 1000.0
-					"Early Autumn Modifier" = 8.0
+					"Early Autumn Modifier" = 3.0
 					#Range: -1000.0 ~ 1000.0
-					"Mid Autumn Modifier" = 4.0
+					"Mid Autumn Modifier" = -1.0
 					#Range: -1000.0 ~ 1000.0
-					"Late Autumn Modifier" = -4.0
+					"Late Autumn Modifier" = -9.0
 
 				[temperature.integration.seasons.temperate.winter]
 					#Range: -1000.0 ~ 1000.0
-					"Early Winter Modifier" = -10.5
+					"Early Winter Modifier" = -15.5
 					#Range: -1000.0 ~ 1000.0
-					"Mid Winter Modifier" = -16.0
+					"Mid Winter Modifier" = -21.0
 					#Range: -1000.0 ~ 1000.0
-					"Late Winter Modifier" = -16.0
+					"Late Winter Modifier" = -21.0
 
 			# Temperature modifiers per season in tropical biomes.
 			[temperature.integration.seasons.tropical]

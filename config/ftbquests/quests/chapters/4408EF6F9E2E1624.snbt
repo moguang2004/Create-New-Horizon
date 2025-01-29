@@ -1303,8 +1303,8 @@
 				item: "vintageimprovements:spring_coiling_machine"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 2.5d
+			x: -10.5d
+			y: 0.875d
 		}
 		{
 			dependencies: [
@@ -1367,7 +1367,11 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["6A9845F85704E2D4"]
+			dependencies: [
+				"6A9845F85704E2D4"
+				"5E5F4837CC1F047A"
+			]
+			dependency_requirement: "one_completed"
 			id: "06C3AF2D5D8F694A"
 			tasks: [{
 				id: "06DC5E54CC23C978"

@@ -752,24 +752,13 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["62BAC5BC588E4CAA"]
-			id: "5330148B0417ED4E"
-			tasks: [{
-				id: "7145EBACDBA0A47F"
-				item: "gtceu:magnetic_iron_dust"
-				type: "item"
-			}]
-			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: [
-				"5330148B0417ED4E"
 				"680EE95FED0F46F5"
 				"24A3BEAC1C62DFEC"
+				"62BAC5BC588E4CAA"
 			]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest55.description1}"]
@@ -901,6 +890,7 @@
 				"4B90C12A9AD3F488"
 				"3A2D6EEBA8A75B83"
 			]
+			dependency_requirement: "one_completed"
 			id: "2CB9C64B6AD4B61B"
 			tasks: [{
 				id: "572C7F73420A622C"
