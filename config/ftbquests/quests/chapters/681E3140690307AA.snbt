@@ -5,6 +5,74 @@
 	group: ""
 	icon: "minecraft:oak_log"
 	id: "681E3140690307AA"
+	images: [
+		{
+			height: 1.0d
+			image: "create:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:textures/gui/icon/gregtech_logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.3d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:item/altarmaker"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.2d
+			y: -0.75d
+		}
+		{
+			height: 1.0d
+			image: "legendarysurvivaloverhaul:item/thermometer/thermometer_16"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "botania:item/corporea_spark_creative"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -0.75d
+		}
+		{
+			corner: true
+			height: 5.0d
+			image: "ftbquests:textures/title2.png"
+			order: -1
+			rotation: 0.0d
+			width: 18.55072463768116d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/drygmy_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			height: 1.2d
+			image: "tetra:item/geode"
+			rotation: 0.0d
+			width: 1.2d
+			x: -11.0d
+			y: 4.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -18,8 +86,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest1.task_+6694491882964515917.title}"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: 2.5d
+			x: -11.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -55,8 +123,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest2.title}"
-			x: -9.0d
-			y: 0.5d
+			x: -11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -66,6 +134,7 @@
 			]
 			icon: "gtceu:gregification_hazard_sign_block"
 			id: "6709D9DF2EA0432B"
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3.subtitle}"
 			tasks: [{
 				id: "0159C516B579DCAF"
@@ -73,22 +142,23 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest3.title}"
-			x: -10.5d
-			y: 4.0d
+			x: -12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
 			hide_dependency_lines: false
 			icon: "create:wrench"
 			id: "6E097A8CDC0BF608"
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4.subtitle}"
 			tasks: [{
 				id: "09D536FDA05E00B8"
 				title: "{ftbquests.chapter.681E3140690307AA.quest4.task_+708532979325862072.title}"
 				type: "checkmark"
 			}]
-			x: -11.0d
-			y: 2.5d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -100,8 +170,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest5.task_+3997356261942771367.title}"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: 1.0d
+			x: -9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -113,8 +183,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest6.task_+6157444188204973590.title}"
 				type: "checkmark"
 			}]
-			x: -10.5d
-			y: 1.0d
+			x: -12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -126,8 +196,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest7.task_+7152984134665815429.title}"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: 4.5d
+			x: -9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
@@ -144,11 +214,11 @@
 				item: { Count: 16, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.0d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6F405D2508EED283"]
+			dependencies: ["1B4FFE71B4C66E14"]
 			description: [""]
 			id: "611BCC64F1F511AA"
 			optional: true
@@ -205,8 +275,8 @@
 				item: { Count: 4, id: "minecraft:leather" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -287,8 +357,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest10.task_+201389995652954903.title}"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -317,6 +387,7 @@
 					type: "item"
 				}
 			]
+			size: 1.0d
 			tasks: [{
 				count: 16L
 				id: "6ACD95E8150EA4EC"
@@ -324,11 +395,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest11.title}"
-			x: -2.0d
-			y: 2.5d
+			x: -6.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["1B4FFE71B4C66E14"]
+			dependencies: ["6F405D2508EED283"]
 			description: ["{ftbquests.chapter.681E3140690307AA.quest12.description1}"]
 			icon: "gtceu:raw_magnetite"
 			id: "6639C6A3A5807AED"
@@ -373,8 +444,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.681E3140690307AA.quest12.title}"
-			x: 0.0d
-			y: 2.5d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
@@ -396,8 +467,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.681E3140690307AA.quest13.title}"
-			x: 1.0d
-			y: 4.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -411,11 +482,11 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.0d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["44C7FE559ECFB2EB"]
+			dependencies: ["4B11E32ACA7BC6FA"]
 			id: "27C30CC438658E3E"
 			rewards: [{
 				count: 4
@@ -430,8 +501,8 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.5d
+			x: -9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["611BCC64F1F511AA"]
@@ -471,8 +542,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest16.title}"
-			x: 0.0d
-			y: 5.5d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
@@ -488,18 +559,18 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest17.subtitle}"
 			tasks: [{
 				id: "19245BF7A4D48BFB"
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["44C7FE559ECFB2EB"]
+			dependencies: ["4B11E32ACA7BC6FA"]
 			description: [
 				"{ftbquests.chapter.681E3140690307AA.quest18.description1}"
 				"{ftbquests.chapter.681E3140690307AA.quest18.description2}"
@@ -518,20 +589,23 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest18.title}"
-			x: -7.5d
-			y: 4.0d
+			x: -8.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["09C344717F4BAD6C"]
+			dependencies: ["44C7FE559ECFB2EB"]
 			description: ["{ftbquests.chapter.681E3140690307AA.quest19.description1}"]
+			hide_dependency_lines: true
 			id: "1FB23D66088398BC"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "519EA59FDB4B479F"
 				title: "{ftbquests.chapter.681E3140690307AA.quest19.task_+5881320269389973407.title}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 2.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -541,14 +615,14 @@
 			]
 			id: "5F126DE1A7F425DA"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "686C86F01CDB3AD7"
 				title: "{ftbquests.chapter.681E3140690307AA.quest20.task_+7524537443263658711.title}"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: 6.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
@@ -560,8 +634,8 @@
 				item: "rehooked:wood_hook"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: -5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
@@ -572,8 +646,47 @@
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			icon: "ars_nouveau:novice_spell_book"
+			id: "414BFFE0E7A3C868"
+			subtitle: "强力的魔法mod "
+			tasks: [{
+				id: "4FF903F607617ED3"
+				title: "新生魔艺"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "ebc65393-c690-4790-b19b-ef7729c0e6fb"
+				}
+			}
+			id: "2AC892D111A8FA83"
+			subtitle: "自定义工具（需要想象力）"
+			tasks: [{
+				id: "7397B9E592EFAEEA"
+				title: "Tetra"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 3.5d
 		}
 	]
 	title: "{ftbquests.chapter.681E3140690307AA.title}"
