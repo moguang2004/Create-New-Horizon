@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "046724C96F783FC2"
-	group: "71414D2BDE140EDA"
+	group: "3DA6C69FE8D6358B"
 	icon: {
 		Count: 1
 		id: "apotheosis:gem"
@@ -14,7 +14,25 @@
 		}
 	}
 	id: "046724C96F783FC2"
-	order_index: 3
+	images: [
+		{
+			height: 4.0d
+			image: "apotheosis:blocks/blazing_hellshelf"
+			rotation: 0.0d
+			width: 4.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 4.0d
+			image: "apotheosis:items/mythic_material"
+			rotation: 0.0d
+			width: 4.0d
+			x: -0.5d
+			y: 3.5d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -36,18 +54,21 @@
 				title: "{ftbquests.chapter.046724C96F783FC2.quest1.task_+6481328538874098862.title}"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["6F2691C5808837BE"]
 			id: "47E83B3FF8355CCC"
+			shape: "hexagon"
+			size: 1.2d
 			tasks: [{
 				id: "2C5A6C971F246BB2"
 				item: "minecraft:bookshelf"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["47E83B3FF8355CCC"]
@@ -58,8 +79,8 @@
 				item: "apotheosis:hellshelf"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 6.0d
+			y: -6.5d
 		}
 		{
 			id: "5AC4BE02BC41744B"
@@ -68,8 +89,8 @@
 				item: "apotheosis:dormant_deepshelf"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["47E83B3FF8355CCC"]
@@ -80,8 +101,8 @@
 				item: "apotheosis:seashelf"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["43831A18BD0D336A"]
@@ -91,24 +112,29 @@
 				item: "apotheosis:endshelf"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -1.0d
+			x: 14.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
-				"6746637E7BE5AA2D"
-				"2A9C751134DC1A4E"
 				"5AC4BE02BC41744B"
+				"3D565FCF4E2ABAA9"
+				"28553ADC1DAEFA0C"
+				"6B5C61039CC66559"
+				"526DED2183EE1510"
 			]
+			dependency_requirement: "one_completed"
 			id: "6104F4DF3C6E3B4E"
+			shape: "hexagon"
+			size: 1.2d
 			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest7.subtitle}"
 			tasks: [{
 				id: "14A11634C17D43D8"
 				item: "apotheosis:deepshelf"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: 9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -121,8 +147,8 @@
 				item: "apotheosis:infused_breath"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -1.0d
+			x: 13.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6104F4DF3C6E3B4E"]
@@ -132,8 +158,8 @@
 				item: "apotheosis:echoing_sculkshelf"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -2.0d
+			x: 11.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6104F4DF3C6E3B4E"]
@@ -143,19 +169,19 @@
 				item: "apotheosis:soul_touched_sculkshelf"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: 11.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["6746637E7BE5AA2D"]
+			dependencies: ["48200D3637CE2930"]
 			id: "5DD578BD6488D38A"
 			tasks: [{
 				id: "25A0F4AA0E4932D3"
 				item: "apotheosis:filtering_shelf"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6104F4DF3C6E3B4E"]
@@ -165,30 +191,36 @@
 				item: "apotheosis:treasure_shelf"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 11.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["6104F4DF3C6E3B4E"]
+			dependencies: [
+				"3951CDD106AEED79"
+				"48200D3637CE2930"
+				"6104F4DF3C6E3B4E"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "59FE3A2954F3D59B"
 			tasks: [{
 				id: "0E8148A987C1DD37"
 				item: "apotheosis:library"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 10.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["2AE229F558CEE98E"]
+			dependencies: ["59FE3A2954F3D59B"]
 			id: "29EDF9E9F07B041C"
 			tasks: [{
 				id: "7EA027615DFC388A"
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 1.0d
+			x: 11.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["15F5B37127D13699"]
@@ -198,21 +230,378 @@
 				item: "apotheosis:draconic_endshelf"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -1.0d
+			x: 16.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2AE229F558CEE98E"]
 			description: ["{ftbquests.chapter.046724C96F783FC2.quest16.description1}"]
 			id: "5BFDF39A4B861556"
+			shape: "gear"
+			size: 3.0d
 			subtitle: "{ftbquests.chapter.046724C96F783FC2.quest16.subtitle}"
 			tasks: [{
 				id: "68233A92F4015C0B"
 				title: "{ftbquests.chapter.046724C96F783FC2.quest16.task_+7503905806962744331.title}"
 				type: "checkmark"
 			}]
-			x: 15.5d
-			y: -3.0d
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			id: "7A19FD6650532E2F"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "226E648B49E32A10"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				type: "item"
+			}]
+			title: "一段征途的起点"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A19FD6650532E2F"]
+			id: "6F2691C5808837BE"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "39D1481EA2FBECBC"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3951CDD106AEED79"]
+			id: "3D565FCF4E2ABAA9"
+			tasks: [{
+				id: "2EE4974AA8F8D18E"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3951CDD106AEED79"]
+			id: "28553ADC1DAEFA0C"
+			tasks: [{
+				id: "5E3336C46C8CF3D0"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A9C751134DC1A4E"]
+			id: "3951CDD106AEED79"
+			shape: "pentagon"
+			tasks: [{
+				id: "131D466231FDA4B3"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3951CDD106AEED79"]
+			id: "0700F8E6B41B378D"
+			tasks: [{
+				id: "11FA56CD8F7E3095"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["48200D3637CE2930"]
+			id: "526DED2183EE1510"
+			tasks: [{
+				id: "1A4DB132BB9E610B"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["48200D3637CE2930"]
+			id: "6B5C61039CC66559"
+			tasks: [{
+				id: "49DE07C87DCE4E09"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6746637E7BE5AA2D"]
+			id: "48200D3637CE2930"
+			shape: "pentagon"
+			tasks: [{
+				id: "07CD6840E36996B8"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48200D3637CE2930"]
+			id: "0F99DB45063F63F7"
+			tasks: [{
+				id: "1382DF7BD6E2408E"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3951CDD106AEED79"]
+			id: "5770690C5D915268"
+			tasks: [{
+				id: "30FF4B2F621E3CAB"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			id: "008986F2B64A17BD"
+			tasks: [{
+				id: "3A04BFE0849B7981"
+				item: "apotheosis:melonshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "770053CE0E3E53F2"
+			tasks: [{
+				id: "4C18FFF6A65DB232"
+				item: "apotheosis:beeshelf"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "50FD4B6DBEE92B39"
+			tasks: [{
+				id: "5CE7DB9BFA98FACF"
+				item: "apotheosis:stoneshelf"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "6551323759514619"
+			tasks: [{
+				id: "308F66DA21183279"
+				item: "apotheosis:other_tome"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "0799C38601B9DAE5"
+			tasks: [{
+				id: "17854F12ACBC73E1"
+				item: "apotheosis:scrap_tome"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A19FD6650532E2F"]
+			id: "70EEEE7E5F39EDCC"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.36A2F40CC894ECAF.quest1.subtitle}"
+			tasks: [{
+				id: "2616D43437FC37B5"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A19FD6650532E2F"]
+			id: "17FBDF16B1271B53"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "62A90F395EC50D9C"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["17FBDF16B1271B53"]
+			id: "756CFC3B00008653"
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "172BD42E0071F4A2"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["756CFC3B00008653"]
+			id: "3B3F3B50CF1C343C"
+			tasks: [{
+				id: "7AF3940B0CF9E3D9"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["756CFC3B00008653"]
+			id: "6C3379FC54CC119D"
+			tasks: [{
+				id: "76885969C654FFBD"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["756CFC3B00008653"]
+			id: "09D5963118600C4D"
+			tasks: [{
+				id: "398BDD04A5B21EDC"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B3F3B50CF1C343C"]
+			id: "5504A62A7A952909"
+			tasks: [{
+				id: "6996996A620EC8D6"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17FBDF16B1271B53"]
+			hide_dependency_lines: true
+			id: "1A46729B7A942BE0"
+			tasks: [{
+				id: "0A0BCCBF03285206"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			id: "0E9BE949349D607B"
+			tasks: [{
+				id: "55CAA3913D463D3B"
+				item: "apotheosis:gem_fused_slate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E9BE949349D607B"]
+			id: "77B56A8A260DBE64"
+			tasks: [{
+				id: "36E763D686F99CDB"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0E9BE949349D607B"]
+			id: "79F5F5487C3886A1"
+			tasks: [{
+				id: "52B96FA35AEC6F6E"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0E9BE949349D607B"]
+			id: "01BD59390C5BA63C"
+			tasks: [{
+				id: "3C216DB57DFD0A1C"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E9BE949349D607B"]
+			id: "2EE5084F18B398D9"
+			tasks: [{
+				id: "254B0DC88479690A"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E9BE949349D607B"]
+			id: "433F0735D364DA78"
+			tasks: [{
+				id: "085ECDB683816EA8"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0E9BE949349D607B"]
+			id: "3909281DF26406C1"
+			tasks: [{
+				id: "531CCCDF71C4EC61"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
 		}
 	]
 	title: "{ftbquests.chapter.046724C96F783FC2.title}"
