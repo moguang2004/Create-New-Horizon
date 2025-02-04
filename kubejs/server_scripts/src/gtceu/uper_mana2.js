@@ -424,5 +424,13 @@ ServerEvents.recipes(event => {
         .itemInputs('999x gtceu:ultra_mana_block')
         .duration(10000)
         .EUt(1000000)
+    event.recipes.gtceu.hellforge('demon')
+        .itemInputs('gtceu:nano_processor_computer')
+        .notConsumable('kubejs:endslate')
+        .addDataNumber('minimumDrain', 2000)
+        .addDataNumber('drain', 500)
+        .itemOutputs('kubejs:will_nano_processor_mainframe')
+        .EUt(6666)
+        .duration(200)
 
 })

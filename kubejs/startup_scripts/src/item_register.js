@@ -121,8 +121,8 @@ StartupEvents.registry("item", event => {
     event.create('advanced_mana_inductor')
     event.create('rubber_powder')
     event.create('uhv_voltage_coil')
-    event.create('blooded_micro_processor_mainframe').tag('gtceu:circuits/luv')
-    event.create('will_nano_processor_mainframe').tag('gtceu:circuits/zpm')
+    event.create('blooded_micro_processor_mainframe').tag('gtceu:circuits/iv')
+    event.create('will_nano_processor_mainframe').tag('gtceu:circuits/luv')
     event.create('mana_cpu_chip')
     event.create('mana_cpu_wafer')
     event.create('elementium_cpu_chip')
@@ -143,13 +143,13 @@ StartupEvents.registry("item", event => {
     event.create("sculk_brain")
     event.create("sculk_heart")
 })
-StartupEvents.registry("item",event =>{
-    event.create("scp_500","basic").food(food=>{
+StartupEvents.registry("item", event => {
+    event.create("scp_500", "basic").food(food => {
         food.alwaysEdible(true)
-        food.effect("minecraft:regeneration",999,10,1)
-        food.effect("minecraft:resistance",999,3,1)
+        food.effect("minecraft:regeneration", 999, 10, 1)
+        food.effect("minecraft:resistance", 999, 3, 1)
         food.fastToEat(true)
-        food.eaten(ctx =>{
+        food.eaten(ctx => {
             Utils.server.runCommandSilent('medical_condition clear @p');
             Utils.server.runCommandSilent('title @p title {"text":"你的所有疾病已被治愈，在短时间内你将获得强大的恢复能力","color":"red"}');
         })
