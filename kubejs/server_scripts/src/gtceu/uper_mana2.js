@@ -420,7 +420,7 @@ ServerEvents.recipes(event => {
         .duration(500)
         .EUt(1000000)
     event.recipes.gtceu.assembler('ctnhcore:nicoll_dyson_beams')
-        .itemInputs("999x #gtceu:circuits/lv")
+        .itemInputs("999x #gtceu:circuits/uhv")
         .itemInputs('999x gtceu:ultra_mana_block')
         .duration(10000)
         .EUt(1000000)
