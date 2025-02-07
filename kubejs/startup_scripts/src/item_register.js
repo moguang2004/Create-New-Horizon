@@ -142,6 +142,10 @@ StartupEvents.registry("item", event => {
     event.create("sculk_tentacle")
     event.create("sculk_brain")
     event.create("sculk_heart")
+    event.create('magic_quantum_processor_mainframe').tag('gtceu:circuits/uv').tooltip('§b魔力逻辑UV电路板§r')
+    event.create('umlhpic_chip').tooltip('§b同时蕴含信息和能量\n§r')
+    event.create('umlhpic_wafer').tooltip('§b同时蕴含信息和能量\n§r')
+    event.create('mana_circuit_board').tooltip("§b魔力信息承载基板§r")
 })
 StartupEvents.registry("item", event => {
     event.create("scp_500", "basic").food(food => {
