@@ -13,6 +13,7 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
     let voltage = ['lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv']
+    let fluxenergy = ['luv','zpm','uv','uhv','uev','uiv']
     voltage.forEach(v => {
         ctnh.assembler(v + 'coverwuxian')
             .itemInputs(['2x gtceu:' + v + '_voltage_coil', '4x gtceu:duranium_frame', '4x gtceu:long_magnetic_samarium_rod', 'gtceu:molybdenum_disilicide_spring', 'gtceu:small_niobium_titanium_spring', '3x gtceu:dense_rhodium_plated_palladium_plate', '#gtceu:circuits/' + v + '', 'gtceu:' + v + '_sensor'])
@@ -20,6 +21,352 @@ ServerEvents.recipes(event => {
             .itemOutputs('gtmthings:' + v + '_wireless_energy_receive_cover')
             .EUt(388000)
             .duration(100)
+        ctnh.assembler(v + 'coverwuxian_1')
+            .itemInputs('2x gtmthings:' + v + '_wireless_energy_receive_cover', '16x minecraft:ender_pearl', '2x gtceu:' + v + '_emitter')
+            .itemOutputs('gtmthings:' + v + '_4a_wireless_energy_receive_cover')
+            .circuit(20)
+            .EUt(388000)
+            .duration(100)
+    })
+    // 创建一个映射表，用于将电压等级转换为数值
+    let voltageMap = {
+        'luv': 0,
+        'zpm': 1,
+        'uv': 2,
+        'uhv': 3,
+        'uev': 4,
+        'uiv': 5
+    };
+
+    // 创建一个反向映射表，用于将数值转换回电压等级
+    let reverseVoltageMap = Object.keys(voltageMap).reduce((acc, key) => {
+        acc[voltageMap[key]] = key;
+        return acc;
+    }, {});
+
+    fluxenergy.forEach(f => {
+        // 特别为 'luv' 处理，确保其有自己的配方
+        if (f === 'luv') {
+            // 直接为 'luv' 设置配方
+            ctnh.assembly_line(f + 'flux_energy')
+                .itemInputs(
+                    'gtceu:' + f + '_256a_laser_target_hatch',
+                    'gtmthings:' + f + '_wireless_energy_receive_cover',
+                    '64x gtceu:normal_laser_pipe',
+                    'gtceu:active_transformer',
+                    'gtceu:' + f + '_emitter',
+                    'gtceu:' + f + '_sensor',
+                    '#gtceu:circuits/' + f
+                )
+                .inputFluids('gtceu:cerrobase_140 16000')
+                .inputFluids('gtceu:soldering_alloy 16000')
+                .inputFluids('gtceu:pcb_coolant 16000')
+                .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                .itemOutputs('gtmthings:' + f + '_256a_wireless_laser_target_hatch')
+                .EUt(388000)
+                .duration(100)
+                .stationResearch(b => b.researchStack(Item.of('gtmthings:iv_256a_wireless_laser_target_hatch'))
+                    .dataStack(Item.of("gtceu:data_orb"))
+                    .EUt(GTValues.VA[GTValues.ZPM])
+                    .CWUt(32))
+            ctnh.assembly_line(f + 'flux_energy_output')
+                .itemInputs(
+                    'gtceu:' + f + '_256a_laser_source_hatch',
+                    'gtmthings:' + f + '_wireless_energy_receive_cover',
+                    '64x gtceu:normal_laser_pipe',
+                    'gtceu:active_transformer',
+                    'gtceu:' + f + '_emitter',
+                    'gtceu:' + f + '_sensor',
+                    '#gtceu:circuits/' + f
+                )
+                .inputFluids('gtceu:cerrobase_140 16000')
+                .inputFluids('gtceu:soldering_alloy 16000')
+                .inputFluids('gtceu:pcb_coolant 16000')
+                .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                .itemOutputs('gtmthings:' + f + '_256a_wireless_laser_source_hatch')
+                .EUt(388000)
+                .duration(100)
+                .stationResearch(b => b.researchStack(Item.of('gtmthings:iv_256a_wireless_laser_source_hatch'))
+                    .dataStack(Item.of("gtceu:data_orb"))
+                    .EUt(GTValues.VA[GTValues.ZPM])
+                    .CWUt(32))
+        } else {
+            // 获取当前电压等级对应的数值
+            let currentLevel = voltageMap[f];
+
+            // 正常处理前置电压
+            let previousLevel = currentLevel - 1;
+
+            // 确保前一个电压等级存在
+            if (previousLevel >= 0) {
+                let prevVoltage = reverseVoltageMap[previousLevel];
+
+                ctnh.assembly_line(f + 'flux_energy')
+                    .itemInputs(
+                        'gtceu:' + f + '_256a_laser_target_hatch',
+                        'gtmthings:' + f + '_wireless_energy_receive_cover',
+                        '64x gtceu:normal_laser_pipe',
+                        'gtceu:active_transformer',
+                        'gtceu:' + f + '_emitter',
+                        'gtceu:' + f + '_sensor',
+                        '#gtceu:circuits/' + f
+                    )
+                    .inputFluids('gtceu:cerrobase_140 16000')
+                    .inputFluids('gtceu:soldering_alloy 16000')
+                    .inputFluids('gtceu:pcb_coolant 16000')
+                    .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                    .itemOutputs('gtmthings:' + f + '_256a_wireless_laser_target_hatch')
+                    .EUt(388000)
+                    .duration(100)
+                    .stationResearch(b => b.researchStack(Item.of('gtmthings:' + prevVoltage +'_256a_wireless_laser_target_hatch'))
+                        .dataStack(Item.of("gtceu:data_orb"))
+                        .EUt(GTValues.VA[GTValues.ZPM])
+                        .CWUt(32))
+                ctnh.assembly_line(f + 'flux_energy_output')
+                    .itemInputs(
+                        'gtceu:' + f + '_256a_laser_source_hatch',
+                        'gtmthings:' + f + '_wireless_energy_receive_cover',
+                        '64x gtceu:normal_laser_pipe',
+                        'gtceu:active_transformer',
+                        'gtceu:' + f + '_emitter',
+                        'gtceu:' + f + '_sensor',
+                        '#gtceu:circuits/' + f
+                    )
+                    .inputFluids('gtceu:cerrobase_140 16000')
+                    .inputFluids('gtceu:soldering_alloy 16000')
+                    .inputFluids('gtceu:pcb_coolant 16000')
+                    .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                    .itemOutputs('gtmthings:' + f + '_256a_wireless_laser_source_hatch')
+                    .EUt(388000)
+                    .duration(100)
+                    .stationResearch(b => b.researchStack(Item.of('gtmthings:' + prevVoltage + '_256a_wireless_laser_source_hatch'))
+                        .dataStack(Item.of("gtceu:data_orb"))
+                        .EUt(GTValues.VA[GTValues.ZPM])
+                        .CWUt(32))
+            }
+        }
+    })
+    fluxenergy.forEach(f => {
+        if (f === 'luv') {
+            ctnh.assembly_line(f + 'flux_energy_1024a')
+                .itemInputs(
+                    'gtceu:' + f + '_1024a_laser_target_hatch',
+                    '4x gtmthings:' + f + '_wireless_energy_receive_cover',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    'gtceu:active_transformer',
+                    'gtceu:' + f + '_emitter',
+                    'gtceu:' + f + '_sensor',
+                    '#gtceu:circuits/' + f
+                )
+                .inputFluids('gtceu:cerrobase_140 16000')
+                .inputFluids('gtceu:soldering_alloy 16000')
+                .inputFluids('gtceu:pcb_coolant 16000')
+                .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                .itemOutputs('gtmthings:' + f + '_1024a_wireless_laser_target_hatch')
+                .EUt(388000)
+                .duration(100)
+                .stationResearch(b => b.researchStack(Item.of('gtmthings:iv_1024a_wireless_laser_target_hatch'))
+                    .dataStack(Item.of("gtceu:data_orb"))
+                    .EUt(GTValues.VA[GTValues.ZPM])
+                    .CWUt(32))
+
+            ctnh.assembly_line(f + 'flux_energy_output_1024a')
+                .itemInputs(
+                    'gtceu:' + f + '_1024a_laser_source_hatch',
+                    '4x gtmthings:' + f + '_wireless_energy_receive_cover',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    'gtceu:active_transformer',
+                    'gtceu:' + f + '_emitter',
+                    'gtceu:' + f + '_sensor',
+                    '#gtceu:circuits/' + f
+                )
+                .inputFluids('gtceu:cerrobase_140 16000')
+                .inputFluids('gtceu:soldering_alloy 16000')
+                .inputFluids('gtceu:pcb_coolant 16000')
+                .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                .itemOutputs('gtmthings:' + f + '_1024a_wireless_laser_source_hatch')
+                .EUt(388000)
+                .duration(100)
+                .stationResearch(b => b.researchStack(Item.of('gtmthings:iv_1024a_wireless_laser_source_hatch'))
+                    .dataStack(Item.of("gtceu:data_orb"))
+                    .EUt(GTValues.VA[GTValues.ZPM])
+                    .CWUt(32))
+        } else {
+            let currentLevel = voltageMap[f]
+            let previousLevel = currentLevel - 1
+            if (previousLevel >= 0) {
+                let prevVoltage = reverseVoltageMap[previousLevel]
+
+                ctnh.assembly_line(f + 'flux_energy_1024a')
+                    .itemInputs(
+                        'gtceu:' + f + '_1024a_laser_target_hatch',
+                        '4x gtmthings:' + f + '_wireless_energy_receive_cover',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        'gtceu:active_transformer',
+                        'gtceu:' + f + '_emitter',
+                        'gtceu:' + f + '_sensor',
+                        '#gtceu:circuits/' + f
+                    )
+                    .inputFluids('gtceu:cerrobase_140 16000')
+                    .inputFluids('gtceu:soldering_alloy 16000')
+                    .inputFluids('gtceu:pcb_coolant 16000')
+                    .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                    .itemOutputs('gtmthings:' + f + '_1024a_wireless_laser_target_hatch')
+                    .EUt(388000)
+                    .duration(100)
+                    .stationResearch(b => b.researchStack(Item.of('gtmthings:' + prevVoltage + '_1024a_wireless_laser_target_hatch'))
+                        .dataStack(Item.of("gtceu:data_orb"))
+                        .EUt(GTValues.VA[GTValues.ZPM])
+                        .CWUt(32))
+
+                ctnh.assembly_line(f + 'flux_energy_output_1024a')
+                    .itemInputs(
+                        'gtceu:' + f + '_1024a_laser_source_hatch',
+                        '4x gtmthings:' + f + '_wireless_energy_receive_cover',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        'gtceu:active_transformer',
+                        'gtceu:' + f + '_emitter',
+                        'gtceu:' + f + '_sensor',
+                        '#gtceu:circuits/' + f
+                    )
+                    .inputFluids('gtceu:cerrobase_140 16000')
+                    .inputFluids('gtceu:soldering_alloy 16000')
+                    .inputFluids('gtceu:pcb_coolant 16000')
+                    .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                    .itemOutputs('gtmthings:' + f + '_1024a_wireless_laser_source_hatch')
+                    .EUt(388000)
+                    .duration(100)
+                    .stationResearch(b => b.researchStack(Item.of('gtmthings:' + prevVoltage + '_1024a_wireless_laser_source_hatch'))
+                        .dataStack(Item.of("gtceu:data_orb"))
+                        .EUt(GTValues.VA[GTValues.ZPM])
+                        .CWUt(32))
+            }
+        }
+    })
+    fluxenergy.forEach(f => {
+        if (f === 'luv') {
+            ctnh.assembly_line(f + 'flux_energy_4096a')
+                .itemInputs(
+                    'gtceu:' + f + '_4096a_laser_target_hatch',
+                    '16x gtmthings:' + f + '_wireless_energy_receive_cover',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    'gtceu:active_transformer',
+                    'gtceu:' + f + '_emitter',
+                    'gtceu:' + f + '_sensor',
+                    '#gtceu:circuits/' + f
+                )
+                .inputFluids('gtceu:cerrobase_140 16000')
+                .inputFluids('gtceu:soldering_alloy 16000')
+                .inputFluids('gtceu:pcb_coolant 16000')
+                .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                .itemOutputs('gtmthings:' + f + '_4096a_wireless_laser_target_hatch')
+                .EUt(388000)
+                .duration(100)
+                .stationResearch(b => b.researchStack(Item.of('gtmthings:iv_4096a_wireless_laser_target_hatch'))
+                    .dataStack(Item.of("gtceu:data_orb"))
+                    .EUt(GTValues.VA[GTValues.ZPM])
+                    .CWUt(32))
+
+            ctnh.assembly_line(f + 'flux_energy_output_4096a')
+                .itemInputs(
+                    'gtceu:' + f + '_4096a_laser_source_hatch',
+                    '16x gtmthings:' + f + '_wireless_energy_receive_cover',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    '64x gtceu:normal_laser_pipe',
+                    'gtceu:active_transformer',
+                    'gtceu:' + f + '_emitter',
+                    'gtceu:' + f + '_sensor',
+                    '#gtceu:circuits/' + f
+                )
+                .inputFluids('gtceu:cerrobase_140 16000')
+                .inputFluids('gtceu:soldering_alloy 16000')
+                .inputFluids('gtceu:pcb_coolant 16000')
+                .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                .itemOutputs('gtmthings:' + f + '_4096a_wireless_laser_source_hatch')
+                .EUt(388000)
+                .duration(100)
+                .stationResearch(b => b.researchStack(Item.of('gtmthings:iv_4096a_wireless_laser_source_hatch'))
+                    .dataStack(Item.of("gtceu:data_orb"))
+                    .EUt(GTValues.VA[GTValues.ZPM])
+                    .CWUt(32))
+        } else {
+            let currentLevel = voltageMap[f]
+            let previousLevel = currentLevel - 1
+            if (previousLevel >= 0) {
+                let prevVoltage = reverseVoltageMap[previousLevel]
+
+                ctnh.assembly_line(f + 'flux_energy_4096a')
+                    .itemInputs(
+                        'gtceu:' + f + '_4096a_laser_target_hatch',
+                        '16x gtmthings:' + f + '_wireless_energy_receive_cover',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        'gtceu:active_transformer',
+                        'gtceu:' + f + '_emitter',
+                        'gtceu:' + f + '_sensor',
+                        '#gtceu:circuits/' + f
+                    )
+                    .inputFluids('gtceu:cerrobase_140 16000')
+                    .inputFluids('gtceu:soldering_alloy 16000')
+                    .inputFluids('gtceu:pcb_coolant 16000')
+                    .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                    .itemOutputs('gtmthings:' + f + '_4096a_wireless_laser_target_hatch')
+                    .EUt(388000)
+                    .duration(100)
+                    .stationResearch(b => b.researchStack(Item.of('gtmthings:' + prevVoltage + '_4096a_wireless_laser_target_hatch'))
+                        .dataStack(Item.of("gtceu:data_orb"))
+                        .EUt(GTValues.VA[GTValues.ZPM])
+                        .CWUt(32))
+
+                ctnh.assembly_line(f + 'flux_energy_output_4096a')
+                    .itemInputs(
+                        'gtceu:' + f + '_4096a_laser_source_hatch',
+                        '16x gtmthings:' + f + '_wireless_energy_receive_cover',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        '64x gtceu:normal_laser_pipe',
+                        'gtceu:active_transformer',
+                        'gtceu:' + f + '_emitter',
+                        'gtceu:' + f + '_sensor',
+                        '#gtceu:circuits/' + f
+                    )
+                    .inputFluids('gtceu:cerrobase_140 16000')
+                    .inputFluids('gtceu:soldering_alloy 16000')
+                    .inputFluids('gtceu:pcb_coolant 16000')
+                    .inputFluids('gtceu:molten_naquadah_alloy 1000')
+                    .itemOutputs('gtmthings:' + f + '_4096a_wireless_laser_source_hatch')
+                    .EUt(388000)
+                    .duration(100)
+                    .stationResearch(b => b.researchStack(Item.of('gtmthings:' + prevVoltage + '_4096a_wireless_laser_source_hatch'))
+                        .dataStack(Item.of("gtceu:data_orb"))
+                        .EUt(GTValues.VA[GTValues.ZPM])
+                        .CWUt(32))
+            }
+        }
     })
 })
 ServerEvents.recipes(event => {
@@ -36,12 +383,18 @@ ServerEvents.recipes(event => {
 })
 ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
-    let radio = ['lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv']
+    let radio = ['lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv']
     radio.forEach(r => {
         ctnh.assembler(r + 'coverwuxian_granary')
             .itemInputs(['2x gtmthings:' + r + '_wireless_energy_receive_cover', 'gtceu:' + r + '_energy_input_hatch', 'gtceu:' + r + '_machine_hull'])
             .circuit(21)
             .itemOutputs('gtmthings:' + r + '_2a_wireless_energy_input_hatch')
+            .EUt(388000)
+            .duration(60)
+        ctnh.assembler(r + 'coverwuxian_granary_1')
+            .itemInputs(['2x gtmthings:' + r + '_wireless_energy_receive_cover', 'gtceu:' + r + '_energy_output_hatch', 'gtceu:' + r + '_machine_hull'])
+            .circuit(21)
+            .itemOutputs('gtmthings:' + r + '_2a_wireless_energy_output_hatch')
             .EUt(388000)
             .duration(60)
     })
