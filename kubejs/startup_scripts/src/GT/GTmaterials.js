@@ -1512,6 +1512,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("acid_garbage")
         .liquid()
         .color(0x44444)
+    event.create("eglin_steel_ingot")
+        .dust()
+        .ingot()
+        .color(0x23312)
+        .components('5x invar', '4x iron', 'kanthal')
 })
 
 StartupEvents.postInit(event => {
