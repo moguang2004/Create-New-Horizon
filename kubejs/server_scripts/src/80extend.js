@@ -1,0 +1,11 @@
+ServerEvents.recipes(event => {
+    event.recipes.gtceu.assembly_line("china")
+        .itemInputs('4x gtceu:iv_voltage_coil')
+        .itemInputs('32x gtceu:naquadah_foil')
+        .itemInputs('16x gtceu:uhpic_chip')
+        .itemInputs('4x gtceu:iv_electric_pump')
+        .itemInputs('gtnn:exxonmobil_chemical_plant')
+        .itemOutputs('ctnhcore:sinope_chemical')
+        .EUt(32800)
+        .duration(1440)
+})
