@@ -5,14 +5,14 @@
 	group: "71414D2BDE140EDA"
 	icon: "minecraft:zombie_head"
 	id: "36A2F40CC894ECAF"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "70EEEE7E5F39EDCC"
+			id: "07C615D17514E652"
 			subtitle: "{ftbquests.chapter.36A2F40CC894ECAF.quest1.subtitle}"
 			tasks: [{
-				id: "2616D43437FC37B5"
+				id: "58BAD86504ABFA89"
 				item: "minecraft:spawner"
 				type: "item"
 			}]

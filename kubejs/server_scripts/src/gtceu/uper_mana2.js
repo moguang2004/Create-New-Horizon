@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('3x gtceu:rhodium_dust')
         .itemOutputs('4x gtceu:osmium_dust')
         .itemOutputs('3x gtceu:iridium_dust')
-        .EUt(30720)
+        .EUt(8388603)
         .duration(1000)
         .circuit(2);
     event.shaped(

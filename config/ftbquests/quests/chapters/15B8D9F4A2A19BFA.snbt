@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "15B8D9F4A2A19BFA"
-	group: "71414D2BDE140EDA"
+	group: "4CD84F8DB1FF8B7E"
 	icon: {
 		Count: 1
 		id: "gtceu:turbine_rotor"
@@ -13,7 +13,7 @@
 		}
 	}
 	id: "15B8D9F4A2A19BFA"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -269,7 +269,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			id: "3D882DE9ACFD43EA"
@@ -432,24 +432,74 @@
 			y: 5.5d
 		}
 		{
-			id: "546A9B695CDD5334"
-			tasks: [{
-				id: "5FCD3A506DEC003A"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest41.task_+6903237920944816186.title}"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 8.5d
-		}
-		{
 			id: "49B4D45640289A0C"
 			tasks: [{
-				id: "58998BC9C2DC022B"
-				item: "ctnhcore:naq_reactor_mk1"
+				id: "4CF0EAA6FFA93DE7"
+				item: "ctnhcore:naq_reactor_mk3"
 				type: "item"
 			}]
 			x: 8.0d
 			y: 13.0d
+		}
+		{
+			id: "6E4976ECA4949FBE"
+			tasks: [{
+				id: "60457371B764CB97"
+				title: "UHV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			id: "4848EA3DE28F3D13"
+			tasks: [{
+				id: "1542A3D5578F5ABC"
+				title: "UEV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			id: "3812F83A4C26995D"
+			tasks: [{
+				id: "3EDE241FEA38FACD"
+				title: "UIV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			id: "58873769DE7E102C"
+			tasks: [{
+				id: "7D1A0417E6B4D745"
+				title: "UXV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			id: "57D31D5EA3E386DB"
+			tasks: [{
+				id: "4F4127290C163972"
+				title: "OPV阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			id: "5C1B81DCC8CE6672"
+			tasks: [{
+				id: "3712558EA5114743"
+				title: "MAX阶段"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 19.0d
 		}
 	]
 	title: "{ftbquests.chapter.15B8D9F4A2A19BFA.title}"

@@ -1529,6 +1529,7 @@
 					type: "item"
 				}
 			]
+			title: "轻，中，重？"
 			x: 2.5d
 			y: 14.5d
 		}
@@ -1552,6 +1553,7 @@
 					type: "item"
 				}
 			]
+			title: "轻，中，重!"
 			x: 4.5d
 			y: 14.5d
 		}
@@ -1755,22 +1757,6 @@
 			y: 8.5d
 		}
 		{
-			id: "52DE065417BA9260"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "093B6FDE636C97FE"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4257922294CF0356"
-				item: "gtceu:condensing_discrete"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 10.5d
-		}
-		{
 			dependencies: [
 				"1CE031B193FB03C6"
 				"3B966B84827FDF0C"
@@ -1834,7 +1820,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -1856,11 +1842,17 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["474F529118B9CF93"]
 			id: "69CD0122AD8B7CF4"
+			rewards: [{
+				count: 64
+				id: "7AC503CD2296CF11"
+				item: "gtceu:raw_crystal_chip_parts"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.iv.quest108.subtitle}"
 			tasks: [{
 				id: "0131355E2F486602"
@@ -1916,6 +1908,12 @@
 		{
 			dependencies: ["1B08CB9E24BDF006"]
 			id: "43A67D7528B8D846"
+			rewards: [{
+				count: 64
+				id: "5F746B357CC50865"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.iv.quest112.subtitle}"
 			tasks: [{
 				id: "1EF8508BC90B5785"
@@ -1958,6 +1956,22 @@
 			}]
 			x: 10.5d
 			y: -10.5d
+		}
+		{
+			id: "613B471B9179A7C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "786184F24CAC10AC"
+				table_id: 7618519509353548779L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4903D201B3DDFF61"
+				item: "ctnhcore:condensing_discrete"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
 		}
 	]
 	title: "{ftbquests.chapter.iv.title}"

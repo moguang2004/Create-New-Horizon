@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
     .itemOutputs('24x gtceu:platinum_dust')
     .itemOutputs('9x gtceu:ruthenium_dust')
     .itemOutputs('45x gtceu:reprecipitated_rhodium_dust')
-    .EUt(1920)
+    .EUt(8388608)
     .duration(600)
     .circuit(0)
 
@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
     .itemOutputs('24x gtceu:platinum_dust')
     .itemOutputs('9x gtceu:ruthenium_dust')
     .itemOutputs('3x gtceu:rhodium_dust')
-    .EUt(30720)
+    .EUt(8388608)
     .duration(600)
     .circuit(1)
 })
