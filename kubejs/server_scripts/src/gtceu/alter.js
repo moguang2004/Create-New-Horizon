@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.alter('rune6')
         .itemInputs('bloodmagic:etherealslate')
         .addData("addlp", -50000)
-        .itemOutputs('bloodmagic:endslate')
+        .itemOutputs('kubejs:endslate')
         .duration(1000)
         .EUt(12222)
     event.recipes.gtceu.alter('blood_casing')

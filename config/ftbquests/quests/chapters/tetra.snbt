@@ -2,10 +2,38 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tetra"
-	group: "71414D2BDE140EDA"
+	group: "3DA6C69FE8D6358B"
 	icon: "tetra:basic_workbench"
 	id: "1C74C871FF8892C6"
-	order_index: 6
+	images: [
+		{
+			height: 5.0d
+			image: "tetra:item/module/double/head/basic_hammer/log_left"
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.53d
+			y: 4.5d
+		}
+		{
+			height: 5.0d
+			image: "tetra:item/module/double/head/basic_hammer/log_right"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.53d
+			y: 4.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/stick"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.0d
+			y: 4.8d
+		}
+	]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,7 +59,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.tetra.quest1.title}"
-			x: 0.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -40,24 +68,29 @@
 			id: "3BF72E41C1203551"
 			subtitle: "{ftbquests.chapter.tetra.quest2.subtitle}"
 			tasks: [{
-				id: "5356F6870A086F6E"
-				title: "{ftbquests.chapter.tetra.quest2.task_+6005258212994477934.title}"
-				type: "checkmark"
+				icon: "tetra:basic_workbench"
+				id: "3B407A15C3BE924F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "tetra:basic_workbench"
+				type: "observation"
 			}]
 			title: "{ftbquests.chapter.tetra.quest2.title}"
-			x: 2.5d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
 			id: "72A10FB317A6D183"
+			shape: "gear"
+			size: 3.0d
 			subtitle: "{ftbquests.chapter.tetra.quest3.subtitle}"
 			tasks: [{
 				id: "56E8A1453A1ED100"
 				title: "{ftbquests.chapter.tetra.quest3.task_+6262432600558588160.title}"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3BF72E41C1203551"]
@@ -68,8 +101,8 @@
 				item: "tetra:geode"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.0d
+			x: 6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -82,7 +115,7 @@
 				item: "tetra:pristine_lapis"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 5.5d
 			y: -4.0d
 		}
 		{
@@ -96,7 +129,7 @@
 				item: "tetra:pristine_emerald"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 9.5d
 			y: -4.0d
 		}
 		{
@@ -110,7 +143,7 @@
 				item: "tetra:pristine_diamond"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 7.5d
 			y: -4.0d
 		}
 		{
@@ -121,8 +154,8 @@
 				title: "{ftbquests.chapter.tetra.quest8.task_+6596185616767233080.title}"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -6.5d
+			x: 6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -133,10 +166,18 @@
 			subtitle: "{ftbquests.chapter.tetra.quest9.subtitle}"
 			tasks: [{
 				id: "56E4A8C2B91AA611"
-				item: "minecraft:oak_planks"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				title: "Any #tetra:nailed"
 				type: "item"
 			}]
-			x: 5.0d
+			title: "制作木质工具！"
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -147,7 +188,7 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -158,8 +199,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["35A850AFAF012C22"]
@@ -169,18 +210,22 @@
 				item: "minecraft:blackstone"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0957E307997B3D33"]
+			dependencies: [
+				"0957E307997B3D33"
+				"45DE0656D8A82AF5"
+			]
+			dependency_requirement: "one_completed"
 			id: "049AD572CA837A94"
 			tasks: [{
 				id: "2C0A14B0C065C683"
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 14.5d
 			y: 0.0d
 		}
 		{
@@ -192,15 +237,11 @@
 				title: "{ftbquests.chapter.tetra.quest14.task_+4048051477624643985.title}"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"66E67E080A64007F"
-				"3B75FECDA06E51FB"
-				"4EFA9FA6A94ED6FC"
-			]
+			dependencies: ["45DE0656D8A82AF5"]
 			description: [
 				"{ftbquests.chapter.tetra.quest15.description1}"
 				"{ftbquests.chapter.tetra.quest15.description2}"
@@ -221,19 +262,18 @@
 				}
 			]
 			title: "{ftbquests.chapter.tetra.quest15.title}"
-			x: 15.0d
-			y: 0.0d
+			x: 13.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["0957E307997B3D33"]
 			id: "33A9EA4B13BF82A9"
 			tasks: [{
 				id: "77F5F2FAB5A43467"
 				item: "tetra:vent_plate"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.5d
+			x: 12.0d
+			y: -3.5d
 		}
 		{
 			id: "4F38C6AD04D13750"
@@ -242,19 +282,18 @@
 				item: "tetra:stonecutter"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.0d
+			x: 14.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["0957E307997B3D33"]
 			id: "07475F09F88D9016"
 			tasks: [{
 				id: "4722F18F1D32FBEA"
 				item: "tetra:combustion_chamber"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 1.5d
+			x: 13.0d
+			y: -3.5d
 		}
 		{
 			id: "016A59247254E21F"
@@ -263,30 +302,28 @@
 				item: "tetra:earthpiercer"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 3.0d
+			x: 15.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["0957E307997B3D33"]
 			id: "1ED376B4568D9342"
 			tasks: [{
 				id: "277783800546E99B"
 				item: "tetra:planar_stabilizer"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 1.5d
+			x: 14.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["0957E307997B3D33"]
 			id: "61E69BA2661E2A0A"
 			tasks: [{
 				id: "0CDBCDEDA0DC7E53"
 				item: "tetra:lubricant_dispenser"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 1.5d
+			x: 15.0d
+			y: -3.5d
 		}
 		{
 			id: "5077F8D9394C4E23"
@@ -295,8 +332,8 @@
 				item: "tetra:quick_latch"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 13.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2FB20A6A0C2938F4"]
@@ -321,8 +358,8 @@
 				title: "{ftbquests.chapter.tetra.quest23.task_+717328008551829063.title}"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			id: "3B75FECDA06E51FB"
@@ -331,8 +368,8 @@
 				title: "{ftbquests.chapter.tetra.quest24.task_+666433688465108696.title}"
 				type: "checkmark"
 			}]
-			x: 14.0d
-			y: -2.0d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			id: "4EFA9FA6A94ED6FC"
@@ -348,18 +385,31 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["049AD572CA837A94"]
 			id: "56951FE92E2C9DF9"
 			tasks: [{
-				id: "2090486C507A670F"
-				title: "{ftbquests.chapter.tetra.quest26.task_+2346455035903895311.title}"
-				type: "checkmark"
+				id: "7026442D166836ED"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+						"double/basic_hammer_right_material": "basic_hammer/netherite"
+						"double/basic_handle_material": "basic_handle/forged_beam"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "3098831c-8493-45ab-8bb7-ee1f1c46353f"
+					}
+				}
+				type: "item"
 			}]
-			x: 20.0d
-			y: 0.0d
+			x: 15.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3BF72E41C1203551"]
@@ -381,19 +431,46 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["2332D134B96A8627"]
+			dependencies: [
+				"2332D134B96A8627"
+				"6B4CCB317BD73826"
+			]
 			id: "01748B06B2F3C19F"
 			tasks: [{
 				id: "503A67DC7855EB15"
 				item: "tetra:pristine_amethyst"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -9.0d
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66E67E080A64007F"]
+			id: "45DE0656D8A82AF5"
+			tasks: [{
+				icon: "tetra:hammer_base"
+				id: "64D19E348A473827"
+				structure: "#tetra:forged_ruins"
+				type: "structure"
+			}]
+			title: "发现锻造遗迹！"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BF72E41C1203551"]
+			id: "7A059C9DE0E539DB"
+			tasks: [{
+				id: "5A74983AF3F37E25"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.tetra.title}"

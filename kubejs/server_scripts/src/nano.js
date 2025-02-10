@@ -42,7 +42,8 @@ ServerEvents.recipes(event => {
         .duration(20)
     event.recipes.gtceu.nano_generator('gtceu:raw_naquadah')
         .itemInputs('gtceu:raw_naquadah')
-        .itemOutputs('2x gtceu:impure_naquadah_dust')
+        .itemOutputs('1x gtceu:impure_naquadah_dust')
+        .chancedOutput('gtceu:impure_naquadah_dust', 5000, 0)
         .EUt(-48)
         .duration(40)
 

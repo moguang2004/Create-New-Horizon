@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
     infuser(event, ['botania:manasteel_ingot', 'botania:mana_pearl', 'botania:mana_diamond', 'botania:rune_mana'], 'botania:terrasteel_ingot', 500000)
     infuser(event, ['kubejs:advanced_mana_transistor', 'kubejs:advanced_mana_capacitor', 'kubejs:advanced_mana_inductor', 'gtceu:advanced_integrated_circuit', 'kubejs:elementium_cpu_chip'], 'kubejs:mana_integrated_circuit', 250000)
     infuser(event, ['gtceu:simple_soc', 'botania:mana_diamond', 'botania:rune_mana'], 'kubejs:mana_soc', 50000)
-    infuser(event, ['gtceu:mana_unstable_plus_dust', 'botania:rune_mana', 'mythicbotany:asgard_rune', ], 'gtceu:mana_infused_plus_dust', 50000)
+    infuser(event, ['gtceu:mana_unstable_plus_dust', 'botania:rune_mana', 'mythicbotany:midgard_rune', ], 'gtceu:mana_infused_plus_dust', 5000)
     event.custom({
         "type": "mythicbotany:infuser",
         "fromColor": 255,
