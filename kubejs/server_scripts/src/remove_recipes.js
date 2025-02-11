@@ -246,4 +246,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:combustion_generator/naphtha" })
     event.remove({ id: "gtceu:combustion_generator/diesel" })
     event.remove({ id: "gtceu:combustion_generator/light_fuel" })
+    event.remove({ id: "gtceu:shaped/filter_casing_sterile" })
+    event.remove({ id: "gtceu:shaped/maintenance_hatch_cleaning" })
+    event.remove({ id: "gtceu:kinetic_mixer/kinetic_mixer/graphene" })
+    event.remove({ id: "create:kjs/2cy39ggyi10fg4iscosa1udto" })
 })

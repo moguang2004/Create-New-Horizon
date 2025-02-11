@@ -1738,7 +1738,7 @@
 				type: "checkmark"
 			}]
 			x: -8.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1AEEB36389F68A28"]
@@ -1748,8 +1748,8 @@
 				item: "gtceu:nether_essence_crystal_fluid_bucket"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -2.0d
+			x: -10.0d
+			y: -3.0d
 		}
 		{
 			id: "4F78544FBE794648"
@@ -1758,8 +1758,8 @@
 				item: "gtceu:small_nether_star_dust"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -2.0d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1773,8 +1773,31 @@
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.0d
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"可配置维护仓可以让机器加工速度变快，代价是更容易出现维护问题 。                                                                          "
+				"自动维护仓可以让机器拜托维护问题，代价是它更贵！"
+			]
+			id: "51DB3A19B9180EC3"
+			subtitle: "两种的功能不同"
+			tasks: [
+				{
+					id: "3DEF3C9186CD79F0"
+					item: "gtceu:configurable_maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "3C661666500EC31E"
+					item: "gtceu:auto_maintenance_hatch"
+					type: "item"
+				}
+			]
+			title: "新的维护仓"
+			x: -8.5d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.hv.title}"

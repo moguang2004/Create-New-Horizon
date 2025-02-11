@@ -326,6 +326,11 @@
 					item: "gtceu:terminal"
 					type: "item"
 				}
+				{
+					id: "073A041FA193D23D"
+					item: "ctnhcore:testing_terminal"
+					type: "item"
+				}
 			]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest22.subtitle}"
 			tasks: [

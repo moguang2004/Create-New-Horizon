@@ -1517,6 +1517,20 @@ ServerEvents.recipes(event => {
         C: 'gtceu:iv_machine_hull',
         E: 'ctnhcore:ecological_star'
     })
+    event.shaped(
+        Item.of('gtceu:sterilizing_filter_casing', 1), [
+        "ADA",
+        "BCB",
+        "FEG"
+    ], {
+        A: 'gtceu:fluid_tag_filter',
+        B: 'enderio:end_steel_bars',
+        C: 'gtceu:hsss_rotor',
+        D: 'gtceu:blacklight',
+        E: 'gtceu:europium_frame',
+        F: 'gtceu:luv_electric_motor',
+        G: 'gtceu:luv_electric_pump'
+    })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

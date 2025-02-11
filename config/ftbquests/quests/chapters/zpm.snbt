@@ -302,177 +302,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["39A45EEC725C981C"]
-			id: "5BA0E0C76CA92F58"
-			tasks: [{
-				id: "262D3B84ED2C339B"
-				item: "gtceu:biomass_bucket"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["39A45EEC725C981C"]
-			id: "0126D4F879BF8772"
-			tasks: [{
-				id: "4AD929C1F6F14D16"
-				item: "gtceu:bacteria_bucket"
-				type: "item"
-			}]
-			x: -14.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"0126D4F879BF8772"
-				"5BA0E0C76CA92F58"
-			]
-			id: "3F366E4813D5DC73"
-			tasks: [{
-				id: "0A089550734775A9"
-				item: "gtceu:bacterial_sludge_bucket"
-				type: "item"
-			}]
-			x: -13.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["3F366E4813D5DC73"]
-			id: "2E53D2599EDEA32C"
-			tasks: [{
-				id: "3F05286EF89FF02E"
-				item: "gtceu:enriched_bacterial_sludge_bucket"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2E53D2599EDEA32C"]
-			id: "62A095389C5A1837"
-			tasks: [{
-				id: "4FAA840ACBE98955"
-				item: "gtceu:mutagen_bucket"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1033F6AC4379AE6C"]
-			id: "7F9C4ED40B8B9057"
-			tasks: [{
-				id: "5359EF2F9FE9BE02"
-				item: "gtceu:agar_dust"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4C6E6D4BA2AE3562"]
-			id: "1033F6AC4379AE6C"
-			tasks: [{
-				id: "1E83D28447CA81CA"
-				item: "gtceu:gelatin_dust"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"56732BC3C7F2B02E"
-				"3599DD77FCFCE66C"
-			]
-			id: "4C6E6D4BA2AE3562"
-			tasks: [{
-				id: "4ED6A577DCAF9637"
-				item: "gtceu:gelatin_mixture_bucket"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["183E07A7B4E3911F"]
-			id: "56732BC3C7F2B02E"
-			tasks: [{
-				id: "0AF432EC12E5757E"
-				item: "gtceu:collagen_dust"
-				type: "item"
-			}]
-			x: -14.5d
-			y: 10.0d
-		}
-		{
-			id: "3599DD77FCFCE66C"
-			tasks: [{
-				id: "71526791B517CCA2"
-				item: "gtceu:phosphoric_acid_bucket"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 10.0d
-		}
-		{
-			id: "183E07A7B4E3911F"
-			tasks: [{
-				id: "5D4760F55E3114C7"
-				item: "gtceu:meat_dust"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 12.0d
-		}
-		{
-			dependencies: [
-				"7F9C4ED40B8B9057"
-				"62A095389C5A1837"
-			]
-			id: "688DB65F296AE05F"
-			tasks: [{
-				id: "1D0974D7BF9FE005"
-				item: "gtceu:raw_growth_medium_bucket"
-				type: "item"
-			}]
-			x: -15.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["688DB65F296AE05F"]
-			id: "64AB6462326CB9DA"
-			tasks: [{
-				id: "4728D2DD734BD20B"
-				item: "gtceu:sterilized_growth_medium_bucket"
-				type: "item"
-			}]
-			x: -17.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["64AB6462326CB9DA"]
-			id: "589DEEA6662898A5"
-			tasks: [{
-				id: "3697250448F06309"
-				item: "gtceu:stem_cells"
-				type: "item"
-			}]
-			x: -18.5d
-			y: 1.5d
-		}
-		{
-			id: "39A45EEC725C981C"
-			tasks: [{
-				id: "0148C52978A25A2C"
-				item: "gtceu:bio_chaff"
-				type: "item"
-			}]
-			x: -13.0d
-			y: -6.0d
-		}
-		{
 			dependencies: ["64AB6462326CB9DA"]
 			id: "409E5680BE7920CF"
 			tasks: [{
@@ -480,8 +309,8 @@
 				item: "gtceu:wetware_printed_circuit_board"
 				type: "item"
 			}]
-			x: -18.5d
-			y: 4.5d
+			x: -10.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -494,8 +323,8 @@
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			x: -20.0d
-			y: 3.0d
+			x: -10.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2C168D2C6B55CD10"]
@@ -505,8 +334,8 @@
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 3.0d
+			x: -8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["13756D7E0FDA4B9E"]
@@ -516,8 +345,8 @@
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 5.0d
+			x: -8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["22FA4C6A1ADEC7AC"]
@@ -527,19 +356,20 @@
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 7.0d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["762DC8899FC95277"]
 			id: "7D527B8CCB41E418"
+			subtitle: "原版格雷的顶点"
 			tasks: [{
 				id: "0306C899450F018C"
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 9.0d
+			x: -10.5d
+			y: 0.5d
 		}
 		{
 			id: "724B4D5BE66CEEEA"
@@ -1162,7 +992,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			id: "4DE441BA03771EBD"
@@ -1173,7 +1003,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 10.5d
+			y: 11.0d
 		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"

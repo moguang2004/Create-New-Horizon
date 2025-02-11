@@ -1581,7 +1581,7 @@ StartupEvents.postInit(event => {
     setFormula("titanium_tetrachloride_v", "V-TiCl4")
     setFormula("tungsten_trioxide", "WO3")
     setFormula("adamantite", "Ad")
-    setFormula("boundless", "∞")
+    setFormula("boundless", "∞-")
     setFormula("xuanlvjin", "Xg")
     setFormula("phosphorous_acid", "H3PO3")
     setFormula("gtceu:adamantiteliquid", "P-507-Ad")

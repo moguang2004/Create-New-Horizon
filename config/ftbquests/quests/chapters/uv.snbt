@@ -30,7 +30,7 @@
 			id: "056A00C408ADC615"
 			linked_quest: "7D527B8CCB41E418"
 			x: 4.0d
-			y: -5.0d
+			y: -4.5d
 		}
 	]
 	quests: [
@@ -518,7 +518,7 @@
 			id: "2DBA5445319926BE"
 			shape: "circle"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest40.subtitle}"
+			subtitle: "锗从冶炼炉里来"
 			tasks: [{
 				id: "25A8BD7CF4103101"
 				item: "gtceu:abyssalalloy_ingot"
@@ -543,10 +543,7 @@
 		}
 		{
 			dependencies: ["7F81295FE18741A6"]
-			description: [
-				"{ftbquests.chapter.uv.quest42.description1}"
-				"{ftbquests.chapter.uv.quest42.description2}"
-			]
+			description: ["钻井液只需要输入一次，倘若输出过多的钻井液，它们会被销毁"]
 			id: "50B3C9E6ECB749A2"
 			shape: "gear"
 			size: 2.0d

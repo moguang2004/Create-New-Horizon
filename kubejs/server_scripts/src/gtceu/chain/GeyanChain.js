@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
         .chancedInput('2x gtceu:ammonium_chloride_dust', 1000, 0)
         .chancedInput('2x gtceu:naquadria_dust', 500, 0)
         .outputFluids('gtceu:bedrock_soot_solution 1000')
-        .EUt(4915200)
+        .EUt(491520)
         .duration(120)
     ctnh.cracker("fluorination")
         .inputFluids("gtceu:fluorine 1000", "gtceu:bedrock_soot_solution 1000")

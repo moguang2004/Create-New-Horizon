@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('3x gtceu:rhodium_dust')
         .itemOutputs('4x gtceu:osmium_dust')
         .itemOutputs('3x gtceu:iridium_dust')
-        .EUt(30720)
+        .EUt(8388603)
         .duration(1000)
         .circuit(2);
     event.shaped(
@@ -194,12 +194,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('bloodmagic:defaultcrystal')
         .EUt(10000)
         .duration(200)
-    event.recipes.gtceu.gaia_reactor("mana_produce_1")
-        .itemInputs('gtceu:mana_super_plus_block')
-        .inputFluids(Fluid.of('gtceu:mana', 14400))
-        .itemOutputs('64x gtceu:mana_plus_ingot')
-        .EUt(12222)
-        .duration(1200)
     event.recipes.gtceu.greenhouse('ctnhcore:proliferation_rune')
         .circuit(20)
         .itemInputs('64x gtnn:radioactive_waste')

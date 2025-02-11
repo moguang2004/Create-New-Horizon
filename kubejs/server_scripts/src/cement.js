@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing(
         Fluid.of("gtceu:cement", 1000),
         [
-            '6x gtceu:calcite_dust',
+            '2x gtceu:small_calcite_dust',
             'gtceu:clay_dust',
             'gtceu:tiny_iron_dust',
             Fluid.of("minecraft:water", 1000)
@@ -15,12 +15,12 @@ ServerEvents.recipes(event => {
         Item.of('gtceu:cement_bucket', 1), [
           "DED",
           "CAC",
-          "CBC"
+          " B "
         ],
         {
           A:'minecraft:water_bucket',
           B:'gtceu:clay_dust',
-          C:'gtceu:calcite_dust',
+          C: 'gtceu:small_calcite_dust',
           D:'gtceu:tiny_iron_dust',
           E:'minecraft:bucket'
         }
@@ -123,13 +123,33 @@ ServerEvents.recipes(event => {
             'C': 'gtceu:cement_bucket'
         }
     ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
+
+    event.shaped(
+        '2x gtceu:firebricks',
+        [
+            'AC ',
+            'BBB',
+            'BBB'
+        ],
+        {
+            'A': '#forge:tools/spades',
+            'B': 'gtceu:firebrick',
+            'C': 'gtceu:cement_bucket'
+        }
+    ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
     //我要占用一下你的砖.js了！
     event.recipes.create.mixing(
         Fluid.of("gtceu:aqua_regia", 500),
         [
-            Fluid.of("gtceu:hydrochloric_acid", 500),
+            Fluid.of("gtceu:diluted_hydrochloric_acid", 500),
             Fluid.of("gtceu:nitrogen_dioxide", 250),
-            Fluid.of("minecraft:water", 1000)
+        ]
+    )
+    event.recipes.create.mixing(
+        Fluid.of("gtceu:diluted_hydrochloric_acid", 1000),
+        [
+            Fluid.of("gtceu:hydrochloric_acid", 500),
+            Fluid.of("minecraft:water", 500),
         ]
     )
 })
