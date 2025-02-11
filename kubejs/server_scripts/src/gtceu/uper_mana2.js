@@ -448,7 +448,6 @@ ServerEvents.recipes(event => {
         .EUt(32)
         .duration(20000)
     event.recipes.gtceu.mana_reactor('kubejs:mana_circuit_board')
-        .cleanroom(CleanroomType.CLEANROOM)
         .itemOutputs('16x kubejs:mana_circuit_board')
         .itemInputs('64x gtceu:ultra_mana_foil')
         .itemInputs('32x gtceu:reinforced_epoxy_resin_plate')
