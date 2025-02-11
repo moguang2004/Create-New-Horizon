@@ -212,7 +212,7 @@ ServerEvents.recipes(event => {
 
     ctnh.wood_bionics("rubber_sapling")
         .notConsumable('gtceu:rubber_sapling')
-        .itemOutputs('10x gtceu:rubber_log', '8x gtceu:rubber_leaves', '5x gtceu:rubber_sapling')
+        .itemOutputs('10x gtceu:rubber_log', '8x gtceu:rubber_leaves', '5x gtceu:rubber_sapling', '5x gtceu:sticky_resin')
         .EUt(120)
         .duration(100)
 

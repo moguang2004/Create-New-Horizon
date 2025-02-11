@@ -1519,13 +1519,14 @@ ServerEvents.recipes(event => {
     })
     event.shaped(
         Item.of('gtceu:sterilizing_filter_casing', 1), [
-        "ABA",
+        "ADA",
         "BCB",
         "FEG"
     ], {
         A: 'gtceu:fluid_tag_filter',
         B: 'enderio:end_steel_bars',
         C: 'gtceu:hsss_rotor',
+        D: 'gtceu:blacklight',
         E: 'gtceu:europium_frame',
         F: 'gtceu:luv_electric_motor',
         G: 'gtceu:luv_electric_pump'
