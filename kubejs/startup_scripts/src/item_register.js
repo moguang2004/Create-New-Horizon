@@ -146,6 +146,7 @@ StartupEvents.registry("item", event => {
     event.create('umlhpic_chip').tooltip('§b同时蕴含信息和能量\n§r')
     event.create('umlhpic_wafer').tooltip('§b同时蕴含信息和能量\n§r')
     event.create('mana_circuit_board').tooltip("§b魔力信息承载基板§r")
+    event.create('zenith_star').tooltip("宛如天上的繁星")
 })
 StartupEvents.registry("item", event => {
     event.create("scp_500", "basic").food(food => {
