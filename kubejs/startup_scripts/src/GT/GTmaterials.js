@@ -1271,6 +1271,15 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .cableProperties(GTValues.V[GTValues.UXV], 16, 1)
         .color(0xFFFFFF).iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FOIL)
+    event.create("bedrock_neutronium")
+        .ingot()
+        .dust()
+        .liquid()
+        .blastTemp(10200)
+        .radioactiveHazard(20)
+        .cableProperties(GTValues.V[GTValues.UV], 16, 1)
+        .color(0xFFFFFA).iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FOIL)
     event.create("enrich_radioactive_waste")
         .dust()
         .color(0xFF5733)
@@ -1403,6 +1412,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .components('samarium', 'dysprosium', 'terbium')
         .color(0x148072)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_LONG_ROD)
+
     event.create("cement")
         .liquid()
         .color(0xD2B48C);
@@ -1517,6 +1527,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .ingot()
         .color(0x23312)
         .components('5x invar', '4x iron', 'kanthal')
+    event.create('sodium22')
+        .dust()
+        .color((0x4682B4))
+        .radioactiveHazard(3)
+
 })
 
 StartupEvents.postInit(event => {
@@ -1581,7 +1596,7 @@ StartupEvents.postInit(event => {
     setFormula("titanium_tetrachloride_v", "V-TiCl4")
     setFormula("tungsten_trioxide", "WO3")
     setFormula("adamantite", "Ad")
-    setFormula("boundless", "∞")
+    setFormula("boundless", "∞-")
     setFormula("xuanlvjin", "Xg")
     setFormula("phosphorous_acid", "H3PO3")
     setFormula("gtceu:adamantiteliquid", "P-507-Ad")
@@ -1593,4 +1608,5 @@ StartupEvents.postInit(event => {
     setFormula('mana_radiation_mixture', "ThUPuRnNqMa??")
     setFormula('elf_fuel', "ArNeC2O4Ma")
     setFormula('shock_resistant_alloy', "HeLiCoPtEr")
+    setFormula("bedrock_neutronium", "NtBR*")
 })

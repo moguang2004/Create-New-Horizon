@@ -518,7 +518,7 @@
 			id: "2DBA5445319926BE"
 			shape: "circle"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest40.subtitle}"
+			subtitle: "锗从冶炼炉里来"
 			tasks: [{
 				id: "25A8BD7CF4103101"
 				item: "gtceu:abyssalalloy_ingot"

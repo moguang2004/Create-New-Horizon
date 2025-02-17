@@ -105,7 +105,7 @@ StartupEvents.registry("item", event => {
     event.create('mana_electronic_circuit').tag('gtceu:circuits/hv')
     event.create('mana_integrated_circuit').tag('gtceu:circuits/ev')
     event.create('echo_processor').tag('gtceu:circuits/zpm')
-    event.create('echo_processor_assembly').tag('gtceu:circuits/uv')
+    event.create('echo_processor_assembly').tag('gtceu:circuits/')
     event.create('echo_processor_computer').tag('gtceu:circuits/uhv')
     event.create('echo_processor_mainframe').tag('gtceu:circuits/uev')
     event.create('echo_circuit_board')
@@ -146,6 +146,8 @@ StartupEvents.registry("item", event => {
     event.create('umlhpic_chip').tooltip('§b同时蕴含信息和能量\n§r')
     event.create('umlhpic_wafer').tooltip('§b同时蕴含信息和能量\n§r')
     event.create('mana_circuit_board').tooltip("§b魔力信息承载基板§r")
+    event.create('zenith_star').tooltip("宛如天上的繁星")
+    event.create('strongly_interacting_neutron_refector').tooltip("硬度超越水滴")
 })
 StartupEvents.registry("item", event => {
     event.create("scp_500", "basic").food(food => {
