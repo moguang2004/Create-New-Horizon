@@ -1061,11 +1061,6 @@
 					type: "item"
 				}
 				{
-					id: "6568B8AD8477E056"
-					item: "gtceu:ulv_rotor_holder0"
-					type: "item"
-				}
-				{
 					count: 27L
 					id: "21D1AE83E2EEC142"
 					item: "gtceu:steam_machine_casing"
@@ -1093,6 +1088,11 @@
 				{
 					id: "0B0A337F7CA2BDAF"
 					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "61684B327717E0A6"
+					item: "ctnhcore:ulv_rotor_holder"
 					type: "item"
 				}
 			]
