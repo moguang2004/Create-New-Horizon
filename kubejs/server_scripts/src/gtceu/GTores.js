@@ -10,7 +10,7 @@ GTCEuServerEvents.oreVeins(event => {
             )
         )
     })
-    event.modify("gtceu:magnetite_vein_end", vein => {
+    event.modify("gtnn:gold_vein_tf", vein => {
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(3).mat(GTMaterials.Magnetite).size(2, 4))
