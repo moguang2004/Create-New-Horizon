@@ -192,6 +192,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting('minecraft:netherrack', ['minecraft:gravel', '2x minecraft:redstone', Fluid.of('minecraft:lava', 250)])
     event.recipes.create.compacting('gtceu:bronze', Fluid.of('gtceu:bronze', 144))
     event.recipes.create.compacting('gtceu:brass', Fluid.of('gtceu:brass', 144))
+    event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 250),'4x minecraft:brick'])
+    event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 50),'5x gtceu:brick_dust'])
         /*Ingredient.of("#forge:ingots").itemIds.forEach((id) =>{
           id
         })*/
