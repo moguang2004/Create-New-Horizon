@@ -24,6 +24,16 @@ ServerEvents.recipes((event) => {
         .processingTime(40)    
     vintageimprovements.turning(
         'gtceu:iron_screw','gtceu:iron_bolt')
+        .processingTime(40)
+    
+    vintageimprovements.turning(//车床配方（铜）
+        'gtceu:copper_rod','minecraft:copper_ingot')
+        .processingTime(20)
+    vintageimprovements.turning(
+        '2x gtceu:copper_bolt','gtceu:copper_rod')
+        .processingTime(40)    
+    vintageimprovements.turning(
+        'gtceu:copper_screw','gtceu:copper_bolt')
         .processingTime(40)   
 
     vintageimprovements.turning(//车床配方（金)

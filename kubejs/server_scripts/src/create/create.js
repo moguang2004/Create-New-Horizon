@@ -194,6 +194,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 50),'5x gtceu:brick_dust'])
     event.recipes.create.pressing('gtceu:gold_ring', 'gtceu:gold_rod')
     event.recipes.create.pressing('gtceu:iron_ring', 'gtceu:iron_rod')
+    event.recipes.create.pressing('gtceu:copper_ring', 'gtceu:copper_rod')
         /*Ingredient.of("#forge:ingots").itemIds.forEach((id) =>{
           id
         })*/
