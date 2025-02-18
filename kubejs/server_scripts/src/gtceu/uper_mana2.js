@@ -568,7 +568,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('45x apotheosis:infused_breath')
         .itemOutputs('64x ars_nouveau:source_gem_block')
         .chancedOutput('32x ars_nouveau:source_gem_block', 8000, 4000)
-        .chancedOutput('16x apotheosis:infused_breath', 8000, 4000)
+        .chancedOutput('32x apotheosis:infused_breath', 8000, 4000)
         .chancedOutput('4x mythicbotany:alfsteel_ingot', 6000, 1000)
         .chancedOutput('16x botania:manasteel_ingot', 6000, 1000)
         .chancedOutput('4x botania:elementium_ingot', 6000, 1000)
