@@ -192,6 +192,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting('minecraft:netherrack', ['minecraft:gravel', '2x minecraft:redstone', Fluid.of('minecraft:lava', 250)])
     event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 250),'4x minecraft:brick'])
     event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 50),'5x gtceu:brick_dust'])
+    event.recipes.create.pressing('gtceu:gold_ring', 'gtceu:gold_rod')
+    event.recipes.create.pressing('gtceu:iron_ring', 'gtceu:iron_rod')
         /*Ingredient.of("#forge:ingots").itemIds.forEach((id) =>{
           id
         })*/
@@ -210,8 +212,13 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing(Fluid.of('gtceu:concrete', /** @type {number} */ 1000), ['gtceu:stone_dust', 'gtceu:quartz_sand_dust', 'gtceu:clay_dust', '2x gtceu:calcite_dust', Fluid.of('minecraft:water', 1000)]).heated()
     event.recipes.create.mixing('2x gtceu:andesite_alloy_dust', [Fluid.of('gtceu:iron', 144), '2x gtceu:andesite_dust'])
     event.recipes.create.mixing('2x gtceu:treated_wood_planks', [Fluid.of('gtceu:creosote', 250), '2x #minecraft:planks'])
+    event.recipes.create.mixing('gtceu:red_alloy_dust', ['4x minecraft:redstone', '1x gtceu:copper_dust']).heated()
+    event.recipes.create.mixing('2x gtceu:andesite_alloy_dust', ['gtceu:andesite_dust', 'gtceu:iron_dust'])
 })
-
+//组装
+ServerEvents.recipes(event => {//红色合金线缆
+    event.recipes.create.deploying('gtceu:red_alloy_single_cable', ['gtceu:red_alloy_single_wire', 'gtceu:rubber_plate'])
+})
 //序列组装
 ServerEvents.recipes(event => {
     let transitional = 'minecraft:oak_slab'
