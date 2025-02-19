@@ -222,6 +222,18 @@ ServerEvents.recipes(event => {//红色合金线缆
 })
 //序列组装
 ServerEvents.recipes(event => {
+    let transitional = 'gtceu:coke_oven_brick'
+    event.recipes.create.sequenced_assembly([//焦炉砖
+            'gtceu:coke_oven_bricks'
+        ],  'gtceu:coke_oven_brick', [
+            event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:cement', 100)]),
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:coke_oven_brick']),
+            event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:cement', 100)]),
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:coke_oven_brick']),
+        ]).transitionalItem(transitional)
+        .loops(1)
+})
+ServerEvents.recipes(event => {
     let transitional = 'minecraft:oak_slab'
     event.recipes.create.sequenced_assembly([
             'kubejs:basic_mechanism'
