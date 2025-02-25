@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "weather2:item/wind_vane",
+    "particle": "weather2:item/wind_vane"
+  }
+}

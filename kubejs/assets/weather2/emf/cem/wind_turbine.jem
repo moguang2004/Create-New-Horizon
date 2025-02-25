@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "fin_r1",
+			"id": "fin_r1",
+			"invertAxis": "xy",
+			"translate": [0, -37, 8],
+			"boxes": [
+				{"coordinates": [-1, 36, -8.5, 4, 22, 1], "textureOffset": [31, 17]}
+			]
+		},
+		{
+			"part": "fin_r3",
+			"id": "fin_r3",
+			"invertAxis": "xy",
+			"translate": [-8, -37, 0],
+			"boxes": [
+				{"coordinates": [7.5, 36, -1, 1, 22, 4], "textureOffset": [9, 17]}
+			]
+		},
+		{
+			"part": "fin_r2",
+			"id": "fin_r2",
+			"invertAxis": "xy",
+			"translate": [0, -37, -8],
+			"boxes": [
+				{"coordinates": [-3, 36, 7.5, 4, 22, 1], "textureOffset": [42, 17]}
+			]
+		},
+		{
+			"part": "fin_r4",
+			"id": "fin_r4",
+			"invertAxis": "xy",
+			"translate": [8, -37, 0],
+			"boxes": [
+				{"coordinates": [-8.5, 36, -3, 1, 22, 4], "textureOffset": [20, 17]}
+			]
+		},
+		{
+			"part": "shaft",
+			"id": "shaft",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-2, 52, -2, 4, 2, 4], "textureOffset": [0, 51]},
+				{"coordinates": [-2, 36, -2, 4, 2, 4], "textureOffset": [17, 51]},
+				{"coordinates": [-9, 52.5, 0, 18, 1, 0], "textureOffset": [0, 45]},
+				{"coordinates": [0, 52.5, -9, 0, 1, 18], "textureOffset": [0, 28]},
+				{"coordinates": [0, 36.5, -8, 0, 1, 16], "textureOffset": [0, 32]},
+				{"coordinates": [-8, 36.5, 0, 16, 1, 0], "textureOffset": [0, 49]}
+			]
+		},
+		{
+			"part": "root",
+			"id": "root",
+			"invertAxis": "xy",
+			"translate": [8, -37, 0],
+			"boxes": [
+				{"coordinates": [-14, 37, -6, 12, 4, 12], "textureOffset": [0, 0]},
+				{"coordinates": [-9, 41, -1, 2, 25, 2], "textureOffset": [0, 17]}
+			]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "weather2:block/tornado_sensor_top",
+    "side": "weather2:block/tornado_sensor_powered"
+  }
+}

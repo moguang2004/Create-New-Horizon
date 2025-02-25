@@ -928,6 +928,7 @@
 				"0B8D27D4FAA175B9"
 				"2866385471094DB9"
 			]
+			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest68.description1}"]
 			id: "41E48BCAEAD9D47E"
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest68.subtitle}"

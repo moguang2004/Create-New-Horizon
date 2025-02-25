@@ -176,7 +176,7 @@
 			id: "742758F8B0253B78"
 			rewards: [{
 				auto: "enabled"
-				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:wrought_iron_ingot\"}]}"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:redstone\"}]}"
 				elevate_perms: true
 				icon: "minecraft:redstone"
 				id: "18BDBC8320A45766"
