@@ -1573,6 +1573,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create('agn_fuel')
         .liquid()
         .color((0XFFA500))
+        .plasma()
+    event.create('agn_fuel_active')
+        .liquid()
+        .color((0XFFA500))
+        .plasma()
 
 
 
