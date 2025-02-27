@@ -42,4 +42,5 @@ ServerEvents.recipes(event => {
     ])
 
     event.replaceInput({ id: "ad_astra:launch_pad" }, "gtceu:steel_rod", "gtceu:platinum_rod")
+    event.replaceInput({id: "gtceu:assembler/t1_chip"}, "gtnn:heavy_plate_t1", "ctnhcore:program_rocket_1")
 })

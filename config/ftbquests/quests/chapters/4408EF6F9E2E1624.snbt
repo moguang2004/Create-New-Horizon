@@ -1634,6 +1634,7 @@
 		{
 			dependencies: ["7E5199B7F22F5DED"]
 			id: "33452CB4AAC5EE5F"
+			subtitle: "大型水车在本整合包进行了增强，可以试试"
 			tasks: [{
 				id: "60BA3C41665B633E"
 				item: "create:large_water_wheel"

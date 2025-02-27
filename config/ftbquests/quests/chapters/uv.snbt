@@ -89,8 +89,8 @@
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.uv.quest5.subtitle}"
 			tasks: [{
-				id: "45B10996F96EC19D"
-				item: "ctnhcore:naq_reactor_mk1"
+				id: "6BC4FAF8A3F8141B"
+				item: "ctnhcore:naq_reactor_mk3"
 				type: "item"
 			}]
 			x: 4.0d

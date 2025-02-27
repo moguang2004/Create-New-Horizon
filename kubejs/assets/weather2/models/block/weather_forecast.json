@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "weather2:block/weather_forecast",
+    "up": "weather2:block/weather_forecast_top",
+    "down": "weather2:block/weather_forecast_bottom",
+    "north": "weather2:block/weather_forecast",
+    "south": "weather2:block/weather_forecast",
+    "east": "weather2:block/weather_forecast",
+    "west": "weather2:block/weather_forecast"
+  }
+}
