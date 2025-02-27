@@ -39,7 +39,7 @@
 			tasks: [{
 				count: 16L
 				id: "6D8F9714425D0CA0"
-				item: { Count: 16, id: "gtceu:raw_precious_alloy" }
+				item: "gtceu:raw_precious_alloy"
 				type: "item"
 			}]
 			x: -1.0d

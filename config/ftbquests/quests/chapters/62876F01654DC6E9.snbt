@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "62876F01654DC6E9"
-	group: "3DA6C69FE8D6358B"
+	group: ""
 	icon: "buildinggadgets2:gadget_building"
 	id: "62876F01654DC6E9"
 	images: [{
@@ -13,7 +13,7 @@
 		x: -5.0d
 		y: 2.5d
 	}]
-	order_index: 2
+	order_index: 4
 	quest_links: [{
 		id: "2C36813CC15AD301"
 		linked_quest: "337BC9186C014A06"
@@ -364,7 +364,7 @@
 			tasks: [{
 				count: 4L
 				id: "23CE92086120A374"
-				item: { Count: 4, id: "minecraft:flint" }
+				item: "minecraft:flint"
 				type: "item"
 			}]
 			x: -0.5d
@@ -379,7 +379,7 @@
 				{
 					count: 16L
 					id: "46B4622E08BBBF18"
-					item: { Count: 16, id: "minecraft:iron_ingot" }
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 				{

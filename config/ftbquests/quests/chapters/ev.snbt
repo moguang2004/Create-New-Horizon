@@ -299,7 +299,7 @@
 			tasks: [{
 				count: 16L
 				id: "607F1D2AAD371EA0"
-				item: { Count: 16, id: "gtceu:raw_uraninite" }
+				item: "gtceu:raw_uraninite"
 				type: "item"
 			}]
 			x: 6.0d
@@ -772,7 +772,7 @@
 			tasks: [{
 				count: 16L
 				id: "0A720031E493F57D"
-				item: { Count: 16, id: "gtceu:hssg_coil_block" }
+				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
 			x: -10.0d
@@ -804,7 +804,7 @@
 			tasks: [{
 				count: 16L
 				id: "56559BA731DD3FAB"
-				item: { Count: 16, id: "gtceu:raw_zircon" }
+				item: "gtceu:raw_zircon"
 				type: "item"
 			}]
 			x: -8.0d

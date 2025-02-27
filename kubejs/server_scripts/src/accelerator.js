@@ -213,11 +213,12 @@ ServerEvents.recipes(event => {
             .EUt(GTValues.VA[GTValues.UV])
             .CWUt(48))
     ctnh.mixer('gtceu:bedrock_neutronium_dust')
-        .itemInputs('gtceu:bedrock_neutronium_dust')
+        .itemInputs('gtceu:bedrock_dust_dust')
         .itemInputs('gtceu:neutronium_dust')
         .itemInputs('gtceu:naquadria_dust')
         .itemOutputs('gtceu:bedrock_neutronium_dust')
         .outputFluids('gtceu:naquadah 72')
+        .itemOutputs('gtceu:bedrock_neutronium_dust')
         .EUt(32678 * 8)
         .duration(200)
 

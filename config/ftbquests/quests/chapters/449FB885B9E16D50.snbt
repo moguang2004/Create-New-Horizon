@@ -1,0 +1,722 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "449FB885B9E16D50"
+	group: "32DB92B5A6E4493B"
+	icon: "botania:mana_pylon"
+	id: "449FB885B9E16D50"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5ACD386192C9A896"
+			tasks: [{
+				id: "0BD96BA534F63229"
+				item: "gtceu:lv_machine_casing"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -15.0d
+		}
+		{
+			id: "38691BBFE6BAC632"
+			tasks: [{
+				id: "4557FBD9F0C9E1C2"
+				item: "gtceu:mv_machine_casing"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -13.0d
+		}
+		{
+			id: "32B3872CD9F3E82A"
+			tasks: [{
+				id: "3018177A39867A48"
+				item: "gtceu:hv_machine_casing"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -11.0d
+		}
+		{
+			id: "3D446972434919FC"
+			tasks: [{
+				id: "1425CC9BCFE09EBC"
+				item: "gtceu:ev_machine_casing"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -9.0d
+		}
+		{
+			id: "65DEC024334E49FC"
+			tasks: [{
+				id: "3C012997FB6F53C6"
+				item: "gtceu:iv_machine_casing"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -7.0d
+		}
+		{
+			id: "6069A803D880910C"
+			tasks: [{
+				id: "152AE940989F3D3F"
+				item: "gtceu:luv_machine_casing"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -5.0d
+		}
+		{
+			id: "0F156E0905894DD3"
+			tasks: [{
+				id: "0BB626E0F1C0A87D"
+				item: "gtceu:zpm_machine_casing"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -3.0d
+		}
+		{
+			id: "1DEEF2533C6A5F63"
+			subtitle: "旅途的终点"
+			tasks: [{
+				id: "440FD5F877D86F5C"
+				item: "gtceu:uv_machine_casing"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -1.0d
+		}
+		{
+			id: "6F0CE28D9DEF3D33"
+			tasks: [{
+				id: "1103864AD92F7FEF"
+				item: "ctnhcore:season_reactor"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -15.0d
+		}
+		{
+			id: "0BE8E02ED6A5478C"
+			tasks: [{
+				id: "31D858315A2595AE"
+				item: "ctnhcore:mana_generator_turbine_tier1"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -15.0d
+		}
+		{
+			id: "7C8E9CFCEC8F2D55"
+			tasks: [{
+				id: "182E256E2FFC6D74"
+				item: "ctnhcore:mana_generator_turbine_tier2"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -13.0d
+		}
+		{
+			id: "6FBEBC861DD11681"
+			tasks: [{
+				id: "0F7BE212796184DC"
+				item: "ctnhcore:mana_generator_turbine_tier3"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -9.0d
+		}
+		{
+			id: "00847C1C4F45B42D"
+			subtitle: "只能使用激光仓"
+			tasks: [{
+				id: "25C2961D6BE4D39C"
+				item: "ctnhcore:mana_generator_turbine_tier4"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00847C1C4F45B42D"]
+			id: "707EC96A26FA8C17"
+			subtitle: "终极魔力发电"
+			tasks: [{
+				id: "403011FF1A5984E6"
+				item: "ctnhcore:eye_of_quasar"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -1.0d
+		}
+		{
+			id: "507FDEED9E29DC25"
+			tasks: [{
+				id: "0B3956E5D4746EE9"
+				item: "ctnhcore:mana_bender"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -13.0d
+		}
+		{
+			id: "0290089C36A2C35B"
+			tasks: [{
+				id: "6F124A1EE50545A6"
+				item: "ctnhcore:mana_lathe"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -13.0d
+		}
+		{
+			id: "65BB99AFC5684DFD"
+			tasks: [{
+				id: "1F7EB0384F2B2526"
+				item: "ctnhcore:mana_macerator"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -13.0d
+		}
+		{
+			id: "1A0002B217975F1E"
+			tasks: [{
+				id: "6A2153C8F5EB964D"
+				item: "ctnhcore:mana_wiremill"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -13.0d
+		}
+		{
+			id: "389A67C76B4B1821"
+			tasks: [{
+				id: "2E6A812D83EBC8A9"
+				item: "gtceu:gaia_reactor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -13.0d
+		}
+		{
+			id: "5C9D6A4D082F419F"
+			subtitle: "MV理论可做"
+			tasks: [{
+				id: "0A8A155096FBEF88"
+				item: "ctnhcore:mana_reactor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			id: "6DC84A820904811E"
+			subtitle: "需要钛齿轮箱，别急着在HV做"
+			tasks: [{
+				id: "7E3238CC6B23CA4E"
+				item: "ctnhcore:mana_assembler"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -11.0d
+		}
+		{
+			description: ["注意0号电路板的注血配方不能自动化，建议用付费的（免费的真不行）"]
+			id: "4A0AC9C14C9F5EFD"
+			subtitle: "在IV会很好用，做出来后就不用管那个b祭坛了"
+			tasks: [{
+				id: "027B599FD889A72D"
+				item: "ctnhcore:alter"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -9.0d
+		}
+		{
+			id: "0684030D5FD75087"
+			subtitle: "可制作凋零灵魂瓶"
+			tasks: [{
+				id: "3C245078B57AE5F8"
+				item: "ctnhcore:hellforge"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -7.0d
+		}
+		{
+			id: "221A2FB97B12AE80"
+			subtitle: "你做血魔法不就是为了这个吗"
+			tasks: [{
+				id: "2272524E4A93B97B"
+				item: "gtceu:meteor_capturer"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			id: "4DB28093FEF7243E"
+			rewards: [{
+				id: "4CC1213EB0411BE5"
+				item: "bloodmagic:defaultcrystal"
+				type: "item"
+			}]
+			subtitle: "IV的超级发电巨构"
+			tasks: [{
+				id: "2EFBA5E9DD8859A5"
+				item: "ctnhcore:demon_will_generator"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -7.0d
+		}
+		{
+			id: "69A119A432FC5309"
+			subtitle: "以后会被削，早做早享受"
+			tasks: [{
+				id: "09EE4358E8541CE0"
+				item: "gtceu:mana_seperator"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -11.0d
+		}
+		{
+			id: "0C39211FC3F62138"
+			tasks: [{
+				id: "70B56CBF3246D9F0"
+				item: "ctnhcore:mana_mixer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			id: "5E9F399B23CEB8D0"
+			tasks: [{
+				id: "637FF23EE91EC5CC"
+				item: "ctnhcore:zenith_distillation_tower"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			id: "7E307F732C41C8A4"
+			tasks: [{
+				id: "46C052734670A9CA"
+				item: "ctnhcore:zenith_laser"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			id: "250AF3302C00857F"
+			tasks: [{
+				id: "2EE91503230A895E"
+				item: "ctnhcore:zenith_circult_assembler"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "30FB55695573D452"
+			subtitle: "魔力线毁灭者"
+			tasks: [{
+				id: "65EAC19545930BA7"
+				item: "ctnhcore:nicoll_dyson_beams"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			id: "685B7F2883DBED94"
+			tasks: [{
+				id: "429B1CAA540F19E4"
+				item: "kubejs:mana_electronic_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			id: "696B43A04E6D2F05"
+			tasks: [{
+				id: "1552FB2BB783C291"
+				item: "kubejs:mana_integrated_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			description: ["总不能让你在MV就拿到LUV板吧"]
+			id: "3BEF0330DD624962"
+			subtitle: "IV电路板"
+			tasks: [{
+				id: "417819D361364A09"
+				item: "kubejs:blooded_micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			id: "601A414CAA3597EC"
+			subtitle: "便宜的LUV板子（大概）"
+			tasks: [{
+				id: "296B425E09AA623B"
+				item: "kubejs:will_nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "04E158A2929EB69A"
+			subtitle: "这玩意不是魔力？"
+			tasks: [{
+				id: "5D8512591C6E861A"
+				item: "ctnhcore:water_power_station"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -15.0d
+		}
+		{
+			id: "61483B28B24A42BC"
+			subtitle: "终极巨构即将来临......"
+			tasks: [{
+				id: "6104315E84618F14"
+				item: "gtceu:uiv_machine_casing"
+				type: "item"
+			}]
+			title: "???"
+			x: -23.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0BE8E02ED6A5478C"
+				"04E158A2929EB69A"
+				"6F0CE28D9DEF3D33"
+			]
+			id: "237681239D5CE55C"
+			rewards: [{
+				count: 4
+				id: "1F8AAE052025A29D"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27A701A10D46A3A7"
+				title: "LV奖励"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"7C8E9CFCEC8F2D55"
+				"507FDEED9E29DC25"
+				"65BB99AFC5684DFD"
+				"1A0002B217975F1E"
+				"0290089C36A2C35B"
+				"389A67C76B4B1821"
+			]
+			id: "31BC682B42A6B651"
+			min_required_dependencies: 5
+			rewards: [
+				{
+					count: 4
+					id: "5E2C5B65C87A20B9"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "209CDB4ECDF4FDCD"
+					item: "mythicbotany:alfsteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3772DF23760326A5"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "24468BD66B2A5DB3"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "3E512380E85D2885"
+					item: "botania:hydroangeas"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1C214546C32E6017"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "魔力反应器属于HV，你只需要完成5个"
+			tasks: [{
+				id: "30F128440E921AE5"
+				title: "MV阶段奖励"
+				type: "checkmark"
+			}]
+			title: "MV奖励"
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"31BC682B42A6B651"
+				"5C9D6A4D082F419F"
+				"69A119A432FC5309"
+			]
+			id: "74CB2CCC5BB25F0E"
+			rewards: [
+				{
+					id: "5E7D94526DD4A0E9"
+					item: "kubejs:mana_integrated_circuit"
+					type: "item"
+				}
+				{
+					id: "6E968A5F082C86AB"
+					item: "mythicbotany:alfsteel_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42B0FB06A94D571E"
+					table_id: 723892772024061161L
+					type: "choice"
+				}
+				{
+					id: "46EE9EACD2B32B61"
+					item: "kubejs:mana_electronic_circuit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D4F708CBB645DBC"
+				title: "HV奖励"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"74CB2CCC5BB25F0E"
+				"6FBEBC861DD11681"
+				"4DB28093FEF7243E"
+				"4A0AC9C14C9F5EFD"
+				"0684030D5FD75087"
+				"70B56CBF3246D9F0"
+				"696B43A04E6D2F05"
+				"221A2FB97B12AE80"
+				"3BEF0330DD624962"
+			]
+			id: "020376281C4F33C1"
+			rewards: [
+				{
+					count: 64
+					id: "0F829BCF7B17C254"
+					item: "gtceu:raw_mana_fused"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CD830937D1C879F"
+					table_id: 7618519509353548779L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DE86DEB0264FB8A"
+					table_id: 723892772024061161L
+					type: "random"
+				}
+			]
+			subtitle: "看到那个粗蕴魔没，该跑蕴魔线了"
+			tasks: [{
+				id: "5C3B8FDDB953A3EE"
+				title: "IV奖励"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"020376281C4F33C1"
+				"00847C1C4F45B42D"
+				"7E307F732C41C8A4"
+				"250AF3302C00857F"
+				"5E9F399B23CEB8D0"
+				"601A414CAA3597EC"
+				"146C0A035CE91390"
+			]
+			description: ["已经快玩完&bBTNH了！"]
+			hide_details_until_startable: true
+			id: "0C248F430ED4DE66"
+			rewards: [{
+				id: "690497C19D6237FA"
+				item: "ctnhcore:horizen_rune"
+				type: "item"
+			}]
+			subtitle: "天顶领域大神"
+			tasks: [{
+				id: "706C3B2E90BABEDF"
+				title: "LUV奖励"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0C248F430ED4DE66"
+				"30FB55695573D452"
+				"707EC96A26FA8C17"
+			]
+			id: "781E3D9B19198AAF"
+			subtitle: "恭喜结局!"
+			tasks: [{
+				id: "43ABF78D449303E5"
+				title: "大法师的神迹"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "114C52A3317D9D68"
+			rewards: [{
+				id: "1BA66007DCD34639"
+				item: {
+					Count: 1
+					id: "kubejs:ark_of_homo"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "丛林的魔君的馈赠......但是代价是什么？"
+			tasks: [
+				{
+					id: "6EBAF6A09667A116"
+					title: "？？？"
+					type: "checkmark"
+				}
+				{
+					id: "7D6E38952F3A56B6"
+					item: "kubejs:yharim"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "146C0A035CE91390"
+			subtitle: "哇，lp真的很多"
+			tasks: [{
+				id: "71231DDBE3BF8A26"
+				item: "ctnhcore:eternal_well_of_suffer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			id: "20B6099988CB224E"
+			tasks: [{
+				id: "6AD120660D7FE626"
+				item: "ctnhcore:twisted_fusion_mk1"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -5.0d
+		}
+		{
+			id: "305DF4B0688A112B"
+			tasks: [{
+				id: "0E1649E589BE053A"
+				item: "ctnhcore:twisted_fusion_mk2"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			id: "490A257BD57D97EE"
+			tasks: [{
+				id: "52DF6FFC5E7C64C8"
+				item: "ctnhcore:twisted_fusion_mk3"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.0d
+		}
+		{
+			id: "55DDA9AC202E7DE3"
+			subtitle: "做出来这个玩意，你确实够疯狂"
+			tasks: [{
+				id: "42BE3DD0D38E8F02"
+				item: "ctnhcore:twisted_fusion_mkinfinity"
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.0d
+		}
+		{
+			id: "7A63464D71D0791E"
+			subtitle: "开始你的魔力燃料精炼吧！"
+			tasks: [{
+				id: "792D46A0721C7066"
+				item: "ctnhcore:magic_fuel_generator"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.0d
+		}
+		{
+			id: "38C73C36429B1739"
+			tasks: [{
+				id: "78003AC14CB45F48"
+				item: "kubejs:mana_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "4C316712DF28094D"
+			subtitle: "便宜的UV板子"
+			tasks: [{
+				id: "47E929326624B2A9"
+				item: "kubejs:magic_quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: "魔法多方块/电路大杂烩"
+}

@@ -773,7 +773,7 @@
 				{
 					count: 6L
 					id: "3BBD0E957715C8EB"
-					item: { Count: 6, id: "mythicbotany:rune_holder" }
+					item: "mythicbotany:rune_holder"
 					type: "item"
 				}
 			]
