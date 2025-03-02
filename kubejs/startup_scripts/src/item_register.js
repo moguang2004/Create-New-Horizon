@@ -148,6 +148,14 @@ StartupEvents.registry("item", event => {
     event.create('mana_circuit_board').tooltip("§b魔力信息承载基板§r")
     event.create('zenith_star').tooltip("宛如天上的繁星")
     event.create('strongly_interacting_neutron_refector').tooltip("硬度超越水滴")
+    event.create('constrained_electron_deficient_atom_neutronium')
+    event.create('constrained_proton_deficient_atom_neutronium')
+    event.create('constrained_proton_deficient_atom_neutronium_broken')
+    event.create('constrained_chaos_proton_deficient_atom_neutronium')
+    event.create('constrained_unstable_neutronium')
+    event.create('adamantite_proton_source')
+    event.create('source_of_countless_magical_powers').tooltip("疯狂至极")
+    event.create('book_of_ruina').tooltip("一场赞歌摇篮曲")
 })
 StartupEvents.registry("item", event => {
     event.create("scp_500", "basic").food(food => {
