@@ -60,7 +60,7 @@ StartupEvents.registry("item", event => {
             })
             .modifyAttribute('legendarysurvivaloverhaul:thermal_resistance', 'kubejsthermal_resistance', 20, 'addition')
         )
-    event.create('double_blaze_cake').burnTime(30000).food(food => {
+    event.create('double_blaze_cake').burnTime(30000).tooltip("可以吃").food(food => {
         food.alwaysEdible(true)
         food.effect("legendarysurvivaloverhaul:cold_immunity", 36000, 10, 1)
     })
