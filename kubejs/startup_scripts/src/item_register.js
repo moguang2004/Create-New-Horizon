@@ -60,6 +60,10 @@ StartupEvents.registry("item", event => {
             })
             .modifyAttribute('legendarysurvivaloverhaul:thermal_resistance', 'kubejsthermal_resistance', 20, 'addition')
         )
+    event.create('double_blaze_cake').burnTime(30000).food(food => {
+        food.alwaysEdible(true)
+        food.effect("legendarysurvivaloverhaul:cold_immunity", 36000, 10, 1)
+    })
     event.create('deep_diver_gear').tag('curios:belt')
     event.create('thermometer_case')
     event.create('high_quality_solid_fuel').burnTime(4800) //.burntime(16000)

@@ -479,6 +479,22 @@ ServerEvents.recipes(event => {
         .loops(1)
 })
 
+ServerEvents.recipes(event => {
+    let transitional = 'create:blaze_cake'
+    event.recipes.create.sequenced_assembly([
+            'kubejs:double_blaze_cake'
+        ], 'create:blaze_cake', [
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 200)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 200)])
+        ]).transitionalItem(transitional)
+        .loops(1)
+})
 //注液器
 ServerEvents.recipes(event => {
     event.recipes.create.filling('legendarysurvivaloverhaul:thermometer', ['kubejs:thermometer_case', Fluid.of('gtceu:mercury', 1000)])
