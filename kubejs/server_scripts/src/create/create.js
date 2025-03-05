@@ -208,6 +208,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('3x gtceu:bronze_dust', ['3x gtceu:copper_dust', 'gtceu:tin_dust']).heated()
     event.recipes.create.mixing('3x gtceu:brass_dust', ['3x gtceu:copper_dust', 'gtceu:zinc_dust']).heated()
     event.recipes.create.mixing('8x gtceu:potin_dust', ['6x gtceu:copper_dust', '2x gtceu:tin_dust', 'gtceu:lead_dust']).heated()
+    event.recipes.create.mixing('8x extendedcrafting:luminessence', ['4x minecraft:glowstone_dust', 'minecraft:gunpowder', 'minecraft:redstone']).heated()
+    event.recipes.create.mixing('16x extendedcrafting:crystaltine_ingot', ['4x extendedcrafting:luminessence_block', 'gtceu:quantum_star', 'minecraft:netherite_ingot']).heated()
     event.recipes.create.mixing('create:rose_quartz', ['minecraft:quartz', '4x minecraft:redstone']).heated()
     event.recipes.create.mixing('create:rose_quartz', ['2x biomesoplenty:rose_quartz_chunk', 'minecraft:redstone']).heated()
     event.recipes.create.mixing(Fluid.of('gtceu:concrete', /** @type {number} */ 1000), ['gtceu:stone_dust', 'gtceu:quartz_sand_dust', 'gtceu:clay_dust', '2x gtceu:calcite_dust', Fluid.of('minecraft:water', 1000)]).heated()
@@ -479,6 +481,22 @@ ServerEvents.recipes(event => {
         .loops(1)
 })
 
+ServerEvents.recipes(event => {
+    let transitional = 'create:blaze_cake'
+    event.recipes.create.sequenced_assembly([
+            'kubejs:double_blaze_cake'
+        ], 'create:blaze_cake', [
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 200)]),
+            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 200)])
+        ]).transitionalItem(transitional)
+        .loops(1)
+})
 //注液器
 ServerEvents.recipes(event => {
     event.recipes.create.filling('legendarysurvivaloverhaul:thermometer', ['kubejs:thermometer_case', Fluid.of('gtceu:mercury', 1000)])

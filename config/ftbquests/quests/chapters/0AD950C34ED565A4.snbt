@@ -3,15 +3,7 @@
 	default_quest_shape: ""
 	filename: "0AD950C34ED565A4"
 	group: "71414D2BDE140EDA"
-	icon: {
-		Count: 1
-		ForgeCaps: {
-			Parent: {
-				temperature: 25.6f
-			}
-		}
-		id: "legendarysurvivaloverhaul:thermometer"
-	}
+	icon: "legendarysurvivaloverhaul:thermometer"
 	id: "0AD950C34ED565A4"
 	order_index: 3
 	quest_links: [ ]

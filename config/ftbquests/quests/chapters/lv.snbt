@@ -540,19 +540,19 @@
 				{
 					count: 6L
 					id: "0BCE1F8D5D6854D5"
-					item: { Count: 6, id: "gtceu:bronze_frame" }
+					item: "gtceu:bronze_frame"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "76EEECA8CF912816"
-					item: { Count: 4, id: "gtceu:bronze_firebox_casing" }
+					item: "gtceu:bronze_firebox_casing"
 					type: "item"
 				}
 				{
 					count: 54L
 					id: "2936B23517509DEC"
-					item: { Count: 54, id: "gtceu:firebricks" }
+					item: "gtceu:firebricks"
 					type: "item"
 				}
 				{

@@ -207,107 +207,6 @@
 			y: 4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.1FD18D8B41761626.quest17.description1}"]
-			id: "4EB22F4303905933"
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest17.subtitle}"
-			tasks: [{
-				id: "75E3FB315244236C"
-				title: "{ftbquests.chapter.1FD18D8B41761626.quest17.task_+8494909511403053932.title}"
-				type: "checkmark"
-			}]
-			x: 10.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["4EB22F4303905933"]
-			id: "0AC8A4B8C64F0E08"
-			tasks: [{
-				id: "030331803921B18F"
-				item: "ctnhcore:mana_macerator"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["4EB22F4303905933"]
-			id: "259AB57A14C5B387"
-			tasks: [{
-				id: "3F3F4774D01A20D8"
-				item: "ctnhcore:mana_bender"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["4EB22F4303905933"]
-			id: "00E7394BE4198828"
-			tasks: [{
-				id: "595682B6D4BFFA9C"
-				item: "ctnhcore:mana_wiremill"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["4EB22F4303905933"]
-			id: "288D33951C846373"
-			tasks: [{
-				id: "08F5C5BC237195C9"
-				item: "ctnhcore:mana_lathe"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["4EB22F4303905933"]
-			id: "364899413019C976"
-			tasks: [{
-				id: "2918967A89513F6D"
-				item: "ctnhcore:mana_assembler"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["4EB22F4303905933"]
-			id: "1E7DF9DC2888C466"
-			tasks: [{
-				id: "0354CE8929E5FEFF"
-				item: "ctnhcore:mana_mixer"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["4EB22F4303905933"]
-			id: "26E70B3C0BD8F04B"
-			tasks: [{
-				id: "67FA4C04E5ABB8A7"
-				item: "gtceu:mana_seperator"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["4EB22F4303905933"]
-			id: "0A25C69120526E17"
-			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest25.subtitle}"
-			tasks: [{
-				id: "31D7CF2BEBA624B6"
-				item: "gtceu:gaia_reactor"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 14.0d
-		}
-		{
 			dependencies: ["2946049E78C9A182"]
 			id: "0E07CCCC8051A885"
 			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest26.subtitle}"
@@ -516,6 +415,225 @@
 				type: "item"
 			}]
 			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2946049E78C9A182"
+				"44359DC5BAA74DD6"
+				"5C25C08B7402366E"
+			]
+			dependency_requirement: "one_completed"
+			description: ["精灵精炼厂相比于普通的配方有着更好的产率和无损超频，但是并不代表你不可以再使用魔力反应器来产燃料"]
+			id: "573D6558B6E9DAB5"
+			size: 2.0d
+			subtitle: "开始精炼你的燃料吧！"
+			tasks: [{
+				id: "618C3088E8BDE88C"
+				item: "ctnhcore:magic_fuel_generator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["573D6558B6E9DAB5"]
+			dependency_requirement: "one_started"
+			id: "51C5F938AB8D5F73"
+			subtitle: "这个其实不需要精炼厂就能用"
+			tasks: [{
+				id: "12B0D2EB13E934A4"
+				item: "gtceu:elf_active_fuel_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			id: "44359DC5BAA74DD6"
+			tasks: [{
+				id: "47278C68A138AAB5"
+				item: "gtceu:mana_stable_cooldown_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			id: "5C25C08B7402366E"
+			subtitle: "比魔力稍微好一点，组成其实都是精灵世界的空气组成"
+			tasks: [{
+				id: "22B943FA252E83D3"
+				item: "gtceu:elf_fuel_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["573D6558B6E9DAB5"]
+			hide_details_until_startable: true
+			id: "12C8D92392C3372E"
+			subtitle: "便宜的合成材料"
+			tasks: [{
+				id: "55B9157CC316C4BC"
+				item: "gtceu:blood_fuel_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["12C8D92392C3372E"]
+			id: "11EF3B1D40A11CBD"
+			subtitle: "可循环燃料！适合给超级懒人用"
+			tasks: [{
+				id: "43A13CFDEE4E962D"
+				item: "gtceu:blood_fuel_active_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["573D6558B6E9DAB5"]
+			id: "2EC83F16FBFE1C74"
+			tasks: [{
+				id: "021D64C158505845"
+				item: "gtceu:starlight_fuel_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2EC83F16FBFE1C74"]
+			id: "09A592A17FB59C3E"
+			subtitle: "精炼后发电更优质！"
+			tasks: [{
+				id: "51FB3B7744D74CDE"
+				item: "gtceu:starlight_fuel_active_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["573D6558B6E9DAB5"]
+			id: "4E941FACDD388ACD"
+			subtitle: "无论是原质还是激发都很不错"
+			tasks: [{
+				id: "696FB4A34E0B0662"
+				item: "gtceu:mana_up_fuel_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4E941FACDD388ACD"]
+			id: "4862542240A8467C"
+			tasks: [{
+				id: "7C227FF7F9A0D733"
+				item: "gtceu:mana_up_fuel_active_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["573D6558B6E9DAB5"]
+			id: "13269998C6FC824A"
+			subtitle: "超级燃料"
+			tasks: [{
+				id: "7DB1AEFC11F47C0F"
+				item: "gtceu:star_fuel_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["13269998C6FC824A"]
+			dependency_requirement: "all_started"
+			id: "6BAC103C397BD1C9"
+			subtitle: "ZPM/UV/UHV究极燃料"
+			tasks: [{
+				id: "54E8A2CAD2119BF0"
+				item: "gtceu:star_fuel_active_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6BAC103C397BD1C9"]
+			id: "3D34FB41653D5030"
+			tasks: [{
+				id: "4F06904100F54E13"
+				item: "gtceu:star_fuel_exhausted_bucket"
+				type: "item"
+			}]
+			title: "回收燃料，可以获得一些老燃料"
+			x: 9.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["6BAC103C397BD1C9"]
+			id: "50E5710F4CC0EA8A"
+			tasks: [{
+				id: "4A57283C9FD6B7DE"
+				item: "gtceu:star_fuel_exhausted_bucket"
+				type: "item"
+			}]
+			title: "留下燃料，进入终极燃料线"
+			x: 11.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["50E5710F4CC0EA8A"]
+			id: "484BB98965D48FBF"
+			subtitle: "还没做"
+			tasks: [{
+				id: "016E6B52CEAD9FE6"
+				item: "gtceu:agn_fuel_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["484BB98965D48FBF"]
+			id: "72FA0E4A94885F91"
+			tasks: [{
+				id: "380D9B22E355DA19"
+				item: "gtceu:agn_fuel_plasma_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["484BB98965D48FBF"]
+			id: "7B7EDEDB4D48C01C"
+			tasks: [{
+				id: "14479A88DC623552"
+				item: "gtceu:agn_fuel_active_plasma_bucket"
+				type: "item"
+			}]
+			title: "还没做"
+			x: 16.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["6205780525A93130"]
+			id: "7A937E3AE05BFC09"
+			tasks: [{
+				id: "556C251FB762ABCD"
+				item: "ctnhcore:nicoll_dyson_beams"
+				type: "item"
+			}]
+			x: 12.0d
 			y: -3.0d
 		}
 	]

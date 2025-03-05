@@ -1973,6 +1973,20 @@
 			x: -1.5d
 			y: 10.5d
 		}
+		{
+			dependencies: ["29086C6A9A5FA58E"]
+			description: ["我们（）人的化工厂太厉害辣！"]
+			id: "67ECE72F05370C16"
+			size: 2.0d
+			subtitle: "超级化工厂"
+			tasks: [{
+				id: "0E390E300A626B51"
+				item: "ctnhcore:sinope_chemical"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -14.5d
+		}
 	]
 	title: "{ftbquests.chapter.iv.title}"
 }

@@ -553,13 +553,13 @@
 				{
 					count: 16L
 					id: "2B1FA54B7A24075E"
-					item: { Count: 16, id: "gtceu:raw_bauxite" }
+					item: "gtceu:raw_bauxite"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "1B064681E25AA75D"
-					item: { Count: 16, id: "gtceu:raw_ilmenite" }
+					item: "gtceu:raw_ilmenite"
 					type: "item"
 				}
 			]
@@ -968,7 +968,7 @@
 			tasks: [{
 				count: 64L
 				id: "5F3870CF15D508F8"
-				item: { Count: 64, id: "gtceu:palladium_dust" }
+				item: "gtceu:palladium_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest60.title}"
@@ -982,7 +982,7 @@
 			tasks: [{
 				count: 64L
 				id: "660223EB3F113A6E"
-				item: { Count: 64, id: "gtceu:ruthenium_dust" }
+				item: "gtceu:ruthenium_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest61.title}"
@@ -1088,7 +1088,7 @@
 			tasks: [{
 				count: 64L
 				id: "45CC34EA60CF9DB9"
-				item: { Count: 64, id: "gtceu:rhodium_dust" }
+				item: "gtceu:rhodium_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest70.title}"
@@ -1154,7 +1154,7 @@
 			tasks: [{
 				count: 16L
 				id: "59AB4F7BD08AC5CA"
-				item: { Count: 16, id: "gtceu:iridium_dust" }
+				item: "gtceu:iridium_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest75.title}"
@@ -1229,7 +1229,7 @@
 			tasks: [{
 				count: 16L
 				id: "48299A65BAD100EC"
-				item: { Count: 16, id: "gtceu:osmium_dust" }
+				item: "gtceu:osmium_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest81.title}"

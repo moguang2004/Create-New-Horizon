@@ -91,9 +91,183 @@ ServerEvents.recipes(event => {
             D: 'gtceu:boundless_ingot',
             G: 'kubejs:yharim'
 
-        })
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('kubejs:ark_of_homo', 1), [
+        " D D D D ",
+        " D D D D ",
+        " A D D A ",
+        "C AD DA C",
+        " CCDBDCC ",
+        "   D D   ",
+        "  GG GG  ",
+        " G G G G ",
+        "G  G G  G",
+    ], {
+        A: 'gtceu:neutronium_ingot',
+        B: 'gtceu:aether_ingot',
+        C: 'gtceu:ultra_mana_ingot',
+        D: 'gtceu:boundless_ingot',
+        G: 'kubejs:yharim'
 
-
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:elite_component', 1), [
+        "ABBCA",
+        "CCCCC",
+        "BBBCB",
+        "BBBCB",
+        "ABBCA",
+    ], {
+        A: 'extendedcrafting:luminessence_block',
+        B: 'extendedcrafting:black_iron_slate',
+        C: 'gtceu:diamond_plate'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:redstone_component', 8), [
+        "AAAAA",
+        "ACBCA",
+        "ABDBA",
+        "ACBCA",
+        "AAAAA",
+    ], {
+        A: 'extendedcrafting:luminessence',
+        B: 'vintageimprovements:redstone_module',
+        C: 'extendedcrafting:redstone_ingot_block',
+        D: 'extendedcrafting:black_iron_slate'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:redstone_catalyst', 1), [
+        "  A  ",
+        " CBC ",
+        "ABDBA",
+        " CBC ",
+        "  A  ",
+    ], {
+        A: 'vintageimprovements:redstone_module',
+        B: 'extendedcrafting:redstone_ingot_block',
+        C: 'extendedcrafting:redstone_component',
+        D: 'extendedcrafting:luminessence_block'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:flux_crafter', 1), [
+        "AAAAA",
+        "BCCCB",
+        "BCDCB",
+        "BEEEB",
+        "BBBBB",
+    ], {
+        A: 'extendedcrafting:luminessence_block',
+        B: 'extendedcrafting:redstone_ingot_block',
+        C: 'vintageimprovements:redstone_module',
+        D: 'extendedcrafting:advanced_table',
+        E: 'extendedcrafting:redstone_catalyst'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:flux_alternator', 4), [
+        " AAA ",
+        " ACA ",
+        " ACA ",
+        "BEEEB",
+        "BBBBB",
+    ], {
+        A: 'extendedcrafting:luminessence_block',
+        B: 'extendedcrafting:redstone_ingot_block',
+        C: 'gtceu:electrum_block',
+        E: 'extendedcrafting:redstone_catalyst'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:elite_component', 1), [
+        "ABCBA",
+        "BCBCB",
+        "CBABC",
+        "BCBCB",
+        "ABCBA",
+    ], {
+        A: 'extendedcrafting:elite_component',
+        B: 'extendedcrafting:black_iron_slate',
+        C: 'extendedcrafting:luminessence_block'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:crystaltine_component', 1), [
+        "ABBBCBA",
+        "BBBBDBB",
+        "CCCDEDC",
+        "BBBBDBB",
+        "BBBBCBB",
+        "BBBBCBB",
+        "ABBBCBA"
+    ], {
+        A: 'extendedcrafting:crystaltine_block',
+        B: 'extendedcrafting:black_iron_slate',
+        C: 'extendedcrafting:crystaltine_ingot',
+        D: 'gtceu:engraved_lapotron_crystal_chip',
+        E: 'gtceu:lapotron_gem'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:crystaltine_component', 1), [
+        "ABBBCBA",
+        "BBBBDBB",
+        "CCCDEDC",
+        "BBBBDBB",
+        "BBBBCBB",
+        "BBBBCBB",
+        "ABBBCBA"
+    ], {
+        A: 'extendedcrafting:crystaltine_block',
+        B: 'extendedcrafting:black_iron_slate',
+        C: 'extendedcrafting:crystaltine_ingot',
+        D: 'gtceu:engraved_lapotron_crystal_chip',
+        E: 'gtceu:lapotron_gem'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:crystaltine_catalyst', 1), [
+        "ABCCCBA",
+        "BCCDCCB",
+        "CCDEDCC",
+        "CDEAEDC",
+        "CCDEDCC",
+        "BCCDCCB",
+        "ABCCCBA"
+    ], {
+        A: 'extendedcrafting:crystaltine_block',
+        B: 'gtceu:engraved_lapotron_crystal_chip',
+        C: 'extendedcrafting:crystaltine_ingot',
+        D: 'extendedcrafting:black_iron_slate',
+        E: 'extendedcrafting:crystaltine_component'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:ultimate_component', 1), [
+        "ABBBDBA",
+        "BBBBCBB",
+        "DCCCECD",
+        "BBBBCBB",
+        "BBBBCBB",
+        "BBBBCBB",
+        "ABBBDBA"
+    ], {
+        A: 'extendedcrafting:luminessence_block',
+        B: 'extendedcrafting:black_iron_slate',
+        C: 'gtceu:olivine_plate',
+        D: 'gtceu:ender_eye_plate',
+        E: 'gtceu:terra_steel_plate'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:ultimate_catalyst', 1), [
+        "ABCDCBA",
+        "BCDEDCB",
+        "CDEAEDC",
+        "DEAAAED",
+        "CDEAEDC",
+        "BCDEDCB",
+        "ABCDCBA"
+    ], {
+        A: 'extendedcrafting:ultimate_component',
+        B: 'gtceu:ender_eye_plate',
+        C: 'gtceu:terra_steel_plate',
+        D: 'extendedcrafting:luminessence_block',
+        E: 'gtceu:thorium_232_plate'
+    })
     //water
     event.custom({
             "type": "bloodmagic:alchemytable",

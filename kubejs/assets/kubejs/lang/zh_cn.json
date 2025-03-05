@@ -185,5 +185,11 @@
     "item.kubejs.umlhpic_wafer": "UMLHPIC晶圆",
     "item.kubejs.mana_circuit_board": "究极魔力电路基板",
     "item.kubejs.zenith_star": "天穹之星",
-    "item.kubejs.strongly_interacting_neutron_refector": "强相互作用力反射板"
+    "item.kubejs.strongly_interacting_neutron_refector": "强相互作用力反射板",
+    "item.kubejs.constrained_proton_deficient_atom_neutronium": "被重力之星约束的缺质子类中子素",
+    "item.kubejs.constrained_electron_deficient_atom_neutronium": "被重力之星约束的缺电子类中子素",
+    "item.kubejs.constrained_proton_deficient_atom_neutronium_broken": "被重力之星约束的破碎类中子素",
+    "item.kubejs.constrained_unstable_neutronium": "被重力之星约束的不稳定纯中子类物质",
+    "item.kubejs.adamantite_proton_source": "精金超能质子源",
+    "item.kubejs.double_blaze_cake": "???烈焰蛋糕???"
 }
