@@ -303,4 +303,30 @@ ServerEvents.recipes(event => {
         },
         "upgradeLevel": 4
     })
+    event.custom({
+        "type": "bloodmagic:altar",
+        "altarSyphon": 5000,
+        "consumptionRate": 100,
+        "drainRate": 50,
+        "input": {
+            "item": 'gtceu:hv_emitter'
+        },
+        "output": {
+            "item": 'ctnhcore:boss_summoner'
+        },
+        "upgradeLevel": 1
+    })
+    event.custom({
+        "type": "bloodmagic:altar",
+        "altarSyphon": 20000,
+        "consumptionRate": 1000,
+        "drainRate": 400,
+        "input": {
+            "item": 'gtceu:luv_emitter'
+        },
+        "output": {
+            "item": 'ctnhcore:advanced_boss_summoner'
+        },
+        "upgradeLevel": 4
+    })
 })
