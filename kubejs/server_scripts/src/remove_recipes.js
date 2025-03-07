@@ -268,4 +268,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: "vintageimprovements:craft/steel_rod" })
     event.remove({ id: "extendedcrafting:flux_crafter" })
     event.remove({ id: "extendedcrafting:flux_alternator" })
+    event.remove({ id: "extendedcrafting:ender_alternator" })
+    event.remove({ id: "extendedcrafting:ender_crafter" })
+    event.remove({ id: "extendedcrafting:ender_catalyst" })
+    event.remove({ id: "extendedcrafting:ender_component" })
 })
