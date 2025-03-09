@@ -309,7 +309,7 @@ ServerEvents.recipes(event => {
         "consumptionRate": 100,
         "drainRate": 50,
         "input": {
-            "item": 'gtceu:hv_emitter'
+            "item": 'gtceu:hv_sensor'
         },
         "output": {
             "item": 'ctnhcore:boss_summoner'
@@ -322,7 +322,7 @@ ServerEvents.recipes(event => {
         "consumptionRate": 1000,
         "drainRate": 400,
         "input": {
-            "item": 'gtceu:luv_emitter'
+            "item": 'gtceu:luv_sensor'
         },
         "output": {
             "item": 'ctnhcore:advanced_boss_summoner'

@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
         '2x gtceu:steel_bolt','gtceu:steel_rod')
         .processingTime(40)    
     vintageimprovements.turning(
-        'gtceu:steel_screw','steel_bolt')
+        'gtceu:steel_screw','gtceu:steel_bolt')
         .processingTime(40)
 
     vintageimprovements.turning(//车床配方（黄铜)
@@ -93,7 +93,7 @@ ServerEvents.recipes((event) => {
         '2x gtceu:brass_bolt','gtceu:brass_rod')
         .processingTime(40)    
     vintageimprovements.turning(
-        'gtceu:brass_screw','brass_bolt')
+        'gtceu:brass_screw','gtceu:brass_bolt')
         .processingTime(40)
     
     vintageimprovements.turning(//车床配方（粗青铜合金)
@@ -123,7 +123,7 @@ ServerEvents.recipes((event) => {
             event.recipes.createDeploying(`gtceu:${i}_plate`, [`gtceu:${i}_plate`, `gtceu:${i}_rod`]),
             event.recipes.createDeploying(`gtceu:${i}_plate`, [`gtceu:${i}_plate`, `gtceu:${i}_plate`]),
             event.recipes.createDeploying(`gtceu:${i}_plate`, [`gtceu:${i}_plate`, `gtceu:${i}_rod`]),    
-            vintageimprovements.curving(`gtceu:${i}_plate`, `gtceu:${i}_plate`).head('gtceu: gear_extruder_mold'),])
+            vintageimprovements.curving(`gtceu:${i}_plate`, `gtceu:${i}_plate`).head('gtceu:gear_extruder_mold'),])
             .transitionalItem(`gtceu:${i}_plate`)
             .loops(1)}
 
@@ -134,7 +134,7 @@ ServerEvents.recipes((event) => {
             event.recipes.createDeploying(`gtceu:potin_plate`, [`gtceu:potin_plate`, `gtceu:potin_rod`]),
             event.recipes.createDeploying(`gtceu:potin_plate`, [`gtceu:potin_plate`, `gtceu:potin_plate`]),
             event.recipes.createDeploying(`gtceu:potin_plate`, [`gtceu:potin_plate`, `gtceu:potin_rod`]),    
-            vintageimprovements.curving(`gtceu:potin_plate`, `gtceu:potin_plate`).head('gtceu:_gear_extruder_mold'),])
+            vintageimprovements.curving(`gtceu:potin_plate`, `gtceu:potin_plate`).head('gtceu:gear_extruder_mold'),])
             .transitionalItem(`gtceu:potin_plate`)
             .loops(1)
 

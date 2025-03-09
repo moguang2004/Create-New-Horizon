@@ -29,13 +29,13 @@
   },
   "blockEffects": {
     "blockEffectRange": 32,
-    "steamColumnEnabled": true,
-    "flameJetEnabled": true,
+    "steamColumnEnabled": false,
+    "flameJetEnabled": false,
     "bubbleColumnEnabled": true,
     "firefliesEnabled": true,
-    "waterfallsEnabled": true,
+    "waterfallsEnabled": false,
     "enableWaterfallSounds": true,
-    "enableWaterfallParticles": true,
+    "enableWaterfallParticles": false,
     "waterRippleStyle": "PIXELATED_CIRCLE"
   },
   "entityEffects": {
@@ -54,8 +54,8 @@
     "enableLeafAccents": true
   },
   "particleTweaks": {
-    "suppressPlayerParticles": false,
-    "suppressProjectileParticleTrails": false
+    "suppressPlayerParticles": true,
+    "suppressProjectileParticleTrails": true
   },
   "compassAndClockOptions": {
     "enableClock": false,

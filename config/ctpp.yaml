@@ -1,0 +1,67 @@
+# GTM's Origenal Configs
+gtmConfig:
+  # Is GTM KineticOutputBox Enabled?
+  enableGTMKineticOutputBox: true
+
+  # Torque multiplier of KineticInputBox relative to its voltage level (0.5~8.0)
+  kineticInputBoxTorqueMultiplier: 4.0
+
+  # Torque multiplier of KineticOutputBox relative to its voltage level (0.5~8.0)
+  kineticOutputBoxTorqueMultiplier: 4.0
+
+  # Is GTM KineticCreateMixer Enabled?
+  enableGTMKineticCreateMixer: true
+
+  # Processing speed Multiplier of KineticCreateMixer relative to its voltage level (0.5~4.0)
+  kineticCreateMixerSpeedMultiplier: 2.0
+
+  # KineticCreateMixer's RPM Requirement (16~256)
+  kineticCreateMixerRPMRequirement: 64
+
+  # Is GTM ElectricGearBox Enabled?
+  enableGTMElectricGearBox: true
+
+# CTNH's Configs
+ctnhConfig:
+  # Is CTNH SmashingFactory Enabled?
+  enableSmashingFactory: true
+
+  # SmashingFactory's Maximum Processing Capacity (0~9 for the voltage level)
+  smashingFactoryMaximumProcessingCapacity: 1
+
+  # SmashingFactory's Speed Multiplier relative to its voltage level (0.5~4.0)
+  smashingFactorySpeedMultiplier: 2.0
+
+  # SmashingFactory's RPM Requirement (16~256)
+  smashingFactoryRPMRequirement: 64
+
+  # SmashingFactory's Stress Requirement (1~1024)
+  smashingFactoryStressRequirement: 512.0
+
+  # Is CTNH KineticGenerator Enabled?
+  enableKineticGenerator: true
+
+  # KineticGenerator's Generating Boost (0.5~8.0)
+  kineticGeneratorGeneratingBoost: 2.0
+
+  # Does KineticGenerator require lubricant?
+  kineticGeneratorGeneratingRequireLubricant: true
+
+  # KineticGenerator's Require Lubricant Amount (mL)
+  kineticGeneratorGeneratingRequireLubricantAmount: 1
+
+  # Is CTNH KineticSteamTurbine Enabled?
+  enableKineticSteamTurbine: true
+
+  # KineticSteamTurbine's Generating Boost (0.5~8.0)
+  kineticSteamTurbineGeneratingBoost: 1.0
+
+  # Is CTNH SeaweedFarm Enabled?
+  enableSeaweedFarm: true
+
+  # Is CTNH WindmillControlCenter Enabled?
+  enableWindmillControlCenter: true
+
+  # Is CTNH BoomOfCreate Enabled?
+  enableBoomOfCreate: true
+

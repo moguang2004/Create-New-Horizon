@@ -268,4 +268,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: "vintageimprovements:craft/steel_rod" })
     event.remove({ id: "extendedcrafting:flux_crafter" })
     event.remove({ id: "extendedcrafting:flux_alternator" })
+    event.remove({ id: "vintageimprovements:craft/nickel_rod"})
+    event.remove({ id: "vintageimprovements:craft/sulfur_item_to_nuggets"})
+    event.remove( {id: "vintageimprovements:craft/sulfur_nuggets_to_item"})
+    event.remove( {id: "vintageimprovements:craft/sulfur_block_to_items"})
 })
