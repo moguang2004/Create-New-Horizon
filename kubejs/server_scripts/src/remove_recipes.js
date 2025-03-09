@@ -272,4 +272,5 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:ender_crafter" })
     event.remove({ id: "extendedcrafting:ender_catalyst" })
     event.remove({ id: "extendedcrafting:ender_component" })
+    event.remove({ id: "gtceu:chemical_reactor/calcite_from_quicklime" })
 })

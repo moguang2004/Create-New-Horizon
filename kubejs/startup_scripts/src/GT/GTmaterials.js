@@ -1312,7 +1312,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0x33FF33)
     event.create("aether")
         .dust()
-        .ingot()
+        .ingot(5)
         .liquid()
         .plasma()
         .radioactiveHazard(3)
@@ -1578,10 +1578,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .liquid()
         .color((0XFFA500))
         .plasma()
-
-
-
-
+    event.create('hiddenechofungus')
+        .color((0x306080))
+        .dust()
+    event.create('hiddenechofungussolution')
+        .color((0x306080))
 })
 
 StartupEvents.postInit(event => {

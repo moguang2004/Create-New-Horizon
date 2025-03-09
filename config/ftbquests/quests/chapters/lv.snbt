@@ -680,21 +680,14 @@
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.lv.quest35.description1}"]
+			description: [""]
 			id: "471F881828CFF6A6"
-			subtitle: "{ftbquests.chapter.lv.quest35.subtitle}"
-			tasks: [
-				{
-					id: "058016E76E3EEE36"
-					item: "gtceu:arsenic_dust"
-					type: "item"
-				}
-				{
-					id: "3EF6AC6F6CDB1FCE"
-					item: "gtceu:arsenic_trioxide_dust"
-					type: "item"
-				}
-			]
+			subtitle: "试试辉钴出砷"
+			tasks: [{
+				id: "058016E76E3EEE36"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 5.0d
 		}

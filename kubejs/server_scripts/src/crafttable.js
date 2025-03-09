@@ -1568,6 +1568,18 @@ ServerEvents.recipes(event => {
         B: 'extendedcrafting:black_iron_slate',
         C: 'extendedcrafting:luminessence'
     })
+    event.shaped(
+        Item.of('ctnhcore:uhv_parallel_hatch', 1), [
+        "ABC",
+        "BDB",
+        "EBE"
+    ], {
+        A: 'gtceu:uhv_sensor',
+        B: '#gtceu:circuits/uev',
+        C: 'gtceu:uhv_emitter',
+        D: 'gtceu:uhv_machine_hull',
+        E: 'gtceu:adamantite_double_cable'
+    })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
