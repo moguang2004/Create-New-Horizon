@@ -205,7 +205,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["082ABAF36B6EC7DC"]
+			dependencies: [
+				"082ABAF36B6EC7DC"
+				"1BAF86C7B922C673"
+			]
 			id: "1330F4F7A3E4C61C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -213,6 +216,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
+			subtitle: "似乎需要来自天域的天文数据"
 			tasks: [{
 				id: "1DAA2AAE86D784F1"
 				item: "gtnn:t1_chip"
@@ -1501,8 +1505,8 @@
 				item: "ctnhcore:fuel_refining_factory"
 				type: "item"
 			}]
-			x: 14.785714285714285d
-			y: -1.5267857142857153d
+			x: 14.773809523809518d
+			y: -4.785714285714263d
 		}
 		{
 			id: "43DCA5278B555E39"
@@ -1512,8 +1516,8 @@
 				title: "{ftbquests.chapter.hv.quest103.task_+1310607931008269027.title}"
 				type: "checkmark"
 			}]
-			x: 14.749999999999993d
-			y: -4.741071428571416d
+			x: 14.845238095238088d
+			y: -1.5714285714285552d
 		}
 		{
 			dependencies: ["054DC65B4D479B15"]
@@ -1798,6 +1802,54 @@
 			title: "新的维护仓"
 			x: -8.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["0D100F330A65593F"]
+			id: "55762E03BC9AEA4F"
+			subtitle: "刺眼的烈日在天境中始终无法落下，一定是有什么神秘的力量阻止了我们科技的发展"
+			tasks: [{
+				id: "03EF8290A83EE485"
+				item: "ctnhcore:astronomical_observatory"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			id: "2200E459E683E83E"
+			subtitle: "放入天文台中可以逐渐收集数据"
+			tasks: [{
+				id: "1C758EF3CA161F4C"
+				item: "ctnhcore:astronomy_circuit_1"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"55762E03BC9AEA4F"
+				"2200E459E683E83E"
+			]
+			id: "50800D463AF3C2EB"
+			tasks: [{
+				id: "6052FE3A73F43177"
+				item: "ctnhcore:great_astronomy_circuit_1"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50800D463AF3C2EB"]
+			id: "1BAF86C7B922C673"
+			tasks: [{
+				id: "148C8AFB21A52F5F"
+				item: "ctnhcore:program_rocket_1"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
 		}
 	]
 	title: "{ftbquests.chapter.hv.title}"

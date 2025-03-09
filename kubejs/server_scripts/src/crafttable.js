@@ -1580,6 +1580,18 @@ ServerEvents.recipes(event => {
         D: 'gtceu:uhv_machine_hull',
         E: 'gtceu:adamantite_double_cable'
     })
+    event.shaped(
+        Item.of('ctnhcore:astronomical_observatory', 1), [
+            "ABA",
+            "CDC",
+            "AEA"
+          ], {
+        A: 'gtceu:clean_machine_casing',
+        B: 'gtceu:tempered_glass',
+        C: 'gtceu:hv_robot_arm',
+        D: 'minecraft:daylight_detector',
+        E: 'gtceu:hv_sensor'
+    })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

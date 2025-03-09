@@ -510,6 +510,62 @@
 			x: -6.0d
 			y: 7.0d
 		}
+		{
+			dependencies: ["6C03C11D175B2B3D"]
+			id: "330BBC8B179002DE"
+			tasks: [{
+				id: "1797959F56C62CE3"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["663D2E6A96084EEF"]
+			id: "63135DB9ECF07650"
+			tasks: [{
+				id: "6269538B8445D413"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["63135DB9ECF07650"]
+			id: "08090475481678F3"
+			tasks: [{
+				id: "19F40957F1D74006"
+				item: "ctnhcore:program_rocket_core_1"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2E0A7083F7B737AF"]
+			id: "6CABD9974D22EF12"
+			tasks: [{
+				id: "6B5AD17768DB7394"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6CABD9974D22EF12"]
+			id: "0D100F330A65593F"
+			subtitle: "拥有掌控时间的力量"
+			tasks: [{
+				id: "06F895578F69CB7F"
+				item: "aether:sun_altar"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.5d
+		}
 	]
 	title: "{ftbquests.chapter.2C8B1E40224C9A0C.title}"
 }

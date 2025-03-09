@@ -770,6 +770,7 @@
 			y: 16.5d
 		}
 		{
+			dependencies: ["5F40B38C12853C4B"]
 			id: "07F277A1BEE0CF64"
 			tasks: [{
 				id: "23BEA380EB0592D1"
@@ -974,6 +975,17 @@
 			}]
 			x: 11.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["3CC670A11D3D534A"]
+			id: "5F40B38C12853C4B"
+			tasks: [{
+				id: "5A9D8435A057BF1D"
+				item: "kubejs:echo_printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
 		}
 	]
 	title: "{ftbquests.chapter.1E8D7AF132D696EC.title}"

@@ -53,8 +53,8 @@ ctnhConfig:
   # Is CTNH KineticSteamTurbine Enabled?
   enableKineticSteamTurbine: true
 
-  # KineticSteamTurbine's Generating Boost (0.5~8.0)
-  kineticSteamTurbineGeneratingBoost: 1.0
+  # Steam Powered's Kinetic Generating Boost (0.5~8.0)
+  steamPoweredKineticGeneratingBoost: 1.0
 
   # Is CTNH SeaweedFarm Enabled?
   enableSeaweedFarm: true
