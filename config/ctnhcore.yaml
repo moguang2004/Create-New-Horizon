@@ -1,2 +1,6 @@
 # FTB's plugins
 ftbPlugin:
+  # Disable FTBUltimine on GregTech Ores
+  # Default: true
+  disableFTBUltimineOnGTOres: true
+

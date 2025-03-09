@@ -177,7 +177,60 @@ ServerEvents.recipes(event => {
         E: 'extendedcrafting:redstone_catalyst'
     })
     event.recipes.extendedcrafting.shaped_table(
-        Item.of('extendedcrafting:elite_component', 1), [
+        Item.of('extendedcrafting:ender_component', 8), [
+        "AAAAA",
+        "ACBCA",
+        "ABDBA",
+        "ACBCA",
+        "AAAAA",
+    ], {
+        A: 'extendedcrafting:ender_ingot_block',
+        B: 'enderio:ender_crystal',
+        C: 'extendedcrafting:ender_ingot_block',
+        D: 'extendedcrafting:black_iron_slate'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:ender_catalyst', 1), [
+        "  A  ",
+        " CBC ",
+        "ABDBA",
+        " CBC ",
+        "  A  ",
+    ], {
+        A: 'enderio:ender_crystal',
+        B: 'extendedcrafting:ender_ingot_block',
+        C: 'extendedcrafting:ender_component',
+        D: 'extendedcrafting:luminessence_block'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:ender_crafter', 1), [
+        "AAAAA",
+        "BCCCB",
+        "BCDCB",
+        "BEEEB",
+        "BBBBB",
+    ], {
+        A: 'extendedcrafting:luminessence_block',
+        B: 'extendedcrafting:ender_ingot_block',
+        C: 'enderio:ender_crystal',
+        D: 'extendedcrafting:advanced_table',
+        E: 'enderio:ender_crystal'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:ender_alternator', 4), [
+        " AAA ",
+        " ACA ",
+        " ACA ",
+        "BEEEB",
+        "BBBBB",
+    ], {
+        A: 'extendedcrafting:luminessence_block',
+        B: 'extendedcrafting:ender_ingot_block',
+        C: 'gtceu:olivine_block',
+        E: 'extendedcrafting:ender_catalyst'
+    })
+    event.recipes.extendedcrafting.shaped_table(
+        Item.of('extendedcrafting:elite_catalyst', 1), [
         "ABCBA",
         "BCBCB",
         "CBABC",

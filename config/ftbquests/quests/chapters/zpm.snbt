@@ -1005,6 +1005,18 @@
 			x: 14.0d
 			y: 11.0d
 		}
+		{
+			dependencies: ["7D4DBB785B16A377"]
+			id: "43F6AA3B97042202"
+			subtitle: "直接制作晶体处理器"
+			tasks: [{
+				id: "1E3E6CFB80E1BDC6"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"
 }

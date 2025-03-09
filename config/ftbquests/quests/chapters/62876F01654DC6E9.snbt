@@ -1509,6 +1509,34 @@
 			x: 3.5d
 			y: 4.0d
 		}
+		{
+			id: "2B36B79F750C8E56"
+			subtitle: "好玩，爱玩，喜欢玩"
+			tasks: [
+				{
+					id: "3D59C1B4F7ABCCC7"
+					item: {
+						Count: 1
+						id: "enderio:staff_of_travelling"
+						tag: {
+							Energy: {
+								EnergyStored: 0
+								MaxEnergyStored: 100000
+								MaxEnergyUse: 100000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "269EA3B9835F3FCA"
+					item: "enderio:travel_anchor"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.5d
+		}
 	]
 	title: "{ftbquests.chapter.62876F01654DC6E9.title}"
 }

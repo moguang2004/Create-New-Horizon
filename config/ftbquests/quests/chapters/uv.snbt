@@ -32,6 +32,18 @@
 			x: 4.0d
 			y: -4.5d
 		}
+		{
+			id: "0010F6566FA58906"
+			linked_quest: "589DEEA6662898A5"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			id: "16E5A3A942479B8E"
+			linked_quest: "43F6AA3B97042202"
+			x: -4.0d
+			y: -4.0d
+		}
 	]
 	quests: [
 		{
@@ -570,6 +582,349 @@
 			}]
 			x: 6.5d
 			y: -11.5d
+		}
+		{
+			id: "0FBFC9DC10435D74"
+			subtitle: "准备好足够的培养皿吧 "
+			tasks: [{
+				id: "0093928D3E52E2E4"
+				item: "gtceu:petri_dish"
+				type: "item"
+			}]
+			title: "幽匿电路板的开端"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18E2A4593690B3D1"]
+			id: "325BB56C5CEBF98A"
+			subtitle: "更好的Soc，可以直接制作湿件处理器"
+			tasks: [{
+				id: "72587F7365E457B7"
+				item: "gtceu:highly_advanced_soc_wafer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"7C46A46BCA54FB18"
+				"589DEEA6662898A5"
+				"0FBFC9DC10435D74"
+				"4DF22955275FF10F"
+				"325BB56C5CEBF98A"
+				"31D3411861096EE4"
+				"43F6AA3B97042202"
+				"6B17A79B51B495B6"
+			]
+			id: "76A0F39E1949074E"
+			subtitle: "附着在电路板上"
+			tasks: [{
+				id: "409AC1430F7A281D"
+				item: "ctnhcore:sculk_cell"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			id: "7C46A46BCA54FB18"
+			subtitle: "看看机械动力的配方，如果你不想玩合成拓展的话"
+			tasks: [{
+				id: "22F7F7DACD6729D5"
+				item: "extendedcrafting:crystaltine_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["064E2DDB9392D78C"]
+			id: "4DF22955275FF10F"
+			tasks: [{
+				id: "7083E01A01B0AFAF"
+				item: "gtceu:sterilebiologicalculturemediumstocksolution_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3FCC69ED6F284B06"]
+			id: "064E2DDB9392D78C"
+			tasks: [{
+				id: "42EAD9BD743EFEB9"
+				item: "gtceu:biologicalculturemediumstocksolution_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["68E2F33616B5A7A0"]
+			id: "3FCC69ED6F284B06"
+			subtitle: "这种材料似乎拥有快速传递通量的能力"
+			tasks: [{
+				id: "1193B78963D8F5E0"
+				item: "minecraft:sculk_vein"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["589DEEA6662898A5"]
+			id: "68E2F33616B5A7A0"
+			subtitle: "你需要大量的幽匿脉络"
+			tasks: [{
+				id: "60CB612E1591EBF7"
+				item: "ctnhcore:cultivationroom"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3FCC69ED6F284B06"]
+			id: "792A7D534B3F0A34"
+			subtitle: "生物材料"
+			tasks: [{
+				id: "1D00EB8CDD9D7A5D"
+				item: "gtceu:sculk_dust"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["792A7D534B3F0A34"]
+			id: "5DA9CAEC38C8ACE8"
+			subtitle: "这何尝又不是一直晶体材料？"
+			tasks: [{
+				id: "1F44B10D9F469443"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["792A7D534B3F0A34"]
+			id: "5EDA18A58B5B8833"
+			subtitle: "新一届耐烧王比赛，开幕！"
+			tasks: [{
+				id: "0218F2831F5332AC"
+				item: "gtceu:hidden_alloy_ingot"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EDA18A58B5B8833"]
+			id: "61C38DAB7B738EEE"
+			subtitle: "很快┗|｀O′|┛ 嗷~~"
+			tasks: [{
+				id: "31D962A6585FD15C"
+				item: "gtceu:hidden_alloy_tiny_fluid_pipe"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"61C38DAB7B738EEE"
+				"5DA9CAEC38C8ACE8"
+				"6D075D4AB5360C03"
+				"4DF22955275FF10F"
+			]
+			id: "67C98CFDC97AFF44"
+			tasks: [{
+				id: "4351112175B0F270"
+				item: "kubejs:echo_circuit_board"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5EDA18A58B5B8833"]
+			id: "6D075D4AB5360C03"
+			tasks: [{
+				id: "5802394C05EC8A06"
+				item: "gtceu:hidden_alloy_single_wire"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["67C98CFDC97AFF44"]
+			id: "31D3411861096EE4"
+			tasks: [{
+				id: "7477FF367BB6C6BF"
+				item: "kubejs:echo_printed_circuit_board"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["68E2F33616B5A7A0"]
+			id: "6B17A79B51B495B6"
+			tasks: [{
+				id: "05ED4D4577E5A94A"
+				item: "minecraft:sculk"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"76A0F39E1949074E"
+				"589FD2E6A654B2C5"
+			]
+			id: "011E8AEDD9D3731D"
+			subtitle: "直接制成ZPM电路！"
+			tasks: [{
+				id: "4C14CBFEB8D1D7C6"
+				item: "kubejs:echo_processor"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C72C9094F33CC23"]
+			id: "589FD2E6A654B2C5"
+			subtitle: "新的材料"
+			tasks: [
+				{
+					count: 64L
+					id: "0895A143EC59DD7F"
+					item: { Count: 64, id: "kubejs:biological_patch_transistor" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7C6C380A7A7044DD"
+					item: { Count: 64, id: "kubejs:biological_patch_resistor" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "77FA27723921490C"
+					item: { Count: 64, id: "kubejs:biological_patch_capacitor" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "62AFDA5A676960BF"
+					item: { Count: 64, id: "kubejs:biological_patch_diode" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6544222F6A1DDE81"
+					item: { Count: 64, id: "kubejs:biological_patch_inductor" }
+					type: "item"
+				}
+			]
+			title: "又是贴片！"
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			id: "7C72C9094F33CC23"
+			subtitle: "这是什么东西？以前有吗？"
+			tasks: [{
+				id: "47825706E3C7DD15"
+				item: "gtceu:kapton_k_plate"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5DA9CAEC38C8ACE8"]
+			id: "70B05E068B3955F5"
+			tasks: [{
+				id: "51744A8C30974E58"
+				item: "gtceu:exquisite_echo_shard_gem"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"70B05E068B3955F5"
+				"011E8AEDD9D3731D"
+			]
+			id: "79F1B6B69D7ED6CB"
+			subtitle: "1:1，是不是很神奇？"
+			tasks: [{
+				id: "3BA39A876DF0F2AE"
+				item: "kubejs:echo_processor_assembly"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"638A8EAAB6DEA4C2"
+				"79F1B6B69D7ED6CB"
+			]
+			id: "706D808019B80CE8"
+			subtitle: "还是1：1！赚翻了好不啦！"
+			tasks: [{
+				id: "40778AB101D44448"
+				item: "kubejs:echo_processor_computer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["325BB56C5CEBF98A"]
+			id: "638A8EAAB6DEA4C2"
+			tasks: [{
+				id: "168A1E327AE59C81"
+				item: "gtceu:highly_advanced_soc"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5EDA18A58B5B8833"]
+			id: "132CE8E9DC867DB4"
+			tasks: [{
+				id: "362B64309C61021B"
+				item: "gtceu:dense_hidden_alloy_plate"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"706D808019B80CE8"
+				"132CE8E9DC867DB4"
+			]
+			id: "33ED8AC84DBC5E71"
+			subtitle: "现在的顶点"
+			tasks: [{
+				id: "6451F6B5CA51C264"
+				item: "kubejs:echo_processor_mainframe"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
 		}
 	]
 	title: "{ftbquests.chapter.uv.title}"

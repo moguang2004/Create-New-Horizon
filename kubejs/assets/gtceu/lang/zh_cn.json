@@ -1552,7 +1552,8 @@
     "material.gtceu.star_fuel": "恒星旋律燃料",
     "material.gtceu.star_fuel_active": "恒星旋律燃料(激发态)",
     "material.gtceu.star_fuel_exhausted": "恒星旋律燃料(枯竭态)",
-    "material.gtceu.agn_fuel": "星系核创生燃料"
-
+    "material.gtceu.agn_fuel": "星系核创生燃料",
+    "material.gtceu.hiddenechofungus": "幽匿回响菌",
+    "material.gtceu.hiddenechofungussolution": "幽匿回响菌液"
 
 }
