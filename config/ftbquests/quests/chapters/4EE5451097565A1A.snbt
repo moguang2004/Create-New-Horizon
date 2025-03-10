@@ -850,6 +850,17 @@
 			x: -3.5d
 			y: 6.5d
 		}
+		{
+			description: ["可出口物品主要为食物原材料以及部分加工食物，具体为mc原版所有食物，农夫乐事原版以及暮色乐事等模组中的部分食物，剩余的没有标价的食材大家可以给制作组提出一些定价意见。"]
+			id: "7F9FAB58AA9BE300"
+			tasks: [{
+				id: "5E79AAD336CDA6A4"
+				title: "可出口物品"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
 	]
 	title: "{ftbquests.chapter.4EE5451097565A1A.title}"
 }

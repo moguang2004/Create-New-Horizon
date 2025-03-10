@@ -313,10 +313,10 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:wood_dust'
+    let transitional = 'gtceu:phenolic_circuit_board'
     event.recipes.create.sequenced_assembly([
-        'gtceu:wood_dust'
-        ], 'gtceu:wood_dust', [
+        'gtceu:phenolic_printed_circuit_board'
+        ], 'gtceu:phenolic_circuit_board', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:silver_foil']),
     //event.recipes.vintageimprovementsLaserCutting(transitional, transitional),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:sodium_persulfate', 50)]),
@@ -326,10 +326,10 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:wood_dust'
+    let transitional = 'gtceu:phenolic_circuit_board'
     event.recipes.create.sequenced_assembly([
-        'gtceu:wood_dust'
-        ], 'gtceu:wood_dust', [
+        'gtceu:phenolic_printed_circuit_board'
+        ], 'gtceu:phenolic_circuit_board', [
     event.recipes.createDeploying(transitional, [transitional, 'gtceu:silver_foil']),
     //event.recipes.vintageimprovementsLaserCutting(transitional, transitional),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:iron_iii_chloride', 25)]),

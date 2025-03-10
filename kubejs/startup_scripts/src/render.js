@@ -156,7 +156,6 @@ StartupEvents.registry('block', event => {
                     const lightPos = new BlockPos(Math.floor(worldX),Math.floor(worldY),Math.floor(worldZ));
                     const lightLevel = LevelRenderer.getLightColor(level,lightPos);
                     //渲染
-                    console.info("render here")
                     RenderJSWorldRender.renderStatic(Item.of(celestial.name),"ground",lightLevel,
                         context.packedOverlay,
                         poseStack,
@@ -165,7 +164,6 @@ StartupEvents.registry('block', event => {
                         0
                     );
                     //渲染卫星(如果有)
-                    console.info("render here2")
                     if (celestial.satellites && celestial.satellites.length > 0){
                         celestial.satellites.forEach( ( satellite) =>
                             renderCelestial(satellite,{ x: worldX,y: worldY,z: worldZ })
@@ -174,7 +172,6 @@ StartupEvents.registry('block', event => {
                     poseStack.popPose();
                 };
                 //渲染行星及其卫星
-                console.info("render here3")
                     planets.forEach((planet) => renderCelestial(planet));
                     poseStack.popPose();
                 })

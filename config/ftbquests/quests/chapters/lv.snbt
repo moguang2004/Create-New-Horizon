@@ -305,7 +305,7 @@
 			subtitle: "{ftbquests.chapter.lv.quest18.subtitle}"
 			tasks: [
 				{
-					count: 6L
+					count: 8L
 					id: "2060430C3391B747"
 					item: "gtceu:heatproof_machine_casing"
 					type: "item"
@@ -345,6 +345,16 @@
 				{
 					id: "0348C162783DF0F2"
 					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "4040245860446930"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "1CB5A45DAA9A2F45"
+					item: "gtceu:lv_output_hatch"
 					type: "item"
 				}
 			]
