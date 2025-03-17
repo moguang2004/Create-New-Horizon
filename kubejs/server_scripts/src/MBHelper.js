@@ -76,7 +76,7 @@ ServerEvents.customCommand("getBlocks", (event) => {
 		let blockid;
 		let blockArray = [];
 		let legend = {};
-		let symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZ#@"; // Array of symbols
+		let symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz#@"; // Array of symbols
 
 		// Index for accessing symbols array
 		let symbolIndex = 0;
@@ -93,10 +93,10 @@ ServerEvents.customCommand("getBlocks", (event) => {
 
 					if (!(blockid in legend)) {
 						if (blockid === "minecraft:air") {
-							legend[blockid] = symbols[26];
+							legend[blockid] = symbols[52];
 						}
 						else if (blockid === "minecraft:oak_log") {
-							legend[blockid] = symbols[27];
+							legend[blockid] = symbols[53];
 						}
 						else {
 							legend[blockid] = symbols[symbolIndex];
