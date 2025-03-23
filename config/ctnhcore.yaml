@@ -1,6 +1,92 @@
 # FTB's plugins
 ftbPlugin:
-  # Disable FTBUltimine on GregTech Ores
-  # Default: true
-  disableFTBUltimineOnGTOres: true
+  # Enable FTBUltimine on GregTech Ores
+  # Default: false
+  enableFTBUltimineOnGTOres: false
+
+# Mechanical Machine's Buffer
+kinetic:
+  # The rpm requirement for mechanical pressor machines
+  # Default: 64
+  pressorRpmRequirement: 64
+
+  # Mechanical Pressor's Speed Multiplier relative to its voltage level
+  # Default: 2
+  pressorSpeedMultiplier: 2.0
+
+  # Mechanical Pressor's stress requirement(This value will be multiplied by its basic EUt cost)
+  # Default: 512
+  pressorStressRequirement: 512.0
+
+  # The rpm requirement for mechanical mixer machines
+  # Default: 64
+  mixerRpmRequirement: 64
+
+  # Mechanical Mixer's Speed Multiplier relative to its voltage level
+  # Default: 2
+  mixerSpeedMultiplier: 2.0
+
+  # Mechanical Mixer's stress requirement(This value will be multiplied by its basic EUt cost)
+  # Default: 512
+  mixerStressRequirement: 512.0
+
+  # The rpm requirement for mechanical centrifuge machines
+  # Default: 64
+  centrifugeRpmRequirement: 64
+
+  # Mechanical Centrifuge's Speed Multiplier relative to its voltage level
+  # Default: 2
+  centrifugeSpeedMultiplier: 2.0
+
+  # Mechanical Centrifuge's stress requirement(This value will be multiplied by its basic EUt cost)
+  # Default: 512
+  centrifugeStressRequirement: 512.0
+
+  # The rpm requirement for mechanical sifter machines
+  # Default: 128
+  sifterRpmRequirement: 128
+
+  # Mechanical Sifter's Speed Multiplier relative to its voltage level
+  # Default: 2
+  sifterSpeedMultiplier: 2.0
+
+  # Mechanical Sifter's stress requirement(This value will be multiplied by its basic EUt cost)
+  # Default: 512
+  sifterStressRequirement: 512.0
+
+  # The rpm requirement for mechanical extractor machines
+  # Default: 128
+  extractorRpmRequirement: 128
+
+  # Mechanical Extractor's Speed Multiplier relative to its voltage level
+  # Default: 2
+  extractorSpeedMultiplier: 2.0
+
+  # Mechanical Extractor's stress requirement(This value will be multiplied by its basic EUt cost)
+  # Default: 512
+  extractorStressRequirement: 512.0
+
+  # The rpm requirement for mechanical lathe machines
+  # Default: 128
+  latheRpmRequirement: 128
+
+  # Mechanical Lathe's Speed Multiplier relative to its voltage level
+  # Default: 2
+  latheSpeedMultiplier: 2.0
+
+  # Mechanical Lathe's stress requirement(This value will be multiplied by its basic EUt cost)
+  # Default: 512
+  latheStressRequirement: 512.0
+
+  # The rpm requirement for mechanical laser machines
+  # Default: 128
+  laserRpmRequirement: 128
+
+  # Mechanical Laser's Speed Multiplier relative to its voltage level
+  # Default: 2
+  laserSpeedMultiplier: 2.0
+
+  # Mechanical Laser's stress requirement(This value will be multiplied by its basic EUt cost)
+  # Default: 512
+  laserStressRequirement: 512.0
 

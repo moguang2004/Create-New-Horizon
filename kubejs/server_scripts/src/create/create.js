@@ -218,7 +218,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('gtceu:stem_cells', [Fluid.of('gtceu:simple_growth_medium', 144), '4x ctnhcore:animal_excreta'])
     event.recipes.create.mixing('2x gtceu:treated_wood_planks', [Fluid.of('gtceu:creosote', 250), '2x #minecraft:planks'])
     event.recipes.create.mixing('gtceu:red_alloy_dust', ['4x minecraft:redstone', '1x gtceu:copper_dust']).heated()
-    event.recipes.create.mixing('2x gtceu:andesite_alloy_dust', ['gtceu:andesite_dust', 'gtceu:iron_dust'])
+    event.recipes.create.mixing(['gtceu:andesite_alloy_dust', Item.of('gtceu:andesite_alloy_dust').withChance(0.3)], ['gtceu:andesite_dust', 'gtceu:iron_dust'])
 })
 //组装
 ServerEvents.recipes(event => {//红色合金线缆

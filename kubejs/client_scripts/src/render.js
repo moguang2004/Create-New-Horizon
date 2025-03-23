@@ -1,10 +1,10 @@
 if (global.cilentInited) {
-    var Renderer = Client.getBlockEntityRenderDispatcher().rjs$getRendererByType("kubejs:eye_of_harmony_renderer")//获取render
-    console.info("here")
+    var Renderer = Client.getBlockEntityRenderDispatcher().rjs$getRendererByType("ctnhcore:eye_render")//获取render
     if (Renderer instanceof RenderJSBlockEntityRenderer) {
     //重新设置render
     console.info("here1")
         Renderer.setCustomRender((_renderer, context) => {
+            console.info("here2")
             const blockEntityJs = context.blockEntityJS
             const level = blockEntityJs.level
             const gameTime = level.time;
@@ -36,12 +36,12 @@ if (global.cilentInited) {
             //——渲染太阳——//
             poseStack.pushPose();
             poseStack.scale(0.015,0.015,0.015);
-            RenderJSWorldRender.renderStatic(Item.of("kubejs:sun"),"ground",lightLevel,context.packedOverlay, poseStack,context.bufferSource,level, 0)
+            RenderJSWorldRender.renderStatic(Item.of("create:brass_casing"),"ground",lightLevel,context.packedOverlay, poseStack,context.bufferSource,level, 0)
             poseStack.popPose();
             //定义行星及其卫星数组
             const planets = [
             {
-                name: "kubejs:earth",
+                name: 'create:large_cogwheel',
                 orbitRadius: 2.4,//公转半径
                 orbitSpeed: 1.4,//公转速度
                 selfRotationSpeed: 2.6,//自转速度（非潮汐锁定时有效)
@@ -50,8 +50,9 @@ if (global.cilentInited) {
                 height: 0.34,
                 satellites:[
                     {
-                        name: "kubejs:moon",
-                        orbitRadius: 0.35,//月球相对于地球的公转半径orbitSpeed: 3.87,/月球的公转速度
+                        name: 'create:cogwheel',
+                        orbitRadius: 0.35,//月球相对于地球的公转半径
+                        orbitSpeed: 3.87,//月球的公转速度
                         tidallyLocked: true,
                         scale: 0.3,//月球相对于地球的缩放比例
                         height: 0.1
@@ -59,9 +60,9 @@ if (global.cilentInited) {
                 ]
             },
             {
-                name: "kubejs:mars",
+                name: 'create:gearbox',
                 orbitRadius: 3.7,//公转半径
-                orbitspeed: 1.32,//公转速度
+                orbitSpeed: 1.32,//公转速度
                 selfRotationSpeed: 0.8,//自转速度
                 tidallyLocked: false,//是否潮汐锁定
                 scale: 1.7,//缩放比例
@@ -69,7 +70,7 @@ if (global.cilentInited) {
                 satellites: []
             },
             {
-                name: "kubejs:jupiter",
+                name: 'ctnhcore:zenith_casing_gearbox',
                 orbitRadius : 6.5,//木星的公转半径
                 orbitSpeed: 0.8,//木星的公转速度
                 selfRotationSpeed: 1.0,//木星的自转速度
@@ -78,7 +79,7 @@ if (global.cilentInited) {
                 height: -0.13,
                 satellites: [ //木星的卫星
                     {
-                        name: "kubejs:europa",
+                        name: 'ctnhcore:mana_steel_gearbox_casing',
                         orbitRadius: 0.35,//木卫二相对于木星的公转半径
                         orbitSpeed: 2.5,//木卫二的公转速度
                         selfRotationSpeed : 3.0,//木卫二的自转速度
@@ -131,7 +132,8 @@ if (global.cilentInited) {
                 const orbitQuaternion = new Quaternionf().fromAxisAngleDeg(rotationAxisY,angleOrbit);poseStack.mulPose( orbitQuaternion);
                 //平移到公转半径位置
                 poseStack.translate(celestial.orbitRadius,celestial.height,0);//自转
-                const selfRotationQuaternion = calculateSelfRotationQuaternion(celestial);poseStack.mulPose(selfRotationQuaternion);
+                const selfRotationQuaternion = calculateSelfRotationQuaternion(celestial);
+                poseStack.mulPose(selfRotationQuaternion);
                 //缩放
                 poseStack.scale(celestial.scale,celestial.scale,celestial.scale);
                 //计算世界坐标
@@ -140,13 +142,10 @@ if (global.cilentInited) {
                 const worldX = (parentWorldPos ? parentWorldPos.x * 1 : blockPos.x + 0.5) + orbitPosLocal.x * 1
                 const worldY = (parentWorldPos ? parentWorldPos.y * 1 : blockPos.y + 0.5) +orbitPosLocal.y * cosTilt - orbitPosLocal.z * sinTilt;
                 const worldZ = (parentWorldPos ? parentWorldPos.z * 1 : blockPos.z + 0.5) + orbitPosLocal.y * sinTilt + orbitPosLocal.z * cosTilt;
-                console.info(worldX)
-                console.info(worldY)
-                console.info(worldZ)
+                console.info(celestial)
                 const lightPos = new BlockPos(Math.floor(worldX),Math.floor(worldY),Math.floor(worldZ));
                 const lightLevel = LevelRenderer.getLightColor(level,lightPos);
                 //渲染
-                console.info("render here")
                 RenderJSWorldRender.renderStatic(Item.of(celestial.name),"ground",lightLevel,
                     context.packedOverlay,
                     poseStack,
@@ -155,7 +154,6 @@ if (global.cilentInited) {
                     0
                 );
                 //渲染卫星(如果有)
-                console.info("render here2")
                 if (celestial.satellites && celestial.satellites.length > 0){
                     celestial.satellites.forEach( ( satellite) =>
                         renderCelestial(satellite,{ x: worldX,y: worldY,z: worldZ })
@@ -164,7 +162,6 @@ if (global.cilentInited) {
                 poseStack.popPose();
             };
             //渲染行星及其卫星
-            console.info("render here3")
                 planets.forEach((planet) => renderCelestial(planet,null));
                 poseStack.popPose();
             })
