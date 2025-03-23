@@ -40,7 +40,7 @@
 	Storm_Rain_WaterBuildUpOddsTo1FromOvercastRaining = 30
 	#-
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	Storm_TemperatureAdjustRate = 0.1
+	Storm_TemperatureAdjustRate = 0.5
 	#-
 	#Range: > -2147483648
 	Storm_HailPerTick = 10

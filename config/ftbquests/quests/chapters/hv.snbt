@@ -82,7 +82,7 @@
 			id: "4D2FAC9783965D60"
 			tasks: [{
 				id: "7CCB2A5C53D2CDFE"
-				title: "{ftbquests.chapter.hv.quest5.task.title1}"
+				title: "{ftbquests.chapter.hv.quest5.task_+8992327657007009278.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -205,7 +205,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["082ABAF36B6EC7DC"]
+			dependencies: [
+				"082ABAF36B6EC7DC"
+				"1BAF86C7B922C673"
+			]
 			id: "1330F4F7A3E4C61C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -213,6 +216,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
+			subtitle: "似乎需要来自天域的天文数据"
 			tasks: [{
 				id: "1DAA2AAE86D784F1"
 				item: "gtnn:t1_chip"
@@ -309,7 +313,7 @@
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "74AC1AB43328B3C5"
-				title: "{ftbquests.chapter.hv.quest19.task.title1}"
+				title: "{ftbquests.chapter.hv.quest19.task_+8407123965648614341.title}"
 				type: "dimension"
 			}]
 			x: 9.5d
@@ -553,13 +557,13 @@
 				{
 					count: 16L
 					id: "2B1FA54B7A24075E"
-					item: { Count: 16, id: "gtceu:raw_bauxite" }
+					item: "gtceu:raw_bauxite"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "1B064681E25AA75D"
-					item: { Count: 16, id: "gtceu:raw_ilmenite" }
+					item: "gtceu:raw_ilmenite"
 					type: "item"
 				}
 			]
@@ -968,7 +972,7 @@
 			tasks: [{
 				count: 64L
 				id: "5F3870CF15D508F8"
-				item: { Count: 64, id: "gtceu:palladium_dust" }
+				item: "gtceu:palladium_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest60.title}"
@@ -982,7 +986,7 @@
 			tasks: [{
 				count: 64L
 				id: "660223EB3F113A6E"
-				item: { Count: 64, id: "gtceu:ruthenium_dust" }
+				item: "gtceu:ruthenium_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest61.title}"
@@ -1088,7 +1092,7 @@
 			tasks: [{
 				count: 64L
 				id: "45CC34EA60CF9DB9"
-				item: { Count: 64, id: "gtceu:rhodium_dust" }
+				item: "gtceu:rhodium_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest70.title}"
@@ -1154,7 +1158,7 @@
 			tasks: [{
 				count: 16L
 				id: "59AB4F7BD08AC5CA"
-				item: { Count: 16, id: "gtceu:iridium_dust" }
+				item: "gtceu:iridium_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest75.title}"
@@ -1229,7 +1233,7 @@
 			tasks: [{
 				count: 16L
 				id: "48299A65BAD100EC"
-				item: { Count: 16, id: "gtceu:osmium_dust" }
+				item: "gtceu:osmium_dust"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest81.title}"
@@ -1501,19 +1505,19 @@
 				item: "ctnhcore:fuel_refining_factory"
 				type: "item"
 			}]
-			x: 14.785714285714285d
-			y: -1.5267857142857153d
+			x: 14.773809523809518d
+			y: -4.785714285714263d
 		}
 		{
 			id: "43DCA5278B555E39"
 			subtitle: "{ftbquests.chapter.hv.quest103.subtitle}"
 			tasks: [{
 				id: "123036F8278EBAE3"
-				title: "{ftbquests.chapter.hv.quest103.task.title1}"
+				title: "{ftbquests.chapter.hv.quest103.task_+1310607931008269027.title}"
 				type: "checkmark"
 			}]
-			x: 14.749999999999993d
-			y: -4.741071428571416d
+			x: 14.845238095238088d
+			y: -1.5714285714285552d
 		}
 		{
 			dependencies: ["054DC65B4D479B15"]
@@ -1734,11 +1738,11 @@
 			id: "1AEEB36389F68A28"
 			tasks: [{
 				id: "58460F9F5142F7EC"
-				title: "你需要很多下界之星，不是 ？"
+				title: "{ftbquests.chapter.hv.quest122.task_+6360788700644964332.title}"
 				type: "checkmark"
 			}]
 			x: -8.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1AEEB36389F68A28"]
@@ -1748,8 +1752,8 @@
 				item: "gtceu:nether_essence_crystal_fluid_bucket"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -2.0d
+			x: -10.0d
+			y: -3.0d
 		}
 		{
 			id: "4F78544FBE794648"
@@ -1758,8 +1762,8 @@
 				item: "gtceu:small_nether_star_dust"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -2.0d
+			x: -8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1767,14 +1771,85 @@
 				"79CF01CFCC2FF596"
 			]
 			id: "0F8A1D38DCB6CCE1"
-			subtitle: "一生二"
+			subtitle: "{ftbquests.chapter.hv.quest125.subtitle}"
 			tasks: [{
 				id: "619A4F44D2B82E20"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 0.0d
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"可配置维护仓可以让机器加工速度变快，代价是更容易出现维护问题 。                                                                          "
+				"自动维护仓可以让机器拜托维护问题，代价是它更贵！"
+			]
+			id: "51DB3A19B9180EC3"
+			subtitle: "两种的功能不同"
+			tasks: [
+				{
+					id: "3DEF3C9186CD79F0"
+					item: "gtceu:configurable_maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "3C661666500EC31E"
+					item: "gtceu:auto_maintenance_hatch"
+					type: "item"
+				}
+			]
+			title: "新的维护仓"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D100F330A65593F"]
+			id: "55762E03BC9AEA4F"
+			subtitle: "刺眼的烈日在天境中始终无法落下，一定是有什么神秘的力量阻止了我们科技的发展"
+			tasks: [{
+				id: "03EF8290A83EE485"
+				item: "ctnhcore:astronomical_observatory"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			id: "2200E459E683E83E"
+			subtitle: "放入天文台中可以逐渐收集数据"
+			tasks: [{
+				id: "1C758EF3CA161F4C"
+				item: "ctnhcore:astronomy_circuit_1"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"55762E03BC9AEA4F"
+				"2200E459E683E83E"
+			]
+			id: "50800D463AF3C2EB"
+			tasks: [{
+				id: "6052FE3A73F43177"
+				item: "ctnhcore:great_astronomy_circuit_1"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50800D463AF3C2EB"]
+			id: "1BAF86C7B922C673"
+			tasks: [{
+				id: "148C8AFB21A52F5F"
+				item: "ctnhcore:program_rocket_1"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
 		}
 	]
 	title: "{ftbquests.chapter.hv.title}"

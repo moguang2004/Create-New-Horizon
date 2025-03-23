@@ -472,6 +472,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:fluorine 1000')
         .itemOutputs('2x gtceu:sodium_fluoride_dust')
     event.recipes.gtceu.centrifuge('bauxite_dust')
+        .duration(60)
+        .EUt(120)
         .itemInputs('gtceu:bauxite_dust')
         .itemOutputs('gtceu:alumina_dust')
         .chancedOutput('gtceu:tiny_gallium_dust', 2500, 250)

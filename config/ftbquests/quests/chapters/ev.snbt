@@ -96,13 +96,13 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 7.885714285714279d
-			y: -0.04285714285714448d
+			x: 7.785714285714285d
+			y: -0.9523809523809561d
 		}
 		{
 			dependencies: [
-				"24C0894F1B36BBD2"
 				"6856BD5A220261CD"
+				"001B1FD0183C089D"
 			]
 			id: "1FC11FF9B668D855"
 			rewards: [{
@@ -120,20 +120,9 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1CECBF50A30F23B0"]
-			id: "24C0894F1B36BBD2"
-			tasks: [{
-				id: "10452395FD8F0B84"
-				item: "gtceu:fine_tungsten_steel_wire"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 1.0d
-		}
-		{
 			dependencies: [
 				"1FC11FF9B668D855"
-				"0D8F0D06D79D182F"
+				"58817BE32D620EA6"
 			]
 			id: "6525B3E4F6052069"
 			tasks: [{
@@ -143,17 +132,6 @@
 			}]
 			x: 2.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["4DCA7E4E57817E0A"]
-			id: "0D8F0D06D79D182F"
-			tasks: [{
-				id: "492191A65E88AF18"
-				item: "gtceu:ender_air_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["6525B3E4F6052069"]
@@ -179,10 +157,10 @@
 		{
 			hide_dependency_lines: true
 			id: "0AEBC43C2EA4E190"
-			subtitle: "{ftbquests.chapter.ev.quest13.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest12.subtitle}"
 			tasks: [{
 				id: "4E17BDC99B8D09CB"
-				title: "{ftbquests.chapter.ev.quest13.task.title1}"
+				title: "{ftbquests.chapter.ev.quest12.task_+5627174933018511819.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -191,10 +169,10 @@
 		{
 			hide_dependency_lines: true
 			id: "4E9FB13BA754C376"
-			subtitle: "{ftbquests.chapter.ev.quest14.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest13.subtitle}"
 			tasks: [{
 				id: "5C0ADB9BDA74CA7E"
-				title: "{ftbquests.chapter.ev.quest14.task.title1}"
+				title: "{ftbquests.chapter.ev.quest13.task_+6632354863687977598.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -203,10 +181,10 @@
 		{
 			hide_dependency_lines: true
 			id: "38B3EDAFED11EC22"
-			subtitle: "{ftbquests.chapter.ev.quest15.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest14.subtitle}"
 			tasks: [{
 				id: "07D3DF8E64BEA8BB"
-				title: "{ftbquests.chapter.ev.quest15.task.title1}"
+				title: "{ftbquests.chapter.ev.quest14.task_+564040181020010683.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -215,10 +193,10 @@
 		{
 			hide_dependency_lines: true
 			id: "6D99A9917E0D8636"
-			subtitle: "{ftbquests.chapter.ev.quest16.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest15.subtitle}"
 			tasks: [{
 				id: "0FF291B04510FC84"
-				title: "{ftbquests.chapter.ev.quest16.task.title1}"
+				title: "{ftbquests.chapter.ev.quest15.task_+1149141041191910532.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -227,10 +205,10 @@
 		{
 			hide_dependency_lines: true
 			id: "1A4BF7BE5F6591F6"
-			subtitle: "{ftbquests.chapter.ev.quest17.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest16.subtitle}"
 			tasks: [{
 				id: "7F84E8F8FCE98B8F"
-				title: "{ftbquests.chapter.ev.quest17.task.title1}"
+				title: "{ftbquests.chapter.ev.quest16.task_+9188725295835351951.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -257,22 +235,6 @@
 			}]
 			x: -2.0d
 			y: 5.0d
-		}
-		{
-			id: "0621330C575C99E3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "76E2C370C885E863"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
-			tasks: [{
-				id: "43EF4ADA3C5DF4AA"
-				item: "gtceu:protactinium_dust"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -322,16 +284,6 @@
 			y: 5.0d
 		}
 		{
-			id: "4E40B0EBEEB50C79"
-			tasks: [{
-				id: "42627AE089355D74"
-				item: "gtceu:neptunium_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 9.0d
-		}
-		{
 			dependencies: ["5DE73169DED11A0D"]
 			id: "5B9CD67AE97E7F3D"
 			tasks: [{
@@ -347,7 +299,7 @@
 			tasks: [{
 				count: 16L
 				id: "607F1D2AAD371EA0"
-				item: { Count: 16, id: "gtceu:raw_uraninite" }
+				item: "gtceu:raw_uraninite"
 				type: "item"
 			}]
 			x: 6.0d
@@ -449,7 +401,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "1AEE2FEB6874EE82"
-			subtitle: "{ftbquests.chapter.ev.quest36.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest32.subtitle}"
 			tasks: [{
 				id: "3302819044573A82"
 				item: "gtceu:epichlorohydrin_bucket"
@@ -464,7 +416,7 @@
 				"21C9916BDE650D3A"
 			]
 			id: "3121647B8CB1E5BF"
-			subtitle: "{ftbquests.chapter.ev.quest37.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest33.subtitle}"
 			tasks: [{
 				id: "12F063B61038384E"
 				item: "gtceu:bisphenol_a_bucket"
@@ -524,7 +476,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6650F75EC46022A1"]
 			id: "58817BE32D620EA6"
 			tasks: [{
 				id: "48CDC60DCC14D927"
@@ -532,88 +483,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 9.0d
-		}
-		{
-			id: "374EBC4CDD959673"
-			tasks: [{
-				id: "09D04BB07E4ECA91"
-				item: "gtceu:berkelium_dust"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 9.0d
-		}
-		{
-			id: "2AB3347CCAA42598"
-			tasks: [{
-				id: "7A8C8BB8B8506A76"
-				item: "gtceu:americium_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 9.0d
-		}
-		{
-			id: "3C8301A2B866F880"
-			tasks: [{
-				id: "47D7C37D41F94AD2"
-				item: "gtceu:curium_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 9.0d
-		}
-		{
-			id: "69AD12A73BD27FBF"
-			tasks: [{
-				id: "5A30B63D701A77E1"
-				item: "gtceu:californium_dust"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 9.0d
-		}
-		{
-			id: "762082594B87A676"
-			tasks: [{
-				id: "210CF984CB31D6AD"
-				item: "gtceu:einsteinium_dust"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 9.0d
-		}
-		{
-			id: "727B9C4520877A69"
-			tasks: [{
-				id: "207BDC2B489BA719"
-				item: "gtceu:fermium_dust"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 9.0d
-		}
-		{
-			id: "433CA5427BF76C2A"
-			tasks: [{
-				id: "75D33E7D1638E606"
-				item: "gtceu:mendelevium_dust"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 9.0d
-		}
-		{
-			id: "6650F75EC46022A1"
-			optional: true
-			tasks: [{
-				id: "2F2EC3C01837D592"
-				item: "gtceu:raw_plutonium"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["799C99EA04D07344"]
@@ -706,21 +576,21 @@
 				id: "3F9C90357F1D5B06"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.ev.quest63.title}"
+			title: "{ftbquests.chapter.ev.quest51.title}"
 			x: 6.0d
 			y: -4.0d
 		}
 		{
 			id: "659495FD6AB169E3"
 			optional: true
-			subtitle: "{ftbquests.chapter.ev.quest64.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest52.subtitle}"
 			tasks: [{
 				id: "1C8E2E06D5C1A5B1"
 				item: "alexscaves:uranium"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3F9F778AB07809D0"]
@@ -742,7 +612,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest66.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest54.subtitle}"
 			tasks: [{
 				id: "22E3934505BEF43B"
 				item: "gtceu:nano_processor_mainframe"
@@ -753,19 +623,19 @@
 		}
 		{
 			id: "3A48040562E6B4D0"
-			subtitle: "{ftbquests.chapter.ev.quest67.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest55.subtitle}"
 			tasks: [{
 				id: "35FE06601CF9902F"
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: -1.5d
+			y: 6.5d
 		}
 		{
 			id: "3A7EF62D9745F2D6"
 			invisible: true
-			subtitle: "{ftbquests.chapter.ev.quest68.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest56.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "1992F6A776A09444"
@@ -814,7 +684,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest72.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest59.subtitle}"
 			tasks: [
 				{
 					id: "3D9CB29FE3E85462"
@@ -827,7 +697,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quest72.title}"
+			title: "{ftbquests.chapter.ev.quest59.title}"
 			x: -5.5d
 			y: -2.0d
 		}
@@ -840,7 +710,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest73.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest60.subtitle}"
 			tasks: [
 				{
 					id: "750540F6596AC75E"
@@ -853,7 +723,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quest73.title}"
+			title: "{ftbquests.chapter.ev.quest60.title}"
 			x: -5.5d
 			y: -3.0d
 		}
@@ -866,7 +736,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest74.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest61.subtitle}"
 			tasks: [{
 				id: "6586F61697BFF631"
 				item: "gtceu:ev_mixer"
@@ -902,7 +772,7 @@
 			tasks: [{
 				count: 16L
 				id: "0A720031E493F57D"
-				item: { Count: 16, id: "gtceu:hssg_coil_block" }
+				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
 			x: -10.0d
@@ -934,7 +804,7 @@
 			tasks: [{
 				count: 16L
 				id: "56559BA731DD3FAB"
-				item: { Count: 16, id: "gtceu:raw_zircon" }
+				item: "gtceu:raw_zircon"
 				type: "item"
 			}]
 			x: -8.0d
@@ -1108,10 +978,10 @@
 		}
 		{
 			id: "287D7ADB01D8D58F"
-			subtitle: "{ftbquests.chapter.ev.quest93.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest80.subtitle}"
 			tasks: [{
 				id: "0775F71F199C0333"
-				title: "{ftbquests.chapter.ev.quest93.task.title1}"
+				title: "{ftbquests.chapter.ev.quest80.task_+537607443486343987.title}"
 				type: "checkmark"
 			}]
 			x: -10.0d
@@ -1120,7 +990,7 @@
 		{
 			id: "5D1450926BCF288B"
 			invisible: true
-			subtitle: "{ftbquests.chapter.ev.quest94.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest81.subtitle}"
 			tasks: [{
 				id: "2EFE7AC41D56E14C"
 				item: "gtceu:zirconium_dust"
@@ -1128,17 +998,6 @@
 			}]
 			x: -6.0d
 			y: 5.5d
-		}
-		{
-			dependencies: ["0D8F0D06D79D182F"]
-			id: "1C4CAA911CF39967"
-			tasks: [{
-				id: "2D934FDEF25F2114"
-				item: "gtceu:xenon_bucket"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1152,7 +1011,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest96.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest83.subtitle}"
 			tasks: [{
 				id: "7308BC4380FE1F12"
 				item: "gtceu:power_substation"
@@ -1180,13 +1039,13 @@
 		{
 			dependencies: ["4D6F042D3D3DA8A2"]
 			id: "0AAAFAD6405A0E26"
-			subtitle: "{ftbquests.chapter.ev.quest98.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest85.subtitle}"
 			tasks: [{
 				id: "26BC91CA36F799F1"
 				item: "gtceu:uranium_triplatinum_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 5.0d
 		}
 		{
@@ -1203,7 +1062,7 @@
 				item: "gtceu:ev_field_generator"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 5.0d
 		}
 		{
@@ -1260,7 +1119,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest104.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest91.subtitle}"
 			tasks: [{
 				id: "03F3BE418102880E"
 				item: "gtceu:laminated_glass"
@@ -1294,7 +1153,7 @@
 		}
 		{
 			id: "6B0754AD3F1AF0C2"
-			subtitle: "{ftbquests.chapter.ev.quest107.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest94.subtitle}"
 			tasks: [{
 				id: "4FA8E83E02A43D80"
 				item: "gtceu:graphite_dust"
@@ -1344,11 +1203,15 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["4FFD51BF444957C6"]
+			dependencies: [
+				"4FFD51BF444957C6"
+				"6F6CE9819AC46724"
+			]
+			dependency_requirement: "one_completed"
 			id: "33CDE1381B278481"
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ev.quest111.subtitle}"
+			subtitle: "IV的重要材料"
 			tasks: [{
 				id: "02A4BA814D8951A0"
 				item: "gtceu:graphene_dust"
@@ -1361,24 +1224,24 @@
 			id: "6F6CE9819AC46724"
 			shape: "heart"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ev.quest112.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest99.subtitle}"
 			tasks: [{
 				id: "2DAF50E69DEC315D"
 				item: "gtceu:small_graphene_dust"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.0d
+			x: 13.0d
+			y: 3.0d
 		}
 		{
 			id: "646A046E3DBA0C52"
-			subtitle: "{ftbquests.chapter.ev.quest113.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest100.subtitle}"
 			tasks: [{
 				id: "7F0475C3113799A2"
 				item: "gtceu:methane_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ev.quest113.title}"
+			title: "{ftbquests.chapter.ev.quest100.title}"
 			x: 8.5d
 			y: 3.0d
 		}
@@ -1388,13 +1251,23 @@
 				"11CEB762BEC88A67"
 			]
 			id: "104511D23BA0B12A"
-			subtitle: "核电线锐意重置中"
+			subtitle: "{ftbquests.chapter.ev.quest101.subtitle}"
 			tasks: [{
 				id: "6348C18E6134F96F"
-				title: "核电"
+				title: "{ftbquests.chapter.ev.quest101.task_+7154180825338411375.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "001B1FD0183C089D"
+			tasks: [{
+				id: "6EB023B146B3C0D2"
+				item: "gtceu:ev_voltage_coil"
+				type: "item"
+			}]
+			x: 6.0d
 			y: 1.0d
 		}
 	]

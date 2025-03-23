@@ -326,6 +326,11 @@
 					item: "gtceu:terminal"
 					type: "item"
 				}
+				{
+					id: "073A041FA193D23D"
+					item: "ctnhcore:testing_terminal"
+					type: "item"
+				}
 			]
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest22.subtitle}"
 			tasks: [
@@ -631,7 +636,7 @@
 			id: "5CF2A3DF0B2E6729"
 			tasks: [{
 				id: "5C86EF0AFA667612"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest42.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest42.task_+6667279128798328338.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest42.title}"
@@ -922,7 +927,7 @@
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest64.subtitle}"
 			tasks: [{
 				id: "3DCD7A350F944CD6"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest64.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest64.task_+4453349974852521174.title}"
 				type: "checkmark"
 			}]
 			x: -10.0d
@@ -934,7 +939,7 @@
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest65.subtitle}"
 			tasks: [{
 				id: "3BAE3A1289E355D7"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest65.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest65.task_+4300438545482601943.title}"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -946,7 +951,7 @@
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest66.subtitle}"
 			tasks: [{
 				id: "6147405E44AAA165"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest66.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest66.task_+7009642118648602981.title}"
 				type: "checkmark"
 			}]
 			x: -9.0d
@@ -1014,7 +1019,7 @@
 						value: "forge:crushed_ores"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest71.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest71.task_+2094840706088007857.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest71.title}"
@@ -1035,7 +1040,7 @@
 						value: "forge:impure_dusts"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest72.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest72.task_+2492760909488708122.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest72.title}"
@@ -1057,7 +1062,7 @@
 						value: "forge:dusts"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest73.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest73.task_+8154180158064847273.title}"
 				type: "item"
 			}]
 			x: -6.0d
@@ -1079,7 +1084,7 @@
 						value: "forge:purified_ores"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest74.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest74.task_+1750306743759129396.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest74.title}"
@@ -1109,7 +1114,7 @@
 						value: "forge:flawless_gems"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest76.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest76.task_+547567179695702735.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest76.title}"
@@ -1128,7 +1133,7 @@
 						value: "forge:nuggets"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest77.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest77.task_+8919399202017726624.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest77.title}"
@@ -1288,7 +1293,7 @@
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest87.subtitle}"
 			tasks: [{
 				id: "665D099AB64C3841"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest87.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest87.task_+7376062324790802497.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -1303,8 +1308,8 @@
 				item: "vintageimprovements:spring_coiling_machine"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 2.5d
+			x: -10.5d
+			y: 0.875d
 		}
 		{
 			dependencies: [
@@ -1367,7 +1372,11 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["6A9845F85704E2D4"]
+			dependencies: [
+				"6A9845F85704E2D4"
+				"5E5F4837CC1F047A"
+			]
+			dependency_requirement: "one_completed"
 			id: "06C3AF2D5D8F694A"
 			tasks: [{
 				id: "06DC5E54CC23C978"
@@ -1392,7 +1401,7 @@
 			id: "4127654B8D3A73BC"
 			tasks: [{
 				id: "398D21EC1AB4A0B4"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest95.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest95.task_+4147008129822138548.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest95.title}"
@@ -1566,7 +1575,7 @@
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest110.subtitle}"
 			tasks: [{
 				id: "343E5DDC6A875DEC"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest110.task.title1}"
+				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest110.task_+3764549539789757932.title}"
 				type: "checkmark"
 			}]
 			x: 5.5d
@@ -1625,6 +1634,7 @@
 		{
 			dependencies: ["7E5199B7F22F5DED"]
 			id: "33452CB4AAC5EE5F"
+			subtitle: "大型水车在本整合包进行了增强，可以试试"
 			tasks: [{
 				id: "60BA3C41665B633E"
 				item: "create:large_water_wheel"

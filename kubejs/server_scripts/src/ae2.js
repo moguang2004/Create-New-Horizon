@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     let metal = ["gtceu:steel_plate", "gtceu:aluminium_plate", "gtceu:stainless_steel_plate", "gtceu:titanium_plate", "gtceu:tungsten_steel_plate", "gtceu:rhodium_plated_palladium_plate", "gtceu:naquadah_alloy_plate", "gtceu:darmstadtium_plate"]
     let glass = ["ae2:quartz_glass", "ae2:quartz_vibrant_glass", "botania:mana_glass", "botania:elf_glass"]
     let dust = ["minecraft:redstone", "minecraft:glowstone_dust", "gtceu:certus_quartz_dust", "ae2:sky_dust", "gtceu:silicon_dust", "gtceu:electrotine_dust", "ae2:fluix_dust", "botania:mana_powder"]
-    let parallel = ['ae2:crafting_accelerator','bigger_ae2:4_core_crafting_accelerator','bigger_ae2:16_core_crafting_accelerator','bigger_ae2:64_core_crafting_accelerator','bigger_ae2:256_core_crafting_accelerator','bigger_ae2:1024_core_crafting_accelerator']
+    let parallel = ['ae2:crafting_accelerator', 'bigger_ae2:4_core_crafting_accelerator', 'bigger_ae2:16_core_crafting_accelerator', 'bigger_ae2:64_core_crafting_accelerator', 'bigger_ae2:256_core_crafting_accelerator', 'bigger_ae2:1024_core_crafting_accelerator']
     remove_recipes_output(event, cell_component)
 
     for (let i = 0; i < 8; i++) {
@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
             D: circuits[i],
             E: metal[i]
         })
-        if(i > 2){
+        if (i > 2) {
             event.shaped(Item.of(parallel[i - 2], 1), [
                 "EDE",
                 "ACA",
@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
         A: "gtceu:certus_quartz_plate",
         B: "minecraft:redstone",
         C: "gtceu:tempered_glass",
-        D: "gtceu:vacuum_tube",
+        D: "#gtceu:circuits/ulv",
         E: "gtceu:iron_plate",
     })
     event.custom({
@@ -49,8 +49,7 @@ ServerEvents.recipes(event => {
             "type": "fluid",
             "tag": "minecraft:water"
         },
-        "ingredients": [
-            {
+        "ingredients": [{
                 "item": "ae2:charged_certus_quartz_crystal"
             },
             {
@@ -78,8 +77,8 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: "ae2:network/blocks/storage_drive" }, "minecraft:iron_ingot", "gtceu:stainless_steel_plate")
     event.replaceInput({ id: "ae2:network/parts/import_bus" }, "minecraft:iron_ingot", "gtceu:steel_plate")
     event.replaceInput({ id: "ae2:network/parts/export_bus" }, "minecraft:iron_ingot", "gtceu:steel_plate")
-    event.replaceInput({id:'bigger_ae2:quantum_cell_component'},'ae2:engineering_processor','#gtceu:circuits/iv')
-    event.replaceInput({id:'bigger_ae2:digital_singularity_cell_component'},'ae2:engineering_processor','#gtceu:circuits/luv')
+    event.replaceInput({ id: 'bigger_ae2:quantum_cell_component' }, 'ae2:engineering_processor', '#gtceu:circuits/iv')
+    event.replaceInput({ id: 'bigger_ae2:digital_singularity_cell_component' }, 'ae2:engineering_processor', '#gtceu:circuits/luv')
     event.recipes.gtceu.wiremill("quartz_fiber")
         .EUt(120)
         .duration(60)
@@ -189,7 +188,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.assembler("deep_item_housing")
         .EUt(1920)
         .duration(100)
-        .itemInputs(["3x gtceu:netherite_plate", "2x gtceu:netherite_screw", "2x gtceu:gold_foil", "2x ae2:quartz_vibrant_glass", "ae2:item_cell_housing"])
+        .itemInputs(['4x minecraft:netherite_ingot', "2x gtceu:gold_foil", "2x ae2:quartz_vibrant_glass", "ae2:item_cell_housing"])
         .itemOutputs("ae2things:disk_housing")
     event.recipes.gtceu.assembler("deep_fluid_housing")
         .EUt(1920)
@@ -221,158 +220,158 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of("expatternprovider:ex_interface", 1), [
-        "ABA",
-        "CDC",
-        "EFE"
-    ], {
-        A: "gtceu:titanium_plate",
-        B: "gtceu:ev_electric_piston",
-        C: "#ae2:interface",
-        D: "ae2:capacity_card",
-        E: "gtceu:ev_electric_motor",
-        F: "ae2:crafting_accelerator"
-    })
+            "ABA",
+            "CDC",
+            "EFE"
+        ], {
+            A: "gtceu:titanium_plate",
+            B: "gtceu:ev_electric_piston",
+            C: "#ae2:interface",
+            D: "ae2:capacity_card",
+            E: "gtceu:ev_electric_motor",
+            F: "ae2:crafting_accelerator"
+        })
     event.shaped(
         Item.of("expatternprovider:ex_pattern_provider", 1), [
-        "ABC",
-        "BDB",
-        "EBE"
-    ], {
-        A: "gtceu:ev_electric_piston",
-        B: "#ae2:pattern_provider",
-        C: "gtceu:ev_conveyor_module",
-        D: "ae2:crafting_accelerator",
-        E: "gtceu:titanium_plate",
-    })
+            "ABC",
+            "BDB",
+            "EBE"
+        ], {
+            A: "gtceu:ev_electric_piston",
+            B: "#ae2:pattern_provider",
+            C: "gtceu:ev_conveyor_module",
+            D: "ae2:crafting_accelerator",
+            E: "gtceu:titanium_plate",
+        })
     event.shaped(
         Item.of("expatternprovider:ex_export_bus_part", 1), [
-        "ABA",
-        "CDC",
-        "EBE"
-    ], {
-        A: "ae2:speed_card",
-        B: "ae2:crafting_accelerator",
-        C: "ae2:capacity_card",
-        D: "ae2:export_bus",
-        E: "gtceu:ev_electric_motor",
-    })
+            "ABA",
+            "CDC",
+            "EBE"
+        ], {
+            A: "ae2:speed_card",
+            B: "ae2:crafting_accelerator",
+            C: "ae2:capacity_card",
+            D: "ae2:export_bus",
+            E: "gtceu:ev_electric_motor",
+        })
     event.shaped(
         Item.of("expatternprovider:ex_import_bus_part", 1), [
-        "ABA",
-        "CDC",
-        "EBE"
-    ], {
-        A: "ae2:speed_card",
-        B: "ae2:crafting_accelerator",
-        C: "ae2:capacity_card",
-        D: "ae2:import_bus",
-        E: "gtceu:ev_electric_motor",
-    })
+            "ABA",
+            "CDC",
+            "EBE"
+        ], {
+            A: "ae2:speed_card",
+            B: "ae2:crafting_accelerator",
+            C: "ae2:capacity_card",
+            D: "ae2:import_bus",
+            E: "gtceu:ev_electric_motor",
+        })
     event.shaped(
         Item.of("expatternprovider:ex_pattern_access_part", 1), [
-        "ABA",
-        "CDC",
-        "EFE"
-    ], {
-        A: "ae2:fluix_glass_cable",
-        B: "minecraft:redstone_lamp",
-        C: "gtceu:ev_sensor",
-        D: "ae2:pattern_access_terminal",
-        E: "#gtceu:circuits/ev",
-        F: "gtceu:ev_emitter"
-    })
+            "ABA",
+            "CDC",
+            "EFE"
+        ], {
+            A: "ae2:fluix_glass_cable",
+            B: "minecraft:redstone_lamp",
+            C: "gtceu:ev_sensor",
+            D: "ae2:pattern_access_terminal",
+            E: "#gtceu:circuits/ev",
+            F: "gtceu:ev_emitter"
+        })
     event.shaped(
         Item.of("expatternprovider:ex_drive", 1), [
-        "AAA",
-        "BCB",
-        "ADA"
-    ], {
-        A: "gtceu:titanium_plate",
-        B: "ae2:drive",
-        C: "gtceu:ev_electric_piston",
-        D: "ae2:capacity_card",
-    })
+            "AAA",
+            "BCB",
+            "ADA"
+        ], {
+            A: "gtceu:titanium_plate",
+            B: "ae2:drive",
+            C: "gtceu:ev_electric_piston",
+            D: "ae2:capacity_card",
+        })
     event.shaped(
         Item.of("merequester:requester", 1), [
-        "ABA",
-        "CDC",
-        "AEA"
-    ], {
-        A: "gtceu:stainless_steel_plate",
-        B: "ae2:crafting_accelerator",
-        C: "#ae2:interface",
-        D: "gtceu:hv_sensor",
-        E: "gtceu:amethyst_flawless_gem"
-    })
+            "ABA",
+            "CDC",
+            "AEA"
+        ], {
+            A: "gtceu:stainless_steel_plate",
+            B: "ae2:crafting_accelerator",
+            C: "#ae2:interface",
+            D: "gtceu:hv_sensor",
+            E: "gtceu:amethyst_flawless_gem"
+        })
     event.shaped(
         Item.of("ae2:storage_bus", 1), [
-        "   ",
-        "ABC",
-        "   "
-    ], {
-        A: "ae2:import_bus",
-        B: "#ae2:interface",
-        C: "ae2:export_bus",
-    })
+            "   ",
+            "ABC",
+            "   "
+        ], {
+            A: "ae2:import_bus",
+            B: "#ae2:interface",
+            C: "ae2:export_bus",
+        })
     event.shaped(
         Item.of("ae2:pattern_provider", 1), [
-        "ABA",
-        "CDC",
-        "AEA"
-    ], {
-        A: "gtceu:stainless_steel_plate",
-        B: "ae2:blank_pattern",
-        C: "ae2:engineering_processor",
-        D: "gtceu:hv_electric_motor",
-        E: "gtceu:hv_conveyor_module"
-    })
+            "ABA",
+            "CDC",
+            "AEA"
+        ], {
+            A: "gtceu:stainless_steel_plate",
+            B: "ae2:blank_pattern",
+            C: "ae2:engineering_processor",
+            D: "gtceu:hv_electric_motor",
+            E: "gtceu:hv_conveyor_module"
+        })
     event.shaped(
         Item.of("ae2:interface", 1), [
-        "ABC",
-        "BDB",
-        "EBE"
-    ], {
-        A: "ae2:import_bus",
-        B: "gtceu:certus_quartz_plate",
-        C: "ae2:export_bus",
-        D: "ae2:logic_processor",
-        E: "gtceu:steel_plate"
-    })
+            "ABC",
+            "BDB",
+            "EBE"
+        ], {
+            A: "ae2:import_bus",
+            B: "gtceu:certus_quartz_plate",
+            C: "ae2:export_bus",
+            D: "ae2:logic_processor",
+            E: "gtceu:steel_plate"
+        })
     event.shaped(
         Item.of("ae2:pattern_encoding_terminal", 1), [
-        "ABC",
-        "   ",
-        "   "
-    ], {
-        A: "ae2:engineering_processor",
-        B: "ae2:crafting_terminal",
-        C: "ae2:blank_pattern",
-    })
+            "ABC",
+            "   ",
+            "   "
+        ], {
+            A: "ae2:engineering_processor",
+            B: "ae2:crafting_terminal",
+            C: "ae2:blank_pattern",
+        })
     event.shaped(
         Item.of("expatternprovider:ingredient_buffer", 1), [
-        "ABA",
-        "CDC",
-        "EBF"
-    ], {
-        A: "gtceu:stainless_steel_plate",
-        B: "ae2:cell_component_4k",
-        C: "ae2:quartz_vibrant_glass",
-        D: "ae2:engineering_processor",
-        E: "gtceu:hv_electric_pump",
-        F: "gtceu:hv_conveyor_module"
-    })
+            "ABA",
+            "CDC",
+            "EBF"
+        ], {
+            A: "gtceu:stainless_steel_plate",
+            B: "ae2:cell_component_4k",
+            C: "ae2:quartz_vibrant_glass",
+            D: "ae2:engineering_processor",
+            E: "gtceu:hv_electric_pump",
+            F: "gtceu:hv_conveyor_module"
+        })
     event.shaped(
         Item.of("ae2:molecular_assembler", 1), [
-        "ABA",
-        "DCE",
-        "ABA"
-    ], {
-        A: "gtceu:stainless_steel_plate",
-        B: "gtceu:tempered_glass",
-        C: "sophisticatedbackpacks:crafting_upgrade",
-        D: "ae2:formation_core",
-        E: "ae2:annihilation_core"
-    })
+            "ABA",
+            "DCE",
+            "ABA"
+        ], {
+            A: "gtceu:stainless_steel_plate",
+            B: "gtceu:tempered_glass",
+            C: "sophisticatedbackpacks:crafting_upgrade",
+            D: "ae2:formation_core",
+            E: "ae2:annihilation_core"
+        })
 
     remove_recipes_type(event, [
         "ae2:inscriber"
@@ -477,29 +476,29 @@ ServerEvents.recipes(event => {
     press_recipe("silicon", "gray", "silicon", false)
 
     event.recipes.gtceu.inscriber("gtceu:" + "logic_processor" + "_tin")
-                .itemInputs("2x ae2:printed_" + "logic_processor", "2x ae2:printed_silicon", "#gtceu:circuits/mv")
-                .inputFluids(Fluid.of("gtceu:tin", 576))
-                .itemOutputs("2x ae2:" + "logic_processor")
-                .EUt(30)
-                .duration(360)
+        .itemInputs("2x ae2:printed_" + "logic_processor", "2x ae2:printed_silicon", "#gtceu:circuits/mv")
+        .inputFluids(Fluid.of("gtceu:tin", 576))
+        .itemOutputs("2x ae2:" + "logic_processor")
+        .EUt(30)
+        .duration(360)
     event.recipes.gtceu.inscriber("gtceu:" + "logic_processor" + "_soldering_alloy")
-                .itemInputs("2x ae2:printed_" + "logic_processor", "2x ae2:printed_silicon", "#gtceu:circuits/mv")
-                .inputFluids(Fluid.of("gtceu:soldering_alloy", 288))
-                .itemOutputs("2x ae2:" + "logic_processor")
-                .EUt(30)
-                .duration(360)
+        .itemInputs("2x ae2:printed_" + "logic_processor", "2x ae2:printed_silicon", "#gtceu:circuits/mv")
+        .inputFluids(Fluid.of("gtceu:soldering_alloy", 288))
+        .itemOutputs("2x ae2:" + "logic_processor")
+        .EUt(30)
+        .duration(360)
     event.recipes.gtceu.inscriber("gtceu:" + "logic_processor" + "_print")
-            .itemInputs("gtceu:" + "gold" + "_plate")
-            .notConsumable("ae2:" + "logic_processor" + "_press")
-            .itemOutputs("ae2:printed_" + "logic_processor")
-            .EUt(30)
-            .duration(200)
+        .itemInputs("gtceu:" + "gold" + "_plate")
+        .notConsumable("ae2:" + "logic_processor" + "_press")
+        .itemOutputs("ae2:printed_" + "logic_processor")
+        .EUt(30)
+        .duration(200)
     event.recipes.gtceu.laser_engraver("gtceu:" + "logic_processor" + "_press")
-            .itemInputs("gtceu:stainless_steel_plate")
-            .notConsumable("#forge:lenses/" + "yellow")
-            .itemOutputs("ae2:" + "logic_processor" + "_press")
-            .EUt(30)
-            .duration(1600)
+        .itemInputs("gtceu:stainless_steel_plate")
+        .notConsumable("#forge:lenses/" + "yellow")
+        .itemOutputs("ae2:" + "logic_processor" + "_press")
+        .EUt(30)
+        .duration(1600)
 
     event.recipes.gtceu.macerator("gtceu:fluix_dust")
         .itemInputs("ae2:fluix_crystal")
@@ -518,7 +517,7 @@ ServerEvents.recipes(event => {
         .EUt(16)
         .duration(100)
     event.recipes.gtceu.mixer('quartz_glass_dust')
-        .itemInputs(['gtceu:glass_dust','gtceu:certus_quartz_dust'])
+        .itemInputs(['gtceu:glass_dust', 'gtceu:certus_quartz_dust'])
         .itemOutputs('2x gtceu:quartz_glass_dust')
         .EUt(30)
         .duration(80)

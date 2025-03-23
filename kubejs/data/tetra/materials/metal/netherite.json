@@ -20,7 +20,7 @@
     ],
     "material": {
         "items": [
-            "gtceu:netherite_ingot"
+            "minecraft:netherite_ingot"
         ]
     },
     "requiredTools": {

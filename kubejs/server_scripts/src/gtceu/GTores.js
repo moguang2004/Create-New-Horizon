@@ -10,30 +10,30 @@ GTCEuServerEvents.oreVeins(event => {
             )
         )
     })
-    event.modify("gtceu:magnetite_vein_end", vein => {
-        vein.layeredVeinGenerator(generator => generator
-            .buildLayerPattern(pattern => pattern
-                .layer(l => l.weight(3).mat(GTMaterials.Magnetite).size(2, 4))
-                .layer(l => l.weight(2).mat(GTMaterials.VanadiumMagnetite).size(1, 1))
-                .layer(l => l.weight(1).mat(GTMaterials.get('precious_alloy')).size(1, 1))
-            )
-        )
-    })
-    event.modify("gtceu:banded_iron_vein", vein => {
-        vein.veinedVeinGenerator(generator => generator
-            .oreBlock(GTMaterials.Goethite, 3) // 
-            .rareBlock(GTMaterials.YellowLimonite, 2)
-            .rareBlock(GTMaterials.Hematite, 2)
-            .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
-            .rareBlockChance(0.075)
-            .veininessThreshold(0.01)
-            .maxRichnessThreshold(0.175)
-            .minRichness(0.7)
-            .maxRichness(1.0)
-            .edgeRoundoffBegin(3) // 
-            .maxEdgeRoundoff(0.1) // 
-        )
-    })
+    // event.modify("gtnn:gold_vein_tf", vein => {
+    //     vein.layeredVeinGenerator(generator => generator
+    //         .buildLayerPattern(pattern => pattern
+    //             .layer(l => l.weight(3).mat(GTMaterials.Magnetite).size(2, 4))
+    //             .layer(l => l.weight(2).mat(GTMaterials.VanadiumMagnetite).size(1, 1))
+    //             .layer(l => l.weight(1).mat(GTMaterials.get('precious_alloy')).size(1, 1))
+    //         )
+    //     )
+    // })
+    // event.modify("gtceu:banded_iron_vein", vein => {
+    //     vein.veinedVeinGenerator(generator => generator
+    //         .oreBlock(GTMaterials.Goethite, 3) // 
+    //         .rareBlock(GTMaterials.YellowLimonite, 2)
+    //         .rareBlock(GTMaterials.Hematite, 2)
+    //         .rareBlock(GTMaterials.get('precious_alloy'), 1) // 
+    //         .rareBlockChance(0.075)
+    //         .veininessThreshold(0.01)
+    //         .maxRichnessThreshold(0.175)
+    //         .minRichness(0.7)
+    //         .maxRichness(1.0)
+    //         .edgeRoundoffBegin(3) // 
+    //         .maxEdgeRoundoff(0.1) // 
+    //     )
+    // })
     event.modify('gtnn:gold_vein_tf', vein => {
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -89,20 +89,20 @@ GTCEuServerEvents.oreVeins(event => {
         'ad_extendra:intriguing_wastelands']
     
     event.remove('gtceu:sheldonite_vein')
-    event.modify('gtceu:naquadah_vein', vein => {
-        vein.layer('all_layer')
-        ADASTRA.forEach(biome =>{
-            vein.biomes(biome)
-        })
-        vein.dimensions(['ad_astra:mercury', 'ad_extendra:jupiter'])
-    })
-    event.modify('gtceu:monazite_vein', vein => {
-        vein.layer('all_layer')
-        ADASTRA.forEach(biome =>{
-            vein.biomes(biome)
-        })
-        vein.dimensions('ad_extendra:jupiter')
-    })
+    // event.modify('gtceu:naquadah_vein', vein => {
+    //     vein.layer('all_layer')
+    //     ADASTRA.forEach(biome =>{
+    //         vein.biomes(biome)
+    //     })
+    //     vein.dimensions(['ad_astra:mercury', 'ad_extendra:jupiter'])
+    // })
+    // event.modify('gtceu:monazite_vein', vein => {
+    //     vein.layer('all_layer')
+    //     ADASTRA.forEach(biome =>{
+    //         vein.biomes(biome)
+    //     })
+    //     vein.dimensions('ad_extendra:jupiter')
+    // })
     event.modify('gtceu:mica_vein', vein => {
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern

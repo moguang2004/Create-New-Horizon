@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
 
 //卷簧机一个长杆（俩铁锭）一个弹簧配方
     const { vintageimprovements } = event.recipes
-    vintageimprovements.coiling('gtceu:iron_spring', ['gtceu:long_iron_rod'])
+    /*vintageimprovements.coiling('gtceu:iron_spring', ['gtceu:long_iron_rod'])*/
 
 //压缩机制作压缩耐火粘土并拥有ULV压缩配方
     vintageimprovements.pressurizing([
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
     vintageimprovements.curving('gtceu:bronze_small_fluid_pipe', [
     '2x #forge:plates/bronze']).mode(3)
 
-    event.shaped('gtceu:bronze_small_fluid_pipe', [
+    /*event.shaped('gtceu:bronze_small_fluid_pipe', [
     '   ',
     'ABC',
     '   '
@@ -119,12 +119,12 @@ ServerEvents.recipes(event => {
     A: '#forge:tools/wrench',
     B: '#forge:ingots/bronze',
     C: '#c:hammers',
-    })
+    })*/
 
-//杠杆锤青铜，铜，银板制造金属箔配方
+/*杠杆锤青铜，铜，银板制造金属箔配方
     event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:bronze_foil'),'#forge:plates/bronze',3)
     event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:copper_foil'),'#forge:plates/copper',3)
-    event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:silver_foil'),'#forge:plates/silver',3)
+    event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:silver_foil'),'#forge:plates/silver',3)*/
 //激光加工机需要钢铁构件合成修改
     event.shaped('vintageimprovements:laser',[
         ['create:cogwheel','minecraft:redstone_block','create:cogwheel'],
@@ -262,9 +262,9 @@ event.custom({
     //         "item": "gtceu:phenolic_circuit_board"
     //       }
     //     ],
-    //     "energy": 10000,
-    //     "maxChargeRate": 500
-    //   },
+    //     "energy": 1000,
+    //     "maxChargeRate": 5000
+    //   }
     {
       "type": "create_new_age:energising",
       "energy_needed": 10000,
@@ -313,18 +313,6 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:resin_circuit_board'
-    event.recipes.create.sequenced_assembly([
-        'gtceu:resin_printed_circuit_board'
-        ], 'gtceu:resin_circuit_board', [
-    event.recipes.createDeploying(transitional, [transitional, 'gtceu:copper_foil']),
-    //event.recipes.vintageimprovementsLaserCutting(transitional,[transitional]).energyCost(10000).maxChargeRate(5000),
-    event.recipes.createPressing(transitional, [transitional]),
-        ]).transitionalItem('gtceu:resin_circuit_board')
-        .loops(4)
-})
-
-ServerEvents.recipes(event => {
     let transitional = 'gtceu:phenolic_circuit_board'
     event.recipes.create.sequenced_assembly([
         'gtceu:phenolic_printed_circuit_board'
@@ -354,7 +342,7 @@ ServerEvents.recipes(event => {
   //批量添加离心机和压缩机配方(ULV以下)
   const $GTRecipeCapabilities=Java.loadClass('com.gregtechceu.gtceu.common.data.GTRecipeCapabilities');
   ServerEvents.recipes(event =>{
-      event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:centrifuge' }, recipe => { 
+      event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:centrifuge', not:{id:'gtceu:centrifuge/sticky_resin_separation'}}, recipe => { 
           if(EUt(recipe)>8){ return; }
           try { 
               var input = allInputs(recipe);

@@ -2,11 +2,24 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "62876F01654DC6E9"
-	group: "71414D2BDE140EDA"
+	group: ""
 	icon: "buildinggadgets2:gadget_building"
 	id: "62876F01654DC6E9"
-	order_index: 1
-	quest_links: [ ]
+	images: [{
+		height: 10.0d
+		image: "botania:item/cosmetic_thinking_hand"
+		rotation: 0.0d
+		width: 10.0d
+		x: -5.0d
+		y: 2.5d
+	}]
+	order_index: 4
+	quest_links: [{
+		id: "2C36813CC15AD301"
+		linked_quest: "337BC9186C014A06"
+		x: 5.5d
+		y: 5.5d
+	}]
 	quests: [
 		{
 			id: "7310599945A8C3F8"
@@ -16,8 +29,8 @@
 				item: "create:brown_toolbox"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			id: "155071A992CAE0F3"
@@ -67,8 +80,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			id: "1336EB25FD132321"
@@ -101,10 +114,18 @@
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest4.subtitle}"
 			tasks: [{
 				id: "61EC645BB32B1B3C"
-				item: "functionalstorage:oak_1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
 				type: "item"
 			}]
-			x: 3.5d
+			title: "抽屉"
+			x: -0.5d
 			y: -2.5d
 		}
 		{
@@ -114,7 +135,7 @@
 				item: "functionalstorage:compacting_drawer"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -125,7 +146,7 @@
 				item: "functionalstorage:fluid_1"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 5.5d
 			y: -2.5d
 		}
 		{
@@ -136,8 +157,8 @@
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			id: "3B338C89D309368D"
@@ -158,8 +179,8 @@
 				item: "crafting_on_a_stick:crafting_table"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			id: "504BA82ADEF39214"
@@ -169,7 +190,7 @@
 				item: "botania:magnet_ring"
 				type: "item"
 			}]
-			x: 3.5d
+			x: -2.5d
 			y: -0.5d
 		}
 		{
@@ -180,7 +201,7 @@
 				item: "functionalstorage:framed_1"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -211,8 +232,8 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -0.5d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			id: "3A2655C3FED42A7F"
@@ -231,7 +252,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: -0.5d
 		}
 		{
@@ -239,11 +260,11 @@
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest15.subtitle}"
 			tasks: [{
 				id: "6C6E2BB3058E8CF8"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest15.task.title1}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest15.task_+7813230451426757880.title}"
 				type: "checkmark"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 9.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
@@ -254,8 +275,8 @@
 				item: "artifacts:eternal_steak"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.0d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
@@ -266,8 +287,8 @@
 				item: "artifacts:digging_claws"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
@@ -278,8 +299,8 @@
 				item: "artifacts:cloud_in_a_bottle"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
@@ -290,8 +311,8 @@
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: 8.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
@@ -302,7 +323,7 @@
 				item: "artifacts:running_shoes"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 9.5d
 			y: 4.0d
 		}
 		{
@@ -314,8 +335,8 @@
 				item: "artifacts:anglers_hat"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 10.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["52F49800A4AC4497"]
@@ -333,8 +354,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 4.0d
+			x: 11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -343,11 +364,11 @@
 			tasks: [{
 				count: 4L
 				id: "23CE92086120A374"
-				item: { Count: 4, id: "minecraft:flint" }
+				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.0d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
@@ -358,7 +379,7 @@
 				{
 					count: 16L
 					id: "46B4622E08BBBF18"
-					item: { Count: 16, id: "minecraft:iron_ingot" }
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 				{
@@ -369,8 +390,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.62876F01654DC6E9.quest24.title}"
-			x: -0.5d
-			y: 7.0d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
 			id: "1EE2CF3221C467D7"
@@ -379,8 +400,8 @@
 				item: "gtceu:iron_plate"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.0d
+			x: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -428,8 +449,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 9.0d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1EE2CF3221C467D7"]
@@ -537,11 +558,11 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 9.0d
+			x: 3.5d
+			y: 7.5d
 		}
 		{
-			dependencies: ["1E7D3578400F9AE7"]
+			dependencies: ["337BC9186C014A06"]
 			description: [
 				"{ftbquests.chapter.62876F01654DC6E9.quest28.description1}"
 				"{ftbquests.chapter.62876F01654DC6E9.quest28.description2}"
@@ -565,8 +586,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 9.0d
+			x: 5.5d
+			y: 7.5d
 		}
 		{
 			id: "079E580DEBE59896"
@@ -597,8 +618,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 9.0d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			id: "01FF1DC87906AE75"
@@ -631,8 +652,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 9.0d
+			x: 9.5d
+			y: 7.5d
 		}
 		{
 			id: "0A86E1B3B2AF9DEA"
@@ -660,8 +681,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 9.0d
+			x: 7.5d
+			y: 5.5d
 		}
 		{
 			id: "74578688D5974E8A"
@@ -671,7 +692,7 @@
 				item: "create:goggles"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -0.5d
 		}
 		{
@@ -688,28 +709,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
+			x: 9.5d
 			y: -2.5d
-		}
-		{
-			dependencies: ["5CE79CE60BD5FC4D"]
-			id: "1E7D3578400F9AE7"
-			tasks: [{
-				count: 16L
-				id: "4D1B996D817E6D74"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest34.task.title1}"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.62876F01654DC6E9.quest34.title}"
-			x: 3.5d
-			y: 7.0d
 		}
 		{
 			id: "087D0FA645D19AC2"
@@ -723,20 +724,22 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -0.5d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			description: ["{ftbquests.chapter.62876F01654DC6E9.quest36.description1}"]
 			id: "279A1E4B92095342"
+			shape: "gear"
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest36.subtitle}"
 			tasks: [{
 				id: "5AC43C704F438EDB"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 12.5d
+			x: 14.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["279A1E4B92095342"]
@@ -748,8 +751,8 @@
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 12.5d
+			x: 12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["279A1E4B92095342"]
@@ -766,19 +769,19 @@
 				item: "sophisticatedbackpacks:upgrade_base"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 17.5d
+			x: 14.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0781523864DA0E6F"]
 			id: "3735FCA33E41C02D"
 			tasks: [{
 				id: "19DD7B9333240B22"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest39.task.title1}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest39.task_+1863781692949662498.title}"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: 17.5d
+			x: 18.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -788,8 +791,8 @@
 				item: "sophisticatedbackpacks:advanced_filter_upgrade"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 15.0d
+			x: 18.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -799,8 +802,8 @@
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 15.5d
+			x: 17.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -810,8 +813,8 @@
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 20.0d
+			x: 18.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -821,8 +824,8 @@
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 15.0d
+			x: 19.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -832,8 +835,8 @@
 				item: "sophisticatedbackpacks:auto_smoking_upgrade"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 15.5d
+			x: 20.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -843,8 +846,8 @@
 				item: "sophisticatedbackpacks:auto_blasting_upgrade"
 				type: "item"
 			}]
-			x: 9.738095238095262d
-			y: 16.3761904761905d
+			x: 20.738095238095262d
+			y: 4.3761904761905015d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -854,8 +857,8 @@
 				item: "sophisticatedbackpacks:advanced_pump_upgrade"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 17.5d
+			x: 21.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -882,8 +885,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 19.5d
+			x: 20.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -893,8 +896,8 @@
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
 				type: "item"
 			}]
-			x: 5.27380952380954d
-			y: 16.30476190476194d
+			x: 16.27380952380954d
+			y: 4.304761904761939d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -904,8 +907,8 @@
 				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 19.5d
+			x: 17.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -915,8 +918,8 @@
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 17.5d
+			x: 16.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -926,8 +929,8 @@
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
 				type: "item"
 			}]
-			x: 5.238095238095248d
-			y: 18.661904761904786d
+			x: 16.238095238095248d
+			y: 6.661904761904786d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -937,8 +940,8 @@
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 20.0d
+			x: 19.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
@@ -948,8 +951,8 @@
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
 				type: "item"
 			}]
-			x: 9.702380952380963d
-			y: 18.554761904761925d
+			x: 20.702380952380963d
+			y: 6.554761904761925d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -959,19 +962,19 @@
 				item: "sophisticatedbackpacks:magnet_upgrade"
 				type: "item"
 			}]
-			x: -1.3095238095238102d
-			y: 20.5d
+			x: 18.19047619047619d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0781523864DA0E6F"]
 			id: "33C54DD646437EEE"
 			tasks: [{
 				id: "61D5802D4311F02B"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest55.task.title1}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest55.task_+7049681723605512235.title}"
 				type: "checkmark"
 			}]
-			x: -0.8095238095238102d
-			y: 17.5d
+			x: 18.69047619047619d
+			y: -1.5d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -981,8 +984,8 @@
 				item: "sophisticatedbackpacks:pickup_upgrade"
 				type: "item"
 			}]
-			x: -2.4285714285714235d
-			y: 20.226190476190503d
+			x: 17.071428571428577d
+			y: 1.226190476190503d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -992,8 +995,8 @@
 				item: "sophisticatedbackpacks:filter_upgrade"
 				type: "item"
 			}]
-			x: -1.3095238095238102d
-			y: 14.5d
+			x: 18.19047619047619d
+			y: -4.5d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1003,8 +1006,8 @@
 				item: "sophisticatedbackpacks:feeding_upgrade"
 				type: "item"
 			}]
-			x: -2.4642857142857153d
-			y: 14.726190476190517d
+			x: 17.035714285714285d
+			y: -4.273809523809483d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1014,8 +1017,8 @@
 				item: "sophisticatedbackpacks:void_upgrade"
 				type: "item"
 			}]
-			x: -0.3095238095238102d
-			y: 20.5d
+			x: 19.19047619047619d
+			y: 1.5d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1025,8 +1028,8 @@
 				item: "sophisticatedbackpacks:restock_upgrade"
 				type: "item"
 			}]
-			x: 0.6904761904761898d
-			y: 20.0d
+			x: 20.19047619047619d
+			y: 1.0d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1036,8 +1039,8 @@
 				item: "sophisticatedbackpacks:everlasting_upgrade"
 				type: "item"
 			}]
-			x: 1.3571428571428612d
-			y: 19.40476190476194d
+			x: 20.85714285714286d
+			y: 0.4047619047619406d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1047,8 +1050,8 @@
 				item: "sophisticatedbackpacks:inception_upgrade"
 				type: "item"
 			}]
-			x: 0.6904761904761898d
-			y: 15.0d
+			x: 20.19047619047619d
+			y: -4.0d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1058,8 +1061,8 @@
 				item: "sophisticatedbackpacks:deposit_upgrade"
 				type: "item"
 			}]
-			x: -3.80952380952381d
-			y: 16.5d
+			x: 15.69047619047619d
+			y: -2.5d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1069,8 +1072,8 @@
 				item: "sophisticatedbackpacks:crafting_upgrade"
 				type: "item"
 			}]
-			x: -3.30952380952381d
-			y: 15.5d
+			x: 16.19047619047619d
+			y: -3.5d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1080,8 +1083,8 @@
 				item: "sophisticatedbackpacks:stonecutter_upgrade"
 				type: "item"
 			}]
-			x: 1.3571428571428612d
-			y: 15.654761904761934d
+			x: 20.85714285714286d
+			y: -3.3452380952380665d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1091,8 +1094,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
 				type: "item"
 			}]
-			x: -0.3095238095238102d
-			y: 14.5d
+			x: 19.19047619047619d
+			y: -4.5d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1102,8 +1105,8 @@
 				item: "sophisticatedbackpacks:tank_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 17.5d
+			x: 21.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1113,8 +1116,8 @@
 				item: "sophisticatedbackpacks:tool_swapper_upgrade"
 				type: "item"
 			}]
-			x: 1.892857142857153d
-			y: 16.47619047619051d
+			x: 21.392857142857153d
+			y: -2.52380952380949d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1124,8 +1127,8 @@
 				item: "sophisticatedbackpacks:jukebox_upgrade"
 				type: "item"
 			}]
-			x: -3.80952380952381d
-			y: 18.5d
+			x: 15.69047619047619d
+			y: -0.5d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1135,8 +1138,8 @@
 				item: "sophisticatedbackpacks:pump_upgrade"
 				type: "item"
 			}]
-			x: -3.30952380952381d
-			y: 19.5d
+			x: 16.19047619047619d
+			y: 0.5d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1146,8 +1149,8 @@
 				item: "sophisticatedbackpacks:smoking_upgrade"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 17.547619047619087d
+			x: 15.5d
+			y: -1.4523809523809135d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1157,8 +1160,8 @@
 				item: "sophisticatedbackpacks:blasting_upgrade"
 				type: "item"
 			}]
-			x: 1.8404761904762168d
-			y: 18.523809523809554d
+			x: 21.340476190476217d
+			y: -0.4761904761904461d
 		}
 		{
 			dependencies: ["1A3BB6F4D606EF15"]
@@ -1168,14 +1171,16 @@
 				"{ftbquests.chapter.62876F01654DC6E9.quest73.description3}"
 			]
 			id: "012DF22FC3551C63"
+			shape: "hexagon"
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest73.subtitle}"
 			tasks: [{
 				id: "024B3F6216FF2B74"
 				item: "sophisticatedbackpacks:netherite_backpack"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 12.5d
+			x: 14.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5B16C247EC0CDF9C"]
@@ -1187,8 +1192,8 @@
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 12.5d
+			x: 14.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["54905BF233504288"]
@@ -1200,8 +1205,8 @@
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 12.5d
+			x: 14.0d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -1248,8 +1253,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.62876F01654DC6E9.quest76.title}"
-			x: -1.0d
-			y: 23.5d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7C74E83D14A52B40"]
@@ -1264,8 +1269,8 @@
 				item: "immersive_aircraft:airship"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 27.5d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7C74E83D14A52B40"]
@@ -1280,8 +1285,8 @@
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 27.5d
+			x: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7C74E83D14A52B40"]
@@ -1296,8 +1301,8 @@
 				item: "immersive_aircraft:gyrodyne"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 27.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7C74E83D14A52B40"]
@@ -1313,7 +1318,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 27.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7C74E83D14A52B40"]
@@ -1328,10 +1333,11 @@
 				item: "immersive_aircraft:quadrocopter"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 27.5d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["06FAB7A7B470A946"]
 			description: ["{ftbquests.chapter.62876F01654DC6E9.quest82.description1}"]
 			id: "55F6F664DE4B1689"
 			rewards: [{
@@ -1346,7 +1352,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 23.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7C74E83D14A52B40"]
@@ -1354,11 +1360,11 @@
 			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest83.subtitle}"
 			tasks: [{
 				id: "6DCCEE8C8B46D79D"
-				title: "{ftbquests.chapter.62876F01654DC6E9.quest83.task.title1}"
+				title: "{ftbquests.chapter.62876F01654DC6E9.quest83.task_+7911960932782626717.title}"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: 23.5d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
@@ -1373,8 +1379,8 @@
 				item: "immersive_aircraft:eco_engine"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 27.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
@@ -1389,8 +1395,8 @@
 				item: "immersive_aircraft:nether_engine"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 27.5d
+			x: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
@@ -1409,8 +1415,8 @@
 				item: "immersive_aircraft:enhanced_propeller"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 27.5d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
@@ -1426,7 +1432,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 27.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
@@ -1441,8 +1447,8 @@
 				item: "immersive_aircraft:industrial_gears"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 27.5d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
@@ -1457,8 +1463,8 @@
 				item: "immersive_aircraft:sturdy_pipes"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 27.5d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
@@ -1473,8 +1479,8 @@
 				item: "immersive_aircraft:gyroscope"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 27.5d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
@@ -1489,8 +1495,8 @@
 				item: "immersive_aircraft:hull_reinforcement"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 27.5d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["06FAB7A7B470A946"]
@@ -1500,8 +1506,36 @@
 				item: "immersive_aircraft:improved_landing_gear"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 27.5d
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "2B36B79F750C8E56"
+			subtitle: "好玩，爱玩，喜欢玩"
+			tasks: [
+				{
+					id: "3D59C1B4F7ABCCC7"
+					item: {
+						Count: 1
+						id: "enderio:staff_of_travelling"
+						tag: {
+							Energy: {
+								EnergyStored: 0
+								MaxEnergyStored: 100000
+								MaxEnergyUse: 100000
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "269EA3B9835F3FCA"
+					item: "enderio:travel_anchor"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.62876F01654DC6E9.title}"

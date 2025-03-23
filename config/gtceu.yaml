@@ -137,6 +137,10 @@ worldgen:
     # Default: false
     infiniteBedrockOresFluids: false
 
+    # Generate ores indicators above ore veins
+    # Default: true
+    oreIndicators: true
+
     # Sets the maximum number of chunks that may be cached for ore vein generation.
     # Higher values may improve world generation performance, but at the cost of more RAM usage.
     # If you substantially increase the ore vein grid size, random vein offset, or have very large (custom) veins, you may need to increase this value as well.
@@ -226,13 +230,17 @@ machines:
   # Whether the machine's circuit slot need to be inserted a real circuit.
   ghostCircuit: true
 
-  # Wether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
+  # Whether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
   doBedrockOres: true
 
   # What Kind of material should the bedrock ore miner output?
   # Default: "raw"
   bedrockOreDropTagPrefix: raw
+
+  # The base amount of ticks per block for electric singleblock ore miners
+  # Default: 320
+  minerSpeed: 320
 
   # Makes nearly every GCYM Multiblock require blocks which set their maximum voltages.
   # Default: false
@@ -488,7 +496,7 @@ compat:
 
     # Enable GTEU to FE (and vice versa) Converters.
     # Default: false
-    enableFEConverters: false
+    enableFEConverters: true
 
     # Forge Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.
@@ -513,6 +521,17 @@ compat:
 
   # Config options regarding GTCEu compatibility with minimap mods
   minimap:
+    # Toggle specific map mod integration on/off (need to restart for this to take effect)
+    toggle:
+      # FTB Chunks integration enabled
+      ftbChunksIntegration: false
+
+      # Journey Map integration enabled
+      journeyMapIntegration: true
+
+      # Xaerox's map integration enabled
+      xaerosMapIntegration: true
+
     # The radius, in blocks, that picking up a surface rock will search for veins in.
     # -1 to disable.
     # Default: 24

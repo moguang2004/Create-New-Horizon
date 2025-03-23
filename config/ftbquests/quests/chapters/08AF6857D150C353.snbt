@@ -177,7 +177,7 @@
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "39382193B16E173D"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest10.task.title1}"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest10.task_+4123082377078380349.title}"
 				type: "dimension"
 			}]
 			x: 2.0d
@@ -190,7 +190,7 @@
 				command: "/gamephase add @p nether"
 				elevate_perms: true
 				id: "73102DDDEA76B9E4"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest11.reward.title1}"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest11.reward_8291177345133754852.title}"
 				type: "command"
 			}]
 			tasks: [{
@@ -493,7 +493,7 @@
 						value: "forge:seeds"
 					}
 				}
-				title: "{ftbquests.chapter.08AF6857D150C353.quest35.task.title1}"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest35.task_+998343428217363319.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.08AF6857D150C353.quest35.title}"
@@ -660,7 +660,7 @@
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest47.subtitle}"
 			tasks: [{
 				id: "0810C4B258493E40"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest47.task.title1}"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest47.task_+581180622195211840.title}"
 				type: "checkmark"
 			}]
 			x: -11.5d
@@ -752,24 +752,13 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["62BAC5BC588E4CAA"]
-			id: "5330148B0417ED4E"
-			tasks: [{
-				id: "7145EBACDBA0A47F"
-				item: "gtceu:magnetic_iron_dust"
-				type: "item"
-			}]
-			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: [
-				"5330148B0417ED4E"
 				"680EE95FED0F46F5"
 				"24A3BEAC1C62DFEC"
+				"62BAC5BC588E4CAA"
 			]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest55.description1}"]
@@ -901,6 +890,7 @@
 				"4B90C12A9AD3F488"
 				"3A2D6EEBA8A75B83"
 			]
+			dependency_requirement: "one_completed"
 			id: "2CB9C64B6AD4B61B"
 			tasks: [{
 				id: "572C7F73420A622C"
@@ -938,9 +928,10 @@
 				"0B8D27D4FAA175B9"
 				"2866385471094DB9"
 			]
-			description: ["    很酷，是吧？造出电路板的你终于可以迈入电力时代，感受科技的魅力吧！"]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest68.description1}"]
 			id: "41E48BCAEAD9D47E"
-			subtitle: "可以用来玩ctnh"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest68.subtitle}"
 			tasks: [{
 				id: "4642660A4797E594"
 				item: "gtceu:basic_electronic_circuit"
@@ -1015,7 +1006,7 @@
 			id: "3942AF99CAFEF32C"
 			tasks: [{
 				id: "0F07A6703A44723A"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest74.task.title1}"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest74.task_+1083017236350005818.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.08AF6857D150C353.quest74.title}"
@@ -1071,11 +1062,6 @@
 					type: "item"
 				}
 				{
-					id: "6568B8AD8477E056"
-					item: "gtceu:ulv_rotor_holder0"
-					type: "item"
-				}
-				{
 					count: 27L
 					id: "21D1AE83E2EEC142"
 					item: "gtceu:steam_machine_casing"
@@ -1103,6 +1089,11 @@
 				{
 					id: "0B0A337F7CA2BDAF"
 					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "61684B327717E0A6"
+					item: "ctnhcore:ulv_rotor_holder"
 					type: "item"
 				}
 			]

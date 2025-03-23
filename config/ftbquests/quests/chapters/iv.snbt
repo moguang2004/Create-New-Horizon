@@ -153,7 +153,7 @@
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
 				id: "15D87EEEA7218F96"
-				title: "{ftbquests.chapter.iv.quest7.task.title1}"
+				title: "{ftbquests.chapter.iv.quest7.task_+1574147633237299094.title}"
 				type: "dimension"
 			}]
 			x: 6.5d
@@ -276,7 +276,7 @@
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
 				id: "3068BBEAE1544360"
-				title: "{ftbquests.chapter.iv.quest15.task.title1}"
+				title: "{ftbquests.chapter.iv.quest15.task_+3488244528875586400.title}"
 				type: "dimension"
 			}]
 			x: 6.5d
@@ -407,7 +407,7 @@
 			subtitle: "{ftbquests.chapter.iv.quest24.subtitle}"
 			tasks: [{
 				id: "55261C111E61BB45"
-				title: "{ftbquests.chapter.iv.quest24.task.title1}"
+				title: "{ftbquests.chapter.iv.quest24.task_+6135622402188622661.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -756,7 +756,7 @@
 			id: "67B1DCF33DA1537D"
 			tasks: [{
 				id: "041C979A41757455"
-				title: "{ftbquests.chapter.iv.quest43.task.title1}"
+				title: "{ftbquests.chapter.iv.quest43.task_+296278364278584405.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -848,7 +848,7 @@
 			id: "42BA70F3031EB46B"
 			tasks: [{
 				id: "75EBDFEBF3875A93"
-				title: "{ftbquests.chapter.iv.quest49.task.title1}"
+				title: "{ftbquests.chapter.iv.quest49.task_+8497131326460615315.title}"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -1157,7 +1157,7 @@
 			subtitle: "{ftbquests.chapter.iv.quest66.subtitle}"
 			tasks: [{
 				id: "507A01A0F2C8276C"
-				title: "{ftbquests.chapter.iv.quest66.task.title1}"
+				title: "{ftbquests.chapter.iv.quest66.task_+5798949260972533612.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -1182,7 +1182,7 @@
 			id: "3409E0910FCB61B9"
 			tasks: [{
 				id: "41927386805769E4"
-				title: "{ftbquests.chapter.iv.quest68.task.title1}"
+				title: "{ftbquests.chapter.iv.quest68.task_+4724965980581095908.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -1529,6 +1529,7 @@
 					type: "item"
 				}
 			]
+			title: "轻，中，重？"
 			x: 2.5d
 			y: 14.5d
 		}
@@ -1552,6 +1553,7 @@
 					type: "item"
 				}
 			]
+			title: "轻，中，重!"
 			x: 4.5d
 			y: 14.5d
 		}
@@ -1561,7 +1563,7 @@
 			subtitle: "{ftbquests.chapter.iv.quest95.subtitle}"
 			tasks: [{
 				id: "42ECF3A7680057D3"
-				title: "{ftbquests.chapter.iv.quest95.task.title1}"
+				title: "{ftbquests.chapter.iv.quest95.task_+4822497201336899539.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -1755,22 +1757,6 @@
 			y: 8.5d
 		}
 		{
-			id: "52DE065417BA9260"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "093B6FDE636C97FE"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4257922294CF0356"
-				item: "gtceu:condensing_discrete"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 10.5d
-		}
-		{
 			dependencies: [
 				"1CE031B193FB03C6"
 				"3B966B84827FDF0C"
@@ -1834,7 +1820,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 8.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -1856,11 +1842,17 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["474F529118B9CF93"]
 			id: "69CD0122AD8B7CF4"
+			rewards: [{
+				count: 64
+				id: "7AC503CD2296CF11"
+				item: "gtceu:raw_crystal_chip_parts"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.iv.quest108.subtitle}"
 			tasks: [{
 				id: "0131355E2F486602"
@@ -1907,7 +1899,7 @@
 			id: "350ED47A651E9298"
 			tasks: [{
 				id: "706418CF350C03A8"
-				title: "{ftbquests.chapter.iv.quest111.task.title1}"
+				title: "{ftbquests.chapter.iv.quest111.task_+8098625308146271144.title}"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -1916,6 +1908,12 @@
 		{
 			dependencies: ["1B08CB9E24BDF006"]
 			id: "43A67D7528B8D846"
+			rewards: [{
+				count: 64
+				id: "5F746B357CC50865"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.iv.quest112.subtitle}"
 			tasks: [{
 				id: "1EF8508BC90B5785"
@@ -1958,6 +1956,36 @@
 			}]
 			x: 10.5d
 			y: -10.5d
+		}
+		{
+			id: "613B471B9179A7C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "786184F24CAC10AC"
+				table_id: 7618519509353548779L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4903D201B3DDFF61"
+				item: "ctnhcore:condensing_discrete"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["29086C6A9A5FA58E"]
+			description: ["我们（）人的化工厂太厉害辣！"]
+			id: "67ECE72F05370C16"
+			size: 2.0d
+			subtitle: "超级化工厂"
+			tasks: [{
+				id: "0E390E300A626B51"
+				item: "ctnhcore:sinope_chemical"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -14.5d
 		}
 	]
 	title: "{ftbquests.chapter.iv.title}"

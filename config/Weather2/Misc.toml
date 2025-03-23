@@ -34,10 +34,10 @@
 	Cloud_Coverage_Random_Change_Amount = 0.05
 	#Minimum percent of cloud coverage, supports negative for extended cloudless sky coverage
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	Cloud_Coverage_Min_Percent = -100.0
+	Cloud_Coverage_Min_Percent = -100
 	#Maximum percent of cloud coverage, supports over 100% for extended full cloud sky coverage
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	Cloud_Coverage_Max_Percent = 0.0
+	Cloud_Coverage_Max_Percent = 0
 	#-
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	sirenActivateDistance = 256.0

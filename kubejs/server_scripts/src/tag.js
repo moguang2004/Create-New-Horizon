@@ -34,6 +34,10 @@ ServerEvents.tags('item',event =>{
     })
     event.add('forge:stripped_logs','gtceu:stripped_rubber_log')
 })
+ServerEvents.tags('item', event => {
+    event.add('curios:curio', 'tiab:time_in_a_bottle')
+})
+
 ServerEvents.tags('fluid',event =>{
     event.add('createdieselgenerators:pumpjack_output','gtceu:impure_oil')
     event.remove('createdieselgenerators:pumpjack_output','createdieselgenerators:crude_oil')

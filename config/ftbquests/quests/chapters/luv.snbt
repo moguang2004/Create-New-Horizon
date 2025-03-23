@@ -30,7 +30,7 @@
 		{
 			id: "236921A346C5AB53"
 			linked_quest: "3409699C4612D368"
-			x: -11.0d
+			x: -10.0d
 			y: 2.5d
 		}
 		{
@@ -141,7 +141,7 @@
 			subtitle: "{ftbquests.chapter.luv.quest9.subtitle}"
 			tasks: [{
 				id: "536DA5ED8AFE8329"
-				title: "{ftbquests.chapter.luv.quest9.task.title1}"
+				title: "{ftbquests.chapter.luv.quest9.task_+6011643517267247913.title}"
 				type: "checkmark"
 			}]
 			x: -26.5d
@@ -240,7 +240,7 @@
 			id: "422A69585A4BD605"
 			tasks: [{
 				id: "1037307307EFD46D"
-				title: "{ftbquests.chapter.luv.quest17.task.title1}"
+				title: "{ftbquests.chapter.luv.quest17.task_+1168455898938463341.title}"
 				type: "checkmark"
 			}]
 			x: -16.0d
@@ -265,7 +265,7 @@
 				item: "gtceu:neutron_reflector"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: 2.5d
 		}
 		{
@@ -311,7 +311,7 @@
 			id: "3F84B7E91E4A1926"
 			tasks: [{
 				id: "04239D81911F91D2"
-				title: "{ftbquests.chapter.luv.quest22.task.title1}"
+				title: "{ftbquests.chapter.luv.quest22.task_+298255180147691986.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -439,7 +439,7 @@
 			id: "4B85DFF240A03E9E"
 			tasks: [{
 				id: "0CDFE2699DE3122A"
-				title: "{ftbquests.chapter.luv.quest32.task.title1}"
+				title: "{ftbquests.chapter.luv.quest32.task_+927708991509959210.title}"
 				type: "checkmark"
 			}]
 			x: -8.5d
@@ -476,7 +476,7 @@
 			subtitle: "{ftbquests.chapter.luv.quest35.subtitle}"
 			tasks: [{
 				id: "769EA6C19BD809A8"
-				title: "{ftbquests.chapter.luv.quest35.task.title1}"
+				title: "{ftbquests.chapter.luv.quest35.task_+8547452493269305768.title}"
 				type: "checkmark"
 			}]
 			x: -25.0d
@@ -509,7 +509,7 @@
 			id: "2E045E885DAC322B"
 			tasks: [{
 				id: "592C93A84EBA755B"
-				title: "{ftbquests.chapter.luv.quest38.task.title1}"
+				title: "{ftbquests.chapter.luv.quest38.task_+6425673119435486555.title}"
 				type: "checkmark"
 			}]
 			x: -25.0d
@@ -669,7 +669,7 @@
 			id: "227C6AEB777B7E14"
 			tasks: [{
 				id: "0E554503F61713BB"
-				title: "{ftbquests.chapter.luv.quest51.task.title1}"
+				title: "{ftbquests.chapter.luv.quest51.task_+1032807572867322811.title}"
 				type: "checkmark"
 			}]
 			x: -16.0d
@@ -684,7 +684,217 @@
 				type: "item"
 			}]
 			x: -29.5d
-			y: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["781CBDF13AE36F7A"]
+			id: "39A45EEC725C981C"
+			tasks: [{
+				id: "0148C52978A25A2C"
+				item: "gtceu:bio_chaff"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["39A45EEC725C981C"]
+			id: "0126D4F879BF8772"
+			tasks: [{
+				id: "4AD929C1F6F14D16"
+				item: "gtceu:bacteria_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["39A45EEC725C981C"]
+			id: "5BA0E0C76CA92F58"
+			tasks: [{
+				id: "262D3B84ED2C339B"
+				item: "gtceu:biomass_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0126D4F879BF8772"
+				"5BA0E0C76CA92F58"
+			]
+			id: "3F366E4813D5DC73"
+			tasks: [{
+				id: "0A089550734775A9"
+				item: "gtceu:bacterial_sludge_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F366E4813D5DC73"]
+			id: "2E53D2599EDEA32C"
+			tasks: [{
+				id: "3F05286EF89FF02E"
+				item: "gtceu:enriched_bacterial_sludge_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E53D2599EDEA32C"]
+			id: "62A095389C5A1837"
+			tasks: [{
+				id: "4FAA840ACBE98955"
+				item: "gtceu:mutagen_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7F9C4ED40B8B9057"
+				"62A095389C5A1837"
+			]
+			id: "688DB65F296AE05F"
+			tasks: [{
+				id: "1D0974D7BF9FE005"
+				item: "gtceu:raw_growth_medium_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1033F6AC4379AE6C"]
+			id: "7F9C4ED40B8B9057"
+			tasks: [{
+				id: "5359EF2F9FE9BE02"
+				item: "gtceu:agar_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C6E6D4BA2AE3562"]
+			id: "1033F6AC4379AE6C"
+			tasks: [{
+				id: "1E83D28447CA81CA"
+				item: "gtceu:gelatin_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"56732BC3C7F2B02E"
+				"3599DD77FCFCE66C"
+			]
+			id: "4C6E6D4BA2AE3562"
+			tasks: [{
+				id: "4ED6A577DCAF9637"
+				item: "gtceu:gelatin_mixture_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["183E07A7B4E3911F"]
+			id: "56732BC3C7F2B02E"
+			tasks: [{
+				id: "0AF432EC12E5757E"
+				item: "gtceu:collagen_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["781CBDF13AE36F7A"]
+			id: "183E07A7B4E3911F"
+			tasks: [{
+				id: "5D4760F55E3114C7"
+				item: "gtceu:meat_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["183E07A7B4E3911F"]
+			id: "3599DD77FCFCE66C"
+			tasks: [{
+				id: "71526791B517CCA2"
+				item: "gtceu:phosphoric_acid_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["59EACDB9A6F6F5B8"]
+			id: "781CBDF13AE36F7A"
+			tasks: [{
+				id: "39EE28FE45416BC4"
+				title: "生物线的开端"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["688DB65F296AE05F"]
+			id: "64AB6462326CB9DA"
+			tasks: [{
+				id: "4728D2DD734BD20B"
+				item: "gtceu:sterilized_growth_medium_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64AB6462326CB9DA"]
+			id: "589DEEA6662898A5"
+			tasks: [{
+				id: "3697250448F06309"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["589DEEA6662898A5"]
+			id: "47073ADF1F9B9DEC"
+			shape: "circle"
+			size: 2.0d
+			subtitle: "最后一种维护仓？"
+			tasks: [{
+				id: "0862D897BCC5BDAB"
+				item: "gtceu:sterile_cleanroom_maintenance_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "59EACDB9A6F6F5B8"
+			tasks: [{
+				id: "4FBBC9863AEE4DA2"
+				item: "gtceu:sterilizing_filter_casing"
+				type: "item"
+			}]
+			title: "升级你的超净间过滤方块！"
+			x: -1.0d
+			y: -9.5d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"

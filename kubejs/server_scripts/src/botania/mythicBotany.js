@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
     infuser(event, ['botania:manasteel_ingot', 'botania:mana_pearl', 'botania:mana_diamond', 'botania:rune_mana'], 'botania:terrasteel_ingot', 500000)
     infuser(event, ['kubejs:advanced_mana_transistor', 'kubejs:advanced_mana_capacitor', 'kubejs:advanced_mana_inductor', 'gtceu:advanced_integrated_circuit', 'kubejs:elementium_cpu_chip'], 'kubejs:mana_integrated_circuit', 250000)
     infuser(event, ['gtceu:simple_soc', 'botania:mana_diamond', 'botania:rune_mana'], 'kubejs:mana_soc', 50000)
-    infuser(event, ['gtceu:mana_unstable_plus_dust', 'botania:rune_mana', 'mythicbotany:asgard_rune', ], 'gtceu:mana_infused_plus_dust', 50000)
+    infuser(event, ['gtceu:mana_unstable_plus_dust', 'botania:rune_mana', 'mythicbotany:midgard_rune', ], 'gtceu:mana_infused_plus_dust', 5000)
     event.custom({
         "type": "mythicbotany:infuser",
         "fromColor": 255,
@@ -607,8 +607,623 @@ ServerEvents.recipes(event => {
         }
 
     ).id('ctnh:horizen_rune')
+    event.custom({
+            type: "mythicbotany:rune_ritual",
+            "center": {
+                "item": 'gtceu:quantum_star'
+            },
+            "group": "rune_rituals",
+            "inputs": [{
+                    "item": 'gtceu:zenith_essence_bucket'
+                },
+                {
+                    "item": 'gtceu:zenith_essence_bucket'
+                },
+                {
+                    "item": 'gtceu:zenith_essence_bucket'
+                }
+            ],
+            "mana": 500000,
+            "outputs": [{
+                "count": 1,
+                "item": 'ctnhcore:starlight_rune'
+            }],
+            "runes": [{
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:mars_stone'
+                    },
+                    "x": -1,
+                    "z": 0
+
+                }, {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:mars_stone'
+                    },
+                    "x": -2,
+                    "z": 1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:mars_stone'
+                    },
+                    "x": -2,
+                    "z": -1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:mars_stone'
+                    },
+                    "x": -3,
+                    "z": 2
+
+                }, {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:mars_stone'
+                    },
+                    "x": -3,
+                    "z": -2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:mars_stone'
+                    },
+                    "x": -4,
+                    "z": 1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:mars_stone'
+                    },
+                    "x": -4,
+                    "z": -1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:mars_stone'
+                    },
+                    "x": -5,
+                    "z": 0
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:moon_cobblestone'
+                    },
+                    "x": -2,
+                    "z": 0
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:moon_cobblestone'
+                    },
+                    "x": -3,
+                    "z": 1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:moon_cobblestone'
+                    },
+                    "x": -3,
+                    "z": -1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ad_astra:moon_cobblestone'
+                    },
+                    "x": -4,
+                    "z": -0
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_star'
+                    },
+                    "x": -3,
+                    "z": 0
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'deep_aether:sterling_aercloud'
+                    },
+                    "x": 0,
+                    "z": -3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'deep_aether:sterling_aercloud'
+                    },
+                    "x": -1,
+                    "z": -4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'deep_aether:sterling_aercloud'
+                    },
+                    "x": 1,
+                    "z": -4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'deep_aether:sterling_aercloud'
+                    },
+                    "x": 0,
+                    "z": -5
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_star'
+                    },
+                    "x": 0,
+                    "z": -4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'twilightforest:hollow_oak_sapling'
+                    },
+                    "x": 0,
+                    "z": 3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'twilightforest:hollow_oak_sapling'
+                    },
+                    "x": 1,
+                    "z": 4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'twilightforest:hollow_oak_sapling'
+                    },
+                    "x": -1,
+                    "z": 4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'twilightforest:hollow_oak_sapling'
+                    },
+                    "x": 0,
+                    "z": 5
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:quantum_star'
+                    },
+                    "x": 0,
+                    "z": 4
+
+                },
+
+            ],
+            "ticks": 200
+        }
+
+    ).id('ctnh:starlight_rune')
+    event.custom({
+            type: "mythicbotany:rune_ritual",
+            "center": {
+                "item": 'kubejs:endslate'
+            },
+            "group": "rune_rituals",
+            "inputs": [{
+                    "item": 'gtceu:zenith_essence_bucket'
+                },
+                {
+                    "item": 'gtceu:zenith_essence_bucket'
+                },
+                {
+                    "item": 'gtceu:zenith_essence_bucket'
+                }
+            ],
+            "mana": 500000,
+            "outputs": [{
+                "count": 1,
+                "item": 'ctnhcore:twist_rune'
+            }],
+            "runes": [{
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:ingot_hellforged'
+                    },
+                    "x": -5,
+                    "z": 0
+
+                }, {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:ingot_hellforged'
+                    },
+                    "x": -4,
+                    "z": 1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:ingot_hellforged'
+                    },
+                    "x": -4,
+                    "z": -1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:speedrune'
+                    },
+                    "x": -3,
+                    "z": -2
+
+                }, {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:speedrune'
+                    },
+                    "x": -4,
+                    "z": -3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:speedrune'
+                    },
+                    "x": -3,
+                    "z": -4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:speedrune'
+                    },
+                    "x": -4,
+                    "z": -5
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:speedrune'
+                    },
+                    "x": -3,
+                    "z": -6
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:speedrune2'
+                    },
+                    "x": -3,
+                    "z": 2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:speedrune2'
+                    },
+                    "x": -4,
+                    "z": 3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:speedrune2'
+                    },
+                    "x": -3,
+                    "z": 4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:speedrune2'
+                    },
+                    "x": -4,
+                    "z": 5
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bloodmagic:speedrune2'
+                    },
+                    "x": -3,
+                    "z": 6
+
+                },
 
 
+            ],
+            "ticks": 200
+        }
+
+    ).id('ctnhcore:twist_rune')
+    event.custom({
+            type: "mythicbotany:rune_ritual",
+            "center": {
+                "item": 'gtceu:gravi_star'
+            },
+            "group": "rune_rituals",
+            "inputs": [{
+                    "item": 'gtceu:ultra_mana_ingot'
+                },
+                {
+                    "item": 'gtceu:ultra_mana_ingot'
+                },
+                {
+                    "item": 'gtceu:ultra_mana_ingot'
+                }
+            ],
+            "mana": 1000000,
+            "outputs": [{
+                "count": 1,
+                "item": 'ctnhcore:quasar_rune'
+            }],
+            "runes": [{
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:neutronium_block'
+                    },
+                    "x": -1,
+                    "z": 1
+
+                }, {
+                    "consume": true,
+                    "rune": {
+                        "item": 'gtceu:neutronium_block'
+                    },
+                    "x": 1,
+                    "z": -1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ctnhcore:proliferation_rune'
+                    },
+                    "x": -3,
+                    "z": 0
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ctnhcore:twist_rune'
+                    },
+                    "x": 3,
+                    "z": 0
+
+                }, {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ctnhcore:starlight_rune'
+                    },
+                    "x": 0,
+                    "z": 3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ctnhcore:horizen_rune'
+                    },
+                    "x": 0,
+                    "z": -3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                    },
+                    "x": -2,
+                    "z": 2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                    },
+                    "x": -2,
+                    "z": -2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                    },
+                    "x": 2,
+                    "z": 2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                    },
+                    "x": 2,
+                    "z": -2
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                    },
+                    "x": -3,
+                    "z": 1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                    },
+                    "x": -3,
+                    "z": -1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                    },
+                    "x": 3,
+                    "z": 1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'bigger_ae2:digital_singularity_cell_component'
+                    },
+                    "x": 3,
+                    "z": -1
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ae2:singularity'
+                    },
+                    "x": -1,
+                    "z": 3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ae2:singularity'
+                    },
+                    "x": -1,
+                    "z": -3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ae2:singularity'
+                    },
+                    "x": 1,
+                    "z": -3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'ae2:singularity'
+                    },
+                    "x": 1,
+                    "z": 3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'mythicbotany:alfheim_rune'
+                    },
+                    "x": -3,
+                    "z": 3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'mythicbotany:joetunheim_rune'
+                    },
+                    "x": -4,
+                    "z": 4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'mythicbotany:nidavellir_rune'
+                    },
+                    "x": -5,
+                    "z": 5
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'mythicbotany:asgard_rune'
+                    },
+                    "x": 3,
+                    "z": -3
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'mythicbotany:midgard_rune'
+                    },
+                    "x": 4,
+                    "z": -4
+
+                },
+                {
+                    "consume": true,
+                    "rune": {
+                        "item": 'mythicbotany:vanaheim_rune'
+                    },
+                    "x": 5,
+                    "z": -5
+
+                },
+
+
+            ],
+            "ticks": 200
+        }
+
+    ).id('ctnhcore:quasar_rune')
     event.replaceInput({}, 'mythicbotany:alfsteel_ingot', 'mythicbotany:alfsteel_ingot')
     event.replaceOutput({}, 'mythicbotany:alfsteel_ingot', 'mythicbotany:alfsteel_ingot')
 })

@@ -127,7 +127,13 @@ ServerEvents.recipes(event => {
         "vintageimprovements:pressing/nickel_ingot",
         "vintageimprovements:pressing/osmium_ingot",
         "aether:aether_saddle",
-        "gtceu:extruder/nan_certificate"
+        "gtceu:extruder/nan_certificate",
+        "vintageimprovements:pressurizing/sulfuric_acid",
+        "vintageimprovements:pressurizing/sulfur_trioxide_alt",
+        "vintageimprovements:pressurizing/sulfur_trioxide",
+        "vintageimprovements:pressurizing/sulfur_dioxide",
+        "vintageimprovements:craft/sulfur_items_to_block",
+        "enderio:sag_milling/ender_pearl"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -155,7 +161,10 @@ ServerEvents.recipes(event => {
         "enderio:energetic_alloy_ingot",
         "ad_astra:desh_fluid_pipe",
         "ad_astra:ostrum_fluid_pipe",
-        "ad_astra:fluid_pipe_duct"
+        "ad_astra:fluid_pipe_duct",
+        /vintageimprovements:(.*)_sheet/,
+        /vintageimprovements:(.*)_rod/,
+        /vintageimprovements:(.*)_wire/
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot",
@@ -226,4 +235,47 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:shaped/plate_double_graphite_ir_plate" })
     event.remove({ id: "gtceu:chemical_reactor/iridium_dioxide_dissolving" })
     event.remove({ id: "gtceu:chemical_reactor/iridium_chloride_separation" })
+    event.remove({ id: "gtceu:dehydrator/xenoauric_fluoroantimonic_acid" })
+    event.remove({ id: "createdieselgenerators:distillation/acid" })
+    event.remove({ id: "gtceu:assembly_line/energy_hatch_uhv" })
+    event.remove({ id: "gtceu:rocket_engine/rp_1_mixed_fuel" })
+    event.remove({ id: "gtceu:rocket_engine/methylhydrazine_nitrate_rocket_fuel" })
+    event.remove({ id: "gtceu:rocket_engine/udmh_rocket_fuel" })
+    event.remove({ id: "gtceu:rocket_engine/dense_hydrazine_mixed_fuel" })
+    event.remove({ id: "gtceu:gas_turbine/coal_gas" })
+    event.remove({ id: "gtceu:gas_turbine/wood_gas" })
+    event.remove({ id: "gtceu:combustion_generator/naphtha" })
+    event.remove({ id: "gtceu:combustion_generator/diesel" })
+    event.remove({ id: "gtceu:combustion_generator/light_fuel" })
+    event.remove({ id: "gtceu:shaped/filter_casing_sterile" })
+    event.remove({ id: "gtceu:shaped/maintenance_hatch_cleaning" })
+    event.remove({ id: "gtceu:kinetic_mixer/kinetic_mixer/graphene" })
+    event.remove({ id: "create:kjs/2cy39ggyi10fg4iscosa1udto" })
+    event.remove({ id: "extendedcrafting:black_iron_ingot" })
+    event.remove({ id: "extendedcrafting:basic_component" })
+    event.remove({ id: "extendedcrafting:advanced_component" })
+    event.remove({ id: "extendedcrafting:advanced_catalyst" })
+    event.remove({ id: "extendedcrafting:basic_catalyst" })
+    event.remove({ id: "extendedcrafting:elite_catalyst" })
+    event.remove({ id: "extendedcrafting:elite_component" })
+    event.remove({ id: "extendedcrafting:crystaltine_component" })
+    event.remove({ id: "extendedcrafting:crystaltine_catalyst" })
+    event.remove({ id: "extendedcrafting:ultimate_component" })
+    event.remove({ id: "extendedcrafting:ultimate_catalyst" })
+    event.remove({ id: "extendedcrafting:redstone_component" })
+    event.remove({ id: "extendedcrafting:redstone_catalyst" })
+    event.remove({ id: "ad_astra:steel_rod" })
+    event.remove({ id: "vintageimprovements:craft/steel_rod" })
+    event.remove({ id: "extendedcrafting:flux_crafter" })
+    event.remove({ id: "extendedcrafting:flux_alternator" })
+    event.remove({ id: "vintageimprovements:craft/nickel_rod"})
+    event.remove({ id: "vintageimprovements:craft/sulfur_item_to_nuggets"})
+    event.remove( {id: "vintageimprovements:craft/sulfur_nuggets_to_item"})
+    event.remove( {id: "vintageimprovements:craft/sulfur_block_to_items"})
+    event.remove({ id: "extendedcrafting:ender_alternator" })
+    event.remove({ id: "extendedcrafting:ender_crafter" })
+    event.remove({ id: "extendedcrafting:ender_catalyst" })
+    event.remove({ id: "extendedcrafting:ender_component" })
+    event.remove({ id: "gtceu:chemical_reactor/calcite_from_quicklime" })
+    event.remove({ id: "gtceu:extractor/extract_osmium_tetroxide_dust"})
 })

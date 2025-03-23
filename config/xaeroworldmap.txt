@@ -1,4 +1,4 @@
-ignoreUpdate:179
+ignoreUpdate:180
 updateNotification:true
 allowInternetAccess:true
 differentiateByServerAddress:true

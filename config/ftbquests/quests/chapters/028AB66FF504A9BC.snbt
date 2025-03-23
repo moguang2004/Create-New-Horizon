@@ -133,7 +133,7 @@
 			id: "144A09EC75B60D68"
 			tasks: [{
 				id: "0341C2EDA12C3D1A"
-				title: "{ftbquests.chapter.028AB66FF504A9BC.quest12.task.title1}"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest12.task_+234682981467045146.title}"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -154,7 +154,7 @@
 			id: "1B7439F730B988EF"
 			tasks: [{
 				id: "4385F4CD3CE54571"
-				title: "{ftbquests.chapter.028AB66FF504A9BC.quest14.task.title1}"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest14.task_+4865564134770820465.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -242,7 +242,7 @@
 			id: "03CF3E3907C153E0"
 			tasks: [{
 				id: "5F11DC70504FBF29"
-				title: "{ftbquests.chapter.028AB66FF504A9BC.quest22.task.title1}"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest22.task_+6850498883149086505.title}"
 				type: "checkmark"
 			}]
 			x: -16.0d
@@ -318,7 +318,7 @@
 			id: "18C1668BA11D77A8"
 			tasks: [{
 				id: "76C87089D1F759EE"
-				title: "{ftbquests.chapter.028AB66FF504A9BC.quest29.task.title1}"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest29.task_+8559214829053106670.title}"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -405,7 +405,7 @@
 			id: "7CEA462990546334"
 			tasks: [{
 				id: "25932D90AF96A40B"
-				title: "{ftbquests.chapter.028AB66FF504A9BC.quest37.task.title1}"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest37.task_+2707557900424225803.title}"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -547,22 +547,11 @@
 			id: "5F1BD456BFB49435"
 			tasks: [{
 				id: "29E078FC94CBD4DB"
-				title: "{ftbquests.chapter.028AB66FF504A9BC.quest50.task.title1}"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest50.task_+3017544776561710299.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
 			y: 9.0d
-		}
-		{
-			dependencies: ["5F1BD456BFB49435"]
-			id: "2A12784B88F2783E"
-			tasks: [{
-				id: "5055BAC42276660B"
-				item: "gtceu:nuclear_reactor"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 11.0d
 		}
 		{
 			dependencies: ["5F1BD456BFB49435"]
@@ -613,7 +602,7 @@
 			id: "72A2F84333B23443"
 			tasks: [{
 				id: "46945E0233A74EE1"
-				item: "gtceu:cvd_factory"
+				item: "ctnhcore:chemical_vapor_deposition_machine"
 				type: "item"
 			}]
 			x: -0.5d
@@ -643,27 +632,14 @@
 		}
 		{
 			id: "3FAC0EBCE35BE621"
-			subtitle: "{ftbquests.chapter.028AB66FF504A9BC.quest59.subtitle}"
+			subtitle: "{ftbquests.chapter.028AB66FF504A9BC.quest58.subtitle}"
 			tasks: [{
 				id: "4E88437462C0FCAE"
-				title: "{ftbquests.chapter.028AB66FF504A9BC.quest59.task.title1}"
+				title: "{ftbquests.chapter.028AB66FF504A9BC.quest58.task_+5658847098943110318.title}"
 				type: "checkmark"
 			}]
 			x: 10.0d
 			y: 9.0d
-		}
-		{
-			dependencies: ["144A09EC75B60D68"]
-			id: "3750BE16C30A22D8"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "3650AB75D9796BE7"
-				item: "gtceu:wood_particle_collider"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 5.0d
 		}
 		{
 			dependencies: ["144A09EC75B60D68"]

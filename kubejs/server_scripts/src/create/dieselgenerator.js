@@ -119,7 +119,32 @@ ServerEvents.recipes(event => {
             "amount": 20
         }
     ]
-})
+  })
+  event.custom({
+    "type": "createdieselgenerators:distillation",
+    "ingredients": [
+      {
+        "fluid": "alexscaves:acid",
+        "amount": 100
+      }
+    ],
+    "heatRequirement": "heated",
+    "processingTime": 40,
+    "results": [
+      {
+        "fluid": "gtceu:sulfuric_acid",
+        "amount": 10
+      },
+      {
+        "fluid": "gtceu:hydrochloric_acid",
+        "amount": 25
+      },
+      {
+        "fluid": "gtceu:nitrogen_dioxide",
+        "amount": 15
+      }
+    ]
+  })
   event.recipes.create.crushing(['3x gtceu:rich_soil_dust'],'farmersdelight:rich_soil')
   event.recipes.create.crushing(['3x gtceu:rich_soul_soil_dust'],'mynethersdelight:resurgent_soil')
 })

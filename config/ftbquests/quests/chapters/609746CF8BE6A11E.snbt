@@ -5,25 +5,163 @@
 	group: "32DB92B5A6E4493B"
 	icon: "ars_nouveau:archmage_spell_book"
 	id: "609746CF8BE6A11E"
+	images: [
+		{
+			height: 16.724137931034484d
+			image: "ars_nouveau:textures/gui/spell_book_template.png"
+			order: -1
+			rotation: 0.0d
+			width: 25.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ars/ars.png"
+			rotation: 0.0d
+			width: 2.861946902654867d
+			x: -7.8d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/medium_armor/arcanists_hat_gold"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/medium_armor/arcanists_hat_tint"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/medium_armor/arcanists_pants_tint"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/medium_armor/arcanists_robes_gold"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/medium_armor/arcanists_robes_tint"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 2.2d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/medium_armor/arcanists_treads_tint"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 3.7d
+		}
+		{
+			height: 2.5d
+			image: "ftbquests:textures/ars/ars_4.png"
+			rotation: 0.0d
+			width: 2.817460317460317d
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			height: 2.5d
+			image: "ftbquests:textures/ars/ars_5.png"
+			rotation: 0.0d
+			width: 2.8129251700680276d
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/ars/ars_3.png"
+			rotation: 0.0d
+			width: 3.9909774436090224d
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ars/ars_2.png"
+			rotation: 0.0d
+			width: 3.277858176555716d
+			x: 8.5d
+			y: 5.55d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ars/ars_1.png"
+			rotation: 0.0d
+			width: 2.953632148377125d
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/ars/ars_8.png"
+			rotation: 0.0d
+			width: 2.4421326397919376d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/ars/ars_7.png"
+			rotation: 0.0d
+			width: 2.446096654275093d
+			x: 7.7d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/ars/ars_6.png"
+			rotation: 0.0d
+			width: 3.057142857142857d
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			height: 2.5d
+			image: "ftbquests:textures/ars/ars_9.png"
+			rotation: 0.0d
+			width: 2.6536098310291862d
+			x: 2.5d
+			y: 1.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest1.description1}"]
-			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "31FB1C1E64284389"
 			shape: "circle"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest1.subtitle}"
 			tasks: [{
 				id: "438EA574FBB2C751"
-				title: "{ftbquests.chapter.609746CF8BE6A11E.quest1.task.title1}"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest1.task_+4868010169091671889.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest1.title}"
 			x: 0.5d
-			y: 0.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -39,8 +177,8 @@
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			x: -4.1d
-			y: -0.1499999999999999d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["31FB1C1E64284389"]
@@ -51,21 +189,22 @@
 			hide_dependency_lines: false
 			id: "57A04137E648CACD"
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest3.subtitle}"
 			tasks: [{
 				id: "7012B588E3B67C8F"
 				item: "ars_nouveau:worn_notebook"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
 			icon: "ars_nouveau:imbuement_chamber"
 			id: "1372577346448371"
-			shape: "rsquare"
+			shape: "hexagon"
+			size: 1.2d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest4.subtitle}"
 			tasks: [
 				{
@@ -79,15 +218,15 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 0.0d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1372577346448371"]
 			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest5.description1}"]
 			id: "492943506CC5F01A"
-			shape: "pentagon"
-			size: 1.25d
+			shape: "rsquare"
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest5.subtitle}"
 			tasks: [
 				{
@@ -106,8 +245,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -1.5d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["492943506CC5F01A"]
@@ -120,8 +259,8 @@
 				item: "ars_nouveau:mundane_belt"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["492943506CC5F01A"]
@@ -134,8 +273,8 @@
 				item: "ars_nouveau:ring_of_potential"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["492943506CC5F01A"]
@@ -148,8 +287,8 @@
 				item: "ars_nouveau:dull_trinket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["684C275A7140AE9D"]
@@ -161,8 +300,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest9.title}"
-			x: -5.0d
-			y: 3.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["684C275A7140AE9D"]
@@ -174,8 +313,8 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest10.title}"
-			x: -5.0d
-			y: 4.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["684C275A7140AE9D"]
@@ -187,22 +326,23 @@
 				type: "structure"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest11.title}"
-			x: -4.1d
-			y: 4.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
+			hide_dependency_lines: true
 			id: "684C275A7140AE9D"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest12.subtitle}"
 			tasks: [{
 				id: "1CA8FC0C2787A957"
-				title: "{ftbquests.chapter.609746CF8BE6A11E.quest12.task.title1}"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest12.task_+2065177558282381655.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest12.title}"
-			x: -3.5d
-			y: 3.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["492943506CC5F01A"]
@@ -214,8 +354,8 @@
 				item: "ars_nouveau:magebloom_crop"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["542557CBAB6F5C75"]
@@ -227,8 +367,8 @@
 				item: "ars_nouveau:magebloom_fiber"
 				type: "item"
 			}]
-			x: -4.1d
-			y: -1.5d
+			x: -6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["49B0B12549BE9575"]
@@ -240,23 +380,23 @@
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.5d
+			x: -0.8d
+			y: 2.0d
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
 			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest16.description1}"]
 			id: "49B0B12549BE9575"
-			shape: "pentagon"
-			size: 1.25d
+			shape: "hexagon"
+			size: 1.1d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest16.subtitle}"
 			tasks: [{
 				id: "3E916AE82C47E517"
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["49B0B12549BE9575"]
@@ -267,8 +407,8 @@
 				item: "ars_nouveau:basic_spell_turret"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -2.2d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4577953534E40102"]
@@ -279,8 +419,8 @@
 				item: "ars_nouveau:timer_spell_turret"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.5d
+			x: -2.2d
+			y: 3.5d
 		}
 		{
 			dependencies: ["49B0B12549BE9575"]
@@ -292,8 +432,8 @@
 				item: "ars_nouveau:relay"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: -1.5d
+			y: 2.8d
 		}
 		{
 			dependencies: ["69E5FC6BA4241143"]
@@ -305,12 +445,12 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7283E47497436229"]
 			id: "69E5FC6BA4241143"
-			shape: "pentagon"
+			shape: "rsquare"
 			size: 1.25d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest21.subtitle}"
 			tasks: [{
@@ -318,27 +458,27 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4C73E3BA1AD3E0A5"]
 			description: [""]
 			id: "21D441CD4FF09657"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest22.subtitle}"
 			tasks: [{
 				id: "309F41BC509D1E8A"
 				item: "ars_nouveau:drygmy_shard"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["21D441CD4FF09657"]
 			id: "01326423CB3560EA"
-			size: 1.1d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest23.subtitle}"
 			tasks: [
 				{
@@ -352,22 +492,22 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 3.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["57A04137E648CACD"]
 			id: "15FD6C3C504D6DFF"
 			shape: "hexagon"
-			size: 1.3d
+			size: 1.2d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest24.subtitle}"
 			tasks: [{
 				id: "67FAFBD3E61C4A3F"
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: -5.15d
-			y: 1.5d
+			x: -4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["62B9FB13D5EF2F2D"]
@@ -378,8 +518,8 @@
 				item: "ars_nouveau:blank_parchment"
 				type: "item"
 			}]
-			x: -4.1d
-			y: -3.0d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["19A600CF4DFAAABC"]
@@ -394,21 +534,21 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.0d
+			x: -8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["21D441CD4FF09657"]
 			id: "7330DFCA691A419E"
-			size: 1.1d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest27.subtitle}"
 			tasks: [{
 				id: "1E8BB40367F3BEB5"
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 9.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -419,7 +559,7 @@
 			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest28.description1}"]
 			id: "353F9E39669D6651"
 			shape: "rsquare"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest28.subtitle}"
 			tasks: [{
 				icon: "ars_nouveau:drygmy_stone"
@@ -430,12 +570,13 @@
 				type: "observation"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest28.title}"
-			x: 6.5d
-			y: 4.5d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["432B63898EB4DBC2"]
 			description: ["{ftbquests.chapter.609746CF8BE6A11E.quest29.description1}"]
+			hide_dependency_lines: true
 			id: "21E0FFCAAB295C8F"
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest29.subtitle}"
 			tasks: [{
@@ -443,8 +584,8 @@
 				item: "ars_creo:starbuncle_wheel"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["15FD6C3C504D6DFF"]
@@ -455,8 +596,8 @@
 				item: "ars_nouveau:ritual_flight"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.0d
+			x: -4.6d
+			y: 4.0d
 		}
 		{
 			dependencies: ["15FD6C3C504D6DFF"]
@@ -468,8 +609,8 @@
 				item: "ars_nouveau:ritual_wilden_summon"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.0d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -477,38 +618,38 @@
 				"7283E47497436229"
 			]
 			id: "567F6D78E2B26F47"
-			shape: "hexagon"
-			size: 1.1d
+			shape: "rsquare"
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest32.subtitle}"
 			tasks: [{
 				id: "7A4A639C6BA4E8E8"
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -0.15000000000000036d
+			x: -8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["31FB1C1E64284389"]
 			description: [
 				"{ftbquests.chapter.609746CF8BE6A11E.quest33.description1}"
 				"{ftbquests.chapter.609746CF8BE6A11E.quest33.description2}"
-				"[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"57A04137E648CACD\"}},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description3\"}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description1\"},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"57A04137E648CACD\"}},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest33.rich_description3\"}]"
 			]
 			icon: "ars_nouveau:drygmy_shard"
 			id: "4C73E3BA1AD3E0A5"
 			min_width: 230
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest33.subtitle}"
 			tasks: [{
 				id: "4E26186C16172564"
-				title: "{ftbquests.chapter.609746CF8BE6A11E.quest33.task.title1}"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest33.task_+5631215236579534180.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest33.title}"
-			x: 3.0d
-			y: 1.5d
+			x: 6.0d
+			y: 1.25d
 		}
 		{
 			dependencies: ["4C73E3BA1AD3E0A5"]
@@ -519,8 +660,8 @@
 				item: "ars_nouveau:starbuncle_shards"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.3d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["49B0B12549BE9575"]
@@ -528,16 +669,16 @@
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest35.subtitle}"
 			tasks: [{
 				id: "2225751D33986858"
-				title: "{ftbquests.chapter.609746CF8BE6A11E.quest35.task.title1}"
+				title: "{ftbquests.chapter.609746CF8BE6A11E.quest35.task_+2460501539707971672.title}"
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.609746CF8BE6A11E.quest35.title}"
-			x: -1.0d
-			y: 3.5d
+			x: -0.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4F0DD37CC88A8918"]
-			description: ["[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"19A600CF4DFAAABC\"}},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description3\"}]"]
+			description: ["[\"\",{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description1\"},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"19A600CF4DFAAABC\"}},{\"translate\":\"ftbquests.chapter.609746CF8BE6A11E.quest36.rich_description3\"}]"]
 			id: "432B63898EB4DBC2"
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest36.subtitle}"
 			tasks: [{
@@ -549,8 +690,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["03481B4E3F73BFB9"]
@@ -562,7 +703,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4C73E3BA1AD3E0A5"]
@@ -573,8 +714,8 @@
 				item: "ars_nouveau:wixie_shards"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.2999999999999998d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["74CCAA3EFE10AF43"]
@@ -585,11 +726,11 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["4F0DD37CC88A8918"]
+			dependencies: ["432B63898EB4DBC2"]
 			id: "02C6F7DBFB72081C"
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest40.subtitle}"
 			tasks: [{
@@ -597,8 +738,8 @@
 				item: "ars_nouveau:wixie_hat"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4C73E3BA1AD3E0A5"]
@@ -609,11 +750,12 @@
 				item: "ars_nouveau:bookwyrm_charm"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4C73E3BA1AD3E0A5"]
+			hide_dependency_lines: true
 			id: "6C828C4D3DC5352E"
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest42.subtitle}"
 			tasks: [{
@@ -621,8 +763,8 @@
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			x: 5.699999999999999d
-			y: 1.0d
+			x: 9.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -643,8 +785,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -1.5d
+			x: 8.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["31FB1C1E64284389"]
@@ -659,11 +801,12 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["31FB1C1E64284389"]
+			hide_dependency_lines: true
 			id: "3FF74491A0FB5FAE"
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest45.subtitle}"
 			tasks: [
@@ -682,11 +825,12 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -3.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C73E3BA1AD3E0A5"]
+			hide_dependency_lines: true
 			id: "7F49CF8B3E9122E7"
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest46.subtitle}"
 			tasks: [{
@@ -694,8 +838,8 @@
 				item: "ars_nouveau:amethyst_golem_charm"
 				type: "item"
 			}]
-			x: 5.699999999999999d
-			y: 2.0d
+			x: 9.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["15FD6C3C504D6DFF"]
@@ -706,11 +850,11 @@
 				item: "ars_nouveau:ritual_awakening"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 1.5d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["4F0DD37CC88A8918"]
+			dependencies: ["432B63898EB4DBC2"]
 			id: "1EB19516042262AF"
 			subtitle: "{ftbquests.chapter.609746CF8BE6A11E.quest48.subtitle}"
 			tasks: [{
@@ -718,8 +862,70 @@
 				item: "ars_nouveau:starbuncle_shades"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3BCD91430DDB9FF6"]
+			id: "5A15D72DC69B1FDE"
+			subtitle: "善用工具书）"
+			tasks: [
+				{
+					id: "1EA5F85F444EB200"
+					item: "ars_nouveau:volcanic_sourcelink"
+					type: "item"
+				}
+				{
+					id: "2134F53C130F3558"
+					item: "ars_nouveau:alchemical_sourcelink"
+					type: "item"
+				}
+				{
+					id: "340A9A8D8CD1C396"
+					item: "ars_nouveau:vitalic_sourcelink"
+					type: "item"
+				}
+				{
+					id: "78884091BAF465E1"
+					item: "ars_nouveau:mycelial_sourcelink"
+					type: "item"
+				}
+			]
+			title: "选择适合自己的使用！"
+			x: -0.8d
+			y: 3.5d
+		}
+		{
+			dependencies: ["492943506CC5F01A"]
+			hide_dependency_lines: true
+			id: "0EC027D1967A2E13"
+			subtitle: "大点的药水瓶"
+			tasks: [{
+				id: "50FA141C75B06CF4"
+				item: {
+					Count: 1
+					id: "ars_nouveau:potion_flask"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69E5FC6BA4241143"]
+			id: "7F8EBE79547FCAD6"
+			subtitle: "尽力把所有魔符集齐吧"
+			tasks: [{
+				id: "0A13EEE25E4D8ADC"
+				item: "ars_nouveau:glyph_extract"
+				type: "item"
+			}]
+			title: "魔法笑传之抄抄背（）"
+			x: -8.0d
+			y: 0.5d
 		}
 	]
 	title: "{ftbquests.chapter.609746CF8BE6A11E.title}"

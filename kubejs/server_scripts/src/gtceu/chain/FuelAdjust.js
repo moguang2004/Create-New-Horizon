@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: 'gtceu:liquid_oxygen' })
+    event.remove({ id: 'gtceu:vacuum_freezer/liquid_oxygen' })
     let snow = event.recipes.gtceu
     snow.vacuum_freezer("adjust_liquid_oxygen")
         .inputFluids(Fluid.of('gtceu:oxygen', 1000))

@@ -21,7 +21,7 @@
 						value: "botania:petals"
 					}
 				}
-				title: "{ftbquests.chapter.09F33579334F2607.quest1.task.title1}"
+				title: "{ftbquests.chapter.09F33579334F2607.quest1.task_+4726395262142033582.title}"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.09F33579334F2607.quest1.title}"
@@ -773,7 +773,7 @@
 				{
 					count: 6L
 					id: "3BBD0E957715C8EB"
-					item: { Count: 6, id: "mythicbotany:rune_holder" }
+					item: "mythicbotany:rune_holder"
 					type: "item"
 				}
 			]
@@ -843,7 +843,7 @@
 				dimension: "mythicbotany:alfheim"
 				icon: "mythicbotany:dreamwood_leaves"
 				id: "4E08D6B660D67F57"
-				title: "{ftbquests.chapter.09F33579334F2607.quest55.task.title1}"
+				title: "{ftbquests.chapter.09F33579334F2607.quest55.task_+5622980213569126231.title}"
 				type: "dimension"
 			}]
 			x: 19.5d
@@ -955,7 +955,7 @@
 			id: "77961965EA86D0BF"
 			tasks: [{
 				id: "18B2B859195A4B79"
-				title: "{ftbquests.chapter.09F33579334F2607.quest64.task.title1}"
+				title: "{ftbquests.chapter.09F33579334F2607.quest64.task_+1779687495581715321.title}"
 				type: "checkmark"
 			}]
 			x: 17.0d
