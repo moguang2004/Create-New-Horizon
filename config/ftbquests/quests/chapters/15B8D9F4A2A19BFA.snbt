@@ -18,6 +18,7 @@
 	quests: [
 		{
 			id: "65F13C0C2212FC05"
+			subtitle: "它不发电，只输出应力"
 			tasks: [{
 				id: "1055D7FCC33FEE5A"
 				item: "ctpp:kinetic_steam_turbine"
@@ -27,8 +28,17 @@
 			y: -2.0d
 		}
 		{
+			description: [
+				"符文分级："
+				"1级：火水地风"
+				"2级：四季"
+				"3级：七宗罪"
+				"4级：神话植物学符文"
+				"5级：CTNH符文（视域，扭曲，增殖，星光）"
+				"类星体符文单分一级"
+			]
 			id: "21FEA920DE844E5C"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2.subtitle}"
+			subtitle: "注意要同时消耗燃料和液态魔力，否则效率将除以5"
 			tasks: [{
 				id: "4878830137B81FDD"
 				item: "ctnhcore:mana_generator_turbine_tier1"
@@ -38,8 +48,17 @@
 			y: -0.5d
 		}
 		{
+			description: [
+				"符文分级："
+				"1级：火水地风"
+				"2级：四季"
+				"3级：七宗罪"
+				"4级：神话植物学符文"
+				"5级：CTNH符文（视域，扭曲，增殖，星光）"
+				"类星体符文单分一级"
+			]
 			id: "4103567A8D3A9B46"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3.subtitle}"
+			subtitle: "注意要同时消耗燃料和液态魔力，否则效率将除以5"
 			tasks: [{
 				id: "565AD9B1D06DA31D"
 				item: "ctnhcore:mana_generator_turbine_tier2"
@@ -49,8 +68,17 @@
 			y: 1.0d
 		}
 		{
+			description: [
+				"符文分级："
+				"1级：火水地风"
+				"2级：四季"
+				"3级：七宗罪"
+				"4级：神话植物学符文"
+				"5级：CTNH符文（视域，扭曲，增殖，星光）"
+				"类星体符文单分一级"
+			]
 			id: "02AE26871BBA0CCF"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4.subtitle}"
+			subtitle: "注意要同时消耗燃料和液态魔力，否则效率将除以5"
 			tasks: [{
 				id: "4398844790CB30FB"
 				item: "ctnhcore:mana_generator_turbine_tier3"
@@ -60,8 +88,17 @@
 			y: 2.5d
 		}
 		{
+			description: [
+				"符文分级："
+				"1级：火水地风"
+				"2级：四季"
+				"3级：七宗罪"
+				"4级：神话植物学符文"
+				"5级：CTNH符文（视域，扭曲，增殖，星光）"
+				"类星体符文单分一级"
+			]
 			id: "2032BDD3A8B16E3C"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5.subtitle}"
+			subtitle: "注意要同时消耗燃料和液态魔力，否则效率将除以5"
 			tasks: [{
 				id: "068BD67372FB34AA"
 				item: "ctnhcore:mana_generator_turbine_tier4"
@@ -92,6 +129,7 @@
 		}
 		{
 			id: "3F133879B1E396A7"
+			subtitle: "经典发电"
 			tasks: [{
 				id: "4CF994857BAF8A84"
 				item: "gtceu:lv_combustion"
@@ -112,6 +150,7 @@
 		}
 		{
 			id: "06B866E1C6CD3EA6"
+			subtitle: "经典发电2号"
 			tasks: [{
 				id: "670FDB885917F891"
 				item: "gtceu:lv_gas_turbine"
@@ -213,6 +252,7 @@
 		}
 		{
 			id: "335E38A11EE1269B"
+			subtitle: "这是什么神经病玩意x2"
 			tasks: [{
 				id: "6559C6AF806AF26E"
 				item: "gtnn:iv_naquadah_reactor"
@@ -223,6 +263,7 @@
 		}
 		{
 			id: "566474383668316E"
+			subtitle: "推荐使用富集硅岩发电"
 			tasks: [{
 				id: "253CF47EA78058F3"
 				item: "gtnn:luv_naquadah_reactor"
@@ -233,6 +274,7 @@
 		}
 		{
 			id: "276895EC6427C435"
+			subtitle: "这一步富集硅岩开始不太行了，试试超能"
 			tasks: [{
 				id: "7DE01BAF8C645A63"
 				item: "gtnn:zpm_naquadah_reactor"
@@ -243,6 +285,7 @@
 		}
 		{
 			id: "6A5982BF9A0692C5"
+			subtitle: "推荐使用底下的硅岩堆发电"
 			tasks: [{
 				id: "32BFB382EA697960"
 				item: "gtnn:uv_naquadah_reactor"
@@ -394,6 +437,7 @@
 		}
 		{
 			id: "676107235021E96F"
+			subtitle: "这是什么神经病玩意"
 			tasks: [{
 				id: "5285D731555F76E0"
 				item: "gtnn:ev_naquadah_reactor"
@@ -404,6 +448,7 @@
 		}
 		{
 			id: "73409534B2EB6BAD"
+			subtitle: "叠叠乐"
 			tasks: [{
 				id: "206922990FD52766"
 				item: "ctnhcore:wind_power_array"

@@ -800,8 +800,8 @@
 				item: "gtnn:neutron_source"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -8.5d
+			x: 4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -1986,6 +1986,37 @@
 			}]
 			x: 2.5d
 			y: -14.5d
+		}
+		{
+			description: [
+				"中子加速器：通电给中子活化器加速中子，相当于特殊能源仓"
+				"中子传感器：可以设置中子速度范围，注意它单位是K中子加速器是M，当进入范围后发出红石信号"
+				"机器控制覆盖版：接受红石信号后暂停机器工作"
+				"使用方法：给中子加速器贴上覆盖版，然后用红石连接上传感器，设置范围，当加速到指定范围就会停止加速，稳定中子速度"
+				"结构只允许在最上方放置输入，最下方放置输出.可以叠加到64高度"
+			]
+			id: "271546D20FC6F478"
+			subtitle: "以后会有思索的"
+			tasks: [
+				{
+					id: "73BF6FB95790D060"
+					item: "gtnn:iv_neutron_accelerator"
+					type: "item"
+				}
+				{
+					id: "15083204C0E08DDE"
+					item: "gtnn:neutron_sensor"
+					type: "item"
+				}
+				{
+					id: "2BE98681A45DE32F"
+					item: "gtceu:machine_controller_cover"
+					type: "item"
+				}
+			]
+			title: "中子活化器使用方法（文字版）"
+			x: 6.5d
+			y: -8.5d
 		}
 	]
 	title: "{ftbquests.chapter.iv.title}"
