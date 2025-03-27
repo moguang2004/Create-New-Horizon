@@ -101,6 +101,10 @@ StartupEvents.registry("item", event => {
     tiers.forEach(tier => {
         event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
     })
+    let moreTiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
+    for(let i = 0; i < 15; i++) {
+        event.create('general_circuit_' + moreTiers[i]).tag('gtceu:circuits/' + moreTiers[i]).tooltip(GTValues.VNF[i] + '级电路板')
+    }
     event.create('crashed_rice')
     event.create('space_fabric')
     event.create('endslate')

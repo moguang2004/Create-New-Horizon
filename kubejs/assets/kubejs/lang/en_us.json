@@ -1,0 +1,19 @@
+{
+    "kubejs.attribute.pressure_defense": "Water Pressure Resistance",
+    "item.ctnh.durabilityofenergy": "Rest Energy: %s / %s EU",
+    "enchantment.kubejs.vacuum_seal.desc": "Protects you from vacuum damage. Note: All equipped items must have this enchantment to take effect",
+    "ctnh.zenith_soc": "Advanced Mana SOC Wafer",
+    "ctnh.zenith_soc.basic": "§5Enhanced Mana SOC",
+    "ctnh.zenith_eye": "§5Is it you watching your creation, or Him watching His?",
+    "ctnh.blood_magic_gregtech_hv": "Use this item as an offering in the Falling Star Beacon Ritual to summon meteorites",
+    "ctnh.mana_generation": "Direct mana bursts from a Mana Emitter to a Create fluid tank to convert mana - 100 mana becomes 2mB Liquid Mana",
+    "ctnh.broken_temperature_keeping_device": "Only lasts 10 minutes - find a suitable environment quickly!",
+    "ctnh.stone_process_catalyst": "Village stonemasons know this ancient technique - they'll teach you after you become a Hero of the Village",
+    "ctnh.metallurgical_catalyst": "Nether Piglins possess this knowledge - try bartering with them",
+    "ctnh.bauxite_process_catalyst": "Village librarians guard this ancient technique - prove yourself as a Hero of the Village to learn it",
+    "ctnh.platinum_metal_catalyst_shard1": "The tides of time turned these into aquatic treasures - fish them up",
+    "ctnh.platinum_metal_catalyst_shard2": "The abyssal Drowned Ones hold this secret - attempt to trade with them",
+    "btnh.ark_of_homo": "§mThe physical apex of your journey, wielding power to disintegrate homo§r\n§cLeft-click for a five-hit combo ending with a thrown blade that follows your cursor. Release during throw to detonate\n§r§eRight-click to slash forward. Successful hits parry attacks and grant brief invincibility. Can also deflect projectiles, reducing their damage by 160. Blocking builds 15 Charge stacks to empower normal attacks\n§9When enhanced, hold UP + Right-click to rupture spacetime, expending all Charge. With 5+ stacks, continue holding UP to dash through the rift\n\n(Industrial Pack Note: It's literally just ordinary scissors here)\nLOL\nHave Fun!(NOT)",
+    "kubejs.scp_500.0": "Panacea",
+    "kubejs.scp_500.1": "§4Can cure all diseases§4"
+}
