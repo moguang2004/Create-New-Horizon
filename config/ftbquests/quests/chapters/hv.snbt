@@ -405,6 +405,7 @@
 				"082ABAF36B6EC7DC"
 				"446AA42EB8DCE6EB"
 			]
+			hide_details_until_startable: false
 			id: "16243C6CC9C1CD8A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1677,6 +1678,7 @@
 				"1327BF0797F9200E"
 				"5CC2A3C37EB99ED3"
 				"279ED2DAD4CC60CD"
+				"279ED2DAD4CC60CD"
 			]
 			id: "7DD9B2E6104FFD7C"
 			tasks: [{
@@ -1850,6 +1852,17 @@
 			}]
 			x: 10.5d
 			y: 1.0d
+		}
+		{
+			id: "44ADCE097529FCFD"
+			subtitle: "如果你掌握了究极的附魔力量，你就可以制作一本名为“真空密封”的附魔书，跳过整个航空服线"
+			tasks: [{
+				id: "3E7FA5354FDFB830"
+				title: "悄悄告诉你"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 4.0d
 		}
 	]
 	title: "{ftbquests.chapter.hv.title}"

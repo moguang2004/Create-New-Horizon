@@ -1270,6 +1270,20 @@
 			x: 6.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["001B1FD0183C089D"]
+			description: ["线圈每1800K都会增加50%运行速度，记得换上好线圈"]
+			id: "3B3194C22AA50A4B"
+			size: 1.5d
+			subtitle: "更大，更快，更无损！"
+			tasks: [{
+				id: "5E9D94746BDECB62"
+				item: "ctnhcore:mega_lcr"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
 	]
 	title: "{ftbquests.chapter.ev.title}"
 }

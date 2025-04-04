@@ -816,6 +816,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
+			subtitle: "你需要LUV组装机"
 			tasks: [{
 				id: "12773E325CB750EF"
 				item: "gtnn:quark_core"
@@ -975,12 +976,13 @@
 		{
 			dependencies: ["2B778B5E697A84C2"]
 			id: "3B966B84827FDF0C"
+			subtitle: "UHPIC会需要巨量这个东西，你该思考一下如何量产了"
 			tasks: [{
 				id: "55FC128E9FAABD12"
 				item: "gtceu:indium_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 0.5d
 		}
 		{
@@ -992,17 +994,18 @@
 				item: "gtceu:indium_gallium_phosphide_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["2C77B86051EBAB43"]
 			id: "2B778B5E697A84C2"
 			tasks: [{
 				id: "61284484A2A8B60D"
 				item: "gtceu:indium_concentrate_bucket"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -1249,6 +1252,7 @@
 				"364B921AAE54EF9C"
 				"637D202FC567B932"
 			]
+			description: ["把数据球和要扫描的东西放进物品支架里"]
 			id: "56C88CA114314593"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1256,7 +1260,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.iv.quest72.subtitle}"
+			subtitle: "LUV时期才能做，必须和HPCA一起做"
 			tasks: [{
 				id: "4FB2DC37F499DCB6"
 				item: "gtceu:research_station"
@@ -1768,7 +1772,7 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
 		}
 		{
@@ -1886,12 +1890,25 @@
 				"{ftbquests.chapter.iv.quest110.description3}"
 			]
 			id: "364B921AAE54EF9C"
-			subtitle: "{ftbquests.chapter.iv.quest110.subtitle}"
-			tasks: [{
-				id: "5C6F7ED326438A39"
-				item: "gtceu:normal_optical_pipe"
-				type: "item"
-			}]
+			subtitle: "光缆可以拐弯，但不能分叉"
+			tasks: [
+				{
+					id: "5C6F7ED326438A39"
+					item: "gtceu:normal_optical_pipe"
+					type: "item"
+				}
+				{
+					id: "6B145409D917617B"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "7E148153896C4000"
+					item: "gtceu:data_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "研究三件套"
 			x: -3.5d
 			y: 6.5d
 		}
@@ -1988,6 +2005,7 @@
 			y: -14.5d
 		}
 		{
+			dependencies: ["49534975B8942923"]
 			description: [
 				"中子加速器：通电给中子活化器加速中子，相当于特殊能源仓"
 				"中子传感器：可以设置中子速度范围，注意它单位是K中子加速器是M，当进入范围后发出红石信号"
@@ -2017,6 +2035,41 @@
 			title: "中子活化器使用方法（文字版）"
 			x: 6.5d
 			y: -8.5d
+		}
+		{
+			description: [
+				"你的机械动力好朋友可以帮你解决其中一个供应"
+				""
+				"如果你不想挖矿，看看坠星位标吧"
+			]
+			id: "2C77B86051EBAB43"
+			subtitle: "你会需要巨量的这两种矿"
+			tasks: [
+				{
+					id: "691D102034804DE4"
+					item: "gtceu:purified_sphalerite_ore"
+					type: "item"
+				}
+				{
+					id: "7BA796171393C2C7"
+					item: "gtceu:purified_galena_ore"
+					type: "item"
+				}
+			]
+			title: "闪锌和方铅"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "1960FC2322EDCB12"
+			subtitle: "IV阶段获取硅岩"
+			tasks: [{
+				id: "1A0A0FE88A12687C"
+				item: "gtceu:naquadah_nugget"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
 		}
 	]
 	title: "{ftbquests.chapter.iv.title}"

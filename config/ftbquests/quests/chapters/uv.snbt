@@ -487,7 +487,7 @@
 				item: "gtceu:aether_ingot"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 18.0d
 			y: -3.0d
 		}
 		{
@@ -565,8 +565,8 @@
 				item: "ctnhcore:void_miner"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -3.0d
+			x: 18.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -925,6 +925,40 @@
 			}]
 			x: -6.5d
 			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7F81295FE18741A6"
+				"2B91C66AF05AEFE4"
+			]
+			id: "610A31DB73C17E42"
+			rewards: [{
+				count: 4
+				id: "3116558053E3426F"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "你滴转底炉回来辣！"
+			tasks: [{
+				id: "702449C7063C979C"
+				item: "ctnhcore:plasma_alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			id: "2B91C66AF05AEFE4"
+			subtitle: "感觉......不如.....超级电高"
+			tasks: [{
+				id: "709288CE4DFD43B5"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.0d
 		}
 	]
 	title: "{ftbquests.chapter.uv.title}"

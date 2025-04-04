@@ -330,27 +330,17 @@
 		}
 		{
 			dependencies: ["1F24CDB4B265DAE8"]
-			id: "04C6FD9012340E33"
-			tasks: [{
-				id: "597DA792939CAB0A"
-				item: "gtceu:trinium_ingot"
-				type: "item"
-			}]
-			x: -16.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["04C6FD9012340E33"]
 			id: "47D1E2F257A78CC8"
 			shape: "pentagon"
+			subtitle: "ZPM线圈"
 			tasks: [{
 				count: 16L
 				id: "7148FED2E30E7170"
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 6.5d
+			x: -16.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47D1E2F257A78CC8"]
@@ -361,31 +351,24 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 6.5d
+			x: -16.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["73A9B8C2B2142E54"]
+			dependencies: [
+				"2C5AAAE7171632CA"
+				"251E2EE2A84D76A2"
+			]
 			id: "637D202FC567B932"
-			subtitle: "{ftbquests.chapter.luv.quest27.subtitle}"
+			size: 2.0d
+			subtitle: "LUV时期才能做，给研究站输出算力，注意选择整除且最大的算法"
 			tasks: [{
 				id: "3C7C6EF260BFFAEE"
 				item: "gtceu:high_performance_computation_array"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["2C5AAAE7171632CA"]
-			id: "73A9B8C2B2142E54"
-			tasks: [{
-				id: "08719BA2977C0E6C"
-				item: "gtceu:luv_field_generator"
-				type: "item"
-			}]
 			x: -16.0d
-			y: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -663,19 +646,6 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["17292FB8D4DD36BA"]
-			description: ["{ftbquests.chapter.luv.quest51.description1}"]
-			icon: "gtmthings:luv_2a_wireless_energy_input_hatch"
-			id: "227C6AEB777B7E14"
-			tasks: [{
-				id: "0E554503F61713BB"
-				title: "{ftbquests.chapter.luv.quest51.task_+1032807572867322811.title}"
-				type: "checkmark"
-			}]
-			x: -16.0d
-			y: -3.5d
-		}
-		{
 			id: "59C320A0944927A3"
 			invisible: true
 			tasks: [{
@@ -895,6 +865,133 @@
 			title: "升级你的超净间过滤方块！"
 			x: -1.0d
 			y: -9.5d
+		}
+		{
+			dependencies: [
+				"251E2EE2A84D76A2"
+				"637D202FC567B932"
+			]
+			description: [""]
+			id: "3FB06067540E1931"
+			subtitle: "低级散热组件"
+			tasks: [{
+				id: "379A3E43FE501AFC"
+				item: "gtceu:hpca_heat_sink_component"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3FB06067540E1931"]
+			description: ["要消耗冷却液，别忘了"]
+			id: "2206089F4E43C59D"
+			rewards: [{
+				id: "57A22205F098B164"
+				item: "gtceu:hpca_heat_sink_component"
+				type: "item"
+			}]
+			subtitle: "高级散热组件，当你发现你的算力不够时就要把散热组件换成这个"
+			tasks: [{
+				id: "07E839453D413D32"
+				item: "gtceu:hpca_active_cooler_component"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"251E2EE2A84D76A2"
+				"637D202FC567B932"
+			]
+			id: "2FD33C4009211037"
+			subtitle: "记得配上散热组件，不然会被烧坏"
+			tasks: [{
+				id: "227AEACC2CFC6AC0"
+				item: "gtceu:hpca_computation_component"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2FD33C4009211037"]
+			description: ["如果你发现你因为算力不够且没法做高级计算组件而卡死，你就要看看你的冷却有没有升级和你的算策略是不是最优的"]
+			id: "31A773AB4898B8F8"
+			subtitle: "ZPM才能做"
+			tasks: [{
+				id: "7EF9D64A02F23501"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 10.5d
+		}
+		{
+			id: "251E2EE2A84D76A2"
+			rewards: [{
+				id: "687DB44D00698D5E"
+				item: "gtceu:hpca_empty_component"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A60EAF3EF2718E5"
+				item: "gtceu:hpca_empty_component"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["637D202FC567B932"]
+			description: [
+				"是时候开始HPCA叠叠乐了"
+				""
+				"别忘了给你的HPCA装上桥接组件，不然连不上交换机的"
+			]
+			icon: "gtceu:network_switch"
+			id: "1C276DAC38B004B1"
+			rewards: [{
+				id: "4083BF89C86EB8FC"
+				item: "gtceu:hpca_bridge_component"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "同样需要ZPM才能做"
+			tasks: [
+				{
+					id: "7800D6CAE77BAF6E"
+					item: "gtceu:network_switch"
+					type: "item"
+				}
+				{
+					id: "48EE4BBE1558A4CE"
+					item: "gtceu:hpca_bridge_component"
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6D997B6ECEE712BB"]
+			description: ["转底炉是谁？我不认识"]
+			id: "4F64AA1B00E26B4D"
+			rewards: [{
+				id: "19FC47C9C7D2CDBF"
+				item: "ctnhcore:ultimate_engine_intake_casing"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "太伟大了"
+			tasks: [{
+				id: "04F383507CBBE66E"
+				item: "ctnhcore:super_ebf"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -13.5d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"
