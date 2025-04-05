@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('8x kubejs:mana_cpu_wafer')
         .notConsumable("kubejs:mana_lens")
         .duration(200)
-        .EUt(1920)
+        .EUt(120)
 
     event.recipes.gtceu.laser_engraver('mana_cpu_wafer_neutronium')
         .itemInputs("gtceu:neutronium_wafer")
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('16x kubejs:mana_cpu_wafer')
         .notConsumable("kubejs:mana_lens")
         .duration(50)
-        .EUt(7680)
+        .EUt(180)
         //魔力CPU晶圆
 
 
@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('4x kubejs:elementium_cpu_wafer')
         .notConsumable("kubejs:elementium_lens")
         .duration(500)
-        .EUt(1920)
+        .EUt(120)
 
     event.recipes.gtceu.laser_engraver('elementium_cpu_wafer_neutronium_naquadah')
         .itemInputs("gtceu:naquadah_wafer")
@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('8x kubejs:elementium_cpu_wafer')
         .notConsumable("kubejs:elementium_lens")
         .duration(200)
-        .EUt(7680)
+        .EUt(180)
 
     event.recipes.gtceu.laser_engraver('elementium_cpu_wafer_neutronium')
         .itemInputs("gtceu:neutronium_wafer")
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('16x kubejs:elementium_cpu_wafer')
         .notConsumable("kubejs:elementium_lens")
         .duration(50)
-        .EUt(30720)
+        .EUt(111)
         //精灵CPU晶圆
 
 
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of('gtceu:mana', 16000))
         .itemOutputs("8x kubejs:elementium_cpu_chip")
         .duration(900)
-        .EUt(2048)
+        .EUt(122)
         //精灵CPU芯片
 
 

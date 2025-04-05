@@ -156,7 +156,7 @@
 		{
 			dependencies: ["3E4085419CE0ADB1"]
 			id: "349F87134F6B153F"
-			subtitle: "魔力扭曲指示器嗡嗡作响"
+			subtitle: "魔力盖革指示器嗡嗡作响"
 			tasks: [{
 				id: "328AE3DDC08D9528"
 				item: "gtceu:twist_mana_dust"
@@ -193,8 +193,10 @@
 			dependencies: ["130A19F7C214261C"]
 			description: [
 				"是的，你终于，制成了这种&1终极魔力&r。它在你的手中跳动，是如此的完美。空间也为之颤动，魔力的立场自这个锭散开....."
+				""
 				"过量魔力和放射性物质的注入却得到了这么一个完美的物质.....稳定，而又富含能量，连空间都要为你的奇迹让步......这绝对是你法师历史上最伟大的一笔。"
-				"那么是时候了，开始你的&1终极魔力飞升了&r。现在，让那群原始人精灵看看你的力量"
+				""
+				"那么是时候了，开始你的&1终极魔力飞升了&r。现在，让那群原始人精灵看看什么才是真正的奥术魔法"
 			]
 			id: "505115AA8810BBE5"
 			subtitle: "{ftbquests.chapter.1FD18D8B41761626.quest14.subtitle}"
@@ -248,7 +250,8 @@
 		{
 			dependencies: ["505115AA8810BBE5"]
 			description: [
-				"这真的是聚变吗？粒子在这台机器中颤动，随你心愿地扭曲成各种物质.....你完全没法理解这是怎么实现的。"
+				"这真的是聚变吗？粒子在这台机器中颤动，随你心愿地扭曲成各种物质.....它们甚至可以按照字母来进行随意组合.....你完全无法理解它的工作方式."
+				""
 				"你对这台机器还不够完善，所以你还不能进行更高能量的聚变，未来这台机器的改进版也许可以让你彻底领悟这台机器的奥妙"
 			]
 			id: "0FBBCA604978BE1C"
@@ -584,7 +587,10 @@
 			y: 20.5d
 		}
 		{
-			dependencies: ["6205780525A93130"]
+			dependencies: [
+				"6205780525A93130"
+				"57B52F859023B1C5"
+			]
 			description: [
 				"利用类星体符文的力量，你成功复现了这伟大的创造——一个利用魔力制成的恒星的超级装置"
 				""
@@ -730,43 +736,59 @@
 		}
 		{
 			description: [
-				"这个东西可能是百年前精灵的&a彩虹桥战争&r中某位神明留下的东西，现在你需要一点花一点小资源来换取它"
+				"这个东西可能是百年前精灵的&a彩虹桥战争&r中某位神明留下的东西，现在你需要一点花一点资源，并请我喝一杯来换取它"
 				"&4附赠的材料清单可以让你更好的收集材料，别看JEI,JEI丢了大量方块&r"
 			]
+			icon: "kubejs:heart_of_flower"
 			id: "3E82E716148024D1"
-			rewards: [{
-				id: "4E126BB5C2DD0C8F"
-				item: {
-					Count: 1
-					id: "minecraft:written_book"
-					tag: {
-						author: "Schematicannon"
-						display: {
-							Name: "{\"italic\":false,\"color\":\"blue\",\"translate\":\"create.materialChecklist\"}"
+			rewards: [
+				{
+					id: "4E126BB5C2DD0C8F"
+					item: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Schematicannon"
+							display: {
+								Name: "{\"italic\":false,\"color\":\"blue\",\"translate\":\"create.materialChecklist\"}"
+							}
+							pages: [
+								"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:stainless_evaporation_casing\"}},\"translate\":\"block.gtceu.stainless_evaporation_casing\"},{\"color\":\"black\",\"text\":\"\\n x56\"},{\"color\":\"gray\",\"text\":\" | 0▤ +56\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:shulk_me_not\"}},\"translate\":\"block.botania.shulk_me_not\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:fallen_kanade\"}},\"translate\":\"block.botania.fallen_kanade\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:blue_archwood_log\"}},\"translate\":\"block.ars_nouveau.blue_archwood_log\"},{\"color\":\"black\",\"text\":\"\\n x194\"},{\"color\":\"gray\",\"text\":\" | 3▤ +2\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:blue_archwood_leaves\"}},\"translate\":\"block.ars_nouveau.blue_archwood_leaves\"},{\"color\":\"black\",\"text\":\"\\n x1122\"},{\"color\":\"gray\",\"text\":\" | 17▤ +34\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:bellethorn\"}},\"translate\":\"block.botania.bellethorn\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:smooth_quartz_slab\"}},\"translate\":\"block.minecraft.smooth_quartz_slab\"},{\"color\":\"black\",\"text\":\"\\n x92\"},{\"color\":\"gray\",\"text\":\" | 1▤ +28\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:smooth_quartz\"}},\"translate\":\"block.minecraft.smooth_quartz\"},{\"color\":\"black\",\"text\":\"\\n x380\"},{\"color\":\"gray\",\"text\":\" | 5▤ +60\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:smooth_quartz_stairs\"}},\"translate\":\"block.minecraft.smooth_quartz_stairs\"},{\"color\":\"black\",\"text\":\"\\n x52\"},{\"color\":\"gray\",\"text\":\" | 0▤ +52\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:dreadthorn\"}},\"translate\":\"block.botania.dreadthorn\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:purple_archwood_log\"}},\"translate\":\"block.ars_nouveau.purple_archwood_log\"},{\"color\":\"black\",\"text\":\"\\n x140\"},{\"color\":\"gray\",\"text\":\" | 2▤ +12\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:purple_archwood_wood\"}},\"translate\":\"block.ars_nouveau.purple_archwood_wood\"},{\"color\":\"black\",\"text\":\"\\n x57\"},{\"color\":\"gray\",\"text\":\" | 0▤ +57\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:purple_archwood_leaves\"}},\"translate\":\"block.ars_nouveau.purple_archwood_leaves\"},{\"color\":\"black\",\"text\":\"\\n x397\"},{\"color\":\"gray\",\"text\":\" | 6▤ +13\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:dirt\"}},\"translate\":\"block.minecraft.dirt\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:clean_machine_casing\"}},\"translate\":\"block.gtceu.clean_machine_casing\"},{\"color\":\"black\",\"text\":\"\\n x2390\"},{\"color\":\"gray\",\"text\":\" | 37▤ +22\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:floating_fallen_kanade\"}},\"translate\":\"block.botania.floating_fallen_kanade\"},{\"color\":\"black\",\"text\":\"\\n x14\"},{\"color\":\"gray\",\"text\":\" | 0▤ +14\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:floating_heisei_dream\"}},\"translate\":\"block.botania.floating_heisei_dream\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:floating_dreadthorn\"}},\"translate\":\"block.botania.floating_dreadthorn\"},{\"color\":\"black\",\"text\":\"\\n x14\"},{\"color\":\"gray\",\"text\":\" | 0▤ +14\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:floating_jiyuulia\"}},\"translate\":\"block.botania.floating_jiyuulia\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:floating_labellia\"}},\"translate\":\"block.botania.floating_labellia\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:red_archwood_leaves\"}},\"translate\":\"block.ars_nouveau.red_archwood_leaves\"},{\"color\":\"black\",\"text\":\"\\n x52\"},{\"color\":\"gray\",\"text\":\" | 0▤ +52\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:white_floating_flower\"}},\"translate\":\"block.botania.white_floating_flower\"},{\"color\":\"black\",\"text\":\"\\n x14\"},{\"color\":\"gray\",\"text\":\" | 0▤ +14\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:white_mystical_flower\"}},\"translate\":\"block.botania.white_mystical_flower\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:quartz_pillar\"}},\"translate\":\"block.minecraft.quartz_pillar\"},{\"color\":\"black\",\"text\":\"\\n x36\"},{\"color\":\"gray\",\"text\":\" | 0▤ +36\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:elf_quartz_pillar\"}},\"translate\":\"block.botania.elf_quartz_pillar\"},{\"color\":\"black\",\"text\":\"\\n x88\"},{\"color\":\"gray\",\"text\":\" | 1▤ +24\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mythicbotany:alfsteel_pylon\"}},\"translate\":\"block.mythicbotany.alfsteel_pylon\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:elf_glass\"}},\"translate\":\"block.botania.elf_glass\"},{\"color\":\"black\",\"text\":\"\\n x653\"},{\"color\":\"gray\",\"text\":\" | 10▤ +13\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:elf_quartz_slab\"}},\"translate\":\"block.botania.elf_quartz_slab\"},{\"color\":\"black\",\"text\":\"\\n x236\"},{\"color\":\"gray\",\"text\":\" | 3▤ +44\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:elf_quartz\"}},\"translate\":\"block.botania.elf_quartz\"},{\"color\":\"black\",\"text\":\"\\n x223\"},{\"color\":\"gray\",\"text\":\" | 3▤ +31\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:elf_quartz_stairs\"}},\"translate\":\"block.botania.elf_quartz_stairs\"},{\"color\":\"black\",\"text\":\"\\n x128\"},{\"color\":\"gray\",\"text\":\" | 2▤ +0\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:alfheim_portal\"}},\"translate\":\"block.botania.alfheim_portal\"},{\"color\":\"black\",\"text\":\"\\n x9\"},{\"color\":\"gray\",\"text\":\" | 0▤ +9\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:green_archwood_log\"}},\"translate\":\"block.ars_nouveau.green_archwood_log\"},{\"color\":\"black\",\"text\":\"\\n x88\"},{\"color\":\"gray\",\"text\":\" | 1▤ +24\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:green_archwood_leaves\"}},\"translate\":\"block.ars_nouveau.green_archwood_leaves\"},{\"color\":\"black\",\"text\":\"\\n x112\"},{\"color\":\"gray\",\"text\":\" | 1▤ +48\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:natura_pylon\"}},\"translate\":\"block.botania.natura_pylon\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:grass_block\"}},\"translate\":\"block.minecraft.grass_block\"},{\"color\":\"black\",\"text\":\"\\n x144\"},{\"color\":\"gray\",\"text\":\" | 2▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:glowstone\"}},\"translate\":\"block.minecraft.glowstone\"},{\"color\":\"black\",\"text\":\"\\n x117\"},{\"color\":\"gray\",\"text\":\" | 1▤ +53\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:distillation_tower\"}},\"translate\":\"block.gtceu.distillation_tower\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:vinculotus\"}},\"translate\":\"block.botania.vinculotus\"},{\"color\":\"black\",\"text\":\"\\n x19\"},{\"color\":\"gray\",\"text\":\" | 0▤ +19\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:chiseled_elf_quartz\"}},\"translate\":\"block.botania.chiseled_elf_quartz\"},{\"color\":\"black\",\"text\":\"\\n x68\"},{\"color\":\"gray\",\"text\":\" | 1▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:rosa_arcana\"}},\"translate\":\"block.botania.rosa_arcana\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+								"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:mana_pylon\"}},\"translate\":\"block.botania.mana_pylon\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:black_floating_flower\"}},\"translate\":\"block.botania.black_floating_flower\"},{\"color\":\"black\",\"text\":\"\\n x14\"},{\"color\":\"gray\",\"text\":\" | 0▤ +14\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:black_mystical_flower\"}},\"translate\":\"block.botania.black_mystical_flower\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\\n\"}],\"text\":\"\"}],\"text\":\"\"}"
+							]
+							readonly: 1b
+							resolved: 1b
+							title: "§9Material Checklist"
 						}
-						pages: [
-							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:stainless_evaporation_casing\"}},\"translate\":\"block.gtceu.stainless_evaporation_casing\"},{\"color\":\"black\",\"text\":\"\\n x56\"},{\"color\":\"gray\",\"text\":\" | 0▤ +56\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:shulk_me_not\"}},\"translate\":\"block.botania.shulk_me_not\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:fallen_kanade\"}},\"translate\":\"block.botania.fallen_kanade\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:blue_archwood_log\"}},\"translate\":\"block.ars_nouveau.blue_archwood_log\"},{\"color\":\"black\",\"text\":\"\\n x194\"},{\"color\":\"gray\",\"text\":\" | 3▤ +2\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:blue_archwood_leaves\"}},\"translate\":\"block.ars_nouveau.blue_archwood_leaves\"},{\"color\":\"black\",\"text\":\"\\n x1122\"},{\"color\":\"gray\",\"text\":\" | 17▤ +34\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
-							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:bellethorn\"}},\"translate\":\"block.botania.bellethorn\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:smooth_quartz_slab\"}},\"translate\":\"block.minecraft.smooth_quartz_slab\"},{\"color\":\"black\",\"text\":\"\\n x92\"},{\"color\":\"gray\",\"text\":\" | 1▤ +28\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:smooth_quartz\"}},\"translate\":\"block.minecraft.smooth_quartz\"},{\"color\":\"black\",\"text\":\"\\n x380\"},{\"color\":\"gray\",\"text\":\" | 5▤ +60\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:smooth_quartz_stairs\"}},\"translate\":\"block.minecraft.smooth_quartz_stairs\"},{\"color\":\"black\",\"text\":\"\\n x52\"},{\"color\":\"gray\",\"text\":\" | 0▤ +52\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:dreadthorn\"}},\"translate\":\"block.botania.dreadthorn\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
-							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:purple_archwood_log\"}},\"translate\":\"block.ars_nouveau.purple_archwood_log\"},{\"color\":\"black\",\"text\":\"\\n x140\"},{\"color\":\"gray\",\"text\":\" | 2▤ +12\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:purple_archwood_wood\"}},\"translate\":\"block.ars_nouveau.purple_archwood_wood\"},{\"color\":\"black\",\"text\":\"\\n x57\"},{\"color\":\"gray\",\"text\":\" | 0▤ +57\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:purple_archwood_leaves\"}},\"translate\":\"block.ars_nouveau.purple_archwood_leaves\"},{\"color\":\"black\",\"text\":\"\\n x397\"},{\"color\":\"gray\",\"text\":\" | 6▤ +13\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:dirt\"}},\"translate\":\"block.minecraft.dirt\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:clean_machine_casing\"}},\"translate\":\"block.gtceu.clean_machine_casing\"},{\"color\":\"black\",\"text\":\"\\n x2390\"},{\"color\":\"gray\",\"text\":\" | 37▤ +22\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
-							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:floating_fallen_kanade\"}},\"translate\":\"block.botania.floating_fallen_kanade\"},{\"color\":\"black\",\"text\":\"\\n x14\"},{\"color\":\"gray\",\"text\":\" | 0▤ +14\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:floating_heisei_dream\"}},\"translate\":\"block.botania.floating_heisei_dream\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:floating_dreadthorn\"}},\"translate\":\"block.botania.floating_dreadthorn\"},{\"color\":\"black\",\"text\":\"\\n x14\"},{\"color\":\"gray\",\"text\":\" | 0▤ +14\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:floating_jiyuulia\"}},\"translate\":\"block.botania.floating_jiyuulia\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:floating_labellia\"}},\"translate\":\"block.botania.floating_labellia\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
-							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:red_archwood_leaves\"}},\"translate\":\"block.ars_nouveau.red_archwood_leaves\"},{\"color\":\"black\",\"text\":\"\\n x52\"},{\"color\":\"gray\",\"text\":\" | 0▤ +52\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:white_floating_flower\"}},\"translate\":\"block.botania.white_floating_flower\"},{\"color\":\"black\",\"text\":\"\\n x14\"},{\"color\":\"gray\",\"text\":\" | 0▤ +14\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:white_mystical_flower\"}},\"translate\":\"block.botania.white_mystical_flower\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:quartz_pillar\"}},\"translate\":\"block.minecraft.quartz_pillar\"},{\"color\":\"black\",\"text\":\"\\n x36\"},{\"color\":\"gray\",\"text\":\" | 0▤ +36\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:elf_quartz_pillar\"}},\"translate\":\"block.botania.elf_quartz_pillar\"},{\"color\":\"black\",\"text\":\"\\n x88\"},{\"color\":\"gray\",\"text\":\" | 1▤ +24\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
-							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"mythicbotany:alfsteel_pylon\"}},\"translate\":\"block.mythicbotany.alfsteel_pylon\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:elf_glass\"}},\"translate\":\"block.botania.elf_glass\"},{\"color\":\"black\",\"text\":\"\\n x653\"},{\"color\":\"gray\",\"text\":\" | 10▤ +13\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:elf_quartz_slab\"}},\"translate\":\"block.botania.elf_quartz_slab\"},{\"color\":\"black\",\"text\":\"\\n x236\"},{\"color\":\"gray\",\"text\":\" | 3▤ +44\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:elf_quartz\"}},\"translate\":\"block.botania.elf_quartz\"},{\"color\":\"black\",\"text\":\"\\n x223\"},{\"color\":\"gray\",\"text\":\" | 3▤ +31\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:elf_quartz_stairs\"}},\"translate\":\"block.botania.elf_quartz_stairs\"},{\"color\":\"black\",\"text\":\"\\n x128\"},{\"color\":\"gray\",\"text\":\" | 2▤ +0\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
-							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:alfheim_portal\"}},\"translate\":\"block.botania.alfheim_portal\"},{\"color\":\"black\",\"text\":\"\\n x9\"},{\"color\":\"gray\",\"text\":\" | 0▤ +9\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:green_archwood_log\"}},\"translate\":\"block.ars_nouveau.green_archwood_log\"},{\"color\":\"black\",\"text\":\"\\n x88\"},{\"color\":\"gray\",\"text\":\" | 1▤ +24\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ars_nouveau:green_archwood_leaves\"}},\"translate\":\"block.ars_nouveau.green_archwood_leaves\"},{\"color\":\"black\",\"text\":\"\\n x112\"},{\"color\":\"gray\",\"text\":\" | 1▤ +48\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:natura_pylon\"}},\"translate\":\"block.botania.natura_pylon\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:grass_block\"}},\"translate\":\"block.minecraft.grass_block\"},{\"color\":\"black\",\"text\":\"\\n x144\"},{\"color\":\"gray\",\"text\":\" | 2▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
-							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"minecraft:glowstone\"}},\"translate\":\"block.minecraft.glowstone\"},{\"color\":\"black\",\"text\":\"\\n x117\"},{\"color\":\"gray\",\"text\":\" | 1▤ +53\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:distillation_tower\"}},\"translate\":\"block.gtceu.distillation_tower\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:vinculotus\"}},\"translate\":\"block.botania.vinculotus\"},{\"color\":\"black\",\"text\":\"\\n x19\"},{\"color\":\"gray\",\"text\":\" | 0▤ +19\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:chiseled_elf_quartz\"}},\"translate\":\"block.botania.chiseled_elf_quartz\"},{\"color\":\"black\",\"text\":\"\\n x68\"},{\"color\":\"gray\",\"text\":\" | 1▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:rosa_arcana\"}},\"translate\":\"block.botania.rosa_arcana\"},{\"color\":\"black\",\"text\":\"\\n x20\"},{\"color\":\"gray\",\"text\":\" | 0▤ +20\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
-							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:mana_pylon\"}},\"translate\":\"block.botania.mana_pylon\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:black_floating_flower\"}},\"translate\":\"block.botania.black_floating_flower\"},{\"color\":\"black\",\"text\":\"\\n x14\"},{\"color\":\"gray\",\"text\":\" | 0▤ +14\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"botania:black_mystical_flower\"}},\"translate\":\"block.botania.black_mystical_flower\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\\n\"}],\"text\":\"\"}],\"text\":\"\"}"
-						]
-						readonly: 1b
-						resolved: 1b
-						title: "§9Material Checklist"
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1ACC8E57BD7A71A4"
-				item: "alexscaves:immortal_embryo"
-				type: "item"
-			}]
+				{
+					id: "4BB962608BCD984B"
+					item: "kubejs:heart_of_flower"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "2AD15F202E693336"
+					item: { Count: 64, id: "mythicbotany:alfsteel_ingot" }
+					type: "item"
+				}
+				{
+					id: "66D92898D52FE4EC"
+					item: "mythicbotany:gjallar_horn_full"
+					type: "item"
+				}
+			]
 			title: "没法量产，至少有一个"
 			x: -3.5d
 			y: 2.5d
@@ -1046,6 +1068,7 @@
 				item: "botania:thermalily"
 				type: "item"
 			}]
+			title: "火绣球"
 			x: -4.5d
 			y: -4.5d
 		}
@@ -1239,7 +1262,9 @@
 			dependencies: ["598984AA1D8A72EA"]
 			description: [
 				"看看你都做了什么，你对魔法无止境的利用最终招来了天谴——&4什么，你把这都自动化了？撒旦来了都要找你来振兴炼狱工业&r"
+				""
 				"这台机器可以为你带来无穷无尽的矿石——只需要一点简单的资源。"
+				""
 				"&4这个机器说的破坏机器结构的tips不是给你看的，是给我们这些写配方的怨种自己看的，这个包没有那种配方"
 			]
 			id: "435017293FC9CA3E"
@@ -1351,18 +1376,6 @@
 			y: 7.5d
 		}
 		{
-			description: ["现在你蒸馏魔力的效率提高了，是时候辅助下你的永恒花园了"]
-			id: "44FB9D0F388E5808"
-			tasks: [{
-				id: "43EBC394FAC41299"
-				item: "gtceu:uv_electric_pump"
-				type: "item"
-			}]
-			title: "抽干魔力世界！"
-			x: 5.5d
-			y: 6.0d
-		}
-		{
 			description: ["创造即为无穷"]
 			id: "258665E0966F5B80"
 			subtitle: "我们无所不能"
@@ -1371,7 +1384,7 @@
 				item: "ctnhcore:twisted_fusion_mkinfinity"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.0d
 			y: 6.0d
 		}
 		{
@@ -1395,7 +1408,7 @@
 				item: "ctnhcore:twisted_fusion_mkalephnull"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 24.0d
 			y: 6.0d
 		}
 		{
@@ -1425,6 +1438,60 @@
 			}]
 			x: -6.5d
 			y: -4.5d
+		}
+		{
+			description: [
+				"好吧我知道你晕头转向的，让我来告诉你你要在这里干什么。"
+				""
+				"首先你要找到一个特殊的锁，普通的钥匙打不开，你需要做一个标点，因为这个锁只有一个。"
+				""
+				"然后你要绕几百圈，直到你进入一个房间时在左下角显示了一行特殊的文字，恭喜你，钥匙就在这里了！拿着它去打开那把锁吧（你一定做过标记了对吧：XD）"
+				""
+				"当你打开了锁后，就可以进矿坑探索了，留意下你脚下的那群建筑材料，你的恶魔机器需要这些东西"
+			]
+			id: "310339D1792AF716"
+			subtitle: "真的是无尽"
+			tasks: [{
+				id: "252552F8F81B3A05"
+				item: "bloodmagic:ingot_hellforged"
+				type: "item"
+			}]
+			title: "无尽门扉在召唤"
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			id: "57B52F859023B1C5"
+			rewards: [{
+				id: "17A2DE6BE0802405"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Schematicannon"
+						display: {
+							Name: "{\"italic\":false,\"color\":\"blue\",\"translate\":\"create.materialChecklist\"}"
+						}
+						pages: [
+							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:luv_energy_input_hatch_16a\"}},\"translate\":\"block.gtceu.luv_energy_input_hatch_16a\"},{\"color\":\"black\",\"text\":\"\\n x2\"},{\"color\":\"gray\",\"text\":\" | 0▤ +2\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:uv_machine_casing\"}},\"translate\":\"block.gtceu.uv_machine_casing\"},{\"color\":\"black\",\"text\":\"\\n x22\"},{\"color\":\"gray\",\"text\":\" | 0▤ +22\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ctnhcore:nicoll_dyson_beams\"}},\"translate\":\"block.ctnhcore.nicoll_dyson_beams\"},{\"color\":\"black\",\"text\":\"\\n x1\"},{\"color\":\"gray\",\"text\":\" | 0▤ +1\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:neutronium_block\"}},\"translate\":\"tagprefix.block\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:neutronium_frame\"}},\"translate\":\"tagprefix.frame\"},{\"color\":\"black\",\"text\":\"\\n x64\"},{\"color\":\"gray\",\"text\":\" | 1▤ +0\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ctnhcore:depth_force_field_stabilizing_casing\"}},\"translate\":\"block.ctnhcore.depth_force_field_stabilizing_casing\"},{\"color\":\"black\",\"text\":\"\\n x192\"},{\"color\":\"gray\",\"text\":\" | 3▤ +0\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ctnhcore:naquadah_gearbox\"}},\"translate\":\"block.ctnhcore.naquadah_gearbox\"},{\"color\":\"black\",\"text\":\"\\n x12\"},{\"color\":\"gray\",\"text\":\" | 0▤ +12\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:naquadah_block\"}},\"translate\":\"tagprefix.block\"},{\"color\":\"black\",\"text\":\"\\n x17\"},{\"color\":\"gray\",\"text\":\" | 0▤ +17\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:naquadah_frame\"}},\"translate\":\"tagprefix.frame\"},{\"color\":\"black\",\"text\":\"\\n x435\"},{\"color\":\"gray\",\"text\":\" | 6▤ +51\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ctnhcore:quasar_energy_stabilization_casing\"}},\"translate\":\"block.ctnhcore.quasar_energy_stabilization_casing\"},{\"color\":\"black\",\"text\":\"\\n x88\"},{\"color\":\"gray\",\"text\":\" | 1▤ +24\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ctnhcore:ulta_mana_coil_block\"}},\"translate\":\"block.ctnhcore.ulta_mana_coil_block\"},{\"color\":\"black\",\"text\":\"\\n x688\"},{\"color\":\"gray\",\"text\":\" | 10▤ +48\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"ctnhcore:alfsteel_casing\"}},\"translate\":\"block.ctnhcore.alfsteel_casing\"},{\"color\":\"black\",\"text\":\"\\n x3\"},{\"color\":\"gray\",\"text\":\" | 0▤ +3\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:fusion_casing_mk3\"}},\"translate\":\"block.gtceu.fusion_casing_mk3\"},{\"color\":\"black\",\"text\":\"\\n x1543\"},{\"color\":\"gray\",\"text\":\" | 24▤ +7\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:fusion_glass\"}},\"translate\":\"block.gtceu.fusion_glass\"},{\"color\":\"black\",\"text\":\"\\n x124\"},{\"color\":\"gray\",\"text\":\" | 1▤ +60\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:fusion_coil\"}},\"translate\":\"block.gtceu.fusion_coil\"},{\"color\":\"black\",\"text\":\"\\n x543\"},{\"color\":\"gray\",\"text\":\" | 8▤ +31\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:blue_alloy_block\"}},\"translate\":\"tagprefix.block\"},{\"color\":\"black\",\"text\":\"\\n x16\"},{\"color\":\"gray\",\"text\":\" | 0▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:blue_alloy_frame\"}},\"translate\":\"tagprefix.frame\"},{\"color\":\"black\",\"text\":\"\\n x234\"},{\"color\":\"gray\",\"text\":\" | 3▤ +42\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:computer_casing\"}},\"translate\":\"block.gtceu.computer_casing\"},{\"color\":\"black\",\"text\":\"\\n x92\"},{\"color\":\"gray\",\"text\":\" | 1▤ +28\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:naquadria_block\"}},\"translate\":\"tagprefix.block\"},{\"color\":\"black\",\"text\":\"\\n x24\"},{\"color\":\"gray\",\"text\":\" | 0▤ +24\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:darmstadtium_block\"}},\"translate\":\"tagprefix.block\"},{\"color\":\"black\",\"text\":\"\\n x4\"},{\"color\":\"gray\",\"text\":\" | 0▤ +4\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"text\":\"\\n >>>\"}],\"text\":\"\"}"
+							"{\"extra\":[{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:iridium_block\"}},\"translate\":\"tagprefix.block\"},{\"color\":\"black\",\"text\":\"\\n x80\"},{\"color\":\"gray\",\"text\":\" | 1▤ +16\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:advanced_computer_casing\"}},\"translate\":\"block.gtceu.advanced_computer_casing\"},{\"color\":\"black\",\"text\":\"\\n x8\"},{\"color\":\"gray\",\"text\":\" | 0▤ +8\\n\"}],\"text\":\"\"},{\"color\":\"blue\",\"extra\":[{\"hoverEvent\":{\"action\":\"show_item\",\"contents\":{\"id\":\"gtceu:high_power_casing\"}},\"translate\":\"block.gtceu.high_power_casing\"},{\"color\":\"black\",\"text\":\"\\n x129\"},{\"color\":\"gray\",\"text\":\" | 2▤ +1\\n\"}],\"text\":\"\"}],\"text\":\"\"}"
+						]
+						readonly: 1b
+						title: "§9Material Checklist"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F04B2D6178184B5"
+				title: "戴森光束JEI丢方块了，用这本蓝图吧"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 10.5d
 		}
 	]
 	title: "{ftbquests.chapter.1FD18D8B41761626.title}"

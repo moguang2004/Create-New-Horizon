@@ -102,7 +102,7 @@ StartupEvents.registry("item", event => {
         event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
     })
     let moreTiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
-    for(let i = 0; i < 15; i++) {
+    for (let i = 0; i < 15; i++) {
         event.create('general_circuit_' + moreTiers[i]).tag('gtceu:circuits/' + moreTiers[i]).tooltip(GTValues.VNF[i] + '级电路板')
     }
     event.create('crashed_rice')
@@ -170,6 +170,7 @@ StartupEvents.registry("item", event => {
     event.create('adamantite_proton_source')
     event.create('source_of_countless_magical_powers').tooltip("疯狂至极")
     event.create('book_of_ruina').tooltip("一场赞歌摇篮曲")
+    event.create('heart_of_flower').tooltip("§2她曾存在过")
 })
 StartupEvents.registry("item", event => {
     event.create("scp_500", "basic").food(food => {

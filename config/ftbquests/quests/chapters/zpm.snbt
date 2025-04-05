@@ -8,14 +8,6 @@
 	order_index: 6
 	quest_links: [
 		{
-			id: "2AB47F025A168891"
-			linked_quest: "29086C6A9A5FA58E"
-			shape: "rsquare"
-			size: 1.5d
-			x: -4.0d
-			y: 0.5d
-		}
-		{
 			id: "4F2B606F0BCDD83B"
 			linked_quest: "4F8A3B3DFEE2B87E"
 			x: -4.0d
@@ -30,7 +22,6 @@
 	]
 	quests: [
 		{
-			dependencies: ["29086C6A9A5FA58E"]
 			id: "07D0FD2AC4C767B2"
 			shape: "gear"
 			size: 2.0d
@@ -1013,6 +1004,59 @@
 			}]
 			x: 0.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["0FE50A78729EF06F"]
+			id: "68F1E652B8BA5A07"
+			subtitle: "把两个最硬的东西混起来会发生什么？"
+			tasks: [{
+				id: "2A773B7AF70575BE"
+				item: "gtceu:bedrock_neutronium_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["68F1E652B8BA5A07"]
+			id: "527E6E7130A16435"
+			rewards: [{
+				id: "6A19197F2BCD0B34"
+				item: "gtceu:neutron_reflector"
+				type: "item"
+			}]
+			subtitle: "坚不坚不可摧"
+			tasks: [{
+				id: "4EEA8E4FE57CE0DB"
+				item: "kubejs:strongly_interacting_neutron_refector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["527E6E7130A16435"]
+			id: "7506DBB3B4B03B05"
+			subtitle: "中子活化器那一套不好用了"
+			tasks: [{
+				id: "77B1DBAD5BD53176"
+				item: "ctnhcore:widespeedingpipe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7506DBB3B4B03B05"]
+			id: "0BF9AD47D3294ACE"
+			subtitle: "一台更比三台强"
+			tasks: [{
+				id: "73BC2FA2FF8469C3"
+				item: "ctnhcore:wideparticleaccelerator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
 		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"
