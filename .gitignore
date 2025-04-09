@@ -63,3 +63,10 @@ config/modernfix-mixins.properties
 config/InventoryHUD/curios.json
 config/fancymenu/options.txt
 config/touhou_little_maid/info.json
+/assets
+.gitignore
+PCL.ini
+/libraries
+versions/dev/dev.jar
+versions/dev/dev.json
+versions/dev/PCL/Setup.ini
