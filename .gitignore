@@ -1,6 +1,5 @@
 /Xaero*/
 *.md
-!README.md
 /daimashili.ini
 /emi.json
 /exports
