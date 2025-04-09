@@ -20,8 +20,8 @@
         },
         {
           "type": "item",
-          "name": "gtceu:micro_processor",
-          "weight": 4,
+          "name": "gtceu:basic_electronic_circuit",
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",

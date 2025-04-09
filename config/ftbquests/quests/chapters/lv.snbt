@@ -1279,6 +1279,45 @@
 			x: -3.0d
 			y: -2.5d
 		}
+		{
+			description: ["    涉及GT的部分会变得复杂且深奥，此时建议你多看看&l&b“存在即被感知”&r这章再去提问。"]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1878141411
+							540102149
+							-1492416550
+							-2028171038
+						]
+						Name: "Snow_city"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc0NDE2ODgwMjg5OCwKICAicHJvZmlsZUlkIiA6ICI2ZmYyMjllMzIwMzE0ZTA1YTcwYjg3ZGE4NzFjOTBlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbm93X2NpdHkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU4MDE5Yjc5NTM3MmFhNmEzYmU4ZGZkMjEzMThhM2U1MTZiYTYxNmIyNDI3NDE0NjNjM2ZlNTY2MmNjMTEzNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOWQ4MmFiMTdmZDkyMDIyZGJkNGE4NmNkZTRjMzgyYTc1NDBlMTE3ZmFlN2I5YTI4NTM2NTg1MDVhODA2MjUiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+			id: "4C629C73B44152E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B03A65AC051E667"
+				table_id: 601634794626000726L
+				type: "random"
+			}]
+			subtitle: "存在即被感知"
+			tasks: [{
+				id: "571A2A5C1EE0A281"
+				title: "别点太快！"
+				type: "checkmark"
+			}]
+			title: "免费奖励！"
+			x: -7.5d
+			y: 0.5d
+		}
 	]
 	subtitle: ["{ftbquests.chapter.lv.subtitle0}"]
 	title: "{ftbquests.chapter.lv.title}"

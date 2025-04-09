@@ -29,8 +29,8 @@
 		image: "ftbquests:textures/snow_city.png"
 		rotation: 0.0d
 		width: 9.185567010309278d
-		x: -2.0d
-		y: 0.0d
+		x: -1.5d
+		y: 0.5d
 	}]
 	order_index: 3
 	quest_links: [ ]
