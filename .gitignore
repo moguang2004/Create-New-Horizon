@@ -69,3 +69,9 @@ PCL.ini
 versions/dev/dev.jar
 versions/dev/dev.json
 versions/dev/PCL/Setup.ini
+**/*.jar
+!InstanceSync*.jar
+**/*.jar.disabled
+**/*.jar.meta
+**/*.log
+/.mixin.out

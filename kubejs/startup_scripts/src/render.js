@@ -17,7 +17,7 @@ StartupEvents.registry('block', event => {
     if (true) {
         ClientEvents.init(event => {
         global.cilentInited = true
-        event.registerBlockEntityRenderer("ctnhcore:eye_render" , (context) => RenderJSBlockEntityRenderer
+        event.registerBlockEntityRenderer("kubejs:eye_of_wood_renderer" , (context) => RenderJSBlockEntityRenderer
             .create(context)
             .setCustomRender((_renderer, context) => {
                 const blockEntityJs = context.blockEntityJS
@@ -157,7 +157,6 @@ StartupEvents.registry('block', event => {
                 const worldX = (parentWorldPos ? parentWorldPos.x * 1 : blockPos.x + 0.5) + orbitPosLocal.x * 1
                 const worldY = (parentWorldPos ? parentWorldPos.y * 1 : blockPos.y + 0.5) +orbitPosLocal.y * cosTilt - orbitPosLocal.z * sinTilt;
                 const worldZ = (parentWorldPos ? parentWorldPos.z * 1 : blockPos.z + 0.5) + orbitPosLocal.y * sinTilt + orbitPosLocal.z * cosTilt;
-                console.info(celestial)
                 const lightPos = new BlockPos(Math.floor(worldX),Math.floor(worldY),Math.floor(worldZ));
                 const lightLevel = LevelRenderer.getLightColor(level,lightPos);
                 //渲染

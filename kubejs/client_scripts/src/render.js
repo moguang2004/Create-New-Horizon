@@ -1,10 +1,8 @@
 if (global.cilentInited) {
-    var Renderer = Client.getBlockEntityRenderDispatcher().rjs$getRendererByType("ctnhcore:eye_render")//获取render
+    var Renderer = Client.getBlockEntityRenderDispatcher().rjs$getRendererByType("kubejs:eye_of_wood_renderer")//获取render
     if (Renderer instanceof RenderJSBlockEntityRenderer) {
     //重新设置render
-    console.info("here1")
         Renderer.setCustomRender((_renderer, context) => {
-            console.info("here2")
             const blockEntityJs = context.blockEntityJS
             const level = blockEntityJs.level
             const gameTime = level.time;
@@ -142,7 +140,6 @@ if (global.cilentInited) {
                 const worldX = (parentWorldPos ? parentWorldPos.x * 1 : blockPos.x + 0.5) + orbitPosLocal.x * 1
                 const worldY = (parentWorldPos ? parentWorldPos.y * 1 : blockPos.y + 0.5) +orbitPosLocal.y * cosTilt - orbitPosLocal.z * sinTilt;
                 const worldZ = (parentWorldPos ? parentWorldPos.z * 1 : blockPos.z + 0.5) + orbitPosLocal.y * sinTilt + orbitPosLocal.z * cosTilt;
-                console.info(celestial)
                 const lightPos = new BlockPos(Math.floor(worldX),Math.floor(worldY),Math.floor(worldZ));
                 const lightLevel = LevelRenderer.getLightColor(level,lightPos);
                 //渲染

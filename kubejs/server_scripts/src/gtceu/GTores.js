@@ -135,29 +135,6 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         )
     })
-    event.add('ctnh:zirkelite_vein', vein => {
-        vein.weight(60)
-        vein.clusterSize(50)
-        vein.density(0.25)
-        vein.discardChanceOnAirExposure(0)
-        vein.layer('all_layer')
-        vein.dimensions(['ad_astra:mars', 'ad_astra:venus', 'ad_astra:mercury'])
-        vein.heightRangeUniform(30, 80)
-        vein.layeredVeinGenerator(generator => generator
-            .buildLayerPattern(pattern => pattern
-                .layer(l => l.weight(3).mat(GTMaterials.get('zirkelite')).size(2, 4))
-                .layer(l => l.weight(2).mat(GTMaterials.Thorium).size(1, 1))
-                .layer(l => l.weight(2).mat(GTMaterials.get('zircon')).size(1, 1))
-                .layer(l => l.weight(1).mat(GTMaterials.Ilmenite).size(1, 1))
-            )
-        )
-        vein.surfaceIndicatorGenerator(indicator => indicator
-            .surfaceRock(GTMaterials.get('zirkelite'))
-            .placement("above")
-            .density(0.4)
-            .radius(5)
-        )
-    })
     event.add('ctnh:ancient_debris_vein', vein => {
         vein.weight(5)
         vein.clusterSize(35)
@@ -174,18 +151,6 @@ GTCEuServerEvents.oreVeins(event => {
                 .layer(l => l.weight(1).mat(GTMaterials.NetherQuartz).size(1, 1))
             )
         )
-        // vein.veinedVeinGenerator(generator => generator
-        //     .oreBlock(GTMaterials.get('precious_alloy'), 5) // 
-        //     .oreBlock(GTMaterials.Sulfur, 3)
-        //     ["rareBlock(net.minecraft.world.level.block.state.BlockState,int)"](Block.getBlock('minecraft:ancient_debris').getBlockStates().get(0), 2) 
-        //     .rareBlockChance(0.25)
-        //     .veininessThreshold(0.1)
-        //     .maxRichnessThreshold(0.3)
-        //     .minRichness(0.3)
-        //     .maxRichness(1.0)
-        //     .edgeRoundoffBegin(3) // 
-        //     .maxEdgeRoundoff(0.2)
-        // )
         vein.surfaceIndicatorGenerator(indicator => indicator
             .surfaceRock(GTMaterials.get('precious_alloy'))
             .placement("above")

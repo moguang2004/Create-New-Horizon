@@ -13,7 +13,7 @@ ServerEvents.recipes((event) => {
     }
     let ingot1 = ['iron', 'gold','steel','copper','silver','bronze']//不同的金属箔
         for (let i of ingot1) {
-        event.recipes.vintageimprovementsHammering(Item.of('3x gtceu:bronze_foil'),`#forge:plates/${i}`,3)
+        event.recipes.vintageimprovementsHammering(Item.of(`3x gtceu:${i}_foil`),`#forge:plates/${i}`,3)
     }
 
     vintageimprovements.turning(//车床配方（铁）按杆，螺栓，螺丝排列
