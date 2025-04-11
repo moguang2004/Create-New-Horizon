@@ -304,6 +304,7 @@
 				"66E49577299CA3D6"
 				"1157261D1C6FA682"
 				"16243C6CC9C1CD8A"
+				"44ADCE097529FCFD"
 			]
 			dependency_requirement: "one_completed"
 			id: "3123CD3DCE3598C8"
@@ -892,7 +893,7 @@
 				"35205D5CBE5A1498"
 			]
 			id: "3A77F81F2F6E792A"
-			subtitle: "{ftbquests.chapter.hv.quest54.subtitle}"
+			subtitle: "并不是神，被削没嘞（悲）"
 			tasks: [{
 				id: "3E805DF6AD913252"
 				item: "kubejs:platinum_metal_catalyst"
@@ -922,19 +923,6 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["773CB6E376B56EA4"]
-			hide_dependency_lines: true
-			id: "2693AB1D8C40E181"
-			subtitle: "{ftbquests.chapter.hv.quest57.subtitle}"
-			tasks: [{
-				id: "1CAD59C11FB75991"
-				item: "gtceu:mana_seperator"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -4.5d
-		}
-		{
 			dependencies: ["36968F23015BC87A"]
 			id: "25DAE6D032C050D7"
 			rewards: [{
@@ -943,6 +931,8 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
+			shape: "heart"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.hv.quest58.subtitle}"
 			tasks: [{
 				id: "20A0E9B6A5B2D2F0"
@@ -1665,6 +1655,7 @@
 			hide_dependent_lines: true
 			id: "2A96D56A1C253D7A"
 			invisible: true
+			subtitle: "跳过任务线"
 			tasks: [{
 				id: "67A3C12A135B6D89"
 				item: "gtceu:titanium_ingot"
@@ -1845,6 +1836,7 @@
 		{
 			dependencies: ["50800D463AF3C2EB"]
 			id: "1BAF86C7B922C673"
+			subtitle: "核心代码在天镜的白银地牢"
 			tasks: [{
 				id: "148C8AFB21A52F5F"
 				item: "ctnhcore:program_rocket_1"
@@ -1863,6 +1855,41 @@
 			}]
 			x: 7.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["3A77F81F2F6E792A"]
+			description: ["但是我至少会送给你一块电路板作为安慰奖"]
+			id: "2EBFB2D7B85FF1A2"
+			rewards: [{
+				id: "0BD385DE3F60594D"
+				item: "kubejs:will_nano_processor_mainframe"
+				type: "item"
+			}]
+			subtitle: "有了这机器，你的催化剂也没用"
+			tasks: [{
+				id: "7674E930FA286D71"
+				item: "gtceu:mana_seperator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2EBFB2D7B85FF1A2"]
+			description: [
+				"是的，魔力分选器并不是毫无作用：由于你拒绝了上天，你的硅岩来源变得及其稀少，你不得不进行一条极长的路线来获得硅岩"
+				""
+				"这条线可不简单，它的长度甚至比硅岩线还长！"
+			]
+			id: "61BD7AFF0FEE3258"
+			subtitle: "不上天挑战：硅岩路线"
+			tasks: [{
+				id: "75FF86949E2794E7"
+				item: "gtceu:dirty_hexafluorosilicic_acid_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
 		}
 	]
 	title: "{ftbquests.chapter.hv.title}"

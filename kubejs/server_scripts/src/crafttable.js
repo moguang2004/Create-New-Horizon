@@ -1087,7 +1087,7 @@ ServerEvents.recipes(event => {
 
     event.shaped(
         Item.of('ctnhcore:mana_bender', 1), [
-            "AAA",
+            "AGA",
             "BCB",
             "DEF"
         ], {
@@ -1096,50 +1096,12 @@ ServerEvents.recipes(event => {
             C: 'gtceu:mv_bender',
             D: 'gtceu:mv_electric_piston',
             E: 'gtceu:mv_robot_arm',
-            F: '#gtceu:circuits/mv'
+            F: '#gtceu:circuits/ev',
+            G: 'ctnhcore:terra_steel_casing'
         })
 
-    event.shaped(
-        Item.of('ctnhcore:mana_lathe', 1), [
-            "AAA",
-            "BCB",
-            "DEF"
-        ], {
-            A: 'botania:polished_livingrock',
-            B: 'gtceu:mv_electric_piston',
-            C: 'gtceu:mv_lathe',
-            D: '#gtceu:circuits/mv',
-            E: 'gtceu:mv_robot_arm',
-            F: 'gtceu:aluminium_buzz_saw_blade'
-        })
 
-    event.shaped(
-        Item.of('ctnhcore:mana_assembler', 1), [
-            "AAA",
-            "BCD",
-            "EFG"
-        ], {
-            A: 'botania:polished_livingrock',
-            B: 'gtceu:hv_sensor',
-            C: 'gtceu:hv_assembler',
-            D: 'gtceu:hv_fluid_regulator',
-            E: '#gtceu:circuits/hv',
-            F: 'gtceu:hv_robot_arm',
-            G: 'gtceu:hv_field_generator'
-        })
 
-    event.shaped(
-        Item.of('ctnhcore:mana_wiremill', 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: 'botania:polished_livingrock',
-            B: 'gtceu:mv_electric_motor',
-            C: 'gtceu:mv_wiremill',
-            D: 'gtceu:copper_single_cable',
-            E: '#gtceu:circuits/mv'
-        })
 
     event.shaped(
         Item.of('ctnhcore:mana_reactor', 1), [
@@ -1530,68 +1492,68 @@ ServerEvents.recipes(event => {
             E: 'gtceu:europium_frame',
             F: 'gtceu:luv_electric_motor',
             G: 'gtceu:luv_electric_pump'
-    })
+        })
     event.shaped(
         Item.of('extendedcrafting:basic_component', 1), [
-        "AC",
-        "BA"
-    ], {
-        A: 'gtceu:iron_plate',
-        B: 'extendedcrafting:black_iron_slate',
-        C: 'extendedcrafting:luminessence'
-    })
+            "AC",
+            "BA"
+        ], {
+            A: 'gtceu:iron_plate',
+            B: 'extendedcrafting:black_iron_slate',
+            C: 'extendedcrafting:luminessence'
+        })
     event.shaped(
         Item.of('extendedcrafting:basic_catalyst', 1), [
-        "AB",
-        "BA"
-    ], {
-        A: 'extendedcrafting:luminessence',
-        B: 'extendedcrafting:basic_component'
-    })
+            "AB",
+            "BA"
+        ], {
+            A: 'extendedcrafting:luminessence',
+            B: 'extendedcrafting:basic_component'
+        })
     event.shaped(
         Item.of('extendedcrafting:advanced_component', 1), [
-        "AAC",
-        "BBA",
-        "BBA"
-    ], {
-        A: 'gtceu:gold_plate',
-        B: 'extendedcrafting:black_iron_slate',
-        C: 'extendedcrafting:luminessence'
-    })
+            "AAC",
+            "BBA",
+            "BBA"
+        ], {
+            A: 'gtceu:gold_plate',
+            B: 'extendedcrafting:black_iron_slate',
+            C: 'extendedcrafting:luminessence'
+        })
     event.shaped(
         Item.of('extendedcrafting:advanced_catalyst', 1), [
-        "A C",
-        " B ",
-        "C A"
-    ], {
-        A: 'extendedcrafting:advanced_component',
-        B: 'extendedcrafting:black_iron_slate',
-        C: 'extendedcrafting:luminessence'
-    })
+            "A C",
+            " B ",
+            "C A"
+        ], {
+            A: 'extendedcrafting:advanced_component',
+            B: 'extendedcrafting:black_iron_slate',
+            C: 'extendedcrafting:luminessence'
+        })
     event.shaped(
         Item.of('ctnhcore:uhv_parallel_hatch', 1), [
-        "ABC",
-        "BDB",
-        "EBE"
-    ], {
-        A: 'gtceu:uhv_sensor',
-        B: '#gtceu:circuits/uev',
-        C: 'gtceu:uhv_emitter',
-        D: 'gtceu:uhv_machine_hull',
-        E: 'gtceu:adamantite_double_cable'
-    })
+            "ABC",
+            "BDB",
+            "EBE"
+        ], {
+            A: 'gtceu:uhv_sensor',
+            B: '#gtceu:circuits/uev',
+            C: 'gtceu:uhv_emitter',
+            D: 'gtceu:uhv_machine_hull',
+            E: 'gtceu:adamantite_double_cable'
+        })
     event.shaped(
         Item.of('ctnhcore:astronomical_observatory', 1), [
             "ABA",
             "CDC",
             "AEA"
-          ], {
-        A: 'gtceu:clean_machine_casing',
-        B: 'gtceu:tempered_glass',
-        C: 'gtceu:hv_robot_arm',
-        D: 'minecraft:daylight_detector',
-        E: 'gtceu:hv_sensor'
-    })
+        ], {
+            A: 'gtceu:clean_machine_casing',
+            B: 'gtceu:tempered_glass',
+            C: 'gtceu:hv_robot_arm',
+            D: 'minecraft:daylight_detector',
+            E: 'gtceu:hv_sensor'
+        })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

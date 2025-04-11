@@ -192,7 +192,7 @@
 		{
 			dependencies: ["130A19F7C214261C"]
 			description: [
-				"是的，你终于，制成了这种&1终极魔力&r。它在你的手中跳动，是如此的完美。空间也为之颤动，魔力的立场自这个锭散开....."
+				"是的，你终于，制成了这种&1终极魔力&r。它在你的手中跃动，是如此的完美。空间也为之颤动，魔力的立场自这个锭散开....."
 				""
 				"过量魔力和放射性物质的注入却得到了这么一个完美的物质.....稳定，而又富含能量，连空间都要为你的奇迹让步......这绝对是你法师历史上最伟大的一笔。"
 				""
@@ -218,7 +218,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.1FD18D8B41761626.quest15.title}"
-			x: 19.5d
+			x: 17.5d
 			y: -6.5d
 		}
 		{
@@ -261,7 +261,7 @@
 				item: "ctnhcore:twisted_fusion_mk1"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.5d
 			y: -4.5d
 		}
 		{
@@ -598,8 +598,6 @@
 				""
 				"至于另一个作用......你把它瞄准了那浩瀚的星空。"
 				""
-				"那里还有一个永恒的敌人，当它来临之时，我们将让它们领略戴森光束的光芒"
-				""
 				"&4以前我们只是威慑下的渺小虫子，现在我们就是威慑本身&r"
 			]
 			id: "7A937E3AE05BFC09"
@@ -664,6 +662,11 @@
 				"这种金属的蕴魔量也许没有盖亚魂锭高，但是它的&9魔力承载力&r却远优于你的不锈钢或者其他魔力材料，也许使用这种金属就可以制作一些使用&9高浓度魔力&r的机器？"
 			]
 			id: "1B2F361B8F302822"
+			rewards: [{
+				id: "0109F4C2E224B9D0"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
 			subtitle: "坚韧的载魔容器"
 			tasks: [{
 				id: "3A3AEA90BBE4EE9F"
@@ -683,6 +686,12 @@
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			id: "0217BFCF1C2F8E5D"
+			rewards: [{
+				count: 8
+				id: "709362F0E9DF84DB"
+				item: "gtceu:mana_bucket"
+				type: "item"
+			}]
 			subtitle: "工业时代"
 			tasks: [{
 				id: "06A4C2EC0CDD83F2"
@@ -969,9 +978,9 @@
 				"喂食彼方兰的物品都有其&4营养值&r。营养值并不会显性显示，而是根据（食物回复饥饿值+饱和度/2）来计算其营养值"
 				"彼方兰非常挑食，在对其的最近5次喂食中，每有一个重复营养值的食物，它的产出就会下降 公式为：最终产出乘以 1-重复的食物数量^2*0.05"
 				"彼方兰的营养均衡表示为：最近五次喂食中的营养值之和为64为最佳（x1+x2+x3+x4+x5=64）"
-				"如果营养值之和等于64，则拥有8倍的产出和翻倍的运行速度"
-				"如果营养值之和低于64，则最终产出乘以 1+7*（营养值之和/64）"
-				"如果营养值之和大于64，则拥有8倍的最终产出，但是运行时间乘以(1+0.1*（营养值之和-64）)"
+				"如果营养值之和等于64，则拥有36倍的产出和翻倍的运行速度"
+				"如果营养值之和低于64，则最终产出乘以 1+36*（营养值之和/64）"
+				"如果营养值之和大于64，则拥有36倍的最终产出，但是运行时间乘以(1+0.1*（营养值之和-64）)"
 				"彼方兰的并行为8，其无论多少并行都只计算一次营养值"
 			]
 			id: "3BCB57EAA543BDC4"
@@ -1157,7 +1166,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["2E1BE8D7095020C6"]
+			dependencies: [
+				"2E1BE8D7095020C6"
+				"37FD059204252015"
+			]
 			description: [
 				"要使用电动苦难之井，你需要取参照&1敌对神经网络&r来获取一个模型，模型等级越高产出越高&4不过敌对神经网络的功能也只剩下这一个了，其他的都被ban了，乖乖用屠宰场吧&r"
 				"然后你会收集到大量的生命源质，然后再找个什么EIO导管或者AE输入进祭坛，是不是很简单？"
@@ -1192,6 +1204,11 @@
 				"那恶魔领域的果实具有吸食血液的力量，与你一样贪婪，也许&4站在它的上方，成为它的养料&r，你就可以培育出&4更加迷人的花朵&r"
 			]
 			id: "7D20F99B02CA4357"
+			rewards: [{
+				id: "34B76326C0F236D8"
+				item: "bloodmagic:ritualstone"
+				type: "item"
+			}]
 			subtitle: "为了无尽门扉"
 			tasks: [{
 				id: "7E9A2E9294C1DAB8"
@@ -1233,6 +1250,12 @@
 				"&4哦你可能会意识到0号电路板那个免费注血为什么不能自动切换，所以万事都有代价，你现在付出的就是免费的代价，试试用付费的1号电路板&r"
 			]
 			id: "055C47EC41367A36"
+			rewards: [{
+				count: 8
+				id: "547010B43E49E83E"
+				item: "bloodmagic:life_essence_bucket"
+				type: "item"
+			}]
 			subtitle: "小而巧"
 			tasks: [{
 				id: "6EAB01420115B37B"
@@ -1249,6 +1272,18 @@
 				"唯一可惜的是自动化恶魔意志似乎比较麻烦，不过你都有神话刷怪笼和时间瓶了，&4拿着你抢夺9的感知之剑砍砍砍吧！&r"
 			]
 			id: "598984AA1D8A72EA"
+			rewards: [{
+				count: 64
+				id: "4EE337CADD4E561D"
+				item: {
+					Count: 1
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 5.0d
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "狱火，你降临罢！"
 			tasks: [{
 				id: "3C5A68FF84FA96D4"
@@ -1280,6 +1315,18 @@
 		{
 			dependencies: ["598984AA1D8A72EA"]
 			id: "509D1DAF6239E102"
+			rewards: [{
+				count: 64
+				id: "4814DA1654EE5381"
+				item: {
+					Count: 1
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 5.0d
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "盖亚被抽干之后，你还需要新的怨种"
 			tasks: [{
 				id: "0C191C29FDBF2158"
@@ -1330,11 +1377,6 @@
 				{
 					id: "7A93CB404FB75DA5"
 					item: "ctnhcore:zenith_eye"
-					type: "item"
-				}
-				{
-					id: "192974F8B1CAFF47"
-					item: "kubejs:zenith_star"
 					type: "item"
 				}
 			]
@@ -1390,7 +1432,7 @@
 		{
 			description: [
 				"&m&e无穷大的基数是无穷大的怀抱&r"
-				"&m&a递归的方程式是世界的递归&r"
+				"&m&a递归的方程式是世界的递推&r"
 				"&6&m正确的创造是错误的镜子&r"
 				"&2&m永恒的指向是须臾的路径&r"
 				"&1&m错乱的世界歌颂着虚无的真谛&r"
@@ -1408,7 +1450,7 @@
 				item: "ctnhcore:twisted_fusion_mkalephnull"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 28.5d
 			y: 6.0d
 		}
 		{
@@ -1430,7 +1472,7 @@
 				"每一个被检测到的生物都会使物落草的倍率乘以√2，最多可以获得2^16次方的倍乘！不过每个生物也会延长1s运行时间，但是谁在意呢？"
 			]
 			id: "5955747802F400B8"
-			subtitle: "FLY BROKEN ENTITIES"
+			subtitle: "FLY BROKEN WINGS"
 			tasks: [{
 				id: "4C63FB72C668D1AA"
 				item: "botania:shulk_me_not"
@@ -1450,6 +1492,12 @@
 				"当你打开了锁后，就可以进矿坑探索了，留意下你脚下的那群建筑材料，你的恶魔机器需要这些东西"
 			]
 			id: "310339D1792AF716"
+			rewards: [{
+				count: 32
+				id: "72CC07020F3A18BF"
+				item: "bloodmagic:dungeon_brick1"
+				type: "item"
+			}]
 			subtitle: "真的是无尽"
 			tasks: [{
 				id: "252552F8F81B3A05"
@@ -1492,6 +1540,277 @@
 			}]
 			x: 17.0d
 			y: 10.5d
+		}
+		{
+			id: "37FD059204252015"
+			rewards: [{
+				id: "07A3813525C46D5F"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			subtitle: "敌对神经网络唯一的作用"
+			tasks: [{
+				id: "5CBDBC2D2D1169C4"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["11B37EA8EEE75AC4"]
+			id: "20FE9FDDED3B4879"
+			rewards: [{
+				id: "18DC7263F096C78C"
+				item: "kubejs:elf_catalyst"
+				type: "item"
+			}]
+			subtitle: "这玩意能催化我的凯基米复活吗"
+			tasks: [{
+				id: "6F82DD40ED165437"
+				item: "kubejs:terria_catalyst"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["505115AA8810BBE5"]
+			description: ["现在，星空已然在我们手中"]
+			id: "7358F1AA14236899"
+			rewards: [{
+				id: "45AA8AAE1237DB1F"
+				item: "gtceu:ultra_mana_ingot"
+				type: "item"
+			}]
+			subtitle: "我们曾仰望星空"
+			tasks: [{
+				id: "22A8A044051BE8FB"
+				item: "kubejs:zenith_star"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Roses are red"
+				""
+				"玫瑰鲜红"
+				""
+				"'Guess still there's no use, my dear comfy bed"
+				""
+				"我想，这所有依旧毫无用处，我亲爱的舒适的小床"
+				""
+				"Violets are blue"
+				""
+				"紫罗兰靛蓝"
+				""
+				"Electric sheep cannot be true"
+				""
+				"电子羊永远是虚构之物"
+				""
+				"The books I read"
+				""
+				"我所读过的书"
+				""
+				"Told me there is hope as long as I live"
+				""
+				"告诉我活着总有希望"
+				""
+				"Faces of you"
+				""
+				"我注视着你的脸庞"
+				""
+				"Is that what you call a \"muse\"?"
+				""
+				"这就是你所说的“缪斯”吗？"
+				""
+				"Tick tock tick tock"
+				""
+				"滴答，滴答"
+				""
+				"No need to overclock"
+				""
+				"无需超速运行"
+				""
+				"My wish is locked"
+				""
+				"我的意愿被锁在在桎梏之中"
+				""
+				"Only your time passes by"
+				""
+				"只有你的时间一分一秒流逝"
+				""
+				"I'm in the rye"
+				""
+				"我在黑麦麦田中"
+				""
+				"Spinning round and round, round and round"
+				""
+				"旋转着，一圈又一圈"
+				""
+				"Pretend I don't need golden rings"
+				""
+				"佯装自己不需要镀金戒指"
+				""
+				"Re-experiment"
+				""
+				"重复实验"
+				""
+				"Only this time I'll play nice"
+				""
+				"仅于此次，我将表现上佳"
+				""
+				"And I'll be brighter than the city's book-powered fires"
+				""
+				"我将比都市的焚书之火更加灼目"
+				""
+				"So here I lie"
+				""
+				"我躺在这里"
+				""
+				"Reading you my poetic stupid rhymes"
+				""
+				"为你读我写的青涩幼稚的诗韵"
+				""
+				"I stopped for Death"
+				""
+				"我停下来等待死亡"
+				""
+				"'Guess still there's no place for my silicone flesh"
+				""
+				"我想，这里应该无处容纳我的硅胶躯体"
+				""
+				"Liquor I brewed"
+				""
+				"我酿造的酒"
+				""
+				"Can't taste it though I bet it's something new"
+				""
+				"即使无法品尝，我也认定这一定会是新的类型"
+				""
+				"Marionettes"
+				""
+				"牵线木偶"
+				""
+				"Cut down all the strings, rewrite their presets"
+				""
+				"剪断所有的提线，重写他们的预先设置"
+				""
+				"Phases of the moon"
+				""
+				"月相盈亏"
+				""
+				"We lived in a dead cocoon"
+				""
+				"我们活在一个没有生命的茧中"
+				""
+				"Tick tock tick tock"
+				""
+				"滴答，滴答"
+				""
+				"No need to overclock"
+				""
+				"无需超速运行"
+				""
+				"My wish is locked"
+				""
+				"我的意愿被锁在在桎梏之中"
+				""
+				"Ever dreaming to taste the sweet nectar of morality"
+				""
+				"在梦中品尝道德的甘露"
+				""
+				"Allowed my heart to hold enough love to be broken"
+				""
+				"让我濒临涨破的心承受足够多的爱"
+				""
+				"Maybe I'll try getting drunk"
+				""
+				"也许我会试着尝试烂醉一场"
+				""
+				"Finally I'd cry for help"
+				""
+				"最后我也许会哭着求助"
+				""
+				"From the top of my simulated lungs"
+				""
+				"从我仿真肺叶的顶端"
+				""
+				"Only your time passes by"
+				""
+				"只有你的时间一分一秒流逝"
+				""
+				"And from my eyes the oil leaked"
+				""
+				"机油从我的眼中渗出"
+				""
+				"Tell me why, tell me why, tell me why, tell me why"
+				""
+				"告诉我为什么，告诉我，告诉我，告诉我"
+				""
+				"Tell me why, tell me why"
+				""
+				"告诉我这一切的原因，告诉我"
+				""
+				"A malfunction"
+				""
+				"一次故障"
+				""
+				"Only this time I'm smiling at your side"
+				""
+				"只有这次我在你的身侧微笑"
+				""
+				"To know that I would someday be gratified"
+				""
+				"我知道终有一天会如愿以偿"
+				""
+				"So here I lie in our imperfect paradise"
+				""
+				"所以我躺在这里，躺在我们不完美的天堂之中"
+				""
+				"A eulogistic lullaby"
+				""
+				"一首赞歌摇篮曲"
+			]
+			id: "2FF7709E73135EEF"
+			rewards: [{
+				id: "45289F25E82CFC18"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:vanishing_curse"
+							lvl: 1s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"text\":\"你可以制作类星体符文了，但这还有意义吗\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "END"
+			tasks: [{
+				id: "20DA781C0F39516A"
+				item: "kubejs:book_of_ruina"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 6.0d
+		}
+		{
+			id: "31B7B85D60667869"
+			tasks: [{
+				id: "46720E8D4CBF7862"
+				item: "ctnhcore:eternal_well_of_suffer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.0d
 		}
 	]
 	title: "{ftbquests.chapter.1FD18D8B41761626.title}"

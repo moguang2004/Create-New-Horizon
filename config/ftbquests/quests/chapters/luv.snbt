@@ -154,6 +154,12 @@
 				"1FAD6F20F9148820"
 			]
 			id: "645725D581DA525A"
+			rewards: [{
+				count: 8
+				id: "5C50FCCB479AA4A8"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
 			tasks: [{
 				id: "503B792796F84570"
 				item: "gtceu:crystal_processor"
@@ -190,6 +196,12 @@
 		{
 			dependencies: ["645725D581DA525A"]
 			id: "77E66A5569F9845B"
+			rewards: [{
+				count: 2
+				id: "1A9264CFEE3C38F0"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FA5EEC024B75229"
 				item: "gtceu:crystal_processor_assembly"
@@ -201,6 +213,12 @@
 		{
 			dependencies: ["77E66A5569F9845B"]
 			id: "34820874A85286FC"
+			rewards: [{
+				count: 2
+				id: "408ED1FCBF23E341"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
 			tasks: [{
 				id: "683FE1E64CB7BB18"
 				item: "gtceu:crystal_processor_computer"
@@ -212,6 +230,12 @@
 		{
 			dependencies: ["34820874A85286FC"]
 			id: "019F2136970CA2E1"
+			rewards: [{
+				count: 2
+				id: "42EECE32D9305F53"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.luv.quest15.subtitle}"
 			tasks: [{
 				id: "4DBEF1F18227075A"
@@ -259,7 +283,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["0C56A770E0AA5FE2"]
 			id: "2F7AFC0FA8A4C543"
 			tasks: [{
 				id: "32D9B848EB759B06"
@@ -469,7 +492,21 @@
 		}
 		{
 			dependencies: ["4BA59C23FB4625B9"]
+			description: ["但其实它真正有用的时候是以太"]
 			id: "4089D6C868A2D08A"
+			rewards: [{
+				id: "3EB51033FCA1321E"
+				item: {
+					Count: 1
+					id: "gtceu:turbine_rotor"
+					tag: {
+						GT.PartStats: {
+							Material: "gtceu:neutronium"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.luv.quest36.subtitle}"
 			tasks: [{
 				id: "1D67A2915C631403"
@@ -489,6 +526,7 @@
 				item: "gtceu:indium_dust"
 				type: "item"
 			}]
+			subtitle: "你需要很多铟......或者其他办法？"
 			tasks: [{
 				count: 16L
 				id: "4EF75DA5B4777331"
@@ -1065,7 +1103,7 @@
 			]
 			title: "中子活化器使用方法（文字版）"
 			x: -19.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -1169,7 +1207,7 @@
 			dependencies: ["3EA13126A1A8CAFE"]
 			id: "41A7CC007444C503"
 			rewards: [{
-				count: 4
+				count: 16
 				id: "42E45CEFB522D8CE"
 				item: "gtceu:long_enriched_naquadah_rod"
 				type: "item"
@@ -1226,6 +1264,11 @@
 			dependencies: ["46DFFF321BBE034E"]
 			description: ["我们（）人的化工厂太厉害辣！"]
 			id: "75353060280848EB"
+			rewards: [{
+				id: "6AF3CECB894CB890"
+				item: "gtnn:palladium_on_carbon_catalyst"
+				type: "item"
+			}]
 			size: 2.0d
 			subtitle: "超级化工厂"
 			tasks: [{
@@ -1262,6 +1305,11 @@
 			]
 			description: [""]
 			id: "48BAB59CD186FF3F"
+			rewards: [{
+				id: "438435AE86042821"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
 			subtitle: "WOW,16并行"
 			tasks: [{
 				id: "3B56564FC0EEE31F"
@@ -1270,6 +1318,116 @@
 			}]
 			x: -28.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["48DD8F1CA4521491"]
+			id: "49887782679C9AA5"
+			tasks: [{
+				id: "504F8EC86CCFA30E"
+				item: "gtnn:t4_chip"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48DD8F1CA4521491"]
+			id: "7435D44030F05C43"
+			tasks: [{
+				id: "53FA9018A524DCCB"
+				item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7435D44030F05C43"
+				"49887782679C9AA5"
+			]
+			id: "3A147911657519BF"
+			shape: "circle"
+			size: 1.0d
+			subtitle: "去向冰霜之地"
+			tasks: [{
+				id: "744FAF94D3AC6BDF"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3A147911657519BF"]
+			id: "2A8E8BEC337DACAC"
+			rewards: [{
+				count: 16
+				id: "583241D508B88D70"
+				item: "gtceu:raw_naquadria"
+				type: "item"
+			}]
+			subtitle: "现在你处理不了"
+			tasks: [{
+				id: "24C1F9ECFA9F98DA"
+				item: "gtceu:infinity_catalyst_dust"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A147911657519BF"]
+			id: "16B69F9BA880E303"
+			rewards: [{
+				count: 16
+				id: "437656E2DD7D5110"
+				item: "gtceu:neutronium_mixture_dust"
+				type: "item"
+			}]
+			subtitle: "你现在处理不了"
+			tasks: [{
+				id: "4F3510C83E0CDDDC"
+				item: "gtceu:neutronium_mixture_dust"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["02DD2E6EEDC15505"]
+			id: "7021F89A02295D05"
+			tasks: [{
+				id: "688ADA7D3C246306"
+				title: "给你的化工厂换上LUV的机械外壳，不然LUV配方不会工作"
+				type: "checkmark"
+			}]
+			title: "给你的化工厂换上LUV的机械方块，不然LUV配方不会工作"
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3A147911657519BF"]
+			id: "0266ACEA0EEB87A0"
+			rewards: [{
+				count: 32
+				id: "3BE2B8674AD8ADD0"
+				item: "gtceu:raw_naquadria"
+				type: "item"
+			}]
+			subtitle: "这个你现在能处理"
+			tasks: [{
+				count: 16L
+				id: "6213E3406C6D85FD"
+				item: { Count: 16, id: "gtceu:raw_naquadria" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.5d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"
