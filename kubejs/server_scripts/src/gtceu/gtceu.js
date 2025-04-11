@@ -441,7 +441,7 @@ ServerEvents.recipes(event => {
         .itemInputs(['gtceu:mana_unstable_plus_dust', 'botania:rune_mana', 'mythicbotany:midgard_rune'])
         .itemOutputs('gtceu:mana_infused_plus_dust')
         .inputFluids(Fluid.of("gtceu:mana", 100))
-        .EUt(GTValues.VA(GTValues.IV))
+        .EUt(GTValues.VA[GTValues.IV])
         .duration(60)
     event.recipes.gtceu.mana_reactor('zenith')
         .itemInputs('apotheosis:infused_breath')
