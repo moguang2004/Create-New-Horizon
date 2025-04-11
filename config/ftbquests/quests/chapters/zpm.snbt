@@ -317,6 +317,12 @@
 		{
 			dependencies: ["2C168D2C6B55CD10"]
 			id: "13756D7E0FDA4B9E"
+			rewards: [{
+				count: 8
+				id: "2B5CC90E84660E55"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DC8CF70ABDD3B4A"
 				item: "gtceu:wetware_processor"
@@ -328,6 +334,12 @@
 		{
 			dependencies: ["13756D7E0FDA4B9E"]
 			id: "22FA4C6A1ADEC7AC"
+			rewards: [{
+				count: 2
+				id: "6A0FBA8AA7B2C06E"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
 			tasks: [{
 				id: "671F449AEB47E270"
 				item: "gtceu:wetware_processor_assembly"
@@ -339,6 +351,12 @@
 		{
 			dependencies: ["22FA4C6A1ADEC7AC"]
 			id: "762DC8899FC95277"
+			rewards: [{
+				count: 2
+				id: "34C0EC08C1717577"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
 			tasks: [{
 				id: "33D36925813D7106"
 				item: "gtceu:wetware_processor_computer"
@@ -350,8 +368,14 @@
 		{
 			dependencies: ["762DC8899FC95277"]
 			id: "7D527B8CCB41E418"
+			rewards: [{
+				id: "07BA76DEF2D92F76"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
 			subtitle: "原版格雷的顶点"
 			tasks: [{
+				count: 16L
 				id: "0306C899450F018C"
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
@@ -1037,6 +1061,11 @@
 		{
 			dependencies: ["527E6E7130A16435"]
 			id: "7506DBB3B4B03B05"
+			rewards: [{
+				id: "0988691D6748AA0B"
+				item: "ctnhcore:widespeedingpipe"
+				type: "item"
+			}]
 			subtitle: "中子活化器那一套不好用了"
 			tasks: [{
 				id: "77B1DBAD5BD53176"
@@ -1049,6 +1078,11 @@
 		{
 			dependencies: ["7506DBB3B4B03B05"]
 			id: "0BF9AD47D3294ACE"
+			rewards: [{
+				id: "11E25751BF72CAAA"
+				item: "kubejs:strongly_interacting_neutron_refector"
+				type: "item"
+			}]
 			subtitle: "一台更比三台强"
 			tasks: [{
 				id: "73BC2FA2FF8469C3"
@@ -1057,6 +1091,122 @@
 			}]
 			x: 8.0d
 			y: -7.5d
+		}
+		{
+			dependencies: ["0BF9AD47D3294ACE"]
+			id: "324EE368B317D446"
+			rewards: [{
+				count: 16
+				id: "6629F7404D25F54F"
+				item: "gtceu:sodium22_dust"
+				type: "item"
+			}]
+			subtitle: "钠的同位素有什么坏心思呢？"
+			tasks: [{
+				id: "70DDBB4C30886391"
+				item: "gtceu:sodium22_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["527E6E7130A16435"]
+			id: "7175BA208574FA14"
+			subtitle: "提供质子"
+			tasks: [{
+				id: "1A51066ED4246416"
+				item: "kubejs:adamantite_proton_source"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0DA0717A28B07478"
+				"0BF9AD47D3294ACE"
+				"324EE368B317D446"
+			]
+			description: [
+				"现在你需要去制作一些前所未有的粒子了。早在你通过中子活化器进行硅岩制取时，你已经注意到了一些奇怪的粒子：你称之为反物质"
+				""
+				"这将是一项危险但迷人的旅途，你需要获得质子，中子，电子的反版本，但是这些危险粒子在接触正物质时将会引发湮灭，你必须寻找方法来约束住这些粒子"
+				""
+				"注意那些带有危险粒子实验的配方，确保你的加速器和约束阱连接完毕并且给你的约束阱足够电能，如果供电不足同样也会引发一场灾难"
+				""
+				"当然，这些粒子也不能用常规容器存储，包括AE，但后续你制取反物质完毕后就可以存进AE里了"
+			]
+			hide_details_until_startable: false
+			id: "27C27CB66742CA93"
+			tasks: [{
+				id: "5B0B2FC0A331D833"
+				title: "这是一条测试线！"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			description: ["想连接两台机器，你需要让两个机器在中心部分拼接起来，然后两台机器都会显示连接建立"]
+			id: "0DA0717A28B07478"
+			subtitle: "约束危险粒子"
+			tasks: [{
+				id: "1E090FD6299B8AEC"
+				item: "ctnhcore:superconducting_penning_trap"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["27C27CB66742CA93"]
+			description: ["钠-22可以释放出正电子，注意正电子在制取时会与理论值有较大差异。且根据你的观察&4并行越高，粒子的损失就会越严重&r"]
+			hide_details_until_startable: false
+			id: "6FCA96F64D51D013"
+			tasks: [{
+				count: 40L
+				id: "18790B0B2E403722"
+				item: "gtceu:sodium22_dust"
+				type: "item"
+			}]
+			title: "正电子"
+			x: 12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["27C27CB66742CA93"]
+			description: [
+				"使用高能质子轰击重核就能轰击出反质子，当然你也必须面对损失。当然你也会直接获得一些反中子，真奇怪呢"
+				""
+				"&4并行越高，粒子的损失就会越严重&r"
+			]
+			id: "06B5E504424DCC69"
+			tasks: [{
+				id: "173569085966BE0A"
+				item: "kubejs:adamantite_proton_source"
+				type: "item"
+			}]
+			title: "反质子"
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27C27CB66742CA93"]
+			description: [
+				"你也可以直接制作正中子，但是你需要去轰击中子素，这确实需要花上大力气，同时这种超高能的粒子流甚至能轰穿你的强相互作用反射板，how sad"
+				""
+				"&4并行越高，粒子的损失就会越严重&r"
+			]
+			id: "052A36C464D7F3B0"
+			tasks: [{
+				id: "783020A0CC6C2631"
+				item: "gtceu:neutronium_plate"
+				type: "item"
+			}]
+			title: "反中子"
+			x: 12.0d
+			y: -6.0d
 		}
 	]
 	title: "{ftbquests.chapter.zpm.title}"

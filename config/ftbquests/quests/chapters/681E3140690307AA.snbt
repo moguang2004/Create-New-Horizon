@@ -188,11 +188,7 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest7.description1}"
-				"{image:ftbquests:textures/basic/mods.png width:180 height:100 align:center}"
-				"{image:ftbquests:textures/basic/config.png width:180 height:100 align:center}"
-			]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest7.description1}"]
 			id: "4B11E32ACA7BC6FA"
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7.subtitle}"
 			tasks: [{

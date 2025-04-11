@@ -22,12 +22,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:assembler/plate_radiation_2" })
     event.remove({ id: "gtceu:assembler/plate_radiation" })
     event.remove({ id: "gtceu:electric_blast_furnace/iro2" })
+    event.remove({ id: "gtceu:shaped/casing_assembly_control" })
+    event.remove({ id: "gtceu:shaped/casing_assembly_line" })
     event.recipes.gtceu.assembler("plate_radiation_3")
         .itemInputs('8x gtceu:dense_naquadah_alloy_plate')
         .circuit(1)
         .itemInputs('4x gtceu:dense_lanthanum_plate')
         .inputFluids(Fluid.of('gtceu:lead', 1440))
-        .itemOutputs('3x gtnn:plate_radiation_protection')
+        .itemOutputs('1x gtnn:plate_radiation_protection')
         .EUt(32678)
         .duration(400)
     event.recipes.gtceu.assembler("plate_radiation_4")
@@ -35,7 +37,7 @@ ServerEvents.recipes(event => {
         .circuit(2)
         .itemInputs('6x gtceu:dense_iridium_plate')
         .inputFluids(Fluid.of('gtceu:lead', 1440))
-        .itemOutputs('3x gtnn:plate_radiation_protection')
+        .itemOutputs('1x gtnn:plate_radiation_protection')
         .EUt(32678)
         .duration(400)
     event.recipes.gtceu.sinope('gtceu:thorium_232_dust')
@@ -85,4 +87,82 @@ ServerEvents.recipes(event => {
             .CWUt(64))
         .EUt(32678 * 32)
         .duration(20 * 200)
+    event.recipes.gtceu.electrolyzer('naalf')
+        .itemInputs('10x gtceu:cryolite_dust')
+        .itemOutputs('3x gtceu:sodium_dust')
+        .itemOutputs('gtceu:aluminium_dust')
+        .outputFluids('gtceu:fluorine 6000')
+        .circuit(19)
+        .EUt(512)
+        .duration(20 * 40)
+    event.recipes.gtceu.decay_pools('naalf')
+        .itemInputs('1000x gtceu:cryolite_dust')
+        .circuit(24)
+        .itemOutputs('50x gtceu:sodium22_dust')
+        .outputFluids('gtceu:magnesium 1000')
+        .outputFluids('gtceu:magnalium 10000')
+        .duration(20 * 36000)
+    event.recipes.gtceu.decay_pools('naalfx')
+        .itemInputs('1000x gtceu:cryolite_dust')
+        .notConsumable('kubejs:adamantite_proton_source')
+        .itemOutputs('200x gtceu:sodium22_dust')
+        .outputFluids('gtceu:magnesium 1000')
+        .outputFluids('gtceu:magnalium 10000')
+        .duration(20 * 3600)
+        .EUt(5120 * 10)
+    event.shaped(
+        Item.of('gtceu:assembly_line_casing', 1), [
+            "ABA",
+            "ACA",
+            "ABA"
+        ], {
+            A: '#gtceu:circuits/zpm',
+            B: '#gtceu:circuits/luv',
+            C: 'gtceu:tungsten_steel_frame',
+        })
+    event.shaped(
+        Item.of('gtceu:assembly_line_unit', 1), [
+            "BAB",
+            "ACA",
+            "BAB"
+        ], {
+            A: 'gtceu:iv_robot_arm',
+            B: 'gtceu:ruridit_gear',
+            C: '#gtceu:circuits/zpm',
+        })
+    event.recipes.gtceu.assembler('gtceu:assembly_line_casing_1')
+        .itemOutputs('8x gtceu:assembly_line_casing')
+        .itemInputs('8x #gtceu:circuits/zpm')
+        .itemInputs('8x #gtceu:circuits/uv')
+        .itemInputs('8x gtceu:tungsten_steel_frame')
+        .circuit(1)
+        .EUt(8192)
+        .duration(20 * 160)
+    event.recipes.gtceu.assembler('gtceu:assembly_line_casing_2')
+        .itemOutputs('gtceu:assembly_line_casing')
+        .itemInputs('6x #gtceu:circuits/zpm')
+        .itemInputs('2x #gtceu:circuits/luv')
+        .itemInputs('gtceu:tungsten_steel_frame')
+        .circuit(2)
+        .EUt(8192)
+        .duration(20 * 20)
+    event.recipes.gtceu.assembler('gtceu:assembly_line_unit_1')
+        .itemOutputs('4x gtceu:assembly_line_unit')
+        .itemInputs('4x gtceu:luv_robot_arm')
+        .itemInputs('12x gtceu:ruridit_gear')
+        .itemInputs('4x #gtceu:circuits/luv')
+        .circuit(1)
+        .EUt(8192)
+        .duration(20 * 120)
+    event.recipes.gtceu.assembler('gtceu:assembly_line_unit_2')
+        .itemOutputs('gtceu:assembly_line_unit')
+        .itemInputs('4x gtceu:iv_robot_arm')
+        .itemInputs('4x gtceu:ruridit_gear')
+        .itemInputs('1x #gtceu:circuits/zpm')
+        .circuit(2)
+        .EUt(8192)
+        .duration(20 * 20)
+
+
+
 })

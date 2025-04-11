@@ -924,13 +924,13 @@
 		}
 		{
 			dependencies: [
-				"0B92B29E066D2E88"
 				"2C5808ACA11F77FD"
-				"69C0EA16863038E7"
+				"28C5FFD22F9B4FEF"
+				"143BD40B4BAA7B6C"
 				"31057AC4F85B71CE"
-				"0C56A770E0AA5FE2"
 			]
 			description: ["{ftbquests.chapter.iv.quest61.description1}"]
+			hide_dependency_lines: false
 			icon: "gtceu:assembly_line"
 			id: "38B6939B719B9C30"
 			rewards: [{
@@ -1036,20 +1036,6 @@
 			}]
 			x: -4.5d
 			y: 1.5d
-		}
-		{
-			dependencies: [
-				"5E6E9A02C455FDB7"
-				"401CC51AA97A3DD2"
-			]
-			id: "0C56A770E0AA5FE2"
-			tasks: [{
-				id: "1E01BFAA13B2358E"
-				item: "gtceu:ruridit_ingot"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 0.5d
 		}
 		{
 			dependencies: ["2D30354CDA91122C"]
@@ -1837,6 +1823,33 @@
 			}]
 			x: 4.5d
 			y: -8.5d
+		}
+		{
+			description: ["在LUV阶段中你可以通过组装机来组装更加便宜的这两种方块，不过现在你必须制作大量电路板了"]
+			id: "143BD40B4BAA7B6C"
+			rewards: [{
+				id: "470855857A02012D"
+				item: "gtceu:assembly_line_casing"
+				type: "item"
+			}]
+			subtitle: "CT的序列组装可以帮你节省点电路板，虽然很恶心，考虑到节省的是ZPM，也许并不是不能接受"
+			tasks: [
+				{
+					count: 16L
+					id: "3C9FE6E66BC912B4"
+					item: "gtceu:assembly_line_casing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7538E9FB4CFF82B9"
+					item: "gtceu:assembly_line_unit"
+					type: "item"
+				}
+			]
+			title: "不想吃CT的苦，就要吃NH的苦"
+			x: -7.5d
+			y: 0.5d
 		}
 	]
 	title: "{ftbquests.chapter.iv.title}"

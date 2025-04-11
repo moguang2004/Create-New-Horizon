@@ -559,7 +559,7 @@
 				}
 			]
 			x: 4.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["39C4AFD7B0736FD6"]
@@ -578,7 +578,7 @@
 			}]
 			title: "{ftbquests.chapter.ev.quest51.title}"
 			x: 6.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			id: "659495FD6AB169E3"
@@ -1001,8 +1001,8 @@
 		}
 		{
 			dependencies: [
-				"17292FB8D4DD36BA"
-				"46B421171FE2DEE9"
+				"32675AD42486FD78"
+				"7D969869121E2143"
 			]
 			id: "18539988644418C9"
 			rewards: [{
@@ -1017,24 +1017,8 @@
 				item: "gtceu:power_substation"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 8.5d
-		}
-		{
-			id: "46B421171FE2DEE9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1D5D952B9F853F08"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
-			tasks: [{
-				id: "400827C1C8FD3A6C"
-				item: "gtceu:lapotron_crystal"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 8.5d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4D6F042D3D3DA8A2"]
@@ -1283,6 +1267,27 @@
 			}]
 			x: 8.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["2B4A57C7F61E03A8"]
+			id: "32675AD42486FD78"
+			tasks: [{
+				id: "6F646C9542BD511A"
+				item: "gtceu:lapotron_crystal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "7D969869121E2143"
+			tasks: [{
+				id: "15B04D966579DF49"
+				item: "gtceu:empty_tier_i_battery"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
 		}
 	]
 	title: "{ftbquests.chapter.ev.title}"
