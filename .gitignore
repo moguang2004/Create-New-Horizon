@@ -75,3 +75,5 @@ versions/dev/PCL/Setup.ini
 **/*.jar.meta
 **/*.log
 /.mixin.out
+!/mods/CTNH*.jar
+!/mods/ctpp*.jar
