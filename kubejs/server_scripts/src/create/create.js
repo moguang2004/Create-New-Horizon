@@ -82,11 +82,11 @@ ServerEvents.recipes(event => {
         " BCB ",
         "  A  "
     ], {
-        A: "create_new_age:copper_wire",
+        A: 'gtceu:fine_copper_wire',
 
         B: "gtceu:andesite_alloy_plate",
 
-        C: "create_new_age:copper_circuit",
+        C: "gtceu:resin_printed_circuit_board",
 
         D: 'create:precision_mechanism',
 

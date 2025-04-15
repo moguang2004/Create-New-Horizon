@@ -239,6 +239,17 @@ ServerEvents.recipes(event => {
             }).keepIngredient("alexscaves:scarlet_magnet")
         .keepIngredient("alexscaves:azure_magnet")
     event.shaped(
+            Item.of("gtceu:magnetic_iron_rod", 7), [
+                "ABA",
+                "AAA",
+                "ACA"
+            ], {
+                A: "gtceu:iron_rod",
+                B: "alexscaves:scarlet_magnet",
+                C: "alexscaves:azure_magnet"
+            }).keepIngredient("alexscaves:scarlet_magnet")
+        .keepIngredient("alexscaves:azure_magnet")
+    event.shaped(
         Item.of("create_new_age:magnetite_block", 5), [
             "ABA",
             "BAB",
@@ -1554,6 +1565,99 @@ ServerEvents.recipes(event => {
             D: 'minecraft:daylight_detector',
             E: 'gtceu:hv_sensor'
         })
+    event.shaped(
+        Item.of('ctnhcore:mechanical_pressor', 1), [
+            "AAA",
+            "BCB",
+            "DED"
+          ], {
+            A: 'kubejs:steel_mechanism',
+            B: 'create:railway_casing',
+            C: 'create:mechanical_press',
+            D: 'create:large_cogwheel',
+            E: 'create:depot'
+        })
+    event.shaped(
+        Item.of('ctnhcore:mechanical_pressor', 1), [
+            "AAA",
+            "BCB",
+            "DED"
+          ], {
+            A: 'kubejs:steel_mechanism',
+            B: 'create:railway_casing',
+            C: 'create:mechanical_mixer',
+            D: 'create:fluid_pipe',
+            E: 'create:basin'
+        })
+    event.shaped(
+        Item.of('ctnhcore:mechanical_mixer', 1), [
+            "AAA",
+            "BCB",
+            "DED"
+          ], {
+            A: 'kubejs:steel_mechanism',
+            B: 'create:railway_casing',
+            C: 'create:mechanical_press',
+            D: 'create:large_cogwheel',
+            E: 'create:depot'
+        })
+    event.shaped(
+        Item.of('ctnhcore:mechanical_centrifuge', 1), [
+            "AAA",
+            "BCB",
+            "DDD"
+          ], {
+            A: 'kubejs:steel_mechanism',
+            B: 'create:railway_casing',
+            C: 'vintageimprovements:centrifuge',
+            D: 'create:basin'
+        })
+    event.shaped(
+        Item.of('ctnhcore:mechanical_sifter', 1), [
+            "AAA",
+            "BCB",
+            "DDD"
+          ], {
+            A: 'kubejs:steel_mechanism',
+            B: 'create:railway_casing',
+            C: 'vintageimprovements:vibrating_table',
+            D: 'gtceu:item_filter'
+        })
+    event.shaped(
+        Item.of('ctnhcore:mechanical_extractor', 1), [
+            "AAA",
+            "BCB",
+            "DED"
+          ], {
+            A: 'kubejs:steel_mechanism',
+            B: 'create:railway_casing',
+            C: 'createmetallurgy:foundry_mixer',
+            D: 'create:fluid_pipe',
+            E: 'createmetallurgy:foundry_basin'
+        })
+    event.shaped(
+        Item.of('ctnhcore:mechanical_lathe', 1), [
+            "AAA",
+            "BCB",
+            "DDD"
+          ], {
+            A: 'kubejs:steel_mechanism',
+            B: 'create:railway_casing',
+            C: 'vintageimprovements:lathe',
+            D: 'create:belt_connector'
+        })
+    event.shaped(
+        Item.of('ctnhcore:mechanical_laser', 1), [
+            "AAA",
+            "BCB",
+            "DED"
+          ], {
+            A: 'kubejs:steel_mechanism',
+            B: 'create:railway_casing',
+            C: 'vintageimprovements:laser',
+            D: 'gtceu:red_alloy_quadruple_wire',
+            E: 'create:depot'
+        }) 
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

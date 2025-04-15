@@ -865,7 +865,7 @@
 				"011E8AEDD9D3731D"
 			]
 			id: "79F1B6B69D7ED6CB"
-			subtitle: "1:1，是不是很神奇？"
+			subtitle: "1:1，是不是很神奇？(其实并没有)"
 			tasks: [{
 				id: "3BA39A876DF0F2AE"
 				item: "kubejs:echo_processor_assembly"
@@ -880,7 +880,7 @@
 				"79F1B6B69D7ED6CB"
 			]
 			id: "706D808019B80CE8"
-			subtitle: "还是1：1！赚翻了好不啦！"
+			subtitle: "还是1：1！赚翻了好不啦！(其实并没有)"
 			tasks: [{
 				id: "40778AB101D44448"
 				item: "kubejs:echo_processor_computer"

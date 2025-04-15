@@ -820,17 +820,6 @@
 			y: -7.0d
 		}
 		{
-			id: "3A2D6EEBA8A75B83"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest59.subtitle}"
-			tasks: [{
-				id: "45DE9D326C667C29"
-				item: "vintageimprovements:laser"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["5C2E8CF9DF1A76F4"]
 			id: "589F78888F04CA35"
 			tasks: [{
@@ -888,7 +877,6 @@
 			dependencies: [
 				"46D539BDB8CECDE1"
 				"4B90C12A9AD3F488"
-				"3A2D6EEBA8A75B83"
 			]
 			dependency_requirement: "one_completed"
 			id: "2CB9C64B6AD4B61B"
@@ -924,7 +912,6 @@
 		{
 			dependencies: [
 				"2CB9C64B6AD4B61B"
-				"3A2D6EEBA8A75B83"
 				"0B8D27D4FAA175B9"
 				"2866385471094DB9"
 			]

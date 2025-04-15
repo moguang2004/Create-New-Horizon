@@ -319,11 +319,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"5A460876CA0EC216"
-				"416A92ACC117B6B3"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["5A460876CA0EC216"]
 			id: "6A93AEE55399519D"
 			tasks: [{
 				id: "3FAAF27C803FB471"
@@ -1012,17 +1008,6 @@
 			}]
 			x: 8.0d
 			y: -6.0d
-		}
-		{
-			id: "416A92ACC117B6B3"
-			subtitle: "跳过任务线"
-			tasks: [{
-				id: "107B99D7E1BAEF13"
-				item: "gtceu:ethylene_bucket"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
 		}
 	]
 	title: "{ftbquests.chapter.mv.title}"
