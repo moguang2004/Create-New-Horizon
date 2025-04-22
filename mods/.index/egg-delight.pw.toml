@@ -1,0 +1,13 @@
+filename = 'EggDelight-v1.2-1.20.1.jar'
+name = 'Egg Delight'
+side = 'both'
+
+[download]
+hash = '9c0632d800e58856f7e521c0e6b04b07ffa40665'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5171034
+project-id = 927250

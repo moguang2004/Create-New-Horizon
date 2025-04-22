@@ -1,0 +1,13 @@
+filename = 'ponderjs-1.20.1-2.0.3.jar'
+name = 'PonderJS'
+side = 'both'
+
+[download]
+hash = 'c6bf569e04f387de2585736c69d0349386b4081c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6421966
+project-id = 622888

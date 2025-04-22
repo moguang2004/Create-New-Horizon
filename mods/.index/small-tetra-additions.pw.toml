@@ -1,0 +1,13 @@
+filename = 'smalltetraadditions-1.20-8.0.jar'
+name = 'Small Tetra Additions'
+side = 'both'
+
+[download]
+hash = '3aeec5d4a025440af4ff94b42dd65e7edb4de495'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6238077
+project-id = 967606

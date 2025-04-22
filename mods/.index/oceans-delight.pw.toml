@@ -1,0 +1,13 @@
+filename = 'oceansdelight-1.0.2-1.20.jar'
+name = "Ocean's Delight"
+side = 'both'
+
+[download]
+hash = '32af985453bde77bfa56d59cdfb11cab5662c8e1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4652060
+project-id = 841262

@@ -1,0 +1,13 @@
+filename = 'scg-ctnh.jar'
+name = 'StarCarefree Game'
+side = 'both'
+
+[download]
+hash = '500371de321c62070506502b9b926757670dd4c2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6199284
+project-id = 1201609

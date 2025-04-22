@@ -1,0 +1,13 @@
+filename = 'greg_emitters-1.20.1-1.0.9.jar'
+name = 'GregTech Placeable Emitters'
+side = 'both'
+
+[download]
+hash = '137304c751896ca69b088322075ae33a0de28e49'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6012474
+project-id = 1056934

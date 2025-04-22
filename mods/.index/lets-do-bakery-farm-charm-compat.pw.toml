@@ -1,0 +1,13 @@
+filename = 'letsdo-bakery-forge-2.0.4.jar'
+name = "[Let's Do] Bakery"
+side = 'both'
+
+[download]
+hash = '20e2367ad7373b29fdfd163d0af8711a1201ec9b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6195381
+project-id = 1038130
