@@ -101,4 +101,7 @@ chmod +x .git/hooks/post-merge
 echo "🎉 Git hooks 配置完成！"
 echo "  - pre-push:  在 git push 前运行"
 echo "  - post-merge: 在 git pull 后运行"
+echo "重置mods文件夹"
+cd ./mods
+find . -maxdepth 1 -type f -name "*.jar" ! -name "ctpp*.jar" ! -name "CTNHCore*.jar" -delete
 java -jar packwiz-installer-bootstrap.jar ./pack.toml
