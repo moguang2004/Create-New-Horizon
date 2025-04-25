@@ -74,7 +74,7 @@ fi
 echo "🔍 检测到 mods/ 目录变更，正在清理..."
 
 #删除原有的mods文件
-TARGET_DIR="/mods"
+TARGET_DIR="./mods"
 if [ ! -d "$TARGET_DIR" ]; then
   echo "错误：目录 $TARGET_DIR 不存在！"
   exit 1
