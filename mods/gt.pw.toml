@@ -1,0 +1,12 @@
+name = "GT--"
+filename = "gtnn-1.20.1-1.1.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "20f23143458e52ac7c98562c15df32b244805b14"
+url = "https://edge.forgecdn.net/files/6089/123/gtnn-1.20.1-1.1.8.jar"
+
+[update.curseforge]
+file-id = 6089123
+project-id = 985872

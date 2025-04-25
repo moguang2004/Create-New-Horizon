@@ -1,0 +1,12 @@
+name = "FastFurnace"
+filename = "FastFurnace-1.20.1-8.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b144b8599acd3fac3f8f9d31fa217a4a5b942f61"
+url = "https://edge.forgecdn.net/files/5181/098/FastFurnace-1.20.1-8.0.2.jar"
+
+[update.curseforge]
+file-id = 5181098
+project-id = 299540

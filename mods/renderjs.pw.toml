@@ -1,0 +1,12 @@
+name = "RenderJS"
+filename = "renderjs-forge-1.20.1-v1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "067f56c7d33cd34c55d07efe11af3ef4fd4f742e"
+url = "https://edge.forgecdn.net/files/5760/903/renderjs-forge-1.20.1-v1.2.1.jar"
+
+[update.curseforge]
+file-id = 5760903
+project-id = 1064413

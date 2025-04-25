@@ -1,0 +1,12 @@
+name = "Weather, Storms & Tornadoes"
+filename = "weather2-1.20.1-2.8.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4ec7a372945874dd734a20fa61574f08d2b6763a"
+url = "https://edge.forgecdn.net/files/5244/118/weather2-1.20.1-2.8.3.jar"
+
+[update.curseforge]
+file-id = 5244118
+project-id = 237746

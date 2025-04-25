@@ -1,0 +1,12 @@
+name = "FTB Ultimine (Forge)"
+filename = "ftb-ultimine-forge-2001.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "106aa8ae16ceda4bb7244bfc64a6ee86c842f2a5"
+url = "https://edge.forgecdn.net/files/5363/345/ftb-ultimine-forge-2001.1.5.jar"
+
+[update.curseforge]
+file-id = 5363345
+project-id = 386134

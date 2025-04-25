@@ -1,0 +1,12 @@
+name = "Create"
+filename = "create-1.20.1-0.5.1.j.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fab2ae7fcf685b3875ca20022bfecf0d4fdafbf7"
+url = "https://edge.forgecdn.net/files/5838/779/create-1.20.1-0.5.1.j.jar"
+
+[update.curseforge]
+file-id = 5838779
+project-id = 328085

@@ -1,0 +1,12 @@
+name = "[Let's Do] Bakery - Farm&Charm Compat"
+filename = "letsdo-bakery-forge-2.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b7e152661e555c1638f59eaee9e720d4091c44ce"
+url = "https://edge.forgecdn.net/files/5652/331/letsdo-bakery-forge-2.0.2.jar"
+
+[update.curseforge]
+file-id = 5652331
+project-id = 1038130

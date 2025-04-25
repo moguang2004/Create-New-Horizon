@@ -1,0 +1,12 @@
+name = "Resourceful Config"
+filename = "resourcefulconfig-forge-1.20.1-2.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "46825dc0adc36c4b19591bb99f7d856bc2953749"
+url = "https://edge.forgecdn.net/files/5020/441/resourcefulconfig-forge-1.20.1-2.1.2.jar"
+
+[update.curseforge]
+file-id = 5020441
+project-id = 714059
