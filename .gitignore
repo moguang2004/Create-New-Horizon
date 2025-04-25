@@ -34,7 +34,7 @@ natives-*/
 /config/sound_physics_remastered/
 /gtceu/
 /*.jar
-!/packwiz*.jar
+!packwiz*.jar
 /*.json
 /${quickPlayPath}
 *.log
@@ -64,13 +64,12 @@ config/InventoryHUD/curios.json
 config/fancymenu/options.txt
 config/touhou_little_maid/info.json
 /assets
-.gitignore
 PCL.ini
 /libraries
 versions/dev/dev.jar
 versions/dev/dev.json
 versions/dev/PCL/Setup.ini
-**/*.jar
+/mods/*.jar
 **/*.jar.disabled
 **/*.jar.meta
 **/*.log
@@ -82,3 +81,7 @@ versions/dev/PCL/Setup.ini
 /texturepacks/
 /server-resource-packs/
 /.replay_cache/
+/pack.mcmeta
+/icon.png
+/servers.dat
+/servers.dat_old

@@ -190,7 +190,7 @@ hash = "6fbf05e2719f095908f8196a694f6a8f36bc39c7d5e71644b0ea55e025c8b80f"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "7172a4a8a1859c2c792ad9aa006c456ead5fa30eee6acc55c0d5b38354a2ef7c"
+hash = "2df09285df038a8127ce960640cec37bcf0da804e30323b7486a8bc087cfb319"
 
 [[files]]
 file = "config/apotheosis/garden.cfg"
@@ -802,7 +802,7 @@ hash = "c0a70a8d7c61e78396b4c65b1a04116bc727374b86f8421a87778fd211f57edc"
 
 [[files]]
 file = "config/ctnhcore.yaml"
-hash = "a6adfd8cd8277ab45319e8676e7ec75285f07a6758fe33b2daace98e072743d8"
+hash = "9e176817ac775ccb26d3806866b5722b581550d062f903a702eb19225b7fb0cb"
 
 [[files]]
 file = "config/ctpp.yaml"
@@ -866,7 +866,7 @@ hash = "b3b9b626e1a825a38ab4b907441938d7bf2d12d715d83b380618317b08cb3534"
 
 [[files]]
 file = "config/dsurround/soundconfig.json"
-hash = "fa64bd86613903b70b20777bbead61ca0d78312fc2e5c164921dd856e8029ddd"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/dummmmmmy-client.toml"
@@ -1114,7 +1114,7 @@ hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0c0c1d8a48c162a176880425f774e839d018d0db5d949f4aadba009fb3a205a9"
+hash = "0d58a4f240bffd44d9126abfa06679b91cd0411f5be2692a5783a3c87adf90f7"
 
 [[files]]
 file = "config/fancymenu/assets/2024-08-19_19.51.04.png"
@@ -1878,7 +1878,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "f66c063139b97c1e12ff3773c41027ddb40f9a4cb93bd59690694c56db5e3f63"
+hash = "434d630c5f3bb5e5898676a38b7bbc1feaab10a1dbe32d28a023d601c687a494"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -1998,15 +1998,15 @@ hash = "afef01cfc0d12c0762259da786bea4b9b816b569690adecaf75f057a9da90fe3"
 
 [[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
-hash = "97e478ec6772f71554a40c4cfe1d9d835379236fe6719e80debc29c0b8f31e89"
+hash = "414f50141a8b418120cca799e3ebbbda6a74ddf91ccd2edf2f285e319a3604ae"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "54dab10d2373f73e1ca8c8fda75025fa950e1c9484175bda08c8bf9212238b3f"
+hash = "9b43a8006ff8c0b08465eec6800df8d8a9bc2fc0a1f1a88d0a8a34472a81a4b7"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "88c874bfd7a69d57e55ddea7416b9219c098c0a50fd71aeaff109495c12d37ed"
+hash = "cdf7908aba33f4c0084629d86ffec9d0ce059100da6225b225b6087e6d9392e6"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2142,7 +2142,7 @@ hash = "7855446d1ad543c866f50b0b627d958d194c345e75d5fb3d6f29519668f8bd80"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "d44155ad6524baf93af689dcc2f7bab16d1989475f4c91a88ee526687e4957ec"
+hash = "8ec85ecdff2a7b60389a80cbffa420876fcf83b3a72120e3564076da50dc3fca"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -9153,6 +9153,10 @@ hash = "864213bdf4acfbb923c0caabd4ced0faa42ec083bbb4f2fedbc2b8a5291822f8"
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip"
 hash = "a0b9efd8aad065be2fd92d19857fe1c6a383ff8913a0e3812723fbb317231a5e"
+
+[[files]]
+file = "setup.sh"
+hash = "4e39321b69c5b4ca8cdf5c67d4bf9fcc8d670a2cfb5bfec847c6e63a1e1cea75"
 
 [[files]]
 file = "tlm_custom_pack/genshin_impact-1.1.6.zip"
