@@ -38,3 +38,4 @@ natives-*/
 !/TrashSlotSaveState.json
 /rhino.local.properties
 /README.md
+/.git*
