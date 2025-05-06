@@ -171,6 +171,10 @@ StartupEvents.registry("item", event => {
     event.create('source_of_countless_magical_powers').tooltip("疯狂至极")
     event.create('book_of_ruina').tooltip("一场赞歌摇篮曲")
     event.create('heart_of_flower').tooltip("§2她曾存在过")
+    event.create('osmiridium_mechanism').tooltip("集成部件方案")
+    event.create('naquadah_mechanism').tooltip("进阶集成部件方案")
+    event.create('darmstadtium_mechanism').tooltip("构件动力：永无止进")
+    event.create('neutronium_mechanism').tooltip("机械动力：无限构件")
 })
 StartupEvents.registry("item", event => {
     event.create("scp_500", "basic").food(food => {
