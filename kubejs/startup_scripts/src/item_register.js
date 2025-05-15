@@ -177,6 +177,15 @@ StartupEvents.registry("item", event => {
     event.create('neutronium_mechanism').tooltip("机械动力：无限构件")
 })
 StartupEvents.registry("item", event => {
+    event.create("scp_500_base", "basic").food(food => {
+        food.alwaysEdible(true)
+        food.effect("minecraft:regeneration", 999, 10, 1)
+        food.effect("minecraft:resistance", 999, 3, 1)
+        food.fastToEat(true)
+        food.eaten(ctx => {
+            Utils.server.runCommandSilent('title @p title {"text":"你在短时间内你将获得强大的恢复能力","color":"red"}');
+        })
+    })
     event.create("scp_500", "basic").food(food => {
         food.alwaysEdible(true)
         food.effect("minecraft:regeneration", 999, 10, 1)
@@ -184,7 +193,8 @@ StartupEvents.registry("item", event => {
         food.fastToEat(true)
         food.eaten(ctx => {
             Utils.server.runCommandSilent('medical_condition clear @p');
-            Utils.server.runCommandSilent('title @p title {"text":"你的所有疾病已被治愈，在短时间内你将获得强大的恢复能力","color":"red"}');
+            Utils.server.runCommandSilent('title @p title {"text":"你的所有疾病已被治愈","color":"green"}');
+            Utils.server.runCommandSilent('title @p subtitle {"text":"在短时间内你将获得强大的恢复能力","color":"red"}');
         })
     })
 })
