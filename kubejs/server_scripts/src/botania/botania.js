@@ -318,7 +318,8 @@ ServerEvents.recipes(event => {
     terra_plate(event, ['botania:manasteel_ingot', 'botania:mana_pearl', 'botania:mana_diamond', 'botania:rune_mana'], 'botania:terrasteel_ingot', 500000)
     terra_plate(event, ['kubejs:mana_resistor', 'kubejs:mana_capacitor', 'kubejs:mana_diode', 'gtceu:good_electronic_circuit', 'kubejs:mana_cpu_chip'], 'kubejs:mana_electronic_circuit', 100000)
     terra_plate(event, ['biomesoplenty:blood_bucket', 'biomesoplenty:eyebulb', 'botania:rune_fire'], 'bloodmagic:life_essence_bucket', 50000)
-
+    terra_plate(event, ['gtceu:lv_combustion', 'gtceu:mana_steel_gear', '#gtceu:circuits/mv', 'botania:rune_fire', 'botania:rune_air', 'botania:rune_mana'], 'ctnhcore:mana_generator_turbine_tier1', 10000)
+    terra_plate(event, ['gtceu:elementium_gear', 'mythicbotany:alfheim_rune', 'mythicbotany:muspelheim_rune', 'gtceu:steam_large_turbine', 'ctnhcore:mana_generator_turbine_tier1', 'kubejs:general_circuit_ev'], 'ctnhcore:mana_generator_turbine_tier2', 100000)
     event.recipes.gtceu.mana_reactor('life_essence')
         .itemInputs(['biomesoplenty:eyebulb', 'botania:rune_fire'])
         .inputFluids(Fluid.of('gtceu:mana', 1000))

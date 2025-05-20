@@ -307,6 +307,20 @@
 			x: -1.0d
 			y: 9.0d
 		}
+		{
+			dependencies: ["6D8963683034165D"]
+			id: "1BC96CF2C5DB3D12"
+			shape: "circle"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.uv.quest38.subtitle}"
+			tasks: [{
+				id: "3DFC72E59BBA99F7"
+				item: "gtceu:samarium_dysprosium_terbium_permanent_magnet_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
 	]
 	title: "{ftbquests.chapter.uhv.title}"
 }

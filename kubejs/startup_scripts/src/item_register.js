@@ -175,6 +175,10 @@ StartupEvents.registry("item", event => {
     event.create('naquadah_mechanism').tooltip("进阶集成部件方案")
     event.create('darmstadtium_mechanism').tooltip("构件动力：永无止进")
     event.create('neutronium_mechanism').tooltip("机械动力：无限构件")
+    event.create('clgs_electrode')
+    event.create("thermotolerant_dish")
+    event.create("kubejs:clgs")
+    event.create("measurement_pv_cell")
 })
 StartupEvents.registry("item", event => {
     event.create("scp_500", "basic").food(food => {

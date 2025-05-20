@@ -213,5 +213,9 @@
     "item.kubejs.constrained_unstable_neutronium": "被重力之星约束的不稳定纯中子类物质",
     "item.kubejs.adamantite_proton_source": "精金超能质子源",
     "item.kubejs.double_blaze_cake": "???烈焰蛋糕???",
-    "item.kubejs.heart_of_flower": "§6繁花之心"
+    "item.kubejs.heart_of_flower": "§6繁花之心",
+    "item.kubejs.clgs_electrode": "clgs阳光复合电级",
+    "item.kubejs.clgs": "Cu(In, Ga)Se2阳光电池",
+    "item.kubejs.thermotolerant_dish": "耐热光性培养基",
+    "item.kubejs.measurement_pv_cell": "测定光伏电池组"
 }

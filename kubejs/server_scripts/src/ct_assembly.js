@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.recipes.gtceu.ct_assembly_line('luv')
+    event.recipes.gtceu.ct_assembly_line('luv1')
         .itemInputs('4x gtceu:hsss_ingot')
         .itemInputs('2x gtceu:niobium_titanium_single_cable')
         .inputFluids('gtceu:soldering_alloy 144')
@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:osmiridium_mechanism')
         .EUt(32678)
         .duration(160)
-    event.recipes.gtceu.ct_assembly_line('zpm')
+    event.recipes.gtceu.ct_assembly_line('zpm1')
         .itemInputs('7x gtceu:osmiridium_ingot')
         .itemInputs('2x gtceu:vanadium_gallium_single_cable')
         .inputFluids('gtceu:soldering_alloy 144')
@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:naquadah_mechanism')
         .EUt(32678 * 4)
         .duration(160)
-    event.recipes.gtceu.ct_assembly_line('uv')
+    event.recipes.gtceu.ct_assembly_line('uv1')
         .itemInputs('7x gtceu:tritanium_ingot')
         .itemInputs('2x gtceu:yttrium_barium_cuprate_single_cable')
         .inputFluids('gtceu:soldering_alloy 576')
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:darmstadtium_mechanism')
         .EUt(32678 * 16)
         .duration(160)
-    event.recipes.gtceu.ct_assembly_line('uhv')
+    event.recipes.gtceu.ct_assembly_line('uhv1')
         .itemInputs('7x gtceu:adamantite_ingot')
         .itemInputs('2x gtceu:europium_single_cable')
         .inputFluids('gtceu:soldering_alloy 576')
@@ -33,5 +33,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:darmstadtium_mechanism')
         .EUt(32678 * 16 * 4)
         .duration(160)
+
 
 })

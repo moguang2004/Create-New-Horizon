@@ -505,58 +505,6 @@ ServerEvents.recipes(event => {
             F: "gtceu:mv_fluid_heater"
         })
     event.shaped(
-        Item.of("ctnhcore:mana_generator_turbine_tier1", 1), [
-            "ABA",
-            "CDC",
-            "EFE"
-        ], {
-            A: "gtceu:lv_sensor",
-            B: "gtceu:lv_electric_pump",
-            C: "ctnhcore:mana_steel_casing",
-            D: "#gtceu:circuits/lv",
-            E: "gtceu:steel_gear",
-            F: "gtceu:lv_conveyor_module"
-        })
-    event.shaped(
-        Item.of("ctnhcore:mana_generator_turbine_tier2", 1), [
-            "ABA",
-            "CDC",
-            "EFE"
-        ], {
-            A: "gtceu:mv_sensor",
-            B: "gtceu:mv_electric_pump",
-            C: "ctnhcore:elementium_casing",
-            D: "#gtceu:circuits/mv",
-            E: "gtceu:aluminium_gear",
-            F: "gtceu:mv_conveyor_module"
-        })
-    event.shaped(
-        Item.of("ctnhcore:mana_generator_turbine_tier3", 1), [
-            "ABA",
-            "CDC",
-            "EFE"
-        ], {
-            A: "gtceu:hv_sensor",
-            B: "gtceu:hv_electric_pump",
-            C: "ctnhcore:terra_steel_casing",
-            D: "#gtceu:circuits/hv",
-            E: "gtceu:stainless_steel_gear",
-            F: "gtceu:hv_conveyor_module"
-        })
-    event.shaped(
-        Item.of("ctnhcore:mana_generator_turbine_tier4", 1), [
-            "ABA",
-            "CDC",
-            "EFE"
-        ], {
-            A: "gtceu:ev_sensor",
-            B: "gtceu:ev_electric_pump",
-            C: "ctnhcore:alfsteel_casing",
-            D: "#gtceu:circuits/ev",
-            E: "gtceu:titanium_gear",
-            F: "gtceu:ev_conveyor_module"
-        })
-    event.shaped(
         Item.of("ctnhcore:slaughter_house", 1), [
             "ABA",
             "BCB",
@@ -1570,7 +1518,7 @@ ServerEvents.recipes(event => {
             "AAA",
             "BCB",
             "DED"
-          ], {
+        ], {
             A: 'kubejs:steel_mechanism',
             B: 'create:railway_casing',
             C: 'create:mechanical_press',
@@ -1582,7 +1530,7 @@ ServerEvents.recipes(event => {
             "AAA",
             "BCB",
             "DED"
-          ], {
+        ], {
             A: 'kubejs:steel_mechanism',
             B: 'create:railway_casing',
             C: 'create:mechanical_mixer',
@@ -1594,7 +1542,7 @@ ServerEvents.recipes(event => {
             "AAA",
             "BCB",
             "DED"
-          ], {
+        ], {
             A: 'kubejs:steel_mechanism',
             B: 'create:railway_casing',
             C: 'create:mechanical_press',
@@ -1606,7 +1554,7 @@ ServerEvents.recipes(event => {
             "AAA",
             "BCB",
             "DDD"
-          ], {
+        ], {
             A: 'kubejs:steel_mechanism',
             B: 'create:railway_casing',
             C: 'vintageimprovements:centrifuge',
@@ -1617,7 +1565,7 @@ ServerEvents.recipes(event => {
             "AAA",
             "BCB",
             "DDD"
-          ], {
+        ], {
             A: 'kubejs:steel_mechanism',
             B: 'create:railway_casing',
             C: 'vintageimprovements:vibrating_table',
@@ -1628,7 +1576,7 @@ ServerEvents.recipes(event => {
             "AAA",
             "BCB",
             "DED"
-          ], {
+        ], {
             A: 'kubejs:steel_mechanism',
             B: 'create:railway_casing',
             C: 'createmetallurgy:foundry_mixer',
@@ -1640,7 +1588,7 @@ ServerEvents.recipes(event => {
             "AAA",
             "BCB",
             "DDD"
-          ], {
+        ], {
             A: 'kubejs:steel_mechanism',
             B: 'create:railway_casing',
             C: 'vintageimprovements:lathe',
@@ -1651,13 +1599,13 @@ ServerEvents.recipes(event => {
             "AAA",
             "BCB",
             "DED"
-          ], {
+        ], {
             A: 'kubejs:steel_mechanism',
             B: 'create:railway_casing',
             C: 'vintageimprovements:laser',
             D: 'gtceu:red_alloy_quadruple_wire',
             E: 'create:depot'
-        }) 
+        })
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
