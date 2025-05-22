@@ -694,5 +694,16 @@
     "material.gtceu.star_fuel_exhausted": "恒星旋律燃料(枯竭态)",
     "material.gtceu.agn_fuel": "星系核创生燃料",
     "material.gtceu.hiddenechofungus": "幽匿回响菌",
-    "material.gtceu.hiddenechofungussolution": "幽匿回响菌液"
+    "material.gtceu.hiddenechofungussolution": "幽匿回响菌液",
+    "material.gtceu.soda_dust": "苏打玻璃",
+    "material.gtceu.clgs_buffer": "CLGS缓冲",
+    "material.gtceu.cds_buffer": "CdS缓冲",
+    "material.gtceu.magnetron_sputtering_target_material": "载磁控溅射物料",
+    "material.gtceu.sunnarium_extract": "阳光提取物",
+    "material.gtceu.radiation_sunnarium_extract": "辐射阳光提取物",
+    "material.gtceu.cadmium_sulfide": "硫化镉",
+    "material.gtceu.heat_resistant_ferrochrome_alloy_ds": "耐热铬铁合金-ds",
+    "material.gtceu.heat_resistant_ferrochrome_alloy_020": "耐热铬铁合金-020",
+    "material.gtceu.optical_heat_resistant_ferrochrome_alloy_080": "光性耐热铬铁合金-080",
+    "material.gtceu.naquadah_heat_resistant_ferrochrome_alloy_792": "硅岩基耐热铬铁合金-792"
 }

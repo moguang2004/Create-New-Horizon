@@ -138,6 +138,9 @@ ItemEvents.tooltip(event => {
         text.add(1, Text.translate('kubejs.scp_500.0'))
         text.add(2, Text.translate('kubejs.scp_500.1'))
     })
+    event.addAdvanced('kubejs:scp_500_base', (item, advanced, text) => {
+        text.add(1, Text.translate('kubejs.scp_500_base.0'))
+    })
     event.add('kubejs:broken_temperature_keeping_device', Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit', Text.translate('ctnh.basic_energy_conduit'))
     event.add('enderio:enhanced_energy_conduit', Text.translate('ctnh.enhanced_energy_conduit'))

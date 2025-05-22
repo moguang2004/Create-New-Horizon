@@ -412,7 +412,7 @@
 				item: "ctnhcore:photovoltaic_power_station_energetic"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 16.0d
 			y: -0.5d
 		}
 		{
@@ -422,7 +422,7 @@
 				item: "ctnhcore:photovoltaic_power_station_pulsating"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 16.0d
 			y: 1.0d
 		}
 		{
@@ -432,7 +432,7 @@
 				item: "ctnhcore:photovoltaic_power_station_vibrant"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 16.0d
 			y: 2.5d
 		}
 		{
@@ -616,6 +616,32 @@
 			}]
 			x: 0.0d
 			y: 10.0d
+		}
+		{
+			description: [
+				"这对你说绝对是一个全新的挑战，下一步的光伏线会需要巨量的阳光化合物，所以我建议你做出来其产线"
+				""
+				"你有很多方式可以获取它："
+				""
+				"1.从某些生物质里面提取到阳光提取物，然后与萤石在高压釜中制作"
+				""
+				"2.使用UU物质和生物质直接制取，速度更快步骤更少（前提是UU物质这条线已经有人做了）"
+				""
+				"3.在LUV后，你可以直接聚变来获得阳光化合物，这个方法消耗的材料少才速度快"
+				""
+				"4.在你制造出光伏基站后，你可以使用其独有配方来跳过阳光提取物这一步来制取阳光化合物"
+				""
+				"5.如果你接受了BTNH，那么你可以通过魔法配方来制取阳光化合物，不过他所需的东西也并没有这么简单：XD"
+			]
+			id: "3EECB7F9DF5AA7B2"
+			subtitle: "凑了，以前光伏要这个玩意吗"
+			tasks: [{
+				id: "61DA0967DE0444A2"
+				item: "gtceu:sunnarium_dust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
 		}
 	]
 	title: "{ftbquests.chapter.15B8D9F4A2A19BFA.title}"
