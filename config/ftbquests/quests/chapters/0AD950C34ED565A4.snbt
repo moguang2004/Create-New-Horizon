@@ -121,6 +121,181 @@
 			x: 0.0d
 			y: 0.5d
 		}
+		{
+			id: "35CD216F4A31651C"
+			subtitle: "耐暑装备"
+			tasks: [
+				{
+					id: "251E24953F904A52"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D092A9298F59E11"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78065AE0549840E0"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DED5100212F7BF9"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:desert_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "59DD54F3A419F257"
+			subtitle: "耐寒装备"
+			tasks: [
+				{
+					id: "5FAAAE9A0C1689E9"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75C9DB78D6923B52"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B7597BBD23A28A3"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "770F43B5FAE7E099"
+					item: {
+						Count: 1
+						id: "legendarysurvivaloverhaul:snow_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "68B1803447029AFC"
+			subtitle: "如果你真的很冷，这玩意很给力"
+			tasks: [
+				{
+					id: "284BADB09DADEF8C"
+					item: "ctnhcore:underfloor_heating_system"
+					type: "item"
+				}
+				{
+					count: 239L
+					id: "330B660B35EE6EC2"
+					item: { Count: 239, id: "create:copper_shingles" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "35DF02599A506D2D"
+					item: { Count: 12, id: "gtceu:bronze_pipe_casing" }
+					type: "item"
+				}
+				{
+					id: "7A91F82BE3C70AA8"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "24C2C7A272C0237A"
+					item: "gtceu:ulv_output_hatch"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "643F38BD5829801D"
+			subtitle: "这两种附魔可以分别提高体温耐受的上下限"
+			tasks: [
+				{
+					id: "69AF1B5C23C04246"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ctnhcore:cooling"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05E04792C0F189F9"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ctnhcore:warming"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.5d
+		}
 	]
 	title: "{ftbquests.chapter.0AD950C34ED565A4.title}"
 }
