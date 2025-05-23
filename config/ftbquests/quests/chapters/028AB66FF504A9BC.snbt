@@ -539,7 +539,7 @@
 			id: "7B17EF15A67D472F"
 			tasks: [{
 				id: "54567D8094B65517"
-				item: "gtceu:gas_centrifuge_machine"
+				item: "ctnhcore:gas_centrifuge"
 				type: "item"
 			}]
 			x: -7.0d

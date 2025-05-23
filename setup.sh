@@ -104,4 +104,5 @@ echo "  - post-merge: 在 git pull 后运行"
 echo "重置mods文件夹"
 cd ./mods
 find . -maxdepth 1 -type f -name "*.jar" ! -name "ctpp*.jar" ! -name "CTNHCore*.jar" -delete
+cd ..
 java -jar packwiz-installer-bootstrap.jar ./pack.toml
