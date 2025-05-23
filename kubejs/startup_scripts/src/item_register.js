@@ -179,6 +179,10 @@ StartupEvents.registry("item", event => {
     event.create("thermotolerant_dish")
     event.create("kubejs:clgs")
     event.create("measurement_pv_cell")
+    event.create("pv_drone_research_1")
+    event.create("pv_drone_research_2")
+    event.create("pv_drone_research_3")
+    event.create("pv_drone_research_4")
 })
 StartupEvents.registry("item", event => {
     event.create("scp_500_base", "basic").food(food => {
