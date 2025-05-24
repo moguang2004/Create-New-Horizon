@@ -1947,7 +1947,7 @@ ServerEvents.recipes(event => {
         .itemInputs('gtceu:luv_machine_casing', '6x gtceu:neutron_reflector', 'gtceu:enriched_naquadah_frame')
         .inputFluids('gtceu:liquid_helium 1000')
         .itemOutputs('2x ctnhcore:antifreeze_heatproof_machine_casing')
-        .EUt(24768)
+        .EUt(8192)
         .duration(50)
     event.recipes.gtceu.assembly_line('plasma_condenser')
         .itemInputs('gtceu:vacuum_freezer', '2x ctnhcore:plasma_cooled_core', '4x #gtceu:circuits/zpm', '4x gtceu:neutron_reflector', '8x gtceu:europium_frame', '8x gtceu:luv_field_generator')
