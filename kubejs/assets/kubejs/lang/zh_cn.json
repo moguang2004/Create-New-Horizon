@@ -14,8 +14,6 @@
     "item.kubejs.bauxite_process_catalyst": "铝土矿处理催化剂",
     "kubejs.attribute.pressure_defense": "水压抗性",
     "item.ctnh.durabilityofenergy": "剩余能量: %s / %s EU",
-    "enchantment.kubejs.vacuum_seal": "真空密封",
-    "enchantment.kubejs.vacuum_seal.desc": "使你不再受到真空的伤害。注：必须所有装备均拥有该附魔",
     "attribute.base_temperature": "基础温度",
     "attribute.cold_dampening": "防寒系数",
     "attribute.cold_resistance": "寒冷抗性",

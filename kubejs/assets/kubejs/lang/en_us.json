@@ -1,7 +1,6 @@
 {
     "kubejs.attribute.pressure_defense": "Water Pressure Resistance",
     "item.ctnh.durabilityofenergy": "Rest Energy: %s / %s EU",
-    "enchantment.kubejs.vacuum_seal.desc": "Protects you from vacuum damage. Note: All equipped items must have this enchantment to take effect",
     "ctnh.zenith_soc": "Advanced Mana SOC Wafer",
     "ctnh.zenith_soc.basic": "§5Enhanced Mana SOC",
     "ctnh.zenith_eye": "§5Is it you watching your creation, or Him watching His?",

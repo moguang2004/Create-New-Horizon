@@ -110,18 +110,6 @@ GTCEuStartupEvents.registry("gtceu:world_gen_layer", event => {
 
 
 GTCEuStartupEvents.registry("gtceu:tag_prefix", event => {
-	event.create("icestone", "ore")
-		.stateSupplier(() => Block.getBlock("aether:icestone").defaultBlockState())
-		.baseModelLocation("aether:block/icestone")
-		.unificationEnabled(true)
-		.materialIconType(GTMaterialIconType.ore)
-		.generationCondition(ItemGenerationCondition.hasOreProperty)
-	event.create("livingrock", "ore")
-		.stateSupplier(() => Block.getBlock("botania:livingrock").defaultBlockState())
-		.baseModelLocation("botania:block/livingrock")
-		.unificationEnabled(true)
-		.materialIconType(GTMaterialIconType.ore)
-		.generationCondition(ItemGenerationCondition.hasOreProperty)
 	event.create("jupiter_stone", "ore")
 		.stateSupplier(() => Block.getBlock("adastra:jupiter_stone").defaultBlockState())
 		.baseModelLocation("ad_extendra:block/jupiter_stone")
