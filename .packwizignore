@@ -32,9 +32,16 @@ natives-*/
 /patchouli_data.json
 /patchouli_books/
 /.replay_cache/
+/mods/*.jar
+!/mods/CTNH*.jar
+!/mods/ctpp*.jar
 /*.jar
 /*.json
+/*.sh
+/icon.png
+/pack.mcmeta
 /servers*
+/observable_announce
 !/TrashSlotSaveState.json
 /rhino.local.properties
 /README.md
