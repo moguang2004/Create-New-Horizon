@@ -28,6 +28,7 @@
     "material.gtceu.sodium_hydroxide_solution": "氢氧化钠溶液",
     "material.gtceu.rare_earth_chloride_solution": "稀土氯化物",
     "material.gtceu.ferric_ree_chloride": "含稀土氯化铁溶液",
+    "material.gtceu.mana_fused": "蕴魔",
     "material.gtceu.mana_fused_mixed": "分选蕴魔",
     "material.gtceu.mana_fused_lp_mixed": "源质提纯蕴魔",
     "material.gtceu.mana_fused_demon_mixed": "恶魔意识筛选蕴魔",
@@ -62,10 +63,6 @@
     "material.gtceu.radiation_mutated_yeast_seed_liquid": "辐射突变酵母种子液",
     "material.gtceu.radiation_mutated_yeast_liquid": "辐射突变酵母原液",
     "material.gtceu.radiation_mutated_yeast_extract_liquid": "辐射突变酵母提取液",
-    "material.gtceu.alf_yeast": "精灵酵母",
-    "material.gtceu.alf_yeast_seed_liquid": "精灵酵母种子液",
-    "material.gtceu.alf_yeast_liquid": "精灵酵母原液",
-    "material.gtceu.alf_yeast_extract_liquid": "精灵酵母提取液",
     "material.gtceu.waste_nutrition_liquid": "废弃营养液",
     "material.gtceu.cellulose": "纤维素",
     "material.gtceu.lignin": "木质素",
@@ -131,6 +128,7 @@
     "material.gtceu.ancient_debris": "远古残骸",
     "material.gtceu.ancient_debris_leach": "远古残骸浸出物",
     "material.gtceu.my_infinity": "无限钢",
+    "material.gtceu.combustible_ice": "可燃冰",
     "material.gtceu.mana": "液态魔力",
     "material.gtceu.pyrotheum": "烈焰之炽焱",
     "material.gtceu.cryotheum": "极寒之凛冰",
@@ -539,6 +537,8 @@
     "gtceu.jei.ore_vein.neutronium_vein_ad": "霜原星中子素矿脉",
     "gtceu.jei.ore_vein.pyrolusite_vein_ad": "金星软锰矿脉",
     "gtceu.jei.ore_vein.saltpeter_vein_ad": "水星粗硝石矿脉",
+    "tagprefix.icestone": "冰石%s矿石",
+    "tagprefix.livingrock": "活石%s矿石",
     "tagprefix.jupiter_stone": "褐赭岩%s矿石",
     "material.gtceu.nether_quartz": "主世界石英",
     "material.gtceu.calcium_sulfide": "硫化钙",
@@ -705,5 +705,10 @@
     "material.gtceu.heat_resistant_ferrochrome_alloy_ds": "耐热铬铁合金-ds",
     "material.gtceu.heat_resistant_ferrochrome_alloy_020": "耐热铬铁合金-020",
     "material.gtceu.optical_heat_resistant_ferrochrome_alloy_080": "光性耐热铬铁合金-080",
-    "material.gtceu.naquadah_heat_resistant_ferrochrome_alloy_792": "硅岩基耐热铬铁合金-792"
+    "material.gtceu.naquadah_heat_resistant_ferrochrome_alloy_792": "硅岩基耐热铬铁合金-792",
+    "material.gtceu.radiation_sight_alloy_x": "辐射视距合金-X",
+    "material.gtceu.quantum_alloy": "量子合金",
+    "material.gtceu.radiation_sight_alloy_inf": "辐射视距合金-∞",
+    "material.gtceu.nami_c": "纳米级沉积碳"
+
 }
