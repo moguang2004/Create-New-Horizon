@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.mana_generator('gtceu:elf_active_fuel')
         .inputFluids('gtceu:elf_active_fuel 100')
         .EUt(-108)
-        .outputFluids('gtceu:mana_stable_cooldownA 3')
+        .outputFluids('gtceu:mana_stable_cooldown 3')
         .outputFluids('gtceu:elf_fuel 1')
         .duration(200)
     event.recipes.gtceu.mana_generator('gtceu:starlight_fuel')
