@@ -7268,8 +7268,8 @@ hash = "c0c9f37292202d3e9f2a532d625eecffdc1edeb2a4d808455d4feee4b1f2bdaa"
 metafile = true
 
 [[files]]
-file = "mods/CTNH-Core-1.20.1-1.0.10.jar"
-hash = "cac01c47c98c6f5820d49be6f6e8bf8baade7bbe07c7e224356c459e7d8cfb93"
+file = "mods/CTNH-CORE-OFFICAL-1.20.1-1.0.10.jar"
+hash = "68e5f45ef7d661e74f3689570484d6ca418287307dc88712edabf954dad98a5f"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -8082,7 +8082,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-ui.pw.toml"
-hash = "fe6e266fcfcd1aae3a9dca8ac5022f8cbfcc7549936b343c81f1ff675ce2fb07"
+hash = "9d6b8b4f7699efe3d4dec26ad89e9de0438065ffc49d990bf4e9cd11290d1ede"
 metafile = true
 
 [[files]]
