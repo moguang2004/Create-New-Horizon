@@ -1,0 +1,12 @@
+name = "rechiseled-create"
+filename = "rechiseledcreate-1.0.2a-forge-mc1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "972f9c406120858159a4184d02cb9a8906f6f04b"
+url = "https://edge.forgecdn.net/files/6401/61/rechiseledcreate-1.0.2a-forge-mc1.20.jar"
+
+[update.curseforge]
+file-id = 6401061
+project-id = 888624

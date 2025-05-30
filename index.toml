@@ -7268,10 +7268,6 @@ hash = "c0c9f37292202d3e9f2a532d625eecffdc1edeb2a4d808455d4feee4b1f2bdaa"
 metafile = true
 
 [[files]]
-file = "mods/CTNH-Core-1.20.1-1.0.10.jar"
-hash = "cac01c47c98c6f5820d49be6f6e8bf8baade7bbe07c7e224356c459e7d8cfb93"
-
-[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
@@ -7841,6 +7837,11 @@ hash = "d38a2819f962a266dceec591991523530d9ad2aa387277e2611ab5acb07e7d1c"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "2cd403752cb9da7509df2827e197ff750717307e4fe6d646a34b19e317e84b36"
+metafile = true
+
+[[files]]
 file = "mods/game-phase.pw.toml"
 hash = "13999b5b046f1956ba4f3c900a9a2fac2714d6683b13916be25c822d0100d951"
 metafile = true
@@ -8218,6 +8219,16 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "c20d45d0e4e972f3149f0057fe741da4b55494b2d6c31e2d5221e7e3c19d1009"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled-create.pw.toml"
+hash = "ab5e5d054876f9a19965632dbf83236006dba7c5321d7a55c1a2bd89ac7be47f"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "715b5a18f4649156617c8868045f24d76a98f14cd46395da35799b164728ba01"
 metafile = true
 
 [[files]]
