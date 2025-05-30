@@ -7593,6 +7593,11 @@ hash = "8b73e70e8a61e7d39e66cdcafbbb4578dddada79c36bc56da61f2a41ea629d60"
 metafile = true
 
 [[files]]
+file = "mods/cryonicconfig.pw.toml"
+hash = "13fa37ed81a166c3d80d2c76bd4eefeac5a5fdf02c7d8077927918570a9860e3"
+metafile = true
+
+[[files]]
 file = "mods/ctpp-0.0.6.jar"
 hash = "7554cb870338d956f44913b6cad9123c0f00f3a26172e720dbabfb884599657b"
 
