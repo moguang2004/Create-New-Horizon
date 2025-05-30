@@ -7473,6 +7473,11 @@ hash = "f0bd37c493f002f6af6ea814fcf363c7ffbff56802d5b22e6df7f4a67d8834ce"
 metafile = true
 
 [[files]]
+file = "mods/chisel-reborn.pw.toml"
+hash = "6491042ad4c06fb03061f26b1cdaca98515ab6b135ce77b38ce5f3b35d895e82"
+metafile = true
+
+[[files]]
 file = "mods/chloride.pw.toml"
 hash = "466018b6ee353679bb5c9482c0ad6542bb9d36a8a31516fdd4ad01272e5e41e6"
 metafile = true
@@ -7834,11 +7839,6 @@ metafile = true
 [[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "d38a2819f962a266dceec591991523530d9ad2aa387277e2611ab5acb07e7d1c"
-metafile = true
-
-[[files]]
-file = "mods/fusion-connected-textures.pw.toml"
-hash = "2cd403752cb9da7509df2827e197ff750717307e4fe6d646a34b19e317e84b36"
 metafile = true
 
 [[files]]
@@ -8219,11 +8219,6 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "c20d45d0e4e972f3149f0057fe741da4b55494b2d6c31e2d5221e7e3c19d1009"
-metafile = true
-
-[[files]]
-file = "mods/rechiseled.pw.toml"
-hash = "715b5a18f4649156617c8868045f24d76a98f14cd46395da35799b164728ba01"
 metafile = true
 
 [[files]]
