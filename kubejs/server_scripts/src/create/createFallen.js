@@ -132,11 +132,11 @@ ServerEvents.recipes(event => {
         ['minecraft:quartz','vintageimprovements:laser_item','minecraft:quartz']
     ]);
 //切片机需要钢铁构件合成修改
-    event.shaped('vintageimprovements:laser',[
-        ['','kubejs:steel_mechanism',''],
-        ['','create:andesite_casing',''],
-        ['','create:turntable','']
-    ]);
+    // event.shaped('vintageimprovements:laser',[
+    //     ['','kubejs:steel_mechanism',''],
+    //     ['','create:andesite_casing',''],
+    //     ['','create:turntable','']
+    // ]);
 //杠杆锤需要钢铁构件合成修改
     event.recipes.create.mechanical_crafting('vintageimprovements:helve_hammer',[
         " A FF",

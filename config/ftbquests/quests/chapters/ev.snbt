@@ -148,7 +148,7 @@
 			id: "4DA5ABB79AABADE8"
 			tasks: [{
 				id: "36F32AAAA96C37A1"
-				item: "kubejs:shielded_reactor_casing"
+				item: "ctnhcore:shielded_reactor_casing"
 				type: "item"
 			}]
 			x: -4.0d

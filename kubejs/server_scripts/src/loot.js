@@ -1,4 +1,5 @@
 LootJS.modifiers(event => {
+    // event.enableLogging()
     event.addLootTypeModifier(LootType.CHEST)
         .replaceLoot("minecraft:gold_ingot", "gtceu:precious_alloy_ingot", true)
         .replaceLoot("minecraft:gold_block", "gtceu:precious_alloy_block", true)
@@ -67,6 +68,18 @@ LootJS.modifiers(event => {
         LootEntry.of("gtceu:raw_chalcopyrite", 5).when(c => { c.randomChance(0.5) }),
         LootEntry.of("gtceu:raw_realgar", 2).when(c => { c.randomChance(0.1) })
     ]
+    const bloodmagic = [LootEntry.of("bloodmagic:blankrune", 1).when(c => { c.randomChance(0.2) }),
+        LootEntry.of("bloodmagic:demonitefragment", 2).when(c => { c.randomChance(0.4) }),
+        LootEntry.of("bloodmagic:demonitegravel", 2).when(c => { c.randomChance(0.2) }),
+        LootEntry.of("bloodmagic:weakbloodshard", 1).when(c => { c.randomChance(0.3) }),
+        LootEntry.of("bloodmagic:blankslate", 1).when(c => { c.randomChance(0.4) }),
+        LootEntry.of("bloodmagic:defaultcrystal", 1).when(c => { c.randomChance(0.1) }),
+        LootEntry.of("bloodmagic:reagentvoid", 1).when(c => { c.randomChance(0.1) }),
+        LootEntry.of("bloodmagic:reagentsight", 1).when(c => { c.randomChance(0.1) }),
+        LootEntry.of("bloodmagic:reagentholding", 1).when(c => { c.randomChance(0.1) }),
+        LootEntry.of("bloodmagic:reagentmagnetism", 1).when(c => { c.randomChance(0.1) }),
+        LootEntry.of("bloodmagic:activationcrystalweak", 1).when(c => { c.randomChance(0.2) })]
+        
     event.addLootTableModifier("dungeons_arise:chests/abandoned_temple/abandoned_temple_entrance")
         .pool(pool => {
             pool.rolls([2, 4])
@@ -476,8 +489,32 @@ LootJS.modifiers(event => {
             pool.rolls([1, 3])
             pool.addAlternativesLoot(gtceulv)
         })
-        //event.enableLogging()
-
+    event.addLootTableModifier(["bloodmagic:chests/mines/decent_loot",
+        "bloodmagic:chests/mines/mine_key_loot",
+        "bloodmagic:chests/mines/ore_loot",
+        "bloodmagic:chests/standard_dungeon/greater_loot",
+        "bloodmagic:chests/mines/smithy_loot"])
+        .pool(pool => {
+            pool.rolls([2, 5])
+            pool.addAlternativesLoot(bloodmagic)
+        })
+    event.addLootTableModifier(["bloodmagic:chests/simple_dungeon/entrance_chest","bloodmagic:chests/simple_dungeon/library","bloodmagic:chests/simple_dungeon/test_gems"])
+        .pool(pool => {
+            pool.rolls([1, 3])
+            pool.addAlternativesLoot(bloodmagic)
+        })
+    event.addLootTableModifier(["bloodmagic:chests/standard_dungeon/poor_loot",
+        "bloodmagic:chests/standard_dungeon/decent_alchemy",
+        "bloodmagic:chests/standard_dungeon/decent_loot",
+        "bloodmagic:chests/standard_dungeon/decent_smithy",
+        "bloodmagic:chests/standard_dungeon/enchanting_loot",
+        "bloodmagic:chests/standard_dungeon/mines_key",
+        "bloodmagic:chests/standard_dungeon/strong_alchemy"
+        ])
+    .pool(pool => {
+            pool.rolls([1, 4])
+            pool.addAlternativesLoot(bloodmagic)
+        })
 
     event.addBlockLootModifier("ae2:flawless_budding_quartz")
         .matchMainHand(ItemFilter.PICKAXE.hasEnchantment("minecraft:silk_touch", 2, 2))

@@ -1606,6 +1606,35 @@ ServerEvents.recipes(event => {
             D: 'gtceu:red_alloy_quadruple_wire',
             E: 'create:depot'
         })
+    event.shaped(
+        Item.of('bloodmagic:dungeon_brick_slab', 6), [
+            "AAA"
+        ], {
+            A: 'bloodmagic:dungeon_brick1'
+        })
+    event.shaped(
+        Item.of('bloodmagic:dungeon_brick_stairs', 4), [
+            "A  ",
+            "AA ",
+            "AAA"
+        ], {
+            A: 'bloodmagic:dungeon_brick1'
+        })
+    event.shaped(
+        Item.of('bloodmagic:dungeon_tile', 4), [
+            "AA",
+            "AA",
+        ], {
+            A: 'bloodmagic:dungeon_brick1'
+        })
+    event.shaped(
+        Item.of('bloodmagic:dungeon_brick_wall', 6), [
+            "AAA",
+            "AAA"
+        ], {
+            A: 'bloodmagic:dungeon_brick1'
+        })
+    event.shapeless("bloodmagic:dungeon_brick1", "bloodmagic:dungeon_brick_assorted")
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
