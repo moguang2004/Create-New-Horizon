@@ -1,6 +1,6 @@
 name = "Extreme sound muffler - (Neo)Forge"
 filename = "ExtremeSoundMuffler-3.48-forge-1.20.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

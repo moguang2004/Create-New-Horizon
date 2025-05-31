@@ -183,6 +183,7 @@ StartupEvents.registry("item", event => {
     event.create("pv_drone_research_2")
     event.create("pv_drone_research_3")
     event.create("pv_drone_research_4")
+
 })
 StartupEvents.registry("item", event => {
     event.create("scp_500_base", "basic").food(food => {

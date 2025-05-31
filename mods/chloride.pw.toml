@@ -1,6 +1,6 @@
 name = "Chloride (Embeddium++/Sodium++)"
 filename = "embeddiumplus-1.20.1-v1.2.13.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

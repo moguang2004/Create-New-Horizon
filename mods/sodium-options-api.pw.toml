@@ -1,6 +1,6 @@
 name = "Sodium/Embeddium Options API"
 filename = "sodiumoptionsapi-forge-1.0.10-1.20.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

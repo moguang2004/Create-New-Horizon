@@ -1,6 +1,6 @@
 name = "ProbeJS"
 filename = "probejs-6.0.1-forge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
