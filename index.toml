@@ -7936,6 +7936,10 @@ hash = "c0c9f37292202d3e9f2a532d625eecffdc1edeb2a4d808455d4feee4b1f2bdaa"
 metafile = true
 
 [[files]]
+file = "mods/CTNH-Core-1.20.1-1.0.10.jar"
+hash = "cac01c47c98c6f5820d49be6f6e8bf8baade7bbe07c7e224356c459e7d8cfb93"
+
+[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
