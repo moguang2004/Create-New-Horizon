@@ -217,7 +217,14 @@ ServerEvents.recipes(event => {
         .duration(100)
         .itemInputs(['3x gtceu:chorusite_alloy_plate', '2x gtceu:tungsten_steel_screw', '2x gtceu:polyphenylene_sulfide_foil', '2x gtceu:tempered_glass'])
         .itemOutputs('bigger_ae2:advanced_fluid_cell_housing')
-
+    event.recipes.gtceu.assembler("circuit_cutter")
+        .EUt(1920)
+        .duration(10)
+        .itemInputs("gtceu:titanium_buzz_saw_blade")
+        .itemInputs("4x ae2:not_so_mysterious_cube")
+        .itemInputs("2x #gtceu:circuits/ev")
+        .itemInputs("gtceu:laminated_glass")
+        .itemOutputs("expatternprovider:circuit_cutter")
     event.shaped(
         Item.of("expatternprovider:ex_interface", 1), [
             "ABA",
