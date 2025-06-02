@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('16x kubejs:elementium_cpu_wafer')
         .notConsumable("kubejs:elementium_lens")
         .duration(50)
-        .EUt(111)
+        .EUt(48)
         //精灵CPU晶圆
 
 
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of('gtceu:mana', 16000))
         .itemOutputs("8x kubejs:elementium_cpu_chip")
         .duration(900)
-        .EUt(122)
+        .EUt(48)
         //精灵CPU芯片
 
 
