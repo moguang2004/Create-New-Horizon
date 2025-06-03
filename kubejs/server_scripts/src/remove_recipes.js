@@ -136,7 +136,6 @@ ServerEvents.recipes(event => {
         "enderio:sag_milling/ender_pearl",
         "gtceu:electrolyzer/decomposition_electrolyzing_clay",
         "expatternprovider:circuit_cutter",
-        "gtceu:centrifuge/adjust_acid"
 
     ])
     remove_recipes_output(event, [
@@ -272,14 +271,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: "vintageimprovements:craft/steel_rod" })
     event.remove({ id: "extendedcrafting:flux_crafter" })
     event.remove({ id: "extendedcrafting:flux_alternator" })
-    event.remove({ id: "vintageimprovements:craft/nickel_rod"})
-    event.remove({ id: "vintageimprovements:craft/sulfur_item_to_nuggets"})
-    event.remove( {id: "vintageimprovements:craft/sulfur_nuggets_to_item"})
-    event.remove( {id: "vintageimprovements:craft/sulfur_block_to_items"})
+    event.remove({ id: "vintageimprovements:craft/nickel_rod" })
+    event.remove({ id: "vintageimprovements:craft/sulfur_item_to_nuggets" })
+    event.remove({ id: "vintageimprovements:craft/sulfur_nuggets_to_item" })
+    event.remove({ id: "vintageimprovements:craft/sulfur_block_to_items" })
     event.remove({ id: "extendedcrafting:ender_alternator" })
     event.remove({ id: "extendedcrafting:ender_crafter" })
     event.remove({ id: "extendedcrafting:ender_catalyst" })
     event.remove({ id: "extendedcrafting:ender_component" })
     event.remove({ id: "gtceu:chemical_reactor/calcite_from_quicklime" })
-    event.remove({ id: "gtceu:extractor/extract_osmium_tetroxide_dust"})
+    event.remove({ id: "gtceu:extractor/extract_osmium_tetroxide_dust" })
 })
