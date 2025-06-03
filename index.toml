@@ -7386,7 +7386,7 @@ hash = "1f6dc6355f33a8892f67beb78a5257a1af31ffaac4e459a49b34e07e939915cc"
 
 [[files]]
 file = "kubejs/server_scripts/src/80extend.js"
-hash = "2cc358dfe7723912b25297254fa1afd1a4c209395228ec815d406ebd723e8621"
+hash = "e9c4e1ffd670b41ce621e30fa3925e49a3274533bb96f5db60d31217304d4176"
 
 [[files]]
 file = "kubejs/server_scripts/src/Debug/Debug.js"
@@ -7398,7 +7398,7 @@ hash = "77535c27036ab4db7b1a4aec6addb38fb60895c845315eba150bfeab4137e56f"
 
 [[files]]
 file = "kubejs/server_scripts/src/Mana_CPU.js"
-hash = "9c431faa05fac2d19f916431814d3063f51fa71a302b7420ce08e31023ba2c35"
+hash = "c727520f7717b02d7398e7211924be780815952192b7cd794411adde96cbc662"
 
 [[files]]
 file = "kubejs/server_scripts/src/accelerator.js"
@@ -7410,7 +7410,7 @@ hash = "6721702b56bab274440221119132564d4c2e29b2438c148e18f4c6757872e57a"
 
 [[files]]
 file = "kubejs/server_scripts/src/ae2.js"
-hash = "c403d51c37fedbea6aa2da9343b52a6243d84d4bbb532d9f802b25aa2631a9e6"
+hash = "06fa05d72d2e64fcedc7941386dc2d0b1bdc17cd4915d0ffffb0d92849b48dba"
 
 [[files]]
 file = "kubejs/server_scripts/src/apothesis/spawner.js"
@@ -7422,7 +7422,7 @@ hash = "73fad949a2dad4f881ab96a6de404217767a03a3c4227c795ca199e78b56e7e2"
 
 [[files]]
 file = "kubejs/server_scripts/src/bio.js"
-hash = "185b1319a0ac01a0e18e5f9838cd756e178b40ab80cc479dfa1c89b7a557662c"
+hash = "1ed4690c56899f18d1f9d6b54ccc732246b7d595ff5831970cf763df3cdcb5d4"
 
 [[files]]
 file = "kubejs/server_scripts/src/blood magic/alchemytable.js"
@@ -7626,7 +7626,7 @@ hash = "e84620880f2ddd2e4e1dc23af7ca497aefe9ed200752d44bbf1d67a7ac015b2d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "6077241f970b99f60e579cdb57ef0d28d8fa60ee8105d431ce67fb44713ba81c"
+hash = "eab029185137877249f7619ab25a8016a863482dba0b80a96563f925ece8b2cd"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
@@ -7670,7 +7670,7 @@ hash = "ba09b0461e8a1a5d7433d66ee5d1b4420771675e7a31427c9e76653d455d2d89"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "40d6d28acfcbc7c58892b65b21111ae335a475119ee52d6f2eabf1b2d7d17263"
+hash = "5ffe43fca6d734ea1bfed8f07d8b1c3577a371f2b04b4bb395bcd94d44db1ce9"
 
 [[files]]
 file = "kubejs/server_scripts/src/smithing.js"
@@ -7706,7 +7706,7 @@ hash = "8d6f541b5ffb92dd1c0796f6d66b68273aa6759b855dd1714ef8f67afd723240"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTmaterials.js"
-hash = "5f8ab46f50099e685de349a9e3b4f711500ae449b73739b276d2b481d35b0abd"
+hash = "823c81e42c3a378532838527071913ef50dda56254a21e0de0784bfc9f973cd5"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTrecipetypes.js"
@@ -7901,43 +7901,8 @@ file = "mods/.connector/temp/dashloader-5.0.0-beta.2+1.20.0$zstd-jni-1.5.2-2.jar
 hash = "bb951f20f5f12456f481acdf161ba4daa9268efffe9c7ec08592ad61e7cc2ecf"
 
 [[files]]
-file = "mods/.index/create-connected.pw.toml"
-hash = "3d2fd34e622b8e9018e255a46b280f68dbdff4d90c78748fb909a4dd1651e696"
-metafile = true
-
-[[files]]
-file = "mods/.index/create-metallurgy.pw.toml"
-hash = "d39593d1dba123193dfeb42d18220afc9ab8955d91e1ebe0dbefdc702f9b5c3b"
-metafile = true
-
-[[files]]
-file = "mods/.index/create-new-age.pw.toml"
-hash = "99441fc3ca37e504629ef1d6d58f797a07b899bbd4b961ecdadb74f71cbaa6ef"
-metafile = true
-
-[[files]]
-file = "mods/.index/create-ore-excavation.pw.toml"
-hash = "c0cbc86824a42657d49412dadd408dbaf651d8df415f1a2bf6778f701cc6f99a"
-metafile = true
-
-[[files]]
-file = "mods/.index/create-vintage-improvements.pw.toml"
-hash = "d13a9f7098b80fff4cb9fd66b9c913ccfb67b293b51efd5a032e709370a345c5"
-metafile = true
-
-[[files]]
-file = "mods/.index/create.pw.toml"
-hash = "a9ef4c5582eed3687200181dc1df3d122903b4029bea13a3c4036bd2c8a3fdc4"
-metafile = true
-
-[[files]]
-file = "mods/.index/jade-addons.pw.toml"
-hash = "c0c9f37292202d3e9f2a532d625eecffdc1edeb2a4d808455d4feee4b1f2bdaa"
-metafile = true
-
-[[files]]
 file = "mods/CTNH-Core-1.20.1-1.0.10.jar"
-hash = "cac01c47c98c6f5820d49be6f6e8bf8baade7bbe07c7e224356c459e7d8cfb93"
+hash = "500036680e8ac4e06e6f5957a6e76db324243449286c7ef0b69b085eefd91228"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"

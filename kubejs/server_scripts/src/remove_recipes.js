@@ -135,7 +135,7 @@ ServerEvents.recipes(event => {
         "vintageimprovements:craft/sulfur_items_to_block",
         "enderio:sag_milling/ender_pearl",
         "gtceu:electrolyzer/decomposition_electrolyzing_clay",
-        "expatternprovider:circuit_cutter",
+        "expatternprovider:circuit_cutter"
 
     ])
     remove_recipes_output(event, [
