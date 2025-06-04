@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:vacuum_freezer/liquid_oxygen' })
-    event.remove({ id: 'alexscaves:centrifuge/acid' })
     event.remove({ id: 'gtmthings:assembler/wireless_item_transfer_cover' })
     event.remove({ id: 'gtmthings:assembler/wireless_fluid_transfer_cover' })
     event.remove({ id: 'gtmthings:assembler/advanced_wireless_item_transfer_cover' })
@@ -9,21 +8,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:assembler/cover_ender_fluid_link' })
     event.remove({ id: 'gtceu:shapeless/cover_ender_fluid_link_gtnn' })
     let snow = event.recipes.gtceu
-    //更易冻的液氧
+        //更易冻的液氧
     snow.vacuum_freezer("adjust_liquid_oxygen")
         .inputFluids(Fluid.of('gtceu:oxygen', 1000))
         .outputFluids(Fluid.of('gtceu:liquid_oxygen', 1000))
         .EUt(480)
         .duration(120)
-    //NERF 酸液
-    snow.centrifuge("adjust_acid")
-        .inputFluids(Fluid.of('alexscaves:acid', 1000))
-        .outputFluids(Fluid.of('minecraft:water', 750))
-        .outputFluids(Fluid.of('gtceu:hydrochloric_acid', 250))
-        .itemOutputs('2x gtceu:tiny_uranium_dust')
-        .EUt(120)
-        .duration(80)
-    //NERF 无线传输覆盖版
+        //NERF 酸液
+        //NERF 无线传输覆盖版
     snow.assembler("adjust_trans_item")
         .itemInputs(
             'gtceu:luv_sensor',
@@ -70,7 +62,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtmthings:advanced_wireless_fluid_transfer_cover')
         .EUt(30720)
         .duration(200)
-    //NERF 末影流体覆盖版
+        //NERF 末影流体覆盖版
     snow.assembler("adjust_ender_fluid_link")
         .itemInputs(
             'gtceu:luv_sensor',

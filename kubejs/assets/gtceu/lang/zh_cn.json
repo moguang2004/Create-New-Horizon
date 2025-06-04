@@ -709,6 +709,7 @@
     "material.gtceu.radiation_sight_alloy_x": "辐射视距合金-X",
     "material.gtceu.quantum_alloy": "量子合金",
     "material.gtceu.radiation_sight_alloy_inf": "辐射视距合金-∞",
-    "material.gtceu.nami_c": "纳米级沉积碳"
+    "material.gtceu.nami_c": "纳米级沉积碳",
+    "material.gtceu.living_metal_pre": "未激活态活体金属"
 
 }

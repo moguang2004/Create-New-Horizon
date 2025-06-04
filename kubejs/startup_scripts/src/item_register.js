@@ -183,6 +183,7 @@ StartupEvents.registry("item", event => {
     event.create("pv_drone_research_2")
     event.create("pv_drone_research_3")
     event.create("pv_drone_research_4")
+    event.create("colorful_soc").tooltip("完美的色彩在此流动")
 
 })
 StartupEvents.registry("item", event => {

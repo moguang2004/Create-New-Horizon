@@ -215,6 +215,7 @@
     "item.kubejs.measurement_pv_cell": "测定光伏电池组",
     "item.kubejs.pv_drone_research_1": "光伏无人机研究I",
     "item.kubejs.pv_drone_research_2": "光伏无人机研究II",
-    "item.kubejs.pv_drone_research_3": "光伏无人机研究III"
+    "item.kubejs.pv_drone_research_3": "光伏无人机研究III",
+    "item.kubejs.colorful_soc": "相变棱晶SOC"
 
 }
