@@ -1,12 +1,12 @@
 name = "Create: Metallurgy"
-filename = "createmetallurgy-0.0.6-1.20.1.jar"
+filename = "createmetallurgy-0.0.7-C6-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4a90ef5b7f8b317b49acbe1b334d59fd87a6a7d2"
-url = "https://edge.forgecdn.net/files/5794/774/createmetallurgy-0.0.6-1.20.1.jar"
+hash = "7c642e6b29d63a6834fbc3efa23272f76a424e62"
+url = "https://edge.forgecdn.net/files/6441/695/createmetallurgy-0.0.7-C6-1.20.1.jar"
 
 [update.curseforge]
-file-id = 5794774
+file-id = 6441695
 project-id = 1007404
