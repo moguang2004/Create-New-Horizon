@@ -1,12 +1,12 @@
 name = "Create: Central Kitchen"
-filename = "create_central_kitchen-1.20.1-for-create-0.5.1.f-1.3.12.jar"
+filename = "create_central_kitchen-1.20.1-for-create-6.0.4-1.4.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "92f89bdf6868c2f2b44e8a7acdc0da4be108ba1b"
-url = "https://edge.forgecdn.net/files/5232/178/create_central_kitchen-1.20.1-for-create-0.5.1.f-1.3.12.jar"
+hash = "f094ebdd210242b082772226c98e402adb0c8fab"
+url = "https://edge.forgecdn.net/files/6522/105/create_central_kitchen-1.20.1-for-create-6.0.4-1.4.1.jar"
 
 [update.curseforge]
-file-id = 5232178
+file-id = 6522105
 project-id = 820977

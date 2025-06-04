@@ -1,12 +1,12 @@
 name = "Create: Vintage Improvements"
-filename = "vintageimprovements-1.20.1-0.2.0.3.jar"
+filename = "vintageimprovements-1.20.1-0.3.3.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7a0f9807a148ae1a433149ef88c5c6dd4ed93d5a"
-url = "https://edge.forgecdn.net/files/5661/407/vintageimprovements-1.20.1-0.2.0.3.jar"
+hash = "3db83ce204714cf38dde50cac9d1a4f63e4c117f"
+url = "https://edge.forgecdn.net/files/6515/185/vintageimprovements-1.20.1-0.3.3.0.jar"
 
 [update.curseforge]
-file-id = 5661407
-project-id = 946579
+file-id = 6515185
+project-id = 1255448
