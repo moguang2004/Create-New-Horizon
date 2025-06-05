@@ -198,6 +198,10 @@
 			y: -16.0d
 		}
 		{
+			dependencies: [
+				"708B56BCB6400151"
+				"7D650ADE6C75CD06"
+			]
 			id: "73409F231880358F"
 			subtitle: "4级光伏板材！"
 			tasks: [{
@@ -209,6 +213,7 @@
 			y: -14.0d
 		}
 		{
+			dependencies: ["73409F231880358F"]
 			id: "637A10CE158A936B"
 			tasks: [{
 				id: "6DCF2EE40D670667"
@@ -217,6 +222,120 @@
 			}]
 			x: -19.5d
 			y: -12.0d
+		}
+		{
+			dependencies: ["637A10CE158A936B"]
+			id: "02E2FF97E48241B5"
+			subtitle: "用光伏绑定终端绑定"
+			tasks: [
+				{
+					id: "1C63F49C89862944"
+					item: "ctnhcore:photovoltaic_drone_station"
+					type: "item"
+				}
+				{
+					id: "136ADD209876CF2C"
+					item: {
+						Count: 1
+						id: "ctnhcore:pv_terminal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["02E2FF97E48241B5"]
+			id: "014167EAE9AA3DC3"
+			subtitle: "太弱了，并不能用"
+			tasks: [{
+				id: "6C65DB4440B3E238"
+				item: {
+					Count: 1
+					id: "ctnhcore:photovoltaic_drone_prototype"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["014167EAE9AA3DC3"]
+			id: "0754B183C12F306F"
+			tasks: [{
+				id: "7DDEC52FD45F9848"
+				item: "kubejs:pv_drone_research_1"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"0754B183C12F306F"
+				"02E2FF97E48241B5"
+			]
+			id: "21C30AD46729A951"
+			tasks: [{
+				id: "39BA7D323B2A2D43"
+				item: {
+					Count: 1
+					id: "ctnhcore:photovoltaic_drone_tier1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["21C30AD46729A951"]
+			id: "583E115C69FBF719"
+			tasks: [{
+				id: "6C2BBBFFEAB54520"
+				item: "kubejs:pv_drone_research_2"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"583E115C69FBF719"
+				"02E2FF97E48241B5"
+			]
+			id: "3981EAA32A72A5E1"
+			tasks: [{
+				id: "73059C2D557D1116"
+				item: {
+					Count: 1
+					id: "ctnhcore:photovoltaic_drone_tier2"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3981EAA32A72A5E1"]
+			id: "0386E2925E6ED2E4"
+			tasks: [{
+				id: "6F5251FD3BE1BB52"
+				item: "kubejs:pv_drone_research_3"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -10.0d
 		}
 	]
 	title: "星际工程"

@@ -470,6 +470,19 @@
 		{
 			dependencies: ["4BA59C23FB4625B9"]
 			id: "4089D6C868A2D08A"
+			rewards: [{
+				id: "5CEB93C3F3B10C5A"
+				item: {
+					Count: 1
+					id: "gtceu:turbine_rotor"
+					tag: {
+						GT.PartStats: {
+							Material: "gtceu:neutronium"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.luv.quest36.subtitle}"
 			tasks: [{
 				id: "1D67A2915C631403"
@@ -1270,6 +1283,60 @@
 			}]
 			x: -28.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["48DD8F1CA4521491"]
+			id: "4DE49DB87C6B5D1C"
+			tasks: [
+				{
+					id: "36CEC70CA40C89C0"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_4_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6D325AB267087D1D"
+					item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "前往霜原星"
+			x: -19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4DE49DB87C6B5D1C"]
+			id: "44BAEB867533D8C7"
+			rewards: [{
+				count: 64
+				id: "3442F5F4A3F32A1B"
+				item: "gtceu:neutronium_mixture_dust"
+				type: "item"
+			}]
+			subtitle: "你在ZPM才能处理它"
+			tasks: [{
+				count: 64L
+				id: "03EFBCA26D3BEBD2"
+				item: { Count: 64, id: "gtceu:neutronium_mixture_dust" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4DE49DB87C6B5D1C"]
+			id: "57CF5C7E54D2FC3D"
+			subtitle: "你仍然需要ZPM才能处理"
+			tasks: [{
+				id: "4BE2026143A53BF7"
+				item: "gtceu:naquadria_oxide_mixture_dust"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -4.0d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"

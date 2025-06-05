@@ -372,6 +372,7 @@
 					type: "command"
 				}
 			]
+			subtitle: "只需要完成一个前置任务就可以做这个任务"
 			tasks: [{
 				id: "7BAD7E832FEF40F0"
 				item: "minecraft:ender_eye"
@@ -631,14 +632,8 @@
 				type: "command"
 			}]
 			tasks: [{
-				id: "0C901293ECFB769A"
-				item: {
-					Count: 1
-					id: "botania:flight_tiara"
-					tag: {
-						variant: 0
-					}
-				}
+				id: "5B98F8342CFB3E30"
+				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
 			x: 8.0d

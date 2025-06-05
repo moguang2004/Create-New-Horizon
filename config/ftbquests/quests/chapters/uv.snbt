@@ -530,7 +530,7 @@
 			id: "0C5E045DBD9D132E"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest41.subtitle}"
+			subtitle: "UHV线圈"
 			tasks: [{
 				id: "7FDBB66A6463D160"
 				item: "ctnhcore:abyssalalloy_coil_block"
@@ -994,6 +994,30 @@
 			}]
 			x: 8.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["610A31DB73C17E42"]
+			id: "4FDEB75428302C94"
+			subtitle: "5倍加速"
+			tasks: [{
+				id: "5959E0A3F789F5B9"
+				item: "gtceu:compressed_adamantite_plasma_bucket"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["610A31DB73C17E42"]
+			id: "7FC1D52CB7D8F3A3"
+			subtitle: "10倍加速！但是代价是什么？"
+			tasks: [{
+				id: "3B3C73B38022BBE1"
+				item: "gtceu:compressed_aether_plasma_bucket"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -3.0d
 		}
 	]
 	title: "{ftbquests.chapter.uv.title}"

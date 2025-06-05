@@ -113,7 +113,6 @@
 			y: 0.0d
 		}
 		{
-			description: ["请注意：&4为了防止收容罐过于imba，我们禁止了大部分boss生物的收容&r。"]
 			id: "2E48E824DE4E530B"
 			tasks: [{
 				id: "60ED99C820ACF885"
