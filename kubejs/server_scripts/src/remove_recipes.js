@@ -283,4 +283,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:ender_component" })
     event.remove({ id: "gtceu:chemical_reactor/calcite_from_quicklime" })
     event.remove({ id: "gtceu:extractor/extract_osmium_tetroxide_dust" })
+    event.remove({ id: "gtceu:combustion_generator/light_fuel" })
+    event.remove({ id: "gtceu:combustion_generator/diesel" })
+    event.remove({ id: "gtceu:combustion_generator/biodiesel" })
+    event.remove({ id: "gtceu:combustion_generator/cetane_diesel" })
 })
