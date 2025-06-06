@@ -300,8 +300,6 @@
     "block.gtceu.mana_seperator": "§b魔力分选器§r",
     "block.gtceu.gaia_reactor": "盖亚反应器",
     "block.gtceu.greenhouse": "温室",
-    "block.gtceu.super_centrifuge": "超速离心机",
-    "block.gtceu.ultrasonic_apparatus": "超声破碎仪",
     "block.gtceu.steam_centrifuge": "大型蒸汽离心机",
     "block.gtceu.steam_foundry": "大型蒸汽合金炉",
     "block.gtceu.steam_pressor": "大型蒸汽压缩机",
@@ -321,8 +319,6 @@
     "gtceu.mana_seperator": "魔力分选",
     "gtceu.gaia_reactor": "盖亚反应",
     "gtceu.greenhouse": "温室",
-    "gtceu.differential_centrifuge": "差速离心",
-    "gtceu.ultrasonication": "超声破碎",
     "gtceu.mark_of_falling_tower": "集成式坠星位标",
     "gtceu.mana_reactor": "魔力反应",
     "gtceu.fake_meteor": "坠星位标",
@@ -420,8 +416,6 @@
     "ctnh.meteor.syphon": "源质消耗：%s",
     "ctnh.meteor.radius": "直径：%s",
     "greenhouse": "室内种植",
-    "super_centrifuge": "超速离心",
-    "ultrasonic_apparatus": "超声破碎",
     "ctnh.circuit_resonatic_ulv": "§dULV级电路§r",
     "ctnh.circuit_resonatic_lv": "§dLV级电路§r",
     "ctnh.circuit_resonatic_mv": "§dMV级电路§r",
@@ -710,5 +704,4 @@
     "material.gtceu.quantum_alloy": "量子合金",
     "material.gtceu.radiation_sight_alloy_inf": "辐射视距合金-∞",
     "material.gtceu.nami_c": "纳米级沉积碳"
-
 }

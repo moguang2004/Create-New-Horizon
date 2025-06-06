@@ -1,12 +1,12 @@
 name = "Ad Astra"
-filename = "ad_astra-forge-1.20.1-1.15.19.jar"
+filename = "ad_astra-forge-1.20.1-1.15.20.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ff0103224186be21463a784767459554debc1f33"
-url = "https://edge.forgecdn.net/files/5914/893/ad_astra-forge-1.20.1-1.15.19.jar"
+hash = "537ac3e358a97efd7b03648a9bfd7b11f1ae7ff7"
+url = "https://edge.forgecdn.net/files/6262/032/ad_astra-forge-1.20.1-1.15.20.jar"
 
 [update.curseforge]
-file-id = 5914893
+file-id = 6262032
 project-id = 635042

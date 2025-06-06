@@ -1,12 +1,12 @@
 name = "GT--"
-filename = "gtnn-1.20.1-1.1.8.jar"
+filename = "gtnn-1.20.1-1.1.14.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "20f23143458e52ac7c98562c15df32b244805b14"
-url = "https://edge.forgecdn.net/files/6089/123/gtnn-1.20.1-1.1.8.jar"
+hash = "256b85e7895310758d3f6ab29fe4513c36dd1d96"
+url = "https://edge.forgecdn.net/files/6563/942/gtnn-1.20.1-1.1.14.jar"
 
 [update.curseforge]
-file-id = 6089123
+file-id = 6563942
 project-id = 985872

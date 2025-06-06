@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
         "ad_astra:compressing",
         "ad_astra:alloying",
         "ad_astra:cryo_freezing",
+        "createdieselgenerators:hammering",
     ])
     remove_recipes_id(event, [
         "create:pressing/iron_ingot",
@@ -135,7 +136,8 @@ ServerEvents.recipes(event => {
         "vintageimprovements:craft/sulfur_items_to_block",
         "enderio:sag_milling/ender_pearl",
         "gtceu:electrolyzer/decomposition_electrolyzing_clay",
-        "expatternprovider:circuit_cutter"
+        "expatternprovider:circuit_cutter",
+        "createdieselgenerators:compression_molding/bucket"
 
     ])
     remove_recipes_output(event, [

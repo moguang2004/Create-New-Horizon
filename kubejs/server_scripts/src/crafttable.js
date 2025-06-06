@@ -876,7 +876,7 @@ ServerEvents.recipes(event => {
             E: 'minecraft:glowstone'
         })
     event.shaped(
-        Item.of('gtceu:ultrasonic_apparatus', 1), [
+        Item.of('ctnhcore:ultrasonic_apparatus', 1), [
             "ABA",
             "BCB",
             "DED"
@@ -888,7 +888,7 @@ ServerEvents.recipes(event => {
             E: 'gtceu:stainless_steel_rotor'
         })
     event.shaped(
-        Item.of('gtceu:super_centrifuge', 1), [
+        Item.of('ctnhcore:super_centrifuge', 1), [
             "ABC",
             "CDE",
             "ABC"
@@ -1634,6 +1634,10 @@ ServerEvents.recipes(event => {
         ], {
             A: 'bloodmagic:dungeon_brick1'
         })
+    event.shapeless("ad_astra:space_helmet", "ad_astra:space_helmet")
+    event.shapeless("ad_astra:space_suit", "ad_astra:space_suit")
+    event.shapeless("ad_astra:space_pants", "ad_astra:space_pants")
+    event.shapeless("ad_astra:space_boots", "ad_astra:space_boots")
     event.shapeless("bloodmagic:dungeon_brick1", "bloodmagic:dungeon_brick_assorted")
     event.shapeless("kubejs:platinum_metal_catalyst", ["kubejs:platinum_metal_catalyst_shard1", "kubejs:platinum_metal_catalyst_shard2"])
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())

@@ -4,4 +4,7 @@ wheelBaseSpeed = 16
 #Speed of the wheel with a gold block in front
 #Range: > 0
 wheelMaxSpeed = 128
+#Stress capacity of the wheel
+#Range: 0.0 ~ 1.7976931348623157E308
+wheelStressCapacity = 16.0
 

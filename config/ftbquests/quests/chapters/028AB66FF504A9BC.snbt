@@ -506,7 +506,7 @@
 			id: "2A5FAC5B3E495254"
 			tasks: [{
 				id: "04097B2408592FBC"
-				item: "gtceu:ultrasonic_apparatus"
+				item: "ctnhcore:ultrasonic_apparatus"
 				type: "item"
 			}]
 			x: -7.0d

@@ -103,12 +103,6 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("gtceu:greenhouse", (item, advanced, text) => {
         text.add(1, Text.translate('greenhouse').gray())
     })
-    event.addAdvanced('gtceu:super_centrifuge', (item, advanced, text) => {
-        text.add(1, Text.translate('super_centrifuge').gray())
-    })
-    event.addAdvanced('gtceu:ultrasonic_apparatus', (item, advanced, text) => {
-        text.add(1, Text.translate('ultrasonic_apparatus').gray())
-    })
     event.addAdvanced('gtceu:wood_particle_collider', (item, advanced, text) => {
         text.add(1, Text.translate('wood_particle_collider').gray())
         text.add(2, Text.translate('ctnh.wood_particle_collider.tooltip.0'))

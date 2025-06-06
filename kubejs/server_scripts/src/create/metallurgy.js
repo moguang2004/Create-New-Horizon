@@ -239,4 +239,33 @@ ServerEvents.recipes(event => {
                                   'create:crushed_raw_silver',
                                   'create:crushed_raw_tin',
                                   'create:crushed_raw_nickel'])
+    
+    event.custom({
+        "type": "createmetallurgy:casting_in_table",
+        "ingredients": [
+            {"item": "createdieselgenerators:distillation_controller"},
+            Fluid.of('gtceu:wrought_iron', 288)
+        ],
+        "processingTime": 90,
+        "mold_consumed": true,
+        "result": {
+            "item": "createmetallurgy:foundry_unit"
+        }
+    })
 })
+
+// 熔铸多方块
+ServerEvents.recipes(event => {
+    let transitional = 'gtceu:firebricks'
+    event.recipes.create.sequenced_assembly([
+            '2x createmetallurgy:industrial_crucible'
+        ], 'gtceu:firebricks', [
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:wrought_iron_plate']),
+            event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:rubber', 144)]),
+            event.recipes.createPressing(transitional, [transitional]),
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:wrought_iron_screw']),
+            event.recipes.createCutting(transitional, [transitional]),
+        ]).transitionalItem(transitional)
+        .loops(2)
+})
+

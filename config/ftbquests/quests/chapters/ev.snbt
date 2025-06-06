@@ -1252,11 +1252,18 @@
 			]
 			id: "104511D23BA0B12A"
 			subtitle: "{ftbquests.chapter.ev.quest101.subtitle}"
-			tasks: [{
-				id: "6348C18E6134F96F"
-				title: "{ftbquests.chapter.ev.quest101.task_+7154180825338411375.title}"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "6348C18E6134F96F"
+					title: "{ftbquests.chapter.ev.quest101.task_+7154180825338411375.title}"
+					type: "checkmark"
+				}
+				{
+					id: "6E12BECA5B7E1B6E"
+					item: "ctnhcore:nuclear_reactor"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 1.0d
 		}
@@ -1283,6 +1290,226 @@
 			}]
 			x: 8.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["4D6F042D3D3DA8A2"]
+			id: "2B5B66B395B0530B"
+			tasks: [{
+				id: "0212A973114CC429"
+				item: "gtceu:uranium_waste"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28B04AB25D375E6A"]
+			id: "3714784FEB0780C9"
+			tasks: [{
+				id: "737256FC5DE66093"
+				item: "gtceu:americium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3714784FEB0780C9"]
+			id: "0A5C2C3633F497E8"
+			tasks: [{
+				id: "65B4F627FE076D24"
+				item: "gtceu:americium_waste"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0395B3CA160DA4A9"]
+			id: "19E5C94BF3336391"
+			tasks: [{
+				id: "5C183B0A7395EBB6"
+				item: "gtceu:plutonium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0A5C2C3633F497E8"]
+			id: "76EBAD287A2A2DE3"
+			tasks: [{
+				id: "5486D425E987540D"
+				item: "gtceu:curium_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2B5B66B395B0530B"]
+			id: "79A78865792A17DB"
+			tasks: [{
+				id: "100D5EC6427D7C6C"
+				item: "gtceu:neptunium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["79A78865792A17DB"]
+			id: "0395B3CA160DA4A9"
+			tasks: [{
+				id: "4D14D4492CC8BFDB"
+				item: "gtceu:neptunium_waste"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["76EBAD287A2A2DE3"]
+			id: "28D0A3476F1DB408"
+			tasks: [{
+				id: "27911C8B9A149B52"
+				item: "gtceu:curium_waste"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["28D0A3476F1DB408"]
+			id: "609B045A11434078"
+			tasks: [{
+				id: "26EBC9A499A7AB35"
+				item: "gtceu:berkelium_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["609B045A11434078"]
+			id: "1FA425EE75AA10B1"
+			tasks: [{
+				id: "580D2DB283620EA9"
+				item: "gtceu:berkelium_waste"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1FA425EE75AA10B1"]
+			id: "6DC02BF0EBC9032F"
+			tasks: [{
+				id: "6E6D94161E45CB9C"
+				item: "gtceu:californium_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6DC02BF0EBC9032F"]
+			id: "611E4AC5944BBB56"
+			tasks: [{
+				id: "5859A6FE028A62A7"
+				item: "gtceu:californium_waste"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["611E4AC5944BBB56"]
+			id: "275C33608D736BED"
+			tasks: [{
+				id: "201E9239BD636F13"
+				item: "gtceu:einsteinium_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["275C33608D736BED"]
+			id: "7BE1BC049AD7275A"
+			tasks: [{
+				id: "606955D99DA58B3D"
+				item: "gtceu:einsteinium_waste"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7BE1BC049AD7275A"]
+			id: "6E4B3272D1FC21DF"
+			tasks: [{
+				id: "183068AA737F94E4"
+				item: "gtceu:fermium_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6E4B3272D1FC21DF"]
+			id: "427404EF2640B89F"
+			tasks: [{
+				id: "4EB91BDB68E27832"
+				item: "gtceu:fermium_waste"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["427404EF2640B89F"]
+			id: "470AE7F9199777BB"
+			tasks: [{
+				id: "12A41C03CEAD7A96"
+				item: "gtceu:mendelevium_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["470AE7F9199777BB"]
+			id: "3D3B253506D719FA"
+			tasks: [{
+				id: "1C1FD1DA74EE059F"
+				item: "gtceu:mendelevium_waste"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["19E5C94BF3336391"]
+			id: "28B04AB25D375E6A"
+			tasks: [{
+				id: "378235D85A0C70A1"
+				item: "gtceu:plutonium_waste"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "500612E5FCC5C9E0"
+			subtitle: "你需要依靠这个来转化核能的力量"
+			tasks: [{
+				id: "65F55CB7ADF9E8AB"
+				item: "ctnhcore:hot_coolant_turbine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
 		}
 	]
 	title: "{ftbquests.chapter.ev.title}"
