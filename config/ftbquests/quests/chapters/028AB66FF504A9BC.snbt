@@ -229,6 +229,7 @@
 		}
 		{
 			dependencies: ["03CF3E3907C153E0"]
+			description: ["使用时需要通入应力，选择0号电路板，同时要保证输出总线和输出仓的格子&4足够产物输出&r"]
 			id: "725E945382ADA450"
 			tasks: [{
 				id: "5AC31F1B33C403C1"
@@ -294,6 +295,7 @@
 		}
 		{
 			dependencies: ["03CF3E3907C153E0"]
+			description: ["使用应力输出仓输出应力"]
 			id: "4510F270E15D5961"
 			tasks: [{
 				id: "4499E9FA8D48864E"
@@ -504,7 +506,7 @@
 			id: "2A5FAC5B3E495254"
 			tasks: [{
 				id: "04097B2408592FBC"
-				item: "gtceu:ultrasonic_apparatus"
+				item: "ctnhcore:ultrasonic_apparatus"
 				type: "item"
 			}]
 			x: -7.0d

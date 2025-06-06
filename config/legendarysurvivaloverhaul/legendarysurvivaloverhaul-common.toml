@@ -141,15 +141,15 @@
 	[temperature.underground]
 		# How much a biomes temperature effects are multiplied when player is underground
 		#Range: 0.0 ~ 1000.0
-		"Underground Biome Temperature Multiplier" = 0.4
+		"Underground Biome Temperature Multiplier" = 0
 		# Distance to the World Surface where underground effect will start to be applied.
 		# Smaller distance, no underground effect are applied.
 		#Range: 0 ~ 400
-		"Start Distance To World Surface For Underground Effect" = 10
+		"Start Distance To World Surface For Underground Effect" = 5
 		# Distance to the World Surface where underground effect will be maximal.
 		# Bigger distance, the underground effect is maximal. Between the Start and End Distance, the increase of underground effect is linear.
 		#Range: 0 ~ 400
-		"End Distance To World Surface For Underground Effect" = 50
+		"End Distance To World Surface For Underground Effect" = 20
 
 	[temperature.weather]
 		# How much of an effect rain has on temperature.

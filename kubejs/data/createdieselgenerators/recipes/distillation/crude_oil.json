@@ -7,7 +7,7 @@
     }
   ],
   "heatRequirement": "heated",
-  "processingTime": 400,
+  "processingTime": 200,
   "results": [
     {
       "fluid": "gtceu:bitumen",

@@ -72,56 +72,9 @@ WorldgenEvents.remove(event => {
     "ad_astra:mars_iron_ore",
     "ad_astra:mars_ostrum_ore"])
 })
-GTCEuStartupEvents.registry("gtceu:world_gen_layer", event => {
-	event.create("all_layer")
-		.targets("#minecraft:stone_ore_replaceables",
-			"minecraft:netherstone",
-			"minecraft:endstone",
-			"#aether:holystone",
-			"aether:icestone",
-			"botania:livingrock",
-			"ad_astra:moon_stone",
-			"ad_astra:mars_stone",
-			"ad_astra:venus_stone",
-			"ad_astra:mercury_stone",
-			"ad_astra:glacio_stone",
-			"ad_extendra:jupiter_stone",
-		)
-		.dimensions("twilightforest:twilight_forest",
-			"minecraft:overworld",
-			"minecraft:the_nether",
-			"minecraft:the_end",
-			"aether:the_aether",
-			"mythicbotany:alfheim",
-			"ad_astra:moon",
-			"ad_astra:mars",
-			"ad_astra:venus",
-			"ad_astra:mercury",
-			"ad_astra:glacio",
-			"ad_extendra:jupiter"
-		)
-	event.create("twilightforest_layer")
-		.targets("#minecraft:stone_ore_replaceables")
-		.dimensions("twilightforest:twilight_forest")
-	event.create("aether")
-		.targets("aether:holystone", "aether:mossy_holystone", "aether:icestone")
-		.dimensions("aether:the_aether")
-})
 
 
 GTCEuStartupEvents.registry("gtceu:tag_prefix", event => {
-	event.create("icestone", "ore")
-		.stateSupplier(() => Block.getBlock("aether:icestone").defaultBlockState())
-		.baseModelLocation("aether:block/icestone")
-		.unificationEnabled(true)
-		.materialIconType(GTMaterialIconType.ore)
-		.generationCondition(ItemGenerationCondition.hasOreProperty)
-	event.create("livingrock", "ore")
-		.stateSupplier(() => Block.getBlock("botania:livingrock").defaultBlockState())
-		.baseModelLocation("botania:block/livingrock")
-		.unificationEnabled(true)
-		.materialIconType(GTMaterialIconType.ore)
-		.generationCondition(ItemGenerationCondition.hasOreProperty)
 	event.create("jupiter_stone", "ore")
 		.stateSupplier(() => Block.getBlock("adastra:jupiter_stone").defaultBlockState())
 		.baseModelLocation("ad_extendra:block/jupiter_stone")

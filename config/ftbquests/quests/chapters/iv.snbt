@@ -84,7 +84,7 @@
 				item: "gtnn:t3_chip"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -4.5d
 		}
 		{
@@ -101,7 +101,7 @@
 				item: "gtnn:heavy_ingot_t3"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -6.5d
 		}
 		{
@@ -137,7 +137,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -156,7 +156,7 @@
 				title: "{ftbquests.chapter.iv.quest7.task_+1574147633237299094.title}"
 				type: "dimension"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -279,7 +279,7 @@
 				title: "{ftbquests.chapter.iv.quest15.task_+3488244528875586400.title}"
 				type: "dimension"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -6.5d
 		}
 		{
@@ -659,7 +659,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: -6.5d
 		}
 		{
@@ -793,17 +793,6 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["4D6F042D3D3DA8A2"]
-			id: "20275C95E03C7514"
-			tasks: [{
-				id: "4896F1B7AD258883"
-				item: "gtnn:neutron_source"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -8.5d
-		}
-		{
 			dependencies: [
 				"25D924B587ABCF41"
 				"08741BE5B2EE74A7"
@@ -816,6 +805,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
+			subtitle: "你需要LUV组装机"
 			tasks: [{
 				id: "12773E325CB750EF"
 				item: "gtnn:quark_core"
@@ -855,104 +845,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"20275C95E03C7514"
-				"7CF8AB9126F11C19"
-			]
-			id: "49534975B8942923"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "765E1FB8B5BFBEA1"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.iv.quest50.subtitle}"
-			tasks: [{
-				id: "325A7FFA6546DE1E"
-				item: "gtnn:neutron_activator"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["49534975B8942923"]
-			description: ["{ftbquests.chapter.iv.quest51.description1}"]
-			id: "3024C689060DBB33"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6DB19642A40DB697"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.iv.quest51.subtitle}"
-			tasks: [{
-				id: "6F3E1BDF97B9A711"
-				item: "gtceu:naquadah_dust"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -10.5d
-		}
-		{
-			dependencies: [
-				"4A412A967394C59E"
-				"75B002E120AA161D"
-			]
-			id: "258BBAE74ED9B2CE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1694B592DA16F342"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				count: 16L
-				id: "11E3E547D593FC67"
-				item: "gtceu:naquadah_coil_block"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["3024C689060DBB33"]
-			id: "007D76C1032C8544"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "07E19F4C83F25131"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.iv.quest53.subtitle}"
-			tasks: [{
-				id: "195043829173C0E7"
-				item: "gtceu:naquadah_alloy_dust"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -12.5d
-		}
-		{
-			dependencies: ["3024C689060DBB33"]
-			id: "2CF209AAA8501F95"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "47ECD247D9674774"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.iv.quest54.subtitle}"
-			tasks: [{
-				id: "11309F2FDDC557B1"
-				item: "gtceu:uranium_rhodium_dinaquadide_dust"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -12.5d
-		}
-		{
 			dependencies: ["2A6527B0F4AC3E2E"]
 			id: "17292FB8D4DD36BA"
 			rewards: [{
@@ -975,12 +867,13 @@
 		{
 			dependencies: ["2B778B5E697A84C2"]
 			id: "3B966B84827FDF0C"
+			subtitle: "UHPIC会需要巨量这个东西，你该思考一下如何量产了"
 			tasks: [{
 				id: "55FC128E9FAABD12"
 				item: "gtceu:indium_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.5d
 			y: 0.5d
 		}
 		{
@@ -992,17 +885,18 @@
 				item: "gtceu:indium_gallium_phosphide_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["2C77B86051EBAB43"]
 			id: "2B778B5E697A84C2"
 			tasks: [{
 				id: "61284484A2A8B60D"
 				item: "gtceu:indium_concentrate_bucket"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -1128,26 +1022,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["007D76C1032C8544"]
-			id: "29086C6A9A5FA58E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5AB53449C9E02B4A"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			shape: "rsquare"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.iv.quest65.subtitle}"
-			tasks: [{
-				id: "480035A6DEFB0C2A"
-				item: "gtceu:naquadah_alloy_ingot"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -14.5d
-		}
-		{
 			description: [
 				"{ftbquests.chapter.iv.quest66.description1}"
 				"{ftbquests.chapter.iv.quest66.description2}"
@@ -1176,17 +1050,6 @@
 			}]
 			x: -7.5d
 			y: 0.5d
-		}
-		{
-			dependencies: ["3024C689060DBB33"]
-			id: "3409E0910FCB61B9"
-			tasks: [{
-				id: "41927386805769E4"
-				title: "{ftbquests.chapter.iv.quest68.task_+4724965980581095908.title}"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: -14.5d
 		}
 		{
 			dependencies: ["2D30354CDA91122C"]
@@ -1249,6 +1112,7 @@
 				"364B921AAE54EF9C"
 				"637D202FC567B932"
 			]
+			description: ["把数据球和要扫描的东西放进物品支架里"]
 			id: "56C88CA114314593"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1256,7 +1120,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.iv.quest72.subtitle}"
+			subtitle: "LUV时期才能做，必须和HPCA一起做"
 			tasks: [{
 				id: "4FB2DC37F499DCB6"
 				item: "gtceu:research_station"
@@ -1264,28 +1128,6 @@
 			}]
 			x: -5.5d
 			y: 6.5d
-		}
-		{
-			dependencies: [
-				"258BBAE74ED9B2CE"
-				"5A941BB7E8160424"
-			]
-			dependency_requirement: "one_completed"
-			id: "7F8E09E8CB718C64"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "63DDF9DC0F7C025A"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.iv.quest73.subtitle}"
-			tasks: [{
-				id: "2BD6BA869C2B8EC1"
-				item: "gtceu:enriched_naquadah_ingot"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -8.5d
 		}
 		{
 			description: ["{ftbquests.chapter.iv.quest74.description1}"]
@@ -1768,7 +1610,7 @@
 				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
 		}
 		{
@@ -1780,6 +1622,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
+			subtitle: "IV超导"
 			tasks: [{
 				id: "09D90156914665B3"
 				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
@@ -1886,12 +1729,25 @@
 				"{ftbquests.chapter.iv.quest110.description3}"
 			]
 			id: "364B921AAE54EF9C"
-			subtitle: "{ftbquests.chapter.iv.quest110.subtitle}"
-			tasks: [{
-				id: "5C6F7ED326438A39"
-				item: "gtceu:normal_optical_pipe"
-				type: "item"
-			}]
+			subtitle: "光缆可以拐弯，但不能分叉"
+			tasks: [
+				{
+					id: "5C6F7ED326438A39"
+					item: "gtceu:normal_optical_pipe"
+					type: "item"
+				}
+				{
+					id: "6B145409D917617B"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "7E148153896C4000"
+					item: "gtceu:data_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "研究三件套"
 			x: -3.5d
 			y: 6.5d
 		}
@@ -1924,40 +1780,6 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["3024C689060DBB33"]
-			id: "75B002E120AA161D"
-			tasks: [{
-				id: "032CDA03214DF852"
-				item: "gtceu:naquadah_ingot"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["75B002E120AA161D"]
-			id: "4E9CD9836B42D55D"
-			tasks: [{
-				id: "0D35D50BA50B2195"
-				item: "gtceu:naquadah_boule"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -12.5d
-		}
-		{
-			dependencies: ["4E9CD9836B42D55D"]
-			id: "5607D261213C3EC2"
-			subtitle: "{ftbquests.chapter.iv.quest115.subtitle}"
-			tasks: [{
-				id: "06C8E144BDF5FD0C"
-				item: "gtceu:advanced_soc_wafer"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -10.5d
-		}
-		{
 			id: "613B471B9179A7C6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1974,18 +1796,69 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["29086C6A9A5FA58E"]
-			description: ["我们（）人的化工厂太厉害辣！"]
-			id: "67ECE72F05370C16"
-			size: 2.0d
-			subtitle: "超级化工厂"
-			tasks: [{
-				id: "0E390E300A626B51"
-				item: "ctnhcore:sinope_chemical"
+			description: [
+				"你的机械动力好朋友可以帮你解决其中一个供应"
+				""
+				"如果你不想挖矿，看看坠星位标吧"
+			]
+			id: "2C77B86051EBAB43"
+			subtitle: "你会需要巨量的这两种矿"
+			tasks: [
+				{
+					id: "691D102034804DE4"
+					item: "gtceu:purified_sphalerite_ore"
+					type: "item"
+				}
+				{
+					id: "7BA796171393C2C7"
+					item: "gtceu:purified_galena_ore"
+					type: "item"
+				}
+			]
+			title: "闪锌和方铅"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["687AF4CCD52B0FE6"]
+			id: "1960FC2322EDCB12"
+			rewards: [{
+				count: 32
+				id: "33AF3B64AFB42274"
+				item: "gtceu:impure_naquadah_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -14.5d
+			subtitle: "IV阶段获取硅岩"
+			tasks: [{
+				count: 32L
+				id: "1A0A0FE88A12687C"
+				item: "gtceu:naquadah_nugget"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["63F5094821C731CA"]
+			id: "2DDF9BCE967C0ABC"
+			subtitle: "千万GT牢员工看到巨冰时期流下的泪水"
+			tasks: [{
+				id: "1B5D767986AD8DD8"
+				item: "ctnhcore:cryotheum_freezer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			id: "7EAB9AAF4C5E198B"
+			tasks: [{
+				id: "0F21E7918034A346"
+				title: "用机械动力可以显著减少外壳价格，真的("
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.0d
 		}
 	]
 	title: "{ftbquests.chapter.iv.title}"

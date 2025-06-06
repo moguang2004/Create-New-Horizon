@@ -1,0 +1,12 @@
+name = "GTMThings"
+filename = "gtmthings-1.4.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2be5eaa72168606dfce5a64a552089619cc7a45d"
+url = "https://edge.forgecdn.net/files/6539/394/gtmthings-1.4.6.jar"
+
+[update.curseforge]
+file-id = 6539394
+project-id = 1104310

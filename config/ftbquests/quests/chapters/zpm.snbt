@@ -8,14 +8,6 @@
 	order_index: 6
 	quest_links: [
 		{
-			id: "2AB47F025A168891"
-			linked_quest: "29086C6A9A5FA58E"
-			shape: "rsquare"
-			size: 1.5d
-			x: -4.0d
-			y: 0.5d
-		}
-		{
 			id: "4F2B606F0BCDD83B"
 			linked_quest: "4F8A3B3DFEE2B87E"
 			x: -4.0d
@@ -30,7 +22,6 @@
 	]
 	quests: [
 		{
-			dependencies: ["29086C6A9A5FA58E"]
 			id: "07D0FD2AC4C767B2"
 			shape: "gear"
 			size: 2.0d
@@ -155,6 +146,7 @@
 				"4033E5511E9C50EA"
 			]
 			id: "5B882B9AFD650138"
+			subtitle: "你将面对的是ZPM四巨头，你畏惧了吗"
 			tasks: [{
 				id: "3DAF14109B87DA6F"
 				item: "gtceu:zpm_energy_output_hatch"
@@ -191,10 +183,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"73A9B8C2B2142E54"
-				"7F0C67AE534020B1"
-			]
+			dependencies: ["7F0C67AE534020B1"]
 			id: "16DEC7A6999A22F5"
 			tasks: [{
 				id: "002F4ED83FDEF125"
@@ -290,15 +279,20 @@
 		{
 			dependencies: ["5B882B9AFD650138"]
 			id: "7D7EEC84B88C3B71"
+			rewards: [{
+				id: "3EF2F01E81F8AE15"
+				item: "gtceu:naquadah_based_liquid_fuel_excited_bucket"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.zpm.quest22.subtitle}"
+			subtitle: "更好的发电机，记得烧硅岩基燃料，其他基燃料非常弱"
 			tasks: [{
 				id: "5DE0B367ED3325C4"
 				item: "gtnn:large_naquadah_reactor"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.0d
 			y: 3.0d
 		}
 		{
@@ -310,7 +304,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -324,7 +318,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: -3.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2C168D2C6B55CD10"]
@@ -335,7 +329,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -3.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["13756D7E0FDA4B9E"]
@@ -346,7 +340,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["22FA4C6A1ADEC7AC"]
@@ -357,7 +351,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["762DC8899FC95277"]
@@ -369,7 +363,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 0.5d
+			y: -2.0d
 		}
 		{
 			id: "724B4D5BE66CEEEA"
@@ -1015,6 +1009,142 @@
 				type: "item"
 			}]
 			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FE50A78729EF06F"]
+			id: "68F1E652B8BA5A07"
+			subtitle: "把两个最硬的东西混起来会发生什么？"
+			tasks: [{
+				id: "2A773B7AF70575BE"
+				item: "gtceu:bedrock_neutronium_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["68F1E652B8BA5A07"]
+			id: "527E6E7130A16435"
+			rewards: [{
+				id: "6A19197F2BCD0B34"
+				item: "gtceu:neutron_reflector"
+				type: "item"
+			}]
+			subtitle: "坚不坚不可摧"
+			tasks: [{
+				id: "4EEA8E4FE57CE0DB"
+				item: "kubejs:strongly_interacting_neutron_refector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["527E6E7130A16435"]
+			id: "7506DBB3B4B03B05"
+			subtitle: "中子活化器那一套不好用了"
+			tasks: [{
+				id: "77B1DBAD5BD53176"
+				item: "ctnhcore:widespeedingpipe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7506DBB3B4B03B05"]
+			id: "0BF9AD47D3294ACE"
+			subtitle: "一台更比三台强"
+			tasks: [{
+				id: "73BC2FA2FF8469C3"
+				item: "ctnhcore:wideparticleaccelerator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5B882B9AFD650138"]
+			id: "2498090AADF79896"
+			rewards: [{
+				id: "71B563ECC5E59863"
+				item: "gtceu:iron_plasma_bucket"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "见证等离子燃料的潜力！"
+			tasks: [{
+				id: "5AFB0CE08C45D50A"
+				item: "ctnhcore:hyper_plasma_turbine"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5B882B9AFD650138"]
+			id: "46922EE3F296BDCF"
+			rewards: [{
+				id: "315248740EFA53F8"
+				item: {
+					Count: 1
+					id: "dummmmmmy:target_dummy"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 8s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"text\":\"我跟光伏等离子硅岩堆在一起排名，真的假的\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "who r u"
+			tasks: [{
+				id: "24B87356C55140CC"
+				item: "gtceu:ultimate_combustion_engine"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["46922EE3F296BDCF"]
+			description: ["但这一切值得吗？"]
+			id: "13BE90ED71F011F0"
+			subtitle: "相当于100倍高辛烷的燃值"
+			tasks: [{
+				id: "3301B6C77073AF57"
+				item: "gtceu:nq_end_gasoline_bucket"
+				type: "item"
+			}]
+			title: "在燃油的终末"
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5B882B9AFD650138"]
+			id: "3539170A27E9D3F4"
+			rewards: [{
+				count: 64
+				id: "711FFBB6BC6E6E89"
+				item: "gtceu:sunnarium_dust"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "星际工程必需品"
+			tasks: [{
+				id: "75E6FCAA5672BB2E"
+				item: "ctnhcore:space_photovoltai_cbase_station"
+				type: "item"
+			}]
+			x: -11.0d
 			y: 0.5d
 		}
 	]

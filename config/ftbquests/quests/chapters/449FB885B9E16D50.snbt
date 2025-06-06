@@ -137,11 +137,14 @@
 				item: "ctnhcore:mana_generator_turbine_tier4"
 				type: "item"
 			}]
-			x: -21.5d
+			x: -21.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["00847C1C4F45B42D"]
+			dependencies: [
+				"00847C1C4F45B42D"
+				"7A63464D71D0791E"
+			]
 			id: "707EC96A26FA8C17"
 			subtitle: "终极魔力发电"
 			tasks: [{
@@ -716,6 +719,26 @@
 			}]
 			x: 1.0d
 			y: -1.0d
+		}
+		{
+			description: [
+				"符文分级："
+				"1级：火水地风"
+				"2级：四季"
+				"3级：七宗罪"
+				"4级：神话植物学符文"
+				"5级：CTNH符文（视域，扭曲，增殖，星光）"
+				"类星体符文单分一级"
+			]
+			id: "6D45CA16D8B8735C"
+			subtitle: "注意要同时消耗燃料和液态魔力，否则效率将除以5"
+			tasks: [{
+				id: "68C070A961DB9C10"
+				title: "魔力发电机器注意事项"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: -17.0d
 		}
 	]
 	title: "魔法多方块/电路大杂烩"

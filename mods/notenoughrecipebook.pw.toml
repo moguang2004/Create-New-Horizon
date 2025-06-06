@@ -1,0 +1,12 @@
+name = "Not Enough Recipe Book [NERB]"
+filename = "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c0806369f4257149664904db44efc60bd1785c17"
+url = "https://edge.forgecdn.net/files/5760/231/Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar"
+
+[update.curseforge]
+file-id = 5760231
+project-id = 738663

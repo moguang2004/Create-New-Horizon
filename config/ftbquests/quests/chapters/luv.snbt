@@ -18,7 +18,7 @@
 		{
 			id: "7771623F63D63FEA"
 			linked_quest: "754CF2D0D96359C3"
-			x: -26.5d
+			x: -34.0d
 			y: 0.0d
 		}
 		{
@@ -60,13 +60,14 @@
 			dependencies: ["1B08CB9E24BDF006"]
 			dependency_requirement: "one_completed"
 			id: "544B143B7159968A"
+			subtitle: "装配线地狱"
 			tasks: [{
 				id: "6E9361A934605F29"
 				item: "gtceu:luv_electric_motor"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -9.5d
+			x: -25.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -76,8 +77,8 @@
 				item: "gtceu:luv_electric_pump"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -11.5d
+			x: -25.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -87,8 +88,8 @@
 				item: "gtceu:luv_conveyor_module"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -10.5d
+			x: -25.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -98,8 +99,8 @@
 				item: "gtceu:luv_electric_piston"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -10.5d
+			x: -23.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -109,8 +110,8 @@
 				item: "gtceu:luv_robot_arm"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -7.5d
+			x: -23.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -120,8 +121,8 @@
 				item: "gtceu:luv_emitter"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -7.5d
+			x: -28.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["544B143B7159968A"]
@@ -131,8 +132,8 @@
 				item: "gtceu:luv_sensor"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -7.0d
+			x: -28.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["006528E474CE82DE"]
@@ -144,7 +145,7 @@
 				title: "{ftbquests.chapter.luv.quest9.task_+6011643517267247913.title}"
 				type: "checkmark"
 			}]
-			x: -26.5d
+			x: -34.0d
 			y: 2.0d
 		}
 		{
@@ -158,7 +159,7 @@
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
-			x: -25.0d
+			x: -32.0d
 			y: -2.0d
 		}
 		{
@@ -172,7 +173,7 @@
 				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
 				type: "item"
 			}]
-			x: -23.5d
+			x: -30.0d
 			y: 2.0d
 		}
 		{
@@ -183,7 +184,7 @@
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: -23.5d
+			x: -30.0d
 			y: 0.0d
 		}
 		{
@@ -194,8 +195,8 @@
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -0.5d
+			x: -32.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["77E66A5569F9845B"]
@@ -205,8 +206,8 @@
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			x: -25.0d
-			y: 1.0d
+			x: -32.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["34820874A85286FC"]
@@ -217,8 +218,8 @@
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			x: -25.0d
-			y: 2.5d
+			x: -32.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -244,7 +245,7 @@
 				type: "checkmark"
 			}]
 			x: -16.0d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["209FAC261240DA4E"]
@@ -330,27 +331,17 @@
 		}
 		{
 			dependencies: ["1F24CDB4B265DAE8"]
-			id: "04C6FD9012340E33"
-			tasks: [{
-				id: "597DA792939CAB0A"
-				item: "gtceu:trinium_ingot"
-				type: "item"
-			}]
-			x: -16.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["04C6FD9012340E33"]
 			id: "47D1E2F257A78CC8"
 			shape: "pentagon"
+			subtitle: "ZPM线圈"
 			tasks: [{
 				count: 16L
 				id: "7148FED2E30E7170"
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 6.5d
+			x: -16.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47D1E2F257A78CC8"]
@@ -361,31 +352,24 @@
 				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 6.5d
+			x: -16.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["73A9B8C2B2142E54"]
+			dependencies: [
+				"2C5AAAE7171632CA"
+				"251E2EE2A84D76A2"
+			]
 			id: "637D202FC567B932"
-			subtitle: "{ftbquests.chapter.luv.quest27.subtitle}"
+			size: 2.0d
+			subtitle: "给研究站输出算力，注意选择整除且最大的算法"
 			tasks: [{
 				id: "3C7C6EF260BFFAEE"
 				item: "gtceu:high_performance_computation_array"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["2C5AAAE7171632CA"]
-			id: "73A9B8C2B2142E54"
-			tasks: [{
-				id: "08719BA2977C0E6C"
-				item: "gtceu:luv_field_generator"
-				type: "item"
-			}]
 			x: -16.0d
-			y: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -442,8 +426,9 @@
 				title: "{ftbquests.chapter.luv.quest32.task_+927708991509959210.title}"
 				type: "checkmark"
 			}]
+			title: "你可以使用并行仓和激光仓，建议你做一个"
 			x: -8.5d
-			y: -9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -479,12 +464,25 @@
 				title: "{ftbquests.chapter.luv.quest35.task_+8547452493269305768.title}"
 				type: "checkmark"
 			}]
-			x: -25.0d
-			y: 4.5d
+			x: -32.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4BA59C23FB4625B9"]
 			id: "4089D6C868A2D08A"
+			rewards: [{
+				id: "5CEB93C3F3B10C5A"
+				item: {
+					Count: 1
+					id: "gtceu:turbine_rotor"
+					tag: {
+						GT.PartStats: {
+							Material: "gtceu:neutronium"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "{ftbquests.chapter.luv.quest36.subtitle}"
 			tasks: [{
 				id: "1D67A2915C631403"
@@ -496,8 +494,16 @@
 		}
 		{
 			dependencies: ["14C08D2A44860C08"]
+			description: ["好多铟好多铟好多铟好多铟"]
 			id: "4F8A3B3DFEE2B87E"
+			rewards: [{
+				count: 16
+				id: "7A653BCB65553AEE"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "4EF75DA5B4777331"
 				item: "gtceu:uhpic_wafer"
 				type: "item"
@@ -512,7 +518,7 @@
 				title: "{ftbquests.chapter.luv.quest38.task_+6425673119435486555.title}"
 				type: "checkmark"
 			}]
-			x: -25.0d
+			x: -25.5d
 			y: -3.5d
 		}
 		{
@@ -523,7 +529,7 @@
 				item: "gtceu:diesel_bucket"
 				type: "item"
 			}]
-			x: -27.0d
+			x: -28.0d
 			y: -5.0d
 		}
 		{
@@ -534,7 +540,7 @@
 				item: "gtceu:seed_oil_bucket"
 				type: "item"
 			}]
-			x: -25.0d
+			x: -23.0d
 			y: -5.0d
 		}
 		{
@@ -545,7 +551,7 @@
 				item: "gtceu:cyclohexane_bucket"
 				type: "item"
 			}]
-			x: -23.0d
+			x: -25.5d
 			y: -5.0d
 		}
 		{
@@ -556,7 +562,7 @@
 				item: "gtceu:chlorocyclohexane_bucket"
 				type: "item"
 			}]
-			x: -24.0d
+			x: -25.5d
 			y: -7.0d
 		}
 		{
@@ -573,7 +579,7 @@
 				item: "gtceu:2_ethylhexanol_bucket"
 				type: "item"
 			}]
-			x: -25.0d
+			x: -25.5d
 			y: -9.0d
 		}
 		{
@@ -583,7 +589,7 @@
 				item: "gtceu:copper_chromium_catalyst_dust"
 				type: "item"
 			}]
-			x: -22.5d
+			x: -23.0d
 			y: -9.0d
 		}
 		{
@@ -594,7 +600,7 @@
 				item: "gtceu:1_chloro_2_ethylhexane_bucket"
 				type: "item"
 			}]
-			x: -27.0d
+			x: -28.0d
 			y: -9.0d
 		}
 		{
@@ -604,7 +610,7 @@
 				item: "gtceu:phosphorous_acid_bucket"
 				type: "item"
 			}]
-			x: -22.5d
+			x: -23.0d
 			y: -11.0d
 		}
 		{
@@ -615,7 +621,7 @@
 				item: "gtceu:dimethyl_phosphite_bucket"
 				type: "item"
 			}]
-			x: -25.0d
+			x: -25.5d
 			y: -11.0d
 		}
 		{
@@ -629,7 +635,7 @@
 				item: "gtceu:di_2_ethylhexyl_phosphite_bucket"
 				type: "item"
 			}]
-			x: -27.0d
+			x: -28.0d
 			y: -11.0d
 		}
 		{
@@ -643,7 +649,7 @@
 				item: "gtceu:phosphonate_bucket"
 				type: "item"
 			}]
-			x: -29.5d
+			x: -32.0d
 			y: -10.0d
 		}
 		{
@@ -659,21 +665,8 @@
 				item: "gtceu:p507_extractant_bucket"
 				type: "item"
 			}]
-			x: -29.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["17292FB8D4DD36BA"]
-			description: ["{ftbquests.chapter.luv.quest51.description1}"]
-			icon: "gtmthings:luv_2a_wireless_energy_input_hatch"
-			id: "227C6AEB777B7E14"
-			tasks: [{
-				id: "0E554503F61713BB"
-				title: "{ftbquests.chapter.luv.quest51.task_+1032807572867322811.title}"
-				type: "checkmark"
-			}]
-			x: -16.0d
-			y: -3.5d
+			x: -32.0d
+			y: -7.0d
 		}
 		{
 			id: "59C320A0944927A3"
@@ -683,7 +676,7 @@
 				item: "gtceu:p507_extractant_bucket"
 				type: "item"
 			}]
-			x: -29.5d
+			x: -32.0d
 			y: -5.0d
 		}
 		{
@@ -895,6 +888,455 @@
 			title: "升级你的超净间过滤方块！"
 			x: -1.0d
 			y: -9.5d
+		}
+		{
+			dependencies: [
+				"251E2EE2A84D76A2"
+				"637D202FC567B932"
+			]
+			description: [""]
+			id: "3FB06067540E1931"
+			subtitle: "低级散热组件"
+			tasks: [{
+				id: "379A3E43FE501AFC"
+				item: "gtceu:hpca_heat_sink_component"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3FB06067540E1931"]
+			description: ["要消耗冷却液，别忘了"]
+			id: "2206089F4E43C59D"
+			rewards: [{
+				id: "57A22205F098B164"
+				item: "gtceu:hpca_heat_sink_component"
+				type: "item"
+			}]
+			subtitle: "高级散热组件，当你发现你的算力不够时就要把散热组件换成这个"
+			tasks: [{
+				id: "07E839453D413D32"
+				item: "gtceu:hpca_active_cooler_component"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"251E2EE2A84D76A2"
+				"637D202FC567B932"
+			]
+			id: "2FD33C4009211037"
+			subtitle: "记得配上散热组件，不然会被烧坏"
+			tasks: [{
+				id: "227AEACC2CFC6AC0"
+				item: "gtceu:hpca_computation_component"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2FD33C4009211037"]
+			description: ["如果你发现你因为算力不够且没法做高级计算组件而卡死，你就要看看你的冷却有没有升级和你的算策略是不是最优的"]
+			id: "31A773AB4898B8F8"
+			subtitle: "ZPM才能做"
+			tasks: [{
+				id: "7EF9D64A02F23501"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 10.5d
+		}
+		{
+			id: "251E2EE2A84D76A2"
+			rewards: [{
+				id: "687DB44D00698D5E"
+				item: "gtceu:hpca_empty_component"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A60EAF3EF2718E5"
+				item: "gtceu:hpca_empty_component"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["637D202FC567B932"]
+			description: [
+				"是时候开始HPCA叠叠乐了"
+				""
+				"别忘了给你的HPCA装上桥接组件，不然连不上交换机的"
+			]
+			icon: "gtceu:network_switch"
+			id: "1C276DAC38B004B1"
+			rewards: [{
+				id: "4083BF89C86EB8FC"
+				item: "gtceu:hpca_bridge_component"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "同样需要ZPM才能做"
+			tasks: [
+				{
+					id: "7800D6CAE77BAF6E"
+					item: "gtceu:network_switch"
+					type: "item"
+				}
+				{
+					id: "48EE4BBE1558A4CE"
+					item: "gtceu:hpca_bridge_component"
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6D997B6ECEE712BB"]
+			description: ["转底炉是谁？我不认识"]
+			id: "4F64AA1B00E26B4D"
+			rewards: [{
+				id: "19FC47C9C7D2CDBF"
+				item: "ctnhcore:ultimate_engine_intake_casing"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "太伟大了"
+			tasks: [{
+				id: "04F383507CBBE66E"
+				item: "ctnhcore:super_ebf"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["48DD8F1CA4521491"]
+			id: "693BE7D773A7C37F"
+			rewards: [{
+				id: "1B9E3FB53BFAF390"
+				item: "gtnn:neutron_source"
+				type: "item"
+			}]
+			subtitle: "送你一个中子源，希望你喜欢"
+			tasks: [{
+				id: "59FAAB8A64E3688E"
+				item: "gtnn:quark_core"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["693BE7D773A7C37F"]
+			id: "02DD2E6EEDC15505"
+			tasks: [{
+				id: "2FEF84CF7734F746"
+				item: "gtnn:neutron_activator"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["02DD2E6EEDC15505"]
+			description: [
+				"中子加速器：通电给中子活化器加速中子，相当于特殊能源仓"
+				""
+				"中子传感器：可以设置中子速度范围，注意它单位是K中子加速器是M，当进入范围后发出红石信号"
+				""
+				"机器控制覆盖版：接受红石信号后暂停机器工作"
+				""
+				"使用方法：给中子加速器贴上覆盖版，然后用红石连接上传感器，设置范围，当加速到指定范围就会停止加速，稳定中子速度"
+				""
+				"结构只允许在最上方放置输入，最下方放置输出.可以叠加到64高度"
+			]
+			id: "3049F938B2D301B2"
+			subtitle: "以后会有思索的"
+			tasks: [
+				{
+					id: "2F549A3160DFFE55"
+					item: "gtnn:iv_neutron_accelerator"
+					type: "item"
+				}
+				{
+					id: "214524255D8A822B"
+					item: "gtnn:neutron_sensor"
+					type: "item"
+				}
+				{
+					id: "0B86CCD65FB31F49"
+					item: "gtceu:machine_controller_cover"
+					type: "item"
+				}
+			]
+			title: "中子活化器使用方法（文字版）"
+			x: -19.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"02DD2E6EEDC15505"
+				"1960FC2322EDCB12"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.iv.quest51.description1}"]
+			id: "45EF42ADC599589E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71F0E5844E95853F"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.iv.quest51.subtitle}"
+			tasks: [{
+				id: "6137B1F57C126749"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["45EF42ADC599589E"]
+			id: "48CF80673BB7D0BE"
+			tasks: [{
+				id: "0F290371C354631B"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"4A412A967394C59E"
+				"45EF42ADC599589E"
+			]
+			hide_details_until_startable: false
+			id: "1E79D7B65D6DCECF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FA37A99F58AEFBA"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				count: 16L
+				id: "04BA4D6F9009F956"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["48CF80673BB7D0BE"]
+			id: "7350B8C1243D44CD"
+			subtitle: "{ftbquests.chapter.iv.quest115.subtitle}"
+			tasks: [{
+				id: "075C311D1AD43284"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7350B8C1243D44CD"]
+			id: "783F7C176491A978"
+			rewards: [{
+				id: "7279AA64F5DA14A5"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "394D6C14D43AF734"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			title: "便宜HV电路"
+			x: -8.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1E79D7B65D6DCECF"]
+			id: "3EA13126A1A8CAFE"
+			tasks: [{
+				id: "1F77C16E8AFE33F3"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3EA13126A1A8CAFE"]
+			id: "41A7CC007444C503"
+			rewards: [{
+				count: 4
+				id: "42E45CEFB522D8CE"
+				item: "gtceu:long_enriched_naquadah_rod"
+				type: "item"
+			}]
+			subtitle: "建议使用富集硅岩"
+			tasks: [{
+				id: "6A3C9CBDF6140DB7"
+				item: "gtnn:luv_naquadah_reactor"
+				type: "item"
+			}]
+			title: "来试试硅岩发电吧"
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["45EF42ADC599589E"]
+			id: "008A90953EEF0008"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DFADD662EB69832"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			subtitle: "{ftbquests.chapter.iv.quest54.subtitle}"
+			tasks: [{
+				id: "5CC8DC9DDD4A857B"
+				item: "gtceu:uranium_rhodium_dinaquadide_dust"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["45EF42ADC599589E"]
+			id: "46DFFF321BBE034E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D96F4D18479629F"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.iv.quest65.subtitle}"
+			tasks: [{
+				id: "5A826DD4F0003B6A"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["46DFFF321BBE034E"]
+			description: ["我们（）人的化工厂太厉害辣！"]
+			id: "75353060280848EB"
+			size: 2.0d
+			subtitle: "超级化工厂"
+			tasks: [{
+				id: "2491F333995C7BE8"
+				item: "ctnhcore:sinope_chemical"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7350B8C1243D44CD"]
+			id: "41B0A0641BAD4035"
+			rewards: [{
+				id: "3B9575FD794E916C"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			subtitle: "需要ZPM电压"
+			tasks: [{
+				count: 32L
+				id: "7E0B8015F7E9A6A5"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			title: "便宜EV电路"
+			x: -11.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"0408D82BF03701E8"
+				"5A10711E91899771"
+			]
+			description: [""]
+			id: "48BAB59CD186FF3F"
+			subtitle: "WOW,16并行"
+			tasks: [{
+				id: "3B56564FC0EEE31F"
+				item: "gtceu:luv_parallel_hatch"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48DD8F1CA4521491"]
+			id: "4DE49DB87C6B5D1C"
+			tasks: [
+				{
+					id: "36CEC70CA40C89C0"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_4_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6D325AB267087D1D"
+					item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "前往霜原星"
+			x: -19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4DE49DB87C6B5D1C"]
+			id: "44BAEB867533D8C7"
+			rewards: [{
+				count: 64
+				id: "3442F5F4A3F32A1B"
+				item: "gtceu:neutronium_mixture_dust"
+				type: "item"
+			}]
+			subtitle: "你在ZPM才能处理它"
+			tasks: [{
+				count: 64L
+				id: "03EFBCA26D3BEBD2"
+				item: { Count: 64, id: "gtceu:neutronium_mixture_dust" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4DE49DB87C6B5D1C"]
+			id: "57CF5C7E54D2FC3D"
+			subtitle: "你仍然需要ZPM才能处理"
+			tasks: [{
+				id: "4BE2026143A53BF7"
+				item: "gtceu:naquadria_oxide_mixture_dust"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -4.0d
 		}
 	]
 	title: "{ftbquests.chapter.luv.title}"

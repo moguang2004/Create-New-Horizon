@@ -1,0 +1,12 @@
+name = "MmmMmmMmmMmm (Target Dummy)"
+filename = "dummmmmmy-1.20-2.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c3418da11a2679fb1900aa3fc93342c6f1a5ea02"
+url = "https://edge.forgecdn.net/files/5737/040/dummmmmmy-1.20-2.0.2.jar"
+
+[update.curseforge]
+file-id = 5737040
+project-id = 225738

@@ -82,11 +82,11 @@ ServerEvents.recipes(event => {
         " BCB ",
         "  A  "
     ], {
-        A: "create_new_age:copper_wire",
+        A: 'gtceu:fine_copper_wire',
 
         B: "gtceu:andesite_alloy_plate",
 
-        C: "create_new_age:copper_circuit",
+        C: "gtceu:resin_printed_circuit_board",
 
         D: 'create:precision_mechanism',
 
@@ -191,8 +191,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting('gtceu:lapis_plate', '2x minecraft:lapis_lazuli')
     event.recipes.create.compacting('minecraft:glass', '2x gtceu:glass_dust').heated()
     event.recipes.create.compacting('minecraft:netherrack', ['minecraft:gravel', '2x minecraft:redstone', Fluid.of('minecraft:lava', 250)])
-    event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 250),'4x minecraft:brick'])
-    event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 50),'5x gtceu:brick_dust'])
+    event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 250), '4x minecraft:brick'])
+    event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 50), '5x gtceu:brick_dust'])
     event.recipes.create.pressing('gtceu:gold_ring', 'gtceu:gold_rod')
     event.recipes.create.pressing('gtceu:iron_ring', 'gtceu:iron_rod')
     event.recipes.create.pressing('gtceu:copper_ring', 'gtceu:copper_rod')
@@ -206,30 +206,30 @@ ServerEvents.recipes(event => {
 
 //搅拌机
 ServerEvents.recipes(event => {
-    event.recipes.create.mixing('3x gtceu:bronze_dust', ['3x gtceu:copper_dust', 'gtceu:tin_dust']).heated()
-    event.recipes.create.mixing('3x gtceu:brass_dust', ['3x gtceu:copper_dust', 'gtceu:zinc_dust']).heated()
-    event.recipes.create.mixing('8x gtceu:potin_dust', ['6x gtceu:copper_dust', '2x gtceu:tin_dust', 'gtceu:lead_dust']).heated()
-    event.recipes.create.mixing('8x extendedcrafting:luminessence', ['4x minecraft:glowstone_dust', 'minecraft:gunpowder', 'minecraft:redstone']).heated()
-    event.recipes.create.mixing('16x extendedcrafting:crystaltine_ingot', ['4x extendedcrafting:luminessence_block', 'gtceu:quantum_star', 'minecraft:netherite_ingot']).heated()
-    event.recipes.create.mixing('create:rose_quartz', ['minecraft:quartz', '4x minecraft:redstone']).heated()
-    event.recipes.create.mixing('create:rose_quartz', ['2x biomesoplenty:rose_quartz_chunk', 'minecraft:redstone']).heated()
-    event.recipes.create.mixing(Fluid.of('gtceu:concrete', /** @type {number} */ 1000), ['gtceu:stone_dust', 'gtceu:quartz_sand_dust', 'gtceu:clay_dust', '2x gtceu:calcite_dust', Fluid.of('minecraft:water', 1000)]).heated()
-    event.recipes.create.mixing('2x gtceu:andesite_alloy_dust', [Fluid.of('gtceu:iron', 144), '2x gtceu:andesite_dust'])
-    event.recipes.create.mixing('gtceu:stem_cells', [Fluid.of('gtceu:simple_growth_medium', 144), '4x ctnhcore:animal_excreta'])
-    event.recipes.create.mixing('2x gtceu:treated_wood_planks', [Fluid.of('gtceu:creosote', 250), '2x #minecraft:planks'])
-    event.recipes.create.mixing('gtceu:red_alloy_dust', ['4x minecraft:redstone', '1x gtceu:copper_dust']).heated()
-    event.recipes.create.mixing('2x gtceu:andesite_alloy_dust', ['gtceu:andesite_dust', 'gtceu:iron_dust'])
-})
-//组装
-ServerEvents.recipes(event => {//红色合金线缆
-    event.recipes.create.deploying('gtceu:red_alloy_single_cable', ['gtceu:red_alloy_single_wire', 'gtceu:rubber_plate'])
-})
-//序列组装
+        event.recipes.create.mixing('3x gtceu:bronze_dust', ['3x gtceu:copper_dust', 'gtceu:tin_dust']).heated()
+        event.recipes.create.mixing('3x gtceu:brass_dust', ['3x gtceu:copper_dust', 'gtceu:zinc_dust']).heated()
+        event.recipes.create.mixing('8x gtceu:potin_dust', ['6x gtceu:copper_dust', '2x gtceu:tin_dust', 'gtceu:lead_dust']).heated()
+        event.recipes.create.mixing('8x extendedcrafting:luminessence', ['4x minecraft:glowstone_dust', 'minecraft:gunpowder', 'minecraft:redstone']).heated()
+        event.recipes.create.mixing('16x extendedcrafting:crystaltine_ingot', ['4x extendedcrafting:luminessence_block', 'gtceu:quantum_star', 'minecraft:netherite_ingot']).heated()
+        event.recipes.create.mixing('create:rose_quartz', ['minecraft:quartz', '4x minecraft:redstone']).heated()
+        event.recipes.create.mixing('create:rose_quartz', ['2x biomesoplenty:rose_quartz_chunk', 'minecraft:redstone']).heated()
+        event.recipes.create.mixing(Fluid.of('gtceu:concrete', /** @type {number} */ 1000), ['gtceu:stone_dust', 'gtceu:quartz_sand_dust', 'gtceu:clay_dust', '2x gtceu:calcite_dust', Fluid.of('minecraft:water', 1000)]).heated()
+        event.recipes.create.mixing('2x gtceu:andesite_alloy_dust', [Fluid.of('gtceu:iron', 144), '2x gtceu:andesite_dust'])
+        event.recipes.create.mixing('gtceu:stem_cells', [Fluid.of('gtceu:simple_growth_medium', 144), '4x ctnhcore:animal_excreta'])
+        event.recipes.create.mixing('2x gtceu:treated_wood_planks', [Fluid.of('gtceu:creosote', 250), '2x #minecraft:planks'])
+        event.recipes.create.mixing('gtceu:red_alloy_dust', ['4x minecraft:redstone', '1x gtceu:copper_dust']).heated()
+        event.recipes.create.mixing(['gtceu:andesite_alloy_dust', Item.of('gtceu:andesite_alloy_dust').withChance(0.3)], ['gtceu:andesite_dust', 'gtceu:iron_dust'])
+    })
+    //组装
+ServerEvents.recipes(event => { //红色合金线缆
+        event.recipes.create.deploying('gtceu:red_alloy_single_cable', ['gtceu:red_alloy_single_wire', 'gtceu:rubber_plate'])
+    })
+    //序列组装
 ServerEvents.recipes(event => {
     let transitional = 'gtceu:coke_oven_brick'
-    event.recipes.create.sequenced_assembly([//焦炉砖
+    event.recipes.create.sequenced_assembly([ //焦炉砖
             'gtceu:coke_oven_bricks'
-        ],  'gtceu:coke_oven_brick', [
+        ], 'gtceu:coke_oven_brick', [
             event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:cement', 100)]),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:coke_oven_brick']),
             event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:cement', 100)]),
@@ -484,22 +484,22 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.recipes(event => {
-    let transitional = 'create:blaze_cake'
-    event.recipes.create.sequenced_assembly([
-            'kubejs:double_blaze_cake'
-        ], 'create:blaze_cake', [
-            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
-            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
-            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
-            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
-            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
-            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 100)]),
-            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 200)]),
-            event.recipes.create.filling(transitional, [transitional,Fluid.of("minecraft:lava", 200)])
-        ]).transitionalItem(transitional)
-        .loops(1)
-})
-//注液器
+        let transitional = 'create:blaze_cake'
+        event.recipes.create.sequenced_assembly([
+                'kubejs:double_blaze_cake'
+            ], 'create:blaze_cake', [
+                event.recipes.create.filling(transitional, [transitional, Fluid.of("minecraft:lava", 100)]),
+                event.recipes.create.filling(transitional, [transitional, Fluid.of("minecraft:lava", 100)]),
+                event.recipes.create.filling(transitional, [transitional, Fluid.of("minecraft:lava", 100)]),
+                event.recipes.create.filling(transitional, [transitional, Fluid.of("minecraft:lava", 100)]),
+                event.recipes.create.filling(transitional, [transitional, Fluid.of("minecraft:lava", 100)]),
+                event.recipes.create.filling(transitional, [transitional, Fluid.of("minecraft:lava", 100)]),
+                event.recipes.create.filling(transitional, [transitional, Fluid.of("minecraft:lava", 200)]),
+                event.recipes.create.filling(transitional, [transitional, Fluid.of("minecraft:lava", 200)])
+            ]).transitionalItem(transitional)
+            .loops(1)
+    })
+    //注液器
 ServerEvents.recipes(event => {
     event.recipes.create.filling('legendarysurvivaloverhaul:thermometer', ['kubejs:thermometer_case', Fluid.of('gtceu:mercury', 1000)])
     event.remove({ output: 'legendarysurvivaloverhaul:thermometer' })
@@ -546,7 +546,8 @@ ServerEvents.recipes(event => {
             event.recipes.createDeploying(transitional, [transitional, 'kubejs:steel_mechanism']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:ulv_machine_casing']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:double_wrought_iron_plate']),
-        ]).transitionalItem(transitional)
+
+        ]).transitionalItem('gtceu:steam_input_bus')
         .loops(2)
 })
 ServerEvents.recipes(event => {
@@ -557,6 +558,40 @@ ServerEvents.recipes(event => {
             event.recipes.createDeploying(transitional, [transitional, 'kubejs:steel_mechanism']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:ulv_machine_casing']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:double_wrought_iron_plate']),
-        ]).transitionalItem(transitional)
+        ]).transitionalItem('gtceu:steam_input_bus')
         .loops(2)
+})
+ServerEvents.recipes(event => {
+    let transitional = 'gtceu:tungsten_steel_frame'
+    event.recipes.create.sequenced_assembly([
+            Item.of('gtceu:assembly_line_casing').withChance(0.95),
+            Item.of('gtceu:snow_steel_block').withChance(0.05)
+        ], 'gtceu:tungsten_steel_frame', [
+            event.recipes.createDeploying(transitional, [transitional, '#gtceu:circuits/zpm']),
+            event.recipes.createPressing(transitional, [transitional]),
+            event.recipes.createPressing(transitional, [transitional]),
+            event.recipes.createDeploying(transitional, [transitional, '#gtceu:circuits/zpm']),
+            event.recipes.createPressing(transitional, [transitional]),
+            event.recipes.createPressing(transitional, [transitional]),
+            event.recipes.createDeploying(transitional, [transitional, '#gtceu:circuits/luv']),
+            event.recipes.createPressing(transitional, [transitional]),
+        ]).transitionalItem('gtceu:tungsten_steel_frame')
+        .loops(2)
+
+})
+ServerEvents.recipes(event => {
+    let transitional = 'gtceu:tungstensteel_gearbox'
+    event.recipes.create.sequenced_assembly([
+            Item.of('gtceu:assembly_line_unit').withChance(0.95),
+            Item.of('gtceu:snow_steel_block').withChance(0.05)
+        ], 'gtceu:tungstensteel_gearbox', [
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:ruridit_gear']),
+            event.recipes.createPressing(transitional, [transitional]),
+            event.recipes.createCutting(transitional, [transitional]),
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:iv_robot_arm']),
+            event.recipes.createCutting(transitional, [transitional]),
+            event.recipes.createPressing(transitional, [transitional]),
+        ]).transitionalItem('gtceu:tungstensteel_gearbox')
+        .loops(4)
+
 })

@@ -120,31 +120,92 @@ ServerEvents.recipes(event => {
         }
     ]
   })
-  event.custom({
-    "type": "createdieselgenerators:distillation",
-    "ingredients": [
-      {
-        "fluid": "alexscaves:acid",
-        "amount": 100
-      }
-    ],
-    "heatRequirement": "heated",
-    "processingTime": 40,
-    "results": [
-      {
-        "fluid": "gtceu:sulfuric_acid",
-        "amount": 10
-      },
-      {
-        "fluid": "gtceu:hydrochloric_acid",
-        "amount": 25
-      },
-      {
-        "fluid": "gtceu:nitrogen_dioxide",
-        "amount": 15
-      }
-    ]
-  })
+  // event.custom({
+  //   "type": "createdieselgenerators:distillation",
+  //   "ingredients": [
+  //     {
+  //       "fluid": "alexscaves:acid",
+  //       "amount": 100
+  //     }
+  //   ],
+  //   "heatRequirement": "heated",
+  //   "processingTime": 40,
+  //   "results": [
+  //     {
+  //       "fluid": "gtceu:sulfuric_acid",
+  //       "amount": 10
+  //     },
+  //     {
+  //       "fluid": "gtceu:hydrochloric_acid",
+  //       "amount": 25
+  //     },
+  //     {
+  //       "fluid": "gtceu:nitrogen_dioxide",
+  //       "amount": 15
+  //     }
+  //   ]
+  // })
   event.recipes.create.crushing(['3x gtceu:rich_soil_dust'],'farmersdelight:rich_soil')
   event.recipes.create.crushing(['3x gtceu:rich_soul_soil_dust'],'mynethersdelight:resurgent_soil')
+})
+CDGEvents.fuelTypes(event => {
+  event.add('gtceu:sulfuric_heavy_fuel')
+    .soundSpeed(0.5)
+    .normalSpeed(96).normalStrength(1024).normalBurn(1)
+    .modularSpeed(96).modularStrength(1280).modularBurn(1)
+    .hugeSpeed(128).hugeStrength(4096).hugeBurn(1)
+    .burnerStrength(1.5).build()
+  event.add('gtceu:sulfuric_naphtha')
+    .soundSpeed(1)
+    .normalSpeed(96).normalStrength(1024).normalBurn(1)
+    .modularSpeed(96).modularStrength(1280).modularBurn(1)
+    .hugeSpeed(128).hugeStrength(4096).hugeBurn(1)
+    .burnerStrength(1.5).build()
+  event.add('gtceu:creosote')
+    .soundSpeed(1.5)
+    .normalSpeed(64).normalStrength(1024).normalBurn(1)
+    .modularSpeed(64).modularStrength(1280).modularBurn(1)
+    .hugeSpeed(96).hugeStrength(4096).hugeBurn(1)
+    .burnerStrength(0.5).build()
+  event.add('gtceu:rocket_fuel')
+    .soundSpeed(0.4)
+    .normalSpeed(192).normalStrength(204800).normalBurn(1)
+    .modularSpeed(192).modularStrength(256000).modularBurn(1)
+    .hugeSpeed(256).hugeStrength(819200).hugeBurn(1)
+    .burnerStrength(2).build()
+  event.remove('#forge:biodiesel')
+  event.remove('#forge:diesel')
+  event.remove('#forge:ethanol')
+  event.remove('#forge:gasoline')
+  event.remove('#forge:plantoil')
+  event.add('gtceu:raw_bio_diesel')
+    .soundSpeed(1)
+    .normalSpeed(96).normalStrength(3072).normalBurn(1)
+    .modularSpeed(96).modularStrength(4096).modularBurn(1)
+    .hugeSpeed(128).hugeStrength(10240).hugeBurn(1)
+    .burnerStrength(0.5).build()
+  event.add('#forge:diesel')
+    .soundSpeed(1)
+    .normalSpeed(96).normalStrength(28800).normalBurn(1)
+    .modularSpeed(96).modularStrength(32000).modularBurn(1)
+    .hugeSpeed(128).hugeStrength(64000).hugeBurn(1)
+    .burnerStrength(0.9).build()
+  event.add('gtceu:ehanol')
+    .soundSpeed(1)
+    .normalSpeed(96).normalStrength(2048).normalBurn(1)
+    .modularSpeed(96).modularStrength(4096).modularBurn(1)
+    .hugeSpeed(128).hugeStrength(8192).hugeBurn(1)
+    .burnerStrength(0.6).build()
+  event.add('gtceu:gasoline')
+    .soundSpeed(1)
+    .normalSpeed(128).normalStrength(108000).normalBurn(1)
+    .modularSpeed(192).modularStrength(128000).modularBurn(1)
+    .hugeSpeed(256).hugeStrength(196000).hugeBurn(1)
+    .burnerStrength(1.0).build()
+  event.add('gtceu:plant_oil')
+    .soundSpeed(2)
+    .normalSpeed(96).normalStrength(2048).normalBurn(1)
+    .modularSpeed(96).modularStrength(4096).modularBurn(1)
+    .hugeSpeed(128).hugeStrength(8192).hugeBurn(1)
+    .burnerStrength(0.6).build()
 })

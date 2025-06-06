@@ -12,19 +12,19 @@
 			linked_quest: "7FD9B0E41358497D"
 			shape: "gear"
 			x: 2.0d
-			y: -0.5d
+			y: 2.5d
 		}
 		{
 			id: "1E89B8AB6D106F05"
 			linked_quest: "7F0C67AE534020B1"
-			x: 2.0d
-			y: -3.5d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			id: "00B5D11AA16DE9D2"
 			linked_quest: "74E26D593C100718"
-			x: 6.0d
-			y: -3.5d
+			x: 5.5d
+			y: -4.5d
 		}
 		{
 			id: "056A00C408ADC615"
@@ -70,7 +70,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["38559FFEC45C6B03"]
@@ -487,7 +487,7 @@
 				item: "gtceu:aether_ingot"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 18.0d
 			y: -3.0d
 		}
 		{
@@ -500,20 +500,6 @@
 			}]
 			x: 10.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["0C3AB83D2762EC3D"]
-			id: "1BC96CF2C5DB3D12"
-			shape: "circle"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest38.subtitle}"
-			tasks: [{
-				id: "3DFC72E59BBA99F7"
-				item: "gtceu:samarium_dysprosium_terbium_permanent_magnet_alloy_ingot"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -2.0d
 		}
 		{
 			id: "2F06653DB4F277D8"
@@ -544,7 +530,7 @@
 			id: "0C5E045DBD9D132E"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest41.subtitle}"
+			subtitle: "UHV线圈"
 			tasks: [{
 				id: "7FDBB66A6463D160"
 				item: "ctnhcore:abyssalalloy_coil_block"
@@ -565,8 +551,8 @@
 				item: "ctnhcore:void_miner"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -3.0d
+			x: 18.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -865,7 +851,7 @@
 				"011E8AEDD9D3731D"
 			]
 			id: "79F1B6B69D7ED6CB"
-			subtitle: "1:1，是不是很神奇？"
+			subtitle: "1:1，是不是很神奇？(其实并没有)"
 			tasks: [{
 				id: "3BA39A876DF0F2AE"
 				item: "kubejs:echo_processor_assembly"
@@ -880,7 +866,7 @@
 				"79F1B6B69D7ED6CB"
 			]
 			id: "706D808019B80CE8"
-			subtitle: "还是1：1！赚翻了好不啦！"
+			subtitle: "还是1：1！赚翻了好不啦！(其实并没有)"
 			tasks: [{
 				id: "40778AB101D44448"
 				item: "kubejs:echo_processor_computer"
@@ -925,6 +911,113 @@
 			}]
 			x: -6.5d
 			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7F81295FE18741A6"
+				"2B91C66AF05AEFE4"
+			]
+			id: "610A31DB73C17E42"
+			rewards: [{
+				count: 4
+				id: "3116558053E3426F"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "你滴转底炉回来辣！"
+			tasks: [{
+				id: "702449C7063C979C"
+				item: "ctnhcore:plasma_alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			id: "2B91C66AF05AEFE4"
+			subtitle: "感觉......不如.....超级电高"
+			tasks: [{
+				id: "709288CE4DFD43B5"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C3AB83D2762EC3D"]
+			description: [
+				"好了，我知道你很兴奋，不过我建议你先看一下任务的无线教程，不然你的存档可能会被无线害的灰飞烟灭"
+				"&4记得先备份你的存档:XD&r"
+			]
+			id: "0FEA054082A7941F"
+			shape: "circle"
+			size: 2.0d
+			subtitle: "万亿GT牢员工呼唤的真正无线终于到来（先看看这个任务）"
+			tasks: [{
+				id: "505E009729BAE011"
+				item: "gtmthings:uv_2a_wireless_energy_input_hatch"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FEA054082A7941F"]
+			description: [
+				"用这个东西右键你的电容库来完成绑定，注意：&4切记要先绑定再使用无线，否则你的存档可能会变成牢大&r"
+				""
+				"无线电将自带近乎无限（unsigned long long)上限的存储，&4其可存储的能量上限与你绑定的电容库无关&r，使用任何无线输出电力部件（无线动力仓等）将直接将电数输入到无线电网，反之消耗电的部件将直接从电网拉取电力"
+				""
+				"电容库容量仅与&4你单次最多可以往电网中输入的电量有关&r，你的电容库容量越大，可单次输入的电量越大。&4电容库存储的电量与无线电网的任何属性和数值无关&r"
+			]
+			id: "43D2BB3A6307F4D4"
+			subtitle: "绑定"
+			tasks: [{
+				id: "65A31AC9A67F9236"
+				item: "gtmthings:wireless_energy_binding_tool"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["43D2BB3A6307F4D4"]
+			id: "19618A0AF3E1A0B5"
+			subtitle: "警告：如果你没绑定电容库就使用这个玩意，你的游戏也会变成烟花"
+			tasks: [{
+				id: "4EBD1A8B2457F1E9"
+				item: "gtmthings:wireless_energy_monitor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["610A31DB73C17E42"]
+			id: "4FDEB75428302C94"
+			subtitle: "5倍加速"
+			tasks: [{
+				id: "5959E0A3F789F5B9"
+				item: "gtceu:compressed_adamantite_plasma_bucket"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["610A31DB73C17E42"]
+			id: "7FC1D52CB7D8F3A3"
+			subtitle: "10倍加速！但是代价是什么？"
+			tasks: [{
+				id: "3B3C73B38022BBE1"
+				item: "gtceu:compressed_aether_plasma_bucket"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -3.0d
 		}
 	]
 	title: "{ftbquests.chapter.uv.title}"

@@ -1,0 +1,342 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "418C24A6E3A8BE97"
+	group: "4CD84F8DB1FF8B7E"
+	id: "418C24A6E3A8BE97"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6C02EE976B37E747"
+			subtitle: "可曾看到浩瀚银宇？"
+			tasks: [{
+				id: "49DFD4B82B52AB9B"
+				item: "ctnhcore:astronomical_observatory"
+				type: "item"
+			}]
+			title: "夜观天象"
+			x: -41.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6C02EE976B37E747"]
+			id: "752F4FD6CF508677"
+			rewards: [{
+				count: 1008
+				id: "2D53DD29552354BA"
+				item: "ad_astra:moon_stone"
+				type: "item"
+			}]
+			subtitle: "并没有月兔"
+			tasks: [{
+				id: "05C769BFF0B39581"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "月球之旅"
+			x: -41.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["752F4FD6CF508677"]
+			id: "2808F9BC44C268B0"
+			rewards: [{
+				count: 1008
+				id: "3DF01D10B98FF251"
+				item: "ad_astra:mars_stone"
+				type: "item"
+			}]
+			subtitle: "对火星石的分析告诉我们火星上曾经确实有生命"
+			tasks: [{
+				id: "4F8E8E9CE9FCAD9A"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -41.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2808F9BC44C268B0"]
+			id: "70E031602D7868A5"
+			rewards: [{
+				count: 1008
+				id: "65E9A433180B92C2"
+				item: "ad_astra:venus_stone"
+				type: "item"
+			}]
+			subtitle: "压力过大"
+			tasks: [{
+				id: "0A38E039140C01C1"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -41.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["70E031602D7868A5"]
+			id: "5826B4C71016568A"
+			rewards: [{
+				count: 1145
+				id: "6F0D8C65D7D25420"
+				item: "ad_astra:glacio_stone"
+				type: "item"
+			}]
+			subtitle: "所以说为什么霜源会有中子素矿藏？"
+			tasks: [{
+				id: "5C47000E93612AA9"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -41.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"这对你说绝对是一个全新的挑战，下一步的光伏线会需要巨量的阳光化合物，所以我建议你做出来其产线"
+				""
+				"你有很多方式可以获取它："
+				""
+				"1.从某些生物质里面提取到阳光提取物，然后与萤石在高压釜中制作"
+				""
+				"2.使用UU物质和生物质直接制取，速度更快步骤更少（前提是UU物质这条线已经有人做了）"
+				""
+				"3.在LUV后，你可以直接聚变来获得阳光化合物，这个方法消耗的材料少且速度快"
+				""
+				"4.在你制造出光伏基站后，你可以使用其独有配方来跳过阳光提取物这一步来制取阳光化合物"
+				""
+				"5.如果你接受了BTNH，那么你可以通过魔法配方来制取阳光化合物，不过他所需的东西也并没有这么简单：XD"
+			]
+			id: "1DE5479957FC30C8"
+			subtitle: "凑了，以前光伏要这个玩意吗"
+			tasks: [{
+				id: "654F8255ADF745A3"
+				item: "gtceu:sunnarium_dust"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -19.0d
+		}
+		{
+			description: [""]
+			id: "2DAA4FC70498126B"
+			rewards: [{
+				id: "218398BCF7C37C51"
+				item: "gtceu:clgs_buffer_dust"
+				type: "item"
+			}]
+			subtitle: "你需要物理气相沉积"
+			tasks: [{
+				id: "380DC95794B3C44D"
+				item: "ctnhcore:combined_vapor_deposition_facility"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -17.5d
+		}
+		{
+			description: [
+				"你可能注意到分选的配方时间极长，但是电压要求普遍低，以测定电池组为例，他需要长达3000秒的配方时间和只有MV的配方电压，在反复超频到ZPM电压后其实际时间为93.75s。但是时间仍然非常之长"
+				""
+				"你的注意力非常惊人，已经注意到了这台机器的特殊机制：如果你能获得整数倍的算力的话，那么它的一次有损超频将转化为无损（即速度*2），假设我们拥有48算力（这是HPCA的最大算力值），那么我们就可以获得三次无损超频，时间减少到了11.71875，如果你使用16+1的能源仓，那么只需要6s就可以完成这个配方（并且你还额外拥有27的并行！）"
+				""
+				"这对你的算力会是个巨大的挑战，多造HPCA吧，你未来会需要成批这个东西的。同时你一定要输入整数倍，不然你将面对一个375秒且没有并行的逆天配方"
+			]
+			id: "09FA8A12B29927AB"
+			subtitle: "小心算力机器"
+			tasks: [{
+				id: "67B24005580A3D5C"
+				item: "ctnhcore:lasersorder"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2DAA4FC70498126B"]
+			description: [""]
+			id: "7D650ADE6C75CD06"
+			subtitle: "好长的线"
+			tasks: [{
+				id: "125B1FC29EC800D1"
+				item: "kubejs:clgs"
+				type: "item"
+			}]
+			title: "CLGS线"
+			x: -17.5d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"09FA8A12B29927AB"
+				"7D650ADE6C75CD06"
+			]
+			id: "708B56BCB6400151"
+			tasks: [{
+				id: "0968CA525C8804F9"
+				item: "kubejs:measurement_pv_cell"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"708B56BCB6400151"
+				"7D650ADE6C75CD06"
+			]
+			id: "73409F231880358F"
+			subtitle: "4级光伏板材！"
+			tasks: [{
+				id: "1EF2653C1ABFCD36"
+				item: "ctnhcore:photon_press_cond_block"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["73409F231880358F"]
+			id: "637A10CE158A936B"
+			tasks: [{
+				id: "6DCF2EE40D670667"
+				item: "ctnhcore:space_photovoltai_cbase_station"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["637A10CE158A936B"]
+			id: "02E2FF97E48241B5"
+			subtitle: "用光伏绑定终端绑定"
+			tasks: [
+				{
+					id: "1C63F49C89862944"
+					item: "ctnhcore:photovoltaic_drone_station"
+					type: "item"
+				}
+				{
+					id: "136ADD209876CF2C"
+					item: {
+						Count: 1
+						id: "ctnhcore:pv_terminal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["02E2FF97E48241B5"]
+			id: "014167EAE9AA3DC3"
+			subtitle: "太弱了，并不能用"
+			tasks: [{
+				id: "6C65DB4440B3E238"
+				item: {
+					Count: 1
+					id: "ctnhcore:photovoltaic_drone_prototype"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["014167EAE9AA3DC3"]
+			id: "0754B183C12F306F"
+			tasks: [{
+				id: "7DDEC52FD45F9848"
+				item: "kubejs:pv_drone_research_1"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"0754B183C12F306F"
+				"02E2FF97E48241B5"
+			]
+			id: "21C30AD46729A951"
+			tasks: [{
+				id: "39BA7D323B2A2D43"
+				item: {
+					Count: 1
+					id: "ctnhcore:photovoltaic_drone_tier1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["21C30AD46729A951"]
+			id: "583E115C69FBF719"
+			tasks: [{
+				id: "6C2BBBFFEAB54520"
+				item: "kubejs:pv_drone_research_2"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"583E115C69FBF719"
+				"02E2FF97E48241B5"
+			]
+			id: "3981EAA32A72A5E1"
+			tasks: [{
+				id: "73059C2D557D1116"
+				item: {
+					Count: 1
+					id: "ctnhcore:photovoltaic_drone_tier2"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3981EAA32A72A5E1"]
+			id: "0386E2925E6ED2E4"
+			tasks: [{
+				id: "6F5251FD3BE1BB52"
+				item: "kubejs:pv_drone_research_3"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -10.0d
+		}
+	]
+	title: "星际工程"
+}

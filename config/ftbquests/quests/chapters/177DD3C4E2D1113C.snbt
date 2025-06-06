@@ -27,12 +27,7 @@
 	}
 	id: "07118DAC24E83AB7"
 	order_index: 2
-	quest_links: [{
-		id: "42CACCBAE0D1508D"
-		linked_quest: "7F8E09E8CB718C64"
-		x: 28.5d
-		y: 11.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			id: "7BF6145D39DCD926"

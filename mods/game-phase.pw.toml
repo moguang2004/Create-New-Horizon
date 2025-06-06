@@ -1,0 +1,12 @@
+name = "Game Phase"
+filename = "gamephase-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e4da73bdba8abb17e8bf82e81f25a2f143846e3b"
+url = "https://edge.forgecdn.net/files/5115/068/gamephase-1.0.2.jar"
+
+[update.curseforge]
+file-id = 5115068
+project-id = 975444

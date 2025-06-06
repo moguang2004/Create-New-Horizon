@@ -1,0 +1,12 @@
+name = "Ocean's聽Delight"
+filename = "oceansdelight-1.0.2-1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "32af985453bde77bfa56d59cdfb11cab5662c8e1"
+url = "https://edge.forgecdn.net/files/4652/060/oceansdelight-1.0.2-1.20.jar"
+
+[update.curseforge]
+file-id = 4652060
+project-id = 841262

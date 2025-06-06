@@ -603,6 +603,17 @@
 			x: 11.5d
 			y: 1.5d
 		}
+		{
+			id: "481BEB39783A1A4A"
+			subtitle: "注：地球恩惠附魔将不会有任何作用"
+			tasks: [{
+				id: "486CCED9102906F6"
+				title: "地球恩惠效果已被移除"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
 	]
 	title: "{ftbquests.chapter.046724C96F783FC2.title}"
 }

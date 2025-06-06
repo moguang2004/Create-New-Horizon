@@ -70,13 +70,6 @@ ItemEvents.tooltip(event => {
         text.add(2, Text.translate('photovoltaic_power_station_vibrant_basic'))
         text.add(3, Text.translate('photovoltaic_power_station_info'))
     })
-    event.addAdvanced('gtceu:nuclear_reactor', (item, advanced, text) => {
-        text.add(1, Text.translate('nuclear_reactor').gray())
-        text.add(2, Text.translate('ctnh.nuclear_reactor.basic'))
-        text.add(3, Text.translate('ctnh.nuclear_reactor.coolant'))
-        text.add(4, Text.translate('ctnh.nuclear_reactor.overclock'))
-        text.add(5, Text.translate('ctnh.nuclear_reactor.safe'))
-    })
     event.addAdvanced('ctnhcore:underfloor_heating_system', (item, advanced, text) => {
         text.add(1, Text.translate('underfloor_heating_system').gray())
         text.add(2, Text.translate('ctnh.underfloor_heating_system.temperature'))
@@ -110,12 +103,6 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("gtceu:greenhouse", (item, advanced, text) => {
         text.add(1, Text.translate('greenhouse').gray())
     })
-    event.addAdvanced('gtceu:super_centrifuge', (item, advanced, text) => {
-        text.add(1, Text.translate('super_centrifuge').gray())
-    })
-    event.addAdvanced('gtceu:ultrasonic_apparatus', (item, advanced, text) => {
-        text.add(1, Text.translate('ultrasonic_apparatus').gray())
-    })
     event.addAdvanced('gtceu:wood_particle_collider', (item, advanced, text) => {
         text.add(1, Text.translate('wood_particle_collider').gray())
         text.add(2, Text.translate('ctnh.wood_particle_collider.tooltip.0'))
@@ -144,6 +131,9 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('kubejs:scp_500', (item, advanced, text) => {
         text.add(1, Text.translate('kubejs.scp_500.0'))
         text.add(2, Text.translate('kubejs.scp_500.1'))
+    })
+    event.addAdvanced('kubejs:scp_500_base', (item, advanced, text) => {
+        text.add(1, Text.translate('kubejs.scp_500_base.0'))
     })
     event.add('kubejs:broken_temperature_keeping_device', Text.translate('ctnh.broken_temperature_keeping_device'))
     event.add('enderio:basic_energy_conduit', Text.translate('ctnh.basic_energy_conduit'))
@@ -176,5 +166,5 @@ ItemEvents.tooltip(event => {
     event.add('gtceu:ender_fluid_link_cover', '§4暂未实装')
     event.add(['gtceu:item_tag_filter', 'gtceu:fluid_tag_filter'], Text.red("非语句 [!] 不可用"))
     event.add('gtceu:nightvision_goggles', '§7用Gregtech的 [Armor Mode Switch] 键开启.')
-    event.add(['gtceu:lp_steam_macerator', 'gtceu:hp_steam_macerator', 'gtceu:steam_grinder', 'gtceu:lv_macerator', 'gtceu:mv_macerator'], '§4研磨副产物只能通过HV及以上的电压获得！')
+    event.add(['gtceu:lp_steam_macerator', 'gtceu:hp_steam_macerator', 'gtceu:steam_grinder', 'gtceu:lv_macerator', 'gtceu:mv_macerator', 'ctpp:smashing_factory'], '§4研磨副产物只能通过HV及以上的电压获得！')
 })

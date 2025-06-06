@@ -57,6 +57,14 @@ ServerEvents.recipes(event => {
             eu: 7680,
             duration: 140,
             output: [Fluid.of('gtceu:bisphenol_a', 100), Fluid.of('gtceu:octane', 250), Fluid.of('gtceu:phenol', 250), Fluid.of('gtceu:amino_acid', 400)]
+        },
+        {
+            name: 'alf',
+            raw_material: null,
+            temperature: 3300,
+            eu: 1920,
+            duration: 200,
+            output: [Fluid.of('gtceu:mana', 100), Fluid.of('minecraft:water', 900)]
         }]
     let nutritions = ['minecraft:sugar', '3x gtceu:lignin_dust']
     yeast.forEach(y => {
@@ -158,6 +166,21 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.digesting('bio_chaff_digestion2')
         .EUt(120)
         .itemInputs('gtceu:bio_chaff')
+        .itemOutputs('gtceu:fertilizer')
+        .inputFluids(Fluid.of('minecraft:water', 800))
+        .outputFluids(Fluid.of('gtceu:fermented_biomass', 800))
+        .circuit(1)
+        .duration(200)
+    event.recipes.gtceu.digesting('animal_excreta_digestion')
+        .EUt(30)
+        .itemInputs('ctnhcore:animal_excreta')
+        .inputFluids(Fluid.of('minecraft:water', 1000))
+        .outputFluids(Fluid.of('gtceu:biomass', 1000))
+        .circuit(0)
+        .duration(200)
+    event.recipes.gtceu.digesting('animal_excreta_digestion2')
+        .EUt(120)
+        .itemInputs('ctnhcore:animal_excreta')
         .itemOutputs('gtceu:fertilizer')
         .inputFluids(Fluid.of('minecraft:water', 800))
         .outputFluids(Fluid.of('gtceu:fermented_biomass', 800))
@@ -316,5 +339,12 @@ ServerEvents.recipes(event => {
         .chancedOutput('gtceu:meat_dust',1500,200)
         .EUt(30)
         .duration(100)
+    event.recipes.gtceu.mana_reactor('alf_yeast')
+        .itemInputs('64x gtceu:livingrock_dust')
+        .inputFluids(Fluid.of('gtceu:mana', 5000))
+        .inputFluids(Fluid.of('gtceu:normal_yeast_extract_liquid', 1000))
+        .chancedOutput('gtceu:alf_yeast_dust', 100, 100)
+        .EUt(480)
+        .duration(400)
 })
 let meat = ['mynethersdelight:hoglin_loin', 'twilightforest:raw_meef', 'twilightforest:raw_venison', 'alexscaves:dinosaur_chop', 'twilightdelight:raw_insect']

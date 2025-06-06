@@ -101,6 +101,10 @@ StartupEvents.registry("item", event => {
     tiers.forEach(tier => {
         event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
     })
+    let moreTiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
+    for (let i = 0; i < 15; i++) {
+        event.create('general_circuit_' + moreTiers[i]).tag('gtceu:circuits/' + moreTiers[i]).tooltip(GTValues.VNF[i] + '级电路板')
+    }
     event.create('crashed_rice')
     event.create('space_fabric')
     event.create('endslate')
@@ -166,8 +170,32 @@ StartupEvents.registry("item", event => {
     event.create('adamantite_proton_source')
     event.create('source_of_countless_magical_powers').tooltip("疯狂至极")
     event.create('book_of_ruina').tooltip("一场赞歌摇篮曲")
+    event.create('heart_of_flower').tooltip("§2她曾存在过")
+    event.create('osmiridium_mechanism').tooltip("集成部件方案")
+    event.create('naquadah_mechanism').tooltip("进阶集成部件方案")
+    event.create('darmstadtium_mechanism').tooltip("构件动力：永无止进")
+    event.create('neutronium_mechanism').tooltip("机械动力：无限构件")
+    event.create('clgs_electrode')
+    event.create("thermotolerant_dish")
+    event.create("kubejs:clgs")
+    event.create("measurement_pv_cell")
+    event.create("pv_drone_research_1")
+    event.create("pv_drone_research_2")
+    event.create("pv_drone_research_3")
+    event.create("pv_drone_research_4")
+    event.create("colorful_soc").tooltip("完美的色彩在此流动")
+
 })
 StartupEvents.registry("item", event => {
+    event.create("scp_500_base", "basic").food(food => {
+        food.alwaysEdible(true)
+        food.effect("minecraft:regeneration", 999, 10, 1)
+        food.effect("minecraft:resistance", 999, 3, 1)
+        food.fastToEat(true)
+        food.eaten(ctx => {
+            Utils.server.runCommandSilent('title @p title {"text":"你在短时间内你将获得强大的恢复能力","color":"red"}');
+        })
+    })
     event.create("scp_500", "basic").food(food => {
         food.alwaysEdible(true)
         food.effect("minecraft:regeneration", 999, 10, 1)
@@ -175,7 +203,8 @@ StartupEvents.registry("item", event => {
         food.fastToEat(true)
         food.eaten(ctx => {
             Utils.server.runCommandSilent('medical_condition clear @p');
-            Utils.server.runCommandSilent('title @p title {"text":"你的所有疾病已被治愈，在短时间内你将获得强大的恢复能力","color":"red"}');
+            Utils.server.runCommandSilent('title @p title {"text":"你的所有疾病已被治愈","color":"green"}');
+            Utils.server.runCommandSilent('title @p subtitle {"text":"在短时间内你将获得强大的恢复能力","color":"red"}');
         })
     })
 })
@@ -195,14 +224,6 @@ StartupEvents.registry("block", event => {
         .tagBlock("mineable/pickaxe")
         .tagBlock("create:casing")
         .requiresTool(true)
-    event.create('shielded_reactor_casing', 'basic')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("forge:mineable/wrench")
-        .requiresTool(true)
-        .textureAll("kubejs:block/shielded_reactor_casing")
     event.create('iridium_casing', 'basic')
         .noValidSpawns(true)
         .soundType("metal")

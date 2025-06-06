@@ -943,9 +943,10 @@
 		{
 			dependencies: ["002DD1BBAD2D049F"]
 			id: "29A976DE3BC32AD2"
+			subtitle: "工业时代"
 			tasks: [{
-				id: "377CC6C13700A490"
-				item: "gtceu:mana_reactor"
+				id: "50B23C8832458101"
+				item: "ctnhcore:mana_reactor"
 				type: "item"
 			}]
 			x: 12.0d
@@ -970,6 +971,54 @@
 				type: "item"
 			}]
 			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["012D04F8C8D62292"]
+			id: "5CBD492382663563"
+			subtitle: "它需要吞噬下界之星"
+			tasks: [{
+				id: "62D888B36EB79FB8"
+				item: "mythicbotany:wither_aconite"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["012D04F8C8D62292"]
+			id: "624C3E50891C8F25"
+			subtitle: "看样子你需要弄到一些潜影贝"
+			tasks: [{
+				id: "45664DE1D2B98116"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["012D04F8C8D62292"]
+			id: "54055844D167421C"
+			subtitle: "销毁屠宰场产生的过量经验"
+			tasks: [{
+				id: "3365CF2A5AEECCB4"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2755F78FE5290FC2"]
+			id: "09AB5A78764CC3F7"
+			subtitle: "神"
+			tasks: [{
+				id: "7381CFE03BF65333"
+				item: "gtceu:gaia_reactor"
+				type: "item"
+			}]
+			x: 14.5d
 			y: 1.5d
 		}
 	]

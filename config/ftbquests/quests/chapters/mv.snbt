@@ -354,7 +354,9 @@
 			dependencies: [
 				"44D70AFBA18CA0E4"
 				"22A82D3281551181"
+				"3E53190CE94A4E38"
 			]
+			dependency_requirement: "one_completed"
 			id: "5A55D491F0E9F389"
 			rewards: [
 				{
@@ -370,6 +372,7 @@
 					type: "command"
 				}
 			]
+			subtitle: "只需要完成一个前置任务就可以做这个任务"
 			tasks: [{
 				id: "7BAD7E832FEF40F0"
 				item: "minecraft:ender_eye"
@@ -629,14 +632,8 @@
 				type: "command"
 			}]
 			tasks: [{
-				id: "0C901293ECFB769A"
-				item: {
-					Count: 1
-					id: "botania:flight_tiara"
-					tag: {
-						variant: 0
-					}
-				}
+				id: "5B98F8342CFB3E30"
+				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
 			x: 8.0d
@@ -993,6 +990,19 @@
 			}]
 			x: 5.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["063155FDDF799750"]
+			id: "3E53190CE94A4E38"
+			subtitle: "跳过任务线"
+			tasks: [{
+				count: 12L
+				id: "76ACB99BED534645"
+				item: { Count: 12, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
 		}
 	]
 	title: "{ftbquests.chapter.mv.title}"

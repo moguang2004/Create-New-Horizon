@@ -1654,6 +1654,30 @@
 			x: -1.0d
 			y: 10.5d
 		}
+		{
+			dependencies: [
+				"3035A92235772F73"
+				"1477D22EEBD4B677"
+			]
+			description: ["记得按W查看用法"]
+			id: "105D45F86A0B3A55"
+			subtitle: "这玩意，熟悉的感觉"
+			tasks: [
+				{
+					count: 8L
+					id: "683C307DC2DF01E0"
+					item: "createmetallurgy:industrial_crucible"
+					type: "item"
+				}
+				{
+					id: "7C9246DFEBDF0465"
+					item: "createmetallurgy:foundry_unit"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 20.0d
+		}
 	]
 	title: "{ftbquests.chapter.4408EF6F9E2E1624.title}"
 }

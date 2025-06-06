@@ -1,0 +1,12 @@
+name = "Jack's Economy (Create Edition)"
+filename = "jackseconomy-1.3.0-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d573f6f4c294177ae8d5ef535aaccf8426cb6efe"
+url = "https://edge.forgecdn.net/files/5331/495/jackseconomy-1.3.0-all.jar"
+
+[update.curseforge]
+file-id = 5331495
+project-id = 911431

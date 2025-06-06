@@ -1,0 +1,12 @@
+name = "Observable"
+filename = "observable-4.4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c8a0ae25512d0cedef478df411c87e43703ae237"
+url = "https://edge.forgecdn.net/files/5643/037/observable-4.4.2.jar"
+
+[update.curseforge]
+file-id = 5643037
+project-id = 509575
