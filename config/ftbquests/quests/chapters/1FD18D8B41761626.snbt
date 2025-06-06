@@ -98,7 +98,9 @@
 		}
 		{
 			dependencies: ["11E7A04526A80439"]
+			description: ["你再把这玩意扔魔力反应器恐怕你的基地要上天了，用土法老方来解决吧:XD"]
 			id: "57CEAE5D84402572"
+			subtitle: "太有魔法了"
 			tasks: [{
 				id: "18A170147B873D26"
 				item: "gtceu:mana_infused_plus_dust"

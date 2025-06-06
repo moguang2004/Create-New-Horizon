@@ -318,8 +318,131 @@
 				item: "gtceu:samarium_dysprosium_terbium_permanent_magnet_alloy_ingot"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -4.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["6D8963683034165D"]
+			description: [
+				"至少是现在，即使使用保护气，你还需要高达15000秒的时间才能烧完这个金属，去使用等离子合金炉，拉满你所有的速度来挑战这种合金吧"
+				"未来也许会有其他方法？超维度等离子锻炉？谁知道CTNH会不会有这个东西？"
+			]
+			id: "26E3D132B95EA3B9"
+			rewards: [{
+				id: "0E4DB714E4B07B41"
+				item: "gtceu:quantum_alloy_ingot"
+				type: "item"
+			}]
+			subtitle: "在世界的终末才能炖完的合金"
+			tasks: [{
+				id: "795267626FCFBDB6"
+				item: "gtceu:molten_quantum_alloy_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"511D5305BC579F35"
+				"26E3D132B95EA3B9"
+			]
+			description: [
+				"注意：这个方程确实有基础值，你可以查kjs来看到add_data里填写的基础值，但是为了给你点小惊喜，这个机器会在基础值的很大范围内随机波动。所以承受这次折磨吧：XD"
+				""
+				"&4PS:我并不保证它的稳定性，如果有BUG无法使用请向我反馈&r"
+			]
+			id: "072DDED1FC323DB9"
+			rewards: [{
+				id: "499C0B5682E9083F"
+				item: "kubejs:general_circuit_uev"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "来吧，你必须挑战"
+			tasks: [{
+				id: "6C94783B028F4EFB"
+				item: "ctnhcore:neruo_martix_compiler"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"072DDED1FC323DB9"
+				"61AE610609BFCBDC"
+				"2FA53E0988807E71"
+			]
+			description: [
+				"你的焊锡理所当然地不能再支撑住接下来的建筑了，你需要一种可以根据情况自主调整的合金。"
+				""
+				"可惜这里没有活性突变焊料，不过你已经想好了更疯狂的存在——活体金属"
+				""
+				"制作它需要先制作出未编译的版本，然后使用数据集和电路板来辅助编译，然后使用燃料来进行激活。塔兰燃料作为高能燃料固然不错，但是充能硅岩基MKIII燃料的巨大能量能迅速加速这一过程"
+				""
+				"当然你要先用编译器来获得数据集，你将在这之前被困于无尽的小作文地狱，Have Fun!(not)"
+			]
+			id: "76CF88C9EBEDE0EF"
+			rewards: [{
+				id: "43009B07932074EC"
+				item: "gtceu:charged_silica_rock_based_fluid_fuel_mk_iii_bucket"
+				type: "item"
+			}]
+			subtitle: "这确实很疯狂，但确实够疯狂"
+			tasks: [
+				{
+					id: "62D2FA9556F610E5"
+					item: "gtceu:living_metal_bucket"
+					type: "item"
+				}
+				{
+					id: "28E2591A713FD3FD"
+					item: "gtceu:living_metal_pre_bucket"
+					type: "item"
+				}
+				{
+					id: "215053F0075867BA"
+					item: {
+						Count: 1
+						id: "ctnhcore:research_dataset_lm"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "蠕动，蠕动......"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["511D5305BC579F35"]
+			id: "61AE610609BFCBDC"
+			rewards: [{
+				id: "363A7BAF60A2FBDD"
+				item: "gtceu:abyssalalloy_hex_wire"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7CAE239552A17955"
+				item: "ctnhcore:abyssalalloy_coil_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "2FA53E0988807E71"
+			subtitle: "如果给它加上通流琥珀金的话它的化学式能突破4行吗"
+			tasks: [{
+				id: "261ECDFDB31BA34D"
+				item: "gtceu:radiation_sight_alloy_inf_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
 		}
 	]
 	title: "{ftbquests.chapter.uhv.title}"

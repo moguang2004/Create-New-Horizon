@@ -1291,6 +1291,7 @@
 				"08AE2ABB1248EB22"
 				"01C6E42C3A2CD71B"
 			]
+			dependency_requirement: "one_completed"
 			id: "3786456D98520C42"
 			tasks: [{
 				id: "22AC674057BF66B0"
@@ -1306,6 +1307,7 @@
 				"4621D3570BFF6D64"
 				"5E26659E0AAF852A"
 			]
+			dependency_requirement: "one_completed"
 			id: "04CED50A5D7434CE"
 			tasks: [{
 				id: "5562405A7AECDC91"
@@ -1320,7 +1322,9 @@
 				"30A047CA07E56044"
 				"36707EABE35EE4A1"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
+			hide_details_until_startable: true
 			id: "11091A0414B528CC"
 			tasks: [{
 				id: "2374F1C8986BC29E"
@@ -1336,6 +1340,7 @@
 				"2ABB6571FA2367C6"
 				"7A5FD21873050AFA"
 			]
+			dependency_requirement: "one_completed"
 			id: "27BE8B7164A2DA98"
 			tasks: [{
 				id: "3D2FCC1351DDBFC9"

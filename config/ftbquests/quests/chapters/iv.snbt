@@ -84,7 +84,7 @@
 				item: "gtnn:t3_chip"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -4.5d
 		}
 		{
@@ -101,7 +101,7 @@
 				item: "gtnn:heavy_ingot_t3"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -6.5d
 		}
 		{
@@ -137,7 +137,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -156,7 +156,7 @@
 				title: "{ftbquests.chapter.iv.quest7.task_+1574147633237299094.title}"
 				type: "dimension"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -279,7 +279,7 @@
 				title: "{ftbquests.chapter.iv.quest15.task_+3488244528875586400.title}"
 				type: "dimension"
 			}]
-			x: 6.5d
+			x: 8.5d
 			y: -6.5d
 		}
 		{
@@ -659,7 +659,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: -6.5d
 		}
 		{
@@ -1837,6 +1837,28 @@
 			}]
 			x: 4.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["63F5094821C731CA"]
+			id: "2DDF9BCE967C0ABC"
+			subtitle: "千万GT牢员工看到巨冰时期流下的泪水"
+			tasks: [{
+				id: "1B5D767986AD8DD8"
+				item: "ctnhcore:cryotheum_freezer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			id: "7EAB9AAF4C5E198B"
+			tasks: [{
+				id: "0F21E7918034A346"
+				title: "用机械动力可以显著减少外壳价格，真的("
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.0d
 		}
 	]
 	title: "{ftbquests.chapter.iv.title}"
