@@ -704,5 +704,8 @@
     "material.gtceu.quantum_alloy": "量子合金",
     "material.gtceu.radiation_sight_alloy_inf": "辐射视距合金-∞",
     "material.gtceu.nami_c": "纳米级沉积碳",
-    "material.gtceu.living_metal_pre": "未激活态活体金属"
+    "material.gtceu.living_metal_pre": "未激活态活体金属",
+    "material.gtceu.alkaline_complex_ore_slurry": "碱性复合矿液",
+    "material.gtceu.alkaline_slag": "碱液滤渣",
+    "material.gtceu.strontium_chloride": "氯化锶"
 }

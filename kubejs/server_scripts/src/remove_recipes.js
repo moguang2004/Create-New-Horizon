@@ -287,4 +287,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:combustion_generator/diesel" })
     event.remove({ id: "gtceu:combustion_generator/biodiesel" })
     event.remove({ id: "gtceu:combustion_generator/cetane_diesel" })
+    event.remove({ id: "gtceu:gas_turbine/benzene" })
+    event.remove({ id: "gtceu:gas_turbine/nitrobenzene" })
+    event.remove({ id: "gtceu:electric_blast_furnace/iro2" })
 })
