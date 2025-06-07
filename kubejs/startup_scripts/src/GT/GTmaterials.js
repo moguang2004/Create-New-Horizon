@@ -1647,6 +1647,15 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create('living_metal_pre')
         .liquid()
         .color(0XC0C0C0)
+    event.create("alkaline_complex_ore_slurry")
+        .liquid()
+        .color(0x40E0D0)
+    event.create("alkaline_slag")
+        .dust()
+        .color(0x505050)
+    event.create("strontium_chloride")
+        .dust()
+        .color(0xFFC0CB)
 
 })
 
@@ -1729,4 +1738,5 @@ StartupEvents.postInit(event => {
     setFormula('aeternium', "AT")
     setFormula('lapotron', "⬟")
     setFormula("living_metal_pre", "Sn?Pb?&LMα")
+    setFormula("strontium_chloride", "SrCl2")
 })
