@@ -118,7 +118,7 @@ ServerEvents.recipes(event =>{
         .inputFluids(Fluid.of('gtceu:nitrochlorobenzene',1000))
         .inputFluids(Fluid.of('gtceu:ammonia',2000))
         .outputFluids(Fluid.of('gtceu:nitroaniline',1000))
-        .itemOutputs('gtceu:ammonium_chloride_dust')
+        .outputFluids(Fluid.of('gtceu:ammonium_chloride', 1000))
         .duration(60)
         .EUt(480)
 
@@ -142,7 +142,7 @@ ServerEvents.recipes(event =>{
         .itemInputs('4x gtceu:polytetrafluoroethylene_foil')
         .itemInputs('4x gtceu:para_aramid_foil')
         .itemInputs('4x gtceu:polyphenylene_sulfide_foil')
-        .itemInputs('4x gtceu:fiber_glass_dust')
+        .inputFluids('gtceu:fiber_glass 576')
         .itemOutputs('kubejs:space_fabric')
         .duration(100).EUt(480)
 })

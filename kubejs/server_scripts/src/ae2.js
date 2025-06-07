@@ -435,8 +435,8 @@ ServerEvents.recipes(event => {
         "ae2additions:cells/super/256k",
         "ae2additions:cells/super/1024k",
         "ae2additions:cells/super/4096k",
-        "ae2additions:cells/super/16384k",
-        "ae2additions:cells/super/65536k",
+        "ae2additions:cells/super/16m",
+        "ae2additions:cells/super/65m",
         "bigger_ae2:4_core_crafting_accelerator",
         "bigger_ae2:16_core_crafting_accelerator",
         "bigger_ae2:64_core_crafting_accelerator",
@@ -528,4 +528,11 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x gtceu:quartz_glass_dust')
         .EUt(30)
         .duration(80)
+    event.recipes.gtceu.mixer('fluix_crystal')
+        .itemInputs(['ae2:charged_certus_quartz_crystal', 'minecraft:redstone', 'minecraft:quartz'])
+        .inputFluids('minecraft:water 250')
+        .itemOutputs('2x ae2:fluix_crystal')
+        .EUt(120)
+        .duration(60)
+    event.recipes.create.mixing('2x gtceu:quartz_glass_dust', ['gtceu:certus_quartz_dust', 'gtceu:glass_dust']).heated()
 })
