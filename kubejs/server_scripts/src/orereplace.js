@@ -135,4 +135,6 @@ ServerEvents.recipes(event => {
         event.replaceInput({id:runeid},'minecraft:netherite_scrap','minecraft:netherite_ingot')
         event.replaceInput({id:runeid},'bloodmagic:etherealslate','kubejs:endslate')
     })
+    event.replaceInput({}, "#forge:storage_blocks/nether_star", "gtceu:nether_star_block")
+    event.replaceOutput({}, "#forge:storage_blocks/nether_star", "gtceu:nether_star_block")
 })
