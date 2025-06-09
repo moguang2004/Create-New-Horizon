@@ -193,7 +193,7 @@ StartupEvents.registry("item", event => {
         food.effect("minecraft:resistance", 999, 3, 1)
         food.fastToEat(true)
         food.eaten(ctx => {
-            Utils.server.runCommandSilent('title @p title {"text":"你在短时间内你将获得强大的恢复能力","color":"red"}');
+            Utils.server.runCommandSilent('title @s title {"text":"你在短时间内你将获得强大的恢复能力","color":"red"}');
         })
     })
     event.create("scp_500", "basic").food(food => {
@@ -203,8 +203,8 @@ StartupEvents.registry("item", event => {
         food.fastToEat(true)
         food.eaten(ctx => {
             Utils.server.runCommandSilent('medical_condition clear @p');
-            Utils.server.runCommandSilent('title @p title {"text":"你的所有疾病已被治愈","color":"green"}');
-            Utils.server.runCommandSilent('title @p subtitle {"text":"在短时间内你将获得强大的恢复能力","color":"red"}');
+            Utils.server.runCommandSilent('title @s title {"text":"你的所有疾病已被治愈","color":"green"}');
+            Utils.server.runCommandSilent('title @s subtitle {"text":"在短时间内你将获得强大的恢复能力","color":"red"}');
         })
     })
 })
