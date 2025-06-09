@@ -1118,7 +1118,7 @@ hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "f0e12ff72181447cc0a5d1091fc5d33b25494b3504cf8f26e7398671957209bd"
+hash = "0e5d29b939afea01e6ecd73b243563317b9715d291a6db7513a09a653baeeae8"
 
 [[files]]
 file = "config/fancymenu/assets/2024-08-19_19.51.04.png"
@@ -1386,7 +1386,7 @@ hash = "bc0f0867b75c4d87340b9c8a74a236979c39edd1400f05ae3e1e486107d22b8d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "c6d108d27bddf3fba8e96bf5e0a918cc5653e3cc079f674346a51d0a2eb4fc53"
+hash = "9e587eb8a2ad51fcea6e04c0572a3bf54ac7e8f2008df4333f7d9c6484715f96"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
@@ -1646,7 +1646,7 @@ hash = "b307d669b8156e563f1c970a0b9b5b456eba3ecb6bdee92bdb098d129631e288"
 
 [[files]]
 file = "config/jackseconomy_prices.json"
-hash = "90debda06f7325c7ac25e185ed43ac41758624dc0ec69666385d2de603ac0753"
+hash = "47353dd6194366e613224a4d365e8f0fbf65b463da80cbf2f6b2dc6390f60a47"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -1686,7 +1686,7 @@ hash = "e857597972887f1a9e544b2b49336bd71447ee341ea133758021690707ec3ab9"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "cbd8b9ef6c2dc5ea25b58d0a307b5989824f4f7607a74c0f72c72320bb8ab4ae"
+hash = "eb5bc09486aaff5b18e21d9b8310b4f2543ffa31b5c39e841e6ca5b55f66c1f3"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1714,7 +1714,7 @@ hash = "90a08afe5dc5b0c9d5f6ff0ab74621a62686a89f8f616711c4f633aed034e30d"
 
 [[files]]
 file = "config/jei/world/local/6_0/bookmarks.ini"
-hash = "9347fb48425db3b35e22568d44ed2579f143986b456814a1265fbb88c259cd74"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/world/local/Worldgen/bookmarks.ini"
@@ -1906,7 +1906,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "74e60ab707b7b94b91f3cc703bd18347ae139f2e0dcb927a5f32df19e72c874b"
+hash = "8db108abbb70bf1981dc885084404db82f7c59d0c2e360b6891071739e6b2b47"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -2034,11 +2034,11 @@ hash = "893ed66a30517836ddbde21bf4ab5d5ac5d47e04166e77c41f4405e806aa088d"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "569a2379cb4e9041d0af2952332ba76ce46d10b28fa3e69b5e6553cad57e668d"
+hash = "d24d75ce8dd010d1f95977a47a48de864f63bf20e0921077c978d90e07cd4a75"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "a69af49ce636914f9ecde4d48d8db952313979e52fc6f6e23bb54d0723369fe1"
+hash = "3d1ed9207b531df0768a9ba92f2a54ae403b761780d3469fa0e08bc7bd6d2991"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2174,7 +2174,7 @@ hash = "925f4b0693e50c90bcb7ba02fb5dd3b6e9b5be7039d37dbb9c4317f255868c33"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "a4c13e76500473fe8d555225022542d0ef89708c3d885e233dca15f91e437774"
+hash = "b54c6eedcb752d1235c6ea60dc365d4d1621c4c80768faaac4347e76d4e10a13"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -8522,7 +8522,7 @@ metafile = true
 
 [[files]]
 file = "mods/jacks-economy-ctnhfork.pw.toml"
-hash = "3165c06c2a3fbe4379910615635fb88cc61f6efb3c53d3e6851793aaab334d1c"
+hash = "27aa812456576f56073acc34606f49ddb801631070f3c41d425231181436e5ed"
 metafile = true
 
 [[files]]
@@ -9084,6 +9084,10 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "fcc74e53e0152eb6cad879fdd3bafccb610728cb50792fe9686d3a0c0cba5b52"
 metafile = true
+
+[[files]]
+file = "resourcepacks/Minecraft-Mod-Language-Modpack-1-20.zip"
+hash = "dfde1a6f7f0d1c930e045a86f61658577267b7808885944e7a9d2f86f8e42794"
 
 [[files]]
 file = "tlm_custom_pack/genshin_impact-1.1.6.zip"
