@@ -135,7 +135,7 @@ ServerEvents.recipes(event => {
         })
     event.recipes.gtceu.assembler('gtceu:assembly_line_casing_1')
         .itemOutputs('8x gtceu:assembly_line_casing')
-        .itemInputs('8x #gtceu:circuits/zpm')
+        .itemInputs('8x #gtceu:circuits/luv')
         .itemInputs('8x #gtceu:circuits/uv')
         .itemInputs('8x gtceu:tungsten_steel_frame')
         .circuit(1)

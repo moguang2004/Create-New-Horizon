@@ -4230,7 +4230,7 @@ hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/zh_cn.json"
-hash = "e23edb8195ba5d9d512959937cfc78959562136929c9161d87b4936148dbc60e"
+hash = "cc18ae62d8769130962c21ed3cfb64977f6443aac3b1888a17771ef43187bf0c"
 
 [[files]]
 file = "kubejs/assets/gtceu/textures/block/machines/inscriber/overlay_front.png"
@@ -7366,7 +7366,7 @@ hash = "1f6dc6355f33a8892f67beb78a5257a1af31ffaac4e459a49b34e07e939915cc"
 
 [[files]]
 file = "kubejs/server_scripts/src/80extend.js"
-hash = "052505ad2b526664bdaec7e8bf54c160e5643d44189ddf0a535ea178fdff1a1b"
+hash = "092586b1635edf795829d9280d9f9781405f43c61f64f5dfd22c679b50e2949e"
 
 [[files]]
 file = "kubejs/server_scripts/src/Debug/Debug.js"
@@ -7526,7 +7526,7 @@ hash = "32a424c26da27b8a3331629028eb0fe9974d2f30ed76c0de50fe5dcb4dbc2612"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/ColorfulsocChain.js"
-hash = "86aad89c8121968e7c5273156de9ecf432ec0757338afe40ddc27a74e06d1c66"
+hash = "6758b283b9cb2ab124791038ac39de0f6e29b731d8b943a04ff9c4f731cfb6d3"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/CrystalChain.js"
@@ -7606,7 +7606,7 @@ hash = "e84620880f2ddd2e4e1dc23af7ca497aefe9ed200752d44bbf1d67a7ac015b2d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "fdb2d5fa5ba4dcbed7e70f660f5907ea4afd1f4950e2f6e4d2b3702943e79fe3"
+hash = "15f03cad32b08cdc433cfc8742836e3f47ced074460d6fbe77fe37b44e8b1444"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
@@ -7650,7 +7650,7 @@ hash = "3c4fdf25fc19c312e9b2c2077808d8aaf215a9a5a3b8febe4745a9a07a55ab54"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "be24fa4422e3473b99fe07ede9ceb17c31086969e545c5495fecce5ab38bc873"
+hash = "9450a4282fb5caa409fa8b9eac8e8b47a9dc83844488ce23c6fe4c8b5cfad1b6"
 
 [[files]]
 file = "kubejs/server_scripts/src/smithing.js"
@@ -7662,7 +7662,7 @@ hash = "4aa06e7bfc04e552e8d6e18726177d4b0b52d1682f260cc8f847f364f3bbdad8"
 
 [[files]]
 file = "kubejs/server_scripts/src/sun.js"
-hash = "a21ea89fdf9e2c96a2608f03f2579f8168cc667b1df0eb5d7e9eebf3c516aa70"
+hash = "b9d8d5770abfc0719ef70349821196f1f939af0a000fe55b5210a6972affab99"
 
 [[files]]
 file = "kubejs/server_scripts/src/tag.js"
@@ -7686,7 +7686,7 @@ hash = "8d6f541b5ffb92dd1c0796f6d66b68273aa6759b855dd1714ef8f67afd723240"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTmaterials.js"
-hash = "8284cf0e6f0fdb280a55c525e29960926e2c7605b175452971d3759a9236eed5"
+hash = "3abf96c24bae518fa18e65c77b62013ba8a2a329977b8b5c047382b34784a403"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTrecipetypes.js"
@@ -7746,7 +7746,7 @@ hash = "74155bdc794aa0a03f9ff98352fef4ecf738052ad2cd540805902a3be176441c"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
-hash = "b359371ec62d011747469bcc03c1bab502eab120df1776c42bc190ebd946fca1"
+hash = "63740fed7c965a4b5433c533fe566122e4f5987fd2f6bc6863d5c8512c612ab7"
 
 [[files]]
 file = "kubejs/startup_scripts/src/test.js"
@@ -8522,7 +8522,7 @@ metafile = true
 
 [[files]]
 file = "mods/jacks-economy-ctnhfork.pw.toml"
-hash = "a736649d1f4ffa78ecbcdac2ccca11cc552942d95a1fbeba26c26f6b8832b604"
+hash = "3165c06c2a3fbe4379910615635fb88cc61f6efb3c53d3e6851793aaab334d1c"
 metafile = true
 
 [[files]]
@@ -9084,10 +9084,6 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "fcc74e53e0152eb6cad879fdd3bafccb610728cb50792fe9686d3a0c0cba5b52"
 metafile = true
-
-[[files]]
-file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip"
-hash = "a0b9efd8aad065be2fd92d19857fe1c6a383ff8913a0e3812723fbb317231a5e"
 
 [[files]]
 file = "tlm_custom_pack/genshin_impact-1.1.6.zip"
