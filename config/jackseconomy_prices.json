@@ -1,30 +1,1151 @@
 {
   "items": [
     {
-      "item": "minecraft:diamond",
-      "type": "prices",
-      "adminShopSellPrice": 45.0,
-      "sellPrice": 50.0,
-      "importerBuyPrice": 100.0
+      "item": "farmersdelight:chicken_sandwich",
+      "sellPrice": 10.0,
+      "type": "prices"
     },
     {
-      "item": "minecraft:diamond",
+      "item": "farmersdelight:hamburger",
+      "sellPrice": 15.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:bacon_sandwich",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:mutton_wrap",
+      "sellPrice": 8.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:dumplings",
+      "sellPrice": 6.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:stuffed_potato",
+      "sellPrice": 7.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cabbage_rolls",
+      "sellPrice": 3.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:salmon_roll",
+      "sellPrice": 8.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cod_roll",
+      "sellPrice": 8.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:kelp_roll",
+      "sellPrice": 6.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:kelp_roll_slice",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cooked_rice",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:bone_broth",
+      "sellPrice": 4.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:beef_stew",
+      "sellPrice": 9.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:chicken_soup",
+      "sellPrice": 8.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:vegetable_soup",
+      "sellPrice": 7.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:fish_stew",
+      "sellPrice": 8.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:fried_rice",
+      "sellPrice": 20.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:pumpkin_soup",
+      "sellPrice": 6.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:baked_cod_stew",
+      "sellPrice": 8.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:noodle_soup",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:bacon_and_eggs",
+      "sellPrice": 4.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:pasta_with_meatballs",
+      "sellPrice": 13.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:roast_chicken",
+      "sellPrice": 7.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:pasta_with_mutton_chop",
+      "sellPrice": 14.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:mushroom_rice",
+      "sellPrice": 8.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:roasted_mutton_chops",
+      "sellPrice": 20.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:vegetable_noodles",
+      "sellPrice": 20.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:steak_and_potatoes",
+      "sellPrice": 15.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:ratatouille",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:squid_ink_pasta",
+      "sellPrice": 20.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:grilled_salmon",
+      "sellPrice": 14.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:roast_chicken_block",
+      "sellPrice": 28.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cabbage",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:tomato",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:onion",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:pumpkin_slice",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:rice",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "culturaldelights:smoked_tomato",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:wheat_dough",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:raw_pasta",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:minced_beef",
+      "sellPrice": 0.75,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:chicken_cuts",
+      "sellPrice": 0.75,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:bacon",
+      "sellPrice": 0.75,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:mutton_chops",
+      "sellPrice": 0.75,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:beef_patty",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cooked_chicken_cuts",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cooked_bacon",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cooked_mutton_chops",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:beef",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:chicken",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:porkchop",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:mutton",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:ham",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:smoked_ham",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:pie_crust",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:apple_pie",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:apple_pie_slice",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake_slice",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:chocolate_pie",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:chocolate_pie_slice",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:sweet_berry_cookie",
+      "sellPrice": 0.2,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:honey_cookie",
+      "sellPrice": 0.3,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:melon_popsicle",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:glow_berry_custard",
+      "sellPrice": 6.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:fruit_salad",
+      "sellPrice": 6.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:mixed_salad",
+      "sellPrice": 2.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:nether_salad",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:barbecue_stick",
+      "sellPrice": 2.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:egg_sandwich",
+      "sellPrice": 6.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:stuffed_pumpkin_block",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:stuffed_pumpkin",
+      "sellPrice": 2.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:honey_glazed_ham_block",
+      "sellPrice": 12.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:honey_glazed_ham",
+      "sellPrice": 3.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:shepherds_pie_block",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:shepherds_pie",
+      "sellPrice": 2.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:rice_roll_medley_block",
+      "sellPrice": 50.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:beetroot",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:egg",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:fried_egg",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:beetroot_soup",
+      "sellPrice": 3.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:cooked_chicken",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:cooked_mutton",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:cooked_porkchop",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:brown_mushroom",
+      "sellPrice": 0.2,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:red_mushroom",
+      "sellPrice": 0.2,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:crimson_fungus",
+      "sellPrice": 0.2,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:warped_fungus",
+      "sellPrice": 0.2,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:glow_berries",
+      "sellPrice": 0.3,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:apple",
+      "sellPrice": 0.3,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "sellPrice": 20.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:melon_slice",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:chorus_fruit",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:carrot",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:golden_carrot",
+      "sellPrice": 5.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:potato",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:baked_potato",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:dried_kelp",
+      "sellPrice": 0.2,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:rabbit",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:cooked_rabbit",
+      "sellPrice": 3.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:cod",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:cooked_cod",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:salmon",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:cooked_salmon",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:tropical_fish",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:pufferfish",
+      "sellPrice": 0.6,
+      "type": "prices"
+    },
+    {
+      "item": "oceansdelight:fugu_slice",
+      "sellPrice": 0.1,
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 500000.0,
+      "item": "minecraft:bread",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:cookie",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:pumpkin_pie",
+      "sellPrice": 4.0,
+      "type": "prices"
+    },
+    {
+      "item": "create_central_kitchen:pumpkin_pie_slice",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:cake",
+      "sellPrice": 7.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:mushroom_stew",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "sellPrice": 0.05,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "sellPrice": 0.2,
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:rabbit_stew",
+      "sellPrice": 5.0,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cod_slice",
+      "sellPrice": 0.25,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cooked_cod_slice",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:salmon_slice",
+      "sellPrice": 0.25,
+      "type": "prices"
+    },
+    {
+      "item": "farmersdelight:cooked_salmon_slice",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:hydra_piece",
+      "sellPrice": 15.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightforest:hydra_chop",
+      "sellPrice": 30.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightforest:raw_venison",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:raw_venison_rib",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:cooked_venison_rib",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightforest:raw_meef",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:raw_meef_slice",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:cooked_meef_slice",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:raw_tomahawk_smeak",
+      "sellPrice": 4.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:cooked_tomahawk_smeak",
+      "sellPrice": 6.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:raw_insect",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:cooked_insect",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:torchberry_cookie",
+      "sellPrice": 0.3,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:naga_chip",
+      "sellPrice": 5.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightforest:maze_wafer",
+      "sellPrice": 0.3,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:chocolate_wafer",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:experiment_113",
+      "sellPrice": 8.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:chocolate_113",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:milky_113",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:glow_113",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:honey_113",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:experiment_110",
+      "sellPrice": 30.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:meef_wrap",
+      "sellPrice": 8.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:ghast_burger",
+      "sellPrice": 20.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:hydra_burger",
+      "sellPrice": 25.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:berry_stick",
+      "sellPrice": 1.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:glowstew",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:mushgloom_sauce",
+      "sellPrice": 1.5,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:glow_venison_rib_with_pasta",
+      "sellPrice": 5.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:mushgloom_meef_pasta",
+      "sellPrice": 7.5,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:fried_insect",
+      "sellPrice": 2.5,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:thousand_plant_stew",
+      "sellPrice": 3.33,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:grilled_ghast",
+      "sellPrice": 15.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:grilled_tomahawk_smeak",
+      "sellPrice": 8.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:borer_tear_soup",
+      "sellPrice": 3.33,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:plate_of_lily_chicken",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:ghast_brain_salad",
+      "sellPrice": 40.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:lily_chicken_block",
+      "sellPrice": 40.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:meef_wellington_block",
+      "sellPrice": 88.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:plate_of_meef_wellington",
+      "sellPrice": 22.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:fiery_snakes_block",
+      "sellPrice": 40.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:plate_of_fiery_snakes",
+      "sellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:torchberry_pie_slice",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:torchberry_pie",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:aurora_pie_slice",
+      "sellPrice": 0.5,
+      "type": "prices"
+    },
+    {
+      "item": "twilightdelight:aurora_pie",
+      "sellPrice": 2.0,
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 25.0,
+      "item": "gtceu:steel_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 10.0,
+      "item": "minecraft:iron_ingot",
+      "adminShopSellPrice": 10.0,
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 8.0,
+      "item": "minecraft:copper_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "gtceu:bronze_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 15.0,
+      "item": "gtceu:wrought_iron_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 40.0,
+      "item": "minecraft:gold_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "botania:manasteel_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 50.0,
+      "item": "botania:elementium_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 5.0,
+      "item": "minecraft:flint",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 25.0,
+      "item": "gtceu:raw_aluminium",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 30.0,
+      "item": "gtceu:raw_bauxite",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 15.0,
+      "item": "gtceu:nickel_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 12.0,
+      "item": "gtceu:cobalt_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 45.0,
+      "item": "gtceu:basic_electronic_circuit",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 150.0,
+      "item": "gtceu:good_electronic_circuit",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 120.0,
+      "item": "gtceu:lv_assembler",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 120.0,
+      "item": "gtceu:lv_alloy_smelter",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 120.0,
+      "item": "gtceu:lv_bender",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 120.0,
+      "item": "gtceu:lv_centrifuge",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 120.0,
+      "item": "gtceu:lv_chemical_reactor",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 120.0,
+      "item": "gtceu:lv_electrolyzer",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 120.0,
+      "item": "gtceu:lv_wiremill",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 120.0,
+      "item": "gtceu:lv_macerator",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 120.0,
+      "item": "gtceu:lv_lathe",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 120.0,
+      "item": "gtceu:lv_combustion",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "create:gearbox",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 10.0,
+      "item": "create:large_cogwheel",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 5.0,
+      "item": "create:cogwheel",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "create:encased_chain_drive",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 30.0,
+      "item": "create:deployer",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 10.0,
+      "item": "create:andesite_funnel",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "create:brass_funnel",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 15.0,
+      "item": "create:andesite_tunnel",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 30.0,
+      "item": "create:brass_tunnel",
+      "type": "prices"
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "adminShopSlot": 0,
       "type": "adminshop",
-      "adminShopBuyPrice": 150.0,
-      "category": "General:Gems",
-      "adminShopSlot": 0
+      "category": "原材料:钢锭"
+    },
+    {
+      "importerBuyPrice": 8.0,
+      "item": "gtceu:tin_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 12.0,
+      "item": "gtceu:zinc_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "minecraft:ender_pearl",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 4.0,
+      "item": "minecraft:redstone",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "gtceu:brass_ingot",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 2.0,
+      "item": "gtceu:treated_wood_planks",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 8.0,
+      "item": "gtceu:coke_gem",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 4.0,
+      "item": "minecraft:coal",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 12.0,
+      "item": "minecraft:diamond",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "botania:rune_water",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "botania:rune_fire",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "botania:rune_earth",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "botania:rune_air",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 200.0,
+      "item": "gtceu:basic_integrated_circuit",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "kubejs:basic_mechanism",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 35.0,
+      "item": "create:precision_mechanism",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 50.0,
+      "item": "kubejs:steel_mechanism",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 100.0,
+      "nbt": {
+        "Damage": 0
+      },
+      "item": "kubejs:broken_temperature_keeping_device",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 30.0,
+      "item": "gtceu:chromium_dust",
+      "type": "prices"
+    },
+    {
+      "importerBuyPrice": 20.0,
+      "item": "gtceu:andesite_alloy_ingot",
+      "type": "prices"
     }
   ],
   "categories": [
     {
-      "item": "minecraft:dirt",
-      "name": "General",
+      "item": "gtceu:steel_ingot",
+      "name": "原材料",
       "categories": [
         {
-          "item": "minecraft:diamond",
-          "name": "Gems"
+          "item": "gtceu:steel_ingot",
+          "name": "钢锭"
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "name": "铁锭"
         }
       ]
+    },
+    {
+      "item": "gtceu:basic_electronic_circuit",
+      "name": "高科技产品",
+      "categories": []
     }
   ]
 }
