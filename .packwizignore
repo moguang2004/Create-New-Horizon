@@ -32,9 +32,8 @@ natives-*/
 /patchouli_data.json
 /patchouli_books/
 /.replay_cache/
+/mods/.connector/
 /mods/*.jar
-!/mods/CTNH*.jar
-!/mods/ctpp*.jar
 /*.jar
 /*.json
 /*.sh
