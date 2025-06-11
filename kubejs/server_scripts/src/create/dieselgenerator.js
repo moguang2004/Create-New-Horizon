@@ -184,7 +184,7 @@ CDGEvents.fuelTypes(event => {
     .modularSpeed(96).modularStrength(4096).modularBurn(1)
     .hugeSpeed(128).hugeStrength(10240).hugeBurn(1)
     .burnerStrength(0.5).build()
-  event.add('#forge:diesel')
+  event.add('gtceu:diesel')
     .soundSpeed(1)
     .normalSpeed(96).normalStrength(28800).normalBurn(1)
     .modularSpeed(96).modularStrength(32000).modularBurn(1)

@@ -5,6 +5,10 @@ file = "${quickPlayPath}"
 hash = "add1c64bbe5e2cc048e7f7468a2883f3dbbffdea709447233dcca6af6ca15e3f"
 
 [[files]]
+file = "Changelog"
+hash = "9f7570fa6435f0fe0d81347986c0f64ecb8a131891d9fe51a5de3df61fdb46ca"
+
+[[files]]
 file = "TrashSlotSaveState.json"
 hash = "5f74be1261e4bf47353e4cd7d676ba81d8782b345f0652ba25850c468cd681ee"
 
@@ -1122,7 +1126,7 @@ hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "c9bfce650cc32c7c81abf33834fb6aa15bb61a709af2dee3bbb3793aced39318"
+hash = "de6b4f9e24baceaadf376b6953ee504354453b98e13265d289d98639dd0f7075"
 
 [[files]]
 file = "config/fancymenu/assets/2024-08-19_19.51.04.png"
@@ -1690,7 +1694,7 @@ hash = "e857597972887f1a9e544b2b49336bd71447ee341ea133758021690707ec3ab9"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "a00a80f20a60b08591c7eb5435a5ddcc9d246feae2857d5280f5afc1d2a5ea7e"
+hash = "04aa987ff55a2be767d5038ee49e7da1240d61b3f5c02f156b9e72b8beca9bc9"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1910,7 +1914,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "27ff48dafe77f0ca8e065d4bb64abf3cc581ecc2b321a701efd6896a4743f762"
+hash = "443ba6cb91f6ad2996184553046debb26066aae6f6638e6e0e10946aa068adac"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -2046,11 +2050,11 @@ hash = "893ed66a30517836ddbde21bf4ab5d5ac5d47e04166e77c41f4405e806aa088d"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "17ae861dedf569a9180cdd98f44b4ddf5393ad32c90d4b34ccaf6aedac162d12"
+hash = "03a88b5f02b18de3343015f60901abadc817e9d282310348cd9d1e4fd0716c1e"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "f97c4634176c94cd23e108e9838e6246200581799126df8c05d2d5173dbb37ea"
+hash = "c7508e9d4bcfdb6e6476d0ef75a542530f37121a2ccdc557554dfe4669e3a030"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2186,7 +2190,7 @@ hash = "925f4b0693e50c90bcb7ba02fb5dd3b6e9b5be7039d37dbb9c4317f255868c33"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "d44155ad6524baf93af689dcc2f7bab16d1989475f4c91a88ee526687e4957ec"
+hash = "c63fa9862b71e4d7d39f0ba3c214ec8482c622d960574003eabe56dd021cbead"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -2267,6 +2271,14 @@ hash = "779fac3a609f2fcd96a1ac668b3769c4bb12a597ed0b2b66f9d9cc0455c3af3d"
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
+
+[[files]]
+file = "hotai/com/jesz/createdieselgenerators/events/ForgeEvents.badiff"
+hash = "1aecfd46d1562d180d7cad882a106b1a52f12953b1667202f82b22640c8d98db"
+
+[[files]]
+file = "hotai/com/jesz/createdieselgenerators/fuel_type/FuelTypeManager.badiff"
+hash = "036aa6c9c357be0cacba7d9d9cd43f829d51be169353f1be0176df26512ac104"
 
 [[files]]
 file = "hotai/net/acetheeldritchking/art_of_forging/effects/DismountingEffect.badiff"
@@ -7462,7 +7474,7 @@ hash = "38ca6b8aba2f28cb21d87e9bc8f3aeded65947b0236fa3836ef5c35ebd39edbb"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/dieselgenerator.js"
-hash = "e081f26a1e2c4aaa2177687bd20006677eb53c85f204fae84164abdda21c0379"
+hash = "4e4bf559f19557edc01fb99b2d42c33885d33a9216560fb5d4556787f7033bbc"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
@@ -7614,7 +7626,7 @@ hash = "e84620880f2ddd2e4e1dc23af7ca497aefe9ed200752d44bbf1d67a7ac015b2d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "19996fe88122e84e0e0f641233991ff67356497d23c040c8ca5805434abc3722"
+hash = "2d451725348ef0caa5f480823e95bc85f352b1da686a52e934c6d0281c227457"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
