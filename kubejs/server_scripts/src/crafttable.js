@@ -1032,7 +1032,7 @@ ServerEvents.recipes(event => {
             "B"
         ], {
             A: 'gtceu:ulv_input_bus',
-            B: 'expandedstorage:diamond_chest'
+            B: 'sophisticatedstorage:basic_to_diamond_tier_upgrade'
         })
 
     event.shaped(
@@ -1041,7 +1041,7 @@ ServerEvents.recipes(event => {
             "B"
         ], {
             A: 'gtceu:ulv_output_bus',
-            B: 'expandedstorage:diamond_chest'
+            B: 'sophisticatedstorage:basic_to_diamond_tier_upgrade'
         })
 
     event.shaped(

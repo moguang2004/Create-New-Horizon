@@ -5,6 +5,10 @@ file = "${quickPlayPath}"
 hash = "add1c64bbe5e2cc048e7f7468a2883f3dbbffdea709447233dcca6af6ca15e3f"
 
 [[files]]
+file = "Changelog"
+hash = "9f7570fa6435f0fe0d81347986c0f64ecb8a131891d9fe51a5de3df61fdb46ca"
+
+[[files]]
 file = "TrashSlotSaveState.json"
 hash = "5f74be1261e4bf47353e4cd7d676ba81d8782b345f0652ba25850c468cd681ee"
 
@@ -103,6 +107,10 @@ hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
 [[files]]
 file = "config/ae2additions-common.toml"
 hash = "0c3f29e54a5313bc9c883ae292e84f93c1609c744139de1ebc037f73c1d7deab"
+
+[[files]]
+file = "config/ae2ct-client.toml"
+hash = "c09aca12d93ddf1092b7004db3348ad0a959272c6c9cb1a6f9a8b946516bc9c2"
 
 [[files]]
 file = "config/aeroblender-common.toml"
@@ -1118,7 +1126,7 @@ hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "f0e12ff72181447cc0a5d1091fc5d33b25494b3504cf8f26e7398671957209bd"
+hash = "de6b4f9e24baceaadf376b6953ee504354453b98e13265d289d98639dd0f7075"
 
 [[files]]
 file = "config/fancymenu/assets/2024-08-19_19.51.04.png"
@@ -1386,7 +1394,7 @@ hash = "bc0f0867b75c4d87340b9c8a74a236979c39edd1400f05ae3e1e486107d22b8d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "c6d108d27bddf3fba8e96bf5e0a918cc5653e3cc079f674346a51d0a2eb4fc53"
+hash = "9e587eb8a2ad51fcea6e04c0572a3bf54ac7e8f2008df4333f7d9c6484715f96"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
@@ -1646,7 +1654,7 @@ hash = "b307d669b8156e563f1c970a0b9b5b456eba3ecb6bdee92bdb098d129631e288"
 
 [[files]]
 file = "config/jackseconomy_prices.json"
-hash = "90debda06f7325c7ac25e185ed43ac41758624dc0ec69666385d2de603ac0753"
+hash = "47353dd6194366e613224a4d365e8f0fbf65b463da80cbf2f6b2dc6390f60a47"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -1686,7 +1694,7 @@ hash = "e857597972887f1a9e544b2b49336bd71447ee341ea133758021690707ec3ab9"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "cbd8b9ef6c2dc5ea25b58d0a307b5989824f4f7607a74c0f72c72320bb8ab4ae"
+hash = "04aa987ff55a2be767d5038ee49e7da1240d61b3f5c02f156b9e72b8beca9bc9"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1710,11 +1718,11 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "90a08afe5dc5b0c9d5f6ff0ab74621a62686a89f8f616711c4f633aed034e30d"
+hash = "8cd511402d4c626e2952a5ee33e83df8a063bf8271a8020ea7335911b5583246"
 
 [[files]]
 file = "config/jei/world/local/6_0/bookmarks.ini"
-hash = "9347fb48425db3b35e22568d44ed2579f143986b456814a1265fbb88c259cd74"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/world/local/Worldgen/bookmarks.ini"
@@ -1906,7 +1914,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "74e60ab707b7b94b91f3cc703bd18347ae139f2e0dcb927a5f32df19e72c874b"
+hash = "443ba6cb91f6ad2996184553046debb26066aae6f6638e6e0e10946aa068adac"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -2022,7 +2030,15 @@ hash = "06813199751af809ce5043408f99066b30dccfa72b2597d74543dfa6b64e8d36"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "2b8fe27ad79414689b1933e4d7f7239941c4ea19700e25837114ae19bf4fb4f5"
+hash = "345396d5ceafdcec2f8e645635d6b2cb4211b8cf8114a124f1836b422987d642"
+
+[[files]]
+file = "config/sophisticatedstorage-client.toml"
+hash = "86630c911ef13831fe61e44e88dcc2a38c3ed7d2cf198da405fcd5e8bec6bafa"
+
+[[files]]
+file = "config/sophisticatedstorage-common.toml"
+hash = "55a7b289f6d2ecb116d39b385fb8a883f8317734dd42f3be16af11380e26c0a3"
 
 [[files]]
 file = "config/soul_fire_d-common.toml"
@@ -2034,11 +2050,11 @@ hash = "893ed66a30517836ddbde21bf4ab5d5ac5d47e04166e77c41f4405e806aa088d"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "569a2379cb4e9041d0af2952332ba76ce46d10b28fa3e69b5e6553cad57e668d"
+hash = "03a88b5f02b18de3343015f60901abadc817e9d282310348cd9d1e4fd0716c1e"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "a69af49ce636914f9ecde4d48d8db952313979e52fc6f6e23bb54d0723369fe1"
+hash = "c7508e9d4bcfdb6e6476d0ef75a542530f37121a2ccdc557554dfe4669e3a030"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2174,7 +2190,7 @@ hash = "925f4b0693e50c90bcb7ba02fb5dd3b6e9b5be7039d37dbb9c4317f255868c33"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "a4c13e76500473fe8d555225022542d0ef89708c3d885e233dca15f91e437774"
+hash = "c63fa9862b71e4d7d39f0ba3c214ec8482c622d960574003eabe56dd021cbead"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -2255,6 +2271,14 @@ hash = "779fac3a609f2fcd96a1ac668b3769c4bb12a597ed0b2b66f9d9cc0455c3af3d"
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
+
+[[files]]
+file = "hotai/com/jesz/createdieselgenerators/events/ForgeEvents.badiff"
+hash = "1aecfd46d1562d180d7cad882a106b1a52f12953b1667202f82b22640c8d98db"
+
+[[files]]
+file = "hotai/com/jesz/createdieselgenerators/fuel_type/FuelTypeManager.badiff"
+hash = "036aa6c9c357be0cacba7d9d9cd43f829d51be169353f1be0176df26512ac104"
 
 [[files]]
 file = "hotai/net/acetheeldritchking/art_of_forging/effects/DismountingEffect.badiff"
@@ -7366,7 +7390,7 @@ hash = "1f6dc6355f33a8892f67beb78a5257a1af31ffaac4e459a49b34e07e939915cc"
 
 [[files]]
 file = "kubejs/server_scripts/src/80extend.js"
-hash = "092586b1635edf795829d9280d9f9781405f43c61f64f5dfd22c679b50e2949e"
+hash = "df129573f01c7981593aa1d31f6b286408afe92ac9b9314418615944960b9939"
 
 [[files]]
 file = "kubejs/server_scripts/src/Debug/Debug.js"
@@ -7430,7 +7454,7 @@ hash = "4715f3e8389feb6ce89881f158d812f7c04d586cd327bb2b9536847405215c9a"
 
 [[files]]
 file = "kubejs/server_scripts/src/crafttable.js"
-hash = "4aa6a86185ee945da9289416b374f608e02651f3b68852cb8fe4e752158d88f0"
+hash = "9bcc36681df72bbfce4fa47c501806a22977186010d8451eec00146a1df0ae25"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
@@ -7450,7 +7474,7 @@ hash = "38ca6b8aba2f28cb21d87e9bc8f3aeded65947b0236fa3836ef5c35ebd39edbb"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/dieselgenerator.js"
-hash = "e081f26a1e2c4aaa2177687bd20006677eb53c85f204fae84164abdda21c0379"
+hash = "4e4bf559f19557edc01fb99b2d42c33885d33a9216560fb5d4556787f7033bbc"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
@@ -7481,10 +7505,6 @@ file = "kubejs/server_scripts/src/event.js"
 hash = "5c34a7543a715fdf2d055629d1fc42da0124c1f9f783cffbf725b6e91d3475a7"
 
 [[files]]
-file = "kubejs/server_scripts/src/expandedstorage.js"
-hash = "d9f09d3dd0a7293e83054f2b276ffcd36746ba368ff538b589de92ebdc4ca74a"
-
-[[files]]
 file = "kubejs/server_scripts/src/functional_storage.js"
 hash = "6585fe8947b51f8fee4aa297f2c91dc69665542fb181fc6a09fd1ec04a574980"
 
@@ -7510,7 +7530,7 @@ hash = "2dea9a1ff354dcb483891709788db75a578c7fda97b088ebe90a391bd715cc6c"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/box.js"
-hash = "79c1a1784202a4d9c9808fd1680bf064f4b8b8b0315437110829ba1357f6d236"
+hash = "79720cffb4d4feeb016806ddee6ea51d995aa82380d54bc707b7a2af2ed55a53"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/casing.js"
@@ -7606,7 +7626,7 @@ hash = "e84620880f2ddd2e4e1dc23af7ca497aefe9ed200752d44bbf1d67a7ac015b2d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "15f03cad32b08cdc433cfc8742836e3f47ced074460d6fbe77fe37b44e8b1444"
+hash = "2d451725348ef0caa5f480823e95bc85f352b1da686a52e934c6d0281c227457"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
@@ -7650,15 +7670,15 @@ hash = "3c4fdf25fc19c312e9b2c2077808d8aaf215a9a5a3b8febe4745a9a07a55ab54"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "9450a4282fb5caa409fa8b9eac8e8b47a9dc83844488ce23c6fe4c8b5cfad1b6"
-
-[[files]]
-file = "kubejs/server_scripts/src/smithing.js"
-hash = "55715467dadbc6117889c77bb8bdc3e9f643c5c8e9e4102d7a92bc531053d254"
+hash = "ac552fd58617581fd0274d787b6f42342b56f883211b9f605fe822da02eaefcc"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
 hash = "4aa06e7bfc04e552e8d6e18726177d4b0b52d1682f260cc8f847f364f3bbdad8"
+
+[[files]]
+file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedstorage.js"
+hash = "f978431fd2fe1fa06c962be0968b7636d2a6dff8f0dd44c2e3ecb1a040c6f6fc"
 
 [[files]]
 file = "kubejs/server_scripts/src/sun.js"
@@ -7753,130 +7773,6 @@ file = "kubejs/startup_scripts/src/test.js"
 hash = "93f58588561fb112e887dfe8490da98afd1f599c3e16a183b1f269b31a8b25bb"
 
 [[files]]
-file = "mods/.connector/DynamicSurroundings-Fabric-1.20.1-0.3.3$mixinextras-fabric-0.2.2_mapped_srg_1.20.1.jar"
-hash = "3badf68ce1036410bfbc6943e30f2ce6291e42c4c0982766a26e61c295dc8aa4"
-
-[[files]]
-file = "mods/.connector/DynamicSurroundings-Fabric-1.20.1-0.3.3$mixinextras-fabric-0.2.2_mapped_srg_1.20.1.jar.input"
-hash = "e04ba2c421cd0bb12d423e501673d9498dc15dbd7939863cc80b8839c59d36a6"
-
-[[files]]
-file = "mods/.connector/DynamicSurroundings-Fabric-1.20.1-0.3.3$nashorn-core-15.4_mapped_srg_1.20.1.jar"
-hash = "f9aa65c07accaf32a0be1aa8ec64c8aa80dca84a4365e5654ec8fa731d815ca6"
-
-[[files]]
-file = "mods/.connector/DynamicSurroundings-Fabric-1.20.1-0.3.3$nashorn-core-15.4_mapped_srg_1.20.1.jar.input"
-hash = "e2ac52b3eafaae1732961c77513e62e15b85453f1529bd3cf8e7f858d903b400"
-
-[[files]]
-file = "mods/.connector/DynamicSurroundings-Fabric-1.20.1-0.3.3_mapped_srg_1.20.1.jar"
-hash = "d8dbf6f05847b91f9a32b5448deb69ac020eaf00567a82928eed99f584217020"
-
-[[files]]
-file = "mods/.connector/DynamicSurroundings-Fabric-1.20.1-0.3.3_mapped_srg_1.20.1.jar.input"
-hash = "f51e5ece0841117b423efc7799178653ad6bc3414c2d298d33c6822502b85656"
-
-[[files]]
-file = "mods/.connector/PresenceFootsteps-1.9.0$kirin-1.15.0_mapped_srg_1.20.1.jar"
-hash = "7e2119fe8ea2f160e81de7f665dc17cb1e30004aab33794e584d1540c1e47275"
-
-[[files]]
-file = "mods/.connector/PresenceFootsteps-1.9.0$kirin-1.15.0_mapped_srg_1.20.1.jar.input"
-hash = "ee4af7a5707ef2783928bb75f2d02e8081967cfbc91f03d8f500c3d4c71a1d29"
-
-[[files]]
-file = "mods/.connector/PresenceFootsteps-1.9.0_mapped_srg_1.20.1.jar"
-hash = "9e8a80b2d3c6a33399f09e3d8b8bd15c0d2f6b1802376f4e90781bcbd11cca7d"
-
-[[files]]
-file = "mods/.connector/PresenceFootsteps-1.9.0_mapped_srg_1.20.1.jar.input"
-hash = "1a6aa19033625b9577f78a221e2f5726f05ae3ecff3117526584f615dcfecb7c"
-
-[[files]]
-file = "mods/.connector/dashloader-5.0.0-beta.2+1.20.0$Hyphen-0.4.0-rc.3_mapped_srg_1.20.1.jar"
-hash = "2e8c1260844ccab38a0402121aad221bff60b44cfd0b63cbba9fdc0e50cc1300"
-
-[[files]]
-file = "mods/.connector/dashloader-5.0.0-beta.2+1.20.0$Hyphen-0.4.0-rc.3_mapped_srg_1.20.1.jar.input"
-hash = "12db945451863bcef7843e17114143f979bf0d3814de4b46113d974d0afb0996"
-
-[[files]]
-file = "mods/.connector/dashloader-5.0.0-beta.2+1.20.0$Taski-2.1.0_mapped_srg_1.20.1.jar"
-hash = "b6cff29e553b81317f033380f032513cc84e80ee9e89a198f47a92d043940711"
-
-[[files]]
-file = "mods/.connector/dashloader-5.0.0-beta.2+1.20.0$Taski-2.1.0_mapped_srg_1.20.1.jar.input"
-hash = "075072b354a47f343b66442424c5003f63da17b6867d2dbb7bb31e8106870337"
-
-[[files]]
-file = "mods/.connector/dashloader-5.0.0-beta.2+1.20.0$zstd-jni-1.5.2-2_mapped_srg_1.20.1.jar"
-hash = "03a07aa42db261b4e08f37a7d5ea03e4913a863974ed24bdca8df68dbcac514a"
-
-[[files]]
-file = "mods/.connector/dashloader-5.0.0-beta.2+1.20.0$zstd-jni-1.5.2-2_mapped_srg_1.20.1.jar.input"
-hash = "bb951f20f5f12456f481acdf161ba4daa9268efffe9c7ec08592ad61e7cc2ecf"
-
-[[files]]
-file = "mods/.connector/dashloader-5.0.0-beta.2+1.20.0_mapped_srg_1.20.1.jar"
-hash = "902ff60767c4724ae110a4a8943b0232a8f07aff4c2b738d4be332c76c6e723d"
-
-[[files]]
-file = "mods/.connector/dashloader-5.0.0-beta.2+1.20.0_mapped_srg_1.20.1.jar.input"
-hash = "819d3ce264fa14497c60910c88da045972f3896cbe5180345d3c5b24fb488a46"
-
-[[files]]
-file = "mods/.connector/temp/DynamicSurroundings-Fabric-1.20.1-0.3.3$mixinextras-fabric-0.2.2.jar"
-hash = "1c9c71b21ecfb0bb312b16821f7d9e869519d2dbf3c66102be4155817da395af"
-
-[[files]]
-file = "mods/.connector/temp/DynamicSurroundings-Fabric-1.20.1-0.3.3$mixinextras-fabric-0.2.2.jar.input"
-hash = "e04ba2c421cd0bb12d423e501673d9498dc15dbd7939863cc80b8839c59d36a6"
-
-[[files]]
-file = "mods/.connector/temp/DynamicSurroundings-Fabric-1.20.1-0.3.3$nashorn-core-15.4.jar"
-hash = "3e012c71c820eb2d71e24b05dd55257dc3b187afc0f0d27cacf5894fca02d729"
-
-[[files]]
-file = "mods/.connector/temp/DynamicSurroundings-Fabric-1.20.1-0.3.3$nashorn-core-15.4.jar.input"
-hash = "e2ac52b3eafaae1732961c77513e62e15b85453f1529bd3cf8e7f858d903b400"
-
-[[files]]
-file = "mods/.connector/temp/PresenceFootsteps-1.9.0$kirin-1.15.0.jar"
-hash = "aaf868c4e36429d0085387b66cbeb6b8ed4e02a3461f9ea9d6b24755240e7a53"
-
-[[files]]
-file = "mods/.connector/temp/PresenceFootsteps-1.9.0$kirin-1.15.0.jar.input"
-hash = "ee4af7a5707ef2783928bb75f2d02e8081967cfbc91f03d8f500c3d4c71a1d29"
-
-[[files]]
-file = "mods/.connector/temp/dashloader-5.0.0-beta.2+1.20.0$Hyphen-0.4.0-rc.3.jar"
-hash = "6f1dcced03ff38e07e0753376b8da8e76fc947b70629612eace21e2008e4befc"
-
-[[files]]
-file = "mods/.connector/temp/dashloader-5.0.0-beta.2+1.20.0$Hyphen-0.4.0-rc.3.jar.input"
-hash = "12db945451863bcef7843e17114143f979bf0d3814de4b46113d974d0afb0996"
-
-[[files]]
-file = "mods/.connector/temp/dashloader-5.0.0-beta.2+1.20.0$Taski-2.1.0.jar"
-hash = "c0c9ffd3d2757555e03b0a8880606c20ee745e2e3896c73ac9db3b3e1c60e6e6"
-
-[[files]]
-file = "mods/.connector/temp/dashloader-5.0.0-beta.2+1.20.0$Taski-2.1.0.jar.input"
-hash = "075072b354a47f343b66442424c5003f63da17b6867d2dbb7bb31e8106870337"
-
-[[files]]
-file = "mods/.connector/temp/dashloader-5.0.0-beta.2+1.20.0$zstd-jni-1.5.2-2.jar"
-hash = "7449916c787e871e0ed78c87678c6e6658031c6504aa51eaeef8e1d8ad518552"
-
-[[files]]
-file = "mods/.connector/temp/dashloader-5.0.0-beta.2+1.20.0$zstd-jni-1.5.2-2.jar.input"
-hash = "bb951f20f5f12456f481acdf161ba4daa9268efffe9c7ec08592ad61e7cc2ecf"
-
-[[files]]
-file = "mods/CTNH-Core-1.20.1-1.0.10.jar"
-hash = "45917187eacce620a575fc340b3a08fff982a0604b7ef173e8c37bf7bef8243a"
-
-[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
@@ -7893,7 +7789,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2-crafting-tree.pw.toml"
-hash = "e23cdfbd1ffdbd1d625713382bc1d8f1d0530794ca2dfddb81e1587f9ead01a1"
+hash = "70b8dda6712c9c8bddde38cf601da9124a5cbfc7298b57fd6af79edddd91632e"
 metafile = true
 
 [[files]]
@@ -8004,11 +7900,6 @@ metafile = true
 [[files]]
 file = "mods/artifacts.pw.toml"
 hash = "559169a724f240d9de5dd12d4cc83dbd7f274bf9d70e7a5fecb0d7352d627716"
-metafile = true
-
-[[files]]
-file = "mods/athena.pw.toml"
-hash = "add488269604cbd19adff27f22b533a7a532df3d16fe2dc9b0ef0d92686a46d9"
 metafile = true
 
 [[files]]
@@ -8202,8 +8093,14 @@ hash = "0153a3f2bb0d657b4754ddfac78c1f3418de14a9f75ff17e607b6225ba830395"
 metafile = true
 
 [[files]]
-file = "mods/ctpp-0.0.6.jar"
-hash = "343566986fd34b5645da116ce9091ac73f51598611359abb49515be096445b14"
+file = "mods/ct.pw.toml"
+hash = "4d48076cf7440ba911a6d513bab8432c8497ef721f35ebc63e682d7fb8f9d81a"
+metafile = true
+
+[[files]]
+file = "mods/ctnh-core.pw.toml"
+hash = "b79999edb9d3c340d20a2f703cb6f23028eb70e0cd13fe808822c18ed7b835da"
+metafile = true
 
 [[files]]
 file = "mods/cucumber.pw.toml"
@@ -8522,7 +8419,7 @@ metafile = true
 
 [[files]]
 file = "mods/jacks-economy-ctnhfork.pw.toml"
-hash = "3165c06c2a3fbe4379910615635fb88cc61f6efb3c53d3e6851793aaab334d1c"
+hash = "27aa812456576f56073acc34606f49ddb801631070f3c41d425231181436e5ed"
 metafile = true
 
 [[files]]
@@ -8811,11 +8708,6 @@ hash = "d2cdb0557de98b1b2566958bba4676afc783cb02eed61ea65f39cd9acdd361b9"
 metafile = true
 
 [[files]]
-file = "mods/project-978068.pw.toml"
-hash = "92c98c9311745aaf30564c1e63570e3906996da829100e0009dc2d7b3d2ba328"
-metafile = true
-
-[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "c20d45d0e4e972f3149f0057fe741da4b55494b2d6c31e2d5221e7e3c19d1009"
 metafile = true
@@ -8897,12 +8789,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "f0816e04b595027e3c6406a6b8fb6933a100f1feb0aa93842fa7c905dd56c50b"
+hash = "a6e73a945cfb13ff274c27398f390e7aec52d341c038f12a26c610c46481d4e9"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "095a914e156df5804018a40bc7b56f13e8d97b170d9e1f7ce2bb2011110277cd"
+hash = "fe380c9b42fc84af1cfa6f34d39d9d44f6330a35fffc6b67d41ca24d0d2baf98"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "27efd1f344b3aac24c30624c46d935fe1906983d7e6479def2bfdabc158c2d0d"
 metafile = true
 
 [[files]]
@@ -9084,6 +8981,10 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "fcc74e53e0152eb6cad879fdd3bafccb610728cb50792fe9686d3a0c0cba5b52"
 metafile = true
+
+[[files]]
+file = "resourcepacks/Minecraft-Mod-Language-Modpack-1-20.zip"
+hash = "dfde1a6f7f0d1c930e045a86f61658577267b7808885944e7a9d2f86f8e42794"
 
 [[files]]
 file = "tlm_custom_pack/genshin_impact-1.1.6.zip"

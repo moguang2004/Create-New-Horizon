@@ -148,7 +148,7 @@
 			id: "4DA5ABB79AABADE8"
 			tasks: [{
 				id: "36F32AAAA96C37A1"
-				item: "kubejs:shielded_reactor_casing"
+				item: "ctnhcore:shielded_reactor_casing"
 				type: "item"
 			}]
 			x: -4.0d
@@ -233,8 +233,8 @@
 				item: "gtceu:thorium_232_dust"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1292,7 +1292,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["4D6F042D3D3DA8A2"]
+			dependencies: [
+				"4D6F042D3D3DA8A2"
+				"106A5B189687F358"
+			]
 			id: "2B5B66B395B0530B"
 			tasks: [{
 				id: "0212A973114CC429"
@@ -1360,6 +1363,7 @@
 		{
 			dependencies: ["79A78865792A17DB"]
 			id: "0395B3CA160DA4A9"
+			subtitle: "随便用任何一种枯竭镎燃料都可以分离出来"
 			tasks: [{
 				id: "4D14D4492CC8BFDB"
 				item: "gtceu:neptunium_waste"
@@ -1508,8 +1512,56 @@
 				item: "ctnhcore:hot_coolant_turbine"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 8.5d
+		}
+		{
+			dependencies: ["2E634A7C9D204BD4"]
+			id: "3EDE3B845F313147"
+			tasks: [{
+				id: "557FDF434B0E4181"
+				item: "gtceu:oxide_thorium_233_fuel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EDE3B845F313147"]
+			id: "4C124453C9EE493B"
+			subtitle: "利用衰变罐"
+			tasks: [{
+				id: "68B1B64724E8CF7C"
+				item: "gtceu:oxide_protactinium_233_fuel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4C124453C9EE493B"
+				"064670FD1A53F477"
+			]
+			id: "106A5B189687F358"
+			subtitle: "有些核燃料是可以自己单独放进核反应堆的，请注意"
+			tasks: [{
+				id: "48C46005344C96CE"
+				item: "gtceu:oxide_uranium_233_fuel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "064670FD1A53F477"
+			tasks: [{
+				id: "120EE0CCCC649A40"
+				item: "ctnhcore:decay_pools_machine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
 		}
 	]
 	title: "{ftbquests.chapter.ev.title}"

@@ -47,7 +47,6 @@ ServerEvents.recipes(event => {
         "create:crafting/kinetics/mechanical_bearing",
         "biomesoplenty:tnt_from_bop_sand",
         "mynethersdelight:tnt_alt",
-        "expandedstorage:obsidian_to_netherite_conversion_kit",
         "enderio:alloy_smelting/pulsating_alloy_ingot",
         "enderio:alloy_smelting/vibrant_alloy_ingot",
         "enderio:alloy_smelting/copper_alloy_ingot",
