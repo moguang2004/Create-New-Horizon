@@ -876,8 +876,8 @@ ServerEvents.recipes(event => {
         .addData("active", 3)
         .EUt(-268435456 * 4)
         .duration(800)
-    event.recipes.gtceu.centrifuge('gtceu:star_fuel_exhausted_recycle')
-        .EUt(32678 * 4)
+    // event.recipes.gtceu.centrifuge('gtceu:star_fuel_exhausted_recycle')
+    //     .EUt(32678 * 4)
 
     event.recipes.gtceu.centrifuge('gtceu:starlight_fuel_exhausted_recycle')
         .inputFluids(Fluid.of('gtceu:starlight_fuel_exhausted', 1000))

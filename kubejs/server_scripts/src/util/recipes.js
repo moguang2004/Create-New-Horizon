@@ -194,57 +194,17 @@ function alloy(event, input, time, output, heat) {
     })
 }
 
-/**
- * @param { Internal.RecipesEventJS } event 
- * @param { InputItem_ } input
- * @param { number } time
- * @param { OutputItem_ } output 
- * @param { String } mold 
-*/
-function casting_table(event, input, time, output, mold) {
-    event.custom({
-        "type": "createmetallurgy:casting_in_table",
-        "ingredients": [
-            {"item": mold},
-            input
-        ],
-        "processingTime": time,
-        "mold_consumed": false,
-        "result": {
-            "item": output
-        }
-    })
-}
-
-/**
- * @param { Internal.RecipesEventJS } event 
- * @param { InputItem_ } input
- * @param { number } time
- * @param { OutputItem_ } output
-*/
-function casting_basin(event, input, time, output) {
-    event.custom({
-        "type": "createmetallurgy:casting_in_basin",
-        "ingredients": [input],
-        "processingTime": time,
-        "mold_consumed": false,
-        "result": {
-            "item": output
-        }
-    })
-}
-
 function casting_all(event, item) {
     if (['iron', 'gold', `copper`].includes(item)) {
         if (item == 'copper')
-            casting_table(event, {fluid: `gtceu:${item}`, amount: 16}, 10, `gtceu:copper_nugget`, "createmetallurgy:graphite_nugget_mold")
+            event.recipes.createmetallurgy.casting_in_table(`gtceu:copper_nugget`, [Fluid.of(`gtceu:${item}`, 16), "createmetallurgy:graphite_nugget_mold"], 10)
         else
-            casting_table(event, {fluid: `gtceu:${item}`, amount: 16}, 10, `minecraft:${item}_nugget`, "createmetallurgy:graphite_nugget_mold")
-        casting_table(event, {fluid: `gtceu:${item}`, amount: 144}, 90, `minecraft:${item}_ingot`, "createmetallurgy:graphite_ingot_mold")
-        casting_basin(event, {fluid: `gtceu:${item}`, amount: 1296}, 810, `minecraft:${item}_block`)
+            event.recipes.createmetallurgy.casting_in_table(`minecraft:${item}_nugget`, [Fluid.of(`gtceu:${item}`, 16), "createmetallurgy:graphite_nugget_mold"], 10)
+        event.recipes.createmetallurgy.casting_in_table(`minecraft:${item}_ingot`, [Fluid.of(`gtceu:${item}`, 144), "createmetallurgy:graphite_ingot_mold"], 90)
+        event.recipes.createmetallurgy.casting_in_basin(`minecraft:${item}_block`, Fluid.of(`gtceu:${item}`, 1256), 810)
     } else {
-        casting_table(event, {fluid: `gtceu:${item}`, amount: 16}, 10, `gtceu:${item}_nugget`, "createmetallurgy:graphite_nugget_mold")
-        casting_table(event, {fluid: `gtceu:${item}`, amount: 144}, 90, `gtceu:${item}_ingot`, "createmetallurgy:graphite_ingot_mold")
-        casting_basin(event, {fluid: `gtceu:${item}`, amount: 1296}, 810, `gtceu:${item}_block`)
+        event.recipes.createmetallurgy.casting_in_table(`gtceu:${item}_nugget`, [Fluid.of(`gtceu:${item}`, 16), "createmetallurgy:graphite_nugget_mold"], 10)
+        event.recipes.createmetallurgy.casting_in_table(`gtceu:${item}_ingot`, [Fluid.of(`gtceu:${item}`, 144), "createmetallurgy:graphite_ingot_mold"], 90)
+        event.recipes.createmetallurgy.casting_in_basin(`gtceu:${item}_block`, Fluid.of(`gtceu:${item}`, 1256), 810)
     }
 }

@@ -240,18 +240,8 @@ ServerEvents.recipes(event => {
                                   'create:crushed_raw_tin',
                                   'create:crushed_raw_nickel'])
     
-    event.custom({
-        "type": "createmetallurgy:casting_in_table",
-        "ingredients": [
-            {"item": "createdieselgenerators:distillation_controller"},
-            Fluid.of('gtceu:wrought_iron', 288)
-        ],
-        "processingTime": 90,
-        "mold_consumed": true,
-        "result": {
-            "item": "createmetallurgy:foundry_unit"
-        }
-    })
+    event.recipes.createmetallurgy.casting_in_table('createmetallurgy:foundry_unit',
+        [Fluid.of('gtceu:wrought_iron', 288), 'createdieselgenerators:distillation_controller'], 90)
 })
 
 // 熔铸多方块
