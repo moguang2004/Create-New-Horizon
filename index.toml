@@ -1126,7 +1126,7 @@ hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "de6b4f9e24baceaadf376b6953ee504354453b98e13265d289d98639dd0f7075"
+hash = "75875222d0167ccdc1b827628e43c6cfa094f39744f5f14d65738d226fd7f551"
 
 [[files]]
 file = "config/fancymenu/assets/2024-08-19_19.51.04.png"
@@ -1694,7 +1694,7 @@ hash = "e857597972887f1a9e544b2b49336bd71447ee341ea133758021690707ec3ab9"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "04aa987ff55a2be767d5038ee49e7da1240d61b3f5c02f156b9e72b8beca9bc9"
+hash = "f042b6937f20d0584d453657f01a61865b4bfc3e2f0d5426b015c320624cc495"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1914,7 +1914,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "443ba6cb91f6ad2996184553046debb26066aae6f6638e6e0e10946aa068adac"
+hash = "3659ddd522fc34e2c368d770d94c6188f634cfa4af50a4d9c89064fc9186fbab"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -2050,11 +2050,11 @@ hash = "893ed66a30517836ddbde21bf4ab5d5ac5d47e04166e77c41f4405e806aa088d"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "03a88b5f02b18de3343015f60901abadc817e9d282310348cd9d1e4fd0716c1e"
+hash = "a5af842053e609dfdf4b75bff70ece4ddf514c51ea10f5b9448ad9a1df5926af"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "c7508e9d4bcfdb6e6476d0ef75a542530f37121a2ccdc557554dfe4669e3a030"
+hash = "076c2e528988ae3813e4d8c709aaab932aa092a3c9828f6579b1379c41e53620"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2190,7 +2190,7 @@ hash = "925f4b0693e50c90bcb7ba02fb5dd3b6e9b5be7039d37dbb9c4317f255868c33"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "c63fa9862b71e4d7d39f0ba3c214ec8482c622d960574003eabe56dd021cbead"
+hash = "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -5550,7 +5550,7 @@ hash = "6505cf56b5f39143d1f6355cfd8758f41b220f1369208616b96d8f65b4b3f9fd"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "afd3e1447488e8d32e2e596141f534ec2f3696cf0a755b32669e7af3510d6ee7"
+hash = "9a131147f95b8b7ec082b92a76e6df7a8dc8e15566e35cb739d135dc956ba18e"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -7478,7 +7478,7 @@ hash = "4e4bf559f19557edc01fb99b2d42c33885d33a9216560fb5d4556787f7033bbc"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
-hash = "7b6baa5b6eb2cec7b616258eb9f1b7ae92849b3379d1ccaf13b316dc6edddec2"
+hash = "c66acb5e337b9b72acb019a3e1b86ac5022e19e59c8ea93457742f2490955fa1"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/oreexcavation.js"
@@ -7638,7 +7638,7 @@ hash = "7ec4a7b1a4d8b29c7c6262412d8a4b39378b6b4206943a0c6cd85f8170c4a355"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/uper_mana2.js"
-hash = "519bb880a1b05c976d21b0a904fbd438e92283bd00852b69247a9190ffb041e1"
+hash = "bd04a2b28ac2bf8125e691dc6c218cecf113f18b3468d8ebf60fba2aee83c564"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/wood.js"
@@ -7690,7 +7690,7 @@ hash = "2978566b6eabac41d8aa5c15123f6da6492196c05d59db30545748a6d5192a03"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
-hash = "6c91a936030124ae20f54cb0dae5883acc45acaaf080c020ea585cf2cab3b561"
+hash = "e4fca8c9e92939f9cf2dabcf432660c788a2ac448fe453696bfadd06fe79ec98"
 
 [[files]]
 file = "kubejs/server_scripts/src/wood.js"
