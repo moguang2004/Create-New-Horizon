@@ -5,6 +5,7 @@ Ponder.tags((event) => {
     "CTNH Ponder", // 你设定的 PonderTag 的名称
     "部分CTNH中工业/魔法多方块的思索。", // 你设定的 PonderTag 的介绍
     [
+      "gtceu:assembly_line", 
       "gtnn:neutron_activator", 
       "mythicbotany:central_rune_holder", 
       "gtceu:coke_oven"
