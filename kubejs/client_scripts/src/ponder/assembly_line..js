@@ -66,7 +66,7 @@ Ponder.registry(event=>{
             scene.world.showSection([0, 2, 9, 0, 2, 10], Direction.DOWN)
             scene.text(60,"接入电网",[0, 3, 10]).attachKeyFrame()
             scene.idle(80)
-            scene.overlay.showOutline("red", {}, [16, 2, 5], 460)
+            scene.overlay.showOutline("red", {}, [16, 2, 5], 240)
             scene.idle(20)
             scene.text(140,"在样板供应器中放置在样板编码终端中'一键编写的样板'(+按钮)，确保材料会以正确的顺序输出到缓存器中",[16, 3, 5]).attachKeyFrame()
             scene.idle(160)
