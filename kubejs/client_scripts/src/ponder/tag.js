@@ -26,7 +26,14 @@ Ponder.tags((event) => {
       "ctpp:ev_kinetic_input_box", 
       "ctpp:iv_kinetic_input_box", 
       "ctpp:luv_kinetic_input_box", 
-      "ctpp:zpm_kinetic_input_box"
+      "ctpp:zpm_kinetic_input_box",
+      "ctpp:lv_kinetic_output_box", 
+      "ctpp:mv_kinetic_output_box", 
+      "ctpp:hv_kinetic_output_box", 
+      "ctpp:ev_kinetic_output_box", 
+      "ctpp:iv_kinetic_output_box", 
+      "ctpp:luv_kinetic_output_box", 
+      "ctpp:zpm_kinetic_output_box"
     ] // **可选参数** 你设定的 PonderTag 的关联词条, 只有一个时也能不用 [ ]
   )
 })
@@ -41,6 +48,7 @@ Ponder.tags((event) => {
       "ctnhcore:meadow", 
       "ctpp:smashing_factory",
       "ctpp:windmill_control_center",
+      "ctnhcore:big_dam", 
       "ctnhcore:mechanical_pressor", 
       "ctnhcore:mechanical_mixer", 
       "ctnhcore:mechanical_centrifuge", 
