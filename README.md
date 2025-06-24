@@ -16,7 +16,7 @@ An modpack which combined Create and GregTech together! According to the core mo
 <p align="center">
   
   <a href="https://www.curseforge.com/minecraft/modpacks/ctnh">
-    <img src="kubejs/assets/ctnh/textures/readme_image/title2.png" alt="Logo" width="1013" height="174">
+    <img src="https://raw.githubusercontent.com/moguang2004/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/title2.png" alt="Logo" width="1013" height="174">
   </a>
   <p align="center">
     <a href="https://www.bilibili.com/video/BV179XyYFE56">观看宣传视频</a> .
@@ -88,10 +88,10 @@ An modpack which combined Create and GregTech together! According to the core mo
 ---
 
 # 游戏内截图展示
-![task1](kubejs\assets\ctnh\textures\readme_image\guide1.jpg)
-![tsak2](kubejs\assets\ctnh\textures\readme_image\guide2.jpg)
+![task1](https://raw.githubusercontent.com/moguang2004/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/guide1.jpg)
+![tsak2](https://raw.githubusercontent.com/moguang2004/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/guide2.jpg)
 带有机械动力特色的格雷机器
-![windmill](kubejs\assets\ctnh\textures\readme_image\windmill_control.jpg)
+![windmill](https://raw.githubusercontent.com/moguang2004/Create-New-Horizon/dev/kubejs/assets/ctnh/textures/readme_image/windmill_control.jpg)
 
 ---
 
