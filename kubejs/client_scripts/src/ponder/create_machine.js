@@ -7,7 +7,14 @@ Ponder.registry(event=>{
         "ctpp:ev_kinetic_input_box", 
         "ctpp:iv_kinetic_input_box", 
         "ctpp:luv_kinetic_input_box", 
-        "ctpp:zpm_kinetic_input_box"
+        "ctpp:zpm_kinetic_input_box",
+        "ctpp:lv_kinetic_output_box", 
+        "ctpp:mv_kinetic_output_box", 
+        "ctpp:hv_kinetic_output_box", 
+        "ctpp:ev_kinetic_output_box", 
+        "ctpp:iv_kinetic_output_box", 
+        "ctpp:luv_kinetic_output_box", 
+        "ctpp:zpm_kinetic_output_box"
         ])
         .scene("block_ponder",
         "应力输入/输出仓",
@@ -204,6 +211,7 @@ Ponder.registry(event=>{
 
 //风车控制中心
 Ponder.registry(event=>{
+    var kinetic_output = "ctpp:lv_kinetic_output_box"
     event.create('ctpp:windmill_control_center')
         .scene("multiblock_building",
         "How to build a gregtech multiblock",
@@ -216,7 +224,6 @@ Ponder.registry(event=>{
             var windmill2= util.select.fromTo(2, 6, 4, 2, 14, 4)
             var windmill3= util.select.fromTo(4, 6, 2, 4, 14, 2)
             var windmill4= util.select.fromTo(4, 6, 4, 4, 14, 4)
-            var kinetic_output = "ctpp:lv_kinetic_output_box"
 
             scene.idle(10)
 
@@ -278,5 +285,70 @@ Ponder.registry(event=>{
             scene.text(60,'确保应力输出仓足够的情况下，你现在就可以享受风车神力了').attachKeyFrame()
             //scene.particles.simple(50,'minecraft:composter',[8,3,8]).density(20)
             //let blockpos = []
+        })
+})
+
+
+//三峡大坝
+Ponder.registry(event=>{
+    var kinetic_output = "ctpp:lv_kinetic_output_box"
+    event.create('ctnhcore:big_dam')
+        .scene("big_dam_1",
+            "关于三峡大坝建造时的注意事项", 
+            "kubejs:big_dam_1",
+        (scene,util)=>{
+            scene.scaleSceneView(0.3)
+            scene.setSceneOffsetY(-10)
+            scene.idle(10)
+
+            scene.world.showSection([9, 8, 0],"down")
+            scene.text(60,"放置三峡大坝主方块",[9.5, 8.5, 1]).attachKeyFrame()
+
+            scene.idle(80)
+
+            scene.showControls(60,[9, 8.5, 1],"left")
+                .rightClick()
+                .withItem('gtceu:terminal')
+                .whileSneaking()
+            scene.idle(80)
+            scene.world.showSection([0, 0, 0, 17, 15, 28],"down")
+            scene.text(60,'使用终端一键放置').attachKeyFrame()
+
+            scene.idle(80)
+            
+            scene.overlay.showOutline("red", {}, [16, 15, 1, 16, 15, 27], 60)
+            scene.overlay.showOutline("red", {}, [3, 1, 1, 3, 1, 27], 60)
+            scene.text(60,'注意水不会自动放置，记得手动填上').attachKeyFrame()
+            
+            scene.idle(80)
+
+            scene.overlay.showOutline("red", {}, [16, 15, 1, 16, 15, 27], 60)
+            scene.text(60,'顶层的水会结冰，可以在水源上方放置方块防止结冰').attachKeyFrame()
+            scene.idle(20)
+            scene.world.showSection([16, 17, 1, 16, 17, 27],"down")
+        })
+
+        .scene("big_dam_2",
+            "三峡大坝的仓室限制", 
+            "kubejs:big_dam_2",
+        (scene,util)=>{
+            const BIG_DAM = scene.world.showIndependentSection([0, 0, 0, 17, 15, 28],Direction.down)
+            scene.scaleSceneView(0.5)
+            scene.setSceneOffsetY(-10)
+            scene.idle(10)
+
+            scene.world.rotateSection(BIG_DAM, 41, 28, -22, 8)
+            
+            scene.idle(80)
+
+            scene.world.setBlock([9, 9, 0], "gtceu:lv_input_hatch", true)
+            scene.text(60,'放置输入仓以确保可以输入润滑油').attachKeyFrame()
+
+            scene.idle(80)
+
+            scene.text(80,'你至少需要16个lv应力输出仓才可以将三峡大坝内的应力全部输出，否则三峡大坝将不会工作').attachKeyFrame()
+            scene.idle(10)
+            scene.world.replaceBlocks([11, 10, 0, 10, 7, 0], kinetic_output, true)
+            scene.world.replaceBlocks([8, 10, 0, 7, 7, 0], kinetic_output, true)
         })
 })
