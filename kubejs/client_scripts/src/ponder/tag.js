@@ -39,7 +39,8 @@ Ponder.tags((event) => {
     "CTNH中应力多方块机器的思索。", // 你设定的 PonderTag 的介绍
     [
       "ctnhcore:meadow", 
-      "ctpp:smashing_factory", 
+      "ctpp:smashing_factory",
+      "ctpp:windmill_control_center",
       "ctnhcore:mechanical_pressor", 
       "ctnhcore:mechanical_mixer", 
       "ctnhcore:mechanical_centrifuge", 
