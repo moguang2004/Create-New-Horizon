@@ -77,10 +77,10 @@ jobs:
       VERSION_FILE_PATH: ${{ github.workspace }}/config/fancymenu/assets/version.md
       HMCL_DOWNLOAD_URL: https://github.com/HMCL-dev/HMCL/releases/download/release-3.6.12/HMCL-3.6.12.jar
       JAVA_DOWNLOAD_URL: https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.msi
-    if: >
-      github.ref_name == 'release' || 
-      startsWith(github.ref_name, 'test-release') ||
-      startsWith(github.ref_name, 'test-client')
+    # if: >
+    #   github.ref_name == 'release' || 
+    #   startsWith(github.ref_name, 'test-release') ||
+    #   startsWith(github.ref_name, 'test-client')
     steps:
       - name: 测试环境变量
         run: |
@@ -178,10 +178,10 @@ jobs:
       MC_VERSION: ${{ needs.common-steps.outputs.mc_version }}
       FORGE_VERSION: ${{ needs.common-steps.outputs.forge_version }}
       FORGE_DOWNLOAD_URL_PREFIX: https://maven.minecraftforge.net/net/minecraftforge/forge
-    if: >
-      github.ref_name == 'release' || 
-      startsWith(github.ref_name, 'test-release') ||
-      startsWith(github.ref_name, 'test-server')
+    # if: >
+    #   github.ref_name == 'release' || 
+    #   startsWith(github.ref_name, 'test-release') ||
+    #   startsWith(github.ref_name, 'test-server')
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
