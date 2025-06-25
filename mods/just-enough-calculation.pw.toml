@@ -1,0 +1,12 @@
+name = "Just Enough Calculation"
+filename = "jecalculation-forge-1.20.1-4.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "46a5306e02f4726e1b687f06df0a92f656937e07"
+url = "https://edge.forgecdn.net/files/5066/675/jecalculation-forge-1.20.1-4.0.4.jar"
+
+[update.curseforge]
+file-id = 5066675
+project-id = 242223

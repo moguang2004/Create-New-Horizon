@@ -1,0 +1,12 @@
+name = "KubeJS Additions"
+filename = "kubejsadditions-forge-4.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d7e6fc2b0ef6a1fb822af81cd558aa84a15f9ece"
+url = "https://edge.forgecdn.net/files/5817/338/kubejsadditions-forge-4.3.3.jar"
+
+[update.curseforge]
+file-id = 5817338
+project-id = 594387

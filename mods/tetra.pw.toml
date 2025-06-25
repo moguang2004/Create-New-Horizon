@@ -1,0 +1,12 @@
+name = "Tetra"
+filename = "tetra-1.20.1-6.8.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3c2ee629afe860d5d91b754fe09e3823ab975744"
+url = "https://edge.forgecdn.net/files/6096/160/tetra-1.20.1-6.8.0.jar"
+
+[update.curseforge]
+file-id = 6096160
+project-id = 289712

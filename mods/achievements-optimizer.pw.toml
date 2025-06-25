@@ -1,0 +1,12 @@
+name = "Achievements Optimizer"
+filename = "AchievementOptimizer-1.20.1-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "40bfd89ad3bb5d9f6c6d08cba4dee0e89330ab2b"
+url = "https://edge.forgecdn.net/files/5363/614/AchievementOptimizer-1.20.1-1.0.5.jar"
+
+[update.curseforge]
+file-id = 5363614
+project-id = 912788

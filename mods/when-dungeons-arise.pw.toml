@@ -1,0 +1,12 @@
+name = "When Dungeons Arise - Forge!"
+filename = "DungeonsArise-1.20.x-2.1.58-release.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "30b4520e4fab40a6bb6153a2c72e34bcb721f0a5"
+url = "https://edge.forgecdn.net/files/4983/862/DungeonsArise-1.20.x-2.1.58-release.jar"
+
+[update.curseforge]
+file-id = 4983862
+project-id = 442508

@@ -1,0 +1,12 @@
+name = "Freecam"
+filename = "freecam-forge-1.2.1+1.20.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "e4224b56750a1fe3956ae73a65f4470be3e0df3b"
+url = "https://edge.forgecdn.net/files/4643/128/freecam-forge-1.2.1+1.20.jar"
+
+[update.curseforge]
+file-id = 4643128
+project-id = 557076
