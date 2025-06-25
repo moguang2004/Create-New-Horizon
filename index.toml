@@ -5,16 +5,8 @@ file = "${quickPlayPath}"
 hash = "add1c64bbe5e2cc048e7f7468a2883f3dbbffdea709447233dcca6af6ca15e3f"
 
 [[files]]
-file = ".clientonlymodlist"
-hash = "29ee9429798ea05e267da63a18c4d8fede0880a599fe1b4c804fd21a3a9c4e8b"
-
-[[files]]
 file = "Changelog"
 hash = "9f7570fa6435f0fe0d81347986c0f64ecb8a131891d9fe51a5de3df61fdb46ca"
-
-[[files]]
-file = "LICENSE"
-hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
 
 [[files]]
 file = "TrashSlotSaveState.json"
