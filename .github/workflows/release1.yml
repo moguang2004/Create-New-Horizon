@@ -107,10 +107,10 @@ jobs:
           # ls ${{ github.workspace }}/Linux\ 64-bit\ x86
           mv ${{ github.workspace }}/Linux\ 64-bit\ x86/packwiz ./packwiz
           chmod +x ./packwiz
-      - name: 重命名HMCL配置和options
-        run: |
-          mv .hmclversion.cfg hmclversion.cfg
-          mv .options.txt options.txt
+      # - name: 重命名HMCL配置和options
+      #   run: |
+      #     mv .hmclversion.cfg hmclversion.cfg
+      #     mv .options.txt options.txt
       - name: 写版本号文件供fancymenu展现在游戏首页
         # 格式如下，为此需要用 > 覆盖写第一行，用 >> 追加写后续行
         # |||
@@ -120,7 +120,7 @@ jobs:
         run: |
           echo "|||" > $VERSION_FILE_PATH
           echo "$MODPACK_NAME $MODPACK_VERSION" >> $VERSION_FILE_PATH
-          echo "MIT License Copyright (c) 2025 JSI Production Team" >> $VERSION_FILE_PATH
+          echo "MIT License Copyright (c) 2025 CTNH Team" >> $VERSION_FILE_PATH
           echo "|||" >> $VERSION_FILE_PATH
           cat $VERSION_FILE_PATH
       # - name: 更新文件索引

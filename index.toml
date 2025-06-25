@@ -1137,6 +1137,10 @@ file = "config/fancymenu/assets/title2.png"
 hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
+file = "config/fancymenu/assets/version.md"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/fancymenu/config.txt"
 hash = "a19fe424491165624f8ab079ceba2c557df73dbe17ee87b578af0885ab925845"
 
