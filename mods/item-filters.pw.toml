@@ -1,0 +1,12 @@
+name = "Item Filters"
+filename = "item-filters-forge-2001.1.0-build.59.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "55a7f032c59489eca96069a7841601de2ff97590"
+url = "https://edge.forgecdn.net/files/4838/266/item-filters-forge-2001.1.0-build.59.jar"
+
+[update.curseforge]
+file-id = 4838266
+project-id = 309674

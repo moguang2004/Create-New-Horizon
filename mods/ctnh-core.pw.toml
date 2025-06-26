@@ -1,0 +1,12 @@
+name = "CTNH Core"
+filename = "CTNH-Core-1.20.1-1.0.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d4552cdea2263f2296508b2e6e70f260aa564bcb"
+url = "https://edge.forgecdn.net/files/6636/276/CTNH-Core-1.20.1-1.0.10.jar"
+
+[update.curseforge]
+file-id = 6636276
+project-id = 1095612

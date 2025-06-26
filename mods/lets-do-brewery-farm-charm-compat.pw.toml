@@ -1,0 +1,12 @@
+name = "[Let's Do] Brewery - Farm&Charm Compat"
+filename = "letsdo-brewery-forge-2.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "83e0dfdd18d3abd7f8bccebbcc1effd567acb2a8"
+url = "https://edge.forgecdn.net/files/5652/315/letsdo-brewery-forge-2.0.3.jar"
+
+[update.curseforge]
+file-id = 5652315
+project-id = 1038106

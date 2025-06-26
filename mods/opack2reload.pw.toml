@@ -1,0 +1,12 @@
+name = "OPack2Reload"
+filename = "0Pack2Reload-Forge-1.20.1-1.0.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "5d57174a0af5248c2d683a47e95d2935a7bcdeae"
+url = "https://edge.forgecdn.net/files/4812/698/0Pack2Reload-Forge-1.20.1-1.0.1.jar"
+
+[update.curseforge]
+file-id = 4812698
+project-id = 923755
