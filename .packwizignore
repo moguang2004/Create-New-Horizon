@@ -47,3 +47,4 @@ natives-*/
 /.git*
 /.clientonlymodlist
 /LICENSE
+/Changelog
