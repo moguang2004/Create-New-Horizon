@@ -5,10 +5,6 @@ file = "${quickPlayPath}"
 hash = "add1c64bbe5e2cc048e7f7468a2883f3dbbffdea709447233dcca6af6ca15e3f"
 
 [[files]]
-file = "Changelog"
-hash = "9f7570fa6435f0fe0d81347986c0f64ecb8a131891d9fe51a5de3df61fdb46ca"
-
-[[files]]
 file = "TrashSlotSaveState.json"
 hash = "5f74be1261e4bf47353e4cd7d676ba81d8782b345f0652ba25850c468cd681ee"
 

@@ -6,7 +6,6 @@ on:
     branches:
       - release        # 匹配主发布分支
       - test-*         # 匹配所有 test- 开头的分支（通配符）
-      - auto-packwiz   # 测试分支
 
 jobs:
   # 公共步骤（所有分支都需要执行的前置操作）
@@ -77,10 +76,10 @@ jobs:
       VERSION_FILE_PATH: ${{ github.workspace }}/config/fancymenu/assets/version.md
       HMCL_DOWNLOAD_URL: https://github.com/HMCL-dev/HMCL/releases/download/release-3.6.12/HMCL-3.6.12.jar
       JAVA_DOWNLOAD_URL: https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.msi
-    # if: >
-    #   github.ref_name == 'release' || 
-    #   startsWith(github.ref_name, 'test-release') ||
-    #   startsWith(github.ref_name, 'test-client')
+    if: >
+      github.ref_name == 'release' || 
+      startsWith(github.ref_name, 'test-release') ||
+      startsWith(github.ref_name, 'test-client')
     steps:
       - name: 测试环境变量
         run: |
@@ -114,8 +113,8 @@ jobs:
       - name: 写版本号文件供fancymenu展现在游戏首页
         # 格式如下，为此需要用 > 覆盖写第一行，用 >> 追加写后续行
         # |||
-        # Create-Delight-Remake x.x.x.x xxxx
-        # MIT License Copyright (c) 2025 JSI Production Team
+        # Create-New-Horizon x.x.x.x xxxx
+        # MIT License Copyright (c) 2025 CTNH Production Team
         # |||
         run: |
           echo "|||" > $VERSION_FILE_PATH
@@ -261,10 +260,10 @@ jobs:
       MC_VERSION: ${{ needs.common-steps.outputs.mc_version }}
       FORGE_VERSION: ${{ needs.common-steps.outputs.forge_version }}
       VERSION_FILE_RELATIVE_DIR_PATH: config/fancymenu/assets/
-    # if: >
-    #   github.ref_name == 'release' || 
-    #   startsWith(github.ref_name, 'test-release') ||
-    #   startsWith(github.ref_name, 'test-patch')
+    if: >
+      github.ref_name == 'release' || 
+      startsWith(github.ref_name, 'test-release') ||
+      startsWith(github.ref_name, 'test-patch')
     steps:
       - name: 测试环境变量
         run: |
@@ -356,7 +355,7 @@ jobs:
           mkdir -p "patch/$VERSION_FILE_RELATIVE_DIR_PATH"
           echo "|||" > "patch/$VERSION_FILE_RELATIVE_DIR_PATH/version.md"
           echo "$MODPACK_NAME $MODPACK_VERSION" >> "patch/$VERSION_FILE_RELATIVE_DIR_PATH/version.md"
-          echo "MIT License Copyright (c) 2025 JSI Production Team" >> "patch/$VERSION_FILE_RELATIVE_DIR_PATH/version.md"
+          echo "MIT License Copyright (c) 2025 CTNH Production Team" >> "patch/$VERSION_FILE_RELATIVE_DIR_PATH/version.md"
           echo "|||" >> "patch/$VERSION_FILE_RELATIVE_DIR_PATH/version.md"
           cat patch/$VERSION_FILE_RELATIVE_DIR_PATH/version.md
 
