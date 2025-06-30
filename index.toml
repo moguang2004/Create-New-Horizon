@@ -5610,7 +5610,7 @@ hash = "6505cf56b5f39143d1f6355cfd8758f41b220f1369208616b96d8f65b4b3f9fd"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "9a131147f95b8b7ec082b92a76e6df7a8dc8e15566e35cb739d135dc956ba18e"
+hash = "bfcd1f01b92e88426083c73bdabbf9af64fb81e6974f73ea9bb8d06be3126418"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -8154,12 +8154,12 @@ metafile = true
 
 [[files]]
 file = "mods/ct.pw.toml"
-hash = "4d48076cf7440ba911a6d513bab8432c8497ef721f35ebc63e682d7fb8f9d81a"
+hash = "6c241d3d87e639dd3c48cecf2b26796b14ad6c7f7b77842446a7dd7cedbb6dee"
 metafile = true
 
 [[files]]
 file = "mods/ctnh-core.pw.toml"
-hash = "b79999edb9d3c340d20a2f703cb6f23028eb70e0cd13fe808822c18ed7b835da"
+hash = "aa844c7d3fa9a32335e9a68f1a732adb9b8f4ae001766272b4bebbc4c632192b"
 metafile = true
 
 [[files]]
