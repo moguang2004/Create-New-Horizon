@@ -45,3 +45,6 @@ natives-*/
 /rhino.local.properties
 /README.md
 /.git*
+/.clientonlymodlist
+/LICENSE
+/Changelog

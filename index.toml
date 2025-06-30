@@ -5,10 +5,6 @@ file = "${quickPlayPath}"
 hash = "add1c64bbe5e2cc048e7f7468a2883f3dbbffdea709447233dcca6af6ca15e3f"
 
 [[files]]
-file = "Changelog"
-hash = "9f7570fa6435f0fe0d81347986c0f64ecb8a131891d9fe51a5de3df61fdb46ca"
-
-[[files]]
 file = "TrashSlotSaveState.json"
 hash = "5f74be1261e4bf47353e4cd7d676ba81d8782b345f0652ba25850c468cd681ee"
 
@@ -1135,6 +1131,10 @@ hash = "65b5ea55e9365fbc662d420f7225c91afb51f7431da34571f5ffd8c8f172034a"
 [[files]]
 file = "config/fancymenu/assets/title2.png"
 hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
+
+[[files]]
+file = "config/fancymenu/assets/version.md"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/fancymenu/config.txt"
@@ -4101,6 +4101,26 @@ file = "kubejs/assets/createutilities/lang/zh_cn.json"
 hash = "40ab224b998d60d4b03eaf8fd9f43c6ad5748f0e6bf9ed0ec115482135d46936"
 
 [[files]]
+file = "kubejs/assets/ctnh/textures/readme_image/all_multiblocks.png"
+hash = "a91ade00ba3f544e795f9bc5b73dbad4da8565ea61e8d764b58bcfc98be869dc"
+
+[[files]]
+file = "kubejs/assets/ctnh/textures/readme_image/guide1.jpg"
+hash = "9a7b4cad34ea1b3be3c570ab4bf9566b9ff6bbba850ccb28a08214af9beabbdc"
+
+[[files]]
+file = "kubejs/assets/ctnh/textures/readme_image/guide2.jpg"
+hash = "578c59f566c57fcbf723d688111ed95744b8070bee66f00ca93f68cd95e5d9bf"
+
+[[files]]
+file = "kubejs/assets/ctnh/textures/readme_image/title2.png"
+hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
+
+[[files]]
+file = "kubejs/assets/ctnh/textures/readme_image/windmill_control.jpg"
+hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
+
+[[files]]
 file = "kubejs/assets/eggdelight/lang/zh_cn.json"
 hash = "8f776ed74e57392976babdd200cca983302f2df7db248d91bca8f87afea3bd8b"
 
@@ -4337,24 +4357,56 @@ file = "kubejs/assets/kubejs/lang/zh_cn.json"
 hash = "31a475f8c6242f84bc0670224b1a671aff0577b2e9c1ffb7a211f96fbe3abf0c"
 
 [[files]]
+file = "kubejs/assets/kubejs/ponder/assembly_line.nbt"
+hash = "fb6fa39222619f3683fea816a0c2eea4d342ad316a8fe8dfd634a550bcfb8397"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/big_dam_1.nbt"
+hash = "50e40e082c9ac99b9b64af46ab7d62861fa8de9950bd6ba03c2eac0666cb48a5"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/big_dam_2.nbt"
+hash = "50e40e082c9ac99b9b64af46ab7d62861fa8de9950bd6ba03c2eac0666cb48a5"
+
+[[files]]
 file = "kubejs/assets/kubejs/ponder/coke_oven.nbt"
 hash = "ba5ac6adc8a892d570680666967a75a0fade5422288ec9de3ddc5abaf2ed7bf1"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/kinetic_input.nbt"
+hash = "78fdd7aaacfafa88a6acebf67368d6c2f3d5c490f40446278c1280d752449f34"
 
 [[files]]
 file = "kubejs/assets/kubejs/ponder/mark_of_falling_tower.nbt"
 hash = "7ef425a2c308c46436df3df24c728651049a5d13d5521d74bb0bf3e635dd6482"
 
 [[files]]
+file = "kubejs/assets/kubejs/ponder/meadow.nbt"
+hash = "383ee456f28b1473f9827a839df884d2cbf1917162916b4ed697c5f3a41b8cb6"
+
+[[files]]
 file = "kubejs/assets/kubejs/ponder/mythicbotany_rune_rituals.nbt"
 hash = "d6db499edd2be128175b95c6cc0010c6f271ddafe74741e5bb6abaa8717a52af"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/neutron_activator.nbt"
+hash = "d7972c2d1eb11d7230cc0322d591ea35a4ddd602cd385e6f6d9114300e6d31d2"
 
 [[files]]
 file = "kubejs/assets/kubejs/ponder/rune_rituals.nbt"
 hash = "8c6ed954342d3ee1a94b193b42d07071d5b450122837e69d5782864b2ef09b4d"
 
 [[files]]
+file = "kubejs/assets/kubejs/ponder/smashing_factory.nbt"
+hash = "4bec20ba6bb5767686fe961441c3671dbbafe8f5621c208a994823888be20467"
+
+[[files]]
 file = "kubejs/assets/kubejs/ponder/test.nbt"
 hash = "d6db499edd2be128175b95c6cc0010c6f271ddafe74741e5bb6abaa8717a52af"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/windmill_control_center.nbt"
+hash = "679b5bb81d4def197195123819fde413c8e07a37e0930a74d521e825f6632210"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/blood_casing.png"
@@ -5529,8 +5581,12 @@ file = "kubejs/client_scripts/src/jeiaddition.js"
 hash = "ddaf4e817e5eb5ceb447035257880271afce27074458c42a0a42e24b064c8956"
 
 [[files]]
-file = "kubejs/client_scripts/src/ponder/coke_oven.js"
-hash = "5f641d7eb084c34dfe0be8233609e90153c78bc6f9eea943796166118eb26ebb"
+file = "kubejs/client_scripts/src/ponder/create_machine.js"
+hash = "4a5da52f041784a3967433b95d866b7bb90d31856c902ae7805665c36aa405f4"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/gregtech_machine.js"
+hash = "1e3be2e88b7691d8b596aa9a3afe610d4fcb5c3bdada46df0b5af4fc55346362"
 
 [[files]]
 file = "kubejs/client_scripts/src/ponder/ritual_diviner.js"
@@ -5539,6 +5595,10 @@ hash = "bab444088bee50d6aad9e467f39d97ee1c850b0885ea9ba87aeae2e24af2cbcd"
 [[files]]
 file = "kubejs/client_scripts/src/ponder/rune_rituals.js"
 hash = "46e9d2ca276d6f57974965c38e554414b1078ef07a1dce9a12d6d0388d8a3585"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/tag.js"
+hash = "2e8b6531280a55c4231486e5aaca5c21081c211426e685a47422d20aadff454b"
 
 [[files]]
 file = "kubejs/client_scripts/src/ponder/test.js"
@@ -7626,7 +7686,7 @@ hash = "e84620880f2ddd2e4e1dc23af7ca497aefe9ed200752d44bbf1d67a7ac015b2d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "2d451725348ef0caa5f480823e95bc85f352b1da686a52e934c6d0281c227457"
+hash = "56090c594f67d9448034906e943c91b825d47f19439b40cd698aedacfc393e15"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
