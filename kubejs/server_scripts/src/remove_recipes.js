@@ -136,7 +136,10 @@ ServerEvents.recipes(event => {
         "enderio:sag_milling/ender_pearl",
         "gtceu:electrolyzer/decomposition_electrolyzing_clay",
         "expatternprovider:circuit_cutter",
-        "createdieselgenerators:compression_molding/bucket"
+        "createdieselgenerators:compression_molding/bucket",
+        "sophisticatedstorage:backpack_stack_upgrade_omega_tier_from_storage_stack_upgrade_omega_tier",
+        "sophisticatedstorage:stack_upgrade_omega_tier",
+        "sophisticatedstorage:void_upgrade"
 
     ])
     remove_recipes_output(event, [
