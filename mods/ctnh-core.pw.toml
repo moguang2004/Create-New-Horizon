@@ -4,10 +4,9 @@ side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "cb1eb5ab39e99ef86f8b59ec85202cfbbb2b921f"
-mode = "metadata:curseforge"
+hash = "528a621614bedc90d62350e9b94a72d2afd0ca8f"
+url = "https://edge.forgecdn.net/files/6715/804/CTNH-Core-1.20.1-1.0.11.jar"
 
-[update]
 [update.curseforge]
-file-id = 6712265
+file-id = 6715804
 project-id = 1095612

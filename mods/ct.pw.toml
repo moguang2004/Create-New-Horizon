@@ -5,9 +5,8 @@ side = "both"
 [download]
 hash-format = "sha1"
 hash = "cd85ecc155900d82d164a87db90ab4544250cd0b"
-mode = "metadata:curseforge"
+url = "https://edge.forgecdn.net/files/6712/090/ctpp-0.0.7.jar"
 
-[update]
 [update.curseforge]
 file-id = 6712090
 project-id = 1163715
