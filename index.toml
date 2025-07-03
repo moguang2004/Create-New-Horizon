@@ -8154,12 +8154,12 @@ metafile = true
 
 [[files]]
 file = "mods/ct.pw.toml"
-hash = "1e8edbf0caefd93a3a3a9f69183229199585ec9a690f17281650e5691abcd5b2"
+hash = "304dfae5505a65b514be7d02017654b10ab5b5fc892d464530020b9e9f89e7b8"
 metafile = true
 
 [[files]]
 file = "mods/ctnh-core.pw.toml"
-hash = "19a2741a38ae72f0be3339093af45c83b52c386d820864d44f00b3e1415754c0"
+hash = "33e2a541e5e4d7300b4a1cb3a1be200f8a9ef8f6d59e305621df5271895d310d"
 metafile = true
 
 [[files]]
@@ -8479,7 +8479,7 @@ metafile = true
 
 [[files]]
 file = "mods/jacks-economy-ctnhfork.pw.toml"
-hash = "27aa812456576f56073acc34606f49ddb801631070f3c41d425231181436e5ed"
+hash = "cd1e5236da084e5208ef933748a59d8ebac8af18b92e230734147fce24eaa29b"
 metafile = true
 
 [[files]]
