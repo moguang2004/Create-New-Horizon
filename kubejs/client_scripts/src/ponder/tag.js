@@ -3,7 +3,7 @@ Ponder.tags((event) => {
     "kubejs:ctnhponder", // 你设定的 PonderTag 的 id, 必须小写
     "create:wrench", // 你设定的 PonderTag 的图标
     "CTNH Ponder", // 你设定的 PonderTag 的名称
-    "部分CTNH中工业/魔法多方块的思索。", // 你设定的 PonderTag 的介绍
+    "Reflections on Industrial/Magic Multiblocks in Part of CTNH.", // 你设定的 PonderTag 的介绍
     [
       "gtceu:assembly_line", 
       "gtnn:neutron_activator", 
@@ -17,8 +17,8 @@ Ponder.tags((event) => {
   event.createTag(
     "kubejs:kinetic_input", // 你设定的 PonderTag 的 id, 必须小写
     "ctpp:hv_kinetic_input_box", // 你设定的 PonderTag 的图标
-    "应力仓", // 你设定的 PonderTag 的名称
-    "关于CTPP中应力仓的思索。", // 你设定的 PonderTag 的介绍
+    "kinetic hatch", // 你设定的 PonderTag 的名称
+    "ponder on the kinetic hatch in CTPP。", // 你设定的 PonderTag 的介绍
     [
       "ctpp:lv_kinetic_input_box", 
       "ctpp:mv_kinetic_input_box", 
