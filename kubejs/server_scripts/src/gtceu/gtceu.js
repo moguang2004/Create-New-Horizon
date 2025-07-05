@@ -1304,12 +1304,12 @@ ServerEvents.recipes(event => {
         .EUt(122880)
         .duration(800);
 
-    event.recipes.gtceu.mark_of_falling_tower('sandstone_oil')
+    event.recipes.gtceu.mark_of_falling_tower('stone_oil')
         .itemInputs('gtceu:oil_bucket')
         .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 256000))
-        .itemOutputs('1024x gtceu:sand_oilsands_ore')
+        .itemOutputs('1024x gtceu:oilsands_ore')
         .addData('radius', 9)
-        .addData('rock', 'minecraft:sandstone')
+        .addData('rock', 'minecraft:stone')
         .EUt(7680)
         .duration(800);
 
