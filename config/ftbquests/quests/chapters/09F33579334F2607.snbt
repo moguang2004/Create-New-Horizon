@@ -1021,6 +1021,31 @@
 			x: 14.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["3997A8293A186F50"]
+			description: ["可以吸收3x3范围内的生命源质，并转化为魔力，其工作原理类似于炽玫瑰"]
+			id: "51AE0E8579867DD2"
+			subtitle: "更像是彼岸花"
+			tasks: [{
+				id: "79F1C9EB2382F18E"
+				item: "ctnhcore:blood_antiaris"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3997A8293A186F50"]
+			description: ["会消耗魔力伤害周围半径5格内的怪物，若将其杀死，则会提取其恶魔意志并释放与空气中。"]
+			id: "3837F369AF70C59E"
+			tasks: [{
+				id: "3892EB97C6335AEB"
+				item: "ctnhcore:demon_flytrap"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.5d
+		}
 	]
 	title: "{ftbquests.chapter.09F33579334F2607.title}"
 }

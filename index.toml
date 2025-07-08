@@ -1122,7 +1122,7 @@ hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "185001918073a27eb854fd887f1a63dbc5595f9c64c1240c6f2affb4036c2963"
+hash = "8711797e3ee3a1ceac33b40cec84a4ac6d5f9ef78ef01dec723665bc1af5959f"
 
 [[files]]
 file = "config/fancymenu/assets/2024-08-19_19.51.04.png"
@@ -1314,7 +1314,7 @@ hash = "9cb7e06821926622969f7a4641c29953733135a94c87315aafb988683be7b56d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09F33579334F2607.snbt"
-hash = "e4b83c91880f66d46a2a19165ca2d4fbfce01f695312c5fdc3015682f075e0c3"
+hash = "3684881df6874dfb81dd2e9104e7702bb9591a0789b7ec8993dbdf27ba183e28"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/0AD950C34ED565A4.snbt"
@@ -1390,11 +1390,11 @@ hash = "9342d3dbca8ff57df68e1e07da7b7c5f6d70241996c83b63aea0dfdf99f00401"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
-hash = "bc0f0867b75c4d87340b9c8a74a236979c39edd1400f05ae3e1e486107d22b8d"
+hash = "382e9fed290c511a953e5e6dc5137a369d64bd11baadea2e508818b1b4f284cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "9e587eb8a2ad51fcea6e04c0572a3bf54ac7e8f2008df4333f7d9c6484715f96"
+hash = "60be445b4fc3842bc98bfde66c469df0f3a63cc2876430b07d75ab78ac491c16"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
@@ -1518,7 +1518,7 @@ hash = "2b775fcc43cb3f007d96ee557f72cc6ee5e18517f05b249e7de5c462fa9fb127"
 
 [[files]]
 file = "config/inventoryhud-client.toml"
-hash = "81700f31c8606a9f1701031fa3e46b3224a7a8f8efb78a9b58848f6c1587354a"
+hash = "dae1b725bc445a372933b1ae8fa3e226e29ba49bcc89961908799c9284cbd1e7"
 
 [[files]]
 file = "config/inventoryprofilesnext/6.0/villager-trading-config.json"
@@ -1694,7 +1694,7 @@ hash = "e857597972887f1a9e544b2b49336bd71447ee341ea133758021690707ec3ab9"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "04aa987ff55a2be767d5038ee49e7da1240d61b3f5c02f156b9e72b8beca9bc9"
+hash = "f042b6937f20d0584d453657f01a61865b4bfc3e2f0d5426b015c320624cc495"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1881,6 +1881,10 @@ file = "config/moonlight-common.toml"
 hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
 
 [[files]]
+file = "config/mpem-common.toml"
+hash = "4fc92984ba8ebbb6b43011253548be2aa8a077f17959632a58e595366a776bf6"
+
+[[files]]
 file = "config/mutil-client.toml"
 hash = "8c353ff01ddc44ad91e01ef60ec8ab077e21949e209a867416da06d7559362f2"
 
@@ -1914,7 +1918,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "57c5528f33ef0c01d1ba6af2a745cd1f10c7ffc9334b739ebfb8db50901efb3f"
+hash = "533dbc23786ad3aecadb585ce115816ff899ee5f3d8f2a9c9bce97b97c0489a8"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -2050,11 +2054,11 @@ hash = "893ed66a30517836ddbde21bf4ab5d5ac5d47e04166e77c41f4405e806aa088d"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "801fe6c60b8ccd343f76ee6c11f9dcf976ca950aee97537520c9e97296830e53"
+hash = "aecf52c180a4ff9e441e77ee4662a97c7beb7d2a0d89f61d8ed7d11f227928d8"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "cce8ae3452a18fc3d058e3fb594553eec4ca3a6961aca650c1453b8cdcd3b193"
+hash = "4d9b0b1f6aa70957829921ce445bbe58f5e5e28108d55d2e557e9f9b91720068"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -5610,7 +5614,7 @@ hash = "6505cf56b5f39143d1f6355cfd8758f41b220f1369208616b96d8f65b4b3f9fd"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "bfcd1f01b92e88426083c73bdabbf9af64fb81e6974f73ea9bb8d06be3126418"
+hash = "c18cb654bc1979fb3aebb6f6498a7698fa3a5d6f970755902edccf2bc02474c0"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -7686,7 +7690,7 @@ hash = "e84620880f2ddd2e4e1dc23af7ca497aefe9ed200752d44bbf1d67a7ac015b2d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "330e4450011113f5c1bf05cf1095a74b95f49a5e4ff8022c8df745b0d625b875"
+hash = "084bbcf3c152b2e494321ba7253a6dbfda208b29ab8c318523f9352f92736b51"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
@@ -7698,7 +7702,7 @@ hash = "7ec4a7b1a4d8b29c7c6262412d8a4b39378b6b4206943a0c6cd85f8170c4a355"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/uper_mana2.js"
-hash = "bd04a2b28ac2bf8125e691dc6c218cecf113f18b3468d8ebf60fba2aee83c564"
+hash = "65da5ccce575ce625368422ee1946580eafdeccda5f9e0368f50a222a1c1f942"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/wood.js"
@@ -8650,6 +8654,11 @@ metafile = true
 [[files]]
 file = "mods/monomorphism.pw.toml"
 hash = "37adc09cd0e3890ab3a5b73e8db26d389efc2411ecd2b5f2e7247cc739f5ddc8"
+metafile = true
+
+[[files]]
+file = "mods/mpem.pw.toml"
+hash = "b72db18f9f2861cc5574391d2ab353ae1e1565fc06504010d51927bb51853c99"
 metafile = true
 
 [[files]]

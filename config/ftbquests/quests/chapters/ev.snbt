@@ -1563,6 +1563,16 @@
 			x: -2.0d
 			y: 9.5d
 		}
+		{
+			id: "61FAAB9E621A0374"
+			tasks: [{
+				id: "7A3E1156B30EB013"
+				item: "gtceu:uranium_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
 	]
 	title: "{ftbquests.chapter.ev.title}"
 }

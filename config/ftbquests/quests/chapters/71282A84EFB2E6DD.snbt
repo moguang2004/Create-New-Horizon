@@ -1084,6 +1084,22 @@
 			x: 1.5d
 			y: 14.0d
 		}
+		{
+			dependencies: ["78C75CD9990F3C59"]
+			description: ["    激活后，每25tick往电池箱（默认范围为主仪式石上方，可通过仪式调整杖调整）中的电池充电204800EU的电量（平均8192EU/t，即4A&5EV&r），同时会消耗气血宝珠25000的lp"]
+			icon: "bloodmagic:upgradetome"
+			id: "42521264EB5EADE9"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "用于前期发电的小玩具"
+			tasks: [{
+				id: "72E7D4C7CEA49F2A"
+				title: "充能仪式"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
 	]
 	title: "{ftbquests.chapter.71282A84EFB2E6DD.title}"
 }
