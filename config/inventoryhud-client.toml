@@ -47,7 +47,7 @@
 	showCount = false
 	#ArmorHUD scale in persentage from 50 to 150
 	#Range: 50 ~ 150
-	armScale = 75
+	armScale = 100
 	#Show Armor HUD when debug menu is open
 	armWithDebug = true
 	#Show arrows count when no weapon in your hands
@@ -101,7 +101,7 @@
 	armHalign = "LEFT"
 	#Armor HUD position (X)
 	#Range: -9999 ~ 9999
-	xArmPos = 98
+	xArmPos = 154
 	#Armor HUD position (Y)
 	#Range: -9999 ~ 9999
 	yArmPos = 53

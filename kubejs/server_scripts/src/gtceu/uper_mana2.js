@@ -891,7 +891,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.centrifuge('gtceu:mana_up_fuel_exhausted_recycle')
         .inputFluids(Fluid.of('gtceu:mana_up_fuel_exhausted', 1000))
-        .outputFluids(Fluid.of('blood_fuel', 100))
+        .outputFluids(Fluid.of('gtceu:blood_fuel', 100))
         .outputFluids(Fluid.of('gtceu:starlight_fuel', 100))
         .outputFluids(Fluid.of('gtceu:zenith_essence', 1000))
         .chancedOutput('2x gtceu:naquadah_dust', 6000, 1000)
