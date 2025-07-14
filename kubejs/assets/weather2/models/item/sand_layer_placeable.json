@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "weather2:item/sand_layer_placeable"
-	}
-}

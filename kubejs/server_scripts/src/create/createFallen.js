@@ -43,34 +43,34 @@ ServerEvents.recipes(event => {
     //卷簧机
     event.shaped('vintageimprovements:spring_coiling_machine',[
         ['minecraft:iron_ingot','',''],
-        ['vintageimprovements:spring_coiling_machine_wheel','create:andesite_casing','kubejs:basic_mechanism'],
+        ['vintageimprovements:spring_coiling_machine_wheel','create:andesite_casing','ctpp:basic_mechanism'],
         ['minecraft:iron_ingot','','']
     ]);
 
     //压缩机-2
     event.shaped('vintageimprovements:vacuum_chamber',[
-        ['','kubejs:basic_mechanism',''],
+        ['','ctpp:basic_mechanism',''],
         ['gtceu:iron_spring','create:andesite_casing','gtceu:iron_spring'],
         ['gtceu:andesite_alloy_ingot','create:mechanical_pump','gtceu:andesite_alloy_ingot']
     ]);
 
     //振动台-2
     event.shaped('vintageimprovements:vibrating_table',[
-        ['','kubejs:basic_mechanism',''],
+        ['','ctpp:basic_mechanism',''],
         ['gtceu:iron_spring','#minecraft:wooden_slabs','gtceu:iron_spring'],
         ['gtceu:iron_spring','create:mechanical_piston','gtceu:iron_spring'],
     ]);
 
     //离心机-2
     event.shaped('vintageimprovements:centrifuge',[
-        ['gtceu:iron_spring','kubejs:basic_mechanism','gtceu:iron_spring'],
+        ['gtceu:iron_spring','ctpp:basic_mechanism','gtceu:iron_spring'],
         ['#minecraft:logs','create:shaft','#minecraft:logs'],
         ['gtceu:iron_spring','create:andesite_casing','gtceu:iron_spring'],
     ]);
 
     //冲压机-2
     event.shaped('vintageimprovements:curving_press',[
-        ['','kubejs:basic_mechanism',''],
+        ['','ctpp:basic_mechanism',''],
         ['','create:shaft',''],
         ['gtceu:iron_spring','create:andesite_casing','gtceu:iron_spring'],
     ]);
@@ -128,12 +128,12 @@ ServerEvents.recipes(event => {
 //激光加工机需要钢铁构件合成修改
     event.shaped('vintageimprovements:laser',[
         ['create:cogwheel','minecraft:redstone_block','create:cogwheel'],
-        ['kubejs:steel_mechanism','create:brass_casing','gtceu:iron_spring'],
+        ['ctpp:steel_mechanism','create:brass_casing','gtceu:iron_spring'],
         ['minecraft:quartz','vintageimprovements:laser_item','minecraft:quartz']
     ]);
 //切片机需要钢铁构件合成修改
     // event.shaped('vintageimprovements:laser',[
-    //     ['','kubejs:steel_mechanism',''],
+    //     ['','ctpp:steel_mechanism',''],
     //     ['','create:andesite_casing',''],
     //     ['','create:turntable','']
     // ]);
@@ -145,7 +145,7 @@ ServerEvents.recipes(event => {
     ],{
         A: 'minecraft:iron_block',
         B: '#minecraft:logs',
-        C: 'kubejs:steel_mechanism',
+        C: 'ctpp:steel_mechanism',
         D: 'create:andesite_casing',
         E: 'create:shaft',
         F: 'gtceu:iron_spring',

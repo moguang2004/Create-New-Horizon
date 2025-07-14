@@ -44,6 +44,17 @@
         "value": 2048
       }
     },
+    "legendarysurvivaloverhaul:right_arm_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "attributeslib:prot_shred": {
       "enabled": false,
       "min": {
@@ -152,6 +163,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "legendarysurvivaloverhaul:legs_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "forge:entity_reach": {
@@ -295,6 +317,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "legendarysurvivaloverhaul:feet_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "reach-entity-attributes:attack_range": {
@@ -462,6 +495,17 @@
         "value": 1000000
       }
     },
+    "legendarysurvivaloverhaul:head_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "legendarysurvivaloverhaul:cooling_temperature": {
       "enabled": false,
       "min": {
@@ -482,6 +526,17 @@
       "max": {
         "default": 34,
         "value": 34
+      }
+    },
+    "legendarysurvivaloverhaul:left_arm_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "minecraft:generic.flying_speed": {
@@ -550,6 +605,17 @@
         "value": 10
       }
     },
+    "legendarysurvivaloverhaul:chest_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "botania:pixie_spawn_chance": {
       "enabled": false,
       "min": {
@@ -577,6 +643,17 @@
       "min": {
         "default": 1,
         "value": 1
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
+    "legendarysurvivaloverhaul:broken_heart": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 10000,
@@ -625,6 +702,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "legendarysurvivaloverhaul:body_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "ars_nouveau:ars_nouveau.perk.warding": {

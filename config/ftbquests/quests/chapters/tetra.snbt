@@ -63,7 +63,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2FB20A6A0C2938F4"]
+			dependencies: [
+				"2FB20A6A0C2938F4"
+				"09C344717F4BAD6C"
+			]
 			icon: "tetra:basic_workbench"
 			id: "3BF72E41C1203551"
 			subtitle: "{ftbquests.chapter.tetra.quest2.subtitle}"

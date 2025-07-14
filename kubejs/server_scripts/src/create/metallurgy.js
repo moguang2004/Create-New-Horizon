@@ -14,8 +14,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('4x createmetallurgy:refractory_mortar', 
                                 ['2x gtceu:fireclay_dust', 'minecraft:sand', 'minecraft:gravel'])
     for (var rcp of [['createmetallurgy:foundry_basin', ["A   A","AB BA","ABCBA","ABBBA","AAAAA"], {C: "kubejs:steel_casing"}],
-        ['createmetallurgy:foundry_lid', ["AA AA","ABCBA","ABBBA","A   A"], {C: "kubejs:basic_mechanism"}],
-        ['createmetallurgy:glassed_foundry_lid', ["AA AA","DBCBD","ABBBA","A   A"], {C: "kubejs:basic_mechanism",D: "minecraft:glass"}]]){
+        ['createmetallurgy:foundry_lid', ["AA AA","ABCBA","ABBBA","A   A"], {C: "ctpp:basic_mechanism"}],
+        ['createmetallurgy:glassed_foundry_lid', ["AA AA","DBCBD","ABBBA","A   A"], {C: "ctpp:basic_mechanism",D: "minecraft:glass"}]]){
         var result = rcp[0],
             recipe = rcp[1],
             target = {A: "gtceu:andesite_alloy_plate", B: "createmetallurgy:refractory_mortar"}
@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
                 {A: "#create:sandpaper"})
     event.shaped(Item.of("createmetallurgy:mechanical_belt_grinder", 1), 
                 ["AAA", "BCB", "DBD" ], 
-                {A: "createmetallurgy:sandpaper_belt", B: "create:andesite_casing", C: "kubejs:basic_mechanism", D: "create:shaft"})
+                {A: "createmetallurgy:sandpaper_belt", B: "create:andesite_casing", C: "ctpp:basic_mechanism", D: "create:shaft"})
     //粉碎矿物得产物和其概率
     let materials = ['hematite', 'magnetite', 'precious_alloy', 'copper', 'diamond', 'tin', 'silver', 'vanadium_magnetite',
         'spodumene', 'rock_salt', 'salt', 'lepidolite', 'lazurite', 'lapis', 'sodalite', 'calcite', 'graphite', 'coal', 'zinc', 'gold',

@@ -6,9 +6,6 @@
 	#The item that can temptation maid
 	#Use the registered name of the item directly or write tag name with # as prefix
 	MaidTemptationItem = "minecraft:cake"
-	#The item that can NTR maid
-	#Use the registered name of the item directly or write tag name with # as prefix
-	MaidNtrItem = "minecraft:structure_void"
 	#The max range of maid work mode
 	#Range: 3 ~ 64
 	MaidWorkRange = 12
@@ -64,6 +61,23 @@
 	#Recognition distance of a maid under the gun task, Suitable for pistols and shotguns
 	#Range: 0 ~ 512
 	MaidGunNearDistance = 32
+	#This is a global config that applies to all maids: how often maids speak
+	#Range: 0 ~ 100
+	GlobalMaidSoundFrequency = 100
+	#This is a global config that applies to all maids: Whether or not to display chat bubbles
+	GlobalMaidShowChatBubble = true
+	#The max range of maid's bow attack
+	#Range: 8 ~ 192
+	BowRange = 48
+	#The max range of maid's crossbow attack
+	#Range: 8 ~ 192
+	CrossbowRange = 64
+	#The max range of maid's danmaku attack
+	#Range: 8 ~ 192
+	DanmakuRange = 64
+	#The max range of maid's trident attack
+	#Range: 8 ~ 192
+	TridentRange = 48
 
 [chair]
 	#Chair can switch models freely
@@ -104,7 +118,9 @@
 	#Whether to use the new version of the Fairy Maid model
 	UseNewMaidFairyModel = true
 	#Whether to enable model icon caching
-	ModelIconCache = true
+	EnableModelIconCache = false
+	#Does an invulnerable maid have a particle effect?
+	InvulnerableParticleEffect = true
 
 [vanilla]
 	#Whether to replace the vanilla slime model with the yukkuri.
@@ -115,4 +131,56 @@
 	ReplaceTotemTexture = true
 	#Whether to replace the vanilla bottle of xp texture with the point items.
 	ReplaceXPBottleTexture = true
+
+[render]
+	EnableCompassTip = true
+	EnableGoldenAppleTip = true
+	EnablePotionTip = true
+	EnableMilkBucketTip = true
+	EnableGlassBottleTip = true
+	EnableNameTagTip = true
+	EnableLeadTip = true
+	EnableSaddleTip = true
+	EnableShearsTip = true
+
+[ai]
+	#Whether or not to enable the AI LLM feature
+	LLMEnabled = true
+	#LLM temperature, the higher this value, the more random the output will be
+	#Range: 0.0 ~ 2.0
+	LLMTemperature = 0.7
+	#Whether to enable the function call function?
+	#The maid will be able to interact with the game after it is enabled, but it will increase the amount of token used
+	FunctionCallEnable = false
+	#Whether to automatically generate the maid's settings
+	AutoGenSettingEnabled = true
+	#LLM AI Proxy Address, such as 127.0.0.1:1080, empty is no proxy, SOCKS proxies are not supported
+	LLMProxyAddress = ""
+	#The maximum token supported by the LLM AI
+	#Range: > 1
+	LLMMaxToken = 4096
+	#The maximum historical conversation length cached by the maid
+	#Range: 1 ~ 128
+	MaidMaxHistoryLLMSize = 16
+	#The maximum tokens that a player can use
+	#Range: > 1
+	MaxTokensPerPlayer = 2147483647
+	#Whether or not to enable the TTS feature
+	TTSEnabled = true
+	#The TTS language you intend to use, will be overridden by the maid's settings
+	TTSLanguage = "en_us"
+	#TTS Proxy Address, such as 127.0.0.1:1080, empty is no proxy, SOCKS proxies are not supported
+	TTSProxyAddress = ""
+	#Whether or not to enable the STT feature
+	STTEnabled = true
+	#STT Type, currently support player2 app or aliyun
+	#Allowed Values: PLAYER2, ALIYUN, SILICONFLOW
+	STTType = "PLAYER2"
+	#The name of the microphone device, empty is default
+	STTMicrophone = ""
+	#The range of search when chatting with the maid
+	#Range: 1 ~ 256
+	MaidCanChatDistance = 12
+	#STT Proxy Address, such as 127.0.0.1:1080, empty is no proxy, SOCKS proxies are not supported
+	STTProxyAddress = ""
 

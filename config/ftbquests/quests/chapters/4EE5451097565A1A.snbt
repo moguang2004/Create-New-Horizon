@@ -655,7 +655,7 @@
 			id: "21F87196C3E7DF8A"
 			rewards: [{
 				auto: "enabled"
-				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:basic_mechanism\"}]}"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"ctpp:basic_mechanism\"}]}"
 				elevate_perms: true
 				exclude_from_claim_all: true
 				icon: "kubejs:basic_mechanism"

@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
 		'DQD'
 	], {
 		D: '#minecraft:logs',
-		W: 'kubejs:basic_mechanism',
+		W: 'ctpp:basic_mechanism',
 		S:'#forge:tools/screwdrivers',
 		A:'#forge:tools/hammers',
 		Q:'gtceu:andesite_alloy_plate'
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
 		' D '
 	], {
 		D: 'gtceu:andesite_alloy_plate',
-		W: 'kubejs:basic_mechanism',
+		W: 'ctpp:basic_mechanism',
 		S:'#forge:tools/screwdrivers',
 		A:'#forge:tools/hammers'
     });
