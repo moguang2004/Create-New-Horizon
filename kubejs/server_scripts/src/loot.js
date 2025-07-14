@@ -30,7 +30,7 @@ LootJS.modifiers(event => {
 
     const steam = [LootEntry.of("gtceu:bronze_brick_casing").when(c => { c.randomChance(0.1) }),
         LootEntry.of("gtceu:bronze_plate", 2).when(c => { c.randomChance(0.3) }),
-        LootEntry.of("kubejs:basic_mechanism", 1).when(c => { c.randomChance(0.5) }),
+        LootEntry.of("ctpp:basic_mechanism", 1).when(c => { c.randomChance(0.5) }),
         LootEntry.of("gtceu:andesite_alloy_ingot", 3).when(c => { c.randomChance(0.6) }),
         LootEntry.of("gtceu:andesite_alloy_gear").when(c => { c.randomChance(0.2) }),
         LootEntry.of("gtceu:red_alloy_single_wire", 2).when(c => { c.randomChance(0.4) }),

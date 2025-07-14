@@ -240,7 +240,7 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     let transitional = 'minecraft:oak_slab'
     event.recipes.create.sequenced_assembly([
-            'kubejs:basic_mechanism'
+            'ctpp:basic_mechanism'
         ], '#minecraft:wooden_slabs', [
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:andesite_alloy_ingot']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:iron_plate']),
@@ -252,7 +252,7 @@ ServerEvents.recipes(event => {
     let transitional = 'create:incomplete_precision_mechanism'
     event.recipes.create.sequenced_assembly([
             'create:precision_mechanism'
-        ], 'kubejs:basic_mechanism', [
+        ], 'ctpp:basic_mechanism', [
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:brass_plate']),
             event.recipes.createDeploying(transitional, [transitional, 'create:cogwheel']),
             event.recipes.createDeploying(transitional, [transitional, 'create:large_cogwheel']),
@@ -274,7 +274,7 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     let transitional = 'kubejs:unfinished_steel_mechanism'
     event.recipes.create.sequenced_assembly([
-            'kubejs:steel_mechanism'
+            'ctpp:steel_mechanism'
         ], 'create:precision_mechanism', [
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:steel_plate']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:red_alloy_plate']),
@@ -300,7 +300,7 @@ ServerEvents.recipes(event => {
         ], 'gtceu:bronze_machine_casing', [
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:steel_plate']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:long_steel_rod']),
-            event.recipes.createDeploying(transitional, [transitional, 'kubejs:steel_mechanism']),
+            event.recipes.createDeploying(transitional, [transitional, 'ctpp:steel_mechanism']),
             event.recipes.createPressing(transitional, [transitional]),
             event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:lubricant', 250)])
         ]).transitionalItem(transitional)
@@ -543,7 +543,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.sequenced_assembly([
             'gtceu:ulv_input_bus'
         ], 'gtceu:steam_input_bus', [
-            event.recipes.createDeploying(transitional, [transitional, 'kubejs:steel_mechanism']),
+            event.recipes.createDeploying(transitional, [transitional, 'ctpp:steel_mechanism']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:ulv_machine_casing']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:double_wrought_iron_plate']),
 
@@ -555,7 +555,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.sequenced_assembly([
             'gtceu:ulv_input_hatch'
         ], 'gtceu:steam_input_hatch', [
-            event.recipes.createDeploying(transitional, [transitional, 'kubejs:steel_mechanism']),
+            event.recipes.createDeploying(transitional, [transitional, 'ctpp:steel_mechanism']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:ulv_machine_casing']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:double_wrought_iron_plate']),
         ]).transitionalItem('gtceu:steam_input_bus')

@@ -132,7 +132,7 @@
 			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest6.subtitle}"
 			tasks: [{
 				id: "11E87C8E711D9668"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest6.task_+1290418244466611816.title}"
+				title: "Alex的洞穴"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -247,7 +247,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "126C851BA0B58A46"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest15.task_+1327582343874316870.title}"
+				title: "主世界的探险"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -268,6 +268,7 @@
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
 			id: "238828C65F7A855D"
+			subtitle: "一路砍砍砍"
 			tasks: [{
 				id: "0255FFF565F2424B"
 				item: "twilightforest:naga_trophy"

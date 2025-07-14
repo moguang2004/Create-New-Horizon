@@ -104,3 +104,8 @@
 		#Range: -10000 ~ 10000
 		"Hydration Bar Offset Y" = 0
 
+[health-overhaul]
+	# If enabled, will try to append the broken and shield hearts at the end of the Health Bar.
+	# A compat is made with overflowing-bars mod.
+	"Append Broken/Shield Hearts To Health Bar" = true
+

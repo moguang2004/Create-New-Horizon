@@ -1020,7 +1020,7 @@
     {
       "item": "minecraft:iron_ingot",
       "type": "adminshop",
-      "category": "原材�?:钢锭",
+      "category": "原材�?:钢锭",
       "adminShopSlot": 0
     },
     {
@@ -1094,7 +1094,7 @@
       "importerBuyPrice": 200.0
     },
     {
-      "item": "kubejs:basic_mechanism",
+      "item": "ctpp:basic_mechanism",
       "type": "prices",
       "importerBuyPrice": 20.0
     },
@@ -1104,7 +1104,7 @@
       "importerBuyPrice": 35.0
     },
     {
-      "item": "kubejs:steel_mechanism",
+      "item": "ctpp:steel_mechanism",
       "type": "prices",
       "importerBuyPrice": 50.0
     },
@@ -1159,7 +1159,7 @@
   "categories": [
     {
       "item": "gtceu:steel_ingot",
-      "name": "原材�?",
+      "name": "原材�?",
       "categories": [
         {
           "item": "gtceu:steel_ingot",
@@ -1173,7 +1173,7 @@
     },
     {
       "item": "gtceu:basic_electronic_circuit",
-      "name": "高科�?产品",
+      "name": "高科�?产品",
       "categories": []
     }
   ]

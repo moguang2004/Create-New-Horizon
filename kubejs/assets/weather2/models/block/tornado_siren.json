@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "weather2:block/tornado_siren_top",
-    "side": "weather2:block/tornado_siren"
-  }
-}

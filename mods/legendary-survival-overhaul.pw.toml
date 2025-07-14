@@ -1,12 +1,12 @@
 name = "Legendary Survival Overhaul"
-filename = "legendarysurvivaloverhaul-1.20.1-2.2.25.jar"
+filename = "legendarysurvivaloverhaul-1.20.1-2.3.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ad0a10892c474897a4721983ab69c0faf8d53e71"
-url = "https://edge.forgecdn.net/files/6213/788/legendarysurvivaloverhaul-1.20.1-2.2.25.jar"
+hash = "6356dcdd98821c07eaa580148b12126cf464a2f3"
+url = "https://edge.forgecdn.net/files/6750/561/legendarysurvivaloverhaul-1.20.1-2.3.20.1.jar"
 
 [update.curseforge]
-file-id = 6213788
+file-id = 6750561
 project-id = 840254

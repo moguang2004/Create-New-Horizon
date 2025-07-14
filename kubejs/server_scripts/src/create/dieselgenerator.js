@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     "BC ",
     "  D"
   ], {
-    A: "kubejs:steel_mechanism",
+    A: "ctpp:steel_mechanism",
     B: "gtceu:iron_plate",
     C: "minecraft:piston",
     D: "gtceu:zinc_ingot"
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
     "CDC",
     "EFE"
   ], {
-    A: 'kubejs:steel_mechanism',
+    A: 'ctpp:steel_mechanism',
     B: 'create:hose_pulley',
     C: 'create:copper_casing',
     D: 'kubejs:steel_casing',

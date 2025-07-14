@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
       event.recipes.createDeploying(transitional, [transitional, 'minecraft:blaze_rod']),
       event.recipes.createDeploying(transitional, [transitional, 'minecraft:netherite_ingot']),
       event.recipes.createDeploying(transitional, [transitional, 'create:blaze_burner']),
-      event.recipes.createDeploying(transitional, [transitional, 'kubejs:steel_mechanism']),
+      event.recipes.createDeploying(transitional, [transitional, 'ctpp:steel_mechanism']),
       event.recipes.createPressing(transitional,[transitional])
     ]).transitionalItem(transitional)
       .loops(1)
@@ -134,7 +134,7 @@ ServerEvents.recipes(event =>{
             F:'immersive_aircraft:nether_engine',
             G:'immersive_aircraft:steel_boiler',
             H:'immersive_aircraft:industrial_gears',
-            I:'kubejs:steel_mechanism',
+            I:'ctpp:steel_mechanism',
             J:'immersive_aircraft:hull_reinforcement',
             K:'immersive_aircraft:propeller'
 		}

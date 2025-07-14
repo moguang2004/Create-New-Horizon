@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
         ], {
             A: "#minecraft:wooden_slabs",
             B: "minecraft:stone",
-            C: "kubejs:basic_mechanism",
+            C: "ctpp:basic_mechanism",
             D: "create:shaft"
         })
     event.shaped(
@@ -99,14 +99,14 @@ ServerEvents.recipes(event => {
             "CDC",
             " E "
         ], {
-            A: "kubejs:basic_mechanism",
+            A: "ctpp:basic_mechanism",
             B: "create:shaft",
             C: "create:andesite_casing",
             D: "create:large_cogwheel",
             E: "create:whisk"
         })
     event.shaped(
-        Item.of("kubejs:basic_mechanism", 2), [
+        Item.of("ctpp:basic_mechanism", 2), [
             "ABC",
             "DEF",
             "GGG"
@@ -135,7 +135,7 @@ ServerEvents.recipes(event => {
             "CDC",
             " E "
         ], {
-            A: "kubejs:basic_mechanism",
+            A: "ctpp:basic_mechanism",
             B: "create:electron_tube",
             C: "create:andesite_casing",
             D: "create:shaft",
@@ -148,7 +148,7 @@ ServerEvents.recipes(event => {
             " D "
         ], {
             A: "minecraft:oak_button",
-            B: "kubejs:basic_mechanism",
+            B: "ctpp:basic_mechanism",
             C: "create:andesite_casing",
             D: "create:electron_tube",
         })
@@ -276,7 +276,7 @@ ServerEvents.recipes(event => {
             "   "
         ], {
             A: "create:andesite_casing",
-            B: "kubejs:basic_mechanism",
+            B: "ctpp:basic_mechanism",
             C: "create:chute",
         })
     event.shaped(
@@ -289,7 +289,7 @@ ServerEvents.recipes(event => {
             B: "create:powered_latch",
             C: "create:andesite_casing",
             D: "gtceu:andesite_alloy_plate",
-            E: "kubejs:basic_mechanism"
+            E: "ctpp:basic_mechanism"
         })
     event.shaped(
         Item.of("create:millstone", 1), [
@@ -299,7 +299,7 @@ ServerEvents.recipes(event => {
         ], {
             A: "create:chute",
             B: "create:cogwheel",
-            C: "kubejs:basic_mechanism",
+            C: "ctpp:basic_mechanism",
             D: "minecraft:smooth_stone",
         })
     event.shaped(
@@ -462,7 +462,7 @@ ServerEvents.recipes(event => {
             "AEA"
         ], {
             A: "gtceu:bronze_plate",
-            B: "kubejs:steel_mechanism",
+            B: "ctpp:steel_mechanism",
             C: "#gtceu:circuits/lv",
             D: "gtceu:steam_machine_casing",
             E: "create:shaft"
@@ -698,7 +698,7 @@ ServerEvents.recipes(event => {
             "AAA"
         ], {
             A: "minecraft:stone_bricks",
-            B: "kubejs:basic_mechanism",
+            B: "ctpp:basic_mechanism",
             C: "create:shaft",
             D: "create:large_water_wheel"
         })
@@ -756,7 +756,7 @@ ServerEvents.recipes(event => {
             "CAC",
             "DED"
         ], {
-            A: "kubejs:basic_mechanism",
+            A: "ctpp:basic_mechanism",
             B: "minecraft:wheat_seeds",
             C: "minecraft:wheat",
             D: "create:shaft",
@@ -1423,7 +1423,7 @@ ServerEvents.recipes(event => {
         ], {
             A: "create:crushing_wheel",
             B: "gtceu:bronze_gear",
-            C: "kubejs:basic_mechanism",
+            C: "ctpp:basic_mechanism",
             D: "create:andesite_casing",
             E: "#gtceu:circuits/ulv"
         })
@@ -1519,7 +1519,7 @@ ServerEvents.recipes(event => {
             "BCB",
             "DED"
         ], {
-            A: 'kubejs:steel_mechanism',
+            A: 'ctpp:steel_mechanism',
             B: 'create:railway_casing',
             C: 'create:mechanical_press',
             D: 'create:large_cogwheel',
@@ -1531,7 +1531,7 @@ ServerEvents.recipes(event => {
             "BCB",
             "DED"
         ], {
-            A: 'kubejs:steel_mechanism',
+            A: 'ctpp:steel_mechanism',
             B: 'create:railway_casing',
             C: 'create:mechanical_mixer',
             D: 'create:fluid_pipe',
@@ -1543,7 +1543,7 @@ ServerEvents.recipes(event => {
             "BCB",
             "DED"
         ], {
-            A: 'kubejs:steel_mechanism',
+            A: 'ctpp:steel_mechanism',
             B: 'create:railway_casing',
             C: 'create:mechanical_press',
             D: 'create:large_cogwheel',
@@ -1555,7 +1555,7 @@ ServerEvents.recipes(event => {
             "BCB",
             "DDD"
         ], {
-            A: 'kubejs:steel_mechanism',
+            A: 'ctpp:steel_mechanism',
             B: 'create:railway_casing',
             C: 'vintageimprovements:centrifuge',
             D: 'create:basin'
@@ -1566,7 +1566,7 @@ ServerEvents.recipes(event => {
             "BCB",
             "DDD"
         ], {
-            A: 'kubejs:steel_mechanism',
+            A: 'ctpp:steel_mechanism',
             B: 'create:railway_casing',
             C: 'vintageimprovements:vibrating_table',
             D: 'gtceu:item_filter'
@@ -1577,7 +1577,7 @@ ServerEvents.recipes(event => {
             "BCB",
             "DED"
         ], {
-            A: 'kubejs:steel_mechanism',
+            A: 'ctpp:steel_mechanism',
             B: 'create:railway_casing',
             C: 'createmetallurgy:foundry_mixer',
             D: 'create:fluid_pipe',
@@ -1589,7 +1589,7 @@ ServerEvents.recipes(event => {
             "BCB",
             "DDD"
         ], {
-            A: 'kubejs:steel_mechanism',
+            A: 'ctpp:steel_mechanism',
             B: 'create:railway_casing',
             C: 'vintageimprovements:lathe',
             D: 'create:belt_connector'
@@ -1600,7 +1600,7 @@ ServerEvents.recipes(event => {
             "BCB",
             "DED"
         ], {
-            A: 'kubejs:steel_mechanism',
+            A: 'ctpp:steel_mechanism',
             B: 'create:railway_casing',
             C: 'vintageimprovements:laser',
             D: 'gtceu:red_alloy_quadruple_wire',

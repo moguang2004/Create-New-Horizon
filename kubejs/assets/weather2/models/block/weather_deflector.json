@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "weather2:block/weather_deflector_top",
-    "side": "weather2:block/weather_deflector"
-  }
-}

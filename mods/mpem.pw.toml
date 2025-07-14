@@ -1,12 +1,12 @@
 name = "Moonlit Performance Enhancement Module"
-filename = "!MoonlitPEM_2.1.4_FORGE.jar"
+filename = "!MoonlitPEM_2.1.5_1.20.1-FORGE.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6a929995a394d861a556f2251a6ece7a066118ee"
-url = "https://edge.forgecdn.net/files/6732/034/!MoonlitPEM_2.1.4_FORGE.jar"
+hash = "c3e30e46a4531fe0a2fb04f011d19820696c7268"
+url = "https://edge.forgecdn.net/files/6740/241/!MoonlitPEM_2.1.5_1.20.1-FORGE.jar"
 
 [update.curseforge]
-file-id = 6732034
+file-id = 6740241
 project-id = 1298061

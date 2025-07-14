@@ -18,7 +18,7 @@ hash = "2c20dc6f9600742a4ad813284a9322eed5085e980066288759645874af2e997f"
 
 [[files]]
 file = "config/InventoryHUD/curios.json"
-hash = "c52190ce0aa51814c7619b531289c62a46c97549843a4257e5b412bc575bbb18"
+hash = "05b13e205fb2dcf3a00a0597035d31a05de02e6bc0d504acc0fa13e8e77fe29a"
 
 [[files]]
 file = "config/ModernUI/bootstrap.properties"
@@ -590,7 +590,7 @@ hash = "736bec8c910558091bb749ac7adb013822a253a02f1f70637eb193952768d2b1"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "a277eb42f55cbdcafb6b6fe57feaaef1027188694ab30dbc43a89dc81d6fa38e"
+hash = "46adfd373205cecb25a84b990ace94abfe7fa17bfa72d3a0e2fe77d362c5a585"
 
 [[files]]
 file = "config/attributeslib.cfg"
@@ -893,6 +893,14 @@ file = "config/dynamic_lights_reforged.toml"
 hash = "f6e6e9b80a3d95639a0cf81f53bd6fdd2b9064e56124025fbd7cb5731fcfd253"
 
 [[files]]
+file = "config/eclipticseasons-client.toml"
+hash = "0b0c0e9ea52429869b7697ceebae1c1fab192986a83033f411d3f7d065de63a9"
+
+[[files]]
+file = "config/eclipticseasons-common.toml"
+hash = "8c073b8b7e436bc031acb7894639b8fa677a1b8e0bacdec45a3c649404adabd3"
+
+[[files]]
 file = "config/ecologics-common.toml"
 hash = "adc6954cdda54a4ffd22dad703c43ec38db7ec6e5e24652d6a489816168f240b"
 
@@ -1122,7 +1130,7 @@ hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "8711797e3ee3a1ceac33b40cec84a4ac6d5f9ef78ef01dec723665bc1af5959f"
+hash = "d71ec39ee308bcf4de51d4253211f512be164dce178e98f8b5da086389cce301"
 
 [[files]]
 file = "config/fancymenu/assets/2024-08-19_19.51.04.png"
@@ -1670,11 +1678,11 @@ hash = "aa63b35476d7e3891c09abd67553a91754d1bf63f7c594c4d3b92190a58c9dfe"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "4bb64cd032ad1ca9b63ece2ea0117588d67a04c5e68e68c21cb56ec83fc3f0d2"
+hash = "302f4402684f38a456446727df44490e1b998094d0dab78f25d7d156d7cf9662"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "db423949c2ff149ddbaa2b7fff49682a543bb3b69abc1054b7d926356ce10697"
+hash = "17cbde768a5d40537d310e993152b0283c4761594f172a1c2f7d4d09948356a8"
 
 [[files]]
 file = "config/jecalculation/config.toml"
@@ -1694,7 +1702,7 @@ hash = "e857597972887f1a9e544b2b49336bd71447ee341ea133758021690707ec3ab9"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "f042b6937f20d0584d453657f01a61865b4bfc3e2f0d5426b015c320624cc495"
+hash = "2bbe09e4f2a52b96b9dd8e14d7f4ba206b432e16aab13101558d93b8f1306f3c"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1718,7 +1726,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "ca66ee93b9950bfcb8ec2021458a23ff1ce38aa55f095fe0750d1bd5a3b52e31"
+hash = "5ae3ea3fa8b9f2e38dba9ff1cdb8c38510d77184b7d9d12a5a9277efab910c44"
 
 [[files]]
 file = "config/jei/world/local/6_0/bookmarks.ini"
@@ -1781,52 +1789,12 @@ file = "config/l2_configs/l2library-common.toml"
 hash = "1200e86c053c1bc905bfe01a6b69bc09c0ad21feae8ee25c23c48d345672a4f8"
 
 [[files]]
-file = "config/legendarysurvivaloverhaul/json/biomeOverrides.json"
-hash = "5d3f4b053ab5d5ed2916536e06cec8f436c22b11f3aaed868df37502f2289d74"
-
-[[files]]
-file = "config/legendarysurvivaloverhaul/json/blockTemperatures.json"
-hash = "a9721e47a9ae37dace0b9970279862562d74d74f095e4321ad1fa8af707a6438"
-
-[[files]]
-file = "config/legendarysurvivaloverhaul/json/blockThirst.json"
-hash = "986e20d4ae64c45d8821803f820135f1987e19e9e4ebfc74a70d67e65b690d1a"
-
-[[files]]
-file = "config/legendarysurvivaloverhaul/json/damageSourceBodyParts.json"
-hash = "efa8310c2f893e4eae7dfdb681336074c5fa51dc30a5a4311dcc9199c473c2df"
-
-[[files]]
-file = "config/legendarysurvivaloverhaul/json/dimensionTemperatures.json"
-hash = "486acf0157ad53f4ffcbfd2e3d9038dcea1da9ff5ce375792dfe58e200640f3c"
-
-[[files]]
-file = "config/legendarysurvivaloverhaul/json/fuelItems.json"
-hash = "7dddbb261f7695d9fe601eb8b38666148315866421e3e607d00e928afed15148"
-
-[[files]]
-file = "config/legendarysurvivaloverhaul/json/healingConsumables.json"
-hash = "cd2725db82fbddbee6482f85a652b11a1c23b13c534eadd762c7b11087c41d5c"
-
-[[files]]
-file = "config/legendarysurvivaloverhaul/json/itemTemperatures.json"
-hash = "75213565a74db913b9bcdfb07064699b744a9d3a698726b3d4df414f9e3f58ce"
-
-[[files]]
-file = "config/legendarysurvivaloverhaul/json/temperatureConsumables.json"
-hash = "5302b01613a181e710e31c89c2f1b352852e76a9934246be4d7c63e12d937474"
-
-[[files]]
-file = "config/legendarysurvivaloverhaul/json/thirstConsumables.json"
-hash = "723ef63ff15d3e55fc62898dc1d3ef7f4820356fb8ccd49f5749f2516ca592f3"
-
-[[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
-hash = "8f7e80f4eba845a35e78fd26a4564c0c07217951a67c39431b4a0583d4a1d12a"
+hash = "552b08fe4627a38173aa2f7317c93561d31fc0b0ad96c6949ed8d7d2ec038e49"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-common.toml"
-hash = "375d9742dd6d2d4b2d2ebf41d53e121a31bb5b1a6b56cc69b30d33ee3cd91fc2"
+hash = "526efd10f401c68e6338afd3a41bbebf232f7de6b28d1ef58981c0ff13753bf0"
 
 [[files]]
 file = "config/littletiles-client.json"
@@ -1918,7 +1886,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "533dbc23786ad3aecadb585ce115816ff899ee5f3d8f2a9c9bce97b97c0489a8"
+hash = "8aee44e465282631b42a0ba2a87056d33d7d8c933b42cc8f9fdc520da2d20b3b"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -2050,15 +2018,15 @@ hash = "afef01cfc0d12c0762259da786bea4b9b816b569690adecaf75f057a9da90fe3"
 
 [[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
-hash = "893ed66a30517836ddbde21bf4ab5d5ac5d47e04166e77c41f4405e806aa088d"
+hash = "1f0f0658506a0c115d39a42c93c46e5e05c2853e6d4e4a423d0218da8f4e512e"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "aecf52c180a4ff9e441e77ee4662a97c7beb7d2a0d89f61d8ed7d11f227928d8"
+hash = "bd33e42e8aa8b9c0e70abfabdb5da5c265d0ac78ece2b5c54bbe218ae59e6ec1"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "4d9b0b1f6aa70957829921ce445bbe58f5e5e28108d55d2e557e9f9b91720068"
+hash = "6419cb8eb273d9774f8c649d04170bb528a63b35730db8a6fd50c3e53eb02b07"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2066,7 +2034,7 @@ hash = "c9e79968413b6d27a548872869c347d8006b29878cb05210c9b24b4be5efe45a"
 
 [[files]]
 file = "config/spark/activity.json"
-hash = "80c8e6154707d560a5bd8d02d2b117e3cd46840ad4e515f8976ff9b3bd727959"
+hash = "911bc590ecd309027d5f0bc024edf15f1eeea1a419c962b873d6e4b45eba338f"
 
 [[files]]
 file = "config/spark/config.json"
@@ -2190,11 +2158,11 @@ hash = "771a844d13ab6c2ff99f14b8fd912d02c55a1a4104361692b740c3e596084f6f"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "925f4b0693e50c90bcb7ba02fb5dd3b6e9b5be7039d37dbb9c4317f255868c33"
+hash = "ad08423c3894678ae6fb5e4049f8a02504a74d0f6d1451869a4d3c567d0ded5b"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "8ec85ecdff2a7b60389a80cbffa420876fcf83b3a72120e3564076da50dc3fca"
+hash = "a4c13e76500473fe8d555225022542d0ef89708c3d885e233dca15f91e437774"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -2214,7 +2182,7 @@ hash = "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "13b12c98c7a96cd1615922f3f05e9388de2ccab3f2e8475fd0898b68f547690b"
+hash = "f68912e1a191e7237143cbe0f04ba2bfdaeb7b3625ad43f1439aed7a4595cf08"
 
 [[files]]
 file = "defaultconfigs/createdieselgenerators-server.toml"
@@ -4629,10 +4597,6 @@ file = "kubejs/assets/kubejs/textures/item/ark_of_homo.png"
 hash = "d7c64c97e85be77502fa223a09c9a6004de25c464e4659edc26c3989577a934f"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/basic_mechanism.png"
-hash = "5245721f0571489fbe4152ab12e71a2d45002f00fa6003375dca45bc6766700b"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/bauxite_process_catalyst.png"
 hash = "0384d336254c0d0285c6794d45ae022a75c4afc7d9724dd096bfe4f2020a8a7e"
 
@@ -5037,10 +5001,6 @@ file = "kubejs/assets/kubejs/textures/item/steel_casing_connected.png"
 hash = "794c8661c789fe9cac8d74682edb6b57503ffd676d68a2455dbfe425e63c82f8"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/steel_mechanism.png"
-hash = "d5ebf664ef5b7db7d1f134c178ffb79256122d2ab36259a9e1896942d265b7da"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/stone_process_catalyst.png"
 hash = "3c8019ca9ec189cba0908b1a8ca332e3b31829eb33516a47584a8cd7ea4a3334"
 
@@ -5157,418 +5117,6 @@ file = "kubejs/assets/twilightforest/lang/zh_cn.json"
 hash = "b5fbe710f982820d39f3a0a0f3eb470078c73b40e5605f209ff13c44006e459a"
 
 [[files]]
-file = "kubejs/assets/weather2/blockstates/anemometer.json"
-hash = "c81534c8789a84a6c8bf631fb41264dc1d5236bf5c6f6e962d05d3e543ba2e17"
-
-[[files]]
-file = "kubejs/assets/weather2/blockstates/sand_layer.json"
-hash = "b8cc72eb31399016491c1bb8c101c0ace53317f81900273022ea033c4a97d910"
-
-[[files]]
-file = "kubejs/assets/weather2/blockstates/tornado_sensor.json"
-hash = "f1bcc7c9c7da9bd6fbed73e350ed89e968dd5ae9a3351db99ec0500bdba6d8de"
-
-[[files]]
-file = "kubejs/assets/weather2/blockstates/tornado_siren.json"
-hash = "bec979237b139cb8ea4c287088c6ad9715b69ee9181561a975741cea1ec015f5"
-
-[[files]]
-file = "kubejs/assets/weather2/blockstates/weather_deflector.json"
-hash = "248befefbc152d6c6d01e6bcc739eefb5a77942bcb05463e4d80503000c78f25"
-
-[[files]]
-file = "kubejs/assets/weather2/blockstates/weather_forecast.json"
-hash = "d9aa3c2e6657a19b55cb4872658274f87880f5b0310ecb559d8762c272cf423c"
-
-[[files]]
-file = "kubejs/assets/weather2/blockstates/weather_machine.json"
-hash = "2549eb15b2720b8abe204429dda72e15fbad218520687441e221bafcc7161233"
-
-[[files]]
-file = "kubejs/assets/weather2/blockstates/wind_turbine.json"
-hash = "40464f32dcb961b99a5946d15baefccc7a1382f0583aa24281f74e26e416ec69"
-
-[[files]]
-file = "kubejs/assets/weather2/blockstates/wind_vane.json"
-hash = "992e4a1cb4e5182fc81b519e8943dc3b8cb5772e19e2e5e3f9d2dc47924a0428"
-
-[[files]]
-file = "kubejs/assets/weather2/emf/cem/anemometer.jem"
-hash = "38f81ddde2961bad26f41a8b82493352a72c334c8e0db4f09634b4fdc0c26cfc"
-
-[[files]]
-file = "kubejs/assets/weather2/emf/cem/wind_turbine.jem"
-hash = "ca7a94e25905531a06f087ac9e1143c9635bd308ac9b0e214bb3253649e59e0b"
-
-[[files]]
-file = "kubejs/assets/weather2/emf/cem/wind_vane.jem"
-hash = "038dff41ca67d0635b256098017bea9c369fc37a5ed992b7214e3b180b4f8a97"
-
-[[files]]
-file = "kubejs/assets/weather2/lang/en_us.json"
-hash = "bf39e570fc36e1f5c8dc81671fe0b56373e3dde607173f130416d4dc4568ce55"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/anemometer.json"
-hash = "e9d606c6122ae4a2ab979bfe3b0aeace2e46dfcaef2c4da24bb4ba8dd675d82b"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/sand_height10.json"
-hash = "97b3b47c38c93b7813447c54136255e235ba647574517ecf50cb05f283958871"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/sand_height12.json"
-hash = "8ca06fd242a8758520b3f90fb4b6236b37776013594ba77a7fb896a372ead000"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/sand_height14.json"
-hash = "d0219e8e98fd1861f0139ba15d186523c67f5da13510eac568bae9ba2eb3593d"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/sand_height2.json"
-hash = "8451d6caedfc7b81848c00bfb7983521f1431145421a7bdadc755242ae9ddfbb"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/sand_height4.json"
-hash = "af0b3aac2023416abd0c1a50e9a4739d5c56441c35f5061a904edc2a57b7af1d"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/sand_height6.json"
-hash = "0adbf77693379bd9b2429162dc51cd713c4034c55ca25b9c0751aa4f24473502"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/sand_height8.json"
-hash = "503519660805684a932aa5530fa3972661902c646f862159e0360b2846fb33c8"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/tornado_sensor.json"
-hash = "fbccd27a2aa8d5296fc9f977ca0f53eb2b3509acf2e64e1efbae4e1a4e501dbf"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/tornado_sensor_powered.json"
-hash = "1daa08532c0ebe28eb28b59cf98421c3c99291e97af5e7adb374e435e22532cb"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/tornado_siren.json"
-hash = "eaf623e50b832fdd29fed513ed7008626d7dbca58b2b9137dea59fe2d21279d9"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/weather_deflector.json"
-hash = "c53bfef6a10cc9f4d5790348765644b4a5d7ee1fe54b0774fb506e317a603f09"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/weather_forecast.json"
-hash = "5f04454a2ef1860a2eba569eb9ca130d3dd20f6d0db3052c9a2a67f102d04cda"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/weather_machine.json"
-hash = "9aee0a513be85a2cc5709220470fba0489a3a9625c90ad5822b91f9365c9b473"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/wind_turbine.json"
-hash = "360f4bc49a2d0f2236303e0d984b4d669359ba686b9b4c3054b489fecaf342a8"
-
-[[files]]
-file = "kubejs/assets/weather2/models/block/wind_vane.json"
-hash = "9e47b0dff3f84ddfa9368ad8a417309944d7e348aa32233c4d6acf53da8f1bed"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/anemometer.json"
-hash = "511f35d55d375e11eab8c12d5edfb658afa2917d9f1c925caa13d32daaee8ab0"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/pocket_sand.json"
-hash = "9fe2727646cc7d0c31109a70bcd57218c7a30552cb93f6c10a0390567df47e77"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/sand_layer.json"
-hash = "1c16258c54e986f0ffb8a0cc63a353e82baa9156bc87abaeed0ce608ebe009ce"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/sand_layer_placeable.json"
-hash = "796fca9fbb24861e79b21b1abcb4315aab35d98a2b95d4dca8df7383ad9139d6"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/tornado_sensor.json"
-hash = "f22248a630e82f5569f6177e2d5e4016abec0f7d1b2f3e8523da2c8a12f21349"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/tornado_siren.json"
-hash = "787b83cac2f05887b74a52d67de5f592920c08f02402c4169a9026024115264f"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/tornado_siren_manual.json"
-hash = "67c055dbac638d28a881b0376adece69e0a8a84737e185d943f58f436cbe54a2"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/weather_deflector.json"
-hash = "11b546d1bf96400ebc8a862600f64678f2bcf34c086b7d0e03b439c6840d5676"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/weather_forecast.json"
-hash = "8fa95526393740c1dbd4c8a3e13e9010292f6d2074e1b693e4a4e255fc11c452"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/weather_item.json"
-hash = "6a54b0ea26e28dfc5a9d015decfce39afbb416da06b78bb90c6fac8704e67ede"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/weather_machine.json"
-hash = "50492eb4fd38f117309ffa249af9caa2e87f58bc6462a56aeb575d68cce12e13"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/wind_turbine.json"
-hash = "fbed38635e4157e7f2f328c8b6f0220eb74128e69ed887940065fdefe57e4f65"
-
-[[files]]
-file = "kubejs/assets/weather2/models/item/wind_vane.json"
-hash = "12e58b222b701ffb48b9b9765d71a1a48ec3d747a3cac2a14d61a23584d1f2be"
-
-[[files]]
-file = "kubejs/assets/weather2/particles/acidrain_splash.json"
-hash = "6c26f441747bf6942bb358d7e4a58f136a76215809a24359a7e0ad974d535854"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/tornado_sensor.png"
-hash = "2f2154466c1f55b9e568161a97f5308b552894506000c482d01067df4309a792"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/tornado_sensor_powered.png"
-hash = "0f26d0979e02299db60358ef1a7d8b31761d76b94de63c4aac170873aac051a0"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/tornado_sensor_top.png"
-hash = "24c0a27f7ddea52f06b9107d8a4bb0cb3b03e2b87f2d4226e84850c513731236"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/tornado_siren.png"
-hash = "41a935a8a3178e0a3326bc245e47f7fbe84cd2dca3fb5c03f079022a8b22d77f"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/tornado_siren_top.png"
-hash = "24c0a27f7ddea52f06b9107d8a4bb0cb3b03e2b87f2d4226e84850c513731236"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/weather_deflector.png"
-hash = "9596fa613a36169de646bfbf410b24a3a44914e6f021c85633e6f10fe4ea86c4"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/weather_deflector.png.mcmeta"
-hash = "835882b45adbe2db221081692d7360bde46051e991efa5cd862e98ed5a3c0205"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/weather_deflector_top.png"
-hash = "9acfdde976bddd55255051196cbaaf373e8c149b6531eec3210e650f853b6dfc"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/weather_forecast.png"
-hash = "20bba8edf451411fed549dee1cdcab536acbd8c153f7c34f54d9068d299bcdd6"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/weather_forecast_bottom.png"
-hash = "9acfdde976bddd55255051196cbaaf373e8c149b6531eec3210e650f853b6dfc"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/weather_forecast_top.png"
-hash = "79cb3bd6b44566b5005c853a57c95b20cfc12231774b266d30e8e81a254d73f7"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/weather_forecast_top.png.mcmeta"
-hash = "0e594982c8aea8b9bdf634a2b1ec0b886cac19a50a479be04113a886b49f5cb2"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/weather_machine.png"
-hash = "5fc8e6f1e0d7198b1a2158503af35e36ba487c8d49824fcebce3b46b41db9f71"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/wind_turbine.png"
-hash = "1521f08adb80abad051b1ec97bf7c9768b8c7dda7dbd9024350f29916def6c99"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/block/wind_vane.png"
-hash = "17fce76f1916a1aa94681cb5981bd8870a1904e8c0efcc1531a3643817ff24cf"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/anemometer.png"
-hash = "64111824090a389db573d77eba519c9b7709f975f06a287b2d500134ab55d747"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/anemometer_custom.png"
-hash = "73602430c582964267d5c640cc0e19567c5cb537b53e4854e66dee6cef817a67"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/te/anemometer.png"
-hash = "0b2d00a493f9e108cd0c2e454cf06dbf4fd4ee2d896019a80548248249fbad90"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/te/wind_turbine.png"
-hash = "659b58837bf2ce76696e8827d4ebaa19cffb744856e3a9fb2a53cb3d395996db"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/te/wind_vane.png"
-hash = "02860dceff222994520b5acf0a6d1eb6d341e6c7f29d9d8ffd4cf4618a4760f2"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/tornado_sensor.png"
-hash = "a3eed1210d050afde6d6ee7ddc4025a01c34597620f09cc3b0fac3fc33cf5e5f"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/tornado_siren.png"
-hash = "416e7c8db16dd2bba2b38adcccccb99e7cbaea7fc8ea84e7eb4bdcfd5381d220"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/tornado_siren_manual.png"
-hash = "979d46289ddccdfed6353cbbbebd72e76468d0986c3283082757b906cebf4572"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/tornado_siren_manual_on.png"
-hash = "129c8f6026a034deeab19fa7332114af21f31a1c02344c8c0a95739086c1fb19"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/tornado_siren_off.png"
-hash = "84a6f976fd009477664a64705c9f609fe1338834958db602e733c3a5b6567006"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/weather_deflector.png"
-hash = "a044257d66dcb8d5ac09ec0b11aa9d8ade3ddcccd0a452ae35c3493849ca32dc"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/weather_forecast.png"
-hash = "ac7e1ecc80e45fcd4dc0613d015fc0189589bb89e205917d22ef9c53e9857d79"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/weather_machine.png"
-hash = "c88720f58e22391928d8cc781f7c405a1b07e06f96209ec1ca92c841917070f7"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/wind_vane.png"
-hash = "7692c4bd01e1c721f587f890a296c2e611a7e95bc037b9c46a3a426e4a9d9764"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/wind_vane2.png"
-hash = "ff46c5371ad320529ec0665e872ffe103f86ccbbf8ae70076a4a5d14b6dcb94b"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/blocks/windvane_custom.png"
-hash = "6a9a6a557e8d4f920ea8acdd3a9e4ac17a5358b0ae37f5e952aa8530d15e98b1"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/entities/surfboard.png"
-hash = "9015cbb7100b24906bc7fa7e54e772781b0e997bd426d80bff6670748697a21b"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/environment/rain_green.png"
-hash = "67c8a05b287ed0c4b32d13f85418a61d30373eb0f826c0a290f4c6c03bac8387"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/environment/rain_green_bak.png"
-hash = "6a5d6a3ff786c4fd71df5a549cff034af569e100e08913af4369b24f245f072c"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/gui/gui512.png"
-hash = "c7f3666d01e4f24d558146db229f8664bb1ecb2446bc62428a48881c7a8e9e2f"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/gui/vignette.png"
-hash = "954bfddc038ab685182ce486d6387df6cfdf522a46aa052aef0bd1cc01188b8c"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/gui/weathergui.png"
-hash = "632e18e359d53c9a615299eaca92c29557b557d7a089843bdd08c136ce63ca35"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/item/anemometer.png"
-hash = "05f93d04af3466ad3661a0c299fbb20af129f88e07a0b70394a69a89652298bf"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/item/pocket_sand.png"
-hash = "51ee34fcebff7c5c5022e73558b2e0da4bc1deadf80756298b929a9343834c6b"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/item/sand_layer.png"
-hash = "5347513902154aee6a3464e01a13109eb2d90e918a1eced54a1a440e7a2e5d39"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/item/sand_layer_placeable.png"
-hash = "5347513902154aee6a3464e01a13109eb2d90e918a1eced54a1a440e7a2e5d39"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/item/weather_item.png"
-hash = "e9d16c067c46808978bd7025e9e684e9fcc157aa04012ede08cb14a08918cd00"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/item/wind_turbine.png"
-hash = "64b7b983777affeef3887eda3a729962ef022566181ee5b83ad373a92c09861b"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/item/wind_vane.png"
-hash = "ad6a55a1c6e6ccba9f2e29c4c2e090bb434f2d7317bc0226a2d36de99bb3a776"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/items/pocket_sand.png"
-hash = "7bfbf38a955999749d357a363e7970f214f1045d5a15a062d738a72aa0506783"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/items/sand_layer.png"
-hash = "6905baaf9ae047b7cf61a86eece232704a60c49c2876a49a705602fc4c12f5f3"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/items/sand_layer_placeable.png"
-hash = "6905baaf9ae047b7cf61a86eece232704a60c49c2876a49a705602fc4c12f5f3"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/items/weather_item.png"
-hash = "e0a78d21d520f795da130590201d383c38f9003589fa711de7aea34bd19afe70"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/particle/splash_0.png"
-hash = "b001ef95927c4314ba9a9e6aba3a1af7a13679d56ae99306620d42bdbbe35133"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/particle/splash_1.png"
-hash = "7776cf30bb82ce38bf96289bda0caa4877baaf6641557e0f61365f52391b26a9"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/particle/splash_2.png"
-hash = "0e33cfb9d61db434e35797fa95ab591384f841ba4e5f69ef283747971b16bed7"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/particle/splash_3.png"
-hash = "84f7b328b97bcfcab48c5581a01cf9c500db55714796f4b338b48c0d78a8c767"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/radar/radar_icon_cyclone.png"
-hash = "85aa2fa46973166da3effa803b8a29e5f08ff94559ad0e2ec208f0af1f9c840f"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/radar/radar_icon_hail.png"
-hash = "ca27e1cd67e100f5261eb9a062d83271e1c18bf8eb4e20d32af2ad2cc6e1b0d4"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/radar/radar_icon_lightning.png"
-hash = "0eb29106e9e917a4e6e3ee04090e989d4afc7f4b1d640b371cc3138702fb5506"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/radar/radar_icon_rain.png"
-hash = "6c80b83886320223a972adf85fcc483ce6cf40a34d1adfc519bd80bda4f2d3a6"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/radar/radar_icon_rain2.png"
-hash = "ddc92038b13f95534fd8cd545e1b554a2a0220adaf7a9b2ef0e1ae8bd595b7eb"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/radar/radar_icon_sandstorm.png"
-hash = "17f1cd00d87ac3d0e6ddca8ee853a741a4a319a2a897b1d96cb1168288838417"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/radar/radar_icon_tornado.png"
-hash = "16f6e353e0bc379e73d1e22d8f6d4a2875400425c5ce08b3762102e11b51f877"
-
-[[files]]
-file = "kubejs/assets/weather2/textures/radar/radar_icon_wind.png"
-hash = "6504ba19e1c851adf7dc8f82f849b4217b6953d71a57a47edf4b00d7ddd4c471"
-
-[[files]]
 file = "kubejs/client_scripts/src/ban.js"
 hash = "a80bab48006dd30674ca690a15eea730b512604e295525cb1406804fdd105eac"
 
@@ -5677,8 +5225,16 @@ file = "kubejs/data/ae2/loot_tables/blocks/small_quartz_bud.json"
 hash = "1beefd37c07ff36731e2e86a1a8b5a8719bb5f0a40ad516adaeb091bb8677c38"
 
 [[files]]
+file = "kubejs/data/aether/legendarysurvivaloverhaul/temperature/dimensions/the_aether.json"
+hash = "819844a606f99f04156146b4c367d2e9a703e27b9c42ee1423c59a8e4c4141ac"
+
+[[files]]
 file = "kubejs/data/aether/loot_tables/chests/dungeon/silver/silver_dungeon_reward.json"
 hash = "8d07268b73388e04c1e1a0314e655351023d69cc52cb0bdbe0703f4b2ca7a4da"
+
+[[files]]
+file = "kubejs/data/alexscaves/legendarysurvivaloverhaul/temperature/blocks/primal_magma.json"
+hash = "9d38c16f13b65089bf61c9e7c926cdb9ad448bcd32f3a994f3f3be6cc13b6707"
 
 [[files]]
 file = "kubejs/data/alexscaves/loot_tables/gameplay/deep_one_barter.json"
@@ -5697,8 +5253,280 @@ file = "kubejs/data/alexscaves/loot_tables/gameplay/sea_pig_digestion.json"
 hash = "525ce2b132d7820b44f59cadf3c6651c44c9a72f79dc9fe9cf8afd7f52da1171"
 
 [[files]]
+file = "kubejs/data/alexsdelight/legendarysurvivaloverhaul/temperature/consumables/acacia_blossom_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/alexsdelight/legendarysurvivaloverhaul/temperature/consumables/bison_burger.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/alexsdelight/legendarysurvivaloverhaul/temperature/consumables/bunfungus_sandwich.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/alexsdelight/legendarysurvivaloverhaul/temperature/consumables/gongylidia_bruschetta.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/alexsdelight/legendarysurvivaloverhaul/temperature/consumables/kangaroo_pasta.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/alexsdelight/legendarysurvivaloverhaul/temperature/consumables/kangaroo_stew.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/alexsdelight/legendarysurvivaloverhaul/temperature/consumables/lobster_pasta.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/alexsdelight/legendarysurvivaloverhaul/temperature/consumables/maggot_salad.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/alexsmobs/legendarysurvivaloverhaul/temperature/consumables/boiled_emu_egg.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/alexsmobs/legendarysurvivaloverhaul/temperature/consumables/shrimp_fried_rice.json"
+hash = "fc363565494ca4d898c640da34d08f21c82572fc38476954c1e65b3797c02243"
+
+[[files]]
+file = "kubejs/data/alexsmobs/legendarysurvivaloverhaul/temperature/consumables/sopa_de_macaco.json"
+hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
+
+[[files]]
+file = "kubejs/data/an_item/legendarysurvivaloverhaul/temperature/consumables/icy_fresh.json"
+hash = "21258915e4259f13b000643fb931043363cec29265128a864a5b1572fd8547c4"
+
+[[files]]
+file = "kubejs/data/an_item/legendarysurvivaloverhaul/temperature/consumables/sunny_warmth.json"
+hash = "23c9571ff0ddfd3f29db29e8d454606f8f47b0ba243c1c45cfe9f5953bd59405"
+
+[[files]]
 file = "kubejs/data/apotheosis/wanderer_trades/stonebreaker.json"
 hash = "626c4d0b0cfddaed193d29913d70f20c9d22fb700a907c9cd033883dc27eb3c3"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/baked_pollock_with_carrots.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/bass_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/buckling.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/catfish_barbecue.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/halaszle.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/halibut_with_tartar_sauce.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/large_fish_with_vegetables.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/poor_fisher_chowder.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/rollmops.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/tuna_spaghetti.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/turtle_meat_dish.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquaculturedelight/legendarysurvivaloverhaul/temperature/consumables/unusual_fish_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/aquamirae/legendarysurvivaloverhaul/temperature/consumables/poseidons_breakfast.json"
+hash = "50cbd85c28dc44594e1b4ac8019476601cd6623bc88477d18988b380ada8ae13"
+
+[[files]]
+file = "kubejs/data/aquamirae/legendarysurvivaloverhaul/temperature/consumables/sea_casserole.json"
+hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
+
+[[files]]
+file = "kubejs/data/aquamirae/legendarysurvivaloverhaul/temperature/consumables/sea_stew.json"
+hash = "c18c0089fd76ceb760e9395b37dc18f4ee5e1f9a12570d6e94de9d37666a8a5d"
+
+[[files]]
+file = "kubejs/data/aquamirae_delight/legendarysurvivaloverhaul/temperature/consumables/abyssal_risotto.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquamirae_delight/legendarysurvivaloverhaul/temperature/consumables/anglers_soup.json"
+hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
+
+[[files]]
+file = "kubejs/data/aquamirae_delight/legendarysurvivaloverhaul/temperature/consumables/esca_gelium_soup.json"
+hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
+
+[[files]]
+file = "kubejs/data/aquamirae_delight/legendarysurvivaloverhaul/temperature/consumables/glazed_grilled_spinefish.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquamirae_delight/legendarysurvivaloverhaul/temperature/consumables/golden_puree.json"
+hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
+
+[[files]]
+file = "kubejs/data/aquamirae_delight/legendarysurvivaloverhaul/temperature/consumables/golden_puree_pasta.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/aquamirae_delight/legendarysurvivaloverhaul/temperature/consumables/spinefish_alfredo.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/artifacts/legendarysurvivaloverhaul/temperature/items/lucky_scarf.json"
+hash = "771cf2d34c0e0a94098596951e218a1d841ea8e4ccbe928d9d2c8284a46131f6"
+
+[[files]]
+file = "kubejs/data/artifacts/legendarysurvivaloverhaul/temperature/items/scarf_of_invisibility.json"
+hash = "771cf2d34c0e0a94098596951e218a1d841ea8e4ccbe928d9d2c8284a46131f6"
+
+[[files]]
+file = "kubejs/data/artifacts/legendarysurvivaloverhaul/temperature/items/villager_hat.json"
+hash = "310d3e7bbc68a1eee0c9ffad512daabfc4a325ca33d057ec657d0fd1fa8a7819"
+
+[[files]]
+file = "kubejs/data/autumnity/legendarysurvivaloverhaul/temperature/consumables/foul_soup.json"
+hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_beef_skewer.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_chicken_skewer.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_cod_skewer.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_lamb_skewer.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_mushroom_skewer.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_pork_sausage_skewer.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_potato_skewer.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_rabbit_skewer.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_salmon_skewer.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/kebab_sandwich.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/barbequesdelight/legendarysurvivaloverhaul/temperature/consumables/kebab_wrap.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/big_mac.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/cheeseburger.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/chicken_mcnuggets.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/chickenburger.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/coca_colas.json"
+hash = "6400fbfc94d7cc4b13a33adc97b032fca873a1058c3140c77fad52d98d9bc84c"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/fanta.json"
+hash = "6400fbfc94d7cc4b13a33adc97b032fca873a1058c3140c77fad52d98d9bc84c"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/filet_o_fish.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/fries.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/hamburger.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/happy_meal.json"
+hash = "083d80469c29631c01a29014c3ba97745753e5494fc05022f7887255cab8da8e"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/lipton_ice_tea_peach.json"
+hash = "6400fbfc94d7cc4b13a33adc97b032fca873a1058c3140c77fad52d98d9bc84c"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/mcbacon.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/mcchicken.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/mcflurry.json"
+hash = "6400fbfc94d7cc4b13a33adc97b032fca873a1058c3140c77fad52d98d9bc84c"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/mcwrap.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/mustard.json"
+hash = "f06456ae94b7c634679bc0ccb07fc306711e169d79818d12d5f306e69696ac37"
+
+[[files]]
+file = "kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/sprite.json"
+hash = "6400fbfc94d7cc4b13a33adc97b032fca873a1058c3140c77fad52d98d9bc84c"
+
+[[files]]
+file = "kubejs/data/biomeswevegone/legendarysurvivaloverhaul/temperature/consumables/white_puffball_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
 
 [[files]]
 file = "kubejs/data/blood_magic/recipes/meteor/ae2.json"
@@ -5957,6 +5785,410 @@ file = "kubejs/data/botania/recipes/orechid_ignem/yellow_limonite_ore.json"
 hash = "8cc0126da2b90c402ec3c2c4a4bcd03c96c871944d879f59cd46f9f89d67a76a"
 
 [[files]]
+file = "kubejs/data/bountifulfares/legendarysurvivaloverhaul/temperature/consumables/apple_stew.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/bountifulfares/legendarysurvivaloverhaul/temperature/consumables/bountiful_stew.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/bountifulfares/legendarysurvivaloverhaul/temperature/consumables/crusted_beef.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/bountifulfares/legendarysurvivaloverhaul/temperature/consumables/fish_stew.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/bountifulfares/legendarysurvivaloverhaul/temperature/consumables/leek_stew.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/bountifulfares/legendarysurvivaloverhaul/temperature/consumables/passion_glazed_salmon.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/bountifulfares/legendarysurvivaloverhaul/temperature/consumables/stone_stew.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/beef_tartare.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/beef_wellington.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/bolognese.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/chicken.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/chicken_alfredo.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/chicken_teriyaki.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/cooked_beef.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/fricasse.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/lasagne.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/lettuce_beef.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/lettuce_tomato.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/mushroom_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/pasta.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/pasta_bolognese.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/pizza_slice.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/pork_ribs.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/roastbeef_carrots.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/salmon_wine.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/candlelight/legendarysurvivaloverhaul/temperature/consumables/tomato_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/casualness_delight/legendarysurvivaloverhaul/temperature/consumables/beef_noodles.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/casualness_delight/legendarysurvivaloverhaul/temperature/consumables/bowl_of_fried_dumpling.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/casualness_delight/legendarysurvivaloverhaul/temperature/consumables/bowl_of_sweet_rice.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/casualness_delight/legendarysurvivaloverhaul/temperature/consumables/fried_dumpling.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/corn_delight/legendarysurvivaloverhaul/temperature/consumables/corn_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/corn_delight/legendarysurvivaloverhaul/temperature/consumables/cornbread_stuffing.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/corn_delight/legendarysurvivaloverhaul/temperature/consumables/creamy_corn_drink.json"
+hash = "67b732ae551276bb0dc864e01e5510d316b540c0fe3c5e11d1d960225c00e697"
+
+[[files]]
+file = "kubejs/data/corn_delight/legendarysurvivaloverhaul/temperature/consumables/nachos_bowl.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crabbersdelight/legendarysurvivaloverhaul/temperature/consumables/bisque.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/crabbersdelight/legendarysurvivaloverhaul/temperature/consumables/clam_bake.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/crabbersdelight/legendarysurvivaloverhaul/temperature/consumables/clam_chowder.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/crabbersdelight/legendarysurvivaloverhaul/temperature/consumables/crab_cakes.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crabbersdelight/legendarysurvivaloverhaul/temperature/consumables/seafood_gumbo.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/crabbersdelight/legendarysurvivaloverhaul/temperature/consumables/stuffed_nautilus_shell.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crabbersdelight/legendarysurvivaloverhaul/temperature/consumables/surf_and_turf.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/create_confectionery/legendarysurvivaloverhaul/temperature/consumables/hot_chocolate_bottle.json"
+hash = "531e993a12f8b6af28726a998eb13b89923fa209fcada826dc7aeab981e40ae8"
+
+[[files]]
+file = "kubejs/data/create_confectionery/legendarysurvivaloverhaul/temperature/consumables/soothing_hot_chocolate.json"
+hash = "531e993a12f8b6af28726a998eb13b89923fa209fcada826dc7aeab981e40ae8"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/aloe_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/apple_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/apricot_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/avocado_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/banana_iced_coffee.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/banana_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/barberry_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/blackberry_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/blood_orange_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/blueberry_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/caramel_iced_coffee.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/cherry_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/citron_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/coconut_iced_coffee.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/coconut_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/dragonfruit_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/durian_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/fig_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/gooseberry_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/grape_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/grapefruit_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/guava_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/iced_coffee.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/iced_coffee_milk.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/jackfruit_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/kiwi_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/lavender_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/lemon_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/lime_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/lychee_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/mana_berry_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/mandarin_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/mango_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/mint_iced_coffee.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/orange_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/oreo_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/papaya_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/passionfruit_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/peach_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/persimmon_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/pineapple_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/plum_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/pomegranate_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/pomelo_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/pumpkin_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/raspberry_iced_coffee.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/raspberry_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/redlove_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/starfruit_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/strawberry_iced_coffee.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/strawberry_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/sweetberry_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/tamarind_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/vanilla_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/vanilla_iced_coffee.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/vanilla_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/watermelon_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/yucca_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
 file = "kubejs/data/createdieselgenerators/recipes/distillation/acid.json"
 hash = "39c4cf731a3c523981de450cbdede3fca6878c47ae5307f76c6cf51843d713ec"
 
@@ -5979,6 +6211,394 @@ hash = "191495315bb403adb92c02fbfb37a315f6a156a91bae50c70fa0388146ebeef5"
 [[files]]
 file = "kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
 hash = "539e76c9730d84ba6a114674f59475538c25b6494d7d8e98b199c9c660bdd9c5"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/asparagus_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/bone_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/bone_stew.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/breakfast_skillet.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/bunny_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/fruit_medley.json"
+hash = "34cf0e79ef24a981a0864a24b95a8285667bfe299623dc3ee4ad4f12092943de"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/gazpacho.json"
+hash = "3a2ea5be039a0aa5a01cf8e4cc2a0e0391e2513c6f93c8182c5a9b9514ce42a8"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/honey_ham.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/honey_nuggets.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/hot_chili.json"
+hash = "674290809c6a07fba22d617ff235efaaa62648688417d6b3ba19b051f77b870b"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/hot_cocoa.json"
+hash = "969cf221ee0e5965a1ab793cc2a2e674a0db17db75afaa1378365a133626afaa"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/ice_cream.json"
+hash = "93c6d083919bad9dded0fc47cbe02ca672f65aa9e5b79f51ac2227f851c2f561"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/iced_tea.json"
+hash = "3a2ea5be039a0aa5a01cf8e4cc2a0e0391e2513c6f93c8182c5a9b9514ce42a8"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/kabobs.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/monster_tartare.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/moqueca.json"
+hash = "674290809c6a07fba22d617ff235efaaa62648688417d6b3ba19b051f77b870b"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/mushy_cake.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/pepper_popper.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/ratatouille.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/salsa.json"
+hash = "28f892377568a385fe2f02630b10cd0a10485d40c6193513dc4ee2294b031d94"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/seafood_gumbo.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/stuffed_eggplant.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/surf_n_turf.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/tea.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/tropical_bouillabaisse.json"
+hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/turkey_dinner.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/veg_stinger.json"
+hash = "8aa634cc741166adb486ef35d3c20ae23b5e12652ecb61fa0103eeeda966847a"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/volt_goat_jelly.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/watermelon_icle.json"
+hash = "9ecc954b5ea80bcd8376b1c398830b4764a94dfbf811ec43bfe9e4efe395d54b"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/ajvar.json"
+hash = "e910feedfd4db3dd6f933a875d526924e34e61978878550250cf02e57d34c896"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/artichoke_dip.json"
+hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/beef_stew.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/blt.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/borscht.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/buttered_green_beans.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/carnitas.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/cashew_chicken.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/cheeseburger.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/chicken_and_dumplings.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/chicken_and_noodles.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/chicken_and_rice.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/chocolate_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/chocolate_milkshake.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/cinnamon_roll.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/croque_madame.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/croque_monsieur.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/fruit_smoothie.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/goulash.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/grilled_cheese.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/ham_sandwich.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/hamburger.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/kale_smoothie.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/leek_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/mango_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/nether_wart_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/oatmeal.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/peanut_butter_and_jam.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/pecan_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/potato_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/pumpkin_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/ratatouille.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/rum_raisin_ice_cream.json"
+hash = "93c6d083919bad9dded0fc47cbe02ca672f65aa9e5b79f51ac2227f851c2f561"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/salsa.json"
+hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/spaghetti_squash.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/steamed_broccoli.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/steamed_green_beans.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/strawberry_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/the_big_breakfast.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/tofu_and_dumplings.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/tofuburger.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/tuna_sandwich.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/croptopia/legendarysurvivaloverhaul/temperature/consumables/vanilla_ice_cream.json"
+hash = "93c6d083919bad9dded0fc47cbe02ca672f65aa9e5b79f51ac2227f851c2f561"
+
+[[files]]
+file = "kubejs/data/drinkbeer/legendarysurvivaloverhaul/temperature/consumables/beer_mug_blaze_milk_stout.json"
+hash = "defbf4559c343e034d5982408457f9f224125a9d4317a3f53520c64f2bfdfc40"
+
+[[files]]
+file = "kubejs/data/drinkbeer/legendarysurvivaloverhaul/temperature/consumables/beer_mug_blaze_stout.json"
+hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
+
+[[files]]
+file = "kubejs/data/drinkbeer/legendarysurvivaloverhaul/temperature/consumables/beer_mug_haars_icey_pale_lager.json"
+hash = "d4c390e1166e57c4c935bbbc7717c9aa8c7ec0ec994abd4f670a8657f0424c28"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/beef_tomato_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/calamari_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/chicken_mushroom_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/cod_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/dandelion_leaf_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/eggplant_egg_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/fungus_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/garlic_chive_egg_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/mushroom_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/mutton_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/pork_cabbage_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/pork_cabbage_wonton.json"
+hash = "99f713d821a5f4403df7d7f65a6848a065df67188ea647ada74b3c36f66410ed"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/pork_carrot_wonton.json"
+hash = "99f713d821a5f4403df7d7f65a6848a065df67188ea647ada74b3c36f66410ed"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/pork_celery_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/pork_fennel_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/pork_kelp_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/pork_mushroom_wonton.json"
+hash = "99f713d821a5f4403df7d7f65a6848a065df67188ea647ada74b3c36f66410ed"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/pork_potato_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/pufferfish_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/rabbit_meat_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/salmon_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/dumplings_delight/legendarysurvivaloverhaul/temperature/consumables/tomato_egg_boiled_dumpling.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
 
 [[files]]
 file = "kubejs/data/dungeons_arise/loot_tables/chests/abandoned_temple/abandoned_temple_entrance.json"
@@ -6477,8 +7097,312 @@ file = "kubejs/data/dungeons_arise/structures/scorched_mines/scorched_mines_trea
 hash = "46d2277dc81d33280524adc59e6d609c83a170f9b8b2147e1334fa1745341e88"
 
 [[files]]
+file = "kubejs/data/ecologics/legendarysurvivaloverhaul/temperature/consumables/tropical_stew.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/assorted_salad.json"
+hash = "01ad27d5f5bccfe59e6a899631e5fa63cc0f3b6fccd70151da635315b01472ea"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/bubble_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/chorus_flower_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/chorus_fruit_milk_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/chorus_fruit_popsicle.json"
+hash = "00d32e2360f05ef7aa0899f602abd9df1e55aaf49393862965a44008d04cf493"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/dragon_breath_and_chorus_soup.json"
+hash = "018705a00be63bc0513dca66b743d4b070168b2e39570116676deac86dcd0a0c"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/dragon_breath_soda.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/dragon_leg_with_sauce.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/dragon_meat_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/end_mixed_salad.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/ender_congee.json"
+hash = "26553db0ea11401caa6736da93d0d390b9c48964f461bc415126b5e74d70f386"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/grilled_shulker.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/roasted_dragon_meat.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/roasted_dragon_meat_cuts.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/roasted_dragon_steak.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/smoked_dragon_leg.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/steamed_dragon_egg.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/ends_delight/legendarysurvivaloverhaul/temperature/consumables/stir_fried_shulker_meat.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
 file = "kubejs/data/explorations/structures/underground_temple/rooms/large_hall.nbt"
 hash = "d0adeee9c29b06921c7d110cdb9aa46d42b3c73531e199507637b44863b73a9d"
+
+[[files]]
+file = "kubejs/data/exquisito/legendarysurvivaloverhaul/temperature/consumables/chorus_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/exquisito/legendarysurvivaloverhaul/temperature/consumables/warzipan_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/apple_cider.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/bacon_and_eggs.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/bacon_sandwich.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/baked_cod_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/beef_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/bone_broth.json"
+hash = "df18a3c3ce67480e4ddea893333d72259d851bb46542a677c0e40070a17e34d0"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/chicken_sandwich.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/chicken_soup.json"
+hash = "c18c0089fd76ceb760e9395b37dc18f4ee5e1f9a12570d6e94de9d37666a8a5d"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/dog_food.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/egg_sandwich.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/fish_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/fried_rice.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/glow_berry_custard.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_salmon.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/hamburger.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/honey_glazed_ham.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/hot_cocoa.json"
+hash = "018705a00be63bc0513dca66b743d4b070168b2e39570116676deac86dcd0a0c"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/melon_juice.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/melon_popsicle.json"
+hash = "00d32e2360f05ef7aa0899f602abd9df1e55aaf49393862965a44008d04cf493"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/mushroom_rice.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/mutton_wrap.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/noodle_soup.json"
+hash = "6264824111011ff2be517f04cef448836a030871cd5ef174c36700138ea9e779"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/pasta_with_meatballs.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/pasta_with_mutton_chop.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/pumpkin_soup.json"
+hash = "348b1dde6a778193b625bacd3f6ea6967a88b5a2388f1f6a0c4ef3391edf7975"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/ratatouille.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/roast_chicken.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/roasted_mutton_chops.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/shepherds_pie.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/squid_ink_pasta.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/steak_and_potatoes.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/stuffed_potato.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/stuffed_pumpkin.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/vegetable_noodles.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/farmersdelight/legendarysurvivaloverhaul/temperature/consumables/vegetable_soup.json"
+hash = "c18c0089fd76ceb760e9395b37dc18f4ee5e1f9a12570d6e94de9d37666a8a5d"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/black_cod.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/black_tea.json"
+hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/blazing_chili.json"
+hash = "dcf22df803f02371c91b35922404e588a00a74521f30f89af8b2e394b06a9433"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/coffee.json"
+hash = "e15656c72f93f8c6ba155201851988a6c16a5bcdd36a2c6ce2bf4156ee382299"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/dandelion_tea.json"
+hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/green_tea.json"
+hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/long_black_tea.json"
+hash = "e15656c72f93f8c6ba155201851988a6c16a5bcdd36a2c6ce2bf4156ee382299"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/long_coffee.json"
+hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/long_dandelion_tea.json"
+hash = "e15656c72f93f8c6ba155201851988a6c16a5bcdd36a2c6ce2bf4156ee382299"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/long_green_tea.json"
+hash = "e15656c72f93f8c6ba155201851988a6c16a5bcdd36a2c6ce2bf4156ee382299"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/long_rose_hip_tea.json"
+hash = "e15656c72f93f8c6ba155201851988a6c16a5bcdd36a2c6ce2bf4156ee382299"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/long_yellow_tea.json"
+hash = "e15656c72f93f8c6ba155201851988a6c16a5bcdd36a2c6ce2bf4156ee382299"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/rose_hip_tea.json"
+hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/strong_black_tea.json"
+hash = "01ad27d5f5bccfe59e6a899631e5fa63cc0f3b6fccd70151da635315b01472ea"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/strong_coffee.json"
+hash = "01ad27d5f5bccfe59e6a899631e5fa63cc0f3b6fccd70151da635315b01472ea"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/strong_green_tea.json"
+hash = "01ad27d5f5bccfe59e6a899631e5fa63cc0f3b6fccd70151da635315b01472ea"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/strong_hot_cocoa.json"
+hash = "defbf4559c343e034d5982408457f9f224125a9d4317a3f53520c64f2bfdfc40"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/strong_rose_hip_tea.json"
+hash = "01ad27d5f5bccfe59e6a899631e5fa63cc0f3b6fccd70151da635315b01472ea"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/strong_yellow_tea.json"
+hash = "01ad27d5f5bccfe59e6a899631e5fa63cc0f3b6fccd70151da635315b01472ea"
+
+[[files]]
+file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/yellow_tea.json"
+hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
 
 [[files]]
 file = "kubejs/data/gregtech/blaze_burner_fuel/ethanol.json"
@@ -6499,6 +7423,294 @@ hash = "9941fe1d3591de1f21cc44a749897528f3b2cb2f62aca6bf0bae8d183601bdf5"
 [[files]]
 file = "kubejs/data/gregtech/blaze_burner_fuel/seed_oil.json"
 hash = "e4a576b8ba311fdc18c00e06f617531931fb267fc03e7bc75988af2645b92fe6"
+
+[[files]]
+file = "kubejs/data/hotdog_delight/legendarysurvivaloverhaul/temperature/consumables/cooked_cod_hotdog.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/hotdog_delight/legendarysurvivaloverhaul/temperature/consumables/cooked_pork_hotdog.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/hotdog_delight/legendarysurvivaloverhaul/temperature/consumables/cooked_salmon_hotdog.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/canned_beef_potato.json"
+hash = "fc363565494ca4d898c640da34d08f21c82572fc38476954c1e65b3797c02243"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/canned_candied_apple.json"
+hash = "fc363565494ca4d898c640da34d08f21c82572fc38476954c1e65b3797c02243"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/canned_hoglin_confit.json"
+hash = "fc363565494ca4d898c640da34d08f21c82572fc38476954c1e65b3797c02243"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/canned_mutton_pumpkin.json"
+hash = "fc363565494ca4d898c640da34d08f21c82572fc38476954c1e65b3797c02243"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/canned_pork_beetroot.json"
+hash = "fc363565494ca4d898c640da34d08f21c82572fc38476954c1e65b3797c02243"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/canned_sweet_berry_milk.json"
+hash = "fc363565494ca4d898c640da34d08f21c82572fc38476954c1e65b3797c02243"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/carrot_and_carrot.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/carrot_tart.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/cocktail.json"
+hash = "e27ffaed1463096baa39bc8fa8818cb1e730fb3d85938df09787a30ba154ba1c"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/coral_coke.json"
+hash = "edaf3d89c4caad023bec60f9568175cc52fb71041ea66ded41e6ff97c80ed21f"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/cream_of_mushroom_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/curry_udon.json"
+hash = "fc363565494ca4d898c640da34d08f21c82572fc38476954c1e65b3797c02243"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/dandelion_coke.json"
+hash = "d09844df0cb4bcf4a3282e6fb03860690811af91d6637f4cee4f92844c74bcee"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/dragon_breath_coke.json"
+hash = "3906c99f4b5573e5e686bc2bff5ccd9b9ba361e76448cf13f916e044a33e1477"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/egg_tart.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/fishermens_delight.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/hi_nrg_brulee.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/honey_brulee.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/iced_melon_lager.json"
+hash = "b263df90cc24e0cdd8434552feaeb5a9de1d1264874e79c6c5652c70672b3ae0"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/lava_brulee.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/soothing_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/sweet_berry_tart.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/kitchenkarrot/legendarysurvivaloverhaul/temperature/consumables/ultra_super_delicious_cereal_porridge.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/blueberry_cherries_ice_cream.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/blueberry_ice_cream.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/borscht.json"
+hash = "ec42e3e4dc8c777b360d119c3151f1d821652c571f77a1d1608db5c43777022e"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/bubble_tea.json"
+hash = "ddc139798ecd80a8a503ff21768cfb8a160cb7244d7bda96385aa19e161ec8eb"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/cherries_ice_cream.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/chocolate_ice_cream.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/chorus_fruit_juice.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/coffee.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/cream_with_mushroom_soup.json"
+hash = "ec42e3e4dc8c777b360d119c3151f1d821652c571f77a1d1608db5c43777022e"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/fried_chicken.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/fried_drumstick.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/fried_fish.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/fried_porkchop.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/fried_steak.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/fried_tenpura.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/hamimelon_paleteria.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/heart_crush_paleteria.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/jalapeno_ice_cream.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/lemonade.json"
+hash = "ddc139798ecd80a8a503ff21768cfb8a160cb7244d7bda96385aa19e161ec8eb"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/luau_paleteria.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/melon_soda.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/miso_soup.json"
+hash = "ec42e3e4dc8c777b360d119c3151f1d821652c571f77a1d1608db5c43777022e"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/pineapple_paleteria.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/pink_snowman_paleteria.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/powsicle_paleteria.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/prawn_and_corn_soup.json"
+hash = "ec42e3e4dc8c777b360d119c3151f1d821652c571f77a1d1608db5c43777022e"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/starfruit_ice_cream.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/starfruit_jalapeno_ice_cream.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/vanilla_chocolate_ice_cream.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/vanilla_ice_cream.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/manors_bounty/legendarysurvivaloverhaul/temperature/consumables/watermelon_paleteria.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/blocks/lava.json"
+hash = "9b7bfbcab7e6cbb9f01e6a46e31b3bc2523ce97013d071adc490d12aab4d2069"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/blocks/soul_wall_torch.json"
+hash = "85fbbed08e5a94fd579d28d18b57ff53e93d2ccbd3a88c36a92a5261248c239e"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/consumables/beetroot_soup.json"
+hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/consumables/melon_slice.json"
+hash = "34cf0e79ef24a981a0864a24b95a8285667bfe299623dc3ee4ad4f12092943de"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/consumables/mushroom_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/consumables/rabbit_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/consumables/suspicious_stew.json"
+hash = "c71f13eff387f75aea3d1ab825002a644b5b7537eb41d809ddd1fdc6dac61c89"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/dimensions/the_end.json"
+hash = "0c8775f00890c63cdb8becb7f8eda132f7360f8c5af2d61dc1f2cba995665e7c"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/dimensions/the_nether.json"
+hash = "8904561ee8570a3b3e10e5dceaee7b0562cd2ef0169038dcf91409f7f5f5ec05"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/fuel_items/blue_ice.json"
+hash = "e9d4a905f954e1ec01f9b34b7918f4048c4d5cc10fd1ade0fa2439863884a51d"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/fuel_items/ice.json"
+hash = "e9d4a905f954e1ec01f9b34b7918f4048c4d5cc10fd1ade0fa2439863884a51d"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/fuel_items/packed_ice.json"
+hash = "e9d4a905f954e1ec01f9b34b7918f4048c4d5cc10fd1ade0fa2439863884a51d"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/fuel_items/snowball.json"
+hash = "e9d4a905f954e1ec01f9b34b7918f4048c4d5cc10fd1ade0fa2439863884a51d"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/items/leather_boots.json"
+hash = "662a293e4ca10a7fb45c018c3664c2260252fb021a8d370906565236e75aadaa"
+
+[[files]]
+file = "kubejs/data/minecraft/legendarysurvivaloverhaul/temperature/items/leather_helmet.json"
+hash = "11f34311b69a3b11864645ed37e3b9010a879d3533868db5cbe34603f869fdbe"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_tables/gameplay/cat_morning_gift.json"
@@ -6639,6 +7851,286 @@ hash = "c6956726533d31f300ec2fdbd63e1e202f2221255d686e51f2acf6c3df534223"
 [[files]]
 file = "kubejs/data/minecraft/structures/ruined_portal/portal_9.nbt"
 hash = "52b3067c3de6c4616079b0b74510afe89bf219ca0f84eaa42c17ad5bf90f1c22"
+
+[[files]]
+file = "kubejs/data/muffins_thaidelight/legendarysurvivaloverhaul/temperature/consumables/crab_fried_rice.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/muffins_thaidelight/legendarysurvivaloverhaul/temperature/consumables/stir_fried_noodle.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/bleeding_tartar.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/blue_tenderloin_steak.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/breakfast_sampler.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/bullet_pepper.json"
+hash = "8d88fe937a9d00bee951154a4645297cbf2ea0f1ff44cee4e31df8ef82271986"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/chilidog.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/crimson_stroganoff.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/deviled_egg.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/fried_hoglin_chop.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/ghast_salad.json"
+hash = "4b9aa029c7d74a74022562ec8f8f11a11a122a1c387b92a8c477440c706165be"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/hot_cream.json"
+hash = "01ad27d5f5bccfe59e6a899631e5fa63cc0f3b6fccd70151da635315b01472ea"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/hot_cream_cone.json"
+hash = "01ad27d5f5bccfe59e6a899631e5fa63cc0f3b6fccd70151da635315b01472ea"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/hot_wings.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/hotdog.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/plate_of_cold_striderloaf.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/plate_of_ghasta_with_cream.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/plate_of_striderloaf.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/plate_of_stuffed_hoglin.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/plate_of_stuffed_hoglin_ham.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/plate_of_stuffed_hoglin_snout.json"
+hash = "9a146b62284a2ffd53f457c8eaaa5de8c1dc90812ce9c2b88317bc91737d49ec"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/sausage_and_potatoes.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/spicy_curry.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/spicy_hoglin_stew.json"
+hash = "99f713d821a5f4403df7d7f65a6848a065df67188ea647ada74b3c36f66410ed"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/spicy_noodle_soup.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/spicy_skewer.json"
+hash = "a851170fbd1d6892f3415672da944ad4390991e96264a85111ccbbbe459ddbbd"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/strider_stew.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/legendarysurvivaloverhaul/temperature/consumables/strider_with_grilled_fungus.json"
+hash = "50b31456911ea6cc935c6376768540cf15ad7cce7fabb78b6697d3c2adca6be4"
+
+[[files]]
+file = "kubejs/data/neapolitan/legendarysurvivaloverhaul/temperature/consumables/adzuki_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/neapolitan/legendarysurvivaloverhaul/temperature/consumables/adzuki_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/neapolitan/legendarysurvivaloverhaul/temperature/consumables/banana_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/neapolitan/legendarysurvivaloverhaul/temperature/consumables/chocolate_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/neapolitan/legendarysurvivaloverhaul/temperature/consumables/mint_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/neapolitan/legendarysurvivaloverhaul/temperature/consumables/neapolitan_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/neapolitan/legendarysurvivaloverhaul/temperature/consumables/strawberry_banana_smoothie.json"
+hash = "61e1051486ea8d59d7d4c993852e6b9e1673a19c420bb36304ccb5fee1c3c57c"
+
+[[files]]
+file = "kubejs/data/neapolitan/legendarysurvivaloverhaul/temperature/consumables/strawberry_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/neapolitan/legendarysurvivaloverhaul/temperature/consumables/vanilla_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/oceanic_delight/legendarysurvivaloverhaul/temperature/consumables/bowl_of_paella.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/oceanic_delight/legendarysurvivaloverhaul/temperature/consumables/fish_egg_noodle_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/oceanic_delight/legendarysurvivaloverhaul/temperature/consumables/glow_squid_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/oceanic_delight/legendarysurvivaloverhaul/temperature/consumables/pasta_with_eyeball.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/oceanic_delight/legendarysurvivaloverhaul/temperature/consumables/plate_of_stuffed_pufferfish.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/oceanic_delight/legendarysurvivaloverhaul/temperature/consumables/shrimp_rice.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/oceanic_delight/legendarysurvivaloverhaul/temperature/consumables/shrimp_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/oceanic_delight/legendarysurvivaloverhaul/temperature/consumables/squid_and_pickles.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/oceanic_delight/legendarysurvivaloverhaul/temperature/consumables/steamed_beef.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/oceansdelight/legendarysurvivaloverhaul/temperature/consumables/bowl_of_guardian_soup.json"
+hash = "99f713d821a5f4403df7d7f65a6848a065df67188ea647ada74b3c36f66410ed"
+
+[[files]]
+file = "kubejs/data/oceansdelight/legendarysurvivaloverhaul/temperature/consumables/braised_sea_pickle.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/quarkdelight/legendarysurvivaloverhaul/temperature/consumables/bowl_of_exotic_fruits.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/quarkdelight/legendarysurvivaloverhaul/temperature/consumables/bucket_of_sweet_gelatine.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/quarkdelight/legendarysurvivaloverhaul/temperature/consumables/cavern_explorer_stew.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/quarkdelight/legendarysurvivaloverhaul/temperature/consumables/cooked_whole_crab.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/quarkdelight/legendarysurvivaloverhaul/temperature/consumables/crab_pasta.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/quarkdelight/legendarysurvivaloverhaul/temperature/consumables/miso_with_bamboo_sprouts.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/refurbished_furniture/legendarysurvivaloverhaul/temperature/consumables/cheese_sandwich.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/refurbished_furniture/legendarysurvivaloverhaul/temperature/consumables/cheese_toastie.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/refurbished_furniture/legendarysurvivaloverhaul/temperature/consumables/meatlovers_pizza_slice.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/refurbished_furniture/legendarysurvivaloverhaul/temperature/consumables/vegetable_pizza_slice.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/seeddelight/legendarysurvivaloverhaul/temperature/consumables/cherry_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/seeddelight/legendarysurvivaloverhaul/temperature/consumables/cherry_jam_sandwich.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/seeddelight/legendarysurvivaloverhaul/temperature/consumables/cherry_pork.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/seeddelight/legendarysurvivaloverhaul/temperature/consumables/pinenut_gruel.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/seeddelight/legendarysurvivaloverhaul/temperature/consumables/pinenut_with_meatballs.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/seeddelight/legendarysurvivaloverhaul/temperature/consumables/rosehip_jam_sandwich.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/silentsdelight/legendarysurvivaloverhaul/temperature/consumables/heartburger.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/silentsdelight/legendarysurvivaloverhaul/temperature/consumables/plate_of_warden_heart.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/silentsdelight/legendarysurvivaloverhaul/temperature/consumables/sculk_shrieker_shake.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/silentsdelight/legendarysurvivaloverhaul/temperature/consumables/sculk_soup.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/silentsdelight/legendarysurvivaloverhaul/temperature/consumables/sculk_vein_salad.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/silentsdelight/legendarysurvivaloverhaul/temperature/consumables/warden_ear_fried_rice.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
 
 [[files]]
 file = "kubejs/data/snowstructures/advancements/begining.json"
@@ -6785,6 +8277,50 @@ file = "kubejs/data/snowstructures/worldgen/template_pool/biome_specifics/plains
 hash = "37228beb4ed8c022701bbc0d3e39c9a8f8be1136261d4180fdd0ef27577003d6"
 
 [[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/beef_burger.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/beef_rice_bowl.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/bottle_drink.json"
+hash = "4e52da50dda8bdb6621579559abaf6a14bbb5137029b694217e2c0c498a2a68d"
+
+[[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/chicken_burger.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/honey_bitter_gourd.json"
+hash = "da4645287045337c626a037640b11794564b41b5ae88254ba98eeb481306cb29"
+
+[[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/nether_wart_rice_bowl.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/pickled_cabbage_with_fish.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/porcelain_cup_drink.json"
+hash = "4e52da50dda8bdb6621579559abaf6a14bbb5137029b694217e2c0c498a2a68d"
+
+[[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/pork_baozi.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/shredded_cucumber_salad.json"
+hash = "da4645287045337c626a037640b11794564b41b5ae88254ba98eeb481306cb29"
+
+[[files]]
+file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/spicy_beef_rice_bowl.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
 file = "kubejs/data/tetra/loot_tables/actions/geode.json"
 hash = "210af51ccd6a10217580bae237640c5025dc8ef2393a5140d5dd9cb48ae73646"
 
@@ -6859,6 +8395,110 @@ hash = "83590cb71e68e818bc243efcd76db429cc901f6a8255467a806e758355bfec44"
 [[files]]
 file = "kubejs/data/tetra/materials/metal/tetranichematerials_red_gold.json"
 hash = "4be02b6009d679d7d30a58811d39701f761bdce8fc1b1e1b9de932711d45266f"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/aurora_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/aurora_pie_slice.json"
+hash = "3a2ea5be039a0aa5a01cf8e4cc2a0e0391e2513c6f93c8182c5a9b9514ce42a8"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/borer_tear_soup.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/fried_insect.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/ghast_brain_salad.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/glacier_cake_slice.json"
+hash = "3a2ea5be039a0aa5a01cf8e4cc2a0e0391e2513c6f93c8182c5a9b9514ce42a8"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/glacier_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/glacier_ice_tea.json"
+hash = "6138266f42ab92bec79d2dca316b609ca29925a7d03c4522058cba9f28bb983b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/glacier_milkshake.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/glow_venison_rib_with_pasta.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/glowstew.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_ghast.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/grilled_tomahawk_smeak.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/mushgloom_meef_pasta.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/mushgloom_sauce.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/phytochemical_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/plate_of_fiery_snakes.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/plate_of_lily_chicken.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/plate_of_meef_wellington.json"
+hash = "69d178ddd192ec9a9a2613af917481184d48bf0b072cd57615409fa2957c594b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/rainbow_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/refreshing_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/thousand_plant_stew.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/torchberry_ice_cream.json"
+hash = "93c6d083919bad9dded0fc47cbe02ca672f65aa9e5b79f51ac2227f851c2f561"
+
+[[files]]
+file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/twilight_ice_cream.json"
+hash = "91025725a50889fdd597d37de7d6ffdf022a124518d0339bd0f7130b06b4d9f1"
+
+[[files]]
+file = "kubejs/data/twilightforest/legendarysurvivaloverhaul/temperature/consumables/meef_stroganoff.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/twilightforest/legendarysurvivaloverhaul/temperature/dimensions/twilight_forest.json"
+hash = "52d68c3962e6f39499b33fcd825b20b35f53dd224b6a2ff0c8bd43bedd137419"
 
 [[files]]
 file = "kubejs/data/twilightforest/stalactites/entries/coal_ore_stalactite.json"
@@ -6943,6 +8583,230 @@ hash = "bf0220df46bae9457d624430ecb9a6313a2c8cd1a318122db711c42e99aa784d"
 [[files]]
 file = "kubejs/data/twilightforest/worldgen/configured_feature/legacy_redstone_ore.json"
 hash = "3935a1813e0314feeec903b09bd9979a298dc51d4103a486bce19b64e1fc0724"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/blazing_ale.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/bowl_of_snow_head.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/chunk_of_glacier.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/cold_pudding.json"
+hash = "1933c2ca70f4b1f120bf0f3db8a83b5e8f11d865a13be005b4afc62b6ddfb4ab"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/dragon_chillbreath.json"
+hash = "5c88a2550f75caa0b61f4e538b1ce8cc716926af6d6e58c1dcd203c5c0b85f60"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/everwatch_ice_cream.json"
+hash = "838b1d4814732829954c89de51c18cb6a80efa4cc5ac535f585e3cd2191aec8f"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/flake_fry.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/frozen_apple.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/frozen_flesh.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/frozen_ham.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/ghoulash.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/glacier_tequila.json"
+hash = "5c88a2550f75caa0b61f4e538b1ce8cc716926af6d6e58c1dcd203c5c0b85f60"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/ice_spikes_in_the_bowl.json"
+hash = "5c88a2550f75caa0b61f4e538b1ce8cc716926af6d6e58c1dcd203c5c0b85f60"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/iceberg_cookie.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/iced_macarong.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/icy_bread.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/mitey_meal.json"
+hash = "dcf22df803f02371c91b35922404e588a00a74521f30f89af8b2e394b06a9433"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/mossycle.json"
+hash = "41c1a459966771355bae11fcd608f0a64863ebb62c183e80f69b4a2c13dcca5d"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/pop_shroomlight.json"
+hash = "edaf3d89c4caad023bec60f9568175cc52fb71041ea66ded41e6ff97c80ed21f"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/popsiclime.json"
+hash = "41c1a459966771355bae11fcd608f0a64863ebb62c183e80f69b4a2c13dcca5d"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/roast_tentacle.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/sea_pickle_tea.json"
+hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/slime_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/sniffer_sizzle.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/snoburger.json"
+hash = "41c1a459966771355bae11fcd608f0a64863ebb62c183e80f69b4a2c13dcca5d"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/snowflake_cookie.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/snowman_cookie.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/snowman_slush.json"
+hash = "5c88a2550f75caa0b61f4e538b1ce8cc716926af6d6e58c1dcd203c5c0b85f60"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/soda.json"
+hash = "edaf3d89c4caad023bec60f9568175cc52fb71041ea66ded41e6ff97c80ed21f"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/soul_parfait.json"
+hash = "edaf3d89c4caad023bec60f9568175cc52fb71041ea66ded41e6ff97c80ed21f"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/spiked_dumpling.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/taigaade.json"
+hash = "5c88a2550f75caa0b61f4e538b1ce8cc716926af6d6e58c1dcd203c5c0b85f60"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/tundra_skewer.json"
+hash = "2175528b5bc544626aa3981b7d5e984a0868f87c3e21d61d8d0a5b21d38b0ab4"
+
+[[files]]
+file = "kubejs/data/unusual_delight/legendarysurvivaloverhaul/temperature/consumables/warp_burger.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/apple_soda.json"
+hash = "e27ffaed1463096baa39bc8fa8818cb1e730fb3d85938df09787a30ba154ba1c"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/berry_ice_cream.json"
+hash = "80a901e43d8f01a4b30e837538368d33959654ed058081947b3d0c549a013995"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/cactus_soda.json"
+hash = "e27ffaed1463096baa39bc8fa8818cb1e730fb3d85938df09787a30ba154ba1c"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/chicken_soup.json"
+hash = "af74a0e91b44608bf5c7340dbe0e3eefd11b09a59fd759a300e5e7657b976e9a"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/chocolate_ice_cream.json"
+hash = "80a901e43d8f01a4b30e837538368d33959654ed058081947b3d0c549a013995"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/chorus_soda.json"
+hash = "e27ffaed1463096baa39bc8fa8818cb1e730fb3d85938df09787a30ba154ba1c"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/fish_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/fungus_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/garden_soup.json"
+hash = "af74a0e91b44608bf5c7340dbe0e3eefd11b09a59fd759a300e5e7657b976e9a"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/glow_ink_soup.json"
+hash = "af74a0e91b44608bf5c7340dbe0e3eefd11b09a59fd759a300e5e7657b976e9a"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/ice_cream.json"
+hash = "80a901e43d8f01a4b30e837538368d33959654ed058081947b3d0c549a013995"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/ice_cream_cake_slice.json"
+hash = "93c6d083919bad9dded0fc47cbe02ca672f65aa9e5b79f51ac2227f851c2f561"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/ink_soup.json"
+hash = "af74a0e91b44608bf5c7340dbe0e3eefd11b09a59fd759a300e5e7657b976e9a"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/meaty_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/melon_soda.json"
+hash = "e27ffaed1463096baa39bc8fa8818cb1e730fb3d85938df09787a30ba154ba1c"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/mushroom_scrambled_eggs.json"
+hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/neapolitan_ice_cream.json"
+hash = "80a901e43d8f01a4b30e837538368d33959654ed058081947b3d0c549a013995"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/pumpkin_soup.json"
+hash = "af74a0e91b44608bf5c7340dbe0e3eefd11b09a59fd759a300e5e7657b976e9a"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/sea_pickle_soda.json"
+hash = "e27ffaed1463096baa39bc8fa8818cb1e730fb3d85938df09787a30ba154ba1c"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/smoldering_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/vanillacookbook/legendarysurvivaloverhaul/temperature/consumables/vegetable_stew.json"
+hash = "2ff131e76e360fdeb0cd7227de6f5254f94708cd7613f8a055d9e6220eefb848"
+
+[[files]]
+file = "kubejs/data/vinery/legendarysurvivaloverhaul/temperature/consumables/eiswein.json"
+hash = "edaf3d89c4caad023bec60f9568175cc52fb71041ea66ded41e6ff97c80ed21f"
 
 [[files]]
 file = "kubejs/jsconfig.json"
@@ -7518,7 +9382,7 @@ hash = "4715f3e8389feb6ce89881f158d812f7c04d586cd327bb2b9536847405215c9a"
 
 [[files]]
 file = "kubejs/server_scripts/src/crafttable.js"
-hash = "9bcc36681df72bbfce4fa47c501806a22977186010d8451eec00146a1df0ae25"
+hash = "a36994f502449f3554a0fc0c1d6cfb85f65c732d27be510b99dcce59c2065951"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
@@ -7530,19 +9394,19 @@ hash = "8731501899379d62219dad28378e7c8d98d36f94fb3c1380180bd2af756480e0"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/create.js"
-hash = "25bf29f46863bd2ff0d6488fd7582896e3b3ce7c9e39e4e284b3abb21d23e1a4"
+hash = "c738c04b9729b8337a511026b718885c23c35223a02d7def4066da1c26b640c0"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/createFallen.js"
-hash = "38ca6b8aba2f28cb21d87e9bc8f3aeded65947b0236fa3836ef5c35ebd39edbb"
+hash = "959680aad4c347b376e52b4ada15b54a5cb3b5c60b7b5f154aff14a6b2d1a517"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/dieselgenerator.js"
-hash = "4e4bf559f19557edc01fb99b2d42c33885d33a9216560fb5d4556787f7033bbc"
+hash = "dd83aa3edd90a1578168e459a028f9ee8392c97be27384645ecb436b887dc474"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
-hash = "c66acb5e337b9b72acb019a3e1b86ac5022e19e59c8ea93457742f2490955fa1"
+hash = "a1f659892f6fccb95a8994e7a1ad93dd5ea71786cfb1d53b50dec3bdddfd2e41"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/oreexcavation.js"
@@ -7710,15 +9574,15 @@ hash = "8fb12367dccf421e66c69062587c404fcbc1db7bf1916462812adc054ab75bf2"
 
 [[files]]
 file = "kubejs/server_scripts/src/immersive aircraft/create.js"
-hash = "cc8743ce173a2e7237a0723cff61d16430d02d089e5a3a250f6679520a645443"
+hash = "6f580828f4e872b0c078157295e4f11dde72ebb6e3a67b21c31a3a89f5bd9d3e"
 
 [[files]]
 file = "kubejs/server_scripts/src/immersive aircraft/fly.js"
-hash = "00fce78fb26610a10452d1a1de3ba52c7718738cc4477cf8c743a882fb639e51"
+hash = "35e83e9fff270074cbdee4f81b6af9a627b316197a7883f60b3cf6ee4aa89aa5"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot.js"
-hash = "0f17f4b53ad4b97648b8f2a1002ec53465f861438487f8395d304e002d3918e3"
+hash = "c6833c2ae5276de9a69444a0e6b7ad04dbff67a77c634803458a1e5f0cd889b1"
 
 [[files]]
 file = "kubejs/server_scripts/src/managenerator.js"
@@ -7830,7 +9694,7 @@ hash = "74155bdc794aa0a03f9ff98352fef4ecf738052ad2cd540805902a3be176441c"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
-hash = "63740fed7c965a4b5433c533fe566122e4f5987fd2f6bc6863d5c8512c612ab7"
+hash = "6a026927e631e66bbd122c1736dd5482fb2ca591760f68a942efb33b8d13ba70"
 
 [[files]]
 file = "kubejs/startup_scripts/src/test.js"
@@ -8217,6 +10081,11 @@ hash = "55c30aaf3a7b9803210ce79819d4d445a7b769ab7348662698d934e5b8d0413f"
 metafile = true
 
 [[files]]
+file = "mods/ecliptic-seasons.pw.toml"
+hash = "da298ff9aa61db7198a733467c870f47b670ae57a19453891942c5f61aa37062"
+metafile = true
+
+[[files]]
 file = "mods/ecologics.pw.toml"
 hash = "45b7ea18ce0a2f2efc62b3dddd3826708b2bdaf83abc1dc0d9e77b2eb4f75872"
 metafile = true
@@ -8568,7 +10437,7 @@ metafile = true
 
 [[files]]
 file = "mods/legendary-survival-overhaul.pw.toml"
-hash = "f7fd6842e7f415a2d0d5e1a2db8ecf5da94792216d5f0b0dcfdcdafa09d0f690"
+hash = "aed938d63c031db4b22c407cd86298db473a79f21c1e4afd88c9dfe7af63c159"
 metafile = true
 
 [[files]]
@@ -8617,6 +10486,11 @@ hash = "4fc0d346c5b19482a6bc9227c8912e7187956bd95c52cdb90520b5061bd553b0"
 metafile = true
 
 [[files]]
+file = "mods/maid-storage-manager.pw.toml"
+hash = "a73744a74a60e03b01589511940fb280ea383653be2a02a4f0a0a22a07b40019"
+metafile = true
+
+[[files]]
 file = "mods/max-health-fix.pw.toml"
 hash = "a943604984727e61d0de492d71198bf5667278363c8359b71bd6719733cf8813"
 metafile = true
@@ -8658,7 +10532,7 @@ metafile = true
 
 [[files]]
 file = "mods/mpem.pw.toml"
-hash = "b72db18f9f2861cc5574391d2ab353ae1e1565fc06504010d51927bb51853c99"
+hash = "2e5576658a058989d3f9d3e45c11bea5fdf88833f3aecf1d710f86d168d46dee"
 metafile = true
 
 [[files]]
@@ -8812,11 +10686,6 @@ hash = "0c6c6c5e087459e4a84ca81ff2e1aef7576018c030280e2f6f224f6243248665"
 metafile = true
 
 [[files]]
-file = "mods/seasonhud.pw.toml"
-hash = "8204c26d3f76210307f30942bc087a09ebcb9bc1fe0cdaeb58c4bc73f09b8cb1"
-metafile = true
-
-[[files]]
 file = "mods/seed-delight.pw.toml"
 hash = "eee69d78b5ac4e04d11719460e05e0e96616b05633b3d8bee3f06cb84c6c71c6"
 metafile = true
@@ -8824,16 +10693,6 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "7fc91ef8f26da3df3aa0c582d3d1725c6f9972252bcd65d9a47226bcdc4b35db"
-metafile = true
-
-[[files]]
-file = "mods/serene-seasons-fix.pw.toml"
-hash = "d27a9f12d18fe5535f4cd415bfb1eac01e1c64c37ecc7627dac63b940894f1ac"
-metafile = true
-
-[[files]]
-file = "mods/serene-seasons.pw.toml"
-hash = "01e0a8c575a400339968b9633591cb9797a61e42762eb0a85c73ba0e02ff286e"
 metafile = true
 
 [[files]]
@@ -8963,7 +10822,7 @@ metafile = true
 
 [[files]]
 file = "mods/touhou-little-maid.pw.toml"
-hash = "ed1c3d49bbd6c201de4dd01b31d5ac97ccd16b6c30db0bdbe37ea2bd0b1274e8"
+hash = "b9d457e19fd173936510739a07d588d603eb18509b1e72e85a14537ffd8d7b15"
 metafile = true
 
 [[files]]
@@ -9009,11 +10868,6 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "1d55ee116e6acca4f37a0dac140d7c36182e89139483780e48e7b481c48e7c91"
-metafile = true
-
-[[files]]
-file = "mods/weather-storms-tornadoes.pw.toml"
-hash = "a5e9036aa7ff935aa8066258f6f1cf437b847419768415812baf1c9efa436a5c"
 metafile = true
 
 [[files]]
