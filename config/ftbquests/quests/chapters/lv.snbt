@@ -157,7 +157,6 @@
 			description: ["{ftbquests.chapter.lv.quest10.description1}"]
 			id: "7AE674329D7E7944"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "35BBCFC12AAADAA2"
 				table_id: 601634794626000726L
 				type: "random"
