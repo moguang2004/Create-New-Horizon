@@ -139,7 +139,8 @@ ServerEvents.recipes(event => {
         "createdieselgenerators:compression_molding/bucket",
         "sophisticatedstorage:backpack_stack_upgrade_omega_tier_from_storage_stack_upgrade_omega_tier",
         "sophisticatedstorage:stack_upgrade_omega_tier",
-        "sophisticatedstorage:void_upgrade"
+        "sophisticatedstorage:void_upgrade",
+        "extrabotany:terra_plate/the_universe"
 
     ])
     remove_recipes_output(event, [

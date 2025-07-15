@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     let ctnh = event.recipes.gtceu
-    //基岩主线
+        //基岩主线
     ctnh.bedrock_drilling_rigs("bedrock_dust_1")
         .circuit(1)
         .inputFluids("gtceu:drilling_fluid 500")
@@ -74,15 +74,15 @@ ServerEvents.recipes(event => {
     ctnh.distillation_tower("bedrock_smoke_distillation")
         .inputFluids('gtceu:f_bedrock_smoke_re 2000')
         .outputFluids("gtceu:bedrock_smoke_re_l 1000", 'gtceu:bedrock_smoke_re_m 500', 'gtceu:bedrock_smoke_re_h 250', 'gtceu:fluorine 500')
-        .itemOutputs('2x gtceu:tiny_taranmix_dust') 
+        .itemOutputs('2x gtceu:tiny_taranmix_dust')
         .EUt(491520)
         .duration(500)
     ctnh.centrifuge("bedrock_smoke_separation_1")
-       .inputFluids("gtceu:bedrock_smoke_re_l 1000")
-       .outputFluids("gtceu:ax_jiyanqi 100", "gtceu:nq_fuelmk1 75")
-       .itemOutputs('3x gtceu:naquadah_oxide_mixture_dust', '8x gtceu:samarium_dust')
-       .EUt(1966080)
-       .duration(140)
+        .inputFluids("gtceu:bedrock_smoke_re_l 1000")
+        .outputFluids("gtceu:ax_jiyanqi 100", "gtceu:nq_fuelmk1 75")
+        .itemOutputs('3x gtceu:naquadah_oxide_mixture_dust', '8x gtceu:samarium_dust')
+        .EUt(1966080)
+        .duration(140)
     ctnh.centrifuge("bedrock_smoke_separation_2")
         .inputFluids("gtceu:bedrock_smoke_re_m 1000")
         .outputFluids("gtceu:ax_jiyanqi 200", "gtceu:nq_fuelmk2 45")
@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
         .outputFluids("gtceu:ax_jiyanqi 300", "gtceu:nq_fuelmk3 15")
         .itemOutputs('3x gtceu:naquadria_oxide_mixture_dust', '2x gtceu:americium_dust')
         .EUt(1966080)
-        .duration(140)    
+        .duration(140)
     ctnh.electric_blast_furnace("radioactive_material_separation")
         .inputFluids('gtceu:bedrock_gas 1000')
         .circuit(0)
@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
         .chancedOutput('gtceu:boundless_dust', 5000, 1000)
         .EUt(7864320)
         .duration(500)
-    //放射性处理产线---基岩支线
+        //放射性处理产线---基岩支线
     ctnh.mixer("enrichment_of_radioactive_materials")
         .itemInputs('gtceu:plutonium_241_dust', 'gtceu:radioactive_metals_mix_dust', 'gtceu:uranium_235_dust')
         .inputFluids("gtceu:nitration_mixture 4000")
@@ -160,7 +160,7 @@ ServerEvents.recipes(event => {
         .addCondition($GTNNRecipes.setNA(600, 110))
     ctnh.centrifuge("neutron_substance_separation")
         .inputFluids('gtceu:neutron_irradiation_of_radioactive_waste 1000')
-        .outputFluids('gtceu:radon 8000', 'gtceu:fluorine 16000', 'gtceu:helium_plasma 4000','gtceu:nuclear_waste_water 16000')
+        .outputFluids('gtceu:radon 8000', 'gtceu:fluorine 16000', 'gtceu:helium_plasma 4000', 'gtceu:nuclear_waste_water 16000')
         .itemOutputs('3x gtceu:radiation_dust_dust', '2x gtceu:small_mendelevium_dust', 'gtceu:small_tritanium_dust')
         .EUt(491020)
         .duration(80)
@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
     ctnh.electric_blast_furnace('enrichment_of_low_radioactive_materials')
         .inputFluids('gtceu:low_level_radioactive_dust 1000')
         .notConsumable('gtnn:neutron_source')
-        .outputFluids('gtceu:concentrated_low_level_radioactive_dust 1000') 
+        .outputFluids('gtceu:concentrated_low_level_radioactive_dust 1000')
         .itemOutputs('16x gtceu:americium_dust', '8x gtceu:melodic_alloy_dust')
         .blastFurnaceTemp(9100)
         .EUt(491020)
@@ -210,12 +210,12 @@ ServerEvents.recipes(event => {
         .EUt(-491020)
         .duration(300)
     ctnh.centrifuge("nuclear_waste_water_treatment")
-        .inputFluids('gtceu:nuclear_waste_water 1000')
+        .inputFluids('gtceu:nuclear_waste_water 2000')
         .outputFluids('alexscaves:acid 4000')
-        .itemOutputs('2x gtceu:tiny_naquadria_dust')
+        .itemOutputs('1x gtceu:tiny_naquadria_dust')
         .EUt(114514)
         .duration(40)
-    //P-507
+        //P-507
     ctnh.large_chemical_reactor('2-ethyl_hexanol_1')
         .notConsumable('gtceu:copper_chromium_catalyst_dust')
         .inputFluids('gtceu:diesel 1000')
@@ -292,7 +292,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:copper_chromium_catalyst_dust')
         .EUt(1920)
         .duration(1000)
-    //塔兰金属混合物的处理
+        //塔兰金属混合物的处理
     ctnh.distillery('talanchuli0')
         .itemInputs('5x gtceu:taranmix_dust')
         .inputFluids('gtceu:helium_3 1000')
@@ -337,7 +337,7 @@ ServerEvents.recipes(event => {
     ctnh.differential_centrifuge("refined_gold_separation_and_purification")
         .circuit(1)
         .inputFluids("gtceu:refined_gold_aq 1000")
-        .itemOutputs('6x gtceu:naquadria_dust', '3x gtceu:adamantite_dust')
+        .itemOutputs('6x gtceu:enriched_naquadah_dust', '3x gtceu:adamantite_dust')
         .EUt(122340)
         .duration(120)
     ctnh.plasma_condenser('taran_processing_5')
@@ -397,12 +397,12 @@ ServerEvents.recipes(event => {
         .blastFurnaceTemp(10800)
         .EUt(491520)
         .duration(100)
-        
-    
-        
-    
-    
-    
+
+
+
+
+
+
 
 
 
