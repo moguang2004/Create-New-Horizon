@@ -162,7 +162,7 @@ hash = "8dea2945143e4e9e5bb0c6460296ad42a45ad95518d75a9ae36e2645c1f1e2be"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "f95f5b8f8518f37b0f350e97fcd08de891d89080eeb51ded7051d2ed87c4cf5b"
+hash = "b7bcaeed16a8aa30aac38f744d87e06b87ad8b198c65b818356ddc10d1d3a0e3"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -858,7 +858,7 @@ hash = "0b0c0e9ea52429869b7697ceebae1c1fab192986a83033f411d3f7d065de63a9"
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
-hash = "956e58274124b518819f64e5e6261ba78cb0a7568431d475c0d7ea60fa7d9b0a"
+hash = "8c073b8b7e436bc031acb7894639b8fa677a1b8e0bacdec45a3c649404adabd3"
 
 [[files]]
 file = "config/ecologics-common.toml"
@@ -1085,12 +1085,20 @@ file = "config/extendedcrafting/singularities/tin.json"
 hash = "7d14428e455fa281ef96456b60df63a2cc83a2e2e5c2a8801bf9f18c34fee438"
 
 [[files]]
+file = "config/extrabotany-client.toml"
+hash = "46a265304c34e9814318ea4ba620d7762e29cdf7d0fb0088d623de7b8a22846d"
+
+[[files]]
+file = "config/extrabotany-common.toml"
+hash = "1d5e6847df0f6795aef60ad92d4bb10ac36aa1ed12fe45da84d63a6752073ec9"
+
+[[files]]
 file = "config/extremesoundmuffler-client.toml"
 hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "3124e55283614bc6f5bcf8a7b3dc87b9995b47b2a8601b56ca2fb01da987d7a8"
+hash = "0836f8677aafff0b595da2e80c65eff72f8e8e145f733bc82c9b61cfbb462c15"
 
 [[files]]
 file = "config/fancymenu/assets/2024-08-19_19.51.04.png"
@@ -1202,7 +1210,7 @@ hash = "67986d6c62393378305ad782cec0fbbb414570504ab816d4cb1bb08805e25086"
 
 [[files]]
 file = "config/farmingforblockheads/MarketRegistry.json"
-hash = "5e6f750c6da587cf2dfd61ec24f56ff9d0fb7e779316c6a2e9bf0fc35df16021"
+hash = "cb6f5c324345b2409e5430971fd94726437a9907c4c3ea224e294f7893911601"
 
 [[files]]
 file = "config/farsight.json"
@@ -1278,7 +1286,7 @@ hash = "315c6d9b53e20861cf96936b7795f917d2824fc74a672b799ea29ac53ba9802d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
-hash = "9cb7e06821926622969f7a4641c29953733135a94c87315aafb988683be7b56d"
+hash = "cfe21a7d07084f3385cae94f372d11d5755e75f9f12ff65d7035829ee449c7bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09F33579334F2607.snbt"
@@ -1326,7 +1334,7 @@ hash = "142f5e3d8f5140fb7bae17ebb903fff28db96a9f72cd9a3d99edc508da11693d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "84891af5cfce85423621bc8fffd47b8e533953bec2a22e8f44253592e79cb00e"
+hash = "7e6b0e5e3428926639b15736de85ec5e49f78304875776243845fbf386f1d9f2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -1354,7 +1362,7 @@ hash = "f0f322fd47eea5e22832b427ad2530e15993a587d0203991a23097ed5b572c38"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
-hash = "2caddfbe23f5166d32a541843b9b53d41a7e3f655ece9f1e8cb6733e669e834a"
+hash = "a0eb5376fe0d345403fb509cb77ae40a89dc7965d40b150327669633147f5a0c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
@@ -1378,7 +1386,7 @@ hash = "83e2531ea3c67385ba613266adea6bbd4059c62b08623172928641ed6e3e3cf2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "bab36c4209f19982f5599c2d592d88d678226ae9d4d60bfb361aaba9d2d77309"
+hash = "98a2d3b7222ab6f43220d86fec19ccac4dc5de80a215465786f7fa0b87d82d56"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
@@ -1405,6 +1413,10 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "56165c34e7b21756eae8a7133dd75e3b591f4b2dd0aaad9487cf9a8d882960e3"
 
 [[files]]
+file = "config/ftbquests/quests/reward_tables/15e1a7c9be089db2.snbt"
+hash = "673e68beffd95a1944cba7d652fc16fd3ef9c0860a4f855ce0d4a381b712bc6b"
+
+[[files]]
 file = "config/ftbquests/quests/reward_tables/ev.snbt"
 hash = "9d5876e7546c3edd14a6730e7de863fb0186d034ce1f74893d0cddb85fba15eb"
 
@@ -1418,7 +1430,7 @@ hash = "936746ca752d521d41509b215a4814f24e00a01932cefeea4df48d402dd9e928"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/lv.snbt"
-hash = "306b5e023a1cb0e2d6aee91a32608d2de6e30a1c447a71e6a6f5fa8b9cf0aaa5"
+hash = "1b0b34fecf3a1210b625489daf1102628571d0a505db338a36974db7f147380b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/mv.snbt"
@@ -1662,7 +1674,7 @@ hash = "e857597972887f1a9e544b2b49336bd71447ee341ea133758021690707ec3ab9"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "b8d4d08baf9af5ef7625b4e1a54703d312906f1dbd059688bcae32ece86d85e0"
+hash = "a49f112119d0e0b5c475609e03aaa2fcf161c1f0343d505920a243e0d1dbe4de"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1686,7 +1698,7 @@ hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "5ae3ea3fa8b9f2e38dba9ff1cdb8c38510d77184b7d9d12a5a9277efab910c44"
+hash = "c9ec76e012b23f313c431dc8f68e3d65a90fb14761977d1001e2b9f7f0a45359"
 
 [[files]]
 file = "config/jei/world/local/6_0/bookmarks.ini"
@@ -1854,7 +1866,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "7ddd4f49ff9665c308fc87b13c6089ff42a41553af3611225507734eaf12e4ba"
+hash = "74ea5cdfed2c00fb417b93718bc783a3f7139cdd87fdfbb03fb971903d901b0f"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
@@ -1982,15 +1994,15 @@ hash = "afef01cfc0d12c0762259da786bea4b9b816b569690adecaf75f057a9da90fe3"
 
 [[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
-hash = "5e70da2ecd73835f7c22fa0d0da5730b42bb6685ef52eb10a9a3504fa521b015"
+hash = "b1da667f0cbff8cc278abb5152c0b1a523aca91b6df4546819d158d2dd59f58f"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "c055a815a848466c6b09fe60bd55d93be5ee6da631deb37beb0f4b5b360b4347"
+hash = "9912b4c351c30b3a34b9c3d87c259956a6c8282bc9bc6a2c07d7510981ba7c52"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "21bfdcc79ec1060356e55275d14f5f4ed980fd83be0c61ced412fadbc97d76b5"
+hash = "9dadff291301c4d89185985777f489284d8bd6ed815c652bbef8fc9abd5754a7"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -2138,7 +2150,7 @@ hash = "ad08423c3894678ae6fb5e4049f8a02504a74d0f6d1451869a4d3c567d0ded5b"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "b54c6eedcb752d1235c6ea60dc365d4d1621c4c80768faaac4347e76d4e10a13"
+hash = "3c888b22cba252e8f0a974f8c1604bc05109affbf4354ad3b16e71778c4b9774"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -3641,22 +3653,6 @@ file = "kubejs/assets/coroutil/textures/particles/white_square.png"
 hash = "d31cc0c9d6703b1589733f08019c733d431d479489ce138ba23a30044622c6cb"
 
 [[files]]
-file = "kubejs/assets/create_new_age/models/block/energiser.json"
-hash = "de9fc09729706bca5c389af8762d1616351e0b11154c93e3ae8f4ea2c8fa593b"
-
-[[files]]
-file = "kubejs/assets/create_new_age/models/block/energiser_t2.json"
-hash = "b0ccce1e4a29de952df5ef34bd5bd7845706561d5ed7edb7702011da3b6e68d2"
-
-[[files]]
-file = "kubejs/assets/create_new_age/models/block/energiser_t3.json"
-hash = "6b3f826660c5093682de0ceb9dc2306ceb2d4875da0696665461e53d0acf7198"
-
-[[files]]
-file = "kubejs/assets/create_new_age/models/block/generation/carbon_brushes.json"
-hash = "8786dcae2d25a87bd6018cd17963d85b979dd6d67c4b6a676c03d097a0216dfd"
-
-[[files]]
 file = "kubejs/assets/create_new_age/models/block/generation/electrical_connector.json"
 hash = "3f62f6a5702d73c175f7b7b5e6266fe0a92ed525fe4450adc72da08956a300c1"
 
@@ -3679,10 +3675,6 @@ hash = "34fe607bc43d235269091eca484c1dc55f9da9a741e228b59d566b773a32bc0d"
 [[files]]
 file = "kubejs/assets/create_new_age/models/block/heat/heat_pipe/side.json"
 hash = "07cb6719700cd90f919d0bffdc31759fac3b384a4f948a0b530eb3f66f270fe5"
-
-[[files]]
-file = "kubejs/assets/create_new_age/models/block/heat/heat_pump.json"
-hash = "0b6f2eefac9f6fffeaa5be6b1bec38fddb43a6bd70177a64018d4ef839a6bd46"
 
 [[files]]
 file = "kubejs/assets/create_new_age/models/block/heat/heater/heater.json"
@@ -3785,28 +3777,12 @@ file = "kubejs/assets/create_new_age/textures/block/basic_motor.png"
 hash = "bfda3a844994f926415092fe2f5ddc567524cb3c276c7557a6909af0d57721ef"
 
 [[files]]
-file = "kubejs/assets/create_new_age/textures/block/carbon_brushes.png"
-hash = "a5badf6154dd3f925208316fb91fd623f03960c2b560f7f5ecd9f970ae9b8c19"
-
-[[files]]
 file = "kubejs/assets/create_new_age/textures/block/diamond_motor.png"
 hash = "21dfdc1fb087da8a195b36bbbd0bde4213a6a915e7203cb0e8958d481d1d7973"
 
 [[files]]
 file = "kubejs/assets/create_new_age/textures/block/electrical_connector.png"
 hash = "6bfb890ef8efcd15c37d74591a8eea4d08ade39d43346544e34ed0bd3f2f7de4"
-
-[[files]]
-file = "kubejs/assets/create_new_age/textures/block/energiser.png"
-hash = "046e2e93bd33989a2dabc8c164df04a936b16d3be49eac64a5468ec0f806777b"
-
-[[files]]
-file = "kubejs/assets/create_new_age/textures/block/energiser_t2.png"
-hash = "02fe2388aa243f92743e19be8405d767873e8cb9043048e0f59a05fc8354b155"
-
-[[files]]
-file = "kubejs/assets/create_new_age/textures/block/energiser_t3.png"
-hash = "b631a027d1e1fa9942bcc6677de2914c8fca68f2e70fd3ed3307a0af1285d186"
 
 [[files]]
 file = "kubejs/assets/create_new_age/textures/block/fluxuated_magnetite.png"
@@ -3823,10 +3799,6 @@ hash = "c1453d4d86339e7dd4f5a21c2115b5ada892541a7d2a278b81ebac0b7f1fb0d8"
 [[files]]
 file = "kubejs/assets/create_new_age/textures/block/heat_pipe.png"
 hash = "aa06be431cce41005350a18c8726bf2fac81da880f13330fd5895f54d22402ba"
-
-[[files]]
-file = "kubejs/assets/create_new_age/textures/block/heat_pump.png"
-hash = "a404c98687f68b9b094a58e94a0077b84f99716ffc8da98ea74efb77f7c37191"
 
 [[files]]
 file = "kubejs/assets/create_new_age/textures/block/heater/heater_steel.png"
@@ -4067,10 +4039,6 @@ hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 [[files]]
 file = "kubejs/assets/ctnh/textures/readme_image/windmill_control.jpg"
 hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
-
-[[files]]
-file = "kubejs/assets/eggdelight/lang/zh_cn.json"
-hash = "8f776ed74e57392976babdd200cca983302f2df7db248d91bca8f87afea3bd8b"
 
 [[files]]
 file = "kubejs/assets/enderio/lang/zh_cn.json"
@@ -5062,11 +5030,11 @@ hash = "19b3a9f5a384264022fe26520fabc1e43e7540c5c25869847f0a96ac4ceb4b82"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
-hash = "da30bb9197522801eb39211362e92b5f6b95faecc36be7a677fefd6e3a7a913a"
+hash = "9a751b5f28511605d8ded8f39ffb2edf6e8df2baf71b20fc4f9b33c6a2d49c9b"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/zh_cn.json"
-hash = "c7c161cb1c0dfdd1c77d40c7593f724767894c29d6d0c670c0e3429ac186462c"
+hash = "61549617a2943e276cb947f5aafda94fab29bf26d6769a3eb465a10c86c55758"
 
 [[files]]
 file = "kubejs/assets/tetracelium/lang/zh_cn.json"
@@ -5110,11 +5078,11 @@ hash = "ddaf4e817e5eb5ceb447035257880271afce27074458c42a0a42e24b064c8956"
 
 [[files]]
 file = "kubejs/client_scripts/src/ponder/create_machine.js"
-hash = "4a5da52f041784a3967433b95d866b7bb90d31856c902ae7805665c36aa405f4"
+hash = "3c4712539faede6e48fb6eb978513ead18a57364f7ec44274a7211b5a2dd19c4"
 
 [[files]]
 file = "kubejs/client_scripts/src/ponder/gregtech_machine.js"
-hash = "1e3be2e88b7691d8b596aa9a3afe610d4fcb5c3bdada46df0b5af4fc55346362"
+hash = "527a4de4205292a1753b89689d9fab3b7321de88639da5d67c2581afc8afa753"
 
 [[files]]
 file = "kubejs/client_scripts/src/ponder/ritual_diviner.js"
@@ -5126,7 +5094,7 @@ hash = "46e9d2ca276d6f57974965c38e554414b1078ef07a1dce9a12d6d0388d8a3585"
 
 [[files]]
 file = "kubejs/client_scripts/src/ponder/tag.js"
-hash = "2e8b6531280a55c4231486e5aaca5c21081c211426e685a47422d20aadff454b"
+hash = "343e31d0c677e4021d53dfb1d72aeeef3eee0d8945530d3d3b6af1730c3bd372"
 
 [[files]]
 file = "kubejs/client_scripts/src/ponder/test.js"
@@ -9853,7 +9821,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania.pw.toml"
-hash = "e3a3e574aaefe074eb41478f0491dbb3c34b5911408a234d6e7d152e25104fc9"
+hash = "ba8bee2bb82e40927c3c9ee129ab8caa0374b2e8f7c66d2eecbb20ee83399011"
 metafile = true
 
 [[files]]
@@ -10012,11 +9980,6 @@ hash = "89406f324f1a03a49f049f5028ebc21319f30bcbd3190f97220bcd59f33e8f27"
 metafile = true
 
 [[files]]
-file = "mods/cuisine-delight.pw.toml"
-hash = "cc3b93c93770960644a0f20b6832a0f0292256028f51691e86f13e3726e920e5"
-metafile = true
-
-[[files]]
 file = "mods/cultural-delights.pw.toml"
 hash = "e981f74588f671ff091cc7e9b6f145f0b9c2099d1e13879a99864fe6ec197521"
 metafile = true
@@ -10042,11 +10005,6 @@ hash = "498bf86897f00972ebdac55cf8eaec746b4bf8372d410240220e24885ec8e731"
 metafile = true
 
 [[files]]
-file = "mods/do-api.pw.toml"
-hash = "d0f73a0717129fc4f32423a80adcbfd4baeaba03164555acb154f1b3be693b22"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-surroundings-fabric-edition.pw.toml"
 hash = "9e460d1d871141ac493227679de871198c20496c58768b77ed8d4e543717be56"
 metafile = true
@@ -10064,11 +10022,6 @@ metafile = true
 [[files]]
 file = "mods/ecologics.pw.toml"
 hash = "45b7ea18ce0a2f2efc62b3dddd3826708b2bdaf83abc1dc0d9e77b2eb4f75872"
-metafile = true
-
-[[files]]
-file = "mods/egg-delight.pw.toml"
-hash = "b36c648814712010e265cbc6ecf16c65cbf65a84f9395a7360853e307c00ae1f"
 metafile = true
 
 [[files]]
@@ -10169,11 +10122,6 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "9b02e267633ad9d3bee2184d1ce8bb6498b5efa3a0408a6e64db23ddc76410d8"
-metafile = true
-
-[[files]]
-file = "mods/festive-delight.pw.toml"
-hash = "609c6b2f2064b81a973aff1512a6b8bf517908070a80c30b29fcbac5ec04fdd8"
 metafile = true
 
 [[files]]
@@ -10432,21 +10380,6 @@ hash = "44464a26b551fc112238bbfd23ab85d43c7004f89b90be68b1ad7ac2627d9dde"
 metafile = true
 
 [[files]]
-file = "mods/lets-do-bakery-farm-charm-compat.pw.toml"
-hash = "aa812f48c648af827a77b491c05eda09993761d73ef18bee08b603a2e1c052c8"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-brewery-farm-charm-compat.pw.toml"
-hash = "2694f62222c32d7bf40e5fd423e8b2c499a36cb919827010961e030e23251554"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-farm-charm.pw.toml"
-hash = "7243f2d344a3f125735bd443dcf6d6e8c4c11afa90fb832be8346f7ab751e879"
-metafile = true
-
-[[files]]
 file = "mods/libipn.pw.toml"
 hash = "c6e20c00be204490777b8bf49e40225f9db70da9b48b6f89d4d29825f85f4ea9"
 metafile = true
@@ -10562,11 +10495,6 @@ hash = "b69c4dcffeb6e270be75426721379ccb6d300a0896348a9b20ad6a2b62a87230"
 metafile = true
 
 [[files]]
-file = "mods/oceans-delight.pw.toml"
-hash = "28469ca99dec5e4395cb60a990882a2ea4ce5a790b72acd45dc6cd1929ae1064"
-metafile = true
-
-[[files]]
 file = "mods/octo-lib.pw.toml"
 hash = "f11c83b9216691063b31db6d47356d545b855677af5b1f28c6e57ce090883732"
 metafile = true
@@ -10669,11 +10597,6 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "0c6c6c5e087459e4a84ca81ff2e1aef7576018c030280e2f6f224f6243248665"
-metafile = true
-
-[[files]]
-file = "mods/seed-delight.pw.toml"
-hash = "eee69d78b5ac4e04d11719460e05e0e96616b05633b3d8bee3f06cb84c6c71c6"
 metafile = true
 
 [[files]]

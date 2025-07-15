@@ -54,6 +54,12 @@
 		{
 			dependencies: ["6D9003172EF921C9"]
 			id: "32D9754803137E82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "646FAD9D82CADF8C"
+				table_id: 1576725829474885042L
+				type: "random"
+			}]
 			tasks: [{
 				id: "67F5B1C0219B671A"
 				item: "create:hand_crank"
@@ -134,7 +140,7 @@
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest9.subtitle}"
 			tasks: [{
 				id: "222114435B2A13DE"
-				item: "kubejs:basic_mechanism"
+				item: "ctpp:basic_mechanism"
 				type: "item"
 			}]
 			x: -5.5d
@@ -428,6 +434,7 @@
 		{
 			dependencies: ["7E591C0E7278D12F"]
 			id: "4ABB43D13EBB512D"
+			subtitle: "也许你用不到这个来产生水"
 			tasks: [
 				{
 					id: "178BF7B8042CF8C5"
@@ -522,7 +529,8 @@
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			size: 1.0d
+			shape: "square"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest34.subtitle}"
 			tasks: [{
 				id: "2432B1FD7CD5EFE3"
@@ -605,6 +613,7 @@
 		{
 			dependencies: ["1C0BF959DCF3A9F5"]
 			id: "3E42FD564295C649"
+			subtitle: "使用压块塑性能够让你得到第一块玻璃"
 			tasks: [{
 				id: "27BA7F9A942F9787"
 				item: "minecraft:glass"
@@ -1273,18 +1282,12 @@
 		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "713CA44106751CCA"
-			tasks: [
-				{
-					id: "5D1BAF9CE51E4E1A"
-					item: "createmetallurgy:mechanical_belt_grinder"
-					type: "item"
-				}
-				{
-					id: "0C7935C9EFEC7860"
-					item: "vintageimprovements:belt_grinder"
-					type: "item"
-				}
-			]
+			subtitle: "用这个方便磨砂"
+			tasks: [{
+				id: "5D1BAF9CE51E4E1A"
+				item: "createmetallurgy:mechanical_belt_grinder"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 1.0d
 		}
@@ -1303,6 +1306,7 @@
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "6A9845F85704E2D4"
 			size: 1.75d
+			subtitle: "用这个更省"
 			tasks: [{
 				id: "1F36789281D83E9C"
 				item: "vintageimprovements:spring_coiling_machine"
@@ -1410,13 +1414,26 @@
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
+			description: ["需要有足够的输出空间来输出动物的产物，至少需要一格空间，每多一种动物就需要多一格空间，如果要养牛，则还需要输出仓来输出牛奶"]
 			id: "66616CA6C0C95B0B"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest96.subtitle}"
-			tasks: [{
-				id: "767215D7A25C05EF"
-				item: "ctnhcore:meadow"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "767215D7A25C05EF"
+					item: "ctnhcore:meadow"
+					type: "item"
+				}
+				{
+					id: "772717A12F571AD5"
+					item: "gtceu:ulv_output_bus"
+					type: "item"
+				}
+				{
+					id: "51F35D364BF72C08"
+					item: "ctpp:ulv_kinetic_input_box"
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: 4.0d
 		}
@@ -1677,6 +1694,29 @@
 			]
 			x: -7.0d
 			y: 20.0d
+		}
+		{
+			dependencies: ["2460426DE77EF0F4"]
+			id: "5BB2D11CEBAD8D2E"
+			rewards: [{
+				id: "1CEE12CB7BFF3B18"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "是否发现花铁如流水，用这个造个小盾构机 吧"
+			tasks: [{
+				id: "27FA1F0875C48D16"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.4408EF6F9E2E1624.title}"

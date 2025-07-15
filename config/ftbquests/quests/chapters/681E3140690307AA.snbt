@@ -93,6 +93,12 @@
 			x: -10.5d
 			y: 15.0d
 		}
+		{
+			id: "56DE5318BDBC3D2A"
+			linked_quest: "67E66A346ABEC31F"
+			x: -9.5d
+			y: 8.0d
+		}
 	]
 	quests: [
 		{
@@ -374,6 +380,8 @@
 					type: "item"
 				}
 			]
+			shape: "square"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest10.subtitle}"
 			tasks: [{
 				id: "02CB7B2250363B17"
@@ -499,6 +507,14 @@
 				"337BC9186C014A06"
 			]
 			id: "09C344717F4BAD6C"
+			rewards: [{
+				count: 2
+				id: "323245D0CF7D2E17"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest14.subtitle}"
 			tasks: [{
 				id: "58CDFF594C3E0249"
@@ -529,6 +545,7 @@
 		}
 		{
 			dependencies: ["611BCC64F1F511AA"]
+			description: ["更多相关任务见[实用小工具]"]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "04FBFEEE00051A74"
 			optional: true
@@ -796,6 +813,18 @@
 			dependencies: ["6F405D2508EED283"]
 			description: ["本整合包里地形多样，群系丰富，不少可以收集的自然资源在未来都能给你提供很大的帮助(某些神秘结构也可以给你带来前期的物资)，请尽情探索吧！"]
 			id: "7F3D3CD93589D286"
+			rewards: [{
+				id: "799312A73A8C9467"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "minecraft:swiftness"
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "见[大千世界]章节"
 			tasks: [{
 				id: "2BC1BCB3ECAB5715"
@@ -806,7 +835,6 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["1B4FFE71B4C66E14"]
 			id: "744B99980B778CF7"
 			subtitle: "挖矿时别忘了收集一些这些玩意"
 			tasks: [{
@@ -815,7 +843,7 @@
 				item: { Count: 16, id: "minecraft:andesite" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -2.0d
 			y: 15.0d
 		}
 		{
@@ -891,6 +919,53 @@
 			}]
 			x: -4.5d
 			y: 7.0d
+		}
+		{
+			description: ["如果你在晚上遇到一道闪电从天而降，那就是神化小Boss刷新了"]
+			id: "2E0859396D8A4E6D"
+			subtitle: "打得过就打，打不过就跑"
+			tasks: [{
+				id: "08A4E2132E7F1A97"
+				title: "神化小Boss"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5BA86B01337A91D5"]
+			id: "2FC55C36F244A34F"
+			rewards: [{
+				id: "75FEE738B110015C"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			subtitle: "开始做饭！"
+			tasks: [{
+				id: "365616DAF25D746D"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5BA86B01337A91D5"]
+			id: "0509C060962EF04C"
+			subtitle: "用铁粒烧制得到"
+			tasks: [{
+				id: "6AE261E7034F3EA3"
+				item: "gtceu:wrought_iron_nugget"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.0d
 		}
 	]
 	title: "{ftbquests.chapter.681E3140690307AA.title}"
