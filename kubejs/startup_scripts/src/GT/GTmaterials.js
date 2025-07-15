@@ -1656,6 +1656,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("strontium_chloride")
         .dust()
         .color(0xFFC0CB)
+    event.create("perrhenic_acid")
+        .liquid()
+        .color(0x654aaa)
 
 })
 
