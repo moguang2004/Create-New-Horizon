@@ -9286,7 +9286,7 @@ hash = "6721702b56bab274440221119132564d4c2e29b2438c148e18f4c6757872e57a"
 
 [[files]]
 file = "kubejs/server_scripts/src/ae2.js"
-hash = "edd74c5d29fabbd9846fd8434b62beb07a192cf13109b338bfc0aa175813ddb9"
+hash = "f9cb92015ff97e517406e61efb3d828eb0b28ec5828695a8de16bd1881c5f5f1"
 
 [[files]]
 file = "kubejs/server_scripts/src/apothesis/spawner.js"
@@ -9314,7 +9314,11 @@ hash = "c47a0c689f9f7b1e73e38bec00ecb278afc8306326574a43b3b22e9496c3243f"
 
 [[files]]
 file = "kubejs/server_scripts/src/botania/botania.js"
-hash = "2746d0f2979ff243fac8ed22865bed962949e9f784351c896db3419310ea0190"
+hash = "d186e432938b74080f5ab53914af8b57666b0173e67938fbd5d9a63d61b67d97"
+
+[[files]]
+file = "kubejs/server_scripts/src/botania/extraBotany.js"
+hash = "63b402e456c8cc491c27c02c6a1e71d397d481e0731804c63bde92004ec0999c"
 
 [[files]]
 file = "kubejs/server_scripts/src/botania/mythicBotany.js"
@@ -9430,7 +9434,7 @@ hash = "33554da28dcef266b6e9504d3ecb71aba44d1b426f76d070d2b708179f834ced"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/GeyanChain.js"
-hash = "b540be016adf7ab3bde792368bfdf8b6913ba41c43f2ee7442bb54f3e026f39c"
+hash = "9e1326ce26d8219a6e1454b7eab39ead26826fd378030600c0aaa5e80d6fd95f"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/GoldChain.js"
@@ -9442,7 +9446,7 @@ hash = "dfa591007abb667359f855676f31bb66ec83118ee8b12a6efc1b6d8e342c9bbc"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/HNIWChain.js"
-hash = "c55cdea8a60ceb20c924ce4960eaeb88091f12325194f740ec72ae8b9d7b6475"
+hash = "823e90e7dd6ca36b5b3de9a7ee67370a6e32977df09162fe2c27953e5144131d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/IodineChain.js"
@@ -9494,7 +9498,7 @@ hash = "6a31d3e5725cd57e65012ec767c2f7ffd137a61d50dd7ccd7d03b27d1e755660"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/ZirconChain.js"
-hash = "e84620880f2ddd2e4e1dc23af7ca497aefe9ed200752d44bbf1d67a7ac015b2d"
+hash = "14ad068878557c89c9cca941d5172da65f53351d574d7d8f431e77ffa1f2753d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
@@ -9542,7 +9546,7 @@ hash = "3c4fdf25fc19c312e9b2c2077808d8aaf215a9a5a3b8febe4745a9a07a55ab54"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "2234f101fb6d14a3c70bc70a91a28e4432e5f864ce82ed90109f707e626cb642"
+hash = "a4d51991d8b7cc5f09e7d165ffde0a8c18cec3bca88fca515cc5091614508659"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -9554,7 +9558,7 @@ hash = "f978431fd2fe1fa06c962be0968b7636d2a6dff8f0dd44c2e3ecb1a040c6f6fc"
 
 [[files]]
 file = "kubejs/server_scripts/src/sun.js"
-hash = "b9d8d5770abfc0719ef70349821196f1f939af0a000fe55b5210a6972affab99"
+hash = "59aef8350278f973e6d4f0f679c362abecf91c9179a1b7ead478fb2a7b052179"
 
 [[files]]
 file = "kubejs/server_scripts/src/tag.js"

@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
 
     // C6H10O + C + H2O = C6H12O + CO
     ctnh.chemical_reactor('methyl_isobutyl_ketone')
-        .notConsumable('gtceu:palladium_on_carbon_dust')
+        .notConsumable('gtnn:palladium_on_carbon_catalyst')
         .itemInputs('gtceu:carbon_dust')
         .inputFluids(Fluid.of('gtceu:mesityl_oxide', 1000))
         .inputFluids(Fluid.of('minecraft:water', 1000))
