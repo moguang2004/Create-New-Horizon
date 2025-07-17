@@ -140,7 +140,17 @@ ServerEvents.recipes(event => {
         "sophisticatedstorage:backpack_stack_upgrade_omega_tier_from_storage_stack_upgrade_omega_tier",
         "sophisticatedstorage:stack_upgrade_omega_tier",
         "sophisticatedstorage:void_upgrade",
-        "extrabotany:terra_plate/the_universe"
+        "extrabotany:terra_plate/the_universe",
+        "gtceu:electrolyzer/decomposition_electrolyzing_wolframite",
+        "gtceu:electrolyzer/decomposition_electrolyzing_tarkianite",
+        "gtceu:electrolyzer/decomposition_electrolyzing_rheniite",
+        "gtceu:electrolyzer/decomposition_electrolyzing_palladium_sulfide",
+        "gtceu:electrolyzer/decomposition_electrolyzing_ruthenium_amalgam",
+        "gtceu:electrolyzer/decomposition_electrolyzing_osmium_iron_spinel",
+        "gtceu:mixer/neutronium_mixture",
+        "gtceu:assembler/heavy_ingot_t2",
+        "gtceu:assembly_line/heavy_ingot_t4",
+        "gtceu:assembler/heavy_ingot_t3"
 
     ])
     remove_recipes_output(event, [
