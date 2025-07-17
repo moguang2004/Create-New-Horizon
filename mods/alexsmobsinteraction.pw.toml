@@ -1,0 +1,12 @@
+name = "Alex's Mobs Interaction"
+filename = "alexsmobsinteraction-5.4-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4b5376f52539122e8eca84679a7aa540ad15e0d4"
+url = "https://edge.forgecdn.net/files/6410/554/alexsmobsinteraction-5.4-all.jar"
+
+[update.curseforge]
+file-id = 6410554
+project-id = 975640
