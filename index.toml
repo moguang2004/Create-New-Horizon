@@ -4190,7 +4190,7 @@ hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/zh_cn.json"
-hash = "12e33fb0f06e662ef6fc4cde8739447acbcdad803534c08b71b910859fee0027"
+hash = "8e2eb07651f6ba9c92f61732bbed3a6035fe48557ea8948efd928ece605f48f0"
 
 [[files]]
 file = "kubejs/assets/gtceu/textures/block/machines/inscriber/overlay_front.png"
@@ -9502,7 +9502,7 @@ hash = "14ad068878557c89c9cca941d5172da65f53351d574d7d8f431e77ffa1f2753d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "084bbcf3c152b2e494321ba7253a6dbfda208b29ab8c318523f9352f92736b51"
+hash = "fcabe76488b331dae18b0dfeaef39777432a7961f6632b0a0147e0f667140caa"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
@@ -9546,7 +9546,7 @@ hash = "3c4fdf25fc19c312e9b2c2077808d8aaf215a9a5a3b8febe4745a9a07a55ab54"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "a4d51991d8b7cc5f09e7d165ffde0a8c18cec3bca88fca515cc5091614508659"
+hash = "6a534af05844f7a439efeee0d7a3459ccffb162cda3a509e66033b0570c318d8"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -9582,7 +9582,7 @@ hash = "8d6f541b5ffb92dd1c0796f6d66b68273aa6759b855dd1714ef8f67afd723240"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTmaterials.js"
-hash = "3abf96c24bae518fa18e65c77b62013ba8a2a329977b8b5c047382b34784a403"
+hash = "8340dd7d5ecfe606783864e4fe3755a0a6815614c63091965a362bfec03fe5ce"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTrecipetypes.js"
