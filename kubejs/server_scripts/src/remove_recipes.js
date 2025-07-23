@@ -150,8 +150,12 @@ ServerEvents.recipes(event => {
         "gtceu:mixer/neutronium_mixture",
         "gtceu:assembler/heavy_ingot_t2",
         "gtceu:assembly_line/heavy_ingot_t4",
-        "gtceu:assembler/heavy_ingot_t3"
-
+        "gtceu:assembler/heavy_ingot_t3",
+        "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_rail",
+        "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_powered_rail",
+        "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_activator_rail",
+        "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_detector_rail"
+        
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
