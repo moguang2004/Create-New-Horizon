@@ -208,3 +208,18 @@ function casting_all(event, item) {
         event.recipes.createmetallurgy.casting_in_basin(`gtceu:${item}_block`, Fluid.of(`gtceu:${item}`, 1256), 810)
     }
 }
+
+function tconstruct_casting_all(event, item) {
+    if (['iron', 'gold', `copper`].includes(item)) {
+        if (item == 'copper')
+            event.recipes.tconstruct.casting_table(`gtceu:copper_nugget`, Fluid.of(`gtceu:${item}`, 16), "createmetallurgy:graphite_nugget_mold", false, 10)
+        else
+            event.recipes.tconstruct.casting_table(`minecraft:${item}_nugget`, Fluid.of(`gtceu:${item}`, 16), "createmetallurgy:graphite_nugget_mold", false, 10)
+            event.recipes.tconstruct.casting_table(`minecraft:${item}_ingot`, Fluid.of(`gtceu:${item}`, 144), "createmetallurgy:graphite_ingot_mold", false, 90)
+            event.recipes.tconstruct.casting_table(`minecraft:${item}_block`, Fluid.of(`gtceu:${item}`, 1256), "kubejs:graphite_block_mold", false,  810)
+    } else {
+        event.recipes.tconstruct.casting_table(`gtceu:${item}_nugget`, Fluid.of(`gtceu:${item}`, 16), "createmetallurgy:graphite_nugget_mold", false, 10)
+        event.recipes.tconstruct.casting_table(`gtceu:${item}_ingot`, Fluid.of(`gtceu:${item}`, 144), "createmetallurgy:graphite_ingot_mold", false, 90)
+        event.recipes.tconstruct.casting_table(`gtceu:${item}_block`, Fluid.of(`gtceu:${item}`, 1256),"kubejs:graphite_block_mold", false, 810)
+    }
+}

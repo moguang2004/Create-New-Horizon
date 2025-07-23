@@ -182,6 +182,9 @@ StartupEvents.registry("item", event => {
     event.create("pv_drone_research_3")
     event.create("pv_drone_research_4")
     event.create("colorful_soc").tooltip("完美的色彩在此流动")
+    event.create("graphite_block_mold")
+    event.create('grout_dust')
+    event.create('heatproof_smelting_brick_dust')
 
 })
 StartupEvents.registry("item", event => {

@@ -214,5 +214,8 @@
     "item.kubejs.pv_drone_research_1": "光伏无人机研究I",
     "item.kubejs.pv_drone_research_2": "光伏无人机研究II",
     "item.kubejs.pv_drone_research_3": "光伏无人机研究III",
-    "item.kubejs.colorful_soc": "相变棱晶SOC"
+    "item.kubejs.colorful_soc": "相变棱晶SOC",
+    "item.kubejs.graphite_block_mold": "块石墨铸模",
+    "item.kubejs.grout_dust": "砖泥粉",
+    "item.kubejs.heatproof_smelting_brick_dust": "耐热冶炼砖粉"
 }

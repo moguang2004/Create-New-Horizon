@@ -4218,7 +4218,7 @@ hash = "27e8bd5e850b5a395dd7337f197b71a36eb1668dcfac180ffa97b6630a48962d"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "84641e06fa0a16f842f83d6f4e39eef03f3fbafca4efb88c871cefe6441f11fc"
+hash = "b95881e9593558611b2c095d9263792e14356a827be26da58b44639b116d65df"
 
 [[files]]
 file = "kubejs/assets/kubejs/ponder/assembly_line.nbt"
@@ -4731,6 +4731,18 @@ hash = "7b86f32d9782022780184d69405365f95ef5684c59d6e39507ab12b30ae923d6"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/general_circuit_zpm.png"
 hash = "5f5ad9beec518dd614edf18aa0006f845cdd68c2aa8bd4e523602287f0dab3a1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_block_mold.png"
+hash = "78a782d1c9922ea2f89effd4388e702f837504d71dfee9ff04fc316678e28b4d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/grout_dust.png"
+hash = "c8c94fb0df40e1efdb509b40f5f8ec91c367f980a3420087e1179546a29c9688"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/heatproof_smelting_brick_dust.png"
+hash = "0c379aa87fd303244f0ce8a580cef69f15025b61dc294de76d063e6293481edc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/heavy_machinery_casing_connected.png"
@@ -8794,7 +8806,7 @@ hash = "c738c04b9729b8337a511026b718885c23c35223a02d7def4066da1c26b640c0"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/createFallen.js"
-hash = "959680aad4c347b376e52b4ada15b54a5cb3b5c60b7b5f154aff14a6b2d1a517"
+hash = "349760178364992c7cbee359d0cdb0d4c102010c035db6968fb69a9588fe6ef0"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/dieselgenerator.js"
@@ -8802,7 +8814,7 @@ hash = "dd83aa3edd90a1578168e459a028f9ee8392c97be27384645ecb436b887dc474"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
-hash = "a1f659892f6fccb95a8994e7a1ad93dd5ea71786cfb1d53b50dec3bdddfd2e41"
+hash = "f24589f330fe2ed492cbe2212b5c4deef718b6dbcd43bb67427c8451146e8fd0"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/oreexcavation.js"
@@ -8994,7 +9006,7 @@ hash = "3c4fdf25fc19c312e9b2c2077808d8aaf215a9a5a3b8febe4745a9a07a55ab54"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "6a534af05844f7a439efeee0d7a3459ccffb162cda3a509e66033b0570c318d8"
+hash = "7f84c792fa653b45c019d6e28ca99308feebe7ee1748e64b88d655490cf111dd"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -9010,15 +9022,23 @@ hash = "59aef8350278f973e6d4f0f679c362abecf91c9179a1b7ead478fb2a7b052179"
 
 [[files]]
 file = "kubejs/server_scripts/src/tag.js"
-hash = "2978566b6eabac41d8aa5c15123f6da6492196c05d59db30545748a6d5192a03"
+hash = "f081cad725f113253385a193495a04c5051f591756db46ffef9c9fe1c21d120f"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
-hash = "e4fca8c9e92939f9cf2dabcf432660c788a2ac448fe453696bfadd06fe79ec98"
+hash = "7b40b26b41b44a0abaa7017827f4074097d9827bdc2ee35a8afef968ed6ee6d9"
 
 [[files]]
 file = "kubejs/server_scripts/src/wood.js"
 hash = "e629005938ff64cae330aef45c9a22e5ce320ff34e9f28d3afa9dc8bbba34e7b"
+
+[[files]]
+file = "kubejs/server_scripts/tinkers/remove_metarial.js"
+hash = "6362a416a9b633c01dcefa9e2975b644a3fe94dd2d74e4f3e2e7bf9704152c26"
+
+[[files]]
+file = "kubejs/server_scripts/tinkers/tinkers.js"
+hash = "52be01f34a8cd2e6d39fb734006062493c6602c68f0c837cdb4f8d8f6d6ee6ed"
 
 [[files]]
 file = "kubejs/startup_scripts/decorate_block.js"
@@ -9090,7 +9110,7 @@ hash = "74155bdc794aa0a03f9ff98352fef4ecf738052ad2cd540805902a3be176441c"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
-hash = "6a026927e631e66bbd122c1736dd5482fb2ca591760f68a942efb33b8d13ba70"
+hash = "1c211d209b1dd89619756b20e831f4afc92fde3e0e648455f98ff2fdd8ef4260"
 
 [[files]]
 file = "kubejs/startup_scripts/src/test.js"
@@ -9872,6 +9892,11 @@ hash = "a73744a74a60e03b01589511940fb280ea383653be2a02a4f0a0a22a07b40019"
 metafile = true
 
 [[files]]
+file = "mods/mantle.pw.toml"
+hash = "e7c8802a94d62b66c2f4ea22dbc701158607bcc3f19632d7976a3edad03bdb39"
+metafile = true
+
+[[files]]
 file = "mods/max-health-fix.pw.toml"
 hash = "a943604984727e61d0de492d71198bf5667278363c8359b71bd6719733cf8813"
 metafile = true
@@ -10142,6 +10167,11 @@ hash = "cef87f70071f89dfe80e4a62f0280b43c880771e9ea91d3f397366e7155c4b3a"
 metafile = true
 
 [[files]]
+file = "mods/tconstructjs.pw.toml"
+hash = "ac0af96819bfbe1992d9fcc7e85ca4d54421a788278257fd97d05ba67f3ad9b4"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "3a0ecb3db28649a82e528c1ade094ebbbf95dc1aa6e25c809f534596569fd283"
 metafile = true
@@ -10177,8 +10207,9 @@ hash = "21603b11e14e0f9b1d642b6389ab4d3f729b95f7eda69bc1b910f7b6eb70cc92"
 metafile = true
 
 [[files]]
-file = "mods/tinkers-construct.toml"
+file = "mods/tinkers-construct.pw.toml"
 hash = "0c9524cc0616fd94f849b85463d48049a835a3f8ca03e9238cf065571c2ad5ae"
+metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"

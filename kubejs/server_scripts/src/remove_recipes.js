@@ -150,8 +150,11 @@ ServerEvents.recipes(event => {
         "gtceu:mixer/neutronium_mixture",
         "gtceu:assembler/heavy_ingot_t2",
         "gtceu:assembly_line/heavy_ingot_t4",
-        "gtceu:assembler/heavy_ingot_t3"
-
+        "gtceu:assembler/heavy_ingot_t3",
+        "tconstruct:smeltery/seared/melter",
+        "tconstruct:smeltery/casting/seared/smeltery_controller",
+        "tconstruct:smeltery/melting/glass/sand",
+        "tconstruct:smeltery/melting/glass/sand_cast"
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -180,6 +183,13 @@ ServerEvents.recipes(event => {
         "ad_astra:desh_fluid_pipe",
         "ad_astra:ostrum_fluid_pipe",
         "ad_astra:fluid_pipe_duct",
+        "tconstruct:seared_brick",
+        "tconstruct:grout",
+        "tconstruct:puny_smelting",
+        "tconstruct:seared_fuel_tank",
+        "tconstruct:seared_fuel_gauge",
+        "tconstruct:seared_ingot_tank",
+        "tconstruct:seared_ingot_gauge",
         /vintageimprovements:(.*)_sheet/,
         /vintageimprovements:(.*)_rod/,
         /vintageimprovements:(.*)_wire/
