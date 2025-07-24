@@ -95,7 +95,7 @@ ServerEvents.recipes(event => {
     for (let rcp of [
         ['tconstruct:seared_fuel_tank', [" BAB "," BCB "," BCB "," BBB "], {C: "tconstruct:seared_glass"}],
         ['tconstruct:seared_melter', ["BBBBB","BAAAB","BACAB","BADAB","BBBBB"], {C: "create:precision_mechanism", D: "createmetallurgy:foundry_basin"}],
-		['tconstruct:smeltery_controller', ["BBBBB","BEEEB","BECEB","BAdAB","BBBBB"], {C: "tconstruct:seared_melter", D: "kubejs:steel_mechanism", E: "gtceu:rubber_ingot"}]
+		['tconstruct:smeltery_controller', ["BBBBB","BEEEB","BECEB","BAdAB","BBBBB"], {C: "tconstruct:seared_melter", D: "ctpp:steel_mechanism", E: "gtceu:rubber_ingot"}]
     ])
     {
         let result = rcp[0],

@@ -26,13 +26,13 @@ ServerEvents.recipes(event => {
                 {A: "create:shaft", B: "gtceu:obsidian_plate", C: "create:whisk", D: "gtceu:wrought_iron_plate"})
     event.shaped(Item.of("createmetallurgy:foundry_mixer", 1), 
                 ["ABA", "CDC", " E "], 
-                {A: "kubejs:basic_mechanism", B: "create:shaft", C: "create:copper_casing", D: "create:large_cogwheel", E: "createmetallurgy:sturdy_whisk"})
+                {A: "ctpp:basic_mechanism", B: "create:shaft", C: "create:copper_casing", D: "create:large_cogwheel", E: "createmetallurgy:sturdy_whisk"})
     event.shaped(Item.of("createmetallurgy:sandpaper_belt", 2), 
                 ["AAA", "AAA"], 
                 {A: "#create:sandpaper"})
     event.shaped(Item.of("createmetallurgy:mechanical_belt_grinder", 1), 
                 ["AAA", "BCB", "DBD" ], 
-                {A: "createmetallurgy:sandpaper_belt", B: "create:andesite_casing", C: "kubejs:basic_mechanism", D: "create:shaft"})
+                {A: "createmetallurgy:sandpaper_belt", B: "create:andesite_casing", C: "ctpp:basic_mechanism", D: "create:shaft"})
     event.shaped(Item.of("createmetallurgy:foundry_basin", 1), 
                 ["A A", "ABA", "AAA" ], 
                 {A: "tconstruct:seared_brick", B: "create:andesite_casing"})
