@@ -98,7 +98,7 @@ ServerEvents.recipes(event => {
         
         E: 'create:andesite_casing',
 
-        F: 'kubejs:steel_mechanism',
+        F: 'ctpp:steel_mechanism',
 
         G: '#forge:chests'
     }
