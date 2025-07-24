@@ -151,14 +151,15 @@ ServerEvents.recipes(event => {
         "gtceu:assembler/heavy_ingot_t2",
         "gtceu:assembly_line/heavy_ingot_t4",
         "gtceu:assembler/heavy_ingot_t3",
-        "tconstruct:smeltery/seared/melter",
-        "tconstruct:smeltery/casting/seared/smeltery_controller",
-        "tconstruct:smeltery/melting/glass/sand",
-        "tconstruct:smeltery/melting/glass/sand_cast",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_powered_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_activator_rail",
-        "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_detector_rail"
+        "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_detector_rail",
+        "tconstruct:smeltery/seared/melter",
+        "tconstruct:smeltery/casting/seared/smeltery_controller",
+        "tconstruct:smeltery/melting/glass/sand",
+        "tconstruct:smeltery/melting/glass/sand_cast"
+        
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
