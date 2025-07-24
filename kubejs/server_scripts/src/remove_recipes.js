@@ -158,7 +158,8 @@ ServerEvents.recipes(event => {
         "tconstruct:smeltery/seared/melter",
         "tconstruct:smeltery/casting/seared/smeltery_controller",
         "tconstruct:smeltery/melting/glass/sand",
-        "tconstruct:smeltery/melting/glass/sand_cast"
+        "tconstruct:smeltery/melting/glass/sand_cast",
+        "sophisticatedstorage:controller"
         
     ])
     remove_recipes_output(event, [
