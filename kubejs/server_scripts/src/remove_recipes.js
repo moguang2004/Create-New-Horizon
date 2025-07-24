@@ -154,7 +154,11 @@ ServerEvents.recipes(event => {
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_powered_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_activator_rail",
-        "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_detector_rail"
+        "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_detector_rail",
+        "tconstruct:smeltery/seared/melter",
+        "tconstruct:smeltery/casting/seared/smeltery_controller",
+        "tconstruct:smeltery/melting/glass/sand",
+        "tconstruct:smeltery/melting/glass/sand_cast"
         
     ])
     remove_recipes_output(event, [
@@ -184,6 +188,13 @@ ServerEvents.recipes(event => {
         "ad_astra:desh_fluid_pipe",
         "ad_astra:ostrum_fluid_pipe",
         "ad_astra:fluid_pipe_duct",
+        "tconstruct:seared_brick",
+        "tconstruct:grout",
+        "tconstruct:puny_smelting",
+        "tconstruct:seared_fuel_tank",
+        "tconstruct:seared_fuel_gauge",
+        "tconstruct:seared_ingot_tank",
+        "tconstruct:seared_ingot_gauge",
         /vintageimprovements:(.*)_sheet/,
         /vintageimprovements:(.*)_rod/,
         /vintageimprovements:(.*)_wire/

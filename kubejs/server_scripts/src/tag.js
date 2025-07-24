@@ -37,6 +37,9 @@ ServerEvents.tags('item',event =>{
 ServerEvents.tags('item', event => {
     event.add('curios:curio', 'tiab:time_in_a_bottle')
 })
+ServerEvents.tags('block_entity_type', event => {
+    event.add('tconstruct:side_inventories', 'sophisticatedstorage:controller')
+})
 
 ServerEvents.tags('fluid',event =>{
     event.add('createdieselgenerators:pumpjack_output','gtceu:impure_oil')
