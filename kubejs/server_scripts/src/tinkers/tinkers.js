@@ -122,10 +122,3 @@ ServerEvents.recipes(event => {
 		C: 'gtceu:clay_dust'
 	})
 })
-ServerEvents.recipes(event => {
-	event.replaceOutput(
-  		{ Output: 'tconstruct:molten_iron' }, // 參數 1：過濾器
-  		'tconstruct:molten_iron',            // 參數 2：要替換的物品
-  		'gtceu:iron'         // 參數 3：要替換成的物品
-	)
-})
