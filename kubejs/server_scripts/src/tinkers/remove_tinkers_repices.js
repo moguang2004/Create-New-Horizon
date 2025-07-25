@@ -19,5 +19,4 @@ ServerEvents.recipes(event => {
         /tconstruct:smeltery\/melting\/clay\/(.*)/,
         /tconstruct:smeltery\/casting\/clay\/brick_(.*)_cast/
     ])
-    event.remove({ mod: "tconstruct"})
 })
