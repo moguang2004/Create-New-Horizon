@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:plates/copper"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:plates/copper"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_copper"
+  },
+  "temperature": 500,
+  "time": 50
+}

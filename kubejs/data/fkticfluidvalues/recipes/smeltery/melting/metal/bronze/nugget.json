@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:nuggets/bronze"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/bronze"
+  },
+  "result": {
+    "amount": 16,
+    "tag": "forge:molten_bronze"
+  },
+  "temperature": 700,
+  "time": 19
+}

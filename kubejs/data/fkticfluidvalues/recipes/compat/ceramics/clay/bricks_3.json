@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ceramics"
+    }
+  ],
+  "ingredient": [
+    {
+      "tag": "ceramics:terracotta_cisterns"
+    },
+    {
+      "item": "ceramics:empty_clay_bucket"
+    },
+    {
+      "item": "ceramics:cracked_empty_clay_bucket"
+    }
+  ],
+  "result": {
+    "amount": 1200,
+    "fluid": "tconstruct:molten_clay"
+  },
+  "temperature": 450,
+  "time": 80
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:nuggets/signalum"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/signalum"
+  },
+  "result": {
+    "amount": 16,
+    "tag": "forge:molten_signalum"
+  },
+  "temperature": 999,
+  "time": 22
+}

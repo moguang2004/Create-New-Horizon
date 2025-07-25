@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 576,
+      "rate": "metal",
+      "tag": "forge:molten_steel"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:geore_clusters/iron"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_clusters/iron"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 576,
+    "tag": "forge:molten_iron"
+  },
+  "temperature": 800,
+  "time": 150
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:book"
+  },
+  "cast_consumed": true,
+  "cooling_time": 57,
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_gold"
+  },
+  "result": "tconstruct:encyclopedia"
+}

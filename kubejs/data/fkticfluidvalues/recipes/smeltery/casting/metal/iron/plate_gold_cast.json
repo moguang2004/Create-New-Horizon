@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/plate"
+  },
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:plates/iron"
+    }
+  ],
+  "cooling_time": 60,
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_iron"
+  },
+  "result": {
+    "tag": "forge:plates/iron"
+  }
+}

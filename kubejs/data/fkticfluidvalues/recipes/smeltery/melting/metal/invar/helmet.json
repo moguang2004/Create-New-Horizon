@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:armors/helmets/invar"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:armors/helmets/invar"
+  },
+  "result": {
+    "amount": 720,
+    "tag": "forge:molten_invar",
+    "unit_size": 16
+  },
+  "temperature": 900,
+  "time": 142
+}

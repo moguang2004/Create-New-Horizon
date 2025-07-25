@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 192,
+      "rate": "metal",
+      "tag": "forge:molten_gold"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:geore_clusters/copper"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_clusters/copper"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 576,
+    "tag": "forge:molten_copper"
+  },
+  "temperature": 500,
+  "time": 125
+}

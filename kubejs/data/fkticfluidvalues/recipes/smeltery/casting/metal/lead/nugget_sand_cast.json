@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/nugget"
+  },
+  "cast_consumed": true,
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:nuggets/lead"
+    }
+  ],
+  "cooling_time": 14,
+  "fluid": {
+    "amount": 16,
+    "tag": "forge:molten_lead"
+  },
+  "result": {
+    "tag": "forge:nuggets/lead"
+  }
+}

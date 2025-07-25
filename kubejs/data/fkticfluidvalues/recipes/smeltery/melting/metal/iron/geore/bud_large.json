@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 432,
+      "rate": "metal",
+      "tag": "forge:molten_steel"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:geore_large_buds/iron"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_large_buds/iron"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 432,
+    "tag": "forge:molten_iron"
+  },
+  "temperature": 800,
+  "time": 120
+}

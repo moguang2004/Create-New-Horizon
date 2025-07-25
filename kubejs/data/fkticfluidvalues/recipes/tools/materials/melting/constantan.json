@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:material_melting",
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "mantle:tag_filled",
+          "tag": "forge:ingots/constantan"
+        },
+        {
+          "type": "mantle:tag_filled",
+          "tag": "forge:ingots/nickel"
+        }
+      ]
+    }
+  ],
+  "input": "tconstruct:constantan",
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_constantan"
+  },
+  "temperature": 920
+}

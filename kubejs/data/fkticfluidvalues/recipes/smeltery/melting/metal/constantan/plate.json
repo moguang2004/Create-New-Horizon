@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:plates/constantan"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:plates/constantan"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_constantan"
+  },
+  "temperature": 920,
+  "time": 64
+}

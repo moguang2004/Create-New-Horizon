@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material_fluid",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/lead"
+    }
+  ],
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_lead"
+  },
+  "output": "tconstruct:lead",
+  "temperature": 330
+}

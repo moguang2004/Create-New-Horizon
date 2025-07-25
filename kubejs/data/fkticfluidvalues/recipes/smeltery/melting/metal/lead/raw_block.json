@@ -1,0 +1,66 @@
+{
+  "type": "forge:conditional",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:storage_blocks/raw_lead"
+    }
+  ],
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "mantle:tag_filled",
+          "tag": "forge:ingots/silver"
+        }
+      ],
+      "recipe": {
+        "type": "tconstruct:ore_melting",
+        "byproducts": [
+          {
+            "amount": 1296,
+            "rate": "metal",
+            "tag": "forge:molten_silver"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_lead"
+        },
+        "rate": "metal",
+        "result": {
+          "amount": 1296,
+          "tag": "forge:molten_lead"
+        },
+        "temperature": 330,
+        "time": 260
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "recipe": {
+        "type": "tconstruct:ore_melting",
+        "byproducts": [
+          {
+            "amount": 1296,
+            "rate": "metal",
+            "tag": "forge:molten_gold"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_lead"
+        },
+        "rate": "metal",
+        "result": {
+          "amount": 1296,
+          "tag": "forge:molten_lead"
+        },
+        "temperature": 330,
+        "time": 260
+      }
+    }
+  ]
+}

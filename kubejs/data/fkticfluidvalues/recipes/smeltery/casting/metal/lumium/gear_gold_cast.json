@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gear"
+  },
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:gears/lumium"
+    }
+  ],
+  "cooling_time": 136,
+  "fluid": {
+    "amount": 576,
+    "tag": "forge:molten_lumium"
+  },
+  "result": {
+    "tag": "forge:gears/lumium"
+  }
+}

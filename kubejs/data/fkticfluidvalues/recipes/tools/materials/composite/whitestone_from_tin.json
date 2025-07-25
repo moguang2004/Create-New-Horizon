@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:material_fluid",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/tin"
+    }
+  ],
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_tin"
+  },
+  "input": "tconstruct:rock",
+  "output": "tconstruct:whitestone#tin",
+  "temperature": 225
+}

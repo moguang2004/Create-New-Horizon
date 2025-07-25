@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 576,
+      "rate": "metal",
+      "tag": "forge:molten_iron"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:geore_clusters/quartz"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_clusters/quartz"
+  },
+  "rate": "gem",
+  "result": {
+    "amount": 640,
+    "fluid": "tconstruct:molten_quartz"
+  },
+  "temperature": 637,
+  "time": 137
+}

@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/nugget"
+  },
+  "cast_consumed": true,
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:nuggets/platinum"
+    }
+  ],
+  "cooling_time": 22,
+  "fluid": {
+    "amount": 16,
+    "tag": "forge:molten_platinum"
+  },
+  "result": {
+    "tag": "forge:nuggets/platinum"
+  }
+}

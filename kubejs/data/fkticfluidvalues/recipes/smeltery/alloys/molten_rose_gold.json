@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 144,
+      "tag": "forge:molten_copper"
+    },
+    {
+      "amount": 144,
+      "tag": "forge:molten_gold"
+    }
+  ],
+  "result": {
+    "amount": 288,
+    "tag": "forge:molten_rose_gold"
+  },
+  "temperature": 550
+}

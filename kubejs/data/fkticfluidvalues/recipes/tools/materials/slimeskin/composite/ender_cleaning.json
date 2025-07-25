@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "amount": 80,
+    "tag": "tconstruct:venom"
+  },
+  "input": "tconstruct:enderslime_vine#slimeskin",
+  "output": "tconstruct:leather",
+  "temperature": 10
+}

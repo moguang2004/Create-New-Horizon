@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:plates/netherite"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:plates/netherite"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_netherite"
+  },
+  "temperature": 1250,
+  "time": 74
+}

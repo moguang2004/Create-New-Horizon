@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:material_fluid",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/zinc"
+    }
+  ],
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_zinc"
+  },
+  "input": "tconstruct:rock",
+  "output": "tconstruct:whitestone#zinc",
+  "temperature": 420
+}

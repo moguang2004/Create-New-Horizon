@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 1296,
+      "rate": "metal",
+      "tag": "forge:molten_gold"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:storage_blocks/raw_platinum"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/raw_platinum"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 1296,
+    "tag": "forge:molten_platinum"
+  },
+  "temperature": 970,
+  "time": 393
+}

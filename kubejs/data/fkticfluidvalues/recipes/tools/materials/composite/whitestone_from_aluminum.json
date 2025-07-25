@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:material_fluid",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/aluminum"
+    }
+  ],
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_aluminum"
+  },
+  "input": "tconstruct:rock",
+  "output": "tconstruct:whitestone#aluminum",
+  "temperature": 425
+}

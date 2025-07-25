@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:entity_melting",
+  "damage": 2,
+  "entity": {
+    "type": "minecraft:slime"
+  },
+  "result": {
+    "amount": 40,
+    "tag": "forge:slime"
+  }
+}

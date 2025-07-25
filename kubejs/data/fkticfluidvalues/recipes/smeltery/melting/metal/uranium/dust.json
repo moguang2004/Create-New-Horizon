@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:dusts/uranium"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:dusts/uranium"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_uranium"
+  },
+  "temperature": 830,
+  "time": 46
+}

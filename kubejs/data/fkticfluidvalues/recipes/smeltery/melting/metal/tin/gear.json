@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:gears/tin"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:gears/tin"
+  },
+  "result": {
+    "amount": 576,
+    "tag": "forge:molten_tin"
+  },
+  "temperature": 225,
+  "time": 78
+}

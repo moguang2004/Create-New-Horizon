@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "tconstruct:congealed_slime",
+  "key": {
+    "#": {
+      "tag": "forge:slimeball/earth"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "tconstruct:earth_congealed_slime"
+  },
+  "show_notification": true
+}

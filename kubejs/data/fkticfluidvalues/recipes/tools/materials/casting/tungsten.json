@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material_fluid",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/tungsten"
+    }
+  ],
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_tungsten"
+  },
+  "output": "tconstruct:tungsten",
+  "temperature": 950
+}

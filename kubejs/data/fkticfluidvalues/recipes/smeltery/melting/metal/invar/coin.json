@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:coins/invar"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:coins/invar"
+  },
+  "result": {
+    "amount": 48,
+    "tag": "forge:molten_invar"
+  },
+  "temperature": 900,
+  "time": 42
+}
