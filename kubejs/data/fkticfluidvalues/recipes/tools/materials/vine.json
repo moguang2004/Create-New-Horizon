@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material",
-  "ingredient": {
-    "item": "minecraft:vine"
-  },
-  "material": "tconstruct:vine",
-  "needed": 1,
-  "value": 1
-}
