@@ -8802,7 +8802,7 @@ hash = "8731501899379d62219dad28378e7c8d98d36f94fb3c1380180bd2af756480e0"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/create.js"
-hash = "c738c04b9729b8337a511026b718885c23c35223a02d7def4066da1c26b640c0"
+hash = "f6aa7ada64a227def3c1262eb2b7054faa25da2fd65b925afec143b926192549"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/createFallen.js"
@@ -8814,7 +8814,7 @@ hash = "dd83aa3edd90a1578168e459a028f9ee8392c97be27384645ecb436b887dc474"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
-hash = "f24589f330fe2ed492cbe2212b5c4deef718b6dbcd43bb67427c8451146e8fd0"
+hash = "aebbd05d599bf8557935dc1c66c10cdd5a63d8f9722c70c3af514f18df2a08ea"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/oreexcavation.js"
@@ -9006,7 +9006,7 @@ hash = "3c4fdf25fc19c312e9b2c2077808d8aaf215a9a5a3b8febe4745a9a07a55ab54"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "7f84c792fa653b45c019d6e28ca99308feebe7ee1748e64b88d655490cf111dd"
+hash = "6869dc006650e8c63bd24bc14bb25113fa71e485dff5c60f80943cfbb01f7093"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -9014,7 +9014,7 @@ hash = "4aa06e7bfc04e552e8d6e18726177d4b0b52d1682f260cc8f847f364f3bbdad8"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedstorage.js"
-hash = "f978431fd2fe1fa06c962be0968b7636d2a6dff8f0dd44c2e3ecb1a040c6f6fc"
+hash = "ba18c7d43e2c23bb75c176c95819961246088a4ad21a11c0c627395bd898cb29"
 
 [[files]]
 file = "kubejs/server_scripts/src/sun.js"
@@ -9025,20 +9025,20 @@ file = "kubejs/server_scripts/src/tag.js"
 hash = "f081cad725f113253385a193495a04c5051f591756db46ffef9c9fe1c21d120f"
 
 [[files]]
+file = "kubejs/server_scripts/src/tinkers/remove_tinkers_repices.js"
+hash = "015d6860b27fc08a647bb55e69dd81a02a77abf37d91d151e8c06f15155cc58c"
+
+[[files]]
+file = "kubejs/server_scripts/src/tinkers/tinkers.js"
+hash = "09ca335506a4bcf982a04836d1295efd481a52b97a216e40c5bd623e5af89add"
+
+[[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
 hash = "7b40b26b41b44a0abaa7017827f4074097d9827bdc2ee35a8afef968ed6ee6d9"
 
 [[files]]
 file = "kubejs/server_scripts/src/wood.js"
 hash = "e629005938ff64cae330aef45c9a22e5ce320ff34e9f28d3afa9dc8bbba34e7b"
-
-[[files]]
-file = "kubejs/server_scripts/tinkers/remove_metarial.js"
-hash = "6362a416a9b633c01dcefa9e2975b644a3fe94dd2d74e4f3e2e7bf9704152c26"
-
-[[files]]
-file = "kubejs/server_scripts/tinkers/tinkers.js"
-hash = "52be01f34a8cd2e6d39fb734006062493c6602c68f0c837cdb4f8d8f6d6ee6ed"
 
 [[files]]
 file = "kubejs/startup_scripts/decorate_block.js"
@@ -10208,7 +10208,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-construct.pw.toml"
-hash = "0c9524cc0616fd94f849b85463d48049a835a3f8ca03e9238cf065571c2ad5ae"
+hash = "b0fa2772d0bceda2edabc356503e878063f1d1dd24e88797f0a8f5b26e0d37e0"
 metafile = true
 
 [[files]]
