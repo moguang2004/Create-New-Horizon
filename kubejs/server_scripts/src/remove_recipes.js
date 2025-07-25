@@ -155,10 +155,10 @@ ServerEvents.recipes(event => {
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_powered_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_activator_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_detector_rail",
-        "fkticfluidvalues:smeltery/seared/melter",
-        "fkticfluidvalues:smeltery/casting/seared/smeltery_controller",
-        "fkticfluidvalues:smeltery/melting/glass/sand",
-        "fkticfluidvalues:smeltery/melting/glass/sand_cast",
+        "tconstruct:smeltery/seared/melter",
+        "tconstruct:smeltery/casting/seared/smeltery_controller",
+        "tconstruct:smeltery/melting/glass/sand",
+        "tconstruct:smeltery/melting/glass/sand_cast",
         "sophisticatedstorage:controller"
         
     ])
