@@ -1,0 +1,56 @@
+{
+  "name": "占卜印記",
+  "icon": "bloodmagic:divinationsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)占卜印記$()可能是你在Blood Magic印記中製作的第一個，你需要使用$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奧術灰燼$(/l)以及 $(item)紅石粉$()和$(item)空白石板$()分別做為基底和催化劑。"
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "占卜印記",
+      "recipe": "bloodmagic:array/divinationsigil",
+      "text": " $(italic)窺探靈魂。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil.png"
+      ],
+      "title": "占卜陣",
+      "border": true,
+      "text": "鍊金製作陣，在那之後是占卜印記。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "占卜印記有兩種主要用途:$(br)$(li)當任何玩家按下[$(k:use)]的同時使用束縛印記瞄準空氣，它將顯示擁有者$(l:bloodmagic:altar/soul_network)靈魂網路$()內的$(blood)LP$()。$(li)當在$(l:bloodmagic:altar/blood_altar)血祭壇$(/l)按下[$(k:use)]，將告訴玩家祭壇目前的階級，及在祭壇上獲得的$(blood)生命精華$()數量，以及目前的最大容量。當手上有$(item)占卜印記$()也會對$(l:bloodmagic:utility/incense_altar)薰香祭壇$()有幫助。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil_info.png"
+      ],
+      "title": "占卜印記顯示",
+      "border": true,
+      "text": "當你看像血祭壇時，占卜印記會顯示這個GUI。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "最後，當你按住潛行並按下[$(k:use)]，一個新的介面將會被打開，顯示所有來自Blood Magic的HUD元素。透過點擊和拖動元素，可以選擇和移動一個元素，鬆開元素並點擊\"儲存\" 將會儲存元素的新位置。$(br2)選擇 \"預設\" 會使元素回到預設的位置上。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/gui_editing.png"
+      ],
+      "title": "GUI編輯",
+      "border": true,
+      "text": "Blood Magic的各種GUI元素。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "這些元素從上到下，從左到右，如下所示:$(li)$(l:bloodmagic:utility/incense_altar)$(#555555)薰香祭壇$()$(li)$(l:bloodmagic:alchemy_array/sigil/seer)$(#AA00AA)先知印記$()$(li)$(item)$(#E6CAFF)占卜印記$()$(li)$(l:bloodmagic:demon_will/will_manipulation/aura_gauge)$(#FFAA00)惡魔意志測量器$()$(li)$(l:bloodmagic:alchemy_array/sigil/holding)維持印記$()"
+    }
+  ]
+}

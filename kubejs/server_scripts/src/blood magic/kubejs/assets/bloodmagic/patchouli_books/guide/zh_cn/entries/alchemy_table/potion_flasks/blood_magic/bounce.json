@@ -1,0 +1,20 @@
+{
+  "name": "彈性",
+  "icon": "minecraft:slime_ball",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "如果目標即將受到墜落傷害，則$(thing)彈性$()會使其不受傷害地彈跳。 Whee! $(br2)在墜落前蹲下可以阻止彈跳。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "彈性 (3:00)",
+      "a.recipe": "bloodmagic:flask/bounce",
+      "b.heading": "彈性 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_bounce",
+      "c.heading": "彈性 (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_bounce"
+    }
+  ]
+}

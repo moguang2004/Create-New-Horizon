@@ -1,0 +1,6 @@
+{
+  "name": "儀式",
+  "description": "儀式將從你的$(l:bloodmagic:altar/soul_network)靈魂網路$(/l)消耗$(blood)LP$()以完成各種任務。$(br2)有關任何儀式的訊息請點擊下面的主儀式石。$(br2)$(br2)>>>      <<<",
+  "icon": "bloodmagic:ritualdiviner",
+  "sortnum": 44249
+}

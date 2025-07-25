@@ -1,0 +1,56 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "ae2"
+        }
+      ],
+      "recipe": {
+        "type": "bloodmagic:meteor",
+        "input": {
+          "item": "ae2:wireless_receiver"
+        },
+        "syphon": 2000000,
+        "explosion": 24.0,
+        "layers": [
+          {
+            "radius": 2,
+            "additionalWeight": 0,
+            "minWeight": 0,
+            "weightMap": [
+              {
+                "block": "ae2:fluix_block",
+                "weight": 30
+              },
+              {
+                "block": "gtceu:certus_quartz_ore",
+                "weight": 150
+              }
+            ],
+            "fill": "ae2:sky_stone_block"
+          },
+          {
+            "radius": 7,
+            "additionalWeight": 200,
+            "minWeight": 0,
+            "weightMap": [
+              {
+                "block": "gtceu:certus_quartz_ore",
+                "weight": 150
+              },
+              {
+                "block": "ae2:quartz_block",
+                "weight": 30
+              }
+            ],
+            "fill": "ae2:sky_stone_block",
+            "shell": "ae2:sky_stone_block"
+          }
+        ]
+      }
+    }
+  ]
+}

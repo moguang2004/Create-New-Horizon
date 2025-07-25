@@ -1,0 +1,37 @@
+{
+  "name": "吉運精華",
+  "icon": "bloodmagic:fortune_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "吉運精華",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment",
+      "text": "增加某些方塊的產量。也可以與幸運附魔疊加。$(br2)有效物品:工具，劍，炸藥。 $(br2)套用: 吉運I (256 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "吉運精華L",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 吉運I (1024 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "吉運精華II",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_2",
+      "text": "這種升級版藥劑可以更加增加某些方塊的產量。 $(br2)套用: 吉運II (256 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "吉運精華XL",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 吉運I (4096 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "吉運精華III",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_3",
+      "text": "這種升級版藥劑可以更加增加某些方塊的產量。 $(br2)套用: 吉運III (256 方塊)"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "飛刀",
+  "icon": "bloodmagic:throwing_dagger",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "extra_recipe_mappings": {
+    "bloodmagic:slate_ampoule": 3
+  },
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "$(item)弓$()和$(item)弩$() 已經很棒了，但是要從 $(item)礫石$()獲取$(item)燧石$()以及拔雞的$(item)羽毛$()坦白來說這是很麻煩的。這些閃亮(且非常鋒利)的$(item)飛刀$()也有一些非常狡猾的效果，如果你自己這麼說的話。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "鐵飛刀",
+      "recipe": "bloodmagic:soulforge/throwing_dagger",
+	  "anchor":"iron_throwing_dagger",
+	  "text": "$(item)鐵飛刀$()是一種快速攻擊武器，造成10點傷害，並有冷卻時間。不僅如此如果你有一些$(l:bloodmagic:demon_will/will_manipulation/demon_will)惡魔意志$()在你身上，或是存於$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()內，它將跟$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知之劍$()相同掉落$(raw)意志$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "針筒飛刀",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_syringe",
+	  "anchor":"syringe_throwing_dagger",
+	  "text": "鍊金術士雖然也需要蒐集$(raw)意志$()，但對$(blood)生命精華$()顯然更有興趣，這時$(item)針筒飛刀$()是你的好選擇。雖然傷害略低，但顯然更便宜,被這種武器擊殺的敵人有機會掉落一個$(item)安瓶石板$() - 或更多，如果它們足夠豐滿。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:slate_ampoule",
+      "title": "安瓶石板",
+      "text": "這些令人愉快的瓶子可在靠近$(l:bloodmagic:altar/blood_altar)血祭壇$()時破壞。使其提供$(blood)500 LP$()，這些$(item)安瓶$()會被銷毀。這些收益並不適用於任何$(item)符文$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "紫水晶飛刀",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_copper",
+      "anchor":"amethyst_throwing_dagger",
+      "text": "$(item)紫水晶飛刀$()的傷害力不低於$(item)鐵飛刀$()，但並不會使生物被擊殺時掉落任何$(raw)意志$()。相對的，能夠在$(item)鍊金術反應室$()使用$(l:bloodmagic:alchemy_table/potions)滯留鍊金瓶$()製作8把$(item)鍊金紫水晶飛刀$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "鍊金紫水晶飛刀",
+      "recipe": "bloodmagic:arc/tipped_copper",
+      "text": "這些飛刀能將效果賦予至被擊中的生物上，就像它們走進$(item)滯留鍊金瓶$()的範圍內一樣。組合實驗的結果，找到最令人衰弱、最邪惡的飛刀!"
+    }
+  ]
+}

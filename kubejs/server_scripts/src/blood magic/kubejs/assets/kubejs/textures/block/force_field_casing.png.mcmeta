@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/force_field_casing_ctm"
+    }
+}

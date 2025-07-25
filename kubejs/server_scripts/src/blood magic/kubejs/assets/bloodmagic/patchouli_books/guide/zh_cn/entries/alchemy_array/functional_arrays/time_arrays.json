@@ -1,0 +1,20 @@
+{
+  "name": "日/夜 轉換陣",
+  "icon": "minecraft:clock",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "基於時間的鍊金陣是很直觀的鍊金陣，控制一天的時間。一但鍊金陣開始改變時間，這些物品就會被消耗掉，目前配方是臨時的未來會進行修改。$(br2)日轉換陣將會使時間流逝到下一個日出，夜轉換陣則是日落。"
+    },
+    {
+      "type": "bloodmagic:2x_functional_array",
+      "a.heading": "新的黎明",
+      "a.recipe": "bloodmagic:array/day",
+      "a.image": "sunarray.png",
+      "b.heading": "夜暮降臨",
+      "b.recipe": "bloodmagic:array/night",
+      "b.image": "moonarray.png"
+    }
+  ]
+}

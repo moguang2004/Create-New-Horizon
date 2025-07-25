@@ -1,0 +1,17 @@
+{
+  "name": "輝煌金屬",
+  "icon": "minecraft:diamond",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "輝煌金屬",
+      "recipe": "bloodmagic:alchemytable/upgrade_brilliance",
+      "text": "效果: 提高護甲防禦能力。最高為+5護甲及+8盔甲強度。$(br2)訓練:在鍊金桌製作束靈之書。每一卷增加1級。$(br2)最高等級: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:diamond_protect"
+    }
+  ]
+}

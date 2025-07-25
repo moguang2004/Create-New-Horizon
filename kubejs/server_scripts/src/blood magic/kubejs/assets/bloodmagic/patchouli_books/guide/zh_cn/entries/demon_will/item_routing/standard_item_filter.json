@@ -1,0 +1,31 @@
+{
+  "name": "標準物品過濾器",
+  "icon": "bloodmagic:itemrouterfilterexact",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "在$(l:bloodmagic:demon_will/item_routing/routing_nodes)路由節點$()中插入標準物品過濾器，能夠讓你選擇多達9種物品，從相鄰的儲存空間中輸入，或輸出。 $(br2)每個物品都有一個數量 - 將數量留空，預設為＂全部＂。$(br2)過濾器也有允許和拒絕的功能，在拒絕模式下，數量將會被忽略。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "標準物品過濾器",
+      "recipe": "bloodmagic:alchemytable/router_filter",
+      "text": "$(br)當使用在$(item)輸入路由節點$()時，數量告訴節點要在指定的空間中留下多少物品。超過這個數字的物品將被輸入至網路。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "當使用在$(item)輸出路由節點$()時，數量告訴節點用多少物品來填充指定的空間。任何超過這個數量的物品將被留在網路 - 或被轉移到另一個有效的空間中。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/standard_item_filter_gui.png",
+        "bloodmagic:images/entries/routing/standard_item_filter_mouseover.png"
+      ],
+      "title": "標準物品過濾器 GUI",
+      "border": true,
+      "text": "能夠設定過濾器的GUI以及文字。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "地城鑰匙",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:mineentrancekey": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)鑰匙$()是最初探索$(thing)地城$()的方式。它們能夠在$(thing)魔域$()的地城箱子中找到，也能夠製作。最基本的一種是$(item)鐵鑰匙$()，在$(thing)魔域$()的淺層$(thing)前廳$()發現。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "最後，你可能在探索地城時發現$(thing)空間扭曲$()。這些只能使用特別罕見的鑰匙開啟，而這些鑰匙無法被製作，而是必須在魔域地城的某個地方找到。空間扭曲只能在魔域深層發現，你永遠不會在前廳發現它們。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:mineentrancekey",
+      "title": "礦坑",
+      "text": "$(thing)礦坑$()的入口只能使用$(thing)領班鑰匙$()打開，而其他的門則能使用$(thing)礦工鑰匙$()。礦坑能讓你獲得$(l:bloodmagic:dungeons/demonite)惡魔合金礦$()以及更稀有的戰利品，但也會帶來相應的挑戰。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "鐵鑰匙",
+      "recipe": "bloodmagic:soulforge/simple_key",
+      "text": "$(italic)如果這麼簡單，我們為何不直接撬開?$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "礦工鑰匙",
+      "recipe": "bloodmagic:soulforge/mine_key",
+      "text": "$(italic)準備上工..!$()"
+    }
+  ]
+}

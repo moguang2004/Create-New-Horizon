@@ -1,0 +1,20 @@
+{
+  "name": "隱形",
+  "icon": "minecraft:glass_pane",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)隱形$()可以使目標從視野中消失，使其難以被發現。這個效果並不會對任何$(item)裝甲$()或手持的道具生效，任何這些物品都可能造成目標位置被發現。$(br2)由$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)夜視$()效果藥水所製作。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "隱形 (3:00)",
+      "a.recipe": "bloodmagic:flask/night_to_invis",
+      "b.heading": "隱形 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_invisibility",
+      "c.heading": "隱形 (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_invisibility"
+    }
+  ]
+}

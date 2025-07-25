@@ -1,0 +1,15 @@
+{
+  "name": "抗毒",
+  "icon": "minecraft:milk_bucket",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果:治療毒藥，冷卻時間依等級縮短。$(br2)訓練:中毒結束。$(br2)最高等級: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:poison_resist"
+    }
+  ]
+}
