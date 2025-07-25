@@ -1,0 +1,96 @@
+{
+  "name": "基礎礦物處理",
+  "icon": "bloodmagic:basiccuttingfluid",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings": {
+    "bloodmagic:copperfragment": 7,
+    "bloodmagic:goldfragment": 7,
+    "bloodmagic:fragment_netherite_scrap": 7,
+    "bloodmagic:coppergravel": 9,
+    "bloodmagic:goldgravel": 9,
+    "bloodmagic:gravel_netherite_scrap": 9,
+    "bloodmagic:coppersand": 7,
+    "bloodmagic:sand_netherite": 7
+      },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:alchemy_table/alchemy_table)鍊金桌$()可以使用在其他方面，像是礦物翻倍，而$(l:bloodmagic:utility/alchemical_reaction_chamber)鍊金術反應室$()則能使礦物增加3倍。用血液的力量從你的採礦之旅中獲取更多礦石!"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "基礎切削液",
+	  "anchor": "cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/basic_cutting_fluid_sigil",
+      "text": "基礎切削液用於2倍礦物處理。它也可以在$(l:bloodmagic:utility/alchemical_reaction_chamber)鍊金術反應室$(/l)用於同樣目的。雖然範例中使用了$(l:bloodmagic:alchemy_array/sigil/water)水之印記$()，但也可以使用$(water)水瓶$()替代，不過與印記不同，它將會被消耗。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "中級切削液",
+      "anchor": "intermediate_cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/intermediate_cutting_fluid_sigil",
+      "text": "中級切削液是一個改良版本，持續時間為原本的8倍，並提供25%速度加成。不過你得去$(l:bloodmagic:dungeons/lobby)探索地城$()並獲取$(l:bloodmagic:dungeons/tau_fruit)血命果$()。"
+    },
+    {		
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "鐵沙",
+      "a.recipe": "bloodmagic:alchemytable/sand_iron",
+      "b.heading": "金沙",
+      "b.recipe": "bloodmagic:alchemytable/sand_gold"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe":"bloodmagic:smelting/ingot_iron",
+      "recipe2": "bloodmagic:smelting/ingot_gold"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "爆炸粉末",
+      "anchor": "ore_processing",
+      "recipe": "bloodmagic:alchemytable/explosive_powder",
+      "text": "$(item)爆炸粉末$()是在$(item)鍊金術反應室$()中將$(item)礦物$()轉化成$(item)礦物碎片$()並用於$(thing)3倍礦物處理$()，或者將$(item)錠$()轉化為$(item)沙$()。還能夠使$(fire)地獄石$()轉化為$(#ADFEDC)硫磺$()以及5mb的$(fire)岩漿$()。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "礦物到3塊礦物碎片",
+      "a.recipe": "bloodmagic:arc/fragmentsiron",
+      "b.heading": "錠到金屬沙",
+      "b.recipe": "bloodmagic:arc/dustsfrom_ingot_iron",
+      "c.heading": "硫磺及岩漿",
+      "c.recipe": "bloodmagic:arc/netherrack_to_sulfer",
+      "c.fluid_output": "minecraft:lava_bucket"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "共振器",
+      "recipe": "bloodmagic:soulforge/resonator",
+      "text": "$(item)共振器$()用於將$(item)礦物碎片$()轉化為對應的$(item)礫石$()以便繼續進行礦物處理，並產生一些$(item)微小的粉塵$()，但這尚未實現。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "碎片到礫石",
+      "recipe": "bloodmagic:arc/gravelsiron"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)切削液$()使用於將金屬的$(item)礫石$()轉化為該金屬的$(item)沙$()以便進行$(thing)3倍礦物處理$()。也能夠將$(item)礦物$()直接轉化為2個金屬沙以便進行$(thing)2倍礦物處理$()。同樣的$(thing)2倍礦物處理$()能夠在$(l:bloodmagic:alchemy_table/alchemy_table)鍊金桌$()上完成,但在$(item)鍊金術反應室$()可以為你節省一點$(blood)LP$()。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "金屬礫石到金屬沙",
+      "a.recipe": "bloodmagic:arc/dustsfrom_gravel_iron",
+      "b.heading": "礦物到2金屬沙",
+      "b.recipe": "bloodmagic:arc/dustsfrom_ore_iron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "燃料單元(熔爐)",
+      "recipe": "bloodmagic:primitive_furnace_cell",
+      "text": "$(item)鍊金術反應室$()同時作為一個$(thing)熔爐$()，但它唯一接收的燃料來源是$(item)原始燃料單元$()或者$(l:bloodmagic:utility/lava_crystal)岩漿水晶$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)原始燃料單元$()能夠使用在128種用途。這比起$(item)煤炭磚$()(60種)還要有用多了，而且由於它只會在製作完成時消耗，所以不會浪費任何燃料。"
+    }
+  ]
+}

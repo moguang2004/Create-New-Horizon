@@ -1,0 +1,43 @@
+{
+  "name": "靈魂網路",
+  "icon": "bloodmagic:weakbloodorb",
+  "category": "bloodmagic:altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)靈魂網路$()是連接你的$(thing)靈魂$()到你所有綁定的物品，儀式及方塊。功能性上，做為每個玩家$(blood)LP$()的全局儲存，可以使玩家的綁定物品成為仲介，加入或汲取。當你第一次對可以綁定$(thing)靈魂網路$()的物品按下[$(k:use)]時，它就會與你綁定。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "被你\"擁有\"。因此該物品所作需要耗費的$(blood)LP$()都會從你的$(thing)靈魂網路$()消耗。在某些例子，當該物品無法從你的$(thing)靈魂網路$()獲取足夠的$(blood)LP$()時，會直接從你的生命值提取$(blood)LP$()。$(br2)在其他情況下，(例如當一個正在進行的儀式將你的靈魂網路耗盡時)，將會造成無止境的噁心，直到該儀式被停用或你的靈魂網路重新填充。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "為了填充你的$(thing)靈魂網路$()，你需要製作一個$(item)血寶珠$()。 $(br2)血寶珠可以有兩種方式存入$(blood)LP$()。 $(li)玩家可以透過按下[$(k:use)]來消耗一顆心填充$(item)血寶珠$()，提供給$(thing)靈魂網路$()$(blood)200 LP$()。 $(li)$(item)血寶珠$() 也能夠被放置在$(l:bloodmagic:altar/blood_altar)血祭壇$(/l)上吸收$(blood)生命精華$()。寶珠將會以能夠吸收的速度吸收，速度受限祭壇的$(item)速度符文$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每一階級的$(item)血祭壇$()都能夠製作一種階級的$(item)血寶珠$()。 這些配方將在後面的頁面中紀載。 $(li)$(item)微弱血寶珠$() - 最大容量: $(blood)5k LP$()。	  $(li)$(item)學徒血寶珠$() - 最大容量: $(blood)25k LP$()。 $(li)$(item)法師血寶珠$() - 最大容量: $(blood)150k LP$()。 $(li)$(item)大師血寶珠$() - 最大容量: $(blood)1M LP$()。 $(li)$(item)大法師血寶珠$() - 最大容量: $(blood)10M LP$()。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "微弱血寶珠",
+      "a.recipe": "bloodmagic:altar/weakbloodorb",
+      "b.heading": "學徒血寶珠",
+      "b.recipe": "bloodmagic:altar/apprenticebloodorb"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "法師血寶珠",
+      "a.recipe": "bloodmagic:altar/magicianbloodorb",
+      "b.heading": "大師血寶珠",
+      "b.recipe": "bloodmagic:altar/masterbloodorb"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "大法師血寶珠",
+      "recipe": "bloodmagic:altar/archmagebloodorb",
+      "text":"如果這依然不能滿足你儲存$(blood)LP$()的需求，請考慮使用$(l:bloodmagic:altar/blood_rune/orb_rune)寶珠符文$()。"
+    }
+  ]
+}

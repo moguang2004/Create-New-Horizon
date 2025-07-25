@@ -1,0 +1,48 @@
+{
+  "name": "懺悔靈魂儀式",
+  "icon": "bloodmagic:upgradescraps",
+  "category": "bloodmagic:rituals/ritual_list",
+  "extra_recipe_mappings": {
+    "bloodmagic:upgradescraps": 5
+  },
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "懺悔靈魂儀式",
+      "multiblock_id": "bloodmagic:downgrade",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "downgrade"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "downgrades",
+      "text": "這個儀式會消耗多餘的$(thing)升級點數$() (以$(item)束靈之書$()，$(item)碎片$()，以及$(item)合成升級點數$()的形式)來對你的$(l:bloodmagic:alchemy_array/living_equipment/living_basics)束靈鎧甲$()進行降級處理。這些降級會嚴重限制你的能力，但會為你提供額外大量的$(thing)升級點數$()讓你的專業變得比以前更強大。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:synthetic_point",
+      "text": "如果你沒有足夠的升級點數，你可以製作合成升級點數，每1個都相當於1點升級點數 "
+    },
+    {
+      "type": "patchouli:text",
+      "text": "要使用這個儀式，只需在穿著束靈鎧甲的情況下，將你的束靈之書(或其他升級點數來源)，和你心目中的特定降級所需物品放入連接的儲物箱中(見前頁)。儀式會消耗這些點數，並將降級套用至你的鎧甲。消耗的順序為$(item)束靈鎧甲升級碎片$()，然後是$(item)束靈之書$()，最後是$(item)合成升級點數$()。"
+    },
+    {
+    "type": "patchouli:spotlight",
+    "item": "bloodmagic:upgradescraps",
+    "title": "束靈鎧甲升級碎片",
+    "text": "多餘的點數將返還為$(item)束靈鎧甲升級碎片$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "鎧甲的降級取決於你在儲物箱中放了什麼物品。每個與特定降級匹配的物品將使降級等級提高一等。透過這種方式，一個儀式可以同時套用多種降級。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "儀式將會尊重你在$(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)訓練手鐲$()上設定的任何配置，因此，如果將其設定為＂不允許其它升級＂，那麼儀式將無法對鎧甲進行降級。如果有任何問題，請收起訓練手鐲!"
+    }
+  ]
+}

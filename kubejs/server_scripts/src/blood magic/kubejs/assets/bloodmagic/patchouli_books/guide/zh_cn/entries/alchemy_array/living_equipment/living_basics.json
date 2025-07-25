@@ -1,0 +1,34 @@
+{
+  "name": "束靈鎧甲基礎",
+  "icon": "bloodmagic:reagentbinding",
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:reagentbinding": 1,
+    "bloodmagic:livinghelmet": 3,
+    "bloodmagic:livingplate": 3,
+    "bloodmagic:livingleggings": 3,
+    "bloodmagic:livingboots": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "要製造$(item)束靈裝備$()，首先要準備$(item)鐵甲$() (或者叫$(item)鐵裝甲$()，如果你喜歡)，一些$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奧術灰燼$()，以及一些$(item)束縛試劑$()。還需要至少一個$(br)$(l:bloodmagic:demon_will/will_manipulation/soul_gem)普通地獄魂石$()用來維持$(item)惡魔意志$()需求。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "束縛試劑",
+      "recipe": "bloodmagic:alchemytable/reagent_binding",
+      "text": "$(italic)它緊緊地擁抱著我...$() $(br2)$(br2)$(item)束靈裝備$()在耐久度方面相當於$(item)鑽石裝甲$()，也能夠在$(thing)鐵砧$()上使用更多$(thing)束縛試劑$()進行修復。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "和其他鍊金陣一樣，在看著其他方塊時手持$(item)奧術灰燼$()按下[$(k:use)]，然後加入$(item)束縛試劑$()。之後放入你的$(item)鐵製頭盔$()，$(item)鐵製胸甲$()，$(item)鐵製護腿$()以及$(item)鐵製靴子$()，站在後方，好好欣賞。$(br2)束靈鎧甲剛開始和鐵製裝甲相同，但它有$(thing)升級點數$()可以使用，要注意，有很多方法可以訓練它。從100開始，但也許可能超越限制..."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "束縛儀式",
+      "recipe": "bloodmagic:array/living_helmet",
+      "text": "它是活的，好吧...並且它正在跟你學習。你最好小心教給他的知識。 $(br2)當你看著它可以按下[$(k:sneak)]觀察它目前為止學習到的知識。"
+    }
+  ]
+}

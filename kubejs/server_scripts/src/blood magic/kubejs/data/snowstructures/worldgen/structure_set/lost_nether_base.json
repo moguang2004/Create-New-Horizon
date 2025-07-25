@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "snowstructures:lost_nether_base",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 80,
+        "separation": 20,
+        "salt": 42578348
+    }
+}

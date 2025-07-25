@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "snowstructures:lost_missile",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 400,
+        "separation": 100,
+        "salt": 42578349
+    }
+}

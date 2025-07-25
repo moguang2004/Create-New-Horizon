@@ -1,0 +1,40 @@
+{
+    "type": "bloodmagic:meteor",
+    "explosion": 25.0,
+    "input": {
+        "item": "gtceu:hv_emitter"
+    },
+    "layers": [
+        {
+            "additionalWeight": 0,
+            "fill": {
+                "block": "ad_astra:moon_stone"
+            },
+            "minWeight": 1000,
+            "radius": 11,
+            "weightMap": [
+                {
+                    "block": "gtceu:moon_stone_ilmenite_ore",
+                    "weight": 125
+                },
+                {
+                    "block": "gtceu:moon_stone_aluminium_ore",
+                    "weight": 150
+                },
+                {
+                    "block": "gtceu:moon_stone_bauxite_ore",
+                    "weight": 200
+                },
+                {
+                    "block": "gtceu:moon_stone_cooperite_ore",
+                    "weight": 100
+                },
+                {
+                    "block": "gtceu:moon_stone_tetrahedrite_ore",
+                    "weight": 200
+                }
+            ]
+        }
+    ],
+    "syphon": 1100000
+}

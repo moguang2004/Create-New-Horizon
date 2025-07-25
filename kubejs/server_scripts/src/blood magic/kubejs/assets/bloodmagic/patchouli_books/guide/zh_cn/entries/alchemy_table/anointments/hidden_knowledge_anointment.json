@@ -1,0 +1,37 @@
+{
+  "name": "礦工之密",
+  "icon": "bloodmagic:hidden_knowledge_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "礦工之密",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment",
+      "text": "成功挖掘方塊會額外追加經驗獎勵。每個方塊+2經驗值。掉落追加獎勵時消耗。$(br2)有效物品:工具，劍。$(br2)套用: 礦工之密 I (256 經驗掉落方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "礦工之密 L",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 礦工之密 I (1024 經驗掉落方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "礦工之密 II",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_2",
+      "text": "這種升級版藥劑可以使追加獎勵增加為+4經驗。 $(br2)套用: 礦工之密 II (256 經驗掉落方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "礦工之密 XL",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 礦工之密 I (4096 經驗掉落方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "礦工之密 III",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_3",
+      "text": "這種升級版藥劑可以使追加獎勵增加為+6經驗。 $(br2)套用: 礦工之密 III (256 經驗掉落方塊)"
+    }
+  ]
+}

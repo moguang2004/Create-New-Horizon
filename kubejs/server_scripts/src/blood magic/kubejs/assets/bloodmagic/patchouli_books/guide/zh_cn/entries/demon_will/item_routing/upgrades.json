@@ -1,0 +1,17 @@
+{
+  "name": "升級",
+  "icon": "bloodmagic:mastercore",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "目前，只有一種$(thing)升級$()是能夠用於路由網路的。$(br2)$(item)基礎路由邏輯升級$()增加了每次運作所運輸的物品總數。(目前為每秒一次)。預設情況下，網路將一次傳輸16個物品，但每個升級都將使其上限提高8個。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "基礎路由邏輯升級",
+      "recipe": "bloodmagic:soulforge/master_node_upgrade",
+      "text": "這些升級能夠堆疊至16個，允許每秒傳輸144個物品。請注意，如果有多個不同的物品需要運輸，可以分成不同堆疊。"
+    }
+  ]
+}

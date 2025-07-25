@@ -1,0 +1,39 @@
+{
+  "name": "基礎鍊金陣",
+  "icon": "bloodmagic:arcaneashes",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)奧術灰燼$()是一種創造鍊金陣的重要物品。$(item)奧術灰燼$()可以在$(l:bloodmagic:alchemy_table/alchemy_table)鍊金桌$()使用一些早期道具進行製作。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "奧術灰燼",
+      "recipe": "bloodmagic:alchemytable/arcane_ash"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "為了創造鍊金陣請在手上拿著$(item)奧術灰燼$()時對著方塊按下[$(k:use)]。這將消耗$(item)奧術灰燼$()20點耐久度中的1點。並且畫出一個簡易的$(thing)鍊金陣$()，本身沒有任何效果。 $(br2)當你點擊$(thing)鍊金陣$()，將會消耗你手中的一個$(item)物品$()並保存在鍊金陣中。這些物品將用來確定$(thing)鍊金陣$()的效果。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_array/simple_array.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_1.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_2.png"
+      ],
+      "title": "鍊金陣",
+      "border": true,
+      "text": "$(thing)鍊金陣$() 顯示鍊金陣: 沒有輸入;只有$(item)基本物品$();含$(item)基底$()及$(item)催化劑$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每個效果都需要兩個物品:$(item)基底$()和$(item)催化劑$()。$(item)基底$()為你在繪製鍊金陣後使用的第一個物品，而$(item)催化劑$()則是第二個物品。當你使用了$(item)基底$()時，如果鍊金陣是有效的，它將會轉化，一但使用$(item)催化劑$()，鍊金陣將被活化。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "雖然目前只實現了幾個鍊金陣，但你最後會擁有從簡單的$(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)製作陣$(/l)到複雜的傳送陣。"
+    }
+  ]
+}

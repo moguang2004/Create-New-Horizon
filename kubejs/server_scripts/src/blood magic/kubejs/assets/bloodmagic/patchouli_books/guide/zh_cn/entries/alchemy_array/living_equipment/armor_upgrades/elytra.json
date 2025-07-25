@@ -1,0 +1,17 @@
+{
+  "name": "鞘翅",
+  "icon": "minecraft:elytra",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "為你的束靈鎧甲增加一對鞘翅。只能夠使用製作取得這種$(l:bloodmagic:alchemy_array/living_equipment/living_tomes)束靈之書$()。$(br2)這種鞘翅會消耗護甲的耐久度，但消耗速度是一般鞘翅的一半。 $(br2)看起來也比較整潔。"
+    },
+    {
+      "type": "bloodmagic:crafting_upgrade_array",
+      "a.heading": "鞘翅之書",
+      "a.recipe": "bloodmagic:array/living_elytra_upgrade",
+      "b.upgrade": "bloodmagic:elytra"
+    }
+  ]
+}

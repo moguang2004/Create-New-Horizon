@@ -1,0 +1,25 @@
+{
+  "name": "流動符文",
+  "icon": "bloodmagic:dislocationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)流動符文$()能夠將$(blood)生命精華$()的流動速度+20%。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_displacement"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_displacement_2",
+      "text":"有了一些$(item)遠古遺骸$()和一點從$(l:bloodmagic:dungeons/endless_realm)魔域$()掠奪來的$(item)精密獄火鍛造組件$()，將能夠讓$(item)流動符文$()的能力加倍，每一顆流動符文能夠使流速乘+40%。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/displacement",
+      "text":"如果你改變主意，你可以在鍊金術反應室改變配方。"
+    }
+  ]
+}

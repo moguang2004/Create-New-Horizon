@@ -1,0 +1,37 @@
+{
+  "name": "弓手拋光劑",
+  "icon": "bloodmagic:bow_velocity_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "弓手拋光劑",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment",
+      "text": "使射出的箭速度提高50%。這也會依照比例增加傷害，也能與原版附魔疊加。$(br2)有效物品:弓，弩。$(br2)套用: 狙擊 I (256 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "弓手拋光劑L",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 狙擊I (1024 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "弓手拋光劑II",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_2",
+      "text": "這種升級版的藥劑可以使射出的箭速度提高100%。 $(br2)套用: 狙擊II (256 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "弓手拋光劑XL",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 狙擊I (4096 射擊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "弓手拋光劑III",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_3",
+      "text": "這種升級版的藥劑可以使射出的箭速度提高150%。 $(br2)套用: 狙擊III (256 射擊)"
+    }
+  ]
+}

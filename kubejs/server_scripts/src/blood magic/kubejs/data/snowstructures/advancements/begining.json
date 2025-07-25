@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "wakeup": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                    "location": {
+                        "dimension":"minecraft:overworld"
+                        }
+                    }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "item": "minecraft:apple"
+         },
+         "title": {
+             "translate": "重返地球..."
+         },
+         "description": {
+             "translate": "在那场与三体人的战争中，我在一艘设定好的无人驾驶返回舱中迫降到了地球..."
+         },
+         "frame": "task",    
+         "announce_to_chat": true,    
+         "background": "kubejs:textures/block/alfsteel_casing.png",    
+         "hidden": false,    
+         "show_toast": true    
+    },
+    "requirements": [  
+        ["wakeup"]
+    ],
+    "rewards": {   
+        "function": "snowstructures:begining"
+    }
+}

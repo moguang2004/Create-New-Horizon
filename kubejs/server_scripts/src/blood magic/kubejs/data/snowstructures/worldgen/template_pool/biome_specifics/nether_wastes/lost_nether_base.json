@@ -1,0 +1,14 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "snowstructures:biome_specifics/nether_wastes/lost_nether_base",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

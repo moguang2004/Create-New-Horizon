@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/machine_casing_heatproof_ctm"
+    }
+}

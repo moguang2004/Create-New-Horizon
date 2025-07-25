@@ -1,0 +1,54 @@
+{
+  "name": "罪人儀式",
+  "icon": "minecraft:dirt",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "罪人儀式",
+      "multiblock_id": "bloodmagic:grounding",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "grounding"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "raw"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "corrosive",
+      "text":"其行為類似於$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)懸浮$()效果。"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "vengeful",
+      "text_overrides": [
+        ["Levitation", "l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["Heavy Heart", "l:bloodmagic:alchemy_table/potion_flasks/blood_magic/heavy_heart"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "groundingRange"
+    }
+  ]
+}
