@@ -1,0 +1,37 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 80,
+      "fluid": "tconstruct:molten_diamond",
+      "rate": "gem"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mantle:tag_combination_filled",
+      "match": [
+        "forge:ores/emerald",
+        "forge:ore_rates/sparse"
+      ]
+    }
+  ],
+  "ingredient": {
+    "type": "forge:intersection",
+    "children": [
+      {
+        "tag": "forge:ores/emerald"
+      },
+      {
+        "tag": "forge:ore_rates/sparse"
+      }
+    ]
+  },
+  "rate": "gem",
+  "result": {
+    "amount": 80,
+    "fluid": "tconstruct:molten_emerald"
+  },
+  "temperature": 934,
+  "time": 96
+}

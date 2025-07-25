@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/wire"
+  },
+  "cast_consumed": true,
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:wires/steel"
+    }
+  ],
+  "cooling_time": 46,
+  "fluid": {
+    "amount": 72,
+    "tag": "forge:molten_steel"
+  },
+  "result": {
+    "tag": "forge:wires/steel"
+  }
+}

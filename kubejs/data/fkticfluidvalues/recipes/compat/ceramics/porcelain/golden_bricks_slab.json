@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:melting",
+  "byproducts": [
+    {
+      "amount": 8,
+      "tag": "forge:molten_gold"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ceramics"
+    }
+  ],
+  "ingredient": {
+    "item": "ceramics:golden_bricks_slab"
+  },
+  "result": {
+    "amount": 800,
+    "fluid": "tconstruct:molten_porcelain"
+  },
+  "temperature": 700,
+  "time": 76
+}

@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:entity_melting",
+  "damage": 2,
+  "entity": {
+    "types": [
+      "minecraft:spider",
+      "minecraft:cave_spider"
+    ]
+  },
+  "result": {
+    "amount": 40,
+    "fluid": "tconstruct:venom"
+  }
+}

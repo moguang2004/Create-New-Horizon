@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "byproducts": [
+    {
+      "amount": 800,
+      "fluid": "tconstruct:molten_diamond",
+      "unit_size": 40
+    }
+  ],
+  "ingredient": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_netherite",
+    "unit_size": 16
+  },
+  "temperature": 1250,
+  "time": 74
+}

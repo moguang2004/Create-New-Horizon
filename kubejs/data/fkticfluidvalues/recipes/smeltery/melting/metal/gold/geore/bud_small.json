@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 144,
+      "rate": "metal",
+      "tag": "forge:molten_cobalt"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:geore_small_buds/gold"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_small_buds/gold"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_gold"
+  },
+  "temperature": 700,
+  "time": 57
+}

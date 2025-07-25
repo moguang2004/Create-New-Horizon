@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:armors/boots/invar"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:armors/boots/invar"
+  },
+  "result": {
+    "amount": 576,
+    "tag": "forge:molten_invar",
+    "unit_size": 16
+  },
+  "temperature": 900,
+  "time": 127
+}

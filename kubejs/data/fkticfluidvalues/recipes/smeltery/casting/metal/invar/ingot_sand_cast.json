@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/invar"
+    }
+  ],
+  "cooling_time": 63,
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_invar"
+  },
+  "result": {
+    "tag": "forge:ingots/invar"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "tconstruct:melting/bronze/tools_costing_1"
+    }
+  ],
+  "ingredient": {
+    "tag": "tconstruct:melting/bronze/tools_costing_1"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_bronze",
+    "unit_size": 16
+  },
+  "temperature": 700,
+  "time": 57
+}

@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:armors/chestplates/constantan"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:armors/chestplates/constantan"
+  },
+  "result": {
+    "amount": 1152,
+    "tag": "forge:molten_constantan",
+    "unit_size": 16
+  },
+  "temperature": 920,
+  "time": 181
+}

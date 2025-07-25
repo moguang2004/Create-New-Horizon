@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 576,
+      "fluid": "tconstruct:molten_debris",
+      "rate": "metal"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:geore_clusters/diamond"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_clusters/diamond"
+  },
+  "rate": "gem",
+  "result": {
+    "amount": 640,
+    "fluid": "tconstruct:molten_diamond"
+  },
+  "temperature": 1450,
+  "time": 197
+}

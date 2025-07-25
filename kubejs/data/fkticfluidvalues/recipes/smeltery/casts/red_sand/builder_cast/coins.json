@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:item_part_builder",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:coins"
+    }
+  ],
+  "pattern": "tconstruct:coin",
+  "pattern_item": {
+    "tag": "tconstruct:casts/red_sand"
+  },
+  "result": "tconstruct:coin_red_sand_cast"
+}

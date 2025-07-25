@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:plates/enderium"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:plates/enderium"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_enderium"
+  },
+  "temperature": 1350,
+  "time": 76
+}

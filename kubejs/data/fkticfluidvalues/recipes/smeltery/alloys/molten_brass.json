@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:alloy",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/zinc"
+    }
+  ],
+  "inputs": [
+    {
+      "amount": 144,
+      "tag": "forge:molten_copper"
+    },
+    {
+      "amount": 144,
+      "tag": "forge:molten_zinc"
+    }
+  ],
+  "result": {
+    "amount": 288,
+    "tag": "forge:molten_brass"
+  },
+  "temperature": 605
+}

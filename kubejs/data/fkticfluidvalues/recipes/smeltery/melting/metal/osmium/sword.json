@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "tconstruct:melting/osmium/tools_costing_2"
+    }
+  ],
+  "ingredient": {
+    "tag": "tconstruct:melting/osmium/tools_costing_2"
+  },
+  "result": {
+    "amount": 288,
+    "tag": "forge:molten_osmium",
+    "unit_size": 16
+  },
+  "temperature": 975,
+  "time": 93
+}

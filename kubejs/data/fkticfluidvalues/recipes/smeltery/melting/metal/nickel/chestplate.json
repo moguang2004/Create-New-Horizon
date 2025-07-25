@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:armors/chestplates/nickel"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:armors/chestplates/nickel"
+  },
+  "result": {
+    "amount": 1152,
+    "tag": "forge:molten_nickel",
+    "unit_size": 16
+  },
+  "temperature": 950,
+  "time": 183
+}

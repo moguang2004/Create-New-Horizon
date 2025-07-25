@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 1296,
+      "rate": "metal",
+      "tag": "forge:molten_steel"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/raw_iron"
+  },
+  "rate": "metal",
+  "result": {
+    "amount": 1296,
+    "tag": "forge:molten_iron"
+  },
+  "temperature": 800,
+  "time": 361
+}

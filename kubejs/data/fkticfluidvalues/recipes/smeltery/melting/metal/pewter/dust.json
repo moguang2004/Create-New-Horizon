@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:dusts/pewter"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:dusts/pewter"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_pewter"
+  },
+  "temperature": 400,
+  "time": 35
+}

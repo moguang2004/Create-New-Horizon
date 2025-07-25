@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:armors/helmets/copper"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:armors/helmets/copper"
+  },
+  "result": {
+    "amount": 720,
+    "tag": "forge:molten_copper",
+    "unit_size": 16
+  },
+  "temperature": 500,
+  "time": 112
+}

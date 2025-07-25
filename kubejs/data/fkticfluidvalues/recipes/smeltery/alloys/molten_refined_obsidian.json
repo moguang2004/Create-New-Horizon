@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:alloy",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/refined_obsidian"
+    },
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/osmium"
+    }
+  ],
+  "inputs": [
+    {
+      "amount": 250,
+      "tag": "tconstruct:molten_obsidian"
+    },
+    {
+      "amount": 160,
+      "tag": "tconstruct:molten_diamond"
+    },
+    {
+      "amount": 144,
+      "tag": "forge:molten_osmium"
+    }
+  ],
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_refined_obsidian"
+  },
+  "temperature": 1475
+}

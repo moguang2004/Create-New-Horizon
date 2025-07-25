@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:nuggets/pewter"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/pewter"
+  },
+  "result": {
+    "amount": 16,
+    "tag": "forge:molten_pewter"
+  },
+  "temperature": 400,
+  "time": 15
+}

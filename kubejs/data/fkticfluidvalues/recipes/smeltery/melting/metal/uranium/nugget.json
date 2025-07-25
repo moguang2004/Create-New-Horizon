@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:nuggets/uranium"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/uranium"
+  },
+  "result": {
+    "amount": 16,
+    "tag": "forge:molten_uranium"
+  },
+  "temperature": 830,
+  "time": 20
+}

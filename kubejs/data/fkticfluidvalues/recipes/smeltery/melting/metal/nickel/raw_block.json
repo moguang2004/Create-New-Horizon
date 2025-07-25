@@ -1,0 +1,66 @@
+{
+  "type": "forge:conditional",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:storage_blocks/raw_nickel"
+    }
+  ],
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "mantle:tag_filled",
+          "tag": "forge:ingots/platinum"
+        }
+      ],
+      "recipe": {
+        "type": "tconstruct:ore_melting",
+        "byproducts": [
+          {
+            "amount": 1296,
+            "rate": "metal",
+            "tag": "forge:molten_platinum"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_nickel"
+        },
+        "rate": "metal",
+        "result": {
+          "amount": 1296,
+          "tag": "forge:molten_nickel"
+        },
+        "temperature": 950,
+        "time": 389
+      }
+    },
+    {
+      "conditions": [
+        {
+          "type": "forge:true"
+        }
+      ],
+      "recipe": {
+        "type": "tconstruct:ore_melting",
+        "byproducts": [
+          {
+            "amount": 1296,
+            "rate": "metal",
+            "tag": "forge:molten_iron"
+          }
+        ],
+        "ingredient": {
+          "tag": "forge:storage_blocks/raw_nickel"
+        },
+        "rate": "metal",
+        "result": {
+          "amount": 1296,
+          "tag": "forge:molten_nickel"
+        },
+        "temperature": 950,
+        "time": 389
+      }
+    }
+  ]
+}

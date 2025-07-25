@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/copper"
+    },
+    ".": {
+      "tag": "forge:nuggets/copper"
+    }
+  },
+  "pattern": [
+    "#.#",
+    ". .",
+    "#.#"
+  ],
+  "result": {
+    "count": 4,
+    "item": "tconstruct:copper_platform"
+  },
+  "show_notification": true
+}

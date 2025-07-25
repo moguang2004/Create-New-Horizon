@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:storage_blocks/tungsten"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/tungsten"
+  },
+  "result": {
+    "amount": 1296,
+    "tag": "forge:molten_tungsten"
+  },
+  "temperature": 950,
+  "time": 194
+}

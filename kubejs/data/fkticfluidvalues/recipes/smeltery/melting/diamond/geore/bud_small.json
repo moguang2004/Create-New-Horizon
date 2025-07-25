@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 144,
+      "fluid": "tconstruct:molten_debris",
+      "rate": "metal"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:geore_small_buds/diamond"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_small_buds/diamond"
+  },
+  "rate": "gem",
+  "result": {
+    "amount": 160,
+    "fluid": "tconstruct:molten_diamond"
+  },
+  "temperature": 1450,
+  "time": 79
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:entity_melting",
+  "damage": 5,
+  "entity": {
+    "tag": "forge:villagers"
+  },
+  "result": {
+    "amount": 40,
+    "fluid": "tconstruct:molten_emerald"
+  }
+}

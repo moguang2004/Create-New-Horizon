@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/coin"
+  },
+  "cast_consumed": true,
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:coins/iron"
+    }
+  ],
+  "cooling_time": 35,
+  "fluid": {
+    "amount": 48,
+    "tag": "forge:molten_iron"
+  },
+  "result": {
+    "tag": "forge:coins/iron"
+  }
+}

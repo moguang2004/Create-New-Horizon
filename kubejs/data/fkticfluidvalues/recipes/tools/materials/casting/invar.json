@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:material_fluid",
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "mantle:tag_filled",
+          "tag": "forge:ingots/invar"
+        },
+        {
+          "type": "mantle:tag_filled",
+          "tag": "forge:ingots/nickel"
+        }
+      ]
+    }
+  ],
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_invar"
+  },
+  "output": "tconstruct:invar",
+  "temperature": 900
+}

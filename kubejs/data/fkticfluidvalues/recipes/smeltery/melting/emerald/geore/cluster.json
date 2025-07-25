@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:ore_melting",
+  "byproducts": [
+    {
+      "amount": 640,
+      "fluid": "tconstruct:molten_diamond",
+      "rate": "gem"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:geore_clusters/emerald"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:geore_clusters/emerald"
+  },
+  "rate": "gem",
+  "result": {
+    "amount": 640,
+    "fluid": "tconstruct:molten_emerald"
+  },
+  "temperature": 934,
+  "time": 161
+}

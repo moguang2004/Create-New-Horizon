@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/steel"
+  },
+  "result": {
+    "amount": 16,
+    "tag": "forge:molten_steel"
+  },
+  "temperature": 950,
+  "time": 22
+}

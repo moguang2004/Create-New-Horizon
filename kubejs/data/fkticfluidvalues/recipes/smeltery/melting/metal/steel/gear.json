@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:gears/steel"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:gears/steel"
+  },
+  "result": {
+    "amount": 576,
+    "tag": "forge:molten_steel"
+  },
+  "temperature": 950,
+  "time": 130
+}

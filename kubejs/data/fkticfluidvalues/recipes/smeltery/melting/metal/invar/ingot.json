@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/invar"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/invar"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_invar"
+  },
+  "temperature": 900,
+  "time": 63
+}

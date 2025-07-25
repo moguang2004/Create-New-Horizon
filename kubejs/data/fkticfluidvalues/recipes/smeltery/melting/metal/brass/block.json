@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:storage_blocks/brass"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/brass"
+  },
+  "result": {
+    "amount": 1296,
+    "tag": "forge:molten_brass"
+  },
+  "temperature": 605,
+  "time": 161
+}

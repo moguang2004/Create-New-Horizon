@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/tungsten"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/tungsten"
+  },
+  "result": {
+    "amount": 144,
+    "tag": "forge:molten_tungsten"
+  },
+  "temperature": 950,
+  "time": 65
+}

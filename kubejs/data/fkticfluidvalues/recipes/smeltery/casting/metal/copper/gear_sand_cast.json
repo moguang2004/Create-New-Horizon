@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/gear"
+  },
+  "cast_consumed": true,
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:gears/copper"
+    }
+  ],
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 576,
+    "tag": "forge:molten_copper"
+  },
+  "result": {
+    "tag": "forge:gears/copper"
+  }
+}

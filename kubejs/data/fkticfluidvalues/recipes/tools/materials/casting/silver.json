@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material_fluid",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/silver"
+    }
+  ],
+  "fluid": {
+    "amount": 144,
+    "tag": "forge:molten_silver"
+  },
+  "output": "tconstruct:silver",
+  "temperature": 790
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:coins/steel"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:coins/steel"
+  },
+  "result": {
+    "amount": 48,
+    "tag": "forge:molten_steel"
+  },
+  "temperature": 950,
+  "time": 43
+}

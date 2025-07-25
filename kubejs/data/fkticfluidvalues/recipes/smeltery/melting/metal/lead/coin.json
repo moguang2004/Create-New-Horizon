@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:coins/lead"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:coins/lead"
+  },
+  "result": {
+    "amount": 48,
+    "tag": "forge:molten_lead"
+  },
+  "temperature": 330,
+  "time": 29
+}
