@@ -9157,11 +9157,6 @@ hash = "3ac7383442c1c9d0276faf9552cc726fdf3f80c66e2e81e057c8e25c342445b2"
 metafile = true
 
 [[files]]
-file = "mods/aetheric-tetranomicon.pw.toml"
-hash = "110754e6e00364025ab36b69eefe61044d577f21eb30b904a16e9573b417387f"
-metafile = true
-
-[[files]]
 file = "mods/alexs-caves.pw.toml"
 hash = "88a652e2740b982789b45d8267f28a92b2c88ef1c2886391f56167cdf5a0a582"
 metafile = true
@@ -9473,7 +9468,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "caa78d0b1d5e1338357721451c80e5c27ef326eb028d9d1045c1e51471e88a87"
+hash = "deb457609e0a2b6c9f3c1706ecdcdbfb91fe3868898404bf1a0d0412f52290de"
 metafile = true
 
 [[files]]
@@ -9529,6 +9524,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "17d34ad5430d08efc076ee2a782c552f3e951358dcabe8e5750bfcaf6108aaac"
+metafile = true
+
+[[files]]
+file = "mods/etstlib.pw.toml"
+hash = "ad615278cdb74406b4b58ed8b8576b879e2f8c41b5ed77dcb5554798f46f64c4"
 metafile = true
 
 [[files]]
@@ -9792,6 +9792,11 @@ hash = "d166e67103ee1f715c353369d65119b0492f9c5d88b26180ac4fa45d42f8933a"
 metafile = true
 
 [[files]]
+file = "mods/json-things.pw.toml"
+hash = "4d4939f4066056aef3083eba14d5de0355667243415b40da67d2792fadbce614"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-calculation.pw.toml"
 hash = "fd549e832100dd21ef0e06c2420e831de7680a951e6daac7a233857dbdd95b4d"
 metafile = true
@@ -9929,6 +9934,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "b64db0092338f3aef8af3c5ee1172db8ca6135b3e191adb335bfe569fb8509c6"
+metafile = true
+
+[[files]]
+file = "mods/moffs-addonapi-dynload.pw.toml"
+hash = "e632088f6e0ce345441d8f4c8f6cb8f14d724e6fedd87ccb97684d1a9110a400"
 metafile = true
 
 [[files]]
@@ -10097,11 +10107,6 @@ hash = "205b9d732653818bfafb631412000ae747b0660b4f14b6a7fbee9c31d2ada76d"
 metafile = true
 
 [[files]]
-file = "mods/small-tetra-additions.pw.toml"
-hash = "0ca285fd0da902a8fe097a7f406b5137dc39afcd6f576597023e0cfa653da84f"
-metafile = true
-
-[[files]]
 file = "mods/smooth-chunk-save.pw.toml"
 hash = "10d3297d1982481fe876832832fd72b5cac3113b45717697ea56eec9333a3c05"
 metafile = true
@@ -10167,6 +10172,16 @@ hash = "cef87f70071f89dfe80e4a62f0280b43c880771e9ea91d3f397366e7155c4b3a"
 metafile = true
 
 [[files]]
+file = "mods/tconjei.pw.toml"
+hash = "a4028da844933aa76af185b082ff61b457b554e6b948edad933b9180f82dc4a3"
+metafile = true
+
+[[files]]
+file = "mods/tconplanner.pw.toml"
+hash = "3d51b3cabba0ae01837e3f95b8e1e14b055ac365f23a5b57df5bae27dc21351b"
+metafile = true
+
+[[files]]
 file = "mods/tconstructjs.pw.toml"
 hash = "ac0af96819bfbe1992d9fcc7e85ca4d54421a788278257fd97d05ba67f3ad9b4"
 metafile = true
@@ -10177,26 +10192,6 @@ hash = "3a0ecb3db28649a82e528c1ade094ebbbf95dc1aa6e25c809f534596569fd283"
 metafile = true
 
 [[files]]
-file = "mods/tetra-niche-materials.pw.toml"
-hash = "cadc6ac6856da4f23fed5420ea23e41709b5eae1414ce88abf11349df9f71218"
-metafile = true
-
-[[files]]
-file = "mods/tetra.pw.toml"
-hash = "5852f29b8c4a1510b91ccbf6b92c2df388d5f4605172e8ac6487e1982a23ad13"
-metafile = true
-
-[[files]]
-file = "mods/tetracelium.pw.toml"
-hash = "3c41b7c74d7bfb64644e756f1da30a3d09408e5fa23e306f45efdb9c0e60517f"
-metafile = true
-
-[[files]]
-file = "mods/tetranomicon.pw.toml"
-hash = "59084f1e8d772a286f480c782d7a6668c7563fdab2eecc797cd521c97e09d763"
-metafile = true
-
-[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "49d91afd3c23759bc246077c91cbe56fcef682997d9dcf3fc467d90e6130ef6e"
 metafile = true
@@ -10204,6 +10199,26 @@ metafile = true
 [[files]]
 file = "mods/time-in-a-bottle-universal.pw.toml"
 hash = "21603b11e14e0f9b1d642b6389ab4d3f729b95f7eda69bc1b910f7b6eb70cc92"
+metafile = true
+
+[[files]]
+file = "mods/tinkerleveling.pw.toml"
+hash = "29d2e6f85639ed371f32b178cd20adaf7a976df37ef11249dfacbba689c62732"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-construct.pw.toml"
+hash = "b0fa2772d0bceda2edabc356503e878063f1d1dd24e88797f0a8f5b26e0d37e0"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-katanas.pw.toml"
+hash = "28f486d5883224aa3c646273d74cfc6a8e36e7be8ea7173b19a02bc08f20e4ab"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-things.pw.toml"
+hash = "9c7d4c12d579d0ba6d0d4957d8fe757e3624d111efbbbaf87c9e5ab813eb9eaa"
 metafile = true
 
 [[files]]
