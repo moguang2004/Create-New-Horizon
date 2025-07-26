@@ -1,0 +1,24 @@
+ServerEvents.highPriorityData((event) => {
+    //雪城肛
+    addTConMaterial(event, "gtceu:snow_steel", (builder) => {
+        builder.visibility(2, false) // 这里也可以用.tier(tier: number)方法和.hidden(hidden: boolean)方法, .visibility(tier: number, hidden: boolean)方法只是把这俩给合并了
+            .craftable(false)
+            .sortOrder(26)
+            .head(114514, 8.101, 19.19, "minecraft:diamond")
+            .handle(1.25, 1.25, 1.25, 1.25)
+            .binding()
+            .limb(1.25, 1.25, 1.25, 1.25)
+            .grip(1.25, 1.25, 1.25)
+            .bowstring()
+            .platingHelmet(1.25, 1.25, 1.25, 1.25)
+            .platingChestplate(1.25, 1.25, 1.25, 1.25)
+            .platingLeggings(1.25, 1.25, 1.25, 1.25)
+            .platingBoots(1.25, 1.25, 1.25, 1.25)
+            .platingShield(1.25, 1.25, 1.25, 1.25)
+            .maille()
+            .shieldCore()
+            .setTraits((builder) => {
+                builder.addTrait("tconstruct:head", "kubejs:gaping", 1)
+            })
+    })
+})
