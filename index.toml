@@ -10222,6 +10222,11 @@ hash = "9c7d4c12d579d0ba6d0d4957d8fe757e3624d111efbbbaf87c9e5ab813eb9eaa"
 metafile = true
 
 [[files]]
+file = "mods/tinkers-construct.pw.toml"
+hash = "b0fa2772d0bceda2edabc356503e878063f1d1dd24e88797f0a8f5b26e0d37e0"
+metafile = true
+
+[[files]]
 file = "mods/titanium.pw.toml"
 hash = "a9a33aa86a9263b15a41574cc1df6c360d26008c11c55e66a353ee9944b7e358"
 metafile = true
