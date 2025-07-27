@@ -297,22 +297,6 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:aether_plasma 4000')
         .duration(25)
         .EUt(32768 * 4 * 4)
-    ctnh.alloy_blast_smelter("end_to_the_end")
-        .itemInputs('64x gtceu:snow_steel_dust')
-        .itemInputs('64x gtceu:quantum_alloy_dust')
-        .itemInputs('64x gtceu:hidden_alloy_dust')
-        .itemInputs('64x gtceu:special_composite_steel_m77_dust')
-        .itemInputs('64x gtceu:ultra_mana_dust')
-        .itemInputs('gtceu:boundless_dust')
-        .itemInputs('64x #gtceu:circuits/uev')
-        .itemInputs('64x gtceu:exquisite_colorful_gem_gem')
-        .itemInputs('gtceu:mega_blast_furnace')
-        .inputFluids('gtceu:living_metal 114514')
-        .inputFluids('gtceu:eve_plasma 114514')
-        .inputFluids('gtceu:superfuelmk1 6666')
-        .outputFluids('gtceu:oracle 1145')
-        .EUt(GTValues.VA[GTValues.UEV])
-        .duration(10000 * 20)
 
 
 

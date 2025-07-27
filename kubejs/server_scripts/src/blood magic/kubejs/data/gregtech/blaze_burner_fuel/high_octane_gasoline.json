@@ -1,6 +1,0 @@
-{
-    "fluid": "gtceu:high_octane_gasoline",
-    "burnTime": 1280,
-    "superHeat": true,
-    "amountConsumedPerTick": 1
-}
