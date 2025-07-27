@@ -1,6 +1,0 @@
-{
-    "fluid": "gtceu:oil",
-    "burnTime": 8,
-    "superHeat": true,
-    "amountConsumedPerTick": 1
-}

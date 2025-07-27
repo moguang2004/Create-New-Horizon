@@ -1,6 +1,0 @@
-{
-    "fluid": "gtceu:ethanol",
-    "burnTime": 76,
-    "superHeat": false,
-    "amountConsumedPerTick": 1
-}
