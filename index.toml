@@ -4574,7 +4574,7 @@ hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/zh_cn.json"
-hash = "9f299ce838978a79278a4a782abb958fb19b777296e385475278d256514a2b03"
+hash = "b5681afa29f526f0f8a08fe1d8fa70873b2a4f0f87c210e54b7ae21a23fdf4b0"
 
 [[files]]
 file = "kubejs/assets/gtceu/textures/block/machines/inscriber/overlay_front.png"
@@ -11216,10 +11216,6 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "fcc74e53e0152eb6cad879fdd3bafccb610728cb50792fe9686d3a0c0cba5b52"
 metafile = true
-
-[[files]]
-file = "replay_pid22652.log"
-hash = "fb38ca815643109d08d48ce63a263958ab3fdd36ebcae0a568ba3722d2e616e9"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-1-20.zip"
