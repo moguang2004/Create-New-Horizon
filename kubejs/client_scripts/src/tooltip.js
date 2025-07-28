@@ -70,12 +70,6 @@ ItemEvents.tooltip(event => {
         text.add(2, Text.translate('photovoltaic_power_station_vibrant_basic'))
         text.add(3, Text.translate('photovoltaic_power_station_info'))
     })
-    event.addAdvanced('ctnhcore:underfloor_heating_system', (item, advanced, text) => {
-        text.add(1, Text.translate('underfloor_heating_system').gray())
-        text.add(2, Text.translate('ctnh.underfloor_heating_system.temperature'))
-        text.add(3, Text.translate('ctnh.underfloor_heating_system.mechanism'))
-        text.add(4, Text.translate('ctnh.underfloor_heating_system.rate'))
-    })
     event.addAdvanced('ctnhcore:wind_power_array', (item, advanced, text) => {
         text.add(1, Text.translate('wind_power_array').gray())
         text.add(2, Text.translate('ctnh.wind_power_array.basic'))

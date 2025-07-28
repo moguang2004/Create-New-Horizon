@@ -1537,6 +1537,23 @@
 			x: 6.5d
 			y: -1.5d
 		}
+		{
+			id: "36F4AAB866B59908"
+			subtitle: "快乐甲，你一定会喜欢的"
+			tasks: [{
+				id: "1D924C0D9D3CC4EA"
+				item: {
+					Count: 1
+					id: "alexsmobs:rocky_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
 	]
 	title: "{ftbquests.chapter.62876F01654DC6E9.title}"
 }

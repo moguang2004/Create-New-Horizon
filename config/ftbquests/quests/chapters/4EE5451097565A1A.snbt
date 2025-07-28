@@ -651,14 +651,14 @@
 		{
 			can_repeat: true
 			dependencies: ["6CDD36A3C742B7F2"]
-			icon: "kubejs:basic_mechanism"
+			icon: "ctpp:basic_mechanism"
 			id: "21F87196C3E7DF8A"
 			rewards: [{
 				auto: "enabled"
 				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"ctpp:basic_mechanism\"}]}"
 				elevate_perms: true
 				exclude_from_claim_all: true
-				icon: "kubejs:basic_mechanism"
+				icon: "ctpp:basic_mechanism"
 				id: "3472625E788BE23C"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest27.reward_3779191195206148668.title}"
 				type: "command"
@@ -699,14 +699,14 @@
 		{
 			can_repeat: true
 			dependencies: ["41E48BCAEAD9D47E"]
-			icon: "kubejs:steel_mechanism"
+			icon: "ctpp:steel_mechanism"
 			id: "187611E1082EC8E1"
 			rewards: [{
 				auto: "enabled"
-				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:steel_mechanism\"}]}"
+				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"ctpp:steel_mechanism\"}]}"
 				elevate_perms: true
 				exclude_from_claim_all: true
-				icon: "kubejs:steel_mechanism"
+				icon: "ctpp:steel_mechanism"
 				id: "5D95DF852960F661"
 				title: "{ftbquests.chapter.4EE5451097565A1A.quest29.reward_6743541780075050593.title}"
 				type: "command"
