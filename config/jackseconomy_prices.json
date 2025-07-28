@@ -546,11 +546,6 @@
       "sellPrice": 0.6
     },
     {
-      "item": "oceansdelight:fugu_slice",
-      "type": "prices",
-      "sellPrice": 0.1
-    },
-    {
       "item": "minecraft:bread",
       "type": "prices",
       "sellPrice": 2.0,
@@ -1020,7 +1015,7 @@
     {
       "item": "minecraft:iron_ingot",
       "type": "adminshop",
-      "category": "原材�?:钢锭",
+      "category": "原材�??:钢锭",
       "adminShopSlot": 0
     },
     {
@@ -1128,6 +1123,35 @@
     },
     {
       "nbt": {
+        "DisallowContainerItem": 0.0,
+        "GT.Tool": {
+          "HarvestLevel": 2.0,
+          "Damage": 0.0,
+          "MaxDamage": 2303.0
+        },
+        "GT.Behaviours": {
+          "AoELayer": 0.0,
+          "MaxAoELayer": 0.0,
+          "TorchPlacing": 1.0,
+          "AoERow": 1.0,
+          "AoEColumn": 1.0,
+          "MaxAoERow": 1.0,
+          "MaxAoEColumn": 1.0
+        },
+        "HideFlags": 2.0,
+        "Enchantments": [
+          {
+            "lvl": 2.0,
+            "id": "minecraft:fortune"
+          }
+        ]
+      },
+      "item": "gtceu:rose_gold_mining_hammer",
+      "type": "prices",
+      "importerBuyPrice": 150.0
+    },
+    {
+      "nbt": {
         "DisallowContainerItem": 0,
         "GT.Tool": {
           "MaxDamage": 2303,
@@ -1153,13 +1177,13 @@
       },
       "item": "gtceu:rose_gold_mining_hammer",
       "type": "prices",
-      "importerBuyPrice": 150.0
+      "importerBuyPrice": 400.0
     }
   ],
   "categories": [
     {
       "item": "gtceu:steel_ingot",
-      "name": "原材�?",
+      "name": "原材�??",
       "categories": [
         {
           "item": "gtceu:steel_ingot",
@@ -1173,7 +1197,7 @@
     },
     {
       "item": "gtceu:basic_electronic_circuit",
-      "name": "高科�?产品",
+      "name": "高科�??产品",
       "categories": []
     }
   ]
