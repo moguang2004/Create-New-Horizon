@@ -55,72 +55,8 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('gtceu:mana_seperator', (item, advanced, text) => {
         text.add(1, Text.translate('mana_machine').gray())
     })
-    event.addAdvanced('ctnhcore:photovoltaic_power_station_energetic', (item, advanced, text) => {
-        text.add(1, Text.translate('photovoltaic_power_station_energetic').gray())
-        text.add(2, Text.translate('photovoltaic_power_station_energetic_basic'))
-        text.add(3, Text.translate('photovoltaic_power_station_info'))
-    })
-    event.addAdvanced('ctnhcore:photovoltaic_power_station_pulsating', (item, advanced, text) => {
-        text.add(1, Text.translate('photovoltaic_power_station_pulsating').gray())
-        text.add(2, Text.translate('photovoltaic_power_station_pulsating_basic'))
-        text.add(3, Text.translate('photovoltaic_power_station_info'))
-    })
-    event.addAdvanced('ctnhcore:photovoltaic_power_station_vibrant', (item, advanced, text) => {
-        text.add(1, Text.translate('photovoltaic_power_station_vibrant').gray())
-        text.add(2, Text.translate('photovoltaic_power_station_vibrant_basic'))
-        text.add(3, Text.translate('photovoltaic_power_station_info'))
-    })
-    event.addAdvanced('ctnhcore:wind_power_array', (item, advanced, text) => {
-        text.add(1, Text.translate('wind_power_array').gray())
-        text.add(2, Text.translate('ctnh.wind_power_array.basic'))
-        text.add(3, Text.translate('ctnh.wind_power_array.mechanism'))
-        text.add(4, Text.translate('ctnh.wind_power_array.altitude'))
-    })
-    event.addAdvanced('ctnhcore:advanced_wind_power_array', (item, advanced, text) => {
-        text.add(1, Text.translate('wind_power_array').gray())
-        text.add(2, Text.translate('ctnh.advanced_wind_power_array.basic'))
-        text.add(3, Text.translate('ctnh.wind_power_array.mechanism'))
-        text.add(4, Text.translate('ctnh.wind_power_array.altitude'))
-    })
-    event.addAdvanced('ctnhcore:super_wind_power_array', (item, advanced, text) => {
-        text.add(1, Text.translate('wind_power_array').gray())
-        text.add(2, Text.translate('ctnh.super_wind_power_array.basic'))
-        text.add(3, Text.translate('ctnh.wind_power_array.mechanism'))
-        text.add(4, Text.translate('ctnh.wind_power_array.altitude'))
-    })
-    event.addAdvanced("ctnhcore:ion_exchanger", (item, advanced, text) => {
-        text.add(1, Text.translate('ion_exchanger').gray())
-    })
-    event.addAdvanced("ctnhcore:condensing_discrete", (item, advanced, text) => {
-        text.add(1, Text.translate('condensing_discrete').gray())
-    })
     event.addAdvanced("gtceu:greenhouse", (item, advanced, text) => {
         text.add(1, Text.translate('greenhouse').gray())
-    })
-    event.addAdvanced('gtceu:wood_particle_collider', (item, advanced, text) => {
-        text.add(1, Text.translate('wood_particle_collider').gray())
-        text.add(2, Text.translate('ctnh.wood_particle_collider.tooltip.0'))
-        text.add(3, Text.translate('ctnh.wood_particle_collider.tooltip.1'))
-        text.add(4, Text.translate('ctnh.wood_particle_collider.tooltip.2'))
-    })
-    event.addAdvanced('gtceu:large_steel_furnaces', (item, advanced, text) => {
-        text.add(1, Text.translate('large_steel_furnaces').gray())
-        text.add(2, Text.translate('ctnh.large_steel_furnaces.tooltip.0'))
-        text.add(3, Text.translate('ctnh.large_steel_furnaces.tooltip.1'))
-        text.add(4, Text.translate('ctnh.large_steel_furnaces.tooltip.2'))
-    })
-    event.addAdvanced('gtceu:large_steel_alloy_furnace', (item, advanced, text) => {
-        text.add(1, Text.translate('large_steel_alloy_furnace').gray())
-        text.add(2, Text.translate('ctnh.large_steel_furnaces.tooltip.0'))
-        text.add(3, Text.translate('ctnh.large_steel_furnaces.tooltip.1'))
-        text.add(4, Text.translate('ctnh.large_steel_furnaces.tooltip.2'))
-    })
-    event.addAdvanced('gtceu:advanced_blast_furnace', (item, advanced, text) => {
-        text.add(1, Text.translate('advanced_blast_furnace').gray())
-        text.add(2, Text.translate('ctnh.advanced_blast_furnace.tooltip.0'))
-        text.add(3, Text.translate('ctnh.advanced_blast_furnace.tooltip.1'))
-        text.add(4, Text.translate('ctnh.advanced_blast_furnace.tooltip.2'))
-        text.add(5, Text.translate('ctnh.advanced_blast_furnace.tooltip.3'))
     })
     event.addAdvanced('kubejs:scp_500', (item, advanced, text) => {
         text.add(1, Text.translate('kubejs.scp_500.0'))

@@ -14,8 +14,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing('4x createmetallurgy:refractory_mortar', 
                                 ['2x gtceu:fireclay_dust', 'minecraft:sand', 'minecraft:gravel'])
     for (var rcp of [['createmetallurgy:foundry_basin', ["A   A","AB BA","ABCBA","ABBBA","AAAAA"], {C: "kubejs:steel_casing"}],
-        ['createmetallurgy:foundry_lid', ["AA AA","ABCBA","ABBBA","A   A"], {C: "ctpp:basic_mechanism"}],
-        ['createmetallurgy:glassed_foundry_lid', ["AA AA","DBCBD","ABBBA","A   A"], {C: "ctpp:basic_mechanism",D: "minecraft:glass"}]]){
+        ['createmetallurgy:foundry_lid', ["AA AA","ABCBA","ABBBA","A   A"], {C: "ctpp:basic_mechanism"}]]){
         var result = rcp[0],
             recipe = rcp[1],
             target = {A: "gtceu:andesite_alloy_plate", B: "createmetallurgy:refractory_mortar"}
