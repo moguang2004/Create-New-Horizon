@@ -239,6 +239,11 @@ ServerEvents.recipes(event => {
         [Fluid.of('gtceu:wrought_iron', 288), 'createdieselgenerators:distillation_controller'], 90)
 })
 
+//玻璃
+ServerEvents.recipes(event => {
+    metallurgy(event, `gtceu:glass_dust`, 40, [{"fluid": `tconstruct:molten_glass`, "amount": 125}],"heated")
+})
+
 // 熔铸多方块
 ServerEvents.recipes(event => {
     let transitional = 'gtceu:firebricks'
