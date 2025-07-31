@@ -166,19 +166,6 @@ ServerEvents.recipes(event => {
         .EUt(8388603)
         .duration(1000)
         .circuit(2);
-    event.shaped(
-        Item.of('ctnhcore:season_reactor', 1), [
-            "ACA",
-            "DBE",
-            "AFA"
-        ], {
-            A: 'gtceu:mana_steel_gear',
-            B: 'botania:mana_pylon',
-            C: 'botania:rune_spring',
-            D: 'botania:rune_summer',
-            E: 'botania:rune_autumn',
-            F: 'botania:rune_winter',
-        })
     event.recipes.gtceu.hellforge("stable")
         .itemInputs('8x kubejs:force_field_casing')
         .itemInputs('8x gtceu:tungsten_steel_gear')

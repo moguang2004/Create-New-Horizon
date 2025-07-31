@@ -1,3 +1,13 @@
+# Terminal AutoBuild
+terminal:
+  # How many blocks GT-MBST-A will put per tick when AE storage is not available
+  # Default: 64
+  blocksPerTick: 64
+
+  # How many blocks GT-MBST-A will put per tick when AE storage is available
+  # Default: 8
+  blocksPerTickWithAE: 8
+
 # FTB's plugins
 ftbPlugin:
   # Enable FTBUltimine on GregTech Ores

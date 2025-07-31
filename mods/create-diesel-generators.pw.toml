@@ -1,12 +1,13 @@
 name = "Create: Diesel Generators"
-filename = "createdieselgenerators-1.20.1-1.3.1.jar"
+filename = "createdieselgenerators-1.20.1-1.3.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "bf9a8d1ca80f1e4f26261e69edb9b9eb471c6d2e"
-url = "https://edge.forgecdn.net/files/6286/179/createdieselgenerators-1.20.1-1.3.1.jar"
+hash = "695ef01cf695c001548066f3a55ef4c3d3a73353"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6286179
+file-id = 6798614
 project-id = 869316
