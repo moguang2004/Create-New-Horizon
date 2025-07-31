@@ -37,8 +37,8 @@ ServerEvents.recipes(event => {
                 ["A A", "ABA", "AAA" ], 
                 {A: "tconstruct:seared_brick", B: "create:andesite_casing"})
     event.shaped(Item.of("createmetallurgy:foundry_lid", 1), 
-                ["ABA", "A A", "A A" ], 
-                {A: "tconstruct:seared_brick", B: "tconstruct:seared_glass"})
+                ["AAA", "A A", "A A" ], 
+                {A: "tconstruct:seared_brick"})
     event.shaped(Item.of("createmetallurgy:glassed_foundry_lid", 1), 
                 ["ABA", "B B", "A A" ], 
                 {A: "tconstruct:seared_brick", B: "tconstruct:seared_glass"})
