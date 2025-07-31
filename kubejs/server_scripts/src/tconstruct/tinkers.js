@@ -50,13 +50,6 @@ ServerEvents.recipes(event => {
 		"kubejs:graphite_block_mold", 
 		false, 120
 	)
-
-	event.recipes.tconstruct.casting_table(
-		'minecraft:glass', 
-		Fluid.of('tconstruct:molten_glass', 1000),
-		"kubejs:graphite_block_mold", 
-		false, 120
-	)
 })
 //合金
 ServerEvents.recipes(event => {
