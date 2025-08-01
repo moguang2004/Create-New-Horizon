@@ -1317,6 +1317,10 @@ file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
 hash = "8a82c991430fdccaa4109a4c0b08ad78ad06dc60f5dc0a60e658252a24b8402f"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/455DE2663D19EB56.snbt"
+hash = "c3aac7bdd6181e39f379ae88b564b9dd6c678d3d5ab573f607a8addf86bd7577"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/4A4420704BDBEA5D.snbt"
 hash = "e9687ca179ea841ffde3fdf94d1fdc3b81a1818ed61cccef4c0d9f5d9e1f7df1"
 
@@ -4209,6 +4213,10 @@ file = "kubejs/assets/gtceu/textures/block/machines/rocket_engine/overlay_side_a
 hash = "7c0969e2ea29cb4e155bcea1f272c262fc3ea4ead0e9021b8b14d5c440e799f1"
 
 [[files]]
+file = "kubejs/assets/gtceu/tinkering/materials/snow_steel.json"
+hash = "3c1c0623d14fa9f4bfb66970a9fce23dfb55536b81443801bc876f63881578fd"
+
+[[files]]
 file = "kubejs/assets/jackseconomy/lang/zh_cn.json"
 hash = "86999f88094d0da3ce8f3c0c7ac379f8fbfac1f311a5cae54ca7b3e12c5d00a7"
 
@@ -4997,6 +5005,802 @@ file = "kubejs/assets/ponderjs_generated/lang/zh_cn.json"
 hash = "61549617a2943e276cb947f5aafda94fab29bf26d6769a3eb465a10c86c55758"
 
 [[files]]
+file = "kubejs/assets/tconstruct/lang/zh_cn.json"
+hash = "0a9c7e7b2bb999e68121a5e5faa744ca2edfe4f67a11d7684ff549437dfd392c"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/boots/maille_broken_gtceu_snow_steel.png"
+hash = "962f3e25f8197e554e0567935dd1fe0e819ffa7f31441397246cd12757d462c6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/boots/maille_gtceu_snow_steel.png"
+hash = "255afe6448fde7c7ce1c84e694a18e6d6ce4516ae7010e5eac513712e172a844"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/boots/plating_broken_gtceu_snow_steel.png"
+hash = "c9d764a421fd1b80fe66fffae5c5b0ac04fca0ca9a4efd17516abce35a02356d"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/boots/plating_gtceu_snow_steel.png"
+hash = "37b3562734fccff4b4bb6655d8bd74a4ecd09bd0d8cabc0711d76a6f159d636b"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/chestplate/maille_broken_gtceu_snow_steel.png"
+hash = "cb4da5c37f64114be57602fd11504b440c63f350a70eefc6625137414638aeca"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/chestplate/maille_gtceu_snow_steel.png"
+hash = "8e122aac2e7bf418a3a7c12b13c2c2f8b71cb7d108cdb6af54119ca079b0a036"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/chestplate/plating_broken_gtceu_snow_steel.png"
+hash = "186d2890a84d810a123b1389f0c77d3ea1478e13bb92961ad58ec911f19f6ad4"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/chestplate/plating_gtceu_snow_steel.png"
+hash = "0d90f74a1146ed49d0cc56f2e8a84e0ba50dd8af4e04fc4cfe3ce08056f44b2c"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/helmet/maille_broken_gtceu_snow_steel.png"
+hash = "d362936155bdbd04d876e675371d19936a163d22daf38654a67058d48d7cc37e"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/helmet/maille_gtceu_snow_steel.png"
+hash = "f291ec0a2a115dcf5adf5f91dbd4a7fe7430087b83590c73ade8caef15ded620"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/helmet/plating_broken_gtceu_snow_steel.png"
+hash = "0db6180ebdc4bd07c2b6d04d97cf7b1f09b068e7b0966ce9aa847b610e784928"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/helmet/plating_gtceu_snow_steel.png"
+hash = "4c98f8d2308a4e6cadab8a27433011fc903b6d9681ae63b732de0b9c41643152"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/leggings/maille_broken_gtceu_snow_steel.png"
+hash = "3d9c5cd410a60da815fe43f995978b28a8c37d1f8e00423bd18f432af8c0942e"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/leggings/maille_gtceu_snow_steel.png"
+hash = "736b57afc9c10dc827ee6383078678d8e955091ac4817cd161f68d5b674d0777"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/leggings/plating_broken_gtceu_snow_steel.png"
+hash = "fa406229dcc44a3b875f4e47563a1e69eed462d6106501adc03dedaab00897ad"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/leggings/plating_gtceu_snow_steel.png"
+hash = "3af042ce59f580296cf2c658cb44152885a041e061ced1447b8e14988c9e0224"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/shield/core_broken_gtceu_snow_steel.png"
+hash = "5c90504a879d03cb9e5b16d9a46cd34ca28e965f0ca55eda8efb4c6843cccec6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/shield/core_gtceu_snow_steel.png"
+hash = "b359460ce0d96c2a1921e617e5cc10c81381e319e9de9d13daca83cd70fd8696"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/shield/core_large_broken_gtceu_snow_steel.png"
+hash = "3eabce03e936cc7a5031a2b19bef60805b4d65f21f08f691b99dbd9d1930ff9a"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/shield/core_large_gtceu_snow_steel.png"
+hash = "e0f4ded81f1a126b2f6a3157a840b5773ef022f7e777c5218fdf04a5cb8a528f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/shield/plating_broken_gtceu_snow_steel.png"
+hash = "985a258d50bda8684e820a3487048e501ef069ab4742577cf0f85612c6c45b7e"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/shield/plating_gtceu_snow_steel.png"
+hash = "03dfc2b759561a011f661ed9b68d84b62fc2e7a7fc4703ee705a1fa19c389e14"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/shield/plating_large_broken_gtceu_snow_steel.png"
+hash = "5ebc78606b2456729a90aca8ae34fc52ee5b6832e4a8348a1967720b8341a734"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/shield/plating_large_gtceu_snow_steel.png"
+hash = "548860651b9cf300f1c9f5f8ecb5a9106b305bc935f8acccd9e9e42e14aa4f5c"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/travelers/boots/metal_broken_gtceu_snow_steel.png"
+hash = "f03ee453010e0609e050f89999995f952d2adbb67a581b438b58b0b5845d3fbb"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/travelers/boots/metal_gtceu_snow_steel.png"
+hash = "25beda3217db28102ee8520425d4f64d68856e95d26c4c950812cf743a45bd6a"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/travelers/goggles/metal_broken_gtceu_snow_steel.png"
+hash = "325929a0434a7d1d19f9a8b956262c5034fa2a2793607f6ff8122ac118e597ed"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/travelers/goggles/metal_gtceu_snow_steel.png"
+hash = "b086162ce2f5041c77ef76f50459ff2fb8fd189fac8739ece85f96f1cda5cb65"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/travelers/pants/metal_broken_gtceu_snow_steel.png"
+hash = "20c57b09228c137d43cc2cfb94cffbb21f93023b581e8a2bb9ef0163f315f352"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/travelers/pants/metal_gtceu_snow_steel.png"
+hash = "bef1f0365066d519ce377d6211e777230c9c749dc1e1ba357c4c879406743dcf"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/travelers/shield/wood_broken_gtceu_snow_steel.png"
+hash = "bbd4ea1bc2cc6138bff35a14d45b3c529f8187c8aeee346d4d595f3c23657e24"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/travelers/shield/wood_gtceu_snow_steel.png"
+hash = "62cb1757698f61b7971262769eb1f6386f0ddccaca3edcddabd591dfe7ad4bf3"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/travelers/vest/metal_broken_gtceu_snow_steel.png"
+hash = "782cee248b6aea5f318dc7a09397690e0a8f5ab57421f7b7713ca5fad14475e8"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/armor/travelers/vest/metal_gtceu_snow_steel.png"
+hash = "5e8ed6c653091b0f844ca2e169e6e8f8f7d4df18ce6e89afff9900a411bba694"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/battlesign/handle_gtceu_snow_steel.png"
+hash = "2a1e6e5eb2b795ff137074e9f05ad32e0cf0d3ac61e97c788cc4c9bdad4b8ff6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/battlesign/head_broken_gtceu_snow_steel.png"
+hash = "d0bda1ff0f3ce6117ace592ba3739fe9328e68287eb7816d969b5a1b4a97d4c8"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/battlesign/head_gtceu_snow_steel.png"
+hash = "39e38e0b3ef185dcec3dc7ac8a3ce6cc564502798ca730f01717f396993b853c"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/back_broken_gtceu_snow_steel.png"
+hash = "de378011819720f0865640fb23eff67997cc64295f4ebaec4f363f0a21c19509"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/back_gtceu_snow_steel.png"
+hash = "d4b80cd7807757ba383a4ea39610960aa98a69207a12e1e3315f7c79be45b24a"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/binding_gtceu_snow_steel.png"
+hash = "72eddcdfb9cc0eb4bbf46416ec6af11cb95aa300f04b51d7d65cb70c78c7f5a6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/blade_broken_gtceu_snow_steel.png"
+hash = "9230eebca303bab1d508524a3d73081d08e0386e0864719caa1dcf36a0825fca"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/blade_gtceu_snow_steel.png"
+hash = "fb05754aedcdf67daab4bbb3f3880e5822ee34cc7533ec3a8e082e8b42fb4579"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/handle_gtceu_snow_steel.png"
+hash = "896c859ca31479efdea90ec5d8841172cd30daabc8dee15614a0626026857345"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/large/back_broken_gtceu_snow_steel.png"
+hash = "0ff1367c030e94a417b1e1f3b2d3659020b034eb87edc3d5bc8ffa95a12ea7e7"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/large/back_gtceu_snow_steel.png"
+hash = "79303ceae06b9fc28fb78cf325d266bfa6a16d8af056dc7dd4ab52d6f3d47bfe"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/large/binding_gtceu_snow_steel.png"
+hash = "789f18f76628dbb8e06e83b72614affcc269b2ea4efc217d2f6816331c1299a2"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/large/blade_broken_gtceu_snow_steel.png"
+hash = "e66f53fa49f5c5a994c486ee3aff01130e52391ad982d3b035bd0f64ce1c4df1"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/large/blade_gtceu_snow_steel.png"
+hash = "0464e997d0bf58454132bcfdd9785e1fa9eb13f74c5e725b2031067055371108"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/broad_axe/large/handle_gtceu_snow_steel.png"
+hash = "487d9342245837035084400998bfb2ddcf1becbd838d64a62d801cec42f55f82"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/guard_gtceu_snow_steel.png"
+hash = "fa45c35edd2a1b2d92b1e6f476a71b9fbfc866b28e564489b034caf091cd485f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/handle_gtceu_snow_steel.png"
+hash = "02a1b8530b4c5e3a55032a9d36ddb30a87618b4cce8df63285ae143467b3a4fb"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/head_broken_gtceu_snow_steel.png"
+hash = "cd995c1bae41b5d48290877469cbd785ecc9598e4e50a27165bd58b067ef9f32"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/head_gtceu_snow_steel.png"
+hash = "555f5a575c556c561936d33b4645a2d522cd65415147aaf543bb51a969687060"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/large/guard_gtceu_snow_steel.png"
+hash = "e2b86fc59f75274b1483c8096a6516e4afb1d44be66e5617ca48a3fbfdff8364"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/large/handle_gtceu_snow_steel.png"
+hash = "ac2db1dd4c13d4fe79bb51eba9a209628ab6d0678f1feb3f9a6da34fb3ccfab5"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/large/head_broken_gtceu_snow_steel.png"
+hash = "212aa85cf792eb0a943bc970e80a8b7222911c349ac8dc7c74f65a252ec2fe79"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/large/head_gtceu_snow_steel.png"
+hash = "a0b98695a7cc98af742ba92d8e5ddda0abeb2d347ccee96bdfeb1270da65f250"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/large/shield_broken_gtceu_snow_steel.png"
+hash = "3dd1691cae7c1332a719ebacd6c889e8fc747c3ae29f24a31259728620a46513"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/large/shield_gtceu_snow_steel.png"
+hash = "0bedbd0ca4abc54a216605d3977347559a1bc609be6ca52f9ed38484efbc53b2"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/shield_broken_gtceu_snow_steel.png"
+hash = "6a95a8948e27d54c58c31758cd4065b6c35a30d822ea164ccfe5631afbf6a3db"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/cleaver/shield_gtceu_snow_steel.png"
+hash = "45f7e9b1172a0f0a063e8a88b14772abf5ab509cdf1fa9da06ad078ec0f2c562"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/crossbow/body_gtceu_snow_steel.png"
+hash = "bdca19f5491afd7e2119d678e8ae75dbb26ad3b6f5cbbe7ca6b05bd923f51764"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/crossbow/bowstring_1_gtceu_snow_steel.png"
+hash = "ed7c104c815c91231aae7257df82bde8a3396603c937e51b8bbc3ffcc68074c4"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/crossbow/bowstring_2_gtceu_snow_steel.png"
+hash = "0ac4eed1d0aae374fd5085a9af290d542e920b342519dc13b5a1e41f04a4c2a8"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/crossbow/bowstring_3_gtceu_snow_steel.png"
+hash = "f3a083a9ba1a607388c7d61098868ff637392283d3754c44ce21574ede98e3e0"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/crossbow/bowstring_broken_gtceu_snow_steel.png"
+hash = "13a7ed372813f83ea10e8fa3e27b4ee38fbd86fb296b0572e4fb069ecdb72549"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/crossbow/bowstring_gtceu_snow_steel.png"
+hash = "fddefcdb8506b3acfd12078a10b618d063eab0046c7eb3fe57190ce6ee683d9b"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/crossbow/limb_gtceu_snow_steel.png"
+hash = "73e60b1ea09f4feaa4015d41c000c4442955302990d5059d31fff26106b69650"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/dagger/blade_broken_gtceu_snow_steel.png"
+hash = "95bbe1d685cef7d3ee1dc075cb548ebcefc38417f068b5165714efb5a35f06af"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/dagger/blade_gtceu_snow_steel.png"
+hash = "6f5c01dc704c55495df844e3f75c53a4039008b36fd24aa21820f39a3af7770f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/dagger/crossguard_gtceu_snow_steel.png"
+hash = "ebd533a9154bed7ea8a720737028b8786fb3c77802c30916f4c37469427e110b"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/excavator/binding_gtceu_snow_steel.png"
+hash = "6f8adf08bf8cf1b154e4dbf0e82e6a50c8293267fead2daf06da655fb989829b"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/excavator/grip_gtceu_snow_steel.png"
+hash = "358275c67fe9ee7e2b0041c77f502614ac2c9c4a48e1c9ac6ee903f769465aea"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/excavator/handle_gtceu_snow_steel.png"
+hash = "e18f86fac6238d9192cfbb8ec8cc9f86f8986a6629262e8db57b695c5a66b2fe"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/excavator/head_broken_gtceu_snow_steel.png"
+hash = "cc8e9014c343fa0bbe77a4d3ee6f4b7cb240ad3549be18502312bd932ba86a8b"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/excavator/head_gtceu_snow_steel.png"
+hash = "43a4b7aa60e76020321e6d3c3436eecc03f638631a9d50846722d30986a058f1"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/excavator/large/binding_gtceu_snow_steel.png"
+hash = "6275cfa19e4db5a65a292874a1d59a2384313354651f572f47f6e0f60b9fb8f9"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/excavator/large/grip_gtceu_snow_steel.png"
+hash = "1768001b29647ee13e667908b8e7d2b585758fcc9e87bb560b7e2bc0621a1462"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/excavator/large/handle_gtceu_snow_steel.png"
+hash = "7ef8648ef1d7289c1374cce9466c127531069e8e49daa8065c7d8eb024c50d57"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/excavator/large/head_broken_gtceu_snow_steel.png"
+hash = "08f4ac5b46cfbc2d9adae6aae43ab2f849ad742fbbbb4edcdf0b973b3847074f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/excavator/large/head_gtceu_snow_steel.png"
+hash = "94f7d0ef268f4e27b7bdc164c01966bce8a27b00a2973080d74b4dc08b66bf62"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/hand_axe/binding_gtceu_snow_steel.png"
+hash = "9316db5c3a7b9c840db31e60ca91051f4969a07267e2dfcc674b1671b1a75bde"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/hand_axe/head_broken_gtceu_snow_steel.png"
+hash = "7718a918998497d50b329a3d8b8925bdf5f3b3fd8ba7d3775e4272d16637693b"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/hand_axe/head_gtceu_snow_steel.png"
+hash = "74d532865a2150b9fcd6cf4281f5485ff118e0c68975eef98ebc3d0f3b452a95"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/kama/binding_gtceu_snow_steel.png"
+hash = "65a15b38d874e5eb9da25feb459a38f4c88abd5203dc0f598d4165950752bfbc"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/kama/head_broken_gtceu_snow_steel.png"
+hash = "10701b941bbe78249c774ee5648142c28c6e511a519f9535d1543d7ab9d7ee90"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/kama/head_gtceu_snow_steel.png"
+hash = "f9f28de02b319d4051739ce1a5dd3be0cd57161724932c96b0b0e1c45918656f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/bowstring_1_gtceu_snow_steel.png"
+hash = "784845ee0ec505b445b4a039cbce6a91a14f8dac627770b8ffb6cd8d4d122510"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/bowstring_2_gtceu_snow_steel.png"
+hash = "f8d7a26abffb282175bec45b9771a8d696b38df1a5cf78ff55fea2e1b1a1798a"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/bowstring_3_gtceu_snow_steel.png"
+hash = "688dbbccf463281a05d99554750d70cd5b493da1a5040d06eda4a93ecfa07272"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/bowstring_broken_gtceu_snow_steel.png"
+hash = "fdade5bff8fa88a90a9aefd221516420215ed73c6a6494dcd6620b810131cda6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/bowstring_gtceu_snow_steel.png"
+hash = "6022d2d2d31dcdfb4b25a2f71782a13bbba94a9f4157b5777f6711a71682d7c0"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/grip_gtceu_snow_steel.png"
+hash = "3d0248e958bd3f601aad2268c687b56333d62ad46f2cd7f2887efb1231e18b41"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/bowstring_1_gtceu_snow_steel.png"
+hash = "d106a0d896a6e041b5918135e311ffa8d0f1f7eb0411e029ec018b8a4991716a"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/bowstring_2_gtceu_snow_steel.png"
+hash = "33b233bbc04ef8c8d320615b2bf2087082870e7b0329790b9734277a491088a6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/bowstring_3_gtceu_snow_steel.png"
+hash = "ca71fbc56629d08bdcb4cf4da4a34671e233a1d924f523915c7caef3dd7680ad"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/bowstring_broken_gtceu_snow_steel.png"
+hash = "a04b2c71cfd076c65051198cd79ce5d615689741e89156f7e8517f77e4899e74"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/bowstring_gtceu_snow_steel.png"
+hash = "e2f8fc1df84cba41c37a17cffcd4a906f9f63e5d314addd18265b2aa8a6b63db"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/grip_gtceu_snow_steel.png"
+hash = "30fc4b500e07e1579a714b39f42509308a6e2655c34ba2a78ad668c8396012a2"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/limb_bottom_1_gtceu_snow_steel.png"
+hash = "9b6eabfabb0c6058799314d5bad9612f26a879cde32ce44ba7a4de698ea4b7c4"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/limb_bottom_2_gtceu_snow_steel.png"
+hash = "d52c2a396133d7e31827b92b9aa5b80d3ebe73fbe388ba0052585693842ff39c"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/limb_bottom_3_gtceu_snow_steel.png"
+hash = "43e24118b61ad65277fd8db168cfff270bbea1ce3eac6a7177f4d92e7968e7ac"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/limb_bottom_gtceu_snow_steel.png"
+hash = "0db3bcb8e84cb6c2718753db4adab7d6a21d8c2af0decb4e771ca046bd98c1a8"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/limb_top_1_gtceu_snow_steel.png"
+hash = "91e42c7fa97f7ea5892657f0e2900474219a9af778638d923f77250730f9ed42"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/limb_top_2_gtceu_snow_steel.png"
+hash = "ae8bb4cda9ce192e2314ad860718f44c78bc5de1b97111409219e75cd1045824"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/limb_top_3_gtceu_snow_steel.png"
+hash = "deb222335593dee8d015cad51e4866095338d12367e9b9a9f5e15abc90eb282d"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/large/limb_top_gtceu_snow_steel.png"
+hash = "0e3f97eaef7df92ae7f6190032977c0596476fb578d272c6cfb34d78aefa31f4"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/limb_bottom_1_gtceu_snow_steel.png"
+hash = "7919063ca3b542dae3d76c422313b7ff7366cbbe2ff51626d33391efd9d27fb4"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/limb_bottom_2_gtceu_snow_steel.png"
+hash = "37e1bc5fbd6a25df55228922817df6c106168337dfbfbaaf19d2c3193543e867"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/limb_bottom_3_gtceu_snow_steel.png"
+hash = "9319817d543ae32f7f616c0b8d5c2cc1e8dcb7193eaa72425149f3384b6c0752"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/limb_bottom_gtceu_snow_steel.png"
+hash = "eea997a7f13e660885eea79eff2c4583fb674aca98a5880bbfc3a9e4fd55dadc"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/limb_top_1_gtceu_snow_steel.png"
+hash = "13e6f50c07aaa966a2e263a866cd2098f90ffebe5a885706d7e9bb32e3efa9bc"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/limb_top_2_gtceu_snow_steel.png"
+hash = "043a636ace47cd83f6c801d738dd2e8d48095fb9e981eaf56c1f764176cec7a3"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/limb_top_3_gtceu_snow_steel.png"
+hash = "2665655e7a2100a9204166a3ef62680037610b7c867db8c0f19ea1e8adcdc441"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/longbow/limb_top_gtceu_snow_steel.png"
+hash = "fdf7007a5370ab196cfc1de0c637df55b36ecbf7988d64d3451ccd7c0ad7a102"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/mattock/axe_broken_gtceu_snow_steel.png"
+hash = "0eb7a7139ed1761147a013b8df2a0272f0eeff6b9793dbf5fbd25bc5a9a210b6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/mattock/axe_gtceu_snow_steel.png"
+hash = "303cda18b77c2e1e55604c41ff6573204757afffc7ade6385fdfa20127dddd15"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/mattock/pick_broken_gtceu_snow_steel.png"
+hash = "045f91e0b7b4c87d1611440692f8ca5ee08a7fb672750bab79407fce2c07b042"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/mattock/pick_gtceu_snow_steel.png"
+hash = "8060c50902f9b81b44c0c82c477eaa780010d2cc8e04a650f44bbc26898e281b"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/melting_pan/handle_gtceu_snow_steel.png"
+hash = "6aa21ce695956af3793d4b173d3a466947a9caa6281650a0d3719414501b3331"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/melting_pan/head_broken_gtceu_snow_steel.png"
+hash = "c719baf8aa69850419ca5a6f7dda36bf3f77d31caae67dc48ebfccaad7b959b3"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/melting_pan/head_gtceu_snow_steel.png"
+hash = "7bc6e7073867494646dc42def5fc9f2cdb9d66e599267c3d737ec931d7e0cf9f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/parts/bowstring_gtceu_snow_steel.png"
+hash = "1a04b73e57173b14c9d410577012127c35c20cc467cf49c47177f8e78b8a0e6e"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/parts/large_plate_gtceu_snow_steel.png"
+hash = "d8e8abfbe003e940796ec906f13d49fb25ce7aada652a90e58068f8b287694e6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/parts/maille_gtceu_snow_steel.png"
+hash = "39a7c29144d8e1e4bd68cd5fdfb85bf2ba7550d4e1f48e6f5d16ec9217f060cc"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/parts/repair_kit_gtceu_snow_steel.png"
+hash = "b3163dfdad74b878b8d02169f91ae34d09d3292b7f3a45b43fab96d6a2767064"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/parts/small_blade_gtceu_snow_steel.png"
+hash = "1300d70b095901b0c5ca7367b50a5555a3fba523f4fd87413259ce0eac449b35"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/parts/tool_binding_gtceu_snow_steel.png"
+hash = "fc52688caafbd6e1d5eae868994b943234f714e26492dcd05b02185340a9b5da"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/parts/tool_handle_gtceu_snow_steel.png"
+hash = "5108b537c6c025e225695b3491b19882c7d917d36ce3bd705fa0764af40a023f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/parts/tough_binding_gtceu_snow_steel.png"
+hash = "5ce34cebee6b59de274eb43fd62678cbe4272eaed0a5f2764e47ea2d7078b5f6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/parts/tough_handle_gtceu_snow_steel.png"
+hash = "fb478962fb734b62099099dea9c331abeb1cf4404de4adca26ccf471c22c8a65"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/pickadze/adze_gtceu_snow_steel.png"
+hash = "c2dbed4ec577511c8903c6eef009082bb498efe2c015910c78f1b6482c98c299"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/pickadze/pick_broken_gtceu_snow_steel.png"
+hash = "9a0e8648b2fc5f139d4c8fa3388c296131d2be840e6a65b9c141e81298c24095"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/pickadze/pick_gtceu_snow_steel.png"
+hash = "767491a8996670a5e61d647867041230359d8be6ea85eca8f38c2812077437f0"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/pickaxe/binding_gtceu_snow_steel.png"
+hash = "ba649db22517a1a95a71bf985055643194824cfe3ff0b61626e692e828eb7d2f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/pickaxe/handle_gtceu_snow_steel.png"
+hash = "eb5ae7de4e0837ea7b912005c7807e5ad265cc81d3b07225741709d40747967f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/pickaxe/head_broken_gtceu_snow_steel.png"
+hash = "b437f8727728eabae3a699f20aa2af718532ce6266acfbfc82af9370dd0f6ca7"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/pickaxe/head_gtceu_snow_steel.png"
+hash = "830aabadbf5db43dc90bd575ceab0f0f03de4b2bfdbeef0774933241bb5ee4f6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/scythe/accessory_gtceu_snow_steel.png"
+hash = "1aca4b19d018582ed013b1b94fcc34d1d95677d2b09ad6f33834a5adcf32c9f5"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/scythe/binding_gtceu_snow_steel.png"
+hash = "f5ada118213beed85ae55d065a85edbd380bf1576c43a36b9a20a73faeed949d"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/scythe/handle_gtceu_snow_steel.png"
+hash = "cd41c1ba9f3bb470cd44304dc914593268e45bc91e080cd52e45141fa155139b"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/scythe/head_broken_gtceu_snow_steel.png"
+hash = "2be5b1a214773001650752c3b56d571a48ff28e227e6564376c7c89c35dd8a05"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/scythe/head_gtceu_snow_steel.png"
+hash = "a35d6be5c46900b1b2079b639a7fd9f71dd7ac52918e737acbcb4bbb2e557f0d"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/scythe/large/accessory_gtceu_snow_steel.png"
+hash = "afef18a1c1e9a3152a6b1a6ebde661ae6d41b8ac90f20a3f9f70b175e2f5dad9"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/scythe/large/binding_gtceu_snow_steel.png"
+hash = "a54a80c5407442eed70144500ccc91c056ed614553b433434cf117f035394e15"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/scythe/large/handle_gtceu_snow_steel.png"
+hash = "8c5f4f2dd5836dcdaf1da18ab7ca98d983e7feebfbb6651ab81724e3320ad12e"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/scythe/large/head_broken_gtceu_snow_steel.png"
+hash = "b86424070a9b2a38808cb0a14ded7b5c80c24b2489e0582a5beee2c75b7da620"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/scythe/large/head_gtceu_snow_steel.png"
+hash = "a7b9464f338f209074c9574b0825091f1f1118c9ffb25b57a31b9e1abac85b5f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/back_broken_gtceu_snow_steel.png"
+hash = "09124fa1403d1753a1f4eed7b98daed61df9da1982e87365ef53d7f43b638cad"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/back_gtceu_snow_steel.png"
+hash = "97ed6fe5b507933ce355590425d69c9cc49e6057de3d37f97c5f0d692e6121a2"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/front_broken_gtceu_snow_steel.png"
+hash = "14c3f7616e0c873e343dd91cb83a926fb4513df44e7cd2d820f81ff73b005793"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/front_gtceu_snow_steel.png"
+hash = "ca90a31239654ec867bfbc263bdf0c92951a9d1f695354d0059263ac5c09f483"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/handle_gtceu_snow_steel.png"
+hash = "938914d2e9e3733725920a3dd300e89d488fc62bfc6cc41ca12798af9aed6f5f"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/head_broken_gtceu_snow_steel.png"
+hash = "edf7914d8ec980e2a0da31f4dd4d67ae4a8389b4181119edf5809a8ff81a143a"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/head_gtceu_snow_steel.png"
+hash = "2ad37153664a369a612a869d5033157f3c923254cabf249c0732e2d60b4a7f3c"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/large/back_broken_gtceu_snow_steel.png"
+hash = "384cab367800648c154caeac97a8147a56d97625658509a5c87800f0e1c20f46"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/large/back_gtceu_snow_steel.png"
+hash = "e87bad736e60f1b5dcb883b3ec33472a2c2861ed2b0b86cf95df891b10fbd01d"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/large/front_broken_gtceu_snow_steel.png"
+hash = "509150a7b8f787db1c0d13378cc5e99530b3b1e2aab5063e927576c8bb10b4c0"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/large/front_gtceu_snow_steel.png"
+hash = "9f8c003ee16cd82318b654fba1e274f6310eb1fa3f0024ca580712b9e8806bc6"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/large/handle_gtceu_snow_steel.png"
+hash = "1a592e42f6de69878795c9542ff13ddb8985124c819df9bbca951aa946c72b2a"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/large/head_broken_gtceu_snow_steel.png"
+hash = "0ccdfc29deac072c40f56840f8c01f3860558b79900cbfd897f351f3990bc5f0"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sledge_hammer/large/head_gtceu_snow_steel.png"
+hash = "1bef20fb52cdbe03e4b78075c359587d7f19f6ef90642c61c8095290da6d4ba1"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/swasher/barrel_1_gtceu_snow_steel.png"
+hash = "2f4473ca87abe60cb81d8b5304b2ca8cac879759a4ccd2f6a11e23b74322b3b3"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/swasher/barrel_2_gtceu_snow_steel.png"
+hash = "6e5b3a9be8c9f2ec65c3d133c26dd4b8d6b4b1d434574593ad85048489df2049"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/swasher/barrel_gtceu_snow_steel.png"
+hash = "fdf80772a2d830023d2d8b10836ddae255974ea8b267cb94b8d72025d05f21bc"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/swasher/blade_broken_gtceu_snow_steel.png"
+hash = "f9d4d59116dc0b97bbb48da23ea25dcd9f78c894ab8b99dc764abc735160529e"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/swasher/blade_gtceu_snow_steel.png"
+hash = "3b783c7d612612189dab831ddb39f36780b6092be9515a6bdf141b7489513c1d"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/swasher/handle_gtceu_snow_steel.png"
+hash = "c20df69e742430b616b268057442a19dd525af1cc672604823146ac074275181"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sword/blade_broken_gtceu_snow_steel.png"
+hash = "e3662a68054b3ec9f6f687ca0578cdf5fb5adb3a2c2e9e6ffd391ec70cd454bf"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sword/blade_gtceu_snow_steel.png"
+hash = "e7731cd623984244bbf81cdb698b511c17316c5d0e28e1f0606b58c94c23d9fb"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sword/guard_gtceu_snow_steel.png"
+hash = "b596df3211d3f585d74cc4c7782e5905f1635e1ca6acbcae1f50d93b6f888ab3"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/sword/handle_gtceu_snow_steel.png"
+hash = "6101fb11ae999c706dfd0db3694c6603d9b76e11954665eb0cfc3b4f0530735c"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/front_broken_gtceu_snow_steel.png"
+hash = "0af46f6c9956872a4b276c5453b2f283fbcd0b1df3378aadb0d0ceea7af73a38"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/front_gtceu_snow_steel.png"
+hash = "48f155689662800fdfc0803aafd416e11f67695b7dcb0e2ceeb6473161e496ea"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/grip_gtceu_snow_steel.png"
+hash = "a31c065fa8d91da32ba16f54d9d47ef0be95002da0c49763edfe77231eaafeb5"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/handle_gtceu_snow_steel.png"
+hash = "17a68310d09341bbe5ee3291def0cf6b04b08ac4e1d765a981781313ff038a89"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/head_broken_gtceu_snow_steel.png"
+hash = "8dbd629e1366df7c63bf1b423d94191e75879ec67565da3f6019dcdfb8f8671a"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/head_gtceu_snow_steel.png"
+hash = "6ddee48fce9194a452210527c488894b7b433c2235dfc065c240354bd4f1e035"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/large/front_broken_gtceu_snow_steel.png"
+hash = "042b36cac1122b1a68d7939766795219fa6ebec08265c9ae80a9a52f67bd3e5b"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/large/front_gtceu_snow_steel.png"
+hash = "1f1404d724e19f1653b4079cf44e8162ddaac77e86a817e6cfd3e4485befc418"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/large/grip_gtceu_snow_steel.png"
+hash = "5e21c1903c57eb612ead603b0d51dee0631b9c1b04cd9a6b46c1744730b8ef38"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/large/handle_gtceu_snow_steel.png"
+hash = "8e53b05a24797290a024141489879bf935b2a88080a06cb5708360cb7e69cb9c"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/large/head_broken_gtceu_snow_steel.png"
+hash = "2e13aef5c32481cff0f511018d2c9f753f66426c23c0f1c7e9427d19183c3fc7"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/vein_hammer/large/head_gtceu_snow_steel.png"
+hash = "cd9783d10261274351dcae9ebc7fed6e89edc7be3ccbc93890a0e806e1e1f95e"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/war_pick/body_gtceu_snow_steel.png"
+hash = "7c880bc1e0119dad0416237c599deb90483f28de8d9f73b1c76859904900b462"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/war_pick/bowstring_1_gtceu_snow_steel.png"
+hash = "c047c4dd604649e6a2cb41580d0b53200ea88d041a04988e68ea20e6300c9eac"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/war_pick/bowstring_2_gtceu_snow_steel.png"
+hash = "2f3836fa427325beac942febc4c26d5edd6dd5bc7455a216efd6ff3f58a21066"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/war_pick/bowstring_3_gtceu_snow_steel.png"
+hash = "5269bfa9f93e3f6ad555c7ef519c0b6e2f74d41ad6373ad84754a1fd67d996b9"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/war_pick/bowstring_broken_gtceu_snow_steel.png"
+hash = "b74115cebe48ff761383c1ce661125538f9783d56d11dea4ec17b60db6ced9e7"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/war_pick/bowstring_gtceu_snow_steel.png"
+hash = "679604d9b3071e68548ae31d0d23c84abde08251e773db13f942b3645189ab84"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/item/tool/war_pick/limb_gtceu_snow_steel.png"
+hash = "8d0578a531977dd6030a981291635b1e29e14663fd285ed045c16a2f9e378d52"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/tinker_armor/plate/maille_armor_gtceu_snow_steel.png"
+hash = "c5103ad3fd2cf7c257bb4d7f5535138d1a0fafc255aefb814d3d34bdb6750d41"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/tinker_armor/plate/maille_leggings_gtceu_snow_steel.png"
+hash = "5258e83024e226a3ae78c427fe82bb54fee444c474ec104e3bf7bb294df14cf0"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/tinker_armor/plate/maille_wings_gtceu_snow_steel.png"
+hash = "ff9f4b589dba3eb0a1dc9961d45143c05009e5e8035446b00122db57bd00bed7"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/tinker_armor/plate/plating_armor_gtceu_snow_steel.png"
+hash = "256d7df1381d108bca27a558fdb604e55d8a7d2c5883ecd0420d4b32b2e7753c"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/tinker_armor/plate/plating_leggings_gtceu_snow_steel.png"
+hash = "9d4e1bda3094d0e2287d3c39f970362970ef4216a4aec9ebaf9ee5b4af96e42e"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/tinker_armor/travelers/metal_armor_gtceu_snow_steel.png"
+hash = "204d96b435a55ada192202fc0b3b4d2c093753eca971fec0d5a21994e0bd6e35"
+
+[[files]]
+file = "kubejs/assets/tconstruct/textures/tinker_armor/travelers/metal_leggings_gtceu_snow_steel.png"
+hash = "fdd616c974077cdcafc01d3d3c34468eefc1c8b4f3e7a1c9000a9591a9d7e106"
+
+[[files]]
 file = "kubejs/assets/tetracelium/lang/zh_cn.json"
 hash = "84d07bd4c7e129a3473d94009b87ab6414594365a3eef8fe1309a09f46a97b9f"
 
@@ -5015,6 +5819,326 @@ hash = "4e28a75b691aad84a78c87aeb185ea414e7050e0b4cb4584e24dc26ca68f6c8d"
 [[files]]
 file = "kubejs/assets/tflostblocks/lang/zh_cn.json"
 hash = "c17783339af3cef6ae29751757553bec6ecdcdc41f8b21ec75cacca6d03ada29"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/bottom_blade_gtceu_snow_steel.png"
+hash = "571fe42fc9c14a946978a0b45b08acbabc198a66c66d76a989d872f8163262d9"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/broken_bottom_blade_gtceu_snow_steel.png"
+hash = "11f5212805b52c64913960f50565e86f3b1c02fadb4394314561a0013665ee6d"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/broken_top_blade_gtceu_snow_steel.png"
+hash = "d6626e46f8a3b8397f63286829f4575198b82865c4ad6e3322361ed95af7d762"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/guard_gtceu_snow_steel.png"
+hash = "4ad5dfc717a7bc3bbb012538210868b63f0997e2076448e0dccadc9f84ecf9d1"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/handle_gtceu_snow_steel.png"
+hash = "deffc929a16aae7ec071abd887d5ce405d20ba80d306404bf3a72031551157b2"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/large/bottom_blade_gtceu_snow_steel.png"
+hash = "1693c67bced2f59a1dd1d27514c65635381426979b4eb39e295a43932b4efac5"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/large/broken_bottom_blade_gtceu_snow_steel.png"
+hash = "c380a014af72714b61be22e0ad1a1994ecfa9363abd4e223fd560d8856a3f064"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/large/broken_top_blade_gtceu_snow_steel.png"
+hash = "fd49690f3b8a1b9773e250130f9db8633a17f48fc9e06de983bfba901eb87f8e"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/large/guard_gtceu_snow_steel.png"
+hash = "30326c7ac1b8570a302e68e7d0000cd6026099b66d6db8e750d2817443fdb056"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/large/handle_gtceu_snow_steel.png"
+hash = "e68301d53acc7d34125fb1bcdc80e8bd93877094fc67bbd7489a10d03b20a80c"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/large/top_blade_gtceu_snow_steel.png"
+hash = "4ed89002bebf324603de2e53b2bf49220b2d2f578434c376b7e0310eba3bfc94"
+
+[[files]]
+file = "kubejs/assets/tinkers_katanas/textures/item/tool/katana/top_blade_gtceu_snow_steel.png"
+hash = "02ff702e443c0562b7ca2ff7f881154f19f6f2faeb728d926574115bc47c5fe3"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/blade_broken_gtceu_snow_steel.png"
+hash = "c8873637fbce2718f0affb4ebfa56a7d1cb78b88572e2011d8108298af0b5462"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/blade_gtceu_snow_steel.png"
+hash = "6e979d71fc2bf030b0f3ec9060a7d4a4b67c6064e15cf82fde0598939a2b8543"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/grip_gtceu_snow_steel.png"
+hash = "5d564f8206b7b69f24e318a27a8e4744c3ba6a311eb328ebab2a9c378b837026"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/handle_gtceu_snow_steel.png"
+hash = "8ff146b1ed519a23cad4da467128a9fe716474a4e9e6091ca2f5d9f42193191e"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/large/blade_broken_gtceu_snow_steel.png"
+hash = "0823553554bdfe478ad1b9f34ac4df7398058907ada0f62e99162609f267f073"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/large/blade_gtceu_snow_steel.png"
+hash = "4888d5a81fc9288a7f03728103072f69d5f16e5cd2f68f286ceef767594a8aca"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/large/grip_gtceu_snow_steel.png"
+hash = "ae895210c2233e06fb34f90226e44522d2585dea54bdd780d1b1f194f91a0c1d"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/large/handle_gtceu_snow_steel.png"
+hash = "6d81a91b995dbbf49889adb4f58e344b65ea4d8ad09e86fdda6fed99a460941d"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/large/spike_broken_gtceu_snow_steel.png"
+hash = "91cd5da649b6d0b30cff175ca7dbadc33f20e38f4910b2c76f79129971d697e8"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/large/spike_gtceu_snow_steel.png"
+hash = "3bcb4222bfa3368c94eb5b57ff6594d237b5590b6f42489427db17f2cc3f27ed"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/spike_broken_gtceu_snow_steel.png"
+hash = "7bb9e3332098c37d3c1c26c120e2875097d8f9dfa1d91ca583d76a43c2508b1a"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/halberd/spike_gtceu_snow_steel.png"
+hash = "1220202c5705a8ccb8ec019c9a3f18579c29163dfdb45dce3e8de55327a78192"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/boots/lower_broken_gtceu_snow_steel.png"
+hash = "2f442381b8c09655e5f1b234325dd599f6553cd8052636126682af0237507ce4"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/boots/lower_gtceu_snow_steel.png"
+hash = "e0e6d7f56ffc01532edd753319841dfd2e57846259f937a743c7d8309f34a8a7"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/boots/upper_broken_gtceu_snow_steel.png"
+hash = "3720f2e70dfb9266ecdbba71efa3c082f892f6b43961873acfe07567025a1468"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/boots/upper_gtceu_snow_steel.png"
+hash = "90f84b87f6164feebe4e0f7253361aeeb5a89b1743fb8f2e2d817480c92d4433"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/boots/wood_broken_gtceu_snow_steel.png"
+hash = "69c2209e7738dcbb8278e87cff58852a779705d8a1cc60b1873686311219e430"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/boots/wood_gtceu_snow_steel.png"
+hash = "a4a7fd0e592ac5091ecf5362a6c5163d7f38547364008601ec298c7bb0201f36"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/chestplate/lower_broken_gtceu_snow_steel.png"
+hash = "e067a9963856a6c7d0a35edfd06fc6b44d6de582e22561356d6215f072e60c9f"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/chestplate/lower_gtceu_snow_steel.png"
+hash = "4441209273cdd5d2636e0b5c5944e4b373f3453fe6a359710c74b6c6cd0d2ac8"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/chestplate/upper_broken_gtceu_snow_steel.png"
+hash = "aa24d5bfce2fefa4697adef67eda1b3eda1296da80ea7c5024abae828737f518"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/chestplate/upper_gtceu_snow_steel.png"
+hash = "272c60c5c6ee2423adac854b1f29c226830ad167a83f723c143e212461064301"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/chestplate/wood_gtceu_snow_steel.png"
+hash = "da8f6208fe7a3984612f001e0fb4b474123680d3721200d0574a138fbca180f6"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/helmet/lower_broken_gtceu_snow_steel.png"
+hash = "61fb77ffd63d047527fb854d06225d0cc8d49ec798263f13626e2cd95c63fd84"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/helmet/lower_gtceu_snow_steel.png"
+hash = "90d71dbd01e8fe5c53c83df90e024e54fe5b8a5d0118e8acced4724a154a6d47"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/helmet/upper_broken_gtceu_snow_steel.png"
+hash = "45946a2cb1247f2968037db0380a95205ab730cde61f9cea3b915f7823dce474"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/helmet/upper_gtceu_snow_steel.png"
+hash = "fae5bcf8e41acd11c7376fa0fa51290833b93df04aad6702e32d17f93be46848"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/helmet/wood_gtceu_snow_steel.png"
+hash = "45fc36149001ab2e05c26bcdc6def61287838ab47ca5a2018acedf53ffc2b3a6"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/leggings/lower_broken_gtceu_snow_steel.png"
+hash = "9666242713a856f8446e436b766e15477c18b9ba3447cfba33de3dfe42e48212"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/leggings/lower_gtceu_snow_steel.png"
+hash = "38a03b1ae13ae44f28a2a30447ffd9c72bdfdb136ada5ba4b213fb3f90f2dfdc"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/leggings/upper_broken_gtceu_snow_steel.png"
+hash = "bf2d461a6e2281b653134f044e70f3534f3a55a8dde3cf86681df49f858de63a"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/leggings/upper_gtceu_snow_steel.png"
+hash = "aa0e3932aef92ae684bd65f24da7fd8881022b7596a28a3ff32ad789a202dbd9"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/leggings/wood_broken_gtceu_snow_steel.png"
+hash = "7892fb745c5f2fe14476dccd31176d21ae87a1e8147f25dd94749bfb4fd00e14"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/leggings/wood_gtceu_snow_steel.png"
+hash = "13692effabdba0bce8c99640ff2309d19605d65759c8cd71d2e941b4a951f8be"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/shield/large_broken_gtceu_snow_steel.png"
+hash = "1b68042e8d69a8723c8456df39d5069d0e0a2d15ab12440efd4f7aa3b2e6a261"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/shield/large_gtceu_snow_steel.png"
+hash = "d1cb33c11b3bcfd2c47fb5fe39aa405ddd4215d4e60e351b4d2017c264410483"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/shield/large_overlay_gtceu_snow_steel.png"
+hash = "24830871a3c9300bc6f4fa087a3174e5101a6dca276654debbffc0137f872f13"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/shield/small_broken_gtceu_snow_steel.png"
+hash = "ff6807d73e2a7b639ca102f62702c156c63d9bc6a9ff5d92a0f3776e33b81f42"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/shield/small_gtceu_snow_steel.png"
+hash = "d84181fabe1e9111949823fecce65e66bcfc714df830d61d761e52c33e8af04a"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/laminar_armor/shield/small_overlay_gtceu_snow_steel.png"
+hash = "6f9f0355a241ba41a97521faabcc51ad9e94410459b89ee8b2bcfab324832bb7"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/parts/large_repair_kit_gtceu_snow_steel.png"
+hash = "0989931ac46f8750d26fa74d2f2b712995a13b2dabd229e127ebd4ea474ffd71"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/bowstring_1_gtceu_snow_steel.png"
+hash = "480665bdeaa23ed8fd399ad8e30e0b1c7bcca26a715aeee503b78cc4e103df63"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/bowstring_2_gtceu_snow_steel.png"
+hash = "fe9b4c1ebeac2dbe3dfd733bffdb7843ae9527795a59e86c72ce1fcf914d1f7f"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/bowstring_3_gtceu_snow_steel.png"
+hash = "29839473d506da839129e1a02cf89ee8ec6dfd646e3024ae3dbae8e770adae41"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/bowstring_broken_gtceu_snow_steel.png"
+hash = "769fe2c9f70c0efc4613f2d362745ceca791992b0c76b238f1e3a43f21c6f816"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/bowstring_gtceu_snow_steel.png"
+hash = "dea8c6e501223fea5d1749ec327a5c6ad4120ed0e45eaae7ed071250873868a1"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/limb_bottom_2_gtceu_snow_steel.png"
+hash = "8593526df009e6399e487cbb2febc3ad22a99e29a932299562231364ac042c17"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/limb_bottom_3_gtceu_snow_steel.png"
+hash = "50de0b9ccd54bdf2d4c35ef2d5ac6a08d94c07e8d2544c73b89df76a09b5276b"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/limb_bottom_gtceu_snow_steel.png"
+hash = "d3a92bd3b97676b1945af8e3428b9d362389859467a8ca837acc23840d4d0cae"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/limb_top_2_gtceu_snow_steel.png"
+hash = "cbcd8a0d0902380cefb2c63598ae953dde347291a1aa7c6ce792f73595c7e12b"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/limb_top_3_gtceu_snow_steel.png"
+hash = "72db1604b2f65c5c182f359a79d07fab5ab3130c7c49fc964420eec29a4c2371"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shortbow/limb_top_gtceu_snow_steel.png"
+hash = "9d9a5ed63f17233e533238d96fbf17ed5e0fd7656dfe004e030ee2601cf19ea8"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shovel/handle_gtceu_snow_steel.png"
+hash = "1c151258fe2434e0e8530a9efb233a03561f8928c33142d20db469c931c94341"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shovel/head_broken_gtceu_snow_steel.png"
+hash = "ecf8f54fcb2bdd750bf4891544fd286f8500044904824dbd21891bf64caac258"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/shovel/head_gtceu_snow_steel.png"
+hash = "5e2300a0385c39a049f7ab34d359aa55eddbfa12f642b386de3e9b72d18c6ce5"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/staff/grip_gtceu_snow_steel.png"
+hash = "d007437274304257172d67e9190389e4899694af21b7e2195343042be8d28676"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/staff/high_gtceu_snow_steel.png"
+hash = "c8d9ffdfe7bb5024a476cb7e8831f5a136fa111847595e8f4d1b48c6655d5a40"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/staff/large/grip_gtceu_snow_steel.png"
+hash = "2ae49da5290e492f21838cb29e9ac4b9986aeef641bec21f7c57447d65a5a231"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/staff/large/high_gtceu_snow_steel.png"
+hash = "5a71df9cbb4fae721ab7baecaa9ea2794ccdfd7f01e9f1a0fe1019f5ea2bb6bb"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/staff/large/low_gtceu_snow_steel.png"
+hash = "bba67d878340c4963af05987c884e8ee5795933d4c0ff34dd8ffaf66f9962bb8"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/item/tool/staff/low_gtceu_snow_steel.png"
+hash = "47b9bc26907006ee74b356b156c79707e5d0ec4c971a2fe489305aa970cea62b"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/tinker_armor/laminar/lower_armor_gtceu_snow_steel.png"
+hash = "cd4cf50f191bebb31f8065fadda5e2c780a90bd6c2e4184bfd267bac22eadf9e"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/tinker_armor/laminar/lower_leggings_gtceu_snow_steel.png"
+hash = "a654e15aeb06e1427a6da391ffde1454cd1cc7c6a446d51799b2cf09c79bfa40"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/tinker_armor/laminar/upper_armor_gtceu_snow_steel.png"
+hash = "c91ab497507cf62dfa891a761c998673254e3e75f74e7450fc27a7b8fd81d451"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/tinker_armor/laminar/upper_leggings_gtceu_snow_steel.png"
+hash = "c9f370c9d97d4ad7d0159566bcce84f52280623794c58d4c78236d8088ebb558"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/tinker_armor/laminar/wood_armor_gtceu_snow_steel.png"
+hash = "37f83ae190e4c0c4e547b0bea371d0c432506355d052aad1324247dbd7ed7cfb"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/tinker_armor/laminar/wood_leggings_gtceu_snow_steel.png"
+hash = "5a235a86b37afe7188faefc140d5de3c3f96527ac00d518aa3ef26d5c14795a8"
+
+[[files]]
+file = "kubejs/assets/tinkers_things/textures/tinker_armor/laminar/wood_wings_gtceu_snow_steel.png"
+hash = "f2c7d4c6d1f6442d9ce607fa48ef2dca3a759f70b308fec1ae5510b2ab3b7bd8"
 
 [[files]]
 file = "kubejs/assets/twilightforest/lang/zh_cn.json"
@@ -8181,6 +9305,34 @@ file = "kubejs/data/snowstructures/worldgen/template_pool/biome_specifics/plains
 hash = "37228beb4ed8c022701bbc0d3e39c9a8f8be1136261d4180fdd0ef27577003d6"
 
 [[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/casting/glass/block.json"
+hash = "ccda642cc2a428f27e4412bc19484f4b52cb45c863014d4cf3abdf2cfa4abc31"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/casting/metal/snow_steel/block.json"
+hash = "174a3431c5d090bfd0b840cec2d238b38d4f2364f6b9a039935341d8b143f320"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/casting/metal/snow_steel/ingot.json"
+hash = "6f0c4526865259f7861eba82149ca5b1fb9dffb2cc3e229d2bf184f1a4d9bba9"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/melting/metal/snow_steel/block.json"
+hash = "55f74c709c998266c5e85a5f5679ba1543a9a89567e998803b535857c403ebad"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/melting/metal/snow_steel/ingot.json"
+hash = "d6c72f67a6e68cf320e17d9a54774234575bf688e979008f4575843eb7a50410"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/tools/materials/casting/snow_steel.json"
+hash = "de86b5ca382d86d379bf3fd30336ceab6f2f83faa76302e49c17ff87697c685c"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/tools/modifier/upgrade/fortification.json"
+hash = "fdc3971a3af82a4f4b00616dac9f13c5b7e0e934519124d4b7f2eb180a0e0cb3"
+
+[[files]]
 file = "kubejs/data/teastory/legendarysurvivaloverhaul/temperature/consumables/beef_burger.json"
 hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
 
@@ -8299,6 +9451,1030 @@ hash = "83590cb71e68e818bc243efcd76db429cc901f6a8255467a806e758355bfec44"
 [[files]]
 file = "kubejs/data/tetra/materials/metal/tetranichematerials_red_gold.json"
 hash = "4be02b6009d679d7d30a58811d39701f761bdce8fc1b1e1b9de932711d45266f"
+
+[[files]]
+file = "kubejs/data/ticex/advancements/recipes/misc/items/cores/celestial_core.json"
+hash = "02be9e4d30410cf0bd29f224f9d5428c4d8c4e123b612f5d20e7107eefe3a8fb"
+
+[[files]]
+file = "kubejs/data/ticex/advancements/recipes/misc/items/cores/flickering_reconstruction_core.json"
+hash = "3a1b0f9b901e88cf17a6a6d6c87d454d48b6ef39cf4ca3d10a8f02f6a1780f5d"
+
+[[files]]
+file = "kubejs/data/ticex/advancements/recipes/misc/items/cores/konpaku_core.json"
+hash = "f79ea6de668e38f3a32348964a2aac3f3c43b35b84dad62f6fd2db569032c5b4"
+
+[[files]]
+file = "kubejs/data/ticex/advancements/recipes/misc/items/cores/reconstruction_core.json"
+hash = "cc5e4c8ac362dcface3d0d8f6895430fe39a4789f58f41f6a9599db092577f7d"
+
+[[files]]
+file = "kubejs/data/ticex/advancements/recipes/misc/items/etheric_block_from_ingot.json"
+hash = "7aced245f4fc6e4d0ac2c786da301f5ce89aa546fc9cf8c73256613d7334c843"
+
+[[files]]
+file = "kubejs/data/ticex/advancements/recipes/misc/items/etheric_ingot_from_block.json"
+hash = "f4a9eaaf1057744a919b90b8aea3f7238b13b21825232310b1ef4c5544cd5427"
+
+[[files]]
+file = "kubejs/data/ticex/curios/entities/entities.json"
+hash = "0529b7639adbbc31426f8ffaa253c734aa1446673bf2021867c235f0856fea59"
+
+[[files]]
+file = "kubejs/data/ticex/curios/slots/incomparable_chest.json"
+hash = "a79d938911f14b674382db96fa26ed5cbbfc9f8a39743b1f4b15a6ebef33b649"
+
+[[files]]
+file = "kubejs/data/ticex/curios/slots/incomparable_feet.json"
+hash = "707edb35c682750b499055f97af63f192df0fea430504e39042fa0cafda61ca2"
+
+[[files]]
+file = "kubejs/data/ticex/curios/slots/incomparable_head.json"
+hash = "9a9a91d9a14df1d0bca0277b5b41ac66ef4f3970b8030c4b648c311778472922"
+
+[[files]]
+file = "kubejs/data/ticex/curios/slots/incomparable_legs.json"
+hash = "6cf21ce81052ff79de1e3b18f0a56fdab2f658c551515c9ca7b48bc86978a286"
+
+[[files]]
+file = "kubejs/data/ticex/curios/slots/incomparable_mainhand.json"
+hash = "fa07d1637f0e92a320b4012e5d7e50023ea570159094dc0f155817ab00b21ab9"
+
+[[files]]
+file = "kubejs/data/ticex/curios/slots/incomparable_offhand.json"
+hash = "1812e21b2fdb18b141869d42f938437611b606001862c3eb6805863b4bd30d02"
+
+[[files]]
+file = "kubejs/data/ticex/damage_type/tool_chaotic.json"
+hash = "df92e0e91835e7c815b8867a689bb4e60ae6d03e3c73470c9c64cfeb86dcd4d7"
+
+[[files]]
+file = "kubejs/data/ticex/damage_type/tool_draconic.json"
+hash = "f58891200049ed00af745388817157d9a93a7ea903ecfeff00c9f80fdb6b7001"
+
+[[files]]
+file = "kubejs/data/ticex/damage_type/tool_draconium.json"
+hash = "f58891200049ed00af745388817157d9a93a7ea903ecfeff00c9f80fdb6b7001"
+
+[[files]]
+file = "kubejs/data/ticex/damage_type/tool_wyvern.json"
+hash = "2099bbee40ba920ab48a3a6aa0e43923dc8a6e21f185fbd359a947c2331ab6db"
+
+[[files]]
+file = "kubejs/data/ticex/loot_tables/blocks/creative_scorched_rf_furnace.json"
+hash = "a544f6e8e1fd0e26fc765a91c5badfadd7624b4aecfa32114a381ef653a7ffba"
+
+[[files]]
+file = "kubejs/data/ticex/loot_tables/blocks/creative_seared_rf_furnace.json"
+hash = "96e4865c2849da44fd1ae88ab413e86e644f67a863eed5338cd3e48c1ae59644"
+
+[[files]]
+file = "kubejs/data/ticex/loot_tables/blocks/etheric_block.json"
+hash = "39939f12bd09ca799f874763992fee4ce1be0c3fb925417083b677fd08301d10"
+
+[[files]]
+file = "kubejs/data/ticex/loot_tables/blocks/scorched_rf_furnace.json"
+hash = "ecf5d07f91cefa16bb5db9ab85cbb2d9a6256b2570fe4ca6982242882b8dcce0"
+
+[[files]]
+file = "kubejs/data/ticex/loot_tables/blocks/seared_rf_furnace.json"
+hash = "c1e4adcff90372e48f22d467b7d1ad6abd930faa8fdb0e0bc9f7484b7ef97a61"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/cardboard_core.json"
+hash = "5846012d929d95e02dd3b04cc31de7bc917e1ad8e59830f6182d4d22b5cbd825"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/celestial_core.json"
+hash = "17e94d8264ac77c13bb680b6490d8d878417609b94c5dff02d16163f11b6400f"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/chaotic_evolved_core.json"
+hash = "672735dcdadf4348106219f8093ab52730850c340a69a43dc0ce5fb39897f7b7"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/draconic_evolved_core.json"
+hash = "8c05ee24870be3be8ab4893b9bd7253e6bce8763c08ed7a24e43b6a4a776cfbf"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/draconium_evolved_core.json"
+hash = "312277de90e5db37670a619ba634cb309adf79d86b0e0f72806454b99087cd58"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/flickering_reconstruction_core.json"
+hash = "e07c69e0053d8769130df7db200fa0ad305a6113ee2a2859d83a14e23fc626f0"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/inject_core.json"
+hash = "cfa14c0623ec31193cc8427b6b7c073fbeb9bf81abb92135d1b31ed1f62ccbf4"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/konpaku_core.json"
+hash = "83a04c805ab59b1e05d87a2375147bc1504d250713fab13b71c3f57a23bc27f2"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/overload_core.json"
+hash = "9eb2790b89e6641f74a82ca4ca352ff3f7b826dc7d1e0de3e79f813f0bd55b53"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/override_core.json"
+hash = "302eb18c6227e55a89042071d333de11073e2aed2fdced693d214f59e4233bfb"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/psionizing_radiation_core.json"
+hash = "245d1a6895b5459c520b4c810117fa35c081f228423e9c2ab9f3227eb12665fe"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/radiation_shielding_core.json"
+hash = "3d7841956e86fd22c90602dadca4383697b3c89f8ddf391042ab6dc6e9ca4ed5"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/reconstruction_core.json"
+hash = "13ddcb1687e3980e80e39e48c84160b3332572057fd791126d0ccaf8f35eaf61"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/cores/wyvern_evolved_core.json"
+hash = "ed067f365a067f86dd93e75638cddcbaee99d24c42cf402ef9f94efe3bc4e4aa"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/etheric_block_from_ingot.json"
+hash = "dd74c34a87ab1ce86eb565db772c5207356d0257c5136eeb619cf9d650d1a112"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/items/etheric_ingot_from_block.json"
+hash = "5dd08a1b7b1cc9d611cc05e658b91d43eb4d6318afcce5714de1fe5c43d5151b"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/alloys/molten_etheric.json"
+hash = "5bb8b1a2baed4fa475f5a4ba6eee8fde1bf5b1ee83fa4befb90e5d5b4d9b0890"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/chaotic_crystal.json"
+hash = "3943ec12d68e8e35620ad349f3626f7849ad026e575c8b0e6891fdc43a4688c0"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/draconic_crystal.json"
+hash = "c462c349d492ae0b3d35688706663139f66751e96740dc9be30d49f126020902"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/draconium_crystal.json"
+hash = "3c771b143673613b12c43a3d42deb16f258086e5ccb87b70910875a9ce7561dc"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/crystal_matrix/ingot_gold_cast.json"
+hash = "5b9a14b109f4860c28921897fce54b7b2f3ddc6c3935ec5027e654b9c5f505a6"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/crystal_matrix/ingot_sand_cast.json"
+hash = "20dae9c604c09e3c5dc55f743fde25aec7617f846445270cf410b82cbb97f33a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/etheric/ingot_gold_cast.json"
+hash = "8b90cff96ae2bd72ba8ca3081d34b08fe969b7c777330caebfda576f59ec943d"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/etheric/ingot_sand_cast.json"
+hash = "d36a5447d4cad6343bfdd6ca8d133d7ad9a9ef21d955ad6058fc0326dd48009a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/infinity/ingot_gold_cast.json"
+hash = "c5d3895fde75403c1a024318d15a85352569c5937c68854b3572264034757e74"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/infinity/ingot_sand_cast.json"
+hash = "6a4282c09dcab1d3969b17a891b22fb596857c5de0daca4ee40f718d7832709d"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/molten_crystal_matrix/block.json"
+hash = "50b5f7c8a8ea0d60a98c5ff4cb47a8841ac5aacf11a52e4f2a5cd04e624cd7c3"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/molten_etheric/block.json"
+hash = "0ed487675f82464eea60b3349012bd20ee12e83a7f99b537f9c21df79a12882e"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/molten_infinity/block.json"
+hash = "81b2b3694147359565dd695cf8f0d1bc5fff98c475797f39aacf819ef884fd4e"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/molten_neutron/block.json"
+hash = "02741b20894c0037e2e87a5be7e2a9c4a5c7b4dee73bfd9605d924fc4b48a943"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/neutron/ingot_gold_cast.json"
+hash = "03ac3b05a7b6d75c4faed1528134d14d2ce77185a81d569feb445fbdc3112147"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/metal/neutron/ingot_sand_cast.json"
+hash = "c1727cd85662d9b0ba32066c45f8c836d082148adb85303e3ba1e9a04801465a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/scorched/scorched_rf_furnace.json"
+hash = "7bc53dfe7fb3bcdc905192b05f46ce8982c983dcf646b97c0128742ab4a0d7ca"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/seared/seared_rf_furnace.json"
+hash = "27d2d60bdafa455ffbb8624de27d8b383fe70f628f803caedcab2d457e27010a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/slime/flickering_reconstruction_core.json"
+hash = "7f6434a37dadd32b55f2f4a49640ec849503b4005528389e4fb9c2b05d74fafd"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casting/wyvern_crystal.json"
+hash = "4f3c4f3e118887c937d389004982f90dee9a3d7ee8daca7660241a2233636083"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/gold/slashblade_blade.json"
+hash = "7026f9a701c5f97f4fc15c1feeb35b1d649e38ba724674960386b1f82284182f"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/gold/slashblade_saya.json"
+hash = "ce2f67a1cb0bd42ee51053609b4b43daf888c4a06908a6ea86a9e3e50fdf4254"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/red_sand/builder_block/slashblade_blade.json"
+hash = "a9cfabc5d9c5e22e9d3e51ccbdae7c9b4a4862f6708fd1fbb43525fac7ae8a42"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/red_sand/builder_block/slashblade_saya.json"
+hash = "3c75c26e375abb199a42c7bc4defdb40d9aa482bd2ee46fd5cba3649ddc05ba3"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/red_sand/builder_cast/slashblade_blade.json"
+hash = "67f82cdeddaeeb806802ba0604c4339d7d9f0b14a05a809dd565f3cd9d070dfc"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/red_sand/builder_cast/slashblade_saya.json"
+hash = "2dfdb86f5b18afd94d173ccc6fd054dca1399f1477e7ed89aa348234a8218fd5"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/red_sand/molding/slashblade_blade.json"
+hash = "af62778d27ee63baac52f1f5503bc98c2a843e6deca80177a3a7f73d25c74228"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/red_sand/molding/slashblade_saya.json"
+hash = "a2de436dd47b783ec9e79877412b52182ae04d6164b087d4623fa34dd5748afd"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/sand/builder_block/slashblade_blade.json"
+hash = "a8925dd53255d7dc14b738514846bdf5cf3f6cbc49d64a2e0a4750af06c114ff"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/sand/builder_block/slashblade_saya.json"
+hash = "91a72bb9e2b9947cc90c1f0af99ab7b502623c03f3f74e8ffe8b264a17ed06d9"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/sand/builder_cast/slashblade_blade.json"
+hash = "c4523678afcd3880cccf850067eff252639fc95e4ed47891a1f0b436a0d10c89"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/sand/builder_cast/slashblade_saya.json"
+hash = "5cee7c594a84ba393b640764dabcabc72c468b9cab7102d6eae4b8d29411c11b"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/sand/molding/slashblade_blade.json"
+hash = "d02d36996a89750cef4b9f44d96059a4f612c3f94640e8131b1665d858adb53d"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/casts/sand/molding/slashblade_saya.json"
+hash = "064d0c334cb0d0d9f2dfdd5a57c9bbe67eda4e88f2d160bce90b89af1bbc6571"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/flickering_reconstruction_core.json"
+hash = "97755f5a76f8c6aa7ad47a5974ef7006fd33a57da60ac6171d1f94a8d56c00bd"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_0.json"
+hash = "e4fc2157bef331ac950286ef7ed9a44120c71e0fd76c69997191e20186b21154"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_1.json"
+hash = "12f1e40409535f087aa4717288aba273ed4d831e35c64974e89e6fdf88d1e3e5"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_10.json"
+hash = "6bb7a002fd4fdbd46932cd186e41f4d87506bb12c29de291aa4f9a7edb2bc5c1"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_11.json"
+hash = "266e0fc3c343b52a05276ea17963d169da09c3aa982a919da25ca9879cc0fb64"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_12.json"
+hash = "6317c1c0361110d3b36c98e00f082bebcc344c729a0bca6768053b2b8d0118e6"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_13.json"
+hash = "fcdfc07f498deb46f526efa0cd444dc19cdf49c09ef49033869525f709b604fe"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_14.json"
+hash = "b0a947e15a893404fbfa7bc51aaa4c29284381d6a5719004da101ce9963d3409"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_15.json"
+hash = "a90adcce6088f808228be306ad0855bb31980a7d76c56933a26c4e542ce4b887"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_16.json"
+hash = "7c8c9c2598989835afc7f6405636ced8ee1ddef586d96cf82d97e10aba7ec05a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_17.json"
+hash = "1c6a3f1898e10b9c8ea03469f03d3ea660a99ea00ad47ceccee181606dac1328"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_18.json"
+hash = "e490f25766f8cd20ca303df8d989f1fba11d400cca719f4a87e633fd0b1d3512"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_19.json"
+hash = "97452f1f9ce7de67a78c6572b95c2607b6a16683a069422dc34e3edefa1d608c"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_2.json"
+hash = "5ea0c9e6b5bc3c3ee4cc6d54666928b7acc5925706d189b3c3c3850b82858d53"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_3.json"
+hash = "7a21e780cdda90e0ae632c8b404cf8552cd00b7a5843b6783bcebf2258609a1e"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_4.json"
+hash = "bb893f9db6b6bc5ea28c9877755774259c4c1343d091ef5e88960d21fe4916bd"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_5.json"
+hash = "4d493da02ea75fb242dcd6735c00249444428834cef87c8c68c3b22a603ff792"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_6.json"
+hash = "b8e4bdd08f03bdde105de838ec22c4ecff763276a87e7e24fa9a2adecc08f6fc"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_7.json"
+hash = "302b9809fa18845cdee70d03a0c59aabb47068a36a89eda473d5d7b4bfd5a27e"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_8.json"
+hash = "e0f0db3d036a85931d15d0f303c0830da0632b267dd12e38081996a7c425b3d6"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/fuel/rf_furnace_fuel_9.json"
+hash = "a364df97f3db788f56e8cd78c1bafa7eb3890af443418a8c22f5eb807813cc05"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/metal/crystal_matrix/block.json"
+hash = "93016bf6ac0ea28cd03a082af567627e2b9aa9323701d2c435071439f08f04fa"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/metal/crystal_matrix/ingot.json"
+hash = "425f5f82350d0f8f0abad9b1717b55a87362be1ed5e7eebabad6748ef6606860"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/metal/etheric/block.json"
+hash = "bcf450e4dfbb507a5b16c65f9e4166e8f9fb4a1a5f6f876aa4554908bbe94c2f"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/metal/etheric/ingot.json"
+hash = "f48813c3fda80b9a5ebb36f33c3d58ce1ffd09b4587cfc229f33b62ccc98a4db"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/metal/infinity/block.json"
+hash = "b1fe1a061f143cfaf17e7db5eb0646ff7e2150f3248d8aa535f7f1ff0bd5c9e4"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/metal/infinity/ingot.json"
+hash = "8b194d7ea36d6a4f1441570c843f9ec00fa4208a09e2ff2b3edeabfc9b913e68"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/metal/neutron/block.json"
+hash = "f4a37fbf0f479d642761c99823c4ede7ddb92b8ef9b105696fdcd2c067851ec4"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/smeltery/melting/metal/neutron/ingot.json"
+hash = "828d1459cd10fe8b5f8f426e658d73ccd1b31181b2fd370b231b5d2cb604fda2"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/catalyst_gem_boots.json"
+hash = "51df54982f9aaa01dae2e233a63a75177e6fb98b52752c2aef00c1d8856d7a35"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/catalyst_gem_chestplate.json"
+hash = "f2a5b9852748b44df35935eb8efc8a79f2d2e44f1b4f3589b051661d6c7e649b"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/catalyst_gem_helmet.json"
+hash = "77f8495c30693c55eeb95b769e0eddd7168fcd0796beca5a42e2e45807c37b61"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/catalyst_gem_leggings.json"
+hash = "c6c366756604a0622b2117dbfed8805870587797cd783fb3df3873e636fcfd7e"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/mekaplate_boots.json"
+hash = "b14167d3bb7aa3fdbcf7a8380e6e3255d5ab6a3b2d164dd25af7861a71691db0"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/mekaplate_chestplate.json"
+hash = "2a77d84cf5948d4838ca54a25d2e4476e943038c9dd5929b7fde087b7eebf9f3"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/mekaplate_helmet.json"
+hash = "d9a767a60a775d14b804c8372cc16980a808a6e2dc595aed0b0cdc3624848fef"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/mekaplate_leggings.json"
+hash = "8b14f08657bed4167a51327e92f3ff2e35d4f8bdf5d273a15aa8a37923189ca6"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/singular_gem_boots.json"
+hash = "2b7d0ead307c2a05e92ced62ab16c500834cce2daf1611173c7b724fb98f1675"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/singular_gem_chestplate.json"
+hash = "be32b7393c5cf24091fc4b9e902c4f1d436d8389d8d4c01930fa3e6476f975bf"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/singular_gem_helmet.json"
+hash = "6fa9c9978f34058c992516c45fe37a90e200b644bfed5444704051373e98f82a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/armor/singular_gem_leggings.json"
+hash = "dfadae602215c588a117b913dbe31f66da8278c513b23c8967dee822d0bea023"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/building/blitz_gun.json"
+hash = "0978452fd6a4790e2a1625418ad415ae0968ad9f0d893107ea56ca036da646e8"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/building/reforged_slashblade.json"
+hash = "4121e1f2d6811fb65606e2c7ff5a4e08501f9bf489fa30bc452d61db3594f599"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/building/revival_spellbook_irons.json"
+hash = "9088cd9865c5a6d2c52a16d2aa50ed2d7dc7f68d041947e22088e5f92401b61f"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/casting/catalyst_gem_boots.json"
+hash = "51df54982f9aaa01dae2e233a63a75177e6fb98b52752c2aef00c1d8856d7a35"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/casting/catalyst_gem_chestplate.json"
+hash = "f2a5b9852748b44df35935eb8efc8a79f2d2e44f1b4f3589b051661d6c7e649b"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/casting/catalyst_gem_helmet.json"
+hash = "77f8495c30693c55eeb95b769e0eddd7168fcd0796beca5a42e2e45807c37b61"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/casting/catalyst_gem_leggings.json"
+hash = "c6c366756604a0622b2117dbfed8805870587797cd783fb3df3873e636fcfd7e"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/casting/crystal_matrix.json"
+hash = "cd91a94315488de072c2c31c3d8cd86836497c3565c7dcaa373dab07d937f288"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/casting/etheric.json"
+hash = "da650e307a8a11b7a803f22bd40581d8007d36a544e877a7cdf2562d0306f3de"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/casting/infinity.json"
+hash = "2e15ad4dc2bc23bd6447928502a9999c488f875210518ed08abcac767a9f07d0"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/casting/neutron.json"
+hash = "1d8783cebf964a6d784a5651ccd172d5156ecd42bc1f1a122309dff33454adb7"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/casting/reconstruction.json"
+hash = "ef608339010789b8bb598e33b3a50aaa024a2c823bd1706e167cb01d1e673f38"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/chaotic/chaotic.json"
+hash = "2f7ce6908eb262f3be6518f44dabdd01060bfb5186dba6f439fea4033b3122ab"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/chaotic/draconium.json"
+hash = "535ef1d93ac3066e6fe23a78fe4800e9dff9375c109ed668bc5a8acb3e018d57"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/crystal_matrix/block.json"
+hash = "b20f74fce40a1424fdbab175b145df158bbe6022bcab6e4311f542f3e5940e32"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/crystal_matrix/ingot.json"
+hash = "bc2f63fa3b74e00985cf00558edd942c9b0d28d6e7c8e5362662ce06e70b4841"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/crystal_matrix/nugget.json"
+hash = "16f7782f0e9d683475d43d18d36ea6a2376265c3b86717feb7a6438da3dbf6da"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/draconic/draconic.json"
+hash = "8809bc32906718b8419538f4df0007ae56c9ef28898569c27371d691e966c0a8"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/etheric/block.json"
+hash = "80522f84d496a009feb53eac86c8591c296c054638cfaff08e41def514dfe21c"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/etheric/ingot.json"
+hash = "5ecfa3b0c950dacc0d1118417fa51abc68ef94ba5019db42f6b449af76a3e10d"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/etheric/nugget.json"
+hash = "5c13502c471a3e9195ff00e2ffbeb4af2b3c74c2a26ce7b9f2ba32d7fc3dc8d8"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/infinity/block.json"
+hash = "0ca138840af1ab8b6bd63280034c25b25aef0240178c434e705d85623e39471a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/infinity/ingot.json"
+hash = "b0b0c426eb249a7bf7e73a12afc380d2db19c9992c4fe02c49f1b7594b96cc29"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/infinity/nugget.json"
+hash = "a1e8c440c8801a12ef347f20dd07139dea43c0eff7407dff81732f17c602c8ea"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/melting/crystal_matrix.json"
+hash = "71f6dbf79bd809f2ad0595f6463ee8ba70f054d3d158779173a95dc396a0f86c"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/melting/etheric.json"
+hash = "c228cfcb85e4bf9f3267e7b0a90f9bf70dbe1fa119c45ae985a8e2150062bd90"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/melting/infinity.json"
+hash = "e926298b4f70d5334193f7ab09d8199a2d84ae164c9cb0a00ef16cd8eb14ae6c"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/melting/neutron.json"
+hash = "ffe8b3357c6711d5b4f9d4699b173fe41e8b90c3e7c55568fc4a24914c1e6955"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/neutron/block.json"
+hash = "98edef4dd211c77be822cc611235cfb88b344fc3c31cbf635df1b32943c8e5e4"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/neutron/ingot.json"
+hash = "6553ea97dd612e19d6a97222813f1015c0b8ac645c6d979c04c1e92674fb368a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/neutron/nugget.json"
+hash = "3fdffaa5f500be380f0d1c03dd67353f7aaed9a0a8afe896dfe0a7ea232c8a5c"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/materials/wyvern/wyvern.json"
+hash = "cfc5f6106178ef46fb08d5a143fd44e6049d022ac81bdab60bcf2e956b846679"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/ability/chaotic_evolved.json"
+hash = "4084f84a7740070d9e215094b749270e84d6c0e1f3278e09488e6c9a735a03ce"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/ability/draconic_evolved.json"
+hash = "5b58aba94b97233cfc8d3195e41bb016f255724c0cb4be2cc085ebb6b7867639"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/ability/draconium_evolved.json"
+hash = "08ab33d1f8668b06d91df7138bf9973d72562f81465584311df292e31a281e57"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/ability/endestshot.json"
+hash = "4639316ca04481081b49bbb1c35d6a7eca5459945c176ba3450bbe532c15bbe0"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/ability/psionizing_radiation.json"
+hash = "f76f3579b779c2f52546f3fac9ac160228cfba5ca5fdd559d4b6c9d73193c622"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/ability/wyvern_evolved.json"
+hash = "be68a41397600dd9d657ff3bd489324ae7c84951181fad1e9253697693b2b5e9"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/defense/abyssal.json"
+hash = "3c965c60a63fe5e5a0a028b36cae16c0b06669b53cea7b2bbac36c7a20e6c4ac"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/defense/celestial.json"
+hash = "aeec7f91b8299b0d62b485d21dd2734010062c07d56f5dd8d29316e55ef20d32"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/defense/gravity.json"
+hash = "ed2f3fb08ea2011397e0376e63f698dac26385b8ff94dac5bf7cf3c529153412"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/defense/hurricane.json"
+hash = "a5984662895e0a9c34771434ebd4db165c93b681686b3afe97fc1e1aa8c9ad44"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/defense/infernal.json"
+hash = "1ae95136a9d02870721d745c80d06bbb07a52cbca7412dba74f644c9edeac7f5"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/defense/radiation_shielding.json"
+hash = "d1353d14e223c78a5a3189e8455dd4b829567c5e7eb3aa21bde20116bc1c23fe"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/salvage/ability/endestshot.json"
+hash = "ed39a480dac2e5e847b500f67ccb4f202a0b3e1330b220d4a5a8fc1b7375473a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/salvage/defense/celestial.json"
+hash = "34c24625e17206d9df150e1e948e65fefe2b20a197b94ebc150b8409733f663a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/salvage/upgrade/modem.json"
+hash = "5550f4cc6ff2932914af6d0e032350f84a7f5825ae0c7790713892d3cd4b394a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/slotless/embossment.json"
+hash = "c2f9d8ac3e894b964d55c42c80007d4ee8f6eef3be4d078de603f6edae3a6d5b"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/slotless/hidden_proud.json"
+hash = "63b392ef40abd80f2259141407a13c3ad0073384eccdd42c402bf71fe9fdb29d"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/slotless/inject.json"
+hash = "285608e0bc4b3d768b8173db0e52b5526015c8a77643872a6103a3657063b0da"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/slotless/koshirae.json"
+hash = "3bace6aa79a6d64431a5d96a8cfa50cfb69da9fc21e38c19d4321a538be4634c"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/slotless/mekanic.json"
+hash = "27b3eeba98d0cd3897207ba42427108990def152e88c975c39df7bb511919513"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/slotless/sensor.json"
+hash = "070091689c00dedaf607c1da8afbe351b93a5b50358473de5637f6a39b0cbde3"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/upgrade/cardboard.json"
+hash = "01aff972303b06270623b6f837a6ad7cd2bd0745006b5c01bc090d1e30aa9931"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/upgrade/konpaku.json"
+hash = "db109a754af5b9e3ddfccbcd0469f9d9de1b9ff4452d27ec47daf425c46491dc"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/upgrade/modem.json"
+hash = "07c9f749d7c7d3a1b82805a0cc1d7574af695d7c63ede0bfa24def7580c36eb6"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/upgrade/overcasting.json"
+hash = "ddabc689193390bf7fabb2cba93d1e35fda751a99f2c75a1c0b62b3cb2a9f53a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/upgrade/overload.json"
+hash = "faa8107c327a82e07009bccc44505b78c507681389491d84ef3f7e3440ee91d3"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/upgrade/override.json"
+hash = "b70db517a841b89a5ce8296b9b2f77a869e83d2563fba30b2d9c847b25dfbbe4"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/modifiers/upgrade/socket.json"
+hash = "aee4c2e653f9760612df981b4e22a08ce9105c0ba1e9a584f3e4a410288fec80"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/builder/slashblade_blade.json"
+hash = "123e4a9e8703ce414e6f89a39dfaa675002c898890e5b75c8d3f9487dd0ad034"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/builder/slashblade_saya.json"
+hash = "6c02979b100f2f95fdc2efa13b72cb19ab5aaeac7871a55e9301bdaaae43ba16"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/catalyst_irons_spellbook.json"
+hash = "56d7251b7f1a4da38cf950101fa403ad4a413c133e1427852b1259b2e4f2f460"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/catalyst_kinetic_gun.json"
+hash = "ef58f562fdf52d00b909e7d0c0a893da7ced3b0e10341f61c9400e4fff110142"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/catalyst_mekasuit_boots.json"
+hash = "ad4c226f1783ccd22f841d5dfdb8124ae7c4adcb02cf584249928714f4a31e88"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/catalyst_mekasuit_chestplate.json"
+hash = "487afa7eb60cc2a78e61fc86f7246b7f1bafa568f0971e932a15030540728a72"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/catalyst_mekasuit_helmet.json"
+hash = "67105ce3bb538c1e3cab74aa817849621142c56cb584ad4a2aee91ea10b0ec88"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/catalyst_mekasuit_leggings.json"
+hash = "e5123a5357a2b82c8e978f634ed0cf4acb9f3f92ea5b66499cd63aebd3b12c46"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/catalyst_slashblade.json"
+hash = "fa1cbe8e013df7246f730723541282f4bca188c131c6df9821c0c0190cfaf20c"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/slashblade_blade_composite.json"
+hash = "198a062b40bb1f3baf0035ffc38d47478d36b1f01b395e44a3ce02a05405f23a"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/slashblade_blade_gold_cast.json"
+hash = "f77a9de9f8cb95f8a2421ae129457886f04376251cc6a9f385e698496cf677d5"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/slashblade_blade_sand_cast.json"
+hash = "6f38c206438db926d71ddb7647fd0fe7d19306160aed8f2c0a3bf058634f9c1c"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/slashblade_saya_composite.json"
+hash = "36e4cd34b168abfa4957d05a184bebd53c51cafee2afc7050ed19f71016c5692"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/slashblade_saya_gold_cast.json"
+hash = "741174bab54f57c91da29e0107f102036d0694bc23d49ecaa6fc5a1b9e8601ce"
+
+[[files]]
+file = "kubejs/data/ticex/recipes/tools/parts/casting/slashblade_saya_sand_cast.json"
+hash = "209c6cac6c45563f55f7032cd76f7769ea769936343ce58a4d427d7e4c5a44ec"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/casts/multi_use/slashblade_blade.json"
+hash = "470929a6b6c926018f8f20f6ae610e5dfb2937c93735b1fed3b5acb0a5b327e4"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/casts/multi_use/slashblade_saya.json"
+hash = "aebf0cfadaa6515cf974109d7772771cafa95ae705fcd2cf527d52a8d68fde39"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/casts/single_use/slashblade_blade.json"
+hash = "6251e1768e9328afd27f4661cb53c6502f93ca8586ebd2231800a554b7066a9b"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/casts/single_use/slashblade_saya.json"
+hash = "c5158a184b14aeee39712bbb3f22c697162f43f4c892eb5b640ed3e40dd6a7dd"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/catalysts.json"
+hash = "e2a8ea7a85f86ce83cc0c1a95d9e16399f4dc978b5130a943e1b3e341425f322"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/cores.json"
+hash = "e309bad65b074fce06f36d9627ed9671cb6e3831b7f46d3a2fd55e414cc17259"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/plate.json"
+hash = "4b5f806a38b5efd641f62e21df8cf5c350f72c10cd07ee3383e62a0cd6350386"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/seram.json"
+hash = "b6503dc63a9d75df82dbd4bf17b4a27abb93a936f5242e9326a1130da707c7a8"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/seram/gem.json"
+hash = "9d4733cee1a4d5697dca1fa823a2ed8477774e814c49e79f36edc7c64b06b5ab"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/seram/irons_spellbook.json"
+hash = "92610d721d89ed63bb163857385223ec6d8e1b6ba509732bc941754b3ceaf923"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/seram/kinetic_gun.json"
+hash = "64d8feacebb8da8fdc74c0c6729b84560adb4d71fa8854dc3da07c4b4aed8340"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/seram/meka_tool.json"
+hash = "be13e6039e7b162e915ba628da0f4ab8c4411baafebd3a292545d2db92f4eadb"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/seram/mekasuit.json"
+hash = "4f06d504f15d5257b5d563351486251bb65dbbc060870d426eb260e590fa2242"
+
+[[files]]
+file = "kubejs/data/ticex/tags/items/seram/slashblade.json"
+hash = "74169172941d7e868bb0de7f5f2d9e067b6c41a046853b6852dd6a7b2d14249f"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/definition/chaotic.json"
+hash = "5eec02a4987f6b1eee9da1554067c09895210faeb24e541a4731b4671c553f39"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/definition/crystal_matrix.json"
+hash = "6aa6e9fbda77011f03bac5e0ce5588f45136a7b8cdd848f607f78a870bd10a32"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/definition/draconic.json"
+hash = "5eec02a4987f6b1eee9da1554067c09895210faeb24e541a4731b4671c553f39"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/definition/draconium.json"
+hash = "fcc2db08d95803f27a5e09e3a876179fec80c419cd071335444dbc79eebc2aef"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/definition/etheric.json"
+hash = "f6570b4a50263ee86a72205123c645174b4458d040d011eb44a3118917f82f12"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/definition/infinity.json"
+hash = "80f2fb6cd72f40643cbdd79c14a3f4f84dca35bce09acb8532d1bbc2df86ae82"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/definition/neutron.json"
+hash = "478c2fd25d7f271820a1fd4ed311936e69fb880422c1f0679b5c05aea09df857"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/definition/reconstruction.json"
+hash = "8d93db3387b37098efc7d1e9e321670e6409bec33a24ea8152682eb2d07f7130"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/definition/wyvern.json"
+hash = "fcc2db08d95803f27a5e09e3a876179fec80c419cd071335444dbc79eebc2aef"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/stats/chaotic.json"
+hash = "be7d262408e59ccc4f0fb08e1247b749d35938f62198fc5c4be80fdcb35d0412"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/stats/crystal_matrix.json"
+hash = "aa19d8d1990f01eb49af390fd152fc95a9ed4c16c9ee0e02283223e59531b04d"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/stats/draconic.json"
+hash = "95583f81f7535f0a61d5338b6bcc0a8ac1db723bd800c70b5f6663ed38ab0421"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/stats/draconium.json"
+hash = "e4fc09fa502bd603748e260c8e87e5054625c201b57e3462a1f180a7e1173ce1"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/stats/etheric.json"
+hash = "4ec5a8b6013cad6df15854a082c926c107c3807fc62f9650ae416bb8db1e816a"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/stats/infinity.json"
+hash = "cb65d6b4ce2000b4a0f699fccc7480db77c5910fee1ae578e8c0f0aac7c6f18d"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/stats/neutron.json"
+hash = "f710908b73fb41ae8fdd5158b6107ff33b3b6acb0c29963a05a7c0cc6b2089a7"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/stats/reconstruction.json"
+hash = "8035ba4eb88fe25d40c54e6500c5cc6da78e8a0a6df5b7a21da5ff3fe3283556"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/stats/wyvern.json"
+hash = "98b939af5be1afd26a3fffbad68b1e844cbeaa31135ba770f1dce0ec17c0c748"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/traits/chaotic.json"
+hash = "a639c53b20e472dfee501e412b8ff0f3ca84fc6559a4a4898c4877cc68381f37"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/traits/crystal_matrix.json"
+hash = "473be2147384303a5fe34a88c06755f2e6467449029122faa88b6c478a7eb330"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/traits/draconic.json"
+hash = "e319d0806f88e957557e08d8ab6df9a3732b3a6a243eac9d56534afbc36f4c2e"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/traits/draconium.json"
+hash = "0bcec58ec89d08568a6e54d1edf19f1d174a03deb668bbb47c58bc822f253ff5"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/traits/etheric.json"
+hash = "8e53cad21e9a092eb8028f1f88d74fdfa509b14265ab717169edc7835dea38cc"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/traits/infinity.json"
+hash = "4afb630183234f1b77232897eabcc0f78e4b35ab61b3587928fa526e1ea8bd1d"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/traits/neutron.json"
+hash = "de10d5222c448a83c4e2c7f923c86889a9ea159372beb1bee20942857619d8a6"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/traits/reconstruction.json"
+hash = "cc8bdd435e8a3de3ff4c880cf9d1ee97cd2272cad47ab43cd188d7da87106da3"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/materials/traits/wyvern.json"
+hash = "0bcec58ec89d08568a6e54d1edf19f1d174a03deb668bbb47c58bc822f253ff5"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/modifiers/cardboard.json"
+hash = "92ac7a265bd1e64b98296a95069bed558a0224ed047fe397b5db3531952c4aba"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/modifiers/cosmic_luck.json"
+hash = "c39051a162a27433a5c8d9a268e5f7aebdaddda585548a54fb00905619986623"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/modifiers/cosmic_unbreakable.json"
+hash = "0a6ce47e80e6d4dccf4cfe47c72faf736df246e47512e2b2b993775a6ad86957"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/modifiers/dense.json"
+hash = "311a18af5ddb1f4d593c8667e4731e73fe15da448c27b497c19567c50237120f"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/modifiers/incomparable.json"
+hash = "92ac7a265bd1e64b98296a95069bed558a0224ed047fe397b5db3531952c4aba"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/modifiers/inject.json"
+hash = "9f8f08a60941c3d08ed617cd73037dc9ec5531b4d8fadc90786a96e0e358e22d"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/modifiers/modem.json"
+hash = "4f16a419f99755ba3bb64f480d0a4b1017a9c31b441c391b2bb7408c3e7f0ef9"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/modifiers/radiation_shielding.json"
+hash = "92ac7a265bd1e64b98296a95069bed558a0224ed047fe397b5db3531952c4aba"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/modifiers/rebirth.json"
+hash = "92ac7a265bd1e64b98296a95069bed558a0224ed047fe397b5db3531952c4aba"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/modifiers/transcendental.json"
+hash = "2d4352191c5cc8981edb7a8479b970c101fe548344ae6904c4999fa9dba35fd7"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/station_layouts/blitz_gun.json"
+hash = "a70301c29e26bee5a7e333410b7bb4546884002af42f35c5f270db60e5b36a9e"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/station_layouts/reforged_slashblade.json"
+hash = "d323fb3ffee74566d27e72d802e86d35c5989535cec3cc3be9318d52d5956d8a"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/station_layouts/revival_spellbook_irons.json"
+hash = "c1f685fce37356375a6cf1564302abb156e856d2e385f86955f05941734c1810"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/station_layouts/seram_gear.json"
+hash = "b634e18da97850dfc1f94246ac8a38f6ed9cb95c5cf913d6b036c2531c2d434b"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tags/modifiers/removal_blacklist.json"
+hash = "c5112a541781599b5ccc48a0e90868f73e5cfcc6fb0a45623d95ef07ef4d324d"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/blitz_gun.json"
+hash = "3370133dc95d01964bd1399d9f5b3c3de15a930594f290fa634d0a95809c7894"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/meka_tool.json"
+hash = "17ba090e84eda8757d28207aa7ade8cd07580a064722e45da15dce4ee6f7fb77"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/mekaplate_boots.json"
+hash = "55be9fbd960ab926cb3bc77c68449b1caaac8e179bec4b61618159d4db2eec4a"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/mekaplate_chestplate.json"
+hash = "270a5ef6084908355621182f9c6993089d2b02577a45278f7a4088b745510747"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/mekaplate_helmet.json"
+hash = "f845dc7e8e2f921a640273b68d659259e6ee17e34275996d704247e2665974cf"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/mekaplate_leggings.json"
+hash = "01c7553553270118c50eddc99aca768107c10193d22adb1b59ae02ca7e168436"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/reforged_slashblade.json"
+hash = "0b25ce7fd77ab8b378e4ee31f4119a827c9fdb677370552068bff223b92135fb"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/revival_spellbook.json"
+hash = "f416a4caba64c9d45d25e3fa483d04c927670cdd5cc91bb6528a7fd95fdb4456"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/singular_gem_boots.json"
+hash = "0af196b0265b3930ffc9510f33cf02c9b54de085b4f41c2f7686c5eff523decd"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/singular_gem_chestplate.json"
+hash = "20810d2c297f4c4283b35c5e6e4ab41e960699d8f831ffeffef68d84f5825101"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/singular_gem_helmet.json"
+hash = "d0ce901156441dedaab6784f088274dc73160a8976fd70816b325c2c326c8c5e"
+
+[[files]]
+file = "kubejs/data/ticex/tinkering/tool_definitions/singular_gem_leggings.json"
+hash = "5f4114aaa5902f46028a7ff371bf977046297bb36128241c3776de492b0c6d34"
 
 [[files]]
 file = "kubejs/data/twilightdelight/legendarysurvivaloverhaul/temperature/consumables/aurora_ice_cream.json"
@@ -8814,7 +10990,7 @@ hash = "dd83aa3edd90a1578168e459a028f9ee8392c97be27384645ecb436b887dc474"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
-hash = "aebbd05d599bf8557935dc1c66c10cdd5a63d8f9722c70c3af514f18df2a08ea"
+hash = "b227c244eaefeeec413e0bfd8467fec1dad55619ca8c2b0c45b993396dcae5a5"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/oreexcavation.js"
@@ -9006,7 +11182,7 @@ hash = "3c4fdf25fc19c312e9b2c2077808d8aaf215a9a5a3b8febe4745a9a07a55ab54"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "6869dc006650e8c63bd24bc14bb25113fa71e485dff5c60f80943cfbb01f7093"
+hash = "b161e540668240c09f3f1457f8a21e92571e3677762dff3b062d30846c0af883"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -9025,16 +11201,32 @@ file = "kubejs/server_scripts/src/tag.js"
 hash = "f081cad725f113253385a193495a04c5051f591756db46ffef9c9fe1c21d120f"
 
 [[files]]
-file = "kubejs/server_scripts/src/tinkers/remove_tinkers_repices.js"
+file = "kubejs/server_scripts/src/tconstruct/modifiers.js"
+hash = "9d82c774fb4a469ce0512ae3d7765c09beb275634340ad701d75870feb2d70d1"
+
+[[files]]
+file = "kubejs/server_scripts/src/tconstruct/remove_tinkers_repices.js"
 hash = "015d6860b27fc08a647bb55e69dd81a02a77abf37d91d151e8c06f15155cc58c"
 
 [[files]]
-file = "kubejs/server_scripts/src/tinkers/tinkers.js"
-hash = "09ca335506a4bcf982a04836d1295efd481a52b97a216e40c5bd623e5af89add"
+file = "kubejs/server_scripts/src/tconstruct/tinkers.js"
+hash = "1825b4a01b5101f6d8b044cce0f6ed0f43fb942ae54a4f58cd679b5e66fcbbaf"
+
+[[files]]
+file = "kubejs/server_scripts/src/tconstruct/toolparts_register.js"
+hash = "0c4d4d0ea8dd5e1db0e9e8c16106f120b11bdd1d594f01f970cdc7a4e789a448"
+
+[[files]]
+file = "kubejs/server_scripts/src/util/TConMaterialGenerator.js"
+hash = "0d743d269cdaa16c03c49291368db43a2f490f8b18837c544cc383e1ec2f998a"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
 hash = "7b40b26b41b44a0abaa7017827f4074097d9827bdc2ee35a8afef968ed6ee6d9"
+
+[[files]]
+file = "kubejs/server_scripts/src/util/tconmodify.js"
+hash = "8ad2e21f57137891d3ddbfb09e9c0235dc2374289d246ebc86d5807241b8d229"
 
 [[files]]
 file = "kubejs/server_scripts/src/wood.js"
@@ -9111,6 +11303,10 @@ hash = "74155bdc794aa0a03f9ff98352fef4ecf738052ad2cd540805902a3be176441c"
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
 hash = "1c211d209b1dd89619756b20e831f4afc92fde3e0e648455f98ff2fdd8ef4260"
+
+[[files]]
+file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"
+hash = "0fce68d3f4aa4305d98b777df9311da3d7e3d9657862d796016270baa06b980e"
 
 [[files]]
 file = "kubejs/startup_scripts/src/test.js"
@@ -10194,6 +12390,11 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "49d91afd3c23759bc246077c91cbe56fcef682997d9dcf3fc467d90e6130ef6e"
+metafile = true
+
+[[files]]
+file = "mods/ticex-tinkers-construct-ex.pw.toml"
+hash = "67e7deeadde9090f8f8fe4703120e968881d48b331fe72436c0ff4c944063fe0"
 metafile = true
 
 [[files]]
