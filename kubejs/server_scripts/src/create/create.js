@@ -558,7 +558,7 @@ ServerEvents.recipes(event => {
             event.recipes.createDeploying(transitional, [transitional, 'ctpp:steel_mechanism']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:ulv_machine_casing']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:double_wrought_iron_plate']),
-        ]).transitionalItem('gtceu:steam_input_bus')
+        ]).transitionalItem('gtceu:steam_input_hatch')
         .loops(2)
 })
 ServerEvents.recipes(event => {
