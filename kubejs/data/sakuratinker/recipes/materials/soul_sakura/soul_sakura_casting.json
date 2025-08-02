@@ -1,0 +1,13 @@
+{
+	"type": "tconstruct:casting_table",
+	"cast": {
+		"item": "minecraft:cherry_leaves"
+	},
+	"cast_consumed": true,
+	"cooling_time": 400,
+	"fluid": {
+		"amount": 720,
+		"fluid": "tconstruct:molten_manyullyn"
+	},
+	"result": "sakuratinker:soul_sakura"
+}
