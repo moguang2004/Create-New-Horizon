@@ -1,0 +1,12 @@
+name = "Mantle"
+filename = "Mantle-1.20.1-1.11.71.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ac9e1be007b11946970da45651305fae91563702"
+url = "https://edge.forgecdn.net/files/6776/978/Mantle-1.20.1-1.11.71.jar"
+
+[update.curseforge]
+file-id = 6776978
+project-id = 74924

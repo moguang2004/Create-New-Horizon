@@ -77,3 +77,30 @@ ServerEvents.recipes(event => {
     event.remove({ output: /sophisticatedstorage:(.*)_chest/})
     event.remove({ output: /sophisticatedstorage:(.*)_shulker_box/})
 })
+
+ServerEvents.recipes(event => {
+    event.recipes.create.mechanical_crafting(
+        "sophisticatedstorage:controller",
+        [
+            "EEAEE",
+            "EFBFE",
+            "ECGDE",
+            "EFBFE",
+            "EEEEE"],
+        {
+        A: "sophisticatedstorage:storage_link",
+
+        B: "sophisticatedstorage:basic_tier_upgrade",
+
+        C: 'sophisticatedstorage:storage_output',
+
+        D: 'sophisticatedstorage:storage_input',
+        
+        E: 'create:andesite_casing',
+
+        F: 'ctpp:steel_mechanism',
+
+        G: '#forge:chests'
+    }
+    )
+})

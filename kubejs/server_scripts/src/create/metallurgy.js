@@ -3,7 +3,8 @@ ServerEvents.recipes(event => {
     Object.entries ({ // 三种铸模
         "createmetallurgy:graphite_ingot_mold" : ["B","A"],
         "createmetallurgy:graphite_plate_mold" : ["A","B"],
-        "createmetallurgy:graphite_nugget_mold": ["B A"]
+        "createmetallurgy:graphite_nugget_mold": ["B A"],
+        "kubejs:graphite_block_mold": ["A B"]
     }).forEach(([result, recipe]) => {
         event.shaped(Item.of(result, 1), recipe, {
             A: "#forge:tools/hammers",
@@ -22,24 +23,33 @@ ServerEvents.recipes(event => {
         event.recipes.create.mechanical_crafting(result, recipe, target);
     }
 
-    event.shaped(Item.of("createmetallurgy:casting_basin", 1), 
-                ["A A", "A A", "ABA"], 
-                {A: "gtceu:andesite_alloy_plate", B: "gtceu:double_andesite_alloy_plate"})
-    event.shaped(Item.of("createmetallurgy:casting_table", 1), 
-                ["ABA", "A A", "A A"], 
-                {A: "gtceu:andesite_alloy_plate", B: "gtceu:double_andesite_alloy_plate"})
+    //event.shaped(Item.of("createmetallurgy:casting_basin", 1), 
+    //            ["A A", "A A", "ABA"], 
+    //            {A: "gtceu:andesite_alloy_plate", B: "gtceu:double_andesite_alloy_plate"})
+    //event.shaped(Item.of("createmetallurgy:casting_table", 1), 
+    //            ["ABA", "A A", "A A"], 
+    //            {A: "gtceu:andesite_alloy_plate", B: "gtceu:double_andesite_alloy_plate"})
     event.shaped(Item.of("createmetallurgy:sturdy_whisk", 1), 
                 [" A ", "BCB", "DBD"], 
                 {A: "create:shaft", B: "gtceu:obsidian_plate", C: "create:whisk", D: "gtceu:wrought_iron_plate"})
     event.shaped(Item.of("createmetallurgy:foundry_mixer", 1), 
                 ["ABA", "CDC", " E "], 
-                {A: "create:precision_mechanism", B: "create:shaft", C: "create:copper_casing", D: "create:large_cogwheel", E: "createmetallurgy:sturdy_whisk"})
+                {A: "ctpp:basic_mechanism", B: "create:shaft", C: "create:copper_casing", D: "create:large_cogwheel", E: "createmetallurgy:sturdy_whisk"})
     event.shaped(Item.of("createmetallurgy:sandpaper_belt", 2), 
                 ["AAA", "AAA"], 
                 {A: "#create:sandpaper"})
     event.shaped(Item.of("createmetallurgy:mechanical_belt_grinder", 1), 
                 ["AAA", "BCB", "DBD" ], 
                 {A: "createmetallurgy:sandpaper_belt", B: "create:andesite_casing", C: "ctpp:basic_mechanism", D: "create:shaft"})
+    event.shaped(Item.of("createmetallurgy:foundry_basin", 1), 
+                ["A A", "ABA", "AAA" ], 
+                {A: "tconstruct:seared_brick", B: "create:andesite_casing"})
+    event.shaped(Item.of("createmetallurgy:foundry_lid", 1), 
+                ["AAA", "A A", "A A" ], 
+                {A: "tconstruct:seared_brick"})
+    event.shaped(Item.of("createmetallurgy:glassed_foundry_lid", 1), 
+                ["ABA", "B B", "A A" ], 
+                {A: "tconstruct:seared_brick", B: "tconstruct:seared_glass"})
     //粉碎矿物得产物和其概率
     let materials = ['hematite', 'magnetite', 'precious_alloy', 'copper', 'diamond', 'tin', 'silver', 'vanadium_magnetite',
         'spodumene', 'rock_salt', 'salt', 'lepidolite', 'lazurite', 'lapis', 'sodalite', 'calcite', 'graphite', 'coal', 'zinc', 'gold',
@@ -220,12 +230,6 @@ ServerEvents.recipes(event => {
     event.recipes.createmetallurgy.casting_in_table('gtceu:andesite_alloy_ingot', [Fluid.of('gtceu:andesite_alloy', 144), 'createmetallurgy:graphite_ingot_mold'], 90)
     event.recipes.createmetallurgy.casting_in_basin('gtceu:andesite_alloy_block', Fluid.of('gtceu:andesite_alloy', 1296), 120)
     
-    let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium',
-                          'molybdenum','brass','gold','iron','bronze','copper','cobalt','manganese', 'slag']
-    fluidmaterials.forEach(fluidmaterial =>{
-        casting_all(event, fluidmaterial)
-    })  
-    
     remove_recipes_id(event, ['create:crushing/raw_copper'])
     remove_recipes_output(event, ['create:crushed_raw_lead',
                                   'create:crushed_raw_copper',
@@ -241,6 +245,11 @@ ServerEvents.recipes(event => {
     
     event.recipes.createmetallurgy.casting_in_table('createmetallurgy:foundry_unit',
         [Fluid.of('gtceu:wrought_iron', 288), 'createdieselgenerators:distillation_controller'], 90)
+})
+
+//玻璃
+ServerEvents.recipes(event => {
+    metallurgy(event, `gtceu:glass_dust`, 40, [{"fluid": `tconstruct:molten_glass`, "amount": 125}],"heated")
 })
 
 // 熔铸多方块

@@ -189,7 +189,6 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting('gtceu:emerald_plate', '2x minecraft:emerald')
     event.recipes.create.compacting('gtceu:nether_quartz_plate', '2x minecraft:quartz')
     event.recipes.create.compacting('gtceu:lapis_plate', '2x minecraft:lapis_lazuli')
-    event.recipes.create.compacting('minecraft:glass', '2x gtceu:glass_dust').heated()
     event.recipes.create.compacting('minecraft:netherrack', ['minecraft:gravel', '2x minecraft:redstone', Fluid.of('minecraft:lava', 250)])
     event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 250), '4x minecraft:brick'])
     event.recipes.create.compacting('minecraft:bricks', [Fluid.of('gtceu:cement', 50), '5x gtceu:brick_dust'])
