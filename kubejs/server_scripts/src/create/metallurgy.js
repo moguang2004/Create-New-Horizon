@@ -14,6 +14,14 @@ ServerEvents.recipes(event => {
 	//耐火砂浆 铸造盆 熔铸盖 玻璃熔铸盖配方
     event.recipes.create.mixing('4x createmetallurgy:refractory_mortar', 
                                 ['2x gtceu:fireclay_dust', 'minecraft:sand', 'minecraft:gravel'])
+    for (var rcp of [['createmetallurgy:foundry_basin', ["A   A","AB BA","ABCBA","ABBBA","AAAAA"], {C: "kubejs:steel_casing"}],
+        ['createmetallurgy:foundry_lid', ["AA AA","ABCBA","ABBBA","A   A"], {C: "ctpp:basic_mechanism"}]]){
+        var result = rcp[0],
+            recipe = rcp[1],
+            target = {A: "gtceu:andesite_alloy_plate", B: "createmetallurgy:refractory_mortar"}
+        Object.assign(target, rcp[2]);
+        event.recipes.create.mechanical_crafting(result, recipe, target);
+    }
 
     //event.shaped(Item.of("createmetallurgy:casting_basin", 1), 
     //            ["A A", "A A", "ABA"], 

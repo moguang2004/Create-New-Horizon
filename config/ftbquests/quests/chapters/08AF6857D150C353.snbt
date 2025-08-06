@@ -697,7 +697,7 @@
 			id: "2866385471094DB9"
 			tasks: [{
 				id: "1494ABEC12B465FD"
-				item: "gtceu:ulv_1a_energy_converter"
+				item: "gtceu:lv_1a_energy_converter"
 				type: "item"
 			}]
 			x: -1.5d
