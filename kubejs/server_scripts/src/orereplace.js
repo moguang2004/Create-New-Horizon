@@ -22,6 +22,8 @@ ServerEvents.recipes(event => {
 
         event.replaceOutput({ not: { mod: "gtceu" } }, `#forge:dusts/${i}`, `${mod}:${i}_dust`)
 
+        event.replaceOutput({ not: { mod: "gtceu" } }, `#forge:molten_${i}`, `${mod}:${i}`)
+
         event.replaceInput({}, `#forge:ingots/${i}`, `${mod}:${i}_ingot`)
 
         event.replaceInput({}, `#forge:nuggets/${i}`, `${mod}:${i}_nugget`)
@@ -35,6 +37,8 @@ ServerEvents.recipes(event => {
         event.replaceInput({}, `#forge:gears/${i}`, `${mod}:${i}_gear`)
 
         event.replaceInput({}, `#forge:dusts/${i}`, `${mod}:${i}_dust`)
+
+        event.replaceInput({}, `#forge:molten_${i}`, `${mod}:${i}`)
     }
 
 })
@@ -137,4 +141,6 @@ ServerEvents.recipes(event => {
     })
     event.replaceInput({}, "#forge:storage_blocks/nether_star", "gtceu:nether_star_block")
     event.replaceOutput({}, "#forge:storage_blocks/nether_star", "gtceu:nether_star_block")
+
+    event.replaceOutput({ not: { mod: "gtceu" } }, `#forge:molten_brass`, `gtceu:brass`)
 })
