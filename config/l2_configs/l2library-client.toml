@@ -7,9 +7,6 @@ infoAnchor = 1
 #Info max width. 0.5 means half screen. default: 0.3
 #Range: 0.0 ~ 0.5
 infoMaxWidth = 0.3
-#Scroll sensitivity
-#Range: 0.01 ~ 10000.0
-scrollTick = 1.0
 #Render Selection only when pressing shift
 selectionDisplayRequireShift = false
 #Scroll for selection only when pressing shift
