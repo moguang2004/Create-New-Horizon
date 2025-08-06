@@ -122,4 +122,15 @@ ServerEvents.recipes(event => {
 		B: '#forge:sand',
 		C: 'gtceu:clay_dust'
 	})
+	event.shaped(Item.of('tconstruct:cast_chest', 1), [
+		' A ',
+		'CDC',
+		'CBC'
+		],
+    	{
+		A: 'tconstruct:ingot_cast',
+		B: 'tconstruct:seared_bricks',
+		C: 'tconstruct:seared_brick',
+		D: '#forge:chests/wooden'
+	})
 })
