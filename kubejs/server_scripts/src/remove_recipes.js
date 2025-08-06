@@ -163,6 +163,7 @@ ServerEvents.recipes(event => {
         "tconstruct:smeltery/melting/glass/sand",
         "tconstruct:smeltery/melting/glass/sand_cast",
         "tconstruct:smeltery/scorched/alloyer",
+        "tconstruct:tables/cast_chest",
         "sophisticatedstorage:controller"
         
     ])
