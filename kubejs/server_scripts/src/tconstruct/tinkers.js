@@ -53,7 +53,14 @@ ServerEvents.recipes(event => {
 })
 //合金
 ServerEvents.recipes(event => {
-	
+	event.recipes.tconstruct.alloy(
+		Fluid.of('tconstruct:molten_brass', 576), 
+		[
+			Fluid.of('tconstruct:molten_zinc', 432),
+			Fluid.of('tconstruct:molten_copper', 144)
+		],
+		605
+	)
 })
 //融化
 ServerEvents.recipes(event => {

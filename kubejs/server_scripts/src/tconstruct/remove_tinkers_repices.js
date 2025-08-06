@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         ///tconstruct:smeltery\/melting\/metal\/bronze\/(.*)/,
         //删除TiC黄铜配方
         //"tconstruct:tools/materials/melting/plated_slimewood",
-        //"tconstruct:smeltery/alloys/molten_brass",
+        "tconstruct:smeltery/alloys/molten_brass",
         ///tconstruct:smeltery\/melting\/metal\/brass\/(.*)/,
         //删除齿轮,杆，板铸模配方
         /tconstruct:smeltery\/casts\/(.*)\/gear/,
