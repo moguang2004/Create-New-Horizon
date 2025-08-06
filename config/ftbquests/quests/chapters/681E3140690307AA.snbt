@@ -11,40 +11,40 @@
 			image: "create:textures/gui/logo.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
-			y: 2.0d
+			x: -8.0d
+			y: 1.5d
 		}
 		{
 			height: 1.0d
 			image: "gtceu:textures/gui/icon/gregtech_logo.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -8.3d
-			y: 4.0d
+			x: -13.3d
+			y: 3.5d
 		}
 		{
 			height: 1.0d
 			image: "bloodmagic:item/altarmaker"
 			rotation: 0.0d
 			width: 1.0d
-			x: -8.2d
-			y: -0.25d
+			x: -13.2d
+			y: -0.75d
 		}
 		{
 			height: 1.0d
 			image: "legendarysurvivaloverhaul:item/thermometer/thermometer_16"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: -1.0d
+			x: -11.0d
+			y: -1.5d
 		}
 		{
 			height: 1.0d
 			image: "botania:item/corporea_spark_creative"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.0d
-			y: -0.25d
+			x: -9.0d
+			y: -0.75d
 		}
 		{
 			corner: true
@@ -61,45 +61,20 @@
 			image: "ars_nouveau:item/drygmy_shard"
 			rotation: 0.0d
 			width: 1.0d
-			x: -9.0d
-			y: 2.0d
+			x: -14.0d
+			y: 1.5d
 		}
 		{
 			height: 1.2d
-			image: "tetra:item/geode"
+			image: "tconstruct:block/smeltery/controller/smeltery_active"
 			rotation: 0.0d
 			width: 1.2d
-			x: -6.0d
-			y: 5.0d
+			x: -11.0d
+			y: 4.5d
 		}
 	]
 	order_index: 0
-	quest_links: [
-		{
-			id: "15A9FE3AD4CB08D4"
-			linked_quest: "3BF72E41C1203551"
-			x: -12.5d
-			y: 11.0d
-		}
-		{
-			id: "2C4D7E5033430F86"
-			linked_quest: "77DF7C0A366D69B4"
-			x: -8.5d
-			y: 7.0d
-		}
-		{
-			id: "6E35B7082525E992"
-			linked_quest: "78A26DEDD6AFF600"
-			x: -10.5d
-			y: 15.0d
-		}
-		{
-			id: "56DE5318BDBC3D2A"
-			linked_quest: "67E66A346ABEC31F"
-			x: -9.5d
-			y: 8.0d
-		}
-	]
+	quest_links: [ ]
 	quests: [
 		{
 			id: "44C7FE559ECFB2EB"
@@ -111,8 +86,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest1.task_+6694491882964515917.title}"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 2.0d
+			x: -11.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -148,8 +123,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest2.title}"
-			x: -6.0d
-			y: 0.0d
+			x: -11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -167,8 +142,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest3.title}"
-			x: -7.5d
-			y: 3.5d
+			x: -12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -182,8 +157,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest4.task_+708532979325862072.title}"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -195,8 +170,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest5.task_+3997356261942771367.title}"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 0.5d
+			x: -9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -208,8 +183,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest6.task_+6157444188204973590.title}"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: 0.5d
+			x: -12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -225,11 +200,11 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest7.task_+7152984134665815429.title}"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -9.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["7500E7310C70727B"]
+			dependencies: ["09C344717F4BAD6C"]
 			id: "6F405D2508EED283"
 			rewards: [{
 				count: 64
@@ -243,11 +218,11 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 13.0d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["31554E021ECE6572"]
+			dependencies: ["1B4FFE71B4C66E14"]
 			description: [""]
 			id: "611BCC64F1F511AA"
 			optional: true
@@ -304,8 +279,8 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 9.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -380,16 +355,14 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.5d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest10.subtitle}"
 			tasks: [{
 				id: "02CB7B2250363B17"
 				title: "{ftbquests.chapter.681E3140690307AA.quest10.task_+201389995652954903.title}"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: 13.0d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -426,11 +399,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest11.title}"
-			x: -10.5d
-			y: 13.0d
+			x: -6.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["1B4FFE71B4C66E14"]
+			dependencies: ["6F405D2508EED283"]
 			description: ["{ftbquests.chapter.681E3140690307AA.quest12.description1}"]
 			icon: "gtceu:raw_magnetite"
 			id: "6639C6A3A5807AED"
@@ -475,8 +448,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.681E3140690307AA.quest12.title}"
-			x: -6.5d
-			y: 15.0d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
@@ -498,8 +471,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.681E3140690307AA.quest13.title}"
-			x: -4.5d
-			y: 13.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -507,25 +480,17 @@
 				"337BC9186C014A06"
 			]
 			id: "09C344717F4BAD6C"
-			rewards: [{
-				count: 2
-				id: "323245D0CF7D2E17"
-				item: "minecraft:flint"
-				type: "item"
-			}]
-			shape: "square"
-			size: 1.5d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest14.subtitle}"
 			tasks: [{
 				id: "58CDFF594C3E0249"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 9.0d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["42BC9DB741D0AD70"]
+			dependencies: ["4B11E32ACA7BC6FA"]
 			id: "27C30CC438658E3E"
 			rewards: [{
 				count: 4
@@ -540,12 +505,11 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 9.0d
+			x: -9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["611BCC64F1F511AA"]
-			description: ["更多相关任务见[实用小工具]"]
 			icon: "sophisticatedbackpacks:backpack"
 			id: "04FBFEEE00051A74"
 			optional: true
@@ -582,14 +546,11 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest16.title}"
-			x: -6.5d
-			y: 11.0d
+			x: -2.5d
+			y: 4.0d
 		}
 		{
-			dependencies: [
-				"5BA86B01337A91D5"
-				"744B99980B778CF7"
-			]
+			dependencies: ["5BA86B01337A91D5"]
 			description: [
 				"{ftbquests.chapter.681E3140690307AA.quest17.description1}"
 				"{ftbquests.chapter.681E3140690307AA.quest17.description2}"
@@ -609,11 +570,11 @@
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: -2.047619047619044d
-			y: 13.023809523809518d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["42BC9DB741D0AD70"]
+			dependencies: ["4B11E32ACA7BC6FA"]
 			description: [
 				"{ftbquests.chapter.681E3140690307AA.quest18.description1}"
 				"{ftbquests.chapter.681E3140690307AA.quest18.description2}"
@@ -632,8 +593,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest18.title}"
-			x: -10.5d
-			y: 7.0d
+			x: -8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -647,8 +608,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest19.task_+5881320269389973407.title}"
 				type: "checkmark"
 			}]
-			x: -0.75d
-			y: 2.25d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -664,8 +625,8 @@
 				title: "{ftbquests.chapter.681E3140690307AA.quest20.task_+7524537443263658711.title}"
 				type: "checkmark"
 			}]
-			x: -11.0d
-			y: 2.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
@@ -677,8 +638,8 @@
 				item: "rehooked:wood_hook"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 11.0d
+			x: -5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
@@ -689,8 +650,8 @@
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 11.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -702,270 +663,22 @@
 				title: "新生魔艺"
 				type: "checkmark"
 			}]
-			x: -8.0d
-			y: 2.0d
+			x: -13.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			icon: {
-				Count: 1
-				id: "tetra:modular_double"
-				tag: {
-					Damage: 0
-					"double/basic_hammer_left_material": "basic_hammer/oak"
-					"double/basic_hammer_right_material": "basic_hammer/oak"
-					"double/basic_handle_material": "basic_handle/stick"
-					"double/handle": "double/basic_handle"
-					"double/head_left": "double/basic_hammer_left"
-					"double/head_right": "double/basic_hammer_right"
-					id: "ebc65393-c690-4790-b19b-ef7729c0e6fb"
-				}
-			}
+			icon: "tconstruct:smeltery_controller"
 			id: "2AC892D111A8FA83"
 			subtitle: "自定义工具（需要想象力）"
 			tasks: [{
 				id: "7397B9E592EFAEEA"
-				title: "Tetra"
+				title: "匠魂"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 4.0d
-		}
-		{
-			id: "42BC9DB741D0AD70"
-			subtitle: "这是你主线上的第一个任务"
-			tasks: [{
-				id: "51D08D5ED0A791B8"
-				title: "从此开始你的CTNH之旅"
-				type: "checkmark"
-			}]
-			x: -12.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["09C344717F4BAD6C"]
-			id: "7500E7310C70727B"
-			subtitle: "你知道应该怎么做"
-			tasks: [{
-				id: "2FCDC90FC081C247"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -8.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["09C344717F4BAD6C"]
-			id: "31554E021ECE6572"
-			subtitle: "如果你不看籽岷，那么用这把剑杀掉的动物可以直接掉落熟肉，非常方便"
-			tasks: [{
-				id: "640D0069BFD1C069"
-				item: {
-					Count: 1
-					id: "gtceu:flint_sword"
-					tag: {
-						DisallowContainerItem: 0b
-						Enchantments: [{
-							id: "minecraft:fire_aspect"
-							lvl: 2s
-						}]
-						GT.Behaviours: { }
-						GT.Tool: {
-							AttackDamage: 4.0f
-							AttackSpeed: -2.4f
-							Damage: 0
-							MaxDamage: 63
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
-			x: -8.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["4157A965AA4E18D2"]
-			description: ["其实你可以直接去村庄劫掠"]
-			id: "62CFB5898D0A96E4"
-			subtitle: "一分耕耘，一分收获"
-			tasks: [{
-				id: "7FCC30F090B016F5"
-				item: {
-					Count: 1
-					id: "minecraft:stone_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -12.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["6F405D2508EED283"]
-			description: ["本整合包里地形多样，群系丰富，不少可以收集的自然资源在未来都能给你提供很大的帮助(某些神秘结构也可以给你带来前期的物资)，请尽情探索吧！"]
-			id: "7F3D3CD93589D286"
-			rewards: [{
-				id: "799312A73A8C9467"
-				item: {
-					Count: 1
-					id: "apotheosis:potion_charm"
-					tag: {
-						Damage: 0
-						Potion: "minecraft:swiftness"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "见[大千世界]章节"
-			tasks: [{
-				id: "2BC1BCB3ECAB5715"
-				title: "在急着推进主线之前，先感受一下这个世界吧"
-				type: "checkmark"
-			}]
-			x: -8.5d
-			y: 15.0d
-		}
-		{
-			id: "744B99980B778CF7"
-			subtitle: "挖矿时别忘了收集一些这些玩意"
-			tasks: [{
-				count: 16L
-				id: "1E3AD402021BE394"
-				item: { Count: 16, id: "minecraft:andesite" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["31554E021ECE6572"]
-			id: "53AB5247B08B9709"
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "minecraft:zombie_head"
-				id: "3101F2CBA1F36E54"
-				title: "杀死十只僵尸"
-				type: "kill"
-				value: 10L
-			}]
-			title: "僵尸猎人"
-			x: -4.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["31554E021ECE6572"]
-			id: "323BCD9A004CC866"
-			subtitle: "可以获得大量的线"
-			tasks: [{
-				entity: "minecraft:spider"
-				icon: "minecraft:spider_eye"
-				id: "65D03000C99C3EA4"
-				title: "杀死十只蜘蛛"
-				type: "kill"
-				value: 10L
-			}]
-			title: "蜘蛛猎人"
-			x: -3.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["31554E021ECE6572"]
-			id: "48E751EFF8F0E511"
-			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "47626D7974245604"
-				title: "杀死十只骷髅"
-				type: "kill"
-				value: 10L
-			}]
-			title: "骷髅猎人"
-			x: -1.5d
-			y: 9.0d
-		}
-		{
-			dependencies: [
-				"0E5EEE6DC4DC4DD8"
-				"77DF7C0A366D69B4"
-			]
-			id: "63F7EE58C223B854"
-			subtitle: "帮你平安度过黑夜"
-			tasks: [{
-				id: "414A0BF3F30BD1EB"
-				item: "minecraft:white_bed"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["31554E021ECE6572"]
-			id: "0E5EEE6DC4DC4DD8"
-			subtitle: "这是迫不得已的"
-			tasks: [{
-				count: 3L
-				id: "1B4443DEE810CE33"
-				item: "minecraft:white_wool"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 7.0d
-		}
-		{
-			description: ["如果你在晚上遇到一道闪电从天而降，那就是神化小Boss刷新了"]
-			id: "2E0859396D8A4E6D"
-			subtitle: "打得过就打，打不过就跑"
-			tasks: [{
-				id: "08A4E2132E7F1A97"
-				title: "神化小Boss"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["5BA86B01337A91D5"]
-			id: "2FC55C36F244A34F"
-			rewards: [{
-				id: "75FEE738B110015C"
-				item: "farmersdelight:stove"
-				type: "item"
-			}]
-			subtitle: "开始做饭！"
-			tasks: [{
-				id: "365616DAF25D746D"
-				item: {
-					Count: 1
-					id: "farmersdelight:skillet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["5BA86B01337A91D5"]
-			id: "0509C060962EF04C"
-			subtitle: "用铁粒烧制得到"
-			tasks: [{
-				id: "6AE261E7034F3EA3"
-				item: "gtceu:wrought_iron_nugget"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 15.0d
+			title: "匠魂"
+			x: -11.0d
+			y: 3.5d
 		}
 	]
 	title: "{ftbquests.chapter.681E3140690307AA.title}"
