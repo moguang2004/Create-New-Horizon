@@ -6,7 +6,12 @@
 	icon: "legendarysurvivaloverhaul:thermometer"
 	id: "0AD950C34ED565A4"
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "3369652FDECC3484"
+		linked_quest: "14FF729916CDD0DA"
+		x: 2.5d
+		y: 0.5d
+	}]
 	quests: [
 		{
 			dependencies: ["3EE3102F38FCF130"]
@@ -120,6 +125,124 @@
 			}]
 			x: 0.0d
 			y: 0.5d
+		}
+		{
+			id: "3314F0D4098098AE"
+			subtitle: "每一级附魔减少5%降温变化（可叠加）"
+			tasks: [{
+				id: "63049FEE2FCDC622"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ctnhcore:warming"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "御寒附魔"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "5E0E38DFBE25B51D"
+			subtitle: "每一级附魔减缓5%升温变化（可叠加）"
+			tasks: [{
+				id: "6DB6BD5045DB21E3"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ctnhcore:cooling"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "御暑附魔"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"二十四节气是中国古代订立的一种用来指导农事的补充历法，反映了黄河流域一年中自然现象和农事季节的变化规律。它是中华民族长期经验的积累和智慧的结晶，于2016年被列入联合国教科文组织人类非物质文化遗产代表作名录。"
+				""
+				"二十四节气的分类"
+				"二十四节气根据太阳在黄道（地球绕太阳公转的轨道）上的位置划分，每15°为一个节气，全年共24个，分为四类："
+				""
+				"表示季节变化（8个）："
+				""
+				"立春、立夏、立秋、立冬：表示四季的开始。"
+				""
+				"春分、秋分：昼夜平分。"
+				""
+				"夏至、冬至：一年中白昼最长和最短的日子。"
+				""
+				"反映气温变化（5个）："
+				""
+				"小暑、大暑：夏季炎热程度。"
+				""
+				"处暑：暑热结束。"
+				""
+				"小寒、大寒：冬季寒冷程度。"
+				""
+				"反映降水现象（7个）："
+				""
+				"雨水：降雨开始。"
+				""
+				"谷雨：雨生百谷。"
+				""
+				"白露、寒露、霜降：气温下降，水汽凝结。"
+				""
+				"小雪、大雪：降雪程度。"
+				""
+				"反映物候现象（4个）："
+				""
+				"惊蛰：春雷惊醒冬眠动物。"
+				""
+				"清明：天气晴朗，草木萌发。"
+				""
+				"小满：麦类作物籽粒开始饱满。"
+				""
+				"芒种：麦类等有芒作物成熟。"
+			]
+			id: "30DC07EEEACB1DE1"
+			subtitle: "二十四节气！"
+			tasks: [{
+				id: "4757E453136C8F72"
+				item: "eclipticseasons:calendar"
+				type: "item"
+			}]
+			title: "节气"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			id: "4D39D33BB9765A01"
+			subtitle: "湿度计可以检测群系的湿度，从而判断是否适合农作物生长"
+			tasks: [{
+				id: "2826B7835A9B1DCB"
+				item: "eclipticseasons:hygrometer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			id: "602481325DFDBFA3"
+			subtitle: "用温室来种植不合季节的作物"
+			tasks: [{
+				id: "58021DCFAA21B290"
+				item: "eclipticseasons:greenhouse_core_container"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
 		}
 	]
 	title: "{ftbquests.chapter.0AD950C34ED565A4.title}"

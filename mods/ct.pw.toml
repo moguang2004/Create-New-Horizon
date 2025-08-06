@@ -1,12 +1,13 @@
 name = "CT++"
-filename = "ctpp-0.0.7.jar"
+filename = "ctpp-0.0.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "cd85ecc155900d82d164a87db90ab4544250cd0b"
-url = "https://edge.forgecdn.net/files/6712/090/ctpp-0.0.7.jar"
+hash = "da58d2304bcf4327c848a5a53e2a0abfa748e0f2"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6712090
+file-id = 6771352
 project-id = 1163715

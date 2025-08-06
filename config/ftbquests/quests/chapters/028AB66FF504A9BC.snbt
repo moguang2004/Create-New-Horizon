@@ -535,17 +535,6 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["7CEA462990546334"]
-			id: "7B17EF15A67D472F"
-			tasks: [{
-				id: "54567D8094B65517"
-				item: "gtceu:gas_centrifuge_machine"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 14.0d
-		}
-		{
 			id: "5F1BD456BFB49435"
 			tasks: [{
 				id: "29E078FC94CBD4DB"
@@ -930,6 +919,17 @@
 			}]
 			x: 10.0d
 			y: 25.0d
+		}
+		{
+			dependencies: ["7CEA462990546334"]
+			id: "00C87DBCBA95F6E3"
+			tasks: [{
+				id: "5DF78E5F5BE3CD91"
+				item: "ctnhcore:gas_centrifuge"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.0d
 		}
 	]
 	title: "{ftbquests.chapter.028AB66FF504A9BC.title}"
