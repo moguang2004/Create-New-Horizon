@@ -850,7 +850,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["6CDD36A3C742B7F2"]
+			dependencies: ["7F03124574238455"]
 			id: "04069333A19D2DB3"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest69.subtitle}"
 			tasks: [{
@@ -1548,6 +1548,7 @@
 			y: 20.0d
 		}
 		{
+			dependencies: ["6CDD36A3C742B7F2"]
 			hide_until_deps_complete: false
 			id: "7F03124574238455"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest68.subtitle}"
