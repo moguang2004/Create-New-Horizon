@@ -134,7 +134,7 @@
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest9.subtitle}"
 			tasks: [{
 				id: "222114435B2A13DE"
-				item: "kubejs:basic_mechanism"
+				item: "ctpp:basic_mechanism"
 				type: "item"
 			}]
 			x: -5.5d
