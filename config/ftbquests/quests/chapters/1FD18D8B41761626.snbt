@@ -1273,7 +1273,7 @@
 			subtitle: "地-爆-天-星!"
 			tasks: [{
 				id: "70227DB5E4FE6C5F"
-				item: "gtceu:meteor_capturer"
+				item: "ctnhcore:meteor_capturer"
 				type: "item"
 			}]
 			x: -2.5d

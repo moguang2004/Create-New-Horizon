@@ -255,7 +255,7 @@
 			subtitle: "你做血魔法不就是为了这个吗"
 			tasks: [{
 				id: "2272524E4A93B97B"
-				item: "gtceu:meteor_capturer"
+				item: "ctnhcore:meteor_capturer"
 				type: "item"
 			}]
 			x: -14.0d
@@ -282,7 +282,7 @@
 			subtitle: "以后会被削，早做早享受"
 			tasks: [{
 				id: "09EE4358E8541CE0"
-				item: "gtceu:mana_seperator"
+				item: "ctnhcore:mana_seperator"
 				type: "item"
 			}]
 			x: -14.0d

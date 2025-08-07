@@ -540,7 +540,7 @@ ServerEvents.recipes(event => {
             D: "gtceu:diamond_grinding_head"
         })
     event.shaped(
-        Item.of("gtceu:mana_seperator", 1), [
+        Item.of("ctnhcore:mana_seperator", 1), [
             "AAA",
             "BCB",
             "DED"
@@ -762,48 +762,6 @@ ServerEvents.recipes(event => {
             D: "create:shaft",
             E: "create:belt_connector"
         })
-    event.shaped("gtceu:steam_piston_hammer", [
-        "BCB",
-        "DAD",
-        "BEB"
-    ], {
-        A: "gtceu:lp_steam_forge_hammer",
-        B: "gtceu:bronze_plate",
-        C: "gtceu:wrought_iron_ring",
-        D: "gtceu:iron_spring",
-        E: "gtceu:double_wrought_iron_plate"
-    })
-    event.shaped("gtceu:steam_pressor", [
-        "BCB",
-        "DAD",
-        "BEB"
-    ], {
-        A: "gtceu:lp_steam_compressor",
-        B: "gtceu:bronze_plate",
-        C: "gtceu:small_bronze_gear",
-        D: "gtceu:small_iron_spring",
-        E: "gtceu:wrought_iron_gear"
-    })
-    event.shaped("gtceu:steam_foundry", [
-        "BCB",
-        "DAD",
-        "BCB"
-    ], {
-        A: "gtceu:lp_steam_alloy_smelter",
-        B: "gtceu:bronze_plate",
-        C: "gtceu:potin_plate",
-        D: "gtceu:long_tin_alloy_rod"
-    })
-    event.shaped("gtceu:steam_centrifuge", [
-        "BCB",
-        "DAD",
-        "BCB"
-    ], {
-        A: "gtceu:bronze_rotor",
-        B: "gtceu:bronze_plate",
-        C: "gtceu:wrought_iron_gear",
-        D: "gtceu:long_bronze_rod"
-    })
     event.shaped("ctnhcore:ion_exchanger", [
         "BCB",
         "DAD",
@@ -864,7 +822,7 @@ ServerEvents.recipes(event => {
             E: 'ctnhcore:big_dam'
         })
     event.shaped(
-        Item.of('gtceu:greenhouse', 1), [
+        Item.of('ctnhcore:greenhouse', 1), [
             "DED",
             "ACA",
             "BAB"
@@ -944,7 +902,7 @@ ServerEvents.recipes(event => {
             E: 'botania:manasteel_ingot'
         })
     event.shaped(
-        Item.of('ctnhcore:coke_oven', 1), [
+        Item.of('ctnhcore:coke_tower', 1), [
             "GAG",
             "DBD",
             "GEG"
@@ -1108,7 +1066,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gtceu:copper_spring',
             B: '#gtceu:circuits/lv',
-            C: 'gtceu:steam_foundry',
+            C: 'gtceu:steam_alloy_furnace',
             D: 'gtceu:firebricks',
         })
 

@@ -273,7 +273,7 @@ ServerEvents.recipes(event => {
             "item": "gtceu:solid_machine_casing"
         },
         "output": {
-            "item": "kubejs:blood_casing"
+            "item": "ctnhcore:blood_casing"
         },
         "upgradeLevel": 3
     })

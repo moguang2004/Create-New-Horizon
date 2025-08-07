@@ -52,12 +52,6 @@ function unitChanger(number) {
 }
 
 ItemEvents.tooltip(event => {
-    event.addAdvanced('gtceu:mana_seperator', (item, advanced, text) => {
-        text.add(1, Text.translate('mana_machine').gray())
-    })
-    event.addAdvanced("gtceu:greenhouse", (item, advanced, text) => {
-        text.add(1, Text.translate('greenhouse').gray())
-    })
     event.addAdvanced('kubejs:scp_500', (item, advanced, text) => {
         text.add(1, Text.translate('kubejs.scp_500.0'))
         text.add(2, Text.translate('kubejs.scp_500.1'))

@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "4EE5451097565A1A"
 	group: "71414D2BDE140EDA"
-	icon: "gtceu:neutronium_credit"
+	icon: "artifacts:villager_hat"
 	id: "4EE5451097565A1A"
 	order_index: 1
 	quest_links: [ ]

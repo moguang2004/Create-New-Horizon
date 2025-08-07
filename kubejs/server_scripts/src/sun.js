@@ -404,7 +404,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('ctnhcore:photovoltaic_drone_station')
         .EUt(32678 * 4)
         .duration(1000)
-        .stationResearch(b => b.researchStack(Item.of('gtceu:drone_holder'))
+        .stationResearch(b => b.researchStack(Item.of('ctnhcore:drone_holder'))
             .dataStack(Item.of("gtceu:data_orb"))
             .EUt(GTValues.VA[GTValues.ZPM])
             .CWUt(48))
