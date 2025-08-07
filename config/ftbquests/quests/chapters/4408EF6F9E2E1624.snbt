@@ -54,12 +54,6 @@
 		{
 			dependencies: ["6D9003172EF921C9"]
 			id: "32D9754803137E82"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "646FAD9D82CADF8C"
-				table_id: 1576725829474885042L
-				type: "random"
-			}]
 			tasks: [{
 				id: "67F5B1C0219B671A"
 				item: "create:hand_crank"
@@ -140,7 +134,7 @@
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest9.subtitle}"
 			tasks: [{
 				id: "222114435B2A13DE"
-				item: "ctpp:basic_mechanism"
+				item: "kubejs:basic_mechanism"
 				type: "item"
 			}]
 			x: -5.5d
@@ -162,22 +156,8 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"700219157D99E263"
-				"62F103381F2E8BD8"
-			]
-			id: "556B0E2A00D2DD97"
-			tasks: [{
-				id: "1F8C7966F2F429EA"
-				item: "gtceu:bronze_dust"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 7.0d
+			x: -7.0d
+			y: 5.25d
 		}
 		{
 			dependencies: ["700219157D99E263"]
@@ -192,20 +172,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"700219157D99E263"
-				"62F103381F2E8BD8"
-			]
-			id: "5046AB1CA278B5A9"
-			tasks: [{
-				id: "403B01F9A04638A1"
-				item: "gtceu:brass_dust"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 7.0d
-		}
-		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "788E6B0608C95DA7"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest14.subtitle}"
@@ -215,17 +181,24 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["556B0E2A00D2DD97"]
+			dependencies: ["4CDCD4A5CB57415D"]
 			id: "53B3B59D47455ACE"
-			tasks: [{
-				count: 16L
-				id: "7EDD66D9685F95D3"
-				item: "gtceu:bronze_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 16L
+					id: "7EDD66D9685F95D3"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "686DC8D9F9A8B49E"
+					item: "gtceu:bronze_bucket"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 9.0d
 		}
@@ -242,14 +215,21 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["5046AB1CA278B5A9"]
+			dependencies: ["4CDCD4A5CB57415D"]
 			id: "2B430B944944D2C1"
-			tasks: [{
-				count: 16L
-				id: "1CC18E3E3383CD44"
-				item: "gtceu:brass_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 16L
+					id: "1CC18E3E3383CD44"
+					item: "gtceu:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "4F818EE1086D2543"
+					item: "gtceu:brass_bucket"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: 9.0d
 		}
@@ -274,45 +254,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"7857C9428A51E9BC"
-				"5BB3CF765E9C93D4"
-			]
-			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
-			id: "62F103381F2E8BD8"
-			tasks: [{
-				id: "2699CBA777762F54"
-				item: "gtceu:copper_dust"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 7.0d
-		}
-		{
-			id: "7857C9428A51E9BC"
-			optional: true
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest21.subtitle}"
-			tasks: [{
-				id: "65129358E3EFF5E9"
-				item: {
-					Count: 1
-					id: "gtceu:flint_mortar"
-					tag: {
-						Damage: 0
-						GT.Tool: {
-							Damage: 0
-						}
-					}
-				}
-				type: "item"
-			}]
 			x: -2.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2460426DE77EF0F4"]
@@ -434,7 +377,6 @@
 		{
 			dependencies: ["7E591C0E7278D12F"]
 			id: "4ABB43D13EBB512D"
-			subtitle: "也许你用不到这个来产生水"
 			tasks: [
 				{
 					id: "178BF7B8042CF8C5"
@@ -529,8 +471,7 @@
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			shape: "square"
-			size: 1.5d
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest34.subtitle}"
 			tasks: [{
 				id: "2432B1FD7CD5EFE3"
@@ -564,75 +505,6 @@
 			}]
 			x: 5.0d
 			y: 6.0d
-		}
-		{
-			dependencies: [
-				"5BB3CF765E9C93D4"
-				"7857C9428A51E9BC"
-			]
-			dependency_requirement: "one_completed"
-			id: "546FAD59DF12C1D5"
-			tasks: [{
-				id: "557279EF1A80B6B6"
-				item: "gtceu:flint_dust"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"5BB3CF765E9C93D4"
-				"7857C9428A51E9BC"
-			]
-			dependency_requirement: "one_completed"
-			id: "18CF49ADA7DF9EB7"
-			tasks: [{
-				id: "102DBB54576EA255"
-				item: "gtceu:quartz_sand_dust"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"546FAD59DF12C1D5"
-				"18CF49ADA7DF9EB7"
-				"700219157D99E263"
-			]
-			id: "1C0BF959DCF3A9F5"
-			tasks: [{
-				id: "22EBFE4CE127E1CB"
-				item: "gtceu:glass_dust"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["1C0BF959DCF3A9F5"]
-			id: "3E42FD564295C649"
-			subtitle: "使用压块塑性能够让你得到第一块玻璃"
-			tasks: [{
-				id: "27BA7F9A942F9787"
-				item: "minecraft:glass"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["3E42FD564295C649"]
-			id: "7269FA8768C42127"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest41.subtitle}"
-			tasks: [{
-				id: "353CFAAC41205F68"
-				item: "enderio:fluid_conduit"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -979,23 +851,11 @@
 		}
 		{
 			dependencies: ["6CDD36A3C742B7F2"]
-			id: "2237A624EA40A81C"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest68.subtitle}"
-			tasks: [{
-				id: "481680ECC2C7863A"
-				item: "createmetallurgy:foundry_basin"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["2237A624EA40A81C"]
 			id: "04069333A19D2DB3"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest69.subtitle}"
 			tasks: [{
-				id: "6CB401EDF5AFBB63"
-				item: "createmetallurgy:foundry_lid"
+				id: "76453F78807F1CDB"
+				item: "tconstruct:seared_melter"
 				type: "item"
 			}]
 			x: -13.0d
@@ -1282,12 +1142,18 @@
 		{
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "713CA44106751CCA"
-			subtitle: "用这个方便磨砂"
-			tasks: [{
-				id: "5D1BAF9CE51E4E1A"
-				item: "createmetallurgy:mechanical_belt_grinder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5D1BAF9CE51E4E1A"
+					item: "createmetallurgy:mechanical_belt_grinder"
+					type: "item"
+				}
+				{
+					id: "0C7935C9EFEC7860"
+					item: "vintageimprovements:belt_grinder"
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: 1.0d
 		}
@@ -1306,7 +1172,6 @@
 			dependencies: ["5E5F4837CC1F047A"]
 			id: "6A9845F85704E2D4"
 			size: 1.75d
-			subtitle: "用这个更省"
 			tasks: [{
 				id: "1F36789281D83E9C"
 				item: "vintageimprovements:spring_coiling_machine"
@@ -1414,28 +1279,15 @@
 		}
 		{
 			dependencies: ["5E5F4837CC1F047A"]
-			description: ["需要有足够的输出空间来输出动物的产物，至少需要一格空间，每多一种动物就需要多一格空间，如果要养牛，则还需要输出仓来输出牛奶"]
 			id: "66616CA6C0C95B0B"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest96.subtitle}"
-			tasks: [
-				{
-					id: "767215D7A25C05EF"
-					item: "ctnhcore:meadow"
-					type: "item"
-				}
-				{
-					id: "772717A12F571AD5"
-					item: "gtceu:ulv_output_bus"
-					type: "item"
-				}
-				{
-					id: "51F35D364BF72C08"
-					item: "ctpp:ulv_kinetic_input_box"
-					type: "item"
-				}
-			]
-			x: -7.5d
-			y: 4.0d
+			tasks: [{
+				id: "767215D7A25C05EF"
+				item: "ctnhcore:meadow"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5B9EBE5F72944F67"]
@@ -1613,7 +1465,7 @@
 			id: "3509D7B8E361DF68"
 			tasks: [{
 				id: "309762CDFF82C6E6"
-				item: "createmetallurgy:casting_basin"
+				item: "tconstruct:seared_table"
 				type: "item"
 			}]
 			x: -13.0d
@@ -1696,27 +1548,44 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["2460426DE77EF0F4"]
-			id: "5BB2D11CEBAD8D2E"
-			rewards: [{
-				id: "1CEE12CB7BFF3B18"
-				item: {
-					Count: 1
-					id: "create:super_glue"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "是否发现花铁如流水，用这个造个小盾构机 吧"
+			hide_until_deps_complete: false
+			id: "7F03124574238455"
+			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest68.subtitle}"
 			tasks: [{
-				id: "27FA1F0875C48D16"
-				item: "create:mechanical_drill"
+				id: "1B1B036A4CC04483"
+				item: "tconstruct:seared_heater"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.5d
+			x: -11.75d
+			y: 11.0d
+		}
+		{
+			id: "4CDCD4A5CB57415D"
+			tasks: [
+				{
+					id: "11608DFDAA797975"
+					item: "createmetallurgy:foundry_basin"
+					type: "item"
+				}
+				{
+					id: "3C91EFC20E3EBCD8"
+					item: "createmetallurgy:foundry_lid"
+					type: "item"
+				}
+				{
+					id: "12085214E5EE5B57"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "0212BB2B962F33B8"
+					item: "createmetallurgy:foundry_mixer"
+					type: "item"
+				}
+			]
+			title: "冶金学"
+			x: -5.5d
+			y: 7.0d
 		}
 	]
 	title: "{ftbquests.chapter.4408EF6F9E2E1624.title}"
