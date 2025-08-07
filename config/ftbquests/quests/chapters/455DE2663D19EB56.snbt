@@ -81,11 +81,6 @@
 					item: "createmetallurgy:foundry_lid"
 					type: "item"
 				}
-				{
-					id: "6FC5DEF64B111167"
-					item: "createmetallurgy:glassed_foundry_lid"
-					type: "item"
-				}
 			]
 			title: "冶炼学四件套"
 			x: 0.0d
