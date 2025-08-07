@@ -15,7 +15,7 @@
 	#Show a small sprite next to the name of each entry showing its contents.
 	draw_sprites = true
 	#Color of the entry name text.
-	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, ST_ORIGIN, ST_COSMIC, ST_DP
 	default_color = "WHITE"
 	#Ignore rarity of items and always use color specified in "Text Color" instead.
 	ignore_rarity = false
