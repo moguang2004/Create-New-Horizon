@@ -164,8 +164,9 @@ ServerEvents.recipes(event => {
         "tconstruct:smeltery/melting/glass/sand_cast",
         "tconstruct:smeltery/scorched/alloyer",
         "tconstruct:tables/cast_chest",
-        "sophisticatedstorage:controller"
-        
+        "sophisticatedstorage:controller",
+        "sophisticatedstorage:void_upgrade"
+
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

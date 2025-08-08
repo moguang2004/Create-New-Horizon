@@ -9,24 +9,24 @@ const $RecipesEventJS = Java.loadClass("dev.latvian.mods.kubejs.recipe.RecipesEv
         .EUt(功率)*/
 
 ServerEvents.recipes(event => {
-    // event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:electric_blast_furnace' }, recipe => {
-    //     try {
-    //         var newDuration = recipe.get("duration");
-    //         recipe.set("duration", newDuration * 3 / 4 >= 1 ? newDuration * 3 / 4 : 1);
+    event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:electric_blast_furnace' }, recipe => {
+        try {
+            var newDuration = recipe.get("duration");
+            recipe.set("duration", newDuration * 3 / 4 >= 1 ? newDuration * 3 / 4 : 1);
 
-    //     } catch (err) {}
-    // })
-    // event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:alloy_blast_smelter' }, recipe => {
-    //     try {
-    //         var newDuration = recipe.get("duration");
-    //         recipe.set("duration", newDuration * 3 / 4 >= 1 ? newDuration * 3 / 4 : 1);
+        } catch (err) {}
+    })
+    event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:alloy_blast_smelter' }, recipe => {
+        try {
+            var newDuration = recipe.get("duration");
+            recipe.set("duration", newDuration * 3 / 4 >= 1 ? newDuration * 3 / 4 : 1);
 
-    //     } catch (err) {}
-    // })
-    // event.forEachRecipe({ id: 'gtceu:large_chemical_reactor/ethylene_from_ethanol' }, recipe => {
-    //     let newduration = recipe.get('duration')
-    //     recipe.set('duration', newduration / 3)
-    // })
+        } catch (err) {}
+    })
+    event.forEachRecipe({ id: 'gtceu:large_chemical_reactor/ethylene_from_ethanol' }, recipe => {
+        let newduration = recipe.get('duration')
+        recipe.set('duration', newduration / 3)
+    })
 })
 const $GTNNRecipes = Java.loadClass("dev.arbor.gtnn.data.GTNNRecipes")
 ServerEvents.recipes(event => {
