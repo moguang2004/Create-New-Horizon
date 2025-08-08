@@ -17923,6 +17923,16 @@ hash = "0153a3f2bb0d657b4754ddfac78c1f3418de14a9f75ff17e607b6225ba830395"
 metafile = true
 
 [[files]]
+file = "mods/ct.pw.toml"
+hash = "df8931d89308d3537b552c9e09a7433f8b5202e43d7b371ee8558cd47e69bf89"
+metafile = true
+
+[[files]]
+file = "mods/ctnh-core.pw.toml"
+hash = "149708660e4f576019c3df840b3f0351683fec6c12948de9c4dd2405ef74f123"
+metafile = true
+
+[[files]]
 file = "mods/cucumber.pw.toml"
 hash = "89406f324f1a03a49f049f5028ebc21319f30bcbd3190f97220bcd59f33e8f27"
 metafile = true
