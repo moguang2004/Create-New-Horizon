@@ -1,12 +1,12 @@
 name = "Create New Horizon"
 author = "mo_guang"
-version = "1.2.2packwiz"
+version = "1.2.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "26537ba2600a74a5953c72d6b5109d6b071fae8e874d32203be4419f339769c9"
+hash = "11a911ea8f5750a34a49d10222de8fb578a17dd51203bc4db61052f640ced398"
 
 [versions]
 forge = "47.4.2"
