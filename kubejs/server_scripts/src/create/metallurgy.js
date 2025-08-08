@@ -47,9 +47,6 @@ ServerEvents.recipes(event => {
     event.shaped(Item.of("createmetallurgy:foundry_lid", 1), 
                 ["AAA", "A A", "A A" ], 
                 {A: "tconstruct:seared_brick"})
-    event.shaped(Item.of("createmetallurgy:glassed_foundry_lid", 1), 
-                ["ABA", "B B", "A A" ], 
-                {A: "tconstruct:seared_brick", B: "tconstruct:seared_glass"})
     //粉碎矿物得产物和其概率
     let materials = ['hematite', 'magnetite', 'precious_alloy', 'copper', 'diamond', 'tin', 'silver', 'vanadium_magnetite',
         'spodumene', 'rock_salt', 'salt', 'lepidolite', 'lazurite', 'lapis', 'sodalite', 'calcite', 'graphite', 'coal', 'zinc', 'gold',

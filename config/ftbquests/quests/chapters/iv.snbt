@@ -1062,7 +1062,7 @@
 			}]
 			tasks: [{
 				id: "1767BC1C07B81A81"
-				item: "gtceu:meteor_capturer"
+				item: "ctnhcore:meteor_capturer"
 				type: "item"
 			}]
 			x: -1.5d
