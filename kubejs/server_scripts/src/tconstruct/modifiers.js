@@ -42,14 +42,18 @@ EntityEvents.hurt((event) => {
 //护盾
 //初始化
 PlayerEvents.loggedIn(event => {
-    let player = event.player;
-    player.persistentData.shieldcooldownTicks = 120
+    const player = event.player;
+    if (!player.persistentData.contains('shield_cooldown')) {
+        player.persistentData.putInt('shield_cooldown', 120);
+    }
 });
 PlayerEvents.tick(event => {
-    let player = event.player;
-    // 如果玩家有冷却时间，则递减
-    if (player.persistentData.shieldcooldownTicks > 0) {
-        player.persistentData.shieldcooldownTicks--;
+    const player = event.player;
+    if (player.persistentData.contains('shield_cooldown')) {
+        const currentCooldown = player.persistentData.getInt('shield_cooldown');
+        if (currentCooldown > 0) {
+            player.persistentData.putInt('shield_cooldown', currentCooldown - 1);
+        }
     }
 });
 EntityEvents.hurt((event) => {
@@ -70,9 +74,9 @@ EntityEvents.hurt((event) => {
             if (matchModifiers(modifiers, "fortification")) {
                 let lvl = getModifierLevel(modifiers, "fortification");
                 let world = player.level; // 获取实体所在的世界
-                if (player.persistentData.shieldcooldownTicks <= 0) {
+                if (player.persistentData.getInt('shield_cooldown') <= 0) {
                     world.runCommandSilent(`/twilightforest shield @s set ${lvl}`);
-                    player.persistentData.shieldcooldownTicks = 100 * (1 - 0.05 * lvl);
+                    player.persistentData.putInt('shield_cooldown', 100 * (1 - 0.05 * lvl));
                 }
             }
         }
