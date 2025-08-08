@@ -51,7 +51,14 @@
 			dependency_requirement: "all_started"
 			hide_dependency_lines: false
 			id: "7ED58DDC7D379438"
+			rewards: [{
+				count: 64
+				id: "656C061CCD7E23ED"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
 			size: 2.0d
+			subtitle: "青铜锭一定要在重要的地方使用"
 			tasks: [{
 				id: "29AD95238D0E940E"
 				item: "tconstruct:seared_brick"
