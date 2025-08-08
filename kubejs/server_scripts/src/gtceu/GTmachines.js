@@ -34,5 +34,5 @@ ServerEvents.recipes(event => {
     }
 
     // Create all
-    [0, 1, 2, 3, 4, 5, 6, 7].forEach(create_recipe_voltage)
+    // [0, 1, 2, 3, 4, 5, 6, 7].forEach(create_recipe_voltage)
 })

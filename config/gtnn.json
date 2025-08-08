@@ -1,5 +1,9 @@
 {
   "Client": {
+    "items": {
+      "perfRomanSubscript": true
+    },
+    "enabledVoltageBorder": true,
     "extraHeartRenderer": false,
     "killToast": false,
     "addChatAnimation": false

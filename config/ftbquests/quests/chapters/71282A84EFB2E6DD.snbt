@@ -1067,7 +1067,7 @@
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest76.subtitle}"
 			tasks: [{
 				id: "3D44922C0B951214"
-				item: "gtceu:meteor_capturer"
+				item: "ctnhcore:meteor_capturer"
 				type: "item"
 			}]
 			x: -3.0d

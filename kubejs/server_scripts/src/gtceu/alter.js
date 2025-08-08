@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    event.recipes.gtceu.assembler('alter')
+    event.recipes.gtceu.assembler('altar')
         .itemInputs('16x bloodmagic:ingot_hellforged')
         .itemInputs('16x bloodmagic:blankrune')
         .itemInputs('bloodmagic:altar')
@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         .itemInputs('bloodmagic:etherealslate')
         .itemInputs('16x bloodmagic:defaultcrystal')
         .inputFluids(Fluid.of(Fluid.of("bloodmagic:life_essence_fluid"), 10000))
-        .itemOutputs('ctnhcore:alter')
+        .itemOutputs('ctnhcore:industrial_altar')
         .duration(1000)
         .EUt(1960)
     event.recipes.gtceu.industrial_altar('rune1')
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.industrial_altar('blood_casing')
         .itemInputs('gtceu:solid_machine_casing')
         .addData("addlp", -7500)
-        .itemOutputs('kubejs:blood_casing')
+        .itemOutputs('ctnhcore:blood_casing')
         .duration(200)
         .EUt(1960)
     event.recipes.gtceu.industrial_altar('bloodmagic:strong_tau')
