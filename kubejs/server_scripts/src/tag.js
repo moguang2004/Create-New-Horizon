@@ -39,6 +39,10 @@ ServerEvents.tags('item', event => {
 })
 ServerEvents.tags('block_entity_type', event => {
     event.add('tconstruct:side_inventories', 'sophisticatedstorage:controller')
+    event.add('tconstruct:side_inventories', 'sophisticatedstorage:chest')
+    event.add('tconstruct:side_inventories', /sophisticatedstorage:(.*)_chest/)
+    event.add('tconstruct:side_inventories', 'sophisticatedbackpacks:backpack')
+    event.add('tconstruct:side_inventories', /sophisticatedbackpacks:(.*)_backpack/)
 })
 
 ServerEvents.tags('fluid',event =>{
