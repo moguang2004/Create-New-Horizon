@@ -101,8 +101,8 @@
 				type: "item"
 			}]
 			title: "石墨铸模"
-			x: -1.0d
-			y: 5.5d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -116,8 +116,8 @@
 				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			id: "1183B82186BF5487"
@@ -126,8 +126,8 @@
 				item: "tconstruct:seared_table"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -153,6 +153,7 @@
 		{
 			dependencies: ["7B4C82AAF07C50DC"]
 			id: "03946799CD184B89"
+			subtitle: "是熔铸盆四倍产出"
 			tasks: [{
 				id: "1E896A48E774C8BE"
 				item: "minecraft:glass"
@@ -180,7 +181,7 @@
 				item: "tconstruct:smeltery_controller"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -255,6 +256,19 @@
 			title: "更强的三件套"
 			x: 4.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["6FB5F4B281C0B690"]
+			id: "29913FC526830849"
+			subtitle: "比匠魂炉便宜"
+			tasks: [{
+				id: "0C4460D198544616"
+				item: "createmetallurgy:industrial_crucible"
+				type: "item"
+			}]
+			title: "你是匠魂炉那我是谁"
+			x: 1.0d
+			y: 4.0d
 		}
 	]
 	title: "冶炼科技"
