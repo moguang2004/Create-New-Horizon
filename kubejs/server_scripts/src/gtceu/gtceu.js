@@ -9,24 +9,24 @@ const $RecipesEventJS = Java.loadClass("dev.latvian.mods.kubejs.recipe.RecipesEv
         .EUt(功率)*/
 
 ServerEvents.recipes(event => {
-    event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:electric_blast_furnace' }, recipe => {
-        try {
-            var newDuration = recipe.get("duration");
-            recipe.set("duration", newDuration * 3 / 4 >= 1 ? newDuration * 3 / 4 : 1);
+    // event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:electric_blast_furnace' }, recipe => {
+    //     try {
+    //         var newDuration = recipe.get("duration");
+    //         recipe.set("duration", newDuration * 3 / 4 >= 1 ? newDuration * 3 / 4 : 1);
 
-        } catch (err) {}
-    })
-    event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:alloy_blast_smelter' }, recipe => {
-        try {
-            var newDuration = recipe.get("duration");
-            recipe.set("duration", newDuration * 3 / 4 >= 1 ? newDuration * 3 / 4 : 1);
+    //     } catch (err) {}
+    // })
+    // event.forEachRecipe({ mod: 'gtceu', type: 'gtceu:alloy_blast_smelter' }, recipe => {
+    //     try {
+    //         var newDuration = recipe.get("duration");
+    //         recipe.set("duration", newDuration * 3 / 4 >= 1 ? newDuration * 3 / 4 : 1);
 
-        } catch (err) {}
-    })
-    event.forEachRecipe({ id: 'gtceu:large_chemical_reactor/ethylene_from_ethanol' }, recipe => {
-        let newduration = recipe.get('duration')
-        recipe.set('duration', newduration / 3)
-    })
+    //     } catch (err) {}
+    // })
+    // event.forEachRecipe({ id: 'gtceu:large_chemical_reactor/ethylene_from_ethanol' }, recipe => {
+    //     let newduration = recipe.get('duration')
+    //     recipe.set('duration', newduration / 3)
+    // })
 })
 const $GTNNRecipes = Java.loadClass("dev.arbor.gtnn.data.GTNNRecipes")
 ServerEvents.recipes(event => {
@@ -2417,19 +2417,19 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:cleaning_maintenance_hatch')
         .EUt(1920)
         .duration(500)
-    // event.recipes.gtceu.assembly_line('sterile_cleanroom_maintenance_hatch')
-    //     .itemInputs('8x gtceu:sterilizing_filter_casing', '8x gtceu:filter_casing', '4x gtceu:luv_electric_motor', '4x gtceu:luv_electric_pump', '4x #gtceu:circuits/zpm', '4x gtceu:rhodium_plated_palladium_rotor', '4x enderio:extraction_speed_upgrade_4', '4x ae2additions:cell_component_1024', '64x gtceu:stem_cells', '64x gtceu:stem_cells', '64x gtceu:stem_cells', '64x gtceu:stem_cells', 'minecraft:nether_star', 'gtceu:quantum_eye', 'gtceu:quantum_star', 'gtceu:auto_maintenance_hatch')
-    //     .inputFluids('gtceu:cerrobase_140 16000')
-    //     .inputFluids('gtceu:soldering_alloy 16000')
-    //     .inputFluids('gtceu:argon 16000')
-    //     .inputFluids('gtceu:fluorine 16000')
-    //     .itemOutputs('gtceu:sterile_cleanroom_maintenance_hatch')
-    //     .EUt(122330)
-    //     .duration(1200)
-    //     .stationResearch(b => b.researchStack(Item.of('gtceu:sterilizing_filter_casing'))
-    //         .dataStack(Item.of("gtceu:data_orb"))
-    //         .EUt(GTValues.VA[GTValues.LuV])
-    //         .CWUt(16))
+        // event.recipes.gtceu.assembly_line('sterile_cleanroom_maintenance_hatch')
+        //     .itemInputs('8x gtceu:sterilizing_filter_casing', '8x gtceu:filter_casing', '4x gtceu:luv_electric_motor', '4x gtceu:luv_electric_pump', '4x #gtceu:circuits/zpm', '4x gtceu:rhodium_plated_palladium_rotor', '4x enderio:extraction_speed_upgrade_4', '4x ae2additions:cell_component_1024', '64x gtceu:stem_cells', '64x gtceu:stem_cells', '64x gtceu:stem_cells', '64x gtceu:stem_cells', 'minecraft:nether_star', 'gtceu:quantum_eye', 'gtceu:quantum_star', 'gtceu:auto_maintenance_hatch')
+        //     .inputFluids('gtceu:cerrobase_140 16000')
+        //     .inputFluids('gtceu:soldering_alloy 16000')
+        //     .inputFluids('gtceu:argon 16000')
+        //     .inputFluids('gtceu:fluorine 16000')
+        //     .itemOutputs('gtceu:sterile_cleanroom_maintenance_hatch')
+        //     .EUt(122330)
+        //     .duration(1200)
+        //     .stationResearch(b => b.researchStack(Item.of('gtceu:sterilizing_filter_casing'))
+        //         .dataStack(Item.of("gtceu:data_orb"))
+        //         .EUt(GTValues.VA[GTValues.LuV])
+        //         .CWUt(16))
     event.recipes.gtceu.assembler('sterilizing_filter_casing_as')
         .itemInputs('gtceu:europium_frame', 'gtceu:hsss_rotor', 'gtceu:luv_electric_motor', 'gtceu:luv_electric_pump', '2x gtceu:fluid_tag_filter', 'gtceu:blacklight', '2x enderio:end_steel_bars')
         .itemOutputs('gtceu:sterilizing_filter_casing')
@@ -2662,13 +2662,13 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.assembly_line('advance_assembly_line')
         .itemInputs('gtceu:zpm_machine_hull', '4x ctnhcore:advance_machine_casing_assembly_control', '12x ctnhcore:advance_machine_casing_assembly_line', '32x #gtceu:circuits/zpm', '16x gtceu:zpm_robot_arm', '16x gtceu:zpm_robot_arm', '16x gtceu:zpm_robot_arm', '16x gtceu:zpm_robot_arm')
         .inputFluids('gtceu:cerrobase_140 16000')
-        .itemOutputs('gtceu:advance_assembly_line')
+        .itemOutputs('ctnhcore:advance_assembly_line')
         .EUt(122330)
         .duration(600)
-        .stationResearch(b => b.researchStack(Item.of('gtceu:assembly_line'))
+        .stationResearch(b => b.researchStack(Item.of('ctnhcore:advance_machine_casing_assembly_control'))
             .dataStack(Item.of("gtceu:data_data"))
             .EUt(GTValues.VA[GTValues.LuV])
-            .CWUt(16))
+            .CWUt(48))
     event.recipes.gtceu.chemical_bath('advance_machine_casing_solid_steel')
         .itemInputs('8x gtceu:solid_machine_casing')
         .inputFluids('gtceu:special_composite_steel_m77 288')
