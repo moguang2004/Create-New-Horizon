@@ -982,7 +982,7 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "bfffa35038db660c184d7f376b41624ee92f095895697ea317f5b8cca91e6d7e"
+hash = "ce7026be37dc760ec01649901f3a2c8ef988f516085898a24d5881c24b468a56"
 
 [[files]]
 file = "config/cataclysm.toml"
@@ -1702,7 +1702,7 @@ hash = "aa3bcd460a7ad5b6b4e6153e937b7295da1ea362d17aa223e31715fdce1adc22"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/455DE2663D19EB56.snbt"
-hash = "f07dc4b97cb63d36926617c0133e765f730a0904e264959779bb25392233f7a6"
+hash = "ad8dafcf98fee6cd82ee2cdbf63c8753fa11f8577057d2187c3ec19af425836d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4A4420704BDBEA5D.snbt"
@@ -7374,7 +7374,7 @@ hash = "e2d42cda4ac609e82e064cb38d1bc34c6323e95a01a7a3c173259825a12d5d16"
 
 [[files]]
 file = "kubejs/assets/tconstruct/lang/zh_cn.json"
-hash = "0a9c7e7b2bb999e68121a5e5faa744ca2edfe4f67a11d7684ff549437dfd392c"
+hash = "3c5f15173e31ec7caea46c8562595b053131d0128c8acd890e8a8d928ad44da7"
 
 [[files]]
 file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/boots/maille_broken_gtceu_snow_steel.png"
@@ -9262,7 +9262,7 @@ hash = "07568bfb3abc932b3f40a26fc05932f288a04568aab4e04ca36dbc1b6d18caf5"
 
 [[files]]
 file = "kubejs/client_scripts/src/tooltip.js"
-hash = "27ea06908813b715e952fa6bd8cc2641f965b824914bcabc006d0dfbf8991dac"
+hash = "a65c3670ba34a021db23b348ac46707b1cc12975a315039198aa39a565cffefa"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -16638,7 +16638,7 @@ hash = "1f6dc6355f33a8892f67beb78a5257a1af31ffaac4e459a49b34e07e939915cc"
 
 [[files]]
 file = "kubejs/server_scripts/src/80extend.js"
-hash = "4bbe27a3316586bd9bdeb80eb8faf1bde528da170a8edac940f761b4bee437a7"
+hash = "b50d28ec78686266b8ea58e3f3e56f7a8f29b4f132c3145343f20ff30ecd9f4e"
 
 [[files]]
 file = "kubejs/server_scripts/src/Adjust_material.js"
@@ -16722,7 +16722,7 @@ hash = "8731501899379d62219dad28378e7c8d98d36f94fb3c1380180bd2af756480e0"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/create.js"
-hash = "27c681dd050dbe8d1a5386476cd886c1f53cdc288f5c80c14ec50294b00ae843"
+hash = "d872403132153755d4078433ea856a08e2bb1aeb14f44418eb439a2b766ce808"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/createFallen.js"
@@ -16734,7 +16734,7 @@ hash = "ec3b23d7ef25bfcc5fbd937f4258234297e8382061ecb3c16df7ce3a459b2a7b"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
-hash = "9d64a7c48d96fc2d989c10ebdde7a359eff97d5308d4034150d1d6b886f5fddb"
+hash = "763bdb9dc3104be8c724e04a1e0c1182fa4b6b89d525c3056cf0766da784b24d"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/oreexcavation.js"
@@ -16882,7 +16882,7 @@ hash = "14ad068878557c89c9cca941d5172da65f53351d574d7d8f431e77ffa1f2753d"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "c39a9fa1ff5cb239c892d5cfc397a11ff94e128fceeda9a11fad4e74586190ba"
+hash = "606529bd76c880d8503fd29b48189937f3d5c767dd492dfc29437ba0dd1903fb"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
@@ -16942,11 +16942,11 @@ hash = "0385495d0223ee6616d47bf0681524888d3d3e8fe848e31df3dfa966f3c3429d"
 
 [[files]]
 file = "kubejs/server_scripts/src/tag.js"
-hash = "f081cad725f113253385a193495a04c5051f591756db46ffef9c9fe1c21d120f"
+hash = "a10f26d4427f1c544b214762cfae3fe1fd3e8cf068d1d6b970f79557ed0b77fc"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modifiers.js"
-hash = "9d82c774fb4a469ce0512ae3d7765c09beb275634340ad701d75870feb2d70d1"
+hash = "07f4b4066ef81d692cce0ffad4ec31726aa99a1502bdc63e58747ac26d3ca49b"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/remove_tinkers_repices.js"
@@ -16966,7 +16966,7 @@ hash = "0d743d269cdaa16c03c49291368db43a2f490f8b18837c544cc383e1ec2f998a"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
-hash = "7b40b26b41b44a0abaa7017827f4074097d9827bdc2ee35a8afef968ed6ee6d9"
+hash = "89248b72cd3d3c484956bc56ce21a81fef067f3e8dc92ceb265a2759bc9e041b"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/tconmodify.js"
@@ -17235,11 +17235,6 @@ metafile = true
 [[files]]
 file = "mods/catalogue.pw.toml"
 hash = "f0bd37c493f002f6af6ea814fcf363c7ffbff56802d5b22e6df7f4a67d8834ce"
-metafile = true
-
-[[files]]
-file = "mods/chisel-reborn.pw.toml"
-hash = "670a9851799997bd5d37a2e306912bfebd5b07dc7ac385a08336f7e770613930"
 metafile = true
 
 [[files]]
@@ -17605,6 +17600,11 @@ metafile = true
 [[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "d38a2819f962a266dceec591991523530d9ad2aa387277e2611ab5acb07e7d1c"
+metafile = true
+
+[[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "a7909be58dddb355cf63bf741da0e5444cac527bc554fea878f314050c0b4802"
 metafile = true
 
 [[files]]
@@ -17981,6 +17981,15 @@ metafile = true
 file = "mods/puzzles-lib.pw.toml"
 hash = "c20d45d0e4e972f3149f0057fe741da4b55494b2d6c31e2d5221e7e3c19d1009"
 metafile = true
+
+[[files]]
+file = "mods/rechiseled-create.pw.toml"
+hash = "4367bd8efc0b71c573a174f6e40b0aaf41afb57e2b9e39ba71539cd0799470a2"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled.toml"
+hash = "715b5a18f4649156617c8868045f24d76a98f14cd46395da35799b164728ba01"
 
 [[files]]
 file = "mods/rehooked.pw.toml"
