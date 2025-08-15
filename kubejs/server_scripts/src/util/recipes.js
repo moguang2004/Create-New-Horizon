@@ -223,3 +223,44 @@ function tconstruct_casting_all(event, item) {
         event.recipes.tconstruct.casting_table(`gtceu:${item}_block`, Fluid.of(`gtceu:${item}`, 1256),"kubejs:graphite_block_mold", false, 810)
     }
 }
+
+/**
+ * @param { Internal.RecipesEventJS } event 
+ * @param { string } input - 输入物品（单个物品或标签）
+ * @param { [string, number] } outputFluid - 输出流体 [ID, 数量]
+ * @param { number } time - 处理时间
+ * @param { number } minHeat - 最小热量
+ * @param { number } maxHeat - 最大热量
+ */
+function bulkMetallurgy(event, input, outputFluid, time, minHeat, maxHeat) {
+    // 构建配方对象
+    const recipe = {
+        "type": "createmetallurgy:bulk_melting",
+        "ingredients": [
+            input.startsWith('#') 
+                ? { "tag": input.slice(1) } 
+                : { "item": input }
+        ],
+        "minHeatRequirement": minHeat,
+        "maxHeatRequirement": maxHeat,
+        "processingTime": time,
+        "results": [{
+            "fluid": outputFluid[0],
+            "amount": outputFluid[1]
+        }]
+    };
+
+    // 如果是标签输入，添加条件检查
+    if (input.startsWith('#')) {
+        recipe.conditions = [{
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": input.slice(1)
+            }
+        }];
+    }
+
+    // 注册配方
+    event.custom(recipe);
+}
