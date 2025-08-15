@@ -264,3 +264,39 @@ function bulkMetallurgy(event, input, outputFluid, time, minHeat, maxHeat) {
     // 注册配方
     event.custom(recipe);
 }
+
+/**
+ * @param { Internal.RecipesEventJS } event 
+ * @param { number } entity - 熔炼生物id
+ * @param { number } damage - 熔炼伤害
+ * @param { [string, number] } input - 输入流体[ID, 数量]
+ * @param { [string, number] } outputFluid - 输出流体 [ID, 数量]
+ * @param { number } minHeat - 最小热量
+ * @param { number } maxHeat - 最大热量
+ */
+function entity_melting(event, input, outputFluid, time, minHeat, maxHeat) {
+    // 构建配方对象
+    const recipe = {
+        "type": "createmetallurgy:entity_melting",
+        "entity": {
+            "type": entity,
+            "damage": damage
+        },
+        "ingredients": [
+            {
+               "fluid": input[0],
+               "amount": input[1],
+               "nbt": {}
+            }
+        ],
+        "minHeatRequirement": minHeat,
+        "maxHeatRequirement": maxHeat,
+        "results": [{
+            "fluid": outputFluid[0],
+            "amount": outputFluid[1]
+        }]
+    };
+
+    // 注册配方
+    event.custom(recipe);
+}
