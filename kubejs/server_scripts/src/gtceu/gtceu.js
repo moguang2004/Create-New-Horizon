@@ -2793,4 +2793,13 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:tiny_plutonium_dust", 2000, 500)
         .EUt(1920)
         .duration(160)
-})
+    event.recipes.gtceu.forge_hammer('hot_high_temp_wrought_precursor_ingot_fixed')
+        .itemInputs('gtceu:hot_high_temp_wrought_precursor_ingot')
+        .itemOutputs('gtceu:wrought_iron_ingot')
+        .EUt(8)
+        .duration(100)
+    //原版熔炉配方
+    event.smelting('gtceu:hot_high_temp_wrought_precursor_ingot', 'minecraft:iron_ingot')
+        .cookingTime(400)  
+        .xp(1.4);       
+});

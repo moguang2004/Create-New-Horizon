@@ -1668,6 +1668,15 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .liquid()
         .plasma()
         .color(0xE6E6FA)
+    event.create('steel_precursor') 
+        .dust()                   
+        .color(0x4A4A4A)           
+    event.create('high_temp_wrought_precursor')
+        .dust()
+        .ingot()
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .color(0x8C7853)
+        .blastTemp(7200 , 'high', GTValues.VA[GTValues.UHV], 2500)
 
 })
 
@@ -1695,6 +1704,8 @@ StartupEvents.postInit(event => {
             return
         mat.setFormula(formula)
     }
+    setFormula("high_temp_wrought_precursor", "Fe")
+    setFormula("steel_precursor", "Fe8C3")
     setFormula("sodium_hexafluoroaluminate", "Na3AlF6")
     setFormula("potassium_metabi_sulfite", "K2S2O2")
     setFormula("alumina", "Al2O3")
