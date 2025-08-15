@@ -275,6 +275,7 @@ function bulkMetallurgy(event, input, outputFluid, time, minHeat, maxHeat) {
  * @param { number } maxHeat - 最大热量
  */
 function entity_melting(event, entity, damage, input, outputFluid , minHeat, maxHeat) {
+
     // 构建配方对象
     const recipe = {
         "type": "createmetallurgy:entity_melting",
