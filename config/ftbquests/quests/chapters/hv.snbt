@@ -2311,7 +2311,6 @@
 		}
 		{
 			dependencies: [
-				"534D927B52EC5F63"
 				"607209201C6B08C3"
 				"6375A1591C9E11A5"
 			]
@@ -2342,10 +2341,7 @@
 			y: 22.0d
 		}
 		{
-			dependencies: [
-				"3F691723233B4718"
-				"3A1D7A26A80646CB"
-			]
+			dependencies: ["3F691723233B4718"]
 			id: "4ACA21BD665C39DF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2402,16 +2398,6 @@
 			}]
 			x: -12.0d
 			y: 30.0d
-		}
-		{
-			id: "3A1D7A26A80646CB"
-			tasks: [{
-				id: "44705F86A0A98F65"
-				item: "gtceu:sodium_potassium_bucket"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 22.0d
 		}
 		{
 			dependency_requirement: "one_completed"

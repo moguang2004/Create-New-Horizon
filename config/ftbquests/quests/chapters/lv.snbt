@@ -380,11 +380,18 @@
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.lv.quest2522517891915803545.subtitle}"
-			tasks: [{
-				id: "54DDAA9635F9C248"
-				item: "gtceu:exquisite_diamond_gem"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "54DDAA9635F9C248"
+					item: "gtceu:exquisite_diamond_gem"
+					type: "item"
+				}
+				{
+					id: "67019BA9DF3C18EC"
+					title: "check~"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.lv.quest2522517891915803545.title}"
 			x: 14.5d
 			y: 5.5d
@@ -518,7 +525,7 @@
 		}
 		{
 			id: "471F881828CFF6A6"
-			subtitle: "{ftbquests.chapter.lv.quest5124964538316224166.subtitle}"
+			subtitle: "辉钴矿粉在电力高炉内可以产生它的氧化物"
 			tasks: [{
 				id: "058016E76E3EEE36"
 				item: "gtceu:arsenic_dust"

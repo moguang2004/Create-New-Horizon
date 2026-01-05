@@ -727,7 +727,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1EDA02396B328A49"]
 			description: [
 				"{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.description1}"
 				"{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.description2}"

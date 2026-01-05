@@ -243,10 +243,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"10C3F5FDB012D5A8"
-				"6729EFF9916E0F53"
-			]
+			dependencies: ["10C3F5FDB012D5A8"]
 			description: ["{ftbquests.chapter.ae2.quest7677789835216617613.description1}"]
 			id: "6A8CFD2D2C31008D"
 			rewards: [
@@ -663,10 +660,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"39932A8C0601C003"
-				"6729EFF9916E0F53"
-			]
+			dependencies: ["39932A8C0601C003"]
 			description: ["{ftbquests.chapter.ae2.quest751708475188667641.description1}"]
 			id: "0A6E9AE01E4564F9"
 			subtitle: "{ftbquests.chapter.ae2.quest751708475188667641.subtitle}"
