@@ -498,11 +498,11 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			description: [
-				"{ftbquests.chapter.lv.quest4101227977823542261.description1}"
-				"{ftbquests.chapter.lv.quest4101227977823542261.description2}"
+				"虽然小的合金炉很便捷"
+				"但是大型钢制合金炉真的很香"
 			]
 			id: "38EA7D1DD910DBF5"
-			subtitle: "{ftbquests.chapter.lv.quest4101227977823542261.subtitle}"
+			subtitle: "去看看大型合金炉吧~"
 			tasks: [{
 				id: "716ECE6F74511EC0"
 				item: "gtceu:lv_alloy_smelter"
@@ -561,8 +561,13 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["38EA7D1DD910DBF5"]
+			dependencies: [
+				"38EA7D1DD910DBF5"
+				"249CF4CBD68E1772"
+			]
+			dependency_requirement: "one_completed"
 			id: "2304A186EDD07CE0"
+			subtitle: "完成任意‘合金炉’类任务即可开启"
 			tasks: [{
 				id: "13CE04785BEBD1EE"
 				item: "gtceu:conductive_alloy_ingot"
@@ -719,7 +724,6 @@
 			description: ["{ftbquests.chapter.lv.quest1181783075883422535.description1}"]
 			id: "1066897237999347"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.lv.quest1181783075883422535.subtitle}"
 			tasks: [{
 				id: "50E08BABBAD19717"
 				item: "gtceu:lv_electric_pump"
@@ -733,7 +737,6 @@
 			description: ["{ftbquests.chapter.lv.quest1135600314478044672.description1}"]
 			id: "0FC2767827492600"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.lv.quest1135600314478044672.subtitle}"
 			tasks: [{
 				id: "0C44386D9B309B7E"
 				item: "gtceu:lv_conveyor_module"
@@ -747,7 +750,6 @@
 			description: ["{ftbquests.chapter.lv.quest5145177722188425950.description1}"]
 			id: "476757E0C54B6ADE"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.lv.quest5145177722188425950.subtitle}"
 			tasks: [{
 				id: "1A29A7EDDD906738"
 				item: "gtceu:lv_robot_arm"
@@ -760,7 +762,7 @@
 			dependencies: ["1066897237999347"]
 			description: ["{ftbquests.chapter.lv.quest8717103827754367737.description1}"]
 			id: "78F95FBF037F3AF9"
-			subtitle: "{ftbquests.chapter.lv.quest8717103827754367737.subtitle}"
+			subtitle: "固液转换"
 			tasks: [{
 				id: "12E94A563CB663BF"
 				item: "gtceu:lv_fluid_solidifier"
@@ -831,7 +833,6 @@
 			description: ["{ftbquests.chapter.lv.quest6707013783315840880.description1}"]
 			id: "5D1419802A307F70"
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.lv.quest6707013783315840880.subtitle}"
 			tasks: [{
 				id: "5B217A1C244EE0FD"
 				item: "gtceu:lv_emitter"
