@@ -5,7 +5,7 @@
 	group: "4D1B16DFEF4B34DD"
 	icon: "gtceu:oil_medium_bucket"
 	id: "2CEAD5605C416218"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -727,7 +727,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1EDA02396B328A49"]
 			description: [
 				"{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.description1}"
 				"{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.description2}"
