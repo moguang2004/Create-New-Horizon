@@ -370,4 +370,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:electric_blast_furnace/iro2" })
     event.remove({ id: "gtceu:large_chemical_reactor/hydrogen_peroxide" })
     event.remove({ id: "create:milling/calcite" })
+    event.remove({ id: "createdieselgenerators:distillation/superheated_crude_oil"})
+    event.remove({ id: "createdieselgenerators:bulk_fermenting/fermentable"})
 })
