@@ -430,7 +430,7 @@
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
-	copy-recipe-id: "key.keyboard.keypad.7";
+	copy-recipe-id: "key.mouse.middle";
 
 	/**
 	 * In edit mode, hide the hovered stack
@@ -453,7 +453,7 @@
 	/**
 	 * Whether editing the index is enabled
 	 */
-	edit-mode: false;
+	edit-mode: true;
 
 	/**
 	 * Whether to log untranslated tags as warnings.

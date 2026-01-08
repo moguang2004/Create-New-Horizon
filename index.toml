@@ -15134,7 +15134,7 @@ hash = "71462d20e8676fbc4504fd1e207ece54016c312d8a83d8fceb412f4b083c7163"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "88b936e6e64fe1e803f217c7515c94c3a436f8d72ab92a7d5f99eb63b20f48ad"
+hash = "8628268cd99f6447fb8f8052aad649968dd9e2a717b8cba660f2238de0d86ddf"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -15150,7 +15150,7 @@ hash = "850a2c91ab79584e028f0d3e50ce68e8554aa0f877681d295ef0d6df3465321e"
 
 [[files]]
 file = "kubejs/server_scripts/src/tag.js"
-hash = "e2a4ee465573368ee503020371b77b3b952dd80e73a9870706c6b2780704c0da"
+hash = "f673fb16831593b414173cac920d7279345ce7b7494dc81f3c4c8f215371da04"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/example.js"
@@ -15159,10 +15159,6 @@ hash = "11b02abc0ec5942d66d8b53d05613f0e386fd7a042f6b4e341550ce5107c6af3"
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/fortification.js"
 hash = "b7fcc452c03922fcdc1f084c8fea72e545aa001d1fa599f86b4cc97a0562f373"
-
-[[files]]
-file = "kubejs/server_scripts/src/tconstruct/modiifiers/global_traveler.js"
-hash = "97f545f2cf3991b7cd296f0b9dfb71c11869f5860997e6c119d85fa7a89829e2"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/snowcity.js"
