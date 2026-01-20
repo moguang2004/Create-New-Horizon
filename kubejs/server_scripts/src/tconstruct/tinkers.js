@@ -19,105 +19,48 @@ ServerEvents.tags('minecraft:fluid', event => {
 })
 //浇筑
 ServerEvents.recipes(event => {
-    event.recipes.tconstruct.casting_table(
-		'gtceu:andesite_alloy_ingot', 
-		Fluid.of('gtceu:andesite_alloy', 144), 
-		'tconstruct:ingot_cast', 
-		false, 90
-	)
+    tconstruct_casting_table(event, 'gtceu:andesite_alloy_ingot', 'gtceu:andesite_alloy', 144, 'tconstruct:ingot_cast', false, 90)
 
-	event.recipes.tconstruct.casting_table(
-		'createmetallurgy:foundry_unit',
-		Fluid.of('gtceu:wrought_iron', 144), 
-		'createdieselgenerators:distillation_controller', 
-		false, 90
-	)
+	tconstruct_casting_table(event, 'createmetallurgy:foundry_unit', 'gtceu:wrought_iron', 144, 'createdieselgenerators:distillation_controller', false, 90)
 
-	event.recipes.tconstruct.casting_table(
-		'gtceu:rubber_ingot', 
-		Fluid.of('gtceu:rubber', 144), 
-		'tconstruct:ingot_cast', 
-		false, 90
-	)
+	tconstruct_casting_table(event, 'gtceu:rubber_ingot', 'gtceu:rubber', 144, 'tconstruct:ingot_cast', false, 90)
 	
-	event.recipes.tconstruct.casting_table(
-		'gtceu:snow_steel_ingot', 
-		Fluid.of('gtceu:snow_steel', 144), 
-		'tconstruct:ingot_cast', 
-		false, 90
-	)
+	tconstruct_casting_table(event, 'gtceu:snow_steel_ingot', 'gtceu:snow_steel', 144, 'tconstruct:ingot_cast', false, 90)
 
-	event.recipes.tconstruct.casting_table(
-		'gtceu:wrought_iron_ingot', 
-		Fluid.of('gtceu:wrought_iron', 144), 
-		'tconstruct:ingot_cast', 
-		false, 90
-	)
+	tconstruct_casting_table(event, 'gtceu:wrought_iron_ingot', 'gtceu:wrought_iron', 144, 'tconstruct:ingot_cast', false, 90)
+
+	tconstruct_casting_basin(event, 'gtceu:wrought_iron_block', 'gtceu:wrought_iron', 1296, null, false, 180)
 
 })
 //合金
-//ServerEvents.recipes(event => {
-//	event.recipes.tconstruct.alloy(
-//		Fluid.of('gtceu:brass', 576), 
-//		[
-//			Fluid.of('gtceu:zinc', 432),
-//			Fluid.of('gtceu:copper', 144)
-//		],
-//		605
-//	)
-//
-//	event.recipes.tconstruct.alloy(
-//		Fluid.of('gtceu:bronze', 576), 
-//		[
-//			Fluid.of('gtceu:tin', 432),
-//			Fluid.of('gtceu:copper', 144)
-//		],
-//		605
-//	)
-//})
+ServerEvents.recipes(event => {
+	tconstruct_alloy(event, 'gtceu:brass', 576, [
+		['gtceu:zinc', 432],
+		['gtceu:copper', 144]
+	], 605)
+
+	tconstruct_alloy(event, 'gtceu:bronze', 576, [
+		['gtceu:tin', 432],
+		['gtceu:copper', 144]
+	], 605)
+})
 //融化
 ServerEvents.recipes(event => {
 	//熔融粘土
-	event.recipes.tconstruct.melting(
-		Fluid.of("tconstruct:clay", 125),
-		"gtceu:fireclay_dust",
-		1000,
-		200
-	)
+	tconstruct_melting(event, "tconstruct:clay", 125, "gtceu:fireclay_dust", 1000, 200)
+	
 	//橡胶
-	event.recipes.tconstruct.melting(
-		Fluid.of('gtceu:rubber', 144),
-		'kubejs:rubber_powder',
-		400,
-		90
-	)
+	tconstruct_melting(event, 'gtceu:rubber', 144, 'kubejs:rubber_powder', 400, 90)
+	
 	//玻璃
-	event.recipes.tconstruct.melting(
-		Fluid.of('gtceu:glass', 72),
-		'gtceu:glass_dust',
-		800,
-		90
-	)
+	tconstruct_melting(event, 'gtceu:glass', 72, 'gtceu:glass_dust', 800, 90)
+	
 	//锻铁
-	event.recipes.tconstruct.melting(
-		Fluid.of('gtceu:wrought_iron', 32),
-		'minecraft:iron_nugget',
-		600,
-		10
-	)
-	event.recipes.tconstruct.melting(
-		Fluid.of('gtceu:wrought_iron', 16),
-		'gtceu:wrought_iron_nugget',
-		600,
-		5
-	)
+	tconstruct_melting(event, 'gtceu:wrought_iron', 32, 'minecraft:iron_nugget', 600, 10)
+	tconstruct_melting(event, 'gtceu:wrought_iron', 16, 'gtceu:wrought_iron_nugget', 600, 5)
+	
 	//贵金属
-	event.recipes.tconstruct.melting(
-		Fluid.of('gtceu:gold', 64),
-		'gtceu:precious_alloy_ingot',
-		800,
-		40
-	)
+	tconstruct_melting(event, 'gtceu:gold', 64, 'gtceu:precious_alloy_ingot', 800, 40)
 
 	//燃料
 	melting_fuels(event, 100, 25, 2300, ['gtceu:raw_bio_diesel', 25])//生物柴油
