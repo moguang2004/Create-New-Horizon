@@ -33,17 +33,17 @@ ServerEvents.recipes(event => {
 
 })
 //合金
-ServerEvents.recipes(event => {
-	tconstruct_alloy(event, 'gtceu:brass', 576, [
-		['gtceu:zinc', 432],
-		['gtceu:copper', 144]
-	], 605)
-
-	tconstruct_alloy(event, 'gtceu:bronze', 576, [
-		['gtceu:tin', 432],
-		['gtceu:copper', 144]
-	], 605)
-})
+//ServerEvents.recipes(event => {
+//	tconstruct_alloy(event, 'gtceu:brass', 576, [
+//		['gtceu:zinc', 432],
+//		['gtceu:copper', 144]
+//	], 605)
+//
+//	tconstruct_alloy(event, 'gtceu:bronze', 576, [
+//		['gtceu:tin', 432],
+//		['gtceu:copper', 144]
+//	], 605)
+//})
 //融化
 ServerEvents.recipes(event => {
 	//熔融粘土
