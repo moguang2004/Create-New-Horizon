@@ -533,7 +533,7 @@
 			id: "6103104855B728EE"
 			tasks: [{
 				id: "1A9CE36983578C9B"
-				item: "gtceu:zpm_circuit_assembler"
+				item: "gtceu:zpm_assembler"
 				type: "item"
 			}]
 			x: 9.5d
