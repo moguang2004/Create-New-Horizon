@@ -32,40 +32,6 @@ ServerEvents.recipes(event => {
         .itemInputs(['1x minecraft:redstone', '1x gtceu:silicon_ingot'])
         .itemOutputs('1x gtceu:redstone_alloy_ingot')
     event.remove({ id: 'enderio:energy_conduit' })
-    event.shaped(
-        Item.of('enderio:basic_energy_conduit', 2), [
-            "AAA",
-            "BBB",
-            "AAA"
-        ], {
-            A: 'enderio:conduit_binder',
-            B: 'gtceu:conductive_alloy_single_wire'
-        })
-    event.recipes.gtceu.assembler('enhanced_energy_conduit')
-        .EUt(30)
-        .duration(100)
-        .itemInputs(['1x enderio:basic_energy_conduit', '2x gtceu:energetic_alloy_single_wire', '4x enderio:conduit_binder'])
-        .itemOutputs('2x enderio:enhanced_energy_conduit')
-    event.recipes.gtceu.assembler('vibrant_energy_conduit')
-        .EUt(30)
-        .duration(100)
-        .itemInputs(['1x enderio:enhanced_energy_conduit', '2x gtceu:vibrant_alloy_single_wire', '4x enderio:conduit_binder'])
-        .itemOutputs('2x enderio:vibrant_energy_conduit')
-    event.recipes.gtceu.assembler('ender_energy_conduit')
-        .EUt(30)
-        .duration(100)
-        .itemInputs(['1x enderio:vibrant_energy_conduit', '2x gtceu:end_steel_single_wire', '4x enderio:conduit_binder'])
-        .itemOutputs('2x enderio:ender_energy_conduit')
-    event.recipes.gtceu.assembler('melodic_energy_conduit')
-        .EUt(30)
-        .duration(100)
-        .itemInputs(['1x enderio:ender_energy_conduit', '2x gtceu:melodic_alloy_single_wire', '4x enderio:conduit_binder'])
-        .itemOutputs('2x enderio:melodic_energy_conduit')
-    event.recipes.gtceu.assembler('stellar_energy_conduit')
-        .EUt(30)
-        .duration(100)
-        .itemInputs(['1x enderio:melodic_energy_conduit', '2x gtceu:stellar_alloy_single_wire', '4x enderio:conduit_binder'])
-        .itemOutputs('2x enderio:stellar_energy_conduit')
     event.recipes.gtceu.mixer('energetic_alloy')
         .EUt(30)
         .duration(100)

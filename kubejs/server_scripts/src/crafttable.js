@@ -1591,11 +1591,6 @@ ServerEvents.recipes(event => {
         ], {
             A: '#forge:plates/iron'
         })
-
-    event.shapeless("ad_astra:space_helmet", "ad_astra:space_helmet")
-    event.shapeless("ad_astra:space_suit", "ad_astra:space_suit")
-    event.shapeless("ad_astra:space_pants", "ad_astra:space_pants")
-    event.shapeless("ad_astra:space_boots", "ad_astra:space_boots")
     event.shapeless("bloodmagic:dungeon_brick1", "bloodmagic:dungeon_brick_assorted")
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())

@@ -5,5 +5,4 @@ JEIEvents.information(event =>{
     event.addItem('kubejs:bauxite_process_catalyst',Text.translate('ctnh.bauxite_process_catalyst'))
     event.addItem('kubejs:platinum_metal_catalyst_shard1',Text.translate('ctnh.platinum_metal_catalyst_shard1'))
     event.addItem('kubejs:platinum_metal_catalyst_shard2',Text.translate('ctnh.platinum_metal_catalyst_shard2'))
-    event.addFluid(Fluid.of('gtceu:mana'),Text.translate('ctnh.mana_generation'))
 })

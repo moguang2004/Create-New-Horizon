@@ -1,3 +1,4 @@
+const $FluidBuilder = Java.loadClass("com.gregtechceu.gtceu.api.fluids.FluidBuilder")
 GTCEuStartupEvents.registry("gtceu:element", event => {
     event.create("mana_plus")
         .symbol('Ma+')
