@@ -41,10 +41,6 @@ file = "config/alexscaves_biome_generation/toxic_caves.json"
 hash = "c2bf951eca88637b5d497c1f868b39b2e835ca6fecab901e0133cbb737005995"
 
 [[files]]
-file = "config/alexsmobs.toml"
-hash = "a438036ddc157abe6332b2b0e81a4fe09a98d8c244837d955be52b4986a021f6"
-
-[[files]]
 file = "config/alexsmobs/alligator_snapping_turtle_spawns.json"
 hash = "df14afd6e1e96ace0dc8e4c71bc325e3baec8dbeaebf61f682561a70fc145f9d"
 
@@ -1054,7 +1050,7 @@ hash = "e54793ac3da340b0ee32a24b88a4cb30b6ef55af027e7cd9be81fa89a479adbd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/62876F01654DC6E9.snbt"
-hash = "6ef0d3a18f6140c3ac10e8d9ce42455f1bc91274128174a1766452872fb5c010"
+hash = "0e6b380a21e806b046efa6ae929eaa43a3deaca44a57aa9d3fd989f169575389"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
@@ -1283,66 +1279,6 @@ hash = "779fac3a609f2fcd96a1ac668b3769c4bb12a597ed0b2b66f9d9cc0455c3af3d"
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/DismountingEffect.badiff"
-hash = "a9db7914bab79a3e00bdeb9712825d4ba27ff73f700c04905425915d9dbb7fc6"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/DisorientingEffect.badiff"
-hash = "8f605f38a080852efcb37e45e229897757585ba32174ac78f5e50a4f58ab1012"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/DragonMistEffect.badiff"
-hash = "5d0abbbe6bbcaa1f99ae530726b1a38e8963fe97dc6033766afe666cafb5b9eb"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/FeastingEffect.badiff"
-hash = "8d37a176825a9bdc5fc79e1b0864e11389c4a5cac6ee99353a3e603cae7d9a86"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/InfernalRebukeEffect.badiff"
-hash = "018303b7e46436e8e1bbfa61a5779e4aacfb41cc261ed921a167ef8f8a084e28"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/JudgementEffect.badiff"
-hash = "95a6590f825711befaa3e7e657ffe614d8a9729e60b11ee75dea3fccaca01731"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/LifeStealEffect.badiff"
-hash = "55d85fa3fee49d33f16d6b8ee6091b2da9d6188ef3e1d7978efcabe1d3d80c4a"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/ResolveEffect.badiff"
-hash = "314802b0d36a66185697debb2b92e4025da17fa958c8b9a35966d5e77c76c4eb"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/RetributionEffect.badiff"
-hash = "435a181ea92927277deb29933d28fd0e7dc36d95d33468db9eba8c3041e200dd"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/SlaughteringEffect.badiff"
-hash = "337fbdabf50da88bcd7f559c4545352460b833683f7d8361500b5d1368d1fba2"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/StormCallerEffect.badiff"
-hash = "f8006288ef63b07e10978ffbb3c9670d83917126108db57b877b89a694dac3ea"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/VengeanceEffect.badiff"
-hash = "1d64daf138cb417a6c3efc37c96354807bb20e7c9dafd5064a3b70003637f159"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/WitheringEffect.badiff"
-hash = "3762245171dc02d7a57b7a811b9ce0e3ee5f502c3779d2c9117f178072651cb1"
-
-[[files]]
-file = "hotai/net/acetheeldritchking/art_of_forging/effects/curio/CurioGlowingEffect.badiff"
-hash = "8f00a36243b8030a4c0af57ecd65ec279ff035d90ae1cadbc47347f640095f44"
-
-[[files]]
-file = "hotai/weather2/weathersystem/storm/StormObject.badiff"
-hash = "0601afcf754b121bd95b7a450fe3dfd5641fc2d8dea04db107eac68be23740dd"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -7583,18 +7519,6 @@ hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
 [[files]]
 file = "kubejs/data/alexsdelight/legendarysurvivaloverhaul/temperature/consumables/maggot_salad.json"
 hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
-
-[[files]]
-file = "kubejs/data/alexsmobs/legendarysurvivaloverhaul/temperature/consumables/boiled_emu_egg.json"
-hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
-
-[[files]]
-file = "kubejs/data/alexsmobs/legendarysurvivaloverhaul/temperature/consumables/shrimp_fried_rice.json"
-hash = "fc363565494ca4d898c640da34d08f21c82572fc38476954c1e65b3797c02243"
-
-[[files]]
-file = "kubejs/data/alexsmobs/legendarysurvivaloverhaul/temperature/consumables/sopa_de_macaco.json"
-hash = "34ef1347b7301777a12a482f2717d77b29dd4c9d9604bc8b487ec0ba8ab95153"
 
 [[files]]
 file = "kubejs/data/an_item/legendarysurvivaloverhaul/temperature/consumables/icy_fresh.json"
@@ -14437,10 +14361,6 @@ file = "kubejs/server_scripts/src/80extend.js"
 hash = "94145613328390c2b0b94a72807884b1c62dddb2ac4bab0a2ac66387779e6bdc"
 
 [[files]]
-file = "kubejs/server_scripts/src/Debug/Debug.js"
-hash = "1543da855b06845a296a37305f8533b9b494e3eb89b8a8e18cb3f09fc5a86295"
-
-[[files]]
 file = "kubejs/server_scripts/src/accelerator.js"
 hash = "9fb8543c8109ef27330c2441f44b55cec25ef5c0ab46753371a306d89306d385"
 
@@ -14486,7 +14406,7 @@ hash = "6bf4da5d241146abf88be4440d515759ceb5b48d88449a49caf692551496d745"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/cafe.js"
-hash = "8731501899379d62219dad28378e7c8d98d36f94fb3c1380180bd2af756480e0"
+hash = "f34c039e8a5e270e3bb11cc6c152a663669ba61b1b7108783c08f35684a0c2d5"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/create.js"
@@ -14539,10 +14459,6 @@ hash = "134cfc2ed6d19d64224aeff4769aef5752500b42276c2645ffd764eabd81caf9"
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/biochemistry.js"
 hash = "fd3d9499b5a6b06bc26a61a6c7890c3505e650fc382459187c7736aefec3dbf3"
-
-[[files]]
-file = "kubejs/server_scripts/src/gtceu/box.js"
-hash = "79720cffb4d4feeb016806ddee6ea51d995aa82380d54bc707b7a2af2ed55a53"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/casing.js"
@@ -14638,19 +14554,19 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "4a0f0e80d9f5d0b5f78f6d30dd60aec590d09e0a957a88968eedd2c6068a9655"
+hash = "341fa2c7ea5bfd43458d7c95366b8d900405c22dd7d51a849106cefd82eaeb34"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
 hash = "56e4240ec390123442d2a0802d193bedf4841b423c67219944a457f3b0638f8e"
 
 [[files]]
-file = "kubejs/server_scripts/src/gtceu/hellforge/event.js"
-hash = "7ec4a7b1a4d8b29c7c6262412d8a4b39378b6b4206943a0c6cd85f8170c4a355"
-
-[[files]]
 file = "kubejs/server_scripts/src/gtceu/lv_converter.js"
 hash = "58e94ac14b6a99560cb1d3ddc70a2dc29522a44970a58099d055a6f615210ddd"
+
+[[files]]
+file = "kubejs/server_scripts/src/gtceu/uhvParts.js"
+hash = "8673d8e054e80c3aeaa1835f916069b177cba80f1e44ad9e7ec747d1b07900cf"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/wood.js"
@@ -14671,90 +14587,6 @@ hash = "35e83e9fff270074cbdee4f81b6af9a627b316197a7883f60b3cf6ee4aa89aa5"
 [[files]]
 file = "kubejs/server_scripts/src/loot.js"
 hash = "c6833c2ae5276de9a69444a0e6b7ad04dbff67a77c634803458a1e5f0cd889b1"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Eternal_Garden.js"
-hash = "20305a7e2b7fc7be24ec6c765d3e5c100689c3508110536508a1fce0d8f8ed6b"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Mana_Beam.js"
-hash = "ef06516f646dd148e0b4328f51e4f9faf6dacb92bf11a31d4d979c89ee3044c9"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Mana_CPU.js"
-hash = "ac1dee7a52db95642e1c0e38a875716378b0c9ddcc588c051ff2aed88e56313d"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Mana_Circuit.js"
-hash = "d765549e451cb6b923400e79954b82990b12fbd1729e222900221edb7f8eed25"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Mana_Fuel.js"
-hash = "5200e0db991d69abb2bce21884d1329c682741c6c2510e06310abcf4c6935756"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Mana_Generator.js"
-hash = "9012077a5fbc8079af4a2ae4a1587a500785819bbbc18f20dfc7e2eaf4d4f11c"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Mana_Reactor.js"
-hash = "d11a945622a3995b84185bc30c438ea986a15d35a989d974c6584c38ab88eea0"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Metor_Capturer.js"
-hash = "c6c1fc2d529d6276e8db16e4933b9361f3e51378499511c5b6af14bb2c804f2c"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Quasar_Eye.js"
-hash = "c44cdab8f4939a5f3ad677f9df55a351dcf8ffe713b03b27678f063cf7b7c462"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Twist_Fusion.js"
-hash = "ce5cbe1b94edb2eb56d607c286bd2088de473e4225745e41e0f375279aec72c7"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Zentih_Machine/Phase_Inversion.js"
-hash = "1358cec185f21b41272c92991873504b238d3c33c1b91f222d0142371ec05405"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/Zentih_Machine/Zenith_Recipe.js"
-hash = "b2ab3672420194bb01d9dbebf7fda939c583ebf204b84c84e6defc105bc9d973"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/alter.js"
-hash = "745fe04301b60440c58ce5132db327d808cd140361e1638a29dc760b68c61970"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/ars.js"
-hash = "73fad949a2dad4f881ab96a6de404217767a03a3c4227c795ca199e78b56e7e2"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/blood magic/alchemytable.js"
-hash = "6e0e0a00f538b4c052cb9b36f8d523a42261d77324cdfacbe3b07a4a9a205018"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/blood magic/altar.js"
-hash = "fabf1c4ce2a10949601ce7234bc14f1ccc7d340a695c7c69214e4d8e3dd766de"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/blood magic/soulforge.js"
-hash = "472bcde6b7f47aebae1e17611b13c3afb86f65c5bc161ae0aac0ec3f85610c7c"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/botania/botania.js"
-hash = "e9dc0da94414841f837987c80412776d389157b9925cf5fbb97377396cce19a6"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/botania/extraBotany.js"
-hash = "43bdc1fb75868f2a04e1df91291d0ba3761daf66d58ea60718388736284afb8d"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/botania/mythicBotany.js"
-hash = "0d86f896fd1ccf3d27796ef178c29d1165b833be28de7c2f327a194e252c8bb7"
-
-[[files]]
-file = "kubejs/server_scripts/src/magic/uper_mana2.js"
-hash = "f51ddfb57b47bb3f1763c061c16f710cbe59be4d89598c598df884cd4015faba"
 
 [[files]]
 file = "kubejs/server_scripts/src/nano.js"
@@ -14907,16 +14739,6 @@ metafile = true
 [[files]]
 file = "mods/alexs-caves.pw.toml"
 hash = "88a652e2740b982789b45d8267f28a92b2c88ef1c2886391f56167cdf5a0a582"
-metafile = true
-
-[[files]]
-file = "mods/alexs-mobs.pw.toml"
-hash = "e63ffa43c2a9789cf5931000261969c0e00ed3e01e5ab350d5214f0ee9070674"
-metafile = true
-
-[[files]]
-file = "mods/alexsmobsinteraction.pw.toml"
-hash = "6bf91b9866b08f68f87be0f1285a76e2d1e5a79332484d392841b338c237f6ae"
 metafile = true
 
 [[files]]
@@ -15460,11 +15282,6 @@ hash = "a63220dfb2ddfe2a98155a712935cc1803b14d89d7fd2a8dd27ef98c8fbecae1"
 metafile = true
 
 [[files]]
-file = "mods/hotai.pw.toml"
-hash = "d908a7ba6561085be5aa162a651e2d4b64bf0eca60dd09634c1714853743eb00"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "84bd7e01a080d9089b5a99ffc0314f9b5a64f4e4ff38d9904bc65564270d54a2"
 metafile = true
@@ -15547,11 +15364,6 @@ metafile = true
 [[files]]
 file = "mods/kubejs-additions.pw.toml"
 hash = "0e80568411ed8c9b2bde3d03415a221c08f3b66f36cf2868e533eec5c0c15f10"
-metafile = true
-
-[[files]]
-file = "mods/kubejs-ars-nouveau.pw.toml"
-hash = "30d89b734f724cc24557c6822665042f5670bec1e0a0ddec5b2475410a2f2c61"
 metafile = true
 
 [[files]]
@@ -16046,7 +15858,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "8ea2ebcecc3abd00f46f6131f425f2e944973680bde1816cedc3e937d12de98f"
+hash = "7ebc6b9d454096bec76c74c9fb5ed0796e2324050badc2ef7cca7ab5e50c321f"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"

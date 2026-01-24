@@ -1487,23 +1487,6 @@
 			y: -1.0d
 		}
 		{
-			id: "36F4AAB866B59908"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest3959977681339390216.subtitle}"
-			tasks: [{
-				id: "1D924C0D9D3CC4EA"
-				item: {
-					Count: 1
-					id: "alexsmobs:rocky_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["2460426DE77EF0F4"]
 			description: ["{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.description1}"]
 			icon: "gtceu:causality_hazard_sign_block"
