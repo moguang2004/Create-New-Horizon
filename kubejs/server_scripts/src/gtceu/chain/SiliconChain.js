@@ -1,19 +1,9 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_andradite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_ferrosilite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_wollastonite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_obsidian' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_talc' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_soapstone' })
-    event.remove({ id: 'gtceu:electrolyzer/bentonite_electrolysis' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_asbestos' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_uvarovite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_fullers_earth' })
+    
     event.replaceOutput({ id: 'gtceu:electrolyzer/zeolite_electrolysis' }, 'gtceu:aluminium_dust', 'gtceu:alumina_dust')
     event.replaceOutput({ id: 'gtceu:electrolyzer/zeolite_electrolysis' }, 'gtceu:silicon_dust', 'gtceu:silicon_dioxide_dust')
     event.replaceOutput({ id: 'gtceu:centrifuge/decomposition_centrifuging__redstone' }, 'gtceu:silicon_dust', 'gtceu:silicon_dioxide_dust')
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_silicon_dioxide' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_silicon_fluoride' })
+    
 
 
 

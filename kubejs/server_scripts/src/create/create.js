@@ -471,7 +471,7 @@ ServerEvents.recipes(event => {
             event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:cement', 250)])
         ]).transitionalItem(transitional)
         .loops(2)
-    event.remove({ output: 'gtceu:firebricks' })
+    
 })
 
 ServerEvents.recipes(event => {

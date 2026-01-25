@@ -1,11 +1,7 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: 'gtceu:vacuum_freezer/liquid_oxygen' })
-    event.remove({ id: 'gtmthings:assembler/wireless_item_transfer_cover' })
-    event.remove({ id: 'gtmthings:assembler/wireless_fluid_transfer_cover' })
-    event.remove({ id: 'gtmthings:assembler/advanced_wireless_item_transfer_cover' })
-    event.remove({ id: 'gtmthings:assembler/advanced_wireless_fluid_transfer_cover' })
+    
     event.remove({ id: 'ctnhcore:assembler/cover_ender_fluid_link' })
-    event.remove({ id: 'gtceu:assembler/cover_ender_fluid_link' })
+    
     let snow = event.recipes.gtceu
         //更易冻的液氧
     snow.vacuum_freezer("adjust_liquid_oxygen")

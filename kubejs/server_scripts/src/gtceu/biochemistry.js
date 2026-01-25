@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: 'gtceu:fermented_biomass' })
+    
     //event.recipes.gtceu.fermenting('yeast')
     let yeast = [
         {
@@ -187,9 +187,7 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of('gtceu:fermented_biomass', 800))
         .circuit(1)
         .duration(200)
-    event.remove({ id: 'gtceu:pyrolyse_oven/bio_chaff_to_fermented_biomass' })
-    event.remove({ id: 'gtceu:pyrolyse_oven/bio_chaff_to_biomass' })
-    event.remove({ id: 'gtceu:fermenter/fermented_biomass' })
+    
     event.recipes.gtceu.fermenting('fermented')
         .EUt(96)
         .inputFluids(Fluid.of('gtceu:biomass', 1000))

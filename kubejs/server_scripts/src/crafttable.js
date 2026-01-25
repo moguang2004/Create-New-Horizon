@@ -1556,34 +1556,6 @@ ServerEvents.recipes(event => {
             D: 'create:belt_connector'
         })
     event.shaped(
-        Item.of('bloodmagic:dungeon_brick_slab', 6), [
-            "AAA"
-        ], {
-            A: 'bloodmagic:dungeon_brick1'
-        })
-    event.shaped(
-        Item.of('bloodmagic:dungeon_brick_stairs', 4), [
-            "A  ",
-            "AA ",
-            "AAA"
-        ], {
-            A: 'bloodmagic:dungeon_brick1'
-        })
-    event.shaped(
-        Item.of('bloodmagic:dungeon_tile', 4), [
-            "AA",
-            "AA",
-        ], {
-            A: 'bloodmagic:dungeon_brick1'
-        })
-    event.shaped(
-        Item.of('bloodmagic:dungeon_brick_wall', 6), [
-            "AAA",
-            "AAA"
-        ], {
-            A: 'bloodmagic:dungeon_brick1'
-        })
-    event.shaped(
         Item.of('ad_astra:iron_plating', 64), [
             "AAA",
             "A A",

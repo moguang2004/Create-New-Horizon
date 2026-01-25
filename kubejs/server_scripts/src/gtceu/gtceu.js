@@ -126,8 +126,7 @@ ServerEvents.recipes(event => {
         //     .outputFluids(Fluid.of("gtceu:hydrochloric_acid", 2000))
         //     .duration(100)
         //     .EUt(240)
-    event.remove({ id: "gtceu:chemical_reactor/iodine_solution" })
-    event.remove({ id: "gtceu:large_chemical_reactor/iodine_solution" })
+    
     event.recipes.gtceu.mixer("aeternium")
         .itemInputs("2x gtceu:steel_dust")
         .itemInputs("gtceu:ender_pearl_dust")
@@ -230,12 +229,6 @@ ServerEvents.recipes(event => {
         .itemOutputs("2x gtceu:tiny_uranium_dust")
         .EUt(30)
         .duration(400)
-
-
-
-    event.remove({ id: "gtceu:assembler/cover_ender_fluid_link" })
-
-
     event.recipes.gtceu.assembler("cover_ender_fluid_link")
         .EUt(480)
         .duration(320)
@@ -423,7 +416,7 @@ ServerEvents.recipes(event => {
         .circuit(7)
         .EUt(4)
         .duration(100)
-    event.remove({ id: "gtceu:assembler/barrel" })
+    
 
     event.recipes.gtceu.naq_mk1("generator1")
         .inputFluids(Fluid.of("gtceu:superfuelmk1", 1))
@@ -824,10 +817,7 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of('gtceu:fiber_glass', 288))
         .EUt(30)
         .duration(120)
-    event.remove({ id: 'gtceu:assembler/space_helmet' })
-    event.remove({ id: 'gtceu:shaped/space_suit' })
-    event.remove({ id: 'gtceu:shaped/space_pants' })
-    event.remove({ id: 'gtceu:shaped/space_boots' })
+    
     event.recipes.gtceu.assembler('space_helmet')
         .itemInputs('gtceu:glass_plate', '4x kubejs:space_fabric')
         .inputFluids(Fluid.of('gtceu:glue', 72))
@@ -904,7 +894,6 @@ ServerEvents.recipes(event => {
         .duration(800)
         .EUt(480)
         .blastFurnaceTemp(1700)
-    event.remove({ id: 'gtceu:electric_blast_furnace/rutile_from_ilmenite' })
     event.shaped(
         'ctnhcore:hellforge', [
             'ICI',

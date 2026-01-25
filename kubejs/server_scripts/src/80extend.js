@@ -20,19 +20,9 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of("gtceu:shock_resistant_alloy", 2400))
         .EUt(2400)
         .duration(240)
-    event.remove({ id: "gtceu:assembler/plate_radiation_2" })
-    event.remove({ id: "gtceu:assembler/plate_radiation" })
-    event.remove({ id: "gtceu:electric_blast_furnace/iro2" })
-    event.remove({ id: "gtceu:shaped/casing_assembly_control" })
-    event.remove({ id: "gtceu:shaped/casing_assembly_line" })
+
     event.remove({ id: "sophisticatedbackpacks:stack_upgrade_omega_tier" })
-    event.remove({ id: "gtceu:electrolyzer/decomposition_electrolyzing_ammonium_chloride" })
-    event.remove({ id: "gtceu:assembler/mar_casing" })
-        //移除超净配方
-    event.remove({ id: "gtceu:arc_furnace/arc_cleaning_maintenance_hatch" })
-    event.remove({ id: "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_cleaning_maintenance_hatch" })
-        //提高了中子素配方的产率
-    event.remove({ id: "gtceu:fusion_reactor/americium_and_naquadria_to_neutronium_plasma" })
+    
     ctnh.fusion_reactor('americium_and_naquadria_to_neutronium_plasma')
         .outputFluids('gtceu:neutronium 256')
         .inputFluids('gtceu:naquadria 256')

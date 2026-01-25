@@ -14358,7 +14358,7 @@ hash = "381991335e668c8a2472e5020a0e9584fda5e7bccc4ddd797d76eee327f18580"
 
 [[files]]
 file = "kubejs/server_scripts/src/80extend.js"
-hash = "94145613328390c2b0b94a72807884b1c62dddb2ac4bab0a2ac66387779e6bdc"
+hash = "73abdc660c71d1b4f81fb7856f19543945f806ec892fb90280c5c7b94651d3fb"
 
 [[files]]
 file = "kubejs/server_scripts/src/accelerator.js"
@@ -14394,11 +14394,11 @@ hash = "1e73af31eb92399271f589ce20dc9539c2a1f5051ed78f555a7a7b048388801a"
 
 [[files]]
 file = "kubejs/server_scripts/src/cement.js"
-hash = "cb8ec9109a6ca3bdc4c3f25730b183dca8e05868c58613c5c9b5a1d7ad79a549"
+hash = "f8f605ee4352527195154f79934e45759dbbdb360bd666a585ba02ee2d627434"
 
 [[files]]
 file = "kubejs/server_scripts/src/crafttable.js"
-hash = "af07f33f1b0f5417288a0c31bac658b2e828dbd3fe6d0c3eb4aa2cf7509cabf7"
+hash = "47391cff0ffe48a037d47db9f3467df81752626fb61f40a7ac25a0e18aaf87fc"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
@@ -14410,7 +14410,7 @@ hash = "f34c039e8a5e270e3bb11cc6c152a663669ba61b1b7108783c08f35684a0c2d5"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/create.js"
-hash = "7f5005707e6b30308549fd61f68d273ae6598c5689e97c9eb9de2d3e7020e40c"
+hash = "8df4c8d34a18d3078a32b1587c38007ee26c3acaa0871ec79032ae913fc47ab6"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/createFallen.js"
@@ -14454,7 +14454,7 @@ hash = "134cfc2ed6d19d64224aeff4769aef5752500b42276c2645ffd764eabd81caf9"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/biochemistry.js"
-hash = "fd3d9499b5a6b06bc26a61a6c7890c3505e650fc382459187c7736aefec3dbf3"
+hash = "01fec46c430f39398e4f3db893718ed0324142dce89ae9d9b0bfcadd55a53cb5"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/casing.js"
@@ -14462,7 +14462,7 @@ hash = "b9e464318f222c13db7d81606663d3cc0d77c75eb3f84abb154588933332928b"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/AluminumChain.js"
-hash = "027c154d44d07b576ed59270dfa5a5d12e8babd1a2f04bc76f4e81a06dcfc94d"
+hash = "bd774a99e651972427a5921617c8384e7589e6eaf6d40c0f0945250b8f7d13ff"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/ChromiteChain.js"
@@ -14502,7 +14502,7 @@ hash = "9e41b6faf04df20b84ccee29a2a9d83aaf2c0adee85b2c308a2f7751466bb45f"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/PlatinumChain.js"
-hash = "fd1643cec56ef8b8e6d4cfc1736598b194a64fad9dc0e34171a935211af8b463"
+hash = "7075a97a447389e95cac967988300a6fb54c5d38f195986a8dd68dad44fc5574"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/RareearthChain.js"
@@ -14514,11 +14514,11 @@ hash = "208dbcea0a8598da2995a887e0e76a1b9d92c294297c7f426aae69f1e4170f40"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/SiliconChain.js"
-hash = "904b3a966500c6ff381c8bea708c904ad0f556396f5fa4ef8cc4024cb163902a"
+hash = "f8714c0bd5157a3d95d64fbb6f2106187f2b83b3c734ec9daecb1feb7f6133e2"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/SnowAdjust.js"
-hash = "13452830e4cb396ed6129be266e5b380cd8fecd3775ccd9cc9818dda78a7e73d"
+hash = "398c250e4ed934d3844dc602f284d7d9357fe70474786d43669ed45192e44a3c"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/SpaceFabric.js"
@@ -14550,7 +14550,7 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "341fa2c7ea5bfd43458d7c95366b8d900405c22dd7d51a849106cefd82eaeb34"
+hash = "463d8a46e40b3e18904559e549988d219af5e4b1b500ec9fd4127f07e5f1021c"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/uhvParts.js"
@@ -14559,6 +14559,10 @@ hash = "ef0405fc54a29c8f2d66f04fa84b84309e68d4099378f0193f1407fd7356608c"
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/wood.js"
 hash = "8fb12367dccf421e66c69062587c404fcbc1db7bf1916462812adc054ab75bf2"
+
+[[files]]
+file = "kubejs/server_scripts/src/gtceu_remove.js"
+hash = "02426557dc0b24209fe53481fd035d5fd97195650e8c5baed30e3f488bd94216"
 
 [[files]]
 file = "kubejs/server_scripts/src/hostilenetworks.js"
@@ -14586,7 +14590,7 @@ hash = "2037acce5be9b205fd6162029b3ef4c25cac09c5f3c31afd6311f6749ffdab99"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "8628268cd99f6447fb8f8052aad649968dd9e2a717b8cba660f2238de0d86ddf"
+hash = "4b5bbbd4173059d4ed2e20ea3a0e679e4befe7e5e8393e010639899857c541c2"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -15221,7 +15225,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "a7909be58dddb355cf63bf741da0e5444cac527bc554fea878f314050c0b4802"
+hash = "13306fd8dc27c0f5afb60874e6a12fc1b2252ac02e8a89ccc2f046f4898627ff"
 metafile = true
 
 [[files]]
@@ -15361,7 +15365,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "15c0a59c94602e702789fdfcb8a47d58fdd651d2c87600df257a3e7078f72d19"
+hash = "4607088e3d3dcfb763cfc6fe3d41ca0240b5a98c59c7263d855a671c222f0f14"
 metafile = true
 
 [[files]]
@@ -15586,12 +15590,12 @@ metafile = true
 
 [[files]]
 file = "mods/rechiseled-create.pw.toml"
-hash = "4367bd8efc0b71c573a174f6e40b0aaf41afb57e2b9e39ba71539cd0799470a2"
+hash = "b20a87de5c777553983e6edaaedd11577d2aa0619ba93428bd550fd0ad9e535b"
 metafile = true
 
 [[files]]
 file = "mods/rechiseled.pw.toml"
-hash = "189603438239efe8edd948f08cec01aa59538f8eb51f91f08a2f27f5d2c466ea"
+hash = "79ce2425ff42c8f5b7262ca67038cbb7e080cee309785b087abaf206c200da68"
 metafile = true
 
 [[files]]
@@ -15691,7 +15695,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "cef87f70071f89dfe80e4a62f0280b43c880771e9ea91d3f397366e7155c4b3a"
+hash = "40a73f377f8dcf95c0e801bdc69e68bc4a2d29ec0bcf17f4dcb1a78f887021d1"
 metafile = true
 
 [[files]]

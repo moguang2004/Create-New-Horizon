@@ -26,8 +26,7 @@ ServerEvents.recipes(event => {
         }
     )
 
-    // 压缩黏土配方
-    event.remove({'output': 'gtceu:compressed_clay'});
+
     event.shaped(
         '8x gtceu:compressed_clay',
         [
@@ -56,8 +55,7 @@ ServerEvents.recipes(event => {
         }
     ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
     
-    // 焦炉砖块配方
-    event.remove({'output': 'gtceu:coke_oven_bricks'})
+
     event.shaped(
         '2x gtceu:coke_oven_bricks',
         [
@@ -71,8 +69,7 @@ ServerEvents.recipes(event => {
         }
     ).replaceIngredient('gtceu:cement_bucket', 'minecraft:bucket')
     
-    // 耐火粘土粉配方
-    event.remove({'output': 'gtceu:fireclay_dust', 'input': 'gtceu:clay_dust'});
+
     event.recipes.create.mixing(
         '8x gtceu:fireclay_dust',
         [
@@ -83,8 +80,7 @@ ServerEvents.recipes(event => {
         ]
     ).heated()
 
-    // 耐火粘土砖块配方
-    event.remove({ output: 'gtceu:firebricks' })
+
     event.shaped(
         '2x gtceu:firebricks',
         [

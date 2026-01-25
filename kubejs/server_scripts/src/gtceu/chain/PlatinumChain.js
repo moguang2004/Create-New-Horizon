@@ -1,18 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: 'gtceu:large_chemical_reactor/platinum_group_sludge_tiny_dust1' })
-    event.remove({ id: 'gtceu:large_chemical_reactor/pgs_from_pentlandite' })
-    event.remove({ id: 'gtceu:large_chemical_reactor/platinum_group_sludge_dust1_lv' })
-    event.remove({ id: 'gtceu:large_chemical_reactor/pgs_from_chalcopyrite' })
-    event.remove({ id: 'gtceu:large_chemical_reactor/pgs_from_chalcocite' })
-    event.remove({ id: 'gtceu:large_chemical_reactor/pgs_from_tetrahedrite' })
-    event.remove({ id: 'gtceu:large_chemical_reactor/pgs_from_bornite' })
-    event.remove({ id: 'gtceu:chemical_reactor/platinum_group_sludge_tiny_dust1' })
-    event.remove({ id: 'gtceu:chemical_reactor/pgs_from_pentlandite' })
-    event.remove({ id: 'gtceu:chemical_reactor/platinum_group_sludge_dust1_lv' })
-    event.remove({ id: 'gtceu:chemical_reactor/pgs_from_chalcopyrite' })
-    event.remove({ id: 'gtceu:chemical_reactor/pgs_from_chalcocite' })
-    event.remove({ id: 'gtceu:chemical_reactor/pgs_from_tetrahedrite' })
-    event.remove({ id: 'gtceu:chemical_reactor/pgs_from_bornite' })
+    
 
     event.recipes.gtceu.mana_seperator('crystal_catalyst')
     .itemInputs('20x gtceu:platinum_group_sludge_dust')
