@@ -1,12 +1,13 @@
 name = "Blood Magic "
-filename = "bloodmagic-1.20.1-3.3.3-45.jar"
+filename = "bloodmagic-1.20.1-3.3.5-47.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ec15dfd15a8b9f3ebb05038038f92c79ff5ceb02"
-url = "https://edge.forgecdn.net/files/5290/993/bloodmagic-1.20.1-3.3.3-45.jar"
+hash = "ae2451fcb27f75421337d38d3a13f3e5f4b6dd71"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 5290993
+file-id = 7253333
 project-id = 224791
