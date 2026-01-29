@@ -376,31 +376,46 @@
 				{
 					count: 64L
 					id: "0895A143EC59DD7F"
-					item: { Count: 64, id: "kubejs:biological_patch_transistor" }
+					item: {
+						Count: 64
+						id: "kubejs:biological_patch_transistor"
+					}
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "7C6C380A7A7044DD"
-					item: { Count: 64, id: "kubejs:biological_patch_resistor" }
+					item: {
+						Count: 64
+						id: "kubejs:biological_patch_resistor"
+					}
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "77FA27723921490C"
-					item: { Count: 64, id: "kubejs:biological_patch_capacitor" }
+					item: {
+						Count: 64
+						id: "kubejs:biological_patch_capacitor"
+					}
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "62AFDA5A676960BF"
-					item: { Count: 64, id: "kubejs:biological_patch_diode" }
+					item: {
+						Count: 64
+						id: "kubejs:biological_patch_diode"
+					}
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "6544222F6A1DDE81"
-					item: { Count: 64, id: "kubejs:biological_patch_inductor" }
+					item: {
+						Count: 64
+						id: "kubejs:biological_patch_inductor"
+					}
 					type: "item"
 				}
 			]

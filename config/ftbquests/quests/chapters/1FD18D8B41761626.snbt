@@ -877,7 +877,10 @@
 					consume_items: true
 					count: 64L
 					id: "3F1276E0914583CE"
-					item: { Count: 64, id: "gtceu:raw_mana_fused" }
+					item: {
+						Count: 64
+						id: "gtceu:raw_mana_fused"
+					}
 					type: "item"
 				}
 				{

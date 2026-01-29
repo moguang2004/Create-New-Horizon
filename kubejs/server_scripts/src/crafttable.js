@@ -581,19 +581,7 @@ ServerEvents.recipes(event => {
             E: "#gtceu:circuits/hv"
         })
     event.shaped(
-        Item.of("ctnhcore:water_power_station", 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: "ctnhcore:mana_steel_casing",
-            B: "create:large_water_wheel",
-            C: "gtceu:mv_machine_hull",
-            D: "gtceu:mv_electric_pump",
-            E: "#gtceu:circuits/mv"
-        })
-    event.shaped(
-        Item.of("ctnhcore:mana_macerator", 1), [
+        Item.of("ctnhmana:mana_macerator", 1), [
             "AAA",
             "BCB",
             "DDD"
@@ -602,18 +590,6 @@ ServerEvents.recipes(event => {
             B: "gtceu:mv_electric_motor",
             C: "gtceu:mv_macerator",
             D: "gtceu:diamond_grinding_head"
-        })
-    event.shaped(
-        Item.of("ctnhcore:mana_seperator", 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: "botania:polished_livingrock",
-            B: "gtceu:hv_conveyor_module",
-            C: "gtceu:hv_centrifuge",
-            D: "gtceu:hv_electric_pump",
-            E: "#gtceu:circuits/hv"
         })
     event.shaped(
         Item.of("ctnhcore:photovoltaic_power_station_energetic", 1), [
@@ -1049,25 +1025,7 @@ ServerEvents.recipes(event => {
         })
 
     event.shaped(
-        Item.of('gtmthings:ulv_huge_item_import_bus', 1), [
-            "A",
-            "B"
-        ], {
-            A: 'gtceu:ulv_input_bus',
-            B: 'sophisticatedstorage:basic_to_diamond_tier_upgrade'
-        })
-
-    event.shaped(
-        Item.of('gtmthings:ulv_huge_item_export_bus', 1), [
-            "A",
-            "B"
-        ], {
-            A: 'gtceu:ulv_output_bus',
-            B: 'sophisticatedstorage:basic_to_diamond_tier_upgrade'
-        })
-
-    event.shaped(
-        Item.of('ctnhcore:mana_bender', 1), [
+        Item.of('ctnhmana:mana_bender', 1), [
             "AGA",
             "BCB",
             "DEF"
@@ -1078,14 +1036,11 @@ ServerEvents.recipes(event => {
             D: 'gtceu:mv_electric_piston',
             E: 'gtceu:mv_robot_arm',
             F: '#gtceu:circuits/ev',
-            G: 'ctnhcore:terra_steel_casing'
+            G: 'ctnhmana:terra_steel_casing'
         })
 
-
-
-
     event.shaped(
-        Item.of('ctnhcore:mana_reactor', 1), [
+        Item.of('ctnhmana:mana_reactor', 1), [
             "AAA",
             "BCB",
             "DED"
@@ -1210,7 +1165,7 @@ ServerEvents.recipes(event => {
             B: '#forge:chests/wooden'
         })
     event.shaped(
-        Item.of("ctnhcore:elementium_normal_fluid_pipe", 2), [
+        Item.of("ctnhmana:elementium_normal_fluid_pipe", 2), [
             "A A",
             "A A",
             "A A"
@@ -1218,12 +1173,12 @@ ServerEvents.recipes(event => {
             A: "gtceu:elementium_plate"
         })
     event.shaped(
-        Item.of("ctnhcore:elementium_pipe_casing", 1), [
+        Item.of("ctnhmana:elementium_pipe_casing", 1), [
             "CAC",
             "ABA",
             "CAC"
         ], {
-            A: "ctnhcore:elementium_normal_fluid_pipe",
+            A: "ctnhmana:elementium_normal_fluid_pipe",
             B: "gtceu:elementium_frame",
             C: "gtceu:elementium_plate"
         })
@@ -1252,7 +1207,7 @@ ServerEvents.recipes(event => {
             E: "gtceu:iv_electric_motor"
         })
     event.shaped(
-        Item.of("ctnhcore:corrosive_core", 1), [
+        Item.of("ctnhmana:corrosive_core", 1), [
             "ABA",
             "CDC",
             "AEA"
@@ -1264,7 +1219,7 @@ ServerEvents.recipes(event => {
             E: "botania:lens_mine"
         })
     event.shaped(
-        Item.of("ctnhcore:vengeful_core", 1), [
+        Item.of("ctnhmana:vengeful_core", 1), [
             "ABA",
             "CDC",
             "AEA"
@@ -1276,7 +1231,7 @@ ServerEvents.recipes(event => {
             E: "botania:lens_damage"
         })
     event.shaped(
-        Item.of("ctnhcore:destructive_core", 1), [
+        Item.of("ctnhmana:destructive_core", 1), [
             "ABA",
             "CDC",
             "AEA"
@@ -1288,7 +1243,7 @@ ServerEvents.recipes(event => {
             E: "botania:lens_influence"
         })
     event.shaped(
-        Item.of("ctnhcore:steadfast_core", 1), [
+        Item.of("ctnhmana:steadfast_core", 1), [
             "ABA",
             "CDC",
             "AEA"

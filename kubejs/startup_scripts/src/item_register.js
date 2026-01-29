@@ -17,29 +17,19 @@ StartupEvents.registry("item", event => {
     event.create('stone_process_catalyst')
     event.create('bauxite_process_catalyst')
     event.create('tallow').burnTime('1600')
-    let tiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv']
-    tiers.forEach(tier => {
-        event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
-    })
     let moreTiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
     for (let i = 0; i < 15; i++) {
         event.create('general_circuit_' + moreTiers[i]).tag('gtceu:circuits/' + moreTiers[i]).tooltip(GTValues.VNF[i] + '级电路板')
     }
     event.create('crashed_rice')
     event.create('space_fabric')
-    event.create('imprinted_resonatic_circuit_board')
-    event.create('raw_imprinted_resonatic_circuit_board')
     event.create('echo_processor').tag('gtceu:circuits/zpm')
     event.create('echo_processor_assembly').tag('gtceu:circuits/uv')
     event.create('echo_processor_computer').tag('gtceu:circuits/uhv')
     event.create('echo_processor_mainframe').tag('gtceu:circuits/uev')
     event.create('echo_circuit_board')
     event.create('echo_printed_circuit_board')
-    event.create('biological_patch_transistor').tooltip('§a生物电子元件')
-    event.create('biological_patch_resistor').tooltip('§a生物电子元件')
-    event.create('biological_patch_capacitor').tooltip('§a生物电子元件')
-    event.create('biological_patch_diode').tooltip('§a生物电子元件')
-    event.create('biological_patch_inductor').tooltip('§a生物电子元件')
+
     event.create('circuit_board_m_one')
     event.create('circuit_board_m_two')
     event.create('circuit_board_m_three')
@@ -48,16 +38,11 @@ StartupEvents.registry("item", event => {
     event.create('uhv_voltage_coil')
     event.create('mana_lens')
     event.create('elementium_lens')
-    event.create("terria_catalyst")
+
     event.create("encapsulated_twist_mana")
     event.create("yharim").tooltip('你必须§6爱护蜜蜂§r才能激发这个锭的真正力量，哦你已经爱过蜜蜂了')
     event.create('strongly_interacting_neutron_refector').tooltip("硬度超越水滴")
-    event.create('constrained_electron_deficient_atom_neutronium')
-    event.create('constrained_proton_deficient_atom_neutronium')
-    event.create('constrained_proton_deficient_atom_neutronium_broken')
-    event.create('constrained_chaos_proton_deficient_atom_neutronium')
-    event.create('constrained_unstable_neutronium')
-    event.create('adamantite_proton_source')
+
     event.create('source_of_countless_magical_powers').tooltip("疯狂至极")
     event.create('book_of_ruina').tooltip("一场赞歌摇篮曲")
     event.create('heart_of_flower').tooltip("§2她曾存在过")
