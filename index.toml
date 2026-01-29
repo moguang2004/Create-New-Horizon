@@ -14533,10 +14533,6 @@ file = "modpack_version.json"
 hash = "b136e102febf961a4c3a8e7d4566bd13a75850b1b3e70c66ac5fb35437fe7ca8"
 
 [[files]]
-file = "mods/CTNH Core-1.0.22.jar"
-hash = "6dae1b1740f5591c96d355e2f6a0b2e50db5fcd21d518b5e99a6d2ccf71cddbc"
-
-[[files]]
 file = "mods/CTNH Core-1.4.0.jar"
 hash = "89ba2f2e2c230ef5cf939eb07e159587192f42e0c133397a63daa1a1d17f5dc1"
 
@@ -14858,11 +14854,6 @@ metafile = true
 [[files]]
 file = "mods/cryonicconfig.pw.toml"
 hash = "0153a3f2bb0d657b4754ddfac78c1f3418de14a9f75ff17e607b6225ba830395"
-metafile = true
-
-[[files]]
-file = "mods/ctnh-core.pw.toml"
-hash = "f42cfce56558413df92c898ad4e3f8b3a2112afd018436269fa60d315716a7ab"
 metafile = true
 
 [[files]]
