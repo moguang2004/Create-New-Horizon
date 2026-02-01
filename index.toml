@@ -1026,7 +1026,7 @@ hash = "5ae0146402365c3c13539df3f9765906fc61324d0724725afad7de9010a968c7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/142AC829C9062F15.snbt"
-hash = "ebc67babc8a986b1addf90f4781ac7f9fcfb272ef5e80ec13f204c5624020969"
+hash = "1ba7a918e6a7fd60fdf8107e937e3a3bff9ee69338206892c816eb91ab470b4d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15B8D9F4A2A19BFA.snbt"
@@ -1106,7 +1106,7 @@ hash = "c69e5b3a1ef7858ef3162ae1a0e04d83e56e0610b688c113f60a45ddbc25eced"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "9140cd93e1cc23b9d5ddc69739cc37eb313176c9087939fe6dbf55404abe2537"
+hash = "9c4b844bef65a25301aad084a00558ee1e37f1aa2681add11e8ab27d5f0e52a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
@@ -1138,7 +1138,7 @@ hash = "a4a6fbe81400af2a2a0658674b09bec115a60208ace220ff96e0699872a758cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uhv.snbt"
-hash = "4586a35f04f367a66a30264ba8c92b682aa1accfdfb117d421376797db6b0945"
+hash = "c96e9b74f79c412f6a7e7b4779f1157140dc47579849557f0121f3741eaddffb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
@@ -1146,7 +1146,7 @@ hash = "9a00a89eca91f3e232c7279477d0bbf450e70602d83087c0ee6da175186525b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
-hash = "8c577b2656fc861a511c7397522e8f746b5f3fe548b7b448d74dcd913d595418"
+hash = "f04816eade7ac04093064a647a6f93c7997a176f336c35c584da6d875992fede"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -14318,7 +14318,7 @@ hash = "f34c039e8a5e270e3bb11cc6c152a663669ba61b1b7108783c08f35684a0c2d5"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/create.js"
-hash = "8df4c8d34a18d3078a32b1587c38007ee26c3acaa0871ec79032ae913fc47ab6"
+hash = "dabfa6c55656ad28c825d742ab8d4ae34026514958acbc06e4841a486e9b421b"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/createFallen.js"
