@@ -18,6 +18,8 @@ ServerEvents.tags('minecraft:fluid', event => {
 	})
 })
 //浇筑
+/*
+* 已经移动到Core
 ServerEvents.recipes(event => {
     tconstruct_casting_table(event, 'gtceu:andesite_alloy_ingot', 'gtceu:andesite_alloy', 144, 'tconstruct:ingot_cast', false, 90)
 
@@ -32,20 +34,25 @@ ServerEvents.recipes(event => {
 	tconstruct_casting_basin(event, 'gtceu:wrought_iron_block', 'gtceu:wrought_iron', 1296, null, false, 180)
 
 })
-//合金
-//ServerEvents.recipes(event => {
-//	tconstruct_alloy(event, 'gtceu:brass', 576, [
-//		['gtceu:zinc', 432],
-//		['gtceu:copper', 144]
-//	], 605)
-//
-//	tconstruct_alloy(event, 'gtceu:bronze', 576, [
-//		['gtceu:tin', 432],
-//		['gtceu:copper', 144]
-//	], 605)
-//})
+*/
+/*合金
+* 已经移动到Core
+ServerEvents.recipes(event => {
+	tconstruct_alloy(event, 'gtceu:brass', 576, [
+		['gtceu:zinc', 432],
+		['gtceu:copper', 144]
+	], 605)
+
+	tconstruct_alloy(event, 'gtceu:bronze', 576, [
+		['gtceu:tin', 432],
+		['gtceu:copper', 144]
+	], 605)
+})
+*/
 //融化
 ServerEvents.recipes(event => {
+	/*
+	* 已经移动到Core
 	//熔融粘土
 	tconstruct_melting(event, "tconstruct:clay", 125, "gtceu:fireclay_dust", 1000, 200)
 	
@@ -61,7 +68,9 @@ ServerEvents.recipes(event => {
 	
 	//贵金属
 	tconstruct_melting(event, 'gtceu:gold', 64, 'gtceu:precious_alloy_ingot', 800, 40)
-
+	*/
+	/*
+	* 已经移动到Core
 	//燃料
 	melting_fuels(event, 100, 25, 2300, ['gtceu:raw_bio_diesel', 25])//生物柴油
 	melting_fuels(event, 100, 50, 3500, ['gtceu:diesel', 5])//柴油
@@ -71,6 +80,7 @@ ServerEvents.recipes(event => {
 	melting_fuels(event, 200, 30, 4000, ['gtceu:blaze', 100])//烈焰烈焰
 	melting_fuels(event, 200, 500, 5700, ['gtceu:pyrotheum', 1])//烈焰之炽焱
 	melting_fuels(event, 114514, 1919, 8100, ['gtceu:snow_steel', 999])//雪城钢
+	*/
 
 })
 
