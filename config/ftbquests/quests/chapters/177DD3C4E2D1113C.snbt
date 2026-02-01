@@ -18,6 +18,7 @@
 				MaxAoERow: 1
 			}
 			GT.Tool: {
+				DefaultEnchantments: [ ]
 				HarvestLevel: 2
 				MaxDamage: 767
 				ToolSpeed: 4.8f
@@ -2258,5 +2259,5 @@
 			y: 5.0d
 		}
 	]
-	title: "{ftbquests.chapter.177DD3C4E2D1113C.title}"
+	title: "&e矿物处理"
 }
