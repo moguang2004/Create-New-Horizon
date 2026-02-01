@@ -27,6 +27,7 @@ An modpack which combined Create and GregTech together! According to the core mo
 
 # Attention
 * 本整合包库不包含mods文件夹中的大部分模组，请在开发群内下载。
+* 库中CTNH-Retextured材质包采用CC-BY协议，其余代码遵守LGPL-3.0协议
 ---
 # 总体介绍
 集科技、魔法、冒险于一体的大型魔改整合包！名字源自大名鼎鼎的GTNH，此整合包的理想也是做出一个能够在玩法趣味上不断追赶GTNH的整合包。

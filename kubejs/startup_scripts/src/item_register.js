@@ -42,7 +42,11 @@ StartupEvents.registry("item", event => {
     event.create("encapsulated_twist_mana")
     event.create("yharim").tooltip('你必须§6爱护蜜蜂§r才能激发这个锭的真正力量，哦你已经爱过蜜蜂了')
     event.create('strongly_interacting_neutron_refector').tooltip("硬度超越水滴")
-
+    event.create('biological_patch_transistor').tooltip('§a生物电子元件')
+    event.create('biological_patch_resistor').tooltip('§a生物电子元件')
+    event.create('biological_patch_capacitor').tooltip('§a生物电子元件')
+    event.create('biological_patch_diode').tooltip('§a生物电子元件')
+    event.create('biological_patch_inductor').tooltip('§a生物电子元件')
     event.create('source_of_countless_magical_powers').tooltip("疯狂至极")
     event.create('book_of_ruina').tooltip("一场赞歌摇篮曲")
     event.create('heart_of_flower').tooltip("§2她曾存在过")
