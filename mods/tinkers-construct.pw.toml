@@ -1,13 +1,13 @@
 name = "GregTech-Construct"
-filename = "GregTech-Construct-3.11.0.148.jar"
+filename = "GregTech-Construct-3.11.2.166.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "bcc322dff3409ebec35029535faaac093dc93564"
-url = "https://mediafilez.forgecdn.net/files/7373/908/GregTech-Construct-3.11.0.148.jar"
+hash = "cae597712e3ec2364120b377374b844bc3a70082"
+url = "https://edge.forgecdn.net/files/7571/83/GregTech-Construct-3.11.2.166.jar"
 
 [update.curseforge]
-file-id = 7373908
+file-id = 7571083
 project-id = 1313873
 
