@@ -26,7 +26,6 @@ ServerEvents.recipes(event => {
         "minecraft:lightning_rod",
         "create_new_age:pressing/overcharged_gold",
         "create_new_age:pressing/overcharged_iron",
-        "enderio:void_chassis",
         
         "tfmg:sequenced_assembly/steel_mechanism",
         "tfmg:sequenced_assembly/turbine_engine",
@@ -39,22 +38,11 @@ ServerEvents.recipes(event => {
         "create:crafting/kinetics/mechanical_bearing",
         "biomesoplenty:tnt_from_bop_sand",
         "mynethersdelight:tnt_alt",
-        "enderio:alloy_smelting/pulsating_alloy_ingot",
-        "enderio:alloy_smelting/vibrant_alloy_ingot",
-        "enderio:alloy_smelting/copper_alloy_ingot",
-        "enderio:alloy_smelting/redstone_alloy_ingot",
-        "enderio:alloy_smelting/end_steel_ingot",
-        "enderio:alloy_smelting/dark_steel_ingot",
-        "enderio:alloy_smelting/conductive_alloy_ingot",
         "tetranichematerials:red_gold_powder",
-        
-        "enderio:copper_ingot_from_smelting",
+
         "bloodmagic:smelting/ingot_copper",
         "bloodmagic:smelting/blasting_ingot_copper",
-        "enderio:iron_ingot_from_blasting",
         "bloodmagic:smelting/ingot_iron",
-        "enderio:iron_ingot_from_smelting",
-        "enderio:gold_ingot_from_smelting",
         "bloodmagic:smelting/ingot_gold",
         "bloodmagic:smelting/blasting_ingot_gold",
         "create_new_age:shaped/layered_magnet",
@@ -104,7 +92,6 @@ ServerEvents.recipes(event => {
         "vintageimprovements:pressurizing/sulfur_trioxide",
         "vintageimprovements:pressurizing/sulfur_dioxide",
         "vintageimprovements:craft/sulfur_items_to_block",
-        "enderio:sag_milling/ender_pearl",
         "expatternprovider:circuit_cutter",
         "createdieselgenerators:compression_molding/bucket",
         "sophisticatedstorage:backpack_stack_upgrade_omega_tier_from_storage_stack_upgrade_omega_tier",
@@ -137,8 +124,6 @@ ServerEvents.recipes(event => {
         'aether:moa_egg_pumpkin_pie',
         //压肉块
         'biofactory:compacting/flesh_block_from_flesh_bits',
-        //魂金锭
-        'enderio:alloy_smelting/soularium_ingot',
         //安山合金块
         'create:crafting/materials/andesite_alloy_from_block',
         'create:crafting/materials/andesite_alloy_block',
