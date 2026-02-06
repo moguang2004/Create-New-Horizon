@@ -18,6 +18,7 @@
 				MaxAoERow: 1
 			}
 			GT.Tool: {
+				DefaultEnchantments: [ ]
 				HarvestLevel: 2
 				MaxDamage: 767
 				ToolSpeed: 4.8f
@@ -26,7 +27,7 @@
 		}
 	}
 	id: "07118DAC24E83AB7"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -797,11 +798,10 @@
 		}
 		{
 			dependencies: ["352A6F62ED6692B3"]
-			id: "1B42116566009D69"
-			size: 1.5d
+			id: "311E3575421537D5"
 			tasks: [{
-				id: "43381ADD2362D745"
-				item: "gtceu:raw_naquadah"
+				id: "6ECEC2FB84261514"
+				item: "gtceu:naquadah_oxide_mixture_dust"
 				type: "item"
 			}]
 			x: -3.5d
@@ -809,36 +809,13 @@
 		}
 		{
 			dependencies: ["352A6F62ED6692B3"]
-			id: "3BBF96E8CFC2B837"
-			size: 1.5d
-			tasks: [{
-				id: "2D3DC23A7D4009AE"
-				item: "gtceu:raw_enriched_naquadah"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1B42116566009D69"]
-			id: "311E3575421537D5"
-			tasks: [{
-				id: "6ECEC2FB84261514"
-				item: "gtceu:naquadah_oxide_mixture_dust"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3BBF96E8CFC2B837"]
 			id: "6CB97E1AD7A6E668"
 			tasks: [{
 				id: "520DD82A1D1FEEB0"
 				item: "gtceu:enriched_naquadah_oxide_mixture_dust"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: 5.0d
 		}
 		{
@@ -860,7 +837,7 @@
 				item: "gtceu:naquadah_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -0.5d
 			y: 3.0d
 		}
 		{
@@ -875,7 +852,7 @@
 				item: "gtceu:impure_enriched_naquadah_solution_bucket"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -0.5d
 			y: 5.0d
 		}
 		{
@@ -947,19 +924,19 @@
 				item: "gtceu:acidic_enriched_naquadah_solution_bucket"
 				type: "item"
 			}]
-			x: 21.5d
+			x: 18.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["0D20629FA261446E"]
 			id: "5A941BB7E8160424"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "3AE92F3A81A20813"
 				item: "gtceu:enriched_naquadah_sulfate_dust"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 21.5d
 			y: 5.0d
 		}
 		{
@@ -2269,6 +2246,18 @@
 			x: 17.5d
 			y: 11.5d
 		}
+		{
+			dependencies: ["5A941BB7E8160424"]
+			id: "6CBA332C859DADF5"
+			size: 1.5d
+			tasks: [{
+				id: "7622FAC2EB68A952"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 5.0d
+		}
 	]
-	title: "{ftbquests.chapter.177DD3C4E2D1113C.title}"
+	title: "&e矿物处理"
 }

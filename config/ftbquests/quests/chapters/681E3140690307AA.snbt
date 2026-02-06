@@ -549,7 +549,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest9198886268426787312.subtitle}"
+			subtitle: "记得收集安山岩呀~"
 			tasks: [{
 				id: "19245BF7A4D48BFB"
 				item: "gtceu:andesite_alloy_ingot"
@@ -1037,6 +1037,24 @@
 			x: -5.0d
 			y: 7.0d
 		}
+		{
+			description: [
+				"按住CTRL+K可以打开MUI界面，选择偏好设置，向左拖动鼠标滑到右边的界面内，找到首选字体家族，点击当前字体可以更换其他字体"
+				"如果要字体添加字体也可以将需要添加的字体以ttf的格式放入：版本文件夹→config→ModernUI根目录下"
+				"最后，你只需要点开游戏设置→语言,随后将强制使用Unicode字体设置为开即可完美享用字体辣"
+			]
+			icon: "ctnhmana:yuriko_ring"
+			id: "589CE9C2FC6ECFA7"
+			size: 2.0d
+			subtitle: "我的天哪MUI大人"
+			tasks: [{
+				id: "3821A71E70FA0E0D"
+				title: "什么，还有字体可以换"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
 	]
-	title: "{ftbquests.chapter.681E3140690307AA.title}"
+	title: "&6原始人，启动！"
 }

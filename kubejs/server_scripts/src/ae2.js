@@ -867,4 +867,5 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:lubricant 1000')
         .EUt(7680 * 4)
         .duration(100)
+    // TODO: quantum cpu
 })

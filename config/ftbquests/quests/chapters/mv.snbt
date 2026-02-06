@@ -209,10 +209,6 @@
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"64F3856504BEA9F2"
-				"36B9FCEC9579E090"
-			]
 			dependency_requirement: "one_completed"
 			id: "552458CB71BFFED9"
 			tasks: [{
@@ -378,11 +374,18 @@
 			shape: "rsquare"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.mv.quest6509342559711130505.subtitle}"
-			tasks: [{
-				id: "7BAD7E832FEF40F0"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7BAD7E832FEF40F0"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "2A6E7827C0B2FF84"
+					title: "check~"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.mv.quest6509342559711130505.title}"
 			x: 17.5d
 			y: 6.0d
@@ -617,11 +620,18 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [{
-				id: "5B98F8342CFB3E30"
-				item: "minecraft:dragon_breath"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5B98F8342CFB3E30"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "44CDE2C93AB131A3"
+					title: "check~"
+					type: "checkmark"
+				}
+			]
 			title: "{ftbquests.chapter.mv.quest4709344613154210809.title}"
 			x: 21.5d
 			y: 5.0d
@@ -1319,5 +1329,5 @@
 			y: 6.0d
 		}
 	]
-	title: "{ftbquests.chapter.mv.title}"
+	title: "&bMV时期"
 }

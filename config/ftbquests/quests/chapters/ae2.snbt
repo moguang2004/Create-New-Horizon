@@ -243,10 +243,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"10C3F5FDB012D5A8"
-				"6729EFF9916E0F53"
-			]
+			dependencies: ["10C3F5FDB012D5A8"]
 			description: ["{ftbquests.chapter.ae2.quest7677789835216617613.description1}"]
 			id: "6A8CFD2D2C31008D"
 			rewards: [
@@ -663,10 +660,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"39932A8C0601C003"
-				"6729EFF9916E0F53"
-			]
+			dependencies: ["39932A8C0601C003"]
 			description: ["{ftbquests.chapter.ae2.quest751708475188667641.description1}"]
 			id: "0A6E9AE01E4564F9"
 			subtitle: "{ftbquests.chapter.ae2.quest751708475188667641.subtitle}"
@@ -1620,10 +1614,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"4A02AB33931358B6"
-				"41E48BCAEAD9D47E"
-			]
+			dependencies: ["41E48BCAEAD9D47E"]
 			id: "0EB3441858295940"
 			tasks: [{
 				id: "186B36D37C64AB3E"
@@ -1634,10 +1625,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"0EB3441858295940"
-				"2D662EFDE7A39BB8"
-			]
+			dependencies: ["2D662EFDE7A39BB8"]
 			id: "0D80334B81800DE2"
 			tasks: [{
 				id: "0BDAEE662003AEEF"
@@ -1648,10 +1636,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"0D80334B81800DE2"
-				"3AE584B3EBC63A09"
-			]
+			dependencies: ["3AE584B3EBC63A09"]
 			id: "3AB0D8AB38C9EDDB"
 			tasks: [{
 				id: "548528A21EA44624"
@@ -1662,10 +1647,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"3AB0D8AB38C9EDDB"
-				"607209201C6B08C3"
-			]
+			dependencies: ["607209201C6B08C3"]
 			id: "162450D725403B61"
 			tasks: [{
 				id: "08354B94FDFDEEA8"
@@ -1676,10 +1658,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"162450D725403B61"
-				"216D57DF2B38AB9D"
-			]
+			dependencies: ["216D57DF2B38AB9D"]
 			id: "01A27E5E53509CFA"
 			tasks: [{
 				id: "64F3BACF6AECDFCA"
@@ -1718,10 +1697,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"7B5C04B50652F1FF"
-				"0D88A5F86881FB3B"
-			]
+			dependencies: ["0D88A5F86881FB3B"]
 			id: "718C9032898CDED4"
 			tasks: [{
 				id: "6B5A31076A4A1EEB"
@@ -1732,10 +1708,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"718C9032898CDED4"
-				"019F2136970CA2E1"
-			]
+			dependencies: ["019F2136970CA2E1"]
 			id: "66B5A15CD10AD3F9"
 			tasks: [{
 				id: "65D0CA8B40573440"
@@ -1746,10 +1719,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"66B5A15CD10AD3F9"
-				"03F6BCDB99059FD4"
-			]
+			dependencies: ["03F6BCDB99059FD4"]
 			id: "6D442B2854D5D2AD"
 			tasks: [{
 				id: "10ED7A7E770F4C12"
@@ -1791,12 +1761,6 @@
 					count: 32
 					id: "4FC4848C800DF38D"
 					item: "gtceu:uv_machine_hull"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "6CE567B73C6E1E27"
-					item: "gtceu:tritanium_coil_block"
 					type: "item"
 				}
 				{
@@ -2173,5 +2137,5 @@
 			y: 2.5d
 		}
 	]
-	title: "{ftbquests.chapter.ae2.title}"
+	title: "&9应用能源2"
 }

@@ -11,7 +11,7 @@
 		}
 	}
 	id: "387655B3E5BE4912"
-	order_index: 2
+	order_index: 0
 	quest_links: [
 		{
 			id: "652E0BAD6776556B"
@@ -290,5 +290,5 @@
 			y: -0.5d
 		}
 	]
-	title: "{ftbquests.chapter.387655B3E5BE4912.title}"
+	title: "&e如何挖矿"
 }

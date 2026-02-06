@@ -1,12 +1,13 @@
 name = "Rechiseled: Create"
-filename = "rechiseledcreate-1.0.2b-forge-mc1.20.jar"
+filename = "rechiseledcreate-1.1.0-forge-mc1.20.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1ba6b53ea2ef7f5c8f5b4b90219565ed67101ed4"
-url = "https://edge.forgecdn.net/files/6767/592/rechiseledcreate-1.0.2b-forge-mc1.20.jar"
+hash = "b644246fe5b1e44df90c1c71687404259855e8d6"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6767592
+file-id = 7522483
 project-id = 888624

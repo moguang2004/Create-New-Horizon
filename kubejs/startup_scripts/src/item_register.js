@@ -2,63 +2,6 @@ Platform.getInfo('kubejs').name = 'Create: New Horizon'
 
 StartupEvents.registry("item", event => {
     event.create('treated_clay_ball')
-    let MAX_ENERGY = 10000000
-    event.create('temperature_keeping_device').tag('curios:body')
-        .attachCapability(CapabilityBuilder.ENERGY.customItemStack()
-            .canReceive(i => true)
-            .getEnergyStored( /**@type {Internal.ItemStack}*/ itemStack => {
-                if (itemStack.getOrCreateTag().contains("energyStored")) {
-                    return itemStack.nbt.getInt("energyStored")
-                } else {
-                    itemStack.getOrCreateTag().putInt("energyStored", 0)
-                    return 0
-                }
-            })
-            .getMaxEnergyStored(i => MAX_ENERGY)
-            .receiveEnergy(( /**@type {Internal.ItemStack}*/ item, i, receive) => {
-                /** @type {Internal.IEnergyStorage} */
-                let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-                let received = Math.min(energy.maxEnergyStored - energy.energyStored, i)
-                if (!receive && energy.energyStored <= energy.maxEnergyStored) {
-                    item.nbt.putInt('energyStored', energy.energyStored + received)
-                }
-                return received
-            })
-        )
-        //.tooltip('showenergy')
-        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
-            .curioTick(( /**@type {Internal.ItemStack}*/ itemstack, slotcontext) => {
-                let energy = itemstack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-                let { energyStored, maxEnergyStored } = energy
-                if (energyStored > 0) {
-                    let energyConsumed = Math.min(energyStored, 60)
-                    itemstack.nbt.putInt('energyStored', energyStored - energyConsumed)
-                    return true
-                }
-            })
-            .dynamicAttribute(attribute => {
-                let energy = attribute.stack.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-                let { energyStored, maxEnergyStored } = energy
-                if (energyStored > 0) {
-                    attribute.modify('legendarysurvivaloverhaul:thermal_resistance', 'kubejsthermal_resistance', 20, 'addition')
-                }
-            })
-        )
-        .barWidth( /**@type {Internal.ItemStack}*/ item => {
-            let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-            return Math.floor(energy.energyStored / energy.maxEnergyStored * 13)
-        })
-    event.create('broken_temperature_keeping_device').maxDamage(12000).tag('curios:body')
-        .attachCapability(CuriosCapabilityBuilder.CURIOS.itemStack()
-            .curioTick(( /**@type {$ItemStack}*/ itemstack, slotcontext) => {
-                if (itemstack.damageValue >= 12000) {
-                    itemstack.shrink(1)
-                }
-                itemstack.setDamageValue(itemstack.damageValue + 1)
-                return true
-            })
-            .modifyAttribute('legendarysurvivaloverhaul:thermal_resistance', 'kubejsthermal_resistance', 20, 'addition')
-        )
     event.create('double_blaze_cake').burnTime(30000).tooltip("可以吃").food(food => {
         food.alwaysEdible(true)
         food.effect("legendarysurvivaloverhaul:cold_immunity", 36000, 10, 1)
@@ -74,101 +17,36 @@ StartupEvents.registry("item", event => {
     event.create('stone_process_catalyst')
     event.create('bauxite_process_catalyst')
     event.create('tallow').burnTime('1600')
-    event.create('eye_of_underground_cabin')
-        .use(( /**@type {$ServerLevel}*/ level, player, interactionhand) => {
-            let item = player.getHeldItem(interactionhand)
-            player.startUsingItem(interactionhand)
-            if (!level.isClientSide) {
-                let pos = level.findNearestMapStructure($TagKey.create($Registry.STRUCTURE_REGISTRY, 'alexscaves:underground_cabin'), player.blockPosition, 100, false)
-                if (pos) {
-                    let eye = new $EyeOfEnder(level, player.getX(), player.getY(0.5), player.getZ())
-                    eye.setItem(item)
-                    eye.signalTo(pos)
-                    player.swing()
-                    eye.spawn()
-                    item.shrink(1)
-                    level.playSound(null, player.x, player.y, player.z, 'entity.ender_eye.launch', player.getSoundSource(), 0.5, 0.5)
-                    player.swing(interactionhand)
-                    return true
-                }
-            }
-            return false
-        })
-    let tiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv']
-    tiers.forEach(tier => {
-        event.create('circuit_resonatic_' + tier).tag('gtceu:circuits/' + tier)
-    })
     let moreTiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
     for (let i = 0; i < 15; i++) {
         event.create('general_circuit_' + moreTiers[i]).tag('gtceu:circuits/' + moreTiers[i]).tooltip(GTValues.VNF[i] + '级电路板')
     }
     event.create('crashed_rice')
     event.create('space_fabric')
-    event.create('endslate')
-    event.create('imprinted_resonatic_circuit_board')
-    event.create('raw_imprinted_resonatic_circuit_board')
-    event.create('mana_electronic_circuit').tag('gtceu:circuits/hv')
-    event.create('mana_integrated_circuit').tag('gtceu:circuits/ev')
     event.create('echo_processor').tag('gtceu:circuits/zpm')
     event.create('echo_processor_assembly').tag('gtceu:circuits/uv')
     event.create('echo_processor_computer').tag('gtceu:circuits/uhv')
     event.create('echo_processor_mainframe').tag('gtceu:circuits/uev')
     event.create('echo_circuit_board')
     event.create('echo_printed_circuit_board')
-    event.create('mana_resistor')
-    event.create('advanced_mana_resistor')
-    event.create('mana_diode')
-    event.create('advanced_mana_diode')
-    event.create('mana_transistor')
-    event.create('advanced_mana_transistor')
-    event.create('mana_capacitor')
-    event.create('advanced_mana_capacitor')
-    event.create('mana_inductor')
-    event.create('advanced_mana_inductor')
-    event.create('biological_patch_transistor').tooltip('§a生物电子元件')
-    event.create('biological_patch_resistor').tooltip('§a生物电子元件')
-    event.create('biological_patch_capacitor').tooltip('§a生物电子元件')
-    event.create('biological_patch_diode').tooltip('§a生物电子元件')
-    event.create('biological_patch_inductor').tooltip('§a生物电子元件')
+
     event.create('circuit_board_m_one')
     event.create('circuit_board_m_two')
     event.create('circuit_board_m_three')
     event.create('circuit_board_m_four')
     event.create('rubber_powder')
     event.create('uhv_voltage_coil')
-    event.create('blooded_micro_processor_mainframe').tag('gtceu:circuits/iv')
-    event.create('will_nano_processor_mainframe').tag('gtceu:circuits/luv')
-    event.create('mana_cpu_chip')
-    event.create('mana_cpu_wafer')
-    event.create('elementium_cpu_chip')
-    event.create('elementium_cpu_wafer')
     event.create('mana_lens')
     event.create('elementium_lens')
-    event.create('mana_soc')
-    event.create('zenith_soc')
-    event.create('zenith_wafer')
-    event.create('mana_wafer')
-    event.create("elf_catalyst")
-    event.create("terria_catalyst")
+
     event.create("encapsulated_twist_mana")
     event.create("yharim").tooltip('你必须§6爱护蜜蜂§r才能激发这个锭的真正力量，哦你已经爱过蜜蜂了')
-    event.create("sculk_energycore")
-    event.create("sculk_energycluster")
-    event.create("sculk_tentacle")
-    event.create("sculk_brain")
-    event.create("sculk_heart")
-    event.create('magic_quantum_processor_mainframe').tag('gtceu:circuits/uv').tooltip('§b魔力逻辑UV电路板§r')
-    event.create('umlhpic_chip').tooltip('§b同时蕴含信息和能量\n§r')
-    event.create('umlhpic_wafer').tooltip('§b同时蕴含信息和能量\n§r')
-    event.create('mana_circuit_board').tooltip("§b魔力信息承载基板§r")
-    event.create('zenith_star').tooltip("宛如天上的繁星")
     event.create('strongly_interacting_neutron_refector').tooltip("硬度超越水滴")
-    event.create('constrained_electron_deficient_atom_neutronium')
-    event.create('constrained_proton_deficient_atom_neutronium')
-    event.create('constrained_proton_deficient_atom_neutronium_broken')
-    event.create('constrained_chaos_proton_deficient_atom_neutronium')
-    event.create('constrained_unstable_neutronium')
-    event.create('adamantite_proton_source')
+    event.create('biological_patch_transistor').tooltip('§a生物电子元件')
+    event.create('biological_patch_resistor').tooltip('§a生物电子元件')
+    event.create('biological_patch_capacitor').tooltip('§a生物电子元件')
+    event.create('biological_patch_diode').tooltip('§a生物电子元件')
+    event.create('biological_patch_inductor').tooltip('§a生物电子元件')
     event.create('source_of_countless_magical_powers').tooltip("疯狂至极")
     event.create('book_of_ruina').tooltip("一场赞歌摇篮曲")
     event.create('heart_of_flower').tooltip("§2她曾存在过")
@@ -210,6 +88,16 @@ StartupEvents.registry("item", event => {
             Utils.server.runCommandSilent('title @s subtitle {"text":"在短时间内你将获得强大的恢复能力","color":"red"}');
         })
     })
+    event.create("ark_of_homo", "pickaxe")
+        .speedBaseline(100.0)
+        .tier(9)
+        .attackDamageBaseline(1597.0)
+        .maxDamage(114514)
+        .displayName("§c鸿§e蒙§9方§a舟")
+        .rarity('rare')
+        .glow(true)
+
+    .tooltip("§m你的旅程的物理的顶点，拥有着能使homo分崩离析的力量§r\n§c左键进行一次五连斩，斩击以掷出剑刃结束。掷出的剑刃会跟随你的光标。在剑刃掷出时松开左键会释放爆炸剪击\n§r§e右键用剑刃向前方剪出剑刃。击中敌人时会进行招架，并使你短暂无敌你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少160点。格挡后会获得15层充能，充能会强化普通攻击\n§9当处于强化状态时，按住上并点击右键会引起时空之中的大撕裂，并一次性释放所有充能。若释放的充能超过5层，保持按住上键将允许你冲过撕裂§r\n---------------\n以上均没有实现\n§a这里是工业包，所以其实他根本就是一把普通的镐子§r\n哈哈\nHave Fun!(NOT)")
 })
 StartupEvents.registry("block", event => {
     event.create('bronze_casing')
@@ -257,18 +145,14 @@ StartupEvents.registry("block", event => {
 ItemEvents.modification(event => {
     event.modify('farmersdelight:rice', item => {
         item.setFoodProperties(food => {
-            food.eaten(( /**@type {$FoodEatenEventJS}*/ eat) => {
-                // if(eat.entity.isPlayer()){
-                //     console.info('eat!')
-                //     eat.player.addItem('kubejs:crashed_rice')
-                // }
+            food.eaten((eat) => {
                 return true
             })
         })
     })
     event.modify('ctnhcore:primary_stew', item => {
         item.setFoodProperties(food => {
-            food.eaten(( /**@type {Internal.FoodEatenEventJS}*/ eat) => {
+            food.eaten((eat) => {
                 eat.player.addEffect(new Internal.MobEffectInstance('minecraft:regeneration', 600, 1), true)
                 return true
             })
@@ -276,7 +160,7 @@ ItemEvents.modification(event => {
     })
     event.modify('ctnhcore:galaxy_meatball', item => {
         item.setFoodProperties(food => {
-            food.eaten(( /**@type {$FoodEatenEventJS}*/ eat) => {
+            food.eaten((eat) => {
                 eat.player.addEffect(new Internal.MobEffectInstance('minecraft:regeneration', 600, 1), true)
                 return true
             })
@@ -311,9 +195,9 @@ ItemEvents.modification(event => {
         item.setArmorToughness(1)
     })
     event.modify('bloodmagic:livinghboots', item => {
-            item.setArmorProtection(3)
-            item.setArmorToughness(1)
-        })
+        item.setArmorProtection(3)
+        item.setArmorToughness(1)
+    })
         // event.modify('tetranichematerials:bronnum_armor_helmet', item => {
         //     item.setArmorProtection(2)
         //     item.setArmorKnockbackResistance(0.05)

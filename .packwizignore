@@ -58,6 +58,7 @@ resourcepacks/*
 !resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip
 !resourcepacks/AE2LightMode-1.20.1-ctnh.zip
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+!resourcepacks/CTNH-Retextured.zip
 
 /start.sh
 /start.bat
@@ -101,3 +102,5 @@ config/*
 !config/jei/jei-client.ini
 
 !kubejs/config/*
+
+!mods/CTNH Core*

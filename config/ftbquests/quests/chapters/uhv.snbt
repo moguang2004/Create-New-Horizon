@@ -102,7 +102,7 @@
 				item: "gtceu:uhv_conveyor_module"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -113,7 +113,7 @@
 				item: "gtceu:uhv_robot_arm"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -124,7 +124,7 @@
 				item: "gtceu:uhv_emitter"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: 6.0d
 		}
 		{
@@ -135,7 +135,7 @@
 				item: "gtceu:uhv_sensor"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
 			y: 5.0d
 		}
 		{
@@ -353,6 +353,7 @@
 			]
 			description: ["{ftbquests.chapter.uhv.quest8283170895604053017.description1}"]
 			id: "72F3BC0B1E557419"
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.uhv.quest8283170895604053017.subtitle}"
 			tasks: [
 				{
@@ -362,13 +363,13 @@
 				}
 				{
 					id: "30E74620691002AC"
-					item: "kubejs:circuit_resonatic_uev"
+					item: "kubejs:circuit_resonatic_uv"
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 7.0d
 			y: 4.0d
 		}
 	]
-	title: "{ftbquests.chapter.uhv.title}"
+	title: "&4UHV时期"
 }

@@ -33,6 +33,10 @@ ServerEvents.tags('item',event =>{
         event.add('forge:foods',food)
     })
     event.add('forge:stripped_logs','gtceu:stripped_rubber_log')
+    let formentable = ['minecraft:carrot','minecraft:potato','minecraft:beetroot','minecraft:wheat_seeds','minecraft:pumpkin_seeds','minecraft:melon_stem']
+    formentable.forEach(plant =>{
+        event.add('forge:fermentable',plant)
+    })
 })
 ServerEvents.tags('item', event => {
     event.add('curios:curio', 'tiab:time_in_a_bottle')

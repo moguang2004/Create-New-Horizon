@@ -877,7 +877,10 @@
 					consume_items: true
 					count: 64L
 					id: "3F1276E0914583CE"
-					item: { Count: 64, id: "gtceu:raw_mana_fused" }
+					item: {
+						Count: 64
+						id: "gtceu:raw_mana_fused"
+					}
 					type: "item"
 				}
 				{
@@ -1483,5 +1486,5 @@
 			y: 5.0d
 		}
 	]
-	title: "{ftbquests.chapter.1FD18D8B41761626.title}"
+	title: "&5魔力飞升"
 }

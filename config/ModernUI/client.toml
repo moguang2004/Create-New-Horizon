@@ -139,7 +139,7 @@
 #Font Config
 [font]
 	#The first font family to use. See fallbackFontFamilyList
-	firstFontFamily = "Source Han Sans CN Medium"
+	firstFontFamily = "荆南波波黑"
 	#A set of fallback font families to determine the typeface to use.
 	#The order is first > fallbacks. TrueType & OpenType are supported.
 	#Each element can be one of the following two cases:
@@ -163,5 +163,5 @@
 	#For example, "E:/Fonts" means all font files in that directory will be registered.
 	#System requires random access to these files, you should not remove them while running.
 	#This is only read once when the game is loaded, i.e. registration.
-	fontRegistrationList = []
+	fontRegistrationList = [".\\config\\ModernUI"]
 

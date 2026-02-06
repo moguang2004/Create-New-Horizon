@@ -5,7 +5,7 @@
 	group: "4D1B16DFEF4B34DD"
 	icon: "gtceu:oil_medium_bucket"
 	id: "2CEAD5605C416218"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -419,20 +419,12 @@
 				type: "random"
 			}]
 			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2072698371376301891.subtitle}"
-			tasks: [
-				{
-					id: "0E8DF40A39FEE802"
-					item: "gtceu:mv_mixer"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "670FB78805FFA78D"
-					item: "ctpp:mv_kinetic_mixer"
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0E8DF40A39FEE802"
+				item: "gtceu:mv_mixer"
+				optional_task: true
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest2072698371376301891.title}"
 			x: -6.5d
 			y: 1.0d
@@ -727,7 +719,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1EDA02396B328A49"]
 			description: [
 				"{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.description1}"
 				"{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.description2}"
@@ -1661,5 +1652,5 @@
 		}
 	]
 	subtitle: ["{ftbquests.chapter.2CEAD5605C416218.subtitle0}"]
-	title: "{ftbquests.chapter.2CEAD5605C416218.title}"
+	title: "&0石油化工"
 }

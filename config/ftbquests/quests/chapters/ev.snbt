@@ -16,7 +16,7 @@
 	}]
 	quests: [
 		{
-			dependencies: ["31308207EEED74CF"]
+			dependencies: ["59673BBF643D0E29"]
 			id: "799C99EA04D07344"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -133,160 +133,6 @@
 			}]
 			x: -11.5d
 			y: 2.5d
-		}
-		{
-			description: ["{ftbquests.chapter.ev.quest5595066917140016616.description1}"]
-			id: "4DA5ABB79AABADE8"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.ev.quest5595066917140016616.subtitle}"
-			tasks: [{
-				id: "36F32AAAA96C37A1"
-				item: "ctnhcore:shielded_reactor_casing"
-				type: "item"
-			}]
-			x: -16.0d
-			y: 6.0d
-		}
-		{
-			hide_dependency_lines: true
-			id: "0AEBC43C2EA4E190"
-			subtitle: "{ftbquests.chapter.ev.quest786938322665922960.subtitle}"
-			tasks: [{
-				id: "4E17BDC99B8D09CB"
-				title: "{ftbquests.chapter.ev.quest786938322665922960.task.5627174933018511819.title}"
-				type: "checkmark"
-			}]
-			x: -13.5d
-			y: 11.0d
-		}
-		{
-			hide_dependency_lines: true
-			id: "4E9FB13BA754C376"
-			subtitle: "{ftbquests.chapter.ev.quest5665441726023910262.subtitle}"
-			tasks: [{
-				id: "5C0ADB9BDA74CA7E"
-				title: "{ftbquests.chapter.ev.quest5665441726023910262.task.6632354863687977598.title}"
-				type: "checkmark"
-			}]
-			x: -13.5d
-			y: 9.0d
-		}
-		{
-			hide_dependency_lines: true
-			id: "38B3EDAFED11EC22"
-			subtitle: "{ftbquests.chapter.ev.quest4085870626807606306.subtitle}"
-			tasks: [{
-				id: "07D3DF8E64BEA8BB"
-				title: "{ftbquests.chapter.ev.quest4085870626807606306.task.564040181020010683.title}"
-				type: "checkmark"
-			}]
-			x: -13.5d
-			y: 10.0d
-		}
-		{
-			hide_dependency_lines: true
-			id: "6D99A9917E0D8636"
-			subtitle: "{ftbquests.chapter.ev.quest7897529863921042998.subtitle}"
-			tasks: [{
-				id: "0FF291B04510FC84"
-				title: "{ftbquests.chapter.ev.quest7897529863921042998.task.1149141041191910532.title}"
-				type: "checkmark"
-			}]
-			x: -13.5d
-			y: 8.0d
-		}
-		{
-			hide_dependency_lines: true
-			id: "1A4BF7BE5F6591F6"
-			subtitle: "{ftbquests.chapter.ev.quest1894880465255764470.subtitle}"
-			tasks: [{
-				id: "7F84E8F8FCE98B8F"
-				title: "{ftbquests.chapter.ev.quest1894880465255764470.task.9188725295835351951.title}"
-				type: "checkmark"
-			}]
-			x: -13.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["104511D23BA0B12A"]
-			id: "2E634A7C9D204BD4"
-			tasks: [{
-				id: "1F9E605C84B618EB"
-				item: "gtceu:thorium_dust"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["2E634A7C9D204BD4"]
-			id: "48D6359F760B2D34"
-			tasks: [{
-				id: "20FED3F78DE196DC"
-				item: "gtceu:thorium_232_dust"
-				type: "item"
-			}]
-			x: -12.5d
-			y: 8.0d
-		}
-		{
-			dependencies: [
-				"2D624DC9A3946E74"
-				"104511D23BA0B12A"
-			]
-			id: "699B1B52D3F58BEE"
-			tasks: [{
-				id: "4D38A7D9971D042F"
-				item: "gtceu:uranium_hexafluoride_bucket"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5DE73169DED11A0D"]
-			id: "2D624DC9A3946E74"
-			tasks: [{
-				id: "143113D27A22A2DD"
-				item: "gtceu:uranium_dioxide_dust"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"699B1B52D3F58BEE"
-				"659495FD6AB169E3"
-				"3A48040562E6B4D0"
-			]
-			dependency_requirement: "one_completed"
-			id: "4D6F042D3D3DA8A2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5BABE1F9FB27D240"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
-			tasks: [{
-				id: "28E4CB3336D08A32"
-				item: "gtceu:uranium_dust"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 10.0d
-		}
-		{
-			id: "5DE73169DED11A0D"
-			subtitle: "{ftbquests.chapter.ev.quest6766431295927032333.subtitle}"
-			tasks: [{
-				count: 16L
-				id: "607F1D2AAD371EA0"
-				item: "gtceu:raw_uraninite"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -589,18 +435,6 @@
 			y: -5.5d
 		}
 		{
-			id: "659495FD6AB169E3"
-			optional: true
-			subtitle: "{ftbquests.chapter.ev.quest7319640210033175011.subtitle}"
-			tasks: [{
-				id: "1C8E2E06D5C1A5B1"
-				item: "alexscaves:uranium"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 9.0d
-		}
-		{
 			dependencies: ["3F9F778AB07809D0"]
 			id: "5B1C049A7712479A"
 			tasks: [{
@@ -633,17 +467,6 @@
 			}]
 			x: -7.5d
 			y: -6.5d
-		}
-		{
-			id: "3A48040562E6B4D0"
-			subtitle: "{ftbquests.chapter.ev.quest4199611073703621840.subtitle}"
-			tasks: [{
-				id: "35FE06601CF9902F"
-				item: "alexscaves:acid_bucket"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 9.0d
 		}
 		{
 			id: "3A7EF62D9745F2D6"
@@ -748,69 +571,6 @@
 			title: "{ftbquests.chapter.ev.quest1629327718983370811.title}"
 			x: -10.5d
 			y: 1.5d
-		}
-		{
-			dependencies: ["799C99EA04D07344"]
-			id: "332007D978CB3C6C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "45AFF1244D377D36"
-				table_id: 971429564947815603L
-				type: "loot"
-			}]
-			subtitle: "{ftbquests.chapter.ev.quest3683953125804948588.subtitle}"
-			tasks: [{
-				id: "6586F61697BFF631"
-				item: "gtceu:ev_mixer"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["332007D978CB3C6C"]
-			id: "6F1B38C420BEF79B"
-			tasks: [{
-				id: "04D76E38355F76A5"
-				item: "gtceu:hssg_ingot"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -3.5d
-		}
-		{
-			dependencies: [
-				"6F1B38C420BEF79B"
-				"34A4C92A23DA3682"
-			]
-			id: "38941407A9F43B7E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0D979A5FDFA6B3EF"
-				table_id: 971429564947815603L
-				type: "loot"
-			}]
-			shape: "pentagon"
-			size: 1.0d
-			tasks: [{
-				count: 16L
-				id: "0A720031E493F57D"
-				item: "gtceu:hssg_coil_block"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["332007D978CB3C6C"]
-			id: "34A4C92A23DA3682"
-			tasks: [{
-				id: "3585EC285E5917FE"
-				item: "gtceu:tungsten_carbide_dust"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -3.5d
 		}
 		{
 			id: "48261AFD7844E219"
@@ -1012,7 +772,6 @@
 		}
 		{
 			dependencies: [
-				"17292FB8D4DD36BA"
 				"46B421171FE2DEE9"
 				"534D927B52EC5F63"
 			]
@@ -1048,35 +807,6 @@
 			}]
 			x: -8.5d
 			y: -6.5d
-		}
-		{
-			dependencies: ["4D6F042D3D3DA8A2"]
-			id: "0AAAFAD6405A0E26"
-			subtitle: "{ftbquests.chapter.ev.quest768702484529679910.subtitle}"
-			tasks: [{
-				id: "26BC91CA36F799F1"
-				item: "gtceu:uranium_triplatinum_dust"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["0AAAFAD6405A0E26"]
-			id: "2D30354CDA91122C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1B425B531CB45490"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0033C940031F089A"
-				item: "gtceu:ev_field_generator"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.0d
 		}
 		{
 			dependencies: ["631DFE485708C698"]
@@ -1184,25 +914,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["4DA5ABB79AABADE8"]
-			id: "104511D23BA0B12A"
-			subtitle: "{ftbquests.chapter.ev.quest1172362872641073450.subtitle}"
-			tasks: [
-				{
-					id: "6348C18E6134F96F"
-					title: "{ftbquests.chapter.ev.quest1172362872641073450.task.7154180825338411375.title}"
-					type: "checkmark"
-				}
-				{
-					id: "6E12BECA5B7E1B6E"
-					item: "ctnhcore:nuclear_reactor"
-					type: "item"
-				}
-			]
-			x: -11.5d
-			y: 6.0d
-		}
-		{
 			id: "001B1FD0183C089D"
 			tasks: [{
 				id: "6EB023B146B3C0D2"
@@ -1230,300 +941,6 @@
 			}]
 			x: -10.5d
 			y: 4.0d
-		}
-		{
-			dependencies: [
-				"4D6F042D3D3DA8A2"
-				"106A5B189687F358"
-			]
-			id: "2B5B66B395B0530B"
-			tasks: [{
-				id: "0212A973114CC429"
-				item: "gtceu:uranium_raw_waste"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["28B04AB25D375E6A"]
-			id: "3714784FEB0780C9"
-			tasks: [{
-				id: "737256FC5DE66093"
-				item: "gtceu:americium_dust"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["3714784FEB0780C9"]
-			id: "0A5C2C3633F497E8"
-			tasks: [{
-				id: "65B4F627FE076D24"
-				item: "gtceu:americium_waste"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["0395B3CA160DA4A9"]
-			id: "19E5C94BF3336391"
-			tasks: [{
-				id: "5C183B0A7395EBB6"
-				item: "gtceu:plutonium_dust"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["0A5C2C3633F497E8"]
-			id: "76EBAD287A2A2DE3"
-			tasks: [{
-				id: "5486D425E987540D"
-				item: "gtceu:curium_dust"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["2B5B66B395B0530B"]
-			id: "79A78865792A17DB"
-			tasks: [{
-				id: "100D5EC6427D7C6C"
-				item: "gtceu:neptunium_dust"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["79A78865792A17DB"]
-			id: "0395B3CA160DA4A9"
-			subtitle: "{ftbquests.chapter.ev.quest258310234178430121.subtitle}"
-			tasks: [{
-				id: "4D14D4492CC8BFDB"
-				item: "gtceu:neptunium_waste"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["76EBAD287A2A2DE3"]
-			id: "28D0A3476F1DB408"
-			tasks: [{
-				id: "27911C8B9A149B52"
-				item: "gtceu:curium_waste"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["28D0A3476F1DB408"]
-			id: "609B045A11434078"
-			tasks: [{
-				id: "26EBC9A499A7AB35"
-				item: "gtceu:berkelium_dust"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["609B045A11434078"]
-			id: "1FA425EE75AA10B1"
-			tasks: [{
-				id: "580D2DB283620EA9"
-				item: "gtceu:berkelium_waste"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["1FA425EE75AA10B1"]
-			id: "6DC02BF0EBC9032F"
-			tasks: [{
-				id: "6E6D94161E45CB9C"
-				item: "gtceu:californium_dust"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["6DC02BF0EBC9032F"]
-			id: "611E4AC5944BBB56"
-			tasks: [{
-				id: "5859A6FE028A62A7"
-				item: "gtceu:californium_waste"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["611E4AC5944BBB56"]
-			id: "275C33608D736BED"
-			tasks: [{
-				id: "201E9239BD636F13"
-				item: "gtceu:einsteinium_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["275C33608D736BED"]
-			id: "7BE1BC049AD7275A"
-			tasks: [{
-				id: "606955D99DA58B3D"
-				item: "gtceu:einsteinium_waste"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["7BE1BC049AD7275A"]
-			id: "6E4B3272D1FC21DF"
-			tasks: [{
-				id: "183068AA737F94E4"
-				item: "gtceu:fermium_dust"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["6E4B3272D1FC21DF"]
-			id: "427404EF2640B89F"
-			tasks: [{
-				id: "4EB91BDB68E27832"
-				item: "gtceu:fermium_waste"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["427404EF2640B89F"]
-			id: "470AE7F9199777BB"
-			tasks: [{
-				id: "12A41C03CEAD7A96"
-				item: "gtceu:mendelevium_dust"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["470AE7F9199777BB"]
-			id: "3D3B253506D719FA"
-			tasks: [{
-				id: "1C1FD1DA74EE059F"
-				item: "gtceu:mendelevium_waste"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["19E5C94BF3336391"]
-			id: "28B04AB25D375E6A"
-			tasks: [{
-				id: "378235D85A0C70A1"
-				item: "gtceu:plutonium_raw_waste"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 12.0d
-		}
-		{
-			id: "500612E5FCC5C9E0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "02422AAF3CE9D6FA"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.ev.quest5766317151892130272.subtitle}"
-			tasks: [{
-				id: "65F55CB7ADF9E8AB"
-				item: "ctnhcore:hot_coolant_turbine"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["2E634A7C9D204BD4"]
-			id: "3EDE3B845F313147"
-			tasks: [{
-				id: "557FDF434B0E4181"
-				item: "gtceu:oxide_thorium_233_fuel"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["3EDE3B845F313147"]
-			id: "4C124453C9EE493B"
-			subtitle: "{ftbquests.chapter.ev.quest5481518823124126011.subtitle}"
-			tasks: [{
-				id: "68B1B64724E8CF7C"
-				item: "gtceu:oxide_protactinium_233_fuel"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"4C124453C9EE493B"
-				"064670FD1A53F477"
-			]
-			id: "106A5B189687F358"
-			subtitle: "{ftbquests.chapter.ev.quest1182858013301011288.subtitle}"
-			tasks: [{
-				id: "48C46005344C96CE"
-				item: "gtceu:oxide_uranium_233_fuel"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 12.0d
-		}
-		{
-			id: "064670FD1A53F477"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0C8400D787FF46D1"
-				table_id: 971429564947815603L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "120EE0CCCC649A40"
-				item: "ctnhcore:decay_pools_machine"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 13.5d
-		}
-		{
-			id: "61FAAB9E621A0374"
-			tasks: [{
-				id: "7A3E1156B30EB013"
-				item: "gtceu:uranium_fuel"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 10.0d
 		}
 		{
 			dependencies: ["6F6CE9819AC46724"]
@@ -1599,7 +1016,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["734982C31DFC1821"]
 			id: "217BE53ACEB3C6E6"
 			subtitle: "{ftbquests.chapter.ev.quest2412774066125784806.subtitle}"
 			tasks: [{
@@ -1607,7 +1023,7 @@
 				item: "gtceu:mpic_wafer"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -8.5d
 			y: 1.5d
 		}
 		{
@@ -1642,18 +1058,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["59673BBF643D0E29"]
-			id: "31308207EEED74CF"
-			subtitle: "{ftbquests.chapter.ev.quest3544475877325501647.subtitle}"
-			tasks: [{
-				id: "0C4565575D0D516B"
-				item: "gtceu:magnetic_neodymium_ingot"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["27EF0EE87260585F"]
 			id: "59673BBF643D0E29"
 			subtitle: "{ftbquests.chapter.ev.quest6442183485183299113.subtitle}"
@@ -1662,7 +1066,7 @@
 				item: "gtceu:end_steel_ingot"
 				type: "item"
 			}]
-			x: -13.5d
+			x: -12.5d
 			y: -1.0d
 		}
 		{
@@ -1691,6 +1095,46 @@
 			x: -4.5d
 			y: 4.0d
 		}
+		{
+			dependencies: ["799C99EA04D07344"]
+			id: "0E833943D6595E88"
+			tasks: [{
+				id: "4C39022F8C0B4BD1"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0E833943D6595E88"]
+			id: "2D97840D2C34A30B"
+			tasks: [{
+				id: "0556F9EA5E5D8839"
+				item: "gtceu:rtm_alloy_dust"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2D97840D2C34A30B"]
+			id: "4ACD991BF73F9066"
+			rewards: [{
+				count: 8
+				id: "235E09ED9188857A"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "27367D0BE0028CB5"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.5d
+		}
 	]
-	title: "{ftbquests.chapter.ev.title}"
+	title: "&5EV时期"
 }

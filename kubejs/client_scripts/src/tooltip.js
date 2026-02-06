@@ -1,32 +1,23 @@
-import { $EventHandlerImplCommon$LevelEventAttachment } from "packages/dev/architectury/event/forge/$EventHandlerImplCommon$LevelEventAttachment"
-import { $ItemStack } from "packages/net/minecraft/world/item/$ItemStack"
-
 ItemEvents.tooltip(tooltip => {
 
-    tooltip.addAdvanced('kubejs:temperature_keeping_device',
-        /**
-         * 
-         * @param {import("packages/net/minecraft/world/item/$ItemStack").$ItemStack$Type} item
-         * @param {Boolean} advanced
-         * @param {import("packages/dev/ftb/mods/ftblibrary/util/$TooltipList").$TooltipList$Type} text
-         */
-        (item, advanced, text) => {
-            let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
-            let { energyStored, maxEnergyStored } = energy
-            var { newNumber: energyStored_, unitName: unit1 } = unitChanger(energyStored)
-            var { newNumber: maxEnergyStored_, unitName: unit2 } = unitChanger(maxEnergyStored)
-            text.add(1, Text.translate('item.ctnh.durabilityofenergy', energyStored_.toFixed(2).toString() + unit1, maxEnergyStored_.toFixed(2).toString() + unit2).green())
-            /*for(let index = 1; index < text.length; index++){
-                let component = text.get(index)
-                if(component.getString() == 'showenergy'){
-                    var { newNumber: energyStored_, unitName: unit1 } = unitChanger(energyStored)
-                    var { newNumber: maxEnergyStored_, unitName: unit2 } = unitChanger(maxEnergyStored)
-                    text.set(index, component.translatable('item.ctnh.durabilityofenergy',energyStored_.toFixed(2).toString() + unit1, maxEnergyStored_.toFixed(2).toString() + unit2).green())
-                    //text.set(index, component.translatable('item.ctnh.durabilityofenergy',maxDamage-damageValue, maxDamage).green())
-                }
+    // tooltip.addAdvanced('kubejs:temperature_keeping_device',
+    //     (item, advanced, text) => {
+    //         let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
+    //         let { energyStored, maxEnergyStored } = energy
+    //         var { newNumber: energyStored_, unitName: unit1 } = unitChanger(energyStored)
+    //         var { newNumber: maxEnergyStored_, unitName: unit2 } = unitChanger(maxEnergyStored)
+    //         text.add(1, Text.translate('item.ctnh.durabilityofenergy', energyStored_.toFixed(2).toString() + unit1, maxEnergyStored_.toFixed(2).toString() + unit2).green())
+    //         /*for(let index = 1; index < text.length; index++){
+    //             let component = text.get(index)
+    //             if(component.getString() == 'showenergy'){
+    //                 var { newNumber: energyStored_, unitName: unit1 } = unitChanger(energyStored)
+    //                 var { newNumber: maxEnergyStored_, unitName: unit2 } = unitChanger(maxEnergyStored)
+    //                 text.set(index, component.translatable('item.ctnh.durabilityofenergy',energyStored_.toFixed(2).toString() + unit1, maxEnergyStored_.toFixed(2).toString() + unit2).green())
+    //                 //text.set(index, component.translatable('item.ctnh.durabilityofenergy',maxDamage-damageValue, maxDamage).green())
+    //             }
                 
-            }*/
-        })
+    //         }*/
+    //     })
 })
 
 function unitChanger(number) {
@@ -59,13 +50,6 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('kubejs:scp_500_base', (item, advanced, text) => {
         text.add(1, Text.translate('kubejs.scp_500_base.0'))
     })
-    event.add('kubejs:broken_temperature_keeping_device', Text.translate('ctnh.broken_temperature_keeping_device'))
-    event.add('enderio:basic_energy_conduit', Text.translate('ctnh.basic_energy_conduit'))
-    event.add('enderio:enhanced_energy_conduit', Text.translate('ctnh.enhanced_energy_conduit'))
-    event.add('enderio:vibrant_energy_conduit', Text.translate('ctnh.vibrant_energy_conduit'))
-    event.add('enderio:ender_energy_conduit', Text.translate('ctnh.ender_energy_conduit'))
-    event.add('enderio:melodic_energy_conduit', Text.translate('ctnh.melodic_energy_conduit'))
-    event.add('enderio:stellar_energy_conduit', Text.translate('ctnh.stellar_energy_conduit'))
     event.add('kubejs:circuit_resonatic_ulv', Text.translate('ctnh.circuit_resonatic_ulv'))
     event.add('kubejs:circuit_resonatic_lv', Text.translate('ctnh.circuit_resonatic_lv'))
     event.add('kubejs:circuit_resonatic_mv', Text.translate('ctnh.circuit_resonatic_mv'))
@@ -99,7 +83,7 @@ ItemEvents.tooltip(event => {
     event.add('gtceu:nightvision_goggles', '§7用Gregtech的 [Armor Mode Switch] 键开启.')
     event.add(['gtceu:lp_steam_macerator', 'gtceu:hp_steam_macerator', 'gtceu:steam_grinder', 'gtceu:lv_macerator', 'gtceu:mv_macerator', 'ctpp:smashing_factory'], '§4研磨副产物只能通过HV及以上的电压获得！')
     event.addAdvanced('tconstruct:crafting_station', (item, advanced,text) => {
-        text.add(1, '§4请不要将工作站连接到任何带有堆叠升级的容器中.')
+        text.add(1, '§4在服务器内，请不要将工作站连接到任何带有堆叠升级的容器中.')
         text.add(2, '§4此举动不会吞物品，但会导致工作站无法识别到大多出堆叠大于64的物品.')
     })
 })

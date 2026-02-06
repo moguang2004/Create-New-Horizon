@@ -1,0 +1,13 @@
+name = "Create:LazyTick"
+filename = "CreateLazyTick-1.3-6.0.x-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "16d40f1f2356e3854fe1ea8ca4c4aba5a5e4c019"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7367650
+project-id = 1409401

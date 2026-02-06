@@ -290,7 +290,6 @@
 				"0D1111FBACF1B0D4"
 				"14C08D2A44860C08"
 				"16A81169336BBB10"
-				"59D486695F2A9671"
 			]
 			description: ["{ftbquests.chapter.luv.quest7168921571391158578.description1}"]
 			id: "637D202FC567B932"
@@ -858,5 +857,5 @@
 			y: -3.5d
 		}
 	]
-	title: "{ftbquests.chapter.luv.title}"
+	title: "&dLUV时期"
 }

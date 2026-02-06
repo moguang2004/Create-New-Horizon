@@ -1613,7 +1613,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["43CD7225D0D21331"]
+			dependencies: [
+				"43CD7225D0D21331"
+				"6CDD36A3C742B7F2"
+			]
 			description: [
 				"{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.description1}"
 				"{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.description2}"
@@ -1637,7 +1640,7 @@
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.title}"
 			x: 16.5d
-			y: 4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1816,5 +1819,5 @@
 			y: 11.5d
 		}
 	]
-	title: "{ftbquests.chapter.4408EF6F9E2E1624.title}"
+	title: "&7齿轮力量"
 }

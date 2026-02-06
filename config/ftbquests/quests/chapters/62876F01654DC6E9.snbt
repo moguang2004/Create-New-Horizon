@@ -13,7 +13,7 @@
 		x: -8.0d
 		y: 2.0d
 	}]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -938,7 +938,7 @@
 				item: "sophisticatedbackpacks:pickup_upgrade"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 25.0d
 			y: -4.0d
 		}
 		{
@@ -949,7 +949,7 @@
 				item: "sophisticatedbackpacks:filter_upgrade"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: -4.0d
 		}
 		{
@@ -960,7 +960,7 @@
 				item: "sophisticatedbackpacks:feeding_upgrade"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 26.0d
 			y: -4.0d
 		}
 		{
@@ -1049,18 +1049,7 @@
 				type: "item"
 			}]
 			x: 26.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["33C54DD646437EEE"]
-			id: "04CEA7F790D97C11"
-			tasks: [{
-				id: "001C60A4FD6F29FF"
-				item: "sophisticatedbackpacks:tank_upgrade"
-				type: "item"
-			}]
-			x: 26.0d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1071,7 +1060,7 @@
 				type: "item"
 			}]
 			x: 26.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
@@ -1498,23 +1487,6 @@
 			y: -1.0d
 		}
 		{
-			id: "36F4AAB866B59908"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest3959977681339390216.subtitle}"
-			tasks: [{
-				id: "1D924C0D9D3CC4EA"
-				item: {
-					Count: 1
-					id: "alexsmobs:rocky_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["2460426DE77EF0F4"]
 			description: ["{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.description1}"]
 			icon: "gtceu:causality_hazard_sign_block"
@@ -1607,6 +1579,16 @@
 			x: 5.0d
 			y: 7.0d
 		}
+		{
+			id: "69BA4718E4CCCAF2"
+			tasks: [{
+				id: "36D9AF7A5FEA2F24"
+				item: "gtceu:machine_memory_card"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
 	]
-	title: "{ftbquests.chapter.62876F01654DC6E9.title}"
+	title: "&3实用小工具"
 }

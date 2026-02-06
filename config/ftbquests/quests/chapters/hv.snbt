@@ -42,8 +42,8 @@
 		{
 			id: "3C73F9E8558A5D1F"
 			linked_quest: "772551A724F97069"
-			x: -27.5d
-			y: 22.0d
+			x: -26.5d
+			y: 24.0d
 		}
 		{
 			id: "2788421088397BBE"
@@ -701,7 +701,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.hv.quest2727746306205307095.subtitle}"
 			tasks: [{
 				id: "20A0E9B6A5B2D2F0"
@@ -2311,7 +2311,6 @@
 		}
 		{
 			dependencies: [
-				"534D927B52EC5F63"
 				"607209201C6B08C3"
 				"6375A1591C9E11A5"
 			]
@@ -2342,10 +2341,7 @@
 			y: 22.0d
 		}
 		{
-			dependencies: [
-				"3F691723233B4718"
-				"3A1D7A26A80646CB"
-			]
+			dependencies: ["3F691723233B4718"]
 			id: "4ACA21BD665C39DF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2402,17 +2398,6 @@
 			}]
 			x: -12.0d
 			y: 30.0d
-		}
-		{
-			dependencies: ["45D2C63F76606DE2"]
-			id: "3A1D7A26A80646CB"
-			tasks: [{
-				id: "44705F86A0A98F65"
-				item: "gtceu:sodium_potassium_bucket"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 22.0d
 		}
 		{
 			dependency_requirement: "one_completed"
@@ -2558,5 +2543,5 @@
 			y: 27.0d
 		}
 	]
-	title: "{ftbquests.chapter.hv.title}"
+	title: "&6HV时期"
 }

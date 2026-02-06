@@ -66,6 +66,5 @@ StartupEvents.registry("item", event => {
             add.effect('minecraft:haste',20*1800,0,1)
             add.effect('legendarysurvivaloverhaul:heat_immunity',20*1800,0,1)
             add.effect('legendarysurvivaloverhaul:cold_immunity',20*1800,0,1)
-
         })
 })

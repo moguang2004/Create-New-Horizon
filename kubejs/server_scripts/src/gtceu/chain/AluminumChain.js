@@ -1,28 +1,6 @@
 ServerEvents.recipes(event => {
-    //原产线配方移除
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_green_sapphire' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_sapphire' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_ruby' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_pyrope' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_granite_red' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_potassium_feldspar' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_pollucite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_kyanite' })
-    event.remove({ id: 'gtceu:electrolyzer/bauxite_electrolysis' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_topaz' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_spodumene' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_spessartine' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_sodalite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_mica' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_lepidolite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_lazurite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_grossular' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_glauconite_sand' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_emerald' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_blue_topaz' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_biotite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_alunite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_almandine' })
+    
+    
         //所有副产为铝粉的配方改为副产氧化铝粉
     // event.replaceOutput({
     //     output: 'gtceu:aluminium_dust',

@@ -1,12 +1,13 @@
 name = "Lionfish API"
-filename = "lionfishapi-1.9.jar"
+filename = "lionfishapi-2.4-Fix.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "273acf6e2f0498d64c23a9a28892cb3f1b086f7b"
-url = "https://edge.forgecdn.net/files/5363/774/lionfishapi-1.9.jar"
+hash = "b198f38fb27dfc6db490b496d56aa1622d5a5b87"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 5363774
+file-id = 5922047
 project-id = 1001614

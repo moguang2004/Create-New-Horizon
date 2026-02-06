@@ -78,13 +78,3 @@ WorldgenEvents.remove(event => {
 	  "sakuratinker:orichalcum_ore_deepslate"
   ])
 })
-
-
-// GTCEuStartupEvents.registry("gtceu:tag_prefix", event => {
-// 	event.create("jupiter_stone", "ore")
-// 		.stateSupplier(() => Block.getBlock("adastra:jupiter_stone").defaultBlockState())
-// 		.baseModelLocation("ad_extendra:block/jupiter_stone")
-// 		.unificationEnabled(true)
-// 		.materialIconType(GTMaterialIconType.ore)
-// 		.generationCondition(ItemGenerationCondition.hasOreProperty)
-// })

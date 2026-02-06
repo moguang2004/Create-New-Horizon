@@ -471,7 +471,7 @@ ServerEvents.recipes(event => {
             event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:cement', 250)])
         ]).transitionalItem(transitional)
         .loops(2)
-    event.remove({ output: 'gtceu:firebricks' })
+    
 })
 
 ServerEvents.recipes(event => {
@@ -482,6 +482,19 @@ ServerEvents.recipes(event => {
             event.recipes.createCutting(transitional, [transitional]),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:lignin_dust']),
             event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:creosote', 250)]),
+            event.recipes.createPressing(transitional, [transitional]),
+        ]).transitionalItem(transitional)
+        .loops(1)
+})
+
+ServerEvents.recipes(event => {
+    let transitional = 'gtceu:steam_machine_casing'
+    event.recipes.create.sequenced_assembly([
+            'gtceu:industrial_steam_casing'
+        ], 'gtceu:steam_machine_casing', [
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:brass_plate']),
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:brass_plate']),
+            event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:soldering_alloy', 144)]),
             event.recipes.createPressing(transitional, [transitional]),
         ]).transitionalItem(transitional)
         .loops(1)

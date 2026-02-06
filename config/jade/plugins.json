@@ -57,8 +57,11 @@
     "compressor": true
   },
   "gtceu": {
+    "manamachine_status_provider": true,
     "primitive_pump": true,
     "auto_output_info": true,
+    "bloodaltar_status_provider": true,
+    "manahatch_status_provider": true,
     "workable_provider": true,
     "transformer": true,
     "energy_converter_provider": true,
@@ -76,7 +79,8 @@
     "stained_color": true,
     "hazard_cleaner_provider": true,
     "cable_info": true,
-    "parallel_info": true
+    "parallel_info": true,
+    "data_bank": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -114,9 +118,6 @@
     "crafting_monitor": true,
     "part_name": true
   },
-  "gtmthings": {
-    "wireless_energy_hatch_provider": true
-  },
   "eclipticseasons": {
     "crop": true,
     "snowy_status": true,
@@ -145,6 +146,9 @@
     "crafting_blueprint": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "ctnhmana": {
+    "mana_pool_status": true
   },
   "ctnhenergy": {
     "ad_me_pattern_buffer": true,

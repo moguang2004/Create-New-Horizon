@@ -96,7 +96,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -12.5d
+			y: -13.5d
 		}
 		{
 			dependencies: [
@@ -150,8 +150,8 @@
 				title: "{ftbquests.chapter.iv.quest4659707834782986703.task.1574147633237299094.title}"
 				type: "dimension"
 			}]
-			x: 0.0d
-			y: -14.5d
+			x: -1.0d
+			y: -15.5d
 		}
 		{
 			dependencies: [
@@ -189,7 +189,7 @@
 			y: -12.5d
 		}
 		{
-			dependencies: ["2674BCD150D5DFAD"]
+			dependencies: ["24E10449A4A11554"]
 			id: "15228E5BA4B65879"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -203,8 +203,8 @@
 				item: "gtceu:iv_parallel_hatch"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -15.5d
+			x: -6.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["2813BC7AC57AFF93"]
@@ -271,8 +271,8 @@
 				title: "{ftbquests.chapter.iv.quest7528598887690080230.task.3488244528875586400.title}"
 				type: "dimension"
 			}]
-			x: -1.0d
-			y: -14.5d
+			x: -2.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["3EE20D3AB81673F0"]
@@ -455,10 +455,30 @@
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.iv.quest3054891563213405742.subtitle}"
 			tasks: [{
-				id: "18F66388FB38E25C"
-				item: "gtceu:iv_mixer"
+				id: "62C3F3FD248E88AA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:iv_mixer"
+							}
+							{
+								Count: 1b
+								id: "gtceu:large_mixer"
+							}
+							{
+								Count: 1b
+								id: "gtceu:alloy_blast_smelter"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
+			title: "搅个不停~"
 			x: 3.0d
 			y: -10.0d
 		}
@@ -483,7 +503,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -16.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["55F51D261FC8E78B"]
@@ -494,7 +514,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -15.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["07968A97D7CE73D4"]
@@ -584,7 +604,7 @@
 			}]
 			title: "{ftbquests.chapter.iv.quest1246393963889225749.title}"
 			x: 8.0d
-			y: -18.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["114C14B4DBCEF015"]
@@ -595,7 +615,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -18.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["43B20673D75D06E6"]
@@ -606,7 +626,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -17.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["0C37AE7B071B9BCB"]
@@ -617,7 +637,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -16.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["00FF6F56069347A8"]
@@ -628,7 +648,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -15.5d
+			y: -14.5d
 		}
 		{
 			dependencies: [
@@ -651,7 +671,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -13.5d
+			y: -12.5d
 		}
 		{
 			id: "1E676C9E66582185"
@@ -663,7 +683,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -13.5d
+			y: -12.5d
 		}
 		{
 			id: "16FCF4B8CA8DE1BE"
@@ -673,7 +693,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -15.5d
+			y: -14.5d
 		}
 		{
 			dependencies: [
@@ -693,7 +713,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -18.5d
+			y: -17.5d
 		}
 		{
 			dependencies: [
@@ -766,8 +786,8 @@
 				item: "gtceu:indium_concentrate_bucket"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -15.5d
+			x: 1.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["4B4E46B469586692"]
@@ -884,10 +904,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: [
-				"18F66388FB38E25C"
-				"2A6527B0F4AC3E2E"
-			]
+			dependencies: ["2A6527B0F4AC3E2E"]
 			id: "0C56A770E0AA5FE2"
 			tasks: [{
 				id: "1E01BFAA13B2358E"
@@ -1525,8 +1542,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.iv.quest3204232383728167747.title}"
-			x: -1.0d
-			y: -15.5d
+			x: 1.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["63F5094821C731CA"]
@@ -1551,7 +1568,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -12.5d
+			y: -15.5d
 		}
 		{
 			id: "6F3903CF77D69F99"
@@ -1716,7 +1733,7 @@
 			]
 			title: "{ftbquests.chapter.iv.quest4597689711843374510.title}"
 			x: -3.0d
-			y: -14.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["0C56A770E0AA5FE2"]
@@ -1730,6 +1747,26 @@
 			x: 3.0d
 			y: -6.5d
 		}
+		{
+			dependencies: ["268301BDF1F3BF0C"]
+			id: "38941407A9F43B7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62FD9397BD44753B"
+				table_id: 7618519509353548779L
+				type: "loot"
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				id: "0A720031E493F57D"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
 	]
-	title: "{ftbquests.chapter.iv.title}"
+	title: "&9IV时期"
 }
