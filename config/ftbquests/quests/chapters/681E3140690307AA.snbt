@@ -1045,6 +1045,7 @@
 			]
 			icon: "ctnhmana:yuriko_ring"
 			id: "589CE9C2FC6ECFA7"
+			shape: "heart"
 			size: 2.0d
 			subtitle: "我的天哪MUI大人"
 			tasks: [{

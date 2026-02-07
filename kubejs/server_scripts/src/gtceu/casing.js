@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
   let material2 = ['mana_steel', 'terra_steel', 'elementium', 'alfsteel']
   material2.forEach(m => {
     ctnh.assembler(m + '_casing')
-      .itemInputs(['6x gtceu:' + m + '_plate', 'gtceu:' + m + '_frame'])
+      .itemInputs(['6x gtceu:' + m + '_plate', 'ctnhmana:' + m + '_frame'])
       .circuit(6)
       .itemOutputs('2x ctnhmana:' + m + '_casing')
       .EUt(16)

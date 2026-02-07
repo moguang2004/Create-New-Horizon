@@ -50,20 +50,6 @@ ItemEvents.tooltip(event => {
     event.addAdvanced('kubejs:scp_500_base', (item, advanced, text) => {
         text.add(1, Text.translate('kubejs.scp_500_base.0'))
     })
-    event.add('kubejs:circuit_resonatic_ulv', Text.translate('ctnh.circuit_resonatic_ulv'))
-    event.add('kubejs:circuit_resonatic_lv', Text.translate('ctnh.circuit_resonatic_lv'))
-    event.add('kubejs:circuit_resonatic_mv', Text.translate('ctnh.circuit_resonatic_mv'))
-    event.add('kubejs:circuit_resonatic_hv', Text.translate('ctnh.circuit_resonatic_hv'))
-    event.add('kubejs:circuit_resonatic_ev', Text.translate('ctnh.circuit_resonatic_ev'))
-    event.add('kubejs:circuit_resonatic_iv', Text.translate('ctnh.circuit_resonatic_iv'))
-    event.add('kubejs:circuit_resonatic_luv', Text.translate('ctnh.circuit_resonatic_luv'))
-    event.add('kubejs:circuit_resonatic_zpm', Text.translate('ctnh.circuit_resonatic_zpm'))
-    event.add('kubejs:circuit_resonatic_uv', Text.translate('ctnh.circuit_resonatic_uv'))
-    event.add('kubejs:circuit_resonatic_uhv', Text.translate('ctnh.circuit_resonatic_uhv'))
-    event.add('kubejs:circuit_resonatic_uev', Text.translate('ctnh.circuit_resonatic_uev'))
-    event.add('kubejs:circuit_resonatic_uiv', Text.translate('ctnh.circuit_resonatic_uiv'))
-    event.add('kubejs:mana_electronic_circuit', Text.translate('ctnh.circuit_mana_hv').red())
-    event.add('kubejs:mana_integrated_circuit', Text.translate('ctnh.circuit_mana_ev'))
     event.add('kubejs:echo_processor', Text.translate('ctnh.circuit_echo_zpm').darkAqua())
     event.add('kubejs:echo_processor_assembly', Text.translate('ctnh.circuit_echo_uv').darkAqua())
     event.add('kubejs:echo_processor_computer', Text.translate('ctnh.circuit_echo_uhv').darkAqua())
@@ -74,8 +60,6 @@ ItemEvents.tooltip(event => {
 
     event.add('hostilenetworks:deep_learner',Text.translate('ctnh.hostilenetworks.deep_learner').yellow())
     event.add('hostilenetworks:sim_chamber',Text.translate('ctnh.hostilenetworks.sim_chamber').yellow())
-
-    event.add(/gtmthings:(.*)huge(.*)/, Text.red('注意：该仓室无法隔离，且用于进阶装配线时可能导致不识别'))
     
     //Snow_city's cautions:
     //event.add('gtceu:ender_fluid_link_cover', '§4暂未实装')

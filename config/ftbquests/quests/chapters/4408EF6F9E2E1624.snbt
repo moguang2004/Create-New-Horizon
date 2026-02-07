@@ -571,7 +571,7 @@
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7118115916349668051.subtitle}"
 			tasks: [{
 				id: "73BCB4C58FAE733A"
-				item: "ctnhcore:big_dam"
+				item: "ctpp:big_dam"
 				type: "item"
 			}]
 			x: 16.5d
