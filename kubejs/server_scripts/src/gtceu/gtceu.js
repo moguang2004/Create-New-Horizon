@@ -1032,12 +1032,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('ctnhcore:fuel_refining_factory')
         .duration(48000)
         .EUt(480)
-    event.recipes.gtceu.electric_blast_furnace("naq_ingot")
-        .itemInputs(['3x gtceu:naquadah_oxide_mixture_dust'])
-        .itemOutputs(['1x gtceu:naquadah_nugget'])
-        .EUt(6144)
-        .duration(320)
-        .blastFurnaceTemp(5200)
+
     event.recipes.gtceu.macerator("seashell")
         .itemInputs('ecologics:seashell')
         .itemOutputs('2x gtceu:calcite_dust')
