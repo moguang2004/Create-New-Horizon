@@ -732,17 +732,6 @@ ServerEvents.recipes(event => {
             D: "create_new_age:generator_coil"
         })
     event.shaped(
-        Item.of("ctnhcore:big_dam", 1), [
-            "ABA",
-            "CDC",
-            "AAA"
-        ], {
-            A: "minecraft:stone_bricks",
-            B: "ctpp:basic_mechanism",
-            C: "create:shaft",
-            D: "create:large_water_wheel"
-        })
-    event.shaped(
         Item.of("ctpp:windmill_control_center", 1), [
             " A ",
             "BCB",

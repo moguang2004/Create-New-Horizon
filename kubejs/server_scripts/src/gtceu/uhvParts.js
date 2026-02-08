@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
     ]
     piston.forEach(p => {
         ctnh.assembly_line(p[0] + 'piston')
-            .itemInputs('gtceu:' + p[0] + '_electric_motor', '4x gtceu:' + p[1] + '_plate', '4x gtceu:' + p[1] + '_ring', '16x gtceu:' + p[1] + '_round', '4x gtceu:' + p[1] + '_rod', 'gtceu:' + p[2] + '_gear', '2x gtceu:small_' + p[2] + '_gear', '2x gtceu:' + p[3] + '_single_cable')
+            .itemInputs('gtceu:' + p[0] + '_electric_motor', '4x gtceu:' + p[1] + '_plate', '4x gtceu:' + p[1] + '_ring', '16x gtceu:' + p[1] + '_round', '4x gtceu:' + p[1] + '_rod', 'gtceu:' + p[1] + '_gear', '2x gtceu:small_' + p[2] + '_gear', '2x gtceu:' + p[3] + '_single_cable')
             .inputFluids(p[4] + ' 576', p[5] + ' 2000', p[6] + ' 576')
             .itemOutputs('gtceu:' + p[0] + '_electric_piston')
             .EUt(p[8])

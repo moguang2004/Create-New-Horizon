@@ -10,7 +10,7 @@ ServerEvents.recipes(event =>{
         .EUt(480)
 
     ctnh.chemical_reactor('pyrometillic_dianhydride')
-        .inputFluids(Fluid.of('gtceu:oxygen',1500))
+        .inputFluids(Fluid.of('ad_astra:oxygen',1500))
         .inputFluids(Fluid.of('gtceu:toluene',250))
         .outputFluids(Fluid.of('gtceu:pyrometillic_dianhydride',250))
         .outputFluids(Fluid.of('minecraft:water',1500))
@@ -99,7 +99,7 @@ ServerEvents.recipes(event =>{
 
     ctnh.chemical_reactor('therephthalic_acid')
         .inputFluids(Fluid.of('gtceu:dimethylbenzene',1000))
-        .inputFluids(Fluid.of('gtceu:oxygen',2000))
+        .inputFluids(Fluid.of('ad_astra:oxygen',2000))
         .inputFluids(Fluid.of('gtceu:co_mn_br_catalyst',1000))
         .outputFluids(Fluid.of('gtceu:terephthalic_acid',1000))
         .outputFluids(Fluid.of('minecraft:water',1000))
