@@ -591,42 +591,42 @@ ServerEvents.recipes(event => {
             C: "gtceu:mv_macerator",
             D: "gtceu:diamond_grinding_head"
         })
-    event.shaped(
-        Item.of("ctnhcore:photovoltaic_power_station_energetic", 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: "minecraft:gold_ingot",
-            B: "gtceu:lv_electric_motor",
-            C: "ctnhcore:reflect_light_casing",
-            D: "enderio:basic_capacitor",
-            E: "#gtceu:circuits/lv"
-        })
-    event.shaped(
-        Item.of("ctnhcore:photovoltaic_power_station_pulsating", 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: "gtceu:pulsating_alloy_plate",
-            B: "gtceu:mv_electric_motor",
-            C: "ctnhcore:reflect_light_casing",
-            D: "enderio:double_layer_capacitor",
-            E: "#gtceu:circuits/mv"
-        })
-    event.shaped(
-        Item.of("ctnhcore:photovoltaic_power_station_vibrant", 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: "gtceu:vibrant_alloy_plate",
-            B: "gtceu:hv_electric_motor",
-            C: "ctnhcore:reflect_light_casing",
-            D: "enderio:octadic_capacitor",
-            E: "#gtceu:circuits/hv"
-        })
+//    event.shaped(
+//        Item.of("ctnhcore:photovoltaic_power_station_energetic", 1), [
+//            "AAA",
+//            "BCB",
+//            "DED"
+//        ], {
+//            A: "minecraft:gold_ingot",
+//            B: "gtceu:lv_electric_motor",
+//            C: "ctnhcore:reflect_light_casing",
+//            D: "enderio:basic_capacitor",
+//            E: "#gtceu:circuits/lv"
+//        })
+//    event.shaped(
+//        Item.of("ctnhcore:photovoltaic_power_station_pulsating", 1), [
+//            "AAA",
+//            "BCB",
+//            "DED"
+//        ], {
+//            A: "gtceu:pulsating_alloy_plate",
+//            B: "gtceu:mv_electric_motor",
+//            C: "ctnhcore:reflect_light_casing",
+//            D: "enderio:double_layer_capacitor",
+//            E: "#gtceu:circuits/mv"
+//        })
+//    event.shaped(
+//        Item.of("ctnhcore:photovoltaic_power_station_vibrant", 1), [
+//            "AAA",
+//            "BCB",
+//            "DED"
+//        ], {
+//            A: "gtceu:vibrant_alloy_plate",
+//            B: "gtceu:hv_electric_motor",
+//            C: "ctnhcore:reflect_light_casing",
+//            D: "enderio:octadic_capacitor",
+//            E: "#gtceu:circuits/hv"
+//        })
     event.shaped(
         Item.of("gtceu:turbine_rotor", 1, '{GT.PartStats:{Material:"gtceu:steel"}}'), [
             "AAA",
