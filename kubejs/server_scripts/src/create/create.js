@@ -166,7 +166,7 @@ ServerEvents.recipes(event => {
     ], {
         A: 'gtceu:lp_steam_rock_crusher',
 
-        B: 'kubejs:heavy_machinery_casing',
+        B: 'ctpp:heavy_machinery_casing',
 
         C: 'create:mechanical_drill',
 

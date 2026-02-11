@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
             "BAB"
         ], {
             A: '#gtceu:circuits/mv',
-            B: 'kubejs:steel_casing',
+            B: 'ctpp:steel_casing',
             C: 'gtceu:mv_machine_hull',
 
         })

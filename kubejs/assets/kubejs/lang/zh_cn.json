@@ -59,8 +59,6 @@
     "item.kubejs.general_circuit_uxv": "§1UXV§r级通用电路板",
     "item.kubejs.general_circuit_opv": "§9§lOpV§r级通用电路板",
     "item.kubejs.general_circuit_max": "§c§lMAX§r级通用电路板",
-    "block.kubejs.steel_casing": "钢机壳",
-    "block.kubejs.heavy_machinery_casing": "重型机械机壳",
     "block.kubejs.osmiridium_casing": "铱锇合金机械方块",
     "block.kubejs.iridium_casing": "铱制机械方块",
     "block.kubejs.machine_casing_bronze_plated_bricks_slab": "青铜台阶",
