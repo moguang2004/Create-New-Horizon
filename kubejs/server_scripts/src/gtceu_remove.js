@@ -213,8 +213,6 @@ ServerEvents.recipes(event => {
         //湿件研究站
         'gtceu:research_station/1x_gtceu_wetware_processor_assembly',
         'gtceu:research_station/1x_gtceu_wetware_processor_computer',
-        //转换器
-        /gtceu:shaped\/(.*)_energy_converter/,
         //装配线外壳和控制外壳
         'gtceu:assembler/assembly_line_casing',
         'gtceu:assembler/assembly_control_casing',

@@ -566,6 +566,23 @@
 					item: "ctpp:lv_kinetic_output_box"
 					type: "item"
 				}
+				{
+					id: "7210060D7568B5A5"
+					item: {
+						Count: 1
+						id: "ctnhcore:me_advanced_terminal"
+						tag: {
+							CoilTier: 0
+							NoHatchMode: 0
+							PlaceFluid: 1
+							PlaceInFluid: 0
+							RepeatCount: 0
+							ReplaceCoilMode: 0
+							UseAEStorage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7118115916349668051.subtitle}"
