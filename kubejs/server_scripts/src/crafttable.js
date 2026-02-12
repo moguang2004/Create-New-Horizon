@@ -159,17 +159,7 @@ ServerEvents.recipes(event => {
             C: "alexscaves:azure_neodymium_ingot",
             D: "create_new_age:magnetite_block",
         })
-    event.shaped(
-        Item.of("create_new_age:carbon_brushes", 1), [
-            "ABA",
-            "CDC",
-            "ABA"
-        ], {
-            A: "gtceu:iron_rod",
-            B: "gtceu:andesite_alloy_plate",
-            C: "gtceu:coke_dust",
-            D: "create:shaft",
-        })
+
     event.shaped(
         Item.of("create_new_age:energiser_t1", 1), [
             " A ",
