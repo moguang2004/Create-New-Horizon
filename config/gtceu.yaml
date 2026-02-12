@@ -381,6 +381,78 @@ machines:
     tungstensteelBoilerHeatSpeed: 2
 
 client:
+  # Multiblock Structure Display Size
+  # Allowed values:
+  # - MEIDUM
+  # - LARGE
+  # - CUSTOM
+  widgetScale: LARGE
+
+  patternPreviewWidgetConfigs:
+    PatternPreviewWidgetButtonPWidgetX: 138
+
+    PatternPreviewWidgetButtonPWidgetY: 30
+
+    PatternPreviewWidgetButtonPWidgetWidth: 18
+
+    PatternPreviewWidgetButtonPWidgetHeight: 18
+
+    PatternPreviewWidgetButtonALLWidgetX: 138
+
+    PatternPreviewWidgetButtonALLWidgetY: 50
+
+    PatternPreviewWidgetButtonALLWidgetWidth: 18
+
+    PatternPreviewWidgetButtonALLWidgetHeight: 18
+
+    PatternPreviewWidgetButtonHighLightX: 138
+
+    PatternPreviewWidgetButtonHighLightY: 70
+
+    PatternPreviewWidgetButtonHighLightWidth: 18
+
+    PatternPreviewWidgetButtonHighLightHeight: 18
+
+    PatternPreviewWidgetSrollableWidgetGroupX: 3
+
+    PatternPreviewWidgetSrollableWidgetGroupY: 132
+
+    PatternPreviewWidgetSrollableWidgetGroupWidth: 154
+
+    PatternPreviewWidgetSrollableWidgetGroupHeight: 22
+
+    PatternPreviewWidgetHeight: 160
+
+    PatternPreviewWidgetWidth: 160
+
+    PatternPreviewWidgetX: 0
+
+    PatternPreviewWidgetY: 0
+
+    PatternPreviewWidgetSceneX: 3
+
+    PatternPreviewWidgetSceneY: 3
+
+    PatternPreviewWidgetSceneHeight: 150
+
+    PatternPreviewWidgetSceneWidget: 150
+
+    PatternPreviewWidgetImageX: 3
+
+    PatternPreviewWidgetImageY: 3
+
+    PatternPreviewWidgetImageWidth: 160
+
+    PatternPreviewWidgetImageHeight: 10
+
+    PatternPreviewWidgetImageTextureWidth: 170
+
+    PatternPreviewWidgetSlotX: 138
+
+    PatternPreviewWidgetSlotY: 12
+
+    PatternPreviewWidgetSceneSpeed: 1.0
+
   # Whether or not to enable Emissive Textures for GregTech Machines.
   # Default: true
   machinesEmissiveTextures: true
@@ -550,7 +622,7 @@ compat:
 
     # Enable GTEU to FE (and vice versa) Converters.
     # Default: false
-    enableFEConverters: true
+    enableFEConverters: false
 
     # Forge Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.
