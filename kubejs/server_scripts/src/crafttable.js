@@ -116,20 +116,6 @@ ServerEvents.recipes(event => {
             E: "create:whisk"
         })
     event.shaped(
-        Item.of("ctpp:basic_mechanism", 2), [
-            "ABC",
-            "DEF",
-            "GGG"
-        ], {
-            A: "#forge:tools/saws",
-            B: "gtceu:andesite_alloy_rod",
-            C: "gtceu:gold_plate",
-            D: "gtceu:andesite_alloy_plate",
-            E: "gtceu:andesite_alloy_gear",
-            F: "gtceu:iron_rod",
-            G: "#minecraft:planks"
-        })
-    event.shaped(
         Item.of("create:electron_tube", 1), [
             " A ",
             "BCB",
@@ -520,31 +506,6 @@ ServerEvents.recipes(event => {
             F: "gtceu:lv_electric_motor"
         })
     event.shaped(
-        Item.of("ctpp:kinetic_steam_turbine", 1), [
-            "ABA",
-            "CDC",
-            "AEA"
-        ], {
-            A: "gtceu:bronze_plate",
-            B: "ctpp:steel_mechanism",
-            C: "#gtceu:circuits/lv",
-            D: "gtceu:steam_machine_casing",
-            E: "create:shaft"
-        })
-    event.shaped(
-        Item.of("ctpp:seaweed_farm", 1), [
-            "ABA",
-            "CDC",
-            "EFE"
-        ], {
-            A: "create:large_cogwheel",
-            B: "create:cogwheel",
-            C: "create:precision_mechanism",
-            D: "create:andesite_casing",
-            E: "create:shaft",
-            F: "gtceu:bronze_gear"
-        })
-    event.shaped(
         Item.of("ctnhcore:industrial_primitive_blast_furnace", 1), [
             "ABA",
             "BCB",
@@ -721,29 +682,6 @@ ServerEvents.recipes(event => {
             B: "gtceu:pulsating_alloy_ingot"
         }).id('enderio:item_conduit')
     event.shaped(
-        Item.of("ctpp:kinetic_generator", 1), [
-            "ABA",
-            "CDC",
-            "ABA"
-        ], {
-            A: "kubejs:heavy_machinery_casing",
-            B: "gtceu:solid_machine_casing",
-            C: "#gtceu:circuits/mv",
-            D: "create_new_age:generator_coil"
-        })
-    event.shaped(
-        Item.of("ctpp:windmill_control_center", 1), [
-            " A ",
-            "BCB",
-            "DED"
-        ], {
-            A: "create:redstone_link",
-            B: "create:precision_mechanism",
-            C: "create:linked_controller",
-            D: "create:brass_casing",
-            E: "create:shaft"
-        })
-    event.shaped(
         Item.of("ctnhcore:wind_power_array", 1), [
             "ABA",
             "BCB",
@@ -838,18 +776,6 @@ ServerEvents.recipes(event => {
         V: "gtceu:iv_sifter",
         G: "gtceu:fluid_filter"
     })
-    event.shaped(
-        Item.of('ctpp:boom_of_create', 1), [
-            "DED",
-            "ACA",
-            "BAB"
-        ], {
-            A: 'gtceu:iv_conveyor_module',
-            B: '#gtceu:circuits/iv',
-            C: 'gtceu:iv_machine_hull',
-            D: 'gtceu:iv_electric_pump',
-            E: 'ctnhcore:big_dam'
-        })
     event.shaped(
         Item.of('ctnhcore:greenhouse', 1), [
             "DED",
@@ -973,7 +899,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gtceu:gold_foil',
             B: 'gtceu:steel_plate',
-            C: 'kubejs:heavy_machinery_casing',
+            C: 'ctpp:heavy_machinery_casing',
             D: 'create:cogwheel'
         })
 
@@ -985,7 +911,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gtceu:gold_foil',
             B: 'gtceu:steel_plate',
-            C: 'kubejs:heavy_machinery_casing',
+            C: 'ctpp:heavy_machinery_casing',
             D: 'create:cogwheel'
         })
 
@@ -997,7 +923,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gtceu:gold_foil',
             B: 'gtceu:steel_plate',
-            C: 'kubejs:heavy_machinery_casing',
+            C: 'ctpp:heavy_machinery_casing',
             D: 'gtceu:red_alloy_single_wire'
         })
 
@@ -1009,7 +935,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gtceu:gold_foil',
             B: 'gtceu:steel_plate',
-            C: 'kubejs:heavy_machinery_casing',
+            C: 'ctpp:heavy_machinery_casing',
             D: 'gtceu:red_alloy_single_wire'
         })
 
@@ -1242,144 +1168,6 @@ ServerEvents.recipes(event => {
             C: "bloodmagic:reagentvoid",
             D: "botania:rune_envy",
             E: "botania:lens_warp"
-        })
-    let tiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
-    tiers.forEach(tier => {
-        event.shaped(
-            Item.of("ctpp:" + tier + "_kinetic_input_box", 1), [
-                "A",
-                "B"
-            ], {
-                A: "create:shaft",
-                B: "gtceu:" + tier + "_machine_hull"
-            })
-        event.shaped(
-            Item.of("ctpp:" + tier + "_kinetic_output_box", 1), [
-                "B",
-                "A"
-            ], {
-                A: "create:shaft",
-                B: "gtceu:" + tier + "_machine_hull"
-            })
-        event.shaped(
-            Item.of("ctpp:" + tier + "_kinetic_input_box", 1), [
-                "A",
-                "B"
-            ], {
-                A: "#forge:tools/wrench",
-                B: "ctpp:" + tier + "_kinetic_output_box"
-            })
-        event.shaped(
-            Item.of("ctpp:" + tier + "_kinetic_output_box", 1), [
-                "A",
-                "B"
-            ], {
-                A: "#forge:tools/wrench",
-                B: "ctpp:" + tier + "_kinetic_input_box"
-            })
-    })
-    tiers = ['lv', 'mv', 'hv', 'ev']
-    tiers.forEach(tier => {
-        event.shaped(
-            Item.of("ctpp:" + tier + "_electric_gear_box_2a", 1), [
-                "   ",
-                "ABC",
-                "   "
-            ], {
-                A: "create:cogwheel",
-                B: "gtceu:" + tier + "_machine_hull",
-                C: "gtceu:" + tier + "_voltage_coil"
-            })
-        event.shaped(
-            Item.of("ctpp:" + tier + "_electric_gear_box_8a", 1), [
-                "  C",
-                "AB ",
-                "  C"
-            ], {
-                A: "create:cogwheel",
-                B: "gtceu:" + tier + "_machine_hull",
-                C: "gtceu:" + tier + "_voltage_coil"
-            })
-        event.shaped(
-            Item.of("ctpp:" + tier + "_electric_gear_box_16a", 1), [
-                " CC",
-                "AB ",
-                " CC"
-            ], {
-                A: "create:cogwheel",
-                B: "gtceu:" + tier + "_machine_hull",
-                C: "gtceu:" + tier + "_voltage_coil"
-            })
-        event.shaped(
-            Item.of("ctpp:" + tier + "_electric_gear_box_32a", 1), [
-                "CCC",
-                "ABC",
-                "CCC"
-            ], {
-                A: "create:cogwheel",
-                B: "gtceu:" + tier + "_machine_hull",
-                C: "gtceu:" + tier + "_voltage_coil"
-            })
-    })
-    // event.shaped(
-    //     Item.of("ctpp:lv_kinetic_mixer", 1), [
-    //         "ABA",
-    //         "ACA",
-    //         "DED"
-    //     ], {
-    //         A: "create:shaft",
-    //         B: "gtceu:tin_rotor",
-    //         C: "gtceu:lv_electric_motor",
-    //         D: "#gtceu:circuits/lv",
-    //         E: "gtceu:lv_machine_hull"
-    //     })
-    // event.shaped(
-    //     Item.of("ctpp:mv_kinetic_mixer", 1), [
-    //         "ABA",
-    //         "ACA",
-    //         "DED"
-    //     ], {
-    //         A: "create:shaft",
-    //         B: "gtceu:bronze_rotor",
-    //         C: "gtceu:mv_electric_motor",
-    //         D: "#gtceu:circuits/mv",
-    //         E: "gtceu:mv_machine_hull"
-    //     })
-    // event.shaped(
-    //     Item.of("ctpp:hv_kinetic_mixer", 1), [
-    //         "ABA",
-    //         "ACA",
-    //         "DED"
-    //     ], {
-    //         A: "create:shaft",
-    //         B: "gtceu:steel_rotor",
-    //         C: "gtceu:hv_electric_motor",
-    //         D: "#gtceu:circuits/hv",
-    //         E: "gtceu:hv_machine_hull"
-    //     })
-    // event.shaped(
-    //     Item.of("ctpp:ev_kinetic_mixer", 1), [
-    //         "ABA",
-    //         "ACA",
-    //         "DED"
-    //     ], {
-    //         A: "create:shaft",
-    //         B: "gtceu:stainless_steel_rotor",
-    //         C: "gtceu:ev_electric_motor",
-    //         D: "#gtceu:circuits/ev",
-    //         E: "gtceu:ev_machine_hull"
-    //     })
-    event.shaped(
-        Item.of("ctpp:smashing_factory", 1), [
-            "ABA",
-            "BCB",
-            "DED"
-        ], {
-            A: "create:crushing_wheel",
-            B: "gtceu:bronze_gear",
-            C: "ctpp:basic_mechanism",
-            D: "create:andesite_casing",
-            E: "#gtceu:circuits/ulv"
         })
     event.shaped(
         Item.of('ctnhcore:forest_sea_tree_farm', 1), [

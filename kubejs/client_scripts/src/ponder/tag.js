@@ -48,7 +48,7 @@ Ponder.tags((event) => {
       "ctnhcore:meadow", 
       "ctpp:smashing_factory",
       "ctpp:windmill_control_center",
-      "ctnhcore:big_dam", 
+      "ctpp:big_dam", 
       "ctnhcore:mechanical_pressor", 
       "ctnhcore:mechanical_mixer", 
       "ctnhcore:mechanical_centrifuge", 

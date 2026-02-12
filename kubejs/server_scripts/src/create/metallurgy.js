@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 	//耐火砂浆 铸造盆 熔铸盖 玻璃熔铸盖配方
     //event.recipes.create.mixing('4x createmetallurgy:refractory_mortar', 
     //                            ['2x gtceu:fireclay_dust', 'minecraft:sand', 'minecraft:gravel'])
-    //for (var rcp of [['createmetallurgy:foundry_basin', ["A   A","AB BA","ABCBA","ABBBA","AAAAA"], {C: "kubejs:steel_casing"}],
+    //for (var rcp of [['createmetallurgy:foundry_basin', ["A   A","AB BA","ABCBA","ABBBA","AAAAA"], {C: "ctpp:steel_casing"}],
     //    ['createmetallurgy:foundry_lid', ["AA AA","ABCBA","ABBBA","A   A"], {C: "ctpp:basic_mechanism"}]]){
     //    var result = rcp[0],
     //        recipe = rcp[1],
