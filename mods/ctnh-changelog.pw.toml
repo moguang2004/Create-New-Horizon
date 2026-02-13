@@ -1,0 +1,13 @@
+name = "CTNH-Changelog"
+filename = "CTNHChangelog-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "78314cdc512abe4d597286660efba4605f6a9758"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7615495
+project-id = 1460689

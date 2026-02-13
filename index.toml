@@ -12193,6 +12193,11 @@ hash = "0153a3f2bb0d657b4754ddfac78c1f3418de14a9f75ff17e607b6225ba830395"
 metafile = true
 
 [[files]]
+file = "mods/ctnh-changelog.pw.toml"
+hash = "19876429e72cacd20f0eda6ae97dce6437280e2b3ce91b3710ff37a3c59ebadf"
+metafile = true
+
+[[files]]
 file = "mods/cultural-delights.pw.toml"
 hash = "e981f74588f671ff091cc7e9b6f145f0b9c2099d1e13879a99864fe6ec197521"
 metafile = true
