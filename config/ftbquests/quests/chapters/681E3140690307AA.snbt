@@ -114,17 +114,6 @@
 				id: "legendarysurvivaloverhaul:thermometer"
 			}
 			id: "5C2320A3B3E10E11"
-			rewards: [{
-				id: "118E14A8F73D99ED"
-				item: {
-					Count: 1
-					id: "kubejs:broken_temperature_keeping_device"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.subtitle}"
 			tasks: [{
 				id: "1769E6600040B278"

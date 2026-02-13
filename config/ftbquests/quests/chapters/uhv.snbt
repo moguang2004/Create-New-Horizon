@@ -355,18 +355,11 @@
 			id: "72F3BC0B1E557419"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.uhv.quest8283170895604053017.subtitle}"
-			tasks: [
-				{
-					id: "0BA949F8EA6C8EAD"
-					item: "gtceu:uhv_circuit_assembler"
-					type: "item"
-				}
-				{
-					id: "30E74620691002AC"
-					item: "kubejs:circuit_resonatic_uv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0BA949F8EA6C8EAD"
+				item: "gtceu:uhv_circuit_assembler"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 4.0d
 		}
