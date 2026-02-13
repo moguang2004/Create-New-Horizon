@@ -1,0 +1,6 @@
+#更新日志JSON文件的远程URL
+#例如: http://example.com/changelog.json
+changelogUrl = "https://raw.mmyddd.top:8081/changelog.json"
+#是否在创建世界界面显示更新日志标签页
+enableChangelogTab = true
+
