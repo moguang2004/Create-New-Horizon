@@ -31,10 +31,10 @@ rewards_text_color:                 #E5E4E2
 quest_view_background: ftbquests:textures/b2.png
 quest_view_border: {{widget_border}}
 quest_view_title:                   #00FFFF
-quest_completed_color:              #80514500
+quest_completed_color:              #E5E4E2
 quest_started_color:                #80514500
-dependency_line_completed_color:    #80514500
-dependency_line_requires_color:     #80514500
+dependency_line_completed_color:    #E5E4E2
+dependency_line_requires_color:     #E5E4E2
 dependency_line_required_for_color: #80514500
 dependency_line_selected_speed:     1.0
 dependency_line_unselected_speed:   0.0

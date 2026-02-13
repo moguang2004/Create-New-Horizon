@@ -2,7 +2,7 @@
   "modpackMode": false,
   "fullScreen": "WINDOWED",
   "fpsDisplayMode": "SIMPLE",
-  "fpsDisplayGravity": "CENTER",
+  "fpsDisplayGravity": "RIGHT",
   "fpsDisplaySystemMode": "RAM",
   "fpsDisplayMargin": 4,
   "fpsDisplayShadow": true,

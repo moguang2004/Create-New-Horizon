@@ -223,41 +223,8 @@
 				item: "gtceu:lv_miner"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -3.5d
-		}
-		{
-			dependencies: ["3534E727B52EC2F2"]
-			description: ["{ftbquests.chapter.387655B3E5BE4912.quest4074051770599561836.description1}"]
-			id: "3889F08007235A6C"
-			subtitle: "{ftbquests.chapter.387655B3E5BE4912.quest4074051770599561836.subtitle}"
-			tasks: [{
-				id: "110FE957A43551B9"
-				item: "gtmthings:lv_digital_miner"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.5d
-		}
-		{
-			id: "2F6F9A8648EB8899"
-			tasks: [{
-				id: "1F842B0ABEBC4043"
-				item: "gtmthings:mv_digital_miner"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.5d
-		}
-		{
-			id: "136335555BE48105"
-			tasks: [{
-				id: "67CD18BBB16859AD"
-				item: "gtmthings:hv_digital_miner"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -0.5d
 		}
 		{
 			id: "3979018285276884"
@@ -266,8 +233,8 @@
 				item: "gtceu:ev_large_miner"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			id: "512D724945EF3D93"
@@ -276,8 +243,8 @@
 				item: "gtceu:iv_large_miner"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 4.5d
+			y: -0.5d
 		}
 		{
 			id: "7F6ED86E26844364"
@@ -286,8 +253,61 @@
 				item: "gtceu:luv_large_miner"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -0.5d
+		}
+		{
+			id: "74E0954673D9E9BB"
+			tasks: [{
+				id: "2ECC01B883E1A0CA"
+				item: "gtceu:mv_miner"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "0C2E34246DCC0503"
+			tasks: [{
+				id: "6FB4351AB35C98DB"
+				item: "gtceu:hv_miner"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3534E727B52EC2F2"]
+			id: "5A4245E9A8180B0B"
+			tasks: [{
+				id: "51AA59340888FD78"
+				item: "ctnhcore:lv_digital_miner"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74E0954673D9E9BB"]
+			id: "4A961158C5E254FF"
+			tasks: [{
+				id: "0253BAC198579358"
+				item: "ctnhcore:mv_digital_miner"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C2E34246DCC0503"]
+			id: "4626B3B8A5698CBF"
+			tasks: [{
+				id: "4EF51A425A52FDBE"
+				item: "ctnhcore:hv_digital_miner"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
 		}
 	]
 	title: "&e如何挖矿"

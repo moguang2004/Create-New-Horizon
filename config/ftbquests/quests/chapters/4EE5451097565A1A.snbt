@@ -831,42 +831,6 @@
 			x: -11.5d
 			y: 4.5d
 		}
-		{
-			can_repeat: true
-			dependencies: ["1B4FFE71B4C66E14"]
-			icon: {
-				Count: 1
-				id: "kubejs:broken_temperature_keeping_device"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "78A53D83556FC26B"
-			rewards: [{
-				auto: "enabled"
-				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"kubejs:broken_temperature_keeping_device\",nbt:{Damage:0}}]}"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: {
-					Count: 1
-					id: "kubejs:broken_temperature_keeping_device"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "60A0B8E8ED0033CF"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest8693422289992008299.reward.6962768334462923727.title}"
-				type: "command"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "56C5802444F84C2B"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest8693422289992008299.task.6252544550938102827.title}"
-				type: "checkmark"
-			}]
-			x: -11.5d
-			y: 6.5d
-		}
 	]
 	title: "&6小市场"
 }

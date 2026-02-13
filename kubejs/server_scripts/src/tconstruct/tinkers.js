@@ -18,6 +18,10 @@ ServerEvents.tags('minecraft:fluid', event => {
 	})
 })
 
+ServerEvents.tags('fluid',event =>{
+    event.add('forge:steel','createmetallurgy:molten_steel')
+})
+
 //合成
 ServerEvents.recipes(event => {
     for (let rcp of [
@@ -33,7 +37,7 @@ ServerEvents.recipes(event => {
         Object.assign(target, rcp[2]);
         event.recipes.create.mechanical_crafting(result, recipe, target);
     }
-	event.recipes.create.mixing('8x kubejs:heatproof_smelting_brick_dust', ['4x gtceu:fireclay_dust', '4x kubejs:grout_dust'])//耐热冶炼砖粉
+	event.recipes.create.mixing('8x kubejs:heatproof_smelting_brick_dust', ['4x gtceu:asbestos_dust', '4x kubejs:grout_dust'])//耐热冶炼砖粉
 	event.smelting("tconstruct:seared_brick", "kubejs:heatproof_smelting_brick_dust")//焦黑砖
 	event.shapeless(Item.of('tconstruct:puny_smelting', 1), ['minecraft:book', 'kubejs:grout_dust'])
 	//砖泥粉

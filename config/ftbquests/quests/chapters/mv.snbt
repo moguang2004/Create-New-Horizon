@@ -957,15 +957,16 @@
 			description: [""]
 			id: "761AC9761D80AC19"
 			rewards: [{
+				count: 4
 				id: "681C287F669124F3"
-				item: "kubejs:mana_integrated_circuit"
+				item: "ctnhmana:mana_integrated_circuit"
 				type: "item"
 			}]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.mv.quest8510335955008269337.subtitle}"
 			tasks: [{
 				id: "32FD501729B1C125"
-				item: "kubejs:mana_integrated_circuit"
+				item: "ctnhmana:mana_integrated_circuit"
 				type: "item"
 			}]
 			x: 14.0d
