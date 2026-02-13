@@ -11822,7 +11822,7 @@ hash = "bff20817fd79930081cf663ee876f116ca8fc450910751bcc1390f971ba6894a"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/tinkers.js"
-hash = "ee950ea939d7de2237690415b118dbd41fac9b27e038f5fbbfcc118b2406c5e5"
+hash = "dd75b7419fe065d4103c172a9d713cdffa2b8f6b9fbf50fb1e0c6f8b06dbfcb9"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/toolparts_register.js"
