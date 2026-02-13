@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
             "UVWXY"
         ], {
             A: Item.of('apotheosis:gem', '{affix_data:{rarity:"apotheosis:ancient"},gem:"apotheosis:core/warlord"}').weakNBT(),
-            B: 'kubejs:elf_catalyst',
+            B: 'ctnhmana:elf_catalyst',
             C: 'cataclysm:ceraunus',
             D: Item.of('gtceu:damascus_steel_wrench', '{Damage:0,DisallowContainerItem:0b,GT.Behaviours:{Mode:2b},GT.Tool:{AttackDamage:5.0f,AttackSpeed:-2.5f,DefaultEnchantments:[{id:"minecraft:fortune",lvl:3s}],HarvestLevel:3,MaxDamage:1023,ToolSpeed:10.0f},HideFlags:2}'),
             E: 'bloodmagic:minekey',

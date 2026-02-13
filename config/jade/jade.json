@@ -1,7 +1,7 @@
 {
   "general": {
     "debug": false,
-    "itemModNameTooltip": true,
+    "itemModNameTooltip": false,
     "bossBarOverlapMode": "PUSH_DOWN",
     "builtinCamouflage": true,
     "ttsMode": "PRESS",
@@ -9,7 +9,7 @@
     "reachDistance": 0.0,
     "displayEntities": true,
     "displayBosses": true,
-    "displayMode": "TOGGLE",
+    "displayMode": "LITE",
     "displayTooltip": true,
     "displayBlocks": true,
     "hideFromDebug": true,
@@ -29,11 +29,11 @@
     "autoScaleThreshold": 0.4,
     "overlayPosY": 1.0,
     "overlayScale": 0.93,
-    "overlayAnchorX": 0.52,
+    "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
     "activeTheme": "jade:dark",
     "themesHash": -328442023,
-    "overlayPosX": 0.54
+    "overlayPosX": 0.5
   },
   "formatting": {
     "modName": "§9§o%s"

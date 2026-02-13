@@ -1,7 +1,26 @@
 {
   "removed": [
-    "fluid:ad_astra:hydrogen",
-    "fluid:ad_astra:oxygen"
+    "fluid:ad_astra:hydrogen"
+  ],
+  "added": [
+    {
+      "stack": "item:create:chromatic_compound"
+    },
+    {
+      "stack": "item:create:shadow_steel"
+    },
+    {
+      "stack": "item:shadow_steel_casing"
+    },
+    {
+      "stack": "item:refined_radiance"
+    },
+    {
+      "stack": "item:refined_radiance_casing"
+    }
+  ],
+  "filters": [
+    "/gtceu:shaped/(.*)_energy_converter/"
   ],
   "disable": true
 }

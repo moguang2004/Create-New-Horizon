@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "08AF6857D150C353"
 	group: "203B37D7B3ACCD4B"
-	icon: "kubejs:steel_casing"
+	icon: "ctpp:steel_casing"
 	id: "08AF6857D150C353"
 	order_index: 1
 	quest_links: [
@@ -145,8 +145,8 @@
 					type: "item"
 				}
 				{
-					id: "0326ECF3769946F0"
-					item: "create_new_age:carbon_brushes"
+					id: "7EF12DE6A22FB813"
+					item: "ctpp:carbon_brushes"
 					type: "item"
 				}
 			]

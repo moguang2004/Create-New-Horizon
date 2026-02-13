@@ -18,6 +18,10 @@ ServerEvents.tags('minecraft:fluid', event => {
 	})
 })
 
+ServerEvents.tags('fluid',event =>{
+    event.add('forge:steel','createmetallurgy:molten_steel')
+})
+
 //合成
 ServerEvents.recipes(event => {
     for (let rcp of [

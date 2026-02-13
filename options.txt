@@ -22,7 +22,7 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.0
+fov:0.75
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
@@ -205,11 +205,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_fpsreducer.key.openGui:key.keyboard.end
 key_fpsreducer.key.forceIdle:key.keyboard.pause
 key_key.carry.desc:key.keyboard.left.shift
@@ -272,10 +272,6 @@ key_bloodmagic.keybind.cycle_holding_pos:key.keyboard.unknown:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:key.keyboard.unknown:SHIFT
 key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i
-key_key.sakuratinker.blood_burn:key.keyboard.j
-key_key.sakuratinker.summon:key.keyboard.g
-key_key.sakuratinker.selected_slot:key.keyboard.k
-key_key.sakuratinker.treasure_toggle_loot:key.keyboard.l
 key_key.special_ability:key.keyboard.g
 key_gtceu.key.armor_mode_switch:key.keyboard.m
 key_gtceu.key.enable_jetpack:key.keyboard.g

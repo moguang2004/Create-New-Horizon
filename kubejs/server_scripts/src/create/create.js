@@ -48,11 +48,11 @@ ServerEvents.recipes(event => {
 
         C: "minecraft:redstone_torch",
 
-        D: 'gtceu:steel_rod',
+        D: 'gtceu:wrought_iron_rod',
 
         E: "minecraft:redstone",
 
-        F: 'gtceu:steel_plate',
+        F: 'gtceu:wrought_iron_plate',
 
         G: "minecraft:iron_bars",
 
@@ -166,7 +166,7 @@ ServerEvents.recipes(event => {
     ], {
         A: 'gtceu:lp_steam_rock_crusher',
 
-        B: 'kubejs:heavy_machinery_casing',
+        B: 'ctpp:heavy_machinery_casing',
 
         C: 'create:mechanical_drill',
 
