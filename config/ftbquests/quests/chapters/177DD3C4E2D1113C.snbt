@@ -1263,6 +1263,7 @@
 		{
 			dependencies: ["27F0DABAEDC00D7A"]
 			id: "724B4D5BE66CEEEA"
+			shape: "octagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest8235761400680345322.subtitle}"
 			tasks: [{
@@ -1381,6 +1382,7 @@
 				"3C9769EB35BB245D"
 			]
 			id: "2BB03484D6971028"
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest3148073884672528424.subtitle}"
 			tasks: [{
 				id: "19B9754ACA92787A"
@@ -2216,6 +2218,7 @@
 			y: 12.0d
 		}
 		{
+			icon: "gtceu:uv_machine_hull"
 			id: "12BAF2B7FB2E3643"
 			tasks: [{
 				id: "6D888DD2B4AB01D4"
@@ -2227,6 +2230,7 @@
 			y: 15.5d
 		}
 		{
+			icon: "gtceu:uhv_machine_hull"
 			id: "5F669351E929DE13"
 			tasks: [{
 				id: "1A2D771D11092AFB"
@@ -2237,6 +2241,7 @@
 			y: 12.5d
 		}
 		{
+			icon: "gtceu:uev_machine_hull"
 			id: "7C250EA72ABD6BB4"
 			tasks: [{
 				id: "4FBFA0E1DDC049BA"

@@ -928,7 +928,35 @@
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4572035063840911481.subtitle}"
 			tasks: [{
 				id: "4768030EFF5870E2"
-				item: "kubejs:mana_resistor"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ctnhmana:mana_resistor"
+							}
+							{
+								Count: 1b
+								id: "ctnhmana:mana_capacitor"
+							}
+							{
+								Count: 1b
+								id: "ctnhmana:mana_transistor"
+							}
+							{
+								Count: 1b
+								id: "ctnhmana:mana_diode"
+							}
+							{
+								Count: 1b
+								id: "ctnhmana:mana_inductor"
+							}
+						]
+					}
+				}
+				title: "注入魔力"
 				type: "item"
 			}]
 			x: 3.0d
@@ -940,7 +968,35 @@
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3836323373198789101.subtitle}"
 			tasks: [{
 				id: "503E1C04803B8AE4"
-				item: "kubejs:advanced_mana_transistor"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ctnhmana:advanced_mana_resistor"
+							}
+							{
+								Count: 1b
+								id: "ctnhmana:advanced_mana_capacitor"
+							}
+							{
+								Count: 1b
+								id: "ctnhmana:advanced_mana_transistor"
+							}
+							{
+								Count: 1b
+								id: "ctnhmana:advanced_mana_diode"
+							}
+							{
+								Count: 1b
+								id: "ctnhmana:advanced_mana_inductor"
+							}
+						]
+					}
+				}
+				title: "注入提纯魔力"
 				type: "item"
 			}]
 			x: 15.0d
@@ -952,7 +1008,7 @@
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3002061323476609746.subtitle}"
 			tasks: [{
 				id: "50B23C8832458101"
-				item: "ctnhcore:mana_reactor"
+				item: "ctnhmana:mana_reactor"
 				type: "item"
 			}]
 			x: 6.0d
@@ -1022,7 +1078,7 @@
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest696750040786191351.subtitle}"
 			tasks: [{
 				id: "7381CFE03BF65333"
-				item: "ctnhcore:gaia_reactor"
+				item: "ctnhmana:gaia_reactor"
 				type: "item"
 			}]
 			x: 17.5d
@@ -1035,7 +1091,7 @@
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest5885657729452113362.subtitle}"
 			tasks: [{
 				id: "79F1C9EB2382F18E"
-				item: "ctnhcore:blood_antiaris"
+				item: "ctnhmana:blood_antiaris"
 				type: "item"
 			}]
 			x: 17.5d
@@ -1047,7 +1103,7 @@
 			id: "3837F369AF70C59E"
 			tasks: [{
 				id: "3892EB97C6335AEB"
-				item: "ctnhcore:demon_flytrap"
+				item: "ctnhmana:demon_flytrap"
 				type: "item"
 			}]
 			x: 18.5d

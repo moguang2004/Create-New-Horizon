@@ -1784,6 +1784,7 @@
 						]
 					}
 				}
+				title: "磁小轨"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest6514146733366147687.title}"
@@ -1824,7 +1825,7 @@
 		}
 		{
 			dependencies: ["60D8E1B5B8777322"]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest6793250161192230871.description1}"]
+			description: ["                                  真的"]
 			id: "5E467907883A5FD7"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6793250161192230871.subtitle}"
 			tasks: [{
