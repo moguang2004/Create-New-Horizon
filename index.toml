@@ -910,7 +910,7 @@ hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
 file = "config/fancymenu/assets/version.md"
-hash = "be0e3f2e5d5beb23e1b9a18f24adda2a10f18c61a214d3428d7a12c3c19a7682"
+hash = "8307b6e5ef8b9f42a4cb88595a2df2650772e4e85d80636825ee5dd6b4f8e561"
 
 [[files]]
 file = "config/fancymenu/config.txt"
@@ -1034,7 +1034,7 @@ hash = "f2dac2bce69b7dab147043b781474a95125adb854a8a76bc4abab4b719d0b8ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/177DD3C4E2D1113C.snbt"
-hash = "e24cd357fb5a29d539f03b4c705fa9864e3d459e0fb92cbb6ed2a3dfe9a5d500"
+hash = "bdeb408793aca46cb09b7bfb2055000aa97e106bf702e5d63b314efc1e3aa23d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1E8D7AF132D696EC.snbt"
@@ -1062,7 +1062,7 @@ hash = "49ddb588f1b3a6ef6d49892a2183bb6a7468e622d171e52752e150802f0686ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "a44007a8bbce7f6d8f9a0f6b123de25d71698ba1454cdcf324d56211756ad090"
+hash = "f2be85aa03ad6be26782b52e28d8dc173af726c1406f8853a5046a5e037b9687"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -1082,7 +1082,7 @@ hash = "711c6467e3eca64cc934155bf09360ea9483a69ab12568d7a5ded4d237b46bb2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5DEE038949883E18.snbt"
-hash = "99d7043026e9ec996a454fa9848bbf953c5ae5f40122fcfb5cdf9943b101ed8a"
+hash = "02823fbdd11d625b1ab5267291951625a75e53865bb9c7e3b9c5b4b5565831c3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/609746CF8BE6A11E.snbt"
@@ -1094,7 +1094,7 @@ hash = "962d2384ae3439d7d4d44412e74787b938e35c95e4e91bc99da334769e0f9ac2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
-hash = "d7fe46ba3f9488a7adb844201f3a5f4dbbda47534b8f4ba26a3c025662c098df"
+hash = "3c3a712b4d461a4939be2d7815668c787ec6ed9936d81adc13e111a31af3c0bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
@@ -1110,7 +1110,7 @@ hash = "9c4b844bef65a25301aad084a00558ee1e37f1aa2681add11e8ab27d5f0e52a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "1e6b3010f2643275f878dc7ff5568ac68c3832dbc4444cd5bbaef95d404d29c1"
+hash = "8efeb7b3b15b42a8ded55eb671262f3ec338d105dda261e1e3996648a9f0a490"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
@@ -1166,7 +1166,7 @@ hash = "c20589820f483f8d0fe3ca56b89db2ebc804de80acefd68f8550682a003c9433"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ct.snbt"
-hash = "b391256ecd007b8710c807337034386f6fb8365aac0646eba9776ea9b4c74bf5"
+hash = "291bfd6413f03dc7aefa291969dd19ca9476d4957a0ed6284e68ad8f96ce2ba4"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/cts2.snbt"
@@ -1206,7 +1206,7 @@ hash = "86182bac174ddb0c8a5cbabbe644baea2a8a25b257208766dd356bb604339679"
 
 [[files]]
 file = "config/inventoryhud-client.toml"
-hash = "ba14990d486240f8ad4b2e314938e67ee0ad750b85c30d28a96062000c0148be"
+hash = "7fbda3bd604a01ffd8050f77d5c6fb65c4151c9d98bf13f153f730858d3a1e86"
 
 [[files]]
 file = "config/jackseconomy_prices.json"
@@ -3049,6 +3049,122 @@ file = "kubejs/assets/kubejs/ponder/neutron_activator.nbt"
 hash = "d7972c2d1eb11d7230cc0322d591ea35a4ddd602cd385e6f6d9114300e6d31d2"
 
 [[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_ae_crafting_parallel.nbt"
+hash = "151b056f533c0d8a7d4fabaf58ea32940bfd4d62a9372be8d4338f3c90ec34fe"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_ae_crafting_system.nbt"
+hash = "59c6698e946823ac3513a6627dc994a177eaf361966ab471e88234d7e709a0fb"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_ae_interface.nbt"
+hash = "c20785b9aeb16e00c48ed9d89b2b2a270290fa1a79d5d6ac42e76b5e327ab9d2"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_alloy_electric_furnace.nbt"
+hash = "0e40f7c9003a36cd9485580db627972a715ec8fa6c359f8f76509309f481218d"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_alloy_electric_furnace_use.nbt"
+hash = "358f49c704c3cb0c73c5fd4cb41487eb8ad425b7cd279ce78a927e0e3bddde86"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_annihilation_plane.nbt"
+hash = "e6bf9a0441a8be068c6e51e207bb1e31475834b5621785bf17e93f4bd7ae1ac0"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_annihilation_plane_filter.nbt"
+hash = "830aed51a5038696d386aae2641ce896d8923ffbd60d690206113d9998f7ef46"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_big_centrifuge.nbt"
+hash = "d98d4fd2569a3c3f8773df03e1c643835df13c9cfba7c2918408fb1873a88ca9"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_big_centrifuge_use.nbt"
+hash = "d292654af05e141a31a798422b2eb190967d417af92e082fa9b8d8162c52f2e4"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_bus_transport.nbt"
+hash = "7e37be89bc8508e2c77ee60062acc4a3c8f0bf9f1361bfe392afc1508c97ab22"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_butchery_room.nbt"
+hash = "cb314db55ff9a54aa104176164f469447a6823f9d5b5b821adb17c8c91b015c2"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_cable.nbt"
+hash = "ccb2fee4ac5d27751101120256553386caf3640b417eca0b278de6c3632ecdeb"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_covered_dense_cable.nbt"
+hash = "51e6da75703572a6b97e59816f74db053ea5df1c501ddf92348aeda2565aacca"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_crafting_processing_unit.nbt"
+hash = "dc916594f8ae1f5b0daeae23fc3dc9d8bc64a8c4a1e751cc13862c9b32265218"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_fission_reactor.nbt"
+hash = "5f384ad9e53adb2139e3e2a5a331e8681cfa524d5ef8400dcbc540bf2b612ce8"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_formation_plane.nbt"
+hash = "ac9757cc6ba9272002d79bf6d17b383c5a5e2639ab405b2a74e1bd6d89fcae09"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_hydropower_station.nbt"
+hash = "dc8c7b25914f700473af317bb521a80fb65890ff45ef0e0d28194d41135972e7"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_import_export_bus.nbt"
+hash = "bebbb76faa587be2a252da37318fe6844def59f3284547dd76460951d45fc0f9"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_io_port.nbt"
+hash = "1a374eda437a77ffffb929c02c43a23d80f130399ea8ccbbc52c36c880575447"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_io_port_output.nbt"
+hash = "4b6ea01f02dfe7ab92ece8af7fb6dd9600a6cb4777c0f2f9d75dd1e06c75495a"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_me_controller.nbt"
+hash = "31a09ff42b419b4d01eb60366cbe33e9f04e1fcc7d1f1b29c680757ea40d99b5"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_molecular_assembler.nbt"
+hash = "d09a946f0c7950f9214c7022fca9e9ef9f208586777369812d8bf7d8cf6972e7"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_pattern_provider.nbt"
+hash = "146b872804346109d988a825547c843309d9269160ec573e716796a4974c6077"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_pattern_provider_interaction.nbt"
+hash = "762fe9552ba2759bea09c470650f0cf2cbe6ea7c8f231fec0ce5ad4d9003a463"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_quantum_network_bridge.nbt"
+hash = "a487555abeb0a135c52da1fb4b47c5f8ff8cf251f27d91e261eaee8fafaea15f"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_sequenced_assembly.nbt"
+hash = "14fa5cb611ada24474168d8ada4373708b0a2819e211b2d99014d6e088cd33be"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_small_cable.nbt"
+hash = "a6088ddcc92c104fcfd41adb1e710917e33c12a8ce67f395ab4eea82acdefc4f"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_storage_bus.nbt"
+hash = "a664052f5790141c3022f854da03cc547fa6b845a1dd670d1a5b6d26a5d304e1"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/ponder_storage_bus_interface_interaction.nbt"
+hash = "7701f8e15879d6fa79e49274cd14e74842e1eba964d9333cad85565363cefa6e"
+
+[[files]]
 file = "kubejs/assets/kubejs/ponder/rune_rituals.nbt"
 hash = "8c6ed954342d3ee1a94b193b42d07071d5b450122837e69d5782864b2ef09b4d"
 
@@ -3618,7 +3734,7 @@ hash = "19b3a9f5a384264022fe26520fabc1e43e7540c5c25869847f0a96ac4ceb4b82"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
-hash = "caa033be349b46bc177bb13130ea37fc1cd627d4082c900084f49331bdbcb23c"
+hash = "4833f9f8793dcf1967893ed7d96e26bd390ea919c10cb7fd3b487abaff98f5c0"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/zh_cn.json"
@@ -7229,6 +7345,62 @@ file = "kubejs/client_scripts/src/jeiaddition.js"
 hash = "ddaf4e817e5eb5ceb447035257880271afce27074458c42a0a42e24b064c8956"
 
 [[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/annihilation_plane.js"
+hash = "c36c97bad1d45e6fed0d0c41c07d4b5a481cf98430089a132b47e86ffff3bbed"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/budding_quartz.js"
+hash = "27782d7e9b4b7498fd756a2ceeccd4e478861567ed8019ad32b8b05090c3fd80"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/cable.js"
+hash = "fd89d7562b90c653e7fa32e0bdbe0f8561f8d49989f2c5c434e5785ecfe242e9"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/controller.js"
+hash = "bb0a100ffdfa90a06d22e8ced5463efb8c3881be2a930bcf0bc154375f72c6db"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/crafting_process_unit.js"
+hash = "cf1f83a687000510b8bc6806677112a916935838d0bce41389cbe782cce29327"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/crafting_system.js"
+hash = "0df61f002e9a14b6a147cbbe2f29eff9ef803c9ba2a46db7250ddf0c26aa4d99"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/formation_plane.js"
+hash = "fed0fa20fbcd3aef67e57d07855424998d5406994ef77cddfbfb5110d9e048a6"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/import_export_bus.js"
+hash = "9194cd9184d11e5772a88d80698239ed8093ff843843b155a18f4a4a707e1b32"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/interface.js"
+hash = "e37daa76e2546a3f7b65c1e56722ec56782a7ea1569ceeebaed8f6c7fa97400d"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/io_port.js"
+hash = "baf15df626998d48a770ca757c3737f4cada54e7e177d2d2a5b00c82e14c99da"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/molecular_assembler.js"
+hash = "ca93d0333179ddfc9e9a73df9a4ab272b359f4b441b6bf3d173ba1078f38227b"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/pattern_provider.js"
+hash = "ed213641a1ffa24e5687615c0edc01b2e194b082b88753515a69f4ff6a384627"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/quantum_network_bridge.js"
+hash = "cf8d477099a1df6923b90ee7b2e6c68394c4e10b60c8964ea810a261f05bb448"
+
+[[files]]
+file = "kubejs/client_scripts/src/ponder/ae2/storage_bus.js"
+hash = "c3c9ef5b68557a450d1910c7facb5455041f502ec39c097f6a77efbeb48bc81d"
+
+[[files]]
 file = "kubejs/client_scripts/src/ponder/create_machine.js"
 hash = "7aee0124a293807d49b1a49e963c6fa988feb0f8fcb5c2a5bb63b251ba2e9d8e"
 
@@ -9549,6 +9721,10 @@ file = "kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consuma
 hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
 
 [[files]]
+file = "kubejs/data/forge/tags/items/storage_blocks/neodymium.json"
+hash = "636a4c129070569b5de51486d90c886f8ca2dcd0a21224c415fa9733c35cdf28"
+
+[[files]]
 file = "kubejs/data/gregtech/blaze_burner_fuel/bio_diesel.json"
 hash = "091758ebb7063e3d8b889910d2650f69b39c251170a5513845cd133b13cb5873"
 
@@ -11606,7 +11782,7 @@ hash = "f1f53ddb4d67541300965f2edada266d3015d21234bff0578694110074da2872"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
-hash = "6bf4da5d241146abf88be4440d515759ceb5b48d88449a49caf692551496d745"
+hash = "10f5bd8b80a31d8714aa44ae868e1def28a81260b954ce417a925825eb1eab6e"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/cafe.js"
@@ -11870,7 +12046,7 @@ hash = "b136e102febf961a4c3a8e7d4566bd13a75850b1b3e70c66ac5fb35437fe7ca8"
 
 [[files]]
 file = "mods/CTNH Core-1.4.0.jar"
-hash = "1ac69cc89fa7762b13e2c46159ad3710a0a005e9e58c718226a958fc3e34ca35"
+hash = "46a89804d74d4be109dad2f6cdbd4ebefb5dbfd4d0b067327a37bfa619fbd399"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -13029,7 +13205,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "f82a2297520f5a706d2209693243d1fa30fccaf9ad79158dd8d0953b77f7ce0a"
+hash = "c27b4af7a05baf0556c92ff5c797c576527c3e0edd359690ede1e27590663fe6"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"

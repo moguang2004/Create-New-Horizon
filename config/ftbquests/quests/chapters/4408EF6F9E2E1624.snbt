@@ -988,27 +988,6 @@
 			y: 13.5d
 		}
 		{
-			dependencies: [
-				"3AB5FDB74D7FA100"
-				"3509D7B8E361DF68"
-			]
-			id: "6F4DA29DA86EAFCD"
-			rewards: [{
-				count: 8
-				id: "1364BD1E078F2A13"
-				item: "gtceu:rubber_ingot"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest8020245309436112845.subtitle}"
-			tasks: [{
-				id: "11D46D61E3278B77"
-				item: "gtceu:rubber_ingot"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 17.5d
-		}
-		{
 			dependencies: ["1BDD550BE6C77C28"]
 			id: "37BD0BB07046E310"
 			tasks: [{
@@ -1051,7 +1030,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["105D45F86A0B3A55"]
+			dependencies: [
+				"105D45F86A0B3A55"
+				"18D08FB7B4BD3F23"
+			]
+			dependency_requirement: "one_completed"
 			id: "1162E347E7C00175"
 			rewards: [
 				{
@@ -1137,7 +1120,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 14.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
@@ -1199,7 +1182,6 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["01CC0041CF5F9033"]
 			id: "497999198D773D40"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest5294431171977362752.subtitle}"
 			tasks: [{
@@ -1278,8 +1260,8 @@
 			id: "3AB5FDB74D7FA100"
 			optional: true
 			tasks: [{
-				id: "4D563E61D578D0B0"
-				item: "gtceu:rubber_bucket"
+				id: "5195641EF2D22B1F"
+				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
 			x: 6.0d
@@ -1835,6 +1817,25 @@
 			}]
 			x: 1.0d
 			y: 11.5d
+		}
+		{
+			description: ["        你太能憋了"]
+			id: "18D08FB7B4BD3F23"
+			invisible: true
+			rewards: [{
+				count: 64
+				id: "2DEB51441F3558F9"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			subtitle: "速通路线？"
+			tasks: [{
+				id: "7105A16D18303022"
+				item: "ctnhcore:industrial_primitive_blast_furnace"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 17.0d
 		}
 	]
 	title: "&7齿轮力量"
