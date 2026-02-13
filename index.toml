@@ -11870,7 +11870,7 @@ hash = "b136e102febf961a4c3a8e7d4566bd13a75850b1b3e70c66ac5fb35437fe7ca8"
 
 [[files]]
 file = "mods/CTNH Core-1.4.0.jar"
-hash = "b20d15061619f3138e2527afb8d6e3cb5dc5fa71f2446b0c7b37dd086021b4ff"
+hash = "1b9c75cbd14c2e567ec7a9b37d16812b978624bfac92837f825ae87560aa78b9"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -12570,6 +12570,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "4fc0d346c5b19482a6bc9227c8912e7187956bd95c52cdb90520b5061bd553b0"
+metafile = true
+
+[[files]]
+file = "mods/maidusehandcrank.pw.toml"
+hash = "67ca1ee20e94d4ed2aef834da601c9ecfbf23b2f4f7f4044ca576b305dacbe69"
 metafile = true
 
 [[files]]
