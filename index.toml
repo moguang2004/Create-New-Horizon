@@ -826,7 +826,7 @@ hash = "978214f42431cd238adc4e732695e23beaf46a07b5d50f66ea92de38f3e38458"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "d78f61a50f20db8cf82419d3e1c370b61ecd2b21c9e91a569be3e183433ffdef"
+hash = "c58aebfceb1f24b8282511bb4d455f3de8359b31c2f52079121742b298373322"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
@@ -878,7 +878,7 @@ hash = "5831a4da569ac4fb3d7d5396967281b8bdad765c25cf3cd5c6a5d708952c2b16"
 
 [[files]]
 file = "config/chloride-client.json"
-hash = "0eac2886cb2ce1118912eb9b17946941ad287b036149da8a682fb915a2120d20"
+hash = "6117c0304b352817b847eb20eb9fcc001aafc540866b0ba02d74a8cf30db8088"
 
 [[files]]
 file = "config/create_new_age-common.toml"
@@ -982,7 +982,7 @@ hash = "003a1c89846741e0eb9475089d4ed653896fd08e0b994667fae452b4ad894a72"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "106b496255e8a733b079011ecd8dddb5e8880cc38f6fdc62fc029da14e71bc01"
+hash = "650365ab2f46f06eacdf7be9e5b97fd8bd0ea117d5d7464f4978f16466ae402a"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -1222,7 +1222,7 @@ hash = "fd070ba7cc388b5e06adec34e626592348bdd2b2b3c6fe047af85e56aa6e1bad"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "6e80120f62c78a05f652c446411facacac7552fa1cb99c70fb53747679fee811"
+hash = "37f290e1fc6b4d5a310ca3d4034144223350252db87427e9e046f289f3bef3d4"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -11782,7 +11782,7 @@ hash = "df8e3974dcd8991f8a676590f416afdd4159b0c409ef13ca4e53ddc10332c69e"
 
 [[files]]
 file = "kubejs/server_scripts/src/orereplace.js"
-hash = "2037acce5be9b205fd6162029b3ef4c25cac09c5f3c31afd6311f6749ffdab99"
+hash = "71462d20e8676fbc4504fd1e207ece54016c312d8a83d8fceb412f4b083c7163"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
@@ -11870,7 +11870,7 @@ hash = "b136e102febf961a4c3a8e7d4566bd13a75850b1b3e70c66ac5fb35437fe7ca8"
 
 [[files]]
 file = "mods/CTNH Core-1.4.0.jar"
-hash = "1b9c75cbd14c2e567ec7a9b37d16812b978624bfac92837f825ae87560aa78b9"
+hash = "1ac69cc89fa7762b13e2c46159ad3710a0a005e9e58c718226a958fc3e34ca35"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -12579,7 +12579,7 @@ metafile = true
 
 [[files]]
 file = "mods/mantle.pw.toml"
-hash = "253a0172272dc04906a490e8398517834f13d2d5f494dcdc31b751c8b71d743a"
+hash = "f5770197f30417cfbe5306ad84aab85cab79bf17958aa4d1d962a55cc659a320"
 metafile = true
 
 [[files]]
@@ -13024,7 +13024,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "bdde6edcd4d016b5b5c7e95e04e234298574f5d5cbe5c2cb4136a8ca641e6f32"
+hash = "f82a2297520f5a706d2209693243d1fa30fccaf9ad79158dd8d0953b77f7ce0a"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
