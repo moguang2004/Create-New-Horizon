@@ -16,7 +16,7 @@
 	#If false, knockback resistance will not sync so will hopefully be 0 client side. Can be disabled in case another mod relied on it not syncing.
 	syncKnockbackResistance = true
 	#Allow Tinker's tools can be enhanced
-	AllowTinkersToolsCanBeEnhanced = false
+	AllowTinkersToolsCanBeEnhanced = true
 	#Method of syncing on opening a tool inventory. Options:
 	#FULL_STACK: syncs the entire tool item stack to client. May cause issues with packet size if too many tools are inside the tool, but best for laggy servers.
 	#MINIMAL (default): syncs the minimal info to prevent an inventory desync if the client lost the stack.
