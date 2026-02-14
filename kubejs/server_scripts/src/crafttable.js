@@ -327,25 +327,25 @@ ServerEvents.recipes(event => {
             B: "minecraft:dried_kelp",
         })
     event.shaped(
-        Item.of("create:belt_connector", 16), [
-            "   ",
-            "AAA",
-            "BBB"
-        ], {
-            A: "gtceu:polybenzimidazole_plate",
-            B: "minecraft:dried_kelp",
-        })
-    // event.shaped(
-    //     Item.of("ae2:inscriber", 1), [
-    //         "ABA",
-    //         "C C",
-    //         "DBD"
-    //     ], {
-    //         A: "gtceu:mv_electric_piston",
-    //         B: "minecraft:sticky_piston",
-    //         C: "gtceu:aluminium_plate",
-    //         D: "gtceu:certus_quartz_plate"
-    //     })
+            Item.of("create:belt_connector", 16), [
+                "   ",
+                "AAA",
+                "BBB"
+            ], {
+                A: "gtceu:polybenzimidazole_plate",
+                B: "minecraft:dried_kelp",
+            })
+        // event.shaped(
+        //     Item.of("ae2:inscriber", 1), [
+        //         "ABA",
+        //         "C C",
+        //         "DBD"
+        //     ], {
+        //         A: "gtceu:mv_electric_piston",
+        //         B: "minecraft:sticky_piston",
+        //         C: "gtceu:aluminium_plate",
+        //         D: "gtceu:certus_quartz_plate"
+        //     })
     event.shaped(
         Item.of("ae2:charger", 1), [
             " AA",
@@ -418,7 +418,7 @@ ServerEvents.recipes(event => {
             A: '#forge:dyes/blue',
             B: "botania:lens_normal",
             C: '#forge:dyes/red'
-        })    
+        })
 
 
     event.shaped(
@@ -432,24 +432,24 @@ ServerEvents.recipes(event => {
         }).keepIngredient("botania:lens_magnet")
 
     event.shaped(
-            Item.of("gtceu:magnetic_iron_rod", 8), [
-                "AAA",
-                "ABA",
-                "AAA"
-            ], {
-                A: "gtceu:iron_rod",
-                B: "botania:lens_magnet"
-            }).keepIngredient("botania:lens_magnet")
+        Item.of("gtceu:magnetic_iron_rod", 8), [
+            "AAA",
+            "ABA",
+            "AAA"
+        ], {
+            A: "gtceu:iron_rod",
+            B: "botania:lens_magnet"
+        }).keepIngredient("botania:lens_magnet")
     event.shaped(
-            Item.of("gtceu:magnetic_iron_bolt", 8), [
-                "AAA",
-                "ABA",
-                "AAA"
-            ], {
-                A: "gtceu:iron_bolt",
-                B: "botania:lens_magnet"
-            }).keepIngredient("botania:lens_magnet")
-   
+        Item.of("gtceu:magnetic_iron_bolt", 8), [
+            "AAA",
+            "ABA",
+            "AAA"
+        ], {
+            A: "gtceu:iron_bolt",
+            B: "botania:lens_magnet"
+        }).keepIngredient("botania:lens_magnet")
+
     event.shaped(
         Item.of("create_new_age:layered_magnet", 2), [
             "AAA",
@@ -531,53 +531,43 @@ ServerEvents.recipes(event => {
             D: "gtceu:hv_conveyor_module",
             E: "#gtceu:circuits/hv"
         })
-    event.shaped(
-        Item.of("ctnhmana:mana_macerator", 1), [
-            "AAA",
-            "BCB",
-            "DDD"
-        ], {
-            A: "botania:polished_livingrock",
-            B: "gtceu:mv_electric_motor",
-            C: "gtceu:mv_macerator",
-            D: "gtceu:diamond_grinding_head"
-        })
-//    event.shaped(
-//        Item.of("ctnhcore:photovoltaic_power_station_energetic", 1), [
-//            "AAA",
-//            "BCB",
-//            "DED"
-//        ], {
-//            A: "minecraft:gold_ingot",
-//            B: "gtceu:lv_electric_motor",
-//            C: "ctnhcore:reflect_light_casing",
-//            D: "enderio:basic_capacitor",
-//            E: "#gtceu:circuits/lv"
-//        })
-//    event.shaped(
-//        Item.of("ctnhcore:photovoltaic_power_station_pulsating", 1), [
-//            "AAA",
-//            "BCB",
-//            "DED"
-//        ], {
-//            A: "gtceu:pulsating_alloy_plate",
-//            B: "gtceu:mv_electric_motor",
-//            C: "ctnhcore:reflect_light_casing",
-//            D: "enderio:double_layer_capacitor",
-//            E: "#gtceu:circuits/mv"
-//        })
-//    event.shaped(
-//        Item.of("ctnhcore:photovoltaic_power_station_vibrant", 1), [
-//            "AAA",
-//            "BCB",
-//            "DED"
-//        ], {
-//            A: "gtceu:vibrant_alloy_plate",
-//            B: "gtceu:hv_electric_motor",
-//            C: "ctnhcore:reflect_light_casing",
-//            D: "enderio:octadic_capacitor",
-//            E: "#gtceu:circuits/hv"
-//        })
+
+    //    event.shaped(
+    //        Item.of("ctnhcore:photovoltaic_power_station_energetic", 1), [
+    //            "AAA",
+    //            "BCB",
+    //            "DED"
+    //        ], {
+    //            A: "minecraft:gold_ingot",
+    //            B: "gtceu:lv_electric_motor",
+    //            C: "ctnhcore:reflect_light_casing",
+    //            D: "enderio:basic_capacitor",
+    //            E: "#gtceu:circuits/lv"
+    //        })
+    //    event.shaped(
+    //        Item.of("ctnhcore:photovoltaic_power_station_pulsating", 1), [
+    //            "AAA",
+    //            "BCB",
+    //            "DED"
+    //        ], {
+    //            A: "gtceu:pulsating_alloy_plate",
+    //            B: "gtceu:mv_electric_motor",
+    //            C: "ctnhcore:reflect_light_casing",
+    //            D: "enderio:double_layer_capacitor",
+    //            E: "#gtceu:circuits/mv"
+    //        })
+    //    event.shaped(
+    //        Item.of("ctnhcore:photovoltaic_power_station_vibrant", 1), [
+    //            "AAA",
+    //            "BCB",
+    //            "DED"
+    //        ], {
+    //            A: "gtceu:vibrant_alloy_plate",
+    //            B: "gtceu:hv_electric_motor",
+    //            C: "ctnhcore:reflect_light_casing",
+    //            D: "enderio:octadic_capacitor",
+    //            E: "#gtceu:circuits/hv"
+    //        })
     event.shaped(
         Item.of("gtceu:turbine_rotor", 1, '{GT.PartStats:{Material:"gtceu:steel"}}'), [
             "AAA",
@@ -929,33 +919,9 @@ ServerEvents.recipes(event => {
             D: 'gtceu:red_alloy_single_wire'
         })
 
-    event.shaped(
-        Item.of('ctnhmana:mana_bender', 1), [
-            "AGA",
-            "BCB",
-            "DEF"
-        ], {
-            A: 'botania:polished_livingrock',
-            B: 'gtceu:mv_electric_motor',
-            C: 'gtceu:mv_bender',
-            D: 'gtceu:mv_electric_piston',
-            E: 'gtceu:mv_robot_arm',
-            F: '#gtceu:circuits/ev',
-            G: 'ctnhmana:terra_steel_casing'
-        })
 
-    event.shaped(
-        Item.of('ctnhmana:mana_reactor', 1), [
-            "AAA",
-            "BCB",
-            "DED"
-        ], {
-            A: 'botania:polished_livingrock',
-            B: '#gtceu:circuits/ev',
-            C: 'gtceu:alfsteel_gear',
-            D: 'botania:gaia_spreader',
-            E: 'botania:fabulous_pool'
-        })
+
+
 
     event.shaped(
         Item.of('ctnhcore:dimensional_gas_collection_chamber', 1), [
@@ -1111,54 +1077,7 @@ ServerEvents.recipes(event => {
             D: "gtceu:platinum_single_cable",
             E: "gtceu:iv_electric_motor"
         })
-    event.shaped(
-        Item.of("ctnhmana:corrosive_core", 1), [
-            "ABA",
-            "CDC",
-            "AEA"
-        ], {
-            A: "bloodmagic:corrosivecrystal",
-            B: "botania:life_essence",
-            C: "bloodmagic:reagentgrowth",
-            D: "botania:rune_greed",
-            E: "botania:lens_mine"
-        })
-    event.shaped(
-        Item.of("ctnhmana:vengeful_core", 1), [
-            "ABA",
-            "CDC",
-            "AEA"
-        ], {
-            A: "bloodmagic:vengefulcrystal",
-            B: "botania:life_essence",
-            C: "bloodmagic:reagentsight",
-            D: "botania:rune_wrath",
-            E: "botania:lens_damage"
-        })
-    event.shaped(
-        Item.of("ctnhmana:destructive_core", 1), [
-            "ABA",
-            "CDC",
-            "AEA"
-        ], {
-            A: "bloodmagic:destructivecrystal",
-            B: "botania:life_essence",
-            C: "bloodmagic:reagentholding",
-            D: "botania:rune_sloth",
-            E: "botania:lens_influence"
-        })
-    event.shaped(
-        Item.of("ctnhmana:steadfast_core", 1), [
-            "ABA",
-            "CDC",
-            "AEA"
-        ], {
-            A: "bloodmagic:steadfastcrystal",
-            B: "botania:life_essence",
-            C: "bloodmagic:reagentvoid",
-            D: "botania:rune_envy",
-            E: "botania:lens_warp"
-        })
+
     event.shaped(
         Item.of('ctnhcore:forest_sea_tree_farm', 1), [
             "ABA",

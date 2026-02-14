@@ -98,18 +98,18 @@ ServerEvents.recipes(event => {
         .itemInputs(["10x gtceu:stone_dust", "2x gtceu:silicon_dust", "gtceu:electrotine_dust"])
         .itemOutputs("13x ae2:sky_dust")
         .circuit(2)
-    // event.recipes.gtceu.compressor("dense_obsidian_plate")
-    //     .EUt(96)
-    //     .duration(400)
-    //     .itemInputs("9x gtceu:obsidian_plate")
-    //     .circuit(9)
-    //     .itemOutputs("gtceu:dense_obsidian_plate")
-    // event.recipes.gtceu.compressor("dense_obsidian_plate2")
-    //     .EUt(96)
-    //     .duration(400)
-    //     .itemInputs("9x gtceu:obsidian_dust")
-    //     .circuit(9)
-    //     .itemOutputs("gtceu:dense_obsidian_plate")
+        // event.recipes.gtceu.compressor("dense_obsidian_plate")
+        //     .EUt(96)
+        //     .duration(400)
+        //     .itemInputs("9x gtceu:obsidian_plate")
+        //     .circuit(9)
+        //     .itemOutputs("gtceu:dense_obsidian_plate")
+        // event.recipes.gtceu.compressor("dense_obsidian_plate2")
+        //     .EUt(96)
+        //     .duration(400)
+        //     .itemInputs("9x gtceu:obsidian_dust")
+        //     .circuit(9)
+        //     .itemOutputs("gtceu:dense_obsidian_plate")
         /*event.recipes.gtceu.rocket_engine("rocket_fuel")
         .outputEU(25600)
         .duration(25)
@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
         //     .outputFluids(Fluid.of("gtceu:hydrochloric_acid", 2000))
         //     .duration(100)
         //     .EUt(240)
-    
+
     event.recipes.gtceu.mixer("aeternium")
         .itemInputs("2x gtceu:steel_dust")
         .itemInputs("gtceu:ender_pearl_dust")
@@ -134,12 +134,12 @@ ServerEvents.recipes(event => {
         .itemOutputs("4x gtceu:aeternium_dust")
         .EUt(480)
         .duration(100)
-    // event.recipes.gtceu.electric_blast_furnace("aeternium_ingot")
-    //     .itemInputs("gtceu:aeternium_dust")
-    //     .itemOutputs("betterend:aeternium_ingot")
-    //     .circuit(1)
-    //     .EUt(1920)
-    //     .duration(664)
+        // event.recipes.gtceu.electric_blast_furnace("aeternium_ingot")
+        //     .itemInputs("gtceu:aeternium_dust")
+        //     .itemOutputs("betterend:aeternium_ingot")
+        //     .circuit(1)
+        //     .EUt(1920)
+        //     .duration(664)
         // event.recipes.gtceu.electric_blast_furnace("aeternium_ingot")
         // .itemInputs("gtceu:aeternium_dust")
         // .itemOutputs("betterend:aeternium_ingot")
@@ -180,12 +180,12 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(200)
         .itemOutputs("ctnhcore:blaze_blast_furnace")
-    // event.recipes.gtceu.assembler("temperature_keeping_device")
-    //     .itemInputs(["4x ctnhcore:heavy_plate_t1", "minecraft:iron_chestplate", "2x gtceu:polyvinyl_chloride_foil", "gtceu:pyrotheum_bucket", "gtceu:cryotheum_bucket", "2x gtceu:hv_sensor", "legendarysurvivaloverhaul:thermometer"])
-    //     .itemOutputs("kubejs:temperature_keeping_device")
-    //     .inputFluids(Fluid.of("gtceu:polyethylene", 288))
-    //     .EUt(480)
-    //     .duration(400)
+        // event.recipes.gtceu.assembler("temperature_keeping_device")
+        //     .itemInputs(["4x ctnhcore:heavy_plate_t1", "minecraft:iron_chestplate", "2x gtceu:polyvinyl_chloride_foil", "gtceu:pyrotheum_bucket", "gtceu:cryotheum_bucket", "2x gtceu:hv_sensor", "legendarysurvivaloverhaul:thermometer"])
+        //     .itemOutputs("kubejs:temperature_keeping_device")
+        //     .inputFluids(Fluid.of("gtceu:polyethylene", 288))
+        //     .EUt(480)
+        //     .duration(400)
     event.recipes.gtceu.mixer("pyrotheum")
         .itemInputs(["gtceu:small_saltpeter_dust", "gtceu:sulfur_dust", "gtceu:coke_dust", "minecraft:blaze_powder"])
         .itemOutputs("2x gtceu:pyrotheum_dust")
@@ -416,7 +416,7 @@ ServerEvents.recipes(event => {
         .circuit(7)
         .EUt(4)
         .duration(100)
-    
+
 
     event.recipes.gtceu.naq_mk1("generator1")
         .inputFluids(Fluid.of("gtceu:superfuelmk1", 1))
@@ -739,7 +739,7 @@ ServerEvents.recipes(event => {
         .outputFluids(Fluid.of('gtceu:fiber_glass', 288))
         .EUt(30)
         .duration(120)
-    
+
     event.recipes.gtceu.assembler('space_helmet')
         .itemInputs('gtceu:glass_plate', '4x kubejs:space_fabric')
         .inputFluids(Fluid.of('gtceu:glue', 72))
@@ -803,34 +803,35 @@ ServerEvents.recipes(event => {
     //   console.info(recipe.json.get('drain'))
     // })
 
-    function dwos_crafting_recipe(event, voltage) {
-        event.shaped(
-            `gtceu:${voltage}_digital_well_of_suffer`, [
-                'PCP',
-                'SHS',
-                'PCP'
-            ], {
-                P: `gtceu:${voltage}_electric_pump`,
-                C: `#gtceu:circuits/${voltage}`,
-                H: `gtceu:${voltage}_machine_hull`,
-                ShaderTexture: 'bloodmagic:sacrificerune'
-            })
-    }
-    ['lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv'].forEach(voltage => dwos_crafting_recipe(event, voltage));
-    // function addModel(event, entity, voltage, outputValue){
-    //   event.recipes.gtceu.digital_well_of_suffer('dwos_'+entity)
-    //       .outputFluids(Fluid.of('bloodmagic:life_essence_fluid',outputValue))
-    //       .notConsumable(Item.of('gtceu:data_stick', `{mobs:${entity}}`).strongNBT())
-    //       .EUt(voltage)
-    //       .duration(20);
+    // function dwos_crafting_recipe(event, voltage) {
+    //     event.shaped(
+    //         `gtceu:${voltage}_digital_well_of_suffer`, [
+    //             'PCP',
+    //             'SHS',
+    //             'PCP'
+    //         ], {
+    //             P: `gtceu:${voltage}_electric_pump`,
+    //             C: `#gtceu:circuits/${voltage}`,
+    //             H: `gtceu:${voltage}_machine_hull`,
+    //             ShaderTexture: 'bloodmagic:sacrificerune'
+    //         })
     // }
-    function addModel(event, entity, voltage, outputValue) {
-        event.recipes.gtceu.digital_well_of_suffer('dwos_' + entity)
-            .outputFluids(Fluid.of('bloodmagic:life_essence_fluid', outputValue))
-            .notConsumable(Item.of('hostilenetworks:data_model', { data_model: { id: 'hostilenetworks:' + entity } }).weakNBT())
-            .EUt(voltage)
-            .duration(20);
-    }
+    // ['lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv'].forEach(voltage => dwos_crafting_recipe(event, voltage));
+    // // function addModel(event, entity, voltage, outputValue){
+    // //   event.recipes.gtceu.digital_well_of_suffer('dwos_'+entity)
+    // //       .outputFluids(Fluid.of('bloodmagic:life_essence_fluid',outputValue))
+    // //       .notConsumable(Item.of('gtceu:data_stick', `{mobs:${entity}}`).strongNBT())
+    // //       .EUt(voltage)
+    // //       .duration(20);
+    // // }
+
+    // function addModel(event, entity, voltage, outputValue) {
+    //     event.recipes.gtceu.digital_well_of_suffer('dwos_' + entity)
+    //         .outputFluids(Fluid.of('bloodmagic:life_essence_fluid', outputValue))
+    //         .notConsumable(Item.of('hostilenetworks:data_model', { data_model: { id: 'hostilenetworks:' + entity } }).weakNBT())
+    //         .EUt(voltage)
+    //         .duration(20);
+    // }
 
     let low = ['chicken', 'cod', 'cow', 'glow_squid', 'mooshroom', 'pig', 'rabbit', 'polar_bear', 'squid', 'snow_golem', 'sheep']
     let mid = ['ars_nouveau/wilden_mobs', 'blaze', 'creeper', 'drowned', 'ghast', 'guardian', 'hoglin', 'magma_cube', 'phantom', 'skeleton', 'slime', 'twilightforste/death_tome', 'twilightforste/stable_ice_core',
@@ -862,22 +863,6 @@ ServerEvents.recipes(event => {
     boss.forEach(entity =>
         addModel(event, entity, 7680, 25600)
     );
-
-    event.recipes.gtceu.assembly_line('eternalwos')
-        .itemInputs(
-            'bloodmagic:largebloodstonebrick',
-            '2x gtceu:luv_electric_pump',
-            '4x bloodmagic:rawdemoncrystal',
-            '4x bloodmagic:corrosivedemoncrystal',
-            '4x bloodmagic:destructivedemoncrystal',
-            '4x bloodmagic:steadfastdemoncrystal',
-            '4x bloodmagic:vengefuldemoncrystal',
-            '64x hostilenetworks:prediction_matrix'
-        )
-        .inputFluids(Fluid.of('bloodmagic:life_essence_fluid', 1024000))
-        .itemOutputs('ctnhmana:eternal_well_of_suffer')
-        .duration(4800)
-        .EUt(32000)["scannerResearch(java.util.function.UnaryOperator)"](b => b.researchStack(Item.of('gtceu:luv_digital_well_of_suffer')).EUt(120).duration(9600)) // (1)
 
     event.recipes.gtceu.forming_press('blank_data_model')
         .itemInputs(['2x gtceu:ender_pearl_plate', '2x gtceu:stainless_steel_plate', '2x gtceu:fine_platinum_wire', 'minecraft:smooth_stone'])
@@ -1269,16 +1254,16 @@ ServerEvents.recipes(event => {
         .itemOutputs('ctnhcore:decay_pools_machine')
         .EUt(1920)
         .duration(900)
-    // event.recipes.gtceu.assembly_line('rainbow_furnace')
-    //     .itemInputs("ironfurnaces:netherite_furnace", "ironfurnaces:crystal_furnace", 'ironfurnaces:obsidian_furnace', 'ironfurnaces:emerald_furnace', 'ironfurnaces:diamond_furnace', 'ironfurnaces:gold_furnace', 'ironfurnaces:iron_furnace', 'ironfurnaces:copper_furnace', 'ironfurnaces:silver_furnace', 'ironfurnaces:item_spooky', 'ironfurnaces:item_xmas', '4x alexscaves:nuclear_furnace_component', 'gtceu:multi_smelter', 'gtceu:steam_oven', 'gtceu:large_steel_furnaces')
-    //     .inputFluids(Fluid.of('gtceu:soldering_alloy', 4000))
-    //     .itemOutputs('16x ironfurnaces:rainbow_plating')
-    //     .EUt(114514)
-    //     .duration(1000)
-    //     .stationResearch(b => b.researchStack(Item.of('ironfurnaces:netherite_furnace'))
-    //         .dataStack(Item.of("gtceu:data_module"))
-    //         .EUt(GTValues.VA[GTValues.ZPM])
-    //         .CWUt(64))
+        // event.recipes.gtceu.assembly_line('rainbow_furnace')
+        //     .itemInputs("ironfurnaces:netherite_furnace", "ironfurnaces:crystal_furnace", 'ironfurnaces:obsidian_furnace', 'ironfurnaces:emerald_furnace', 'ironfurnaces:diamond_furnace', 'ironfurnaces:gold_furnace', 'ironfurnaces:iron_furnace', 'ironfurnaces:copper_furnace', 'ironfurnaces:silver_furnace', 'ironfurnaces:item_spooky', 'ironfurnaces:item_xmas', '4x alexscaves:nuclear_furnace_component', 'gtceu:multi_smelter', 'gtceu:steam_oven', 'gtceu:large_steel_furnaces')
+        //     .inputFluids(Fluid.of('gtceu:soldering_alloy', 4000))
+        //     .itemOutputs('16x ironfurnaces:rainbow_plating')
+        //     .EUt(114514)
+        //     .duration(1000)
+        //     .stationResearch(b => b.researchStack(Item.of('ironfurnaces:netherite_furnace'))
+        //         .dataStack(Item.of("gtceu:data_module"))
+        //         .EUt(GTValues.VA[GTValues.ZPM])
+        //         .CWUt(64))
     event.recipes.gtceu.assembler("plasma_condensation_coil")
         .itemInputs('gtceu:superconducting_coil', '4x gtceu:luv_electric_pump', '32x gtceu:niobium_titanium_tiny_fluid_pipe', '4x gtceu:luv_field_generator')
         .inputFluids('gtceu:liquid_helium 8000')
@@ -1337,12 +1322,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('ctnhcore:abyssalalloy_coil_block')
         .EUt(1966080)
         .duration(900)
-    event.recipes.gtceu.assembler("demonwill")
-        .itemInputs(['2x #gtceu:circuits/luv', '2x bloodmagic:dungeon_metal', 'bloodmagic:reagentteleposition', 'bloodmagic:reagentsuppression', 'bloodmagic:demonwillgauge', '2x gtceu:tungsten_steel_screw'])
-        .itemOutputs("ctnhmana:demon_will_generator")
-        .inputFluids(Fluid.of("bloodmagic:life_essence_fluid", 4000))
-        .duration(400)
-        .EUt(7680)
     event.recipes.gtceu.assembler("simple_nutritious")
         .itemInputs("minecraft:paper")
         .inputFluids(Fluid.of("gtceu:biomass", 1000))
@@ -1692,16 +1671,16 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:echo_shard_dust')
         .EUt(32)
         .duration(200)
-    // event.recipes.gtceu.assembly_line('ctnhcore:sculk_cell')
-    //     .itemInputs('32x gtceu:stem_cells', '8x minecraft:sculk_vein', '4x minecraft:sculk', '2x minecraft:echo_shard', 'kubejs:echo_printed_circuit_board', 'gtceu:crystal_soc', 'gtceu:crystal_soc', 'avaritia:crystal_matrix_ingot', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc')
-    //     .inputFluids('gtceu:mutagen 16000', 'gtceu:sterilebiologicalculturemediumstocksolution 16000')
-    //     .itemOutputs('16x ctnhcore:sculk_cell')
-    //     .EUt(491200)
-    //     .duration(800)
-    //     .stationResearch(b => b.researchStack(Item.of('gtceu:crystal_soc'))
-    //         .dataStack(Item.of("gtceu:data_orb"))
-    //         .EUt(GTValues.VA[GTValues.ZPM])
-    //         .CWUt(64))
+        // event.recipes.gtceu.assembly_line('ctnhcore:sculk_cell')
+        //     .itemInputs('32x gtceu:stem_cells', '8x minecraft:sculk_vein', '4x minecraft:sculk', '2x minecraft:echo_shard', 'kubejs:echo_printed_circuit_board', 'gtceu:crystal_soc', 'gtceu:crystal_soc', 'avaritia:crystal_matrix_ingot', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', '64x gtceu:hidden_alloy_bolt', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc', 'gtceu:highly_advanced_soc')
+        //     .inputFluids('gtceu:mutagen 16000', 'gtceu:sterilebiologicalculturemediumstocksolution 16000')
+        //     .itemOutputs('16x ctnhcore:sculk_cell')
+        //     .EUt(491200)
+        //     .duration(800)
+        //     .stationResearch(b => b.researchStack(Item.of('gtceu:crystal_soc'))
+        //         .dataStack(Item.of("gtceu:data_orb"))
+        //         .EUt(GTValues.VA[GTValues.ZPM])
+        //         .CWUt(64))
     event.recipes.gtceu.assembler('biological_patch_transistor')
         .itemInputs('gtceu:naquadria_foil', '8x gtceu:fine_osmiridium_wire')
         .inputFluids('gtceu:kapton_k 288')
@@ -1968,48 +1947,48 @@ ServerEvents.recipes(event => {
         .outputFluids("ad_astra:oxygen 4000")
         .duration(200)
         .EUt(1920)
-    // event.recipes.gtceu.assembler('p2p_tunnel_one')
-    //     .circuit(11)
-    //     .inputFluids("gtceu:soldering_alloy 144")
-    //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','ae2:crafting_card','4x ae2:capacity_card','mae2:pattern_p2p_tunnel')
-    //     .itemOutputs('mae2:pattern_multi_p2p_tunnel')
-    //     .EUt(192)
-    //     .duration(100)
-    // event.recipes.gtceu.assembler('p2p_tunnel_two')
-    //     .circuit(11)
-    //     .inputFluids("gtceu:soldering_alloy 144")
-    //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','ae2:redstone_card','4x ae2:capacity_card','ae2:redstone_p2p_tunnel')
-    //     .itemOutputs('mae2:redstone_multi_p2p_tunnel')
-    //     .EUt(192)
-    //     .duration(100)
-    // event.recipes.gtceu.assembler('p2p_tunnel_three')
-    //     .circuit(11)
-    //     .inputFluids("gtceu:soldering_alloy 144")
-    //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','ae2:energy_card','4x ae2:capacity_card','ae2:fe_p2p_tunnel')
-    //     .itemOutputs('mae2:fe_multi_p2p_tunnel')
-    //     .EUt(192)
-    //     .duration(100)
-    // event.recipes.gtceu.assembler('p2p_tunnel_four')
-    //     .circuit(11)
-    //     .inputFluids("gtceu:soldering_alloy 144")
-    //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','ae2:void_card','4x ae2:capacity_card','ae2:fluid_p2p_tunnel')
-    //     .itemOutputs('mae2:fluid_multi_p2p_tunnel')
-    //     .EUt(192)
-    //     .duration(100)
-    // event.recipes.gtceu.assembler('p2p_tunnel_five')
-    //     .circuit(11)
-    //     .inputFluids("gtceu:soldering_alloy 144")
-    //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','ae2:equal_distribution_card','4x ae2:capacity_card','ae2:item_p2p_tunnel')
-    //     .itemOutputs('mae2:item_multi_p2p_tunnel')
-    //     .EUt(192)
-    //     .duration(100)
-    // event.recipes.gtceu.assembler('p2p_tunnel_six')
-    //     .circuit(11)
-    //     .inputFluids("gtceu:soldering_alloy 144")
-    //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','2x ae2:energy_card','4x ae2:capacity_card','mae2:eu_p2p_tunnel')
-    //     .itemOutputs('mae2:eu_multi_p2p_tunnel')
-    //    .EUt(192)
-    //    .duration(100)
+        // event.recipes.gtceu.assembler('p2p_tunnel_one')
+        //     .circuit(11)
+        //     .inputFluids("gtceu:soldering_alloy 144")
+        //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','ae2:crafting_card','4x ae2:capacity_card','mae2:pattern_p2p_tunnel')
+        //     .itemOutputs('mae2:pattern_multi_p2p_tunnel')
+        //     .EUt(192)
+        //     .duration(100)
+        // event.recipes.gtceu.assembler('p2p_tunnel_two')
+        //     .circuit(11)
+        //     .inputFluids("gtceu:soldering_alloy 144")
+        //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','ae2:redstone_card','4x ae2:capacity_card','ae2:redstone_p2p_tunnel')
+        //     .itemOutputs('mae2:redstone_multi_p2p_tunnel')
+        //     .EUt(192)
+        //     .duration(100)
+        // event.recipes.gtceu.assembler('p2p_tunnel_three')
+        //     .circuit(11)
+        //     .inputFluids("gtceu:soldering_alloy 144")
+        //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','ae2:energy_card','4x ae2:capacity_card','ae2:fe_p2p_tunnel')
+        //     .itemOutputs('mae2:fe_multi_p2p_tunnel')
+        //     .EUt(192)
+        //     .duration(100)
+        // event.recipes.gtceu.assembler('p2p_tunnel_four')
+        //     .circuit(11)
+        //     .inputFluids("gtceu:soldering_alloy 144")
+        //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','ae2:void_card','4x ae2:capacity_card','ae2:fluid_p2p_tunnel')
+        //     .itemOutputs('mae2:fluid_multi_p2p_tunnel')
+        //     .EUt(192)
+        //     .duration(100)
+        // event.recipes.gtceu.assembler('p2p_tunnel_five')
+        //     .circuit(11)
+        //     .inputFluids("gtceu:soldering_alloy 144")
+        //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','ae2:equal_distribution_card','4x ae2:capacity_card','ae2:item_p2p_tunnel')
+        //     .itemOutputs('mae2:item_multi_p2p_tunnel')
+        //     .EUt(192)
+        //     .duration(100)
+        // event.recipes.gtceu.assembler('p2p_tunnel_six')
+        //     .circuit(11)
+        //     .inputFluids("gtceu:soldering_alloy 144")
+        //     .itemInputs('gtceu:hv_machine_hull','2x #gtceu:circuits/hv','2x ae2:energy_card','4x ae2:capacity_card','mae2:eu_p2p_tunnel')
+        //     .itemOutputs('mae2:eu_multi_p2p_tunnel')
+        //    .EUt(192)
+        //    .duration(100)
         //原版熔炉配方
     event.smelting('gtceu:hot_high_temp_wrought_precursor_ingot', 'minecraft:iron_ingot')
         .cookingTime(400)
