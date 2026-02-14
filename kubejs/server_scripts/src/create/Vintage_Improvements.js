@@ -81,5 +81,5 @@ addTurningRecipes("potin", "gtceu:potin_ingot", 60, 40, 40)
         .transitionalItem('gtceu:copper_plate')
         .loops(1)
     
-    
+    vintageimprovements.vibrating('gtceu:steel_ingot', 'gtceu:steel_block')
     })

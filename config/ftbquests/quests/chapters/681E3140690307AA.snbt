@@ -146,6 +146,11 @@
 			hide_dependency_lines: false
 			icon: "create:wrench"
 			id: "6E097A8CDC0BF608"
+			rewards: [{
+				id: "1E44EED1C4FA4660"
+				item: "create:goggles"
+				type: "item"
+			}]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7929003364368250376.subtitle}"
 			tasks: [{

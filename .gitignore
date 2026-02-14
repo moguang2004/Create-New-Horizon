@@ -73,8 +73,7 @@ versions/dev/PCL/Setup.ini
 **/*.jar.meta
 **/*.log
 /.mixin.out
-!/mods/CTNH*.jar
-!/mods/ctpp*.jar
+!/mods/CTNH Core*.jar
 !/mods/.index/
 /replay_recordings/
 /texturepacks/
