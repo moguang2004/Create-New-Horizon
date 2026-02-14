@@ -589,6 +589,7 @@
 						gem: "apotheosis:core/warlord"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 61.0d
