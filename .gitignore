@@ -135,3 +135,4 @@ config/*
 !config/merequester-common.toml
 !config/emi.css
 !config/ali/ali_common.json
+!config/createlazytick-common.toml
