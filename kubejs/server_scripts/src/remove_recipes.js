@@ -177,6 +177,7 @@ ServerEvents.recipes(event => {
         'createdieselgenerators:wood_chip',
         //乐事刀
         /(.*)delight:(.*)_knife/,
+        /ad_astra:(.*)/
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot"
