@@ -833,36 +833,36 @@ ServerEvents.recipes(event => {
             .duration(20);
     }
 
-    let low = ['chicken', 'cod', 'cow', 'glow_squid', 'mooshroom', 'pig', 'rabbit', 'polar_bear', 'squid', 'snow_golem', 'sheep']
-    let mid = ['ars_nouveau/wilden_mobs', 'blaze', 'creeper', 'drowned', 'ghast', 'guardian', 'hoglin', 'magma_cube', 'phantom', 'skeleton', 'slime', 'twilightforste/death_tome', 'twilightforste/stable_ice_core',
-        'spider', 'twilightforest/death_tomb', 'twilightforest/deer', 'twilightforest/raven', 'twilight_forest/stable_ice_core', 'witch', 'zombie', 'zombified_piglin', 'aether/aerwhale'
-    ]
-    let high = ['elder_guardian', 'enderman', 'evoker', 'iron_golem', 'shulker', 'twilightforest/giant', 'twilightforest/kobold', 'twilightforest/goblin',
-        'wither_skeleton', 'twilightforest/winter_wolf', 'twilightforest/redcap', 'twilightforest/helmet_crab', 'twilightforest/troll',
-        'twilightforest/naga', 'twilightforest/minotaur', 'twilightforest/fire_beetle', 'twilightforest/carminite_golem', 'twilightforest/towerwood_borer',
-        'vindicator', 'twilightforest/lich', 'twilightforest/yeti', 'twilightforest/wraith', 'twilightforest/skeleton_druid'
-    ]
-    let supers = ['artifacts/mimic', 'wither', 'ender_dragon', 'warden', 'twilightforest/snow_queen', 'twilightforest/hydra', 'twilightforest/minoshroom', 'twilightforest/alpha_yeti', 'biomancy/primordial_flesh_blob']
-    let boss = ['twilightforest/ur_ghast']
-    low.forEach(entity =>
-        addModel(event, entity, 30, 100)
-    );
+    //let low = ['chicken', 'cod', 'cow', 'glow_squid', 'mooshroom', 'pig', 'rabbit', 'polar_bear', 'squid', 'snow_golem', 'sheep']
+    //let mid = ['ars_nouveau/wilden_mobs', 'blaze', 'creeper', 'drowned', 'ghast', 'guardian', 'hoglin', 'magma_cube', 'phantom', 'skeleton', 'slime', 'twilightforste/death_tome', 'twilightforste/stable_ice_core',
+    //    'spider', 'twilightforest/death_tomb', 'twilightforest/deer', 'twilightforest/raven', 'twilight_forest/stable_ice_core', 'witch', 'zombie', 'zombified_piglin', 'aether/aerwhale'
+    //]
+    //let high = ['elder_guardian', 'enderman', 'evoker', 'iron_golem', 'shulker', 'twilightforest/giant', 'twilightforest/kobold', 'twilightforest/goblin',
+    //    'wither_skeleton', 'twilightforest/winter_wolf', 'twilightforest/redcap', 'twilightforest/helmet_crab', 'twilightforest/troll',
+    //    'twilightforest/naga', 'twilightforest/minotaur', 'twilightforest/fire_beetle', 'twilightforest/carminite_golem', 'twilightforest/towerwood_borer',
+    //    'vindicator', 'twilightforest/lich', 'twilightforest/yeti', 'twilightforest/wraith', 'twilightforest/skeleton_druid'
+    //]
+    //let supers = ['artifacts/mimic', 'wither', 'ender_dragon', 'warden', 'twilightforest/snow_queen', 'twilightforest/hydra', 'twilightforest/minoshroom', 'twilightforest/alpha_yeti', 'biomancy/primordial_flesh_blob']
+    //let boss = ['twilightforest/ur_ghast']
+    //low.forEach(entity =>
+    //    addModel(event, entity, 30, 100)
+    //);
 
-    mid.forEach(entity =>
-        addModel(event, entity, 120, 400)
-    );
+    //mid.forEach(entity =>
+    //    addModel(event, entity, 120, 400)
+    //);
 
-    high.forEach(entity =>
-        addModel(event, entity, 480, 1600)
-    );
+    //high.forEach(entity =>
+    //    addModel(event, entity, 480, 1600)
+    //);
 
-    supers.forEach(entity =>
-        addModel(event, entity, 1920, 6400)
-    );
+    //supers.forEach(entity =>
+    //    addModel(event, entity, 1920, 6400)
+    //);
 
-    boss.forEach(entity =>
-        addModel(event, entity, 7680, 25600)
-    );
+    //boss.forEach(entity =>
+    //    addModel(event, entity, 7680, 25600)
+    //);
 
     event.recipes.gtceu.forming_press('blank_data_model')
         .itemInputs(['2x gtceu:ender_pearl_plate', '2x gtceu:stainless_steel_plate', '2x gtceu:fine_platinum_wire', 'minecraft:smooth_stone'])
