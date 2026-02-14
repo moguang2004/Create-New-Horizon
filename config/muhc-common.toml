@@ -1,0 +1,44 @@
+
+[basic]
+	#muhc.configuration.priority.tooltip
+	#Range: > 0
+	priority = 5
+
+[behavior]
+	#muhc.configuration.centerSearchRadius.tooltip
+	#Range: > 0
+	centerSearchRadius = 0
+	#muhc.configuration.maidSearchRadius.tooltip
+	#Range: > 0
+	maidSearchRadius = 0
+	#muhc.configuration.reachRadius.tooltip
+	#Range: > 0
+	reachRadius = 4
+	#muhc.configuration.claimsBeforehand.tooltip
+	claimsBeforehand = true
+	#muhc.configuration.randomWalk.tooltip
+	randomWalk = true
+	#muhc.configuration.itemFrameInteraction.tooltip
+	itemFrameInteraction = true
+
+[work]
+	#muhc.configuration.bubbleInterval.tooltip
+	#Range: > 1
+	bubbleInterval = 600
+	#muhc.configuration.operationInterval.tooltip
+	#Range: > 1
+	operationInterval = 8
+	#muhc.configuration.operationDuration.tooltip
+	#Range: > 1
+	operationDuration = 10
+	#muhc.configuration.baseStress.tooltip
+	#Range: > 0
+	baseStress = 1024
+	#muhc.configuration.stressPerFavorability.tooltip
+	#Range: > 0
+	stressPerFavorability = 80
+	#muhc.configuration.enduranceOperation.tooltip
+	enduranceOperation = true
+	#muhc.configuration.twoHandedOperation.tooltip
+	twoHandedOperation = true
+
