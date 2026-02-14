@@ -38,10 +38,8 @@ function modifiers_upgrade(event, modifiername, amount_per_item, needed_per_leve
 TConJSEvents.modifierRegistry((event) => {
     event.createEmpty("kubejs:snowcity");
     event.createEmpty("kubejs:fortification");
-    event.createEmpty("kubejs:global_traveler");
 })
 
 StartupEvents.postInit(event => {
-    modifiers_upgrade(event, "global_traveler", 1, 1, 'ars_nouveau:stable_warp_scroll', 1, 'harvest', 'abilities', 1);
     modifiers_upgrade(event, "fortification", 1, 1, 'twilightforest:fortification_scepter', 5, 'armor', "upgrades", 1);
 });
