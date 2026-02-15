@@ -497,27 +497,15 @@
 		}
 		{
 			dependencies: [
-				"62622845DCE27A13"
-				"02115E4763B9F906"
+				"27675B2A83F65B2E"
+				"41E48BCAEAD9D47E"
 			]
-			id: "213B6C166AFD2A8E"
-			size: 1.5d
-			tasks: [{
-				id: "666CE38C59406524"
-				item: "biomancy:bio_forge"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["27675B2A83F65B2E"]
 			description: ["{ftbquests.chapter.142AC829C9062F15.quest149003923388758278.description1}"]
 			id: "02115E4763B9F906"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "01CC18A526D4218C"
-				table_id: 5863108397808417557L
+				id: "22A7C4468181AFCB"
+				table_id: 601634794626000726L
 				type: "random"
 			}]
 			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest149003923388758278.subtitle}"
@@ -527,7 +515,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 16.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["62622845DCE27A13"]
@@ -548,8 +536,8 @@
 		}
 		{
 			dependencies: [
-				"213B6C166AFD2A8E"
 				"3A0DF5CC0ED15F67"
+				"02115E4763B9F906"
 			]
 			id: "15F6F741F83DADF6"
 			shape: "pentagon"
@@ -618,33 +606,7 @@
 			y: 16.5d
 		}
 		{
-			dependencies: ["62622845DCE27A13"]
-			id: "5DB9849BC92C0BB1"
-			tasks: [{
-				id: "4AA4598E3529CA36"
-				item: "biomancy:decomposer"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 20.5d
-		}
-		{
-			dependencies: [
-				"213B6C166AFD2A8E"
-				"5DB9849BC92C0BB1"
-			]
-			id: "2A07853B97390E58"
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest3028535765416611416.subtitle}"
-			tasks: [{
-				id: "0B295155171326D1"
-				item: "biomancy:digester"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 20.5d
-		}
-		{
-			dependencies: ["5DB9849BC92C0BB1"]
+			dependencies: ["02115E4763B9F906"]
 			description: ["{ftbquests.chapter.142AC829C9062F15.quest2347949193765232158.description1}"]
 			id: "2095975A0D0A9E1E"
 			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest2347949193765232158.subtitle}"
@@ -653,11 +615,11 @@
 				item: "ctnhbio:lv_decomposer"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.0d
 			y: 22.5d
 		}
 		{
-			dependencies: ["2A07853B97390E58"]
+			dependencies: ["02115E4763B9F906"]
 			description: [""]
 			id: "09542A8A75F69EA5"
 			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest672209018557996709.subtitle}"
@@ -666,7 +628,7 @@
 				item: "ctnhbio:lv_digester"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 16.0d
 			y: 22.5d
 		}
 		{
@@ -946,7 +908,7 @@
 			y: 14.5d
 		}
 		{
-			dependencies: ["213B6C166AFD2A8E"]
+			dependencies: ["02115E4763B9F906"]
 			description: [
 				"{ftbquests.chapter.142AC829C9062F15.quest5822252284539946635.description1}"
 				"{ftbquests.chapter.142AC829C9062F15.quest5822252284539946635.description2}"
@@ -958,7 +920,7 @@
 				item: "ctnhbio:lv_bioreactor"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 16.0d
 			y: 20.5d
 		}
 		{

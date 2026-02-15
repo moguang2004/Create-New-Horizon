@@ -29,6 +29,12 @@
 			x: 9.5d
 			y: 0.0d
 		}
+		{
+			id: "16A820C3C6F8268A"
+			linked_quest: "02115E4763B9F906"
+			x: 9.5d
+			y: -2.0d
+		}
 	]
 	quests: [
 		{
@@ -131,12 +137,6 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2D9F762371DEDF70"
-			rewards: [{
-				count: 6
-				id: "078D44B3D237F794"
-				item: "create_new_age:electrical_connector"
-				type: "item"
-			}]
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest3287476147610115952.subtitle}"
 			tasks: [
 				{
@@ -360,7 +360,6 @@
 		{
 			dependencies: ["62BAC5BC588E4CAA"]
 			id: "13388DB5A507AB34"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest1385012696713767732.subtitle}"
 			tasks: [{
 				count: 12L
 				id: "5D54A22BD467C77B"

@@ -255,7 +255,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.electrolyzer('electrolyzing_clay')
         .EUt(120)
         .duration(182)
-        .itemInputs("gtceu:clay_dust")
+        .itemInputs("13x gtceu:clay_dust")
         .itemOutputs('2x gtceu:sodium_dust')
         .itemOutputs('gtceu:lithium_dust')
         .itemOutputs('5x gtceu:alumina_dust')

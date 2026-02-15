@@ -500,25 +500,7 @@
 			y: -6.0d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.ae2.quest2180493370919670524.description1}"
-				"{ftbquests.chapter.ae2.quest2180493370919670524.description2}"
-			]
-			id: "1E42AB2B08C2D2FC"
-			tasks: [{
-				id: "1403CED18448D0D3"
-				item: "ae2:semi_dark_monitor"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.ae2.quest2180493370919670524.title}"
-			x: 3.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"1E42AB2B08C2D2FC"
-				"6D3910690218D0E3"
-			]
+			dependencies: ["6D3910690218D0E3"]
 			id: "071285C288ECD6B8"
 			tasks: [{
 				id: "5A89078EA30D3E25"
@@ -697,7 +679,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1E42AB2B08C2D2FC"]
 			description: ["{ftbquests.chapter.ae2.quest2407258047972625819.description1}"]
 			id: "21684C70C01BCD9B"
 			subtitle: "变聪明了！"
@@ -2135,6 +2116,24 @@
 			]
 			x: 20.0d
 			y: 2.5d
+		}
+		{
+			dependencies: [
+				"071285C288ECD6B8"
+				"21684C70C01BCD9B"
+			]
+			description: ["包含自动搜索、快捷上传样板等功能"]
+			id: "4D69AA45057F6027"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "最伟大的发明"
+			tasks: [{
+				id: "6688B75B4D382A91"
+				item: "ae2pw:pattern_workstation"
+				type: "item"
+			}]
+			x: 3.5999999999999996d
+			y: -2.4d
 		}
 	]
 	title: "&9应用能源2"
