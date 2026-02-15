@@ -1774,38 +1774,6 @@
 			y: 14.5d
 		}
 		{
-			can_repeat: true
-			dependencies: ["6D9003172EF921C9"]
-			id: "3337D2DFE0E2FF14"
-			rewards: [{
-				id: "6D8FA1750FD17BCB"
-				item: {
-					Count: 1
-					id: "apotheosis:potion_charm"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:mending"
-							lvl: 1s
-						}]
-						Potion: "minecraft:long_night_vision"
-						RepairCost: 1
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 64L
-				id: "072A55142248DAD8"
-				item: "gtceu:andesite_alloy_ingot"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest3690650278645923604.title}"
-			x: -1.0d
-			y: 7.5d
-		}
-		{
 			dependencies: ["60D8E1B5B8777322"]
 			description: ["                                  真的"]
 			id: "5E467907883A5FD7"

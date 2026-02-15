@@ -154,24 +154,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["41E48BCAEAD9D47E"]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest6098072423107733063.description1}"]
-			id: "54A0B48F51F12647"
-			rewards: [{
-				id: "139E616ADE2C0E97"
-				item: "gtceu:lv_4a_energy_converter"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest6098072423107733063.subtitle}"
-			tasks: [{
-				id: "3F5BE8B5242E5FC9"
-				item: "gtceu:lv_1a_energy_converter"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 2.0d
-		}
-		{
 			id: "23FD399F5B59DA53"
 			tasks: [{
 				id: "305EC3B3A83A2EDE"
@@ -223,6 +205,7 @@
 				"0B8D27D4FAA175B9"
 				"3AFD46E811ED67AD"
 				"7441815510F49119"
+				"54A490510D5FBA04"
 			]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest4748073610795144318.description1}"]
@@ -479,7 +462,6 @@
 		{
 			dependencies: [
 				"2D9F762371DEDF70"
-				"54A0B48F51F12647"
 				"13388DB5A507AB34"
 			]
 			description: [

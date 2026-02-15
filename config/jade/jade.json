@@ -9,7 +9,7 @@
     "reachDistance": 0.0,
     "displayEntities": true,
     "displayBosses": true,
-    "displayMode": "LITE",
+    "displayMode": "TOGGLE",
     "displayTooltip": true,
     "displayBlocks": true,
     "hideFromDebug": true,

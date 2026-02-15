@@ -709,6 +709,7 @@
 						Material: "tconstruct:manyullyn"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 67.0d
