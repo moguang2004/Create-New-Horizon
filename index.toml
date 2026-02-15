@@ -3018,7 +3018,7 @@ hash = "4797425d17e1440cef9573a3a1200ed78196660a097efc5fc80d321872c8f413"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "959060a249df47b0901cb575a456aa4ed21b0b726bb1220228b063fac34435cb"
+hash = "1271e048b2510259f9cdf404055e5687dfec6456d06d674403d8341a24ac96cc"
 
 [[files]]
 file = "kubejs/assets/kubejs/ponder/assembly_line.nbt"
@@ -5378,7 +5378,7 @@ hash = "df05f0685013019db9854f8a486a8c3e3a96780fc9f025fd3a800b91fea50ba5"
 
 [[files]]
 file = "kubejs/client_scripts/src/info.js"
-hash = "beddff7238e4f428fa079c9110bbbdfc64a9eb59d80df3840982359a60002a83"
+hash = "e566ba70f6b7ca28327e79c22786036963a75e4410b0d1d5a2a6f609e235f94b"
 
 [[files]]
 file = "kubejs/client_scripts/src/jeiaddition.js"
@@ -8733,22 +8733,6 @@ file = "kubejs/data/tconstruct/recipes/smeltery/alloys/netherite.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
-file = "kubejs/data/tconstruct/recipes/smeltery/casting/glass/block.json"
-hash = "a56348e0dacbcaa90d170c97b80a1c3bb594207bf1d7255aef005658dcbd84ce"
-
-[[files]]
-file = "kubejs/data/tconstruct/recipes/smeltery/casting/glass/pane.json"
-hash = "b53000ebc3f658c4de6251fa8b36f3d6f1598be8105eeb68a2af73911e3fe55d"
-
-[[files]]
-file = "kubejs/data/tconstruct/recipes/smeltery/casting/metal/snow_steel/block.json"
-hash = "174a3431c5d090bfd0b840cec2d238b38d4f2364f6b9a039935341d8b143f320"
-
-[[files]]
-file = "kubejs/data/tconstruct/recipes/smeltery/casting/metal/snow_steel/ingot.json"
-hash = "6f0c4526865259f7861eba82149ca5b1fb9dffb2cc3e229d2bf184f1a4d9bba9"
-
-[[files]]
 file = "kubejs/data/tconstruct/recipes/smeltery/melting/glass/block.json"
 hash = "5194b106d22d481b71b99bee95ca555937649417f117ae55f385650e06db64d7"
 
@@ -10043,10 +10027,6 @@ hash = "bff20817fd79930081cf663ee876f116ca8fc450910751bcc1390f971ba6894a"
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/tinkers.js"
 hash = "cdc2ed12146c1472bc1ecda293415cda0765b44e78f42f5bbe5cbfa559305c8a"
-
-[[files]]
-file = "kubejs/server_scripts/src/tconstruct/toolparts_register.js"
-hash = "650e3887e7c22192395e256a9be20e71eb0fbf969ac7db72c5248832f0185532"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
