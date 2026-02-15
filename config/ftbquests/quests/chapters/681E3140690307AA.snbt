@@ -337,16 +337,8 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "3D2861D84C925025"
-					item: {
-						Count: 1
-						id: "apotheosis:potion_charm"
-						tag: {
-							Damage: 0
-							Potion: "minecraft:night_vision"
-						}
-					}
+					id: "65CFC58A5274FA92"
+					item: "artifacts:night_vision_goggles"
 					type: "item"
 				}
 			]

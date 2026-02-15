@@ -889,6 +889,10 @@ file = "config/createlazytick-common.toml"
 hash = "6a04bbdc147b3b80a500ca7667928212c7a527367fc820475265fc98d500b958"
 
 [[files]]
+file = "config/ctnhchangelog-client.toml"
+hash = "fb329f6bd861867091027f8ee33a57776d457de69da9918cd9ee79e96d409c7c"
+
+[[files]]
 file = "config/ctnhcore.yaml"
 hash = "6ab63a70413bd94afb6114252e83cead382b1e8fd468d80cec02719dc6509daf"
 
@@ -914,7 +918,7 @@ hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
 file = "config/fancymenu/assets/version.md"
-hash = "8307b6e5ef8b9f42a4cb88595a2df2650772e4e85d80636825ee5dd6b4f8e561"
+hash = "be0e3f2e5d5beb23e1b9a18f24adda2a10f18c61a214d3428d7a12c3c19a7682"
 
 [[files]]
 file = "config/fancymenu/config.txt"
@@ -11750,7 +11754,7 @@ hash = "381991335e668c8a2472e5020a0e9584fda5e7bccc4ddd797d76eee327f18580"
 
 [[files]]
 file = "kubejs/server_scripts/src/80extend.js"
-hash = "ad14104894a4f5061b004a9e2a81a0fa16b263bfa8e8182d86c0bcb74356552c"
+hash = "cbe74bee92fcf096449122897b4b909274b4f9af68605a395dcb7216f954f88f"
 
 [[files]]
 file = "kubejs/server_scripts/src/ae2.js"
@@ -11926,7 +11930,7 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "681685980b657636d3fcc8c51a80f62e5a207b688cbe9a01232453364168822b"
+hash = "8705a6d77405baf6d38c8a97b7c17b282ede59001cd28cecaf23d520b082d9bd"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/uhvParts.js"
@@ -12043,10 +12047,6 @@ hash = "43aeb8b538df26fdf8dda16b8d8bfc4bd2953083b117aea6e6f950dec138e4a1"
 [[files]]
 file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"
 hash = "25bff30f2a479baebbd9eec5300166e5e6c8f21ef1a7aabe1aaac97f2824909d"
-
-[[files]]
-file = "modpack_version.json"
-hash = "b136e102febf961a4c3a8e7d4566bd13a75850b1b3e70c66ac5fb35437fe7ca8"
 
 [[files]]
 file = "mods/CTNH Core-1.4.0.jar"
@@ -12374,7 +12374,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctnh-changelog.pw.toml"
-hash = "19876429e72cacd20f0eda6ae97dce6437280e2b3ce91b3710ff37a3c59ebadf"
+hash = "86ddf24fba98e2fb4c62ef542c08b3ac7c33daa88d79a092f3a09caed7f29a8d"
 metafile = true
 
 [[files]]
