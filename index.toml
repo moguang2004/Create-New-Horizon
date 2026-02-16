@@ -1333,10 +1333,6 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
 
 [[files]]
-file = "hs_err_pid9064.log"
-hash = "fa93e7c73229a94ae9b763a4e2b4341e6baf3684758ecaf1d8db1b22beeeaa70"
-
-[[files]]
 file = "kubejs/README.txt"
 hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
 
