@@ -935,6 +935,77 @@
 			x: -11.5d
 			y: -4.5d
 		}
+		{
+			id: "6CF8EDC7B351F67A"
+			subtitle: "可以在月球的陨石坑中找到"
+			tasks: [{
+				id: "00BC927E96BC15A1"
+				item: "gtceu:starlight_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CF8EDC7B351F67A"]
+			id: "26AE6DFBBDD45CB4"
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:stellar_energy"
+				id: "3D245A770F8C7CC1"
+				type: "fluid"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26AE6DFBBDD45CB4"]
+			id: "5E3DF53378ED2A08"
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:energy_essence_secretion"
+				id: "431E39312E4CCE32"
+				type: "fluid"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5E3DF53378ED2A08"
+				"515039E3B9783216"
+			]
+			id: "0A150549423A5EA9"
+			tasks: [{
+				id: "2E0584679C43391F"
+				item: {
+					Count: 1
+					id: "ctnhenergy:ev_eu_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "515039E3B9783216"
+			tasks: [{
+				id: "059CED22EC54EB0E"
+				item: {
+					Count: 1
+					id: "ctnhenergy:dynamo_card"
+					tag: {
+						voltage: 4
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
 	]
 	title: "&5EV时期"
 }

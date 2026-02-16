@@ -1015,7 +1015,7 @@
     {
       "item": "minecraft:iron_ingot",
       "type": "adminshop",
-      "category": "原材�??:钢锭",
+      "category": "原材�???:钢锭",
       "adminShopSlot": 0
     },
     {
@@ -1104,10 +1104,10 @@
       "importerBuyPrice": 50.0
     },
     {
+      "item": "minecraft:air",
       "nbt": {
         "Damage": 0.0
       },
-      "item": "kubejs:broken_temperature_keeping_device",
       "type": "prices",
       "importerBuyPrice": 100.0
     },
@@ -1122,68 +1122,73 @@
       "importerBuyPrice": 20.0
     },
     {
+      "item": "gtceu:rose_gold_mining_hammer",
       "nbt": {
-        "DisallowContainerItem": 0.0,
         "GT.Tool": {
-          "HarvestLevel": 2.0,
           "Damage": 0.0,
+          "HarvestLevel": 2.0,
           "MaxDamage": 2303.0
         },
         "GT.Behaviours": {
-          "AoELayer": 0.0,
-          "MaxAoELayer": 0.0,
-          "TorchPlacing": 1.0,
           "AoERow": 1.0,
-          "AoEColumn": 1.0,
           "MaxAoERow": 1.0,
-          "MaxAoEColumn": 1.0
+          "MaxAoELayer": 0.0,
+          "AoELayer": 0.0,
+          "MaxAoEColumn": 1.0,
+          "TorchPlacing": 1.0,
+          "AoEColumn": 1.0
         },
-        "HideFlags": 2.0,
         "Enchantments": [
           {
-            "lvl": 2.0,
-            "id": "minecraft:fortune"
+            "id": "minecraft:fortune",
+            "lvl": 2.0
           }
-        ]
+        ],
+        "DisallowContainerItem": 0.0,
+        "HideFlags": 2.0
       },
-      "item": "gtceu:rose_gold_mining_hammer",
       "type": "prices",
       "importerBuyPrice": 150.0
     },
     {
+      "item": "gtceu:rose_gold_mining_hammer",
       "nbt": {
-        "DisallowContainerItem": 0,
         "GT.Tool": {
-          "MaxDamage": 2303,
-          "HarvestLevel": 2,
-          "Damage": 0
+          "Damage": 0.0,
+          "HarvestLevel": 2.0,
+          "MaxDamage": 2303.0
         },
         "GT.Behaviours": {
-          "AoELayer": 0,
-          "MaxAoELayer": 0,
-          "TorchPlacing": 1,
-          "AoERow": 1,
-          "AoEColumn": 1,
-          "MaxAoERow": 1,
-          "MaxAoEColumn": 1
+          "AoERow": 1.0,
+          "MaxAoERow": 1.0,
+          "MaxAoELayer": 0.0,
+          "AoELayer": 0.0,
+          "MaxAoEColumn": 1.0,
+          "TorchPlacing": 1.0,
+          "AoEColumn": 1.0
         },
-        "HideFlags": 2,
         "Enchantments": [
           {
-            "lvl": 2,
-            "id": "minecraft:fortune"
+            "id": "minecraft:fortune",
+            "lvl": 2.0
           }
-        ]
+        ],
+        "DisallowContainerItem": 0.0,
+        "HideFlags": 2.0
       },
-      "item": "gtceu:rose_gold_mining_hammer",
       "type": "prices",
       "importerBuyPrice": 400.0
+    },
+    {
+      "item": "ctnhenergy:eu_cell_housing",
+      "type": "prices",
+      "importerBuyPrice": 100000.0
     }
   ],
   "categories": [
     {
       "item": "gtceu:steel_ingot",
-      "name": "原材�??",
+      "name": "原材�???",
       "categories": [
         {
           "item": "gtceu:steel_ingot",
@@ -1197,7 +1202,7 @@
     },
     {
       "item": "gtceu:basic_electronic_circuit",
-      "name": "高科�??产品",
+      "name": "高科�???产品",
       "categories": []
     }
   ]

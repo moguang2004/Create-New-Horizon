@@ -556,18 +556,23 @@
 		}
 		{
 			dependencies: ["1C3C3C4744816CE8"]
+			description: ["    有“进口价”的物品可购买，有“出口价”的物品可出售。"]
 			id: "37312E850B5CC7D7"
+			rewards: [{
+				id: "4E7CA1C1F27F9527"
+				item: "jackseconomy:golden_exporter_manifest"
+				type: "item"
+			}]
 			tasks: [
-				{
-					id: "7FB4E481CA7713DE"
-					item: "jackseconomy:importer"
-					optional_task: true
-					type: "item"
-				}
 				{
 					id: "05B55B1A7F4B7C99"
 					item: "jackseconomy:mechanical_importer"
 					optional_task: true
+					type: "item"
+				}
+				{
+					id: "378779176F1B1E25"
+					item: "jackseconomy:mechanical_exporter"
 					type: "item"
 				}
 			]
@@ -696,29 +701,6 @@
 		}
 		{
 			can_repeat: true
-			icon: "minecraft:bread"
-			id: "2601E4DB1C67209B"
-			rewards: [{
-				auto: "enabled"
-				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"minecraft:bread\"}]}"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: "minecraft:bread"
-				id: "5A04251B4FE561D9"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest2738721678143463579.reward.6486350162555134425.title}"
-				type: "command"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "58C68065EE4B3434"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest2738721678143463579.task.6396941496004326452.title}"
-				type: "checkmark"
-			}]
-			x: -9.5d
-			y: 6.5d
-		}
-		{
-			can_repeat: true
 			dependencies: ["773CB6E376B56EA4"]
 			icon: "gtceu:chromium_dust"
 			id: "2C3AA089B3CF8E44"
@@ -830,6 +812,34 @@
 			}]
 			x: -11.5d
 			y: 4.5d
+		}
+		{
+			description: ["    在村庄的图书馆中找到了《一种基于外星微生物培养基的AE-EU能量存储与传递技术》"]
+			icon: "ctnhenergy:eu_cell_housing"
+			id: "2B7030D2B7A80C16"
+			rewards: [{
+				id: "161ECECEA65B01F7"
+				item: {
+					Count: 1
+					id: "jackseconomy:importer_manifest"
+					tag: {
+						Items: [{
+							item: "ctnhenergy:eu_cell_housing"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "村民向你分享了先进技术"
+			tasks: [{
+				id: "3D4CF13849F643CB"
+				type: "checkmark"
+			}]
+			title: "EU存储元件外壳"
+			x: -9.5d
+			y: 7.0d
 		}
 	]
 	title: "&6小市场"

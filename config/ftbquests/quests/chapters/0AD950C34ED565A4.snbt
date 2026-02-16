@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0AD950C34ED565A4"
@@ -7,7 +8,7 @@
 		Count: 1
 		ForgeCaps: {
 			Parent: {
-				temperature: 32.7f
+				temperature: -0.4f
 			}
 		}
 		id: "legendarysurvivaloverhaul:thermometer"
