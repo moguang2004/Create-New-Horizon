@@ -1642,7 +1642,7 @@
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest9203134307374146564.subtitle}"
 			tasks: [{
 				id: "156369CEF2DBB2DA"
-				item: "gtceu:taranium_powder_dust"
+				item: "gtceu:taranium_dust"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1756,7 +1756,7 @@
 			invisible: true
 			tasks: [{
 				id: "10CFB9D503D8511E"
-				item: "gtceu:taranium_powder_dust"
+				item: "gtceu:taranium_dust"
 				type: "item"
 			}]
 			x: 13.5d

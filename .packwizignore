@@ -103,5 +103,3 @@ config/*
 !/config/ctnhchangelog-client.toml
 
 !kubejs/config/*
-
-!mods/CTNH Core*

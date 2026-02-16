@@ -818,7 +818,7 @@
 			id: "508B368BA6ED1300"
 			tasks: [{
 				id: "3CD222FDE0FF4793"
-				item: "kubejs:mana_electronic_circuit"
+				item: "ctnhmana:mana_electronic_circuit"
 				type: "item"
 			}]
 			x: -6.5d
@@ -829,7 +829,7 @@
 			id: "1D49CE873294305B"
 			tasks: [{
 				id: "632B69BEAF4DEF98"
-				item: "kubejs:mana_integrated_circuit"
+				item: "ctnhmana:mana_integrated_circuit"
 				type: "item"
 			}]
 			x: -5.0d

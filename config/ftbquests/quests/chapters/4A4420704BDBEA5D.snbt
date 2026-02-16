@@ -1087,16 +1087,6 @@
 			y: 4.0d
 		}
 		{
-			id: "3D0B7EE92F022AF4"
-			tasks: [{
-				id: "550770FDDD057235"
-				item: "gtceu:seaborgium_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
 			id: "6B4E7F0EA1389CFE"
 			tasks: [{
 				id: "7F76F22D81920832"
