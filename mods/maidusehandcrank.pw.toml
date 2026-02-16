@@ -3,11 +3,11 @@ filename = "MaidUseHandCrank_1.5.3-forge_47.1.33-1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/kVNtrRcL/versions/ejR87Xgn/MaidUseHandCrank_1.5.3-forge_47.1.33-1.20.1.jar"
-hash-format = "sha512"
-hash = "2e4721fd16d2baf7e9fda475702a3cda4e6f9b722a22642c6b25069f2eec1742020b01220e237b94fce4c1676991971a218073a7ab8809a199cd8b5832bc122e"
+hash-format = "sha1"
+hash = "676d897d014fd242ab32552cdaa9273233a8b943"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "kVNtrRcL"
-version = "ejR87Xgn"
+[update.curseforge]
+file-id = 7513397
+project-id = 1347168
