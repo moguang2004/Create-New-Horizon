@@ -94,7 +94,7 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest8106137837071141911.subtitle}"
 			tasks: [{
 				id: "403011FF1A5984E6"
-				item: "ctnhcore:eye_of_quasar"
+				item: "ctnhmana:eye_of_quasar"
 				type: "item"
 			}]
 			x: -21.0d
@@ -155,7 +155,7 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest6673607101915283871.subtitle}"
 			tasks: [{
 				id: "0A8A155096FBEF88"
-				item: "ctnhcore:mana_reactor"
+				item: "ctnhmana:mana_reactor"
 				type: "item"
 			}]
 			x: -15.0d
@@ -166,7 +166,7 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest7910654667833770270.subtitle}"
 			tasks: [{
 				id: "7E3238CC6B23CA4E"
-				item: "ctnhcore:mana_assembler"
+				item: "ctnhmana:mana_assembler"
 				type: "item"
 			}]
 			x: -19.0d
@@ -178,7 +178,7 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest5335298540625157885.subtitle}"
 			tasks: [{
 				id: "739D51C5E20C9465"
-				item: "ctnhcore:industrial_altar"
+				item: "ctnhmana:industrial_altar"
 				type: "item"
 			}]
 			x: -13.0d
@@ -188,7 +188,7 @@
 			id: "0684030D5FD75087"
 			tasks: [{
 				id: "3C245078B57AE5F8"
-				item: "ctnhcore:hellforge"
+				item: "ctnhmana:hellforge"
 				type: "item"
 			}]
 			x: -17.0d
@@ -199,7 +199,7 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest2457329020364304000.subtitle}"
 			tasks: [{
 				id: "2272524E4A93B97B"
-				item: "ctnhcore:meteor_capturer"
+				item: "ctnhmana:meteor_capturer"
 				type: "item"
 			}]
 			x: -13.0d
@@ -215,7 +215,7 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest5598678659901105214.subtitle}"
 			tasks: [{
 				id: "2EFBA5E9DD8859A5"
-				item: "ctnhcore:demon_will_generator"
+				item: "ctnhmana:demon_will_generator"
 				type: "item"
 			}]
 			x: -15.0d
@@ -226,7 +226,7 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest7611393038253576969.subtitle}"
 			tasks: [{
 				id: "09EE4358E8541CE0"
-				item: "ctnhcore:mana_seperator"
+				item: "ctnhmana:mana_force_transformer"
 				type: "item"
 			}]
 			x: -17.0d
@@ -236,41 +236,11 @@
 			id: "0C39211FC3F62138"
 			tasks: [{
 				id: "70B56CBF3246D9F0"
-				item: "ctnhcore:mana_mixer"
+				item: "ctnhmana:mana_mixer"
 				type: "item"
 			}]
 			x: -19.0d
 			y: -7.0d
-		}
-		{
-			id: "5E9F399B23CEB8D0"
-			tasks: [{
-				id: "637FF23EE91EC5CC"
-				item: "ctnhcore:zenith_distillation_tower"
-				type: "item"
-			}]
-			x: -15.0d
-			y: -5.0d
-		}
-		{
-			id: "7E307F732C41C8A4"
-			tasks: [{
-				id: "46C052734670A9CA"
-				item: "ctnhcore:zenith_laser"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -5.0d
-		}
-		{
-			id: "250AF3302C00857F"
-			tasks: [{
-				id: "2EE91503230A895E"
-				item: "ctnhcore:zenith_circult_assembler"
-				type: "item"
-			}]
-			x: -11.0d
-			y: -5.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -278,7 +248,7 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest3529508643868496978.subtitle}"
 			tasks: [{
 				id: "65EAC19545930BA7"
-				item: "ctnhcore:nicoll_dyson_beams"
+				item: "ctnhmana:nicoll_dyson_beams"
 				type: "item"
 			}]
 			x: -19.0d
@@ -288,7 +258,7 @@
 			id: "685B7F2883DBED94"
 			tasks: [{
 				id: "429B1CAA540F19E4"
-				item: "kubejs:mana_electronic_circuit"
+				item: "ctnhmana:mana_electronic_circuit"
 				type: "item"
 			}]
 			x: -7.0d
@@ -298,7 +268,7 @@
 			id: "696B43A04E6D2F05"
 			tasks: [{
 				id: "1552FB2BB783C291"
-				item: "kubejs:mana_integrated_circuit"
+				item: "ctnhmana:mana_integrated_circuit"
 				type: "item"
 			}]
 			x: -7.0d
@@ -310,22 +280,22 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest4318674076079114594.subtitle}"
 			tasks: [{
 				id: "417819D361364A09"
-				item: "kubejs:blooded_micro_processor_mainframe"
+				item: "ctnhmana:bloody_nano_processor_mainframe"
 				type: "item"
 			}]
 			x: -7.0d
-			y: -7.0d
+			y: -5.0d
 		}
 		{
 			id: "601A414CAA3597EC"
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest6924919174564517868.subtitle}"
 			tasks: [{
 				id: "296B425E09AA623B"
-				item: "kubejs:will_nano_processor_mainframe"
+				item: "ctnhmana:will_crystal_processor"
 				type: "item"
 			}]
 			x: -7.0d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			id: "237681239D5CE55C"
@@ -474,12 +444,8 @@
 		}
 		{
 			dependencies: [
-				"792D46A0721C7066"
 				"6AD120660D7FE626"
-				"637FF23EE91EC5CC"
 				"71231DDBE3BF8A26"
-				"2EE91503230A895E"
-				"46C052734670A9CA"
 				"296B425E09AA623B"
 				"020376281C4F33C1"
 			]
@@ -551,7 +517,7 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest1471562187803267984.subtitle}"
 			tasks: [{
 				id: "71231DDBE3BF8A26"
-				item: "ctnhcore:eternal_well_of_suffer"
+				item: "ctnhmana:eternal_well_of_suffer"
 				type: "item"
 			}]
 			x: -13.0d
@@ -561,7 +527,7 @@
 			id: "20B6099988CB224E"
 			tasks: [{
 				id: "6AD120660D7FE626"
-				item: "ctnhcore:twisted_fusion_mk1"
+				item: "ctnhmana:twisted_fusion_mk1"
 				type: "item"
 			}]
 			x: -17.0d
@@ -571,7 +537,7 @@
 			id: "305DF4B0688A112B"
 			tasks: [{
 				id: "0E1649E589BE053A"
-				item: "ctnhcore:twisted_fusion_mk2"
+				item: "ctnhmana:twisted_fusion_mk2"
 				type: "item"
 			}]
 			x: -17.0d
@@ -581,7 +547,7 @@
 			id: "490A257BD57D97EE"
 			tasks: [{
 				id: "52DF6FFC5E7C64C8"
-				item: "ctnhcore:twisted_fusion_mk3"
+				item: "ctnhmana:twisted_fusion_mk3"
 				type: "item"
 			}]
 			x: -17.0d
@@ -592,33 +558,22 @@
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest6187288019816316387.subtitle}"
 			tasks: [{
 				id: "42BE3DD0D38E8F02"
-				item: "ctnhcore:twisted_fusion_mkinfinity"
+				item: "ctnhmana:twisted_fusion_mkinfinity"
 				type: "item"
 			}]
 			x: -17.0d
 			y: 1.0d
 		}
 		{
-			id: "7A63464D71D0791E"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest8818969793757477150.subtitle}"
-			tasks: [{
-				id: "792D46A0721C7066"
-				item: "ctnhcore:magic_fuel_generator"
-				type: "item"
-			}]
-			x: -19.0d
-			y: -5.0d
-		}
-		{
 			id: "4C316712DF28094D"
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest5490282751492360525.subtitle}"
 			tasks: [{
 				id: "47E929326624B2A9"
-				item: "kubejs:magic_quantum_processor_mainframe"
+				item: "ctnhmana:mixin_will_processor_mainframe"
 				type: "item"
 			}]
 			x: -7.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			description: [

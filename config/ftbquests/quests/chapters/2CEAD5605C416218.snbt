@@ -1626,7 +1626,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "3E595757170AD63F"
-				item: "kubejs:heavy_machinery_casing"
+				item: "ctpp:heavy_machinery_casing"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest3400156361485896002.title}"

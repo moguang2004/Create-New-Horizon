@@ -1,0 +1,13 @@
+name = "AE2 Pattern Workstation"
+filename = "ae2pw-0.26.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb650f2a9582ead1d4b8c250bfa42ff0b76e318e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7623505
+project-id = 1462173
