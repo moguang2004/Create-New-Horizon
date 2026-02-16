@@ -11238,10 +11238,6 @@ file = "options.txt"
 hash = "1c2128230b09c78b99f1883f812fb4a7e31e040a6915ad8294a37e9714c236af"
 
 [[files]]
-file = "replay_pid9064.log"
-hash = "05b0da68aa4896a53a5c0444fd489c7c03012b2494e97e998acd0cf09bc5bc76"
-
-[[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
 hash = "1b0e56cbb6c6c613060aaf6c086e0bfac5b868a6a0f549179cab6aa968b9064b"
 
