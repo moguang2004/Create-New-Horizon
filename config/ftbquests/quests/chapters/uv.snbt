@@ -195,7 +195,7 @@
 				"7F81295FE18741A6"
 				"12BAF2B7FB2E3643"
 			]
-			description: ["{ftbquests.chapter.uv.quest5815213537516538274.description1}"]
+			description: ["        将编程电路设置为1以启动"]
 			id: "50B3C9E6ECB749A2"
 			shape: "gear"
 			size: 2.0d

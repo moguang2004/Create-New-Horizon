@@ -84,7 +84,7 @@
 		{
 			dependencies: [
 				"1E3636A4FFDDC155"
-				"42F6C23B961B60BD"
+				"18DDBABC0F526B04"
 			]
 			id: "1CECBF50A30F23B0"
 			rewards: [
@@ -772,24 +772,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["799C99EA04D07344"]
-			id: "42F6C23B961B60BD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2156FD48B719F862"
-				table_id: 971429564947815603L
-				type: "loot"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "7DC2605CF7ED41B8"
-				item: "gtceu:ev_mixer"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
 			id: "485E2652463B8274"
 			tasks: [
 				{
@@ -880,20 +862,6 @@
 			}]
 			x: -12.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["3B32397F6057B4DC"]
-			description: ["{ftbquests.chapter.ev.quest1709070281811403482.description1}"]
-			id: "17B7D65DC38BA2DA"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.ev.quest1709070281811403482.subtitle}"
-			tasks: [{
-				id: "058A766E13244487"
-				item: "gtceu:alloy_blast_smelter"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["799C99EA04D07344"]
@@ -1005,6 +973,18 @@
 			}]
 			x: 1.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["799C99EA04D07344"]
+			id: "18DDBABC0F526B04"
+			size: 2.0d
+			tasks: [{
+				id: "0B63B78FEE43B4BB"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
 		}
 	]
 	title: "&5EV时期"

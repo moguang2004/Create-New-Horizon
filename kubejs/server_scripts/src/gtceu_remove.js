@@ -218,6 +218,8 @@ ServerEvents.recipes(event => {
         'gtceu:assembler/assembly_control_casing',
         //烧硅岩粒
         'gtceu:electric_blast_furnace/naq_ingot',
+        //钨钢粉
+        'gtceu:mixer/tungstensteel'
     ])
 
     remove_recipes_output(event, [

@@ -32,14 +32,6 @@
 		}
 		{
 			height: 1.0d
-			image: "legendarysurvivaloverhaul:item/thermometer/thermometer_16"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -1.0d
-		}
-		{
-			height: 1.0d
 			image: "botania:item/corporea_spark_creative"
 			rotation: 0.0d
 			width: 1.0d
@@ -79,6 +71,14 @@
 			width: 1.0d
 			x: -3.5d
 			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.0d
 		}
 	]
 	order_index: 0
@@ -1042,6 +1042,18 @@
 			}]
 			x: -11.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			icon: "ae2:controller"
+			id: "39246CAE96BF6294"
+			tasks: [{
+				id: "7FE71CA4E8E3F65E"
+				title: " 应用能源2"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
 		}
 	]
 	title: "&6原始人，启动！"
