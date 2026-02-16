@@ -11050,11 +11050,6 @@ hash = "919028f76b424b3f60970e6a59faa35799adcf174960ce2cb337c79ba2faddb1"
 metafile = true
 
 [[files]]
-file = "mods/starcarefree-game.pw.toml"
-hash = "948ebee9bb1482ef6a4c47d448849bc5bee05e8e635399ce4488cd55127660f4"
-metafile = true
-
-[[files]]
 file = "mods/stitch.pw.toml"
 hash = "8de029e2904912a13163404ddfa2ad2e245504fd06b288251a052e83ef082f49"
 metafile = true
