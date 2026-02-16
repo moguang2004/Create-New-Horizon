@@ -886,7 +886,7 @@ hash = "8e0a0ffeaba90be5fe16c6a3d406a9a000275258f1011cca7c8efdbe95d1a077"
 
 [[files]]
 file = "config/createlazytick-common.toml"
-hash = "6a04bbdc147b3b80a500ca7667928212c7a527367fc820475265fc98d500b958"
+hash = "34d62f34bbb1e969fc5f6eae98e59e5e0ab293a0093a89d2926851ac76510cb4"
 
 [[files]]
 file = "config/ctnhchangelog-client.toml"
@@ -918,7 +918,7 @@ hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
 file = "config/fancymenu/assets/version.md"
-hash = "be0e3f2e5d5beb23e1b9a18f24adda2a10f18c61a214d3428d7a12c3c19a7682"
+hash = "8307b6e5ef8b9f42a4cb88595a2df2650772e4e85d80636825ee5dd6b4f8e561"
 
 [[files]]
 file = "config/fancymenu/config.txt"
@@ -1014,199 +1014,199 @@ hash = "e84ab1c1fb08def9ccba81542696eb828e767b2835cfacc6a713807dce27ede6"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "0581b10bb71ab5a66be273f4ebe60e77ba2a1a530d0364d554416c775d298bc2"
+hash = "5372e407878936b2bfedaaaa1f02c3ba98bae45285047c258a79bec1f25995b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/046724C96F783FC2.snbt"
-hash = "bdf60d705fda21ac288e60a7929235ed4f6394d2ef6313b2acbd6359c9c817d6"
+hash = "7ed66b9cdaaae5395ca4eb3bcc8ef1120e9e267a55eab7315893dc85445c6e60"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
-hash = "a87bd6e71434ca4948791cc779f29e1258ae0c4213d72c2d0ad37050d51f1018"
+hash = "e8aee54bae54b319d1792afa0f03958c5bc6f2aee43d8c081275066d6aa4997d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09F33579334F2607.snbt"
-hash = "10af4e3907273d09fd06253a81c0cabfde4ec4733a6c0a2d150223c4dbf81412"
+hash = "3beb37dc38b42621da9667f9a465fbd1e6c48f5bb3f5f43bd087041fa766390e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/0AD950C34ED565A4.snbt"
-hash = "5ae0146402365c3c13539df3f9765906fc61324d0724725afad7de9010a968c7"
+hash = "05e7f2b978d70b1b109009a6fe34f891101d6b5b687224f7bbf2326dcb98d230"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/142AC829C9062F15.snbt"
-hash = "1ba7a918e6a7fd60fdf8107e937e3a3bff9ee69338206892c816eb91ab470b4d"
+hash = "6996c66448b8b948b736cbac4da7488b515532a142763ec3e0ffffd0d2a015c7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15B8D9F4A2A19BFA.snbt"
-hash = "f2dac2bce69b7dab147043b781474a95125adb854a8a76bc4abab4b719d0b8ac"
+hash = "0ebb17733b431bb18b272e46fc14328f36f825afc9de11e46538fd885a449ded"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/177DD3C4E2D1113C.snbt"
-hash = "bdeb408793aca46cb09b7bfb2055000aa97e106bf702e5d63b314efc1e3aa23d"
+hash = "d44a18fbd040905357ef501d304f4cc48324040faceb0de5c4d622197de16b66"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1E8D7AF132D696EC.snbt"
-hash = "2d57c0c7d262797141c489c31ecab2ff963f174e4dea43117a619a35203b0494"
+hash = "1965fb52b74164d5e016862b0f7a9396d59be8507f8a6f47b089329d25db25f2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1FD18D8B41761626.snbt"
-hash = "be3b5ec49935bd72c7f2779c90fddd30718008597a5803480de1e414c3ecbd60"
+hash = "946aff330c16844adcd6364700ae5887983b117b66c2355c2d524e8bdfdb7724"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2C8B1E40224C9A0C.snbt"
-hash = "d10a128535570dfb4c0228f3a2b75f535b4ada13317574815a44d433d7dfeb28"
+hash = "7aa078629655a394da7253df9ec0e7384f1b1dac0a75c842ed628d555516d3ad"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2CEAD5605C416218.snbt"
-hash = "02d9bef54aeb70506db0713c43bc1b4584648ce91b88a722c2a1d8590ce8f49d"
+hash = "759cb28b1af88a54de0768666446a4024513cdce22fb8d2104a82fe7312ef834"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/387655B3E5BE4912.snbt"
-hash = "ed7242c0e3702746288de3abbfe7034519e2ed389ad9bd5b1bb8b1c6c99ae9ec"
+hash = "8b1f55e2e0dd79bcc3513821a86701fa850a5c49ce6854a4b57551b553381c3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/418C24A6E3A8BE97.snbt"
-hash = "49ddb588f1b3a6ef6d49892a2183bb6a7468e622d171e52752e150802f0686ef"
+hash = "665fbc48085d9f85c65fce7957d8412880b0f0285ded1096c8302ac1813add0f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "f2be85aa03ad6be26782b52e28d8dc173af726c1406f8853a5046a5e037b9687"
+hash = "b4f968cc546c18bc48eb0b1313131ff106f05f1ba5663c6703f55b9b9b813ba7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
-hash = "bc095d5bd5410718305256d297b51d08be2d433c45b8b35fd7470c75ea7e16ba"
+hash = "a3e0998370b1cd7be0c1544782764d3155034370423c40509c8757129287d2aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4A4420704BDBEA5D.snbt"
-hash = "a2e5ab42ac1edb6a9f4415bf3603e0cd40ba3fd63f961a3b3830af95fee6250e"
+hash = "3191f80f95bfe5441a2a353542947dd7da042782c0899bfbea52f0259a5fff2b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4EE5451097565A1A.snbt"
-hash = "a4d6089f3dbc2680549c3e3ed96265282769a42d154e77a991347992b8b028fd"
+hash = "05655c0895ef4eb7b086a6de13848d2722de187bbf446471d734df8476f31625"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/596370001FE6E99B.snbt"
-hash = "711c6467e3eca64cc934155bf09360ea9483a69ab12568d7a5ded4d237b46bb2"
+hash = "f1e64f13ba2467c12cb70da2f05cd8b9c083133d66d7df0d2f56535ad1d4352e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5DEE038949883E18.snbt"
-hash = "02823fbdd11d625b1ab5267291951625a75e53865bb9c7e3b9c5b4b5565831c3"
+hash = "295dd855d1bad4fcfffe5559e7887318b43c7181a8849f4e9a95ede271fbf5fd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/609746CF8BE6A11E.snbt"
-hash = "d785d41befad4eb62002228a57abeeb2afe7e4dd8673c6617694cf66fcf762f7"
+hash = "55f31248aca788106f0d00e8d409f4bebe55dc2c67edf76208e774d9a18c8e88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/62876F01654DC6E9.snbt"
-hash = "962d2384ae3439d7d4d44412e74787b938e35c95e4e91bc99da334769e0f9ac2"
+hash = "b5eb83fd1de6a3e044aef0cef934da386f2b497b94de3b0cdf5703829487f5ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
-hash = "3c3a712b4d461a4939be2d7815668c787ec6ed9936d81adc13e111a31af3c0bd"
+hash = "e37a613013b155992e42390bd2d142c9d395e83a17eef8507781fc580ec7e360"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
-hash = "6d27e0698648837798c327e0ad6581270a0d726994b1fede7c6d6606c0ae7589"
+hash = "fb10b3d1431c41db4eda105cec1690f47842c19774ab1e946657cb44d3dc6216"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/74D640CFCA75E891.snbt"
-hash = "88826062f1641c7bd2e0c90d34a7aca836f9babec7863536db482839c4cb7c86"
+hash = "b28dc45e37ae90800759a986292f2af71657ca525c89f772748d3ffad35f4408"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "9c4b844bef65a25301aad084a00558ee1e37f1aa2681add11e8ab27d5f0e52a7"
+hash = "311bd3cc87f796b22b01efdd2c2893afbaa6d957164705974603cae233e9c9f4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "8efeb7b3b15b42a8ded55eb671262f3ec338d105dda261e1e3996648a9f0a490"
+hash = "7f0f78f2b3f0c84b1948f0993a0f6cfd5a6112aea6c2338fe27dced66871d13b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "e7bf6cc2b6d18276fa78b473fc7702b858c5348b78185a84a9c02282701cd56f"
+hash = "ab31d24ac2b17e41ebef4dd2c0632758e35155834d336d24f9f68c644cc8c61e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
-hash = "48c027ea5b338334ece8c3b29cb17ac8d32b16fe26cf028a2f54b9a06a603887"
+hash = "2d6ef34ed2de3394fe3a645d60c521eef69ab8f8c93746269fb4eb4480b01bed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
-hash = "affccc130ba62c9d8de763a7322dd0a6d4cddc8f7f348a28bf729313eef1758e"
+hash = "abc1f0753c84f11470bbfe51b854b31daab1d66e6cf5ba449441638dd9e5e417"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "ab587e35a530d849b6db3f939edcb532ba95b45a11790be04f56713e5dea133a"
+hash = "66fc8e928c98c50f7e7682ac0f7e5f784da285a8472bcead0a663ac1b13521ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "9f85898d3041818cd62c9a3e776c3acf91bce4243b4859cff0a4b271b058eebc"
+hash = "69d34b4af7191e79fc947f654bc9a8880b2bfb23d4c35a56dfefb95596912aeb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/too_many_items.snbt"
-hash = "a4a6fbe81400af2a2a0658674b09bec115a60208ace220ff96e0699872a758cd"
+hash = "f961de12ef3098421ec31afdd459538cff49d25fc02c50ae1a38ffbce22bd193"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uhv.snbt"
-hash = "ca97129dbb1d2a800131a6ff9467607900d86131b9b300364b2d62ce8d3e9241"
+hash = "32831c138bfe54e997ba692a2985944bc9934b3dc418eff973360dc82698b89e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
-hash = "5c9fb826746b4051d01429b8c5f7885efc83750651b2761f4cf61992bad026b1"
+hash = "a6f5b3a453c27f5205b762e6f48c3ab2a88d5a18acf3c10d8fde2eb5d943e56e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
-hash = "f04816eade7ac04093064a647a6f93c7997a176f336c35c584da6d875992fede"
+hash = "981fe09bce30961b4fee47625ebdb702c38f508d1ba9062a1d05c9b4cff61c3c"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "c646419e66d068acef2dbf00dc74111f6eff20e7874b1bf7f67f12bdd28962e6"
+hash = "773671f652185b69ca8d2fb57c905915005c4307c496fe4ea26d396677a8bfa3"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/13066fcebcfe91cf.snbt"
-hash = "d40d2744339665c3a6978d3bfcad1c7b0f956220f58fdce917bb7ceab4525ea8"
+hash = "3f56af834a6f9722299a74de5e926d154e9675e07731dbf5b2b75729f6210a24"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/15e1a7c9be089db2.snbt"
-hash = "ed5bbf4d38ef1d372f30a7ddeb2fb5ba1c4d858d9b0baf9ddb313d7fb2e79fa7"
+hash = "9605808fadb1eb7aa275b1bbcbf2f6f9a24c0ac4a09493e2e0cfd9c6a3140b30"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ae.snbt"
-hash = "c20589820f483f8d0fe3ca56b89db2ebc804de80acefd68f8550682a003c9433"
+hash = "ebcc9046701569d5968ca05e6588b70e4a919d1048da160511533b874c986f78"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ct.snbt"
-hash = "291bfd6413f03dc7aefa291969dd19ca9476d4957a0ed6284e68ad8f96ce2ba4"
+hash = "fb8c4bb09441bd3e634520f0c8ecbec776a418766e0783c6e6c4e56becd6ddfd"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/cts2.snbt"
-hash = "cbe01b519acd72fc6bdd46522b90b4183a9ef014ea002d26a4519d107632adfa"
+hash = "61e4936987a5c28559ac8c16b526b5ef48af5b062bc8908ae69257f22ef888a4"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/cts3.snbt"
-hash = "1c978522781c25c5ba7a0df3064215107241975087f5e7ee9404327884d164d1"
+hash = "9ac94868e1fbdff233fa31c439576b7257e7bb7359a8246b5c8d24c9934846b0"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ev.snbt"
-hash = "abf788aa598f37ccd4f218dac7e6e1990ca7dbf3b494d4c2160df7213e263f2b"
+hash = "0e45853614843ab65bd9575e093e006d79924d48f29242bac4249fea5d9c2a5f"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/iv.snbt"
-hash = "5487f8005839ea7d36a766c53bca11e4e4c0027d997591ab8ed59973a1bcc1fc"
+hash = "9ddcd3fa6d195e8b896e243e6a3c77082dc6c5fd22faf9b48e37bf64fbaa5596"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/luv.snbt"
-hash = "399e6794acf3231754d5fc085fd839aca6961db8ba5b5646ed23c2a9dab6009e"
+hash = "0e219e3ea4363cf4c799365834542a023744087f73a991d01606578fb834c88a"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/lv.snbt"
-hash = "48e901faeaa0e59684e72495a6cabfa3ceef93eb7b6430f9988fe77827e6d7f5"
+hash = "65112655d81c155cc3e7c80bb1bb6a910c0066ff2b39fdd78c7489ae118ae611"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/mv.snbt"
-hash = "87b803aae7b550b02005d7c62eb07a62f793d7a7d41b5f6ada77561a548ab6a2"
+hash = "b8eeb3fb006a8096247535babe71cca1966b4745a938d5c964f60e99cf036002"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/mv_3.snbt"
-hash = "78613a05c6e9501d5770732d4a7f92399a6c9e2ef995ff54b11277295b1d5bcd"
+hash = "2ec6170d8b38b0c7a30559d30ca3ba39f17aa8c1ff5998030aaa739585ac0975"
 
 [[files]]
 file = "config/gtceu.yaml"
@@ -1230,7 +1230,7 @@ hash = "fd070ba7cc388b5e06adec34e626592348bdd2b2b3c6fe047af85e56aa6e1bad"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "37f290e1fc6b4d5a310ca3d4034144223350252db87427e9e046f289f3bef3d4"
+hash = "db1a46802bbbe9b0723308c1413ecee26b816d6e200de5c8b00fefc3812a0f17"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -1327,6 +1327,10 @@ hash = "779fac3a609f2fcd96a1ac668b3769c4bb12a597ed0b2b66f9d9cc0455c3af3d"
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
+
+[[files]]
+file = "hs_err_pid9064.log"
+hash = "fa93e7c73229a94ae9b763a4e2b4341e6baf3684758ecaf1d8db1b22beeeaa70"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -3014,7 +3018,7 @@ hash = "4797425d17e1440cef9573a3a1200ed78196660a097efc5fc80d321872c8f413"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "959060a249df47b0901cb575a456aa4ed21b0b726bb1220228b063fac34435cb"
+hash = "1271e048b2510259f9cdf404055e5687dfec6456d06d674403d8341a24ac96cc"
 
 [[files]]
 file = "kubejs/assets/kubejs/ponder/assembly_line.nbt"
@@ -3023,10 +3027,6 @@ hash = "fb6fa39222619f3683fea816a0c2eea4d342ad316a8fe8dfd634a550bcfb8397"
 [[files]]
 file = "kubejs/assets/kubejs/ponder/blaze.nbt"
 hash = "c11535f5e6962cf6abe7f0fe327cf84ff4b090b50a160ca6cf248dcbd3e11ab0"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/carbon_brushes.nbt"
-hash = "45d8bf56bfa7256804ededcfe0c060e2c93c42f79364b4271639d9042faa211c"
 
 [[files]]
 file = "kubejs/assets/kubejs/ponder/coke_oven.nbt"
@@ -3747,1974 +3747,6 @@ hash = "4833f9f8793dcf1967893ed7d96e26bd390ea919c10cb7fd3b487abaff98f5c0"
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/zh_cn.json"
 hash = "ab0f20ec12f4dfdee35d0a22bdf0edc306f2e3555a2a5d27a8a98dc465b5b690"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_broken_gtceu_snow_steel.png"
-hash = "2470a132892e695c883a201bbe7bac4c59b5bf9ada939bceb4621e657fc590dc"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_broken_tconstruct_copper.png"
-hash = "0987ba82486bba0f00bb6298104edb1fc8cb69bca8f2ec573290e906c3d3a663"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_broken_tconstruct_pewter.png"
-hash = "dcb8330fedaadc4c3fd47f4170ef48dd0993e4681c636864a3c07cb90b93c26b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_broken_tconstruct_queens_slime.png"
-hash = "526dbed3a154dbcb6be901504e301a8ac48a34a5f620739be2d5590e74a537f1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_broken_tconstruct_scorched_stone.png"
-hash = "5864fe5d78687c381a28c76d67cc9247c2dab290b73af8a9af4dbd7c4b53d023"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_broken_tconstruct_silver.png"
-hash = "fdfbd3521e2d9f272bbbecd2fd319839ac9f32e69ed772d17ac63385f5e71ba8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_broken_tconstruct_twisting_vine.png"
-hash = "597b9ff2d8bac3e2a881492bfd6b61e0ff98105a2e83b73bf5e5fdee543b98b7"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_gtceu_snow_steel.png"
-hash = "9b1946030b07041a89120ed170cdfe6df778b6e72d9ad7c1a54fb4eb4763beb7"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_tconstruct_copper.png"
-hash = "5976ad2f05de470ffca5b312ade85909b4d3b5129cf0c2ad138643156799b2c6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_tconstruct_pewter.png"
-hash = "9b2e6666c976711d6ee5c850588c55ba6480ee27c4295065c33acd6b9fe71f30"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_tconstruct_queens_slime.png"
-hash = "ed1387b557e7b80eb8ddddfffb4bf3f65fafdcd575096b318cd2c124f0447829"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_tconstruct_scorched_stone.png"
-hash = "3e7775331706ba3a040c3955b1a4ab8ed87c1528b703f8f1e4cc8e7bc85dd9cd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_tconstruct_silver.png"
-hash = "a186467a86e45f57b85a997ac1633a98322ab9d80c267eed510531f8073effbb"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/maille_tconstruct_twisting_vine.png"
-hash = "82a5f419dbeaa65b839bac2b5f22aca33abb539d9954f316050f079ccff2a4c4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_broken_gtceu_snow_steel.png"
-hash = "703e47358779d01d9320c83b302bc29ee3c72792be20c641c7716ccdcb999202"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_broken_tconstruct_copper.png"
-hash = "eb271ecaa11da3243d6c11880044435551c83f90479ad4b588fd05341a0e1382"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_broken_tconstruct_pewter.png"
-hash = "2795ee7ea06ede743c0743bf769514818eb9160e6bdf7feff77cebfd394db2f1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_broken_tconstruct_queens_slime.png"
-hash = "b01a5e1f912279d718d9a8e29da019737af1de5efba78fcf0b7b8f67e1766410"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_broken_tconstruct_scorched_stone.png"
-hash = "e02a3803efcd8a20eb1d75c0f500fdad3cd43048494bc5d1bcf9e5480bfd4d6b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_broken_tconstruct_silver.png"
-hash = "0972f619593ee72bcef30c6ab3bf452009954121c91811cada3c16532ef274f4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_gtceu_snow_steel.png"
-hash = "7efa82af19476e32a9fb1eda43f7eb592aacd681c4ea34211e484f03b8139d75"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_tconstruct_copper.png"
-hash = "3b0fc4de8f2fbeebccded7dd256df20da45d3f1ae14df1c79623555a7f39df1d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_tconstruct_pewter.png"
-hash = "3c1f013036f20ef46ee80cc5ffd47c4c3f301e688fe427840ec3c62092659c91"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_tconstruct_queens_slime.png"
-hash = "59aa901d4071c072d269675b23a5575ed84c50ab08953a9451cf963e8e0a1de1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_tconstruct_scorched_stone.png"
-hash = "90e845d4f7249dc82b760cf8821143e78dbf3a718b02791d12c6908e81cbace6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/boots/plating_tconstruct_silver.png"
-hash = "4ff001cf4ad1d93b6c1dfaefa80369984a2224fdbb538287e0e4b8128c3a65cf"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_broken_gtceu_snow_steel.png"
-hash = "1508cc250cacdda81240c2a546211f42a1278dba073ee45fb9673fe5eac600d9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_broken_tconstruct_copper.png"
-hash = "53794514ffdb9ebf0a7bf16779d1408932be9b4e545725b6393288da41f54563"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_broken_tconstruct_pewter.png"
-hash = "3d990f43efdc1a956c4dd0a509382986add748ba749ba61095104ae2d647d5f9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_broken_tconstruct_queens_slime.png"
-hash = "f8919739a50ed2004f7b4aa0d4653059dce962270ff0a16a8a41f62abd2d0fed"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_broken_tconstruct_scorched_stone.png"
-hash = "3168401d7c781de89e7a85b87331bc52805e068e29f0f2a79c6667e58aa84467"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_broken_tconstruct_silver.png"
-hash = "0e230f4dc72029716056d5688c74812f07b96a03a80e1c4ba8ce1949a8079111"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_broken_tconstruct_twisting_vine.png"
-hash = "4aa2e963f8f7e172b738d9069c954045508c80f0fc05c69f5342c2f18b2e8826"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_gtceu_snow_steel.png"
-hash = "98a0d3a78cd57ed9d0f461d029080b15688ce76f2ccb51ea87c181e72cfe6a16"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_tconstruct_copper.png"
-hash = "40451364e956ce5c8a7f854f537c8e00fbf8f63440d72a374da2da72f87d72fc"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_tconstruct_pewter.png"
-hash = "cb29007dac4a4b474a5e7e2f9d24057dbaae91cbbeb83f7bf09eb1dcb84eccb4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_tconstruct_queens_slime.png"
-hash = "a6feb5a5047202b2f4a14dd7f569a0843217796753b1757627004d754a48311f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_tconstruct_scorched_stone.png"
-hash = "c7845766dc4036d0494275294be6f58db267f98a1f980f01f38a29e7c46d271d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_tconstruct_silver.png"
-hash = "79f70ab3ca66c38679ab5311c4d8885b9e8c598a555ff4e35fe12149179991d8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/maille_tconstruct_twisting_vine.png"
-hash = "9bf9e8c2715006f1dde9672eab533cccae9c9d6a62851111470d551bbd7a06b8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_broken_gtceu_snow_steel.png"
-hash = "f7827bc5b25f46757e4959b4a69c90ac8b2297c54b890c825208654fed39867a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_broken_tconstruct_copper.png"
-hash = "5d3bfc00f08b40fc5e3345127dde845d59657d1f243163e8898afd494b6c856a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_broken_tconstruct_pewter.png"
-hash = "01ef76e7615a848baf9cf27804d03b2771e3d6a8df31283f62f45e00a3bcbc85"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_broken_tconstruct_queens_slime.png"
-hash = "0b31fbd1b91a9f8c1659dd39e102159052cab54f60758f852e881aef601d230f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_broken_tconstruct_scorched_stone.png"
-hash = "00026b84fe6820703935ab63489baacdebf003affe962a8dfbfcdbb9c233828e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_broken_tconstruct_silver.png"
-hash = "1dd89ed01dc2b4ee77fc3c4a06f4a5de37a35da4177b5b24c82dad25bb3f02c5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_gtceu_snow_steel.png"
-hash = "e376b919bd1353000c3932b8cc266f6fbed09f4b96f20b30e095f6564fdbe6a8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_tconstruct_copper.png"
-hash = "315d2238ddf178138d4f93d4e5615e8504cc49edd0c007746ad6a42282f601ec"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_tconstruct_pewter.png"
-hash = "0e65c3947a3fac63f86bc2b4120be30c4a3c715914fe861fbfa6f7b360200dc6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_tconstruct_queens_slime.png"
-hash = "935a7ca3e67fc2ca9f22dee0862a3c352643071eaddbf5fcb03ab4a2e4074a0a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_tconstruct_scorched_stone.png"
-hash = "7b16d11db9747ba733b7cd5cab2f533edb3aa7935e58bcca867740b14aa3fb85"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/chestplate/plating_tconstruct_silver.png"
-hash = "8d763c787b2536cb00c366517fc9c640aba83d81f2605e9f6678e61ae2ad061c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_broken_gtceu_snow_steel.png"
-hash = "dfe5fca3143b8789aca97fae5cbd9062c15257cebb5cc2e303928a5a3e2955df"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_broken_tconstruct_copper.png"
-hash = "919d97c2bd80aa62763e4fef0a21d52dcda912bd0263d2c07339e6f02612f93e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_broken_tconstruct_pewter.png"
-hash = "2c0e70fdd69ea3273ce7290ca5f20fcd5afe387ff08ea5cf43d4abaf10bf3d9c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_broken_tconstruct_queens_slime.png"
-hash = "bc47c4840a969331e37068fecf54f1ac458fe98739a54cd602843b6588bbdb77"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_broken_tconstruct_scorched_stone.png"
-hash = "764a933f0de44c0ab8c64975c1ec3e5525ef3eefac2ecf58f09be1a56f2d52a3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_broken_tconstruct_silver.png"
-hash = "868fcde4f8c10c3c6250cceb5cc96896711aeb5ab09795c3defefad6cb7d08d3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_broken_tconstruct_twisting_vine.png"
-hash = "2eb5de04398d590d7ea4105a0acd60ec2238991205fc0a786ef1583897dd71d5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_gtceu_snow_steel.png"
-hash = "c2d84e4d070a425e58e542c9701c7893fd1270a1003102cae55643159f98ae20"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_tconstruct_copper.png"
-hash = "4173f1c18dfa40767745c93f8f514191c6eed2a4ce940b342240ab1c0badced6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_tconstruct_pewter.png"
-hash = "a3d76db10aa7214216c71feaf39cd2bf79d2d50c1c584bc3e1d45702191cbfa4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_tconstruct_queens_slime.png"
-hash = "9b0b2a0e69c6deb4afdbc161dbb29b82a2c7a7381c2d7559cb7a1e1137b8e2fe"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_tconstruct_scorched_stone.png"
-hash = "c9b1764379e2f26bec155231f51cd372458a08cb864401d6d163da0bb77275fe"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_tconstruct_silver.png"
-hash = "a5c966cd8835e91781d92d0363fefd6b7746f33b1747ab37d8f8aaea56761992"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/maille_tconstruct_twisting_vine.png"
-hash = "5c3e4d61caf809297379f9cb4db8ccd676681a6419992cd1d4440b98fc0e13d8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_broken_gtceu_snow_steel.png"
-hash = "d9bb07b905736f39eb1fcb7f00b52e1136100404c565369fce01149c6fb6f748"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_broken_tconstruct_copper.png"
-hash = "7d82aece4f0ba5e6015f18a403b91ec1562dbfeaf12fb695c322aa736cd24e0a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_broken_tconstruct_pewter.png"
-hash = "a7320069a7433beaf2ab0962bde31608dfc8dfd34dabf1ab7762b539125c4c42"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_broken_tconstruct_queens_slime.png"
-hash = "2c863fd3c800888637da88a7b2ec2ac22b1e1dd88184edfe0a2ca4371dfda328"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_broken_tconstruct_scorched_stone.png"
-hash = "0d717c8aadc7fea048decbcb3a83a81c6c3769e7a028c3465df67486523980e9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_broken_tconstruct_silver.png"
-hash = "3d3efd0e33bfb8339b36ba50dd52b9a1692301779e806dbabce659e758bec882"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_gtceu_snow_steel.png"
-hash = "6a31bd30fa52b97eccfc35652d921c5652bb4c81040005b36ce6506685d47db4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_tconstruct_copper.png"
-hash = "ad12d7c98a9684ec002b1f84c8d6d495e92dcfd0a17d7c358e1539d967a9d39a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_tconstruct_pewter.png"
-hash = "5a45302b6be38f58efc8da8f67fd1b39a9d0d5eb971e0e82eea88579a6535de3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_tconstruct_queens_slime.png"
-hash = "8b3c360dc38c02dafd645c7011b5d684fc51dea985199b3d7689d8774c79d34b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_tconstruct_scorched_stone.png"
-hash = "b841aeca8a76df446e85e5ba4e91deba10c358e7e2587c3c56bea2042b544900"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/helmet/plating_tconstruct_silver.png"
-hash = "10ccfae4e59c656d63c9423e1cc45485a258b18c321acafc69242be4d3d099a1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_broken_gtceu_snow_steel.png"
-hash = "aa3592c1f187e8ed52a1dd4bde9bf1be15919274794849d13b2aa74ce2ce520a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_broken_tconstruct_copper.png"
-hash = "2f50710459b1b55952f017f02c76173176438aa8bdee8919d63948f44d671f90"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_broken_tconstruct_pewter.png"
-hash = "41a269dfce919cf43d8ae507c7814c881f7e2dcf0ffbbee53e7abc59ce63b8c7"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_broken_tconstruct_queens_slime.png"
-hash = "d92e20991f0d7bb58c76ac909c8ff2c4770b14c3079b835ecf844aca26af6e3d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_broken_tconstruct_scorched_stone.png"
-hash = "7c440c5b81d1052655dacb5f99731cc4a087478a320d6e0493a9d2270a5d3727"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_broken_tconstruct_silver.png"
-hash = "d28aabff4834009ef136cb2d81ab5d805c5f266aeb91bdd359dc5d3fa70db4c0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_broken_tconstruct_twisting_vine.png"
-hash = "dfa19d0b7bd085da5bcab5788b73467239ee35cdd4d38f80d286b0c0964e0b1b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_gtceu_snow_steel.png"
-hash = "59557759608719a5b75f94b3aea2a007f6fe2ce32839157c2d4be7dd0d543cb9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_tconstruct_copper.png"
-hash = "c257b4cd4e5cfecb6975d4c39e7ced34eb229b607ba983e1013905f2d5e70cfd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_tconstruct_pewter.png"
-hash = "77c0c88e336d798952a5bf780fd4140c639258fef7288aa8eca43a75f13d92c3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_tconstruct_queens_slime.png"
-hash = "74ec251b444df8767696d746ae71dba03cc3d45678a8acbb93f9e9e44beabf3b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_tconstruct_scorched_stone.png"
-hash = "7c90aee4f53afbd76f9d58f82e460ca99bc8515c90acc01f42276190e461f49e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_tconstruct_silver.png"
-hash = "a5015853d471c33ee2bec574116882a3780289436f8b74e27ae4e986bc126c2e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/maille_tconstruct_twisting_vine.png"
-hash = "db1b27259af91f5a7895354c7d91c12979f9fc182db1f29b6b08bb79bca4d8b3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_broken_gtceu_snow_steel.png"
-hash = "813d3cf6fd0b712074c279dbc7061aeadab880f10dde15ca8bab5ad94cd8b45b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_broken_tconstruct_copper.png"
-hash = "64453d7a57dfc31bff562e4915e9299b25ea1108c47bda221ad46bcde2d4cfee"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_broken_tconstruct_pewter.png"
-hash = "a46b1cf68073d1333fd730d5f15f08c7a64e38a7f59a37757ebf3c770889f002"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_broken_tconstruct_queens_slime.png"
-hash = "e43febb7dc638c08d82eecb3f99e97031438e430452604e9dfc6e65522727b50"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_broken_tconstruct_scorched_stone.png"
-hash = "c427d81326ad5c025c2a97f559f8dc3b6269a28d148bbdd322ab408253e0c71c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_broken_tconstruct_silver.png"
-hash = "629e5ab433d1898ca076dcd60b275f62f46d0ace2ed8a6d5421860aeb75fb5e7"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_gtceu_snow_steel.png"
-hash = "42349803000577dffdcb2c0b2309a8a21ccb7962a8182f2229de4d455f02e279"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_tconstruct_copper.png"
-hash = "ab9d9279e22cd1e7ef77fd16188066ecddf0d0bd99f9795a1c41138c1e2a5297"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_tconstruct_pewter.png"
-hash = "1d4b17473c412b1e566bba277c6aeedc25cd8c7d603642d69e661b61420f4bc4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_tconstruct_queens_slime.png"
-hash = "aaec384be75eb400e25a75d53c7bbd116538ec8b140ff73d9dcc2ee8afa4b903"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_tconstruct_scorched_stone.png"
-hash = "03d62c1c20a394cd39b60c0d66bba44157e2a98c9535aff3fe146f23d384e319"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/armor/embedded/leggings/plating_tconstruct_silver.png"
-hash = "496744db977647c3b78ea2758a242eea4633f273a062073972662577b3a7f765"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_1_gtceu_snow_steel.png"
-hash = "0a02e616671032b9af500bd425f0b015b31e491c9175e54ad2f59683c4229308"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_1_tconstruct_copper.png"
-hash = "77e7bc2f58e8e4d6acd06b7f4c373b6ba70191dba61942d88a1ac770d17eb7c6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_1_tconstruct_pewter.png"
-hash = "adf8e036718e895dd4183a7a04fd0cd00254ad3055b118e797ddcd7c1b7bc7cc"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_1_tconstruct_queens_slime.png"
-hash = "375c7686d03ed23dcb3d32385c92492dcd1f691bfc38c3c5f4b7a2743f868558"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_1_tconstruct_scorched_stone.png"
-hash = "e1b790a6932bafe703c10a866e5c3007db85ade19c484451639cbf4c52eb3c07"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_1_tconstruct_silver.png"
-hash = "d75f0aff1d2c129f70bbc99a6fc9be41247f9ab1d34ccfeeddc798b5fc92fa4e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_2_gtceu_snow_steel.png"
-hash = "9d4cb98efd16cd350628570820d96f92c93f469ae147e7f3b7055ee41737288a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_2_tconstruct_copper.png"
-hash = "293789cb7e61cdd4aa7967ed9aee88412d58a89fef076d3ca42441b948d6f98c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_2_tconstruct_pewter.png"
-hash = "64e8a10b7efaac4d10088fe7cdf32a2fe4ded1bf1e33fceebfb30bedcf44240b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_2_tconstruct_queens_slime.png"
-hash = "c51f106e002eb9722afd50aff06d3dffab4b3097e495c8514f406174ee84525c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_2_tconstruct_scorched_stone.png"
-hash = "0c22abea609e17746778a87560a14f4491c6d28d6f378b62621b78b186bebc9d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/handle_2_tconstruct_silver.png"
-hash = "3be752d7d67529670668c632e58d229ebffeca9ab203034790fb4e8be300a181"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_broken_gtceu_snow_steel.png"
-hash = "96bb3cd71a33764d674a23c2240e216b11f7db274c6c35c9179ff61c3cfbafd6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_broken_tconstruct_copper.png"
-hash = "a5d273ca145bae5f3636a9302b7fa6052f9095d273ba462c6eaeb4e312e22890"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_broken_tconstruct_pewter.png"
-hash = "94a294168f07859a495a3639b66abd7a2f43f37fd1e5637ada4598be5fe8ddc0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_broken_tconstruct_queens_slime.png"
-hash = "a3a9ee6a0ad7891f110c7997ee68af70210fdbd2578d7dd6da7db596942dd5ea"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_broken_tconstruct_scorched_stone.png"
-hash = "8ce792f9f6ae23c293dd77f63975091b4a3887e9827198c7552308e5dcdebd63"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_broken_tconstruct_silver.png"
-hash = "dd83987739aa46fc0da64783bd51991724db723d34ea1ac6ff7012465fd97d13"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_gtceu_snow_steel.png"
-hash = "a380ac7cc13b7b0c303e0a0ab4a4f45bb599bab09c2e2397094cc9760b852f6d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_tconstruct_copper.png"
-hash = "9aa64af539e20ad8a895166742f7aa6bf03b9387632c3256931e404d0aeed4d1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_tconstruct_pewter.png"
-hash = "67d02670c37da46229c192b42f1d0e1d22912003522cde5a9a82e9307536ad00"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_tconstruct_queens_slime.png"
-hash = "1d11dd977a3399c49f5c0ed782a5021540748cdf9ed0b6b35251095d3b852452"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_tconstruct_scorched_stone.png"
-hash = "10d353780d04b4ceb5697acf20e3e3f2c40212003f75f12ab7c2a72de2db8390"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/battle_flag/head_tconstruct_silver.png"
-hash = "1ec2f3bd42743c0bb11213d23a09abc65fd681df46feb248a4776c7f561daa7d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/blade_gtceu_snow_steel.png"
-hash = "f5b903ee720e25377c249c340639ac7c18f533c69ee427c00fbf19ff2477a056"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/blade_tconstruct_copper.png"
-hash = "4a3d076b3900208502fdcaf5b7ac8cf99f85aa8aa2edf7c96e631a20d8c20236"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/blade_tconstruct_pewter.png"
-hash = "dbdc8636b513b02d778cd12aa0f78c187922c730cc6ad7adc3a4d72d90e99e19"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/blade_tconstruct_queens_slime.png"
-hash = "785cc773f06c1551f8355627d43a6da99c5674db1a178b45562ade21a0749c45"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/blade_tconstruct_scorched_stone.png"
-hash = "10855b770cb8f14188beeb9215d76449731b24217031c39faf55bfbdfc373caf"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/blade_tconstruct_silver.png"
-hash = "dcc32d897aec9c36d1400881c44a105870bc15786f22309ffd03d8aa5510d7ca"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/broken_blade_gtceu_snow_steel.png"
-hash = "1d9cee7786ea625d72e38841ebf02f7cd4b67e5fe22419bb307e4f97789eccb1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/broken_blade_tconstruct_copper.png"
-hash = "d37a52a4cb6819846561a51b077a88802c0e6fda4a7433c69f5d52c5b3b5b346"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/broken_blade_tconstruct_pewter.png"
-hash = "85004d5ebc7e653893aaf3e37d51f86fdb1ff0eee9388a7a096f9fc87860e87e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/broken_blade_tconstruct_queens_slime.png"
-hash = "9bb84597c6b166ddc16bdb603c5ec591dcc7d4de749082f2f1dfcb4e9fae2960"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/broken_blade_tconstruct_scorched_stone.png"
-hash = "1915d00d79332d31e026d5aed7c0da4968754f4e804555cb6c91ad1519cd6f74"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/broken_blade_tconstruct_silver.png"
-hash = "ab1aaaa2443022717c018e8465a07a6ec61f564ff2d9c2a4365692d07ded8265"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/handle_gtceu_snow_steel.png"
-hash = "0cf733d636f14fbcb97b9ef91280413776dde525495f9ea46e2a68cd8c5a3c0d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/handle_tconstruct_copper.png"
-hash = "c8548df7385595a922e00605f95519c045fcd6d570b20bda0c93dbdde616d109"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/handle_tconstruct_pewter.png"
-hash = "f10d92c8142852d4a3789fe405d83876dd08d0d1cdd317a9a427170ffdb14b9e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/handle_tconstruct_queens_slime.png"
-hash = "96f7b99557761452b6929ef7cc119c15fcb7decdc145022e8029646d0985ae29"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/handle_tconstruct_scorched_stone.png"
-hash = "6e823ae275845bf7b25f592b42506aa7aed068fbc1e50601a26dad78ee2f0619"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/handle_tconstruct_silver.png"
-hash = "de5db2531c2d084c779800d6279f78283766f26179f8a17ffd0852f7fd4f8f91"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/plate_gtceu_snow_steel.png"
-hash = "8de0fb5857335fdf819072c46864a220e567cbfc88fa12ff6c607343f6c49380"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/plate_tconstruct_copper.png"
-hash = "b09b6179f49e5df89cd373634c7d50b4b2c200860d3b761cb226bdbf242536fb"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/plate_tconstruct_pewter.png"
-hash = "4ca7b44c5f1ec92745c768dd6a5ac2c518d125c06e13ae641f2c86de380c481f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/plate_tconstruct_queens_slime.png"
-hash = "b737d90546116cb9d4ee5c593c00979c1a1ec92dead432d4c3bea119f73421b0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/plate_tconstruct_scorched_stone.png"
-hash = "408aef83537045d44c552119208b85964d475879233cb69be3a404b2edd70fd4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/blade_convergence/plate_tconstruct_silver.png"
-hash = "185b278ecb0fb92fd890af5215f8577dc02e133d55c96b72818678f2fc6c1e88"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/binding_gtceu_snow_steel.png"
-hash = "5240b8cb62aff3a3e4530a7b5df5f61525c1ed1394af1cafed74053a7d374d82"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/binding_tconstruct_copper.png"
-hash = "eee77b5f932290112711a55123ebd00cee430913ba870ed2aa0e2a0eb5d67179"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/binding_tconstruct_pewter.png"
-hash = "9931afa5f0bb74d9b8beb3e94ea5a56675ea52db6cabeb9f7ff2bf2a5ad43eff"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/binding_tconstruct_queens_slime.png"
-hash = "b9822727ffc1720dc2d993b7aec68e55c223a8974764eb4e68e71817f62f5f15"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/binding_tconstruct_scorched_stone.png"
-hash = "d2baeb9264b0b199a43cd2637ff4ecf460126b1d28494d29fbd37f2c3a3fdc43"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/binding_tconstruct_silver.png"
-hash = "5f8e8a06f57db61fed42dbd0ae363ffd5ed1bbc5e5694c93508df384a90e57c5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/binding_tconstruct_twisting_vine.png"
-hash = "e4c20c116f0aff30d068cca0979e0366420ad36f5e038355320d6b78df53629c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/handle_gtceu_snow_steel.png"
-hash = "86eb3e2fba1e57a21eede9550d1e8db64304a672cc5d6eef932005e1238d78c0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/handle_tconstruct_copper.png"
-hash = "2c97e4db90dd8175f79b04649ff4768f4e5b1b3647400ea5b76d4213a0701e76"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/handle_tconstruct_pewter.png"
-hash = "5de02c2f4528348b0982201dd5c07996effbce9aa9105f46e09719eb77efb88e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/handle_tconstruct_queens_slime.png"
-hash = "dda71cd963e41dfae1979da2d4044e7df0c69914d8870d8037c1bf6938dbb7ab"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/handle_tconstruct_scorched_stone.png"
-hash = "9f1b89e74f5e1b05d9d6e61c0b917ed80a9930007d6513126d3e925f360debc2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/handle_tconstruct_silver.png"
-hash = "be0bffe63e1c64be6d3bcc1c19d005ece42ea9bc3bda76e4168483f7739cfdd4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_broken_gtceu_snow_steel.png"
-hash = "676b0e135eed3ba28a3001f2bb9cf4dd2e33fe8b650c4ef251247b775d40fd1e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_broken_tconstruct_copper.png"
-hash = "14930cba61b5b610f3b3e2b81501f055e7d1beb165f7ba75de305bd4c143754d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_broken_tconstruct_pewter.png"
-hash = "e0fc8258026b0a1053a4fdd72cf9a434caaaa356e9e9af5fd5bcd001495e0fe2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_broken_tconstruct_queens_slime.png"
-hash = "d133eedb865a83f426c1c2209ab28fccc42311540bd9814e05f8f03210b428e9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_broken_tconstruct_scorched_stone.png"
-hash = "6240e21558136adaf91fadc7d65b6612c79d6168a4695c1bd7a7f240b1583f32"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_broken_tconstruct_silver.png"
-hash = "7b117254c86598ccaf250dbf788808f54133b52f93a256269f28ec946c544755"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_gtceu_snow_steel.png"
-hash = "28940edde3623fa4053b7438615012a3bee43ae17df58ff84f3ea447619f8553"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_tconstruct_copper.png"
-hash = "3949235abb03ca84261c5f6f664cb3b4fe883092347a7690ac30f6c922aca751"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_tconstruct_pewter.png"
-hash = "5224b94c972cd30a3bb412cd3cf9bcfa177abcc0ecba8cf89cc574c7c392e51d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_tconstruct_queens_slime.png"
-hash = "082a68d18ec3527cdf78fa7111253b084324089ece6a1b57dee6ba7f955d8506"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_tconstruct_scorched_stone.png"
-hash = "43622afc4cba3c33017824665598de6e0eaddd349331eb8fe4d07fe110755cf9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/first_fractal/head_tconstruct_silver.png"
-hash = "74bfdf5a08468c215be6705da497ee65ade52cf764a8cdbd8d95365344fb7363"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_broken_gtceu_snow_steel.png"
-hash = "0465a4127feedfa4eabb133d5519be84392d866a35e3b0d624e3e5f6d2ac0203"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_broken_tconstruct_copper.png"
-hash = "e38cd050a369b48d23cff9e8a03b55e7c8fc6b6cafe52246d44ae4971441bac2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_broken_tconstruct_pewter.png"
-hash = "5e440da921fe67b38543cf47ff05c89a346187e59940a87f20533662e5b4fb18"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_broken_tconstruct_queens_slime.png"
-hash = "cea2c815ca61d0f935839ac276e50c9eb13e2a4be24a64c3152e7132cbae9f60"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_broken_tconstruct_scorched_stone.png"
-hash = "bac6c9d484bd871d2586a77edf6ef99960c52d3d5c5fda6c8b4fff893a72dfe4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_broken_tconstruct_silver.png"
-hash = "d6cfb51cdade1d6b205ed992e17cbc01ff951da021a09961874466e48d54d654"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_gtceu_snow_steel.png"
-hash = "d1b0ed132b9014fb0d4492c28866b8fff4cb4347a50fe715ec176421e6fe88ad"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_tconstruct_copper.png"
-hash = "f680c8e1a3147c3c6b609bf2fa01eee25b28612d37ac040fef6339aad51ec4b0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_tconstruct_pewter.png"
-hash = "a98dbb62a5ac4655ba0a1f1e7a934f59681718bbe5008f6d9f417bf14cb41128"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_tconstruct_queens_slime.png"
-hash = "e106877304ead4a92ad09135edafbbe883e7130592dfa1027cd191fe84d13124"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_tconstruct_scorched_stone.png"
-hash = "31300c88edb15994b79501e278148b6fc6dff30410afc7d14b95371a2bc8c371"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/blade_tconstruct_silver.png"
-hash = "92314fe3238caa282b09e6e265a689a932bdb0905c05b9b16458e2ad5cc08cf1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/bowstring_tconstruct_twisting_vine.png"
-hash = "e0b1ed89f90a6547f7e09f3486cf27f09d3d00c8e4c93a36f7a9f8a1ea2e7c4f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/handle_gtceu_snow_steel.png"
-hash = "28c101f720a73af856aa5217b5e44fb09457459e3b48e3d3f8f5fee2c222738c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/handle_tconstruct_copper.png"
-hash = "d2f11be33d8963b1adf9f52c63de063496d27495e011e57c8fcb4e360a1cdd4a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/handle_tconstruct_pewter.png"
-hash = "9d419d66f2a14636f0b7d9af99c1b3b68039c11e19855d30e4d6b9ddaf52530b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/handle_tconstruct_queens_slime.png"
-hash = "287c02148c6c334de547642e8e1741ed1a7ecbc5e0be04e1cc4f361572fe6131"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/handle_tconstruct_scorched_stone.png"
-hash = "06151f9529d43e8ca742cc1918ea5189e2af74f580a8021625f07f00715a4db2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/handle_tconstruct_silver.png"
-hash = "95f646d19a690782ebfd8f89b08da04175b38bed9134f6ce5bf9e593e69709e5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/limb1_gtceu_snow_steel.png"
-hash = "b919efcac47af177edb3615883cadca37a8f97fe9e2f0fd9e351cad267cde32b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/limb1_tconstruct_copper.png"
-hash = "2760204ac2f07e118af0e768726ee3faea7b604d973e58f749087a0d656bcb8e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/limb1_tconstruct_pewter.png"
-hash = "701c3c69e79b62f0d553e1e41c251b10d938c399fb0c75c3c802e701bc390fe6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/limb1_tconstruct_queens_slime.png"
-hash = "3b6428e2b88f11349c523abed3fe24200561f5fb46ce6923bdb18215c027afb1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/limb1_tconstruct_silver.png"
-hash = "c685ef47d2d307f5a4852beb480247cb7eef6a66dca61c9b7b46283f5c6f12db"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/limb2_gtceu_snow_steel.png"
-hash = "1a07a8af8ef8cf3492ab07bc4abbbf74c086d0bd7f779bd5f01c97d3a3caf614"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/limb2_tconstruct_copper.png"
-hash = "6aa347fe5f0b76fe2106d36541e947c60d91f4400c7cc6361dd6b141c6383a30"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/limb2_tconstruct_pewter.png"
-hash = "2027808e53266e903d0f57014aef4f2dd8768f46547f885be71c3c9b509f89b0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/limb2_tconstruct_queens_slime.png"
-hash = "a5c7f9856b93ad28867bec8f46d77ea6ac12b3e0fcc1f06d4a3da678ceb98714"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/grappling_hook/limb2_tconstruct_silver.png"
-hash = "96b447f8445005fe06c184023ffb81ede57dd8eee56c8741c6be4b91d1cb4432"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_broken_gtceu_snow_steel.png"
-hash = "2dbccb471335e707755fbe3741085f6490912a8f83af836b4add8b5cecfec7f3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_broken_tconstruct_copper.png"
-hash = "0c3375299487751e6374931290fdb7b9c6e6d321c90cc920c68f5dba41cd61dc"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_broken_tconstruct_pewter.png"
-hash = "f81579263ceb58bcc1d9234ebc852f55fdaf7cb31b235f81a021002464673d95"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_broken_tconstruct_queens_slime.png"
-hash = "be525e183c90ed25e900ceac10fee199d559292dec8020f949c75b6a05a11551"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_broken_tconstruct_scorched_stone.png"
-hash = "91f4e204181387f365c929d25c9db08194b4843c56cd74523fe073f434528f24"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_broken_tconstruct_silver.png"
-hash = "4a19d440d5d4531004854c12fccee3377dc640abb86b676a713fa7a3081553fd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_gtceu_snow_steel.png"
-hash = "9c27ed6988fa0a5ed985b45e7e3266c5de54601f7ea1c9089b5f6b2bc9eb11b9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_tconstruct_copper.png"
-hash = "8578f20469ac2248684f36f23693097843386f925d3bf396e2973106515ec07e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_tconstruct_pewter.png"
-hash = "3e98e97bc805b8af2badda3b4e525b35994edae202a5df039e3939853f507062"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_tconstruct_queens_slime.png"
-hash = "f9e3e1d75145ed5b712d1381a3722058568be80dfb7f155999b24a7be5f7940d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_tconstruct_scorched_stone.png"
-hash = "ff194f5aa06ad0fa25781f454022cd7fb3f5f0dbea7956ecf94bf2995b1404cc"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/head_tconstruct_silver.png"
-hash = "03be7fed1d7689053ded843fc5eb00be104976827c0104751ae1400779b28dec"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_1_gtceu_snow_steel.png"
-hash = "bf030ce3174fdcda806ee6e82d6ba54ce1a1d45a6fc00525d5d2f674a71c2495"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_1_tconstruct_copper.png"
-hash = "59cefd52630d6ca249e69c8aeda6afc0aecbf69c249f224cf3f486c97e3ddfab"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_1_tconstruct_pewter.png"
-hash = "ad62c81f06cfb33d9dcbcf768fd4d5c704bd321f059b6f8c0d43f63b039429e0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_1_tconstruct_queens_slime.png"
-hash = "ada03493eae32ea0880cbd8a332127dbc4abe2a55bbff0d394c735c76164bc31"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_1_tconstruct_scorched_stone.png"
-hash = "e91581af9fe2a3066254d1245326efe9d81261db5e92c46351b5947346c2e833"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_1_tconstruct_silver.png"
-hash = "bee633da35b27f421dc19bfb4ed9cc9641f2d87ead39d27fc87500d2ae7c2e22"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_2_gtceu_snow_steel.png"
-hash = "7132dbcae8b89922adbf701daf16ae467c5b29039fd5d1140aaf81b84037657f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_2_tconstruct_copper.png"
-hash = "63e60524a37ffc1b605081e4b6cb4f39fbe3db43756766a611906e74d48b3d93"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_2_tconstruct_pewter.png"
-hash = "da9576e77a334f0a0d7c709898bf35f5a299328df90d7407fc4482cbd84f7d6b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_2_tconstruct_queens_slime.png"
-hash = "45e6ca7cc239ebaacd009266f613c0a375f9ad07ab61ff93aee711d76997d8d5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_2_tconstruct_scorched_stone.png"
-hash = "f194d33f22e2916431fd35a990fef07cf4a7de32f65a802ebcc5230365e7fb11"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/plate_2_tconstruct_silver.png"
-hash = "d2c5f1871e36ac61d4b8b380afb69ffc001d76d8e4b799ad1cf7ecf546b23d4b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_binding_gtceu_snow_steel.png"
-hash = "42aa28c34542bd45d75a4b9927ad6f3be1c4f51488b96374ac6f16cbb6788c76"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_binding_tconstruct_copper.png"
-hash = "0a954868be44b7519159999ba6e7c8fedfd36ac2e19fb506496e8f238bf86265"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_binding_tconstruct_pewter.png"
-hash = "6bf5f97103e283411ef6c1b73fb26aeb24767e64239a1032557078b90219bb1b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_binding_tconstruct_queens_slime.png"
-hash = "c963ebebda18e39d6feeb41a54a977fb266dfb9c815f3da36b5c3a214ed93ecb"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_binding_tconstruct_scorched_stone.png"
-hash = "e19c02799be7165d53eb43c53b0757e565bf4e1fca131d149cfd7edf8a420a65"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_binding_tconstruct_silver.png"
-hash = "fc64d6d110f9ec8c2cead5640b9538dd4c5055496de36ea160893864309a5c42"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_binding_tconstruct_twisting_vine.png"
-hash = "779f4c7c0c116d0f937ca9b5664d51bc35855d51f6a5e980717b8ffde96486c5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_handle_gtceu_snow_steel.png"
-hash = "c9f7ea17280a308964913d4e0fa986a3b56cead776bbbad181b9d0d75336b4fc"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_handle_tconstruct_copper.png"
-hash = "fd587749c165da181cc875d2a146689507648ec18512efe019ca5cce38bf8bd9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_handle_tconstruct_pewter.png"
-hash = "a3f810cafe2f3fa71a8d0e237586520e23407af5217d416706cb28ed7d5b67e9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_handle_tconstruct_queens_slime.png"
-hash = "23d8871370574c0470c3cb85d33bdb08bf22861a3cf8b33405a896e82bcae8c9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_handle_tconstruct_scorched_stone.png"
-hash = "27b83a24f7357d84e7e5f4a9b9dab00536e91559e5633ccdbc51702c17273047"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/great_sword/tough_handle_tconstruct_silver.png"
-hash = "30e3ad01b64482b16db81bd22d29efa467322b561356584cfb194d86adb22722"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/barrel_gtceu_snow_steel.png"
-hash = "d0b47edb1929db611f4e17bb2d255aa259d36c647e8951af28e63cd65a435682"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/barrel_tconstruct_copper.png"
-hash = "197804a662e99580a9d17ef75da91d44b215dff563ac27e6344c57574e8676a5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/barrel_tconstruct_pewter.png"
-hash = "da9079e65b153c81538e40e1c791f2fb6eff7bb89072398e00542cc100d811e2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/barrel_tconstruct_queens_slime.png"
-hash = "62e53fd4f5453b488a84f4928d321de2053537f5e655d445ad02d7c44aa9b095"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/barrel_tconstruct_scorched_stone.png"
-hash = "b94144678192d6a2cd279425b4e911885f1654c3555c773bef81a70dc338dbad"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/barrel_tconstruct_silver.png"
-hash = "4fb84594bfc89398343558d2b4f9eb8e0365895ffbfcefce353dc4c7b11f6ddd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/broken_barrel_gtceu_snow_steel.png"
-hash = "dd5ae16b9258ebb5ea7b93e53f26eac84caec410f77df465abbe81f70f4defbd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/broken_barrel_tconstruct_copper.png"
-hash = "c6b88b8417b567402e89ba45823b31b814ee3576a48a00034b78f276bd46aed1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/broken_barrel_tconstruct_pewter.png"
-hash = "d94e88864bc0c0fab4b8186f9f1855f98c2a9dd668dbacf4ba5a7192a1f498b2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/broken_barrel_tconstruct_queens_slime.png"
-hash = "d774f3a993c56e6961e3d608f8cb0869323b73e35c9867c2dae701f1f29a57df"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/broken_barrel_tconstruct_scorched_stone.png"
-hash = "f421e49533c8eabdce22b6b50ac6deb1889de85e8e1edda94f69008c95232ecd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/broken_barrel_tconstruct_silver.png"
-hash = "4fdd6e87b63f385e30b4ccd0bac2bf5264c4ff08f59a0387a45d5d38570f7915"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/energy_unit_tconstruct_copper.png"
-hash = "8bf0c0605596022d8013b7f4c809731eeea709a99961a2b3321b0a7623dd1867"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/laser_medium_tconstruct_copper.png"
-hash = "eb7d42003b354855c2bbb221769fe3508e3a603f33e993aac54b62c9b4229bf0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/tough_handle_gtceu_snow_steel.png"
-hash = "dc3885acc8d5f9131ea41d74a474b6aa58061294f683aef65f898b30b8ab1fbf"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/tough_handle_tconstruct_copper.png"
-hash = "c19fc8e7560470bd120e86dd91bf727a8a3b73382f147e0d4f0ac6f06a48151c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/tough_handle_tconstruct_pewter.png"
-hash = "9b379e16dcbd183306122208e6be830678f1d2b04a0fdf1854b15b013c248302"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/tough_handle_tconstruct_queens_slime.png"
-hash = "176bf127f687152e0f227d536aec6a5649b098bb390e3f6c6d965d9d2709c27f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/tough_handle_tconstruct_scorched_stone.png"
-hash = "35719427fb72f1e71208b58898da6b76ca1761c0a5c02b786e7a81032b2ff93b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/laser_gun/tough_handle_tconstruct_silver.png"
-hash = "a5a58490ffa56d222ba09b8b0ab42faa122c253a6ac7a3da1df2bfa8d1bb98c9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_head/arrow_head_gtceu_snow_steel.png"
-hash = "c6949ad1187659d02bb00c7009ff6bc77ef5721e25e4c84fa34ca921cc2eb768"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_head/arrow_head_tconstruct_copper.png"
-hash = "79bf2d503e722c42180b8d5863cb89ebe23d5b33b111ed46f3f024cbfb45dd5f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_head/arrow_head_tconstruct_pewter.png"
-hash = "d4d8ead0026e4ba001ad8a524af2495b9e22be87734bc47d86a84497cb3a06b9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_head/arrow_head_tconstruct_queens_slime.png"
-hash = "b774aea30aa7693531197db044450f4339d53165bfdc2a6a12b696037a7df41d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_head/arrow_head_tconstruct_scorched_stone.png"
-hash = "6c98973bd62f2d71dd8dc6881443ae936a0828413a62c5325f802ef72650b6f1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_head/arrow_head_tconstruct_silver.png"
-hash = "1185fe0625347a3da3468a40cc8187760279b9817821cf3c79c83daed7fb3a8a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_shaft/arrow_shaft_gtceu_snow_steel.png"
-hash = "57f61293588f5e6a77ed34c6414e4d20a29be09493289dc86541e0e7dd5a6cb8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_shaft/arrow_shaft_tconstruct_copper.png"
-hash = "55f3e51c684626985308b1f9960c3f5020deab0841027f7c743d7f187d2a347f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_shaft/arrow_shaft_tconstruct_pewter.png"
-hash = "514bd1abb191c8f0cdd4f33eceefe853d54cee7cb7c7c81196d5e699bbee66ce"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_shaft/arrow_shaft_tconstruct_queens_slime.png"
-hash = "89d0e0e30e0a6b717bd1be51b5e6ee5f16ce0b2ec8937d7ff4cee60c409df8e3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_shaft/arrow_shaft_tconstruct_scorched_stone.png"
-hash = "e7c8280d887e7c7d16d926599929d3f595948ea4dceafffba08e7b3ac0b64b58"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/arrow_shaft/arrow_shaft_tconstruct_silver.png"
-hash = "4eaef73ea1bf9532f4e0fd3ffa02bd0f548b5be5a1a0b03c987fa47322148b19"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/axle/axle_tconstruct_copper.png"
-hash = "c4bbbaad08494580a2742a6c86d95f7a29ddff40f8b38a18e197847c601a49d8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/barrel/barrel_gtceu_snow_steel.png"
-hash = "c55d4005210028bf3348fc465a7742938e0cb9f15ee86aeec5c914c94f26304c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/barrel/barrel_tconstruct_copper.png"
-hash = "e44abc7ade05d2dc9df01d805fa75b1082883fd5e59143105bc2fbdb2d19685c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/barrel/barrel_tconstruct_pewter.png"
-hash = "a49c3865c36c941369765af5e42b4311f76cda502d3bc7a1cc8fda7ac14c090c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/barrel/barrel_tconstruct_queens_slime.png"
-hash = "a212005f885b57110861ec4bacc4e315f16b7e08f82d00709c2e39330e12fd6e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/barrel/barrel_tconstruct_scorched_stone.png"
-hash = "0108206a218b41fdff7c416355dfd879c4ee266c050ed035c0e515b6d5c42576"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/barrel/barrel_tconstruct_silver.png"
-hash = "0406a58d5e9ca2d57b455fa721e206f7e8a12f0937309f265b2a971d3d121786"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade/blade_gtceu_snow_steel.png"
-hash = "79613fdf61a5d57e6f56c8aeade1405b33965488a95ae4c885bf27477864e929"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade/blade_tconstruct_copper.png"
-hash = "c0cf76c068ec55da10b55b08880a5bb54e9fc614a159614a38ff2a5f856346bc"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade/blade_tconstruct_pewter.png"
-hash = "cb0f85dcd96aed67455ca1e8a43d15e380ec97f10eb5c29d149b69e67fd3a319"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade/blade_tconstruct_queens_slime.png"
-hash = "12283d7e7d817ddc0db4733c611af7c253ba0e9deaba7f78df587efa0da82b6f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade/blade_tconstruct_scorched_stone.png"
-hash = "901b05e73b05289bf139675fe09c1ceaa2f03af9b5cfa95f083ca660572db5e6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade/blade_tconstruct_silver.png"
-hash = "7ad3afeb4f07717325a09c8b2a1cff611643228fa63dcfa1a01785d668a60c3d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade_box/blade_box_gtceu_snow_steel.png"
-hash = "9052f6acee3e7a95c7b960e506277c9d630e951022f2abee1754e9cec7d3fe7c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade_box/blade_box_tconstruct_copper.png"
-hash = "5985fe64ac9b8552b4f938ce5d259677d549330f0c2c651ced23e6f8ef6631c8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade_box/blade_box_tconstruct_pewter.png"
-hash = "1542016fab577308a06cdfd58a3be6fe815d1534cc871bf0a84b6d1fcd572bc9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade_box/blade_box_tconstruct_queens_slime.png"
-hash = "4c97cf1f9ed481755c6347aac29727dde23a647807c57a2c8709886ae6d209c4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade_box/blade_box_tconstruct_scorched_stone.png"
-hash = "c6fcc246dd62ba83b0808102c3702f22950aae2d3fd4f96dd5ad3efb07581e5d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade_box/blade_box_tconstruct_silver.png"
-hash = "3b2a6bc2ce0b9d553535db049890b22f81652b0d2b67c82120ef639df664965f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/blade_box/blade_box_tconstruct_twisting_vine.png"
-hash = "f2df7d3705b6a18a801f3b750bf4bb0fd0cc9362ac3ece6f9e3c3e03dd6484cb"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/book_cover/book_cover_gtceu_snow_steel.png"
-hash = "0b054988ded3bda94974c32ab4cb2c9e9654db94253a060ea8e10ad97fac04fd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/book_cover/book_cover_tconstruct_copper.png"
-hash = "b77919ab36dbec02541dbaecff1364754c7ab44b153f28598bf84e1f4cfc9f04"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/book_cover/book_cover_tconstruct_pewter.png"
-hash = "581a39358631eb8153967c54d49484540b132b339b2c14ff41199becc2d8272e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/book_cover/book_cover_tconstruct_queens_slime.png"
-hash = "de15f5fd5071fa41d473a899d161c33652abc0e09337f5ca83b5294279b39733"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/book_cover/book_cover_tconstruct_scorched_stone.png"
-hash = "88ffb0a362a88718f54b217d00873f4483320d149cc1d38d8bedb56f64965897"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/book_cover/book_cover_tconstruct_silver.png"
-hash = "b67b227d9cdea6893f7ba25320e6e631344a28121c42b219eeeaab8e6df004cb"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/energy_unit/energy_unit_tconstruct_copper.png"
-hash = "26642730835299d584e7b18c2f53c7a2cd83f6f7dd120887eabcc5340403b671"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/great_blade/great_blade_gtceu_snow_steel.png"
-hash = "e9ff0513ff912c85ed91e39a0d541f322db7f33ae66f8772abe7dbccf2191244"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/great_blade/great_blade_tconstruct_copper.png"
-hash = "ab1c7dacc829aa52a785f1e835f5ebcd886f9f3a96c07a53580806b6fee8cb72"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/great_blade/great_blade_tconstruct_pewter.png"
-hash = "45a5998ed00126d666e0e6506aa4e3f4262c8ddc703bd6deaddbfaab01980773"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/great_blade/great_blade_tconstruct_queens_slime.png"
-hash = "07e617ec623578399e24a7a79e83041e653c3d1e522a4c7c1c326e3ffac3aae0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/great_blade/great_blade_tconstruct_scorched_stone.png"
-hash = "729416556145dc4f7ce87e54edff2af6cfd6f7025ce47487555fadf3152bf2e6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/great_blade/great_blade_tconstruct_silver.png"
-hash = "f422dad36e81995d07139d12cc50f3b9510455d8965f8f676ddc14c8e9f9c39b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/laser_medium/laser_medium_tconstruct_copper.png"
-hash = "bab77777f87790f31bf3cd895ebe4f40faa1a112f8f61cbf6b12d5c91f07ecd2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/shell/shell_gtceu_snow_steel.png"
-hash = "062306970a0e4b1ded5aab42413020f0d14e1aec08846b7681054e7f08ca41af"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/shell/shell_tconstruct_copper.png"
-hash = "efd9637c0ed318df8a374db8ced37d6e3a2bc240027020e5affb7d44b9ad296c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/shell/shell_tconstruct_pewter.png"
-hash = "66921e8bf87db38040ed8d3a813de706d306c91016909ab5307b4efe13ce3b72"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/shell/shell_tconstruct_queens_slime.png"
-hash = "7888ae784bf7703ab8d2f6c20c1be2030fad6aa80a610037e8f050e0875e8936"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/shell/shell_tconstruct_scorched_stone.png"
-hash = "50bb6f61af8517b564b8b9a62d54ad2536d34d2d5719c20bf286752f237bd88e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/shell/shell_tconstruct_silver.png"
-hash = "98ae2e8ed8acaffe3f28f0eea889ba7676a27b7d2a12f19258ff868f023d26e9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/shell/shell_tconstruct_twisting_vine.png"
-hash = "9e4d5e42c9b4a4af09371b7c18f6d48ece2f135da78e3deea9724b67e940a81f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/swift_blade/swift_blade_gtceu_snow_steel.png"
-hash = "9d3939ad466bca3c5f7c403314cb7aa0530acd3c0c56527c44d8edd0411325b9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/swift_blade/swift_blade_tconstruct_pewter.png"
-hash = "a7d437d0f614891d697d405edfe7545d969fd8a9948e736b933ef328a0074cd5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/swift_blade/swift_blade_tconstruct_queens_slime.png"
-hash = "0cb50e034c6423767d841458346fcc057ce79623935569e7b7a1aee8585db7dd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/swift_blade/swift_blade_tconstruct_scorched_stone.png"
-hash = "bef6561fcb6a473c5eddbf941c93b833ec675c01d268311473df9b10a0cc97e9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/swift_blade/swift_blade_tconstruct_silver.png"
-hash = "141f7929b6b13116831e1004ab9ce5029c1839d4548dd6978ae7cbee1e7bb34d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/swift_guard/swift_guard_gtceu_snow_steel.png"
-hash = "482ca680deee5e1ae6302010cdbb5d8ffb499db09539ac1c7891cbcf75f054bf"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/swift_guard/swift_guard_tconstruct_pewter.png"
-hash = "97ef9055e0f34b7537cdf35785db08fae41b44d68f78c7cbe822f0d6b6c1344d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/swift_guard/swift_guard_tconstruct_queens_slime.png"
-hash = "efafff379e9cc498724691e0745c4c209008e8e75439e44f132f1d6aa357dee2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/swift_guard/swift_guard_tconstruct_scorched_stone.png"
-hash = "8b2e0776f3a117c02d059da9fadded30d2820f83217f855bb052ecbad1824f56"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/swift_guard/swift_guard_tconstruct_silver.png"
-hash = "1f230a9af32cba84c634ad6bc53170b25c3d3786ded5a047d198f1d46632be17"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/yoyo_body/yoyo_body_gtceu_snow_steel.png"
-hash = "655b54d860d725af4cc22764b6a7743ed35200a49f3020ce288751a0a67f485a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/yoyo_body/yoyo_body_tconstruct_copper.png"
-hash = "477b30336c3229918ed003be80f113d662bc29874920c33f9fce53139d7d699d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/yoyo_body/yoyo_body_tconstruct_pewter.png"
-hash = "2086d14b28e883d11fe637934f017f22a01c07f121f971e42e571b1886d323b2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/yoyo_body/yoyo_body_tconstruct_queens_slime.png"
-hash = "9180782348c08c5a054404ad011b023fb9a02661b34709d3e18a3e9c76882f2e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/yoyo_body/yoyo_body_tconstruct_scorched_stone.png"
-hash = "9e3bb841018bd729348ea6aba88eb5af0dbda4a6519820e02576dea96052f3c9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/yoyo_body/yoyo_body_tconstruct_silver.png"
-hash = "f3ebbd4e986a471bf973afa6c06b5935e21b474b02c41e7f179b984d7cbb8d48"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/part/yoyo_ring/yoyo_ring_tconstruct_copper.png"
-hash = "d1b456f06ac492cfc12c989d70d258bb95115d8bd24c91ff29ef88b762708cba"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/power_bank/battery_1_tconstruct_copper.png"
-hash = "baf683bf2dd5d12dd9ad001974bbc7e2815f5ed2c3d34343a83713190bec0739"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/power_bank/battery_2_tconstruct_copper.png"
-hash = "c84efaceccd8e555e3f6256c669fd5f0cb35cb691339f06dde0a3fedc04dff9f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/power_bank/battery_3_tconstruct_copper.png"
-hash = "703424248a38b597869fb7fb2da11ec0c957cb011a5395c483adc2b944984658"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/power_bank/shell_gtceu_snow_steel.png"
-hash = "062306970a0e4b1ded5aab42413020f0d14e1aec08846b7681054e7f08ca41af"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/power_bank/shell_tconstruct_copper.png"
-hash = "efd9637c0ed318df8a374db8ced37d6e3a2bc240027020e5affb7d44b9ad296c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/power_bank/shell_tconstruct_pewter.png"
-hash = "66921e8bf87db38040ed8d3a813de706d306c91016909ab5307b4efe13ce3b72"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/power_bank/shell_tconstruct_queens_slime.png"
-hash = "7888ae784bf7703ab8d2f6c20c1be2030fad6aa80a610037e8f050e0875e8936"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/power_bank/shell_tconstruct_scorched_stone.png"
-hash = "50bb6f61af8517b564b8b9a62d54ad2536d34d2d5719c20bf286752f237bd88e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/power_bank/shell_tconstruct_silver.png"
-hash = "98ae2e8ed8acaffe3f28f0eea889ba7676a27b7d2a12f19258ff868f023d26e9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/power_bank/shell_tconstruct_twisting_vine.png"
-hash = "9e4d5e42c9b4a4af09371b7c18f6d48ece2f135da78e3deea9724b67e940a81f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_1_gtceu_snow_steel.png"
-hash = "a07b04180a0ddb8d7f7f1b9aaf611eb50b3db313a9a00ef40cfd81a5709c33de"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_1_tconstruct_copper.png"
-hash = "e45ee70ffc62fd4b83f88f840c0721cff4801542b5d64937a227fbc4a1e99965"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_1_tconstruct_pewter.png"
-hash = "83f2130ff8752bc3d4066e44c8e4503b6fc6c2953f385d6f093723d0ded8105a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_1_tconstruct_queens_slime.png"
-hash = "ad1c8855e3a03c158dff88eae1e318a584c5f0ecd33ee569e76518a6eccddbf9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_1_tconstruct_scorched_stone.png"
-hash = "56722e4435c188c975c9ebfcf9ff7f81e8c33c86a1f0e332385366df36e9aa49"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_1_tconstruct_silver.png"
-hash = "40f968cce6e8952b4fc02e52f54aef11b805fcebd92a7a137c820c7a29f445e7"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_2_gtceu_snow_steel.png"
-hash = "1d1cf1c89066e538502c9ced7421f59b351bd13930c8e5aa5121e30b8ecf3260"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_2_tconstruct_copper.png"
-hash = "9b189bd9b2f4d1f588a98097cf41ce0a2169b7ec32272fc8fce09ff593d174de"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_2_tconstruct_pewter.png"
-hash = "4ae404655182dc09cebe404a66fafaeec009f236d0e5171d3f86f2c71c83c245"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_2_tconstruct_queens_slime.png"
-hash = "7b2d3ea1daeecea9f45ffdbda61e4060982c7114d26ee9e32dc8e73dc8195588"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_2_tconstruct_scorched_stone.png"
-hash = "7c913f8c4956f2b66a02122e94a16b79406866db4b93ab3a5151f5ff7de6259b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_2_tconstruct_silver.png"
-hash = "079f38a1b645065325b90b3f54764789676bdcbe8dd8a5c1a65df32c898f9869"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_3_gtceu_snow_steel.png"
-hash = "4458a0636b22edfc4fe821c004d87ad5c05d1ffba37eaff1379929c187232e44"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_3_tconstruct_copper.png"
-hash = "d9be613627ff75ad404621830d530be255f718bc2ae028e5dfa30f3591ed6e9c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_3_tconstruct_pewter.png"
-hash = "3264f4e2ab427f706a45adde82ecc91586d1a9c82af93a634f1dc55e53c497f6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_3_tconstruct_queens_slime.png"
-hash = "90b42f9237c9e634ebedce4114f1445c89b3163d07230a4bcd4012f716f1c3e0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_3_tconstruct_scorched_stone.png"
-hash = "eb08bba2fc909d284a4056f743af111688836d6865423069519d1b5b0dfaeb88"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_3_tconstruct_silver.png"
-hash = "48e904883e514575337f78b5f9c40375b12614a4ba3044105462021cd8b9aee7"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_4_gtceu_snow_steel.png"
-hash = "3dd9faa9e1e76e8e46d03485c89173a5b09773dc75910d8702b274a22ed886d8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_4_tconstruct_copper.png"
-hash = "f77ff16e24b270bffa71e7b28589502dc89274dd40cfb66b37038b65f8e12775"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_4_tconstruct_pewter.png"
-hash = "c542e8f21012466c11c9f4871f956243729384d33c89e534e5416648c8b54328"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_4_tconstruct_queens_slime.png"
-hash = "9aed2c5ef32b3ab1ca85045add83de24f1aeb0bd935a10fe519e553891cf635a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_4_tconstruct_scorched_stone.png"
-hash = "94a9eeb8a2c4ab417d16c8d94d568adb506aead61b4be20af2fecc91a36febc4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/shuriken/blade_4_tconstruct_silver.png"
-hash = "c8c558f2510929b80c4f731904c43c18e47f7b4bee6e6b94b94134deb9ee9831"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/binding_gtceu_snow_steel.png"
-hash = "9514e4ae3921d88e562f34ad91fc873e64b5f9e4e897dc13073ef5b0647247a7"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/binding_tconstruct_pewter.png"
-hash = "0c0052c42b298e8ade5f3ccefae846dda010bfafc192374ab793e170b5c55007"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/binding_tconstruct_queens_slime.png"
-hash = "fde96a6ee8e870a8f4b627a1c8c6e2a586ec4424b2be4659709f2b4d46898830"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/binding_tconstruct_scorched_stone.png"
-hash = "b8749e189814ae95591bb2dd404080f39a601fccd4bed97df685f4fc8a24c8b3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/binding_tconstruct_silver.png"
-hash = "f5e0a5b517fbcca1684d49a28def85e0a8d64e605f2f54229679b48f480a6d85"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/binding_tconstruct_twisting_vine.png"
-hash = "26f9be4baf81439ec47cc1beb1826a5dc3e75135189b915a291d1ce2c362df26"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/blade_gtceu_snow_steel.png"
-hash = "2bfed5c8727a4914949e21a827af160d1bee1e54754bd7bd8710958f5f7d10a5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/blade_tconstruct_pewter.png"
-hash = "c2bb9082bb8107cde5649273ba4b7a023bf5a94f4deaaed3dd918311a1e5be14"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/blade_tconstruct_queens_slime.png"
-hash = "8bd053e72123b9e085617b6a574ce054fa2f04806cc7eef37ba0a0602d483233"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/blade_tconstruct_scorched_stone.png"
-hash = "86ee21112172c440cbbc845d2b09b5feeb397edc39e771f71c5984d4440b8000"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/blade_tconstruct_silver.png"
-hash = "05b776bc22db2a4b442fac5b962ac7661a35d5b90e4eec406c7b0aaeed4c6116"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/broken_blade_gtceu_snow_steel.png"
-hash = "cdeef78da2e3e7d7d69f0206152d8dc74c3b97a74bc89496dff260cacb2757f0"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/broken_blade_tconstruct_pewter.png"
-hash = "e6e39582469bd0fe95c5e7d3e37537d8ac094036d1d4f5a10b96add1e8e78f38"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/broken_blade_tconstruct_queens_slime.png"
-hash = "2d0d6bfec7a555242fc006ddbecd981a8a0b133c1379571cd07cb3dcf7c215d3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/broken_blade_tconstruct_scorched_stone.png"
-hash = "9433777f6c40562cee4e98b92804457d792fa73db838923b998a5715a0b507c5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/broken_blade_tconstruct_silver.png"
-hash = "d35facf0fb7232b6ebd2fdeb710bcc3d90e12aef4c3fb652da32d64e39c42aa6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/guard_gtceu_snow_steel.png"
-hash = "e83d1c92182c71e8a40e684a0d53d3d790f1c7b3ece605b45058e7ba68c87974"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/guard_tconstruct_pewter.png"
-hash = "e8df0ed442ec9bab48a7bbf83b3b6e3f0149ddbe4e054fadb2c1f42c4d14fb38"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/guard_tconstruct_queens_slime.png"
-hash = "f4fbf5df7552521e1d705df837e7972bfc534524596757e2ad48029bc6add05b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/guard_tconstruct_scorched_stone.png"
-hash = "a954aed3fd8023fc291222d6d996af2430226df00c0143e0ba7d2e5e8ca75875"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/guard_tconstruct_silver.png"
-hash = "b4367900a06b5cc3b8b3449c5ff69bb99da74c004a72dea70e84a89054ecb1fe"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/guard_tconstruct_twisting_vine.png"
-hash = "a7e7f87f0bfb05fcdb613f41cfd29ef510ab00cfc529a06c9b1ce17c74f9694b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/handle_gtceu_snow_steel.png"
-hash = "f59c8a1bd0c75d236e62468d39cc5bda9a54d21b7d362d824d9b9d71b38729d2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/handle_tconstruct_pewter.png"
-hash = "1cced8f8fe5f0b0a28d789bac14851828741be900d1a7c85272ffcb331fe5c14"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/handle_tconstruct_queens_slime.png"
-hash = "20541d8344e1a655ca01e8cec9fc5c9a950214908fc54a3ca78c4751e73af849"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/handle_tconstruct_scorched_stone.png"
-hash = "3298a0c11067ce04a43299000f4c2160d3936e354d267467e2658ad7bf9b0d95"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/swift_sword/handle_tconstruct_silver.png"
-hash = "93591ff11fa75bb9feef4f04956599f6e5e296e46dace7f84eaa82e545d4f499"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_head_gtceu_snow_steel.png"
-hash = "cba77071afe735abe72711cf7b4104f75cb8ead03f917df91973371fe49c4919"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_head_tconstruct_copper.png"
-hash = "78b1d2e181d3e409979b7675ec9d006ecb220967e254e3b07db2d2ab0846f821"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_head_tconstruct_pewter.png"
-hash = "6b8d05f5d808b32a5722f2e7bc617a611774b152f630b2f5c766c17a49f8cade"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_head_tconstruct_queens_slime.png"
-hash = "7088560aaf5f0e78d63e3bb0ef05040db3d2b1dff49cae2e0265f718980625a5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_head_tconstruct_scorched_stone.png"
-hash = "c6a41057174f0fb9e49403cc71ce57e7e1800f021cb7229a8001b6bc0d07fc24"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_head_tconstruct_silver.png"
-hash = "f7d9b91be85851745a454cfb693d0be701d703b97f230e5c3edd0492a07c5644"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_shaft_gtceu_snow_steel.png"
-hash = "57f61293588f5e6a77ed34c6414e4d20a29be09493289dc86541e0e7dd5a6cb8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_shaft_tconstruct_copper.png"
-hash = "55f3e51c684626985308b1f9960c3f5020deab0841027f7c743d7f187d2a347f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_shaft_tconstruct_pewter.png"
-hash = "514bd1abb191c8f0cdd4f33eceefe853d54cee7cb7c7c81196d5e699bbee66ce"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_shaft_tconstruct_queens_slime.png"
-hash = "89d0e0e30e0a6b717bd1be51b5e6ee5f16ce0b2ec8937d7ff4cee60c409df8e3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_shaft_tconstruct_scorched_stone.png"
-hash = "e7c8280d887e7c7d16d926599929d3f595948ea4dceafffba08e7b3ac0b64b58"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_arrow/arrow_shaft_tconstruct_silver.png"
-hash = "4eaef73ea1bf9532f4e0fd3ffa02bd0f548b5be5a1a0b03c987fa47322148b19"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/binding_gtceu_snow_steel.png"
-hash = "06ce5b77e1b67fac7a38bc2c679a28a38f9fe4c3c793b98888d5bd405ea03485"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/binding_tconstruct_copper.png"
-hash = "1f792d1b114d8af6ed47702ad9caf90431ba80a5395de5b8dba9c42e6b45e0c8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/binding_tconstruct_pewter.png"
-hash = "06a2bd0cfa3e5eeeae6f218dd5663ed0c4a9c292f617c03cd97be0a44fcb5dcd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/binding_tconstruct_queens_slime.png"
-hash = "c3ccbc321d24cda3d00e45714fbde1fe023cf2e5ac8728b4c265d17cba51903e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/binding_tconstruct_scorched_stone.png"
-hash = "3592696324ac4b5e2c90d7bdb456ac53ba3bae15677d2cfd537e4622225b72b3"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/binding_tconstruct_silver.png"
-hash = "41bfb84c5ee36108dc71c6e6b9edb1bbeb623c61eacc8c768b20f45501ac1ff4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/binding_tconstruct_twisting_vine.png"
-hash = "4e569f5b4bacce57db7f336d234300e9b6bec9b0e42166482f6a9f9c964d0b70"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/book_cover_gtceu_snow_steel.png"
-hash = "7f0dc190933a6221de22157372c991a0c6f0c54a1d53935e0139485d7a3599dd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/book_cover_tconstruct_copper.png"
-hash = "be5a190bd841b7924e8dccebf7411f4f6a4942bdcc4522053ecf0853f444a056"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/book_cover_tconstruct_pewter.png"
-hash = "f58dd105c7245a960b745258e403f314921b681c0bd88cb6f5ef72bddedd7581"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/book_cover_tconstruct_queens_slime.png"
-hash = "3c1913e8a0967bf9a508f3449c170bf2810ea459bc5e9d0847f680cfc119e0fb"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/book_cover_tconstruct_scorched_stone.png"
-hash = "5df52442f3d5c83289e922a96f5580d3515a73c54cac96fa1651cc80f970cb50"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/tinker_spell_book/book_cover_tconstruct_silver.png"
-hash = "569bf26eb37a9e6a22fcdf92a79f59a227920dc3d318e2fea9bf0577041dd67c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade1_gtceu_snow_steel.png"
-hash = "173a8c5899a56428c009b395764191ccaac9cb5679681879dd0f4185a2e10db8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade1_tconstruct_copper.png"
-hash = "0f22ba367169a2a631abd8aeb011c7d2233ee7740b1b3b99ca683ba65bdc78fb"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade1_tconstruct_pewter.png"
-hash = "ed5e0befd7f52bdbbdede3b4a0404858ab10eda6706cee3b6f204db84cc5e222"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade1_tconstruct_queens_slime.png"
-hash = "cbf7ffbe56a5b86cbe3032e2fc7b3aed1ff471f3093c0976eb8d5a2cad551da4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade1_tconstruct_scorched_stone.png"
-hash = "d07b7fe65deb0067e2224b051feb5e3ae7105191867cd7eaa8f0230b3e5d1096"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade1_tconstruct_silver.png"
-hash = "651cd8101174b5b5ec579ed458590f8b8aaa7b12152f13404558ad17c89d7c29"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade2_gtceu_snow_steel.png"
-hash = "7aa046076ea414e4d123b77b29ed3a23ff82b96707fe9a0dead38c04e5554cf9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade2_tconstruct_copper.png"
-hash = "1024baeca290d239889c4ce5253bfd2d6392a00a9d353cbef9ab22a7ca1d8109"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade2_tconstruct_pewter.png"
-hash = "63eed722fafcc1143454c05d33042ccacea5b001ba06099a9fa67a209fce0e49"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade2_tconstruct_queens_slime.png"
-hash = "fb12c6e545e7a0bb6f0464eec573c1a2e89274d63de57f090782f0bb395c2d98"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade2_tconstruct_scorched_stone.png"
-hash = "59d5ec55106208705c6060b2e67466b38ad4c95907795025415e4e0041f54e24"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade2_tconstruct_silver.png"
-hash = "be94751ede6880e4577a2f46cf8ff83b332ebbe647f8c9560744b45f8904a873"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade3_gtceu_snow_steel.png"
-hash = "5c91e030a7768ad2495134bff2cf196bce7562e3744e813ffee9ad4099a9e6c6"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade3_tconstruct_copper.png"
-hash = "a4203e8a9d4deb410772a542f30566a1b585ff47b666dc744680efbfeab46a26"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade3_tconstruct_pewter.png"
-hash = "9e0b6bb0fbfba09a383ac8af32db12e2e0f372ab3ce58677c7eb1ab122555d9a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade3_tconstruct_queens_slime.png"
-hash = "afec29f600901a51c844eff3b153cd1f45b8134e105602b3870178f117b5ebf8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade3_tconstruct_scorched_stone.png"
-hash = "4352bcbb6a4c70d6e4aeee306976c5d4557ac45b112eb26112a1b634d09b26b8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade3_tconstruct_silver.png"
-hash = "3efb17c8773901e19e924b9385349bf7e008da4115209610be201bfb74d24bce"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade_box_gtceu_snow_steel.png"
-hash = "c7c59aba031b49927483599886511e0cee066a97ca2715f6e65bcdf9c999806e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade_box_tconstruct_copper.png"
-hash = "5c67d6dbf9091a44cc4bb748ee378e0001c7685565c6cc139358fa238b15b7dc"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade_box_tconstruct_pewter.png"
-hash = "375e7070438447c995446ce72a5669a0e585e0c8eae549dcf9a03afd0f0c0c7d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade_box_tconstruct_queens_slime.png"
-hash = "cc2dcdc2adffe717479e5f78cef3e9fdcc64590805bc8d12f01d8956c4fd5be2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade_box_tconstruct_scorched_stone.png"
-hash = "54817afa3d86fa5f8ff9d880aa601a525048048dba2ed008aa0520b86f43431a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade_box_tconstruct_silver.png"
-hash = "ec09947ed430dbeb9625f62d2ea0c2e1ab7c65df3e0280a1ff129547ea68cbb8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/vampire_knife/blade_box_tconstruct_twisting_vine.png"
-hash = "b5dfb05088ae9542d207e4a56642728e9ceb1068f4d51c1e149c8e60080f6831"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/axle_tconstruct_copper.png"
-hash = "e76023a17a52b1699a2a393a7d3b06577e172ed45539976f72f2bb941c51255a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_1_gtceu_snow_steel.png"
-hash = "655b54d860d725af4cc22764b6a7743ed35200a49f3020ce288751a0a67f485a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_1_tconstruct_copper.png"
-hash = "477b30336c3229918ed003be80f113d662bc29874920c33f9fce53139d7d699d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_1_tconstruct_pewter.png"
-hash = "2086d14b28e883d11fe637934f017f22a01c07f121f971e42e571b1886d323b2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_1_tconstruct_queens_slime.png"
-hash = "9180782348c08c5a054404ad011b023fb9a02661b34709d3e18a3e9c76882f2e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_1_tconstruct_scorched_stone.png"
-hash = "9e3bb841018bd729348ea6aba88eb5af0dbda4a6519820e02576dea96052f3c9"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_1_tconstruct_silver.png"
-hash = "f3ebbd4e986a471bf973afa6c06b5935e21b474b02c41e7f179b984d7cbb8d48"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_2_gtceu_snow_steel.png"
-hash = "891cccc0234150ca41194bc9863a52bda151bfea7f9479bd8dcba3bee00a601e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_2_tconstruct_copper.png"
-hash = "bc96882ee52339d54b5e8e4dc1f246856a08011e396621637ce72b7fa3e670f4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_2_tconstruct_pewter.png"
-hash = "2a9171f5c65878de488d5e4457e18d7a6393b5720aeb9e03738005030804c3fd"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_2_tconstruct_queens_slime.png"
-hash = "023edc232b44fd4d85777f454edd2aa78345f4cdc453706e7dd915cf60756341"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_2_tconstruct_scorched_stone.png"
-hash = "b8afeb8c170997a9682fbb115becc62e34afee69a8f91e5448f6e758508d82bc"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/body_2_tconstruct_silver.png"
-hash = "9afe12c2b7832189e192e7b5b066fdc1780e2f09ac4f76fb13eb448927076e43"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/item/tool/yoyo/ring_tconstruct_copper.png"
-hash = "d1b456f06ac492cfc12c989d70d258bb95115d8bd24c91ff29ef88b762708cba"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_armor_gtceu_snow_steel.png"
-hash = "dd8556f0c70402b137e111f9e66110795fabc024f5c6144a5c85888fe485e1cb"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_armor_tconstruct_copper.png"
-hash = "8dc2ed2d9e5a8dc0c726d02b188b5fc4dedf87739a6147b45fe09578fa5f2417"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_armor_tconstruct_pewter.png"
-hash = "3493a32585bb0f658c96c7c350a0fa468a94be23235e09742d3e22d780a2f19c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_armor_tconstruct_queens_slime.png"
-hash = "126d842b1f70a5ad68bd0b0a7a634b66da0629a775088a1b6f0b4584c52a7f30"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_armor_tconstruct_scorched_stone.png"
-hash = "d7ba08e55c2dc2eb24df6744600c480bdc55d024777548d70e53b3fceb0d9eff"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_armor_tconstruct_silver.png"
-hash = "c4925c492f092ae517cf69585920081480ac259ae270326d0422d436333edbf2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_leggings_gtceu_snow_steel.png"
-hash = "c10c649940ef317bcf9688faa4b1d65d3928fa99636b6391fea614fa44fef3b2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_leggings_tconstruct_copper.png"
-hash = "192f78f2c4ac93896095a73da0719b3ce67c127e5c5c7eef8f9c0eb95c6ec66a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_leggings_tconstruct_pewter.png"
-hash = "b1e8b8f54ae6ed11f64328038a9ed85896e77d170dfbe79112766ef78620025a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_leggings_tconstruct_queens_slime.png"
-hash = "06c139e647a41730d4dc3650545a9ef6ecf33f934e4cd3289d03d7ccc7baeef5"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_leggings_tconstruct_scorched_stone.png"
-hash = "b9b660ce62dbbc4f0027748742198078464e738c1e2aa4e1315f5ee56c9a14f8"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/embedded_leggings_tconstruct_silver.png"
-hash = "1fcb49087b95206972c0767a8e5c8b6917c300ee34fd45e77efacc882cb5fb5e"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_armor_gtceu_snow_steel.png"
-hash = "996cd1e980909be085838fd29c2e774658eff57ecd609233022b2de9138437b1"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_armor_tconstruct_copper.png"
-hash = "f8932875d456bb2014a0c6201e130490cd3298db18f4c321a5823a7e48204c9b"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_armor_tconstruct_pewter.png"
-hash = "7f5e1e723aee0e2ecb52ce2654211af86590fb30d4357fce64f8c86ed7cc711d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_armor_tconstruct_queens_slime.png"
-hash = "a231629348758553b0b93460247101a788d385bfecb71d23e3c226970d27b487"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_armor_tconstruct_scorched_stone.png"
-hash = "6d8d1d6eb4be16373bd9a6e39892f72fa1858447351dbefa6fc975ad7f16e514"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_armor_tconstruct_silver.png"
-hash = "1131b125ee3c078f1091c5cabdd611603f6523e9e48785f14d879b35e1721ffe"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_armor_tconstruct_twisting_vine.png"
-hash = "e26d8f749945583101f0d38b5cf928fd34708e37622868c36eb5225d47a1f725"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_leggings_gtceu_snow_steel.png"
-hash = "a202ac32ba09c79b0e91e84d77a1041518eff51fc8e0b93b110bc9e5e1f229eb"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_leggings_tconstruct_copper.png"
-hash = "c5c0d56eb8e1bac344ce780b6ca1d9c9a8697de9a09c50817e5ca20bed27d561"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_leggings_tconstruct_pewter.png"
-hash = "2bca31f490da3212bb150b8b2fe7c3414b52a89a9ed3d858b859aa0417b6f48c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_leggings_tconstruct_queens_slime.png"
-hash = "f5bb87117e5e37bfc72edf29086290a26aecfc94b6486f9ccdd3d5b725bf9c09"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_leggings_tconstruct_scorched_stone.png"
-hash = "71a6c9f24691ce69dd3cf1d998a33ab9ed6a0c8bdf826b4b7f8f379d94bdfa67"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_leggings_tconstruct_silver.png"
-hash = "38079495112e7fc011db224fe5881f1a213b1c7338d5f78ef33bdb22e97c8e4f"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_leggings_tconstruct_twisting_vine.png"
-hash = "8ee13a2af19e5c80cb871c227721d05ed6f78af9c95469378af88e10bbae9a4a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_leggings_ticex_neutron.png"
-hash = "1b0d26f21d93900974bcf3ec57a4310c8f5296c33f5f27be321464683c694662"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_wings_gtceu_snow_steel.png"
-hash = "23159075b30535478ad33fb5d0641fb25138321f93a0c5c5fe68920a739c380a"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_wings_tconstruct_copper.png"
-hash = "36b0de43ddbfc1543b3975b629d280fe13e113e432f17f56d8de0ed4f37c050c"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_wings_tconstruct_pewter.png"
-hash = "551ff8803c241dde7ae20e71626b4d21e923be118b95797c385ee927062ee0e4"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_wings_tconstruct_queens_slime.png"
-hash = "a36b6488a9050f8a3235ab897833cd46d219aec03a0627964253113fa9840589"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_wings_tconstruct_scorched_stone.png"
-hash = "2e9838b5691c17ee72d52e2c32f4efcf3a70d22059f463c436344dd2cb64dde2"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_wings_tconstruct_silver.png"
-hash = "207a0e74906d6cb07b993b1a26074d6c1edfe358790a7692a6b0dda2314f679d"
-
-[[files]]
-file = "kubejs/assets/sakuratinker/textures/tinker_armor/embedded/maille_wings_tconstruct_twisting_vine.png"
-hash = "e2d42cda4ac609e82e064cb38d1bc34c6323e95a01a7a3c173259825a12d5d16"
 
 [[files]]
 file = "kubejs/assets/tconstruct/lang/zh_cn.json"
@@ -7346,7 +5378,7 @@ hash = "df05f0685013019db9854f8a486a8c3e3a96780fc9f025fd3a800b91fea50ba5"
 
 [[files]]
 file = "kubejs/client_scripts/src/info.js"
-hash = "beddff7238e4f428fa079c9110bbbdfc64a9eb59d80df3840982359a60002a83"
+hash = "e566ba70f6b7ca28327e79c22786036963a75e4410b0d1d5a2a6f609e235f94b"
 
 [[files]]
 file = "kubejs/client_scripts/src/jeiaddition.js"
@@ -7410,7 +5442,7 @@ hash = "c3c9ef5b68557a450d1910c7facb5455041f502ec39c097f6a77efbeb48bc81d"
 
 [[files]]
 file = "kubejs/client_scripts/src/ponder/create_machine.js"
-hash = "7aee0124a293807d49b1a49e963c6fa988feb0f8fcb5c2a5bb63b251ba2e9d8e"
+hash = "320a561aa5375a51660083e79725de1f369d3dd0029930537d58fcdbc615f332"
 
 [[files]]
 file = "kubejs/client_scripts/src/ponder/gregtech_machine.js"
@@ -10697,20 +8729,8 @@ file = "kubejs/data/snowstructures/worldgen/template_pool/biome_specifics/plains
 hash = "37228beb4ed8c022701bbc0d3e39c9a8f8be1136261d4180fdd0ef27577003d6"
 
 [[files]]
-file = "kubejs/data/tconstruct/recipes/smeltery/casting/glass/block.json"
-hash = "a56348e0dacbcaa90d170c97b80a1c3bb594207bf1d7255aef005658dcbd84ce"
-
-[[files]]
-file = "kubejs/data/tconstruct/recipes/smeltery/casting/glass/pane.json"
-hash = "b53000ebc3f658c4de6251fa8b36f3d6f1598be8105eeb68a2af73911e3fe55d"
-
-[[files]]
-file = "kubejs/data/tconstruct/recipes/smeltery/casting/metal/snow_steel/block.json"
-hash = "174a3431c5d090bfd0b840cec2d238b38d4f2364f6b9a039935341d8b143f320"
-
-[[files]]
-file = "kubejs/data/tconstruct/recipes/smeltery/casting/metal/snow_steel/ingot.json"
-hash = "6f0c4526865259f7861eba82149ca5b1fb9dffb2cc3e229d2bf184f1a4d9bba9"
+file = "kubejs/data/tconstruct/recipes/smeltery/alloys/netherite.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/smeltery/melting/glass/block.json"
@@ -11846,7 +9866,7 @@ hash = "01fec46c430f39398e4f3db893718ed0324142dce89ae9d9b0bfcadd55a53cb5"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/AluminumChain.js"
-hash = "959beaca05636e1fc51b17f5a460bc9fa193f4591f3424e30de67db493288515"
+hash = "6aaa820daf77f80435d3acc0fbd5876d1d548ab09aa84a91779b5b014c50cc62"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/ChromiteChain.js"
@@ -11930,7 +9950,7 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "8705a6d77405baf6d38c8a97b7c17b282ede59001cd28cecaf23d520b082d9bd"
+hash = "7d0d727f80cee18af1213bf1975b01b8a8ac84067ee9f5f467a8626bbfeaae23"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/uhvParts.js"
@@ -11970,7 +9990,7 @@ hash = "bd24f12b53cf8270ee619a1398689c40c0df49d26de61b5e0bba5207511f6095"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "6aedffdaa18039c8368aab287db73587d9112c9664e41011dfd7a9feaa5643a5"
+hash = "18072886aa63997b2118e5c8a4342b0873be9705b015f2b072788de2a035e32b"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -12009,10 +10029,6 @@ file = "kubejs/server_scripts/src/tconstruct/tinkers.js"
 hash = "cdc2ed12146c1472bc1ecda293415cda0765b44e78f42f5bbe5cbfa559305c8a"
 
 [[files]]
-file = "kubejs/server_scripts/src/tconstruct/toolparts_register.js"
-hash = "650e3887e7c22192395e256a9be20e71eb0fbf969ac7db72c5248832f0185532"
-
-[[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
 hash = "a43dbdf9f3e10cd27316faa5cee36c4ff0a605211a780f9f1d8a05d5a86b53aa"
 
@@ -12046,11 +10062,11 @@ hash = "43aeb8b538df26fdf8dda16b8d8bfc4bd2953083b117aea6e6f950dec138e4a1"
 
 [[files]]
 file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"
-hash = "25bff30f2a479baebbd9eec5300166e5e6c8f21ef1a7aabe1aaac97f2824909d"
+hash = "e80a6a5b5f454719fe71ce45ac7f97f792665c9c161c194d4d75ebefcd58005e"
 
 [[files]]
 file = "mods/CTNH Core-1.4.0.jar"
-hash = "46a89804d74d4be109dad2f6cdbd4ebefb5dbfd4d0b067327a37bfa619fbd399"
+hash = "aee9ef1697b077d59fd130291421c735e48a15ebb0197d04438037542ddc140c"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -13209,7 +11225,11 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "c27b4af7a05baf0556c92ff5c797c576527c3e0edd359690ede1e27590663fe6"
+hash = "1c2128230b09c78b99f1883f812fb4a7e31e040a6915ad8294a37e9714c236af"
+
+[[files]]
+file = "replay_pid9064.log"
+hash = "05b0da68aa4896a53a5c0444fd489c7c03012b2494e97e998acd0cf09bc5bc76"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
