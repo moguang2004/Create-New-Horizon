@@ -89,8 +89,8 @@
 		{
 			id: "3C2BE641B560898E"
 			tasks: [{
-				id: "1EC37226397028F4"
-				item: "gtceu:oxygen_bucket"
+				id: "6106421186DABCC4"
+				item: "ad_astra:oxygen_bucket"
 				type: "item"
 			}]
 			x: 12.0d
@@ -1087,16 +1087,6 @@
 			y: 4.0d
 		}
 		{
-			id: "3D0B7EE92F022AF4"
-			tasks: [{
-				id: "550770FDDD057235"
-				item: "gtceu:seaborgium_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
 			id: "6B4E7F0EA1389CFE"
 			tasks: [{
 				id: "7F76F22D81920832"
@@ -1217,5 +1207,5 @@
 			y: 3.0d
 		}
 	]
-	title: "{ftbquests.chapter.4A4420704BDBEA5D.title}"
+	title: "&3元素周期表"
 }

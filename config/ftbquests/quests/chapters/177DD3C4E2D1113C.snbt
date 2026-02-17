@@ -18,6 +18,7 @@
 				MaxAoERow: 1
 			}
 			GT.Tool: {
+				DefaultEnchantments: [ ]
 				HarvestLevel: 2
 				MaxDamage: 767
 				ToolSpeed: 4.8f
@@ -1262,6 +1263,7 @@
 		{
 			dependencies: ["27F0DABAEDC00D7A"]
 			id: "724B4D5BE66CEEEA"
+			shape: "octagon"
 			size: 1.5d
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest8235761400680345322.subtitle}"
 			tasks: [{
@@ -1380,6 +1382,7 @@
 				"3C9769EB35BB245D"
 			]
 			id: "2BB03484D6971028"
+			size: 1.0d
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest3148073884672528424.subtitle}"
 			tasks: [{
 				id: "19B9754ACA92787A"
@@ -1639,7 +1642,7 @@
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest9203134307374146564.subtitle}"
 			tasks: [{
 				id: "156369CEF2DBB2DA"
-				item: "gtceu:taranium_powder_dust"
+				item: "gtceu:taranium_dust"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1753,7 +1756,7 @@
 			invisible: true
 			tasks: [{
 				id: "10CFB9D503D8511E"
-				item: "gtceu:taranium_powder_dust"
+				item: "gtceu:taranium_dust"
 				type: "item"
 			}]
 			x: 13.5d
@@ -2215,6 +2218,7 @@
 			y: 12.0d
 		}
 		{
+			icon: "gtceu:uv_machine_hull"
 			id: "12BAF2B7FB2E3643"
 			tasks: [{
 				id: "6D888DD2B4AB01D4"
@@ -2226,6 +2230,7 @@
 			y: 15.5d
 		}
 		{
+			icon: "gtceu:uhv_machine_hull"
 			id: "5F669351E929DE13"
 			tasks: [{
 				id: "1A2D771D11092AFB"
@@ -2236,6 +2241,7 @@
 			y: 12.5d
 		}
 		{
+			icon: "gtceu:uev_machine_hull"
 			id: "7C250EA72ABD6BB4"
 			tasks: [{
 				id: "4FBFA0E1DDC049BA"
@@ -2257,6 +2263,206 @@
 			x: 23.5d
 			y: 5.0d
 		}
+		{
+			id: "5FB6AF2ED472FDE3"
+			tasks: [{
+				id: "74C842C66C571758"
+				item: "gtceu:vanadium_pentoxide_dust"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5FB6AF2ED472FDE3"]
+			id: "49E73B48FF7B32B2"
+			tasks: [{
+				id: "390369970A0E1E80"
+				item: "gtceu:phthalic_anhydride_dust"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"49E73B48FF7B32B2"
+				"5B74755F01EAA98C"
+			]
+			id: "5357B5D3CF9CA99B"
+			tasks: [{
+				id: "7ABD108CE255F66B"
+				item: "gtceu:ethyl_anthra_quinone_bucket"
+				type: "item"
+			}]
+			x: 29.0d
+			y: -2.5d
+		}
+		{
+			id: "5B74755F01EAA98C"
+			tasks: [{
+				id: "03B272914489AF88"
+				item: "gtceu:ethylbenzene_bucket"
+				type: "item"
+			}]
+			x: 29.0d
+			y: -1.5d
+		}
+		{
+			id: "702514667DE21D74"
+			tasks: [{
+				id: "32DE4A687636EFC6"
+				item: "ctnhcore:orange_metal"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"702514667DE21D74"
+				"5357B5D3CF9CA99B"
+				"6A61EF807432B96B"
+			]
+			id: "127C09CE25750566"
+			tasks: [{
+				id: "2E6026C628A426E5"
+				item: "gtceu:ethyl_anthra_hydro_quinone_bucket"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -2.5d
+		}
+		{
+			id: "6A61EF807432B96B"
+			tasks: [{
+				id: "53A5888DF2B04D6F"
+				item: "gtceu:anthracene_bucket"
+				type: "item"
+			}]
+			x: 30.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B42DDFCF2BCACF1"]
+			id: "655B36348B6E14FA"
+			subtitle: "{ftbquests.chapter.ev.quest7303490820016837882.subtitle}"
+			tasks: [{
+				id: "241C611DE1657D6E"
+				item: "gtceu:piranha_solution_bucket"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"127C09CE25750566"
+				"287D7ADB01D8D58F"
+			]
+			dependency_requirement: "one_completed"
+			id: "6B42DDFCF2BCACF1"
+			tasks: [{
+				id: "248B52C6304891C2"
+				item: "gtceu:hydrogen_peroxide_bucket"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -2.5d
+		}
+		{
+			id: "287D7ADB01D8D58F"
+			subtitle: "{ftbquests.chapter.ev.quest2917623214653363599.subtitle}"
+			tasks: [{
+				id: "0775F71F199C0333"
+				title: "{ftbquests.chapter.ev.quest2917623214653363599.task.537607443486343987.title}"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0455B6876AA894D4"
+				"6B42DDFCF2BCACF1"
+			]
+			dependency_requirement: "one_completed"
+			id: "6C89FED370C5B2E8"
+			tasks: [{
+				id: "62EB7BB683D58167"
+				item: "gtceu:cubic_zirconia_dust"
+				type: "item"
+			}]
+			x: 35.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["733EB93565304647"]
+			id: "0455B6876AA894D4"
+			tasks: [{
+				id: "22D083B9293DAD30"
+				item: "gtceu:zr_hf_oxy_chloride_bucket"
+				type: "item"
+			}]
+			x: 35.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0DA6F0E8CADCCF30"]
+			id: "733EB93565304647"
+			tasks: [{
+				id: "19D5261792EF4A65"
+				item: "gtceu:zr_hf_chloride_bucket"
+				type: "item"
+			}]
+			x: 35.0d
+			y: -4.5d
+		}
+		{
+			id: "0DA6F0E8CADCCF30"
+			tasks: [{
+				count: 16L
+				id: "56559BA731DD3FAB"
+				item: "gtceu:raw_zircon"
+				type: "item"
+			}]
+			x: 35.0d
+			y: -5.5d
+		}
+		{
+			id: "5D1450926BCF288B"
+			invisible: true
+			subtitle: "{ftbquests.chapter.ev.quest6707074334865696907.subtitle}"
+			tasks: [{
+				id: "2EFE7AC41D56E14C"
+				item: "gtceu:zirconium_dust"
+				type: "item"
+			}]
+			x: 37.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5D1450926BCF288B"
+				"6C89FED370C5B2E8"
+			]
+			dependency_requirement: "one_completed"
+			id: "4F0985AF7092A609"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "341BEAA7AA3E8249"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1AB745DF6DC28F3E"
+				item: "gtceu:zirconium_dust"
+				type: "item"
+			}]
+			x: 37.5d
+			y: -2.5d
+		}
 	]
-	title: "{ftbquests.chapter.177DD3C4E2D1113C.title}"
+	title: "&e矿物处理"
 }

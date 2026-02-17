@@ -1,7 +1,8 @@
 ServerEvents.recipes(event => {
     let ingots = ["tin", "silver", "lead", "nickel", "vibrant_alloy", "energetic_alloy", "pulsalting_alloy", "dark_steel", "end_steel", "conductive_alloy", "redstone_alloy", "copper_alloy", "soularium",
         "uranium", "osmium", "zinc", "cobalt", "iridium", "brass", "bronze", "constantan", "electrum", "steel", "sulfur", "ender_pearl",
-        "calorite", "desh", "ostrum"]
+        "calorite", "desh", "ostrum"
+    ]
     let mod = "gtceu"
 
     for (let i of ingots) {
@@ -106,7 +107,7 @@ ServerEvents.recipes(event => {
     event.replaceOutput({ not: { mod: "gtceu" } }, "#forge:ingots/pulsating_alloy", "gtceu:pulsating_alloy_ingot")
     event.replaceInput({ mod: "create", not: { or: [{ type: "create:mixing" }, { type: "create:compacting" }, { type: "create:cutting" }, { type: "create:mechanical_crafting" }, { id: "create:crafting/materials/copper_nugget" }] } }, "minecraft:copper_ingot", "gtceu:bronze_ingot")
     event.replaceInput({ mod: "create", not: { or: [{ type: "create:mixing" }, { type: "create:compacting" }, { type: "create:cutting" }, { type: "create:mechanical_crafting" }] } }, "gtceu:copper_plate", "gtceu:bronze_plate")
-    event.replaceInput({id:'create_connected:crafting/kinetics/fluid_vessel'},"gtceu:copper_plate", "gtceu:bronze_plate")
+    event.replaceInput({ id: 'create_connected:crafting/kinetics/fluid_vessel' }, "gtceu:copper_plate", "gtceu:bronze_plate")
     event.replaceInput({ id: "create:crafting/kinetics/steam_engine" }, "minecraft:copper_block", "gtceu:bronze_block")
     event.replaceOutput({ id: "create:milling/andesite" }, "minecraft:cobblestone", "gtceu:andesite_dust")
     event.replaceInput({ id: "create:crafting/logistics/andesite_funnel" }, "gtceu:andesite_alloy_ingot", "gtceu:andesite_alloy_plate")
@@ -114,9 +115,6 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: "create:crafting/logistics/brass_funnel" }, "gtceu:brass_ingot", "gtceu:brass_plate")
     event.replaceInput({ id: "create:crafting/logistics/brass_tunnel" }, "gtceu:brass_ingot", "gtceu:brass_plate")
     event.replaceInput({ output: "create:brass_casing" }, "gtceu:brass_ingot", "gtceu:brass_plate")
-    event.replaceInput({}, "#forge:dusts/sulfur", "gtceu:sulfur_dust")
-    event.replaceOutput({}, "#forge:dusts/sulfur", "gtceu:sulfur_dust")
-    event.replaceOutput({}, "bloodmagic:sulfur", "gtceu:sulfur_dust")
     event.replaceInput({}, "biomesoplenty:cherry_wood", "minecraft:cherry_wood")
     event.replaceOutput({}, "create:powered_obsidian", "gtceu:obsidian_dust")
     event.replaceInput({}, "create:powered_obsidian", "gtceu:obsidian_dust")
@@ -130,14 +128,14 @@ ServerEvents.recipes(event => {
     event.replaceInput({}, "enderio:powdered_quartz", "gtceu:nether_quartz_dust")
     event.replaceInput({}, "gtceu:refined_radiance_ingot", "create:refined_radiance")
     event.replaceInput({}, "gtceu:shadow_steel_ingot", "create:shadow_steel")
-    event.replaceInput({}, "#forge:dusts/quartz",'gtceu:nether_quartz_dust')
-    event.replaceInput({id: 'create_new_age:cutting/copper_sheet'}, "gtceu:copper_plate",'gtceu:double_copper_plate')
-    let bloodMagicRune = ['bloodmagic:blood_rune_speed_2','bloodmagic:blood_rune_sac_2','bloodmagic:blood_rune_self_sac_2',
-                                    'bloodmagic:blood_rune_displacement_2','bloodmagic:blood_rune_capacity_2','bloodmagic:blood_rune_aug_capacity_2',
-                                    'bloodmagic:blood_rune_orb_2','bloodmagic:blood_rune_acceleration_2','bloodmagic:blood_rune_charging_2']
+    event.replaceInput({}, "#forge:dusts/quartz", 'gtceu:nether_quartz_dust')
+    event.replaceInput({ id: 'create_new_age:cutting/copper_sheet' }, "gtceu:copper_plate", 'gtceu:double_copper_plate')
+    let bloodMagicRune = ['bloodmagic:blood_rune_speed_2', 'bloodmagic:blood_rune_sac_2', 'bloodmagic:blood_rune_self_sac_2',
+        'bloodmagic:blood_rune_displacement_2', 'bloodmagic:blood_rune_capacity_2', 'bloodmagic:blood_rune_aug_capacity_2',
+        'bloodmagic:blood_rune_orb_2', 'bloodmagic:blood_rune_acceleration_2', 'bloodmagic:blood_rune_charging_2'
+    ]
     bloodMagicRune.forEach(runeid => {
-        event.replaceInput({id:runeid},'minecraft:netherite_scrap','minecraft:netherite_ingot')
-        event.replaceInput({id:runeid},'bloodmagic:etherealslate','kubejs:endslate')
+        event.replaceInput({ id: runeid }, 'minecraft:netherite_scrap', 'minecraft:netherite_ingot')
     })
     event.replaceInput({}, "#forge:storage_blocks/nether_star", "gtceu:nether_star_block")
     event.replaceOutput({}, "#forge:storage_blocks/nether_star", "gtceu:nether_star_block")

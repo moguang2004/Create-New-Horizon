@@ -173,6 +173,7 @@
 						]
 					}
 				}
+				title: "搅搅搅"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.lv.quest4965738806415978537.title}"
@@ -524,8 +525,9 @@
 			y: -1.0d
 		}
 		{
+			description: [""]
 			id: "471F881828CFF6A6"
-			subtitle: "辉钴矿粉在电力高炉内可以产生它的氧化物"
+			subtitle: "建议用三氧化二砷"
 			tasks: [{
 				id: "058016E76E3EEE36"
 				item: "gtceu:arsenic_dust"
@@ -610,7 +612,7 @@
 			subtitle: "{ftbquests.chapter.lv.quest3201988049362466317.subtitle}"
 			tasks: [{
 				id: "621BD7226FA2140E"
-				item: "kubejs:mana_electronic_circuit"
+				item: "ctnhmana:mana_electronic_circuit"
 				type: "item"
 			}]
 			x: 11.5d
@@ -1135,5 +1137,5 @@
 		}
 	]
 	subtitle: ["{ftbquests.chapter.lv.subtitle0}"]
-	title: "{ftbquests.chapter.lv.title}"
+	title: "&7LV时期"
 }

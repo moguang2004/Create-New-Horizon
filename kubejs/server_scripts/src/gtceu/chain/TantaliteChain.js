@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
     //赤铁矿合成
     ctnh.chemical_reactor('gtceu:hematite_dust')
         .itemInputs('4x gtceu:iron_dust')
-        .inputFluids(Fluid.of('gtceu:oxygen', 6000))
+        .inputFluids(Fluid.of('ad_astra:oxygen', 6000))
         .itemOutputs('10x gtceu:hematite_dust')
         .EUt(24)
         .duration(80)

@@ -48,11 +48,11 @@ ServerEvents.recipes(event => {
 
         C: "minecraft:redstone_torch",
 
-        D: 'gtceu:steel_rod',
+        D: 'gtceu:wrought_iron_rod',
 
         E: "minecraft:redstone",
 
-        F: 'gtceu:steel_plate',
+        F: 'gtceu:wrought_iron_plate',
 
         G: "minecraft:iron_bars",
 
@@ -124,36 +124,6 @@ ServerEvents.recipes(event => {
         D: 'gtceu:hv_machine_casing'
     })
 
-    // event.recipes.create.mechanical_crafting('gtceu:nan_certificate', [
-    //     "ABBCCCBBA",
-    //     "BDEFGFEDB",
-    //     "BEHIJIHEB",
-    //     "CKIJLJIMC",
-    //     "CNJOPOJNC",
-    //     "CKIJQJIMC",
-    //     "BEHIJIHEB",
-    //     "BDERGREDB",
-    //     "ABBCCCBBA"
-    // ], {
-    //     A: "gtceu:uhv_sensor",
-    //     B: "gtceu:uhv_electric_pump",
-    //     C: "gtceu:uhv_electric_motor",
-    //     D: 'gtmthings:uhv_wireless_energy_receive_cover',
-    //     E: "gtceu:elementium_gear",
-    //     F: "ars_nouveau:summon_focus",
-    //     G: "bloodmagic:reagentsuppression",
-    //     H: "gtceu:uhv_robot_arm",
-    //     I: "gtmthings:uhv_huge_dual_hatch",
-    //     J: "gtceu:gravi_star",
-    //     K: "cataclysm:cursium_ingot",
-    //     L: "bigger_ae2:quantum_item_storage_cell",
-    //     M: "cataclysm:ignitium_ingot",
-    //     N: "gtceu:ultra_mana_frame",
-    //     O: "gtceu:max_battery",
-    //     P: "gtceu:uhv_field_generator",
-    //     Q: "bigger_ae2:quantum_fluid_storage_cell",
-    //     R: "apotheosis:infused_breath"
-    // })
 
     event.recipes.create.mechanical_crafting('ctnhcore:martial_morality_eye', [
         "ABCCCBA",
@@ -166,7 +136,7 @@ ServerEvents.recipes(event => {
     ], {
         A: 'gtceu:lp_steam_rock_crusher',
 
-        B: 'kubejs:heavy_machinery_casing',
+        B: 'ctpp:heavy_machinery_casing',
 
         C: 'create:mechanical_drill',
 
@@ -471,7 +441,7 @@ ServerEvents.recipes(event => {
             event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:cement', 250)])
         ]).transitionalItem(transitional)
         .loops(2)
-    event.remove({ output: 'gtceu:firebricks' })
+
 })
 
 ServerEvents.recipes(event => {
@@ -482,6 +452,19 @@ ServerEvents.recipes(event => {
             event.recipes.createCutting(transitional, [transitional]),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:lignin_dust']),
             event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:creosote', 250)]),
+            event.recipes.createPressing(transitional, [transitional]),
+        ]).transitionalItem(transitional)
+        .loops(1)
+})
+
+ServerEvents.recipes(event => {
+    let transitional = 'gtceu:steam_machine_casing'
+    event.recipes.create.sequenced_assembly([
+            'gtceu:industrial_steam_casing'
+        ], 'gtceu:steam_machine_casing', [
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:brass_plate']),
+            event.recipes.createDeploying(transitional, [transitional, 'gtceu:brass_plate']),
+            event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:soldering_alloy', 144)]),
             event.recipes.createPressing(transitional, [transitional]),
         ]).transitionalItem(transitional)
         .loops(1)

@@ -138,7 +138,7 @@
 			id: "2711272E77A7FB25"
 			tasks: [{
 				id: "28AAE025B1593D81"
-				item: "alexsmobs:moose_ribs"
+				item: "minecraft:honey_bottle"
 				type: "item"
 			}]
 			x: 40.0d
@@ -148,7 +148,7 @@
 			id: "17401701C09891CA"
 			tasks: [{
 				id: "34640A6BE9B17AAA"
-				item: "alexsmobs:kangaroo_meat"
+				item: "alexscaves:dinosaur_nugget"
 				type: "item"
 			}]
 			x: 34.0d
@@ -288,10 +288,9 @@
 		}
 		{
 			id: "66850F5B7B71AA29"
-			subtitle: "{ftbquests.chapter.74D640CFCA75E891.quest7387327649358653993.subtitle}"
 			tasks: [{
 				id: "7909477FA5EAAE87"
-				item: "alexsmobs:void_worm_eye"
+				item: "minecraft:ochre_froglight"
 				type: "item"
 			}]
 			x: 37.0d
@@ -373,7 +372,7 @@
 			id: "4E0B64639773BBCE"
 			tasks: [{
 				id: "225A70A98FE17F40"
-				item: "alexsmobs:mosquito_repellent_stew"
+				item: "minecraft:suspicious_stew"
 				type: "item"
 			}]
 			x: 49.0d
@@ -590,6 +589,7 @@
 						gem: "apotheosis:core/warlord"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 61.0d
@@ -599,7 +599,7 @@
 			id: "5E33C41E68B10492"
 			tasks: [{
 				id: "1DB337A1AED34FBA"
-				item: "kubejs:elf_catalyst"
+				item: "ctnhmana:elf_catalyst"
 				type: "item"
 			}]
 			x: 62.5d
@@ -709,6 +709,7 @@
 						Material: "tconstruct:manyullyn"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 67.0d
@@ -847,7 +848,7 @@
 			id: "5776BBE4F103D22C"
 			tasks: [{
 				id: "3117E82058D15696"
-				item: "alexsmobs:transmutation_table"
+				item: "biomancy:bio_lantern_blue"
 				type: "item"
 			}]
 			x: 62.5d
@@ -918,5 +919,5 @@
 			y: -10.0d
 		}
 	]
-	title: "{ftbquests.chapter.74D640CFCA75E891.title}"
+	title: "&bP+催化剂_α=C→E"
 }

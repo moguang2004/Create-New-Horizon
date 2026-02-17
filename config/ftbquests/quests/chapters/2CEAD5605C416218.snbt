@@ -419,20 +419,12 @@
 				type: "random"
 			}]
 			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2072698371376301891.subtitle}"
-			tasks: [
-				{
-					id: "0E8DF40A39FEE802"
-					item: "gtceu:mv_mixer"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "670FB78805FFA78D"
-					item: "ctpp:mv_kinetic_mixer"
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0E8DF40A39FEE802"
+				item: "gtceu:mv_mixer"
+				optional_task: true
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest2072698371376301891.title}"
 			x: -6.5d
 			y: 1.0d
@@ -573,7 +565,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4594C3CB08FB0A4E"]
@@ -703,30 +695,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4594C3CB08FB0A4E"]
-			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest5176401593434588822.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest5176401593434588822.description2}"
-			]
-			icon: "gtmthings:wireless_fluid_transfer_cover"
-			id: "47D645D2CF6F4696"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "04965CDA3AF1BDCE"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5176401593434588822.subtitle}"
-			tasks: [{
-				id: "65408B9B64EB958A"
-				item: "gtmthings:wireless_fluid_transfer_cover"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest5176401593434588822.title}"
-			x: -6.5d
-			y: 3.0d
-		}
-		{
 			description: [
 				"{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.description1}"
 				"{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.description2}"
@@ -833,20 +801,27 @@
 				type: "random"
 			}]
 			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6063496566813628665.subtitle}"
-			tasks: [
-				{
-					id: "7986355C842E2C15"
-					item: "gtceu:hv_mixer"
-					optional_task: true
-					type: "item"
+			tasks: [{
+				id: "19483A3569B1B4CD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:hv_mixer"
+							}
+							{
+								Count: 1b
+								id: "ctnhcore:mechanical_mixer"
+							}
+						]
+					}
 				}
-				{
-					id: "431A51F9A5F7DE49"
-					item: "ctpp:hv_kinetic_mixer"
-					optional_task: true
-					type: "item"
-				}
-			]
+				title: "搅拌"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest6063496566813628665.title}"
 			x: -1.5d
 			y: 5.0d
@@ -1651,7 +1626,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "3E595757170AD63F"
-				item: "kubejs:heavy_machinery_casing"
+				item: "ctpp:heavy_machinery_casing"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest3400156361485896002.title}"
@@ -1660,5 +1635,5 @@
 		}
 	]
 	subtitle: ["{ftbquests.chapter.2CEAD5605C416218.subtitle0}"]
-	title: "{ftbquests.chapter.2CEAD5605C416218.title}"
+	title: "&0石油化工"
 }

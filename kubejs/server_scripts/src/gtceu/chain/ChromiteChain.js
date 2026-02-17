@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_chromite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_ruby' })
+    
     event.replaceOutput({id: 'gtceu:macerator/macerate_ruby_refined_ore_to_dust'},'gtceu:chromium_dust','gtceu:chromite_dust')
     event.replaceOutput({id: 'gtceu:macerator/macerate_ruby_crushed_ore_to_impure_dust'},'gtceu:chromium_dust','gtceu:chromite_dust')
     event.replaceOutput({id: 'gtceu:macerator/macerate_raw_ruby_ore_to_crushed_ore'},'gtceu:chromium_dust','gtceu:chromite_dust')
@@ -17,7 +16,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.gtceu.chemical_reactor('sodium_chromate_from_sodium_carbonate')
         .itemInputs('14x gtceu:chromite_dust')
-        .inputFluids('gtceu:oxygen 7000')
+        .inputFluids('ad_astra:oxygen 7000')
         .inputFluids('gtceu:sodium_carbonate_solution 2000')
         .itemOutputs('7x gtceu:magnetite_dust')
         .outputFluids('gtceu:carbon_dioxide 2000')

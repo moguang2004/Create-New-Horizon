@@ -1,19 +1,9 @@
 ServerEvents.recipes(event => {
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_andradite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_ferrosilite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_wollastonite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_obsidian' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_talc' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_soapstone' })
-    event.remove({ id: 'gtceu:electrolyzer/bentonite_electrolysis' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_asbestos' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_uvarovite' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_fullers_earth' })
+    
     event.replaceOutput({ id: 'gtceu:electrolyzer/zeolite_electrolysis' }, 'gtceu:aluminium_dust', 'gtceu:alumina_dust')
     event.replaceOutput({ id: 'gtceu:electrolyzer/zeolite_electrolysis' }, 'gtceu:silicon_dust', 'gtceu:silicon_dioxide_dust')
     event.replaceOutput({ id: 'gtceu:centrifuge/decomposition_centrifuging__redstone' }, 'gtceu:silicon_dust', 'gtceu:silicon_dioxide_dust')
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_silicon_dioxide' })
-    event.remove({ id: 'gtceu:electrolyzer/decomposition_electrolyzing_silicon_fluoride' })
+    
 
 
 
@@ -22,19 +12,19 @@ ServerEvents.recipes(event => {
         .duration(480)
         .itemInputs('20x gtceu:andradite_dust')
         .itemOutputs(['2x gtceu:iron_dust', '3x gtceu:calcium_dust', '9x gtceu:silicon_dioxide_dust'])
-        .outputFluids(Fluid.of('gtceu:oxygen', 6000))
+        .outputFluids(Fluid.of('ad_astra:oxygen', 6000))
     event.recipes.gtceu.electrolyzer('ferrosilite')//铁辉石
         .EUt(60)
         .duration(120)
         .itemInputs('5x gtceu:ferrosilite_dust')
         .itemOutputs(['gtceu:iron_dust', '3x gtceu:silicon_dioxide_dust'])
-        .outputFluids(Fluid.of('gtceu:oxygen', 1000))
+        .outputFluids(Fluid.of('ad_astra:oxygen', 1000))
     event.recipes.gtceu.electrolyzer('wollastonite')//钙辉石
         .EUt(60)
         .duration(110)
         .itemInputs('5x gtceu:wollastonite_dust')
         .itemOutputs(['gtceu:calcium_dust', '3x gtceu:silicon_dioxide_dust'])
-        .outputFluids(Fluid.of('gtceu:oxygen', 1000))
+        .outputFluids(Fluid.of('ad_astra:oxygen', 1000))
     event.recipes.gtceu.electrolyzer('obsidian')//黑曜石 
         .EUt(60)
         .duration(192)
@@ -45,14 +35,14 @@ ServerEvents.recipes(event => {
         .duration(378)
         .itemInputs('21x gtceu:talc_dust')
         .itemOutputs(['3x gtceu:magnesium_dust', '12x gtceu:silicon_dioxide_dust'])
-        .outputFluids(Fluid.of('gtceu:oxygen', 4000))
+        .outputFluids(Fluid.of('ad_astra:oxygen', 4000))
         .outputFluids(Fluid.of('gtceu:hydrogen', 2000))
     event.recipes.gtceu.electrolyzer('soapstone')//皂石
         .EUt(60)
         .duration(378)
         .itemInputs('21x gtceu:soapstone_dust')
         .itemOutputs(['3x gtceu:magnesium_dust', '12x gtceu:silicon_dioxide_dust'])
-        .outputFluids(Fluid.of('gtceu:oxygen', 4000))
+        .outputFluids(Fluid.of('ad_astra:oxygen', 4000))
         .outputFluids(Fluid.of('gtceu:hydrogen', 2000))
     event.recipes.gtceu.electrolyzer('bentonite')//膨润土
         .EUt(60)
@@ -66,20 +56,20 @@ ServerEvents.recipes(event => {
         .duration(252)
         .itemInputs('18x gtceu:asbestos_dust')
         .itemOutputs(['3x gtceu:magnesium_dust', '6x gtceu:silicon_dioxide_dust'])
-        .outputFluids(Fluid.of('gtceu:oxygen', 5000))
+        .outputFluids(Fluid.of('ad_astra:oxygen', 5000))
         .outputFluids(Fluid.of('gtceu:hydrogen', 4000))
     event.recipes.gtceu.electrolyzer('uvarovite')//钙铬榴石 
         .EUt(360)
         .duration(480)
         .itemInputs('20x gtceu:uvarovite_dust')
         .itemOutputs(['3x gtceu:calcium_dust', '2x gtceu:chromium_dust', '9x gtceu:silicon_dioxide_dust'])
-        .outputFluids(Fluid.of('gtceu:oxygen', 6000))
+        .outputFluids(Fluid.of('ad_astra:oxygen', 6000))
     event.recipes.gtceu.electrolyzer('fullers_earth')//漂白土
         .EUt(60)
         .duration(336)
         .itemInputs('21x gtceu:fullers_earth_dust')
         .itemOutputs(['gtceu:magnesium_dust', '12x gtceu:silicon_dioxide_dust'])
-        .outputFluids(Fluid.of('gtceu:oxygen', 3000))
+        .outputFluids(Fluid.of('ad_astra:oxygen', 3000))
         .outputFluids(Fluid.of('gtceu:hydrogen', 1000))
         .outputFluids(Fluid.of('minecraft:water', 4000))
 

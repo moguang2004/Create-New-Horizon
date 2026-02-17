@@ -500,25 +500,7 @@
 			y: -6.0d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.ae2.quest2180493370919670524.description1}"
-				"{ftbquests.chapter.ae2.quest2180493370919670524.description2}"
-			]
-			id: "1E42AB2B08C2D2FC"
-			tasks: [{
-				id: "1403CED18448D0D3"
-				item: "ae2:semi_dark_monitor"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.ae2.quest2180493370919670524.title}"
-			x: 3.5d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"1E42AB2B08C2D2FC"
-				"6D3910690218D0E3"
-			]
+			dependencies: ["6D3910690218D0E3"]
 			id: "071285C288ECD6B8"
 			tasks: [{
 				id: "5A89078EA30D3E25"
@@ -697,7 +679,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["1E42AB2B08C2D2FC"]
 			description: ["{ftbquests.chapter.ae2.quest2407258047972625819.description1}"]
 			id: "21684C70C01BCD9B"
 			subtitle: "变聪明了！"
@@ -1614,10 +1595,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"4A02AB33931358B6"
-				"41E48BCAEAD9D47E"
-			]
+			dependencies: ["41E48BCAEAD9D47E"]
 			id: "0EB3441858295940"
 			tasks: [{
 				id: "186B36D37C64AB3E"
@@ -1628,10 +1606,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"0EB3441858295940"
-				"2D662EFDE7A39BB8"
-			]
+			dependencies: ["2D662EFDE7A39BB8"]
 			id: "0D80334B81800DE2"
 			tasks: [{
 				id: "0BDAEE662003AEEF"
@@ -1642,10 +1617,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"0D80334B81800DE2"
-				"3AE584B3EBC63A09"
-			]
+			dependencies: ["3AE584B3EBC63A09"]
 			id: "3AB0D8AB38C9EDDB"
 			tasks: [{
 				id: "548528A21EA44624"
@@ -1656,10 +1628,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"3AB0D8AB38C9EDDB"
-				"607209201C6B08C3"
-			]
+			dependencies: ["607209201C6B08C3"]
 			id: "162450D725403B61"
 			tasks: [{
 				id: "08354B94FDFDEEA8"
@@ -1670,10 +1639,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"162450D725403B61"
-				"216D57DF2B38AB9D"
-			]
+			dependencies: ["216D57DF2B38AB9D"]
 			id: "01A27E5E53509CFA"
 			tasks: [{
 				id: "64F3BACF6AECDFCA"
@@ -1712,10 +1678,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"7B5C04B50652F1FF"
-				"0D88A5F86881FB3B"
-			]
+			dependencies: ["0D88A5F86881FB3B"]
 			id: "718C9032898CDED4"
 			tasks: [{
 				id: "6B5A31076A4A1EEB"
@@ -1726,10 +1689,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"718C9032898CDED4"
-				"019F2136970CA2E1"
-			]
+			dependencies: ["019F2136970CA2E1"]
 			id: "66B5A15CD10AD3F9"
 			tasks: [{
 				id: "65D0CA8B40573440"
@@ -1740,10 +1700,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"66B5A15CD10AD3F9"
-				"03F6BCDB99059FD4"
-			]
+			dependencies: ["03F6BCDB99059FD4"]
 			id: "6D442B2854D5D2AD"
 			tasks: [{
 				id: "10ED7A7E770F4C12"
@@ -2160,6 +2117,24 @@
 			x: 20.0d
 			y: 2.5d
 		}
+		{
+			dependencies: [
+				"071285C288ECD6B8"
+				"21684C70C01BCD9B"
+			]
+			description: ["包含自动搜索、快捷上传样板等功能"]
+			id: "4D69AA45057F6027"
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "最伟大的发明"
+			tasks: [{
+				id: "6688B75B4D382A91"
+				item: "ae2pw:pattern_workstation"
+				type: "item"
+			}]
+			x: 3.5999999999999996d
+			y: -2.4d
+		}
 	]
-	title: "{ftbquests.chapter.ae2.title}"
+	title: "&9应用能源2"
 }

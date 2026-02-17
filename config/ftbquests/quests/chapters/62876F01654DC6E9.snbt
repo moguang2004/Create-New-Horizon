@@ -17,17 +17,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "7310599945A8C3F8"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest8291225428822639608.subtitle}"
-			tasks: [{
-				id: "5C86A90F9A053934"
-				item: "create:brown_toolbox"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.0d
-		}
-		{
 			id: "155071A992CAE0F3"
 			rewards: [
 				{
@@ -1487,23 +1476,6 @@
 			y: -1.0d
 		}
 		{
-			id: "36F4AAB866B59908"
-			subtitle: "{ftbquests.chapter.62876F01654DC6E9.quest3959977681339390216.subtitle}"
-			tasks: [{
-				id: "1D924C0D9D3CC4EA"
-				item: {
-					Count: 1
-					id: "alexsmobs:rocky_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["2460426DE77EF0F4"]
 			description: ["{ftbquests.chapter.62876F01654DC6E9.quest7314043898419377939.description1}"]
 			icon: "gtceu:causality_hazard_sign_block"
@@ -1606,6 +1578,16 @@
 			x: 11.0d
 			y: 6.0d
 		}
+		{
+			id: "784F5F1EEE68764D"
+			tasks: [{
+				id: "19EDDD249E978A85"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
 	]
-	title: "{ftbquests.chapter.62876F01654DC6E9.title}"
+	title: "&3实用小工具"
 }

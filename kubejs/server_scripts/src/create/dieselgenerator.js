@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
     A: 'ctpp:steel_mechanism',
     B: 'create:hose_pulley',
     C: 'create:copper_casing',
-    D: 'kubejs:steel_casing',
+    D: 'ctpp:steel_casing',
     E: 'minecraft:chain',
     F: 'create:fluid_pipe'
   }).id('createdieselgenerators:crafting/pumpjack_hole')
@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
   ], {
     A: 'gtceu:steel_plate',
     B: 'create:mechanical_bearing',
-    C: 'kubejs:heavy_machinery_casing'
+    C: 'ctpp:heavy_machinery_casing'
   }).id('createdieselgenerators:crafting/pumpjack_bearing')
   event.shaped(
     Item.of('createdieselgenerators:basin_lid', 1), [
@@ -48,8 +48,8 @@ ServerEvents.recipes(event => {
   event.replaceInput({ id: 'createdieselgenerators:mechanical_crafting/pumpjack_crank' }, 'gtceu:iron_plate', 'gtceu:steel_plate')
   event.replaceInput({ id: 'createdieselgenerators:mechanical_crafting/pumpjack_crank' }, 'gtceu:zinc_ingot', 'gtceu:zinc_plate')
   event.remove({ id: 'createdieselgenerators:crafting/engine_piston_from_rods' })
-  event.recipes.create.item_application('kubejs:steel_casing', ['gtceu:treated_wood_planks', 'gtceu:wrought_iron_plate'])
-  event.recipes.create.item_application('kubejs:heavy_machinery_casing', ['kubejs:steel_casing', 'gtceu:steel_plate'])
+  event.recipes.create.item_application('ctpp:steel_casing', ['gtceu:treated_wood_planks', 'gtceu:wrought_iron_plate'])
+  event.recipes.create.item_application('ctpp:heavy_machinery_casing', ['ctpp:steel_casing', 'gtceu:steel_plate'])
 
   event.recipes.create.mixing(Fluid.of('gtceu:emulsified_bitumen_slurry',1000),[Fluid.of('gtceu:bitumen',800),Fluid.of('gtceu:simple_emulgator',200)])
   event.recipes.create.compacting([Fluid.of('gtceu:emulsified_bitumen',1000),'2x gtceu:oil_refined_residues_dust','1x gtceu:salt_dust'],Fluid.of('gtceu:emulsified_bitumen_slurry',1000))

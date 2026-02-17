@@ -1073,7 +1073,7 @@
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest7516625646792501119.subtitle}"
 			tasks: [{
 				id: "0BDA0EB279AFADAC"
-				item: "kubejs:endslate"
+				item: "ctnhmana:endslate"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1087,7 +1087,7 @@
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest2381313183643771568.subtitle}"
 			tasks: [{
 				id: "3D44922C0B951214"
-				item: "ctnhcore:meteor_capturer"
+				item: "ctnhmana:meteor_capturer"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1171,5 +1171,5 @@
 			y: 5.0d
 		}
 	]
-	title: "{ftbquests.chapter.71282A84EFB2E6DD.title}"
+	title: "&4血魔法"
 }

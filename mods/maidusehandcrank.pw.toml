@@ -1,0 +1,13 @@
+name = "MaidUseHandCrank"
+filename = "MaidUseHandCrank_1.5.3-forge_47.1.33-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "676d897d014fd242ab32552cdaa9273233a8b943"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7513397
+project-id = 1347168

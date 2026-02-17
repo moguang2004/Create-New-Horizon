@@ -38,7 +38,6 @@ ServerEvents.highPriorityData(event => {
     }
 
     createDataModel('aether:moa', "#061011")
-    createDataModel('alexsmobs:cachalot_whale',"#1b54aa")
     createDataModel('aether:aerwhale', "#2e5f8a")
     createDataModel('aether:phyg', "#7f4f2f")
     createDataModel('aether:mimic', "#4b2e1f")

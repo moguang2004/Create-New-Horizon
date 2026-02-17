@@ -3,7 +3,7 @@
 # See the jsons folder to customize the temperature of specific blocks, liquids, armors, etc.
 [core]
 	# Whether the temperature system is enabled.
-	"Temperature Enabled" = true
+	"Temperature Enabled" = false
 	# Whether the thirst system is enabled.
 	"Thirst Enabled" = false
 	# Whether body members receive localized damages.

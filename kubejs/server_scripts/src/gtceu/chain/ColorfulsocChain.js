@@ -78,7 +78,6 @@ ServerEvents.recipes(event => {
         .itemInputs('gtceu:exquisite_emerald_gem')
         .itemInputs('gtceu:exquisite_topaz_gem')
         .itemInputs('gtceu:exquisite_zircon_gem')
-        .itemInputs('gtceu:exquisite_magneto_resonatic_gem')
         .itemOutputs('gtceu:exquisite_colorful_gem_gem')
         .EUt(32678 * 16 * 4)
         .duration(100)

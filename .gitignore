@@ -73,8 +73,7 @@ versions/dev/PCL/Setup.ini
 **/*.jar.meta
 **/*.log
 /.mixin.out
-!/mods/CTNH*.jar
-!/mods/ctpp*.jar
+!/mods/CTNH Core*.jar
 !/mods/.index/
 /replay_recordings/
 /texturepacks/
@@ -91,6 +90,7 @@ resourcepacks/*
 !resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip
 !resourcepacks/AE2LightMode-1.20.1-ctnh.zip
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+!resourcepacks/CTNH-Retextured.zip
 
 ldlib/
 /patchouli_data.json
@@ -129,8 +129,13 @@ config/*
 !config/twilightforest-common.toml
 !config/sophisticatedcore-common.toml
 !config/alexsmobs.toml
+!config/ctnhchangelog-client.toml
 !config/tconstruct-common.toml
 !config/inventoryhud-client.toml
 !config/merequester-common.toml
 !config/emi.css
 !config/ali/ali_common.json
+!config/entityculling.json
+!config/muhc-common.toml
+!config/createlazytick-common.toml
+!config/fml.toml

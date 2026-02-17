@@ -32,14 +32,6 @@
 		}
 		{
 			height: 1.0d
-			image: "legendarysurvivaloverhaul:item/thermometer/thermometer_16"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: -1.0d
-		}
-		{
-			height: 1.0d
 			image: "botania:item/corporea_spark_creative"
 			rotation: 0.0d
 			width: 1.0d
@@ -80,6 +72,14 @@
 			x: -3.5d
 			y: 4.0d
 		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -108,23 +108,13 @@
 				Count: 1
 				ForgeCaps: {
 					Parent: {
-						temperature: 29.8f
+						temperature: 0.0f
 					}
 				}
 				id: "legendarysurvivaloverhaul:thermometer"
 			}
 			id: "5C2320A3B3E10E11"
-			rewards: [{
-				id: "118E14A8F73D99ED"
-				item: {
-					Count: 1
-					id: "kubejs:broken_temperature_keeping_device"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
+			invisible: true
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.subtitle}"
 			tasks: [{
 				id: "1769E6600040B278"
@@ -132,8 +122,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.title}"
-			x: -6.0d
-			y: 0.0d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -157,6 +147,11 @@
 			hide_dependency_lines: false
 			icon: "create:wrench"
 			id: "6E097A8CDC0BF608"
+			rewards: [{
+				id: "1E44EED1C4FA4660"
+				item: "create:goggles"
+				type: "item"
+			}]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7929003364368250376.subtitle}"
 			tasks: [{
@@ -343,16 +338,8 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "3D2861D84C925025"
-					item: {
-						Count: 1
-						id: "apotheosis:potion_charm"
-						tag: {
-							Damage: 0
-							Potion: "minecraft:night_vision"
-						}
-					}
+					id: "65CFC58A5274FA92"
+					item: "artifacts:night_vision_goggles"
 					type: "item"
 				}
 			]
@@ -1037,6 +1024,37 @@
 			x: -5.0d
 			y: 7.0d
 		}
+		{
+			description: [
+				"按住CTRL+K可以打开MUI界面，选择偏好设置，向左拖动鼠标滑到右边的界面内，找到首选字体家族，点击当前字体可以更换其他字体"
+				"如果要字体添加字体也可以将需要添加的字体以ttf的格式放入：版本文件夹→config→ModernUI根目录下"
+				"最后，你只需要点开游戏设置→语言,随后将强制使用Unicode字体设置为开即可完美享用字体辣"
+			]
+			icon: "ctnhmana:yuriko_ring"
+			id: "589CE9C2FC6ECFA7"
+			shape: "heart"
+			size: 2.0d
+			subtitle: "我的天哪MUI大人"
+			tasks: [{
+				id: "3821A71E70FA0E0D"
+				title: "什么，还有字体可以换"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			icon: "ae2:controller"
+			id: "39246CAE96BF6294"
+			tasks: [{
+				id: "7FE71CA4E8E3F65E"
+				title: " 应用能源2"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
 	]
-	title: "{ftbquests.chapter.681E3140690307AA.title}"
+	title: "&6原始人，启动！"
 }

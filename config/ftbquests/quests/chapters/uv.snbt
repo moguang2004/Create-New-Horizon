@@ -18,31 +18,31 @@
 		{
 			id: "1E89B8AB6D106F05"
 			linked_quest: "7F0C67AE534020B1"
-			x: 43.0d
+			x: 42.5d
 			y: -20.0d
 		}
 		{
 			id: "00B5D11AA16DE9D2"
 			linked_quest: "74E26D593C100718"
-			x: 44.0d
+			x: 43.5d
 			y: -20.0d
 		}
 		{
 			id: "056A00C408ADC615"
 			linked_quest: "7D527B8CCB41E418"
-			x: 42.0d
+			x: 41.5d
 			y: -20.0d
 		}
 		{
 			id: "16E5A3A942479B8E"
 			linked_quest: "43F6AA3B97042202"
-			x: 45.0d
+			x: 43.5d
 			y: -22.0d
 		}
 		{
 			id: "470C682243A23D2E"
 			linked_quest: "12BAF2B7FB2E3643"
-			x: 36.0d
+			x: 38.0d
 			y: -16.0d
 		}
 	]
@@ -94,7 +94,7 @@
 				item: "gtceu:uv_fusion_reactor"
 				type: "item"
 			}]
-			x: 43.0d
+			x: 42.5d
 			y: -18.0d
 		}
 		{
@@ -105,8 +105,8 @@
 				item: "ctnhcore:uv_compressed_fusion_reactor"
 				type: "item"
 			}]
-			x: 42.0d
-			y: -16.0d
+			x: 42.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["633B6EC62B49755E"]
@@ -116,8 +116,8 @@
 				item: "gtceu:iron_plasma_bucket"
 				type: "item"
 			}]
-			x: 43.0d
-			y: -16.0d
+			x: 41.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["633B6EC62B49755E"]
@@ -128,7 +128,7 @@
 				type: "item"
 			}]
 			x: 44.0d
-			y: -16.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["633B6EC62B49755E"]
@@ -139,7 +139,7 @@
 				item: "avaritia:neutron_ingot"
 				type: "item"
 			}]
-			x: 46.0d
+			x: 44.5d
 			y: -18.0d
 		}
 		{
@@ -154,8 +154,8 @@
 				title: "{ftbquests.chapter.uv.quest7101974468485360705.task.4304930698364564210.title}"
 				type: "checkmark"
 			}]
-			x: 43.0d
-			y: -14.0d
+			x: 42.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["12BAF2B7FB2E3643"]
@@ -165,7 +165,7 @@
 				item: "gtceu:nq_fuelmk1_bucket"
 				type: "item"
 			}]
-			x: 36.0d
+			x: 38.0d
 			y: -17.0d
 		}
 		{
@@ -176,7 +176,7 @@
 				item: "gtceu:nq_fuelmk2_bucket"
 				type: "item"
 			}]
-			x: 37.0d
+			x: 39.0d
 			y: -16.0d
 		}
 		{
@@ -187,7 +187,7 @@
 				item: "gtceu:nq_fuelmk3_bucket"
 				type: "item"
 			}]
-			x: 35.0d
+			x: 37.0d
 			y: -16.0d
 		}
 		{
@@ -195,7 +195,7 @@
 				"7F81295FE18741A6"
 				"12BAF2B7FB2E3643"
 			]
-			description: ["{ftbquests.chapter.uv.quest5815213537516538274.description1}"]
+			description: ["        将编程电路设置为1以启动"]
 			id: "50B3C9E6ECB749A2"
 			shape: "gear"
 			size: 2.0d
@@ -205,7 +205,7 @@
 				item: "ctnhcore:void_miner"
 				type: "item"
 			}]
-			x: 34.0d
+			x: 36.0d
 			y: -13.0d
 		}
 		{
@@ -217,7 +217,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.uv.quest1134847578123492724.title}"
-			x: 45.0d
+			x: 43.5d
 			y: -21.0d
 		}
 		{
@@ -229,7 +229,7 @@
 				item: "gtceu:highly_advanced_soc_wafer"
 				type: "item"
 			}]
-			x: 46.0d
+			x: 44.5d
 			y: -20.0d
 		}
 		{
@@ -247,7 +247,7 @@
 				item: "ctnhcore:sculk_cell"
 				type: "item"
 			}]
-			x: 46.0d
+			x: 44.5d
 			y: -22.0d
 		}
 		{
@@ -257,7 +257,7 @@
 				item: "avaritia:crystal_matrix_ingot"
 				type: "item"
 			}]
-			x: 45.0d
+			x: 43.5d
 			y: -23.0d
 		}
 		{
@@ -268,7 +268,7 @@
 				item: "gtceu:sterilebiologicalculturemediumstocksolution_bucket"
 				type: "item"
 			}]
-			x: 46.0d
+			x: 44.5d
 			y: -24.0d
 		}
 		{
@@ -287,7 +287,7 @@
 					type: "item"
 				}
 			]
-			x: 45.0d
+			x: 43.5d
 			y: -24.0d
 		}
 		{
@@ -298,7 +298,7 @@
 				item: "ctnhcore:cultivationroom"
 				type: "item"
 			}]
-			x: 43.0d
+			x: 41.5d
 			y: -24.0d
 		}
 		{
@@ -311,7 +311,7 @@
 				item: "gtceu:sculk_dust"
 				type: "item"
 			}]
-			x: 50.0d
+			x: 48.5d
 			y: -22.0d
 		}
 		{
@@ -323,7 +323,7 @@
 				item: "minecraft:echo_shard"
 				type: "item"
 			}]
-			x: 49.0d
+			x: 47.5d
 			y: -22.0d
 		}
 		{
@@ -335,7 +335,7 @@
 				item: "gtceu:hidden_alloy_ingot"
 				type: "item"
 			}]
-			x: 49.0d
+			x: 47.5d
 			y: -24.0d
 		}
 		{
@@ -350,7 +350,7 @@
 				item: "kubejs:echo_circuit_board"
 				type: "item"
 			}]
-			x: 48.0d
+			x: 46.5d
 			y: -24.0d
 		}
 		{
@@ -365,7 +365,7 @@
 				item: "kubejs:echo_processor"
 				type: "item"
 			}]
-			x: 47.0d
+			x: 45.5d
 			y: -22.0d
 		}
 		{
@@ -405,7 +405,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.uv.quest6386054684709532357.title}"
-			x: 47.0d
+			x: 45.5d
 			y: -21.0d
 		}
 		{
@@ -416,7 +416,7 @@
 				item: "gtceu:kapton_k_plate"
 				type: "item"
 			}]
-			x: 47.0d
+			x: 45.5d
 			y: -20.0d
 		}
 		{
@@ -432,7 +432,7 @@
 				item: "kubejs:echo_processor_assembly"
 				type: "item"
 			}]
-			x: 48.0d
+			x: 46.5d
 			y: -22.0d
 		}
 		{
@@ -447,7 +447,7 @@
 				item: "kubejs:echo_processor_computer"
 				type: "item"
 			}]
-			x: 48.0d
+			x: 46.5d
 			y: -20.0d
 		}
 		{
@@ -458,7 +458,7 @@
 				item: "gtceu:dense_hidden_alloy_plate"
 				type: "item"
 			}]
-			x: 51.0d
+			x: 49.5d
 			y: -24.0d
 		}
 		{
@@ -474,8 +474,8 @@
 				item: "kubejs:echo_processor_mainframe"
 				type: "item"
 			}]
-			x: 51.0d
-			y: -18.0d
+			x: 49.5d
+			y: -20.0d
 		}
 		{
 			dependencies: [
@@ -498,7 +498,7 @@
 				item: "ctnhcore:plasma_alloy_blast_smelter"
 				type: "item"
 			}]
-			x: 38.0d
+			x: 40.0d
 			y: -13.0d
 		}
 		{
@@ -509,38 +509,8 @@
 				item: "gtceu:mega_blast_furnace"
 				type: "item"
 			}]
-			x: 36.0d
+			x: 38.0d
 			y: -15.0d
-		}
-		{
-			dependencies: ["0C3AB83D2762EC3D"]
-			description: [
-				"{ftbquests.chapter.uv.quest1146734829747278879.description1}"
-				"{ftbquests.chapter.uv.quest1146734829747278879.description2}"
-			]
-			id: "0FEA054082A7941F"
-			shape: "circle"
-			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest1146734829747278879.subtitle}"
-			tasks: [{
-				id: "505E009729BAE011"
-				item: "gtmthings:uv_2a_wireless_energy_input_hatch"
-				type: "item"
-			}]
-			x: 40.0d
-			y: -15.5d
-		}
-		{
-			dependencies: ["43D2BB3A6307F4D4"]
-			id: "19618A0AF3E1A0B5"
-			subtitle: "{ftbquests.chapter.uv.quest1828894703335088309.subtitle}"
-			tasks: [{
-				id: "4EBD1A8B2457F1E9"
-				item: "gtmthings:wireless_energy_monitor"
-				type: "item"
-			}]
-			x: 43.0d
-			y: -13.0d
 		}
 		{
 			dependencies: ["610A31DB73C17E42"]
@@ -551,7 +521,7 @@
 				item: "gtceu:compressed_adamantite_plasma_bucket"
 				type: "item"
 			}]
-			x: 36.0d
+			x: 38.0d
 			y: -14.0d
 		}
 		{
@@ -563,7 +533,7 @@
 				item: "gtceu:compressed_aether_plasma_bucket"
 				type: "item"
 			}]
-			x: 36.0d
+			x: 38.0d
 			y: -13.0d
 		}
 		{
@@ -636,8 +606,8 @@
 				item: "ctnhcore:luv_compressed_fusion_reactor"
 				type: "item"
 			}]
-			x: 42.0d
-			y: -15.0d
+			x: 42.5d
+			y: -15.5d
 		}
 		{
 			id: "07ABDAE50C5C8D9A"
@@ -646,28 +616,9 @@
 				item: "ctnhcore:zpm_compressed_fusion_reactor"
 				type: "item"
 			}]
-			x: 42.0d
-			y: -14.0d
-		}
-		{
-			dependencies: ["0FEA054082A7941F"]
-			description: [
-				"{ftbquests.chapter.uv.quest4887174405094372564.description1}"
-				""
-				"{ftbquests.chapter.uv.quest4887174405094372564.description2}"
-				""
-				"{ftbquests.chapter.uv.quest4887174405094372564.description3}"
-			]
-			id: "43D2BB3A6307F4D4"
-			subtitle: "{ftbquests.chapter.uv.quest4887174405094372564.subtitle}"
-			tasks: [{
-				id: "65A31AC9A67F9236"
-				item: "gtmthings:wireless_energy_binding_tool"
-				type: "item"
-			}]
-			x: 40.0d
-			y: -13.0d
+			x: 42.5d
+			y: -14.5d
 		}
 	]
-	title: "{ftbquests.chapter.uv.title}"
+	title: "&3UV时期"
 }

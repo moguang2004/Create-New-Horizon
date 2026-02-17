@@ -6,15 +6,10 @@ ServerEvents.recipes(event => {
             "BAB"
         ], {
             A: '#gtceu:circuits/mv',
-            B: 'kubejs:steel_casing',
+            B: 'ctpp:steel_casing',
             C: 'gtceu:mv_machine_hull',
 
         })
-    event.recipes.gtceu.nano_generator('stone1')
-        .itemInputs('minecraft:cobblestone')
-        .itemOutputs('gtceu:stone_dust')
-        .EUt(-1)
-        .duration(3)
     event.recipes.gtceu.nano_generator('stone2')
         .itemInputs('minecraft:stone')
         .itemOutputs('2x gtceu:stone_dust')
@@ -50,14 +45,4 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x gtceu:glacio_stone_dust')
         .EUt(-30)
         .duration(20)
-
-
-
-
-
-
-
-
-
-
 })

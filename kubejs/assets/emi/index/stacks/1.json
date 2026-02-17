@@ -1,7 +1,39 @@
 {
   "removed": [
     "fluid:ad_astra:hydrogen",
-    "fluid:ad_astra:oxygen"
+    "item:twilightforest:uncrafting_table",
+    "item:ae2:facade"
+  ],
+  "added": [
+    {
+      "stack": "item:create:chromatic_compound"
+    },
+    {
+      "stack": "item:create:shadow_steel"
+    },
+    {
+      "stack": "item:shadow_steel_casing"
+    },
+    {
+      "stack": "item:refined_radiance"
+    },
+    {
+      "stack": "item:refined_radiance_casing"
+    }
+  ],
+  "filters": [
+    "/gtceu:(.*)_steam_turbine/",
+    "/gtceu:shaped/(.*)_energy_converter/",
+    "/create:andesite_alloy/",
+    "/enderio:vibrant_alloy_(.*)/",
+    "/enderio:energetic_alloy_(.*)/",
+    "/enderio:dark_steel_(.*)/",
+    "/enderio:end_steel_(.*)/",
+    "/enderio:pulsating_alloy_(.*)/",
+    "/enderio:soularium_(.*)/",
+    "/enderio:conductive_alloy_(.*)/",
+    "/enderio:redstone_alloy_(.*)/",
+    "/enderio:copper_alloy_(.*)/"
   ],
   "disable": true
 }

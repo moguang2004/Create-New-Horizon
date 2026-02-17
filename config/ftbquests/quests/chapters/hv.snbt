@@ -42,8 +42,8 @@
 		{
 			id: "3C73F9E8558A5D1F"
 			linked_quest: "772551A724F97069"
-			x: -27.5d
-			y: 22.0d
+			x: -26.5d
+			y: 24.0d
 		}
 		{
 			id: "2788421088397BBE"
@@ -701,7 +701,7 @@
 				type: "random"
 			}]
 			shape: "octagon"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.hv.quest2727746306205307095.subtitle}"
 			tasks: [{
 				id: "20A0E9B6A5B2D2F0"
@@ -2543,5 +2543,5 @@
 			y: 27.0d
 		}
 	]
-	title: "{ftbquests.chapter.hv.title}"
+	title: "&6HV时期"
 }

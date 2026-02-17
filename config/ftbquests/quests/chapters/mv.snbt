@@ -23,12 +23,6 @@
 			y: 13.0d
 		}
 		{
-			id: "65F7F2B42D3849C7"
-			linked_quest: "02115E4763B9F906"
-			x: 6.5d
-			y: 10.0d
-		}
-		{
 			id: "0BEDB38C49D6815C"
 			linked_quest: "7564DC3576C62D48"
 			x: 4.5d
@@ -957,15 +951,16 @@
 			description: [""]
 			id: "761AC9761D80AC19"
 			rewards: [{
+				count: 4
 				id: "681C287F669124F3"
-				item: "kubejs:mana_integrated_circuit"
+				item: "ctnhmana:mana_integrated_circuit"
 				type: "item"
 			}]
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.mv.quest8510335955008269337.subtitle}"
 			tasks: [{
 				id: "32FD501729B1C125"
-				item: "kubejs:mana_integrated_circuit"
+				item: "ctnhmana:mana_integrated_circuit"
 				type: "item"
 			}]
 			x: 14.0d
@@ -1329,5 +1324,5 @@
 			y: 6.0d
 		}
 	]
-	title: "{ftbquests.chapter.mv.title}"
+	title: "&bMV时期"
 }

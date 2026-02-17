@@ -215,7 +215,6 @@
 		}
 		{
 			dependencies: [
-				"6F4DA29DA86EAFCD"
 				"40BADBAD1F96B405"
 				"7D76859D3E40A235"
 			]
@@ -431,5 +430,5 @@
 			y: -3.75d
 		}
 	]
-	title: "{ftbquests.chapter.5DEE038949883E18.title}"
+	title: "&4匠魂"
 }

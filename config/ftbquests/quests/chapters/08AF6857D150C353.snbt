@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "08AF6857D150C353"
 	group: "203B37D7B3ACCD4B"
-	icon: "kubejs:steel_casing"
+	icon: "ctpp:steel_casing"
 	id: "08AF6857D150C353"
 	order_index: 1
 	quest_links: [
@@ -28,6 +28,12 @@
 			size: 2.0d
 			x: 9.5d
 			y: 0.0d
+		}
+		{
+			id: "16A820C3C6F8268A"
+			linked_quest: "02115E4763B9F906"
+			x: 9.5d
+			y: -2.0d
 		}
 	]
 	quests: [
@@ -131,12 +137,6 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2D9F762371DEDF70"
-			rewards: [{
-				count: 6
-				id: "078D44B3D237F794"
-				item: "create_new_age:electrical_connector"
-				type: "item"
-			}]
 			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest3287476147610115952.subtitle}"
 			tasks: [
 				{
@@ -145,31 +145,13 @@
 					type: "item"
 				}
 				{
-					id: "0326ECF3769946F0"
-					item: "create_new_age:carbon_brushes"
+					id: "7EF12DE6A22FB813"
+					item: "ctpp:carbon_brushes"
 					type: "item"
 				}
 			]
 			x: 3.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["41E48BCAEAD9D47E"]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest6098072423107733063.description1}"]
-			id: "54A0B48F51F12647"
-			rewards: [{
-				id: "139E616ADE2C0E97"
-				item: "gtceu:lv_4a_energy_converter"
-				type: "item"
-			}]
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest6098072423107733063.subtitle}"
-			tasks: [{
-				id: "3F5BE8B5242E5FC9"
-				item: "gtceu:lv_1a_energy_converter"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 2.0d
 		}
 		{
 			id: "23FD399F5B59DA53"
@@ -223,6 +205,7 @@
 				"0B8D27D4FAA175B9"
 				"3AFD46E811ED67AD"
 				"7441815510F49119"
+				"54A490510D5FBA04"
 			]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.08AF6857D150C353.quest4748073610795144318.description1}"]
@@ -377,7 +360,6 @@
 		{
 			dependencies: ["62BAC5BC588E4CAA"]
 			id: "13388DB5A507AB34"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest1385012696713767732.subtitle}"
 			tasks: [{
 				count: 12L
 				id: "5D54A22BD467C77B"
@@ -479,7 +461,6 @@
 		{
 			dependencies: [
 				"2D9F762371DEDF70"
-				"54A0B48F51F12647"
 				"13388DB5A507AB34"
 			]
 			description: [
@@ -602,5 +583,5 @@
 			y: 2.0d
 		}
 	]
-	title: "{ftbquests.chapter.08AF6857D150C353.title}"
+	title: "&f&l钢铁雄心"
 }

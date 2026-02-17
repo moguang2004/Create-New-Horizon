@@ -28,86 +28,6 @@
 			y: -2.0d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description1}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description2}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description3}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description4}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description5}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description6}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.description7}"
-			]
-			id: "21FEA920DE844E5C"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2449581205973388892.subtitle}"
-			tasks: [{
-				id: "4878830137B81FDD"
-				item: "ctnhcore:mana_generator_turbine_tier1"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -0.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description1}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description2}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description3}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description4}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description5}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description6}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.description7}"
-			]
-			id: "4103567A8D3A9B46"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4684683121750874950.subtitle}"
-			tasks: [{
-				id: "565AD9B1D06DA31D"
-				item: "ctnhcore:mana_generator_turbine_tier2"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description1}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description2}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description3}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description4}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description5}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description6}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.description7}"
-			]
-			id: "02AE26871BBA0CCF"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest193134195751128271.subtitle}"
-			tasks: [{
-				id: "4398844790CB30FB"
-				item: "ctnhcore:mana_generator_turbine_tier3"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description1}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description2}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description3}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description4}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description5}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description6}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.description7}"
-			]
-			id: "2032BDD3A8B16E3C"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2320125474815176252.subtitle}"
-			tasks: [{
-				id: "068BD67372FB34AA"
-				item: "ctnhcore:mana_generator_turbine_tier4"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.0d
-		}
-		{
 			id: "3C15632B9697C37D"
 			tasks: [{
 				id: "64A12577E02E56F8"
@@ -124,7 +44,7 @@
 				item: "gtceu:mv_combustion"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -135,7 +55,7 @@
 				item: "gtceu:lv_combustion"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -0.5d
 		}
 		{
@@ -145,7 +65,7 @@
 				item: "gtceu:hv_combustion"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 2.5d
 		}
 		{
@@ -156,7 +76,7 @@
 				item: "gtceu:lv_gas_turbine"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -166,7 +86,7 @@
 				item: "gtceu:mv_gas_turbine"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -176,7 +96,7 @@
 				item: "gtceu:hv_gas_turbine"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -186,7 +106,7 @@
 				item: "gtceu:large_combustion_engine"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
@@ -196,7 +116,7 @@
 				item: "gtceu:gas_large_turbine"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -206,19 +126,8 @@
 				item: "gtceu:extreme_combustion_engine"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 5.5d
-		}
-		{
-			id: "21742989261776EF"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2410597369576388335.subtitle}"
-			tasks: [{
-				id: "4A866FC012AACA73"
-				item: "ctnhcore:water_power_station"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -0.5d
 		}
 		{
 			id: "3095F206B9060B06"
@@ -227,7 +136,7 @@
 				item: "ctnhcore:ev_rocket_engine"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -237,7 +146,7 @@
 				item: "ctnhcore:iv_rocket_engine"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 5.5d
 		}
 		{
@@ -247,7 +156,7 @@
 				item: "ctnhcore:luv_rocket_engine"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 7.0d
 		}
 		{
@@ -258,7 +167,7 @@
 				item: "ctnhcore:iv_naquadah_reactor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 5.5d
 		}
 		{
@@ -269,7 +178,7 @@
 				item: "ctnhcore:luv_naquadah_reactor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 7.0d
 		}
 		{
@@ -280,7 +189,7 @@
 				item: "ctnhcore:zpm_naquadah_reactor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 8.5d
 		}
 		{
@@ -290,7 +199,7 @@
 				item: "ctnhcore:uv_naquadah_reactor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 10.0d
 		}
 		{
@@ -300,7 +209,7 @@
 				item: "ctnhcore:large_naquadah_reactor"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 8.5d
 		}
 		{
@@ -401,7 +310,7 @@
 				item: "ctnhcore:photovoltaic_power_station_energetic"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: -0.5d
 		}
 		{
@@ -411,7 +320,7 @@
 				item: "ctnhcore:photovoltaic_power_station_pulsating"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: 1.0d
 		}
 		{
@@ -421,7 +330,7 @@
 				item: "ctnhcore:photovoltaic_power_station_vibrant"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: 2.5d
 		}
 		{
@@ -432,7 +341,7 @@
 				item: "ctnhcore:ev_naquadah_reactor"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -443,7 +352,7 @@
 				item: "ctnhcore:wind_power_array"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -453,7 +362,7 @@
 				item: "ctnhcore:advanced_wind_power_array"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 2.5d
 		}
 		{
@@ -463,7 +372,7 @@
 				item: "ctnhcore:super_wind_power_array"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 5.5d
 		}
 		{
@@ -473,7 +382,7 @@
 				item: "ctnhcore:naq_reactor_mk3"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 10.0d
 		}
 		{
@@ -540,21 +449,11 @@
 			id: "43AB6510C219AC56"
 			tasks: [{
 				id: "5D3A5F448507114F"
-				item: "ctnhcore:demon_will_generator"
+				item: "ctnhmana:demon_will_generator"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: 5.5d
-		}
-		{
-			id: "68B80B0DA38698AD"
-			tasks: [{
-				id: "381073E635BDA0EC"
-				item: "ctnhcore:magic_fuel_generator"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 7.0d
 		}
 		{
 			id: "6FD7568D36079CBE"
@@ -574,7 +473,7 @@
 				item: "ctnhcore:nanogenetor"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: -0.5d
 		}
 		{
@@ -592,19 +491,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 12.0d
 			y: 5.5d
-		}
-		{
-			id: "6AD203106343C632"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7697218082049345074.subtitle}"
-			tasks: [{
-				id: "3FFB6B7882F4D42D"
-				item: "ctnhcore:eye_of_quasar"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 10.0d
 		}
 		{
 			id: "35946853DCF9050F"
@@ -613,7 +501,7 @@
 				item: "ctpp:kinetic_generator"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 1.0d
 		}
 		{
@@ -627,23 +515,13 @@
 			y: -2.0d
 		}
 		{
-			id: "51966223E636D298"
-			tasks: [{
-				id: "3FC96B146B74042E"
-				item: "ctnhcore:big_dam"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
 			id: "6BA44627043FA783"
 			tasks: [{
 				id: "60F2E18CAE196797"
 				item: "ctnhcore:space_photovoltai_cbase_station"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 8.5d
 		}
 		{
@@ -653,7 +531,7 @@
 				item: "ctnhcore:hyper_plasma_turbine"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: 8.5d
 		}
 		{
@@ -678,9 +556,9 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4650484246474051722.title}"
-			x: 12.0d
+			x: 10.0d
 			y: 7.0d
 		}
 	]
-	title: "{ftbquests.chapter.15B8D9F4A2A19BFA.title}"
+	title: "&e如何发电"
 }
