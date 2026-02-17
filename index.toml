@@ -1074,7 +1074,7 @@ hash = "49ddb588f1b3a6ef6d49892a2183bb6a7468e622d171e52752e150802f0686ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "5589bbed7f98209823344167e847a6f5831dc49bd904c427c5840d5de006fa07"
+hash = "6e2aa24aca1b61d45812bc8dce76886e11842fd08580c2354384e483813a6151"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -9806,7 +9806,7 @@ hash = "f8f605ee4352527195154f79934e45759dbbdb360bd666a585ba02ee2d627434"
 
 [[files]]
 file = "kubejs/server_scripts/src/crafttable.js"
-hash = "e51be269275532a5ec8b895108ba89568bc4bc8cfb454b8aa9ba14ccdb4ebd21"
+hash = "fee6112cd917e6cf520101a5ea2dc4e79cfe18d6d853918a8b4a985bb828e8b5"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
@@ -10635,6 +10635,11 @@ hash = "87da935deff875d5c560c8a8844d8428720f7fb9d8cae4c3877264bbe44c7719"
 metafile = true
 
 [[files]]
+file = "mods/gt-portal.pw.toml"
+hash = "a83bb41f946571bd6c8e6167335e5b825216c90d5ca21f6f29af5f73a31f05fa"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
 hash = "de1074bb6f0f63ce7580daab559efdea6e5b1238deb20074e0a87179b3c4dbd4"
 metafile = true
@@ -11226,7 +11231,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "1c2128230b09c78b99f1883f812fb4a7e31e040a6915ad8294a37e9714c236af"
+hash = "54e7330ada453abd60c66a1b6f053dcf0cf74b625a31c6838adbaf11b2f25f3b"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
