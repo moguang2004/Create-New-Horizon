@@ -34,8 +34,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:electric_blast_furnace/titanium_from_tetrachloride" })
     event.remove({ id: "gtceu:chemical_reactor/titaniumtetrachloride" })
     event.remove({ id: "gtceu:electrolyzer/tungstic_acid_electrolysis" })
-    event.remove({ id: "gtceu:mixer/graphene" })
-    event.remove({ id: "gtceu:create_mixer/graphene" })
     event.remove({ id: "gtceu:neutron_activator/naquadah" })
     event.remove({ id: "gtceu:large_chemical_reactor/iridium_chloride" })
     event.remove({ id: "gtceu:large_chemical_reactor/iridium_dioxide_dissolving" })
@@ -79,7 +77,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:combustion_generator/light_fuel" })
     event.remove({ id: "gtceu:shaped/filter_casing_sterile" })
     event.remove({ id: "gtceu:shaped/maintenance_hatch_cleaning" })
-    event.remove({ id: "gtceu:kinetic_mixer/kinetic_mixer/graphene" })
     event.remove({ id: "gtceu:chemical_reactor/calcite_from_quicklime" })
     event.remove({ id: "gtceu:extractor/extract_osmium_tetroxide_dust" })
     event.remove({ id: "gtceu:combustion_generator/light_fuel" })
@@ -218,8 +215,6 @@ ServerEvents.recipes(event => {
         'gtceu:assembler/assembly_control_casing',
         //烧硅岩粒
         'gtceu:electric_blast_furnace/naq_ingot',
-        //钨钢粉
-        'gtceu:mixer/tungstensteel'
     ])
 
     remove_recipes_output(event, [
