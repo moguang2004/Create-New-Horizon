@@ -10635,6 +10635,11 @@ hash = "87da935deff875d5c560c8a8844d8428720f7fb9d8cae4c3877264bbe44c7719"
 metafile = true
 
 [[files]]
+file = "mods/gtconstruct.pw.toml"
+hash = "11a52897f17123fa43b1599befc29d2c260c9e60b90b58426e194246c5d51bb4"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
 hash = "de1074bb6f0f63ce7580daab559efdea6e5b1238deb20074e0a87179b3c4dbd4"
 metafile = true
@@ -11102,11 +11107,6 @@ metafile = true
 [[files]]
 file = "mods/tinkerleveling.pw.toml"
 hash = "29d2e6f85639ed371f32b178cd20adaf7a976df37ef11249dfacbba689c62732"
-metafile = true
-
-[[files]]
-file = "mods/tinkers-construct.pw.toml"
-hash = "8ef2e136596e8bf5408c87296bbf7b4ca3088f15ab9c5abd3a0261951cd45322"
 metafile = true
 
 [[files]]
