@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
-    event.replaceInput({ id: 'functionalstorage:fluid_2' }, 'minecraft:bucket', 'enderio:fluid_tank')
+    event.replaceInput({ id: 'functionalstorage:fluid_2' }, 'minecraft:bucket', 'create:fluid_tank')
     event.replaceInput({ id: 'functionalstorage:fluid_2' }, '#minecraft:planks', 'minecraft:smooth_stone')
-    event.replaceInput({ id: 'functionalstorage:fluid_4' }, 'minecraft:bucket', 'enderio:fluid_tank')
+    event.replaceInput({ id: 'functionalstorage:fluid_4' }, 'minecraft:bucket', 'create:fluid_tank')
     event.replaceInput({ id: 'functionalstorage:fluid_4' }, '#minecraft:planks', 'minecraft:smooth_stone')
     event.shaped(
         Item.of("functionalstorage:fluid_1", 1), [
@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
             "AAA"
         ], {
             A: "minecraft:smooth_stone",
-            B: "enderio:fluid_tank"
+            B: "create:fluid_tank"
         }).id('functionalstorage:fluid_1')
     event.shaped(
         Item.of("functionalstorage:storage_controller", 1), [
