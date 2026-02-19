@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('7x gtceu:ruthenium_dust')
         .itemOutputs('7x gtceu:rhodium_dust')
         .itemOutputs('7x gtceu:osmium_dust')
-        .itemInputs('64x gtceu:iridium_dust')
+        .itemOutputs('7x gtceu:iridium_dust')
         .EUt(1920)
         .duration(600)
         .circuit(1)
