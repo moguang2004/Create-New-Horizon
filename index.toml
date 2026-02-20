@@ -1138,11 +1138,11 @@ hash = "affccc130ba62c9d8de763a7322dd0a6d4cddc8f7f348a28bf729313eef1758e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "ab587e35a530d849b6db3f939edcb532ba95b45a11790be04f56713e5dea133a"
+hash = "e46c6ac66604d77c75eb63ec54cc9d51949dfcfc5e4b4cf496e6d16d5abbc081"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "cf06b22b7bcb25a6aaa1b116d2f38d47edc620becd44a6fbd7b32f37361d8cbe"
+hash = "47a078f6a1dd7790dd28159ea1e27e97a86a9ca27b4799f162b102d1e15a8fca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/too_many_items.snbt"
@@ -9806,7 +9806,7 @@ hash = "f8f605ee4352527195154f79934e45759dbbdb360bd666a585ba02ee2d627434"
 
 [[files]]
 file = "kubejs/server_scripts/src/crafttable.js"
-hash = "fee6112cd917e6cf520101a5ea2dc4e79cfe18d6d853918a8b4a985bb828e8b5"
+hash = "e51be269275532a5ec8b895108ba89568bc4bc8cfb454b8aa9ba14ccdb4ebd21"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
@@ -9963,6 +9963,10 @@ hash = "8fb12367dccf421e66c69062587c404fcbc1db7bf1916462812adc054ab75bf2"
 [[files]]
 file = "kubejs/server_scripts/src/gtceu_remove.js"
 hash = "6329e7c5cdeb28465aac7422b5ed05d7e69a287897f46719160f346ddab6c7b8"
+
+[[files]]
+file = "kubejs/server_scripts/src/gtportal.js"
+hash = "1c9a1dbf8c841e76083fb8ae050abc001ae113a7cded783ced55bcf2a1881b48"
 
 [[files]]
 file = "kubejs/server_scripts/src/hostilenetworks.js"
@@ -10607,11 +10611,6 @@ metafile = true
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "13306fd8dc27c0f5afb60874e6a12fc1b2252ac02e8a89ccc2f046f4898627ff"
-metafile = true
-
-[[files]]
-file = "mods/game-phase.pw.toml"
-hash = "13999b5b046f1956ba4f3c900a9a2fac2714d6683b13916be25c822d0100d951"
 metafile = true
 
 [[files]]
