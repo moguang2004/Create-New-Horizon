@@ -357,30 +357,21 @@
 			dependency_requirement: "one_completed"
 			icon: "minecraft:end_portal_frame"
 			id: "5A55D491F0E9F389"
-			optional: true
-			rewards: [{
-				command: "/gamephase add @p end"
-				elevate_perms: true
-				id: "345886DE08824767"
-				title: "{ftbquests.chapter.mv.quest6509342559711130505.reward.3771912976106407783.title}"
-				type: "command"
-			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mv.quest6509342559711130505.subtitle}"
-			tasks: [
-				{
-					id: "7BAD7E832FEF40F0"
-					item: "minecraft:ender_eye"
-					type: "item"
+			subtitle: "想必你已经发现了地牢里的破损传送门，请通过维度数据配合多维度传送门的方式进入末地"
+			tasks: [{
+				id: "56FD6B71629B8F26"
+				item: {
+					Count: 1
+					id: "gtportal:dimension_data_stick"
+					tag: {
+						dimension: "minecraft:the_end"
+					}
 				}
-				{
-					id: "2A6E7827C0B2FF84"
-					title: "check~"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.mv.quest6509342559711130505.title}"
+				type: "item"
+			}]
+			title: "进入末地"
 			x: 17.5d
 			y: 6.0d
 		}
@@ -601,32 +592,23 @@
 			y: 9.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["4DCA7E4E57817E0A"]
 			icon: "aether:aether_portal_frame"
 			id: "415AF3F977F4C3F9"
-			rewards: [{
-				command: "/gamephase add @p aether"
-				elevate_perms: true
-				id: "47B4C1C8E27B98A0"
-				title: "{ftbquests.chapter.mv.quest4709344613154210809.reward.5166967741038172320.title}"
-				type: "command"
-			}]
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "5B98F8342CFB3E30"
-					item: "minecraft:dragon_breath"
-					type: "item"
+			tasks: [{
+				id: "18B5330AEDC8849C"
+				item: {
+					Count: 1
+					id: "gtportal:dimension_data_stick"
+					tag: {
+						dimension: "aether:the_aether"
+					}
 				}
-				{
-					id: "44CDE2C93AB131A3"
-					title: "check~"
-					type: "checkmark"
-				}
-			]
-			title: "{ftbquests.chapter.mv.quest4709344613154210809.title}"
+				type: "item"
+			}]
+			title: "进入天境"
 			x: 21.5d
 			y: 5.0d
 		}

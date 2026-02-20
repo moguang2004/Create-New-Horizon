@@ -368,19 +368,14 @@
 			y: -2.0d
 		}
 		{
-			can_repeat: true
+			dependencies: [
+				"41C83B01A2B87D90"
+				"31C57B4E6B0C9A52"
+			]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "2301C8A867356B99"
-			rewards: [{
-				command: "/gamephase add @p twilightforest"
-				elevate_perms: true
-				id: "57D8F0400C68D005"
-				title: "{ftbquests.chapter.lv.quest2522517891915803545.reward.6330073434146000901.title}"
-				type: "command"
-			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.lv.quest2522517891915803545.subtitle}"
 			tasks: [
 				{
 					id: "54DDAA9635F9C248"
@@ -388,12 +383,18 @@
 					type: "item"
 				}
 				{
-					id: "67019BA9DF3C18EC"
-					title: "check~"
-					type: "checkmark"
+					id: "2F842F97D75AC9B8"
+					item: {
+						Count: 1
+						id: "gtportal:dimension_data_stick"
+						tag: {
+							dimension: "twilightforest:twilight_forest"
+						}
+					}
+					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.lv.quest2522517891915803545.title}"
+			title: "进入暮色森林"
 			x: 14.5d
 			y: 5.5d
 		}
@@ -1134,6 +1135,40 @@
 			}]
 			x: 12.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["504A762FE1057233"]
+			hide_dependency_lines: true
+			id: "31C57B4E6B0C9A52"
+			tasks: [{
+				id: "74B918277D4EB20D"
+				item: {
+					Count: 1
+					id: "gtportal:dimension_data_stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			id: "41C83B01A2B87D90"
+			tasks: [
+				{
+					id: "2F37ACDD707FF59D"
+					item: "gtportal:multidimensional_portal_controller"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "4FB6D4F6EA116147"
+					item: { Count: 15, id: "gtportal:portal_frame" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 5.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.lv.subtitle0}"]

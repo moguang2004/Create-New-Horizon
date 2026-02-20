@@ -1074,7 +1074,7 @@ hash = "49ddb588f1b3a6ef6d49892a2183bb6a7468e622d171e52752e150802f0686ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "5589bbed7f98209823344167e847a6f5831dc49bd904c427c5840d5de006fa07"
+hash = "6e2aa24aca1b61d45812bc8dce76886e11842fd08580c2354384e483813a6151"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -1138,11 +1138,11 @@ hash = "affccc130ba62c9d8de763a7322dd0a6d4cddc8f7f348a28bf729313eef1758e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "ab587e35a530d849b6db3f939edcb532ba95b45a11790be04f56713e5dea133a"
+hash = "e46c6ac66604d77c75eb63ec54cc9d51949dfcfc5e4b4cf496e6d16d5abbc081"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "cf06b22b7bcb25a6aaa1b116d2f38d47edc620becd44a6fbd7b32f37361d8cbe"
+hash = "47a078f6a1dd7790dd28159ea1e27e97a86a9ca27b4799f162b102d1e15a8fca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/too_many_items.snbt"
@@ -9965,6 +9965,10 @@ file = "kubejs/server_scripts/src/gtceu_remove.js"
 hash = "6329e7c5cdeb28465aac7422b5ed05d7e69a287897f46719160f346ddab6c7b8"
 
 [[files]]
+file = "kubejs/server_scripts/src/gtportal.js"
+hash = "1c9a1dbf8c841e76083fb8ae050abc001ae113a7cded783ced55bcf2a1881b48"
+
+[[files]]
 file = "kubejs/server_scripts/src/hostilenetworks.js"
 hash = "3f20ca74250e217178d7cf360c4420fa641d304d9c2a58bc0147232181f11ff6"
 
@@ -10610,11 +10614,6 @@ hash = "13306fd8dc27c0f5afb60874e6a12fc1b2252ac02e8a89ccc2f046f4898627ff"
 metafile = true
 
 [[files]]
-file = "mods/game-phase.pw.toml"
-hash = "13999b5b046f1956ba4f3c900a9a2fac2714d6683b13916be25c822d0100d951"
-metafile = true
-
-[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "3e1eb9740fada46d463ae8f5e1f2cf24d5a85532356f7d5173a7c23a0dd8fb53"
 metafile = true
@@ -10632,6 +10631,11 @@ metafile = true
 [[files]]
 file = "mods/gravestone-mod.pw.toml"
 hash = "87da935deff875d5c560c8a8844d8428720f7fb9d8cae4c3877264bbe44c7719"
+metafile = true
+
+[[files]]
+file = "mods/gt-portal.pw.toml"
+hash = "a83bb41f946571bd6c8e6167335e5b825216c90d5ca21f6f29af5f73a31f05fa"
 metafile = true
 
 [[files]]
@@ -11226,7 +11230,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "1c2128230b09c78b99f1883f812fb4a7e31e040a6915ad8294a37e9714c236af"
+hash = "54e7330ada453abd60c66a1b6f053dcf0cf74b625a31c6838adbaf11b2f25f3b"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
