@@ -1,8 +1,8 @@
 ServerEvents.recipes(event => {
-    let cell_component = ["ae2:cell_component_4k", "ae2:cell_component_16k", "ae2:cell_component_64k", "ae2:cell_component_256k"]
+    let cell_component = ["ae2:cell_component_1k", "ae2:cell_component_4k", "ae2:cell_component_16k", "ae2:cell_component_64k", "ae2:cell_component_256k"]
     let omni_component = ['ae2omnicells:omni_cell_component_1k', 'ae2omnicells:omni_cell_component_4k', 'ae2omnicells:omni_cell_component_16k', 'ae2omnicells:omni_cell_component_64k', 'ae2omnicells:omni_cell_component_256k', 'ae2omnicells:omni_cell_component_1m', 'ae2omnicells:omni_cell_component_4m', 'ae2omnicells:omni_cell_component_16m', 'ae2omnicells:omni_cell_component_64m']
     let complex_omni_component = ['ae2omnicells:complex_omni_cell_component_1k', 'ae2omnicells:complex_omni_cell_component_4k', 'ae2omnicells:complex_omni_cell_component_16k', 'ae2omnicells:complex_omni_cell_component_64k', 'ae2omnicells:complex_omni_cell_component_256k', 'ae2omnicells:complex_omni_cell_component_1m', 'ae2omnicells:complex_omni_cell_component_4m', 'ae2omnicells:complex_omni_cell_component_16m', 'ae2omnicells:complex_omni_cell_component_64m']
-    let quantum_omni_component = ['ae2omnicells:quantum_omni_cell_component_1k', 'ae2omnicells:quantum_omni_cell_component_4k', 'ae2omnicells:quantum_omni_cell_component_16k', 'ae2omnicells:quantum_omni_cell_component_64k', 'ae2omnicells:quantum_omni_cell_component_256k', 'ae2omnicells:quantum_omni_cell_component_1m', 'ae2omnicells:quantum_omni_cell_component_4m', 'ae2omnicells:quantum_omni_cell_component_16m', 'ae2omnicells:quantum_omni_cell_component_64m']
+    let quantum_omni_component = ['ae2omnicells:quantum_omni_cell_component_4k', 'ae2omnicells:quantum_omni_cell_component_16k', 'ae2omnicells:quantum_omni_cell_component_64k', 'ae2omnicells:quantum_omni_cell_component_256k', 'ae2omnicells:quantum_omni_cell_component_1m', 'ae2omnicells:quantum_omni_cell_component_4m', 'ae2omnicells:quantum_omni_cell_component_16m', 'ae2omnicells:quantum_omni_cell_component_64m']
     let circuits = ["#gtceu:circuits/lv", "#gtceu:circuits/mv", "#gtceu:circuits/hv", "#gtceu:circuits/ev", "#gtceu:circuits/iv", "#gtceu:circuits/luv", "#gtceu:circuits/zpm", "#gtceu:circuits/uv"]
     let metal = ["gtceu:steel_plate", "gtceu:aluminium_plate", "gtceu:stainless_steel_plate", "gtceu:titanium_plate", "gtceu:tungsten_steel_plate", "gtceu:rhodium_plated_palladium_plate", "gtceu:naquadah_alloy_plate", "gtceu:darmstadtium_plate"]
     let glass = ["ae2:quartz_glass", "ae2:quartz_vibrant_glass", "botania:mana_glass", "botania:elf_glass"]
@@ -51,17 +51,17 @@ ServerEvents.recipes(event => {
                 D: circuits[i],
                 E: metal[i]
             })
-            event.shaped(Item.of(quantum_omni_component[i + 1], 1), [
-                "BDB",
-                "ACA",
-                "EAE"
-            ], {
-                A: quantum_omni_component[i],
-                B: dust[i],
-                C: industrial_glass[(i / 2) | 0],
-                D: circuits[i],
-                E: metal[i]
-            })
+//            event.shaped(Item.of(quantum_omni_component[i + 1], 1), [
+//                "BDB",
+//                "ACA",
+//                "EAE"
+//            ], {
+//                A: quantum_omni_component[i],
+//                B: dust[i],
+//                C: industrial_glass[(i / 2) | 0],
+//                D: circuits[i],
+//                E: metal[i]
+//            })
         }
         event.shaped(Item.of(omni_component[i + 1], 1), [
             "BDB",
@@ -85,17 +85,17 @@ ServerEvents.recipes(event => {
             D: circuits[i],
             E: metal[i]
         })
-        event.shaped(Item.of(quantum_omni_component[i + 1], 1), [
-            "BDB",
-            "ACA",
-            "EAE"
-        ], {
-            A: quantum_omni_component[i],
-            B: dust[i],
-            C: glass[(i / 2) | 0],
-            D: circuits[i],
-            E: metal[i]
-        })
+//        event.shaped(Item.of(quantum_omni_component[i + 1], 1), [
+//            "BDB",
+//            "ACA",
+//            "EAE"
+//        ], {
+//            A: quantum_omni_component[i],
+//            B: dust[i],
+//            C: glass[(i / 2) | 0],
+//            D: circuits[i],
+//            E: metal[i]
+//        })
         // if (i > 2) {
 
         // }
@@ -368,14 +368,7 @@ ServerEvents.recipes(event => {
     //     .duration(100)
     //     .itemInputs(['3x gtceu:chorusite_alloy_plate', '2x gtceu:tungsten_steel_screw', '2x gtceu:polyphenylene_sulfide_foil', '2x gtceu:tempered_glass'])
     //     .itemOutputs('bigger_ae2:advanced_fluid_cell_housing')
-    event.recipes.gtceu.assembler("circuit_cutter")
-        .EUt(1920)
-        .duration(10)
-        .itemInputs("gtceu:titanium_buzz_saw_blade")
-        .itemInputs("4x ae2:not_so_mysterious_cube")
-        .itemInputs("2x #gtceu:circuits/ev")
-        .itemInputs("gtceu:laminated_glass")
-        .itemOutputs("expatternprovider:circuit_cutter")
+
     event.shaped(
         Item.of("expatternprovider:ex_interface", 1), [
             "ABA",
@@ -532,7 +525,8 @@ ServerEvents.recipes(event => {
         })
 
     remove_recipes_type(event, [
-        "ae2:inscriber"
+        "ae2:inscriber",
+        "expatternprovider:circuit_cutter"
     ])
     remove_recipes_output(event, ["ae2:energy_acceptor", "ae2:charger", "ae2:inscriber", "ae2:quartz_fiber", "expatternprovider:interface_upgrade", "expatternprovider:pattern_provider_upgrade",
         "expatternprovider:ex_export_bus_part", "expatternprovider:ex_import_bus_part", "expatternprovider:io_bus_upgrade", "expatternprovider:ex_pattern_access_part",
@@ -542,7 +536,6 @@ ServerEvents.recipes(event => {
         "ae2:item_cell_housing", "ae2:fluid_cell_housing", "ae2things:disk_housing", "ae2additions:disk_fluid_housing", "ae2additions:super_cell_housing", "ae2:wireless_booster", "ae2:quartz_glass",
         "ae2omnicells:omni_cell_housing",
         "ae2omnicells:complex_omni_cell_housing",
-        "ae2omnicells:quantum_omni_cell_housing",
         "ae2omnicells:omni_link_print_press",
         "ae2omnicells:complex_link_print_press",
         "ae2omnicells:multidimensional_expansion_print_press",
@@ -558,52 +551,13 @@ ServerEvents.recipes(event => {
         "ae2:network/cells/item_storage_cell_16k",
         "ae2:network/cells/item_storage_cell_64k",
         "ae2:network/cells/item_storage_cell_256k",
-        "ae2additions:cells/item/1024k",
-        "ae2additions:cells/item/4096k",
-        "ae2additions:cells/item/16384k",
-        "ae2additions:cells/item/65536k",
+
         "ae2:network/cells/fluid_storage_cell_1k",
         "ae2:network/cells/fluid_storage_cell_4k",
         "ae2:network/cells/fluid_storage_cell_16k",
         "ae2:network/cells/fluid_storage_cell_64k",
         "ae2:network/cells/fluid_storage_cell_256k",
-        "ae2additions:cells/fluid/1024k",
-        "ae2additions:cells/fluid/4096k",
-        "ae2additions:cells/fluid/16384k",
-        "ae2additions:cells/fluid/65536k",
-        "ae2things:cells/disk_drive_4k",
-        "ae2things:cells/disk_drive_16k",
-        "ae2things:cells/disk_drive_64k",
-        "ae2things:cells/disk_drive_256k",
-        "ae2additions:cells/item/disk-1024",
-        "ae2additions:cells/item/disk-4096",
-        "ae2additions:cells/item/disk-16384",
-        "ae2additions:cells/item/disk-65536",
-        "ae2additions:cells/fluid/disk-1",
-        "ae2additions:cells/fluid/disk-4",
-        "ae2additions:cells/fluid/disk-16",
-        "ae2additions:cells/fluid/disk-64",
-        "ae2additions:cells/fluid/disk-256",
-        "ae2additions:cells/fluid/disk-1024",
-        "ae2additions:cells/fluid/disk-4096",
-        "ae2additions:cells/fluid/disk-16384",
-        "ae2additions:cells/fluid/disk-65536",
-        "ae2additions:cells/super/1k",
-        "ae2additions:cells/super/4k",
-        "ae2additions:cells/super/16k",
-        "ae2additions:cells/super/64k",
-        "ae2additions:cells/super/256k",
-        "ae2additions:cells/super/1024k",
-        "ae2additions:cells/super/4096k",
-        "ae2additions:cells/super/16m",
-        "ae2additions:cells/super/65m",
-        "bigger_ae2:4_core_crafting_accelerator",
-        "bigger_ae2:16_core_crafting_accelerator",
-        "bigger_ae2:64_core_crafting_accelerator",
-        "bigger_ae2:256_core_crafting_accelerator",
-        "bigger_ae2:1024_core_crafting_accelerator",
-        "bigger_ae2:advanced_item_cell_housing",
-        "bigger_ae2:advanced_fluid_cell_housing",
+
 
         "ae2omnicells:cells/shaped/omni_cell_1k",
         "ae2omnicells:cells/shaped/omni_cell_4k",
@@ -639,6 +593,7 @@ ServerEvents.recipes(event => {
         "ae2omnicells:components/shaped/omni_cell_component_256m",
         "ae2omnicells:components/shaped/complex_omni_cell_component_256m",
         "ae2omnicells:components/shaped/quantum_omni_cell_component_256m",
+        "ae2omnicells:cells/housing/quantum_omni_cell_housing"
     ])
 
     function press_recipe(name, color, ingredient, circuit) {
