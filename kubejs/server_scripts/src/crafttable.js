@@ -1204,69 +1204,6 @@ ServerEvents.recipes(event => {
         ], {
             A: '#forge:plates/iron'
         })
-    event.shaped(
-        Item.of('gtportal:simple_nether_portal_frame', 4), [
-            "ABA",
-            "BCB",
-            "ABA"
-        ], {
-            A: 'gtceu:bronze_plate',
-            B: 'minecraft:netherrack',
-            C: 'gtceu:rubber_plate'
-        })
-    event.shaped(
-        Item.of('gtportal:simple_nether_portal_controller', 1), [
-            "ADA",
-            "BCB",
-            "ABA"
-        ], {
-            A: 'gtceu:small_steel_gear',
-            B: 'gtceu:steel_rod',
-            C: 'gtportal:simple_nether_portal_frame',
-            D: 'minecraft:flint_and_steel'
-        })
-    event.shaped(
-        Item.of('gtportal:simple_overworld_portal_frame', 4), [
-            "ABA",
-            "BCB",
-            "ABA"
-        ], {
-            A: 'gtceu:iron_plate',
-            B: 'minecraft:grass_block',
-            C: 'gtceu:rubber_plate'
-        })
-    event.shaped(
-        Item.of('gtportal:simple_overworld_portal_controller', 1), [
-            "ADA",
-            "BCB",
-            "ABA"
-        ], {
-            A: 'gtceu:small_steel_gear',
-            B: 'gtceu:steel_rod',
-            C: 'gtportal:simple_overworld_portal_frame',
-            D: 'minecraft:flint_and_steel'
-        })
-    event.shaped(
-        Item.of('gtportal:portal_frame', 4), [
-            "ABA",
-            "BCB",
-            "ABA"
-        ], {
-            A: 'gtceu:steel_plate',
-            B: 'gtceu:copper_single_wire',
-            C: 'gtceu:rubber_plate'
-        })
-    event.shaped(
-        Item.of('gtportal:multidimensional_portal_controller', 1), [
-            "ADA",
-            "BCB",
-            "ABA"
-        ], {
-            A: 'gtceu:small_steel_gear',
-            B: 'gtceu:steel_rod',
-            C: 'gtportal:portal_frame',
-            D: '#gtceu:circuits/lv'
-        })
     event.shapeless("bloodmagic:dungeon_brick1", "bloodmagic:dungeon_brick_assorted")
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:candy_cavity"}').strongNBT())
     event.shapeless(Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:toxic_caves"}').strongNBT(), Item.of('alexscaves:cave_tablet', 1, '{CaveBiome:"alexscaves:primordial_caves"}').strongNBT())
