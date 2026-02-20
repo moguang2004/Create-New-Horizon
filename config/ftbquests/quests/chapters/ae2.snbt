@@ -313,7 +313,7 @@
 				item: "gtceu:silicon_ingot"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -639,19 +639,6 @@
 			]
 			title: "{ftbquests.chapter.ae2.quest8351612552652165572.title}"
 			x: 8.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["39932A8C0601C003"]
-			description: ["{ftbquests.chapter.ae2.quest751708475188667641.description1}"]
-			id: "0A6E9AE01E4564F9"
-			subtitle: "{ftbquests.chapter.ae2.quest751708475188667641.subtitle}"
-			tasks: [{
-				id: "19209853C09D8B77"
-				item: "expatternprovider:circuit_cutter"
-				type: "item"
-			}]
-			x: -1.5d
 			y: -3.0d
 		}
 		{

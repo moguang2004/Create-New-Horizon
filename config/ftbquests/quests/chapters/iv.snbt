@@ -1767,6 +1767,18 @@
 			x: 0.0d
 			y: -12.5d
 		}
+		{
+			dependencies: ["63F5094821C731CA"]
+			hide_dependency_lines: true
+			id: "5ABAA49CC3DEFB86"
+			tasks: [{
+				id: "410EBCDC2EF78C5F"
+				item: "ctnhenergy:me_substation_hatch"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
 	]
 	title: "&9IV时期"
 }
