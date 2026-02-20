@@ -1615,35 +1615,52 @@
 			y: 4.5d
 		}
 		{
-			can_repeat: true
 			dependencies: [
 				"43CD7225D0D21331"
-				"6CDD36A3C742B7F2"
+				"1162E347E7C00175"
 			]
 			description: [
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.description1}"
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.description2}"
+				"    你是否发现，传统的地狱门无法使用"
+				"    你只能使用GT的方式进入下界,哦，别忘了回来也是"
 			]
 			icon: "minecraft:netherrack"
 			id: "1E11A492F4576DBA"
-			rewards: [{
-				command: "/gamephase add @p nether"
-				elevate_perms: true
-				id: "73102DDDEA76B9E4"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.reward.8291177345133754852.title}"
-				type: "command"
-			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.subtitle}"
-			tasks: [{
-				id: "43030C369984C7C2"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.task.4828716654114686914.title}"
-				type: "checkmark"
-			}]
+			subtitle: "前往下界的方式"
+			tasks: [
+				{
+					id: "7B0A7100342AF78F"
+					item: "gtportal:simple_nether_portal_controller"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "392A28A656FD9A95"
+					item: { Count: 15, id: "gtportal:simple_nether_portal_frame" }
+					type: "item"
+				}
+				{
+					id: "341F9FECE554FA3C"
+					item: "gtportal:simple_overworld_portal_controller"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "5A252BBFE26D4E60"
+					item: { Count: 15, id: "gtportal:simple_overworld_portal_frame" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "47C4B7F214259992"
+					item: { Count: 2, id: "gtceu:ulv_input_bus" }
+					type: "item"
+				}
+			]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest2166693846813470138.title}"
-			x: 16.5d
-			y: 7.5d
+			x: 14.57142857142857d
+			y: 16.92857142857143d
 		}
 		{
 			dependencies: [
