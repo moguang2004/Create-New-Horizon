@@ -582,6 +582,24 @@
 			x: 5.0d
 			y: 2.0d
 		}
+		{
+			id: "40E3022D7B86E1AA"
+			tasks: [
+				{
+					id: "234F15804949CCA2"
+					item: "gtportal:simple_nether_portal_controller"
+					type: "item"
+				}
+				{
+					id: "1913B0F865B61816"
+					item: "gtportal:simple_overworld_portal_controller"
+					type: "item"
+				}
+			]
+			title: " 下界传送门"
+			x: -6.0d
+			y: 4.0d
+		}
 	]
 	title: "&f&l钢铁雄心"
 }
