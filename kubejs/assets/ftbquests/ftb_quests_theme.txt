@@ -2,14 +2,14 @@
 background:          ftbquests:textures/b1.png
 extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, flamingoblood
 
-text_color:          #E5E4E2
+text_color:          #87CEEB
 hover_text_color:    #E5E4E2
 disabled_text_color: #c5c5c5
 
 widget_border:     #80514500
 widget_background: #80514500
-symbol_in:         #BEBEBE
-symbol_out:        #BEBEBE
+symbol_in:         
+symbol_out:        
 
 button:                hollow_rectangle:{{widget_border}}
 panel:                 {{container_slot}}
@@ -22,19 +22,17 @@ container_slot:        {{button}}; padding=-1
 text_box:              part:minecraft:textures/gui/container/enchanting_table.png; pos=0,185,108,19; corner=6; padding=6
 
 icon:                 none
-check_icon:           builtin
-add_icon:             builtin
 
 full_screen_quest:                  0
-tasks_text_color:                   #E5E4E2
-rewards_text_color:                 #E5E4E2
+tasks_text_color:                   #87CEEB
+rewards_text_color:                 #87CEEB
 quest_view_background: ftbquests:textures/b2.png
 quest_view_border: {{widget_border}}
-quest_view_title:                   #00FFFF
-quest_completed_color:              #E5E4E2
+quest_view_title:                   #87CEEB
+quest_completed_color:              #C0C0C0
 quest_started_color:                #80514500
-dependency_line_completed_color:    #E5E4E2
-dependency_line_requires_color:     #E5E4E2
+dependency_line_completed_color:    #87CEEB
+dependency_line_requires_color:     #87CEEB
 dependency_line_required_for_color: #80514500
 dependency_line_selected_speed:     1.0
 dependency_line_unselected_speed:   0.0
