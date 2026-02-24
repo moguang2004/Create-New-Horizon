@@ -9,271 +9,158 @@ on:
 permissions:
   contents: write
 
-env:
-  PACKWIZ_DOWNLOAD_URL: https://github.com/Jasons-impart/packwiz/releases/download/init/packwiz
-
 jobs:
-  common:
-    runs-on: ubuntu-latest
-    outputs:
-      modpack_name: ${{ steps.read-modpackname.outputs.value }}
-      modpack_ver: ${{ steps.read-version.outputs.value }}
-      mc_version: ${{ steps.read-minecraft.outputs.value }}
-      forge_version: ${{ steps.read-forge.outputs.value }}
-
-    steps:
-      - name: Checkout only pack.toml
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-          sparse-checkout: 'pack.toml'
-
-      - name: Read modpack name
-        uses: SebRollen/toml-action@v1.2.0
-        id: read-modpackname
-        with:
-          file: pack.toml
-          field: 'name'
-
-      - name: Read modpack version
-        uses: SebRollen/toml-action@v1.2.0
-        id: read-version
-        with:
-          file: pack.toml
-          field: 'version'
-
-      - name: Read Minecraft version
-        uses: SebRollen/toml-action@v1.2.0
-        id: read-minecraft
-        with:
-          file: pack.toml
-          field: 'versions.minecraft'
-
-      - name: Read Forge version
-        uses: SebRollen/toml-action@v1.2.0
-        id: read-forge
-        with:
-          file: pack.toml
-          field: 'versions.forge'
-
-      - name: Print resolved metadata
-        run: |
-          echo "Modpack Name: ${{ steps.read-modpackname.outputs.value }}"
-          echo "Modpack Version: ${{ steps.read-version.outputs.value }}"
-          echo "Minecraft Version: ${{ steps.read-minecraft.outputs.value }}"
-          echo "Forge Version: ${{ steps.read-forge.outputs.value }}"
-
   client:
-    needs: common
     runs-on: ubuntu-latest
-    outputs:
-      artifact_name: ${{ steps.client-zip.outputs.artifact_name }}
-    env:
-      MODPACK_NAME: ${{ needs.common.outputs.modpack_name }}
-      MODPACK_VERSION: ${{ needs.common.outputs.modpack_ver }}
-      MC_VERSION: ${{ needs.common.outputs.mc_version }}
-      FORGE_VERSION: ${{ needs.common.outputs.forge_version }}
-      VERSION_FILE_PATH: ${{ github.workspace }}/config/fancymenu/assets/version.md
-
     steps:
-      - name: Print job metadata
-        run: |
-          echo "Modpack Name: $MODPACK_NAME"
-          echo "Modpack Version: $MODPACK_VERSION"
-          echo "Minecraft Version: $MC_VERSION"
-          echo "Forge Version: $FORGE_VERSION"
-          echo "Version File Path: $VERSION_FILE_PATH"
+      - uses: actions/checkout@v4
 
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
-      - name: Install Packwiz
+      - name: Read metadata
+        id: meta
         run: |
-          curl -o packwiz -L "$PACKWIZ_DOWNLOAD_URL"
+          python - <<'PY'
+          import os, re, tomllib
+          from pathlib import Path
+
+          data = tomllib.loads(Path('pack.toml').read_text(encoding='utf-8'))
+          name = data.get('name', '')
+          version = data.get('version', '')
+          safe_name = re.sub(r"\s+", "-", name.strip())
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+              f.write(f"name={name}\n")
+              f.write(f"version={version}\n")
+              f.write(f"safe_name={safe_name}\n")
+          PY
+
+      - name: Install packwiz
+        run: |
+          curl -o packwiz -L https://github.com/Jasons-impart/packwiz/releases/download/init/packwiz
           chmod +x ./packwiz
 
-      - name: Update in-game title/version text
+      - name: Patch client version texts
         run: |
+          MODPACK_NAME="${{ steps.meta.outputs.name }}"
+          MODPACK_VERSION="${{ steps.meta.outputs.version }}"
           sed -i "s/^title=\(.*\)/title=\1 | v$MODPACK_VERSION/" kubejs/config/client.properties
-          grep 'title' kubejs/config/client.properties
+          printf "|||\n%s %s\nGPL-3.0 License Copyright (c) 2025 CTNH Team\n|||\n" "$MODPACK_NAME" "$MODPACK_VERSION" > config/fancymenu/assets/version.md
 
-      - name: Write FancyMenu version file
+      - name: Export and unzip
         run: |
           set -euo pipefail
-          printf "|||\n%s %s\nGPL-3.0 License Copyright (c) 2025 CTNH Team\n|||\n" "$MODPACK_NAME" "$MODPACK_VERSION" > "$VERSION_FILE_PATH"
-          cat "$VERSION_FILE_PATH"
-
-      - name: Refresh index
-        run: |
+          SAFE_NAME="${{ steps.meta.outputs.safe_name }}"
+          MODPACK_VERSION="${{ steps.meta.outputs.version }}"
           ./packwiz refresh
-
-      - name: Build client pack zip
-        run: |
-          set -euo pipefail
-          mkdir -p dist
           ./packwiz curseforge export
-          find . -maxdepth 1 -type f -name "*.zip" -exec mv -t dist {} +
-          ls -lh dist
+          ZIP_FILE="$(ls -1 *.zip | head -n1)"
+          SAFE_ZIP_FILE="${SAFE_NAME}-${MODPACK_VERSION}.zip"
+          mv -f "$ZIP_FILE" "$SAFE_ZIP_FILE"
+          mkdir -p client
+          unzip -q "$SAFE_ZIP_FILE" -d client
 
-      - name: Resolve client zip filename
-        id: client-zip
-        run: |
-          set -euo pipefail
-          FILE_PATH="$(find dist -maxdepth 1 -type f -name "*.zip" | head -n1)"
-          FILE_NAME="$(basename "$FILE_PATH")"
-          ARTIFACT_NAME="${FILE_NAME%.zip}"
-          echo "filename=$FILE_NAME" >> "$GITHUB_OUTPUT"
-          echo "artifact_name=$ARTIFACT_NAME" >> "$GITHUB_OUTPUT"
-
-      - name: Extract client zip for artifact upload
-        run: |
-          set -euo pipefail
-          mkdir -p artifact_payload/client
-          unzip -q "dist/${{ steps.client-zip.outputs.filename }}" -d artifact_payload/client
-          ls -la artifact_payload/client
-
-      - name: Upload client artifact
+      - name: Upload artifact (client)
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.client-zip.outputs.artifact_name }}
-          path: artifact_payload/client/**
+          name: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
+          path: client/**
 
-  server:
-    needs: common
-    runs-on: ubuntu-latest
-    outputs:
-      artifact_name: ${{ steps.server-zip.outputs.artifact_name }}
-    env:
-      MODPACK_NAME: ${{ needs.common.outputs.modpack_name }}
-      MODPACK_VERSION: ${{ needs.common.outputs.modpack_ver }}
-      MC_VERSION: ${{ needs.common.outputs.mc_version }}
-      FORGE_VERSION: ${{ needs.common.outputs.forge_version }}
-      FORGE_DOWNLOAD_URL_PREFIX: https://maven.minecraftforge.net/net/minecraftforge/forge
-    # if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-
-      - name: Download mods via installer bootstrap
-        run: |
-          java -jar scripts/action/packwiz-installer-bootstrap.jar ./pack.toml
-
-      - name: Remove non-server files
-        run: |
-            rm -rf resourcepacks
-            rm -rf shaderpacks
-            rm -f observable_announce
-            rm -f packwiz_tutorial.md
-            rm -f fixup.sh
-            rm -f pack.toml
-            rm -f index.toml
-            rm -f patchouli_data.json
-            rm -f packwiz-installer.jar
-
-      - name: Remove client-only mods
-        run: |
-          mapfile -t prefixes < scripts/action/.clientonlymodlist
-          for prefix in "${prefixes[@]}"; do
-            echo "Deleting files with prefix: $prefix"
-            find mods -name "${prefix}*" -exec rm {} +
-          done
-
-      - name: Restore server launcher templates
-        run: |
-          cp -f scripts/server/start.sh ./start.sh
-          cp -f scripts/server/start.bat ./start.bat
-          cp -f scripts/server/variables.txt ./variables.txt
-          cp -f scripts/server/variables.nix.txt ./variables.nix.txt
-
-      - name: Download Forge installer
-        run: |
-          set -euo pipefail
-          FORGE_URL="${{ env.FORGE_DOWNLOAD_URL_PREFIX }}/${MC_VERSION}-${FORGE_VERSION}/forge-${MC_VERSION}-${FORGE_VERSION}-installer.jar"
-          echo "$FORGE_URL"
-          curl -L --retry 3 --retry-connrefused -o "forge.jar" "$FORGE_URL"
-
-      - name: Convert server start.bat to CRLF and patch versions
-        run: |
-          set -euo pipefail
-          sudo apt-get -y update && sudo apt-get -y install dos2unix
-          unix2dos "start.bat"
-          sed -i "s|!MC_VERSION!|${MC_VERSION}|" "start.bat"
-          sed -i "s|!FORGE_VERSION!|${FORGE_VERSION}|" "start.bat"
-
-      - name: List remaining files
-        run: |
-          ls ${{ github.workspace }}
-          ls mods
-
-      - name: Install Forge server
-        run: |
-          cd ${{ github.workspace }} && java -jar forge.jar nogui --installServer
-
-      - name: Build server package zip
-        run: |
-          set -euo pipefail
-          mkdir -p dist
-          cd ${{ github.workspace }}
-          zip -r "dist/${MODPACK_NAME}-${MODPACK_VERSION}-Server.zip" . -x ".git/*" "scripts/*" "scripts/**" "dist/*" ".*" "*/.*"
-          ls -lh dist
-
-      - name: Resolve server zip filename
-        id: server-zip
-        run: |
-          set -euo pipefail
-          FILE_PATH="$(find dist -maxdepth 1 -type f -name "*-Server.zip" | head -n1)"
-          FILE_NAME="$(basename "$FILE_PATH")"
-          ARTIFACT_NAME="${FILE_NAME%.zip}"
-          echo "filename=$FILE_NAME" >> "$GITHUB_OUTPUT"
-          echo "artifact_name=$ARTIFACT_NAME" >> "$GITHUB_OUTPUT"
-
-      - name: Extract server zip for artifact upload
-        run: |
-          set -euo pipefail
-          mkdir -p artifact_payload/server
-          unzip -q "dist/${{ steps.server-zip.outputs.filename }}" -d artifact_payload/server
-          ls -la artifact_payload/server
-
-      - name: Upload server artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ steps.server-zip.outputs.artifact_name }}
-          path: artifact_payload/server/**
-
-  publish-assets:
-    needs: [common, client, server]
-    runs-on: ubuntu-latest
-    if: github.event_name == 'release'
-
-    steps:
-      - name: Download client artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: ${{ needs.client.outputs.artifact_name }}
-          path: artifacts/client
-
-      - name: Download server artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: ${{ needs.server.outputs.artifact_name }}
-          path: artifacts/server
-
-      - name: Repack artifacts to release zip files
-        run: |
-          set -euo pipefail
-          mkdir -p artifacts-zips
-          (cd artifacts/client && zip -r "../../artifacts-zips/${{ needs.client.outputs.artifact_name }}.zip" .)
-          (cd artifacts/server && zip -r "../../artifacts-zips/${{ needs.server.outputs.artifact_name }}.zip" .)
-          ls -lh artifacts-zips
-
-      - name: Upload assets to existing GitHub Release
+      - name: Upload zip to release
         if: github.event_name == 'release'
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            artifacts-zips/*.zip
+            ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
+
+  server:
+    runs-on: ubuntu-latest
+    # if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
+    env:
+      FORGE_DOWNLOAD_URL_PREFIX: https://maven.minecraftforge.net/net/minecraftforge/forge
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read metadata
+        id: meta
+        run: |
+          python - <<'PY'
+          import os, re, tomllib
+          from pathlib import Path
+
+          data = tomllib.loads(Path('pack.toml').read_text(encoding='utf-8'))
+          versions = data.get('versions', {})
+          name = data.get('name', '')
+          version = data.get('version', '')
+          safe_name = re.sub(r"\s+", "-", name.strip())
+          mc = versions.get('minecraft', '')
+          forge = versions.get('forge', '')
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+            f.write(f"name={name}\n")
+            f.write(f"version={version}\n")
+            f.write(f"safe_name={safe_name}\n")
+            f.write(f"mc={mc}\n")
+            f.write(f"forge={forge}\n")
+          PY
+
+      - name: Bootstrap mods
+        run: |
+          java -jar scripts/action/packwiz-installer-bootstrap.jar ./pack.toml
+
+      - name: Remove client-only mods + pw metadata
+        run: |
+          mapfile -t prefixes < scripts/action/.clientonlymodlist
+          for prefix in "${prefixes[@]}"; do
+            find mods -name "${prefix}*" -exec rm {} +
+          done
+          find mods -name "*.pw.toml" -delete
+
+      - name: Prepare server root
+        run: |
+          cp -a scripts/server/. ./
+          rm -rf resourcepacks shaderpacks scripts
+          rm -f packwiz_tutorial.md packwiz-installer.jar pack.toml index.toml patchouli_data.json
+
+      - name: Download Forge installer
+        run: |
+          set -euo pipefail
+          MC_VERSION="${{ steps.meta.outputs.mc }}"
+          FORGE_VERSION="${{ steps.meta.outputs.forge }}"
+          FORGE_URL="$FORGE_DOWNLOAD_URL_PREFIX/$MC_VERSION-$FORGE_VERSION/forge-$MC_VERSION-$FORGE_VERSION-installer.jar"
+          curl -L --retry 3 --retry-connrefused -o "forge.jar" "$FORGE_URL"
+
+      - name: Patch start.bat and install forge
+        run: |
+          set -euo pipefail
+          MC_VERSION="${{ steps.meta.outputs.mc }}"
+          FORGE_VERSION="${{ steps.meta.outputs.forge }}"
+          sudo apt-get -y update && sudo apt-get -y install dos2unix
+          unix2dos "start.bat"
+          sed -i "s|!MC_VERSION!|${MC_VERSION}|" "start.bat"
+          sed -i "s|!FORGE_VERSION!|${FORGE_VERSION}|" "start.bat"
+          java -jar forge.jar nogui --installServer
+
+      - name: Zip + unzip for artifact
+        run: |
+          set -euo pipefail
+          SAFE_NAME="${{ steps.meta.outputs.safe_name }}"
+          MODPACK_VERSION="${{ steps.meta.outputs.version }}"
+          rm -rf .git
+          find . -maxdepth 1 -mindepth 1 -name ".*" -exec rm -rf {} +
+          SERVER_ZIP="${SAFE_NAME}-${MODPACK_VERSION}-Server.zip"
+          zip -r "$SERVER_ZIP" .
+          mkdir -p server
+          unzip -q "$SERVER_ZIP" -d server
+
+      - name: Upload artifact (server)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}-Server.zip
+          path: server/**
+
+      - name: Upload zip to release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}-Server.zip
