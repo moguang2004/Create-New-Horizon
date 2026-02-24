@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".cache/changelog_cache.json"
-hash = "2ed8ff74bfa54920285de6d1ad2cff5b346f6ca9baafbfed0b4c49f404698a30"
-
-[[files]]
-file = ".cache/changelog_cache.json.etag"
-hash = "1ed56dea37d2048aa57e631cc52e3a7e4e881efdd14f6846e4f0168d274b25e5"
-
-[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -46,7 +38,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/ModernUI/client.toml"
-hash = "770ab07e7ed5d6347639795e5f7e096842ae74e707bf455956c7a2b4913bee73"
+hash = "4a3aa9900e4d997b3545f4c4070062709ae8adaf4a4623171dd29e70ee6e5ed5"
 
 [[files]]
 file = "config/ModernUI/common.toml"
@@ -834,7 +826,7 @@ hash = "978214f42431cd238adc4e732695e23beaf46a07b5d50f66ea92de38f3e38458"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "c58aebfceb1f24b8282511bb4d455f3de8359b31c2f52079121742b298373322"
+hash = "d78f61a50f20db8cf82419d3e1c370b61ecd2b21c9e91a569be3e183433ffdef"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
@@ -886,7 +878,7 @@ hash = "5831a4da569ac4fb3d7d5396967281b8bdad765c25cf3cd5c6a5d708952c2b16"
 
 [[files]]
 file = "config/chloride-client.json"
-hash = "6117c0304b352817b847eb20eb9fcc001aafc540866b0ba02d74a8cf30db8088"
+hash = "0bec9211b21746a28b585b898b702af3b10a1b5fcd9019650c4b8558e14dc7c1"
 
 [[files]]
 file = "config/create_new_age-common.toml"
@@ -1030,7 +1022,7 @@ hash = "bdf60d705fda21ac288e60a7929235ed4f6394d2ef6313b2acbd6359c9c817d6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
-hash = "28f59d9481af1c9cd410efcf897fa40d724272719e6e9f0324e744324fdc5398"
+hash = "9fb41940245a8d8ddd5cd624d5f87e5713b00bc58031956ffb93d7d24be50b5b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09F33579334F2607.snbt"
@@ -1118,7 +1110,7 @@ hash = "8658d76192049dfc740dee09c3d983bd1e4f320e4fff2331436b10d9b0235605"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "6f0aea8d3fe7e97bbde51e100105561780eaaeb08203f7f38ddd1ed2cfd32e39"
+hash = "1d50df4f50a5851d7c7b432a7835783551bc2a4528ff739ebf5836ccccb42cc3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
@@ -1130,7 +1122,7 @@ hash = "e7bf6cc2b6d18276fa78b473fc7702b858c5348b78185a84a9c02282701cd56f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
-hash = "48c027ea5b338334ece8c3b29cb17ac8d32b16fe26cf028a2f54b9a06a603887"
+hash = "7f7d9c93513b8e3bade3e7fe99ab2ee6e554bed8aea329dc1658dc6deba43b2b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
@@ -2806,7 +2798,7 @@ hash = "b61b79d9bbc3a539142f6d7eb4df89c730d5977f2ce215260b60abd289eeb1fc"
 
 [[files]]
 file = "kubejs/assets/ftbquests/ftb_quests_theme.txt"
-hash = "1d6ca4870450127467f93fda3056b4bbf8ad5b4c7e55f329f18d64a92ee44a7c"
+hash = "049b15afefaa2fa4c531c6cf2f6c6b87ab4b787a7faa1f385d3b44429445c111"
 
 [[files]]
 file = "kubejs/assets/ftbquests/textures/ars/ars.png"
@@ -2858,7 +2850,7 @@ hash = "4bc4439c4343649a7b1b5b6786a6978dcfa77f8004b2f05d462be971584428d4"
 
 [[files]]
 file = "kubejs/assets/ftbquests/textures/b2.png"
-hash = "5af719fdcd4ec0ade76f359def93a9d66a75434ce60c3d424d99a265016f56a1"
+hash = "8e2273e511e57cb7cad2d527ea6dc9190a14906603cf13a7a81c55e22c880e6d"
 
 [[files]]
 file = "kubejs/assets/ftbquests/textures/b3.png"
@@ -9778,7 +9770,7 @@ hash = "43cdd26c6427fa6a8f88f063c74775e2e3cb62282ca80f5dddad696682ad4bf2"
 
 [[files]]
 file = "kubejs/server_scripts/src/ae2.js"
-hash = "9d22e890b89d8097759844b748e69ad2cd535e9e467f3d1a3ee24f6f32d6b13e"
+hash = "ecb8fb047e2552e682fac6b91694fc9a4cd529443dba2e5c45eced31b838fed5"
 
 [[files]]
 file = "kubejs/server_scripts/src/apothesis/spawner.js"
@@ -9854,7 +9846,7 @@ hash = "5c34a7543a715fdf2d055629d1fc42da0124c1f9f783cffbf725b6e91d3475a7"
 
 [[files]]
 file = "kubejs/server_scripts/src/functional_storage.js"
-hash = "6585fe8947b51f8fee4aa297f2c91dc69665542fb181fc6a09fd1ec04a574980"
+hash = "69dd81af1fae65ac8af95e3ee36f5644e825c0b365c1c07d7326388b7ca461cb"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/arc.js"
@@ -9902,7 +9894,7 @@ hash = "9e41b6faf04df20b84ccee29a2a9d83aaf2c0adee85b2c308a2f7751466bb45f"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/PlatinumChain.js"
-hash = "d84faa3cbecdfb3425ed1e980c584ac5f19bfcf84745048dab82f6c605e4a903"
+hash = "225161f027b58574e7f5be8e0a70ed24318464469723bf53add0311a220d3113"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/RareearthChain.js"
@@ -9962,7 +9954,7 @@ hash = "8fb12367dccf421e66c69062587c404fcbc1db7bf1916462812adc054ab75bf2"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu_remove.js"
-hash = "6329e7c5cdeb28465aac7422b5ed05d7e69a287897f46719160f346ddab6c7b8"
+hash = "fc684e33961c779a98a95a2a5f682dec814c3070836a66c529830326cbb66c99"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtportal.js"
@@ -9994,7 +9986,7 @@ hash = "bd24f12b53cf8270ee619a1398689c40c0df49d26de61b5e0bba5207511f6095"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "3e63174a16997bf0fb1db61cf51f5305f0e075a4b15bfc7cab7cccd72cd5bfa0"
+hash = "959067adc98cfa66382a3e12ee0bc6bba2f242947c41ad7577143de4cc42a455"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -10055,10 +10047,6 @@ hash = "9bf0876809187cfbbceb14ffc4e3dc3e5b8abd2f54e7f3f9a94abf5937c7f7c7"
 [[files]]
 file = "kubejs/startup_scripts/src/Worldgen/worldgen.js"
 hash = "6b7288d2a7414d9718139a0e1eb138e7b2d34f9ebbc311fced1751d34c082177"
-
-[[files]]
-file = "kubejs/startup_scripts/src/game_phase.js"
-hash = "e5752c9ee4830c102c2512d75be8dafab552fee087460216324561504900f0f3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
@@ -11230,7 +11218,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "54e7330ada453abd60c66a1b6f053dcf0cf74b625a31c6838adbaf11b2f25f3b"
+hash = "7b6358dcf924abe32d30df4f183e57757ab4bb743b591d6020a871aa412f0eae"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"

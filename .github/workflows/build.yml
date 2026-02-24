@@ -1,0 +1,167 @@
+name: Build modpack
+
+on:
+  push:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  client:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read metadata
+        id: meta
+        run: |
+          python - <<'PY'
+          import os, re, tomllib
+          from pathlib import Path
+
+          data = tomllib.loads(Path('pack.toml').read_text(encoding='utf-8'))
+          name = data.get('name', '')
+          version = data.get('version', '')
+          safe_name = re.sub(r"\s+", "-", name.strip())
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+              f.write(f"name={name}\n")
+              f.write(f"version={version}\n")
+              f.write(f"safe_name={safe_name}\n")
+          PY
+
+      - name: Install packwiz
+        run: |
+          curl -o packwiz -L https://github.com/Jasons-impart/packwiz/releases/download/init/packwiz
+          chmod +x ./packwiz
+
+      - name: Patch client version texts
+        run: |
+          MODPACK_NAME="${{ steps.meta.outputs.name }}"
+          MODPACK_VERSION="${{ steps.meta.outputs.version }}"
+          sed -i "s/^title=\(.*\)/title=\1 | v$MODPACK_VERSION/" kubejs/config/client.properties
+          printf "|||\n%s %s\nLGPL-3.0 License Copyright (c) 2025 CTNH Team\n|||\n" "$MODPACK_NAME" "$MODPACK_VERSION" > config/fancymenu/assets/version.md
+
+      - name: Export and unzip
+        run: |
+          set -euo pipefail
+          SAFE_NAME="${{ steps.meta.outputs.safe_name }}"
+          MODPACK_VERSION="${{ steps.meta.outputs.version }}"
+          ./packwiz refresh
+          ./packwiz curseforge export
+          ZIP_FILE="$(ls -1 *.zip | head -n1)"
+          SAFE_ZIP_FILE="${SAFE_NAME}-${MODPACK_VERSION}.zip"
+          mv -f "$ZIP_FILE" "$SAFE_ZIP_FILE"
+          mkdir -p client
+          unzip -q "$SAFE_ZIP_FILE" -d client
+
+      - name: Upload artifact (client)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
+          path: client/**
+
+      - name: Upload zip to release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
+
+  server:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
+    env:
+      FORGE_DOWNLOAD_URL_PREFIX: https://maven.minecraftforge.net/net/minecraftforge/forge
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read metadata
+        id: meta
+        run: |
+          python - <<'PY'
+          import os, re, tomllib
+          from pathlib import Path
+
+          data = tomllib.loads(Path('pack.toml').read_text(encoding='utf-8'))
+          versions = data.get('versions', {})
+          name = data.get('name', '')
+          version = data.get('version', '')
+          safe_name = re.sub(r"\s+", "-", name.strip())
+          mc = versions.get('minecraft', '')
+          forge = versions.get('forge', '')
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+            f.write(f"name={name}\n")
+            f.write(f"version={version}\n")
+            f.write(f"safe_name={safe_name}\n")
+            f.write(f"mc={mc}\n")
+            f.write(f"forge={forge}\n")
+          PY
+
+      - name: Bootstrap mods
+        run: |
+          java -jar scripts/action/packwiz-installer-bootstrap.jar ./pack.toml
+
+      - name: Remove client-only mods + pw metadata
+        run: |
+          mapfile -t prefixes < scripts/action/.clientonlymodlist
+          for prefix in "${prefixes[@]}"; do
+            find mods -name "${prefix}*" -exec rm {} +
+          done
+          find mods -name "*.pw.toml" -delete
+
+      - name: Prepare server root
+        run: |
+          cp -a scripts/server/. ./
+          rm -rf resourcepacks shaderpacks scripts
+          rm -f packwiz_tutorial.md packwiz-installer.jar pack.toml index.toml packwiz.json
+
+      - name: Download Forge installer
+        run: |
+          set -euo pipefail
+          MC_VERSION="${{ steps.meta.outputs.mc }}"
+          FORGE_VERSION="${{ steps.meta.outputs.forge }}"
+          FORGE_URL="$FORGE_DOWNLOAD_URL_PREFIX/$MC_VERSION-$FORGE_VERSION/forge-$MC_VERSION-$FORGE_VERSION-installer.jar"
+          curl -L --retry 3 --retry-connrefused -o "forge.jar" "$FORGE_URL"
+
+      - name: Patch start.bat and install forge
+        run: |
+          set -euo pipefail
+          MC_VERSION="${{ steps.meta.outputs.mc }}"
+          FORGE_VERSION="${{ steps.meta.outputs.forge }}"
+          sudo apt-get -y update && sudo apt-get -y install dos2unix
+          unix2dos "start.bat"
+          sed -i "s|!MC_VERSION!|${MC_VERSION}|" "start.bat"
+          sed -i "s|!FORGE_VERSION!|${FORGE_VERSION}|" "start.bat"
+          java -jar forge.jar nogui --installServer
+
+      - name: Zip + unzip for artifact
+        run: |
+          set -euo pipefail
+          SAFE_NAME="${{ steps.meta.outputs.safe_name }}"
+          MODPACK_VERSION="${{ steps.meta.outputs.version }}"
+          rm -rf .git
+          rm -f forge.jar.log
+          find . -maxdepth 1 -mindepth 1 -name ".*" -exec rm -rf {} +
+          SERVER_ZIP="${SAFE_NAME}-${MODPACK_VERSION}-Server.zip"
+          zip -r "$SERVER_ZIP" .
+          mkdir -p server
+          unzip -q "$SERVER_ZIP" -d server
+
+      - name: Upload artifact (server)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}-Server.zip
+          path: server/**
+
+      - name: Upload zip to release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}-Server.zip
