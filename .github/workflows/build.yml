@@ -110,15 +110,16 @@ jobs:
       - name: Build client pack zip
         run: |
           set -euo pipefail
+          mkdir -p dist
           ./packwiz curseforge export
-          mv ./*.zip "../${MODPACK_NAME}-${MODPACK_VERSION}-Client.zip"
-          ls -lh ..
+          mv ./*.zip "dist/${MODPACK_NAME}-${MODPACK_VERSION}-Client.zip"
+          ls -lh dist
 
       - name: Upload client artifact
         uses: actions/upload-artifact@v4
         with:
           name: client-zip
-          path: ../${{ env.MODPACK_NAME }}-${{ env.MODPACK_VERSION }}-Client.zip
+          path: dist/${{ env.MODPACK_NAME }}-${{ env.MODPACK_VERSION }}-Client.zip
           if-no-files-found: error
 
   server:
@@ -195,15 +196,16 @@ jobs:
       - name: Build server package zip
         run: |
           set -euo pipefail
+          mkdir -p dist
           cd ${{ github.workspace }}
-          zip -r "../${MODPACK_NAME}-${MODPACK_VERSION}-Server.zip" . -x ".git/*" "scripts/*" "scripts/**"
-          ls -lh ..
+          zip -r "dist/${MODPACK_NAME}-${MODPACK_VERSION}-Server.zip" . -x ".git/*" "scripts/*" "scripts/**" "dist/*"
+          ls -lh dist
 
       - name: Upload server artifact
         uses: actions/upload-artifact@v4
         with:
           name: server-zip
-          path: ../${{ env.MODPACK_NAME }}-${{ env.MODPACK_VERSION }}-Server.zip
+          path: dist/${{ env.MODPACK_NAME }}-${{ env.MODPACK_VERSION }}-Server.zip
           if-no-files-found: error
 
   release-assets:
