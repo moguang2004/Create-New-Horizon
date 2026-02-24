@@ -66,6 +66,8 @@ jobs:
   client:
     needs: common
     runs-on: ubuntu-latest
+    outputs:
+      artifact_name: ${{ steps.client-zip.outputs.filename }}
     env:
       MODPACK_NAME: ${{ needs.common.outputs.modpack_name }}
       MODPACK_VERSION: ${{ needs.common.outputs.modpack_ver }}
@@ -112,19 +114,30 @@ jobs:
           set -euo pipefail
           mkdir -p dist
           ./packwiz curseforge export
-          mv ./*.zip "dist/${MODPACK_NAME}-${MODPACK_VERSION}-Client.zip"
+          find . -maxdepth 1 -type f -name "*.zip" -exec mv -t dist {} +
           ls -lh dist
+
+      - name: Resolve client zip filename
+        id: client-zip
+        run: |
+          set -euo pipefail
+          FILE_PATH="$(find dist -maxdepth 1 -type f -name "*.zip" | head -n1)"
+          FILE_NAME="$(basename "$FILE_PATH")"
+          echo "filename=$FILE_NAME" >> "$GITHUB_OUTPUT"
 
       - name: Upload client artifact
         uses: actions/upload-artifact@v4
         with:
-          name: client-zip
-          path: dist/${{ env.MODPACK_NAME }}-${{ env.MODPACK_VERSION }}-Client.zip
+          name: ${{ steps.client-zip.outputs.filename }}
+          path: dist/${{ steps.client-zip.outputs.filename }}
+          compression-level: 0
           if-no-files-found: error
 
   server:
     needs: common
     runs-on: ubuntu-latest
+    outputs:
+      artifact_name: ${{ steps.server-zip.outputs.filename }}
     env:
       MODPACK_NAME: ${{ needs.common.outputs.modpack_name }}
       MODPACK_VERSION: ${{ needs.common.outputs.modpack_ver }}
@@ -153,6 +166,7 @@ jobs:
             rm -f pack.toml
             rm -f index.toml
             rm -f patchouli_data.json
+            rm -f packwiz-installer.jar
 
       - name: Remove client-only mods
         run: |
@@ -198,14 +212,23 @@ jobs:
           set -euo pipefail
           mkdir -p dist
           cd ${{ github.workspace }}
-          zip -r "dist/${MODPACK_NAME}-${MODPACK_VERSION}-Server.zip" . -x ".git/*" "scripts/*" "scripts/**" "dist/*"
+          zip -r "dist/${MODPACK_NAME}-${MODPACK_VERSION}-Server.zip" . -x ".git/*" "scripts/*" "scripts/**" "dist/*" ".*" "*/.*"
           ls -lh dist
+
+      - name: Resolve server zip filename
+        id: server-zip
+        run: |
+          set -euo pipefail
+          FILE_PATH="$(find dist -maxdepth 1 -type f -name "*-Server.zip" | head -n1)"
+          FILE_NAME="$(basename "$FILE_PATH")"
+          echo "filename=$FILE_NAME" >> "$GITHUB_OUTPUT"
 
       - name: Upload server artifact
         uses: actions/upload-artifact@v4
         with:
-          name: server-zip
-          path: dist/${{ env.MODPACK_NAME }}-${{ env.MODPACK_VERSION }}-Server.zip
+          name: ${{ steps.server-zip.outputs.filename }}
+          path: dist/${{ steps.server-zip.outputs.filename }}
+          compression-level: 0
           if-no-files-found: error
 
   release-assets:
@@ -217,13 +240,13 @@ jobs:
       - name: Download client artifact
         uses: actions/download-artifact@v4
         with:
-          name: client-zip
+          name: ${{ needs.client.outputs.artifact_name }}
           path: artifacts
 
       - name: Download server artifact
         uses: actions/download-artifact@v4
         with:
-          name: server-zip
+          name: ${{ needs.server.outputs.artifact_name }}
           path: artifacts
 
       - name: Upload assets to GitHub Release

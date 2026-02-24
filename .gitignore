@@ -1,6 +1,7 @@
 # General
 .DS_Store
 packwiz
+packwiz-installer.jar
 .cache/
 
 /Xaero*/
