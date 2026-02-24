@@ -44,7 +44,7 @@ natives-*/
 /rhino.local.properties
 /README.md
 /.git*
-/.clientonlymodlist
+/scripts/
 /LICENSE
 /Changelog
 /tlm_custom_pack/
@@ -59,8 +59,6 @@ resourcepacks/*
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
 !resourcepacks/CTNH-Retextured.zip
 
-/start.sh
-/start.bat
 /variables*
 /patchouli_data.json
 /tconplanner/
