@@ -43,7 +43,7 @@ jobs:
           MODPACK_NAME="${{ steps.meta.outputs.name }}"
           MODPACK_VERSION="${{ steps.meta.outputs.version }}"
           sed -i "s/^title=\(.*\)/title=\1 | v$MODPACK_VERSION/" kubejs/config/client.properties
-          printf "|||\n%s %s\nGPL-3.0 License Copyright (c) 2025 CTNH Team\n|||\n" "$MODPACK_NAME" "$MODPACK_VERSION" > config/fancymenu/assets/version.md
+          printf "|||\n%s %s\nLGPL-3.0 License Copyright (c) 2025 CTNH Team\n|||\n" "$MODPACK_NAME" "$MODPACK_VERSION" > config/fancymenu/assets/version.md
 
       - name: Export and unzip
         run: |
