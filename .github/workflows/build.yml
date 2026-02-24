@@ -131,7 +131,7 @@ jobs:
       MC_VERSION: ${{ needs.common.outputs.mc_version }}
       FORGE_VERSION: ${{ needs.common.outputs.forge_version }}
       FORGE_DOWNLOAD_URL_PREFIX: https://maven.minecraftforge.net/net/minecraftforge/forge
-    if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
+    # if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
 
     steps:
       - name: Checkout repository
