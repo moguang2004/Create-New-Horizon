@@ -73,7 +73,7 @@ jobs:
 
   server:
     runs-on: ubuntu-latest
-    # if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
     env:
       FORGE_DOWNLOAD_URL_PREFIX: https://maven.minecraftforge.net/net/minecraftforge/forge
 
