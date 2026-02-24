@@ -119,7 +119,7 @@ jobs:
         run: |
           cp -a scripts/server/. ./
           rm -rf resourcepacks shaderpacks scripts
-          rm -f packwiz_tutorial.md packwiz-installer.jar pack.toml index.toml patchouli_data.json
+          rm -f packwiz_tutorial.md packwiz-installer.jar pack.toml index.toml packwiz.json forge.jar.log
 
       - name: Download Forge installer
         run: |
