@@ -4,11 +4,11 @@
   </a>
 </p>
 
-[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1093394?logo=curseforge&label=Curseforge&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmodpacks%2Fctnh)](https://www.curseforge.com/minecraft/modpacks/ctnh)
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1093394?logo=curseforge&label=Curseforge)](https://www.curseforge.com/minecraft/modpacks/ctnh)
 [![CurseForge Version](https://img.shields.io/curseforge/v/1093394?logo=curseforge&label=Latest)](https://www.curseforge.com/minecraft/modpacks/ctnh)
-[![Static Badge](https://img.shields.io/badge/mcmod-rgb(230%2C199%2C76))](https://www.mcmod.cn/modpack/897.html)
+[![mcmod page](https://img.shields.io/badge/mcmod-rgb(230%2C199%2C76))](https://www.mcmod.cn/modpack/897.html)
 [![Discord](https://img.shields.io/discord/1302601151392383006?logo=discord&label=Discord)](https://discord.com/invite/jQpvUDsVX8)
-![Static Badge](https://img.shields.io/badge/QQ%E7%BE%A4-915521426-rgb(123%2C%20236%2C%20242))
+![QQ Group](https://img.shields.io/badge/QQ%E7%BE%A4-915521426-rgb(123%2C%20236%2C%20242))
 [![Build modpack](https://github.com/CTNH-Team/Create-New-Horizon/actions/workflows/build.yml/badge.svg)](https://github.com/CTNH-Team/Create-New-Horizon/actions/workflows/build.yml)
 
 <p align="center">
@@ -135,4 +135,4 @@ All artwork (images, textures, models, animations, etc.) is licensed under the [
 </a>
 
 ## 特别鸣谢
-> _感谢每一位制作组成员一直以来的辛勤付出，同时感谢所有支持我们整合包的玩家，更要感谢所有游玩并对我们提出许多建设性意见的广大mc玩家们！_
+> _感谢每一位制作组成员一直以来的辛勤付出，同时感谢所有支持我们整合包的玩家，更要感谢所有游玩并对我们提出许多建设性意见的广大 mc 玩家们！_
