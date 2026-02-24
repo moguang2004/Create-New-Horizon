@@ -67,7 +67,7 @@ jobs:
     needs: common
     runs-on: ubuntu-latest
     outputs:
-      artifact_name: ${{ steps.client-zip.outputs.filename }}
+      artifact_name: ${{ steps.client-zip.outputs.artifact_name }}
     env:
       MODPACK_NAME: ${{ needs.common.outputs.modpack_name }}
       MODPACK_VERSION: ${{ needs.common.outputs.modpack_ver }}
@@ -123,13 +123,22 @@ jobs:
           set -euo pipefail
           FILE_PATH="$(find dist -maxdepth 1 -type f -name "*.zip" | head -n1)"
           FILE_NAME="$(basename "$FILE_PATH")"
+          ARTIFACT_NAME="${FILE_NAME%.zip}"
           echo "filename=$FILE_NAME" >> "$GITHUB_OUTPUT"
+          echo "artifact_name=$ARTIFACT_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Extract client zip for artifact upload
+        run: |
+          set -euo pipefail
+          mkdir -p artifact_payload/client
+          unzip -q "dist/${{ steps.client-zip.outputs.filename }}" -d artifact_payload/client
+          ls -la artifact_payload/client
 
       - name: Upload client artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.client-zip.outputs.filename }}
-          path: dist/${{ steps.client-zip.outputs.filename }}
+          name: ${{ steps.client-zip.outputs.artifact_name }}
+          path: artifact_payload/client/**
           compression-level: 0
           if-no-files-found: error
 
@@ -137,7 +146,7 @@ jobs:
     needs: common
     runs-on: ubuntu-latest
     outputs:
-      artifact_name: ${{ steps.server-zip.outputs.filename }}
+      artifact_name: ${{ steps.server-zip.outputs.artifact_name }}
     env:
       MODPACK_NAME: ${{ needs.common.outputs.modpack_name }}
       MODPACK_VERSION: ${{ needs.common.outputs.modpack_ver }}
@@ -221,17 +230,26 @@ jobs:
           set -euo pipefail
           FILE_PATH="$(find dist -maxdepth 1 -type f -name "*-Server.zip" | head -n1)"
           FILE_NAME="$(basename "$FILE_PATH")"
+          ARTIFACT_NAME="${FILE_NAME%.zip}"
           echo "filename=$FILE_NAME" >> "$GITHUB_OUTPUT"
+          echo "artifact_name=$ARTIFACT_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Extract server zip for artifact upload
+        run: |
+          set -euo pipefail
+          mkdir -p artifact_payload/server
+          unzip -q "dist/${{ steps.server-zip.outputs.filename }}" -d artifact_payload/server
+          ls -la artifact_payload/server
 
       - name: Upload server artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.server-zip.outputs.filename }}
-          path: dist/${{ steps.server-zip.outputs.filename }}
+          name: ${{ steps.server-zip.outputs.artifact_name }}
+          path: artifact_payload/server/**
           compression-level: 0
           if-no-files-found: error
 
-  release-assets:
+  publish-assets:
     needs: [common, client, server]
     runs-on: ubuntu-latest
     if: github.event_name == 'release'
@@ -241,16 +259,25 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: ${{ needs.client.outputs.artifact_name }}
-          path: artifacts
+          path: artifacts/client
 
       - name: Download server artifact
         uses: actions/download-artifact@v4
         with:
           name: ${{ needs.server.outputs.artifact_name }}
-          path: artifacts
+          path: artifacts/server
 
-      - name: Upload assets to GitHub Release
+      - name: Repack artifacts to release zip files
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts-zips
+          (cd artifacts/client && zip -r "../../artifacts-zips/${{ needs.client.outputs.artifact_name }}.zip" .)
+          (cd artifacts/server && zip -r "../../artifacts-zips/${{ needs.server.outputs.artifact_name }}.zip" .)
+          ls -lh artifacts-zips
+
+      - name: Upload assets to existing GitHub Release
+        if: github.event_name == 'release'
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            artifacts/*.zip
+            artifacts-zips/*.zip
