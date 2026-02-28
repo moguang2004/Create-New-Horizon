@@ -14,7 +14,7 @@ layout-meta {
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/2024-08-19_19.51.04.png
+  image_path = [source:local]/config/fancymenu/assets/background.png
   slide = false
   repeat_texture = false
   background_type = image
@@ -93,7 +93,7 @@ element {
 }
 
 element {
-  source = [source:local]/config/fancymenu/assets/title2.png
+  source = [source:local]/config/fancymenu/assets/logo.png
   repeat_texture = false
   nine_slice_texture = false
   nine_slice_texture_border_x = 5
