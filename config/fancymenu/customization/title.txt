@@ -111,14 +111,13 @@ element {
   auto_sizing_base_screen_width = 0
   auto_sizing_base_screen_height = 0
   sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = deep:title_screen_splash
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 4","decimal":"false"}}
+  anchor_point = top-left
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - {"placeholder":"guiheight"} / 4.5 / 552 * 2048 / 2","decimal":"false"}}
   advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 12","decimal":"false"}}
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 4.5 / 552 * 2048","decimal":"false"}}
   advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 4.5","decimal":"false"}}
-  x = -495
-  y = -25
+  x = 0
+  y = 0
   width = 50
   height = 50
   stretch_x = false
@@ -129,7 +128,7 @@ element {
 }
 
 element {
-  source = Learn to use JEI
+  source = Learn to use EMI
   source_mode = direct
   scale = 1.0
   shadow = true

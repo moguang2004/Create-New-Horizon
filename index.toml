@@ -909,11 +909,11 @@ file = "config/extrabotany-common.toml"
 hash = "d7cd9e178656afe629bb9d7f3ab842c4bd256f8c1abf0a77efbac5f16c2428da"
 
 [[files]]
-file = "config/fancymenu/assets/2024-08-19_19.51.04.png"
+file = "config/fancymenu/assets/background.png"
 hash = "65b5ea55e9365fbc662d420f7225c91afb51f7431da34571f5ffd8c8f172034a"
 
 [[files]]
-file = "config/fancymenu/assets/title2.png"
+file = "config/fancymenu/assets/logo.png"
 hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
@@ -942,7 +942,7 @@ hash = "dd9c1b47a2519fd6646ef3ce1f21272f0c0b1c6927f34bb37ce5d0aabcb3bc9e"
 
 [[files]]
 file = "config/fancymenu/customization/title.txt"
-hash = "7c297abfd91be35681668c7d61ee1be5df136b36b3b42597e5b4af4950d1d242"
+hash = "c1057ac1d19145318e4c801ae04e2b2b965baf9abc81909c99d29bd8ccaad293"
 
 [[files]]
 file = "config/fancymenu/customization/version_update_layout.txt"
