@@ -38,6 +38,13 @@ jobs:
           curl -o packwiz -L https://github.com/Jasons-impart/packwiz/releases/download/init/packwiz
           chmod +x ./packwiz
 
+      - name: Sync latest CTNH-Core artifact
+        if: github.event_name != 'release' && github.event_name != 'workflow_dispatch'
+        run: |
+          python3 scripts/action/download_dev_core.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Patch client version texts
         run: |
           MODPACK_NAME="${{ steps.meta.outputs.name }}"

@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "DEVELOPMENT.md"
-hash = "3cd15350d5e9e2c898619d78fc437817ca331ec89969ab2ea20a0fbbc1194ceb"
-
-[[files]]
-file = "LICENSE-ARTWORK"
-hash = "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
-
-[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -898,7 +890,7 @@ hash = "34d62f34bbb1e969fc5f6eae98e59e5e0ab293a0093a89d2926851ac76510cb4"
 
 [[files]]
 file = "config/ctnhchangelog-client.toml"
-hash = "fb329f6bd861867091027f8ee33a57776d457de69da9918cd9ee79e96d409c7c"
+hash = "2e9ab334c4713c1717f8580e519f74c81248c58334c5496051872024b005fd3e"
 
 [[files]]
 file = "config/ctnhcore.yaml"
@@ -9994,7 +9986,7 @@ hash = "bd24f12b53cf8270ee619a1398689c40c0df49d26de61b5e0bba5207511f6095"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "959067adc98cfa66382a3e12ee0bc6bba2f242947c41ad7577143de4cc42a455"
+hash = "a1a763f5ad000615a3f83f6d576b0e3ba36c80b591f352b1cb725d879cced933"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"

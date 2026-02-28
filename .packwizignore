@@ -43,9 +43,11 @@ natives-*/
 !/TrashSlotSaveState.json
 /rhino.local.properties
 /README.md
+/DEVELOPMENT.md
 /.git*
 /scripts/
 /LICENSE
+/LICENSE-ARTWORK
 /Changelog
 /tlm_custom_pack/
 /packwiz_tutorial.md
