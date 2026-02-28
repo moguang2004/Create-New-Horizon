@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "DEVELOPMENT.md"
+hash = "3cd15350d5e9e2c898619d78fc437817ca331ec89969ab2ea20a0fbbc1194ceb"
+
+[[files]]
+file = "LICENSE-ARTWORK"
+hash = "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+
+[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -38,7 +46,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/ModernUI/client.toml"
-hash = "4a3aa9900e4d997b3545f4c4070062709ae8adaf4a4623171dd29e70ee6e5ed5"
+hash = "904da4aea735db46df2d1e02193eb291c5e3a54158e723c5e3a006122e85133c"
 
 [[files]]
 file = "config/ModernUI/common.toml"
@@ -1186,11 +1194,11 @@ hash = "abf788aa598f37ccd4f218dac7e6e1990ca7dbf3b494d4c2160df7213e263f2b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/iv.snbt"
-hash = "5487f8005839ea7d36a766c53bca11e4e4c0027d997591ab8ed59973a1bcc1fc"
+hash = "cd2c75d88dc33c7739cb32caf284b2f09b9f46449c2b96690619a6f216bfe6c3"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/luv.snbt"
-hash = "399e6794acf3231754d5fc085fd839aca6961db8ba5b5646ed23c2a9dab6009e"
+hash = "d519d601bf88c99f452304624ecd51d9fcb7dc1cc88672a8c06a05cf8d888f18"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/lv.snbt"
@@ -11104,6 +11112,11 @@ metafile = true
 [[files]]
 file = "mods/tinkers-katanas.pw.toml"
 hash = "28f486d5883224aa3c646273d74cfc6a8e36e7be8ea7173b19a02bc08f20e4ab"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-ponder.pw.toml"
+hash = "f55c37b24c69aa3a0cefc76ae296929d5eed8045a24649ea58a0d2ba980a95f0"
 metafile = true
 
 [[files]]

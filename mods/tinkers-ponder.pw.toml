@@ -1,0 +1,13 @@
+name = "Tinkers' Ponder"
+filename = "[Tinkers' Ponder]tponder-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "45f6a498d0ebc482e839c942f5eca668549ca6b6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7638866
+project-id = 1464764
