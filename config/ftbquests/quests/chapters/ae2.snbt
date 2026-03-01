@@ -1862,6 +1862,7 @@
 			dependencies: [
 				"071A728A18E21B3C"
 				"445EB3640522A172"
+				"527F922CFEC9CEA3"
 			]
 			description: ["    可安装在样板供应器中，此时样板供应器执行&b带有编程电路的样板&r时，&e不会&r向网络请求编程电路物品，而是将发配目标机器的&b虚拟电路&r设置为对应编号，这一功能可以对&b子网&r生效。"]
 			id: "57D1710E05DBF5D4"
@@ -1910,6 +1911,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["57D1710E05DBF5D4"]
 			description: [
 				"    样板总成的每个样板槽位有单独且&e互相隔离&r的原料缓存，从根本上杜绝串配方。"
 				"    样板总成镜像只需通过闪存与样板总成绑定，自身无需接入ME网络。"
@@ -1932,6 +1934,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["4C2F508E36E8624E"]
 			description: ["   支持带有编程电路的样板，同时具备输出功能（可以理解为内置了一个ME输出总成）。"]
 			id: "6D8874393C5A8DC7"
 			subtitle: "这甚至还不是最终形态"
@@ -2575,6 +2578,29 @@
 			]
 			x: -4.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["4C2F508E36E8624E"]
+			description: [
+				""
+				"在高级样板总成基础上又添加了ME能源仓的功能"
+			]
+			id: "0F600FD30F968575"
+			subtitle: "输入输出能源三位一体！"
+			tasks: [
+				{
+					id: "357BE1F6ED02C2D3"
+					item: "ctnhenergy:me_ultimate_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "22EF832C8F45DA61"
+					item: "ctnhenergy:me_ultimate_pattern_buffer_proxy"
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 2.5d
 		}
 	]
 	title: "&9应用能源2"

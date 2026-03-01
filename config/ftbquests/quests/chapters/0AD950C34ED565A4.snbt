@@ -8,7 +8,7 @@
 		Count: 1
 		ForgeCaps: {
 			Parent: {
-				temperature: -0.4f
+				temperature: 25.2f
 			}
 		}
 		id: "legendarysurvivaloverhaul:thermometer"
@@ -199,7 +199,7 @@
 				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description10}"
 				""
 				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description11}"
-				""
+				"{@pagebreak}"
 				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description12}"
 				""
 				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description13}"
@@ -254,5 +254,5 @@
 			y: -5.5d
 		}
 	]
-	title: "&1传说生存"
+	title: "&9传说生存"
 }
