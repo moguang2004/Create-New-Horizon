@@ -814,6 +814,7 @@
 			y: 4.5d
 		}
 		{
+			can_repeat: true
 			description: ["    在村庄的图书馆中找到了《一种基于外星微生物培养基的AE-EU能量存储与传递技术》"]
 			icon: "ctnhenergy:eu_cell_housing"
 			id: "2B7030D2B7A80C16"
