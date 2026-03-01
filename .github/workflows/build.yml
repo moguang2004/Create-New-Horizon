@@ -114,6 +114,11 @@ jobs:
             f.write(f"forge={forge}\n")
           PY
 
+      - name: Install packwiz
+        run: |
+          curl -o packwiz -L https://github.com/Jasons-impart/packwiz/releases/download/init/packwiz
+          chmod +x ./packwiz
+
       - name: Sync dev CTNH-Core artifact
         if: github.event_name == 'workflow_dispatch' && inputs.sync_dev_core == true
         run: |
@@ -123,6 +128,7 @@ jobs:
 
       - name: Bootstrap mods
         run: |
+          ./packwiz refresh
           java -jar scripts/action/packwiz-installer-bootstrap.jar ./pack.toml
 
       - name: Remove client-only mods + pw metadata
@@ -137,7 +143,7 @@ jobs:
         run: |
           cp -a scripts/server/. ./
           rm -rf resourcepacks shaderpacks scripts
-          rm -f packwiz_tutorial.md packwiz-installer.jar pack.toml index.toml packwiz.json
+          rm -f packwiz_tutorial.md packwiz-installer.jar pack.toml index.toml packwiz.json packwiz
 
       - name: Download Forge installer
         run: |
