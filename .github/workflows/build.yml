@@ -92,6 +92,7 @@ jobs:
           files: |
             ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
           version-type: release
+          game-versions: 1.20.1
           loaders: forge
           java: 17
 
