@@ -3,6 +3,12 @@ name: Build modpack
 on:
   push:
   workflow_dispatch:
+    inputs:
+      sync_dev_core:
+        description: Sync latest CTNH-Core artifact before build
+        required: false
+        type: boolean
+        default: false
   release:
     types: [published]
 
@@ -38,8 +44,8 @@ jobs:
           curl -o packwiz -L https://github.com/Jasons-impart/packwiz/releases/download/init/packwiz
           chmod +x ./packwiz
 
-      - name: Sync latest CTNH-Core artifact
-        if: github.event_name != 'release' && github.event_name != 'workflow_dispatch'
+      - name: Sync dev CTNH-Core artifact
+        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.sync_dev_core == true)
         run: |
           python3 scripts/action/download_dev_core.py
         env:
@@ -107,6 +113,13 @@ jobs:
             f.write(f"mc={mc}\n")
             f.write(f"forge={forge}\n")
           PY
+
+      - name: Sync dev CTNH-Core artifact
+        if: github.event_name == 'workflow_dispatch' && inputs.sync_dev_core == true
+        run: |
+          python3 scripts/action/download_dev_core.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Bootstrap mods
         run: |
