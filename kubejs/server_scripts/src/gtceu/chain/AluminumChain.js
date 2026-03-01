@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:alumina_dust')
         .itemOutputs('9x gtceu:silicon_dioxide_dust')
         .itemOutputs('3x gtceu:magnesium_dust')
-        .outputFluids('ad_astra:oxygen 3000')
+        .outputFluids('gtceu:oxygen 3000')
     event.recipes.gtceu.electrolyzer('electrolyzing_granite_red') //红花岗岩
         .EUt(120)
         .duration(60)
@@ -117,7 +117,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:alumina_dust')
         .itemOutputs('6x gtceu:silicon_dioxide_dust')
         .itemOutputs('2x gtceu:potassium_dust')
-        .outputFluids('ad_astra:oxygen 11000')
+        .outputFluids('gtceu:oxygen 11000')
     event.recipes.gtceu.electrolyzer('electrolyzing_pollucite') //铯榴石粉
         .EUt(120)
         .duration(286)
@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('12x gtceu:silicon_dioxide_dust')
         .itemOutputs('2x gtceu:caesium_dust')
         .outputFluids('minecraft:water 2000')
-        .outputFluids('ad_astra:oxygen 1000')
+        .outputFluids('gtceu:oxygen 1000')
     event.recipes.gtceu.electrolyzer('electrolyzing_kyanite') //蓝晶石粉
         .EUt(120)
         .duration(80)
@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:alumina_dust')
         .itemOutputs('12x gtceu:silicon_dioxide_dust')
         .itemOutputs('2x gtceu:lithium_dust')
-        .outputFluids('ad_astra:oxygen 1000')
+        .outputFluids('gtceu:oxygen 1000')
     event.recipes.gtceu.electrolyzer('electrolyzing_spessartine') //锰铝榴石粉
         .EUt(120)
         .duration(220)
@@ -148,7 +148,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:alumina_dust')
         .itemOutputs('9x gtceu:silicon_dioxide_dust')
         .itemOutputs('3x gtceu:manganese_dust')
-        .outputFluids('ad_astra:oxygen 3000')
+        .outputFluids('gtceu:oxygen 3000')
     event.recipes.gtceu.electrolyzer('electrolyzing_mica') //云母粉
         .EUt(120)
         .duration(380)
@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('10x gtceu:alumina_dust')
         .itemOutputs('3x gtceu:lithium_dust')
         .itemOutputs('1x gtceu:potassium_dust')
-        .outputFluids('ad_astra:oxygen 4000')
+        .outputFluids('gtceu:oxygen 4000')
         .outputFluids('gtceu:fluorine 2000')
     event.recipes.gtceu.electrolyzer('electrolyzing_grossular') //钙铝榴石粉
         .EUt(120)
@@ -173,7 +173,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:alumina_dust')
         .itemOutputs('9x gtceu:silicon_dioxide_dust')
         .itemOutputs('3x gtceu:calcium_dust')
-        .outputFluids('ad_astra:oxygen 3000')
+        .outputFluids('gtceu:oxygen 3000')
     event.recipes.gtceu.electrolyzer('electrolyzing_glauconite_sand') //海绿石砂粉
         .EUt(120)
         .duration(220)
@@ -181,7 +181,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('10x gtceu:alumina_dust')
         .itemOutputs('2x gtceu:manganese_dust')
         .itemOutputs('1x gtceu:potassium_dust')
-        .outputFluids('ad_astra:oxygen 6000')
+        .outputFluids('gtceu:oxygen 6000')
         .outputFluids('gtceu:hydrogen 2000')
     event.recipes.gtceu.electrolyzer('electrolyzing_emerald') //绿宝石粉
         .EUt(120)
@@ -190,14 +190,14 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:alumina_dust')
         .itemOutputs('18x gtceu:silicon_dioxide_dust')
         .itemOutputs('3x gtceu:beryllium_dust')
-        .outputFluids('ad_astra:oxygen 3000')
+        .outputFluids('gtceu:oxygen 3000')
     event.recipes.gtceu.electrolyzer('electrolyzing_blue_topaz') //蓝黄玉粉
         .EUt(120)
         .duration(104)
         .itemInputs('13x gtceu:blue_topaz_dust')
         .itemOutputs('5x gtceu:alumina_dust')
         .itemOutputs('3x gtceu:silicon_dioxide_dust')
-        .outputFluids('ad_astra:oxygen 1000')
+        .outputFluids('gtceu:oxygen 1000')
         .outputFluids('gtceu:hydrogen 2000')
         .outputFluids('gtceu:fluorine 2000')
     event.recipes.gtceu.electrolyzer('electrolyzing_biotite') //黑云母粉
@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('15x gtceu:alumina_dust')
         .itemOutputs('12x gtceu:lithium_dust')
         .itemOutputs('2x gtceu:potassium_dust')
-        .outputFluids('ad_astra:oxygen 11000')
+        .outputFluids('gtceu:oxygen 11000')
         .outputFluids('gtceu:hydrogen 12000')
     event.recipes.gtceu.electrolyzer('electrolyzing_almandine') //铁铝榴石粉
         .EUt(120)
@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('5x gtceu:alumina_dust')
         .itemOutputs('9x gtceu:silicon_dioxide_dust')
         .itemOutputs('3x gtceu:iron_dust')
-        .outputFluids('ad_astra:oxygen 3000')
+        .outputFluids('gtceu:oxygen 3000')
 
     //直接电解（高电压）
     event.recipes.gtceu.electrolyzer('electrolyzing_topaz') //黄玉粉
@@ -267,7 +267,7 @@ ServerEvents.recipes(event => {
         .EUt(30)
         .itemInputs('10x gtceu:alumina_dust')
         .inputFluids('gtceu:sodium_hexafluoroaluminate 1000')
-        .outputFluids('ad_astra:oxygen 6000')
+        .outputFluids('gtceu:oxygen 6000')
         .itemOutputs('4x gtceu:aluminium_dust')
         .itemOutputs('6x gtceu:sodium_fluoride_dust')
         .itemOutputs('4x gtceu:aluminium_trifluoride_dust')
@@ -276,7 +276,7 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .itemInputs('10x gtceu:alumina_dust')
         .itemOutputs('4x gtceu:aluminium_dust')
-        .outputFluids('ad_astra:oxygen 6000')
+        .outputFluids('gtceu:oxygen 6000')
         .circuit(0)
         //六氟铝酸钠合成
     event.recipes.gtceu.chemical_reactor('sodium_hexafluoroaluminate')
