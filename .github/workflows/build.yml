@@ -83,6 +83,18 @@ jobs:
           files: |
             ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
 
+      - name: Upload zip to CurseForge
+        if: github.event_name == 'release'
+        uses: Kir-Antipov/mc-publish@v3.3.0
+        with:
+          curseforge-id: 1475306
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          files: |
+            ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
+          version-type: release
+          loaders: forge
+          java: 17
+
   server:
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch' || github.event_name == 'release'
