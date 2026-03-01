@@ -59,6 +59,7 @@
 		{
 			dependencies: ["6D9003172EF921C9"]
 			id: "32D9754803137E82"
+			subtitle: "为什么不试试万能的女仆呢"
 			tasks: [{
 				id: "67F5B1C0219B671A"
 				item: "create:hand_crank"
