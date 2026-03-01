@@ -55,6 +55,7 @@ jobs:
         run: |
           MODPACK_VERSION="${{ steps.meta.outputs.version }}"
           sed -i "s/^title=\(.*\)/title=\1 | v$MODPACK_VERSION/" kubejs/config/client.properties
+          sed -i "s/^ModpackVersion = \".*\"/ModpackVersion = \"$MODPACK_VERSION\"/" config/ctnhchangelog-client.toml
 
       - name: Export and unzip
         run: |
