@@ -10077,6 +10077,11 @@ hash = "810f804314506f9cb248a13f41ae7ef1e50679bfd9dcb0888d50ae70da4a4181"
 metafile = true
 
 [[files]]
+file = "mods/ae2-crystal-science.pw.toml"
+hash = "d40df178a2e17d40c3ddf46682fc2b3bfc845f0fb0d9972d423e403e02149549"
+metafile = true
+
+[[files]]
 file = "mods/ae2-ftbquest-detector.pw.toml"
 hash = "066c0a3bbd48eeb60e12bca950b10613369876468207b8df6bb3858af50c9d55"
 metafile = true
@@ -10148,7 +10153,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "3c91b5232b3382cb63633fa6aa5ad512b0d687168545a42acbd7de9eb206ce3f"
+hash = "f3ddc5ed65361138c4c66fd4abd05b6050b24362dc7bb83a5ca54eafb74dd181"
 metafile = true
 
 [[files]]
@@ -10553,42 +10558,42 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "9003bb9773c58db471b2c5be473cabaee4cd81029d5d9f33634ef646800c8084"
+hash = "0e753f0aea9277eba730d4a55929f244f9d7c9d15cc5e9bd96b4669e531f6de2"
 metafile = true
 
 [[files]]
 file = "mods/ftb-essentials.pw.toml"
-hash = "6bd3f6216371e42b7c155ada1808001a28b2d9fe0eaa069fefaf01d5fd6a9510"
+hash = "8a185af41fb24e83e4497c9362943723b6afee585cf8a3bf280ac155d29bf593"
 metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "4465572f58ba7eeeceb5bbc6132d9e41d05123736a1d75660893c8c702d3ae0f"
+hash = "48e2fa3089beed20a23ff2d171259768b2080ab0ff196841a18eb93c38e1c8b2"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quest-localizer.pw.toml"
-hash = "61f6f66eb6cb5c40c4f4c87b8d710d39c89386605f6996d176deec85c6bed3f7"
+hash = "d298e905889e57271e0ed46e3bb7f0d80724999748d33c0a5b5611f98afdf191"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "7304450ce2605f3d46b5f584067630c504af0d88f463c6453d69887afed53c04"
+hash = "f3b67e17e908e6875111e74d75f37fd8f17b21fc20f86e827e363f0d0c0a8c3b"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "f0c0b9087314dc8d760d30f6467a71e27b3d08541b1b49e47d359278a35d331b"
+hash = "efda76423b21f9bfab4ad8d0411f0b06a199ab7e3e12ca16dc0586c1828b8f07"
 metafile = true
 
 [[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
-hash = "1c13355e5012de425d32283a85a1ef1ca9f2220b4216355ef5db56f01dd0412d"
+hash = "1c383e66311b5edd6d7116ae0544108d60450f58e94853126665d75d85561d68"
 metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "51eeba75a6de88c47ccc38e397da3f1998c2da25ec8ca5fd69ceafceb0d3cfd3"
+hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
 metafile = true
 
 [[files]]
@@ -10623,7 +10628,7 @@ metafile = true
 
 [[files]]
 file = "mods/gt-portal.pw.toml"
-hash = "a83bb41f946571bd6c8e6167335e5b825216c90d5ca21f6f29af5f73a31f05fa"
+hash = "aa860461601327d05b8bf1b64d960f2723121d30fcc4c24bd0575a13874de3ee"
 metafile = true
 
 [[files]]
