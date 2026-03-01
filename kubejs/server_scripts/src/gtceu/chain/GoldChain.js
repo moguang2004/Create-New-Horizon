@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
         .circuit(1)
         .itemInputs('2x gtceu:potassium_dust')
         .itemInputs('2x gtceu:sulfur_dust')
-        .inputFluids('ad_astra:oxygen 5000')
+        .inputFluids('gtceu:oxygen 5000')
         .itemOutputs('9x gtceu:potassium_metabi_sulfite_dust')
 
     //gold catalyst

@@ -129,7 +129,10 @@ ServerEvents.recipes(event => {
         'create:crafting/materials/andesite_alloy_block',
         //可编程电路卡
         'pccard:item/card_programmed_circuit',
-        '/ad_astra:(.*)/'
+        '/ad_astra:(.*)/',
+
+        //AECS
+        /ae2cs:(.*)/,
     ])
 
 
@@ -178,37 +181,6 @@ ServerEvents.recipes(event => {
         'createdieselgenerators:wood_chip',
         //乐事刀
         /(.*)delight:(.*)_knife/,
-
-        //AECS
-        "ae2cs:craft/shaped/crystal_growth_chamber",
-        "ae2cs:craft/shapeless/certus_quartz_seed",
-        "ae2cs:craft/shaped/crystal_aggregator",
-        "ae2cs:craft/shapeless/fluix_crystal_seed",
-        "ae2cs:craft/shapeless/nether_quartz_seed",
-        "ae2cs:craft/shapeless/ender_quartz_seed",
-        "ae2cs:craft/shapeless/meteor_seed",
-        "ae2cs:craft/shapeless/resonating_seed",
-        "ae2cs:mechanical_crafting/rose_quartz_seed",
-        "ae2cs:craft/shaped/resonating_print_press",
-        "ae2cs:craft/shaped/circuit_etcher",
-        "ae2cs:stonecutting/*",
-        "ae2cs:craft/shaped/quartz_grindstone",
-        "ae2cs:craft/shaped/crystal_pulverizer",
-        "ae2cs:craft/shapeless/crystal_growth_card",
-        "ae2cs:aggregator/ender_linker",
-        "ae2cs:craft/shaped/crystal_vibration_chamber",
-        "ae2cs:craft/shaped/crystal_aggregator",
-        "ae2cs:craft/shaped/entropy_variation_reaction_chamber",
-        "ae2cs:craft/shaped/ender_emitter",
-        "ae2cs:craft/shaped/ender_broadcaster",
-        "ae2cs:craft/shaped/meteorite_pattern_provider",
-        "ae2cs:inscriber/resonating_circuit_print",
-        "ae2cs:inscriber/simple_circuit_print",
-        "ae2cs:craft/shaped/blank_print_press",
-        "ae2cs:craft/shaped/ender_blank_print_press",
-
-        
-
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot"

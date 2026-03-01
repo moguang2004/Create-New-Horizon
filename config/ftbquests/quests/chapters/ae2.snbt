@@ -1774,11 +1774,13 @@
 		}
 		{
 			dependencies: ["6375A1591C9E11A5"]
+			description: ["传递EU时会收取5%的税，直接从网络中扣除，当心AE跳电！"]
 			id: "5D021CAFB247CECD"
+			subtitle: "要收税的！"
 			tasks: [{
-				id: "126742635FED6C58"
-				title: "{ftbquests.chapter.ae2.quest6701950736416624333.task.1326101609862491224.title}"
-				type: "checkmark"
+				id: "695413C7BF80B729"
+				item: "eup2p:eu_p2p_tunnel"
+				type: "item"
 			}]
 			x: 3.5d
 			y: 2.5d
@@ -2100,6 +2102,11 @@
 					item: "gtceu:me_stocking_input_hatch"
 					type: "item"
 				}
+				{
+					id: "29E6FC604E6FFD15"
+					item: "ctnhenergy:me_tag_stocking_input_bus"
+					type: "item"
+				}
 			]
 			x: 20.0d
 			y: 2.5d
@@ -2121,6 +2128,453 @@
 			}]
 			x: 3.5999999999999996d
 			y: -2.4d
+		}
+		{
+			id: "5EA0D2BFE1C176C2"
+			tasks: [
+				{
+					id: "41B6DAFC39BAAFEA"
+					item: "ae2cs:ender_emitter"
+					type: "item"
+				}
+				{
+					id: "4AAC927B5BF75B66"
+					item: "ae2cs:ender_broadcaster"
+					type: "item"
+				}
+				{
+					id: "34E74A588120B1C4"
+					item: "ae2cs:ender_linker"
+					type: "item"
+				}
+				{
+					id: "083DA03B6F454D20"
+					item: "ae2cs:simple_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "2C00981E7C4D8802"
+					item: {
+						Count: 1
+						id: "ae2cs:resonating_pattern"
+						tag: {
+							encoded_resonating_pattern: {
+								inputTargets: [
+									{
+										dimension: "minecraft:overworld"
+										face: 1
+										hasValue: 1b
+										pos: {
+											X: -223
+											Y: 86
+											Z: -181
+										}
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										dimension: "minecraft:overworld"
+										face: 1
+										hasValue: 1b
+										pos: {
+											X: -223
+											Y: 86
+											Z: -182
+										}
+									}
+									{
+										dimension: "minecraft:overworld"
+										face: 1
+										hasValue: 1b
+										pos: {
+											X: -222
+											Y: 86
+											Z: -181
+										}
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+								]
+								sparseInputs: [
+									{
+										"#": 1L
+										"#c": "ae2:i"
+										id: "ae2cs:resonating_circuit_print"
+									}
+									{ }
+									{
+										"#": 1L
+										"#c": "ae2:i"
+										id: "gtceu:basic_electronic_circuit"
+									}
+									{
+										"#": 1L
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 23
+										}
+									}
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+								sparseOutputs: [
+									{
+										"#": 2L
+										"#c": "ae2:i"
+										id: "ae2cs:resonating_processor"
+									}
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+							}
+							resonating_pattern_selected_input: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C91E933F0DB45EB"
+					item: "ae2cs:resonating_pattern_converter"
+					type: "item"
+				}
+				{
+					id: "5875AF7D1539D7C1"
+					item: "ae2cs:resonating_pattern_provider"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.5d
 		}
 	]
 	title: "&9应用能源2"

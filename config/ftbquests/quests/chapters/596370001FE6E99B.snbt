@@ -36,7 +36,7 @@
 			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2498357656835315084.subtitle}"
 			tasks: [{
 				id: "6A77E25CAB924BFF"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest2498357656835315084.task.7671849377892289535.title}"
+				title: "什么是EMI"
 				type: "checkmark"
 			}]
 			x: -6.5d

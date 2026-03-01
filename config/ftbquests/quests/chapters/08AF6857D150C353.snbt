@@ -565,9 +565,9 @@
 			]
 			id: "3EFC30D1B3494B77"
 			tasks: [{
-				id: "26C852833C644D77"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.task.2794574292390792567.title}"
-				type: "checkmark"
+				id: "2D5F654C28D5E479"
+				item: "ctpp:mechanical_upgrade_bus"
+				type: "item"
 			}]
 			x: 0.5d
 			y: 2.5d
@@ -581,24 +581,6 @@
 			}]
 			x: 5.0d
 			y: 2.0d
-		}
-		{
-			id: "40E3022D7B86E1AA"
-			tasks: [
-				{
-					id: "234F15804949CCA2"
-					item: "gtportal:simple_nether_portal_controller"
-					type: "item"
-				}
-				{
-					id: "1913B0F865B61816"
-					item: "gtportal:simple_overworld_portal_controller"
-					type: "item"
-				}
-			]
-			title: " 下界传送门"
-			x: -6.0d
-			y: 4.0d
 		}
 	]
 	title: "&f&l钢铁雄心"

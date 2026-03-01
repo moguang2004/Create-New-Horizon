@@ -39,7 +39,6 @@ natives-*/
 
 /gtceu/
 /*.jar
-!packwiz*.jar
 /*.json
 !modpack_version.json
 /${quickPlayPath}
@@ -145,3 +144,4 @@ config/*
 !config/muhc-common.toml
 !config/createlazytick-common.toml
 !config/fml.toml
+!config/ae2cs-common.toml
