@@ -1,13 +1,13 @@
 name = "FTB Quest Localizer"
-filename = "ftbquestlocalizer-1.20.1-forge-3.2.3.jar"
+filename = "ftbquestlocalizer-1.20.1-forge-3.0.0.jar"
 side = "both"
 
 [download]
+url = "https://edge.forgecdn.net/files/6106/616/ftbquestlocalizer-1.20.1-forge-3.0.0.jar"
 hash-format = "sha1"
-hash = "e1063dfa696ef42410e5b52b1340745a7dd141d5"
-mode = "metadata:curseforge"
+hash = "63b3f031a6377521434ca0275ba04a460cb7dbfa"
 
 [update]
 [update.curseforge]
-file-id = 7529230
+file-id = 6106616
 project-id = 1071737
