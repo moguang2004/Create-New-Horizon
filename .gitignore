@@ -39,7 +39,6 @@ natives-*/
 
 /gtceu/
 /*.jar
-!packwiz*.jar
 /*.json
 !modpack_version.json
 /${quickPlayPath}
