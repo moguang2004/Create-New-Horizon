@@ -5,9 +5,16 @@ changelogUrl = "https://raw.mmyddd.top:8081/changelog.json"
 enableChangelogTab = true
 #当前整合包版本号
 #用于与更新日志最新版本对比
-#例如: 1.4.0
+#例如: 1.0.0
 ModpackVersion = "1.4.1"
 #是否启用版本更新检查
 #如果禁用，将不会对比ModpackVersion和远程最新版本
 #也不会显示更新提示
 enableVersionCheck = true
+#按钮显示位置
+#BOTH - 在标题界面和选择世界界面都显示
+#TITLE_SCREEN - 仅在标题界面显示
+#SELECT_WORLD - 仅在选择世界界面显示
+#Allowed Values: BOTH, TITLE_SCREEN, SELECT_WORLD
+buttonLocation = "BOTH"
+
