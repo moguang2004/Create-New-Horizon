@@ -71,10 +71,18 @@ jobs:
           unzip -q "$SAFE_ZIP_FILE" -d client
 
       - name: Upload artifact (client)
+        if: github.event_name != 'release'
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
           path: client/**
+
+      - name: Upload release zip artifact (client)
+        if: github.event_name == 'release'
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-client-zip
+          path: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
 
       - name: Upload zip to release
         if: github.event_name == 'release'
@@ -82,19 +90,6 @@ jobs:
         with:
           files: |
             ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
-
-      - name: Upload zip to CurseForge
-        if: github.event_name == 'release'
-        uses: Kir-Antipov/mc-publish@v3.3.0
-        with:
-          curseforge-id: 1475306
-          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-          files: |
-            ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
-          version-type: release
-          game-versions: 1.20.1
-          loaders: forge
-          java: 17
 
   server:
     runs-on: ubuntu-latest
@@ -192,10 +187,18 @@ jobs:
           unzip -q "$SERVER_ZIP" -d server
 
       - name: Upload artifact (server)
+        if: github.event_name != 'release'
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}-Server.zip
           path: server/**
+
+      - name: Upload release zip artifact (server)
+        if: github.event_name == 'release'
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-server-zip
+          path: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}-Server.zip
 
       - name: Upload zip to release
         if: github.event_name == 'release'
@@ -203,3 +206,52 @@ jobs:
         with:
           files: |
             ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}-Server.zip
+
+  publish_release:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+    needs: [client, server]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read metadata
+        id: meta
+        run: |
+          python - <<'PY'
+          import os, re, tomllib
+          from pathlib import Path
+
+          data = tomllib.loads(Path('pack.toml').read_text(encoding='utf-8'))
+          name = data.get('name', '')
+          version = data.get('version', '')
+          safe_name = re.sub(r"\s+", "-", name.strip())
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+              f.write(f"safe_name={safe_name}\n")
+              f.write(f"version={version}\n")
+          PY
+
+      - name: Download client zip artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: release-client-zip
+          path: publish
+
+      - name: Download server zip artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: release-server-zip
+          path: publish
+
+      - name: Upload zips to CurseForge
+        uses: Kir-Antipov/mc-publish@v3.3.0
+        with:
+          curseforge-id: 1475306
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          files: |
+            publish/${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
+            publish/${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}-Server.zip
+          version-type: release
+          game-versions: 1.20.1
+          loaders: forge
+          java: 17
