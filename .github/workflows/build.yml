@@ -71,7 +71,6 @@ jobs:
           unzip -q "$SAFE_ZIP_FILE" -d client
 
       - name: Upload artifact (client)
-        if: github.event_name != 'release'
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
@@ -193,7 +192,6 @@ jobs:
           unzip -q "$SERVER_ZIP" -d server
 
       - name: Upload artifact (server)
-        if: github.event_name != 'release'
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}-Server.zip
