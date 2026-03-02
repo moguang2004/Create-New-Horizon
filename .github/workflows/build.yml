@@ -88,7 +88,7 @@ jobs:
         if: github.event_name == 'release'
         uses: Kir-Antipov/mc-publish@v3.3.0
         with:
-          curseforge-id: 1475306
+          curseforge-id: 1093394
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           files: |
             ${{ steps.meta.outputs.safe_name }}-${{ steps.meta.outputs.version }}.zip
