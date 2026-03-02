@@ -292,7 +292,7 @@ ServerEvents.recipes(event => {
 
 // 熔铸多方块
 ServerEvents.recipes(event => {
-    let transitional = 'gtceu:firebricks'
+    let transitional = 'createmetallurgy:incomplete_industrial_crucible'
     event.recipes.create.sequenced_assembly([
             '2x createmetallurgy:industrial_crucible'
         ], 'gtceu:firebricks', [

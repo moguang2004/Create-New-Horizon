@@ -133,6 +133,8 @@ ServerEvents.recipes(event => {
 
         //AECS
         /ae2cs:(.*)/,
+
+        'vintageimprovements:craft/tin_rod'
     ])
 
 

@@ -3,7 +3,8 @@
     "fluid:ad_astra:hydrogen",
     "fluid:ad_astra:oxygen",
     "item:twilightforest:uncrafting_table",
-    "item:ae2:facade"
+    "item:ae2:facade",
+    "item:createmetallurgy:wolframite_dust"
   ],
   "added": [
     {
