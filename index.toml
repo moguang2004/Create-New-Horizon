@@ -10375,7 +10375,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "bf3d1392fdbf82aa836f82795163632e856fcb44419c6718ee5a9e04cf9be88b"
+hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
@@ -10481,6 +10481,11 @@ metafile = true
 [[files]]
 file = "mods/catalogue.pw.toml"
 hash = "f0bd37c493f002f6af6ea814fcf363c7ffbff56802d5b22e6df7f4a67d8834ce"
+metafile = true
+
+[[files]]
+file = "mods/chisel-reborn.pw.toml"
+hash = "4fd14b860b891ddb3b3aa8d8be3482da806ddd26c3fd37675c6b7be1f3a23e8e"
 metafile = true
 
 [[files]]
@@ -10595,7 +10600,7 @@ metafile = true
 
 [[files]]
 file = "mods/cryonicconfig.pw.toml"
-hash = "0153a3f2bb0d657b4754ddfac78c1f3418de14a9f75ff17e607b6225ba830395"
+hash = "c5b561e87ccb02a7d4cff5e56b228542c343800066dd0002aa5b5a72ad564718"
 metafile = true
 
 [[files]]
@@ -10711,6 +10716,11 @@ metafile = true
 [[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
 hash = "9d7ef00775810c653c075c6885e55119cad97afd19a9940491d6120be5385f63"
+metafile = true
+
+[[files]]
+file = "mods/factory-blocks.pw.toml"
+hash = "75aa30ef36dde7927544464166076277e1990d7a5ea15309b6280440e14e5225"
 metafile = true
 
 [[files]]
