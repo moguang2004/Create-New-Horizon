@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false

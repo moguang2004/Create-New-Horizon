@@ -3733,6 +3733,234 @@ file = "kubejs/assets/minecraft/lang/zh_cn.json"
 hash = "19b3a9f5a384264022fe26520fabc1e43e7540c5c25869847f0a96ac4ceb4b82"
 
 [[files]]
+file = "kubejs/assets/mythicbotany/models/item/gjallar_horn_empty.json"
+hash = "71d99ea58ce373a9bedf01b4ec95fce6a75388b7131e2463d94cd9af99ef6650"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/models/item/gjallar_horn_full.json"
+hash = "a29b1ecf6f4fee746e38b3eaa240c5c08387d50e102968fc2207da1b9da0a10c"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/alfsteel_block.png"
+hash = "42e60bf004d54e65f9b5aa748e98a687c832df0c358c73f1488dcc81db179b51"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/aquapanthus.png"
+hash = "9b4319706e810d6c0822526b7cf546598346d7bca3709a1e496ebf1f02a2c63e"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/dragonstone_ore.png"
+hash = "e05d91f9aa92381918ae02fc287e85464d23fd83ec0ba822a7b024d0feb376bb"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/dreamwood_leaves.png"
+hash = "49f0ac688e839e03db3ec2de2d91dd957943d78059b6b4eb060a0319756d4474"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/elementium_ore.png"
+hash = "1357563d06cd8ce5e0260cc7b6870c1a3e8f13da396b0d3da42facf51d632240"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/exoblaze.png"
+hash = "f43163808284bf312d432296bb0e2ee9666507545df55e3f4d68f82a46050023"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/feysythia.png"
+hash = "50ea69e3e0273f11ff70ff1d83e9200d13e8ea2ad5006e0991ac96535b622244"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/gold_ore.png"
+hash = "ec3cb77b42647749b0daf82e6cc929da3983ec1ed23e0a0ec1fd272a225b473a"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/hellebore.png"
+hash = "8f395464134bb34a738777c6a0d8b45b31b8543fb8a8aaa90832e8ac913211ff"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/livingrock.png"
+hash = "43fbebb16c332dacea2ef89ff0377139726e5b2e69fe2be2d952558e90408f17"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/mana_collector_side.png"
+hash = "16c3027bb2afb4db44afa48336f88f6d8e3ac08ea80e5c894bf728b39ff95b55"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/mana_collector_top.png"
+hash = "16d3229f1c125f1534da684eec4e55cc5215b81def1dbf0529fee9665263f68b"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/mana_collector_top.png.mcmeta"
+hash = "14a092d09ed763af31cdc006ebc2a39d5c8115fccaa527691e1493e9e26a2abd"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/mana_infuser_top.png"
+hash = "047379d9c2e575533cf2273bc66c7edfff9e7f656a69f639f3e88f73eb217d26"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/petrunia.png"
+hash = "d8ea97f1494f869e05bebe55dfe3236552d5411d9c25f5bd898f0fd02d38a772"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/raindeletia.png"
+hash = "c7484b4b6d3c6f18fb3a6ed70905c61c1fbe896ac54c6bf2e351e331bcbbf566"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/raw_elementium_block.png"
+hash = "0add59e4542c2e8648435146c59da65f391e38805ea0796fc51222785f63e86e"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/block/wither_aconite.png"
+hash = "d87b7c65058ec5884d6726bd418fc32eac536b5313bdc9d5f78b8abffdb6ab5c"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfheim_rune.png"
+hash = "a17f30a45325e81cae154368dabacb50d825b5e1d1d38e9963a5c10a6fa0c834"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_armor_upgrade.png"
+hash = "9f70c2095d5bd0ce5399933742c4fb41da19d13ab6f3711d33be0bb2e715a6ec"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_axe.png"
+hash = "bc5df3141cbff1824897660a0cd6348a4b9b58398d64e6e9362f1d987f3997ee"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_axe_active.png"
+hash = "b933642669589c32f680cf0b50622d17a7f9ffb47757e601dcd60be0e6c1654d"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_boots.png"
+hash = "b275175cb3a2c081976534dc2d1497893708f3a2fc72d75af4fcd8a2df9290c7"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_chestplate.png"
+hash = "8f213b94a757701a544fe068b91227e710b41ed37e77f37eced4b9d9f6889822"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_helmet.png"
+hash = "1b30c84dc10a5738785e1c729d38027db931d533c156706a108b960f1b4ea262"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_ingot.png"
+hash = "1b54ce95784786e7ee98b7594672ca109e26e340713016ee02b5b9eb9ffe67b3"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_leggings.png"
+hash = "cc9caae3c3bd7fcf4864e5552d98d1e8b4a1da5340c3ca18ff4cc5704bcc9b7c"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_nugget.png"
+hash = "8d6db8bacf317c91fc3b48b54ef25c09727a3493b0b44f62bc2e360114261979"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_pick.png"
+hash = "4666e78f18a8d16391cc736b08764379b00505c3315d93836e3677e4280da65d"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_pick_active.png"
+hash = "3c515b4daaa2628c1e7a435ab578b4bc848dc2d28398d903e9ded2a52a5e9903"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_pick_tipped.png"
+hash = "30942b1823aeb4de469d48dbb4d2c1fe2a71fee3ea71c7db7f989af2730de8a1"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/alfsteel_sword.png"
+hash = "b7f19a0ad45fc99d284fc98a537f51b93ad700c917708e8fef57ac961bd37609"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/andwari_ring.png"
+hash = "0c181b534bcd9544774bdd14d6bfd51e3a495d0c1737c32c8aa9b625d17ab761"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/asgard_rune.png"
+hash = "71e560365e854fa9bd3b2ab933ec63d2358b18c32a22c2ec22b93b263591730b"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/aura_ring_greatest.png"
+hash = "28e1f2a796360928d327713c8d91c0e55345dc6fd08b82817fea320d7a6baf65"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/cursed_andwari_ring.png"
+hash = "876cd3b0cbcfd5808369d074ddde53337a2f0e972f0cafd2ff4b791a179e97af"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/dream_cherry.png"
+hash = "1b1b8dc77ac7820f2a4eab54784cf1749da44bf4fc07442efc749eb1d2198b69"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/dreamwood_twig_wand.png"
+hash = "abf06638e118f2c00ac9b2ac6dcaad578409d9c1650c1633a13ef0d18a7889cc"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/dreamwood_twig_wand_bind.png"
+hash = "74d9072f2e936b2d17390e21e2226eafdf4128da5dd53724c3f751a85b5378ba"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/fimbultyr_tablet.png"
+hash = "8b46f2b12973e2b4d044f24d8e69e1779c75dfc0fbe10c76dfce9614f645edd4"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/fire_ring.png"
+hash = "3160d362657cb73156ad9ee69b6830d71e0e4821fbab587ba23dd26bb776789a"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/gjallar_horn_empty.png"
+hash = "fae3f9009cd8a2b6ff9a23b0e4aec0bf34492c66dfc2a765e09de669f1f3b0ed"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/gjallar_horn_full.png"
+hash = "2f8dd68a048afb930ac5bb8bc6e8f88e3ab1eb2c517a0709335637f45c5c4a4e"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/helheim_rune.png"
+hash = "d218471c524ab10883fe0b8f49628b8b9e4166c4d8137b04534ce7273350fe84"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/ice_ring.png"
+hash = "ddf2ee19834d22654f07f76aa50d34d53a2bd783e7a4e45fe9aea98b28587f61"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/joetunheim_rune.png"
+hash = "3fa27172cd27b8b026bfc93e00c3fa284dc4e10fd8ee5340ef5950d54e4d3f55"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/kvasir_blood.png"
+hash = "7ede9271df9fb4b4091160535b55cc5c2d7f5186d241b9a3ff8e86fcb6066aef"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/kvasir_mead.png"
+hash = "130aa61035eff44d7ead9313dbbb8e9f8525ceec993196590c319113db7c6cca"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/mana_ring_greatest.png"
+hash = "e9bcc2659ceabd5016ff65cffcf2946cd0e572315bbdf9d382efdf9f352571cd"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/midgard_rune.png"
+hash = "0674d178013580a8d62855452c7074ed406f9e8029f21413b32725952586ee14"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/muspelheim_rune.png"
+hash = "c76f96bf2795da514c28ee85c0eb470e54dc87adb4e56c2aa271e097d0939878"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/nidavellir_rune.png"
+hash = "bb2a77e4a1980b81e07218a47b41a70f0c4c1311dea7a39800e9c3d330e8c27e"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/niflheim_rune.png"
+hash = "8b166078a74ff41942381c1befc376be991d0e1a5d366bf8c020ba5e6c142890"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/raw_elementium.png"
+hash = "0d435ebf06d9588c080093d618bc0d69968043258abcf63d3ef54681bd1a86cb"
+
+[[files]]
+file = "kubejs/assets/mythicbotany/textures/item/vanaheim_rune.png"
+hash = "f92f219682eccce2255c4d29066c39c0d39aa0966b85ee74ec93d05eaff7fd12"
+
+[[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
 hash = "9b52b2947649ab7a47d0dc0789768be37ba6c3755e99e3b13e03c61bee7debc0"
 
@@ -10625,7 +10853,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtconstruct.pw.toml"
-hash = "11a52897f17123fa43b1599befc29d2c260c9e60b90b58426e194246c5d51bb4"
+hash = "eb694e5f76531d2a7e1c09e568af084976a66544946f60d37aa5f58be3ddec6e"
 metafile = true
 
 [[files]]
@@ -11220,7 +11448,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "3899e56717fc7372c909c8c59a5fcc732003bcd01aa20a157ab472e9827c42ef"
+hash = "73ad37145260a1d9768c19c729f1a31fab5dad8a5cbd280b6a26dfb0a593cbd3"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
