@@ -11199,16 +11199,6 @@ hash = "2b08c58f3b533346bc4b6ad6178976a4e7302d5f5ee57a30fa5b1386ff07581b"
 metafile = true
 
 [[files]]
-file = "mods/rechiseled-create.pw.toml"
-hash = "b20a87de5c777553983e6edaaedd11577d2aa0619ba93428bd550fd0ad9e535b"
-metafile = true
-
-[[files]]
-file = "mods/rechiseled.pw.toml"
-hash = "79ce2425ff42c8f5b7262ca67038cbb7e080cee309785b087abaf206c200da68"
-metafile = true
-
-[[files]]
 file = "mods/rehooked.pw.toml"
 hash = "072c186c33fe564e4c49f6f1bf65f5b0efa28256d450edd922e1961b07e2a812"
 metafile = true
@@ -11276,11 +11266,6 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "919028f76b424b3f60970e6a59faa35799adcf174960ce2cb337c79ba2faddb1"
-metafile = true
-
-[[files]]
-file = "mods/stitch.pw.toml"
-hash = "8de029e2904912a13163404ddfa2ad2e245504fd06b288251a052e83ef082f49"
 metafile = true
 
 [[files]]
@@ -11463,7 +11448,7 @@ hash = "1b0e56cbb6c6c613060aaf6c086e0bfac5b868a6a0f549179cab6aa968b9064b"
 
 [[files]]
 file = "resourcepacks/AE2LightMode-1.20.1-ctnh.zip"
-hash = "56ef3564c5e800c5c77c9cd91613507d711cbcc7bcba8da4fe0188ad58390ebe"
+hash = "f2e349b91f4d4196a0ad2d678ae173f0bb8a1a761daf71633216c08c0d07e58b"
 
 [[files]]
 file = "resourcepacks/CTNH-Retextured.zip"
