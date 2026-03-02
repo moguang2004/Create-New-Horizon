@@ -104,7 +104,8 @@
   },
   "ctnhcore": {
     "recipe_logic_provider": true,
-    "thread_status_provider": true
+    "thread_status_provider": true,
+    "recipe_output_provider": true
   },
   "ae2": {
     "part_icon": true,

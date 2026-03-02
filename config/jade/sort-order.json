@@ -29,6 +29,7 @@
   "crockpot:birdcage": null,
   "crockpot:crock_pot": null,
   "ctnhcore:recipe_logic_provider": null,
+  "ctnhcore:recipe_output_provider": null,
   "ctnhcore:thread_status_provider": null,
   "ctnhenergy:ad_me_pattern_buffer": null,
   "ctnhenergy:ad_me_pattern_buffer_proxy": null,

@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".cache/changelog_cache.json"
+hash = "27bf8f2f923dcfbb972d813b6c41f3e2f913229fdf2947777db8cb0af6c32835"
+
+[[files]]
+file = ".cache/changelog_cache.json.etag"
+hash = "6cefde7dad336122fb8afbd4e9b4bbff34fb8dd9b75c4b95f793583256229355"
+
+[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -470,7 +478,7 @@ hash = "6fbf05e2719f095908f8196a694f6a8f36bc39c7d5e71644b0ea55e025c8b80f"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "12b147dd21dd414f7ce2d97134d2862d6b415cbe7bcd095a7103894a28e4f9c3"
+hash = "d99c7b7aca7a87ed456599a18e6a0a4a6f9bf167d492875e34701b208f831b2f"
 
 [[files]]
 file = "config/apotheosis/garden.cfg"
@@ -478,7 +486,7 @@ hash = "8dea2945143e4e9e5bb0c6460296ad42a45ad95518d75a9ae36e2645c1f1e2be"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "c2fb10bd88d4d78d098752a6bccbb260a67974c8e627352409caff6550913f7c"
+hash = "41bb96e675f9c3a31ee5f3d89ec1c9a641011f001402510291ecd29c64eac464"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -826,7 +834,7 @@ hash = "978214f42431cd238adc4e732695e23beaf46a07b5d50f66ea92de38f3e38458"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "d78f61a50f20db8cf82419d3e1c370b61ecd2b21c9e91a569be3e183433ffdef"
+hash = "c58aebfceb1f24b8282511bb4d455f3de8359b31c2f52079121742b298373322"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
@@ -934,7 +942,7 @@ hash = "796bcf467d2c337adbe894ac30f7c2a53df10a2cc532042a4913eb534967ea0e"
 
 [[files]]
 file = "config/fancymenu/customization/title.txt"
-hash = "a1bde5d1c62fc37167565434c70920bdc2d55cbb09114137a97e3d1ebfd2043d"
+hash = "2303a7d7b05a254b21039ee435f2bc5a386a8a86f09ae3409051b1b93d0f5d78"
 
 [[files]]
 file = "config/fancymenu/customization/version_update_layout.txt"
@@ -1005,14 +1013,6 @@ file = "config/fpsreducer/fpsreducer-client.toml"
 hash = "e84ab1c1fb08def9ccba81542696eb828e767b2835cfacc6a713807dce27ede6"
 
 [[files]]
-file = "config/ftbquests/.DS_Store"
-hash = "745035c37e8dc147d4927523cb3bb5340397f7c6ecc77bee31a40db397d03a3c"
-
-[[files]]
-file = "config/ftbquests/quests/.DS_Store"
-hash = "a63d42941cf999374f6db0ab184437d14735fe6be74cb837532b4736b7b9aaba"
-
-[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "0581b10bb71ab5a66be273f4ebe60e77ba2a1a530d0364d554416c775d298bc2"
 
@@ -1066,7 +1066,7 @@ hash = "49ddb588f1b3a6ef6d49892a2183bb6a7468e622d171e52752e150802f0686ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "41de350909cf7464ec19f21978bf6a103a5fd6bfdaad6e5090b68ac98686d5e8"
+hash = "cf1a0e76b4c75ef57d6251c3203b53b0bbb95a464114e6cb13e1c87dea7be652"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -1122,7 +1122,7 @@ hash = "e7bf6cc2b6d18276fa78b473fc7702b858c5348b78185a84a9c02282701cd56f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
-hash = "7f7d9c93513b8e3bade3e7fe99ab2ee6e554bed8aea329dc1658dc6deba43b2b"
+hash = "ca78bab6cb2bd5f6da5087285ab3726cd13b7c99e6048ce724be487f0b7737ee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
@@ -1130,11 +1130,11 @@ hash = "001aaf68a29ab5e2ac7b58ad7fd26b3c854ba3e825491c1c1f86d549532cd9aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "e46c6ac66604d77c75eb63ec54cc9d51949dfcfc5e4b4cf496e6d16d5abbc081"
+hash = "c6dfebf38d26190dc544a99856a771e730bd5b89950e6b1143ae45a0fcb26d10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "47a078f6a1dd7790dd28159ea1e27e97a86a9ca27b4799f162b102d1e15a8fca"
+hash = "86ea8aa4283ec5036c5d84ed228d7b68cfb19f3a21718e403ee7523c28b916fd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/too_many_items.snbt"
@@ -1230,11 +1230,11 @@ hash = "db1a46802bbbe9b0723308c1413ecee26b816d6e200de5c8b00fefc3812a0f17"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "280cbae19c953179a90f055e798d6f8affea206c76a85eadd90ce52f5982b621"
+hash = "1dbced8fecd959784be9dbc95b41bddbf63af2e6bad6e20865fd81934f066c37"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "7378b41888a07caef1fb395a8cc92047f49719ebfe72ee199c83f4ef9cb59437"
+hash = "45d20681c673c90ff1e9e805b45b7f13e5368469e428d666df7965698e386caa"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
@@ -9950,7 +9950,7 @@ hash = "fc684e33961c779a98a95a2a5f682dec814c3070836a66c529830326cbb66c99"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtportal.js"
-hash = "1c9a1dbf8c841e76083fb8ae050abc001ae113a7cded783ced55bcf2a1881b48"
+hash = "a1f6e83dbbc788b8bbc38758781a65e370b073e4819e5edeaf7a407292d00844"
 
 [[files]]
 file = "kubejs/server_scripts/src/hostilenetworks.js"
@@ -10620,7 +10620,7 @@ metafile = true
 
 [[files]]
 file = "mods/gt-portal.pw.toml"
-hash = "ce589994142f58bc20ea7dbb6d3db19de0446eda9d8f796af625d85d584ef5d6"
+hash = "835480c5614bd87fe49bddd02d49843dbc752929267e9f3f5310a1425a0aca14"
 metafile = true
 
 [[files]]
@@ -11220,7 +11220,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "7b6358dcf924abe32d30df4f183e57757ab4bb743b591d6020a871aa412f0eae"
+hash = "3899e56717fc7372c909c8c59a5fcc732003bcd01aa20a157ab472e9827c42ef"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"

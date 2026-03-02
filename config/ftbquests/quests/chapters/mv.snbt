@@ -359,18 +359,25 @@
 			id: "5A55D491F0E9F389"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "想必你已经发现了地牢里的破损传送门，请通过维度数据配合多维度传送门的方式进入末地"
-			tasks: [{
-				id: "56FD6B71629B8F26"
-				item: {
-					Count: 1
-					id: "gtportal:dimension_data_stick"
-					tag: {
-						dimension: "minecraft:the_end"
-					}
+			subtitle: "想必你已经发现了地牢里的破损传送门，请通过GTPortal模组的传送门进入末地"
+			tasks: [
+				{
+					id: "18E38498ECC14CB2"
+					item: "gtportal:broken_end_portal_frame"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 15L
+					id: "7C5667FF09BFD75B"
+					item: { Count: 15, id: "gtportal:simple_end_portal_frame" }
+					type: "item"
+				}
+				{
+					id: "16AE40A3E3D19195"
+					item: "gtportal:simple_end_portal_controller"
+					type: "item"
+				}
+			]
 			title: "进入末地"
 			x: 17.5d
 			y: 6.0d
@@ -592,22 +599,27 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["4DCA7E4E57817E0A"]
+			dependencies: [
+				"4DCA7E4E57817E0A"
+				"1736A5072E1CFF18"
+			]
 			icon: "aether:aether_portal_frame"
 			id: "415AF3F977F4C3F9"
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [{
-				id: "18B5330AEDC8849C"
-				item: {
-					Count: 1
-					id: "gtportal:dimension_data_stick"
-					tag: {
-						dimension: "aether:the_aether"
-					}
+			tasks: [
+				{
+					count: 15L
+					id: "5D55FD3CDA054C23"
+					item: { Count: 15, id: "gtportal:simple_aether_portal_frame" }
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5CB943502EEF6F51"
+					item: "gtportal:simple_aether_portal_controller"
+					type: "item"
+				}
+			]
 			title: "进入天境"
 			x: 21.5d
 			y: 5.0d
@@ -1304,6 +1316,17 @@
 			}]
 			x: 6.5d
 			y: 6.0d
+		}
+		{
+			id: "1736A5072E1CFF18"
+			subtitle: "进入天境之前你最好会飞"
+			tasks: [{
+				id: "4614739719B4D7C7"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
 		}
 	]
 	title: "&bMV时期"

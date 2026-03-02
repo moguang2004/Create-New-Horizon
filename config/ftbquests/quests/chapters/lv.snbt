@@ -368,10 +368,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"41C83B01A2B87D90"
-				"31C57B4E6B0C9A52"
-			]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "2301C8A867356B99"
 			shape: "rsquare"
@@ -383,14 +379,14 @@
 					type: "item"
 				}
 				{
-					id: "2F842F97D75AC9B8"
-					item: {
-						Count: 1
-						id: "gtportal:dimension_data_stick"
-						tag: {
-							dimension: "twilightforest:twilight_forest"
-						}
-					}
+					count: 15L
+					id: "2EB45425F209854C"
+					item: { Count: 15, id: "gtportal:simple_twilight_portal_frame" }
+					type: "item"
+				}
+				{
+					id: "47BE0941C864E323"
+					item: "gtportal:simple_twilight_portal_controller"
 					type: "item"
 				}
 			]
@@ -1135,40 +1131,6 @@
 			}]
 			x: 12.5d
 			y: 3.0d
-		}
-		{
-			dependencies: ["504A762FE1057233"]
-			hide_dependency_lines: true
-			id: "31C57B4E6B0C9A52"
-			tasks: [{
-				id: "74B918277D4EB20D"
-				item: {
-					Count: 1
-					id: "gtportal:dimension_data_stick"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 13.0d
-			y: 5.5d
-		}
-		{
-			id: "41C83B01A2B87D90"
-			tasks: [
-				{
-					id: "2F37ACDD707FF59D"
-					item: "gtportal:multidimensional_portal_controller"
-					type: "item"
-				}
-				{
-					count: 15L
-					id: "4FB6D4F6EA116147"
-					item: { Count: 15, id: "gtportal:portal_frame" }
-					type: "item"
-				}
-			]
-			x: 16.0d
-			y: 5.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.lv.subtitle0}"]

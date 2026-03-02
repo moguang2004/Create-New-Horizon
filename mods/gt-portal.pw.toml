@@ -1,13 +1,13 @@
 name = "GT Portal"
-filename = "gtportal-1.1.2.jar"
+filename = "gtportal-1.1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9ef360fca34cc9f8827841e13d5306d70ff0c40b"
+hash = "b4fc5f9ba8d9b564fe2a5b3edd1a45430d5fff92"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7696559
+file-id = 7700019
 project-id = 1459620
