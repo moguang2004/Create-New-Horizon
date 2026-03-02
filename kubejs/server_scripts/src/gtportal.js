@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
             D: 'angelring:angel_ring'
         })
     event.shaped(
-        Item.of('gtportal:portal_frame', 4), [
+        Item.of('gtportal:multidimensional_portal_frame', 4), [
             "ABA",
             "BCB",
             "ABA"
@@ -122,7 +122,7 @@ ServerEvents.recipes(event => {
         ], {
             A: 'gtceu:small_tungsten_steel_gear',
             B: 'gtceu:tungsten_steel_rod',
-            C: 'gtportal:portal_frame',
+            C: 'gtportal:multidimensional_portal_frame',
             D: '#gtceu:circuits/iv'
         })
     event.recipes.gtceu.assembler("dimension_data_stick")

@@ -1809,7 +1809,7 @@
 				{
 					count: 15L
 					id: "4FB6D4F6EA116147"
-					item: { Count: 15, id: "gtportal:portal_frame" }
+					item: { Count: 15, id: "gtportal:multidimensional_portal_frame" }
 					type: "item"
 				}
 			]
