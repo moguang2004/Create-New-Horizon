@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'botania:creative_pool'})
     event.remove({output: 'avaritia:star_fuel'})
     event.remove({output: 'enderio:creative_power'})
+    event.remove({output: 'minecraft:end_portal_frame'})
     event.remove({id: 'avaritia:botania_mana_tablet'})
     remove_recipes_id(event, [
         'avaritia:infinity_ingot',
