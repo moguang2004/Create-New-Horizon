@@ -11,7 +11,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:bauxite_process_catalyst",
+          "name": "ctnhcore:bauxite_process_catalyst",
           "weight": 30
         }
       ],
