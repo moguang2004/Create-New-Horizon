@@ -10404,6 +10404,11 @@ hash = "559169a724f240d9de5dd12d4cc83dbd7f274bf9d70e7a5fecb0d7352d627716"
 metafile = true
 
 [[files]]
+file = "mods/athena.pw.toml"
+hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
+metafile = true
+
+[[files]]
 file = "mods/attributefix.pw.toml"
 hash = "cad231485ee7f9941e0d2869a3b4ff11971836b3142ae10bc0d66c36875cb803"
 metafile = true
