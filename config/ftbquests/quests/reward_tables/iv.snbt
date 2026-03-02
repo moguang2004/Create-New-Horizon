@@ -3,7 +3,7 @@
 	loot_size: 1
 	order_index: 4
 	rewards: [
-		{ count: 4, item: "gtceu:graphene_dust" }
+		{ count: 4, item: "gtceu:graphene_dust", weight: 0.1f }
 		{ count: 4, item: "gtceu:tungsten_steel_ingot" }
 		{ count: 4, item: "gtceu:phosphorus_boule" }
 		{ item: "gtceu:iv_electric_motor" }

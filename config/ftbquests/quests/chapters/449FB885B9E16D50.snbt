@@ -463,6 +463,7 @@
 				title: "{ftbquests.chapter.449FB885B9E16D50.quest874981745791131238.task.8100914900915371743.title}"
 				type: "checkmark"
 			}]
+			title: "LuV奖励"
 			x: -5.0d
 			y: -5.0d
 		}
@@ -608,6 +609,7 @@
 				title: "{ftbquests.chapter.449FB885B9E16D50.quest6120806279524324145.task.7127438837583625973.title}"
 				type: "checkmark"
 			}]
+			title: "EV奖励"
 			x: -5.0d
 			y: -9.0d
 		}
@@ -623,7 +625,7 @@
 				title: "{ftbquests.chapter.449FB885B9E16D50.quest8059397377873153051.task.106577792311051655.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.449FB885B9E16D50.quest8059397377873153051.title}"
+			title: "ZPM奖励"
 			x: -5.0d
 			y: -3.0d
 		}

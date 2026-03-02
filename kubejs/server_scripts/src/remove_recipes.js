@@ -129,7 +129,10 @@ ServerEvents.recipes(event => {
         'create:crafting/materials/andesite_alloy_block',
         //可编程电路卡
         'pccard:item/card_programmed_circuit',
-        '/ad_astra:(.*)/'
+        '/ad_astra:(.*)/',
+
+        //AECS
+        /ae2cs:(.*)/,
     ])
 
 
@@ -177,7 +180,7 @@ ServerEvents.recipes(event => {
         //木屑
         'createdieselgenerators:wood_chip',
         //乐事刀
-        /(.*)delight:(.*)_knife/
+        /(.*)delight:(.*)_knife/,
     ])
     remove_recipes_input(event, [
         "thermal:constantan_ingot"

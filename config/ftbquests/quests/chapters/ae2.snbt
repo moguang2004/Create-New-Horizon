@@ -1774,11 +1774,13 @@
 		}
 		{
 			dependencies: ["6375A1591C9E11A5"]
+			description: ["传递EU时会收取5%的税，直接从网络中扣除，当心AE跳电！"]
 			id: "5D021CAFB247CECD"
+			subtitle: "要收税的！"
 			tasks: [{
-				id: "126742635FED6C58"
-				title: "{ftbquests.chapter.ae2.quest6701950736416624333.task.1326101609862491224.title}"
-				type: "checkmark"
+				id: "695413C7BF80B729"
+				item: "eup2p:eu_p2p_tunnel"
+				type: "item"
 			}]
 			x: 3.5d
 			y: 2.5d
@@ -1860,6 +1862,7 @@
 			dependencies: [
 				"071A728A18E21B3C"
 				"445EB3640522A172"
+				"527F922CFEC9CEA3"
 			]
 			description: ["    可安装在样板供应器中，此时样板供应器执行&b带有编程电路的样板&r时，&e不会&r向网络请求编程电路物品，而是将发配目标机器的&b虚拟电路&r设置为对应编号，这一功能可以对&b子网&r生效。"]
 			id: "57D1710E05DBF5D4"
@@ -1908,6 +1911,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["57D1710E05DBF5D4"]
 			description: [
 				"    样板总成的每个样板槽位有单独且&e互相隔离&r的原料缓存，从根本上杜绝串配方。"
 				"    样板总成镜像只需通过闪存与样板总成绑定，自身无需接入ME网络。"
@@ -1930,6 +1934,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["4C2F508E36E8624E"]
 			description: ["   支持带有编程电路的样板，同时具备输出功能（可以理解为内置了一个ME输出总成）。"]
 			id: "6D8874393C5A8DC7"
 			subtitle: "这甚至还不是最终形态"
@@ -2100,6 +2105,11 @@
 					item: "gtceu:me_stocking_input_hatch"
 					type: "item"
 				}
+				{
+					id: "29E6FC604E6FFD15"
+					item: "ctnhenergy:me_tag_stocking_input_bus"
+					type: "item"
+				}
 			]
 			x: 20.0d
 			y: 2.5d
@@ -2121,6 +2131,476 @@
 			}]
 			x: 3.5999999999999996d
 			y: -2.4d
+		}
+		{
+			id: "5EA0D2BFE1C176C2"
+			tasks: [
+				{
+					id: "41B6DAFC39BAAFEA"
+					item: "ae2cs:ender_emitter"
+					type: "item"
+				}
+				{
+					id: "4AAC927B5BF75B66"
+					item: "ae2cs:ender_broadcaster"
+					type: "item"
+				}
+				{
+					id: "34E74A588120B1C4"
+					item: "ae2cs:ender_linker"
+					type: "item"
+				}
+				{
+					id: "083DA03B6F454D20"
+					item: "ae2cs:simple_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "2C00981E7C4D8802"
+					item: {
+						Count: 1
+						id: "ae2cs:resonating_pattern"
+						tag: {
+							encoded_resonating_pattern: {
+								inputTargets: [
+									{
+										dimension: "minecraft:overworld"
+										face: 1
+										hasValue: 1b
+										pos: {
+											X: -223
+											Y: 86
+											Z: -181
+										}
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										dimension: "minecraft:overworld"
+										face: 1
+										hasValue: 1b
+										pos: {
+											X: -223
+											Y: 86
+											Z: -182
+										}
+									}
+									{
+										dimension: "minecraft:overworld"
+										face: 1
+										hasValue: 1b
+										pos: {
+											X: -222
+											Y: 86
+											Z: -181
+										}
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+									{
+										hasValue: 0b
+									}
+								]
+								sparseInputs: [
+									{
+										"#": 1L
+										"#c": "ae2:i"
+										id: "ae2cs:resonating_circuit_print"
+									}
+									{ }
+									{
+										"#": 1L
+										"#c": "ae2:i"
+										id: "gtceu:basic_electronic_circuit"
+									}
+									{
+										"#": 1L
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 23
+										}
+									}
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+								sparseOutputs: [
+									{
+										"#": 2L
+										"#c": "ae2:i"
+										id: "ae2cs:resonating_processor"
+									}
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+							}
+							resonating_pattern_selected_input: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C91E933F0DB45EB"
+					item: "ae2cs:resonating_pattern_converter"
+					type: "item"
+				}
+				{
+					id: "5875AF7D1539D7C1"
+					item: "ae2cs:resonating_pattern_provider"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4C2F508E36E8624E"]
+			description: [
+				""
+				"在高级样板总成基础上又添加了ME能源仓的功能"
+			]
+			id: "0F600FD30F968575"
+			subtitle: "输入输出能源三位一体！"
+			tasks: [
+				{
+					id: "357BE1F6ED02C2D3"
+					item: "ctnhenergy:me_ultimate_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "22EF832C8F45DA61"
+					item: "ctnhenergy:me_ultimate_pattern_buffer_proxy"
+					type: "item"
+				}
+			]
+			x: 26.0d
+			y: 2.5d
 		}
 	]
 	title: "&9应用能源2"

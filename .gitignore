@@ -3,6 +3,7 @@
 packwiz
 packwiz-installer.jar
 .cache/
+__pycache__/
 
 /Xaero*/
 /daimashili.ini
@@ -38,7 +39,6 @@ natives-*/
 
 /gtceu/
 /*.jar
-!packwiz*.jar
 /*.json
 !modpack_version.json
 /${quickPlayPath}
@@ -79,7 +79,6 @@ versions/dev/PCL/Setup.ini
 **/*.jar.meta
 **/*.log
 /.mixin.out
-!/mods/CTNH Core*.jar
 !/mods/.index/
 /replay_recordings/
 /texturepacks/
@@ -145,3 +144,4 @@ config/*
 !config/muhc-common.toml
 !config/createlazytick-common.toml
 !config/fml.toml
+!config/ae2cs-common.toml

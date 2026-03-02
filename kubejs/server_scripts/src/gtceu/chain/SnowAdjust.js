@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     let snow = event.recipes.gtceu
         //更易冻的液氧
     snow.vacuum_freezer("adjust_liquid_oxygen")
-        .inputFluids(Fluid.of('ad_astra:oxygen', 1000))
+        .inputFluids(Fluid.of('gtceu:oxygen', 1000))
         .outputFluids(Fluid.of('gtceu:liquid_oxygen', 1000))
         .EUt(480)
         .duration(120)

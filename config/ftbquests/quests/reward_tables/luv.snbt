@@ -4,7 +4,6 @@
 	order_index: 5
 	rewards: [
 		{ item: "ctnhenergy:jiuzhang_quantum_computer", weight: 1.0E-5f }
-		{ item: "ctnhcore:void_miner", weight: 1.0E-5f }
 		{ count: 8, item: "gtceu:superconducting_coil", weight: 0.5f }
 		{ count: 6, item: "gtceu:quantum_processor_computer", weight: 0.5f }
 		{ count: 16, item: "gtceu:rhodium_plated_palladium_ingot", weight: 0.6f }

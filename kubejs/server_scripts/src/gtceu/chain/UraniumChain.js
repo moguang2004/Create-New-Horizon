@@ -100,7 +100,7 @@
 //     ctnh.electrolyzer('uranium_thorium_oxide_dust')
 //         .itemInputs('8x gtceu:uranium_peroxide_thorium_oxide_dust')
 //         .outputFluids(Fluid.of('gtceu:hydrogen_peroxide', 1000))
-//         .outputFluids(Fluid.of('ad_astra:oxygen', 1000))
+//         .outputFluids(Fluid.of('gtceu:oxygen', 1000))
 //         .itemOutputs('6x gtceu:uranium_thorium_oxide_dust')
 //         .duration(100).EUt(30)
 

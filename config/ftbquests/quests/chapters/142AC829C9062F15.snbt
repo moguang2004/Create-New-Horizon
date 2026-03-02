@@ -12,12 +12,50 @@
 	}
 	id: "142AC829C9062F15"
 	order_index: 2
-	quest_links: [{
-		id: "0971CF8BC35ED7FE"
-		linked_quest: "019F2136970CA2E1"
-		x: 32.5d
-		y: 19.5d
-	}]
+	quest_links: [
+		{
+			id: "0971CF8BC35ED7FE"
+			linked_quest: "019F2136970CA2E1"
+			x: 28.5d
+			y: 14.5d
+		}
+		{
+			id: "7BEE35A575288F6E"
+			linked_quest: "6B42DDFCF2BCACF1"
+			x: 24.5d
+			y: 12.0d
+		}
+		{
+			id: "60FC695CB1D8EE59"
+			linked_quest: "72F4ADF5432A6F35"
+			x: 20.0d
+			y: 14.0d
+		}
+		{
+			id: "2D3D4A43003882E6"
+			linked_quest: "6D8874393C5A8DC7"
+			x: 21.5d
+			y: 14.0d
+		}
+		{
+			id: "36715F2DC29FAAEC"
+			linked_quest: "0F600FD30F968575"
+			x: 22.5d
+			y: 14.0d
+		}
+		{
+			id: "49565EE4C37AF472"
+			linked_quest: "78FB6D2EBEC04944"
+			x: 29.5d
+			y: 17.0d
+		}
+		{
+			id: "3072DD63CD2FD5B8"
+			linked_quest: "57D1710E05DBF5D4"
+			x: 19.0d
+			y: 14.0d
+		}
+	]
 	quests: [
 		{
 			id: "223723ED95F15CBF"
@@ -30,8 +68,8 @@
 				item: { Count: 4, id: "biomancy:living_flesh" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 18.5d
+			x: 13.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["223723ED95F15CBF"]
@@ -452,13 +490,12 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest1792757674758980169.title}"
-			x: 7.0d
-			y: 18.5d
+			x: 16.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["18E1279B545D4249"]
 			id: "62622845DCE27A13"
-			size: 1.5d
 			tasks: [
 				{
 					id: "4455ED439F1BB961"
@@ -492,13 +529,14 @@
 				}
 			]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest7089273043958266387.title}"
-			x: 10.0d
-			y: 18.5d
+			x: 18.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
 				"27675B2A83F65B2E"
 				"41E48BCAEAD9D47E"
+				"223723ED95F15CBF"
 			]
 			description: ["{ftbquests.chapter.142AC829C9062F15.quest149003923388758278.description1}"]
 			id: "02115E4763B9F906"
@@ -508,6 +546,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest149003923388758278.subtitle}"
 			tasks: [{
 				id: "3096BAC653706631"
@@ -515,7 +554,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 18.5d
+			y: 16.25d
 		}
 		{
 			dependencies: ["62622845DCE27A13"]
@@ -531,17 +570,12 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest1627713561085619478.title}"
-			x: 10.0d
-			y: 16.5d
+			x: 19.5d
+			y: 12.0d
 		}
 		{
-			dependencies: [
-				"3A0DF5CC0ED15F67"
-				"02115E4763B9F906"
-			]
+			dependencies: ["02115E4763B9F906"]
 			id: "15F6F741F83DADF6"
-			shape: "pentagon"
-			size: 1.5d
 			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest1582724181777034742.subtitle}"
 			tasks: [{
 				id: "0D1C516B794C6B35"
@@ -549,9 +583,10 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 18.5d
+			y: 15.5d
 		}
 		{
+			dependencies: ["02115E4763B9F906"]
 			description: [
 				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description1}"
 				""
@@ -602,8 +637,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.title}"
-			x: 16.0d
-			y: 16.5d
+			x: 13.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["02115E4763B9F906"]
@@ -615,8 +650,8 @@
 				item: "ctnhbio:lv_decomposer"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 22.5d
+			x: 16.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["02115E4763B9F906"]
@@ -629,59 +664,16 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 22.5d
+			y: 14.0d
 		}
 		{
-			dependencies: ["15F6F741F83DADF6"]
-			description: ["{ftbquests.chapter.142AC829C9062F15.quest6655885914881403467.description1}"]
-			id: "5C5E74F9A6082A4B"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest6655885914881403467.subtitle}"
-			tasks: [{
-				id: "1CAEE9A7A9C283D1"
-				item: "ctnhbio:mv_bioelectric_forge"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["5C5E74F9A6082A4B"]
-			id: "7D8B9FF2E5A2A167"
-			tasks: [{
-				id: "4C0E750E104FC646"
-				item: "ctnhbio:hv_bioelectric_forge"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["7D8B9FF2E5A2A167"]
-			id: "474BDB71028B9DDF"
-			tasks: [{
-				id: "5E2BD3141432A7BB"
-				item: "ctnhbio:ev_bioelectric_forge"
-				type: "item"
-			}]
-			x: 22.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["474BDB71028B9DDF"]
-			id: "4A95D738CDC2F9D3"
-			size: 1.5d
-			tasks: [{
-				id: "3B502B52BE197224"
-				item: "ctnhbio:iv_bioelectric_forge"
-				type: "item"
-			}]
-			x: 22.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["4A95D738CDC2F9D3"]
+			dependencies: [
+				"1012B5BE36BBAF9E"
+				"4C2F508E36E8624E"
+			]
+			description: ["虽然都是范围产出，但你还是可以通过编写样板来制作它们，只不过记得要填写最少的产出量作为样板输出哦"]
 			id: "1CCBE7B71BB782FD"
+			subtitle: "都是范围产出哦"
 			tasks: [
 				{
 					id: "2D2C03CA16F539D0"
@@ -710,49 +702,65 @@
 				}
 			]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest2075006826964288253.title}"
-			x: 25.0d
-			y: 18.5d
+			x: 23.5d
+			y: 15.5d
 		}
 		{
+			dependencies: [
+				"02115E4763B9F906"
+				"1AA229DF6B1F4CD6"
+			]
 			description: [
+				"LuV开始，你就可以制作血肉大机器了！"
+				""
 				"{ftbquests.chapter.142AC829C9062F15.quest6837427896851735461.description1}"
 				"{ftbquests.chapter.142AC829C9062F15.quest6837427896851735461.description2}"
 			]
+			hide_dependency_lines: true
 			id: "5EE36C722931A3A5"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest6837427896851735461.subtitle}"
 			tasks: [{
 				id: "6C52488BDCD9AF38"
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 22.0d
+			x: 27.0d
+			y: 13.25d
 		}
 		{
 			dependencies: ["351351BE58F24654"]
 			id: "0B3AA16035FC3AAD"
+			subtitle: "替换掉你的反应腔"
 			tasks: [{
 				id: "6FC1BCFCE2A46C04"
 				item: "ctnhbio:circulatory_system"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 22.0d
+			x: 31.5d
+			y: 13.25d
 		}
 		{
 			dependencies: [
 				"351351BE58F24654"
 				"53E534A981177FEC"
 			]
+			description: [
+				"意识装配，这是你生物线的最后一个重要任务"
+				""
+				"你需要通过联体桥来让几个意识装配机组成一条装配线，中间产物会通过联体桥从一个装配机传递给另一个，因此你需要让两台意识装配机共用一个联体桥"
+				""
+				"什么，它要怎么自动化？你看，这套意识装配配方，它像不像一条进阶装配线"
+			]
 			id: "65E0B77C49C4F584"
-			size: 1.5d
+			subtitle: "替换掉你的生物电炉，以及…"
 			tasks: [{
 				id: "14F9778E4DEA7CB6"
 				item: "ctnhbio:cogni_assembler"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 20.5d
+			x: 31.5d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -760,20 +768,20 @@
 				"3042E50E7034C8C0"
 			]
 			id: "6DD7D2E0A83FBC3C"
+			subtitle: "替换掉你的分解者"
 			tasks: [{
 				id: "26C04647F8299385"
 				item: "ctnhbio:weatherer"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 23.5d
+			x: 31.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
-				"5EE36C722931A3A5"
 				"59C7B38822893245"
-				"7E1DEFB53BF4D305"
 				"777C8308AAD3F137"
+				"3ADE21481F15FC16"
 			]
 			description: [
 				"{ftbquests.chapter.142AC829C9062F15.quest3824490386545591892.description1}"
@@ -787,8 +795,8 @@
 				item: "ctnhbio:great_flesh"
 				type: "item"
 			}]
-			x: 32.5d
-			y: 22.0d
+			x: 30.0d
+			y: 13.25d
 		}
 		{
 			description: ["{ftbquests.chapter.142AC829C9062F15.quest6469336787017347653.description1}"]
@@ -810,15 +818,17 @@
 					item: "ctnhbio:organic_vial"
 					type: "item"
 				}
+				{
+					id: "59A9EC8378FFBD6B"
+					item: "gtceu:primordial_serum_bucket"
+					type: "item"
+				}
 			]
-			x: 31.0d
-			y: 23.5d
+			x: 28.5d
+			y: 12.0d
 		}
 		{
-			dependencies: [
-				"5C5E74F9A6082A4B"
-				"50800D463AF3C2EB"
-			]
+			dependencies: ["2E47AD537C4D79BA"]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.142AC829C9062F15.quest4752842999807315618.description1}"]
 			id: "41F57D86D4B78EA2"
@@ -827,13 +837,16 @@
 				item: "ctnhbio:hv_brain_in_a_vat"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 20.5d
+			x: 17.5d
+			y: 18.5d
 		}
 		{
+			dependencies: ["351351BE58F24654"]
 			description: [
 				"{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.description1}"
 				"{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.description2}"
+				""
+				"生物大机器没有超频掉血的debuff，还能用并行仓，这不赶紧升级"
 			]
 			id: "7E1DEFB53BF4D305"
 			rewards: [
@@ -869,8 +882,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.title}"
-			x: 31.0d
-			y: 20.5d
+			x: 30.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["019F2136970CA2E1"]
@@ -881,8 +894,8 @@
 				item: "ctnhbio:synaptic_casing"
 				type: "item"
 			}]
-			x: 32.5d
-			y: 20.5d
+			x: 30.0d
+			y: 14.5d
 		}
 		{
 			id: "3042E50E7034C8C0"
@@ -891,12 +904,16 @@
 				item: "biomancy:flesh_spike"
 				type: "item"
 			}]
-			x: 32.5d
-			y: 23.5d
+			x: 33.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1696CCDC1C982D16"]
-			description: ["{ftbquests.chapter.142AC829C9062F15.quest8098721030194086492.description1}"]
+			description: [
+				"{ftbquests.chapter.142AC829C9062F15.quest8098721030194086492.description1}"
+				""
+				"当然你也需要用它为你提供大量的分解用生物掉落物"
+			]
 			id: "70646FDE3BB4425C"
 			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest8098721030194086492.subtitle}"
 			tasks: [{
@@ -904,8 +921,8 @@
 				item: "ctnhcore:slaughter_house"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 14.5d
+			x: 21.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["02115E4763B9F906"]
@@ -921,10 +938,15 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 20.5d
+			y: 18.5d
 		}
 		{
-			dependencies: ["1CCBE7B71BB782FD"]
+			dependencies: [
+				"1CCBE7B71BB782FD"
+				"15639356FE4C7A18"
+				"754CF2D0D96359C3"
+				"75CFD6720163E3ED"
+			]
 			description: ["{ftbquests.chapter.142AC829C9062F15.quest7280834197158641215.description1}"]
 			id: "650AB82076283E3F"
 			size: 1.0d
@@ -934,19 +956,8 @@
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			x: 28.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["4A95D738CDC2F9D3"]
-			id: "114EB64EB42BA00D"
-			tasks: [{
-				id: "494486D086841805"
-				item: "ctnhbio:iv_brain_in_a_vat"
-				type: "item"
-			}]
-			x: 22.0d
-			y: 20.5d
+			x: 25.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["650AB82076283E3F"]
@@ -956,19 +967,20 @@
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			x: 31.0d
-			y: 18.5d
+			x: 26.5d
+			y: 15.5d
 		}
 		{
 			dependencies: [
 				"01BBD7ADB864D6E1"
 				"65E0B77C49C4F584"
+				"5302156497A0F5AE"
 			]
 			id: "5D01EEBB71A88958"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3F7E3914E61AB086"
-				table_id: 7618519509353548779L
+				id: "6F4E553AAEAE7220"
+				table_id: 846882859033216508L
 				type: "random"
 			}]
 			tasks: [{
@@ -976,31 +988,598 @@
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: 34.0d
-			y: 18.5d
+			x: 33.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["5D01EEBB71A88958"]
+			description: [
+				"了吗？"
+				""
+				"并非，到了UV你还有一条意识装配线要做"
+			]
 			id: "03F6BCDB99059FD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D100FC3FE652171"
+				table_id: 846882859033216508L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "生物线堂堂完结……"
 			tasks: [{
 				id: "26CD0E398CE2C7DE"
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: 37.0d
-			y: 18.5d
+			x: 35.0d
+			y: 15.5d
 		}
 		{
+			dependencies: ["1AA229DF6B1F4CD6"]
+			hide_dependency_lines: true
 			id: "5302156497A0F5AE"
 			tasks: [{
 				id: "00C8358114D4443B"
 				item: "ctnhbio:parabiotic_bridge"
 				type: "item"
 			}]
-			x: 36.0d
-			y: 22.0d
+			x: 33.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["09542A8A75F69EA5"]
+			description: [
+				"消化器的实际产出量由食物的饱食度和饱和度决定，1营养膏代表3营养，1mB营养液代表1营养"
+				""
+				"注意消化器会自动批处理，如果输入太多可能会导致输出放不下造成配方不运行"
+			]
+			hide_dependent_lines: true
+			id: "2EAC567FAEF78F41"
+			tasks: [{
+				id: "0B461DCEB078A3E0"
+				item: "biomancy:nutrient_paste"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["15F6F741F83DADF6"]
+			description: ["虽然是概率产出，但一旦你获得了它之后，你便可以利用治愈化合物来让它增殖…"]
+			id: "527F922CFEC9CEA3"
+			tasks: [{
+				id: "59EA2B59B4DCE09C"
+				item: "ctnhbio:synet_core"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2E47AD537C4D79BA"]
+			id: "01B05615B6344817"
+			tasks: [{
+				id: "0FAF6125FBB55063"
+				item: "ctnhbio:meta_core"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["20BF0D3D11F54F41"]
+			id: "47C85D09833FC70C"
+			tasks: [{
+				id: "4E8DB88D18AA7C49"
+				item: "ctnhbio:nova_core"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["08E6DB75CA24EA21"]
+			id: "4C2F508E36E8624E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E45AA9BF8440E11"
+				table_id: 846882859033216508L
+				type: "random"
+			}]
+			subtitle: "小机器时代的完结"
+			tasks: [{
+				id: "372F2165C852B6A3"
+				item: "ctnhbio:omni_core"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["527F922CFEC9CEA3"]
+			id: "2E47AD537C4D79BA"
+			tasks: [{
+				id: "4E6B374094D30EC7"
+				item: "ctnhbio:mv_bioelectric_forge"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["01B05615B6344817"]
+			id: "20BF0D3D11F54F41"
+			tasks: [{
+				id: "2B5C62BF6897C46D"
+				item: "ctnhbio:hv_bioelectric_forge"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["47C85D09833FC70C"]
+			id: "08E6DB75CA24EA21"
+			tasks: [{
+				id: "63B0B87FF6450942"
+				item: "ctnhbio:ev_bioelectric_forge"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["16BAA0BA2397A4DA"]
+			description: [
+				"意识程度太高了，因此运行一段时间后它可能会陷入自我怀疑中……你需要重启来让它重新go work"
+				""
+				"需要通过光缆才能连接上算力靶仓，如果需要算力的大机器不工作，不妨点开它的GUI试一试，GTM的算力代码是这样的(x)"
+			]
+			id: "64822D37238618F3"
+			tasks: [{
+				id: "711C1946DE6B2B7A"
+				item: "ctnhbio:luv_brain_in_a_vat"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["4C2F508E36E8624E"]
+			id: "16BAA0BA2397A4DA"
+			tasks: [{
+				id: "3C45D1F53185B6D1"
+				item: "ctnhbio:iv_bioelectric_forge"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"50CCCB9AECB5C68B"
+				"2095975A0D0A9E1E"
+			]
+			description: ["下面第一排以及第二排的前四个化合物是你在后面（特别是核心增殖时）会大量需要的生物流体，尝试量产它们吧"]
+			id: "43AC30810F4B3B72"
+			tasks: [{
+				id: "32867AFCB7E6014C"
+				title: "生物流体"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["43AC30810F4B3B72"]
+			id: "268C36437405BD6F"
+			tasks: [{
+				id: "4FC688B6A8244D17"
+				item: "gtceu:regenerative_fluid_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["43AC30810F4B3B72"]
+			id: "0039A3BA2F5DAE64"
+			tasks: [{
+				id: "021255F51F0F29FF"
+				item: "gtceu:hormone_secretion_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["43AC30810F4B3B72"]
+			id: "03BB2C0CFEE82DB2"
+			tasks: [{
+				id: "3AEF831A219F4925"
+				item: "gtceu:bile_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["43AC30810F4B3B72"]
+			id: "6C05D32AC3BB69B7"
+			tasks: [{
+				id: "244925CDFBC0DC38"
+				item: "gtceu:volatile_fluid_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["43AC30810F4B3B72"]
+			id: "0F6802BC6D2E6D86"
+			tasks: [{
+				id: "74F8F3075C21F2C8"
+				item: "gtceu:withering_ooze_bucket"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["43AC30810F4B3B72"]
+			id: "5CE6F5155D7D1676"
+			tasks: [{
+				id: "056E73ED61D6B2B6"
+				item: "gtceu:toxin_extract_bucket"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["03BB2C0CFEE82DB2"]
+			id: "04957634C0D8068B"
+			tasks: [{
+				id: "377571DE222BA4AE"
+				item: "gtceu:organic_compound_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["04957634C0D8068B"]
+			id: "4130652E2764851D"
+			tasks: [{
+				id: "56D3A89A46E9AA24"
+				item: "gtceu:healing_compound_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["6C05D32AC3BB69B7"]
+			id: "76F2C3A7E2F65B9A"
+			tasks: [{
+				id: "7C83E68B7B5C6A5E"
+				item: "gtceu:unstable_compound_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0039A3BA2F5DAE64"]
+			id: "167D5A423EF90813"
+			tasks: [{
+				id: "6F94087A9261F3D2"
+				item: "gtceu:genetic_compound_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["7B1EE784321A7702"]
+			id: "4E5947D15F6E41C7"
+			tasks: [{
+				id: "2AA12EEDF29E2B24"
+				item: "gtceu:heterogeneous_compound_bucket"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"167D5A423EF90813"
+				"33C8E0E3084648BB"
+				"4130652E2764851D"
+			]
+			id: "3DCD30CF73D13791"
+			tasks: [{
+				id: "2FCBDE48BC64DAD8"
+				item: "gtceu:rejuvenation_serum_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"4130652E2764851D"
+				"33C8E0E3084648BB"
+				"4E5947D15F6E41C7"
+			]
+			id: "79ECF30EADCAE4D8"
+			tasks: [{
+				id: "4B024000B42A23F9"
+				item: "gtceu:cleansing_serum_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"6C05D32AC3BB69B7"
+				"0039A3BA2F5DAE64"
+				"4E5947D15F6E41C7"
+			]
+			id: "0A24ECA896C25CD1"
+			tasks: [{
+				id: "1E9E1AE3D66E3627"
+				item: "gtceu:frenzy_serum_bucket"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"79ECF30EADCAE4D8"
+				"0A24ECA896C25CD1"
+				"268C36437405BD6F"
+			]
+			id: "6081AA4CD36390C2"
+			tasks: [{
+				id: "587CCE07884F1DCC"
+				item: "gtceu:primordial_serum_bucket"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["5EE36C722931A3A5"]
+			description: [
+				"不想刷概率？当然有办法稳定出肉块了"
+				""
+				"你可以通过喂给原初温床一些蜘蛛眼来增加产出肉块的概率，如果你想要原初肉块，那你可以试试兔子脚"
+				"当然这些都是血肉重铸的原版玩法，不妨去mcmod探索一下"
+			]
+			id: "3ADE21481F15FC16"
+			tasks: [{
+				icon: "ctnhbio:great_flesh"
+				id: "7998343B8793420D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "biomancy:flesh_blob"
+				type: "observation"
+			}]
+			title: "肉块"
+			x: 28.5d
+			y: 13.25d
+		}
+		{
+			dependencies: [
+				"167D5A423EF90813"
+				"33C8E0E3084648BB"
+			]
+			id: "021A34BDE21EF587"
+			tasks: [{
+				id: "361031ACC932A457"
+				item: "gtceu:ageing_serum_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"536F2F6FA743C286"
+				"76CD84AF7CBC6031"
+			]
+			id: "1012B5BE36BBAF9E"
+			subtitle: "生物线你躲不掉的材料"
+			tasks: [{
+				id: "6F9EEB6C8803A2A1"
+				item: "gtceu:polypyrrole_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4F6A99C6DE8F45DF"]
+			id: "536F2F6FA743C286"
+			tasks: [{
+				id: "2D8E0CBCF9E94237"
+				item: "gtceu:pyrrole_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6B42DDFCF2BCACF1"
+				"78AC7515CB5C4116"
+			]
+			id: "76CD84AF7CBC6031"
+			tasks: [{
+				id: "6DA831BB5E202363"
+				item: "gtceu:fentons_reagent_bucket"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 13.0d
+		}
+		{
+			id: "4F6A99C6DE8F45DF"
+			tasks: [{
+				id: "5C0A90A6369A7D09"
+				item: "gtceu:coal_tar_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 12.0d
+		}
+		{
+			id: "78AC7515CB5C4116"
+			tasks: [{
+				id: "14BC2F350ECB522C"
+				item: "gtceu:iron_ii_chloride_bucket"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6E2EB708243731BF"
+				"1CD6F3A7F39224D4"
+				"1AA229DF6B1F4CD6"
+			]
+			id: "15639356FE4C7A18"
+			tasks: [{
+				id: "0DC11065C18923A0"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6C2EC9D4B1DBA660"]
+			id: "6E2EB708243731BF"
+			tasks: [{
+				id: "60FFCF5FF427B7F9"
+				item: "ctnhbio:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["78FB6D2EBEC04944"]
+			id: "6C2EC9D4B1DBA660"
+			tasks: [{
+				id: "21EE157CFCB08459"
+				item: "ctnhbio:wetware_circuit_board"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4C2F508E36E8624E"]
+			id: "1AA229DF6B1F4CD6"
+			size: 1.5d
+			tasks: [{
+				id: "7F52118D8392DF62"
+				item: "biomancy:creator_mix"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"167D5A423EF90813"
+				"0039A3BA2F5DAE64"
+			]
+			id: "3A2C6AEBD158B390"
+			tasks: [{
+				id: "0233F439A0158EDB"
+				item: "gtceu:breeding_stimulant_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 24.5d
+		}
+		{
+			dependencies: [
+				"2EAC567FAEF78F41"
+				"3A0DF5CC0ED15F67"
+			]
+			description: ["你可以通过向生物机器输入槽输入营养液/营养膏的方式来让它获取营养"]
+			id: "7A531FABB537A578"
+			tasks: [{
+				id: "48942C840251805C"
+				title: "自动喂食"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3A0DF5CC0ED15F67"]
+			description: [
+				"除了向机器通入GT药水以外，你还可以用其他方法更高效地利用药水，比如药水散布器"
+				""
+				"药水散布器可以每10分钟消耗一瓶药水并给不小的范围内所有生物持续的药水效果，它通过散布器旁边的药水罐补充，这个该怎么自动化想必你一定研究得出来吧…"
+			]
+			id: "2BB6F289590A3A2B"
+			rewards: [
+				{
+					id: "35AE1BF115285A45"
+					item: "ars_nouveau:potion_diffuser"
+					type: "item"
+				}
+				{
+					id: "09BD737C93798E5A"
+					item: "ars_nouveau:potion_jar"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C82BD39C5C5049F"
+				title: "药水效果的施加"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3A0DF5CC0ED15F67"]
+			description: [
+				"小机器可以接收高一级的电压来执行高一级的配方，代价是在执行配方时会持续扣血，虽然它每2s会尝试通过消耗营养来回血，但这太慢了"
+				""
+				"除了用你精心搭配的药水效果来帮它回血之外，你还可以尝试一下使用新生魔艺的定时法术炮塔来治疗它"
+			]
+			id: "278F2DF8D56D8809"
+			tasks: [{
+				id: "404E3D66BC048DED"
+				title: "小机器的超频与回血"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0F6802BC6D2E6D86"]
+			id: "33C8E0E3084648BB"
+			tasks: [{
+				id: "5DC006F26F17228A"
+				item: "gtceu:decay_essence_bucket"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 23.0d
 		}
 	]
 	title: "&4血肉重铸"

@@ -1,6 +1,7 @@
 {
   "removed": [
     "fluid:ad_astra:hydrogen",
+    "fluid:ad_astra:oxygen",
     "item:twilightforest:uncrafting_table",
     "item:ae2:facade"
   ],

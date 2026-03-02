@@ -3,6 +3,12 @@ name: Build modpack
 on:
   push:
   workflow_dispatch:
+    inputs:
+      sync_dev_core:
+        description: Sync latest CTNH-Core artifact before build
+        required: false
+        type: boolean
+        default: false
   release:
     types: [published]
 
@@ -38,12 +44,18 @@ jobs:
           curl -o packwiz -L https://github.com/Jasons-impart/packwiz/releases/download/init/packwiz
           chmod +x ./packwiz
 
+      - name: Sync dev CTNH-Core artifact
+        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.sync_dev_core == true)
+        run: |
+          python3 scripts/action/download_dev_core.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Patch client version texts
         run: |
-          MODPACK_NAME="${{ steps.meta.outputs.name }}"
           MODPACK_VERSION="${{ steps.meta.outputs.version }}"
           sed -i "s/^title=\(.*\)/title=\1 | v$MODPACK_VERSION/" kubejs/config/client.properties
-          printf "|||\n%s %s\nLGPL-3.0 License Copyright (c) 2025 CTNH Team\n|||\n" "$MODPACK_NAME" "$MODPACK_VERSION" > config/fancymenu/assets/version.md
+          sed -i "s/^ModpackVersion = \".*\"/ModpackVersion = \"$MODPACK_VERSION\"/" config/ctnhchangelog-client.toml
 
       - name: Export and unzip
         run: |
@@ -103,8 +115,21 @@ jobs:
             f.write(f"forge={forge}\n")
           PY
 
+      - name: Install packwiz
+        run: |
+          curl -o packwiz -L https://github.com/Jasons-impart/packwiz/releases/download/init/packwiz
+          chmod +x ./packwiz
+
+      - name: Sync dev CTNH-Core artifact
+        if: github.event_name == 'workflow_dispatch' && inputs.sync_dev_core == true
+        run: |
+          python3 scripts/action/download_dev_core.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Bootstrap mods
         run: |
+          ./packwiz refresh
           java -jar scripts/action/packwiz-installer-bootstrap.jar ./pack.toml
 
       - name: Remove client-only mods + pw metadata
@@ -119,7 +144,7 @@ jobs:
         run: |
           cp -a scripts/server/. ./
           rm -rf resourcepacks shaderpacks scripts
-          rm -f packwiz_tutorial.md packwiz-installer.jar pack.toml index.toml packwiz.json
+          rm -f packwiz_tutorial.md packwiz-installer.jar pack.toml index.toml packwiz.json packwiz
 
       - name: Download Forge installer
         run: |

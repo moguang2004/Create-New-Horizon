@@ -608,8 +608,8 @@
 		{
 			id: "68C66C0BE14C3883"
 			tasks: [{
-				id: "4F0802A77D9E5F66"
-				item: "biomancy:bio_lantern_blue"
+				id: "3F29084A91C8612A"
+				item: "cataclysm:ceraunus"
 				type: "item"
 			}]
 			x: 64.0d
