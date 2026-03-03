@@ -37,8 +37,8 @@
 		{
 			id: "6A9D16337B5BEA10"
 			linked_quest: "1F24CDB4B265DAE8"
-			x: -16.5d
-			y: -4.0d
+			x: -19.5d
+			y: -3.0d
 		}
 		{
 			id: "50419253E025F148"
@@ -548,7 +548,7 @@
 				item: "gtceu:enriched_naquadah_ingot"
 				type: "item"
 			}]
-			x: -18.5d
+			x: -17.0d
 			y: -3.0d
 		}
 		{
@@ -567,7 +567,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.luv.quest4730974235898725635.title}"
-			x: -18.5d
+			x: -17.5d
 			y: -4.0d
 		}
 		{
@@ -769,7 +769,7 @@
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: -16.5d
+			x: -18.0d
 			y: -3.0d
 		}
 		{

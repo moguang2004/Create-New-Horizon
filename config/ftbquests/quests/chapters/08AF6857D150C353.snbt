@@ -26,14 +26,14 @@
 			linked_quest: "2301C8A867356B99"
 			shape: "rsquare"
 			size: 2.0d
-			x: 9.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
 			id: "16A820C3C6F8268A"
 			linked_quest: "02115E4763B9F906"
-			x: 9.5d
-			y: -2.0d
+			x: 8.5d
+			y: 0.0d
 		}
 	]
 	quests: [
@@ -126,8 +126,8 @@
 				item: "gtceu:magnetic_iron_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -197,7 +197,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -580,7 +580,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 2.0d
+			y: -2.0d
 		}
 	]
 	title: "&f&l钢铁雄心"
