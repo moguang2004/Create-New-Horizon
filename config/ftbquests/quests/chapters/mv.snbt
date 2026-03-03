@@ -398,6 +398,7 @@
 				"063155FDDF799750"
 				"12CC90A0B4668F70"
 			]
+			dependency_requirement: "one_completed"
 			id: "61306F7E5202C387"
 			tasks: [{
 				id: "6FD335E7DFD138B9"
@@ -432,6 +433,7 @@
 				"78C09E2B5542CD21"
 				"1DA7DEEECA317293"
 			]
+			dependency_requirement: "one_completed"
 			id: "0B95FAC22EC46105"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -603,6 +605,7 @@
 				"4DCA7E4E57817E0A"
 				"1736A5072E1CFF18"
 			]
+			dependency_requirement: "one_completed"
 			icon: "aether:aether_portal_frame"
 			id: "415AF3F977F4C3F9"
 			shape: "rsquare"
