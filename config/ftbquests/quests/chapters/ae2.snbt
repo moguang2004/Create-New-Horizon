@@ -11,73 +11,73 @@
 		{
 			id: "6B3CBC1E3FED2CA6"
 			linked_quest: "6680806967633AD8"
-			x: 8.5d
+			x: 8.0d
 			y: 1.0d
 		}
 		{
 			id: "6DA255C670A9FB53"
 			linked_quest: "14899AF85A2D3C9A"
-			x: 5.0d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
 			id: "4A9BFB6EB6F26385"
 			linked_quest: "534D927B52EC5F63"
-			x: 24.0d
+			x: 23.5d
 			y: -1.0d
 		}
 		{
 			id: "570BFF0CA15CBB12"
 			linked_quest: "0D88A5F86881FB3B"
-			x: 25.0d
+			x: 24.5d
 			y: -1.0d
 		}
 		{
 			id: "78DBE5089929C135"
 			linked_quest: "019F2136970CA2E1"
-			x: 26.0d
+			x: 25.5d
 			y: -1.0d
 		}
 		{
 			id: "687BF30B7299EFEA"
 			linked_quest: "03F6BCDB99059FD4"
-			x: 27.0d
+			x: 26.5d
 			y: -1.0d
 		}
 		{
 			id: "66EDF12C623A65CD"
 			linked_quest: "2D662EFDE7A39BB8"
-			x: 17.0d
+			x: 16.5d
 			y: -1.0d
 		}
 		{
 			id: "5D8C3B54CBA14A9E"
 			linked_quest: "3AE584B3EBC63A09"
-			x: 18.0d
+			x: 17.5d
 			y: -1.0d
 		}
 		{
 			id: "3F5D758137719935"
 			linked_quest: "607209201C6B08C3"
-			x: 19.0d
+			x: 18.5d
 			y: -1.0d
 		}
 		{
 			id: "223DA598BCA25751"
 			linked_quest: "216D57DF2B38AB9D"
-			x: 20.0d
+			x: 19.5d
 			y: -1.0d
 		}
 		{
 			id: "54ABCE520AD5AC1A"
 			linked_quest: "41E48BCAEAD9D47E"
-			x: 16.0d
+			x: 15.5d
 			y: -1.0d
 		}
 		{
 			id: "1954FD2988E28F98"
 			linked_quest: "3AFD46E811ED67AD"
-			x: 15.0d
+			x: 14.5d
 			y: -1.0d
 		}
 	]
@@ -109,7 +109,7 @@
 				item: "ae2:charger"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -137,7 +137,7 @@
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -1.0d
 		}
 		{
@@ -201,7 +201,7 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
@@ -239,7 +239,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.ae2.quest6727288942691529604.title}"
-			x: -3.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
@@ -265,7 +265,7 @@
 				item: "expatternprovider:ex_charger"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
@@ -292,7 +292,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.ae2.quest7870339866999443683.title}"
-			x: 0.5d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -313,7 +313,7 @@
 				item: "gtceu:silicon_ingot"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -346,7 +346,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest2495995452904936233.title}"
-			x: 0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -373,7 +373,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
@@ -398,7 +398,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest1051146699902376925.title}"
-			x: 0.5d
+			x: 0.0d
 			y: -5.0d
 		}
 		{
@@ -430,7 +430,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -1.0d
 			y: -4.0d
 		}
 		{
@@ -462,7 +462,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -1.0d
 			y: -3.0d
 		}
 		{
@@ -479,7 +479,7 @@
 				item: "expatternprovider:ex_interface"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -6.0d
 		}
 		{
@@ -496,7 +496,7 @@
 				item: "expatternprovider:oversize_interface"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -6.0d
 		}
 		{
@@ -507,7 +507,7 @@
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -3.0d
 		}
 		{
@@ -523,7 +523,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.ae2.quest5517602831897897233.title}"
-			x: 6.5d
+			x: 6.0d
 			y: -6.0d
 		}
 		{
@@ -535,7 +535,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.ae2.quest4068457797598299056.title}"
-			x: 6.5d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -546,7 +546,7 @@
 				item: "ae2:advanced_card"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: -4.5d
 		}
 		{
@@ -557,7 +557,7 @@
 				item: "ae2:speed_card"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: -3.0d
 		}
 		{
@@ -603,7 +603,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest6293424928209026059.title}"
-			x: 8.5d
+			x: 8.0d
 			y: -6.0d
 		}
 		{
@@ -638,7 +638,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest8351612552652165572.title}"
-			x: 8.5d
+			x: 8.0d
 			y: -3.0d
 		}
 		{
@@ -651,7 +651,7 @@
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: -1.0d
 		}
 		{
@@ -662,7 +662,7 @@
 				item: "ae2:crafting_terminal"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
@@ -681,7 +681,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3.0d
 			y: -4.0d
 		}
 		{
@@ -695,7 +695,7 @@
 				item: "ae2:wireless_terminal"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -5.0d
 		}
 		{
@@ -713,7 +713,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3.0d
 			y: -5.0d
 		}
 		{
@@ -726,7 +726,7 @@
 				item: "ae2wtlib:wireless_universal_terminal"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -5.0d
 		}
 		{
@@ -737,7 +737,7 @@
 				item: "ae2:wireless_access_point"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
@@ -755,7 +755,7 @@
 				item: "ae2:wireless_booster"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -6.0d
 		}
 		{
@@ -793,7 +793,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest1180141217104375022.title}"
-			x: 3.5d
+			x: 3.0d
 			y: -6.0d
 		}
 		{
@@ -811,7 +811,7 @@
 				item: "ae2wtlib:quantum_bridge_card"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -6.0d
 		}
 		{
@@ -827,7 +827,7 @@
 				item: "ae2:condenser"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: -4.0d
 		}
 		{
@@ -861,7 +861,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest5058329067511728345.title}"
-			x: 8.5d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -873,7 +873,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.ae2.quest2393039082004255224.title}"
-			x: 0.5d
+			x: 0.0d
 			y: 2.5d
 		}
 		{
@@ -884,7 +884,7 @@
 				item: "ae2:crafting_accelerator"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -907,7 +907,7 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.ae2.quest1894119819411842971.title}"
-			x: 6.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -919,7 +919,7 @@
 				item: "ae2:io_port"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -930,7 +930,7 @@
 				item: "expatternprovider:ex_io_port"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -975,7 +975,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ae2.quest7045962431365343044.title}"
-			x: 8.5d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
@@ -986,7 +986,7 @@
 				item: "expatternprovider:ex_drive"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -1004,7 +1004,7 @@
 				item: "ae2:drive"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -1024,7 +1024,7 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -1035,7 +1035,7 @@
 				item: "ae2:basic_card"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 2.5d
 		}
 		{
@@ -1089,7 +1089,7 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 2.5d
 		}
 		{
@@ -1116,7 +1116,7 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -1127,7 +1127,7 @@
 				item: "merequester:requester"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 4.0d
 		}
 		{
@@ -1138,7 +1138,7 @@
 				item: "merequester:requester_terminal"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -1153,7 +1153,7 @@
 				item: "ae2:me_p2p_tunnel"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -1176,7 +1176,7 @@
 				item: "ae2:chest"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -1198,7 +1198,7 @@
 				item: "ae2:sky_stone_tank"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
@@ -1209,7 +1209,7 @@
 				item: "ae2:fuzzy_card"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: -6.0d
 		}
 		{
@@ -1220,7 +1220,7 @@
 				item: "ae2:inverter_card"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: -6.0d
 		}
 		{
@@ -1231,7 +1231,7 @@
 				item: "ae2wtlib:magnet_card"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: -3.0d
 		}
 		{
@@ -1242,7 +1242,7 @@
 				item: "ae2:energy_card"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: -4.5d
 		}
 		{
@@ -1253,7 +1253,7 @@
 				item: "ae2:redstone_card"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 4.0d
 		}
 		{
@@ -1264,7 +1264,7 @@
 				item: "ae2:capacity_card"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: 2.5d
 		}
 		{
@@ -1275,7 +1275,7 @@
 				item: "ae2:void_card"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 1.0d
 		}
 		{
@@ -1286,7 +1286,7 @@
 				item: "ae2:crafting_card"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.5d
 			y: 2.5d
 		}
 		{
@@ -1306,7 +1306,7 @@
 				item: { Count: 8, id: "gtceu:stainless_steel_ingot" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -1333,7 +1333,7 @@
 				item: { Count: 16, id: "gtceu:aluminium_ingot" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -1364,7 +1364,7 @@
 				item: "ae2:printed_silicon"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -1375,7 +1375,7 @@
 				item: "ae2:quartz_fiber"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -5.0d
 		}
 		{
@@ -1389,7 +1389,7 @@
 				item: "ae2omnicells:omni_cell_component_1k"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.5d
 			y: 0.5d
 		}
 		{
@@ -1403,7 +1403,7 @@
 				item: "ae2omnicells:omni_cell_component_4k"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 15.5d
 			y: 0.5d
 		}
 		{
@@ -1417,7 +1417,7 @@
 				item: "ae2omnicells:omni_cell_component_16k"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.5d
 			y: 0.5d
 		}
 		{
@@ -1431,7 +1431,7 @@
 				item: "ae2omnicells:omni_cell_component_64k"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 17.5d
 			y: 0.5d
 		}
 		{
@@ -1445,7 +1445,7 @@
 				item: "ae2omnicells:omni_cell_component_256k"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: 0.5d
 		}
 		{
@@ -1459,7 +1459,7 @@
 				item: "ae2omnicells:omni_cell_component_1m"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: 0.5d
 		}
 		{
@@ -1473,7 +1473,7 @@
 				item: "ae2omnicells:complex_omni_cell_component_4m"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: 0.5d
 		}
 		{
@@ -1487,7 +1487,7 @@
 				item: "ae2omnicells:complex_omni_cell_component_16m"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: 0.5d
 		}
 		{
@@ -1501,7 +1501,7 @@
 				item: "ae2omnicells:complex_omni_cell_component_64m"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: 0.5d
 		}
 		{
@@ -1515,7 +1515,7 @@
 				item: "ae2omnicells:complex_omni_cell_component_256m"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: 0.5d
 		}
 		{
@@ -1532,7 +1532,7 @@
 				item: "ae2omnicells:omni_link_processor"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 13.0d
 			y: -1.0d
 		}
 		{
@@ -1542,12 +1542,13 @@
 			]
 			id: "317B11045B791B3C"
 			size: 1.5d
+			subtitle: "你好，再婚"
 			tasks: [{
 				id: "409E879A0D3FE505"
 				item: "ae2omnicells:complex_link_processor"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 22.0d
 			y: -1.0d
 		}
 		{
@@ -1563,7 +1564,7 @@
 				item: "ae2omnicells:omni_crafting_unit_block"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.5d
 			y: -4.5d
 		}
 		{
@@ -1578,7 +1579,7 @@
 				item: "ae2omnicells:omni_crafting_storage_1k_block"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.5d
 			y: -2.5d
 		}
 		{
@@ -1589,7 +1590,7 @@
 				item: "ae2omnicells:omni_crafting_storage_4k_block"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 15.5d
 			y: -2.5d
 		}
 		{
@@ -1600,7 +1601,7 @@
 				item: "ae2omnicells:omni_crafting_storage_16k_block"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.5d
 			y: -2.5d
 		}
 		{
@@ -1611,7 +1612,7 @@
 				item: "ae2omnicells:omni_crafting_storage_64k_block"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 17.5d
 			y: -2.5d
 		}
 		{
@@ -1622,7 +1623,7 @@
 				item: "ae2omnicells:omni_crafting_storage_256k_block"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -2.5d
 		}
 		{
@@ -1633,7 +1634,7 @@
 				item: "ae2omnicells:omni_crafting_storage_1m_block"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -2.5d
 		}
 		{
@@ -1646,7 +1647,7 @@
 				item: "ae2omnicells:complex_crafting_unit_block"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -4.5d
 		}
 		{
@@ -1661,7 +1662,7 @@
 				item: "ae2omnicells:complex_crafting_storage_4m_block"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -2.5d
 		}
 		{
@@ -1672,7 +1673,7 @@
 				item: "ae2omnicells:complex_crafting_storage_16m_block"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: -2.5d
 		}
 		{
@@ -1683,7 +1684,7 @@
 				item: "ae2omnicells:complex_crafting_storage_64m_block"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: -2.5d
 		}
 		{
@@ -1694,7 +1695,7 @@
 				item: "ae2omnicells:complex_crafting_storage_256m_block"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: -2.5d
 		}
 		{
@@ -1769,7 +1770,7 @@
 				title: "{ftbquests.chapter.ae2.quest5287912950617358297.task.1276088759691046856.title}"
 				type: "checkmark"
 			}]
-			x: 29.5d
+			x: 29.0d
 			y: -1.0d
 		}
 		{
@@ -1782,7 +1783,7 @@
 				item: "eup2p:eu_p2p_tunnel"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -1794,7 +1795,7 @@
 				item: "ae2omnicells:type_fuzzy_card"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.5d
 			y: -4.5d
 		}
 		{
@@ -1805,7 +1806,7 @@
 				item: "ae2omnicells:ender_ingot"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -1821,12 +1822,13 @@
 				table_id: 7618519509353548779L
 				type: "choice"
 			}]
+			subtitle: "要离婚了"
 			tasks: [{
 				id: "57E782E5F5BC7DDC"
 				title: "{ftbquests.chapter.ae2.quest6023780771038355785.task.6334175325101784540.title}"
 				type: "checkmark"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -1.0d
 		}
 		{
@@ -1839,8 +1841,8 @@
 				item: "ae2_ftbquest_detector:me_quests_detector"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["42F3929CE1A04D16"]
@@ -1855,7 +1857,7 @@
 				item: "ae2:pattern_provider"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -1872,7 +1874,7 @@
 				item: "pccard:card_programmed_circuit"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: 1.0d
 		}
 		{
@@ -1907,7 +1909,7 @@
 				}
 			]
 			title: "ME仓室"
-			x: 5.0d
+			x: 4.5d
 			y: 4.0d
 		}
 		{
@@ -1931,7 +1933,7 @@
 					type: "item"
 				}
 			]
-			x: 24.0d
+			x: 23.5d
 			y: 2.5d
 		}
 		{
@@ -1951,7 +1953,7 @@
 					type: "item"
 				}
 			]
-			x: 25.0d
+			x: 24.5d
 			y: 2.5d
 		}
 		{
@@ -1968,7 +1970,7 @@
 				item: "ctnhenergy:jiuzhang_quantum_computer"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 18.0d
 			y: 2.5d
 		}
 		{
@@ -1986,7 +1988,7 @@
 				item: "ae2:pattern_encoding_terminal"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -2007,7 +2009,7 @@
 				type: "item"
 			}]
 			title: "染色器"
-			x: 7.5d
+			x: 7.0d
 			y: 3.0d
 		}
 		{
@@ -2025,7 +2027,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 4.5d
 			y: -2.0d
 		}
 		{
@@ -2043,7 +2045,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -2055,7 +2057,7 @@
 				item: "expatternprovider:pattern_modifier"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -2069,7 +2071,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 2.5d
 		}
 		{
@@ -2088,7 +2090,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -2112,7 +2114,7 @@
 					type: "item"
 				}
 			]
-			x: 20.0d
+			x: 19.5d
 			y: 2.5d
 		}
 		{
@@ -2123,64 +2125,15 @@
 			description: ["包含自动搜索、快捷上传样板等功能"]
 			id: "4D69AA45057F6027"
 			shape: "pentagon"
-			size: 1.2d
+			size: 1.0d
 			subtitle: "最伟大的发明"
 			tasks: [{
 				id: "6688B75B4D382A91"
 				item: "ae2pw:pattern_workstation"
 				type: "item"
 			}]
-			x: 3.5999999999999996d
-			y: -2.4d
-		}
-		{
-			id: "5EA0D2BFE1C176C2"
-			subtitle: "查看guideME获取详细教程"
-			tasks: [
-				{
-					id: "41B6DAFC39BAAFEA"
-					item: "ae2cs:ender_emitter"
-					type: "item"
-				}
-				{
-					id: "4AAC927B5BF75B66"
-					item: "ae2cs:ender_broadcaster"
-					type: "item"
-				}
-				{
-					id: "34E74A588120B1C4"
-					item: "ae2cs:ender_linker"
-					type: "item"
-				}
-				{
-					id: "083DA03B6F454D20"
-					item: "ae2cs:simple_pattern_provider"
-					type: "item"
-				}
-				{
-					id: "5C91E933F0DB45EB"
-					item: "ae2cs:resonating_pattern_converter"
-					type: "item"
-				}
-				{
-					id: "5875AF7D1539D7C1"
-					item: "ae2cs:resonating_pattern_provider"
-					type: "item"
-				}
-				{
-					id: "78004ABD3D0B3EDB"
-					item: "ae2cs:resonating_pattern"
-					type: "item"
-				}
-				{
-					id: "5A39B205C6778B95"
-					item: "ae2cs:ender_interface"
-					type: "item"
-				}
-			]
-			title: "水晶科技"
-			x: -4.0d
-			y: -6.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4C2F508E36E8624E"]
@@ -2202,8 +2155,210 @@
 					type: "item"
 				}
 			]
-			x: 26.0d
+			x: 25.5d
 			y: 2.5d
+		}
+		{
+			id: "58DEFF4106911887"
+			tasks: [{
+				id: "53CEAC5FD4A9F752"
+				item: "ae2cs:nether_quartz_seed"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "59CD4899F9B67DD0"
+			tasks: [{
+				id: "1C9E4157283373D3"
+				item: { Count: 64, id: "ae2cs:meteor_seed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"035127F019B01BF1"
+				"58DEFF4106911887"
+			]
+			id: "32FCEC9F52EEA348"
+			tasks: [{
+				id: "0C1DE271FA6C82D5"
+				item: "ae2cs:fluix_crystal_seed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "035127F019B01BF1"
+			tasks: [{
+				id: "1A0A46104B3F320C"
+				item: "ae2cs:certus_quartz_seed"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["578B426CA3A4C0D1"]
+			id: "420DCD59ED0FF9C7"
+			tasks: [{
+				id: "102A2DBFEE064F24"
+				item: "ae2cs:resonating_seed"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["58DEFF4106911887"]
+			id: "0A5F5CB8ACCB8939"
+			tasks: [{
+				id: "277AD2BA28C2C939"
+				item: "ae2cs:ender_quartz_seed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"59CD4899F9B67DD0"
+				"32FCEC9F52EEA348"
+			]
+			id: "578B426CA3A4C0D1"
+			tasks: [{
+				id: "37BC285DF66B42CD"
+				item: "gtceu:crystal_sand_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0A5F5CB8ACCB8939"
+				"52504E17B7878EB0"
+			]
+			id: "6733658EEC384D55"
+			subtitle: "使用方法见guideME，拥有扩展版本"
+			tasks: [{
+				id: "7069DA0FE865E942"
+				item: "ae2cs:ender_interface"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6733658EEC384D55"]
+			id: "0A4F60E991419943"
+			subtitle: "这个也有扩展版本"
+			tasks: [{
+				id: "49CB0DBE0771D75C"
+				item: "ae2cs:resonating_pattern_provider"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["420DCD59ED0FF9C7"]
+			id: "65AA409115E438F3"
+			tasks: [{
+				id: "6BBC11819A52A431"
+				item: "ae2cs:purified_resonating_crystal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"65AA409115E438F3"
+				"52504E17B7878EB0"
+			]
+			id: "7F08D90076B64057"
+			subtitle: "使用方法见guideME"
+			tasks: [{
+				id: "4B04CB78A5ACB706"
+				item: "ae2cs:resonating_pattern_converter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7F08D90076B64057"]
+			id: "5EE8F69AF33EF269"
+			tasks: [{
+				id: "6B751A8CC3FB5924"
+				item: "ae2cs:resonating_pattern"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"65AA409115E438F3"
+				"52504E17B7878EB0"
+			]
+			id: "022A0F60AE449DF1"
+			subtitle: "使用方法见guideME"
+			tasks: [
+				{
+					id: "37B8DF375C97EEBE"
+					item: "ae2cs:ender_linker"
+					type: "item"
+				}
+				{
+					id: "3A01C0E9AB4CBB94"
+					item: "ae2cs:ender_emitter"
+					type: "item"
+				}
+			]
+			title: "末影频道系统"
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["022A0F60AE449DF1"]
+			id: "45CDA73D8BECB63D"
+			tasks: [{
+				id: "346D7A5C7B31FD32"
+				item: "ae2cs:ender_broadcaster"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			icon: "gtceu:hv_machine_hull"
+			id: "52504E17B7878EB0"
+			tasks: [{
+				id: "5B0A6975CF7FCEF9"
+				title: "HV"
+				type: "checkmark"
+			}]
+			title: "HV可以做"
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1DB89BF922D68C23"]
+			id: "095F64B9B8ABB1AD"
+			subtitle: "何意味？"
+			tasks: [{
+				id: "6EF6E6309DFCE9DE"
+				item: "ae2cs:simple_pattern_provider"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
 		}
 	]
 	title: "&9应用能源2"

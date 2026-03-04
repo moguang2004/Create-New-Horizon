@@ -18,8 +18,8 @@
 		{
 			id: "415DE8428AD78E09"
 			linked_quest: "2B7030D2B7A80C16"
-			x: 3.0d
-			y: -3.5d
+			x: 1.5d
+			y: -2.5d
 		}
 	]
 	quests: [
@@ -86,7 +86,7 @@
 				item: "gtceu:tungsten_dust"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -919,8 +919,8 @@
 				item: "gtceu:starlight_bucket"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.5d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6CF8EDC7B351F67A"]
@@ -932,8 +932,8 @@
 				id: "3D245A770F8C7CC1"
 				type: "fluid"
 			}]
-			x: -3.0d
-			y: -3.5d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["26AE6DFBBDD45CB4"]
@@ -945,8 +945,8 @@
 				id: "431E39312E4CCE32"
 				type: "fluid"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -964,8 +964,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			id: "515039E3B9783216"
@@ -980,8 +980,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.5d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["799C99EA04D07344"]

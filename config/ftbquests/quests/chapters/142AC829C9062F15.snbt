@@ -16,38 +16,38 @@
 		{
 			id: "0971CF8BC35ED7FE"
 			linked_quest: "019F2136970CA2E1"
-			x: 28.5d
-			y: 14.5d
+			x: 30.5d
+			y: 16.5d
 		}
 		{
 			id: "7BEE35A575288F6E"
 			linked_quest: "6B42DDFCF2BCACF1"
-			x: 24.5d
-			y: 12.0d
+			x: 26.0d
+			y: 19.0d
 		}
 		{
 			id: "60FC695CB1D8EE59"
 			linked_quest: "72F4ADF5432A6F35"
 			x: 20.0d
-			y: 14.0d
+			y: 13.0d
 		}
 		{
 			id: "2D3D4A43003882E6"
 			linked_quest: "6D8874393C5A8DC7"
-			x: 21.5d
-			y: 14.0d
+			x: 24.0d
+			y: 13.0d
 		}
 		{
 			id: "36715F2DC29FAAEC"
 			linked_quest: "0F600FD30F968575"
-			x: 22.5d
-			y: 14.0d
+			x: 23.0d
+			y: 13.0d
 		}
 		{
 			id: "49565EE4C37AF472"
 			linked_quest: "78FB6D2EBEC04944"
-			x: 29.5d
-			y: 17.0d
+			x: 25.0d
+			y: 13.0d
 		}
 		{
 			id: "3072DD63CD2FD5B8"
@@ -74,7 +74,7 @@
 		{
 			dependencies: ["223723ED95F15CBF"]
 			id: "18E1279B545D4249"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "5B245EA9C88384B2"
 				item: {
@@ -490,7 +490,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest1792757674758980169.title}"
-			x: 16.0d
+			x: 17.0d
 			y: 12.0d
 		}
 		{
@@ -529,7 +529,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest7089273043958266387.title}"
-			x: 18.0d
+			x: 19.0d
 			y: 12.0d
 		}
 		{
@@ -554,7 +554,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 16.25d
+			y: 16.0d
 		}
 		{
 			dependencies: ["62622845DCE27A13"]
@@ -570,7 +570,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest1627713561085619478.title}"
-			x: 19.5d
+			x: 21.0d
 			y: 12.0d
 		}
 		{
@@ -583,7 +583,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 15.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["02115E4763B9F906"]
@@ -638,7 +638,7 @@
 			}]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.title}"
 			x: 13.0d
-			y: 18.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["02115E4763B9F906"]
@@ -664,7 +664,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 14.0d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -702,8 +702,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest2075006826964288253.title}"
-			x: 23.5d
-			y: 15.5d
+			x: 26.0d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -725,8 +725,8 @@
 				item: "biomancy:primordial_cradle"
 				type: "item"
 			}]
-			x: 27.0d
-			y: 13.25d
+			x: 28.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["351351BE58F24654"]
@@ -737,8 +737,8 @@
 				item: "ctnhbio:circulatory_system"
 				type: "item"
 			}]
-			x: 31.5d
-			y: 13.25d
+			x: 34.0d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -759,8 +759,8 @@
 				item: "ctnhbio:cogni_assembler"
 				type: "item"
 			}]
-			x: 31.5d
-			y: 14.5d
+			x: 33.5d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -774,8 +774,8 @@
 				item: "ctnhbio:weatherer"
 				type: "item"
 			}]
-			x: 31.5d
-			y: 12.0d
+			x: 33.5d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -788,15 +788,15 @@
 				"{ftbquests.chapter.142AC829C9062F15.quest3824490386545591892.description2}"
 			]
 			id: "351351BE58F24654"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest3824490386545591892.subtitle}"
 			tasks: [{
 				id: "0F55B60324E4BAFD"
 				item: "ctnhbio:great_flesh"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 13.25d
+			x: 32.0d
+			y: 18.0d
 		}
 		{
 			description: ["{ftbquests.chapter.142AC829C9062F15.quest6469336787017347653.description1}"]
@@ -824,8 +824,8 @@
 					type: "item"
 				}
 			]
-			x: 28.5d
-			y: 12.0d
+			x: 30.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["2E47AD537C4D79BA"]
@@ -837,8 +837,8 @@
 				item: "ctnhbio:hv_brain_in_a_vat"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 18.5d
+			x: 18.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["351351BE58F24654"]
@@ -882,8 +882,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.title}"
-			x: 30.0d
-			y: 12.0d
+			x: 32.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["019F2136970CA2E1"]
@@ -894,8 +894,8 @@
 				item: "ctnhbio:synaptic_casing"
 				type: "item"
 			}]
-			x: 30.0d
-			y: 14.5d
+			x: 32.0d
+			y: 16.0d
 		}
 		{
 			id: "3042E50E7034C8C0"
@@ -904,8 +904,8 @@
 				item: "biomancy:flesh_spike"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 12.0d
+			x: 35.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["1696CCDC1C982D16"]
@@ -921,7 +921,7 @@
 				item: "ctnhcore:slaughter_house"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 23.0d
 			y: 12.0d
 		}
 		{
@@ -938,7 +938,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 18.5d
+			y: 19.0d
 		}
 		{
 			dependencies: [
@@ -956,8 +956,8 @@
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			x: 25.0d
-			y: 15.5d
+			x: 28.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["650AB82076283E3F"]
@@ -967,8 +967,8 @@
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			x: 26.5d
-			y: 15.5d
+			x: 32.0d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -988,8 +988,8 @@
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 15.5d
+			x: 35.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["5D01EEBB71A88958"]
@@ -1013,20 +1013,21 @@
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: 35.0d
-			y: 15.5d
+			x: 37.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["1AA229DF6B1F4CD6"]
 			hide_dependency_lines: true
 			id: "5302156497A0F5AE"
+			size: 1.2d
 			tasks: [{
 				id: "00C8358114D4443B"
 				item: "ctnhbio:parabiotic_bridge"
 				type: "item"
 			}]
-			x: 33.0d
-			y: 14.5d
+			x: 35.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["09542A8A75F69EA5"]
@@ -1042,8 +1043,8 @@
 				item: "biomancy:nutrient_paste"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 14.0d
+			x: 18.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["15F6F741F83DADF6"]
@@ -1054,8 +1055,8 @@
 				item: "ctnhbio:synet_core"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 15.5d
+			x: 18.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2E47AD537C4D79BA"]
@@ -1065,8 +1066,8 @@
 				item: "ctnhbio:meta_core"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 15.5d
+			x: 20.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["20BF0D3D11F54F41"]
@@ -1076,8 +1077,8 @@
 				item: "ctnhbio:nova_core"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 15.5d
+			x: 22.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["08E6DB75CA24EA21"]
@@ -1094,8 +1095,8 @@
 				item: "ctnhbio:omni_core"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 15.5d
+			x: 24.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["527F922CFEC9CEA3"]
@@ -1105,7 +1106,7 @@
 				item: "ctnhbio:mv_bioelectric_forge"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 18.0d
 			y: 17.0d
 		}
 		{
@@ -1116,7 +1117,7 @@
 				item: "ctnhbio:hv_bioelectric_forge"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 20.0d
 			y: 17.0d
 		}
 		{
@@ -1127,7 +1128,7 @@
 				item: "ctnhbio:ev_bioelectric_forge"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 22.0d
 			y: 17.0d
 		}
 		{
@@ -1143,8 +1144,8 @@
 				item: "ctnhbio:luv_brain_in_a_vat"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 18.5d
+			x: 24.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["4C2F508E36E8624E"]
@@ -1154,89 +1155,78 @@
 				item: "ctnhbio:iv_bioelectric_forge"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 24.0d
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"50CCCB9AECB5C68B"
-				"2095975A0D0A9E1E"
-			]
-			description: ["下面第一排以及第二排的前四个化合物是你在后面（特别是核心增殖时）会大量需要的生物流体，尝试量产它们吧"]
-			id: "43AC30810F4B3B72"
-			tasks: [{
-				id: "32867AFCB7E6014C"
-				title: "生物流体"
-				type: "checkmark"
-			}]
-			x: 16.0d
-			y: 20.0d
-		}
-		{
-			dependencies: ["43AC30810F4B3B72"]
+			dependencies: ["76FF74E05711DD99"]
 			id: "268C36437405BD6F"
+			subtitle: "④"
 			tasks: [{
 				id: "4FC688B6A8244D17"
 				item: "gtceu:regenerative_fluid_bucket"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 21.5d
+			x: 28.0d
+			y: 25.0d
 		}
 		{
-			dependencies: ["43AC30810F4B3B72"]
+			dependencies: ["6B4BC18863EDF4EF"]
 			id: "0039A3BA2F5DAE64"
+			subtitle: "①"
 			tasks: [{
 				id: "021255F51F0F29FF"
 				item: "gtceu:hormone_secretion_bucket"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 21.5d
+			x: 20.0d
+			y: 21.0d
 		}
 		{
-			dependencies: ["43AC30810F4B3B72"]
+			dependencies: ["6B4BC18863EDF4EF"]
 			id: "03BB2C0CFEE82DB2"
+			subtitle: "②"
 			tasks: [{
 				id: "3AEF831A219F4925"
 				item: "gtceu:bile_bucket"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 21.5d
+			x: 17.0d
+			y: 22.0d
 		}
 		{
-			dependencies: ["43AC30810F4B3B72"]
+			dependencies: ["76FF74E05711DD99"]
 			id: "6C05D32AC3BB69B7"
+			subtitle: "③"
 			tasks: [{
 				id: "244925CDFBC0DC38"
 				item: "gtceu:volatile_fluid_bucket"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 21.5d
+			x: 28.0d
+			y: 21.0d
 		}
 		{
-			dependencies: ["43AC30810F4B3B72"]
+			icon: "botania:vial"
 			id: "0F6802BC6D2E6D86"
+			subtitle: "这也是原料"
 			tasks: [{
 				id: "74F8F3075C21F2C8"
 				item: "gtceu:withering_ooze_bucket"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 21.5d
+			x: 21.5d
+			y: 23.0d
 		}
 		{
-			dependencies: ["43AC30810F4B3B72"]
 			id: "5CE6F5155D7D1676"
 			tasks: [{
 				id: "056E73ED61D6B2B6"
 				item: "gtceu:toxin_extract_bucket"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 21.5d
+			x: 14.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["03BB2C0CFEE82DB2"]
@@ -1246,7 +1236,7 @@
 				item: "gtceu:organic_compound_bucket"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 18.0d
 			y: 23.0d
 		}
 		{
@@ -1257,18 +1247,20 @@
 				item: "gtceu:healing_compound_bucket"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 23.0d
+			x: 19.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["6C05D32AC3BB69B7"]
 			id: "76F2C3A7E2F65B9A"
+			size: 1.0d
+			subtitle: "产物Ⅳ"
 			tasks: [{
 				id: "7C83E68B7B5C6A5E"
 				item: "gtceu:unstable_compound_bucket"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 28.0d
 			y: 23.0d
 		}
 		{
@@ -1279,8 +1271,8 @@
 				item: "gtceu:genetic_compound_bucket"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 23.0d
+			x: 22.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["7B1EE784321A7702"]
@@ -1290,8 +1282,8 @@
 				item: "gtceu:heterogeneous_compound_bucket"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 23.0d
+			x: 23.0d
+			y: 25.0d
 		}
 		{
 			dependencies: [
@@ -1300,13 +1292,15 @@
 				"4130652E2764851D"
 			]
 			id: "3DCD30CF73D13791"
+			size: 1.0d
+			subtitle: "产物Ⅱ"
 			tasks: [{
 				id: "2FCBDE48BC64DAD8"
 				item: "gtceu:rejuvenation_serum_bucket"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 24.5d
+			x: 20.0d
+			y: 23.0d
 		}
 		{
 			dependencies: [
@@ -1315,13 +1309,14 @@
 				"4E5947D15F6E41C7"
 			]
 			id: "79ECF30EADCAE4D8"
+			size: 1.0d
 			tasks: [{
 				id: "4B024000B42A23F9"
 				item: "gtceu:cleansing_serum_bucket"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 24.5d
+			x: 20.0d
+			y: 25.0d
 		}
 		{
 			dependencies: [
@@ -1330,13 +1325,14 @@
 				"4E5947D15F6E41C7"
 			]
 			id: "0A24ECA896C25CD1"
+			size: 1.0d
 			tasks: [{
 				id: "1E9E1AE3D66E3627"
 				item: "gtceu:frenzy_serum_bucket"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 24.5d
+			x: 24.0d
+			y: 21.0d
 		}
 		{
 			dependencies: [
@@ -1345,13 +1341,15 @@
 				"268C36437405BD6F"
 			]
 			id: "6081AA4CD36390C2"
+			size: 1.0d
+			subtitle: "产物Ⅴ"
 			tasks: [{
 				id: "587CCE07884F1DCC"
 				item: "gtceu:primordial_serum_bucket"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 26.0d
+			x: 24.0d
+			y: 28.5d
 		}
 		{
 			dependencies: ["5EE36C722931A3A5"]
@@ -1371,8 +1369,8 @@
 				type: "observation"
 			}]
 			title: "肉块"
-			x: 28.5d
-			y: 13.25d
+			x: 30.0d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -1380,13 +1378,15 @@
 				"33C8E0E3084648BB"
 			]
 			id: "021A34BDE21EF587"
+			size: 1.0d
+			subtitle: "产物Ⅲ"
 			tasks: [{
 				id: "361031ACC932A457"
 				item: "gtceu:ageing_serum_bucket"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 24.5d
+			x: 22.5d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -1400,8 +1400,8 @@
 				item: "gtceu:polypyrrole_bucket"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 14.0d
+			x: 26.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["4F6A99C6DE8F45DF"]
@@ -1411,8 +1411,8 @@
 				item: "gtceu:pyrrole_bucket"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 13.0d
+			x: 26.5d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -1425,8 +1425,8 @@
 				item: "gtceu:fentons_reagent_bucket"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 13.0d
+			x: 25.5d
+			y: 18.0d
 		}
 		{
 			id: "4F6A99C6DE8F45DF"
@@ -1435,8 +1435,8 @@
 				item: "gtceu:coal_tar_bucket"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 12.0d
+			x: 27.0d
+			y: 19.0d
 		}
 		{
 			id: "78AC7515CB5C4116"
@@ -1445,8 +1445,8 @@
 				item: "gtceu:iron_ii_chloride_bucket"
 				type: "item"
 			}]
-			x: 25.5d
-			y: 12.0d
+			x: 25.0d
+			y: 19.0d
 		}
 		{
 			dependencies: [
@@ -1460,8 +1460,8 @@
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			x: 25.0d
-			y: 17.0d
+			x: 27.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6C2EC9D4B1DBA660"]
@@ -1471,8 +1471,8 @@
 				item: "ctnhbio:wetware_printed_circuit_board"
 				type: "item"
 			}]
-			x: 26.5d
-			y: 17.0d
+			x: 27.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["78FB6D2EBEC04944"]
@@ -1482,20 +1482,20 @@
 				item: "ctnhbio:wetware_circuit_board"
 				type: "item"
 			}]
-			x: 28.0d
-			y: 17.0d
+			x: 26.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4C2F508E36E8624E"]
 			id: "1AA229DF6B1F4CD6"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "7F52118D8392DF62"
 				item: "biomancy:creator_mix"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 17.0d
+			x: 25.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -1503,13 +1503,15 @@
 				"0039A3BA2F5DAE64"
 			]
 			id: "3A2C6AEBD158B390"
+			size: 1.0d
+			subtitle: "产物Ⅰ"
 			tasks: [{
 				id: "0233F439A0158EDB"
 				item: "gtceu:breeding_stimulant_bucket"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 24.5d
+			x: 20.0d
+			y: 22.0d
 		}
 		{
 			dependencies: [
@@ -1523,8 +1525,8 @@
 				title: "自动喂食"
 				type: "checkmark"
 			}]
-			x: 14.0d
-			y: 19.5d
+			x: 15.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["3A0DF5CC0ED15F67"]
@@ -1551,8 +1553,8 @@
 				title: "药水效果的施加"
 				type: "checkmark"
 			}]
-			x: 12.0d
-			y: 19.5d
+			x: 13.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["3A0DF5CC0ED15F67"]
@@ -1567,8 +1569,8 @@
 				title: "小机器的超频与回血"
 				type: "checkmark"
 			}]
-			x: 13.0d
-			y: 19.5d
+			x: 14.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["0F6802BC6D2E6D86"]
@@ -1578,8 +1580,46 @@
 				item: "gtceu:decay_essence_bucket"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 23.0d
+			x: 20.0d
+			y: 24.0d
+		}
+		{
+			icon: "botania:vial"
+			id: "76FF74E05711DD99"
+			size: 1.0d
+			tasks: [{
+				id: "12EB7FD9416A53AE"
+				title: "原料1,2"
+				type: "checkmark"
+			}]
+			title: "原料③、④"
+			x: 32.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["3D60B25E76C93050"]
+			icon: "botania:vial"
+			id: "6B4BC18863EDF4EF"
+			size: 1.0d
+			tasks: [{
+				id: "4CA44D72A2452982"
+				title: "原料4,5"
+				type: "checkmark"
+			}]
+			title: "原料①、②"
+			x: 16.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["50CCCB9AECB5C68B"]
+			id: "3D60B25E76C93050"
+			tasks: [{
+				id: "201ABD935AB66833"
+				title: "生物溶液"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 20.0d
 		}
 	]
 	title: "&4血肉重铸"
