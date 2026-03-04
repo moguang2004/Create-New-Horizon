@@ -69,7 +69,6 @@ config/*
 !config/ftbquests
 !config/alexscaves_biome_generation
 !config/almostunified
-!config/alexsmobs
 !config/apotheosis
 !config/ars_nouveau
 !config/biomesoplenty
@@ -96,10 +95,10 @@ config/*
 !config/modernfix-mixins.properties
 !config/twilightforest-common.toml
 !config/sophisticatedcore-common.toml
-!config/alexsmobs.toml
 !config/inventoryhud-client.toml
 !config/jei/jei-client.ini
 !config/createlazytick-common.toml
-!/config/ctnhchangelog-client.toml
+!config/ctnhchangelog-client.toml
+!config/ali
 
 !kubejs/config/*
