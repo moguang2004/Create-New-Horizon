@@ -13,7 +13,7 @@
       "key": "ali:block_loot",
       "type": "BLOCK",
       "icon": "minecraft:diamond_pickaxe",
-      "hide": false,
+      "hide": true,
       "classes": [
 
       ]
