@@ -1022,7 +1022,7 @@ hash = "bdf60d705fda21ac288e60a7929235ed4f6394d2ef6313b2acbd6359c9c817d6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
-hash = "1b5b53216c5fc3b243baa6e9f96961e96fe6d69ed5d0d7fccef46e144088d977"
+hash = "b1a1023c86564d575e6d644a3d99cefcc7128c764f3cd51ab3a29373c84b5237"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09F33579334F2607.snbt"
@@ -1034,7 +1034,7 @@ hash = "e0f24ce4b2780ecdba525dbd7c7db92f8d7fa5fb3cd2734b39930f7451f1a6fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/142AC829C9062F15.snbt"
-hash = "d52ecc1f73baf17823e359eeccb55dd82004460d69da8a782321304b62cd46ca"
+hash = "d75ed4aa57f19ed51b1edd91990e63e32b808adba2e78e3128438f97a7cbecd4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15B8D9F4A2A19BFA.snbt"
@@ -1066,7 +1066,7 @@ hash = "49ddb588f1b3a6ef6d49892a2183bb6a7468e622d171e52752e150802f0686ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "cf1a0e76b4c75ef57d6251c3203b53b0bbb95a464114e6cb13e1c87dea7be652"
+hash = "026a4c3c25daf7885923d01e7c1537b7e0cd748411a4031f4889b63e7525d59a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -1110,11 +1110,11 @@ hash = "b0e6232693c0af55acf935af48c6b8c2b439a756d7b50a3e42326f8bfde0e54d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "8eb6092d14751234fba5f492faf414499520913b8ca6106074bd19a384254232"
+hash = "c9573c9f2eae559cfdcff2c0c15254a0a9ed979af85d97b3c8e6e3570bc4bfd3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "af4be3abd030a09c89bc8bfca8ef23ad124bad8720c284351f462e27f0c6bd76"
+hash = "9834a793a4eb81889280b3562160b566632028b587570a701101a3cfe1e63435"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
@@ -1122,11 +1122,11 @@ hash = "e7bf6cc2b6d18276fa78b473fc7702b858c5348b78185a84a9c02282701cd56f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
-hash = "e0605e906c3555ec8ea66f8853d62203a7b8a66d6b70677a7f418dc85bc41ac4"
+hash = "04141466e4d4804aebae5ab181297e4447e62776b4d0a3a1bf58f0333e1ad6b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
-hash = "001aaf68a29ab5e2ac7b58ad7fd26b3c854ba3e825491c1c1f86d549532cd9aa"
+hash = "da4afe52ada097828adfae7fa327431e3d81836588756c7507ec4b6233cf6fb1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
@@ -1134,7 +1134,7 @@ hash = "c6dfebf38d26190dc544a99856a771e730bd5b89950e6b1143ae45a0fcb26d10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "86ea8aa4283ec5036c5d84ed228d7b68cfb19f3a21718e403ee7523c28b916fd"
+hash = "1157bc2eab9805ebf64282c42f7bfff015d4ba5ac16c2c713e22b889c5c053dd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/too_many_items.snbt"
@@ -1146,7 +1146,7 @@ hash = "ca97129dbb1d2a800131a6ff9467607900d86131b9b300364b2d62ce8d3e9241"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
-hash = "bc0f8572600c5a06ab1fa49d25efe1d1856d44f4a2df88530e0f5ac0da7b5ee9"
+hash = "2b1dd92e3f633139d5c7abfcf9c7cf2cba0a90cde0b8c48087596f22f98109c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
@@ -5755,6 +5755,14 @@ hash = "fb59bf48693e913207154f8b77c0aedce1621c04e02475f46c05d37226e84d50"
 [[files]]
 file = "kubejs/data/ae2/loot_tables/blocks/small_quartz_bud.json"
 hash = "1beefd37c07ff36731e2e86a1a8b5a8719bb5f0a40ad516adaeb091bb8677c38"
+
+[[files]]
+file = "kubejs/data/ae2cs/worldgen/configured_feature/certus_quartz_ore.json"
+hash = "8bd188ce2e5dd7e397293e262b8bb0f28cd86e47f7a5eefddecf2919fab6083d"
+
+[[files]]
+file = "kubejs/data/ae2cs/worldgen/configured_feature/charged_certus_quartz_ore.json"
+hash = "8bd188ce2e5dd7e397293e262b8bb0f28cd86e47f7a5eefddecf2919fab6083d"
 
 [[files]]
 file = "kubejs/data/aether/legendarysurvivaloverhaul/temperature/dimensions/the_aether.json"
