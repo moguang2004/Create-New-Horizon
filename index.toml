@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".cache/changelog_cache.json"
-hash = "e490430626cf760f910c79c1f329818cab7fac1182b7fba8b7d3b57e1774e6d9"
-
-[[files]]
-file = ".cache/changelog_cache.json.etag"
-hash = "6302fdf8b3b705ebcabc6c2b3d8d8c2084507a418c0f91dbb18cb0aad31df7f4"
-
-[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -10267,7 +10259,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctnh-core.pw.toml"
-hash = "06ecfce7a6ddc0fe5774c41a7501f737fdd1f46d9aba5cf991dca61f04393bf0"
+hash = "a346568026bf9609dde5d3e0df339fbf05fe3af28c2f2bdcebf53a0e403e9245"
 metafile = true
 
 [[files]]
@@ -11093,10 +11085,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "73ad37145260a1d9768c19c729f1a31fab5dad8a5cbd280b6a26dfb0a593cbd3"
-
-[[files]]
-file = "replay_pid27568.log"
-hash = "0b7245a7686cb8bf8d22cb75a50e6f91d23f9fad8d48025dc912e0fd8abba53b"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
