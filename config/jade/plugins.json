@@ -57,29 +57,30 @@
     "compressor": true
   },
   "gtceu": {
-    "manamachine_status_provider": true,
     "primitive_pump": true,
     "auto_output_info": true,
     "bloodaltar_status_provider": true,
-    "manahatch_status_provider": true,
     "workable_provider": true,
     "transformer": true,
     "energy_converter_provider": true,
-    "controllable_provider": true,
     "me_pattern_buffer": true,
-    "exhaust_vent_info": true,
-    "me_pattern_buffer_proxy": true,
     "multiblock_structure": true,
+    "manamachine_mana_status_provider": true,
     "living_machine_status_provider": true,
     "maintenance_info": true,
     "machine_mode": true,
-    "electric_container_provider": true,
     "steam_boiler_info": true,
     "recipe_output_info": true,
     "stained_color": true,
-    "hazard_cleaner_provider": true,
     "cable_info": true,
     "parallel_info": true,
+    "manamachine_status_provider": true,
+    "manahatch_status_provider": true,
+    "controllable_provider": true,
+    "exhaust_vent_info": true,
+    "me_pattern_buffer_proxy": true,
+    "electric_container_provider": true,
+    "hazard_cleaner_provider": true,
     "data_bank": true
   },
   "jade": {
@@ -101,6 +102,9 @@
   },
   "lootr": {
     "info": true
+  },
+  "functionalstorage": {
+    "armory": true
   },
   "ctnhcore": {
     "recipe_logic_provider": true,

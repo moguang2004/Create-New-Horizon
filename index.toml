@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".cache/changelog_cache.json"
+hash = "e490430626cf760f910c79c1f329818cab7fac1182b7fba8b7d3b57e1774e6d9"
+
+[[files]]
+file = ".cache/changelog_cache.json.etag"
+hash = "6302fdf8b3b705ebcabc6c2b3d8d8c2084507a418c0f91dbb18cb0aad31df7f4"
+
+[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -1005,14 +1013,6 @@ file = "config/fpsreducer/fpsreducer-client.toml"
 hash = "e84ab1c1fb08def9ccba81542696eb828e767b2835cfacc6a713807dce27ede6"
 
 [[files]]
-file = "config/ftbquests/.DS_Store"
-hash = "745035c37e8dc147d4927523cb3bb5340397f7c6ecc77bee31a40db397d03a3c"
-
-[[files]]
-file = "config/ftbquests/quests/.DS_Store"
-hash = "a63d42941cf999374f6db0ab184437d14735fe6be74cb837532b4736b7b9aaba"
-
-[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "0581b10bb71ab5a66be273f4ebe60e77ba2a1a530d0364d554416c775d298bc2"
 
@@ -1206,7 +1206,7 @@ hash = "78613a05c6e9501d5770732d4a7f92399a6c9e2ef995ff54b11277295b1d5bcd"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "86182bac174ddb0c8a5cbabbe644baea2a8a25b257208766dd356bb604339679"
+hash = "5bd54af51d0d97f8a1b566370fe8b041d15dc0915562f1f7992005be4f22c2fc"
 
 [[files]]
 file = "config/inventoryhud-client.toml"
@@ -1230,11 +1230,11 @@ hash = "db1a46802bbbe9b0723308c1413ecee26b816d6e200de5c8b00fefc3812a0f17"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "1dbced8fecd959784be9dbc95b41bddbf63af2e6bad6e20865fd81934f066c37"
+hash = "7d25c582bb2ac62d9881d29f2fd258d66de202c157514e05ce0cb1ff358b47ea"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "45d20681c673c90ff1e9e805b45b7f13e5368469e428d666df7965698e386caa"
+hash = "9c65b7f0f7dcf7940126a41f21c0634e593e2221c518c68c950fca28b2df71c0"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
@@ -10833,7 +10833,7 @@ metafile = true
 
 [[files]]
 file = "mods/functional-storage.pw.toml"
-hash = "d38a2819f962a266dceec591991523530d9ad2aa387277e2611ab5acb07e7d1c"
+hash = "ea05f8426dda347174d1690299c4517a489c6c17370a98fd812e9d06ce1dbcfd"
 metafile = true
 
 [[files]]
@@ -11248,17 +11248,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "a6e73a945cfb13ff274c27398f390e7aec52d341c038f12a26c610c46481d4e9"
+hash = "4c090681c55b759f90244efee2755f908670e4113502ee9bb03c600c74b18b57"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "fe380c9b42fc84af1cfa6f34d39d9d44f6330a35fffc6b67d41ca24d0d2baf98"
+hash = "109a24c9f443a27621d182fcb8cffcfc67a8f7918fd4b7199df43cea17432b0b"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "27efd1f344b3aac24c30624c46d935fe1906983d7e6479def2bfdabc158c2d0d"
+hash = "3ba72f8e2d54c1811ba24553b58f2a110f743fc36256fb3dbf9f83a15c992a1d"
 metafile = true
 
 [[files]]
@@ -11449,6 +11449,10 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "73ad37145260a1d9768c19c729f1a31fab5dad8a5cbd280b6a26dfb0a593cbd3"
+
+[[files]]
+file = "replay_pid27568.log"
+hash = "0b7245a7686cb8bf8d22cb75a50e6f91d23f9fad8d48025dc912e0fd8abba53b"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"

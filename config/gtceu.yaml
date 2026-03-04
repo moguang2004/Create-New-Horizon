@@ -113,6 +113,10 @@ recipes:
   # Default: 1.0f
   extractorRecyclingYield: 1.0
 
+  # The threshold of parallels in recipes to switch to deterministic output calculation.
+  # Default: 500
+  chancedOutputExpectedThreshold: 500
+
 worldgen:
   # Rubber Tree spawn chance (decimal % per chunk)
   # Default: 0.5
