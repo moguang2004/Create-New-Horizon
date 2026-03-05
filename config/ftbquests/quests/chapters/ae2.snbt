@@ -1924,12 +1924,12 @@
 			tasks: [
 				{
 					id: "2B4E862932DEEDC5"
-					item: "gtceu:me_pattern_buffer"
+					item: "ctnhenergy:me_pattern_buffer"
 					type: "item"
 				}
 				{
 					id: "18A88785C29BEFF5"
-					item: "gtceu:me_pattern_buffer_proxy"
+					item: "ctnhenergy:me_pattern_buffer_proxy"
 					type: "item"
 				}
 			]
