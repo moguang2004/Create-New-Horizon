@@ -1,10 +1,4 @@
 ServerEvents.recipes(event => {
-    
-    event.replaceOutput({id: 'gtceu:macerator/macerate_ruby_refined_ore_to_dust'},'gtceu:chromium_dust','gtceu:chromite_dust')
-    event.replaceOutput({id: 'gtceu:macerator/macerate_ruby_crushed_ore_to_impure_dust'},'gtceu:chromium_dust','gtceu:chromite_dust')
-    event.replaceOutput({id: 'gtceu:macerator/macerate_raw_ruby_ore_to_crushed_ore'},'gtceu:chromium_dust','gtceu:chromite_dust')
-    event.replaceOutput({id: 'gtceu:ore_washer/wash_ruby_crushed_ore_to_purified_ore'},'gtceu:chromium_dust','gtceu:chromite_dust')
-    event.replaceOutput({id: 'gtceu:centrifuge/centrifuge_ruby_dirty_dust_to_dust'},'gtceu:chromium_dust','gtceu:chromite_dust')
 
     event.recipes.gtceu.mixer('sodium_carbonate_solution')
         .circuit(1)
