@@ -4,24 +4,9 @@
     "fluid:ad_astra:oxygen",
     "item:twilightforest:uncrafting_table",
     "item:ae2:facade",
-    "item:createmetallurgy:wolframite_dust"
-  ],
-  "added": [
-    {
-      "stack": "item:create:chromatic_compound"
-    },
-    {
-      "stack": "item:create:shadow_steel"
-    },
-    {
-      "stack": "item:shadow_steel_casing"
-    },
-    {
-      "stack": "item:refined_radiance"
-    },
-    {
-      "stack": "item:refined_radiance_casing"
-    }
+    "item:createmetallurgy:wolframite_dust",
+    "item:gtceu:me_pattern_buffer",
+    "item:gtceu:me_pattern_buffer_proxy"
   ],
   "filters": [
     "/gtceu:(.*)_steam_turbine/",
