@@ -926,11 +926,9 @@
 			dependencies: ["6CF8EDC7B351F67A"]
 			id: "26AE6DFBBDD45CB4"
 			tasks: [{
-				amount: 1000L
-				consume_fluid: "DEFAULT"
-				fluid: "gtceu:stellar_energy"
-				id: "3D245A770F8C7CC1"
-				type: "fluid"
+				id: "77A47D6F2C6CD73A"
+				item: "gtceu:stellar_energy_bucket"
+				type: "item"
 			}]
 			x: -4.5d
 			y: -2.5d
@@ -939,11 +937,9 @@
 			dependencies: ["26AE6DFBBDD45CB4"]
 			id: "5E3DF53378ED2A08"
 			tasks: [{
-				amount: 1000L
-				consume_fluid: "DEFAULT"
-				fluid: "gtceu:energy_essence_secretion"
-				id: "431E39312E4CCE32"
-				type: "fluid"
+				id: "396DCD974377897A"
+				item: "gtceu:energy_essence_secretion_bucket"
+				type: "item"
 			}]
 			x: -2.5d
 			y: -2.5d

@@ -463,11 +463,7 @@
 				"2D9F762371DEDF70"
 				"13388DB5A507AB34"
 			]
-			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.description3}"
-			]
+			description: ["碳刷目前可以直接产生EU电了，它会输出LV级别的电力，你可以直接用GT的导线接到你的机器上了"]
 			id: "54A490510D5FBA04"
 			rewards: [
 				{
