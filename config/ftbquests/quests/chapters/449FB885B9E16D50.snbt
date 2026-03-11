@@ -374,7 +374,7 @@
 			rewards: [
 				{
 					id: "5E7D94526DD4A0E9"
-					item: "kubejs:mana_integrated_circuit"
+					item: "ctnhmana:mana_integrated_circuit"
 					type: "item"
 				}
 				{
@@ -391,7 +391,7 @@
 				{
 					count: 8
 					id: "46EE9EACD2B32B61"
-					item: "kubejs:mana_electronic_circuit"
+					item: "ctnhmana:mana_electronic_circuit"
 					type: "item"
 				}
 			]
@@ -417,7 +417,7 @@
 				{
 					count: 64
 					id: "0F829BCF7B17C254"
-					item: "gtceu:raw_mana_fused"
+					item: "gtceu:raw_fused_mana"
 					type: "item"
 				}
 				{
@@ -454,7 +454,7 @@
 			id: "0C248F430ED4DE66"
 			rewards: [{
 				id: "690497C19D6237FA"
-				item: "ctnhcore:horizen_rune"
+				item: "ctnhmana:horizen_rune"
 				type: "item"
 			}]
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest874981745791131238.subtitle}"
@@ -641,7 +641,7 @@
 			rewards: [{
 				count: 16
 				id: "2867CEEA552B1136"
-				item: "ctnhcore:quasar_rune"
+				item: "ctnhmana:quasar_rune"
 				type: "item"
 			}]
 			tasks: [{

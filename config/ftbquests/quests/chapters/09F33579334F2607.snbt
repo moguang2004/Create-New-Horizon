@@ -860,7 +860,7 @@
 			id: "1843D5BA2813F77D"
 			tasks: [{
 				id: "368E4BBA39A6B451"
-				item: "gtceu:raw_mana_fused"
+				item: "gtceu:raw_fused_mana"
 				type: "item"
 			}]
 			x: 28.5d
