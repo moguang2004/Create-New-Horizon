@@ -905,6 +905,10 @@ file = "defaultconfigs/createdieselgenerators-server.toml"
 hash = "349c49ed3ae6cb1cad4b4a08d163524e0f2579357beef4cd99267e4e1f4dadb4"
 
 [[files]]
+file = "defaultconfigs/createlazytick-server.toml"
+hash = "1b62bd9a0b266b7d78f08442a3818bc41cd9c1155ca163333c9b93265f6a0baf"
+
+[[files]]
 file = "defaultconfigs/forge-server.toml"
 hash = "5e6e52616da1b55ebeebc3e6e7faaf5936584b23b26a0517d8ce398a98a95764"
 
@@ -10154,7 +10158,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-lazytick.pw.toml"
-hash = "5123581d477cde33003d15f95abce538fbaa04f57b385909e7cfc2bcf77031e8"
+hash = "798f05a4fa6ca4d0a2abe3b540b4a02a96ff8db896c0d99363f4816abd36ac7e"
 metafile = true
 
 [[files]]
