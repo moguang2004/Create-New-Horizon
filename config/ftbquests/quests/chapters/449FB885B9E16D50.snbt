@@ -275,9 +275,8 @@
 			y: -9.0d
 		}
 		{
-			description: ["{ftbquests.chapter.449FB885B9E16D50.quest4318674076079114594.description1}"]
 			id: "3BEF0330DD624962"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest4318674076079114594.subtitle}"
+			subtitle: "LuV电路板"
 			tasks: [{
 				id: "417819D361364A09"
 				item: "ctnhmana:bloody_nano_processor_mainframe"
@@ -288,7 +287,7 @@
 		}
 		{
 			id: "601A414CAA3597EC"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest6924919174564517868.subtitle}"
+			subtitle: "便宜的IV板子（大概）"
 			tasks: [{
 				id: "296B425E09AA623B"
 				item: "ctnhmana:will_crystal_processor"
@@ -450,7 +449,6 @@
 				"020376281C4F33C1"
 			]
 			description: ["{ftbquests.chapter.449FB885B9E16D50.quest874981745791131238.description1}"]
-			hide_details_until_startable: true
 			id: "0C248F430ED4DE66"
 			rewards: [{
 				id: "690497C19D6237FA"
