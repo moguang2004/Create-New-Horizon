@@ -553,10 +553,6 @@ file = "config/extrabotany-common.toml"
 hash = "d7cd9e178656afe629bb9d7f3ab842c4bd256f8c1abf0a77efbac5f16c2428da"
 
 [[files]]
-file = "config/fancymenu/.DS_Store"
-hash = "71db77479cf7d1d6f995cd4fc1313199cff64f6f8e34908106166a6eda9b5962"
-
-[[files]]
 file = "config/fancymenu/assets/background.png"
 hash = "65b5ea55e9365fbc662d420f7225c91afb51f7431da34571f5ffd8c8f172034a"
 
@@ -653,14 +649,6 @@ file = "config/fpsreducer/fpsreducer-client.toml"
 hash = "e84ab1c1fb08def9ccba81542696eb828e767b2835cfacc6a713807dce27ede6"
 
 [[files]]
-file = "config/ftbquests/.DS_Store"
-hash = "dcbc42e67153b93c3e137b6696de0e7da5715d904a97d8b27181b7b4e2d4ad74"
-
-[[files]]
-file = "config/ftbquests/quests/.DS_Store"
-hash = "99a90a65d0fd89850246e98146873c22a2790cb8ff9a1789203369716e4fedf9"
-
-[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "0581b10bb71ab5a66be273f4ebe60e77ba2a1a530d0364d554416c775d298bc2"
 
@@ -670,11 +658,11 @@ hash = "bdf60d705fda21ac288e60a7929235ed4f6394d2ef6313b2acbd6359c9c817d6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
-hash = "b1a1023c86564d575e6d644a3d99cefcc7128c764f3cd51ab3a29373c84b5237"
+hash = "b6a0d7a1fdc88b6049955658848c384ee5b4d63363df24031b42f9f74d7172d1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/09F33579334F2607.snbt"
-hash = "10af4e3907273d09fd06253a81c0cabfde4ec4733a6c0a2d150223c4dbf81412"
+hash = "8a81a22fe83071531c8e0aa440a1f3901ca0b0976e5ff214fa5e37d4286dcb76"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/0AD950C34ED565A4.snbt"
@@ -682,7 +670,7 @@ hash = "e0f24ce4b2780ecdba525dbd7c7db92f8d7fa5fb3cd2734b39930f7451f1a6fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/142AC829C9062F15.snbt"
-hash = "d75ed4aa57f19ed51b1edd91990e63e32b808adba2e78e3128438f97a7cbecd4"
+hash = "7ecd50623551ab086839400e527369b1df2a536cf2dd6665d2e8b366edff9def"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15B8D9F4A2A19BFA.snbt"
@@ -718,7 +706,7 @@ hash = "026a4c3c25daf7885923d01e7c1537b7e0cd748411a4031f4889b63e7525d59a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
-hash = "eab213b56ac3d602291ada22b7589fdab8cd1a7fc82a895b3927443367c72fe2"
+hash = "b6f5a119897a93df94158ba6408c7e636c778e11d46be3878913006508d8094f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4A4420704BDBEA5D.snbt"
@@ -762,7 +750,7 @@ hash = "025dff629689f8d128a1a028fac4f575d223b68c8796487554cced7fd5881e29"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "9834a793a4eb81889280b3562160b566632028b587570a701101a3cfe1e63435"
+hash = "64ccc6de6cd5e783b6914e811898acf10f6c4186262b2825ccde300d2c598d4b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
@@ -9827,6 +9815,10 @@ hash = "bff20817fd79930081cf663ee876f116ca8fc450910751bcc1390f971ba6894a"
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/tinkers.js"
 hash = "cdc2ed12146c1472bc1ecda293415cda0765b44e78f42f5bbe5cbfa559305c8a"
+
+[[files]]
+file = "kubejs/server_scripts/src/temp_fix.js"
+hash = "34ae53868af842fb7d991d8e71defb0740cac37506a8c65af39e82023e0ede41"
 
 [[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
