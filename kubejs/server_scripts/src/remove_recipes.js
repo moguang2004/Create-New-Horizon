@@ -120,6 +120,10 @@ ServerEvents.recipes(event => {
         "create:pressing/plutonium_ingot",
         "create:pressing/neptunium_ingot",
         "create:pressing/uranium_ingot",
+        "create:pressing/desh_ingot",
+        "create:pressing/ostrum_ingot",
+        "create:pressing/steel_ingot",
+        "create:pressing/calorite_ingot",
         'deep_aether:pumpkin_pie',
         'aether:moa_egg_pumpkin_pie',
         //压肉块
