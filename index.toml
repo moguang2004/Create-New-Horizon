@@ -9782,7 +9782,7 @@ hash = "bd24f12b53cf8270ee619a1398689c40c0df49d26de61b5e0bba5207511f6095"
 
 [[files]]
 file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "95313c7ae917ec00553409c7796f8db16015745f710d57feabd14b6df641dd58"
+hash = "024aba93c8e86ec90609e42e96071b7e0aab83b5660dcbf401e815b20ccb5073"
 
 [[files]]
 file = "kubejs/server_scripts/src/sophisticatedbackpacks/sophisticatedbackpacks.js"
@@ -10203,7 +10203,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctnh-core.pw.toml"
-hash = "a346568026bf9609dde5d3e0df339fbf05fe3af28c2f2bdcebf53a0e403e9245"
+hash = "7b2cd27f5249bbff1a1baf1523412dbecef2832e0875a9592f0faddddbfd6d8b"
 metafile = true
 
 [[files]]
