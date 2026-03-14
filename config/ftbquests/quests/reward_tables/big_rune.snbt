@@ -1,0 +1,40 @@
+{
+	hide_tooltip: true
+	id: "7247CCC86CDD1B27"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 64, item: "botania:rune_water", weight: 0.7f }
+		{ count: 64, item: "botania:rune_fire", weight: 0.7f }
+		{ count: 64, item: "botania:rune_earth", weight: 0.7f }
+		{ count: 64, item: "botania:rune_air", weight: 0.7f }
+		{ count: 64, item: "botania:rune_mana", weight: 0.7f }
+		{ count: 64, item: "botania:rune_spring", weight: 0.5f }
+		{ count: 64, item: "botania:rune_summer", weight: 0.5f }
+		{ count: 64, item: "botania:rune_autumn", weight: 0.5f }
+		{ count: 64, item: "botania:rune_winter", weight: 0.5f }
+		{ count: 64, item: "botania:rune_lust", weight: 0.3f }
+		{ count: 64, item: "botania:rune_gluttony", weight: 0.3f }
+		{ count: 64, item: "botania:rune_greed", weight: 0.3f }
+		{ count: 64, item: "botania:rune_sloth", weight: 0.3f }
+		{ count: 64, item: "botania:rune_wrath", weight: 0.3f }
+		{ count: 64, item: "botania:rune_envy" }
+		{ count: 64, item: "botania:rune_pride", weight: 0.3f }
+		{ count: 64, item: "mythicbotany:asgard_rune", weight: 0.1f }
+		{ count: 64, item: "mythicbotany:vanaheim_rune", weight: 0.1f }
+		{ count: 64, item: "mythicbotany:alfheim_rune", weight: 0.1f }
+		{ count: 64, item: "mythicbotany:midgard_rune", weight: 0.1f }
+		{ count: 64, item: "mythicbotany:joetunheim_rune", weight: 0.1f }
+		{ count: 64, item: "mythicbotany:muspelheim_rune" }
+		{ count: 64, item: "mythicbotany:niflheim_rune", weight: 0.1f }
+		{ count: 64, item: "mythicbotany:nidavellir_rune", weight: 0.1f }
+		{ count: 64, item: "mythicbotany:helheim_rune", weight: 0.1f }
+		{ count: 64, item: "ctnhmana:horizen_rune", weight: 0.03f }
+		{ count: 64, item: "ctnhmana:starlight_rune", weight: 0.03f }
+		{ count: 64, item: "ctnhmana:twist_rune", weight: 0.03f }
+		{ count: 64, item: "ctnhmana:quasar_rune", weight: 0.005f }
+		{ item: "ctnhmana:proliferation_rune", weight: 0.03f }
+	]
+	title: "真·符文抽奖"
+	use_title: true
+}

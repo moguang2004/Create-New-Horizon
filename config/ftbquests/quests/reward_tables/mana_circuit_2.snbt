@@ -1,0 +1,13 @@
+{
+	id: "2EE79D481DD2E41E"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ count: 8, item: "ctnhmana:advanced_mana_resistor" }
+		{ count: 8, item: "ctnhmana:advanced_mana_capacitor" }
+		{ count: 8, item: "ctnhmana:advanced_mana_transistor" }
+		{ count: 8, item: "ctnhmana:advanced_mana_diode" }
+		{ count: 8, item: "ctnhmana:advanced_mana_inductor" }
+	]
+	title: "精灵元件"
+}

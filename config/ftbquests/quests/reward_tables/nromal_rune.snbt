@@ -1,0 +1,19 @@
+{
+	icon: "ctnhmana:rune_carrier_block"
+	id: "51BF7EF2E2B53F15"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ count: 4, item: "botania:rune_water" }
+		{ count: 4, item: "botania:rune_fire" }
+		{ count: 4, item: "botania:rune_earth" }
+		{ count: 4, item: "botania:rune_air" }
+		{ count: 4, item: "botania:rune_mana" }
+		{ count: 2, item: "botania:rune_spring", weight: 0.2f }
+		{ count: 2, item: "botania:rune_summer", weight: 0.2f }
+		{ count: 2, item: "botania:rune_autumn", weight: 0.2f }
+		{ count: 2, item: "botania:rune_winter", weight: 0.2f }
+	]
+	title: "符文抽取袋"
+	use_title: true
+}
