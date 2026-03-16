@@ -2,6 +2,7 @@
   "removed": [
     "fluid:ad_astra:hydrogen",
     "fluid:ad_astra:oxygen",
+    "fluid:vintageimprovements:sulfuric_acid",
     "item:twilightforest:uncrafting_table",
     "item:ae2:facade",
     "item:createmetallurgy:wolframite_dust",
