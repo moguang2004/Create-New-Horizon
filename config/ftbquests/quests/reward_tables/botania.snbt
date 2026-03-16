@@ -1609,12 +1609,6 @@
 					table_id: 1995626107801647046L
 					type: "loot"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "70C2F3E7E585B378"
-					table_id: 8234775604862196519L
-					type: "loot"
-				}
 			]
 			size: 1.5d
 			subtitle: "永恒的赌注"
@@ -1974,20 +1968,12 @@
 			dependencies: ["15FC1B8CA8B313D9"]
 			description: ["所以为什么就你价格这么贵？"]
 			id: "7A7E14FEA1466EBC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "15843FA38DADADE7"
-					table_id: 1995626107801647046L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6271FE52398BB4F0"
-					table_id: 8234775604862196519L
-					type: "all_table"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15843FA38DADADE7"
+				table_id: 1995626107801647046L
+				type: "loot"
+			}]
 			subtitle: "高速机一定要高速"
 			tasks: [{
 				id: "206F8E4BAD02E759"
@@ -2634,6 +2620,16 @@
 					item: "minecraft:ghast_tear"
 					type: "item"
 				}
+				{
+					id: "74C7BE409C448638"
+					item: "bloodmagic:life_essence_bucket"
+					type: "item"
+				}
+				{
+					id: "43D405504D153AFF"
+					item: "botania:rosa_arcana"
+					type: "item"
+				}
 			]
 			subtitle: "所以这一切一无所有"
 			tasks: [{
@@ -2644,6 +2640,40 @@
 			title: "于是，什么都看不见了"
 			x: 6.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["0E155CFAA51B8A3D"]
+			id: "1610599164EC9CA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32D006A04C9045BA"
+				table_id: 5890566419274612501L
+				type: "random"
+			}]
+			subtitle: "通过它，你可以量产奥利哈钢"
+			tasks: [{
+				id: "69CF77CE1A35C413"
+				item: "ctnhmana:unimbued_spirit"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1610599164EC9CA3"]
+			id: "584176B147B6FB76"
+			rewards: [{
+				id: "3DA890302ED5617B"
+				item: "ctnhmana:orichalcos_spirit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D9B4D462A3CE4AF"
+				item: "ctnhmana:orichalcos_spirit"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 8.0d
 		}
 	]
 	title: "&f植物魔法"
