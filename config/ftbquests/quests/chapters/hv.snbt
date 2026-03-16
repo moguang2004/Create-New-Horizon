@@ -270,6 +270,7 @@
 				"1157261D1C6FA682"
 			]
 			dependency_requirement: "one_completed"
+			description: ["  该任务仅需完成一个前置即可解锁"]
 			id: "66E49577299CA3D6"
 			rewards: [{
 				exclude_from_claim_all: true
