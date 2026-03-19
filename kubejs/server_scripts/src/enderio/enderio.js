@@ -93,4 +93,5 @@ ServerEvents.recipes(event => {
 
     event.replaceInput({}, 'enderio:fused_quartz', 'ae2:quartz_glass')
     event.replaceInput({output: 'enderio:crafter'}, 'minecraft:crafting_table', 'sophisticatedbackpacks:crafting_upgrade')
+    event.replaceInput({ id: 'enderio:conduit_probe' }, 'enderio:energy_conduit', 'enderio:fluid_conduit')
 })

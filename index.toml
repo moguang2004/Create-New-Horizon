@@ -741,6 +741,10 @@ file = "config/ftbquests/quests/chapters/ae2.snbt"
 hash = "025dff629689f8d128a1a028fac4f575d223b68c8796487554cced7fd5881e29"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/botania.snbt"
+hash = "f1e5aef0bb456e2a132d0295d3fc5a4d9f5e80e46afb6cd5e10ccad1cb7bbdd8"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
 hash = "64ccc6de6cd5e783b6914e811898acf10f6c4186262b2825ccde300d2c598d4b"
 
@@ -799,10 +803,6 @@ hash = "c20589820f483f8d0fe3ca56b89db2ebc804de80acefd68f8550682a003c9433"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/big_rune.snbt"
 hash = "3aa41f236a0f2e0a375d5178b45debb1d047bbad2a2f67190e5af17ec9fc040a"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/botania.snbt"
-hash = "75f1792ce7055c3b0aefbe1cf805d12393c014cfff327a9ac52c2fb1e8bb7227"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ct.snbt"
@@ -2359,6 +2359,10 @@ hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
 [[files]]
 file = "kubejs/assets/emi/index/stacks/1.json"
 hash = "bc847b82ff592f83145213c3fd715a7e8b0b1cf07cb49c1a678d815519d5f618"
+
+[[files]]
+file = "kubejs/assets/enderio/lang/zh_cn.json"
+hash = "de82d1da2e42c294adfa3eaa0aaf8d43df87e1ab09042434f90b9ee017197ab5"
 
 [[files]]
 file = "kubejs/assets/enderio/textures/block/conduit/basic_energy_conduit.png"
@@ -5266,7 +5270,7 @@ hash = "07568bfb3abc932b3f40a26fc05932f288a04568aab4e04ca36dbc1b6d18caf5"
 
 [[files]]
 file = "kubejs/client_scripts/src/tooltip.js"
-hash = "760a12eb69234d4a9953bd04ae978ba5f1c32ece151e782df90d55556bf48d1f"
+hash = "ba0fe06b32f8fe4a6129f5411f48a472716aa90875e88a5d12907527036f21fb"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -9634,7 +9638,7 @@ hash = "bbcddd8bb43340fb482c62f6242e9b890d73a3f2cf52e92b6789ca3f42e3c6ab"
 
 [[files]]
 file = "kubejs/server_scripts/src/enderio/enderio.js"
-hash = "9adc23667b8ad14cdddbbbe4a08c332c451a9146afae43d5e40d0dd71ab4318c"
+hash = "5fda413ce3d11cd26d6355ae6e013fca2a0746e1df96953b0946bbe9c8f03cd2"
 
 [[files]]
 file = "kubejs/server_scripts/src/entityEvent.js"
@@ -10254,7 +10258,7 @@ metafile = true
 
 [[files]]
 file = "mods/ender-io.pw.toml"
-hash = "787ad83d06987186c75cc00e714f719c28aac3c75e71c6ccf2138135c241196f"
+hash = "15802a30f25d18ed9282941ad717a1e231bf72d7f05662dec60a4bd7ac66a905"
 metafile = true
 
 [[files]]
@@ -11028,6 +11032,10 @@ hash = "1b0e56cbb6c6c613060aaf6c086e0bfac5b868a6a0f549179cab6aa968b9064b"
 [[files]]
 file = "resourcepacks/AE2LightMode-1.20.1-ctnh.zip"
 hash = "f2e349b91f4d4196a0ad2d678ae173f0bb8a1a761daf71633216c08c0d07e58b"
+
+[[files]]
+file = "resourcepacks/CTNH-FTBquesting-1.20.1-1.0.0.zip"
+hash = "3b96905274bd89cb0867ccdf857dafd8b2652ec55e15b73b9e69586321e2a47f"
 
 [[files]]
 file = "resourcepacks/CTNH-Retextured.zip"

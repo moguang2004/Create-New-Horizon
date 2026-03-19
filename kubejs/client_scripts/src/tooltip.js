@@ -68,4 +68,6 @@ ItemEvents.tooltip(event => {
         text.add(1, '§4在服务器内，请不要将工作站连接到任何带有堆叠升级的容器中.')
         text.add(2, '§4此举动不会吞物品，但会导致工作站无法识别到大多出堆叠大于64的物品.')
     })
+
+    event.add('enderio:conduit_probe', '§7下蹲滚轮或通过按键绑定切换模式，仅复制粘贴模式可用')
 })

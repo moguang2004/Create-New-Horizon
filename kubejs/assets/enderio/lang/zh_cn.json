@@ -1,0 +1,17 @@
+{
+  "block.enderio.aversion_obelisk": "排除方尖碑",
+  "gui.enderio.conduit.priority": "优先级",
+  "gui.enderio.conduit_probe.message.copied": "已复制的数据：%s",
+  "gui.enderio.conduit_probe.message.pasted": "已粘贴的数据：%s",
+  "gui.enderio.conduit_probe.mode.switched": "切换导管探测器模式到：%s",
+  "item.enderio.conduit_probe": "导管探测器",
+  "item.enderio.entity_filter": "灵魂实体过滤器",
+  "keybinding.enderio.category": "EnderIO",
+  "keybinding.enderio.probe_mode": "修改导管探测器模式",
+  "tooltip.enderio.conduit.fluid.multi": "允许在同一导管中传输多种流体",
+  "tooltip.enderio.conduit.fluid.rate": "传输速率 %s mB/t",
+  "tooltip.enderio.conduit_probe.mode": "模式：%s",
+  "tooltip.enderio.conduit_probe.mode.contains_copied": "已复制的导管数据：",
+  "tooltip.enderio.conduit_probe.mode.copy_paste": "复制粘贴",
+  "tooltip.enderio.conduit_probe.mode.probe": "探测（未实现）"
+}
