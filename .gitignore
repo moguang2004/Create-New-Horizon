@@ -141,6 +141,5 @@ config/*
 !config/ali/ali_common.json
 !config/entityculling.json
 !config/muhc-common.toml
-!config/createlazytick-common.toml
 !config/fml.toml
 !config/ae2cs-common.toml

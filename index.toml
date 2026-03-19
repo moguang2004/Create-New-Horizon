@@ -529,10 +529,6 @@ file = "config/create_new_age-common.toml"
 hash = "8e0a0ffeaba90be5fe16c6a3d406a9a000275258f1011cca7c8efdbe95d1a077"
 
 [[files]]
-file = "config/createlazytick-common.toml"
-hash = "34d62f34bbb1e969fc5f6eae98e59e5e0ab293a0093a89d2926851ac76510cb4"
-
-[[files]]
 file = "config/ctnhchangelog-client.toml"
 hash = "e32b6b20ed3e3374e524b0c657553de2b9aefff4071a00ad7f9b65ceadfaea02"
 
@@ -661,16 +657,12 @@ file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
 hash = "b6a0d7a1fdc88b6049955658848c384ee5b4d63363df24031b42f9f74d7172d1"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/09F33579334F2607.snbt"
-hash = "8a81a22fe83071531c8e0aa440a1f3901ca0b0976e5ff214fa5e37d4286dcb76"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/0AD950C34ED565A4.snbt"
 hash = "e0f24ce4b2780ecdba525dbd7c7db92f8d7fa5fb3cd2734b39930f7451f1a6fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/142AC829C9062F15.snbt"
-hash = "7ecd50623551ab086839400e527369b1df2a536cf2dd6665d2e8b366edff9def"
+hash = "4f365471d2a167058be6cd2b68c521b1c47d4d345415f76d8003edcb3d61e9ca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15B8D9F4A2A19BFA.snbt"
@@ -754,7 +746,7 @@ hash = "64ccc6de6cd5e783b6914e811898acf10f6c4186262b2825ccde300d2c598d4b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "e7bf6cc2b6d18276fa78b473fc7702b858c5348b78185a84a9c02282701cd56f"
+hash = "cfa897d126615d645251ec88440fac6197bad0921c644baa0ec51af2f9332566"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
@@ -805,6 +797,14 @@ file = "config/ftbquests/quests/reward_tables/ae.snbt"
 hash = "c20589820f483f8d0fe3ca56b89db2ebc804de80acefd68f8550682a003c9433"
 
 [[files]]
+file = "config/ftbquests/quests/reward_tables/big_rune.snbt"
+hash = "3aa41f236a0f2e0a375d5178b45debb1d047bbad2a2f67190e5af17ec9fc040a"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/botania.snbt"
+hash = "75f1792ce7055c3b0aefbe1cf805d12393c014cfff327a9ac52c2fb1e8bb7227"
+
+[[files]]
 file = "config/ftbquests/quests/reward_tables/ct.snbt"
 hash = "291bfd6413f03dc7aefa291969dd19ca9476d4957a0ed6284e68ad8f96ce2ba4"
 
@@ -833,12 +833,28 @@ file = "config/ftbquests/quests/reward_tables/lv.snbt"
 hash = "48e901faeaa0e59684e72495a6cabfa3ceef93eb7b6430f9988fe77827e6d7f5"
 
 [[files]]
+file = "config/ftbquests/quests/reward_tables/mana_circuit_1.snbt"
+hash = "9ddec85af6f1cae5624c85a0d6f9e844e59c5490e59b4f8c912126b9e3f74246"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/mana_circuit_2.snbt"
+hash = "d295134bef1954a35b0a53c268641dd7eaeda798a4b7158917c0c5b4320ac9d0"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/mid_rune.snbt"
+hash = "8b44afd2bf17861b15d37841b7a4b0193b516e002d3232b7ba99224fa5b46275"
+
+[[files]]
 file = "config/ftbquests/quests/reward_tables/mv.snbt"
 hash = "87b803aae7b550b02005d7c62eb07a62f793d7a7d41b5f6ada77561a548ab6a2"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/mv_3.snbt"
 hash = "78613a05c6e9501d5770732d4a7f92399a6c9e2ef995ff54b11277295b1d5bcd"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/nromal_rune.snbt"
+hash = "4f825893bd96f4b46ef08b607fe50c58667c289f05986c6f82dff10723bbc926"
 
 [[files]]
 file = "config/gtceu.yaml"
@@ -903,10 +919,6 @@ hash = "204e428a2e6980f0826671469d7749089d02c974ad0647bb68e6e7cc8f282834"
 [[files]]
 file = "defaultconfigs/createdieselgenerators-server.toml"
 hash = "349c49ed3ae6cb1cad4b4a08d163524e0f2579357beef4cd99267e4e1f4dadb4"
-
-[[files]]
-file = "defaultconfigs/createlazytick-server.toml"
-hash = "1b62bd9a0b266b7d78f08442a3818bc41cd9c1155ca163333c9b93265f6a0baf"
 
 [[files]]
 file = "defaultconfigs/forge-server.toml"
@@ -2346,7 +2358,7 @@ hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/1.json"
-hash = "1ba5656f446e928cf678ef8961f6cb2104f180e29310a074d747eb7e2d1764ff"
+hash = "bc847b82ff592f83145213c3fd715a7e8b0b1cf07cb49c1a678d815519d5f618"
 
 [[files]]
 file = "kubejs/assets/enderio/textures/block/conduit/basic_energy_conduit.png"
@@ -2437,10 +2449,6 @@ file = "kubejs/assets/ftbquestlocalizer/lang/zh_tw.json"
 hash = "b61b79d9bbc3a539142f6d7eb4df89c730d5977f2ce215260b60abd289eeb1fc"
 
 [[files]]
-file = "kubejs/assets/ftbquests/ftb_quests_theme.txt"
-hash = "049b15afefaa2fa4c531c6cf2f6c6b87ab4b787a7faa1f385d3b44429445c111"
-
-[[files]]
 file = "kubejs/assets/ftbquests/textures/ars/ars.png"
 hash = "ab86cd5f60ce03ab493b850a4d21da9b92b0c92def353c73ca04c271c4c7018e"
 
@@ -2483,18 +2491,6 @@ hash = "241cdb38e99331b780572d53405e4714dcee5449b0d4a8ade0dd18af2b7677cb"
 [[files]]
 file = "kubejs/assets/ftbquests/textures/ars/xsmy.png"
 hash = "f94fd28d83aeab8298388880fac4291f78216d664bfdc88fe2ee92acb80f63ad"
-
-[[files]]
-file = "kubejs/assets/ftbquests/textures/b1.png"
-hash = "4bc4439c4343649a7b1b5b6786a6978dcfa77f8004b2f05d462be971584428d4"
-
-[[files]]
-file = "kubejs/assets/ftbquests/textures/b2.png"
-hash = "8e2273e511e57cb7cad2d527ea6dc9190a14906603cf13a7a81c55e22c880e6d"
-
-[[files]]
-file = "kubejs/assets/ftbquests/textures/b3.png"
-hash = "bd89744a136c6b48719fb5e7bab0c2b3c27331dddf57eb5809391600182dc8a5"
 
 [[files]]
 file = "kubejs/assets/ftbquests/textures/basic/config.png"
@@ -3106,7 +3102,7 @@ hash = "f70b48cd96b9bc37e6b0993625482ccf284d01af930577816099dc4911ee77f1"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/ender_light.png"
-hash = "b5e17c42ba8d0bc76a8c558011f44fa7f99584390802574bf11b60ba298ba394"
+hash = "191e40e2dff0fcbdeed166498cd9525329f28df9d1ab1cd70122896273278e85"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/endslate.png"
@@ -5270,7 +5266,7 @@ hash = "07568bfb3abc932b3f40a26fc05932f288a04568aab4e04ca36dbc1b6d18caf5"
 
 [[files]]
 file = "kubejs/client_scripts/src/tooltip.js"
-hash = "18cf6bf9f08a652c8d702c602fcd2f596ef78ab51177025e5333d7b9f354c4ed"
+hash = "760a12eb69234d4a9953bd04ae978ba5f1c32ece151e782df90d55556bf48d1f"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -10154,11 +10150,6 @@ metafile = true
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
 hash = "c5f30d9ab224c5df151659e50f45e02fad4c59ff4262d75247373dd667b6e704"
-metafile = true
-
-[[files]]
-file = "mods/create-lazytick.pw.toml"
-hash = "798f05a4fa6ca4d0a2abe3b540b4a02a96ff8db896c0d99363f4816abd36ac7e"
 metafile = true
 
 [[files]]
