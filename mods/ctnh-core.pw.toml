@@ -1,13 +1,13 @@
 name = "CTNH Core"
-filename = "CTNH-Core-1.4.1b.jar"
+filename = "CTNH-Core-1.4.1c.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f368d420bdc73589285ea3218fc590c1d50a4bca"
+hash = "c5fd4d22940785d3024edf4fd895280ddeafd08c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7746042
+file-id = 7780419
 project-id = 1095612
