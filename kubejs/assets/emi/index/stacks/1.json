@@ -7,7 +7,8 @@
     "item:ae2:facade",
     "item:createmetallurgy:wolframite_dust",
     "item:gtceu:me_pattern_buffer",
-    "item:gtceu:me_pattern_buffer_proxy"
+    "item:gtceu:me_pattern_buffer_proxy",
+    "item:create_new_age:carbon_brushes"
   ],
   "filters": [
     "/gtceu:(.*)_steam_turbine/",
