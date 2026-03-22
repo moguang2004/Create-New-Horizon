@@ -2358,7 +2358,7 @@ hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/1.json"
-hash = "bc847b82ff592f83145213c3fd715a7e8b0b1cf07cb49c1a678d815519d5f618"
+hash = "44284b62794ecdc9afdb925d86814e2f6a8dc4fcdfc654f57d29825640bee4b4"
 
 [[files]]
 file = "kubejs/assets/enderio/lang/zh_cn.json"
@@ -11034,8 +11034,8 @@ file = "resourcepacks/AE2LightMode-1.20.1-ctnh.zip"
 hash = "f2e349b91f4d4196a0ad2d678ae173f0bb8a1a761daf71633216c08c0d07e58b"
 
 [[files]]
-file = "resourcepacks/CTNH-FTBquesting-1.20.1-1.0.0.zip"
-hash = "3b96905274bd89cb0867ccdf857dafd8b2652ec55e15b73b9e69586321e2a47f"
+file = "resourcepacks/CTNH-FTBquesting-1.20.1-1.0.1.zip"
+hash = "f05b71bf98ec3b97010b1665eb76f1aa907b5d6ae753d16733a29ef3116c779b"
 
 [[files]]
 file = "resourcepacks/CTNH-Retextured.zip"
