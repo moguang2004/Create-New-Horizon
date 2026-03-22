@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip","file/CTNH-Retextured.zip"]
+resourcePacks:["vanilla","mod_resources","Moonlight Mods Dynamic Assets","file/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip","file/CTNH-Retextured.zip","file/CTNH-FTBquesting-1.20.1-1.0.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
