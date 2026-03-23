@@ -9674,7 +9674,7 @@ hash = "55465032ab43f986353e5ebfc96a77540955d5768b946260a89aa9d4b28f9ca0"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/GeyanChain.js"
-hash = "785dfcef22f8a92b1731f22ae35d84e4ef21d3631de29bc04e756711a5d6075f"
+hash = "cbd93c2ea6103de9046914015603acec465afe2b50e825374b629f1b55244a63"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/GoldChain.js"

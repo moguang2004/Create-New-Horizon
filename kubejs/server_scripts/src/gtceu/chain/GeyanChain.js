@@ -333,6 +333,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('16x gtceu:chalcogen_anode_mud_dust')
         .outputFluids('gtceu:p507_extractant 1000')
         .outputFluids("gtceu:refined_gold_aq 1000")
+        .outputFluids('gtceu:refined_gold_aq_low 10')
         .EUt(114514)
         .duration(320)
     ctnh.differential_centrifuge("refined_gold_separation_and_purification")
