@@ -2358,7 +2358,7 @@ hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/1.json"
-hash = "44284b62794ecdc9afdb925d86814e2f6a8dc4fcdfc654f57d29825640bee4b4"
+hash = "0cc19eb8f94623364222e2dda687933f365e3fafb7dcf6a77cb775410b34bfac"
 
 [[files]]
 file = "kubejs/assets/enderio/lang/zh_cn.json"
@@ -10438,7 +10438,7 @@ metafile = true
 
 [[files]]
 file = "mods/gt-portal.pw.toml"
-hash = "835480c5614bd87fe49bddd02d49843dbc752929267e9f3f5310a1425a0aca14"
+hash = "83db50086103157d05e86310cda16227423b3b2448314ae91dbcf6da689bcc2e"
 metafile = true
 
 [[files]]
