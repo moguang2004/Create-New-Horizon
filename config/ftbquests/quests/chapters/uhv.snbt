@@ -224,7 +224,7 @@
 			description: [
 				"{ftbquests.chapter.uhv.quest517314525678157241.description1}"
 				""
-				"{ftbquests.chapter.uhv.quest517314525678157241.description2}"
+				"&4PS: 这个机器目前问题很大，运行逻辑和tooltip显示的有很大出入，不过经过一些随机尝试你也可以把它做出来。如果你实在尝试不出来，建议直接掏一个研究数据集。"
 			]
 			id: "072DDED1FC323DB9"
 			rewards: [{
