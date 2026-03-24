@@ -15,4 +15,7 @@ ServerEvents.recipes(event => {
     ], {
         A: "gtceu:steel_ingot"
     })
+
+    // 精妙存储需要拉杆，拉杆要的按钮配方复杂，1.4.2 版本关掉 GT 修改原版红石配方后需删除
+    event.shapeless('minecraft:stone_button', 'minecraft:stone')
 })
