@@ -9738,7 +9738,7 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "2618757ee585ddaf5448680d8a4f04e243081f1cbaa1704c0a28269c16bd4cbc"
+hash = "75371b4f0345b7551d2be80faf38e8ab36c08227f7d62ed54da7ff0ca69a27bb"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/wood.js"
@@ -9746,7 +9746,7 @@ hash = "8fb12367dccf421e66c69062587c404fcbc1db7bf1916462812adc054ab75bf2"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu_remove.js"
-hash = "fc684e33961c779a98a95a2a5f682dec814c3070836a66c529830326cbb66c99"
+hash = "dfba7784e60573f93aa7835a0a6d00ebc1fba8d6a8130938aa0d1f0ab77a8a67"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtportal.js"

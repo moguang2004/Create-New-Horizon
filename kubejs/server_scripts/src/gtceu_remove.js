@@ -95,7 +95,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gtceu:chemical_reactor/iodine_solution" })
     event.remove({ id: "gtceu:large_chemical_reactor/iodine_solution" })
     event.remove({ id: "gtceu:assembler/cover_ender_fluid_link" })
-    event.remove({ id: "gtceu:assembler/barrel" })
     event.remove({ id: 'gtceu:assembler/space_helmet' })
     event.remove({ id: 'gtceu:shaped/space_suit' })
     event.remove({ id: 'gtceu:shaped/space_pants' })

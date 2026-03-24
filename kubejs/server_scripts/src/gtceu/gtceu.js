@@ -410,14 +410,6 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LuV])
         .duration(2000)
 
-    event.recipes.gtceu.assembler("barrel")
-        .itemInputs("7x #minecraft:planks")
-        .itemOutputs("minecraft:barrel")
-        .circuit(7)
-        .EUt(4)
-        .duration(100)
-
-
     event.recipes.gtceu.naq_mk1("generator1")
         .inputFluids(Fluid.of("gtceu:superfuelmk1", 1))
         .duration(300)
