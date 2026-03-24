@@ -72,14 +72,6 @@ addTurningRecipes("potin", "gtceu:potin_ingot", 60, 40, 40)
             vintageimprovements.curving(`gtceu:potin_plate`, `gtceu:potin_plate`).head('gtceu:gear_extruder_mold'),])
             .transitionalItem(`gtceu:potin_plate`)
             .loops(1)
-
-    event.recipes.create.sequenced_assembly([//铜小齿轮
-        'gtceu:small_copper_gear'], 
-        'gtceu:copper_plate', [
-        event.recipes.createDeploying('gtceu:copper_plate', ['gtceu:copper_plate', 'gtceu:copper_rod']),
-        vintageimprovements.curving('gtceu:copper_plate', 'gtceu:copper_plate').head('gtceu:small_gear_extruder_mold'),])
-        .transitionalItem('gtceu:copper_plate')
-        .loops(1)
     
     vintageimprovements.vibrating('9x gtceu:steel_ingot', 'gtceu:steel_block')
     })

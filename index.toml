@@ -766,7 +766,7 @@ hash = "c6dfebf38d26190dc544a99856a771e730bd5b89950e6b1143ae45a0fcb26d10"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "1157bc2eab9805ebf64282c42f7bfff015d4ba5ac16c2c713e22b889c5c053dd"
+hash = "b2002b4c19d7c587442e611d33a67360db175d4fea349feb7926ab6ebd972a39"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/too_many_items.snbt"
@@ -9602,7 +9602,7 @@ hash = "057e261de8340d3392c5df291062ff9432d20dc9894e376f32bb2679a8e786fc"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
-hash = "0efe9690de70618864889e8c679eedefa99344bc6cc1a19e79e202aaccd79698"
+hash = "d66f4195a0f2369ce02172332bd50c7cdcc0837dce5238fc963f45a07450391f"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/cafe.js"

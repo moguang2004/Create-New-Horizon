@@ -1280,6 +1280,7 @@
 				"24CB9175692BADFD"
 				"2E117BBA1E035855"
 			]
+			dependency_requirement: "one_completed"
 			id: "1DA7DEEECA317293"
 			rewards: [{
 				exclude_from_claim_all: true
