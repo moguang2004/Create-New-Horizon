@@ -2981,10 +2981,6 @@ file = "kubejs/assets/kubejs/textures/item/ark_of_homo.png"
 hash = "d7c64c97e85be77502fa223a09c9a6004de25c464e4659edc26c3989577a934f"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/bauxite_process_catalyst.png"
-hash = "0384d336254c0d0285c6794d45ae022a75c4afc7d9724dd096bfe4f2020a8a7e"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/biological_patch_capacitor.png"
 hash = "320779e475146d1321dbdcf6321b7f9abad811ddd792550f027fb9a05b189978"
 
@@ -5178,7 +5174,7 @@ hash = "df05f0685013019db9854f8a486a8c3e3a96780fc9f025fd3a800b91fea50ba5"
 
 [[files]]
 file = "kubejs/client_scripts/src/info.js"
-hash = "e566ba70f6b7ca28327e79c22786036963a75e4410b0d1d5a2a6f609e235f94b"
+hash = "c4440965acc18e815692f7989878046a873e668c6dc32005a72825ef7ba356ce"
 
 [[files]]
 file = "kubejs/client_scripts/src/jeiaddition.js"
@@ -9742,7 +9738,7 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "ba319211a37d9a74140443308422e51ac04dbc2c79cb10ed30b56e5fa2e45c1d"
+hash = "2618757ee585ddaf5448680d8a4f04e243081f1cbaa1704c0a28269c16bd4cbc"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/wood.js"
@@ -9850,7 +9846,7 @@ hash = "df6b5794f21fa9fdbc47283039eeaca21d689fab42c049c5a89bd43bb2583122"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
-hash = "43aeb8b538df26fdf8dda16b8d8bfc4bd2953083b117aea6e6f950dec138e4a1"
+hash = "df64a48a3c673f001821d5ebce8e70fc7b42eb58bd3601356a4937852f061a2a"
 
 [[files]]
 file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"

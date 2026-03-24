@@ -15,7 +15,6 @@ StartupEvents.registry("item", event => {
     event.create('platinum_metal_catalyst_shard1')
     event.create('platinum_metal_catalyst_shard2')
     event.create('stone_process_catalyst')
-    event.create('bauxite_process_catalyst')
     event.create('tallow').burnTime('1600')
     let moreTiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
     for (let i = 0; i < 15; i++) {
