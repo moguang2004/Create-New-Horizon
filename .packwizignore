@@ -17,7 +17,6 @@
 /patchouli_books/
 /replay_recordings/
 /saves/
-/schematics/
 /screenshots/
 /shaderpacks/
 /texturepacks/
@@ -61,6 +60,9 @@ resourcepacks/*
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
 !resourcepacks/CTNH-Retextured.zip
 !resourcepacks/CTNH-FTBquesting-1.20.1-*.zip
+
+schematics/*
+!schematics/*工业血之祭坛.nbt
 
 /variables*
 /patchouli_data.json

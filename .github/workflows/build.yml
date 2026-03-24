@@ -156,7 +156,7 @@ jobs:
       - name: Prepare server root
         run: |
           cp -a scripts/server/. ./
-          rm -rf resourcepacks shaderpacks scripts
+          rm -rf resourcepacks shaderpacks scripts schematics
           rm -f packwiz_tutorial.md packwiz-installer.jar pack.toml index.toml packwiz.json packwiz
 
       - name: Download Forge installer

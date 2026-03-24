@@ -173,16 +173,17 @@
 			y: -11.0d
 		}
 		{
-			description: ["{ftbquests.chapter.449FB885B9E16D50.quest5335298540625157885.description1}"]
+			dependencies: ["0609BF460D2F4A65"]
+			description: ["可以使用GT-MBST-A终端选择工业血之祭坛等级进行自动构建，不过检测终端无法检测高等级工业血之祭坛结构，你需要自行比对EMI。如果你实在无法解决，可以使用本包自带的蓝图进行打印。"]
 			id: "4A0AC9C14C9F5EFD"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest5335298540625157885.subtitle}"
+			subtitle: "原版血祭坛的扩展"
 			tasks: [{
 				id: "739D51C5E20C9465"
 				item: "ctnhmana:industrial_altar"
 				type: "item"
 			}]
 			x: -13.0d
-			y: -9.0d
+			y: -11.0d
 		}
 		{
 			id: "0684030D5FD75087"
@@ -368,6 +369,7 @@
 				"09EE4358E8541CE0"
 				"7E3238CC6B23CA4E"
 				"31BC682B42A6B651"
+				"739D51C5E20C9465"
 			]
 			id: "74CB2CCC5BB25F0E"
 			rewards: [
@@ -597,7 +599,6 @@
 		{
 			dependencies: [
 				"1552FB2BB783C291"
-				"739D51C5E20C9465"
 				"74CB2CCC5BB25F0E"
 			]
 			id: "54F178E1BE071331"

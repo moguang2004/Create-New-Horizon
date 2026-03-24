@@ -698,7 +698,7 @@ hash = "026a4c3c25daf7885923d01e7c1537b7e0cd748411a4031f4889b63e7525d59a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
-hash = "56f961467cd7c8a38ee34e9c8284d54b922dc5cac1e22e686db326cc511e7f2c"
+hash = "26b1f1e83ed0c0d1c198a10ef0ba6377c7a07d5f7decd1cd8528de8208d96029"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4A4420704BDBEA5D.snbt"
@@ -730,7 +730,7 @@ hash = "87570df093c1b47f559a658ce8183ef1af32389bc6a4cf47fbc40fd806cae6eb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
-hash = "9571e3e8a7384ed101a714239c0e5029208242ee28c2be329090dbe7df8baf79"
+hash = "ad9bf9981e743174249dd45db37e82fca1bfe5690495b2e0a7ad5d82e6e415ea"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/74D640CFCA75E891.snbt"
@@ -11044,3 +11044,19 @@ hash = "6deaab32f77cfcd21af5669e765010c4557f96b840b5e91c26cd041628c47243"
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip"
 hash = "34890722d3bd5a9f23277a77b5c7b9dfa5f025b4884b9ec376a663fc6ec5eba8"
+
+[[files]]
+file = "schematics/三阶工业血之祭坛.nbt"
+hash = "e724d3eeb8e491fecbe4e3d83584366e7ad77a45999b550d7f50790636d907ff"
+
+[[files]]
+file = "schematics/五阶工业血之祭坛.nbt"
+hash = "29a55e5840a1a60322417a20c48e16eaacb979089afbd6aedfb2b658f5f6a72f"
+
+[[files]]
+file = "schematics/六阶工业血之祭坛.nbt"
+hash = "b7fe04943cbb770e508e74710a0d78ed0031db43d5ec31b4a79db7f1768a7cd6"
+
+[[files]]
+file = "schematics/四阶工业血之祭坛.nbt"
+hash = "694cac7e9ff82fe6be89c90c029fc07a2e5b45445d78492067bfca52ed1e5a55"

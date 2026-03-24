@@ -22,7 +22,6 @@ __pycache__/
 /local/
 /modernfix/
 /saves/
-/schematics/
 /screenshots/
 /shaderpacks/
 /PCL/
@@ -97,6 +96,9 @@ resourcepacks/*
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
 !resourcepacks/CTNH-Retextured.zip
 !resourcepacks/CTNH-FTBquesting-1.20.1-*.zip
+
+schematics/*
+!schematics/*工业血之祭坛.nbt
 
 ldlib/
 /patchouli_data.json
