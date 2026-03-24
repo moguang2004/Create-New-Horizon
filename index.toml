@@ -9606,7 +9606,7 @@ hash = "0efe9690de70618864889e8c679eedefa99344bc6cc1a19e79e202aaccd79698"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/cafe.js"
-hash = "f34c039e8a5e270e3bb11cc6c152a663669ba61b1b7108783c08f35684a0c2d5"
+hash = "f6cf49a247c05a3bfb327c33adf47e210629ef0f633e685796e08ef0d026235e"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/create.js"
