@@ -2083,7 +2083,11 @@
 		}
 		{
 			dependencies: ["649A69B8F47729B6"]
-			description: ["{ftbquests.chapter.hv.quest6023804932715830528.description1}"]
+			description: [
+				"{ftbquests.chapter.hv.quest6023804932715830528.description1}"
+				""
+				"当然，你也可以通过水晶催化剂来跳过整条铂线"
+			]
 			id: "5398DAABBAC5DD00"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.hv.quest6023804932715830528.subtitle}"

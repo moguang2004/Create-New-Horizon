@@ -430,8 +430,8 @@
 		{
 			dependencies: [
 				"291D02E808F55209"
-				"78C09E2B5542CD21"
 				"1DA7DEEECA317293"
+				"0A545EF871CBD07A"
 			]
 			dependency_requirement: "one_completed"
 			id: "0B95FAC22EC46105"
@@ -964,14 +964,14 @@
 			y: 11.0d
 		}
 		{
-			hide_dependent_lines: true
 			id: "1C203FA12C28D5D2"
 			tasks: [{
 				id: "1C1BFFEBB2C0FC24"
-				title: "{ftbquests.chapter.mv.quest2026689793779881426.task.2025493845214559268.title}"
+				title: "水洗深板岩粉也有概率出铬"
 				type: "checkmark"
 			}]
-			x: 18.5d
+			title: "水洗深板岩粉也有概率出铬"
+			x: 20.0d
 			y: 10.0d
 		}
 		{
@@ -1331,6 +1331,17 @@
 			}]
 			x: 19.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["78C09E2B5542CD21"]
+			id: "0A545EF871CBD07A"
+			tasks: [{
+				id: "25E0F39D874C2589"
+				item: "gtceu:manganese_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 14.0d
 		}
 	]
 	title: "&bMV时期"

@@ -12,7 +12,7 @@
 			linked_quest: "27EF0EE87260585F"
 			shape: "rsquare"
 			size: 2.0d
-			x: -16.0d
+			x: -15.0d
 			y: -1.0d
 		}
 		{
@@ -24,7 +24,10 @@
 	]
 	quests: [
 		{
-			dependencies: ["59673BBF643D0E29"]
+			dependencies: [
+				"59673BBF643D0E29"
+				"27EF0EE87260585F"
+			]
 			id: "799C99EA04D07344"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -551,8 +554,8 @@
 				}
 			]
 			title: "{ftbquests.chapter.ev.quest6524280692107135422.title}"
-			x: -9.5d
-			y: 0.5d
+			x: -10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["734982C31DFC1821"]
@@ -577,7 +580,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.ev.quest1629327718983370811.title}"
-			x: -10.5d
+			x: -11.0d
 			y: 1.5d
 		}
 		{
@@ -860,7 +863,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["27EF0EE87260585F"]
 			id: "59673BBF643D0E29"
 			subtitle: "{ftbquests.chapter.ev.quest6442183485183299113.subtitle}"
 			tasks: [{
@@ -868,8 +870,8 @@
 				item: "gtceu:end_steel_ingot"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -1.0d
+			x: -9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["799C99EA04D07344"]

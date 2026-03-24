@@ -108,13 +108,14 @@
 				Count: 1
 				ForgeCaps: {
 					Parent: {
-						temperature: 0.0f
+						temperature: 25.5f
 					}
 				}
 				id: "legendarysurvivaloverhaul:thermometer"
 			}
 			id: "5C2320A3B3E10E11"
 			invisible: true
+			optional: true
 			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.subtitle}"
 			tasks: [{
 				id: "1769E6600040B278"
@@ -598,8 +599,9 @@
 				"开发组目前是一个氛围友好、共同成长的团队，大部分成员也都是从零开始边学边做。只要你愿意投入，我们都乐意提供学习与实战的机会。"
 				"如果你对参与制作感兴趣，可以加入整合包交流群（QQ群号915521426）后@管理员了解更多。"
 			]
+			icon: "kubejs:ender_light"
 			id: "5F126DE1A7F425DA"
-			shape: "gear"
+			shape: "rsquare"
 			size: 2.0d
 			subtitle: "QQ群号： 915521426"
 			tasks: [{
@@ -1033,11 +1035,13 @@
 			description: [
 				"按住CTRL+K可以打开MUI界面，选择偏好设置，向左拖动鼠标滑到右边的界面内，找到首选字体家族，点击当前字体可以更换其他字体"
 				"如果要字体添加字体也可以将需要添加的字体以ttf的格式放入：版本文件夹→config→ModernUI根目录下"
-				"最后，你只需要点开游戏设置→语言,随后将强制使用Unicode字体设置为开即可完美享用字体辣"
+				"最后，你只需要点开游戏设置→语言，随后将强制使用Unicode字体设置为开即可完美享用字体辣"
+				""
+				"另外，本包提供了专属界面材质和命令背景，如果看不习惯均可以在资源包中禁用"
 			]
 			icon: "ctnhmana:yuriko_ring"
 			id: "589CE9C2FC6ECFA7"
-			shape: "heart"
+			shape: "gear"
 			size: 2.0d
 			subtitle: "我的天哪MUI大人"
 			tasks: [{

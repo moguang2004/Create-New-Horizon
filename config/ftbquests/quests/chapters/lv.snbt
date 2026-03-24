@@ -58,7 +58,6 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			shape: "diamond"
 			size: 1.0d
 			subtitle: "{ftbquests.chapter.lv.quest9004428507979495633.subtitle}"
 			tasks: [{

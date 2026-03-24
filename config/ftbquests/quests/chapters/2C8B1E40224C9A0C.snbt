@@ -32,6 +32,12 @@
 			x: 0.5d
 			y: 14.5d
 		}
+		{
+			id: "3451E7D252EB376D"
+			linked_quest: "1E11A492F4576DBA"
+			x: 0.5d
+			y: 5.0d
+		}
 	]
 	quests: [
 		{
@@ -568,7 +574,7 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["12316D2A6DC56654"]
+			dependencies: ["1E11A492F4576DBA"]
 			hide_dependency_lines: false
 			id: "470B9D39E23E01F2"
 			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest5119358273371111922.subtitle}"

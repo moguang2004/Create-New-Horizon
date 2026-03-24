@@ -1799,7 +1799,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["37022075645D1CF7"]
+			dependencies: ["6D8EAA1C3A2C6968"]
 			id: "1A12EEA9DF9A612D"
 			tasks: [{
 				id: "098033992B928977"
@@ -1913,12 +1913,11 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["57D1710E05DBF5D4"]
+			dependencies: ["0561A9088D0064BD"]
 			description: [
 				"    样板总成的每个样板槽位有单独且&e互相隔离&r的原料缓存，从根本上杜绝串配方。"
 				"    样板总成镜像只需通过闪存与样板总成绑定，自身无需接入ME网络。"
 			]
-			hide_dependency_lines: true
 			id: "72F4ADF5432A6F35"
 			subtitle: "不只是样板供应器贴输入总成"
 			tasks: [
@@ -2169,6 +2168,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["1A9A16DA336E99AC"]
 			id: "59CD4899F9B67DD0"
 			tasks: [{
 				id: "1C9E4157283373D3"
@@ -2184,6 +2184,7 @@
 				"58DEFF4106911887"
 			]
 			id: "32FCEC9F52EEA348"
+			subtitle: "另一种获取福鲁伊克斯的方法"
 			tasks: [{
 				id: "0C1DE271FA6C82D5"
 				item: "ae2cs:fluix_crystal_seed"
@@ -2214,7 +2215,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["58DEFF4106911887"]
+			dependencies: [
+				"098033992B928977"
+				"612A3FCED08C1E67"
+			]
 			id: "0A5F5CB8ACCB8939"
 			tasks: [{
 				id: "277AD2BA28C2C939"
@@ -2227,7 +2231,7 @@
 		{
 			dependencies: [
 				"59CD4899F9B67DD0"
-				"32FCEC9F52EEA348"
+				"0A5F5CB8ACCB8939"
 			]
 			id: "578B426CA3A4C0D1"
 			tasks: [{
