@@ -1375,7 +1375,6 @@
 		}
 		{
 			dependencies: ["3B966B84827FDF0C"]
-			description: ["什么？你需要硅岩线圈才能烧它，但硅岩又要有了算力做夸克核心才能搞到？"]
 			id: "209FAC261240DA4E"
 			rewards: [
 				{
