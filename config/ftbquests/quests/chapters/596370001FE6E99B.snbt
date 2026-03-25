@@ -33,7 +33,7 @@
 				"{ftbquests.chapter.596370001FE6E99B.quest2498357656835315084.description2}"
 			]
 			id: "22ABF30D518BD58C"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2498357656835315084.subtitle}"
+			subtitle: "你永远离不开它"
 			tasks: [{
 				id: "6A77E25CAB924BFF"
 				title: "什么是EMI"
@@ -296,10 +296,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.description4}"
+				"对控制器（主方块）按U即可查看多方块结构预览界面。左键拖动可旋转视角，右键拖动可平移视角，滚轮可进行缩放。"
+				""
+				"预览图下方会显示搭建所需的方块及数量（仅供参考，其中的仓室一般可替换）。点击对应的方块可在左侧查看这个位置的可替换方块列表。点击ALL按钮可按层逐一查看每层的样式。"
+				""
+				"点击结构中任意方块，界面左上角将会可显示该位置所有可用方块。"
+				""
+				"部分可拓展多方块（例如蒸馏塔）在点击[P:0]按钮时可查看不同的拓展样式，或者不同等级的结构。"
+				""
+				"GT多方块允许两个相邻的多方块共同享用一些方块，从而并联节省材料。具体的并联方案由你跟据样式展开想象。有些方块无法被共用，详细查看tooptips。"
 			]
 			id: "157616D257E25806"
 			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.subtitle}"

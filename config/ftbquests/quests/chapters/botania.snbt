@@ -1020,7 +1020,7 @@
 			id: "2F39BCEEF1030C95"
 			rewards: [{
 				id: "434420FDCFC54BBF"
-				item: "ctnhmana:mystic_sprie"
+				item: "ctnhmana:mystic_spire"
 				type: "item"
 			}]
 			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3402958727886867605.subtitle}"
@@ -1335,7 +1335,7 @@
 		{
 			dependencies: [
 				"002DD1BBAD2D049F"
-				"09F05497271564CC"
+				"157F50A2C3A0C713"
 			]
 			description: [
 				"如果你觉得火花传输速度慢，范围小，无法供给魔力凝聚仓和吸收产魔花的mana，那么试试这款奥法尖塔，他有着极高的魔力传输，支持自动传输和吸收产魔花mana"
@@ -1347,13 +1347,13 @@
 			id: "4E6FA7D29EBE9339"
 			rewards: [{
 				id: "484417099EC71529"
-				item: "ctnhmana:mystic_sprie"
+				item: "ctnhmana:mystic_spire"
 				type: "item"
 			}]
 			subtitle: "终极魔力传输手段"
 			tasks: [{
 				id: "7C9CDDD9479B99D7"
-				item: "ctnhmana:mystic_sprie"
+				item: "ctnhmana:mystic_spire"
 				type: "item"
 			}]
 			x: 5.0d
@@ -1580,7 +1580,7 @@
 		{
 			dependencies: [
 				"29A976DE3BC32AD2"
-				"1843D5BA2813F77D"
+				"67EB3173B5782C28"
 			]
 			id: "3F092E478E0AB262"
 			subtitle: "允许你的魔力反应器制造精灵门配方，并获得更优秀的精灵钢生产方式"

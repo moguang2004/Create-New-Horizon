@@ -144,6 +144,13 @@
 		}
 		{
 			dependencies: ["773CB6E376B56EA4"]
+			description: [
+				"速度靠武器dps决定，越强的武器运行一次的耗时越短"
+				""
+				"刷怪量会随能源等级决定（但无法超频），同种电动刷怪笼放入多个不会影响刷怪量哦"
+				""
+				"另外，别忘了输入润滑油"
+			]
 			id: "0FE31211C32BF813"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -151,6 +158,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
+			subtitle: "请输入文本"
 			tasks: [{
 				id: "4A05AB255004737D"
 				item: "ctnhcore:slaughter_house"
@@ -309,6 +317,7 @@
 			subtitle: "{ftbquests.chapter.hv.quest3540899397379659976.subtitle}"
 			tasks: [{
 				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
 				id: "74AC1AB43328B3C5"
 				title: "{ftbquests.chapter.hv.quest3540899397379659976.task.8407123965648614341.title}"
 				type: "dimension"
@@ -388,8 +397,10 @@
 				"082ABAF36B6EC7DC"
 				"446AA42EB8DCE6EB"
 			]
+			description: ["当然，你也可以用神化的真空密封附魔来跳过航天服"]
 			hide_details_until_startable: false
 			id: "16243C6CC9C1CD8A"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "481E663093C8AEBA"

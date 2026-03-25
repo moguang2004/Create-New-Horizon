@@ -472,52 +472,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"42BE3DD0D38E8F02"
-				"5A19FFA824CBEE20"
-			]
-			id: "114C52A3317D9D68"
-			rewards: [
-				{
-					id: "1BA66007DCD34639"
-					item: {
-						Count: 1
-						id: "kubejs:ark_of_homo"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6950CA9A8E32D12B"
-					item: {
-						Count: 1
-						id: "avaritia:infinity_umbrella"
-						tag: {
-							mode: { }
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest1246462057738247528.subtitle}"
-			tasks: [
-				{
-					id: "6EBAF6A09667A116"
-					title: "{ftbquests.chapter.449FB885B9E16D50.quest1246462057738247528.task.7978960859418829078.title}"
-					type: "checkmark"
-				}
-				{
-					id: "7D6E38952F3A56B6"
-					item: "kubejs:yharim"
-					type: "item"
-				}
-			]
-			x: -5.0d
-			y: 1.0d
-		}
-		{
 			id: "146C0A035CE91390"
 			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest1471562187803267984.subtitle}"
 			tasks: [{

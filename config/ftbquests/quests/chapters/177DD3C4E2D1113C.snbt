@@ -790,7 +790,7 @@
 			subtitle: "{ftbquests.chapter.177DD3C4E2D1113C.quest4056959491301739599.subtitle}"
 			tasks: [{
 				id: "26B53A05CB0F86A5"
-				item: "kubejs:bauxite_process_catalyst"
+				item: "ctnhcore:bauxite_process_catalyst"
 				type: "item"
 			}]
 			x: 13.5d

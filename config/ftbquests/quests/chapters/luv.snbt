@@ -47,6 +47,12 @@
 			x: -31.0d
 			y: -3.5d
 		}
+		{
+			id: "7DCECF3F2B3D602A"
+			linked_quest: "64822D37238618F3"
+			x: -19.5d
+			y: 1.5d
+		}
 	]
 	quests: [
 		{
@@ -289,7 +295,8 @@
 			dependencies: [
 				"0D1111FBACF1B0D4"
 				"14C08D2A44860C08"
-				"16A81169336BBB10"
+				"59D486695F2A9671"
+				"367D336517F7EFB2"
 			]
 			description: ["{ftbquests.chapter.luv.quest7168921571391158578.description1}"]
 			id: "637D202FC567B932"
@@ -397,7 +404,10 @@
 			dependencies: [
 				"637D202FC567B932"
 				"619D862A293BB315"
+				"64822D37238618F3"
 			]
+			dependency_requirement: "one_completed"
+			description: ["LuV缸中之脑也可以提供8算力哦，虽然它不是很稳定，但是至少也能让你做出来"]
 			id: "693BE7D773A7C37F"
 			rewards: [{
 				id: "1B9E3FB53BFAF390"
@@ -410,7 +420,7 @@
 				item: "ctnhcore:quark_core"
 				type: "item"
 			}]
-			x: -20.5d
+			x: -19.5d
 			y: 0.5d
 		}
 		{
@@ -427,7 +437,7 @@
 				item: "ctnhcore:neutron_activator"
 				type: "item"
 			}]
-			x: -19.5d
+			x: -18.5d
 			y: 0.5d
 		}
 		{
@@ -463,7 +473,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.luv.quest3479586209034076594.title}"
-			x: -19.5d
+			x: -18.5d
 			y: 1.5d
 		}
 		{
@@ -655,14 +665,14 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["4DE49DB87C6B5D1C"]
+			dependencies: ["419F454F08E12428"]
 			id: "58C3681A18E19C5F"
 			tasks: [{
 				id: "7185A692532FD01D"
 				item: "gtceu:exquisite_europium_fluorite_gem"
 				type: "item"
 			}]
-			x: -21.5d
+			x: -20.5d
 			y: -4.0d
 		}
 		{
@@ -716,7 +726,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["364B921AAE54EF9C"]
+			dependencies: [
+				"364B921AAE54EF9C"
+				"09D90156914665B3"
+			]
 			description: ["{ftbquests.chapter.luv.quest2876725163278227168.description1}"]
 			id: "27EC2E4B61A056E0"
 			rewards: [{
@@ -749,7 +762,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.luv.quest7033925708661109525.title}"
-			x: -20.5d
+			x: -19.5d
 			y: -0.5d
 		}
 		{
@@ -855,6 +868,19 @@
 			}]
 			x: -12.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["4DE49DB87C6B5D1C"]
+			id: "419F454F08E12428"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "77EB7E253643FBC1"
+				title: "霜原星！"
+				type: "dimension"
+			}]
+			x: -21.5d
+			y: -4.0d
 		}
 	]
 	title: "&dLuV时期"

@@ -439,6 +439,7 @@
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
 				id: "3F9C90357F1D5B06"
+				title: "飞往火星"
 				type: "dimension"
 			}]
 			title: "{ftbquests.chapter.ev.quest2846143193444523646.title}"
@@ -609,7 +610,7 @@
 			subtitle: "{ftbquests.chapter.ev.quest1752913491054041289.subtitle}"
 			tasks: [{
 				id: "7308BC4380FE1F12"
-				item: "gtceu:power_substation"
+				item: "ctnhenergy:power_substation"
 				type: "item"
 			}]
 			x: -7.5d
@@ -748,6 +749,7 @@
 		}
 		{
 			dependencies: ["001B1FD0183C089D"]
+			description: ["可以放置四个能源仓！虽然没办法升两次压，但你可以多超一次频！"]
 			id: "3B3194C22AA50A4B"
 			rewards: [{
 				exclude_from_claim_all: true

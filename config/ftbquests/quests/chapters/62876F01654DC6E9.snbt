@@ -794,7 +794,14 @@
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
+			description: [
+				"如果你实在想使用储罐功能/经验泵功能，你可以掏一个"
+				""
+				"开服慎用，它可能有潜在的刷物品bug"
+			]
 			id: "78DC63D0B0C48AF4"
+			optional: true
+			subtitle: "由于储罐升级被ban了，它已经没用了"
 			tasks: [{
 				id: "2B6A38DD26606B60"
 				item: "sophisticatedbackpacks:advanced_pump_upgrade"
@@ -888,7 +895,14 @@
 		}
 		{
 			dependencies: ["3735FCA33E41C02D"]
+			description: [
+				"如果你实在想使用储罐功能/经验泵功能，你可以掏一个"
+				""
+				"开服慎用，它可能有潜在的刷物品bug"
+			]
 			id: "496C5CB5174938A1"
+			optional: true
+			subtitle: "由于储罐升级被ban了，它已经没用了"
 			tasks: [{
 				id: "4B34FC93495A32FD"
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
@@ -1064,7 +1078,14 @@
 		}
 		{
 			dependencies: ["33C54DD646437EEE"]
+			description: [
+				"如果你实在想使用储罐功能/经验泵功能，你可以掏一个"
+				""
+				"开服慎用，它可能有潜在的刷物品bug"
+			]
 			id: "2A1F314C5BD05E53"
+			optional: true
+			subtitle: "由于储罐升级被ban了，它已经没用了"
 			tasks: [{
 				id: "2E81B781803A0616"
 				item: "sophisticatedbackpacks:pump_upgrade"

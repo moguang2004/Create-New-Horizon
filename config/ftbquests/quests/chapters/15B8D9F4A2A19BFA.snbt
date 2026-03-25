@@ -209,7 +209,7 @@
 				item: "ctnhcore:large_naquadah_reactor"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 8.5d
 		}
 		{
@@ -310,7 +310,7 @@
 				item: "ctnhcore:photovoltaic_power_station_energetic"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: -0.5d
 		}
 		{
@@ -320,7 +320,7 @@
 				item: "ctnhcore:photovoltaic_power_station_pulsating"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 1.0d
 		}
 		{
@@ -330,7 +330,7 @@
 				item: "ctnhcore:photovoltaic_power_station_vibrant"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 2.5d
 		}
 		{
@@ -382,7 +382,7 @@
 				item: "ctnhcore:naq_reactor_mk3"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 10.0d
 		}
 		{
@@ -473,7 +473,7 @@
 				item: "ctnhcore:nanogenetor"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: -0.5d
 		}
 		{
@@ -491,7 +491,7 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 16.0d
 			y: 5.5d
 		}
 		{
@@ -525,14 +525,19 @@
 			y: 8.5d
 		}
 		{
+			description: [
+				"UV前期就能做的强力发电机器，只要你提供足够的算力，它就能给你提供足够的电力。"
+				""
+				"它甚至能帮你冷却基岩线的以太"
+			]
 			id: "571E6FAB38D273F8"
 			tasks: [{
 				id: "45876FE25F0048E4"
 				item: "ctnhcore:hyper_plasma_turbine"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.5d
+			x: 10.0d
+			y: 10.0d
 		}
 		{
 			id: "4089D6C868A2D08A"

@@ -38,6 +38,34 @@
 			x: 0.5d
 			y: 5.0d
 		}
+		{
+			id: "216F2BD2DF704328"
+			linked_quest: "277F8827A9281E7E"
+			shape: "gear"
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			id: "5520D68F66A3AD4B"
+			linked_quest: "40AA9B96695831CF"
+			shape: "gear"
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			id: "6F19EDA960DE7041"
+			linked_quest: "687AF4CCD52B0FE6"
+			shape: "gear"
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			id: "135EDF7BFA590C99"
+			linked_quest: "419F454F08E12428"
+			shape: "gear"
+			x: 4.5d
+			y: 14.5d
+		}
 	]
 	quests: [
 		{
@@ -152,9 +180,9 @@
 		}
 		{
 			dependencies: ["60F22A89A32E0DD5"]
+			description: ["{ftbquests.chapter.2C8B1E40224C9A0C.quest352056675411412595.subtitle}"]
 			id: "04E2C1AE56B3C673"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.2C8B1E40224C9A0C.quest352056675411412595.subtitle}"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -359,9 +387,10 @@
 			dependencies: ["699743A94DF7E0B8"]
 			id: "6C03C11D175B2B3D"
 			tasks: [{
-				id: "1792125504A804F9"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest7783276911716412221.task.1698440165831738617.title}"
-				type: "checkmark"
+				entity: "aether:slider"
+				id: "785F59905C63FB08"
+				type: "kill"
+				value: 1L
 			}]
 			x: 3.5d
 			y: 12.5d
@@ -370,9 +399,10 @@
 			dependencies: ["699743A94DF7E0B8"]
 			id: "663D2E6A96084EEF"
 			tasks: [{
-				id: "146ECF44145C3AB2"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest7367095600766537455.task.1472342019503045298.title}"
-				type: "checkmark"
+				entity: "aether:valkyrie_queen"
+				id: "7EA2E04A8D38DDBB"
+				type: "kill"
+				value: 1L
 			}]
 			x: 3.5d
 			y: 11.5d
@@ -381,9 +411,10 @@
 			dependencies: ["699743A94DF7E0B8"]
 			id: "2E0A7083F7B737AF"
 			tasks: [{
-				id: "54AE1AC41C15F42E"
-				title: "{ftbquests.chapter.2C8B1E40224C9A0C.quest3317587787610797999.task.6101843974720713774.title}"
-				type: "checkmark"
+				entity: "aether:sun_spirit"
+				id: "2CBFA26E7CD3191F"
+				type: "kill"
+				value: 1L
 			}]
 			x: 3.5d
 			y: 13.5d

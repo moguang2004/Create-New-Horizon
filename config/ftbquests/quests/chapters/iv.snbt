@@ -268,7 +268,7 @@
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
 				id: "3068BBEAE1544360"
-				title: "{ftbquests.chapter.iv.quest7528598887690080230.task.3488244528875586400.title}"
+				title: "踏入水星"
 				type: "dimension"
 			}]
 			x: -2.0d
@@ -943,14 +943,19 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["12B29F2D149B5865"]
+			dependencies: [
+				"12B29F2D149B5865"
+				"0A6D5DF8602DAB82"
+			]
+			dependency_requirement: "one_completed"
 			id: "5ABDB2643F74087B"
+			subtitle: "你依旧有两种选择"
 			tasks: [{
 				id: "76FBA884D6A1155A"
 				item: "gtceu:rare_earth_chloride_solution_bucket"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: -5.5d
 		}
 		{
@@ -1370,7 +1375,7 @@
 		}
 		{
 			dependencies: ["3B966B84827FDF0C"]
-			description: ["{ftbquests.chapter.iv.quest2350786810025663054.description1}"]
+			description: ["什么？你需要硅岩线圈才能烧它，但硅岩又要有了算力做夸克核心才能搞到？"]
 			id: "209FAC261240DA4E"
 			rewards: [
 				{
@@ -1655,8 +1660,8 @@
 				item: "gtceu:raw_bastnasite"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -4.5d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			id: "5F7C1F7E4EA0A9A1"
@@ -1665,8 +1670,8 @@
 				item: "gtceu:raw_monazite"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.5d
+			x: -6.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3B966B84827FDF0C"]
@@ -1793,8 +1798,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: -7.5d
+			x: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1CECBF50A30F23B0"]
@@ -1815,6 +1820,28 @@
 			]
 			x: -8.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["109939F75357A5EE"]
+			id: "0A6D5DF8602DAB82"
+			tasks: [{
+				id: "1215B9877DA85164"
+				item: "gtceu:ancient_debris_leach_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "109939F75357A5EE"
+			subtitle: "它甚至有矿脉！虽然略难找"
+			tasks: [{
+				id: "524659F702B45550"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
 		}
 	]
 	title: "&9IV时期"

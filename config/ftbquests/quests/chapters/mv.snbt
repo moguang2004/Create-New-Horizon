@@ -430,8 +430,8 @@
 		{
 			dependencies: [
 				"291D02E808F55209"
-				"1DA7DEEECA317293"
 				"0A545EF871CBD07A"
+				"0B4C100552B5D9A8"
 			]
 			dependency_requirement: "one_completed"
 			id: "0B95FAC22EC46105"
@@ -588,8 +588,8 @@
 		}
 		{
 			dependencies: [
-				"2418F847F2BC0F05"
 				"45E72A768448ED19"
+				"766E11954A7C2E22"
 			]
 			id: "2FFC9C35347833E2"
 			tasks: [{
@@ -814,6 +814,7 @@
 				"19869FD9D4BCCB9F"
 				"4408E3466C5F2470"
 				"59B39491E1FAA6E0"
+				"5C56BEA120711D82"
 			]
 			id: "5FCD87E61592F357"
 			rewards: [{
@@ -828,7 +829,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3C1A31CEA3C10082"]
@@ -1093,8 +1094,8 @@
 				item: "gtceu:raw_vanadium_magnetite"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 10.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["23AD57EAE8D44BCB"]
@@ -1104,8 +1105,8 @@
 				item: "gtceu:vanadium_dust"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 8.0d
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			id: "4F752D5EC2FB511C"
@@ -1114,7 +1115,7 @@
 				item: "gtceu:raw_ruby"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 6.0d
 		}
 		{
@@ -1126,7 +1127,7 @@
 				item: "gtceu:chromium_dust"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 7.0d
 		}
 		{
@@ -1147,23 +1148,6 @@
 			}]
 			x: 6.5d
 			y: 13.0d
-		}
-		{
-			dependencies: ["24CB9175692BADFD"]
-			id: "2418F847F2BC0F05"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "02001B4B4BDD1558"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
-			tasks: [{
-				id: "67FA403BBBE0D61E"
-				item: "gtceu:mv_mixer"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 10.0d
 		}
 		{
 			dependencies: ["24CB9175692BADFD"]
@@ -1276,27 +1260,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"24CB9175692BADFD"
-				"2E117BBA1E035855"
-			]
-			dependency_requirement: "one_completed"
-			id: "1DA7DEEECA317293"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7A9E77294A8E0C45"
-				table_id: 5863108397808417557L
-				type: "random"
-			}]
-			tasks: [{
-				id: "681FCB9486BA2741"
-				item: "gtceu:mv_mixer"
-				type: "item"
-			}]
-			x: 18.5d
-			y: 12.0d
-		}
-		{
 			dependencies: ["1162E347E7C00175"]
 			description: ["{ftbquests.chapter.mv.quest5626465117208301009.description1}"]
 			id: "4E153836BC53CDD1"
@@ -1315,7 +1278,7 @@
 			id: "3231CBCCB4FFFA0B"
 			tasks: [{
 				id: "4B1EE75557AADC29"
-				item: "gtceu:silicon_ingot"
+				item: "ae2:silicon"
 				type: "item"
 			}]
 			x: 6.5d
@@ -1342,6 +1305,84 @@
 			}]
 			x: 21.5d
 			y: 14.0d
+		}
+		{
+			id: "5C56BEA120711D82"
+			tasks: [{
+				id: "2E16776ACC1E352B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_mixer"
+							}
+							{
+								Count: 1b
+								id: "ctnhcore:mechanical_mixer"
+							}
+						]
+					}
+				}
+				title: "MV搅拌"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			id: "0B4C100552B5D9A8"
+			tasks: [{
+				id: "08E0581E82293AFE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_mixer"
+							}
+							{
+								Count: 1b
+								id: "ctnhcore:mechanical_mixer"
+							}
+						]
+					}
+				}
+				title: "MV搅拌"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			id: "766E11954A7C2E22"
+			tasks: [{
+				id: "3E754F093059CBFB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_mixer"
+							}
+							{
+								Count: 1b
+								id: "ctnhcore:mechanical_mixer"
+							}
+						]
+					}
+				}
+				title: "MV搅拌"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.0d
 		}
 	]
 	title: "&bMV时期"

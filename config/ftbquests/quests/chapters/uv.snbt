@@ -28,12 +28,6 @@
 			y: -20.0d
 		}
 		{
-			id: "056A00C408ADC615"
-			linked_quest: "7D527B8CCB41E418"
-			x: 41.5d
-			y: -20.0d
-		}
-		{
 			id: "16E5A3A942479B8E"
 			linked_quest: "43F6AA3B97042202"
 			x: 43.5d
@@ -44,6 +38,14 @@
 			linked_quest: "12BAF2B7FB2E3643"
 			x: 38.0d
 			y: -16.0d
+		}
+		{
+			id: "26B8714D7C547DDE"
+			linked_quest: "571E6FAB38D273F8"
+			shape: "gear"
+			size: 2.0d
+			x: 33.0d
+			y: -13.0d
 		}
 	]
 	quests: [
@@ -86,7 +88,6 @@
 				"0C3AB83D2762EC3D"
 				"7F0C67AE534020B1"
 				"74E26D593C100718"
-				"7D527B8CCB41E418"
 			]
 			id: "633B6EC62B49755E"
 			size: 2.0d

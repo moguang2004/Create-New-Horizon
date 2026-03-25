@@ -40,6 +40,43 @@
 			x: 18.5d
 			y: 3.5d
 		}
+		{
+			id: "5E5842473CE20D84"
+			linked_quest: "6E2EB708243731BF"
+			size: 2.0d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "7467CCA599A1616B"
+			linked_quest: "15639356FE4C7A18"
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "00265C153C343343"
+			linked_quest: "650AB82076283E3F"
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			id: "1D60CB2547450A74"
+			linked_quest: "01BBD7ADB864D6E1"
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			id: "71C0BF9ADAB8DEA3"
+			linked_quest: "5D01EEBB71A88958"
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			id: "4CDE60E1CFFD3951"
+			linked_quest: "03F6BCDB99059FD4"
+			x: 18.5d
+			y: 5.5d
+		}
 	]
 	quests: [
 		{
@@ -239,74 +276,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["749B5293C2B313D2"]
-			id: "2C168D2C6B55CD10"
-			tasks: [{
-				id: "320D875EA878EC9E"
-				item: "gtceu:neuro_processing_unit"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"2C168D2C6B55CD10"
-				"1CCBE7B71BB782FD"
-			]
-			id: "13756D7E0FDA4B9E"
-			tasks: [{
-				id: "1DC8CF70ABDD3B4A"
-				item: "gtceu:wetware_processor"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["13756D7E0FDA4B9E"]
-			id: "22FA4C6A1ADEC7AC"
-			tasks: [{
-				id: "671F449AEB47E270"
-				item: "gtceu:wetware_processor_assembly"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"22FA4C6A1ADEC7AC"
-				"65E0B77C49C4F584"
-				"5104B1835B282FC6"
-			]
-			id: "762DC8899FC95277"
-			subtitle: "{ftbquests.chapter.zpm.quest8515682963844321911.subtitle}"
-			tasks: [{
-				id: "33D36925813D7106"
-				item: "gtceu:wetware_processor_computer"
-				type: "item"
-			}]
-			x: 15.5d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"762DC8899FC95277"
-				"50A557051BF8A461"
-			]
-			description: ["{ftbquests.chapter.zpm.quest9030416047466996760.description1}"]
-			id: "7D527B8CCB41E418"
-			subtitle: "{ftbquests.chapter.zpm.quest9030416047466996760.subtitle}"
-			tasks: [{
-				id: "0306C899450F018C"
-				item: "gtceu:wetware_processor_mainframe"
-				type: "item"
-			}]
-			x: 18.5d
-			y: 5.5d
-		}
-		{
 			dependencies: ["008A90953EEF0008"]
 			id: "74E26D593C100718"
 			tasks: [{
@@ -394,17 +363,6 @@
 			y: 4.5d
 		}
 		{
-			id: "749B5293C2B313D2"
-			size: 2.0d
-			tasks: [{
-				id: "058D8A09C5864DAA"
-				item: "ctnhbio:wetware_printed_circuit_board"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 5.5d
-		}
-		{
 			dependencies: [
 				"2FD33C4009211037"
 				"6103104855B728EE"
@@ -421,7 +379,11 @@
 		}
 		{
 			dependencies: ["008A90953EEF0008"]
-			description: ["{ftbquests.chapter.zpm.quest6253402706060330387.description1}"]
+			description: [
+				"{ftbquests.chapter.zpm.quest6253402706060330387.description1}"
+				""
+				"注意物品支架的朝向哦"
+			]
 			id: "56C88CA114314593"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -515,7 +477,7 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["7D527B8CCB41E418"]
+			dependencies: ["03F6BCDB99059FD4"]
 			description: ["{ftbquests.chapter.zpm.quest9173020688841435720.description1}"]
 			id: "7F4D1DB73BB3EA48"
 			size: 2.0d

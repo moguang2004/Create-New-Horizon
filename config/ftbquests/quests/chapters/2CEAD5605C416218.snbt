@@ -996,7 +996,7 @@
 			}]
 			title: "{ftbquests.chapter.2CEAD5605C416218.quest2386641395451512205.title}"
 			x: 2.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["211F0DB44621458D"]
@@ -1014,7 +1014,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["211F0DB44621458D"]
@@ -1032,7 +1032,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["211F0DB44621458D"]
@@ -1050,7 +1050,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["211F0DB44621458D"]
@@ -1068,7 +1068,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1090,7 +1090,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["211F0DB44621458D"]

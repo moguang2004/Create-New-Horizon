@@ -978,6 +978,7 @@
 				"01BBD7ADB864D6E1"
 				"65E0B77C49C4F584"
 				"5302156497A0F5AE"
+				"5104B1835B282FC6"
 			]
 			id: "5D01EEBB71A88958"
 			rewards: [{
@@ -995,7 +996,10 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["5D01EEBB71A88958"]
+			dependencies: [
+				"5D01EEBB71A88958"
+				"50A557051BF8A461"
+			]
 			description: [
 				"了吗？"
 				""
