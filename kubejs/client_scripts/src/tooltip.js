@@ -54,7 +54,6 @@ ItemEvents.tooltip(event => {
     event.add('kubejs:echo_processor_assembly', Text.translate('ctnh.circuit_echo_uv').darkAqua())
     event.add('kubejs:echo_processor_computer', Text.translate('ctnh.circuit_echo_uhv').darkAqua())
     event.add('kubejs:echo_processor_mainframe', Text.translate('ctnh.circuit_echo_uev').darkAqua())
-    event.add('kubejs:uhv_voltage_coil', Text.translate('ctnh.uhv_voltage_coil').white())
 
     event.add('gtceu:nan_certificate',Text.yellow('1.2.1版本毕业证明'))
 
