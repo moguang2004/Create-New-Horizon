@@ -564,6 +564,16 @@
 			x: 10.0d
 			y: 7.0d
 		}
+		{
+			id: "76AB8954552B4A54"
+			tasks: [{
+				id: "4F97EF090C98A813"
+				item: "ctnhcore:ultimate_combustion_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
 	]
 	title: "&e如何发电"
 }
