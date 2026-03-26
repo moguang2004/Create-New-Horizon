@@ -666,7 +666,7 @@ hash = "996e8dea4e93b360eb816e3f2ddd4b5cae19fd02bfaa4ce3d75fe03cb3240448"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15B8D9F4A2A19BFA.snbt"
-hash = "534d18b7bd4a0152cea52da10ec2fb45459ae9fd7c83eaf0128729c3ae6e2326"
+hash = "ce1b6eba169d20fb94d030906b3638ac9f3a73abf805a4c65eb936da59b96b75"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/177DD3C4E2D1113C.snbt"
@@ -2358,7 +2358,7 @@ hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
 
 [[files]]
 file = "kubejs/assets/emi/index/stacks/1.json"
-hash = "0cc19eb8f94623364222e2dda687933f365e3fafb7dcf6a77cb775410b34bfac"
+hash = "7ffd62784d74949c471dbd9a3c4ce03b53aebff1c74ea44042932dab67d99e75"
 
 [[files]]
 file = "kubejs/assets/enderio/lang/zh_cn.json"
@@ -2518,7 +2518,7 @@ hash = "734957f268f07e0bcb8993c7ab653fe5e9bb7abcf8a436f6d4a3c772e9080eb4"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/zh_cn.json"
-hash = "41fda9eaf180e20ed4f0a670605422ef27ff0e83a9158ce8cfd9f622de2b9ccd"
+hash = "403fb1131a815782b27ef5d44a6d22059e9441cc984063007b510df6504dc04f"
 
 [[files]]
 file = "kubejs/assets/gtceu/models/block/machine/me_stocking_input_bus.json"
@@ -2650,7 +2650,7 @@ hash = "4797425d17e1440cef9573a3a1200ed78196660a097efc5fc80d321872c8f413"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "1271e048b2510259f9cdf404055e5687dfec6456d06d674403d8341a24ac96cc"
+hash = "5a2b0edf5a404f7e5d9503b58a3d4c4f61cd502b4a51da366c668cd5b30b30de"
 
 [[files]]
 file = "kubejs/assets/kubejs/ponder/assembly_line.nbt"
@@ -3093,14 +3093,6 @@ file = "kubejs/assets/kubejs/textures/item/element.png"
 hash = "8363912c5d702195d8a25cc3622ae618daaeb604bc6fd9761b171b826d569ef0"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/elementium_lens.png"
-hash = "30a25725a451ce671bcc01aae272f91935a1d58ae4e6dc2c3dad280ad7d2dfce"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/encapsulated_twist_mana.png"
-hash = "f70b48cd96b9bc37e6b0993625482ccf284d01af930577816099dc4911ee77f1"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/ender_light.png"
 hash = "191e40e2dff0fcbdeed166498cd9525329f28df9d1ab1cd70122896273278e85"
 
@@ -3193,20 +3185,12 @@ file = "kubejs/assets/kubejs/textures/item/high_quality_solid_fuel.png"
 hash = "8c1410a3c3ee8e55feef7d18fcb52a63e059b746fd3fb5e9d554d3990bcfda3c"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/mana_lens.png"
-hash = "376909a74efeefeec792fbb773b517af255fa50688c8541c168b398c8df90eb8"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/measurement_pv_cell.png"
 hash = "fc29cec01765c2da909c9fdd4575b7c96c2562bd02920dea78bd8aa8253f7217"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/metallurgical_catalyst.png"
 hash = "8908d6f13af1034c52fdab5d266d858f01348939bee32e9477aac428f5a1d862"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/multiblock_helper.png"
-hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/platinum_metal_catalyst.png"
@@ -3283,10 +3267,6 @@ hash = "f83ef60907f2455b7efc049666e83bf4d55131ff16e780725aaffa9d6236fbe2"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/thermotolerant_dish.png"
 hash = "05602c728f1d06950d2a5fb37d24940c18201a734aaafbf94329adc4c07c8c2c"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/treated_clay_ball.png"
-hash = "0dac72939c4f0bfd4e09b625053d63a5d233eb27d04ac8ad891955bacae805d8"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/unfinished_steel_mechanism.png"
@@ -5266,7 +5246,7 @@ hash = "07568bfb3abc932b3f40a26fc05932f288a04568aab4e04ca36dbc1b6d18caf5"
 
 [[files]]
 file = "kubejs/client_scripts/src/tooltip.js"
-hash = "ba0fe06b32f8fe4a6129f5411f48a472716aa90875e88a5d12907527036f21fb"
+hash = "30caa2601bae6a93fb5869856bb7fe03761f5208749d05b9d191d4d2b830a099"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -9566,7 +9546,7 @@ hash = "381991335e668c8a2472e5020a0e9584fda5e7bccc4ddd797d76eee327f18580"
 
 [[files]]
 file = "kubejs/server_scripts/src/80extend.js"
-hash = "43cdd26c6427fa6a8f88f063c74775e2e3cb62282ca80f5dddad696682ad4bf2"
+hash = "dc8a49c8c9614cb8869ce6bbdad7762da40283f9609f56bbd0994c2a52494be0"
 
 [[files]]
 file = "kubejs/server_scripts/src/ae2.js"
@@ -9714,7 +9694,7 @@ hash = "870978621a0e0104de6c8eebe2d65a0ef61df29f313fe03ffcef8333cc4f5fe1"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/StonedustChain.js"
-hash = "7d5add0cc1aaa5a4a3f924c343bb5a9ffc438bc7e726762eda7a0586b769b564"
+hash = "981be42e127dffc2709af69ea649c2e0e3124068ccf3b6b0fc099b79383d651f"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/chain/TantaliteChain.js"
@@ -9738,7 +9718,7 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "75371b4f0345b7551d2be80faf38e8ab36c08227f7d62ed54da7ff0ca69a27bb"
+hash = "1afc19decfb4e5cd92262c6b97ec56552b0e514da280e01e9d65c8052a3daefd"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/wood.js"
@@ -9846,7 +9826,7 @@ hash = "df6b5794f21fa9fdbc47283039eeaca21d689fab42c049c5a89bd43bb2583122"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
-hash = "df64a48a3c673f001821d5ebce8e70fc7b42eb58bd3601356a4937852f061a2a"
+hash = "45140c823bf4099480a33e78376360b9a5e7662b6bd7d4fef78e72135f36a50a"
 
 [[files]]
 file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"
@@ -10194,7 +10174,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctnh-core.pw.toml"
-hash = "a4a2b841b67b1c246c622a0c4a8a5ebbd6063da8150417fb0eac88405c060cf9"
+hash = "e76a1a6e03b01ca9924bd81402b3a6c2a72090462de0b44162c988152efeb276"
 metafile = true
 
 [[files]]
