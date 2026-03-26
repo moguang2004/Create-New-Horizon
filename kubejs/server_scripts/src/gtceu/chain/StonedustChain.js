@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
         .duration(80)
         .EUt(200)
 
-    ctnh.mana_seperator('metallic_residues_dust_seperate')
+    ctnh.mana_transformer('metallic_residues_dust_seperate')
         .itemInputs('10x gtceu:metallic_residues_dust')
         .itemOutputs('3x gtceu:diamagnetic_residues_dust')
         .itemOutputs('3x gtceu:paramagnetic_residues_dust')
@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
         .duration(80)
         .EUt(8000)
 
-    ctnh.mana_seperator('heavy_metallic_residues_dust_seperate')
+    ctnh.mana_transformer('heavy_metallic_residues_dust_seperate')
         .itemInputs('10x gtceu:heavy_metallic_residues_dust')
         .itemOutputs('3x gtceu:heavy_diamagnetic_residues_dust')
         .itemOutputs('3x gtceu:heavy_paramagnetic_residues_dust')
