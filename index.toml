@@ -10413,6 +10413,11 @@ hash = "87da935deff875d5c560c8a8844d8428720f7fb9d8cae4c3877264bbe44c7719"
 metafile = true
 
 [[files]]
+file = "mods/gregtech-modern-quality-of-life.pw.toml"
+hash = "0cf5bd790fd55f644856f3e24cdf89b439066ab6d100a8122acd69f9899c9a86"
+metafile = true
+
+[[files]]
 file = "mods/gt-portal.pw.toml"
 hash = "83db50086103157d05e86310cda16227423b3b2448314ae91dbcf6da689bcc2e"
 metafile = true
