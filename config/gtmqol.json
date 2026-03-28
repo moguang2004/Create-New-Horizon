@@ -1,0 +1,31 @@
+{
+  "itemDecorator": {
+    "tankContent": {
+      "renderContentAtCorner": true,
+      "renderContentAtCornerMaxType": 1,
+      "renderContentAtCornerOnTopOfItem": true,
+      "renderContentDurabilityBar": true,
+      "renderContentDurabilityBarAtEmpty": false,
+      "renderContentDurabilityBarAtFull": true,
+      "renderContentDurabilityBarMultiTankStrategy": "COUNT_TOTAL",
+      "tankContainers": [
+        "gtceu:{steel,aluminium,stainless_steel,titanium,tungsten_steel}_fluid_cell",
+        "gtceu:glass_vial",
+        "gtceu:{lv,mv,hv,ev}_super_tank",
+        "gtceu:{iv,luv,zpm,uv,uhv,uev,uiv,uxv,opv}_quantum_tank",
+        "gtceu:{wood,bronze,steel,aluminium,stainless_steel,gold,titanium,tungsten_steel}_drum"
+      ]
+    },
+    "recipeDataContent": {
+      "renderRecipeDataAtCorner": true,
+      "recipeDataContainers": [
+        "gtceu:data_{stick,orb,module}"
+      ]
+    },
+    "waferRecipeLens": {
+      "renderWaferRecipeLens": true,
+      "waferRecipeLensExtraLensItems": [],
+      "waferRecipeLensExtraWaferItems": []
+    }
+  }
+}

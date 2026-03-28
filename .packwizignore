@@ -102,5 +102,6 @@ config/*
 !config/jei/jei-client.ini
 !config/ctnhchangelog-client.toml
 !config/ali
+!config/gtmqol.json
 
 !kubejs/config/*

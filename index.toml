@@ -858,7 +858,11 @@ hash = "6eeadb508cd760deb21c611992e97ace1a59c5af8fe7c401d570ce6744fa02b1"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "5bd54af51d0d97f8a1b566370fe8b041d15dc0915562f1f7992005be4f22c2fc"
+hash = "ea5cf49ddd7643c4142cf7ee2bfc0b8cefe81a7accc32089c912f916a575193c"
+
+[[files]]
+file = "config/gtmqol.json"
+hash = "8c995a45de302015cb5fc60f4edc0aabbb260d9a0c735bc2b77fb6b55d0112a6"
 
 [[files]]
 file = "config/inventoryhud-client.toml"
@@ -10413,13 +10417,18 @@ hash = "87da935deff875d5c560c8a8844d8428720f7fb9d8cae4c3877264bbe44c7719"
 metafile = true
 
 [[files]]
+file = "mods/gregtech-modern-quality-of-life.pw.toml"
+hash = "0cf5bd790fd55f644856f3e24cdf89b439066ab6d100a8122acd69f9899c9a86"
+metafile = true
+
+[[files]]
 file = "mods/gt-portal.pw.toml"
 hash = "83db50086103157d05e86310cda16227423b3b2448314ae91dbcf6da689bcc2e"
 metafile = true
 
 [[files]]
 file = "mods/gtconstruct.pw.toml"
-hash = "eb694e5f76531d2a7e1c09e568af084976a66544946f60d37aa5f58be3ddec6e"
+hash = "b8efc990e48d6e09f00b9a3feb9d75a7cb59bf89672e5e5ae701e9083b5f9932"
 metafile = true
 
 [[files]]
