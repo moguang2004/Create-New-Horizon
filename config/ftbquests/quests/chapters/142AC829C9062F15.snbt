@@ -61,7 +61,7 @@
 			id: "223723ED95F15CBF"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest2465478824338480319.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest223723ED95F15CBF.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "76899A5326B419A7"
@@ -489,7 +489,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.142AC829C9062F15.quest1792757674758980169.title}"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest18E1279B545D4249.title}"
 			x: 17.0d
 			y: 12.0d
 		}
@@ -528,7 +528,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.142AC829C9062F15.quest7089273043958266387.title}"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest62622845DCE27A13.title}"
 			x: 19.0d
 			y: 12.0d
 		}
@@ -538,7 +538,7 @@
 				"41E48BCAEAD9D47E"
 				"223723ED95F15CBF"
 			]
-			description: ["{ftbquests.chapter.142AC829C9062F15.quest149003923388758278.description1}"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest2115E4763B9F906.description1}"]
 			id: "02115E4763B9F906"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -547,7 +547,7 @@
 				type: "random"
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest149003923388758278.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest2115E4763B9F906.subtitle}"
 			tasks: [{
 				id: "3096BAC653706631"
 				item: "biomancy:primordial_core"
@@ -559,24 +559,24 @@
 		{
 			dependencies: ["62622845DCE27A13"]
 			description: [
-				"{ftbquests.chapter.142AC829C9062F15.quest1627713561085619478.description1}"
-				"{ftbquests.chapter.142AC829C9062F15.quest1627713561085619478.description2}"
+				"{ftbquests.chapter.142AC829C9062F15.quest1696CCDC1C982D16.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest1696CCDC1C982D16.description2}"
 			]
 			id: "1696CCDC1C982D16"
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest1627713561085619478.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest1696CCDC1C982D16.subtitle}"
 			tasks: [{
 				id: "6298993466FEF813"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.142AC829C9062F15.quest1627713561085619478.title}"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest1696CCDC1C982D16.title}"
 			x: 21.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["02115E4763B9F906"]
 			id: "15F6F741F83DADF6"
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest1582724181777034742.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest15F6F741F83DADF6.subtitle}"
 			tasks: [{
 				id: "0D1C516B794C6B35"
 				item: "ctnhbio:lv_bioelectric_forge"
@@ -588,39 +588,39 @@
 		{
 			dependencies: ["02115E4763B9F906"]
 			description: [
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description1}"
 				""
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description2}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description2}"
 				""
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description3}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description3}"
 				""
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description4}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description5}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description6}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description7}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description8}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description4}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description5}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description6}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description7}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description8}"
 				""
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description9}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description10}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description11}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description12}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description13}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description9}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description10}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description11}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description12}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description13}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description14}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description15}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description16}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description14}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description15}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description16}"
 				""
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description17}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description18}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description17}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description18}"
 				""
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description19}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description20}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description21}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description22}"
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description23}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description19}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description20}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description21}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description22}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description23}"
 				""
-				"{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.description24}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.description24}"
 			]
 			id: "3A0DF5CC0ED15F67"
 			rewards: [{
@@ -631,20 +631,20 @@
 			}]
 			shape: "octagon"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.subtitle}"
 			tasks: [{
 				id: "139ED399738E942B"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.142AC829C9062F15.quest4183269885667794791.title}"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest3A0DF5CC0ED15F67.title}"
 			x: 13.0d
 			y: 19.0d
 		}
 		{
 			dependencies: ["02115E4763B9F906"]
-			description: ["{ftbquests.chapter.142AC829C9062F15.quest2347949193765232158.description1}"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest2095975A0D0A9E1E.description1}"]
 			id: "2095975A0D0A9E1E"
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest2347949193765232158.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest2095975A0D0A9E1E.subtitle}"
 			tasks: [{
 				id: "1861D9204F97212D"
 				item: "ctnhbio:lv_decomposer"
@@ -657,7 +657,7 @@
 			dependencies: ["02115E4763B9F906"]
 			description: [""]
 			id: "09542A8A75F69EA5"
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest672209018557996709.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest9542A8A75F69EA5.subtitle}"
 			tasks: [{
 				id: "1E6F8C00F696B134"
 				item: "ctnhbio:lv_digester"
@@ -671,9 +671,9 @@
 				"1012B5BE36BBAF9E"
 				"4C2F508E36E8624E"
 			]
-			description: ["虽然都是范围产出，但你还是可以通过编写样板来制作它们，只不过记得要填写最少的产出量作为样板输出哦"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest1CCBE7B71BB782FD.description1}"]
 			id: "1CCBE7B71BB782FD"
-			subtitle: "都是范围产出哦"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest1CCBE7B71BB782FD.subtitle}"
 			tasks: [
 				{
 					id: "2D2C03CA16F539D0"
@@ -701,7 +701,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.142AC829C9062F15.quest2075006826964288253.title}"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest1CCBE7B71BB782FD.title}"
 			x: 26.0d
 			y: 15.0d
 		}
@@ -711,15 +711,15 @@
 				"1AA229DF6B1F4CD6"
 			]
 			description: [
-				"LuV开始，你就可以制作血肉大机器了！"
+				"{ftbquests.chapter.142AC829C9062F15.quest5EE36C722931A3A5.description1}"
 				""
-				"{ftbquests.chapter.142AC829C9062F15.quest6837427896851735461.description1}"
-				"{ftbquests.chapter.142AC829C9062F15.quest6837427896851735461.description2}"
+				"{ftbquests.chapter.142AC829C9062F15.quest5EE36C722931A3A5.description2}"
+				"{ftbquests.chapter.142AC829C9062F15.quest5EE36C722931A3A5.description3}"
 			]
 			hide_dependency_lines: true
 			id: "5EE36C722931A3A5"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest6837427896851735461.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest5EE36C722931A3A5.subtitle}"
 			tasks: [{
 				id: "6C52488BDCD9AF38"
 				item: "biomancy:primordial_cradle"
@@ -731,7 +731,7 @@
 		{
 			dependencies: ["351351BE58F24654"]
 			id: "0B3AA16035FC3AAD"
-			subtitle: "替换掉你的反应腔"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.questB3AA16035FC3AAD.subtitle}"
 			tasks: [{
 				id: "6FC1BCFCE2A46C04"
 				item: "ctnhbio:circulatory_system"
@@ -746,14 +746,14 @@
 				"53E534A981177FEC"
 			]
 			description: [
-				"意识装配，这是你生物线的最后一个重要任务"
+				"{ftbquests.chapter.142AC829C9062F15.quest65E0B77C49C4F584.description1}"
 				""
-				"你需要通过联体桥来让几个意识装配机组成一条装配线，中间产物会通过联体桥从一个装配机传递给另一个，因此你需要让两台意识装配机共用一个联体桥"
+				"{ftbquests.chapter.142AC829C9062F15.quest65E0B77C49C4F584.description2}"
 				""
-				"什么，它要怎么自动化？你看，这套意识装配配方，它像不像一条进阶装配线"
+				"{ftbquests.chapter.142AC829C9062F15.quest65E0B77C49C4F584.description3}"
 			]
 			id: "65E0B77C49C4F584"
-			subtitle: "替换掉你的生物电炉，以及…"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest65E0B77C49C4F584.subtitle}"
 			tasks: [{
 				id: "14F9778E4DEA7CB6"
 				item: "ctnhbio:cogni_assembler"
@@ -768,7 +768,7 @@
 				"3042E50E7034C8C0"
 			]
 			id: "6DD7D2E0A83FBC3C"
-			subtitle: "替换掉你的分解者"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest6DD7D2E0A83FBC3C.subtitle}"
 			tasks: [{
 				id: "26C04647F8299385"
 				item: "ctnhbio:weatherer"
@@ -784,12 +784,12 @@
 				"3ADE21481F15FC16"
 			]
 			description: [
-				"{ftbquests.chapter.142AC829C9062F15.quest3824490386545591892.description1}"
-				"{ftbquests.chapter.142AC829C9062F15.quest3824490386545591892.description2}"
+				"{ftbquests.chapter.142AC829C9062F15.quest351351BE58F24654.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest351351BE58F24654.description2}"
 			]
 			id: "351351BE58F24654"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest3824490386545591892.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest351351BE58F24654.subtitle}"
 			tasks: [{
 				id: "0F55B60324E4BAFD"
 				item: "ctnhbio:great_flesh"
@@ -799,7 +799,7 @@
 			y: 18.0d
 		}
 		{
-			description: ["{ftbquests.chapter.142AC829C9062F15.quest6469336787017347653.description1}"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest59C7B38822893245.description1}"]
 			id: "59C7B38822893245"
 			tasks: [
 				{
@@ -831,8 +831,8 @@
 			dependencies: ["2E47AD537C4D79BA"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.142AC829C9062F15.quest4752842999807315618.description1}"
-				"如果配方不运行，请准备好算力后将原料取出再放入一次。"
+				"{ftbquests.chapter.142AC829C9062F15.quest41F57D86D4B78EA2.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest41F57D86D4B78EA2.description2}"
 			]
 			id: "41F57D86D4B78EA2"
 			tasks: [{
@@ -846,10 +846,10 @@
 		{
 			dependencies: ["351351BE58F24654"]
 			description: [
-				"{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.description1}"
-				"{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.description2}"
+				"{ftbquests.chapter.142AC829C9062F15.quest7E1DEFB53BF4D305.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest7E1DEFB53BF4D305.description2}"
 				""
-				"生物大机器没有超频掉血的debuff，还能用并行仓，这不赶紧升级"
+				"{ftbquests.chapter.142AC829C9062F15.quest7E1DEFB53BF4D305.description3}"
 			]
 			id: "7E1DEFB53BF4D305"
 			rewards: [
@@ -879,19 +879,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest7E1DEFB53BF4D305.subtitle}"
 			tasks: [{
 				id: "27ED04AC6B62824B"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.142AC829C9062F15.quest9087683184777548549.title}"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest7E1DEFB53BF4D305.title}"
 			x: 32.0d
 			y: 20.0d
 		}
 		{
 			dependencies: ["019F2136970CA2E1"]
 			id: "53E534A981177FEC"
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest6045295977434677228.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest53E534A981177FEC.subtitle}"
 			tasks: [{
 				id: "0460393FCE082088"
 				item: "ctnhbio:synaptic_casing"
@@ -913,12 +913,12 @@
 		{
 			dependencies: ["1696CCDC1C982D16"]
 			description: [
-				"{ftbquests.chapter.142AC829C9062F15.quest8098721030194086492.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest70646FDE3BB4425C.description1}"
 				""
-				"当然你也需要用它为你提供大量的分解用生物掉落物"
+				"{ftbquests.chapter.142AC829C9062F15.quest70646FDE3BB4425C.description2}"
 			]
 			id: "70646FDE3BB4425C"
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest8098721030194086492.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest70646FDE3BB4425C.subtitle}"
 			tasks: [{
 				id: "314C7C36795D14E3"
 				item: "ctnhcore:slaughter_house"
@@ -930,11 +930,11 @@
 		{
 			dependencies: ["02115E4763B9F906"]
 			description: [
-				"{ftbquests.chapter.142AC829C9062F15.quest5822252284539946635.description1}"
-				"{ftbquests.chapter.142AC829C9062F15.quest5822252284539946635.description2}"
+				"{ftbquests.chapter.142AC829C9062F15.quest50CCCB9AECB5C68B.description1}"
+				"{ftbquests.chapter.142AC829C9062F15.quest50CCCB9AECB5C68B.description2}"
 			]
 			id: "50CCCB9AECB5C68B"
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest5822252284539946635.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest50CCCB9AECB5C68B.subtitle}"
 			tasks: [{
 				id: "1C905E71F305BE8D"
 				item: "ctnhbio:lv_bioreactor"
@@ -950,10 +950,10 @@
 				"754CF2D0D96359C3"
 				"75CFD6720163E3ED"
 			]
-			description: ["{ftbquests.chapter.142AC829C9062F15.quest7280834197158641215.description1}"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest650AB82076283E3F.description1}"]
 			id: "650AB82076283E3F"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest7280834197158641215.subtitle}"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest650AB82076283E3F.subtitle}"
 			tasks: [{
 				id: "6AC48565CB999E4F"
 				item: "gtceu:wetware_processor"
@@ -1001,9 +1001,9 @@
 				"50A557051BF8A461"
 			]
 			description: [
-				"了吗？"
+				"{ftbquests.chapter.142AC829C9062F15.quest3F6BCDB99059FD4.description1}"
 				""
-				"并非，到了UV你还有一条意识装配线要做"
+				"{ftbquests.chapter.142AC829C9062F15.quest3F6BCDB99059FD4.description2}"
 			]
 			id: "03F6BCDB99059FD4"
 			rewards: [{
@@ -1014,7 +1014,7 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "生物线堂堂完结……"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest3F6BCDB99059FD4.subtitle}"
 			tasks: [{
 				id: "26CD0E398CE2C7DE"
 				item: "gtceu:wetware_processor_mainframe"
@@ -1039,9 +1039,9 @@
 		{
 			dependencies: ["09542A8A75F69EA5"]
 			description: [
-				"消化器的实际产出量由食物的饱食度和饱和度决定，1营养膏代表3营养，1mB营养液代表1营养"
+				"{ftbquests.chapter.142AC829C9062F15.quest2EAC567FAEF78F41.description1}"
 				""
-				"注意消化器会自动批处理，如果输入太多可能会导致输出放不下造成配方不运行"
+				"{ftbquests.chapter.142AC829C9062F15.quest2EAC567FAEF78F41.description2}"
 			]
 			hide_dependent_lines: true
 			id: "2EAC567FAEF78F41"
@@ -1055,7 +1055,7 @@
 		}
 		{
 			dependencies: ["15F6F741F83DADF6"]
-			description: ["虽然是概率产出，但一旦你获得了它之后，你便可以利用治愈化合物来让它增殖…"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest527F922CFEC9CEA3.description1}"]
 			id: "527F922CFEC9CEA3"
 			tasks: [{
 				id: "59EA2B59B4DCE09C"
@@ -1096,7 +1096,7 @@
 				table_id: 846882859033216508L
 				type: "random"
 			}]
-			subtitle: "小机器时代的完结"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest4C2F508E36E8624E.subtitle}"
 			tasks: [{
 				id: "372F2165C852B6A3"
 				item: "ctnhbio:omni_core"
@@ -1141,9 +1141,9 @@
 		{
 			dependencies: ["16BAA0BA2397A4DA"]
 			description: [
-				"意识程度太高了，因此运行一段时间后它可能会陷入自我怀疑中……你需要重启来让它重新go work"
+				"{ftbquests.chapter.142AC829C9062F15.quest64822D37238618F3.description1}"
 				""
-				"需要通过光缆才能连接上算力靶仓，如果需要算力的大机器不工作，不妨点开它的GUI试一试，GTM的算力代码是这样的(x)"
+				"{ftbquests.chapter.142AC829C9062F15.quest64822D37238618F3.description2}"
 			]
 			id: "64822D37238618F3"
 			tasks: [{
@@ -1168,7 +1168,7 @@
 		{
 			dependencies: ["76FF74E05711DD99"]
 			id: "268C36437405BD6F"
-			subtitle: "④"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest268C36437405BD6F.subtitle}"
 			tasks: [{
 				id: "4FC688B6A8244D17"
 				item: "gtceu:regenerative_fluid_bucket"
@@ -1180,7 +1180,7 @@
 		{
 			dependencies: ["6B4BC18863EDF4EF"]
 			id: "0039A3BA2F5DAE64"
-			subtitle: "①"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest39A3BA2F5DAE64.subtitle}"
 			tasks: [{
 				id: "021255F51F0F29FF"
 				item: "gtceu:hormone_secretion_bucket"
@@ -1192,7 +1192,7 @@
 		{
 			dependencies: ["6B4BC18863EDF4EF"]
 			id: "03BB2C0CFEE82DB2"
-			subtitle: "②"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest3BB2C0CFEE82DB2.subtitle}"
 			tasks: [{
 				id: "3AEF831A219F4925"
 				item: "gtceu:bile_bucket"
@@ -1204,7 +1204,7 @@
 		{
 			dependencies: ["76FF74E05711DD99"]
 			id: "6C05D32AC3BB69B7"
-			subtitle: "③"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest6C05D32AC3BB69B7.subtitle}"
 			tasks: [{
 				id: "244925CDFBC0DC38"
 				item: "gtceu:volatile_fluid_bucket"
@@ -1216,7 +1216,7 @@
 		{
 			icon: "botania:vial"
 			id: "0F6802BC6D2E6D86"
-			subtitle: "这也是原料"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.questF6802BC6D2E6D86.subtitle}"
 			tasks: [{
 				id: "74F8F3075C21F2C8"
 				item: "gtceu:withering_ooze_bucket"
@@ -1261,7 +1261,7 @@
 			dependencies: ["6C05D32AC3BB69B7"]
 			id: "76F2C3A7E2F65B9A"
 			size: 1.0d
-			subtitle: "产物Ⅳ"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest76F2C3A7E2F65B9A.subtitle}"
 			tasks: [{
 				id: "7C83E68B7B5C6A5E"
 				item: "gtceu:unstable_compound_bucket"
@@ -1300,7 +1300,7 @@
 			]
 			id: "3DCD30CF73D13791"
 			size: 1.0d
-			subtitle: "产物Ⅱ"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest3DCD30CF73D13791.subtitle}"
 			tasks: [{
 				id: "2FCBDE48BC64DAD8"
 				item: "gtceu:rejuvenation_serum_bucket"
@@ -1349,7 +1349,7 @@
 			]
 			id: "6081AA4CD36390C2"
 			size: 1.0d
-			subtitle: "产物Ⅴ"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest6081AA4CD36390C2.subtitle}"
 			tasks: [{
 				id: "587CCE07884F1DCC"
 				item: "gtceu:primordial_serum_bucket"
@@ -1361,10 +1361,10 @@
 		{
 			dependencies: ["5EE36C722931A3A5"]
 			description: [
-				"不想刷概率？当然有办法稳定出肉块了"
+				"{ftbquests.chapter.142AC829C9062F15.quest3ADE21481F15FC16.description1}"
 				""
-				"你可以通过喂给原初温床一些蜘蛛眼来增加产出肉块的概率，如果你想要原初肉块，那你可以试试兔子脚"
-				"当然这些都是血肉重铸的原版玩法，不妨去mcmod探索一下"
+				"{ftbquests.chapter.142AC829C9062F15.quest3ADE21481F15FC16.description2}"
+				"{ftbquests.chapter.142AC829C9062F15.quest3ADE21481F15FC16.description3}"
 			]
 			id: "3ADE21481F15FC16"
 			tasks: [{
@@ -1375,7 +1375,7 @@
 				to_observe: "biomancy:flesh_blob"
 				type: "observation"
 			}]
-			title: "肉块"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest3ADE21481F15FC16.title}"
 			x: 30.0d
 			y: 18.0d
 		}
@@ -1386,7 +1386,7 @@
 			]
 			id: "021A34BDE21EF587"
 			size: 1.0d
-			subtitle: "产物Ⅲ"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest21A34BDE21EF587.subtitle}"
 			tasks: [{
 				id: "361031ACC932A457"
 				item: "gtceu:ageing_serum_bucket"
@@ -1401,7 +1401,7 @@
 				"76CD84AF7CBC6031"
 			]
 			id: "1012B5BE36BBAF9E"
-			subtitle: "生物线你躲不掉的材料"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest1012B5BE36BBAF9E.subtitle}"
 			tasks: [{
 				id: "6F9EEB6C8803A2A1"
 				item: "gtceu:polypyrrole_bucket"
@@ -1511,7 +1511,7 @@
 			]
 			id: "3A2C6AEBD158B390"
 			size: 1.0d
-			subtitle: "产物Ⅰ"
+			subtitle: "{ftbquests.chapter.142AC829C9062F15.quest3A2C6AEBD158B390.subtitle}"
 			tasks: [{
 				id: "0233F439A0158EDB"
 				item: "gtceu:breeding_stimulant_bucket"
@@ -1525,11 +1525,11 @@
 				"2EAC567FAEF78F41"
 				"3A0DF5CC0ED15F67"
 			]
-			description: ["你可以通过向生物机器输入槽输入营养液/营养膏的方式来让它获取营养"]
+			description: ["{ftbquests.chapter.142AC829C9062F15.quest7A531FABB537A578.description1}"]
 			id: "7A531FABB537A578"
 			tasks: [{
 				id: "48942C840251805C"
-				title: "自动喂食"
+				title: "{ftbquests.chapter.142AC829C9062F15.quest7A531FABB537A578.task.5229854012770189404.title}"
 				type: "checkmark"
 			}]
 			x: 15.0d
@@ -1538,9 +1538,9 @@
 		{
 			dependencies: ["3A0DF5CC0ED15F67"]
 			description: [
-				"除了向机器通入GT药水以外，你还可以用其他方法更高效地利用药水，比如药水散布器"
+				"{ftbquests.chapter.142AC829C9062F15.quest2BB6F289590A3A2B.description1}"
 				""
-				"药水散布器可以每10分钟消耗一瓶药水并给不小的范围内所有生物持续的药水效果，它通过散布器旁边的药水罐补充，这个该怎么自动化想必你一定研究得出来吧…"
+				"{ftbquests.chapter.142AC829C9062F15.quest2BB6F289590A3A2B.description2}"
 			]
 			id: "2BB6F289590A3A2B"
 			rewards: [
@@ -1557,7 +1557,7 @@
 			]
 			tasks: [{
 				id: "2C82BD39C5C5049F"
-				title: "药水效果的施加"
+				title: "{ftbquests.chapter.142AC829C9062F15.quest2BB6F289590A3A2B.task.3207333940470023327.title}"
 				type: "checkmark"
 			}]
 			x: 13.0d
@@ -1566,16 +1566,16 @@
 		{
 			dependencies: ["3A0DF5CC0ED15F67"]
 			description: [
-				"小机器可以接收高一级的电压来执行高一级的配方，代价是会持续扣血，虽然它每2s会尝试通过消耗营养来回血，但这太慢了"
+				"{ftbquests.chapter.142AC829C9062F15.quest278F2DF8D56D8809.description1}"
 				""
-				"除了用你精心搭配的药水效果来帮它回血之外，你还可以尝试一下使用新生魔艺的定时法术炮塔来治疗它"
+				"{ftbquests.chapter.142AC829C9062F15.quest278F2DF8D56D8809.description2}"
 				""
-				"注意： 生物机器在升压时会强制消耗1A高压的电流，而且这不能使机器超频自身电压的配方。"
+				"{ftbquests.chapter.142AC829C9062F15.quest278F2DF8D56D8809.description3}"
 			]
 			id: "278F2DF8D56D8809"
 			tasks: [{
 				id: "404E3D66BC048DED"
-				title: "小机器的超频与回血"
+				title: "{ftbquests.chapter.142AC829C9062F15.quest278F2DF8D56D8809.task.4633708578061192685.title}"
 				type: "checkmark"
 			}]
 			x: 14.0d
@@ -1598,10 +1598,10 @@
 			size: 1.0d
 			tasks: [{
 				id: "12EB7FD9416A53AE"
-				title: "原料1,2"
+				title: "{ftbquests.chapter.142AC829C9062F15.quest76FF74E05711DD99.task.1363323883291825070.title}"
 				type: "checkmark"
 			}]
-			title: "原料③、④"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest76FF74E05711DD99.title}"
 			x: 32.0d
 			y: 21.0d
 		}
@@ -1612,10 +1612,10 @@
 			size: 1.0d
 			tasks: [{
 				id: "4CA44D72A2452982"
-				title: "原料4,5"
+				title: "{ftbquests.chapter.142AC829C9062F15.quest6B4BC18863EDF4EF.task.5522624197807122818.title}"
 				type: "checkmark"
 			}]
-			title: "原料①、②"
+			title: "{ftbquests.chapter.142AC829C9062F15.quest6B4BC18863EDF4EF.title}"
 			x: 16.0d
 			y: 21.0d
 		}
@@ -1624,12 +1624,12 @@
 			id: "3D60B25E76C93050"
 			tasks: [{
 				id: "201ABD935AB66833"
-				title: "生物溶液"
+				title: "{ftbquests.chapter.142AC829C9062F15.quest3D60B25E76C93050.task.2313369799187916851.title}"
 				type: "checkmark"
 			}]
 			x: 16.0d
 			y: 20.0d
 		}
 	]
-	title: "&4血肉重铸"
+	title: "{ftbquests.chapter.142AC829C9062F15.title}"
 }

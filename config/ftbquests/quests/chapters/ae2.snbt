@@ -85,9 +85,9 @@
 		{
 			dependencies: ["39932A8C0601C003"]
 			description: [
-				"{ftbquests.chapter.ae2.quest1208079594994980264.description1}"
-				"{ftbquests.chapter.ae2.quest1208079594994980264.description2}"
-				"{ftbquests.chapter.ae2.quest1208079594994980264.description3}"
+				"{ftbquests.chapter.ae2.quest10C3F5FDB012D5A8.description1}"
+				"{ftbquests.chapter.ae2.quest10C3F5FDB012D5A8.description2}"
+				"{ftbquests.chapter.ae2.quest10C3F5FDB012D5A8.description3}"
 			]
 			id: "10C3F5FDB012D5A8"
 			rewards: [
@@ -115,14 +115,14 @@
 		{
 			dependencies: ["6CBC89BB2970D034"]
 			description: [
-				"{ftbquests.chapter.ae2.quest4148706462622924803.description1}"
-				"{ftbquests.chapter.ae2.quest4148706462622924803.description2}"
-				"{ftbquests.chapter.ae2.quest4148706462622924803.description3}"
-				"{ftbquests.chapter.ae2.quest4148706462622924803.description4}"
-				"{ftbquests.chapter.ae2.quest4148706462622924803.description5}"
-				"{ftbquests.chapter.ae2.quest4148706462622924803.description6}"
-				"{ftbquests.chapter.ae2.quest4148706462622924803.description7}"
-				"{ftbquests.chapter.ae2.quest4148706462622924803.description8}"
+				"{ftbquests.chapter.ae2.quest39932A8C0601C003.description1}"
+				"{ftbquests.chapter.ae2.quest39932A8C0601C003.description2}"
+				"{ftbquests.chapter.ae2.quest39932A8C0601C003.description3}"
+				"{ftbquests.chapter.ae2.quest39932A8C0601C003.description4}"
+				"{ftbquests.chapter.ae2.quest39932A8C0601C003.description5}"
+				"{ftbquests.chapter.ae2.quest39932A8C0601C003.description6}"
+				"{ftbquests.chapter.ae2.quest39932A8C0601C003.description7}"
+				"{ftbquests.chapter.ae2.quest39932A8C0601C003.description8}"
 			]
 			id: "39932A8C0601C003"
 			rewards: [{
@@ -143,8 +143,8 @@
 		{
 			dependencies: ["16D03700E6D58905"]
 			description: [
-				"{ftbquests.chapter.ae2.quest7835288888664969268.description1}"
-				"{ftbquests.chapter.ae2.quest7835288888664969268.description2}"
+				"{ftbquests.chapter.ae2.quest6CBC89BB2970D034.description1}"
+				"{ftbquests.chapter.ae2.quest6CBC89BB2970D034.description2}"
 			]
 			id: "6CBC89BB2970D034"
 			rewards: [{
@@ -154,22 +154,22 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.ae2.quest7835288888664969268.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest6CBC89BB2970D034.subtitle}"
 			tasks: [{
 				count: 16L
 				id: "77CB8C8B8BD5E994"
 				item: { Count: 16, id: "ae2:smooth_sky_stone_block" }
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest7835288888664969268.title}"
+			title: "{ftbquests.chapter.ae2.quest6CBC89BB2970D034.title}"
 			x: -5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6CBC89BB2970D034"]
 			description: [
-				"{ftbquests.chapter.ae2.quest7825732500111373265.description1}"
-				"{ftbquests.chapter.ae2.quest7825732500111373265.description2}"
+				"{ftbquests.chapter.ae2.quest6C9A963F105E33D1.description1}"
+				"{ftbquests.chapter.ae2.quest6C9A963F105E33D1.description2}"
 			]
 			id: "6C9A963F105E33D1"
 			rewards: [{
@@ -188,7 +188,7 @@
 		}
 		{
 			dependencies: ["39932A8C0601C003"]
-			description: ["{ftbquests.chapter.ae2.quest8801681731094904704.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest7A25DAE6AFF4FF80.description1}"]
 			id: "7A25DAE6AFF4FF80"
 			rewards: [{
 				count: 16
@@ -206,7 +206,7 @@
 		}
 		{
 			dependencies: ["6CBC89BB2970D034"]
-			description: ["{ftbquests.chapter.ae2.quest5051731837885615317.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest461B5B5761B40CD5.description1}"]
 			id: "461B5B5761B40CD5"
 			tasks: [{
 				count: 16L
@@ -220,11 +220,11 @@
 		{
 			dependencies: ["39932A8C0601C003"]
 			description: [
-				"{ftbquests.chapter.ae2.quest6727288942691529604.description1}"
-				"{ftbquests.chapter.ae2.quest6727288942691529604.description2}"
-				"{ftbquests.chapter.ae2.quest6727288942691529604.description3}"
-				"{ftbquests.chapter.ae2.quest6727288942691529604.description4}"
-				"{ftbquests.chapter.ae2.quest6727288942691529604.description5}"
+				"{ftbquests.chapter.ae2.quest5D5C21A6928AB384.description1}"
+				"{ftbquests.chapter.ae2.quest5D5C21A6928AB384.description2}"
+				"{ftbquests.chapter.ae2.quest5D5C21A6928AB384.description3}"
+				"{ftbquests.chapter.ae2.quest5D5C21A6928AB384.description4}"
+				"{ftbquests.chapter.ae2.quest5D5C21A6928AB384.description5}"
 			]
 			id: "5D5C21A6928AB384"
 			rewards: [{
@@ -238,13 +238,13 @@
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest6727288942691529604.title}"
+			title: "{ftbquests.chapter.ae2.quest5D5C21A6928AB384.title}"
 			x: -4.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["10C3F5FDB012D5A8"]
-			description: ["{ftbquests.chapter.ae2.quest7677789835216617613.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest6A8CFD2D2C31008D.description1}"]
 			id: "6A8CFD2D2C31008D"
 			rewards: [
 				{
@@ -274,9 +274,9 @@
 				"3D3B26CBE9800D76"
 			]
 			description: [
-				"{ftbquests.chapter.ae2.quest7870339866999443683.description1}"
-				"{ftbquests.chapter.ae2.quest7870339866999443683.description2}"
-				"{ftbquests.chapter.ae2.quest7870339866999443683.description3}"
+				"{ftbquests.chapter.ae2.quest6D3910690218D0E3.description1}"
+				"{ftbquests.chapter.ae2.quest6D3910690218D0E3.description2}"
+				"{ftbquests.chapter.ae2.quest6D3910690218D0E3.description3}"
 			]
 			id: "6D3910690218D0E3"
 			rewards: [{
@@ -291,15 +291,15 @@
 				item: "ae2:logic_processor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest7870339866999443683.title}"
+			title: "{ftbquests.chapter.ae2.quest6D3910690218D0E3.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["39932A8C0601C003"]
 			description: [
-				"{ftbquests.chapter.ae2.quest2141633117148318755.description1}"
-				"{ftbquests.chapter.ae2.quest2141633117148318755.description2}"
+				"{ftbquests.chapter.ae2.quest1DB89BF922D68C23.description1}"
+				"{ftbquests.chapter.ae2.quest1DB89BF922D68C23.description2}"
 			]
 			id: "1DB89BF922D68C23"
 			rewards: [{
@@ -322,8 +322,8 @@
 				"1D3AB4D312D5E848"
 			]
 			description: [
-				"{ftbquests.chapter.ae2.quest2495995452904936233.description1}"
-				"{ftbquests.chapter.ae2.quest2495995452904936233.description2}"
+				"{ftbquests.chapter.ae2.quest22A38EA3DB639329.description1}"
+				"{ftbquests.chapter.ae2.quest22A38EA3DB639329.description2}"
 			]
 			id: "22A38EA3DB639329"
 			rewards: [{
@@ -345,7 +345,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest2495995452904936233.title}"
+			title: "{ftbquests.chapter.ae2.quest22A38EA3DB639329.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -382,7 +382,7 @@
 				"4672877BD1175E10"
 				"4D0E732C53F05993"
 			]
-			description: ["{ftbquests.chapter.ae2.quest1051146699902376925.description1}"]
+			description: ["{ftbquests.chapter.ae2.questE966C5AB6815BDD.description1}"]
 			id: "0E966C5AB6815BDD"
 			size: 1.0d
 			tasks: [
@@ -397,7 +397,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest1051146699902376925.title}"
+			title: "{ftbquests.chapter.ae2.questE966C5AB6815BDD.title}"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -513,8 +513,8 @@
 		{
 			dependencies: ["387610CFB183C3B0"]
 			description: [
-				"{ftbquests.chapter.ae2.quest5517602831897897233.description1}"
-				"{ftbquests.chapter.ae2.quest5517602831897897233.description2}"
+				"{ftbquests.chapter.ae2.quest4C92768AC6F6A911.description1}"
+				"{ftbquests.chapter.ae2.quest4C92768AC6F6A911.description2}"
 			]
 			id: "4C92768AC6F6A911"
 			tasks: [{
@@ -522,7 +522,7 @@
 				item: "expatternprovider:ex_molecular_assembler"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest5517602831897897233.title}"
+			title: "{ftbquests.chapter.ae2.quest4C92768AC6F6A911.title}"
 			x: 6.0d
 			y: -6.0d
 		}
@@ -534,7 +534,7 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ae2.quest4068457797598299056.title}"
+			title: "{ftbquests.chapter.ae2.quest387610CFB183C3B0.title}"
 			x: 6.0d
 			y: -3.0d
 		}
@@ -566,25 +566,25 @@
 				"4C92768AC6F6A911"
 			]
 			description: [
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description1}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description2}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description3}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description4}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description5}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description6}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description7}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description8}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description9}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description10}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description11}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description12}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description13}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description14}"
-				"{ftbquests.chapter.ae2.quest6293424928209026059.description15}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description1}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description2}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description3}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description4}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description5}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description6}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description7}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description8}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description9}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description10}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description11}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description12}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description13}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description14}"
+				"{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.description15}"
 			]
 			id: "5756BCA0D27CBC0B"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ae2.quest6293424928209026059.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.subtitle}"
 			tasks: [
 				{
 					id: "1C3932E80DD0CF5B"
@@ -602,24 +602,24 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest6293424928209026059.title}"
+			title: "{ftbquests.chapter.ae2.quest5756BCA0D27CBC0B.title}"
 			x: 8.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["387610CFB183C3B0"]
 			description: [
-				"{ftbquests.chapter.ae2.quest8351612552652165572.description1}"
-				"{ftbquests.chapter.ae2.quest8351612552652165572.description2}"
-				"{ftbquests.chapter.ae2.quest8351612552652165572.description3}"
-				"{ftbquests.chapter.ae2.quest8351612552652165572.description4}"
-				"{ftbquests.chapter.ae2.quest8351612552652165572.description5}"
-				"{ftbquests.chapter.ae2.quest8351612552652165572.description6}"
-				"{ftbquests.chapter.ae2.quest8351612552652165572.description7}"
+				"{ftbquests.chapter.ae2.quest73E6E35E2E8691C4.description1}"
+				"{ftbquests.chapter.ae2.quest73E6E35E2E8691C4.description2}"
+				"{ftbquests.chapter.ae2.quest73E6E35E2E8691C4.description3}"
+				"{ftbquests.chapter.ae2.quest73E6E35E2E8691C4.description4}"
+				"{ftbquests.chapter.ae2.quest73E6E35E2E8691C4.description5}"
+				"{ftbquests.chapter.ae2.quest73E6E35E2E8691C4.description6}"
+				"{ftbquests.chapter.ae2.quest73E6E35E2E8691C4.description7}"
 			]
 			id: "73E6E35E2E8691C4"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ae2.quest8351612552652165572.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest73E6E35E2E8691C4.subtitle}"
 			tasks: [
 				{
 					id: "4A0EE4B67BF7CEA1"
@@ -637,7 +637,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest8351612552652165572.title}"
+			title: "{ftbquests.chapter.ae2.quest73E6E35E2E8691C4.title}"
 			x: 8.0d
 			y: -3.0d
 		}
@@ -645,7 +645,7 @@
 			dependencies: ["1A4943F0B611E79B"]
 			id: "37022075645D1CF7"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ae2.quest3963766310606544119.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest37022075645D1CF7.subtitle}"
 			tasks: [{
 				id: "3A3EB0CFED607A29"
 				item: "ae2:crafting_unit"
@@ -666,9 +666,9 @@
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.ae2.quest2407258047972625819.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest21684C70C01BCD9B.description1}"]
 			id: "21684C70C01BCD9B"
-			subtitle: "变聪明了！"
+			subtitle: "{ftbquests.chapter.ae2.quest21684C70C01BCD9B.subtitle}"
 			tasks: [
 				{
 					id: "740A5B30F0635E41"
@@ -718,9 +718,9 @@
 		}
 		{
 			dependencies: ["1081942C521EB158"]
-			description: ["{ftbquests.chapter.ae2.quest2467829109488225640.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest223F7D7FFD6A0D68.description1}"]
 			id: "223F7D7FFD6A0D68"
-			subtitle: "{ftbquests.chapter.ae2.quest2467829109488225640.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest223F7D7FFD6A0D68.subtitle}"
 			tasks: [{
 				id: "42821AD5D9B0E045"
 				item: "ae2wtlib:wireless_universal_terminal"
@@ -742,7 +742,7 @@
 		}
 		{
 			dependencies: ["73DD7619A5294C80"]
-			description: ["{ftbquests.chapter.ae2.quest2004063307535103976.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest1BCFDCF5D10637E8.description1}"]
 			id: "1BCFDCF5D10637E8"
 			rewards: [{
 				count: 4
@@ -760,7 +760,7 @@
 		}
 		{
 			dependencies: ["73DD7619A5294C80"]
-			description: ["{ftbquests.chapter.ae2.quest1180141217104375022.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest1060B42F2E4DACEE.description1}"]
 			id: "1060B42F2E4DACEE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -792,13 +792,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest1180141217104375022.title}"
+			title: "{ftbquests.chapter.ae2.quest1060B42F2E4DACEE.title}"
 			x: 3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["1060B42F2E4DACEE"]
-			description: ["{ftbquests.chapter.ae2.quest2635239997441893113.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest249240D0C96CE2F9.description1}"]
 			id: "249240D0C96CE2F9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -816,12 +816,12 @@
 		}
 		{
 			description: [
-				"制作奇点和物质球"
-				"{ftbquests.chapter.ae2.quest8056625128487196608.description2}"
+				"{ftbquests.chapter.ae2.quest6FCEE1DE57F717C0.description1}"
+				"{ftbquests.chapter.ae2.quest6FCEE1DE57F717C0.description2}"
 			]
 			id: "6FCEE1DE57F717C0"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ae2.quest8056625128487196608.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest6FCEE1DE57F717C0.subtitle}"
 			tasks: [{
 				id: "4612548D88C54996"
 				item: "ae2:condenser"
@@ -832,7 +832,7 @@
 		}
 		{
 			id: "4632CB7C9A11C8D9"
-			subtitle: "{ftbquests.chapter.ae2.quest5058329067511728345.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest4632CB7C9A11C8D9.subtitle}"
 			tasks: [
 				{
 					id: "39B212A7BC52E5E3"
@@ -860,7 +860,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest5058329067511728345.title}"
+			title: "{ftbquests.chapter.ae2.quest4632CB7C9A11C8D9.title}"
 			x: 8.0d
 			y: -2.0d
 		}
@@ -872,7 +872,7 @@
 				id: "57A76D0E92F3BFC6"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ae2.quest2393039082004255224.title}"
+			title: "{ftbquests.chapter.ae2.quest2135C85DC07D91F8.title}"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -901,18 +901,18 @@
 				type: "random"
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.ae2.quest1894119819411842971.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest1A4943F0B611E79B.subtitle}"
 			tasks: [{
 				id: "3ECCDCF32A0EC13D"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.ae2.quest1894119819411842971.title}"
+			title: "{ftbquests.chapter.ae2.quest1A4943F0B611E79B.title}"
 			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2135C85DC07D91F8"]
-			description: ["{ftbquests.chapter.ae2.quest2462693457722776164.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest222D3EA6E23E9A64.description1}"]
 			id: "222D3EA6E23E9A64"
 			tasks: [{
 				id: "66F5F61859B8F374"
@@ -936,8 +936,8 @@
 		{
 			dependencies: ["6680806967633AD8"]
 			description: [
-				"{ftbquests.chapter.ae2.quest7045962431365343044.description1}"
-				"{ftbquests.chapter.ae2.quest7045962431365343044.description2}"
+				"{ftbquests.chapter.ae2.quest61C849800E476744.description1}"
+				"{ftbquests.chapter.ae2.quest61C849800E476744.description2}"
 			]
 			id: "61C849800E476744"
 			rewards: [{
@@ -946,7 +946,7 @@
 				table_id: 971429564947815603L
 				type: "loot"
 			}]
-			subtitle: "{ftbquests.chapter.ae2.quest7045962431365343044.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest61C849800E476744.subtitle}"
 			tasks: [
 				{
 					id: "18B35D0170CB5BA3"
@@ -974,7 +974,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ae2.quest7045962431365343044.title}"
+			title: "{ftbquests.chapter.ae2.quest61C849800E476744.title}"
 			x: 8.0d
 			y: 4.0d
 		}
@@ -1014,8 +1014,8 @@
 				"53D4A81ADA13DD15"
 			]
 			description: [
-				"{ftbquests.chapter.ae2.quest4824360828341865750.description1}"
-				"{ftbquests.chapter.ae2.quest4824360828341865750.description2}"
+				"{ftbquests.chapter.ae2.quest42F3929CE1A04D16.description1}"
+				"{ftbquests.chapter.ae2.quest42F3929CE1A04D16.description2}"
 			]
 			id: "42F3929CE1A04D16"
 			size: 1.5d
@@ -1041,8 +1041,8 @@
 		{
 			dependencies: ["6CBC89BB2970D034"]
 			description: [
-				"{ftbquests.chapter.ae2.quest1018685362918791789.description1}"
-				"{ftbquests.chapter.ae2.quest1018685362918791789.description2}"
+				"{ftbquests.chapter.ae2.questE2318F0BAAA1A6D.description1}"
+				"{ftbquests.chapter.ae2.questE2318F0BAAA1A6D.description2}"
 			]
 			id: "0E2318F0BAAA1A6D"
 			rewards: [{
@@ -1083,7 +1083,7 @@
 		{
 			dependencies: ["2135C85DC07D91F8"]
 			id: "5863AE71FD7FBAEB"
-			subtitle: "{ftbquests.chapter.ae2.quest6369126102639557355.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest5863AE71FD7FBAEB.subtitle}"
 			tasks: [{
 				id: "4CB33BE6E9C3B632"
 				item: "ae2:cell_workbench"
@@ -1094,7 +1094,7 @@
 		}
 		{
 			dependencies: ["7A25DAE6AFF4FF80"]
-			description: ["{ftbquests.chapter.ae2.quest1446955754521064297.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest14149E97A9EF7369.description1}"]
 			id: "14149E97A9EF7369"
 			tasks: [
 				{
@@ -1144,8 +1144,8 @@
 		{
 			dependencies: ["2135C85DC07D91F8"]
 			description: [
-				"{ftbquests.chapter.ae2.quest7166811786134294949.description1}"
-				"{ftbquests.chapter.ae2.quest7166811786134294949.description2}"
+				"{ftbquests.chapter.ae2.quest6375A1591C9E11A5.description1}"
+				"{ftbquests.chapter.ae2.quest6375A1591C9E11A5.description2}"
 			]
 			id: "6375A1591C9E11A5"
 			tasks: [{
@@ -1158,7 +1158,7 @@
 		}
 		{
 			dependencies: ["6C9A963F105E33D1"]
-			description: ["{ftbquests.chapter.ae2.quest1402299747150432701.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest1375F830B98589BD.description1}"]
 			id: "1375F830B98589BD"
 			tasks: [{
 				id: "225FCADAB3DEDFB6"
@@ -1182,9 +1182,9 @@
 		{
 			dependencies: ["2135C85DC07D91F8"]
 			description: [
-				"{ftbquests.chapter.ae2.quest9198780508373606945.description1}"
-				"{ftbquests.chapter.ae2.quest9198780508373606945.description2}"
-				"{ftbquests.chapter.ae2.quest9198780508373606945.description3}"
+				"{ftbquests.chapter.ae2.quest7FA8A22298656221.description1}"
+				"{ftbquests.chapter.ae2.quest7FA8A22298656221.description2}"
+				"{ftbquests.chapter.ae2.quest7FA8A22298656221.description3}"
 			]
 			id: "7FA8A22298656221"
 			rewards: [{
@@ -1291,7 +1291,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.ae2.quest8312708008528727960.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest735CABE421E64F98.description1}"]
 			id: "735CABE421E64F98"
 			rewards: [{
 				count: 16
@@ -1338,18 +1338,18 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.ae2.quest1643874341002512645.description1}"
+				"{ftbquests.chapter.ae2.quest16D03700E6D58905.description1}"
 				""
-				"整合包内置高版本风格AE材质包，可自行在资源包界面启用。"
+				"{ftbquests.chapter.ae2.quest16D03700E6D58905.description2}"
 				""
-				"&4注意&r：本整合包对AE进行了深度魔改，自行添加额外的AE附属mod很可能造成不兼容、崩溃或其他bug。"
+				"{ftbquests.chapter.ae2.quest16D03700E6D58905.description3}"
 			]
 			id: "16D03700E6D58905"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ae2.quest1643874341002512645.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest16D03700E6D58905.subtitle}"
 			tasks: [{
 				id: "6F9B24E6183A18C2"
-				title: "{ftbquests.chapter.ae2.quest1643874341002512645.task.8042062130267691202.title}"
+				title: "{ftbquests.chapter.ae2.quest16D03700E6D58905.task.8042062130267691202.title}"
 				type: "checkmark"
 			}]
 			x: -8.5d
@@ -1358,7 +1358,7 @@
 		{
 			dependencies: ["39932A8C0601C003"]
 			id: "53D4A81ADA13DD15"
-			subtitle: "{ftbquests.chapter.ae2.quest6040637833492028693.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest53D4A81ADA13DD15.subtitle}"
 			tasks: [{
 				id: "60F3F4226CEE7027"
 				item: "ae2:printed_silicon"
@@ -1369,7 +1369,7 @@
 		}
 		{
 			id: "4D0E732C53F05993"
-			subtitle: "{ftbquests.chapter.ae2.quest5552502024818416019.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest4D0E732C53F05993.subtitle}"
 			tasks: [{
 				id: "591B902407CA244F"
 				item: "ae2:quartz_fiber"
@@ -1526,7 +1526,7 @@
 			]
 			id: "4D0CA1F72EEEA7D5"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.ae2.quest5551990523657365461.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest4D0CA1F72EEEA7D5.subtitle}"
 			tasks: [{
 				id: "2D3C9DB58DD58BA7"
 				item: "ae2omnicells:omni_link_processor"
@@ -1542,7 +1542,7 @@
 			]
 			id: "317B11045B791B3C"
 			size: 1.5d
-			subtitle: "你好，再婚"
+			subtitle: "{ftbquests.chapter.ae2.quest317B11045B791B3C.subtitle}"
 			tasks: [{
 				id: "409E879A0D3FE505"
 				item: "ae2omnicells:complex_link_processor"
@@ -1553,12 +1553,12 @@
 		}
 		{
 			description: [
-				"    包含OMNI 合成单元的CPU在执行合成任务时，会自动对处理样板进行翻倍发配（如果样板供应器为不阻挡或智能阻挡），默认最大倍数为64，可通过设置修改。"
-				"    &4注意：容器或机器容量太小可能导致无法发配进而卡住合成&r"
+				"{ftbquests.chapter.ae2.quest1B4E505F5E359FAF.description1}"
+				"{ftbquests.chapter.ae2.quest1B4E505F5E359FAF.description2}"
 			]
 			id: "1B4E505F5E359FAF"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.ae2.quest1967598457740173231.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest1B4E505F5E359FAF.subtitle}"
 			tasks: [{
 				id: "2D30658B8BAD7E48"
 				item: "ae2omnicells:omni_crafting_unit_block"
@@ -1641,7 +1641,7 @@
 			dependencies: ["1B4E505F5E359FAF"]
 			id: "7DB09F149989EB3E"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.ae2.quest9056913761466182462.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest7DB09F149989EB3E.subtitle}"
 			tasks: [{
 				id: "60220FFF50EF918E"
 				item: "ae2omnicells:complex_crafting_unit_block"
@@ -1704,7 +1704,7 @@
 				"6D442B2854D5D2AD"
 				"1C17E0B0EBA06DCC"
 			]
-			description: ["{ftbquests.chapter.ae2.quest5287912950617358297.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest496270CFE0BC3FD9.description1}"]
 			icon: "avaritia:infinity_catalyst"
 			id: "496270CFE0BC3FD9"
 			rewards: [
@@ -1764,10 +1764,10 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ae2.quest5287912950617358297.subtitle}"
+			subtitle: "{ftbquests.chapter.ae2.quest496270CFE0BC3FD9.subtitle}"
 			tasks: [{
 				id: "11B593F74740EFC8"
-				title: "{ftbquests.chapter.ae2.quest5287912950617358297.task.1276088759691046856.title}"
+				title: "{ftbquests.chapter.ae2.quest496270CFE0BC3FD9.task.1276088759691046856.title}"
 				type: "checkmark"
 			}]
 			x: 29.0d
@@ -1775,9 +1775,9 @@
 		}
 		{
 			dependencies: ["6375A1591C9E11A5"]
-			description: ["传递EU时会收取5%的税，直接从网络中扣除，当心AE跳电！"]
+			description: ["{ftbquests.chapter.ae2.quest5D021CAFB247CECD.description1}"]
 			id: "5D021CAFB247CECD"
-			subtitle: "要收税的！"
+			subtitle: "{ftbquests.chapter.ae2.quest5D021CAFB247CECD.subtitle}"
 			tasks: [{
 				id: "695413C7BF80B729"
 				item: "eup2p:eu_p2p_tunnel"
@@ -1788,7 +1788,7 @@
 		}
 		{
 			dependencies: ["17E7750B7D3E59C7"]
-			description: ["{ftbquests.chapter.ae2.quest2550479579923850672.description1}"]
+			description: ["{ftbquests.chapter.ae2.quest23651FAA383FA5B0.description1}"]
 			id: "23651FAA383FA5B0"
 			tasks: [{
 				id: "0804CBF76FC67ECD"
@@ -1822,10 +1822,10 @@
 				table_id: 7618519509353548779L
 				type: "choice"
 			}]
-			subtitle: "要离婚了"
+			subtitle: "{ftbquests.chapter.ae2.quest5398C4B22691E149.subtitle}"
 			tasks: [{
 				id: "57E782E5F5BC7DDC"
-				title: "{ftbquests.chapter.ae2.quest6023780771038355785.task.6334175325101784540.title}"
+				title: "{ftbquests.chapter.ae2.quest5398C4B22691E149.task.6334175325101784540.title}"
 				type: "checkmark"
 			}]
 			x: 20.5d
@@ -1833,9 +1833,9 @@
 		}
 		{
 			dependencies: ["7A25DAE6AFF4FF80"]
-			description: ["将其接入AE网络即可检测或提交库存中的物品/流体来完成FTB任务。检测器与放置其的玩家所在的FTB队伍绑定，检测器会自动检测库存物品来完成不消耗的任务。队伍成员在任务界面主动提交时，会优先消耗ME库存中的物品/流体。 "]
+			description: ["{ftbquests.chapter.ae2.quest15ECB84AB1215CF2.description1}"]
 			id: "15ECB84AB1215CF2"
-			subtitle: "接入AE网络后可以自动检测任务物品"
+			subtitle: "{ftbquests.chapter.ae2.quest15ECB84AB1215CF2.subtitle}"
 			tasks: [{
 				id: "20726F83C293BEFF"
 				item: "ae2_ftbquest_detector:me_quests_detector"
@@ -1847,11 +1847,11 @@
 		{
 			dependencies: ["42F3929CE1A04D16"]
 			description: [
-				"    本整合包为样板供应器（及扩展样板供应器）添加了阻挡类型设置，其中较为实用的是“&e智能阻挡&r”，即不阻挡同一处理样板的发配。"
-				"    另外，当紧贴GT机器或仓室放置时，在样板管理终端中该供应器的名称会自动显示成&b机器&r或&b仓室所属的多方块&r名称，同时会附带&b虚拟电路编号&r（如果设置了）和&b多方块的配方类型&r。"
+				"{ftbquests.chapter.ae2.quest5E445FBCF85AF5F1.description1}"
+				"{ftbquests.chapter.ae2.quest5E445FBCF85AF5F1.description2}"
 			]
 			id: "5E445FBCF85AF5F1"
-			subtitle: "智能阻挡"
+			subtitle: "{ftbquests.chapter.ae2.quest5E445FBCF85AF5F1.subtitle}"
 			tasks: [{
 				id: "7A24C4F3B455092A"
 				item: "ae2:pattern_provider"
@@ -1866,9 +1866,9 @@
 				"445EB3640522A172"
 				"527F922CFEC9CEA3"
 			]
-			description: ["    可安装在样板供应器中，此时样板供应器执行&b带有编程电路的样板&r时，&e不会&r向网络请求编程电路物品，而是将发配目标机器的&b虚拟电路&r设置为对应编号，这一功能可以对&b子网&r生效。"]
+			description: ["{ftbquests.chapter.ae2.quest57D1710E05DBF5D4.description1}"]
 			id: "57D1710E05DBF5D4"
-			subtitle: "不想堆机器？"
+			subtitle: "{ftbquests.chapter.ae2.quest57D1710E05DBF5D4.subtitle}"
 			tasks: [{
 				id: "0561A9088D0064BD"
 				item: "pccard:card_programmed_circuit"
@@ -1878,9 +1878,9 @@
 			y: 1.0d
 		}
 		{
-			description: ["    ME仓室直接从网络提取原料，将产物存入网络，且具有无限缓存。"]
+			description: ["{ftbquests.chapter.ae2.quest77B0C03023DF3CAC.description1}"]
 			id: "77B0C03023DF3CAC"
-			subtitle: "无限容量！"
+			subtitle: "{ftbquests.chapter.ae2.quest77B0C03023DF3CAC.subtitle}"
 			tasks: [
 				{
 					id: "6999D8649C390AFC"
@@ -1908,18 +1908,18 @@
 					type: "item"
 				}
 			]
-			title: "ME仓室"
+			title: "{ftbquests.chapter.ae2.quest77B0C03023DF3CAC.title}"
 			x: 4.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["0561A9088D0064BD"]
 			description: [
-				"    样板总成的每个样板槽位有单独且&e互相隔离&r的原料缓存，从根本上杜绝串配方。"
-				"    样板总成镜像只需通过闪存与样板总成绑定，自身无需接入ME网络。"
+				"{ftbquests.chapter.ae2.quest72F4ADF5432A6F35.description1}"
+				"{ftbquests.chapter.ae2.quest72F4ADF5432A6F35.description2}"
 			]
 			id: "72F4ADF5432A6F35"
-			subtitle: "不只是样板供应器贴输入总成"
+			subtitle: "{ftbquests.chapter.ae2.quest72F4ADF5432A6F35.subtitle}"
 			tasks: [
 				{
 					id: "2B4E862932DEEDC5"
@@ -1937,9 +1937,9 @@
 		}
 		{
 			dependencies: ["4C2F508E36E8624E"]
-			description: ["   支持带有编程电路的样板，同时具备输出功能（可以理解为内置了一个ME输出总成）。"]
+			description: ["{ftbquests.chapter.ae2.quest6D8874393C5A8DC7.description1}"]
 			id: "6D8874393C5A8DC7"
-			subtitle: "这甚至还不是最终形态"
+			subtitle: "{ftbquests.chapter.ae2.quest6D8874393C5A8DC7.subtitle}"
 			tasks: [
 				{
 					id: "2C7EF9D94716547B"
@@ -1960,10 +1960,10 @@
 				"5EF66EA626586D4A"
 				"53389BA89020EE79"
 			]
-			description: ["    研究所需的“神秘方块”可以通过精准采集获取。"]
+			description: ["{ftbquests.chapter.ae2.quest5CAFDC6022A78C40.description1}"]
 			id: "5CAFDC6022A78C40"
 			size: 2.0d
-			subtitle: "策定乾坤算因果"
+			subtitle: "{ftbquests.chapter.ae2.quest5CAFDC6022A78C40.subtitle}"
 			tasks: [{
 				id: "4603AC110275C6B7"
 				item: "ctnhenergy:jiuzhang_quantum_computer"
@@ -1975,13 +1975,13 @@
 		{
 			dependencies: ["0C9E95E5F5741075"]
 			description: [
-				"    样板编码终端的处理样板模式增加了一个按键，可以设置编码样板时&b是否加入配方中的编程电路&r（如果有），这一功能可配合&e可编程电路卡&r使用（详见相关AE教程或任务）。"
+				"{ftbquests.chapter.ae2.quest7200C4597B67A8F1.description1}"
 				""
-				"    &b以下是给老格雷员工的提醒："
-				"    &b在本整合包中，中期开始可以使用的OMNI CPU和量子超算在发配处理样板时均有&e自动翻倍&b功能，故编写样板时无需倍乘产物和原料。"
+				"{ftbquests.chapter.ae2.quest7200C4597B67A8F1.description2}"
+				"{ftbquests.chapter.ae2.quest7200C4597B67A8F1.description3}"
 			]
 			id: "7200C4597B67A8F1"
-			subtitle: "怎么没有翻倍按钮"
+			subtitle: "{ftbquests.chapter.ae2.quest7200C4597B67A8F1.subtitle}"
 			tasks: [{
 				id: "41AB3D6DEF3410B7"
 				item: "ae2:pattern_encoding_terminal"
@@ -1992,11 +1992,11 @@
 		}
 		{
 			description: [
-				"    可以方便地对线缆进行染色，建议使用染色球以节约染料。"
-				"    本整合包将其与GT进行了兼容，可以为仓室染色，可以shift+右键以染色所有相邻目标。"
+				"{ftbquests.chapter.ae2.quest14CBF9DA688E3046.description1}"
+				"{ftbquests.chapter.ae2.quest14CBF9DA688E3046.description2}"
 			]
 			id: "14CBF9DA688E3046"
-			subtitle: "喷漆罐上位"
+			subtitle: "{ftbquests.chapter.ae2.quest14CBF9DA688E3046.subtitle}"
 			tasks: [{
 				id: "126339367CB45A2B"
 				item: {
@@ -2007,7 +2007,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			title: "染色器"
+			title: "{ftbquests.chapter.ae2.quest14CBF9DA688E3046.title}"
 			x: 7.0d
 			y: 3.0d
 		}
@@ -2030,9 +2030,9 @@
 			y: -2.0d
 		}
 		{
-			description: ["    将ME设备整个打包，保留配置以及其中的物品"]
+			description: ["{ftbquests.chapter.ae2.quest69DC92C4C5D437D1.description1}"]
 			id: "69DC92C4C5D437D1"
-			subtitle: "别再把样板弄得到处都是了~"
+			subtitle: "{ftbquests.chapter.ae2.quest69DC92C4C5D437D1.subtitle}"
 			tasks: [{
 				id: "1BA2F447CA8EE6DF"
 				item: {
@@ -2050,7 +2050,7 @@
 		{
 			dependencies: ["5E445FBCF85AF5F1"]
 			id: "6F9C768514497266"
-			subtitle: "不算很有用"
+			subtitle: "{ftbquests.chapter.ae2.quest6F9C768514497266.subtitle}"
 			tasks: [{
 				id: "1FEDDF8392071740"
 				item: "expatternprovider:pattern_modifier"
@@ -2074,9 +2074,9 @@
 			y: 2.5d
 		}
 		{
-			description: ["    右键p2p通道打开UI，可方便地绑定和管理网络中的p2p（包括EUP2P）。&b进行任何改动之后，都需要点击左侧的刷新按钮以同步改动。&r"]
+			description: ["{ftbquests.chapter.ae2.quest5D65755F840439BF.description1}"]
 			id: "5D65755F840439BF"
-			subtitle: "p2p神器"
+			subtitle: "{ftbquests.chapter.ae2.quest5D65755F840439BF.subtitle}"
 			tasks: [{
 				id: "31A6D2E48D11D136"
 				item: {
@@ -2093,9 +2093,9 @@
 			y: -4.0d
 		}
 		{
-			description: ["    可以自动拉取网络中的物品/流体，不必手动标记"]
+			description: ["{ftbquests.chapter.ae2.quest70E6618E83518A65.description1}"]
 			id: "70E6618E83518A65"
-			subtitle: "自动拉取"
+			subtitle: "{ftbquests.chapter.ae2.quest70E6618E83518A65.subtitle}"
 			tasks: [
 				{
 					id: "5BC89AFC0547925F"
@@ -2121,11 +2121,11 @@
 				"071285C288ECD6B8"
 				"21684C70C01BCD9B"
 			]
-			description: ["包含自动搜索、快捷上传样板等功能"]
+			description: ["{ftbquests.chapter.ae2.quest4D69AA45057F6027.description1}"]
 			id: "4D69AA45057F6027"
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "最伟大的发明"
+			subtitle: "{ftbquests.chapter.ae2.quest4D69AA45057F6027.subtitle}"
 			tasks: [{
 				id: "6688B75B4D382A91"
 				item: "ae2pw:pattern_workstation"
@@ -2138,10 +2138,10 @@
 			dependencies: ["4C2F508E36E8624E"]
 			description: [
 				""
-				"在高级样板总成基础上又添加了ME能源仓的功能"
+				"{ftbquests.chapter.ae2.questF600FD30F968575.description1}"
 			]
 			id: "0F600FD30F968575"
-			subtitle: "输入输出能源三位一体！"
+			subtitle: "{ftbquests.chapter.ae2.questF600FD30F968575.subtitle}"
 			tasks: [
 				{
 					id: "357BE1F6ED02C2D3"
@@ -2184,7 +2184,7 @@
 				"58DEFF4106911887"
 			]
 			id: "32FCEC9F52EEA348"
-			subtitle: "另一种获取福鲁伊克斯的方法"
+			subtitle: "{ftbquests.chapter.ae2.quest32FCEC9F52EEA348.subtitle}"
 			tasks: [{
 				id: "0C1DE271FA6C82D5"
 				item: "ae2cs:fluix_crystal_seed"
@@ -2248,7 +2248,7 @@
 				"52504E17B7878EB0"
 			]
 			id: "6733658EEC384D55"
-			subtitle: "使用方法见guideME，拥有扩展版本"
+			subtitle: "{ftbquests.chapter.ae2.quest6733658EEC384D55.subtitle}"
 			tasks: [{
 				id: "7069DA0FE865E942"
 				item: "ae2cs:ender_interface"
@@ -2260,7 +2260,7 @@
 		{
 			dependencies: ["6733658EEC384D55"]
 			id: "0A4F60E991419943"
-			subtitle: "这个也有扩展版本"
+			subtitle: "{ftbquests.chapter.ae2.questA4F60E991419943.subtitle}"
 			tasks: [{
 				id: "49CB0DBE0771D75C"
 				item: "ae2cs:resonating_pattern_provider"
@@ -2286,7 +2286,7 @@
 				"52504E17B7878EB0"
 			]
 			id: "7F08D90076B64057"
-			subtitle: "使用方法见guideME"
+			subtitle: "{ftbquests.chapter.ae2.quest7F08D90076B64057.subtitle}"
 			tasks: [{
 				id: "4B04CB78A5ACB706"
 				item: "ae2cs:resonating_pattern_converter"
@@ -2312,7 +2312,7 @@
 				"52504E17B7878EB0"
 			]
 			id: "022A0F60AE449DF1"
-			subtitle: "使用方法见guideME"
+			subtitle: "{ftbquests.chapter.ae2.quest22A0F60AE449DF1.subtitle}"
 			tasks: [
 				{
 					id: "37B8DF375C97EEBE"
@@ -2325,7 +2325,7 @@
 					type: "item"
 				}
 			]
-			title: "末影频道系统"
+			title: "{ftbquests.chapter.ae2.quest22A0F60AE449DF1.title}"
 			x: 4.0d
 			y: -9.0d
 		}
@@ -2345,17 +2345,17 @@
 			id: "52504E17B7878EB0"
 			tasks: [{
 				id: "5B0A6975CF7FCEF9"
-				title: "HV"
+				title: "{ftbquests.chapter.ae2.quest52504E17B7878EB0.task.6560171761931898617.title}"
 				type: "checkmark"
 			}]
-			title: "HV可以做"
+			title: "{ftbquests.chapter.ae2.quest52504E17B7878EB0.title}"
 			x: 4.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["1DB89BF922D68C23"]
 			id: "095F64B9B8ABB1AD"
-			subtitle: "何意味？"
+			subtitle: "{ftbquests.chapter.ae2.quest95F64B9B8ABB1AD.subtitle}"
 			tasks: [{
 				id: "6EF6E6309DFCE9DE"
 				item: "ae2cs:simple_pattern_provider"
@@ -2365,5 +2365,5 @@
 			y: -4.0d
 		}
 	]
-	title: "&9应用能源2"
+	title: "{ftbquests.chapter.ae2.title}"
 }

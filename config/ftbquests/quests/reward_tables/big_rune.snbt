@@ -35,6 +35,6 @@
 		{ count: 64, item: "ctnhmana:quasar_rune", weight: 0.005f }
 		{ item: "ctnhmana:proliferation_rune", weight: 0.03f }
 	]
-	title: "真·符文抽奖"
+	title: "{ftbquests.loot_table.8234775604862196519.title}"
 	use_title: true
 }

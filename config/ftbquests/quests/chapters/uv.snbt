@@ -150,10 +150,10 @@
 				"619F43DB0B07651E"
 			]
 			id: "628F4826B5F6AC41"
-			subtitle: "{ftbquests.chapter.uv.quest7101974468485360705.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest628F4826B5F6AC41.subtitle}"
 			tasks: [{
 				id: "3BBE2FA962B1B2F2"
-				title: "{ftbquests.chapter.uv.quest7101974468485360705.task.4304930698364564210.title}"
+				title: "{ftbquests.chapter.uv.quest628F4826B5F6AC41.task.4304930698364564210.title}"
 				type: "checkmark"
 			}]
 			x: 42.5d
@@ -197,11 +197,11 @@
 				"7F81295FE18741A6"
 				"12BAF2B7FB2E3643"
 			]
-			description: ["        将编程电路设置为1以启动"]
+			description: ["{ftbquests.chapter.uv.quest50B3C9E6ECB749A2.description1}"]
 			id: "50B3C9E6ECB749A2"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest5815213537516538274.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest50B3C9E6ECB749A2.subtitle}"
 			tasks: [{
 				id: "5C64C7AB92A674C4"
 				item: "ctnhcore:void_miner"
@@ -212,20 +212,20 @@
 		}
 		{
 			id: "0FBFC9DC10435D74"
-			subtitle: "{ftbquests.chapter.uv.quest1134847578123492724.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.questFBFC9DC10435D74.subtitle}"
 			tasks: [{
 				id: "0093928D3E52E2E4"
 				item: "gtceu:petri_dish"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.uv.quest1134847578123492724.title}"
+			title: "{ftbquests.chapter.uv.questFBFC9DC10435D74.title}"
 			x: 43.5d
 			y: -21.0d
 		}
 		{
 			dependencies: ["18E2A4593690B3D1"]
 			id: "325BB56C5CEBF98A"
-			subtitle: "{ftbquests.chapter.uv.quest3628693401797130634.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest325BB56C5CEBF98A.subtitle}"
 			tasks: [{
 				id: "72587F7365E457B7"
 				item: "gtceu:highly_advanced_soc_wafer"
@@ -243,12 +243,12 @@
 				"325BB56C5CEBF98A"
 			]
 			description: [
-				"这条意识装配线的中间产物都是带范围的哦，恐怕你没办法很方便地做主动产线了，试试挂被动吧"
+				"{ftbquests.chapter.uv.quest76A0F39E1949074E.description1}"
 				""
-				"不要忘了中间产物作为输入也是有范围的，既然它在运行时有可能会消耗掉24个，那你就需要至少24个才能让配方运行哦"
+				"{ftbquests.chapter.uv.quest76A0F39E1949074E.description2}"
 			]
 			id: "76A0F39E1949074E"
-			subtitle: "{ftbquests.chapter.uv.quest8548099953103800142.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest76A0F39E1949074E.subtitle}"
 			tasks: [{
 				id: "409AC1430F7A281D"
 				item: "ctnhcore:sculk_cell"
@@ -281,7 +281,7 @@
 		{
 			dependencies: ["68E2F33616B5A7A0"]
 			id: "3FCC69ED6F284B06"
-			subtitle: "{ftbquests.chapter.uv.quest4597165788131511046.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest3FCC69ED6F284B06.subtitle}"
 			tasks: [
 				{
 					id: "1193B78963D8F5E0"
@@ -299,7 +299,7 @@
 		}
 		{
 			id: "68E2F33616B5A7A0"
-			subtitle: "{ftbquests.chapter.uv.quest7557870538315900832.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest68E2F33616B5A7A0.subtitle}"
 			tasks: [{
 				id: "60CB612E1591EBF7"
 				item: "ctnhcore:cultivationroom"
@@ -310,9 +310,9 @@
 		}
 		{
 			dependencies: ["1193B78963D8F5E0"]
-			description: ["{ftbquests.chapter.uv.quest8730928624309307956.description1}"]
+			description: ["{ftbquests.chapter.uv.quest792A7D534B3F0A34.description1}"]
 			id: "792A7D534B3F0A34"
-			subtitle: "{ftbquests.chapter.uv.quest8730928624309307956.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest792A7D534B3F0A34.subtitle}"
 			tasks: [{
 				id: "1D00EB8CDD9D7A5D"
 				item: "gtceu:sculk_dust"
@@ -324,7 +324,7 @@
 		{
 			dependencies: ["792A7D534B3F0A34"]
 			id: "5DA9CAEC38C8ACE8"
-			subtitle: "{ftbquests.chapter.uv.quest6749148632505167080.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest5DA9CAEC38C8ACE8.subtitle}"
 			tasks: [{
 				id: "1F44B10D9F469443"
 				item: "minecraft:echo_shard"
@@ -336,7 +336,7 @@
 		{
 			dependencies: ["792A7D534B3F0A34"]
 			id: "5EDA18A58B5B8833"
-			subtitle: "{ftbquests.chapter.uv.quest6834802483774851123.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest5EDA18A58B5B8833.subtitle}"
 			tasks: [{
 				id: "0218F2831F5332AC"
 				item: "gtceu:hidden_alloy_ingot"
@@ -366,7 +366,7 @@
 				"589FD2E6A654B2C5"
 			]
 			id: "011E8AEDD9D3731D"
-			subtitle: "{ftbquests.chapter.uv.quest80654597505643293.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest11E8AEDD9D3731D.subtitle}"
 			tasks: [{
 				id: "4C14CBFEB8D1D7C6"
 				item: "kubejs:echo_processor"
@@ -378,7 +378,7 @@
 		{
 			dependencies: ["7C72C9094F33CC23"]
 			id: "589FD2E6A654B2C5"
-			subtitle: "{ftbquests.chapter.uv.quest6386054684709532357.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest589FD2E6A654B2C5.subtitle}"
 			tasks: [
 				{
 					count: 64L
@@ -411,13 +411,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.uv.quest6386054684709532357.title}"
+			title: "{ftbquests.chapter.uv.quest589FD2E6A654B2C5.title}"
 			x: 45.5d
 			y: -21.0d
 		}
 		{
 			id: "7C72C9094F33CC23"
-			subtitle: "{ftbquests.chapter.uv.quest8967450849868762147.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest7C72C9094F33CC23.subtitle}"
 			tasks: [{
 				id: "47825706E3C7DD15"
 				item: "gtceu:kapton_k_plate"
@@ -433,7 +433,7 @@
 				"67C98CFDC97AFF44"
 			]
 			id: "79F1B6B69D7ED6CB"
-			subtitle: "{ftbquests.chapter.uv.quest8787005243419186891.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest79F1B6B69D7ED6CB.subtitle}"
 			tasks: [{
 				id: "3BA39A876DF0F2AE"
 				item: "kubejs:echo_processor_assembly"
@@ -448,7 +448,7 @@
 				"4351112175B0F270"
 			]
 			id: "706D808019B80CE8"
-			subtitle: "{ftbquests.chapter.uv.quest8101272592385051880.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest706D808019B80CE8.subtitle}"
 			tasks: [{
 				id: "40778AB101D44448"
 				item: "kubejs:echo_processor_computer"
@@ -475,7 +475,7 @@
 			]
 			id: "33ED8AC84DBC5E71"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest3741799458317033073.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest33ED8AC84DBC5E71.subtitle}"
 			tasks: [{
 				id: "6451F6B5CA51C264"
 				item: "kubejs:echo_processor_mainframe"
@@ -499,7 +499,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.uv.quest6992456190055775810.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest610A31DB73C17E42.subtitle}"
 			tasks: [{
 				id: "702449C7063C979C"
 				item: "ctnhcore:plasma_alloy_blast_smelter"
@@ -510,7 +510,7 @@
 		}
 		{
 			id: "2B91C66AF05AEFE4"
-			subtitle: "{ftbquests.chapter.uv.quest3139508577855270884.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest2B91C66AF05AEFE4.subtitle}"
 			tasks: [{
 				id: "709288CE4DFD43B5"
 				item: "gtceu:mega_blast_furnace"
@@ -522,7 +522,7 @@
 		{
 			dependencies: ["610A31DB73C17E42"]
 			id: "4FDEB75428302C94"
-			subtitle: "{ftbquests.chapter.uv.quest5755238945905454228.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest4FDEB75428302C94.subtitle}"
 			tasks: [{
 				id: "5959E0A3F789F5B9"
 				item: "gtceu:compressed_adamantite_plasma_bucket"
@@ -534,7 +534,7 @@
 		{
 			dependencies: ["610A31DB73C17E42"]
 			id: "7FC1D52CB7D8F3A3"
-			subtitle: "{ftbquests.chapter.uv.quest9205873501361730467.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest7FC1D52CB7D8F3A3.subtitle}"
 			tasks: [{
 				id: "3B3C73B38022BBE1"
 				item: "gtceu:compressed_aether_plasma_bucket"
@@ -545,7 +545,7 @@
 		}
 		{
 			dependencies: ["021B8F054C53AD36"]
-			description: ["{ftbquests.chapter.uv.quest2028710743606559921.description1}"]
+			description: ["{ftbquests.chapter.uv.quest1C276DAC38B004B1.description1}"]
 			icon: "gtceu:network_switch"
 			id: "1C276DAC38B004B1"
 			rewards: [{
@@ -554,7 +554,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.uv.quest2028710743606559921.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest1C276DAC38B004B1.subtitle}"
 			tasks: [
 				{
 					id: "7800D6CAE77BAF6E"
@@ -573,7 +573,7 @@
 		{
 			dependencies: ["38559FFEC45C6B03"]
 			id: "0A1650016D17B7F3"
-			subtitle: "{ftbquests.chapter.uv.quest726856356922374131.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.questA1650016D17B7F3.subtitle}"
 			tasks: [{
 				id: "20A935E8E14ACEE7"
 				item: "gtceu:uv_assembler"
@@ -607,7 +607,7 @@
 		}
 		{
 			id: "6B61A32A2688A834"
-			subtitle: "{ftbquests.chapter.uv.quest7737645036229666868.subtitle}"
+			subtitle: "{ftbquests.chapter.uv.quest6B61A32A2688A834.subtitle}"
 			tasks: [{
 				id: "1A30057D21C7EEB0"
 				item: "ctnhcore:luv_compressed_fusion_reactor"
@@ -627,5 +627,5 @@
 			y: -14.5d
 		}
 	]
-	title: "&3UV时期"
+	title: "{ftbquests.chapter.uv.title}"
 }

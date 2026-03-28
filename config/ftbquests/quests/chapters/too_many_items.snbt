@@ -29,8 +29,8 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"{ftbquests.chapter.too_many_items.quest3146199850414032825.description1}"
-			"{ftbquests.chapter.too_many_items.quest3146199850414032825.description2}"
+			"{ftbquests.chapter.too_many_items.quest2BA98C183C50C7B9.description1}"
+			"{ftbquests.chapter.too_many_items.quest2BA98C183C50C7B9.description2}"
 		]
 		id: "2BA98C183C50C7B9"
 		rewards: [{
@@ -38,15 +38,15 @@
 			item: "minecraft:chest"
 			type: "item"
 		}]
-		subtitle: "{ftbquests.chapter.too_many_items.quest3146199850414032825.subtitle}"
+		subtitle: "{ftbquests.chapter.too_many_items.quest2BA98C183C50C7B9.subtitle}"
 		tasks: [{
 			id: "310BFB18DB3EA991"
-			title: "{ftbquests.chapter.too_many_items.quest3146199850414032825.task.3534194416778389905.title}"
+			title: "{ftbquests.chapter.too_many_items.quest2BA98C183C50C7B9.task.3534194416778389905.title}"
 			type: "checkmark"
 		}]
-		title: "{ftbquests.chapter.too_many_items.quest3146199850414032825.title}"
+		title: "{ftbquests.chapter.too_many_items.quest2BA98C183C50C7B9.title}"
 		x: -3.5d
 		y: 0.0d
 	}]
-	title: "&f存储的艺术"
+	title: "{ftbquests.chapter.too_many_items.title}"
 }

@@ -10,13 +10,13 @@
 	quests: [
 		{
 			id: "6C02EE976B37E747"
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest7783045440155936583.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest6C02EE976B37E747.subtitle}"
 			tasks: [{
 				id: "49DFD4B82B52AB9B"
 				item: "ctnhcore:astronomical_observatory"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.418C24A6E3A8BE97.quest7783045440155936583.title}"
+			title: "{ftbquests.chapter.418C24A6E3A8BE97.quest6C02EE976B37E747.title}"
 			x: -26.0d
 			y: -7.0d
 		}
@@ -29,7 +29,7 @@
 				item: "ad_astra:moon_stone"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest8444055610362726007.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest752F4FD6CF508677.subtitle}"
 			tasks: [{
 				id: "05C769BFF0B39581"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.418C24A6E3A8BE97.quest8444055610362726007.title}"
+			title: "{ftbquests.chapter.418C24A6E3A8BE97.quest752F4FD6CF508677.title}"
 			x: -24.0d
 			y: -7.0d
 		}
@@ -52,7 +52,7 @@
 				item: "ad_astra:mars_stone"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest2884830148333562032.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest2808F9BC44C268B0.subtitle}"
 			tasks: [{
 				id: "4F8E8E9CE9FCAD9A"
 				item: {
@@ -74,7 +74,7 @@
 				item: "ad_astra:venus_stone"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest8133555216180603045.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest70E031602D7868A5.subtitle}"
 			tasks: [{
 				id: "0A38E039140C01C1"
 				item: {
@@ -96,7 +96,7 @@
 				item: "ad_astra:glacio_stone"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest6351963091514054282.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest5826B4C71016568A.subtitle}"
 			tasks: [{
 				id: "5C47000E93612AA9"
 				item: {
@@ -111,22 +111,22 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description1}"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest1DE5479957FC30C8.description1}"
 				""
-				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description2}"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest1DE5479957FC30C8.description2}"
 				""
-				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description3}"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest1DE5479957FC30C8.description3}"
 				""
-				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description4}"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest1DE5479957FC30C8.description4}"
 				""
-				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description5}"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest1DE5479957FC30C8.description5}"
 				""
-				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description6}"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest1DE5479957FC30C8.description6}"
 				""
-				"{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.description7}"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest1DE5479957FC30C8.description7}"
 			]
 			id: "1DE5479957FC30C8"
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest2154206720698364104.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest1DE5479957FC30C8.subtitle}"
 			tasks: [{
 				id: "654F8255ADF745A3"
 				item: "gtceu:sunnarium_dust"
@@ -143,7 +143,7 @@
 				item: "gtceu:clgs_buffer_dust"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest3290530193941729899.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest2DAA4FC70498126B.subtitle}"
 			tasks: [{
 				id: "380DC95794B3C44D"
 				item: "ctnhcore:combined_vapor_deposition_facility"
@@ -154,14 +154,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.418C24A6E3A8BE97.quest719038903429441451.description1}"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest9FA8A12B29927AB.description1}"
 				""
-				"{ftbquests.chapter.418C24A6E3A8BE97.quest719038903429441451.description2}"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest9FA8A12B29927AB.description2}"
 				""
-				"{ftbquests.chapter.418C24A6E3A8BE97.quest719038903429441451.description3}"
+				"{ftbquests.chapter.418C24A6E3A8BE97.quest9FA8A12B29927AB.description3}"
 			]
 			id: "09FA8A12B29927AB"
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest719038903429441451.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest9FA8A12B29927AB.subtitle}"
 			tasks: [{
 				id: "67B24005580A3D5C"
 				item: "ctnhcore:lasersorder"
@@ -174,13 +174,13 @@
 			dependencies: ["2DAA4FC70498126B"]
 			description: [""]
 			id: "7D650ADE6C75CD06"
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest9035640177807445254.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest7D650ADE6C75CD06.subtitle}"
 			tasks: [{
 				id: "125B1FC29EC800D1"
 				item: "kubejs:clgs"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.418C24A6E3A8BE97.quest9035640177807445254.title}"
+			title: "{ftbquests.chapter.418C24A6E3A8BE97.quest7D650ADE6C75CD06.title}"
 			x: -24.0d
 			y: -14.0d
 		}
@@ -204,7 +204,7 @@
 				"7D650ADE6C75CD06"
 			]
 			id: "73409F231880358F"
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest8304812685954921871.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest73409F231880358F.subtitle}"
 			tasks: [{
 				id: "1EF2653C1ABFCD36"
 				item: "ctnhcore:photon_press_cond_block"
@@ -231,7 +231,7 @@
 		{
 			dependencies: ["637A10CE158A936B"]
 			id: "02E2FF97E48241B5"
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest208009560651350453.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest2E2FF97E48241B5.subtitle}"
 			tasks: [
 				{
 					id: "1C63F49C89862944"
@@ -254,7 +254,7 @@
 		{
 			dependencies: ["02E2FF97E48241B5"]
 			id: "014167EAE9AA3DC3"
-			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest90467726164377027.subtitle}"
+			subtitle: "{ftbquests.chapter.418C24A6E3A8BE97.quest14167EAE9AA3DC3.subtitle}"
 			tasks: [{
 				id: "6C65DB4440B3E238"
 				item: {
@@ -343,5 +343,5 @@
 			y: -10.0d
 		}
 	]
-	title: "&5星际工程"
+	title: "{ftbquests.chapter.418C24A6E3A8BE97.title}"
 }

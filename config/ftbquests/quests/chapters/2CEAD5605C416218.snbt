@@ -11,10 +11,10 @@
 		{
 			icon: "gtceu:oil_medium_bucket"
 			id: "475A6C3B67F4D31C"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5141540926999810844.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest475A6C3B67F4D31C.subtitle}"
 			tasks: [{
 				id: "731CCACD685E2B96"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest5141540926999810844.task.8294727597277719446.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest475A6C3B67F4D31C.task.8294727597277719446.title}"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -22,8 +22,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest5394991273347531891.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest5394991273347531891.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest4ADEDBFAAE364473.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest4ADEDBFAAE364473.description2}"
 			]
 			icon: {
 				Count: 1
@@ -46,32 +46,32 @@
 				}
 			}
 			id: "4ADEDBFAAE364473"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5394991273347531891.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4ADEDBFAAE364473.subtitle}"
 			tasks: [{
 				id: "786AC43ACCC0C0BE"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest5394991273347531891.task.8676963388905013438.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest4ADEDBFAAE364473.task.8676963388905013438.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest5394991273347531891.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest4ADEDBFAAE364473.title}"
 			x: -1.5d
 			y: -3.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest4153082544894739841.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest4153082544894739841.description2}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest4153082544894739841.description3}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest4153082544894739841.description4}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest39A2B69213538581.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest39A2B69213538581.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest39A2B69213538581.description3}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest39A2B69213538581.description4}"
 			]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "39A2B69213538581"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4153082544894739841.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest39A2B69213538581.subtitle}"
 			tasks: [{
 				id: "58329466B8F858C7"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest4153082544894739841.task.6355305193084049607.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest39A2B69213538581.task.6355305193084049607.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest4153082544894739841.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest39A2B69213538581.title}"
 			x: -5.5d
 			y: -3.5d
 		}
@@ -81,16 +81,16 @@
 			size: 2.0d
 			tasks: [{
 				id: "29414775BE90922F"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest2489503239327764465.task.2972735800075129391.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest228C7E019750CFF1.task.2972735800075129391.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest2489503239327764465.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest228C7E019750CFF1.title}"
 			x: -9.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["228C7E019750CFF1"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest7029061624028559947.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest618C3E4E348D7A4B.description1}"]
 			icon: "gtceu:oil_medium_bucket"
 			id: "618C3E4E348D7A4B"
 			rewards: [{
@@ -99,19 +99,19 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7029061624028559947.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest618C3E4E348D7A4B.subtitle}"
 			tasks: [{
 				id: "15F4BBF99560B0AF"
 				item: "gtceu:oil_medium_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest7029061624028559947.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest618C3E4E348D7A4B.title}"
 			x: -9.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["618C3E4E348D7A4B"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest4976574733466830719.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest4510585A6279877F.description1}"]
 			icon: "gtceu:lv_distillery"
 			id: "4510585A6279877F"
 			rewards: [{
@@ -120,13 +120,13 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4976574733466830719.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4510585A6279877F.subtitle}"
 			tasks: [{
 				id: "6F2AAB2D0B181CE3"
 				item: "gtceu:lv_distillery"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest4976574733466830719.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest4510585A6279877F.title}"
 			x: -9.5d
 			y: 3.0d
 		}
@@ -139,7 +139,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6629470241593485775.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5C009C0F6F33E9CF.subtitle}"
 			tasks: [{
 				id: "5896B3E4B735A9CD"
 				item: "gtceu:sulfuric_light_fuel_bucket"
@@ -157,7 +157,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4548059522478388318.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3F1DF409FEA8345E.subtitle}"
 			tasks: [{
 				id: "3D679307B9AC424B"
 				item: "gtceu:sulfuric_heavy_fuel_bucket"
@@ -175,7 +175,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1312292902226447921.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1236337116794E31.subtitle}"
 			tasks: [{
 				id: "4F24EC3D220FEFFD"
 				item: "gtceu:sulfuric_naphtha_bucket"
@@ -193,7 +193,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1311525866381824030.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest123379D3A36CD01E.subtitle}"
 			tasks: [{
 				id: "1BF8BD75F4D0F91C"
 				item: "gtceu:sulfuric_gas_bucket"
@@ -204,7 +204,7 @@
 		}
 		{
 			dependencies: ["4510585A6279877F"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest205898612596947862.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest2DB7FB27F963B96.description1}"]
 			id: "02DB7FB27F963B96"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -212,7 +212,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest205898612596947862.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2DB7FB27F963B96.subtitle}"
 			tasks: [{
 				id: "089524861B98D023"
 				item: "gtceu:lv_combustion"
@@ -223,7 +223,7 @@
 		}
 		{
 			dependencies: ["4510585A6279877F"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest5050413312190045751.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest4616AC2631FDDE37.description1}"]
 			id: "4616AC2631FDDE37"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -231,7 +231,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5050413312190045751.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4616AC2631FDDE37.subtitle}"
 			tasks: [{
 				id: "4A5B582B12D88B1C"
 				item: "gtceu:lv_gas_turbine"
@@ -246,7 +246,7 @@
 				"4616AC2631FDDE37"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest3687308411246684122.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest332BF376BDAB27DA.description1}"]
 			id: "332BF376BDAB27DA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -254,13 +254,13 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3687308411246684122.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest332BF376BDAB27DA.subtitle}"
 			tasks: [{
 				id: "6CACA63A911242FC"
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest3687308411246684122.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest332BF376BDAB27DA.title}"
 			x: -9.5d
 			y: 5.0d
 		}
@@ -273,7 +273,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5388086968924054019.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4AC6548D09A12203.subtitle}"
 			tasks: [{
 				id: "56D1A0EC50CBE6CC"
 				item: "gtceu:hydrogen_sulfide_bucket"
@@ -284,7 +284,7 @@
 		}
 		{
 			dependencies: ["4AC6548D09A12203"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest8787732641495979295.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest79F44C472D79151F.description1}"]
 			id: "79F44C472D79151F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -292,7 +292,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest8787732641495979295.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest79F44C472D79151F.subtitle}"
 			tasks: [{
 				id: "0A65F39BDDB64241"
 				item: "gtceu:lv_electrolyzer"
@@ -304,8 +304,8 @@
 		{
 			dependencies: ["79F44C472D79151F"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest2592455910048948286.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest2592455910048948286.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest23FA40EA2E54603E.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest23FA40EA2E54603E.description2}"
 			]
 			id: "23FA40EA2E54603E"
 			rewards: [{
@@ -314,7 +314,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2592455910048948286.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest23FA40EA2E54603E.subtitle}"
 			tasks: [{
 				id: "10C32448D622EF93"
 				item: "gtceu:hydrogen_bucket"
@@ -332,7 +332,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest769801250085943212.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.questAAEE2288B0637AC.subtitle}"
 			tasks: [{
 				id: "10C522331E766862"
 				item: "gtceu:light_fuel_bucket"
@@ -350,7 +350,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7330995953065289552.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest65BCEDFA60486750.subtitle}"
 			tasks: [{
 				id: "44B01AC3FA242AF5"
 				item: "gtceu:heavy_fuel_bucket"
@@ -368,7 +368,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6711111882503846944.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5D22A8B33C8B7C20.subtitle}"
 			tasks: [{
 				id: "018F258E7B148C75"
 				item: "gtceu:naphtha_bucket"
@@ -386,7 +386,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1450670826776531896.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1421D16E540993B8.subtitle}"
 			tasks: [{
 				id: "2C2E70C3DA3F42E5"
 				item: "gtceu:refinery_gas_bucket"
@@ -401,16 +401,16 @@
 			size: 2.0d
 			tasks: [{
 				id: "71DB850D53782BB8"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest355735526945918578.task.8204297438466943928.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest4EFD393B5990E72.task.8204297438466943928.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest355735526945918578.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest4EFD393B5990E72.title}"
 			x: -5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["04EFD393B5990E72"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest2072698371376301891.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest1CC3B42FE86A4743.description1}"]
 			id: "1CC3B42FE86A4743"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -418,14 +418,14 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2072698371376301891.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1CC3B42FE86A4743.subtitle}"
 			tasks: [{
 				id: "0E8DF40A39FEE802"
 				item: "gtceu:mv_mixer"
 				optional_task: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest2072698371376301891.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest1CC3B42FE86A4743.title}"
 			x: -6.5d
 			y: 1.0d
 		}
@@ -438,7 +438,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1041086531118452062.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.questE72AEAF23C24D5E.subtitle}"
 			tasks: [{
 				id: "3DA85AFE249DA5D3"
 				item: "gtceu:diesel_bucket"
@@ -456,7 +456,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest9157431512799969485.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7F15BB71576900CD.subtitle}"
 			tasks: [{
 				id: "01F65F3A729FFEB3"
 				item: "gtceu:mv_combustion"
@@ -467,7 +467,7 @@
 		}
 		{
 			dependencies: ["04EFD393B5990E72"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest7129796587437805664.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest62F220389305D060.description1}"]
 			id: "62F220389305D060"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -475,7 +475,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7129796587437805664.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest62F220389305D060.subtitle}"
 			tasks: [
 				{
 					id: "3C218F4B8794DC63"
@@ -506,9 +506,9 @@
 		{
 			dependencies: ["62F220389305D060"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest7227230633327529404.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest7227230633327529404.description2}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest7227230633327529404.description3}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest644C47F8314F0DBC.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest644C47F8314F0DBC.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest644C47F8314F0DBC.description3}"
 			]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "644C47F8314F0DBC"
@@ -518,19 +518,19 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7227230633327529404.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest644C47F8314F0DBC.subtitle}"
 			tasks: [{
 				id: "36D28FA2F621CC2B"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest7227230633327529404.task.3950377753234230315.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest644C47F8314F0DBC.task.3950377753234230315.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest7227230633327529404.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest644C47F8314F0DBC.title}"
 			x: -5.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["644C47F8314F0DBC"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest5013847561966651982.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest4594C3CB08FB0A4E.description1}"]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "4594C3CB08FB0A4E"
 			rewards: [{
@@ -539,13 +539,13 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5013847561966651982.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4594C3CB08FB0A4E.subtitle}"
 			tasks: [{
 				id: "36FD1A5427DD04EF"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest5013847561966651982.task.3962352195904275695.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest4594C3CB08FB0A4E.task.3962352195904275695.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest5013847561966651982.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest4594C3CB08FB0A4E.title}"
 			x: -5.5d
 			y: 4.0d
 		}
@@ -558,7 +558,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest9038377165306892643.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7D6EC424FC1E9163.subtitle}"
 			tasks: [{
 				id: "5EA09EC7F57F8E9B"
 				item: "gtceu:oil_heavy_bucket"
@@ -576,7 +576,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7400523393279827240.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest66B3F0D108699D28.subtitle}"
 			tasks: [{
 				id: "492E7C59270856E7"
 				item: "gtceu:oil_bucket"
@@ -594,7 +594,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5687208580354181872.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4EED06125B908AF0.subtitle}"
 			tasks: [{
 				id: "2A2EBA49242E2CCE"
 				item: "gtceu:oil_medium_bucket"
@@ -612,7 +612,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6197110277942975675.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest56008EF6CEB69CBB.subtitle}"
 			tasks: [{
 				id: "009C156DFF3085B3"
 				item: "gtceu:oil_light_bucket"
@@ -630,7 +630,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5466078595860587931.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4BDB6985BCA2E59B.subtitle}"
 			tasks: [{
 				id: "17514DF9D5931A82"
 				item: "gtceu:natural_gas_bucket"
@@ -648,7 +648,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3559789447874806775.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3166E9A46BC303F7.subtitle}"
 			tasks: [{
 				id: "6A558713FDCA6611"
 				item: "gtceu:mv_gas_turbine"
@@ -663,18 +663,18 @@
 			size: 2.0d
 			tasks: [{
 				id: "215D02C397CABDA2"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest2223091811695626825.task.2404080815174237602.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest1EDA02396B328A49.task.2404080815174237602.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest2223091811695626825.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest1EDA02396B328A49.title}"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4594C3CB08FB0A4E"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest3114822362585434709.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest3114822362585434709.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest2B3A126F8C590A55.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest2B3A126F8C590A55.description2}"
 			]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "2B3A126F8C590A55"
@@ -684,20 +684,20 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3114822362585434709.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2B3A126F8C590A55.subtitle}"
 			tasks: [{
 				id: "3B8FB6DD99CA612A"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest3114822362585434709.task.4291850032791576874.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest2B3A126F8C590A55.task.4291850032791576874.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest3114822362585434709.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest2B3A126F8C590A55.title}"
 			x: -4.5d
 			y: 3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest117CC578D19D6CB0.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest117CC578D19D6CB0.description2}"
 			]
 			id: "117CC578D19D6CB0"
 			rewards: [{
@@ -706,19 +706,19 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest117CC578D19D6CB0.subtitle}"
 			tasks: [{
 				id: "35ECDC9B95FE0CC8"
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest1260099118460398768.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest117CC578D19D6CB0.title}"
 			x: -2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1EDA02396B328A49"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest6987340290762421370.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest60F804F953AB347A.description1}"]
 			id: "60F804F953AB347A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -726,13 +726,13 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6987340290762421370.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest60F804F953AB347A.subtitle}"
 			tasks: [{
 				id: "0CB6F0E3570A9536"
 				item: "gtceu:large_chemical_reactor"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest6987340290762421370.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest60F804F953AB347A.title}"
 			x: -3.5d
 			y: 1.0d
 		}
@@ -745,13 +745,13 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3676036829715937226.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3303E8052878B7CA.subtitle}"
 			tasks: [{
 				id: "00654C7916B861B7"
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest3676036829715937226.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest3303E8052878B7CA.title}"
 			x: 0.5d
 			y: 1.0d
 		}
@@ -764,7 +764,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest357378748560859867.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4F5AA140E3E62DB.subtitle}"
 			tasks: [{
 				id: "4000C555F2D19DD2"
 				item: "gtceu:nitric_acid_bucket"
@@ -782,7 +782,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3496517958486262832.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3086208ED2590430.subtitle}"
 			tasks: [{
 				id: "391AD2AD6BBD8B53"
 				item: "gtceu:tetranitromethane_bucket"
@@ -800,7 +800,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6063496566813628665.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5425DE0071BA18F9.subtitle}"
 			tasks: [{
 				id: "19483A3569B1B4CD"
 				item: {
@@ -819,16 +819,16 @@
 						]
 					}
 				}
-				title: "搅拌"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest5425DE0071BA18F9.task.1821770050352297165.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest6063496566813628665.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest5425DE0071BA18F9.title}"
 			x: -1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["5425DE0071BA18F9"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest4398618668226325052.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest3D0B085FB6082A3C.description1}"]
 			id: "3D0B085FB6082A3C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -836,7 +836,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4398618668226325052.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3D0B085FB6082A3C.subtitle}"
 			tasks: [{
 				id: "60DA06A2C0D6F006"
 				item: "gtceu:cetane_boosted_diesel_bucket"
@@ -847,7 +847,7 @@
 		}
 		{
 			dependencies: ["117CC578D19D6CB0"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest6583698304535911184.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest5B5DFEB9DE345B10.description1}"]
 			id: "5B5DFEB9DE345B10"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -855,7 +855,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6583698304535911184.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5B5DFEB9DE345B10.subtitle}"
 			tasks: [{
 				id: "3F5C1C6A386784CF"
 				item: "gtceu:cracker"
@@ -866,7 +866,7 @@
 		}
 		{
 			dependencies: ["5B5DFEB9DE345B10"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest5234487111745640218.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest48A4A24B6CF5971A.description1}"]
 			icon: "botania:cosmetic_thinking_hand"
 			id: "48A4A24B6CF5971A"
 			rewards: [{
@@ -875,13 +875,13 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5234487111745640218.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest48A4A24B6CF5971A.subtitle}"
 			tasks: [{
 				id: "1E724717F806DDBB"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest5234487111745640218.task.2193894136753872315.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest48A4A24B6CF5971A.task.2193894136753872315.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest5234487111745640218.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest48A4A24B6CF5971A.title}"
 			x: -2.5d
 			y: 5.0d
 		}
@@ -894,7 +894,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1387754667665373453.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest13424B848195B90D.subtitle}"
 			tasks: [{
 				id: "5A32A66BA3C75CCB"
 				item: "gtceu:hv_combustion"
@@ -912,7 +912,7 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1538336099573458296.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest15594488383C6578.subtitle}"
 			tasks: [{
 				id: "74B0DF686C7C3484"
 				item: "gtceu:hv_gas_turbine"
@@ -927,10 +927,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "5AD80B6DF8A5239A"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest4431747556375038941.task.6545994625333928858.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest3D80BAEC0FF08BDD.task.6545994625333928858.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest4431747556375038941.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest3D80BAEC0FF08BDD.title}"
 			x: 2.5d
 			y: -1.5d
 		}
@@ -943,7 +943,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest8374553045847111616.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7438639FFA61F7C0.subtitle}"
 			tasks: [{
 				id: "6355DC86741BE21D"
 				item: "gtceu:hv_fluid_drilling_rig"
@@ -961,7 +961,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6866485749661138006.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5F4AA868BBD57C56.subtitle}"
 			tasks: [
 				{
 					id: "5579937E6ABDE147"
@@ -974,13 +974,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest6866485749661138006.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest5F4AA868BBD57C56.title}"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3D80BAEC0FF08BDD"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest2386641395451512205.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest211F0DB44621458D.description1}"]
 			id: "211F0DB44621458D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -988,13 +988,13 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2386641395451512205.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest211F0DB44621458D.subtitle}"
 			tasks: [{
 				id: "51C4207B1CE58024"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest2386641395451512205.task.5891869925645320228.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest211F0DB44621458D.task.5891869925645320228.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest2386641395451512205.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest211F0DB44621458D.title}"
 			x: 2.5d
 			y: 2.0d
 		}
@@ -1007,7 +1007,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5711449219036708363.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4F4324CDDD5D7E0B.subtitle}"
 			tasks: [{
 				id: "2E0555D66D7377B5"
 				item: "gtceu:methanol_bucket"
@@ -1025,7 +1025,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1122966120351058704.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.questF9593BC9A52CB10.subtitle}"
 			tasks: [{
 				id: "4E9C7E50E782699F"
 				item: "gtceu:acetone_bucket"
@@ -1043,7 +1043,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3977954338342305529.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest37348865059DFEF9.subtitle}"
 			tasks: [{
 				id: "597E7B965787262C"
 				item: "gtceu:naphtha_bucket"
@@ -1061,7 +1061,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5818752448374822414.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest50C05C85D150D60E.subtitle}"
 			tasks: [{
 				id: "5B9CB12DD9D76C09"
 				item: "gtceu:refinery_gas_bucket"
@@ -1102,7 +1102,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest7964656292123980543.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest6E8824B2FA2132FF.subtitle}"
 			tasks: [{
 				id: "635BE8148B4175E3"
 				item: "gtceu:toluene_bucket"
@@ -1123,7 +1123,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5822311918883214662.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest50CD01D7A08E9546.subtitle}"
 			tasks: [{
 				id: "0A23CC5D2F013564"
 				item: "gtceu:gasoline_bucket"
@@ -1142,7 +1142,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2502368229005385524.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest22BA32A56B16DF34.subtitle}"
 			tasks: [{
 				id: "10185F70E40F97D5"
 				item: "gtceu:octane_bucket"
@@ -1161,7 +1161,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1267001483892093880.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest11954B230147F3B8.subtitle}"
 			tasks: [{
 				id: "71EBD702FE11E876"
 				item: "gtceu:nitrous_oxide_bucket"
@@ -1180,7 +1180,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3875481207952716707.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest35C879A01DB933A3.subtitle}"
 			tasks: [{
 				id: "6ABC493A9F66D177"
 				item: "gtceu:ethyl_tertbutyl_ether_bucket"
@@ -1224,7 +1224,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5196095180880025832.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest481C3D09737918E8.subtitle}"
 			tasks: [{
 				id: "5B43A3C938AA3D26"
 				item: "gtceu:high_octane_gasoline_bucket"
@@ -1238,7 +1238,7 @@
 				"3D80BAEC0FF08BDD"
 				"1756E4E4880B8FD4"
 			]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest3611020759682133534.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest321CEC3FB96A2E1E.description1}"]
 			hide_dependency_lines: true
 			id: "321CEC3FB96A2E1E"
 			rewards: [{
@@ -1247,7 +1247,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3611020759682133534.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest321CEC3FB96A2E1E.subtitle}"
 			tasks: [{
 				id: "7F88D1EBAE8F1BC5"
 				item: "gtceu:large_combustion_engine"
@@ -1316,10 +1316,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1681783181055594452.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest1756E4E4880B8FD4.subtitle}"
 			tasks: [{
 				id: "2C8FEE06D731310A"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest1681783181055594452.task.3211046772485992714.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest1756E4E4880B8FD4.task.3211046772485992714.title}"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -1331,16 +1331,16 @@
 			size: 2.0d
 			tasks: [{
 				id: "5A8E8F7FD742E5F1"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest1376042777163399784.task.6525310689341531633.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest1318AF9D80910268.task.6525310689341531633.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest1376042777163399784.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest1318AF9D80910268.title}"
 			x: 6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1318AF9D80910268"]
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest3727804690448898920.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest33BBD29D7E3DDB68.description1}"]
 			id: "33BBD29D7E3DDB68"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1348,7 +1348,7 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3727804690448898920.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest33BBD29D7E3DDB68.subtitle}"
 			tasks: [{
 				id: "3B11A471541EE181"
 				item: "gtceu:extreme_combustion_engine"
@@ -1360,9 +1360,9 @@
 		{
 			dependencies: ["33BBD29D7E3DDB68"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest5667647482827588020.description1}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest5667647482827588020.description2}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest5667647482827588020.description3}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest4EA7875B6E1341B4.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest4EA7875B6E1341B4.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.quest4EA7875B6E1341B4.description3}"
 			]
 			hide_until_deps_visible: true
 			id: "4EA7875B6E1341B4"
@@ -1372,43 +1372,43 @@
 				table_id: 7618519509353548779L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest5667647482827588020.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest4EA7875B6E1341B4.subtitle}"
 			tasks: [{
 				id: "4E6D066D90F49F58"
-				title: "{ftbquests.chapter.2CEAD5605C416218.quest5667647482827588020.task.5651180175072993112.title}"
+				title: "{ftbquests.chapter.2CEAD5605C416218.quest4EA7875B6E1341B4.task.5651180175072993112.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest5667647482827588020.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest4EA7875B6E1341B4.title}"
 			x: 6.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["2F2FC8322B26C942"]
 			description: [
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description1}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description1}"
 				""
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description2}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description2}"
 				""
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description3}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description3}"
 				""
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description4}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description4}"
 				""
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description5}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description5}"
 				""
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description6}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description6}"
 				""
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description7}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description7}"
 				""
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description8}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description8}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description9}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description9}"
 				""
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description10}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description11}"
-				"{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.description12}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description10}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description11}"
+				"{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.description12}"
 			]
 			id: "0DA7785CF55ABAAB"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.subtitle}"
 			tasks: [
 				{
 					id: "6A94E9FE0C9AC1A0"
@@ -1437,7 +1437,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest983887384252431019.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.questDA7785CF55ABAAB.title}"
 			x: -13.5d
 			y: 1.0d
 		}
@@ -1458,7 +1458,7 @@
 		{
 			dependencies: ["6397FCC9081360A5"]
 			id: "31105ADA8A75BD01"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3535425602158181633.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest31105ADA8A75BD01.subtitle}"
 			tasks: [{
 				id: "00F4CFFD57E04AFB"
 				item: "gtceu:sulfuric_naphtha_bucket"
@@ -1470,7 +1470,7 @@
 		{
 			dependencies: ["6397FCC9081360A5"]
 			id: "327A7C4C3C7404CC"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest3637356315928691916.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest327A7C4C3C7404CC.subtitle}"
 			tasks: [{
 				id: "423F14BBB55CD067"
 				item: "gtceu:sulfuric_heavy_fuel_bucket"
@@ -1518,7 +1518,7 @@
 		{
 			dependencies: ["7EF838EF4607A41D"]
 			id: "0AE0727C431D39A5"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest783752213189966245.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.questAE0727C431D39A5.subtitle}"
 			tasks: [{
 				id: "4819ADF162A3E004"
 				item: "gtceu:oil_bucket"
@@ -1578,9 +1578,9 @@
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.2CEAD5605C416218.quest2681671977678770988.description1}"]
+			description: ["{ftbquests.chapter.2CEAD5605C416218.quest25373674A1A9932C.description1}"]
 			id: "25373674A1A9932C"
-			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest2681671977678770988.subtitle}"
+			subtitle: "{ftbquests.chapter.2CEAD5605C416218.quest25373674A1A9932C.subtitle}"
 			tasks: [{
 				id: "4149619485BBB7D2"
 				item: "kubejs:tallow"
@@ -1629,11 +1629,11 @@
 				item: "ctpp:heavy_machinery_casing"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.2CEAD5605C416218.quest3400156361485896002.title}"
+			title: "{ftbquests.chapter.2CEAD5605C416218.quest2F2FC8322B26C942.title}"
 			x: -13.5d
 			y: -1.5d
 		}
 	]
 	subtitle: ["{ftbquests.chapter.2CEAD5605C416218.subtitle0}"]
-	title: "&f石油化工"
+	title: "{ftbquests.chapter.2CEAD5605C416218.title}"
 }

@@ -19,24 +19,24 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest666048060166097129.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest666048060166097129.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest93E472E8D89C8E9.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest93E472E8D89C8E9.description2}"
 			]
 			id: "093E472E8D89C8E9"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest666048060166097129.subtitle}"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest93E472E8D89C8E9.subtitle}"
 			tasks: [{
 				id: "3B2C0DF28D85EFCC"
 				item: "tconstruct:materials_and_you"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.5DEE038949883E18.quest666048060166097129.title}"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest93E472E8D89C8E9.title}"
 			x: -7.5d
 			y: -5.25d
 		}
 		{
 			dependencies: ["093E472E8D89C8E9"]
-			description: ["{ftbquests.chapter.5DEE038949883E18.quest8052629660131051896.description1}"]
+			description: ["{ftbquests.chapter.5DEE038949883E18.quest6FC0B002DFE2C978.description1}"]
 			icon: "tconstruct:grout"
 			id: "6FC0B002DFE2C978"
 			rewards: [{
@@ -46,7 +46,7 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest8052629660131051896.subtitle}"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest6FC0B002DFE2C978.subtitle}"
 			tasks: [
 				{
 					id: "1A9AB926DB2F2EB2"
@@ -72,13 +72,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.5DEE038949883E18.quest8052629660131051896.title}"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest6FC0B002DFE2C978.title}"
 			x: -5.25d
 			y: -5.25d
 		}
 		{
 			dependencies: ["6FC0B002DFE2C978"]
-			description: ["{ftbquests.chapter.5DEE038949883E18.quest3148133604383888982.description1}"]
+			description: ["{ftbquests.chapter.5DEE038949883E18.quest2BB06AD56AC59656.description1}"]
 			id: "2BB06AD56AC59656"
 			rewards: [{
 				count: 64
@@ -87,7 +87,7 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest3148133604383888982.subtitle}"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest2BB06AD56AC59656.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "6F4120B3F5484C5E"
@@ -143,7 +143,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.5DEE038949883E18.quest1773027044910779485.title}"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest189B0EB415114C5D.title}"
 			x: -0.75d
 			y: -6.75d
 		}
@@ -153,16 +153,16 @@
 				"6CDD36A3C742B7F2"
 			]
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description4}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description5}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.description6}"
+				"{ftbquests.chapter.5DEE038949883E18.quest40BADBAD1F96B405.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest40BADBAD1F96B405.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest40BADBAD1F96B405.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest40BADBAD1F96B405.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest40BADBAD1F96B405.description5}"
+				"{ftbquests.chapter.5DEE038949883E18.quest40BADBAD1F96B405.description6}"
 			]
 			id: "40BADBAD1F96B405"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.subtitle}"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest40BADBAD1F96B405.subtitle}"
 			tasks: [
 				{
 					id: "33904B939E9BE09B"
@@ -175,16 +175,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.5DEE038949883E18.quest4664281900701365253.title}"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest40BADBAD1F96B405.title}"
 			x: 1.5d
 			y: -5.25d
 		}
 		{
 			dependencies: ["40BADBAD1F96B405"]
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest5394514787808144887.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest5394514787808144887.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest5394514787808144887.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4ADD2A9E3EE56DF7.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4ADD2A9E3EE56DF7.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest4ADD2A9E3EE56DF7.description3}"
 			]
 			id: "4ADD2A9E3EE56DF7"
 			size: 1.5d
@@ -199,9 +199,9 @@
 		{
 			dependencies: ["40BADBAD1F96B405"]
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest5308856507543644053.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest5308856507543644053.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest5308856507543644053.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest49ACD8DDB7A8E795.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest49ACD8DDB7A8E795.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest49ACD8DDB7A8E795.description3}"
 			]
 			id: "49ACD8DDB7A8E795"
 			size: 1.5d
@@ -219,17 +219,17 @@
 				"7D76859D3E40A235"
 			]
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description4}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description5}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description6}"
-				"{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.description7}"
+				"{ftbquests.chapter.5DEE038949883E18.quest441CDF995C142B61.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest441CDF995C142B61.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest441CDF995C142B61.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest441CDF995C142B61.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest441CDF995C142B61.description5}"
+				"{ftbquests.chapter.5DEE038949883E18.quest441CDF995C142B61.description6}"
+				"{ftbquests.chapter.5DEE038949883E18.quest441CDF995C142B61.description7}"
 			]
 			id: "441CDF995C142B61"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest4908043543694814049.subtitle}"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest441CDF995C142B61.subtitle}"
 			tasks: [{
 				id: "4364A6B179916D88"
 				item: "tconstruct:smeltery_controller"
@@ -240,10 +240,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest1636613754797541666.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest1636613754797541666.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest1636613754797541666.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest1636613754797541666.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest16B66B89F139C922.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest16B66B89F139C922.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest16B66B89F139C922.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest16B66B89F139C922.description4}"
 			]
 			id: "16B66B89F139C922"
 			tasks: [{
@@ -256,10 +256,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest395645654708452844.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest395645654708452844.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest395645654708452844.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest395645654708452844.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest57D9DA071D2FDEC.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest57D9DA071D2FDEC.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest57D9DA071D2FDEC.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest57D9DA071D2FDEC.description4}"
 			]
 			id: "057D9DA071D2FDEC"
 			tasks: [{
@@ -272,10 +272,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest3185641357797563905.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest3185641357797563905.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest3185641357797563905.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest3185641357797563905.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest2C35ABEFC9511E01.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest2C35ABEFC9511E01.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest2C35ABEFC9511E01.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest2C35ABEFC9511E01.description4}"
 			]
 			id: "2C35ABEFC9511E01"
 			tasks: [{
@@ -288,10 +288,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest2087497791742541669.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest2087497791742541669.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest2087497791742541669.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest2087497791742541669.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest1CF8482E7A39FF65.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest1CF8482E7A39FF65.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest1CF8482E7A39FF65.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest1CF8482E7A39FF65.description4}"
 			]
 			id: "1CF8482E7A39FF65"
 			tasks: [{
@@ -304,10 +304,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest8474513288412496988.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest8474513288412496988.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest8474513288412496988.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest8474513288412496988.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest759B84EF9827845C.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest759B84EF9827845C.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest759B84EF9827845C.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest759B84EF9827845C.description4}"
 			]
 			id: "759B84EF9827845C"
 			tasks: [{
@@ -320,10 +320,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest566712167308580404.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest566712167308580404.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest566712167308580404.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest566712167308580404.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest7DD5DB6AE51D634.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest7DD5DB6AE51D634.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest7DD5DB6AE51D634.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest7DD5DB6AE51D634.description4}"
 			]
 			id: "07DD5DB6AE51D634"
 			tasks: [{
@@ -336,10 +336,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest3649007129673020754.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest3649007129673020754.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest3649007129673020754.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest3649007129673020754.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest32A3E0A6B3073552.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest32A3E0A6B3073552.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest32A3E0A6B3073552.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest32A3E0A6B3073552.description4}"
 			]
 			id: "32A3E0A6B3073552"
 			tasks: [{
@@ -353,16 +353,16 @@
 		{
 			icon: "create:blaze_burner"
 			id: "5546D4AC598211ED"
-			title: "{ftbquests.chapter.5DEE038949883E18.quest6144832578294780397.title}"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest5546D4AC598211ED.title}"
 			x: -15.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest8581218541347228525.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest8581218541347228525.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest8581218541347228525.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest8581218541347228525.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.quest77169CCC50FF4B6D.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.quest77169CCC50FF4B6D.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.quest77169CCC50FF4B6D.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.quest77169CCC50FF4B6D.description4}"
 			]
 			id: "77169CCC50FF4B6D"
 			tasks: [{
@@ -390,7 +390,7 @@
 			}]
 			shape: "hexagon"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest1969105844339977063.subtitle}"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest1B53AB552907AB67.subtitle}"
 			tasks: [
 				{
 					id: "1D1D8E9C1A789C16"
@@ -403,32 +403,32 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.5DEE038949883E18.quest1969105844339977063.title}"
+			title: "{ftbquests.chapter.5DEE038949883E18.quest1B53AB552907AB67.title}"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["40BADBAD1F96B405"]
 			description: [
-				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description1}"
-				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description2}"
-				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description3}"
-				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description4}"
-				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description5}"
-				"{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.description6}"
+				"{ftbquests.chapter.5DEE038949883E18.questCF2F8782CCA744C.description1}"
+				"{ftbquests.chapter.5DEE038949883E18.questCF2F8782CCA744C.description2}"
+				"{ftbquests.chapter.5DEE038949883E18.questCF2F8782CCA744C.description3}"
+				"{ftbquests.chapter.5DEE038949883E18.questCF2F8782CCA744C.description4}"
+				"{ftbquests.chapter.5DEE038949883E18.questCF2F8782CCA744C.description5}"
+				"{ftbquests.chapter.5DEE038949883E18.questCF2F8782CCA744C.description6}"
 			]
 			id: "0CF2F8782CCA744C"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.subtitle}"
+			subtitle: "{ftbquests.chapter.5DEE038949883E18.questCF2F8782CCA744C.subtitle}"
 			tasks: [{
 				id: "1587A3AF6312B3DA"
 				item: "tconstruct:foundry_controller"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.5DEE038949883E18.quest933081267850343500.title}"
+			title: "{ftbquests.chapter.5DEE038949883E18.questCF2F8782CCA744C.title}"
 			x: 4.5d
 			y: -3.75d
 		}
 	]
-	title: "&4匠魂"
+	title: "{ftbquests.chapter.5DEE038949883E18.title}"
 }

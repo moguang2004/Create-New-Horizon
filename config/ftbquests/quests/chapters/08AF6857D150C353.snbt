@@ -53,13 +53,13 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest9040560212393632309.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7D76859D3E40A235.subtitle}"
 			tasks: [{
 				id: "1D632714EC01F7A6"
 				item: "ctpp:steel_mechanism"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest9040560212393632309.title}"
+			title: "{ftbquests.chapter.08AF6857D150C353.quest7D76859D3E40A235.title}"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -76,7 +76,7 @@
 		{
 			dependencies: ["2D138FB6F66ED4D5"]
 			id: "4A20A744ACDB0ABF"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest5341453071461059263.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest4A20A744ACDB0ABF.subtitle}"
 			tasks: [{
 				id: "27A801A962148FFC"
 				item: "gtceu:seed_oil_bucket"
@@ -90,7 +90,7 @@
 				"7D76859D3E40A235"
 				"64694E06DCC27AE1"
 			]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest7498187027826820853.description1}"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest680EE95FED0F46F5.description1}"]
 			id: "680EE95FED0F46F5"
 			rewards: [{
 				count: 3
@@ -98,7 +98,7 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7498187027826820853.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest680EE95FED0F46F5.subtitle}"
 			tasks: [{
 				id: "0FE3911E3029D145"
 				item: "create:steam_engine"
@@ -120,7 +120,7 @@
 		}
 		{
 			id: "62BAC5BC588E4CAA"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7114215974115364010.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest62BAC5BC588E4CAA.subtitle}"
 			tasks: [{
 				id: "3CD9D89EFFFDDA64"
 				item: "gtceu:magnetic_iron_ingot"
@@ -137,7 +137,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2D9F762371DEDF70"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest3287476147610115952.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest2D9F762371DEDF70.subtitle}"
 			tasks: [
 				{
 					id: "18762930299222CA"
@@ -208,7 +208,7 @@
 				"54A490510D5FBA04"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest4748073610795144318.description1}"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest41E48BCAEAD9D47E.description1}"]
 			id: "41E48BCAEAD9D47E"
 			rewards: [
 				{
@@ -225,7 +225,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest4748073610795144318.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest41E48BCAEAD9D47E.subtitle}"
 			tasks: [{
 				id: "4642660A4797E594"
 				item: "gtceu:basic_electronic_circuit"
@@ -273,9 +273,9 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest1282354277855841005.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest1282354277855841005.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest1282354277855841005.description3}"
+				"{ftbquests.chapter.08AF6857D150C353.quest11CBD66BE7CCCAED.description1}"
+				"{ftbquests.chapter.08AF6857D150C353.quest11CBD66BE7CCCAED.description2}"
+				"{ftbquests.chapter.08AF6857D150C353.quest11CBD66BE7CCCAED.description3}"
 			]
 			icon: "ctpp:kinetic_steam_turbine"
 			id: "11CBD66BE7CCCAED"
@@ -293,7 +293,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest1282354277855841005.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest11CBD66BE7CCCAED.subtitle}"
 			tasks: [
 				{
 					id: "4C40156588431040"
@@ -348,7 +348,7 @@
 				table_id: 1370906070305640911L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest5394804581242707080.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest4ADE322F099F1C88.subtitle}"
 			tasks: [{
 				id: "7ED1ABAE538B0BC5"
 				item: "ctnhcore:advanced_coke_oven"
@@ -463,7 +463,7 @@
 				"2D9F762371DEDF70"
 				"13388DB5A507AB34"
 			]
-			description: ["碳刷目前可以直接产生EU电了，它会输出LV级别的电力，你可以直接用GT的导线接到你的机器上了"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest54A490510D5FBA04.description1}"]
 			id: "54A490510D5FBA04"
 			rewards: [
 				{
@@ -480,10 +480,10 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest54A490510D5FBA04.subtitle}"
 			tasks: [{
 				id: "29E3903D7F9732A1"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest6099158473157622276.task.3018414769076384417.title}"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest54A490510D5FBA04.task.3018414769076384417.title}"
 				type: "checkmark"
 			}]
 			x: 7.0d
@@ -492,19 +492,19 @@
 		{
 			dependencies: ["7D76859D3E40A235"]
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.description3}"
-				"{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.description4}"
-				"{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.description5}"
+				"{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.description1}"
+				"{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.description2}"
+				"{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.description3}"
+				"{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.description4}"
+				"{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.description5}"
 			]
 			id: "6AD97B17E0ECA129"
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.subtitle}"
 			tasks: [{
 				id: "1DFBF4F07F173929"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest7699320380454641961.task.2160589760015841577.title}"
+				title: "{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.task.2160589760015841577.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -529,7 +529,7 @@
 		}
 		{
 			dependencies: ["3EFC30D1B3494B77"]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest7377297128064375563.description1}"]
+			description: ["{ftbquests.chapter.08AF6857D150C353.quest66616CA6C0C95B0B.description1}"]
 			id: "66616CA6C0C95B0B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -538,7 +538,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7377297128064375563.subtitle}"
+			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest66616CA6C0C95B0B.subtitle}"
 			tasks: [{
 				id: "767215D7A25C05EF"
 				item: "ctnhcore:meadow"
@@ -550,14 +550,14 @@
 		{
 			dependencies: ["1DFBF4F07F173929"]
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description3}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description4}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description5}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description6}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description7}"
-				"{ftbquests.chapter.08AF6857D150C353.quest4538556201696840567.description8}"
+				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description1}"
+				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description2}"
+				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description3}"
+				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description4}"
+				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description5}"
+				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description6}"
+				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description7}"
+				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description8}"
 			]
 			id: "3EFC30D1B3494B77"
 			tasks: [{
@@ -579,5 +579,5 @@
 			y: -2.0d
 		}
 	]
-	title: "&f&l钢铁雄心"
+	title: "{ftbquests.chapter.08AF6857D150C353.title}"
 }

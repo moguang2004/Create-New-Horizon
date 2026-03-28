@@ -14,6 +14,6 @@
 		{ count: 2, item: "botania:rune_autumn", weight: 0.2f }
 		{ count: 2, item: "botania:rune_winter", weight: 0.2f }
 	]
-	title: "符文抽取袋"
+	title: "{ftbquests.loot_table.5890566419274612501.title}"
 	use_title: true
 }

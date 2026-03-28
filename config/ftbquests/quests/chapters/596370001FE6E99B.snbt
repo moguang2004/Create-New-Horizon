@@ -29,14 +29,14 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest2498357656835315084.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest2498357656835315084.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest22ABF30D518BD58C.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest22ABF30D518BD58C.description2}"
 			]
 			id: "22ABF30D518BD58C"
-			subtitle: "你永远离不开它"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest22ABF30D518BD58C.subtitle}"
 			tasks: [{
 				id: "6A77E25CAB924BFF"
-				title: "什么是EMI"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest22ABF30D518BD58C.task.7671849377892289535.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -44,14 +44,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest675134602371654864.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest675134602371654864.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest95E8F5805EFE4D0.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest95E8F5805EFE4D0.description2}"
 			]
 			id: "095E8F5805EFE4D0"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest675134602371654864.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest95E8F5805EFE4D0.subtitle}"
 			tasks: [{
 				id: "2389CFC195589D70"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest675134602371654864.task.2560806293478088048.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest95E8F5805EFE4D0.task.2560806293478088048.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -59,14 +59,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest5153549345015092020.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest5153549345015092020.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest478515D31A125334.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest478515D31A125334.description2}"
 			]
 			id: "478515D31A125334"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5153549345015092020.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest478515D31A125334.subtitle}"
 			tasks: [{
 				id: "3F5150BE598336CB"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest5153549345015092020.task.4562516675978802891.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest478515D31A125334.task.4562516675978802891.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -74,26 +74,26 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest5794442366988047125.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest5794442366988047125.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5069FEA1EBCBD315.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5069FEA1EBCBD315.description2}"
 			]
 			id: "5069FEA1EBCBD315"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5794442366988047125.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5069FEA1EBCBD315.subtitle}"
 			tasks: [{
 				id: "4BC5FA5A8A142EF1"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest5794442366988047125.task.5460045390027173617.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest5069FEA1EBCBD315.task.5460045390027173617.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
 			y: -4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest4223876164748055831.description1}"]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest3A9E38FE270C1517.description1}"]
 			id: "3A9E38FE270C1517"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4223876164748055831.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest3A9E38FE270C1517.subtitle}"
 			tasks: [{
 				id: "207C44B7DD790F74"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest4223876164748055831.task.2340821462811217780.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest3A9E38FE270C1517.task.2340821462811217780.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -101,16 +101,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest2423009108166031517.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest2423009108166031517.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest2423009108166031517.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest21A041F23BC5B89D.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest21A041F23BC5B89D.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest21A041F23BC5B89D.description3}"
 				""
 			]
 			id: "21A041F23BC5B89D"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2423009108166031517.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest21A041F23BC5B89D.subtitle}"
 			tasks: [{
 				id: "266D66828F20DE07"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest2423009108166031517.task.2768982056835800583.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest21A041F23BC5B89D.task.2768982056835800583.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -118,18 +118,18 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description6}"
 			]
 			id: "045C3E672C8506E1"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.subtitle}"
 			tasks: [{
 				id: "08A20B7A74665A88"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest314194686858561249.task.622072319097330312.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.task.622072319097330312.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -137,26 +137,26 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest7344291059559268913.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7344291059559268913.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest65EC29CE941B8231.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest65EC29CE941B8231.description2}"
 			]
 			id: "65EC29CE941B8231"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7344291059559268913.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest65EC29CE941B8231.subtitle}"
 			tasks: [{
 				id: "3FD99E175CCA6832"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest7344291059559268913.task.4600882317513877554.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest65EC29CE941B8231.task.4600882317513877554.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
 			y: -2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest2181636229111653474.description1}"]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest1E46BA977152A462.description1}"]
 			id: "1E46BA977152A462"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2181636229111653474.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1E46BA977152A462.subtitle}"
 			tasks: [{
 				id: "5908E87A0588E354"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest2181636229111653474.task.6415633279965782868.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest1E46BA977152A462.task.6415633279965782868.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -164,17 +164,17 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.description5}"
 			]
 			id: "0380BD76D7A96F58"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.subtitle}"
 			tasks: [{
 				id: "254299460AE15C49"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest252409897254743896.task.2684876853975538761.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.task.2684876853975538761.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -182,14 +182,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest8656289896125765131.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest8656289896125765131.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest782151CC2B61160B.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest782151CC2B61160B.description2}"
 			]
 			id: "782151CC2B61160B"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8656289896125765131.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest782151CC2B61160B.subtitle}"
 			tasks: [{
 				id: "677C0A38D1E70213"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest8656289896125765131.task.7456846322174722579.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest782151CC2B61160B.task.7456846322174722579.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -197,14 +197,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest1251750556740328569.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1251750556740328569.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest115F1C7FD1E79C79.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest115F1C7FD1E79C79.description2}"
 			]
 			id: "115F1C7FD1E79C79"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1251750556740328569.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest115F1C7FD1E79C79.subtitle}"
 			tasks: [{
 				id: "260B52B84D28856C"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest1251750556740328569.task.2741375749707040108.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest115F1C7FD1E79C79.task.2741375749707040108.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -212,15 +212,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest3774704941794535327.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest3774704941794535327.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest3774704941794535327.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest346272253393279F.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest346272253393279F.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest346272253393279F.description3}"
 			]
 			id: "346272253393279F"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest3774704941794535327.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest346272253393279F.subtitle}"
 			tasks: [{
 				id: "053633B1AAC908ED"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest3774704941794535327.task.375544457099544813.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest346272253393279F.task.375544457099544813.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -228,19 +228,19 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description6}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.description7}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description7}"
 			]
 			id: "6B760684956D1BE1"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.subtitle}"
 			tasks: [{
 				id: "06169705E3B3B6EC"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest7743383775822552033.task.438704065266038508.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.task.438704065266038508.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -248,31 +248,31 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description6}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.description7}"
+				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description7}"
 			]
 			id: "694E4397215D8F0C"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.subtitle}"
 			tasks: [{
 				id: "23D5A764F9AC759B"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest7588076738544766732.task.2582154013494244763.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.task.2582154013494244763.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest7639889608121675619.description1}"]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest6A06571EE74A6F63.description1}"]
 			id: "6A06571EE74A6F63"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7639889608121675619.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6A06571EE74A6F63.subtitle}"
 			tasks: [{
 				id: "73AEFABF6318C55A"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest7639889608121675619.task.8335875660217632090.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest6A06571EE74A6F63.task.8335875660217632090.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -280,15 +280,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest6014801748727178965.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6014801748727178965.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6014801748727178965.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5378DE529B4826D5.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5378DE529B4826D5.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest5378DE529B4826D5.description3}"
 			]
 			id: "5378DE529B4826D5"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6014801748727178965.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5378DE529B4826D5.subtitle}"
 			tasks: [{
 				id: "37492B461318B5BE"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest6014801748727178965.task.3983762925354005950.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest5378DE529B4826D5.task.3983762925354005950.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -296,30 +296,30 @@
 		}
 		{
 			description: [
-				"对控制器（主方块）按U即可查看多方块结构预览界面。左键拖动可旋转视角，右键拖动可平移视角，滚轮可进行缩放。"
+				"{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.description1}"
 				""
-				"预览图下方会显示搭建所需的方块及数量（仅供参考，其中的仓室一般可替换）。点击对应的方块可在左侧查看这个位置的可替换方块列表。点击ALL按钮可按层逐一查看每层的样式。"
+				"{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.description2}"
 				""
-				"点击结构中任意方块，界面左上角将会可显示该位置所有可用方块。"
+				"{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.description3}"
 				""
-				"部分可拓展多方块（例如蒸馏塔）在点击[P:0]按钮时可查看不同的拓展样式，或者不同等级的结构。"
+				"{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.description4}"
 				""
-				"GT多方块允许两个相邻的多方块共同享用一些方块，从而并联节省材料。具体的并联方案由你跟据样式展开想象。有些方块无法被共用，详细查看tooptips。"
+				"{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.description5}"
 			]
 			id: "157616D257E25806"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.subtitle}"
 			tasks: [{
 				id: "6BBC98D7EA0A55A3"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest1546448614721738758.task.7763247910791828899.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.task.7763247910791828899.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest9207313940996619147.description1}"]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest7FC6F33F349AFB8B.description1}"]
 			id: "7FC6F33F349AFB8B"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest9207313940996619147.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7FC6F33F349AFB8B.subtitle}"
 			tasks: [{
 				id: "5FFB5BE2547D43DA"
 				item: {
@@ -344,22 +344,22 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.596370001FE6E99B.quest9207313940996619147.title}"
+			title: "{ftbquests.chapter.596370001FE6E99B.quest7FC6F33F349AFB8B.title}"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.description4}"
 			]
 			id: "7CCF3DDD9544F909"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.subtitle}"
 			tasks: [{
 				id: "71C7653A29E1B239"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest8993475002783561993.task.8198632947136442937.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.task.8198632947136442937.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -367,41 +367,41 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description6}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description7}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description8}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description9}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description10}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description11}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description12}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.description13}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description7}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description8}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description9}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description10}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description11}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description12}"
+				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description13}"
 			]
 			id: "39CF9637DAECD9E2"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.subtitle}"
 			tasks: [{
 				id: "164C27B8057B10BC"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.596370001FE6E99B.quest4165713346981321186.title}"
+			title: "{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.title}"
 			x: -4.5d
 			y: -0.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest8514042269129714865.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest8514042269129714865.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest8514042269129714865.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7627F4559E232CB1.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7627F4559E232CB1.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7627F4559E232CB1.description3}"
 			]
 			id: "7627F4559E232CB1"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8514042269129714865.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7627F4559E232CB1.subtitle}"
 			tasks: [{
 				id: "67F316843881B466"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest8514042269129714865.task.7490355362386785382.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest7627F4559E232CB1.task.7490355362386785382.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -409,16 +409,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.description4}"
 			]
 			id: "41562EA63324B2F2"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.subtitle}"
 			tasks: [{
 				id: "3EAA6D92BEB4359E"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest4708001751819924210.task.4515542053424477598.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.task.4515542053424477598.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -426,17 +426,17 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.description5}"
 			]
 			id: "1B3F47FA45A8AFAB"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.subtitle}"
 			tasks: [{
 				id: "671B9B9945AA150A"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest1963367102792904619.task.7429703092878841098.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.task.7429703092878841098.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -444,18 +444,18 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.description6}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description5}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description6}"
 			]
 			id: "7F074137A314B92C"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.subtitle}"
 			tasks: [{
 				id: "6998ABB6A149E4B6"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest9153356474868873516.task.7609020371320825014.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.task.7609020371320825014.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -463,14 +463,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest2045702669297025016.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest2045702669297025016.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1C63CBBD37847FF8.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest1C63CBBD37847FF8.description2}"
 			]
 			id: "1C63CBBD37847FF8"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest2045702669297025016.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1C63CBBD37847FF8.subtitle}"
 			tasks: [{
 				id: "7D27BB8E7D933A38"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest2045702669297025016.task.9018382999499258424.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest1C63CBBD37847FF8.task.9018382999499258424.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -478,16 +478,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.description4}"
+				"{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.description4}"
 			]
 			id: "3E159C34A519A644"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.subtitle}"
 			tasks: [{
 				id: "27827CFEEE743A47"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest4473653554784609860.task.2846975348815706695.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.task.2846975348815706695.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -495,15 +495,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest8165520849618431891.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest8165520849618431891.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest8165520849618431891.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7151C1F32F8D6F93.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7151C1F32F8D6F93.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest7151C1F32F8D6F93.description3}"
 			]
 			id: "7151C1F32F8D6F93"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest8165520849618431891.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7151C1F32F8D6F93.subtitle}"
 			tasks: [{
 				id: "0BC1499AE6F45E5D"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest8165520849618431891.task.847039134570929757.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest7151C1F32F8D6F93.task.847039134570929757.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -511,27 +511,27 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest5561472727473795565.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest5561472727473795565.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest5561472727473795565.description3}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4D2E51FACD1931ED.description1}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4D2E51FACD1931ED.description2}"
+				"{ftbquests.chapter.596370001FE6E99B.quest4D2E51FACD1931ED.description3}"
 			]
 			id: "4D2E51FACD1931ED"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5561472727473795565.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4D2E51FACD1931ED.subtitle}"
 			tasks: [{
 				id: "517CBF14529B7D0A"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest5561472727473795565.task.5871778108190457098.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest4D2E51FACD1931ED.task.5871778108190457098.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
 			y: 3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest6664099028278230888.description1}"]
+			description: ["{ftbquests.chapter.596370001FE6E99B.quest5C7BA2C2208CBF68.description1}"]
 			id: "5C7BA2C2208CBF68"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6664099028278230888.subtitle}"
+			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5C7BA2C2208CBF68.subtitle}"
 			tasks: [{
 				id: "79317F10BA1DF441"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest6664099028278230888.task.8732900862266831937.title}"
+				title: "{ftbquests.chapter.596370001FE6E99B.quest5C7BA2C2208CBF68.task.8732900862266831937.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -539,5 +539,5 @@
 		}
 	]
 	subtitle: ["{ftbquests.chapter.596370001FE6E99B.subtitle0}"]
-	title: "&f存在即被感知"
+	title: "{ftbquests.chapter.596370001FE6E99B.title}"
 }

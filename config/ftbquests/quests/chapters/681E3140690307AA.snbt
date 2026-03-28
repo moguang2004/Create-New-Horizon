@@ -88,10 +88,10 @@
 			id: "44C7FE559ECFB2EB"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4956209558634607339.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest44C7FE559ECFB2EB.subtitle}"
 			tasks: [{
 				id: "5CE79CE60BD5FC4D"
-				title: "{ftbquests.chapter.681E3140690307AA.quest4956209558634607339.task.6694491882964515917.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest44C7FE559ECFB2EB.task.6694491882964515917.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -100,9 +100,9 @@
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.description2}"
-				"{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.description3}"
+				"{ftbquests.chapter.681E3140690307AA.quest5C2320A3B3E10E11.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest5C2320A3B3E10E11.description2}"
+				"{ftbquests.chapter.681E3140690307AA.quest5C2320A3B3E10E11.description3}"
 			]
 			icon: {
 				Count: 1
@@ -116,35 +116,35 @@
 			id: "5C2320A3B3E10E11"
 			invisible: true
 			optional: true
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest5C2320A3B3E10E11.subtitle}"
 			tasks: [{
 				id: "1769E6600040B278"
-				title: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.task.1687132835422450296.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest5C2320A3B3E10E11.task.1687132835422450296.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest6639186163143872017.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest5C2320A3B3E10E11.title}"
 			x: -4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest7424705013280162603.description1}"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest6709D9DF2EA0432B.description1}"]
 			icon: "gtceu:gregification_hazard_sign_block"
 			id: "6709D9DF2EA0432B"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7424705013280162603.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6709D9DF2EA0432B.subtitle}"
 			tasks: [{
 				id: "0159C516B579DCAF"
-				title: "{ftbquests.chapter.681E3140690307AA.quest7424705013280162603.task.97325568289791151.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest6709D9DF2EA0432B.task.97325568289791151.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest7424705013280162603.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest6709D9DF2EA0432B.title}"
 			x: -7.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest7929003364368250376.description1}"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest6E097A8CDC0BF608.description1}"]
 			hide_dependency_lines: false
 			icon: "create:wrench"
 			id: "6E097A8CDC0BF608"
@@ -154,10 +154,10 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7929003364368250376.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6E097A8CDC0BF608.subtitle}"
 			tasks: [{
 				id: "09D536FDA05E00B8"
-				title: "{ftbquests.chapter.681E3140690307AA.quest7929003364368250376.task.708532979325862072.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest6E097A8CDC0BF608.task.708532979325862072.title}"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -167,10 +167,10 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			icon: "botania:livingrock"
 			id: "39CA84C1EBF5FF02"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4164286773879766786.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest39CA84C1EBF5FF02.subtitle}"
 			tasks: [{
 				id: "3779765761C83EA7"
-				title: "{ftbquests.chapter.681E3140690307AA.quest4164286773879766786.task.3997356261942771367.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest39CA84C1EBF5FF02.task.3997356261942771367.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -180,10 +180,10 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			icon: "bloodmagic:daggerofsacrifice"
 			id: "021CE5551CB203F9"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest152248641140163577.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest21CE5551CB203F9.subtitle}"
 			tasks: [{
 				id: "5573A2DD9A403E16"
-				title: "{ftbquests.chapter.681E3140690307AA.quest152248641140163577.task.6157444188204973590.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest21CE5551CB203F9.task.6157444188204973590.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -192,9 +192,9 @@
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
 			description: [
-				"GT矿物已经默认可以连锁了！"
+				"{ftbquests.chapter.681E3140690307AA.quest4B11E32ACA7BC6FA.description1}"
 				""
-				"如果你无法连锁GT矿物，可以检查CTNH Core的模组设置"
+				"{ftbquests.chapter.681E3140690307AA.quest4B11E32ACA7BC6FA.description2}"
 			]
 			id: "4B11E32ACA7BC6FA"
 			rewards: [{
@@ -202,13 +202,13 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest5409354400373917434.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4B11E32ACA7BC6FA.subtitle}"
 			tasks: [{
 				id: "6344812C1EC2C585"
-				title: "{ftbquests.chapter.681E3140690307AA.quest5409354400373917434.task.7152984134665815429.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest4B11E32ACA7BC6FA.task.7152984134665815429.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest5409354400373917434.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest4B11E32ACA7BC6FA.title}"
 			x: -3.5d
 			y: 11.0d
 		}
@@ -282,7 +282,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6997411179978363306.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest611BCC64F1F511AA.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "2B699EAFD14FE1D7"
@@ -294,7 +294,7 @@
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest1968071326501858836.description1}"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest1B4FFE71B4C66E14.description1}"]
 			id: "1B4FFE71B4C66E14"
 			rewards: [
 				{
@@ -347,10 +347,10 @@
 			]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest1968071326501858836.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest1B4FFE71B4C66E14.subtitle}"
 			tasks: [{
 				id: "02CB7B2250363B17"
-				title: "{ftbquests.chapter.681E3140690307AA.quest1968071326501858836.task.201389995652954903.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest1B4FFE71B4C66E14.task.201389995652954903.title}"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -359,8 +359,8 @@
 		{
 			dependencies: ["6F405D2508EED283"]
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest4708418189553178834.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest4708418189553178834.description2}"
+				"{ftbquests.chapter.681E3140690307AA.quest4157A965AA4E18D2.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest4157A965AA4E18D2.description2}"
 			]
 			id: "4157A965AA4E18D2"
 			rewards: [
@@ -390,17 +390,17 @@
 				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest4708418189553178834.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest4157A965AA4E18D2.title}"
 			x: -6.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["4B11E32ACA7BC6FA"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest7366137071699786477.description1}"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest6639C6A3A5807AED.description1}"]
 			icon: "gtceu:raw_magnetite"
 			id: "6639C6A3A5807AED"
 			optional: true
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7366137071699786477.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6639C6A3A5807AED.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -439,7 +439,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.681E3140690307AA.quest7366137071699786477.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest6639C6A3A5807AED.title}"
 			x: -3.5d
 			y: 13.0d
 		}
@@ -462,7 +462,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest6604646506441642453.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest5BA86B01337A91D5.subtitle}"
 			tasks: [
 				{
 					count: 16L
@@ -477,7 +477,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.681E3140690307AA.quest6604646506441642453.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest5BA86B01337A91D5.title}"
 			x: -1.5d
 			y: 9.0d
 		}
@@ -495,7 +495,7 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest703481221057588588.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest9C344717F4BAD6C.subtitle}"
 			tasks: [{
 				id: "58CDFF594C3E0249"
 				item: "minecraft:crafting_table"
@@ -513,7 +513,7 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest2865147824837070398.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest27C30CC438658E3E.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "4F80DC03536AE638"
@@ -526,8 +526,8 @@
 		{
 			dependencies: ["5BA86B01337A91D5"]
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest9198886268426787312.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest9198886268426787312.description2}"
+				"{ftbquests.chapter.681E3140690307AA.quest7FA90252C6CC19F0.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest7FA90252C6CC19F0.description2}"
 			]
 			id: "7FA90252C6CC19F0"
 			rewards: [{
@@ -538,7 +538,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "记得收集安山岩呀~"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7FA90252C6CC19F0.subtitle}"
 			tasks: [{
 				id: "19245BF7A4D48BFB"
 				item: "gtceu:andesite_alloy_ingot"
@@ -550,8 +550,8 @@
 		{
 			dependencies: ["42BC9DB741D0AD70"]
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest3709779824798157318.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest3709779824798157318.description2}"
+				"{ftbquests.chapter.681E3140690307AA.quest337BC9186C014A06.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest337BC9186C014A06.description2}"
 			]
 			id: "337BC9186C014A06"
 			rewards: [{
@@ -568,23 +568,23 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "{ftbquests.chapter.681E3140690307AA.quest3709779824798157318.task.6034142910915454761.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest337BC9186C014A06.task.6034142910915454761.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest3709779824798157318.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest337BC9186C014A06.title}"
 			x: -11.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest2283955469469063356.description1}"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest1FB23D66088398BC.description1}"]
 			hide_dependency_lines: true
 			id: "1FB23D66088398BC"
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "519EA59FDB4B479F"
-				title: "{ftbquests.chapter.681E3140690307AA.quest2283955469469063356.task.5881320269389973407.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest1FB23D66088398BC.task.5881320269389973407.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -592,27 +592,27 @@
 		}
 		{
 			description: [
-				"目前整合包开发组人手非常紧缺，我们诚挚邀请对MC模组/整合包开发有兴趣的小伙伴加入开发组，一起打造更好玩的游戏体验！"
+				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description1}"
 				""
-				"如果你是MC领域大神：拥有丰富的模组或整合包游玩经验，熟悉本整合包内容，愿意参与&2任务编写、流程规划与玩法设计&r"
+				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description2}"
 				""
-				"如果你是代码领域大神：具备一定的MC游戏经验，掌握任意一门编程语言（不限于Java），欢迎加入&2模组开发与调试&r，一起写bug、修功能"
+				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description3}"
 				""
-				"如果你是其他领域大神：比如&2美术、模型、文案&r，或对科技/自动化类游戏有深入理解，只要你觉得能为整合包贡献一份力量，我们都欢迎！"
+				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description4}"
 				""
-				"以上都不是必须条件，只要你对MC有热爱，认同MC的社区文化，愿意和我们一起让这个整合包变得更有趣、更完整，我们就欢迎"
+				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description5}"
 				""
-				"开发组目前是一个氛围友好、共同成长的团队，大部分成员也都是从零开始边学边做。只要你愿意投入，我们都乐意提供学习与实战的机会。"
-				"如果你对参与制作感兴趣，可以加入整合包交流群（QQ群号915521426）后@管理员了解更多。"
+				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description6}"
+				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description7}"
 			]
 			icon: "kubejs:ender_light"
 			id: "5F126DE1A7F425DA"
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "QQ群号： 915521426"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.subtitle}"
 			tasks: [{
 				id: "686C86F01CDB3AD7"
-				title: "{ftbquests.chapter.681E3140690307AA.quest6850658799136810458.task.7524537443263658711.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.task.7524537443263658711.title}"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -620,9 +620,9 @@
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest4102976794901859499.description1}"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest38F0B3A80DCBCCAB.description1}"]
 			id: "38F0B3A80DCBCCAB"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4102976794901859499.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest38F0B3A80DCBCCAB.subtitle}"
 			tasks: [{
 				id: "30F5D34763CCF5B5"
 				item: "rehooked:wood_hook"
@@ -635,10 +635,10 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			icon: "ars_nouveau:novice_spell_book"
 			id: "414BFFE0E7A3C868"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4705135577142642792.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest414BFFE0E7A3C868.subtitle}"
 			tasks: [{
 				id: "4FF903F607617ED3"
-				title: "{ftbquests.chapter.681E3140690307AA.quest4705135577142642792.task.5762641553417928403.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest414BFFE0E7A3C868.task.5762641553417928403.title}"
 				type: "checkmark"
 			}]
 			x: -8.0d
@@ -646,7 +646,7 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest3082875371577211523.description1}"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest2AC892D111A8FA83.description1}"]
 			icon: "biomancy:primordial_core"
 			id: "2AC892D111A8FA83"
 			rewards: [{
@@ -670,23 +670,23 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3082875371577211523.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest2AC892D111A8FA83.subtitle}"
 			tasks: [{
 				id: "5A99B7C4816A6CF4"
 				item: "biomancy:living_flesh"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest3082875371577211523.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest2AC892D111A8FA83.title}"
 			x: -6.0d
 			y: 4.0d
 		}
 		{
 			id: "42BC9DB741D0AD70"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4808891912533618032.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest42BC9DB741D0AD70.subtitle}"
 			tasks: [{
 				id: "51D08D5ED0A791B8"
-				title: "{ftbquests.chapter.681E3140690307AA.quest4808891912533618032.task.5895367350595064248.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest42BC9DB741D0AD70.task.5895367350595064248.title}"
 				type: "checkmark"
 			}]
 			x: -12.5d
@@ -695,7 +695,7 @@
 		{
 			dependencies: ["09C344717F4BAD6C"]
 			id: "7500E7310C70727B"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest8430992700285678203.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7500E7310C70727B.subtitle}"
 			tasks: [{
 				id: "2FCDC90FC081C247"
 				item: {
@@ -713,7 +713,7 @@
 		{
 			dependencies: ["09C344717F4BAD6C"]
 			id: "31554E021ECE6572"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3554833251892618610.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest31554E021ECE6572.subtitle}"
 			tasks: [{
 				id: "640D0069BFD1C069"
 				item: {
@@ -742,7 +742,7 @@
 		}
 		{
 			dependencies: ["4157A965AA4E18D2"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest7120109138277471972.description1}"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest62CFB5898D0A96E4.description1}"]
 			id: "62CFB5898D0A96E4"
 			rewards: [{
 				id: "58B9A790455D3D3D"
@@ -762,7 +762,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7120109138277471972.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest62CFB5898D0A96E4.subtitle}"
 			tasks: [{
 				id: "7FCC30F090B016F5"
 				item: {
@@ -779,7 +779,7 @@
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
-			description: ["{ftbquests.chapter.681E3140690307AA.quest9168551319999992454.description1}"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest7F3D3CD93589D286.description1}"]
 			id: "7F3D3CD93589D286"
 			rewards: [{
 				id: "799312A73A8C9467"
@@ -793,10 +793,10 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest9168551319999992454.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7F3D3CD93589D286.subtitle}"
 			tasks: [{
 				id: "2BC1BCB3ECAB5715"
-				title: "{ftbquests.chapter.681E3140690307AA.quest9168551319999992454.task.3153008695091877653.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest7F3D3CD93589D286.task.3153008695091877653.title}"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -814,11 +814,11 @@
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
 				id: "3101F2CBA1F36E54"
-				title: "{ftbquests.chapter.681E3140690307AA.quest6029002994023634697.task.3531370539244547668.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest53AB5247B08B9709.task.3531370539244547668.title}"
 				type: "kill"
 				value: 10L
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest6029002994023634697.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest53AB5247B08B9709.title}"
 			x: -11.0d
 			y: 11.0d
 		}
@@ -830,16 +830,16 @@
 				type: "xp_levels"
 				xp_levels: 30
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3619712786836015206.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest323BCD9A004CC866.subtitle}"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
 				id: "65D03000C99C3EA4"
-				title: "{ftbquests.chapter.681E3140690307AA.quest3619712786836015206.task.7336416572927131300.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest323BCD9A004CC866.task.7336416572927131300.title}"
 				type: "kill"
 				value: 10L
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest3619712786836015206.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest323BCD9A004CC866.title}"
 			x: -8.5d
 			y: 12.0d
 		}
@@ -855,11 +855,11 @@
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
 				id: "47626D7974245604"
-				title: "{ftbquests.chapter.681E3140690307AA.quest5253257581466543377.task.5143794092817536516.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest48E751EFF8F0E511.task.5143794092817536516.title}"
 				type: "kill"
 				value: 10L
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest5253257581466543377.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest48E751EFF8F0E511.title}"
 			x: -8.0d
 			y: 11.0d
 		}
@@ -869,7 +869,7 @@
 				"77DF7C0A366D69B4"
 			]
 			id: "63F7EE58C223B854"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7203488193984051284.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest63F7EE58C223B854.subtitle}"
 			tasks: [{
 				id: "450DB2BE1C29E8D2"
 				item: {
@@ -879,7 +879,7 @@
 						value: "minecraft:beds"
 					}
 				}
-				title: "{ftbquests.chapter.681E3140690307AA.quest7203488193984051284.task.4975829692900305106.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest63F7EE58C223B854.task.4975829692900305106.title}"
 				type: "item"
 			}]
 			x: -9.5d
@@ -888,7 +888,7 @@
 		{
 			dependencies: ["31554E021ECE6572"]
 			id: "0E5EEE6DC4DC4DD8"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest1035527119563410904.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.questE5EEE6DC4DC4DD8.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "3BD752787B356821"
@@ -899,14 +899,14 @@
 						value: "minecraft:wool"
 					}
 				}
-				title: "{ftbquests.chapter.681E3140690307AA.quest1035527119563410904.task.4312005845647190049.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.questE5EEE6DC4DC4DD8.task.4312005845647190049.title}"
 				type: "item"
 			}]
 			x: -9.5d
 			y: 12.0d
 		}
 		{
-			description: ["{ftbquests.chapter.681E3140690307AA.quest3316999228744158829.description1}"]
+			description: ["{ftbquests.chapter.681E3140690307AA.quest2E0859396D8A4E6D.description1}"]
 			id: "2E0859396D8A4E6D"
 			rewards: [{
 				count: 4
@@ -914,10 +914,10 @@
 				item: "apotheosis:gem_dust"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3316999228744158829.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest2E0859396D8A4E6D.subtitle}"
 			tasks: [{
 				id: "08A4E2132E7F1A97"
-				title: "{ftbquests.chapter.681E3140690307AA.quest3316999228744158829.task.622871220496308887.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest2E0859396D8A4E6D.task.622871220496308887.title}"
 				type: "checkmark"
 			}]
 			x: -8.0d
@@ -931,7 +931,7 @@
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest3442258881257186127.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest2FC55C36F244A34F.subtitle}"
 			tasks: [{
 				id: "365616DAF25D746D"
 				item: {
@@ -949,7 +949,7 @@
 		{
 			dependencies: ["5BA86B01337A91D5"]
 			id: "0509C060962EF04C"
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest363032766049087564.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest509C060962EF04C.subtitle}"
 			tasks: [{
 				id: "6AE261E7034F3EA3"
 				item: "gtceu:hot_high_temp_wrought_precursor_ingot"
@@ -972,10 +972,10 @@
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest344405779177474510.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest344405779177474510.description2}"
-				"{ftbquests.chapter.681E3140690307AA.quest344405779177474510.description3}"
-				"{ftbquests.chapter.681E3140690307AA.quest344405779177474510.description4}"
+				"{ftbquests.chapter.681E3140690307AA.quest4C7933B3E7709CE.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest4C7933B3E7709CE.description2}"
+				"{ftbquests.chapter.681E3140690307AA.quest4C7933B3E7709CE.description3}"
+				"{ftbquests.chapter.681E3140690307AA.quest4C7933B3E7709CE.description4}"
 			]
 			id: "04C7933B3E7709CE"
 			rewards: [{
@@ -983,12 +983,12 @@
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest344405779177474510.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest4C7933B3E7709CE.subtitle}"
 			tasks: [{
 				id: "40600AC46CAF10C4"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest344405779177474510.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest4C7933B3E7709CE.title}"
 			x: -3.5d
 			y: 7.0d
 		}
@@ -1000,7 +1000,7 @@
 				item: "solcarrot:food_book"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest8557223811932364050.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest76C15DB805BE1D12.subtitle}"
 			tasks: [{
 				id: "06AAAB63BC2803F0"
 				item: {
@@ -1012,15 +1012,15 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.681E3140690307AA.quest8557223811932364050.title}"
+			title: "{ftbquests.chapter.681E3140690307AA.quest76C15DB805BE1D12.title}"
 			x: -4.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7F3D3CD93589D286"]
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest8940181180505538206.description1}"
-				"{ftbquests.chapter.681E3140690307AA.quest8940181180505538206.description2}"
+				"{ftbquests.chapter.681E3140690307AA.quest7C11E76AA3AA3E9E.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest7C11E76AA3AA3E9E.description2}"
 			]
 			id: "7C11E76AA3AA3E9E"
 			rewards: [{
@@ -1028,10 +1028,10 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest8940181180505538206.subtitle}"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest7C11E76AA3AA3E9E.subtitle}"
 			tasks: [{
 				id: "5A1A87B1DFA5172C"
-				title: "{ftbquests.chapter.681E3140690307AA.quest8940181180505538206.task.6492651010839090988.title}"
+				title: "{ftbquests.chapter.681E3140690307AA.quest7C11E76AA3AA3E9E.task.6492651010839090988.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -1039,20 +1039,20 @@
 		}
 		{
 			description: [
-				"按住CTRL+K可以打开ModernUI界面，选择偏好设置，向左拖动鼠标滑到右边的界面内，找到首选字体家族，点击当前字体可以更换其他字体"
-				"如果要字体添加字体也可以将需要添加的字体以ttf的格式放入：版本文件夹→config→ModernUI根目录下"
-				"最后，你只需要点开游戏设置→语言，随后将强制使用Unicode字体设置为开即可完美享用字体辣"
+				"{ftbquests.chapter.681E3140690307AA.quest589CE9C2FC6ECFA7.description1}"
+				"{ftbquests.chapter.681E3140690307AA.quest589CE9C2FC6ECFA7.description2}"
+				"{ftbquests.chapter.681E3140690307AA.quest589CE9C2FC6ECFA7.description3}"
 				""
-				"另外，本包提供了专属界面材质和命令背景，如果看不习惯均可以在资源包中禁用"
+				"{ftbquests.chapter.681E3140690307AA.quest589CE9C2FC6ECFA7.description4}"
 			]
 			icon: "ctnhmana:yuriko_ring"
 			id: "589CE9C2FC6ECFA7"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "我的天哪MUI大人"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest589CE9C2FC6ECFA7.subtitle}"
 			tasks: [{
 				id: "3821A71E70FA0E0D"
-				title: "什么，还有字体可以换"
+				title: "{ftbquests.chapter.681E3140690307AA.quest589CE9C2FC6ECFA7.task.4044697689541709325.title}"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -1062,15 +1062,15 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			icon: "ae2:controller"
 			id: "39246CAE96BF6294"
-			subtitle: "自动化的神"
+			subtitle: "{ftbquests.chapter.681E3140690307AA.quest39246CAE96BF6294.subtitle}"
 			tasks: [{
 				id: "7FE71CA4E8E3F65E"
-				title: " 应用能源2"
+				title: "{ftbquests.chapter.681E3140690307AA.quest39246CAE96BF6294.task.9216366657044477534.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
 			y: 0.0d
 		}
 	]
-	title: "&6原始人，启动！"
+	title: "{ftbquests.chapter.681E3140690307AA.title}"
 }

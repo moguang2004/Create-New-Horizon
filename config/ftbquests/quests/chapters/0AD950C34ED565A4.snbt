@@ -59,24 +59,24 @@
 			y: 0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.0AD950C34ED565A4.quest4461602820180400967.description1}"]
+			description: ["{ftbquests.chapter.0AD950C34ED565A4.quest3DEACC2059BBDB47.description1}"]
 			id: "3DEACC2059BBDB47"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest4461602820180400967.subtitle}"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3DEACC2059BBDB47.subtitle}"
 			tasks: [{
 				id: "3A403EB9C65CA260"
-				title: "{ftbquests.chapter.0AD950C34ED565A4.quest4461602820180400967.task.4197423820327133792.title}"
+				title: "{ftbquests.chapter.0AD950C34ED565A4.quest3DEACC2059BBDB47.task.4197423820327133792.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
 			y: 4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.0AD950C34ED565A4.quest3873787513859400253.description1}"]
+			description: ["{ftbquests.chapter.0AD950C34ED565A4.quest35C275383AEEE23D.description1}"]
 			id: "35C275383AEEE23D"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3873787513859400253.subtitle}"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest35C275383AEEE23D.subtitle}"
 			tasks: [{
 				id: "533FDBC115480B2E"
-				title: "{ftbquests.chapter.0AD950C34ED565A4.quest3873787513859400253.task.5998754851013004078.title}"
+				title: "{ftbquests.chapter.0AD950C34ED565A4.quest35C275383AEEE23D.task.5998754851013004078.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -84,7 +84,7 @@
 		}
 		{
 			id: "3EE3102F38FCF130"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest4531483445070459184.subtitle}"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3EE3102F38FCF130.subtitle}"
 			tasks: [{
 				id: "29D5BD22E2572F06"
 				item: "legendarysurvivaloverhaul:ice_fern_leaf"
@@ -95,7 +95,7 @@
 		}
 		{
 			id: "2B8D29BCF9754837"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3138210406962907191.subtitle}"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest2B8D29BCF9754837.subtitle}"
 			tasks: [{
 				id: "194A7BA8228F4799"
 				item: "legendarysurvivaloverhaul:sun_fern_leaf"
@@ -106,10 +106,10 @@
 		}
 		{
 			id: "01C3E477C4F072F1"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest127196417552839409.subtitle}"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest1C3E477C4F072F1.subtitle}"
 			tasks: [{
 				id: "6F7812986A136456"
-				title: "{ftbquests.chapter.0AD950C34ED565A4.quest127196417552839409.task.8032190381239264342.title}"
+				title: "{ftbquests.chapter.0AD950C34ED565A4.quest1C3E477C4F072F1.task.8032190381239264342.title}"
 				type: "checkmark"
 			}]
 			x: -6.0d
@@ -137,7 +137,7 @@
 		}
 		{
 			id: "3314F0D4098098AE"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3680831588951693486.subtitle}"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3314F0D4098098AE.subtitle}"
 			tasks: [{
 				id: "63049FEE2FCDC622"
 				item: {
@@ -152,13 +152,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.0AD950C34ED565A4.quest3680831588951693486.title}"
+			title: "{ftbquests.chapter.0AD950C34ED565A4.quest3314F0D4098098AE.title}"
 			x: -2.0d
 			y: 4.5d
 		}
 		{
 			id: "5E0E38DFBE25B51D"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest6777417022858179869.subtitle}"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest5E0E38DFBE25B51D.subtitle}"
 			tasks: [{
 				id: "6DB6BD5045DB21E3"
 				item: {
@@ -173,67 +173,67 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.0AD950C34ED565A4.quest6777417022858179869.title}"
+			title: "{ftbquests.chapter.0AD950C34ED565A4.quest5E0E38DFBE25B51D.title}"
 			x: -2.0d
 			y: -3.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description1}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description1}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description2}"
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description3}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description2}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description3}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description4}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description4}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description5}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description5}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description6}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description6}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description7}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description7}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description8}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description8}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description9}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description9}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description10}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description10}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description11}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description11}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description12}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description12}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description13}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description13}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description14}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description14}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description15}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description15}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description16}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description16}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description17}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description17}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description18}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description18}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description19}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description19}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description20}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description20}"
 				""
-				"{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.description21}"
+				"{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.description21}"
 			]
 			id: "30DC07EEEACB1DE1"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.subtitle}"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.subtitle}"
 			tasks: [{
 				id: "4757E453136C8F72"
 				item: "eclipticseasons:calendar"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.0AD950C34ED565A4.quest3520697731419676129.title}"
+			title: "{ftbquests.chapter.0AD950C34ED565A4.quest30DC07EEEACB1DE1.title}"
 			x: -4.0d
 			y: -5.5d
 		}
 		{
 			id: "4D39D33BB9765A01"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest5564711068061030913.subtitle}"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest4D39D33BB9765A01.subtitle}"
 			tasks: [{
 				id: "2826B7835A9B1DCB"
 				item: "eclipticseasons:hygrometer"
@@ -244,7 +244,7 @@
 		}
 		{
 			id: "602481325DFDBFA3"
-			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest6927804180127924131.subtitle}"
+			subtitle: "{ftbquests.chapter.0AD950C34ED565A4.quest602481325DFDBFA3.subtitle}"
 			tasks: [{
 				id: "58021DCFAA21B290"
 				item: "eclipticseasons:greenhouse_core_container"
@@ -254,5 +254,5 @@
 			y: -5.5d
 		}
 	]
-	title: "&9传说生存"
+	title: "{ftbquests.chapter.0AD950C34ED565A4.title}"
 }

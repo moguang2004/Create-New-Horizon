@@ -9,5 +9,5 @@
 		{ count: 8, item: "ctnhmana:advanced_mana_diode" }
 		{ count: 8, item: "ctnhmana:advanced_mana_inductor" }
 	]
-	title: "精灵元件"
+	title: "{ftbquests.loot_table.3379842978428412958.title}"
 }

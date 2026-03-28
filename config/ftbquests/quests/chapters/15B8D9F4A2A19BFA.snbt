@@ -18,7 +18,7 @@
 	quests: [
 		{
 			id: "65F13C0C2212FC05"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7345718490026933253.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest65F13C0C2212FC05.subtitle}"
 			tasks: [{
 				id: "1055D7FCC33FEE5A"
 				item: "ctpp:kinetic_steam_turbine"
@@ -31,7 +31,7 @@
 			id: "3C15632B9697C37D"
 			tasks: [{
 				id: "64A12577E02E56F8"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4329475655647871869.task.7251118071835678456.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3C15632B9697C37D.task.7251118071835678456.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -49,7 +49,7 @@
 		}
 		{
 			id: "3F133879B1E396A7"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4545038544273643175.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3F133879B1E396A7.subtitle}"
 			tasks: [{
 				id: "4CF994857BAF8A84"
 				item: "gtceu:lv_combustion"
@@ -70,7 +70,7 @@
 		}
 		{
 			id: "06B866E1C6CD3EA6"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest484250079831342758.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6B866E1C6CD3EA6.subtitle}"
 			tasks: [{
 				id: "670FDB885917F891"
 				item: "gtceu:lv_gas_turbine"
@@ -161,7 +161,7 @@
 		}
 		{
 			id: "335E38A11EE1269B"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3701458208404088475.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest335E38A11EE1269B.subtitle}"
 			tasks: [{
 				id: "6559C6AF806AF26E"
 				item: "ctnhcore:iv_naquadah_reactor"
@@ -172,7 +172,7 @@
 		}
 		{
 			id: "566474383668316E"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6225228369712656750.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest566474383668316E.subtitle}"
 			tasks: [{
 				id: "253CF47EA78058F3"
 				item: "ctnhcore:luv_naquadah_reactor"
@@ -183,7 +183,7 @@
 		}
 		{
 			id: "276895EC6427C435"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest2839684407582245941.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest276895EC6427C435.subtitle}"
 			tasks: [{
 				id: "7DE01BAF8C645A63"
 				item: "ctnhcore:zpm_naquadah_reactor"
@@ -216,7 +216,7 @@
 			id: "3D882DE9ACFD43EA"
 			tasks: [{
 				id: "536B45B8404BE1CB"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4433844314799162346.task.6010974785311072715.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3D882DE9ACFD43EA.task.6010974785311072715.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -226,7 +226,7 @@
 			id: "772551A724F97069"
 			tasks: [{
 				id: "6A0A6B2BC679BEB1"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest8585358042973433961.task.7641037553545100977.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest772551A724F97069.task.7641037553545100977.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -236,7 +236,7 @@
 			id: "5275FB66FC08D1A1"
 			tasks: [{
 				id: "48139C25B960D001"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5941931703118909857.task.5193666481126166529.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5275FB66FC08D1A1.task.5193666481126166529.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -246,7 +246,7 @@
 			id: "6AAC4D8C7C7147AB"
 			tasks: [{
 				id: "34068A0143E04F57"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7686603929793152939.task.3748835477870890839.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6AAC4D8C7C7147AB.task.3748835477870890839.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -257,7 +257,7 @@
 			id: "187E4ADFF4648D64"
 			tasks: [{
 				id: "32EE4FBEE51C583A"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest1764930429714206052.task.3669958427659753530.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest187E4ADFF4648D64.task.3669958427659753530.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -267,7 +267,7 @@
 			id: "3363C23E39C4AD1C"
 			tasks: [{
 				id: "2A8B911352BA8C2F"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3703016891141631260.task.3065703483534117935.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3363C23E39C4AD1C.task.3065703483534117935.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -277,7 +277,7 @@
 			id: "65EBA2AFB63D9C39"
 			tasks: [{
 				id: "2D85FD0B8C9499FE"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7344142492918193209.task.3280306129654290942.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest65EBA2AFB63D9C39.task.3280306129654290942.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -287,7 +287,7 @@
 			id: "037FDD26FC9E9788"
 			tasks: [{
 				id: "304D93636CA5DA20"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest252163263672784776.task.3480600142261115424.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest37FDD26FC9E9788.task.3480600142261115424.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -295,16 +295,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description1}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description2}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description3}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description4}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description5}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description6}"
-				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.description7}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest5E9C58D5439EF42D.description1}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest5E9C58D5439EF42D.description2}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest5E9C58D5439EF42D.description3}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest5E9C58D5439EF42D.description4}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest5E9C58D5439EF42D.description5}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest5E9C58D5439EF42D.description6}"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest5E9C58D5439EF42D.description7}"
 			]
 			id: "5E9C58D5439EF42D"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6817421608917857325.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5E9C58D5439EF42D.subtitle}"
 			tasks: [{
 				id: "53158C408FB3D0E5"
 				item: "ctnhcore:photovoltaic_power_station_energetic"
@@ -335,7 +335,7 @@
 		}
 		{
 			id: "676107235021E96F"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7449243106897160559.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest676107235021E96F.subtitle}"
 			tasks: [{
 				id: "5285D731555F76E0"
 				item: "ctnhcore:ev_naquadah_reactor"
@@ -346,7 +346,7 @@
 		}
 		{
 			id: "73409534B2EB6BAD"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest8304801766443805613.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest73409534B2EB6BAD.subtitle}"
 			tasks: [{
 				id: "206922990FD52766"
 				item: "ctnhcore:wind_power_array"
@@ -389,7 +389,7 @@
 			id: "6E4976ECA4949FBE"
 			tasks: [{
 				id: "60457371B764CB97"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest7947013776217513918.task.6937077733279452055.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6E4976ECA4949FBE.task.6937077733279452055.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -399,7 +399,7 @@
 			id: "4848EA3DE28F3D13"
 			tasks: [{
 				id: "1542A3D5578F5ABC"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5208670520568921363.task.1531966959951764156.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4848EA3DE28F3D13.task.1531966959951764156.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -409,7 +409,7 @@
 			id: "3812F83A4C26995D"
 			tasks: [{
 				id: "3EDE241FEA38FACD"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4040564744974145885.task.4530097994673486541.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest3812F83A4C26995D.task.4530097994673486541.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -419,7 +419,7 @@
 			id: "58873769DE7E102C"
 			tasks: [{
 				id: "7D1A0417E6B4D745"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6379128325037494316.task.9014522104836839237.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest58873769DE7E102C.task.9014522104836839237.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -429,7 +429,7 @@
 			id: "57D31D5EA3E386DB"
 			tasks: [{
 				id: "4F4127290C163972"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6328434193699407579.task.5710888859732425074.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest57D31D5EA3E386DB.task.5710888859732425074.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -439,7 +439,7 @@
 			id: "5C1B81DCC8CE6672"
 			tasks: [{
 				id: "3712558EA5114743"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6637041261122315890.task.3968328292809918275.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5C1B81DCC8CE6672.task.3968328292809918275.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -459,7 +459,7 @@
 			id: "6FD7568D36079CBE"
 			tasks: [{
 				id: "3C32D2D569D91C40"
-				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest8059005222699637950.task.4337761205156912192.title}"
+				title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest6FD7568D36079CBE.task.4337761205156912192.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -467,7 +467,7 @@
 		}
 		{
 			id: "4F8CBD1FE34B4A4D"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest5732164370390796877.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4F8CBD1FE34B4A4D.subtitle}"
 			tasks: [{
 				id: "16F7CEDB76D72832"
 				item: "ctnhcore:nanogenetor"
@@ -478,7 +478,7 @@
 		}
 		{
 			id: "74427C7A3AFB782C"
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest8377395121279957036.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest74427C7A3AFB782C.subtitle}"
 			tasks: [
 				{
 					id: "1C3C514998AD5FED"
@@ -526,9 +526,9 @@
 		}
 		{
 			description: [
-				"UV前期就能做的强力发电机器，只要你提供足够的算力，它就能给你提供足够的电力。"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest571E6FAB38D273F8.description1}"
 				""
-				"它甚至能帮你冷却基岩线的以太"
+				"{ftbquests.chapter.15B8D9F4A2A19BFA.quest571E6FAB38D273F8.description2}"
 			]
 			id: "571E6FAB38D273F8"
 			tasks: [{
@@ -554,13 +554,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4650484246474051722.subtitle}"
+			subtitle: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4089D6C868A2D08A.subtitle}"
 			tasks: [{
 				id: "1D67A2915C631403"
 				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4650484246474051722.title}"
+			title: "{ftbquests.chapter.15B8D9F4A2A19BFA.quest4089D6C868A2D08A.title}"
 			x: 10.0d
 			y: 7.0d
 		}
@@ -575,5 +575,5 @@
 			y: 7.0d
 		}
 	]
-	title: "&e如何发电"
+	title: "{ftbquests.chapter.15B8D9F4A2A19BFA.title}"
 }

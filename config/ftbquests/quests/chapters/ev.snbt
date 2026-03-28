@@ -114,7 +114,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ev.quest2084251080619664304.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest1CECBF50A30F23B0.subtitle}"
 			tasks: [{
 				id: "4FF48202A50F0FF5"
 				item: "gtceu:tungsten_steel_ingot"
@@ -152,14 +152,14 @@
 				"75CFD6720163E3ED"
 			]
 			description: [
-				"{ftbquests.chapter.ev.quest4269115998407106374.description1}"
-				"{ftbquests.chapter.ev.quest4269115998407106374.description2}"
-				"{ftbquests.chapter.ev.quest4269115998407106374.description3}"
+				"{ftbquests.chapter.ev.quest3B3EF261BDFE1F46.description1}"
+				"{ftbquests.chapter.ev.quest3B3EF261BDFE1F46.description2}"
+				"{ftbquests.chapter.ev.quest3B3EF261BDFE1F46.description3}"
 			]
 			id: "3B3EF261BDFE1F46"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ev.quest4269115998407106374.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest3B3EF261BDFE1F46.subtitle}"
 			tasks: [{
 				id: "4A6E73A3618ACBAE"
 				item: "gtceu:nano_processor"
@@ -240,7 +240,7 @@
 				"3121647B8CB1E5BF"
 			]
 			id: "520063634DC19E7D"
-			subtitle: "{ftbquests.chapter.ev.quest5908831989267537533.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest520063634DC19E7D.subtitle}"
 			tasks: [{
 				id: "6839D28AC04E0F57"
 				item: "gtceu:epoxy_bucket"
@@ -256,7 +256,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "1AEE2FEB6874EE82"
-			subtitle: "{ftbquests.chapter.ev.quest1940541177559576194.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest1AEE2FEB6874EE82.subtitle}"
 			tasks: [{
 				id: "3302819044573A82"
 				item: "gtceu:epichlorohydrin_bucket"
@@ -271,7 +271,7 @@
 				"21C9916BDE650D3A"
 			]
 			id: "3121647B8CB1E5BF"
-			subtitle: "{ftbquests.chapter.ev.quest3540221263894144447.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest3121647B8CB1E5BF.subtitle}"
 			tasks: [{
 				id: "12F063B61038384E"
 				item: "gtceu:bisphenol_a_bucket"
@@ -322,7 +322,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest3513925212266431810.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest30C3F85CEC6E0542.subtitle}"
 			tasks: [{
 				id: "156B357D156776E1"
 				item: "ctnhcore:blaze_blast_furnace"
@@ -439,10 +439,10 @@
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
 				id: "3F9C90357F1D5B06"
-				title: "飞往火星"
+				title: "{ftbquests.chapter.ev.quest277F8827A9281E7E.task.4583697080196619014.title}"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.ev.quest2846143193444523646.title}"
+			title: "{ftbquests.chapter.ev.quest277F8827A9281E7E.title}"
 			x: -6.5d
 			y: -5.5d
 		}
@@ -460,8 +460,8 @@
 		{
 			dependencies: ["5B1C049A7712479A"]
 			description: [
-				"{ftbquests.chapter.ev.quest6002614936724594531.description1}"
-				"{ftbquests.chapter.ev.quest6002614936724594531.description2}"
+				"{ftbquests.chapter.ev.quest534D927B52EC5F63.description1}"
+				"{ftbquests.chapter.ev.quest534D927B52EC5F63.description2}"
 			]
 			id: "534D927B52EC5F63"
 			rewards: [{
@@ -471,7 +471,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ev.quest6002614936724594531.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest534D927B52EC5F63.subtitle}"
 			tasks: [{
 				id: "22E3934505BEF43B"
 				item: "gtceu:nano_processor_mainframe"
@@ -483,7 +483,7 @@
 		{
 			id: "3A7EF62D9745F2D6"
 			invisible: true
-			subtitle: "{ftbquests.chapter.ev.quest4215076976937267926.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest3A7EF62D9745F2D6.subtitle}"
 			tasks: [{
 				count: 64L
 				id: "1992F6A776A09444"
@@ -541,7 +541,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest6524280692107135422.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest5A8AE6B8EBFC49BE.subtitle}"
 			tasks: [
 				{
 					id: "3D9CB29FE3E85462"
@@ -554,7 +554,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quest6524280692107135422.title}"
+			title: "{ftbquests.chapter.ev.quest5A8AE6B8EBFC49BE.title}"
 			x: -10.0d
 			y: 1.5d
 		}
@@ -567,7 +567,7 @@
 				table_id: 971429564947815603L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.ev.quest1629327718983370811.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest169C88ED88B3883B.subtitle}"
 			tasks: [
 				{
 					id: "750540F6596AC75E"
@@ -580,7 +580,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quest1629327718983370811.title}"
+			title: "{ftbquests.chapter.ev.quest169C88ED88B3883B.title}"
 			x: -11.0d
 			y: 1.5d
 		}
@@ -607,7 +607,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ev.quest1752913491054041289.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest18539988644418C9.subtitle}"
 			tasks: [{
 				id: "7308BC4380FE1F12"
 				item: "ctnhenergy:power_substation"
@@ -645,7 +645,7 @@
 		}
 		{
 			id: "6B0754AD3F1AF0C2"
-			subtitle: "{ftbquests.chapter.ev.quest7712225989960069314.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest6B0754AD3F1AF0C2.subtitle}"
 			tasks: [{
 				id: "4FA8E83E02A43D80"
 				item: "gtceu:graphite_dust"
@@ -656,7 +656,7 @@
 		}
 		{
 			dependencies: ["026EEA8EEAA6BFB1"]
-			description: ["{ftbquests.chapter.ev.quest3551092486883402246.description1}"]
+			description: ["{ftbquests.chapter.ev.quest314803CD653E6206.description1}"]
 			id: "314803CD653E6206"
 			size: 2.0d
 			tasks: [{
@@ -702,7 +702,7 @@
 			id: "33CDE1381B278481"
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ev.quest3732887297250002049.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest33CDE1381B278481.subtitle}"
 			tasks: [{
 				id: "02A4BA814D8951A0"
 				item: "gtceu:graphene_dust"
@@ -716,7 +716,7 @@
 			id: "6F6CE9819AC46724"
 			shape: "heart"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ev.quest8029048978551367460.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest6F6CE9819AC46724.subtitle}"
 			tasks: [{
 				id: "2DAF50E69DEC315D"
 				item: "gtceu:small_graphene_dust"
@@ -727,13 +727,13 @@
 		}
 		{
 			id: "646A046E3DBA0C52"
-			subtitle: "{ftbquests.chapter.ev.quest7235600622852639826.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest646A046E3DBA0C52.subtitle}"
 			tasks: [{
 				id: "7F0475C3113799A2"
 				item: "gtceu:methane_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.ev.quest7235600622852639826.title}"
+			title: "{ftbquests.chapter.ev.quest646A046E3DBA0C52.title}"
 			x: 1.0d
 			y: 1.5d
 		}
@@ -749,7 +749,7 @@
 		}
 		{
 			dependencies: ["001B1FD0183C089D"]
-			description: ["可以放置四个能源仓！虽然没办法升两次压，但你可以多超一次频！"]
+			description: ["{ftbquests.chapter.ev.quest3B3194C22AA50A4B.description1}"]
 			id: "3B3194C22AA50A4B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -758,7 +758,7 @@
 				type: "choice"
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ev.quest4265353883756595787.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest3B3194C22AA50A4B.subtitle}"
 			tasks: [{
 				id: "5E9D94746BDECB62"
 				item: "ctnhcore:mega_lcr"
@@ -798,7 +798,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ev.quest5214647553349091956.title}"
+			title: "{ftbquests.chapter.ev.quest485E2652463B8274.title}"
 			x: -4.5d
 			y: 2.5d
 		}
@@ -824,7 +824,7 @@
 		}
 		{
 			id: "217BE53ACEB3C6E6"
-			subtitle: "{ftbquests.chapter.ev.quest2412774066125784806.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest217BE53ACEB3C6E6.subtitle}"
 			tasks: [{
 				id: "339035F7CA1B6B01"
 				item: "gtceu:mpic_wafer"
@@ -843,7 +843,7 @@
 				type: "loot"
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ev.quest6532872306600039366.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest5AA96CC00DE1D3C6.subtitle}"
 			tasks: [{
 				id: "4261EFCF49ADFB51"
 				item: "ctnhcore:super_centrifuge"
@@ -855,7 +855,7 @@
 		{
 			description: [""]
 			id: "596D03E87665DBFB"
-			subtitle: "{ftbquests.chapter.ev.quest6443810938790730747.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest596D03E87665DBFB.subtitle}"
 			tasks: [{
 				id: "43D4DC0B8CC08BE4"
 				item: "gtceu:uranium_dust"
@@ -866,7 +866,7 @@
 		}
 		{
 			id: "59673BBF643D0E29"
-			subtitle: "{ftbquests.chapter.ev.quest6442183485183299113.subtitle}"
+			subtitle: "{ftbquests.chapter.ev.quest59673BBF643D0E29.subtitle}"
 			tasks: [{
 				id: "6D8EAA1C3A2C6968"
 				item: "gtceu:end_steel_ingot"
@@ -917,7 +917,7 @@
 		}
 		{
 			id: "6CF8EDC7B351F67A"
-			subtitle: "可以在月球的陨石坑中找到"
+			subtitle: "{ftbquests.chapter.ev.quest6CF8EDC7B351F67A.subtitle}"
 			tasks: [{
 				id: "00BC927E96BC15A1"
 				item: "gtceu:starlight_bucket"
@@ -996,5 +996,5 @@
 			y: -1.0d
 		}
 	]
-	title: "&5EV时期"
+	title: "{ftbquests.chapter.ev.title}"
 }
