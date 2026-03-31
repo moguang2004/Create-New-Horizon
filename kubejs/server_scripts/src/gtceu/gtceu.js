@@ -1953,4 +1953,10 @@ ServerEvents.recipes(event => {
     event.smelting('gtceu:hot_high_temp_wrought_precursor_ingot', 'minecraft:iron_ingot')
         .cookingTime(400)
         .xp(1.4);
+    event.recipes.gtceu.chemical_bath("chocolate")
+        .EUt(32)
+        .itemInputs("create:bar_of_chocolate")
+        .inputFluids(Fluid.of("minecraft:milk", 250))
+        .itemOutputs('gregtechmodernfoodoption:milk_chocolate')
+        .duration(20)
 });

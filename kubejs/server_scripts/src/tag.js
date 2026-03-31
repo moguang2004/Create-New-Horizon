@@ -42,6 +42,10 @@ ServerEvents.tags('item', event => {
     event.add('curios:curio', 'tiab:time_in_a_bottle')
     event.add('farmersdelight:straw_harvesters',/gtceu:(?!.*butchery_).*_knife/)
     event.add('farmersdelight:tools/knives',/gtceu:(?!.*butchery_).*_knife/)
+
+    event.add('create:upright_on_belt', 'gregtechmodernfoodoption:smore_1')
+    event.add('create:upright_on_belt', 'gregtechmodernfoodoption:smore_2')
+    event.add('create:upright_on_belt', 'gregtechmodernfoodoption:smore_4')
 })
 ServerEvents.tags('block_entity_type', event => {
     event.add('tconstruct:side_inventories', 'sophisticatedstorage:controller')

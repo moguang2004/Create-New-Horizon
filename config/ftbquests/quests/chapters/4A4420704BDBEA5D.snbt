@@ -90,7 +90,7 @@
 			id: "3C2BE641B560898E"
 			tasks: [{
 				id: "6106421186DABCC4"
-				item: "ad_astra:oxygen_bucket"
+				item: "gtceu:oxygen_bucket"
 				type: "item"
 			}]
 			x: 12.0d
