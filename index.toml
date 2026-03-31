@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".cache/changelog_cache.json"
+hash = "1e342c12e668bff57b33aa57d296c21fda3ff36a9374b84978a4053ab1cb340f"
+
+[[files]]
+file = ".cache/changelog_cache.json.etag"
+hash = "21a98d5297a63db57a1b0862fb3e56e882ed0455a3fee51fd6a788709d8dfc6e"
+
+[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -701,12 +709,16 @@ file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
 hash = "4efc9faf1e498364b3b0402bca813c4cff91fd4b402972a08c64ebcfe79ccb17"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/4623BFBDAE151C50.snbt"
+hash = "ecdaf6450a602462d223ba27ba9e5c49840012c94c13ce05ac639ddf5680ff10"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/4A4420704BDBEA5D.snbt"
-hash = "2f0d8a2bba133bc495ec3ed8917dd61d223c971a122d25608ce8b82cbb862c60"
+hash = "10c407db9c194351ffa3c4112b172d64df534de1863b3ec0524bb2f718e3425f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4EE5451097565A1A.snbt"
-hash = "dd6639a4b9914b9df3fae6ad9cafce055c690f9a2c9894489bc442c7dd0cca4f"
+hash = "116f0e0fde695df4bb9b98d7bd638b7819bcfcb837a77bb82798059078c792ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/596370001FE6E99B.snbt"
@@ -9722,7 +9734,7 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "1afc19decfb4e5cd92262c6b97ec56552b0e514da280e01e9d65c8052a3daefd"
+hash = "2b8c0911176743df7cc46ccd5c6a76085b96a58c4d1c89ea14933f219f605528"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/wood.js"
@@ -9778,7 +9790,7 @@ hash = "f3c0bddbd21042f39f1d88e9519a5886a91130c71778f72261f9dc72b49fcd25"
 
 [[files]]
 file = "kubejs/server_scripts/src/tag.js"
-hash = "f673fb16831593b414173cac920d7279345ce7b7494dc81f3c4c8f215371da04"
+hash = "22cfcd30fd614d118f7bff83d11ebb5fcfc61a320e34a55ec2e1454d4bfe48cd"
 
 [[files]]
 file = "kubejs/server_scripts/src/tconstruct/modiifiers/example.js"
