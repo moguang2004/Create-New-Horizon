@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
         "create:crafting/appliances/slime_ball",
         "create:mechanical_crafting/crushing_wheel",
         "create_new_age:shaped/redstone_magnet",
-        "create_new_age:shapeless/energiser_t1",
+        "create_new_age:shapeless/basic_energiser",
         "minecraft:lightning_rod",
         "create_new_age:pressing/overcharged_gold",
         "create_new_age:pressing/overcharged_iron",
