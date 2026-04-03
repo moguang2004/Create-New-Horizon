@@ -49,9 +49,6 @@ ServerEvents.recipes(event => {
     event.shaped(Item.of("createmetallurgy:faucet", 3), 
                 ["   ", "A A", " B " ], 
                 {A: "gtceu:andesite_alloy_plate", B: 'ctpp:basic_mechanism'})
-    event.shaped(Item.of('createmetallurgy:foundry_unit', 1), 
-                ["ABA"], 
-                {A: "gtceu:andesite_alloy_plate", B: 'minecraft:compass'})
     
 
     //粉碎矿物得产物和其概率

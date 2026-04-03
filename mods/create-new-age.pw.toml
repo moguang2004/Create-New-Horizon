@@ -1,12 +1,13 @@
 name = "Create: New Age"
-filename = "create-new-age-forge-1.20.1-1.1.4.jar"
+filename = "create-new-age-1.1.7f+forge-mc1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "46687106ee5753ff3a92580ce514c6abc6216045"
-url = "https://edge.forgecdn.net/files/6482/827/create-new-age-forge-1.20.1-1.1.4.jar"
+hash = "5731a275007fc8236414829358e4a100783927cb"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6482827
+file-id = 7452740
 project-id = 905861
