@@ -526,7 +526,7 @@ hash = "0bec9211b21746a28b585b898b702af3b10a1b5fcd9019650c4b8558e14dc7c1"
 
 [[files]]
 file = "config/create_new_age-common.toml"
-hash = "8e0a0ffeaba90be5fe16c6a3d406a9a000275258f1011cca7c8efdbe95d1a077"
+hash = "a9fa4685548e652dcd5cf04cef14aecfeb2ddd7e8a321ca0b847834de4cc04be"
 
 [[files]]
 file = "config/ctnhchangelog-client.toml"
@@ -694,7 +694,7 @@ hash = "6df5262f99dedad918e3708f3a7ba2cac0f57c9337cfbba61851ec7d633d9220"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "61e2f671a1514acc4dcc1e1169491987d7b791a082b712f071e9360607cdf579"
+hash = "045db43cafec4d39f63c68fdfc2e326baaea1d8b4faaab2799a1759a8c1773f5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -9586,7 +9586,7 @@ hash = "f8f605ee4352527195154f79934e45759dbbdb360bd666a585ba02ee2d627434"
 
 [[files]]
 file = "kubejs/server_scripts/src/crafttable.js"
-hash = "057e261de8340d3392c5df291062ff9432d20dc9894e376f32bb2679a8e786fc"
+hash = "97652b9aa6cf74007789f2402078e6b7d23960e1f19c5da45d3e5fc92ff18d37"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
@@ -9610,7 +9610,7 @@ hash = "5258dd26d7840b17f0189d6be4e69e49263ed38b3f5b64fa314e356037a5154e"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/metallurgy.js"
-hash = "dfa5f545e972eeeff96e7676f34b9f0517e8d7f1e9c71ecd4ab61477466b253b"
+hash = "cacf19f3d18c7ea0ac229fa153d101d286625a65d1010d4cd23ce23ae5ad7558"
 
 [[files]]
 file = "kubejs/server_scripts/src/create/oreexcavation.js"
@@ -10132,7 +10132,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "643d695c3fa6973c50f5815966df42b7259921f6078b54ebb88e958dfa9298a5"
+hash = "8d3f40c638fa0085a62a3ac477a3f2ed23e63af62da2cdf502183fa0bddbca7c"
 metafile = true
 
 [[files]]
@@ -10147,12 +10147,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-metallurgy.pw.toml"
-hash = "398c271d3905c369609825c7caeac982de15652f89fa1d71ca21ca747af5a298"
+hash = "533ed77d8808cdb36538098413993376f588f5da2b4e0815763411870545b7a9"
 metafile = true
 
 [[files]]
 file = "mods/create-new-age.pw.toml"
-hash = "f9ed96f1ed83ae4f7d6052c72eb37af721e8f0001da3fbe83b56a5cfa72cc55e"
+hash = "af254a9e26ed280c6078e2d02aa9f511d5b3f0ae43767e6a35a87583014e5e6e"
 metafile = true
 
 [[files]]
@@ -10162,7 +10162,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "26b5eb49763ba8b3078ea93222f2b73e86ad4b3b2030a1b7628aab37b9061ae2"
+hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
 metafile = true
 
 [[files]]
@@ -10962,7 +10962,7 @@ metafile = true
 
 [[files]]
 file = "mods/vintage-improvenents-ssw-edition.pw.toml"
-hash = "391ad04ee54e66189a34c8a023bb0b9db5f7982c80f2a2f674d4f00481781db9"
+hash = "3e66b449126f91596ca532e60770e318afebe7981f88bf8383f4fe7999be5d8f"
 metafile = true
 
 [[files]]

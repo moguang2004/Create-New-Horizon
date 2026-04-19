@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
         })
 
     event.shaped(
-        Item.of("create_new_age:energiser_t1", 1), [
+        Item.of("create_new_age:basic_energiser", 1), [
             " A ",
             "BCB",
             " D "

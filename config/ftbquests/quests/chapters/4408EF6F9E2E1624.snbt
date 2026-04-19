@@ -1322,19 +1322,12 @@
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest105D45F86A0B3A55.subtitle}"
-			tasks: [
-				{
-					count: 8L
-					id: "683C307DC2DF01E0"
-					item: "createmetallurgy:industrial_crucible"
-					type: "item"
-				}
-				{
-					id: "7C9246DFEBDF0465"
-					item: "createmetallurgy:foundry_unit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "683C307DC2DF01E0"
+				item: "createmetallurgy:industrial_crucible"
+				type: "item"
+			}]
 			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest105D45F86A0B3A55.title}"
 			x: 5.0d
 			y: 18.5d
