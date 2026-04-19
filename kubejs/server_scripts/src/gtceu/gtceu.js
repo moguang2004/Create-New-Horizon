@@ -363,7 +363,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.distillation_tower("liquid_alfheim_air")
         .inputFluids(Fluid.of("gtceu:liquid_alfheim_air", 100000))
         .itemOutputs("botania:mana_powder")
-        .outputFluids(Fluid.of("gtceu:mana", 10000))
+        .outputFluids(Fluid.of("gtceu:mana", 100))
         .outputFluids(Fluid.of("gtceu:oxygen", 25000))
         .outputFluids(Fluid.of("gtceu:steam", 12000))
         .outputFluids(Fluid.of("gtceu:neon", 10000))
@@ -374,7 +374,7 @@ ServerEvents.recipes(event => {
         .duration(2000)
     event.recipes.gtceu.centrifuge("alfheim_air")
         .inputFluids(Fluid.of("gtceu:alfheim_air", 10000))
-        .outputFluids(Fluid.of("gtceu:mana", 500))
+        .outputFluids(Fluid.of("gtceu:mana", 5))
         .outputFluids(Fluid.of("gtceu:oxygen", 1500))
         .outputFluids(Fluid.of("gtceu:helium", 1000))
         .EUt(240)
@@ -787,28 +787,28 @@ ServerEvents.recipes(event => {
     //   console.info(recipe.json.get('drain'))
     // })
 
-     function dwos_crafting_recipe(event, voltage) {
-         event.shaped(
-             `ctnhmana:${voltage}_digital_well_of_suffer`, [
-                 'PCP',
-                 'SHS',
-                 'PCP'
-             ], {
-                 P: `gtceu:${voltage}_electric_pump`,
-                 C: `#gtceu:circuits/${voltage}`,
-                 H: `gtceu:${voltage}_machine_hull`,
-                 S: 'bloodmagic:sacrificerune'
-             })
-     }
-     ['lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv'].forEach(voltage => dwos_crafting_recipe(event, voltage));
+    function dwos_crafting_recipe(event, voltage) {
+        event.shaped(
+            `ctnhmana:${voltage}_digital_well_of_suffer`, [
+                'PCP',
+                'SHS',
+                'PCP'
+            ], {
+                P: `gtceu:${voltage}_electric_pump`,
+                C: `#gtceu:circuits/${voltage}`,
+                H: `gtceu:${voltage}_machine_hull`,
+                S: 'bloodmagic:sacrificerune'
+            })
+    }
+    ['lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv'].forEach(voltage => dwos_crafting_recipe(event, voltage));
 
-     function addModel(event, entity, voltage, outputValue) {
-         event.recipes.gtceu.digital_well_of_suffer('dwos_' + entity)
-             .outputFluids(Fluid.of('bloodmagic:life_essence_fluid', outputValue))
-             .notConsumable(Item.of('hostilenetworks:data_model', { data_model: { id: 'hostilenetworks:' + entity } }).weakNBT())
-             .EUt(voltage)
-             .duration(20);
-     }
+    function addModel(event, entity, voltage, outputValue) {
+        event.recipes.gtceu.digital_well_of_suffer('dwos_' + entity)
+            .outputFluids(Fluid.of('bloodmagic:life_essence_fluid', outputValue))
+            .notConsumable(Item.of('hostilenetworks:data_model', { data_model: { id: 'hostilenetworks:' + entity } }).weakNBT())
+            .EUt(voltage)
+            .duration(20);
+    }
 
     let low = ['chicken', 'cod', 'cow', 'glow_squid', 'mooshroom', 'pig', 'rabbit', 'polar_bear', 'squid', 'snow_golem', 'sheep']
     let mid = ['ars_nouveau/wilden_mobs', 'blaze', 'creeper', 'drowned', 'ghast', 'guardian', 'hoglin', 'magma_cube', 'phantom', 'skeleton', 'slime', 'twilightforste/death_tome', 'twilightforste/stable_ice_core',
