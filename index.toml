@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".cache/changelog_cache.json"
-hash = "1e342c12e668bff57b33aa57d296c21fda3ff36a9374b84978a4053ab1cb340f"
-
-[[files]]
-file = ".cache/changelog_cache.json.etag"
-hash = "21a98d5297a63db57a1b0862fb3e56e882ed0455a3fee51fd6a788709d8dfc6e"
-
-[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -11021,10 +11013,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "a9eef5f6f1fdc2157040eeabe12142995780fca7a614f9704b70b6a0eea397d4"
-
-[[files]]
-file = "replay_pid27568.log"
-hash = "0b7245a7686cb8bf8d22cb75a50e6f91d23f9fad8d48025dc912e0fd8abba53b"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
