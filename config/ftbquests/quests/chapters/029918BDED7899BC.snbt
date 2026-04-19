@@ -1,0 +1,360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "029918BDED7899BC"
+	group: "045BDEA2D2692FE0"
+	icon: "create:package_frogport"
+	id: "029918BDED7899BC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6DB370790E927958"]
+			description: [
+				"如果你不想在前期盯着一大堆木桶或者箱子翻来翻去，受够了大批量手搓，那么这一章会很有帮助"
+				"请在解锁了动力冲压机之后再看这条任务线！"
+			]
+			id: "674128784210FA9D"
+			rewards: [{
+				count: 64
+				id: "46FDD1FF2667E613"
+				item: "create:cardboard"
+				title: "太棒了，不用自己打搅了"
+				type: "item"
+			}]
+			subtitle: "此章旨在解决机动存储问题"
+			tasks: [{
+				id: "568A61DF7C797555"
+				title: "没有AE，如何存储？"
+				type: "checkmark"
+			}]
+			title: "机动存储"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["674128784210FA9D"]
+			description: [
+				"这样的一个保险柜能够存储90k个不限类型的物品"
+				"            虽然它不能够直接让你右键交互"
+				" 但你很快会明白为啥这玩意能成为机动存储的核心"
+			]
+			id: "058A83E9EB8D10C7"
+			rewards: [{
+				count: 63
+				id: "55C17AFE8DFB6D88"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			subtitle: "一个3x3x9的保险柜"
+			tasks: [{
+				count: 18L
+				id: "411BE1D026FC7D54"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			title: "保险柜"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "4D71C7A24C8A56E1"
+			rewards: [{
+				count: 10
+				id: "0E8BDD6B7B9F2EA2"
+				item: "create:chute"
+				type: "item"
+			}]
+			subtitle: "你先做，真的有用"
+			tasks: [{
+				count: 2L
+				id: "09A5E8C4114153D8"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "为什么会用到这个？"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["674128784210FA9D"]
+			id: "2E914148402CC9D9"
+			rewards: [{
+				count: 4
+				id: "798E51D838486810"
+				item: "create:packager"
+				type: "item"
+			}]
+			subtitle: "CT存储端口这一块"
+			tasks: [{
+				count: 4L
+				id: "0F78F123C56FC030"
+				item: "create:packager"
+				type: "item"
+			}]
+			title: "拿到纸板就能做"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"058A83E9EB8D10C7"
+				"2E914148402CC9D9"
+			]
+			description: [
+				"实际上，这事非常简单，你可以按住W思索一下"
+				"当然，我在这两句话给你说明白了也行"
+				"&c没玻璃那个是仓储连接站，有玻璃那个是仓储发报机"
+				"而四四方方要纸板那个是打包机"
+				"&r先把打包机贴到容器一面上"
+				"把仓储连接站再放到打包机的一面上"
+				"如果一切顺利"
+				"&e打包机的灯会从红色变成绿色"
+				"&r恭喜你，你现在创建了自己的仓储网络"
+				"用仓储发报机右键仓储连接站"
+				"这样它也加入了这个网络"
+				"找个地方把仓储发报机放置下来"
+				"然后在它旁边放一个坐垫，随便让什么东西坐上去"
+				"&7PS：这个可以用一个烈焰人燃烧室代替"
+				"&r右键那个坐垫上的实体，可以打开管理界面"
+			]
+			id: "10B42B6470D3284B"
+			rewards: [
+				{
+					id: "3D5A38613A126DE6"
+					item: "create:stock_link"
+					type: "item"
+				}
+				{
+					id: "035AB1EFBE26EEE7"
+					item: "create:stock_ticker"
+					type: "item"
+				}
+				{
+					id: "6C06F9F9D47DFB6E"
+					item: "create:white_seat"
+					type: "item"
+				}
+			]
+			subtitle: "构建仓储网络"
+			tasks: [{
+				id: "29AFECCFD7F704EA"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			title: "准备好构建你的仓储网络了吗"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"10B42B6470D3284B"
+				"4D71C7A24C8A56E1"
+			]
+			description: [
+				"打包机方向很重要"
+				"{image:ftbquests:textures/ctstore/ctstore_1.png width:100 height:100 align:center}"
+				"使用方法，上方木桶存物品，右键坐垫上的实体开启UI"
+				"请求物品后在下面的木桶取"
+				"如果你能看懂这玩意的运作方式我相信你很快就可以更进一步了"
+				"{image:ftbquests:textures/ctstore/ctstore_2.png width:100 height:100 align:center}"
+			]
+			id: "403944962AB47672"
+			subtitle: "那就照着这个最基础的抄吧！"
+			tasks: [{
+				id: "6E7DFAE1558E8650"
+				type: "checkmark"
+			}]
+			title: "如果你还是不明白....."
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10B42B6470D3284B"]
+			description: [
+				"打开仓库管理员UI界面"
+				"左下角是不是有一个输入地址？"
+				"改变它会影响贴了仓储连接站的打包机产生的包裹上带的地址"
+				"如果你用的是任务线的基础仓库，似乎地址并不影响使用"
+				"但如果你想更进一步，那么就要输入地址"
+				"把剪贴板放在仓储连接站上面吧"
+				"然后右键剪贴板，像这样输入地址："
+				"#1"
+				"#2"
+				"你就得到了两个可供快捷输入的地址"
+				"当然你可以用其他的名字而不是“1”和“2”"
+				"{image:ftbquests:textures/ctstore/ctstore_5.png width:100 height:100 align:center}"
+			]
+			id: "71040EF327A04F1F"
+			rewards: [{
+				count: 10
+				id: "772F3C4CBE16A3E6"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			subtitle: "更进一步"
+			tasks: [{
+				id: "1557A0125FCA20CC"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			title: "写地址"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71040EF327A04F1F"]
+			description: [
+				"如果你想让CT存储也像AE一样能自动发送和接受物品"
+				"那么第一步就是搭建你自己的锁链网络"
+				"用锁链链接传动仓，然后把蛙港也连上吧。"
+				"这里也提供此前架构的升级方法。"
+				"将上方蛙港调整为仅发包，下方蛙港命名为1"
+				"{image:ftbquests:textures/ctstore/ctstore_3.png width:100 height:100 align:center}"
+				"{image:ftbquests:textures/ctstore/ctstore_4.png width:100 height:100 align:center}"
+				"这样调整之后，你的仓库就接入锁链网络了！"
+				"不过之后想取东西要记得设置地址为“1”"
+			]
+			id: "623C78DC166A8E23"
+			rewards: [{
+				count: 64
+				id: "6D1E7986BA468DA6"
+				item: "minecraft:chain"
+				type: "item"
+			}]
+			subtitle: "如果目前的存储还不能满足你的话..."
+			tasks: [
+				{
+					count: 2L
+					id: "28CC95CE9AE12B9E"
+					item: "create:package_frogport"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5345708CED0A8366"
+					item: "create:chain_conveyor"
+					type: "item"
+				}
+			]
+			title: "这玩意可不只能传递应力"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10B42B6470D3284B"]
+			description: [
+				"仓库管理员是支持分类的"
+				"右键仓储发报机"
+				"把列表过滤器或者属性过滤器放进去"
+				"它会把你想要的东西分成一栏单独显示出来哦"
+			]
+			id: "68F4DD306D1302D0"
+			rewards: [
+				{
+					count: 64
+					id: "1A3091BD914FFC2E"
+					item: "create:filter"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "632AA01984A9377B"
+					item: "create:attribute_filter"
+					type: "item"
+				}
+			]
+			subtitle: "厌倦了搜索？"
+			tasks: [{
+				id: "345112AAC92B97C0"
+				item: "create:attribute_filter"
+				type: "item"
+			}]
+			title: "过滤器"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["623C78DC166A8E23"]
+			description: [
+				"工厂仪表是CT自动化的核心"
+				"使用前请先右键仓储连接站"
+				"空手右键打开，从EMI和物品栏可以拖物品上去"
+				"{image:ftbquests:textures/ctstore/ctstore_7.png width:100 height:100 align:center}"
+				"它会显示网络中的物品数量"
+				"{image:ftbquests:textures/ctstore/ctstore_8.png width:100 height:100 align:center}"
+				"再次右键打开UI，会有一个合成栏"
+				"如果符合条件，那么就可以点击动力合成按钮"
+				"材料会自动排列成可合成的样式发送到地址处"
+			]
+			id: "5D29215F1BB398F3"
+			rewards: [{
+				count: 20
+				id: "0AF9F2513D5F212C"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
+			subtitle: "真是没办法"
+			tasks: [{
+				id: "399BF86D33453417"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
+			title: "敬请见证，工厂仪表"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["623C78DC166A8E23"]
+			description: [
+				"用机动扳手右键合成器的背面可以把多个动力合成器连到一起"
+				"{image:ftbquests:textures/ctstore/ctstore_9.png width:100 height:100 align:center}"
+			]
+			id: "65F8A8F105F25689"
+			rewards: [{
+				id: "7C6E8ED36277494A"
+				item: "create:repackager"
+				type: "item"
+			}]
+			subtitle: "嗯，没人教过你怎么用动力合成器组？"
+			tasks: [{
+				count: 9L
+				id: "2F239A592817F3AC"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "准备合成"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5D29215F1BB398F3"
+				"65F8A8F105F25689"
+			]
+			description: [
+				"这样构建的动力合成器能够自动处理点击EMI加号和工厂仪表的合成请求"
+				"{image:ftbquests:textures/ctstore/ctstore_10.png width:100 height:100 align:center}"
+				"&4注意溜槽上面是理包机，下面是打包机！&r"
+				"按照图片建好后记得给理包机一个红石信号激活！"
+				"（也就是往理包机边上放个红石块或者拉杆）"
+			]
+			id: "104B934206062BD7"
+			rewards: [{
+				count: 5
+				id: "5D3C6FF3CEC01A2D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "给你的仓库加一个自动合成站如何？"
+			tasks: [{
+				id: "66B51F36EBBB04C6"
+				type: "checkmark"
+			}]
+			title: "拓展自动合成站"
+			x: 3.5d
+			y: -2.0d
+		}
+	]
+	title: "机动存储"
+}

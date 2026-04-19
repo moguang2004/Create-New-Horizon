@@ -113,10 +113,6 @@ recipes:
   # Default: 1.0f
   extractorRecyclingYield: 1.0
 
-  # The threshold of parallels in recipes to switch to deterministic output calculation.
-  # Default: 500
-  chancedOutputExpectedThreshold: 500
-
 worldgen:
   # Rubber Tree spawn chance (decimal % per chunk)
   # Default: 0.5
@@ -389,73 +385,10 @@ client:
   # Allowed values:
   # - MEIDUM
   # - LARGE
-  # - CUSTOM
   widgetScale: LARGE
 
-  patternPreviewWidgetConfigs:
-    PatternPreviewWidgetButtonPWidgetX: 138
-
-    PatternPreviewWidgetButtonPWidgetY: 30
-
-    PatternPreviewWidgetButtonPWidgetWidth: 18
-
-    PatternPreviewWidgetButtonPWidgetHeight: 18
-
-    PatternPreviewWidgetButtonALLWidgetX: 138
-
-    PatternPreviewWidgetButtonALLWidgetY: 50
-
-    PatternPreviewWidgetButtonALLWidgetWidth: 18
-
-    PatternPreviewWidgetButtonALLWidgetHeight: 18
-
-    PatternPreviewWidgetButtonHighLightX: 138
-
-    PatternPreviewWidgetButtonHighLightY: 70
-
-    PatternPreviewWidgetButtonHighLightWidth: 18
-
-    PatternPreviewWidgetButtonHighLightHeight: 18
-
-    PatternPreviewWidgetSrollableWidgetGroupX: 3
-
-    PatternPreviewWidgetSrollableWidgetGroupY: 132
-
-    PatternPreviewWidgetSrollableWidgetGroupWidth: 154
-
-    PatternPreviewWidgetSrollableWidgetGroupHeight: 22
-
-    PatternPreviewWidgetHeight: 160
-
-    PatternPreviewWidgetWidth: 160
-
-    PatternPreviewWidgetX: 0
-
-    PatternPreviewWidgetY: 0
-
-    PatternPreviewWidgetSceneX: 3
-
-    PatternPreviewWidgetSceneY: 3
-
-    PatternPreviewWidgetSceneHeight: 150
-
-    PatternPreviewWidgetSceneWidget: 150
-
-    PatternPreviewWidgetImageX: 3
-
-    PatternPreviewWidgetImageY: 3
-
-    PatternPreviewWidgetImageWidth: 160
-
-    PatternPreviewWidgetImageHeight: 10
-
-    PatternPreviewWidgetImageTextureWidth: 170
-
-    PatternPreviewWidgetSlotX: 138
-
-    PatternPreviewWidgetSlotY: 12
-
-    PatternPreviewWidgetSceneSpeed: 1.0
+  # Whether or not to display all temperatures in Celsius instead of Kelvin
+  temperaturesInCelsius: false
 
   # Whether or not to enable Emissive Textures for GregTech Machines.
   # Default: true
@@ -523,11 +456,15 @@ client:
     # Default: true
     renderGrowingPlants: true
 
+    # Whether or not to color material/ore block highlights in the material color
+    # Default: true
+    coloredMaterialBlockOutline: true
+
     # Whether or not to color tiered machine highlights in the tier color
     # Default: true
     coloredTieredMachineOutline: true
 
-    # Whether or not to color wire/cable highlights based on voltage tier
+    # Whether or not to color wire/cable highlights based on voltage tier or material color
     # Default: true
     coloredWireOutline: true
 
@@ -614,6 +551,13 @@ gameplay:
   # How much environmental hazards decay per chunk, per tick.
   # Default: 0.001
   environmentalHazardDecayRate: 0.001
+
+  # List of domains that are allowed in the image module
+  allowedImageDomains:
+    - imgur.com
+    - discord.com
+    - github.com
+    - raw.githubusercontent.com
 
 # Config options for Mod Compatibility
 compat:
