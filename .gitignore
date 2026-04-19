@@ -146,3 +146,4 @@ config/*
 !config/fml.toml
 !config/ae2cs-common.toml
 !config/gtmqol.json
+!config/FTBLang

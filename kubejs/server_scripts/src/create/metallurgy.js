@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
     event.shaped(Item.of("createmetallurgy:faucet", 3), 
                 ["   ", "A A", " B " ], 
                 {A: "gtceu:andesite_alloy_plate", B: 'ctpp:basic_mechanism'})
-    event.shaped(Item.of('createmetallurgy:foundry_unit', 1), 
+    event.shaped(Item.of('createmetallurgy:gauge_attachment', 1),
                 ["ABA"], 
                 {A: "gtceu:andesite_alloy_plate", B: 'minecraft:compass'})
     
