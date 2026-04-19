@@ -1957,6 +1957,6 @@ ServerEvents.recipes(event => {
         .EUt(32)
         .itemInputs("create:bar_of_chocolate")
         .inputFluids(Fluid.of("minecraft:milk", 250))
-        .itemOutputs('gregtechmodernfoodoption:milk_chocolate')
+        .itemOutputs('gtmfo:milk_chocolate')
         .duration(20)
 });

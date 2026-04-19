@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "4623BFBDAE151C50"
 	group: "045BDEA2D2692FE0"
-	icon: "gregtechmodernfoodoption:chips_syals"
+	icon: "gtmfo:chips_syals"
 	id: "4623BFBDAE151C50"
 	order_index: 4
 	quest_links: [ ]
@@ -18,7 +18,7 @@
 			subtitle: "这是什么，好吃的？"
 			tasks: [{
 				id: "0320BB89FE13FFA5"
-				item: "gregtechmodernfoodoption:smore_1"
+				item: "gtmfo:smore_1"
 				type: "item"
 			}]
 			x: 4.5d
@@ -31,7 +31,7 @@
 			subtitle: "这是什么，更好吃的！"
 			tasks: [{
 				id: "39AF75C94AF97933"
-				item: "gregtechmodernfoodoption:smore_2"
+				item: "gtmfo:smore_2"
 				type: "item"
 			}]
 			x: 7.0d
@@ -44,7 +44,7 @@
 			subtitle: "这是什么？！"
 			tasks: [{
 				id: "211B5313300D3CEE"
-				item: "gregtechmodernfoodoption:smore_4"
+				item: "gtmfo:smore_4"
 				type: "item"
 			}]
 			x: 8.5d
@@ -57,7 +57,7 @@
 			subtitle: "？？？？"
 			tasks: [{
 				id: "01F5AE49679DDA24"
-				item: "gregtechmodernfoodoption:smore_8"
+				item: "gtmfo:smore_8"
 				type: "item"
 			}]
 			x: 8.5d
@@ -73,7 +73,7 @@
 			subtitle: "？？？？"
 			tasks: [{
 				id: "26CAF8C0B2DEF6BB"
-				item: "gregtechmodernfoodoption:smore_16"
+				item: "gtmfo:smore_16"
 				type: "item"
 			}]
 			x: 7.0d
@@ -90,7 +90,7 @@
 			subtitle: "？？？？"
 			tasks: [{
 				id: "010BA83D8FBFFA9D"
-				item: "gregtechmodernfoodoption:smore_32"
+				item: "gtmfo:smore_32"
 				type: "item"
 			}]
 			x: 4.5d
@@ -108,7 +108,7 @@
 			subtitle: "我已启动"
 			tasks: [{
 				id: "408DD310C40A7543"
-				item: "gregtechmodernfoodoption:smore_64"
+				item: "gtmfo:smore_64"
 				type: "item"
 			}]
 			x: 2.0d
@@ -119,7 +119,7 @@
 			id: "28210C9E6C141D58"
 			tasks: [{
 				id: "59742098B0A78A0A"
-				item: "gregtechmodernfoodoption:smogus_1"
+				item: "gtmfo:smogus_1"
 				type: "item"
 			}]
 			x: 0.5d
@@ -130,7 +130,7 @@
 			id: "6EAD646F8A6C5285"
 			tasks: [{
 				id: "1FB13BE8588E8EFF"
-				item: "gregtechmodernfoodoption:smogus_2"
+				item: "gtmfo:smogus_2"
 				type: "item"
 			}]
 			x: 0.5d
@@ -144,7 +144,7 @@
 			id: "424E14EFC3A300BF"
 			tasks: [{
 				id: "6744B79BCB928D4B"
-				item: "gregtechmodernfoodoption:smogus_4"
+				item: "gtmfo:smogus_4"
 				type: "item"
 			}]
 			x: 2.0d
@@ -158,7 +158,7 @@
 			size: 3.0d
 			tasks: [{
 				id: "4D06FBD88B798C7C"
-				item: "gregtechmodernfoodoption:smogus_heart"
+				item: "gtmfo:smogus_heart"
 				type: "item"
 			}]
 			x: 4.5d
@@ -169,7 +169,7 @@
 			id: "2D77F7FCD13DE42E"
 			tasks: [{
 				id: "13B03F3C0090BE35"
-				item: "gregtechmodernfoodoption:graham_cracker_dough_hot"
+				item: "gtmfo:graham_cracker_dough_hot"
 				type: "item"
 			}]
 			x: 10.5d
@@ -179,7 +179,7 @@
 			id: "38F2EEFCAA151E89"
 			tasks: [{
 				id: "28FA4F87B1E5FF09"
-				item: "gregtechmodernfoodoption:graham_cracker_dough"
+				item: "gtmfo:graham_cracker_dough"
 				type: "item"
 			}]
 			x: 9.0d
@@ -190,7 +190,7 @@
 			id: "5594706C627A97A2"
 			tasks: [{
 				id: "26B8EE49D23E2302"
-				item: "gregtechmodernfoodoption:graham_cracker_dough_chunk_hot"
+				item: "gtmfo:graham_cracker_dough_chunk_hot"
 				type: "item"
 			}]
 			x: 11.5d
@@ -204,7 +204,7 @@
 			id: "203928DBFF8F3B6B"
 			tasks: [{
 				id: "53BB1721498E131D"
-				item: "gregtechmodernfoodoption:graham_cracker"
+				item: "gtmfo:graham_cracker"
 				type: "item"
 			}]
 			x: 8.0d
@@ -215,7 +215,7 @@
 			id: "50395E627F863515"
 			tasks: [{
 				id: "5A23ECA1D39F1FF3"
-				item: "gregtechmodernfoodoption:graham_cracker_ungraded"
+				item: "gtmfo:graham_cracker_ungraded"
 				type: "item"
 			}]
 			x: 9.0d
@@ -226,7 +226,7 @@
 			id: "1542C16A3F0DD150"
 			tasks: [{
 				id: "064FADD5E5044F99"
-				item: "gregtechmodernfoodoption:graham_cracker_hot"
+				item: "gtmfo:graham_cracker_hot"
 				type: "item"
 			}]
 			x: 10.5d
@@ -240,7 +240,7 @@
 			id: "6B7EA420E27504E9"
 			tasks: [{
 				id: "0643F3FA862ACDDD"
-				item: "gregtechmodernfoodoption:marshmallow"
+				item: "gtmfo:marshmallow"
 				type: "item"
 			}]
 			x: 1.0d
@@ -251,7 +251,7 @@
 			id: "47867A9150747FCA"
 			tasks: [{
 				id: "7A74DA371D5E0433"
-				item: "gregtechmodernfoodoption:marshmallow_matter"
+				item: "gtmfo:marshmallow_matter"
 				type: "item"
 			}]
 			x: 0.0d
@@ -261,7 +261,7 @@
 			id: "431B602BDC5EBEBB"
 			tasks: [{
 				id: "519C8308D0AD83AB"
-				item: "gregtechmodernfoodoption:gelatin"
+				item: "gtmfo:gelatin"
 				type: "item"
 			}]
 			x: -4.0d
@@ -364,7 +364,7 @@
 			id: "4216BDC61B0ACF4A"
 			tasks: [{
 				id: "5507E0FB937AD204"
-				item: "gregtechmodernfoodoption:milk_chocolate_hot"
+				item: "gtmfo:milk_chocolate_hot"
 				type: "item"
 			}]
 			x: 4.5d
@@ -375,7 +375,7 @@
 			id: "6633CEC3D0A3F511"
 			tasks: [{
 				id: "16398B5ECB87EA28"
-				item: "gregtechmodernfoodoption:pizza_cheese"
+				item: "gtmfo:pizza_cheese"
 				type: "item"
 			}]
 			x: 3.0d
@@ -386,7 +386,7 @@
 			id: "1C32FA45FA64BFF9"
 			tasks: [{
 				id: "76B4F7F25EE5F110"
-				item: "gregtechmodernfoodoption:pizza_meat"
+				item: "gtmfo:pizza_meat"
 				type: "item"
 			}]
 			x: 4.5d
@@ -397,7 +397,7 @@
 			id: "50B6DBA24FD6A1BF"
 			tasks: [{
 				id: "406C791D00412DB3"
-				item: "gregtechmodernfoodoption:pizza_veggie"
+				item: "gtmfo:pizza_veggie"
 				type: "item"
 			}]
 			x: 6.0d
@@ -408,7 +408,7 @@
 			id: "121CAB97737A26EB"
 			tasks: [{
 				id: "1A5CC08886A6F600"
-				item: "gregtechmodernfoodoption:chips_syals"
+				item: "gtmfo:chips_syals"
 				type: "item"
 			}]
 			x: 1.5d
@@ -419,7 +419,7 @@
 			id: "39E8B211D5C5EDBB"
 			tasks: [{
 				id: "2F27A49376426382"
-				item: "gregtechmodernfoodoption:chips_bag"
+				item: "gtmfo:chips_bag"
 				type: "item"
 			}]
 			x: 3.0d
@@ -430,7 +430,7 @@
 			id: "4B23F8816DD8981B"
 			tasks: [{
 				id: "04EBA2FCD8478D28"
-				item: "gregtechmodernfoodoption:chips_kettle"
+				item: "gtmfo:chips_kettle"
 				type: "item"
 			}]
 			x: 4.5d
@@ -441,7 +441,7 @@
 			id: "46B3CBFE74D42B11"
 			tasks: [{
 				id: "48FCEDAFC82417BE"
-				item: "gregtechmodernfoodoption:chips_naquadah"
+				item: "gtmfo:chips_naquadah"
 				type: "item"
 			}]
 			x: 6.0d
@@ -452,7 +452,7 @@
 			id: "5FAA524326A1D551"
 			tasks: [{
 				id: "5710A498107F70EB"
-				item: "gregtechmodernfoodoption:chips_reduced_fat"
+				item: "gtmfo:chips_reduced_fat"
 				type: "item"
 			}]
 			x: 7.5d
@@ -462,7 +462,7 @@
 			id: "1F38CD8D20365739"
 			tasks: [{
 				id: "6E6199A2FA2AF308"
-				item: "gregtechmodernfoodoption:electric_baking_oven"
+				item: "gtmfo:electric_baking_oven"
 				type: "item"
 			}]
 			x: 4.5d
@@ -472,7 +472,7 @@
 			id: "0E04D51AB723A71F"
 			tasks: [{
 				id: "4E8EB9007FD171AC"
-				item: "gregtechmodernfoodoption:potato_slice_fried"
+				item: "gtmfo:potato_slice_fried"
 				type: "item"
 			}]
 			x: 3.0d
@@ -494,7 +494,7 @@
 			id: "7AA3A504C70E3180"
 			tasks: [{
 				id: "66032010DAA0B481"
-				item: "gregtechmodernfoodoption:potato_slice_oily"
+				item: "gtmfo:potato_slice_oily"
 				type: "item"
 			}]
 			x: 4.5d
@@ -504,7 +504,7 @@
 			id: "3EBDCA0F84DF64B3"
 			tasks: [{
 				id: "117AEDC8AD62F45C"
-				item: "gregtechmodernfoodoption:potato_slice_naquadah"
+				item: "gtmfo:potato_slice_naquadah"
 				type: "item"
 			}]
 			x: 6.0d
@@ -514,7 +514,7 @@
 			id: "0167C31E2E207895"
 			tasks: [{
 				id: "7204056E25887761"
-				item: "gregtechmodernfoodoption:potato_slice_reduced_fat"
+				item: "gtmfo:potato_slice_reduced_fat"
 				type: "item"
 			}]
 			x: 7.5d

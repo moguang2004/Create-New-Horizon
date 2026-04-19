@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".cache/changelog_cache.json"
-hash = "1e342c12e668bff57b33aa57d296c21fda3ff36a9374b84978a4053ab1cb340f"
-
-[[files]]
-file = ".cache/changelog_cache.json.etag"
-hash = "21a98d5297a63db57a1b0862fb3e56e882ed0455a3fee51fd6a788709d8dfc6e"
-
-[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -9984,6 +9976,11 @@ hash = "559169a724f240d9de5dd12d4cc83dbd7f274bf9d70e7a5fecb0d7352d627716"
 metafile = true
 
 [[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "c50c0b7e63fe8e5484e526481f17f343bde9e50e7fd5e2c467658827e6ce987d"
+metafile = true
+
+[[files]]
 file = "mods/athena.pw.toml"
 hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
 metafile = true
@@ -10160,7 +10157,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-new-age.pw.toml"
-hash = "f9ed96f1ed83ae4f7d6052c72eb37af721e8f0001da3fbe83b56a5cfa72cc55e"
+hash = "af254a9e26ed280c6078e2d02aa9f511d5b3f0ae43767e6a35a87583014e5e6e"
 metafile = true
 
 [[files]]
@@ -10429,13 +10426,13 @@ hash = "87da935deff875d5c560c8a8844d8428720f7fb9d8cae4c3877264bbe44c7719"
 metafile = true
 
 [[files]]
-file = "mods/gregtech-modern-quality-of-life.pw.toml"
-hash = "0cf5bd790fd55f644856f3e24cdf89b439066ab6d100a8122acd69f9899c9a86"
+file = "mods/gregtechmodern-food-option.pw.toml"
+hash = "fffadd8247f3f0e4045966c80e590dbde2a3268383d1e4cee1c660b22bf3855a"
 metafile = true
 
 [[files]]
 file = "mods/gt-portal.pw.toml"
-hash = "83db50086103157d05e86310cda16227423b3b2448314ae91dbcf6da689bcc2e"
+hash = "3d85de818242e85985911e7064fabec6275b5b439e763e88026b52ca17c5f313"
 metafile = true
 
 [[files]]
@@ -10476,6 +10473,11 @@ metafile = true
 [[files]]
 file = "mods/item-filters.pw.toml"
 hash = "2dfa9234cfb6e3a4c500eea014f9d793f1629f5e13b4ca16dafbe71ad33eccbe"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "2bcc1b61e15bfbab0381c06715fc1bd4020be0c83b7097bad0fb79379e5e7109"
 metafile = true
 
 [[files]]
@@ -10625,7 +10627,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
+hash = "2b5461d32972b9295fbe297e2431dbb9213c4cc196821bf30f5b3ce343b8e2aa"
 metafile = true
 
 [[files]]
