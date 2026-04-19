@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".cache/changelog_cache.json"
+hash = "1e342c12e668bff57b33aa57d296c21fda3ff36a9374b84978a4053ab1cb340f"
+
+[[files]]
+file = ".cache/changelog_cache.json.etag"
+hash = "21a98d5297a63db57a1b0862fb3e56e882ed0455a3fee51fd6a788709d8dfc6e"
+
+[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -122,7 +130,7 @@ hash = "8dea2945143e4e9e5bb0c6460296ad42a45ad95518d75a9ae36e2645c1f1e2be"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "41bb96e675f9c3a31ee5f3d89ec1c9a641011f001402510291ecd29c64eac464"
+hash = "98798492c5d50b3d125165aa118667e7547e73373ab52ac1246a745b92120591"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -649,6 +657,10 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "0581b10bb71ab5a66be273f4ebe60e77ba2a1a530d0364d554416c775d298bc2"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/029918BDED7899BC.snbt"
+hash = "a090791709a50d325b92d5febd43fc10dbef8a5c93af8145e15244638e85d12c"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/046724C96F783FC2.snbt"
 hash = "c6b02192dd81d27eef9d981aedaef9ca4f6915a41451ff4b83a5c7f2b59aee57"
 
@@ -733,10 +745,6 @@ file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
 hash = "a0e8044424668f167c9989368d3b1557c654c4e0cf4606bdbc81a11a107701fe"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
-hash = "37473ed49628c6b24dde9687c41ef4586a50b73f97e1e83de0b7673b0c032991"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/74D640CFCA75E891.snbt"
 hash = "5963ab37006c0208e64b92bac3cbc8ece41e2a7b877bb455f164c919e45a1caa"
 
@@ -745,8 +753,12 @@ file = "config/ftbquests/quests/chapters/ae2.snbt"
 hash = "51f8624d029277416b01363592b4c244e68c577100789ecc63baf52fcc59f490"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/bloodmagic.snbt"
+hash = "a259ff53f17360bb4161e10d7d88a102833181f21b201baf18f813cc83f5ec4e"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/botania.snbt"
-hash = "625989f7d7e04d889f5023d5aa13db3d9ecf422cdadea90eb5c6e564cbcaafc5"
+hash = "e1228e28355d0a128f83a8b10f2a0007a6759912ae525aa6d503c8caf32c70de"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
@@ -783,6 +795,10 @@ hash = "fcb9222ad2d7ac1db2fd3073750ccb8cc1d5af89ccf092f7f8a58b60feaa8e07"
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
 hash = "e1e1af277c6152b834f1daf0bf44e178e08c293df71e873fb00dae54b245e550"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/zenith.snbt"
+hash = "f31f390ddd3703fd7352d25e3e7fd94d5282c194f7501a259104dc5c21876b9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
@@ -862,7 +878,7 @@ hash = "6eeadb508cd760deb21c611992e97ace1a59c5af8fe7c401d570ce6744fa02b1"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "ea5cf49ddd7643c4142cf7ee2bfc0b8cefe81a7accc32089c912f916a575193c"
+hash = "30900c7c579c3b637b76d37faed19502f4974ab52a943d2be82e322d560a78e3"
 
 [[files]]
 file = "config/gtmqol.json"
@@ -906,7 +922,7 @@ hash = "e78c276d91d10524a6e4117126794f19d9678d37dd380f3d84fdf729f1f7c127"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "28ec8fc4dfd2db2df4d2d6c307d76ee67ce72a72dfcbdc9ef6b59449ce7f6656"
+hash = "00441e8a0237ba5d1f1414a1d417f39ebf868a05a5a9e33494508ca4aa7fb121"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
@@ -9726,7 +9742,7 @@ hash = "69ae8838e16f3ddeb81766dd40eb6cbeaf05772f9f0d46c6414b6f2a0abe2f68"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "add585b171306f8b1cf546e7e4cbf579b887b322b9bc882e41b017ce8a75a363"
+hash = "015be6ab0ec1005db92691f22b19d7c2749038bbf7ab7349bd077c4f6ca02470"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/wood.js"
@@ -10368,11 +10384,6 @@ metafile = true
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "48e2fa3089beed20a23ff2d171259768b2080ab0ff196841a18eb93c38e1c8b2"
-metafile = true
-
-[[files]]
-file = "mods/ftb-quest-localizer.pw.toml"
-hash = "d298e905889e57271e0ed46e3bb7f0d80724999748d33c0a5b5611f98afdf191"
 metafile = true
 
 [[files]]
