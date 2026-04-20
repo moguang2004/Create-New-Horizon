@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "09F33579334F2607"
+	filename: "botania"
 	group: "32DB92B5A6E4493B"
 	icon: "botania:pure_daisy"
 	id: "09F33579334F2607"
@@ -11,7 +11,7 @@
 		{
 			id: "78A26DEDD6AFF600"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8692631099055011328.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest78A26DEDD6AFF600.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "419787730C10AEAE"
@@ -22,20 +22,17 @@
 						value: "botania:petals"
 					}
 				}
-				title: "{ftbquests.chapter.09F33579334F2607.quest8692631099055011328.task.4726395262142033582.title}"
+				title: "{ftbquests.chapter.botania.quest78A26DEDD6AFF600.task.4726395262142033582.title}"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.09F33579334F2607.quest8692631099055011328.title}"
+			title: "{ftbquests.chapter.botania.quest78A26DEDD6AFF600.title}"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"78A26DEDD6AFF600"
-				"42CCBE8C1535F61C"
-			]
+			dependencies: ["78A26DEDD6AFF600"]
 			id: "23F758E2421BF068"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2591637839369990248.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest23F758E2421BF068.subtitle}"
 			tasks: [{
 				id: "5B819720754431C8"
 				item: "botania:apothecary_default"
@@ -47,7 +44,7 @@
 		{
 			dependencies: ["23F758E2421BF068"]
 			id: "17AE8CE55863D7D6"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest1706456225478334422.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest17AE8CE55863D7D6.subtitle}"
 			tasks: [{
 				id: "206312D77F042785"
 				item: "botania:pure_daisy"
@@ -58,9 +55,9 @@
 		}
 		{
 			dependencies: ["23F758E2421BF068"]
-			description: ["{ftbquests.chapter.09F33579334F2607.quest3010929550999786350.description1}"]
+			description: ["{ftbquests.chapter.botania.quest29C8F8795B11936E.description1}"]
 			id: "29C8F8795B11936E"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3010929550999786350.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest29C8F8795B11936E.subtitle}"
 			tasks: [{
 				id: "568AA36AF9A1B955"
 				item: "botania:hydroangeas"
@@ -83,7 +80,7 @@
 		{
 			dependencies: ["17AE8CE55863D7D6"]
 			id: "0598D6FDA6319592"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest403308551552996754.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest598D6FDA6319592.subtitle}"
 			tasks: [{
 				id: "3BEA8805B0E3B1F4"
 				item: "botania:livingrock"
@@ -95,7 +92,7 @@
 		{
 			dependencies: ["0598D6FDA6319592"]
 			id: "257CFCFEE4F99D04"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2701312048208911620.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest257CFCFEE4F99D04.subtitle}"
 			tasks: [{
 				id: "2664B9D32E748860"
 				item: "botania:diluted_pool"
@@ -110,7 +107,7 @@
 				"257CFCFEE4F99D04"
 			]
 			id: "592F9BDCCCFCCAF6"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6426526565915216630.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest592F9BDCCCFCCAF6.subtitle}"
 			tasks: [
 				{
 					id: "6771C91FEB6ACE8B"
@@ -134,7 +131,7 @@
 		{
 			dependencies: ["592F9BDCCCFCCAF6"]
 			id: "4A30A1B474B1C450"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest5345950554112771152.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest4A30A1B474B1C450.subtitle}"
 			tasks: [{
 				id: "0E08181BB2C5D68A"
 				item: "botania:mana_tablet"
@@ -146,7 +143,7 @@
 		{
 			dependencies: ["66C767A4CE44C414"]
 			id: "17B87AE00C7626AF"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest1709251161287435951.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest17B87AE00C7626AF.subtitle}"
 			tasks: [{
 				id: "13CC5F30DC0FB2FD"
 				item: "botania:rune_water"
@@ -158,7 +155,7 @@
 		{
 			dependencies: ["66C767A4CE44C414"]
 			id: "20DD3B07D56B6A8D"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2368113883898145421.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest20DD3B07D56B6A8D.subtitle}"
 			tasks: [{
 				id: "22266D8EA38E20A3"
 				item: "botania:rune_fire"
@@ -171,7 +168,7 @@
 			dependencies: ["66C767A4CE44C414"]
 			description: [""]
 			id: "7182CCA0B17CC960"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8179324863802820960.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest7182CCA0B17CC960.subtitle}"
 			tasks: [{
 				id: "25C4E5A716AB7F83"
 				item: "botania:rune_earth"
@@ -183,7 +180,7 @@
 		{
 			dependencies: ["66C767A4CE44C414"]
 			id: "6755E680AD4602D5"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest7446110999264232149.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest6755E680AD4602D5.subtitle}"
 			tasks: [{
 				id: "44A580D64D4616F6"
 				item: "botania:rune_air"
@@ -230,7 +227,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest84729434557784722.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest12D04F8C8D62292.subtitle}"
 			tasks: [{
 				id: "6ACE286DBE0D1D1A"
 				item: "botania:terra_plate"
@@ -243,7 +240,7 @@
 			dependencies: ["012D04F8C8D62292"]
 			id: "76036AE6CE23B158"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8503758060939096408.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest76036AE6CE23B158.subtitle}"
 			tasks: [{
 				id: "2EE13684076752DC"
 				item: "botania:terrasteel_ingot"
@@ -254,7 +251,7 @@
 		}
 		{
 			dependencies: ["76036AE6CE23B158"]
-			description: ["恭喜你打开神秘大门，奖励你一点神秘奖励OvO"]
+			description: ["{ftbquests.chapter.botania.quest4AB8CE1AF271F021.description1}"]
 			id: "4AB8CE1AF271F021"
 			rewards: [
 				{
@@ -271,7 +268,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest5384279969653452833.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest4AB8CE1AF271F021.subtitle}"
 			tasks: [
 				{
 					id: "18E11B719DB17BBE"
@@ -291,7 +288,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.09F33579334F2607.quest5384279969653452833.title}"
+			title: "{ftbquests.chapter.botania.quest4AB8CE1AF271F021.title}"
 			x: 16.0d
 			y: 0.0d
 		}
@@ -310,7 +307,7 @@
 			dependencies: ["4AB8CE1AF271F021"]
 			id: "783EE6889DD2C460"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8664616207545189472.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest783EE6889DD2C460.subtitle}"
 			tasks: [
 				{
 					id: "2C39F093F3F3687A"
@@ -333,7 +330,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.09F33579334F2607.quest8664616207545189472.title}"
+			title: "{ftbquests.chapter.botania.quest783EE6889DD2C460.title}"
 			x: 19.5d
 			y: 0.0d
 		}
@@ -345,7 +342,7 @@
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			subtitle: "为什么这玩意还要精灵钢，谁知道呢？"
+			subtitle: "{ftbquests.chapter.botania.quest564DF031F1983954.subtitle}"
 			tasks: [{
 				consume_items: false
 				count: 4L
@@ -358,10 +355,10 @@
 		}
 		{
 			dependencies: ["783EE6889DD2C460"]
-			description: ["{ftbquests.chapter.09F33579334F2607.quest6980092370173953983.description1}"]
+			description: ["{ftbquests.chapter.botania.quest60DE45074FA207BF.description1}"]
 			id: "60DE45074FA207BF"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6980092370173953983.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest60DE45074FA207BF.subtitle}"
 			tasks: [{
 				id: "20E620ACA8915AB7"
 				item: "mythicbotany:mana_infuser"
@@ -373,7 +370,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "34535196790E1A26"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3770447019757148710.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest34535196790E1A26.subtitle}"
 			tasks: [{
 				id: "1BAD87101F7510F3"
 				item: "botania:rune_spring"
@@ -385,7 +382,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "167F0DAD7D2B97C5"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest1621029429657180101.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest167F0DAD7D2B97C5.subtitle}"
 			tasks: [{
 				id: "265E7AEAB6C9F1D9"
 				item: "botania:rune_summer"
@@ -397,7 +394,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "7AC7D7F2444B31EC"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8847277428520464876.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest7AC7D7F2444B31EC.subtitle}"
 			tasks: [{
 				id: "1FC1E9647E523D68"
 				item: "botania:rune_autumn"
@@ -409,7 +406,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "213DE50DC3B65FA3"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2395322424111816611.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest213DE50DC3B65FA3.subtitle}"
 			tasks: [{
 				id: "6E8C9E2BAAAAB6C3"
 				item: "botania:rune_winter"
@@ -439,7 +436,7 @@
 				table_id: 8234775604862196519L
 				type: "loot"
 			}]
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2834443737896652738.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest2755F78FE5290FC2.subtitle}"
 			tasks: [{
 				entity: "botania:doppleganger"
 				icon: "botania:gaia_head"
@@ -447,14 +444,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "{ftbquests.chapter.09F33579334F2607.quest2834443737896652738.title}"
+			title: "{ftbquests.chapter.botania.quest2755F78FE5290FC2.title}"
 			x: 19.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "3997A8293A186F50"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4149970476667006800.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest3997A8293A186F50.subtitle}"
 			tasks: [{
 				id: "57A9366845A0CB5A"
 				item: "botania:life_essence"
@@ -472,7 +469,7 @@
 				item: "gtceu:exquisite_coke_gem"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest1637692764228718341.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest16BA40E467148F05.subtitle}"
 			tasks: [{
 				id: "5E879811AE7F9DE5"
 				item: "botania:endoflame"
@@ -496,11 +493,11 @@
 					icon: "ctnhmana:rune_carrier_block"
 					id: "02E9CA3265CEE681"
 					table_id: 5890566419274612501L
-					title: "符文抽奖"
+					title: "{ftbquests.chapter.botania.quest2A2F55330B0A2B24.reward.209921175454672513.title}"
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3039741951215282980.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest2A2F55330B0A2B24.subtitle}"
 			tasks: [{
 				id: "7E0BDAB1371AC4AD"
 				item: "botania:gourmaryllis"
@@ -512,11 +509,11 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			description: [
-				"{ftbquests.chapter.09F33579334F2607.quest4201765301614265356.description1}"
-				"{ftbquests.chapter.09F33579334F2607.quest4201765301614265356.description2}"
+				"{ftbquests.chapter.botania.quest3A4FAB47A847C40C.description1}"
+				"{ftbquests.chapter.botania.quest3A4FAB47A847C40C.description2}"
 			]
 			id: "3A4FAB47A847C40C"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4201765301614265356.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest3A4FAB47A847C40C.subtitle}"
 			tasks: [{
 				id: "6548E5AA989E6466"
 				item: {
@@ -550,7 +547,7 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "5A6CF2F3FC1CF713"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6515849890618996499.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest5A6CF2F3FC1CF713.subtitle}"
 			tasks: [{
 				id: "68B8A92FA908F442"
 				item: "botania:thor_ring"
@@ -562,7 +559,7 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "263BAC17F57E2F18"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest2754984815970103064.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest263BAC17F57E2F18.subtitle}"
 			tasks: [{
 				id: "69F550DA8A63DAAA"
 				item: "botania:infinite_fruit"
@@ -574,7 +571,7 @@
 		{
 			dependencies: ["2755F78FE5290FC2"]
 			id: "42058EDD69B335F4"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4757365662999066100.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest42058EDD69B335F4.subtitle}"
 			tasks: [{
 				id: "5B88256139C4B757"
 				item: "botania:king_key"
@@ -611,7 +608,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest5686405255717030198.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest4EEA2B73C3ED8936.subtitle}"
 			tasks: [{
 				id: "799641EBC0E31345"
 				item: "botania:corporea_spark"
@@ -640,11 +637,11 @@
 		{
 			dependencies: ["4B6CBB1E8D1A6273"]
 			description: [
-				"{ftbquests.chapter.09F33579334F2607.quest4172672768522654951.description1}"
-				"{ftbquests.chapter.09F33579334F2607.quest4172672768522654951.description2}"
+				"{ftbquests.chapter.botania.quest39E84FC673BD14E7.description1}"
+				"{ftbquests.chapter.botania.quest39E84FC673BD14E7.description2}"
 			]
 			id: "39E84FC673BD14E7"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4172672768522654951.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest39E84FC673BD14E7.subtitle}"
 			tasks: [{
 				id: "74E2E50E5FA3842B"
 				item: "botania:mana_spreader"
@@ -660,7 +657,7 @@
 				exclude_from_claim_all: true
 				id: "678632ED98C98D7C"
 				table_id: 5890566419274612501L
-				title: "符文抽奖"
+				title: "{ftbquests.chapter.botania.quest5B47ED8585E8715F.reward.7459705828837789052.title}"
 				type: "loot"
 			}]
 			tasks: [{
@@ -878,7 +875,7 @@
 				"524DFF1E4920F6DF"
 			]
 			id: "66FE0D6835F9F659"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest7421383977186489945.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest66FE0D6835F9F659.subtitle}"
 			tasks: [
 				{
 					id: "599A7A2A62CFD33A"
@@ -892,15 +889,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.09F33579334F2607.quest7421383977186489945.title}"
+			title: "{ftbquests.chapter.botania.quest66FE0D6835F9F659.title}"
 			x: 29.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["66FE0D6835F9F659"]
 			description: [
-				"{ftbquests.chapter.09F33579334F2607.quest147025639088844427.description1}"
-				"{ftbquests.chapter.09F33579334F2607.quest147025639088844427.description2}"
+				"{ftbquests.chapter.botania.quest20A570A2EC3EE8B.description1}"
+				"{ftbquests.chapter.botania.quest20A570A2EC3EE8B.description2}"
 			]
 			id: "020A570A2EC3EE8B"
 			rewards: [
@@ -918,7 +915,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest147025639088844427.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest20A570A2EC3EE8B.subtitle}"
 			tasks: [{
 				id: "37F754C7A1B5B69C"
 				item: {
@@ -944,7 +941,7 @@
 		{
 			dependencies: ["66FE0D6835F9F659"]
 			id: "741211A0D54252FF"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest8363766840450765567.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest741211A0D54252FF.subtitle}"
 			tasks: [{
 				id: "5C67F57060DC2042"
 				item: "mythicbotany:kvasir_blood"
@@ -956,7 +953,7 @@
 		{
 			dependencies: ["741211A0D54252FF"]
 			id: "657ACCF34EC60C41"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest7312382290360142913.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest657ACCF34EC60C41.subtitle}"
 			tasks: [{
 				id: "23ABD71DB6B3AF7A"
 				item: "mythicbotany:kvasir_mead"
@@ -986,7 +983,7 @@
 				dimension: "mythicbotany:alfheim"
 				icon: "mythicbotany:dreamwood_leaves"
 				id: "4E08D6B660D67F57"
-				title: "{ftbquests.chapter.09F33579334F2607.quest6487149050341019362.task.5622980213569126231.title}"
+				title: "{ftbquests.chapter.botania.quest5A06FBB0DE96CEE2.task.5622980213569126231.title}"
 				type: "dimension"
 			}]
 			x: 29.5d
@@ -994,7 +991,7 @@
 		}
 		{
 			dependencies: ["5A06FBB0DE96CEE2"]
-			description: ["先抽个奖吧"]
+			description: ["{ftbquests.chapter.botania.quest1843D5BA2813F77D.description1}"]
 			hide_dependent_lines: true
 			id: "1843D5BA2813F77D"
 			rewards: [{
@@ -1004,7 +1001,7 @@
 				type: "random"
 			}]
 			size: 1.5d
-			subtitle: "你未来漫长产线的开始"
+			subtitle: "{ftbquests.chapter.botania.quest1843D5BA2813F77D.subtitle}"
 			tasks: [{
 				id: "67EB3173B5782C28"
 				item: "gtceu:raw_fused_mana"
@@ -1016,17 +1013,17 @@
 		{
 			dependencies: ["66FE0D6835F9F659"]
 			description: [
-				"说实话，它不如奥法尖塔，不过它未来会成为奥法尖塔的升级材料之一"
+				"{ftbquests.chapter.botania.quest2F39BCEEF1030C95.description1}"
 				""
-				"魔力beeeeee你就是这样带货的吗？"
+				"{ftbquests.chapter.botania.quest2F39BCEEF1030C95.description2}"
 			]
 			id: "2F39BCEEF1030C95"
 			rewards: [{
-				id: "67D0D0CBC5BCE92A"
+				id: "434420FDCFC54BBF"
 				item: "ctnhmana:mystic_spire"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3402958727886867605.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest2F39BCEEF1030C95.subtitle}"
 			tasks: [{
 				id: "112A515985E6106D"
 				item: "mythicbotany:mana_collector"
@@ -1048,7 +1045,7 @@
 		{
 			dependencies: ["4B6CBB1E8D1A6273"]
 			id: "58381072DABDC825"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6356848959515641893.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest58381072DABDC825.subtitle}"
 			tasks: [{
 				id: "78EAB28C61D7CA6E"
 				item: {
@@ -1063,25 +1060,20 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "{ftbquests.chapter.09F33579334F2607.quest6356848959515641893.title}"
+			title: "{ftbquests.chapter.botania.quest58381072DABDC825.title}"
 			x: 1.0d
 			y: -4.0d
 		}
 		{
-			description: [
-				"遇到不懂的问题优先查阅书籍"
-				""
-				"同时，本包加入的独特机器和花朵也在条目之内，记得多查书！"
-			]
+			description: ["{ftbquests.chapter.botania.quest42CCBE8C1535F61C.description1}"]
 			id: "42CCBE8C1535F61C"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4813431610612774428.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest42CCBE8C1535F61C.subtitle}"
 			tasks: [{
 				id: "06C6CA8458F20210"
 				item: "botania:lexicon"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -1101,7 +1093,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest4572035063840911481.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest3F7321AAB8DE3079.subtitle}"
 			tasks: [{
 				id: "4768030EFF5870E2"
 				item: {
@@ -1132,7 +1124,7 @@
 						]
 					}
 				}
-				title: "注入魔力"
+				title: "{ftbquests.chapter.botania.quest3F7321AAB8DE3079.task.5145365937219203298.title}"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1141,9 +1133,9 @@
 		{
 			dependencies: ["4AB8CE1AF271F021"]
 			description: [
-				"从现在开始，你也需要魔力SOC来制作你的晶圆了"
+				"{ftbquests.chapter.botania.quest353D5BC83F0AC9ED.description1}"
 				""
-				"魔力，神奇吧！"
+				"{ftbquests.chapter.botania.quest353D5BC83F0AC9ED.description2}"
 			]
 			id: "353D5BC83F0AC9ED"
 			rewards: [
@@ -1171,7 +1163,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3836323373198789101.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest353D5BC83F0AC9ED.subtitle}"
 			tasks: [{
 				id: "503E1C04803B8AE4"
 				item: {
@@ -1202,7 +1194,7 @@
 						]
 					}
 				}
-				title: "注入提纯魔力"
+				title: "{ftbquests.chapter.botania.quest353D5BC83F0AC9ED.task.5782089777247128292.title}"
 				type: "item"
 			}]
 			x: 16.0d
@@ -1228,7 +1220,7 @@
 					type: "all_table"
 				}
 			]
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest3002061323476609746.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest29A976DE3BC32AD2.subtitle}"
 			tasks: [{
 				id: "50B23C8832458101"
 				item: "ctnhmana:mana_reactor"
@@ -1241,7 +1233,7 @@
 			id: "77961965EA86D0BF"
 			tasks: [{
 				id: "18B2B859195A4B79"
-				title: "{ftbquests.chapter.09F33579334F2607.quest8617102862537117887.task.1779687495581715321.title}"
+				title: "{ftbquests.chapter.botania.quest77961965EA86D0BF.task.1779687495581715321.title}"
 				type: "checkmark"
 			}]
 			x: 26.0d
@@ -1264,7 +1256,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest1012740636771408724.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.questE0DFA3E505CDB54.subtitle}"
 			tasks: [{
 				id: "312AEDB38E3EC3F9"
 				item: "botania:fabulous_pool"
@@ -1281,7 +1273,7 @@
 				item: "gtceu:nether_star_dust"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6682577838948103523.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest5CBD492382663563.subtitle}"
 			tasks: [{
 				id: "62D888B36EB79FB8"
 				item: "mythicbotany:wither_aconite"
@@ -1293,7 +1285,7 @@
 		{
 			dependencies: ["012D04F8C8D62292"]
 			id: "54055844D167421C"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest6054342326663725596.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest54055844D167421C.subtitle}"
 			tasks: [{
 				id: "3365CF2A5AEECCB4"
 				item: "botania:rosa_arcana"
@@ -1304,9 +1296,9 @@
 		}
 		{
 			dependencies: ["2755F78FE5290FC2"]
-			description: ["这才是真正的符文抽奖袋"]
+			description: ["{ftbquests.chapter.botania.quest9AB5A78764CC3F7.description1}"]
 			id: "09AB5A78764CC3F7"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest696750040786191351.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest9AB5A78764CC3F7.subtitle}"
 			tasks: [{
 				id: "7381CFE03BF65333"
 				item: "ctnhmana:gaia_reactor"
@@ -1317,9 +1309,9 @@
 		}
 		{
 			dependencies: ["3997A8293A186F50"]
-			description: ["{ftbquests.chapter.09F33579334F2607.quest5885657729452113362.description1}"]
+			description: ["{ftbquests.chapter.botania.quest51AE0E8579867DD2.description1}"]
 			id: "51AE0E8579867DD2"
-			subtitle: "{ftbquests.chapter.09F33579334F2607.quest5885657729452113362.subtitle}"
+			subtitle: "{ftbquests.chapter.botania.quest51AE0E8579867DD2.subtitle}"
 			tasks: [{
 				id: "79F1C9EB2382F18E"
 				item: "ctnhmana:blood_antiaris"
@@ -1330,7 +1322,7 @@
 		}
 		{
 			dependencies: ["3997A8293A186F50"]
-			description: ["{ftbquests.chapter.09F33579334F2607.quest4050974025083569566.description1}"]
+			description: ["{ftbquests.chapter.botania.quest3837F369AF70C59E.description1}"]
 			id: "3837F369AF70C59E"
 			tasks: [{
 				id: "3892EB97C6335AEB"
@@ -1343,24 +1335,24 @@
 		{
 			dependencies: [
 				"002DD1BBAD2D049F"
-				"09F05497271564CC"
+				"157F50A2C3A0C713"
 			]
 			description: [
-				"如果你觉得火花传输速度慢，范围小，无法供给魔力凝聚仓和吸收产魔花的mana，那么试试这款奥法尖塔，他有着极高的魔力传输，支持自动传输和吸收产魔花mana"
+				"{ftbquests.chapter.botania.quest4E6FA7D29EBE9339.description1}"
 				""
-				"当然，如果你想使用这个机器的话，你至少需要一个来输入，一个来输出，这个任务也会送你一个，尝试使用电子火花魔杖来链接魔力尖塔之间的独立火花"
+				"{ftbquests.chapter.botania.quest4E6FA7D29EBE9339.description2}"
 				""
-				"详情见本机器的植物魔法手册内容"
+				"{ftbquests.chapter.botania.quest4E6FA7D29EBE9339.description3}"
 			]
 			id: "4E6FA7D29EBE9339"
 			rewards: [{
-				id: "706DFC57E6CBB7BB"
+				id: "484417099EC71529"
 				item: "ctnhmana:mystic_spire"
 				type: "item"
 			}]
-			subtitle: "终极魔力传输手段"
+			subtitle: "{ftbquests.chapter.botania.quest4E6FA7D29EBE9339.subtitle}"
 			tasks: [{
-				id: "280A85474313B56F"
+				id: "7C9CDDD9479B99D7"
 				item: "ctnhmana:mystic_spire"
 				type: "item"
 			}]
@@ -1370,8 +1362,8 @@
 		{
 			dependencies: ["783EE6889DD2C460"]
 			description: [
-				"未来的魔力机器（最重要的：奥法尖塔）需要这个法杖来操作，它本身也兼容火花魔杖的所有功能"
-				"太coooool了！"
+				"{ftbquests.chapter.botania.quest9F05497271564CC.description1}"
+				"{ftbquests.chapter.botania.quest9F05497271564CC.description2}"
 			]
 			hide_dependent_lines: true
 			id: "09F05497271564CC"
@@ -1389,7 +1381,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "这是高端玩意"
+			subtitle: "{ftbquests.chapter.botania.quest9F05497271564CC.subtitle}"
 			tasks: [{
 				id: "157F50A2C3A0C713"
 				item: "ctnhmana:saber_wand"
@@ -1401,11 +1393,11 @@
 		{
 			dependencies: ["66C767A4CE44C414"]
 			description: [
-				"如果你过早地启动了你的石化产线，那么不妨试试这朵花，这朵花会消耗周围GT桶内1000mb的油，并根据其 &4热值&r 来产生mana，可以消耗的油与内燃一致"
-				" "
-				"如果你可以获得高级油（比如高辛烷值汽油），那么这朵花甚至比凋零兔葵还要强大，但是原油等产魔就比较一般了"
+				"{ftbquests.chapter.botania.quest1164CD59F8B9D7F3.description1}"
 				""
-				"它同时还有一个作用：每产生10W魔力，他就会把一个相邻的石头转化为金块（虽然这样更多是为了风味）"
+				"{ftbquests.chapter.botania.quest1164CD59F8B9D7F3.description2}"
+				""
+				"{ftbquests.chapter.botania.quest1164CD59F8B9D7F3.description3}"
 			]
 			id: "1164CD59F8B9D7F3"
 			rewards: [{
@@ -1413,7 +1405,7 @@
 				item: "gtceu:cetane_boosted_diesel_bucket"
 				type: "item"
 			}]
-			subtitle: "小心霉菌"
+			subtitle: "{ftbquests.chapter.botania.quest1164CD59F8B9D7F3.subtitle}"
 			tasks: [{
 				id: "3024356BEDAC4F8A"
 				item: "ctnhmana:blackvein_marigold"
@@ -1450,7 +1442,7 @@
 		{
 			dependencies: ["66C767A4CE44C414"]
 			id: "27F32097E734F297"
-			subtitle: "真正痛苦的本源"
+			subtitle: "{ftbquests.chapter.botania.quest27F32097E734F297.subtitle}"
 			tasks: [{
 				id: "0E764252CEB868D4"
 				item: "botania:rune_mana"
@@ -1462,7 +1454,7 @@
 		{
 			dependencies: ["29C8F8795B11936E"]
 			id: "32CE2F7E83E04D17"
-			subtitle: "太阳能"
+			subtitle: "{ftbquests.chapter.botania.quest32CE2F7E83E04D17.subtitle}"
 			tasks: [{
 				id: "1187535B31446C86"
 				item: "extrabotany:sunshine_lily"
@@ -1474,7 +1466,7 @@
 		{
 			dependencies: ["29C8F8795B11936E"]
 			id: "0CFE87CEFF3634A3"
-			subtitle: "月光能？"
+			subtitle: "{ftbquests.chapter.botania.questCFE87CEFF3634A3.subtitle}"
 			tasks: [{
 				id: "536024CFE4DFD495"
 				item: "extrabotany:moonlight_lily"
@@ -1500,7 +1492,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "把你的辞典扔进精灵门"
+			subtitle: "{ftbquests.chapter.botania.quest77DA7FCFFE95BBD.subtitle}"
 			tasks: [{
 				id: "63F9B71F3883717C"
 				item: {
@@ -1518,13 +1510,9 @@
 		{
 			dependencies: ["3997A8293A186F50"]
 			description: [
-				"注意：盖亚守护者III会&4无效化你所有的非植物魔法装备&r "
+				"{ftbquests.chapter.botania.quest2C6474B5EC11BB0D.description1}"
 				""
-				"哦不，我的雪城钢剑不起作用了！"
-				""
-				"好吧，似乎出了一点问题，它失去了这个能力"
-				""
-				"so sad"
+				"{ftbquests.chapter.botania.quest2C6474B5EC11BB0D.description2}"
 			]
 			id: "2C6474B5EC11BB0D"
 			rewards: [
@@ -1540,7 +1528,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "真正的强敌"
+			subtitle: "{ftbquests.chapter.botania.quest2C6474B5EC11BB0D.subtitle}"
 			tasks: [{
 				entity: "extrabotany:gaia_3rd"
 				id: "35D87ECF3142FA66"
@@ -1552,9 +1540,9 @@
 		}
 		{
 			dependencies: ["2C6474B5EC11BB0D"]
-			description: ["你现在可以制作奥利哈钢了"]
+			description: ["{ftbquests.chapter.botania.quest1CC7613FDDA3C211.description1}"]
 			id: "1CC7613FDDA3C211"
-			subtitle: "英雄的证明！"
+			subtitle: "{ftbquests.chapter.botania.quest1CC7613FDDA3C211.subtitle}"
 			tasks: [{
 				id: "52D447CB5F20D4E6"
 				item: "extrabotany:hero_medal"
@@ -1565,7 +1553,7 @@
 		}
 		{
 			dependencies: ["1CC7613FDDA3C211"]
-			description: ["IV超导！还是高A超导，终于可以放心大胆吃稀土线辣！"]
+			description: ["{ftbquests.chapter.botania.questE155CFAA51B8A3D.description1}"]
 			id: "0E155CFAA51B8A3D"
 			rewards: [
 				{
@@ -1580,22 +1568,22 @@
 					type: "all_table"
 				}
 			]
-			subtitle: "终极魔法......等等这玩意也是超导？"
+			subtitle: "{ftbquests.chapter.botania.questE155CFAA51B8A3D.subtitle}"
 			tasks: [{
 				id: "0BD6CAB05A161A16"
 				item: "extrabotany:orichalcos_ingot"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 25.0d
 			y: 8.0d
 		}
 		{
 			dependencies: [
 				"29A976DE3BC32AD2"
-				"1843D5BA2813F77D"
+				"67EB3173B5782C28"
 			]
 			id: "3F092E478E0AB262"
-			subtitle: "允许你的魔力反应器制造精灵门配方，并获得更优秀的精灵钢生产方式"
+			subtitle: "{ftbquests.chapter.botania.quest3F092E478E0AB262.subtitle}"
 			tasks: [{
 				id: "52479FBA48F98DF3"
 				item: "ctnhmana:elf_catalyst"
@@ -1606,7 +1594,7 @@
 		}
 		{
 			dependencies: ["3F092E478E0AB262"]
-			description: ["允许你完美制造精灵钢和未来一些高级配方"]
+			description: ["{ftbquests.chapter.botania.quest638CDB9974D0AA34.description1}"]
 			id: "638CDB9974D0AA34"
 			rewards: [
 				{
@@ -1623,7 +1611,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "永恒的赌注"
+			subtitle: "{ftbquests.chapter.botania.quest638CDB9974D0AA34.subtitle}"
 			tasks: [{
 				id: "1C9BD42E2785A0C7"
 				item: "ctnhmana:terra_catalyst"
@@ -1640,7 +1628,7 @@
 				item: "botania:terrasteel_nugget"
 				type: "item"
 			}]
-			subtitle: "它只是一个可怜的小精灵，你为什么要杀掉它？"
+			subtitle: "{ftbquests.chapter.botania.quest15ECE744BCDDC1B4.subtitle}"
 			tasks: [{
 				entity: "mythicbotany:alf_pixie"
 				id: "1B9D132721E8DB27"
@@ -1653,11 +1641,11 @@
 		{
 			dependencies: ["15ECE744BCDDC1B4"]
 			description: [
-				"等等，那个髓质是什么玩意？"
+				"{ftbquests.chapter.botania.quest2731A0C53AE6694E.description1}"
 				""
-				"看来你需要高效地提取一些髓质——从这些小精灵身上，但是直接杀死它们不足以提纯这种高能魔力材料"
-				"我倒是知道一个&4邪恶的仪式&r......"
-				"好像叫&4生灵萃取&r仪式"
+				"{ftbquests.chapter.botania.quest2731A0C53AE6694E.description2}"
+				"{ftbquests.chapter.botania.quest2731A0C53AE6694E.description3}"
+				"{ftbquests.chapter.botania.quest2731A0C53AE6694E.description4}"
 			]
 			id: "2731A0C53AE6694E"
 			rewards: [
@@ -1696,7 +1684,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "你是一个可怕的人"
+			subtitle: "{ftbquests.chapter.botania.quest2731A0C53AE6694E.subtitle}"
 			tasks: [{
 				entity: "mythicbotany:alf_pixie"
 				id: "25693A508FE55B4E"
@@ -1709,14 +1697,14 @@
 		{
 			dependencies: ["0E155CFAA51B8A3D"]
 			description: [
-				"魔生魔，这太cooooooooooooooool"
+				"{ftbquests.chapter.botania.quest1F941A15EB52B1B.description1}"
 				""
-				"快点用，未来可能会被削弱，这么强的东西到底是怎么设计出来的？"
+				"{ftbquests.chapter.botania.quest1F941A15EB52B1B.description2}"
 				""
-				"我要投资10W mana进去，然后每tick就可以获得100mana，完爆勿落草和热爆花哎！"
+				"{ftbquests.chapter.botania.quest1F941A15EB52B1B.description3}"
 			]
 			id: "01F941A15EB52B1B"
-			subtitle: "我的天哪，金色传说！"
+			subtitle: "{ftbquests.chapter.botania.quest1F941A15EB52B1B.subtitle}"
 			tasks: [{
 				id: "04D3A4A1179F45B2"
 				item: "ctnhmana:semper_augustus"
@@ -1727,7 +1715,7 @@
 		}
 		{
 			dependencies: ["01F941A15EB52B1B"]
-			description: ["&oTulpenmanie&r AND &oNOTHING&r"]
+			description: ["{ftbquests.chapter.botania.quest1BCA612CDF2A75C4.description1}"]
 			hide_text_until_complete: true
 			id: "1BCA612CDF2A75C4"
 			invisible: true
@@ -1736,26 +1724,26 @@
 				item: "gtceu:construction_foam_bucket"
 				type: "item"
 			}]
-			subtitle: "贪婪终有报"
+			subtitle: "{ftbquests.chapter.botania.quest1BCA612CDF2A75C4.subtitle}"
 			tasks: [{
 				id: "400BC3B35125A3F3"
 				item: "ctnhmana:tulpenmanie"
 				type: "item"
 			}]
-			title: "泡沫一场"
+			title: "{ftbquests.chapter.botania.quest1BCA612CDF2A75C4.title}"
 			x: 30.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["534174F47C130196"]
 			description: [
-				"你可能注意到：魔力卷板机等魔力多方块结构在EU之外，需要额外输入 &b魔力能量&r 而魔力凝聚仓就是其输入这种能量的舱室"
+				"{ftbquests.chapter.botania.quest5267A04BB30AAEC7.description1}"
 				""
-				"你可以往内部输入植物魔法的魔力，液态魔力甚至是LP（新生魔艺：那我呐？？？） 它们都有自己关于魔力能量的转化率和转化速率，转化为内部的&b魔力能量&r"
+				"{ftbquests.chapter.botania.quest5267A04BB30AAEC7.description2}"
 				""
-				"现在你可以通过魔力戒指，或者使用魔力发射器往内部发射mana，由于你的技术并不精湛，所以你暂时无法利用其火花的力量。而且魔力戒指和LP的转化速率被极大的限制了 每tick至多为该舱室充能0.5%的mana，有时候使用发射器可能是更佳的选择"
+				"{ftbquests.chapter.botania.quest5267A04BB30AAEC7.description3}"
 				""
-				"不过奥法尖塔的广域广播模式可以给其范围内所有的魔力凝聚仓供能，利用这个机制来搭建你的魔力电网吧，这不仅浪漫，而且很cooooooooooooooool！"
+				"{ftbquests.chapter.botania.quest5267A04BB30AAEC7.description4}"
 			]
 			id: "5267A04BB30AAEC7"
 			rewards: [
@@ -1777,7 +1765,7 @@
 					type: "all_table"
 				}
 			]
-			subtitle: "魔力机器：第一步"
+			subtitle: "{ftbquests.chapter.botania.quest5267A04BB30AAEC7.subtitle}"
 			tasks: [{
 				id: "496AE70DFC8F8FBC"
 				item: "ctnhmana:manahatch"
@@ -1789,9 +1777,9 @@
 		{
 			dependencies: ["534174F47C130196"]
 			description: [
-				"魔力机器的机器UI里具有一个特殊的&b机器升级槽&r，你可以通过放置魔力升级来增强你的魔力机器。"
+				"{ftbquests.chapter.botania.quest390E221D7691E7E8.description1}"
 				""
-				"目前存在三种魔力升级：以植物魔法为主体的升级，以血魔法为主体的升级和以大规模流水线为主体的升级，不过现在你只能做得起植物魔法升级，继续推进你的科技，你将会见证魔力机器真正的潜能"
+				"{ftbquests.chapter.botania.quest390E221D7691E7E8.description2}"
 			]
 			id: "390E221D7691E7E8"
 			rewards: [
@@ -1808,7 +1796,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "你最初的升级"
+			subtitle: "{ftbquests.chapter.botania.quest390E221D7691E7E8.subtitle}"
 			tasks: [{
 				id: "72916D00CF8AF82F"
 				item: "ctnhmana:sky_flower_speech"
@@ -1823,10 +1811,10 @@
 				"390E221D7691E7E8"
 			]
 			id: "15FC1B8CA8B313D9"
-			subtitle: "用它们创飞所有的小机器（和GCYM机器）吧！"
+			subtitle: "{ftbquests.chapter.botania.quest15FC1B8CA8B313D9.subtitle}"
 			tasks: [{
 				id: "4F45BBD7DB6C6ACE"
-				title: "魔力机器，集结！"
+				title: "{ftbquests.chapter.botania.quest15FC1B8CA8B313D9.task.5712178238163020494.title}"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -1835,9 +1823,9 @@
 		{
 			dependencies: ["15FC1B8CA8B313D9"]
 			description: [
-				"魔力没有错误，只有特性！"
+				"{ftbquests.chapter.botania.quest554565B05001CEDC.description1}"
 				""
-				"解决了应力机器没有线材轧机的问题"
+				"{ftbquests.chapter.botania.quest554565B05001CEDC.description2}"
 			]
 			id: "554565B05001CEDC"
 			rewards: [
@@ -1854,7 +1842,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "我去，有错字！"
+			subtitle: "{ftbquests.chapter.botania.quest554565B05001CEDC.subtitle}"
 			tasks: [{
 				id: "7A0C465DE6167EC9"
 				item: "ctnhmana:mana_wiremill"
@@ -1866,11 +1854,11 @@
 		{
 			dependencies: ["15FC1B8CA8B313D9"]
 			description: [
-				"你已经是一名合格的植物魔法玩家了，你知道如何获得EV电路，对吧"
+				"{ftbquests.chapter.botania.quest486B0FF8D1761960.description1}"
 				""
-				"魔力电路二段跳，这难道不cooooooooooool吗？"
+				"{ftbquests.chapter.botania.quest486B0FF8D1761960.description2}"
 				""
-				"哦对了，它同时是锻造锤，并且能代替某些神奇的魔力锻造配方。魔力，神奇吧！"
+				"{ftbquests.chapter.botania.quest486B0FF8D1761960.description3}"
 			]
 			id: "486B0FF8D1761960"
 			rewards: [
@@ -1886,7 +1874,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "超高速卷板措施"
+			subtitle: "{ftbquests.chapter.botania.quest486B0FF8D1761960.subtitle}"
 			tasks: [{
 				id: "38E7639FC81FB009"
 				item: "ctnhmana:mana_bender"
@@ -1897,7 +1885,7 @@
 		}
 		{
 			dependencies: ["15FC1B8CA8B313D9"]
-			description: ["但至少便宜（"]
+			description: ["{ftbquests.chapter.botania.quest393E318A55C7E97B.description1}"]
 			id: "393E318A55C7E97B"
 			rewards: [
 				{
@@ -1913,7 +1901,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "平平无奇"
+			subtitle: "{ftbquests.chapter.botania.quest393E318A55C7E97B.subtitle}"
 			tasks: [{
 				id: "455D973333344CB2"
 				item: "ctnhmana:mana_lathe"
@@ -1924,7 +1912,7 @@
 		}
 		{
 			dependencies: ["15FC1B8CA8B313D9"]
-			description: ["建议使用流水线升级，你会见证到真正超越研磨轮的造物"]
+			description: ["{ftbquests.chapter.botania.quest7DB9B0EEC33DAEA7.description1}"]
 			id: "7DB9B0EEC33DAEA7"
 			rewards: [
 				{
@@ -1940,7 +1928,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "统统粉碎！"
+			subtitle: "{ftbquests.chapter.botania.quest7DB9B0EEC33DAEA7.subtitle}"
 			tasks: [{
 				id: "27B4C3265B157E01"
 				item: "ctnhmana:mana_macerator"
@@ -1951,7 +1939,7 @@
 		}
 		{
 			dependencies: ["15FC1B8CA8B313D9"]
-			description: ["冷知识：在1.0.8版本时，魔力组装机可以双仓升压"]
+			description: ["{ftbquests.chapter.botania.quest1BF78867268F9AC0.description1}"]
 			id: "1BF78867268F9AC0"
 			rewards: [
 				{
@@ -1967,7 +1955,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "你付出了如此多的代价......终于得以见到真神的一瞥"
+			subtitle: "{ftbquests.chapter.botania.quest1BF78867268F9AC0.subtitle}"
 			tasks: [{
 				id: "17DCDEEA5AE6D576"
 				item: "ctnhmana:mana_assembler"
@@ -1978,7 +1966,7 @@
 		}
 		{
 			dependencies: ["15FC1B8CA8B313D9"]
-			description: ["所以为什么就你价格这么贵？"]
+			description: ["{ftbquests.chapter.botania.quest7A7E14FEA1466EBC.description1}"]
 			id: "7A7E14FEA1466EBC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1986,7 +1974,7 @@
 				table_id: 1995626107801647046L
 				type: "loot"
 			}]
-			subtitle: "高速机一定要高速"
+			subtitle: "{ftbquests.chapter.botania.quest7A7E14FEA1466EBC.subtitle}"
 			tasks: [{
 				id: "206F8E4BAD02E759"
 				item: "ctnhmana:mana_mixer"
@@ -1998,18 +1986,18 @@
 		{
 			dependencies: ["1BCA612CDF2A75C4"]
 			description: [
-				"实际上，永远的奥古斯都并非不可以成为一种产魔手段。"
+				"{ftbquests.chapter.botania.quest276E7971FED25D96.description1}"
 				""
-				"它内部有一个隐藏的泡沫值，开始时为680000，你每通过这朵花产出1魔力，都会减少1点这个值，这朵花吸收魔力也会缓慢降低这个值"
+				"{ftbquests.chapter.botania.quest276E7971FED25D96.description2}"
 				""
-				"如果你及时跳车，那么你仍然可能净赚50W左右的mana,但前提是你足够聪明且能压制住你的贪婪之心"
+				"{ftbquests.chapter.botania.quest276E7971FED25D96.description3}"
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "276E7971FED25D96"
 			tasks: [{
 				id: "56E542BBC225E06B"
-				title: "让我们说点正经的"
+				title: "{ftbquests.chapter.botania.quest276E7971FED25D96.task.6261484231112122475.title}"
 				type: "checkmark"
 			}]
 			x: 30.0d
@@ -2066,7 +2054,7 @@
 				table_id: 5890566419274612501L
 				type: "loot"
 			}]
-			subtitle: "HV超导 但造价不菲"
+			subtitle: "{ftbquests.chapter.botania.quest52C53E3754D45937.subtitle}"
 			tasks: [{
 				id: "3471A5047BB941EB"
 				item: "extrabotany:aerialite_ingot"
@@ -2084,7 +2072,7 @@
 				table_id: 5890566419274612501L
 				type: "loot"
 			}]
-			subtitle: "土豆泥和碎片的自动化可以通过魔力卷板机实现"
+			subtitle: "{ftbquests.chapter.botania.quest42DF8F2801E86F05.subtitle}"
 			tasks: [{
 				id: "5E557EE10C1476D3"
 				item: "extrabotany:photonium_ingot"
@@ -2127,7 +2115,7 @@
 		}
 		{
 			dependencies: ["5267A04BB30AAEC7"]
-			description: ["现在舱室具有了从火花获取mana的能力，而且这个速度是独立于火花本身速度的"]
+			description: ["{ftbquests.chapter.botania.quest25CC832450084F13.description1}"]
 			id: "25CC832450084F13"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2135,7 +2123,7 @@
 				table_id: 5890566419274612501L
 				type: "all_table"
 			}]
-			subtitle: "魔力凝聚仓 第二步"
+			subtitle: "{ftbquests.chapter.botania.quest25CC832450084F13.subtitle}"
 			tasks: [{
 				id: "63A2D25C4274CCCE"
 				item: "ctnhmana:elf_manahatch"
@@ -2166,7 +2154,7 @@
 				item: "ctnhmana:giga_manahatch"
 				type: "item"
 			}]
-			title: "魔力凝聚 第三步"
+			title: "{ftbquests.chapter.botania.quest6622E27B1A2D0ED3.title}"
 			x: 14.0d
 			y: 4.0d
 		}
@@ -2187,7 +2175,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "这并不是终结"
+			subtitle: "{ftbquests.chapter.botania.quest41CE2B9E9E568287.subtitle}"
 			tasks: [{
 				id: "42B5C040DFF3EE72"
 				item: "ctnhmana:sky_manahatch"
@@ -2219,7 +2207,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "给那些液态魔力爱好者准备的舱室"
+			subtitle: "{ftbquests.chapter.botania.questAF949D4C2FFF93.subtitle}"
 			tasks: [{
 				id: "406EF30922F4EEB7"
 				item: "ctnhmana:industry_manahatch"
@@ -2231,9 +2219,9 @@
 		{
 			dependencies: ["534174F47C130196"]
 			description: [
-				"对于那些一次性处理巨量的材料，这个升级会展现出非常恐怖的性能"
+				"{ftbquests.chapter.botania.quest3742A94B8FE2556.description1}"
 				""
-				"给你的粉碎机装一个试试吧"
+				"{ftbquests.chapter.botania.quest3742A94B8FE2556.description2}"
 			]
 			id: "03742A94B8FE2556"
 			rewards: [
@@ -2250,7 +2238,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "另一种升级的选择"
+			subtitle: "{ftbquests.chapter.botania.quest3742A94B8FE2556.subtitle}"
 			tasks: [{
 				id: "20AF2DDF290E0BFA"
 				item: "ctnhmana:pipeline_vision"
@@ -2268,7 +2256,7 @@
 				table_id: 1995626107801647046L
 				type: "all_table"
 			}]
-			subtitle: "恭喜"
+			subtitle: "{ftbquests.chapter.botania.quest46C8B58168050204.subtitle}"
 			tasks: [{
 				id: "31F9523F357FB06F"
 				item: "ctnhmana:pipeline_farsight"
@@ -2286,7 +2274,7 @@
 				item: "ctnhmana:heart_of_flower"
 				type: "item"
 			}]
-			subtitle: "如此复杂的科技......不过现在我会送你一个，请我喝一瓶beeeeeeeeee"
+			subtitle: "{ftbquests.chapter.botania.quest3B559FB7763ADD92.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -2323,13 +2311,13 @@
 					type: "item"
 				}
 			]
-			title: "繁花之心"
+			title: "{ftbquests.chapter.botania.quest3B559FB7763ADD92.title}"
 			x: 20.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["27F32097E734F297"]
-			description: ["它有什么用呢"]
+			description: ["{ftbquests.chapter.botania.quest534174F47C130196.description1}"]
 			id: "534174F47C130196"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2337,7 +2325,7 @@
 				table_id: 9045619599439842206L
 				type: "loot"
 			}]
-			subtitle: "统一魔力与电力的核心"
+			subtitle: "{ftbquests.chapter.botania.quest534174F47C130196.subtitle}"
 			tasks: [{
 				id: "6646F5C01A06885A"
 				item: "ctnhmana:magic_core"
@@ -2349,9 +2337,9 @@
 		{
 			dependencies: ["25B3AF6B83955B6C"]
 			description: [
-				"你可以通过直接将桶扔进魔力池里来获取液态魔力，但我不推荐你这样做，因为这样的转化比率是200:1，远低于正常的转化比率（5:1）"
+				"{ftbquests.chapter.botania.quest4DA0894979A116D8.description1}"
 				""
-				"不过为了魔力电路，你似乎也没有什么选择，对吧（笑）"
+				"{ftbquests.chapter.botania.quest4DA0894979A116D8.description2}"
 			]
 			id: "4DA0894979A116D8"
 			rewards: [{
@@ -2359,21 +2347,21 @@
 				item: "gtceu:mana_bucket"
 				type: "item"
 			}]
-			subtitle: "一种完美的通用魔力"
+			subtitle: "{ftbquests.chapter.botania.quest4DA0894979A116D8.subtitle}"
 			tasks: [{
 				id: "08DB1EEDB17F87D8"
 				item: "gtceu:mana_bucket"
 				type: "item"
 			}]
-			title: "液态魔力？？？"
+			title: "{ftbquests.chapter.botania.quest4DA0894979A116D8.title}"
 			x: 5.0d
 			y: 4.0d
 		}
 		{
 			can_repeat: true
 			description: [
-				"                            &l&n&m真的有概率 "
-				"            如果发生了神迹，那么你会获得恩典的"
+				"{ftbquests.chapter.botania.quest37207CA857B449EA.description1}"
+				"{ftbquests.chapter.botania.quest37207CA857B449EA.description2}"
 			]
 			icon: "ctnhmana:zenith_star"
 			id: "37207CA857B449EA"
@@ -2384,7 +2372,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "有概率抽到超级符文哦！(＞0.01)"
+			subtitle: "{ftbquests.chapter.botania.quest37207CA857B449EA.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -2392,7 +2380,7 @@
 				item: "ctnhmana:zenith_star"
 				type: "item"
 			}]
-			title: "单抽！"
+			title: "{ftbquests.chapter.botania.quest37207CA857B449EA.title}"
 			x: 25.0d
 			y: 4.5d
 		}
@@ -2403,18 +2391,18 @@
 				"1213EC30B8EA191C"
 			]
 			dependency_requirement: "one_completed"
-			description: ["             &l&n&m你可以获得这个战利品表的所有奖励"]
+			description: ["{ftbquests.chapter.botania.quest37E1E8B942E200FA.description1}"]
 			icon: "ctnhmana:quasar_rune"
 			id: "37E1E8B942E200FA"
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7F094FA5D3039043"
 				table_id: 8234775604862196519L
-				title: "全都给你"
+				title: "{ftbquests.chapter.botania.quest37E1E8B942E200FA.reward.9153935291235668035.title}"
 				type: "all_table"
 			}]
 			size: 1.0d
-			subtitle: "那么"
+			subtitle: "{ftbquests.chapter.botania.quest37E1E8B942E200FA.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -2422,7 +2410,7 @@
 				item: "ctnhmana:quasar_rune"
 				type: "item"
 			}]
-			title: "如果你获得了类星体符文"
+			title: "{ftbquests.chapter.botania.quest37E1E8B942E200FA.title}"
 			x: 26.0d
 			y: 5.0d
 		}
@@ -2511,7 +2499,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "送你三次"
+			subtitle: "{ftbquests.chapter.botania.quest6A884726C7CD60F1.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 30L
@@ -2519,13 +2507,13 @@
 				item: "ctnhmana:zenith_star"
 				type: "item"
 			}]
-			title: "十连！！！"
+			title: "{ftbquests.chapter.botania.quest6A884726C7CD60F1.title}"
 			x: 26.0d
 			y: 6.0d
 		}
 		{
 			can_repeat: true
-			description: ["正宗食用方法：提交完之后点击右上角的一键领取即可五连、十连抽"]
+			description: ["{ftbquests.chapter.botania.quest1213EC30B8EA191C.description1}"]
 			icon: "ctnhmana:zenith_star"
 			id: "1213EC30B8EA191C"
 			rewards: [
@@ -2567,7 +2555,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "送你一次"
+			subtitle: "{ftbquests.chapter.botania.quest1213EC30B8EA191C.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 15L
@@ -2575,14 +2563,15 @@
 				item: "ctnhmana:zenith_star"
 				type: "item"
 			}]
-			title: "五连！！"
+			title: "{ftbquests.chapter.botania.quest1213EC30B8EA191C.title}"
 			x: 27.0d
 			y: 4.5d
 		}
 		{
+			dependencies: ["7182CCA0B17CC960"]
 			description: [
-				"现在你可以看到魔力池和产魔花的真实数据了"
-				"至于那颗末影珍珠，我听说&4地牢浮现之时&r的某些结构就有这样的战利品，也许你可以去看看？"
+				"{ftbquests.chapter.botania.quest7EE6165859F45B72.description1}"
+				"{ftbquests.chapter.botania.quest7EE6165859F45B72.description2}"
 			]
 			id: "7EE6165859F45B72"
 			rewards: [{
@@ -2592,7 +2581,7 @@
 				type: "random"
 			}]
 			shape: "heart"
-			subtitle: "我将能看见一切"
+			subtitle: "{ftbquests.chapter.botania.quest7EE6165859F45B72.subtitle}"
 			tasks: [{
 				id: "1D7036451F91725B"
 				item: "botania:third_eye"
@@ -2642,13 +2631,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "所以这一切一无所有"
+			subtitle: "{ftbquests.chapter.botania.quest764C52D60D1AA339.subtitle}"
 			tasks: [{
 				id: "5B7014A2FE2349E3"
 				item: "ctnhmana:koishi_eye"
 				type: "item"
 			}]
-			title: "于是，什么都看不见了"
+			title: "{ftbquests.chapter.botania.quest764C52D60D1AA339.title}"
 			x: 6.5d
 			y: 4.0d
 		}
@@ -2661,13 +2650,13 @@
 				table_id: 5890566419274612501L
 				type: "random"
 			}]
-			subtitle: "通过它，你可以量产奥利哈钢"
+			subtitle: "{ftbquests.chapter.botania.quest1610599164EC9CA3.subtitle}"
 			tasks: [{
 				id: "69CF77CE1A35C413"
 				item: "ctnhmana:unimbued_spirit"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 26.5d
 			y: 8.0d
 		}
 		{
@@ -2686,110 +2675,6 @@
 			x: 28.0d
 			y: 8.0d
 		}
-		{
-			dependencies: ["584176B147B6FB76"]
-			description: ["这朵花的机制较为危险，请查阅对应词典条目，导致的物品和机器被焚烧魔力bee不负责"]
-			id: "21C141240D78EE84"
-			subtitle: "与烈焰中抵达空无之境"
-			tasks: [{
-				id: "5D54BCB909F3C1D6"
-				item: "ctnhmana:anatta_lotus"
-				type: "item"
-			}]
-			x: 26.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["584176B147B6FB76"]
-			description: ["最强的被动产魔花，并不代表它没有机制，别忘了查书XD"]
-			id: "09F28BDEEA462C60"
-			subtitle: "大爆炸理论"
-			tasks: [{
-				id: "70D22EE805F09214"
-				item: "ctnhmana:genethistle"
-				type: "item"
-			}]
-			x: 29.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["764C52D60D1AA339"]
-			description: [
-				"如果想要获得它，你就需要在野外找到一个独特的结构，这个结构的刷新率极低且也只会刷新在海上"
-				""
-				"不如......试试结构指南针？"
-			]
-			id: "5352AD7B98194CCC"
-			subtitle: "无间地狱的背德之心"
-			tasks: [{
-				id: "16F991A506D4003C"
-				item: "ctnhmana:pararosia"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["4E6FA7D29EBE9339"]
-			id: "3958E5F6EB24F4DA"
-			subtitle: "为什么不看看植物魔法辞典呢？"
-			tasks: [
-				{
-					id: "382310631A97DC57"
-					item: "ctnhmana:upgrade_rune_speed_1"
-					type: "item"
-				}
-				{
-					id: "6DC37A7B3DE911AB"
-					item: "ctnhmana:upgrade_rune_range_1"
-					type: "item"
-				}
-				{
-					id: "56A02E69F59DBF9F"
-					item: "ctnhmana:upgrade_rune_translocation_1"
-					type: "item"
-				}
-			]
-			title: "尖塔升级们"
-			x: 5.0d
-			y: -8.5d
-		}
-		{
-			description: [
-				"超越金刚杵的存在"
-				""
-				"具有极高的伤害，多种形态，超级镐力，还有比这更完美的存在吗？"
-				""
-				"哔哔......遵循指令之意......"
-			]
-			id: "2A1512F3FBD16ED7"
-			size: 2.0d
-			subtitle: "遵从指令之意"
-			tasks: [{
-				id: "0C7109E16ED2E364"
-				item: {
-					Count: 1
-					id: "ctnhmana:caduceus"
-					tag: {
-						Damage: 0
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							RelocateMinedBlocks: 1b
-							RelocateMobDrops: 1b
-						}
-						GT.Tool: {
-							DefaultEnchantments: [ ]
-							MaxDamage: 65534
-						}
-						HideFlags: 2
-						Unbreakable: 1b
-					}
-				}
-				type: "item"
-			}]
-			x: 16.0d
-			y: 8.0d
-		}
 	]
-	title: "&f植物魔法"
+	title: "{ftbquests.chapter.botania.title}"
 }
