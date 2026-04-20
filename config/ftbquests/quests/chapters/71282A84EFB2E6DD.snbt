@@ -8,19 +8,6 @@
 	order_index: 2
 	quest_links: [
 		{
-			id: "201E8191E9CFE196"
-			linked_quest: "020A570A2EC3EE8B"
-			size: 2.0d
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			id: "0F6EC6D1884C72A0"
-			linked_quest: "0598D6FDA6319592"
-			x: -4.0d
-			y: 1.0d
-		}
-		{
 			id: "3BD5D147B83CEEE0"
 			linked_quest: "2F497F4992DEF6E2"
 			x: 4.0d
@@ -35,10 +22,6 @@
 	]
 	quests: [
 		{
-			dependencies: [
-				"76036AE6CE23B158"
-				"020A570A2EC3EE8B"
-			]
 			description: [
 				"{ftbquests.chapter.71282A84EFB2E6DD.quest4CA3E4766B67C12B.description1}"
 				"{ftbquests.chapter.71282A84EFB2E6DD.quest4CA3E4766B67C12B.description2}"
@@ -55,10 +38,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"4CA3E4766B67C12B"
-				"0598D6FDA6319592"
-			]
+			dependencies: ["4CA3E4766B67C12B"]
 			description: [""]
 			id: "0609BF460D2F4A65"
 			subtitle: "{ftbquests.chapter.71282A84EFB2E6DD.quest609BF460D2F4A65.subtitle}"

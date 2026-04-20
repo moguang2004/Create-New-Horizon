@@ -2675,6 +2675,110 @@
 			x: 28.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["584176B147B6FB76"]
+			description: ["这朵花的机制较为危险，请查阅对应词典条目，导致的物品和机器被焚烧魔力bee不负责"]
+			id: "21C141240D78EE84"
+			subtitle: "与烈焰中抵达空无之境"
+			tasks: [{
+				id: "5D54BCB909F3C1D6"
+				item: "ctnhmana:anatta_lotus"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["584176B147B6FB76"]
+			description: ["最强的被动产魔花，并不代表它没有机制，别忘了查书XD"]
+			id: "09F28BDEEA462C60"
+			subtitle: "大爆炸理论"
+			tasks: [{
+				id: "70D22EE805F09214"
+				item: "ctnhmana:genethistle"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["764C52D60D1AA339"]
+			description: [
+				"如果想要获得它，你就需要在野外找到一个独特的结构，这个结构的刷新率极低且也只会刷新在海上"
+				""
+				"不如......试试结构指南针？"
+			]
+			id: "5352AD7B98194CCC"
+			subtitle: "无间地狱的背德之心"
+			tasks: [{
+				id: "16F991A506D4003C"
+				item: "ctnhmana:pararosia"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4E6FA7D29EBE9339"]
+			id: "3958E5F6EB24F4DA"
+			subtitle: "为什么不看看植物魔法辞典呢？"
+			tasks: [
+				{
+					id: "382310631A97DC57"
+					item: "ctnhmana:upgrade_rune_speed_1"
+					type: "item"
+				}
+				{
+					id: "6DC37A7B3DE911AB"
+					item: "ctnhmana:upgrade_rune_range_1"
+					type: "item"
+				}
+				{
+					id: "56A02E69F59DBF9F"
+					item: "ctnhmana:upgrade_rune_translocation_1"
+					type: "item"
+				}
+			]
+			title: "尖塔升级们"
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			description: [
+				"超越金刚杵的存在"
+				""
+				"具有极高的伤害，多种形态，超级镐力，还有比这更完美的存在吗？"
+				""
+				"哔哔......遵循指令之意......"
+			]
+			id: "2A1512F3FBD16ED7"
+			size: 2.0d
+			subtitle: "遵从指令之意"
+			tasks: [{
+				id: "0C7109E16ED2E364"
+				item: {
+					Count: 1
+					id: "ctnhmana:caduceus"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							RelocateMinedBlocks: 1b
+							RelocateMobDrops: 1b
+						}
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 65534
+						}
+						HideFlags: 2
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
 	]
 	title: "{ftbquests.chapter.botania.title}"
 }

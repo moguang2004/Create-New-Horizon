@@ -35,12 +35,6 @@
 			y: 12.0d
 		}
 		{
-			id: "7EA6409FA421A4C4"
-			linked_quest: "60DE45074FA207BF"
-			x: 12.5d
-			y: 11.0d
-		}
-		{
 			id: "591E0AAAF45E4D82"
 			linked_quest: "15ECB84AB1215CF2"
 			x: 8.5d
@@ -942,10 +936,7 @@
 			y: 11.0d
 		}
 		{
-			dependencies: [
-				"3AE584B3EBC63A09"
-				"60DE45074FA207BF"
-			]
+			dependencies: ["3AE584B3EBC63A09"]
 			description: [""]
 			id: "761AC9761D80AC19"
 			rewards: [{

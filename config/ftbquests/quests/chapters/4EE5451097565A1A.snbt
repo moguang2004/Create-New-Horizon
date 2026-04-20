@@ -378,7 +378,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["012D04F8C8D62292"]
 			icon: "botania:rune_water"
 			id: "267B3ED5B4C140A3"
 			rewards: [{
@@ -401,7 +400,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["012D04F8C8D62292"]
 			icon: "botania:rune_fire"
 			id: "5F4FB9C28C2B9AA9"
 			rewards: [{
@@ -424,7 +422,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["012D04F8C8D62292"]
 			icon: "botania:rune_earth"
 			id: "2D865622C976F3C0"
 			rewards: [{
@@ -447,7 +444,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["012D04F8C8D62292"]
 			icon: "botania:rune_air"
 			id: "7D622DAE1C128D65"
 			rewards: [{
