@@ -1,13 +1,13 @@
 name = "GregTechModern Food Option"
-filename = "gtmfo-0.0.3.jar"
+filename = "gtmfo-0.0.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6ac3c680369d623827fbdac374a56da45c5d4e66"
+hash = "b44004c8bdbd29e13ad858ec9cdef3604bf9c33a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7884890
+file-id = 7956329
 project-id = 1499853

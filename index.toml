@@ -10247,7 +10247,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctnh-core.pw.toml"
-hash = "16a0a2a25c8b85a2410809540871edf87e0f5255029e81fae9d3ab197085f232"
+hash = "6d0ffb8279fa15e23ca5d5652aeb7957fbf38b48f40cc13dab80a54a753986b1"
 metafile = true
 
 [[files]]
@@ -10482,7 +10482,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechmodern-food-option.pw.toml"
-hash = "fffadd8247f3f0e4045966c80e590dbde2a3268383d1e4cee1c660b22bf3855a"
+hash = "8c887ade4947cd227865b28ae0ebe6ad50e9486abf6d94332caa8ef12e7acd7c"
 metafile = true
 
 [[files]]
