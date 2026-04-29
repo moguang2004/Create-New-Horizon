@@ -156,6 +156,7 @@
   },
   "ctnhenergy": {
     "ad_me_pattern_buffer": true,
+    "ae_eu_info": true,
     "ad_me_pattern_buffer_proxy": true
   },
   "waystones": {
