@@ -6,8 +6,6 @@ StartupEvents.registry("item", event => {
         food.effect("legendarysurvivaloverhaul:cold_immunity", 36000, 10, 1)
     })
     event.create('deep_diver_gear').tag('curios:belt')
-    event.create('thermometer_case')
-    event.create('high_quality_solid_fuel').burnTime(4800) //.burntime(16000)
     event.create('unfinished_steel_mechanism')
     event.create('metallurgical_catalyst')
     event.create('platinum_metal_catalyst_shard1')
@@ -19,13 +17,6 @@ StartupEvents.registry("item", event => {
         event.create('general_circuit_' + moreTiers[i]).tag('gtceu:circuits/' + moreTiers[i]).tooltip(GTValues.VNF[i] + '级电路板')
     }
     event.create('crashed_rice')
-    event.create('space_fabric')
-    event.create('echo_processor').tag('gtceu:circuits/zpm')
-    event.create('echo_processor_assembly').tag('gtceu:circuits/uv')
-    event.create('echo_processor_computer').tag('gtceu:circuits/uhv')
-    event.create('echo_processor_mainframe').tag('gtceu:circuits/uev')
-    event.create('echo_circuit_board')
-    event.create('echo_printed_circuit_board')
 
     event.create('circuit_board_m_one')
     event.create('circuit_board_m_two')
@@ -35,11 +26,6 @@ StartupEvents.registry("item", event => {
 
     event.create("yharim").tooltip('你必须§6爱护蜜蜂§r才能激发这个锭的真正力量，哦你已经爱过蜜蜂了')
     event.create('strongly_interacting_neutron_refector').tooltip("§7硬度超越水滴")
-    event.create('biological_patch_transistor').tooltip('§a生物电子元件')
-    event.create('biological_patch_resistor').tooltip('§a生物电子元件')
-    event.create('biological_patch_capacitor').tooltip('§a生物电子元件')
-    event.create('biological_patch_diode').tooltip('§a生物电子元件')
-    event.create('biological_patch_inductor').tooltip('§a生物电子元件')
     event.create('clgs_electrode')
     event.create("thermotolerant_dish")
     event.create("kubejs:clgs")
@@ -53,26 +39,6 @@ StartupEvents.registry("item", event => {
 
 })
 StartupEvents.registry("item", event => {
-    event.create("scp_500_base", "basic").food(food => {
-        food.alwaysEdible(true)
-        food.effect("minecraft:regeneration", 999, 10, 1)
-        food.effect("minecraft:resistance", 999, 3, 1)
-        food.fastToEat(true)
-        food.eaten(ctx => {
-            Utils.server.runCommandSilent('title @s title {"text":"你在短时间内你将获得强大的恢复能力","color":"red"}');
-        })
-    })
-    event.create("scp_500", "basic").food(food => {
-        food.alwaysEdible(true)
-        food.effect("minecraft:regeneration", 999, 10, 1)
-        food.effect("minecraft:resistance", 999, 3, 1)
-        food.fastToEat(true)
-        food.eaten(ctx => {
-            Utils.server.runCommandSilent('medical_condition clear @p');
-            Utils.server.runCommandSilent('title @s title {"text":"你的所有疾病已被治愈","color":"green"}');
-            Utils.server.runCommandSilent('title @s subtitle {"text":"在短时间内你将获得强大的恢复能力","color":"red"}');
-        })
-    })
     event.create("ark_of_homo", "pickaxe")
         .speedBaseline(100.0)
         .tier(9)
