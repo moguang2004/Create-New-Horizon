@@ -110,6 +110,18 @@ ItemEvents.modification(event => {
         //         0.5,
         //         'addition')
         // })
+    event.modify('ctnhcore:ender_light', item => {
+        item.setFoodProperties(food => {
+            food.hunger(20)
+            food.saturation(0.5)
+            food.meat(true)
+            food.alwaysEdible(true)
+            food.fastToEat(true)
+            food.effect('minecraft:haste', 20 * 1800, 0, 1)
+            food.effect('legendarysurvivaloverhaul:heat_immunity', 20 * 1800, 0, 1)
+            food.effect('legendarysurvivaloverhaul:cold_immunity', 20 * 1800, 0, 1)
+        })
+    })
     event.modify('twilightforest:fiery_helmet', item => {
         item.setArmorProtection(3)
     })
