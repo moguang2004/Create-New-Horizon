@@ -11,7 +11,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "kubejs:stone_process_catalyst",
+          "name": "ctnhcore:stone_process_catalyst",
           "weight": 5
         }
       ],

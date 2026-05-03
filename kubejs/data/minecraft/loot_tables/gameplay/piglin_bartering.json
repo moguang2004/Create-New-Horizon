@@ -113,7 +113,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "kubejs:metallurgical_catalyst",
+          "name": "ctnhcore:metallurgical_catalyst",
           "weight": 10
         },
         {
