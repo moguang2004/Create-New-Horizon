@@ -143,6 +143,6 @@ ServerEvents.recipes(event =>{
         .itemInputs('4x gtceu:para_aramid_foil')
         .itemInputs('4x gtceu:polyphenylene_sulfide_foil')
         .inputFluids('gtceu:fiber_glass 576')
-        .itemOutputs('kubejs:space_fabric')
+        .itemOutputs('ctnhcore:space_fabric')
         .duration(100).EUt(480)
 })

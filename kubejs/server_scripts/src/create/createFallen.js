@@ -308,7 +308,7 @@ ServerEvents.recipes(event => {
     //event.recipes.vintageimprovementsLaserCutting(transitional, transitional).energyCost(10000).maxChargeRate(5000),
     event.recipes.createFilling(transitional, [transitional, Fluid.of('gtceu:glue', 25)]),
     event.recipes.createPressing(transitional, [transitional]),
-        ]).transitionalItem('kubejs:circuit_board_m_one')
+        ]).transitionalItem('ctnhcore:circuit_board_m_one')
         .loops(4)
 })
 
@@ -372,6 +372,6 @@ ServerEvents.recipes(event => {
  //Melting -> Diamond into 200mb Molten Gold in 90 ticks with Heated condition.
  //这个是橡胶的相关配方
     ServerEvents.recipes(event =>{
-      event.recipes.create.mixing('kubejs:rubber_powder', ['gtceu:sulfur_dust', '3x gtceu:raw_rubber_dust']).heated()
-      event.recipes.create.mixing('kubejs:rubber_powder', ['alexscaves:sulfur_dust', '3x gtceu:raw_rubber_dust']).heated()
+      event.recipes.create.mixing('ctnhcore:rubber_powder', ['gtceu:sulfur_dust', '3x gtceu:raw_rubber_dust']).heated()
+      event.recipes.create.mixing('ctnhcore:rubber_powder', ['alexscaves:sulfur_dust', '3x gtceu:raw_rubber_dust']).heated()
 	})

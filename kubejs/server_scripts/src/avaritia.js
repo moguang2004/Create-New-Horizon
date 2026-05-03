@@ -100,9 +100,9 @@ ServerEvents.recipes(event => {
             I: 'deep_aether:aerwhale_saddle',
             J: Item.of('tconstruct:large_plate', '{Material:"tconstruct:manyullyn"}').weakNBT(),
             K: 'cataclysm:cursed_bow',
-            L: 'kubejs:platinum_metal_catalyst_shard1',
+            L: 'ctnhcore:platinum_metal_catalyst_shard1',
             M: 'ctnhcore:primary_stew',
-            N: 'kubejs:platinum_metal_catalyst_shard2',
+            N: 'ctnhcore:platinum_metal_catalyst_shard2',
             O: 'cataclysm:the_incinerator',
             P: Item.of('twilightforest:lamp_of_cinders', '{Damage:0}'),
             Q: Item.of('deep_aether:slider_eye', '{Damage:0}'),
@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
             U: 'botania:apothecary_taiga',
             V: 'biomancy:bio_lantern_blue',
             W: 'ad_astra:moon_globe',
-            X: 'kubejs:stone_process_catalyst',
+            X: 'ctnhcore:stone_process_catalyst',
             Y: 'extrabotany:pandoras_box'
         })
 })

@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
 //催化剂配方
     ctnh.differential_centrifuge('stone_dust_with_catalyst')
     .itemInputs('60x gtceu:stone_dust')
-    .notConsumable('kubejs:stone_process_catalyst')
+    .notConsumable('ctnhcore:stone_process_catalyst')
     .itemOutputs('gtceu:tiny_inert_residues_dust')
     .itemOutputs('2x gtceu:small_oxidized_residues_dust')
     .itemOutputs('2x gtceu:small_heavy_oxidized_residues_dust')

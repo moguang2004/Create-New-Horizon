@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         tier = tier * 2
         event.recipes.gtceu.forming_press('general_' + moreTiers[i])
             .itemInputs('#gtceu:circuits/' + moreTiers[i])
-            .itemOutputs('kubejs:general_circuit_' + moreTiers[i])
+            .itemOutputs('ctnhcore:general_circuit_' + moreTiers[i])
             .circuit(24)
             .EUt(tier)
             .duration(20 * i + 20)

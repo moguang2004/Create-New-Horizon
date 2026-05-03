@@ -76,5 +76,5 @@ ServerEvents.recipes(event => {
         .itemOutputs('9x gtceu:potassium_metabi_sulfite_dust')
 
     //gold catalyst
-    event.recipes.create.mixing(['minecraft:gold_ingot','kubejs:metallurgical_catalyst'],['gtceu:precious_alloy_ingot','kubejs:metallurgical_catalyst']).heated()
+    event.recipes.create.mixing(['minecraft:gold_ingot','ctnhcore:metallurgical_catalyst'],['gtceu:precious_alloy_ingot','ctnhcore:metallurgical_catalyst']).heated()
 })

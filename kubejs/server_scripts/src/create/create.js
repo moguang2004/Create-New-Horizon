@@ -246,7 +246,7 @@ ServerEvents.recipes(event => {
         .loops(1)
 })
 ServerEvents.recipes(event => {
-    let transitional = 'kubejs:unfinished_steel_mechanism'
+    let transitional = 'ctnhcore:unfinished_steel_mechanism'
     event.recipes.create.sequenced_assembly([
             'ctpp:steel_mechanism'
         ], 'create:precision_mechanism', [
@@ -447,7 +447,7 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     let transitional = 'gtceu:coke_dust'
     event.recipes.create.sequenced_assembly([
-            'kubejs:high_quality_solid_fuel'
+            'ctnhcore:high_quality_solid_fuel'
         ], 'gtceu:coke_dust', [
             event.recipes.createCutting(transitional, [transitional]),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:lignin_dust']),
@@ -473,7 +473,7 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
         let transitional = 'create:blaze_cake'
         event.recipes.create.sequenced_assembly([
-                'kubejs:double_blaze_cake'
+                'ctnhcore:double_blaze_cake'
             ], 'create:blaze_cake', [
                 event.recipes.create.filling(transitional, [transitional, Fluid.of("minecraft:lava", 100)]),
                 event.recipes.create.filling(transitional, [transitional, Fluid.of("minecraft:lava", 100)]),
@@ -488,7 +488,7 @@ ServerEvents.recipes(event => {
     })
     //注液器
 ServerEvents.recipes(event => {
-    event.recipes.create.filling('legendarysurvivaloverhaul:thermometer', ['kubejs:thermometer_case', Fluid.of('gtceu:mercury', 1000)])
+    event.recipes.create.filling('legendarysurvivaloverhaul:thermometer', ['ctnhcore:thermometer_case', Fluid.of('gtceu:mercury', 1000)])
     event.remove({ output: 'legendarysurvivaloverhaul:thermometer' })
     event.recipes.create.filling('2x ctnhcore:simple_nutritious_meal', ['minecraft:paper', Fluid.of('gtceu:biomass', 500)])
 })

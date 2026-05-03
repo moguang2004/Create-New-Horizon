@@ -1,6 +1,6 @@
 ItemEvents.tooltip(tooltip => {
 
-    // tooltip.addAdvanced('kubejs:temperature_keeping_device',
+    // tooltip.addAdvanced('ctnhcore:temperature_keeping_device',
     //     (item, advanced, text) => {
     //         let energy = item.getCapability(ForgeCapabilities.ENERGY).orElse(null)
     //         let { energyStored, maxEnergyStored } = energy
@@ -43,17 +43,17 @@ function unitChanger(number) {
 }
 
 ItemEvents.tooltip(event => {
-    event.addAdvanced('kubejs:scp_500', (item, advanced, text) => {
+    event.addAdvanced('ctnhcore:scp_500', (item, advanced, text) => {
         text.add(1, Text.translate('kubejs.scp_500.0'))
         text.add(2, Text.translate('kubejs.scp_500.1'))
     })
-    event.addAdvanced('kubejs:scp_500_base', (item, advanced, text) => {
+    event.addAdvanced('ctnhcore:scp_500_base', (item, advanced, text) => {
         text.add(1, Text.translate('kubejs.scp_500_base.0'))
     })
-    event.add('kubejs:echo_processor', Text.translate('ctnh.circuit_echo_zpm').darkAqua())
-    event.add('kubejs:echo_processor_assembly', Text.translate('ctnh.circuit_echo_uv').darkAqua())
-    event.add('kubejs:echo_processor_computer', Text.translate('ctnh.circuit_echo_uhv').darkAqua())
-    event.add('kubejs:echo_processor_mainframe', Text.translate('ctnh.circuit_echo_uev').darkAqua())
+    event.add('ctnhcore:echo_processor', Text.translate('ctnh.circuit_echo_zpm').darkAqua())
+    event.add('ctnhcore:echo_processor_assembly', Text.translate('ctnh.circuit_echo_uv').darkAqua())
+    event.add('ctnhcore:echo_processor_computer', Text.translate('ctnh.circuit_echo_uhv').darkAqua())
+    event.add('ctnhcore:echo_processor_mainframe', Text.translate('ctnh.circuit_echo_uev').darkAqua())
 
     event.add('gtceu:nan_certificate',Text.yellow('1.2.1版本毕业证明'))
 
