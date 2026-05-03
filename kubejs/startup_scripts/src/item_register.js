@@ -1,34 +1,5 @@
 Platform.getInfo('kubejs').name = 'Create: New Horizon'
 
-StartupEvents.registry("block", event => {
-    event.create('bronze_casing')
-
-    event.create('iridium_casing', 'basic')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("forge:mineable/wrench")
-        .requiresTool(true)
-        .textureAll("kubejs:block/iridium_casing")
-    event.create('mana_steel_tungstensteel_gearbox_casing', 'basic')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("forge:mineable/wrench")
-        .requiresTool(true)
-        .textureAll("kubejs:block/mana_steel_tungstensteel_gearbox_casing")
-    event.create('sculk_casing')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("creat:casing")
-        .requiresTool(true)
-
-})
-
 
 ItemEvents.modification(event => {
     event.modify('farmersdelight:rice', item => {
@@ -139,6 +110,18 @@ ItemEvents.modification(event => {
         //         0.5,
         //         'addition')
         // })
+    event.modify('ctnhcore:ender_light', item => {
+        item.setFoodProperties(food => {
+            food.hunger(20)
+            food.saturation(0.5)
+            food.meat(true)
+            food.alwaysEdible(true)
+            food.fastToEat(true)
+            food.effect('minecraft:haste', 20 * 1800, 0, 1)
+            food.effect('legendarysurvivaloverhaul:heat_immunity', 20 * 1800, 0, 1)
+            food.effect('legendarysurvivaloverhaul:cold_immunity', 20 * 1800, 0, 1)
+        })
+    })
     event.modify('twilightforest:fiery_helmet', item => {
         item.setArmorProtection(3)
     })
