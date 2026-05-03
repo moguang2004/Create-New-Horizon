@@ -1,118 +1,5 @@
 Platform.getInfo('kubejs').name = 'Create: New Horizon'
 
-StartupEvents.registry("item", event => {
-    event.create('double_blaze_cake').burnTime(30000).tooltip("可以吃").food(food => {
-        food.alwaysEdible(true)
-        food.effect("legendarysurvivaloverhaul:cold_immunity", 36000, 10, 1)
-    })
-    event.create('deep_diver_gear').tag('curios:belt')
-    event.create('thermometer_case')
-    event.create('high_quality_solid_fuel').burnTime(4800) //.burntime(16000)
-    event.create('unfinished_steel_mechanism')
-    event.create('metallurgical_catalyst')
-    event.create('platinum_metal_catalyst_shard1')
-    event.create('platinum_metal_catalyst_shard2')
-    event.create('stone_process_catalyst')
-    event.create('tallow').burnTime('1600')
-    let moreTiers = ['ulv', 'lv', 'mv', 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv', 'max']
-    for (let i = 0; i < 15; i++) {
-        event.create('general_circuit_' + moreTiers[i]).tag('gtceu:circuits/' + moreTiers[i]).tooltip(GTValues.VNF[i] + '级电路板')
-    }
-    event.create('crashed_rice')
-    event.create('space_fabric')
-    event.create('echo_processor').tag('gtceu:circuits/zpm')
-    event.create('echo_processor_assembly').tag('gtceu:circuits/uv')
-    event.create('echo_processor_computer').tag('gtceu:circuits/uhv')
-    event.create('echo_processor_mainframe').tag('gtceu:circuits/uev')
-    event.create('echo_circuit_board')
-    event.create('echo_printed_circuit_board')
-
-    event.create('circuit_board_m_one')
-    event.create('circuit_board_m_two')
-    event.create('circuit_board_m_three')
-    event.create('circuit_board_m_four')
-    event.create('rubber_powder')
-
-    event.create("yharim").tooltip('你必须§6爱护蜜蜂§r才能激发这个锭的真正力量，哦你已经爱过蜜蜂了')
-    event.create('strongly_interacting_neutron_refector').tooltip("§7硬度超越水滴")
-    event.create('biological_patch_transistor').tooltip('§a生物电子元件')
-    event.create('biological_patch_resistor').tooltip('§a生物电子元件')
-    event.create('biological_patch_capacitor').tooltip('§a生物电子元件')
-    event.create('biological_patch_diode').tooltip('§a生物电子元件')
-    event.create('biological_patch_inductor').tooltip('§a生物电子元件')
-    event.create('clgs_electrode')
-    event.create("thermotolerant_dish")
-    event.create("kubejs:clgs")
-    event.create("measurement_pv_cell")
-    event.create("pv_drone_research_1")
-    event.create("pv_drone_research_2")
-    event.create("pv_drone_research_3")
-    event.create("colorful_soc").tooltip("完美的色彩在此流动")
-    event.create('grout_dust')
-    event.create('heatproof_smelting_brick_dust')
-
-})
-StartupEvents.registry("item", event => {
-    event.create("scp_500_base", "basic").food(food => {
-        food.alwaysEdible(true)
-        food.effect("minecraft:regeneration", 999, 10, 1)
-        food.effect("minecraft:resistance", 999, 3, 1)
-        food.fastToEat(true)
-        food.eaten(ctx => {
-            Utils.server.runCommandSilent('title @s title {"text":"你在短时间内你将获得强大的恢复能力","color":"red"}');
-        })
-    })
-    event.create("scp_500", "basic").food(food => {
-        food.alwaysEdible(true)
-        food.effect("minecraft:regeneration", 999, 10, 1)
-        food.effect("minecraft:resistance", 999, 3, 1)
-        food.fastToEat(true)
-        food.eaten(ctx => {
-            Utils.server.runCommandSilent('medical_condition clear @p');
-            Utils.server.runCommandSilent('title @s title {"text":"你的所有疾病已被治愈","color":"green"}');
-            Utils.server.runCommandSilent('title @s subtitle {"text":"在短时间内你将获得强大的恢复能力","color":"red"}');
-        })
-    })
-    event.create("ark_of_homo", "pickaxe")
-        .speedBaseline(100.0)
-        .tier(9)
-        .attackDamageBaseline(1597.0)
-        .maxDamage(114514)
-        .displayName("§c鸿§e蒙§9方§a舟")
-        .rarity('rare')
-        .glow(true)
-
-    .tooltip("§m你的旅程的物理的顶点，拥有着能使homo分崩离析的力量§r\n§c左键进行一次五连斩，斩击以掷出剑刃结束。掷出的剑刃会跟随你的光标。在剑刃掷出时松开左键会释放爆炸剪击\n§r§e右键用剑刃向前方剪出剑刃。击中敌人时会进行招架，并使你短暂无敌你也可以用剑刃格挡弹幕，并短暂使其伤害造成的伤害减少160点。格挡后会获得15层充能，充能会强化普通攻击\n§9当处于强化状态时，按住上并点击右键会引起时空之中的大撕裂，并一次性释放所有充能。若释放的充能超过5层，保持按住上键将允许你冲过撕裂§r\n---------------\n以上均没有实现\n§a这里是工业包，所以其实他根本就是一把普通的镐子§r\n哈哈\nHave Fun!(NOT)")
-})
-StartupEvents.registry("block", event => {
-    event.create('bronze_casing')
-
-    event.create('iridium_casing', 'basic')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("forge:mineable/wrench")
-        .requiresTool(true)
-        .textureAll("kubejs:block/iridium_casing")
-    event.create('mana_steel_tungstensteel_gearbox_casing', 'basic')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("forge:mineable/wrench")
-        .requiresTool(true)
-        .textureAll("kubejs:block/mana_steel_tungstensteel_gearbox_casing")
-    event.create('sculk_casing')
-        .noValidSpawns(true)
-        .soundType("metal")
-        .mapColor("metal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("creat:casing")
-        .requiresTool(true)
-
-})
-
 
 ItemEvents.modification(event => {
     event.modify('farmersdelight:rice', item => {
@@ -223,6 +110,18 @@ ItemEvents.modification(event => {
         //         0.5,
         //         'addition')
         // })
+    event.modify('ctnhcore:ender_light', item => {
+        item.setFoodProperties(food => {
+            food.hunger(20)
+            food.saturation(0.5)
+            food.meat(true)
+            food.alwaysEdible(true)
+            food.fastToEat(true)
+            food.effect('minecraft:haste', 20 * 1800, 0, 1)
+            food.effect('legendarysurvivaloverhaul:heat_immunity', 20 * 1800, 0, 1)
+            food.effect('legendarysurvivaloverhaul:cold_immunity', 20 * 1800, 0, 1)
+        })
+    })
     event.modify('twilightforest:fiery_helmet', item => {
         item.setArmorProtection(3)
     })
