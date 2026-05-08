@@ -15,5 +15,5 @@
 		{ item: "gtceu:mv_super_tank", weight: 0.1f }
 		{ count: 2, item: "gtceu:stainless_steel_drum" }
 	]
-	title: "{ftbquests.loot_table.723892772024061161.title}"
+	title: "HV奖励"
 }

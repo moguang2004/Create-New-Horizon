@@ -17,7 +17,7 @@
 		{
 			dependencies: ["6D9003172EF921C9"]
 			id: "60D8E1B5B8777322"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest60D8E1B5B8777322.subtitle}"
+			subtitle: "你需要绝对天马行空的想象能力来使用它"
 			tasks: [{
 				id: "18EB3B6400D105EA"
 				item: "create:andesite_casing"
@@ -35,7 +35,7 @@
 			id: "6DB370790E927958"
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6DB370790E927958.subtitle}"
+			subtitle: "可以敲锻铁"
 			tasks: [{
 				id: "38BEFB810C42496A"
 				item: "create:mechanical_press"
@@ -47,7 +47,7 @@
 		{
 			dependencies: ["6DB370790E927958"]
 			id: "1E74645D87740E1B"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1E74645D87740E1B.subtitle}"
+			subtitle: "必须在盆里压。。？"
 			tasks: [{
 				id: "7F6521367459E191"
 				item: "gtceu:andesite_alloy_plate"
@@ -59,7 +59,7 @@
 		{
 			dependencies: ["6D9003172EF921C9"]
 			id: "32D9754803137E82"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest32D9754803137E82.subtitle}"
+			subtitle: "为什么不试试万能的女仆呢"
 			tasks: [{
 				id: "67F5B1C0219B671A"
 				item: "create:hand_crank"
@@ -70,7 +70,7 @@
 		}
 		{
 			dependencies: ["15AE530D8337DCEE"]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest5697D10ED6CE81C6.description1}"]
+			description: ["{最好用的应力源}"]
 			id: "5697D10ED6CE81C6"
 			rewards: [
 				{
@@ -86,7 +86,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest5697D10ED6CE81C6.subtitle}"
+			subtitle: "环保动力2号"
 			tasks: [{
 				id: "7381565C9306947F"
 				item: "create:windmill_bearing"
@@ -111,7 +111,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7E5199B7F22F5DED.subtitle}"
+			subtitle: "环保动力1号"
 			tasks: [{
 				id: "0652930EFB9D841B"
 				item: "create:water_wheel"
@@ -123,7 +123,7 @@
 		{
 			dependencies: ["6D9003172EF921C9"]
 			id: "543DF835C9FE39CC"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest543DF835C9FE39CC.subtitle}"
+			subtitle: "第一步"
 			tasks: [{
 				id: "30F4E261C4972ACC"
 				item: "create:basin"
@@ -162,11 +162,11 @@
 				"1E74645D87740E1B"
 				"44EC9226A2DC2E7A"
 			]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest5E5F4837CC1F047A.description1}"]
+			description: ["{也许你找不到金锭是从哪来的，仔细查看一下EMI吧！请查看&a矿物处理&r章节}"]
 			id: "5E5F4837CC1F047A"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest5E5F4837CC1F047A.subtitle}"
+			subtitle: "你的第一块没有电路的电路板"
 			tasks: [{
 				id: "222114435B2A13DE"
 				item: "ctpp:basic_mechanism"
@@ -180,7 +180,7 @@
 				"5E5F4837CC1F047A"
 				"2A633C681F979398"
 			]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest700219157D99E263.description1}"]
+			description: ["{    动力搅拌器+工作盆可执行工作台的任意无序合成配方，这一特性仍然存在，但为了便于从EMI中检索信息，相关页面在EMI中被隐藏了。}"]
 			id: "700219157D99E263"
 			rewards: [{
 				count: 32
@@ -190,7 +190,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest700219157D99E263.subtitle}"
+			subtitle: "送你一些铅粉，虽然不一定有用"
 			tasks: [{
 				id: "10269625F0B773D1"
 				item: "create:mechanical_mixer"
@@ -208,7 +208,7 @@
 				table_id: 6833002641825410426L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest788E6B0608C95DA7.subtitle}"
+			subtitle: "试着去开辟农场？"
 			tasks: [{
 				id: "1FF3F5EBC8412F3E"
 				item: "create:portable_storage_interface"
@@ -253,7 +253,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6168741C8B4F4F31.subtitle}"
+			subtitle: "流体时代！！！"
 			tasks: [{
 				id: "4EBB397405BF419A"
 				item: "create:copper_casing"
@@ -268,7 +268,7 @@
 				"3509D7B8E361DF68"
 				"0524278F58E281E3"
 			]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest2B430B944944D2C1.description1}"]
+			description: ["{    在熔铸炉中使用熔铸搅拌器制作液态黄铜，然后浇筑冷却}"]
 			id: "2B430B944944D2C1"
 			rewards: [
 				{
@@ -285,7 +285,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest2B430B944944D2C1.subtitle}"
+			subtitle: "恭喜你进入了黄铜时代~"
 			tasks: [
 				{
 					count: 16L
@@ -299,7 +299,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest2B430B944944D2C1.title}"
+			title: "黄铜时代"
 			x: 11.0d
 			y: 9.5d
 		}
@@ -312,7 +312,7 @@
 				table_id: 6833002641825410426L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest5BB3CF765E9C93D4.subtitle}"
+			subtitle: "比研钵更好"
 			tasks: [{
 				id: "769D434A8C5E8C0E"
 				item: "create:millstone"
@@ -324,8 +324,8 @@
 		{
 			dependencies: ["2460426DE77EF0F4"]
 			description: [
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest25CADEFA5DCB0244.description1}"
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest25CADEFA5DCB0244.description2}"
+				"{对焦炉按W开始思索}"
+				"{终端shift右键多方块结构的主方块可以自动搭建}"
 			]
 			id: "25CADEFA5DCB0244"
 			rewards: [
@@ -351,7 +351,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest25CADEFA5DCB0244.subtitle}"
+			subtitle: "没有杂酚油，你怎么推科技？"
 			tasks: [
 				{
 					id: "42C2FEA68A9BF411"
@@ -377,7 +377,7 @@
 		{
 			dependencies: ["25CADEFA5DCB0244"]
 			id: "125F3CADBBD2441A"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest125F3CADBBD2441A.subtitle}"
+			subtitle: "看看煤炭吧，但是你有树场的话木炭也不错？"
 			tasks: [{
 				id: "63644489206A8ECA"
 				item: "minecraft:charcoal"
@@ -389,7 +389,7 @@
 		{
 			dependencies: ["25CADEFA5DCB0244"]
 			id: "6FDDD78D3F1CD965"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6FDDD78D3F1CD965.subtitle}"
+			subtitle: "前期最好的固体燃料"
 			tasks: [{
 				id: "4CB81B2B2117E68E"
 				item: "gtceu:coke_gem"
@@ -401,7 +401,7 @@
 		{
 			dependencies: ["25CADEFA5DCB0244"]
 			id: "2A633C681F979398"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest2A633C681F979398.subtitle}"
+			subtitle: "前期最好的液体燃料，建议存多点"
 			tasks: [{
 				id: "29F469C28E82D4A2"
 				item: "gtceu:creosote_bucket"
@@ -413,7 +413,7 @@
 		{
 			dependencies: ["2A633C681F979398"]
 			id: "7E591C0E7278D12F"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7E591C0E7278D12F.subtitle}"
+			subtitle: "高级的木板"
 			tasks: [{
 				id: "4BBA257738FF1D31"
 				item: "gtceu:treated_wood_planks"
@@ -430,7 +430,7 @@
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest3B30F262729DB33.subtitle}"
+			subtitle: "拿它右键烈焰人"
 			tasks: [{
 				id: "2DC908B8278B74CD"
 				item: "create:empty_blaze_burner"
@@ -444,7 +444,7 @@
 				"03B30F262729DB33"
 				"29EDBE0D432B1D62"
 			]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest3235EC33AE70B9A0.description1}"]
+			description: ["{石油、乙醇、粗制生物柴油、种子油可供烈焰人燃烧室直接燃烧}"]
 			id: "3235EC33AE70B9A0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -452,7 +452,7 @@
 				table_id: 6833002641825410426L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest3235EC33AE70B9A0.subtitle}"
+			subtitle: "你的第一次剥削"
 			tasks: [{
 				id: "236137F11A4DC73E"
 				item: "create:blaze_burner"
@@ -464,7 +464,7 @@
 		{
 			dependencies: ["7E591C0E7278D12F"]
 			id: "4ABB43D13EBB512D"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest4ABB43D13EBB512D.subtitle}"
+			subtitle: "不需要动力的产水"
 			tasks: [
 				{
 					id: "178BF7B8042CF8C5"
@@ -507,12 +507,12 @@
 			y: 7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest29EDBE0D432B1D62.description1}"]
+			description: ["{    与雪傀儡类似，在竖直放置的两个铁栏杆上方放置南瓜头（注意：不是雕刻南瓜，是恶魔南瓜头）}"]
 			icon: "create:blaze_burner"
 			id: "29EDBE0D432B1D62"
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest29EDBE0D432B1D62.subtitle}"
+			subtitle: "这是不进入下界获得烈焰人的唯一办法"
 			tasks: [
 				{
 					id: "5DB7481C8CF586CC"
@@ -526,7 +526,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest29EDBE0D432B1D62.title}"
+			title: "烈焰人召唤术"
 			x: 2.0d
 			y: 3.0d
 		}
@@ -541,7 +541,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6D9003172EF921C9.subtitle}"
+			subtitle: "第一块合金"
 			tasks: [{
 				id: "2432B1FD7CD5EFE3"
 				item: "gtceu:andesite_alloy_ingot"
@@ -553,9 +553,9 @@
 		{
 			dependencies: ["33452CB4AAC5EE5F"]
 			description: [
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest62C8A0B668137AD3.description1}"
+				"{       对控制器（主方块）按U即可查看多方块结构预览界面。左键拖动可旋转视角，右键拖动可平移视角，滚轮可进行缩放。点击右侧按键可切换到逐层预览模式。点击结构中任意方块，界面左上角将会可显示该位置所有可用方块（下方方块列表仅供参考，其中的仓室可替换）。}"
 				""
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest62C8A0B668137AD3.description2}"
+				"{应力产出为200w，需要32个LV应力输出仓以输出全部应力。}"
 			]
 			id: "62C8A0B668137AD3"
 			rewards: [
@@ -590,7 +590,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest62C8A0B668137AD3.subtitle}"
+			subtitle: "有足够的材料再造，但是可以给你带来巨量的应力"
 			tasks: [{
 				id: "73BCB4C58FAE733A"
 				item: "ctpp:big_dam"
@@ -618,7 +618,7 @@
 				"3CEE67AB21E05293"
 				"1AC8AFD294F719D4"
 			]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest14FF729916CDD0DA.description1}"]
+			description: ["{不爬线的话，蒸汽也就取暖用了}"]
 			id: "14FF729916CDD0DA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -626,7 +626,7 @@
 				table_id: 3492588397256202932L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest14FF729916CDD0DA.subtitle}"
+			subtitle: "输入蒸汽即可供暖！"
 			tasks: [{
 				id: "6F0BB0D33A2273A7"
 				item: "ctnhcore:underfloor_heating_system"
@@ -694,7 +694,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest4202B676480913ED.subtitle}"
+			subtitle: "神之手！"
 			tasks: [{
 				id: "1853003D8D148DE4"
 				item: "create:deployer"
@@ -706,7 +706,7 @@
 		{
 			dependencies: ["39C2B774D392AA8F"]
 			id: "3CEE67AB21E05293"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest3CEE67AB21E05293.subtitle}"
+			subtitle: "野外有砖矿脉吗？"
 			tasks: [{
 				id: "0CE0AD27512BAFBB"
 				item: "minecraft:bricks"
@@ -725,7 +725,7 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest39C2B774D392AA8F.subtitle}"
+			subtitle: "挖空所有黏土，垄断所有人的科技！"
 			tasks: [
 				{
 					id: "54C66582F6EC803D"
@@ -738,7 +738,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest39C2B774D392AA8F.title}"
+			title: "制砖"
 			x: 12.5d
 			y: 11.5d
 		}
@@ -759,7 +759,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6CDD36A3C742B7F2.subtitle}"
+			subtitle: "需要装配线制作的精密部件"
 			tasks: [{
 				id: "43CD7225D0D21331"
 				item: "create:precision_mechanism"
@@ -773,9 +773,9 @@
 				"11EDB5B9EB1B6554"
 				"47682BAE195B18E5"
 			]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest2A0DB69B5E67D674.description1}"]
+			description: ["{来自毒化洞穴，那是粗心人的致命之地}"]
 			id: "2A0DB69B5E67D674"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest2A0DB69B5E67D674.subtitle}"
+			subtitle: "看似是废液，也许比你想象中更有用......"
 			tasks: [{
 				id: "41835AF728140323"
 				item: "alexscaves:acid_bucket"
@@ -786,7 +786,7 @@
 		}
 		{
 			dependencies: ["6CDD36A3C742B7F2"]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest106DC15191737D98.description1}"]
+			description: ["{    动力合成器可执行工作台的任意有序合成配方，这一特性仍然存在，但为了便于从EMI中检索信息，相关页面在EMI中被隐藏了。}"]
 			id: "106DC15191737D98"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -795,7 +795,7 @@
 				type: "random"
 			}]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest106DC15191737D98.subtitle}"
+			subtitle: "大型拓展工作台"
 			tasks: [{
 				id: "2A5BB84290617FC1"
 				item: "create:mechanical_crafter"
@@ -806,7 +806,7 @@
 		}
 		{
 			dependencies: ["106DC15191737D98"]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest4EAE423454479E42.description1}"]
+			description: ["{&4并非所有的矿物都可以粉碎&r，别怪我没提醒你！}"]
 			id: "4EAE423454479E42"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -814,7 +814,7 @@
 				table_id: 6665810253403300519L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest4EAE423454479E42.subtitle}"
+			subtitle: "终于......"
 			tasks: [{
 				id: "559D90EBE8B478FD"
 				item: "create:crushing_wheel"
@@ -826,7 +826,7 @@
 		{
 			dependencies: ["4EAE423454479E42"]
 			id: "3035A92235772F73"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest3035A92235772F73.subtitle}"
+			subtitle: "小幅增产"
 			tasks: [{
 				count: 8L
 				id: "1D125E85F36778B1"
@@ -837,17 +837,17 @@
 						value: "forge:crushed_ores"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest3035A92235772F73.task.2094840706088007857.title}"
+				title: "任何 #forge:crushed_ores"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest3035A92235772F73.title}"
+			title: "粉碎矿物"
 			x: 15.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["3035A92235772F73"]
 			id: "1477D22EEBD4B677"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1477D22EEBD4B677.subtitle}"
+			subtitle: "再次小幅增产"
 			tasks: [{
 				count: 8L
 				id: "229810D7080DDA1A"
@@ -858,10 +858,10 @@
 						value: "forge:impure_dusts"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest1477D22EEBD4B677.task.2492760909488708122.title}"
+				title: "任何 #forge:impure_dusts"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest1477D22EEBD4B677.title}"
+			title: "再次粉碎的矿物"
 			x: 15.5d
 			y: 15.0d
 		}
@@ -880,7 +880,7 @@
 						value: "forge:dusts"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest76D19F31C4BFF2CE.task.8154180158064847273.title}"
+				title: "任何 #forge:dusts"
 				type: "item"
 			}]
 			x: 16.5d
@@ -902,16 +902,16 @@
 						value: "forge:purified_ores"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest3AE55A55A5EBBA5A.task.1750306743759129396.title}"
+				title: "任何 #forge:purified_ores"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest3AE55A55A5EBBA5A.title}"
+			title: "洗净的碎矿"
 			x: 17.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["106DC15191737D98"]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest2D25ECAC3AC7C22C.description1}"]
+			description: ["{鼓风机冶炼相当于无限燃料、无限并行的熔炉}"]
 			id: "2D25ECAC3AC7C22C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -919,7 +919,7 @@
 				table_id: 6665810253403300519L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest2D25ECAC3AC7C22C.subtitle}"
+			subtitle: "神"
 			tasks: [{
 				id: "5CE1B7D9315320A8"
 				item: "create:encased_fan"
@@ -937,7 +937,7 @@
 				table_id: 6665810253403300519L
 				type: "choice"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest44EDCCEAD0112C8C.subtitle}"
+			subtitle: "可以拿来整绿宝石（逃课筛选机）"
 			tasks: [{
 				id: "07995972E46CC2CF"
 				item: {
@@ -947,17 +947,17 @@
 						value: "forge:flawless_gems"
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest44EDCCEAD0112C8C.task.547567179695702735.title}"
+				title: "任何 #forge:flawless_gems"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest44EDCCEAD0112C8C.title}"
+			title: "宝石矿物处理"
 			x: 17.5d
 			y: 15.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest31BA6652FDB500C3.description1}"
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest31BA6652FDB500C3.description2}"
+				"{什么，没指南针？}"
+				"{去看上面大千世界章节}"
 			]
 			id: "31BA6652FDB500C3"
 			rewards: [
@@ -978,7 +978,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest31BA6652FDB500C3.subtitle}"
+			subtitle: "卷轴别使用，合成地图找洞穴"
 			tasks: [{
 				id: "453EA1B3E367C085"
 				item: {
@@ -988,13 +988,13 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest31BA6652FDB500C3.title}"
+			title: "前往毒穴"
 			x: 8.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["1BDD550BE6C77C28"]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest37BD0BB07046E310.description1}"]
+			description: ["{方解石粉可以通过挖方解石矿石获得，也可以直接研磨方解石。}"]
 			id: "37BD0BB07046E310"
 			tasks: [{
 				id: "055B89C3A9C6A200"
@@ -1013,7 +1013,7 @@
 				item: "gtceu:firebricks"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest172F657F4BAB7A.subtitle}"
+			subtitle: "送你点！"
 			tasks: [{
 				count: 32L
 				id: "57967D330805BEBE"
@@ -1026,7 +1026,7 @@
 		{
 			dependencies: ["6FDDD78D3F1CD965"]
 			id: "5A0A0CEC3053CC8E"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest5A0A0CEC3053CC8E.subtitle}"
+			subtitle: "碳刷需要它,钢也需要"
 			tasks: [{
 				id: "311C45CE21038447"
 				item: "gtceu:coke_dust"
@@ -1064,7 +1064,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1162E347E7C00175.subtitle}"
+			subtitle: "什么年代了，还在用传统土高炉"
 			tasks: [{
 				id: "6436E6490E808D9A"
 				item: "gtceu:steel_ingot"
@@ -1082,7 +1082,7 @@
 				table_id: 6833002641825410426L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest713CA44106751CCA.subtitle}"
+			subtitle: "解放双手，不是吗？"
 			tasks: [{
 				id: "5D1BAF9CE51E4E1A"
 				item: "createmetallurgy:mechanical_belt_grinder"
@@ -1105,9 +1105,9 @@
 		}
 		{
 			dependencies: ["06C3AF2D5D8F694A"]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest2BCE6D5336CADE73.description1}"]
+			description: ["{毕竟用的盆}"]
 			id: "2BCE6D5336CADE73"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest2BCE6D5336CADE73.subtitle}"
+			subtitle: "只能离心固体材料"
 			tasks: [{
 				id: "3C9A794EF37BA853"
 				item: "vintageimprovements:centrifuge"
@@ -1119,7 +1119,7 @@
 		{
 			dependencies: ["06C3AF2D5D8F694A"]
 			id: "01CC0041CF5F9033"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1CC0041CF5F9033.subtitle}"
+			subtitle: "橡胶树叶可以1：1变成树脂"
 			tasks: [{
 				id: "7B6EF3315A316D5F"
 				item: "vintageimprovements:vibrating_table"
@@ -1137,7 +1137,7 @@
 				table_id: 6665810253403300519L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest5B9EBE5F72944F67.subtitle}"
+			subtitle: "代替你的螺丝刀和锉刀"
 			tasks: [{
 				id: "38330AE664405CCF"
 				item: "vintageimprovements:lathe"
@@ -1152,7 +1152,7 @@
 				"586FCED7C02EE5D7"
 			]
 			id: "1BDD550BE6C77C28"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1BDD550BE6C77C28.subtitle}"
+			subtitle: "压缩耐火砖"
 			tasks: [{
 				id: "0C354596F30588B4"
 				item: "vintageimprovements:vacuum_chamber"
@@ -1189,7 +1189,7 @@
 		}
 		{
 			id: "497999198D773D40"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest497999198D773D40.subtitle}"
+			subtitle: "当然你可以砍树，但我更希望你做上面那个机器"
 			tasks: [{
 				id: "13D66DE408F1EA39"
 				item: "gtceu:sticky_resin"
@@ -1205,7 +1205,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "351809CC7F8F9D7B"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest351809CC7F8F9D7B.subtitle}"
+			subtitle: "去找毒化洞穴的晶体硫，或者离心地狱岩粉"
 			tasks: [{
 				id: "2A5F413D7ECC1951"
 				item: "kubejs:rubber_powder"
@@ -1216,8 +1216,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest3509D7B8E361DF68.description1}"
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest3509D7B8E361DF68.description2}"
+				"{    将浇筑口贴在熔铸盆或工业流体储罐上，下方放置 铸造台+模具 或 铸造盆，即可将熔融金属浇筑成锭或块。}"
+				"{    当然，你也可以使用其他流体传输手段（例如机械动力的动力泵、流体管道，eio的流体导管）}"
 			]
 			id: "3509D7B8E361DF68"
 			rewards: [
@@ -1234,7 +1234,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest3509D7B8E361DF68.subtitle}"
+			subtitle: "似曾相识？"
 			tasks: [
 				{
 					id: "431888D96A509CFF"
@@ -1257,7 +1257,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest3509D7B8E361DF68.title}"
+			title: "浇筑"
 			x: 11.0d
 			y: 11.5d
 		}
@@ -1277,7 +1277,7 @@
 			dependencies: ["7E5199B7F22F5DED"]
 			id: "33452CB4AAC5EE5F"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest33452CB4AAC5EE5F.subtitle}"
+			subtitle: "大型水车在本整合包进行了增强，可以试试"
 			tasks: [{
 				id: "60BA3C41665B633E"
 				item: "create:large_water_wheel"
@@ -1294,9 +1294,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest105D45F86A0B3A55.description1}"
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest105D45F86A0B3A55.description2}"
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest105D45F86A0B3A55.description3}"
+				"{    通过思索查看具体用法。}"
+				"{    注意：高温冶炼配方对冶炼炉的&6尺寸&r和&6温度&r有要求，例如冶炼铁方坯需要至少25Tu和至少4x4的冶炼炉（建议建造5x5的），可以在EMI页面看到（将鼠标移到烈焰人燃烧室上显示温度需求）。}"
+				"{    每个加热状态的燃烧室可以提供1Tu，超级加热则可提供2Tu。佩戴工程师护目镜可以查看冶炼炉温度和冶炼进度。}"
 			]
 			id: "105D45F86A0B3A55"
 			rewards: [
@@ -1321,14 +1321,14 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest105D45F86A0B3A55.subtitle}"
+			subtitle: "小炉子，你有几分它的影子"
 			tasks: [{
 				count: 8L
 				id: "683C307DC2DF01E0"
 				item: "createmetallurgy:industrial_crucible"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest105D45F86A0B3A55.title}"
+			title: "多方块冶炼炉？"
 			x: 5.0d
 			y: 18.5d
 		}
@@ -1367,7 +1367,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest4CDCD4A5CB57415D.title}"
+			title: "冶金学"
 			x: 8.0d
 			y: 9.5d
 		}
@@ -1387,7 +1387,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7E16AD4CB7F6CDE6.subtitle}"
+			subtitle: "什么 石英可以这样来？"
 			tasks: [
 				{
 					id: "43A1B3E5A1DBDF40"
@@ -1400,7 +1400,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest7E16AD4CB7F6CDE6.title}"
+			title: "玫瑰石英原料"
 			x: 8.0d
 			y: 6.0d
 		}
@@ -1427,7 +1427,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest789BB6304FC5B584.subtitle}"
+			subtitle: "无限水的忠实拥护者"
 			tasks: [{
 				id: "586FCED7C02EE5D7"
 				item: "create:mechanical_pump"
@@ -1443,7 +1443,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "41D41ED992083C68"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest41D41ED992083C68.subtitle}"
+			subtitle: "毕竟炼钢需要更好的料"
 			tasks: [{
 				id: "3C2DAFC2C873DAF8"
 				item: "ctnhcore:refined_iron_ingot"
@@ -1464,7 +1464,7 @@
 				table_id: 3492588397256202932L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest37C84B86D958F123.subtitle}"
+			subtitle: "更好的获得铁方坯的手段，不过要钢"
 			tasks: [{
 				id: "49BF6627F311BAC2"
 				item: "ctnhcore:sintering_kiln"
@@ -1476,7 +1476,7 @@
 		{
 			dependencies: ["5F7EAD64388EBAD2"]
 			id: "445E080E7655B3B1"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest445E080E7655B3B1.subtitle}"
+			subtitle: "待处理的钢粉"
 			tasks: [{
 				id: "483C5389C8D0A271"
 				item: "gtceu:steel_precursor_dust"
@@ -1494,7 +1494,7 @@
 				item: "gtceu:wrought_iron_dust"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest5F7EAD64388EBAD2.subtitle}"
+			subtitle: "下一步是什么呢？炼钢！"
 			tasks: [{
 				id: "02D9926E69D97D76"
 				item: "gtceu:wrought_iron_dust"
@@ -1514,7 +1514,7 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest525ACD2BD801E168.subtitle}"
+			subtitle: "锻铁锭再也不是由粒变锭了！"
 			tasks: [
 				{
 					id: "1416E8E3A9EF85CC"
@@ -1527,14 +1527,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest525ACD2BD801E168.title}"
+			title: "关于锻铁锭"
 			x: 3.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["4EB8D7E72D302C75"]
 			id: "7F952CB3B0AF44C0"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7F952CB3B0AF44C0.subtitle}"
+			subtitle: "其实EIO的管道也挺好的"
 			tasks: [{
 				id: "6AD63D8CCB3D0022"
 				item: "enderio:fluid_conduit"
@@ -1548,14 +1548,14 @@
 			id: "15AE530D8337DCEE"
 			tasks: [{
 				id: "28E9BFBBE34D65CE"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest15AE530D8337DCEE.task.2948098244783990222.title}"
+				title: "基础构件能解锁的Create"
 				type: "checkmark"
 			}]
 			x: 3.0d
 			y: 11.5d
 		}
 		{
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest44EC9226A2DC2E7A.description1}"]
+			description: ["{    之后会有更加高效的提炼方法。}"]
 			id: "44EC9226A2DC2E7A"
 			rewards: [{
 				count: 64
@@ -1563,7 +1563,7 @@
 				item: "minecraft:gold_nugget"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest44EC9226A2DC2E7A.subtitle}"
+			subtitle: "放进熔炉烧成金粒"
 			tasks: [{
 				id: "5CBEF89E5BC6C6A7"
 				item: "gtceu:precious_alloy_ingot"
@@ -1616,16 +1616,16 @@
 				"12316D2A6DC56654"
 			]
 			description: [
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest1E11A492F4576DBA.description1}"
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest1E11A492F4576DBA.description2}"
+				"{你是否发现，传统的地狱门无法使用}"
+				"{你只能使用GT的方式进入下界，哦，别忘了回来也是}"
 				""
-				"{ftbquests.chapter.4408EF6F9E2E1624.quest1E11A492F4576DBA.description3}"
+				"{怎么开启传送门？看一下EMI里传送门控制器的用途吧}"
 			]
 			icon: "minecraft:netherrack"
 			id: "1E11A492F4576DBA"
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1E11A492F4576DBA.subtitle}"
+			subtitle: "前往下界的方式"
 			tasks: [
 				{
 					id: "7B0A7100342AF78F"
@@ -1656,7 +1656,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest1E11A492F4576DBA.title}"
+			title: "下界"
 			x: 16.5d
 			y: 16.5d
 		}
@@ -1676,13 +1676,13 @@
 		}
 		{
 			dependencies: ["31BA6652FDB500C3"]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest51CB44ACDC00146E.description1}"]
+			description: ["{    前往毒化洞穴群系以完成该任务}"]
 			id: "51CB44ACDC00146E"
 			tasks: [{
 				biome: "alexscaves:toxic_caves"
 				icon: "alexscaves:nuclear_bomb"
 				id: "47682BAE195B18E5"
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest51CB44ACDC00146E.task.5145410601020496101.title}"
+				title: "探索毒化洞穴"
 				type: "biome"
 			}]
 			x: 8.0d
@@ -1711,15 +1711,15 @@
 			y: 16.5d
 		}
 		{
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest1AC8AFD294F719D4.description1}"]
+			description: ["{    在本整合包中，格雷科技的蒸汽时代被机械动力及其附属完全取代。但目前蒸汽机器的制作方法并没有被移除，或许你可以制作几台来一睹蒸汽时代的荣光。}"]
 			id: "1AC8AFD294F719D4"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest1AC8AFD294F719D4.subtitle}"
+			subtitle: "消失的蒸汽时代"
 			tasks: [{
 				id: "784D5A3F21BFF27C"
 				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest1AC8AFD294F719D4.title}"
+			title: "我蒸汽呢？"
 			x: 12.5d
 			y: 17.5d
 		}
@@ -1727,7 +1727,7 @@
 			dependencies: ["07D8E36B38808E28"]
 			dependency_requirement: "one_started"
 			id: "06C36A1995887667"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest6C36A1995887667.subtitle}"
+			subtitle: "路边也许能捡到？"
 			tasks: [{
 				id: "3F8B3F682848B469"
 				item: "minecraft:compass"
@@ -1740,7 +1740,7 @@
 			dependencies: ["5A66E5F0C90F7A67"]
 			id: "07D8E36B38808E28"
 			optional: true
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest7D8E36B38808E28.subtitle}"
+			subtitle: "通过磁场洞穴中的青钕和赤钕，或者是植物魔法的磁化透镜磁化获得"
 			tasks: [{
 				id: "220D413017F9AF0B"
 				item: "gtceu:magnetic_iron_bolt"
@@ -1752,7 +1752,7 @@
 		{
 			dependencies: ["525ACD2BD801E168"]
 			id: "79BE8625F8D33E1C"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest79BE8625F8D33E1C.subtitle}"
+			subtitle: "你需要它为你的烧结窑提供应力"
 			tasks: [{
 				id: "188E009492795DD6"
 				item: "ctpp:ulv_kinetic_input_box"
@@ -1785,18 +1785,18 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.4408EF6F9E2E1624.quest5A66E5F0C90F7A67.task.322819201004688646.title}"
+				title: "磁小轨"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.4408EF6F9E2E1624.quest5A66E5F0C90F7A67.title}"
+			title: "磁，很神奇吧"
 			x: 2.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["60D8E1B5B8777322"]
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest5E467907883A5FD7.description1}"]
+			description: ["{                                  真的}"]
 			id: "5E467907883A5FD7"
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest5E467907883A5FD7.subtitle}"
+			subtitle: "它很好用"
 			tasks: [{
 				id: "6BE0DDC09F2CF469"
 				item: "create:crafting_blueprint"
@@ -1806,7 +1806,7 @@
 			y: 11.5d
 		}
 		{
-			description: ["{ftbquests.chapter.4408EF6F9E2E1624.quest18D08FB7B4BD3F23.description1}"]
+			description: ["{        你太能憋了}"]
 			id: "18D08FB7B4BD3F23"
 			invisible: true
 			rewards: [{
@@ -1815,7 +1815,7 @@
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest18D08FB7B4BD3F23.subtitle}"
+			subtitle: "速通路线？"
 			tasks: [{
 				id: "7105A16D18303022"
 				item: "ctnhcore:industrial_primitive_blast_furnace"
@@ -1825,5 +1825,5 @@
 			y: 17.5d
 		}
 	]
-	title: "{ftbquests.chapter.4408EF6F9E2E1624.title}"
+	title: "齿轮力量"
 }

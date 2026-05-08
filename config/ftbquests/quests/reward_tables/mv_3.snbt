@@ -16,5 +16,5 @@
 		{ item: "gtceu:lv_super_tank", weight: 0.1f }
 		{ count: 2, item: "gtceu:aluminium_drum", weight: 0.5f }
 	]
-	title: "{ftbquests.loot_table.5863108397808417557.title}"
+	title: "MV奖励"
 }

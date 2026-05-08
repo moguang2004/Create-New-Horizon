@@ -29,8 +29,8 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"{ftbquests.chapter.too_many_items.quest2BA98C183C50C7B9.description1}"
-			"{ftbquests.chapter.too_many_items.quest2BA98C183C50C7B9.description2}"
+			"{  由于这个整合包的物品种类非常多，你需要妥善管理你的库存（包括但不限于各种工具、各种矿物、战利品以及路边捡到的不知道有没有的小垃圾......）}"
+			"{  本章节将介绍各种存储容器以及库存管理方式，涵盖各个阶段。}"
 		]
 		id: "2BA98C183C50C7B9"
 		rewards: [{
@@ -38,15 +38,15 @@
 			item: "minecraft:chest"
 			type: "item"
 		}]
-		subtitle: "{ftbquests.chapter.too_many_items.quest2BA98C183C50C7B9.subtitle}"
+		subtitle: "别再抓药了"
 		tasks: [{
 			id: "310BFB18DB3EA991"
-			title: "{ftbquests.chapter.too_many_items.quest2BA98C183C50C7B9.task.3534194416778389905.title}"
+			title: "抓药"
 			type: "checkmark"
 		}]
-		title: "{ftbquests.chapter.too_many_items.quest2BA98C183C50C7B9.title}"
+		title: "存储的艺术"
 		x: -3.5d
 		y: 0.0d
 	}]
-	title: "{ftbquests.chapter.too_many_items.title}"
+	title: "存储的艺术"
 }

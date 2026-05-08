@@ -84,7 +84,7 @@
 			id: "07D0FD2AC4C767B2"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.zpm.quest7D0FD2AC4C767B2.subtitle}"
+			subtitle: "我好想逃~"
 			tasks: [{
 				id: "6B9EF7A18ADE73D7"
 				item: "gtceu:zpm_machine_hull"
@@ -126,7 +126,7 @@
 			]
 			id: "5B882B9AFD650138"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.zpm.quest5B882B9AFD650138.subtitle}"
+			subtitle: "你将面对的是ZPM四巨头，你畏惧了吗"
 			tasks: [{
 				id: "3DAF14109B87DA6F"
 				item: "gtceu:zpm_energy_output_hatch"
@@ -189,10 +189,10 @@
 			id: "173C1ED446EF4D39"
 			tasks: [{
 				id: "413A9E1E8D6A813B"
-				title: "{ftbquests.chapter.zpm.quest173C1ED446EF4D39.task.4700243015173308731.title}"
+				title: "更多的等离子"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.zpm.quest173C1ED446EF4D39.title}"
+			title: "新物质和新等离子"
 			x: 21.5d
 			y: 1.5d
 		}
@@ -215,7 +215,7 @@
 				item: "gtceu:oxygen_plasma_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.zpm.quest7D71F6FD70EBC323.title}"
+			title: "更好的等离子"
 			x: 21.0d
 			y: 0.5d
 		}
@@ -227,7 +227,7 @@
 				item: "gtceu:nitrogen_plasma_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.zpm.quest3EBCBE6CCD91894E.title}"
+			title: "更好的等离子"
 			x: 22.0d
 			y: 0.5d
 		}
@@ -247,7 +247,7 @@
 			id: "7FD9B0E41358497D"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.zpm.quest7FD9B0E41358497D.subtitle}"
+			subtitle: "UV的主要材料"
 			tasks: [{
 				id: "2AE6E9434C0E0615"
 				item: "gtceu:darmstadtium_ingot"
@@ -266,7 +266,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.zpm.quest7D7EEC84B88C3B71.subtitle}"
+			subtitle: "更好的发电机，记得烧硅岩基燃料，其他基燃料非常弱"
 			tasks: [{
 				id: "5DE0B367ED3325C4"
 				item: "ctnhcore:large_naquadah_reactor"
@@ -289,7 +289,7 @@
 		{
 			dependencies: ["7D4DBB785B16A377"]
 			id: "43F6AA3B97042202"
-			subtitle: "{ftbquests.chapter.zpm.quest43F6AA3B97042202.subtitle}"
+			subtitle: "直接制作晶体处理器"
 			tasks: [{
 				id: "1E3E6CFB80E1BDC6"
 				item: "gtceu:crystal_soc"
@@ -308,7 +308,7 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.zpm.quest2498090AADF79896.subtitle}"
+			subtitle: "见证等离子燃料的潜力！"
 			tasks: [{
 				id: "5AFB0CE08C45D50A"
 				item: "ctnhcore:hyper_plasma_turbine"
@@ -339,7 +339,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.zpm.quest46922EE3F296BDCF.subtitle}"
+			subtitle: "who r u"
 			tasks: [{
 				id: "24B87356C55140CC"
 				item: "ctnhcore:ultimate_combustion_engine"
@@ -350,15 +350,15 @@
 		}
 		{
 			dependencies: ["46922EE3F296BDCF"]
-			description: ["{ftbquests.chapter.zpm.quest13BE90ED71F011F0.description1}"]
+			description: ["{但这一切值得吗？}"]
 			id: "13BE90ED71F011F0"
-			subtitle: "{ftbquests.chapter.zpm.quest13BE90ED71F011F0.subtitle}"
+			subtitle: "相当于100倍高辛烷的燃值"
 			tasks: [{
 				id: "3301B6C77073AF57"
 				item: "gtceu:nq_end_gasoline_bucket"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.zpm.quest13BE90ED71F011F0.title}"
+			title: "在燃油的终末"
 			x: 9.5d
 			y: 4.5d
 		}
@@ -367,7 +367,7 @@
 				"2FD33C4009211037"
 				"6103104855B728EE"
 			]
-			description: ["{ftbquests.chapter.zpm.quest31A773AB4898B8F8.description1}"]
+			description: ["{如果你发现你因为算力不够且没法做高级计算组件而卡死，你就要看看你的冷却有没有升级和你的算策略是不是最优的}"]
 			id: "31A773AB4898B8F8"
 			tasks: [{
 				id: "7EF9D64A02F23501"
@@ -380,9 +380,9 @@
 		{
 			dependencies: ["008A90953EEF0008"]
 			description: [
-				"{ftbquests.chapter.zpm.quest56C88CA114314593.description1}"
+				"{把数据球和要扫描的东西放进物品支架里}"
 				""
-				"{ftbquests.chapter.zpm.quest56C88CA114314593.description2}"
+				"{注意物品支架的朝向哦}"
 			]
 			id: "56C88CA114314593"
 			rewards: [{
@@ -412,9 +412,9 @@
 		}
 		{
 			dependencies: ["5BD26F0325768EED"]
-			description: ["{ftbquests.chapter.zpm.quest50A557051BF8A461.description1}"]
+			description: ["{    获得&5超级&r数据模型的唯一方法}"]
 			id: "50A557051BF8A461"
-			subtitle: "{ftbquests.chapter.zpm.quest50A557051BF8A461.subtitle}"
+			subtitle: "观测实体"
 			tasks: [{
 				id: "681C0CC7AEF7F5EC"
 				item: "ctnhbio:hostile_observer"
@@ -440,7 +440,7 @@
 				"2229C60AFC5A51B3"
 			]
 			id: "29CB100F7A86186F"
-			subtitle: "{ftbquests.chapter.zpm.quest29CB100F7A86186F.subtitle}"
+			subtitle: "更加智能"
 			tasks: [{
 				id: "25834B4EF9069798"
 				item: "ctnhbio:advanced_neural_model_accessor"
@@ -465,9 +465,9 @@
 			y: 9.5d
 		}
 		{
-			description: ["{ftbquests.chapter.zpm.quest7AC1C9575ED0ECBF.description1}"]
+			description: ["{    这里本来应该有一些关于GT原版生物线、生产干细胞的任务，但是在任务重置的过程中丢失了，不过都到这个阶段了对着EMI自己看应该也不难。}"]
 			id: "7AC1C9575ED0ECBF"
-			subtitle: "{ftbquests.chapter.zpm.quest7AC1C9575ED0ECBF.subtitle}"
+			subtitle: "GT原版生物线"
 			tasks: [{
 				id: "42FA17298E9E779B"
 				item: "gtceu:stem_cells"
@@ -478,10 +478,10 @@
 		}
 		{
 			dependencies: ["03F6BCDB99059FD4"]
-			description: ["{ftbquests.chapter.zpm.quest7F4D1DB73BB3EA48.description1}"]
+			description: ["{    使用巨型总线输入物品可能导致不识别，建议使用ME库存输入总线。}"]
 			id: "7F4D1DB73BB3EA48"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.zpm.quest7F4D1DB73BB3EA48.subtitle}"
+			subtitle: "好像来得有点晚"
 			tasks: [{
 				id: "71C3B1CAB448A928"
 				item: "ctnhcore:advance_assembly_line"
@@ -513,5 +513,5 @@
 			y: 2.5d
 		}
 	]
-	title: "{ftbquests.chapter.zpm.title}"
+	title: "&cZPM&r时期"
 }

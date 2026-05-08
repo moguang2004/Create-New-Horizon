@@ -72,7 +72,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.mv.quest689E197D320A0477.subtitle}"
+			subtitle: "一种可持续性的产盐设备"
 			tasks: [
 				{
 					id: "16548D422CB417B8"
@@ -158,7 +158,7 @@
 		{
 			dependencies: ["577C0EA40EC89B14"]
 			id: "0C12A7FDA05C7439"
-			subtitle: "{ftbquests.chapter.mv.questC12A7FDA05C7439.subtitle}"
+			subtitle: "重要的化工原料"
 			tasks: [
 				{
 					id: "4F0D06BA40466127"
@@ -171,15 +171,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mv.questC12A7FDA05C7439.title}"
+			title: "氯碱产物"
 			x: 3.5d
 			y: 17.0d
 		}
 		{
 			dependencies: ["1FBD86C0CF681427"]
 			description: [
-				"{ftbquests.chapter.mv.quest18053F8D68450C52.description1}"
-				"{ftbquests.chapter.mv.quest18053F8D68450C52.description2}"
+				"{木化是你为打造后期庞大的工业帝国的基础之一}"
+				"{你需要查阅EMI，使用多联热解炉去制作你的木化产线}"
 			]
 			id: "18053F8D68450C52"
 			rewards: [{
@@ -214,7 +214,7 @@
 				"5F393B970A71BEF2"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.mv.quest5A460876CA0EC216.description1}"]
+			description: ["{乙烯的生产可以来源于生物和石油化工，在本整合包中增强了生物产线，不妨可以尝试一下}"]
 			id: "5A460876CA0EC216"
 			tasks: [{
 				id: "54DEEDC89FC0497E"
@@ -226,7 +226,7 @@
 		}
 		{
 			dependencies: ["6A93AEE55399519D"]
-			description: ["{ftbquests.chapter.mv.quest3F99A5F49AABC226.description1}"]
+			description: ["{袜，聚乙烯！}"]
 			id: "3F99A5F49AABC226"
 			tasks: [{
 				id: "35A6A68E98942425"
@@ -353,7 +353,7 @@
 			id: "5A55D491F0E9F389"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mv.quest5A55D491F0E9F389.subtitle}"
+			subtitle: "想必你已经发现了地牢里的破损传送门，请通过GTPortal模组的传送门进入末地"
 			tasks: [
 				{
 					id: "18E38498ECC14CB2"
@@ -372,7 +372,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mv.quest5A55D491F0E9F389.title}"
+			title: "进入末地"
 			x: 17.5d
 			y: 6.0d
 		}
@@ -415,7 +415,7 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "36924FA5E1528AB2"
-				title: "{ftbquests.chapter.mv.quest4DCA7E4E57817E0A.task.3932292998516345522.title}"
+				title: "前往末地"
 				type: "dimension"
 			}]
 			x: 21.5d
@@ -462,7 +462,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.mv.quest36968F23015BC87A.subtitle}"
+			subtitle: "HV时代的重要材料"
 			tasks: [{
 				id: "19B8A8E266098D32"
 				item: "gtceu:stainless_steel_ingot"
@@ -473,7 +473,7 @@
 		}
 		{
 			dependencies: ["4C152AA55BCD6945"]
-			description: ["{ftbquests.chapter.mv.quest3C1A31CEA3C10082.description1}"]
+			description: ["{现在~利用你学到的双仓升压去做神奇的事吧！}"]
 			id: "3C1A31CEA3C10082"
 			rewards: [{
 				id: "2ABC57832E0DBABA"
@@ -491,7 +491,7 @@
 		}
 		{
 			id: "61F3A1C4B771E811"
-			subtitle: "{ftbquests.chapter.mv.quest61F3A1C4B771E811.subtitle}"
+			subtitle: "硫粉处理后的产物"
 			tasks: [{
 				id: "74B53DE6E60BEE3B"
 				item: "gtceu:sulfuric_acid_bucket"
@@ -555,7 +555,7 @@
 				"1C203FA12C28D5D2"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.mv.quest291D02E808F55209.description1}"]
+			description: ["{更好的铬处理}"]
 			id: "291D02E808F55209"
 			rewards: [
 				{
@@ -571,7 +571,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.mv.quest291D02E808F55209.subtitle}"
+			subtitle: "铬粉需要经过几步处理，请仔细查阅EMI"
 			tasks: [{
 				id: "439069F6CBE169E1"
 				item: "gtceu:chromium_dust"
@@ -617,7 +617,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.mv.quest415AF3F977F4C3F9.title}"
+			title: "进入天境"
 			x: 21.5d
 			y: 5.0d
 		}
@@ -633,17 +633,17 @@
 			tasks: [{
 				dimension: "aether:the_aether"
 				id: "115FCE926E206B92"
-				title: "{ftbquests.chapter.mv.quest699743A94DF7E0B8.task.1251946349740452754.title}"
+				title: "访问天境"
 				type: "dimension"
 			}]
-			title: "{ftbquests.chapter.mv.quest699743A94DF7E0B8.title}"
+			title: "访问天境"
 			x: 23.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
 			id: "47477F45269D6DB4"
-			subtitle: "{ftbquests.chapter.mv.quest47477F45269D6DB4.subtitle}"
+			subtitle: "将异彩化合物扔入虚空得到"
 			tasks: [{
 				id: "26892DF7590726FB"
 				item: "create:shadow_steel"
@@ -676,7 +676,7 @@
 				item: "gtceu:kanthal_block"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.mv.quest707A41CB0EED30D3.subtitle}"
+			subtitle: "升级你的线圈！"
 			tasks: [{
 				id: "6F1536BDC8E4DB42"
 				item: "gtceu:kanthal_ingot"
@@ -839,7 +839,7 @@
 		{
 			dependencies: ["477E8A2397016E0B"]
 			id: "65C365115468BF4D"
-			subtitle: "{ftbquests.chapter.mv.quest65C365115468BF4D.subtitle}"
+			subtitle: "HV超导"
 			tasks: [{
 				id: "5819C06388775C03"
 				item: "gtceu:vibrant_alloy_single_wire"
@@ -926,7 +926,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.mv.quest3AE584B3EBC63A09.subtitle}"
+			subtitle: "你的第一（？）块HV电子电路"
 			tasks: [{
 				id: "1D3AB4D312D5E848"
 				item: "gtceu:advanced_integrated_circuit"
@@ -946,7 +946,7 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mv.quest761AC9761D80AC19.subtitle}"
+			subtitle: "我的天哪植魔大人"
 			tasks: [{
 				id: "32FD501729B1C125"
 				item: "ctnhmana:mana_integrated_circuit"
@@ -959,10 +959,10 @@
 			id: "1C203FA12C28D5D2"
 			tasks: [{
 				id: "1C1BFFEBB2C0FC24"
-				title: "{ftbquests.chapter.mv.quest1C203FA12C28D5D2.task.2025493845214559268.title}"
+				title: "水洗深板岩粉也有概率出铬"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.mv.quest1C203FA12C28D5D2.title}"
+			title: "水洗深板岩粉也有概率出铬"
 			x: 20.0d
 			y: 10.0d
 		}
@@ -1030,9 +1030,9 @@
 				"199C34FF316CDB5D"
 				"4B0A7C665D98CEDD"
 			]
-			description: ["{ftbquests.chapter.mv.quest25F0981E1E4A0E7F.description1}"]
+			description: ["{    事实上，你还可以通过神化的刷怪笼或者新生魔艺的手段获取怪物掉落。但电动刷怪笼还可以用于HV阶段的屠宰场。}"]
 			id: "25F0981E1E4A0E7F"
-			subtitle: "{ftbquests.chapter.mv.quest25F0981E1E4A0E7F.subtitle}"
+			subtitle: "自动刷怪"
 			tasks: [{
 				id: "716733C9922E17A0"
 				item: {
@@ -1047,7 +1047,7 @@
 		}
 		{
 			id: "64B9355875C126ED"
-			subtitle: "{ftbquests.chapter.mv.quest64B9355875C126ED.subtitle}"
+			subtitle: "gt屠刀可以快速获取头颅"
 			tasks: [{
 				id: "56B2EE6B74321BB0"
 				item: "minecraft:zombie_head"
@@ -1111,7 +1111,7 @@
 		}
 		{
 			dependencies: ["4F752D5EC2FB511C"]
-			description: ["{ftbquests.chapter.mv.quest59B39491E1FAA6E0.description1}"]
+			description: ["{简易版铬粉}"]
 			id: "59B39491E1FAA6E0"
 			tasks: [{
 				id: "45E72A768448ED19"
@@ -1123,7 +1123,7 @@
 		}
 		{
 			dependencies: ["24CB9175692BADFD"]
-			description: ["{ftbquests.chapter.mv.quest78A828D153F91AC5.description1}"]
+			description: ["{建议多做一点，很好用}"]
 			id: "78A828D153F91AC5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1131,7 +1131,7 @@
 				table_id: 5863108397808417557L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.mv.quest78A828D153F91AC5.subtitle}"
+			subtitle: "集成种植"
 			tasks: [{
 				id: "010A88ADBD0BB387"
 				item: "ctnhcore:greenhouse"
@@ -1224,7 +1224,7 @@
 				"279ED2DAD4CC60CD"
 				"7446005F43FE2EFA"
 			]
-			description: ["{ftbquests.chapter.mv.quest37BE0924832C7808.description1}"]
+			description: ["{恭喜你马上结束痛苦又漫长的手搓阶段}"]
 			id: "37BE0924832C7808"
 			rewards: [
 				{
@@ -1241,7 +1241,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.mv.quest37BE0924832C7808.subtitle}"
+			subtitle: "这是一个阶段的结束，亦是另一个阶段的开始"
 			tasks: [{
 				id: "55524595C686AC17"
 				item: "gtceu:micro_processor"
@@ -1252,11 +1252,11 @@
 		}
 		{
 			dependencies: ["1162E347E7C00175"]
-			description: ["{ftbquests.chapter.mv.quest4E153836BC53CDD1.description1}"]
+			description: ["{可以用蒸汽输入仓和输入总线输出总线，且蒸汽级输出总线最多10个}"]
 			id: "4E153836BC53CDD1"
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{ftbquests.chapter.mv.quest4E153836BC53CDD1.subtitle}"
+			subtitle: "原始人的第一个巨构"
 			tasks: [{
 				id: "2C454A9B147379F9"
 				item: "ctnhcore:martial_morality_eye"
@@ -1277,7 +1277,7 @@
 		}
 		{
 			id: "1736A5072E1CFF18"
-			subtitle: "{ftbquests.chapter.mv.quest1736A5072E1CFF18.subtitle}"
+			subtitle: "进入天境之前你最好会飞"
 			tasks: [{
 				id: "4614739719B4D7C7"
 				item: "angelring:angel_ring"
@@ -1317,7 +1317,7 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mv.quest5C56BEA120711D82.task.3320973075807089963.title}"
+				title: "MV搅拌"
 				type: "item"
 			}]
 			x: 1.0d
@@ -1343,7 +1343,7 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mv.questB4C100552B5D9A8.task.639608035142613758.title}"
+				title: "MV搅拌"
 				type: "item"
 			}]
 			x: 20.0d
@@ -1369,12 +1369,12 @@
 						]
 					}
 				}
-				title: "{ftbquests.chapter.mv.quest766E11954A7C2E22.task.4500590303511170043.title}"
+				title: "MV搅拌"
 				type: "item"
 			}]
 			x: 12.5d
 			y: 10.0d
 		}
 	]
-	title: "{ftbquests.chapter.mv.title}"
+	title: "&bMV&r时期"
 }

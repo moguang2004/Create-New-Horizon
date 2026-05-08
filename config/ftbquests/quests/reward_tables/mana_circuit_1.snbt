@@ -9,5 +9,5 @@
 		{ count: 4, item: "ctnhmana:mana_capacitor" }
 		{ count: 4, item: "ctnhmana:mana_transistor" }
 	]
-	title: "{ftbquests.loot_table.9045619599439842206.title}"
+	title: "魔力元件"
 }

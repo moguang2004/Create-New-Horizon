@@ -19,6 +19,6 @@
 		{ count: 8, item: "mythicbotany:helheim_rune" }
 		{ count: 5, item: "extrabotany:orichalcos_block", weight: 0.08f }
 	]
-	title: "{ftbquests.loot_table.1995626107801647046.title}"
+	title: "魔力精致奖励"
 	use_title: true
 }

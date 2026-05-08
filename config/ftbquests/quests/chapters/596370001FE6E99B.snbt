@@ -29,14 +29,14 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest22ABF30D518BD58C.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest22ABF30D518BD58C.description2}"
+				"{    EMI是一个功能强大的mod，物品栏右边那一大串物品就是他的杰作。}"
+				"{    没使用过？不用担心！Snow_city遗留的笔记会尽可能的教你。}"
 			]
 			id: "22ABF30D518BD58C"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest22ABF30D518BD58C.subtitle}"
+			subtitle: "你永远离不开它"
 			tasks: [{
 				id: "6A77E25CAB924BFF"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest22ABF30D518BD58C.task.7671849377892289535.title}"
+				title: "什么是EMI"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -44,14 +44,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest95E8F5805EFE4D0.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest95E8F5805EFE4D0.description2}"
+				"{    在物品栏内或其他UI界面鼠标移到你想要查询的物品时，按下R键即可查看合成（或者在EMI查询界面左键也行）。}"
+				"{    最上方一行表示处理的类型，左边一列表示处理的机器。}"
 			]
 			id: "095E8F5805EFE4D0"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest95E8F5805EFE4D0.subtitle}"
+			subtitle: "默认按R"
 			tasks: [{
 				id: "2389CFC195589D70"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest95E8F5805EFE4D0.task.2560806293478088048.title}"
+				title: "1.查看合成"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -59,14 +59,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest478515D31A125334.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest478515D31A125334.description2}"
+				"{    在物品栏内或其他UI界面鼠标移到你想要查询的物品时，按下U键即可查看用途（或者在EMI查询界面右键也行）。}"
+				"{    最上方一行表示处理的类型，左边一列表示处理的机器。}"
 			]
 			id: "478515D31A125334"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest478515D31A125334.subtitle}"
+			subtitle: "默认按U"
 			tasks: [{
 				id: "3F5150BE598336CB"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest478515D31A125334.task.4562516675978802891.title}"
+				title: "2.查看用途"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -74,26 +74,26 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest5069FEA1EBCBD315.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest5069FEA1EBCBD315.description2}"
+				"{    在物品栏内或其他UI界面鼠标移到你想要查询的物品时，按下A键即可收藏到书签。}"
+				"{    被收藏的物品会在左边显示，方便你更快捷的查找物品。}"
 			]
 			id: "5069FEA1EBCBD315"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5069FEA1EBCBD315.subtitle}"
+			subtitle: "默认按A"
 			tasks: [{
 				id: "4BC5FA5A8A142EF1"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest5069FEA1EBCBD315.task.5460045390027173617.title}"
+				title: "3.收藏书签（附属）"
 				type: "checkmark"
 			}]
 			x: -0.5d
 			y: -4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest3A9E38FE270C1517.description1}"]
+			description: ["{    在EMI配方页面中按下对应配方右下角的+键时，会将已有物品自动放置。}"]
 			id: "3A9E38FE270C1517"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest3A9E38FE270C1517.subtitle}"
+			subtitle: "配方页右下角的+号"
 			tasks: [{
 				id: "207C44B7DD790F74"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest3A9E38FE270C1517.task.2340821462811217780.title}"
+				title: "4.快速合成"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -101,16 +101,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest21A041F23BC5B89D.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest21A041F23BC5B89D.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest21A041F23BC5B89D.description3}"
+				"{    对着矿石的粗矿按R即可查看其对应的矿脉和矿脉信息（在最上方一栏切换）。}"
+				"{    对着矿石的粗矿，粉碎矿石，含杂粉等形式按U即可查看其对应的矿石处理树（在最上方一栏切换）。}"
+				"{    一些能被粉碎/提取/电弧炉加工的物品查看配方时会有两种不同的页：机器/Ore xxx。虽然名字不一样，但都是由粉碎/提取/电弧炉加工的。一切以左边的机器列表为准。}"
 				""
 			]
 			id: "21A041F23BC5B89D"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest21A041F23BC5B89D.subtitle}"
+			subtitle: "更多靠你自己去发现"
 			tasks: [{
 				id: "266D66828F20DE07"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest21A041F23BC5B89D.task.2768982056835800583.title}"
+				title: "5.一些特殊的EMI页"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -118,18 +118,18 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.description6}"
+				"{    用GT扳手等之类GT工具在指向GT方块时一般会出现九宫格，来方便你通过一个面对所有面进行操作。}"
+				"{    以出现九宫格的面作正面为基准：}"
+				"{    &l&4中间的大正方形对应正面&r}"
+				"{    &l&d上下左右的长方形对应上下左右面&r}"
+				"{    &l&3边角的四个小正方形对应背面&r}"
+				"{    &l&e&n注意：操作时养成副手不要放物品的好习惯，不然无法完成某些shift+右键的操作！}"
 			]
 			id: "045C3E672C8506E1"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.subtitle}"
+			subtitle: "GT操作学"
 			tasks: [{
 				id: "08A20B7A74665A88"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest45C3E672C8506E1.task.622072319097330312.title}"
+				title: "GT九宫格"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -137,26 +137,26 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest65EC29CE941B8231.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest65EC29CE941B8231.description2}"
+				"{    GT管道遵循一些特殊的物理引擎，内部的物体会不间断的做无规则运动！}"
+				"{    若是想要规定管道流向，则要用扳手&b&lshift+右键&r管道对应的方向来让他强制流向一个方向，不会逆行。}"
 			]
 			id: "65EC29CE941B8231"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest65EC29CE941B8231.subtitle}"
+			subtitle: "原汁原味"
 			tasks: [{
 				id: "3FD99E175CCA6832"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest65EC29CE941B8231.task.4600882317513877554.title}"
+				title: "GT管道"
 				type: "checkmark"
 			}]
 			x: -4.5d
 			y: -2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest1E46BA977152A462.description1}"]
+			description: ["{    GT线缆需要用剪线钳对其进行连接/拆除操作。与管道不同的是，它不能进行强制流向操作。你需要使用二极管才能达成类似功能。}"]
 			id: "1E46BA977152A462"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1E46BA977152A462.subtitle}"
+			subtitle: "唐氏员工"
 			tasks: [{
 				id: "5908E87A0588E354"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest1E46BA977152A462.task.6415633279965782868.title}"
+				title: "GT线缆"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -164,17 +164,17 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.description5}"
+				"{    当机器的电压等级高于配方所需的电压等级时，将会触发&e超频&r机制，消耗额外的电力来加快配方运行。每高出一级，触发一次超频。}"
+				"{    常见的超频是&b有损超频&r，机器每tick消耗的EU提高4倍，但允许时间只缩短一半。以&bMV&r机器运行耗时10秒的&7LV&r配方为例，当触发有损超频时，机器的耗电从1A&7LV&r提高至1A&bMV&r，是配方所需的4倍，配方时间缩短至5秒，相当于速度变为原本的2倍。在这种情况下，执行该配方消耗的总EU变为了原本的两倍，所以是“有损”。}"
+				"{    某些情况下可以触发&a无损超频&r，耗电提高4倍且运行时间变为原本的1/4，此时执行配方的总EU消耗不会增加，所以是“无损”。具有无损超频特性的机器会在自身描述中标注。}"
+				"{    触发多次超频时，累乘计算。假设使用&5EV&r机器运行&7L&rV配方，触发三次有损超频，则每tick耗电变为原本的4x4x4=64倍，配方时间缩短至原本的1/(2x2x2)=1/8。}"
+				"{    &b特别说明&r：电压等级为&8ULV&r的配方，计算超频时固定减少一次。}"
 			]
 			id: "0380BD76D7A96F58"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.subtitle}"
+			subtitle: "使劲超"
 			tasks: [{
 				id: "254299460AE15C49"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest380BD76D7A96F58.task.2684876853975538761.title}"
+				title: "关于超频"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -182,14 +182,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest782151CC2B61160B.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest782151CC2B61160B.description2}"
+				"{    几乎所有的GT粗矿/原矿都有着研磨/洗矿/热力离心/离心这四个基础步骤，部分宝石类矿物还能筛选，还有一些矿能化学浸洗/磁选。不同的路有不同的副产物，根据自己的需求来决定。}"
+				"{    只有HV以上的机器执行研磨配方才有副产物，粉碎工厂无副产物}"
 			]
 			id: "782151CC2B61160B"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest782151CC2B61160B.subtitle}"
+			subtitle: "走自己的路"
 			tasks: [{
 				id: "677C0A38D1E70213"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest782151CC2B61160B.task.7456846322174722579.title}"
+				title: "关于矿石处理"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -197,14 +197,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest115F1C7FD1E79C79.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest115F1C7FD1E79C79.description2}"
+				"{ &l&4&n   一定要注意，先加水再加热，不然你的锅炉就会爆炸！！！切勿干烧！}"
+				"{    对于小锅炉而言，除底面外所有面连接GT管道后就会流出蒸汽。所以加水的管道最好接入锅炉下方，防止蒸汽堵塞。}"
 			]
 			id: "115F1C7FD1E79C79"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest115F1C7FD1E79C79.subtitle}"
+			subtitle: "禁止干烧！"
 			tasks: [{
 				id: "260B52B84D28856C"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest115F1C7FD1E79C79.task.2741375749707040108.title}"
+				title: "关于蒸汽锅炉"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -212,15 +212,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest346272253393279F.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest346272253393279F.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest346272253393279F.description3}"
+				"{    所有的蒸汽机器都不能处理流体类配方，所以不要在想为什么对应配方不工作了。}"
+				"{    用GT扳手右键对应面可对机器设置排气孔，若是排气孔被堵塞则机器会停止工作。}"
+				"{    用GT扳手shift+右键对应面可更改机器的正面朝向。}"
 			]
 			id: "346272253393279F"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest346272253393279F.subtitle}"
+			subtitle: "流体哒咩"
 			tasks: [{
 				id: "053633B1AAC908ED"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest346272253393279F.task.375544457099544813.title}"
+				title: "关于蒸汽机器"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -228,19 +228,19 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description6}"
-				"{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.description7}"
+				"{    用能装液体的大部分容器直接对着流体栏左键即可放置/回收。}"
+				"{    原版桶：一次只能装1000mb，不可堆叠。}"
+				"{    空单元：一次只能装1000mb，可堆叠。可放在合成栏直接合成通用流体单元。}"
+				"{    通用流体单元：一次能装1~1000mb任意值，内容物种类体积相同时可堆叠。可放在合成栏直接合成空单元。}"
+				"{    铝等高级单元：除最大容量与通用流体单元不一样外其他均一样。}"
+				"{    GT桶：同上。}"
+				"{    部分流体的温度过高不能用低熔点的单元/桶拿取，请注意。}"
 			]
 			id: "6B760684956D1BE1"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.subtitle}"
+			subtitle: "单元，爱你"
 			tasks: [{
 				id: "06169705E3B3B6EC"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest6B760684956D1BE1.task.438704065266038508.title}"
+				title: "关于流体的储存与拿取"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -248,31 +248,31 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description6}"
-				"{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.description7}"
+				"{    部分GT工具除合成用途外，还有其他的作用。}"
+				"{    锻造锤：让机器静音/解除静音。}"
+				"{    螺丝刀：允许/禁止输出口的流体/物品自动流出。}"
+				"{    扳手：右键机器设置输出口，shift+右键设置机器正面朝向。对一些多方块控制器右键还能让其90°旋转。}"
+				"{    软锤：开机/关机机器。}"
+				"{    撬棍：拆除对应面的覆盖版。}"
+				"{    屠刀：拥有抢夺三和隐藏高斩首属性。}"
 			]
 			id: "694E4397215D8F0C"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.subtitle}"
+			subtitle: "天下我有！"
 			tasks: [{
 				id: "23D5A764F9AC759B"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest694E4397215D8F0C.task.2582154013494244763.title}"
+				title: "GT工具"
 				type: "checkmark"
 			}]
 			x: -2.5d
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest6A06571EE74A6F63.description1}"]
+			description: ["{    对于部分GT机器来说，EIO导管无法将其内部液体导出。所以不要疑惑为什么导不出液体，用你那聪明的大脑相处其他方式吧。}"]
 			id: "6A06571EE74A6F63"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest6A06571EE74A6F63.subtitle}"
+			subtitle: "EIO笑传之输输液"
 			tasks: [{
 				id: "73AEFABF6318C55A"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest6A06571EE74A6F63.task.8335875660217632090.title}"
+				title: "EIO的BUG"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -280,15 +280,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest5378DE529B4826D5.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest5378DE529B4826D5.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest5378DE529B4826D5.description3}"
+				"{    打开小机器UI后左上角会有一行多出的栏，点击后能看到机器的3D环绕图。}"
+				"{    通过鼠标拖拽能切换视角方向。对着一面按左键设置物品输出，再按一次则会开启自动输出模式。右键设置流体输出，与物品同理。}"
+				"{    机器UI左下角有虚拟电路，设置后即可执行对应电路的配方。不同配方所需的虚拟电路EMI配方都有说明。}"
 			]
 			id: "5378DE529B4826D5"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5378DE529B4826D5.subtitle}"
+			subtitle: "玩转输出！"
 			tasks: [{
 				id: "37492B461318B5BE"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest5378DE529B4826D5.task.3983762925354005950.title}"
+				title: "GT机器UI"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -296,30 +296,30 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.description1}"
+				"{对控制器（主方块）按U即可查看多方块结构预览界面。左键拖动可旋转视角，右键拖动可平移视角，滚轮可进行缩放。}"
 				""
-				"{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.description2}"
+				"{预览图下方会显示搭建所需的方块及数量（仅供参考，其中的仓室一般可替换）。点击对应的方块可在左侧查看这个位置的可替换方块列表。点击ALL按钮可按层逐一查看每层的样式。}"
 				""
-				"{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.description3}"
+				"{点击结构中任意方块，界面左上角将会可显示该位置所有可用方块。}"
 				""
-				"{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.description4}"
+				"{部分可拓展多方块（例如蒸馏塔）在点击[P:0]按钮时可查看不同的拓展样式，或者不同等级的结构。}"
 				""
-				"{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.description5}"
+				"{GT多方块允许两个相邻的多方块共同享用一些方块，从而并联节省材料。具体的并联方案由你跟据样式展开想象。有些方块无法被共用，详细查看tooptips。}"
 			]
 			id: "157616D257E25806"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.subtitle}"
+			subtitle: "当心终端乱放仓室"
 			tasks: [{
 				id: "6BBC98D7EA0A55A3"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest157616D257E25806.task.7763247910791828899.title}"
+				title: "关于GT多方块的搭建"
 				type: "checkmark"
 			}]
 			x: -4.5d
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest7FC6F33F349AFB8B.description1}"]
+			description: ["{    有更多的建议可以联系我！&m虽然不一定改...}"]
 			id: "7FC6F33F349AFB8B"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7FC6F33F349AFB8B.subtitle}"
+			subtitle: "十分暴躁"
 			tasks: [{
 				id: "5FFB5BE2547D43DA"
 				item: {
@@ -344,22 +344,22 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.596370001FE6E99B.quest7FC6F33F349AFB8B.title}"
+			title: "一只Snow_city"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.description4}"
+				"{    与使用&2FE&r作为能源的大部分科技模组不同，格雷机器使用的能源是GTEU，简称&eEU&r。}"
+				"{    与现实类似，EU在传输过程中存在电压与电流的概念，单位分别是伏特（简称&eV&r）与安培（简称&eA&r），1V 1A的电流在1tick内传输的电能为1EU（tick是我的世界基本时间单位，一般情况下1秒为20tick，简称t）。}"
+				"{    EU可以自行转换为FE，故可以直接向FE机器提供EU来使其工作。}"
+				"{    FE需要通过转换器转换成EU才能供GT机器使用，&4本整合包已禁用LV等级以上的转化器&r。   }"
 			]
 			id: "7CCF3DDD9544F909"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.subtitle}"
+			subtitle: "这是什么，就不能让我们用正常的电吗"
 			tasks: [{
 				id: "71C7653A29E1B239"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest7CCF3DDD9544F909.task.8198632947136442937.title}"
+				title: "GTEU"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -367,41 +367,41 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description6}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description7}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description8}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description9}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description10}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description11}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description12}"
-				"{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.description13}"
+				"{    格雷科技依据电压大小将电压划分为若干个等级，每一级电压大小是上一级的4倍，依次为：}"
+				"{    &8ULV&r: 8V}"
+				"{    &7LV&r:  32V}"
+				"{    &bMV&r： 128V}"
+				"{    &6HV&r： 512V}"
+				"{    &dEV&r： 2,048V}"
+				"{    &9IV&r:   8,192V}"
+				"{    &dLuV&r: 32,768V}"
+				"{    &cZPM&r: 131,072V}"
+				"{    &2UV&r:   524,288V}"
+				"{    &4UHV&r: 2,097,152V}"
+				"{    ......}"
+				"{    电力机器都有对应的电压等级，向机器通入大于对应等级的电压会让机器爆炸。}"
 			]
 			id: "39CF9637DAECD9E2"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.subtitle}"
+			subtitle: "boom！"
 			tasks: [{
 				id: "164C27B8057B10BC"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.596370001FE6E99B.quest39CF9637DAECD9E2.title}"
+			title: "GT电压"
 			x: -4.5d
 			y: -0.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest7627F4559E232CB1.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7627F4559E232CB1.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7627F4559E232CB1.description3}"
+				"{    需求电力的格雷科技配方都有对应的&e电压等级&r，可通过EMI配方页面右下角的电压或边框颜色来分辨。一般情况下，当机器的电压等级低于配方所需电压时，机器&4无法&r运行对应配方，即使机器有足够的EU。}"
+				"{    对于单方块机器（后文简称&b小机器&r），其等级就是描述中的输入电压等级。}"
+				"{    对于多方块机器（后文简称&b大机器&r），其等级由组成多方块结构的能源仓的等级决定。有多个不同等级能源仓时，以最高的为准。}"
 			]
 			id: "7627F4559E232CB1"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7627F4559E232CB1.subtitle}"
+			subtitle: "等级森严"
 			tasks: [{
 				id: "67F316843881B466"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest7627F4559E232CB1.task.7490355362386785382.title}"
+				title: "配方电压"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -409,16 +409,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.description4}"
+				"{    一般情况下，单方块机器无法升压，只能通过更换更高电压等级的单方块机器来执行更高电压等级的配方。（本整合包中的生物机器可以升压，相关机制详见“血肉重铸”章节）}"
+				"{    &e重要&r：多方块机器具有&b双仓升压&r机制。如果多方块机器的结构允许&b两个&r能源仓，当多方块结构成型时，如果其结构中有两个相同等级的能源仓，那么该多方块的能够执行的配方电压等级将会提高一级。}"
+				"{    以电力高炉为例：当电力高炉结构中有两个&7LV&r能源仓时，电力高炉的配方等级将会被提高到&bMV&r，允许执行&bMV&r电压的配方。}"
+				"{   结构中只允许&b一个&r能源仓的多方块机器&d无法升压&r。}"
 			]
 			id: "41562EA63324B2F2"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.subtitle}"
+			subtitle: "打破电压的桎梏"
 			tasks: [{
 				id: "3EAA6D92BEB4359E"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest41562EA63324B2F2.task.4515542053424477598.title}"
+				title: "升压"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -426,17 +426,17 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.description5}"
+				"{ &e   配方电压&r：机器可执行配方的电压等级}"
+				"{ &e   超频电压&r：机器计算配方超频次数的电压等级}"
+				"{    对于小机器来说，以上两者完全等同。}"
+				"{    对于大机器来说，如果使用了超过1A的能源仓，则&b情况会发生变化&r。配方电压由能源仓等级和双仓升压机制决定，超频电压由能源仓能够输入的EU/t决定。}"
+				"{    假设为一台大机器安装了一台16A&5EV&r能源仓，此时由于没有触发双仓升压，机器的配方电压依然是&5EV&r，无法运行更高电压等级的配方。但是机器能够输入的最大EU/t是16A&5EV&r，相当于1A&dLuV&r，故此时机器会按照&dLuV&r来计算配方超频次数，也就是说可以消耗16倍电将&5EV&r配方运行时间缩短到1/4。}"
 			]
 			id: "1B3F47FA45A8AFAB"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.subtitle}"
+			subtitle: "啊？这不是一个东西吗"
 			tasks: [{
 				id: "671B9B9945AA150A"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest1B3F47FA45A8AFAB.task.7429703092878841098.title}"
+				title: "配方电压与超频电压"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -444,18 +444,18 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description4}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description5}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.description6}"
+				"{    &e配方(Recipe)&r是MC中极为重要的概念，也是MC的核心玩法。一般来说，一个配方包含以下几个关键要素：}"
+				"{ &b   输入（或原料）&r：配方所需的材料，例如合成钻石块所需的钻石，烧制牛排所需的生牛肉；}"
+				"{ &b   输出（或产物）&r：配方运行之后的产出。}"
+				"{ &b   处理时间&r：合成配方不需要时间来处理，熔炉和大多数GT机器需要时间来将输入转化为输出，&m所以GT机器本质都是熔炉。&r}"
+				"{ &b   配方条件&r：配方运行所需的条件，例如有的CT搅拌配方需要烈焰人加热作为前提条件。从某种角度上来说条件也算是一种配方输入，但配方运行时不直接对其进行消耗。}"
+				"{    在发展科技的过程中，你将不断遇到新的原料、产物、配方条件和处理时间（？），接下来的任务将对其中的重点进行介绍。如果现在还看不懂，不妨之后遇到了再来看看。}"
 			]
 			id: "7F074137A314B92C"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.subtitle}"
+			subtitle: "不是食谱"
 			tasks: [{
 				id: "6998ABB6A149E4B6"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest7F074137A314B92C.task.7609020371320825014.title}"
+				title: "配方"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -463,14 +463,14 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest1C63CBBD37847FF8.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest1C63CBBD37847FF8.description2}"
+				"{ &e   物品（Item）&r是最常见的配方输入/输出，也是MC原版的唯一一种。你可以使用史蒂夫（或艾利克斯）的手来移动物品（即使是剧毒化学品、中子素），或者使用CT动力臂、GT物品管道、EIO物品管道等物流手段来自动化物品的物流。}"
+				"{    对于&b多方块机器&r，你需要通过&b输入总线&r输入物品，输出总线&b输出物品&r。}"
 			]
 			id: "1C63CBBD37847FF8"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest1C63CBBD37847FF8.subtitle}"
+			subtitle: "塞满了"
 			tasks: [{
 				id: "7D27BB8E7D933A38"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest1C63CBBD37847FF8.task.9018382999499258424.title}"
+				title: "物品"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -478,16 +478,16 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.description3}"
-				"{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.description4}"
+				"{ &e   流体（Fluid）&r是模组中常见的配方输入/输出，流体的最小单位是mB（毫桶），1000mB=1B（桶）你需要通过容器来移动流体，例如桶、GT单元、超级缸等。使用CT/GT/EIO流体管道可以自动化输送流体。}"
+				"{    使用容器点击机器中的流体槽可以装入/倒出流体，&7超级缸也可以&r。自动化向机器输入流体时，当GT机器的一个流体槽装满某种流体后，就会拒绝继续输入这种流体，即使其他流体槽是空的。}"
+				"{    你需要通过输入仓/输出仓来为&b大机器&r输入/输出流体。}"
+				"{    当前版本AE系统原生支持流体，可以直接通过终端放入/取出或通过各种总线进行流体IO。&7&m（不需要流体总线，没有液滴，也不需要离散器）&r&r}"
 			]
 			id: "3E159C34A519A644"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.subtitle}"
+			subtitle: "怎么倒不出来"
 			tasks: [{
 				id: "27827CFEEE743A47"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest3E159C34A519A644.task.2846975348815706695.title}"
+				title: "流体"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -495,15 +495,15 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest7151C1F32F8D6F93.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7151C1F32F8D6F93.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest7151C1F32F8D6F93.description3}"
+				"{ &e   电力（GTEU）&r也是一种配方输入/输出，大部分机器配方消耗EU，发电机通过配方产生EU，你可以通过导线等手段输送EU。和之前的物品/流体不同，机器消耗EU不是在配方开始时一次性消耗，而是每tick进行一次消耗。}"
+				"{    如果你试图用然任何手段加速机器，那么机器消耗EU的速度也将加倍。而小机器由于存在输入电流限制（至多2A），加速太多会导致供电不足（一般来说超过两倍就会跳电）。将电池放在小机器的电池槽可以直接向机器提供电力，这种方式供电无速率限制，你可以尽情加速。}"
+				"{    你可以通过能源仓为&b大机器&r供电，动力仓输出发电机产生的电。}"
 			]
 			id: "7151C1F32F8D6F93"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest7151C1F32F8D6F93.subtitle}"
+			subtitle: "这也是原料？"
 			tasks: [{
 				id: "0BC1499AE6F45E5D"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest7151C1F32F8D6F93.task.847039134570929757.title}"
+				title: "电力"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -511,33 +511,33 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.596370001FE6E99B.quest4D2E51FACD1931ED.description1}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4D2E51FACD1931ED.description2}"
-				"{ftbquests.chapter.596370001FE6E99B.quest4D2E51FACD1931ED.description3}"
+				"{ &e   算力&r是一种较为特殊的配方输入，你最早可能在&eHV&r遇到需要算力的配方。算力以数字为单位。你可以将其当成另一种与电力类似的资源，但这种资源无法存储，必须实时请求，实时消耗。}"
+				"{    需求算力的配方会有&b最小算力需求&r，即每tick必须提供对应数量的算力才能使配方运行。}"
+				"{    可以通过光缆输送算力，如果是&b小机器&r，可以通过直接将产生算力和消耗算力的机器紧贴放置来传输算力。如果&b大机器&r，则需要使用算力数据源仓/靶仓来输出/输入算力，而且&4源仓和靶仓之间必须通过光缆链接&r，直接紧贴无法传输算力。}"
 			]
 			id: "4D2E51FACD1931ED"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest4D2E51FACD1931ED.subtitle}"
+			subtitle: "抽象起来了"
 			tasks: [{
 				id: "517CBF14529B7D0A"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest4D2E51FACD1931ED.task.5871778108190457098.title}"
+				title: "算力"
 				type: "checkmark"
 			}]
 			x: 1.5d
 			y: 3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.596370001FE6E99B.quest5C7BA2C2208CBF68.description1}"]
+			description: ["{    以上四种是格雷科技原版的原料，本整合包还添加了多种自定义原料，包括营养、实体、应力等，在任务推进到相关机器时会有讲解。}"]
 			id: "5C7BA2C2208CBF68"
-			subtitle: "{ftbquests.chapter.596370001FE6E99B.quest5C7BA2C2208CBF68.subtitle}"
+			subtitle: "还多着呢"
 			tasks: [{
 				id: "79317F10BA1DF441"
-				title: "{ftbquests.chapter.596370001FE6E99B.quest5C7BA2C2208CBF68.task.8732900862266831937.title}"
+				title: "还有？"
 				type: "checkmark"
 			}]
 			x: 3.5d
 			y: 3.5d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.596370001FE6E99B.subtitle0}"]
-	title: "{ftbquests.chapter.596370001FE6E99B.title}"
+	subtitle: ["知识即为万物尺度，定将穷尽真理，根除谬误。"]
+	title: "存在即被感知"
 }

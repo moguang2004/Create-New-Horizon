@@ -80,7 +80,7 @@
 		}
 		{
 			id: "1DEEF2533C6A5F63"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest1DEEF2533C6A5F63.subtitle}"
+			subtitle: "旅途的终点"
 			tasks: [{
 				id: "440FD5F877D86F5C"
 				item: "gtceu:uv_machine_casing"
@@ -91,7 +91,7 @@
 		}
 		{
 			id: "707EC96A26FA8C17"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest707EC96A26FA8C17.subtitle}"
+			subtitle: "终极魔力发电"
 			tasks: [{
 				id: "403011FF1A5984E6"
 				item: "ctnhmana:eye_of_quasar"
@@ -152,7 +152,7 @@
 		}
 		{
 			id: "5C9D6A4D082F419F"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest5C9D6A4D082F419F.subtitle}"
+			subtitle: "MV理论可做"
 			tasks: [{
 				id: "0A8A155096FBEF88"
 				item: "ctnhmana:mana_reactor"
@@ -163,7 +163,7 @@
 		}
 		{
 			id: "6DC84A820904811E"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest6DC84A820904811E.subtitle}"
+			subtitle: "需要钛齿轮箱，别急着在HV做"
 			tasks: [{
 				id: "7E3238CC6B23CA4E"
 				item: "ctnhmana:mana_assembler"
@@ -175,12 +175,12 @@
 		{
 			dependencies: ["0609BF460D2F4A65"]
 			description: [
-				"{ftbquests.chapter.449FB885B9E16D50.quest4A0AC9C14C9F5EFD.description1}"
+				"{可以使用GT-MBST-A终端选择工业血之祭坛等级进行自动构建，不过检测终端无法检测高等级工业血之祭坛结构，你需要自行比对EMI。如果你实在无法解决，可以使用本包自带的蓝图进行打印。}"
 				""
-				"{ftbquests.chapter.449FB885B9E16D50.quest4A0AC9C14C9F5EFD.description2}"
+				"{另外，已成型的工业血之祭坛在升级结构时不会自动检测并重新成型，所以在升级时你需要重新放置主方块来让它重新成型。}"
 			]
 			id: "4A0AC9C14C9F5EFD"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest4A0AC9C14C9F5EFD.subtitle}"
+			subtitle: "原版血祭坛的扩展"
 			tasks: [{
 				id: "739D51C5E20C9465"
 				item: "ctnhmana:industrial_altar"
@@ -201,7 +201,7 @@
 		}
 		{
 			id: "221A2FB97B12AE80"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest221A2FB97B12AE80.subtitle}"
+			subtitle: "你做血魔法不就是为了这个吗"
 			tasks: [{
 				id: "2272524E4A93B97B"
 				item: "ctnhmana:meteor_capturer"
@@ -217,7 +217,7 @@
 				item: "bloodmagic:defaultcrystal"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest4DB28093FEF7243E.subtitle}"
+			subtitle: "IV的超级发电巨构"
 			tasks: [{
 				id: "2EFBA5E9DD8859A5"
 				item: "ctnhmana:demon_will_generator"
@@ -228,7 +228,7 @@
 		}
 		{
 			id: "69A119A432FC5309"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest69A119A432FC5309.subtitle}"
+			subtitle: "以后会被削，早做早享受"
 			tasks: [{
 				id: "09EE4358E8541CE0"
 				item: "ctnhmana:mana_force_transformer"
@@ -250,7 +250,7 @@
 		{
 			hide_dependent_lines: true
 			id: "30FB55695573D452"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest30FB55695573D452.subtitle}"
+			subtitle: "魔力线毁灭者"
 			tasks: [{
 				id: "65EAC19545930BA7"
 				item: "ctnhmana:nicoll_dyson_beams"
@@ -281,7 +281,7 @@
 		}
 		{
 			id: "3BEF0330DD624962"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest3BEF0330DD624962.subtitle}"
+			subtitle: "LuV电路板"
 			tasks: [{
 				id: "417819D361364A09"
 				item: "ctnhmana:bloody_nano_processor_mainframe"
@@ -292,7 +292,7 @@
 		}
 		{
 			id: "601A414CAA3597EC"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest601A414CAA3597EC.subtitle}"
+			subtitle: "便宜的IV板子（大概）"
 			tasks: [{
 				id: "296B425E09AA623B"
 				item: "ctnhmana:will_crystal_processor"
@@ -311,7 +311,7 @@
 			}]
 			tasks: [{
 				id: "27A701A10D46A3A7"
-				title: "{ftbquests.chapter.449FB885B9E16D50.quest237681239D5CE55C.task.2857254279813964711.title}"
+				title: "LV奖励"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -359,10 +359,10 @@
 			]
 			tasks: [{
 				id: "30F128440E921AE5"
-				title: "{ftbquests.chapter.449FB885B9E16D50.quest31BC682B42A6B651.task.3526644255975152357.title}"
+				title: "MV阶段奖励"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.449FB885B9E16D50.quest31BC682B42A6B651.title}"
+			title: "MV奖励"
 			x: -5.0d
 			y: -13.0d
 		}
@@ -402,7 +402,7 @@
 			]
 			tasks: [{
 				id: "6D4F708CBB645DBC"
-				title: "{ftbquests.chapter.449FB885B9E16D50.quest74CB2CCC5BB25F0E.task.7876638023035936188.title}"
+				title: "HV奖励"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -438,10 +438,10 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest20376281C4F33C1.subtitle}"
+			subtitle: "看到那个粗蕴魔没，该跑蕴魔线了"
 			tasks: [{
 				id: "5C3B8FDDB953A3EE"
-				title: "{ftbquests.chapter.449FB885B9E16D50.quest20376281C4F33C1.task.6646063857575109614.title}"
+				title: "IV奖励"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -454,26 +454,26 @@
 				"296B425E09AA623B"
 				"020376281C4F33C1"
 			]
-			description: ["{ftbquests.chapter.449FB885B9E16D50.questC248F430ED4DE66.description1}"]
+			description: ["{已经快玩完&bBTNH了！}"]
 			id: "0C248F430ED4DE66"
 			rewards: [{
 				id: "690497C19D6237FA"
 				item: "ctnhmana:horizen_rune"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.questC248F430ED4DE66.subtitle}"
+			subtitle: "天顶领域大神"
 			tasks: [{
 				id: "706C3B2E90BABEDF"
-				title: "{ftbquests.chapter.449FB885B9E16D50.questC248F430ED4DE66.task.8100914900915371743.title}"
+				title: "LuV奖励"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.449FB885B9E16D50.questC248F430ED4DE66.title}"
+			title: "LuV奖励"
 			x: -5.0d
 			y: -5.0d
 		}
 		{
 			id: "146C0A035CE91390"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest146C0A035CE91390.subtitle}"
+			subtitle: "哇，lp真的很多"
 			tasks: [{
 				id: "71231DDBE3BF8A26"
 				item: "ctnhmana:eternal_well_of_suffer"
@@ -514,7 +514,7 @@
 		}
 		{
 			id: "55DDA9AC202E7DE3"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest55DDA9AC202E7DE3.subtitle}"
+			subtitle: "做出来这个玩意，你确实够疯狂"
 			tasks: [{
 				id: "42BE3DD0D38E8F02"
 				item: "ctnhmana:twisted_fusion_mkinfinity"
@@ -525,7 +525,7 @@
 		}
 		{
 			id: "4C316712DF28094D"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest4C316712DF28094D.subtitle}"
+			subtitle: "便宜的ZPM板子"
 			tasks: [{
 				id: "47E929326624B2A9"
 				item: "ctnhmana:mixin_will_processor_mainframe"
@@ -536,19 +536,19 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.449FB885B9E16D50.quest6D45CA16D8B8735C.description1}"
-				"{ftbquests.chapter.449FB885B9E16D50.quest6D45CA16D8B8735C.description2}"
-				"{ftbquests.chapter.449FB885B9E16D50.quest6D45CA16D8B8735C.description3}"
-				"{ftbquests.chapter.449FB885B9E16D50.quest6D45CA16D8B8735C.description4}"
-				"{ftbquests.chapter.449FB885B9E16D50.quest6D45CA16D8B8735C.description5}"
-				"{ftbquests.chapter.449FB885B9E16D50.quest6D45CA16D8B8735C.description6}"
-				"{ftbquests.chapter.449FB885B9E16D50.quest6D45CA16D8B8735C.description7}"
+				"{符文分级：}"
+				"{1级：火水地风}"
+				"{2级：四季}"
+				"{3级：七宗罪}"
+				"{4级：神话植物学符文}"
+				"{5级：CTNH符文（视域，扭曲，增殖，星光）}"
+				"{类星体符文单分一级}"
 			]
 			id: "6D45CA16D8B8735C"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest6D45CA16D8B8735C.subtitle}"
+			subtitle: "注意要同时消耗燃料和液态魔力，否则效率将除以5"
 			tasks: [{
 				id: "68C070A961DB9C10"
-				title: "{ftbquests.chapter.449FB885B9E16D50.quest6D45CA16D8B8735C.task.7548156848266517520.title}"
+				title: "魔力发电机器注意事项"
 				type: "checkmark"
 			}]
 			x: -21.0d
@@ -560,13 +560,13 @@
 				"74CB2CCC5BB25F0E"
 			]
 			id: "54F178E1BE071331"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest54F178E1BE071331.subtitle}"
+			subtitle: "太简单了没有奖励）"
 			tasks: [{
 				id: "62E9BFDC287EBEF5"
-				title: "{ftbquests.chapter.449FB885B9E16D50.quest54F178E1BE071331.task.7127438837583625973.title}"
+				title: "EV"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.449FB885B9E16D50.quest54F178E1BE071331.title}"
+			title: "EV奖励"
 			x: -5.0d
 			y: -9.0d
 		}
@@ -576,13 +576,13 @@
 				"0C248F430ED4DE66"
 			]
 			id: "6FD8BB36F3D80C1B"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest6FD8BB36F3D80C1B.subtitle}"
+			subtitle: "太简单了依旧没有奖励）"
 			tasks: [{
 				id: "017AA3EFFBA54587"
-				title: "{ftbquests.chapter.449FB885B9E16D50.quest6FD8BB36F3D80C1B.task.106577792311051655.title}"
+				title: "Zpm"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.449FB885B9E16D50.quest6FD8BB36F3D80C1B.title}"
+			title: "ZPM奖励"
 			x: -5.0d
 			y: -3.0d
 		}
@@ -603,16 +603,16 @@
 			}]
 			tasks: [{
 				id: "137888E0857F9E17"
-				title: "{ftbquests.chapter.449FB885B9E16D50.quest5A19FFA824CBEE20.task.1403021781819694615.title}"
+				title: "UV"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.449FB885B9E16D50.quest5A19FFA824CBEE20.title}"
+			title: "UV奖励"
 			x: -5.0d
 			y: -1.0d
 		}
 		{
 			id: "25157022F0421268"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest25157022F0421268.subtitle}"
+			subtitle: "其实还有"
 			tasks: [{
 				id: "14310B0358BC0568"
 				item: "gtceu:uhv_machine_casing"
@@ -623,16 +623,16 @@
 		}
 		{
 			id: "2F497F4992DEF6E2"
-			subtitle: "{ftbquests.chapter.449FB885B9E16D50.quest2F497F4992DEF6E2.subtitle}"
+			subtitle: "看此任务左上角~"
 			tasks: [{
 				id: "1B550F421DF0E063"
-				title: "{ftbquests.chapter.449FB885B9E16D50.quest2F497F4992DEF6E2.task.1969497188689043555.title}"
+				title: "工业血魔法多方块也在这里"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.449FB885B9E16D50.quest2F497F4992DEF6E2.title}"
+			title: "工业血魔法多方块在这里哦"
 			x: -17.0d
 			y: -17.0d
 		}
 	]
-	title: "{ftbquests.chapter.449FB885B9E16D50.title}"
+	title: "Mana多方块"
 }

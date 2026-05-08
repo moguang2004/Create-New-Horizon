@@ -53,13 +53,13 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest7D76859D3E40A235.subtitle}"
+			subtitle: "钢铁时代的证明"
 			tasks: [{
 				id: "1D632714EC01F7A6"
 				item: "ctpp:steel_mechanism"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.08AF6857D150C353.quest7D76859D3E40A235.title}"
+			title: "钢铁构件"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -76,7 +76,7 @@
 		{
 			dependencies: ["2D138FB6F66ED4D5"]
 			id: "4A20A744ACDB0ABF"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest4A20A744ACDB0ABF.subtitle}"
+			subtitle: "很多种子都能变成种子油"
 			tasks: [{
 				id: "27A801A962148FFC"
 				item: "gtceu:seed_oil_bucket"
@@ -90,7 +90,7 @@
 				"7D76859D3E40A235"
 				"64694E06DCC27AE1"
 			]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest680EE95FED0F46F5.description1}"]
+			description: ["{    给蒸汽引擎供水时，最好使用gt或者enderio的管道}"]
 			id: "680EE95FED0F46F5"
 			rewards: [{
 				count: 3
@@ -98,7 +98,7 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest680EE95FED0F46F5.subtitle}"
+			subtitle: "你即将进入第一次工业革命！"
 			tasks: [{
 				id: "0FE3911E3029D145"
 				item: "create:steam_engine"
@@ -120,7 +120,7 @@
 		}
 		{
 			id: "62BAC5BC588E4CAA"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest62BAC5BC588E4CAA.subtitle}"
+			subtitle: "通过磁场洞穴中的青钕和赤钕，或者是植物魔法的磁化透镜磁化获得"
 			tasks: [{
 				id: "3CD9D89EFFFDDA64"
 				item: "gtceu:magnetic_iron_ingot"
@@ -137,7 +137,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2D9F762371DEDF70"
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest2D9F762371DEDF70.subtitle}"
+			subtitle: "磁生电"
 			tasks: [
 				{
 					id: "18762930299222CA"
@@ -208,7 +208,7 @@
 				"54A490510D5FBA04"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest41E48BCAEAD9D47E.description1}"]
+			description: ["{    很酷，是吧？造出电路板的你终于可以迈入电力时代，感受科技的魅力吧！}"]
 			id: "41E48BCAEAD9D47E"
 			rewards: [
 				{
@@ -225,7 +225,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest41E48BCAEAD9D47E.subtitle}"
+			subtitle: "可以用来玩ctnh"
 			tasks: [{
 				id: "4642660A4797E594"
 				item: "gtceu:basic_electronic_circuit"
@@ -273,9 +273,9 @@
 		{
 			dependencies: ["3EFC30D1B3494B77"]
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest11CBD66BE7CCCAED.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest11CBD66BE7CCCAED.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest11CBD66BE7CCCAED.description3}"
+				"{机械涡轮的基础应力输出量为&a8192su&r（ULV），应力输出仓每提升一级，最大并行数x4。}"
+				"{  应力输出还与转子和转子支架有关，转子支架每升一级，支架效率提升10%（ULV为100%），转子的效率取决于转子的材料。}"
+				"{最终涡轮的总效率为 &a支架效率x转子的涡轮效率x（1 - 电压高于HV后损失的百分比）&r}"
 			]
 			icon: "ctpp:kinetic_steam_turbine"
 			id: "11CBD66BE7CCCAED"
@@ -293,7 +293,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest11CBD66BE7CCCAED.subtitle}"
+			subtitle: "一个好的涡轮转子，能够让你的涡轮发挥出最好的效果"
 			tasks: [
 				{
 					id: "4C40156588431040"
@@ -348,7 +348,7 @@
 				table_id: 1370906070305640911L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest4ADE322F099F1C88.subtitle}"
+			subtitle: "如果你已经被普通焦炉的速度搞的头昏脑涨，请试试高级焦炉"
 			tasks: [{
 				id: "7ED1ABAE538B0BC5"
 				item: "ctnhcore:advanced_coke_oven"
@@ -463,7 +463,7 @@
 				"2D9F762371DEDF70"
 				"13388DB5A507AB34"
 			]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest54A490510D5FBA04.description1}"]
+			description: ["{碳刷目前可以直接产生EU电了，它会输出LV级别的电力，你可以直接用GT的导线接到你的机器上了}"]
 			id: "54A490510D5FBA04"
 			rewards: [
 				{
@@ -480,10 +480,10 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest54A490510D5FBA04.subtitle}"
+			subtitle: "这是一台通过磁力产生电力的机器"
 			tasks: [{
 				id: "29E3903D7F9732A1"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest54A490510D5FBA04.task.3018414769076384417.title}"
+				title: "第一台发电设备"
 				type: "checkmark"
 			}]
 			x: 7.0d
@@ -492,19 +492,19 @@
 		{
 			dependencies: ["7D76859D3E40A235"]
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.description3}"
-				"{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.description4}"
-				"{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.description5}"
+				"{    格雷科技多方块结构由3部分组成：主方块，仓室和结构方块。}"
+				"{ &6   主方块&r（又称为多方块控制器）是多方块结构的核心，一般具有ui，可以查看多方块机器的工作状态；}"
+				"{ &6   仓室&r是为多方块机器进行输入输出或执行其他功能的方块;}"
+				"{ &6   结构方块&r是不具有其他功能，只为了形成多方块结构而存在的方块。}"
+				"{    通过主方块的EMI页面可以看到多方块结构的指导，其中可以查看哪些位置的结构方块可以被替换成仓室。}"
 			]
 			id: "6AD97B17E0ECA129"
 			shape: "square"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.subtitle}"
+			subtitle: "很重要！"
 			tasks: [{
 				id: "1DFBF4F07F173929"
-				title: "{ftbquests.chapter.08AF6857D150C353.quest6AD97B17E0ECA129.task.2160589760015841577.title}"
+				title: "多方块结构"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -529,7 +529,7 @@
 		}
 		{
 			dependencies: ["3EFC30D1B3494B77"]
-			description: ["{ftbquests.chapter.08AF6857D150C353.quest66616CA6C0C95B0B.description1}"]
+			description: ["{记得多放几个仓室哦~}"]
 			id: "66616CA6C0C95B0B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -538,7 +538,7 @@
 				type: "random"
 			}]
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.08AF6857D150C353.quest66616CA6C0C95B0B.subtitle}"
+			subtitle: "臭臭的"
 			tasks: [{
 				id: "767215D7A25C05EF"
 				item: "ctnhcore:meadow"
@@ -550,14 +550,14 @@
 		{
 			dependencies: ["1DFBF4F07F173929"]
 			description: [
-				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description1}"
-				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description2}"
-				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description3}"
-				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description4}"
-				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description5}"
-				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description6}"
-				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description7}"
-				"{ftbquests.chapter.08AF6857D150C353.quest3EFC30D1B3494B77.description8}"
+				"{在做出第一个多方块结构前，Yuriko需要告诉你一些关于‘仓室’的事情~}"
+				"{输入总线：向多方块结构输入物品，可以调整电路}"
+				"{输入仓：向多方块结构输入流体，可以调整电路}"
+				"{输出总线：从多方块结构输出物品}"
+				"{输出仓：从多方块结构输出流体}"
+				"{&7应力输入箱：向多方块结构输入应力}"
+				"{&7机械升级仓：CT大机器的核心仓室，没有他就运行不了配方}"
+				"{以上就是这这些仓室的介绍啦~这里没有提及到的会在LV任务提及到哦~}"
 			]
 			id: "3EFC30D1B3494B77"
 			tasks: [{
@@ -579,5 +579,5 @@
 			y: -2.0d
 		}
 	]
-	title: "{ftbquests.chapter.08AF6857D150C353.title}"
+	title: "钢铁雄心"
 }

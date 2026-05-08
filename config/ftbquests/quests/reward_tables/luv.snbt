@@ -11,5 +11,5 @@
 		{ count: 16, item: "gtceu:osmiridium_dust" }
 		{ count: 16, item: "gtceu:indium_tin_barium_titanium_cuprate_dust" }
 	]
-	title: "{ftbquests.loot_table.846882859033216508.title}"
+	title: "LuV奖励"
 }

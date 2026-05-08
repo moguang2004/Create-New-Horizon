@@ -19,13 +19,13 @@
 				elevate_perms: true
 				icon: "minecraft:iron_ingot"
 				id: "2E9EFC15A51DD85A"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest2D629AE957D81663.reward.3359399541959678042.title}"
+				title: "获得铁锭进货单"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "2F57CE68FB752EF4"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest2D629AE957D81663.task.3411422193047121652.title}"
+				title: "铁锭"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -42,13 +42,13 @@
 				elevate_perms: true
 				icon: "minecraft:copper_ingot"
 				id: "78E99FE894D1D315"
-				title: "{ftbquests.chapter.4EE5451097565A1A.questC6A5C27AD28AAC3.reward.8712670775402943253.title}"
+				title: "获取铜锭进货单"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "6697A33D7EF89AC1"
-				title: "{ftbquests.chapter.4EE5451097565A1A.questC6A5C27AD28AAC3.task.7392556797870512833.title}"
+				title: "铜锭"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -65,13 +65,13 @@
 				elevate_perms: true
 				icon: "minecraft:gold_ingot"
 				id: "4FC82A09C2AEE1D8"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest602579A896CC72A7.reward.5748891145747751384.title}"
+				title: "获取金锭进货单"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "288E72B28FBE1C95"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest602579A896CC72A7.task.2922399319451376789.title}"
+				title: "金锭"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -88,13 +88,13 @@
 				elevate_perms: true
 				icon: "gtceu:tin_ingot"
 				id: "70708B2BF697E27A"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest32605A7F439AB570.reward.8102128750576525946.title}"
+				title: "获取锡锭进货单"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "4DA6D68FE7F68FFC"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest32605A7F439AB570.task.5595395500614782972.title}"
+				title: "锡锭"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -111,13 +111,13 @@
 				elevate_perms: true
 				icon: "gtceu:zinc_ingot"
 				id: "56A801E383F3F2F0"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest6A30D5C2A3EDF450.reward.6244242960032199408.title}"
+				title: "获取锌锭进货单"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "10A6845657D139F7"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest6A30D5C2A3EDF450.task.1199791857116199415.title}"
+				title: "锌锭"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -134,13 +134,13 @@
 				elevate_perms: true
 				icon: "minecraft:ender_pearl"
 				id: "206247FCD42EA645"
-				title: "{ftbquests.chapter.4EE5451097565A1A.questB45896214F13658.reward.2333506708148495941.title}"
+				title: "末影珍珠"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "58B069BDAAEA2AF7"
-				title: "{ftbquests.chapter.4EE5451097565A1A.questB45896214F13658.task.6390724134575942391.title}"
+				title: "末影珍珠"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -157,13 +157,13 @@
 				elevate_perms: true
 				icon: "gtceu:wrought_iron_ingot"
 				id: "666D6EFEBAF48D70"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest3C7F3285E424B55B.reward.7380677404667448688.title}"
+				title: "锻铁锭"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "69CF2D0D3FD64B97"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest3C7F3285E424B55B.task.7624362229090372503.title}"
+				title: "锻铁锭"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -180,13 +180,13 @@
 				elevate_perms: true
 				icon: "minecraft:redstone"
 				id: "18BDBC8320A45766"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest742758F8B0253B78.reward.1782788298882963302.title}"
+				title: "红石"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "7E5B4FBDD76E3820"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest742758F8B0253B78.task.9104958748441327648.title}"
+				title: "红石"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -203,13 +203,13 @@
 				elevate_perms: true
 				icon: "gtceu:steel_ingot"
 				id: "35E93981060C5CAF"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest232568A83855DB3F.reward.3884699379898801327.title}"
+				title: "钢锭"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "55AA53054D84BD16"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest232568A83855DB3F.task.6172837521505172758.title}"
+				title: "钢锭"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -226,13 +226,13 @@
 				elevate_perms: true
 				icon: "gtceu:andesite_alloy_ingot"
 				id: "283EB62DE35352D5"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest21EAC6922F7AD1D3.reward.2899955518276850389.title}"
+				title: "安山合金锭"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "7A5A97AB1BB3689E"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest21EAC6922F7AD1D3.task.8816525981691111582.title}"
+				title: "安山合金锭"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -249,13 +249,13 @@
 				elevate_perms: true
 				icon: "gtceu:bronze_ingot"
 				id: "4454AEABA5988E05"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest7F5291B0CD3AFA62.reward.4923752344863673861.title}"
+				title: "青铜锭"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "2DA9B3A0BBAD0259"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest7F5291B0CD3AFA62.task.3290358505695674969.title}"
+				title: "青铜锭"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -272,13 +272,13 @@
 				elevate_perms: true
 				icon: "gtceu:brass_ingot"
 				id: "57B6DD330EAC015E"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest950C79A6AAC4B8A.reward.6320482338420293982.title}"
+				title: "黄铜锭"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "49241705B9BBA45E"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest950C79A6AAC4B8A.task.5270362777288680542.title}"
+				title: "黄铜锭"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -295,13 +295,13 @@
 				elevate_perms: true
 				icon: "gtceu:treated_wood_planks"
 				id: "4F27C83FC51A9B5F"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest587F5DD7CFFEBD6C.reward.5703747629303372639.title}"
+				title: "防腐木版"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "41077F5E87BD109D"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest587F5DD7CFFEBD6C.task.4685853981283258525.title}"
+				title: "防腐木版"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -318,13 +318,13 @@
 				elevate_perms: true
 				icon: "gtceu:coke_gem"
 				id: "763E6AC1F358378B"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest7221568FA9F69B4.reward.8520364926275434379.title}"
+				title: "焦煤"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "5700F7FB552F9273"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest7221568FA9F69B4.task.6269283340137763443.title}"
+				title: "焦煤"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -341,13 +341,13 @@
 				elevate_perms: true
 				icon: "minecraft:diamond"
 				id: "410F2BE3773F3293"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest1E0B75DA1DBFB761.reward.4688013993074176659.title}"
+				title: "钻石"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "7CCD6181C62D45E7"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest1E0B75DA1DBFB761.task.8992951240932279783.title}"
+				title: "钻石"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -364,13 +364,13 @@
 				elevate_perms: true
 				icon: "minecraft:coal"
 				id: "0102924B42DD66B9"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest213B14E3D0F81D33.reward.72781395933357753.title}"
+				title: "煤炭"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "0517C478A5A52099"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest213B14E3D0F81D33.task.366977917108166809.title}"
+				title: "煤炭"
 				type: "checkmark"
 			}]
 			x: -6.5d
@@ -386,13 +386,13 @@
 				elevate_perms: true
 				icon: "botania:rune_water"
 				id: "775EDE035BFDD52F"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest267B3ED5B4C140A3.reward.8601556444333856047.title}"
+				title: "水之符文"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "607BD27AEF3590CA"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest267B3ED5B4C140A3.task.6952381875217600714.title}"
+				title: "水之符文"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -408,13 +408,13 @@
 				elevate_perms: true
 				icon: "botania:rune_fire"
 				id: "0CC80426C24AC393"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest5F4FB9C28C2B9AA9.reward.920990688312214419.title}"
+				title: "火之符文"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "28452AEF89217804"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest5F4FB9C28C2B9AA9.task.2901772743196375044.title}"
+				title: "火之符文"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -430,13 +430,13 @@
 				elevate_perms: true
 				icon: "botania:rune_earth"
 				id: "3DC636D43D453438"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest2D865622C976F3C0.reward.4451305566891226168.title}"
+				title: "地之符文"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "48402B8A57B25694"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest2D865622C976F3C0.task.5206209042417079956.title}"
+				title: "地之符文"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -452,13 +452,13 @@
 				elevate_perms: true
 				icon: "botania:rune_air"
 				id: "569650102B343070"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest7D622DAE1C128D65.reward.6239262364142940272.title}"
+				title: "风之符文"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "6C391EC8C667D5DC"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest7D622DAE1C128D65.task.7798298077439710684.title}"
+				title: "风之符文"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -476,16 +476,16 @@
 				exclude_from_claim_all: true
 				icon: "gtceu:basic_electronic_circuit"
 				id: "16D7C02FB7CC0003"
-				title: "{ftbquests.chapter.4EE5451097565A1A.questE9EAF937AE1B376.reward.1645995500006801411.title}"
+				title: "基础电子电路"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "1C66C276FF74F641"
-				title: "{ftbquests.chapter.4EE5451097565A1A.questE9EAF937AE1B376.task.2046536897034253889.title}"
+				title: "基础电子电路"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.4EE5451097565A1A.questE9EAF937AE1B376.title}"
+			title: "基础电子电路"
 			x: -3.5d
 			y: -1.5d
 		}
@@ -501,16 +501,16 @@
 				exclude_from_claim_all: true
 				icon: "gtceu:good_electronic_circuit"
 				id: "26F2191AB61359E9"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest34347BA3B894CF01.reward.2806333120319805929.title}"
+				title: "优质电子电路"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "76ACB90D245912C2"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest34347BA3B894CF01.task.8551413258565259970.title}"
+				title: "电子电路"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.4EE5451097565A1A.quest34347BA3B894CF01.title}"
+			title: "优质电子电路"
 			x: -3.5d
 			y: -0.5d
 		}
@@ -526,25 +526,25 @@
 				exclude_from_claim_all: true
 				icon: "gtceu:basic_integrated_circuit"
 				id: "2B141941DA7D971F"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest6D45A49BE59F6AEA.reward.3104133813794346783.title}"
+				title: "基础集成电路"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "53DEC3128DBBCB8F"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest6D45A49BE59F6AEA.task.6043482234432506767.title}"
+				title: "基础集成电路"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.4EE5451097565A1A.quest6D45A49BE59F6AEA.title}"
+			title: "基础集成电路"
 			x: -3.5d
 			y: 0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.4EE5451097565A1A.quest1C3C3C4744816CE8.description1}"]
+			description: ["{    这里每一个任务都会在完成了对应的前置任务后解锁（即达到一定的发展水平），&a解锁后任务可以无限次完成&r，任务奖励是对应物品的进货清单，将清单放入购买机里，并且提供足够的资金，就会自动进行购买，购买物品。依据进购买机的种类不同，有应力驱动和电力驱动的两种不同的购买机器。}"]
 			id: "1C3C3C4744816CE8"
 			tasks: [{
 				id: "27E7AE2167CB7FBA"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest1C3C3C4744816CE8.task.2875458345597894586.title}"
+				title: "使用说明"
 				type: "checkmark"
 			}]
 			x: -9.5d
@@ -553,9 +553,9 @@
 		{
 			dependencies: ["1C3C3C4744816CE8"]
 			description: [
-				"{ftbquests.chapter.4EE5451097565A1A.quest37312E850B5CC7D7.description1}"
+				"{有“进口价”的物品可购买，有“出口价”的物品可出售。}"
 				""
-				"{ftbquests.chapter.4EE5451097565A1A.quest37312E850B5CC7D7.description2}"
+				"{购买物品的进口清单需要从旁边的任务里领取，出售物品的出口清单需要你制作出口清单并写入内容，或者直接使用本任务奖励的通用出口清单}"
 			]
 			id: "37312E850B5CC7D7"
 			rewards: [{
@@ -591,13 +591,13 @@
 				exclude_from_claim_all: true
 				icon: "ctpp:basic_mechanism"
 				id: "3472625E788BE23C"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest21F87196C3E7DF8A.reward.3779191195206148668.title}"
+				title: "基础构件"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "70C579FCC8D07B66"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest21F87196C3E7DF8A.task.8126035229267753830.title}"
+				title: "基础构件"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -615,13 +615,13 @@
 				exclude_from_claim_all: true
 				icon: "create:precision_mechanism"
 				id: "0C507109DC64680E"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest45E35DCAA656C4F5.reward.887333413758199822.title}"
+				title: "精密构件"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "5EBD7EB07F576D60"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest45E35DCAA656C4F5.task.6826751906679319904.title}"
+				title: "精密构件"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -639,13 +639,13 @@
 				exclude_from_claim_all: true
 				icon: "ctpp:steel_mechanism"
 				id: "5D95DF852960F661"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest187611E1082EC8E1.reward.6743541780075050593.title}"
+				title: "钢铁构件"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "64B1AF9334CE5D7E"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest187611E1082EC8E1.task.7255773521451572606.title}"
+				title: "钢铁构件"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -663,13 +663,13 @@
 				exclude_from_claim_all: true
 				icon: "create:cogwheel"
 				id: "157802B441B40DDE"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest68FF825294F5F1F7.reward.1546989445221453278.title}"
+				title: "齿轮"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "24F0C2A832DB70B3"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest68FF825294F5F1F7.task.2661841407439499443.title}"
+				title: "小齿轮"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -687,13 +687,13 @@
 				exclude_from_claim_all: true
 				icon: "create:large_cogwheel"
 				id: "24CC8DB5079FBACB"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest1D1A98A1BB440FD5.reward.2651650089270885067.title}"
+				title: "大齿轮"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "7D2EED24BEC795CC"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest1D1A98A1BB440FD5.task.9020407845745038796.title}"
+				title: "大齿轮"
 				type: "checkmark"
 			}]
 			x: -3.5d
@@ -711,24 +711,24 @@
 				exclude_from_claim_all: true
 				icon: "gtceu:chromium_dust"
 				id: "0D2B3DC12B456C90"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest2C3AA089B3CF8E44.reward.948920046355573904.title}"
+				title: "铬粉"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "4C91B7B75CF14638"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest2C3AA089B3CF8E44.task.5517393016671782456.title}"
+				title: "铬粉"
 				type: "checkmark"
 			}]
 			x: -3.5d
 			y: 6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.4EE5451097565A1A.quest7F9FAB58AA9BE300.description1}"]
+			description: ["{可出口物品主要为食物原材料以及部分加工食物，具体为mc原版所有食物，农夫乐事原版以及暮色乐事等模组中的部分食物，剩余的没有标价的食材大家可以给制作组提出一些定价意见。}"]
 			id: "7F9FAB58AA9BE300"
 			tasks: [{
 				id: "5E79AAD336CDA6A4"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest7F9FAB58AA9BE300.task.6807660135881483940.title}"
+				title: "可出口物品"
 				type: "checkmark"
 			}]
 			x: -9.5d
@@ -801,13 +801,13 @@
 					}
 				}
 				id: "2C872C54F5AF6A72"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest472FEB1301D00DA4.reward.3208582002935556722.title}"
+				title: "玫瑰金采矿锤"
 				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "440FD5A96B0DF23D"
-				title: "{ftbquests.chapter.4EE5451097565A1A.quest472FEB1301D00DA4.task.4904373442852024893.title}"
+				title: "玫瑰金采矿锤"
 				type: "checkmark"
 			}]
 			x: -11.5d
@@ -815,7 +815,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["{ftbquests.chapter.4EE5451097565A1A.quest2B7030D2B7A80C16.description1}"]
+			description: ["{    在村庄的图书馆中找到了《一种基于外星微生物培养基的AE-EU能量存储与传递技术》}"]
 			icon: "ctnhenergy:eu_cell_housing"
 			id: "2B7030D2B7A80C16"
 			rewards: [{
@@ -833,12 +833,12 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.4EE5451097565A1A.quest2B7030D2B7A80C16.subtitle}"
+			subtitle: "村民向你分享了先进技术"
 			tasks: [{
 				id: "3D4CF13849F643CB"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.4EE5451097565A1A.quest2B7030D2B7A80C16.title}"
+			title: "EU存储元件外壳"
 			x: -9.5d
 			y: 7.0d
 		}
