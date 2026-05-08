@@ -8,20 +8,25 @@
 	order_index: 2
 	quest_links: [
 		{
-			id: "3BD5D147B83CEEE0"
-			linked_quest: "2F497F4992DEF6E2"
-			x: 4.0d
-			y: 1.0d
+			id: "201E8191E9CFE196"
+			linked_quest: "020A570A2EC3EE8B"
+			size: 2.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
-			id: "08BA50E95EDEE348"
-			linked_quest: "4A0AC9C14C9F5EFD"
-			x: -4.0d
-			y: 3.0d
+			id: "0F6EC6D1884C72A0"
+			linked_quest: "0598D6FDA6319592"
+			x: -6.0d
+			y: 0.0d
 		}
 	]
 	quests: [
 		{
+			dependencies: [
+				"76036AE6CE23B158"
+				"020A570A2EC3EE8B"
+			]
 			description: [
 				"{建议配合魔艺的治疗食用}"
 				"{血魔法，启动！}"
@@ -38,7 +43,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4CA3E4766B67C12B"]
+			dependencies: [
+				"4CA3E4766B67C12B"
+				"3F4E18CC915C0DF7"
+			]
 			description: [""]
 			id: "0609BF460D2F4A65"
 			subtitle: "套娃基本"
@@ -143,12 +151,10 @@
 			size: 1.5d
 			subtitle: "还差一点！"
 			tasks: [{
-				count: 4L
-				id: "5008AE4DE5FF7477"
-				item: { Count: 4, id: "bloodmagic:dungeon_metal" }
-				type: "item"
+				id: "647C516FB78EF9CA"
+				title: "五阶血魔法祭坛"
+				type: "checkmark"
 			}]
-			title: "五阶血魔法祭坛"
 			x: 0.0d
 			y: 15.0d
 		}
@@ -207,7 +213,7 @@
 				"{其实需要也不需要}"
 			]
 			id: "4ADCAEB3CD34CF1F"
-			subtitle: "你最好学学怎么自动化这玩意"
+			subtitle: "你最好不要学学这玩意的自动化"
 			tasks: [{
 				id: "65A1880075AC0EE7"
 				item: "bloodmagic:alchemytable"
@@ -251,7 +257,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["644281CF6FC3F315"]
+			dependencies: ["70E4601DCD90C9B7"]
 			id: "54F222C25D6B8E0D"
 			tasks: [{
 				id: "3B0C643D481C3AB9"
@@ -262,15 +268,15 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["644281CF6FC3F315"]
+			dependencies: ["70E4601DCD90C9B7"]
 			id: "22B1D010680D4495"
 			tasks: [{
 				id: "3949349515BE8CC1"
 				item: "bloodmagic:reagentgrowth"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.5d
+			x: -7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4ADCAEB3CD34CF1F"]
@@ -329,7 +335,7 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["644281CF6FC3F315"]
+			dependencies: ["70E4601DCD90C9B7"]
 			id: "0FB5208824A8EA1B"
 			tasks: [{
 				id: "31972043610835A9"
@@ -351,15 +357,15 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["644281CF6FC3F315"]
+			dependencies: ["70E4601DCD90C9B7"]
 			id: "7632CF94D3990F80"
 			tasks: [{
 				id: "6FB6D10CB479DECD"
 				item: "bloodmagic:reagentholding"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 9.5d
+			x: -7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["702FDB7F8E805AAF"]
@@ -416,7 +422,7 @@
 				item: "bloodmagic:magicianbloodorb"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 9.0d
 		}
 		{
@@ -478,11 +484,11 @@
 				item: "bloodmagic:selfsacrificerune"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["53B9F9C945B0BB33"]
+			dependencies: ["771C2EE93ADC202F"]
 			id: "2205E2EAF55B52F7"
 			subtitle: "加快源质输入输出速度"
 			tasks: [{
@@ -490,11 +496,11 @@
 				item: "bloodmagic:dislocationrune"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 8.5d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["53B9F9C945B0BB33"]
+			dependencies: ["771C2EE93ADC202F"]
 			id: "1F377D5E29181294"
 			subtitle: "增加上限"
 			tasks: [{
@@ -503,7 +509,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 9.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -589,7 +595,7 @@
 		{
 			dependencies: [
 				"354B0216A8912589"
-				"0A81CFBAA57DCC85"
+				"5E3A1F38D3796B1D"
 			]
 			id: "0F512DA4AB819FDA"
 			tasks: [{
@@ -648,8 +654,8 @@
 			dependencies: ["6F2B10DEE6CC1CEB"]
 			id: "2CB5BF1DDC96E8D0"
 			tasks: [{
-				id: "3EB08BDAD9626D8D"
-				item: "bloodmagic:dungeon_ore"
+				id: "148B760455843317"
+				item: "bloodmagic:ingot_hellforged"
 				type: "item"
 			}]
 			x: 4.0d
@@ -664,7 +670,7 @@
 				item: "bloodmagic:minekey"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 17.0d
 		}
 		{
@@ -710,7 +716,7 @@
 				type: "checkmark"
 			}]
 			title: "Mark of the Falling tower"
-			x: 7.0d
+			x: 7.5d
 			y: 11.0d
 		}
 		{
@@ -727,7 +733,7 @@
 				title: "孤魂集会"
 				type: "checkmark"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 11.0d
 		}
 		{
@@ -741,8 +747,8 @@
 				title: "碎晶裂纹"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: 11.0d
+			x: 10.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["11B6FE0A5C38B474"]
@@ -799,7 +805,7 @@
 				item: "bloodmagic:daggerofsacrifice"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
@@ -813,7 +819,7 @@
 				title: "无尽之域"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 15.0d
 		}
 		{
@@ -830,18 +836,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["4D87401DC0DD0EE2"]
-			id: "644281CF6FC3F315"
-			tasks: [{
-				id: "36272F4E99C3CE66"
-				title: "tier2 试剂"
-				type: "checkmark"
-			}]
-			x: -5.0d
-			y: 9.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["3556C60FA39E90EF"]
@@ -902,8 +897,8 @@
 				item: "bloodmagic:corrosivecrystal"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 11.0d
+			x: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4CAF15A55CACB620"]
@@ -935,33 +930,36 @@
 				item: "bloodmagic:steadfastcrystal"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 15.0d
+			x: 11.0d
+			y: 14.0d
 		}
 		{
-			dependencies: ["4CA3E4766B67C12B"]
+			dependencies: ["2E0983CC5E00B72D"]
+			description: [
+				"它工作需要意志，而意志需要你使用感知之剑击杀怪物，但是感知之剑需要意志......"
+				"也许你需要&1隐域之缘&r仪式去找一些启动资金"
+			]
 			id: "7533CEF4D917083F"
+			subtitle: "用灵魂来铸造"
 			tasks: [{
 				id: "799349CA0E92C6C3"
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
-			dependencies: [
-				"698470A3BFEFBCD4"
-				"7533CEF4D917083F"
-			]
+			dependencies: ["7533CEF4D917083F"]
+			description: ["等四级祭坛再做"]
 			id: "0A81CFBAA57DCC85"
-			subtitle: "必做"
+			subtitle: "把意志逸散出去"
 			tasks: [{
 				id: "0AA889869BA9FAD4"
 				item: "bloodmagic:demoncrucible"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 8.0d
 			y: 9.0d
 		}
 		{
@@ -1007,8 +1005,8 @@
 				item: "bloodmagic:hellforgedparts"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 17.0d
+			x: 6.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6D683CDE5D679C32"]
@@ -1023,26 +1021,22 @@
 				item: "bloodmagic:speedrune2"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 17.0d
+			x: 8.0d
+			y: 19.0d
 		}
 		{
 			dependencies: [
-				"42F7EB2A3B7E87B4"
 				"2A5B367B62F87075"
 				"513CDE2822C27E26"
+				"60675C6A605BF9F0"
 			]
-			description: [
-				"{在5级祭坛的基础上，继续向外延伸3格，向下一格，每一边共19个符文，角落是石砖柱，最顶端是生命逻辑传感机械方块，它的高度要高于血之祭坛三格。}"
-				""
-				"{你也可以通过工业血之祭坛EMI里P:4的多方块结构来确定6级祭坛的摆放方法。}"
-			]
+			description: ["{你可以参照工业血祭坛T6的结构来摆放，T6需要的方块是生命逻辑机械方块}"]
 			icon: "bloodmagic:altar"
 			id: "0379412BFDFE99FE"
 			size: 1.5d
 			subtitle: "结束了"
 			tasks: [{
-				id: "782A603F94414C59"
+				id: "1618820DC099898D"
 				title: "六阶血魔法祭坛"
 				type: "checkmark"
 			}]
@@ -1081,16 +1075,6 @@
 			y: 23.0d
 		}
 		{
-			id: "42F7EB2A3B7E87B4"
-			tasks: [{
-				id: "27699E7170426E7C"
-				item: "ctnhmana:bloodlogic_casing"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 17.0d
-		}
-		{
 			dependencies: ["78C75CD9990F3C59"]
 			description: ["{    激活后，每25tick往电池箱（默认范围为主仪式石上方，可通过仪式调整杖调整）中的电池充电204800EU的电量（平均8192EU/t，即4A&5EV&r），同时会消耗气血宝珠25000的lp}"]
 			icon: "bloodmagic:upgradetome"
@@ -1107,7 +1091,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["04490059A9F4DB88"]
+			dependencies: ["75D5802C8636D770"]
+			description: ["你吃了这么多血魔法不就是为了这个吗？"]
 			id: "177A9DF4D82B534D"
 			subtitle: "量产下界之星"
 			tasks: [{
@@ -1127,8 +1112,9 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 13.0d
+			title: "凋零灵魂瓶"
+			x: 13.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["4ADCAEB3CD34CF1F"]
@@ -1156,6 +1142,736 @@
 			x: 4.0d
 			y: 5.0d
 		}
+		{
+			id: "70E4601DCD90C9B7"
+			subtitle: "右键方块来绘制奥术仪式"
+			tasks: [{
+				id: "2AB9F6EE7593B7C4"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0FB5208824A8EA1B"
+				"3068FB501BCB921F"
+			]
+			id: "53311F606CAE8ED7"
+			subtitle: "右键可以显示自己灵魂网络LP量,也可以看到血祭坛信息"
+			tasks: [{
+				id: "4D9F77D1188E0B65"
+				item: "bloodmagic:seersigil"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			id: "3068FB501BCB921F"
+			subtitle: "盗版预言印记"
+			tasks: [{
+				id: "53C98BF09A63D3FC"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7533CEF4D917083F"]
+			id: "4F38435FD41AD0CA"
+			rewards: [{
+				id: "0D9B2016D249C809"
+				item: {
+					Count: 1
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 22.226694107055664d
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "它真的很mini"
+			tasks: [{
+				id: "25EA564FA7BB016C"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4F38435FD41AD0CA"]
+			description: ["使用该武器击杀怪物将会转化未其生命值/20的&b普通&r意志，无法装进魂石的意志会变为实体掉落"]
+			id: "200F6D5D15CE9168"
+			rewards: [{
+				id: "39D46BF0F25B9FE9"
+				item: {
+					Count: 1
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 22.226694107055664d
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "我已顿悟"
+			tasks: [{
+				id: "5E989710727D662E"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["698470A3BFEFBCD4"]
+			description: ["现在你可以直接消耗LP来代替魔源消耗了，这也太恐怖了吧？"]
+			id: "7ABDECFC2C0AB976"
+			subtitle: "黑暗秘籍"
+			tasks: [{
+				id: "5126386167D11CF5"
+				item: "tomeofblood:archmage_tome_of_blood"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F38435FD41AD0CA"]
+			id: "1FB775A0BD4DA5A6"
+			subtitle: "PS:放在合成栏位的魂石也可以当意志供给源"
+			tasks: [{
+				id: "07D178E7EC67E39C"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: {
+						souls: 256.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1FB775A0BD4DA5A6"]
+			id: "14B404BEEFD115C4"
+			subtitle: "套娃游戏，素来如此"
+			tasks: [{
+				id: "6DA1C381B33817E9"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 1024.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["14B404BEEFD115C4"]
+			id: "24AC43A2A92B8C40"
+			subtitle: "有完没完？"
+			tasks: [{
+				id: "0CB6CD1EB75B8A7C"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 4096.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CA3E4766B67C12B"]
+			id: "45160E8D60A2ACC8"
+			subtitle: "奇怪的材料"
+			tasks: [{
+				id: "0A8E831211B406F1"
+				item: "gtceu:coagulbloodgold_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["45160E8D60A2ACC8"]
+			description: [
+				"工业血祭坛是你在二级血祭坛就可以制作的多方块机器，它依托于血祭坛结构，直接消耗血祭坛的LP"
+				""
+				"它本身拥有多级结构，并且会根据等级增强血祭坛和所有符文效果。同时你可以使用输入仓注入LP，注入的LP会被转移至血祭坛里（受到转位符文增幅）"
+				""
+				"当然，工业血也有一些独有配方,剩下的就交给你自己探索了。别忘了升级你的血祭坛的同时升级你的工业血（就是有点贵XD）"
+			]
+			id: "666E8DD319606B89"
+			rewards: [{
+				count: 64
+				id: "236A8F4194A008A6"
+				item: "gtceu:coagulbloodgold_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "机械升华"
+			tasks: [{
+				id: "34722BCC689F11B9"
+				item: "ctnhmana:industrial_altar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1EC01B6742E428EA"
+				"63C1CDADDBC77ABD"
+			]
+			id: "4826F8156856DA0A"
+			subtitle: "可以帮你跳一点隔壁生物线，主要用于大量生产液态LP"
+			tasks: [{
+				id: "34FD20EB1882534F"
+				item: "ctnhmana:hv_digital_well_of_suffer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4312505AADC17B82"]
+			id: "1EC01B6742E428EA"
+			subtitle: "它已经废掉了，只能帮你提升一级"
+			tasks: [{
+				id: "218F6972CB43D906"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			id: "4312505AADC17B82"
+			subtitle: "用于创建生物模型"
+			tasks: [{
+				id: "6212EC4B8E970C40"
+				item: "hostilenetworks:blank_data_model"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0598D6FDA6319592"]
+			id: "3F4E18CC915C0DF7"
+			rewards: [{
+				count: 64
+				id: "2326532329D71A90"
+				item: "ctnhmana:blank_rune"
+				type: "item"
+			}]
+			subtitle: "EMPTY"
+			tasks: [{
+				id: "6C57F611DE9F6C4E"
+				item: "ctnhmana:blank_rune"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["698470A3BFEFBCD4"]
+			id: "5E3A1F38D3796B1D"
+			rewards: [{
+				count: 16
+				id: "1E2C3D94EAD9A29C"
+				item: "gtceu:hemoplatinum_ingot"
+				type: "item"
+			}]
+			subtitle: "听起来像血泊"
+			tasks: [{
+				id: "015A3FCAFF64363D"
+				item: "gtceu:hemoplatinum_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6D319978414D13A6"
+				"76570642BA21C170"
+			]
+			description: ["非常奇特的一步铂处，你真的要这么做吗？"]
+			id: "135B6CB0C85A7BF4"
+			subtitle: "净化？？？"
+			tasks: [{
+				id: "5CA93EA5D920C0C4"
+				item: "gtceu:platinum_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			id: "60675C6A605BF9F0"
+			tasks: [{
+				id: "4FDD6A722ACA10D1"
+				item: "ctnhmana:bloodlogic_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["698470A3BFEFBCD4"]
+			id: "0B283BB6A4AACE52"
+			subtitle: "它用于制作后续的工业方块（和电路）"
+			tasks: [{
+				id: "0FBBDB3CD0BE9107"
+				item: "ctnhmana:blood_resistor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4FB0ED1876AEC963"]
+			id: "3B22F2B224430AEB"
+			tasks: [{
+				id: "489F5E4B9ED0E049"
+				item: "ctnhmana:etching_jade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4FB0ED1876AEC963"]
+			id: "214766A24BEE383A"
+			tasks: [{
+				id: "228D2ECFB8AC307B"
+				item: "ctnhmana:suppression_jade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FB0ED1876AEC963"]
+			id: "730E96502C8BC56C"
+			tasks: [{
+				id: "5F33602BAD113D84"
+				item: "ctnhmana:ephemeral_jade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["666E8DD319606B89"]
+			id: "4FB0ED1876AEC963"
+			subtitle: "但是它们可以帮你强化血祭坛，并且运行一些独特的配方"
+			tasks: [{
+				id: "5F90801743F26C56"
+				title: "可惜它们并不能帮你显示信息"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B22F2B224430AEB"]
+			id: "5AE3AC0408E00BFB"
+			subtitle: "血魔法电路！"
+			tasks: [{
+				id: "1E47DED0C5654BC4"
+				item: "ctnhmana:rune_circuit_board"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B22F2B224430AEB"]
+			id: "68703116489DC9AB"
+			tasks: [{
+				id: "45C96CBE6C380539"
+				item: "ctnhmana:bloody_wafer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5AE3AC0408E00BFB"
+				"68703116489DC9AB"
+				"214766A24BEE383A"
+			]
+			id: "212EE277AA423799"
+			rewards: [{
+				id: "66DE06D068210F19"
+				item: "ctnhmana:bloody_nano_processor_mainframe"
+				type: "item"
+			}]
+			subtitle: "在HV时期做LUV电路，但是你真的有必要这样做吗"
+			tasks: [{
+				id: "34AAF33BA96035D7"
+				item: "ctnhmana:bloody_nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: ["他有什么用呢（笑）"]
+			id: "2DE92992D928DD1E"
+			subtitle: "一只普普通通的，寰宇剑都砍不死的人偶"
+			tasks: [{
+				id: "6D307D13497C094F"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"33881CA92F4B2208"
+				"6539D7C32A8FF791"
+			]
+			id: "75D5802C8636D770"
+			subtitle: "工业化折磨"
+			tasks: [{
+				id: "7636DB812057BA97"
+				item: "ctnhmana:hellforge"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4CA3E4766B67C12B"]
+			id: "19EF268B53CB540C"
+			subtitle: "你需要等到可以获取意志才能好好使用这个升级"
+			tasks: [{
+				id: "186C18D7D2C64F9C"
+				item: "ctnhmana:twisted_blood_forging"
+				type: "item"
+			}]
+			title: "魔力凝聚仓 血魔法升级"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "33881CA92F4B2208"
+			subtitle: "用机械动力来自动化的难度不会高于附魔工业的蠹虫经验机"
+			tasks: [{
+				id: "1B53A9C48FC46032"
+				item: "bloodmagic:doubt_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"75D5802C8636D770"
+				"0331837732A30541"
+			]
+			id: "2D43FE85CF240C02"
+			subtitle: "你明白的"
+			tasks: [{
+				id: "01959CB7DB300758"
+				item: "ctnhmana:will_wafer"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"207DABC1DBD7287F"
+				"0ED830AB18199612"
+				"36C7B85FC1FE70AC"
+				"443DDC44E5531AB7"
+			]
+			id: "0331837732A30541"
+			subtitle: "超级LUV导线，至于超导，那12EU的损耗真的有必要节省吗("
+			tasks: [{
+				id: "45310986E450AC67"
+				item: "gtceu:primovolithest_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2D43FE85CF240C02"]
+			id: "705FEEC6DCE24C85"
+			subtitle: "极为便宜的IV处理器"
+			tasks: [{
+				id: "68766ADC3410A42E"
+				item: "ctnhmana:will_crystal_processor"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2D43FE85CF240C02"]
+			description: ["大&m风车你丫转呀转呀转，这里的意志啊真好看&r"]
+			id: "56E846A9B3605406"
+			rewards: [{
+				id: "65DC40C3207599F0"
+				item: "ctnhmana:mixin_will_processor_mainframe"
+				type: "item"
+			}]
+			subtitle: "它太帅了，它还是ZPM电路！"
+			tasks: [{
+				id: "7514CAFC1EA61337"
+				item: "ctnhmana:mixin_will_processor_mainframe"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2D43FE85CF240C02"]
+			id: "6F32381AEAC5C567"
+			rewards: [{
+				count: 6
+				id: "7A2D988300316C2B"
+				item: "ctnhmana:bloody_nano_processor_mainframe"
+				type: "item"
+			}]
+			subtitle: "你就说一次做6个夸不夸张把"
+			tasks: [{
+				id: "4ACDC4561BE76199"
+				item: "ctnhmana:bloody_nano_processor_mainframe"
+				type: "item"
+			}]
+			title: "血染SOC？？？"
+			x: 18.0d
+			y: 13.0d
+		}
+		{
+			description: [
+				"这个舱室拥有更高的LP转化率，同时可以以较低速率把你的液态LP转化为魔力能量"
+				""
+				"你的血魔法机器将强制只能使用这类舱室"
+			]
+			id: "6539D7C32A8FF791"
+			subtitle: "哦，血魔法~"
+			tasks: [{
+				id: "6D3FB59C022A055D"
+				item: "ctnhmana:bloodmanahatch"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["68506B3372A8677F"]
+			id: "76C1B11E03901628"
+			subtitle: "哦，血魔法~~~~~~~~"
+			tasks: [{
+				id: "50FB76B7BAF23D71"
+				item: "ctnhmana:soulmanahatch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["33881CA92F4B2208"]
+			id: "1C083BF26DB765B2"
+			subtitle: "它可以和工业锻炉拼合，拼合后它就可以往里面直接输入意志"
+			tasks: [{
+				id: "098A6002D15C4DB1"
+				item: "ctnhmana:eternal_well_of_suffer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["68506B3372A8677F"]
+			id: "4B9440AE24A67228"
+			subtitle: "250%加速，无损超频能做到吗？"
+			tasks: [{
+				id: "729B753C3078B7AF"
+				item: "ctnhmana:twisted_soul_forging"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["68506B3372A8677F"]
+			id: "18BCA35F7A0FC520"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "不，才刚刚开始"
+			tasks: [{
+				id: "350581CEDDCCB3D4"
+				item: "gtceu:zenith_essence_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["177A9DF4D82B534D"]
+			id: "5EF0D37388B3B73D"
+			subtitle: "你是？"
+			tasks: [{
+				id: "4641FD89315CE6A3"
+				item: "mythicbotany:wither_aconite"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["33F3CD3FB3033DE3"]
+			id: "37CEC0066B82015B"
+			subtitle: "说实话，用处不大"
+			tasks: [{
+				id: "7A50A01B14722865"
+				item: "ctnhmana:boss_summoner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37CEC0066B82015B"]
+			description: ["这时候它挺有用的"]
+			id: "094F662642FF3573"
+			subtitle: "他确实也没什么用，但是你前期可以在一个神秘结构获取"
+			tasks: [{
+				id: "31E879411914203D"
+				item: "ctnhmana:advanced_boss_summoner"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37CEC0066B82015B"]
+			description: [
+				"在启动后，可以丢出来一个神话BOSS召唤器 然后一次性召唤巨量神话boss "
+				""
+				"......这有啥用？"
+			]
+			icon: "bloodmagic:upgradetome"
+			id: "666D7DD656EA8B89"
+			tasks: [{
+				id: "7C2F0B601AAEACDB"
+				title: "战争浪潮仪式"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11B6FE0A5C38B474"]
+			description: ["它会消耗区块里的意志来增强龙息，我怎么感觉是负面效果？"]
+			icon: "bloodmagic:upgradetome"
+			id: "3634BDBDACC38B6B"
+			subtitle: "制造一团龙息 就这么简单"
+			tasks: [{
+				id: "04AB66186C2AD184"
+				title: "龙吟仪式"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"15ECE744BCDDC1B4"
+				"11B6FE0A5C38B474"
+			]
+			description: [
+				"他会秒杀周围的动物，然后产出随机宝石"
+				""
+				"宝石的数量和品质受到区块意志影响，消耗意志会增强这个仪式"
+				""
+				"&4重要：这个仪式击杀亚尔夫海姆精灵会固定掉落灵界髓质，这是你天顶线的重要材料！"
+			]
+			icon: "bloodmagic:upgradetome"
+			id: "5B9F9B7DEA237F1E"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "重要仪式"
+			tasks: [{
+				id: "6E0A71F5D240BCBA"
+				title: "生灵萃取仪式"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["11B6FE0A5C38B474"]
+			description: [
+				"消耗周围玩家的经验，将龙息转化为活化龙息，要求玩家至少有100级"
+				""
+				"&5如果你没有领悟虚境的奥妙，你可能会被各种效果折磨，但反正挂机就完事了，不是吗？&r"
+			]
+			icon: "bloodmagic:upgradetome"
+			id: "5D632DB94781759E"
+			subtitle: "转化龙息"
+			tasks: [{
+				id: "5DC40E9AEF3CC208"
+				title: "虚境凝视的仪式"
+				type: "checkmark"
+			}]
+			title: "虚境凝视仪式"
+			x: 7.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5B9F9B7DEA237F1E"]
+			description: ["也许你需要一些更高级的蚀刻方法，比如反相蚀刻，不过即使这样，你还是需要一条处理线才能获得完美的那个宝石"]
+			id: "64ADF578107342EE"
+			subtitle: "为什么没办法将它蚀刻？"
+			tasks: [{
+				id: "6716806C4AD0A44D"
+				item: "gtceu:psionic_medulla_gem"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.0d
+		}
 	]
-	title: "血魔法"
+	title: "&4血魔法"
 }
