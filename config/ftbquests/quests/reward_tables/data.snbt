@@ -1,0 +1,45 @@
+{
+	default_autoclaim_rewards: "disabled"
+	default_consume_items: false
+	default_quest_disable_jei: false
+	default_quest_shape: ""
+	default_reward_team: false
+	detection_delay: 20
+	disable_gui: false
+	drop_book_on_death: false
+	drop_loot_crates: false
+	emergency_items_cooldown: 300
+	grid_scale: 0.5d
+	hide_excluded_quests: false
+	icon: {
+		Count: 1
+		id: "minecraft:player_head"
+		tag: {
+			SkullOwner: {
+				Id: [I;
+					1878141411
+					540102149
+					-1492416550
+					-2028171038
+				]
+				Name: "Snow_city"
+				Properties: {
+					textures: [{
+						Value: "ewogICJ0aW1lc3RhbXAiIDogMTc0NDE2ODgwMjg5OCwKICAicHJvZmlsZUlkIiA6ICI2ZmYyMjllMzIwMzE0ZTA1YTcwYjg3ZGE4NzFjOTBlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbm93X2NpdHkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU4MDE5Yjc5NTM3MmFhNmEzYmU4ZGZkMjEzMThhM2U1MTZiYTYxNmIyNDI3NDE0NjNjM2ZlNTY2MmNjMTEzNSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOWQ4MmFiMTdmZDkyMDIyZGJkNGE4NmNkZTRjMzgyYTc1NDBlMTE3ZmFlN2I5YTI4NTM2NTg1MDVhODA2MjUiCiAgICB9CiAgfQp9"
+					}]
+				}
+			}
+		}
+	}
+	lock_message: ""
+	loot_crate_no_drop: {
+		boss: 0
+		monster: 600
+		passive: 4000
+	}
+	pause_game: false
+	progression_mode: "linear"
+	show_lock_icons: true
+	title: "Create: New Horzion"
+	version: 13
+}
