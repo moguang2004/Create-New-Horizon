@@ -100,35 +100,26 @@
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
 			description: [
-				"{    在本整合包中，添加了传说生存模组，温度会随着&a群系、季节、维度、周围的方块&r变化而变化。&4过高和过低的温度都会导致危险&r，所以请时刻注意自身的温度情况，别忘了制作温度计哦。更多信息请前往“冷汗”章节。}"
-				"{    别怪我没提醒你，冬天会很冷的。}"
-				"{     &m如果你实在讨厌温度，可以通过设置关掉，方法自行查询&r}"
+				"&4别把附魔有“绑定诅咒”的物品装备到身上然后死亡"
+				"&r这俩机制会冲突，然后对你的内存进行爆破！卡死！呃啊！"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					Parent: {
-						temperature: 25.5f
-					}
-				}
-				id: "legendarysurvivaloverhaul:thermometer"
-			}
+			icon: "gravestone:gravestone"
 			id: "5C2320A3B3E10E11"
 			invisible: true
 			optional: true
-			subtitle: "重要！！！（体温维持器可以在小市场购买）"
+			subtitle: "死亡后身上的物品会被打包进一个小墓碑里，破坏后即可取回"
 			tasks: [{
 				id: "1769E6600040B278"
 				title: "传说生存"
 				type: "checkmark"
 			}]
-			title: "传说生存"
+			title: "板板会收好你的物品"
 			x: -4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["{ &e   格雷科技（GregTech）&r，在本整合包的任务中将其简称为&bGT&r。}"]
+			description: ["{ &e   格雷科技（GregTech）&r，在本整合包的任务中将其简称为&eGT&r。}"]
 			icon: "gtceu:gregification_hazard_sign_block"
 			id: "6709D9DF2EA0432B"
 			size: 1.0d
@@ -144,7 +135,7 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
-			description: ["{ &e   机械动力（Create）&r，在本整合包的任务中会将其简称为&bCT&r。}"]
+			description: ["{ &e   机械动力（Create）&r，在本整合包的任务中会将其简称为&eCT&r。}"]
 			hide_dependency_lines: false
 			icon: "create:wrench"
 			id: "6E097A8CDC0BF608"
@@ -192,9 +183,9 @@
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
 			description: [
-				"{GT矿物已经默认可以连锁了！}"
+				"{&eGT&r矿物已经默认可以连锁了！}"
 				""
-				"{如果你无法连锁GT矿物，可以检查CTNH Core的模组设置}"
+				"{如果你无法连锁&eGT&r矿物，可以检查&eCTNH Core&r的模组设置}"
 			]
 			id: "4B11E32ACA7BC6FA"
 			rewards: [{
@@ -232,8 +223,19 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["31554E021ECE6572"]
-			description: [""]
+			dependencies: [
+				"31554E021ECE6572"
+				"40A1122E78D1C205"
+				"6B18CFDF49D20411"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"皮革在游戏前期有许多用处。"
+				"&e精妙背包&r和&e精妙存储&r的各项升级（作用指路->&6《实用小工具》&r）"
+				"一套简便的&b旅行者&r套装（看不懂那些词条都是什么作用？打开你的&d匠魂宝典&r！）"
+				"现在制作&eCT&r的&d传送带&r也需要皮革，而接下来你会经常用到它。"
+				"尽可能多的收集吧！"
+			]
 			id: "611BCC64F1F511AA"
 			optional: true
 			rewards: [
@@ -282,13 +284,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "你需要一些保护"
+			subtitle: "柔软顺滑，保暖适肤"
 			tasks: [{
 				count: 4L
 				id: "2B699EAFD14FE1D7"
 				item: "minecraft:leather"
 				type: "item"
 			}]
+			title: "皮革"
 			x: -10.5d
 			y: 12.0d
 		}
@@ -358,10 +361,7 @@
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
-			description: [
-				"{建议你早点考虑吃喝，生活调味料给你补充的红心会让你舒服不少}"
-				"{早点弄一下农夫乐事，一直吃低饱和度的食物没有意义}"
-			]
+			description: [""]
 			id: "4157A965AA4E18D2"
 			rewards: [
 				{
@@ -384,6 +384,7 @@
 				}
 			]
 			size: 1.0d
+			subtitle: "宅家发展，不二之选！"
 			tasks: [{
 				count: 16L
 				id: "6ACD95E8150EA4EC"
@@ -462,7 +463,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "整合包里最没用的一些东西"
+			subtitle: "铁是铁......铜是橙色铁......"
 			tasks: [
 				{
 					count: 16L
@@ -620,7 +621,7 @@
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
-			description: ["{方便你前期不会被摔死）}"]
+			description: ["可以用来钩高处然后跳上去，也可以在坠落时钩住附近的方块让你不会摔死"]
 			id: "38F0B3A80DCBCCAB"
 			subtitle: "钩爪，可以升级,按C使用"
 			tasks: [{
@@ -742,7 +743,7 @@
 		}
 		{
 			dependencies: ["4157A965AA4E18D2"]
-			description: ["{其实你可以直接去村庄劫掠}"]
+			description: [""]
 			id: "62CFB5898D0A96E4"
 			rewards: [{
 				id: "58B9A790455D3D3D"
@@ -804,26 +805,6 @@
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
-			id: "53AB5247B08B9709"
-			rewards: [{
-				id: "606E9A83A9A81D40"
-				type: "xp_levels"
-				xp_levels: 30
-			}]
-			tasks: [{
-				entity: "minecraft:zombie"
-				icon: "minecraft:zombie_head"
-				id: "3101F2CBA1F36E54"
-				title: "杀死十只僵尸"
-				type: "kill"
-				value: 10L
-			}]
-			title: "僵尸猎人"
-			x: -11.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["31554E021ECE6572"]
 			id: "323BCD9A004CC866"
 			rewards: [{
 				id: "399754B0FFC81EC9"
@@ -834,34 +815,13 @@
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "minecraft:spider_eye"
-				id: "65D03000C99C3EA4"
-				title: "杀死十只蜘蛛"
+				id: "7552031B91779E80"
 				type: "kill"
 				value: 10L
 			}]
 			title: "蜘蛛猎人"
-			x: -8.5d
+			x: -9.5d
 			y: 12.0d
-		}
-		{
-			dependencies: ["31554E021ECE6572"]
-			id: "48E751EFF8F0E511"
-			rewards: [{
-				id: "084022A2C312CC23"
-				type: "xp_levels"
-				xp_levels: 30
-			}]
-			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "47626D7974245604"
-				title: "杀死十只骷髅"
-				type: "kill"
-				value: 10L
-			}]
-			title: "骷髅猎人"
-			x: -8.0d
-			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -882,7 +842,7 @@
 				title: "床"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -8.5d
 			y: 13.0d
 		}
 		{
@@ -902,7 +862,7 @@
 				title: "羊毛"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -8.5d
 			y: 12.0d
 		}
 		{
@@ -931,7 +891,7 @@
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			subtitle: "开始做饭！"
+			subtitle: "其实就是营火Plus"
 			tasks: [{
 				id: "365616DAF25D746D"
 				item: {
@@ -947,29 +907,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["5BA86B01337A91D5"]
-			id: "0509C060962EF04C"
-			subtitle: "用铁锭烧制得到"
-			tasks: [{
-				id: "6AE261E7034F3EA3"
-				item: "gtceu:hot_high_temp_wrought_precursor_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["0509C060962EF04C"]
-			id: "5D0FF90EEF5735EF"
-			tasks: [{
-				id: "2AE57F0B6B7B2D16"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 13.0d
-		}
-		{
 			dependencies: ["1B4FFE71B4C66E14"]
 			description: [
 				"{  右键打开，放在物品栏中或装备在饰品栏“背包”位置时可通过快捷键（默认为B）打开。}"
@@ -977,13 +914,14 @@
 				"{  背包的数据并不依赖于背包物品存在。若背包不慎丢失，可通过 /sophisticatedbackpacks list 指令查看所有背包并恢复。}"
 				"{  更多用法可前往“存储的艺术”章节查看。}"
 			]
+			icon: "sophisticatedbackpacks:backpack"
 			id: "04C7933B3E7709CE"
 			rewards: [{
 				id: "170CFDAA247F0E2D"
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
-			subtitle: "唯一真神"
+			subtitle: "稍后你还可以对它进行升级"
 			tasks: [{
 				id: "40600AC46CAF10C4"
 				type: "checkmark"
@@ -1070,6 +1008,124 @@
 			}]
 			x: -6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4157A965AA4E18D2"]
+			description: ["&2生活调味料&r加入了&n血量上限随着品鉴食物数量增加而增加&r的设定（非线性），这本书可以查看还有哪些食物没吃过、距离下次增加血量还要吃多少食物等信息"]
+			id: "6FD6ED4FED39B116"
+			tasks: [{
+				id: "45A3C78546C936E3"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			title: "收录所有美食！"
+			x: -6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			description: ["或许需要点&6植物魔法&r的力量？"]
+			id: "40A1122E78D1C205"
+			rewards: [{
+				id: "44977B141DDAE57D"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "腐肉不好吃.......也不能直接烧成皮革......"
+			tasks: [{
+				id: "3BCA84803ED96CB5"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			id: "0D1F4E0AEFA4C5BF"
+			rewards: [{
+				id: "59761439F1F12490"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "金坷垃成精！"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "7F8E01661BDBF16B"
+				type: "kill"
+				value: 10L
+			}]
+			title: "骷髅猎人"
+			x: -8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "6B18CFDF49D20411"
+			rewards: [{
+				id: "1DBFD3D7DFFD811C"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "每过几天，垃圾佬都会带着他的流浪皮革过来看望你"
+			tasks: [{
+				entity: "minecraft:llama"
+				icon: "minecraft:lead"
+				id: "27D421EF8F26769D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "远方来客"
+			x: -10.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			description: [
+				"多屯，别总想着在做出某个部件后就能马上用更省材料的方式批量生产这个部件，低成本生产通常只会出现在跨阶段后。"
+				"把原料们做成块，或者放在&b抽屉&r里，能很好地节约你的格子！"
+			]
+			icon: "functionalstorage:oak_1"
+			id: "072BC77364FCB7D6"
+			rewards: [{
+				count: 3
+				id: "7843C0FA94243048"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "在绝大多数时候，你需要的各种半成品以及他们的材料量消耗都是以组为单位"
+			tasks: [{
+				id: "764380D65553A750"
+				title: "多囤积材料！"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6709D9DF2EA0432B"]
+			description: [
+				"有些物品会在描述里有标红的&4“危险物质”&r字样，还伴有各种不同的症状。（包括但不限于常驻饥饿效果、减少血上限等）"
+				""
+				"&4这些物品只要存在你的物品栏内，就会每时每刻加强对你的负面影响！&r"
+				""
+				"当然有治疗和预防方法，但那至少要到HV时期了。"
+				"先把他们丢进你的背包或箱子里吧"
+			]
+			icon: "gtceu:lead_dust"
+			id: "00C102D97D6851F5"
+			subtitle: "死亡确实能消除影响，但不觉得很麻烦吗？"
+			tasks: [{
+				id: "1BEF1EB243C6491C"
+				title: "危险物质"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 5.0d
 		}
 	]
 	title: "原始人，起洞！！"
