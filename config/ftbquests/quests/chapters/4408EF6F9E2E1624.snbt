@@ -541,7 +541,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
-			subtitle: "第一块合金"
+			subtitle: "小块灰铁"
 			tasks: [{
 				id: "2432B1FD7CD5EFE3"
 				item: "gtceu:andesite_alloy_ingot"
@@ -1504,6 +1504,7 @@
 			y: 15.5d
 		}
 		{
+			description: ["&b锻铁&r工具属性比&b铁&r更好哦"]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "525ACD2BD801E168"
 			rewards: [{
@@ -1514,7 +1515,7 @@
 			}]
 			shape: "square"
 			size: 1.0d
-			subtitle: "锻铁锭再也不是由粒变锭了！"
+			subtitle: "铁烧烧，锤敲敲"
 			tasks: [
 				{
 					id: "1416E8E3A9EF85CC"
@@ -1762,7 +1763,9 @@
 			y: 15.5d
 		}
 		{
+			description: ["不想现在去？可以看看另一条制作指南针的制作线，但之后你仍然要面对它：）"]
 			id: "5A66E5F0C90F7A67"
+			subtitle: "需要前往磁场洞穴"
 			tasks: [{
 				id: "047AE25A5A8F5506"
 				item: {
