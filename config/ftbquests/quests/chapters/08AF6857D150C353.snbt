@@ -119,6 +119,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["5A66E5F0C90F7A67"]
 			id: "62BAC5BC588E4CAA"
 			subtitle: "通过磁场洞穴中的青钕和赤钕，或者是植物魔法的磁化透镜磁化获得"
 			tasks: [{
@@ -577,6 +578,39 @@
 			}]
 			x: 5.0d
 			y: -2.0d
+		}
+		{
+			description: [""]
+			id: "5A66E5F0C90F7A67"
+			subtitle: "需要前往磁场洞穴"
+			tasks: [{
+				id: "047AE25A5A8F5506"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:lens_magnet"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:azure_magnet"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:scarlet_magnet"
+							}
+						]
+					}
+				}
+				title: "磁小轨"
+				type: "item"
+			}]
+			title: "磁，很神奇吧"
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "钢铁雄心"

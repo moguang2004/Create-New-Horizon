@@ -580,9 +580,11 @@
 			dependencies: ["44C7FE559ECFB2EB"]
 			description: ["{许多物品的配方可能与原版发生了一些变动，请大家在游玩时注意多查看EMI。同时，对于科技包的新手，每一个任务的描述都是十分重要的，可以&a帮助你更快理解游戏的基本玩法和流程&r，也请大家多多关注！}"]
 			hide_dependency_lines: true
+			icon: "botania:crafting_halo"
 			id: "1FB23D66088398BC"
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "查制作获取方式按R，查作用按U"
 			tasks: [{
 				id: "519EA59FDB4B479F"
 				title: "多查查EMI"
@@ -932,6 +934,7 @@
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
+			description: ["&2生活调味料&r加入了&n血量上限随着品鉴食物数量增加而增加&r的设定（非线性），而这本书可以查看还有哪些食物没吃过、距离下次增加血量还要吃多少食物等信息"]
 			id: "76C15DB805BE1D12"
 			rewards: [{
 				id: "3F4FAE4DA2B568C7"
@@ -1010,19 +1013,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4157A965AA4E18D2"]
-			description: ["&2生活调味料&r加入了&n血量上限随着品鉴食物数量增加而增加&r的设定（非线性），这本书可以查看还有哪些食物没吃过、距离下次增加血量还要吃多少食物等信息"]
-			id: "6FD6ED4FED39B116"
-			tasks: [{
-				id: "45A3C78546C936E3"
-				item: "solcarrot:food_book"
-				type: "item"
-			}]
-			title: "收录所有美食！"
-			x: -6.5d
-			y: 12.5d
-		}
-		{
 			dependencies: ["31554E021ECE6572"]
 			description: ["或许需要点&6植物魔法&r的力量？"]
 			id: "40A1122E78D1C205"
@@ -1037,11 +1027,13 @@
 				item: "minecraft:rotten_flesh"
 				type: "item"
 			}]
+			title: "僵尸猎人"
 			x: -10.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
+			description: ["&d骨粉&r可以用来催熟作物、制作白色染料等等"]
 			id: "0D1F4E0AEFA4C5BF"
 			rewards: [{
 				id: "59761439F1F12490"
@@ -1050,11 +1042,10 @@
 			}]
 			subtitle: "金坷垃成精！"
 			tasks: [{
-				entity: "minecraft:skeleton"
-				icon: "minecraft:skeleton_skull"
-				id: "7F8E01661BDBF16B"
-				type: "kill"
-				value: 10L
+				count: 10L
+				id: "4EDF7D0C6154FBB5"
+				item: { Count: 10, id: "minecraft:bone" }
+				type: "item"
 			}]
 			title: "骷髅猎人"
 			x: -8.5d
@@ -1087,6 +1078,8 @@
 			description: [
 				"多屯，别总想着在做出某个部件后就能马上用更省材料的方式批量生产这个部件，低成本生产通常只会出现在跨阶段后。"
 				"把原料们做成块，或者放在&b抽屉&r里，能很好地节约你的格子！"
+				""
+				"&a抽屉可以在里面有东西的时候破坏并存住里面的东西&r"
 			]
 			icon: "functionalstorage:oak_1"
 			id: "072BC77364FCB7D6"
@@ -1126,6 +1119,70 @@
 			}]
 			x: -7.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			description: [
+				"作用分划重点和避免歧义两类"
+				"划重点："
+				"&4红色是警示！表明该行动或物品会对你的体验带来比较重大的影响！&r"
+				"&a绿色是指引，会指出一条合适的路线，不过不这么玩也行，MC是自由的！&r"
+				""
+				"避免歧义"
+				"&b蓝色是词缀，表明一类有相同词缀的物品&r"
+				"&e黄色是mod名称（方便查攻略）&r"
+				"&6橙色是任务章节名称，相关任务可以去看对应任务章节！&r"
+				"&d粉红是指准确的某个物品名称&r"
+			]
+			icon: "minecraft:red_dye"
+			id: "5EE358792207FF35"
+			tasks: [{
+				id: "40E03E50D6A70E8A"
+				title: "为什么有的词语有颜色？"
+				type: "checkmark"
+			}]
+			title: "为什么任务里的某些词有不一样的颜色？"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FB23D66088398BC"]
+			description: [
+				"界面尺寸调太大了！调整步骤："
+				"&a选项->视频设置->FPS Reducer-> 通用->界面尺寸&r"
+				"一般调到3x就能显示完整信息了，当然最佳情况要视不同设备而定"
+			]
+			icon: "minecraft:item_frame"
+			id: "04E60153BCC99FAE"
+			subtitle: "比如正常情况下多方块结构的制作表会显示所需材料，但你没看到"
+			tasks: [{
+				id: "447275791B151177"
+				title: "信息显示不全？"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FB23D66088398BC"]
+			description: [
+				"此处作 在左侧边栏开启“最近查询的物品”标签页 例子："
+				"&aEMI设置（在背包左下角） ->  左侧边栏(设置页左侧有快速跳转) ->  标签页一行的加号 ->  最近合成的物品"
+				"&r使用方法："
+				"&a回到背包界面，在左侧边栏点击那个星星标志（此标志代表目前位于收藏夹页）进行切换&r"
+				""
+				"更多功能请自行探索"
+			]
+			icon: "minecraft:clock"
+			id: "36954BEFA8C27C62"
+			subtitle: "我刚刚要搓什么东西来着？"
+			tasks: [{
+				id: "22FB84EA6E347079"
+				title: "EMI的功能不只有配方查询!"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 4.0d
 		}
 	]
 	title: "原始人，起洞！！"
