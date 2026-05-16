@@ -30,9 +30,7 @@
     "create:carriage_contraption",
     "mts:builder_rendering",
     "drg_flares:drg_flares",
-    "mts:builder_existing",
-    "ctpp:simple_contraption",
-    "ctpp:rubiks_cube_contraption"
+    "mts:builder_existing"
   ],
   "disableF3": false,
   "skipEntityCulling": false,

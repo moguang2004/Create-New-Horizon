@@ -645,10 +645,6 @@ file = "config/fpsreducer/fpsreducer-client.toml"
 hash = "e84ab1c1fb08def9ccba81542696eb828e767b2835cfacc6a713807dce27ede6"
 
 [[files]]
-file = "config/ftbquests/quests.snbt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "62fec109db95c216f50a312dda8a6f1494e1c53ea69bdea5f401eb97707bd52e"
 
@@ -662,7 +658,7 @@ hash = "f6e2cc46e501c42fbd57e04818176d8793423526f6222659a0af14d97123b245"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
-hash = "090f3c0d734521bdd4af2035fc4dbfdfa9f9b066871d5c89af3d3c72206ebd39"
+hash = "d558989c0e0e2cefbc22d91e55e1b80ae8145b7c60deb6cd297a7c9099a7bd5c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/0AD950C34ED565A4.snbt"
@@ -706,7 +702,7 @@ hash = "161289f300fddf4968ed27c6c5fdea294de4ad4a0ff8b8c28bcc6a064ace117a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "594fdfb21513a0325f81ca065a64aa2384cad80956ad5e8ca20af833ef3fab3a"
+hash = "870002311aff29957c41a4150f455c3854b0564f85aead42bb0701124931317c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -2567,6 +2563,10 @@ hash = "fb062d4196415f00908f572ebcca642df7c1f3ed5a51f9775320632833519b61"
 [[files]]
 file = "kubejs/assets/ftbquests/textures/ctstore/ctstore_9.png"
 hash = "3ff0c270255ce9bf330e31b7e30fe5d879d50cf912c4d3dd60db6e42fa278f2b"
+
+[[files]]
+file = "kubejs/assets/ftbquests/textures/ctstore/info_teach1.png"
+hash = "8db31bc0fe9ce87c8dee908663dd0e57902c2af5e26312fef6c8ec993a830a37"
 
 [[files]]
 file = "kubejs/assets/ftbquests/textures/snow_city.png"

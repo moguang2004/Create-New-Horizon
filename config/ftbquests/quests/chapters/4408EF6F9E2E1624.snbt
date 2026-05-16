@@ -1428,8 +1428,8 @@
 				item: "ctnhcore:refined_iron_ingot"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 18.5d
+			x: 4.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["79BE8625F8D33E1C"]
@@ -1446,8 +1446,8 @@
 				item: "ctnhcore:sintering_kiln"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 17.5d
+			x: 3.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["5F7EAD64388EBAD2"]
@@ -1458,8 +1458,8 @@
 				item: "gtceu:steel_precursor_dust"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 18.5d
+			x: 4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["525ACD2BD801E168"]
@@ -1476,8 +1476,8 @@
 				item: "gtceu:wrought_iron_dust"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 18.5d
+			x: 4.0d
+			y: 14.5d
 		}
 		{
 			description: ["&b锻铁&r工具属性比&b铁&r更好哦"]
@@ -1505,8 +1505,8 @@
 				}
 			]
 			title: "关于锻铁锭"
-			x: 21.5d
-			y: 16.5d
+			x: 3.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4EB8D7E72D302C75"]
@@ -1602,16 +1602,22 @@
 			description: [
 				"{你是否发现，传统的地狱门无法使用}"
 				""
-				"{你只能使用GT的方式进入下界，哦，别忘了回来也是}"
+				"{你只能使用GT Portal的方式进入下界，哦，别忘了回来也是}"
 				""
-				"{怎么开启传送门？看一下EMI里传送门控制器的用途吧}"
+				"{怎么开启传送门？看一下EMI里&a传送门控制器的用途&r吧}"
 				"{@pagebreak}"
-				"错误示范："
-				""
+				"                                              &l错误示范：&r"
 				"{image:ftbquests:textures/ctstore/baka_show1.png width:100 height:100 align:center}"
+				"{@pagebreak}"
+				"&aCT的列车暂时无法正常通过此传送门，请不要使用&r"
 			]
 			icon: "minecraft:netherrack"
 			id: "1E11A492F4576DBA"
+			rewards: [{
+				id: "5DB521E0CFE33093"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "前往下界的方式"
@@ -1734,8 +1740,8 @@
 				item: "ctpp:ulv_kinetic_input_box"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 17.5d
+			x: 3.0d
+			y: 15.0d
 		}
 		{
 			description: ["可以不用打开工作台和点击EMI书签"]
