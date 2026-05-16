@@ -1,7 +1,7 @@
 #Controls the auto-link search area for the Ender Emitter.
 #Final area size is computed as: 16 * value.
 #Range: 1 ~ 100
-ender_emitter_auto_area_factor = 1
+ender_emitter_auto_area_factor = 2
 #Global multiplier applied to Pure Crystal energy generation rate (AE/t).
 #Final AE/t = baseAEPerTick * multiplier.
 #Range: 0.01..100 (default: 1).
