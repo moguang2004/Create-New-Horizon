@@ -4,6 +4,12 @@ migration:
   # Default: false
   migrationMode: false
 
+# Optimization Setting
+optimization:
+  # At what interval will nature spawner try to spawn creatures? Vanilla is 1
+  # Default: 20
+  natureSpawnCycle: 20
+
 # Terminal AutoBuild
 terminal:
   # How many blocks GT-MBST-A will put per tick when AE storage is not available
