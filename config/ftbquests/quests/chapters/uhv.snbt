@@ -167,7 +167,7 @@
 			rewards: [{
 				count: 64
 				id: "721688FBD91340B6"
-				item: "kubejs:ender_light"
+				item: "ctnhcore:ender_light"
 				type: "item"
 			}]
 			shape: "square"
