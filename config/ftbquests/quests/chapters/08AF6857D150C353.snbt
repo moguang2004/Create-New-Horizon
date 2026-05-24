@@ -119,6 +119,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["5A66E5F0C90F7A67"]
 			id: "62BAC5BC588E4CAA"
 			subtitle: "通过磁场洞穴中的青钕和赤钕，或者是植物魔法的磁化透镜磁化获得"
 			tasks: [{
@@ -354,8 +355,8 @@
 				item: "ctnhcore:advanced_coke_oven"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["62BAC5BC588E4CAA"]
@@ -404,8 +405,8 @@
 				item: "ctnhcore:mechanical_mixer"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3EFC30D1B3494B77"]
@@ -555,8 +556,8 @@
 				"{输入仓：向多方块结构输入流体，可以调整电路}"
 				"{输出总线：从多方块结构输出物品}"
 				"{输出仓：从多方块结构输出流体}"
-				"{&7应力输入箱：向多方块结构输入应力}"
-				"{&7机械升级仓：CT大机器的核心仓室，没有他就运行不了配方}"
+				"&a应力输入箱：向多方块结构输入应力&r"
+				"&a机械升级仓：CT大机器的核心仓室，没有他就运行不了配方&r"
 				"{以上就是这这些仓室的介绍啦~这里没有提及到的会在LV任务提及到哦~}"
 			]
 			id: "3EFC30D1B3494B77"
@@ -577,6 +578,74 @@
 			}]
 			x: 5.0d
 			y: -2.0d
+		}
+		{
+			description: [""]
+			id: "5A66E5F0C90F7A67"
+			subtitle: "需要前往磁场洞穴"
+			tasks: [{
+				id: "047AE25A5A8F5506"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:lens_magnet"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:azure_magnet"
+							}
+							{
+								Count: 1b
+								id: "alexscaves:scarlet_magnet"
+							}
+						]
+					}
+				}
+				title: "磁小轨"
+				type: "item"
+			}]
+			title: "磁，很神奇吧"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4ADE322F099F1C88"
+				"6AD97B17E0ECA129"
+			]
+			description: [
+				"觉得高级焦炉砖太贵，但感觉自己的时间也很宝贵，有没有节约材料的方法？再检查检查你的EMI配方！"
+				""
+				""
+				"{image:ftbquests:textures/ctstore/info_teach1.png width:100 height:120 align:center}"
+				"{@pagebreak}"
+				""
+				"&4红色框位置的多种方块&r会出现在你点击了EMI配方里多方块结构中的某个方块后；"
+				"&2那是可以在此位置使用的所有方块种类&r"
+				""
+				"&a绿色框位置的多种方块&r总是会出现在配方里（看不到的去调你的界面尺寸）；"
+				"&2那是此多方块结构在当前等级和层级下所需所有方块种类及数量（不总是最优解）。&r"
+				""
+				"&b蓝色框位置&r从上往下依次含义为："
+				"当前多方块结构控制室；"
+				"多方块结构等级（第一次用到它应该是会在工业高炉）；"
+				"逐层查看多方块结构构造（有终端可以快速搭建，一般用不到）；"
+				"描灰（也可能是其他颜色）可放置仓室的多方块结构位置。"
+			]
+			icon: "gtceu:ulv_input_bus"
+			id: "64D6AE5328D1BC3B"
+			subtitle: "以及多方块结构配方界面具体意义讲解"
+			tasks: [{
+				id: "1E326786769E2925"
+				title: "节省材料的小技巧"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 5.5d
 		}
 	]
 	title: "钢铁雄心"
