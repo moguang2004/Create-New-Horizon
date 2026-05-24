@@ -33,10 +33,10 @@
 	operationDuration = 10
 	#muhc.configuration.baseStress.tooltip
 	#Range: > 0
-	baseStress = 1024
+	baseStress = 256
 	#muhc.configuration.stressPerFavorability.tooltip
 	#Range: > 0
-	stressPerFavorability = 80
+	stressPerFavorability = 10
 	#muhc.configuration.enduranceOperation.tooltip
 	enduranceOperation = true
 	#muhc.configuration.twoHandedOperation.tooltip

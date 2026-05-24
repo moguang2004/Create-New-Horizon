@@ -9,12 +9,12 @@
 	#If true, extends the applicable slots for the blast protection enchantment to work better with shields. Will not impact gameplay with the vanilla enchantment.
 	#If false, blast protection on a shield will not reduce explosion knockback.
 	extendBlastProtectionSlots = true
-	#Amount of durability restored by a repair kit in terms of ingots. Does not affect the cost to create the kit, that is controlled by JSON.
-	#Range: 0.0 ~ 32767.0
-	repairKitAmount = 2.0
 	#If true, makes the knockback resistance attribute sync its value to client side. This allows modifiers such as springing and flinging to work properly.
 	#If false, knockback resistance will not sync so will hopefully be 0 client side. Can be disabled in case another mod relied on it not syncing.
 	syncKnockbackResistance = true
+	#Amount of durability restored by a repair kit in terms of ingots. Does not affect the cost to create the kit, that is controlled by JSON.
+	#Range: 0.0 ~ 32767.0
+	repairKitAmount = 2.0
 	#Allow Tinker's tools can be enhanced
 	AllowTinkersToolsCanBeEnhanced = false
 	#Method of syncing on opening a tool inventory. Options:
@@ -96,19 +96,19 @@
 	drop_dragon_Scales = true
 	#Weight of the ancient tool trade for the wandering trader. All traders randomly choose 1 rare trade, so this is roughly the chance the trade occurs compared to the vanilla options (of which there are 6).
 	#Range: 0 ~ 100
-	wanderer_ancient_tool_weight = 0
+	wanderer_ancient_tool_weight = 6
 
 #Configuration related to integration with other mods
 [compatability]
+	#If true, integration alloy materials will be enabled if any of their components is present, allowing creating them from their molten liquid forms.
+	#If false, they will only be only be present if another mod adds an ingot.
+	#This config option is provided as while most players prefer the additional materials, some dislike having no proper ingot. Note we do have NBT ingots for these materials.
+	allowIngotlessAlloys = true
 	#Amount of fluid each chemthrower shot projectile from Immersive Engineering is worth towards our fluid effect registry.
 	#IE launches 8 projectiles per tick while consuming the value in their config, so dividing it by 8 makes them comparable to our projectiles.
 	#However, keeping it as a separate config option gives pack makers more control over how strong TiC ends up in the chemthrower.
 	#Range: 0.0 ~ 2.147483647E9
 	immersive_engineering_chemthrower_shot_value = 1.25
-	#If true, integration alloy materials will be enabled if any of their components is present, allowing creating them from their molten liquid forms.
-	#If false, they will only be only be present if another mod adds an ingot.
-	#This config option is provided as while most players prefer the additional materials, some dislike having no proper ingot. Note we do have NBT ingots for these materials.
-	allowIngotlessAlloys = true
 	#If true, monsters will run melee modifiers when attacking with a modifiable weapon. Provided to work around potential issues with addons allowing more monsters to use tools.
 	#Note that if its just a specific mob or damage source that has an issue, there are tag blacklists.
 	allowMonsterMeleeModifiers = true
