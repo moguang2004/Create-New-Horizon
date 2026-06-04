@@ -1,0 +1,13 @@
+name = "Create New Horizon"
+author = "mo_guang"
+version = "1.4.3"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "29acc8c0792e28591023ef0b1b42c2d642ad6e704cccd1b223bd12e00939ee97"
+
+[versions]
+forge = "47.4.1"
+minecraft = "1.20.1"
