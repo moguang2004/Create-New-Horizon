@@ -10230,7 +10230,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctnh-changelog.pw.toml"
-hash = "67b56f33f587888423cecf7932a4538d380e0bc231f82b472fc3a92759352da0"
+hash = "8ce5e71a81ca80f166a9d4620b01691fd326358ee7960ad4727137988180b475"
 metafile = true
 
 [[files]]
@@ -10480,7 +10480,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtconstruct.pw.toml"
-hash = "b8efc990e48d6e09f00b9a3feb9d75a7cb59bf89672e5e5ae701e9083b5f9932"
+hash = "55b759c798a21fd86a49d661ca58f7d9879d26a0d6a72ca5de90fbdcd7c7afd4"
 metafile = true
 
 [[files]]
