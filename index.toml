@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".cache/changelog_cache.json"
+hash = "ff9204abd4ab0f7c6b9c2194ac7bc281ace667f7d7699facc1760696fe804583"
+
+[[files]]
+file = ".cache/changelog_cache.json.etag"
+hash = "d689672e89c703634db3925ae77e4004af18581374ffa61ae224112a688a7366"
+
+[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -530,7 +538,7 @@ hash = "a9fa4685548e652dcd5cf04cef14aecfeb2ddd7e8a321ca0b847834de4cc04be"
 
 [[files]]
 file = "config/ctnhchangelog-client.toml"
-hash = "e32b6b20ed3e3374e524b0c657553de2b9aefff4071a00ad7f9b65ceadfaea02"
+hash = "3e750673dcebe396c3353f0d49dfd27cd23a56d379d6e7a64ba3f06292cd22c3"
 
 [[files]]
 file = "config/ctnhcore.yaml"
@@ -2717,58 +2725,6 @@ file = "kubejs/assets/kubejs/lang/zh_cn.json"
 hash = "9f7cf73a06948f1814f464e4179098919276078ebf639d64f9f8c59658f9d3e5"
 
 [[files]]
-file = "kubejs/assets/kubejs/ponder/assembly_line.nbt"
-hash = "fb6fa39222619f3683fea816a0c2eea4d342ad316a8fe8dfd634a550bcfb8397"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/blaze.nbt"
-hash = "c11535f5e6962cf6abe7f0fe327cf84ff4b090b50a160ca6cf248dcbd3e11ab0"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/coke_oven.nbt"
-hash = "ba5ac6adc8a892d570680666967a75a0fade5422288ec9de3ddc5abaf2ed7bf1"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/energy_comparate_1.nbt"
-hash = "bec0415a4049b7e9d8f86fc30a4039780481ded0883e77fa8ce4ab23adefbfe8"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/energy_comparate_2.nbt"
-hash = "ba2ce3708f5c6ba14331ab1e6317e5c9f4a4cc1966e2a3f2648c5911a28533ca"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/kinetic_input.nbt"
-hash = "78fdd7aaacfafa88a6acebf67368d6c2f3d5c490f40446278c1280d752449f34"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/mark_of_falling_tower.nbt"
-hash = "7ef425a2c308c46436df3df24c728651049a5d13d5521d74bb0bf3e635dd6482"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/mythicbotany_rune_rituals.nbt"
-hash = "d6db499edd2be128175b95c6cc0010c6f271ddafe74741e5bb6abaa8717a52af"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/neutron_activator.nbt"
-hash = "d7972c2d1eb11d7230cc0322d591ea35a4ddd602cd385e6f6d9114300e6d31d2"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/ponder_ae_crafting_system.nbt"
-hash = "59c6698e946823ac3513a6627dc994a177eaf361966ab471e88234d7e709a0fb"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/rune_rituals.nbt"
-hash = "8c6ed954342d3ee1a94b193b42d07071d5b450122837e69d5782864b2ef09b4d"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/test.nbt"
-hash = "d6db499edd2be128175b95c6cc0010c6f271ddafe74741e5bb6abaa8717a52af"
-
-[[files]]
-file = "kubejs/assets/kubejs/ponder/windmill_control_center.nbt"
-hash = "679b5bb81d4def197195123819fde413c8e07a37e0930a74d521e825f6632210"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -4699,34 +4655,6 @@ hash = "81fffb9c9a3076e345ef0f725ae56d26675952cc491792ecee8ee7d5b5440c67"
 [[files]]
 file = "kubejs/client_scripts/src/jeiaddition.js"
 hash = "ddaf4e817e5eb5ceb447035257880271afce27074458c42a0a42e24b064c8956"
-
-[[files]]
-file = "kubejs/client_scripts/src/ponder/create_machine.js"
-hash = "320a561aa5375a51660083e79725de1f369d3dd0029930537d58fcdbc615f332"
-
-[[files]]
-file = "kubejs/client_scripts/src/ponder/gregtech_machine.js"
-hash = "9c69f0477faf5b5695dae8837bb50a389fb7b38fbf4ce6cd2b436e20788f1a37"
-
-[[files]]
-file = "kubejs/client_scripts/src/ponder/ponder.js"
-hash = "d078b6f3ef5089d2466dd33c66bb0765b6447bfefbc2cb4c62c6a32b4cefcb04"
-
-[[files]]
-file = "kubejs/client_scripts/src/ponder/ritual_diviner.js"
-hash = "bab444088bee50d6aad9e467f39d97ee1c850b0885ea9ba87aeae2e24af2cbcd"
-
-[[files]]
-file = "kubejs/client_scripts/src/ponder/rune_rituals.js"
-hash = "46e9d2ca276d6f57974965c38e554414b1078ef07a1dce9a12d6d0388d8a3585"
-
-[[files]]
-file = "kubejs/client_scripts/src/ponder/tag.js"
-hash = "b55eb9f83a8e769858b40d55d790db5efa639de1bfc1af15f894292b15ddda92"
-
-[[files]]
-file = "kubejs/client_scripts/src/ponder/test.js"
-hash = "07568bfb3abc932b3f40a26fc05932f288a04568aab4e04ca36dbc1b6d18caf5"
 
 [[files]]
 file = "kubejs/client_scripts/src/tooltip.js"
@@ -9029,22 +8957,6 @@ file = "kubejs/jsconfig.json"
 hash = "381991335e668c8a2472e5020a0e9584fda5e7bccc4ddd797d76eee327f18580"
 
 [[files]]
-file = "kubejs/server_scripts/src/80extend.js"
-hash = "62f1085ccf8e32ab8091bab36367a728c50b4a4ce30b1a37dcb4b0b85bab09b3"
-
-[[files]]
-file = "kubejs/server_scripts/src/apothesis/spawner.js"
-hash = "72300efe9fc9a906eb8de7dd8f449a720eeac33ea7d08ba2ddb483585dcd7caa"
-
-[[files]]
-file = "kubejs/server_scripts/src/avaritia.js"
-hash = "155c4d28362d9c199d8ac764782177d7840301263cf5a97f2040510c4e667ca7"
-
-[[files]]
-file = "kubejs/server_scripts/src/bio.js"
-hash = "141d5671e2ff26389a60da9ec3d07d5cd983468f38c9026a77e7e50b200d6032"
-
-[[files]]
 file = "kubejs/server_scripts/src/biomancy/recipe_remove.js"
 hash = "06f9d83fe3d071896922df88103b57056906339d39b1b9d5701fd6f3a7edb844"
 
@@ -9057,48 +8969,12 @@ file = "kubejs/server_scripts/src/cement.js"
 hash = "f8f605ee4352527195154f79934e45759dbbdb360bd666a585ba02ee2d627434"
 
 [[files]]
-file = "kubejs/server_scripts/src/create/Vintage_Improvements.js"
-hash = "d66f4195a0f2369ce02172332bd50c7cdcc0837dce5238fc963f45a07450391f"
-
-[[files]]
-file = "kubejs/server_scripts/src/create/createFallen.js"
-hash = "5940db0af9ca0930be0af13bf6b512c76d52f7955c1519dd40263a7c67b95f43"
-
-[[files]]
-file = "kubejs/server_scripts/src/create/oreexcavation.js"
-hash = "f468d7245498128c34e614ada4dc74041fd84d61ac1e4249251bbeed1262df44"
-
-[[files]]
-file = "kubejs/server_scripts/src/enderio/enderio.js"
-hash = "5fda413ce3d11cd26d6355ae6e013fca2a0746e1df96953b0946bbe9c8f03cd2"
-
-[[files]]
 file = "kubejs/server_scripts/src/entityEvent.js"
 hash = "17eb222ea54336c50a82c09f822d64ac6c37b81090f87f49376081c041aa31b6"
 
 [[files]]
 file = "kubejs/server_scripts/src/event.js"
 hash = "092b996604e6ac4d639b5ff322c4257faaa40db41288365445c28fa636345f96"
-
-[[files]]
-file = "kubejs/server_scripts/src/gtceu/chain/HNIWChain.js"
-hash = "51081f07ff1f0ad8006905abaa59e7e197705275ea3dd68758b654230c4e41ac"
-
-[[files]]
-file = "kubejs/server_scripts/src/gtceu/chain/UraniumChain.js"
-hash = "2cd59cec03f17cd53219911a5de538b58cdc55ce3a2cd55f33b9446c1e215ad5"
-
-[[files]]
-file = "kubejs/server_scripts/src/hostilenetworks.js"
-hash = "3f20ca74250e217178d7cf360c4420fa641d304d9c2a58bc0147232181f11ff6"
-
-[[files]]
-file = "kubejs/server_scripts/src/immersive aircraft/create.js"
-hash = "6f580828f4e872b0c078157295e4f11dde72ebb6e3a67b21c31a3a89f5bd9d3e"
-
-[[files]]
-file = "kubejs/server_scripts/src/immersive aircraft/fly.js"
-hash = "35e83e9fff270074cbdee4f81b6af9a627b316197a7883f60b3cf6ee4aa89aa5"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot.js"
@@ -9117,22 +8993,6 @@ file = "kubejs/server_scripts/src/tag.js"
 hash = "c5fe7e277a55f6e7062b64594c7cc03566d044eceeb593704e06121476483967"
 
 [[files]]
-file = "kubejs/server_scripts/src/tconstruct/modiifiers/example.js"
-hash = "11b02abc0ec5942d66d8b53d05613f0e386fd7a042f6b4e341550ce5107c6af3"
-
-[[files]]
-file = "kubejs/server_scripts/src/tconstruct/modiifiers/fortification.js"
-hash = "b7fcc452c03922fcdc1f084c8fea72e545aa001d1fa599f86b4cc97a0562f373"
-
-[[files]]
-file = "kubejs/server_scripts/src/tconstruct/modiifiers/snowcity.js"
-hash = "95c67a9757f2df886b0d555f53b3d12e232899ed0e9f1d495501abb02b20707e"
-
-[[files]]
-file = "kubejs/server_scripts/src/tconstruct/remove_tinkers_repices.js"
-hash = "bff20817fd79930081cf663ee876f116ca8fc450910751bcc1390f971ba6894a"
-
-[[files]]
 file = "kubejs/server_scripts/src/temp_fix.js"
 hash = "d4c9763c81aa69f538f7de9590dbbd56707163ab3507e2bbc7ecd9d5eeac3247"
 
@@ -9141,28 +9001,12 @@ file = "kubejs/server_scripts/src/util/recipes.js"
 hash = "a43dbdf9f3e10cd27316faa5cee36c4ff0a605211a780f9f1d8a05d5a86b53aa"
 
 [[files]]
-file = "kubejs/server_scripts/src/util/tconstruct/TConMaterialGenerator.js"
-hash = "0d743d269cdaa16c03c49291368db43a2f490f8b18837c544cc383e1ec2f998a"
-
-[[files]]
-file = "kubejs/server_scripts/src/util/tconstruct/tconmodify.js"
-hash = "e4bc0933e9b2caecc69e2cf10910d4c6c08eff3b62a50f88dc87364eef5558e8"
-
-[[files]]
 file = "kubejs/server_scripts/src/wood.js"
 hash = "e629005938ff64cae330aef45c9a22e5ce320ff34e9f28d3afa9dc8bbba34e7b"
 
 [[files]]
-file = "kubejs/startup_scripts/src/Worldgen/worldgen.js"
-hash = "df6b5794f21fa9fdbc47283039eeaca21d689fab42c049c5a89bd43bb2583122"
-
-[[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
-hash = "4da8a2e3fecbf72cdb4a748e7b71718bc9f03ffb1c7fae880a57e07e21614e50"
-
-[[files]]
-file = "kubejs/startup_scripts/src/tconstruct_modifiers_register.js"
-hash = "e80a6a5b5f454719fe71ce45ac7f97f792665c9c161c194d4d75ebefcd58005e"
+hash = "54d5c51e612902152ca91cda6fd938e5018e3d2ca9626d18ab5e72027abb62dd"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -10336,6 +10180,10 @@ hash = "a9eef5f6f1fdc2157040eeabe12142995780fca7a614f9704b70b6a0eea397d4"
 [[files]]
 file = "replace_key.py"
 hash = "5bdf13c87ccd67fb6f7d2a3ce5de859cb2dcc4992517a924244bb20e675d4555"
+
+[[files]]
+file = "replay_pid27568.log"
+hash = "0b7245a7686cb8bf8d22cb75a50e6f91d23f9fad8d48025dc912e0fd8abba53b"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
