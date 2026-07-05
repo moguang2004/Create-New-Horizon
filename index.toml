@@ -8969,14 +8969,6 @@ file = "kubejs/server_scripts/src/cement.js"
 hash = "f8f605ee4352527195154f79934e45759dbbdb360bd666a585ba02ee2d627434"
 
 [[files]]
-file = "kubejs/server_scripts/src/entityEvent.js"
-hash = "17eb222ea54336c50a82c09f822d64ac6c37b81090f87f49376081c041aa31b6"
-
-[[files]]
-file = "kubejs/server_scripts/src/event.js"
-hash = "092b996604e6ac4d639b5ff322c4257faaa40db41288365445c28fa636345f96"
-
-[[files]]
 file = "kubejs/server_scripts/src/loot.js"
 hash = "c6833c2ae5276de9a69444a0e6b7ad04dbff67a77c634803458a1e5f0cd889b1"
 
@@ -8989,20 +8981,8 @@ file = "kubejs/server_scripts/src/remove_recipes.js"
 hash = "03a33dbd8c11feef87b830b986d609397fef61d0ff44970dd174700e143371e4"
 
 [[files]]
-file = "kubejs/server_scripts/src/tag.js"
-hash = "c5fe7e277a55f6e7062b64594c7cc03566d044eceeb593704e06121476483967"
-
-[[files]]
-file = "kubejs/server_scripts/src/temp_fix.js"
-hash = "d4c9763c81aa69f538f7de9590dbbd56707163ab3507e2bbc7ecd9d5eeac3247"
-
-[[files]]
 file = "kubejs/server_scripts/src/util/recipes.js"
 hash = "a43dbdf9f3e10cd27316faa5cee36c4ff0a605211a780f9f1d8a05d5a86b53aa"
-
-[[files]]
-file = "kubejs/server_scripts/src/wood.js"
-hash = "e629005938ff64cae330aef45c9a22e5ce320ff34e9f28d3afa9dc8bbba34e7b"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item_register.js"
