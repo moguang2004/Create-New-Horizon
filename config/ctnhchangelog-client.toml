@@ -1,7 +1,7 @@
 #默认更新日志JSON文件的远程URL
 #非英文/俄文语言优先使用此项
 #例如: http://example.com/changelog.json
-changelogUrl = "https://raw.mmyddd.top:8081/changelog.json"
+changelogUrl = "https://raw.mmyddd.top:8081/changelog_v2.json"
 #是否在创建世界界面显示更新日志标签页
 enableChangelogTab = true
 #当前整合包版本号
@@ -25,11 +25,11 @@ enableEditor = false
 #英文更新日志JSON文件的远程URL
 #英文语言使用此项，其他语言 URL 为空时也会回退到此项
 #例如: http://example.com/changelog_en.json
-changelogUrlEn = "https://raw.mmyddd.top:8081/changelog_en.json"
+changelogUrlEn = "https://raw.mmyddd.top:8081/changelog_en_v2.json"
 #俄语更新日志JSON文件的远程URL
 #俄语语言使用此项；为空时回退到 changelogUrlEn
 #例如: http://example.com/changelog_ru.json
-changelogUrlRu = "https://raw.mmyddd.top:8081/changelog_ru.json"
+changelogUrlRu = "https://raw.mmyddd.top:8081/changelog_ru_v2.json"
 #远程更新日志缓存有效期（分钟）
 #缓存未过期时直接使用本地缓存，不访问远端
 #设为 0 可每次都检查远端

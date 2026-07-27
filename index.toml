@@ -9330,7 +9330,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctnh-changelog.pw.toml"
-hash = "612f818eb0a56e7050bfec804a5d9b85686ff8c308fb628e87f03d397d66850c"
+hash = "cf0fafa2db57414956d87383a9bc2d1e7eeef368c1b73c35a97a1fee567e3959"
 metafile = true
 
 [[files]]
