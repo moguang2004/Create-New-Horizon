@@ -1,0 +1,29 @@
+{
+  "name": "惡魔意志測量器",
+  "icon": "bloodmagic:demonwillgauge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "當在玩家的背包中，$(item)惡魔意志測量器$()將顯示一個HUD，將顯示在此區域的$(l:bloodmagic:demon_will/will_manipulation/aura)靈氣$()中有多少$(raw)惡魔意志$()。$(br2)從上到下，被測量的意志類型有:$(li)$(raw)原始意志$() $(li)$(corrosive)腐蝕$() $(li)$(steadfast)堅毅$() $(li)$(#ADFEDC)破壞$() $(li)$(vengeful)復仇$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "recipe": "bloodmagic:soulforge/demon_will_gauge",
+      "heading": "惡魔意志測量器",
+      "text": "測量器的HUD請見背面。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_will_aura_gauge.png"
+      ],
+      "title": "意志測量器HUD元素",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "這個測量器將顯示在螢幕左上方。量條將給你一個很好的估計，即在此區塊中的每一種$(l:bloodmagic:demon_will/will_manipulation/aspected_will)意志類型$()。 $(br2)你可以按住[$(k:sneak)]來讀取每個類型$(raw)意志$()的數值，從1到100。100為每一種類型$(raw)意志$()在區塊中的最大含量。"
+    }
+  ]
+}

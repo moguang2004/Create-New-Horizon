@@ -1,0 +1,31 @@
+{
+  "name": "引力",
+  "icon": "minecraft:tropical_fish",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)引力$()導致目標更快速的墜落，並在著地時受到更多傷害。然而並不會減少跳躍高度。$(br2)它是由$(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/grounded)接地$()及$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/slow_falling)緩降$()效果藥水所製作。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "引力 (3:00)",
+      "a.recipe": "bloodmagic:flask/gravity",
+      "b.heading": "引力 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_gravity",
+      "c.heading": "引力 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_gravity"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "添加$(l:bloodmagic:alchemy_table/potions#average_potions)標準催化劑$()可以更進一步提升效果。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "引力 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_gravity",
+      "b.heading": "引力 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_gravity"
+    }
+  ]
+}

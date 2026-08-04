@@ -1,0 +1,30 @@
+{
+  "name": "訓練手鐲",
+  "icon": "bloodmagic:upgradetrainer",
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "這種新鎧甲是一種令人難以相信的幫助，但它不固定的成長方向有時令人感到...沮喪。$(item)訓練手鐲$()能夠協助你。一旦製作完成，只需要按下[$(k:use)]便能開啟選單，讓你指定哪些能力可以訓練，哪些不行...或者是要避免的。"
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "訓練手鐲",
+      "recipe": "bloodmagic:array/living_trainer",
+      "text": "$(italic)*在這裡插入洛基訓練蒙太奇。*$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_array/living_equipment/training_bracelet.png"
+      ],
+      "title": "訓練手鐲GUI",
+      "border": false,
+      "text": "訓練手鐲的選單--它可以同時紀錄多達16種不同的項目。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "手鐲可以為任何特定的升級指定一個限制(假如你拿著一本$(item)束靈之書$())。例如，你可以告訴它把強壯膝蓋限制在等級3--一旦達到這個等級，強壯膝蓋將不再獲得經驗。 它還能夠阻止或允許你沒有另外指定的其他所有技能訓練。如果你想允許所有的訓練，除了一個，你可以在允許其它的模式下把它加入手鐲，並把它的等級上限設置為0。"
+    }
+  ]
+}

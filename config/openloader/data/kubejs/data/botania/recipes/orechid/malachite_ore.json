@@ -1,0 +1,12 @@
+{
+    "type": "botania:orechid",
+    "input": {
+        "type": "block",
+        "block": "minecraft:stone"
+    },
+    "output": {
+        "type": "block",
+        "block": "gtceu:malachite_ore"
+    },
+    "weight": 1000
+}

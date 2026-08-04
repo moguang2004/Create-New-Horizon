@@ -1,0 +1,15 @@
+{
+  "name": "輕盈",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果:減少墜落傷害，最高可以完全免疫。 $(br2)訓練:因墜落而受傷。 $(br2)最高等級: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:fall_protect"
+    }
+  ]
+}

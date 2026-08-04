@@ -363,7 +363,10 @@
 				{
 					count: 15L
 					id: "7C5667FF09BFD75B"
-					item: { Count: 15, id: "gtportal:simple_end_portal_frame" }
+					item: {
+						Count: 15
+						id: "gtportal:simple_end_portal_frame"
+					}
 					type: "item"
 				}
 				{
@@ -608,7 +611,10 @@
 				{
 					count: 15L
 					id: "5D55FD3CDA054C23"
-					item: { Count: 15, id: "gtportal:simple_aether_portal_frame" }
+					item: {
+						Count: 15
+						id: "gtportal:simple_aether_portal_frame"
+					}
 					type: "item"
 				}
 				{

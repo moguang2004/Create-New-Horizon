@@ -380,7 +380,10 @@
 				{
 					count: 15L
 					id: "2EB45425F209854C"
-					item: { Count: 15, id: "gtportal:simple_twilight_portal_frame" }
+					item: {
+						Count: 15
+						id: "gtportal:simple_twilight_portal_frame"
+					}
 					type: "item"
 				}
 				{

@@ -1,0 +1,31 @@
+{
+  "name": "紅石與自動化",
+  "icon": "minecraft:redstone",
+  "category": "bloodmagic:altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:altar/blood_altar)血祭壇$()是個奇幻的工具，但待在那邊等待石板製作並不是個好主意。幸運的是，物品及$(blood)LP$()能夠透過管道自動進出祭壇，盡管有些事情需要注意。 $(br2)雖然一個簡單的$(item)漏斗$()可以讓你輸入物品，但祭壇並不會阻止它輸入超過1個物品，它會很高興的一次為你製作64個石板。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "所以將會消耗平時的64倍$(blood)LP$() - 但如果你沒有辦法提供足夠的$(blood)LP$()，你將會遇上麻煩。 $(br2)此外，祭壇的輸入及輸出並沒有區分，所以如果沒有某種過濾器，物品會以你的物流系統所能處理的速度被輸入輸出。也許看一下$(l:bloodmagic:demon_will/item_routing/routing_nodes)路由節點$()會有幫助..."
+    },
+	{
+      "type": "patchouli:text",
+      "text": "祭壇還能夠轉移$(blood)生命精華$()至外部儲罐。只需要連接液體管道，你就可以為之後的製作儲存多餘的$(blood)生命精華$()。$(br2)請注意，預設情況下轉移速度非常緩慢。如果你想加快速度，最好研究一下$(l:bloodmagic:altar/blood_rune/acceleration_rune)加速符文$()及$(l:bloodmagic:altar/blood_rune/dislocation_rune)流動符文$()。"
+    },
+	{
+      "type": "patchouli:text",
+      "text": "請不要忘記$(blood)生命精華$()並不是直接由$(l:bloodmagic:altar/blood_altar)祭壇$()本身提取，而是由秘密的內部緩衝提取。這個儲罐最多可以容納$(thing)10%上限$()的$(blood)生命精華$()所以如果數字看起來沒有完全增加，或者$(blood)生命精華$()看起來像是消失了，也許就是待在這裡。同樣的限制也適用於被輸入的$(blood)生命精華$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "在$(l:bloodmagic:altar/blood_altar)血祭壇$()內的$(blood)生命精華$()可以透過在側面放一個比較器讀取，類似原版的箱子。$(br2)如果你在祭壇下放置了$(item)血石磚$()，比較器則會讀取任何放入祭壇的血寶珠主人的$(l:bloodmagic:altar/soul_network)靈魂網路$(/l)數值，訊號強度取決於祭壇中寶珠的大小，而不是網路的最大$(blood)LP$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "例如，你擁有$(blood)500,000 LP$()，微弱血寶珠會顯示完全充滿，但大師血寶珠則顯示半滿。這能夠用來，像是當你的$(blood)LP$()不足時停止儀式，以確保不會消耗殆盡。$(br2)最後，在祭壇下放置$(item)紅石燈$()，則能夠在完成製作時輸出一個紅石訊號。"
+    }
+  ]
+}

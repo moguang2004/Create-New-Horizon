@@ -1,0 +1,25 @@
+{
+  "name": "柔軟覆層",
+  "icon": "bloodmagic:silk_touch_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "柔軟覆層",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment",
+      "text": "對方塊套用絲綢之觸。無法與原版附魔疊加。$(br2)有效物品:工具，劍，炸藥。$(br2)套用:絲綢之觸I (256 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "柔軟覆層L",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 絲綢之觸I (1024 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "柔軟覆層XL",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 絲綢之觸I (4096 方塊)"
+    }
+  ]
+}

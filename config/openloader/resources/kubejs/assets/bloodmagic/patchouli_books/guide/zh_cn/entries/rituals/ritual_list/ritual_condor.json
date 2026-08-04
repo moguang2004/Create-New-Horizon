@@ -1,0 +1,22 @@
+{
+  "name": "禿鷹的崇敬",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "禿鷹的崇敬",
+      "multiblock_id": "bloodmagic:condor",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "condor"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "condor",
+      "page_type": "flightRange"
+    }
+  ]
+}

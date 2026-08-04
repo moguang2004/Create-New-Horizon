@@ -1,0 +1,12 @@
+{
+    "type": "botania:orechid_ignem",
+    "input": {
+        "type": "block",
+        "block": "minecraft:netherrack"
+    },
+    "output": {
+        "type": "block",
+        "block": "gtceu:netherrack_garnierite_ore"
+    },
+    "weight": 2670
+}

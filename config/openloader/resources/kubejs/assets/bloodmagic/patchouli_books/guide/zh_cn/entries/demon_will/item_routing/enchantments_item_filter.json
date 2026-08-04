@@ -1,0 +1,30 @@
+{
+  "name": "附魔物品過濾器",
+  "icon": "bloodmagic:itemrouterfilterenchant",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "$(item)附魔物品過濾器$()使你能夠排序$(thing)附魔$()(有/沒有)。它的運作方式類似於$(l:bloodmagic:demon_will/item_routing/standard_item_filter)標準物品過濾器$()，特別是數量和允許/拒絕功能方面，但有一些額外的按鈕。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "附魔物品過濾器",
+      "recipe": "bloodmagic:alchemytable/enchant_router_filter",
+      "text": "任何有附魔的書都能適用這個配方。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/routing/enchant_item_filter_gui.png"
+      ],
+      "title": "附魔物品過濾器GUI",
+      "border": true,
+      "text": "注意，＂允許＂按鈕右邊的兩個按鈕。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "第一個按鈕允與你選擇是否匹配$(thing)任何附魔$()或， $(thing)附魔道具$()，或$(thing)特定一種附魔$()。第二個按鈕允許你指定等級。 (E.G. ＂保護 III＂ 與 ＂保護＂)。 $(br2)如果你輸入了一個$(thing)沒有附魔的道具$() 到過濾器內，你可以允許或拒絕$(thing)任何種類的附魔排序$()或從空間中移除。"
+    }
+  ]
+}

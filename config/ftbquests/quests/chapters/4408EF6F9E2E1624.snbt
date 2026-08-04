@@ -1630,7 +1630,10 @@
 				{
 					count: 15L
 					id: "392A28A656FD9A95"
-					item: { Count: 15, id: "gtportal:simple_nether_portal_frame" }
+					item: {
+						Count: 15
+						id: "gtportal:simple_nether_portal_frame"
+					}
 					type: "item"
 				}
 				{
@@ -1641,7 +1644,10 @@
 				{
 					count: 15L
 					id: "5A252BBFE26D4E60"
-					item: { Count: 15, id: "gtportal:simple_overworld_portal_frame" }
+					item: {
+						Count: 15
+						id: "gtportal:simple_overworld_portal_frame"
+					}
 					type: "item"
 				}
 				{

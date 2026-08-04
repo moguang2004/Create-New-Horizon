@@ -1,0 +1,31 @@
+{
+  "name": "堅硬斗篷",
+  "icon": "minecraft:obsidian",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)堅硬斗篷$()使用時，提高3點護甲強度。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "堅硬斗篷 (3:00)",
+      "a.recipe": "bloodmagic:flask/hard_cloak",
+      "b.heading": "堅硬斗篷 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_hard_cloak",
+      "c.heading": "堅硬斗篷 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_hard_cloak"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "添加$(l:bloodmagic:alchemy_table/potions#average_potions)標準催化劑$()可以更進一步提升效果。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "堅硬斗篷 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_hard_cloak",
+      "b.heading": "堅硬斗篷 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_hard_cloak"
+    }
+  ]
+}

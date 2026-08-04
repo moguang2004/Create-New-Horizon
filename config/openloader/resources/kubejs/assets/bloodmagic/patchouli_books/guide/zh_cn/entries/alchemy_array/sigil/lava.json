@@ -1,0 +1,35 @@
+{
+  "name": "岩漿印記",
+  "icon": "bloodmagic:lavasigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "它的姊妹印記$(l:bloodmagic:alchemy_array/sigil/water)水之印記$(/l)。當你持有$(item)岩漿印記$()時按下[$(k:use)]將在地面上創造一格$(fire)岩漿$()，代價為 $(blood)1000 LP$()。在$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奧術灰燼$(/l)中使用$(item)岩漿試劑$()和$(item)空白石板$()所製作，如果在$(l:bloodmagic:altar/soul_network)靈魂網路$(/l)中沒有足夠的LP，它將消耗5顆心。"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "岩漿試劑",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_lava",
+      "array.heading": "岩漿印記",
+      "array.recipe": "bloodmagic:array/lavasigil",
+      "array.text": "$(italic)燙!不能吃。$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/lava_sigil1.png",
+        "bloodmagic:images/entries/sigil/lava_sigil2.png"
+      ],
+      "title": "岩漿印記陣",
+      "border": true,
+      "text": "岩漿印記陣，加上主要用途。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "岩漿桶",
+      "recipe": "bloodmagic:alchemytable/sigil_lava_bucket",
+      "text": "更重要的是它能夠在$(l:bloodmagic:alchemy_table/alchemy_table)鍊金桌$()實現 $(fire)岩漿桶$()的自動化生產。在這個配方中印記不會被消耗。"
+    }
+  ]
+}

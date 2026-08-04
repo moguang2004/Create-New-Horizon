@@ -1,0 +1,37 @@
+{
+  "name": "掠奪閃芒",
+  "icon": "bloodmagic:looting_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "掠奪閃芒",
+      "recipe": "bloodmagic:alchemytable/looting_anointment",
+      "text": "增加從生物獲取的掉落物，可與掠奪附魔疊加。$(br2)有效物品:工具，劍。$(br2)套用: 掠奪I (256 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "掠奪閃芒L",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 掠奪I (1024 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "掠奪閃芒II",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_2",
+      "text": "這種升級版藥劑可以更加提高獲取的掉落物。 $(br2)套用: 掠奪II (256 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "掠奪閃芒XL",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 掠奪I (4096 擊中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "掠奪閃芒III",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_3",
+      "text": "這種升級版藥劑可以更加提高獲取的掉落物。 $(br2)套用: 掠奪III (256 擊中)"
+    }
+  ]
+}

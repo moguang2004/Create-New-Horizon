@@ -88,6 +88,17 @@
         "value": 1000
       }
     },
+    "tconstruct:generic.armor_strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "minecraft:generic.luck": {
       "enabled": true,
       "min": {
@@ -121,17 +132,6 @@
         "value": 1
       }
     },
-    "touhou_little_maid:maid_hunger": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2147483647,
-        "value": 2147483647
-      }
-    },
     "legendarysurvivaloverhaul:legs_resistance": {
       "enabled": false,
       "min": {
@@ -141,6 +141,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "touhou_little_maid:maid_hunger": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "forge:entity_reach": {
@@ -372,6 +383,17 @@
       "max": {
         "default": 2147483647,
         "value": 2147483647
+      }
+    },
+    "tconstruct:generic.pre_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "attributeslib:mining_speed": {
@@ -671,6 +693,17 @@
         "value": 2048
       }
     },
+    "tconstruct:generic.post_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "attributeslib:dodge_chance": {
       "enabled": false,
       "min": {
@@ -726,17 +759,6 @@
         "value": 10000
       }
     },
-    "touhou_little_maid:maid_crossbow_attack_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2147483647,
-        "value": 2147483647
-      }
-    },
     "legendarysurvivaloverhaul:feet_resistance": {
       "enabled": false,
       "min": {
@@ -746,6 +768,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "touhou_little_maid:maid_crossbow_attack_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "tetra:draw_speed": {
@@ -988,6 +1021,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "tconstruct:generic.armor_protection": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0.800000011920929,
+        "value": 0.800000011920929
       }
     },
     "attributeslib:current_hp_damage": {

@@ -1,0 +1,16 @@
+{
+  "name": "血石磚",
+  "icon": "bloodmagic:largebloodstonebrick",
+  "category": "bloodmagic:utility",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "$(item)血石磚$()是一種裝飾性方塊，並用於階級4$(l:bloodmagic:altar/blood_altar)血祭壇$()的$(thing)頂端$()。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:largebloodstonebrick",
+      "recipe2": "bloodmagic:bloodstonebrick"
+    }
+  ]
+}

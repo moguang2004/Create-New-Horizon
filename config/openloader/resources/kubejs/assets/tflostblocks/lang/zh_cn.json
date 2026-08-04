@@ -1,0 +1,149 @@
+{
+    "block.tflostblocks.stone_tiles": "石砖瓦",
+    "block.tflostblocks.stone_tile_stairs": "石砖瓦楼梯",
+    "block.tflostblocks.stone_tile_slab": "石砖瓦台阶",
+    "block.tflostblocks.stone_tile_wall": "石砖瓦墙",
+
+    "block.tflostblocks.mossy_stone_tiles": "苔藓石砖瓦",
+    "block.tflostblocks.mossy_stone_tile_stairs": "苔藓石砖瓦楼梯",
+    "block.tflostblocks.mossy_stone_tile_slab": "苔藓石砖瓦台阶",
+    "block.tflostblocks.mossy_stone_tile_wall": "苔藓石砖瓦墙",
+
+    "block.tflostblocks.aurora_stairs": "极光楼梯",
+    "block.tflostblocks.aurora_wall": "极光墙",
+    "block.tflostblocks.auroralized_glass_pane": "极光玻璃台阶",
+
+    "block.tflostblocks.castle_brick_slab": "城堡砖台阶",
+    "block.tflostblocks.castle_brick_wall": "城堡砖墙",
+
+    "block.tflostblocks.castle_brick_tiles": "城堡砖瓦",
+    "block.tflostblocks.castle_brick_tile_stairs": "城堡砖瓦楼梯",
+    "block.tflostblocks.castle_brick_tile_slab": "城堡砖瓦台阶",
+    "block.tflostblocks.castle_brick_tile_wall": "城堡砖瓦墙",
+
+    "block.tflostblocks.bold_castle_brick_slab": "粗纹城堡砖台阶",
+    "block.tflostblocks.bold_castle_brick_wall": "粗纹城堡砖墙",
+
+    "block.tflostblocks.encased_castle_brick_slab": "黑纹城堡砖台阶",
+    "block.tflostblocks.encased_castle_brick_wall": "黑纹城堡砖墙",
+
+    "block.tflostblocks.cracked_castle_brick_slab": "裂纹城堡砖台阶",
+    "block.tflostblocks.cracked_castle_brick_wall": "裂纹城堡砖墙",
+
+    "block.tflostblocks.worn_castle_brick_slab": "磨损城堡砖台阶",
+    "block.tflostblocks.worn_castle_brick_wall": "磨损城堡砖墙",
+
+    "block.tflostblocks.mossy_castle_brick_slab": "生苔城堡砖台阶",
+    "block.tflostblocks.mossy_castle_brick_wall": "生苔城堡砖墙",
+
+    "block.tflostblocks.deadrock_slab": "死岩台阶",
+    "block.tflostblocks.deadrock_stairs": "死岩楼梯",
+
+    "block.tflostblocks.cracked_deadrock_slab": "裂纹死岩台阶",
+    "block.tflostblocks.cracked_deadrock_stairs": "裂纹死岩楼梯",
+
+    "block.tflostblocks.weathered_deadrock_slab": "风化死岩台阶",
+    "block.tflostblocks.weathered_deadrock_stairs": "风化死岩楼梯",
+
+    "block.tflostblocks.deadrock_bricks": "死岩砖",
+    "block.tflostblocks.deadrock_brick_slab": "死岩砖台阶",
+    "block.tflostblocks.deadrock_brick_stairs": "死岩砖楼梯",
+    "block.tflostblocks.deadrock_brick_wall": "死岩砖墙",
+
+    "block.tflostblocks.nagastone_slab_left": "娜迦石台阶（左）",
+    "block.tflostblocks.nagastone_slab_right": "娜迦石台阶（右）",
+
+    "block.tflostblocks.cracked_nagastone_slab_left": "裂纹娜迦石台阶（左）",
+    "block.tflostblocks.cracked_nagastone_slab_right": "裂纹娜迦石台阶（右）",
+
+    "block.tflostblocks.mossy_nagastone_slab_left": "娜迦苔石台阶（左）",
+    "block.tflostblocks.mossy_nagastone_slab_right": "娜迦苔石台阶（右）",
+
+    "block.tflostblocks.mazestone_slab": "迷宫石台阶",
+    "block.tflostblocks.mazestone_stairs": "迷宫石楼梯",
+    "block.tflostblocks.mazestone_wall": "迷宫石墙",
+
+    "block.tflostblocks.cut_mazestone_slab": "切制迷宫石台阶",
+    "block.tflostblocks.cut_mazestone_stairs": "切制迷宫石楼梯",
+    "block.tflostblocks.cut_mazestone_wall": "切制迷宫石墙",
+
+    "block.tflostblocks.large_mazestone_bricks": "大迷宫石砖",
+    "block.tflostblocks.large_mazestone_brick_slab": "大迷宫石砖台阶",
+    "block.tflostblocks.large_mazestone_brick_stairs": "大迷宫石砖楼梯",
+    "block.tflostblocks.large_mazestone_brick_wall": "大迷宫石砖墙",
+
+    "block.tflostblocks.mazestone_brick_slab": "迷宫石砖台阶",
+    "block.tflostblocks.mazestone_brick_stairs": "迷宫石砖楼梯",
+    "block.tflostblocks.mazestone_brick_wall": "迷宫石砖墙",
+
+    "block.tflostblocks.mossy_mazestone_brick_slab": "生苔迷宫石砖台阶",
+    "block.tflostblocks.mossy_mazestone_brick_stairs": "生苔迷宫石砖楼梯",
+    "block.tflostblocks.mossy_mazestone_brick_wall": "生苔迷宫石砖墙",
+
+    "block.tflostblocks.stripped_thorns": "去皮荆棘",
+    "block.tflostblocks.stripped_thorn_block": "去皮荆棘块",
+    "block.tflostblocks.thorn_planks": "荆棘木板",
+    "block.tflostblocks.thorn_slab": "荆棘台阶",
+    "block.tflostblocks.thorn_stairs": "荆棘楼梯",
+    "block.tflostblocks.thorn_fence": "荆棘栅栏",
+    "block.tflostblocks.thorn_fence_gate": "荆棘栅栏门",
+    "block.tflostblocks.thorn_door": "荆棘门",
+    "block.tflostblocks.thorn_trapdoor": "荆棘活活板门",
+    "block.tflostblocks.thorn_button": "荆棘按钮",
+    "block.tflostblocks.thorn_pressure_plate": "荆棘压力板",
+    "block.tflostblocks.thorn_sign": "荆棘告示牌",
+    "block.tflostblocks.thorn_hanging_sign": "悬挂式荆棘告示牌",
+    "block.tflostblocks.thorn_banister": "荆棘栏杆",
+
+    "block.tflostblocks.towerwood_slab": "塔木台阶",
+    "block.tflostblocks.towerwood_stairs": "塔木楼梯",
+    "block.tflostblocks.towerwood_fence": "塔木栅栏",
+    "block.tflostblocks.towerwood_fence_gate": "塔木栅栏门",
+    "block.tflostblocks.towerwood_door": "塔木门",
+    "block.tflostblocks.towerwood_trapdoor": "塔木活活板门",
+    "block.tflostblocks.towerwood_button": "塔木按钮",
+    "block.tflostblocks.towerwood_pressure_plate": "塔木压力板",
+    "block.tflostblocks.towerwood_sign": "塔木告示牌",
+    "block.tflostblocks.towerwood_hanging_sign": "悬挂式塔木告示牌",
+    "block.tflostblocks.towerwood_banister": "塔木栏杆",
+
+    "block.tflostblocks.mossy_towerwood_slab": "生苔塔木台阶",
+    "block.tflostblocks.mossy_towerwood_stairs": "生苔塔木楼梯",
+
+    "block.tflostblocks.underbrick_slab": "地下砖台阶",
+    "block.tflostblocks.underbrick_stairs": "地下砖楼梯",
+    "block.tflostblocks.underbrick_wall": "地下砖墙",
+
+    "block.tflostblocks.cracked_underbrick_slab": "裂纹地下砖台阶",
+    "block.tflostblocks.cracked_underbrick_stairs": "裂纹地下砖楼梯",
+    "block.tflostblocks.cracked_underbrick_wall": "裂纹地下砖墙",
+
+    "block.tflostblocks.mossy_underbrick_slab": "生苔地下砖台阶",
+    "block.tflostblocks.mossy_underbrick_stairs": "生苔地下砖楼梯",
+    "block.tflostblocks.mossy_underbrick_wall": "生苔地下砖墙",
+
+    "block.tflostblocks.trollsteinn_slab": "巨魔石台阶",
+    "block.tflostblocks.trollsteinn_stairs": "巨魔石楼梯",
+    "block.tflostblocks.trollsteinn_wall": "巨魔石墙",
+
+    "block.tflostblocks.polished_trollsteinn": "抛光巨魔石",
+    "block.tflostblocks.polished_trollsteinn_slab": "抛光巨魔石台阶",
+    "block.tflostblocks.polished_trollsteinn_stairs": "抛光巨魔石楼梯",
+    "block.tflostblocks.polished_trollsteinn_wall": "抛光巨魔石墙",
+
+    "block.tflostblocks.trollsteinn_bricks": "巨魔石砖",
+    "block.tflostblocks.trollsteinn_brick_slab": "巨魔石砖台阶",
+    "block.tflostblocks.trollsteinn_brick_stairs": "巨魔石砖楼梯",
+    "block.tflostblocks.trollsteinn_brick_wall": "巨魔石砖墙",
+
+    "block.tflostblocks.chiseled_trollsteinn": "錾制巨魔石",
+
+    "item.tflostblocks.incomplete_thorncutter_axe": "未激活的荆棘斧",
+    "item.tflostblocks.thorncutter_axe": "荆棘斧",
+
+    "advancement.tflostblocks.find_thorncutter_axe": "荆棘的祸根……不？",
+    "advancement.tflostblocks.find_thorncutter_axe.desc": "在最终城堡顶部找到一把奇怪的斧头。它看起来不完整。也许试试用余烬灯和火焰锭在锻造台上完成它？",
+
+    "advancement.tflostblocks.smith_thorncutter_axe": "荆棘的祸根",
+    "advancement.tflostblocks.smith_thorncutter_axe.desc": "使用锻造技术制作完整的荆棘斧。现在你可以用这把特殊的斧头收获环绕在最终高原周围的荆棘。"
+}

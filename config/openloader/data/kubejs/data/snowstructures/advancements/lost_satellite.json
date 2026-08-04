@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "lostsatellite": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                    "location": {
+                        "structure": "snowstructures:lost_satellite"
+                        }
+                    }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "item": "minecraft:apple"
+         },
+         "title": {
+             "translate": "兢兢业业..."
+         },
+         "description": {
+             "translate": "一艘近地卫星！应该会有活着的人吧..."
+         },
+         "frame": "task",    
+         "announce_to_chat": true,      
+         "hidden": false,    
+         "show_toast": true    
+    },
+    "parent": "snowstructures:begining",
+    "requirements": [  
+        ["lostsatellite"]
+    ],
+    "rewards": {   
+        "function": "snowstructures:lost_satellite"
+    }
+}

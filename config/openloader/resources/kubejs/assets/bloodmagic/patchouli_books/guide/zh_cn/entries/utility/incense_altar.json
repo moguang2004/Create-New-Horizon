@@ -1,0 +1,112 @@
+{
+  "name": "薰香祭壇",
+  "icon": "bloodmagic:incensealtar",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)薰香祭壇$()是一個多方塊結構，可以提高你在$(l:bloodmagic:altar/blood_altar)血祭壇$()自我犧牲時的產量。透過站在附近，$(item)薰香祭壇$()將根據該區域的情形撫慰你的靈魂。$(thing)寧靜$()，使你大大增加獲得的$(blood)LP$()。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:incense_altar"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "階級1的基礎設置為$(item)薰香祭壇$()本身;將把放置在任何地方(你可能會想建立3x3的平台，這將在後面有幫助)，並保持在祭壇的半徑5格方塊內。$(br2)當祭壇運作時，它將從頂部散發火焰粒子，並轉化你的$(l:bloodmagic:altar/blood_altar#knife)犧牲匕首$()。一但你的匕首被轉化，在$(l:bloodmagic:altar/blood_altar)血祭壇$()附近按住並放開右鍵。將會一次犧牲90%的生命值。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar1.png"
+      ],
+      "title": "基礎配置",
+      "border": true,
+      "text": "在3x3路徑範圍內的基礎配置。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "更重要的是，根據在區域內的$(thing)寧靜$()總量，你將會得到額外的$(blood)LP$()存入$(l:bloodmagic:altar/blood_altar)血祭壇$()內。當你在$(item)薰香祭壇$()周圍徘徊$(l:bloodmagic:alchemy_array/sigil/divination)占卜印記$(/l)或$(l:bloodmagic:alchemy_array/sigil/seer)先知印記$()將會顯示$(thing)寧靜$()總量(頂部的數字)，和犧牲時獲得的百分比獎勵(底部數字)。當你犧牲時，通常會獲得乘以(1 + 額外獲得/100)$(blood)的LP$()。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar2.png"
+      ],
+      "title": "薰香 HUD",
+      "border": true,
+      "text": "薰香 HUD，預設在畫面左上角，顯示自我犧牲的獎勵為+20%。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "\"但是，我該怎麼增加額外獎勵?\"什麼?透過增加區域內的$(thing)寧靜$()!...好吧，這可能有點含糊。$(br2)為了增加區域內的$(thing)寧靜$()，你需要在$(item)薰香祭壇$()周圍放上通往外面的路徑。這些路徑需要由一組三格寬的$(item)路徑$()方塊組成，如$(item)木製路$()，從3x3的中心往四個方向延伸。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_wood",
+      "recipe2": "bloodmagic:path/path_woodtile"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_stone",
+      "recipe2": "bloodmagic:path/path_stonetile"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_wornstone",
+      "recipe2": "bloodmagic:path/path_wornstonetile"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:path/path_obsidian",
+      "recipe2": "bloodmagic:path/path_obsidiantile"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "每個新的\"路徑環\"方塊都需要遵循規則: $(li)所有同一路徑環方塊必須在同一個Y層。$(li)下一環的方塊不得比上一環高/低五格方塊以上。$(li)同一層或比路徑區塊高出兩格方塊的區塊，將會計入總$(thing)寧靜$() - 這些區塊使用玻璃方塊示範。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar.png"
+      ],
+      "title": "薰香祭壇",
+      "border": true,
+      "text": "具有不同路徑的薰香祭壇。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "此外:$(li)每種路徑方塊的效果只能維持一段距離:木製路只能從中心往外走3環，石路最多5環，碎石磚能夠走7環，黑曜石路能夠走9環。$(bn2)顯然，並不是每一種方塊都能作為路徑算入$(thing)寧靜$()。不是隨便一顆鵝卵石就能辦到的，不是!我們需要作物，泥土...甚至是岩漿?"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "有多種方塊種類可以被計入$(thing)寧靜$()。排序不分前後,可以是:植物，作物，樹木，泥土，水，火，甚至是岩漿。$(item)薰香祭壇$()會觀察範圍內所有的方塊(由路經區塊定義)，並計算每種類型的總$(thing)寧靜$()。然後將它們加在一起計算出區域總$(thing)寧靜$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "這代表，在遊戲後其最好有多種不同類型的$(thing)寧靜方塊$()。雖然其它模組可能也會加入自己的方塊，而且以後只會更多，但總體來說對$(thing)寧靜$()提升有所幫助的方塊有:岩漿，水(含大多數含水方塊。)，生命精華，地獄石，泥土，耕土，馬鈴薯，胡蘿蔔，小麥，地獄疙瘩，甜菜根，樹葉，原木，火，以及玻璃。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar3.png"
+      ],
+      "title": "薰香祭壇配置",
+      "border": true,
+      "text": "遊戲後期薰香祭壇的不同層次。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "當然，你的設計可以是陡峭或是平緩的(在合理範圍內，如本條目前面所定義的)。$(br2)需要注意的是$(thing)寧靜獎勵$()上限是根據祭壇的大小(以及所使用的路徑等級)。計算如下: $(li)沒有路徑: 20%。 $(li)木製路: 60%。 $(li)石路: 120%。 $(li)碎石路: 200%。 $(li)黑曜石路: 300%。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/utility/incense_altar4.png"
+      ],
+      "title": "薰香祭壇配置",
+      "border": true,
+      "text": "一種簡單的$(item)薰香祭壇$()配置。混合不同的路徑方塊(選擇性)。"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "跳躍提升",
+  "icon": "minecraft:rabbit_foot",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)跳躍提升$()增加目標的跳躍高度，每級50%。每級還能使墜落傷害減少1點。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "跳躍提升 (3:00)",
+      "a.recipe": "bloodmagic:flask/jump_boost",
+      "b.heading": "跳躍提升 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_jump_boost",
+      "c.heading": "跳躍提升 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_jump_boost"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "添加$(l:bloodmagic:alchemy_table/potions#average_potions)標準催化劑$()可以更進一步提升效果。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "跳躍提升 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_jump_boost",
+      "b.heading": "跳躍提升 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_jump_boost"
+    }
+  ]
+}

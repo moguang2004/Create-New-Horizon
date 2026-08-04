@@ -1,0 +1,17 @@
+{
+  "name": "藥劑",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)藥劑$() 基本上就是 $(item)藥水$() 用於你的工具，武器，甚至是 $(l:bloodmagic:demon_will/demonic_items/explosive_charges)炸藥$()。在手持$(item)鍊金藥$()時按下[$(k:use)]，如果可能的話它將會使效果套用志在另外一隻手上的物品。並不是所有裝備都能使用鍊金藥! $(br2)不像 $(item)藥水$()， $(item)鍊金藥$()沒有時間限制，然而當你的武器或工具被使用時，它們就會消耗1點。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "注入石板的試管",
+      "recipe": "bloodmagic:alchemytable/slate_vial",
+      "text": "一個結實的試管，可以容納其他無法容納的混合物。"
+    }
+  ]
+}

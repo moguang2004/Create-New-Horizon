@@ -1,0 +1,15 @@
+{
+  "name": "用鍊金陣製作",
+  "icon": "bloodmagic:divinationsigil",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(1)製作鍊金陣$()是最簡單的鍊金陣之一。將會使用$(item)基底$()及$(item)催化劑$()，轉化物品。(透過一個小巧精美的動畫)。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "雖然有些可以使用$(l:bloodmagic:alchemy_array/sigil/divination)非常簡單的原料$(/l)製作，但是有些則需要額外的步驟來進行轉化。"
+    }
+  ]
+}  

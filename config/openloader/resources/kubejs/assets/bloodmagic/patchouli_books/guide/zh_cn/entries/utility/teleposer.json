@@ -1,0 +1,37 @@
+{
+  "name": "傳送器",
+  "icon": "bloodmagic:teleposerfocus",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)傳送器$()能使用$(fire)紅石控制$()進行瞬間移動簡單地製作$(item)傳送定位點$() (後面頁面)，將其與目標傳送器綁定，並放入另一個傳送定位點中。然後對有定位點的傳送器施加一個紅石訊號。 任何東西 - 方塊，物品，生物，玩家 - 在規定的範圍內，傳送器上的東西將被交換。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:teleposer",
+      "text":"然而，沒有任何東西是免費的;透過傳送器傳送每穿越兩格方塊就需要耗費$(blood)1 LP$()，最大每個方塊/生物可以消耗$(blood)1,000 LP$()，或$(blood)10,000 LP$()全部。"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "傳送定位點",
+      "recipe": "bloodmagic:altar/teleposer_focus",
+      "text": "基本$(item)傳送定位點$()將交換兩個傳送器方塊上方1x1x1範圍內的任何東西。"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "附魔定位點",
+      "recipe": "bloodmagic:altar/enhanced_teleposer_focus",
+      "text": "$(item)附魔定位點$()將交換兩個傳送器方塊上方3x3x3範圍內的任何東西。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:enhanced_teleposer_focus",
+      "text": "$(item)增強傳送定位點$() 將交換兩個傳送器方塊上方5x5x5範圍內的任何東西。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "傳送器能夠被單向連接(這樣一來，就算有紅石訊號到出口的傳送器也不會有任何作用)，雙向(每個傳送器都有一個定位點連接到另一個傳送器，使你可以使用紅石訊號來回傳送)，甚至能夠串聯 - A到B到C最後回到A點。瘋狂穿越基地的電梯系統及地城吧!"
+    }
+  ]
+}

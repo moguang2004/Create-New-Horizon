@@ -1,0 +1,15 @@
+{
+  "name": "堅韌",
+  "icon": "minecraft:shield",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果:保護你免受非投射物以外的傷害。$(br2)訓練:遭受任何非拋射物的傷害。 $(br2)最高等級: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:physical_protect"
+    }
+  ]
+}

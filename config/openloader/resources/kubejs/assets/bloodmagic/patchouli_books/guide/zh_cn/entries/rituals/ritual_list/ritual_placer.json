@@ -1,0 +1,27 @@
+{
+  "name": "填充儀式",
+  "icon": "minecraft:dispenser",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "填充儀式",
+      "multiblock_id": "bloodmagic:placer",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "placer"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "placer",
+      "page_type": "placerRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "placer",
+      "page_type": "chest"
+    }
+  ]
+}

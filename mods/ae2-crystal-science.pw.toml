@@ -1,13 +1,13 @@
 name = "AE2 Crystal Science"
-filename = "ae2cs-1.20.1-forge-1.1.4.514.jar"
+filename = "ae2cs-1.20.1-1.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b932c49a4b276b0dcb8005b9601d38978a28ae80"
+hash = "bc40f81af8c47fc35a6ba2a84fef433125036804"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7809749
+file-id = 8324630
 project-id = 1435174

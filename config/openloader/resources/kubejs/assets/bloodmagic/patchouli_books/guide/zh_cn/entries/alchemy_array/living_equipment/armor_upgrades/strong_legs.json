@@ -1,0 +1,15 @@
+{
+  "name": "強壯膝蓋",
+  "icon": "minecraft:diamond_leggings",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果增加跳躍高度並減少墜落傷害，最多可以增加7.5個方塊高級83%墜落傷害。可以透過跳躍時按住[$(k:sneak)]來停用。 $(br2)訓練:持續跳躍。 $(br2)最高等級: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:jump"
+    }
+  ]
+}

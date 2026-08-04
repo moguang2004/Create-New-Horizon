@@ -147,3 +147,4 @@ config/*
 !config/ae2cs-common.toml
 !config/gtmqol.json
 !config/FTBLang
+!config/openloader

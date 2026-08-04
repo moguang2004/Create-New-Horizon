@@ -1,0 +1,17 @@
+{
+  "name": "感知之劍",
+  "icon": "bloodmagic:soulsword",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)感知之劍$()是一種蒐集$(l:bloodmagic:demon_will/will_manipulation/demon_will)惡魔意志$()比$(l:bloodmagic:demon_will/will_manipulation/soul_snare)靈魂掠奪者$()還要有效的工具。起初可能看起來很弱，但它是由你攜帶的意志提供力量，所以製作一個$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()是必要的。 $(br2)請注意，這把劍和所有的$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$()相同，能在鐵砧上使用$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)意志水晶$()進行修復。"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "感知之劍",
+      "recipe": "bloodmagic:soulforge/sentientsword",
+      "text": "這把劍將為你提供良好的服務。$(br2)請注意，你可以在裝備這把劍時透過按下[$(k:use)]更新劍的狀態-如果你獲得了大量的$(raw)意志$()，或是第一次使用它時。"
+    }
+  ]
+}

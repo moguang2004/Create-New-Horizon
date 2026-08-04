@@ -1,0 +1,57 @@
+{
+  "name": "鍊金術反應室",
+  "icon": "bloodmagic:alchemicalreactionchamber",
+  "category": "bloodmagic:utility",
+  "pages": [
+     {
+      "type": "patchouli:text",
+      "text": "$(item)鍊金術反應室$()還沒有完全實現，但在其他方面能作為$(thing)熔爐$()使用，提供另一種$(l:bloodmagic:utility/ore_processing)礦物冶煉$()方式，是目前逆轉$(l:bloodmagic:altar/soul_network)血寶珠$()，並且獲得$(blood)微弱血碎片$()，特別是$(l:bloodmagic:dungeons/tau_fruit)飽滿血命果$()的唯一途徑。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:arc"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "血染復原器",
+      "recipe": "bloodmagic:soulforge/sanguine_reverter",
+	  "anchor": "blood_shard",
+      "text": "$(item)血染復原器$()使用來逆轉$(l:bloodmagic:altar/soul_network)血寶珠$()並製作$(blood)微弱血碎片$()的物品。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "微弱血碎片",
+      "a.recipe": "bloodmagic:arc/weakbloodshard_tau",
+      "b.heading": "逆轉　微弱血寶珠",
+      "b.recipe": "bloodmagic:arc/reversion/weak_blood_orb",
+      "c.heading": "逆轉　學徒血寶珠",
+      "c.recipe": "bloodmagic:arc/reversion/apprentice_blood_orb"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "逆轉 法師血寶珠",
+      "a.recipe": "bloodmagic:arc/reversion/magician_blood_orb",
+      "b.heading": "逆轉 大師血寶珠",
+      "b.recipe": "bloodmagic:arc/reversion/master_blood_orb",
+      "b.text": "翻開頁面，瞭解更多鍊金術反應室的用途。"
+    },
+    {
+      "type": "empty"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "水化單元",
+      "recipe": "bloodmagic:primitive_hydration_cell",
+      "text": "水化單元被用來製作黏土，即平衡的基礎。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "黏土 來自 沙",
+      "a.recipe": "bloodmagic:arc/clay_from_sand",
+      "a.fluid_input": "minecraft:water_bucket",
+      "b.heading": "黏土 來自 陶土",
+      "b.recipe": "bloodmagic:arc/clay_from_terracotta",
+      "b.fluid_input": "minecraft:water_bucket"
+    }
+  ]
+}

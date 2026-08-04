@@ -1,0 +1,32 @@
+{
+  "name": "先知印記",
+  "icon": "bloodmagic:seersigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)先知印記是$(l:bloodmagic:alchemy_array/sigil/divination)占卜印記的高階版本$()。除了顯示綁定玩家的LP量以外，還能夠顯示$(l:bloodmagic:altar/blood_altar)血祭壇$(/l)的$(l:bloodmagic:altar/soul_network)靈魂網路$(/l)。$(br2)像是$(item)占卜印記$()，它也可以用來編輯GUI。(更多資訊請看占卜印記頁面)"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "先知試劑",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_sight",
+      "array.heading": "先知印記",
+      "array.recipe": "bloodmagic:array/seersigil",
+      "array.text": "$(italic)當看到的一切都不夠時。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "從上到下，擁有:$(li)目前的$(l:bloodmagic:altar/blood_altar)血祭壇$(/l)階級。 $(li)祭壇內的血量，以及祭壇內的總容量。 (預設為10,000mb，但能夠透過以下方式增加$(l:bloodmagic:altar/blood_rune/capacity_rune)增容儀式$()以及$(l:bloodmagic:altar/blood_rune/aug_capacity_rune)超容儀式。$() $(li)當前的製作進度，如果有的話。 $(li)LP消耗/Tick -祭壇在製作時將每Tick使用多少LP。 $(li) 目前擁有的$(l:bloodmagic:altar/blood_rune/charging_rune)充能符文$()儲存量。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/seer_sigil_info.png"
+      ],
+      "title": "先知印記顯示",
+      "border": true,
+      "text": "當看著血祭壇時，將顯示這個HUD。"
+    }
+  ]
+}

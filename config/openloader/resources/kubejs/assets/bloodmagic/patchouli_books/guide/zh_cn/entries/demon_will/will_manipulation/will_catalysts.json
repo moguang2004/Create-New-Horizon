@@ -1,0 +1,67 @@
+{
+  "name": "意志水晶",
+  "icon": "bloodmagic:rawcatalyst",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(raw)惡魔意志$()有一個缺點，他的蒐集過程相當緩慢，且無趣。即使在$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地獄魂石$()幾乎充滿的情況下及$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知之劍$()附上$(thing)掠奪 III$()並且進一步的使用$(l:bloodmagic:alchemy_table/anointments/looting_anointment)掠奪閃芒 II$()，這仍然是一個必須親手去做的過程，而且你有更重要的事情要做，你的天才想法等著你去實現，而不是爭先恐後的屠殺蜘蛛及骷髏。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "幸運的是，這個過程是有可能自動化的，讓你有更多的時間能夠擴展你的邪惡帝國。(如果你想要，你也能回去種甜菜根。) $(br2)第一步是獲得一些$(l:bloodmagic/demon_will/will_manipulation/crystallized_will)惡魔意志水晶$()。我們可以使用任何類型 - $(raw)原始意志$()，$(steadfast)堅毅$()，$(#ADFEDC)破壞$()， $(vengeful)復仇$()或是$(corrosive)腐蝕$()意志，只要我們有四個相同類型的水晶就可以了。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "原始晶簇",
+      "a.recipe": "bloodmagic:soulforge/raw_crystal_block",
+      "b.heading": "堅毅晶簇",
+      "b.recipe": "bloodmagic:soulforge/steadfast_crystal_block",
+      "c.heading": "破壞晶簇",
+      "c.recipe": "bloodmagic:soulforge/destructive_crystal_block"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "復仇晶簇",
+      "a.recipe": "bloodmagic:soulforge/vengeful_crystal_block",
+      "b.heading": "腐蝕晶簇",
+      "b.recipe": "bloodmagic:soulforge/corrosive_crystal_block"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "一但你有了這些晶簇，只需要把它放置在區塊中，並為該區塊提供對應的意志，然後等待。最終，新的結晶將會成長，就像在$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)惡魔結晶祭壇$()。$(br2)你甚至可以使用$(l:bloodmagic:rituals/ritual_list/ritual_crystal_harvest)碎晶儀式$()自動破壞這些晶簇，並且使用$(l:bloodmagic:rituals/ritual_list/ritual_zephyr)拾取儀式$()蒐集。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "當有了基礎的$(l:bloodmagic:demon_will/item_routing/routing_nodes)路由節點系統$()，你甚至能夠將多餘的晶體送到$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)惡魔坩鍋$()完成全自動化，無止境的循環。$(br2)然而也許你注意到了一些問題 - 這樣的配置很慢，非常，非常緩慢。每個晶簇可能每隔幾分鐘才成長一個水晶，並且生產所需的意志幾乎與你燃燒獲得的一樣多 - 平均來說，大約是 1 意志/分鐘/水晶。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "原始意志催化劑",
+      "a.recipe": "bloodmagic:soulforge/raw_catalyst",
+      "b.heading": "堅毅意志催化劑",
+      "b.recipe": "bloodmagic:soulforge/steadfast_catalyst",
+      "c.heading": "破壞意志催化劑",
+      "c.recipe": "bloodmagic:soulforge/destructive_catalyst"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "復仇意志催化劑",
+      "a.recipe": "bloodmagic:soulforge/vengeful_catalyst",
+      "b.heading": "腐蝕意志催化劑",
+      "b.recipe": "bloodmagic:soulforge/corrosive_catalyst"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "幸運的是，這是我們新加入的朋友，$(item)意志催化劑$()。在持有這些催化劑的1個時，對同類型的$(thing)晶簇$()按下[$(k:use)]將會使其加速成長!每種意志催化劑將成長所需意志從45減少至25，而且能將成長速度提高10倍。每一劑都能帶來價值10個水晶的成長，這將使每個催化劑的淨收益為200意志。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "你甚至能夠在晶簇上使用雙倍的催化劑 - 雖然這只能使持續效果從10次延長至20次，沒有其他好處。$(br2)當然，聰明的鍊金術士會發現到這只是取代問題 - 從拿劍到處追著怪物跑 - 變成了 - 拿催化劑及鎬追著晶簇跑。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "幸運的是，這也有儀式能夠使用!$(l:bloodmagic:rituals/ritual_list/ritual_crystal_catalyst)遺魂儀式$()將自動對範圍內的晶簇使用催化劑。有了幾個農場，和非常聰明設計的$(thing)路由節點$()，你能夠從頭到尾將整件事自動化...但正如他們所說，這是給讀者留下的試煉。"
+    }
+  ]
+}

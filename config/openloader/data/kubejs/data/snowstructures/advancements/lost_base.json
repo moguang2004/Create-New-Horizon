@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "lostbase": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                    "location": {
+                        "structure": "snowstructures:lost_base"
+                        }
+                    }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "item": "minecraft:apple"
+         },
+         "title": {
+             "translate": "昔人已去..."
+         },
+         "description": {
+             "translate": "竟然还有曾经迫降过的人！但愿他能留下什么好东西..."
+         },
+         "frame": "task",    
+         "announce_to_chat": true,      
+         "hidden": false,    
+         "show_toast": true    
+    },
+    "parent": "snowstructures:begining",
+    "requirements": [  
+        ["lostbase"]
+    ],
+    "rewards": {   
+        "function": "snowstructures:lost_base"
+    }
+}

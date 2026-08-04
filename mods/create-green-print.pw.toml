@@ -1,0 +1,13 @@
+name = "Create: Green Print"
+filename = "creategreenprint-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c4eb204fbe17e64ebbd8d3df338125c81d293acd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8573233
+project-id = 1634521

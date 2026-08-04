@@ -1,0 +1,25 @@
+{
+  "name": "墜落儀式",
+  "icon": "minecraft:fire_charge",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "墜落儀式",
+      "multiblock_id": "bloodmagic:meteor",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "meteor"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "利用你掌握的強大力量，最後的結論是，從外太空召喚隕石砸向世界是個好主意。$(br2)透過在主儀式石上扔下適當的祭品，儀式會消耗該物品(加上大量的LP，預設為一百萬)，並在地圖的最高高度召喚出一顆隕石。一但隕石擊中障礙物，就會爆炸，並留下許多資源提供採集和加工。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "獲得規模和資源根據所提供的祭品有所不同。原版包含: $(item)鑽石$()，$(item)鐵方塊$()，$(item)螢石粉$()，以及$(item)石頭$()。$(br2)模組物品包含: Ice and Fire $(item)龍骨$()， AE2 $(item)賽特斯石英$()， Create $(item)安山合金$()， IE $(item)銅製線圈$()， Mystical Agriculture $(item)活化水晶碎片$()， Thermal $(item)RF 線圈$()， 以及Mekanism $(item)高階合金$()。"
+    }
+  ]
+}

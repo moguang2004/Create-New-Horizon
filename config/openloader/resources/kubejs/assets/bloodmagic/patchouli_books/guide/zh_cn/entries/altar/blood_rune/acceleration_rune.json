@@ -1,0 +1,25 @@
+{
+  "name": "加速符文",
+  "icon": "bloodmagic:accelerationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)加速符文$()能夠增加運作量。通常情況下$(l:bloodmagic:altar/blood_rune/charging_rune)充能符文$(/l)及$(l:bloodmagic:altar/blood_rune/dislocation_rune)流動符文$(/l)每20Tick運作一次，而每顆符文會將運轉所需Tick-1，最多能夠減少到每Tick一次。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration_2",
+      "text":"有了一些$(item)遠古遺骸$()和一點從$(l:bloodmagic:dungeons/endless_realm)魔域$()掠奪來的$(item)精密獄火鍛造組件$()，將能夠讓$(item)加速符文$()的能力加倍，每一顆加速符文能當作兩顆使用，為你的其他符文騰出空間。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/acceleration",
+      "text":"如果你改變主意，你可以在鍊金術反應室改變配方。"
+    }
+  ]
+}

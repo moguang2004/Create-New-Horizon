@@ -1,0 +1,20 @@
+{
+    "fluid": "gtceu:rocket_fuel",
+    "sound_pitch": 0.4,
+    "normal": {
+        "speed": 192.0,
+        "strength": 204800.0,
+        "burn_rate": 1
+    },
+    "modular": {
+        "speed": 192.0,
+        "strength": 256000.0,
+        "burn_rate": 1
+    },
+    "huge": {
+        "speed": 256.0,
+        "strength": 819200.0,
+        "burn_rate": 1
+    },
+    "burner_multiplier": 2.0
+}
