@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".cache/changelog_cache.json"
-hash = "ff9204abd4ab0f7c6b9c2194ac7bc281ace667f7d7699facc1760696fe804583"
-
-[[files]]
-file = ".cache/changelog_cache.json.etag"
-hash = "d689672e89c703634db3925ae77e4004af18581374ffa61ae224112a688a7366"
-
-[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -538,7 +530,7 @@ hash = "a9fa4685548e652dcd5cf04cef14aecfeb2ddd7e8a321ca0b847834de4cc04be"
 
 [[files]]
 file = "config/ctnhchangelog-client.toml"
-hash = "3e750673dcebe396c3353f0d49dfd27cd23a56d379d6e7a64ba3f06292cd22c3"
+hash = "326d01b82077794bb949645045b1cf07fe4491d0456f6e0211f2f6f2984c92c9"
 
 [[files]]
 file = "config/ctnhcore.yaml"
@@ -4643,22 +4635,6 @@ hash = "8dd6d80d5e99b812f9ce154351214fb68eab74dc86a29a47c39fbd13259dcdd5"
 [[files]]
 file = "kubejs/assets/twilightforest/lang/zh_cn.json"
 hash = "b5fbe710f982820d39f3a0a0f3eb470078c73b40e5605f209ff13c44006e459a"
-
-[[files]]
-file = "kubejs/client_scripts/src/example.js"
-hash = "df05f0685013019db9854f8a486a8c3e3a96780fc9f025fd3a800b91fea50ba5"
-
-[[files]]
-file = "kubejs/client_scripts/src/info.js"
-hash = "81fffb9c9a3076e345ef0f725ae56d26675952cc491792ecee8ee7d5b5440c67"
-
-[[files]]
-file = "kubejs/client_scripts/src/jeiaddition.js"
-hash = "ddaf4e817e5eb5ceb447035257880271afce27074458c42a0a42e24b064c8956"
-
-[[files]]
-file = "kubejs/client_scripts/src/tooltip.js"
-hash = "4ef2b412aa8113ee3c8baed33b41d318ae7b1622bb5354c29ac862a28fb35263"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -8957,36 +8933,12 @@ file = "kubejs/jsconfig.json"
 hash = "381991335e668c8a2472e5020a0e9584fda5e7bccc4ddd797d76eee327f18580"
 
 [[files]]
-file = "kubejs/server_scripts/src/biomancy/recipe_remove.js"
-hash = "06f9d83fe3d071896922df88103b57056906339d39b1b9d5701fd6f3a7edb844"
-
-[[files]]
 file = "kubejs/server_scripts/src/biomancy/remove_block_loot.js"
 hash = "1e73af31eb92399271f589ce20dc9539c2a1f5051ed78f555a7a7b048388801a"
 
 [[files]]
-file = "kubejs/server_scripts/src/cement.js"
-hash = "f8f605ee4352527195154f79934e45759dbbdb360bd666a585ba02ee2d627434"
-
-[[files]]
 file = "kubejs/server_scripts/src/loot.js"
 hash = "c6833c2ae5276de9a69444a0e6b7ad04dbff67a77c634803458a1e5f0cd889b1"
-
-[[files]]
-file = "kubejs/server_scripts/src/orereplace.js"
-hash = "bd24f12b53cf8270ee619a1398689c40c0df49d26de61b5e0bba5207511f6095"
-
-[[files]]
-file = "kubejs/server_scripts/src/remove_recipes.js"
-hash = "03a33dbd8c11feef87b830b986d609397fef61d0ff44970dd174700e143371e4"
-
-[[files]]
-file = "kubejs/server_scripts/src/util/recipes.js"
-hash = "a43dbdf9f3e10cd27316faa5cee36c4ff0a605211a780f9f1d8a05d5a86b53aa"
-
-[[files]]
-file = "kubejs/startup_scripts/src/item_register.js"
-hash = "54d5c51e612902152ca91cda6fd938e5018e3d2ca9626d18ab5e72027abb62dd"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -9999,18 +9951,8 @@ hash = "40a73f377f8dcf95c0e801bdc69e68bc4a2d29ec0bcf17f4dcb1a78f887021d1"
 metafile = true
 
 [[files]]
-file = "mods/tconjei.pw.toml"
-hash = "20676b95aad40ec255d4b23fdb04aa4c6c97b0194b6ec78fe0508f4cadd506f8"
-metafile = true
-
-[[files]]
 file = "mods/tconplanner.pw.toml"
 hash = "84f3065aabf1c746a83adc9d23f796abcdc6605d021e268d42079bde3b435f49"
-metafile = true
-
-[[files]]
-file = "mods/tconstructjs.pw.toml"
-hash = "bc7e29448df349fe8b6d53588d0e282e20c2019ae1d59217903ebd1b0238f52b"
 metafile = true
 
 [[files]]
@@ -10029,23 +9971,8 @@ hash = "21603b11e14e0f9b1d642b6389ab4d3f729b95f7eda69bc1b910f7b6eb70cc92"
 metafile = true
 
 [[files]]
-file = "mods/tinkerleveling.pw.toml"
-hash = "29d2e6f85639ed371f32b178cd20adaf7a976df37ef11249dfacbba689c62732"
-metafile = true
-
-[[files]]
-file = "mods/tinkers-katanas.pw.toml"
-hash = "28f486d5883224aa3c646273d74cfc6a8e36e7be8ea7173b19a02bc08f20e4ab"
-metafile = true
-
-[[files]]
 file = "mods/tinkers-ponder.pw.toml"
 hash = "f55c37b24c69aa3a0cefc76ae296929d5eed8045a24649ea58a0d2ba980a95f0"
-metafile = true
-
-[[files]]
-file = "mods/tinkers-things.pw.toml"
-hash = "250bac46279b1486c51a49e16e10b5302162e3311952dd20d0cc21d8ca5e7ca9"
 metafile = true
 
 [[files]]
@@ -10160,10 +10087,6 @@ hash = "a9eef5f6f1fdc2157040eeabe12142995780fca7a614f9704b70b6a0eea397d4"
 [[files]]
 file = "replace_key.py"
 hash = "5bdf13c87ccd67fb6f7d2a3ce5de859cb2dcc4992517a924244bb20e675d4555"
-
-[[files]]
-file = "replay_pid27568.log"
-hash = "0b7245a7686cb8bf8d22cb75a50e6f91d23f9fad8d48025dc912e0fd8abba53b"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
