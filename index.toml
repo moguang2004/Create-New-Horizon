@@ -9759,6 +9759,11 @@ hash = "a086a4e48707831dac436f0815d2415673e049834b67b2127860bad7d5e4e90c"
 metafile = true
 
 [[files]]
+file = "mods/open-loader.pw.toml"
+hash = "a773f5a00bfad575c0f830ed0f67edbd6b99fa5c29a51d27d7cfcfef02b3dccb"
+metafile = true
+
+[[files]]
 file = "mods/openblocks-elevator.pw.toml"
 hash = "4c7f44acd7d9fbe94b70153d44b8fef2fdac142fe0391a7ac8b8c04fbc820319"
 metafile = true
