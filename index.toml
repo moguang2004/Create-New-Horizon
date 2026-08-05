@@ -9230,17 +9230,17 @@ metafile = true
 
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
-hash = "f9038d51e7dc6f1127006153512fb51ef6e2a7c9a971b07be419d9e3c28bae3c"
+hash = "3b211a48ecbb99596ef0e32d84be394eb41761be7619b39412cd34097eeba3aa"
 metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "8d3f40c638fa0085a62a3ac477a3f2ed23e63af62da2cdf502183fa0bddbca7c"
+hash = "546e187fc8c7acc99c975789f00a2e7c03c5c59aed16abf5e061370ae24d8a8a"
 metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "c5f30d9ab224c5df151659e50f45e02fad4c59ff4262d75247373dd667b6e704"
+hash = "71918d13bde877a24fbe2be5a7cf93514c70ce170c50cd4c96eef0f36841a89a"
 metafile = true
 
 [[files]]
@@ -9260,7 +9260,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ore-excavation.pw.toml"
-hash = "8afb3ffed4dffa0158402f24cb1a6ba232f1a65560c955bb0d9ccc8ed33a2e85"
+hash = "51c14b5b61109fee1c9d3c04b6bd91b45a641d32435811d88dccffae0fd03d60"
 metafile = true
 
 [[files]]
