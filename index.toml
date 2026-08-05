@@ -9525,7 +9525,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "996469168e48362730b42aad58dc3eaff0e22637e140013b5ef11552c4b4ab8e"
+hash = "e339ce21a2fcda8c6bdd7183edc37bb1c6e85a1c5a59eca26cbfb7a1b37dd548"
 metafile = true
 
 [[files]]
@@ -9596,6 +9596,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "a28d62d0cf7e53b1c83c87e9dbd3c8d1ca95fa28ae00c86bf88146d3753c3614"
+metafile = true
+
+[[files]]
+file = "mods/krypton-hybrid.pw.toml"
+hash = "df604051c1ce432c1419118567e1c4bab176edf370ecbb0d55c23cbd7d36b45e"
 metafile = true
 
 [[files]]
