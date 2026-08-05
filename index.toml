@@ -9675,7 +9675,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "2b5461d32972b9295fbe297e2431dbb9213c4cc196821bf30f5b3ce343b8e2aa"
+hash = "133881d2f995195c6751f381b2df6d410b643b61fb7528ef13f657cfacff02e1"
 metafile = true
 
 [[files]]
@@ -9686,11 +9686,6 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
-metafile = true
-
-[[files]]
-file = "mods/mutil.pw.toml"
-hash = "886ef6443135399649f9334e4c928484d8d328b594f23779d8323b42450a7718"
 metafile = true
 
 [[files]]
@@ -10021,14 +10016,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "a9eef5f6f1fdc2157040eeabe12142995780fca7a614f9704b70b6a0eea397d4"
-
-[[files]]
-file = "replace_key.py"
-hash = "5bdf13c87ccd67fb6f7d2a3ce5de859cb2dcc4992517a924244bb20e675d4555"
-
-[[files]]
-file = "replay_pid27568.log"
-hash = "0b7245a7686cb8bf8d22cb75a50e6f91d23f9fad8d48025dc912e0fd8abba53b"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"

@@ -1,9 +1,0 @@
-{
-	"type": "tconstruct:material",
-	"ingredient": {
-		"item": "tinkers_things:hematite_block"
-	},
-	"value": 9,
-	"needed": 1,
-	"material": "tinkers_things:hematite"
-}
