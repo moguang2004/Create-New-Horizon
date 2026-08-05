@@ -9290,7 +9290,7 @@ metafile = true
 
 [[files]]
 file = "mods/cultural-delights.pw.toml"
-hash = "e981f74588f671ff091cc7e9b6f145f0b9c2099d1e13879a99864fe6ec197521"
+hash = "8d1ee700ac8573acd3c863aa26fa4a15977962d3c888775b60be2248b9e39c19"
 metafile = true
 
 [[files]]
@@ -9350,7 +9350,7 @@ metafile = true
 
 [[files]]
 file = "mods/ends-delight.pw.toml"
-hash = "84426ab994328343b56fa62f4f4a5493c5a5799c7ab0710f0f1afb4a5014cfa7"
+hash = "bf91b51a4bf7a07525825f76105454c1ee3919dbd7491a8e7c47f998d9ae0128"
 metafile = true
 
 [[files]]
@@ -9400,7 +9400,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "740c6508cc48dedd6282056532a2645d32e949cb37bd07f39a6d27478ae1e2ea"
+hash = "d7139e5db4b5a9b5d80330854bb23ce2cd197009b6d8e3636aa017434066b830"
 metafile = true
 
 [[files]]
@@ -9690,7 +9690,7 @@ metafile = true
 
 [[files]]
 file = "mods/my-nethers-delight.pw.toml"
-hash = "ec322e845bdea3e1cbc3076cc42cbe7289cddce81b442a13448129c6c9e1da8f"
+hash = "1b70e1f3572ef5614bb2c0efc14e23e5891f6c7c7a113623ad8c5605e1c84d37"
 metafile = true
 
 [[files]]
