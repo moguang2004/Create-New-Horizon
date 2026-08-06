@@ -103,6 +103,6 @@ config/*
 !config/ctnhchangelog-client.toml
 !config/ali
 !config/gtmqol.json
-!config/openload
+!config/openloader
 
 kubejs/
