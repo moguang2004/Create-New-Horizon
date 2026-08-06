@@ -1742,7 +1742,7 @@ metafile = true
 
 [[files]]
 file = "mods/my-nethers-delight.pw.toml"
-hash = "1b70e1f3572ef5614bb2c0efc14e23e5891f6c7c7a113623ad8c5605e1c84d37"
+hash = "ec322e845bdea3e1cbc3076cc42cbe7289cddce81b442a13448129c6c9e1da8f"
 metafile = true
 
 [[files]]
