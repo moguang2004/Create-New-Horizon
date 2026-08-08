@@ -3,15 +3,17 @@
 The checked-in files under `config/ftbquests/quests` are the authoring source
 and remain in Chinese. The build workflow runs `ftbquest_localization.py` to
 create a temporary `.github/localization/quests` tree, replacing translatable
-text with `{ctnh.*}` keys. The matching `zh_cn.json` and `en_us.json` files are
-written to the OpenLoader resource pack at
-`config/openloader/resources/ctnh_quests/assets/ctnh/lang`.
+text with `{ctnh.*}` keys. The matching `zh_cn.json`, `en_us.json`,
+`ja_jp.json`, and `ru_ru.json` files are written to the OpenLoader resource
+pack at `config/openloader/resources/ctnh_quests/assets/ctnh/lang`.
 
-`en_us.json` is updated incrementally: existing translations are preserved,
-new keys start with the Chinese source text, and removed quest keys are
-deleted. Translators can edit that file after running the generator. The
-traditional Chinese converter derives `zh_tw.json` and `zh_hk.json` from the
-generated Simplified Chinese file.
+The English, Japanese, and Russian files are updated incrementally: unchanged
+translations are preserved, new keys start with the Chinese source text, and
+removed quest keys are deleted. When a Chinese source value changes in `push`
+mode, the corresponding target value is reset to that new source text so it is
+ready for retranslation. Translators or an external translation sync can then
+replace the seeded values. The traditional Chinese converter derives
+`zh_tw.json` and `zh_hk.json` from the generated Simplified Chinese file.
 
 To regenerate locally from the repository root:
 

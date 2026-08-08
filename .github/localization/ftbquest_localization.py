@@ -33,7 +33,9 @@ LANG_FILE_PATH = (
 )
 
 SOURCE_LANGUAGE = "zh_cn"
-TARGET_LANGUAGE = "en_us"
+# These locale files are initialized from the Chinese source and can then be
+# replaced with AI or human translations without changing the quest SNBT.
+TARGET_LANGUAGES = ("en_us", "ja_jp", "ru_ru")
 PACK_SHORT_KEY = "ctnh"
 
 SOURCE_KEYS: dict[str, str] = {}
@@ -190,9 +192,9 @@ def unescape_json_string(text: str) -> str:
 
 
 def sync_language_files_incremental(source_language: str, target_language: str) -> None:
-    """Update the target language without overwriting existing translations."""
+    """Update one target language without overwriting unchanged translations."""
     zh_cn_path = LANG_FILE_PATH / f"{source_language}.json"
-    en_us_path = LANG_FILE_PATH / f"{target_language}.json"
+    target_path = LANG_FILE_PATH / f"{target_language}.json"
 
     new_zh_cn = json.loads(zh_cn_path.read_text(encoding="utf-8"))
 
@@ -204,38 +206,38 @@ def sync_language_files_incremental(source_language: str, target_language: str) 
         old_zh_cn = get_file_at_commit(zh_cn_path, base_commit) if base_commit else {}
 
     try:
-        en_us = json.loads(en_us_path.read_text(encoding="utf-8"))
-        if not isinstance(en_us, dict):
-            en_us = {}
+        target = json.loads(target_path.read_text(encoding="utf-8"))
+        if not isinstance(target, dict):
+            target = {}
     except (FileNotFoundError, json.JSONDecodeError):
-        en_us = {}
+        target = {}
 
     if old_zh_cn and MODE == "push":
         changed_keys = {
             key
             for key in new_zh_cn
             if old_zh_cn.get(key) != new_zh_cn[key]
-            or (key in new_zh_cn and key not in en_us)
+            or (key in new_zh_cn and key not in target)
         }
         print(f"[INFO] Changed keys: {len(changed_keys)}")
         for key in sorted(changed_keys):
             print(f"- {key}: {old_zh_cn.get(key, '<not present>')} -> {new_zh_cn[key]}")
         for key in changed_keys:
-            en_us[key] = new_zh_cn[key]
+            target[key] = new_zh_cn[key]
     else:
-        newly_added_keys = [key for key in new_zh_cn if key not in en_us]
+        newly_added_keys = [key for key in new_zh_cn if key not in target]
         print(f"[WARN] No old zh_cn found, only add {len(newly_added_keys)} new keys.")
         for key in newly_added_keys:
-            en_us[key] = new_zh_cn[key]
+            target[key] = new_zh_cn[key]
 
-    for key in list(en_us):
+    for key in list(target):
         if key.startswith("a.comment"):
             continue
         if key not in new_zh_cn:
-            del en_us[key]
+            del target[key]
 
-    en_us_path.write_text(
-        json.dumps(dict(sorted(en_us.items())), ensure_ascii=False, indent=4),
+    target_path.write_text(
+        json.dumps(dict(sorted(target.items())), ensure_ascii=False, indent=4),
         encoding="utf-8",
     )
 
@@ -269,7 +271,8 @@ def main() -> None:
         json.dumps(dict(sorted(json_safe_keys.items())), ensure_ascii=False, indent=4),
         encoding="utf-8",
     )
-    sync_language_files_incremental(SOURCE_LANGUAGE, TARGET_LANGUAGE)
+    for target_language in TARGET_LANGUAGES:
+        sync_language_files_incremental(SOURCE_LANGUAGE, target_language)
     print(
         f"Generated {len(source_files)} localized SNBT files and "
         f"{len(SOURCE_KEYS)} translation keys."
