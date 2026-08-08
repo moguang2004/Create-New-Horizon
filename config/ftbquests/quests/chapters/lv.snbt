@@ -107,7 +107,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["41E48BCAEAD9D47E"]
 			description: ["{    一切LV机器的基础，代表着无穷的可能性。相信你已经准备好了迎接你的新机器伙伴们！}"]
 			id: "7AE674329D7E7944"
 			rewards: [{
@@ -434,10 +433,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"41E48BCAEAD9D47E"
-				"7AE674329D7E7944"
-			]
+			dependencies: ["7AE674329D7E7944"]
 			icon: "ctnhcore:industrial_primitive_blast_furnace"
 			id: "15ED273EAE156E49"
 			rewards: [{

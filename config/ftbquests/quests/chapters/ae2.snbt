@@ -69,16 +69,16 @@
 			y: -1.0d
 		}
 		{
-			id: "54ABCE520AD5AC1A"
-			linked_quest: "41E48BCAEAD9D47E"
-			x: 15.5d
-			y: -1.0d
+			id: "25DE136871405A96"
+			linked_quest: "7E7C8A91D6E5AE8A"
+			x: -2.0d
+			y: 3.0d
 		}
 		{
-			id: "1954FD2988E28F98"
-			linked_quest: "3AFD46E811ED67AD"
-			x: 14.5d
-			y: -1.0d
+			id: "2BDFB5A2182B7CF1"
+			linked_quest: "1E4B426746200AE2"
+			x: -2.0d
+			y: 5.0d
 		}
 	]
 	quests: [
@@ -1379,10 +1379,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"4D0CA1F72EEEA7D5"
-				"3AFD46E811ED67AD"
-			]
+			dependencies: ["4D0CA1F72EEEA7D5"]
 			id: "7F01F4DD2BF61F4B"
 			tasks: [{
 				id: "56F3970B4402466C"
@@ -1393,10 +1390,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"7F01F4DD2BF61F4B"
-				"41E48BCAEAD9D47E"
-			]
+			dependencies: ["7F01F4DD2BF61F4B"]
 			id: "5EFD2B216D94F9B0"
 			tasks: [{
 				id: "3C8439B8ADD6D568"
@@ -1571,7 +1565,6 @@
 			dependencies: [
 				"1B4E505F5E359FAF"
 				"4D0CA1F72EEEA7D5"
-				"3AFD46E811ED67AD"
 			]
 			id: "4A02AB33931358B6"
 			tasks: [{
@@ -1583,7 +1576,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["41E48BCAEAD9D47E"]
 			id: "0EB3441858295940"
 			tasks: [{
 				id: "186B36D37C64AB3E"
