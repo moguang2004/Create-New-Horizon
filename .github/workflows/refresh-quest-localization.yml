@@ -1,0 +1,61 @@
+name: Refresh quest localization
+
+on:
+  push:
+    paths:
+      - 'config/ftbquests/quests/**'
+      - 'config/openloader/resources/ctnh_quests/**'
+      - '.github/localization/**'
+  workflow_dispatch:
+    inputs:
+      old_commit:
+        description: Previous commit SHA for incremental en_us updates
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quest-localization-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install localization dependencies
+        run: python -m pip install --disable-pip-version-check -r .github/localization/requirements.txt
+
+      - name: Generate translation keys
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python .github/localization/ftbquest_localization.py push "${{ github.event.before }}"
+          else
+            python .github/localization/ftbquest_localization.py push "${{ inputs.old_commit }}"
+          fi
+          python .github/localization/chinese_converter.py
+
+      - name: Refresh packwiz index
+        run: |
+          curl -o packwiz -L https://github.com/Jasons-impart/packwiz/releases/download/init/packwiz
+          chmod +x ./packwiz
+          ./packwiz refresh
+
+      - name: Commit generated localization
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: refresh quest localization'
+          file_pattern: |
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/*.json
+            index.toml
+            packwiz.json
