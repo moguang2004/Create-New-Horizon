@@ -44,6 +44,7 @@ natives-*/
 /README.md
 /DEVELOPMENT.md
 /.git*
+/.github/
 /scripts/
 /LICENSE
 /LICENSE-ARTWORK

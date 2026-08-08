@@ -21,6 +21,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up localization Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
       - name: Read metadata
         id: meta
         run: |
@@ -50,6 +55,14 @@ jobs:
           python3 scripts/action/download_dev_core.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate CTNH quest translations
+        run: |
+          python -m pip install --disable-pip-version-check -r .github/localization/requirements.txt
+          python .github/localization/ftbquest_localization.py push "${{ github.event.before }}"
+          python .github/localization/chinese_converter.py
+          rm -rf config/ftbquests/quests
+          cp -a .github/localization/quests config/ftbquests/quests
 
       - name: Patch client version texts
         run: |
@@ -105,6 +118,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up localization Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
       - name: Read metadata
         id: meta
         run: |
@@ -139,6 +157,14 @@ jobs:
           python3 scripts/action/download_dev_core.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate CTNH quest translations
+        run: |
+          python -m pip install --disable-pip-version-check -r .github/localization/requirements.txt
+          python .github/localization/ftbquest_localization.py push "${{ github.event.before }}"
+          python .github/localization/chinese_converter.py
+          rm -rf config/ftbquests/quests
+          cp -a .github/localization/quests config/ftbquests/quests
 
       - name: Bootstrap mods
         run: |
