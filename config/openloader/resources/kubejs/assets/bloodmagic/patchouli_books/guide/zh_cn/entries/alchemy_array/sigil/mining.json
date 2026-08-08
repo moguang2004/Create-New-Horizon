@@ -1,0 +1,33 @@
+{
+  "name": "速掘印記",
+  "icon": "bloodmagic:miningsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)速掘印記$()即用來快速挖掘，當按下[$(k:sneak)]及[$(k:use)]活化,代價為每5秒$(blood)100 LP$()並套用快速挖掘效果。因此，它能夠提高挖掘、砍伐，切割速度。使用$(item)採掘試劑$()及$(item)強化石板$()在鍊金製作陣中製作。"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "採掘試劑",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_fastminer",
+      "array.heading": "速掘印記",
+      "array.recipe": "bloodmagic:array/fastminersigil"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/mining_sigil1.png",
+        "bloodmagic:images/entries/sigil/mining_sigil2.png"
+      ],
+      "title": "速掘印記陣",
+      "border": true,
+      "text": "速掘印記陣，加上主要用途。"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "由於你安裝了$(thing)Curios API$()，你能夠將$(item)印記$()作為飾品放入。如果你想同時配戴更多飾品，考慮使用 $(l:bloodmagic:alchemy_array/sigil/holding)維持印記$()，或者為你的$(l:bloodmagic:alchemy_array/living_equipment/living_basics)束靈鎧甲$()提供$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)插槽$()。"
+    }
+  ]
+}

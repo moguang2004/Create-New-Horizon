@@ -1,0 +1,27 @@
+{
+  "name": "高跳儀式",
+  "icon": "minecraft:diamond_boots",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "高跳儀式",
+      "multiblock_id": "bloodmagic:jumping",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "jumping"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "jumping",
+      "page_type": "jumpRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "jumping",
+      "page_type": "jumpPower"
+    }
+  ]
+}

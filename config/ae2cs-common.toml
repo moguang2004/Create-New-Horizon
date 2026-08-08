@@ -7,4 +7,9 @@ ender_emitter_auto_area_factor = 2
 #Range: 0.01..100 (default: 1).
 #Range: 0.01 ~ 100.0
 pure_crystal_burn_multiplier = 1.0
+#Retry interval in ticks for broadcast bands that entered channel overflow shutdown.
+#Set to 0 to disable automatic recovery attempts.
+#Default: 40 ticks (2 seconds).
+#Range: > 0
+broadcast_band_overflow_retry_interval = 40
 

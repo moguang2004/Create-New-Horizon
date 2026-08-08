@@ -107,10 +107,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"6CDD36A3C742B7F2"
-				"106DC15191737D98"
-			]
 			id: "156B500126054BC2"
 			subtitle: "需要润滑油"
 			tasks: [{
@@ -203,7 +199,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["1162E347E7C00175"]
 			id: "2C6B53F9425ACB79"
 			tasks: [{
 				id: "1D13E54D6C41BBF7"

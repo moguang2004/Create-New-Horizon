@@ -1,0 +1,33 @@
+{
+  "name": "緩慢",
+  "icon": "minecraft:soul_sand",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)緩慢$()使目標的移動速度每級-15%。$(br2)由$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/speed)速度$()或$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/jump_boost)跳躍提升$()效果藥水所製作。 $(br2)翻到背面查看催化劑組合。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "緩慢 來自 速度",
+      "a.recipe": "bloodmagic:flask/speed_to_slow",
+      "b.heading": "緩慢 來自 跳躍提升",
+      "b.recipe": "bloodmagic:flask/jump_to_slow"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "緩慢 (8:00)",
+      "a.recipe": "bloodmagic:flask/length_slowness",
+      "b.heading": "緩慢 II (1:30)",
+      "b.recipe": "bloodmagic:flask/potency_slowness"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "緩慢 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_slowness",
+      "b.heading": "緩慢 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_slowness"
+    }
+
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "聚圓儀式",
+  "icon": "minecraft:bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "聚圓儀式",
+      "multiblock_id": "bloodmagic:ellipsoid",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "ellipsoid"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "這個儀式在本質上是純粹的審美觀，是為了在我們每個人心中萌芽，但又懶惰的人所設計的。它特別適合用於設計複雜的形狀，例如在你的邪惡基地上方的強大金色圓頂...你確實有對吧?"
+    },
+	{
+	  "type": "bloodmagic:ritual_data",
+	  "ritual": "ellipsoid",
+	  "page_type": "chest"
+	},
+	{
+	  "type": "bloodmagic:ritual_data",
+	  "ritual": "ellipsoid",
+	  "page_type": "spheroidRange"
+	}
+  ]
+}

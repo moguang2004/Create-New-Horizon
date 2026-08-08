@@ -1,0 +1,94 @@
+{
+  "type": "bloodmagic:meteor",
+  "explosion": 14.0,
+  "input": {
+    "tag": "forge:storage_blocks/iron"
+  },
+  "layers": [
+    {
+      "additionalWeight": 0,
+      "fill": {
+        "block": "gtceu:iron_ore"
+      },
+      "minWeight": 0,
+      "radius": 4,
+      "shell": {
+        "index": -1,
+        "tag": "forge:cobblestone"
+      },
+      "weightMap": [
+        {
+          "block": "gtceu:gold_ore",
+          "weight": 30
+        },
+        {
+          "block": "gtceu:copper_ore",
+          "weight": 200
+        },
+        {
+          "block": "gtceu:tin_ore",
+          "weight": 140
+        },
+        {
+          "block": "gtceu:silver_ore",
+          "weight": 70
+        },
+        {
+          "block": "gtceu:lead_ore",
+          "weight": 80
+        },
+        {
+          "block": "gtceu:lapis_ore",
+          "weight": 60
+        },
+        {
+          "block": "gtceu:redstone_ore",
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "additionalWeight": 100,
+      "fill": {
+        "block": "minecraft:stone"
+      },
+      "minWeight": 1000,
+      "radius": 7,
+      "weightMap": [
+        {
+          "block": "gtceu:iron_ore",
+          "weight": 400
+        },
+        {
+          "block": "gtceu:gold_ore",
+          "weight": 30
+        },
+        {
+          "block": "gtceu:copper_ore",
+          "weight": 200
+        },
+        {
+          "block": "gtceu:tin_ore",
+          "weight": 140
+        },
+        {
+          "block": "gtceu:silver_ore",
+          "weight": 70
+        },
+        {
+          "block": "gtceu:lead_ore",
+          "weight": 80
+        },
+        {
+          "block": "gtceu:lapis_ore",
+          "weight": 60
+        },
+        {
+          "block": "gtceu:redstone_ore",
+          "weight": 100
+        }
+      ]
+    }
+  ],
+  "syphon": 1000000
+}

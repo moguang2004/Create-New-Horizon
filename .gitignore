@@ -4,6 +4,7 @@ packwiz
 packwiz-installer.jar
 .cache/
 __pycache__/
+/.github/localization/quests/
 
 /Xaero*/
 /daimashili.ini
@@ -147,3 +148,4 @@ config/*
 !config/ae2cs-common.toml
 !config/gtmqol.json
 !config/FTBLang
+!config/openloader

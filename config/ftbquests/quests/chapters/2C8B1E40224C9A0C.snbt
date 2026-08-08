@@ -33,12 +33,6 @@
 			y: 14.5d
 		}
 		{
-			id: "3451E7D252EB376D"
-			linked_quest: "1E11A492F4576DBA"
-			x: 0.5d
-			y: 5.0d
-		}
-		{
 			id: "216F2BD2DF704328"
 			linked_quest: "277F8827A9281E7E"
 			shape: "gear"
@@ -65,6 +59,12 @@
 			shape: "gear"
 			x: 4.5d
 			y: 14.5d
+		}
+		{
+			id: "12FA7F86614A9E48"
+			linked_quest: "260AE6CCCCEE77EB"
+			x: 0.5d
+			y: 6.5d
 		}
 	]
 	quests: [
@@ -605,7 +605,6 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["1E11A492F4576DBA"]
 			hide_dependency_lines: false
 			id: "470B9D39E23E01F2"
 			subtitle: "最好在冬天去"

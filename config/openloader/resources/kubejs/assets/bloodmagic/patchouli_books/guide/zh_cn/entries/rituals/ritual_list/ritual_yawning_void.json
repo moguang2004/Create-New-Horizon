@@ -1,0 +1,57 @@
+{
+  "name": "虛無儀式",
+  "icon": "minecraft:black_stained_glass",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "虛無儀式",
+      "multiblock_id": "bloodmagic:yawning_void",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "yawning_void"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "raw",
+      "text_overrides": [
+        ["Raw Will", "raw"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "corrosive",
+      "text_overrides": [
+        ["filter", "item"]
+        ],
+      "text": "需要設置過濾器，擺上任何形式的$(item)物品過濾器$()並連接至$(item)儲物箱$()。儀式只會使用它找到的第一個過濾器，但能夠接受$(l:bloodmagic:demon_will/item_routing/standard_item_filter)標準$()， $(l:bloodmagic:demon_will/item_routing/tag_item_filter)標籤$()， $(l:bloodmagic:demon_will/item_routing/mod_item_filter)模組$()，以及$(l:bloodmagic:demon_will/item_routing/composite_item_filter)複合物品過濾器$()。列入黑名單也有效!"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "quarryRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "chest",
+      "text_overrides": [
+        ["Item Filter", "item"]
+        ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "placementRange"
+    }
+  ]
+}

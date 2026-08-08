@@ -1,0 +1,6 @@
+{
+  "name": "鍊金桌",
+  "description": "$(l:bloodmagic:alchemy_table/alchemy_table)鍊金桌$()是一個非常常用的設備，作為一名法師，它能夠使礦石翻倍。從其他不太有用的物品萃取有用成分，甚至可以製作$(l:bloodmagic:alchemy_table/anointments)藥劑$()!",
+  "icon": "bloodmagic:alchemytable",
+  "sortnum": 1
+}

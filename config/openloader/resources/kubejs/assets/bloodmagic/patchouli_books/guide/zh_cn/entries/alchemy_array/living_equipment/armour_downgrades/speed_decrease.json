@@ -1,0 +1,16 @@
+{
+  "name": "跛腳",
+  "icon": "minecraft:soul_sand",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果:減少移動速度，最高-70%。$(br2)最高等級: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/speed_decrease",
+      "b.upgrade": "bloodmagic:speed_decrease"
+    }
+  ]
+}

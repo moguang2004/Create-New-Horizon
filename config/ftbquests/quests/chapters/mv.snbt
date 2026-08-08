@@ -363,7 +363,10 @@
 				{
 					count: 15L
 					id: "7C5667FF09BFD75B"
-					item: { Count: 15, id: "gtportal:simple_end_portal_frame" }
+					item: {
+						Count: 15
+						id: "gtportal:simple_end_portal_frame"
+					}
 					type: "item"
 				}
 				{
@@ -608,7 +611,10 @@
 				{
 					count: 15L
 					id: "5D55FD3CDA054C23"
-					item: { Count: 15, id: "gtportal:simple_aether_portal_frame" }
+					item: {
+						Count: 15
+						id: "gtportal:simple_aether_portal_frame"
+					}
 					type: "item"
 				}
 				{
@@ -1251,7 +1257,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["1162E347E7C00175"]
 			description: ["{可以用蒸汽输入仓和输入总线输出总线，且蒸汽级输出总线最多10个}"]
 			id: "4E153836BC53CDD1"
 			shape: "gear"

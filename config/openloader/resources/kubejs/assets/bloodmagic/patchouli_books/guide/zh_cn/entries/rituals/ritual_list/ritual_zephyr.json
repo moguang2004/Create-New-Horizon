@@ -1,0 +1,27 @@
+{
+  "name": "拾取儀式",
+  "icon": "minecraft:hopper",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "拾取儀式",
+      "multiblock_id": "bloodmagic:zephyr",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "zephyr"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "zephyr",
+      "page_type": "zephyrRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "zephyr",
+      "page_type": "chest"
+    }
+  ]
+}

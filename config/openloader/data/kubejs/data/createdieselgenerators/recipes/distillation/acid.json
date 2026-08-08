@@ -1,0 +1,21 @@
+{
+    "type": "createdieselgenerators:distillation",
+    "ingredients": [
+        {
+            "fluid": "alexscaves:acid",
+            "amount": 100
+        }
+    ],
+    "heatRequirement": "heated",
+    "processingTime": 200,
+    "results": [
+        {
+            "fluid": "gtceu:diluted_sulfuric_acid",
+            "amount": 80
+        },
+        {
+            "fluid": "gtceu:hydrochloric_acid",
+            "amount": 20
+        }
+    ]
+}

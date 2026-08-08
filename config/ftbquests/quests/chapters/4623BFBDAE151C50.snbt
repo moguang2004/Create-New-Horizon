@@ -273,7 +273,7 @@
 			tasks: [{
 				amount: 1000L
 				consume_fluid: "DEFAULT"
-				fluid: "gtceu:marshmallow_foam"
+				fluid: "minecraft:water"
 				id: "1C4ACBD2B7938408"
 				type: "fluid"
 			}]
@@ -290,7 +290,7 @@
 			tasks: [{
 				amount: 1000L
 				consume_fluid: "DEFAULT"
-				fluid: "gtceu:marshmallow_syrup_mixture"
+				fluid: "minecraft:water"
 				id: "111E9F45F1DC0A10"
 				type: "fluid"
 			}]
@@ -303,7 +303,7 @@
 			tasks: [{
 				amount: 1000L
 				consume_fluid: "DEFAULT"
-				fluid: "gtceu:sweetened_diluted_cane_syrup_mixture"
+				fluid: "minecraft:water"
 				id: "7AD07E703FBCEA9D"
 				type: "fluid"
 			}]
@@ -316,7 +316,7 @@
 			tasks: [{
 				amount: 1000L
 				consume_fluid: "DEFAULT"
-				fluid: "gtceu:cane_syrup"
+				fluid: "minecraft:water"
 				id: "39F47D172EF70F05"
 				type: "fluid"
 			}]
@@ -328,7 +328,7 @@
 			tasks: [{
 				amount: 1000L
 				consume_fluid: "DEFAULT"
-				fluid: "gtceu:cane_syrup_unheated"
+				fluid: "minecraft:water"
 				id: "3F388A1189D4AB4D"
 				type: "fluid"
 			}]
@@ -341,7 +341,7 @@
 			tasks: [{
 				amount: 1000L
 				consume_fluid: "DEFAULT"
-				fluid: "gtceu:albumen"
+				fluid: "minecraft:water"
 				id: "6E17DAE5DED290A1"
 				type: "fluid"
 			}]
@@ -353,7 +353,7 @@
 			tasks: [{
 				amount: 1000L
 				consume_fluid: "DEFAULT"
-				fluid: "gtceu:egg"
+				fluid: "minecraft:water"
 				id: "4628E6F151663A7F"
 				type: "fluid"
 			}]

@@ -1,0 +1,7 @@
+{
+  "name": "束靈裝備",
+  "description": "使用一些$(item)奧術灰燼$()以及少量新的$(item)束縛試劑$()，整個防禦及實用的世界將會顯現在你眼前。 $(br)點擊下面的圖示查看所有配件的列表。",
+  "icon": "bloodmagic:livinghelmet",
+  "parent": "bloodmagic:alchemy_array",
+  "sortnum": 2
+}

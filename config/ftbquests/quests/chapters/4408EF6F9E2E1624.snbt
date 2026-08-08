@@ -1,5 +1,5 @@
 {
-	autofocus_id: "6D9003172EF921C9"
+	autofocus_id: "6B6DC55BB1D53F9E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "4408EF6F9E2E1624"
@@ -7,807 +7,1510 @@
 	icon: "vintageimprovements:centrifuge"
 	id: "4408EF6F9E2E1624"
 	order_index: 0
-	quest_links: [{
-		id: "5E7E3634928ED1B2"
-		linked_quest: "6580B42C94E67713"
-		x: 4.5d
-		y: 7.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6D9003172EF921C9"]
+			dependencies: ["5BA86B01337A91D5"]
 			description: [
-				"手持&b机壳&r右键&b齿轮&r或&d传动杆&r可以将他们包裹起来"
+				"工作台合成8个安山合金锭：铁锭+安山岩。"
+				"之后你的一切都离不开它！"
+			]
+			icon: "create:andesite_alloy"
+			id: "6B6DC55BB1D53F9E"
+			rewards: [{
+				count: 64
+				id: "4E015A83C581972F"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "小块灰铁"
+			tasks: [{
+				id: "03AF5A5CBE9E5087"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "安山合金"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B6DC55BB1D53F9E"]
+			description: [
+				"安山合金锭+格雷锯子（工作台）。"
+				"也可以直接用动力锯切割安山合金锭得到2根。"
+			]
+			id: "6F4675E2DBDE73BE"
+			subtitle: "最基础的传动"
+			tasks: [{
+				id: "40CF3EB334743F28"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "传动杆"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B6DC55BB1D53F9E"]
+			description: [
+				"手持机壳右键齿轮或传动杆可以将他们包裹起来。"
 				"&a更好看！可选断开同轴齿轮间的连接！对你的GPU更友好！&r"
 			]
-			id: "60D8E1B5B8777322"
-			subtitle: "你需要绝对天马行空的想象能力来使用它"
+			id: "3EFDCEB446840346"
+			subtitle: "包裹你的机器"
 			tasks: [{
-				id: "18EB3B6400D105EA"
+				id: "213B6924FABC5117"
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.5d
+			title: "安山机壳"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F4675E2DBDE73BE"]
+			description: [
+				"传动杆+小木齿轮（木板+锉刀）。"
+				"安山合金齿轮也是不错的选择。"
+			]
+			id: "084A7C0BC9AF5318"
+			subtitle: "木齿轮起步"
+			tasks: [{
+				id: "5B062BD2D68B543A"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "小齿轮"
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"32D9754803137E82"
-				"60D8E1B5B8777322"
-				"543DF835C9FE39CC"
+				"6F4675E2DBDE73BE"
+				"445C11E6F2782D14"
 			]
-			id: "6DB370790E927958"
-			shape: "diamond"
-			size: 1.5d
-			subtitle: "可以敲锻铁"
+			description: [
+				"传动杆+防腐木齿轮（防腐木板台阶+锉刀）。"
+				"需要先做出杂酚油和防腐木板。"
+			]
+			id: "331B66C85EA7C478"
 			tasks: [{
-				id: "38BEFB810C42496A"
+				id: "4690CE9FD6A60392"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			title: "大齿轮"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3EFDCEB446840346"]
+			description: [
+				"传动杆+安山机壳+铁锭+铁块。"
+				"压制板材、锻造热锻铁都靠它。"
+			]
+			id: "1CE251D963C1C837"
+			subtitle: "压板锻铁的基础"
+			tasks: [{
+				id: "3BA1F77E400BDD6D"
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.5d
+			title: "辊压机"
+			x: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6DB370790E927958"]
-			id: "1E74645D87740E1B"
-			subtitle: "必须在盆里压。。？"
-			tasks: [{
-				id: "7F6521367459E191"
-				item: "gtceu:andesite_alloy_plate"
-				type: "item"
+			dependencies: ["6B6DC55BB1D53F9E"]
+			description: [
+				"手动应急的应力源。"
+				"为什么不试试万能的女仆呢（自动右键）？"
+			]
+			id: "2827FB51FA206F57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CA439979E44B40B"
+				table_id: 6833002641825410426L
+				type: "random"
 			}]
-			x: 4.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["6D9003172EF921C9"]
-			id: "32D9754803137E82"
-			subtitle: "为什么不试试万能的女仆呢"
+			subtitle: "第一份应力"
 			tasks: [{
-				id: "67F5B1C0219B671A"
+				id: "1239A740FF7E2B80"
 				item: "create:hand_crank"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.5d
+			title: "手摇曲柄"
+			x: 0.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["15AE530D8337DCEE"]
-			description: ["{最好用的应力源}"]
-			id: "5697D10ED6CE81C6"
-			rewards: [
+			dependencies: ["6B6DC55BB1D53F9E"]
+			description: [
+				"燧石+研钵→燧石粉；下界石英+研钵→下界石英粉。"
+				"之后有了石磨就更省事了。"
+			]
+			id: "5BB2DB1F600E4D5B"
+			subtitle: "手动研磨"
+			tasks: [
 				{
-					count: 8
-					id: "13C72EC91DD7A1CD"
-					item: "create:white_sail"
+					id: "226B14FFA3762B6F"
+					item: {
+						Count: 1
+						id: "gtceu:flint_mortar"
+						tag: {
+							Damage: 0
+							GT.Tool: { }
+						}
+					}
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "086C14F59DA454A9"
-					table_id: 6833002641825410426L
-					type: "random"
-				}
-			]
-			subtitle: "环保动力2号"
-			tasks: [{
-				id: "7381565C9306947F"
-				item: "create:windmill_bearing"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["7E591C0E7278D12F"]
-			id: "7E5199B7F22F5DED"
-			rewards: [
-				{
-					id: "3CF74CD75421697C"
-					item: "create:water_wheel"
+					id: "0B7B2F429744D5D1"
+					item: "gtceu:flint_dust"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "44D01984A59C6D67"
-					table_id: 6833002641825410426L
-					type: "random"
+					id: "6D3066D75FF9EDCD"
+					item: "gtceu:nether_quartz_dust"
+					type: "item"
 				}
 			]
-			subtitle: "环保动力1号"
+			title: "研钵"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["06924C1BD35C47AC"]
+			description: [
+				"基础构件+小齿轮+平滑石+滑槽。"
+				"磨粉效率远超研钵。"
+			]
+			id: "2EE8F6537C399651"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E110AC08781FCBD"
+				table_id: 6833002641825410426L
+				type: "random"
+			}]
+			subtitle: "比研钵更好"
 			tasks: [{
-				id: "0652930EFB9D841B"
-				item: "create:water_wheel"
+				id: "1C40F6252EE72328"
+				item: "create:millstone"
 				type: "item"
 			}]
+			title: "石磨"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CE251D963C1C837"]
+			description: [
+				"辊压机压制铁锭。"
+				"基础构件的序列组装需要它。"
+			]
+			id: "336713560D5FD929"
+			rewards: [{
+				count: 4
+				id: "21424C984562817A"
+				item: "gtceu:iron_plate"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "03F99CA8286E02CB"
+				item: "gtceu:iron_plate"
+				type: "item"
+			}]
+			title: "铁板"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["336713560D5FD929"]
+			description: [
+				"铁锭熔炼→热锻铁锭。"
+				"它还很烫，需要趁热锻造！"
+			]
+			id: "508A16006D48CABC"
+			subtitle: "铁烧烧"
+			tasks: [{
+				id: "260F45358DC66482"
+				item: "gtceu:hot_wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "热锻铁"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["6D9003172EF921C9"]
-			id: "543DF835C9FE39CC"
-			subtitle: "第一步"
-			tasks: [{
-				id: "30F4E261C4972ACC"
-				item: "create:basin"
+			dependencies: ["508A16006D48CABC"]
+			description: [
+				"用锻造锤/辊压机/冲压机敲打热锻铁锭。"
+				"&b锻铁&r工具属性比&b铁&r更好哦。"
+			]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "0546DE608BD84745"
+			rewards: [{
+				count: 16
+				id: "4AB0FEBC2F571D64"
+				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 9.5d
+			shape: "square"
+			subtitle: "锤敲敲"
+			tasks: [{
+				id: "362A6021F2E202A8"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "锻铁"
+			x: 6.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["6DB370790E927958"]
-			id: "2460426DE77EF0F4"
+			dependencies: ["0546DE608BD84745"]
+			description: [
+				"锻铁锭研磨成粉。"
+				"预制钢粉需要它。"
+			]
+			id: "5D5BAA5E5EF4621A"
+			rewards: [{
+				count: 16
+				id: "42A3920E628D00CA"
+				item: "gtceu:wrought_iron_dust"
+				type: "item"
+			}]
+			subtitle: "下一步是什么呢？炼钢！"
+			tasks: [{
+				id: "29C656D202792849"
+				item: "gtceu:wrought_iron_dust"
+				type: "item"
+			}]
+			title: "锻铁粉"
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4699AADE1022AC44"]
+			description: [
+				"搅拌机混合：石英砂粉+燧石微粉（或1份燧石粉）。"
+				"之后熔炼成液态玻璃。"
+			]
+			id: "56E7B076FF3CBD7F"
+			tasks: [{
+				id: "18BF33EAFDF1F364"
+				item: "gtceu:glass_dust"
+				type: "item"
+			}]
+			title: "玻璃粉"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"与雪傀儡类似，在竖直放置的两个铁栏杆上方放置恶魔南瓜头（注意：不是雕刻南瓜）。"
+				"烈焰人刷怪笼也可以。"
+			]
+			icon: "create:blaze_burner"
+			id: "2F5000BD20BC1F6A"
+			shape: "square"
+			subtitle: "这是不进入下界获得烈焰人的唯一办法"
+			tasks: [
+				{
+					id: "18616F2BC118DDC5"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5F0A766ECC6F2767"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+			]
+			title: "烈焰人召唤术"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F5000BD20BC1F6A"]
+			description: [
+				"空燃烧室右键烈焰人。"
+				"石油、乙醇、粗制生物柴油、种子油可供烈焰人燃烧室直接燃烧。"
+			]
+			id: "05EED3CCF9B6CC2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "209FE8F8C1F97310"
+				table_id: 6833002641825410426L
+				type: "random"
+			}]
+			subtitle: "你的第一次剥削"
+			tasks: [{
+				id: "0877C2B405FE442E"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "烈焰人燃烧室"
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"05EED3CCF9B6CC2D"
+				"4699AADE1022AC44"
+			]
+			description: [
+				"搅拌机加热塑形：9下界石英粉+32红石→纯玫瑰石英块。"
+				"动力锯切割→玫瑰石英×9。"
+			]
+			id: "19A2547413BE6CC5"
 			rewards: [
 				{
-					count: 4
-					id: "231B636B2463F918"
-					item: "gtceu:iron_plate"
+					count: 64
+					id: "1110498898E60F10"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0C921A58AC625815"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "什么 石英可以这样来？"
+			tasks: [{
+				id: "6FA75011AAE5421C"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			title: "玫瑰石英"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19A2547413BE6CC5"]
+			description: ["辊压机+砂纸打磨；或使用砂带磨床。"]
+			id: "3DEDC3682703DFDE"
+			tasks: [{
+				id: "351937A519E2212D"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			title: "磨制玫瑰石英"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DEDC3682703DFDE"]
+			description: [
+				"磨制玫瑰石英+安山合金板+铁小齿轮。"
+				"玻璃管版本的配方产出更多（4个/6个）。"
+			]
+			id: "1DE6ACD4EB20D9D8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B42659706486104"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DA48E094D41AF41"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "神之手的前置"
+			tasks: [{
+				id: "2B2B8B366643CDF5"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "电子管"
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4699AADE1022AC44"]
+			description: ["搅拌机：黏土球+沙子+砾石。"]
+			id: "6E81519256BC2372"
+			tasks: [{
+				id: "0600B9B2A50C9A2F"
+				item: "ctnhcore:brick_mud"
+				type: "item"
+			}]
+			title: "砖泥"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E81519256BC2372"]
+			description: [
+				"砖泥+木制砖模具→砖胚。"
+				"熔炉烧制砖胚→焦黑砖。"
+				"挖空所有黏土，垄断所有人的科技！"
+			]
+			icon: "gtceu:brick_wooden_form"
+			id: "5327174AA56C949E"
+			rewards: [{
+				count: 32
+				id: "61C553BFEDA4A04B"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "制砖"
+			tasks: [{
+				id: "1C76AFC0531FF759"
+				item: "tconstruct:seared_brick"
+				type: "item"
+			}]
+			title: "焦黑砖"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4699AADE1022AC44"]
+			description: ["搅拌机：3黏土球+5沙子。"]
+			id: "0A0B14F0695432EF"
+			tasks: [{
+				id: "662A25CBCF0DB5BA"
+				item: "ctnhcore:coke_oven_brick_mud"
+				type: "item"
+			}]
+			title: "焦炉砖泥"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A0B14F0695432EF"]
+			description: ["焦炉砖泥+木制砖模具→焦炉泥砖。"]
+			id: "66DFEF4C337664CF"
+			rewards: [{
+				count: 16
+				id: "297CE82FBAFB60EE"
+				item: "gtceu:coke_oven_brick"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DFB1A2C976C7BA5"
+				item: "gtceu:coke_oven_brick"
+				type: "item"
+			}]
+			title: "焦炉砖"
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66DFEF4C337664CF"]
+			description: [
+				"焦炉砖块+混凝土加热塑形。"
+				"&d终端&rshift右键多方块结构的主方块可以自动搭建。"
+				"&a{多个焦炉结构之间也可以共用方块哦~}&r"
+				""
+				"什么？你不知道什么叫共用方块？去看&6《存在即被感知》&r"
+			]
+			icon: "gtceu:coke_oven"
+			id: "7C8FDC691E4F8287"
+			rewards: [
+				{
+					id: "136D26B914865FFC"
+					item: "gtceu:exquisite_coke_gem"
+					type: "item"
+				}
+				{
+					id: "4589B7D27AB65C08"
+					item: "gtceu:terminal"
+					type: "item"
+				}
+				{
+					id: "3CA61D4F1DBF9002"
+					item: "ctnhcore:testing_terminal"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1E2C9DED716A4E75"
+					id: "3BC21EDE845C157B"
 					table_id: 6833002641825410426L
 					type: "random"
 				}
 			]
-			tasks: [{
-				id: "51212E2B1DE37DEA"
-				item: "gtceu:iron_plate"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 7.5d
+			shape: "square"
+			subtitle: "没有杂酚油，你怎么推科技？"
+			tasks: [
+				{
+					id: "204B9543F10AA637"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "3DFDFC98724B03F6"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+				{
+					id: "3F50A3483D22D837"
+					item: "gtceu:coke_oven_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "焦炉"
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C8FDC691E4F8287"]
+			description: [
+				"煤炭在焦炉中烧成焦煤。"
+				"焦煤粉是碳刷和预制钢粉的材料。"
+			]
+			id: "6158AADC7CC4A6D0"
+			subtitle: "前期最好的固体燃料"
+			tasks: [
+				{
+					id: "5F562082204E6AC4"
+					item: "gtceu:coke_gem"
+					type: "item"
+				}
+				{
+					id: "086E67A674AF1EA1"
+					item: "gtceu:coke_dust"
+					type: "item"
+				}
+			]
+			title: "焦煤"
+			x: 15.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
-				"1E74645D87740E1B"
-				"44EC9226A2DC2E7A"
+				"6158AADC7CC4A6D0"
+				"39D5B3240A63B9A5"
 			]
-			description: ["{也许你找不到金锭是从哪来的，仔细查看一下EMI吧！请查看&a矿物处理&r章节}"]
-			id: "5E5F4837CC1F047A"
+			description: [
+				"焦炉副产杂酚油。"
+				"搅拌机：2木板+250mB杂酚油→2防腐木板。"
+				"碳化原木也可以锯成防腐木板。"
+			]
+			id: "0EF1F328A064F1EA"
+			subtitle: "高级的木板"
+			tasks: [
+				{
+					id: "174BBD18281AA740"
+					item: "gtceu:creosote_bucket"
+					type: "item"
+				}
+				{
+					id: "445C11E6F2782D14"
+					item: "gtceu:treated_wood_planks"
+					type: "item"
+				}
+			]
+			title: "杂酚油与防腐木"
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"熔炉烧任意原木→碳化原木。"
+				"锯成防腐木板。"
+			]
+			id: "39D5B3240A63B9A5"
+			tasks: [{
+				id: "14B6D7334B14C148"
+				item: "ctnhcore:carbonized_log"
+				type: "item"
+			}]
+			title: "碳化原木"
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5327174AA56C949E"]
+			description: [
+				"5焦黑砖+1焦黑储罐（燃料量计/材料量计）。"
+				"可以熔炼少量金属与玻璃，是铜锌合金之路的起点。"
+			]
+			id: "5DD720DC2B5C54CF"
+			subtitle: "小冶炼炉"
+			tasks: [{
+				id: "6271A209925C6F37"
+				item: "tconstruct:seared_melter"
+				type: "item"
+			}]
+			title: "焦黑熔化炉"
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5DD720DC2B5C54CF"]
+			description: [
+				"将浇注口贴在熔化炉或工业流体储罐上，下方放置 铸件台+金质铸模 或 铸造盆，即可将熔融金属浇筑成锭或块。"
+				"当然，你也可以使用其他流体传输手段（例如机械动力的动力泵、流体管道，EIO的流体导管）。"
+			]
+			id: "729323C41B2C86B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D858DA6A67E6AD7"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BA9A4F5466983CF"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
+			subtitle: "似曾相识？"
+			tasks: [
+				{
+					id: "28FAD808BA6C4440"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "013094A720E4B912"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "39C0AB8B9806E270"
+					item: "tconstruct:ingot_cast"
+					type: "item"
+				}
+				{
+					id: "73C195B8831C8F03"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			title: "浇筑"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["56E7B076FF3CBD7F"]
+			description: [
+				"玻璃粉在熔化炉中熔炼成液态玻璃，浇筑冷却成玻璃。"
+				"之后冶炼炉效率更高。"
+			]
+			id: "3452EBF2907CEA86"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E906D1FD6A19145"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4581A4096833A5E5"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "03603930FCCDD08F"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			title: "玻璃"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3452EBF2907CEA86"]
+			description: ["熔炉烧制机械动力边框玻璃→热玻璃。"]
+			id: "7D54816DB7DAE63B"
+			tasks: [{
+				id: "4ABE5B48D829672D"
+				item: "ctnhcore:hot_glass"
+				type: "item"
+			}]
+			title: "热玻璃"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D54816DB7DAE63B"]
+			description: ["鼓风机洗涤热玻璃（50%概率）。"]
+			id: "5B37077317131493"
+			tasks: [{
+				id: "6B3AC9256CDBE25D"
+				item: "gtceu:tempered_glass"
+				type: "item"
+			}]
+			title: "钢化玻璃"
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07118DAC24E83AB7"]
+			description: [
+				"处理贵金属矿石→贵金属锭。"
+				"基础构件的工作台配方需要金板，仔细查看EMI吧！"
+			]
+			id: "55F990B0DF0EC015"
+			rewards: [{
+				count: 64
+				id: "60056BBEB4F6C6B3"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			subtitle: "放进熔炉烧成金粒"
+			tasks: [
+				{
+					id: "3AF6415F045E8F18"
+					item: "ctnhcore:precious_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "565E24BEBD0B8D45"
+					item: "ctnhcore:raw_precious_alloy"
+					type: "item"
+				}
+			]
+			title: "贵金属与金"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"55F990B0DF0EC015"
+				"336713560D5FD929"
+				"084A7C0BC9AF5318"
+			]
+			description: [
+				"工作台配方：锯子+安山合金杆+金板+安山合金板+安山合金齿轮+铁杆+木板。"
+				"之后可以用序列组装量产（需要机械手）。"
+				"也许你找不到金锭是从哪来的，仔细查看一下EMI吧！请查看&a矿物处理&r章节"
+			]
+			icon: "ctpp:basic_mechanism"
+			id: "06924C1BD35C47AC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30043B061FCD61D4"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B3E0F86C9113CF1"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "你的第一块没有电路的电路板"
 			tasks: [{
-				id: "222114435B2A13DE"
+				id: "793E029D4A9FC919"
 				item: "ctpp:basic_mechanism"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.5d
+			title: "基础构件"
+			x: 5.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"5E5F4837CC1F047A"
-				"2A633C681F979398"
+			dependencies: ["1DE6ACD4EB20D9D8"]
+			description: [
+				"基础构件+电子管+安山机壳+传动杆+黄铜手。"
+				"序列组装必备！"
+				"&m这简直就是老叟戏顽童&r"
 			]
-			description: ["{    动力搅拌器+工作盆可执行工作台的任意无序合成配方，这一特性仍然存在，但为了便于从EMI中检索信息，相关页面在EMI中被隐藏了。}"]
-			id: "700219157D99E263"
+			id: "727406C3E111CE03"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E8C42EA19BF0328"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34232979BADFCDE2"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "神之一手！"
+			tasks: [{
+				id: "6D11671E9AF87CE7"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "机械手"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06924C1BD35C47AC"]
+			description: [
+				"动力搅拌器+工作盆可执行工作台的任意无序合成配方，这一特性仍然存在，但为了便于从EMI中检索信息，相关页面在EMI中被隐藏了。"
+				"加热混合合金的关键设备。"
+			]
+			icon: "create:mechanical_mixer"
+			id: "4699AADE1022AC44"
 			rewards: [{
 				count: 32
-				id: "7781113257352BCC"
+				id: "0064AEE1332B6176"
 				item: "gtceu:lead_dust"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "送你一些铅粉，虽然不一定有用"
-			tasks: [{
-				id: "10269625F0B773D1"
-				item: "create:mechanical_mixer"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["15AE530D8337DCEE"]
-			id: "788E6B0608C95DA7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6ADC90DEDE94BB3B"
-				table_id: 6833002641825410426L
-				type: "random"
-			}]
-			subtitle: "试着去开辟农场？"
-			tasks: [{
-				id: "1FF3F5EBC8412F3E"
-				item: "create:portable_storage_interface"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["7BDF74DD4432FF75"]
-			id: "53B3B59D47455ACE"
-			rewards: [{
-				count: 64
-				id: "3F9247114746E91A"
-				item: "gtceu:bronze_ingot"
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [{
-				count: 16L
-				id: "7EDD66D9685F95D3"
-				item: "gtceu:bronze_ingot"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["53B3B59D47455ACE"]
-			id: "6168741C8B4F4F31"
-			rewards: [
+			tasks: [
 				{
-					exclude_from_claim_all: true
-					id: "6929F54AEC002BA1"
-					table_id: 3492588397256202932L
-					type: "loot"
+					id: "1E5CC084D355CD63"
+					item: "create:mechanical_mixer"
+					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "457435288F4FC14C"
-					table_id: 6833002641825410426L
-					type: "random"
+					id: "1E83CAFDBBBE9E46"
+					item: "create:basin"
+					type: "item"
 				}
 			]
-			subtitle: "流体时代！！！"
+			title: "搅拌机"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06924C1BD35C47AC"]
+			description: ["切割木板、安山合金块、玫瑰石英块、碳化原木。"]
+			id: "45306EDC3EDD8516"
 			tasks: [{
-				id: "4EBB397405BF419A"
-				item: "create:copper_casing"
+				id: "31094A2579860FE0"
+				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.5d
+			title: "动力锯"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06924C1BD35C47AC"]
+			description: [
+				"卷制弹簧。"
+				"铁弹簧是杠杆锤的材料。"
+			]
+			id: "5BA0EF922FD62C97"
+			tasks: [{
+				id: "19C1E42132056ECD"
+				item: "vintageimprovements:spring_coiling_machine"
+				type: "item"
+			}]
+			title: "卷簧机"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5BA0EF922FD62C97"]
+			description: [
+				"毕竟用的盆。"
+				"离心粘性树脂→生橡胶粉。"
+			]
+			id: "7059C198A77C6D25"
+			subtitle: "只能离心固体材料"
+			tasks: [{
+				id: "5E560E8648C61125"
+				item: "vintageimprovements:centrifuge"
+				type: "item"
+			}]
+			title: "离心机"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06924C1BD35C47AC"]
+			description: ["橡胶树叶可以1:1变成树脂。"]
+			hide_dependency_lines: true
+			id: "1FE4833953720BD8"
+			tasks: [{
+				id: "7054E2B5B9798925"
+				item: "vintageimprovements:vibrating_table"
+				type: "item"
+			}]
+			title: "振动台"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2EE8F6537C399651"]
+			description: ["打磨工具与零件。"]
+			id: "096FB372B43D67EE"
+			subtitle: "代替你的螺丝刀和锉刀"
+			tasks: [{
+				id: "58B22FAE31F534BA"
+				item: "vintageimprovements:belt_grinder"
+				type: "item"
+			}]
+			title: "砂带磨床"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06924C1BD35C47AC"]
+			description: ["制作杆、螺栓、螺丝等零件。"]
+			id: "2D2E8AFF12B86E60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "700482289631BE41"
+				table_id: 6665810253403300519L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "6BF3DA4C368B656D"
+				item: "vintageimprovements:lathe"
+				type: "item"
+			}]
+			title: "车床"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06924C1BD35C47AC"]
+			description: [
+				"加压/真空处理。"
+				"压缩耐火黏土、液态橡胶、真空管都需要它。"
+			]
+			id: "711E575B05C2D635"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "423A23A3EDA8BDE8"
+				table_id: 6665810253403300519L
+				type: "choice"
+			}]
+			subtitle: "压缩耐火砖"
+			tasks: [{
+				id: "27A20948E705593E"
+				item: "vintageimprovements:vacuum_chamber"
+				type: "item"
+			}]
+			title: "真空腔"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F24B0F4CC00BEBE"]
+			description: [
+				"机械合成：锻铁板+安山合金板+铁杆+锻铁齿轮。"
+				"&4并非所有的矿物都可以粉碎&r，别怪我没提醒你！"
+			]
+			id: "7981F01A66314C22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FFC2BC1EAFCE610"
+				table_id: 6665810253403300519L
+				type: "choice"
+			}]
+			subtitle: "终于......"
+			tasks: [{
+				count: 2L
+				id: "2887B928A0F4C0F3"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "粉碎轮"
+			x: 20.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4F24B0F4CC00BEBE"]
+			description: [
+				"机械合成：锻铁杆+锻铁板+铁栏杆+螺旋桨。"
+				"鼓风机冶炼相当于无限燃料、无限并行的熔炉。"
+				"还可以洗涤热玻璃。"
+			]
+			id: "27C754445C86F582"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EF6934612790941"
+				table_id: 6665810253403300519L
+				type: "choice"
+			}]
+			subtitle: "神"
+			tasks: [{
+				id: "7F85011EF5D7B7AC"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "鼓风机"
+			x: 21.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
-				"4CDCD4A5CB57415D"
-				"3509D7B8E361DF68"
-				"0524278F58E281E3"
+				"729323C41B2C86B5"
+				"0AC982045B61FB1B"
 			]
-			description: ["{    在熔铸炉中使用熔铸搅拌器制作液态黄铜，然后浇筑冷却}"]
-			id: "2B430B944944D2C1"
+			description: [
+				"熔化炉/冶炼炉熔炼铜与锌→搅拌机加热混合→液态黄铜→浇筑成锭。"
+				"黄铜锭+去皮原木右键→黄铜机壳。"
+			]
+			icon: "gtceu:brass_ingot"
+			id: "444BB875D8815650"
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "21C7305C636ADE6F"
+					id: "0BAE00FF563EA83E"
 					table_id: 6833002641825410426L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "269189C5EECD14C2"
+					id: "3F0C2C5EA83376D8"
 					table_id: 3492588397256202932L
 					type: "random"
 				}
 			]
+			shape: "gear"
 			size: 1.5d
 			subtitle: "恭喜你进入了黄铜时代~"
 			tasks: [
 				{
 					count: 16L
-					id: "1CC18E3E3383CD44"
+					id: "01390F0FA5B265F9"
 					item: "gtceu:brass_ingot"
 					type: "item"
 				}
 				{
-					id: "598FD3B7A8DC00A4"
+					id: "0125BF0DBE0B69E9"
 					item: "create:brass_casing"
 					type: "item"
 				}
 			]
 			title: "黄铜时代"
-			x: 11.0d
-			y: 9.5d
+			x: 16.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["15AE530D8337DCEE"]
-			id: "5BB3CF765E9C93D4"
+			dependencies: [
+				"444BB875D8815650"
+				"727406C3E111CE03"
+			]
+			description: [
+				"基础构件序列组装：黄铜板+小齿轮+大齿轮。"
+				"需要机械手进行部署步骤。"
+			]
+			icon: "create:precision_mechanism"
+			id: "5519B989112826BE"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "22F42B9E817F6553"
-				table_id: 6833002641825410426L
-				type: "random"
+				id: "1B607BC4AB166537"
+				table_id: 6665810253403300519L
+				type: "choice"
 			}]
-			subtitle: "比研钵更好"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "需要装配线制作的精密部件"
 			tasks: [{
-				id: "769D434A8C5E8C0E"
-				item: "create:millstone"
+				id: "64923A150D47D330"
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 10.5d
+			title: "精密构件"
+			x: 18.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["2460426DE77EF0F4"]
-			dependency_requirement: "one_completed"
-			description: [
-				"{对&d焦炉&r按W开始思索}"
-				"&d终端&rshift右键多方块结构的主方块可以自动搭建"
-				"&a{多个焦炉结构之间也可以共用方块哦~}&r"
-				""
-				"什么？你不知道什么叫共用方块？去看&6《存在即被感知》&r"
-			]
-			id: "25CADEFA5DCB0244"
+			dependencies: ["5519B989112826BE"]
+			description: ["动力合成器可执行工作台的任意有序合成配方，这一特性仍然存在，但为了便于从EMI中检索信息，相关页面在EMI中被隐藏了。"]
+			id: "4F24B0F4CC00BEBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71507ACC2872100B"
+				table_id: 6665810253403300519L
+				type: "choice"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "大型拓展工作台"
+			tasks: [{
+				id: "68675D7DE36D2772"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "动力合成器"
+			x: 21.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F24B0F4CC00BEBE"]
+			description: [""]
+			icon: "tconstruct:smeltery_controller"
+			id: "16F080E60A273D32"
 			rewards: [
 				{
-					id: "727037DA4625C8DF"
-					item: "gtceu:exquisite_coke_gem"
+					exclude_from_claim_all: true
+					id: "679AB06859817516"
+					table_id: 6833002641825410426L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "279F37CCA6D41BD9"
+					table_id: 3492588397256202932L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "3A8FE78F558C2810"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			title: "冶炼炉控制器"
+			x: 24.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["16F080E60A273D32"]
+			description: [
+				"焦黑砖+机械动力流体管道→排液孔；智能流体管道→疏导孔。"
+				"冶炼炉的流体输入输出口。"
+			]
+			id: "5173F0EDA2823D18"
+			tasks: [
+				{
+					id: "16EA93B3F76EB973"
+					item: "tconstruct:seared_drain"
 					type: "item"
 				}
 				{
-					id: "6B76E5F6F6F0CC49"
-					item: "gtceu:terminal"
+					id: "1671D9E886EA311A"
+					item: "tconstruct:seared_duct"
 					type: "item"
 				}
+			]
+			title: "排液孔与疏导孔"
+			x: 26.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06924C1BD35C47AC"]
+			description: ["基础构件+木板台阶+石头+传动杆。"]
+			id: "62721B5E816A7A7F"
+			rewards: [
 				{
-					id: "073A041FA193D23D"
-					item: "ctnhcore:testing_terminal"
+					count: 8
+					id: "3A1047ADCE0DC40C"
+					item: "create:white_sail"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "098296914AAD67B4"
+					id: "5E2D9C06271ADAF6"
 					table_id: 6833002641825410426L
 					type: "random"
 				}
 			]
-			subtitle: "没有杂酚油，你怎么推科技？"
-			tasks: [
-				{
-					id: "42C2FEA68A9BF411"
-					item: "gtceu:coke_oven"
-					type: "item"
-				}
-				{
-					count: 25L
-					id: "5048DDF6099F06AA"
-					item: "gtceu:coke_oven_bricks"
-					type: "item"
-				}
-				{
-					id: "2CA0AB97A20C6431"
-					item: "gtceu:coke_oven_hatch"
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["25CADEFA5DCB0244"]
-			id: "125F3CADBBD2441A"
-			subtitle: "看看煤炭吧，但是你有树场的话木炭也不错？"
+			subtitle: "环保动力2号"
 			tasks: [{
-				id: "63644489206A8ECA"
-				item: "minecraft:charcoal"
+				id: "7FB22CA1BD9EEB00"
+				item: "create:windmill_bearing"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["25CADEFA5DCB0244"]
-			id: "6FDDD78D3F1CD965"
-			subtitle: "前期最好的固体燃料"
-			tasks: [{
-				id: "4CB81B2B2117E68E"
-				item: "gtceu:coke_gem"
-				type: "item"
-			}]
+			title: "风车轴承"
 			x: 3.5d
-			y: 4.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["25CADEFA5DCB0244"]
-			id: "2A633C681F979398"
-			subtitle: "前期最好的液体燃料，建议存多点"
-			tasks: [{
-				id: "29F469C28E82D4A2"
-				item: "gtceu:creosote_bucket"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["2A633C681F979398"]
-			id: "7E591C0E7278D12F"
-			subtitle: "高级的木板"
-			tasks: [{
-				id: "4BBA257738FF1D31"
-				item: "gtceu:treated_wood_planks"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["2460426DE77EF0F4"]
-			description: ["烈焰人刷怪笼也可以"]
-			id: "03B30F262729DB33"
-			rewards: [{
-				id: "453306A499AB90EB"
-				item: "create:empty_blaze_burner"
-				type: "item"
-			}]
-			subtitle: "拿它右键烈焰人"
-			tasks: [{
-				id: "2DC908B8278B74CD"
-				item: "create:empty_blaze_burner"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"03B30F262729DB33"
-				"29EDBE0D432B1D62"
-			]
-			description: ["{石油、乙醇、粗制生物柴油、种子油可供烈焰人燃烧室直接燃烧}"]
-			id: "3235EC33AE70B9A0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4C161BDCD2872474"
-				table_id: 6833002641825410426L
-				type: "random"
-			}]
-			subtitle: "你的第一次剥削"
-			tasks: [{
-				id: "236137F11A4DC73E"
-				item: "create:blaze_burner"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"700219157D99E263"
-				"7E16AD4CB7F6CDE6"
-			]
-			id: "7C9B89066D34939E"
-			tasks: [{
-				id: "26406CDDCC53F157"
-				item: "create:rose_quartz"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 7.5d
-		}
-		{
-			description: ["{    与雪傀儡类似，在竖直放置的两个铁栏杆上方放置南瓜头（注意：不是雕刻南瓜，是恶魔南瓜头）}"]
-			icon: "create:blaze_burner"
-			id: "29EDBE0D432B1D62"
-			shape: "square"
-			size: 1.0d
-			subtitle: "这是不进入下界获得烈焰人的唯一办法"
-			tasks: [
+			dependencies: ["331B66C85EA7C478"]
+			description: ["防腐木板+大齿轮。"]
+			id: "0D2D6B7977ED92D7"
+			rewards: [
 				{
-					id: "5DB7481C8CF586CC"
-					item: "botania:fel_pumpkin"
+					id: "5045CD93DC9588AD"
+					item: "create:water_wheel"
 					type: "item"
 				}
 				{
-					count: 2L
-					id: "51E2D775FC8D7522"
-					item: "minecraft:iron_bars"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3FBCF8CDE707275E"
+					table_id: 6833002641825410426L
+					type: "random"
 				}
 			]
-			title: "烈焰人召唤术"
-			x: 2.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5BA86B01337A91D5"]
-			id: "6D9003172EF921C9"
-			rewards: [{
-				count: 64
-				id: "6947235FD465275D"
-				item: "gtceu:andesite_alloy_ingot"
-				type: "item"
-			}]
-			shape: "square"
-			size: 2.0d
-			subtitle: "小块灰铁"
+			subtitle: "环保动力1号"
 			tasks: [{
-				id: "2432B1FD7CD5EFE3"
-				item: "gtceu:andesite_alloy_ingot"
+				id: "14954BD51E7610C4"
+				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.5d
+			title: "小水车"
+			x: 2.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["33452CB4AAC5EE5F"]
+			dependencies: ["4F24B0F4CC00BEBE"]
 			description: [
-				"{       对控制器（主方块）按U即可查看多方块结构预览界面。左键拖动可旋转视角，右键拖动可平移视角，滚轮可进行缩放。点击右侧按键可切换到逐层预览模式。点击结构中任意方块，界面左上角将会可显示该位置所有可用方块（下方方块列表仅供参考，其中的仓室可替换）。}"
-				""
-				"{应力产出为200w，需要32个LV应力输出仓以输出全部应力。}"
+				"机械合成：防腐木板+钢螺丝+金环+水车。"
+				"需要钢螺丝，先做好钢再说。"
 			]
-			id: "62C8A0B668137AD3"
+			id: "420BE5C06625BE45"
+			size: 2.0d
+			subtitle: "大型水车在本整合包进行了增强，可以试试"
+			tasks: [{
+				id: "76C70A2DB36DC7CD"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "大型水车"
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["420BE5C06625BE45"]
+			description: [
+				"对控制器（主方块）按U即可查看多方块结构预览界面。左键拖动可旋转视角，右键拖动可平移视角，滚轮可进行缩放。"
+				"应力产出为200w，需要32个LV应力输出仓以输出全部应力。"
+			]
+			icon: "ctpp:big_dam"
+			id: "2EA6C2CE57D79BCF"
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "6479760B5E64C035"
+					id: "489453C680020293"
 					table_id: 6665810253403300519L
 					type: "choice"
 				}
 				{
 					count: 4
-					id: "08BDE824CC94195E"
+					id: "569F5196DC4A23F7"
 					item: "ctpp:lv_kinetic_output_box"
 					type: "item"
 				}
 				{
-					id: "7210060D7568B5A5"
-					item: {
-						Count: 1
-						id: "ctnhcore:me_advanced_terminal"
-						tag: {
-							CoilTier: 0
-							NoHatchMode: 0
-							PlaceFluid: 1
-							PlaceInFluid: 0
-							RepeatCount: 0
-							ReplaceCoilMode: 0
-							UseAEStorage: 0
-						}
-					}
+					id: "7863ED5C45DEBA2B"
+					item: "ctnhcore:me_advanced_terminal"
 					type: "item"
 				}
 			]
 			size: 2.0d
 			subtitle: "有足够的材料再造，但是可以给你带来巨量的应力"
 			tasks: [{
-				id: "73BCB4C58FAE733A"
+				id: "5D90B56A2B393497"
 				item: "ctpp:big_dam"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 1.0d
+			title: "三峡大坝"
+			x: 21.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4699AADE1022AC44"]
+			description: [
+				"搅拌机：高岭石粉+石墨粉+黏土粉。"
+				"高岭石通过挖矿或研磨获得。"
+			]
+			id: "0A52584BA6957D5E"
+			invisible: true
+			tasks: [{
+				id: "0FEDCD3A139D2E90"
+				item: "gtceu:fireclay_dust"
+				type: "item"
+			}]
+			title: "耐火黏土粉"
+			x: 8.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
-				"2BCE6D5336CADE73"
-				"497999198D773D40"
+				"0A52584BA6957D5E"
+				"711E575B05C2D635"
 			]
-			id: "49B597AA5C08DC1E"
+			description: ["真空腔加压处理（加热）：耐火黏土粉+水。"]
+			hide_until_deps_visible: true
+			id: "578BE1A2C68089B5"
+			invisible: true
 			tasks: [{
-				id: "2D390AB894B7C98C"
+				id: "66F80F0F35E0FB78"
+				item: "gtceu:compressed_fireclay"
+				type: "item"
+			}]
+			title: "压缩耐火黏土"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["578BE1A2C68089B5"]
+			description: ["耐火黏土砖+混凝土加热塑形。"]
+			id: "28375422CCF2FA53"
+			invisible: true
+			rewards: [{
+				count: 16
+				id: "776C266EBFB226A3"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
+			subtitle: "送你点！"
+			tasks: [{
+				count: 32L
+				id: "6D507A3E17BE060C"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
+			title: "耐火砖"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"橡胶树割取粘性树脂。"
+				"橡胶树叶可以1:1变成树脂。"
+			]
+			id: "162B5E11A7AA6EFC"
+			subtitle: "当然你可以砍树，但我更希望你做下面那个机器"
+			tasks: [{
+				id: "10618BFE761A0E42"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			title: "粘性树脂"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"162B5E11A7AA6EFC"
+				"7059C198A77C6D25"
+			]
+			description: ["离心粘性树脂→生橡胶粉，副产胶水。"]
+			id: "69F8A7838D17B8C3"
+			tasks: [{
+				id: "12E3162FB8328A97"
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 15.5d
+			title: "生橡胶粉"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"处理硫矿石或雄黄矿获得。"
+				"预处理橡胶粉需要硫粉。"
+			]
+			id: "2710BDDA7CBE382D"
+			tasks: [{
+				id: "400A4FEFD29DCF9C"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			title: "硫粉"
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
-				"3CEE67AB21E05293"
-				"1AC8AFD294F719D4"
+				"69F8A7838D17B8C3"
+				"2710BDDA7CBE382D"
 			]
-			description: ["{不爬线的话，蒸汽也就取暖用了}"]
-			id: "14FF729916CDD0DA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0546C9A1C363FF1F"
-				table_id: 3492588397256202932L
-				type: "random"
-			}]
-			subtitle: "输入蒸汽即可供暖！"
+			description: ["搅拌机加热：3生橡胶粉+1硫粉。"]
+			id: "6C486395CD79CE16"
 			tasks: [{
-				id: "6F0BB0D33A2273A7"
-				item: "ctnhcore:underfloor_heating_system"
+				id: "484818786376A813"
+				item: "ctnhcore:rubber_powder"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 15.0d
+			title: "预处理橡胶粉"
+			x: 2.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["7C9B89066D34939E"]
-			id: "1BA3FA0F7BFCF9D8"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "01F9580C12D97E4F"
-					table_id: 6833002641825410426L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0B3CAC3D73219EBC"
-					table_id: 3492588397256202932L
-					type: "random"
-				}
+			dependencies: ["6C486395CD79CE16"]
+			description: [
+				"预处理橡胶粉在冶炼炉1000°熔化→液态橡胶144mB；或蓝火加压。"
+				"橡胶条是电路与引擎的基础。"
 			]
+			id: "3AEBAD63C3EAE03B"
+			optional: true
 			tasks: [{
-				id: "7470F7D26D4285A0"
-				item: "create:polished_rose_quartz"
+				id: "1F238FA68F5E4BF7"
+				item: "gtceu:rubber_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 7.5d
+			title: "橡胶"
+			x: 2.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["1BA3FA0F7BFCF9D8"]
-			id: "57B6D6BFE7577AFA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7C55B0F9A4B961BE"
-				table_id: 3492588397256202932L
-				type: "random"
-			}]
+			description: ["在本整合包中，格雷科技的蒸汽时代被机械动力及其附属完全取代。但目前蒸汽机器的制作方法并没有被移除，或许你可以制作几台来一睹蒸汽时代的荣光。"]
+			id: "1448C1B8CA79672D"
+			subtitle: "消失的蒸汽时代"
 			tasks: [{
-				id: "7BB5DC7882DD64DB"
-				item: "create:electron_tube"
+				id: "41CE499F3981EEFB"
+				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 7.5d
+			title: "我蒸汽呢？"
+			x: 10.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["57B6D6BFE7577AFA"]
-			id: "4202B676480913ED"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "687C822896149EED"
-					table_id: 6833002641825410426L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6FD57E82A74D13B8"
-					table_id: 3492588397256202932L
-					type: "random"
-				}
+			description: [
+				"酸液来自星辉（CTNH-Astral）相关内容，查看EMI了解获取方式。"
+				"分馏：100mB酸液→10mB稀硫酸+20mB稀盐酸+70mB水。"
 			]
-			subtitle: "神之手！"
-			tasks: [{
-				id: "1853003D8D148DE4"
-				item: "create:deployer"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["39C2B774D392AA8F"]
-			id: "3CEE67AB21E05293"
-			subtitle: "野外有砖矿脉吗？"
-			tasks: [{
-				id: "0CE0AD27512BAFBB"
-				item: "minecraft:bricks"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 13.0d
-		}
-		{
-			id: "39C2B774D392AA8F"
-			rewards: [{
-				count: 64
-				id: "79A360C211F446EE"
-				item: "minecraft:brick"
-				type: "item"
-			}]
-			shape: "square"
-			size: 1.0d
-			subtitle: "挖空所有黏土，垄断所有人的科技！"
-			tasks: [
-				{
-					id: "54C66582F6EC803D"
-					item: "gtceu:brick_wooden_form"
-					type: "item"
-				}
-				{
-					id: "741BFCDEF2A19453"
-					item: "minecraft:clay_ball"
-					type: "item"
-				}
-			]
-			title: "制砖"
-			x: 12.5d
-			y: 11.5d
-		}
-		{
-			dependencies: [
-				"4202B676480913ED"
-				"2B430B944944D2C1"
-				"41835AF728140323"
-				"2A0DB69B5E67D674"
-			]
-			dependency_requirement: "one_completed"
-			id: "6CDD36A3C742B7F2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7B5F77FC2F9EA1BF"
-				table_id: 6665810253403300519L
-				type: "random"
-			}]
-			shape: "gear"
-			size: 1.5d
-			subtitle: "需要装配线制作的精密部件"
-			tasks: [{
-				id: "43CD7225D0D21331"
-				item: "create:precision_mechanism"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 9.5d
-		}
-		{
-			dependencies: [
-				"11EDB5B9EB1B6554"
-				"47682BAE195B18E5"
-			]
-			description: ["{来自毒化洞穴，那是粗心人的致命之地}"]
-			id: "2A0DB69B5E67D674"
+			id: "06151FD478A6C4BC"
 			subtitle: "看似是废液，也许比你想象中更有用......"
 			tasks: [{
-				id: "41835AF728140323"
-				item: "alexscaves:acid_bucket"
+				id: "7D7EA9CD7D7CAB12"
+				item: "ctnhastral:acid_bucket"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 11.5d
+			title: "酸液"
+			x: 14.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["6CDD36A3C742B7F2"]
-			description: ["{    动力合成器可执行工作台的任意有序合成配方，这一特性仍然存在，但为了便于从EMI中检索信息，相关页面在EMI中被隐藏了。}"]
-			id: "106DC15191737D98"
+			description: ["你太能憋了"]
+			id: "61F811C645F2F3D5"
+			invisible: true
+			rewards: [{
+				count: 64
+				id: "344D019D40392553"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			subtitle: "速通路线？"
+			tasks: [{
+				id: "5133317CCE8B8D52"
+				item: "ctnhcore:industrial_primitive_blast_furnace"
+				type: "item"
+			}]
+			title: "工业土高炉"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7981F01A66314C22"]
+			id: "5695264C6E964BE2"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "02A4B7A02F5E0AB7"
+				id: "6F18A5F8D1F979C9"
 				table_id: 6665810253403300519L
-				type: "random"
+				type: "choice"
 			}]
-			size: 2.0d
-			subtitle: "大型拓展工作台"
-			tasks: [{
-				id: "2A5BB84290617FC1"
-				item: "create:mechanical_crafter"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 9.5d
-		}
-		{
-			dependencies: ["106DC15191737D98"]
-			description: ["{&4并非所有的矿物都可以粉碎&r，别怪我没提醒你！}"]
-			id: "4EAE423454479E42"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4E9E14B065DC4B47"
-				table_id: 6665810253403300519L
-				type: "random"
-			}]
-			subtitle: "终于......"
-			tasks: [{
-				id: "559D90EBE8B478FD"
-				item: "create:crushing_wheel"
-				type: "item"
-			}]
-			x: 15.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["4EAE423454479E42"]
-			id: "3035A92235772F73"
-			subtitle: "小幅增产"
 			tasks: [{
 				count: 8L
-				id: "1D125E85F36778B1"
+				id: "2558A04A82427743"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -819,60 +1522,22 @@
 				type: "item"
 			}]
 			title: "粉碎矿物"
-			x: 15.5d
-			y: 13.0d
+			x: 20.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["3035A92235772F73"]
-			id: "1477D22EEBD4B677"
-			subtitle: "再次小幅增产"
+			dependencies: ["27C754445C86F582"]
+			description: ["鼓风机洗涤碎矿。"]
+			id: "392C37C2393B31D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3889562B95000CB4"
+				table_id: 6665810253403300519L
+				type: "choice"
+			}]
 			tasks: [{
 				count: 8L
-				id: "229810D7080DDA1A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:impure_dusts"
-					}
-				}
-				title: "任何 #forge:impure_dusts"
-				type: "item"
-			}]
-			title: "再次粉碎的矿物"
-			x: 15.5d
-			y: 15.0d
-		}
-		{
-			dependencies: [
-				"3AE55A55A5EBBA5A"
-				"1477D22EEBD4B677"
-			]
-			id: "76D19F31C4BFF2CE"
-			tasks: [{
-				id: "712977A6ABFE69A9"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:dusts"
-					}
-				}
-				title: "任何 #forge:dusts"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 14.0d
-		}
-		{
-			dependencies: [
-				"2D25ECAC3AC7C22C"
-				"3035A92235772F73"
-			]
-			id: "3AE55A55A5EBBA5A"
-			tasks: [{
-				count: 8L
-				id: "184A56B5BDBBCB34"
+				id: "10623F62E98F0DA3"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -884,40 +1549,72 @@
 				type: "item"
 			}]
 			title: "洗净的碎矿"
-			x: 17.5d
-			y: 13.0d
+			x: 21.5d
+			y: 9.5d
 		}
 		{
-			dependencies: ["106DC15191737D98"]
-			description: ["{鼓风机冶炼相当于无限燃料、无限并行的熔炉}"]
-			id: "2D25ECAC3AC7C22C"
+			dependencies: ["5695264C6E964BE2"]
+			id: "32E27A13E75AB88B"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5CD80BD17BCB59E0"
-				table_id: 6665810253403300519L
-				type: "random"
-			}]
-			subtitle: "神"
-			tasks: [{
-				id: "5CE1B7D9315320A8"
-				item: "create:encased_fan"
-				type: "item"
-			}]
-			x: 17.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["3AE55A55A5EBBA5A"]
-			id: "44EDCCEAD0112C8C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1ED265B421758FB2"
+				id: "5C7730C62D10BE01"
 				table_id: 6665810253403300519L
 				type: "choice"
 			}]
-			subtitle: "可以拿来整绿宝石（逃课筛选机）"
 			tasks: [{
-				id: "07995972E46CC2CF"
+				count: 8L
+				id: "6CA684CEACA19E6D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:impure_dusts"
+					}
+				}
+				title: "任何 #forge:impure_dusts"
+				type: "item"
+			}]
+			title: "再次粉碎的矿物"
+			x: 20.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["392C37C2393B31D3"]
+			description: ["洗净/再次粉碎后得到矿物粉，冶炼或使用。"]
+			id: "61EF703DF7774285"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B31C1C1E1966379"
+				table_id: 6665810253403300519L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "449BAC1EE3234F1C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts"
+					}
+				}
+				title: "任何 #forge:dusts"
+				type: "item"
+			}]
+			title: "矿物粉"
+			x: 22.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["392C37C2393B31D3"]
+			id: "1B92B14A8A92CB56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C00474D98589E7E"
+				table_id: 6665810253403300519L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "6B2D64A5860A75C2"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -929,114 +1626,144 @@
 				type: "item"
 			}]
 			title: "宝石矿物处理"
-			x: 17.5d
-			y: 15.0d
+			x: 21.5d
+			y: 11.0d
 		}
 		{
+			dependencies: ["4F24B0F4CC00BEBE"]
 			description: [
-				"{什么，没指南针？}"
-				"{去看上面大千世界章节}"
+				"传统地狱门无法使用，只能使用GT Portal的方式进入下界，哦，别忘了回来也是。"
+				"怎么开启传送门？看一下EMI里&a传送门控制器的用途&r吧。"
+				"CT的列车暂时无法正常通过此传送门，请不要使用。"
 			]
-			id: "31BA6652FDB500C3"
-			rewards: [
-				{
-					id: "6F4A57C225B4ABFF"
-					item: {
-						Count: 1
-						id: "alexscaves:cave_codex"
-						tag: {
-							CaveBiome: "alexscaves:toxic_caves"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0912F72DA2FF85ED"
-					item: "gtceu:steel_drum"
-					type: "item"
-				}
-			]
-			subtitle: "卷轴别使用，合成地图找洞穴"
-			tasks: [{
-				id: "453EA1B3E367C085"
-				item: {
-					Count: 1
-					id: "explorerscompass:explorerscompass"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "前往毒穴"
-			x: 8.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["1BDD550BE6C77C28"]
-			description: ["{方解石粉可以通过挖方解石矿石获得，也可以直接研磨方解石。}"]
-			id: "37BD0BB07046E310"
-			tasks: [{
-				id: "055B89C3A9C6A200"
-				item: "gtceu:compressed_fireclay"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["37BD0BB07046E310"]
-			id: "00172F657F4BAB7A"
+			icon: "minecraft:netherrack"
+			id: "260AE6CCCCEE77EB"
 			rewards: [{
-				count: 16
-				id: "0BFCC8682306A9C6"
-				item: "gtceu:firebricks"
+				id: "30D694FA2B89CD3E"
+				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			subtitle: "送你点！"
-			tasks: [{
-				count: 32L
-				id: "57967D330805BEBE"
-				item: "gtceu:firebricks"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 16.5d
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "前往下界的方式（占位）"
+			tasks: [
+				{
+					id: "1D96A1FB9A50992D"
+					item: "gtportal:simple_nether_portal_controller"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "032B180AF0E3E275"
+					item: "gtportal:simple_nether_portal_frame"
+					type: "item"
+				}
+				{
+					id: "7832530A41FFB78B"
+					item: "gtportal:simple_overworld_portal_controller"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "4BDB7E36ECE439AF"
+					item: "gtportal:simple_overworld_portal_frame"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "74043244E23F39B4"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+			]
+			title: "下界"
+			x: 23.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["6FDDD78D3F1CD965"]
-			id: "5A0A0CEC3053CC8E"
-			subtitle: "碳刷需要它,钢也需要"
+			dependencies: ["1448C1B8CA79672D"]
+			description: ["不爬线的话，蒸汽也就取暖用了。"]
+			id: "745C54A6D4EF2E51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "528931DDE09E7FD7"
+				table_id: 3492588397256202932L
+				type: "random"
+			}]
+			subtitle: "输入蒸汽即可供暖！"
 			tasks: [{
-				id: "311C45CE21038447"
-				item: "gtceu:coke_dust"
+				id: "6F08F0B9FE76DCC3"
+				item: "ctnhcore:underfloor_heating_system"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			title: "地暖"
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5D5BAA5E5EF4621A"]
+			description: ["搅拌机加热：8锻铁粉+3焦煤粉（或6木炭粉）。"]
+			id: "06EBC3E30CAE1746"
+			subtitle: "待处理的钢粉"
+			tasks: [{
+				id: "249599AA72829B91"
+				item: "ctnhcore:steel_precursor_dust"
+				type: "item"
+			}]
+			title: "预制钢粉"
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
-				"105D45F86A0B3A55"
-				"18D08FB7B4BD3F23"
-				"41D41ED992083C68"
+				"06EBC3E30CAE1746"
+				"61F811C645F2F3D5"
 			]
-			dependency_requirement: "one_completed"
-			id: "1162E347E7C00175"
+			description: [
+				"蓝火塑形：8预制钢粉→精炼铁方坯。"
+				"之后烧结窑是更好的手段（不过需要钢）。"
+			]
+			id: "681330A347F7142A"
+			rewards: [{
+				count: 16
+				id: "611F313179FD7F70"
+				item: "ctnhcore:refined_iron_ingot"
+				type: "item"
+			}]
+			subtitle: "炼钢的前体"
+			tasks: [{
+				id: "50654965786FBF1E"
+				item: "ctnhcore:refined_iron_ingot"
+				type: "item"
+			}]
+			title: "精炼铁方坯"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["681330A347F7142A"]
+			description: [
+				"冶炼炉熔化精炼铁方坯→熔融钢（1方坯≈8锭钢的量！），浇筑成锭。"
+				"钢铁时代的大门已经敞开！"
+			]
+			icon: "gtceu:steel_ingot"
+			id: "5C28BC01BE19B19E"
 			rewards: [
 				{
 					count: 16
-					id: "59C070A007BBCB33"
-					item: "ctnhcore:refined_iron_ingot"
+					id: "063A144E530BC052"
+					item: "gtceu:steel_ingot"
 					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "254BC8FCDD4FA0B1"
+					id: "02AA7AF46BC33940"
 					table_id: 1576725829474885042L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4FBF48BB3032B01A"
+					id: "05AB96DDBC348BE7"
 					table_id: 6665810253403300519L
 					type: "choice"
 				}
@@ -1045,734 +1772,32 @@
 			size: 2.0d
 			subtitle: "什么年代了，还在用传统土高炉"
 			tasks: [{
-				id: "6436E6490E808D9A"
+				id: "421273DAD62D4D55"
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 18.5d
+			title: "钢"
+			x: 8.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["15AE530D8337DCEE"]
-			id: "713CA44106751CCA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "78BF8F153388A157"
-				table_id: 6833002641825410426L
-				type: "random"
-			}]
-			subtitle: "解放双手，不是吗？"
-			tasks: [{
-				id: "5D1BAF9CE51E4E1A"
-				item: "createmetallurgy:mechanical_belt_grinder"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["5E5F4837CC1F047A"]
-			id: "6A9845F85704E2D4"
-			size: 1.5d
-			tasks: [{
-				id: "1F36789281D83E9C"
-				item: "vintageimprovements:spring_coiling_machine"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["06C3AF2D5D8F694A"]
-			description: ["{毕竟用的盆}"]
-			id: "2BCE6D5336CADE73"
-			subtitle: "只能离心固体材料"
-			tasks: [{
-				id: "3C9A794EF37BA853"
-				item: "vintageimprovements:centrifuge"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["06C3AF2D5D8F694A"]
-			id: "01CC0041CF5F9033"
-			subtitle: "橡胶树叶可以1：1变成树脂"
-			tasks: [{
-				id: "7B6EF3315A316D5F"
-				item: "vintageimprovements:vibrating_table"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["106DC15191737D98"]
-			id: "5B9EBE5F72944F67"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B05DBB7AA9BAC56"
-				table_id: 6665810253403300519L
-				type: "random"
-			}]
-			subtitle: "代替你的螺丝刀和锉刀"
-			tasks: [{
-				id: "38330AE664405CCF"
-				item: "vintageimprovements:lathe"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 11.5d
-		}
-		{
-			dependencies: [
-				"06C3AF2D5D8F694A"
-				"586FCED7C02EE5D7"
-			]
-			id: "1BDD550BE6C77C28"
-			subtitle: "压缩耐火砖"
-			tasks: [{
-				id: "0C354596F30588B4"
-				item: "vintageimprovements:vacuum_chamber"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["6A9845F85704E2D4"]
+			dependencies: ["4699AADE1022AC44"]
 			dependency_requirement: "one_completed"
-			id: "06C3AF2D5D8F694A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6873315E7843BE92"
-					table_id: 3492588397256202932L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "11919ADA4944A57C"
-					table_id: 6833002641825410426L
-					type: "random"
-				}
-			]
-			tasks: [{
-				id: "06DC5E54CC23C978"
-				item: "gtceu:iron_spring"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 13.5d
-		}
-		{
-			id: "497999198D773D40"
-			subtitle: "当然你可以砍树，但我更希望你做上面那个机器"
-			tasks: [{
-				id: "13D66DE408F1EA39"
-				item: "gtceu:sticky_resin"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 15.5d
-		}
-		{
-			dependencies: [
-				"49B597AA5C08DC1E"
-				"526279E2A5A64EF3"
-			]
-			dependency_requirement: "one_completed"
-			id: "351809CC7F8F9D7B"
-			subtitle: "去找毒化洞穴的晶体硫，或者离心地狱岩粉"
-			tasks: [{
-				id: "2A5F413D7ECC1951"
-				item: "kubejs:rubber_powder"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 16.5d
-		}
-		{
-			description: [
-				"{    将浇筑口贴在熔铸盆或工业流体储罐上，下方放置 铸造台+模具 或 铸造盆，即可将熔融金属浇筑成锭或块。}"
-				"{    当然，你也可以使用其他流体传输手段（例如机械动力的动力泵、流体管道，eio的流体导管）}"
-			]
-			id: "3509D7B8E361DF68"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "54DA345C4BD7ECD2"
-					table_id: 6833002641825410426L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "39E205E52B3CFA9E"
-					table_id: 3492588397256202932L
-					type: "random"
-				}
-			]
-			subtitle: "似曾相识？"
+			id: "0AC982045B61FB1B"
 			tasks: [
 				{
-					id: "431888D96A509CFF"
-					item: "createmetallurgy:faucet"
+					id: "71306AAE9EBE1454"
+					item: "gtceu:brass_dust"
 					type: "item"
 				}
 				{
-					id: "3D011BE99A2561B1"
-					item: "createmetallurgy:casting_table"
-					type: "item"
-				}
-				{
-					id: "4F769D1E7C1DACEC"
-					item: "createmetallurgy:graphite_ingot_mold"
-					type: "item"
-				}
-				{
-					id: "4EFAF4DD95405278"
-					item: "createmetallurgy:casting_basin"
+					id: "6A20CDB821F3B70A"
+					item: "gtceu:bronze_dust"
 					type: "item"
 				}
 			]
-			title: "浇筑"
-			x: 11.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["351809CC7F8F9D7B"]
-			id: "3AB5FDB74D7FA100"
-			optional: true
-			tasks: [{
-				id: "5195641EF2D22B1F"
-				item: "gtceu:rubber_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 17.5d
-		}
-		{
-			dependencies: ["7E5199B7F22F5DED"]
-			id: "33452CB4AAC5EE5F"
-			size: 2.0d
-			subtitle: "大型水车在本整合包进行了增强，可以试试"
-			tasks: [{
-				id: "60BA3C41665B633E"
-				item: "create:large_water_wheel"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"3AB5FDB74D7FA100"
-				"00172F657F4BAB7A"
-				"06C36A1995887667"
-			]
-			dependency_requirement: "one_completed"
-			description: [
-				"{    通过思索查看具体用法。}"
-				"{    注意：高温冶炼配方对冶炼炉的&6尺寸&r和&6温度&r有要求，例如冶炼铁方坯需要至少25Tu和至少4x4的冶炼炉（建议建造5x5的），可以在EMI页面看到（将鼠标移到烈焰人燃烧室上显示温度需求）。}"
-				"{    每个加热状态的燃烧室可以提供1Tu，超级加热则可提供2Tu。佩戴工程师护目镜可以查看冶炼炉温度和冶炼进度。}"
-			]
-			id: "105D45F86A0B3A55"
-			rewards: [
-				{
-					count: 19
-					id: "1D10295310EE5017"
-					item: "createmetallurgy:industrial_crucible"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6379FB7ED9E6FF7F"
-					table_id: 6833002641825410426L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5F0C84E7149781DA"
-					table_id: 3492588397256202932L
-					type: "random"
-				}
-			]
-			shape: "diamond"
-			size: 2.0d
-			subtitle: "小炉子，你有几分它的影子"
-			tasks: [{
-				count: 8L
-				id: "683C307DC2DF01E0"
-				item: "createmetallurgy:industrial_crucible"
-				type: "item"
-			}]
-			title: "多方块冶炼炉？"
-			x: 5.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["5E5F4837CC1F047A"]
-			id: "4CDCD4A5CB57415D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2B23917618223F40"
-					table_id: 6833002641825410426L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "22E591B021CAEB1A"
-					table_id: 3492588397256202932L
-					type: "random"
-				}
-			]
-			size: 1.5d
-			tasks: [
-				{
-					id: "11608DFDAA797975"
-					item: "createmetallurgy:foundry_basin"
-					type: "item"
-				}
-				{
-					id: "3C91EFC20E3EBCD8"
-					item: "createmetallurgy:foundry_lid"
-					type: "item"
-				}
-				{
-					id: "12085214E5EE5B57"
-					item: "create:blaze_burner"
-					type: "item"
-				}
-			]
-			title: "冶金学"
-			x: 8.0d
-			y: 9.5d
-		}
-		{
-			id: "7E16AD4CB7F6CDE6"
-			rewards: [
-				{
-					count: 64
-					id: "2A57831AAA10ACA4"
-					item: "minecraft:redstone_block"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "7BBABBE384809FAB"
-					item: "minecraft:quartz"
-					type: "item"
-				}
-			]
-			subtitle: "什么 石英可以这样来？"
-			tasks: [
-				{
-					id: "43A1B3E5A1DBDF40"
-					item: "minecraft:redstone"
-					type: "item"
-				}
-				{
-					id: "612FBF4A189995A7"
-					item: "minecraft:quartz"
-					type: "item"
-				}
-			]
-			title: "玫瑰石英原料"
-			x: 8.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["53B3B59D47455ACE"]
-			id: "789BB6304FC5B584"
-			rewards: [
-				{
-					count: 64
-					id: "19501FA92690579D"
-					item: "create:fluid_pipe"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "163FF5B787A6DA08"
-					table_id: 6833002641825410426L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "24BCBBA50855BA2C"
-					table_id: 3492588397256202932L
-					type: "random"
-				}
-			]
-			subtitle: "无限水的忠实拥护者"
-			tasks: [{
-				id: "586FCED7C02EE5D7"
-				item: "create:mechanical_pump"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"37C84B86D958F123"
-				"445E080E7655B3B1"
-			]
-			dependency_requirement: "one_completed"
-			id: "41D41ED992083C68"
-			subtitle: "毕竟炼钢需要更好的料"
-			tasks: [{
-				id: "3C2DAFC2C873DAF8"
-				item: "ctnhcore:refined_iron_ingot"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["79BE8625F8D33E1C"]
-			id: "37C84B86D958F123"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "521968B397C486DE"
-				table_id: 3492588397256202932L
-				type: "random"
-			}]
-			subtitle: "更好的获得铁方坯的手段，不过要钢"
-			tasks: [{
-				id: "49BF6627F311BAC2"
-				item: "ctnhcore:sintering_kiln"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 16.5d
-		}
-		{
-			dependencies: ["5F7EAD64388EBAD2"]
-			id: "445E080E7655B3B1"
-			subtitle: "待处理的钢粉"
-			tasks: [{
-				id: "483C5389C8D0A271"
-				item: "gtceu:steel_precursor_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["525ACD2BD801E168"]
-			id: "5F7EAD64388EBAD2"
-			rewards: [{
-				count: 16
-				id: "19595AC152F76C36"
-				item: "gtceu:wrought_iron_dust"
-				type: "item"
-			}]
-			subtitle: "下一步是什么呢？炼钢！"
-			tasks: [{
-				id: "02D9926E69D97D76"
-				item: "gtceu:wrought_iron_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 14.5d
-		}
-		{
-			description: ["&b锻铁&r工具属性比&b铁&r更好哦"]
-			icon: "gtceu:wrought_iron_ingot"
-			id: "525ACD2BD801E168"
-			rewards: [{
-				count: 16
-				id: "36EF81ECAE407D67"
-				item: "gtceu:wrought_iron_ingot"
-				type: "item"
-			}]
-			shape: "square"
-			size: 1.0d
-			subtitle: "铁烧烧，锤敲敲"
-			tasks: [
-				{
-					id: "1416E8E3A9EF85CC"
-					item: "gtceu:hot_high_temp_wrought_precursor_ingot"
-					type: "item"
-				}
-				{
-					id: "00A53FF05AB61960"
-					item: "gtceu:wrought_iron_ingot"
-					type: "item"
-				}
-			]
-			title: "关于锻铁锭"
-			x: 3.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["4EB8D7E72D302C75"]
-			id: "7F952CB3B0AF44C0"
-			subtitle: "其实EIO的管道也挺好的"
-			tasks: [{
-				id: "6AD63D8CCB3D0022"
-				item: "enderio:fluid_conduit"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["222114435B2A13DE"]
-			id: "15AE530D8337DCEE"
-			tasks: [{
-				id: "28E9BFBBE34D65CE"
-				title: "基础构件能解锁的Create"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 11.5d
-		}
-		{
-			description: ["{    之后会有更加高效的提炼方法。}"]
-			id: "44EC9226A2DC2E7A"
-			rewards: [{
-				count: 64
-				id: "1316DBA70A48CAE8"
-				item: "minecraft:gold_nugget"
-				type: "item"
-			}]
-			subtitle: "放进熔炉烧成金粒"
-			tasks: [
-				{
-					id: "5CBEF89E5BC6C6A7"
-					item: "gtceu:precious_alloy_ingot"
-					type: "item"
-				}
-				{
-					id: "721DF317CF49DD14"
-					item: "gtceu:raw_precious_alloy"
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["700219157D99E263"]
-			id: "7BDF74DD4432FF75"
-			tasks: [{
-				id: "057993011D20E0EC"
-				item: "gtceu:bronze_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["6168741C8B4F4F31"]
-			id: "4BFCE509589207BC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "45A2450CDD80AF80"
-					table_id: 3492588397256202932L
-					type: "loot"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "214A0DEBA4366198"
-					table_id: 6833002641825410426L
-					type: "random"
-				}
-			]
-			size: 2.0d
-			tasks: [{
-				id: "0524278F58E281E3"
-				item: "createmetallurgy:foundry_mixer"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"43CD7225D0D21331"
-				"1162E347E7C00175"
-				"12316D2A6DC56654"
-			]
-			description: [
-				"{你是否发现，传统的地狱门无法使用}"
-				""
-				"{你只能使用GT Portal的方式进入下界，哦，别忘了回来也是}"
-				""
-				"{怎么开启传送门？看一下EMI里&a传送门控制器的用途&r吧}"
-				"{@pagebreak}"
-				"                                              &l错误示范：&r"
-				"{image:ftbquests:textures/ctstore/baka_show1.png width:100 height:100 align:center}"
-				"{@pagebreak}"
-				"&aCT的列车暂时无法正常通过此传送门，请不要使用&r"
-			]
-			icon: "minecraft:netherrack"
-			id: "1E11A492F4576DBA"
-			rewards: [{
-				id: "5DB521E0CFE33093"
-				item: "minecraft:netherrack"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			subtitle: "前往下界的方式"
-			tasks: [
-				{
-					id: "7B0A7100342AF78F"
-					item: "gtportal:simple_nether_portal_controller"
-					type: "item"
-				}
-				{
-					count: 15L
-					id: "392A28A656FD9A95"
-					item: { Count: 15, id: "gtportal:simple_nether_portal_frame" }
-					type: "item"
-				}
-				{
-					id: "341F9FECE554FA3C"
-					item: "gtportal:simple_overworld_portal_controller"
-					type: "item"
-				}
-				{
-					count: 15L
-					id: "5A252BBFE26D4E60"
-					item: { Count: 15, id: "gtportal:simple_overworld_portal_frame" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "47C4B7F214259992"
-					item: { Count: 2, id: "gtceu:ulv_input_bus" }
-					type: "item"
-				}
-			]
-			title: "下界"
-			x: 16.5d
-			y: 16.5d
-		}
-		{
-			dependencies: [
-				"4CDCD4A5CB57415D"
-				"3509D7B8E361DF68"
-			]
-			id: "4EB8D7E72D302C75"
-			tasks: [{
-				id: "6C4B79F56E95A7B3"
-				item: "minecraft:glass"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["31BA6652FDB500C3"]
-			description: ["{    前往毒化洞穴群系以完成该任务}"]
-			id: "51CB44ACDC00146E"
-			tasks: [{
-				biome: "alexscaves:toxic_caves"
-				icon: "alexscaves:nuclear_bomb"
-				id: "47682BAE195B18E5"
-				title: "探索毒化洞穴"
-				type: "biome"
-			}]
-			x: 8.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["51CB44ACDC00146E"]
-			id: "76C7E8FA8AC12405"
-			tasks: [{
-				id: "3D443C4E16DD21D2"
-				item: "alexscaves:sulfur"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["76C7E8FA8AC12405"]
-			id: "526279E2A5A64EF3"
-			tasks: [{
-				id: "303FE3E2A5E90409"
-				item: "alexscaves:sulfur_dust"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 16.5d
-		}
-		{
-			description: ["{    在本整合包中，格雷科技的蒸汽时代被机械动力及其附属完全取代。但目前蒸汽机器的制作方法并没有被移除，或许你可以制作几台来一睹蒸汽时代的荣光。}"]
-			id: "1AC8AFD294F719D4"
-			subtitle: "消失的蒸汽时代"
-			tasks: [{
-				id: "784D5A3F21BFF27C"
-				item: "gtceu:lp_steam_solid_boiler"
-				type: "item"
-			}]
-			title: "我蒸汽呢？"
-			x: 12.5d
-			y: 17.5d
-		}
-		{
-			dependency_requirement: "one_started"
-			description: ["可以通过熔炼炉制作，也可以去探索磁场洞穴"]
-			id: "06C36A1995887667"
-			subtitle: "路边也许能捡到？"
-			tasks: [{
-				id: "3F8B3F682848B469"
-				item: "minecraft:compass"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["525ACD2BD801E168"]
-			id: "79BE8625F8D33E1C"
-			subtitle: "你需要它为你的烧结窑提供应力"
-			tasks: [{
-				id: "188E009492795DD6"
-				item: "ctpp:ulv_kinetic_input_box"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 15.0d
-		}
-		{
-			description: ["可以不用打开工作台和点击EMI书签"]
-			id: "5E467907883A5FD7"
-			subtitle: "它很好用"
-			tasks: [{
-				id: "6BE0DDC09F2CF469"
-				item: "create:crafting_blueprint"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 11.5d
-		}
-		{
-			description: ["{        你太能憋了}"]
-			id: "18D08FB7B4BD3F23"
-			invisible: true
-			rewards: [{
-				count: 64
-				id: "2DEB51441F3558F9"
-				item: "gtceu:steel_ingot"
-				type: "item"
-			}]
-			subtitle: "速通路线？"
-			tasks: [{
-				id: "7105A16D18303022"
-				item: "ctnhcore:industrial_primitive_blast_furnace"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 17.5d
+			x: 10.5d
+			y: 5.0d
 		}
 	]
 	title: "齿轮力量"

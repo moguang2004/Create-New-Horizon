@@ -1,0 +1,31 @@
+{
+  "name": "幽靈之眼",
+  "icon": "minecraft:glowstone_dust",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)幽靈之眼$()會點亮附近的生物，就像它們擁有發光效果一樣。基本範圍是24格方塊，更高的等級將每級增加32格。$(br2)由$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)夜視$()效果藥水所製作。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "幽靈之眼 (3:00)",
+      "a.recipe": "bloodmagic:flask/night_to_spectral",
+      "b.heading": "幽靈之眼 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_spectral_sight",
+      "c.heading": "幽靈之眼 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_spectral_sight"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "添加$(l:bloodmagic:alchemy_table/potions#average_potions)標準催化劑$()可以更進一步提升效果。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "幽靈之眼 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_spectral_sight",
+      "b.heading": "幽靈之眼 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_spectral_sight"
+    }
+  ]
+}

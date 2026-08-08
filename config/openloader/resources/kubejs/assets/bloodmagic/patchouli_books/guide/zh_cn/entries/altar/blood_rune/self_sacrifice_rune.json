@@ -1,0 +1,25 @@
+{
+  "name": "犧牲符文",
+  "icon": "bloodmagic:selfsacrificerune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)犧牲符文$()能夠增加透過玩家採集的$(blood)生命精華$()產量，每一顆額外+10%。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_self_sacrifice"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_self_sac_2",
+      "text":"有了一些$(item)遠古遺骸$()和一點從$(l:bloodmagic:dungeons/endless_realm)魔域$()掠奪來的$(item)精密獄火鍛造組件$()，將能夠讓$(item)犧牲符文$()的能力加倍，每一顆犧牲符文能夠使產量+20%。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/self_sac",
+      "text":"如果你改變主意，你可以在鍊金術反應室改變配方。"
+    }
+  ]
+}

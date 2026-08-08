@@ -1,12 +1,13 @@
-#更新日志JSON文件的远程URL
+#默认更新日志JSON文件的远程URL
+#非英文/俄文语言优先使用此项
 #例如: http://example.com/changelog.json
-changelogUrl = "https://raw.mmyddd.top:8081/changelog.json"
+changelogUrl = "https://raw.mmyddd.top:8081/changelog_v2.json"
 #是否在创建世界界面显示更新日志标签页
 enableChangelogTab = true
 #当前整合包版本号
 #用于与更新日志最新版本对比
 #例如: 1.0.0
-ModpackVersion = "1.4.1"
+ModpackVersion = "1.4.3a"
 #是否启用版本更新检查
 #如果禁用，将不会对比ModpackVersion和远程最新版本
 #也不会显示更新提示
@@ -17,4 +18,21 @@ enableVersionCheck = true
 #SELECT_WORLD - 仅在选择世界界面显示
 #Allowed Values: BOTH, TITLE_SCREEN, SELECT_WORLD
 buttonLocation = "BOTH"
+#是否启用游戏内更新日志编辑器
+#启用后在更新日志界面显示编辑按钮
+#默认关闭
+enableEditor = false
+#英文更新日志JSON文件的远程URL
+#英文语言使用此项，其他语言 URL 为空时也会回退到此项
+#例如: http://example.com/changelog_en.json
+changelogUrlEn = "https://raw.mmyddd.top:8081/changelog_en_v2.json"
+#俄语更新日志JSON文件的远程URL
+#俄语语言使用此项；为空时回退到 changelogUrlEn
+#例如: http://example.com/changelog_ru.json
+changelogUrlRu = "https://raw.mmyddd.top:8081/changelog_ru_v2.json"
+#远程更新日志缓存有效期（分钟）
+#缓存未过期时直接使用本地缓存，不访问远端
+#设为 0 可每次都检查远端
+#Range: 0 ~ 10080
+cacheTtlMinutes = 60
 

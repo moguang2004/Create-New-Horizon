@@ -44,6 +44,7 @@ natives-*/
 /README.md
 /DEVELOPMENT.md
 /.git*
+/.github/
 /scripts/
 /LICENSE
 /LICENSE-ARTWORK
@@ -103,5 +104,6 @@ config/*
 !config/ctnhchangelog-client.toml
 !config/ali
 !config/gtmqol.json
+!config/openloader
 
-!kubejs/config/*
+/kubejs

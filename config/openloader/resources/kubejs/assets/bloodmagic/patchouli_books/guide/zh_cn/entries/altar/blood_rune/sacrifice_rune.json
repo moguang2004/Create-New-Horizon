@@ -1,0 +1,25 @@
+{
+  "name": "獻祭符文",
+  "icon": "bloodmagic:sacrificerune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)獻祭符文$()能夠增加透過非玩家採集的$(blood)生命精華$()產量，每一顆額外+10%。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_sacrifice"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_sac_2",
+      "text":"有了一些$(item)遠古遺骸$()和一點從$(l:bloodmagic:dungeons/endless_realm)魔域$()掠奪來的$(item)精密獄火鍛造組件$()，將能夠讓$(item)獻祭符文$()的能力加倍，每一顆獻祭符文能夠使產量+20%。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/sac",
+      "text":"如果你改變主意，你可以在鍊金術反應室改變配方。"
+    }
+  ]
+}

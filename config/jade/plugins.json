@@ -67,30 +67,28 @@
     "compressor": true
   },
   "gtceu": {
+    "manamachine_status_provider": true,
     "primitive_pump": true,
     "auto_output_info": true,
     "bloodaltar_status_provider": true,
+    "manahatch_status_provider": true,
     "workable_provider": true,
     "transformer": true,
     "energy_converter_provider": true,
-    "me_pattern_buffer": true,
+    "controllable_provider": true,
+    "exhaust_vent_info": true,
     "multiblock_structure": true,
     "manamachine_mana_status_provider": true,
     "living_machine_status_provider": true,
     "maintenance_info": true,
     "machine_mode": true,
+    "electric_container_provider": true,
     "steam_boiler_info": true,
     "recipe_output_info": true,
     "stained_color": true,
+    "hazard_cleaner_provider": true,
     "cable_info": true,
     "parallel_info": true,
-    "manamachine_status_provider": true,
-    "manahatch_status_provider": true,
-    "controllable_provider": true,
-    "exhaust_vent_info": true,
-    "me_pattern_buffer_proxy": true,
-    "electric_container_provider": true,
-    "hazard_cleaner_provider": true,
     "data_bank": true
   },
   "jade": {
@@ -112,11 +110,6 @@
   },
   "functionalstorage": {
     "armory": true
-  },
-  "ctnhcore": {
-    "recipe_logic_provider": true,
-    "thread_status_provider": true,
-    "recipe_output_provider": true
   },
   "ae2": {
     "part_icon": true,
@@ -144,10 +137,6 @@
   "jadeaddons.lootr": {
     "info": true
   },
-  "touhou_little_maid": {
-    "maid": true,
-    "shrine_lamp": true
-  },
   "twilightforest": {
     "quest_ram_wool": true
   },
@@ -155,14 +144,17 @@
     "mana_pool_status": true
   },
   "ctnhenergy": {
-    "ad_me_pattern_buffer": true,
-    "ae_eu_info": true,
-    "ad_me_pattern_buffer_proxy": true
+    "ae_eu_info": true
   },
   "waystones": {
     "waystone": true
   },
   "gravestone": {
     "grave": true
+  },
+  "ae2cs": {
+    "jade/ender_broadcaster": true,
+    "jade/mirror_pattern_provider": true,
+    "jade/ender_emitter": true
   }
 }

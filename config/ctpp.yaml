@@ -50,6 +50,12 @@ ctnhConfig:
   # KineticGenerator's Require Lubricant Amount (mL)
   kineticGeneratorGeneratingRequireLubricantAmount: 1
 
+  # Maximum number of generator coils collected by one carbon brush
+  carbonBrushesMaxCoils: 8
+
+  # Energy generated per stress unit and tick by generator coils
+  carbonBrushesSuToEnergy: 0.029296875
+
   # Is CTNH KineticSteamTurbine Enabled?
   enableKineticSteamTurbine: true
 
@@ -64,4 +70,9 @@ ctnhConfig:
 
   # Is CTNH BoomOfCreate Enabled?
   enableBoomOfCreate: true
+
+# Client-only configurations
+clientConfig:
+  # Whether toolbox opening and closing sounds are enabled
+  toolboxSounds: true
 

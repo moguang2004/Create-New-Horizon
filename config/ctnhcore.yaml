@@ -76,18 +76,6 @@ kinetic:
   # Default: 512
   sifterStressRequirement: 512.0
 
-  # The rpm requirement for mechanical extractor machines
-  # Default: 128
-  extractorRpmRequirement: 128
-
-  # Mechanical Extractor's Speed Multiplier relative to its voltage level
-  # Default: 2
-  extractorSpeedMultiplier: 2.0
-
-  # Mechanical Extractor's stress requirement(This value will be multiplied by its basic EUt cost)
-  # Default: 512
-  extractorStressRequirement: 512.0
-
   # The rpm requirement for mechanical lathe machines
   # Default: 128
   latheRpmRequirement: 128

@@ -1,0 +1,38 @@
+{
+  "name": "綠叢印記",
+  "icon": "bloodmagic:growthsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)綠叢印記$()是一種多用途的工具。在鍊金製作陣中加入$(item)促生試劑$()和$(item)強化石板$()所製作，印記可以使用 $(thing)靈魂網路$()中的$(blood)LP$()使周圍的植物加速生長。"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "促生試劑",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_growth",
+      "array.heading": "綠叢印記",
+      "array.recipe": "bloodmagic:array/growthsigil"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/grove_sigil1.png",
+        "bloodmagic:images/entries/sigil/grove_sigil2.png",
+        "bloodmagic:images/entries/sigil/grove_sigil3.png"
+      ],
+      "title": "綠叢印記陣",
+      "border": true,
+      "text": "綠叢印記陣，加上主要用途。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "如果對著可以$(2)生長的$()的方塊按下[$(k:use)]，它將會受到骨粉的效果，代價為$(blood)150 LP$()。 $(br2)然而當你對著空氣同時按住[$(k:sneak)]以及[$(k:use)]，它將會被點亮顯示被活化，並每5秒消耗 $(blood)150 LP$()。以玩家為中心的7*7*5區域中，每個方塊都將每Tick增長。有利於耕種!"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "由於你安裝了$(thing)Curios API$()，你能夠將$(item)印記$()作為飾品放入。如果你想同時配戴更多飾品，考慮使用 $(l:bloodmagic:alchemy_array/sigil/holding)維持印記$()，或者為你的$(l:bloodmagic:alchemy_array/living_equipment/living_basics)束靈鎧甲$()提供$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)插槽$()。"
+    }
+  ]
+}

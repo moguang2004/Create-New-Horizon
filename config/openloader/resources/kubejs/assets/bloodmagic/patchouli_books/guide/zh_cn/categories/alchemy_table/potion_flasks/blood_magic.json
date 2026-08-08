@@ -1,0 +1,6 @@
+{
+  "name": "Blood Magic 3效果",
+  "description": "這些效果只有在真正的鍊金術士的觸碰下才能顯現。",
+  "icon": "bloodmagic:simplecatalyst",
+  "parent": "bloodmagic:alchemy_table/potion_flasks"
+}

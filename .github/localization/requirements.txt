@@ -1,0 +1,2 @@
+ftb-snbt-lib
+opencc

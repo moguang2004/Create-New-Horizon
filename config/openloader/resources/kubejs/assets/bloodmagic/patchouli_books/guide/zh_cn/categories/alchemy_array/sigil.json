@@ -1,0 +1,7 @@
+{
+  "name": "印記",
+  "description": "$(item)印記$()是使用$(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)鍊金陣$()，以及某種形式的$(item)試劑$()和$(l:bloodmagic:altar/slates)石板$()所形成。從$(l:bloodmagic:altar/soul_network)靈魂網路$()中提取你的$(blood)LP$()以執行各種用途。",
+  "icon": "bloodmagic:divinationsigil",
+  "parent": "bloodmagic:alchemy_array",
+  "sortnum": 1
+}

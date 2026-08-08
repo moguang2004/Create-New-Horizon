@@ -1,0 +1,42 @@
+{
+  "name": "尚未實現",
+  "icon": "minecraft:barrier",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings": {
+    "bloodmagic:lightritualstone": 0,
+    "bloodmagic:mimic": 0,
+    "bloodmagic:ethereal_mimic": 0,
+    "bloodmagic:etherealslate": 0,
+    "bloodmagic:nether_soil": 0,
+    "bloodmagic:growing_doubt": 0,
+    "bloodmagic:doubt_bucket": 0,
+    "bloodmagic:activationcrystalawakened": 0,
+    "bloodmagic:will_power_anointment": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "好的。這裡打破了第四面牆$(blood)Blood Magic$()並不完整，有東西是來自早期版本尚未實現的。其中一些東西可能在未來回歸，其他的則已經完成，或者塵封了(看看你綁定的鎧甲和武器...)。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Arcane Ash Rituals. Some of these are coming back soon(tm),for now wait and see. $(li)Ritual of Binding. This went out with 1.7.10, stop asking. $(li)Imperfect Rituals (Lapis etc) - some of these have been implemented as Arcane Ash Arrays.  $(li)Sigil of the Frozen Lake. $(li)Sigil of Elasticity. $(li)Sigil of Elemental Affinity. $(li)Sigil of the Claw. $(li)Interdiction Ritual. $(li)Ritual of Containment. $(li)Le Vulcano Frigius."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Ritual of Suppression. $(li)Ritual Dismantler. $(li)Ritual Diviner (Dawn). $(li)Grand Tartaric Gem. $(li)Spectral Weapons and Tools. $(li)Transposition Sigil. $(li)Sigil of Ender Severance. $(li)Sigil of Compression. $(li)Sigil of the Phantom Bridge. $(li)Assembly of the High Altar. $(li)Cry of the Eternal Soul. $(li)Hymn of Syphoning."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)The Gate of the Fold. $(li)Ritual of the Feathered Earth. $(li)Ritual of Expulsion. $(li)Awakened Activation Crystal."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "其他物品可能會隨著模組的進展出現或消失。$(br2)需要更多資訊請查看$(l:https://github.com/WayofTime/BloodMagic)Blood Magic Github$()，$(l:https://www.curseforge.com/minecraft/mc-mods/blood-magic)Blood Magic Curseforge頁面$()，以及$(l:https://discord.gg/VtNrGrs)Blood Magic Discord$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This manual was put together by Wrincewind and VT-14, building on Way＂s original manual, with some help from Patchouli and MinecraftGuides.net. Thank you for playing! :)"
+    }
+  ]
+}

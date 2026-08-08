@@ -1,0 +1,17 @@
+{
+  "name": "生命精華桶",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(blood)生命精華$()在$(l:bloodmagic:altar/blood_altar)血祭壇$()內是很好用的，能夠用來製作物品也能在$(l:bloodmagic:altar/soul_network)寶珠$()上為$(thing)儀式$()提供能量，但如果你想在$(l:bloodmagic:utility/incense_altar)薰香祭壇$()周圍建立一個護城河呢?幸運的是，提取$(blood)生命精華$()非常的簡單。只需要在$(l:bloodmagic:altar/blood_altar)血祭壇$()中放上$(item)鐵桶$()，然後等個幾秒等它填滿。$(blood)1 LP$()=1mb，所以$(blood)1,000 LP$()對你來說應該能夠填滿$(item)鐵桶$()了。"
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Bucket of Life",
+      "recipe": "bloodmagic:altar/bucket_life",
+      "text": "$(italic)這絕對不是血，如果是血應該已經凝固了。$(br2)...你為什麼要這樣看著我?$()"
+    }
+  ]
+}

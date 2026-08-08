@@ -1,0 +1,25 @@
+{
+  "name": "虛無精華",
+  "icon": "bloodmagic:voiding_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "虛無精華",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment",
+      "text": "銷毀挖掘時獲得的方塊的簡單方法，例如石頭，泥土。 $(br2)有效物品:工具，劍，炸藥。 $(br2)套用: 虛無I (256 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "虛無精華 L",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用: 虛無I (1024 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "虛無精華 XL",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用: 虛無I (4096 方塊)"
+    }
+  ]
+}

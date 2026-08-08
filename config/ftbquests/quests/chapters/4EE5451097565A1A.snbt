@@ -194,7 +194,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["1162E347E7C00175"]
 			icon: "gtceu:steel_ingot"
 			id: "232568A83855DB3F"
 			rewards: [{
@@ -217,7 +216,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6D9003172EF921C9"]
 			icon: "gtceu:andesite_alloy_ingot"
 			id: "21EAC6922F7AD1D3"
 			rewards: [{
@@ -240,7 +238,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["700219157D99E263"]
 			icon: "gtceu:bronze_ingot"
 			id: "7F5291B0CD3AFA62"
 			rewards: [{
@@ -263,7 +260,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["700219157D99E263"]
 			icon: "gtceu:brass_ingot"
 			id: "0950C79A6AAC4B8A"
 			rewards: [{
@@ -286,7 +282,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["7E591C0E7278D12F"]
 			icon: "gtceu:treated_wood_planks"
 			id: "587F5DD7CFFEBD6C"
 			rewards: [{
@@ -309,7 +304,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6FDDD78D3F1CD965"]
 			icon: "gtceu:coke_gem"
 			id: "07221568FA9F69B4"
 			rewards: [{
@@ -581,7 +575,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["6CDD36A3C742B7F2"]
 			icon: "ctpp:basic_mechanism"
 			id: "21F87196C3E7DF8A"
 			rewards: [{
@@ -605,7 +598,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["7D76859D3E40A235"]
 			icon: "create:precision_mechanism"
 			id: "45E35DCAA656C4F5"
 			rewards: [{
@@ -629,7 +621,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["41E48BCAEAD9D47E"]
 			icon: "ctpp:steel_mechanism"
 			id: "187611E1082EC8E1"
 			rewards: [{
@@ -653,7 +644,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5E5F4837CC1F047A"]
 			icon: "create:cogwheel"
 			id: "68FF825294F5F1F7"
 			rewards: [{
@@ -677,7 +667,6 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["33452CB4AAC5EE5F"]
 			icon: "create:large_cogwheel"
 			id: "1D1A98A1BB440FD5"
 			rewards: [{

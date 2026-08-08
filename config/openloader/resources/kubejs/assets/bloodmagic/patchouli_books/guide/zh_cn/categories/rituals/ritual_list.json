@@ -1,0 +1,6 @@
+{
+  "name": "儀式清單",
+  "description": "一些簡單的$(thing)儀式$()只需要擁有階級III的$(l:bloodmagic:altar/blood_altar)血祭壇$()便能舉行，但想要更進一步則需要$(dusk)薄暮符文$()，來建造IV階祭壇。$(br2)使用$(item)儀式占卜杖$()來建造儀式，一顆$(item)活化水晶$()活化儀式，以及$(item)儀式調整器$()進行微調。不要忘記維持$(thing)靈魂網路$()的能量!",
+  "icon": "bloodmagic:masterritualstone",
+  "parent": "bloodmagic:rituals"
+}

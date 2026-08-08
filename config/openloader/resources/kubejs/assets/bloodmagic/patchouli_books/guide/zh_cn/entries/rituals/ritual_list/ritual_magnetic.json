@@ -1,0 +1,29 @@
+{
+  "name": "磁引儀式",
+  "icon": "minecraft:iron_ore",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "磁引儀式",
+      "multiblock_id": "bloodmagic:magnetism",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "magnetism"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "預設情況下，$()磁引儀式$()會在半徑為3的範圍內搜索至基岩，並從$(item)主儀式石$()吸引礦石。這可以透過在主儀式石正下方放置一個昂貴的方塊來增強，接受: $(br)$(li)$(item)鐵方塊$() - 7 方塊。 $(li)$(item)黃金方塊$() - 15 方塊。 $(li)$(item)鑽石方塊$() - 31 方塊。"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "magnetism",
+      "page_type": "placementRange",
+      "text_overrides": [
+        ["ores", "item"]
+      ]
+    }
+  ]
+}

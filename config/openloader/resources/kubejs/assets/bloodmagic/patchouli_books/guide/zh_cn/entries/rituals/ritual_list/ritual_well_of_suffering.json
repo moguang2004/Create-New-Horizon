@@ -1,0 +1,41 @@
+{
+  "name": "苦難之井儀式",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "苦難之井儀式",
+      "multiblock_id": "bloodmagic:well_of_suffering",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)儀式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "well_of_suffering",
+      "text_overrides": [
+        ["LP", "blood"],
+        ["blood altar", "l:bloodmagic:altar/blood_altar"]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "儀式將會攻擊其範圍內的生物，並將吸取的$(blood)血液$()存入周圍的$(l:bloodmagic:altar/blood_altar)血祭壇$()。在祭壇上放上一個$(l:bloodmagic:altar/soul_network)血寶珠$()，也許再加上幾個$(l:bloodmagic:altar/blood_rune/sacrifice_rune)獻祭符文$()你就再也不用擔心你的LP了...只要你能提供足夠的生物。" 
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "altar",
+      "text": "儀式同時只能連接到一個祭壇。",
+      "text_overrides": [
+        ["Blood Altar", "l:bloodmagic:altar/blood_altar"],
+        [" Blood", "blood"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "damage",
+      "text": "生物仍然會掉落非玩家擊殺的掉落物。"
+    }
+  ]
+}

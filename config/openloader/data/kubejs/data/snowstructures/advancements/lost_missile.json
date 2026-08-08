@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "lostmissile": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                    "location": {
+                        "structure": "snowstructures:lost_missile"
+                        }
+                    }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "item": "minecraft:apple"
+         },
+         "title": {
+             "translate": "同归于尽..."
+         },
+         "description": {
+             "translate": "前面壁者雷迪亚兹的遗产，我最好小心点..."
+         },
+         "frame": "task",    
+         "announce_to_chat": true,      
+         "hidden": false,    
+         "show_toast": true    
+    },
+    "parent": "snowstructures:begining",
+    "requirements": [  
+        ["lostmissile"]
+    ],
+    "rewards": {   
+        "function": "snowstructures:lost_missile"
+    }
+}

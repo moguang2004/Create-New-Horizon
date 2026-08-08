@@ -1,0 +1,12 @@
+{
+    "type": "botania:orechid_ignem",
+    "input": {
+        "type": "block",
+        "block": "minecraft:netherrack"
+    },
+    "output": {
+        "type": "block",
+        "block": "gtceu:netherrack_beryllium_ore"
+    },
+    "weight": 1500
+}

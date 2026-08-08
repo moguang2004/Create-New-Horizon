@@ -154,10 +154,7 @@
 			y: -6.75d
 		}
 		{
-			dependencies: [
-				"3DC28CC7547FA4DC"
-				"6CDD36A3C742B7F2"
-			]
+			dependencies: ["3DC28CC7547FA4DC"]
 			description: [
 				"{• 每个矿石熔化时多给予3粒量的熔融矿物 或1宝石量的熔融宝石}"
 				"{• 可把加热器换为燃料储罐以提升其熔炼温度}"
@@ -220,10 +217,7 @@
 			y: -6.75d
 		}
 		{
-			dependencies: [
-				"40BADBAD1F96B405"
-				"7D76859D3E40A235"
-			]
+			dependencies: ["40BADBAD1F96B405"]
 			description: [
 				"{• 能够批量熔炼}"
 				"{• 可容纳多种金属}"

@@ -1,0 +1,15 @@
+{
+  "name": "堅韌之掌",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果:增加自我奉獻的產量，最多+150%。$(br2)訓練:用犧牲匕首獻血。$(br2)最高等級: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:self_sacrifice"
+    }
+  ]
+}

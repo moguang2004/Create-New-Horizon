@@ -1,0 +1,25 @@
+{
+  "name": "緩燃之油",
+  "icon": "bloodmagic:smelting_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "緩燃之油",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment",
+      "text": "使用熱力冶煉方塊。 $(br2)有效物品:工具，劍，炸藥。 $(br2)套用:加熱工具I (256 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "緩燃之油 L",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment_l",
+      "text": "這種升級版的藥劑可延長4倍效果次數。 $(br2)套用:加熱工具I (1024 方塊)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "緩燃之油 XL",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment_xl",
+      "text": "這種升級版的藥劑可延長16倍效果次數。 $(br2)套用:加熱工具I (4096 方塊)"
+    }
+  ]
+}

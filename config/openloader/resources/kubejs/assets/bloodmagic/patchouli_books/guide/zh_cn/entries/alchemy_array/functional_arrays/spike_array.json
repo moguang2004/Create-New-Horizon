@@ -1,0 +1,17 @@
+{
+  "name": "尖刺陣",
+  "icon": "minecraft:iron_ingot",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "尖刺陣是一個簡單的鍊金陣，只有一個目的。當有生物踏入這個鍊金陣時，他們會持續受到一顆心的傷害。這很適合用來做生物陷阱，或者讓你的基地對其他人來說更加尖銳。"
+    },
+    {
+      "type": "bloodmagic:functional_array",
+      "heading": "尖刺陣",
+      "recipe": "bloodmagic:array/spike",
+      "image": "spikearray.png"
+    }
+  ]
+}

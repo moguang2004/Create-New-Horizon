@@ -1497,7 +1497,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2460426DE77EF0F4"]
 			description: ["{点击右上角的🔗图标可以跳转}"]
 			icon: "gtceu:causality_hazard_sign_block"
 			id: "6580B42C94E67713"

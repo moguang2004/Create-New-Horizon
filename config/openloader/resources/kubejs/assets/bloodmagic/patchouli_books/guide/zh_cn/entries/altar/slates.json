@@ -1,0 +1,33 @@
+{
+  "name": "石板的階級",
+  "icon": "bloodmagic:blankslate",
+  "category": "bloodmagic:altar",
+  "extra_recipe_mappings": {
+    "bloodmagic:blankslate": 1,
+    "bloodmagic:reinforcedslate": 1,
+    "bloodmagic:infusedslate": 2,
+    "bloodmagic:demonslate": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:altar/blood_altar)血祭壇$(/l)的主要用途是製作$(item)石板$()。每一階級的石板都需要上一階級的石板，以及比上一階級更強大的祭壇。 $(br2)請注意$(item)Etherial Slates$()在預設情況下還沒有實現，如果你在玩模組包可能會實現，詳細資訊請查看JEI。" 
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "空白石板",
+      "a.recipe": "bloodmagic:altar/slate",
+      "b.heading": "強化石板",
+      "b.recipe": "bloodmagic:altar/reinforcedslate"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "灌輸石板",
+      "a.recipe": "bloodmagic:altar/imbuedslate",
+      "b.heading": "惡魔合金石板",
+      "b.recipe": "bloodmagic:altar/demonicslate"
+    }
+  ]
+}
+
+
