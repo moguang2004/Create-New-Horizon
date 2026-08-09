@@ -81,6 +81,7 @@
     "manamachine_mana_status_provider": true,
     "living_machine_status_provider": true,
     "maintenance_info": true,
+    "eternal_wos_status_provider": true,
     "machine_mode": true,
     "electric_container_provider": true,
     "steam_boiler_info": true,

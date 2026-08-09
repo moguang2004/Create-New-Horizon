@@ -67,6 +67,7 @@
   "gtceu:data_bank": null,
   "gtceu:electric_container_provider": null,
   "gtceu:energy_converter_provider": null,
+  "gtceu:eternal_wos_status_provider": null,
   "gtceu:exhaust_vent_info": null,
   "gtceu:fluid_storage": null,
   "gtceu:hazard_cleaner_provider": null,

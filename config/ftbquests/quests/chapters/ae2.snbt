@@ -1772,7 +1772,7 @@
 			subtitle: "要收税的！"
 			tasks: [{
 				id: "695413C7BF80B729"
-				item: "eup2p:eu_p2p_tunnel"
+				item: "ctnhenergy:eu_p2p_tunnel"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1875,27 +1875,32 @@
 			subtitle: "无限容量！"
 			tasks: [
 				{
-					id: "6999D8649C390AFC"
-					item: "gtceu:me_input_bus"
+					id: "3C3A97CE1D697572"
+					item: "ctnhenergy:me_input_bus"
 					type: "item"
 				}
 				{
-					id: "3C9289342DB03C2B"
-					item: "gtceu:me_output_bus"
+					id: "6ACD08B9DDD54DFD"
+					item: "ctnhenergy:me_input_hatch"
 					type: "item"
 				}
 				{
-					id: "239FFA55DC0438BF"
-					item: "gtceu:me_input_hatch"
+					id: "0065015504FC3795"
+					item: "ctnhenergy:me_dual_input_hatch"
 					type: "item"
 				}
 				{
-					id: "23D04052A671FE06"
-					item: "gtceu:me_output_hatch"
+					id: "0B3EF7C6EDE146E7"
+					item: "ctnhenergy:me_output_bus"
 					type: "item"
 				}
 				{
-					id: "265EF2230D2398E1"
+					id: "749BE06E8F81DBB6"
+					item: "ctnhenergy:me_output_hatch"
+					type: "item"
+				}
+				{
+					id: "05C844CB50193614"
 					item: "ctnhenergy:me_dual_output_hatch"
 					type: "item"
 				}
@@ -1915,12 +1920,20 @@
 			tasks: [
 				{
 					id: "2B4E862932DEEDC5"
-					item: "ctnhenergy:me_pattern_buffer"
+					item: {
+						Count: 1
+						id: "ae2cs:mirror_pattern_provider"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "18A88785C29BEFF5"
-					item: "ctnhenergy:me_pattern_buffer_proxy"
+					item: {
+						Count: 1
+						id: "ae2cs:mirror_linker"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -1961,6 +1974,7 @@
 				item: "ctnhenergy:jiuzhang_quantum_computer"
 				type: "item"
 			}]
+			title: "滚木"
 			x: 18.0d
 			y: 2.5d
 		}
@@ -2091,17 +2105,17 @@
 			tasks: [
 				{
 					id: "5BC89AFC0547925F"
-					item: "gtceu:me_stocking_input_bus"
+					item: "ctnhenergy:me_stoking_input_bus"
 					type: "item"
 				}
 				{
 					id: "7FEFFA25E13DAEFC"
-					item: "gtceu:me_stocking_input_hatch"
+					item: "ctnhenergy:me_stoking_input_hatch"
 					type: "item"
 				}
 				{
 					id: "29E6FC604E6FFD15"
-					item: "ctnhenergy:me_tag_stocking_input_bus"
+					item: "ctnhenergy:me_stoking_dual_input_hatch"
 					type: "item"
 				}
 			]
@@ -2227,8 +2241,8 @@
 			]
 			id: "578B426CA3A4C0D1"
 			tasks: [{
-				id: "37BC285DF66B42CD"
-				item: "gtceu:crystal_sand_dust"
+				id: "7AAE05168C4AA852"
+				item: "ctnhcore:crystal_sand_dust"
 				type: "item"
 			}]
 			x: 1.0d

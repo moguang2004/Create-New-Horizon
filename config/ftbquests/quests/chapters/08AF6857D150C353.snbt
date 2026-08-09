@@ -12,13 +12,13 @@
 			linked_quest: "5C28BC01BE19B19E"
 			size: 2.0d
 			x: 0.0d
-			y: -0.75d
+			y: -1.0d
 		}
 		{
 			id: "10DD4C74FF7C07ED"
 			linked_quest: "711E575B05C2D635"
-			x: 10.0d
-			y: 3.0d
+			x: 7.5d
+			y: -2.5d
 		}
 	]
 	quests: [
@@ -36,7 +36,7 @@
 			}]
 			title: "红石合金粉"
 			x: 1.5d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1E8864BE7AE98C6C"]
@@ -48,8 +48,8 @@
 				type: "item"
 			}]
 			title: "红石合金锭"
-			x: 3.0d
-			y: -1.5d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -77,8 +77,8 @@
 				type: "item"
 			}]
 			title: "钢铁构件"
-			x: 4.5d
-			y: -0.75d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5C28BC01BE19B19E"]
@@ -91,7 +91,7 @@
 			}]
 			title: "钢机壳"
 			x: 1.5d
-			y: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["27AF51DA807E5A15"]
@@ -106,8 +106,8 @@
 				type: "item"
 			}]
 			title: "重型机械外壳"
-			x: 2.5d
-			y: -2.5d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["46356596DD3DD1F1"]
@@ -130,8 +130,8 @@
 				}
 			]
 			title: "杠杆锤"
-			x: 6.0d
-			y: 0.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -156,7 +156,7 @@
 				type: "item"
 			}]
 			title: "蒸汽引擎"
-			x: 4.5d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -170,8 +170,8 @@
 				type: "item"
 			}]
 			title: "引擎活塞"
-			x: 4.5d
-			y: -2.5d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -188,8 +188,8 @@
 				type: "item"
 			}]
 			title: "柴油引擎"
-			x: 4.5d
-			y: -4.5d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			description: ["分馏的基础，加热分馏液体。"]
@@ -200,8 +200,8 @@
 				type: "item"
 			}]
 			title: "分馏塔"
-			x: 15.0d
-			y: 0.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -216,8 +216,8 @@
 				type: "item"
 			}]
 			title: "抽油机"
-			x: 3.5d
-			y: -2.5d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["40B7C3728E165168"]
@@ -239,8 +239,8 @@
 				}
 			]
 			title: "石油与柴油"
-			x: 3.5d
-			y: -4.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			description: ["搅拌机：9种子+水→油脂块（核桃/椰子也可以）。"]
@@ -251,8 +251,8 @@
 				type: "item"
 			}]
 			title: "植物油脂块"
-			x: 16.0d
-			y: 0.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -278,8 +278,8 @@
 				}
 			]
 			title: "种子油与润滑油"
-			x: 15.5d
-			y: 1.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6C486395CD79CE16"]
@@ -294,21 +294,20 @@
 				type: "item"
 			}]
 			title: "液态橡胶"
-			x: 4.5d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["691868A5F9CED844"]
 			description: ["木板+胶水注液序列组装。"]
 			id: "3C1B621B1134687F"
-			shape: "octagon"
 			tasks: [{
 				id: "16CDF49C8EB91551"
 				item: "gtceu:resin_circuit_board"
 				type: "item"
 			}]
 			title: "覆膜电路基板"
-			x: 5.5d
+			x: 9.5d
 			y: 2.0d
 		}
 		{
@@ -318,15 +317,14 @@
 				"发电机线圈需要它。"
 			]
 			id: "771A64A5BFE12D7C"
-			shape: "octagon"
 			tasks: [{
 				id: "2BE52DA1C4785139"
 				item: "gtceu:resin_printed_circuit_board"
 				type: "item"
 			}]
 			title: "覆膜印刷电路基板"
-			x: 5.5d
-			y: 3.0d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1CACD3E758C050A6"]
@@ -339,8 +337,8 @@
 				type: "item"
 			}]
 			title: "电阻"
-			x: 7.0d
-			y: 0.5d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -359,8 +357,8 @@
 				type: "item"
 			}]
 			title: "真空管"
-			x: 8.5d
-			y: 3.0d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -388,7 +386,7 @@
 					type: "choice"
 				}
 			]
-			shape: "diamond"
+			shape: "square"
 			size: 2.0d
 			subtitle: "很酷，是吧？"
 			tasks: [{
@@ -397,8 +395,8 @@
 				type: "item"
 			}]
 			title: "基础电子电路"
-			x: 7.0d
-			y: 3.0d
+			x: 12.5d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -412,22 +410,23 @@
 				type: "item"
 			}]
 			title: "粗磁铁矿块"
-			x: 3.0d
-			y: 1.0d
+			x: 11.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["771A64A5BFE12D7C"]
 			description: ["机械合成：细铜导线+安山合金板+基础电路板+精密构件。"]
 			id: "17FF1738E246A1EA"
-			shape: "octagon"
+			shape: "square"
+			size: 2.0d
 			tasks: [{
 				id: "2289577FD438FAA1"
 				item: "ctpp:generator_coil"
 				type: "item"
 			}]
 			title: "发电机线圈"
-			x: 4.5d
-			y: 3.0d
+			x: 12.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5C28BC01BE19B19E"]
@@ -443,8 +442,8 @@
 				type: "item"
 			}]
 			title: "碳刷"
-			x: 1.5d
-			y: 1.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -469,15 +468,16 @@
 				}
 			]
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
+			subtitle: "恭喜你，成功进入电力时代"
 			tasks: [{
 				id: "0A05E152D3D521E6"
 				title: "第一台发电设备"
 				type: "checkmark"
 			}]
 			title: "第一台发电机"
-			x: 3.0d
-			y: 3.0d
+			x: 12.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["46356596DD3DD1F1"]
@@ -487,7 +487,7 @@
 			]
 			icon: "ctpp:mechanical_upgrade_bus"
 			id: "7C142BC6296E6CBF"
-			shape: "square"
+			shape: "hexagon"
 			subtitle: "CT大机器的核心仓室，没有他就运行不了配方"
 			tasks: [{
 				id: "2D22019FCDB1AAEA"
@@ -495,8 +495,8 @@
 				type: "item"
 			}]
 			title: "机械升级仓"
-			x: 7.0d
-			y: -0.75d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7C142BC6296E6CBF"]
@@ -508,8 +508,8 @@
 				type: "checkmark"
 			}]
 			title: "多方块结构"
-			x: 11.5d
-			y: -0.75d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["74233E0C5F173C13"]
@@ -520,14 +520,15 @@
 				table_id: 1370906070305640911L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "6F07382B257A3E67"
 				item: "ctnhcore:mechanical_mixer"
 				type: "item"
 			}]
 			title: "机械搅拌器"
-			x: 11.5d
-			y: -2.5d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["74233E0C5F173C13"]
@@ -538,14 +539,15 @@
 				table_id: 1370906070305640911L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "049CE1B3C3814A89"
 				item: "ctnhcore:mechanical_pressor"
 				type: "item"
 			}]
 			title: "机械压制机"
-			x: 12.5d
-			y: -2.0d
+			x: 8.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["74233E0C5F173C13"]
@@ -556,14 +558,15 @@
 				table_id: 1370906070305640911L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "7E62AE0773BED285"
 				item: "ctnhcore:mechanical_lathe"
 				type: "item"
 			}]
 			title: "机械车床"
-			x: 13.0d
-			y: -0.75d
+			x: 9.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["74233E0C5F173C13"]
@@ -574,14 +577,15 @@
 				table_id: 1370906070305640911L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "4FFFB20C6D56EE22"
 				item: "ctnhcore:mechanical_centrifuge"
 				type: "item"
 			}]
 			title: "机械离心机"
-			x: 10.0d
-			y: 0.5d
+			x: 9.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["74233E0C5F173C13"]
@@ -592,14 +596,15 @@
 				table_id: 1370906070305640911L
 				type: "random"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "64298A9CF42AA7DF"
 				item: "ctnhcore:mechanical_sifter"
 				type: "item"
 			}]
 			title: "机械筛分机"
-			x: 12.5d
-			y: 0.5d
+			x: 9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["74233E0C5F173C13"]
@@ -611,6 +616,7 @@
 				table_id: 1370906070305640911L
 				type: "random"
 			}]
+			shape: "pentagon"
 			subtitle: "臭臭的"
 			tasks: [{
 				id: "1D2A68AA54F2E189"
@@ -618,8 +624,8 @@
 				type: "item"
 			}]
 			title: "牧场"
-			x: 11.5d
-			y: 1.0d
+			x: 6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["09DF40B0DDF4F2BF"]
@@ -644,8 +650,8 @@
 					type: "loot"
 				}
 			]
-			shape: "diamond"
-			size: 2.0d
+			shape: "pentagon"
+			size: 1.0d
 			subtitle: "一个好的涡轮转子，能够让你的涡轮发挥出最好的效果"
 			tasks: [
 				{
@@ -682,8 +688,8 @@
 				}
 			]
 			title: "机械蒸汽涡轮"
-			x: 9.5d
-			y: -2.0d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5C28BC01BE19B19E"]
@@ -706,7 +712,7 @@
 			}]
 			title: "高级焦炉"
 			x: 0.0d
-			y: 4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["09DF40B0DDF4F2BF"]
@@ -725,8 +731,8 @@
 				type: "item"
 			}]
 			title: "烧结窑"
-			x: 8.0d
-			y: -3.5d
+			x: 4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7C142BC6296E6CBF"]
@@ -738,8 +744,8 @@
 				type: "item"
 			}]
 			title: "ULV应力输入箱"
-			x: 8.0d
-			y: -2.0d
+			x: 4.5d
+			y: -4.0d
 		}
 	]
 	title: "钢铁雄心"
