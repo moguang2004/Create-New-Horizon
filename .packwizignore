@@ -1,5 +1,6 @@
 /${quickPlayPath}
 /.vscode/
+/.mimosa/
 /aes/
 /backups/
 /coremods/
@@ -102,6 +103,7 @@ config/*
 !config/inventoryhud-client.toml
 !config/jei/jei-client.ini
 !config/ctnhchangelog-client.toml
+!config/bcc-common.toml
 !config/ali
 !config/gtmqol.json
 !config/openloader

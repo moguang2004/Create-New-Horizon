@@ -5,6 +5,7 @@ packwiz-installer.jar
 .cache/
 __pycache__/
 /.github/localization/quests/
+.mimosa/
 
 /Xaero*/
 /daimashili.ini
@@ -137,6 +138,7 @@ config/*
 !config/twilightforest-common.toml
 !config/sophisticatedcore-common.toml
 !config/ctnhchangelog-client.toml
+!config/bcc-common.toml
 !config/tconstruct-common.toml
 !config/inventoryhud-client.toml
 !config/merequester-common.toml
