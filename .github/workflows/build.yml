@@ -70,6 +70,7 @@ jobs:
           MODPACK_VERSION="${{ steps.meta.outputs.version }}"
           sed -i "s/^title=\(.*\)/title=\1 | v$MODPACK_VERSION/" kubejs/config/client.properties
           sed -i "s/^ModpackVersion = \".*\"/ModpackVersion = \"$MODPACK_VERSION\"/" config/ctnhchangelog-client.toml
+          sed -i "s/^modpackVersion = \".*\"/modpackVersion = \"$MODPACK_VERSION\"/" config/bcc-common.toml
 
       - name: Export and unzip
         run: |
@@ -172,6 +173,11 @@ jobs:
         run: |
           ./packwiz refresh
           java -jar scripts/action/packwiz-installer-bootstrap.jar ./pack.toml
+
+      - name: Patch server version texts
+        run: |
+          MODPACK_VERSION="${{ steps.meta.outputs.version }}"
+          sed -i "s/^modpackVersion = \".*\"/modpackVersion = \"$MODPACK_VERSION\"/" config/bcc-common.toml
 
       - name: Remove client-only mods + pw metadata
         run: |
