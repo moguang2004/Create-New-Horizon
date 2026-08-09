@@ -222,6 +222,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			subtitle: "MV电路（手搓版）"
 			tasks: [{
 				id: "3D3B26CBE9800D76"
