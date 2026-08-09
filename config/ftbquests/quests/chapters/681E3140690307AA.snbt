@@ -98,7 +98,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["44C7FE559ECFB2EB"]
 			description: [
 				"&4别把附魔有“绑定诅咒”的物品装备到身上然后死亡"
 				"&r这俩机制会冲突，然后对你的内存进行爆破！卡死！呃啊！"
@@ -114,8 +113,8 @@
 				type: "checkmark"
 			}]
 			title: "板板会收好你的物品"
-			x: -4.0d
-			y: -1.5d
+			x: -9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -200,8 +199,8 @@
 				type: "checkmark"
 			}]
 			title: "连锁挖矿"
-			x: -3.5d
-			y: 11.0d
+			x: -3.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7500E7310C70727B"]
@@ -219,8 +218,8 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 9.0d
+			x: -6.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -292,8 +291,8 @@
 				type: "item"
 			}]
 			title: "皮革"
-			x: -10.5d
-			y: 12.0d
+			x: -10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -356,8 +355,8 @@
 				title: "挖矿"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: 9.0d
+			x: -3.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -392,8 +391,8 @@
 				type: "item"
 			}]
 			title: "种田"
-			x: -6.5d
-			y: 11.0d
+			x: -6.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4B11E32ACA7BC6FA"]
@@ -441,8 +440,8 @@
 				}
 			]
 			title: "矿物"
-			x: -3.5d
-			y: 13.0d
+			x: -3.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
@@ -479,8 +478,8 @@
 				}
 			]
 			title: "矿物锭"
-			x: -1.5d
-			y: 9.0d
+			x: -1.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -502,8 +501,8 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 9.0d
+			x: -9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["42BC9DB741D0AD70"]
@@ -521,8 +520,8 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 9.5d
+			x: -10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
@@ -533,20 +532,20 @@
 			id: "7FA90252C6CC19F0"
 			rewards: [{
 				count: 16
-				id: "3531E484EFE0DA86"
-				item: "gtceu:andesite_alloy_ingot"
+				id: "21B2712168A767A0"
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			shape: "gear"
 			size: 3.0d
 			subtitle: "记得收集安山岩呀~"
 			tasks: [{
-				id: "19245BF7A4D48BFB"
-				item: "gtceu:andesite_alloy_ingot"
+				id: "5674797F92F60D98"
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 9.0d
+			x: 1.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["42BC9DB741D0AD70"]
@@ -573,11 +572,10 @@
 				type: "item"
 			}]
 			title: "要致富，先撸树"
-			x: -11.0d
-			y: 8.5d
+			x: -10.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["44C7FE559ECFB2EB"]
 			description: ["{许多物品的配方可能与原版发生了一些变动，请大家在游玩时注意多查看EMI。同时，对于科技包的新手，每一个任务的描述都是十分重要的，可以&a帮助你更快理解游戏的基本玩法和流程&r，也请大家多多关注！}"]
 			hide_dependency_lines: true
 			icon: "botania:crafting_halo"
@@ -631,8 +629,8 @@
 				item: "rehooked:wood_hook"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 7.0d
+			x: -9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -692,8 +690,8 @@
 				title: "从此开始你的CTNH之旅"
 				type: "checkmark"
 			}]
-			x: -12.5d
-			y: 9.0d
+			x: -12.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
@@ -710,8 +708,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 9.0d
+			x: -7.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["09C344717F4BAD6C"]
@@ -740,8 +738,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
-			y: 11.0d
+			x: -9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4157A965AA4E18D2"]
@@ -777,8 +775,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 11.0d
+			x: -4.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
@@ -802,8 +800,8 @@
 				title: "在急着推进主线之前，先感受一下这个世界吧"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: 7.0d
+			x: -6.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
@@ -822,8 +820,8 @@
 				value: 10L
 			}]
 			title: "蜘蛛猎人"
-			x: -9.5d
-			y: 12.0d
+			x: -9.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -844,8 +842,8 @@
 				title: "床"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 13.0d
+			x: -8.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
@@ -864,8 +862,8 @@
 				title: "羊毛"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 12.0d
+			x: -8.0d
+			y: 13.5d
 		}
 		{
 			description: ["{如果你在晚上遇到一道闪电从天而降，那就是神化小Boss刷新了}"]
@@ -882,8 +880,8 @@
 				title: "神化小Boss"
 				type: "checkmark"
 			}]
-			x: -8.0d
-			y: 7.0d
+			x: -7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5BA86B01337A91D5"]
@@ -905,8 +903,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.0d
+			x: -1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1B4FFE71B4C66E14"]
@@ -929,8 +927,8 @@
 				type: "checkmark"
 			}]
 			title: "背起行囊"
-			x: -3.5d
-			y: 7.0d
+			x: -3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["44C7FE559ECFB2EB"]
@@ -975,8 +973,8 @@
 				title: "维度封锁"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 7.0d
+			x: -4.5d
+			y: 8.5d
 		}
 		{
 			description: [
@@ -1028,8 +1026,8 @@
 				type: "item"
 			}]
 			title: "僵尸猎人"
-			x: -10.5d
-			y: 11.0d
+			x: -10.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
@@ -1048,8 +1046,8 @@
 				type: "item"
 			}]
 			title: "骷髅猎人"
-			x: -8.5d
-			y: 11.0d
+			x: -8.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["31554E021ECE6572"]
@@ -1070,11 +1068,10 @@
 				value: 1L
 			}]
 			title: "远方来客"
-			x: -10.5d
-			y: 13.0d
+			x: -10.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["44C7FE559ECFB2EB"]
 			description: [
 				"多屯，别总想着在做出某个部件后就能马上用更省材料的方式批量生产这个部件，低成本生产通常只会出现在跨阶段后。"
 				"把原料们做成块，或者放在&b抽屉&r里，能很好地节约你的格子！"
@@ -1089,18 +1086,17 @@
 				item: "functionalstorage:oak_1"
 				type: "item"
 			}]
-			size: 2.0d
+			size: 1.0d
 			subtitle: "在绝大多数时候，你需要的各种半成品以及他们的材料量消耗都是以组为单位"
 			tasks: [{
 				id: "764380D65553A750"
 				title: "多囤积材料！"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["6709D9DF2EA0432B"]
 			description: [
 				"有些物品会在描述里有标红的&4“危险物质”&r字样，还伴有各种不同的症状。（包括但不限于常驻饥饿效果、减少血上限等）"
 				""
@@ -1117,11 +1113,10 @@
 				title: "危险物质"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: 5.0d
+			x: -6.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["44C7FE559ECFB2EB"]
 			description: [
 				"作用分划重点和避免歧义两类"
 				"划重点："
@@ -1142,8 +1137,8 @@
 				type: "checkmark"
 			}]
 			title: "为什么任务里的某些词有不一样的颜色？"
-			x: -2.5d
-			y: 0.0d
+			x: -6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1FB23D66088398BC"]

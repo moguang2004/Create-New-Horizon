@@ -639,23 +639,6 @@
 			y: -2.0d
 		}
 		{
-			id: "01345F4AD0D11E47"
-			subtitle: "代弓！"
-			tasks: [{
-				id: "6E8FFEA558CE97F6"
-				item: {
-					Count: 1
-					id: "alexscaves:dreadbow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: -1.0d
-		}
-		{
 			id: "087D0FA645D19AC2"
 			subtitle: "可以存储你不用的时间（别给gt机器加速）"
 			tasks: [{
@@ -1597,16 +1580,6 @@
 			}]
 			x: 11.0d
 			y: 6.0d
-		}
-		{
-			id: "784F5F1EEE68764D"
-			tasks: [{
-				id: "19EDDD249E978A85"
-				item: "toolbelt:belt"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -3.0d
 		}
 	]
 	title: "实用小工具"

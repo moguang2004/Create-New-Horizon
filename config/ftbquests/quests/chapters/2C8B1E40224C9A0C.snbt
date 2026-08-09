@@ -11,142 +11,65 @@
 			id: "797E2E6DBDE8F61A"
 			linked_quest: "3F2A5A509F9DF84B"
 			x: 0.5d
-			y: 8.5d
+			y: 6.5d
 		}
 		{
 			id: "260559B80CBCB8CB"
 			linked_quest: "4DCA7E4E57817E0A"
 			x: 0.5d
-			y: 10.5d
+			y: 8.5d
 		}
 		{
 			id: "1BC0D7E79DFD147D"
 			linked_quest: "699743A94DF7E0B8"
 			x: 0.5d
-			y: 12.5d
+			y: 10.5d
 		}
 		{
 			id: "73DE5C12F0317677"
 			linked_quest: "3123CD3DCE3598C8"
 			shape: "gear"
 			x: 0.5d
-			y: 14.5d
+			y: 12.5d
 		}
 		{
 			id: "216F2BD2DF704328"
 			linked_quest: "277F8827A9281E7E"
 			shape: "gear"
 			x: 1.5d
-			y: 14.5d
+			y: 12.5d
 		}
 		{
 			id: "5520D68F66A3AD4B"
 			linked_quest: "40AA9B96695831CF"
 			shape: "gear"
 			x: 2.5d
-			y: 14.5d
+			y: 12.5d
 		}
 		{
 			id: "6F19EDA960DE7041"
 			linked_quest: "687AF4CCD52B0FE6"
 			shape: "gear"
 			x: 3.5d
-			y: 14.5d
+			y: 12.5d
 		}
 		{
 			id: "135EDF7BFA590C99"
 			linked_quest: "419F454F08E12428"
 			shape: "gear"
 			x: 4.5d
-			y: 14.5d
+			y: 12.5d
 		}
 		{
 			id: "12FA7F86614A9E48"
 			linked_quest: "260AE6CCCCEE77EB"
 			x: 0.5d
-			y: 6.5d
+			y: 4.5d
 		}
 	]
 	quests: [
 		{
-			dependencies: ["04E2C1AE56B3C673"]
-			id: "201D7F340F8ED187"
-			subtitle: "探索磁场洞穴"
-			tasks: [{
-				biome: "alexscaves:magnetic_caves"
-				icon: "alexscaves:telecore"
-				id: "4EFBD6F02E3100E4"
-				title: "Magnetic Cave"
-				type: "biome"
-			}]
-			x: 5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["04E2C1AE56B3C673"]
-			id: "7A1D738315BBD040"
-			subtitle: "探索渊海陷窟"
-			tasks: [{
-				biome: "alexscaves:abyssal_chasm"
-				icon: "alexscaves:tripodfish"
-				id: "44C166B59837027D"
-				title: "深渊"
-				type: "biome"
-			}]
-			x: 8.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["04E2C1AE56B3C673"]
-			id: "11EDB5B9EB1B6554"
-			subtitle: "探索毒化洞穴"
-			tasks: [{
-				biome: "alexscaves:toxic_caves"
-				icon: {
-					Count: 1
-					id: "alexscaves:hazmat_mask"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "58E7619E76BCD1FD"
-				title: "辐射故居"
-				type: "biome"
-			}]
-			x: 7.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["04E2C1AE56B3C673"]
-			id: "5420D60930DD31A7"
-			subtitle: "探索原始洞穴"
-			tasks: [{
-				biome: "alexscaves:primordial_caves"
-				icon: "alexscaves:subterranodon_egg"
-				id: "130B42BAD56DC7F2"
-				title: "原始暴动"
-				type: "biome"
-			}]
-			x: 7.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["04E2C1AE56B3C673"]
-			id: "1D74C6CC8DEB6158"
-			subtitle: "探索异寂空谷"
-			tasks: [{
-				biome: "alexscaves:forlorn_hollows"
-				icon: "alexscaves:pure_darkness"
-				id: "2B73ED1E1D3B4239"
-				title: "异寂空谷"
-				type: "biome"
-			}]
-			x: 8.5d
-			y: 3.5d
-		}
-		{
 			dependencies: ["12316D2A6DC56654"]
-			description: ["{    不要试图直接用这个寻找洞穴，否则alex's caves的作者会没收你的指南针}"]
 			id: "60F22A89A32E0DD5"
 			rewards: [{
 				id: "0464156D5866E120"
@@ -157,129 +80,25 @@
 				}
 				type: "item"
 			}]
-			subtitle: "可以用这个寻找洞穴小屋"
+			subtitle: "什么，Alex竟然死了"
 			tasks: [{
 				id: "11E87C8E711D9668"
 				title: "Alex的洞穴"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			title: "Alex的死亡"
+			x: 7.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["11EDB5B9EB1B6554"]
-			id: "79DC0E912343C094"
-			subtitle: "看似是废液，也许比你想象中更有用......"
-			tasks: [{
-				id: "26995EA872B9F0CF"
-				item: "alexscaves:acid_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["60F22A89A32E0DD5"]
-			description: ["{这是一个在任何地方都能生成的小木屋，在这里，你可以找到关于这个模组的一切（当然百科上也可以），想办法破解石板的奥秘，找到那些神秘的群系吧！}"]
-			id: "04E2C1AE56B3C673"
-			size: 1.5d
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "alexscaves:cave_tablet"
-					tag: {
-						CaveBiome: "alexscaves:magnetic_caves"
-					}
-				}
-				id: "017EE0C971925093"
-				structure: "alexscaves:underground_cabin"
-				title: "地下小屋"
-				type: "structure"
-			}]
-			x: 7.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["201D7F340F8ED187"]
-			id: "698DD6984BEF36DA"
-			subtitle: "楠磁铁（bushi）"
-			tasks: [{
-				id: "361EAFF63E4D234D"
-				item: "alexscaves:azure_neodymium_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["201D7F340F8ED187"]
-			id: "1385760305EE11D6"
-			subtitle: "钕磁铁，兄弟！"
-			tasks: [{
-				id: "6D445C64F687BD9D"
-				item: "alexscaves:scarlet_neodymium_ingot"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["1D74C6CC8DEB6158"]
-			id: "5BA57093B05FF586"
-			subtitle: "异化的产物"
-			tasks: [{
-				id: "6D53C642894096AF"
-				item: "alexscaves:dark_tatters"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["468D840ACABE38B9"]
-			id: "47B6886F0A21A4B3"
-			subtitle: "独眼巨人号青春版"
-			tasks: [{
-				id: "6A793431EE457282"
-				item: "alexscaves:submarine"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7A1D738315BBD040"]
-			id: "468D840ACABE38B9"
-			subtitle: "击败幻海妖龙吧！"
-			tasks: [{
-				id: "0C87415E2C0F77A8"
-				item: "alexscaves:enigmatic_engine"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5420D60930DD31A7"]
-			id: "33876D496195E626"
-			subtitle: "随处可见的石头，但你可能会需要他"
-			tasks: [{
-				id: "0C453A3D52229CC8"
-				item: "alexscaves:limestone"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 4.5d
 		}
 		{
 			id: "12316D2A6DC56654"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "126C851BA0B58A46"
 				title: "主世界的探险"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -292,7 +111,7 @@
 				type: "checkmark"
 			}]
 			x: 0.5d
-			y: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
@@ -304,7 +123,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["238828C65F7A855D"]
@@ -315,7 +134,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 8.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["13874B8308122CF2"]
@@ -326,7 +145,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3A53BC5047BB14E1"]
@@ -337,7 +156,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0CEA4875BCF933DB"]
@@ -348,7 +167,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 9.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["69DBA919E9E953A4"]
@@ -359,7 +178,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 8.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3A53BC5047BB14E1"]
@@ -370,7 +189,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 8.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3A53BC5047BB14E1"]
@@ -381,7 +200,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 9.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["699743A94DF7E0B8"]
@@ -393,7 +212,7 @@
 				value: 1L
 			}]
 			x: 3.5d
-			y: 12.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["699743A94DF7E0B8"]
@@ -405,7 +224,7 @@
 				value: 1L
 			}]
 			x: 3.5d
-			y: 11.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["699743A94DF7E0B8"]
@@ -417,82 +236,7 @@
 				value: 1L
 			}]
 			x: 3.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["78B3859F84F3AA0A"]
-			id: "36962504F695FCFC"
-			tasks: [{
-				id: "70A91D0815711CB3"
-				item: "alexscaves:tremorsaurus_egg"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["5420D60930DD31A7"]
-			id: "235CDBD3C87F0A42"
-			tasks: [{
-				id: "7B88100C83CFC53F"
-				item: {
-					Count: 1
-					id: "alexscaves:primitive_club"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["235CDBD3C87F0A42"]
-			id: "78B3859F84F3AA0A"
-			subtitle: "用原始大棒击晕撼地龙后，使用幽静沙拉驯服"
-			tasks: [{
-				id: "434D4ED2459FCE5B"
-				title: "驯服撼地龙"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["36962504F695FCFC"]
-			id: "120B034131B4B115"
-			tasks: [{
-				id: "3D9FADC99F274CFC"
-				item: "alexscaves:tremorzilla_egg"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["120B034131B4B115"]
-			id: "21F2C28308352E7A"
-			subtitle: "在撼地斯拉蛋旁边点燃核弹"
-			tasks: [{
-				id: "41AC51FE3145C03F"
-				title: "孵化撼地斯拉"
-				type: "checkmark"
-			}]
-			x: 7.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7A1D738315BBD040"]
-			id: "3AB02AF64026B96B"
-			subtitle: "可以与深潜者交易，除此之外，所有的精致宝石均可以和他们交易"
-			tasks: [{
-				id: "703008396574629F"
-				item: "alexscaves:pearl"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
@@ -504,7 +248,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3F2A5A509F9DF84B"]
@@ -516,7 +260,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 9.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
@@ -527,21 +271,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["04E2C1AE56B3C673"]
-			id: "320660FB6EEB854B"
-			subtitle: "探索糖果龋洞"
-			tasks: [{
-				biome: "alexscaves:candy_cavity"
-				icon: "alexscaves:gelatin_red"
-				id: "3F08B5065D745D0D"
-				title: "糖果之梦"
-				type: "biome"
-			}]
-			x: 5.5d
-			y: 3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6C03C11D175B2B3D"]
@@ -552,7 +282,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 12.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["663D2E6A96084EEF"]
@@ -563,7 +293,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 11.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -579,7 +309,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 11.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2E0A7083F7B737AF"]
@@ -590,7 +320,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 13.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6CABD9974D22EF12"]
@@ -602,7 +332,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 13.5d
+			y: 11.5d
 		}
 		{
 			hide_dependency_lines: false
@@ -615,7 +345,7 @@
 				type: "dimension"
 			}]
 			x: 0.5d
-			y: 6.5d
+			y: 4.5d
 		}
 	]
 	title: "大千世界"

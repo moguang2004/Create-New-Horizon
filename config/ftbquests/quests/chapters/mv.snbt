@@ -836,7 +836,7 @@
 			id: "477E8A2397016E0B"
 			tasks: [{
 				id: "37A9D48964CF8180"
-				item: "gtceu:vibrant_alloy_ingot"
+				item: "ctnhcore:vibrant_alloy_ingot"
 				type: "item"
 			}]
 			x: 10.5d
@@ -845,14 +845,16 @@
 		{
 			dependencies: ["477E8A2397016E0B"]
 			id: "65C365115468BF4D"
+			shape: "heart"
+			size: 1.5d
 			subtitle: "HV超导"
 			tasks: [{
 				id: "5819C06388775C03"
-				item: "gtceu:vibrant_alloy_single_wire"
+				item: "ctnhcore:vibrant_alloy_single_wire"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7142680A93861DB2"]
@@ -1024,8 +1026,8 @@
 		{
 			id: "1CD250F70B566174"
 			tasks: [{
-				id: "7A77BF39C11C0BF6"
-				item: "gtceu:soularium_ingot"
+				id: "57308DA8D5616A87"
+				item: "ctnhcore:soularium_ingot"
 				type: "item"
 			}]
 			x: 4.5d
@@ -1154,7 +1156,7 @@
 				item: "gtceu:mv_assembler"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: 6.0d
 		}
 		{
