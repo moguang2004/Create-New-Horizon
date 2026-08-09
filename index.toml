@@ -8886,6 +8886,11 @@ hash = "53e68901188009862563149dcd8415106f8ab125f25995831729a7512cc953fa"
 metafile = true
 
 [[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "a04ef61e1fbb9f123034b8016877a45ac3248f47cb53a528d0436a03924073a9"
+metafile = true
+
+[[files]]
 file = "mods/fast-leaf-decay.pw.toml"
 hash = "3506830be88f698a5840a71de9a4ba1c2fec30a0b290276eda126595c28eb5a0"
 metafile = true
