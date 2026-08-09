@@ -1,15 +1,10 @@
 name: Refresh quest localization
 
 on:
-  push:
-    paths:
-      - 'config/ftbquests/quests/**'
-      - 'config/openloader/resources/ctnh_quests/**'
-      - '.github/localization/**'
   workflow_dispatch:
     inputs:
       old_commit:
-        description: Previous commit SHA for incremental en_us updates
+        description: Previous commit SHA for incremental locale updates
         required: false
         default: ''
 
@@ -38,11 +33,7 @@ jobs:
 
       - name: Generate translation keys
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            python .github/localization/ftbquest_localization.py push "${{ github.event.before }}"
-          else
-            python .github/localization/ftbquest_localization.py push "${{ inputs.old_commit }}"
-          fi
+          python .github/localization/ftbquest_localization.py push "${{ inputs.old_commit }}"
           python .github/localization/chinese_converter.py
 
       - name: Refresh packwiz index
