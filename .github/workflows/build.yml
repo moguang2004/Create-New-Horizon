@@ -172,6 +172,11 @@ jobs:
           ./packwiz refresh
           java -jar scripts/action/packwiz-installer-bootstrap.jar ./pack.toml
 
+      - name: Patch server version texts
+        run: |
+          MODPACK_VERSION="${{ steps.meta.outputs.version }}"
+          sed -i "s/^modpackVersion = \".*\"/modpackVersion = \"$MODPACK_VERSION\"/" config/bcc-common.toml
+
       - name: Remove client-only mods + pw metadata
         run: |
           mapfile -t prefixes < scripts/action/.clientonlymodlist

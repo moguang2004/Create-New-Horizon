@@ -1,6 +1,6 @@
 name = "Better Compatibility Checker"
 filename = "BetterCompatibilityChecker-forge-4.0.8+mc1.20.1.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
