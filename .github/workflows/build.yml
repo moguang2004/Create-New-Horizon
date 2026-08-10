@@ -72,9 +72,11 @@ jobs:
 
       - name: Pull latest translation pack
         if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.sync_translation_pack == true)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TRANSLATIONS_REPO="CTNH-Team/CTNH-Translations"
-          ASSET_URL="$(gh api "repos/${TRANSLATIONS_REPO}/releases/latest" --jq '.assets[] | select(.name | startswith("CTNH-lang-all-locales-") and endswith(".zip")) | .browser_download_url' 2>/dev/null | head -n1)"
+          ASSET_URL="$(gh api "repos/${TRANSLATIONS_REPO}/releases/latest" --jq '.assets[] | select(.name | startswith("CTNH-lang-all-locales-") and endswith(".zip")) | .browser_download_url' | head -n1)"
           if [ -z "${ASSET_URL}" ]; then
             echo "::warning::No all-locales translation asset in latest release of ${TRANSLATIONS_REPO}; skipping."
             exit 0
