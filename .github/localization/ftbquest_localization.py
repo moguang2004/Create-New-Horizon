@@ -10,6 +10,7 @@ from __future__ import annotations
 import ast
 import json
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -89,12 +90,30 @@ def escape_string(text: str) -> str:
 
 
 def text_filter(text: str) -> bool:
-    """Skip empty strings and FTB Quests' inline markup-only values."""
+    """Skip empty strings, existing key references, and markup directives.
+
+    Author-written ``{Chinese}`` text must still be key-ized; only values that
+    are already translation keys (``{ctnh.*}``, ``{ftbquests.*}``) or markup
+    directives (``{image:...}``, ``{https://...}``) are left untouched.
+    """
     if not text:
         return False
     if text.startswith("{") and text.endswith("}"):
-        return False
+        inner = text[1:-1]
+        if inner.startswith("ctnh.") or inner.startswith("ftbquests."):
+            return False
+        if re.match(r"^[A-Za-z_][A-Za-z0-9_]*:", inner):
+            return False
     return True
+
+
+def strip_brace_wrap(text: str) -> str:
+    """Unwrap author-written {Chinese} text so the stored value is plain text."""
+    if text.startswith("{") and text.endswith("}"):
+        inner = text[1:-1]
+        if not inner.startswith("ctnh.") and not inner.startswith("ftbquests."):
+            return inner
+    return text
 
 
 def _is_string_list(value: object) -> bool:
@@ -147,7 +166,7 @@ def _convert(data: Compound, lang_key: str) -> None:
 
         if isinstance(value, String) and text_filter(value):
             translation_key = f"{lang_key}.{key}"
-            SOURCE_KEYS[translation_key] = escape_string(value)
+            SOURCE_KEYS[translation_key] = escape_string(strip_brace_wrap(value))
             data[key] = snbt.String(f"{{{translation_key}}}")
             continue
 
@@ -171,10 +190,12 @@ def _convert(data: Compound, lang_key: str) -> None:
                         f"{lang_key}.{key}{text_index}.rich_text{rich_index}"
                     )
                     if isinstance(item, str):
-                        SOURCE_KEYS[translation_key] = escape_string(item)
+                        SOURCE_KEYS[translation_key] = escape_string(strip_brace_wrap(item))
                         parsed_list[item_index] = {"translate": translation_key}
                     else:
-                        SOURCE_KEYS[translation_key] = escape_string(item.pop("text"))
+                        SOURCE_KEYS[translation_key] = escape_string(
+                            strip_brace_wrap(item.pop("text"))
+                        )
                         item["translate"] = translation_key
                 if parsed_list:
                     if parsed_list[0] != "":
@@ -182,7 +203,7 @@ def _convert(data: Compound, lang_key: str) -> None:
                     value[index] = json.dumps(parsed_list, ensure_ascii=False)
             else:
                 translation_key = f"{lang_key}.{key}{text_index}"
-                SOURCE_KEYS[translation_key] = escape_string(line)
+                SOURCE_KEYS[translation_key] = escape_string(strip_brace_wrap(line))
                 value[index] = snbt.String(f"{{{translation_key}}}")
 
 
