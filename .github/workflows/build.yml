@@ -9,6 +9,11 @@ on:
         required: false
         type: boolean
         default: false
+      sync_translation_pack:
+        description: Pull latest CTNH-Translations all-locales pack into openloader/resources
+        required: false
+        type: boolean
+        default: true
   release:
     types: [published]
 
@@ -64,6 +69,19 @@ jobs:
           python .github/localization/chinese_converter.py
           rm -rf config/ftbquests/quests
           cp -a .github/localization/quests config/ftbquests/quests
+
+      - name: Pull latest translation pack
+        if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.sync_translation_pack == true)
+        run: |
+          TRANSLATIONS_REPO="mmyddd/CTNH-Translations"
+          ASSET_URL="$(gh api "repos/${TRANSLATIONS_REPO}/releases/latest" --jq '.assets[] | select(.name | startswith("CTNH-lang-all-locales-") and endswith(".zip")) | .browser_download_url' 2>/dev/null | head -n1)"
+          if [ -z "${ASSET_URL}" ]; then
+            echo "::warning::No all-locales translation asset in latest release of ${TRANSLATIONS_REPO}; skipping."
+            exit 0
+          fi
+          mkdir -p config/openloader/resources
+          curl -sL -o config/openloader/resources/CTNH-lang-all-locales.zip "${ASSET_URL}"
+          echo "Pulled ${ASSET_URL} -> config/openloader/resources/CTNH-lang-all-locales.zip"
 
       - name: Patch client version texts
         run: |
