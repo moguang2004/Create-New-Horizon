@@ -67,6 +67,10 @@ jobs:
           python -m pip install --disable-pip-version-check -r .github/localization/requirements.txt
           python .github/localization/ftbquest_localization.py
           python .github/localization/chinese_converter.py
+          # Non-Chinese quest locales are shipped by the CTNH translation pack.
+          rm -f config/openloader/resources/ctnh_quests/assets/ctnh/lang/en_us.json \
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/ja_jp.json \
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/ru_ru.json
           rm -rf config/ftbquests/quests
           cp -a .github/localization/quests config/ftbquests/quests
 
@@ -186,6 +190,10 @@ jobs:
           python -m pip install --disable-pip-version-check -r .github/localization/requirements.txt
           python .github/localization/ftbquest_localization.py
           python .github/localization/chinese_converter.py
+          # Non-Chinese quest locales are shipped by the CTNH translation pack.
+          rm -f config/openloader/resources/ctnh_quests/assets/ctnh/lang/en_us.json \
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/ja_jp.json \
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/ru_ru.json
           rm -rf config/ftbquests/quests
           cp -a .github/localization/quests config/ftbquests/quests
 

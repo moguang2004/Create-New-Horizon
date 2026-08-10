@@ -249,6 +249,21 @@ def main() -> None:
     shutil.rmtree(QUEST_LOCALIZED_PATH, ignore_errors=True)
     QUEST_LOCALIZED_PATH.mkdir(parents=True, exist_ok=True)
     LANG_FILE_PATH.mkdir(parents=True, exist_ok=True)
+    # The ctnh_quests resource pack is a per-build artifact (not tracked in
+    # git); keep it loadable by OpenLoader for the Chinese quest locales.
+    quest_pack_dir = LANG_FILE_PATH.parent.parent.parent
+    quest_pack_dir.mkdir(parents=True, exist_ok=True)
+    (quest_pack_dir / "pack.mcmeta").write_text(
+        json.dumps(
+            {
+                "id": "ctnh_quests",
+                "pack": {"description": "CTNH quest localization", "pack_format": 15},
+            },
+            ensure_ascii=False,
+            indent=4,
+        ),
+        encoding="utf-8",
+    )
     SOURCE_KEYS.clear()
 
     source_files = sorted(QUEST_PATH.rglob("*.snbt"))
