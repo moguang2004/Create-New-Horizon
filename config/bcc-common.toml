@@ -1,11 +1,14 @@
-[general]
+
 #General settings
-#The CurseForge project ID for the modpack
-modpackProjectID = 1093394
-#The name of the modpack
-modpackName = "Create New Horizon"
-#The version of the modpack
-modpackVersion = "1.5.0"
-#Use the metadata.json to determine the modpack version
-#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
-useMetadata = false
+[general]
+	#The CurseForge project ID for the modpack
+	#Range: > 0
+	modpackProjectID = 1093394
+	#The name of the modpack
+	modpackName = "Create New Horizon"
+	#The version of the modpack
+	modpackVersion = "1.5.0"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false
+

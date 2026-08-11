@@ -55,6 +55,7 @@ natives-*/
 /kubejs/probe/
 /.mixin.out/
 /TrashSlotSaveState.json
+/lightspeed-cache/
 
 resourcepacks/*
 !resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip

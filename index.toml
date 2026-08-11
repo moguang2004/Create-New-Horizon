@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".cache/changelog_cache_52d8cb245ffd67e0.json"
+hash = "2902bf91b10de7a74627e283df5936b42c85a0521793262e63ef12c491deff6e"
+
+[[files]]
+file = ".cache/changelog_cache_52d8cb245ffd67e0.json.etag"
+hash = "d983a1dcc7a95789f3c34a9e6ef6a4e619cb5d867bf7eb64e0066689643c7092"
+
+[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -474,7 +482,7 @@ hash = "1512d406cadc2d6ddfb2e687aed16f91bf9043ff79d38ccaba40ee7ca91573e7"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "0fdbb28203e2b155c797c8ecea25707457bdb9c9cab5facf5ef1c07009ad70a5"
+hash = "3622ebbb958adabba280f96b501a4a7e20e9698d1a3f8d25750e5d60cfcae33d"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
@@ -4781,34 +4789,6 @@ file = "config/openloader/data/kubejs/pack.mcmeta"
 hash = "a27949afeee533c6e3e71dca90098a577002b5c3211a4b7ee46f386f1d4d049b"
 
 [[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/en_us.json"
-hash = "c856a2563f00c7f30f67503c625a132d278a6a97495585fc1b0f9c237fd18a34"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/ja_jp.json"
-hash = "c856a2563f00c7f30f67503c625a132d278a6a97495585fc1b0f9c237fd18a34"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/ru_ru.json"
-hash = "c856a2563f00c7f30f67503c625a132d278a6a97495585fc1b0f9c237fd18a34"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/zh_cn.json"
-hash = "c856a2563f00c7f30f67503c625a132d278a6a97495585fc1b0f9c237fd18a34"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/zh_hk.json"
-hash = "cadc4fa8c71f97c7f3338e5a302f9f3f0d62e982933da5cc88f6e1314717bb4e"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/zh_tw.json"
-hash = "7c149e5523cf797022b43648acd272c3514cd10ddda55e370febad58fbc56b62"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/pack.mcmeta"
-hash = "c3298a34346e1adc9d1fe32b8744fbec58158a4d1033f34ce07c09fc248a5837"
-
-[[files]]
 file = "config/openloader/resources/kubejs/assets/ad_astra/lang/zh_cn.json"
 hash = "6178352353c9ab2993c64faf853603d8d676f9dca6ed5d1a068299f44994e493"
 
@@ -9106,6 +9086,11 @@ hash = "4991ee25978a49afc20c8d5ca163f809d4345a95071d00db4d08e73cc9e5a6fc"
 metafile = true
 
 [[files]]
+file = "mods/lightspeedre-launch-optimizations.pw.toml"
+hash = "4654d2e6ae0daf726a2b1c7a7d1847ae28267b8a53d425abddb6b121708a3bd2"
+metafile = true
+
+[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "60af8798dbf3e300a5af44125595afcd5d1e70072448444156364f222cc03e98"
 metafile = true
@@ -9497,7 +9482,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "830317c9b8448737dd9d58faa42ad5aa07c5bec3bbe4f6668c87b5b9bcca61f2"
+hash = "a9eef5f6f1fdc2157040eeabe12142995780fca7a614f9704b70b6a0eea397d4"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
