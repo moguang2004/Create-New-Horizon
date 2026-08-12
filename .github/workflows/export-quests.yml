@@ -1,0 +1,77 @@
+name: Export quest translation pack
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up localization Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Read metadata
+        id: meta
+        run: |
+          python - <<'PY'
+          import os, tomllib
+          from pathlib import Path
+
+          data = tomllib.loads(Path('pack.toml').read_text(encoding='utf-8'))
+          version = data.get('version', '')
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+              f.write(f"version={version}\n")
+          PY
+
+      - name: Install localization dependencies
+        run: |
+          python -m pip install --disable-pip-version-check -r .github/localization/requirements.txt
+
+      - name: Generate quest translation keys and language resources
+        run: |
+          python .github/localization/ftbquest_localization.py
+          python .github/localization/chinese_converter.py
+
+      - name: Pull latest translation pack
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TRANSLATIONS_REPO="CTNH-Team/CTNH-Translations"
+          ASSET_URL="$(gh api "repos/${TRANSLATIONS_REPO}/releases/latest" --jq '.assets[] | select(.name | startswith("CTNH-lang-all-locales-") and endswith(".zip")) | .browser_download_url' | head -n1)"
+          if [ -z "${ASSET_URL}" ]; then
+            echo "::warning::No all-locales translation asset in latest release of ${TRANSLATIONS_REPO}; skipping."
+            exit 0
+          fi
+          curl -sL -o CTNH-lang-all-locales.zip "${ASSET_URL}"
+          echo "Pulled ${ASSET_URL} -> CTNH-lang-all-locales.zip"
+
+      - name: Pack quest files and translation packs
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.meta.outputs.version }}"
+          # Non-Chinese quest locales are shipped by the CTNH translation pack.
+          rm -f config/openloader/resources/ctnh_quests/assets/ctnh/lang/en_us.json \
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/ja_jp.json \
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/ru_ru.json
+          mkdir -p export/ftbquests
+          cp -a .github/localization/quests export/ftbquests/quests
+          cp -a config/openloader/resources/ctnh_quests export/ctnh_quests
+          if [ -f CTNH-lang-all-locales.zip ]; then
+            mv CTNH-lang-all-locales.zip export/
+          fi
+          cd export
+          zip -qr "../CTNH-quest-pack-${VERSION}.zip" .
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CTNH-quest-pack-${{ steps.meta.outputs.version }}.zip
+          path: CTNH-quest-pack-${{ steps.meta.outputs.version }}.zip
