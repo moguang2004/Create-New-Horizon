@@ -9,8 +9,8 @@ on:
         required: false
         type: boolean
         default: false
-      sync_translation_pack:
-        description: Pull latest CTNH-Translations all-locales pack into openloader/resources
+      quest_dev_mode:
+        description: Quest dev mode - skip generating quest translation keys and skip pulling latest CTNH-Translations pack
         required: false
         type: boolean
         default: true
@@ -62,7 +62,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate release quest translations
-        if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.sync_translation_pack == true)
+        if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.quest_dev_mode != true)
         run: |
           python -m pip install --disable-pip-version-check -r .github/localization/requirements.txt
           python .github/localization/ftbquest_localization.py
@@ -75,7 +75,7 @@ jobs:
           cp -a .github/localization/quests config/ftbquests/quests
 
       - name: Pull latest translation pack
-        if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.sync_translation_pack == true)
+        if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.quest_dev_mode != true)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -184,7 +184,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate release quest translations
-        if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.sync_translation_pack == true)
+        if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.quest_dev_mode != true)
         run: |
           python -m pip install --disable-pip-version-check -r .github/localization/requirements.txt
           python .github/localization/ftbquest_localization.py
