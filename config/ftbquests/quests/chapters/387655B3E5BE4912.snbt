@@ -144,7 +144,7 @@
 			id: "30733F339E6E47CE"
 			tasks: [{
 				id: "229516F116F7AD2D"
-				item: "gtceu:rich_soil_dust"
+				item: "ctnhcore:rich_soil_dust"
 				type: "item"
 			}]
 			x: -4.5d
@@ -170,7 +170,7 @@
 			id: "06B1BB32F96710A2"
 			tasks: [{
 				id: "0D042241D5CFECD7"
-				item: "gtceu:ethanol_mixture_bucket"
+				item: "ctnhcore:ethanol_mixture_bucket"
 				type: "item"
 			}]
 			x: -3.5d
@@ -192,7 +192,7 @@
 			id: "0FBB6BA03487D67F"
 			tasks: [{
 				id: "2D6D506C4E94FF0D"
-				item: "gtceu:raw_bio_diesel_bucket"
+				item: "ctnhcore:raw_bio_diesel_bucket"
 				type: "item"
 			}]
 			x: -4.5d
@@ -215,7 +215,7 @@
 			subtitle: "Diggy Diggy Hole！"
 			tasks: [{
 				id: "0D86590B09AEE101"
-				item: "gtceu:lv_miner"
+				item: "ctnhcore:lv_miner"
 				type: "item"
 			}]
 			x: 3.5d
@@ -225,7 +225,7 @@
 			id: "3979018285276884"
 			tasks: [{
 				id: "6CD9D0433C49D89E"
-				item: "gtceu:ev_large_miner"
+				item: "ctnhcore:ev_large_miner"
 				type: "item"
 			}]
 			x: 3.5d

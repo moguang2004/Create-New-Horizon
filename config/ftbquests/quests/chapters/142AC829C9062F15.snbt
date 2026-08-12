@@ -819,7 +819,7 @@
 				}
 				{
 					id: "59A9EC8378FFBD6B"
-					item: "gtceu:primordial_serum_bucket"
+					item: "ctnhbio:primordial_serum_bucket"
 					type: "item"
 				}
 			]
@@ -1170,7 +1170,7 @@
 			subtitle: "④"
 			tasks: [{
 				id: "4FC688B6A8244D17"
-				item: "gtceu:regenerative_fluid_bucket"
+				item: "ctnhbio:regenerative_fluid_bucket"
 				type: "item"
 			}]
 			x: 28.0d
@@ -1182,7 +1182,7 @@
 			subtitle: "①"
 			tasks: [{
 				id: "021255F51F0F29FF"
-				item: "gtceu:hormone_secretion_bucket"
+				item: "ctnhbio:hormone_secretion_bucket"
 				type: "item"
 			}]
 			x: 20.0d
@@ -1194,7 +1194,7 @@
 			subtitle: "②"
 			tasks: [{
 				id: "3AEF831A219F4925"
-				item: "gtceu:bile_bucket"
+				item: "ctnhbio:bile_bucket"
 				type: "item"
 			}]
 			x: 17.0d
@@ -1206,7 +1206,7 @@
 			subtitle: "③"
 			tasks: [{
 				id: "244925CDFBC0DC38"
-				item: "gtceu:volatile_fluid_bucket"
+				item: "ctnhbio:volatile_fluid_bucket"
 				type: "item"
 			}]
 			x: 28.0d
@@ -1228,7 +1228,7 @@
 			id: "5CE6F5155D7D1676"
 			tasks: [{
 				id: "056E73ED61D6B2B6"
-				item: "gtceu:toxin_extract_bucket"
+				item: "ctnhbio:toxin_extract_bucket"
 				type: "item"
 			}]
 			x: 14.5d
@@ -1239,7 +1239,7 @@
 			id: "04957634C0D8068B"
 			tasks: [{
 				id: "377571DE222BA4AE"
-				item: "gtceu:organic_compound_bucket"
+				item: "ctnhbio:organic_compound_bucket"
 				type: "item"
 			}]
 			x: 18.0d
@@ -1250,7 +1250,7 @@
 			id: "4130652E2764851D"
 			tasks: [{
 				id: "56D3A89A46E9AA24"
-				item: "gtceu:healing_compound_bucket"
+				item: "ctnhbio:healing_compound_bucket"
 				type: "item"
 			}]
 			x: 19.0d
@@ -1263,7 +1263,7 @@
 			subtitle: "产物Ⅳ"
 			tasks: [{
 				id: "7C83E68B7B5C6A5E"
-				item: "gtceu:unstable_compound_bucket"
+				item: "ctnhbio:unstable_compound_bucket"
 				type: "item"
 			}]
 			x: 28.0d
@@ -1274,7 +1274,7 @@
 			id: "167D5A423EF90813"
 			tasks: [{
 				id: "6F94087A9261F3D2"
-				item: "gtceu:genetic_compound_bucket"
+				item: "ctnhbio:genetic_compound_bucket"
 				type: "item"
 			}]
 			x: 22.5d
@@ -1285,7 +1285,7 @@
 			id: "4E5947D15F6E41C7"
 			tasks: [{
 				id: "2AA12EEDF29E2B24"
-				item: "gtceu:heterogeneous_compound_bucket"
+				item: "ctnhbio:heterogeneous_compound_bucket"
 				type: "item"
 			}]
 			x: 23.0d
@@ -1302,7 +1302,7 @@
 			subtitle: "产物Ⅱ"
 			tasks: [{
 				id: "2FCBDE48BC64DAD8"
-				item: "gtceu:rejuvenation_serum_bucket"
+				item: "ctnhbio:rejuvenation_serum_bucket"
 				type: "item"
 			}]
 			x: 20.0d
@@ -1318,7 +1318,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "4B024000B42A23F9"
-				item: "gtceu:cleansing_serum_bucket"
+				item: "ctnhbio:cleansing_serum_bucket"
 				type: "item"
 			}]
 			x: 20.0d
@@ -1334,7 +1334,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "1E9E1AE3D66E3627"
-				item: "gtceu:frenzy_serum_bucket"
+				item: "ctnhbio:frenzy_serum_bucket"
 				type: "item"
 			}]
 			x: 24.0d
@@ -1351,7 +1351,7 @@
 			subtitle: "产物Ⅴ"
 			tasks: [{
 				id: "587CCE07884F1DCC"
-				item: "gtceu:primordial_serum_bucket"
+				item: "ctnhbio:primordial_serum_bucket"
 				type: "item"
 			}]
 			x: 24.0d
@@ -1388,7 +1388,7 @@
 			subtitle: "产物Ⅲ"
 			tasks: [{
 				id: "361031ACC932A457"
-				item: "gtceu:ageing_serum_bucket"
+				item: "ctnhbio:ageing_serum_bucket"
 				type: "item"
 			}]
 			x: 22.5d
@@ -1403,7 +1403,7 @@
 			subtitle: "生物线你躲不掉的材料"
 			tasks: [{
 				id: "6F9EEB6C8803A2A1"
-				item: "gtceu:polypyrrole_bucket"
+				item: "ctnhcore:polypyrrole_bucket"
 				type: "item"
 			}]
 			x: 26.0d
@@ -1414,7 +1414,7 @@
 			id: "536F2F6FA743C286"
 			tasks: [{
 				id: "2D8E0CBCF9E94237"
-				item: "gtceu:pyrrole_bucket"
+				item: "ctnhcore:pyrrole_bucket"
 				type: "item"
 			}]
 			x: 26.5d
@@ -1428,7 +1428,7 @@
 			id: "76CD84AF7CBC6031"
 			tasks: [{
 				id: "6DA831BB5E202363"
-				item: "gtceu:fentons_reagent_bucket"
+				item: "ctnhcore:fentons_reagent_bucket"
 				type: "item"
 			}]
 			x: 25.5d
@@ -1513,7 +1513,7 @@
 			subtitle: "产物Ⅰ"
 			tasks: [{
 				id: "0233F439A0158EDB"
-				item: "gtceu:breeding_stimulant_bucket"
+				item: "ctnhbio:breeding_stimulant_bucket"
 				type: "item"
 			}]
 			x: 20.0d
@@ -1585,7 +1585,7 @@
 			id: "33C8E0E3084648BB"
 			tasks: [{
 				id: "5DC006F26F17228A"
-				item: "gtceu:decay_essence_bucket"
+				item: "ctnhbio:decay_essence_bucket"
 				type: "item"
 			}]
 			x: 20.0d

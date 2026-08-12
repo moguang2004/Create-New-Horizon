@@ -954,32 +954,6 @@
 		}
 		{
 			dependencies: ["3D80BAEC0FF08BDD"]
-			id: "5F4AA868BBD57C56"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1D6887E11DD6204E"
-				table_id: 971429564947815603L
-				type: "random"
-			}]
-			subtitle: "更好的布线！"
-			tasks: [
-				{
-					id: "5579937E6ABDE147"
-					item: "gtceu:ev_input_hatch_4x"
-					type: "item"
-				}
-				{
-					id: "4426850699B74CEC"
-					item: "gtceu:ev_output_hatch_4x"
-					type: "item"
-				}
-			]
-			title: "四重仓"
-			x: 3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["3D80BAEC0FF08BDD"]
 			description: ["{    恭喜！能走到这你已经算个合格的石化人了，那么还有没有比高十六烷值柴油更高级的燃料呢？答案是当然！高辛烷值汽油，拥有着1桶3200000的恐怖燃值！但是它的制造不属于柴油系，你要把你的柴油产线通通推倒！}"]
 			id: "211F0DB44621458D"
 			rewards: [{
@@ -1446,7 +1420,7 @@
 			id: "6397FCC9081360A5"
 			tasks: [{
 				id: "251E1F73C6A9AAC8"
-				item: "gtceu:impure_oil_bucket"
+				item: "ctnhcore:impure_oil_bucket"
 				type: "item"
 			}]
 			x: -13.5d
@@ -1484,7 +1458,7 @@
 			id: "7EF838EF4607A41D"
 			tasks: [{
 				id: "5B553B9B0975C1E3"
-				item: "gtceu:pure_bitumen_bucket"
+				item: "ctnhcore:pure_bitumen_bucket"
 				type: "item"
 			}]
 			x: -13.5d
@@ -1495,7 +1469,7 @@
 			id: "01225A51A3963F11"
 			tasks: [{
 				id: "4045D78252AD026A"
-				item: "gtceu:bitumen_bucket"
+				item: "ctnhcore:bitumen_bucket"
 				type: "item"
 			}]
 			x: -14.5d
@@ -1506,7 +1480,7 @@
 			id: "56BA200ABCEABC7A"
 			tasks: [{
 				id: "5D9DA2A1F623728D"
-				item: "gtceu:petroleum_coke_bucket"
+				item: "ctnhcore:petroleum_coke_bucket"
 				type: "item"
 			}]
 			x: -13.5d
@@ -1529,7 +1503,7 @@
 			id: "0858CB89E07BC65D"
 			tasks: [{
 				id: "1ECEDD3402CE53B9"
-				item: "gtceu:petroleum_coke_gem"
+				item: "ctnhcore:petroleum_coke_gem"
 				type: "item"
 			}]
 			x: -13.5d
@@ -1540,7 +1514,7 @@
 			id: "501574CAF685828A"
 			tasks: [{
 				id: "3AFEA4B9DFA82D54"
-				item: "gtceu:emulsified_bitumen_bucket"
+				item: "ctnhcore:emulsified_bitumen_bucket"
 				type: "item"
 			}]
 			x: -14.5d
@@ -1554,7 +1528,7 @@
 			id: "78C907D8AEA05A18"
 			tasks: [{
 				id: "6C0225E8BD53EEFD"
-				item: "gtceu:emulsified_bitumen_slurry_bucket"
+				item: "ctnhcore:emulsified_bitumen_slurry_bucket"
 				type: "item"
 			}]
 			x: -14.5d
@@ -1568,7 +1542,7 @@
 			id: "7AA11BFF6F7D4D48"
 			tasks: [{
 				id: "4153CD7E2BD5C1D8"
-				item: "gtceu:simple_emulgator_bucket"
+				item: "ctnhcore:simple_emulgator_bucket"
 				type: "item"
 			}]
 			x: -12.5d
@@ -1580,7 +1554,7 @@
 			subtitle: "屠刀杀部分动物获得"
 			tasks: [{
 				id: "4149619485BBB7D2"
-				item: "kubejs:tallow"
+				item: "ctnhcore:tallow"
 				type: "item"
 			}]
 			x: -12.5d
@@ -1591,7 +1565,7 @@
 			id: "3F8458C2BA5156BF"
 			tasks: [{
 				id: "1B9FB0543F9BF0F2"
-				item: "gtceu:simple_demulsifier_bucket"
+				item: "ctnhcore:simple_demulsifier_bucket"
 				type: "item"
 			}]
 			x: -13.5d

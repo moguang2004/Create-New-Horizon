@@ -904,7 +904,7 @@
 			subtitle: "极好的布料！"
 			tasks: [{
 				id: "3E81E8A2C38E6E7E"
-				item: "kubejs:space_fabric"
+				item: "ctnhcore:space_fabric"
 				type: "item"
 			}]
 			x: -19.5d
@@ -935,7 +935,7 @@
 			id: "04CED50A5D7434CE"
 			tasks: [{
 				id: "5562405A7AECDC91"
-				item: "gtceu:para_aramid_foil"
+				item: "ctnhcore:para_aramid_foil"
 				type: "item"
 			}]
 			x: -22.5d
@@ -968,7 +968,7 @@
 			id: "27BE8B7164A2DA98"
 			tasks: [{
 				id: "3D2FCC1351DDBFC9"
-				item: "gtceu:fiber_glass_dust"
+				item: "ctnhcore:fiber_glass_dust"
 				type: "item"
 			}]
 			x: -22.5d
@@ -1011,7 +1011,7 @@
 			id: "0A4C17D588D4AF75"
 			tasks: [{
 				id: "42111C45478AFC03"
-				item: "gtceu:nitroaniline_bucket"
+				item: "ctnhcore:nitroaniline_bucket"
 				type: "item"
 			}]
 			x: -26.5d
@@ -1022,7 +1022,7 @@
 			id: "4621D3570BFF6D64"
 			tasks: [{
 				id: "61EC0F1DE9649A04"
-				item: "gtceu:para_phenylenediamine_bucket"
+				item: "ctnhcore:para_phenylenediamine_bucket"
 				type: "item"
 			}]
 			x: -24.5d
@@ -1036,7 +1036,7 @@
 			id: "103CE9721B2403ED"
 			tasks: [{
 				id: "6582754DFDF4A52C"
-				item: "gtceu:terephthaloyl_chloride_bucket"
+				item: "ctnhcore:terephthaloyl_chloride_bucket"
 				type: "item"
 			}]
 			x: -24.5d
@@ -1050,7 +1050,7 @@
 			id: "02A401319503567F"
 			tasks: [{
 				id: "65E25262DBF3EF41"
-				item: "gtceu:terephthalic_acid_bucket"
+				item: "ctnhcore:terephthalic_acid_bucket"
 				type: "item"
 			}]
 			x: -26.5d
@@ -1061,7 +1061,7 @@
 			id: "47200B176AC31800"
 			tasks: [{
 				id: "46F27DFA61DD6729"
-				item: "gtceu:bis_trichloromethyl_benzene_bucket"
+				item: "ctnhcore:bis_trichloromethyl_benzene_bucket"
 				type: "item"
 			}]
 			x: -26.5d
@@ -1082,7 +1082,7 @@
 			subtitle: "不需要很多"
 			tasks: [{
 				id: "7EE96913B6D55662"
-				item: "gtceu:co_mn_br_catalyst_bucket"
+				item: "ctnhcore:co_mn_br_catalyst_bucket"
 				type: "item"
 			}]
 			x: -28.5d
@@ -1102,7 +1102,7 @@
 			id: "2ABB6571FA2367C6"
 			tasks: [{
 				id: "3243B547769F4204"
-				item: "gtceu:cellulose_dust"
+				item: "ctnhcore:cellulose_dust"
 				type: "item"
 			}]
 			x: -24.5d
@@ -1145,7 +1145,7 @@
 			id: "1483311F032C96CB"
 			tasks: [{
 				id: "1D6ED8214F7DB6D2"
-				item: "gtceu:titanium_tetrachloride_v_bucket"
+				item: "ctnhcore:titanium_tetrachloride_v_bucket"
 				type: "item"
 			}]
 			x: -7.0d
@@ -1167,7 +1167,7 @@
 			id: "1B795CD06F89FD31"
 			tasks: [{
 				id: "41517B29A39EA311"
-				item: "gtceu:refining_titanium_tetrachloride_bucket"
+				item: "ctnhcore:refining_titanium_tetrachloride_bucket"
 				type: "item"
 			}]
 			x: -7.0d
@@ -1252,7 +1252,7 @@
 			invisible: true
 			tasks: [{
 				id: "5610E9ED9C07C5A5"
-				item: "gtceu:para_aramid_foil"
+				item: "ctnhcore:para_aramid_foil"
 				type: "item"
 			}]
 			x: -21.0d
@@ -1276,7 +1276,7 @@
 			invisible: true
 			tasks: [{
 				id: "6ED8EC939335234E"
-				item: "gtceu:fiber_glass_dust"
+				item: "ctnhcore:fiber_glass_dust"
 				type: "item"
 			}]
 			x: -21.0d
@@ -1325,7 +1325,7 @@
 			id: "79CF01CFCC2FF596"
 			tasks: [{
 				id: "5FEB9FCE490B8E6F"
-				item: "gtceu:nether_essence_crystal_fluid_bucket"
+				item: "ctnhcore:nether_essence_crystal_fluid_bucket"
 				type: "item"
 			}]
 			x: -15.5d
@@ -1504,7 +1504,7 @@
 			subtitle: "剩余的残渣，但里面有你需要处理的部分"
 			tasks: [{
 				id: "56004CDC3887FB01"
-				item: "gtceu:platinum_group_residue_dust"
+				item: "ctnhcore:platinum_group_residue_dust"
 				type: "item"
 			}]
 			x: -24.5d
@@ -1531,7 +1531,7 @@
 			subtitle: "传统的王水溶金的步骤"
 			tasks: [{
 				id: "502BB82E49DF0DAD"
-				item: "gtceu:gold_platinum_palladium_acid_solution_bucket"
+				item: "ctnhcore:gold_platinum_palladium_acid_solution_bucket"
 				type: "item"
 			}]
 			x: -19.5d
@@ -1558,7 +1558,7 @@
 			subtitle: "这一步需要循环，为了防止其溶液中剩余的NOCL2氧化之后的试剂"
 			tasks: [{
 				id: "254E23B777713E1D"
-				item: "gtceu:denitrated_gold_platinum_palladium_solution_bucket"
+				item: "ctnhcore:denitrated_gold_platinum_palladium_solution_bucket"
 				type: "item"
 			}]
 			x: -15.5d
@@ -1569,7 +1569,7 @@
 			subtitle: "很好的还原剂"
 			tasks: [{
 				id: "42025321D11444FF"
-				item: "gtceu:ferrous_sulfate_bucket"
+				item: "ctnhcore:ferrous_sulfate_bucket"
 				type: "item"
 			}]
 			x: -19.5d
@@ -1591,7 +1591,7 @@
 			tasks: [
 				{
 					id: "6A41554A9B0AF807"
-					item: "gtceu:chloroplatinic_chloropalladic_solution_bucket"
+					item: "ctnhcore:chloroplatinic_chloropalladic_solution_bucket"
 					type: "item"
 				}
 				{
@@ -1609,13 +1609,13 @@
 			rewards: [{
 				count: 18
 				id: "2D46DBE2A2068A84"
-				item: "gtceu:ammonium_chloroplatinate_dust"
+				item: "ctnhcore:ammonium_chloroplatinate_dust"
 				type: "item"
 			}]
 			subtitle: "要提炼出来了！"
 			tasks: [{
 				id: "58CF000060D9ADCF"
-				item: "gtceu:ammonium_chloroplatinate_dust"
+				item: "ctnhcore:ammonium_chloroplatinate_dust"
 				type: "item"
 			}]
 			x: -13.5d
@@ -1642,7 +1642,7 @@
 			subtitle: "要有钯了"
 			tasks: [{
 				id: "7A6476B18D1F0CC1"
-				item: "gtceu:chloropalladic_acid_mixture_bucket"
+				item: "ctnhcore:chloropalladic_acid_mixture_bucket"
 				type: "item"
 			}]
 			x: -15.5d
@@ -1654,13 +1654,13 @@
 			rewards: [{
 				count: 15
 				id: "784F650643B62EAC"
-				item: "gtceu:diamminedichloropalladium_dust"
+				item: "ctnhcore:diamminedichloropalladium_dust"
 				type: "item"
 			}]
 			subtitle: "钯沉积"
 			tasks: [{
 				id: "658D74135D1A840D"
-				item: "gtceu:diamminedichloropalladium_dust"
+				item: "ctnhcore:diamminedichloropalladium_dust"
 				type: "item"
 			}]
 			x: -13.5d
@@ -1672,13 +1672,13 @@
 			rewards: [{
 				count: 16
 				id: "4A30D01945461EA3"
-				item: "gtceu:sponge_platinum_dust"
+				item: "ctnhcore:sponge_platinum_dust"
 				type: "item"
 			}]
 			subtitle: "需要再进一步加工"
 			tasks: [{
 				id: "39E971C115B99168"
-				item: "gtceu:sponge_platinum_dust"
+				item: "ctnhcore:sponge_platinum_dust"
 				type: "item"
 			}]
 			x: -11.5d
@@ -1690,13 +1690,13 @@
 			rewards: [{
 				count: 16
 				id: "5AF224614FAE9083"
-				item: "gtceu:sponge_palladium_dust"
+				item: "ctnhcore:sponge_palladium_dust"
 				type: "item"
 			}]
 			subtitle: "和海绵铂一样，需要进一步加工"
 			tasks: [{
 				id: "0C7A56C92A1785ED"
-				item: "gtceu:sponge_palladium_dust"
+				item: "ctnhcore:sponge_palladium_dust"
 				type: "item"
 			}]
 			x: -11.5d
@@ -1742,7 +1742,7 @@
 			id: "4C55F5064284D1FE"
 			rewards: [{
 				id: "2C6F7A786E6D252C"
-				item: "gtceu:exquisite_palladium_sulfide_gem"
+				item: "ctnhcore:exquisite_palladium_sulfide_gem"
 				type: "item"
 			}]
 			size: 2.0d
@@ -1760,7 +1760,7 @@
 			subtitle: "能除去杂质"
 			tasks: [{
 				id: "3BD92A5673751F86"
-				item: "gtceu:litharge_dust"
+				item: "ctnhcore:litharge_dust"
 				type: "item"
 			}]
 			x: -19.5d
@@ -1790,7 +1790,7 @@
 			subtitle: "一种对于贵金属的提炼有着富集作用的合金"
 			tasks: [{
 				id: "5A6E00727BC1E58D"
-				item: "gtceu:noble_lead_dust"
+				item: "ctnhcore:noble_lead_dust"
 				type: "item"
 			}]
 			x: -24.5d
@@ -1808,7 +1808,7 @@
 			subtitle: "你富集了钌铑铱锇！现在可以开始着手处理它们了！"
 			tasks: [{
 				id: "7E1740FFE762DE13"
-				item: "gtceu:enriched_inert_mixture_dust"
+				item: "ctnhcore:enriched_inert_mixture_dust"
 				type: "item"
 			}]
 			x: -24.5d
@@ -1820,7 +1820,7 @@
 			subtitle: "记得回收硝酸和铅"
 			tasks: [{
 				id: "2ED7D558EE332406"
-				item: "gtceu:nitric_leach_solution_bucket"
+				item: "ctnhcore:nitric_leach_solution_bucket"
 				type: "item"
 			}]
 			x: -19.5d
@@ -1869,7 +1869,7 @@
 			subtitle: "起码铑滤饼没了"
 			tasks: [{
 				id: "57F725066172032B"
-				item: "gtceu:rhodium_sulfate_solution_bucket"
+				item: "ctnhcore:rhodium_sulfate_solution_bucket"
 				type: "item"
 			}]
 			x: -24.5d
@@ -1886,7 +1886,7 @@
 			subtitle: "知道为什么上一步送你氢氧化钠了吗？"
 			tasks: [{
 				id: "1884D16E239210BC"
-				item: "gtceu:rhodium_hydroxide_dust"
+				item: "ctnhcore:rhodium_hydroxide_dust"
 				type: "item"
 			}]
 			x: -24.5d
@@ -1913,7 +1913,7 @@
 			subtitle: "好多氯"
 			tasks: [{
 				id: "38DA02077C9E10E8"
-				item: "gtceu:chlororhodic_acid_bucket"
+				item: "ctnhcore:chlororhodic_acid_bucket"
 				type: "item"
 			}]
 			x: -19.5d
@@ -1940,7 +1940,7 @@
 			subtitle: "怎么又是氯*酸铵！？"
 			tasks: [{
 				id: "37C63259D03FF101"
-				item: "gtceu:ammonium_chlororhodate_solution_bucket"
+				item: "ctnhcore:ammonium_chlororhodate_solution_bucket"
 				type: "item"
 			}]
 			x: -17.5d
@@ -1957,7 +1957,7 @@
 			subtitle: "要蒸馏塔来把多余的水分蒸干"
 			tasks: [{
 				id: "0A488CBDFDF31755"
-				item: "gtceu:concentrated_ammonium_chlororhodate_bucket"
+				item: "ctnhcore:concentrated_ammonium_chlororhodate_bucket"
 				type: "item"
 			}]
 			x: -15.5d
@@ -1974,7 +1974,7 @@
 			subtitle: "要结晶，还要重结晶"
 			tasks: [{
 				id: "6C6687F2E66B4F0C"
-				item: "gtceu:ammonium_chlororhodate_dust"
+				item: "ctnhcore:ammonium_chlororhodate_dust"
 				type: "item"
 			}]
 			x: -13.5d
@@ -1986,12 +1986,12 @@
 			rewards: [{
 				count: 16
 				id: "196BFCEBBF315938"
-				item: "gtceu:sponge_rhodium_dust"
+				item: "ctnhcore:sponge_rhodium_dust"
 				type: "item"
 			}]
 			tasks: [{
 				id: "2037D5B14DDFD574"
-				item: "gtceu:sponge_rhodium_dust"
+				item: "ctnhcore:sponge_rhodium_dust"
 				type: "item"
 			}]
 			x: -11.5d
@@ -2007,7 +2007,7 @@
 			rewards: [
 				{
 					id: "5710FBF34C70D142"
-					item: "gtceu:exquisite_rhodium_sulfur_crystal_gem"
+					item: "ctnhcore:exquisite_rhodium_sulfur_crystal_gem"
 					type: "item"
 				}
 				{
@@ -2033,7 +2033,7 @@
 			subtitle: "还剩钌铱锇！"
 			tasks: [{
 				id: "526357A6518A7337"
-				item: "gtceu:precious_metal_mixture_dust"
+				item: "ctnhcore:precious_metal_mixture_dust"
 				type: "item"
 			}]
 			x: -19.5d
@@ -2045,7 +2045,7 @@
 			subtitle: "一步出....二氧化铱！"
 			tasks: [{
 				id: "6E46FAEE64C6C006"
-				item: "gtceu:iridium_dioxide_dust"
+				item: "ctnhcore:iridium_dioxide_dust"
 				type: "item"
 			}]
 			x: -11.5d
@@ -2086,7 +2086,7 @@
 			subtitle: "锇和钌一个级别？"
 			tasks: [{
 				id: "5C959C0D0099CB52"
-				item: "gtceu:sodium_osmate_ruthenate_solution_bucket"
+				item: "ctnhcore:sodium_osmate_ruthenate_solution_bucket"
 				type: "item"
 			}]
 			x: -19.5d
@@ -2131,7 +2131,7 @@
 			subtitle: "氯化，说明....."
 			tasks: [{
 				id: "4C01BC384F1CBFBA"
-				item: "gtceu:sodium_osmate_ruthenate_chloride_solution_bucket"
+				item: "ctnhcore:sodium_osmate_ruthenate_chloride_solution_bucket"
 				type: "item"
 			}]
 			x: -19.5d
@@ -2192,7 +2192,7 @@
 			subtitle: "终究还是氯化物"
 			tasks: [{
 				id: "63CC2A3AC9009A0C"
-				item: "gtceu:chlororuthenic_acid_gas_bucket"
+				item: "ctnhcore:chlororuthenic_acid_gas_bucket"
 				type: "item"
 			}]
 			x: -15.5d
@@ -2219,7 +2219,7 @@
 			subtitle: "氯化物还是来了"
 			tasks: [{
 				id: "568E255B28D677AF"
-				item: "gtceu:chlorosmic_acid_gas_bucket"
+				item: "ctnhcore:chlorosmic_acid_gas_bucket"
 				type: "item"
 			}]
 			x: -15.5d
@@ -2237,7 +2237,7 @@
 			subtitle: "氯酸，还是氯酸"
 			tasks: [{
 				id: "487AA4F97BB847ED"
-				item: "gtceu:ammonium_chlorosmate_dust"
+				item: "ctnhcore:ammonium_chlorosmate_dust"
 				type: "item"
 			}]
 			x: -11.5d
@@ -2255,7 +2255,7 @@
 			subtitle: "是的，又是氯酸"
 			tasks: [{
 				id: "344BA7163DE37CD8"
-				item: "gtceu:ammonium_chlororuthenate_dust"
+				item: "ctnhcore:ammonium_chlororuthenate_dust"
 				type: "item"
 			}]
 			x: -11.5d
@@ -2271,7 +2271,7 @@
 			rewards: [{
 				count: 16
 				id: "0A04691DB92EDB95"
-				item: "gtceu:raw_ruthenium_amalgam"
+				item: "ctnhcore:raw_ruthenium_amalgam"
 				type: "item"
 			}]
 			size: 2.0d
@@ -2300,7 +2300,7 @@
 				}
 				{
 					id: "30827ADDA1563287"
-					item: "gtceu:exquisite_osmium_iron_spinel_gem"
+					item: "ctnhcore:exquisite_osmium_iron_spinel_gem"
 					type: "item"
 				}
 			]
@@ -2335,7 +2335,7 @@
 			subtitle: "也许比拉线方便"
 			tasks: [{
 				id: "26398F870CA3D0CE"
-				item: "eup2p:eu_p2p_tunnel"
+				item: "ctnhenergy:eu_p2p_tunnel"
 				type: "item"
 			}]
 			x: -14.5d
