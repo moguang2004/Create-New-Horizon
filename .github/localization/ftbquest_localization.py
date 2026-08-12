@@ -39,6 +39,21 @@ SOURCE_LANGUAGE = "zh_cn"
 TARGET_LANGUAGES = ("en_us", "ja_jp", "ru_ru")
 PACK_SHORT_KEY = "ctnh"
 
+# Key namespace per top-level quest directory.  These prefixes keep chapter,
+# reward table, and root quest files from producing colliding keys even when
+# their file names are identical (e.g. chapters/lv.snbt and
+# reward_tables/lv.snbt).
+KEY_PREFIX_BY_DIR = {
+    "chapters": "chapter",
+    "reward_tables": "reward_table",
+    "quests": "quest",
+}
+
+# Records any translation key that was assigned more than once by the
+# generator so an accidental name collision fails the build instead of
+# silently overwriting a translation.
+DUPLICATE_KEYS: set[str] = set()
+
 SOURCE_KEYS: dict[str, str] = {}
 
 ESCAPE_SUBS = {
@@ -134,11 +149,25 @@ def _is_compound_list(value: object) -> bool:
         return False
 
 
+def quest_key_prefix(file_path: Path) -> str:
+    """Return the namespaced key prefix for a quest source file."""
+    directory = file_path.parent.name
+    prefix = KEY_PREFIX_BY_DIR.get(directory, directory)
+    return f"{PACK_SHORT_KEY}.{prefix}.{file_path.stem}"
+
+
+def record_translation_key(translation_key: str, value: str) -> None:
+    """Store a source value and flag duplicate keys as collisions."""
+    if translation_key in SOURCE_KEYS:
+        DUPLICATE_KEYS.add(translation_key)
+    SOURCE_KEYS[translation_key] = value
+
+
 def convert(file_path: Path) -> Compound:
     with file_path.open("r", encoding="utf-8", newline="") as source:
         data = snbt.load(source)
 
-    _convert(data, f"{PACK_SHORT_KEY}.{file_path.stem}")
+    _convert(data, quest_key_prefix(file_path))
     return data
 
 
@@ -166,7 +195,9 @@ def _convert(data: Compound, lang_key: str) -> None:
 
         if isinstance(value, String) and text_filter(value):
             translation_key = f"{lang_key}.{key}"
-            SOURCE_KEYS[translation_key] = escape_string(strip_brace_wrap(value))
+            record_translation_key(
+                translation_key, escape_string(strip_brace_wrap(value))
+            )
             data[key] = snbt.String(f"{{{translation_key}}}")
             continue
 
@@ -190,11 +221,14 @@ def _convert(data: Compound, lang_key: str) -> None:
                         f"{lang_key}.{key}{text_index}.rich_text{rich_index}"
                     )
                     if isinstance(item, str):
-                        SOURCE_KEYS[translation_key] = escape_string(strip_brace_wrap(item))
+                        record_translation_key(
+                            translation_key, escape_string(strip_brace_wrap(item))
+                        )
                         parsed_list[item_index] = {"translate": translation_key}
                     else:
-                        SOURCE_KEYS[translation_key] = escape_string(
-                            strip_brace_wrap(item.pop("text"))
+                        record_translation_key(
+                            translation_key,
+                            escape_string(strip_brace_wrap(item.pop("text"))),
                         )
                         item["translate"] = translation_key
                 if parsed_list:
@@ -203,7 +237,9 @@ def _convert(data: Compound, lang_key: str) -> None:
                     value[index] = json.dumps(parsed_list, ensure_ascii=False)
             else:
                 translation_key = f"{lang_key}.{key}{text_index}"
-                SOURCE_KEYS[translation_key] = escape_string(strip_brace_wrap(line))
+                record_translation_key(
+                    translation_key, escape_string(strip_brace_wrap(line))
+                )
                 value[index] = snbt.String(f"{{{translation_key}}}")
 
 
@@ -298,6 +334,11 @@ def main() -> None:
         localized_path.parent.mkdir(parents=True, exist_ok=True)
         with localized_path.open("w", encoding="utf-8", newline="") as target:
             snbt.dump(localized_data, target)
+
+    if DUPLICATE_KEYS:
+        raise SystemExit(
+            "Duplicate translation keys detected: " + ", ".join(sorted(DUPLICATE_KEYS))
+        )
 
     json_safe_keys = {
         key: unescape_json_string(value) for key, value in SOURCE_KEYS.items()

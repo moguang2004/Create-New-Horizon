@@ -554,7 +554,7 @@ hash = "9acb3c143c7dc24259b0d999458ade9ad6be43d82302d399302bbaa0357045e8"
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
-hash = "e798ceddada0c7079ba173f9aa7932a9b50dc5b25b4ed125c1d5cc74a040f182"
+hash = "ff82e59a35616445bc15dfd31b5de2e663f39cf6a7d95fec6b456835d09f354e"
 
 [[files]]
 file = "config/extrabotany-common.toml"
@@ -906,11 +906,11 @@ hash = "db1a46802bbbe9b0723308c1413ecee26b816d6e200de5c8b00fefc3812a0f17"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "d9e6da359ab66ea9aeafd3a92706721e4721f6adbb99c3973fc44c838cdadf61"
+hash = "0520e169b921e4feb764409b8d52a9556d76f4260d05465c4edfb5e704b8559e"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "c25efb80b40e71edf0c6dbececa4f26b199ff1e3ed3b733f8479f2f1121b1543"
+hash = "2f6810f507a877ffd0f71125daafee89e95e02b23ab2397b38f56a2b526a2595"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
@@ -4789,6 +4789,26 @@ file = "config/openloader/data/kubejs/pack.mcmeta"
 hash = "a27949afeee533c6e3e71dca90098a577002b5c3211a4b7ee46f386f1d4d049b"
 
 [[files]]
+file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/en_us.json"
+hash = "ea695044ba4390ed6da9a768d1ed1cb621a941e57f194a2210c87795c6013afc"
+
+[[files]]
+file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/ja_jp.json"
+hash = "ea695044ba4390ed6da9a768d1ed1cb621a941e57f194a2210c87795c6013afc"
+
+[[files]]
+file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/ru_ru.json"
+hash = "ea695044ba4390ed6da9a768d1ed1cb621a941e57f194a2210c87795c6013afc"
+
+[[files]]
+file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/zh_cn.json"
+hash = "ea695044ba4390ed6da9a768d1ed1cb621a941e57f194a2210c87795c6013afc"
+
+[[files]]
+file = "config/openloader/resources/ctnh_quests/pack.mcmeta"
+hash = "4a29205623f223ea78ee98f6bec1848a31fc63e16c5b1cb92336749d42a85489"
+
+[[files]]
 file = "config/openloader/resources/kubejs/assets/ad_astra/lang/zh_cn.json"
 hash = "6178352353c9ab2993c64faf853603d8d676f9dca6ed5d1a068299f44994e493"
 
@@ -8401,6 +8421,10 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
 
 [[files]]
+file = "hs_err_pid26676.log"
+hash = "11f3ac44e4be7e7e53e85feb40240e2c5a5dd19398426d21cb9f42ddd8b3fa0d"
+
+[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
@@ -8727,7 +8751,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "d5318b9bd65cac7ebd1e93cf67a3b1ed0081bae714cd4e736219cf347cd87a43"
+hash = "47736af1584283072d721e4f2700929a0fabe67b36e2175fc48b0964db70ab8b"
 metafile = true
 
 [[files]]
@@ -8772,7 +8796,7 @@ metafile = true
 
 [[files]]
 file = "mods/ecliptic-seasons.pw.toml"
-hash = "da298ff9aa61db7198a733467c870f47b670ae57a19453891942c5f61aa37062"
+hash = "de0bdf82bfdd20886ba176e588af01c745c8563a61f4ce4e0e16e25609fc5760"
 metafile = true
 
 [[files]]
@@ -9432,7 +9456,7 @@ metafile = true
 
 [[files]]
 file = "mods/twilights-flavors-delight.pw.toml"
-hash = "87c2c09a1b377b42f945aeeedafd1ddbb153a78097b75dfd909a0843aaaacd57"
+hash = "e262c76bef362bf50d673acf1dc48e4a31fce4d0e6f7dcca8dd610b06c12908f"
 metafile = true
 
 [[files]]
