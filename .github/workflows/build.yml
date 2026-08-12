@@ -92,7 +92,6 @@ jobs:
       - name: Patch client version texts
         run: |
           MODPACK_VERSION="${{ steps.meta.outputs.version }}"
-          sed -i "s/^title=\(.*\)/title=\1 | v$MODPACK_VERSION/" kubejs/config/client.properties
           sed -i "s/^ModpackVersion = \".*\"/ModpackVersion = \"$MODPACK_VERSION\"/" config/ctnhchangelog-client.toml
           sed -i "s/^modpackVersion = \".*\"/modpackVersion = \"$MODPACK_VERSION\"/" config/bcc-common.toml
 
