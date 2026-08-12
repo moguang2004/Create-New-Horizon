@@ -46,6 +46,7 @@ natives-*/
 /DEVELOPMENT.md
 /.git*
 /.github/
+.codegraph
 /scripts/
 /LICENSE
 /LICENSE-ARTWORK
@@ -63,6 +64,7 @@ resourcepacks/*
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
 !resourcepacks/CTNH-Retextured.zip
 !resourcepacks/CTNH-FTBquesting-1.20.1-*.zip
+!resourcepacks/CTNH-lang-ctnh-questbook-AI.zip
 
 schematics/*
 !schematics/*工业血之祭坛.nbt

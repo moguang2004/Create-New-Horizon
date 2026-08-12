@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".cache/changelog_cache_52d8cb245ffd67e0.json"
-hash = "2902bf91b10de7a74627e283df5936b42c85a0521793262e63ef12c491deff6e"
-
-[[files]]
-file = ".cache/changelog_cache_52d8cb245ffd67e0.json.etag"
-hash = "d983a1dcc7a95789f3c34a9e6ef6a4e619cb5d867bf7eb64e0066689643c7092"
-
-[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -690,7 +682,7 @@ hash = "8a49092e62e472fffb5e5ee71a2a55453e9d3f4ac3bb1c45283d5764f3a9edec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1E8D7AF132D696EC.snbt"
-hash = "76c45968fc9f15ff745bd30df2c00b86a1a0b6e371c72847f04e811c71d5ad4e"
+hash = "1770f2598b6198f5f0b6a3c1eb08f80a21fb95f6495750039d0f75729ae19aaf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/21875E2B94FA20FF.snbt"
@@ -4789,26 +4781,6 @@ file = "config/openloader/data/kubejs/pack.mcmeta"
 hash = "a27949afeee533c6e3e71dca90098a577002b5c3211a4b7ee46f386f1d4d049b"
 
 [[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/en_us.json"
-hash = "ea695044ba4390ed6da9a768d1ed1cb621a941e57f194a2210c87795c6013afc"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/ja_jp.json"
-hash = "ea695044ba4390ed6da9a768d1ed1cb621a941e57f194a2210c87795c6013afc"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/ru_ru.json"
-hash = "ea695044ba4390ed6da9a768d1ed1cb621a941e57f194a2210c87795c6013afc"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/zh_cn.json"
-hash = "ea695044ba4390ed6da9a768d1ed1cb621a941e57f194a2210c87795c6013afc"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/pack.mcmeta"
-hash = "4a29205623f223ea78ee98f6bec1848a31fc63e16c5b1cb92336749d42a85489"
-
-[[files]]
 file = "config/openloader/resources/kubejs/assets/ad_astra/lang/zh_cn.json"
 hash = "6178352353c9ab2993c64faf853603d8d676f9dca6ed5d1a068299f44994e493"
 
@@ -8421,10 +8393,6 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
 
 [[files]]
-file = "hs_err_pid26676.log"
-hash = "11f3ac44e4be7e7e53e85feb40240e2c5a5dd19398426d21cb9f42ddd8b3fa0d"
-
-[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
@@ -9523,6 +9491,10 @@ hash = "f05b71bf98ec3b97010b1665eb76f1aa907b5d6ae753d16733a29ef3116c779b"
 [[files]]
 file = "resourcepacks/CTNH-Retextured.zip"
 hash = "6deaab32f77cfcd21af5669e765010c4557f96b840b5e91c26cd041628c47243"
+
+[[files]]
+file = "resourcepacks/CTNH-lang-ctnh-questbook-AI.zip"
+hash = "a0f59661666ec884c61424135f864826c731bea38cde1710989a56cb3cb089e6"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip"
