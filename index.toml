@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".cache/changelog_cache_52d8cb245ffd67e0.json"
+hash = "2902bf91b10de7a74627e283df5936b42c85a0521793262e63ef12c491deff6e"
+
+[[files]]
+file = ".cache/changelog_cache_52d8cb245ffd67e0.json.etag"
+hash = "d983a1dcc7a95789f3c34a9e6ef6a4e619cb5d867bf7eb64e0066689643c7092"
+
+[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -670,7 +678,7 @@ hash = "89f5c45a18b8f5fd0c1546d680893b9e2e3fa790386b29ff61feb8cf99191875"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/142AC829C9062F15.snbt"
-hash = "5fd934b537b6b92a6e9ef087fc1437a4ee7872fabbe64ea8bd212f43b753b034"
+hash = "ed25256ff6bd1be7c39d6a107dfe9ec516b66016deb96421e7cb392bf618bddf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15B8D9F4A2A19BFA.snbt"
@@ -694,15 +702,15 @@ hash = "02deed4f54b386177d56f869ed096cd0174dd5c3d5da9f94e06972e5fb73e76b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2CEAD5605C416218.snbt"
-hash = "4b5de3613f9adc4130a867cb6a98aa978cc543aeeeb6ba884f77956650c2df26"
+hash = "5203f344b08d87ae604b36ba11e179a974a5b806470485a125f3636106b738ff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/387655B3E5BE4912.snbt"
-hash = "4080d944b110393b0dcd0f68af6599f3ff8d31b53190fbb5821ec55d01637f2f"
+hash = "15ae55d2d84a33071739adc50e12dbb5d4890a710c46c1ec6f4d643542098fae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/418C24A6E3A8BE97.snbt"
-hash = "161289f300fddf4968ed27c6c5fdea294de4ad4a0ff8b8c28bcc6a064ace117a"
+hash = "e89a820ec88c114c72d2a632379cf6d5361179fdb55643cab3139f73ff548265"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
@@ -718,7 +726,7 @@ hash = "a4a563f9e2875d96f3e684c2c24241d4f299d18d50e589e33c8764bfc34c78ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4EE5451097565A1A.snbt"
-hash = "7e1dcefe1f74da30294343309e9222ce0d447f2bddd5f7095d11076f36d0782f"
+hash = "e7ca13667b4c45d8de365500bdd4eea626485d325bb5c59abab819e197d3d653"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/596370001FE6E99B.snbt"
@@ -726,7 +734,7 @@ hash = "0348927b8c5ec2f4b397552ebcf87ccddd04c3c1d6324be7f96fda8bb3675c45"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5DEE038949883E18.snbt"
-hash = "aa1e13f5f0d061c6122a9c6a70bf1c4120f983fbe28a1f5d94b96752aa23535f"
+hash = "a983710aa6eeb3c01296582fcc4d1efe2789e4813dce562563e8821b4f8f0931"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/609746CF8BE6A11E.snbt"
@@ -738,7 +746,7 @@ hash = "40699adad5810cccda047c72f19da8642acf5b2804e1f3fa44abd4f34017e2b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
-hash = "83918bfa7057578e56d3859733a25636e9d6ef1538de29e700b5d15c973dde20"
+hash = "9b7166f5d7a6bf2038490bb8f483ed96db909fb264d186ef0bba32042b7983da"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
@@ -746,7 +754,7 @@ hash = "27ae33fdd44d145ab9257dba1065a21b2f381143abfa2c43906c6a00e7ac9963"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/74D640CFCA75E891.snbt"
-hash = "2f26c2ede42bc99193c42337c4e4cfe63c018ac68843bfb772d0dd8137f43688"
+hash = "8dbe037962a3bc0ac9f4b6cd9909182552476acddb651a7a1bd6e80494f923cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
@@ -758,11 +766,11 @@ hash = "2a15f9fc91d99b0892c71c29083ec6ea2fedf79c5071d8fd4721e3f1df483bae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "86fa0e33c3bf9d9fef62c1b2cd4deb72653a6c59caf2bf2d6e4fcb06d3bf4274"
+hash = "a3dd29911a0476fb8fd093e9b53aa60590f1aa8f9f2419759fb3dd800c254559"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "cfdc9119465ae70570ae1d9f4def2e1e84cc2f06c38ac8b43d9c0a0231cb165c"
+hash = "856d782010a18929f86736cd80108bdcc30a5dffd9d087d80a377427a2602bf3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
@@ -770,7 +778,7 @@ hash = "860ced42307c6eac83c255b91d4c0623ca2b4433b7040fffba08ecefac1ab96a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
-hash = "5ab26109756afd249d14577891e9e9bd415a7d6dd1ddc385f7cf5de9a0b0696e"
+hash = "650cc5531a2878b48154cb2a7542a4d75bb4df8bfa56fc48a73b75461297ae67"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
@@ -786,15 +794,15 @@ hash = "0ccd56b52cbc202011008e3975e4cdab87270a5df2c737b75910f101c0d08452"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uhv.snbt"
-hash = "2b04b6d543e753b72a5bcd37ed29df10b2be8743eb386727946e04d818486e51"
+hash = "e7c4bdd8806539c0f06b95fc88c353d55a8b19db00b9f6eef344beacbc490b88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
-hash = "a506bc5cb07356279f021b647a1b034ac88f7e642337c91f0f95fa0aceafcc09"
+hash = "7932ef4ea796124fa8732f54e6314efcb4c6256247501dd7ea2f333423d67d72"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
-hash = "f005fbd4722e62b6bc59edf524f79494d3c4dee76a8b0036d6851c4b1e7bf974"
+hash = "f55d0cff958d2d617520c366ec57fac48de51b29fe83fda624eb808ff1935bf6"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -8393,6 +8401,10 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
 
 [[files]]
+file = "hs_err_pid26676.log"
+hash = "11f3ac44e4be7e7e53e85feb40240e2c5a5dd19398426d21cb9f42ddd8b3fa0d"
+
+[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
@@ -9258,11 +9270,6 @@ hash = "6e5b83809f2eb853e57e832764d347eade9cebcc6726f2fb46ab2935e6f3ec27"
 metafile = true
 
 [[files]]
-file = "mods/programmed-circuit-card.pw.toml"
-hash = "7fc1653e0b9df75f9b0162206bed756db5048e1f6c4f6587baafb99dc656f12d"
-metafile = true
-
-[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "ac8ae4bc1d5bde1f63f6497c82b251c533d4be67666cf5dc7d9ea75dd827c12c"
 metafile = true
@@ -9494,7 +9501,7 @@ hash = "6deaab32f77cfcd21af5669e765010c4557f96b840b5e91c26cd041628c47243"
 
 [[files]]
 file = "resourcepacks/CTNH-lang-ctnh-questbook-AI.zip"
-hash = "a0f59661666ec884c61424135f864826c731bea38cde1710989a56cb3cb089e6"
+hash = "49e2c62461c14812576ffebc5c761f0203604a3028db44bf9913602da69400a4"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip"
