@@ -8393,6 +8393,10 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
 
 [[files]]
+file = "mods/CTNH-Core-1.5.0alpha.jar"
+hash = "61849c891eaefd7bceddfae2a9ae8706eaae57501684b9d557ef02a53cec34f0"
+
+[[files]]
 file = "mods/IMBlocker-5.5.4-forge+1.17-1.20.4.jar"
 hash = "6040c2a84681c315cc9b76a2c264a7ed7d4e6d120a927b2633d504b374e63302"
 
@@ -8734,11 +8738,6 @@ metafile = true
 [[files]]
 file = "mods/ctnh-changelog.pw.toml"
 hash = "cf0fafa2db57414956d87383a9bc2d1e7eeef368c1b73c35a97a1fee567e3959"
-metafile = true
-
-[[files]]
-file = "mods/ctnh-core.pw.toml"
-hash = "4439627ede9d516f5dfca52a1014e6ed25835428de85135150c7c3175ae762bf"
 metafile = true
 
 [[files]]
