@@ -77,7 +77,6 @@ versions/dev/dev.json
 versions/dev/PCL/Setup.ini
 /mods/*.jar
 !/mods/CTNH*.jar
-!/mods/IMBlocker*.jar
 **/*.jar.disabled
 **/*.jar.meta
 **/*.log

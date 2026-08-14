@@ -8397,10 +8397,6 @@ file = "mods/CTNH-Core-1.5.0alpha.jar"
 hash = "61849c891eaefd7bceddfae2a9ae8706eaae57501684b9d557ef02a53cec34f0"
 
 [[files]]
-file = "mods/IMBlocker-5.5.4-forge+1.17-1.20.4.jar"
-hash = "6040c2a84681c315cc9b76a2c264a7ed7d4e6d120a927b2633d504b374e63302"
-
-[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
@@ -8978,6 +8974,11 @@ metafile = true
 [[files]]
 file = "mods/hostile-neural-networks.pw.toml"
 hash = "a63220dfb2ddfe2a98155a712935cc1803b14d89d7fd2a8dd27ef98c8fbecae1"
+metafile = true
+
+[[files]]
+file = "mods/imblocker-original.pw.toml"
+hash = "77ab78788f6e95dcccea9bd036b65239ee801fb7f5949097ef1d0c1dddab88bd"
 metafile = true
 
 [[files]]

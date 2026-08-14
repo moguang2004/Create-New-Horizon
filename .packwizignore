@@ -34,7 +34,6 @@ natives-*/
 /mods/.connector/
 /mods/*.jar
 !mods/CTNH*.jar
-!mods/IMBlocker*.jar
 /*.jar
 /*.json
 /*.sh
