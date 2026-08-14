@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".cache/changelog_cache_52d8cb245ffd67e0.json"
-hash = "2902bf91b10de7a74627e283df5936b42c85a0521793262e63ef12c491deff6e"
-
-[[files]]
-file = ".cache/changelog_cache_52d8cb245ffd67e0.json.etag"
-hash = "d983a1dcc7a95789f3c34a9e6ef6a4e619cb5d867bf7eb64e0066689643c7092"
-
-[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -6190,7 +6182,7 @@ hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
 
 [[files]]
 file = "config/openloader/resources/kubejs/assets/emi/index/stacks/1.json"
-hash = "7ffd62784d74949c471dbd9a3c4ce03b53aebff1c74ea44042932dab67d99e75"
+hash = "3694b9e30eb8c752f2418a5006c90ccc740c9f9a998175c7e30fb11f84397036"
 
 [[files]]
 file = "config/openloader/resources/kubejs/assets/enderio/lang/zh_cn.json"
@@ -8401,8 +8393,8 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
 
 [[files]]
-file = "hs_err_pid26676.log"
-hash = "11f3ac44e4be7e7e53e85feb40240e2c5a5dd19398426d21cb9f42ddd8b3fa0d"
+file = "mods/IMBlocker-5.5.4-forge+1.17-1.20.4.jar"
+hash = "6040c2a84681c315cc9b76a2c264a7ed7d4e6d120a927b2633d504b374e63302"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
