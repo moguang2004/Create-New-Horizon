@@ -733,7 +733,7 @@
 			id: "47C1262593CDC2D0"
 			tasks: [{
 				id: "62B50C3B95BE07DA"
-				item: "ctnhcore:platinum_metal_catalyst_shard1"
+				item: "kubejs:platinum_metal_catalyst_shard1"
 				type: "item"
 			}]
 			x: 62.5d
@@ -753,7 +753,7 @@
 			id: "3BFB17FFDE79AAAB"
 			tasks: [{
 				id: "70DE849157E1F76D"
-				item: "ctnhcore:platinum_metal_catalyst_shard2"
+				item: "kubejs:platinum_metal_catalyst_shard2"
 				type: "item"
 			}]
 			x: 65.5d
@@ -869,7 +869,7 @@
 			id: "2E6C4521324F891D"
 			tasks: [{
 				id: "738A505ABCBCDBB6"
-				item: "ctnhcore:stone_process_catalyst"
+				item: "kubejs:stone_process_catalyst"
 				type: "item"
 			}]
 			x: 65.5d

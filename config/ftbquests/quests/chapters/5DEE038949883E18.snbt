@@ -144,7 +144,7 @@
 			}]
 			shape: "hexagon"
 			size: 3.0d
-			subtitle: "喜报，bug修复了，享受你的小AE吧"
+			subtitle: "不要用堆叠升级，至少在修复bug之前"
 			tasks: [
 				{
 					id: "1D1D8E9C1A789C16"
