@@ -11,7 +11,10 @@
 	quests: [
 		{
 			dependencies: ["5BA86B01337A91D5"]
-			description: ["启动资金~"]
+			description: [
+				"工作台合成8个安山合金锭：铁锭+安山岩。"
+				"之后你的一切都离不开它！"
+			]
 			icon: "create:andesite_alloy"
 			id: "6B6DC55BB1D53F9E"
 			rewards: [{
@@ -20,7 +23,7 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "diamond"
 			size: 2.0d
 			subtitle: "小块灰铁"
 			tasks: [{
@@ -29,61 +32,79 @@
 				type: "item"
 			}]
 			title: "安山合金"
-			x: -4.0d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["6B6DC55BB1D53F9E"]
 			description: [
-				"用传动杆来直线传输你的应力"
-				""
+				"安山合金锭+格雷锯子（工作台）。"
+				"也可以直接用动力锯切割安山合金锭得到2根。"
+			]
+			id: "6F4675E2DBDE73BE"
+			subtitle: "最基础的传动"
+			tasks: [{
+				id: "40CF3EB334743F28"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "传动杆"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B6DC55BB1D53F9E"]
+			description: [
 				"手持机壳右键齿轮或传动杆可以将他们包裹起来。"
 				"&a更好看！可选断开同轴齿轮间的连接！对你的GPU更友好！&r"
 			]
 			id: "3EFDCEB446840346"
-			subtitle: "CT之旅从这根灰杆杆和这个灰块块开始"
-			tasks: [
-				{
-					id: "213B6924FABC5117"
-					item: "create:andesite_casing"
-					type: "item"
-				}
-				{
-					id: "66E6F70C2E4606F0"
-					item: "create:shaft"
-					type: "item"
-				}
+			subtitle: "包裹你的机器"
+			tasks: [{
+				id: "213B6924FABC5117"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "安山机壳"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F4675E2DBDE73BE"]
+			description: [
+				"传动杆+小木齿轮（木板+锉刀）。"
+				"安山合金齿轮也是不错的选择。"
 			]
-			title: "CT的基石"
-			x: -2.0d
-			y: 1.0d
+			id: "084A7C0BC9AF5318"
+			subtitle: "木齿轮起步"
+			tasks: [{
+				id: "5B062BD2D68B543A"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "小齿轮"
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
+				"6F4675E2DBDE73BE
 				"39D5B3240A63B9A5"
-				"4539BD49395ABB97"
+				"715B191688B2BA4C"
 			]
 			description: [
-				"用齿轮们来给你的应力转向"
-				""
-				"用大齿轮+小齿轮来换挡，加速！"
+				"传动杆+防腐木齿轮（防腐木板台阶+锉刀）。"
+				"需要先做防腐木板。"
 			]
 			id: "331B66C85EA7C478"
-			tasks: [
-				{
-					id: "4690CE9FD6A60392"
-					item: "create:large_cogwheel"
-					type: "item"
-				}
-				{
-					id: "70BE8482755A0ECB"
-					item: "create:cogwheel"
-					type: "item"
-				}
-			]
-			title: "齿轮"
-			x: 2.5d
-			y: 2.5d
+			tasks: [{
+				id: "4690CE9FD6A60392"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			title: "大齿轮"
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3EFDCEB446840346"]
@@ -99,15 +120,14 @@
 				type: "item"
 			}]
 			title: "辊压机"
-			x: -0.5d
-			y: 1.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6B6DC55BB1D53F9E"]
 			description: [
 				"手动应急的应力源。"
-				"&m为什么不试试万能的女仆呢？&r"
-				"女仆因吃掉太多内存而被放逐！"
+				"为什么不试试万能的女仆呢（自动右键）？"
 			]
 			id: "2827FB51FA206F57"
 			rewards: [{
@@ -123,7 +143,7 @@
 				type: "item"
 			}]
 			title: "手摇曲柄"
-			x: -4.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -159,7 +179,7 @@
 				}
 			]
 			title: "研钵"
-			x: -4.0d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -205,10 +225,11 @@
 				type: "item"
 			}]
 			title: "铁板"
-			x: 1.0d
-			y: 1.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["336713560D5FD929"]
 			description: [
 				"铁锭熔炼→热锻铁锭。"
 				"它还很烫，需要趁热锻造！"
@@ -221,8 +242,8 @@
 				type: "item"
 			}]
 			title: "热锻铁"
-			x: 10.5d
-			y: -3.0d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["508A16006D48CABC"]
@@ -246,8 +267,8 @@
 				type: "item"
 			}]
 			title: "锻铁"
-			x: 12.0d
-			y: -3.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0546DE608BD84745"]
@@ -269,8 +290,8 @@
 				type: "item"
 			}]
 			title: "锻铁粉"
-			x: 13.5d
-			y: -3.0d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4699AADE1022AC44"]
@@ -608,8 +629,8 @@
 				type: "item"
 			}]
 			title: "碳化原木"
-			x: 1.0d
-			y: 2.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5327174AA56C949E"]
@@ -759,18 +780,19 @@
 				}
 			]
 			title: "贵金属与金"
-			x: 3.5d
-			y: -0.5d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"55F990B0DF0EC015"
 				"336713560D5FD929"
+				"084A7C0BC9AF5318"
 			]
 			description: [
 				"工作台配方：锯子+安山合金杆+金板+安山合金板+安山合金齿轮+铁杆+木板。"
 				"之后可以用序列组装量产（需要机械手）。"
-				"也许你找不到金锭是从哪来的，仔细查看一下EMI吧！请查看&6矿物处理&r章节"
+				"也许你找不到金锭是从哪来的，仔细查看一下EMI吧！请查看&a矿物处理&r章节"
 			]
 			icon: "ctpp:basic_mechanism"
 			id: "06924C1BD35C47AC"
@@ -1101,7 +1123,7 @@
 				type: "item"
 			}]
 			title: "精密构件"
-			x: 18.75d
+			x: 18.5d
 			y: 1.0d
 		}
 		{
@@ -1128,7 +1150,6 @@
 		}
 		{
 			dependencies: ["4F24B0F4CC00BEBE"]
-			description: ["受够了熔化炉一次只能放入3个物品的无力了吗"]
 			icon: "tconstruct:smeltery_controller"
 			id: "16F080E60A273D32"
 			rewards: [
@@ -1232,8 +1253,8 @@
 				type: "item"
 			}]
 			title: "小水车"
-			x: 2.5d
-			y: 3.5d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4F24B0F4CC00BEBE"]
@@ -1477,8 +1498,8 @@
 				type: "item"
 			}]
 			title: "工业土高炉"
-			x: 16.5d
-			y: -5.0d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7981F01A66314C22"]
@@ -1683,10 +1704,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"5D5BAA5E5EF4621A"
-				"6158AADC7CC4A6D0"
-			]
+			dependencies: ["5D5BAA5E5EF4621A"]
 			description: ["搅拌机加热：8锻铁粉+3焦煤粉（或6木炭粉）。"]
 			id: "06EBC3E30CAE1746"
 			subtitle: "待处理的钢粉"
@@ -1696,8 +1714,8 @@
 				type: "item"
 			}]
 			title: "预制钢粉"
-			x: 15.0d
-			y: -3.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -1722,8 +1740,8 @@
 				type: "item"
 			}]
 			title: "精炼铁方坯"
-			x: 16.5d
-			y: -3.0d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["681330A347F7142A"]
@@ -1762,8 +1780,8 @@
 				type: "item"
 			}]
 			title: "钢"
-			x: 18.75d
-			y: -3.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4699AADE1022AC44"]
@@ -1785,193 +1803,21 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["336713560D5FD929"]
-			description: [
-				"{你永远摆脱不了&m死亡&r这套GT工具  "
-				"不过你可以升级他们"
-			]
-			id: "4539BD49395ABB97"
-			subtitle: "环环相扣，形影不离"
-			tasks: [
-				{
-					id: "4E95E211770BD360"
-					item: {
-						Count: 1
-						id: "gtceu:iron_file"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "77D03FB38190B404"
-					item: {
-						Count: 1
-						id: "gtceu:iron_screwdriver"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "20B022E101CF7009"
-					item: {
-						Count: 1
-						id: "gtceu:iron_wrench"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								Mode: 2b
-							}
-							GT.Tool: {
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7C2F3D8AC85837F9"
-					item: {
-						Count: 1
-						id: "gtceu:iron_wire_cutter"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4468FE1EC02BBF56"
-					item: {
-						Count: 1
-						id: "gtceu:iron_saw"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								HarvestIce: 1b
-							}
-							GT.Tool: {
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0F44D0D570792D20"
-					item: {
-						Count: 1
-						id: "gtceu:wood_mallet"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								MaxDamage: 127
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6777F21D3E58A6A2"
-					item: {
-						Count: 1
-						id: "gtceu:flint_mortar"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								MaxDamage: 63
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2D64D8B7FC7AD1CA"
-					item: {
-						Count: 1
-						id: "gtceu:iron_hammer"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "一套GT工具"
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["4539BD49395ABB97"]
-			description: [
-				"放入你的无措（指背包被各种材料和工具塞满）"
-				""
-				"放入你的踌躇（指反复开关箱子替换合适的工具）"
-				""
-				"放入你的迷惘（指记不清做东西要什么工具）"
-			]
-			id: "470B10C71159FE57"
-			subtitle: "里面可以放一整套GT工具，合成时会自动调用合适的工具"
+			id: "715B191688B2BA4C"
 			tasks: [{
-				id: "167CC2D7674A70B7"
+				id: "411F072E7EE14AD2"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "gtceu:toolboxes"
+						value: "gtceu:tools/crafting_files"
 					}
 				}
 				type: "item"
 			}]
-			title: "工具箱"
-			x: 2.5d
-			y: -0.5d
+			title: "锉刀"
+			x: 2.0d
+			y: -3.0d
 		}
 	]
 	title: "齿轮力量"

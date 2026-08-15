@@ -129,7 +129,7 @@
 			subtitle: "凑了，以前光伏要这个玩意吗"
 			tasks: [{
 				id: "654F8255ADF745A3"
-				item: "gtceu:sunnarium_dust"
+				item: "ctnhcore:sunnarium_dust"
 				type: "item"
 			}]
 			x: -20.0d
@@ -177,7 +177,7 @@
 			subtitle: "好长的线"
 			tasks: [{
 				id: "125B1FC29EC800D1"
-				item: "kubejs:clgs"
+				item: "ctnhcore:clgs"
 				type: "item"
 			}]
 			title: "CLGS线"
@@ -192,7 +192,7 @@
 			id: "708B56BCB6400151"
 			tasks: [{
 				id: "0968CA525C8804F9"
-				item: "kubejs:measurement_pv_cell"
+				item: "ctnhcore:measurement_pv_cell"
 				type: "item"
 			}]
 			x: -24.0d
@@ -274,7 +274,7 @@
 			id: "0754B183C12F306F"
 			tasks: [{
 				id: "7DDEC52FD45F9848"
-				item: "kubejs:pv_drone_research_1"
+				item: "ctnhcore:pv_drone_research_1"
 				type: "item"
 			}]
 			x: -14.0d
@@ -305,7 +305,7 @@
 			id: "583E115C69FBF719"
 			tasks: [{
 				id: "6C2BBBFFEAB54520"
-				item: "kubejs:pv_drone_research_2"
+				item: "ctnhcore:pv_drone_research_2"
 				type: "item"
 			}]
 			x: -14.0d
@@ -336,7 +336,7 @@
 			id: "0386E2925E6ED2E4"
 			tasks: [{
 				id: "6F5251FD3BE1BB52"
-				item: "kubejs:pv_drone_research_3"
+				item: "ctnhcore:pv_drone_research_3"
 				type: "item"
 			}]
 			x: -14.0d

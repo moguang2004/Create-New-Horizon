@@ -1,9 +1,10 @@
 # CTNH Quest Localization
 
 The checked-in files under `config/ftbquests/quests` are the authoring source
-and remain in Chinese. The build workflow runs `ftbquest_localization.py` to
+and remain in Chinese. Only release builds run `ftbquest_localization.py` to
 create a temporary `.github/localization/quests` tree, replacing translatable
-text with `{ctnh.*}` keys. The matching `zh_cn.json`, `en_us.json`,
+text with `{ctnh.*}` keys. Push and manually dispatched builds retain the
+Chinese source quest tree. The matching `zh_cn.json`, `en_us.json`,
 `ja_jp.json`, and `ru_ru.json` files are written to the OpenLoader resource
 pack at `config/openloader/resources/ctnh_quests/assets/ctnh/lang`.
 

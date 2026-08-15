@@ -104,6 +104,7 @@
 			]
 			icon: "gravestone:gravestone"
 			id: "5C2320A3B3E10E11"
+			invisible: true
 			optional: true
 			subtitle: "死亡后身上的物品会被打包进一个小墓碑里，破坏后即可取回"
 			tasks: [{
@@ -295,11 +296,7 @@
 		}
 		{
 			dependencies: ["6F405D2508EED283"]
-			description: [
-				"{格雷修改了原版的所有矿物生成，&4贸然的下矿会让你一无所获&r。使用探矿仪，找到含有铁、铜、锡等前期金属的矿脉，探矿仪中的数值表示该区块内含有这种矿物的总数量，&a而矿物生成的y轴请查看EMI&r。在对应区块寻找矿物，效率会高很多。有时候你会在地面上找到一些&a矿石标记物&r，别犹豫，下面也许就是大片的矿石！}"
-				""
-				"探矿仪标点重进游戏自动消失"
-			]
+			description: ["{格雷修改了原版的所有矿物生成，&4贸然的下矿会让你一无所获&r。使用探矿仪，找到含有铁、铜、锡等前期金属的矿脉，探矿仪中的数值表示该区块内含有这种矿物的总数量，&a而矿物生成的y轴请查看EMI&r。在对应区块寻找矿物，效率会高很多。有时候你会在地面上找到一些&a矿石标记物&r，别犹豫，下面也许就是大片的矿石！}"]
 			id: "1B4FFE71B4C66E14"
 			rewards: [
 				{
@@ -541,7 +538,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "下一章：齿轮力量"
+			subtitle: "记得收集安山岩呀~"
 			tasks: [{
 				id: "5674797F92F60D98"
 				item: "create:andesite_alloy"
@@ -596,24 +593,24 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description1}"
+				"目前整合包开发组人手非常紧缺，我们诚挚邀请对MC模组/整合包开发有兴趣的小伙伴加入开发组，一起打造更好玩的游戏体验！"
 				""
-				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description2}"
+				"如果你是MC领域大神：拥有丰富的模组或整合包游玩经验，熟悉本整合包内容，愿意参与&2任务编写、流程规划与玩法设计&r"
 				""
-				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description3}"
+				"如果你是代码领域大神：具备一定的MC游戏经验，掌握任意一门编程语言（不限于Java），欢迎加入&2模组开发与调试&r，一起写bug、修功能"
 				""
-				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description4}"
+				"如果你是其他领域大神：比如&2美术、模型、文案、翻译&r，或对科技/自动化类游戏有深入理解，只要你觉得能为整合包贡献一份力量，我们都欢迎！"
 				""
-				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description5}"
+				"以上都不是必须条件，只要你对MC有热爱，认同MC的社区文化，愿意和我们一起让这个整合包变得更有趣、更完整，我们就欢迎"
 				""
-				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description6}"
-				"{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.description7}"
+				"开发组目前是一个氛围友好、共同成长的团队，大部分成员也都是从零开始边学边做。只要你愿意投入，我们都乐意提供学习与实战的机会。"
+				"如果你对参与制作感兴趣，可以加入整合包交流群（QQ群号915521426）后@管理员了解更多。"
 			]
 			icon: "ctnhcore:ender_light"
 			id: "5F126DE1A7F425DA"
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.681E3140690307AA.quest5F126DE1A7F425DA.subtitle}"
+			subtitle: "QQ群号： 915521426"
 			tasks: [{
 				id: "686C86F01CDB3AD7"
 				title: "欢迎加入共创计划!"
@@ -1183,23 +1180,17 @@
 			y: 4.0d
 		}
 		{
-			description: [
-				"为了节省内存开支，MC会卸载玩家一定范围外的区块，被卸载的区块会进入时间停止状态"
-				""
-				"&a打开背包，左上角处有“FTB区块”图标，点击后左上角有“区块认领”图标，点击进入后左键以认领区块，Shift+左键以使区块保持加载；右键（Shift+右键）以取消对应操作"
-				"&r"
-				"区块认领/强加载上限更改需要在游戏外调整properties文件"
-			]
-			icon: "minecraft:map"
-			id: "3E35A8E79A4961C0"
-			subtitle: "我出去浪了这么久，家里的矿怎么还没烧好"
+			icon: "minecraft:compass"
+			id: "6E651439DD9EBEBA"
+			shape: "gear"
+			subtitle: "你可以通过/ctnh hand快速获取手中物品的名称、id、tag、nbt等实用信息"
 			tasks: [{
-				id: "075914B82290C97D"
-				title: "认领与加载区块"
+				id: "13145971FEFE9B58"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 6.5d
+			title: "快速获取手中物品数据"
+			x: -11.0d
+			y: 0.0d
 		}
 	]
 	title: "原始人，起洞！！"

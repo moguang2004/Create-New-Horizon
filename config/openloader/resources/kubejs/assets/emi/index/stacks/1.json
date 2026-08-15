@@ -76,7 +76,6 @@
 
     "/gtceu:(.*)_steam_turbine/",
     "/gtceu:shaped/(.*)_energy_converter/",
-    "/create:andesite_alloy/",
     "/enderio:vibrant_alloy_(.*)/",
     "/enderio:energetic_alloy_(.*)/",
     "/enderio:dark_steel_(.*)/",

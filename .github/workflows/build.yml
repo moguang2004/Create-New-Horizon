@@ -9,6 +9,11 @@ on:
         required: false
         type: boolean
         default: false
+      quest_dev_mode:
+        description: Quest dev mode - skip generating quest translation keys and skip pulling latest CTNH-Translations pack
+        required: false
+        type: boolean
+        default: true
   release:
     types: [published]
 
@@ -56,19 +61,39 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate CTNH quest translations
+      - name: Generate release quest translations
+        if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.quest_dev_mode != true)
         run: |
           python -m pip install --disable-pip-version-check -r .github/localization/requirements.txt
-          python .github/localization/ftbquest_localization.py push "${{ github.event.before }}"
+          python .github/localization/ftbquest_localization.py
           python .github/localization/chinese_converter.py
+          # Non-Chinese quest locales are shipped by the CTNH translation pack.
+          rm -f config/openloader/resources/ctnh_quests/assets/ctnh/lang/en_us.json \
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/ja_jp.json \
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/ru_ru.json
           rm -rf config/ftbquests/quests
           cp -a .github/localization/quests config/ftbquests/quests
+
+      - name: Pull latest translation pack
+        if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.quest_dev_mode != true)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TRANSLATIONS_REPO="CTNH-Team/CTNH-Translations"
+          ASSET_URL="$(gh api "repos/${TRANSLATIONS_REPO}/releases/latest" --jq '.assets[] | select(.name | startswith("CTNH-lang-all-locales-") and endswith(".zip")) | .browser_download_url' | head -n1)"
+          if [ -z "${ASSET_URL}" ]; then
+            echo "::warning::No all-locales translation asset in latest release of ${TRANSLATIONS_REPO}; skipping."
+            exit 0
+          fi
+          mkdir -p config/openloader/resources
+          curl -sL -o config/openloader/resources/CTNH-lang-all-locales.zip "${ASSET_URL}"
+          echo "Pulled ${ASSET_URL} -> config/openloader/resources/CTNH-lang-all-locales.zip"
 
       - name: Patch client version texts
         run: |
           MODPACK_VERSION="${{ steps.meta.outputs.version }}"
-          sed -i "s/^title=\(.*\)/title=\1 | v$MODPACK_VERSION/" kubejs/config/client.properties
           sed -i "s/^ModpackVersion = \".*\"/ModpackVersion = \"$MODPACK_VERSION\"/" config/ctnhchangelog-client.toml
+          sed -i "s/^modpackVersion = \".*\"/modpackVersion = \"$MODPACK_VERSION\"/" config/bcc-common.toml
 
       - name: Export and unzip
         run: |
@@ -158,11 +183,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate CTNH quest translations
+      - name: Generate release quest translations
+        if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && inputs.quest_dev_mode != true)
         run: |
           python -m pip install --disable-pip-version-check -r .github/localization/requirements.txt
-          python .github/localization/ftbquest_localization.py push "${{ github.event.before }}"
+          python .github/localization/ftbquest_localization.py
           python .github/localization/chinese_converter.py
+          # Non-Chinese quest locales are shipped by the CTNH translation pack.
+          rm -f config/openloader/resources/ctnh_quests/assets/ctnh/lang/en_us.json \
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/ja_jp.json \
+            config/openloader/resources/ctnh_quests/assets/ctnh/lang/ru_ru.json
           rm -rf config/ftbquests/quests
           cp -a .github/localization/quests config/ftbquests/quests
 
@@ -170,6 +200,11 @@ jobs:
         run: |
           ./packwiz refresh
           java -jar scripts/action/packwiz-installer-bootstrap.jar ./pack.toml
+
+      - name: Patch server version texts
+        run: |
+          MODPACK_VERSION="${{ steps.meta.outputs.version }}"
+          sed -i "s/^modpackVersion = \".*\"/modpackVersion = \"$MODPACK_VERSION\"/" config/bcc-common.toml
 
       - name: Remove client-only mods + pw metadata
         run: |

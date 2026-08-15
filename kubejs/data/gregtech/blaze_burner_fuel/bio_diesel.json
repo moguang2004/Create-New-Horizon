@@ -1,6 +1,0 @@
-{
-    "fluid": "gtceu:bio_diesel",
-    "burnTime": 100,
-    "superHeat": false,
-    "amountConsumedPerTick": 1
-}

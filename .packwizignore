@@ -1,5 +1,6 @@
 /${quickPlayPath}
 /.vscode/
+/.mimosa/
 /aes/
 /backups/
 /coremods/
@@ -45,6 +46,7 @@ natives-*/
 /DEVELOPMENT.md
 /.git*
 /.github/
+.codegraph
 /scripts/
 /LICENSE
 /LICENSE-ARTWORK
@@ -54,6 +56,7 @@ natives-*/
 /kubejs/probe/
 /.mixin.out/
 /TrashSlotSaveState.json
+/lightspeed-cache/
 
 resourcepacks/*
 !resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip
@@ -61,6 +64,7 @@ resourcepacks/*
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
 !resourcepacks/CTNH-Retextured.zip
 !resourcepacks/CTNH-FTBquesting-1.20.1-*.zip
+!resourcepacks/CTNH-lang-ctnh-questbook-AI.zip
 
 schematics/*
 !schematics/*工业血之祭坛.nbt
@@ -102,6 +106,7 @@ config/*
 !config/inventoryhud-client.toml
 !config/jei/jei-client.ini
 !config/ctnhchangelog-client.toml
+!config/bcc-common.toml
 !config/ali
 !config/gtmqol.json
 !config/openloader

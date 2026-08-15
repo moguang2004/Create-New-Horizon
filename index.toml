@@ -1,26 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".idea/Create-New-Horizon.iml"
-hash = "c96ea0b5b29abb7d5807671dd208fd63f63694dd236335d2fe8c074e89e94aa6"
-
-[[files]]
-file = ".idea/misc.xml"
-hash = "2ccd4e2990e1d94717af9fb262ac828030fe251a035264958926b8d6e3f8a7b8"
-
-[[files]]
-file = ".idea/modules.xml"
-hash = "fda1ba9bd47471a24ba1dadfb5a720c3e5a9b5532701cf44b06103278029ddad"
-
-[[files]]
-file = ".idea/vcs.xml"
-hash = "62be7e0a7f84ab3c35b4d4bafb890a4951d061eadafde1a10aa3f5d0406db5df"
-
-[[files]]
-file = ".idea/workspace.xml"
-hash = "e0cc3fa6212223b4f8fd1f9cc1829273e69141bbd5d50b4cde7b1f1c08435742"
-
-[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -493,6 +473,10 @@ file = "config/attributefix.json"
 hash = "1512d406cadc2d6ddfb2e687aed16f91bf9043ff79d38ccaba40ee7ca91573e7"
 
 [[files]]
+file = "config/bcc-common.toml"
+hash = "3622ebbb958adabba280f96b501a4a7e20e9698d1a3f8d25750e5d60cfcae33d"
+
+[[files]]
 file = "config/biomesoplenty/biome_toggles.json"
 hash = "a0306bc50c6fecfb5d0a97b912cd98629c24b54ea94f46c0293e1b1c2d28e629"
 
@@ -562,7 +546,7 @@ hash = "9acb3c143c7dc24259b0d999458ade9ad6be43d82302d399302bbaa0357045e8"
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
-hash = "e798ceddada0c7079ba173f9aa7932a9b50dc5b25b4ed125c1d5cc74a040f182"
+hash = "ff82e59a35616445bc15dfd31b5de2e663f39cf6a7d95fec6b456835d09f354e"
 
 [[files]]
 file = "config/extrabotany-common.toml"
@@ -686,7 +670,7 @@ hash = "89f5c45a18b8f5fd0c1546d680893b9e2e3fa790386b29ff61feb8cf99191875"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/142AC829C9062F15.snbt"
-hash = "5fd934b537b6b92a6e9ef087fc1437a4ee7872fabbe64ea8bd212f43b753b034"
+hash = "ed25256ff6bd1be7c39d6a107dfe9ec516b66016deb96421e7cb392bf618bddf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/15B8D9F4A2A19BFA.snbt"
@@ -698,7 +682,7 @@ hash = "8a49092e62e472fffb5e5ee71a2a55453e9d3f4ac3bb1c45283d5764f3a9edec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1E8D7AF132D696EC.snbt"
-hash = "76c45968fc9f15ff745bd30df2c00b86a1a0b6e371c72847f04e811c71d5ad4e"
+hash = "1770f2598b6198f5f0b6a3c1eb08f80a21fb95f6495750039d0f75729ae19aaf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/21875E2B94FA20FF.snbt"
@@ -710,15 +694,15 @@ hash = "02deed4f54b386177d56f869ed096cd0174dd5c3d5da9f94e06972e5fb73e76b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2CEAD5605C416218.snbt"
-hash = "4b5de3613f9adc4130a867cb6a98aa978cc543aeeeb6ba884f77956650c2df26"
+hash = "5203f344b08d87ae604b36ba11e179a974a5b806470485a125f3636106b738ff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/387655B3E5BE4912.snbt"
-hash = "4080d944b110393b0dcd0f68af6599f3ff8d31b53190fbb5821ec55d01637f2f"
+hash = "15ae55d2d84a33071739adc50e12dbb5d4890a710c46c1ec6f4d643542098fae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/418C24A6E3A8BE97.snbt"
-hash = "161289f300fddf4968ed27c6c5fdea294de4ad4a0ff8b8c28bcc6a064ace117a"
+hash = "e89a820ec88c114c72d2a632379cf6d5361179fdb55643cab3139f73ff548265"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
@@ -734,7 +718,7 @@ hash = "a4a563f9e2875d96f3e684c2c24241d4f299d18d50e589e33c8764bfc34c78ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4EE5451097565A1A.snbt"
-hash = "7e1dcefe1f74da30294343309e9222ce0d447f2bddd5f7095d11076f36d0782f"
+hash = "e7ca13667b4c45d8de365500bdd4eea626485d325bb5c59abab819e197d3d653"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/596370001FE6E99B.snbt"
@@ -742,7 +726,7 @@ hash = "0348927b8c5ec2f4b397552ebcf87ccddd04c3c1d6324be7f96fda8bb3675c45"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5DEE038949883E18.snbt"
-hash = "aa1e13f5f0d061c6122a9c6a70bf1c4120f983fbe28a1f5d94b96752aa23535f"
+hash = "a983710aa6eeb3c01296582fcc4d1efe2789e4813dce562563e8821b4f8f0931"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/609746CF8BE6A11E.snbt"
@@ -754,7 +738,7 @@ hash = "40699adad5810cccda047c72f19da8642acf5b2804e1f3fa44abd4f34017e2b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
-hash = "83918bfa7057578e56d3859733a25636e9d6ef1538de29e700b5d15c973dde20"
+hash = "9b7166f5d7a6bf2038490bb8f483ed96db909fb264d186ef0bba32042b7983da"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
@@ -762,7 +746,7 @@ hash = "27ae33fdd44d145ab9257dba1065a21b2f381143abfa2c43906c6a00e7ac9963"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/74D640CFCA75E891.snbt"
-hash = "2f26c2ede42bc99193c42337c4e4cfe63c018ac68843bfb772d0dd8137f43688"
+hash = "8dbe037962a3bc0ac9f4b6cd9909182552476acddb651a7a1bd6e80494f923cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
@@ -774,11 +758,11 @@ hash = "2a15f9fc91d99b0892c71c29083ec6ea2fedf79c5071d8fd4721e3f1df483bae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "86fa0e33c3bf9d9fef62c1b2cd4deb72653a6c59caf2bf2d6e4fcb06d3bf4274"
+hash = "a3dd29911a0476fb8fd093e9b53aa60590f1aa8f9f2419759fb3dd800c254559"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "cfdc9119465ae70570ae1d9f4def2e1e84cc2f06c38ac8b43d9c0a0231cb165c"
+hash = "856d782010a18929f86736cd80108bdcc30a5dffd9d087d80a377427a2602bf3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
@@ -786,7 +770,7 @@ hash = "860ced42307c6eac83c255b91d4c0623ca2b4433b7040fffba08ecefac1ab96a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
-hash = "5ab26109756afd249d14577891e9e9bd415a7d6dd1ddc385f7cf5de9a0b0696e"
+hash = "650cc5531a2878b48154cb2a7542a4d75bb4df8bfa56fc48a73b75461297ae67"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
@@ -802,15 +786,15 @@ hash = "0ccd56b52cbc202011008e3975e4cdab87270a5df2c737b75910f101c0d08452"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uhv.snbt"
-hash = "2b04b6d543e753b72a5bcd37ed29df10b2be8743eb386727946e04d818486e51"
+hash = "e7c4bdd8806539c0f06b95fc88c353d55a8b19db00b9f6eef344beacbc490b88"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
-hash = "a506bc5cb07356279f021b647a1b034ac88f7e642337c91f0f95fa0aceafcc09"
+hash = "7932ef4ea796124fa8732f54e6314efcb4c6256247501dd7ea2f333423d67d72"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
-hash = "f005fbd4722e62b6bc59edf524f79494d3c4dee76a8b0036d6851c4b1e7bf974"
+hash = "f55d0cff958d2d617520c366ec57fac48de51b29fe83fda624eb808ff1935bf6"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -914,11 +898,11 @@ hash = "db1a46802bbbe9b0723308c1413ecee26b816d6e200de5c8b00fefc3812a0f17"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "d9e6da359ab66ea9aeafd3a92706721e4721f6adbb99c3973fc44c838cdadf61"
+hash = "0520e169b921e4feb764409b8d52a9556d76f4260d05465c4edfb5e704b8559e"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "c25efb80b40e71edf0c6dbececa4f26b199ff1e3ed3b733f8479f2f1121b1543"
+hash = "2f6810f507a877ffd0f71125daafee89e95e02b23ab2397b38f56a2b526a2595"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
@@ -4797,34 +4781,6 @@ file = "config/openloader/data/kubejs/pack.mcmeta"
 hash = "a27949afeee533c6e3e71dca90098a577002b5c3211a4b7ee46f386f1d4d049b"
 
 [[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/en_us.json"
-hash = "c856a2563f00c7f30f67503c625a132d278a6a97495585fc1b0f9c237fd18a34"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/ja_jp.json"
-hash = "c856a2563f00c7f30f67503c625a132d278a6a97495585fc1b0f9c237fd18a34"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/ru_ru.json"
-hash = "c856a2563f00c7f30f67503c625a132d278a6a97495585fc1b0f9c237fd18a34"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/zh_cn.json"
-hash = "c856a2563f00c7f30f67503c625a132d278a6a97495585fc1b0f9c237fd18a34"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/zh_hk.json"
-hash = "cadc4fa8c71f97c7f3338e5a302f9f3f0d62e982933da5cc88f6e1314717bb4e"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/assets/ctnh/lang/zh_tw.json"
-hash = "7c149e5523cf797022b43648acd272c3514cd10ddda55e370febad58fbc56b62"
-
-[[files]]
-file = "config/openloader/resources/ctnh_quests/pack.mcmeta"
-hash = "c3298a34346e1adc9d1fe32b8744fbec58158a4d1033f34ce07c09fc248a5837"
-
-[[files]]
 file = "config/openloader/resources/kubejs/assets/ad_astra/lang/zh_cn.json"
 hash = "6178352353c9ab2993c64faf853603d8d676f9dca6ed5d1a068299f44994e493"
 
@@ -6226,7 +6182,7 @@ hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
 
 [[files]]
 file = "config/openloader/resources/kubejs/assets/emi/index/stacks/1.json"
-hash = "7ffd62784d74949c471dbd9a3c4ce03b53aebff1c74ea44042932dab67d99e75"
+hash = "3694b9e30eb8c752f2418a5006c90ccc740c9f9a998175c7e30fb11f84397036"
 
 [[files]]
 file = "config/openloader/resources/kubejs/assets/enderio/lang/zh_cn.json"
@@ -8587,6 +8543,11 @@ hash = "31aaa816fcae2ebd6a51e0607519b740453bd1891f1eda0e9b62e268f7f49429"
 metafile = true
 
 [[files]]
+file = "mods/better-compatibility-checker.pw.toml"
+hash = "a167c88b43b73530c14b77d8cfa8c3546ee665ffa317f0451a6767e46bdae0de"
+metafile = true
+
+[[files]]
 file = "mods/better-mods-button.pw.toml"
 hash = "1aa536647863b0cd194eaed5896bee9703484b6f8ea9ae309491bb426ff55de8"
 metafile = true
@@ -8758,7 +8719,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "d5318b9bd65cac7ebd1e93cf67a3b1ed0081bae714cd4e736219cf347cd87a43"
+hash = "47736af1584283072d721e4f2700929a0fabe67b36e2175fc48b0964db70ab8b"
 metafile = true
 
 [[files]]
@@ -8803,7 +8764,7 @@ metafile = true
 
 [[files]]
 file = "mods/ecliptic-seasons.pw.toml"
-hash = "da298ff9aa61db7198a733467c870f47b670ae57a19453891942c5f61aa37062"
+hash = "de0bdf82bfdd20886ba176e588af01c745c8563a61f4ce4e0e16e25609fc5760"
 metafile = true
 
 [[files]]
@@ -8894,6 +8855,11 @@ metafile = true
 [[files]]
 file = "mods/farming-for-blockheads.pw.toml"
 hash = "53e68901188009862563149dcd8415106f8ab125f25995831729a7512cc953fa"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "a04ef61e1fbb9f123034b8016877a45ac3248f47cb53a528d0436a03924073a9"
 metafile = true
 
 [[files]]
@@ -9012,6 +8978,11 @@ hash = "a63220dfb2ddfe2a98155a712935cc1803b14d89d7fd2a8dd27ef98c8fbecae1"
 metafile = true
 
 [[files]]
+file = "mods/imblocker.pw.toml"
+hash = "f34ec0d82faf8b5b386042e50a797c47caffc02f70a56890869d68111e6a7221"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "e339ce21a2fcda8c6bdd7183edc37bb1c6e85a1c5a59eca26cbfb7a1b37dd548"
 metafile = true
@@ -9109,6 +9080,11 @@ metafile = true
 [[files]]
 file = "mods/libx.pw.toml"
 hash = "4991ee25978a49afc20c8d5ca163f809d4345a95071d00db4d08e73cc9e5a6fc"
+metafile = true
+
+[[files]]
+file = "mods/lightspeedre-launch-optimizations.pw.toml"
+hash = "4654d2e6ae0daf726a2b1c7a7d1847ae28267b8a53d425abddb6b121708a3bd2"
 metafile = true
 
 [[files]]
@@ -9287,11 +9263,6 @@ hash = "6e5b83809f2eb853e57e832764d347eade9cebcc6726f2fb46ab2935e6f3ec27"
 metafile = true
 
 [[files]]
-file = "mods/programmed-circuit-card.pw.toml"
-hash = "7fc1653e0b9df75f9b0162206bed756db5048e1f6c4f6587baafb99dc656f12d"
-metafile = true
-
-[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "ac8ae4bc1d5bde1f63f6497c82b251c533d4be67666cf5dc7d9ea75dd827c12c"
 metafile = true
@@ -9453,7 +9424,7 @@ metafile = true
 
 [[files]]
 file = "mods/twilights-flavors-delight.pw.toml"
-hash = "87c2c09a1b377b42f945aeeedafd1ddbb153a78097b75dfd909a0843aaaacd57"
+hash = "e262c76bef362bf50d673acf1dc48e4a31fce4d0e6f7dcca8dd610b06c12908f"
 metafile = true
 
 [[files]]
@@ -9503,7 +9474,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "830317c9b8448737dd9d58faa42ad5aa07c5bec3bbe4f6668c87b5b9bcca61f2"
+hash = "a9eef5f6f1fdc2157040eeabe12142995780fca7a614f9704b70b6a0eea397d4"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"
@@ -9520,6 +9491,10 @@ hash = "f05b71bf98ec3b97010b1665eb76f1aa907b5d6ae753d16733a29ef3116c779b"
 [[files]]
 file = "resourcepacks/CTNH-Retextured.zip"
 hash = "6deaab32f77cfcd21af5669e765010c4557f96b840b5e91c26cd041628c47243"
+
+[[files]]
+file = "resourcepacks/CTNH-lang-ctnh-questbook-AI.zip"
+hash = "49e2c62461c14812576ffebc5c761f0203604a3028db44bf9913602da69400a4"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip"

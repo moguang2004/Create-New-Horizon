@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_fluid",
-  "fluid": {
-    "amount": 144,
-    "tag": "forge:snow_steel"
-  },
-  "output": "gtceu:snow_steel",
-  "temperature": 700
-}

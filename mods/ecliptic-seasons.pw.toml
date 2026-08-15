@@ -1,12 +1,13 @@
 name = "Ecliptic Seasons"
-filename = "EclipticSeasons-1.20.1-forge-0.11.6.0.1-all.jar"
+filename = "EclipticSeasons-1.20.1-forge-0.13.10-hotfix-7-build-185-all.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b7901f487fc314e8cd3b930a0eb50f449485fbde"
-url = "https://edge.forgecdn.net/files/6752/783/EclipticSeasons-1.20.1-forge-0.11.6.0.1-all.jar"
+hash = "4eafa09f119b2d63176c1ecd12bf8d0bd2b715c0"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6752783
+file-id = 8601367
 project-id = 1118306

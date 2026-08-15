@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.curseforge.com/minecraft/modpacks/ctnh">
-    <img src="kubejs/assets/ctnh/textures/readme_image/title2.png" alt="Logo" width="1013">
+    <img src="config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\title2.png" alt="Logo" width="1013">
   </a>
 </p>
 
@@ -113,10 +113,10 @@ All artwork (images, textures, models, animations, etc.) is licensed under the [
 ---
 
 ## 游戏内截图展示
-![task1](kubejs/assets/ctnh/textures/readme_image/guide1.jpg)
-![tsak2](kubejs/assets/ctnh/textures/readme_image/guide2.jpg)
+![task1](config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/guide1.jpg)
+![tsak2](config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/guide2.jpg)
 带有机械动力特色的格雷机器
-![windmill](kubejs/assets/ctnh/textures/readme_image/windmill_control.jpg)
+![windmill](config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/windmill_control.jpg)
 
 ---
 

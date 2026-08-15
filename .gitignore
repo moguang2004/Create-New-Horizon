@@ -5,6 +5,7 @@ packwiz-installer.jar
 .cache/
 __pycache__/
 /.github/localization/quests/
+.mimosa/
 
 /Xaero*/
 /daimashili.ini
@@ -90,6 +91,7 @@ versions/dev/PCL/Setup.ini
 /servers.dat_old
 .idea
 /tlm_custom_pack/
+/lightspeed-cache/
 
 resourcepacks/*
 !resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip
@@ -97,6 +99,7 @@ resourcepacks/*
 !resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
 !resourcepacks/CTNH-Retextured.zip
 !resourcepacks/CTNH-FTBquesting-1.20.1-*.zip
+!resourcepacks/CTNH-lang-ctnh-questbook-AI.zip
 
 schematics/*
 !schematics/*工业血之祭坛.nbt
@@ -137,6 +140,7 @@ config/*
 !config/twilightforest-common.toml
 !config/sophisticatedcore-common.toml
 !config/ctnhchangelog-client.toml
+!config/bcc-common.toml
 !config/tconstruct-common.toml
 !config/inventoryhud-client.toml
 !config/merequester-common.toml
