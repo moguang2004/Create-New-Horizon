@@ -386,7 +386,7 @@
 					type: "choice"
 				}
 			]
-			shape: "square"
+			shape: "gear"
 			size: 2.0d
 			subtitle: "很酷，是吧？"
 			tasks: [{
@@ -417,7 +417,7 @@
 			dependencies: ["771A64A5BFE12D7C"]
 			description: ["机械合成：细铜导线+安山合金板+基础电路板+精密构件。"]
 			id: "17FF1738E246A1EA"
-			shape: "square"
+			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				id: "2289577FD438FAA1"
@@ -746,6 +746,17 @@
 			title: "ULV应力输入箱"
 			x: 4.5d
 			y: -4.0d
+		}
+		{
+			description: ["&b输出仓/超级缸&r的机器页面内有一个“流体锁定槽”，默认显示为空，放入流体以锁定何种流体会从这个仓室输出/进入这个储罐"]
+			id: "12FA067F8AFF9F2C"
+			tasks: [{
+				id: "740698D3F99A035D"
+				title: "流体锁定"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -6.0d
 		}
 	]
 	title: "钢铁雄心"
