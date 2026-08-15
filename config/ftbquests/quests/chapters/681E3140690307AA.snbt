@@ -1,0 +1,1207 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "681E3140690307AA"
+	group: ""
+	icon: "minecraft:oak_log"
+	id: "681E3140690307AA"
+	images: [
+		{
+			height: 1.0d
+			image: "create:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "gtceu:textures/gui/icon/gregtech_logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.3d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "bloodmagic:item/altarmaker"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.2d
+			y: -0.25d
+		}
+		{
+			height: 1.0d
+			image: "botania:item/corporea_spark_creative"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -0.25d
+		}
+		{
+			corner: true
+			height: 5.0d
+			image: "ftbquests:textures/title2.png"
+			order: -1
+			rotation: 0.0d
+			width: 18.55072463768116d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/drygmy_shard"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.2d
+			image: "biomancy:textures/mob_effect/despoil.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "farmersdelight:block/stove_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "44C7FE559ECFB2EB"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "本整合包目前处于内测状态，许多机制未完善，请酌情游玩，如有建议欢迎提出"
+			tasks: [{
+				id: "5CE79CE60BD5FC4D"
+				title: "欢迎来到CTNH!"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&4别把附魔有“绑定诅咒”的物品装备到身上然后死亡"
+				"&r这俩机制会冲突，然后对你的内存进行爆破！卡死！呃啊！"
+			]
+			icon: "gravestone:gravestone"
+			id: "5C2320A3B3E10E11"
+			optional: true
+			subtitle: "死亡后身上的物品会被打包进一个小墓碑里，破坏后即可取回"
+			tasks: [{
+				id: "1769E6600040B278"
+				title: "传说生存"
+				type: "checkmark"
+			}]
+			title: "板板会收好你的物品"
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			description: ["{ &e   格雷科技（GregTech）&r，在本整合包的任务中将其简称为&eGT&r。}"]
+			icon: "gtceu:gregification_hazard_sign_block"
+			id: "6709D9DF2EA0432B"
+			size: 1.0d
+			subtitle: "格雷科技是本整合包的主线科技，也许你曾听说过它的大名，但是不要担心，只要一步一步遵循任务线进行，一定能给你带来一个良好的游戏体验！"
+			tasks: [{
+				id: "0159C516B579DCAF"
+				title: "格雷科技"
+				type: "checkmark"
+			}]
+			title: "格雷科技（GT）"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			description: ["{ &e   机械动力（Create）&r，在本整合包的任务中会将其简称为&eCT&r。}"]
+			hide_dependency_lines: false
+			icon: "create:wrench"
+			id: "6E097A8CDC0BF608"
+			rewards: [{
+				id: "1E44EED1C4FA4660"
+				item: "create:goggles"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "没错，就是它"
+			tasks: [{
+				id: "09D536FDA05E00B8"
+				title: "机械动力"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			icon: "botania:livingrock"
+			id: "39CA84C1EBF5FF02"
+			subtitle: "一个很棒的魔法模组，会融入主线之中"
+			tasks: [{
+				id: "3779765761C83EA7"
+				title: "植物魔法"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			icon: "bloodmagic:daggerofsacrifice"
+			id: "021CE5551CB203F9"
+			subtitle: "同样是很棒的模组，也会融入主线之中"
+			tasks: [{
+				id: "5573A2DD9A403E16"
+				title: "血魔法"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B4FFE71B4C66E14"]
+			description: [
+				"{&eGT&r矿物已经默认可以连锁了！}"
+				""
+				"{如果你无法连锁&eGT&r矿物，可以检查&eCTNH Core&r的模组设置}"
+			]
+			id: "4B11E32ACA7BC6FA"
+			rewards: [{
+				id: "27087F6F952C831D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "默认按~启用"
+			tasks: [{
+				id: "6344812C1EC2C585"
+				title: "还有更多"
+				type: "checkmark"
+			}]
+			title: "连锁挖矿"
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7500E7310C70727B"]
+			id: "6F405D2508EED283"
+			rewards: [{
+				count: 64
+				id: "3DAAAA2A3D113E16"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				id: "737374C23974ABF8"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"31554E021ECE6572"
+				"40A1122E78D1C205"
+				"6B18CFDF49D20411"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"皮革在游戏前期有许多用处。"
+				"&e精妙背包&r和&e精妙存储&r的各项升级（作用指路->&6《实用小工具》&r）"
+				"一套简便的&b旅行者&r套装（看不懂那些词条都是什么作用？打开你的&d匠魂宝典&r！）"
+				"现在制作&eCT&r的&d传送带&r也需要皮革，而接下来你会经常用到它。"
+				"尽可能多的收集吧！"
+			]
+			id: "611BCC64F1F511AA"
+			optional: true
+			rewards: [
+				{
+					id: "38900AA3B17D11BB"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AD1847BC349708E"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BA9DB98DB8DDD0D"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3734736264B0B488"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "柔软顺滑，保暖适肤"
+			tasks: [{
+				count: 4L
+				id: "2B699EAFD14FE1D7"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "皮革"
+			x: -10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6F405D2508EED283"]
+			description: [
+				"{格雷修改了原版的所有矿物生成，&4贸然的下矿会让你一无所获&r。使用探矿仪，找到含有铁、铜、锡等前期金属的矿脉，探矿仪中的数值表示该区块内含有这种矿物的总数量，&a而矿物生成的y轴请查看EMI&r。在对应区块寻找矿物，效率会高很多。有时候你会在地面上找到一些&a矿石标记物&r，别犹豫，下面也许就是大片的矿石！}"
+				""
+				"探矿仪标点重进游戏自动消失"
+			]
+			id: "1B4FFE71B4C66E14"
+			rewards: [
+				{
+					id: "041A24BFFAF6E5F1"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.lv"
+						tag: {
+							Charge: 100000
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "63706A0B750DCFD1"
+					item: {
+						Count: 1
+						id: "gtceu:rose_gold_mining_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}]
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+							}
+							GT.Tool: {
+								HarvestLevel: 2
+								MaxDamage: 2303
+								ToolSpeed: 8.8f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65CFC58A5274FA92"
+					item: "artifacts:night_vision_goggles"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "别随便下矿洞（矿锤可以在小市场购买）"
+			tasks: [{
+				id: "02CB7B2250363B17"
+				title: "挖矿"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6F405D2508EED283"]
+			description: [""]
+			id: "4157A965AA4E18D2"
+			rewards: [
+				{
+					count: 16
+					id: "429080A5C2A4BE82"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4EB177EA54EF6910"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "67A631D40E83AEF4"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "宅家发展，不二之选！"
+			tasks: [{
+				count: 16L
+				id: "6ACD95E8150EA4EC"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			title: "种田"
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4B11E32ACA7BC6FA"]
+			description: ["{不一定非要挖相同的矿石，此任务仅起到指示作用}"]
+			icon: "gtceu:raw_magnetite"
+			id: "6639C6A3A5807AED"
+			optional: true
+			subtitle: "一些前期需要的矿石"
+			tasks: [
+				{
+					count: 16L
+					id: "572CAD4F00EDE86F"
+					item: "gtceu:raw_pyrite"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "44D72C7C2A7340A3"
+					item: "gtceu:raw_chalcopyrite"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "40CB9F4CCC5676E3"
+					item: "gtceu:raw_cassiterite"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "44084C15D291F6BC"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0252284CC227D88B"
+					item: "gtceu:raw_malachite"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3427782A2B758FA8"
+					item: "gtceu:raw_magnetite"
+					type: "item"
+				}
+			]
+			title: "矿物"
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1B4FFE71B4C66E14"]
+			icon: "minecraft:iron_ingot"
+			id: "5BA86B01337A91D5"
+			rewards: [
+				{
+					count: 6
+					id: "483BC3FCAAF458B6"
+					item: "minecraft:raw_iron_block"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3A2FD8CBEF8FACD5"
+					item: "minecraft:raw_copper_block"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "铁是铁......铜是橙色铁......"
+			tasks: [
+				{
+					count: 16L
+					id: "22D98D01343215B0"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7FA9438D1DF9D76E"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "矿物锭"
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"27C30CC438658E3E"
+				"337BC9186C014A06"
+			]
+			id: "09C344717F4BAD6C"
+			rewards: [{
+				count: 2
+				id: "323245D0CF7D2E17"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "做这东西花了我老半天"
+			tasks: [{
+				id: "58CDFF594C3E0249"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["42BC9DB741D0AD70"]
+			id: "27C30CC438658E3E"
+			rewards: [{
+				count: 4
+				id: "18328F48D1E17C33"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			subtitle: "有很多你熟悉的东西需要燧石来合成"
+			tasks: [{
+				count: 4L
+				id: "4F80DC03536AE638"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5BA86B01337A91D5"]
+			description: [
+				"{早期安山合金的合成很昂贵，可以省着使用，后面会有更便宜的制作方式，注意查看EMI.}"
+				"{&a你的第一块合金，同时也是开启机械动力的钥匙&r}"
+			]
+			id: "7FA90252C6CC19F0"
+			rewards: [{
+				count: 16
+				id: "21B2712168A767A0"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "下一章：齿轮力量"
+			tasks: [{
+				id: "5674797F92F60D98"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["42BC9DB741D0AD70"]
+			description: [
+				"{每一个伟大的梦想，都起源于一个微不足道的开始}"
+				"{&oThe title is a Chinese saying about how to play MC(要致富，先撸树). I think you know what it is saying, isn't it?&r}"
+			]
+			id: "337BC9186C014A06"
+			rewards: [{
+				id: "7AB979CCE51A3B59"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			tasks: [{
+				id: "53BD9501D90EA729"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "任何 #minecraft:logs"
+				type: "item"
+			}]
+			title: "要致富，先撸树"
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			description: ["{许多物品的配方可能与原版发生了一些变动，请大家在游玩时注意多查看EMI。同时，对于科技包的新手，每一个任务的描述都是十分重要的，可以&a帮助你更快理解游戏的基本玩法和流程&r，也请大家多多关注！}"]
+			hide_dependency_lines: true
+			icon: "botania:crafting_halo"
+			id: "1FB23D66088398BC"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "查制作获取方式按R，查作用按U"
+			tasks: [{
+				id: "519EA59FDB4B479F"
+				title: "多查查EMI"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"目前整合包开发组人手非常紧缺，我们诚挚邀请对MC模组/整合包开发有兴趣的小伙伴加入开发组，一起打造更好玩的游戏体验！"
+				""
+				"如果你是MC领域大神：拥有丰富的模组或整合包游玩经验，熟悉本整合包内容，愿意参与&2任务编写、流程规划与玩法设计&r"
+				""
+				"如果你是代码领域大神：具备一定的MC游戏经验，掌握任意一门编程语言（不限于Java），欢迎加入&2模组开发与调试&r，一起写bug、修功能"
+				""
+				"如果你是其他领域大神：比如&2美术、模型、文案、翻译&r，或对科技/自动化类游戏有深入理解，只要你觉得能为整合包贡献一份力量，我们都欢迎！"
+				""
+				"以上都不是必须条件，只要你对MC有热爱，认同MC的社区文化，愿意和我们一起让这个整合包变得更有趣、更完整，我们就欢迎"
+				""
+				"开发组目前是一个氛围友好、共同成长的团队，大部分成员也都是从零开始边学边做。只要你愿意投入，我们都乐意提供学习与实战的机会。"
+				""
+				"如果你对参与制作感兴趣，可以加入整合包交流群（QQ群号915521426）后@管理员了解更多。"
+			]
+			icon: "ctnhcore:ender_light"
+			id: "5F126DE1A7F425DA"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "QQ群号： 915521426"
+			tasks: [{
+				id: "686C86F01CDB3AD7"
+				title: "欢迎加入共创计划!"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09C344717F4BAD6C"]
+			description: ["可以用来钩高处然后跳上去，也可以在坠落时钩住附近的方块让你不会摔死"]
+			id: "38F0B3A80DCBCCAB"
+			subtitle: "钩爪，可以升级,按C使用"
+			tasks: [{
+				id: "30F5D34763CCF5B5"
+				item: "rehooked:wood_hook"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			icon: "ars_nouveau:novice_spell_book"
+			id: "414BFFE0E7A3C868"
+			subtitle: "强力的魔法mod "
+			tasks: [{
+				id: "4FF903F607617ED3"
+				title: "新生魔艺"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			description: ["{  生物与科技的结合}"]
+			icon: "biomancy:primordial_core"
+			id: "2AC892D111A8FA83"
+			rewards: [{
+				id: "3E2FCBC05DB451DE"
+				item: {
+					Count: 1
+					id: "ctnhbio:damascus_steel_boning_knife"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "biomancy:despoil"
+							lvl: 3
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 8.0f
+							AttackSpeed: -1.9000001f
+							MaxDamage: 1024
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "有点克，有点..."
+			tasks: [{
+				id: "5A99B7C4816A6CF4"
+				item: "biomancy:living_flesh"
+				type: "item"
+			}]
+			title: "血肉重铸"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "42BC9DB741D0AD70"
+			size: 2.0d
+			subtitle: "这是你主线上的第一个任务"
+			tasks: [{
+				id: "51D08D5ED0A791B8"
+				title: "从此开始你的CTNH之旅"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["09C344717F4BAD6C"]
+			id: "7500E7310C70727B"
+			subtitle: "你知道应该怎么做"
+			tasks: [{
+				id: "2FCDC90FC081C247"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["09C344717F4BAD6C"]
+			id: "31554E021ECE6572"
+			subtitle: "用这把剑杀掉的动物可以直接掉落熟肉，非常方便"
+			tasks: [{
+				id: "640D0069BFD1C069"
+				item: {
+					Count: 1
+					id: "gtceu:flint_sword"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 4.0f
+							AttackSpeed: -2.4f
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4157A965AA4E18D2"]
+			description: [""]
+			id: "62CFB5898D0A96E4"
+			rewards: [{
+				id: "58B9A790455D3D3D"
+				item: {
+					Count: 1
+					id: "gtceu:diamond_hoe"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 767
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "一分耕耘，一分收获"
+			tasks: [{
+				id: "7FCC30F090B016F5"
+				item: {
+					Count: 1
+					id: "minecraft:stone_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6F405D2508EED283"]
+			description: ["{本整合包里地形多样，群系丰富，不少可以收集的自然资源在未来都能给你提供很大的帮助(某些神秘结构也可以给你带来前期的物资)，请尽情探索吧！}"]
+			id: "7F3D3CD93589D286"
+			rewards: [{
+				id: "799312A73A8C9467"
+				item: {
+					Count: 1
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "minecraft:swiftness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "见[大千世界]章节"
+			tasks: [{
+				id: "2BC1BCB3ECAB5715"
+				title: "在急着推进主线之前，先感受一下这个世界吧"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			id: "323BCD9A004CC866"
+			rewards: [{
+				id: "399754B0FFC81EC9"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			subtitle: "可以获得大量的线"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_eye"
+				id: "7552031B91779E80"
+				type: "kill"
+				value: 10L
+			}]
+			title: "蜘蛛猎人"
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"0E5EEE6DC4DC4DD8"
+				"77DF7C0A366D69B4"
+			]
+			id: "63F7EE58C223B854"
+			subtitle: "帮你平安度过黑夜"
+			tasks: [{
+				id: "450DB2BE1C29E8D2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "床"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			id: "0E5EEE6DC4DC4DD8"
+			subtitle: "这是迫不得已的"
+			tasks: [{
+				count: 2L
+				id: "3BD752787B356821"
+				item: {
+					Count: 2
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "羊毛"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.5d
+		}
+		{
+			description: ["{如果你在晚上遇到一道闪电从天而降，那就是神化小Boss刷新了}"]
+			id: "2E0859396D8A4E6D"
+			rewards: [{
+				count: 4
+				id: "7E11B474CDC7B0D5"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			subtitle: "打得过就打，打不过就跑"
+			tasks: [{
+				id: "08A4E2132E7F1A97"
+				title: "神化小Boss"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5BA86B01337A91D5"]
+			id: "2FC55C36F244A34F"
+			rewards: [{
+				id: "75FEE738B110015C"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			subtitle: "其实就是营火Plus"
+			tasks: [{
+				id: "365616DAF25D746D"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1B4FFE71B4C66E14"]
+			description: [
+				"{  右键打开，放在物品栏中或装备在饰品栏“背包”位置时可通过快捷键（默认为B）打开。}"
+				"{  shift+右键可以将背包放置在地上（或拿起），此时可以通过右键打开（就像箱子），也可以通过任何物流手段进行物品的输入输出。}"
+				"{  背包的数据并不依赖于背包物品存在。若背包不慎丢失，可通过 /sophisticatedbackpacks list 指令查看所有背包并恢复。}"
+				"{  更多用法可前往“存储的艺术”章节查看。}"
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "04C7933B3E7709CE"
+			rewards: [{
+				id: "170CFDAA247F0E2D"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			subtitle: "稍后你还可以对它进行升级"
+			tasks: [{
+				id: "40600AC46CAF10C4"
+				type: "checkmark"
+			}]
+			title: "背起行囊"
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			description: ["&2生活调味料&r加入了&n血量上限随着品鉴食物数量增加而增加&r的设定（非线性），而这本书可以查看还有哪些食物没吃过、距离下次增加血量还要吃多少食物等信息"]
+			id: "76C15DB805BE1D12"
+			rewards: [{
+				id: "3F4FAE4DA2B568C7"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			subtitle: "成为美食家吧"
+			tasks: [{
+				id: "06AAAB63BC2803F0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				type: "item"
+			}]
+			title: "农夫乐事"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F3D3CD93589D286"]
+			description: [
+				"{在本整合包中，下界、末地、天境和暮色森林均需要对应权限才能进入。通过推进科技、完成相应任务可解锁权限。}"
+				"{外星维度则无限制。}"
+			]
+			id: "7C11E76AA3AA3E9E"
+			rewards: [{
+				id: "4F6B5982F58A6F9B"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			subtitle: "怎么去不了下界了？"
+			tasks: [{
+				id: "5A1A87B1DFA5172C"
+				title: "维度封锁"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			description: [
+				"{按住CTRL+K可以打开ModernUI界面，选择偏好设置，向左拖动鼠标滑到右边的界面内，找到首选字体家族，点击当前字体可以更换其他字体}"
+				"{如果要字体添加字体也可以将需要添加的字体以ttf的格式放入：版本文件夹→config→ModernUI根目录下}"
+				"{最后，你只需要点开游戏设置→语言，随后将强制使用Unicode字体设置为开即可完美享用字体辣}"
+				""
+				"{另外，本包提供了专属界面材质和命令背景，如果看不习惯均可以在资源包中禁用}"
+			]
+			icon: "ctnhmana:yuriko_ring"
+			id: "589CE9C2FC6ECFA7"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "我的天哪MUI大人"
+			tasks: [{
+				id: "3821A71E70FA0E0D"
+				title: "什么，还有字体可以换"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44C7FE559ECFB2EB"]
+			icon: "ae2:controller"
+			id: "39246CAE96BF6294"
+			subtitle: "自动化的神"
+			tasks: [{
+				id: "7FE71CA4E8E3F65E"
+				title: " 应用能源2"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			description: ["或许需要点&6植物魔法&r的力量？"]
+			id: "40A1122E78D1C205"
+			rewards: [{
+				id: "44977B141DDAE57D"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "腐肉不好吃.......也不能直接烧成皮革......"
+			tasks: [{
+				id: "3BCA84803ED96CB5"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			title: "僵尸猎人"
+			x: -10.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			description: ["&d骨粉&r可以用来催熟作物、制作白色染料等等"]
+			id: "0D1F4E0AEFA4C5BF"
+			rewards: [{
+				id: "59761439F1F12490"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "金坷垃成精！"
+			tasks: [{
+				count: 10L
+				id: "4EDF7D0C6154FBB5"
+				item: { Count: 10, id: "minecraft:bone" }
+				type: "item"
+			}]
+			title: "骷髅猎人"
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["31554E021ECE6572"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "6B18CFDF49D20411"
+			rewards: [{
+				id: "1DBFD3D7DFFD811C"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "每过几天，垃圾佬都会带着他的流浪皮革过来看望你"
+			tasks: [{
+				entity: "minecraft:llama"
+				icon: "minecraft:lead"
+				id: "27D421EF8F26769D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "远方来客"
+			x: -10.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"多屯，别总想着在做出某个部件后就能马上用更省材料的方式批量生产这个部件，低成本生产通常只会出现在跨阶段后。"
+				"把原料们做成块，或者放在&b抽屉&r里，能很好地节约你的格子！"
+				""
+				"&a抽屉可以在里面有东西的时候破坏并存住里面的东西&r"
+			]
+			icon: "functionalstorage:oak_1"
+			id: "072BC77364FCB7D6"
+			rewards: [{
+				count: 3
+				id: "7843C0FA94243048"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "在绝大多数时候，你需要的各种半成品以及他们的材料量消耗都是以组为单位"
+			tasks: [{
+				id: "764380D65553A750"
+				title: "多囤积材料！"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"有些物品会在描述里有标红的&4“危险物质”&r字样，还伴有各种不同的症状。（包括但不限于常驻饥饿效果、减少血上限等）"
+				""
+				"&4这些物品只要存在你的物品栏内，就会每时每刻加强对你的负面影响！&r"
+				""
+				"当然有治疗和预防方法，但那至少要到HV时期了。"
+				"先把他们丢进你的背包或箱子里吧"
+			]
+			icon: "gtceu:lead_dust"
+			id: "00C102D97D6851F5"
+			subtitle: "死亡确实能消除影响，但不觉得很麻烦吗？"
+			tasks: [{
+				id: "1BEF1EB243C6491C"
+				title: "危险物质"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			description: [
+				"作用分划重点和避免歧义两类"
+				"划重点："
+				"&4红色是警示！表明该行动或物品会对你的体验带来比较重大的影响！&r"
+				"&a绿色是指引，会指出一条合适的路线，不过不这么玩也行，MC是自由的！&r"
+				""
+				"避免歧义"
+				"&b蓝色是词缀，表明一类有相同词缀的物品&r"
+				"&e黄色是mod名称（方便查攻略）&r"
+				"&6橙色是任务章节名称，相关任务可以去看对应任务章节！&r"
+				"&d粉红是指准确的某个物品名称&r"
+			]
+			icon: "minecraft:red_dye"
+			id: "5EE358792207FF35"
+			tasks: [{
+				id: "40E03E50D6A70E8A"
+				title: "为什么有的词语有颜色？"
+				type: "checkmark"
+			}]
+			title: "为什么任务里的某些词有不一样的颜色？"
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1FB23D66088398BC"]
+			description: [
+				"界面尺寸调太大了！调整步骤："
+				"&a选项->视频设置->FPS Reducer-> 通用->界面尺寸&r"
+				"一般调到3x就能显示完整信息了，当然最佳情况要视不同设备而定"
+			]
+			icon: "minecraft:item_frame"
+			id: "04E60153BCC99FAE"
+			subtitle: "比如正常情况下多方块结构的制作表会显示所需材料，但你没看到"
+			tasks: [{
+				id: "447275791B151177"
+				title: "信息显示不全？"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FB23D66088398BC"]
+			description: [
+				"此处作 在左侧边栏开启“最近查询的物品”标签页 例子："
+				"&aEMI设置（在背包左下角） ->  左侧边栏(设置页左侧有快速跳转) ->  标签页一行的加号 ->  最近合成的物品"
+				"&r使用方法："
+				"&a回到背包界面，在左侧边栏点击那个星星标志（此标志代表目前位于收藏夹页）进行切换&r"
+				""
+				"更多功能请自行探索"
+			]
+			icon: "minecraft:clock"
+			id: "36954BEFA8C27C62"
+			subtitle: "我刚刚要搓什么东西来着？"
+			tasks: [{
+				id: "22FB84EA6E347079"
+				title: "EMI的功能不只有配方查询!"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"为了节省内存开支，MC会卸载玩家一定范围外的区块，被卸载的区块会进入时间停止状态"
+				""
+				"&a打开背包，左上角处有“FTB区块”图标，点击后左上角有“区块认领”图标，点击进入后左键以认领区块，Shift+左键以使区块保持加载；右键（Shift+右键）以取消对应操作"
+				"&r"
+				"区块认领/强加载上限更改需要在游戏外调整properties文件"
+			]
+			icon: "minecraft:map"
+			id: "3E35A8E79A4961C0"
+			subtitle: "我出去浪了这么久，家里的矿怎么还没烧好"
+			tasks: [{
+				id: "075914B82290C97D"
+				title: "认领与加载区块"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+	]
+	title: "原始人，起洞！！"
+}

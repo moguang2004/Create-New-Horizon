@@ -1,0 +1,888 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "luv"
+	group: "19912BEA87D24FE0"
+	icon: "gtceu:luv_machine_hull"
+	id: "42952A10FFCE402D"
+	order_index: 5
+	quest_links: [
+		{
+			id: "2D8E067BA5CDB23A"
+			linked_quest: "17292FB8D4DD36BA"
+			shape: "rsquare"
+			size: 2.0d
+			x: -31.0d
+			y: -1.5d
+		}
+		{
+			id: "7771623F63D63FEA"
+			linked_quest: "754CF2D0D96359C3"
+			x: -22.5d
+			y: -4.0d
+		}
+		{
+			id: "716D1262FDD7F70C"
+			linked_quest: "209FAC261240DA4E"
+			size: 2.0d
+			x: -31.0d
+			y: 0.5d
+		}
+		{
+			id: "236921A346C5AB53"
+			linked_quest: "3409699C4612D368"
+			x: -26.5d
+			y: 1.5d
+		}
+		{
+			id: "6A9D16337B5BEA10"
+			linked_quest: "1F24CDB4B265DAE8"
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			id: "50419253E025F148"
+			linked_quest: "187E4ADFF4648D64"
+			size: 2.0d
+			x: -31.0d
+			y: -3.5d
+		}
+		{
+			id: "7DCECF3F2B3D602A"
+			linked_quest: "64822D37238618F3"
+			x: -19.5d
+			y: 1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["17292FB8D4DD36BA"]
+			description: [
+				"{恭喜你经过漫长的旅途来到了一个充满科幻的阶段}"
+				"{尽情体验吧}"
+			]
+			id: "0DA6DBCC41828D80"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "你已经达到LuV啦！"
+			tasks: [{
+				id: "2AB09D6B46C98218"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"754CF2D0D96359C3"
+				"1FAD6F20F9148820"
+			]
+			id: "645725D581DA525A"
+			tasks: [{
+				id: "503B792796F84570"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2813BC7AC57AFF93"]
+			id: "78FB6D2EBEC04944"
+			tasks: [{
+				id: "03B65C67E3A53ABB"
+				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["78FB6D2EBEC04944"]
+			id: "1FAD6F20F9148820"
+			tasks: [{
+				id: "5CD511869B75170E"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"645725D581DA525A"
+				"4F65B0CFF6E398ED"
+			]
+			id: "77E66A5569F9845B"
+			tasks: [{
+				id: "7FA5EEC024B75229"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["77E66A5569F9845B"]
+			id: "34820874A85286FC"
+			tasks: [{
+				id: "683FE1E64CB7BB18"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["34820874A85286FC"]
+			description: [
+				"{                             &#FFC6FB&l&o&n如此超越！ }"
+				"{                             &#FFC6FB&l&o&n如此精湛！}"
+				"{                             &#FFC6FB&l&o&n如此瑰丽！}"
+			]
+			id: "019F2136970CA2E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1545F0A0A9E19D0B"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64A27967952CFD46"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7848248A9030E661"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+			]
+			size: 1.0d
+			subtitle: "第一个UV电路！"
+			tasks: [{
+				id: "4DBEF1F18227075A"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"48DD8F1CA4521491"
+				"0DA6DBCC41828D80"
+			]
+			id: "14C08D2A44860C08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21FC7C1C63F81927"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			size: 1.5d
+			subtitle: "该给大机器们升压了"
+			tasks: [{
+				id: "2E07CD045DAB8CC0"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["209FAC261240DA4E"]
+			id: "1543DE3AB9FD7598"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C8EF2AC4F0AF6C9"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "49AC49ABFC4B89BA"
+				item: "gtceu:superconducting_coil"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C56A770E0AA5FE2"]
+			id: "2F7AFC0FA8A4C543"
+			tasks: [{
+				id: "32D9B848EB759B06"
+				item: "gtceu:neutron_reflector"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1543DE3AB9FD7598"
+				"2F7AFC0FA8A4C543"
+				"3409699C4612D368"
+			]
+			id: "4C039D7366BE1BD4"
+			rewards: [{
+				count: 32
+				id: "5B96D37BB197C3B2"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			subtitle: "玻璃比机械方块便宜，所以多用玻璃"
+			tasks: [
+				{
+					id: "2ABD7A3CA362878D"
+					item: "gtceu:fusion_casing"
+					type: "item"
+				}
+				{
+					id: "7D426240EBC86CA1"
+					item: "gtceu:fusion_glass"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "02C0173410FB5F46"
+					item: { Count: 16, id: "gtceu:uhpic_wafer" }
+					type: "item"
+				}
+			]
+			title: "要开始聚变咯"
+			x: -27.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4C039D7366BE1BD4"
+				"0DA6DBCC41828D80"
+			]
+			id: "174B639A9AAA2B4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C137448EADE3C2B"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "64DF7150FCA7AA06"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			title: "聚变时代"
+			x: -26.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["174B639A9AAA2B4C"]
+			id: "7623D2206370CA76"
+			size: 1.0d
+			tasks: [{
+				id: "795C4F908195DB98"
+				item: "gtceu:duranium_bucket"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0D1111FBACF1B0D4"
+				"14C08D2A44860C08"
+				"59D486695F2A9671"
+				"367D336517F7EFB2"
+			]
+			description: ["{根据需要的算力值和冷却值来选择结构中的九个组件；同时，计算这些组件的总能耗来决定合适的能源仓。}"]
+			id: "637D202FC567B932"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40AA67113F30DD9F"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			size: 1.0d
+			subtitle: "计算机"
+			tasks: [{
+				id: "3C7C6EF260BFFAEE"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F76701066E1552E"]
+			id: "48DD8F1CA4521491"
+			tasks: [{
+				id: "6C0F9C0CAA10559A"
+				item: "gtceu:luv_voltage_coil"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"251E2EE2A84D76A2"
+				"637D202FC567B932"
+			]
+			description: [""]
+			id: "3FB06067540E1931"
+			subtitle: "低级散热组件"
+			tasks: [{
+				id: "379A3E43FE501AFC"
+				item: "gtceu:hpca_heat_sink_component"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FB06067540E1931"]
+			description: ["{要消耗冷却液，别忘了}"]
+			id: "2206089F4E43C59D"
+			rewards: [
+				{
+					id: "57A22205F098B164"
+					item: "gtceu:hpca_heat_sink_component"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50E1F2CB4FB30EE5"
+					table_id: 846882859033216508L
+					type: "loot"
+				}
+			]
+			subtitle: "高级散热组件，当你发现你的算力不够时就要把散热组件换成这个"
+			tasks: [{
+				id: "07E839453D413D32"
+				item: "gtceu:hpca_active_cooler_component"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"251E2EE2A84D76A2"
+				"637D202FC567B932"
+			]
+			id: "2FD33C4009211037"
+			subtitle: "记得配上散热组件，不然会被烧坏"
+			tasks: [{
+				id: "227AEACC2CFC6AC0"
+				item: "gtceu:hpca_computation_component"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 1.5d
+		}
+		{
+			id: "251E2EE2A84D76A2"
+			rewards: [{
+				id: "687DB44D00698D5E"
+				item: "gtceu:hpca_empty_component"
+				type: "item"
+			}]
+			subtitle: "可以用来占位置"
+			tasks: [{
+				id: "4A60EAF3EF2718E5"
+				item: "gtceu:hpca_empty_component"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"637D202FC567B932"
+				"619D862A293BB315"
+				"64822D37238618F3"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{LuV缸中之脑也可以提供8算力哦，虽然它不是很稳定，但是至少也能让你做出来}"]
+			id: "693BE7D773A7C37F"
+			rewards: [{
+				id: "1B9E3FB53BFAF390"
+				item: "ctnhcore:neutron_source"
+				type: "item"
+			}]
+			subtitle: "送你一个中子源，希望你喜欢"
+			tasks: [{
+				id: "59FAAB8A64E3688E"
+				item: "ctnhcore:quark_core"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["693BE7D773A7C37F"]
+			id: "02DD2E6EEDC15505"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5893D8ADFDBD9E49"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2FEF84CF7734F746"
+				item: "ctnhcore:neutron_activator"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["02DD2E6EEDC15505"]
+			description: [
+				"{中子加速器：通电给中子活化器加速中子，相当于特殊能源仓}"
+				""
+				"{中子传感器：可以设置中子速度范围，注意它单位是K中子加速器是M，当进入范围后发出红石信号}"
+				""
+				"{机器控制覆盖版：接受红石信号后暂停机器工作}"
+				""
+				"{使用方法：给中子加速器贴上覆盖版，然后用红石连接上传感器，设置范围，当加速到指定范围就会停止加速，稳定中子速度}"
+				""
+				"{结构只允许在最上方放置输入，最下方放置输出.可以叠加到64高度}"
+			]
+			id: "3049F938B2D301B2"
+			subtitle: "也可以通过中子活化器的思索查看"
+			tasks: [
+				{
+					id: "2F549A3160DFFE55"
+					item: "ctnhcore:iv_neutron_accelerator"
+					type: "item"
+				}
+				{
+					id: "214524255D8A822B"
+					item: "ctnhcore:neutron_sensor"
+					type: "item"
+				}
+				{
+					id: "0B86CCD65FB31F49"
+					item: "gtceu:machine_controller_cover"
+					type: "item"
+				}
+			]
+			title: "中子活化器使用方法（文字版）"
+			x: -18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02DD2E6EEDC15505"]
+			dependency_requirement: "one_completed"
+			description: ["{处理详情见矿物处理章节}"]
+			id: "45EF42ADC599589E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71F0E5844E95853F"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			subtitle: "初步的硅岩处理"
+			tasks: [{
+				id: "6137B1F57C126749"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"45EF42ADC599589E"
+				"14C08D2A44860C08"
+			]
+			hide_details_until_startable: false
+			id: "1E79D7B65D6DCECF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F279DFA6979B04E"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "04BA4D6F9009F956"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45EF42ADC599589E"]
+			id: "7350B8C1243D44CD"
+			subtitle: "更好的SOC芯片"
+			tasks: [{
+				id: "075C311D1AD43284"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7350B8C1243D44CD"]
+			id: "783F7C176491A978"
+			rewards: [{
+				id: "7279AA64F5DA14A5"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "394D6C14D43AF734"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			title: "便宜HV电路"
+			x: -17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E79D7B65D6DCECF"]
+			id: "3EA13126A1A8CAFE"
+			tasks: [{
+				id: "1F77C16E8AFE33F3"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3EA13126A1A8CAFE"]
+			id: "41A7CC007444C503"
+			rewards: [{
+				count: 4
+				id: "42E45CEFB522D8CE"
+				item: "gtceu:long_enriched_naquadah_rod"
+				type: "item"
+			}]
+			subtitle: "建议使用富集硅岩"
+			tasks: [{
+				id: "6A3C9CBDF6140DB7"
+				item: "ctnhcore:luv_naquadah_reactor"
+				type: "item"
+			}]
+			title: "来试试硅岩发电吧"
+			x: -17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"45EF42ADC599589E"
+				"352A6F62ED6692B3"
+			]
+			id: "008A90953EEF0008"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FA4E4C66373DFCB"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			size: 1.5d
+			subtitle: "ZPM超导"
+			tasks: [{
+				id: "5CC8DC9DDD4A857B"
+				item: "gtceu:uranium_rhodium_dinaquadide_dust"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6CA56307669FD197"]
+			description: ["{我们（）人的化工厂太厉害辣！}"]
+			id: "75353060280848EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FE39F4ECE57D347"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			size: 2.0d
+			subtitle: "超级化工厂"
+			tasks: [{
+				id: "2491F333995C7BE8"
+				item: "ctnhcore:sinope_chemical"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7350B8C1243D44CD"]
+			id: "41B0A0641BAD4035"
+			rewards: [{
+				id: "3B9575FD794E916C"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			subtitle: "需要ZPM电压"
+			tasks: [{
+				count: 32L
+				id: "7E0B8015F7E9A6A5"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			title: "便宜EV电路"
+			x: -18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14C08D2A44860C08"]
+			id: "4DE49DB87C6B5D1C"
+			tasks: [
+				{
+					id: "36CEC70CA40C89C0"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_4_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6D325AB267087D1D"
+					item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "前往霜原星"
+			x: -21.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["419F454F08E12428"]
+			id: "58C3681A18E19C5F"
+			tasks: [{
+				id: "7185A692532FD01D"
+				item: "ctnhcore:exquisite_europium_fluorite_gem"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58C3681A18E19C5F"]
+			id: "4F65B0CFF6E398ED"
+			tasks: [{
+				id: "2FF2DB9AFFC34540"
+				item: "ctnhcore:advanced_ram_chip"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DA6DBCC41828D80"]
+			id: "2F76701066E1552E"
+			subtitle: "你以为你能逃掉？"
+			tasks: [{
+				id: "5F4AAA5C38937B45"
+				item: "gtceu:luv_assembler"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -3.0d
+		}
+		{
+			id: "0D1111FBACF1B0D4"
+			tasks: [{
+				id: "362B0B3C81F9BD34"
+				item: "ctnhbio:consciousness_sensor_glass"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{你也许在hv时就接触过“算力”这一概念，这是一种比电力更加重要的资源，而且无法被存储，只能即时产生并被消耗。}"
+				"{部分机器或配方需要算力才能运行（例如大型组装厂的精密组装配方，以及下一个阶段的研究站）}"
+				"{HPCA通过算力数据源仓输出算力，机器通过算力数据靶仓接受算力。}"
+				"{注意：源仓和靶仓之间必须通过光缆连接（传输算力或数据时，光缆可以拐弯，但不能分叉），源仓直接怼靶仓无法传输算力。}"
+			]
+			id: "59D486695F2A9671"
+			subtitle: "有没有云计算..."
+			tasks: [{
+				id: "16A81169336BBB10"
+				title: "算力"
+				type: "checkmark"
+			}]
+			x: -23.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"364B921AAE54EF9C"
+				"09D90156914665B3"
+			]
+			description: ["{注意，这个多方块可以装载很多数据仓}"]
+			id: "27EC2E4B61A056E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EEB7D77C56C8559"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			subtitle: "为多个装配线提供数据"
+			tasks: [{
+				id: "367D336517F7EFB2"
+				item: "gtceu:data_bank"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -5.0d
+		}
+		{
+			id: "619D862A293BB315"
+			tasks: [
+				{
+					id: "352706B84D3BBEFB"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "34425C65360AE12E"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "算力数据仓"
+			x: -19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1E79D7B65D6DCECF"
+				"1F24CDB4B265DAE8"
+			]
+			id: "7A22FC6D68A6C26E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26ECD4E3A5E9E868"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "684125328E3768FA"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F76701066E1552E"]
+			description: [""]
+			id: "364B921AAE54EF9C"
+			subtitle: "光缆可以拐弯，但不能分叉"
+			tasks: [
+				{
+					id: "5C6F7ED326438A39"
+					item: "gtceu:normal_optical_pipe"
+					type: "item"
+				}
+				{
+					id: "6B145409D917617B"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "7E148153896C4000"
+					item: "gtceu:data_receiver_hatch"
+					type: "item"
+				}
+			]
+			title: "研究三件套"
+			x: -25.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E79D7B65D6DCECF"]
+			id: "6CA56307669FD197"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FB335425666965F"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "ZPM的开始"
+			tasks: [{
+				id: "1EB0BDD610BF9EB0"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DA6DBCC41828D80"]
+			description: ["{    多线程合金冶炼炉}"]
+			id: "699C95B07EACDDC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E7DEAD4F049AEAE"
+				table_id: 846882859033216508L
+				type: "loot"
+			}]
+			subtitle: "一起炖！"
+			tasks: [{
+				id: "163D3E56B2971B4F"
+				item: "ctnhcore:cnc_alloy_smelter"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["019F2136970CA2E1"]
+			description: [
+				"{    可配置多线程机器每个线程的超频等级}"
+				"{    可查询线程执行的上一个配方}"
+				"{    可设置“&b配方锁定&r”：使该线程只会执行上一个配方}"
+				"{    可设置“&b线程保护&r”：使该线程不会执行其他线程正在执行或已经锁定的配方。}"
+			]
+			id: "66596B5FFF2E941A"
+			invisible: true
+			size: 1.5d
+			subtitle: "遥遥领先！"
+			tasks: [{
+				id: "0283D5E1E42F99B0"
+				item: "ctnhcore:luv_async_thread_hatch"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4DE49DB87C6B5D1C"]
+			id: "419F454F08E12428"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "77EB7E253643FBC1"
+				title: "霜原星！"
+				type: "dimension"
+			}]
+			x: -21.5d
+			y: -4.0d
+		}
+	]
+	title: "&dLuV&r时期"
+}

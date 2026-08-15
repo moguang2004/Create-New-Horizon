@@ -1,0 +1,517 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zpm"
+	group: "19912BEA87D24FE0"
+	icon: "gtceu:zpm_machine_hull"
+	id: "0D2BCB08A8E3B485"
+	order_index: 6
+	quest_links: [
+		{
+			id: "7B5E8515958F337F"
+			linked_quest: "65E0B77C49C4F584"
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			id: "6AEE19AD9514AAAE"
+			linked_quest: "637A10CE158A936B"
+			shape: "rsquare"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			id: "02497A4D3A125248"
+			linked_quest: "6CA56307669FD197"
+			shape: "rsquare"
+			size: 2.0d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "068BF52FD0EF49DD"
+			linked_quest: "008A90953EEF0008"
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			id: "033B6B6DC8CCF3E8"
+			linked_quest: "352A6F62ED6692B3"
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			id: "5E5842473CE20D84"
+			linked_quest: "6E2EB708243731BF"
+			size: 2.0d
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "7467CCA599A1616B"
+			linked_quest: "15639356FE4C7A18"
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "00265C153C343343"
+			linked_quest: "650AB82076283E3F"
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			id: "1D60CB2547450A74"
+			linked_quest: "01BBD7ADB864D6E1"
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			id: "71C0BF9ADAB8DEA3"
+			linked_quest: "5D01EEBB71A88958"
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			id: "4CDE60E1CFFD3951"
+			linked_quest: "03F6BCDB99059FD4"
+			x: 18.5d
+			y: 5.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6CA56307669FD197"]
+			id: "07D0FD2AC4C767B2"
+			shape: "gear"
+			size: 1.0d
+			subtitle: "我好想逃~"
+			tasks: [{
+				id: "6B9EF7A18ADE73D7"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"74B398F5468F8A36"
+				"4033E5511E9C50EA"
+			]
+			id: "7D4DBB785B16A377"
+			size: 1.5d
+			tasks: [{
+				id: "777C8308AAD3F137"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6103104855B728EE"]
+			id: "74B398F5468F8A36"
+			tasks: [{
+				id: "0B84192182E27CAA"
+				item: "gtceu:zpm_voltage_coil"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"74B398F5468F8A36"
+				"4033E5511E9C50EA"
+			]
+			id: "5B882B9AFD650138"
+			size: 1.0d
+			subtitle: "你将面对的是ZPM四巨头，你畏惧了吗"
+			tasks: [{
+				id: "3DAF14109B87DA6F"
+				item: "gtceu:zpm_energy_output_hatch"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			id: "4033E5511E9C50EA"
+			tasks: [{
+				id: "7F63789C2300997B"
+				item: "gtceu:uhpic_chip"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7D4DBB785B16A377"
+				"16DEC7A6999A22F5"
+				"019F2136970CA2E1"
+				"008A90953EEF0008"
+				"3B1B0C46A962A714"
+			]
+			id: "0B162359CC259A9F"
+			tasks: [{
+				id: "0F1D956EB3FFCE74"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F0C67AE534020B1"]
+			id: "16DEC7A6999A22F5"
+			tasks: [{
+				id: "002F4ED83FDEF125"
+				item: "gtceu:fusion_casing_mk2"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D4DBB785B16A377"]
+			id: "7F0C67AE534020B1"
+			tasks: [{
+				id: "682BA283B5DFA6AD"
+				item: "gtceu:fusion_coil"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B162359CC259A9F"]
+			id: "173C1ED446EF4D39"
+			tasks: [{
+				id: "413A9E1E8D6A813B"
+				title: "更多的等离子"
+				type: "checkmark"
+			}]
+			title: "新物质和新等离子"
+			x: 21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["173C1ED446EF4D39"]
+			id: "19D20F758478B722"
+			tasks: [{
+				id: "1EA8693590E63647"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["173C1ED446EF4D39"]
+			id: "7D71F6FD70EBC323"
+			tasks: [{
+				id: "6D263243A774CCB8"
+				item: "gtceu:oxygen_plasma_bucket"
+				type: "item"
+			}]
+			title: "更好的等离子"
+			x: 21.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["173C1ED446EF4D39"]
+			id: "3EBCBE6CCD91894E"
+			tasks: [{
+				id: "47CF00417C870B7E"
+				item: "gtceu:nitrogen_plasma_bucket"
+				type: "item"
+			}]
+			title: "更好的等离子"
+			x: 22.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["173C1ED446EF4D39"]
+			id: "237E873379AB582C"
+			tasks: [{
+				id: "445575D5117C6911"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["173C1ED446EF4D39"]
+			id: "7FD9B0E41358497D"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "UV的主要材料"
+			tasks: [{
+				id: "2AE6E9434C0E0615"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B882B9AFD650138"]
+			id: "7D7EEC84B88C3B71"
+			rewards: [{
+				id: "3EF2F01E81F8AE15"
+				item: "ctnhcore:naquadah_based_liquid_fuel_excited_bucket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "更好的发电机，记得烧硅岩基燃料，其他基燃料非常弱"
+			tasks: [{
+				id: "5DE0B367ED3325C4"
+				item: "ctnhcore:large_naquadah_reactor"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["008A90953EEF0008"]
+			id: "74E26D593C100718"
+			tasks: [{
+				id: "7DBE65E40DF0A28E"
+				item: "gtceu:zpm_field_generator"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D4DBB785B16A377"]
+			id: "43F6AA3B97042202"
+			subtitle: "直接制作晶体处理器"
+			tasks: [{
+				id: "1E3E6CFB80E1BDC6"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B882B9AFD650138"]
+			id: "2498090AADF79896"
+			rewards: [{
+				id: "71B563ECC5E59863"
+				item: "gtceu:iron_plasma_bucket"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			subtitle: "见证等离子燃料的潜力！"
+			tasks: [{
+				id: "5AFB0CE08C45D50A"
+				item: "ctnhcore:hyper_plasma_turbine"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B882B9AFD650138"]
+			id: "46922EE3F296BDCF"
+			rewards: [{
+				id: "315248740EFA53F8"
+				item: {
+					Count: 1
+					id: "dummmmmmy:target_dummy"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 8s
+						}]
+						RepairCost: 1
+						display: {
+							Name: "{\"text\":\"我跟光伏等离子硅岩堆在一起排名，真的假的\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "who r u"
+			tasks: [{
+				id: "24B87356C55140CC"
+				item: "ctnhcore:ultimate_combustion_engine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["46922EE3F296BDCF"]
+			description: ["{但这一切值得吗？}"]
+			id: "13BE90ED71F011F0"
+			subtitle: "相当于100倍高辛烷的燃值"
+			tasks: [{
+				id: "3301B6C77073AF57"
+				item: "ctnhcore:nq_end_gasoline_bucket"
+				type: "item"
+			}]
+			title: "在燃油的终末"
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2FD33C4009211037"
+				"6103104855B728EE"
+			]
+			description: ["{如果你发现你因为算力不够且没法做高级计算组件而卡死，你就要看看你的冷却有没有升级和你的算策略是不是最优的}"]
+			id: "31A773AB4898B8F8"
+			tasks: [{
+				id: "7EF9D64A02F23501"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["008A90953EEF0008"]
+			description: [
+				"{把数据球和要扫描的东西放进物品支架里}"
+				""
+				"{注意物品支架的朝向哦}"
+			]
+			id: "56C88CA114314593"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "194607EF8EE0E066"
+				table_id: 7618519509353548779L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4FB2DC37F499DCB6"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			id: "5BD26F0325768EED"
+			tasks: [{
+				id: "2EB87FA23768CA12"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5BD26F0325768EED"]
+			description: ["{    获得&5超级&r数据模型的唯一方法}"]
+			id: "50A557051BF8A461"
+			subtitle: "观测实体"
+			tasks: [{
+				id: "681C0CC7AEF7F5EC"
+				item: "ctnhbio:hostile_observer"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5BD26F0325768EED"]
+			id: "5104B1835B282FC6"
+			tasks: [{
+				id: "50A2EC4B62A124E6"
+				item: "ctnhbio:neural_model_accessor"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5104B1835B282FC6"
+				"2229C60AFC5A51B3"
+			]
+			id: "29CB100F7A86186F"
+			subtitle: "更加智能"
+			tasks: [{
+				id: "25834B4EF9069798"
+				item: "ctnhbio:advanced_neural_model_accessor"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7AC1C9575ED0ECBF"]
+			id: "2229C60AFC5A51B3"
+			tasks: [{
+				id: "4895CDDCC108813F"
+				item: {
+					Count: 1
+					id: "gtceu:data_module"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			description: ["{    这里本来应该有一些关于GT原版生物线、生产干细胞的任务，但是在任务重置的过程中丢失了，不过都到这个阶段了对着EMI自己看应该也不难。}"]
+			id: "7AC1C9575ED0ECBF"
+			subtitle: "GT原版生物线"
+			tasks: [{
+				id: "42FA17298E9E779B"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["03F6BCDB99059FD4"]
+			description: ["{    使用巨型总线输入物品可能导致不识别，建议使用ME库存输入总线。}"]
+			id: "7F4D1DB73BB3EA48"
+			size: 2.0d
+			subtitle: "好像来得有点晚"
+			tasks: [{
+				id: "71C3B1CAB448A928"
+				item: "ctnhcore:advance_assembly_line"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["07D0FD2AC4C767B2"]
+			id: "6103104855B728EE"
+			tasks: [{
+				id: "1A9CE36983578C9B"
+				item: "gtceu:zpm_assembler"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["352A6F62ED6692B3"]
+			id: "3B1B0C46A962A714"
+			tasks: [{
+				id: "7A812D5779B4731C"
+				item: "gtceu:naquadria_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+	]
+	title: "&cZPM&r时期"
+}

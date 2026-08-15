@@ -1,0 +1,1387 @@
+{
+	autofocus_id: "1FBD86C0CF681427"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mv"
+	group: "19912BEA87D24FE0"
+	icon: "gtceu:mv_machine_hull"
+	id: "7647DBDFA1F452A1"
+	order_index: 1
+	quest_links: [
+		{
+			id: "7499099A0B832604"
+			linked_quest: "11F898C7B0C925D5"
+			shape: "rsquare"
+			size: 2.0d
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			id: "73C8E06B594B5A87"
+			linked_quest: "0FEAC07F1404346A"
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			id: "0BEDB38C49D6815C"
+			linked_quest: "7564DC3576C62D48"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "176E4746C691A2E2"
+			linked_quest: "3D882DE9ACFD43EA"
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			id: "591E0AAAF45E4D82"
+			linked_quest: "15ECB84AB1215CF2"
+			x: 8.5d
+			y: 10.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["11F898C7B0C925D5"]
+			id: "1FBD86C0CF681427"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AC92764B12A26D7"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "24CB9175692BADFD"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2D662EFDE7A39BB8"
+				"1FBD86C0CF681427"
+			]
+			id: "689E197D320A0477"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D59F64539E4B727"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "一种可持续性的产盐设备"
+			tasks: [
+				{
+					id: "16548D422CB417B8"
+					item: "ctnhcore:seawater_desalting_factory"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0543F1778B152935"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["689E197D320A0477"]
+			id: "45D2C63F76606DE2"
+			tasks: [{
+				id: "222B016E4E7DA8EA"
+				item: "gtceu:salt_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["45D2C63F76606DE2"]
+			id: "62F1BC2DC2900E4F"
+			tasks: [{
+				id: "7D4C04F76569B164"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["45D2C63F76606DE2"]
+			id: "3DDBBC874FEB36B4"
+			tasks: [{
+				id: "029E332FE5436B2B"
+				item: "gtceu:sodium_bisulfate_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["62F1BC2DC2900E4F"]
+			id: "2B326207A7208F04"
+			tasks: [{
+				id: "5D65978A48B0912D"
+				item: "gtceu:iron_iii_chloride_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3DDBBC874FEB36B4"]
+			id: "0D5604D8E0984197"
+			tasks: [{
+				id: "684674B38A10629F"
+				item: "gtceu:sodium_persulfate_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["45D2C63F76606DE2"]
+			id: "577C0EA40EC89B14"
+			tasks: [{
+				id: "24E6A226ACC06FE1"
+				item: "gtceu:salt_water_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["577C0EA40EC89B14"]
+			id: "0C12A7FDA05C7439"
+			subtitle: "重要的化工原料"
+			tasks: [
+				{
+					id: "4F0D06BA40466127"
+					item: "gtceu:sodium_hydroxide_dust"
+					type: "item"
+				}
+				{
+					id: "6F1D56176B6C805E"
+					item: "gtceu:chlorine_bucket"
+					type: "item"
+				}
+			]
+			title: "氯碱产物"
+			x: 3.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1FBD86C0CF681427"]
+			description: [
+				"{木化是你为打造后期庞大的工业帝国的基础之一}"
+				"{你需要查阅EMI，使用多联热解炉去制作你的木化产线}"
+			]
+			id: "18053F8D68450C52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19867F940295DACD"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70B7E658DC504E19"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "552458CB71BFFED9"
+			tasks: [{
+				id: "03741219A8943CDD"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"552458CB71BFFED9"
+				"61F3A1C4B771E811"
+				"5F393B970A71BEF2"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{乙烯的生产可以来源于生物和石油化工，在本整合包中增强了生物产线，不妨可以尝试一下}"]
+			id: "5A460876CA0EC216"
+			tasks: [{
+				id: "54DEEDC89FC0497E"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6A93AEE55399519D"]
+			description: ["{袜，聚乙烯！}"]
+			id: "3F99A5F49AABC226"
+			tasks: [{
+				id: "35A6A68E98942425"
+				item: "gtceu:polyethylene_plate"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"1FBD86C0CF681427"
+				"5FCD87E61592F357"
+			]
+			id: "10FA0AB1DB0672F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B656249FE7EF1A9"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4669D530ED93FCDE"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"10FA0AB1DB0672F9"
+				"7564DC3576C62D48"
+			]
+			id: "27675B2A83F65B2E"
+			tasks: [{
+				id: "71C41CE7312679E8"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7142680A93861DB2"]
+			id: "187230C4BEE7160C"
+			tasks: [{
+				id: "2C096C4A9FBFAFD5"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"19B0A02601FB3654"
+				"3F99A5F49AABC226"
+			]
+			id: "4D79E10947CC121F"
+			size: 1.0d
+			tasks: [{
+				id: "6C7ED169ACEA6489"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7142680A93861DB2"]
+			id: "08302778401395AA"
+			tasks: [{
+				id: "0CC3390A8E309608"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5A460876CA0EC216"]
+			id: "6A93AEE55399519D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CE6F324012C1F37"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FAAF27C803FB471"
+				item: "gtceu:polyethylene_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"3AE584B3EBC63A09"
+				"2C6FBF2A814BB60D"
+			]
+			dependency_requirement: "one_completed"
+			id: "063155FDDF799750"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7283BCCE05FF703B"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7312ABE98EF4BE13"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["44D70AFBA18CA0E4"]
+			dependency_requirement: "one_completed"
+			icon: "minecraft:end_portal_frame"
+			id: "5A55D491F0E9F389"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "想必你已经发现了地牢里的破损传送门，请通过GTPortal模组的传送门进入末地"
+			tasks: [
+				{
+					id: "18E38498ECC14CB2"
+					item: "gtportal:broken_end_portal_frame"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "7C5667FF09BFD75B"
+					item: {
+						Count: 15
+						id: "gtportal:simple_end_portal_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "16AE40A3E3D19195"
+					item: "gtportal:simple_end_portal_controller"
+					type: "item"
+				}
+			]
+			title: "进入末地"
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["61306F7E5202C387"]
+			id: "44D70AFBA18CA0E4"
+			tasks: [{
+				id: "210AE87A6C518064"
+				item: "gtceu:ender_eye_dust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"063155FDDF799750"
+				"12CC90A0B4668F70"
+			]
+			dependency_requirement: "one_completed"
+			id: "61306F7E5202C387"
+			tasks: [{
+				id: "6FD335E7DFD138B9"
+				item: "gtceu:ender_pearl_dust"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5A55D491F0E9F389"]
+			id: "4DCA7E4E57817E0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A8E7C6484AE0439"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "36924FA5E1528AB2"
+				title: "前往末地"
+				type: "dimension"
+			}]
+			x: 21.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"291D02E808F55209"
+				"0A545EF871CBD07A"
+				"0B4C100552B5D9A8"
+			]
+			dependency_requirement: "one_completed"
+			id: "0B95FAC22EC46105"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C0A89D0B52DCF5D"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F1AA7394457B3DF"
+				item: "gtceu:stainless_steel_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0B95FAC22EC46105"]
+			id: "36968F23015BC87A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20F57A002B9D52B3"
+					table_id: 5863108397808417557L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45345D2AA508BD9E"
+					table_id: 723892772024061161L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "HV时代的重要材料"
+			tasks: [{
+				id: "19B8A8E266098D32"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4C152AA55BCD6945"]
+			description: ["{现在~利用你学到的双仓升压去做神奇的事吧！}"]
+			id: "3C1A31CEA3C10082"
+			rewards: [{
+				id: "2ABC57832E0DBABA"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "61073088E3E1F703"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			id: "61F3A1C4B771E811"
+			subtitle: "硫粉处理后的产物"
+			tasks: [{
+				id: "74B53DE6E60BEE3B"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1FBD86C0CF681427"]
+			id: "64F3856504BEA9F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A9D7E8EA7EBAD39"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3D318027CEAAF7BA"
+				item: "ctnhcore:digestion_tank"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"64F3856504BEA9F2"
+				"01377F6FDB479DC4"
+			]
+			id: "36B9FCEC9579E090"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34FC43BEE4646450"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B16B111E31DE41D"
+				item: "ctnhcore:fermenting_tank"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			id: "5F393B970A71BEF2"
+			optional: true
+			tasks: [{
+				id: "559B79B9070C3CEC"
+				item: "gtceu:oil_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"221F9C128CA48DAA"
+				"1C203FA12C28D5D2"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{更好的铬处理}"]
+			id: "291D02E808F55209"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FFDFD18FCE09799"
+					table_id: 5863108397808417557L
+					type: "random"
+				}
+				{
+					count: 6
+					id: "4A0C53A29F9DA1A9"
+					item: "gtceu:chromium_dust"
+					type: "item"
+				}
+			]
+			subtitle: "铬粉需要经过几步处理，请仔细查阅EMI"
+			tasks: [{
+				id: "439069F6CBE169E1"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"45E72A768448ED19"
+				"766E11954A7C2E22"
+			]
+			id: "2FFC9C35347833E2"
+			tasks: [{
+				id: "29641A72CC84053A"
+				item: "gtceu:kanthal_dust"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4DCA7E4E57817E0A"
+				"1736A5072E1CFF18"
+			]
+			dependency_requirement: "one_completed"
+			icon: "aether:aether_portal_frame"
+			id: "415AF3F977F4C3F9"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 15L
+					id: "5D55FD3CDA054C23"
+					item: {
+						Count: 15
+						id: "gtportal:simple_aether_portal_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "5CB943502EEF6F51"
+					item: "gtportal:simple_aether_portal_controller"
+					type: "item"
+				}
+			]
+			title: "进入天境"
+			x: 21.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["415AF3F977F4C3F9"]
+			id: "699743A94DF7E0B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D5BFE27E4226B07"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "115FCE926E206B92"
+				title: "访问天境"
+				type: "dimension"
+			}]
+			title: "访问天境"
+			x: 23.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4DCA7E4E57817E0A"]
+			id: "47477F45269D6DB4"
+			subtitle: "将异彩化合物扔入虚空得到"
+			tasks: [{
+				id: "26892DF7590726FB"
+				item: "create:shadow_steel"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4DCA7E4E57817E0A"]
+			id: "221F9C128CA48DAA"
+			tasks: [{
+				id: "1AD776B0230E018D"
+				item: "gtceu:raw_chromite"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2FFC9C35347833E2"
+				"05DE915B25451CF1"
+				"3C1A31CEA3C10082"
+			]
+			id: "707A41CB0EED30D3"
+			rewards: [{
+				count: 2
+				id: "4C7683CC5B48E491"
+				item: "gtceu:kanthal_block"
+				type: "item"
+			}]
+			subtitle: "升级你的线圈！"
+			tasks: [{
+				id: "6F1536BDC8E4DB42"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1FBD86C0CF681427"]
+			hide_dependency_lines: true
+			id: "05DE915B25451CF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33DB5602C7F28E85"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C3C5441702781F5"
+				item: "gtceu:mv_chemical_bath"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"707A41CB0EED30D3"
+				"02F1CF840A21D33C"
+			]
+			id: "667964AF2027E5BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5686EE9C9A3823B5"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				id: "0D5766F5AC12A7F6"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1FBD86C0CF681427"
+				"01377F6FDB479DC4"
+			]
+			id: "7142680A93861DB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AE56F99AE12D497"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "10A74E679FA94C6B"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["11F898C7B0C925D5"]
+			hide_dependency_lines: true
+			id: "01377F6FDB479DC4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EE67097A2302787"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "330E788B29689786"
+					item: "gtceu:mv_sensor"
+					type: "item"
+				}
+				{
+					id: "0F0D71674538A7E5"
+					item: "gtceu:mv_emitter"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7142680A93861DB2"]
+			id: "5CC2A3C37EB99ED3"
+			tasks: [{
+				id: "69FFC6301EF6DA40"
+				item: "gtceu:cpu_wafer"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"05DE915B25451CF1"
+				"667964AF2027E5BD"
+			]
+			id: "6D2CFD7C56F6A2B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7470DD7C9E45CCB6"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19B0A02601FB3654"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"19869FD9D4BCCB9F"
+				"4408E3466C5F2470"
+				"59B39491E1FAA6E0"
+				"5C56BEA120711D82"
+			]
+			id: "5FCD87E61592F357"
+			rewards: [{
+				count: 9
+				id: "236A88D3A0172090"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42DFAF361A5675C7"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3C1A31CEA3C10082"]
+			id: "477E8A2397016E0B"
+			tasks: [{
+				id: "37A9D48964CF8180"
+				item: "ctnhcore:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["477E8A2397016E0B"]
+			id: "65C365115468BF4D"
+			shape: "heart"
+			size: 1.5d
+			subtitle: "HV超导"
+			tasks: [{
+				id: "5819C06388775C03"
+				item: "ctnhcore:vibrant_alloy_single_wire"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7142680A93861DB2"]
+			id: "4C152AA55BCD6945"
+			tasks: [{
+				id: "42F107B09EE02C3E"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3C1A31CEA3C10082"]
+			id: "6960D8238C5B49EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B85BDB70F2F5A1C"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07DF63569B78C55A"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0FEAC07F1404346A"]
+			id: "1C07DB781616E36D"
+			tasks: [{
+				id: "2EFC7F99A99F49F8"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"1C07DB781616E36D"
+				"187230C4BEE7160C"
+			]
+			id: "2E117BBA1E035855"
+			tasks: [{
+				id: "5B6F2D3B5B496E49"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3F99A5F49AABC226"]
+			id: "279ED2DAD4CC60CD"
+			size: 1.0d
+			tasks: [{
+				id: "091878C039413924"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"2E117BBA1E035855"
+				"0CC3390A8E309608"
+			]
+			dependency_requirement: "one_completed"
+			id: "3AE584B3EBC63A09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5473F2F4D9630FA7"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "你的第一（？）块HV电子电路"
+			tasks: [{
+				id: "1D3AB4D312D5E848"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3AE584B3EBC63A09"]
+			description: [""]
+			id: "761AC9761D80AC19"
+			rewards: [{
+				count: 4
+				id: "681C287F669124F3"
+				item: "ctnhmana:mana_integrated_circuit"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "我的天哪植魔大人"
+			tasks: [{
+				id: "32FD501729B1C125"
+				item: "ctnhmana:mana_integrated_circuit"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			id: "1C203FA12C28D5D2"
+			tasks: [{
+				id: "1C1BFFEBB2C0FC24"
+				title: "水洗深板岩粉也有概率出铬"
+				type: "checkmark"
+			}]
+			title: "水洗深板岩粉也有概率出铬"
+			x: 20.0d
+			y: 10.0d
+		}
+		{
+			id: "1F14A82831F5C61B"
+			tasks: [{
+				id: "4B73FBB0F178614C"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"199C34FF316CDB5D"
+				"4B0A7C665D98CEDD"
+			]
+			id: "6908B97B403240A1"
+			tasks: [{
+				id: "612A3FCED08C1E67"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1F14A82831F5C61B"
+				"1CD250F70B566174"
+			]
+			id: "199C34FF316CDB5D"
+			tasks: [{
+				id: "5DBAB9B5128F3AE7"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["199C34FF316CDB5D"]
+			id: "2072672E99455E02"
+			tasks: [{
+				id: "77DEABF1AD07241C"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			id: "1CD250F70B566174"
+			tasks: [{
+				id: "57308DA8D5616A87"
+				item: "ctnhcore:soularium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"199C34FF316CDB5D"
+				"4B0A7C665D98CEDD"
+			]
+			description: ["{    事实上，你还可以通过神化的刷怪笼或者新生魔艺的手段获取怪物掉落。但电动刷怪笼还可以用于HV阶段的屠宰场。}"]
+			id: "25F0981E1E4A0E7F"
+			subtitle: "自动刷怪"
+			tasks: [{
+				id: "716733C9922E17A0"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "64B9355875C126ED"
+			subtitle: "gt屠刀可以快速获取头颅"
+			tasks: [{
+				id: "56B2EE6B74321BB0"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"64B9355875C126ED"
+				"2072672E99455E02"
+				"3231CBCCB4FFFA0B"
+			]
+			id: "4B0A7C665D98CEDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0045711005515BF9"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "484DFA560F39E5B2"
+				item: "enderio:z_logic_controller"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			id: "23AD57EAE8D44BCB"
+			tasks: [{
+				id: "72C058D738CC97C6"
+				item: "gtceu:raw_vanadium_magnetite"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23AD57EAE8D44BCB"]
+			id: "4408E3466C5F2470"
+			tasks: [{
+				id: "2CE327998BFF0360"
+				item: "gtceu:vanadium_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "4F752D5EC2FB511C"
+			tasks: [{
+				id: "02572D38EE845C9F"
+				item: "gtceu:raw_ruby"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F752D5EC2FB511C"]
+			description: ["{简易版铬粉}"]
+			id: "59B39491E1FAA6E0"
+			tasks: [{
+				id: "45E72A768448ED19"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24CB9175692BADFD"]
+			description: ["{建议多做一点，很好用}"]
+			id: "78A828D153F91AC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "797913C264189474"
+				table_id: 5863108397808417557L
+				type: "random"
+			}]
+			subtitle: "集成种植"
+			tasks: [{
+				id: "010A88ADBD0BB387"
+				item: "ctnhcore:greenhouse"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["24CB9175692BADFD"]
+			id: "02F1CF840A21D33C"
+			tasks: [{
+				id: "373ACC015DF8DEE7"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5CC2A3C37EB99ED3"]
+			id: "7446005F43FE2EFA"
+			size: 1.0d
+			tasks: [{
+				id: "12E585C3B80D61BE"
+				item: "gtceu:cpu_chip"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3F99A5F49AABC226"]
+			id: "4AC69E9C512AB2B8"
+			tasks: [{
+				id: "4BDC2CC7606D2B9C"
+				item: "gtceu:polyethylene_foil"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4AC69E9C512AB2B8"]
+			id: "5FB37DA272403FB2"
+			size: 1.0d
+			tasks: [{
+				id: "584EC9E3D4ED80E8"
+				item: "gtceu:capacitor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["636A4080FF1A30CD"]
+			id: "12CC90A0B4668F70"
+			tasks: [{
+				id: "35FC18486FAA07CC"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 8.0d
+		}
+		{
+			id: "636A4080FF1A30CD"
+			tasks: [{
+				id: "335160C8B6795CF1"
+				item: "gtceu:toluene_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			id: "78C09E2B5542CD21"
+			tasks: [{
+				id: "4E0B43C9FD626722"
+				item: "gtceu:raw_pyrolusite"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"5FB37DA272403FB2"
+				"4D79E10947CC121F"
+				"279ED2DAD4CC60CD"
+				"7446005F43FE2EFA"
+			]
+			description: ["{恭喜你马上结束痛苦又漫长的手搓阶段}"]
+			id: "37BE0924832C7808"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40E2717DF4E1E494"
+					table_id: 5863108397808417557L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2802B170748AF19B"
+					table_id: 723892772024061161L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			subtitle: "这是一个阶段的结束，亦是另一个阶段的开始"
+			tasks: [{
+				id: "55524595C686AC17"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 16.0d
+		}
+		{
+			description: ["{可以用蒸汽输入仓和输入总线输出总线，且蒸汽级输出总线最多10个}"]
+			id: "4E153836BC53CDD1"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "原始人的第一个巨构"
+			tasks: [{
+				id: "2C454A9B147379F9"
+				item: "ctnhcore:martial_morality_eye"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 14.0d
+		}
+		{
+			id: "3231CBCCB4FFFA0B"
+			tasks: [{
+				id: "4B1EE75557AADC29"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "1736A5072E1CFF18"
+			subtitle: "进入天境之前你最好会飞"
+			tasks: [{
+				id: "4614739719B4D7C7"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["78C09E2B5542CD21"]
+			id: "0A545EF871CBD07A"
+			tasks: [{
+				id: "25E0F39D874C2589"
+				item: "gtceu:manganese_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 14.0d
+		}
+		{
+			id: "5C56BEA120711D82"
+			tasks: [{
+				id: "2E16776ACC1E352B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_mixer"
+							}
+							{
+								Count: 1b
+								id: "ctnhcore:mechanical_mixer"
+							}
+						]
+					}
+				}
+				title: "MV搅拌"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			id: "0B4C100552B5D9A8"
+			tasks: [{
+				id: "08E0581E82293AFE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_mixer"
+							}
+							{
+								Count: 1b
+								id: "ctnhcore:mechanical_mixer"
+							}
+						]
+					}
+				}
+				title: "MV搅拌"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			id: "766E11954A7C2E22"
+			tasks: [{
+				id: "3E754F093059CBFB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:mv_mixer"
+							}
+							{
+								Count: 1b
+								id: "ctnhcore:mechanical_mixer"
+							}
+						]
+					}
+				}
+				title: "MV搅拌"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
+	]
+	title: "&bMV&r时期"
+}

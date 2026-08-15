@@ -1,0 +1,631 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uv"
+	group: "19912BEA87D24FE0"
+	icon: "gtceu:uv_machine_hull"
+	id: "4648FB3FBB9F74B3"
+	order_index: 7
+	quest_links: [
+		{
+			id: "30A476A362D84487"
+			linked_quest: "7FD9B0E41358497D"
+			shape: "gear"
+			size: 2.0d
+			x: 27.0d
+			y: -18.0d
+		}
+		{
+			id: "1E89B8AB6D106F05"
+			linked_quest: "7F0C67AE534020B1"
+			x: 42.5d
+			y: -20.0d
+		}
+		{
+			id: "00B5D11AA16DE9D2"
+			linked_quest: "74E26D593C100718"
+			x: 43.5d
+			y: -20.0d
+		}
+		{
+			id: "16E5A3A942479B8E"
+			linked_quest: "43F6AA3B97042202"
+			x: 43.5d
+			y: -22.0d
+		}
+		{
+			id: "470C682243A23D2E"
+			linked_quest: "12BAF2B7FB2E3643"
+			x: 38.0d
+			y: -16.0d
+		}
+		{
+			id: "26B8714D7C547DDE"
+			linked_quest: "571E6FAB38D273F8"
+			shape: "gear"
+			size: 2.0d
+			x: 33.0d
+			y: -13.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["7FD9B0E41358497D"]
+			id: "38559FFEC45C6B03"
+			tasks: [{
+				id: "14ADC48FAE170E25"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["1C276DAC38B004B1"]
+			id: "0C3AB83D2762EC3D"
+			size: 1.5d
+			tasks: [{
+				id: "182F2580D81C384D"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 40.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["1C276DAC38B004B1"]
+			id: "4A1F708FDEEA50D2"
+			tasks: [{
+				id: "557D1FEA727BC42A"
+				item: "gtceu:uv_energy_output_hatch"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"0C3AB83D2762EC3D"
+				"7F0C67AE534020B1"
+				"74E26D593C100718"
+			]
+			id: "633B6EC62B49755E"
+			size: 2.0d
+			tasks: [{
+				id: "07D4BEA216765482"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: 42.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["633B6EC62B49755E"]
+			id: "69967649B8FB901C"
+			tasks: [{
+				id: "49CE237B12E3E1C4"
+				item: "ctnhcore:uv_compressed_fusion_reactor"
+				type: "item"
+			}]
+			x: 42.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["633B6EC62B49755E"]
+			id: "619F43DB0B07651E"
+			tasks: [{
+				id: "3BABFD3517052E8F"
+				item: "gtceu:iron_plasma_bucket"
+				type: "item"
+			}]
+			x: 41.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["633B6EC62B49755E"]
+			id: "1833231DA6DC3D77"
+			tasks: [{
+				id: "3F8FA4F5CAC512CA"
+				item: "gtceu:nickel_plasma_bucket"
+				type: "item"
+			}]
+			x: 44.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["633B6EC62B49755E"]
+			id: "18E2A4593690B3D1"
+			size: 1.0d
+			tasks: [{
+				id: "30EE8C597E5C02CB"
+				item: "avaritia:neutron_ingot"
+				type: "item"
+			}]
+			x: 44.5d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"1833231DA6DC3D77"
+				"619F43DB0B07651E"
+			]
+			id: "628F4826B5F6AC41"
+			subtitle: "亦或是催化剂？"
+			tasks: [{
+				id: "3BBE2FA962B1B2F2"
+				title: "更好的等离子燃料"
+				type: "checkmark"
+			}]
+			x: 42.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["12BAF2B7FB2E3643"]
+			id: "2F9F236DB91E21EB"
+			tasks: [{
+				id: "59165C9CFE776A45"
+				item: "ctnhcore:nq_fuelmk1_bucket"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["12BAF2B7FB2E3643"]
+			id: "34F957A3E8E7D3FF"
+			tasks: [{
+				id: "360AFAE7891B1424"
+				item: "ctnhcore:nq_fuelmk2_bucket"
+				type: "item"
+			}]
+			x: 39.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["12BAF2B7FB2E3643"]
+			id: "45A565804AFD4ABD"
+			tasks: [{
+				id: "25061AA1FB7F446E"
+				item: "ctnhcore:nq_fuelmk3_bucket"
+				type: "item"
+			}]
+			x: 37.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"7F81295FE18741A6"
+				"12BAF2B7FB2E3643"
+			]
+			description: ["{        将编程电路设置为1以启动}"]
+			id: "50B3C9E6ECB749A2"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "凭空产生，梦里才会有的东西吧？"
+			tasks: [{
+				id: "5C64C7AB92A674C4"
+				item: "ctnhcore:void_miner"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -13.0d
+		}
+		{
+			id: "0FBFC9DC10435D74"
+			subtitle: "准备好足够的培养皿吧 "
+			tasks: [{
+				id: "0093928D3E52E2E4"
+				item: "gtceu:petri_dish"
+				type: "item"
+			}]
+			title: "幽匿电路板的开端"
+			x: 43.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["18E2A4593690B3D1"]
+			id: "325BB56C5CEBF98A"
+			subtitle: "更好的Soc，可以直接制作湿件处理器"
+			tasks: [{
+				id: "72587F7365E457B7"
+				item: "gtceu:highly_advanced_soc_wafer"
+				type: "item"
+			}]
+			x: 44.5d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"7C46A46BCA54FB18"
+				"0FBFC9DC10435D74"
+				"4DF22955275FF10F"
+				"43F6AA3B97042202"
+				"325BB56C5CEBF98A"
+			]
+			description: [
+				"{这条意识装配线的中间产物都是带范围的哦，恐怕你没办法很方便地做主动产线了，试试挂被动吧}"
+				""
+				"{不要忘了中间产物作为输入也是有范围的，既然它在运行时有可能会消耗掉24个，那你就需要至少24个才能让配方运行哦}"
+			]
+			id: "76A0F39E1949074E"
+			subtitle: "附着在电路板上"
+			tasks: [{
+				id: "409AC1430F7A281D"
+				item: "ctnhcore:sculk_cell"
+				type: "item"
+			}]
+			x: 44.5d
+			y: -22.0d
+		}
+		{
+			id: "7C46A46BCA54FB18"
+			tasks: [{
+				id: "22F7F7DACD6729D5"
+				item: "avaritia:crystal_matrix_ingot"
+				type: "item"
+			}]
+			x: 43.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["3FCC69ED6F284B06"]
+			id: "4DF22955275FF10F"
+			tasks: [{
+				id: "7083E01A01B0AFAF"
+				item: "ctnhcore:sterilebiologicalculturemediumstocksolution_bucket"
+				type: "item"
+			}]
+			x: 44.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["68E2F33616B5A7A0"]
+			id: "3FCC69ED6F284B06"
+			subtitle: "这种材料似乎拥有快速传递通量的能力"
+			tasks: [
+				{
+					id: "1193B78963D8F5E0"
+					item: "minecraft:sculk_vein"
+					type: "item"
+				}
+				{
+					id: "6EAC0E1630A451D2"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+			]
+			x: 43.5d
+			y: -24.0d
+		}
+		{
+			id: "68E2F33616B5A7A0"
+			subtitle: "你需要大量的幽匿脉络"
+			tasks: [{
+				id: "60CB612E1591EBF7"
+				item: "ctnhcore:cultivationroom"
+				type: "item"
+			}]
+			x: 41.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["1193B78963D8F5E0"]
+			description: ["{粉碎幽匿脉络或者幽匿块}"]
+			id: "792A7D534B3F0A34"
+			subtitle: "生物材料"
+			tasks: [{
+				id: "1D00EB8CDD9D7A5D"
+				item: "gtceu:sculk_dust"
+				type: "item"
+			}]
+			x: 48.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["792A7D534B3F0A34"]
+			id: "5DA9CAEC38C8ACE8"
+			subtitle: "这何尝又不是一直晶体材料？"
+			tasks: [{
+				id: "1F44B10D9F469443"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			x: 47.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["792A7D534B3F0A34"]
+			id: "5EDA18A58B5B8833"
+			subtitle: "新一届耐烧王比赛，开幕！"
+			tasks: [{
+				id: "0218F2831F5332AC"
+				item: "ctnhcore:hidden_alloy_ingot"
+				type: "item"
+			}]
+			x: 47.5d
+			y: -24.0d
+		}
+		{
+			dependencies: [
+				"5DA9CAEC38C8ACE8"
+				"4DF22955275FF10F"
+				"5EDA18A58B5B8833"
+			]
+			id: "67C98CFDC97AFF44"
+			tasks: [{
+				id: "4351112175B0F270"
+				item: "ctnhcore:echo_circuit_board"
+				type: "item"
+			}]
+			x: 46.5d
+			y: -24.0d
+		}
+		{
+			dependencies: [
+				"76A0F39E1949074E"
+				"589FD2E6A654B2C5"
+			]
+			id: "011E8AEDD9D3731D"
+			subtitle: "直接制成ZPM电路！"
+			tasks: [{
+				id: "4C14CBFEB8D1D7C6"
+				item: "ctnhcore:echo_processor"
+				type: "item"
+			}]
+			x: 45.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["7C72C9094F33CC23"]
+			id: "589FD2E6A654B2C5"
+			subtitle: "新的材料"
+			tasks: [
+				{
+					count: 64L
+					id: "0895A143EC59DD7F"
+					item: { Count: 64, id: "ctnhcore:biological_patch_transistor" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7C6C380A7A7044DD"
+					item: { Count: 64, id: "ctnhcore:biological_patch_resistor" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "77FA27723921490C"
+					item: { Count: 64, id: "ctnhcore:biological_patch_capacitor" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "62AFDA5A676960BF"
+					item: { Count: 64, id: "ctnhcore:biological_patch_diode" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6544222F6A1DDE81"
+					item: { Count: 64, id: "ctnhcore:biological_patch_inductor" }
+					type: "item"
+				}
+			]
+			title: "又是贴片！"
+			x: 45.5d
+			y: -21.0d
+		}
+		{
+			id: "7C72C9094F33CC23"
+			subtitle: "这是什么东西？以前有吗？"
+			tasks: [{
+				id: "47825706E3C7DD15"
+				item: "ctnhcore:kapton_k_plate"
+				type: "item"
+			}]
+			x: 45.5d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"011E8AEDD9D3731D"
+				"5DA9CAEC38C8ACE8"
+				"67C98CFDC97AFF44"
+			]
+			id: "79F1B6B69D7ED6CB"
+			subtitle: "1:1，是不是很神奇？(其实并没有)"
+			tasks: [{
+				id: "3BA39A876DF0F2AE"
+				item: "ctnhcore:echo_processor_assembly"
+				type: "item"
+			}]
+			x: 46.5d
+			y: -22.0d
+		}
+		{
+			dependencies: [
+				"79F1B6B69D7ED6CB"
+				"4351112175B0F270"
+			]
+			id: "706D808019B80CE8"
+			subtitle: "还是1：1！赚翻了好不啦！(其实并没有)"
+			tasks: [{
+				id: "40778AB101D44448"
+				item: "ctnhcore:echo_processor_computer"
+				type: "item"
+			}]
+			x: 46.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["5EDA18A58B5B8833"]
+			id: "132CE8E9DC867DB4"
+			tasks: [{
+				id: "362B64309C61021B"
+				item: "ctnhcore:dense_hidden_alloy_plate"
+				type: "item"
+			}]
+			x: 49.5d
+			y: -24.0d
+		}
+		{
+			dependencies: [
+				"706D808019B80CE8"
+				"132CE8E9DC867DB4"
+			]
+			id: "33ED8AC84DBC5E71"
+			size: 2.0d
+			subtitle: "现在的顶点"
+			tasks: [{
+				id: "6451F6B5CA51C264"
+				item: "ctnhcore:echo_processor_mainframe"
+				type: "item"
+			}]
+			x: 49.5d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"7F81295FE18741A6"
+				"2B91C66AF05AEFE4"
+				"12BAF2B7FB2E3643"
+			]
+			id: "610A31DB73C17E42"
+			rewards: [{
+				count: 4
+				id: "3116558053E3426F"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "你滴转底炉回来辣！"
+			tasks: [{
+				id: "702449C7063C979C"
+				item: "ctnhcore:plasma_alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 40.0d
+			y: -13.0d
+		}
+		{
+			id: "2B91C66AF05AEFE4"
+			subtitle: "感觉......不如.....超级电高"
+			tasks: [{
+				id: "709288CE4DFD43B5"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["610A31DB73C17E42"]
+			id: "4FDEB75428302C94"
+			subtitle: "5倍加速"
+			tasks: [{
+				id: "5959E0A3F789F5B9"
+				item: "ctnhcore:compressed_adamantite_plasma_bucket"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["610A31DB73C17E42"]
+			id: "7FC1D52CB7D8F3A3"
+			subtitle: "10倍加速！但是代价是什么？"
+			tasks: [{
+				id: "3B3C73B38022BBE1"
+				item: "ctnhcore:compressed_aether_plasma_bucket"
+				type: "item"
+			}]
+			x: 38.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["021B8F054C53AD36"]
+			description: ["{需要给HPCA装上桥接组件，才能通过交换机连接起来以达到更高算力}"]
+			icon: "gtceu:network_switch"
+			id: "1C276DAC38B004B1"
+			rewards: [{
+				id: "4083BF89C86EB8FC"
+				item: "gtceu:hpca_bridge_component"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "获得64算力的方法"
+			tasks: [
+				{
+					id: "7800D6CAE77BAF6E"
+					item: "gtceu:network_switch"
+					type: "item"
+				}
+				{
+					id: "48EE4BBE1558A4CE"
+					item: "gtceu:hpca_bridge_component"
+					type: "item"
+				}
+			]
+			x: 38.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["38559FFEC45C6B03"]
+			id: "0A1650016D17B7F3"
+			subtitle: "你也逃——不——掉——"
+			tasks: [{
+				id: "20A935E8E14ACEE7"
+				item: "gtceu:uv_assembler"
+				type: "item"
+			}]
+			x: 32.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0A1650016D17B7F3"]
+			id: "53F07756D65FCF89"
+			size: 1.5d
+			tasks: [{
+				id: "54AE603CA8973D87"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 34.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["53F07756D65FCF89"]
+			id: "021B8F054C53AD36"
+			tasks: [{
+				id: "2181D2ADA113AA14"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				type: "item"
+			}]
+			x: 36.0d
+			y: -18.0d
+		}
+		{
+			id: "6B61A32A2688A834"
+			subtitle: "不仅无损超频，而且还可以无电压功率上限"
+			tasks: [{
+				id: "1A30057D21C7EEB0"
+				item: "ctnhcore:luv_compressed_fusion_reactor"
+				type: "item"
+			}]
+			x: 42.5d
+			y: -15.5d
+		}
+		{
+			id: "07ABDAE50C5C8D9A"
+			tasks: [{
+				id: "0E6F8B16FACD03E1"
+				item: "ctnhcore:zpm_compressed_fusion_reactor"
+				type: "item"
+			}]
+			x: 42.5d
+			y: -14.5d
+		}
+	]
+	title: "&3UV&r时期"
+}

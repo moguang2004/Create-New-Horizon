@@ -1,0 +1,2375 @@
+{
+	autofocus_id: "10C3F5FDB012D5A8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "4CD84F8DB1FF8B7E"
+	icon: "ae2:controller"
+	id: "1B0E82C41642E541"
+	order_index: 0
+	quest_links: [
+		{
+			id: "6B3CBC1E3FED2CA6"
+			linked_quest: "6680806967633AD8"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "6DA255C670A9FB53"
+			linked_quest: "14899AF85A2D3C9A"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "4A9BFB6EB6F26385"
+			linked_quest: "534D927B52EC5F63"
+			x: 23.5d
+			y: -1.0d
+		}
+		{
+			id: "570BFF0CA15CBB12"
+			linked_quest: "0D88A5F86881FB3B"
+			x: 24.5d
+			y: -1.0d
+		}
+		{
+			id: "78DBE5089929C135"
+			linked_quest: "019F2136970CA2E1"
+			x: 25.5d
+			y: -1.0d
+		}
+		{
+			id: "687BF30B7299EFEA"
+			linked_quest: "03F6BCDB99059FD4"
+			x: 26.5d
+			y: -1.0d
+		}
+		{
+			id: "66EDF12C623A65CD"
+			linked_quest: "2D662EFDE7A39BB8"
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			id: "5D8C3B54CBA14A9E"
+			linked_quest: "3AE584B3EBC63A09"
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			id: "3F5D758137719935"
+			linked_quest: "607209201C6B08C3"
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			id: "223DA598BCA25751"
+			linked_quest: "216D57DF2B38AB9D"
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			id: "25DE136871405A96"
+			linked_quest: "7E7C8A91D6E5AE8A"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "2BDFB5A2182B7CF1"
+			linked_quest: "1E4B426746200AE2"
+			x: -2.0d
+			y: 5.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["39932A8C0601C003"]
+			description: [
+				"{获取充能赛特斯石英水晶的方法之一}"
+				"{但是作为格雷员工，深知给水晶通电就能充能}"
+				"{于是我选择了电解赛特斯石英水晶}"
+			]
+			id: "10C3F5FDB012D5A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "355B62CAD4CC57E8"
+					table_id: 5863108397808417557L
+					type: "choice"
+				}
+				{
+					count: 16
+					id: "13C756191F4F3FC0"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "089ECA8A10D187B6"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CBC89BB2970D034"]
+			description: [
+				"{ae的开端}"
+				"{说明：本段文字中的“现实”指的是游戏中的物质世界，并非你所在的真正的现实}"
+				"{概述：me存储网络技术（下文简称me网络）是一种可以将现实物品通过终端、me接口、me总线等手段转化为me磁盘中的数据，再通过上述手段转化为显示物品的技术}"
+				"{术语解释：1.频道：表示me网络中可连接的（消耗频道的）设备数量限制，一个无me控制器的网络最多连接8个消耗频道的设备,一个me控制器方块每个面可以提供32个频道(Hv解锁)，多个控制器方块相连可以提供更多数量的频道，不过每个面提供的频道数量还是一定的，一个me网络中，只能出现一个me控制器集群（集群指紧连着的，不超过7x7x7的由me控制器组成的多方快结构）。}"
+				"{     me玻璃线缆，me智能线缆只能传导8个频道,me致密线缆可以传导32个频道，由此可知由me智能线缆无法完全导出me控制器一个面的所有频道，由此，p2p的需求诞生了（更详细的说明见https://www.mcmod.cn/item/192513.html）}"
+				"{          2.p2p：https://www.mcmod.cn/item/8748.html}"
+				"{          3.ae能源https://www.mcmod.cn/item/366571.html}"
+				"{          4.自动合成教程：https://www.mcmod.cn/item/392558.html}"
+			]
+			id: "39932A8C0601C003"
+			rewards: [{
+				count: 16
+				id: "735F2EFAF0024AD1"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6A27D2B185C11807"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16D03700E6D58905"]
+			description: [
+				"{在地图上寻找黑球所在地}"
+				"{PS：也许里面有外星人？(just a kidding)}"
+			]
+			id: "6CBC89BB2970D034"
+			rewards: [{
+				count: 64
+				id: "4F067A3ED3C293C4"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "并非天外"
+			tasks: [{
+				count: 16L
+				id: "77CB8C8B8BD5E994"
+				item: { Count: 16, id: "ae2:smooth_sky_stone_block" }
+				type: "item"
+			}]
+			title: "天外来物"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CBC89BB2970D034"]
+			description: [
+				"{如果移不走陨石里面的无暇赛特斯水晶母岩，可以查看高压釜的配方}"
+				"{获取它以达到水晶自由}"
+			]
+			id: "6C9A963F105E33D1"
+			rewards: [{
+				count: 16
+				id: "3FA8A021E99D33E9"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19B27ECD32630515"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39932A8C0601C003"]
+			description: ["{外星科技的世界交互之力吗？但是作为格雷员工我选择了搅拌}"]
+			id: "7A25DAE6AFF4FF80"
+			rewards: [{
+				count: 16
+				id: "2FE2F51DCAB10298"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "420860CCEC64D166"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CBC89BB2970D034"]
+			description: ["{相信我，你会需要这个的}"]
+			id: "461B5B5761B40CD5"
+			tasks: [{
+				count: 16L
+				id: "1A9A16DA336E99AC"
+				item: { Count: 16, id: "ae2:sky_dust" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39932A8C0601C003"]
+			description: [
+				"{你知道隔壁的充能器能获得充能赛特斯石英水晶}"
+				"{但是作为格雷员工，深知给水晶通电就能充能}"
+				"{于是选择了电解赛特斯石英水晶}"
+				"{“啊，外星科技还是来到格雷还是得入乡随俗啊”}"
+				"{你的同伴深以为然}"
+			]
+			id: "5D5C21A6928AB384"
+			rewards: [{
+				count: 16
+				id: "1734C9D28BBCFCFB"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C5C7068D23C77FD"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "充能？不！电解！"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10C3F5FDB012D5A8"]
+			description: ["{“可恶，扩展了也不能追上格雷员工给水晶通电吗？”外星人郁闷不已}"]
+			id: "6A8CFD2D2C31008D"
+			rewards: [
+				{
+					count: 64
+					id: "2EABAB962162A502"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "289F24B60C0CD12D"
+					table_id: 971429564947815603L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "518E9ED55B357F52"
+				item: "expatternprovider:ex_charger"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"39932A8C0601C003"
+				"3D3B26CBE9800D76"
+			]
+			description: [
+				"{最早的处理器}"
+				"{“他好像还不能自己干活”外星人A说}"
+				"{“也许之后和别的处理器一起搭配就能自动化了”外星人B补充道}"
+			]
+			id: "6D3910690218D0E3"
+			rewards: [{
+				count: 4
+				id: "1479FCF30A418F56"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "16FAEFA538FC3A47"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			title: "处理器1号"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39932A8C0601C003"]
+			description: [
+				"{ae另一位基础材料}"
+				"{先压成板再去冲压机床变成硅电路板}"
+			]
+			id: "1DB89BF922D68C23"
+			rewards: [{
+				count: 8
+				id: "5187C37F61906BD7"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6073FF55D84D9A3A"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"39932A8C0601C003"
+				"1D3AB4D312D5E848"
+			]
+			description: [
+				"{剩下两个处理器}"
+				"{“看，现在他能自己干点活了，可喜可贺”}"
+			]
+			id: "22A38EA3DB639329"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34D804980766529C"
+				table_id: 6682378568521982947L
+				type: "choice"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "5F2910B40D72EB5B"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "36A44C48AB92E702"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "处理器2号和3号"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D3910690218D0E3"]
+			id: "7DD0460C15F8B5BD"
+			rewards: [{
+				count: 32
+				id: "7487239A3B81142E"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "4E250602A02C01E8"
+					item: { Count: 2, id: "ae2:formation_core" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7C8AE80F5B06E205"
+					item: { Count: 2, id: "ae2:annihilation_core" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7DD0460C15F8B5BD"
+				"4672877BD1175E10"
+				"4D0E732C53F05993"
+			]
+			description: ["{子网在未来的生活中贯穿你的自动化（尤其是喜欢玩林海大人和各球石头的）}"]
+			id: "0E966C5AB6815BDD"
+			size: 1.0d
+			tasks: [
+				{
+					id: "0C992EAC9C78F815"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "16007B084697A264"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			title: "子网"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7DD0460C15F8B5BD"]
+			id: "4672877BD1175E10"
+			rewards: [
+				{
+					count: 2
+					id: "6DC74B4C6D19489D"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B7AF366504FAEEB"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "67597C10EDE50DD1"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					id: "0944B2570832EA4C"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7DD0460C15F8B5BD"]
+			id: "7F4814E8409B8B21"
+			rewards: [{
+				id: "0F648D58173287B3"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fortune"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "337AC3DC9B4229FB"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					id: "54F71F0E7C2F8868"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E966C5AB6815BDD"]
+			id: "31F3AAED605A4126"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6580EB1D064ABDD3"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58A7F19503BDE919"
+				item: "expatternprovider:ex_interface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["31F3AAED605A4126"]
+			id: "012954255F4FA739"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EBBBD5E5106C821"
+				table_id: 971429564947815603L
+				type: "random"
+			}]
+			tasks: [{
+				id: "257FA234E84D2FC2"
+				item: "expatternprovider:oversize_interface"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D3910690218D0E3"]
+			id: "071285C288ECD6B8"
+			tasks: [{
+				id: "5A89078EA30D3E25"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["387610CFB183C3B0"]
+			description: [
+				"{如标题所示}"
+				"{对了说到高级......}"
+			]
+			id: "4C92768AC6F6A911"
+			tasks: [{
+				id: "126962A5934F5D78"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			title: "高级自动合成"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["14899AF85A2D3C9A"]
+			id: "387610CFB183C3B0"
+			tasks: [{
+				id: "6232FB4B1CA10936"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "自动合成"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "17E7750B7D3E59C7"
+			size: 1.0d
+			tasks: [{
+				id: "795848EB283FDD4B"
+				item: "ae2:advanced_card"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["17E7750B7D3E59C7"]
+			id: "6FDDA965A674EDB7"
+			tasks: [{
+				id: "737BB03DF431F280"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"73E6E35E2E8691C4"
+				"4C92768AC6F6A911"
+			]
+			description: [
+				"{所需材料}"
+				"{外层：}"
+				"{装配矩阵框架 —— 用于搭建装配矩阵的每一条棱，框定了装配矩阵的大小}"
+				"{装配矩阵墙壁/装配矩阵玻璃 —— 用于搭建装配矩阵的每一个面，将面上填满即可。}"
+				"{内部：}"
+				"{装配矩阵样板核心 —— 至少安装1个，用于为装配矩阵提供样板容量，每个可以容纳36个合成样板；}"
+				"{装配矩阵合成核心 —— 至少安装1个，用于让装配矩阵进行合成，每个可以同时执行8个合成任务；}"
+				"{装配矩阵速度核心 —— 最多生效5个（并非只能放5个），用于为装配矩阵加速。}"
+				"{加速核心数量与对应速度如下}"
+				"{0个：5t}"
+				"{1个：4t}"
+				"{2个：3t}"
+				"{3个：3t}"
+				"{4个：2t}"
+				"{5个：1t}"
+			]
+			id: "5756BCA0D27CBC0B"
+			size: 1.0d
+			subtitle: "超高校级合成"
+			tasks: [
+				{
+					id: "1C3932E80DD0CF5B"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+				{
+					id: "5D0C443E6599FEEA"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					id: "5AE50CA875F16B41"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+			]
+			title: "装配矩阵三巨头"
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["387610CFB183C3B0"]
+			description: [
+				"{以下来源于mc百科：https://www.mcmod.cn/item/858091.html}"
+				"{装配矩阵（Assembler Matrix）是AE2扩展添加的、用于自动合成的多方块结构，有极高的效率。}"
+				"{装配矩阵近似等效于大量ME样板供应器与分子装配室组成的自动合成装置。}"
+				"{提示：在ME样板管理终端内，会显示“仅接受合成样板”，但实际可以接受合成样板、锻造台样板、切石机样板。}"
+				"{在装配矩阵搭建成功后，每个装配矩阵框架/装配矩阵墙壁/装配矩阵玻璃上都可以连接ME线缆，内部没有能量缓存，耗能取决于搭建该结构使用的方块。}"
+				"{装配矩阵需要占用1个频道，可以传递最多8个频道，频道能从任意装配矩阵框架/装配矩阵墙壁/装配矩阵玻璃上传出，方向不限。}"
+				"{默认外径最大为 7×7×7，最小为3×3×4}"
+			]
+			id: "73E6E35E2E8691C4"
+			size: 1.0d
+			subtitle: "开始你的装配阵列吧"
+			tasks: [
+				{
+					id: "4A0EE4B67BF7CEA1"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+				{
+					id: "1DFC14C12D6965C6"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "46A01BCF47E54CF6"
+					item: "expatternprovider:assembler_matrix_glass"
+					type: "item"
+				}
+			]
+			title: "装配矩阵"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A4943F0B611E79B"]
+			id: "37022075645D1CF7"
+			size: 1.0d
+			subtitle: "开始搭建你的下单阵列吧"
+			tasks: [{
+				id: "3A3EB0CFED607A29"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["071285C288ECD6B8"]
+			id: "0C9E95E5F5741075"
+			tasks: [{
+				id: "041DC2574ADE9CB5"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			description: ["{你可能用得上的？也许大概吧}"]
+			id: "21684C70C01BCD9B"
+			subtitle: "变聪明了！"
+			tasks: [
+				{
+					id: "740A5B30F0635E41"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+				{
+					id: "1F51ECBC83C37AF5"
+					item: "expatternprovider:ex_pattern_access_part"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0C9E95E5F5741075"
+				"73DD7619A5294C80"
+			]
+			id: "09DBA93B2681B769"
+			tasks: [{
+				id: "5ED9D700531E0BC3"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09DBA93B2681B769"]
+			id: "1081942C521EB158"
+			tasks: [
+				{
+					id: "532F7247DBD2B7AA"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "20AE2D3B05460902"
+					item: "ae2wtlib:wireless_pattern_encoding_terminal"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1081942C521EB158"]
+			description: ["{任意两个无线终端在工作台合成}"]
+			id: "223F7D7FFD6A0D68"
+			subtitle: "万能吗？"
+			tasks: [{
+				id: "42821AD5D9B0E045"
+				item: "ae2wtlib:wireless_universal_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["36A44C48AB92E702"]
+			id: "73DD7619A5294C80"
+			tasks: [{
+				id: "459AFE2F6CCD7E92"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["73DD7619A5294C80"]
+			description: ["{食之无用弃之可惜}"]
+			id: "1BCFDCF5D10637E8"
+			rewards: [{
+				count: 4
+				id: "0AB20374408DEE33"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59903E444CF62A99"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["73DD7619A5294C80"]
+			description: ["{量子纠缠态奇点用奇点+末影珍珠（或者末影珍珠粉）在爆炸作用下生成}"]
+			id: "1060B42F2E4DACEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76BB1D024A9B40DD"
+				table_id: 6682378568521982947L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "141F4DE2E55C21EE"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					id: "43780075ED717C61"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "437BCA4DF0868B52"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "60102E8064A3F677"
+					item: { Count: 2, id: "ae2:quantum_entangled_singularity" }
+					type: "item"
+				}
+			]
+			title: "量子技术！"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1060B42F2E4DACEE"]
+			description: ["{属于无线终端的量子技术}"]
+			id: "249240D0C96CE2F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6650C4854AB63450"
+				table_id: 6682378568521982947L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7C61035B52CC3DB7"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"{制作奇点和物质球}"
+				"{可以使用空间IO进行输入}"
+			]
+			id: "6FCEE1DE57F717C0"
+			size: 1.0d
+			subtitle: "大卫·戴"
+			tasks: [{
+				id: "4612548D88C54996"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "4632CB7C9A11C8D9"
+			subtitle: "请看后面的复杂与全能合成存储器"
+			tasks: [
+				{
+					id: "39B212A7BC52E5E3"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "3736A562F6306989"
+					item: "ae2:4k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "196EF06069F08154"
+					item: "ae2:16k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "449C25443B7A2A0E"
+					item: "ae2:64k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "134E8BD125B17138"
+					item: "ae2:256k_crafting_storage"
+					type: "item"
+				}
+			]
+			title: "什么时代了，还在用原版合成存储器"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22A38EA3DB639329"]
+			id: "2135C85DC07D91F8"
+			size: 1.0d
+			tasks: [{
+				id: "57A76D0E92F3BFC6"
+				type: "checkmark"
+			}]
+			title: "其他机器"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37022075645D1CF7"]
+			id: "66069718FAAE3BC5"
+			tasks: [{
+				id: "16B1F414DCD95DC9"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"50EE8E24E065798F"
+				"42F3929CE1A04D16"
+				"387610CFB183C3B0"
+			]
+			id: "1A4943F0B611E79B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B4E2759A646E885"
+				table_id: 723892772024061161L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "你已经成功搭建了AE网络"
+			tasks: [{
+				id: "3ECCDCF32A0EC13D"
+				type: "checkmark"
+			}]
+			title: "恭喜"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2135C85DC07D91F8"]
+			description: ["{盘与网络互传数据（确信）}"]
+			id: "222D3EA6E23E9A64"
+			tasks: [{
+				id: "66F5F61859B8F374"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["222D3EA6E23E9A64"]
+			id: "51D1999F58393704"
+			tasks: [{
+				id: "6EB12A0E8BA8A43B"
+				item: "expatternprovider:ex_io_port"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6680806967633AD8"]
+			description: [
+				"{可以做各种普通盘和深度盘，还有对应的超级组件}"
+				"{记得流体物品都要做盘}"
+			]
+			id: "61C849800E476744"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2219F9A0EB7D79A4"
+				table_id: 971429564947815603L
+				type: "loot"
+			}]
+			subtitle: "请看后面的复杂元件与全能元件"
+			tasks: [
+				{
+					id: "18B35D0170CB5BA3"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+				{
+					id: "655515851026C4DD"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+				{
+					id: "4C39A0A0948BAC5A"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+				{
+					id: "5DA2F76176799D0D"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+				{
+					id: "1CBEA04E47B49303"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+			]
+			title: "什么时代了，还在用原版存储元件"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50EE8E24E065798F"]
+			id: "1BE6887BA3C17898"
+			tasks: [{
+				id: "7CEBFBE703DC13C4"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6680806967633AD8"]
+			id: "50EE8E24E065798F"
+			rewards: [{
+				count: 2
+				id: "51E50EC640CAB1E6"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "77D77FE1BDA4C238"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6D3910690218D0E3"
+				"22A38EA3DB639329"
+				"53D4A81ADA13DD15"
+			]
+			description: [
+				"{小tips:}"
+				"{由于制作组的惊世智慧，导致你在获得hv电路板之前无法制作me控制器和me驱动器，导致同一个网络内最大只有8频道可用，网络的存储功能也极大的打折，所以我并不推荐你在lv阶段就着手推进ae，如果真的有需要，你可以使用存储总线和me箱子来进行存储，用me接口进行简单的被动自动化。}"
+			]
+			id: "42F3929CE1A04D16"
+			size: 1.5d
+			tasks: [{
+				id: "497C6F263F83ADD1"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "445EB3640522A172"
+			size: 1.0d
+			tasks: [{
+				id: "54DA7568F80569E4"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CBC89BB2970D034"]
+			description: [
+				"{压印模版是在冲压机床里使用的，用来压各种电路板}"
+				"{指南则对ae2进行了基础教学}"
+			]
+			id: "0E2318F0BAAA1A6D"
+			rewards: [{
+				id: "345AF547674F4A53"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6843E07B5ABA4EA5"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "62BECD9FBF7574AE"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "7311F87325D1F925"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "3D01CA23B4BDEB08"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "705720BF4395451A"
+					item: "ae2:guide"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2135C85DC07D91F8"]
+			id: "5863AE71FD7FBAEB"
+			subtitle: "可以编辑元件"
+			tasks: [{
+				id: "4CB33BE6E9C3B632"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A25DAE6AFF4FF80"]
+			description: ["{防止断电}"]
+			id: "14149E97A9EF7369"
+			tasks: [
+				{
+					id: "19575DD776D9C5B6"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "343ABA8B7CAB3F8A"
+					item: {
+						Count: 1
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2135C85DC07D91F8"]
+			id: "51189DB88F507E25"
+			tasks: [{
+				id: "17B3ABF7C888199A"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51189DB88F507E25"]
+			id: "7981E71DFB1F48EB"
+			tasks: [{
+				id: "057CAA26BF763ACD"
+				item: "merequester:requester_terminal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2135C85DC07D91F8"]
+			description: [
+				"{p2p详情见指南和mc百科}"
+				"{https://www.mcmod.cn/item/8748.html}"
+			]
+			id: "6375A1591C9E11A5"
+			tasks: [{
+				id: "49E2F1765CEC14BC"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C9A963F105E33D1"]
+			description: ["{快速获取赛特斯水晶}"]
+			id: "1375F830B98589BD"
+			tasks: [{
+				id: "225FCADAB3DEDFB6"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2135C85DC07D91F8"]
+			id: "1C928F86B607D5BE"
+			tasks: [{
+				id: "38ED847B6F1B214C"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2135C85DC07D91F8"]
+			description: [
+				"{16桶也就是16000mb}"
+				"{太少了不如流体抽屉或者存ae不是吗？}"
+				"{鉴定为玩具}"
+			]
+			id: "7FA8A22298656221"
+			rewards: [{
+				count: 32
+				id: "2911399AF6C470D1"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E287346C6CE69AE"
+				item: "ae2:sky_stone_tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["17E7750B7D3E59C7"]
+			id: "638C3028FA7FD94F"
+			tasks: [{
+				id: "080249E93B08F4B0"
+				item: "ae2:fuzzy_card"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["17E7750B7D3E59C7"]
+			id: "60391EF0A5B97B75"
+			tasks: [{
+				id: "1F553CE197D883E2"
+				item: "ae2:inverter_card"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["17E7750B7D3E59C7"]
+			id: "7D3614362E07AB92"
+			tasks: [{
+				id: "5150F9386559E036"
+				item: "ae2wtlib:magnet_card"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17E7750B7D3E59C7"]
+			id: "1BD80103A643ABF1"
+			tasks: [{
+				id: "7DBD688F86C28510"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["445EB3640522A172"]
+			id: "3B8CE3B5F98F739E"
+			tasks: [{
+				id: "20037C90DDA4A5A8"
+				item: "ae2:redstone_card"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["445EB3640522A172"]
+			id: "5620F91275919413"
+			tasks: [{
+				id: "784D1644BA6C4BA0"
+				item: "ae2:capacity_card"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["445EB3640522A172"]
+			id: "0095E958A6E6D0BD"
+			tasks: [{
+				id: "30BB8F92177A68CC"
+				item: "ae2:void_card"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["445EB3640522A172"]
+			id: "0A700358F7823FCB"
+			tasks: [{
+				id: "5C6D569A6416E61F"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			description: ["{8个不锈钢买16个空白样板，很划算不是吗？}"]
+			id: "735CABE421E64F98"
+			rewards: [{
+				count: 16
+				id: "7E1ED0FF6866F6A9"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "65C07149295C502C"
+				item: { Count: 8, id: "gtceu:stainless_steel_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "7B92F985DCE4FBEB"
+			rewards: [
+				{
+					count: 64
+					id: "2CB2326F8B36AB70"
+					item: "ae2:fluix_smart_cable"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0000E6ADF728A76E"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "24D45993D397DB1B"
+				item: { Count: 16, id: "gtceu:aluminium_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{本章将会详细讲解原AE2以及魔改部分，看下去吧~}"
+				""
+				"{整合包内置高版本风格AE材质包，可自行在资源包界面启用。}"
+				""
+				"{&4注意&r：本整合包对AE进行了深度魔改，自行添加额外的AE附属mod很可能造成不兼容、崩溃或其他bug。}"
+			]
+			id: "16D03700E6D58905"
+			size: 2.0d
+			subtitle: "致世界上最好的物流模组"
+			tasks: [{
+				id: "6F9B24E6183A18C2"
+				title: "应用能源？AE2！"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39932A8C0601C003"]
+			id: "53D4A81ADA13DD15"
+			subtitle: "硅硅硅"
+			tasks: [{
+				id: "60F3F4226CEE7027"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "4D0E732C53F05993"
+			subtitle: "隔断网络"
+			tasks: [{
+				id: "591B902407CA244F"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D0CA1F72EEEA7D5"]
+			id: "7F01F4DD2BF61F4B"
+			tasks: [{
+				id: "56F3970B4402466C"
+				item: "ae2omnicells:omni_cell_component_1k"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7F01F4DD2BF61F4B"]
+			id: "5EFD2B216D94F9B0"
+			tasks: [{
+				id: "3C8439B8ADD6D568"
+				item: "ae2omnicells:omni_cell_component_4k"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5EFD2B216D94F9B0"
+				"2D662EFDE7A39BB8"
+			]
+			id: "1833487E88360E8F"
+			tasks: [{
+				id: "51134DA55F63B58A"
+				item: "ae2omnicells:omni_cell_component_16k"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1833487E88360E8F"
+				"3AE584B3EBC63A09"
+			]
+			id: "5EF66EA626586D4A"
+			tasks: [{
+				id: "27E45E77F0EE9B40"
+				item: "ae2omnicells:omni_cell_component_64k"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5EF66EA626586D4A"
+				"607209201C6B08C3"
+			]
+			id: "53389BA89020EE79"
+			tasks: [{
+				id: "330EAC027F8289D2"
+				item: "ae2omnicells:omni_cell_component_256k"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"53389BA89020EE79"
+				"216D57DF2B38AB9D"
+			]
+			id: "48FFC7BCFEB97A86"
+			tasks: [{
+				id: "4F991C51886B51E4"
+				item: "ae2omnicells:omni_cell_component_1m"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"317B11045B791B3C"
+				"534D927B52EC5F63"
+			]
+			id: "11A59081ACE352B0"
+			tasks: [{
+				id: "644EB757AA7C79B9"
+				item: "ae2omnicells:complex_omni_cell_component_4m"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"11A59081ACE352B0"
+				"0D88A5F86881FB3B"
+			]
+			id: "38E9239EA5B2E087"
+			tasks: [{
+				id: "65473EDA73E15640"
+				item: "ae2omnicells:complex_omni_cell_component_16m"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"38E9239EA5B2E087"
+				"019F2136970CA2E1"
+			]
+			id: "2C3B44098BB1F3E0"
+			tasks: [{
+				id: "5BB61FC0B4B07727"
+				item: "ae2omnicells:complex_omni_cell_component_64m"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2C3B44098BB1F3E0"
+				"03F6BCDB99059FD4"
+			]
+			id: "1C17E0B0EBA06DCC"
+			tasks: [{
+				id: "6838DA5404ECCAAC"
+				item: "ae2omnicells:complex_omni_cell_component_256m"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"66069718FAAE3BC5"
+				"37022075645D1CF7"
+				"1A12EEA9DF9A612D"
+			]
+			id: "4D0CA1F72EEEA7D5"
+			size: 1.5d
+			subtitle: "你好，结婚"
+			tasks: [{
+				id: "2D3C9DB58DD58BA7"
+				item: "ae2omnicells:omni_link_processor"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"534D927B52EC5F63"
+				"5398C4B22691E149"
+			]
+			id: "317B11045B791B3C"
+			size: 1.5d
+			subtitle: "你好，再婚"
+			tasks: [{
+				id: "409E879A0D3FE505"
+				item: "ae2omnicells:complex_link_processor"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"{    包含OMNI 合成单元的CPU在执行合成任务时，会自动对处理样板进行翻倍发配（如果样板供应器为不阻挡或智能阻挡），默认最大倍数为64，可通过设置修改。}"
+				"{    &4注意：容器或机器容量太小可能导致无法发配进而卡住合成&r}"
+			]
+			id: "1B4E505F5E359FAF"
+			size: 1.5d
+			subtitle: "让我看看你有多全能"
+			tasks: [{
+				id: "2D30658B8BAD7E48"
+				item: "ae2omnicells:omni_crafting_unit_block"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1B4E505F5E359FAF"
+				"4D0CA1F72EEEA7D5"
+			]
+			id: "4A02AB33931358B6"
+			tasks: [{
+				id: "2BFC1FDA7F121E7F"
+				item: "ae2omnicells:omni_crafting_storage_1k_block"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			id: "0EB3441858295940"
+			tasks: [{
+				id: "186B36D37C64AB3E"
+				item: "ae2omnicells:omni_crafting_storage_4k_block"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D662EFDE7A39BB8"]
+			id: "0D80334B81800DE2"
+			tasks: [{
+				id: "0BDAEE662003AEEF"
+				item: "ae2omnicells:omni_crafting_storage_16k_block"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AE584B3EBC63A09"]
+			id: "3AB0D8AB38C9EDDB"
+			tasks: [{
+				id: "548528A21EA44624"
+				item: "ae2omnicells:omni_crafting_storage_64k_block"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["607209201C6B08C3"]
+			id: "162450D725403B61"
+			tasks: [{
+				id: "08354B94FDFDEEA8"
+				item: "ae2omnicells:omni_crafting_storage_256k_block"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["216D57DF2B38AB9D"]
+			id: "01A27E5E53509CFA"
+			tasks: [{
+				id: "64F3BACF6AECDFCA"
+				item: "ae2omnicells:omni_crafting_storage_1m_block"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B4E505F5E359FAF"]
+			id: "7DB09F149989EB3E"
+			size: 1.5d
+			subtitle: "好复杂的全能"
+			tasks: [{
+				id: "60220FFF50EF918E"
+				item: "ae2omnicells:complex_crafting_unit_block"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7DB09F149989EB3E"
+				"317B11045B791B3C"
+				"534D927B52EC5F63"
+			]
+			id: "7B5C04B50652F1FF"
+			tasks: [{
+				id: "139CF61EE2800E6B"
+				item: "ae2omnicells:complex_crafting_storage_4m_block"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D88A5F86881FB3B"]
+			id: "718C9032898CDED4"
+			tasks: [{
+				id: "6B5A31076A4A1EEB"
+				item: "ae2omnicells:complex_crafting_storage_16m_block"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["019F2136970CA2E1"]
+			id: "66B5A15CD10AD3F9"
+			tasks: [{
+				id: "65D0CA8B40573440"
+				item: "ae2omnicells:complex_crafting_storage_64m_block"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03F6BCDB99059FD4"]
+			id: "6D442B2854D5D2AD"
+			tasks: [{
+				id: "10ED7A7E770F4C12"
+				item: "ae2omnicells:complex_crafting_storage_256m_block"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"03F6BCDB99059FD4"
+				"6D442B2854D5D2AD"
+				"1C17E0B0EBA06DCC"
+			]
+			description: ["{                &m白璃给你送礼物来咯}"]
+			icon: "avaritia:infinity_catalyst"
+			id: "496270CFE0BC3FD9"
+			rewards: [
+				{
+					count: 64
+					id: "269BD175E2E89AD9"
+					item: "gtceu:neutronium_dust"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6BE171E7DAD1323F"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0155B5BA0783AB2B"
+					item: "ae2omnicells:complex_omni_cell_component_256m"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4FC4848C800DF38D"
+					item: "gtceu:uv_machine_hull"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "072554193E9E2833"
+					table_id: 1576725829474885042L
+					type: "choice"
+				}
+				{
+					id: "2CDA3451576AB583"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1770885103
+									-8500089
+									-1719850181
+									1737227114
+								]
+								Name: "Musicart_unnmei"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc2MjQwOTI1OTQ0OSwKICAicHJvZmlsZUlkIiA6ICI5NjcyNzAxMWZmN2U0Yzg3OTk3ZDJiM2I2NzhiZmI2YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNdXNpY2FydF91bm5tZWkiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFmYTRjNjVkNmYyZTQ0N2Y0ODMwMDU1N2IyNmM4MzA3YTIwM2ZjZjMwYTFiMWY0MjM5N2Q0NzExZGVlNTY3ZSIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "你已然全知全能"
+			tasks: [{
+				id: "11B593F74740EFC8"
+				title: "再次恭喜"
+				type: "checkmark"
+			}]
+			x: 29.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6375A1591C9E11A5"]
+			description: ["{传递EU时会收取5%的税，直接从网络中扣除，当心AE跳电！}"]
+			id: "5D021CAFB247CECD"
+			subtitle: "要收税的！"
+			tasks: [{
+				id: "695413C7BF80B729"
+				item: "ctnhenergy:eu_p2p_tunnel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["17E7750B7D3E59C7"]
+			description: ["{     在元件工作台上为omni元件标记任意流体，然后插入此升级卡，可使该元件只存储流体。物品同理}"]
+			id: "23651FAA383FA5B0"
+			tasks: [{
+				id: "0804CBF76FC67ECD"
+				item: "ae2omnicells:type_fuzzy_card"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6D8EAA1C3A2C6968"]
+			id: "1A12EEA9DF9A612D"
+			tasks: [{
+				id: "098033992B928977"
+				item: "ae2omnicells:ender_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"01A27E5E53509CFA"
+				"48FFC7BCFEB97A86"
+				"216D57DF2B38AB9D"
+			]
+			id: "5398C4B22691E149"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "582239836BFE315A"
+				table_id: 7618519509353548779L
+				type: "choice"
+			}]
+			subtitle: "要离婚了"
+			tasks: [{
+				id: "57E782E5F5BC7DDC"
+				title: "我建议你做到这里就停下来换成复杂全能"
+				type: "checkmark"
+			}]
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A25DAE6AFF4FF80"]
+			description: ["{将其接入AE网络即可检测或提交库存中的物品/流体来完成FTB任务。检测器与放置其的玩家所在的FTB队伍绑定，检测器会自动检测库存物品来完成不消耗的任务。队伍成员在任务界面主动提交时，会优先消耗ME库存中的物品/流体。 }"]
+			id: "15ECB84AB1215CF2"
+			subtitle: "接入AE网络后可以自动检测任务物品"
+			tasks: [{
+				id: "20726F83C293BEFF"
+				item: "ae2_ftbquest_detector:me_quests_detector"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42F3929CE1A04D16"]
+			description: [
+				"{    本整合包为样板供应器（及扩展样板供应器）添加了阻挡类型设置，其中较为实用的是“&e智能阻挡&r”，即不阻挡同一处理样板的发配。}"
+				"{    另外，当紧贴GT机器或仓室放置时，在样板管理终端中该供应器的名称会自动显示成&b机器&r或&b仓室所属的多方块&r名称，同时会附带&b虚拟电路编号&r（如果设置了）和&b多方块的配方类型&r。}"
+			]
+			id: "5E445FBCF85AF5F1"
+			subtitle: "智能阻挡"
+			tasks: [{
+				id: "7A24C4F3B455092A"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"071A728A18E21B3C"
+				"445EB3640522A172"
+				"527F922CFEC9CEA3"
+			]
+			description: ["{    可安装在样板供应器中，此时样板供应器执行&b带有编程电路的样板&r时，&e不会&r向网络请求编程电路物品，而是将发配目标机器的&b虚拟电路&r设置为对应编号，这一功能可以对&b子网&r生效。}"]
+			id: "57D1710E05DBF5D4"
+			subtitle: "不想堆机器？"
+			tasks: [{
+				id: "0561A9088D0064BD"
+				item: "pccard:card_programmed_circuit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			description: ["{    ME仓室直接从网络提取原料，将产物存入网络，且具有无限缓存。}"]
+			id: "77B0C03023DF3CAC"
+			subtitle: "无限容量！"
+			tasks: [
+				{
+					id: "3C3A97CE1D697572"
+					item: "ctnhenergy:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "6ACD08B9DDD54DFD"
+					item: "ctnhenergy:me_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0065015504FC3795"
+					item: "ctnhenergy:me_dual_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0B3EF7C6EDE146E7"
+					item: "ctnhenergy:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "749BE06E8F81DBB6"
+					item: "ctnhenergy:me_output_hatch"
+					type: "item"
+				}
+				{
+					id: "05C844CB50193614"
+					item: "ctnhenergy:me_dual_output_hatch"
+					type: "item"
+				}
+			]
+			title: "ME仓室"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0561A9088D0064BD"]
+			description: [
+				"{    样板总成的每个样板槽位有单独且&e互相隔离&r的原料缓存，从根本上杜绝串配方。}"
+				"{    样板总成镜像只需通过闪存与样板总成绑定，自身无需接入ME网络。}"
+			]
+			id: "72F4ADF5432A6F35"
+			subtitle: "不只是样板供应器贴输入总成"
+			tasks: [
+				{
+					id: "2B4E862932DEEDC5"
+					item: {
+						Count: 1
+						id: "ae2cs:mirror_pattern_provider"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "18A88785C29BEFF5"
+					item: {
+						Count: 1
+						id: "ae2cs:mirror_linker"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C2F508E36E8624E"]
+			description: ["{   支持带有编程电路的样板，同时具备输出功能（可以理解为内置了一个ME输出总成）。}"]
+			id: "6D8874393C5A8DC7"
+			subtitle: "这甚至还不是最终形态"
+			tasks: [
+				{
+					id: "2C7EF9D94716547B"
+					item: "ctnhenergy:advanced_me_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "29E5EFA12E1A8A03"
+					item: "ctnhenergy:advanced_me_pattern_buffer_proxy"
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5EF66EA626586D4A"
+				"53389BA89020EE79"
+			]
+			description: ["{    研究所需的“神秘方块”可以通过精准采集获取。}"]
+			id: "5CAFDC6022A78C40"
+			size: 2.0d
+			subtitle: "策定乾坤算因果"
+			tasks: [{
+				id: "4603AC110275C6B7"
+				item: "ctnhenergy:jiuzhang_quantum_computer"
+				type: "item"
+			}]
+			title: "滚木"
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C9E95E5F5741075"]
+			description: [
+				"{    样板编码终端的处理样板模式增加了一个按键，可以设置编码样板时&b是否加入配方中的编程电路&r（如果有），这一功能可配合&e可编程电路卡&r使用（详见相关AE教程或任务）。}"
+				""
+				"{    &b以下是给老格雷员工的提醒：}"
+				"{    &b在本整合包中，中期开始可以使用的OMNI CPU和量子超算在发配处理样板时均有&e自动翻倍&b功能，故编写样板时无需倍乘产物和原料。}"
+			]
+			id: "7200C4597B67A8F1"
+			subtitle: "怎么没有翻倍按钮"
+			tasks: [{
+				id: "41AB3D6DEF3410B7"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"{    可以方便地对线缆进行染色，建议使用染色球以节约染料。}"
+				"{    本整合包将其与GT进行了兼容，可以为仓室染色，可以shift+右键以染色所有相邻目标。}"
+			]
+			id: "14CBF9DA688E3046"
+			subtitle: "喷漆罐上位"
+			tasks: [{
+				id: "126339367CB45A2B"
+				item: {
+					Count: 1
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "染色器"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42F3929CE1A04D16"]
+			id: "259D7E44B625939A"
+			tasks: [
+				{
+					id: "37FCA4BEA31D873A"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+				{
+					id: "58135BD4DE3288CF"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			description: ["{    将ME设备整个打包，保留配置以及其中的物品}"]
+			id: "69DC92C4C5D437D1"
+			subtitle: "别再把样板弄得到处都是了~"
+			tasks: [{
+				id: "1BA2F447CA8EE6DF"
+				item: {
+					Count: 1
+					id: "expatternprovider:me_packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E445FBCF85AF5F1"]
+			id: "6F9C768514497266"
+			subtitle: "不算很有用"
+			tasks: [{
+				id: "1FEDDF8392071740"
+				item: "expatternprovider:pattern_modifier"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "608ED8FA01C6E204"
+			tasks: [{
+				id: "66E05D62A4F50AAB"
+				item: {
+					Count: 1
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			description: ["{    右键p2p通道打开UI，可方便地绑定和管理网络中的p2p（包括EUP2P）。&b进行任何改动之后，都需要点击左侧的刷新按钮以同步改动。&r}"]
+			id: "5D65755F840439BF"
+			subtitle: "p2p神器"
+			tasks: [{
+				id: "31A6D2E48D11D136"
+				item: {
+					Count: 1
+					id: "betterp2p:advanced_memory_card"
+					tag: {
+						gui: 3b
+						selectedIndex: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			description: ["{    可以自动拉取网络中的物品/流体，不必手动标记}"]
+			id: "70E6618E83518A65"
+			subtitle: "自动拉取"
+			tasks: [
+				{
+					id: "5BC89AFC0547925F"
+					item: "ctnhenergy:me_stoking_input_bus"
+					type: "item"
+				}
+				{
+					id: "7FEFFA25E13DAEFC"
+					item: "ctnhenergy:me_stoking_input_hatch"
+					type: "item"
+				}
+				{
+					id: "29E6FC604E6FFD15"
+					item: "ctnhenergy:me_stoking_dual_input_hatch"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"071285C288ECD6B8"
+				"21684C70C01BCD9B"
+			]
+			description: ["{包含自动搜索、快捷上传样板等功能}"]
+			id: "4D69AA45057F6027"
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "最伟大的发明"
+			tasks: [{
+				id: "6688B75B4D382A91"
+				item: "ae2pw:pattern_workstation"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C2F508E36E8624E"]
+			description: [
+				""
+				"{在高级样板总成基础上又添加了ME能源仓的功能}"
+			]
+			id: "0F600FD30F968575"
+			subtitle: "输入输出能源三位一体！"
+			tasks: [
+				{
+					id: "357BE1F6ED02C2D3"
+					item: "ctnhenergy:me_ultimate_pattern_buffer"
+					type: "item"
+				}
+				{
+					id: "22EF832C8F45DA61"
+					item: "ctnhenergy:me_ultimate_pattern_buffer_proxy"
+					type: "item"
+				}
+			]
+			x: 25.5d
+			y: 2.5d
+		}
+		{
+			id: "58DEFF4106911887"
+			tasks: [{
+				id: "53CEAC5FD4A9F752"
+				item: "ae2cs:nether_quartz_seed"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1A9A16DA336E99AC"]
+			id: "59CD4899F9B67DD0"
+			tasks: [{
+				id: "1C9E4157283373D3"
+				item: { Count: 64, id: "ae2cs:meteor_seed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"035127F019B01BF1"
+				"58DEFF4106911887"
+			]
+			id: "32FCEC9F52EEA348"
+			subtitle: "另一种获取福鲁伊克斯的方法"
+			tasks: [{
+				id: "0C1DE271FA6C82D5"
+				item: "ae2cs:fluix_crystal_seed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "035127F019B01BF1"
+			tasks: [{
+				id: "1A0A46104B3F320C"
+				item: "ae2cs:certus_quartz_seed"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["578B426CA3A4C0D1"]
+			id: "420DCD59ED0FF9C7"
+			tasks: [{
+				id: "102A2DBFEE064F24"
+				item: "ae2cs:resonating_seed"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"098033992B928977"
+				"612A3FCED08C1E67"
+			]
+			id: "0A5F5CB8ACCB8939"
+			tasks: [{
+				id: "277AD2BA28C2C939"
+				item: "ae2cs:ender_quartz_seed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"59CD4899F9B67DD0"
+				"0A5F5CB8ACCB8939"
+			]
+			id: "578B426CA3A4C0D1"
+			tasks: [{
+				id: "7AAE05168C4AA852"
+				item: "ctnhcore:crystal_sand_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"0A5F5CB8ACCB8939"
+				"52504E17B7878EB0"
+			]
+			id: "6733658EEC384D55"
+			subtitle: "使用方法见guideME，拥有扩展版本"
+			tasks: [{
+				id: "7069DA0FE865E942"
+				item: "ae2cs:ender_interface"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6733658EEC384D55"]
+			id: "0A4F60E991419943"
+			subtitle: "这个也有扩展版本"
+			tasks: [{
+				id: "49CB0DBE0771D75C"
+				item: "ae2cs:resonating_pattern_provider"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["420DCD59ED0FF9C7"]
+			id: "65AA409115E438F3"
+			tasks: [{
+				id: "6BBC11819A52A431"
+				item: "ae2cs:purified_resonating_crystal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"65AA409115E438F3"
+				"52504E17B7878EB0"
+			]
+			id: "7F08D90076B64057"
+			subtitle: "使用方法见guideME"
+			tasks: [{
+				id: "4B04CB78A5ACB706"
+				item: "ae2cs:resonating_pattern_converter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7F08D90076B64057"]
+			id: "5EE8F69AF33EF269"
+			tasks: [{
+				id: "6B751A8CC3FB5924"
+				item: "ae2cs:resonating_pattern"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"65AA409115E438F3"
+				"52504E17B7878EB0"
+			]
+			id: "022A0F60AE449DF1"
+			subtitle: "使用方法见guideME"
+			tasks: [
+				{
+					id: "37B8DF375C97EEBE"
+					item: "ae2cs:ender_linker"
+					type: "item"
+				}
+				{
+					id: "3A01C0E9AB4CBB94"
+					item: "ae2cs:ender_emitter"
+					type: "item"
+				}
+			]
+			title: "末影频道系统"
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["022A0F60AE449DF1"]
+			id: "45CDA73D8BECB63D"
+			tasks: [{
+				id: "346D7A5C7B31FD32"
+				item: "ae2cs:ender_broadcaster"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			icon: "gtceu:hv_machine_hull"
+			id: "52504E17B7878EB0"
+			tasks: [{
+				id: "5B0A6975CF7FCEF9"
+				title: "HV"
+				type: "checkmark"
+			}]
+			title: "HV可以做"
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1DB89BF922D68C23"]
+			id: "095F64B9B8ABB1AD"
+			subtitle: "何意味？"
+			tasks: [{
+				id: "6EF6E6309DFCE9DE"
+				item: "ae2cs:simple_pattern_provider"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+	]
+	title: "ae2"
+}

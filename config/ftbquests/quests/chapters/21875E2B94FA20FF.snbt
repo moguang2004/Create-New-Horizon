@@ -1,0 +1,669 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "21875E2B94FA20FF"
+	group: "32DB92B5A6E4493B"
+	icon: "ctnhmana:horizen_rune"
+	id: "21875E2B94FA20FF"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3AC9BB1FF032B398"
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "于是，一切开始了"
+			tasks: [{
+				id: "4B1C978179A1CACE"
+				item: "gtceu:zenith_essence_bucket"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3AC9BB1FF032B398"]
+			dependency_requirement: "all_started"
+			description: [
+				"你已经发掘并研究了许多来自这片大地的力量，&b来自另一片星空的繁花之力&r，&a繁衍新生的自然艺术&r，&4血腥而残忍的扭曲之力&r比起科技大师，你发现自己更像那些小说里的——魔法师"
+				""
+				"但是这些“魔力”背后到底是什么，魔力凝聚仓的研究表明这些魔力确实可以有限地按照不同比例组合转化成一种“物质”，但你仍然无法理解它们是怎么做到的，就像是......扭曲了物理法则一样？"
+				""
+				"你第一次开始怀疑起你的价值观，不过现在，你决定将这些魔力真正的结合起来，不再是1+1＝1，这一次，你要真正做到1+1>7，发挥这些魔力的真正作用——以及探明它的原理。"
+				""
+				"我们即将超越大地（&aTerra&r），我们同样也将超越天穹（&5Zenith&r）"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:writable_book"
+			id: "799F1C5EF59E3C5C"
+			tasks: [{
+				id: "56FDD0DAE8D71EC4"
+				title: "研究结论A：魔力"
+				type: "checkmark"
+			}]
+			x: -28.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"通过制造出魔式转化核心，你发现魔法似乎确实与科技并不互斥，但是这个世界存在多种魔法体系，如果直接将魔法作为燃料来驱动机器，难免会导致各种冲突。"
+				""
+				"同时你还注意到，这些魔法应用于机器时似乎有些.....惰性，所以你仍然需要电力来激活这些怪诞的魔法。"
+				""
+				"不过好消息是，在魔式转化核心的基础上，你还是研发出了魔力凝聚仓，这种舱室可以把魔力转化成通用的&b 魔力能量&r，从而供你的机器使用"
+				""
+				"也许，终究有一天，你将&5解释&r这些魔力的本质"
+			]
+			icon: "minecraft:writable_book"
+			id: "011C6BB9F1A31C73"
+			tasks: [{
+				id: "1F8B21C58C1D0A74"
+				title: "魔力凝聚仓：关于魔力通用转化的问题"
+				type: "checkmark"
+			}]
+			x: -28.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"虽然这很残忍，但是你确实从亚尔夫海姆那群无拘无束的精灵获取了一种高能魔力的结晶。"
+				""
+				"这种结晶对所有魔法都具有反应，可以广泛增幅目前你所有的仪式和魔法，也让你坚信这些魔力一定存在某些共同之处。"
+				""
+				"奇怪的是，你的机器无论如何精密都无法提纯出精灵的结晶，你怀疑这种结晶可能存在一种自保护机制，在某些时候会自行崩解。"
+				""
+				"目前唯一可以获取结晶的方法是使用生灵提取仪式，这种仪式使用的扭曲之力和结晶似乎存在一种共鸣机制，能保护结晶短暂的存在，即使这样，你也无法获得更高纯度的宝石"
+				""
+				"对精灵的批量培育和屠宰计划已在日程中，&4为了伟大，我们必须牺牲所有可牺牲之物&r"
+			]
+			icon: "minecraft:writable_book"
+			id: "2081EBC6D5084C16"
+			rewards: [{
+				id: "39700F6A99670BE3"
+				item: "gtceu:tiny_psionic_medulla_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FBAF7A2E28D5637"
+				title: "研究报告B:关于提纯魔力结晶的尝试"
+				type: "checkmark"
+			}]
+			x: -28.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3AC9BB1FF032B398"
+				"0A08FC217ED891F1"
+			]
+			id: "6F39F59F3E9ED36A"
+			subtitle: "看来你需要大量的基础材料，做好准备"
+			tasks: [
+				{
+					id: "6354F6D29BCE5781"
+					item: "ctnhmana:zenith_casing"
+					type: "item"
+				}
+				{
+					id: "1581653C1C99B026"
+					item: "ctnhmana:zenith_casing_gearbox"
+					type: "item"
+				}
+				{
+					id: "3E22931BF5FF479C"
+					item: "gtceu:psionic_medulla_gem"
+					type: "item"
+				}
+				{
+					id: "34F4CEE068C2D492"
+					item: "ctnhmana:zenith_eye"
+					type: "item"
+				}
+				{
+					id: "7E1A297EAEDCA4B2"
+					item: "gtceu:plus_mana_ingot"
+					type: "item"
+				}
+			]
+			title: "准备好量产这些东西了吗？"
+			x: -12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D816B20CDF2A5CB"]
+			id: "265153F5BC2D65C7"
+			tasks: [{
+				id: "7E0F26606E298F2D"
+				item: "gtceu:fused_mixed_mana_dust"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.0d
+		}
+		{
+			description: ["由于本人是月计党，加上我已经不满足于普通的魔法风格了，所以这一条线的文本风格会做成月计三部曲的融合"]
+			id: "2D816B20CDF2A5CB"
+			subtitle: "注意：这条线会在未来重做！"
+			tasks: [{
+				id: "0947AB2F7A8974C4"
+				title: "究极魔力线"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["265153F5BC2D65C7"]
+			id: "5AFBBD16A749DC2C"
+			tasks: [{
+				id: "3D05BB162C58CF18"
+				item: "gtceu:fused_lp_mixed_mana_dust"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AFBBD16A749DC2C"]
+			id: "429ADDFA4B45015A"
+			tasks: [{
+				id: "70F29C243CFCD1BD"
+				item: "gtceu:fused_demon_mixed_dust"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"429ADDFA4B45015A"
+				"1BC2622C7BCB6A94"
+			]
+			id: "0A08FC217ED891F1"
+			size: 1.0d
+			subtitle: "「Hana」"
+			tasks: [{
+				id: "424971E26111B944"
+				item: "gtceu:plus_mana_ingot"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			id: "1BC2622C7BCB6A94"
+			subtitle: "「Dool 」"
+			tasks: [{
+				id: "2A14D1CB06F3389C"
+				item: "gtceu:unstable_plus_mana_dust"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1BC2622C7BCB6A94"]
+			id: "3110CA44B4F627E5"
+			subtitle: "「Trois」"
+			tasks: [{
+				id: "3EB35506186C274B"
+				item: "gtceu:infused_plus_mana_dust"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3110CA44B4F627E5"]
+			id: "03C2120770F748E3"
+			subtitle: "「Net」"
+			tasks: [{
+				id: "21418ADAC287D19B"
+				item: "gtceu:stable_plus_mana_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03C2120770F748E3"]
+			id: "76B792625EE5F6B9"
+			subtitle: "「Dasot」"
+			tasks: [{
+				id: "3AD4DAC8E3950A8F"
+				item: "gtceu:super_plus_mana_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76B792625EE5F6B9"]
+			id: "792350969485E9DD"
+			subtitle: "「Six」"
+			tasks: [{
+				id: "2B0CAD5A27E1F77F"
+				item: "gtceu:unknown_super_mana_dust"
+				type: "item"
+			}]
+			title: "「無我夢中」"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["792350969485E9DD"]
+			id: "779AA8013A85D4D6"
+			subtitle: "[ilgop]"
+			tasks: [{
+				id: "0792A39277BBE162"
+				item: "gtceu:twist_mana_dust"
+				type: "item"
+			}]
+			title: "「阿鼻叫喚」"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["779AA8013A85D4D6"]
+			id: "0B52384AEDBCA6D0"
+			subtitle: "「Yodul」"
+			tasks: [{
+				id: "6B6854B7A7BA153C"
+				item: "gtceu:twist_power_mana_dust"
+				type: "item"
+			}]
+			title: "「Apuro—Hana」"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B52384AEDBCA6D0"]
+			id: "70803B6DFE515BF8"
+			subtitle: "&lNeuf，完了"
+			tasks: [{
+				id: "3372143A13CF07CF"
+				item: "ctnhmana:encapsulated_twist_mana"
+				type: "item"
+			}]
+			title: "「支離滅裂」"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["70803B6DFE515BF8"]
+			description: [
+				"                  &7*都市的意志，便是■的意志*"
+				"                  &8*□为都市，奉献了■的一切*"
+				"             &b*神谕已成，□将都市予以至冰之礼*"
+				"                &6*形如天秤，□将审判都市之罪*"
+				"                   &f*声如织布，□将意志传播*"
+				"             &c*终末之日、便是都市灵魂凝合之时*"
+				"                                &5*此物*"
+				"&9*生于都市、凝于意志、经三千三百三十三次锤炼而成*"
+				"                    &4“啊...指令终将归于沉默”"
+				"                          &7“连同□之意志”"
+				"　　　　　 　　　　　                   &m&c「Adieu, Carmen.」"
+				"{@pagebreak}"
+				"苦痛啊，你便是我的唯一。"
+				"除了你，我皆无欲求。"
+				""
+				"苦痛啊，你忠实地陪伴着我，"
+				"直至现在也没有一丝改变。"
+				""
+				"当我的灵魂徘徊于深渊之底时，"
+				"唯有你相伴在我身旁，守护着我。"
+				"我又怎能埋怨你呢。"
+				""
+				"苦痛啊，你绝不会从我的身旁遁走，"
+				"我终于能够表达对你的尊敬，"
+				"现在也认识到了你的存在。"
+				""
+				"——而你只是存在于世，便已那么美丽。"
+				""
+				"苦痛啊，你就像那从未离开我那贫苦的心之火炉旁的人一样，"
+				"比我那身为至爱的恋人还要多情。"
+				""
+				"我知道在我迈向死亡的那一天，"
+				"你会进到我的内心深处，"
+				"与我并排躺下。"
+				""
+				"    「Geugeon geugeotgo igeon igeotda.」"
+				"                         「一码归一码」"
+			]
+			id: "5EB668C3E9F25A0D"
+			rewards: [{
+				id: "0C846E34FF0247E3"
+				item: {
+					Count: 1
+					id: "ctnhmana:caduceus"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							RelocateMinedBlocks: 1b
+							RelocateMobDrops: 1b
+						}
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 65534
+						}
+						HideFlags: 2
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "「苦痛啊，你是我的唯一」"
+			tasks: [{
+				id: "1185CE36AC4D5446"
+				item: "gtceu:ultra_mana_ingot"
+				type: "item"
+			}]
+			title: "Furioso-[Crescendo]"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0505ADC867D3D3CB"]
+			id: "6925B1ECE756CBA2"
+			tasks: [{
+				id: "4B241DC9E9B1634B"
+				item: "ctnhmana:horizen_rune"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0505ADC867D3D3CB"]
+			id: "52D965C8A7F8E709"
+			tasks: [{
+				id: "0F876B0C22E440CD"
+				item: "ctnhmana:twist_rune"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0505ADC867D3D3CB"]
+			id: "20EECD55DB17032C"
+			tasks: [{
+				id: "55A413CC9BCBDE05"
+				item: "ctnhmana:proliferation_rune"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0505ADC867D3D3CB"]
+			id: "35C887BF108D6A78"
+			tasks: [{
+				id: "508575A9213CF6E6"
+				item: "ctnhmana:starlight_rune"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0505ADC867D3D3CB"
+				"52D965C8A7F8E709"
+				"20EECD55DB17032C"
+				"35C887BF108D6A78"
+				"6925B1ECE756CBA2"
+			]
+			id: "4491A88076AC7551"
+			tasks: [{
+				id: "6BC63F2C74EA837A"
+				item: "ctnhmana:quasar_rune"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -4.0d
+		}
+		{
+			dependency_requirement: "one_started"
+			id: "0505ADC867D3D3CB"
+			subtitle: "做好准备"
+			tasks: [{
+				id: "377C8A70D5405B8F"
+				title: "五级符文"
+				type: "checkmark"
+			}]
+			x: -25.5d
+			y: -4.0d
+		}
+		{
+			id: "5FBB653CB3B8C331"
+			subtitle: "你会需要它的"
+			tasks: [{
+				id: "0B42AB8C93071DF1"
+				item: "mythicbotany:petrunia"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F39F59F3E9ED36A"]
+			description: [
+				"强大，无需多言"
+				""
+				"别忘看书"
+			]
+			id: "2760D1E887011BD2"
+			rewards: [{
+				id: "6AC48BA6F1F3C2D7"
+				item: "ctnhmana:zenith_spire"
+				type: "item"
+			}]
+			subtitle: "魔力无线EU来了1"
+			tasks: [{
+				id: "33F23044916B3C8E"
+				item: "ctnhmana:zenith_spire"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.0d
+		}
+		{
+			id: "19815BF656ABE783"
+			subtitle: "没有人不喜欢便宜的电路，不是吗》"
+			tasks: [{
+				id: "385242FAACC0C4C2"
+				item: "ctnhmana:zenith_assembler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6F39F59F3E9ED36A"]
+			description: ["所有人都已经烦透可恶的蒸馏塔规则了，去他的吧"]
+			id: "46B25C0408D0F76A"
+			tasks: [{
+				id: "79432602D15C233B"
+				item: "ctnhmana:zenith_distillation"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"如你所见，这里本应该是天顶激光的任务，可是魔力beeee核白璃做任务的版本里还并没有这台机器，但是这台机器又很重要，所以，请见谅"
+				""
+				"sad sad"
+			]
+			id: "6BB74D8488CD5547"
+			subtitle: "此地有机器三百两"
+			tasks: [{
+				id: "002F710FB444FA85"
+				title: "这是天顶激光"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6BB74D8488CD5547"]
+			description: [
+				"但是更高阶呢，必须打开某样东西......"
+				""
+				"他在这个版本已经被魔力beee封印了，哈哈见谅！"
+			]
+			id: "350C81FA9AB48893"
+			subtitle: "超级魔法的力量让你可以蚀刻这个宝石"
+			tasks: [{
+				id: "51E8E7F5C23CB88D"
+				item: "gtceu:flawless_psionic_medulla_gem"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"19815BF656ABE783"
+				"79F7AFF8FAEB3DCD"
+				"5EB668C3E9F25A0D"
+			]
+			description: ["                           极为......完美"]
+			id: "657143262D85AEFF"
+			subtitle: "极为昂贵"
+			tasks: [{
+				id: "1AF853691FDB671E"
+				item: "ctnhmana:zenith_wafer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			description: ["它的全名叫作 Ultra Mana Logic High  Power Integrated Core"]
+			id: "79F7AFF8FAEB3DCD"
+			subtitle: "你知道吗"
+			tasks: [{
+				id: "68671D6BA309AEDC"
+				item: "ctnhmana:umlhpic_wafer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["657143262D85AEFF"]
+			description: [
+				"你瞧，我弄了这么大一个电路，至是想让你看看他有多帅。"
+				""
+				"毕竟天顶线还没有做完，你就先看看这个COOOOOOOOOOOOOOOOOOOOOOOOOOOOOL到爆的电路并逃课生物线凑合一下吧"
+			]
+			id: "0989618D334B0EDB"
+			size: 1.0d
+			subtitle: "这并不是终极电路"
+			tasks: [{
+				id: "01687A909402AC57"
+				item: "ctnhmana:magic_quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5EB668C3E9F25A0D"]
+			description: ["为了扭曲，&f你要&m和&4Carmen&f进行对话"]
+			id: "2BDF65C73BD63B29"
+			subtitle: "终极聚变"
+			tasks: [
+				{
+					id: "3BDD04C7EA58F462"
+					item: "ctnhmana:twisted_fusion_mk1"
+					type: "item"
+				}
+				{
+					id: "6F3B54292A1BF044"
+					item: "ctnhmana:material_twisted_coil"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BDF65C73BD63B29"]
+			id: "1799142D3A361422"
+			tasks: [{
+				id: "42219A92FE651D45"
+				item: "ctnhmana:twisted_fusion_mk2"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1799142D3A361422"]
+			description: ["但确实，这就是终点了"]
+			id: "1AE0AD1576F8714B"
+			subtitle: "你疯了"
+			tasks: [{
+				id: "184E291DE6A98F0C"
+				item: "ctnhmana:twisted_fusion_mkinfinity"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1799142D3A361422"]
+			id: "089D46D9BC99F818"
+			tasks: [{
+				id: "6A70347FCB653B12"
+				item: "ctnhmana:twisted_fusion_mk3"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: ["这条线和剧情都没有完成，里面有大量魔力beeeeeeeeeeeeeee的牢骚，尽情期待！"]
+			id: "40DD00536A9A3E7C"
+			rewards: [{
+				id: "7D18A2A23155B435"
+				item: "bloodmagic:doubt_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "191CC3AFDA58F1AE"
+				title: "未完成"
+				type: "checkmark"
+			}]
+			x: -18.5d
+			y: -2.0d
+		}
+		{
+			id: "126C7E9BD9D09953"
+			tasks: [{
+				id: "0873B06E26D87297"
+				item: "ctnhmana:nicoll_dyson_beams"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "6E57E132A8DADFF5"
+			tasks: [{
+				id: "3CD7EB9389DB2E52"
+				item: "ctnhmana:eye_of_quasar"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+	]
+	title: "魔力飞升"
+}
