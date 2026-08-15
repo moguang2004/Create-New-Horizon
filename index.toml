@@ -8393,10 +8393,6 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
 
 [[files]]
-file = "mods/CTNH-Core-1.5.0alpha.jar"
-hash = "61849c891eaefd7bceddfae2a9ae8706eaae57501684b9d557ef02a53cec34f0"
-
-[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
@@ -8737,6 +8733,11 @@ hash = "cf0fafa2db57414956d87383a9bc2d1e7eeef368c1b73c35a97a1fee567e3959"
 metafile = true
 
 [[files]]
+file = "mods/ctnh-core.pw.toml"
+hash = "4439627ede9d516f5dfca52a1014e6ed25835428de85135150c7c3175ae762bf"
+metafile = true
+
+[[files]]
 file = "mods/cultural-delights.pw.toml"
 hash = "8d1ee700ac8573acd3c863aa26fa4a15977962d3c888775b60be2248b9e39c19"
 metafile = true
@@ -8977,8 +8978,8 @@ hash = "a63220dfb2ddfe2a98155a712935cc1803b14d89d7fd2a8dd27ef98c8fbecae1"
 metafile = true
 
 [[files]]
-file = "mods/imblocker-original.pw.toml"
-hash = "77ab78788f6e95dcccea9bd036b65239ee801fb7f5949097ef1d0c1dddab88bd"
+file = "mods/imblocker.pw.toml"
+hash = "f34ec0d82faf8b5b386042e50a797c47caffc02f70a56890869d68111e6a7221"
 metafile = true
 
 [[files]]

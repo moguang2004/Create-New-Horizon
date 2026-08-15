@@ -1,0 +1,13 @@
+name = "CTNH Core"
+filename = "CTNH-Core-1.4.3a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "56745aa3c4c15386b8bdefd76104a73fdd87c357"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8009041
+project-id = 1095612

@@ -33,7 +33,6 @@ natives-*/
 /.replay_cache/
 /mods/.connector/
 /mods/*.jar
-!mods/CTNH*.jar
 /*.jar
 /*.json
 /*.sh
