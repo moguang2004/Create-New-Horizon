@@ -9378,11 +9378,6 @@ hash = "21603b11e14e0f9b1d642b6389ab4d3f729b95f7eda69bc1b910f7b6eb70cc92"
 metafile = true
 
 [[files]]
-file = "mods/tinkers-ponder.pw.toml"
-hash = "f55c37b24c69aa3a0cefc76ae296929d5eed8045a24649ea58a0d2ba980a95f0"
-metafile = true
-
-[[files]]
 file = "mods/titanium.pw.toml"
 hash = "a9a33aa86a9263b15a41574cc1df6c360d26008c11c55e66a353ee9944b7e358"
 metafile = true
