@@ -669,7 +669,7 @@
 			id: "58C3681A18E19C5F"
 			tasks: [{
 				id: "7185A692532FD01D"
-				item: "ctnhcore:exquisite_europium_fluorite_gem"
+				item: "gtceu:exquisite_europium_fluorite_gem"
 				type: "item"
 			}]
 			x: -20.5d
@@ -859,7 +859,6 @@
 				"{    可设置“&b线程保护&r”：使该线程不会执行其他线程正在执行或已经锁定的配方。}"
 			]
 			id: "66596B5FFF2E941A"
-			invisible: true
 			size: 1.5d
 			subtitle: "遥遥领先！"
 			tasks: [{

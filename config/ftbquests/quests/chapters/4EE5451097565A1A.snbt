@@ -216,13 +216,13 @@
 		}
 		{
 			can_repeat: true
-			icon: "create:andesite_alloy"
+			icon: "gtceu:andesite_alloy_ingot"
 			id: "21EAC6922F7AD1D3"
 			rewards: [{
 				auto: "enabled"
 				command: "/give @p jackseconomy:importer_manifest{Items:[{item:\"gtceu:andesite_alloy_ingot\"}]}"
 				elevate_perms: true
-				icon: "create:andesite_alloy"
+				icon: "gtceu:andesite_alloy_ingot"
 				id: "283EB62DE35352D5"
 				title: "安山合金锭"
 				type: "command"

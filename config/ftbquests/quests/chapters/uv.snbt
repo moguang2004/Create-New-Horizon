@@ -164,7 +164,7 @@
 			id: "2F9F236DB91E21EB"
 			tasks: [{
 				id: "59165C9CFE776A45"
-				item: "ctnhcore:nq_fuelmk1_bucket"
+				item: "gtceu:nq_fuelmk1_bucket"
 				type: "item"
 			}]
 			x: 38.0d
@@ -175,7 +175,7 @@
 			id: "34F957A3E8E7D3FF"
 			tasks: [{
 				id: "360AFAE7891B1424"
-				item: "ctnhcore:nq_fuelmk2_bucket"
+				item: "gtceu:nq_fuelmk2_bucket"
 				type: "item"
 			}]
 			x: 39.0d
@@ -186,7 +186,7 @@
 			id: "45A565804AFD4ABD"
 			tasks: [{
 				id: "25061AA1FB7F446E"
-				item: "ctnhcore:nq_fuelmk3_bucket"
+				item: "gtceu:nq_fuelmk3_bucket"
 				type: "item"
 			}]
 			x: 37.0d
@@ -272,7 +272,7 @@
 			id: "4DF22955275FF10F"
 			tasks: [{
 				id: "7083E01A01B0AFAF"
-				item: "ctnhcore:sterilebiologicalculturemediumstocksolution_bucket"
+				item: "gtceu:sterilebiologicalculturemediumstocksolution_bucket"
 				type: "item"
 			}]
 			x: 44.5d
@@ -339,7 +339,7 @@
 			subtitle: "新一届耐烧王比赛，开幕！"
 			tasks: [{
 				id: "0218F2831F5332AC"
-				item: "ctnhcore:hidden_alloy_ingot"
+				item: "gtceu:hidden_alloy_ingot"
 				type: "item"
 			}]
 			x: 47.5d
@@ -354,7 +354,7 @@
 			id: "67C98CFDC97AFF44"
 			tasks: [{
 				id: "4351112175B0F270"
-				item: "ctnhcore:echo_circuit_board"
+				item: "kubejs:echo_circuit_board"
 				type: "item"
 			}]
 			x: 46.5d
@@ -369,7 +369,7 @@
 			subtitle: "直接制成ZPM电路！"
 			tasks: [{
 				id: "4C14CBFEB8D1D7C6"
-				item: "ctnhcore:echo_processor"
+				item: "kubejs:echo_processor"
 				type: "item"
 			}]
 			x: 45.5d
@@ -383,31 +383,46 @@
 				{
 					count: 64L
 					id: "0895A143EC59DD7F"
-					item: { Count: 64, id: "ctnhcore:biological_patch_transistor" }
+					item: {
+						Count: 64
+						id: "kubejs:biological_patch_transistor"
+					}
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "7C6C380A7A7044DD"
-					item: { Count: 64, id: "ctnhcore:biological_patch_resistor" }
+					item: {
+						Count: 64
+						id: "kubejs:biological_patch_resistor"
+					}
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "77FA27723921490C"
-					item: { Count: 64, id: "ctnhcore:biological_patch_capacitor" }
+					item: {
+						Count: 64
+						id: "kubejs:biological_patch_capacitor"
+					}
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "62AFDA5A676960BF"
-					item: { Count: 64, id: "ctnhcore:biological_patch_diode" }
+					item: {
+						Count: 64
+						id: "kubejs:biological_patch_diode"
+					}
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "6544222F6A1DDE81"
-					item: { Count: 64, id: "ctnhcore:biological_patch_inductor" }
+					item: {
+						Count: 64
+						id: "kubejs:biological_patch_inductor"
+					}
 					type: "item"
 				}
 			]
@@ -420,7 +435,7 @@
 			subtitle: "这是什么东西？以前有吗？"
 			tasks: [{
 				id: "47825706E3C7DD15"
-				item: "ctnhcore:kapton_k_plate"
+				item: "gtceu:kapton_k_plate"
 				type: "item"
 			}]
 			x: 45.5d
@@ -436,7 +451,7 @@
 			subtitle: "1:1，是不是很神奇？(其实并没有)"
 			tasks: [{
 				id: "3BA39A876DF0F2AE"
-				item: "ctnhcore:echo_processor_assembly"
+				item: "kubejs:echo_processor_assembly"
 				type: "item"
 			}]
 			x: 46.5d
@@ -451,7 +466,7 @@
 			subtitle: "还是1：1！赚翻了好不啦！(其实并没有)"
 			tasks: [{
 				id: "40778AB101D44448"
-				item: "ctnhcore:echo_processor_computer"
+				item: "kubejs:echo_processor_computer"
 				type: "item"
 			}]
 			x: 46.5d
@@ -462,7 +477,7 @@
 			id: "132CE8E9DC867DB4"
 			tasks: [{
 				id: "362B64309C61021B"
-				item: "ctnhcore:dense_hidden_alloy_plate"
+				item: "gtceu:dense_hidden_alloy_plate"
 				type: "item"
 			}]
 			x: 49.5d
@@ -478,7 +493,7 @@
 			subtitle: "现在的顶点"
 			tasks: [{
 				id: "6451F6B5CA51C264"
-				item: "ctnhcore:echo_processor_mainframe"
+				item: "kubejs:echo_processor_mainframe"
 				type: "item"
 			}]
 			x: 49.5d
@@ -525,7 +540,7 @@
 			subtitle: "5倍加速"
 			tasks: [{
 				id: "5959E0A3F789F5B9"
-				item: "ctnhcore:compressed_adamantite_plasma_bucket"
+				item: "gtceu:compressed_adamantite_plasma_bucket"
 				type: "item"
 			}]
 			x: 38.0d
@@ -537,7 +552,7 @@
 			subtitle: "10倍加速！但是代价是什么？"
 			tasks: [{
 				id: "3B3C73B38022BBE1"
-				item: "ctnhcore:compressed_aether_plasma_bucket"
+				item: "gtceu:compressed_aether_plasma_bucket"
 				type: "item"
 			}]
 			x: 38.0d

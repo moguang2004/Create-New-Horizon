@@ -261,7 +261,7 @@
 			id: "7D7EEC84B88C3B71"
 			rewards: [{
 				id: "3EF2F01E81F8AE15"
-				item: "ctnhcore:naquadah_based_liquid_fuel_excited_bucket"
+				item: "gtceu:naquadah_based_liquid_fuel_excited_bucket"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -355,7 +355,7 @@
 			subtitle: "相当于100倍高辛烷的燃值"
 			tasks: [{
 				id: "3301B6C77073AF57"
-				item: "ctnhcore:nq_end_gasoline_bucket"
+				item: "gtceu:nq_end_gasoline_bucket"
 				type: "item"
 			}]
 			title: "在燃油的终末"
