@@ -1619,7 +1619,6 @@
 			]
 			icon: "minecraft:netherrack"
 			id: "260AE6CCCCEE77EB"
-			invisible: true
 			rewards: [{
 				id: "30D694FA2B89CD3E"
 				item: "minecraft:netherrack"
