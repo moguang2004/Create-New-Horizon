@@ -733,7 +733,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["07118DAC24E83AB7"]
+			dependencies: ["6528032582CA41F4"]
 			description: [
 				"处理贵金属矿石→贵金属锭。"
 				"基础构件的工作台配方需要金板，仔细查看EMI吧！"
