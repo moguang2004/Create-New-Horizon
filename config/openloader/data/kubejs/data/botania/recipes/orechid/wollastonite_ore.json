@@ -6,7 +6,7 @@
     },
     "output": {
         "type": "block",
-        "block": "gtceu:wollastonite_ore"
+        "block": "ctnhcore:wollastonite_ore"
     },
     "weight": 2000
 }

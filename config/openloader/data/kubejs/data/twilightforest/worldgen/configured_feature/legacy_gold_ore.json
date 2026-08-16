@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "gtceu:precious_alloy_ore"
+          "Name": "ctnhcore:precious_alloy_ore"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

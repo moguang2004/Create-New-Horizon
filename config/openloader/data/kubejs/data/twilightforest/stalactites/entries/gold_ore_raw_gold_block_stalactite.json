@@ -1,11 +1,11 @@
 {
   "blocks": [
     {
-      "block": "gtceu:precious_alloy_ore",
+      "block": "ctnhcore:precious_alloy_ore",
       "weight": 10
     },
     {
-      "block": "raw_precious_alloy_block",
+      "block": "ctnhcore:raw_precious_alloy_block",
       "weight": 1
     }
   ],

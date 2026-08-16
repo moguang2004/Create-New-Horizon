@@ -6,7 +6,7 @@
   },
   "output": {
     "type": "block",
-    "block": "gtceu:precious_alloy_ore"
+    "block": "ctnhcore:precious_alloy_ore"
   },
   "weight": 2647
 }

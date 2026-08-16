@@ -2,7 +2,7 @@
     "type": "createdieselgenerators:distillation",
     "ingredients": [
         {
-            "fluid": "gtceu:pure_bitumen",
+            "fluid": "ctnhcore:pure_bitumen",
             "amount": 100
         }
     ],
@@ -10,7 +10,7 @@
     "processingTime": 200,
     "results": [
         {
-            "fluid": "gtceu:petroleum_coke",
+            "fluid": "ctnhcore:petroleum_coke",
             "amount": 54
         },
         {

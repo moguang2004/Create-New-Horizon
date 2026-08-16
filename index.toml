@@ -738,7 +738,7 @@ hash = "40699adad5810cccda047c72f19da8642acf5b2804e1f3fa44abd4f34017e2b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
-hash = "e9b6bdec649282fb1a927f56c9d023eea09f17127de18eccdd3ec403200ed304"
+hash = "16288c2312a52518eec5453fb3ea3f3414e78ed21fa4fef9336be38478fccfce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
@@ -922,11 +922,11 @@ hash = "2ee7700b88371d21265000c50ef149c42863fd22e0ecbb5dc6af78fd7493fee8"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ad_astra/structures/dungeon/moon/storage.nbt"
-hash = "8ed22cdaf6e46b56f514111e5ede8b11764111526fa5f52ce5e0453f5a67b550"
+hash = "86ac5f2480280f3505a5467da60e72f796917b0ad998da59cf70e89dcb7796d7"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ad_astra/structures/temple/mars/mars_temple.nbt"
-hash = "89896df62e7160cf90f7bf1d99a0fd043658dd6c638e66b9d44dc99b0551bca5"
+hash = "b5141227e6dff6fa63dbb00868a860fc81c57cabbb75893c51c0d26d4f850589"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ad_astra/tags/fluids/tier_1_rocket_fuel.json"
@@ -938,15 +938,15 @@ hash = "8c32ff532d78af5b7510e1b064924f78e0781c70d824222c3e005579c833b39c"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ad_astra/tags/fluids/tier_2_rocket_fuel.json"
-hash = "0f944f9a8de6ce3e7937476175b14359e02f9725cb9a18ab7d05fe1eb90089e2"
+hash = "8512afe399ce84a0f0933c1fc67c79496a32467544598a4af654e428807f9475"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ad_astra/tags/fluids/tier_3_rocket_fuel.json"
-hash = "7a96d6cf762d7e5710ef33cbb96d1d604e53aeacd42b6ff73c3ea36b7b631c12"
+hash = "1331e2d85405694bce237fddd1395491834ce826af4b738ae869773272f13725"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ad_astra/tags/fluids/tier_4_rocket_fuel.json"
-hash = "67fd110d9a73a1b7c97ea150b7b13dfada589211ce175f63d0ffc14524f498e0"
+hash = "faae73cf110862db4f2e61551b3696332af31647af876fc35fd24bd2dc135456"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
@@ -1278,7 +1278,7 @@ hash = "50cae1a6a6339b878b94c8af6c8bababcf2bbb68848348a7c379414a3913ab46"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/botania/recipes/orechid/deepslate_gold_ore.json"
-hash = "50e334aced262452858365dcc9f2d8304b0e63a0152c1b738e8df83d8811bd67"
+hash = "b5353b40ba75b170bc27331e053f0ef796d1c1af9654c8beca34ea8e333a4bf4"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/botania/recipes/orechid/deepslate_iron_ore.json"
@@ -1298,7 +1298,7 @@ hash = "83b80a2a2c18638b4d745b0cf36d19620bd8467332f1c75656a76274f363897e"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/botania/recipes/orechid/dolomite_ore.json"
-hash = "9c86bd6b8ad92ef81af720df83deb54124a13bb273261d3b5b72c5f0d24c0ecc"
+hash = "198f418fce7abc43a9a1315e80e97ecc84455e413624d97f3ca653bcc89acc4d"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/botania/recipes/orechid/emerald_ore.json"
@@ -1310,7 +1310,7 @@ hash = "2827b9d5413cf8938c7810b82ea5c08a1751eb0cccbbee9e8c5125a7dc3e96af"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/botania/recipes/orechid/gold_ore.json"
-hash = "46ce6874304e73168e60bbf214bbd869976ba4a1cd2b9dc6730ceb5dc04bcfe2"
+hash = "e6af85e022dac0c305d3fbf22ac91195c4c4c183609ed842f7d5e71bc3b0f3cf"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/botania/recipes/orechid/hematite_ore.json"
@@ -1386,7 +1386,7 @@ hash = "e63c4c1bcdeffe77718cce92e590a55615d40710a739724c1bce08204aea6a46"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/botania/recipes/orechid/wollastonite_ore.json"
-hash = "b962b3d8015d96488ef3635fb3ad91aa4b1634c4bc1adafbe583c39085ef40c6"
+hash = "10ab780077e7dc598c03d02549de45d60b784c4834e355de4999fd52303fd274"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/botania/recipes/orechid/zeolite_ore.json"
@@ -1430,7 +1430,7 @@ hash = "d29b921d55b4143474afbff3b0bdf4d61634ec2237710a9a2232e7ddf99f6a9a"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/botania/recipes/orechid_ignem/nether_gold_ore.json"
-hash = "3d0bc93dec03b237cc244928e0c366a4e5711474017152a7ca49b5e497a2aad2"
+hash = "6721cfc58f751cb18a1ea13451f1ec810d8f8932e25d3669abb54d55a617e084"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/botania/recipes/orechid_ignem/nether_quartz_ore.json"
@@ -2058,7 +2058,7 @@ hash = "9042a00a6393af44e26ec9dc3dba0704ae7248b29b119ece7ef40429b0a6220b"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/createdieselgenerators/fuel_type/biodiesel.json"
-hash = "0d0eee1c29dfd732937eeeef37e58287b09a45132d24fc115ed41d4e25b0bc9f"
+hash = "6bbfa93d382d0324439f00a3d747b7702c039d59be0d98c1819bbe6480b16ee0"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/createdieselgenerators/fuel_type/creosote.json"
@@ -2098,11 +2098,11 @@ hash = "39c4cf731a3c523981de450cbdede3fca6878c47ae5307f76c6cf51843d713ec"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/createdieselgenerators/recipes/distillation/bitumen.json"
-hash = "a6f6e764d25c7c927f567af671e4938f6b7c657365114ad1768cc15caad36320"
+hash = "ca1e8d3561047ac8eb5c1bd0ac5a0bfc1de71c999bbc9e40c4164190223e0027"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/createdieselgenerators/recipes/distillation/crude_oil.json"
-hash = "055ddbdbc4c00fa9bd49896642db58ecb114ae46353e2b586dade5bf3a336362"
+hash = "b4e3ca5c69941d560ab6e6951936057d0e97a35fdfb672ccd33fa306022b542f"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/createdieselgenerators/recipes/distillation/lubricant.json"
@@ -2114,7 +2114,7 @@ hash = "191495315bb403adb92c02fbfb37a315f6a156a91bae50c70fa0388146ebeef5"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
-hash = "539e76c9730d84ba6a114674f59475538c25b6494d7d8e98b199c9c660bdd9c5"
+hash = "ba269b2faac906f14402b027d16bccb3cba72cb922a50cadc97e4d37c33497b1"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/crockpot/legendarysurvivaloverhaul/temperature/consumables/asparagus_soup.json"
@@ -2990,15 +2990,15 @@ hash = "c31a43340d78acbe25b786d4f37d2cca0b879856f49d9c6757ff56f9db7eaa65"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/dungeons_arise/structures/foundry/foundry_corridor_4_door.nbt"
-hash = "715d8a4e10488b618eacce68248e2c48a4dda16972759e81aea88d2bfa27e758"
+hash = "c31046e9526008d42d59f23d935342effebcf1ff10843d179f7fb306e318305d"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/dungeons_arise/structures/foundry/foundry_passage_5_straight_debris.nbt"
-hash = "e25779bb97e9439ec2895c3b096b7c3809b7f45b37292b727c728d653f46ca1d"
+hash = "1d2fd4e4ed670d6620da366e112969cf73a5516adef2a7fc3620cae7d918dfa8"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/dungeons_arise/structures/scorched_mines/scorched_mines_treasure_0.nbt"
-hash = "46d2277dc81d33280524adc59e6d609c83a170f9b8b2147e1334fa1745341e88"
+hash = "e48ed9d523fbbcf25ef9f40e39721cbace55bb60711cf3333e404251b239eb8b"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ecologics/legendarysurvivaloverhaul/temperature/consumables/tropical_stew.json"
@@ -3086,7 +3086,7 @@ hash = "3ed74e33314a931be9d6af0aa3f4912754ae466860cc7588e843008257e5bcea"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/explorations/structures/underground_temple/rooms/large_hall.nbt"
-hash = "d0adeee9c29b06921c7d110cdb9aa46d42b3c73531e199507637b44863b73a9d"
+hash = "84d43b78db04d5557f07d5c4b49fe62aed4addaaf5b0dd55a31e2f09e3eb23a6"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/exquisito/legendarysurvivaloverhaul/temperature/consumables/chorus_ice_cream.json"
@@ -3354,7 +3354,7 @@ hash = "ade5ffaa4e82a3d0171924e15630d1e6f4670b10e983003cb4172460b1506d20"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/gregtech/blaze_burner_fuel/raw_bio_diesel.json"
-hash = "389b2bb98a886c7901450efbe59d35636be17e70eb69839b0b3b6b9aec1292df"
+hash = "df970b99a735202704687cfb84b2c4d729687ad48bdbe0719e430816d9e4030c"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/gregtech/blaze_burner_fuel/seed_oil.json"
@@ -3666,7 +3666,7 @@ hash = "4e9be8e5ba128fab3e4dd6d76cdd2c55c7c720190ffe1889cb3830dc8af13b66"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/loot_tables/gameplay/hero_of_the_village/farmer_gift.json"
-hash = "7ba8435a73dc85c971ce9390f24ae6b601e90b7efa77bb6fbe1a0b4266677a18"
+hash = "50d8fc15d5ce5bba691564f43f9d38a7be0382b81a5111847f903c7ba945e821"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/loot_tables/gameplay/hero_of_the_village/librarian_gift.json"
@@ -3678,27 +3678,27 @@ hash = "3bfbdc9b53a1c6c51734fae4cfbe77fc8f1ed876f559f3cea0a88153f7d9c073"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/loot_tables/gameplay/piglin_bartering.json"
-hash = "ea2131bb9fb51a49edb365bcf88a93edc3b56b7dd74579ddb6cf72ebab64a93d"
+hash = "b27fd3de86ea9f5c150ee84f12270131b82ed18074f0de2713bb43d220c15259"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/blocks/gold.nbt"
-hash = "26c9ea934ab41b748ac30a3fd41fe2dd60bb9d976bca4431bd46771f298e7b58"
+hash = "1359c22f2acc6811b938efe0dfd5a45ad1b826ceadc7e1e3544eaa7ac62fac8b"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/bridge/bridge_pieces/bridge.nbt"
-hash = "5f278aed9553e5da36c33a6ed3c5ee085d73b202ec1ba61ec132c5e36fe0d995"
+hash = "0386dde77aaf4b4284869763224e844a30a9cc1fb3bf78600ae4657d2f94866f"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/bridge/starting_pieces/entrance.nbt"
-hash = "8fea2969105446ac12850e51b03896815cfd1b01cf1b4e11e69c4de53c5b7243"
+hash = "d446a65c9ade21f5648f99d6988a2ac7dc5a50a7b17669ee77690cad7254e014"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/bridge/starting_pieces/entrance_base.nbt"
-hash = "2f07d9ec87a7c163349d3472b9a18babceb6b809095f554c8e0c390b8dbe4db1"
+hash = "acd24ce8d9f84effaff33f62913f55abe8e1f71152f70f168140a295d3c6a1e2"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/bridge/walls/wall_base_0.nbt"
-hash = "9a1f10014a0c8839ed78e23d2776c6cf1993d212cf968676417f10d716652629"
+hash = "670443d719f9c39a1eb1a6bdcaaabe4c6590c7a459f5e4c553e5fec2d5b3ff5f"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/bridge/walls/wall_base_1.nbt"
@@ -3706,91 +3706,91 @@ hash = "0a5ad4be553d0192368f218f7a1426c54a3cff0716be75d258ff6d83afc84a2e"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/hoglin_stable/ramparts/ramparts_1.nbt"
-hash = "adea32cbbcf3abfc5c497c558e207730de902d1083fe35df119f49f533c100e1"
+hash = "9b2a7c095c43a4ba8dd42c816ec4db9e0c83ed9415bceb4a37edd87fd5dca0fe"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/hoglin_stable/walls/side_wall_1.nbt"
-hash = "3bf1f906d67378044f8b85cb31d20375e4834f3e58595d49fa8fed26a27fb6b3"
+hash = "04dfccd59cf0d7bc9bd595cdc1770073346363c99a0c92bcc352f732e3efa142"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/treasure/bases/centers/center_0.nbt"
-hash = "8ec30caf6f4961bf39eade36f43fd156b7ac2a61aff946eb2779624cb48c1982"
+hash = "f472267df97e68650aa92bf7a5d80a9290a39d1b765798aa52a70a8057b16ec3"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/treasure/bases/centers/center_1.nbt"
-hash = "e3439d10b2b1f0fc96c301a83c21e6bf4242ccc5306721ff064e5609983e802c"
+hash = "9bbf31b31c5c7ca2dd619ccbafd345e99a9d7fe1e8a9f11c1ea454d75491dd14"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/treasure/bases/centers/center_2.nbt"
-hash = "8df65623e53faa3788f3f71a40c595a5e526c860f45dcd146fd0f9dca9df629a"
+hash = "9934a5c93266baeb77f45480f384438f34bcc4edbf3c90f9447e97c96c5b8da5"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/treasure/bases/centers/center_3.nbt"
-hash = "60a03208c4ea07297a2b5223dca7d7eb352986288650cda32aa684f40310fcc8"
+hash = "061e7fa5d934ac83422e190389d616d6d14f990c64800900ff185a0609695312"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/treasure/entrances/entrance_0.nbt"
-hash = "af8137e5f588b5618b37c88929db0711a6c1448415f65da44c5f52bdcadbd5d4"
+hash = "c7379c5289db7871469c51fb8cb1e641f22aeccc2bbbd2e47a67ea7fd549fbfa"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/treasure/ramparts/top_wall.nbt"
-hash = "76839eef1c7ba15f937895eed939df7779f8184272755a7d45c9e608f07495ed"
+hash = "41383e40e19560bc05a1c0f87e522386734d5bb8ab54cfc4a4ed53d7a2f393f2"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/units/walls/connected_wall.nbt"
-hash = "44a350db45595b11da3645ab82471564adee087f02cd882e53ae6839c8f91451"
+hash = "88e10a3d16c184a832471cb5c2fdf4cb62bcd52180f71779ad2cf6f566714b4b"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/bastion/units/walls/wall_base.nbt"
-hash = "9d681ad32b10a6eda66a3e3afbe50c79b86bdd6b6cd9f2dabf8765f0f902b659"
+hash = "78cc20e0a89ae97a538aa6a00872934ac02dc0504313d5e6fb287cbcefbe23d9"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/giant_portal_1.nbt"
-hash = "31c1c4a106be697973c599ff0dbdf7a9a513ca26729628d7c05b587452ee6599"
+hash = "fc0e38c21a0931b2a569a23725fbf97e3b25a0dae5e796653e81f4bda2ed177c"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/giant_portal_2.nbt"
-hash = "e02fa87d39522f6fbd0a2f9e303c8093bb649cd5de2ca5f41942812e148f9756"
+hash = "4fbebe11f4ba13025e656e08dbfd5a853c41756b55c453218f370cc64efa27e6"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/giant_portal_3.nbt"
-hash = "90e63331c41e38248f4055300bb3786b2e52cb1718b1a1612e4a444f25420420"
+hash = "8be0eadd1f5cbad174fe3912befeca7ada5b9ef020c705d01a92af2f4d8320e4"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/portal_1.nbt"
-hash = "ba055f9e47149d01e2a425c344351c342ca3da2a98756de1f19fe90a6f59fbf4"
+hash = "be3953aa9d5a8f7f3b933190712da98c74187e6a4749aef327317b314877c1de"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/portal_10.nbt"
-hash = "1ad878faa37e3f37cd8f7177e7959abe224d414d37b91c6d8780d04a98475a7b"
+hash = "3953b34ddc6c3d208e4d6679e8f4c1b5e18f5686278d93b565f29a86f1b83cd2"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/portal_2.nbt"
-hash = "8bd4e001a5540be014b4da3b3a716fe3d9d476cf7e6b7d250239f3c00bf9770a"
+hash = "191b33bd7b8696c4ec4610481287b494a1c0a46c5c266f3961757c59df80d857"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/portal_4.nbt"
-hash = "05ac45c3d8e9330f974777bc1f0de0da028f1e8f2067ebb104b095fab000eca2"
+hash = "494c00d8deaa3ab0a19c70ce98517a79242e8f02898c63e148a15ac16a8a487c"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/portal_5.nbt"
-hash = "715238a32f81a3ed24ce13de822a74921ef7d12f46ef8d2686da37c0b090cf6c"
+hash = "50196ffcf82d09bd567a4a1d868fae9e679b59eeab52233021f9a14ebe09e5e2"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/portal_6.nbt"
-hash = "331321070aefda002512df304f809e7fb71abf27e6bda9adfaf7ac05e1e3b3a1"
+hash = "c659e6e7b86c106e13496d792929867e91e6ed81630b3ff2395ab95626f7324c"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/portal_7.nbt"
-hash = "131055cee4608e9ca0623420d9927da26177eb1def27a899f298a557410007ce"
+hash = "1bd064cf9444312862845b2bc3b0ec0163d7b05c2a551774917d8fc26b5159a5"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/portal_8.nbt"
-hash = "c6956726533d31f300ec2fdbd63e1e202f2221255d686e51f2acf6c3df534223"
+hash = "cfdf68646a0c626762e9932658d4b6c3f7c73cd608ec95e004a631702718ba05"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/minecraft/structures/ruined_portal/portal_9.nbt"
-hash = "52b3067c3de6c4616079b0b74510afe89bf219ca0f84eaa42c17ad5bf90f1c22"
+hash = "b4c0c61839786f0bbd5ddf1814d04d781ce4caec6407f67f5578cc17b52afef8"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/muffins_thaidelight/legendarysurvivaloverhaul/temperature/consumables/crab_fried_rice.json"
@@ -4146,7 +4146,7 @@ hash = "0b78c567a4f0e64b69155b5869321a93d94bbd3f292cb0e49347cb6b9b0d78f4"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/snowstructures/structures/biome_specifics/orbit/galaxy_rail.nbt"
-hash = "9c18dc6cb8dd68c75d4fd7961318b08c6f741ac0262a85f92250060930f1ff49"
+hash = "e45d4e71a4f18feab06d91677a7d8f316724431f40a56bccb6d1ab33dc5d01bb"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/snowstructures/structures/biome_specifics/plains/lost_base.nbt"
@@ -4154,11 +4154,11 @@ hash = "206788ecae806e3fc22ce5a918c9d77c085f01d97c4148a13beeefacacaa56c2"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/snowstructures/structures/biome_specifics/plains/lost_missile.nbt"
-hash = "8b28f93fbaa13803934b563206398e3394f6b82344692e87ed9c9d37308ece44"
+hash = "d75a6027789cf23c722d6134b19446f5137272993408ad8e0bb1b29960b63e6f"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/snowstructures/structures/biome_specifics/plains/lost_satellite.nbt"
-hash = "18174be794875ef413a2abd4f7bbfc1abd484fff3e28de7ede72707aff97d982"
+hash = "fe72407854d2d8e0188d8ee40e20f0578be147c444877dd3541f122ba428d3a9"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/snowstructures/tags/worldgen/biome/has_structure/galaxy_rail.json"
@@ -4314,7 +4314,7 @@ hash = "d6c72f67a6e68cf320e17d9a54774234575bf688e979008f4575843eb7a50410"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/tconstruct/recipes/tools/materials/casting/snow_steel.json"
-hash = "de86b5ca382d86d379bf3fd30336ceab6f2f83faa76302e49c17ff87697c685c"
+hash = "d8ba3f58b2e779e775b7f693a90941e527ffdd173028898921fd4c8b344e4d2a"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/tconstruct/recipes/tools/modifier/upgrade/upgrades_fortification.json"
@@ -4490,7 +4490,7 @@ hash = "690b41e864ab183cb17de3b04d0d1a034b861f0f167061c5852a702893c30bec"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/twilightforest/stalactites/entries/gold_ore_raw_gold_block_stalactite.json"
-hash = "751748f97a27b9708aac9292388a28f298833bb39e80b72ce556aff60723c912"
+hash = "c15356e2d668c5cda4ac03aa783a0f2a8c530266b1614edf6d080ef34e46466b"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/twilightforest/stalactites/entries/iron_ore_raw_iron_block_stalactite.json"
@@ -4538,7 +4538,7 @@ hash = "a763b2c8e30053f1b1d72b2e8490823cbbd7b4d07c9fcf1b58c033b5eca826fc"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/twilightforest/worldgen/configured_feature/legacy_gold_ore.json"
-hash = "205668b0e281cb64afaf774304c66f750615b1d3c5947c2113fd0a797b4d41d7"
+hash = "011696e8bec52da05ba297ab23e20817a8bde5495e4a4eb35903c0c21a040207"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/twilightforest/worldgen/configured_feature/legacy_iron_ore.json"

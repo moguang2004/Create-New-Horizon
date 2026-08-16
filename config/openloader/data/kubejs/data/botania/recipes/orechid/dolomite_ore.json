@@ -6,7 +6,7 @@
     },
     "output": {
         "type": "block",
-        "block": "gtceu:dolomite_ore"
+        "block": "ctnhcore:dolomite_ore"
     },
     "weight": 1600
 }

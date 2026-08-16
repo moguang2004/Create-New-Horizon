@@ -65,7 +65,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "gtceu:raw_precious_alloy",
+          "name": "ctnhcore:raw_precious_alloy",
           "weight": 40
         },
         {
@@ -81,7 +81,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "gtceu:precious_alloy_ingot",
+          "name": "ctnhcore:precious_alloy_ingot",
           "weight": 20
         },
         {
