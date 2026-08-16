@@ -662,7 +662,7 @@ hash = "f6e2cc46e501c42fbd57e04818176d8793423526f6222659a0af14d97123b245"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08AF6857D150C353.snbt"
-hash = "be4d5aa92dbd5c7c2dc4f04160c12fc763454ac35cef04a1599e0d307e6ba0fe"
+hash = "0b67b4b0cd0fb0bbf0bf047056833e35c276371cae35100605308dadefc56047"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/0AD950C34ED565A4.snbt"
@@ -678,7 +678,7 @@ hash = "815d0305cda36dad1568e1c2f33b7417916cc90653c231c9520d6e82d467a9af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/177DD3C4E2D1113C.snbt"
-hash = "8a49092e62e472fffb5e5ee71a2a55453e9d3f4ac3bb1c45283d5764f3a9edec"
+hash = "b4c71faa4253a5f493a86250417fd0c7b4ed26120855c81f154a5c88222dccd9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1E8D7AF132D696EC.snbt"
@@ -706,7 +706,7 @@ hash = "e89a820ec88c114c72d2a632379cf6d5361179fdb55643cab3139f73ff548265"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "c7dee8f427f81e6ca7145c16becdbbe095e5c4ee80c5a1792d5865a7976d33bb"
+hash = "98ea62b27542965ea25e24182329f540c1303f7cdfece60903ac37d172d3447a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -738,7 +738,7 @@ hash = "40699adad5810cccda047c72f19da8642acf5b2804e1f3fa44abd4f34017e2b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/681E3140690307AA.snbt"
-hash = "9b7166f5d7a6bf2038490bb8f483ed96db909fb264d186ef0bba32042b7983da"
+hash = "e9b6bdec649282fb1a927f56c9d023eea09f17127de18eccdd3ec403200ed304"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
@@ -8515,6 +8515,11 @@ metafile = true
 [[files]]
 file = "mods/artifacts.pw.toml"
 hash = "559169a724f240d9de5dd12d4cc83dbd7f274bf9d70e7a5fecb0d7352d627716"
+metafile = true
+
+[[files]]
+file = "mods/async-locator.pw.toml"
+hash = "ef486126eaf6ae489e78b57eff6c48a4eb83e5a7cd3a799f718ff693120b481e"
 metafile = true
 
 [[files]]
