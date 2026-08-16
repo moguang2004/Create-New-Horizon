@@ -37,7 +37,7 @@
 			tasks: [{
 				count: 16L
 				id: "6D8F9714425D0CA0"
-				item: "gtceu:raw_precious_alloy"
+				item: "ctnhcore:raw_precious_alloy"
 				type: "item"
 			}]
 			x: -3.5d
@@ -60,7 +60,7 @@
 			id: "591C04018820A1E3"
 			tasks: [{
 				id: "546D6814E85D21DE"
-				item: "gtceu:precious_alloy_ingot"
+				item: "ctnhcore:precious_alloy_ingot"
 				type: "item"
 			}]
 			x: -1.5d
@@ -71,7 +71,7 @@
 			id: "7FD64849E74532D1"
 			tasks: [{
 				id: "2D851946C689066A"
-				item: "gtceu:gold_alloy_ingot"
+				item: "ctnhcore:gold_alloy_ingot"
 				type: "item"
 			}]
 			x: 0.5d
@@ -82,7 +82,7 @@
 			id: "188AC9C2BFA0D221"
 			tasks: [{
 				id: "69E5CD6035C41564"
-				item: "gtceu:gold_leach_dust"
+				item: "ctnhcore:gold_leach_dust"
 				type: "item"
 			}]
 			x: 2.5d
@@ -106,7 +106,7 @@
 			subtitle: "可以回收铜，以及获得一些副产物"
 			tasks: [{
 				id: "426B548E21DBDC21"
-				item: "gtceu:copper_leach_dust"
+				item: "ctnhcore:copper_leach_dust"
 				type: "item"
 			}]
 			x: 4.5d
@@ -118,7 +118,7 @@
 			subtitle: "提取出全部的金"
 			tasks: [{
 				id: "1167A4A08BE4673C"
-				item: "gtceu:chloroauric_acid_bucket"
+				item: "ctnhcore:chloroauric_acid_bucket"
 				type: "item"
 			}]
 			x: 4.5d
@@ -141,7 +141,7 @@
 			subtitle: "氧化铝来源广泛，可以副产于许多种矿物"
 			tasks: [{
 				id: "1A9A6FC700D18F86"
-				item: "gtceu:alumina_dust"
+				item: "ctnhcore:alumina_dust"
 				type: "item"
 			}]
 			x: 13.5d
@@ -167,7 +167,7 @@
 			id: "5211BE1C25953D4A"
 			tasks: [{
 				id: "2C77ED3A3A5EF31A"
-				item: "gtceu:sodium_hexafluoroaluminate_bucket"
+				item: "ctnhcore:sodium_hexafluoroaluminate_bucket"
 				type: "item"
 			}]
 			x: 12.5d
@@ -192,7 +192,7 @@
 			subtitle: "一种含铝和氟的石头，来自暮色森林"
 			tasks: [{
 				id: "10BFE625088691A7"
-				item: "gtceu:cryolite_dust"
+				item: "ctnhcore:cryolite_dust"
 				type: "item"
 			}]
 			x: 10.5d
@@ -238,7 +238,7 @@
 			id: "0790DA91AB13BE3C"
 			tasks: [{
 				id: "52CC5B3C7610C890"
-				item: "gtceu:sodium_hydroxide_bauxite_bucket"
+				item: "ctnhcore:sodium_hydroxide_bauxite_bucket"
 				type: "item"
 			}]
 			x: 13.5d
@@ -249,7 +249,7 @@
 			id: "27E122BB40B8033B"
 			tasks: [{
 				id: "2111C3CCA691CBFE"
-				item: "gtceu:impure_aluminium_hydroxide_solution_bucket"
+				item: "ctnhcore:impure_aluminium_hydroxide_solution_bucket"
 				type: "item"
 			}]
 			x: 14.5d
@@ -261,7 +261,7 @@
 			subtitle: "副产物"
 			tasks: [{
 				id: "7291A77099CE5DEF"
-				item: "gtceu:red_mud_bucket"
+				item: "ctnhcore:red_mud_bucket"
 				type: "item"
 			}]
 			x: 14.5d
@@ -272,7 +272,7 @@
 			id: "59E759B719D5A1A6"
 			tasks: [{
 				id: "0A92BA54A61BDEF2"
-				item: "gtceu:neutralised_red_mud_bucket"
+				item: "ctnhcore:neutralised_red_mud_bucket"
 				type: "item"
 			}]
 			x: 16.5d
@@ -283,7 +283,7 @@
 			id: "1C994AA2C77B0911"
 			tasks: [{
 				id: "61FE402E5316054D"
-				item: "gtceu:red_slurry_bucket"
+				item: "ctnhcore:red_slurry_bucket"
 				type: "item"
 			}]
 			x: 17.5d
@@ -295,7 +295,7 @@
 			subtitle: "铝元素提取"
 			tasks: [{
 				id: "270C7721F12B81FA"
-				item: "gtceu:pure_aluminium_hydroxide_solution_bucket"
+				item: "ctnhcore:pure_aluminium_hydroxide_solution_bucket"
 				type: "item"
 			}]
 			x: 15.5d
@@ -307,7 +307,7 @@
 			subtitle: "在电力高炉内熔炼成氧化铝"
 			tasks: [{
 				id: "6208BF50F1AA52FF"
-				item: "gtceu:aluminium_hydroxide_dust"
+				item: "ctnhcore:aluminium_hydroxide_dust"
 				type: "item"
 			}]
 			x: 15.5d
@@ -318,7 +318,7 @@
 			id: "38593C46A52F4829"
 			tasks: [{
 				id: "1AE29838F9537F06"
-				item: "gtceu:titanyl_sulfate_bucket"
+				item: "ctnhcore:titanyl_sulfate_bucket"
 				type: "item"
 			}]
 			x: 18.5d
@@ -341,7 +341,7 @@
 			id: "6F241247AD71D256"
 			tasks: [{
 				id: "71E40B1F58A12C18"
-				item: "gtceu:ferric_ree_chloride_bucket"
+				item: "ctnhcore:ferric_ree_chloride_bucket"
 				type: "item"
 			}]
 			x: 17.5d
@@ -353,7 +353,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "796F00F3FE2F3F50"
-				item: "gtceu:raw_zircon"
+				item: "ctnhcore:raw_zircon"
 				type: "item"
 			}]
 			x: -3.5d
@@ -364,7 +364,7 @@
 			id: "2C1A8A066B26C7E8"
 			tasks: [{
 				id: "1B3B1DBAA3D3C1C7"
-				item: "gtceu:zircon_dust"
+				item: "ctnhcore:zircon_dust"
 				type: "item"
 			}]
 			x: -1.5d
@@ -375,7 +375,7 @@
 			id: "1D68822FC0FF9397"
 			tasks: [{
 				id: "7F401E9AFEA18947"
-				item: "gtceu:zr_hf_chloride_bucket"
+				item: "ctnhcore:zr_hf_chloride_bucket"
 				type: "item"
 			}]
 			x: 0.5d
@@ -386,7 +386,7 @@
 			id: "40334FD9CA5BE3F6"
 			tasks: [{
 				id: "5FD4592618496645"
-				item: "gtceu:zircon_chlorinating_residue_bucket"
+				item: "ctnhcore:zircon_chlorinating_residue_bucket"
 				type: "item"
 			}]
 			x: -1.5d
@@ -397,7 +397,7 @@
 			id: "28A51B00DA790080"
 			tasks: [{
 				id: "42DA4AE38BED7CF3"
-				item: "gtceu:zr_hf_oxy_chloride_bucket"
+				item: "ctnhcore:zr_hf_oxy_chloride_bucket"
 				type: "item"
 			}]
 			x: 1.5d
@@ -412,12 +412,12 @@
 			tasks: [
 				{
 					id: "49368CD3C5D3A03E"
-					item: "gtceu:hafnium_oxide_dust"
+					item: "ctnhcore:hafnium_oxide_dust"
 					type: "item"
 				}
 				{
 					id: "7E0FB38A07088424"
-					item: "gtceu:cubic_zirconia_dust"
+					item: "ctnhcore:cubic_zirconia_dust"
 					type: "item"
 				}
 			]
@@ -431,12 +431,12 @@
 			tasks: [
 				{
 					id: "4A28F8BA8AE03C82"
-					item: "gtceu:hafnium_chloride_dust"
+					item: "ctnhcore:hafnium_chloride_dust"
 					type: "item"
 				}
 				{
 					id: "40004662A4BD86BB"
-					item: "gtceu:zirconium_tetrachloride_dust"
+					item: "ctnhcore:zirconium_tetrachloride_dust"
 					type: "item"
 				}
 			]
@@ -469,7 +469,7 @@
 			id: "4DBD8EB3AD4FDE77"
 			tasks: [{
 				id: "6788F86F8C5BFCC0"
-				item: "gtceu:zr_hf_separation_mix_bucket"
+				item: "ctnhcore:zr_hf_separation_mix_bucket"
 				type: "item"
 			}]
 			x: 2.5d
@@ -481,12 +481,12 @@
 			tasks: [
 				{
 					id: "430BDEA138CA9BC4"
-					item: "gtceu:methyl_isobutyl_ketone_bucket"
+					item: "ctnhcore:methyl_isobutyl_ketone_bucket"
 					type: "item"
 				}
 				{
 					id: "6AD8618A01E23790"
-					item: "gtceu:thiocyanic_acid_bucket"
+					item: "ctnhcore:thiocyanic_acid_bucket"
 					type: "item"
 				}
 			]
@@ -498,7 +498,7 @@
 			id: "0158BA7AC2658C5E"
 			tasks: [{
 				id: "5AFFF449AD63DF45"
-				item: "gtceu:mesityl_oxide_bucket"
+				item: "ctnhcore:mesityl_oxide_bucket"
 				type: "item"
 			}]
 			x: 0.5d
@@ -553,7 +553,7 @@
 			id: "73E81DAE5413E833"
 			tasks: [{
 				id: "4CD9B4325C8F0D90"
-				item: "gtceu:uranyl_chloride_solution_bucket"
+				item: "ctnhcore:uranyl_chloride_solution_bucket"
 				type: "item"
 			}]
 			x: 13.5d
@@ -564,7 +564,7 @@
 			id: "5AA3292EEBDBA8F2"
 			tasks: [{
 				id: "371E5CC1B838678A"
-				item: "gtceu:uranyl_nitrate_solution_bucket"
+				item: "ctnhcore:uranyl_nitrate_solution_bucket"
 				type: "item"
 			}]
 			x: 14.5d
@@ -575,7 +575,7 @@
 			id: "41CDA2667B97AA0F"
 			tasks: [{
 				id: "40BE3BDB539E3D0B"
-				item: "gtceu:purified_uranyl_nitrate_bucket"
+				item: "ctnhcore:purified_uranyl_nitrate_bucket"
 				type: "item"
 			}]
 			x: 15.5d
@@ -586,7 +586,7 @@
 			id: "0BF484D18E7353B0"
 			tasks: [{
 				id: "46220601DC69287E"
-				item: "gtceu:uranium_sulfate_waste_solution_bucket"
+				item: "ctnhcore:uranium_sulfate_waste_solution_bucket"
 				type: "item"
 			}]
 			x: 14.5d
@@ -597,7 +597,7 @@
 			id: "7DD310879DD21C57"
 			tasks: [{
 				id: "47C16D60B2BE8BD9"
-				item: "gtceu:uranium_diuranate_bucket"
+				item: "ctnhcore:uranium_diuranate_bucket"
 				type: "item"
 			}]
 			x: 16.5d
@@ -608,7 +608,7 @@
 			id: "61A8483B8C77C58F"
 			tasks: [{
 				id: "7D9EE06EC920B534"
-				item: "gtceu:potassium_uranyl_tricarbonate_dust"
+				item: "ctnhcore:potassium_uranyl_tricarbonate_dust"
 				type: "item"
 			}]
 			x: 17.5d
@@ -622,7 +622,7 @@
 			id: "30F5F4B7C3DF1DF6"
 			tasks: [{
 				id: "1F31E9F7054C215D"
-				item: "gtceu:uranium_refinement_waste_solution_bucket"
+				item: "ctnhcore:uranium_refinement_waste_solution_bucket"
 				type: "item"
 			}]
 			x: 17.5d
@@ -633,7 +633,7 @@
 			id: "52B6406C4AD72B9D"
 			tasks: [{
 				id: "3193406A1EC04FB4"
-				item: "gtceu:uranium_peroxide_thorium_oxide_dust"
+				item: "ctnhcore:uranium_peroxide_thorium_oxide_dust"
 				type: "item"
 			}]
 			x: 18.5d
@@ -644,7 +644,7 @@
 			id: "75F1447FC04E7A81"
 			tasks: [{
 				id: "21250A18AA0AAF33"
-				item: "gtceu:uranyl_thorium_sulfate_dust"
+				item: "ctnhcore:uranyl_thorium_sulfate_dust"
 				type: "item"
 			}]
 			x: 19.5d
@@ -655,7 +655,7 @@
 			id: "5E23B6C857BE5268"
 			tasks: [{
 				id: "7CD12753B2457B37"
-				item: "gtceu:uranyl_thorium_nitrate_dust"
+				item: "ctnhcore:uranyl_thorium_nitrate_dust"
 				type: "item"
 			}]
 			x: 20.5d
@@ -666,7 +666,7 @@
 			id: "3BB61A35FA438477"
 			tasks: [{
 				id: "0E20EDA87916A488"
-				item: "gtceu:uranium_oxide_thorium_nitrate_dust"
+				item: "ctnhcore:uranium_oxide_thorium_nitrate_dust"
 				type: "item"
 			}]
 			x: 21.5d
@@ -678,7 +678,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "0F55B216DC2ABA74"
-				item: "gtceu:uranium_dioxide_dust"
+				item: "ctnhcore:uranium_dioxide_dust"
 				type: "item"
 			}]
 			x: 23.5d
@@ -688,7 +688,7 @@
 			id: "66E2BAFB5203941F"
 			tasks: [{
 				id: "2B7F7B98A0E03363"
-				item: "gtceu:piranha_solution_bucket"
+				item: "ctnhcore:piranha_solution_bucket"
 				type: "item"
 			}]
 			x: 16.5d
@@ -801,7 +801,7 @@
 			id: "311E3575421537D5"
 			tasks: [{
 				id: "6ECEC2FB84261514"
-				item: "gtceu:naquadah_oxide_mixture_dust"
+				item: "ctnhcore:naquadah_oxide_mixture_dust"
 				type: "item"
 			}]
 			x: -3.5d
@@ -812,7 +812,7 @@
 			id: "6CB97E1AD7A6E668"
 			tasks: [{
 				id: "520DD82A1D1FEEB0"
-				item: "gtceu:enriched_naquadah_oxide_mixture_dust"
+				item: "ctnhcore:enriched_naquadah_oxide_mixture_dust"
 				type: "item"
 			}]
 			x: -3.5d
@@ -823,7 +823,7 @@
 			id: "456C0E6B96A1FA08"
 			tasks: [{
 				id: "53C093BE2447AE95"
-				item: "gtceu:naquadria_oxide_mixture_dust"
+				item: "ctnhcore:naquadria_oxide_mixture_dust"
 				type: "item"
 			}]
 			x: 3.5d
@@ -859,7 +859,7 @@
 			id: "51DA4093C8BA8D61"
 			tasks: [{
 				id: "0F38FBA0D7ACEE0C"
-				item: "gtceu:radon_difluoride_bucket"
+				item: "ctnhcore:radon_difluoride_bucket"
 				type: "item"
 			}]
 			x: 6.5d
@@ -874,7 +874,7 @@
 			id: "3020D6D5BA6748B8"
 			tasks: [{
 				id: "3F1265354646B23B"
-				item: "gtceu:hexafluoride_enriched_naquadah_solution_bucket"
+				item: "ctnhcore:hexafluoride_enriched_naquadah_solution_bucket"
 				type: "item"
 			}]
 			x: 3.5d
@@ -888,7 +888,7 @@
 			id: "0459A15C78E34DFF"
 			tasks: [{
 				id: "30816EFA438F57A2"
-				item: "gtceu:hexafluoride_naquadria_solution_bucket"
+				item: "ctnhcore:hexafluoride_naquadria_solution_bucket"
 				type: "item"
 			}]
 			x: 6.5d
@@ -899,7 +899,7 @@
 			id: "44DF62D8F87E1E98"
 			tasks: [{
 				id: "68B4CC9FEFC53CA6"
-				item: "gtceu:xenon_hexafluoro_enriched_naquadate_bucket"
+				item: "ctnhcore:xenon_hexafluoro_enriched_naquadate_bucket"
 				type: "item"
 			}]
 			x: 6.5d
@@ -947,7 +947,7 @@
 			id: "3DA61E6A0C90CA6F"
 			tasks: [{
 				id: "37FBC744941BF8C5"
-				item: "gtceu:radon_naquadria_octafluoride_bucket"
+				item: "ctnhcore:radon_naquadria_octafluoride_bucket"
 				type: "item"
 			}]
 			x: 9.5d
@@ -961,7 +961,7 @@
 			id: "5A69B2E18A793DDD"
 			tasks: [{
 				id: "112082BB32E6F673"
-				item: "gtceu:naquadria_caesium_xenonnonfluoride_bucket"
+				item: "ctnhcore:naquadria_caesium_xenonnonfluoride_bucket"
 				type: "item"
 			}]
 			x: 12.5d
@@ -972,7 +972,7 @@
 			id: "79B8857F83BEE080"
 			tasks: [{
 				id: "1A636196CAE8B93C"
-				item: "gtceu:naquadria_caesiumfluoride_bucket"
+				item: "ctnhcore:naquadria_caesiumfluoride_bucket"
 				type: "item"
 			}]
 			x: 15.5d
@@ -983,7 +983,7 @@
 			id: "5AAAB678E3FE0422"
 			tasks: [{
 				id: "10255CC7729BE8D8"
-				item: "gtceu:acidic_naquadria_caesiumfluoride_bucket"
+				item: "ctnhcore:acidic_naquadria_caesiumfluoride_bucket"
 				type: "item"
 			}]
 			x: 18.5d
@@ -1004,7 +1004,7 @@
 			id: "2B9B3F5FB6BAACA2"
 			tasks: [{
 				id: "534AD756FAFCA050"
-				item: "gtceu:caesium_xenontrioxide_fluoride_bucket"
+				item: "ctnhcore:caesium_xenontrioxide_fluoride_bucket"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1014,7 +1014,7 @@
 			id: "3F2400EB1CD5A860"
 			tasks: [{
 				id: "4E54EA6E2B294F3A"
-				item: "gtceu:nitryl_fluoride_bucket"
+				item: "ctnhcore:nitryl_fluoride_bucket"
 				type: "item"
 			}]
 			x: 12.5d
@@ -1083,7 +1083,7 @@
 			id: "74F5B6770AB04154"
 			tasks: [{
 				id: "3F49CCD8D86F5485"
-				item: "gtceu:niobium_tantalite_bucket"
+				item: "ctnhcore:niobium_tantalite_bucket"
 				type: "item"
 			}]
 			x: 2.5d
@@ -1094,7 +1094,7 @@
 			id: "219CB79BF0BE4BD9"
 			tasks: [{
 				id: "2D47170883B60ABF"
-				item: "gtceu:tantalum_alkaline_mixture_bucket"
+				item: "ctnhcore:tantalum_alkaline_mixture_bucket"
 				type: "item"
 			}]
 			x: -1.5d
@@ -1130,7 +1130,7 @@
 			id: "5D9BD0927543E8F5"
 			tasks: [{
 				id: "732BCDB1F4F2B2DB"
-				item: "gtceu:tantalite_fluorine_bucket"
+				item: "ctnhcore:tantalite_fluorine_bucket"
 				type: "item"
 			}]
 			x: 0.5d
@@ -1141,7 +1141,7 @@
 			id: "75EA326A1FA866D1"
 			tasks: [{
 				id: "7106F630F19BA0BA"
-				item: "gtceu:niobium_tantalite_bucket"
+				item: "ctnhcore:niobium_tantalite_bucket"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1153,12 +1153,12 @@
 			tasks: [
 				{
 					id: "1AF4610C39704C90"
-					item: "gtceu:tantalite_oxide_dust"
+					item: "ctnhcore:tantalite_oxide_dust"
 					type: "item"
 				}
 				{
 					id: "14C9DC151881F9AA"
-					item: "gtceu:niobium_oxide_dust"
+					item: "ctnhcore:niobium_oxide_dust"
 					type: "item"
 				}
 			]
@@ -1170,7 +1170,7 @@
 			id: "256583C4EE2AC6FD"
 			tasks: [{
 				id: "161391E6CDD10F90"
-				item: "gtceu:bedrock_smoke_re_h_bucket"
+				item: "ctnhcore:bedrock_smoke_re_h_bucket"
 				type: "item"
 			}]
 			x: 2.5d
@@ -1268,7 +1268,7 @@
 			subtitle: "新材料"
 			tasks: [{
 				id: "5AAC284D6B71B777"
-				item: "gtceu:flawless_tungstencu_diamond_plating_gem"
+				item: "ctnhcore:flawless_tungstencu_diamond_plating_gem"
 				type: "item"
 			}]
 			x: -13.5d
@@ -1302,7 +1302,7 @@
 			id: "7C395777B5E4B556"
 			tasks: [{
 				id: "61AD43FCA2A5D6AC"
-				item: "gtceu:bedrock_fog_bucket"
+				item: "ctnhcore:bedrock_fog_bucket"
 				type: "item"
 			}]
 			x: -7.5d
@@ -1314,7 +1314,7 @@
 			id: "0FE50A78729EF06F"
 			tasks: [{
 				id: "49AB899471113196"
-				item: "gtceu:bedrock_dust_dust"
+				item: "ctnhcore:bedrock_dust_dust"
 				type: "item"
 			}]
 			x: -9.5d
@@ -1325,7 +1325,7 @@
 			id: "66CBB62D5F481442"
 			tasks: [{
 				id: "7F56FEC12E2431A2"
-				item: "gtceu:bedrock_fog_re_bucket"
+				item: "ctnhcore:bedrock_fog_re_bucket"
 				type: "item"
 			}]
 			x: -5.5d
@@ -1336,7 +1336,7 @@
 			id: "09C61D8252E71217"
 			tasks: [{
 				id: "1EDB910FCB2858A0"
-				item: "gtceu:bedrock_dust_solution_bucket"
+				item: "ctnhcore:bedrock_dust_solution_bucket"
 				type: "item"
 			}]
 			x: -3.5d
@@ -1347,7 +1347,7 @@
 			id: "09B8C8F2910B213B"
 			tasks: [{
 				id: "0B83C269280D287D"
-				item: "gtceu:bedrock_fog_re_l_bucket"
+				item: "ctnhcore:bedrock_fog_re_l_bucket"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1358,7 +1358,7 @@
 			id: "3C9769EB35BB245D"
 			tasks: [{
 				id: "491E555BD9674E2E"
-				item: "gtceu:bedrock_fog_re_m_bucket"
+				item: "ctnhcore:bedrock_fog_re_m_bucket"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1369,7 +1369,7 @@
 			id: "5F62A5F28D4E67CD"
 			tasks: [{
 				id: "5800F4C080B1545F"
-				item: "gtceu:bedrock_fog_re_h_bucket"
+				item: "ctnhcore:bedrock_fog_re_h_bucket"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1386,7 +1386,7 @@
 			subtitle: "留到UV处理"
 			tasks: [{
 				id: "19B9754ACA92787A"
-				item: "gtceu:taranliquid_bucket"
+				item: "ctnhcore:taranliquid_bucket"
 				type: "item"
 			}]
 			x: -0.5d
@@ -1397,7 +1397,7 @@
 			id: "0C3A37B3C7EA9D4C"
 			tasks: [{
 				id: "61386F0B1EB3EE90"
-				item: "gtceu:bedrock_smoke_bucket"
+				item: "ctnhcore:bedrock_smoke_bucket"
 				type: "item"
 			}]
 			x: -0.5d
@@ -1412,7 +1412,7 @@
 			id: "5604BB8175576E0C"
 			tasks: [{
 				id: "29A8F7B9D3146FC0"
-				item: "gtceu:taranmix_dust"
+				item: "ctnhcore:taranmix_dust"
 				type: "item"
 			}]
 			x: -0.5d
@@ -1423,7 +1423,7 @@
 			id: "71E3A0DDE60A49D3"
 			tasks: [{
 				id: "38EA728DA424F5A6"
-				item: "gtceu:bedrock_smoke_re_bucket"
+				item: "ctnhcore:bedrock_smoke_re_bucket"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1434,7 +1434,7 @@
 			id: "334AA2BE260C0632"
 			tasks: [{
 				id: "505B737401CCB747"
-				item: "gtceu:bedrock_soot_solution_bucket"
+				item: "ctnhcore:bedrock_soot_solution_bucket"
 				type: "item"
 			}]
 			x: 3.5d
@@ -1448,7 +1448,7 @@
 			id: "68D37F157D0FD99A"
 			tasks: [{
 				id: "2E0FC33EFBDD1F34"
-				item: "gtceu:f_bedrock_smoke_re_bucket"
+				item: "ctnhcore:f_bedrock_smoke_re_bucket"
 				type: "item"
 			}]
 			x: 5.5d
@@ -1459,7 +1459,7 @@
 			id: "181F08E5E126C286"
 			tasks: [{
 				id: "40BFFF4222D2839B"
-				item: "gtceu:bedrock_smoke_re_l_bucket"
+				item: "ctnhcore:bedrock_smoke_re_l_bucket"
 				type: "item"
 			}]
 			x: 7.5d
@@ -1470,7 +1470,7 @@
 			id: "597174098C5DB38F"
 			tasks: [{
 				id: "332E1333AA542B17"
-				item: "gtceu:bedrock_smoke_re_m_bucket"
+				item: "ctnhcore:bedrock_smoke_re_m_bucket"
 				type: "item"
 			}]
 			x: 7.5d
@@ -1481,7 +1481,7 @@
 			id: "5E1B6CB06C6BE78D"
 			tasks: [{
 				id: "4CAF7BF9402F240F"
-				item: "gtceu:bedrock_smoke_re_h_bucket"
+				item: "ctnhcore:bedrock_smoke_re_h_bucket"
 				type: "item"
 			}]
 			x: 7.5d
@@ -1492,7 +1492,7 @@
 			invisible: true
 			tasks: [{
 				id: "36337ECE3245C12D"
-				item: "gtceu:taranmix_dust"
+				item: "ctnhcore:taranmix_dust"
 				type: "item"
 			}]
 			x: -0.5d
@@ -1516,7 +1516,7 @@
 			id: "4B63F560AED06615"
 			tasks: [{
 				id: "5708264978E37912"
-				item: "gtceu:taranium_dirty_helium3_bucket"
+				item: "ctnhcore:taranium_dirty_helium3_bucket"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1527,7 +1527,7 @@
 			id: "62609CF4F1F38684"
 			tasks: [{
 				id: "686DC51463826630"
-				item: "gtceu:taranium_enriched_liquid_helium3_bucket"
+				item: "ctnhcore:taranium_enriched_liquid_helium3_bucket"
 				type: "item"
 			}]
 			x: 3.5d
@@ -1539,7 +1539,7 @@
 			subtitle: "继续分离来增产另外两种塔兰金属液体"
 			tasks: [{
 				id: "42E1C3E073E2B567"
-				item: "gtceu:taranium_half_life_liquid_helium3_bucket"
+				item: "ctnhcore:taranium_half_life_liquid_helium3_bucket"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1550,7 +1550,7 @@
 			id: "6BA4CB553EC55C19"
 			tasks: [{
 				id: "3B590D09B38EC12A"
-				item: "gtceu:taranium_depleted_liquid_helium3_bucket"
+				item: "ctnhcore:taranium_depleted_liquid_helium3_bucket"
 				type: "item"
 			}]
 			x: 3.5d
@@ -1561,7 +1561,7 @@
 			id: "54E333E8246FEB61"
 			tasks: [{
 				id: "670B69EF1A4A059C"
-				item: "gtceu:taranium_enriched_dirty_helium_plasma_plasma_bucket"
+				item: "ctnhcore:taranium_enriched_dirty_helium_plasma_plasma_bucket"
 				type: "item"
 			}]
 			x: 5.5d
@@ -1585,7 +1585,7 @@
 			id: "3ACE869B39F2C474"
 			tasks: [{
 				id: "7D511A9A8587886A"
-				item: "gtceu:taranium_enriched_helium4_plasma_plasma_bucket"
+				item: "ctnhcore:taranium_enriched_helium4_plasma_plasma_bucket"
 				type: "item"
 			}]
 			x: 5.5d
@@ -1596,7 +1596,7 @@
 			id: "61DA0BA84F78E0BE"
 			tasks: [{
 				id: "5A4D46C9CB2DB3F8"
-				item: "gtceu:taranium_depleted_helium_plasma_plasma_bucket"
+				item: "ctnhcore:taranium_depleted_helium_plasma_plasma_bucket"
 				type: "item"
 			}]
 			x: 7.5d
@@ -1610,7 +1610,7 @@
 			id: "32D42F3CA03A58C3"
 			tasks: [{
 				id: "5C00048BF77F7086"
-				item: "gtceu:taranium_enriched_liquid_helium4_bucket"
+				item: "ctnhcore:taranium_enriched_liquid_helium4_bucket"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1626,7 +1626,7 @@
 			subtitle: "很快就能出精金了！"
 			tasks: [{
 				id: "0BC89185D02D603B"
-				item: "gtceu:adamant_mud_dust"
+				item: "ctnhcore:adamant_mud_dust"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1642,7 +1642,7 @@
 			subtitle: "UEV的时候再处理吧"
 			tasks: [{
 				id: "156369CEF2DBB2DA"
-				item: "gtceu:taranium_dust"
+				item: "ctnhcore:taranium_dust"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1653,7 +1653,7 @@
 			id: "3D8452059DA66415"
 			tasks: [{
 				id: "037013F70928C027"
-				item: "gtceu:taranium_depleted_liquid_helium_bucket"
+				item: "ctnhcore:taranium_depleted_liquid_helium_bucket"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1664,7 +1664,7 @@
 			subtitle: "稀土的萃取剂，也可以萃取精金"
 			tasks: [{
 				id: "3D229CD3DB82C461"
-				item: "gtceu:p507_extractant_bucket"
+				item: "ctnhcore:p507_extractant_bucket"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1680,7 +1680,7 @@
 			subtitle: "无损P507"
 			tasks: [{
 				id: "1DA28993B0247EA8"
-				item: "gtceu:adamantiteliquid_bucket"
+				item: "ctnhcore:adamantiteliquid_bucket"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1691,7 +1691,7 @@
 			id: "2D51C78311A72F33"
 			tasks: [{
 				id: "09B45306B6EA84C5"
-				item: "gtceu:chalcogen_anode_mud_dust"
+				item: "ctnhcore:chalcogen_anode_mud_dust"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1702,7 +1702,7 @@
 			id: "7A49E5931F2C7453"
 			tasks: [{
 				id: "0270ED0BCD2B048E"
-				item: "gtceu:refined_gold_aq_bucket"
+				item: "ctnhcore:refined_gold_aq_bucket"
 				type: "item"
 			}]
 			x: 15.5d
@@ -1714,7 +1714,7 @@
 			subtitle: "UHV的重要材料"
 			tasks: [{
 				id: "01CF780BB688157C"
-				item: "gtceu:adamantite_dust"
+				item: "ctnhcore:adamantite_dust"
 				type: "item"
 			}]
 			x: 17.5d
@@ -1725,7 +1725,7 @@
 			id: "5E6B17A680E8AD50"
 			tasks: [{
 				id: "7D401634BB90D2D8"
-				item: "gtceu:adamantite_plasma_bucket"
+				item: "ctnhcore:adamantite_plasma_bucket"
 				type: "item"
 			}]
 			x: 23.5d
@@ -1738,14 +1738,14 @@
 			rewards: [{
 				count: 3
 				id: "6095408ACA7A1A4E"
-				item: "gtceu:adamantite_block"
+				item: "ctnhcore:adamantite_block"
 				type: "item"
 			}]
 			size: 2.0d
 			subtitle: "UHV线缆的主要材料"
 			tasks: [{
 				id: "7C005989A82F0622"
-				item: "gtceu:adamantite_ingot"
+				item: "ctnhcore:adamantite_ingot"
 				type: "item"
 			}]
 			x: 29.5d
@@ -1756,7 +1756,7 @@
 			invisible: true
 			tasks: [{
 				id: "10CFB9D503D8511E"
-				item: "gtceu:taranium_dust"
+				item: "ctnhcore:taranium_dust"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1771,7 +1771,7 @@
 			subtitle: "把两个最硬的东西混起来会发生什么？"
 			tasks: [{
 				id: "2A773B7AF70575BE"
-				item: "gtceu:bedrock_neutronium_dust"
+				item: "ctnhcore:bedrock_neutronium_dust"
 				type: "item"
 			}]
 			x: 21.5d
@@ -1797,7 +1797,7 @@
 			id: "71CEB2AFBDDE7B31"
 			tasks: [{
 				id: "709E7379F28B1AB9"
-				item: "gtceu:ax_jiyanqi_bucket"
+				item: "ctnhcore:ax_jiyanqi_bucket"
 				type: "item"
 			}]
 			x: 9.5d
@@ -1808,7 +1808,7 @@
 			id: "0C8A3A38C8A69F95"
 			tasks: [{
 				id: "5C7AEB6CCAB8FBF8"
-				item: "gtceu:bedrock_gas_bucket"
+				item: "ctnhcore:bedrock_gas_bucket"
 				type: "item"
 			}]
 			x: 11.5d
@@ -1823,7 +1823,7 @@
 			id: "736613239A0FDD32"
 			tasks: [{
 				id: "7373079B4D3DB9E6"
-				item: "gtceu:radioactive_metals_mix_dust"
+				item: "ctnhcore:radioactive_metals_mix_dust"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1834,7 +1834,7 @@
 			id: "4E5E3B834FAA8C67"
 			tasks: [{
 				id: "698BB6EEFE70088E"
-				item: "gtceu:bedrock_gas_re_bucket"
+				item: "ctnhcore:bedrock_gas_re_bucket"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1849,7 +1849,7 @@
 			subtitle: "UHV阶段可以处理"
 			tasks: [{
 				id: "65A07E985B66B699"
-				item: "gtceu:dr_bedrock_gas_re_bucket"
+				item: "ctnhcore:dr_bedrock_gas_re_bucket"
 				type: "item"
 			}]
 			x: 17.5d
@@ -1881,7 +1881,7 @@
 			id: "20538FF9D09E4A55"
 			tasks: [{
 				id: "17066A5D717349AA"
-				item: "gtceu:enrich_radioactive_waste_dust"
+				item: "ctnhcore:enrich_radioactive_waste_dust"
 				type: "item"
 			}]
 			x: 13.5d
@@ -1892,7 +1892,7 @@
 			id: "799170F56DEEA43F"
 			tasks: [{
 				id: "618902A3F5A047AF"
-				item: "gtceu:radioactive_ion_solution_bucket"
+				item: "ctnhcore:radioactive_ion_solution_bucket"
 				type: "item"
 			}]
 			x: 15.5d
@@ -1903,7 +1903,7 @@
 			id: "109A8810A3C205AB"
 			tasks: [{
 				id: "62FB5785B1C372E4"
-				item: "gtceu:neutron_irradiation_of_radioactive_waste_bucket"
+				item: "ctnhcore:neutron_irradiation_of_radioactive_waste_bucket"
 				type: "item"
 			}]
 			x: 17.5d
@@ -1914,7 +1914,7 @@
 			id: "7565AACEF5040B8D"
 			tasks: [{
 				id: "0FE2F8513460444D"
-				item: "gtceu:radiation_dust_dust"
+				item: "ctnhcore:radiation_dust_dust"
 				type: "item"
 			}]
 			x: 19.5d
@@ -1926,7 +1926,7 @@
 			subtitle: "你需要衰变罐"
 			tasks: [{
 				id: "15A68F85CEBA29F9"
-				item: "gtceu:radioactive_metal_ingot_ingot"
+				item: "ctnhcore:radioactive_metal_ingot_ingot"
 				type: "item"
 			}]
 			x: 21.5d
@@ -1937,7 +1937,7 @@
 			id: "516FF6C64567223F"
 			tasks: [{
 				id: "6B5B2ED54030D4B0"
-				item: "gtceu:low_level_radioactive_dust_bucket"
+				item: "ctnhcore:low_level_radioactive_dust_bucket"
 				type: "item"
 			}]
 			x: 23.5d
@@ -1948,7 +1948,7 @@
 			id: "6A6ABE5772951DB4"
 			tasks: [{
 				id: "60AC5FD1474505E7"
-				item: "gtceu:high_level_radioactive_dust_bucket"
+				item: "ctnhcore:high_level_radioactive_dust_bucket"
 				type: "item"
 			}]
 			x: 22.5d
@@ -1959,7 +1959,7 @@
 			id: "239256DEE547E22D"
 			tasks: [{
 				id: "1A3432EA34CA16B5"
-				item: "gtceu:concentrated_low_level_radioactive_dust_bucket"
+				item: "ctnhcore:concentrated_low_level_radioactive_dust_bucket"
 				type: "item"
 			}]
 			x: 24.5d
@@ -1970,7 +1970,7 @@
 			id: "49E9D581D9A44DCF"
 			tasks: [{
 				id: "5EDB13733579DF02"
-				item: "gtceu:concentrated_high_level_radioactive_dust_bucket"
+				item: "ctnhcore:concentrated_high_level_radioactive_dust_bucket"
 				type: "item"
 			}]
 			x: 23.5d
@@ -1986,7 +1986,7 @@
 			subtitle: "等离子冷凝来加速产出以太的产出速率"
 			tasks: [{
 				id: "040D2994DEAAE849"
-				item: "gtceu:aether_plasma_bucket"
+				item: "ctnhcore:aether_plasma_bucket"
 				type: "item"
 			}]
 			x: 24.5d
@@ -1997,7 +1997,7 @@
 			id: "782DCCEF9924E406"
 			tasks: [{
 				id: "73F5679696102B8F"
-				item: "gtceu:aether_bucket"
+				item: "ctnhcore:aether_bucket"
 				type: "item"
 			}]
 			x: 25.5d
@@ -2011,7 +2011,7 @@
 			id: "32B6ED52A989A278"
 			tasks: [{
 				id: "4A88BBB1DD0E3DEE"
-				item: "gtceu:living_metal_pre_bucket"
+				item: "ctnhcore:living_metal_pre_bucket"
 				type: "item"
 			}]
 			x: 17.5d
@@ -2027,7 +2027,7 @@
 			id: "05A23C4F88D2D450"
 			tasks: [{
 				id: "24D6B9533F66854A"
-				item: "gtceu:living_metal_bucket"
+				item: "ctnhcore:living_metal_bucket"
 				type: "item"
 			}]
 			x: 23.5d
@@ -2039,7 +2039,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "3BCF1A5D84EA8AE9"
-				item: "gtceu:oracle_dust"
+				item: "ctnhcore:oracle_dust"
 				type: "item"
 			}]
 			title: "神谕之粉"
@@ -2054,7 +2054,7 @@
 			id: "77D30F6C38DB4B83"
 			tasks: [{
 				id: "3F27EE864D308F20"
-				item: "gtceu:bedrock_gas_re_l_bucket"
+				item: "ctnhcore:bedrock_gas_re_l_bucket"
 				type: "item"
 			}]
 			x: 23.5d
@@ -2068,7 +2068,7 @@
 			id: "7DED10B400A33933"
 			tasks: [{
 				id: "12196CF4359AC0E9"
-				item: "gtceu:bedrock_gas_re_m_bucket"
+				item: "ctnhcore:bedrock_gas_re_m_bucket"
 				type: "item"
 			}]
 			x: 23.5d
@@ -2082,7 +2082,7 @@
 			id: "4831A750BE325D1A"
 			tasks: [{
 				id: "788C116B64A27D12"
-				item: "gtceu:bedrock_gas_re_h_bucket"
+				item: "ctnhcore:bedrock_gas_re_h_bucket"
 				type: "item"
 			}]
 			x: 23.5d
@@ -2093,7 +2093,7 @@
 			id: "08A97EFE678E2419"
 			tasks: [{
 				id: "0EB4069F3C3845BD"
-				item: "gtceu:taranliquidfuel_l_bucket"
+				item: "ctnhcore:taranliquidfuel_l_bucket"
 				type: "item"
 			}]
 			x: 22.5d
@@ -2104,7 +2104,7 @@
 			id: "6EBC3B65C9660015"
 			tasks: [{
 				id: "2E0A38A1DD8E0AF6"
-				item: "gtceu:taranliquidfuel_m_bucket"
+				item: "ctnhcore:taranliquidfuel_m_bucket"
 				type: "item"
 			}]
 			x: 23.5d
@@ -2115,7 +2115,7 @@
 			id: "48C925CF7AA58864"
 			tasks: [{
 				id: "75707B66D9856C15"
-				item: "gtceu:taranliquidfuel_h_bucket"
+				item: "ctnhcore:taranliquidfuel_h_bucket"
 				type: "item"
 			}]
 			x: 24.5d
@@ -2134,7 +2134,7 @@
 			subtitle: "不是菜鸟证明？"
 			tasks: [{
 				id: "27C8F2426A80B994"
-				item: "gtceu:boundless_dust"
+				item: "ctnhcore:boundless_dust"
 				type: "item"
 			}]
 			x: 29.5d
@@ -2148,7 +2148,7 @@
 			subtitle: "UEV的主要材料"
 			tasks: [{
 				id: "6505A75DAEE23A90"
-				item: "gtceu:aether_ingot"
+				item: "ctnhcore:aether_ingot"
 				type: "item"
 			}]
 			x: 29.5d
@@ -2159,7 +2159,7 @@
 			id: "2C77397CCBCBE7EF"
 			tasks: [{
 				id: "388836CE2FC77DF7"
-				item: "gtceu:neutronium_mixture_dust"
+				item: "ctnhcore:neutronium_mixture_dust"
 				type: "item"
 			}]
 			x: 21.5d
@@ -2267,7 +2267,7 @@
 			id: "5FB6AF2ED472FDE3"
 			tasks: [{
 				id: "74C842C66C571758"
-				item: "gtceu:vanadium_pentoxide_dust"
+				item: "ctnhcore:vanadium_pentoxide_dust"
 				type: "item"
 			}]
 			x: 27.0d
@@ -2278,7 +2278,7 @@
 			id: "49E73B48FF7B32B2"
 			tasks: [{
 				id: "390369970A0E1E80"
-				item: "gtceu:phthalic_anhydride_dust"
+				item: "ctnhcore:phthalic_anhydride_dust"
 				type: "item"
 			}]
 			x: 27.0d
@@ -2292,7 +2292,7 @@
 			id: "5357B5D3CF9CA99B"
 			tasks: [{
 				id: "7ABD108CE255F66B"
-				item: "gtceu:ethyl_anthra_quinone_bucket"
+				item: "ctnhcore:ethyl_anthra_quinone_bucket"
 				type: "item"
 			}]
 			x: 29.0d
@@ -2327,7 +2327,7 @@
 			id: "127C09CE25750566"
 			tasks: [{
 				id: "2E6026C628A426E5"
-				item: "gtceu:ethyl_anthra_hydro_quinone_bucket"
+				item: "ctnhcore:ethyl_anthra_hydro_quinone_bucket"
 				type: "item"
 			}]
 			x: 30.5d
@@ -2337,7 +2337,7 @@
 			id: "6A61EF807432B96B"
 			tasks: [{
 				id: "53A5888DF2B04D6F"
-				item: "gtceu:anthracene_bucket"
+				item: "ctnhcore:anthracene_bucket"
 				type: "item"
 			}]
 			x: 30.5d
@@ -2349,7 +2349,7 @@
 			subtitle: "准备铀处"
 			tasks: [{
 				id: "241C611DE1657D6E"
-				item: "gtceu:piranha_solution_bucket"
+				item: "ctnhcore:piranha_solution_bucket"
 				type: "item"
 			}]
 			x: 32.0d
@@ -2390,7 +2390,7 @@
 			id: "6C89FED370C5B2E8"
 			tasks: [{
 				id: "62EB7BB683D58167"
-				item: "gtceu:cubic_zirconia_dust"
+				item: "ctnhcore:cubic_zirconia_dust"
 				type: "item"
 			}]
 			x: 35.0d
@@ -2401,7 +2401,7 @@
 			id: "0455B6876AA894D4"
 			tasks: [{
 				id: "22D083B9293DAD30"
-				item: "gtceu:zr_hf_oxy_chloride_bucket"
+				item: "ctnhcore:zr_hf_oxy_chloride_bucket"
 				type: "item"
 			}]
 			x: 35.0d
@@ -2412,7 +2412,7 @@
 			id: "733EB93565304647"
 			tasks: [{
 				id: "19D5261792EF4A65"
-				item: "gtceu:zr_hf_chloride_bucket"
+				item: "ctnhcore:zr_hf_chloride_bucket"
 				type: "item"
 			}]
 			x: 35.0d
@@ -2423,7 +2423,7 @@
 			tasks: [{
 				count: 16L
 				id: "56559BA731DD3FAB"
-				item: "gtceu:raw_zircon"
+				item: "ctnhcore:raw_zircon"
 				type: "item"
 			}]
 			x: 35.0d
