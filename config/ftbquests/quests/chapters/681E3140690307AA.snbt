@@ -1202,6 +1202,34 @@
 			x: -1.0d
 			y: 6.5d
 		}
+		{
+			dependencies: ["5BA86B01337A91D5"]
+			hide_until_deps_complete: false
+			id: "089191B244B51D6B"
+			invisible: true
+			rewards: [{
+				id: "0199DF9E68709A42"
+				item: {
+					Count: 1
+					id: "minecraft:soul_torch"
+					tag: {
+						display: {
+							Name: "{\"text\":\"加速火把\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "43CB5354C9599A9B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "???"
+			x: -1.0d
+			y: 12.5d
+		}
 	]
 	title: "原始人，起洞！！"
 }
