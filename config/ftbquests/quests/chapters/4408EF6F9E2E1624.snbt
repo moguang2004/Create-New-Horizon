@@ -1464,6 +1464,7 @@
 			description: ["你太能憋了"]
 			id: "61F811C645F2F3D5"
 			invisible: true
+			optional: true
 			rewards: [{
 				count: 64
 				id: "344D019D40392553"
