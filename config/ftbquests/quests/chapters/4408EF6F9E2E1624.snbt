@@ -1464,7 +1464,6 @@
 			description: ["你太能憋了"]
 			id: "61F811C645F2F3D5"
 			invisible: true
-			optional: true
 			rewards: [{
 				count: 64
 				id: "344D019D40392553"
@@ -1708,6 +1707,7 @@
 				"蓝火塑形：8预制钢粉→精炼铁方坯。"
 				"之后烧结窑是更好的手段（不过需要钢）。"
 			]
+			dependency_requirement: "one_completed"
 			id: "681330A347F7142A"
 			rewards: [{
 				count: 16
