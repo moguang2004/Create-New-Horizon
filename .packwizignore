@@ -111,5 +111,6 @@ config/*
 !config/gtmqol.json
 !config/openloader
 !config/krypton_hybrid-common.toml
+!config/krypton_hybrid.zdict
 
 /kubejs
