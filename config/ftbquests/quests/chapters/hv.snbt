@@ -1802,7 +1802,7 @@
 			rewards: [{
 				count: 16
 				id: "7953286E27812178"
-				item: "gtceu:litharge_dust"
+				item: "ctnhcore:litharge_dust"
 				type: "item"
 			}]
 			subtitle: "你富集了钌铑铱锇！现在可以开始着手处理它们了！"

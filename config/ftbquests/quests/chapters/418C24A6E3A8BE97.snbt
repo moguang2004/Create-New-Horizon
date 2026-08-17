@@ -140,7 +140,7 @@
 			id: "2DAA4FC70498126B"
 			rewards: [{
 				id: "218398BCF7C37C51"
-				item: "gtceu:clgs_buffer_dust"
+				item: "ctnhcore:clgs_buffer_dust"
 				type: "item"
 			}]
 			subtitle: "你需要物理气相沉积"

@@ -656,7 +656,7 @@
 				}
 				{
 					id: "6D325AB267087D1D"
-					item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
+					item: "ctnhcore:methylhydrazine_nitrate_rocket_fuel_bucket"
 					type: "item"
 				}
 			]
