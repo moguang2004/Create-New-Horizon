@@ -104,12 +104,12 @@
 	#If true, dictionary load failure is fatal for Zstd context creation.
 	#If false, Krypton falls back to plain Zstd and logs a warning.
 	#Default: false
-	dict_required = false
+	dict_required = true
 	#Capture serialized packet samples before Zstd compression for dictionary training.
 	#Only enable this temporarily while collecting representative traffic.
 	#Captured files may contain mod payload data. Do not publish them publicly.
 	#Default: false
-	dict_training_capture_enabled = true
+	dict_training_capture_enabled = false
 	#Directory where dictionary-training packet samples are written.
 	#Relative paths are resolved from the game working directory.
 	#Default: run/krypton_zstd_samples
@@ -118,7 +118,7 @@
 	#Capture stops automatically after this many samples.
 	#Range: 1 - 100000  |  Default: 12000
 	#Range: 1 ~ 100000
-	dict_training_max_samples = 12000
+	dict_training_max_samples = 65536
 	#Capture one eligible packet every N packets.
 	#Higher values reduce disk writes and sampling overhead.
 	#Range: 1 - 10000  |  Default: 3
@@ -170,9 +170,9 @@
 	#Decompression-bomb prevention for both ZLIB and ZSTD.
 	[security.decompression_guard]
 		#Range: > 1024
-		max_decompressed_bytes = 16777216
+		max_decompressed_bytes = 335544324
 		#Range: > 1
-		max_ratio = 100
+		max_ratio = 1024
 		#Range: > 0
 		min_compressed_bytes_for_ratio_check = 8
 
@@ -370,7 +370,7 @@
 [motion_delta]
 	#Enable motion and teleport delta filtering.
 	#Default: true
-	enabled = true
+	enabled = false
 	#Encoded motion-unit threshold per axis. Vanilla motion is velocity * 8000.
 	#Range: 0 - 8000  |  Default: 40
 	#Range: 0 ~ 8000
@@ -398,7 +398,7 @@
 	#Significantly reduces bandwidth for frequently-updating block
 	#entities (furnaces, hoppers, redstone components).
 	#Default: true
-	enabled = true
+	enabled = false
 
 #Proxy Compatibility
 #Controls how Krypton Hybrid interacts with reverse proxies
