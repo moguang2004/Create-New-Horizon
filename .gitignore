@@ -153,3 +153,4 @@ config/*
 !config/gtmqol.json
 !config/FTBLang
 !config/openloader
+!config/krypton_hybrid-common.toml

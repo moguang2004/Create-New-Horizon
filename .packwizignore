@@ -110,5 +110,6 @@ config/*
 !config/ali
 !config/gtmqol.json
 !config/openloader
+!config/krypton_hybrid-common.toml
 
 /kubejs

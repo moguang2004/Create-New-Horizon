@@ -1,0 +1,425 @@
+
+#Krypton Hybrid - Packet Compression
+#Select the compression algorithm used for all player connections.
+#IMPORTANT: BOTH the server and every connecting client must use the same
+#algorithm. Mismatched algorithms will immediately corrupt the session.
+[compression]
+	#Compression algorithm to use for network packets.
+	#  ZLIB  - vanilla zlib (DEFLATE). Always available. Minecraft default.
+	#  ZSTD  - Zstandard compression (zstd-jni, native). Best ratio; moderate CPU.
+	#Default: ZSTD
+	#Allowed Values: ZLIB, ZSTD
+	algorithm = "ZSTD"
+	#Zstd compression level (1 = fastest/largest, 22 = slowest/smallest).
+	#Only used when algorithm = ZSTD. Backed by zstd-jni (native).
+	#Level 3 is the zstd reference implementation default.
+	#Range: 1 – 22  |  Default: 3
+	#Range: 1 ~ 22
+	zstd_level = 3
+	#Zstd adaptive compression level for large payloads (1 = fastest/largest, 22 = slowest/smallest).
+	#Only used when algorithm = ZSTD and payload size exceeds the adaptive threshold.
+	#Backed by zstd-jni (native).
+	#Default: 11
+	#Range: 1 ~ 22
+	zstd_adaptive_large_level = 11
+	#Payload size (bytes) threshold for activating adaptive compression level.
+	#Only used when algorithm = ZSTD. Below this size, the regular compression
+	#level (zstd_level) is used. Above this size, the adaptive level
+	#(zstd_adaptive_large_level) is used.
+	#Default: 8192 (8 KB)
+	#Range: > 0
+	zstd_adaptive_large_threshold = 8192
+
+#Krypton Hybrid - Zstd Advanced / Parallel Compression
+#Fine-grained control over Zstd's native multi-threaded compression
+#and match-finding parameters.  These settings only take effect when
+#compression.algorithm = ZSTD.  Changes require a server restart
+#(new connections will use the updated values).
+#
+#WARNING: Misconfigured values can increase CPU usage or memory
+#consumption significantly.  The defaults are safe for all scenarios.
+[zstd_advanced]
+	#Number of native worker threads for parallel Zstd compression.
+	#0 = single-threaded (compression runs in the Netty I/O thread).
+	#Values >= 1 activate libzstd's multi-threaded mode: input data is
+	#split into jobs compressed in parallel by a per-connection native
+	#thread pool.  Useful when compressing large payloads (chunk data,
+	#recipe sync) on multi-core CPUs.
+	#
+	#Total native threads = workers ? active connections, so keep this
+	#low on high-player-count servers.
+	#Range: 0 – 128  |  Default: 0 (single-threaded)
+	#Range: 0 ~ 128
+	workers = 32
+	#Overlap log for multi-threaded compression.
+	#Controls how much context (dictionary data) each worker thread
+	#shares with the previous thread's output.  Higher values improve
+	#compression ratio but use more memory per job.
+	#Only meaningful when workers >= 1.
+	#overlap_size = 2^(overlapLog) KB.
+	#0 = auto (Zstd picks a value based on compression level).
+	#Range: 0 – 9  |  Default: 0
+	#Range: 0 ~ 9
+	overlap_log = 0
+	#Job size (bytes) for multi-threaded compression.
+	#Minimum input partition per worker thread.  Smaller values increase
+	#parallelism for small payloads but add scheduling overhead.
+	#Only meaningful when workers >= 1.
+	#0 = auto (Zstd selects based on compression level and overlap).
+	#Range: 0 (auto) or 512 – 1073741824  |  Default: 0
+	#Range: 0 ~ 1073741824
+	job_size = 0
+	#Enable Zstd long-distance matching (LDM).
+	#When true, Zstd searches for repeated byte sequences across a
+	#much larger window than the standard match finder.  Improves ratio
+	#for highly repetitive data (flat-world chunks, bulk NBT) at the
+	#cost of higher memory usage.
+	#Default: false
+	enable_long_distance_matching = true
+	#Window log for long-distance matching.
+	#Sets the LDM window size exponent: window = 2^windowLog bytes.
+	#Only used when enable_long_distance_matching = true.
+	#20 = 1 MB, 24 = 16 MB, 27 = 128 MB (Zstd default).
+	#For Minecraft traffic, 20–24 is usually sufficient.
+	#Range: 10 – 30  |  Default: 27
+	#Range: 10 ~ 30
+	long_distance_window_log = 27
+	#Zstd compression strategy (match-finding algorithm).
+	#Higher strategies find better matches but use more CPU.
+	#0 = auto (determined by compression level).
+	#1 = fast,  2 = dfast,  3 = greedy,  4 = lazy,  5 = lazy2,
+	#6 = btlazy2,  7 = btopt,  8 = btultra,  9 = btultra2.
+	#Values above 5 are NOT recommended for real-time game servers.
+	#Range: 0 – 9  |  Default: 0 (auto)
+	#Range: 0 ~ 9
+	strategy = 4
+	#Enable pre-trained Zstd dictionary compression.
+	#Both server and client must use the same dictionary file.
+	#Default: false
+	dict_enabled = true
+	#Path to the pre-trained dictionary file (.zdict).
+	#Relative paths are resolved from the game working directory.
+	#Default: config/krypton_hybrid.zdict
+	dict_path = "config/krypton_hybrid.zdict"
+	#If true, dictionary load failure is fatal for Zstd context creation.
+	#If false, Krypton falls back to plain Zstd and logs a warning.
+	#Default: false
+	dict_required = false
+	#Capture serialized packet samples before Zstd compression for dictionary training.
+	#Only enable this temporarily while collecting representative traffic.
+	#Captured files may contain mod payload data. Do not publish them publicly.
+	#Default: false
+	dict_training_capture_enabled = true
+	#Directory where dictionary-training packet samples are written.
+	#Relative paths are resolved from the game working directory.
+	#Default: run/krypton_zstd_samples
+	dict_training_samples_dir = "run/krypton_zstd_samples"
+	#Maximum packet samples captured in one JVM session.
+	#Capture stops automatically after this many samples.
+	#Range: 1 - 100000  |  Default: 12000
+	#Range: 1 ~ 100000
+	dict_training_max_samples = 12000
+	#Capture one eligible packet every N packets.
+	#Higher values reduce disk writes and sampling overhead.
+	#Range: 1 - 10000  |  Default: 3
+	#Range: 1 ~ 10000
+	dict_training_sample_every = 3
+	#Minimum serialized packet size captured for training.
+	#Very tiny packets usually add noise to dictionary training.
+	#Range: 1 - 1048576  |  Default: 24
+	#Range: 1 ~ 1048576
+	dict_training_min_bytes = 24
+	#Maximum serialized packet size captured for training.
+	#Caps sample-file size and memory copied by the recorder.
+	#Range: 1024 - 2097152  |  Default: 262144
+	#Range: 1024 ~ 2097152
+	dict_training_max_bytes = 262144
+
+#Krypton Hybrid - Network Security / Independent Packet Control
+#Protects the inbound network path without touching Velocity Native fast paths.
+#All checks run in the Minecraft / Forge layer and are designed to fail fast
+#before expensive decode, decompression, NBT, or gameplay processing begins.
+[security]
+	#Global security kill-switch.
+	#Default: true
+	enabled = true
+
+	#Connection-rate limiting and rapid reconnect protection.
+	[security.connection_rate_limit]
+		#Sustained connection attempts per second per IP.
+		#Range: 1 - 1000  |  Default: 8
+		#Range: 1 ~ 1000
+		rate = 8
+		#Burst capacity for new connections per IP.
+		#Range: 1 - 5000  |  Default: 20
+		#Range: 1 ~ 5000
+		burst = 20
+		#Quarantine duration after repeated connection abuse.
+		#Range: 0 - 3600  |  Default: 30
+		#Range: 0 ~ 3600
+		quarantine_seconds = 30
+		#Rapid reconnect detection window in milliseconds.
+		#Range: 0 - 60000  |  Default: 1500
+		#Range: 0 ~ 60000
+		rapid_reconnect_window_ms = 1500
+		#Extra connection tokens consumed on rapid reconnect.
+		#Range: 0 - 128  |  Default: 4
+		#Range: 0 ~ 128
+		rapid_reconnect_penalty = 4
+
+	#Decompression-bomb prevention for both ZLIB and ZSTD.
+	[security.decompression_guard]
+		#Range: > 1024
+		max_decompressed_bytes = 16777216
+		#Range: > 1
+		max_ratio = 100
+		#Range: > 0
+		min_compressed_bytes_for_ratio_check = 8
+
+	#Handshake/login timeout budgets.
+	[security.timeouts]
+		#Range: 1 ~ 300
+		handshake_sec = 5
+		#Range: 1 ~ 300
+		login_sec = 10
+		#Range: 1 ~ 3600
+		play_sec = 30
+
+	#Frame and logical payload size checks.
+	[security.packet_size]
+		#Range: > 1024
+		frame_max_bytes = 2097152
+		#Range: > 0
+		custom_payload_max_bytes = 131072
+		#Enable FriendlyByteBuf read-side hard limits (can break large mod custom payloads).
+		#Default: false
+		read_limits_enabled = false
+		#Range: > 1
+		string_max_chars = 32767
+		#Range: > 1
+		collection_max_elements = 16384
+		#Range: > 1
+		map_max_entries = 8192
+		#Range: > 1
+		counted_loop_max = 16384
+		#Range: > 1
+		byte_array_max_bytes = 2097152
+
+	#MOTD / Server List Ping cache and scan protection.
+	#These settings target server-list scanners and repeated status pings.
+	#They do not affect normal LOGIN connections.
+	[security.status_ping_guard]
+		#Cache serialized MOTD/status responses for a short time.
+		#This avoids rebuilding the JSON response for every server-list ping.
+		#Default: true
+		motd_cache_enabled = true
+		#MOTD/status cache time-to-live in milliseconds.
+		#Higher values reduce CPU during scans but make player count stale longer.
+		#0 disables caching even when motd_cache_enabled is true.
+		#Range: 0 - 60000  |  Default: 3000
+		#Range: 0 ~ 60000
+		motd_cache_ttl_ms = 3000
+		#Enable per-IP rate limiting for modern STATUS ping handshakes.
+		#This is separate from LOGIN rate limiting so server-list scans can be
+		#throttled without blocking real players as aggressively.
+		#Default: true
+		enabled = true
+		#Sustained STATUS pings per second per IP.
+		#Range: 1 - 1000  |  Default: 4
+		#Range: 1 ~ 1000
+		rate = 4
+		#Burst capacity for STATUS pings per IP.
+		#Range: 1 - 5000  |  Default: 8
+		#Range: 1 ~ 5000
+		burst = 8
+		#Temporary quarantine after repeated STATUS ping abuse.
+		#Range: 0 - 3600  |  Default: 15
+		#Range: 0 ~ 3600
+		quarantine_seconds = 15
+		#Silently close excessive STATUS ping connections.
+		#When true, scanners receive no status JSON and no disconnect message.
+		#Default: true
+		silent_drop = true
+		#Apply the same scan guard to legacy pre-1.7 ping packets.
+		#Default: true
+		legacy_query_guard_enabled = true
+
+	#Handshake protocol sanity checks.
+	[security.handshake_validation]
+		#Range: > 0
+		min_protocol = 3
+		#Range: > 0
+		max_protocol = 1100
+		#Range: 1 ~ 1024
+		max_address_length = 255
+
+	#Weighted anomaly response policy.
+	[security.anomaly]
+		#Range: 1 ~ 1000
+		strike_threshold = 10
+
+	#Write-side backpressure and slow-reader protection.
+	[security.resource_guard]
+		#Range: > 1024
+		watermark_low = 524288
+		#Range: > 1024
+		watermark_high = 2097152
+		#Range: > 1
+		max_pending_writes = 4096
+		#Range: 1 ~ 3600
+		max_unwritable_seconds = 15
+
+#Krypton Hybrid - Light Data Optimization
+#Reduces ClientboundLevelChunkWithLightPacket size by replacing uniform
+#DataLayer arrays (e.g. all-max sky-light sections) with 2-byte tokens.
+#Requires Krypton Hybrid on BOTH the server and every connecting client.
+[light_opt]
+	#Enable uniform-RLE encoding for light DataLayer arrays.
+	#Saves up to ~40 KB per chunk load in open-sky environments.
+	#Default: true
+	enabled = true
+
+#Krypton Hybrid - Chunk Data Optimization
+#Reduces ClientboundLevelChunkPacketData size by replacing NBT-based
+#heightmap serialization with compact binary + XOR-delta encoding, and
+#extracting biome data from the section buffer for single-value detection.
+#Requires Krypton Hybrid on BOTH the server and every connecting client.
+[chunk_data_opt]
+	#Enable biome delta encoding and heightmap compression.
+	#Heightmaps: compact binary format with XOR-delta (~40 bytes NBT overhead
+	#saved per chunk, plus significantly better compressibility for correlated
+	#heightmap data under Zstd/ZLIB).
+	#Biomes: single-value sections encoded as 2 bytes instead of 3+; biome
+	#data grouped for better cross-section compressor exploitation.
+	#Default: true
+	enabled = true
+
+#Delayed Chunk Cache (DCC)
+#Reduces redundant chunk resends when a player moves near the edge of
+#their view distance. Departing chunks are buffered; if the player
+#re-enters range within the timeout, the full resend is skipped.
+[dcc]
+	#Enable or disable the Delayed Chunk Cache entirely.
+	#Default: true
+	enabled = true
+	#Maximum number of chunks buffered per player.
+	#When full, new departing chunks are untracked immediately.
+	#Range: 1 – 200  |  Default: 60
+	#Range: 1 ~ 200
+	size_limit = 60
+	#Cache radius (chunks) around the player's current position.
+	#Cached chunks farther than this are evicted and untracked.
+	#Range: 1 – 32  |  Default: 5
+	#Range: 1 ~ 32
+	distance = 5
+	#Seconds before a cached chunk is forcibly evicted.
+	#Higher values improve hit rate; lower values reduce client memory.
+	#Range: 5 – 300  |  Default: 30
+	#Range: 5 ~ 300
+	timeout_seconds = 30
+
+#Broadcast Serialization Cache
+#Caches serialized packet bytes when the same Packet object is
+#broadcast to multiple players, avoiding redundant serialization.
+[broadcast_cache]
+	#Enable the broadcast serialization cache.
+	#Saves CPU by avoiding re-serialization of the same packet
+	#when broadcast to multiple players on the same Netty I/O thread.
+	#Default: true
+	enabled = true
+
+#Bundle Forced Compression
+#Lowers the compression threshold for sub-packets inside vanilla bundle
+#frames. The encoder still falls back to raw output when compression
+#would increase wire size.
+[bundle_compression]
+	#Force compression for bundle sub-packets above min_bytes.
+	#Best when Zstd dictionary compression is enabled.
+	#Default: true
+	always_compress = true
+	#Minimum uncompressed bundle sub-packet size before forced compression.
+	#Range: 1 - 4096  |  Default: 24
+	#Range: 1 ~ 4096
+	min_bytes = 24
+
+#Broadcast Compressed Cache
+#Caches post-compression wire bytes for large broadcast packets such as
+#chunk and light updates. This mainly saves CPU, and also keeps repeated
+#broadcast output stable across recipients on the same Netty thread.
+[broadcast_compressed_cache]
+	#Enable compressed-byte broadcast caching.
+	#Default: true
+	enabled = true
+
+#Cross-tick Micro-batch Flush
+#Defers the end-of-tick flush by a few milliseconds to coalesce writes
+#from adjacent broadcast phases. This reduces syscall pressure and may
+#improve compression grouping at the cost of small added latency.
+[micro_batch_flush]
+	#Enable deferred micro-batch flush.
+	#Default: false
+	enabled = false
+	#Deferred flush delay in milliseconds.
+	#Range: 1 - 20  |  Default: 5
+	#Range: 1 ~ 20
+	delay_ms = 5
+
+#Motion and Teleport Delta Filter
+#Drops redundant motion and teleport packets when the encoded delta is
+#below a visual threshold for the same entity/player pair.
+[motion_delta]
+	#Enable motion and teleport delta filtering.
+	#Default: true
+	enabled = true
+	#Encoded motion-unit threshold per axis. Vanilla motion is velocity * 8000.
+	#Range: 0 - 8000  |  Default: 40
+	#Range: 0 ~ 8000
+	motion_threshold = 40
+	#Squared block-distance threshold for redundant teleport packets.
+	#Range: 0.0 - 1.0  |  Default: 1.0E-4
+	#Range: 0.0 ~ 1.0
+	teleport_delta_squared = 1.0E-4
+
+#Packet Coalescing
+#Deduplicates redundant entity update packets within each tick's
+#bundle before sending.  Removes superseded velocity, teleport,
+#and entity data packets for the same entity.
+[packet_coalescing]
+	#Enable packet coalescing within entity tracking bundles.
+	#Default: true
+	enabled = true
+
+#Block Entity NBT Delta Sync
+#Reduces block entity data packet size by sending only changed NBT
+#keys instead of the full tag.  Requires Krypton Hybrid on BOTH
+#the server and every connecting client.
+[block_entity_delta]
+	#Enable per-player NBT delta encoding for block entity updates.
+	#Significantly reduces bandwidth for frequently-updating block
+	#entities (furnaces, hoppers, redstone components).
+	#Default: true
+	enabled = true
+
+#Proxy Compatibility
+#Controls how Krypton Hybrid interacts with reverse proxies
+#(e.g. Velocity). When behind a proxy, certain optimizations must
+#be disabled or gated to preserve proxy compatibility.
+[proxy]
+	#Proxy detection mode.
+	#  NONE     - No proxy; all optimizations active (direct connection).
+	#  AUTO     - Auto-detect Velocity via login plugin channel.
+	#             When detected, forces ZLIB on backend and gates custom
+	#             wire formats behind capability negotiation.
+	#  VELOCITY - Assume Velocity proxy; always use ZLIB backend
+	#             compression and gate custom wire formats.
+	#Default: NONE
+	#Allowed Values: NONE, AUTO, VELOCITY
+	mode = "NONE"
+	#Shared secret for Velocity Modern Forwarding.
+	#Must match the forwarding-secret in Velocity's velocity.toml.
+	#When non-empty and mode is AUTO or VELOCITY, the server will
+	#verify connecting players via HMAC-SHA256 signed forwarding data.
+	#Leave empty to disable modern forwarding (heuristic detection only).
+	#Default: (empty)
+	forwarding_secret = ""
+

@@ -905,6 +905,10 @@ file = "config/jade/sort-order.json"
 hash = "2f6810f507a877ffd0f71125daafee89e95e02b23ab2397b38f56a2b526a2595"
 
 [[files]]
+file = "config/krypton_hybrid-common.toml"
+hash = "59e401f9d9270638a9587130deb28361900403b90fe7efc089b6a46148c1b96d"
+
+[[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
 hash = "552b08fe4627a38173aa2f7317c93561d31fc0b0ad96c6949ed8d7d2ec038e49"
 
