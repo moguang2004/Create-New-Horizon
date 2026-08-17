@@ -1,13 +1,13 @@
 name = "Krypton Hybrid"
-filename = "Krypton Hybrid-forge-1.20.1-0.2.30.jar"
+filename = "Krypton Hybrid-1.20.1-forge-0.2.33.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e934ec9747604bfd104cebede25a69bc00e1e8fc"
+hash = "485d75aca3e4dc636c514abd59d02c33c140eecf"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7833281
+file-id = 8101864
 project-id = 1474749
