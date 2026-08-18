@@ -57,6 +57,12 @@
 			x: -20.5d
 			y: 26.0d
 		}
+		{
+			id: "5F6B43AECB65CB0B"
+			linked_quest: "47477F45269D6DB4"
+			x: -27.5d
+			y: 23.5d
+		}
 	]
 	quests: [
 		{
@@ -703,8 +709,12 @@
 			y: 26.0d
 		}
 		{
-			dependencies: ["36968F23015BC87A"]
+			dependencies: [
+				"36968F23015BC87A"
+				"47477F45269D6DB4"
+			]
 			description: ["{    独属于你的虚空世界}"]
+			hide_dependency_lines: false
 			id: "25DAE6D032C050D7"
 			rewards: [{
 				exclude_from_claim_all: true
