@@ -25,6 +25,10 @@ file = "config/ModernUI/D-DIN-PRO-900-Heavy.ttf"
 hash = "fc58da2038fd28ae86c2a2c44c5bdd64b7ca22f972cd1f9234ffd43254751ddd"
 
 [[files]]
+file = "config/ModernUI/JetBrainsMapleMono-SemiBold.ttf"
+hash = "307c3e63374c4a5abeb7ba8185db09931531ce60c23fa3d191dc4a52441cf755"
+
+[[files]]
 file = "config/ModernUI/MFJH.ttf"
 hash = "15c74a64a3e425e87af9d3cbb5e6b20ac31216372c27d52405041abe508826c6"
 
@@ -38,7 +42,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/ModernUI/client.toml"
-hash = "904da4aea735db46df2d1e02193eb291c5e3a54158e723c5e3a006122e85133c"
+hash = "11dd28dccb8d68f148366ce1df328c8493e3ee3847792a4d270f8f029620fe59"
 
 [[files]]
 file = "config/ModernUI/common.toml"
@@ -686,7 +690,7 @@ hash = "1770f2598b6198f5f0b6a3c1eb08f80a21fb95f6495750039d0f75729ae19aaf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/21875E2B94FA20FF.snbt"
-hash = "b72e6870e33d059e5902d090deb62dca7aa3198fce683400aa7c1787dc509d64"
+hash = "6e74e9787f8c9b2d370720036f0613750da7a777b983dcd9bd9d2aa6e16e913a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2C8B1E40224C9A0C.snbt"
@@ -702,7 +706,7 @@ hash = "15ae55d2d84a33071739adc50e12dbb5d4890a710c46c1ec6f4d643542098fae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/418C24A6E3A8BE97.snbt"
-hash = "e89a820ec88c114c72d2a632379cf6d5361179fdb55643cab3139f73ff548265"
+hash = "36dfc51cfe0b723705da331d9b4324c9136b38aed7d708f013d9e75a8f162b76"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
@@ -710,7 +714,7 @@ hash = "c94c8e57739e1251db81ed8fdff8c30c826555dc7c908eb5fbd6c2dd5acd756c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
-hash = "d63347f9e8c236b9922af0affecab3d4343cbbe4e97b094f4116618776fe206d"
+hash = "6c446fb8451ca0f6e74c18b2d75d6cd8c5bffacc7948e9fc33ed40c3a8b85897"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4A4420704BDBEA5D.snbt"
@@ -742,7 +746,7 @@ hash = "16288c2312a52518eec5453fb3ea3f3414e78ed21fa4fef9336be38478fccfce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/71282A84EFB2E6DD.snbt"
-hash = "27ae33fdd44d145ab9257dba1065a21b2f381143abfa2c43906c6a00e7ac9963"
+hash = "f34243b4e39f973ce904a76cd933560dcb6e286ed4dd95dee13bec604f70c065"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/74D640CFCA75E891.snbt"
@@ -754,7 +758,7 @@ hash = "6355885741581b007a4b45c87179204787ae2a2eef96a87faadb004b487b4f13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/botania.snbt"
-hash = "2a15f9fc91d99b0892c71c29083ec6ea2fedf79c5071d8fd4721e3f1df483bae"
+hash = "78f05b7df16ed23e6bbecc581ae523c0699f9c169753e5cb8526608f53773ce3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
@@ -762,15 +766,15 @@ hash = "a3dd29911a0476fb8fd093e9b53aa60590f1aa8f9f2419759fb3dd800c254559"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "856d782010a18929f86736cd80108bdcc30a5dffd9d087d80a377427a2602bf3"
+hash = "97382254aea44916708ef2c64b46665e4a7b9bb54836a0b363c6c439e4d95a46"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
-hash = "860ced42307c6eac83c255b91d4c0623ca2b4433b7040fffba08ecefac1ab96a"
+hash = "139b93b903f285db84904e929bb84192901aa6ad673a495ef4010b6e0e28b6f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
-hash = "650cc5531a2878b48154cb2a7542a4d75bb4df8bfa56fc48a73b75461297ae67"
+hash = "b949fe516f1649f41c03969a1062ecaf45e0808d3b0c03bb459dec0caeaa1b8c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
@@ -778,7 +782,7 @@ hash = "b7a64123d00c1727730a7c8a7b82de45b64a3218bb809a042c81b53078c3a15b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "c03ba03a05036ec1e46c5e1bc4ed484c8a73f833417f02e9b0867aa7cc56e670"
+hash = "b48e6daf6c5374608ee5a50ed77abc0c2bd9aaea24658259da6ee5944dab649f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/too_many_items.snbt"
@@ -906,7 +910,11 @@ hash = "2f6810f507a877ffd0f71125daafee89e95e02b23ab2397b38f56a2b526a2595"
 
 [[files]]
 file = "config/krypton_hybrid-common.toml"
-hash = "59e401f9d9270638a9587130deb28361900403b90fe7efc089b6a46148c1b96d"
+hash = "abfe491e67b40f161726c8f0a9346c99a8f4440a410fa3be856bb461e292e0a8"
+
+[[files]]
+file = "config/krypton_hybrid.zdict"
+hash = "6856d82e3a75dff73a422b8824e5f0402212f3c139038e661b2269217927e079"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
@@ -958,15 +966,15 @@ hash = "1df9a00ac318069a6f073c5d3d2cc3fe3d6ec60cbafabc41de7412ffd99ede8c"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ae2/loot_tables/blocks/large_quartz_bud.json"
-hash = "ff894c6811709d90905b941a96c9844208fdf65d219640c1d9eb3106b4a913ff"
+hash = "67b8f87f6f4894649f1d7e80d04d78eb304423568648a9e895515a2b1b2685c5"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ae2/loot_tables/blocks/medium_quartz_bud.json"
-hash = "fb59bf48693e913207154f8b77c0aedce1621c04e02475f46c05d37226e84d50"
+hash = "7062c93be55e50b34858d3425658a5f563e71e604410d1735015f25a3cc880ea"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ae2/loot_tables/blocks/small_quartz_bud.json"
-hash = "1beefd37c07ff36731e2e86a1a8b5a8719bb5f0a40ad516adaeb091bb8677c38"
+hash = "91ef3a3f2878174883f6ee38fcf8fb1f1a5ebed90e09083a9e6228d816d41e45"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ae2cs/worldgen/configured_feature/certus_quartz_ore.json"
@@ -9502,7 +9510,7 @@ hash = "49e2c62461c14812576ffebc5c761f0203604a3028db44bf9913602da69400a4"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip"
-hash = "34890722d3bd5a9f23277a77b5c7b9dfa5f025b4884b9ec376a663fc6ec5eba8"
+hash = "2e3ce1e1b570d9f993fe616384c47172c9cd4b4c7ad41285ae9018ab2267fc8b"
 
 [[files]]
 file = "schematics/三阶工业血之祭坛.nbt"
