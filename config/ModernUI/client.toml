@@ -107,7 +107,7 @@
 	forceRtl = false
 	#The global font scale used with sp units.
 	#Range: 0.5 ~ 2.0
-	fontScale = 1.0
+	fontScale = 1.100000023841858
 	#Default scrollbar size in dips.
 	#Range: 0 ~ 1024
 	scrollbarSize = 8
@@ -139,7 +139,7 @@
 #Font Config
 [font]
 	#The first font family to use. See fallbackFontFamilyList
-	firstFontFamily = "Source Han Sans CN Medium"
+	firstFontFamily = ".\\config\\ModernUI\\JetBrainsMapleMono-SemiBold.ttf"
 	#A set of fallback font families to determine the typeface to use.
 	#The order is first > fallbacks. TrueType & OpenType are supported.
 	#Each element can be one of the following two cases:

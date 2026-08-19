@@ -1315,7 +1315,7 @@
 			subtitle: "奇怪的材料"
 			tasks: [{
 				id: "0A8E831211B406F1"
-				item: "gtceu:coagulbloodgold_ingot"
+				item: "ctnhmana:coagulbloodgold_ingot"
 				type: "item"
 			}]
 			x: 2.0d
@@ -1334,7 +1334,7 @@
 			rewards: [{
 				count: 64
 				id: "236A8F4194A008A6"
-				item: "gtceu:coagulbloodgold_ingot"
+				item: "ctnhmana:coagulbloodgold_ingot"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1410,13 +1410,13 @@
 			rewards: [{
 				count: 16
 				id: "1E2C3D94EAD9A29C"
-				item: "gtceu:hemoplatinum_ingot"
+				item: "ctnhmana:hemoplatinum_ingot"
 				type: "item"
 			}]
 			subtitle: "听起来像血泊"
 			tasks: [{
 				id: "015A3FCAFF64363D"
-				item: "gtceu:hemoplatinum_ingot"
+				item: "ctnhmana:hemoplatinum_ingot"
 				type: "item"
 			}]
 			x: 2.0d
@@ -1626,7 +1626,7 @@
 			subtitle: "超级LUV导线，至于超导，那12EU的损耗真的有必要节省吗("
 			tasks: [{
 				id: "45310986E450AC67"
-				item: "gtceu:primovolithest_ingot"
+				item: "ctnhmana:primovolithest_ingot"
 				type: "item"
 			}]
 			x: 12.0d
@@ -1741,7 +1741,7 @@
 			subtitle: "不，才刚刚开始"
 			tasks: [{
 				id: "350581CEDDCCB3D4"
-				item: "gtceu:zenith_essence_bucket"
+				item: "ctnhmana:zenith_essence_bucket"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1866,7 +1866,7 @@
 			subtitle: "为什么没办法将它蚀刻？"
 			tasks: [{
 				id: "6716806C4AD0A44D"
-				item: "gtceu:psionic_medulla_gem"
+				item: "ctnhmana:psionic_medulla_gem"
 				type: "item"
 			}]
 			x: 8.0d

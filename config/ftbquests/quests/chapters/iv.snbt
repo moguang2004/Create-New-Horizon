@@ -127,7 +127,7 @@
 				}
 				{
 					id: "35FDF8451154B2C8"
-					item: "gtceu:dense_hydrazine_mixed_fuel_bucket"
+					item: "ctnhcore:dense_hydrazine_mixed_fuel_bucket"
 					type: "item"
 				}
 			]
@@ -936,7 +936,7 @@
 			id: "12B29F2D149B5865"
 			tasks: [{
 				id: "3A59BECF540253E3"
-				item: "gtceu:rare_earth_mixture_oh_bucket"
+				item: "ctnhcore:rare_earth_mixture_oh_bucket"
 				type: "item"
 			}]
 			x: -7.0d
@@ -952,7 +952,7 @@
 			subtitle: "你依旧有两种选择"
 			tasks: [{
 				id: "76FBA884D6A1155A"
-				item: "gtceu:rare_earth_chloride_solution_bucket"
+				item: "ctnhcore:rare_earth_chloride_solution_bucket"
 				type: "item"
 			}]
 			x: -5.5d
@@ -963,7 +963,7 @@
 			id: "6B022C0DA9100DA4"
 			tasks: [{
 				id: "59EAFC63AA548062"
-				item: "gtceu:rare_earth_chloride_boil_bucket"
+				item: "ctnhcore:rare_earth_chloride_boil_bucket"
 				type: "item"
 			}]
 			x: -4.0d
@@ -977,7 +977,7 @@
 			id: "7459A5BE2474299F"
 			tasks: [{
 				id: "0467D85E4E98B4A7"
-				item: "gtceu:rare_earth_crystals_dust"
+				item: "ctnhcore:rare_earth_crystals_dust"
 				type: "item"
 			}]
 			x: -2.0d
@@ -989,12 +989,12 @@
 			tasks: [
 				{
 					id: "7C31A8C5D18A22A8"
-					item: "gtceu:rare_earth_high_affinity_bucket"
+					item: "ctnhcore:rare_earth_high_affinity_bucket"
 					type: "item"
 				}
 				{
 					id: "66932C07D8DB610B"
-					item: "gtceu:rare_earth_low_affinty_bucket"
+					item: "ctnhcore:rare_earth_low_affinty_bucket"
 					type: "item"
 				}
 			]
@@ -1010,7 +1010,7 @@
 			id: "50082206B32FD567"
 			tasks: [{
 				id: "53A425186EAEB174"
-				item: "gtceu:rare_earth_high_dust"
+				item: "ctnhcore:rare_earth_high_dust"
 				type: "item"
 			}]
 			x: -1.0d
@@ -1024,7 +1024,7 @@
 			id: "641CDB640F9C7234"
 			tasks: [{
 				id: "6F981DC3B53D0CFE"
-				item: "gtceu:rare_earth_middle_dust"
+				item: "ctnhcore:rare_earth_middle_dust"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1038,7 +1038,7 @@
 			id: "2823DB2D144AA9E5"
 			tasks: [{
 				id: "68DAC97D9E369297"
-				item: "gtceu:rare_earth_low_dust"
+				item: "ctnhcore:rare_earth_low_dust"
 				type: "item"
 			}]
 			x: 1.0d
@@ -1052,7 +1052,7 @@
 			id: "46DE226BC1554369"
 			tasks: [{
 				id: "07D36B9A4F305E89"
-				item: "gtceu:rare_earth_high_fluoride_bucket"
+				item: "ctnhcore:rare_earth_high_fluoride_bucket"
 				type: "item"
 			}]
 			x: -1.0d
@@ -1066,7 +1066,7 @@
 			id: "2D9A92A48E5B7EED"
 			tasks: [{
 				id: "488CA624535CF9B9"
-				item: "gtceu:rare_earth_middle_fluoride_bucket"
+				item: "ctnhcore:rare_earth_middle_fluoride_bucket"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1080,7 +1080,7 @@
 			id: "3D0CFCF369A86C0A"
 			tasks: [{
 				id: "6E1FBFA487DBC60D"
-				item: "gtceu:rare_earth_low_fluoride_bucket"
+				item: "ctnhcore:rare_earth_low_fluoride_bucket"
 				type: "item"
 			}]
 			x: 1.0d
@@ -1094,7 +1094,7 @@
 			id: "045E7576495E3012"
 			tasks: [{
 				id: "14003A1E9BCCCE05"
-				item: "gtceu:rare_earth_low_fluoride_steam_bucket"
+				item: "ctnhcore:rare_earth_low_fluoride_steam_bucket"
 				type: "item"
 			}]
 			x: 1.0d
@@ -1108,7 +1108,7 @@
 			id: "08F6ED9546D2B275"
 			tasks: [{
 				id: "0736D1383971505C"
-				item: "gtceu:rare_earth_middle_fluoride_steam_bucket"
+				item: "ctnhcore:rare_earth_middle_fluoride_steam_bucket"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1122,7 +1122,7 @@
 			id: "09A053412B602BAF"
 			tasks: [{
 				id: "39C601FC6BC51EF0"
-				item: "gtceu:rare_earth_high_fluoride_steam_bucket"
+				item: "ctnhcore:rare_earth_high_fluoride_steam_bucket"
 				type: "item"
 			}]
 			x: -1.0d
@@ -1138,17 +1138,17 @@
 			tasks: [
 				{
 					id: "2CE2651DF8B610D2"
-					item: "gtceu:lanthanum_cerium_praseodymium_neodymium_oxygen_mixture_dust"
+					item: "ctnhcore:lanthanum_cerium_praseodymium_neodymium_oxygen_mixture_dust"
 					type: "item"
 				}
 				{
 					id: "2B8728D7D65651E2"
-					item: "gtceu:europium_gadolinium_terbium_dysprosium_oxygen_mixture_dust"
+					item: "ctnhcore:europium_gadolinium_terbium_dysprosium_oxygen_mixture_dust"
 					type: "item"
 				}
 				{
 					id: "514D7C8BCA1F80CA"
-					item: "gtceu:yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture_dust"
+					item: "ctnhcore:yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture_dust"
 					type: "item"
 				}
 			]
@@ -1162,17 +1162,17 @@
 			tasks: [
 				{
 					id: "4FE7D67642E69C63"
-					item: "gtceu:lan_cer_pra_neo_chloride_dust"
+					item: "ctnhcore:lan_cer_pra_neo_chloride_dust"
 					type: "item"
 				}
 				{
 					id: "6B6AB5CA0A349CB1"
-					item: "gtceu:eur_gado_ter_dyspr_chloride_dust"
+					item: "ctnhcore:eur_gado_ter_dyspr_chloride_dust"
 					type: "item"
 				}
 				{
 					id: "00B57E875B18C1FA"
-					item: "gtceu:ytt_hol_erb_thu_ytt_chloride_dust"
+					item: "ctnhcore:ytt_hol_erb_thu_ytt_chloride_dust"
 					type: "item"
 				}
 			]
@@ -1828,7 +1828,7 @@
 			id: "0A6D5DF8602DAB82"
 			tasks: [{
 				id: "1215B9877DA85164"
-				item: "gtceu:ancient_debris_leach_bucket"
+				item: "ctnhcore:ancient_debris_leach_bucket"
 				type: "item"
 			}]
 			x: -5.5d

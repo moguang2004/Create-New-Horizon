@@ -1004,7 +1004,7 @@
 			subtitle: "你未来漫长产线的开始"
 			tasks: [{
 				id: "67EB3173B5782C28"
-				item: "gtceu:raw_fused_mana"
+				item: "ctnhmana:raw_fused_mana"
 				type: "item"
 			}]
 			x: 31.5d
@@ -1558,7 +1558,7 @@
 			rewards: [
 				{
 					id: "4EC4BEC5F67986CD"
-					item: "gtceu:orichalcos_hex_wire"
+					item: "ctnhmana:orichalcos_hex_wire"
 					type: "item"
 				}
 				{
@@ -1668,7 +1668,7 @@
 				}
 				{
 					id: "075F5B09310C06E5"
-					item: "gtceu:flawed_psionic_medulla_gem"
+					item: "ctnhmana:flawed_psionic_medulla_gem"
 					type: "item"
 				}
 				{
@@ -2344,13 +2344,13 @@
 			id: "4DA0894979A116D8"
 			rewards: [{
 				id: "1BCFE65E47DEAF31"
-				item: "gtceu:mana_bucket"
+				item: "ctnhmana:mana_bucket"
 				type: "item"
 			}]
 			subtitle: "一种完美的通用魔力"
 			tasks: [{
 				id: "08DB1EEDB17F87D8"
-				item: "gtceu:mana_bucket"
+				item: "ctnhmana:mana_bucket"
 				type: "item"
 			}]
 			title: "液态魔力？？？"

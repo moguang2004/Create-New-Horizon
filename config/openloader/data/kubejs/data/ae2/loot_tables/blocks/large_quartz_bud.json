@@ -33,7 +33,7 @@
                     "condition": "minecraft:survives_explosion"
                   }
                 ],
-                "name": "gtceu:certus_quartz_dust"
+                "name": "ae2:certus_quartz_dust"
               }
             ]
           }

@@ -15,7 +15,7 @@
 			subtitle: "于是，一切开始了"
 			tasks: [{
 				id: "4B1C978179A1CACE"
-				item: "gtceu:zenith_essence_bucket"
+				item: "ctnhmana:zenith_essence_bucket"
 				type: "item"
 			}]
 			x: -14.5d
@@ -80,7 +80,7 @@
 			id: "2081EBC6D5084C16"
 			rewards: [{
 				id: "39700F6A99670BE3"
-				item: "gtceu:tiny_psionic_medulla_dust"
+				item: "ctnhmana:tiny_psionic_medulla_dust"
 				type: "item"
 			}]
 			tasks: [{
@@ -111,7 +111,7 @@
 				}
 				{
 					id: "3E22931BF5FF479C"
-					item: "gtceu:psionic_medulla_gem"
+					item: "ctnhmana:psionic_medulla_gem"
 					type: "item"
 				}
 				{
@@ -121,7 +121,7 @@
 				}
 				{
 					id: "7E1A297EAEDCA4B2"
-					item: "gtceu:plus_mana_ingot"
+					item: "ctnhmana:plus_mana_ingot"
 					type: "item"
 				}
 			]
@@ -134,7 +134,7 @@
 			id: "265153F5BC2D65C7"
 			tasks: [{
 				id: "7E0F26606E298F2D"
-				item: "gtceu:fused_mixed_mana_dust"
+				item: "ctnhmana:fused_mixed_mana_dust"
 				type: "item"
 			}]
 			x: -16.5d
@@ -157,7 +157,7 @@
 			id: "5AFBBD16A749DC2C"
 			tasks: [{
 				id: "3D05BB162C58CF18"
-				item: "gtceu:fused_lp_mixed_mana_dust"
+				item: "ctnhmana:fused_lp_mixed_mana_dust"
 				type: "item"
 			}]
 			x: -14.5d
@@ -168,7 +168,7 @@
 			id: "429ADDFA4B45015A"
 			tasks: [{
 				id: "70F29C243CFCD1BD"
-				item: "gtceu:fused_demon_mixed_dust"
+				item: "ctnhmana:fused_demon_mixed_dust"
 				type: "item"
 			}]
 			x: -12.5d
@@ -184,7 +184,7 @@
 			subtitle: "「Hana」"
 			tasks: [{
 				id: "424971E26111B944"
-				item: "gtceu:plus_mana_ingot"
+				item: "ctnhmana:plus_mana_ingot"
 				type: "item"
 			}]
 			x: -14.0d
@@ -195,7 +195,7 @@
 			subtitle: "「Dool 」"
 			tasks: [{
 				id: "2A14D1CB06F3389C"
-				item: "gtceu:unstable_plus_mana_dust"
+				item: "ctnhmana:unstable_plus_mana_dust"
 				type: "item"
 			}]
 			x: -11.0d
@@ -207,7 +207,7 @@
 			subtitle: "「Trois」"
 			tasks: [{
 				id: "3EB35506186C274B"
-				item: "gtceu:infused_plus_mana_dust"
+				item: "ctnhmana:infused_plus_mana_dust"
 				type: "item"
 			}]
 			x: -9.5d
@@ -219,7 +219,7 @@
 			subtitle: "「Net」"
 			tasks: [{
 				id: "21418ADAC287D19B"
-				item: "gtceu:stable_plus_mana_dust"
+				item: "ctnhmana:stable_plus_mana_dust"
 				type: "item"
 			}]
 			x: -8.0d
@@ -231,7 +231,7 @@
 			subtitle: "「Dasot」"
 			tasks: [{
 				id: "3AD4DAC8E3950A8F"
-				item: "gtceu:super_plus_mana_dust"
+				item: "ctnhmana:super_plus_mana_dust"
 				type: "item"
 			}]
 			x: -6.5d
@@ -243,7 +243,7 @@
 			subtitle: "「Six」"
 			tasks: [{
 				id: "2B0CAD5A27E1F77F"
-				item: "gtceu:unknown_super_mana_dust"
+				item: "ctnhmana:unknown_super_mana_dust"
 				type: "item"
 			}]
 			title: "「無我夢中」"
@@ -256,7 +256,7 @@
 			subtitle: "[ilgop]"
 			tasks: [{
 				id: "0792A39277BBE162"
-				item: "gtceu:twist_mana_dust"
+				item: "ctnhmana:twist_mana_dust"
 				type: "item"
 			}]
 			title: "「阿鼻叫喚」"
@@ -269,7 +269,7 @@
 			subtitle: "「Yodul」"
 			tasks: [{
 				id: "6B6854B7A7BA153C"
-				item: "gtceu:twist_power_mana_dust"
+				item: "ctnhmana:twist_power_mana_dust"
 				type: "item"
 			}]
 			title: "「Apuro—Hana」"
@@ -357,7 +357,7 @@
 			subtitle: "「苦痛啊，你是我的唯一」"
 			tasks: [{
 				id: "1185CE36AC4D5446"
-				item: "gtceu:ultra_mana_ingot"
+				item: "ctnhmana:ultra_mana_ingot"
 				type: "item"
 			}]
 			title: "Furioso-[Crescendo]"
@@ -520,7 +520,7 @@
 			subtitle: "超级魔法的力量让你可以蚀刻这个宝石"
 			tasks: [{
 				id: "51E8E7F5C23CB88D"
-				item: "gtceu:flawless_psionic_medulla_gem"
+				item: "ctnhmana:flawless_psionic_medulla_gem"
 				type: "item"
 			}]
 			x: -14.5d

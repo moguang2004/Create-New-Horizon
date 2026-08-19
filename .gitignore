@@ -155,3 +155,4 @@ config/*
 !config/openloader
 !config/krypton_hybrid-common.toml
 !config/krypton_hybrid.zdict
+dsh-usage/usage-records.json
