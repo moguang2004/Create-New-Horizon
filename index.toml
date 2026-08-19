@@ -570,7 +570,7 @@ hash = "8307b6e5ef8b9f42a4cb88595a2df2650772e4e85d80636825ee5dd6b4f8e561"
 
 [[files]]
 file = "config/fancymenu/config.txt"
-hash = "a19fe424491165624f8ab079ceba2c557df73dbe17ee87b578af0885ab925845"
+hash = "10723bc8c892aa87f1f6859874221788189b0bf3e26f2f7202fd54e2539f4076"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -902,11 +902,11 @@ hash = "db1a46802bbbe9b0723308c1413ecee26b816d6e200de5c8b00fefc3812a0f17"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "0520e169b921e4feb764409b8d52a9556d76f4260d05465c4edfb5e704b8559e"
+hash = "3ee562f4939ca84bbdbe198fe152d66819f395ae107be1b23aa2ffa7deea07c1"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "2f6810f507a877ffd0f71125daafee89e95e02b23ab2397b38f56a2b526a2595"
+hash = "042c0f7d2f71b4a4b67293909a6d5989f32e3ba32320bac04294dd80ea1fbd2f"
 
 [[files]]
 file = "config/krypton_hybrid-common.toml"
@@ -3327,6 +3327,10 @@ hash = "01ad27d5f5bccfe59e6a899631e5fa63cc0f3b6fccd70151da635315b01472ea"
 [[files]]
 file = "config/openloader/data/kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/yellow_tea.json"
 hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/forge/tags/items/dusts/quartz.json"
+hash = "e3ec7e2613e48f04c1ec2766622cf88c57efb89e00eaa8e27671db2b0a4cb399"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/forge/tags/items/storage_blocks/neodymium.json"
