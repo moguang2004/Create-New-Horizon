@@ -1,0 +1,13 @@
+name = "GregTech-Construct"
+filename = "GregTech-Construct-3.11.2.180-CTNH-Version.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "195e244a0c7abdcf376147d4e1fe1964b3dcd091"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8692187
+project-id = 1313873
