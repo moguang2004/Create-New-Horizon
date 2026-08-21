@@ -8,7 +8,7 @@ B:force_fullscreen = 'false';
 ##[customization]
 
 B:modpack_mode = 'false';
-B:show_customization_overlay = 'false';
+B:show_customization_overlay = 'true';
 B:advanced_customization_mode = 'false';
 
 
@@ -24,11 +24,11 @@ B:game_intro_fade_out = 'true';
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '';
-S:custom_window_icon_32 = '';
-S:custom_window_title = '';
-S:custom_window_icon_16 = '';
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_macos = '/config/fancymenu/assets/titlemac.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/title32.png';
+S:custom_window_title = 'Create: New Horizon';
+S:custom_window_icon_16 = '/config/fancymenu/assets/title16.png';
 
 
 ##[multiplayer_screen]
