@@ -8409,10 +8409,6 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "434840d99ab6a029d1421738b1320c619b6cf8d4e07dba66785c9a89441acc7f"
 
 [[files]]
-file = "dsh-usage/usage-records.json"
-hash = "b214d1b5f283fedc3bca971720208396aeb8cd9fc628aa28b765fb4db6428c46"
-
-[[files]]
 file = "mods/achievements-optimizer.pw.toml"
 hash = "821a8482e972a296f6e242d254631ffd7fe948652d041511a25d0fed3aec5272"
 metafile = true
