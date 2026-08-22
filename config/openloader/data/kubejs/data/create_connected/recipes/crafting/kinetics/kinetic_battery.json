@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "create_connected:feature_enabled",
+          "feature": "create_connected:kinetic_battery"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "b": {
+            "item": "create:brass_casing"
+          },
+          "i": {
+            "item": "gtceu:iron_plate"
+          },
+          "p": {
+            "item": "create:precision_mechanism"
+          },
+          "r": {
+            "item": "minecraft:redstone"
+          }
+        },
+        "pattern": [
+          " p ",
+          " b ",
+          "iri"
+        ],
+        "result": {
+          "count": 8,
+          "item": "create_connected:kinetic_battery"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

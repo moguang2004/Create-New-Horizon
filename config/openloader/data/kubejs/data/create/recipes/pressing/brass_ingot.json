@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/brass"
+    }
+  ],
+  "results": [
+    {
+      "item": "gtceu:brass_plate"
+    }
+  ]
+}

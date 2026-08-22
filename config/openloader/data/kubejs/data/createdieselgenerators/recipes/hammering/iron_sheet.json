@@ -1,0 +1,13 @@
+{
+  "type": "createdieselgenerators:hammering",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "gtceu:iron_plate"
+    }
+  ]
+}

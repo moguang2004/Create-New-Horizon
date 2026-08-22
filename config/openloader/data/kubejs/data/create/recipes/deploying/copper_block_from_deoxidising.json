@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:exposed_copper"
+    },
+    {
+      "tag": "minecraft:axes"
+    }
+  ],
+  "keepHeldItem": true,
+  "results": [
+    {
+      "item": "gtceu:copper_block"
+    }
+  ]
+}
