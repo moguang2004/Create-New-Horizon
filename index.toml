@@ -1889,12 +1889,164 @@ file = "config/openloader/data/kubejs/data/crabbersdelight/legendarysurvivalover
 hash = "0c4b32da4a0b12633649a635dd6713970355585ebc8d2b8b9432c1f7d6e084bb"
 
 [[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crafting/materials/brass_block_from_compacting.json"
+hash = "e13e58f8c5cd8818c6fa6ee2c5c66ceacfcfc2f7ccfbf078c16892b5d525bb06"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crafting/materials/brass_ingot_from_compacting.json"
+hash = "b40f53131bb0cca6b231c662b55b8a549db2c16a069d98c47d36a4231cdf5852"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crafting/materials/brass_ingot_from_decompacting.json"
+hash = "56f5d158f0f0742767c8a264ec7c16bb7d4e0d4629897e448ca5fc30f0901c53"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crafting/materials/brass_nugget_from_decompacting.json"
+hash = "430c33fd06fa0969f652638702db5775b95dea2bdb3e4c0b7b341fec0ff39239"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crafting/materials/copper_nugget.json"
+hash = "902d2f30dfc358689af40f0aa42871094302ce7d188aed9fdddfcaafd4346b5d"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crafting/materials/zinc_block_from_compacting.json"
+hash = "7d800eba53c2b4054b194e13a528975254012e71777a911c24fe7cb313669bc7"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crafting/materials/zinc_ingot_from_compacting.json"
+hash = "0e411cf5379e75252c86f964fea70c0488a01ab602b703653c29bbc4e7321a4d"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crafting/materials/zinc_ingot_from_decompacting.json"
+hash = "eaa6ca5183dc25768fbb8fe1dad452bfe9229d336a619cf730607d68dea20d39"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crafting/materials/zinc_nugget_from_decompacting.json"
+hash = "25858a78c72c27b6df2308945b898590fbc9f575d832c0346e62a6f32776a2cf"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crushing/asurine.json"
+hash = "0a186b421f46ac8b38cebbd64cf07d8c56978c54d63aaf67505a12b49386abb1"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crushing/asurine_recycling.json"
+hash = "2f59b0e60bb5fca4747cbeb0fd4c9ca2738320004fe42f9b5b85d8892fd3056c"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crushing/golden_horse_armor.json"
+hash = "4153fc319a000d3d2fd0d434ef72836f3e68261e24645b4495fc9cb16a88d4b2"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crushing/iron_horse_armor.json"
+hash = "c474e28dc3825af59858be06349a0eac65432bd9141fe7b945fb5327c7991c6c"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crushing/tuff.json"
+hash = "44487dc010d971abb33ae5794023ed53bf17fcab737825eaf6dcaf53f980e6c1"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crushing/tuff_recycling.json"
+hash = "004479c4ede1624e3b33df27985b132e51ea79d581a11f086f8621d17d097204"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crushing/veridium.json"
+hash = "8f7258fb29232be3094f8d8120740a84c0ebfa8c91d5ac7f10fe6194f6ade847"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/crushing/veridium_recycling.json"
+hash = "e3cf4758bb8afcea6c1ece6b90a0da5158c25a4e52932e7385f04d2fb04671f0"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/deploying/copper_block_from_deoxidising.json"
+hash = "24a74cab7a47b9aab41b8a60c4c4dbfcf0b414c74c1158c126b805f2a5541d8f"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/deploying/copper_block_from_removing_wax.json"
+hash = "692d4bfe8cd8f98a9ea8ce8f0238249ab8eeba1ca0cefc76066bbbc8adda5a7f"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/deploying/waxed_copper_block_from_adding_wax.json"
+hash = "e81ce28d954b05e7c6c0551c60018c129aa0305b0dccfe9af30ff4a54e68f8e6"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/mixing/brass_ingot.json"
+hash = "980f31cdc02653d6d00e89f482d3a29e3c0594ac22ca4a3f3959108bcf0faa7d"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/pressing/brass_ingot.json"
+hash = "e6c00a1cdd7ff1130c91a126831dcf744e6e8b8b059949cdea410472d44e04b7"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/pressing/copper_ingot.json"
+hash = "84e2d29397079954a116b0d89d8cd1a3ba7af7b6145cebdf493a2b8c3ff9b3a5"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/pressing/gold_ingot.json"
+hash = "edec7b0ceb4575fcbd999ace4a0ddb03b0c4d90b2d039d011c2463af96b790be"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/pressing/iron_ingot.json"
+hash = "c100956b407e6aecd07ffde42fc853dac670549bc25e16f1c2c26dcb680d7a27"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/sequenced_assembly/precision_mechanism.json"
+hash = "75ef935b78bef9202ab691ab4125f643e6d892b37f951c5859142366f60177b9"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/splashing/crushed_raw_copper.json"
+hash = "f75218ae899849a5090e64af617916e2f6453ae7dc8fd267416bbfd09141a074"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create/recipes/splashing/crushed_raw_zinc.json"
+hash = "d3dbb357568548429e38714bed52397f89ddbd3af7b4b952c09fa3a53b9d3390"
+
+[[files]]
 file = "config/openloader/data/kubejs/data/create_confectionery/legendarysurvivaloverhaul/temperature/consumables/hot_chocolate_bottle.json"
 hash = "531e993a12f8b6af28726a998eb13b89923fa209fcada826dc7aeab981e40ae8"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/create_confectionery/legendarysurvivaloverhaul/temperature/consumables/soothing_hot_chocolate.json"
 hash = "531e993a12f8b6af28726a998eb13b89923fa209fcada826dc7aeab981e40ae8"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create_connected/recipes/crafting/kinetics/brass_chute.json"
+hash = "7f796455642e1de39bab28a4024729e902ef732d7aa85252c03501128f6ef63b"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create_connected/recipes/crafting/kinetics/centrifugal_clutch.json"
+hash = "2e8f1269f032c803b6dad4767d4eae901b87b9fb39be64da3721bb4d6d4ce636"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create_connected/recipes/crafting/kinetics/empty_fan_catalyst.json"
+hash = "3f38963587a3b15e0701c9d1b24f9b3722ff331d769e2e91aba362aa6683ffcb"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create_connected/recipes/crafting/kinetics/fluid_vessel.json"
+hash = "56329a95507b0df9d733eb42041c3c2b08b871e3f9de992e0c89b3a7adb814bd"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create_connected/recipes/crafting/kinetics/freewheel_clutch.json"
+hash = "e9ae78a7cc9efef658b870aa0adeb0035e42a213eec83822736f9afc5e62c18e"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create_connected/recipes/crafting/kinetics/item_silo.json"
+hash = "5f7f1a86d20b5bde3d5c8823ec45370558aabd5c6002cd90890fe4e50bd9c5a9"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create_connected/recipes/crafting/kinetics/kinetic_battery.json"
+hash = "a4f6ceb4768eac14c6f8c800165325b2c8157127e352775b15d3bfcc47ca2806"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create_connected/recipes/crafting/kinetics/overstress_clutch.json"
+hash = "1443485d94f4905b5330d93b9fb62783ae7fa21e68313dd274054c6e5b9d9930"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create_connected/recipes/crafting/kinetics/sequenced_pulse_generator.json"
+hash = "8ab8fc605f079fab30dd8849dabebcb176cb39cb9e30025da03af18ce464b846"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/create_connected/recipes/sequenced_assembly/control_chip.json"
+hash = "3add137511f45403dfe339eae1da67a5bdba5274af4c76ba4774794c2a836cb7"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/createcafe/legendarysurvivaloverhaul/temperature/consumables/aloe_milk_tea.json"
@@ -2183,6 +2335,22 @@ hash = "32efbb55ed020641db7ea9d1bd88406c2490f7bf578a8a996561138f06b9e907"
 [[files]]
 file = "config/openloader/data/kubejs/data/createdieselgenerators/recipes/distillation/oil.json"
 hash = "191495315bb403adb92c02fbfb37a315f6a156a91bae50c70fa0388146ebeef5"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/createdieselgenerators/recipes/hammering/brass_sheet.json"
+hash = "5e9571fbd1b17d24aa561dd707f36d51d7b79b5aba3e5ab45a079adf5ef58aed"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/createdieselgenerators/recipes/hammering/copper_sheet.json"
+hash = "632bd1dd62cada41849ce35fa01b02b2bd1c36cfe98a7218c140cd3218f51616"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/createdieselgenerators/recipes/hammering/gold_sheet.json"
+hash = "99c2bcc92b2a765230ee5927b88426c116e79e7f1490147515a297879c95f26f"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/createdieselgenerators/recipes/hammering/iron_sheet.json"
+hash = "d7263550f509a06f19174658e2e381a7b08fb77934684fe22ddcba16aea94e4c"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/createdieselgenerators/tags/fluids/pumpjack_output.json"
@@ -9667,6 +9835,11 @@ hash = "49d91afd3c23759bc246077c91cbe56fcef682997d9dcf3fc467d90e6130ef6e"
 metafile = true
 
 [[files]]
+file = "mods/time-in-a-bottle-curio-support.pw.toml"
+hash = "d2459a69c30d8097f378c4c0c211f324fa3450b35bff6e57d99e36b620058d15"
+metafile = true
+
+[[files]]
 file = "mods/time-in-a-bottle-universal.pw.toml"
 hash = "21603b11e14e0f9b1d642b6389ab4d3f729b95f7eda69bc1b910f7b6eb70cc92"
 metafile = true
@@ -9763,7 +9936,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "a9eef5f6f1fdc2157040eeabe12142995780fca7a614f9704b70b6a0eea397d4"
+hash = "8c5b614642308f34a6f5037af41e361efc25b88c005f8b2045596149d301ebd0"
 
 [[files]]
 file = "resourcepacks/AE2-1.20.1-Guide-zh_CN_v2.0.zip"

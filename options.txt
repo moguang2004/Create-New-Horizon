@@ -319,6 +319,8 @@ key_key.entityculling.toggle:key.keyboard.unknown
 key_key.observable.profile:key.keyboard.unknown
 key_jecalculation.key.gui_craft:key.keyboard.unknown
 key_jecalculation.key.gui_math:key.keyboard.unknown
+key_key.curiotiab.use:key.keyboard.i
+key_key.curiotiab.hide:key.keyboard.n
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
