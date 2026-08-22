@@ -9245,6 +9245,11 @@ hash = "87da935deff875d5c560c8a8844d8428720f7fb9d8cae4c3877264bbe44c7719"
 metafile = true
 
 [[files]]
+file = "mods/gtconstruct.pw.toml"
+hash = "a9918213b21b316695da575e1e001dee20e63e72e2967a97fb8e039d02d12e94"
+metafile = true
+
+[[files]]
 file = "mods/guideme.pw.toml"
 hash = "de1074bb6f0f63ce7580daab559efdea6e5b1238deb20074e0a87179b3c4dbd4"
 metafile = true

@@ -94,7 +94,7 @@ jobs:
           MODPACK_VERSION="${{ steps.meta.outputs.version }}"
           sed -i "s/^ModpackVersion = \".*\"/ModpackVersion = \"$MODPACK_VERSION\"/" config/ctnhchangelog-client.toml
           sed -i "s/^modpackVersion = \".*\"/modpackVersion = \"$MODPACK_VERSION\"/" config/bcc-common.toml
-          sed -i "s/^S:customwindowtitle = '\([^']*\)';$/S:customwindowtitle = '\1 v$MODPACK_VERSION';/" config/fancymenu/config.txt
+          sed -i "s/^S:custom_window_title = '\([^']*\)';$/S:custom_window_title = '\1 v$MODPACK_VERSION';/" config/fancymenu/options.txt
 
       - name: Export and unzip
         run: |
