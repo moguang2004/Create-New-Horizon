@@ -1,0 +1,8 @@
+{
+  "type": "libx:removal",
+  "conditions": [{
+    "condition": "moonlight:loot_table_id_patter",
+    "matches": ["^.+:chests/.+$"]
+  }],
+  "items": ["minecraft:flint_and_steel"]
+}

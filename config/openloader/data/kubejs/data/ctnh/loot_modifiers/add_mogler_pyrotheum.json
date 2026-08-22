@@ -1,0 +1,8 @@
+{
+  "type": "moonlight:add_item",
+  "conditions": [
+    { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "type": "ad_astra:mogler" } },
+    { "condition": "minecraft:random_chance_with_looting", "chance": 0.15, "looting_multiplier": 0.05 }
+  ],
+  "item": { "id": "gtceu:pyrotheum_dust", "Count": 1 }
+}

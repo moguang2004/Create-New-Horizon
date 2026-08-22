@@ -1,0 +1,14 @@
+{
+  "type": "moonlight:add_loot_table",
+  "conditions": [{
+    "condition": "moonlight:loot_table_id_patter",
+    "matches": [
+      "^ad_astra:chests/village/moon/blacksmith$",
+      "^ad_astra:chests/village/moon/house$",
+      "^ad_astra:chests/dungeon/moon/dungeon_chest$",
+      "^ad_astra:chests/dungeon/moon/large_dungeon_chest$",
+      "^ad_astra:chests/temple/mars/temple$"
+    ]
+  }],
+  "loot_table": "ctnh:inject/hv"
+}

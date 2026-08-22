@@ -1,0 +1,7 @@
+{
+  "type": "mantle:replace_item",
+  "conditions": [{ "condition": "moonlight:loot_table_id_patter", "matches": ["^.+:chests/.+$"] }],
+  "original": { "item": "ad_astra:desh_ingot" },
+  "replacement": "gtceu:desh_ingot",
+  "functions": []
+}

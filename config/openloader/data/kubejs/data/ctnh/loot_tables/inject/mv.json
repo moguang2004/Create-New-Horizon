@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 2, "max": 4 },
+      "entries": [{
+        "type": "minecraft:alternatives",
+        "children": [
+        { "type": "minecraft:item", "name": "gtceu:mv_electric_motor", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }] },
+        { "type": "minecraft:item", "name": "gtceu:silver_single_wire", "functions": [{ "function": "minecraft:set_count", "count": 2 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.4 }] },
+        { "type": "minecraft:item", "name": "gtceu:aluminium_ingot", "functions": [{ "function": "minecraft:set_count", "count": 3 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }] },
+        { "type": "minecraft:item", "name": "gtceu:mv_machine_hull", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.1 }] },
+        { "type": "minecraft:item", "name": "gtceu:aluminium_frame", "functions": [{ "function": "minecraft:set_count", "count": 2 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.3 }] },
+        { "type": "minecraft:item", "name": "gtceu:good_electronic_circuit", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.3 }] },
+        { "type": "minecraft:item", "name": "gtceu:phenolic_printed_circuit_board", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }] },
+        { "type": "minecraft:item", "name": "botania:terrasteel_ingot", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }] }
+        ]
+      }]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 2, "max": 4 },
+      "entries": [{
+        "type": "minecraft:alternatives",
+        "children": [
+        { "type": "minecraft:item", "name": "bloodmagic:blankrune", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }] },
+        { "type": "minecraft:item", "name": "bloodmagic:demonitefragment", "functions": [{ "function": "minecraft:set_count", "count": 2 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.4 }] },
+        { "type": "minecraft:item", "name": "bloodmagic:demonitegravel", "functions": [{ "function": "minecraft:set_count", "count": 2 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }] },
+        { "type": "minecraft:item", "name": "bloodmagic:weakbloodshard", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.3 }] },
+        { "type": "minecraft:item", "name": "bloodmagic:blankslate", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.4 }] },
+        { "type": "minecraft:item", "name": "bloodmagic:defaultcrystal", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.1 }] },
+        { "type": "minecraft:item", "name": "bloodmagic:reagentvoid", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.1 }] },
+        { "type": "minecraft:item", "name": "bloodmagic:reagentsight", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.1 }] },
+        { "type": "minecraft:item", "name": "bloodmagic:reagentholding", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.1 }] },
+        { "type": "minecraft:item", "name": "bloodmagic:reagentmagnetism", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.1 }] },
+        { "type": "minecraft:item", "name": "bloodmagic:activationcrystalweak", "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }] }
+        ]
+      }]
+    }
+  ]
+}

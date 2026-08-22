@@ -1,0 +1,8 @@
+{
+  "type": "moonlight:add_loot_table",
+  "conditions": [{
+    "condition": "moonlight:loot_table_id_patter",
+    "matches": ["^dungeons_arise:chests/mining_system/mining_system_barrels$"]
+  }],
+  "loot_table": "ctnh:inject/ore"
+}

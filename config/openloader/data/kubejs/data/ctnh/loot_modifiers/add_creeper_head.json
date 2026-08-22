@@ -1,0 +1,10 @@
+{
+  "type": "moonlight:add_item",
+  "conditions": [
+    { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "type": "minecraft:creeper" } },
+    { "condition": "minecraft:killed_by_player" },
+    { "condition": "minecraft:match_tool", "predicate": { "tag": "forge:tools/butchery_knives" } },
+    { "condition": "minecraft:table_bonus", "enchantment": "minecraft:looting", "chances": [0.5, 0.51, 0.52, 0.53, 0.54, 0.55, 0.56, 0.57, 0.58] }
+  ],
+  "item": { "id": "minecraft:creeper_head", "Count": 1 }
+}

@@ -565,8 +565,20 @@ file = "config/fancymenu/assets/logo.png"
 hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
+file = "config/fancymenu/assets/title16.png"
+hash = "8794df073763e54d72f2e51bf2bfccbbfee78cd1c5d693c7b45da5a8768a5a8b"
+
+[[files]]
+file = "config/fancymenu/assets/title32.png"
+hash = "d2a97264fc5c1437745e156468cc8a7a4cd888b40a4bb9dbf76a111449dd16c8"
+
+[[files]]
+file = "config/fancymenu/assets/titlemac.icns"
+hash = "3a86be30394267ea893e1b4d05e2dda0f39f59ef51bee5ee216d4c59f2066ed0"
+
+[[files]]
 file = "config/fancymenu/assets/version.md"
-hash = "8307b6e5ef8b9f42a4cb88595a2df2650772e4e85d80636825ee5dd6b4f8e561"
+hash = "1053a8a49c8523c94f2094ef2d8ccf5025f60f8e805e47e8d9d8a750b1e5a89d"
 
 [[files]]
 file = "config/fancymenu/config.txt"
@@ -630,7 +642,7 @@ hash = "003a1c89846741e0eb9475089d4ed653896fd08e0b994667fae452b4ad894a72"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "650365ab2f46f06eacdf7be9e5b97fd8bd0ea117d5d7464f4978f16466ae402a"
+hash = "3aa8aba96828c09c27da87ec16ae88fc1aa778f1c62fc3cd43ed50672138e5ea"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -914,7 +926,7 @@ hash = "abfe491e67b40f161726c8f0a9346c99a8f4440a410fa3be856bb461e292e0a8"
 
 [[files]]
 file = "config/krypton_hybrid.zdict"
-hash = "6856d82e3a75dff73a422b8824e5f0402212f3c139038e661b2269217927e079"
+hash = "f614af53cb379be0d97c879a68d2cb97fc85ab8fba05a9fbedd422e4583047ff"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
@@ -963,6 +975,10 @@ hash = "faae73cf110862db4f2e61551b3696332af31647af876fc35fd24bd2dc135456"
 [[files]]
 file = "config/openloader/data/kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
 hash = "1df9a00ac318069a6f073c5d3d2cc3fe3d6ec60cbafabc41de7412ffd99ede8c"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ae2/loot_tables/blocks/flawless_budding_quartz.json"
+hash = "d14977afb9d2e907fd66c8a7868cdd61dcdd18101f691064be9e51013c5bfd2a"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ae2/loot_tables/blocks/large_quartz_bud.json"
@@ -1219,6 +1235,50 @@ hash = "f06456ae94b7c634679bc0ccb07fc306711e169d79818d12d5f306e69696ac37"
 [[files]]
 file = "config/openloader/data/kubejs/data/bettermcdonaldsmod/legendarysurvivaloverhaul/temperature/consumables/sprite.json"
 hash = "6400fbfc94d7cc4b13a33adc97b032fca873a1058c3140c77fad52d98d9bc84c"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/acid_fluid_block.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/fibrous_flesh.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/flesh.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/flesh_fence.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/malignant_flesh.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/ornate_flesh.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/ornate_flesh_slab.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/packed_flesh.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/porous_primal_flesh.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/primal_flesh.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/biomancy/loot_tables/blocks/smooth_primal_flesh.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/biomeswevegone/legendarysurvivaloverhaul/temperature/consumables/white_puffball_stew.json"
@@ -2417,6 +2477,210 @@ file = "config/openloader/data/kubejs/data/croptopia/legendarysurvivaloverhaul/t
 hash = "93c6d083919bad9dded0fc47cbe02ca672f65aa9e5b79f51ac2227f851c2f561"
 
 [[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_cow_tallow.json"
+hash = "52ff13d42ea6e9a9329761381b89fcb7591ceb131bedb88e3073ac029f79925f"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_creeper_head.json"
+hash = "5b49dcadc1a0538e11af0091266c9bc584230c866e379f6e754aaf762ca1d12c"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_enderman_head.json"
+hash = "578df7df5652ea9241a1536ca5834010e3cca628fed3d65dd47ad59caf31d657"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_glacian_ram_ice_shard.json"
+hash = "b2f3fc9c7317642b7533bc36ec16c9f3446ebc742f3ce5d16a8638b11ba7d1fa"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_horse_tallow.json"
+hash = "fe1bafff7e85f713de7a477cc10b4e9b7bed816e66495d084706659c9ed53913"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_mogler_hoglin_loin.json"
+hash = "c61a2d7fcce341daae816c08368b44b402c543a7eaa8f3ba05bafb5f6b47dd58"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_mogler_pyrotheum.json"
+hash = "18a5399e40c0aeb8828958c70059f9fc7ff4799c59d8190bb7b6b7b633d92f0b"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_pig_tallow.json"
+hash = "35fc3c7348190672eba0da5a0bd9ea9e3876f38084dc006ea81bc9c6d86d1938"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_sheep_tallow.json"
+hash = "e740a0c259eaad0b638e13b8ab25db9d4ed4d11b2bc27f63932df17f1e9aa941"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_skeleton_head.json"
+hash = "ace3b7e1cbffc428315cf53b32f8827b0982de287309ae94e99e98ef89b13d46"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_wither_skeleton_skull.json"
+hash = "8c52ee4d0b4bf3c6e1cf7a2e32b16cac8778dad63ae7c7d4815615f547e95400"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_zombie_head.json"
+hash = "2f78a99ea646c87191f7f320eb417b273b3bf4f28c7333d3f786efaa2b2b55b0"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_bloodmagic_loot.json"
+hash = "603983ac05d0bc55d82a4e54bd93fda8a155135817c6d47b3af14f418a8da3f1"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_hv_loot.json"
+hash = "58774c1821ecb6ff3b6a0f1049b7c0bcf2d366dc08226726bc10ba26aa264704"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_lv_loot.json"
+hash = "93bd0a770330ab642e27a9cf841e54837b01830b4021919c66c7f9d0150f5917"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_mv_loot.json"
+hash = "3f2bd8036f99cd4c2fbeb72d365c581e116198e54d272b894b47cfc33a2af45e"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_ore_loot.json"
+hash = "f80e71a55df8ab503fcc800add4344b2400ec2e3dd4556cbaf1eb2759164764c"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_steam_loot.json"
+hash = "7171bc8f06a1a2ec208e066365092414d91408ab9b7d9a32409ec18b4d8e1943"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/remove_ad_astra_ice_shard.json"
+hash = "e9dd132a055f6981679ad58013ebafb730dd4e51562264bf801a3339ec7bf845"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/remove_chest_bloodmagic_strong_tau.json"
+hash = "05c2dc728495a6c06ba0b73cc6b979511de3ec8ccaa9706984d650d8b9b0e805"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/remove_chest_flint_and_steel.json"
+hash = "35155df0cce899346e12c8d22b084aec732c2a0546c28355c5018a5d76ba5b4c"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/remove_mechanical_nest_cut_copper.json"
+hash = "e325f27c5426362cbc717cbbaaa7b662a90b787f89c8e6cb5838edeec93f63ac"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/remove_mining_system_ores.json"
+hash = "60af7d0f29db5220eb4f8632c23dcce5b46b00884625a29e1da420ef033327bf"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_copper_alloy_ingot.json"
+hash = "39eacc5c15611512714f0f9b4f52bcf0a5c1b6db02a82d040286b7256ea45f40"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_dark_steel_ingot.json"
+hash = "2a34e6e56753c5d18896532f76e81beece191356eb456da53c656a7ba7d37255"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_desh_ingot.json"
+hash = "5ac29379c070c2b56782b68b74ce46c38887a9958da83d9d87df941c808f02a2"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_gold_block.json"
+hash = "e1f7dcc8a38244c01722c04887bc92746e621dd40b9b7e08c81304d0eca700e0"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_gold_ingot.json"
+hash = "9f7d0a19d60478f5b5c043ba1a26a116fcc35ed64c6e12dd12d03056fc0462f3"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_gold_nugget.json"
+hash = "76188f4a0c647a671a109a31c76d90b3374a5f7e203991b7670214ff2cc1af53"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_gold_ore.json"
+hash = "79f34e14736d947d7c00b42793ac26b813617cd691a946ab10fb3ce1e57836f9"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_pulsating_alloy_ingot.json"
+hash = "b8c563aea27a0d4b79b6e4c2bcbd9e6935effc85a9e4e8f51693c78945cac125"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_raw_desh.json"
+hash = "ee55ff1c6b8a9d2441224936b606296d593850a46498e73676454f556fa96da9"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_raw_gold.json"
+hash = "0b999ab0e8cecf4c8d9b7de4b14187676451d039be2c5d82fee63e8d19040760"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_redstone_alloy_ingot.json"
+hash = "48cd26654e5f56afc48172a703d0ce8ebabdfaff8c7e02f53094bfc506b36ce7"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_vibrant_alloy_ingot.json"
+hash = "877a2d673159fee987232d5436b916d9c417e70fe944da015180eaf756954ecb"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_wood_gear.json"
+hash = "cb43a4210b1d993deefb3f22d5b3f473cacb48fa51da7e0b9019c1989c0eeb8c"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_piglin_gold_ingot.json"
+hash = "0c378f8a314f713e8aacd9a72986e49b2019885a0e83a5889b17ecf486fc48ce"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_piglin_gold_nugget.json"
+hash = "978375764189be35011f02dce129700d275934afc3ce2babadd49e8e82ecdcc2"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/bloodmagic.json"
+hash = "7f5f2e2a9ebdabcf256db22fbec75d848ae6fa2f2aad57f91e8565aefe4c3eec"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/hv.json"
+hash = "2f2a65abc44f58d6cac0d3b51851ba099efd691f706c8a1e61562cf1bedf5b00"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/lv.json"
+hash = "da44d335f1e2076af0b72c149bbd50fcab34e76016cd5303cff3c4db9d389c37"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/mv.json"
+hash = "0e962e8538e0329cc2e7bde4527313952ab1fc9fd9548566600ca7efb8c3cabf"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/ore.json"
+hash = "3bd506bd27fecc7b82153de8cafd576a1f7850817b3a5ce484f387dc122e2edd"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/steam.json"
+hash = "2bb2c7d13a1b83fe787a1c323af7cbbe586f96f037cb19d3be4500006fe61e55"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/tallow.json"
+hash = "bcd893a48bb9d0f9395995f248c2429be661b766cb8754ad2a42c8c715bdc8d0"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnhbio/loot_tables/blocks/acid_flesh_casing.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnhbio/loot_tables/blocks/bio_acid_casing.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnhbio/loot_tables/blocks/flesh_casing.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnhbio/loot_tables/blocks/impermeable_membrane.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnhbio/loot_tables/blocks/ornate_flesh_casing.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnhbio/loot_tables/blocks/primal_flesh_casing.json"
+hash = "8aa5d90090e9e52dfdaf176514d3f3a75a15807c348427df34a603af01666725"
+
+[[files]]
 file = "config/openloader/data/kubejs/data/drinkbeer/legendarysurvivaloverhaul/temperature/consumables/beer_mug_blaze_milk_stout.json"
 hash = "defbf4559c343e034d5982408457f9f224125a9d4317a3f53520c64f2bfdfc40"
 
@@ -3327,6 +3591,10 @@ hash = "01ad27d5f5bccfe59e6a899631e5fa63cc0f3b6fccd70151da635315b01472ea"
 [[files]]
 file = "config/openloader/data/kubejs/data/farmersrespite/legendarysurvivaloverhaul/temperature/consumables/yellow_tea.json"
 hash = "81cda57774100d4a705c54b79479d9c88b306aea768ddc2828f32ca9b265f880"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/forge/loot_modifiers/global_loot_modifiers.json"
+hash = "ae84071af275aa092c8d4f092ff214500958c34b429cc742259329e0b3aee5fa"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/forge/tags/items/dusts/quartz.json"

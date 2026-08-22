@@ -1,0 +1,7 @@
+{
+  "type": "mantle:replace_item",
+  "conditions": [{ "condition": "moonlight:loot_table_id_patter", "matches": ["^.+:chests/.+$"] }],
+  "original": { "item": "enderio:wood_gear" },
+  "replacement": "gtceu:wood_gear",
+  "functions": []
+}
