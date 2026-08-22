@@ -565,12 +565,24 @@ file = "config/fancymenu/assets/logo.png"
 hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
+file = "config/fancymenu/assets/title16.png"
+hash = "8794df073763e54d72f2e51bf2bfccbbfee78cd1c5d693c7b45da5a8768a5a8b"
+
+[[files]]
+file = "config/fancymenu/assets/title32.png"
+hash = "d2a97264fc5c1437745e156468cc8a7a4cd888b40a4bb9dbf76a111449dd16c8"
+
+[[files]]
+file = "config/fancymenu/assets/titlemac.icns"
+hash = "3a86be30394267ea893e1b4d05e2dda0f39f59ef51bee5ee216d4c59f2066ed0"
+
+[[files]]
 file = "config/fancymenu/assets/version.md"
-hash = "8307b6e5ef8b9f42a4cb88595a2df2650772e4e85d80636825ee5dd6b4f8e561"
+hash = "1053a8a49c8523c94f2094ef2d8ccf5025f60f8e805e47e8d9d8a750b1e5a89d"
 
 [[files]]
 file = "config/fancymenu/config.txt"
-hash = "831fc83c30eccb8bda1137aeebfd3759eb04bf8d0bb9fa7d8cc465e4a924a0fc"
+hash = "10723bc8c892aa87f1f6859874221788189b0bf3e26f2f7202fd54e2539f4076"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -630,7 +642,7 @@ hash = "003a1c89846741e0eb9475089d4ed653896fd08e0b994667fae452b4ad894a72"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "650365ab2f46f06eacdf7be9e5b97fd8bd0ea117d5d7464f4978f16466ae402a"
+hash = "3aa8aba96828c09c27da87ec16ae88fc1aa778f1c62fc3cd43ed50672138e5ea"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -914,7 +926,7 @@ hash = "abfe491e67b40f161726c8f0a9346c99a8f4440a410fa3be856bb461e292e0a8"
 
 [[files]]
 file = "config/krypton_hybrid.zdict"
-hash = "6856d82e3a75dff73a422b8824e5f0402212f3c139038e661b2269217927e079"
+hash = "f614af53cb379be0d97c879a68d2cb97fc85ab8fba05a9fbedd422e4583047ff"
 
 [[files]]
 file = "config/legendarysurvivaloverhaul/legendarysurvivaloverhaul-client.toml"
