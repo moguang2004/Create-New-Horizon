@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 2, "max": 4 },
+      "entries": [{
+        "type": "minecraft:alternatives",
+        "children": [
+        { "type": "minecraft:item", "name": "gtceu:raw_galena", "functions": [{ "function": "minecraft:set_count", "count": 4 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }] },
+        { "type": "minecraft:item", "name": "gtceu:raw_precious_alloy", "functions": [{ "function": "minecraft:set_count", "count": 3 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.4 }] },
+        { "type": "minecraft:item", "name": "gtceu:raw_coal", "functions": [{ "function": "minecraft:set_count", "count": 6 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.6 }] },
+        { "type": "minecraft:item", "name": "gtceu:raw_redstone", "functions": [{ "function": "minecraft:set_count", "count": 3 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.3 }] },
+        { "type": "minecraft:item", "name": "gtceu:raw_chalcopyrite", "functions": [{ "function": "minecraft:set_count", "count": 5 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }] },
+        { "type": "minecraft:item", "name": "gtceu:raw_realgar", "functions": [{ "function": "minecraft:set_count", "count": 2 }], "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.1 }] }
+        ]
+      }]
+    }
+  ]
+}

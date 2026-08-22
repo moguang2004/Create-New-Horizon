@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:entity",
+  "pools": [{
+    "rolls": 1.0,
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "ctnhcore:tallow",
+      "functions": [{
+        "function": "minecraft:set_count",
+        "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+      }],
+      "conditions": [{
+        "condition": "minecraft:random_chance_with_looting",
+        "chance": 0.2,
+        "looting_multiplier": 0.05
+      }]
+    }]
+  }]
+}

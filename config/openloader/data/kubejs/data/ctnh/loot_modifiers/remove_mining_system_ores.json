@@ -1,0 +1,12 @@
+{
+  "type": "libx:removal",
+  "conditions": [{
+    "condition": "moonlight:loot_table_id_patter",
+    "matches": ["^dungeons_arise:chests/mining_system/mining_system_barrels$"]
+  }],
+  "items": [
+    "minecraft:iron_ore",
+    "minecraft:gold_ore",
+    "minecraft:coal_ore"
+  ]
+}

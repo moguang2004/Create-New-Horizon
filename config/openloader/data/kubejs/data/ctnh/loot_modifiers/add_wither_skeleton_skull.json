@@ -1,0 +1,10 @@
+{
+  "type": "moonlight:add_item",
+  "conditions": [
+    { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "type": "minecraft:wither_skeleton" } },
+    { "condition": "minecraft:killed_by_player" },
+    { "condition": "minecraft:match_tool", "predicate": { "tag": "forge:tools/butchery_knives" } },
+    { "condition": "minecraft:table_bonus", "enchantment": "minecraft:looting", "chances": [0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6] }
+  ],
+  "item": { "id": "minecraft:wither_skeleton_skull", "Count": 1 }
+}

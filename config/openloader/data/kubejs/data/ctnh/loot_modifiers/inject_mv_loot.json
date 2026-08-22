@@ -1,0 +1,13 @@
+{
+  "type": "moonlight:add_loot_table",
+  "conditions": [{
+    "condition": "moonlight:loot_table_id_patter",
+    "matches": [
+      "^minecraft:chests/end_city_treasure$",
+      "^aether:chests/ruined_portal$",
+      "^aether:chests/dungeon/gold/gold_dungeon_treasure$",
+      "^aether:chests/dungeon/gold/gold_dungeon_reward$"
+    ]
+  }],
+  "loot_table": "ctnh:inject/mv"
+}
