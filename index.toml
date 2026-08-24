@@ -9720,6 +9720,11 @@ hash = "5766e8a4cfc32e1bb9053f9f55b97477489113fa3d7bffaa1ce64097c9599331"
 metafile = true
 
 [[files]]
+file = "mods/powerful-dummy.pw.toml"
+hash = "ea1c94f40b8d7da7526cd4f74a0769cf3f5a9529d42da3fa9ae42e53052ca1af"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "6e5b83809f2eb853e57e832764d347eade9cebcc6726f2fb46ab2935e6f3ec27"
 metafile = true

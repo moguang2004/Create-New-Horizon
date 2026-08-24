@@ -1,0 +1,13 @@
+name = "Powerful Dummy"
+filename = "powerful_dummy-20-0.0.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cc92fde0f6b4d6678092f674c45d4259cdd82718"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7638171
+project-id = 1276893
