@@ -1,8 +1,12 @@
 {
   "type": "libx:removal",
-  "conditions": [{
-    "condition": "moonlight:loot_table_id_patter",
-    "matches": ["^dungeons_arise:chests/mechanical_nest/mechanical_nest_normal$"]
-  }],
-  "items": ["minecraft:cut_copper"]
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "dungeons_arise:chests/mechanical_nest/mechanical_nest_normal"
+    }
+  ],
+  "items": [
+    "minecraft:cut_copper"
+  ]
 }

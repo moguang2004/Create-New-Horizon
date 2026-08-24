@@ -1,36 +1,119 @@
 {
-  "type": "moonlight:add_loot_table",
-  "conditions": [{
-    "condition": "moonlight:loot_table_id_patter",
-    "matches": [
-      "^dungeons_arise:chests/abandoned_temple/abandoned_temple_map$",
-      "^dungeons_arise:chests/aviary/aviary_barrels$",
-      "^dungeons_arise:chests/aviary/aviary_treasure$",
-      "^dungeons_arise:chests/foundry/foundry_treasure$",
-      "^dungeons_arise:chests/foundry/foundry_lava_pit$",
-      "^dungeons_arise:chests/bandit_towers/bandit_towers_rooms$",
-      "^dungeons_arise:chests/bandit_towers/bandit_towers_supply$",
-      "^dungeons_arise:chests/bandit_towers/bandit_towers_normal$",
-      "^dungeons_arise:chests/bandit_towers/bandit_towers_treasure$",
-      "^dungeons_arise:chests/heavenly_challenger/heavenly_challenger_treasure$",
-      "^dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply$",
-      "^dungeons_arise:chests/heavenly_challenger/heavenly_challenger_theater$",
-      "^dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_treasure$",
-      "^dungeons_arise:chests/keep_kayra/keep_kayra_garden_treasure$",
-      "^dungeons_arise:chests/keep_kayra/keep_kayra_library_treasure$",
-      "^dungeons_arise:chests/keep_kayra/keep_kayra_treasure$",
-      "^dungeons_arise:chests/mechanical_nest/mechanical_nest_normal$",
-      "^dungeons_arise:chests/mechanical_nest/mechanical_nest_treasure$",
-      "^dungeons_arise:chests/mechanical_nest/mechanical_nest_equipment$",
-      "^dungeons_arise:chests/infested_temple/infested_temple_top_treasure$",
-      "^dungeons_arise:chests/infested_temple/infested_temple_room_forge$",
-      "^dungeons_arise:chests/plague_asylum/plague_asylum_treasure$",
-      "^dungeons_arise:chests/scorched_mines/scorched_mines_treasure$",
-      "^dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure$",
-      "^dungeons_arise:chests/thornborn_towers/thornborn_towers_rooms$",
-      "^minecraft:chests/bastion_treasure$",
-      "^aether:chests/dungeon/silver/silver_dungeon$"
-    ]
-  }],
+  "type": "libx:addition",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/abandoned_temple/abandoned_temple_map"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/aviary/aviary_barrels"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/aviary/aviary_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/foundry/foundry_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/foundry/foundry_lava_pit"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/bandit_towers/bandit_towers_rooms"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/bandit_towers/bandit_towers_supply"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/bandit_towers/bandit_towers_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/bandit_towers/bandit_towers_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_supply"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_theater"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/keep_kayra/keep_kayra_garden_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/keep_kayra/keep_kayra_library_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/keep_kayra/keep_kayra_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/mechanical_nest/mechanical_nest_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/mechanical_nest/mechanical_nest_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/mechanical_nest/mechanical_nest_equipment"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/infested_temple/infested_temple_top_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/infested_temple/infested_temple_room_forge"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/plague_asylum/plague_asylum_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/thornborn_towers/thornborn_towers_rooms"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "aether:chests/dungeon/silver/silver_dungeon"
+        }
+      ]
+    }
+  ],
   "loot_table": "ctnh:inject/lv"
 }

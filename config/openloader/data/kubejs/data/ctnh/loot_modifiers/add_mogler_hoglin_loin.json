@@ -1,5 +1,13 @@
 {
-  "type": "moonlight:add_item",
-  "conditions": [{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "type": "ad_astra:mogler" } }],
-  "item": { "id": "nethersdelight:hoglin_loin", "Count": 2 }
+  "type": "libx:addition",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "ad_astra:mogler"
+      }
+    }
+  ],
+  "loot_table": "ctnh:inject/mogler_hoglin_loin"
 }

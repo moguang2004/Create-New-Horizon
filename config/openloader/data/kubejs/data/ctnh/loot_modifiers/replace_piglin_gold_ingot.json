@@ -1,7 +1,23 @@
 {
   "type": "mantle:replace_item",
-  "conditions": [{ "condition": "moonlight:loot_table_id_patter", "matches": ["^minecraft:entities/zombified_piglin$", "^twilightforest:entities/kobold$"] }],
-  "original": { "item": "minecraft:gold_ingot" },
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:entities/zombified_piglin"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "twilightforest:entities/kobold"
+        }
+      ]
+    }
+  ],
+  "original": {
+    "item": "minecraft:gold_ingot"
+  },
   "replacement": "gtceu:precious_alloy_ingot",
   "functions": []
 }

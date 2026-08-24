@@ -1,24 +1,71 @@
 {
-  "type": "moonlight:add_loot_table",
-  "conditions": [{
-    "condition": "moonlight:loot_table_id_patter",
-    "matches": [
-      "^bloodmagic:chests/mines/decent_loot$",
-      "^bloodmagic:chests/mines/mine_key_loot$",
-      "^bloodmagic:chests/mines/ore_loot$",
-      "^bloodmagic:chests/mines/smithy_loot$",
-      "^bloodmagic:chests/standard_dungeon/greater_loot$",
-      "^bloodmagic:chests/simple_dungeon/entrance_chest$",
-      "^bloodmagic:chests/simple_dungeon/library$",
-      "^bloodmagic:chests/simple_dungeon/test_gems$",
-      "^bloodmagic:chests/standard_dungeon/poor_loot$",
-      "^bloodmagic:chests/standard_dungeon/decent_alchemy$",
-      "^bloodmagic:chests/standard_dungeon/decent_loot$",
-      "^bloodmagic:chests/standard_dungeon/decent_smithy$",
-      "^bloodmagic:chests/standard_dungeon/enchanting_loot$",
-      "^bloodmagic:chests/standard_dungeon/mines_key$",
-      "^bloodmagic:chests/standard_dungeon/strong_alchemy$"
-    ]
-  }],
+  "type": "libx:addition",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/mines/decent_loot"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/mines/mine_key_loot"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/mines/ore_loot"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/mines/smithy_loot"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/standard_dungeon/greater_loot"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/simple_dungeon/entrance_chest"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/simple_dungeon/library"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/simple_dungeon/test_gems"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/standard_dungeon/poor_loot"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/standard_dungeon/decent_alchemy"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/standard_dungeon/decent_loot"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/standard_dungeon/decent_smithy"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/standard_dungeon/enchanting_loot"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/standard_dungeon/mines_key"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "bloodmagic:chests/standard_dungeon/strong_alchemy"
+        }
+      ]
+    }
+  ],
   "loot_table": "ctnh:inject/bloodmagic"
 }

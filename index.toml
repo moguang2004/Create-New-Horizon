@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README_EN.md"
+hash = "3cdf8a1c3955923a769de8040fa8adc249e3dab73de111ea0ef2334539ae4fd1"
+
+[[files]]
 file = "config/ModernUI/D-DIN-PRO-400-Regular.ttf"
 hash = "43a13a27d9c67e96efab806b9396ffec7d256ca1b424589f09ee9a5d48f653fc"
 
@@ -2646,159 +2650,171 @@ hash = "93c6d083919bad9dded0fc47cbe02ca672f65aa9e5b79f51ac2227f851c2f561"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_cow_tallow.json"
-hash = "52ff13d42ea6e9a9329761381b89fcb7591ceb131bedb88e3073ac029f79925f"
+hash = "63e813090bd823eb7850c3c69fe4eb03200e32e476b49cae614678af6667fab8"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_creeper_head.json"
-hash = "5b49dcadc1a0538e11af0091266c9bc584230c866e379f6e754aaf762ca1d12c"
+hash = "8598bc4b6bf4355c3281b7c0ea907477fda09e761d1330752e69aafd7ce34d50"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_enderman_head.json"
-hash = "578df7df5652ea9241a1536ca5834010e3cca628fed3d65dd47ad59caf31d657"
+hash = "34c9a76e1f3b46d7eda3001688144bea1c3e32b7e7bdb6f40886eb77982c4869"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_glacian_ram_ice_shard.json"
-hash = "b2f3fc9c7317642b7533bc36ec16c9f3446ebc742f3ce5d16a8638b11ba7d1fa"
+hash = "4b14847dd87711d32c3b5ba58577d39c5c42276682ae601473c270ffac41775a"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_horse_tallow.json"
-hash = "fe1bafff7e85f713de7a477cc10b4e9b7bed816e66495d084706659c9ed53913"
+hash = "3614138356461b161ed21064cd2bd9efc25763bfc2f1a9273938b6df6d38efb1"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_mogler_hoglin_loin.json"
-hash = "c61a2d7fcce341daae816c08368b44b402c543a7eaa8f3ba05bafb5f6b47dd58"
+hash = "26af6aaaf59c343181ae4f9b2a4c2d6422d3b53940a547d2e41978f873cd8c84"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_mogler_pyrotheum.json"
-hash = "18a5399e40c0aeb8828958c70059f9fc7ff4799c59d8190bb7b6b7b633d92f0b"
+hash = "b65ed75e4d5eb7ec00ba44c98233845590b9374b856612dfe1289cc9bd5694d3"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_pig_tallow.json"
-hash = "35fc3c7348190672eba0da5a0bd9ea9e3876f38084dc006ea81bc9c6d86d1938"
+hash = "4331ad96c2a6284b1f0165de6b09a738057d3b680d1d7fc4cd600441535d6376"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_sheep_tallow.json"
-hash = "e740a0c259eaad0b638e13b8ab25db9d4ed4d11b2bc27f63932df17f1e9aa941"
+hash = "054c2c3fb05c588b021c53c9859f8c29162e1c67c1f6e17a996dd54290f8de63"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_skeleton_head.json"
-hash = "ace3b7e1cbffc428315cf53b32f8827b0982de287309ae94e99e98ef89b13d46"
+hash = "37440b1bc263eb7cbe52924c6ee38d8fecb9a510d07e892c6383dabc13ed04fd"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_wither_skeleton_skull.json"
-hash = "8c52ee4d0b4bf3c6e1cf7a2e32b16cac8778dad63ae7c7d4815615f547e95400"
+hash = "93ed2cc2c189c7e2f4e89628b5b5bf11dac5175dcb62b96dc1d624f2020d0073"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/add_zombie_head.json"
-hash = "2f78a99ea646c87191f7f320eb417b273b3bf4f28c7333d3f786efaa2b2b55b0"
+hash = "ba296e2f93905e797320e4d3f8a085039e27bee916ba4a1ded684905595ef5ec"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_bloodmagic_loot.json"
-hash = "603983ac05d0bc55d82a4e54bd93fda8a155135817c6d47b3af14f418a8da3f1"
+hash = "e4f38134cab4a6a95ac522727c7ea85ab3050ccbb3505db773225e8772856f72"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_hv_loot.json"
-hash = "58774c1821ecb6ff3b6a0f1049b7c0bcf2d366dc08226726bc10ba26aa264704"
+hash = "65940a700dbbf2b62c3b3ce8dca84b4b068dce0fb6161afdfc27cfabfe6fac5e"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_lv_loot.json"
-hash = "93bd0a770330ab642e27a9cf841e54837b01830b4021919c66c7f9d0150f5917"
+hash = "74c047a805861dce326c14a3f46731320af63dadf9224de59b0059484ebcb755"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_mv_loot.json"
-hash = "3f2bd8036f99cd4c2fbeb72d365c581e116198e54d272b894b47cfc33a2af45e"
+hash = "9d6bdca7fd9707c327f6f9ea6c24d3ceadfe48280ca9b7d33fa0245581344cf3"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_ore_loot.json"
-hash = "f80e71a55df8ab503fcc800add4344b2400ec2e3dd4556cbaf1eb2759164764c"
+hash = "c2f20e60e97e1da12b01d788859a85d4756b87ff3e5fb2b0db3d1d42fe81e08d"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/inject_steam_loot.json"
-hash = "7171bc8f06a1a2ec208e066365092414d91408ab9b7d9a32409ec18b4d8e1943"
+hash = "7077bebadb63e053ec3f9c84fd0186faae06115aed103d174beaaa83b12ae613"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/remove_ad_astra_ice_shard.json"
-hash = "e9dd132a055f6981679ad58013ebafb730dd4e51562264bf801a3339ec7bf845"
+hash = "cca5034e0dacbe0aa92d5797a5f60408986c15d81e4246a8c4cc8bd918064583"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/remove_chest_bloodmagic_strong_tau.json"
-hash = "05c2dc728495a6c06ba0b73cc6b979511de3ec8ccaa9706984d650d8b9b0e805"
+hash = "21096558cc9b7446cf2d89abebf3e406e10dd07a73ef4a978caf5bcbcbe62f58"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/remove_chest_flint_and_steel.json"
-hash = "35155df0cce899346e12c8d22b084aec732c2a0546c28355c5018a5d76ba5b4c"
+hash = "640394d3dda79845a8cb123c9eb7a8e1e670f98986d2af9edf2c0846a6046db9"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/remove_mechanical_nest_cut_copper.json"
-hash = "e325f27c5426362cbc717cbbaaa7b662a90b787f89c8e6cb5838edeec93f63ac"
+hash = "7f4f99bd066e3d8c62ad3a4f2901c590baff35f9293948ea00105823235b1889"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/remove_mining_system_ores.json"
-hash = "60af7d0f29db5220eb4f8632c23dcce5b46b00884625a29e1da420ef033327bf"
+hash = "c4700fd9562a4f35d4843c588f8c7897ca2be0814e606bda58455bbe9378fb9a"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_copper_alloy_ingot.json"
-hash = "39eacc5c15611512714f0f9b4f52bcf0a5c1b6db02a82d040286b7256ea45f40"
+hash = "e63ac9c899a270dc34f73660ee632c65b59cb424646334ee6de446d370fa4983"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_dark_steel_ingot.json"
-hash = "2a34e6e56753c5d18896532f76e81beece191356eb456da53c656a7ba7d37255"
+hash = "0b8d292bc372b9a1d680edd5e1d5968c7111db68ae92120a305ea4e86dc373ab"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_desh_ingot.json"
-hash = "5ac29379c070c2b56782b68b74ce46c38887a9958da83d9d87df941c808f02a2"
+hash = "9d88671d5683da98fef75dcdd8e9e723fd151670504cfe91fb39e3954e5faf0d"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_gold_block.json"
-hash = "e1f7dcc8a38244c01722c04887bc92746e621dd40b9b7e08c81304d0eca700e0"
+hash = "3ac653287b339e3937b3d7c637ea9518e638e989551dbbddd56bc711c12fa17f"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_gold_ingot.json"
-hash = "9f7d0a19d60478f5b5c043ba1a26a116fcc35ed64c6e12dd12d03056fc0462f3"
+hash = "00ad3947d81fce81b7c28c6e2536a31ac8e1fcec685143c09b4fefa593e19f5b"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_gold_nugget.json"
-hash = "76188f4a0c647a671a109a31c76d90b3374a5f7e203991b7670214ff2cc1af53"
+hash = "7354c73a6fd417c87b877c9741e371d8bb43916c78cc31c16ae0e7b64542402b"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_gold_ore.json"
-hash = "79f34e14736d947d7c00b42793ac26b813617cd691a946ab10fb3ce1e57836f9"
+hash = "f447aba14cd2e2e33962ee8ddf648df155e9d54cf8a5d5d372017fcf5ec34ccf"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_pulsating_alloy_ingot.json"
-hash = "b8c563aea27a0d4b79b6e4c2bcbd9e6935effc85a9e4e8f51693c78945cac125"
+hash = "a27403c32371e1b7ad0c0e2ddfd6e4fb0d8e9ae0103e3f35711b6d3e0c544f82"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_raw_desh.json"
-hash = "ee55ff1c6b8a9d2441224936b606296d593850a46498e73676454f556fa96da9"
+hash = "14fa1661f627bc196e7d73f4445b941504067815cff87c992b8a451716aa150c"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_raw_gold.json"
-hash = "0b999ab0e8cecf4c8d9b7de4b14187676451d039be2c5d82fee63e8d19040760"
+hash = "c65d8b98a66f8aebe3ec63623dd1b460cce1fe7e2070a2f63b542d626fd61f96"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_redstone_alloy_ingot.json"
-hash = "48cd26654e5f56afc48172a703d0ce8ebabdfaff8c7e02f53094bfc506b36ce7"
+hash = "b5745f44f27f574f39b2cae1821e6ab1dcc8a3ae76dd33dd8bc010624c592b42"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_vibrant_alloy_ingot.json"
-hash = "877a2d673159fee987232d5436b916d9c417e70fe944da015180eaf756954ecb"
+hash = "c7d7ff4be33088f61fa17bf0f3b487b614262309500098545979cf163c2a9acd"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_chest_wood_gear.json"
-hash = "cb43a4210b1d993deefb3f22d5b3f473cacb48fa51da7e0b9019c1989c0eeb8c"
+hash = "1003e5354153de05c7bdfa4661226a0ecc9d3514e8103c231a2d2cb2c11e9375"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_piglin_gold_ingot.json"
-hash = "0c378f8a314f713e8aacd9a72986e49b2019885a0e83a5889b17ecf486fc48ce"
+hash = "791fc480f1bd82abfc84d96783f984e65c41afff9940e16028f49fa657dbc656"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_modifiers/replace_piglin_gold_nugget.json"
-hash = "978375764189be35011f02dce129700d275934afc3ce2babadd49e8e82ecdcc2"
+hash = "90077678fdb15a97e3cd251d1149d185b25c5fe1bf2c609c07e87e94958e6496"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/bloodmagic.json"
 hash = "7f5f2e2a9ebdabcf256db22fbec75d848ae6fa2f2aad57f91e8565aefe4c3eec"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/creeper_head.json"
+hash = "0c9ddd6b109341ef3344b80bc7703c1939e850b6ef0a985850ad77e15c08dec5"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/enderman_head.json"
+hash = "82d5dc06be629760d584cf84402388faf159ebca67dbbe4b2f8eca3dffff5075"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/glacian_ram_ice_shard.json"
+hash = "f38cfbe3485b4bd4e4505b0cd0a2be6a90d590a4a098fdc23cc65e47b59e488f"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/hv.json"
@@ -2809,6 +2825,14 @@ file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/lv.json"
 hash = "da44d335f1e2076af0b72c149bbd50fcab34e76016cd5303cff3c4db9d389c37"
 
 [[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/mogler_hoglin_loin.json"
+hash = "4bd01fa1e367cb316c148690026f0786998ed4dbc0301141d45c0b0da9242cc2"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/mogler_pyrotheum.json"
+hash = "24f3e406053fecfd1a4913547cbf179fe6c424a9772c0ed415d25f24fa835622"
+
+[[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/mv.json"
 hash = "0e962e8538e0329cc2e7bde4527313952ab1fc9fd9548566600ca7efb8c3cabf"
 
@@ -2817,12 +2841,24 @@ file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/ore.json"
 hash = "3bd506bd27fecc7b82153de8cafd576a1f7850817b3a5ce484f387dc122e2edd"
 
 [[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/skeleton_head.json"
+hash = "f85f4373024f85506e3898cfedddcb29d1201354ddf3146620f1a488dbf14bd4"
+
+[[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/steam.json"
 hash = "2bb2c7d13a1b83fe787a1c323af7cbbe586f96f037cb19d3be4500006fe61e55"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/tallow.json"
 hash = "bcd893a48bb9d0f9395995f248c2429be661b766cb8754ad2a42c8c715bdc8d0"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/wither_skeleton_skull.json"
+hash = "6da153c0d86345938fb8a8839acf68d07d95e0a4c7786306d131f83d0621be20"
+
+[[files]]
+file = "config/openloader/data/kubejs/data/ctnh/loot_tables/inject/zombie_head.json"
+hash = "f6b37583adf54f5faf3de1309ff2274c3eaac054f1f180b6f3fa5ac9aef7d69d"
 
 [[files]]
 file = "config/openloader/data/kubejs/data/ctnhbio/loot_tables/blocks/acid_flesh_casing.json"
@@ -6613,24 +6649,60 @@ file = "config/openloader/resources/kubejs/assets/createutilities/lang/zh_cn.jso
 hash = "40ab224b998d60d4b03eaf8fd9f43c6ad5748f0e6bf9ed0ec115482135d46936"
 
 [[files]]
-file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/all_multiblocks.png"
-hash = "a91ade00ba3f544e795f9bc5b73dbad4da8565ea61e8d764b58bcfc98be869dc"
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/Ae2_1.png"
+hash = "04b077d274f622b46ce7b3928e3e42eb0da1db0ec19dae95aeec20017b4af920"
 
 [[files]]
-file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/guide1.jpg"
-hash = "9a7b4cad34ea1b3be3c570ab4bf9566b9ff6bbba850ccb28a08214af9beabbdc"
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/ArsNouvaeu_1.gif"
+hash = "056c6ac3d59a732caebac99aee90e7e15ea6fb61cec2b6019b07c32b5f52f591"
 
 [[files]]
-file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/guide2.jpg"
-hash = "578c59f566c57fcbf723d688111ed95744b8070bee66f00ca93f68cd95e5d9bf"
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/Biomancy_1.jpeg"
+hash = "b4aad02eaef6fab677fa3ad71bd8714f69abbf6587afe1c19c616d96feafd098"
+
+[[files]]
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/Biomancy_2.png"
+hash = "8a533946d2ffe0ec24daa760637a2fbe402ce06fb334720ec32544e63beeb568"
+
+[[files]]
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/BloodMagic_1.png"
+hash = "ccc6ecb80507126240935f66be98340223b2e3eb75b6f5c7c468f54fc472852e"
+
+[[files]]
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/Botania_1.png"
+hash = "7dca339530e6d46248ef9d173de68780a12ec14dd28ebb4a2dc02e17bb6d8787"
+
+[[files]]
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/Create_1.png"
+hash = "b35bba54d5602194a4d85438021461ffa6e5265228fd2f05c243924c2c481602"
+
+[[files]]
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/Create_2.png"
+hash = "91e4dd34d96705464b0647d992c7d657a13cab467fb0789a6ba7fd066ac2df2c"
+
+[[files]]
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/Gregtech_1.png"
+hash = "8ebcb92c3a2988bd7caba1ed3ed1383921a9dffe022bed02c035ae06987cef7a"
+
+[[files]]
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/adventure_1.gif"
+hash = "828e38b6fa2c3519f4ad1be50ceeb50f798ebbba8370a5fb2337667ba2f2112e"
+
+[[files]]
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/adventure_2.gif"
+hash = "108ecb8b26e6df8e2b60f0bbd1a91a6c83fb59f494a241ecd5f2eba5a2e6fe5b"
+
+[[files]]
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/overview_1.png"
+hash = "15a3104bd4208e08bcf7d0d9d388adb23bb4cd7d3f4beaa80184c361479923ab"
+
+[[files]]
+file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/overview_2.png"
+hash = "7371fa2b25f7d20376d91c7ede7ef4e631eee28d0c4bbb56b54f6c6869f428e6"
 
 [[files]]
 file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/title2.png"
 hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
-
-[[files]]
-file = "config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/windmill_control.jpg"
-hash = "c5d94094154b91fee605e769bbc8a4924616ba51dfe7a05f0cfcc21043a48df9"
 
 [[files]]
 file = "config/openloader/resources/kubejs/assets/emi/index/stacks/1.json"
@@ -9585,11 +9657,6 @@ hash = "edd3084dd2c10ae697ace9bb2c6a249c6a9d4d92a6d02247169fdab60e55b286"
 metafile = true
 
 [[files]]
-file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "5859dfd186c4ac5e7e4627639dc2aeca5478dd1f9d6f09020e49a9788edbf4de"
-metafile = true
-
-[[files]]
 file = "mods/model-gap-fix.pw.toml"
 hash = "d8781c9748741cae49c5da4b3fae2071d3f3c296d0e354a347795b78b6e8b3ca"
 metafile = true
@@ -9762,11 +9829,6 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "0c6c6c5e087459e4a84ca81ff2e1aef7576018c030280e2f6f224f6243248665"
-metafile = true
-
-[[files]]
-file = "mods/selene.pw.toml"
-hash = "7fc91ef8f26da3df3aa0c582d3d1725c6f9972252bcd65d9a47226bcdc4b35db"
 metafile = true
 
 [[files]]

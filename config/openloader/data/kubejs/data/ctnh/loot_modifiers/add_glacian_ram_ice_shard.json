@@ -1,5 +1,13 @@
 {
-  "type": "moonlight:add_item",
-  "conditions": [{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "type": "ad_astra:glacian_ram" } }],
-  "item": { "id": "ad_astra:ice_shard", "Count": 1 }
+  "type": "libx:addition",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "ad_astra:glacian_ram"
+      }
+    }
+  ],
+  "loot_table": "ctnh:inject/glacian_ram_ice_shard"
 }

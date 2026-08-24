@@ -1,8 +1,18 @@
 {
-  "type": "moonlight:add_item",
+  "type": "libx:addition",
   "conditions": [
-    { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "type": "ad_astra:mogler" } },
-    { "condition": "minecraft:random_chance_with_looting", "chance": 0.15, "looting_multiplier": 0.05 }
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "ad_astra:mogler"
+      }
+    },
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.15,
+      "looting_multiplier": 0.05
+    }
   ],
-  "item": { "id": "gtceu:pyrotheum_dust", "Count": 1 }
+  "loot_table": "ctnh:inject/mogler_pyrotheum"
 }

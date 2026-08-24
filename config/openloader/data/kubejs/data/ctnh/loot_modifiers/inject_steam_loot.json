@@ -1,53 +1,187 @@
 {
-  "type": "moonlight:add_loot_table",
-  "conditions": [{
-    "condition": "moonlight:loot_table_id_patter",
-    "matches": [
-      "^dungeons_arise:chests/abandoned_temple/abandoned_temple_entrance$",
-      "^dungeons_arise:chests/abandoned_temple/abandoned_temple_top$",
-      "^dungeons_arise:chests/aviary/aviary_normal$",
-      "^dungeons_arise:chests/bandit_towers/bandit_towers_barrels$",
-      "^dungeons_arise:chests/bandit_towers/bandit_towers_gardens$",
-      "^dungeons_arise:chests/bandit_village/bandit_village_barrels$",
-      "^dungeons_arise:chests/foundry/foundry_passage_exterior$",
-      "^dungeons_arise:chests/heavenly_challenger/heavenly_challenger_normal$",
-      "^dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_normal$",
-      "^dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_barrels$",
-      "^dungeons_arise:chests/heavenly_rider/heavenly_rider_treasure$",
-      "^dungeons_arise:chests/heavenly_rider/heavenly_rider_normal$",
-      "^dungeons_arise:chests/heavenly_rider/heavenly_rider_barrels$",
-      "^dungeons_arise:chests/illager_fort/illager_fort_treasure$",
-      "^dungeons_arise:chests/illager_fort/illager_fort_barrels$",
-      "^dungeons_arise:chests/infested_temple/infested_temple_room_normal$",
-      "^dungeons_arise:chests/infested_temple/infested_temple_room_garden$",
-      "^dungeons_arise:chests/infested_temple/infested_temple_room_table$",
-      "^dungeons_arise:chests/keep_kayra/keep_kayra_garden_normal$",
-      "^dungeons_arise:chests/keep_kayra/keep_kayra_library_normal$",
-      "^dungeons_arise:chests/keep_kayra/keep_kayra_normal$",
-      "^dungeons_arise:chests/mining_system/mining_system_treasure$",
-      "^dungeons_arise:chests/mushroom_village/mushroom_village_treasure$",
-      "^dungeons_arise:chests/plague_asylum/plague_asylum_normal$",
-      "^dungeons_arise:chests/plague_asylum/plague_asylum_cells$",
-      "^dungeons_arise:chests/plague_asylum/plague_asylum_storage$",
-      "^dungeons_arise:chests/scorched_mines/scorched_mines_barrels$",
-      "^dungeons_arise:chests/scorched_mines/scorched_mines_housing$",
-      "^dungeons_arise:chests/scorched_mines/scorched_mines_hub$",
-      "^dungeons_arise:chests/scorched_mines/scorched_mines_normal$",
-      "^dungeons_arise:chests/shiraz_palace/shiraz_palace_elite$",
-      "^dungeons_arise:chests/shiraz_palace/shiraz_palace_normal$",
-      "^dungeons_arise:chests/shiraz_palace/shiraz_palace_gardens$",
-      "^dungeons_arise:chests/shiraz_palace/shiraz_palace_library$",
-      "^dungeons_arise:chests/shiraz_palace/shiraz_palace_rooms$",
-      "^dungeons_arise:chests/shiraz_palace/shiraz_palace_supply$",
-      "^dungeons_arise:chests/shiraz_palace/shiraz_palace_towers$",
-      "^dungeons_arise:chests/small_blimp/small_blimp_treasure$",
-      "^dungeons_arise:chests/thornborn_towers/thornborn_towers_barrels$",
-      "^dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_barrels$",
-      "^dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_treasure$",
-      "^explorations:chests/underground_temple/dungeon$",
-      "^minecraft:chests/jungle_temple$",
-      "^minecraft:chests/desert_pyramid$"
-    ]
-  }],
+  "type": "libx:addition",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/abandoned_temple/abandoned_temple_entrance"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/abandoned_temple/abandoned_temple_top"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/aviary/aviary_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/bandit_towers/bandit_towers_barrels"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/bandit_towers/bandit_towers_gardens"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/bandit_village/bandit_village_barrels"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/foundry/foundry_passage_exterior"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_barrels"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/heavenly_rider/heavenly_rider_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/heavenly_rider/heavenly_rider_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/heavenly_rider/heavenly_rider_barrels"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/illager_fort/illager_fort_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/illager_fort/illager_fort_barrels"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/infested_temple/infested_temple_room_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/infested_temple/infested_temple_room_garden"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/infested_temple/infested_temple_room_table"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/keep_kayra/keep_kayra_garden_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/keep_kayra/keep_kayra_library_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/keep_kayra/keep_kayra_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/mining_system/mining_system_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/mushroom_village/mushroom_village_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/plague_asylum/plague_asylum_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/plague_asylum/plague_asylum_cells"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/plague_asylum/plague_asylum_storage"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_barrels"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_housing"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_hub"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/shiraz_palace/shiraz_palace_elite"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/shiraz_palace/shiraz_palace_normal"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/shiraz_palace/shiraz_palace_gardens"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/shiraz_palace/shiraz_palace_library"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/shiraz_palace/shiraz_palace_rooms"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/shiraz_palace/shiraz_palace_supply"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/shiraz_palace/shiraz_palace_towers"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/small_blimp/small_blimp_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/thornborn_towers/thornborn_towers_barrels"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_barrels"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_treasure"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "explorations:chests/underground_temple/dungeon"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/jungle_temple"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:chests/desert_pyramid"
+        }
+      ]
+    }
+  ],
   "loot_table": "ctnh:inject/steam"
 }

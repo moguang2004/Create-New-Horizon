@@ -1,9 +1,22 @@
 {
-  "type": "moonlight:add_loot_table",
+  "type": "libx:addition",
   "conditions": [
-    { "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "type": "minecraft:pig" } },
-    { "condition": "minecraft:killed_by_player" },
-    { "condition": "minecraft:match_tool", "predicate": { "tag": "forge:tools/butchery_knives" } }
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:pig"
+      }
+    },
+    {
+      "condition": "minecraft:killed_by_player"
+    },
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "tag": "forge:tools/butchery_knives"
+      }
+    }
   ],
   "loot_table": "ctnh:inject/tallow"
 }

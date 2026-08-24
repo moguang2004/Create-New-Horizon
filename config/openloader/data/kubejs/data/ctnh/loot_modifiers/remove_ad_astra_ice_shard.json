@@ -1,12 +1,25 @@
 {
   "type": "libx:removal",
-  "conditions": [{
-    "condition": "moonlight:loot_table_id_patter",
-    "matches": [
-      "^ad_astra:chests/dungeon/moon/dungeon_chest$",
-      "^ad_astra:chests/dungeon/moon/large_dungeon_chest$",
-      "^ad_astra:chests/temple/mars/temple$"
-    ]
-  }],
-  "items": ["ad_astra:ice_shard"]
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "ad_astra:chests/dungeon/moon/dungeon_chest"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "ad_astra:chests/dungeon/moon/large_dungeon_chest"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "ad_astra:chests/temple/mars/temple"
+        }
+      ]
+    }
+  ],
+  "items": [
+    "ad_astra:ice_shard"
+  ]
 }
