@@ -36,9 +36,8 @@ All artwork (images, textures, models, animations, etc.) is licensed under the [
 
 ## 总体介绍
 
-集科技、魔法、冒险于一体的大型魔改整合包！名字源自大名鼎鼎的 GTNH，此整合包的理想也是做出一个能够在玩法趣味上不断追赶 GTNH 的整合包。
-
-本整合包以**格雷科技**和**机械动力**为核心，辅以数个精选优质的魔法和冒险模组，将玩家的体验拉到最大，得以让你在高版本 1.20.1 中感受到来自远古古神 GregTech 和新晋王者 Create 带给你的魅力。
+这是一款集科技、魔法、冒险、农业为一体的大型科技向整合包。最初的作者受经典格雷包《Gregtech：New Horizon》的启发，选择以New Horizon为名称并开始制作一个结合机械动力(Create)与格雷科技(GregTech)的科技包。随着更多成员加入团队，以及近两年的制作与发布后一年多的完善优化，CTNH已经具备了许多全新且独特的内容，能够为玩家的MC之旅带来全新视野。  
+整合包主要模组包含机械动力、格雷科技、植物魔法、血魔法、血肉重铸2、应用能源、Alex洞穴等，以及多个自研模组（CTNH-Core、CTNH-Bio、CT++等）为这些模组提供兼容、魔改或更多自定义内容，同时有详细的任务书、新的思索页面为玩家提供详细指导。目前合计魔改了数十万个配方，增加了120+个多方块机器，当前版本全流程需要200+小时。
 
 ### 核心模组
 #### 科技
@@ -58,27 +57,49 @@ All artwork (images, textures, models, animations, etc.) is licensed under the [
 - [暮色森林](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
 - [天境](https://www.curseforge.com/minecraft/mc-mods/aether)
 - [Ad: Astra](https://www.curseforge.com/minecraft/mc-mods/ad-astra)
-- [Alex 洞穴](https://www.curseforge.com/minecraft/mc-mods/alexs-caves)
+- [匠魂3](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
 - [传说生存](https://www.curseforge.com/minecraft/mc-mods/legendary-survival-overhaul)
 
 #### Qol
 
 - [脚步声](https://www.curseforge.com/minecraft/mc-mods/presence-footsteps-forge)
-- [动态环绕](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings)
-- [Weather2](https://www.curseforge.com/minecraft/mc-mods/weather-storms-tornadoes)
 
-### 主线科技
+### 内容展示
+#### 科技模块
+##### 机械动力（Create）
+整合包基于6.0+版本的机械动力，及诸多附属（经典改进、冶金学、电气时代、矿石开掘等），设计了独具特色的齿轮风格科技玩法。同时基于自研模组CT++让机械动力和格雷科技深度融合，例如应力多方块机器，同时增加了一种新的装置实体多方块，这种多方块在成型之后会有一部分方块变为装置实体，实现旋转或者平移，在视觉上给玩家更多的惊喜。
+![机械动力1](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\Create_1.png)
+![机械动力2](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\Create_2.png)
 
-整合包以和机械动力（前期）和格雷科技（中后期）为中心玩法不断扩展，目前已实现从世界出生到格雷 UHV 电压阶段的主线内容（未来会根据需求调整）。本包修改并添加了 10000+ 魔改配方，重置了原版 GT 的多种矿物产线，自定义了**一百多个**拥有独特机制的格雷多方块（如符合逻辑斯蒂生长曲线的发酵罐、随天气时间效率发生变化的光伏发电，以剥削村民来生产的“血汗工厂”特色机器等），未来计划根据需要将添加更多的巨构多方块机器，并同时不断优化玩家游玩的体验。
+##### 格雷科技（Gregtech）
+整合包计划制做15压内容（LV~MAX，蒸汽时代被机械动力替代），目前最高电压为UHV。对于GTM原本的每个电压内容都进行了扩充，添加了多种具有独特机制的机器。
+![格雷科技1](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\Gregtech_1.png)
 
-此外，我们制作组在 GTM 本体抛弃与机械动力的联动后将这一部分联动功能分离出来，并加以改进创新，自研出 [CT++](https://www.curseforge.com/minecraft/mc-mods/ct) 模组，实现了基础应力机器以及应力多方块的模板，在未来更会增加许多与 GregTech 深入联动的机制和配方。
-
-### 魔法与冒险
-除了主线本身，本整合包也积极调整各路支线与主线之间的联系，植物魔法和血魔法的相关魔改已全部完成（但仍计划继续加入特色机器），玩家们可以在发展魔法的同时利用魔力进行发电/召唤陨石来获取所需要的资源/消耗魔力也能够提升部分机器的运行效率，不过发展魔法也离不开一些独特的科技和冒险材料。
-
-对于不同维度的探险也是一大特点（之后会考虑加入玩家选择是否跳过探险环节的机制），冒险元素不会过分给予游戏科技主线流程负面影响，各种冒险元素组合调整成的趣味玩法也能在一定程度上帮助科技发展。有神化的加持再加上调整过的盔甲防御曲线应该不会打不过怪吧。
-
-当然，本整合包还有许多提升生活质量的模组和改动，添加的体温模组和天气模组虽然拓展了游戏难度的维度，但经过玩家测试反馈不断调整后的各个群系温度让整合包更具现实感。此外，不同的农业相关模组和东方女仆也试图让玩家能在各种复杂数值中寻求简单的闲情雅致，当玩家辛勤劳动，取得丰收的成果之后，更是可以利用乐事系列模组做出的美味食物换取货币，从小市场中购买发展科技所需的工业原料。
+##### 血肉重铸2（Biomancy2）
+整合包通过自研模组CTNH-Bio将其与格雷科技、敌对神经网络等科技模组深度结合，增加了血肉朋克风格的独特机器与产线
+![血肉重铸2](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\Biomancy_1.jpeg)
+![血肉重铸2](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\Biomancy_2.png)
+##### 应用能源2（Applied Energetics 2）
+对AE2进行了深度魔改，增加了样板供应器高级阻挡、自动翻倍发配等使用优化，并添加了可以处理合成任务多方块结构九章|量子超算。
+![应用能源2](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\Ae2_1.png)
+#### 魔法模块
+整合包中魔法线是一条与科技深度融合的支线，可以为GT科技主线发展带来便利。
+（除最终毕业物品的合成之外，魔法均为可选内容，发展过程中不会出现魔法卡科技的情况）
+##### 植物魔法（Botania）
+我们对植物魔法的资源获取、配方进行了深度魔改，也增添了很多机制实用且精美的多方块结构，便于玩家们从植物魔法内获取到大量资源辅助推进科技。
+![植物魔法](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\Botania_1.png)
+##### 血魔法（BloodMagic）
+我们为血魔法增添了更多仪式、以及血魔法的多方块结构，包括坠星操作者、恶魔意志发电机等。
+![血魔法](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\BloodMagic_1.png)
+##### 新生魔艺（Ars Nouvaeu）
+在不影响平衡的基础上尽可能保留原生风味，同时设计了美观详细的任务指引（PS：在未来这部分内容会和科技进行结合）
+![新生魔艺](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\ArsNouvaeu_1.gif)
+#### 冒险模块
+暮色森林（The Twilight Forest）、天境（The Aether）、星际（Ad Astra!）为整合包添加了多维度探索。也使用了神话（Apotheosis）强化了怪物的强度以及玩家的属性、同时使用了传说生存（Legendary Survival Overhaul）、沉浸式飞机（Immersive Aircraft）、为生存玩法增添更多的风味。  
+冒险内容对科技发展会有帮助，玩家必须探索世界来收集需要的资源（矿物、生物等），但不会出现必须获得某种战利品或必须击败某个boss才能推进科技的情况。
+![冒险1](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\adventure_1.gif)
+（冒险与农业爱好者的额外福利：制作出水晶催化剂即可跳过整条铂系金属处理产线）
+![冒险2](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\adventure_2.gif)
 
 ### 魔改内容
 
@@ -86,7 +107,7 @@ All artwork (images, textures, models, animations, etc.) is licensed under the [
 2. **自定义的多方块机器** - 利用 GregTech 的 API，定义了 100+ 多方块结构，其中至少一半有着独特的配方机制。
 3. **完善的毕业流程** - 虽然整合包还在持续更新开发中，但目前已经拥有了一个阶段性的完整目标，位于格雷科技 UHV 电压末期，目前毕业所需时间大概 250+h
 4. **详尽的任务指导** - 拥有 800+ 任务指导，以及丰富的任务奖励（食物），帮助你度过前期，以及从原始人阶段到 UHV 毕业过程中的详细教程
-5. **核心模组** - 为了满足魔改需求，我们制作了自己的核心模组 CTNH-Core
+5. **核心模组** - 为了满足魔改需求，我们制作了自己的核心模组 CTNH-Core，下分CTNH-Bio、CTNH-Energy、CTPP、CTNH-Mana等子模块
 6. **对多个模组的优化和修复** - 鉴于有部分模组存在 bug 以及卡顿的现象，我们自己通过 mixin 或者 hotai 对 bug 进行了修复，以提高玩家们的体验
 7. **自定义结构** - 制作组藏了一些有趣的结构彩蛋在世界中，期待你来发掘
 
@@ -104,7 +125,6 @@ All artwork (images, textures, models, animations, etc.) is licensed under the [
 
 本整合包将会不断更新，给大家提供更多新奇有趣的新流程，新机器，新世界。
 
-* **生物线拓展**：引入血肉重铸模组，深入魔改，打造全新的生物机器！
 * **量子反常**：为整合包后期流程加入量子力学！
 * **新能源新概念**：磁场和磁力将会加入游戏，与格雷机器之间产生复杂的反应
 * **更多更好的机械动力**：会持续拓宽机械动力的上限，推出更多带有格雷特色的机械动力机器
@@ -113,10 +133,8 @@ All artwork (images, textures, models, animations, etc.) is licensed under the [
 ---
 
 ## 游戏内截图展示
-![task1](config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/guide1.jpg)
-![tsak2](config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/guide2.jpg)
-带有机械动力特色的格雷机器
-![windmill](config/openloader/resources/kubejs/assets/ctnh/textures/readme_image/windmill_control.jpg)
+![overview1](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\overview_1.png)
+![overview2](config\openloader\resources\kubejs\assets\ctnh\textures\readme_image\overview_2.png)
 
 ---
 
