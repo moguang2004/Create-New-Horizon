@@ -265,7 +265,7 @@
 		#Range: > 1024
 		watermark_high = 2097152
 		#Range: > 1
-		max_pending_writes = 4096
+		max_pending_writes = 65536
 		#Range: 1 ~ 3600
 		max_unwritable_seconds = 15
 
