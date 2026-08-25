@@ -1555,7 +1555,7 @@
 			subtitle: "一只普普通通的，寰宇剑都砍不死的人偶"
 			tasks: [{
 				id: "6D307D13497C094F"
-				item: "dummmmmmy:target_dummy"
+				item: "powerful_dummy:dummy_stand"
 				type: "item"
 			}]
 			x: 2.5d

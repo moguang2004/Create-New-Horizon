@@ -1703,11 +1703,11 @@
 				"06EBC3E30CAE1746"
 				"61F811C645F2F3D5"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"蓝火塑形：8预制钢粉→精炼铁方坯。"
 				"之后烧结窑是更好的手段（不过需要钢）。"
 			]
-			dependency_requirement: "one_completed"
 			id: "681330A347F7142A"
 			rewards: [{
 				count: 16

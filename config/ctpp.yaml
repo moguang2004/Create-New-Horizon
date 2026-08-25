@@ -21,6 +21,9 @@ gtmConfig:
   # Is GTM ElectricGearBox Enabled?
   enableGTMElectricGearBox: true
 
+  # Electric Gearbox's RPM per amp (1~256)
+  electricGearBoxRpmPerAmp: 16
+
 # CTNH's Configs
 ctnhConfig:
   # Is CTNH SmashingFactory Enabled?

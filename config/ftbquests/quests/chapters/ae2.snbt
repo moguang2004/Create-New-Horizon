@@ -1863,7 +1863,7 @@
 			subtitle: "不想堆机器？"
 			tasks: [{
 				id: "0561A9088D0064BD"
-				item: "pccard:card_programmed_circuit"
+				item: "ctnhenergy:programmed_circuit_card"
 				type: "item"
 			}]
 			x: 11.0d
