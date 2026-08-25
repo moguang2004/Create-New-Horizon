@@ -8947,6 +8947,11 @@ hash = "066c0a3bbd48eeb60e12bca950b10613369876468207b8df6bb3858af50c9d55"
 metafile = true
 
 [[files]]
+file = "mods/ae2-network-analyser.pw.toml"
+hash = "59b441c02123a358b138b0e1421fdb085b8138392f2a65ff479e09d3f10098f2"
+metafile = true
+
+[[files]]
 file = "mods/ae2-pattern-workstation.pw.toml"
 hash = "31a890a89efab73b955d0b7254cf81659921b208fe4cb6a53012c4fb79d54e01"
 metafile = true
