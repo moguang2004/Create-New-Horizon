@@ -915,465 +915,6 @@
 			y: -8.5d
 		}
 		{
-			description: ["{就是步骤多了点，还是能接受的，毕竟产物摆在那里呢}"]
-			id: "322F3AB4C2159BA6"
-			size: 2.0d
-			subtitle: "准备好了再来！"
-			tasks: [{
-				id: "53E22F6FB6888FED"
-				item: "gtceu:rare_earth_dust"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -5.5d
-		}
-		{
-			dependencies: [
-				"5F7C1F7E4EA0A9A1"
-				"322F3AB4C2159BA6"
-				"0ADCFEB9B2B80C10"
-			]
-			id: "12B29F2D149B5865"
-			tasks: [{
-				id: "3A59BECF540253E3"
-				item: "ctnhcore:rare_earth_mixture_oh_bucket"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -5.5d
-		}
-		{
-			dependencies: [
-				"12B29F2D149B5865"
-				"0A6D5DF8602DAB82"
-			]
-			dependency_requirement: "one_completed"
-			id: "5ABDB2643F74087B"
-			subtitle: "你依旧有两种选择"
-			tasks: [{
-				id: "76FBA884D6A1155A"
-				item: "ctnhcore:rare_earth_chloride_solution_bucket"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["5ABDB2643F74087B"]
-			id: "6B022C0DA9100DA4"
-			tasks: [{
-				id: "59EAFC63AA548062"
-				item: "ctnhcore:rare_earth_chloride_boil_bucket"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: [
-				"6B022C0DA9100DA4"
-				"0A2E14AD810C0644"
-			]
-			id: "7459A5BE2474299F"
-			tasks: [{
-				id: "0467D85E4E98B4A7"
-				item: "ctnhcore:rare_earth_crystals_dust"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["7459A5BE2474299F"]
-			id: "52D72E1488A03F9D"
-			tasks: [
-				{
-					id: "7C31A8C5D18A22A8"
-					item: "ctnhcore:rare_earth_high_affinity_bucket"
-					type: "item"
-				}
-				{
-					id: "66932C07D8DB610B"
-					item: "ctnhcore:rare_earth_low_affinty_bucket"
-					type: "item"
-				}
-			]
-			title: "亲和力稀土"
-			x: 0.0d
-			y: -5.5d
-		}
-		{
-			dependencies: [
-				"52D72E1488A03F9D"
-				"048E6F0643F91E9C"
-			]
-			id: "50082206B32FD567"
-			tasks: [{
-				id: "53A425186EAEB174"
-				item: "ctnhcore:rare_earth_high_dust"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: [
-				"52D72E1488A03F9D"
-				"048E6F0643F91E9C"
-			]
-			id: "641CDB640F9C7234"
-			tasks: [{
-				id: "6F981DC3B53D0CFE"
-				item: "ctnhcore:rare_earth_middle_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.5d
-		}
-		{
-			dependencies: [
-				"52D72E1488A03F9D"
-				"048E6F0643F91E9C"
-			]
-			id: "2823DB2D144AA9E5"
-			tasks: [{
-				id: "68DAC97D9E369297"
-				item: "ctnhcore:rare_earth_low_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: [
-				"50082206B32FD567"
-				"7C0C6B00A4AA43B5"
-			]
-			id: "46DE226BC1554369"
-			tasks: [{
-				id: "07D36B9A4F305E89"
-				item: "ctnhcore:rare_earth_high_fluoride_bucket"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"641CDB640F9C7234"
-				"7C0C6B00A4AA43B5"
-			]
-			id: "2D9A92A48E5B7EED"
-			tasks: [{
-				id: "488CA624535CF9B9"
-				item: "ctnhcore:rare_earth_middle_fluoride_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"2823DB2D144AA9E5"
-				"7C0C6B00A4AA43B5"
-			]
-			id: "3D0CFCF369A86C0A"
-			tasks: [{
-				id: "6E1FBFA487DBC60D"
-				item: "ctnhcore:rare_earth_low_fluoride_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"3D0CFCF369A86C0A"
-				"613B471B9179A7C6"
-			]
-			id: "045E7576495E3012"
-			tasks: [{
-				id: "14003A1E9BCCCE05"
-				item: "ctnhcore:rare_earth_low_fluoride_steam_bucket"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"2D9A92A48E5B7EED"
-				"613B471B9179A7C6"
-			]
-			id: "08F6ED9546D2B275"
-			tasks: [{
-				id: "0736D1383971505C"
-				item: "ctnhcore:rare_earth_middle_fluoride_steam_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"46DE226BC1554369"
-				"613B471B9179A7C6"
-			]
-			id: "09A053412B602BAF"
-			tasks: [{
-				id: "39C601FC6BC51EF0"
-				item: "ctnhcore:rare_earth_high_fluoride_steam_bucket"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"08F6ED9546D2B275"
-				"045E7576495E3012"
-				"09A053412B602BAF"
-			]
-			id: "29C13DAEA1A3D024"
-			tasks: [
-				{
-					id: "2CE2651DF8B610D2"
-					item: "ctnhcore:lanthanum_cerium_praseodymium_neodymium_oxygen_mixture_dust"
-					type: "item"
-				}
-				{
-					id: "2B8728D7D65651E2"
-					item: "ctnhcore:europium_gadolinium_terbium_dysprosium_oxygen_mixture_dust"
-					type: "item"
-				}
-				{
-					id: "514D7C8BCA1F80CA"
-					item: "ctnhcore:yttrium_holmium_erbium_thulium_ytterbium_oxygen_lutetium_mixture_dust"
-					type: "item"
-				}
-			]
-			title: "轻，中，重？"
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["29C13DAEA1A3D024"]
-			id: "14EE5543DC5E4D5D"
-			tasks: [
-				{
-					id: "4FE7D67642E69C63"
-					item: "ctnhcore:lan_cer_pra_neo_chloride_dust"
-					type: "item"
-				}
-				{
-					id: "6B6AB5CA0A349CB1"
-					item: "ctnhcore:eur_gado_ter_dyspr_chloride_dust"
-					type: "item"
-				}
-				{
-					id: "00B57E875B18C1FA"
-					item: "ctnhcore:ytt_hol_erb_thu_ytt_chloride_dust"
-					type: "item"
-				}
-			]
-			title: "轻，中，重!"
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["14EE5543DC5E4D5D"]
-			id: "2AE97425476D5584"
-			subtitle: "还有钪和钇"
-			tasks: [{
-				id: "42ECF3A7680057D3"
-				title: "镧系"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["2AE97425476D5584"]
-			dependency_requirement: "one_completed"
-			id: "06FD1CB0C3AA2CC7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "700C534826081653"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "3023DE2E1A600C72"
-					item: "gtceu:lanthanum_dust"
-					type: "item"
-				}
-				{
-					id: "58F9C838356D4A3A"
-					item: "gtceu:cerium_dust"
-					type: "item"
-				}
-				{
-					id: "35CAB8F5E5054229"
-					item: "gtceu:praseodymium_dust"
-					type: "item"
-				}
-				{
-					id: "2C4899856DD59F3A"
-					item: "gtceu:neodymium_dust"
-					type: "item"
-				}
-				{
-					id: "710720634454909E"
-					item: "gtceu:promethium_dust"
-					type: "item"
-				}
-			]
-			x: 3.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["2AE97425476D5584"]
-			dependency_requirement: "one_completed"
-			id: "1B08CB9E24BDF006"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "481BA077DD43DE3A"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "7F24A0FAD022B0D4"
-					item: "gtceu:samarium_dust"
-					type: "item"
-				}
-				{
-					id: "72BBF1DF6210DF0C"
-					item: "gtceu:europium_dust"
-					type: "item"
-				}
-				{
-					id: "695F9DC67FD84C9A"
-					item: "gtceu:gadolinium_dust"
-					type: "item"
-				}
-				{
-					id: "147F5ACEEC2DC3EE"
-					item: "gtceu:terbium_dust"
-					type: "item"
-				}
-				{
-					id: "1A58545ABC343D66"
-					item: "gtceu:dysprosium_dust"
-					type: "item"
-				}
-				{
-					id: "090CB5F18522C859"
-					item: "gtceu:holmium_dust"
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["2AE97425476D5584"]
-			dependency_requirement: "one_completed"
-			id: "296D732ACD37138B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2B4C9BACB4333F3D"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "06452BAA7036D925"
-					item: "gtceu:erbium_dust"
-					type: "item"
-				}
-				{
-					id: "14047CEEAD05D325"
-					item: "gtceu:thulium_dust"
-					type: "item"
-				}
-				{
-					id: "50AABFF90710FEA3"
-					item: "gtceu:ytterbium_dust"
-					type: "item"
-				}
-				{
-					id: "33211A4D2291BCA6"
-					item: "gtceu:lutetium_dust"
-					type: "item"
-				}
-				{
-					id: "75F030B35B6FF09B"
-					item: "gtceu:scandium_dust"
-					type: "item"
-				}
-				{
-					id: "48A87A84625D67B6"
-					item: "gtceu:yttrium_dust"
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: 0.5d
-		}
-		{
-			id: "0A2E14AD810C0644"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2F2A0FC526D701EA"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "20A5FE7B29CB18C3"
-				item: "ctnhcore:crystallizer"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -6.5d
-		}
-		{
-			id: "048E6F0643F91E9C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "004B985C67BDC61F"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "69692022DA0E282C"
-				item: "ctnhcore:ion_exchanger"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -3.5d
-		}
-		{
-			id: "7C0C6B00A4AA43B5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "03E212EC25714E10"
-				table_id: 7618519509353548779L
-				type: "random"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "0F96A52A870B351C"
-				item: "ctnhcore:vacuum_sintering_tower"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["3B966B84827FDF0C"]
 			id: "209FAC261240DA4E"
 			rewards: [
@@ -1401,7 +942,7 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["1B08CB9E24BDF006"]
+			dependencies: ["0C3AD079E7852394"]
 			id: "7C9A7E04E0F1FFFB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1415,11 +956,11 @@
 				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			x: 7.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["1B08CB9E24BDF006"]
+			dependencies: ["0C3AD079E7852394"]
 			id: "474F529118B9CF93"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1432,8 +973,8 @@
 				item: "gtceu:raw_crystal_chip"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.5d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7C9A7E04E0F1FFFB"]
@@ -1449,11 +990,14 @@
 				item: "gtceu:iv_field_generator"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.5d
+			x: 8.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["474F529118B9CF93"]
+			dependencies: [
+				"474F529118B9CF93"
+				"69CD0122AD8B7CF4"
+			]
 			description: ["{但是你得LuV才能使用（}"]
 			id: "754CF2D0D96359C3"
 			rewards: [{
@@ -1469,8 +1013,8 @@
 				item: "gtceu:crystal_cpu"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.5d
+			x: 8.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["474F529118B9CF93"]
@@ -1487,11 +1031,11 @@
 				item: "gtceu:raw_crystal_chip_parts"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 0.5d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["1B08CB9E24BDF006"]
+			dependencies: ["0C3AD079E7852394"]
 			id: "43A67D7528B8D846"
 			rewards: [{
 				count: 64
@@ -1505,25 +1049,8 @@
 				item: "gtceu:samarium_ingot"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.5d
-		}
-		{
-			id: "613B471B9179A7C6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "786184F24CAC10AC"
-				table_id: 7618519509353548779L
-				type: "choice"
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "4903D201B3DDFF61"
-				item: "ctnhcore:condensing_discrete"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -1653,26 +1180,6 @@
 			y: -6.5d
 		}
 		{
-			id: "0ADCFEB9B2B80C10"
-			tasks: [{
-				id: "34FE378ABBF16143"
-				item: "gtceu:raw_bastnasite"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -4.0d
-		}
-		{
-			id: "5F7C1F7E4EA0A9A1"
-			tasks: [{
-				id: "5F2FCB1CF8F0E35C"
-				item: "gtceu:raw_monazite"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["3B966B84827FDF0C"]
 			id: "4B4E46B469586692"
 			tasks: [{
@@ -1707,8 +1214,8 @@
 				item: "ctnhcore:forest_sea_tree_farm"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.5d
+			x: 10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["268301BDF1F3BF0C"]
@@ -1718,8 +1225,8 @@
 				item: "ctnhcore:ecological_star"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			id: "3FCE466EEDE475AE"
@@ -1821,26 +1328,1571 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["109939F75357A5EE"]
-			id: "0A6D5DF8602DAB82"
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "536CFE739F04B2D0"
 			tasks: [{
-				id: "1215B9877DA85164"
-				item: "ctnhcore:ancient_debris_leach_bucket"
+				id: "09FE3B6B2BFEC6AB"
+				item: "gtceu:bastnasite_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["536CFE739F04B2D0"]
+			id: "1A2FE6E71D6A42A0"
+			tasks: [{
+				id: "31481B1054BECB0E"
+				item: "ctnhcore:roasted_bastnasite_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A2FE6E71D6A42A0"]
+			id: "33D0BE4981F80056"
+			tasks: [{
+				id: "3B0B630AA9C5969C"
+				item: "ctnhcore:cerium_leach_residue_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["33D0BE4981F80056"]
+			id: "24BDD76DE26A3D56"
+			tasks: [{
+				id: "52D455AA89A0A39D"
+				item: "ctnhcore:crude_cerium_chloride_solution_bucket"
 				type: "item"
 			}]
 			x: -5.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
-			id: "109939F75357A5EE"
-			subtitle: "它甚至有矿脉！虽然略难找"
+			dependencies: ["24BDD76DE26A3D56"]
+			id: "6C895F24570A779E"
 			tasks: [{
-				id: "524659F702B45550"
-				item: "minecraft:ancient_debris"
+				id: "647FF838B5B602E7"
+				item: "ctnhcore:crude_cerium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C895F24570A779E"]
+			id: "637E1F2B84DC3B60"
+			tasks: [{
+				id: "7EC8960F201917C7"
+				item: "ctnhcore:cerium_chloride_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"637E1F2B84DC3B60"
+				"5F49C89C886123AC"
+			]
+			dependency_requirement: "one_completed"
+			id: "72B5C769A2575EA0"
+			tasks: [{
+				id: "3DB0ADD4A41D3E72"
+				item: "gtceu:cerium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A2FE6E71D6A42A0"]
+			id: "0BA3A5C972D4F8DE"
+			tasks: [{
+				id: "2321C9E12D4F0E8D"
+				item: "ctnhcore:rare_earth_low_fluoride_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BA3A5C972D4F8DE"]
+			id: "29D39BFACE7AD643"
+			tasks: [{
+				id: "45B843B39610C548"
+				item: "ctnhcore:praseodymium_neodymium_loaded_organic_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0BA3A5C972D4F8DE"]
+			id: "2E3984414337AAB1"
+			tasks: [{
+				id: "2478494EEC55C10A"
+				item: "ctnhcore:crude_lanthanum_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29D39BFACE7AD643"]
+			id: "344BABDFA3F38D00"
+			tasks: [{
+				id: "535EB7466501D6D3"
+				item: "ctnhcore:crude_praseodymium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29D39BFACE7AD643"]
+			id: "390FA49CC3252CFE"
+			tasks: [{
+				id: "3E531EF9D2BB9028"
+				item: "ctnhcore:crude_neodymium_chloride_solution_bucket"
 				type: "item"
 			}]
 			x: -5.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["344BABDFA3F38D00"]
+			id: "439C64D1BC7DDEF2"
+			tasks: [{
+				id: "77A472C829A3CADD"
+				item: "ctnhcore:crude_praseodymium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["439C64D1BC7DDEF2"]
+			id: "2DCFFA51D8C325BC"
+			tasks: [{
+				id: "285CA8DCCDE20773"
+				item: "ctnhcore:praseodymium_chloride_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2DCFFA51D8C325BC"
+				"5F49C89C886123AC"
+			]
+			dependency_requirement: "one_completed"
+			id: "3C3C151D1AC66C14"
+			tasks: [{
+				id: "146D6E8371425EA7"
+				item: "gtceu:praseodymium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["390FA49CC3252CFE"]
+			id: "59F8AAF859D982F3"
+			tasks: [{
+				id: "63816874C6AAAFBC"
+				item: "ctnhcore:crude_neodymium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59F8AAF859D982F3"]
+			id: "519424EF7848BA65"
+			tasks: [{
+				id: "273A1A146E51C258"
+				item: "ctnhcore:neodymium_chloride_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"519424EF7848BA65"
+				"5F49C89C886123AC"
+			]
+			dependency_requirement: "one_completed"
+			id: "1154CACE5B28DDE9"
+			tasks: [{
+				id: "54F11F41D58E1C5F"
+				item: "gtceu:neodymium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E3984414337AAB1"]
+			id: "7843AFE22120BCE0"
+			tasks: [{
+				id: "471F4D860A2847CC"
+				item: "ctnhcore:crude_lanthanum_hydroxide_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7843AFE22120BCE0"]
+			id: "7B3F433A767A7379"
+			tasks: [{
+				id: "48898DC0CC6D6051"
+				item: "ctnhcore:lanthanum_chloride_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7B3F433A767A7379"
+				"5F49C89C886123AC"
+			]
+			dependency_requirement: "one_completed"
+			id: "161DF982CFCB0904"
+			tasks: [{
+				id: "6A6D13D3398CF26A"
+				item: "gtceu:lanthanum_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "675B8B9E9D69CF1E"
+			tasks: [{
+				id: "0FA4589FFA4A30D2"
+				item: "gtceu:monazite_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["675B8B9E9D69CF1E"]
+			id: "26FFDFB31E31902C"
+			tasks: [{
+				id: "2D0543098F4939E2"
+				item: "ctnhcore:rare_earth_mixture_oh_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26FFDFB31E31902C"]
+			id: "2CC8A616CD95F4C7"
+			tasks: [{
+				id: "586A117DA4145F07"
+				item: "ctnhcore:thorium_calcium_leach_residue_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2CC8A616CD95F4C7"
+				"68EA197C4A36A0B2"
+			]
+			dependency_requirement: "one_completed"
+			id: "6172C59E8D7DA8A0"
+			tasks: [{
+				id: "234174EC4AF3FE94"
+				item: "gtceu:thorium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26FFDFB31E31902C"]
+			id: "7A1C7AF7BDDF388F"
+			tasks: [{
+				id: "67E09E8DB64C0F88"
+				item: "ctnhcore:rare_earth_middle_fluoride_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A1C7AF7BDDF388F"]
+			id: "5F76112E22C64980"
+			tasks: [{
+				id: "257A9D74FAFFFDB8"
+				item: "ctnhcore:europium_precipitate_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A1C7AF7BDDF388F"]
+			id: "6CAA60FF7BF0072B"
+			tasks: [{
+				id: "2F02FC7E23F2386F"
+				item: "ctnhcore:europium_free_middle_rare_earth_solution_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F76112E22C64980"]
+			id: "27590FC44F6D6A0A"
+			tasks: [{
+				id: "14AE5582FD896C97"
+				item: "ctnhcore:crude_europium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["27590FC44F6D6A0A"]
+			id: "65E737C0B6A65B1A"
+			tasks: [{
+				id: "13E370D28D3B23DF"
+				item: "ctnhcore:crude_europium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["65E737C0B6A65B1A"]
+			id: "3C3E3E42987B3022"
+			tasks: [{
+				id: "3D6D9443EB01841C"
+				item: "ctnhcore:crude_europium_oxide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C3E3E42987B3022"]
+			id: "2A7343D4FC6722A8"
+			tasks: [{
+				id: "274412E266BA03DD"
+				item: "ctnhcore:europium_chloride_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A7343D4FC6722A8"]
+			id: "1DC786728E56D4E5"
+			tasks: [{
+				id: "7E6520FC6D70B474"
+				item: "ctnhcore:refined_europium_chloride_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1DC786728E56D4E5"
+				"68EA197C4A36A0B2"
+			]
+			dependency_requirement: "one_completed"
+			id: "4C2456D911782515"
+			tasks: [{
+				id: "7A65817A6B73B522"
+				item: "gtceu:europium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6CAA60FF7BF0072B"]
+			id: "09508A36A11B62E6"
+			tasks: [{
+				id: "526DBAD15DF257C2"
+				item: "ctnhcore:samarium_gadolinium_loaded_organic_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CAA60FF7BF0072B"]
+			id: "600F817766602438"
+			tasks: [{
+				id: "498EDDF1F09BDC1F"
+				item: "ctnhcore:terbium_dysprosium_raffinate_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09508A36A11B62E6"]
+			id: "6F37BA28A7F90E16"
+			tasks: [{
+				id: "790CE5FCC70F506C"
+				item: "ctnhcore:crude_samarium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["09508A36A11B62E6"]
+			id: "770EBD27E1B69955"
+			tasks: [{
+				id: "3D7C637284517A00"
+				item: "ctnhcore:gadolinium_enriched_solution_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F37BA28A7F90E16"]
+			id: "3AC5B3E5FB78AD2D"
+			tasks: [{
+				id: "5D86E8F7A043B2B4"
+				item: "ctnhcore:crude_samarium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3AC5B3E5FB78AD2D"]
+			id: "52C189CD77C1795C"
+			tasks: [{
+				id: "082ABDB69D53793A"
+				item: "ctnhcore:crude_samarium_oxide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52C189CD77C1795C"]
+			id: "7A3A28C12B3E7CD2"
+			tasks: [{
+				id: "17F1A66BE091CCFF"
+				item: "ctnhcore:samarium_chloride_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7A3A28C12B3E7CD2"
+				"68EA197C4A36A0B2"
+			]
+			dependency_requirement: "one_completed"
+			id: "7EB8423DBFF256BB"
+			tasks: [{
+				id: "56DE592820599D18"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["770EBD27E1B69955"]
+			id: "0EF64221BA8E701C"
+			tasks: [{
+				id: "16F06FB69099C85A"
+				item: "ctnhcore:crude_gadolinium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EF64221BA8E701C"]
+			id: "2CCCD46B6CB1F70B"
+			tasks: [{
+				id: "2745ACB9E1D3B883"
+				item: "ctnhcore:crude_gadolinium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2CCCD46B6CB1F70B"]
+			id: "6D46E859AE382D95"
+			tasks: [{
+				id: "6AD85893812B2710"
+				item: "ctnhcore:crude_gadolinium_oxide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D46E859AE382D95"]
+			id: "2BC2E80FED8BD9DF"
+			tasks: [{
+				id: "481DB21A2051EDF8"
+				item: "ctnhcore:gadolinium_chloride_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2BC2E80FED8BD9DF"
+				"68EA197C4A36A0B2"
+			]
+			dependency_requirement: "one_completed"
+			id: "47E3D04C7FDF9B7B"
+			tasks: [{
+				id: "746DCC2E3F2A016B"
+				item: "gtceu:gadolinium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["600F817766602438"]
+			id: "79DA286A935C3E74"
+			tasks: [{
+				id: "59F896A6237C4BB7"
+				item: "ctnhcore:terbium_loaded_organic_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["79DA286A935C3E74"]
+			id: "3D3C19251D7DD18E"
+			tasks: [{
+				id: "0D22C162E6B2553E"
+				item: "ctnhcore:crude_terbium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D3C19251D7DD18E"]
+			id: "1BC58ACF04B4B41B"
+			tasks: [{
+				id: "169547FE145DBCAF"
+				item: "ctnhcore:crude_terbium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1BC58ACF04B4B41B"]
+			id: "16A753D5CE7755E9"
+			tasks: [{
+				id: "5B5AD54E87F2F587"
+				item: "ctnhcore:crude_terbium_oxide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["16A753D5CE7755E9"]
+			id: "123340C13FD61EAA"
+			tasks: [{
+				id: "7430F37EF7795B47"
+				item: "ctnhcore:terbium_chloride_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"123340C13FD61EAA"
+				"68EA197C4A36A0B2"
+			]
+			dependency_requirement: "one_completed"
+			id: "67AD15196704C155"
+			tasks: [{
+				id: "713E5009644D9AD4"
+				item: "gtceu:terbium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["600F817766602438"]
+			id: "26C23230661D0103"
+			tasks: [{
+				id: "5A0DCBC983C87F90"
+				item: "ctnhcore:dysprosium_tail_solution_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26C23230661D0103"]
+			id: "335AF33C6948509F"
+			tasks: [{
+				id: "6164FF71DFC79790"
+				item: "ctnhcore:crude_dysprosium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["335AF33C6948509F"]
+			id: "42BF65E48F69955F"
+			tasks: [{
+				id: "790DBA42155FC312"
+				item: "ctnhcore:crude_dysprosium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["42BF65E48F69955F"]
+			id: "3E63A4A00FF4E118"
+			tasks: [{
+				id: "7B329DF492DF81C7"
+				item: "ctnhcore:crude_dysprosium_oxide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E63A4A00FF4E118"]
+			id: "4A6BDFDB863D2F13"
+			tasks: [{
+				id: "3CE215B15C5BE32B"
+				item: "ctnhcore:dysprosium_chloride_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4A6BDFDB863D2F13"
+				"68EA197C4A36A0B2"
+			]
+			dependency_requirement: "one_completed"
+			id: "1E6C91C49CD802EB"
+			tasks: [{
+				id: "0FEF473F8651D6AF"
+				item: "gtceu:dysprosium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "74FD899C48D4ED62"
+			tasks: [{
+				id: "150CD61460E5590F"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74FD899C48D4ED62"]
+			id: "0C0C1DE95B370790"
+			tasks: [{
+				id: "4213B63ACD7B87D9"
+				item: "ctnhcore:scandium_leach_residue_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0C0C1DE95B370790"]
+			id: "4C5EEE8111DEE44E"
+			tasks: [{
+				id: "0DD7752A2359DA50"
+				item: "ctnhcore:crude_scandium_oxide_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4C5EEE8111DEE44E"]
+			id: "3538EDD0F9FF1D05"
+			tasks: [{
+				id: "79EF4D0174F0A654"
+				item: "ctnhcore:scandium_chloride_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3538EDD0F9FF1D05"]
+			id: "0B190E0A7E3F1AAF"
+			tasks: [{
+				id: "7AE5891D1F6DB53E"
+				item: "ctnhcore:refined_scandium_chloride_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0B190E0A7E3F1AAF"
+				"3CD17B00B15CE2BE"
+			]
+			dependency_requirement: "one_completed"
+			id: "5A5139199790E736"
+			tasks: [{
+				id: "67F6537627806309"
+				item: "gtceu:scandium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74FD899C48D4ED62"]
+			id: "60D39DD3F3CC7CE9"
+			tasks: [{
+				id: "38AA00E8991AAE13"
+				item: "ctnhcore:rare_earth_high_fluoride_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["60D39DD3F3CC7CE9"]
+			id: "7F33D439DF3E5268"
+			tasks: [{
+				id: "216B9B3412D151C1"
+				item: "ctnhcore:ytterbium_precipitate_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7F33D439DF3E5268"]
+			id: "639DAA1AF0F829E5"
+			tasks: [{
+				id: "60B44458D52E9DF7"
+				item: "ctnhcore:crude_ytterbium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["639DAA1AF0F829E5"]
+			id: "4A453687CC683584"
+			tasks: [{
+				id: "1430F2FE9F0DB8EA"
+				item: "ctnhcore:crude_ytterbium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4A453687CC683584"]
+			id: "64789889D5DC5C18"
+			tasks: [{
+				id: "45B3191C3FB0F23E"
+				item: "ctnhcore:crude_ytterbium_oxide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["64789889D5DC5C18"]
+			id: "7EED8CF2C696AF76"
+			tasks: [{
+				id: "6A8E965D67553B0E"
+				item: "ctnhcore:ytterbium_chloride_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7EED8CF2C696AF76"]
+			id: "57C22BBF51295E55"
+			tasks: [{
+				id: "338D26E0835B6A3F"
+				item: "ctnhcore:ytterbium_chloride_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"57C22BBF51295E55"
+				"3CD17B00B15CE2BE"
+			]
+			dependency_requirement: "one_completed"
+			id: "163A587C70B0A3B1"
+			tasks: [{
+				id: "282306F755D5D580"
+				item: "gtceu:ytterbium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["60D39DD3F3CC7CE9"]
+			id: "3DE14B77D8FBC3C7"
+			tasks: [{
+				id: "65DEBC4E79E61EEF"
+				item: "ctnhcore:ytterbium_free_heavy_rare_earth_solution_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3DE14B77D8FBC3C7"]
+			id: "35A55CB953F646AA"
+			tasks: [{
+				id: "775B4E2F58A5FF21"
+				item: "ctnhcore:yttrium_loaded_organic_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["35A55CB953F646AA"]
+			id: "69DD3CAC05219E68"
+			tasks: [{
+				id: "4C5EF7A5E6FAC8E8"
+				item: "ctnhcore:crude_yttrium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69DD3CAC05219E68"]
+			id: "7AA521ABA9EF45A7"
+			tasks: [{
+				id: "60BB5DCD45D8F27C"
+				item: "ctnhcore:crude_yttrium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7AA521ABA9EF45A7"]
+			id: "419391ACAE49035C"
+			tasks: [{
+				id: "70AE3261D9687294"
+				item: "ctnhcore:crude_yttrium_oxide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["419391ACAE49035C"]
+			id: "78993189C1C8BABB"
+			tasks: [{
+				id: "00680D7C7D400297"
+				item: "ctnhcore:yttrium_chloride_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["78993189C1C8BABB"]
+			id: "77D5C00D24C2BE65"
+			tasks: [{
+				id: "5C77CF6C2F8C3AFE"
+				item: "ctnhcore:refined_yttrium_chloride_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"77D5C00D24C2BE65"
+				"3CD17B00B15CE2BE"
+			]
+			dependency_requirement: "one_completed"
+			id: "140398AD4A365A52"
+			tasks: [{
+				id: "101C2C4F816C3C22"
+				item: "gtceu:yttrium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3DE14B77D8FBC3C7"]
+			id: "1D0E1CA7F6C2ED3F"
+			tasks: [{
+				id: "0F37917800EE64B8"
+				item: "ctnhcore:holmium_erbium_thulium_lutetium_raffinate_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1D0E1CA7F6C2ED3F"]
+			id: "60FD8D5E2784315D"
+			tasks: [{
+				id: "66411A402520934E"
+				item: "ctnhcore:holmium_erbium_lutetium_raffinate_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["60FD8D5E2784315D"]
+			id: "34C05C227D99E4CD"
+			tasks: [{
+				id: "64759C549AD24B5B"
+				item: "ctnhcore:holmium_lutetium_tail_solution_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["34C05C227D99E4CD"]
+			id: "768AB964245D4CB7"
+			tasks: [{
+				id: "0E7C8FA910E4EC1A"
+				item: "ctnhcore:lutetium_tail_solution_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1D0E1CA7F6C2ED3F"]
+			id: "72E56643F77B203A"
+			tasks: [{
+				id: "205AB5FEEC34CF2A"
+				item: "ctnhcore:thulium_chloride_vapor_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["72E56643F77B203A"]
+			id: "17192F80EFB80A65"
+			tasks: [{
+				id: "1ACC2F34834034E5"
+				item: "ctnhcore:crude_thulium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["17192F80EFB80A65"]
+			id: "3CFAAC86278555C7"
+			tasks: [{
+				id: "64D8065569C31A82"
+				item: "ctnhcore:crude_thulium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3CFAAC86278555C7"]
+			id: "64A55C6A7E662D20"
+			tasks: [{
+				id: "1A04035A1B54D5EA"
+				item: "ctnhcore:crude_thulium_oxide_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64A55C6A7E662D20"]
+			id: "421B4F03A95582F8"
+			tasks: [{
+				id: "264FB23E2579ECA6"
+				item: "ctnhcore:thulium_chloride_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["421B4F03A95582F8"]
+			id: "7BBD14DCF63CE31B"
+			tasks: [{
+				id: "6E70D42942346F43"
+				item: "ctnhcore:refined_thulium_chloride_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"7BBD14DCF63CE31B"
+				"3CD17B00B15CE2BE"
+			]
+			dependency_requirement: "one_completed"
+			id: "45EA4651DD8F996E"
+			tasks: [{
+				id: "6B5A154361944D3A"
+				item: "gtceu:thulium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["60FD8D5E2784315D"]
+			id: "569F44609718C99A"
+			tasks: [{
+				id: "117744C43A95302F"
+				item: "ctnhcore:crude_erbium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["569F44609718C99A"]
+			id: "7991CAC59B17E523"
+			tasks: [{
+				id: "17ABF0B4C72C3389"
+				item: "ctnhcore:crude_erbium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7991CAC59B17E523"]
+			id: "11E5F2B92D921ADD"
+			tasks: [{
+				id: "70FD3B9EC1879A0D"
+				item: "ctnhcore:crude_erbium_oxide_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["11E5F2B92D921ADD"]
+			id: "4D65496481B87D77"
+			tasks: [{
+				id: "31E92679F21E4637"
+				item: "ctnhcore:erbium_chloride_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4D65496481B87D77"]
+			id: "482FC8E2B005A6DE"
+			tasks: [{
+				id: "76EE68148E3C4232"
+				item: "ctnhcore:refined_erbium_chloride_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"482FC8E2B005A6DE"
+				"3CD17B00B15CE2BE"
+			]
+			dependency_requirement: "one_completed"
+			id: "296F540A921F32DC"
+			tasks: [{
+				id: "4EB869E584F8BF70"
+				item: "gtceu:erbium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["34C05C227D99E4CD"]
+			id: "460729AF59C47F26"
+			tasks: [{
+				id: "4E0ECE337E09869A"
+				item: "ctnhcore:crude_holmium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["460729AF59C47F26"]
+			id: "159E2EB7A3F524FF"
+			tasks: [{
+				id: "4B58A73765E9A8A4"
+				item: "ctnhcore:crude_holmium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["159E2EB7A3F524FF"]
+			id: "3C38ECED39D8452E"
+			tasks: [{
+				id: "1C5AD6C2538981A0"
+				item: "ctnhcore:crude_holmium_oxide_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3C38ECED39D8452E"]
+			id: "315D3A3F8F112DA5"
+			tasks: [{
+				id: "1EC6359E4556CAF3"
+				item: "ctnhcore:holmium_chloride_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["315D3A3F8F112DA5"]
+			id: "42E4B520E1C1E94B"
+			tasks: [{
+				id: "2E1F1E299A837A49"
+				item: "ctnhcore:refined_holmium_chloride_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"42E4B520E1C1E94B"
+				"3CD17B00B15CE2BE"
+			]
+			dependency_requirement: "one_completed"
+			id: "35CBE60B1D36640C"
+			tasks: [{
+				id: "2341E4A309FAC066"
+				item: "gtceu:holmium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["768AB964245D4CB7"]
+			id: "6BF2252BE830BCE2"
+			tasks: [{
+				id: "10193E235952153A"
+				item: "ctnhcore:crude_lutetium_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6BF2252BE830BCE2"]
+			id: "58820292DABFF58E"
+			tasks: [{
+				id: "44B79CC21C2F288F"
+				item: "ctnhcore:crude_lutetium_hydroxide_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["56349756E5C59AA3"]
+			id: "31E4DDE65F5FA8A8"
+			tasks: [{
+				id: "7274D9084E8ED4BE"
+				item: "ctnhcore:lutetium_chloride_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["58820292DABFF58E"]
+			id: "56349756E5C59AA3"
+			tasks: [{
+				id: "6FD85DE73FE70D95"
+				item: "ctnhcore:crude_lutetium_oxide_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["31E4DDE65F5FA8A8"]
+			id: "0DD96937587CCAD7"
+			tasks: [{
+				id: "1B659FEAD33E5981"
+				item: "ctnhcore:refined_lutetium_chloride_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"0DD96937587CCAD7"
+				"3CD17B00B15CE2BE"
+			]
+			dependency_requirement: "one_completed"
+			id: "725558E5FDCE5FF7"
+			tasks: [{
+				id: "0BA3AC50FB20C717"
+				item: "gtceu:lutetium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			id: "5F49C89C886123AC"
+			invisible: true
+			rewards: [
+				{
+					count: 512
+					id: "3113AF43BF53C47F"
+					item: "gtceu:raw_bastnasite_block"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "3325BCDE9A769A2A"
+					item: "gtceu:tungsten_steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "28BEF59FF086D884"
+					item: { Count: 64, id: "gtceu:cerium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "111A84AAF49EE5DD"
+					item: { Count: 64, id: "gtceu:neodymium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "796553AA05E151E7"
+					item: { Count: 64, id: "gtceu:lanthanum_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "19E625074D672FCA"
+					item: { Count: 64, id: "gtceu:praseodymium_dust" }
+					type: "item"
+				}
+			]
+			title: "恭喜你完成了轻稀土元素的分离！"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "68EA197C4A36A0B2"
+			invisible: true
+			rewards: [
+				{
+					count: 512
+					id: "15247D44E41BA6A5"
+					item: "gtceu:raw_monazite_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "25918DE8D7C56F38"
+					item: "gtceu:tungsten_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "760F5231DFE9E049"
+					item: { Count: 64, id: "gtceu:thorium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "73461718F8794F0E"
+					item: { Count: 64, id: "gtceu:europium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "72AC48429E518E6D"
+					item: { Count: 64, id: "gtceu:samarium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3FF39F9C572A62D6"
+					item: { Count: 64, id: "gtceu:gadolinium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "11855EF4069E4099"
+					item: { Count: 64, id: "gtceu:terbium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "688E57BD1E3CA698"
+					item: { Count: 64, id: "gtceu:dysprosium_dust" }
+					type: "item"
+				}
+			]
+			title: "恭喜你完成了中稀土元素的分离！"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "3CD17B00B15CE2BE"
+			invisible: true
+			rewards: [
+				{
+					count: 4096
+					id: "7C6FE8BAA8420549"
+					item: "gtceu:rare_earth_dust"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3DFFBC806D8DEFF9"
+					item: "gtceu:tungsten_carbide_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "1D9A78337F746190"
+					item: { Count: 64, id: "gtceu:lutetium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "578931412F403BD3"
+					item: { Count: 64, id: "gtceu:scandium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "30E79D8D9A5139C3"
+					item: { Count: 64, id: "gtceu:ytterbium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "72E061184BF3EEEA"
+					item: { Count: 64, id: "gtceu:yttrium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1EE03F140B22AD92"
+					item: { Count: 64, id: "gtceu:thulium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "762BB9AD90B4D18E"
+					item: { Count: 64, id: "gtceu:erbium_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "05D4FB2284392AF9"
+					item: { Count: 64, id: "gtceu:holmium_dust" }
+					type: "item"
+				}
+			]
+			title: "恭喜你完成了重稀土元素的分离！"
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"68EA197C4A36A0B2"
+				"3CD17B00B15CE2BE"
+				"5F49C89C886123AC"
+			]
+			dependency_requirement: "one_completed"
+			id: "0C3AD079E7852394"
+			tasks: [{
+				id: "0F3A165BDA2A15ED"
+				title: "待你完成你所有的稀土工业后，就可以开始新的章节了"
+				type: "checkmark"
+			}]
+			title: "完成部分稀土就可以开始准备踏入下一个科技阶段了"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			description: ["完成所有任务后，可以尝试将所有稀土元素的单质粉末一组一组握在手里...."]
+			id: "4990AF7EC0A4294F"
+			subtitle: "每个机器都有各自的两个参数，维护材料，调参材料，具体配方输入完成后见GUI提示"
+			tasks: [{
+				id: "7A07E69067A06F98"
+				title: "开始之前你所需要准备的"
+				type: "checkmark"
+			}]
+			title: "稀土工业前的准备"
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "418F54340DA1B635"
+			tasks: [{
+				id: "5787758923D40499"
+				item: "ctnhcore:crystallizer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "66AF4F9D290DBF07"
+			tasks: [{
+				id: "59094FE47C329D00"
+				item: "ctnhcore:oxidation_roasting_furnace"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "5619EE1ACF62B37C"
+			tasks: [{
+				id: "25E26D94DDA7F2E0"
+				item: "ctnhcore:vacuum_sintering_tower"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "5249DD9D48DB6627"
+			tasks: [{
+				id: "1F34DF7BBD38B4EE"
+				item: "ctnhcore:reduction_precipitation_tank"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "70B797E97C2F1BA9"
+			tasks: [{
+				id: "5BB1CA7CCFF1A03E"
+				item: "ctnhcore:solvent_extraction_tower"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "37EAE22F911A07B5"
+			tasks: [{
+				id: "4A7EE5EFD8FFE2E5"
+				item: "ctnhcore:condensing_discrete"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "1EA96D4777CD1D30"
+			tasks: [{
+				id: "743C41FADE27ED53"
+				item: "ctnhcore:ion_exchanger"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4990AF7EC0A4294F"]
+			id: "064948147DA4AE20"
+			tasks: [{
+				id: "5BCB815CF307CDB0"
+				item: "ctnhcore:high_pressure_alkali_digester"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
 		}
 	]
 	title: "&9IV&r时期"
